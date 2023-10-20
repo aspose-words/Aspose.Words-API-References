@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolderAlias
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt den Namen des Ordners an der zum Erstellen von SchriftartURIs verwendet wird die in ein HTMLDokument geschrieben werden. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: FontsFolderAlias
+articleTitle: FontsFolderAlias
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions FontsFolderAlias eigendom. Gibt den Namen des Ordners an der zum Erstellen von SchriftartURIs verwendet wird die in ein HTMLDokument geschrieben werden. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
@@ -14,7 +16,7 @@ Gibt den Namen des Ordners an, der zum Erstellen von Schriftart-URIs verwendet w
 public string FontsFolderAlias { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie a speichern[`Document`](../../../aspose.words/document/) im HTML-Format und[`ExportFontResources`](../exportfontresources/) ist eingestellt auf`WAHR` , Aspose.Words muss die im Dokument verwendeten Schriftarten als eigenständige Dateien speichern. [`FontsFolder`](../fontsfolder/) Hier können Sie angeben, wo die Schriftarten gespeichert werden und `FontsFolderAlias` ermöglicht die Angabe, wie die Schriftart-URIs erstellt werden.
 
@@ -26,7 +28,7 @@ Wenn`FontsFolderAlias`ist eingestellt auf '.' (Punkt), dann wird der Schriftdate
 
 Eine alternative Möglichkeit, den Namen des Ordners zum Erstellen der Schriftart-URIs anzugeben, ist die Verwendung[`ResourceFolderAlias`](../resourcefolderalias/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Aspose.Words für .NET-API-Referenz
-description: IChartDataPoint eigendom. Gibt den Betrag an um den der Datenpunkt von der Mitte des Kreises verschoben werden soll. Kann negativ sein. Negativ bedeutet dass die Eigenschaft nicht festgelegt ist und keine Explosion angewendet werden soll. Gilt nur für Kreisdiagramme.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words für .NET
+description: IChartDataPoint Explosion eigendom. Gibt den Betrag an um den der Datenpunkt von der Mitte des Kreises verschoben werden soll. Kann negativ sein. Negativ bedeutet dass die Eigenschaft nicht festgelegt ist und keine Explosion angewendet werden soll. Gilt nur für Kreisdiagramme in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ Gibt den Betrag an, um den der Datenpunkt von der Mitte des Kreises verschoben w
 public int Explosion { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abschnitte eines Kreisdiagramms von der Mitte weg verschoben werden.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### Siehe auch
 
 * interface [IChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

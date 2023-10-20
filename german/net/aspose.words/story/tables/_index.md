@@ -1,7 +1,9 @@
 ---
 title: Story.Tables
-second_title: Aspose.Words für .NET-API-Referenz
-description: Story eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Story sind.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words für .NET
+description: Story Tables eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Story sind in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/story/tables/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Tabellen ab, die unmittelbar untergeordnete Elemente der 
 public TableCollection Tables { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* namensraum [Aspose.Words](../../story/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

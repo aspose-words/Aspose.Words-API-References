@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomFactor
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab der den Zoomfaktor in Prozent für ein Dokument bestimmt oder legt diesen fest.
+linktitle: ZoomFactor
+articleTitle: ZoomFactor
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions ZoomFactor eigendom. Ruft einen Wert ab der den Zoomfaktor in Prozent für ein Dokument bestimmt oder legt diesen fest in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
@@ -14,11 +16,11 @@ Ruft einen Wert ab, der den Zoomfaktor (in Prozent) für ein Dokument bestimmt, 
 public int ZoomFactor { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dieser Wert wird nur verwendet, wenn[`ZoomBehavior`](../zoombehavior/) ist eingestellt aufZoomFactor .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Standardzoom festgelegt wird, den ein Leser beim Öffnen eines gerenderten PDF-Dokuments anwendet.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag methode. Löscht den Inhalt dieses strukturierten DokumentTags und zeigt einen Platzhalter an sofern dieser definiert ist.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Clear methode. Löscht den Inhalt dieses strukturierten DokumentTags und zeigt einen Platzhalter an sofern dieser definiert ist in C#.
 type: docs
-weight: 360
+weight: 340
 url: /de/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ Löscht den Inhalt dieses strukturierten Dokument-Tags und zeigt einen Platzhalt
 public void Clear()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Es ist nicht möglich, den Inhalt eines strukturierten Dokument-Tags zu löschen, wenn es Revisionen aufweist.
 
 Wenn dieses strukturierte Dokument-Tag benutzerdefiniertem XML zugeordnet ist (unter Verwendung von[`XmlMapping`](../xmlmapping/) -Eigenschaft) wird der referenzierte XML-Knoten gelöscht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Inhalte strukturierter Dokument-Tag-Elemente gelöscht werden.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

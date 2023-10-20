@@ -1,7 +1,9 @@
 ---
-title: Class BarcodeParameters
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.BarcodeParameters klas. Containerklasse für BarcodeParameter zur Weitergabe an BarcodeGenerator.
+title: BarcodeParameters Class
+linktitle: BarcodeParameters
+articleTitle: BarcodeParameters
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.BarcodeParameters klas. Containerklasse für BarcodeParameter zur Weitergabe an BarcodeGenerator in C#.
 type: docs
 weight: 1470
 url: /de/net/aspose.words.fields/barcodeparameters/
@@ -44,11 +46,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Barcode-Bildhöhe (in Twips – 1/1440 Zoll) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Drehung des Barcodesymbols. Gültige Werte sind [0, 3]. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Parametersatz richtet sich nach den DISPLAYBARCODE-Feldoptionen. Die genaue Liste finden Sie unter[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -125,5 +127,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

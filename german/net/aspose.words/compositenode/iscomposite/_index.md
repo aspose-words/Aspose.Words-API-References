@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.IsComposite
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode eigendom. Gibt zurückWAHR da dieser Knoten untergeordnete Knoten haben kann.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words für .NET
+description: CompositeNode IsComposite eigendom. Gibt zurückWAHR da dieser Knoten untergeordnete Knoten haben kann in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/compositenode/iscomposite/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` da dieser Knoten untergeordnete Knoten haben kann.
 public override bool IsComposite { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -61,7 +63,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Siehe auch
 
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

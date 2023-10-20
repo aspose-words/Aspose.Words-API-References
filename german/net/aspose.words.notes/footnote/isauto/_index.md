@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Aspose.Words für .NET-API-Referenz
-description: Footnote eigendom. Enthält einen Wert der angibt ob es sich um eine automatisch nummerierte Fußnote oder eine Fußnote mit benutzerdefinierter Referenzmarke handelt.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words für .NET
+description: Footnote IsAuto eigendom. Enthält einen Wert der angibt ob es sich um eine automatisch nummerierte Fußnote oder eine Fußnote mit benutzerdefinierter Referenzmarke handelt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ Enthält einen Wert, der angibt, ob es sich um eine automatisch nummerierte Fuß
 public bool IsAuto { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 [`ReferenceMark`](../referencemark/)initialisiert mit leerem String if`IsAuto` einstellen`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fußnoten eingefügt und angepasst werden.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Siehe auch
 
 * class [Footnote](../)
-* namensraum [Aspose.Words.Notes](../../footnote/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

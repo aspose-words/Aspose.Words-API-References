@@ -1,7 +1,9 @@
 ---
 title: Document.Theme
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die abTheme Objekt für dieses Dokument.
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words für .NET
+description: Document Theme eigendom. Ruft die abTheme Objekt für dieses Dokument in C#.
 type: docs
 weight: 420
 url: /de/net/aspose.words/document/theme/
@@ -14,7 +16,7 @@ Ruft die ab`Theme` Objekt für dieses Dokument.
 public Theme Theme { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [Theme](../../../aspose.words.themes/theme/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsHeading
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. True wenn der Absatzstil einer der integrierten Überschriftenstile ist.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words für .NET
+description: ParagraphFormat IsHeading eigendom. True wenn der Absatzstil einer der integrierten Überschriftenstile ist in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words/paragraphformat/isheading/
@@ -14,7 +16,7 @@ True, wenn der Absatzstil einer der integrierten Überschriftenstile ist.
 public bool IsHeading { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man die Überschriftenebene einschränkt, die in der Gliederung eines gespeicherten PDF-Dokuments angezeigt wird.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

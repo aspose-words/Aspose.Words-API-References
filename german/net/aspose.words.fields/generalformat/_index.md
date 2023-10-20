@@ -1,7 +1,9 @@
 ---
-title: Enum GeneralFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.GeneralFormat opsomming. Gibt ein allgemeines Format an das auf ein numerisches Text oder beliebiges Feldergebnis angewendet wird. Ein Feld kann eine Kombination allgemeiner Formate haben.
+title: GeneralFormat Enum
+linktitle: GeneralFormat
+articleTitle: GeneralFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.GeneralFormat opsomming. Gibt ein allgemeines Format an das auf ein numerisches Text oder beliebiges Feldergebnis angewendet wird. Ein Feld kann eine Kombination allgemeiner Formate haben in C#.
 type: docs
 weight: 2640
 url: /de/net/aspose.words.fields/generalformat/
@@ -75,7 +77,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | Feldergebnisformatierung. Die MERGEFORMAT-Anweisung. |
 | MergeFormatInet | `55` | Feldergebnisformatierung. Die MERGEFORMATINET-Anweisung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Feldergebnisse formatiert werden.
 
@@ -140,5 +142,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt einen Umbruch des angegebenen Typs in das Dokument ein.
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertBreak methode. Fügt einen Umbruch des angegebenen Typs in das Dokument ein in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | Gibt den Typ der einzufügenden Pause an. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um Absätze, Seiten, Spalten, Abschnitte oder Zeilenumbrüche in das Dokument einzufügen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

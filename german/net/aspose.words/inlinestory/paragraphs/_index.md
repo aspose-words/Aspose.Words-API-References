@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Paragraphs
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Ruft eine Sammlung von Absätzen ab die unmittelbar untergeordnete Elemente der Geschichte sind.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words für .NET
+description: InlineStory Paragraphs eigendom. Ruft eine Sammlung von Absätzen ab die unmittelbar untergeordnete Elemente der Geschichte sind in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/inlinestory/paragraphs/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Absätzen ab, die unmittelbar untergeordnete Elemente der
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Absatz einen Kommentar hinzufügt.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

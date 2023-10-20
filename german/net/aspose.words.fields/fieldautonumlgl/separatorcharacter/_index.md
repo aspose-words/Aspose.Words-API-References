@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.SeparatorCharacter
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoNumLgl eigendom. Ruft das zu verwendende Trennzeichen ab oder legt es fest.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words für .NET
+description: FieldAutoNumLgl SeparatorCharacter eigendom. Ruft das zu verwendende Trennzeichen ab oder legt es fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldautonumlgl/separatorcharacter/
@@ -14,7 +16,7 @@ Ruft das zu verwendende Trennzeichen ab oder legt es fest.
 public string SeparatorCharacter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument mithilfe von AUTONUMLGL-Feldern organisiert wird.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### Siehe auch
 
 * class [FieldAutoNumLgl](../)
-* namensraum [Aspose.Words.Fields](../../fieldautonumlgl/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.DownsampleImages
-second_title: Aspose.Words für .NET-API-Referenz
-description: DownsampleOptions eigendom. Gibt an ob Bilder heruntergerechnet werden sollen.
+linktitle: DownsampleImages
+articleTitle: DownsampleImages
+second_title: Aspose.Words für .NET
+description: DownsampleOptions DownsampleImages eigendom. Gibt an ob Bilder heruntergerechnet werden sollen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/downsampleoptions/downsampleimages/
@@ -14,11 +16,11 @@ Gibt an, ob Bilder heruntergerechnet werden sollen.
 public bool DownsampleImages { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`WAHR` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Auflösung von Bildern im PDF-Dokument geändert wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Siehe auch
 
 * class [DownsampleOptions](../)
-* namensraum [Aspose.Words.Saving](../../downsampleoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

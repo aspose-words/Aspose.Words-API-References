@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPartCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.CustomXmlPartCollection klas. Stellt eine Sammlung benutzerdefinierter XMLTeile dar. Die Artikel sindCustomXmlPart Objekte.
+title: CustomXmlPartCollection Class
+linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Markup.CustomXmlPartCollection klas. Stellt eine Sammlung benutzerdefinierter XMLTeile dar. Die Artikel sindCustomXmlPart Objekte in C#.
 type: docs
 weight: 3930
 url: /de/net/aspose.words.markup/customxmlpartcollection/
@@ -33,19 +35,19 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | Fügt der Sammlung ein Element hinzu. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | Erstellt einen neuen XML-Teil mit dem angegebenen XML und fügt ihn der Sammlung hinzu. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | Fügt der Sammlung ein Element hinzu. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | Erstellt einen neuen XML-Teil mit dem angegebenen XML und fügt ihn der Sammlung hinzu. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Erstellt eine tiefe Kopie dieser Sammlung und ihrer Elemente. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | Sucht einen benutzerdefinierten XML-Teil anhand seiner Kennung und gibt ihn zurück. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Sucht einen benutzerdefinierten XML-Teil anhand seiner Kennung und gibt ihn zurück. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | Entfernt ein Element am angegebenen Index. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Entfernt ein Element am angegebenen Index. |
 
-### Bemerkungen
+## Bemerkungen
 
 Normalerweise müssen Sie keine Instanzen dieser Klasse erstellen. Sie können auf benutzerdefinierte XML-Daten zugreifen, die in einem Dokument über gespeichert sind[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 * class [CustomXmlPart](../customxmlpart/)
 * namensraum [Aspose.Words.Markup](../../aspose.words.markup/)
 * Montage [Aspose.Words](../../)
-
-

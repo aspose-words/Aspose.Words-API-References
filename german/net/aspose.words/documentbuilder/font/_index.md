@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt ein Objekt zurück das die aktuellen Schriftartformatierungseigenschaften darstellt.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: DocumentBuilder Font eigendom. Gibt ein Objekt zurück das die aktuellen Schriftartformatierungseigenschaften darstellt in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ Gibt ein Objekt zurück, das die aktuellen Schriftartformatierungseigenschaften 
 public Font Font { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden`Font` um auf die Eigenschaften der Schriftartformatierung zuzugreifen und diese zu ändern.
 
 Geben Sie vor dem Einfügen von Text die Schriftartformatierung an.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

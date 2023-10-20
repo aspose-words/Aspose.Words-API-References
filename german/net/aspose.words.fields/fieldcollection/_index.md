@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldCollection klas. Eine Sammlung vonField Objekte die die Felder im angegebenen Bereich darstellen.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldCollection klas. Eine Sammlung vonField Objekte die die Felder im angegebenen Bereich darstellen in C#.
 type: docs
 weight: 1690
 url: /de/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Entfernt alle Felder dieser Sammlung aus dem Dokument und aus dieser Sammlung selbst. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Entfernt das angegebene Feld aus dieser Sammlung und aus dem Dokument. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Entfernt ein Feld am angegebenen Index aus dieser Sammlung und aus dem Dokument. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Entfernt das angegebene Feld aus dieser Sammlung und aus dem Dokument. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Entfernt ein Feld am angegebenen Index aus dieser Sammlung und aus dem Dokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Eine Instanz dieser Sammlung iteriert Felder, die zu Beginn in den angegebenen Bereich fallen.
 
@@ -40,7 +42,7 @@ Der`FieldCollection` Die Sammlung besitzt nicht die darin enthaltenen Felder, so
 
 Der`FieldCollection` Die Sammlung ist „live“, d. h. Änderungen an den untergeordneten Elementen des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Feldern widergespiegelt`FieldCollection` Eigenschaften und Methoden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder aus einer Feldsammlung entfernt werden.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

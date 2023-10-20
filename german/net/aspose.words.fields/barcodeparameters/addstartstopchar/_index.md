@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.AddStartStopChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: BarcodeParameters eigendom. Ob Start/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words für .NET
+description: BarcodeParameters AddStartStopChar eigendom. Ob Start/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/barcodeparameters/addstartstopchar/
@@ -14,7 +16,7 @@ Ob Start-/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden 
 public bool AddStartStopChar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Siehe auch
 
 * class [BarcodeParameters](../)
-* namensraum [Aspose.Words.Fields](../../barcodeparameters/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

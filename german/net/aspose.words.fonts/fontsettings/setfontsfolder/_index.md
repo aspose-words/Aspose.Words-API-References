@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolder
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings methode. Legt den Ordner fest in dem Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueTypeSchriftarten sucht. Dies ist eine Verknüpfung zuSetFontsFolders zum Festlegen nur eines Schriftartenverzeichnisses.
+linktitle: SetFontsFolder
+articleTitle: SetFontsFolder
+second_title: Aspose.Words für .NET
+description: FontSettings SetFontsFolder methode. Legt den Ordner fest in dem Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueTypeSchriftarten sucht. Dies ist eine Verknüpfung zuSetFontsFolders zum Festlegen nur eines Schriftartenverzeichnisses in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fonts/fontsettings/setfontsfolder/
@@ -19,7 +21,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | fontFolder | String | Der Ordner, der TrueType-Schriftarten enthält. |
 | recursive | Boolean | True, um die angegebenen Ordner rekursiv nach Schriftarten zu durchsuchen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Schriftart-Quellverzeichnis festgelegt wird.
 
@@ -78,7 +80,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### Siehe auch
 
 * class [FontSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

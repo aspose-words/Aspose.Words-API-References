@@ -1,7 +1,9 @@
 ---
-title: Class RtfLoadOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.RtfLoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim LadenRtf Dokument in einDocument Objekt.
+title: RtfLoadOptions Class
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.RtfLoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim LadenRtf Dokument in einDocument Objekt in C#.
 type: docs
 weight: 3710
 url: /de/net/aspose.words.loading/rtfloadoptions/
@@ -48,9 +50,9 @@ public class RtfLoadOptions : LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie UTF-8-Zeichen beim Laden eines RTF-Dokuments erkannt werden.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(
 * class [LoadOptions](../loadoptions/)
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

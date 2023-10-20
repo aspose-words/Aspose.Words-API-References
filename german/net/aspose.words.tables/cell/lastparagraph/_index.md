@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. Ruft den letzten Absatz unter den unmittelbar untergeordneten Elementen ab.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words für .NET
+description: Cell LastParagraph eigendom. Ruft den letzten Absatz unter den unmittelbar untergeordneten Elementen ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.tables/cell/lastparagraph/
@@ -14,7 +16,7 @@ Ruft den letzten Absatz unter den unmittelbar untergeordneten Elementen ab.
 public Paragraph LastParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Einstellungen für vertikale Ränder auf das Format einer Tabellenzeile angewendet werden.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: DropDownItemCollection eigendom. Ruft das Element am angegebenen Index ab oder legt es fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: DropDownItemCollection Item eigendom. Ruft das Element am angegebenen Index ab oder legt es fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/dropdownitemcollection/item/
@@ -14,7 +16,7 @@ Ruft das Element am angegebenen Index ab oder legt es fest.
 public string this[int index] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Siehe auch
 
 * class [DropDownItemCollection](../)
-* namensraum [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

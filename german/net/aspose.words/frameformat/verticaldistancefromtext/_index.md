@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Gibt den vertikalen Abstand in Punkten zwischen einem Rahmen und dem umgebenden Text an.
+linktitle: VerticalDistanceFromText
+articleTitle: VerticalDistanceFromText
+second_title: Aspose.Words für .NET
+description: FrameFormat VerticalDistanceFromText eigendom. Gibt den vertikalen Abstand in Punkten zwischen einem Rahmen und dem umgebenden Text an in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/frameformat/verticaldistancefromtext/
@@ -14,7 +16,7 @@ Gibt den vertikalen Abstand (in Punkten) zwischen einem Rahmen und dem umgebende
 public double VerticalDistanceFromText { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Siehe auch
 
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

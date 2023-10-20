@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Aspose.Words für .NET-API-Referenz
-description: Hyphenation methode. Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus einem Stream. Wird ausgelöst wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat.
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: Aspose.Words für .NET
+description: Hyphenation RegisterDictionary methode. Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus einem Stream. Wird ausgelöst wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus einem Stream. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat.
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | Ein Sprachname, z. B. „en-US“. Weitere Informationen finden Sie in der .NET-Dokumentation für „Kulturname“ und RFC 4646. |
 | stream | Stream | Ein Stream für die Wörterbuchdatei im OpenOffice-Format. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Siehe auch
 
 * class [Hyphenation](../)
-* namensraum [Aspose.Words](../../hyphenation/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus der Datei. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat.
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | Ein Sprachname, z. B. „en-US“. Weitere Informationen finden Sie in der .NET-Dokumentation für „Kulturname“ und RFC 4646. |
 | fileName | String | Ein Pfad zur Wörterbuchdatei im Open Office-Format. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Silbentrennungswörterbuch registriert.
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Siehe auch
 
 * class [Hyphenation](../)
-* namensraum [Aspose.Words](../../hyphenation/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

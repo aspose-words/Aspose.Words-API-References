@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Führt einen Serienbrief von einem ADORecordsetObjekt in das Dokument mit Serienbriefbereichen durch.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words für .NET
+description: MailMerge ExecuteWithRegionsADO methode. Führt einen Serienbrief von einem ADORecordsetObjekt in das Dokument mit Serienbriefbereichen durch in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | ADO-Recordset oder Record-Objekt. |
 | tableName | String | Name des Seriendruckbereichs im Dokument, der gefüllt werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode ist nützlich, wenn Sie Aspose.Words-Klassen als COM-Objekte aus nicht verwaltetem Code verwenden möchten, z. B. einer Anwendung, die mit ASP oder Visual Basic 6.0 erstellt wurde.
 
 Weitere Informationen finden Sie in der Beschreibung von[`ExecuteWithRegions`](../executewithregions/).
 
-### Beispiele
+## Beispiele
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

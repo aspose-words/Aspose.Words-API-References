@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionGroup eigendom. Gibt eingefügten/gelöschten/verschobenen Text oder eine Beschreibung der Formatänderung zurück.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: RevisionGroup Text eigendom. Gibt eingefügten/gelöschten/verschobenen Text oder eine Beschreibung der Formatänderung zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/revisiongroup/text/
@@ -14,7 +16,7 @@ Gibt eingefügten/gelöschten/verschobenen Text oder eine Beschreibung der Forma
 public string Text { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu einer Gruppe von Revisionen in einem Dokument gedruckt werden.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Siehe auch
 
 * class [RevisionGroup](../)
-* namensraum [Aspose.Words](../../revisiongroup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

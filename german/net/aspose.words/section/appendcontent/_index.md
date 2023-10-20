@@ -1,9 +1,11 @@
 ---
 title: Section.AppendContent
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. Fügt am Ende dieses Abschnitts eine Kopie des Inhalts des Quellabschnitts ein.
+linktitle: AppendContent
+articleTitle: AppendContent
+second_title: Aspose.Words für .NET
+description: Section AppendContent methode. Fügt am Ende dieses Abschnitts eine Kopie des Inhalts des Quellabschnitts ein in C#.
 type: docs
-weight: 100
+weight: 80
 url: /de/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -18,7 +20,7 @@ public void AppendContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | Der Abschnitt, aus dem Inhalte kopiert werden sollen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Nur Inhalt von[`Body`](../body/) des Quellabschnitts wird kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
 
@@ -26,7 +28,7 @@ Die Knoten werden automatisch importiert, wenn der Quellabschnitt zu einem ander
 
 Im Zieldokument wird kein neuer Abschnitt erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Abschnitts an einen anderen Abschnitt angehängt wird.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Siehe auch
 
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

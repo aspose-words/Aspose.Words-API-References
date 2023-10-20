@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ShapeLayoutLikeWW8
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Emulieren Sie den Word 97Textumbruch um schwebende Objekte.
+linktitle: ShapeLayoutLikeWW8
+articleTitle: ShapeLayoutLikeWW8
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions ShapeLayoutLikeWW8 eigendom. Emulieren Sie den Word 97Textumbruch um schwebende Objekte in C#.
 type: docs
 weight: 420
 url: /de/net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/
@@ -17,7 +19,5 @@ public bool ShapeLayoutLikeWW8 { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

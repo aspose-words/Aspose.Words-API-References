@@ -1,7 +1,9 @@
 ---
 title: ListLevel.IsLegal
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. True wenn die Ebene alle geerbten Zahlen in Arabisch umwandelt false wenn ihr Zahlenstil erhalten bleibt.
+linktitle: IsLegal
+articleTitle: IsLegal
+second_title: Aspose.Words für .NET
+description: ListLevel IsLegal eigendom. True wenn die Ebene alle geerbten Zahlen in Arabisch umwandelt false wenn ihr Zahlenstil erhalten bleibt in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.lists/listlevel/islegal/
@@ -14,7 +16,7 @@ True, wenn die Ebene alle geerbten Zahlen in Arabisch umwandelt, false, wenn ihr
 public bool IsLegal { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt erweiterte Möglichkeiten zum Anpassen von Listenbeschriftungen.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

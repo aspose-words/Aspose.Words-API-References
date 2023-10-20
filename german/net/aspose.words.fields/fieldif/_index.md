@@ -1,7 +1,9 @@
 ---
-title: Class FieldIf
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldIf klas. Implementiert das IFFeld.
+title: FieldIf Class
+linktitle: FieldIf
+articleTitle: FieldIf
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldIf klas. Implementiert das IFFeld in C#.
 type: docs
 weight: 2000
 url: /de/net/aspose.words.fields/fieldif/
@@ -48,19 +50,19 @@ public class FieldIf : Field
 | --- | --- |
 | [EvaluateCondition](../../aspose.words.fields/fieldif/evaluatecondition/)() | Wertet die Bedingung aus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Vergleicht die durch die Ausdrücke angegebenen Werte[`LeftExpression`](./leftexpression/) Und[`RightExpression`](./rightexpression/) im Vergleich mit dem durch bezeichneten Operator[`ComparisonOperator`](./comparisonoperator/).
 
 Als Serienbriefquelle wird ein Feld im folgenden Format verwendet: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein IF-Feld eingefügt wird.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

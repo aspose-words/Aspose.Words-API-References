@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlLoadOptions eigendom. Ruft den bevorzugten Typ von Dokumentknoten ab die importierte input und selectElemente darstellen oder legt diesen fest. Der Standardwert istFormField .
+linktitle: PreferredControlType
+articleTitle: PreferredControlType
+second_title: Aspose.Words für .NET
+description: HtmlLoadOptions PreferredControlType eigendom. Ruft den bevorzugten Typ von Dokumentknoten ab die importierte input und selectElemente darstellen oder legt diesen fest. Der Standardwert istFormField  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -14,11 +16,11 @@ Ruft den bevorzugten Typ von Dokumentknoten ab, die importierte &lt;input&gt;- u
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Bitte beachten Sie, dass das Festlegen dieser Eigenschaft nicht garantiert, dass alle importierten Steuerelemente vom angegebenen Typ sind. Wenn ein HTML-Steuerelement nicht mit Dokumentknoten des bevorzugten Typs darstellbar ist, verwendet Aspose.Words ein kompatibles[`HtmlControlType`](../../htmlcontroltype/) für diese Kontrolle.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der bevorzugte Typ von Dokumentknoten festgelegt wird, die importierte &lt;input&gt;- und &lt;select&gt;-Elemente darstellen.
 
@@ -45,7 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../htmlloadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

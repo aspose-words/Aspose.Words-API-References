@@ -1,7 +1,9 @@
 ---
 title: Shape.FirstParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Ruft den ersten Absatz in der Form ab.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words für .NET
+description: Shape FirstParagraph eigendom. Ruft den ersten Absatz in der Form ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/shape/firstparagraph/
@@ -14,7 +16,7 @@ Ruft den ersten Absatz in der Form ab.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Textfeld erstellt und formatiert wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

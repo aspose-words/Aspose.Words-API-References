@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.OdsoFieldMapData klas. Gibt an wie eine Spalte in der externen Datenquelle den vordefinierten Zusammenführungsfeldern im Dokument zugeordnet werden soll.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.OdsoFieldMapData klas. Gibt an wie eine Spalte in der externen Datenquelle den vordefinierten Zusammenführungsfeldern im Dokument zugeordnet werden soll in C#.
 type: docs
 weight: 5900
 url: /de/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Gibt einen tiefen Klon dieses Objekts zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 Microsoft Word bietet einige vordefinierte Briefvorlagenfeldnamen, die als MERGEFIELD oder in ein Dokument eingefügt werden können und in den Feldern ADDRESSBLOCK oder GREETINGLINE verwendet werden. Die angegebenen Informationen in`OdsoFieldMapData` ermöglicht die Zuordnung einer Spalte in der externen Datenquelle zu einem einzelnen vordefinierten Zusammenführungsfeld.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

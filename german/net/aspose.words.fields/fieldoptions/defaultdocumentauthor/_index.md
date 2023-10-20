@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.DefaultDocumentAuthor
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den Standardnamen des Dokumentautors ab oder legt diesen fest. Wenn der Name des Autors bereits in den integrierten Dokumenteigenschaften angegeben ist wird diese Option nicht berücksichtigt.
+linktitle: DefaultDocumentAuthor
+articleTitle: DefaultDocumentAuthor
+second_title: Aspose.Words für .NET
+description: FieldOptions DefaultDocumentAuthor eigendom. Ruft den Standardnamen des Dokumentautors ab oder legt diesen fest. Wenn der Name des Autors bereits in den integrierten Dokumenteigenschaften angegeben ist wird diese Option nicht berücksichtigt in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
@@ -14,7 +16,7 @@ Ruft den Standardnamen des Dokumentautors ab oder legt diesen fest. Wenn der Nam
 public string DefaultDocumentAuthor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein AUTHOR-Feld verwendet wird, um den Namen eines Dokumenterstellers anzuzeigen.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Siehe auch
 
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItemCollection eigendom. Gibt a zurückSdtListItem Objekt erhält seinen nullbasierten Index in der Sammlung.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: SdtListItemCollection Item eigendom. Gibt a zurückSdtListItem Objekt erhält seinen nullbasierten Index in der Sammlung in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ Gibt a zurück[`SdtListItem`](../../sdtlistitem/) Objekt erhält seinen nullbasi
 public SdtListItem this[int index] { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

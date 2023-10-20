@@ -1,7 +1,9 @@
 ---
 title: Node.IsComposite
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Gibt zurückWAHR ob dieser Knoten andere Knoten enthalten kann.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words für .NET
+description: Node IsComposite eigendom. Gibt zurückWAHR ob dieser Knoten andere Knoten enthalten kann in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/node/iscomposite/
@@ -18,7 +20,7 @@ public virtual bool IsComposite { get; }
 
 Diese Methode gibt zurück`FALSCH` als[`Node`](../) kann keine untergeordneten Knoten haben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -65,7 +67,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Siehe auch
 
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

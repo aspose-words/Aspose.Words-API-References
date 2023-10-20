@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.RemoveAt
-second_title: Aspose.Words für .NET-API-Referenz
-description: DropDownItemCollection methode. Entfernt einen Wert am angegebenen Index.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words für .NET
+description: DropDownItemCollection RemoveAt methode. Entfernt einen Wert am angegebenen Index in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/dropdownitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Der auf Null basierende Index. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Siehe auch
 
 * class [DropDownItemCollection](../)
-* namensraum [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

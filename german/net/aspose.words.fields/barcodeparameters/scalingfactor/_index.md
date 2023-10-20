@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ScalingFactor
-second_title: Aspose.Words für .NET-API-Referenz
-description: BarcodeParameters eigendom. Skalierungsfaktor für das Symbol. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind 10 1000.
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words für .NET
+description: BarcodeParameters ScalingFactor eigendom. Skalierungsfaktor für das Symbol. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind 10 1000 in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.fields/barcodeparameters/scalingfactor/
@@ -14,7 +16,7 @@ Skalierungsfaktor für das Symbol. Der Wert wird in ganzen Prozentpunkten angege
 public string ScalingFactor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Siehe auch
 
 * class [BarcodeParameters](../)
-* namensraum [Aspose.Words.Fields](../../barcodeparameters/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

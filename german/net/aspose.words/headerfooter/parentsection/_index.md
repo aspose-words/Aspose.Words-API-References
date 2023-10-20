@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.ParentSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooter eigendom. Ruft den übergeordneten Abschnitt dieser Story ab.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words für .NET
+description: HeaderFooter ParentSection eigendom. Ruft den übergeordneten Abschnitt dieser Story ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/headerfooter/parentsection/
@@ -14,11 +16,11 @@ Ruft den übergeordneten Abschnitt dieser Story ab.
 public Section ParentSection { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 `ParentSection` ist äquivalent zu[`ParentNode`](../../node/parentnode/) gegossen zu[`Section`](../../section/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kopf- und Fußzeilen zwischen Abschnitten verknüpft werden.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [Section](../../section/)
 * class [HeaderFooter](../)
-* namensraum [Aspose.Words](../../headerfooter/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

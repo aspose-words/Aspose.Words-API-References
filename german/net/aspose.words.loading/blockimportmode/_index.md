@@ -1,7 +1,9 @@
 ---
-title: Enum BlockImportMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.BlockImportMode opsomming. Gibt an wie Eigenschaften von Elementen auf Blockebene aus HTMLbasierten Dokumenten importiert werden.
+title: BlockImportMode Enum
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.BlockImportMode opsomming. Gibt an wie Eigenschaften von Elementen auf Blockebene aus HTMLbasierten Dokumenten importiert werden in C#.
 type: docs
 weight: 3560
 url: /de/net/aspose.words.loading/blockimportmode/
@@ -21,7 +23,7 @@ public enum BlockImportMode
 | Merge | `0` | Eigenschaften übergeordneter Blöcke werden zusammengeführt und in untergeordneten Elementen (z. B. Absätzen oder Tabellen) gespeichert. |
 | Preserve | `1` | Eigenschaften übergeordneter Blöcke werden in eine spezielle logische Struktur importiert und getrennt von Dokumentknoten gespeichert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Eigenschaften von Elementen auf Blockebene aus HTML-basierten Dokumenten importiert werden.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaProject eigendom. Ruft den VBAProjektnamen ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: VbaProject Name eigendom. Ruft den VBAProjektnamen ab oder legt ihn fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.vba/vbaproject/name/
@@ -14,7 +16,7 @@ Ruft den VBA-Projektnamen ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Siehe auch
 
 * class [VbaProject](../)
-* namensraum [Aspose.Words.Vba](../../vbaproject/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

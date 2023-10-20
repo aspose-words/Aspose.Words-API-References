@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreak
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Seitenumbruchzeichen x000c oder f. Beachten Sie dass es den gleichen Wert hat wieSectionBreak .
+linktitle: PageBreak
+articleTitle: PageBreak
+second_title: Aspose.Words für .NET
+description: ControlChar PageBreak veld. Seitenumbruchzeichen x000c oder f. Beachten Sie dass es den gleichen Wert hat wieSectionBreak  in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words/controlchar/pagebreak/
@@ -14,7 +16,7 @@ Seitenumbruchzeichen: „\x000c“ oder „\f“. Beachten Sie, dass es den glei
 public static readonly string PageBreak;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Aspose.Words für .NET-API-Referenz
-description: FixedPageSaveOptions eigendom. Ruft die zu rendernden Seiten ab oder legt diese fest. Standard sind alle Seiten im Dokument.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words für .NET
+description: FixedPageSaveOptions PageSet eigendom. Ruft die zu rendernden Seiten ab oder legt diese fest. Standard sind alle Seiten im Dokument in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ Ruft die zu rendernden Seiten ab oder legt diese fest. Standard sind alle Seiten
 public PageSet PageSet { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten basierend auf genauen Seitenindizes extrahiert werden.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

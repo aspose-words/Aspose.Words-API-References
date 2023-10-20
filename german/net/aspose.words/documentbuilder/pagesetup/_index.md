@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.PageSetup
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt ein Objekt zurück das die aktuellen Seiteneinstellungen und Abschnittseigenschaften darstellt.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words für .NET
+description: DocumentBuilder PageSetup eigendom. Gibt ein Objekt zurück das die aktuellen Seiteneinstellungen und Abschnittseigenschaften darstellt in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/documentbuilder/pagesetup/
@@ -14,7 +16,7 @@ Gibt ein Objekt zurück, das die aktuellen Seiteneinstellungen und Abschnittseig
 public PageSetup PageSetup { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

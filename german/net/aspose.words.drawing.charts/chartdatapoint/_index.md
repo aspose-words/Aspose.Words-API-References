@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPoint
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartDataPoint klas. Ermöglicht die Angabe der Formatierung eines einzelnen Datenpunkts im Diagramm.
+title: ChartDataPoint Class
+linktitle: ChartDataPoint
+articleTitle: ChartDataPoint
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPoint klas. Ermöglicht die Angabe der Formatierung eines einzelnen Datenpunkts im Diagramm in C#.
 type: docs
 weight: 690
 url: /de/net/aspose.words.drawing.charts/chartdatapoint/
@@ -33,11 +35,11 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Löscht das Format dieses Datenpunkts. Die Eigenschaften werden auf die in der übergeordneten Serie definierten Standardwerte gesetzt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Auf einer Serie, die`ChartDataPoint` Das Objekt ist Mitglied von[`ChartDataPointCollection`](../chartdatapointcollection/) . Die[`ChartDataPointCollection`](../chartdatapointcollection/) enthält ein`ChartDataPoint` Objekt für jeden Punkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -101,5 +103,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * interface [IChartDataPoint](../ichartdatapoint/)
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

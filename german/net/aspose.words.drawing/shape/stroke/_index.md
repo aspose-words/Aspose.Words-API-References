@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroke
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Definiert einen Strich für eine Form.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words für .NET
+description: Shape Stroke eigendom. Definiert einen Strich für eine Form in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.drawing/shape/stroke/
@@ -14,7 +16,7 @@ Definiert einen Strich für eine Form.
 public Stroke Stroke { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * class [Stroke](../../stroke/)
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

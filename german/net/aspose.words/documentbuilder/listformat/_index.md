@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt ein Objekt zurück das die aktuellen Listenformatierungseigenschaften darstellt.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words für .NET
+description: DocumentBuilder ListFormat eigendom. Gibt ein Objekt zurück das die aktuellen Listenformatierungseigenschaften darstellt in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ Gibt ein Objekt zurück, das die aktuellen Listenformatierungseigenschaften dars
 public ListFormat ListFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Aufzählungslisten und nummerierte Listen erstellt werden.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

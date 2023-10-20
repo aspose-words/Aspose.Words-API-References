@@ -1,7 +1,9 @@
 ---
-title: Enum TextPathAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.TextPathAlignment opsomming. WordArtAusrichtung.
+title: TextPathAlignment Enum
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.TextPathAlignment opsomming. WordArtAusrichtung in C#.
 type: docs
 weight: 1360
 url: /de/net/aspose.words.drawing/textpathalignment/
@@ -25,7 +27,7 @@ public enum TextPathAlignment
 | LetterJustify | `4` | Breiten Sie die Buchstaben so aus, dass sie in die Breite passen. |
 | WordJustify | `5` | Breiten Sie die Wörter so aus, dass sie in die Breite passen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -130,5 +132,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 * property [TextPathAlignment](../textpath/textpathalignment/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

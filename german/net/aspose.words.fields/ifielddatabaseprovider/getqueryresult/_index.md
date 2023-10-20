@@ -1,7 +1,9 @@
 ---
 title: IFieldDatabaseProvider.GetQueryResult
-second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldDatabaseProvider methode. Gibt das Abfrageergebnis zurück.
+linktitle: GetQueryResult
+articleTitle: GetQueryResult
+second_title: Aspose.Words für .NET
+description: IFieldDatabaseProvider GetQueryResult methode. Gibt das Abfrageergebnis zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
@@ -31,7 +33,5 @@ Der[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) Instanz, die für d
 * class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
 * class [FieldDatabase](../../fielddatabase/)
 * interface [IFieldDatabaseProvider](../)
-* namensraum [Aspose.Words.Fields](../../ifielddatabaseprovider/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

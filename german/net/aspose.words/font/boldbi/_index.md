@@ -1,7 +1,9 @@
 ---
 title: Font.BoldBi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn der Text von rechts nach links fett formatiert ist.
+linktitle: BoldBi
+articleTitle: BoldBi
+second_title: Aspose.Words für .NET
+description: Font BoldBi eigendom. True wenn der Text von rechts nach links fett formatiert ist in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/font/boldbi/
@@ -14,7 +16,7 @@ True, wenn der Text von rechts nach links fett formatiert ist.
 public bool BoldBi { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie separate Sätze von Schriftarteinstellungen für Text mit der Schreibrichtung von rechts nach links und von rechts nach links definiert werden.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroupCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.RevisionGroupCollection klas. Eine Sammlung vonRevisionGroup Objekte die Revisionsgruppen im Dokument darstellen.
+title: RevisionGroupCollection Class
+linktitle: RevisionGroupCollection
+articleTitle: RevisionGroupCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.RevisionGroupCollection klas. Eine Sammlung vonRevisionGroup Objekte die Revisionsgruppen im Dokument darstellen in C#.
 type: docs
 weight: 4790
 url: /de/net/aspose.words/revisiongroupcollection/
@@ -29,11 +31,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | --- | --- |
 | [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie erstellen keine Instanzen dieser Klasse direkt. Benutzen Sie die[`Groups`](../revisioncollection/groups/) -Eigenschaft, um in einem Dokument vorhandene Revisionsgruppen abzurufen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Gruppe von Revisionen in einem Dokument abgerufen wird.
 
@@ -62,5 +64,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 * class [RevisionGroup](../revisiongroup/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

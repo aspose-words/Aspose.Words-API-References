@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontFallbackSettings methode. Lädt vordefinierte FallbackEinstellungen die Google NotoSchriftarten verwenden.
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: Aspose.Words für .NET
+description: FontFallbackSettings LoadNotoFallbackSettings methode. Lädt vordefinierte FallbackEinstellungen die Google NotoSchriftarten verwenden in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ Lädt vordefinierte Fallback-Einstellungen, die Google Noto-Schriftarten verwend
 public void LoadNotoFallbackSettings()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man vordefinierte Schriftart-Fallback-Einstellungen für Google Noto-Schriftarten hinzufügt.
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Siehe auch
 
 * class [FontFallbackSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

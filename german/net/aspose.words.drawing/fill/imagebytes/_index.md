@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft die Rohbytes der Fülltextur oder des Füllmusters ab.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words für .NET
+description: Fill ImageBytes eigendom. Ruft die Rohbytes der Fülltextur oder des Füllmusters ab in C#.
 type: docs
-weight: 140
+weight: 130
 url: /de/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ Ruft die Rohbytes der Fülltextur oder des Füllmusters ab.
 public byte[] ImageBytes { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

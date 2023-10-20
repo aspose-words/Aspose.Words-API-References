@@ -1,7 +1,9 @@
 ---
-title: Class UserInformation
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.UserInformation klas. Gibt Informationen über den Benutzer an.
+title: UserInformation Class
+linktitle: UserInformation
+articleTitle: UserInformation
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.UserInformation klas. Gibt Informationen über den Benutzer an in C#.
 type: docs
 weight: 2790
 url: /de/net/aspose.words.fields/userinformation/
@@ -31,7 +33,7 @@ public class UserInformation
 | [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | Ruft die Initialen des Benutzers ab oder legt diese fest. |
 | [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | Ruft den Namen des Benutzers ab oder legt ihn fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Benutzerdetails festgelegt und mithilfe von Feldern angezeigt werden.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

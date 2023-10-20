@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.UseBookFoldPrintingSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: PsSaveOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob das Dokument mit einem Broschürendrucklayout gespeichert werden soll  wenn es über angegeben wirdMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words für .NET
+description: PsSaveOptions UseBookFoldPrintingSettings eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob das Dokument mit einem Broschürendrucklayout gespeichert werden soll  wenn es über angegeben wirdMultiplePages  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob das Dokument
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Option angegeben ist,[`PageSet`](../../fixedpagesaveoptions/pageset/) wird beim Speichern ignoriert. Dieses Verhalten entspricht MS Word. Wenn in der Seiteneinrichtung keine Buchfaltdruckeinstellungen angegeben sind, hat diese Option keine Auswirkung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument im Postscript-Format in Form einer Buchfalte gespeichert wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 ### Siehe auch
 
 * class [PsSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pssaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

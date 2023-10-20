@@ -1,7 +1,9 @@
 ---
 title: Field.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft den Microsoft WordFeldtyp ab.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: Field Type eigendom. Ruft den Microsoft WordFeldtyp ab in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/field/type/
@@ -14,7 +16,7 @@ Ruft den Microsoft Word-Feldtyp ab.
 public virtual FieldType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
@@ -35,7 +37,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * enum [FieldType](../../fieldtype/)
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

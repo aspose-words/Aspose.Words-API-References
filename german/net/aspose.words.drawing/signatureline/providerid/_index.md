@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ProviderId
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft die SignaturanbieterID für diese Signaturzeile ab oder legt sie fest. Der Standardwert ist 00000000000000000000000000000000.
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words für .NET
+description: SignatureLine ProviderId eigendom. Ruft die SignaturanbieterID für diese Signaturzeile ab oder legt sie fest. Der Standardwert ist 00000000000000000000000000000000 in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing/signatureline/providerid/
@@ -14,7 +16,7 @@ Ruft die Signaturanbieter-ID für diese Signaturzeile ab oder legt sie fest. Der
 public Guid ProviderId { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Kryptografiedienstanbieter (CSP) ist ein unabhängiges Softwaremodul, das tatsächlich Kryptografiealgorithmen zur Authentifizierung, Kodierung und Verschlüsselung ausführt. MS Office reserviert den Wert von {00000000-0000-0000-0000-000000000000} für seinen Standardsignaturanbieter.
 
@@ -22,7 +24,7 @@ Die GUID des zusätzlich installierten Providers entnehmen Sie bitte der mitgeli
 
 Darüber hinaus werden alle installierten Kryptografieanbieter in der Windows-Registrierung aufgelistet. Sie finden sie im folgenden Pfad: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Es gibt einen Schlüsselnamen „CP Service UUID“, der entspricht eine GUID des Signaturanbieters.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: ComHelper.ComHelper
-second_title: Aspose.Words für .NET-API-Referenz
-description: ComHelper constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: ComHelper
+linktitle: ComHelper
+articleTitle: ComHelper
+second_title: Aspose.Words für .NET
+description: ComHelper constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/comhelper/comhelper/
@@ -14,7 +16,7 @@ Initialisiert eine neue Instanz dieser Klasse.
 public ComHelper()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente mit der ComHelper-Klasse geöffnet werden.
 
@@ -39,7 +41,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 ### Siehe auch
 
 * class [ComHelper](../)
-* namensraum [Aspose.Words](../../comhelper/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

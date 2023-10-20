@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Height
-second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Ruft die Höhe der horizontalen Regel ab oder legt sie fest.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words für .NET
+description: HorizontalRuleFormat Height eigendom. Ruft die Höhe der horizontalen Regel ab oder legt sie fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/horizontalruleformat/height/
@@ -20,7 +22,7 @@ public double Height { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn das Argument außerhalb des gültigen Wertebereichs lag. |
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine Verknüpfung zum[`Height`](../../shapebase/height/) Eigentum.
 
@@ -28,7 +30,7 @@ Gültige Werte reichen von 0 bis einschließlich 1584.
 
 Der Standardwert ist 1,5.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
@@ -51,7 +53,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Siehe auch
 
 * class [HorizontalRuleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../horizontalruleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

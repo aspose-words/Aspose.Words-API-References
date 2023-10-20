@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ruft den Absatz ab der aktuell darin ausgewählt istDocumentBuilder .
+linktitle: CurrentParagraph
+articleTitle: CurrentParagraph
+second_title: Aspose.Words für .NET
+description: DocumentBuilder CurrentParagraph eigendom. Ruft den Absatz ab der aktuell darin ausgewählt istDocumentBuilder  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/documentbuilder/currentparagraph/
@@ -14,11 +16,11 @@ Ruft den Absatz ab, der aktuell darin ausgewählt ist[`DocumentBuilder`](../) .
 public Paragraph CurrentParagraph { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 [`CurrentNode`](../currentnode/)
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Cursor eines Document Builders zu verschiedenen Knoten in einem Dokument bewegt wird.
 
@@ -73,7 +75,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

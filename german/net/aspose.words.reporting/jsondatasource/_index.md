@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.JsonDataSource klas. Bietet Zugriff auf Daten einer JSONDatei oder eines JSONStreams zur Verwendung in einem Bericht.
+title: JsonDataSource Class
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Reporting.JsonDataSource klas. Bietet Zugriff auf Daten einer JSONDatei oder eines JSONStreams zur Verwendung in einem Bericht in C#.
 type: docs
 weight: 4690
 url: /de/net/aspose.words.reporting/jsondatasource/
@@ -20,12 +22,12 @@ public class JsonDataSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | Erstellt eine neue Datenquelle mit Daten aus einem JSON-Stream unter Verwendung von Standardoptionen zum Parsen von JSON-Daten. |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | Erstellt eine neue Datenquelle mit Daten aus einer JSON-Datei unter Verwendung von Standardoptionen zum Parsen von JSON-Daten. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einem JSON-Stream unter Verwendung der angegebenen Optionen zum Parsen von JSON-Daten. |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einer JSON-Datei unter Verwendung der angegebenen Optionen zum Parsen von JSON-Daten. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem JSON-Stream unter Verwendung von Standardoptionen zum Parsen von JSON-Daten. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | Erstellt eine neue Datenquelle mit Daten aus einer JSON-Datei unter Verwendung von Standardoptionen zum Parsen von JSON-Daten. |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einem JSON-Stream unter Verwendung der angegebenen Optionen zum Parsen von JSON-Daten. |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einer JSON-Datei unter Verwendung der angegebenen Optionen zum Parsen von JSON-Daten. |
 
-### Bemerkungen
+## Bemerkungen
 
 Um beim Erstellen eines Berichts auf Daten der entsprechenden Datei oder des entsprechenden Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als eine Datenquelle an eine von[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
@@ -47,5 +49,3 @@ Um das Standardverhalten beim Laden von JSON-Daten zu überschreiben, initialisi
 
 * namensraum [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../)
-
-

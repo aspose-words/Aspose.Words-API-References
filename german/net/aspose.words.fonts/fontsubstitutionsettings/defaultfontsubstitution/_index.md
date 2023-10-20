@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSubstitutionSettings eigendom. Einstellungen im Zusammenhang mit der Standardregel zum Ersetzen von Schriftarten.
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: Aspose.Words für .NET
+description: FontSubstitutionSettings DefaultFontSubstitution eigendom. Einstellungen im Zusammenhang mit der Standardregel zum Ersetzen von Schriftarten in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ Einstellungen im Zusammenhang mit der Standardregel zum Ersetzen von Schriftarte
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Standardregel zum Ersetzen von Schriftarten festgelegt wird.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

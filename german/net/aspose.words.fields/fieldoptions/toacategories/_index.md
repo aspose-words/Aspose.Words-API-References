@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ToaCategories
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft die Tabelle der Autoritätskategorien ab oder legt diese fest.
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words für .NET
+description: FieldOptions ToaCategories eigendom. Ruft die Tabelle der Autoritätskategorien ab oder legt diese fest in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.fields/fieldoptions/toacategories/
@@ -14,7 +16,7 @@ Ruft die Tabelle der Autoritätskategorien ab oder legt diese fest.
 public ToaCategories ToaCategories { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Reihe von Kategorien für TOA-Felder angegeben werden.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * class [ToaCategories](../../toacategories/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: VariableCollection methode. Fügt der Sammlung eine Dokumentvariable hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: VariableCollection Add methode. Fügt der Sammlung eine Dokumentvariable hinzu in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/variablecollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, string value)
 | name | String | Der Name der hinzuzufügenden Variablen, bei dem die Groß-/Kleinschreibung nicht berücksichtigt wird. |
 | value | String | Der Wert der Variablen. Der Wert kann nicht sein`Null`, wenn der Wert null ist, wird stattdessen eine leere Zeichenfolge verwendet. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Variablensammlung eines Dokuments gearbeitet wird.
 
@@ -86,7 +88,5 @@ Assert.That(variables, Is.Empty);
 ### Siehe auch
 
 * class [VariableCollection](../)
-* namensraum [Aspose.Words](../../variablecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

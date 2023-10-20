@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionsView
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.RevisionsView opsomming. Ermöglicht die Angabe ob mit der Originalversion oder der überarbeiteten Version eines Dokuments gearbeitet werden soll.
+title: RevisionsView Enum
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words für .NET
+description: Aspose.Words.RevisionsView opsomming. Ermöglicht die Angabe ob mit der Originalversion oder der überarbeiteten Version eines Dokuments gearbeitet werden soll in C#.
 type: docs
 weight: 4810
 url: /de/net/aspose.words/revisionsview/
@@ -21,7 +23,7 @@ public enum RevisionsView
 | Original | `0` | Gibt die Originalversion eines Dokuments an. |
 | Final | `1` | Gibt die überarbeitete Version eines Dokuments an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie zwischen der überarbeiteten und der Originalansicht eines Dokuments gewechselt wird.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

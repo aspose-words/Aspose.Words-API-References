@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Bietet Zugriff auf die Schriftartformatierung dieses Objekts.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: ShapeBase Font eigendom. Bietet Zugriff auf die Schriftartformatierung dieses Objekts in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Schriftartformatierung dieses Objekts.
 public Font Font { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textfeld einfügt und die Schriftart seines Inhalts festlegt.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

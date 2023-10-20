@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Notes.FootnoteNumberingRule opsomming. Legt fest wann die automatische Fußnoten oder Endnotennummerierung neu gestartet wird.
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Notes.FootnoteNumberingRule opsomming. Legt fest wann die automatische Fußnoten oder Endnotennummerierung neu gestartet wird in C#.
 type: docs
 weight: 4270
 url: /de/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | Die Nummerierung beginnt auf jeder Seite neu. Gilt nur für Fußnoten. |
 | Default | `0` | GleichContinuous . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Fußnoten-/Endnotennummerierung an bestimmten Stellen im Dokument neu gestartet wird.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * namensraum [Aspose.Words.Notes](../../aspose.words.notes/)
 * Montage [Aspose.Words](../../)
-
-

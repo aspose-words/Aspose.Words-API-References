@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartFormat eigendom. Ruft die Füllformatierung für das übergeordnete Diagrammelement ab.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words für .NET
+description: ChartFormat Fill eigendom. Ruft die Füllformatierung für das übergeordnete Diagrammelement ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ Ruft die Füllformatierung für das übergeordnete Diagrammelement ab.
 public Fill Fill { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigen Sie, wie Sie die Markierungsformatierung festlegen.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

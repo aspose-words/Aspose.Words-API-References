@@ -1,7 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.LoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen z. B. Passwort oder BasisURI wenn ein Dokument in ein geladen wirdDocument Objekt.
+title: LoadOptions Class
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.LoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen z. B. Passwort oder BasisURI wenn ein Dokument in ein geladen wirdDocument Objekt in C#.
 type: docs
 weight: 3660
 url: /de/net/aspose.words.loading/loadoptions/
@@ -21,8 +23,8 @@ public class LoadOptions
 | Name | Beschreibung |
 | --- | --- |
 | [LoadOptions](loadoptions/#constructor)() | Initialisiert eine neue Instanz dieser Klasse mit Standardwerten. |
-| [LoadOptions](loadoptions/#constructor_2)(string) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Kennwort, um ein verschlüsseltes Dokument zu laden. |
-| [LoadOptions](loadoptions/#constructor_1)(LoadFormat, string, string) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit Eigenschaften, die auf die angegebenen Werte festgelegt sind. |
+| [LoadOptions](loadoptions/#constructor_2)(*string*) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Kennwort, um ein verschlüsseltes Dokument zu laden. |
+| [LoadOptions](loadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit Eigenschaften, die auf die angegebenen Werte festgelegt sind. |
 
 ## Eigenschaften
 
@@ -49,9 +51,9 @@ public class LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein verschlüsseltes Microsoft Word-Dokument geladen wird.
 
@@ -78,5 +80,3 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

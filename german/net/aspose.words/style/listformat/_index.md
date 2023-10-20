@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Bietet Zugriff auf die Listenformatierungseigenschaften eines Absatzstils.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words für .NET
+description: Style ListFormat eigendom. Bietet Zugriff auf die Listenformatierungseigenschaften eines Absatzstils in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/style/listformat/
@@ -14,11 +16,11 @@ Bietet Zugriff auf die Listenformatierungseigenschaften eines Absatzstils.
 public ListFormat ListFormat { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur für Absatzstile gültig. Für andere Stiltypen gibt diese Eigenschaft zurück`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatzstil mit Listenformatierung erstellt und verwendet wird.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

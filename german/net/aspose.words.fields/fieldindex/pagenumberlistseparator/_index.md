@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageNumberListSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft die Zeichenfolge ab die zum Trennen zweier Seitenzahlen in einer Seitenzahlenliste verwendet wird oder legt diese fest.
+linktitle: PageNumberListSeparator
+articleTitle: PageNumberListSeparator
+second_title: Aspose.Words für .NET
+description: FieldIndex PageNumberListSeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen zweier Seitenzahlen in einer Seitenzahlenliste verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fieldindex/pagenumberlistseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen zweier Seitenzahlen in einer Seitenzah
 public string PageNumberListSeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Seitenzahlentrennzeichen in einem INDEX-Feld bearbeitet wird.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

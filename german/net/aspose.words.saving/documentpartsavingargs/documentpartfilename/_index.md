@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPartSavingArgs eigendom. Ruft den Dateinamen ohne Pfad ab unter dem der Dokumentteil gespeichert wird oder legt ihn fest.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words für .NET
+description: DocumentPartSavingArgs DocumentPartFileName eigendom. Ruft den Dateinamen ohne Pfad ab unter dem der Dokumentteil gespeichert wird oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ Ruft den Dateinamen (ohne Pfad) ab, unter dem der Dokumentteil gespeichert wird,
 public string DocumentPartFileName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie neu definieren, wie die Dateinamen der Dokumentteile beim Export nach HTML oder EPUB generiert werden .
 
@@ -22,7 +24,7 @@ Wenn der Rückruf aufgerufen wird, enthält diese Eigenschaft den Dateinamen, de
 
 `DocumentPartFileName` darf nur den Dateinamen ohne Pfad enthalten. Aspose.Words bestimmt den Pfad zum Speichern anhand des Dokumentdateinamens. Wenn der Dateiname des Ausgabedokuments nicht angegeben wurde, beispielsweise beim Speichern in einem Stream, wird dieser Dateiname nur für die Referenzierung von Dokumentteilen verwendet. Das Gleiche gilt beim Speichern im EPUB-Format.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Siehe auch
 
 * class [DocumentPartSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../documentpartsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.ParagraphFormat klas. Stellt die gesamte Formatierung für einen Absatz dar.
+title: ParagraphFormat Class
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.ParagraphFormat klas. Stellt die gesamte Formatierung für einen Absatz dar in C#.
 type: docs
 weight: 4420
 url: /de/net/aspose.words/paragraphformat/
@@ -68,7 +70,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting/)() | Setzt die Standard-Absatzformatierung zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -119,5 +121,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

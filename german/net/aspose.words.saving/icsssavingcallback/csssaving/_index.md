@@ -1,7 +1,9 @@
 ---
 title: ICssSavingCallback.CssSaving
-second_title: Aspose.Words für .NET-API-Referenz
-description: ICssSavingCallback methode. Wird aufgerufen wenn Aspose.Words ein CSS Cascading Style Sheet speichert.
+linktitle: CssSaving
+articleTitle: CssSaving
+second_title: Aspose.Words für .NET
+description: ICssSavingCallback CssSaving methode. Wird aufgerufen wenn Aspose.Words ein CSS Cascading Style Sheet speichert in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/icsssavingcallback/csssaving/
@@ -14,7 +16,7 @@ Wird aufgerufen, wenn Aspose.Words ein CSS (Cascading Style Sheet) speichert.
 public void CssSaving(CssSavingArgs args)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit CSS-Stylesheets gearbeitet wird, die bei einer HTML-Konvertierung erstellt werden.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [CssSavingArgs](../../csssavingargs/)
 * interface [ICssSavingCallback](../)
-* namensraum [Aspose.Words.Saving](../../icsssavingcallback/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.NodeChangingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Wird aufgerufen wenn ein Knoten in das Dokument eingefügt oder entfernt wird.
+linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
+second_title: Aspose.Words für .NET
+description: DocumentBase NodeChangingCallback eigendom. Wird aufgerufen wenn ein Knoten in das Dokument eingefügt oder entfernt wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/documentbase/nodechangingcallback/
@@ -14,7 +16,7 @@ Wird aufgerufen, wenn ein Knoten in das Dokument eingefügt oder entfernt wird.
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * interface [INodeChangingCallback](../../inodechangingcallback/)
 * class [DocumentBase](../)
-* namensraum [Aspose.Words](../../documentbase/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

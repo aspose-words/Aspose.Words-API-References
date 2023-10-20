@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFormatMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.LowCode.MergeFormatMode opsomming. Gibt an wie die Formatierung beim Zusammenführen mehrerer Dokumente zusammengeführt wird.
+title: MergeFormatMode Enum
+linktitle: MergeFormatMode
+articleTitle: MergeFormatMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.LowCode.MergeFormatMode opsomming. Gibt an wie die Formatierung beim Zusammenführen mehrerer Dokumente zusammengeführt wird in C#.
 type: docs
 weight: 3750
 url: /de/net/aspose.words.lowcode/mergeformatmode/
@@ -26,5 +28,3 @@ public enum MergeFormatMode
 
 * namensraum [Aspose.Words.LowCode](../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../)
-
-

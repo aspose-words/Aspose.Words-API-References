@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.RelativeVerticalPosition opsomming. Gibt an wie relativ die vertikale Position einer Form oder eines Textrahmens ist.
+title: RelativeVerticalPosition Enum
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.RelativeVerticalPosition opsomming. Gibt an wie relativ die vertikale Position einer Form oder eines Textrahmens ist in C#.
 type: docs
 weight: 1210
 url: /de/net/aspose.words.drawing/relativeverticalposition/
@@ -29,7 +31,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | Der Standardwert istMargin . |
 | TextFrameDefault | `2` | Der Standardwert istParagraph . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeVerticalPosition](../shapebase/relativeverticalposition/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

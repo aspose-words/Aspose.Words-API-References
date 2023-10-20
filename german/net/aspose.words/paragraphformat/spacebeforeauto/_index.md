@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBeforeAuto
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. True wenn der Abstand vor dem Absatz automatisch festgelegt wird.
+linktitle: SpaceBeforeAuto
+articleTitle: SpaceBeforeAuto
+second_title: Aspose.Words für .NET
+description: ParagraphFormat SpaceBeforeAuto eigendom. True wenn der Abstand vor dem Absatz automatisch festgelegt wird in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words/paragraphformat/spacebeforeauto/
@@ -14,7 +16,7 @@ True, wenn der Abstand vor dem Absatz automatisch festgelegt wird.
 public bool SpaceBeforeAuto { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn eingestellt auf`WAHR` , überschreibt die Wirkung von[`SpaceBefore`](../spacebefore/).
 
@@ -27,7 +29,7 @@ Wenn Sie „Abstand vor“ und „Abstand nach“ für Absätze auf „Automatis
 * Nach einer Tabelle wird kein Abstand hinzugefügt, wenn es sich um den letzten Block in einer Tabellenzelle handelt.
 * Nach dem letzten Absatz in einer Tabellenzelle wird kein Abstand hinzugefügt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der automatische Absatzabstand eingestellt wird.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

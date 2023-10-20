@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LinesToDrop
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft die Anzahl der Zeilen des Absatztextes ab der zur Berechnung der Initialenhöhe verwendet wird oder legt diese fest.
+linktitle: LinesToDrop
+articleTitle: LinesToDrop
+second_title: Aspose.Words für .NET
+description: ParagraphFormat LinesToDrop eigendom. Ruft die Anzahl der Zeilen des Absatztextes ab der zur Berechnung der Initialenhöhe verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/paragraphformat/linestodrop/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Zeilen des Absatztextes ab, der zur Berechnung der Initialen
 public int LinesToDrop { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Größe einer Initiale festgelegt wird.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

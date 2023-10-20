@@ -1,7 +1,9 @@
 ---
 title: VbaProject.CodePage
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaProject eigendom. Ruft die Codepage des VBAProjekts ab oder legt diese fest.
+linktitle: CodePage
+articleTitle: CodePage
+second_title: Aspose.Words für .NET
+description: VbaProject CodePage eigendom. Ruft die Codepage des VBAProjekts ab oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbaproject/codepage/
@@ -14,11 +16,11 @@ Ruft die Codepage des VBA-Projekts ab oder legt diese fest.
 public int CodePage { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Bitte beachten Sie, dass VBA eine Funktion vor Unicode ist und Sie die entsprechende Codepage explizit festlegen müssen , um regionale Zeichensätze beizubehalten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die VBA-Projektinformationen eines Dokuments zugegriffen wird.
 
@@ -49,7 +51,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Siehe auch
 
 * class [VbaProject](../)
-* namensraum [Aspose.Words.Vba](../../vbaproject/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

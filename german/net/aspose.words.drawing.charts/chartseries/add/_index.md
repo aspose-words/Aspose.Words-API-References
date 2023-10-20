@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries methode. Fügt den angegebenen XWert zur Diagrammreihe hinzu. Wenn die Reihe YWerte und Blasengrößen unterstützt sind diese für den XWert leer.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: ChartSeries Add methode. Fügt den angegebenen XWert zur Diagrammreihe hinzu. Wenn die Reihe YWerte und Blasengrößen unterstützt sind diese für den XWert leer in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 Fügt den angegebenen X-Wert zur Diagrammreihe hinzu. Wenn die Reihe Y-Werte und Blasengrößen unterstützt, sind diese für den X-Wert leer.
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 Fügt die angegebenen X- und Y-Werte zur Diagrammreihe hinzu.
 
@@ -31,7 +33,7 @@ Fügt die angegebenen X- und Y-Werte zur Diagrammreihe hinzu.
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Diagrammdatenwerte hinzugefügt/entfernt werden.
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße zur Diagrammreihe hinzu.
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

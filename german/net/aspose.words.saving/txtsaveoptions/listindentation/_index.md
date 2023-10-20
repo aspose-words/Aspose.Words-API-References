@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptions eigendom. Ruft a abTxtListIndentation Objekt das angibt wie viele und welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Standardmäßig ist die Anzahl der Zeichen 0 null d. h. keine Einrückung.
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: Aspose.Words für .NET
+description: TxtSaveOptions ListIndentation eigendom. Ruft a abTxtListIndentation Objekt das angibt wie viele und welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Standardmäßig ist die Anzahl der Zeichen 0 null d. h. keine Einrückung in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ Ruft a ab[`TxtListIndentation`](../../txtlistindentation/) Objekt, das angibt, w
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listeneinrückung beim Speichern eines Dokuments im Klartext konfiguriert wird.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../txtsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

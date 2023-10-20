@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Gibt die Anzahl zurückChartDataLabel in dieser Sammlung.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection Count eigendom. Gibt die Anzahl zurückChartDataLabel in dieser Sammlung in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/count/
@@ -14,7 +16,7 @@ Gibt die Anzahl zurück[`ChartDataLabel`](../../chartdatalabel/) in dieser Samml
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

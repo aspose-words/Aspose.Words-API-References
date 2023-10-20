@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Options
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReportingEngine eigendom. Ruft eine Reihe von Flags ab die das Verhalten steuern oder legt diese festReportingEngine Instanz beim Erstellen eines Berichts.
+linktitle: Options
+articleTitle: Options
+second_title: Aspose.Words für .NET
+description: ReportingEngine Options eigendom. Ruft eine Reihe von Flags ab die das Verhalten steuern oder legt diese festReportingEngine Instanz beim Erstellen eines Berichts in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.reporting/reportingengine/options/
@@ -18,7 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* namensraum [Aspose.Words.Reporting](../../reportingengine/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

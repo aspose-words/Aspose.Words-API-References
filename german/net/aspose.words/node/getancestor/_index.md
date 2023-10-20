@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node methode. Ruft den ersten Vorfahren des angegebenen Objekttyps ab.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words für .NET
+description: Node GetAncestor methode. Ruft den ersten Vorfahren des angegebenen Objekttyps ab in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Ruft den ersten Vorfahren des angegebenen Objekttyps ab.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 Der Vorfahre des angegebenen Typs oder`Null` wenn kein Vorfahre dieses Typs gefunden wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Der Vorfahrentyp stimmt überein, wenn er gleich ist*ancestorType* oder abgeleitet von*ancestorType*.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man herausfindet, ob Tabellen verschachtelt sind.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 Der Vorfahre des angegebenen Typs oder`Null` wenn kein Vorfahre dieses Typs gefunden wurde.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man herausfindet, ob Tabellen verschachtelt sind.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

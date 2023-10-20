@@ -1,7 +1,9 @@
 ---
 title: Stroke.BackColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Ruft die Hintergrundfarbe des Strichs ab oder legt diese fest.
+linktitle: BackColor
+articleTitle: BackColor
+second_title: Aspose.Words für .NET
+description: Stroke BackColor eigendom. Ruft die Hintergrundfarbe des Strichs ab oder legt diese fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/stroke/backcolor/
@@ -14,11 +16,11 @@ Ruft die Hintergrundfarbe des Strichs ab oder legt diese fest.
 public Color BackColor { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert für a[`Shape`](../../shape/) is White.
 
-### Beispiele
+## Beispiele
 
 Zeigen Sie, wie Sie die Markierungsformatierung festlegen.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Siehe auch
 
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

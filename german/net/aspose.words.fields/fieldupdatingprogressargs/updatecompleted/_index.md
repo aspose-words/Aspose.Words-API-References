@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdateCompleted
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldUpdatingProgressArgs eigendom. Ruft einen Wert ab der angibt ob die Feldaktualisierung abgeschlossen ist.
+linktitle: UpdateCompleted
+articleTitle: UpdateCompleted
+second_title: Aspose.Words für .NET
+description: FieldUpdatingProgressArgs UpdateCompleted eigendom. Ruft einen Wert ab der angibt ob die Feldaktualisierung abgeschlossen ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -14,7 +16,7 @@ Ruft einen Wert ab, der angibt, ob die Feldaktualisierung abgeschlossen ist.
 public bool UpdateCompleted { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Siehe auch
 
 * class [FieldUpdatingProgressArgs](../)
-* namensraum [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

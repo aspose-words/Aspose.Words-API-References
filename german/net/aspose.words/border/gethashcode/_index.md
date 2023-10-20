@@ -1,7 +1,9 @@
 ---
 title: Border.GetHashCode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border methode. Dient als HashFunktion für diesen Typ.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words für .NET
+description: Border GetHashCode methode. Dient als HashFunktion für diesen Typ in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/border/gethashcode/
@@ -14,7 +16,7 @@ Dient als Hash-Funktion für diesen Typ.
 public override int GetHashCode()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Rahmensammlungen Elemente gemeinsam nutzen können.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Siehe auch
 
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

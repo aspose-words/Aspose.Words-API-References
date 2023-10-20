@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.Encoding
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIncludeText eigendom. Ruft die auf die Daten in der referenzierten Datei angewendete Codierung ab oder legt diese fest.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words für .NET
+description: FieldIncludeText Encoding eigendom. Ruft die auf die Daten in der referenzierten Datei angewendete Codierung ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldincludetext/encoding/
@@ -14,7 +16,7 @@ Ruft die auf die Daten in der referenzierten Datei angewendete Codierung ab oder
 public string Encoding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein INCLUDETEXT-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Siehe auch
 
 * class [FieldIncludeText](../)
-* namensraum [Aspose.Words.Fields](../../fieldincludetext/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

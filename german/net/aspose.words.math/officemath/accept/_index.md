@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath methode. Akzeptiert einen Besucher.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words für .NET
+description: OfficeMath Accept methode. Akzeptiert einen Besucher in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
-### Bemerkungen
+## Bemerkungen
 
 Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 Anrufe[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , dann ruft[`Accept`](../../../aspose.words/node/accept/) für alle untergeordneten Knoten des Office Math und Aufrufe[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) am Ende.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jedes Office-Mathe-Knotens in einem Dokument gedruckt wird.
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* namensraum [Aspose.Words.Math](../../officemath/)
+* namensraum [Aspose.Words.Math](../../../aspose.words.math/)
 * Montage [Aspose.Words](../../../)
-
-

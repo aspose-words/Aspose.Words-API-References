@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Value
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlProperty eigendom. Ruft den Wert des benutzerdefinierten XMLAttributs oder der SmartTagEigenschaft ab oder legt diesen fest.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words für .NET
+description: CustomXmlProperty Value eigendom. Ruft den Wert des benutzerdefinierten XMLAttributs oder der SmartTagEigenschaft ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/customxmlproperty/value/
@@ -14,13 +16,13 @@ Ruft den Wert des benutzerdefinierten XML-Attributs oder der Smart-Tag-Eigenscha
 public string Value { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Smarttags erstellt.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [CustomXmlProperty](../)
-* namensraum [Aspose.Words.Markup](../../customxmlproperty/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

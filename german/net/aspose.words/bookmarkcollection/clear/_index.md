@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkCollection methode. Entfernt alle Lesezeichen aus dieser Sammlung und aus dem Dokument.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: BookmarkCollection Clear methode. Entfernt alle Lesezeichen aus dieser Sammlung und aus dem Dokument in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ Entfernt alle Lesezeichen aus dieser Sammlung und aus dem Dokument.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Lesezeichen aus einem Dokument entfernt werden.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Siehe auch
 
 * class [BookmarkCollection](../)
-* namensraum [Aspose.Words](../../bookmarkcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

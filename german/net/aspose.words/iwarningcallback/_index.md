@@ -1,7 +1,9 @@
 ---
-title: Interface IWarningCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.IWarningCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode aufrufen möchten um Warnungen zum Verlust der Wiedergabetreue zu erfassen die beim Laden oder Speichern von Dokumenten auftreten können.
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.IWarningCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode aufrufen möchten um Warnungen zum Verlust der Wiedergabetreue zu erfassen die beim Laden oder Speichern von Dokumenten auftreten können in C#.
 type: docs
 weight: 3210
 url: /de/net/aspose.words/iwarningcallback/
@@ -18,9 +20,9 @@ public interface IWarningCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words ruft diese Methode auf, wenn beim Laden oder Speichern des Dokuments ein Problem auftritt, das zu einem Verlust der Formatierung oder Datentreue führen kann. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words ruft diese Methode auf, wenn beim Laden oder Speichern des Dokuments ein Problem auftritt, das zu einem Verlust der Formatierung oder Datentreue führen kann. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die IWarningCallback-Schnittstelle zum Überwachen von Schriftartersetzungswarnungen verwendet wird.
 
@@ -179,5 +181,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

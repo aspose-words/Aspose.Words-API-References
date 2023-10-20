@@ -1,7 +1,9 @@
 ---
 title: Odso.RecipientDatas
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Ruft eine Sammlung von Objekten ab oder legt diese fest die den Einschluss/Ausschluss einzelner Datensätze in den Seriendruck festlegen. Dieses Objekt ist niemals vorhandenNull .
+linktitle: RecipientDatas
+articleTitle: RecipientDatas
+second_title: Aspose.Words für .NET
+description: Odso RecipientDatas eigendom. Ruft eine Sammlung von Objekten ab oder legt diese fest die den Einschluss/Ausschluss einzelner Datensätze in den Seriendruck festlegen. Dieses Objekt ist niemals vorhandenNull  in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.settings/odso/recipientdatas/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Objekten ab oder legt diese fest, die den Einschluss/Auss
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

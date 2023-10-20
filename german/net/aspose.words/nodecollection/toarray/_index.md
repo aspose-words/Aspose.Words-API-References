@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeCollection methode. Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: NodeCollection ToArray methode. Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Ein Array von Knoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie sollten keine Knoten hinzufügen/entfernen, während Sie über eine Sammlung von Knoten iterieren, da dies den Iterator ungültig macht und Aktualisierungen für Live-Sammlungen erfordert.
 
 Um Knoten während der Iteration hinzufügen/entfernen zu können, verwenden Sie diese Methode, um -Knoten in ein Array fester Größe zu kopieren und dann über das Array zu iterieren.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Textfeldformen durch Bildformen ersetzt werden.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namensraum [Aspose.Words](../../nodecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

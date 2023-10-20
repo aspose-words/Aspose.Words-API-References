@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.ValueType
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartYValue eigendom. Ruft den Typ des im Objekt gespeicherten YWerts ab.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words für .NET
+description: ChartYValue ValueType eigendom. Ruft den Typ des im Objekt gespeicherten YWerts ab in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing.charts/chartyvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartYValueType ValueType { get; }
 
 * enum [ChartYValueType](../../chartyvaluetype/)
 * class [ChartYValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

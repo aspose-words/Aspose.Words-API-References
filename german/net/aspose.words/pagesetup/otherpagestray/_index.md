@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft das Papierfach Ablagefach ab das für alle außer der ersten Seite eines Abschnitts verwendet werden soll oder legt es fest. Der Wert ist ImplementierungsDruckerspezifisch.
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: Aspose.Words für .NET
+description: PageSetup OtherPagesTray eigendom. Ruft das Papierfach Ablagefach ab das für alle außer der ersten Seite eines Abschnitts verwendet werden soll oder legt es fest. Der Wert ist ImplementierungsDruckerspezifisch in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ Ruft das Papierfach (Ablagefach) ab, das für alle außer der ersten Seite eines
 public int OtherPagesTray { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Abschnitte in einem Dokument dazu gebracht werden, das Standardpapierfach des ausgewählten Druckers zu verwenden.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

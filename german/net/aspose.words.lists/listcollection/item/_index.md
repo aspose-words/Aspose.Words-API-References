@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListCollection eigendom. Ruft eine Liste nach Index ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ListCollection Item eigendom. Ruft eine Liste nach Index ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ Ruft eine Liste nach Index ab.
 public List this[int index] { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namensraum [Aspose.Words.Lists](../../listcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

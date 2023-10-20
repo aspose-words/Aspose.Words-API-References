@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.MaxCharactersPerLine
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptions eigendom. Ruft einen ganzzahligen Wert ab oder legt diesen fest der die maximale Anzahl von Zeichen pro Zeile angibt. Der Standardwert ist 0 d. h. keine Begrenzung.
+linktitle: MaxCharactersPerLine
+articleTitle: MaxCharactersPerLine
+second_title: Aspose.Words für .NET
+description: TxtSaveOptions MaxCharactersPerLine eigendom. Ruft einen ganzzahligen Wert ab oder legt diesen fest der die maximale Anzahl von Zeichen pro Zeile angibt. Der Standardwert ist 0 d. h. keine Begrenzung in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
@@ -14,7 +16,7 @@ Ruft einen ganzzahligen Wert ab oder legt diesen fest, der die maximale Anzahl v
 public int MaxCharactersPerLine { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die maximale Anzahl von Zeichen pro Zeile festgelegt wird.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ### Siehe auch
 
 * class [TxtSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../txtsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldXE eigendom. Ruft ab oder legt fest ob eine kursive Formatierung auf die Seitenzahl des Eintrags angewendet werden soll.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words für .NET
+description: FieldXE IsItalic eigendom. Ruft ab oder legt fest ob eine kursive Formatierung auf die Seitenzahl des Eintrags angewendet werden soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob eine kursive Formatierung auf die Seitenzahl des Eint
 public bool IsItalic { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein INDEX-Feld mithilfe von XE-Feldern mit Einträgen füllt und auch sein Erscheinungsbild ändert.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Siehe auch
 
 * class [FieldXE](../)
-* namensraum [Aspose.Words.Fields](../../fieldxe/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

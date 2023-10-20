@@ -1,7 +1,9 @@
 ---
-title: Cell.Cell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell constructeur. Initialisiert eine neue Instanz vonCell Klasse.
+title: Cell
+linktitle: Cell
+articleTitle: Cell
+second_title: Aspose.Words für .NET
+description: Cell constructeur. Initialisiert eine neue Instanz vonCell Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/cell/cell/
@@ -18,13 +20,13 @@ public Cell(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Cell`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null`.
 
-Anhängen[`Cell`](../) zur DokumentenverwendungNode) oderNode) in der Zeile, in der die Zelle eingefügt werden soll.
+Anhängen[`Cell`](../) zur Dokumentenverwendung[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) oder[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) in der Zeile, in der die Zelle eingefügt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

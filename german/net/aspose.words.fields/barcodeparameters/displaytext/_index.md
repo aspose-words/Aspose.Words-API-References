@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.DisplayText
-second_title: Aspose.Words für .NET-API-Referenz
-description: BarcodeParameters eigendom. Ob BarcodeDaten Text zusammen mit dem Bild angezeigt werden sollen.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words für .NET
+description: BarcodeParameters DisplayText eigendom. Ob BarcodeDaten Text zusammen mit dem Bild angezeigt werden sollen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/barcodeparameters/displaytext/
@@ -14,7 +16,7 @@ Ob Barcode-Daten (Text) zusammen mit dem Bild angezeigt werden sollen.
 public bool DisplayText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Siehe auch
 
 * class [BarcodeParameters](../)
-* namensraum [Aspose.Words.Fields](../../barcodeparameters/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorder
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table methode. Setzt den angegebenen Tabellenrand auf den angegebenen Linienstil die angegebene Breite und die angegebene Farbe.
+linktitle: SetBorder
+articleTitle: SetBorder
+second_title: Aspose.Words für .NET
+description: Table SetBorder methode. Setzt den angegebenen Tabellenrand auf den angegebenen Linienstil die angegebene Breite und die angegebene Farbe in C#.
 type: docs
-weight: 430
+weight: 410
 url: /de/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
@@ -23,7 +25,7 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | color | Color | Die für den Rand zu verwendende Farbe. |
 | isOverrideCellBorders | Boolean | Wann`WAHR`bewirkt, dass alle vorhandenen expliziten Zellränder entfernt werden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 * enum [BorderType](../../../aspose.words/bordertype/)
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MailMergeMainDocumentType opsomming. Gibt die möglichen Typen für ein SerienbriefQuelldokument an.
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.MailMergeMainDocumentType opsomming. Gibt die möglichen Typen für ein SerienbriefQuelldokument an in C#.
 type: docs
 weight: 5840
 url: /de/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Gibt an, dass das Seriendruck-Quelldokument vom Faxtyp ist. |
 | Default | `0` | EntsprichtNotAMergeDocument |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

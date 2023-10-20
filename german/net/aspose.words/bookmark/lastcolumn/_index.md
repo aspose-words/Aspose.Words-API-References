@@ -1,7 +1,9 @@
 ---
 title: Bookmark.LastColumn
-second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark eigendom. Ruft den nullbasierten Index der letzten Spalte des Tabellenspaltenbereichs ab der dem Lesezeichen zugeordnet ist.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words für .NET
+description: Bookmark LastColumn eigendom. Ruft den nullbasierten Index der letzten Spalte des Tabellenspaltenbereichs ab der dem Lesezeichen zugeordnet ist in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/bookmark/lastcolumn/
@@ -14,11 +16,11 @@ Ruft den nullbasierten Index der letzten Spalte des Tabellenspaltenbereichs ab, 
 public int LastColumn { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Gibt zurück **-1** wenn dieses Lesezeichen kein Tabellenspalten-Lesezeichen ist.
+Gibt zurück**-1** wenn dieses Lesezeichen kein Tabellenspalten-Lesezeichen ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Tabellenspalten-Lesezeichen erhalten.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Siehe auch
 
 * class [Bookmark](../)
-* namensraum [Aspose.Words](../../bookmark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

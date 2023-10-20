@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt an der aktuellen Einfügeposition eine Zeichenfolge in das Dokument ein.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words für .NET
+description: DocumentBuilder Write methode. Fügt an der aktuellen Einfügeposition eine Zeichenfolge in das Dokument ein in C#.
 type: docs
-weight: 660
+weight: 650
 url: /de/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | Die Zeichenfolge, die in das Dokument eingefügt werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
 Aktuelle Schriftartformatierung, die von angegeben wird[`Font`](../font/) Eigenschaft wird verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

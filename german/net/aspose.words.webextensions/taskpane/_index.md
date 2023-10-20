@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.TaskPane klas. Stellt ein AddInAufgabenbereichsobjekt dar.
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WebExtensions.TaskPane klas. Stellt ein AddInAufgabenbereichsobjekt dar in C#.
 type: docs
 weight: 6710
 url: /de/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Stellt ein Weberweiterungsobjekt dar. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Gibt den Standardbreitenwert für diese Aufgabenbereichsinstanz an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namensraum [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../)
-
-

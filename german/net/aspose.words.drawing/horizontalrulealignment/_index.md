@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalRuleAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.HorizontalRuleAlignment opsomming. Stellt die Ausrichtung für die angegebene horizontale Regel dar.
+title: HorizontalRuleAlignment Enum
+linktitle: HorizontalRuleAlignment
+articleTitle: HorizontalRuleAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.HorizontalRuleAlignment opsomming. Stellt die Ausrichtung für die angegebene horizontale Regel dar in C#.
 type: docs
 weight: 1040
 url: /de/net/aspose.words.drawing/horizontalrulealignment/
@@ -26,5 +28,3 @@ public enum HorizontalRuleAlignment
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

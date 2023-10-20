@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.TaskPaneDockState opsomming. Listet die verfügbaren Speicherorte des Aufgabenbereichsobjekts auf.
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WebExtensions.TaskPaneDockState opsomming. Listet die verfügbaren Speicherorte des Aufgabenbereichsobjekts auf in C#.
 type: docs
 weight: 6730
 url: /de/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | Docken Sie den Aufgabenbereich auf der rechten Seite des Dokumentfensters an. |
 | Left | `1` | Docken Sie den Aufgabenbereich auf der linken Seite des Dokumentfensters an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namensraum [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../)
-
-

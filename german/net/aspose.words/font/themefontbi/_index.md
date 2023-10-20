@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontBi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Designschriftart im angewendeten Schriftartenschema ab das damit verknüpft ist oder legt diese festFont object in einem von rechts nach links verlaufenden Sprachdokument.
+linktitle: ThemeFontBi
+articleTitle: ThemeFontBi
+second_title: Aspose.Words für .NET
+description: Font ThemeFontBi eigendom. Ruft die Designschriftart im angewendeten Schriftartenschema ab das damit verknüpft ist oder legt diese festFont object in einem von rechts nach links verlaufenden Sprachdokument in C#.
 type: docs
 weight: 490
 url: /de/net/aspose.words/font/themefontbi/
@@ -14,7 +16,7 @@ Ruft die Designschriftart im angewendeten Schriftartenschema ab, das damit verkn
 public ThemeFont ThemeFontBi { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Designschriftarten und -farben gearbeitet wird.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

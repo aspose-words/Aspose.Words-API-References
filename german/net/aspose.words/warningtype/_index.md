@@ -1,7 +1,9 @@
 ---
-title: Enum WarningType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WarningType opsomming. Gibt den Typ einer Warnung an die von Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben wird.
+title: WarningType Enum
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WarningType opsomming. Gibt den Typ einer Warnung an die von Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben wird in C#.
 type: docs
 weight: 6660
 url: /de/net/aspose.words/warningtype/
@@ -31,7 +33,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | Allgemeiner unerwarteter Inhalt, kein spezifischer Code. |
 | Hint | `10000000` | Macht auf ein potenzielles Problem aufmerksam oder schlägt eine Verbesserung vor. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -92,5 +94,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

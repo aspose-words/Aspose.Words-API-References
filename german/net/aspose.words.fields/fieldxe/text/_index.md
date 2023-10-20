@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldXE eigendom. Ruft den Text des Eintrags ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldXE Text eigendom. Ruft den Text des Eintrags ab oder legt ihn fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldxe/text/
@@ -14,7 +16,7 @@ Ruft den Text des Eintrags ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie ein INDEX-Feld erstellen und es dann mithilfe von XE-Feldern mit Einträgen füllen.
 
@@ -140,7 +142,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Siehe auch
 
 * class [FieldXE](../)
-* namensraum [Aspose.Words.Fields](../../fieldxe/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

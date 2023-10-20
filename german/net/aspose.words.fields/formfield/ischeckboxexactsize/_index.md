@@ -1,7 +1,9 @@
 ---
 title: FormField.IsCheckBoxExactSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft den booleschen Wert ab der angibt ob die Größe des Textfelds automatisch erfolgt oder explizit angegeben wird oder legt diesen fest.
+linktitle: IsCheckBoxExactSize
+articleTitle: IsCheckBoxExactSize
+second_title: Aspose.Words für .NET
+description: FormField IsCheckBoxExactSize eigendom. Ruft den booleschen Wert ab der angibt ob die Größe des Textfelds automatisch erfolgt oder explizit angegeben wird oder legt diesen fest in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -14,11 +16,11 @@ Ruft den booleschen Wert ab, der angibt, ob die Größe des Textfelds automatisc
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gilt nur für ein Kontrollkästchen-Formularfeld.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

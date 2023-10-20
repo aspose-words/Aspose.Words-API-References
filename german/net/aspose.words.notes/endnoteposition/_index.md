@@ -1,7 +1,9 @@
 ---
-title: Enum EndnotePosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Notes.EndnotePosition opsomming. Definiert die Endnotenposition.
+title: EndnotePosition Enum
+linktitle: EndnotePosition
+articleTitle: EndnotePosition
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Notes.EndnotePosition opsomming. Definiert die Endnotenposition in C#.
 type: docs
 weight: 4250
 url: /de/net/aspose.words.notes/endnoteposition/
@@ -21,7 +23,7 @@ public enum EndnotePosition
 | EndOfSection | `0` | Endnoten werden am Ende des Abschnitts ausgegeben. |
 | EndOfDocument | `3` | Endnoten werden am Ende des Dokuments ausgegeben. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen anderen Ort auswählen, an dem das Dokument seine Endnoten sammelt und anzeigt.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * namensraum [Aspose.Words.Notes](../../aspose.words.notes/)
 * Montage [Aspose.Words](../../)
-
-

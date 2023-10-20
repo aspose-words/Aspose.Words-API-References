@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageFieldMergingArgs eigendom. Gibt die Bildhöhe für das Bild an das in das Dokument eingefügt werden soll.
+linktitle: ImageHeight
+articleTitle: ImageHeight
+second_title: Aspose.Words für .NET
+description: ImageFieldMergingArgs ImageHeight eigendom. Gibt die Bildhöhe für das Bild an das in das Dokument eingefügt werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -14,13 +16,13 @@ Gibt die Bildhöhe für das Bild an, das in das Dokument eingefügt werden soll.
 public MergeFieldImageDimension ImageHeight { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Wert dieser Eigenschaft stammt zunächst aus dem entsprechenden MERGEFIELD-Code, der im Vorlagendokument enthalten ist. Um den Anfangswert zu überschreiben, sollten Sie eine Instanz von zuweisen.[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class auf diese Eigenschaft oder legen Sie die Eigenschaften für die Instanz von fest[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Klasse, zurückgegeben von dieser Eigenschaft.
 
 Um anzugeben, dass der ursprüngliche Wert der Bildhöhe angewendet werden soll, sollten Sie den zuweisen`Null` -Wert auf diese Eigenschaft setzen oder festlegen[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) Eigenschaft für die Instanz von[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Klasse, die von dieser Eigenschaft zurückgegeben wird, auf einen negativen Wert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* namensraum [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

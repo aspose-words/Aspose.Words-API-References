@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Ruft den Namen der Schriftart ab.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: FontInfo Name eigendom. Ruft den Namen der Schriftart ab in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ Ruft den Namen der Schriftart ab.
 public string Name { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`. Kann eine leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruckt werden.
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Siehe auch
 
 * class [FontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

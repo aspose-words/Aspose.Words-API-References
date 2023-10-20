@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStopCollection eigendom. Ruft a ab oder legt es festGradientStop Objekt in der Sammlung.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: GradientStopCollection Item eigendom. Ruft a ab oder legt es festGradientStop Objekt in der Sammlung in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ Ruft a ab oder legt es fest[`GradientStop`](../../gradientstop/) Objekt in der S
 public GradientStop this[int index] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

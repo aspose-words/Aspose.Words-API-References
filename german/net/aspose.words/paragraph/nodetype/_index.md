@@ -1,7 +1,9 @@
 ---
 title: Paragraph.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Gibt zurückParagraph .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Paragraph NodeType eigendom. Gibt zurückParagraph  in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words/paragraph/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückParagraph .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

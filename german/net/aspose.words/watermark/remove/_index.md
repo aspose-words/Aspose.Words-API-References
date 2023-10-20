@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: Watermark methode. Entfernt das Wasserzeichen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: Watermark Remove methode. Entfernt das Wasserzeichen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ Entfernt das Wasserzeichen.
 public void Remove()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textwasserzeichen erstellt.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Siehe auch
 
 * class [Watermark](../)
-* namensraum [Aspose.Words](../../watermark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

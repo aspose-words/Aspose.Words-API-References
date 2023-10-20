@@ -1,7 +1,9 @@
 ---
 title: Frameset.IsFrameLinkToFile
-second_title: Aspose.Words für .NET-API-Referenz
-description: Frameset eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der in the angegebene Webseiten oder Dokumentdateiname verwendet wird.FrameDefaultUrl Eigenschaft ist eine externe Ressource mit der der Frame verknüpft ist.
+linktitle: IsFrameLinkToFile
+articleTitle: IsFrameLinkToFile
+second_title: Aspose.Words für .NET
+description: Frameset IsFrameLinkToFile eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der in the angegebene Webseiten oder Dokumentdateiname verwendet wird.FrameDefaultUrl Eigenschaft ist eine externe Ressource mit der der Frame verknüpft ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.framesets/frameset/isframelinktofile/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, ob der in the angegebene W
 public bool IsFrameLinkToFile { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Frames auf der Seite zugreift.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Siehe auch
 
 * class [Frameset](../)
-* namensraum [Aspose.Words.Framesets](../../frameset/)
+* namensraum [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt die Position in Punkten der Zahl oder des Aufzählungszeichens für die Listenebene zurück oder legt sie fest.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words für .NET
+description: ListLevel NumberPosition eigendom. Gibt die Position in Punkten der Zahl oder des Aufzählungszeichens für die Listenebene zurück oder legt sie fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ Gibt die Position (in Punkten) der Zahl oder des Aufzählungszeichens für die L
 public double NumberPosition { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 `NumberPosition` entspricht LeftIndent plus FirstLineIndent des Absatzes.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

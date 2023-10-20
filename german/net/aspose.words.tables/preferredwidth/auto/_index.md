@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Aspose.Words für .NET-API-Referenz
-description: PreferredWidth veld. Gibt eine Instanz zurück die den Wert Bevorzugte Breite ist nicht angegeben darstellt.
+linktitle: Auto
+articleTitle: Auto
+second_title: Aspose.Words für .NET
+description: PreferredWidth Auto veld. Gibt eine Instanz zurück die den Wert Bevorzugte Breite ist nicht angegeben darstellt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ Gibt eine Instanz zurück, die den Wert „Bevorzugte Breite ist nicht angegeben
 public static readonly PreferredWidth Auto;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Siehe auch
 
 * class [PreferredWidth](../)
-* namensraum [Aspose.Words.Tables](../../preferredwidth/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

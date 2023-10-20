@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataType
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Typ der SerienbriefDatenquelle und die Methode des Datenzugriffs an. Der Standardwert istDefault .
+linktitle: DataType
+articleTitle: DataType
+second_title: Aspose.Words für .NET
+description: MailMergeSettings DataType eigendom. Gibt den Typ der SerienbriefDatenquelle und die Methode des Datenzugriffs an. Der Standardwert istDefault  in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.settings/mailmergesettings/datatype/
@@ -14,7 +16,7 @@ Gibt den Typ der Serienbrief-Datenquelle und die Methode des Datenzugriffs an. D
 public MailMergeDataType DataType { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDataType](../../mailmergedatatype/)
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

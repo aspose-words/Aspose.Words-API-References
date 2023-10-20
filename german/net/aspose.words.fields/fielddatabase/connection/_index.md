@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Connection
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft eine Verbindung zu den Daten ab oder setzt sie.
+linktitle: Connection
+articleTitle: Connection
+second_title: Aspose.Words für .NET
+description: FieldDatabase Connection eigendom. Ruft eine Verbindung zu den Daten ab oder setzt sie in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielddatabase/connection/
@@ -14,7 +16,7 @@ Ruft eine Verbindung zu den Daten ab oder setzt sie.
 public string Connection { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

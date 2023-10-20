@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartXValue klas. Stellt einen XWert für eine Diagrammreihe dar.
+title: ChartXValue Class
+linktitle: ChartXValue
+articleTitle: ChartXValue
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartXValue klas. Stellt einen XWert für eine Diagrammreihe dar in C#.
 type: docs
 weight: 840
 url: /de/net/aspose.words.drawing.charts/chartxvalue/
@@ -29,15 +31,15 @@ public class ChartXValue
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(DateTime) | Erstellt eine`ChartXValue` Instanz derDateTime Typ. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(double) | Erstellt eine`ChartXValue` Instanz derDouble Typ. |
-| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(ChartMultilevelValue) | Erstellt eine`ChartXValue` Instanz derMultilevel Typ. |
-| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(string) | Erstellt eine`ChartXValue` Instanz derString Typ. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(TimeSpan) | Erstellt eine`ChartXValue` Instanz derTime Typ. |
-| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(object) | Ruft ein Flag ab, das angibt, ob das angegebene Objekt gleich dem aktuellen X-Wert-Objekt ist. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(*DateTime*) | Erstellt eine`ChartXValue` Instanz derDateTime Typ. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(*double*) | Erstellt eine`ChartXValue` Instanz derDouble Typ. |
+| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(*[ChartMultilevelValue](../chartmultilevelvalue/)*) | Erstellt eine`ChartXValue` Instanz derMultilevel Typ. |
+| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(*string*) | Erstellt eine`ChartXValue` Instanz derString Typ. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(*TimeSpan*) | Erstellt eine`ChartXValue` Instanz derTime Typ. |
+| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(*object*) | Ruft ein Flag ab, das angibt, ob das angegebene Objekt gleich dem aktuellen X-Wert-Objekt ist. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartxvalue/gethashcode/)() | Ruft einen Hash-Code für das aktuelle X-Wert-Objekt ab. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Klasse enthält eine Reihe statischer Methoden zum Erstellen eines X-Werts eines bestimmten Typs. The [`ValueType`](./valuetype/) Mit der Eigenschaft können Sie den Typ eines vorhandenen X-Werts bestimmen.
 
@@ -47,5 +49,3 @@ Alle X-Werte ungleich Null einer Diagrammreihe müssen gleich sein[`ChartXValueT
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

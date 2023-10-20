@@ -1,7 +1,9 @@
 ---
 title: FieldToc.InsertHyperlinks
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft ab oder legt fest ob die Inhaltsverzeichniseinträge mit Hyperlinks versehen werden sollen.
+linktitle: InsertHyperlinks
+articleTitle: InsertHyperlinks
+second_title: Aspose.Words für .NET
+description: FieldToc InsertHyperlinks eigendom. Ruft ab oder legt fest ob die Inhaltsverzeichniseinträge mit Hyperlinks versehen werden sollen in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fieldtoc/inserthyperlinks/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Inhaltsverzeichniseinträge mit Hyperlinks verseh
 public bool InsertHyperlinks { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

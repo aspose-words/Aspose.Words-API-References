@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Steuert obShapeKnoten werden beim Speichern in HTML MHTML EPUB oder AZW3 in SVGBilder konvertiert. Der Standardwert istFALSCH .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportShapesAsSvg eigendom. Steuert obShapeKnoten werden beim Speichern in HTML MHTML EPUB oder AZW3 in SVGBilder konvertiert. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ Steuert, ob[`Shape`](../../../aspose.words.drawing/shape/)Knoten werden beim Spe
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Option auf eingestellt ist`WAHR` ,[`Shape`](../../../aspose.words.drawing/shape/) Knoten werden als &lt;svg&gt;-Elemente exportiert. Andernfalls werden sie in Bitmaps gerendert und als &lt;img&gt;-Elemente exportiert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formen als skalierbare Vektorgrafiken exportiert werden.
 
@@ -61,7 +63,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

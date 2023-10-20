@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AdjustWithEffects
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase methode. Fügt zu den Quellrechteckwerten der Effektausdehnung hinzu und gibt das endgültige Rechteck zurück.
+linktitle: AdjustWithEffects
+articleTitle: AdjustWithEffects
+second_title: Aspose.Words für .NET
+description: ShapeBase AdjustWithEffects methode. Fügt zu den Quellrechteckwerten der Effektausdehnung hinzu und gibt das endgültige Rechteck zurück in C#.
 type: docs
 weight: 620
 url: /de/net/aspose.words.drawing/shapebase/adjustwitheffects/
@@ -14,7 +16,7 @@ Fügt zu den Quellrechteckwerten der Effektausdehnung hinzu und gibt das endgül
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie überprüfen können, wie die Grenzen einer Form durch Formeffekte beeinflusst werden.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

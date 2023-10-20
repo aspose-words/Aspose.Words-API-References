@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertRelativePosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRef eigendom. Ruft ab oder legt fest ob die relative Position des referenzierten Absatzes eingefügt werden soll.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words für .NET
+description: FieldRef InsertRelativePosition eigendom. Ruft ab oder legt fest ob die relative Position des referenzierten Absatzes eingefügt werden soll in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldref/insertrelativeposition/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die relative Position des referenzierten Absatzes ein
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie REF-Felder zum Referenzieren von Lesezeichen eingefügt werden.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Siehe auch
 
 * class [FieldRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

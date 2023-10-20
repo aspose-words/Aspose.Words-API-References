@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
-second_title: Aspose.Words für .NET-API-Referenz
-description: PlainTextDocument eigendom. Ruft abCustomDocumentProperties des Dokuments.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words für .NET
+description: PlainTextDocument CustomDocumentProperties eigendom. Ruft abCustomDocumentProperties des Dokuments in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -14,7 +16,7 @@ Ruft ab`CustomDocumentProperties` des Dokuments.
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie den Inhalt eines Microsoft Word-Dokuments im Klartext laden und dann auf die benutzerdefinierten Eigenschaften des Originaldokuments zugreifen.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* namensraum [Aspose.Words](../../plaintextdocument/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

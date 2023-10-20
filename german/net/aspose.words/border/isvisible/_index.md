@@ -1,7 +1,9 @@
 ---
 title: Border.IsVisible
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Gibt zurückWAHR wenn dieLineStyle ist nichtNone .
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words für .NET
+description: Border IsVisible eigendom. Gibt zurückWAHR wenn dieLineStyle ist nichtNone  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/border/isvisible/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn die[`LineStyle`](../linestyle/) ist nichtNone .
 public bool IsVisible { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Rahmen aus einem Absatz entfernt werden.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Siehe auch
 
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

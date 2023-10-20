@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaModuleCollection eigendom. Ruft a abVbaModule Objekt nach index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: VbaModuleCollection Item eigendom. Ruft a abVbaModule Objekt nach index in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbamodulecollection/item/
@@ -18,7 +20,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | Nullbasierter Index des abzurufenden Moduls. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die VBA-Projektinformationen eines Dokuments zugegriffen wird.
 
@@ -50,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* namensraum [Aspose.Words.Vba](../../vbamodulecollection/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ Ruft a ab[`VbaModule`](../../vbamodule/) Objekt nach Name oder Null, wenn es nic
 public VbaModule this[string name] { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die VBA-Projektinformationen eines Dokuments zugegriffen wird.
 
@@ -95,7 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* namensraum [Aspose.Words.Vba](../../vbamodulecollection/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

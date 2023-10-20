@@ -1,7 +1,9 @@
 ---
-title: FieldNumWords.FieldNumWords
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldNumWords constructeur. Default_Constructor
+title: FieldNumWords
+linktitle: FieldNumWords
+articleTitle: FieldNumWords
+second_title: Aspose.Words für .NET
+description: FieldNumWords constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldnumwords/fieldnumwords/
@@ -17,7 +19,5 @@ public FieldNumWords()
 ### Siehe auch
 
 * class [FieldNumWords](../)
-* namensraum [Aspose.Words.Fields](../../fieldnumwords/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

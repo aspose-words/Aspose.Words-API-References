@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Beendet eine Tabellenzeile im Dokument.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words für .NET
+description: DocumentBuilder EndRow methode. Beendet eine Tabellenzeile im Dokument in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 Der Zeilenknoten, der gerade fertiggestellt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Anruf`EndRow` um eine Tabellenzeile zu beenden. Wenn Sie anrufen[`InsertCell`](../insertcell/) sofort danach, dann wird die Tabelle in einer neuen Zeile fortgesetzt.
 
 Benutzen Sie die[`RowFormat`](../rowformat/) Eigenschaft zum Angeben der Zeilenformatierung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Tabellenzellen vertikal zusammengeführt werden.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

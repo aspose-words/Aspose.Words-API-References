@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.ComparisonOperator
-second_title: Aspose.Words für .NET-API-Referenz
-description: ComparisonExpression eigendom. Ruft den Vergleichsoperator ab.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words für .NET
+description: ComparisonExpression ComparisonOperator eigendom. Ruft den Vergleichsoperator ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -14,7 +16,7 @@ Ruft den Vergleichsoperator ab.
 public string ComparisonOperator { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Siehe auch
 
 * class [ComparisonExpression](../)
-* namensraum [Aspose.Words.Fields](../../comparisonexpression/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Bietet typisierten Zugriff auf die Zeilen der Tabelle.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words für .NET
+description: Table Rows eigendom. Bietet typisierten Zugriff auf die Zeilen der Tabelle in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ Bietet typisierten Zugriff auf die Zeilen der Tabelle.
 public RowCollection Rows { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

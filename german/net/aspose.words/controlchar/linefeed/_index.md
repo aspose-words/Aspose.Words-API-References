@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeed
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Zeilenvorschubzeichen x000a oder n. Gleich wieLf .
+linktitle: LineFeed
+articleTitle: LineFeed
+second_title: Aspose.Words für .NET
+description: ControlChar LineFeed veld. Zeilenvorschubzeichen x000a oder n. Gleich wieLf  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words/controlchar/linefeed/
@@ -14,7 +16,7 @@ Zeilenvorschubzeichen: „\x000a“ oder „\n“. Gleich wie[`Lf`](../lf/) .
 public static readonly string LineFeed;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

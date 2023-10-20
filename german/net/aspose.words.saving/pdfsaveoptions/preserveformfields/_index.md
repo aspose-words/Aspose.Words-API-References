@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Gibt an ob Microsoft WordFormularfelder als Formularfelder in PDF beibehalten oder in Text konvertiert werden sollen. Die Standardeinstellung istFALSCH .
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions PreserveFormFields eigendom. Gibt an ob Microsoft WordFormularfelder als Formularfelder in PDF beibehalten oder in Text konvertiert werden sollen. Die Standardeinstellung istFALSCH  in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ Gibt an, ob Microsoft Word-Formularfelder als Formularfelder in PDF beibehalten 
 public bool PreserveFormFields { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Zu den Microsoft Word-Formularfeldern gehören Texteingabe-, Dropdown- und Kontrollkästchen-Steuerelemente.
 
@@ -28,7 +30,7 @@ Bearbeitbare Formulare sind durch die PDF/A-Konformität verboten.`FALSCH` Beim 
 
 Formularfelder werden beim Speichern in PDF/UA nicht unterstützt.`FALSCH` Der Wert wird automatisch verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument mithilfe der Save-Methode und der PdfSaveOptions-Klasse im PDF-Format gespeichert wird.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

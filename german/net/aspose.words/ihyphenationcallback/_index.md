@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.IHyphenationCallback koppel. Wird von Klassen implementiert die Silbentrennungswörterbücher registrieren können.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.IHyphenationCallback koppel. Wird von Klassen implementiert die Silbentrennungswörterbücher registrieren können in C#.
 type: docs
 weight: 3190
 url: /de/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Benachrichtigt die Anwendung, dass das Silbentrennungswörterbuch für die angegebene Sprache nicht gefunden wurde und möglicherweise registriert werden muss. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Benachrichtigt die Anwendung, dass das Silbentrennungswörterbuch für die angegebene Sprache nicht gefunden wurde und möglicherweise registriert werden muss. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

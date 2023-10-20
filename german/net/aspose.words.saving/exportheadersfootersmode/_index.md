@@ -1,7 +1,9 @@
 ---
-title: Enum ExportHeadersFootersMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.ExportHeadersFootersMode opsomming. Gibt an wie Kopf und Fußzeilen nach HTML MHTML oder EPUB exportiert werden.
+title: ExportHeadersFootersMode Enum
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.ExportHeadersFootersMode opsomming. Gibt an wie Kopf und Fußzeilen nach HTML MHTML oder EPUB exportiert werden in C#.
 type: docs
 weight: 5000
 url: /de/net/aspose.words.saving/exportheadersfootersmode/
@@ -23,7 +25,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | Die primäre Kopfzeile des ersten Abschnitts wird am Anfang des Dokuments exportiert und die primäre Fußzeile befindet sich am Ende. |
 | FirstPageHeaderFooterPerSection | `3` | Kopf- und Fußzeile der ersten Seite werden am Anfang und am Ende jedes Abschnitts exportiert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kopf-/Fußzeilen weggelassen werden, wenn ein Dokument im HTML-Format gespeichert wird.
 
@@ -53,5 +55,3 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 * property [ExportHeadersFootersMode](../htmlsaveoptions/exportheadersfootersmode/)
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

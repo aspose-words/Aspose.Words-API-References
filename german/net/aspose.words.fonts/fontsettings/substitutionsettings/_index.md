@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings eigendom. Einstellungen im Zusammenhang mit dem Schriftartersetzungsmechanismus.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words für .NET
+description: FontSettings SubstitutionSettings eigendom. Einstellungen im Zusammenhang mit dem Schriftartersetzungsmechanismus in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ Einstellungen im Zusammenhang mit dem Schriftartersetzungsmechanismus.
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

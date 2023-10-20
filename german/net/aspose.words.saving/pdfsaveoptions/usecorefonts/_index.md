@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob die TrueTypeSchriftarten Arial Times New Roman Courier New und Symbol durch Kernschriftarten des PDFTyps 1 ersetzt werden sollen.
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions UseCoreFonts eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob die TrueTypeSchriftarten Arial Times New Roman Courier New und Symbol durch Kernschriftarten des PDFTyps 1 ersetzt werden sollen in C#.
 type: docs
 weight: 310
 url: /de/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob die TrueType-Schrifta
 public bool UseCoreFonts { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` . Wenn dieser Wert auf eingestellt ist`WAHR` Die Schriftarten Arial, Times New Roman, Courier New und Symbol werden im PDF-Dokument durch die entsprechende Kernschrift vom Typ 1 ersetzt.
 
@@ -28,7 +30,7 @@ Beim Speichern im PDF 2.0-Format werden Kernschriftarten nicht unterstützt.`FAL
 
 Diese Option hat dann eine höhere Priorität[`FontEmbeddingMode`](../fontembeddingmode/) Möglichkeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die PDF-Typ-1-Schriftartersetzung aktiviert/deaktiviert wird.
 
@@ -61,7 +63,5 @@ else
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

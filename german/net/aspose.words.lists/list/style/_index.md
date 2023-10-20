@@ -1,7 +1,9 @@
 ---
 title: List.Style
-second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Ruft den Listenstil ab auf den diese Liste verweist oder den er definiert.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words für .NET
+description: List Style eigendom. Ruft den Listenstil ab auf den diese Liste verweist oder den er definiert in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.lists/list/style/
@@ -14,7 +16,7 @@ Ruft den Listenstil ab, auf den diese Liste verweist oder den er definiert.
 public Style Style { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Liste keinem Listenstil zugeordnet ist, wird die Eigenschaft zurückgegeben`Null`.
 
@@ -22,7 +24,7 @@ Eine Liste könnte in diesem Fall ein Verweis auf einen Listenstil sein[`IsListS
 
 Eine Liste könnte in diesem Fall eine Definition eines Listenstils sein[`IsListStyleDefinition`](../isliststyledefinition/) wird sein`WAHR`. Eine solche Liste kann nicht direkt auf Absätze im Dokument angewendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -84,7 +86,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart methode. Entfernt alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart RemoveAllChildren methode. Entfernt alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ Entfernt alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendkn
 public void RemoveAllChildren()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Siehe auch
 
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

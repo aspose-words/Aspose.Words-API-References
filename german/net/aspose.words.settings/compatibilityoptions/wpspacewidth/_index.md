@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WPSpaceWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Gibt an ob die Breite eines Leerzeichens wie in WordPerfect 5.x festgelegt werden soll.
+linktitle: WPSpaceWidth
+articleTitle: WPSpaceWidth
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions WPSpaceWidth eigendom. Gibt an ob die Breite eines Leerzeichens wie in WordPerfect 5.x festgelegt werden soll in C#.
 type: docs
 weight: 700
 url: /de/net/aspose.words.settings/compatibilityoptions/wpspacewidth/
@@ -17,7 +19,5 @@ public bool WPSpaceWidth { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

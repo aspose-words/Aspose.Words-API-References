@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode eigendom. Ruft den BarcodeWert ab oder legt ihn fest.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode BarcodeValue eigendom. Ruft den BarcodeWert ab oder legt ihn fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -14,7 +16,7 @@ Ruft den Barcode-Wert ab oder legt ihn fest.
 public string BarcodeValue { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief für EAN13-Barcodes durchgeführt wird.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

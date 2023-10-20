@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft den Pfad und Namen der Quelldatei für das verknüpfte OLEObjekt ab oder legt diesen fest.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words für .NET
+description: OleFormat SourceFullName eigendom. Ruft den Pfad und Namen der Quelldatei für das verknüpfte OLEObjekt ab oder legt diesen fest in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,13 +16,13 @@ Ruft den Pfad und Namen der Quelldatei für das verknüpfte OLE-Objekt ab oder l
 public string SourceFullName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
 Wenn`SourceFullName` keine leere Zeichenfolge ist, ist das OLE-Objekt verknüpft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verknüpfte und nicht verknüpfte OLE-Objekte eingefügt werden.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

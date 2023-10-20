@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyleCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.ConditionalStyleCollection klas. Stellt eine Sammlung von darConditionalStyle Objekte.
+title: ConditionalStyleCollection Class
+linktitle: ConditionalStyleCollection
+articleTitle: ConditionalStyleCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.ConditionalStyleCollection klas. Stellt eine Sammlung von darConditionalStyle Objekte in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words/conditionalstylecollection/
@@ -42,11 +44,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Löscht alle bedingten Stile des Tabellenstils. |
 | [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller bedingten Stile in der Sammlung verwendet werden kann. |
 
-### Bemerkungen
+## Bemerkungen
 
 Es ist nicht möglich, Elemente zu dieser Sammlung hinzuzufügen oder daraus zu entfernen. Es enthält einen permanenten Satz von Elementen: ein Element für jeden Wert des[`ConditionalStyleType`](../conditionalstyletype/) Aufzählungstyp.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../conditionalstyle/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Ruft den Namen dieses Bausteins ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: BuildingBlock Name eigendom. Ruft den Namen dieses Bausteins ab oder legt ihn fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ Ruft den Namen dieses Bausteins ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Name kann einen beliebigen Zeichenfolgeninhalt enthalten, normalerweise einen benutzerfreundlichen Bezeichner. Mehrere Bausteine können denselben Namen haben.
 
 Kann nicht sein`Null` und darf keine leere Zeichenfolge sein.
 
-Entspricht dem **docPartPr.name** Element in OOXML.
+Entspricht dem**docPartPr.name** Element in OOXML.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

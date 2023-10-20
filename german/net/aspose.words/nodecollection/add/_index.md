@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeCollection methode. Fügt einen Knoten am Ende der Sammlung hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: NodeCollection Add methode. Fügt einen Knoten am Ende der Sammlung hinzu in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/nodecollection/add/
@@ -24,13 +26,13 @@ public void Add(Node node)
 | --- | --- |
 | NotSupportedException | Der[`NodeCollection`](../) ist eine „tiefe“ Sammlung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Knoten wird als untergeordnetes Element in das Knotenobjekt eingefügt, aus dem die Sammlung erstellt wurde.
 
 Wenn der einzufügende Knoten aus einem anderen Dokument erstellt wurde, sollten Sie verwenden.[`ImportNode`](../../documentbase/importnode/) um den Knoten in das aktuelle Dokument zu importieren. Der importierte Knoten kann dann in das aktuelle Dokument eingefügt werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein neuer Abschnittsknoten für die Bearbeitung vorbereitet wird.
 
@@ -63,7 +65,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namensraum [Aspose.Words](../../nodecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

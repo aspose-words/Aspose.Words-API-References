@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.ShowInBalloons opsomming. Gibt an welche Revisionen in Sprechblasen gerendert werden.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.ShowInBalloons opsomming. Gibt an welche Revisionen in Sprechblasen gerendert werden in C#.
 type: docs
 weight: 3410
 url: /de/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | Rendert das Einfügen und Löschen von Revisionen inline und formatiert Revisionen in Sprechblasen. |
 | FormatAndDelete | `2` | Rendert das Einfügen von Revisionen inline, das Löschen und Formatieren von Revisionen in Sprechblasen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass Revisionen nicht in Sprechblasen gerendert werdenShowInAnnotations .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

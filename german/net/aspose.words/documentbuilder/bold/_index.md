@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Bold
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. True wenn die Schriftart fett formatiert ist.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words für .NET
+description: DocumentBuilder Bold eigendom. True wenn die Schriftart fett formatiert ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/documentbuilder/bold/
@@ -14,7 +16,7 @@ True, wenn die Schriftart fett formatiert ist.
 public bool Bold { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie MERGEFIELDs mit einem Dokumentenersteller anstelle eines Seriendrucks mit Daten gefüllt werden.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

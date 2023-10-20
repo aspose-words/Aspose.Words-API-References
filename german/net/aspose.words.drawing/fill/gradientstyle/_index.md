@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft den Verlaufsstil abGradientStyle für die Füllung.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words für .NET
+description: Fill GradientStyle eigendom. Ruft den Verlaufsstil abGradientStyle für die Füllung in C#.
 type: docs
-weight: 120
+weight: 110
 url: /de/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ Ruft den Verlaufsstil ab[`GradientStyle`](../../gradientstyle/) für die Füllun
 public GradientStyle GradientStyle { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit Farbverläufen gefüllt wird.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

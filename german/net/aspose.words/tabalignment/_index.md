@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TabAlignment opsomming. Gibt die Ausrichtung/den Typ eines Tabstopps an.
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TabAlignment opsomming. Gibt die Ausrichtung/den Typ eines Tabstopps an in C#.
 type: docs
 weight: 6180
 url: /de/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

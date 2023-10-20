@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStopCollection methode. Entfernt einen Tabstopp am angegebenen Index aus der Sammlung.
+linktitle: RemoveByIndex
+articleTitle: RemoveByIndex
+second_title: Aspose.Words für .NET
+description: TabStopCollection RemoveByIndex methode. Entfernt einen Tabstopp am angegebenen Index aus der Sammlung in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/tabstopcollection/removebyindex/
@@ -18,7 +20,7 @@ public void RemoveByIndex(int index)
 | --- | --- | --- |
 | index | Int32 | Ein Index in der Sammlung von Tabstopps. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Tabstopp in einem Dokument anhand seines Index auswählt und entfernt.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.RemoveByIndex.docx");
 ### Siehe auch
 
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

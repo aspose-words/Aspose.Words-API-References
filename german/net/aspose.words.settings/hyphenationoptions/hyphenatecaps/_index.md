@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenateCaps
-second_title: Aspose.Words für .NET-API-Referenz
-description: HyphenationOptions eigendom. Ruft den Wert ab oder legt diesen fest der bestimmt ob in Großbuchstaben geschriebene Wörter getrennt werden. Der Standardwert für diese Eigenschaft istWAHR .
+linktitle: HyphenateCaps
+articleTitle: HyphenateCaps
+second_title: Aspose.Words für .NET
+description: HyphenationOptions HyphenateCaps eigendom. Ruft den Wert ab oder legt diesen fest der bestimmt ob in Großbuchstaben geschriebene Wörter getrennt werden. Der Standardwert für diese Eigenschaft istWAHR  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
@@ -14,7 +16,7 @@ Ruft den Wert ab oder legt diesen fest, der bestimmt, ob in Großbuchstaben gesc
 public bool HyphenateCaps { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die automatische Silbentrennung konfiguriert wird.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Siehe auch
 
 * class [HyphenationOptions](../)
-* namensraum [Aspose.Words.Settings](../../hyphenationoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

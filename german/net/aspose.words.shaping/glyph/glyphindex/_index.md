@@ -1,7 +1,9 @@
 ---
 title: Glyph.GlyphIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: Glyph eigendom. Index der Glyphe GID in der physischen Schriftart.
+linktitle: GlyphIndex
+articleTitle: GlyphIndex
+second_title: Aspose.Words für .NET
+description: Glyph GlyphIndex eigendom. Index der Glyphe GID in der physischen Schriftart in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.shaping/glyph/glyphindex/
@@ -17,7 +19,5 @@ public int GlyphIndex { get; }
 ### Siehe auch
 
 * class [Glyph](../)
-* namensraum [Aspose.Words.Shaping](../../glyph/)
+* namensraum [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Montage [Aspose.Words](../../../)
-
-

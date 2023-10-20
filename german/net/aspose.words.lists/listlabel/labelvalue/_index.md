@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLabel eigendom. Ruft einen numerischen Wert für dieses Label ab.
+linktitle: LabelValue
+articleTitle: LabelValue
+second_title: Aspose.Words für .NET
+description: ListLabel LabelValue eigendom. Ruft einen numerischen Wert für dieses Label ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.lists/listlabel/labelvalue/
@@ -14,11 +16,11 @@ Ruft einen numerischen Wert für dieses Label ab.
 public int LabelValue { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie die[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) Methode zum Aktualisieren des Werts dieser Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listenbeschriftungen aller Absätze extrahiert werden, die Listenelemente sind.
 
@@ -53,7 +55,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Siehe auch
 
 * class [ListLabel](../)
-* namensraum [Aspose.Words.Lists](../../listlabel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

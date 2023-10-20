@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
-second_title: Aspose.Words für .NET-API-Referenz
-description: PhysicalFontInfo eigendom. Familienname der Schriftart.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words für .NET
+description: PhysicalFontInfo FontFamilyName eigendom. Familienname der Schriftart in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
@@ -14,7 +16,7 @@ Familienname der Schriftart.
 public string FontFamilyName { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Siehe auch
 
 * class [PhysicalFontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../physicalfontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

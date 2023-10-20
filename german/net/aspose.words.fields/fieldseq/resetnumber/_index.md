@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSeq eigendom. Ruft eine Ganzzahl ab auf die die Sequenznummer zurückgesetzt werden soll oder legt diese fest. Gibt 1 zurück wenn die Nummer fehlt.
+linktitle: ResetNumber
+articleTitle: ResetNumber
+second_title: Aspose.Words für .NET
+description: FieldSeq ResetNumber eigendom. Ruft eine Ganzzahl ab auf die die Sequenznummer zurückgesetzt werden soll oder legt diese fest. Gibt 1 zurück wenn die Nummer fehlt in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldseq/resetnumber/
@@ -14,7 +16,7 @@ Ruft eine Ganzzahl ab, auf die die Sequenznummer zurückgesetzt werden soll, ode
 public string ResetNumber { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt die Erstellung einer Nummerierung mithilfe von SEQ-Feldern an.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Siehe auch
 
 * class [FieldSeq](../)
-* namensraum [Aspose.Words.Fields](../../fieldseq/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

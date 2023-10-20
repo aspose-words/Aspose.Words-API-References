@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TrailingCharacter
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt das nach der Nummer für die Listenebene eingefügte Zeichen zurück oder setzt es.
+linktitle: TrailingCharacter
+articleTitle: TrailingCharacter
+second_title: Aspose.Words für .NET
+description: ListLevel TrailingCharacter eigendom. Gibt das nach der Nummer für die Listenebene eingefügte Zeichen zurück oder setzt es in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.lists/listlevel/trailingcharacter/
@@ -14,7 +16,7 @@ Gibt das nach der Nummer für die Listenebene eingefügte Zeichen zurück oder s
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

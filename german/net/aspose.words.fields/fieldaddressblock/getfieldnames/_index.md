@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.GetFieldNames
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAddressBlock methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die vom Feld verwendet werden.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words für .NET
+description: FieldAddressBlock GetFieldNames methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die vom Feld verwendet werden in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldaddressblock/getfieldnames/
@@ -14,7 +16,7 @@ Gibt eine Sammlung von Serienbrieffeldnamen zurück, die vom Feld verwendet werd
 public string[] GetFieldNames()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie von einem Feld verwendete Serienbrieffeldnamen abgerufen werden.
 
@@ -34,7 +36,5 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 ### Siehe auch
 
 * class [FieldAddressBlock](../)
-* namensraum [Aspose.Words.Fields](../../fieldaddressblock/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

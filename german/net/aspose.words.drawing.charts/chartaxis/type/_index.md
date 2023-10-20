@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt den Typ der Achse zurück.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: ChartAxis Type eigendom. Gibt den Typ der Achse zurück in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ Gibt den Typ der Achse zurück.
 public ChartAxisType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

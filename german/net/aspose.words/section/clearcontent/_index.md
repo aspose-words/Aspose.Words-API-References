@@ -1,9 +1,11 @@
 ---
 title: Section.ClearContent
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. Löscht den Abschnitt.
+linktitle: ClearContent
+articleTitle: ClearContent
+second_title: Aspose.Words für .NET
+description: Section ClearContent methode. Löscht den Abschnitt in C#.
 type: docs
-weight: 110
+weight: 90
 url: /de/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -14,13 +16,13 @@ Löscht den Abschnitt.
 public void ClearContent()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Text von[`Body`](../body/) Wenn der Abschnitt gelöscht wird, bleibt nur ein leerer Absatz übrig, der den Abschnittsumbruch darstellt.
 
 Der Text aller Kopf- und Fußzeilen wird gelöscht, aber[`HeaderFooter`](../../headerfooter/) Objekte selbst werden nicht entfernt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Abschnitts gelöscht wird.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 ### Siehe auch
 
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

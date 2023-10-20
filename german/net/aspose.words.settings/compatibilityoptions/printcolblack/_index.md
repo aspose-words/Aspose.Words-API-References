@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.PrintColBlack
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Drucken Sie Farben als Schwarzweiß ohne Dithering.
+linktitle: PrintColBlack
+articleTitle: PrintColBlack
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions PrintColBlack eigendom. Drucken Sie Farben als Schwarzweiß ohne Dithering in C#.
 type: docs
 weight: 400
 url: /de/net/aspose.words.settings/compatibilityoptions/printcolblack/
@@ -17,7 +19,5 @@ public bool PrintColBlack { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

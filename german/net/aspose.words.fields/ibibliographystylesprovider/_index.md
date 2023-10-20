@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.IBibliographyStylesProvider koppel. Implementieren Sie diese Schnittstelle um den Bibliographiestil für bereitzustellenFieldBibliography UndFieldCitation Felder wenn sie aktualisiert werden.
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.IBibliographyStylesProvider koppel. Implementieren Sie diese Schnittstelle um den Bibliographiestil für bereitzustellenFieldBibliography UndFieldCitation Felder wenn sie aktualisiert werden in C#.
 type: docs
 weight: 2670
 url: /de/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | Gibt den Bibliografiestil zurück. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | Gibt den Bibliografiestil zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie integrierte Stile überschrieben oder benutzerdefinierte Stile bereitgestellt werden.
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

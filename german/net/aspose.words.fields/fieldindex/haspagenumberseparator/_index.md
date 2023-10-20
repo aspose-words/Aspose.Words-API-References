@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasPageNumberSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft einen Wert ab der angibt ob ein Seitenzahlentrennzeichen durch den Feldcode überschrieben wird.
+linktitle: HasPageNumberSeparator
+articleTitle: HasPageNumberSeparator
+second_title: Aspose.Words für .NET
+description: FieldIndex HasPageNumberSeparator eigendom. Ruft einen Wert ab der angibt ob ein Seitenzahlentrennzeichen durch den Feldcode überschrieben wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldindex/haspagenumberseparator/
@@ -14,7 +16,7 @@ Ruft einen Wert ab, der angibt, ob ein Seitenzahlentrennzeichen durch den Feldco
 public bool HasPageNumberSeparator { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Seitenzahlentrennzeichen in einem INDEX-Feld bearbeitet wird.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

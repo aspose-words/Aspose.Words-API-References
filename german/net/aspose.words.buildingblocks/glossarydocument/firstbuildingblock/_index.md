@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.FirstBuildingBlock
-second_title: Aspose.Words für .NET-API-Referenz
-description: GlossaryDocument eigendom. Ruft den ersten Baustein im Glossardokument ab.
+linktitle: FirstBuildingBlock
+articleTitle: FirstBuildingBlock
+second_title: Aspose.Words für .NET
+description: GlossaryDocument FirstBuildingBlock eigendom. Ruft den ersten Baustein im Glossardokument ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
@@ -14,11 +16,11 @@ Ruft den ersten Baustein im Glossardokument ab.
 public BuildingBlock FirstBuildingBlock { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt zurück`Null` wenn keine Bausteine vorhanden sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

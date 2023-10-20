@@ -1,7 +1,9 @@
 ---
 title: CustomPart.ContentType
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart eigendom. Gibt den Inhaltstyp dieses benutzerdefinierten Teils an.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words für .NET
+description: CustomPart ContentType eigendom. Gibt den Inhaltstyp dieses benutzerdefinierten Teils an in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/custompart/contenttype/
@@ -14,13 +16,13 @@ Gibt den Inhaltstyp dieses benutzerdefinierten Teils an.
 public string ContentType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur anwendbar, wenn[`IsExternal`](../isexternal/) Ist`FALSCH`.
 
 Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert muss eine nicht leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Siehe auch
 
 * class [CustomPart](../)
-* namensraum [Aspose.Words.Markup](../../custompart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

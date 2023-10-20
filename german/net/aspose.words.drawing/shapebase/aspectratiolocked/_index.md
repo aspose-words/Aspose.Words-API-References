@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt an ob das Seitenverhältnis der Form gesperrt ist.
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: Aspose.Words für .NET
+description: ShapeBase AspectRatioLocked eigendom. Gibt an ob das Seitenverhältnis der Form gesperrt ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ Gibt an, ob das Seitenverhältnis der Form gesperrt ist.
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert hängt von der ab[`ShapeType`](../../shapetype/) , für dieImage es ist`WAHR` , aber für die anderen Formtypen ist es so`FALSCH`.
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Seitenverhältnis einer Form gesperrt/entsperrt wird.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

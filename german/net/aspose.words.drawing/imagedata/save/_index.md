@@ -1,12 +1,14 @@
 ---
 title: ImageData.Save
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData methode. Speichert das Bild im angegebenen Stream.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words für .NET
+description: ImageData Save methode. Speichert das Bild im angegebenen Stream in C#.
 type: docs
-weight: 200
+weight: 190
 url: /de/net/aspose.words.drawing/imagedata/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Speichert das Bild im angegebenen Stream.
 
@@ -18,11 +20,11 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Der Stream, in dem das Bild gespeichert werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
 Liegt es in der Verantwortung des Aufrufers, das Stream-Objekt zu entsorgen?
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Bilder eines Dokuments im Dateisystem gespeichert werden.
 
@@ -55,12 +57,12 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Speichert das Bild in einer Datei.
 
@@ -72,7 +74,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Der Dateiname, unter dem das Bild gespeichert werden soll. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Bilder aus einem Dokument extrahiert und sie als einzelne Dateien im lokalen Dateisystem speichert.
 
@@ -103,7 +105,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

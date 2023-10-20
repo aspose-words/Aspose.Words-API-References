@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Gibt eine Sammlung zurück die zugeordnete Datenfelder für den Seriendruckvorgang darstellt.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words für .NET
+description: MailMerge MappedDataFields eigendom. Gibt eine Sammlung zurück die zugeordnete Datenfelder für den Seriendruckvorgang darstellt in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ Gibt eine Sammlung zurück, die zugeordnete Datenfelder für den Seriendruckvorg
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Zugeordnete Datenfelder ermöglichen die automatische Zuordnung zwischen Namen von Feldern in Ihrer Datenquelle und Namen von Serienbrieffeldern im Dokument.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

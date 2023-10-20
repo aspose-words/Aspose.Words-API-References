@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreakChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Seitenumbruchzeichen char12 oder f.
+linktitle: PageBreakChar
+articleTitle: PageBreakChar
+second_title: Aspose.Words für .NET
+description: ControlChar PageBreakChar veld. Seitenumbruchzeichen char12 oder f in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/controlchar/pagebreakchar/
@@ -14,7 +16,7 @@ Seitenumbruchzeichen: (char)12 oder „\f“.
 public const char PageBreakChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

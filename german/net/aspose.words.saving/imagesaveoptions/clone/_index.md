@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions methode. Erstellt einen tiefen Klon dieses Objekts.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words für .NET
+description: ImageSaveOptions Clone methode. Erstellt einen tiefen Klon dieses Objekts in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ Erstellt einen tiefen Klon dieses Objekts.
 public ImageSaveOptions Clone()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine Bit-pro-Pixel-Rate auswählen, mit der ein Dokument in ein Bild gerendert werden soll.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Siehe auch
 
 * class [ImageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../imagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

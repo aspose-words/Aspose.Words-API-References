@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeList methode. Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: NodeList ToArray methode. Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Ein Array von Knoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie sollten keine Knoten hinzufügen/entfernen, während Sie über eine Sammlung von Knoten iterieren, da dies den Iterator ungültig macht und Aktualisierungen für Live-Sammlungen erfordert.
 
 Um Knoten während der Iteration hinzufügen/entfernen zu können, verwenden Sie diese Methode, um -Knoten in ein Array fester Größe zu kopieren und dann über das Array zu iterieren.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bestimmte Knoten mithilfe eines XPath-Ausdrucks ausgewählt werden.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* namensraum [Aspose.Words](../../nodelist/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

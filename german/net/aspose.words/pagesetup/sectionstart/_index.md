@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt den Typ des Abschnittsumbruchs für das angegebene Objekt zurück oder legt diesen fest.
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words für .NET
+description: PageSetup SectionStart eigendom. Gibt den Typ des Abschnittsumbruchs für das angegebene Objekt zurück oder legt diesen fest in C#.
 type: docs
 weight: 390
 url: /de/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ Gibt den Typ des Abschnittsumbruchs für das angegebene Objekt zurück oder legt
 public SectionStart SectionStart { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

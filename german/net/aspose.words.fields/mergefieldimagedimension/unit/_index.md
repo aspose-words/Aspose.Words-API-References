@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Unit
-second_title: Aspose.Words für .NET-API-Referenz
-description: MergeFieldImageDimension eigendom. Die Einheit.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words für .NET
+description: MergeFieldImageDimension Unit eigendom. Die Einheit in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/mergefieldimagedimension/unit/
@@ -14,7 +16,7 @@ Die Einheit.
 public MergeFieldImageDimensionUnit Unit { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -85,7 +87,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* namensraum [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

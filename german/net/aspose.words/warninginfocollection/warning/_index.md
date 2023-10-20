@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Aspose.Words für .NET-API-Referenz
-description: WarningInfoCollection methode. Implementiert dieIWarningCallback Schnittstelle. Fügt dieser Sammlung eine Warnung hinzu.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words für .NET
+description: WarningInfoCollection Warning methode. Implementiert dieIWarningCallback Schnittstelle. Fügt dieser Sammlung eine Warnung hinzu in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ Implementiert die[`IWarningCallback`](../../iwarningcallback/) Schnittstelle. F�
 public void Warning(WarningInfo info)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* namensraum [Aspose.Words](../../warninginfocollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

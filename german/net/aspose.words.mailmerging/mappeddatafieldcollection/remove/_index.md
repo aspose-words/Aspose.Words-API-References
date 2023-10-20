@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: MappedDataFieldCollection methode. Entfernt eine Feldzuordnung.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: MappedDataFieldCollection Remove methode. Entfernt eine Feldzuordnung in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Groß- und Kleinschreibung beachtender Name des Serienbrieffelds im Dokument. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Siehe auch
 
 * class [MappedDataFieldCollection](../)
-* namensraum [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Gibt an ob Fußnoten/Endnotenverweise im Haupttext in aktive Hyperlinks umgewandelt werden. Beim Klicken führt der Hyperlink zur entsprechenden Fußnote/Endnote. Die Standardeinstellung istFALSCH .
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions CreateNoteHyperlinks eigendom. Gibt an ob Fußnoten/Endnotenverweise im Haupttext in aktive Hyperlinks umgewandelt werden. Beim Klicken führt der Hyperlink zur entsprechenden Fußnote/Endnote. Die Standardeinstellung istFALSCH  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ Gibt an, ob Fußnoten-/Endnotenverweise im Haupttext in aktive Hyperlinks umgewa
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fußnoten und Endnoten als Hyperlinks fungieren.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

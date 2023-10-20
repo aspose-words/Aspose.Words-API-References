@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Aspose.Words für .NET-API-Referenz
-description: MergeFieldImageDimension constructeur. Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert in Punkten.
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words für .NET
+description: MergeFieldImageDimension constructeur. Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert in Punkten in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert in Punkten.
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | Der Wert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie sollten einen negativen Wert verwenden, um anzugeben, dass der Originalwert der entsprechenden Bilddimension angewendet werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Siehe auch
 
 * class [MergeFieldImageDimension](../)
-* namensraum [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert und der angegebenen Einheit.
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | Der Wert. |
 | unit | MergeFieldImageDimensionUnit | Die Einheit. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie sollten einen negativen Wert verwenden, um anzugeben, dass der Originalwert der entsprechenden Bilddimension angewendet werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* namensraum [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

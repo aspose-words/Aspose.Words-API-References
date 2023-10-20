@@ -1,7 +1,9 @@
 ---
 title: Table.Alignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Gibt an wie eine InlineTabelle im Dokument ausgerichtet wird.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words für .NET
+description: Table Alignment eigendom. Gibt an wie eine InlineTabelle im Dokument ausgerichtet wird in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.tables/table/alignment/
@@ -14,11 +16,11 @@ Gibt an, wie eine Inline-Tabelle im Dokument ausgerichtet wird.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istLeft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TableAlignment](../../tablealignment/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

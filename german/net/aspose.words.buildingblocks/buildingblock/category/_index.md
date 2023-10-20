@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Category
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Gibt die Kategorisierung der zweiten Ebene für den Baustein an.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words für .NET
+description: BuildingBlock Category eigendom. Gibt die Kategorisierung der zweiten Ebene für den Baustein an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.buildingblocks/buildingblock/category/
@@ -14,15 +16,15 @@ Gibt die Kategorisierung der zweiten Ebene für den Baustein an.
 public string Category { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Bausteine in der Microsoft Word-Benutzeroberfläche sind in Galerien angeordnet. Jede[`Gallery`](../gallery/) kann mehrere Kategorien haben. Jeder Block innerhalb a`Category` hat ein[`Name`](../name/).
 
 Kann nicht sein`Null` und darf keine leere Zeichenfolge sein.
 
-Entspricht dem **docPartPr.category.name** Element in OOXML.
+Entspricht dem**docPartPr.category.name** Element in OOXML.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsSignatureLine
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt an dass die Form ein istSignatureLine .
+linktitle: IsSignatureLine
+articleTitle: IsSignatureLine
+second_title: Aspose.Words für .NET
+description: ShapeBase IsSignatureLine eigendom. Gibt an dass die Form ein istSignatureLine  in C#.
 type: docs
 weight: 340
 url: /de/net/aspose.words.drawing/shapebase/issignatureline/
@@ -14,7 +16,7 @@ Gibt an, dass die Form ein ist[`SignatureLine`](../../signatureline/) .
 public bool IsSignatureLine { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentReaderPlugin
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.IDocumentReaderPlugin koppel. Definiert eine Schnittstelle für externe ReaderPlugins die eine Datei in ein Dokument einlesen können.
+title: IDocumentReaderPlugin Interface
+linktitle: IDocumentReaderPlugin
+articleTitle: IDocumentReaderPlugin
+second_title: Aspose.Words für .NET
+description: Aspose.Words.IDocumentReaderPlugin koppel. Definiert eine Schnittstelle für externe ReaderPlugins die eine Datei in ein Dokument einlesen können in C#.
 type: docs
 weight: 3180
 url: /de/net/aspose.words/idocumentreaderplugin/
@@ -18,11 +20,9 @@ public interface IDocumentReaderPlugin
 
 | Name | Beschreibung |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read/)(Stream, LoadOptions, Document) | Liest die Daten aus dem angegebenen Stream in den[`Document`](../document/) Instanz. |
+| [Read](../../aspose.words/idocumentreaderplugin/read/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [Document](../document/)*) | Liest die Daten aus dem angegebenen Stream in den[`Document`](../document/) Instanz. |
 
 ### Siehe auch
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

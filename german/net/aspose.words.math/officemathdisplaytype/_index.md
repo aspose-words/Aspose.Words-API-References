@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathDisplayType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Math.OfficeMathDisplayType opsomming. Gibt den Anzeigeformattyp der Gleichung an.
+title: OfficeMathDisplayType Enum
+linktitle: OfficeMathDisplayType
+articleTitle: OfficeMathDisplayType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Math.OfficeMathDisplayType opsomming. Gibt den Anzeigeformattyp der Gleichung an in C#.
 type: docs
 weight: 4130
 url: /de/net/aspose.words.math/officemathdisplaytype/
@@ -21,7 +23,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | Die Office Math wird in einer eigenen Zeile angezeigt. |
 | Inline | `1` | Die Office Math wird inline mit dem Text angezeigt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Anzeigeformatierung für Office-Mathematik festgelegt wird.
 
@@ -47,5 +49,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * namensraum [Aspose.Words.Math](../../aspose.words.math/)
 * Montage [Aspose.Words](../../)
-
-

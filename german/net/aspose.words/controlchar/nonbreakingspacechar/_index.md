@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpaceChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Geschütztes Leerzeichen char160.
+linktitle: NonBreakingSpaceChar
+articleTitle: NonBreakingSpaceChar
+second_title: Aspose.Words für .NET
+description: ControlChar NonBreakingSpaceChar veld. Geschütztes Leerzeichen char160 in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words/controlchar/nonbreakingspacechar/
@@ -14,7 +16,7 @@ Geschütztes Leerzeichen: (char)160.
 public const char NonBreakingSpaceChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

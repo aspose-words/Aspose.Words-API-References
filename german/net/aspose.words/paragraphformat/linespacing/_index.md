@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Zeilenabstand in Punkt für den Absatz ab oder legt diesen fest.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words für .NET
+description: ParagraphFormat LineSpacing eigendom. Ruft den Zeilenabstand in Punkt für den Absatz ab oder legt diesen fest in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words/paragraphformat/linespacing/
@@ -14,13 +16,13 @@ Ruft den Zeilenabstand (in Punkt) für den Absatz ab oder legt diesen fest.
 public double LineSpacing { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`LineSpacingRule`](../linespacingrule/) Die Eigenschaft ist auf festgelegtAtLeast , der Zeilenabstand kann größer oder gleich, sein, jedoch niemals kleiner als der angegebene`LineSpacing` Wert.
 
 Wann[`LineSpacingRule`](../linespacingrule/) Die Eigenschaft ist auf festgelegtExactly , der Zeilenabstand ändert sich nie von zum angegebenen`LineSpacing` Wert, auch wenn innerhalb des Absatzes eine größere Schriftart verwendet wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Zeilenabständen gearbeitet wird.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

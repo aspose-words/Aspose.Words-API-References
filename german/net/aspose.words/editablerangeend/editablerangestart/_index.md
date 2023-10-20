@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRangeEnd eigendom. EntsprechendEditableRangeStart  empfangen von ID.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words für .NET
+description: EditableRangeEnd EditableRangeStart eigendom. EntsprechendEditableRangeStart  empfangen von ID in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/editablerangeend/editablerangestart/
@@ -14,7 +16,7 @@ Entsprechend[`EditableRangeStart`](../../editablerangestart/) , empfangen von ID
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRangeEnd](../)
-* namensraum [Aspose.Words](../../editablerangeend/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

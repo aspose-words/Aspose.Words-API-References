@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NodeType opsomming. Gibt den Typ eines WordDokumentknotens an.
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.NodeType opsomming. Gibt den Typ eines WordDokumentknotens an in C#.
 type: docs
 weight: 4230
 url: /de/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | Ein Sonderzeichen, das nicht zu den spezifischeren Sonderzeichentypen gehört. |
 | SmartTag | `27` | Ein Smart-Tag um eine oder mehrere Inline-Strukturen (Läufe, Bilder, Felder usw.) innerhalb eines Absatzes |
 | StructuredDocumentTag | `28` | Ermöglicht die Definition kundenspezifischer Informationen und deren Darstellungsmöglichkeiten. |
-| StructuredDocumentTagRangeStart | `29` | Ein Anfang **reichte** Strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
-| StructuredDocumentTagRangeEnd | `30` | Ein Ende **reichte** Strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
+| StructuredDocumentTagRangeStart | `29` | Ein Anfang**reichte** Strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
+| StructuredDocumentTagRangeEnd | `30` | Ein Ende**reichte** Strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
 | GlossaryDocument | `31` | Ein Glossardokument im Hauptdokument. |
 | BuildingBlock | `32` | Ein Baustein innerhalb eines Glossardokuments (z. B. Glossardokumenteintrag). |
 | CommentRangeStart | `33` | Ein Markierungsknoten, der den Anfang eines kommentierten Bereichs darstellt. |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | Reserviert für die interne Verwendung durch Aspose.Words. |
 | Null | `38` | Reserviert für die interne Verwendung durch Aspose.Words. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Sammlung untergeordneter Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

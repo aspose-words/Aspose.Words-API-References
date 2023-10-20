@@ -1,7 +1,9 @@
 ---
-title: Enum Dml3DEffectsRenderingMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.Dml3DEffectsRenderingMode opsomming. Gibt an wie 3DFormeffekte gerendert werden.
+title: Dml3DEffectsRenderingMode Enum
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.Dml3DEffectsRenderingMode opsomming. Gibt an wie 3DFormeffekte gerendert werden in C#.
 type: docs
 weight: 4900
 url: /de/net/aspose.words.saving/dml3deffectsrenderingmode/
@@ -25,5 +27,3 @@ public enum Dml3DEffectsRenderingMode
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

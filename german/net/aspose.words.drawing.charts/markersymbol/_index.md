@@ -1,7 +1,9 @@
 ---
-title: Enum MarkerSymbol
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.MarkerSymbol opsomming. Gibt den Markierungssymbolstil an.
+title: MarkerSymbol Enum
+linktitle: MarkerSymbol
+articleTitle: MarkerSymbol
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.MarkerSymbol opsomming. Gibt den Markierungssymbolstil an in C#.
 type: docs
 weight: 920
 url: /de/net/aspose.words.drawing.charts/markersymbol/
@@ -31,7 +33,7 @@ public enum MarkerSymbol
 | Triangle | `10` | Gibt an, dass an jedem Datenpunkt ein Dreieck gezeichnet werden soll. |
 | X | `11` | Gibt an, dass an jedem Datenpunkt ein X gezeichnet werden soll. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -94,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

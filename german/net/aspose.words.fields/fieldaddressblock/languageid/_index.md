@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.LanguageId
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAddressBlock eigendom. Ruft die SprachID ab die zum Formatieren der Adresse verwendet wird oder legt diese fest.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words für .NET
+description: FieldAddressBlock LanguageId eigendom. Ruft die SprachID ab die zum Formatieren der Adresse verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldaddressblock/languageid/
@@ -14,7 +16,7 @@ Ruft die Sprach-ID ab, die zum Formatieren der Adresse verwendet wird, oder legt
 public string LanguageId { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ADDRESSBLOCK-Feld eingefügt wird.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [FieldAddressBlock](../)
-* namensraum [Aspose.Words.Fields](../../fieldaddressblock/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

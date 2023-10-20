@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt eine Sammlung zurück die alle Abschnitte im Dokument darstellt.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words für .NET
+description: Document Sections eigendom. Gibt eine Sammlung zurück die alle Abschnitte im Dokument darstellt in C#.
 type: docs
 weight: 370
 url: /de/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ Gibt eine Sammlung zurück, die alle Abschnitte im Dokument darstellt.
 public SectionCollection Sections { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Abschnitte in einem Dokument hinzugefügt und entfernt werden.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

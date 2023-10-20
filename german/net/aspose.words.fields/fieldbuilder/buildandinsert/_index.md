@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBuilder methode. Erstellt ein Feld und fügt es vor dem angegebenen InlineKnoten in das Dokument ein.
+linktitle: BuildAndInsert
+articleTitle: BuildAndInsert
+second_title: Aspose.Words für .NET
+description: FieldBuilder BuildAndInsert methode. Erstellt ein Feld und fügt es vor dem angegebenen InlineKnoten in das Dokument ein in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 Erstellt ein Feld und fügt es vor dem angegebenen Inline-Knoten in das Dokument ein.
 
@@ -18,7 +20,7 @@ public Field BuildAndInsert(Inline refNode)
 
 A[`Field`](../../field/) Objekt, das das eingefügte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Feld mit einem Feld-Builder erstellt und einfügt.
 
@@ -48,12 +50,12 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 Erstellt ein Feld und fügt es bis zum Ende des angegebenen Absatzes in das Dokument ein.
 
@@ -65,7 +67,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 A[`Field`](../../field/) Objekt, das das eingefügte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -150,7 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

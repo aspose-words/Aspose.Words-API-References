@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn dieser Absatz ein unmittelbares untergeordnetes Element von istCell  sonst falsch.
+linktitle: IsInCell
+articleTitle: IsInCell
+second_title: Aspose.Words für .NET
+description: Paragraph IsInCell eigendom. True wenn dieser Absatz ein unmittelbares untergeordnetes Element von istCell  sonst falsch in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/paragraph/isincell/
@@ -14,7 +16,7 @@ True, wenn dieser Absatz ein unmittelbares untergeordnetes Element von ist[`Cell
 public bool IsInCell { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einrichtet, dass sie auf derselben Seite bleibt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

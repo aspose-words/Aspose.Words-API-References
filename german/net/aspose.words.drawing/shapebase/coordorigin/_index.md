@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordOrigin
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Die Koordinaten in der oberen linken Ecke des enthaltenden Blocks dieser Form.
+linktitle: CoordOrigin
+articleTitle: CoordOrigin
+second_title: Aspose.Words für .NET
+description: ShapeBase CoordOrigin eigendom. Die Koordinaten in der oberen linken Ecke des enthaltenden Blocks dieser Form in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/shapebase/coordorigin/
@@ -14,11 +16,11 @@ Die Koordinaten in der oberen linken Ecke des enthaltenden Blocks dieser Form.
 public Point CoordOrigin { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist (0,0).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die x- und y-Koordinatenposition auf der Koordinatenebene einer Form in eine Position auf der Koordinatenebene der übergeordneten Form übersetzt wird.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

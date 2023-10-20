@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft ein benutzerdefiniertes Stiltrennzeichen für den tSchalter ab oder legt es festFieldToc field.
+linktitle: CustomTocStyleSeparator
+articleTitle: CustomTocStyleSeparator
+second_title: Aspose.Words für .NET
+description: FieldOptions CustomTocStyleSeparator eigendom. Ruft ein benutzerdefiniertes Stiltrennzeichen für den tSchalter ab oder legt es festFieldToc field in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
@@ -14,11 +16,11 @@ Ruft ein benutzerdefiniertes Stiltrennzeichen für den \t-Schalter ab oder legt 
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig werden benutzerdefinierte Stile, die durch den Schalter \t im definiert werden, verwendet[`FieldToc`](../../fieldtoc/)Felder werden durch ein Trennzeichen aus der aktuellen Kultur getrennt. Diese Eigenschaft überschreibt dieses Verhalten, indem sie ein benutzerdefiniertes Trennzeichen angibt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.IndexOfKey
-second_title: Aspose.Words für .NET-API-Referenz
-description: VariableCollection methode. Gibt den nullbasierten Index der angegebenen Dokumentvariablen in der Sammlung zurück.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words für .NET
+description: VariableCollection IndexOfKey methode. Gibt den nullbasierten Index der angegebenen Dokumentvariablen in der Sammlung zurück in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/variablecollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Der auf Null basierende Index. Negativer Wert, wenn nicht gefunden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Variablensammlung eines Dokuments gearbeitet wird.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Siehe auch
 
 * class [VariableCollection](../)
-* namensraum [Aspose.Words](../../variablecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

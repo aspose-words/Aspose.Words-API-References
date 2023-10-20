@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCreateDate eigendom. Ruft ab oder legt fest ob der HijriMondkalender oder der hebräische Mondkalender verwendet werden soll.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words für .NET
+description: FieldCreateDate UseLunarCalendar eigendom. Ruft ab oder legt fest ob der HijriMondkalender oder der hebräische Mondkalender verwendet werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der Hijri-Mondkalender oder der hebräische Mondkalen
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld CREATEDATE verwendet wird, um das Erstellungsdatum und die Erstellungszeit des Dokuments anzuzeigen.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Siehe auch
 
 * class [FieldCreateDate](../)
-* namensraum [Aspose.Words.Fields](../../fieldcreatedate/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

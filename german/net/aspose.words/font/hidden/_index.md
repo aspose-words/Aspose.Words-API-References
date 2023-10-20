@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart als versteckter Text formatiert ist.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words für .NET
+description: Font Hidden eigendom. True wenn die Schriftart als versteckter Text formatiert ist in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ True, wenn die Schriftart als versteckter Text formatiert ist.
 public bool Hidden { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Reihe versteckten Textes erstellt.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

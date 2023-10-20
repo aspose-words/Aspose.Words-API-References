@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Steuert wie DropdownFormularfelder in HTML oder MHTML gespeichert werden. Der Standardwert istFALSCH .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText eigendom. Steuert wie DropdownFormularfelder in HTML oder MHTML gespeichert werden. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ Steuert, wie Dropdown-Formularfelder in HTML oder MHTML gespeichert werden. Der 
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn eingestellt auf`WAHR` , exportiert Dropdown-Formularfelder als normalen Text. Wann`FALSCH`, exportiert Dropdown-Formularfelder als SELECT-Element in HTML.
 
 Beim Exportieren nach EPUB werden Text-Dropdown-Formularfelder aufgrund der Anforderungen dieses Formats immer als Text gespeichert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Dropdown-Kombinationsfeld-Formularfelder beim Speichern im HTML-Format in den Absatztext einfügt.
 
@@ -58,7 +60,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.Kerning
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Legt fest ob Kerning aktiviert ist.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words für .NET
+description: TextPath Kerning eigendom. Legt fest ob Kerning aktiviert ist in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/textpath/kerning/
@@ -14,11 +16,11 @@ Legt fest, ob Kerning aktiviert ist.
 public bool Kerning { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

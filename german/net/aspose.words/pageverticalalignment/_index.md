@@ -1,7 +1,9 @@
 ---
-title: Enum PageVerticalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.PageVerticalAlignment opsomming. Gibt die vertikale Ausrichtung des Textes auf jeder Seite an.
+title: PageVerticalAlignment Enum
+linktitle: PageVerticalAlignment
+articleTitle: PageVerticalAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.PageVerticalAlignment opsomming. Gibt die vertikale Ausrichtung des Textes auf jeder Seite an in C#.
 type: docs
 weight: 4370
 url: /de/net/aspose.words/pageverticalalignment/
@@ -23,7 +25,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | Der Text wird ausgebreitet, um die Seite auszufüllen. |
 | Top | `0` | Der Text wird oben auf der Seite ausgerichtet. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 * property [VerticalAlignment](../pagesetup/verticalalignment/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

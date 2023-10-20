@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.GroupName
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControl eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die eine Gruppe sich gegenseitig ausschließender Steuerelemente angibt. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words für .NET
+description: Forms2OleControl GroupName eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die eine Gruppe sich gegenseitig ausschließender Steuerelemente angibt. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/groupname/
@@ -14,7 +16,7 @@ Ruft eine Zeichenfolge ab oder legt diese fest, die eine Gruppe sich gegenseitig
 public string GroupName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Siehe auch
 
 * class [Forms2OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

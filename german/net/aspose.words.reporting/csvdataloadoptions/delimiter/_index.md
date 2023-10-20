@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.Delimiter
-second_title: Aspose.Words für .NET-API-Referenz
-description: CsvDataLoadOptions eigendom. Ruft das Zeichen ab das als Spaltentrennzeichen verwendet werden soll oder legt es fest.
+linktitle: Delimiter
+articleTitle: Delimiter
+second_title: Aspose.Words für .NET
+description: CsvDataLoadOptions Delimiter eigendom. Ruft das Zeichen ab das als Spaltentrennzeichen verwendet werden soll oder legt es fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.reporting/csvdataloadoptions/delimiter/
@@ -14,14 +16,12 @@ Ruft das Zeichen ab, das als Spaltentrennzeichen verwendet werden soll, oder leg
 public char Delimiter { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist „,“ (Komma).
 
 ### Siehe auch
 
 * class [CsvDataLoadOptions](../)
-* namensraum [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

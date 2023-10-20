@@ -1,7 +1,9 @@
 ---
-title: Class CellFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.CellFormat klas. Stellt alle Formatierungen für eine Tabellenzelle dar.
+title: CellFormat Class
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.CellFormat klas. Stellt alle Formatierungen für eine Tabellenzelle dar in C#.
 type: docs
 weight: 6260
 url: /de/net/aspose.words.tables/cellformat/
@@ -23,7 +25,6 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Ruft eine Sammlung von Rändern der Zelle ab. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Gibt den Abstand (in Punkten) zurück, der unter dem Inhalt der Zelle hinzugefügt werden soll, oder legt diesen fest. |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Wenn`WAHR` , passt den Text in die Zelle ein und komprimiert jeden Absatz auf die Breite der Zelle. |
-| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Gibt an, wie die Zelle horizontal mit anderen Zellen in der Zeile zusammengeführt wird. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Gibt den Abstand (in Punkten) zurück, der links vom Inhalt der Zelle hinzugefügt werden soll, oder legt ihn fest. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Gibt die Ausrichtung des Texts in einer Tabellenzelle zurück oder legt sie fest. |
@@ -41,9 +42,9 @@ public class CellFormat
 | Name | Beschreibung |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Setzt die Standardzellenformatierung zurück. Ändert die Breite der Zelle nicht. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Legt die Menge an Platz (in Punkten) fest, die links/oben/rechts/unten zum Inhalt der Zelle hinzugefügt werden soll. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Legt die Menge an Platz (in Punkten) fest, die links/oben/rechts/unten zum Inhalt der Zelle hinzugefügt werden soll. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Formatierung einer Tabellenzelle geändert wird.
 
@@ -157,5 +158,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

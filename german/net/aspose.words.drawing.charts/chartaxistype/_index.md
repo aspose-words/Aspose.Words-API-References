@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartAxisType opsomming. Gibt den Typ der Diagrammachse an.
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisType opsomming. Gibt den Typ der Diagrammachse an in C#.
 type: docs
 weight: 660
 url: /de/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | Reihenachse eines Diagramms. |
 | Value | `2` | Werteachse eines Diagramms. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

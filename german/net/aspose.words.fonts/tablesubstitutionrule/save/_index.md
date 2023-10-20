@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableSubstitutionRule methode. Speichert die aktuellen Tabellenersetzungseinstellungen in der Datei.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words für .NET
+description: TableSubstitutionRule Save methode. Speichert die aktuellen Tabellenersetzungseinstellungen in der Datei in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Speichert die aktuellen Tabellenersetzungseinstellungen in der Datei.
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Name der Ausgabedatei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Schriftarten-Ersetzungstabellen für Windows und Linux zugreift.
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Siehe auch
 
 * class [TableSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Speichert die aktuellen Tabellenersetzungseinstellungen im Stream.
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Ausgabestrom. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Schriftarten-Ersetzungstabellen für Windows und Linux zugreift.
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Siehe auch
 
 * class [TableSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

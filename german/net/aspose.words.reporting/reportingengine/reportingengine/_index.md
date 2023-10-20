@@ -1,7 +1,9 @@
 ---
-title: ReportingEngine.ReportingEngine
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReportingEngine constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: ReportingEngine
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words für .NET
+description: ReportingEngine constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.reporting/reportingengine/reportingengine/
@@ -17,7 +19,5 @@ public ReportingEngine()
 ### Siehe auch
 
 * class [ReportingEngine](../)
-* namensraum [Aspose.Words.Reporting](../../reportingengine/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

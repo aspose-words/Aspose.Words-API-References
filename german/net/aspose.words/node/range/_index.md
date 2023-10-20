@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Gibt a zurückRange Objekt das den Teil eines Dokuments darstellt der in diesem Knoten enthalten ist.
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words für .NET
+description: Node Range eigendom. Gibt a zurückRange Objekt das den Teil eines Dokuments darstellt der in diesem Knoten enthalten ist in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ Gibt a zurück[`Range`](../../range/) Objekt, das den Teil eines Dokuments darst
 public Range Range { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Knoten aus einem Bereich gelöscht werden.
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

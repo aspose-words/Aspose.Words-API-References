@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Signer
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft den vorgeschlagenen Unterzeichner der Signaturzeile ab oder legt diesen fest. Der Standardwert für diese Eigenschaft ist leerer String Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words für .NET
+description: SignatureLine Signer eigendom. Ruft den vorgeschlagenen Unterzeichner der Signaturzeile ab oder legt diesen fest. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-Ruft den vorgeschlagenen Unterzeichner der Signaturzeile ab oder legt diesen fest. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty).
+Ruft den vorgeschlagenen Unterzeichner der Signaturzeile ab oder legt diesen fest. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

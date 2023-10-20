@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SpacingInWholePoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Text nur um ganze Punkte erweitern/komprimieren.
+linktitle: SpacingInWholePoints
+articleTitle: SpacingInWholePoints
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions SpacingInWholePoints eigendom. Text nur um ganze Punkte erweitern/komprimieren in C#.
 type: docs
 weight: 450
 url: /de/net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/
@@ -17,7 +19,5 @@ public bool SpacingInWholePoints { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

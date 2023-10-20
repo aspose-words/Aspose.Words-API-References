@@ -1,7 +1,9 @@
 ---
-title: Enum SvgTextOutputMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.SvgTextOutputMode opsomming. Ermöglicht die Angabe wie Text in einem Dokument gerendert werden soll beim Speichern im SVGFormat.
+title: SvgTextOutputMode Enum
+linktitle: SvgTextOutputMode
+articleTitle: SvgTextOutputMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.SvgTextOutputMode opsomming. Ermöglicht die Angabe wie Text in einem Dokument gerendert werden soll beim Speichern im SVGFormat in C#.
 type: docs
 weight: 5610
 url: /de/net/aspose.words.saving/svgtextoutputmode/
@@ -22,7 +24,7 @@ public enum SvgTextOutputMode
 | UseTargetMachineFonts | `1` | Auf dem Zielcomputer installierte Schriftarten werden zum Rendern von Text verwendet. Hinweis: Wenn einige der im Dokument verwendeten Schriftarten auf dem Zielcomputer nicht verfügbar sind, kann das Dokument anders aussehen. |
 | UsePlacedGlyphs | `2` | Text wird mithilfe von Kurven gerendert. Beachten Sie, dass die Textauswahl nicht funktioniert, wenn Sie diese Option verwenden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines .docx-Dokuments in .svg nachgeahmt werden.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

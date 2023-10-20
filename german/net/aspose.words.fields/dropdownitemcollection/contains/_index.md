@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Contains
-second_title: Aspose.Words für .NET-API-Referenz
-description: DropDownItemCollection methode. Bestimmt ob die Sammlung den angegebenen Wert enthält.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words für .NET
+description: DropDownItemCollection Contains methode. Bestimmt ob die Sammlung den angegebenen Wert enthält in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/dropdownitemcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string value)
 
 `WAHR` wenn der Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Siehe auch
 
 * class [DropDownItemCollection](../)
-* namensraum [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

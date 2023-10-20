@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartXValue methode. Erstellt eineChartXValue Instanz derDouble Typ.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words für .NET
+description: ChartXValue FromDouble methode. Erstellt eineChartXValue Instanz derDouble Typ in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ Erstellt eine[`ChartXValue`](../) Instanz derDouble Typ.
 public static ChartXValue FromDouble(double value)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Diagrammreihen mit Daten gefüllt werden.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Siehe auch
 
 * class [ChartXValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

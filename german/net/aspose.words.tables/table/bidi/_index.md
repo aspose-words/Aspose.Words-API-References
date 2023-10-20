@@ -1,7 +1,9 @@
 ---
 title: Table.Bidi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft ab oder legt fest ob es sich um eine von rechts nach links verlaufende Tabelle handelt.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words für .NET
+description: Table Bidi eigendom. Ruft ab oder legt fest ob es sich um eine von rechts nach links verlaufende Tabelle handelt in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.tables/table/bidi/
@@ -14,13 +16,13 @@ Ruft ab oder legt fest, ob es sich um eine von rechts nach links verlaufende Tab
 public bool Bidi { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wann`WAHR`, sind die Zellen in dieser Zeile von rechts nach links angeordnet.
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

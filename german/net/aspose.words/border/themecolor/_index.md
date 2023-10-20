@@ -1,7 +1,9 @@
 ---
 title: Border.ThemeColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Ruft die Designfarbe im angewendeten Farbschema ab das diesem BorderObjekt zugeordnet ist oder legt diese fest.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words für .NET
+description: Border ThemeColor eigendom. Ruft die Designfarbe im angewendeten Farbschema ab das diesem BorderObjekt zugeordnet ist oder legt diese fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/border/themecolor/
@@ -14,7 +16,7 @@ Ruft die Designfarbe im angewendeten Farbschema ab, das diesem Border-Objekt zug
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz mit einem oberen Rand eingefügt wird.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

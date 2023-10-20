@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTexture
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft a abPresetTexture für die Füllung.
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words für .NET
+description: Fill PresetTexture eigendom. Ruft a abPresetTexture für die Füllung in C#.
 type: docs
-weight: 170
+weight: 160
 url: /de/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
@@ -18,7 +20,5 @@ public PresetTexture PresetTexture { get; }
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

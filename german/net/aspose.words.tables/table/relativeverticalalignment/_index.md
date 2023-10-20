@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeVerticalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die relative vertikale Ausrichtung der schwebenden Tabelle ab oder legt diese fest.
+linktitle: RelativeVerticalAlignment
+articleTitle: RelativeVerticalAlignment
+second_title: Aspose.Words für .NET
+description: Table RelativeVerticalAlignment eigendom. Ruft die relative vertikale Ausrichtung der schwebenden Tabelle ab oder legt diese fest in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words.tables/table/relativeverticalalignment/
@@ -14,7 +16,7 @@ Ruft die relative vertikale Ausrichtung der schwebenden Tabelle ab oder legt die
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position schwebender Tabellen festgelegt wird.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

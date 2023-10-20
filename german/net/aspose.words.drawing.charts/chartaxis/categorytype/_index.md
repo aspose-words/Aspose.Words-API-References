@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CategoryType
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft den Typ der Kategorieachse ab oder legt diesen fest.
+linktitle: CategoryType
+articleTitle: CategoryType
+second_title: Aspose.Words für .NET
+description: ChartAxis CategoryType eigendom. Ruft den Typ der Kategorieachse ab oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -14,11 +16,11 @@ Ruft den Typ der Kategorieachse ab oder legt diesen fest.
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Nur Textkategorien (Category ) sind in MS Office 2016 neue Diagramme erlaubt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCategoryType](../../axiscategorytype/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

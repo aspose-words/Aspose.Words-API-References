@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule klas. Standardregel zum Ersetzen von Schriftarten.
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule klas. Standardregel zum Ersetzen von Schriftarten in C#.
 type: docs
 weight: 2840
 url: /de/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Ruft den Standardschriftnamen ab oder legt ihn fest. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Gibt an, ob die Regel aktiviert ist oder nicht. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Regel definiert einen einzelnen Standardschriftartnamen, der als Ersatz verwendet wird, wenn die Originalschriftart nicht verfügbar ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Standardregel zum Ersetzen von Schriftarten festgelegt wird.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.SignatureDate
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfDigitalSignatureDetails eigendom. Ruft das Datum der Unterzeichnung ab oder setzt es.
+linktitle: SignatureDate
+articleTitle: SignatureDate
+second_title: Aspose.Words für .NET
+description: PdfDigitalSignatureDetails SignatureDate eigendom. Ruft das Datum der Unterzeichnung ab oder setzt es in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
@@ -14,13 +16,13 @@ Ruft das Datum der Unterzeichnung ab oder setzt es.
 public DateTime SignatureDate { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist die aktuelle Uhrzeit.
 
 Dieser Wert erscheint in der digitalen Signatur als ungeprüfte Computerzeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein generiertes PDF-Dokument signiert wird.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Siehe auch
 
 * class [PdfDigitalSignatureDetails](../)
-* namensraum [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

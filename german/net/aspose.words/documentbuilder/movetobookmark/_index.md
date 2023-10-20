@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor zu einem Lesezeichen.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words für .NET
+description: DocumentBuilder MoveToBookmark methode. Bewegt den Cursor zu einem Lesezeichen in C#.
 type: docs
-weight: 500
+weight: 490
 url: /de/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 Bewegt den Cursor zu einem Lesezeichen.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `WAHR` ob das Lesezeichen gefunden wurde;`FALSCH` ansonsten.
 
-### Bemerkungen
+## Bemerkungen
 
 Bewegt den Cursor an eine Position unmittelbar nach dem Anfang des Lesezeichens mit dem angegebenen Namen.
 
@@ -32,7 +34,7 @@ Durch das Einfügen von neuem Text wird der vorhandene Text des Lesezeichens nic
 
 Beachten Sie, dass einige Lesezeichen im Dokument Formularfeldern zugewiesen sind. Wenn Sie zu einem solchen Lesezeichen wechseln und dort Text einfügen, wird der Text in den Formularfeldcode eingefügt. Obwohl dadurch das Formularfeld nicht ungültig wird, ist der eingefügte -Text nicht sichtbar, da er Teil des Feldcodes wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Cursor eines Document Builders zu verschiedenen Knoten in einem Dokument bewegt wird.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 Bewegt den Cursor mit größerer Präzision zu einem Lesezeichen.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `WAHR` ob das Lesezeichen gefunden wurde;`FALSCH` ansonsten.
 
-### Bemerkungen
+## Bemerkungen
 
 Bewegt den Cursor an eine Position vor oder nach dem Anfang oder Ende des Lesezeichens.
 
@@ -117,7 +119,7 @@ Wenn die gewünschte Position nicht auf Inline-Ebene liegt, wird zum nächsten A
 
 Beim Vergleich wird die Groß-/Kleinschreibung nicht beachtet. Wenn das Lesezeichen nicht gefunden wurde,`FALSCH` is wird zurückgegeben und der Cursor wird nicht bewegt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Knoteneinfügepunkt-Cursor eines Document Builders zu einem Lesezeichen verschoben wird.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

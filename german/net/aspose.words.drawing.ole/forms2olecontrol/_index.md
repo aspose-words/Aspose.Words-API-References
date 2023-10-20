@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControl
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Ole.Forms2OleControl klas. Stellt das Microsoft Forms 2.0 OLESteuerelement dar.
+title: Forms2OleControl Class
+linktitle: Forms2OleControl
+articleTitle: Forms2OleControl
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControl klas. Stellt das Microsoft Forms 2.0 OLESteuerelement dar in C#.
 type: docs
 weight: 1110
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/
@@ -29,7 +31,7 @@ public abstract class Forms2OleControl : OleControl
 | abstract [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | Ruft den Typ des Forms 2.0-Steuerelements ab. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | Ruft die zugrunde liegende Value-Eigenschaft ab, die häufig den Steuerungsstatus darstellt. Beispielsweise hat die aktivierte Optionsschaltfläche den Wert „1“, während die deaktivierte Option „0“ hat. Der Standardwert ist eine leere Zeichenfolge. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -61,5 +63,3 @@ if (oleControl.IsForms2OleControl)
 * class [OleControl](../olecontrol/)
 * namensraum [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../)
-
-

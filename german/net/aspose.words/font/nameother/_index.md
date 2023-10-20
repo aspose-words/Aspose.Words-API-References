@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt die Schriftart zurück oder legt sie fest die für Zeichen mit Zeichencodes von 128 bis 255 verwendet wird.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words für .NET
+description: Font NameOther eigendom. Gibt die Schriftart zurück oder legt sie fest die für Zeichen mit Zeichencodes von 128 bis 255 verwendet wird in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ Gibt die Schriftart zurück oder legt sie fest, die für Zeichen mit Zeichencode
 public string NameOther { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Microsoft Word zwei verschiedene Schriftarten in einem Durchgang kombinieren kann.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

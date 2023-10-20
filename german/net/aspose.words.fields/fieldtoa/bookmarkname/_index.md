@@ -1,7 +1,9 @@
 ---
 title: FieldToa.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft den Namen des Lesezeichens ab das den Teil des Dokuments markiert der zum Erstellen der Tabelle verwendet wird oder legt diesen fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldToa BookmarkName eigendom. Ruft den Namen des Lesezeichens ab das den Teil des Dokuments markiert der zum Erstellen der Tabelle verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldtoa/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab, das den Teil des Dokuments markiert, der zum
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

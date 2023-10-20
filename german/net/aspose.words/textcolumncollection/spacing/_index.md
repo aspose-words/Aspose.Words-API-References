@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Spacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection eigendom. Wenn die Spalten gleichmäßig verteilt sind wird der Abstand zwischen den einzelnen Spalten in Punkten abgerufen oder festgelegt.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words für .NET
+description: TextColumnCollection Spacing eigendom. Wenn die Spalten gleichmäßig verteilt sind wird der Abstand zwischen den einzelnen Spalten in Punkten abgerufen oder festgelegt in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/textcolumncollection/spacing/
@@ -14,11 +16,11 @@ Wenn die Spalten gleichmäßig verteilt sind, wird der Abstand zwischen den einz
 public double Spacing { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Hat nur Wirkung, wenn[`EvenlySpaced`](../evenlyspaced/) ist eingestellt auf`WAHR` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellen.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Siehe auch
 
 * class [TextColumnCollection](../)
-* namensraum [Aspose.Words](../../textcolumncollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn dieser Absatzumbruch ein Stiltrennzeichen ist. Ein Stiltrennzeichen ermöglicht dass ein Absatz aus Teilen mit unterschiedlichen Absatzstilen bestehen kann.
+linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
+second_title: Aspose.Words für .NET
+description: Paragraph BreakIsStyleSeparator eigendom. True wenn dieser Absatzumbruch ein Stiltrennzeichen ist. Ein Stiltrennzeichen ermöglicht dass ein Absatz aus Teilen mit unterschiedlichen Absatzstilen bestehen kann in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/paragraph/breakisstyleseparator/
@@ -14,7 +16,7 @@ True, wenn dieser Absatzumbruch ein Stiltrennzeichen ist. Ein Stiltrennzeichen e
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Text in dieselbe Zeile wie die Überschrift eines Inhaltsverzeichnisses schreibt und dafür sorgt, dass dieser nicht im Inhaltsverzeichnis angezeigt wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

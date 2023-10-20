@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListOutdent
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListFormat methode. Verringert die Listenebene des aktuellen Absatzes um eine Ebene.
+linktitle: ListOutdent
+articleTitle: ListOutdent
+second_title: Aspose.Words für .NET
+description: ListFormat ListOutdent methode. Verringert die Listenebene des aktuellen Absatzes um eine Ebene in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.lists/listformat/listoutdent/
@@ -14,13 +16,13 @@ Verringert die Listenebene des aktuellen Absatzes um eine Ebene.
 public void ListOutdent()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode ändert die Listenebene und wendet Formatierungseigenschaften der neuen Ebene an.
 
 In Word-Dokumenten können Listen aus bis zu neun Ebenen bestehen. Die Listenformatierung für jede Ebene gibt an, welches Aufzählungszeichen oder welche Zahl verwendet wird, den linken Einzug, den Abstand zwischen dem Aufzählungszeichen und dem Text usw.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Aufzählungslisten und nummerierte Listen erstellt werden.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Siehe auch
 
 * class [ListFormat](../)
-* namensraum [Aspose.Words.Lists](../../listformat/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

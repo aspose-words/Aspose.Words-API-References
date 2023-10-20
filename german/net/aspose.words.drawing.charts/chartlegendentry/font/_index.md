@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartLegendEntry eigendom. Bietet Zugriff auf die Schriftartformatierung dieses Legendeneintrags.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: ChartLegendEntry Font eigendom. Bietet Zugriff auf die Schriftartformatierung dieses Legendeneintrags in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Schriftartformatierung dieses Legendeneintrags.
 public Font Font { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem Legendeneintrag für Diagrammreihen gearbeitet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

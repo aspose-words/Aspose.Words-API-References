@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UsePassim
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft ab oder legt fest ob fünf oder mehr verschiedene Seitenverweise auf dieselbe Autorität durch passim ersetzt werden sollen was verwendet wird um anzugeben dass ein Wort oder eine Passage häufig im zitierten Werk vorkommt.
+linktitle: UsePassim
+articleTitle: UsePassim
+second_title: Aspose.Words für .NET
+description: FieldToa UsePassim eigendom. Ruft ab oder legt fest ob fünf oder mehr verschiedene Seitenverweise auf dieselbe Autorität durch passim ersetzt werden sollen was verwendet wird um anzugeben dass ein Wort oder eine Passage häufig im zitierten Werk vorkommt in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fieldtoa/usepassim/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob fünf oder mehr verschiedene Seitenverweise auf diese
 public bool UsePassim { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

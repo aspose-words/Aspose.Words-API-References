@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Wert in Punkten für eine erste Zeile oder einen hängenden Einzug ab oder legt diesen fest.
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: Aspose.Words für .NET
+description: ParagraphFormat FirstLineIndent eigendom. Ruft den Wert in Punkten für eine erste Zeile oder einen hängenden Einzug ab oder legt diesen fest in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/paragraphformat/firstlineindent/
@@ -16,7 +18,7 @@ Verwenden Sie positive Werte, um den Einzug der ersten Zeile festzulegen, und ne
 public double FirstLineIndent { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

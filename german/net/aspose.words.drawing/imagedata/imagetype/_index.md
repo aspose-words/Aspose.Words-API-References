@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageType
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft den Typ des Bildes ab.
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words für .NET
+description: ImageData ImageType eigendom. Ruft den Typ des Bildes ab in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing/imagedata/imagetype/
@@ -14,7 +16,7 @@ Ruft den Typ des Bildes ab.
 public ImageType ImageType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Bilder aus einem Dokument extrahiert und sie als einzelne Dateien im lokalen Dateisystem speichert.
 
@@ -46,7 +48,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../imagetype/)
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

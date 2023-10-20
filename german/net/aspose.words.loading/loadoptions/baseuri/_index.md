@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.BaseUri
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ruft die Zeichenfolge ab oder legt diese fest die bei Bedarf zum Auflösen relativer URIs im Dokument in absolute URIs verwendet wird. Kann seinNull oder leere Zeichenfolge. Standard istNull .
+linktitle: BaseUri
+articleTitle: BaseUri
+second_title: Aspose.Words für .NET
+description: LoadOptions BaseUri eigendom. Ruft die Zeichenfolge ab oder legt diese fest die bei Bedarf zum Auflösen relativer URIs im Dokument in absolute URIs verwendet wird. Kann seinNull oder leere Zeichenfolge. Standard istNull  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.loading/loadoptions/baseuri/
@@ -14,14 +16,14 @@ Ruft die Zeichenfolge ab oder legt diese fest, die bei Bedarf zum Auflösen rela
 public string BaseUri { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft wird verwendet, um in den folgenden Fällen relative URIs in absolute aufzulösen:
 
 1. Wenn ein HTML-Dokument aus einem Stream geladen wird und das Dokument Bilder mit relativen URIs enthält und im BASE-HTML-Element kein Basis-URI angegeben ist.
 2. Beim Speichern eines Dokuments im PDF- und anderen Format, um mit relativen URIs verknüpfte Bilder abzurufen, damit die Bilder im Ausgabedokument gespeichert werden können.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe eines Basis-URI ein HTML-Dokument mit Bildern aus einem Stream öffnet.
 
@@ -48,7 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Siehe auch
 
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

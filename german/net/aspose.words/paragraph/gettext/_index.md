@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph methode. Ruft den Text dieses Absatzes einschließlich des Absatzendezeichens ab.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words für .NET
+description: Paragraph GetText methode. Ruft den Text dieses Absatzes einschließlich des Absatzendezeichens ab in C#.
 type: docs
-weight: 280
+weight: 260
 url: /de/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ Ruft den Text dieses Absatzes einschließlich des Absatzendezeichens ab.
 public override string GetText()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Text aller untergeordneten Knoten wird verkettet und das Absatzendezeichen wird wie folgt angehängt:
 
@@ -24,7 +26,7 @@ Der Text aller untergeordneten Knoten wird verkettet und das Absatzendezeichen w
 
 Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../controlchar/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie untergeordnete Knoten in der untergeordneten Sammlung eines CompositeNode hinzugefügt, aktualisiert und gelöscht werden.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPropertyCollection methode. Gibt zurückWAHR wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words für .NET
+description: DocumentPropertyCollection Contains methode. Gibt zurückWAHR wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.properties/documentpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `WAHR` wenn die Eigenschaft in der Sammlung vorhanden ist;`FALSCH` ansonsten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Siehe auch
 
 * class [DocumentPropertyCollection](../)
-* namensraum [Aspose.Words.Properties](../../documentpropertycollection/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

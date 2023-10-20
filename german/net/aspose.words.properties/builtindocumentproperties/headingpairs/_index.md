@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Gibt Dokumentüberschriften und deren Namen an.
+linktitle: HeadingPairs
+articleTitle: HeadingPairs
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties HeadingPairs eigendom. Gibt Dokumentüberschriften und deren Namen an in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -14,7 +16,7 @@ Gibt Dokumentüberschriften und deren Namen an.
 public object[] HeadingPairs { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Jedes Überschriftenpaar belegt zwei Elemente in diesem Array.
 
@@ -24,7 +26,7 @@ Die Gesamtsumme der Zählungen für alle Überschriftenpaare in dieser Eigenscha
 
 Aspose.Words aktualisiert diese Eigenschaft nicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt die Beziehung zwischen den Eigenschaften „HeadingPairs“ und „TitlesOfParts“.
 
@@ -55,7 +57,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

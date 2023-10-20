@@ -1,9 +1,11 @@
 ---
 title: Table.SetShading
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table methode. Setzt die Schattierung auf die angegebenen Werte für die gesamte Tabelle.
+linktitle: SetShading
+articleTitle: SetShading
+second_title: Aspose.Words für .NET
+description: Table SetShading methode. Setzt die Schattierung auf die angegebenen Werte für die gesamte Tabelle in C#.
 type: docs
-weight: 450
+weight: 430
 url: /de/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -20,7 +22,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | Die Farbe der Textur. |
 | backgroundColor | Color | Die Farbe der Hintergrundfüllung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

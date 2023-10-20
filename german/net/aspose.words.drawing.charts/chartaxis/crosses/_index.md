@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Crosses
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt an wie diese Achse die senkrechte Achse schneidet.
+linktitle: Crosses
+articleTitle: Crosses
+second_title: Aspose.Words für .NET
+description: ChartAxis Crosses eigendom. Gibt an wie diese Achse die senkrechte Achse schneidet in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/chartaxis/crosses/
@@ -14,13 +16,13 @@ Gibt an, wie diese Achse die senkrechte Achse schneidet.
 public AxisCrosses Crosses { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istAutomatic.
 
 Die Eigenschaft wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCrosses](../../axiscrosses/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

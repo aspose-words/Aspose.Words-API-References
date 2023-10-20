@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Wert ab der den linken Einzug der Tabelle darstellt oder legt diesen fest.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words für .NET
+description: Table LeftIndent eigendom. Ruft den Wert ab der den linken Einzug der Tabelle darstellt oder legt diesen fest in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ Ruft den Wert ab, der den linken Einzug der Tabelle darstellt, oder legt diesen 
 public double LeftIndent { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder eine formatierte Tabelle erstellt.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

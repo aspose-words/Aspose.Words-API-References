@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousSibling
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Ruft den Knoten ab der diesem Knoten unmittelbar vorangeht.
+linktitle: PreviousSibling
+articleTitle: PreviousSibling
+second_title: Aspose.Words für .NET
+description: Node PreviousSibling eigendom. Ruft den Knoten ab der diesem Knoten unmittelbar vorangeht in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/node/previoussibling/
@@ -14,11 +16,11 @@ Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht.
 public Node PreviousSibling { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn kein vorhergehender Knoten vorhanden ist, a`Null` wird zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Methoden von Node und CompositeNode verwendet werden, um einen Abschnitt vor dem letzten Abschnitt im Dokument zu entfernen.
 
@@ -45,7 +47,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ### Siehe auch
 
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

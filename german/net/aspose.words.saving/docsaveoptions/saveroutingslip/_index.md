@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocSaveOptions eigendom. WannFALSCH  RoutingSlipDaten werden nicht im Ausgabedokument gespeichert. Der Standardwert istWAHR .
+linktitle: SaveRoutingSlip
+articleTitle: SaveRoutingSlip
+second_title: Aspose.Words für .NET
+description: DocSaveOptions SaveRoutingSlip eigendom. WannFALSCH  RoutingSlipDaten werden nicht im Ausgabedokument gespeichert. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/docsaveoptions/saveroutingslip/
@@ -14,7 +16,7 @@ Wann`FALSCH` , RoutingSlip-Daten werden nicht im Ausgabedokument gespeichert. De
 public bool SaveRoutingSlip { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Speicheroptionen für ältere Microsoft Word-Formate festgelegt werden.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Siehe auch
 
 * class [DocSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../docsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

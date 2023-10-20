@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt die vertikale Ausrichtung des Texts in der Zelle zurück oder legt sie fest.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words für .NET
+description: CellFormat VerticalAlignment eigendom. Gibt die vertikale Ausrichtung des Texts in der Zelle zurück oder legt sie fest in C#.
 type: docs
-weight: 120
+weight: 110
 url: /de/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -14,7 +16,7 @@ Gibt die vertikale Ausrichtung des Texts in der Zelle zurück oder legt sie fest
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [CellVerticalAlignment](../../cellverticalalignment/)
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

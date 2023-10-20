@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt den Text zurück der in der Statusleiste angezeigt wird wenn ein Formularfeld den Fokus hat oder legt diesen fest.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words für .NET
+description: FormField StatusText eigendom. Gibt den Text zurück der in der Statusleiste angezeigt wird wenn ein Formularfeld den Fokus hat oder legt diesen fest in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ Gibt den Text zurück, der in der Statusleiste angezeigt wird, wenn ein Formular
 public string StatusText { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die[`OwnStatus`](../ownstatus/) Die Eigenschaft ist auf festgelegt`WAHR` , Die`StatusText` Die Eigenschaft gibt den Text der Statusleiste an. Wenn die[`OwnStatus`](../ownstatus/) Die Eigenschaft ist auf festgelegt`FALSCH` , Die`StatusText` Die Eigenschaft gibt den Namen eines AutoText -Eintrags an, der Statusleistentext für das Formularfeld enthält.
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 138 Zeichen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DocumentProperty
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Properties.DocumentProperty klas. Stellt eine benutzerdefinierte oder integrierte Dokumenteigenschaft dar.
+title: DocumentProperty Class
+linktitle: DocumentProperty
+articleTitle: DocumentProperty
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Properties.DocumentProperty klas. Stellt eine benutzerdefinierte oder integrierte Dokumenteigenschaft dar in C#.
 type: docs
 weight: 4470
 url: /de/net/aspose.words.properties/documentproperty/
@@ -32,12 +34,12 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Gibt den Eigenschaftswert als bool. zurück. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Gibt den Eigenschaftswert als Byte-Array zurück. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Gibt den Eigenschaftswert zurück als **Terminzeit** in UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Gibt den Eigenschaftswert zurück als**Terminzeit** in UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Gibt den Eigenschaftswert als double. zurück. |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Gibt den Eigenschaftswert als Ganzzahl zurück. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Gibt den Eigenschaftswert als Zeichenfolge zurück, die entsprechend dem aktuellen Gebietsschema formatiert ist. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
@@ -73,5 +75,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * namensraum [Aspose.Words.Properties](../../aspose.words.properties/)
 * Montage [Aspose.Words](../../)
-
-

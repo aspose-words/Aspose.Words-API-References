@@ -1,7 +1,9 @@
 ---
 title: TextPath.Bold
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. True wenn die Schriftart fett formatiert ist.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words für .NET
+description: TextPath Bold eigendom. True wenn die Schriftart fett formatiert ist in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/textpath/bold/
@@ -14,11 +16,11 @@ True, wenn die Schriftart fett formatiert ist.
 public bool Bold { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

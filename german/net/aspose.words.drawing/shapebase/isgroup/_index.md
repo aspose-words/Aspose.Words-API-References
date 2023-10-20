@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsGroup
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt zurückWAHR wenn es sich um eine Gruppenform handelt.
+linktitle: IsGroup
+articleTitle: IsGroup
+second_title: Aspose.Words für .NET
+description: ShapeBase IsGroup eigendom. Gibt zurückWAHR wenn es sich um eine Gruppenform handelt in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words.drawing/shapebase/isgroup/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn es sich um eine Gruppenform handelt.
 public bool IsGroup { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -105,7 +107,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.DisplayType
-second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath eigendom. Ruft den Office MathAnzeigeformattyp ab bzw. legt ihn fest der angibt ob eine Gleichung inline mit dem Text oder in einer eigenen Zeile angezeigt wird.
+linktitle: DisplayType
+articleTitle: DisplayType
+second_title: Aspose.Words für .NET
+description: OfficeMath DisplayType eigendom. Ruft den Office MathAnzeigeformattyp ab bzw. legt ihn fest der angibt ob eine Gleichung inline mit dem Text oder in einer eigenen Zeile angezeigt wird in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.math/officemath/displaytype/
@@ -14,13 +16,13 @@ Ruft den Office Math-Anzeigeformattyp ab bzw. legt ihn fest, der angibt, ob eine
 public OfficeMathDisplayType DisplayType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Anzeigeformattyp ist nur für Office Math der obersten Ebene wirksam.
 
 Der zurückgegebene Anzeigeformattyp ist immerInline für verschachtelte Office Math.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Anzeigeformatierung für Office-Mathematik festgelegt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * class [OfficeMath](../)
-* namensraum [Aspose.Words.Math](../../officemath/)
+* namensraum [Aspose.Words.Math](../../../aspose.words.math/)
 * Montage [Aspose.Words](../../../)
-
-

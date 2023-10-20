@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarksOutlineLevelCollection methode. Entfernt alle Elemente aus der Sammlung.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: BookmarksOutlineLevelCollection Clear methode. Entfernt alle Elemente aus der Sammlung in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
@@ -14,7 +16,7 @@ Entfernt alle Elemente aus der Sammlung.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### Siehe auch
 
 * class [BookmarksOutlineLevelCollection](../)
-* namensraum [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

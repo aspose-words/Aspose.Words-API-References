@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarksOutlineLevelCollection methode. Entfernt ein Lesezeichen mit dem angegebenen Namen aus der Sammlung.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: BookmarksOutlineLevelCollection Remove methode. Entfernt ein Lesezeichen mit dem angegebenen Namen aus der Sammlung in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Der Name des Lesezeichens ohne Berücksichtigung der Groß-/Kleinschreibung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Siehe auch
 
 * class [BookmarksOutlineLevelCollection](../)
-* namensraum [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

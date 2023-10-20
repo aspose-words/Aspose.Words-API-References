@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Aspose.Words für .NET-API-Referenz
-description: Enthält Klassen zum Arbeiten mit OLE/ActiveXSteuerelementen und Formularen in Microsoft WordDokumenten.
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: Aspose.Words für .NET
+description: Enthält Klassen zum Arbeiten mit OLE/ActiveXSteuerelementen und Formularen in Microsoft WordDokumenten in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ Enthält Klassen zum Arbeiten mit OLE-/ActiveX-Steuerelementen und Formularen in
 | Aufzählung | Beschreibung |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | Listet Typen von Forms 2.0-Steuerelementen auf. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Ruft ein Array von Bytes ab die einen Signaturwert darstellen.
+linktitle: SignatureValue
+articleTitle: SignatureValue
+second_title: Aspose.Words für .NET
+description: DigitalSignature SignatureValue eigendom. Ruft ein Array von Bytes ab die einen Signaturwert darstellen in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
@@ -14,7 +16,7 @@ Ruft ein Array von Bytes ab, die einen Signaturwert darstellen.
 public byte[] SignatureValue { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen digitalen Signaturwert aus einem digital signierten Dokument erhält.
 
@@ -33,7 +35,5 @@ foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
 ### Siehe auch
 
 * class [DigitalSignature](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

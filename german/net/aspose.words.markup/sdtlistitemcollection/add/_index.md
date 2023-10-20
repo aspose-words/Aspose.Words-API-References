@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItemCollection methode. Fügt ein Element zu dieser Sammlung hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: SdtListItemCollection Add methode. Fügt ein Element zu dieser Sammlung hinzu in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ Fügt ein Element zu dieser Sammlung hinzu.
 public void Add(SdtListItem item)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

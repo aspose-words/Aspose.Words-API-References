@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft die zu rendernden Seiten ab oder legt diese fest. Standard sind alle Seiten im Dokument.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words für .NET
+description: ImageSaveOptions PageSet eigendom. Ruft die zu rendernden Seiten ab oder legt diese fest. Standard sind alle Seiten im Dokument in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ Ruft die zu rendernden Seiten ab oder legt diese fest. Standard sind alle Seiten
 public PageSet PageSet { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft hat nur beim Rendern von Dokumentseiten Auswirkungen. Diese Eigenschaft wird beim Rendern von Formen in Bilder ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten basierend auf genauen Seitenbereichen extrahiert werden.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../imagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

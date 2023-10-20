@@ -1,7 +1,9 @@
 ---
-title: Class FieldToa
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldToa klas. Implementiert das TOAFeld.
+title: FieldToa Class
+linktitle: FieldToa
+articleTitle: FieldToa
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldToa klas. Implementiert das TOAFeld in C#.
 type: docs
 weight: 2520
 url: /de/net/aspose.words.fields/fieldtoa/
@@ -52,17 +54,17 @@ public class FieldToa : Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Erstellt unter Verwendung der von TA angegebenen -Einträge ein Autoritätsverzeichnis (d. h. eine Liste der Verweise in einem Rechtsdokument, z. B. Verweise auf Fälle, Gesetze und Regeln, zusammen mit den Nummern der Seiten, auf denen die Verweise erscheinen). Felder.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -187,5 +189,3 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

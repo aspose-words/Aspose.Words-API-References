@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Ruft eine Sammlung von Objekten ab oder legt diese fest die angeben wie Spalten aus der externen Datenquelle den vordefinierten Briefvorlagenfeldnamen im Dokument zugeordnet werden. Dieses Objekt ist niemals vorhandenNull .
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: Aspose.Words für .NET
+description: Odso FieldMapDatas eigendom. Ruft eine Sammlung von Objekten ab oder legt diese fest die angeben wie Spalten aus der externen Datenquelle den vordefinierten Briefvorlagenfeldnamen im Dokument zugeordnet werden. Dieses Objekt ist niemals vorhandenNull  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Objekten ab oder legt diese fest, die angeben, wie Spalte
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

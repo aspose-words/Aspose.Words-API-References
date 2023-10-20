@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Style
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft den Stil des strukturierten DokumentTags ab oder legt diesen fest.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Style eigendom. Ruft den Stil des strukturierten DokumentTags ab oder legt diesen fest in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words.markup/structureddocumenttag/style/
@@ -14,11 +16,11 @@ Ruft den Stil des strukturierten Dokument-Tags ab oder legt diesen fest.
 public Style Style { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Nur Character Stil bzwParagraph Stil mit verknüpftem Zeichenstil kann eingestellt werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 
@@ -58,7 +60,5 @@ foreach (Node node in tags)
 
 * class [Style](../../../aspose.words/style/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

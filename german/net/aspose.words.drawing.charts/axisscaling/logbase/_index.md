@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisScaling eigendom. Ruft die logarithmische Basis für eine logarithmische Achse ab oder legt sie fest.
+linktitle: LogBase
+articleTitle: LogBase
+second_title: Aspose.Words für .NET
+description: AxisScaling LogBase eigendom. Ruft die logarithmische Basis für eine logarithmische Achse ab oder legt sie fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ Ruft die logarithmische Basis für eine logarithmische Achse ab oder legt sie fe
 public double LogBase { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
@@ -22,7 +24,7 @@ Der gültige Bereich eines Gleitkommawerts ist größer oder gleich 2 und kleine
 
 Durch das Festlegen dieser Eigenschaft wird die festgelegt[`Type`](../type/) Eigentum zuLogarithmic .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine logarithmische Skalierung auf eine Diagrammachse angewendet wird.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### Siehe auch
 
 * class [AxisScaling](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

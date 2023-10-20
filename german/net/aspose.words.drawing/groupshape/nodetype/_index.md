@@ -1,7 +1,9 @@
 ---
 title: GroupShape.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: GroupShape eigendom. Gibt zurückGroupShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: GroupShape NodeType eigendom. Gibt zurückGroupShape  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/groupshape/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückGroupShape .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GroupShape](../)
-* namensraum [Aspose.Words.Drawing](../../groupshape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

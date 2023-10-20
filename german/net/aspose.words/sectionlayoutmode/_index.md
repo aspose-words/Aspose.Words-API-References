@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.SectionLayoutMode opsomming. Gibt den Layoutmodus für einen Abschnitt an der es ermöglicht das Verhalten des Dokumentrasters zu definieren.
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.SectionLayoutMode opsomming. Gibt den Layoutmodus für einen Abschnitt an der es ermöglicht das Verhalten des Dokumentrasters zu definieren in C#.
 type: docs
 weight: 5750
 url: /de/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | Gibt an, dass dem entsprechenden Abschnitt jeder Zeile innerhalb von it ein zusätzlicher Zeilenabstand hinzugefügt werden soll, um die angegebene Anzahl von Zeilen pro Seite beizubehalten. |
 | SnapToChars | `3` | Gibt an, dass im entsprechenden Abschnitt sowohl der zusätzliche Zeilenabstand als auch der Zeichenabstand zu jeder Zeile und jedem darin enthaltenen Zeichen hinzugefügt werden sollen, um eine bestimmte Anzahl von Zeilen pro Seite und Zeichen pro Zeile beizubehalten. Zeichen werden bei der Eingabe automatisch an Gitterlinien ausgerichtet. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man a für die Anzahl der Zeichen angibt, die jede Zeile enthalten darf.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

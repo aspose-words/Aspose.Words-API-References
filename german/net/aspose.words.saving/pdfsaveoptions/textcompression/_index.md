@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.TextCompression
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Gibt den Komprimierungstyp an der für den gesamten Textinhalt im Dokument verwendet werden soll.
+linktitle: TextCompression
+articleTitle: TextCompression
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions TextCompression eigendom. Gibt den Komprimierungstyp an der für den gesamten Textinhalt im Dokument verwendet werden soll in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words.saving/pdfsaveoptions/textcompression/
@@ -14,13 +16,13 @@ Gibt den Komprimierungstyp an, der für den gesamten Textinhalt im Dokument verw
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standard istFlate.
 
 Erhöht die Ausgabegröße erheblich, wenn ein Dokument ohne Komprimierung gespeichert wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie beim Speichern eines Dokuments als PDF eine Textkomprimierung anwenden.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

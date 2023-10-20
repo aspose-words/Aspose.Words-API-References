@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Rotation
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Definiert den Winkel in Grad um den eine Form gedreht wird. Positiver Wert entspricht dem Drehwinkel im Uhrzeigersinn.
+linktitle: Rotation
+articleTitle: Rotation
+second_title: Aspose.Words für .NET
+description: ShapeBase Rotation eigendom. Definiert den Winkel in Grad um den eine Form gedreht wird. Positiver Wert entspricht dem Drehwinkel im Uhrzeigersinn in C#.
 type: docs
 weight: 470
 url: /de/net/aspose.words.drawing/shapebase/rotation/
@@ -14,11 +16,11 @@ Definiert den Winkel (in Grad), um den eine Form gedreht wird. Positiver Wert en
 public double Rotation { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 0.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Bild einfügt und dreht.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

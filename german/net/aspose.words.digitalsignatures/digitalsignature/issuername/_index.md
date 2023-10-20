@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IssuerName
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Gibt den BetreffDistinguished Name des Zertifikats isuuer zurück.
+linktitle: IssuerName
+articleTitle: IssuerName
+second_title: Aspose.Words für .NET
+description: DigitalSignature IssuerName eigendom. Gibt den BetreffDistinguished Name des Zertifikats isuuer zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/issuername/
@@ -14,7 +16,7 @@ Gibt den Betreff-Distinguished Name des Zertifikats isuuer zurück.
 public string IssuerName { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Siehe auch
 
 * class [DigitalSignature](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

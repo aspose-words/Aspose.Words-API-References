@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Aspose.Words für .NET-API-Referenz
-description: TaskPane eigendom. Gibt den von außen nach innen aufgezählten Index dieses Aufgabenbereichs neben anderen persistenten Aufgabenbereichen an die am selben Standardspeicherort angedockt sind.
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words für .NET
+description: TaskPane Row eigendom. Gibt den von außen nach innen aufgezählten Index dieses Aufgabenbereichs neben anderen persistenten Aufgabenbereichen an die am selben Standardspeicherort angedockt sind in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ Gibt den von außen nach innen aufgezählten Index dieses Aufgabenbereichs neben
 public int Row { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [TaskPane](../)
-* namensraum [Aspose.Words.WebExtensions](../../taskpane/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

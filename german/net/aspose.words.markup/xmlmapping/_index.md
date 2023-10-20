@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.XmlMapping klas. Gibt die Informationen an die zum Erstellen einer Zuordnung zwischen dem Tag des strukturierten Dokuments parent und einem XMLElement verwendet werden das in einem benutzerdefinierten XMLDatenteil im Dokument gespeichert ist.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Markup.XmlMapping klas. Gibt die Informationen an die zum Erstellen einer Zuordnung zwischen dem Tag des strukturierten Dokuments parent und einem XMLElement verwendet werden das in einem benutzerdefinierten XMLDatenteil im Dokument gespeichert ist in C#.
 type: docs
 weight: 4100
 url: /de/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | Name | Beschreibung |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Löscht die Zuordnung des übergeordneten strukturierten Dokuments zu XML-Daten. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Legt eine Zuordnung zwischen dem Tag des übergeordneten strukturierten Dokuments und einem XML-Knoten eines benutzerdefinierten XML-Datenteils fest. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Legt eine Zuordnung zwischen dem Tag des übergeordneten strukturierten Dokuments und einem XML-Knoten eines benutzerdefinierten XML-Datenteils fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XML-Zuordnungen für benutzerdefinierte XML-Teile festgelegt werden.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * namensraum [Aspose.Words.Markup](../../aspose.words.markup/)
 * Montage [Aspose.Words](../../)
-
-

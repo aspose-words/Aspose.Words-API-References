@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor an eine Position direkt hinter dem angegebenen Zusammenführungsfeld und entfernt das Zusammenführungsfeld.
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: Aspose.Words für .NET
+description: DocumentBuilder MoveToMergeField methode. Bewegt den Cursor an eine Position direkt hinter dem angegebenen Zusammenführungsfeld und entfernt das Zusammenführungsfeld in C#.
 type: docs
-weight: 560
+weight: 550
 url: /de/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 Bewegt den Cursor an eine Position direkt hinter dem angegebenen Zusammenführungsfeld und entfernt das Zusammenführungsfeld.
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `WAHR` wenn das Zusammenführungsfeld gefunden und der Cursor bewegt wurde;`FALSCH` ansonsten.
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass diese Methode das Serienbrieffeld aus dem Dokument löscht, nachdem der Cursor bewegt wurde.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie MERGEFIELDs mit einem Dokumentenersteller anstelle eines Seriendrucks mit Daten gefüllt werden.
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 Verschiebt das Zusammenführungsfeld in das angegebene Zusammenführungsfeld.
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `WAHR` wenn das Zusammenführungsfeld gefunden und der Cursor bewegt wurde;`FALSCH` ansonsten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Felder einfügt und den Cursor des Document Builders darauf bewegt.
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

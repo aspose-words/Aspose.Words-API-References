@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.IsImageMap
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft ab oder legt fest ob Koordinaten an den Hyperlink für eine serverseitige Bildkarte angehängt werden sollen.
+linktitle: IsImageMap
+articleTitle: IsImageMap
+second_title: Aspose.Words für .NET
+description: FieldHyperlink IsImageMap eigendom. Ruft ab oder legt fest ob Koordinaten an den Hyperlink für eine serverseitige Bildkarte angehängt werden sollen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Koordinaten an den Hyperlink für eine serverseitige 
 public bool IsImageMap { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Siehe auch
 
 * class [FieldHyperlink](../)
-* namensraum [Aspose.Words.Fields](../../fieldhyperlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

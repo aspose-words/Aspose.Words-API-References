@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WidthRelative
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft den Wert ab der den Prozentsatz der relativen Breite der Form darstellt oder legt diesen fest.
+linktitle: WidthRelative
+articleTitle: WidthRelative
+second_title: Aspose.Words für .NET
+description: ShapeBase WidthRelative eigendom. Ruft den Wert ab der den Prozentsatz der relativen Breite der Form darstellt oder legt diesen fest in C#.
 type: docs
 weight: 580
 url: /de/net/aspose.words.drawing/shapebase/widthrelative/
@@ -14,7 +16,7 @@ Ruft den Wert ab, der den Prozentsatz der relativen Breite der Form darstellt, o
 public float WidthRelative { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die relative Größe und Position festgelegt wird.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

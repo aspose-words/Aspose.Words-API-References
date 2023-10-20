@@ -1,7 +1,9 @@
 ---
-title: Enum ParagraphAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.ParagraphAlignment opsomming. Gibt die Textausrichtung in einem Absatz an.
+title: ParagraphAlignment Enum
+linktitle: ParagraphAlignment
+articleTitle: ParagraphAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.ParagraphAlignment opsomming. Gibt die Textausrichtung in einem Absatz an in C#.
 type: docs
 weight: 4400
 url: /de/net/aspose.words/paragraphalignment/
@@ -29,7 +31,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | Nur Thailändisch. Text wird mit einer Optimierung für Thailändisch ausgerichtet. |
 | MathElementCenterAsGroup | `10` | Das einzige Math-Element in einer Zeile, ausgerichtet als „Zentriert als Gruppe“. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

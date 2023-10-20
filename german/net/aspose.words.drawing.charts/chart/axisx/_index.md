@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisX
-second_title: Aspose.Words für .NET-API-Referenz
-description: Chart eigendom. Bietet Zugriff auf Eigenschaften der XAchse des Diagramms.
+linktitle: AxisX
+articleTitle: AxisX
+second_title: Aspose.Words für .NET
+description: Chart AxisX eigendom. Bietet Zugriff auf Eigenschaften der XAchse des Diagramms in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chart/axisx/
@@ -14,7 +16,7 @@ Bietet Zugriff auf Eigenschaften der X-Achse des Diagramms.
 public ChartAxis AxisX { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chart/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

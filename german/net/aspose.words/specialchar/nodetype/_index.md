@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: SpecialChar eigendom. Gibt zurückSpecialChar .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: SpecialChar NodeType eigendom. Gibt zurückSpecialChar  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/specialchar/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückSpecialChar .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [SpecialChar](../)
-* namensraum [Aspose.Words](../../specialchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

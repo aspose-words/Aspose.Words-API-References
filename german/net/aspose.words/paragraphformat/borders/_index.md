@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Borders
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft eine Sammlung von Rändern des Absatzes ab.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words für .NET
+description: ParagraphFormat Borders eigendom. Ruft eine Sammlung von Rändern des Absatzes ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/paragraphformat/borders/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Rändern des Absatzes ab.
 public BorderCollection Borders { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz mit einem oberen Rand eingefügt wird.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

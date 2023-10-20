@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.Resolution
-second_title: Aspose.Words für .NET-API-Referenz
-description: DownsampleOptions eigendom. Gibt die Auflösung in Pixel pro Zoll an auf die die Bilder heruntergerechnet werden sollen.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words für .NET
+description: DownsampleOptions Resolution eigendom. Gibt die Auflösung in Pixel pro Zoll an auf die die Bilder heruntergerechnet werden sollen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/downsampleoptions/resolution/
@@ -14,11 +16,11 @@ Gibt die Auflösung in Pixel pro Zoll an, auf die die Bilder heruntergerechnet w
 public int Resolution { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 220 ppi.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Auflösung von Bildern im PDF-Dokument geändert wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Siehe auch
 
 * class [DownsampleOptions](../)
-* namensraum [Aspose.Words.Saving](../../downsampleoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

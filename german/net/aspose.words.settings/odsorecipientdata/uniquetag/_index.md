@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientData eigendom. Gibt den Inhalt eines bestimmten Datensatzes in der Spalte an die eindeutige Daten enthält. Der Standardwert istNull .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words für .NET
+description: OdsoRecipientData UniqueTag eigendom. Gibt den Inhalt eines bestimmten Datensatzes in der Spalte an die eindeutige Daten enthält. Der Standardwert istNull  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ Gibt den Inhalt eines bestimmten Datensatzes in der Spalte an, die eindeutige Da
 public byte[] UniqueTag { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoRecipientData](../)
-* namensraum [Aspose.Words.Settings](../../odsorecipientdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

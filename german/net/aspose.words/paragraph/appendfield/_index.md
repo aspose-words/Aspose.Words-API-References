@@ -1,12 +1,14 @@
 ---
 title: Paragraph.AppendField
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph methode. Fügt ein Feld an diesen Absatz an.
+linktitle: AppendField
+articleTitle: AppendField
+second_title: Aspose.Words für .NET
+description: Paragraph AppendField methode. Fügt ein Feld an diesen Absatz an in C#.
 type: docs
-weight: 260
+weight: 240
 url: /de/net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#appendfield}
+## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
 Fügt ein Feld an diesen Absatz an.
 
@@ -23,7 +25,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das angehängte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt verschiedene Möglichkeiten zum Anhängen von Feldern an einen Absatz.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string) {#appendfield_1}
+## AppendField(*string*) {#appendfield_1}
 
 Fügt ein Feld an diesen Absatz an.
 
@@ -77,7 +79,7 @@ public Field AppendField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das angehängte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt verschiedene Möglichkeiten zum Anhängen von Feldern an einen Absatz.
 
@@ -109,12 +111,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string, string) {#appendfield_2}
+## AppendField(*string, string*) {#appendfield_2}
 
 Fügt ein Feld an diesen Absatz an.
 
@@ -131,7 +133,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das angehängte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt verschiedene Möglichkeiten zum Anhängen von Feldern an einen Absatz.
 
@@ -163,7 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

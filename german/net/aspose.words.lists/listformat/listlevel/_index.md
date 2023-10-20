@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListFormat eigendom. Gibt die Formatierung auf Listenebene plus alle auf den aktuellen Absatz angewendeten Formatierungsüberschreibungen zurück.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words für .NET
+description: ListFormat ListLevel eigendom. Gibt die Formatierung auf Listenebene plus alle auf den aktuellen Absatz angewendeten Formatierungsüberschreibungen zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ Gibt die Formatierung auf Listenebene plus alle auf den aktuellen Absatz angewen
 public ListLevel ListLevel { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* namensraum [Aspose.Words.Lists](../../listformat/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

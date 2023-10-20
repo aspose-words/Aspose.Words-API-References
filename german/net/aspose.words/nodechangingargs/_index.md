@@ -1,7 +1,9 @@
 ---
-title: Class NodeChangingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NodeChangingArgs klas. Stellt Daten für Methoden des bereitINodeChangingCallback Schnittstelle.
+title: NodeChangingArgs Class
+linktitle: NodeChangingArgs
+articleTitle: NodeChangingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.NodeChangingArgs klas. Stellt Daten für Methoden des bereitINodeChangingCallback Schnittstelle in C#.
 type: docs
 weight: 4190
 url: /de/net/aspose.words/nodechangingargs/
@@ -25,7 +27,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | Ruft die ab[`Node`](./node/) das hinzugefügt oder entfernt wird. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Ruft den übergeordneten Knoten des Knotens ab, bevor die Operation begann. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
 
@@ -103,5 +105,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

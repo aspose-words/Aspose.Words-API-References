@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Loading
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.LoadingDer Namespace stellt Klassen und Aufzählungen bereit die es ermöglichen beim Laden von Dokumenten zusätzliche Optionen anzugeben.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.LoadingDer Namespace stellt Klassen und Aufzählungen bereit die es ermöglichen beim Laden von Dokumenten zusätzliche Optionen anzugeben in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.loading/
 ---
-Der **Aspose.Words.Loading**Der Namespace stellt Klassen und Aufzählungen bereit, die es ermöglichen, beim Laden von Dokumenten zusätzliche Optionen anzugeben.
+Der**Aspose.Words.Loading**Der Namespace stellt Klassen und Aufzählungen bereit, die es ermöglichen, beim Laden von Dokumenten zusätzliche Optionen anzugeben.
 
 ## Klassen
 
@@ -39,5 +41,3 @@ Der **Aspose.Words.Loading**Der Namespace stellt Klassen und Aufzählungen berei
 | [ResourceType](./resourcetype/) | Typ der geladenen Ressource. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Gibt die verfügbaren Optionen für die Handhabung von Leerzeichen beim Importieren aus anText Datei. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Gibt die verfügbaren Optionen für die Behandlung von nachgestellten Leerzeichen beim Import aus anText Datei. |
-
-

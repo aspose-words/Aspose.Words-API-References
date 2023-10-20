@@ -1,7 +1,9 @@
 ---
 title: FieldRef.NumberSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRef eigendom. Ruft die Zeichenfolge ab die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird oder legt diese fest.
+linktitle: NumberSeparator
+articleTitle: NumberSeparator
+second_title: Aspose.Words für .NET
+description: FieldRef NumberSeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/fieldref/numberseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen von Sequenznummern und Seitenzahlen ve
 public string NumberSeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie REF-Felder zum Referenzieren von Lesezeichen eingefügt werden.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Siehe auch
 
 * class [FieldRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

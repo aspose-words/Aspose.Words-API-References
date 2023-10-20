@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt die Version des HTMLStandards an die beim Speichern des Dokuments in HTML oder MHTML verwendet werden soll. Der Standardwert istXhtml .
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions HtmlVersion eigendom. Gibt die Version des HTMLStandards an die beim Speichern des Dokuments in HTML oder MHTML verwendet werden soll. Der Standardwert istXhtml  in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words.saving/htmlsaveoptions/htmlversion/
@@ -14,7 +16,7 @@ Gibt die Version des HTML-Standards an, die beim Speichern des Dokuments in HTML
 public HtmlVersion HtmlVersion { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine DOCTYPE-Überschrift angezeigt wird, wenn Dokumente in den Übergangsstandard Xhtml 1.0 konvertiert werden.
 
@@ -80,7 +82,5 @@ switch (htmlVersion)
 
 * enum [HtmlVersion](../../htmlversion/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

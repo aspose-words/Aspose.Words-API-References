@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als Lesezeichen start.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words für .NET
+description: DocumentBuilder StartBookmark methode. Markiert die aktuelle Position im Dokument als Lesezeichen start in C#.
 type: docs
-weight: 620
+weight: 610
 url: /de/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 Der gerade erstellte Lesezeichen-Startknoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Lesezeichen in einem Dokument können sich überlappen und einen beliebigen Bereich umfassen. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen`StartBookmark` Und[`EndBookmark`](../endbookmark/) mit dem gleichen*bookmarkName* -Parameter.
 
 Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Lesezeichen erstellt wird.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

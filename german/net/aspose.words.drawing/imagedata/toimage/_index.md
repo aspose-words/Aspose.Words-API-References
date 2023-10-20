@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToImage
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData methode. Ruft das in der Form gespeicherte Bild als abImage Objekt.
+linktitle: ToImage
+articleTitle: ToImage
+second_title: Aspose.Words für .NET
+description: ImageData ToImage methode. Ruft das in der Form gespeicherte Bild als abImage Objekt in C#.
 type: docs
-weight: 230
+weight: 220
 url: /de/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
@@ -14,13 +16,13 @@ Ruft das in der Form gespeicherte Bild als abImage Objekt.
 public Image ToImage()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Ein neuerImage Das Objekt wird bei jedem Aufruf dieser Methode erstellt.
 
 Es liegt in der Verantwortung des Aufrufers, über das Bildobjekt zu verfügen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Bilder eines Dokuments im Dateisystem gespeichert werden.
 
@@ -53,7 +55,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

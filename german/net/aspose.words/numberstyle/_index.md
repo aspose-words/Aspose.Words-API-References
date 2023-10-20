@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NumberStyle opsomming. Gibt den Nummernstil für eine Liste Fußnoten und Endnoten sowie Seitenzahlen an.
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words für .NET
+description: Aspose.Words.NumberStyle opsomming. Gibt den Nummernstil für eine Liste Fußnoten und Endnoten sowie Seitenzahlen an in C#.
 type: docs
 weight: 4310
 url: /de/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | Kein Aufzählungszeichen oder keine Nummer. |
 | Custom | `65280` | Benutzerdefiniertes Zahlenformat. Es wird nur vom DOCX-Format unterstützt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

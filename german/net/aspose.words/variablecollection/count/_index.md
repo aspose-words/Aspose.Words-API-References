@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: VariableCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: VariableCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/variablecollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Variablensammlung eines Dokuments gearbeitet wird.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Siehe auch
 
 * class [VariableCollection](../)
-* namensraum [Aspose.Words](../../variablecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

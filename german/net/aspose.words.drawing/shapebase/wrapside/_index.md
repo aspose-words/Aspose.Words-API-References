@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapSide
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt an wie der Text um die Form gewickelt wird.
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words für .NET
+description: ShapeBase WrapSide eigendom. Gibt an wie der Text um die Form gewickelt wird in C#.
 type: docs
 weight: 590
 url: /de/net/aspose.words.drawing/shapebase/wrapside/
@@ -14,13 +16,13 @@ Gibt an, wie der Text um die Form gewickelt wird.
 public WrapSide WrapSide { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istBoth.
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Textfeldformen durch Bildformen ersetzt werden.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * enum [WrapSide](../../wrapside/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

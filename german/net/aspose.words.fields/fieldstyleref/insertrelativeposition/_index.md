@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertRelativePosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldStyleRef eigendom. Ruft ab oder legt fest ob die relative Position des referenzierten Absatzes eingefügt werden soll.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words für .NET
+description: FieldStyleRef InsertRelativePosition eigendom. Ruft ab oder legt fest ob die relative Position des referenzierten Absatzes eingefügt werden soll in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die relative Position des referenzierten Absatzes ein
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie STYLEREF-Felder verwendet werden.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Siehe auch
 
 * class [FieldStyleRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldstyleref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

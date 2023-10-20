@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Id
-second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtensionReference eigendom. Bezeichner der der Weberweiterung innerhalb eines Kataloganbieters zugeordnet ist.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words für .NET
+description: WebExtensionReference Id eigendom. Bezeichner der der Weberweiterung innerhalb eines Kataloganbieters zugeordnet ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.webextensions/webextensionreference/id/
@@ -14,7 +16,7 @@ Bezeichner, der der Weberweiterung innerhalb eines Kataloganbieters zugeordnet i
 public string Id { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [WebExtensionReference](../)
-* namensraum [Aspose.Words.WebExtensions](../../webextensionreference/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

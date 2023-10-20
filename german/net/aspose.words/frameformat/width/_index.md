@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Width
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die Breite des angegebenen Rahmens in Punkten ab.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words für .NET
+description: FrameFormat Width eigendom. Ruft die Breite des angegebenen Rahmens in Punkten ab in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/frameformat/width/
@@ -14,7 +16,7 @@ Ruft die Breite des angegebenen Rahmens in Punkten ab.
 public double Width { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Siehe auch
 
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

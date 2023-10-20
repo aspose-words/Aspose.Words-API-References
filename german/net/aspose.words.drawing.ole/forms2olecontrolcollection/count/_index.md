@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControlCollection eigendom. Ruft die Anzahl der Objekte in der Sammlung ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: Forms2OleControlCollection Count eigendom. Ruft die Anzahl der Objekte in der Sammlung ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Objekte in der Sammlung ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf ein in ein Dokument eingebettetes OLE-Steuerelement und seine untergeordneten Steuerelemente zugegriffen wird.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Siehe auch
 
 * class [Forms2OleControlCollection](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

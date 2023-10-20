@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontSubstitutionSettings klas. Gibt die Einstellungen für den Schriftartersetzungsmechanismus an.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings klas. Gibt die Einstellungen für den Schriftartersetzungsmechanismus an in C#.
 type: docs
 weight: 3010
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartnamen. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Einstellungen im Zusammenhang mit der Tabellenersetzungsregel. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Schriftersetzungsprozess besteht aus mehreren Regeln, die nacheinander in einer bestimmten Reihenfolge überprüft werden. Wenn die erste Regel die Schriftart nicht auflösen kann, wird die zweite Regel überprüft und so weiter.
 
@@ -36,7 +38,7 @@ Beachten Sie, dass die Schriftart-Info-Ersetzungsregel die Schriftart immer aufl
 
 Beachten Sie, dass die Schriftart-Konfigurationsersetzungsregel in den meisten Fällen die Schriftart auflöst und somit alle anderen Regeln außer Kraft setzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

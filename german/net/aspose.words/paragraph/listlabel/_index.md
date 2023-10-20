@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListLabel
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Ruft a abListLabelObjekt das Zugriff auf den Listennummerierungswert und die Formatierung für diesen Absatz bietet.
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words für .NET
+description: Paragraph ListLabel eigendom. Ruft a abListLabelObjekt das Zugriff auf den Listennummerierungswert und die Formatierung für diesen Absatz bietet in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/paragraph/listlabel/
@@ -14,7 +16,7 @@ Ruft a ab`ListLabel`Objekt, das Zugriff auf den Listennummerierungswert und die 
 public ListLabel ListLabel { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listenbeschriftungen aller Absätze extrahiert werden, die Listenelemente sind.
 
@@ -50,7 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

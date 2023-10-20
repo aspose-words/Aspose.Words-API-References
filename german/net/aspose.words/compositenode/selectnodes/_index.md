@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectNodes
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Wählt eine Liste von Knoten aus die dem XPathAusdruck entsprechen.
+linktitle: SelectNodes
+articleTitle: SelectNodes
+second_title: Aspose.Words für .NET
+description: CompositeNode SelectNodes methode. Wählt eine Liste von Knoten aus die dem XPathAusdruck entsprechen in C#.
 type: docs
-weight: 210
+weight: 190
 url: /de/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -22,11 +24,11 @@ public NodeList SelectNodes(string xpath)
 
 Eine Liste von Knoten, die der XPath-Abfrage entsprechen.
 
-### Bemerkungen
+## Bemerkungen
 
 Derzeit werden nur Ausdrücke mit Elementnamen unterstützt. Expressions , die Attributnamen verwenden, werden nicht unterstützt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit einem XPath-Ausdruck testen, ob sich ein Knoten in einem Feld befindet.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [NodeList](../../nodelist/)
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

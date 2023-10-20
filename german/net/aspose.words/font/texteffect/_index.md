@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft den Schriftartanimationseffekt ab oder legt ihn fest.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words für .NET
+description: Font TextEffect eigendom. Ruft den Schriftartanimationseffekt ab oder legt ihn fest in C#.
 type: docs
 weight: 450
 url: /de/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ Ruft den Schriftartanimationseffekt ab oder legt ihn fest.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen visuellen Effekt auf einen Lauf anwendet.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentType
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Ruft das ab oder legt es festContentType des Dokuments.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties ContentType eigendom. Ruft das ab oder legt es festContentType des Dokuments in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.properties/builtindocumentproperties/contenttype/
@@ -14,7 +16,7 @@ Ruft das ab oder legt es festContentType des Dokuments.
 public string ContentType { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Inhalt“ gearbeitet wird.
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

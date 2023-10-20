@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Placeholder
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft die abBuildingBlockenthält Platzhaltertext der angezeigt werden soll wenn der Inhalt dieses SDTLaufs leer ist das zugehörige zugeordnete XMLElement ist leer wie über angegebenXmlMapping element oder dieIsShowingPlaceholderText Element istWAHR .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Placeholder eigendom. Ruft die abBuildingBlockenthält Platzhaltertext der angezeigt werden soll wenn der Inhalt dieses SDTLaufs leer ist das zugehörige zugeordnete XMLElement ist leer wie über angegebenXmlMapping element oder dieIsShowingPlaceholderText Element istWAHR  in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -14,11 +16,11 @@ Ruft die ab[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/
 public BuildingBlock Placeholder { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann sein`Null`, was bedeutet, dass der Platzhalter für diesen Sdt nicht anwendbar ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Bausteins als benutzerdefinierter Platzhaltertext für ein strukturiertes Dokument-Tag verwendet wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

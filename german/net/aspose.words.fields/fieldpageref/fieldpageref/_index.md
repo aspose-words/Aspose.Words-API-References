@@ -1,7 +1,9 @@
 ---
-title: FieldPageRef.FieldPageRef
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldPageRef constructeur. Default_Constructor
+title: FieldPageRef
+linktitle: FieldPageRef
+articleTitle: FieldPageRef
+second_title: Aspose.Words für .NET
+description: FieldPageRef constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldpageref/fieldpageref/
@@ -17,7 +19,5 @@ public FieldPageRef()
 ### Siehe auch
 
 * class [FieldPageRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldpageref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

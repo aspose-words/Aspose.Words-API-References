@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Gibt die Gliederungsebene des Absatzes im Dokument an.
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words für .NET
+description: ParagraphFormat OutlineLevel eigendom. Gibt die Gliederungsebene des Absatzes im Dokument an in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ Gibt die Gliederungsebene des Absatzes im Dokument an.
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absatzgliederungsebenen konfiguriert werden, um reduzierbaren Text zu erstellen.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.LockContentControl
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Wenn eingestellt aufWAHR  verhindert diese Eigenschaft dass ein Benutzer dies löschen kann SDT .
+linktitle: LockContentControl
+articleTitle: LockContentControl
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag LockContentControl eigendom. Wenn eingestellt aufWAHR  verhindert diese Eigenschaft dass ein Benutzer dies löschen kannSDT  in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-Wenn eingestellt auf`WAHR` , verhindert diese Eigenschaft, dass ein Benutzer dies löschen kann **SDT** .
+Wenn eingestellt auf`WAHR` , verhindert diese Eigenschaft, dass ein Benutzer dies löschen kann**SDT** .
 
 ```csharp
 public bool LockContentControl { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Bearbeitungsbeschränkungen auf strukturierte Dokument-Tags angewendet werden.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Lock.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

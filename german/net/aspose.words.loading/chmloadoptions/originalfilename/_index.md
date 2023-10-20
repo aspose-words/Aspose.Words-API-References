@@ -1,7 +1,9 @@
 ---
 title: ChmLoadOptions.OriginalFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChmLoadOptions eigendom. Der Name der CHMDatei. Der Standardwert istNull .
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words für .NET
+description: ChmLoadOptions OriginalFileName eigendom. Der Name der CHMDatei. Der Standardwert istNull  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.loading/chmloadoptions/originalfilename/
@@ -14,13 +16,13 @@ Der Name der CHM-Datei. Der Standardwert ist`Null` .
 public string OriginalFileName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 CHM-Dokumente können Links enthalten, die über den Dateinamen auf dasselbe Dokument verweisen. Aspose.Words unterstützt solche Links und verwendet sie normalerweise[`OriginalFileName`](../../../aspose.words/document/originalfilename/) um zu überprüfen, ob die Datei, auf die ein link verweist, die Datei ist, die geladen wird. Wird ein Dokument aus einem Stream geladen, sollte dessen ursprünglicher Dateiname explizit über diese Eigenschaft angegeben werden, da dieser nicht automatisch ermittelt werden kann.
 
 Wenn ein CHM-Dokument aus einer Datei geladen wird und ein Wert ungleich Null für diese Eigenschaft angegeben wird, hat der Wert Vorrang vor dem tatsächlichen Namen der darin gespeicherten Datei[`OriginalFileName`](../../../aspose.words/document/originalfilename/) .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie URLs wie „ms-its:myfile.chm::/index.htm“ aufgelöst werden.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ExChmLoadOptions.OriginalFileName.html");
 ### Siehe auch
 
 * class [ChmLoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../chmloadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class WriteProtection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.WriteProtection klas. Gibt Schreibschutzeinstellungen für ein Dokument an.
+title: WriteProtection Class
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.WriteProtection klas. Gibt Schreibschutzeinstellungen für ein Dokument an in C#.
 type: docs
 weight: 5970
 url: /de/net/aspose.words.settings/writeprotection/
@@ -27,10 +29,10 @@ public class WriteProtection
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Legt das Schreibschutzkennwort für das Dokument fest. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Gibt zurück`WAHR` Wenn das angegebene Passwort mit dem Schreibschutzpasswort übereinstimmt, mit dem das Dokument geschützt wurde. Wenn das Dokument nicht mit einem Passwort schreibgeschützt ist, wird zurückgegeben`FALSCH` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Legt das Schreibschutzkennwort für das Dokument fest. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Gibt zurück`WAHR` Wenn das angegebene Passwort mit dem Schreibschutzpasswort übereinstimmt, mit dem das Dokument geschützt wurde. Wenn das Dokument nicht mit einem Passwort schreibgeschützt ist, wird zurückgegeben`FALSCH` . |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Schreibschutz gibt an, ob der Autor empfohlen hat, das Dokument schreibgeschützt zu öffnen und/oder ein Kennwort zum Ändern eines Dokuments zu erfordern.
 
@@ -38,7 +40,7 @@ Der Schreibschutz unterscheidet sich vom Dokumentenschutz. Der Schreibschutz wir
 
 Sie erstellen keine Instanzen dieser Klasse direkt. Den Zugriff auf die Dokumentenschutzeinstellungen erreichen Sie über[`WriteProtection`](../../aspose.words/document/writeprotection/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem Passwort schützt.
 
@@ -71,5 +73,3 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

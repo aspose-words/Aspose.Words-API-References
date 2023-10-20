@@ -1,7 +1,9 @@
 ---
 title: Row.FirstCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. Gibt den ersten zurückCell in der Zeile.
+linktitle: FirstCell
+articleTitle: FirstCell
+second_title: Aspose.Words für .NET
+description: Row FirstCell eigendom. Gibt den ersten zurückCell in der Zeile in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.tables/row/firstcell/
@@ -14,7 +16,7 @@ Gibt den ersten zurück[`Cell`](../../cell/) in der Zeile.
 public Cell FirstCell { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

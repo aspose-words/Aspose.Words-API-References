@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Gibt zurückTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Table NodeType eigendom. Gibt zurückTable  in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückTable .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

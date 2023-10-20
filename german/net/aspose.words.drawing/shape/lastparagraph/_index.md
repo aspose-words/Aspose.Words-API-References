@@ -1,7 +1,9 @@
 ---
 title: Shape.LastParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Ruft den letzten Absatz in der Form ab.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words für .NET
+description: Shape LastParagraph eigendom. Ruft den letzten Absatz in der Form ab in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing/shape/lastparagraph/
@@ -14,7 +16,7 @@ Ruft den letzten Absatz in der Form ab.
 public Paragraph LastParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Ausrichtung von Text in einem Textfeld festgelegt wird.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

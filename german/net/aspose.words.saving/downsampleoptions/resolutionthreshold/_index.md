@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Aspose.Words für .NET-API-Referenz
-description: DownsampleOptions eigendom. Gibt die Schwellenwertauflösung in Pixel pro Zoll an. Wenn die Auflösung eines Bildes im Dokument unter dem Schwellenwert liegt wird der DownsamplingAlgorithmus nicht angewendet. Ein Wert von 0 bedeutet dass die Schwellenwertprüfung nicht verwendet wird und alle Bilder dies tun können verkleinert werden werden heruntergesampelt.
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: Aspose.Words für .NET
+description: DownsampleOptions ResolutionThreshold eigendom. Gibt die Schwellenwertauflösung in Pixel pro Zoll an. Wenn die Auflösung eines Bildes im Dokument unter dem Schwellenwert liegt wird der DownsamplingAlgorithmus nicht angewendet. Ein Wert von 0 bedeutet dass die Schwellenwertprüfung nicht verwendet wird und alle Bilder dies tun können verkleinert werden werden heruntergesampelt in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ Gibt die Schwellenwertauflösung in Pixel pro Zoll an. Wenn die Auflösung eines
 public int ResolutionThreshold { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 0.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Auflösung von Bildern im PDF-Dokument geändert wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Siehe auch
 
 * class [DownsampleOptions](../)
-* namensraum [Aspose.Words.Saving](../../downsampleoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

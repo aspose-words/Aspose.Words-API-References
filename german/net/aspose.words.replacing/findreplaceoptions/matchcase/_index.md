@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.MatchCase
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. True gibt einen Vergleich unter Berücksichtigung der Groß/Kleinschreibung an false zeigt einen Vergleich ohne Berücksichtigung der Groß/Kleinschreibung an.
+linktitle: MatchCase
+articleTitle: MatchCase
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions MatchCase eigendom. True gibt einen Vergleich unter Berücksichtigung der Groß/Kleinschreibung an false zeigt einen Vergleich ohne Berücksichtigung der Groß/Kleinschreibung an in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.replacing/findreplaceoptions/matchcase/
@@ -14,7 +16,7 @@ url: /de/net/aspose.words.replacing/findreplaceoptions/matchcase/
 public bool MatchCase { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Groß-/Kleinschreibung beim Durchführen eines Suchen-und-Ersetzen-Vorgangs umgeschaltet wird.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

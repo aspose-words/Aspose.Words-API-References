@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.MustacheTag klas. Stellt das Tag Schnurrbart dar.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.MustacheTag klas. Stellt das Tag Schnurrbart dar in C#.
 type: docs
 weight: 3880
 url: /de/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

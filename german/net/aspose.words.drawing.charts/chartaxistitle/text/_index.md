@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxisTitle eigendom. Ruft den Text des Achsentitels ab oder legt ihn fest. WennNull oder ein leerer Wert angegeben wird wird der automatisch generierte Titel angezeigt.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: ChartAxisTitle Text eigendom. Ruft den Text des Achsentitels ab oder legt ihn fest. WennNull oder ein leerer Wert angegeben wird wird der automatisch generierte Titel angezeigt in C#.
 type: docs
-weight: 40
+weight: 30
 url: /de/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -14,11 +16,11 @@ Ruft den Text des Achsentitels ab oder legt ihn fest. Wenn`Null` oder ein leerer
 public string Text { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden[`Show`](../show/) Option, wenn Sie den Titel anzeigen müssen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Titel der Diagrammachse festgelegt wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Siehe auch
 
 * class [ChartAxisTitle](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

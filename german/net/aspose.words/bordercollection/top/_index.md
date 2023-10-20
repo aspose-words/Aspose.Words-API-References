@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Top
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft den oberen Rand ab.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words für .NET
+description: BorderCollection Top eigendom. Ruft den oberen Rand ab in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/bordercollection/top/
@@ -14,7 +16,7 @@ Ruft den oberen Rand ab.
 public Border Top { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben anwenden.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

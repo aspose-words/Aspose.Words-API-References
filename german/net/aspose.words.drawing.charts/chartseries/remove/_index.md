@@ -1,9 +1,11 @@
 ---
 title: ChartSeries.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries methode. Entfernt den XWert den YWert und die Blasengröße sofern unterstützt aus der Diagrammreihe am angegebenen Index. Der entsprechende Datenpunkt und die Datenbeschriftung werden ebenfalls entfernt.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: ChartSeries Remove methode. Entfernt den XWert den YWert und die Blasengröße sofern unterstützt aus der Diagrammreihe am angegebenen Index. Der entsprechende Datenpunkt und die Datenbeschriftung werden ebenfalls entfernt in C#.
 type: docs
-weight: 210
+weight: 200
 url: /de/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
@@ -14,7 +16,7 @@ Entfernt den X-Wert, den Y-Wert und die Blasengröße, sofern unterstützt, aus 
 public void Remove(int index)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Diagrammdatenwerte hinzugefügt/entfernt werden.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Siehe auch
 
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

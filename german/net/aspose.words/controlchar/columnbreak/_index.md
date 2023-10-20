@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreak
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Spaltenendezeichen x000e.
+linktitle: ColumnBreak
+articleTitle: ColumnBreak
+second_title: Aspose.Words für .NET
+description: ControlChar ColumnBreak veld. Spaltenendezeichen x000e in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/controlchar/columnbreak/
@@ -14,7 +16,7 @@ Spaltenendezeichen: „\x000e“.
 public static readonly string ColumnBreak;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

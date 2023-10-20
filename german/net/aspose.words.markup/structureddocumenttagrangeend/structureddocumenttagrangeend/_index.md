@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeEnd constructeur. Initialisiert eine neue Instanz von Ende des TagBereichs des strukturierten Dokuments Klasse.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeEnd constructeur. Initialisiert eine neue Instanz vonEnde des TagBereichs des strukturierten Dokuments Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Initialisiert eine neue Instanz von **Ende des Tag-Bereichs des strukturierten Dokuments** Klasse.
+Initialisiert eine neue Instanz von**Ende des Tag-Bereichs des strukturierten Dokuments** Klasse.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | id | Int32 | Bezeichner des entsprechenden Tagbereichsanfangs des strukturierten Dokuments. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden.
 
@@ -72,7 +74,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

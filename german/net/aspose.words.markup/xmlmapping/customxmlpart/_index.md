@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt den benutzerdefinierten XMLDatenteil zurück dem das Tag des übergeordneten strukturierten Dokuments zugeordnet ist.
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words für .NET
+description: XmlMapping CustomXmlPart eigendom. Gibt den benutzerdefinierten XMLDatenteil zurück dem das Tag des übergeordneten strukturierten Dokuments zugeordnet ist in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ Gibt den benutzerdefinierten XML-Datenteil zurück, dem das Tag des übergeordne
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XML-Zuordnungen für benutzerdefinierte XML-Teile festgelegt werden.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* namensraum [Aspose.Words.Markup](../../xmlmapping/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

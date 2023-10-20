@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.CharacterCode
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSymbol eigendom. Ruft den Codepunktwert des Zeichens in Dezimal oder Hexadezimalform ab oder legt ihn fest.
+linktitle: CharacterCode
+articleTitle: CharacterCode
+second_title: Aspose.Words für .NET
+description: FieldSymbol CharacterCode eigendom. Ruft den Codepunktwert des Zeichens in Dezimal oder Hexadezimalform ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldsymbol/charactercode/
@@ -14,7 +16,7 @@ Ruft den Codepunktwert des Zeichens in Dezimal- oder Hexadezimalform ab oder leg
 public string CharacterCode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das SYMBOL-Feld verwendet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldSymbol](../)
-* namensraum [Aspose.Words.Fields](../../fieldsymbol/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

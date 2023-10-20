@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.AlwaysGenerateRootObject
-second_title: Aspose.Words für .NET-API-Referenz
-description: JsonDataLoadOptions eigendom. Ruft ein Flag ab oder legt es fest das angibt ob eine generierte Datenquelle immer ein Objekt für ein JSONRoot Element enthält. Wenn ein JSONRootElement eine einzelne komplexe Eigenschaft enthält wird ein solches Objekt standardmäßig nicht erstellt.
+linktitle: AlwaysGenerateRootObject
+articleTitle: AlwaysGenerateRootObject
+second_title: Aspose.Words für .NET
+description: JsonDataLoadOptions AlwaysGenerateRootObject eigendom. Ruft ein Flag ab oder legt es fest das angibt ob eine generierte Datenquelle immer ein Objekt für ein JSONRoot Element enthält. Wenn ein JSONRootElement eine einzelne komplexe Eigenschaft enthält wird ein solches Objekt standardmäßig nicht erstellt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/
@@ -14,14 +16,12 @@ Ruft ein Flag ab oder legt es fest, das angibt, ob eine generierte Datenquelle i
 public bool AlwaysGenerateRootObject { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` .
 
 ### Siehe auch
 
 * class [JsonDataLoadOptions](../)
-* namensraum [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

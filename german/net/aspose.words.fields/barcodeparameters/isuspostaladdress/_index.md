@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsUSPostalAddress
-second_title: Aspose.Words für .NET-API-Referenz
-description: BarcodeParameters eigendom. ObPostalAddress ist eine USPostadresse.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words für .NET
+description: BarcodeParameters IsUSPostalAddress eigendom. ObPostalAddress ist eine USPostadresse in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
@@ -14,7 +16,7 @@ Ob[`PostalAddress`](../postaladdress/) ist eine US-Postadresse.
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Siehe auch
 
 * class [BarcodeParameters](../)
-* namensraum [Aspose.Words.Fields](../../barcodeparameters/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt zurückDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Document NodeType eigendom. Gibt zurückDocument  in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words/document/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückDocument .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

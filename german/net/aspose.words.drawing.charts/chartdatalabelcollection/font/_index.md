@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Bietet Zugriff auf die Schriftartformatierung der Datenbeschriftungen der gesamten Serie.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection Font eigendom. Bietet Zugriff auf die Schriftartformatierung der Datenbeschriftungen der gesamten Serie in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
@@ -14,11 +16,11 @@ Bietet Zugriff auf die Schriftartformatierung der Datenbeschriftungen der gesamt
 public Font Font { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`Font`](../../chartdatalabel/font/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenbeschriftungen für eine Diagrammreihe aktiviert und konfiguriert werden.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

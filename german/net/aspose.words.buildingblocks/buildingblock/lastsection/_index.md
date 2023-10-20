@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Ruft den letzten Abschnitt im Baustein ab.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words für .NET
+description: BuildingBlock LastSection eigendom. Ruft den letzten Abschnitt im Baustein ab in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ Ruft den letzten Abschnitt im Baustein ab.
 public Section LastSection { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt zurück`Null` wenn keine Abschnitte vorhanden sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Position
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Position des Texts in Punkt relativ zur Grundlinie ab oder legt diese fest. Eine positive Zahl erhöht den Text und eine negative Zahl senkt ihn.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words für .NET
+description: Font Position eigendom. Ruft die Position des Texts in Punkt relativ zur Grundlinie ab oder legt diese fest. Eine positive Zahl erhöht den Text und eine negative Zahl senkt ihn in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words/font/position/
@@ -14,7 +16,7 @@ Ruft die Position des Texts (in Punkt) relativ zur Grundlinie ab oder legt diese
 public double Position { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text formatiert wird, um seine Position zu versetzen.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

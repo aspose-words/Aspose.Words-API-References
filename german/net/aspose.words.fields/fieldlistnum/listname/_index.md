@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldListNum eigendom. Ruft den Namen der abstrakten Nummerierungsdefinition ab die für die Nummerierung verwendet wird oder legt diesen fest.
+linktitle: ListName
+articleTitle: ListName
+second_title: Aspose.Words für .NET
+description: FieldListNum ListName eigendom. Ruft den Namen der abstrakten Nummerierungsdefinition ab die für die Nummerierung verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldlistnum/listname/
@@ -14,7 +16,7 @@ Ruft den Namen der abstrakten Nummerierungsdefinition ab, die für die Nummerier
 public string ListName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absätze mit LISTNUM-Feldern nummeriert werden.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Siehe auch
 
 * class [FieldListNum](../)
-* namensraum [Aspose.Words.Fields](../../fieldlistnum/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

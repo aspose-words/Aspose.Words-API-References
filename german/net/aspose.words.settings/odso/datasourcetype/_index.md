@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Gibt den Typ der externen Datenquelle an mit der eine Verbindung als Teil der ODSOVerbindungsinformationen für diesen Seriendruck hergestellt werden soll. Der Standardwert istDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words für .NET
+description: Odso DataSourceType eigendom. Gibt den Typ der externen Datenquelle an mit der eine Verbindung als Teil der ODSOVerbindungsinformationen für diesen Seriendruck hergestellt werden soll. Der Standardwert istDefault  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ Gibt den Typ der externen Datenquelle an, mit der eine Verbindung als Teil der O
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Einstellung ist lediglich ein Vorschlag für den Datenquellentyp, der für diesen Serienbrief verwendet wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

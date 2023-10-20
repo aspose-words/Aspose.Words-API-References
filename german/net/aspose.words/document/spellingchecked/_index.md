@@ -1,7 +1,9 @@
 ---
 title: Document.SpellingChecked
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt zurückWAHR wenn das Dokument auf Rechtschreibung geprüft wurde.
+linktitle: SpellingChecked
+articleTitle: SpellingChecked
+second_title: Aspose.Words für .NET
+description: Document SpellingChecked eigendom. Gibt zurückWAHR wenn das Dokument auf Rechtschreibung geprüft wurde in C#.
 type: docs
 weight: 410
 url: /de/net/aspose.words/document/spellingchecked/
@@ -14,11 +16,11 @@ Gibt zurück`WAHR` wenn das Dokument auf Rechtschreibung geprüft wurde.
 public bool SpellingChecked { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Um die Rechtschreibung im Dokument erneut zu überprüfen, setzen Sie diese Eigenschaft auf`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Rechtschreib- oder Grammatikprüfung eingestellt wird.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

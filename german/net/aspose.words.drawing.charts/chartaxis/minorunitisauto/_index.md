@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitIsAuto
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft ein Flag ab oder setzt es das angibt ob der Standardabstand zwischen kleinen Teilstrichen verwendet werden soll.
+linktitle: MinorUnitIsAuto
+articleTitle: MinorUnitIsAuto
+second_title: Aspose.Words für .NET
+description: ChartAxis MinorUnitIsAuto eigendom. Ruft ein Flag ab oder setzt es das angibt ob der Standardabstand zwischen kleinen Teilstrichen verwendet werden soll in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
@@ -14,11 +16,11 @@ Ruft ein Flag ab oder setzt es, das angibt, ob der Standardabstand zwischen klei
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wirkt sich auf Zeitkategorie und Werteachsen aus.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

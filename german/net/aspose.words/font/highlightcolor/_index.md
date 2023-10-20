@@ -1,7 +1,9 @@
 ---
 title: Font.HighlightColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Hervorhebungsfarbe Markerfarbe ab oder legt diese fest.
+linktitle: HighlightColor
+articleTitle: HighlightColor
+second_title: Aspose.Words für .NET
+description: Font HighlightColor eigendom. Ruft die Hervorhebungsfarbe Markerfarbe ab oder legt diese fest in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words/font/highlightcolor/
@@ -14,7 +16,7 @@ Ruft die Hervorhebungsfarbe (Markerfarbe) ab oder legt diese fest.
 public Color HighlightColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

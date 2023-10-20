@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark eigendom. Ruft den Knoten ab der das Ende des Lesezeichens darstellt.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words für .NET
+description: Bookmark BookmarkEnd eigendom. Ruft den Knoten ab der das Ende des Lesezeichens darstellt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der das Ende des Lesezeichens darstellt.
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* namensraum [Aspose.Words](../../bookmark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

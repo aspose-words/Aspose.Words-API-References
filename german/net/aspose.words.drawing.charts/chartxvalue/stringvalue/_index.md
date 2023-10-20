@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.StringValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartXValue eigendom. Ruft den gespeicherten StringWert ab.
+linktitle: StringValue
+articleTitle: StringValue
+second_title: Aspose.Words für .NET
+description: ChartXValue StringValue eigendom. Ruft den gespeicherten StringWert ab in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
@@ -17,7 +19,5 @@ public string StringValue { get; }
 ### Siehe auch
 
 * class [ChartXValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

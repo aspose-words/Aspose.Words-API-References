@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BackgroundColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft die Hintergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige Werte liegen im Bereich 0 0xFFFFFF
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words für .NET
+description: FieldDisplayBarcode BackgroundColor eigendom. Ruft die Hintergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige Werte liegen im Bereich 0 0xFFFFFF in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
@@ -14,7 +16,7 @@ Ruft die Hintergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige W
 public string BackgroundColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein DISPLAYBARCODE-Feld eingefügt und seine Eigenschaften festgelegt werden.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Siehe auch
 
 * class [FieldDisplayBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

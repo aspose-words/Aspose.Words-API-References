@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseSakaEraCalendar
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSaveDate eigendom. Ruft ab oder legt fest ob der SakaÄraKalender verwendet werden soll.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words für .NET
+description: FieldSaveDate UseSakaEraCalendar eigendom. Ruft ab oder legt fest ob der SakaÄraKalender verwendet werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der Saka-Ära-Kalender verwendet werden soll.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie das Feld SAVEDATE verwenden, um Datum und Uhrzeit des letzten mit Microsoft Word durchgeführten Speichervorgangs des Dokuments anzuzeigen.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Siehe auch
 
 * class [FieldSaveDate](../)
-* namensraum [Aspose.Words.Fields](../../fieldsavedate/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Ruft einen Hinweis ab ob die ursprünglichen Schriftartmetriken nach der Schriftartersetzung verwendet werden sollen oder legt diesen fest. Der Standardwert istWAHR .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words für .NET
+description: LayoutOptions KeepOriginalFontMetrics eigendom. Ruft einen Hinweis ab ob die ursprünglichen Schriftartmetriken nach der Schriftartersetzung verwendet werden sollen oder legt diesen fest. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ Ruft einen Hinweis ab, ob die ursprünglichen Schriftartmetriken nach der Schrif
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Siehe auch
 
 * class [LayoutOptions](../)
-* namensraum [Aspose.Words.Layout](../../layoutoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

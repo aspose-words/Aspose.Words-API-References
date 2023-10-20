@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.ClearFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection methode. Entfernt alle Ränder eines Objekts.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words für .NET
+description: BorderCollection ClearFormatting methode. Entfernt alle Ränder eines Objekts in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words/bordercollection/clearformatting/
@@ -14,7 +16,7 @@ Entfernt alle Ränder eines Objekts.
 public void ClearFormatting()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Ränder aus allen Absätzen in einem Dokument entfernt werden.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### Siehe auch
 
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

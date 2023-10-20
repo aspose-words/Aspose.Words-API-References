@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Password
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ruft das Passwort zum Öffnen eines verschlüsselten Dokuments ab oder legt es fest. Kann seinNull oder leere Zeichenfolge. Standard istNull .
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words für .NET
+description: LoadOptions Password eigendom. Ruft das Passwort zum Öffnen eines verschlüsselten Dokuments ab oder legt es fest. Kann seinNull oder leere Zeichenfolge. Standard istNull  in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.loading/loadoptions/password/
@@ -14,11 +16,11 @@ Ruft das Passwort zum Öffnen eines verschlüsselten Dokuments ab oder legt es f
 public string Password { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Sie müssen das Passwort kennen, um ein verschlüsseltes Dokument zu öffnen. Wenn das Dokument nicht verschlüsselt ist, stellen Sie dies auf ein`Null` oder leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine verschlüsselte Dokumentdatei signiert wird.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Siehe auch
 
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

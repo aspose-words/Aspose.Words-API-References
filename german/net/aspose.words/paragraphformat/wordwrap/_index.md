@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Wenn diese Eigenschaft istFALSCH  lateinischer Text in der Mitte eines Wortes kann für den aktuellen Absatz umbrochen werden. Andernfalls wird lateinischer Text durch ganze Wörter umbrochen.
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: Aspose.Words für .NET
+description: ParagraphFormat WordWrap eigendom. Wenn diese Eigenschaft istFALSCH  lateinischer Text in der Mitte eines Wortes kann für den aktuellen Absatz umbrochen werden. Andernfalls wird lateinischer Text durch ganze Wörter umbrochen in C#.
 type: docs
 weight: 410
 url: /de/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ Wenn diese Eigenschaft ist`FALSCH` , lateinischer Text in der Mitte eines Wortes
 public bool WordWrap { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie spezielle Eigenschaften für asiatische Typografie festgelegt werden.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

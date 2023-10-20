@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Notes
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.NotesDer Namespace stellt Klassen für die Arbeit mit Microsoft WordEndnoten und Fußnoten bereit.
+linktitle: Aspose.Words.Notes
+articleTitle: Aspose.Words.Notes
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.NotesDer Namespace stellt Klassen für die Arbeit mit Microsoft WordEndnoten und Fußnoten bereit in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.notes/
 ---
-Der **Aspose.Words.Notes**Der Namespace stellt Klassen für die Arbeit mit Microsoft Word-Endnoten und -Fußnoten bereit.
+Der**Aspose.Words.Notes**Der Namespace stellt Klassen für die Arbeit mit Microsoft Word-Endnoten und -Fußnoten bereit.
 
 ## Klassen
 
@@ -23,5 +25,3 @@ Der **Aspose.Words.Notes**Der Namespace stellt Klassen für die Arbeit mit Micro
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Legt fest, wann die automatische Fußnoten- oder Endnotennummerierung neu gestartet wird. |
 | [FootnotePosition](./footnoteposition/) | Definiert die Fußnotenposition. |
 | [FootnoteType](./footnotetype/) | Gibt an, ob es sich um eine Fußnote oder eine Endnote handelt. |
-
-

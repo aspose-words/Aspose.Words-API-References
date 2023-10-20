@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ruft ab oder legt fest ob das INCLUDEPICTUREFeld beim Lesen von Microsoft WordFormaten beibehalten werden soll. Der Standardwert istFALSCH .
+linktitle: PreserveIncludePictureField
+articleTitle: PreserveIncludePictureField
+second_title: Aspose.Words für .NET
+description: LoadOptions PreserveIncludePictureField eigendom. Ruft ab oder legt fest ob das INCLUDEPICTUREFeld beim Lesen von Microsoft WordFormaten beibehalten werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
@@ -14,13 +16,13 @@ Ruft ab oder legt fest, ob das INCLUDEPICTURE-Feld beim Lesen von Microsoft Word
 public bool PreserveIncludePictureField { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig wird das INCLUDEPICTURE-Feld in ein Formobjekt konvertiert. Sie können dies überschreiben, wenn das Feld erhalten bleiben soll, beispielsweise wenn Sie es programmgesteuert aktualisieren möchten. Beachten Sie jedoch, dass dieser -Ansatz für Aspose.Words nicht üblich ist. Die Nutzung erfolgt auf eigene Gefahr.
 
 Einer der möglichen Anwendungsfälle könnte die Verwendung eines MERGEFIELD als untergeordnetes Feld sein, um den Quellpfad des Bildes dynamisch zu ändern. In diesem Fall muss das INCLUDEPICTURE im Modell erhalten bleiben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie INCLUDEPICTURE-Felder beim Laden eines Dokuments beibehalten oder verworfen werden.
 
@@ -62,7 +64,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Siehe auch
 
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Color
-second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Ruft die Pinselfarbe ab die die horizontale Regel ausfüllt oder legt diese fest.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words für .NET
+description: HorizontalRuleFormat Color eigendom. Ruft die Pinselfarbe ab die die horizontale Regel ausfüllt oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/horizontalruleformat/color/
@@ -14,13 +16,13 @@ Ruft die Pinselfarbe ab, die die horizontale Regel ausfüllt, oder legt diese fe
 public Color Color { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine Verknüpfung zum[`Color`](../../fill/color/) Eigentum.
 
 Der Standardwert ist Gray.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
@@ -43,7 +45,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Siehe auch
 
 * class [HorizontalRuleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../horizontalruleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

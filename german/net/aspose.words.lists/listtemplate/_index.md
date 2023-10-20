@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListTemplate opsomming. Gibt eines der vordefinierten Listenformate an die in Microsoft Word verfügbar sind.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.ListTemplate opsomming. Gibt eines der vordefinierten Listenformate an die in Microsoft Word verfügbar sind in C#.
 type: docs
 weight: 3530
 url: /de/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | Eine Gliederungsliste mit Ebenen, die mit Überschriftenstilen verknüpft sind. |
 | OutlineHeadingsChapter | `19` | Eine Gliederungsliste mit Ebenen, die mit Überschriftenstilen verknüpft sind. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Listenvorlagenwert wird als Parameter in the verwendet.[`Add`](../listcollection/add/) Methode.
 
 Aspose.Words-Listenvorlagen entsprechen den 21 verfügbaren Listenvorlagen im Dialogfeld „Aufzählungszeichen und Nummerierung“ in Microsoft Word 2003.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument erstellt wird, das alle Listenvorlagen für Gliederungsüberschriften enthält.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

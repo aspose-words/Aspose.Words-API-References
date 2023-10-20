@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.IDocumentSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie möchten dass beim Speichern eines Dokuments Ihre eigene benutzerdefinierte Methode aufgerufen wird.
+title: IDocumentSavingCallback Interface
+linktitle: IDocumentSavingCallback
+articleTitle: IDocumentSavingCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.IDocumentSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie möchten dass beim Speichern eines Dokuments Ihre eigene benutzerdefinierte Methode aufgerufen wird in C#.
 type: docs
 weight: 5150
 url: /de/net/aspose.words.saving/idocumentsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentSavingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | Dies wird aufgerufen, um über den Fortschritt der Dokumentspeicherung zu informieren. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | Dies wird aufgerufen, um über den Fortschritt der Dokumentspeicherung zu informieren. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument beim Speichern im HTML-Format verwaltet wird.
 
@@ -191,5 +193,3 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

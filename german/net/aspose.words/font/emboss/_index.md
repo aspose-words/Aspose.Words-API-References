@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart als geprägt formatiert ist.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words für .NET
+description: Font Emboss eigendom. True wenn die Schriftart als geprägt formatiert ist in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ True, wenn die Schriftart als geprägt formatiert ist.
 public bool Emboss { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gravur-/Prägeeffekte auf Text angewendet werden.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

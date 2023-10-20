@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldResultFormatter methode. Wird aufgerufen wenn Aspose.Words einen Groß/Kleinschreibungsformatwechsel anwendet z. B.  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words für .NET
+description: IFieldResultFormatter Format methode. Wird aufgerufen wenn Aspose.Words einen Groß/Kleinschreibungsformatwechsel anwendet z. B.  Upper in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 Wird aufgerufen, wenn Aspose.Words einen Groß-/Kleinschreibungsformatwechsel anwendet, z. B. \* Upper.
 
@@ -14,11 +16,11 @@ Wird aufgerufen, wenn Aspose.Words einen Groß-/Kleinschreibungsformatwechsel an
 public string Format(string value, GeneralFormat format)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Implementierung sollte zurückkehren`Null` um anzugeben, dass die Standardformatierung angewendet werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* namensraum [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 Wird aufgerufen, wenn Aspose.Words einen Zahlenformatwechsel anwendet, z. B. \* Ordinal.
 
@@ -169,11 +171,11 @@ Wird aufgerufen, wenn Aspose.Words einen Zahlenformatwechsel anwendet, z. B. \* 
 public string Format(double value, GeneralFormat format)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Implementierung sollte zurückkehren`Null` um anzugeben, dass die Standardformatierung angewendet werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* namensraum [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

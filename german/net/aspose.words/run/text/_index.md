@@ -1,7 +1,9 @@
 ---
 title: Run.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: Run eigendom. Ruft den Text des Laufs ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: Run Text eigendom. Ruft den Text des Laufs ab oder legt ihn fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/run/text/
@@ -14,7 +16,7 @@ Ruft den Text des Laufs ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Siehe auch
 
 * class [Run](../)
-* namensraum [Aspose.Words](../../run/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

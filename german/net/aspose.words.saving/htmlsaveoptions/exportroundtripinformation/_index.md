@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob die RoundtripInformationen beim Speichern in HTML MHTML oder EPUB geschrieben werden sollen. Der Standardwert istWAHR für HTML undFALSCH für MHTML und EPUB.
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportRoundtripInformation eigendom. Gibt an ob die RoundtripInformationen beim Speichern in HTML MHTML oder EPUB geschrieben werden sollen. Der Standardwert istWAHR für HTML undFALSCH für MHTML und EPUB in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ Gibt an, ob die Roundtrip-Informationen beim Speichern in HTML, MHTML oder EPUB 
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Durch das Speichern der Roundtrip-Informationen können Dokumenteigenschaften wie Tabstopps, Kommentare, Kopf- und Fußzeilen wiederhergestellt werden, während die HTML-Dokumente wieder in ein geladen werden[`Document`](../../../aspose.words/document/) Objekt.
 
@@ -22,7 +24,7 @@ Wann`WAHR`, werden die Roundtrip-Informationen als -aw-* CSS-Eigenschaften der e
 
 Wann`FALSCH`, bewirkt, dass keine Roundtrip-Informationen in erzeugten Dateien ausgegeben werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie versteckte Elemente beim Konvertieren in .html erhalten bleiben.
 
@@ -99,7 +101,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

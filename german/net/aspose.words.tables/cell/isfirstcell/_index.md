@@ -1,7 +1,9 @@
 ---
 title: Cell.IsFirstCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. True wenn dies die erste Zelle innerhalb einer Zeile ist sonst falsch.
+linktitle: IsFirstCell
+articleTitle: IsFirstCell
+second_title: Aspose.Words für .NET
+description: Cell IsFirstCell eigendom. True wenn dies die erste Zelle innerhalb einer Zeile ist sonst falsch in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.tables/cell/isfirstcell/
@@ -14,7 +16,7 @@ True, wenn dies die erste Zelle innerhalb einer Zeile ist; sonst falsch.
 public bool IsFirstCell { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

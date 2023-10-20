@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.ClearFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataPointCollection methode. Löscht das gesamte FormatChartDataPoint in dieser Sammlung.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words für .NET
+description: ChartDataPointCollection ClearFormat methode. Löscht das gesamte FormatChartDataPoint in dieser Sammlung in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
@@ -14,7 +16,7 @@ Löscht das gesamte Format[`ChartDataPoint`](../../chartdatapoint/) in dieser Sa
 public void ClearFormat()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Siehe auch
 
 * class [ChartDataPointCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

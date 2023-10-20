@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPropertyCollection eigendom. Ruft die Anzahl der Elemente in der Sammlung ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: DocumentPropertyCollection Count eigendom. Ruft die Anzahl der Elemente in der Sammlung ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.properties/documentpropertycollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Elemente in der Sammlung ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit benutzerdefinierten Dokumenteigenschaften gearbeitet wird.
 
@@ -39,7 +41,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Siehe auch
 
 * class [DocumentPropertyCollection](../)
-* namensraum [Aspose.Words.Properties](../../documentpropertycollection/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

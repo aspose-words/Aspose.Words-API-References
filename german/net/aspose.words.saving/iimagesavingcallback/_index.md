@@ -1,7 +1,9 @@
 ---
-title: Interface IImageSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.IImageSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Aspose.Words Bilder speichert wenn ein Dokument in HTML gespeichert wird. Kann von anderen Formaten verwendet werden.
+title: IImageSavingCallback Interface
+linktitle: IImageSavingCallback
+articleTitle: IImageSavingCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.IImageSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Aspose.Words Bilder speichert wenn ein Dokument in HTML gespeichert wird. Kann von anderen Formaten verwendet werden in C#.
 type: docs
 weight: 5170
 url: /de/net/aspose.words.saving/iimagesavingcallback/
@@ -18,9 +20,9 @@ public interface IImageSavingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | Wird aufgerufen, wenn Aspose.Words ein Bild in HTML speichert. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Wird aufgerufen, wenn Aspose.Words ein Bild in HTML speichert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Bildname beim Speichern im Markdown-Dokument umbenannt wird.
 
@@ -192,5 +194,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

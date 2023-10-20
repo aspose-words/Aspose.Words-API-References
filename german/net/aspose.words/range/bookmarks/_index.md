@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Aspose.Words für .NET-API-Referenz
-description: Range eigendom. Gibt a zurückBookmarks Sammlung die alle Lesezeichen im Bereich darstellt.
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: Aspose.Words für .NET
+description: Range Bookmarks eigendom. Gibt a zurückBookmarks Sammlung die alle Lesezeichen im Bereich darstellt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ Gibt a zurück`Bookmarks` Sammlung, die alle Lesezeichen im Bereich darstellt.
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

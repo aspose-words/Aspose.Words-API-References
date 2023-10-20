@@ -1,7 +1,9 @@
 ---
 title: TextBox.Previous
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Gibt a zurückTextBox das repräsentiert das VorherigeTextBox in einer Folge von Formen.
+linktitle: Previous
+articleTitle: Previous
+second_title: Aspose.Words für .NET
+description: TextBox Previous eigendom. Gibt a zurückTextBox das repräsentiert das VorherigeTextBox in einer Folge von Formen in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing/textbox/previous/
@@ -14,7 +16,7 @@ Gibt a zurück[`TextBox`](../) das repräsentiert das Vorherige[`TextBox`](../) 
 public TextBox Previous { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Textfelder verknüpft werden.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Siehe auch
 
 * class [TextBox](../)
-* namensraum [Aspose.Words.Drawing](../../textbox/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

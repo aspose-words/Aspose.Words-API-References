@@ -1,7 +1,9 @@
 ---
 title: Font.StyleName
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft den Namen des Zeichenstils ab der auf diese Formatierung angewendet wird oder legt diesen fest.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words für .NET
+description: Font StyleName eigendom. Ruft den Namen des Zeichenstils ab der auf diese Formatierung angewendet wird oder legt diesen fest in C#.
 type: docs
 weight: 420
 url: /de/net/aspose.words/font/stylename/
@@ -14,7 +16,7 @@ Ruft den Namen des Zeichenstils ab, der auf diese Formatierung angewendet wird, 
 public string StyleName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Stil von vorhandenem Text geändert wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

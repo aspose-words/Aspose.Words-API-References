@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.NewValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldInfo eigendom. Ruft einen optionalen Wert ab der die Eigenschaft aktualisiert oder legt diesen fest.
+linktitle: NewValue
+articleTitle: NewValue
+second_title: Aspose.Words für .NET
+description: FieldInfo NewValue eigendom. Ruft einen optionalen Wert ab der die Eigenschaft aktualisiert oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldinfo/newvalue/
@@ -14,7 +16,7 @@ Ruft einen optionalen Wert ab, der die Eigenschaft aktualisiert, oder legt diese
 public string NewValue { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit INFO-Feldern gearbeitet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Siehe auch
 
 * class [FieldInfo](../)
-* namensraum [Aspose.Words.Fields](../../fieldinfo/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

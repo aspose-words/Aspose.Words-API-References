@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntryCategory
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft die Integralkategorie für in der Tabelle enthaltene Einträge ab oder legt diese fest.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words für .NET
+description: FieldToa EntryCategory eigendom. Ruft die Integralkategorie für in der Tabelle enthaltene Einträge ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldtoa/entrycategory/
@@ -14,7 +16,7 @@ Ruft die Integralkategorie für in der Tabelle enthaltene Einträge ab oder legt
 public string EntryCategory { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

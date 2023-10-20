@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaReferenceCollection eigendom. Ruft abVbaReference Objekt am angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: VbaReferenceCollection Item eigendom. Ruft abVbaReference Objekt am angegebenen Index in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbareferencecollection/item/
@@ -22,7 +24,5 @@ public VbaReference this[int index] { get; }
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* namensraum [Aspose.Words.Vba](../../vbareferencecollection/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

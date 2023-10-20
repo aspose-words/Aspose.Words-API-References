@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Landscape
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo eigendom. Gibt zurückWAHR wenn die im Dokument für diese Seite angegebene Seitenausrichtung Querformat ist.
+linktitle: Landscape
+articleTitle: Landscape
+second_title: Aspose.Words für .NET
+description: PageInfo Landscape eigendom. Gibt zurückWAHR wenn die im Dokument für diese Seite angegebene Seitenausrichtung Querformat ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.rendering/pageinfo/landscape/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn die im Dokument für diese Seite angegebene Seitenausric
 public bool Landscape { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
 
@@ -157,7 +159,5 @@ public class MyPrintDocument : PrintDocument
 ### Siehe auch
 
 * class [PageInfo](../)
-* namensraum [Aspose.Words.Rendering](../../pageinfo/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

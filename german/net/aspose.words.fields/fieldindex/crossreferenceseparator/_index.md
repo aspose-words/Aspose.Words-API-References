@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft die Zeichenfolge ab die zum Trennen von Querverweisen und anderen Einträgen verwendet wird oder legt diese fest.
+linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
+second_title: Aspose.Words für .NET
+description: FieldIndex CrossReferenceSeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen von Querverweisen und anderen Einträgen verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen von Querverweisen und anderen Einträg
 public string CrossReferenceSeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Querverweise in einem INDEX-Feld definiert werden.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

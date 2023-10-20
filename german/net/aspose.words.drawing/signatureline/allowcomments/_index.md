@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.AllowComments
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft einen Wert ab oder legt diesen fest der angibt dass der Unterzeichner im Dialogfeld Signieren Kommentare hinzufügen kann. Der Standardwert für diese Eigenschaft istFALSCH .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words für .NET
+description: SignatureLine AllowComments eigendom. Ruft einen Wert ab oder legt diesen fest der angibt dass der Unterzeichner im Dialogfeld Signieren Kommentare hinzufügen kann. Der Standardwert für diese Eigenschaft istFALSCH  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/signatureline/allowcomments/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, dass der Unterzeichner im 
 public bool AllowComments { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

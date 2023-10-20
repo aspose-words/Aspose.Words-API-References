@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.IndexOf
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten KnotenArray zurück.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words für .NET
+description: CompositeNode IndexOf methode. Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten KnotenArray zurück in C#.
 type: docs
-weight: 140
+weight: 120
 url: /de/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -14,11 +16,11 @@ Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten Knoten
 public int IndexOf(Node child)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt -1 zurück, wenn der Knoten nicht in den untergeordneten Knoten gefunden wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Index eines bestimmten untergeordneten Knotens von seinem übergeordneten Knoten abgerufen wird.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastPar
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

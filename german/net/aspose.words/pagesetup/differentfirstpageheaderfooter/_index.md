@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. True wenn auf der ersten Seite eine andere Kopf oder Fußzeile verwendet wird.
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: Aspose.Words für .NET
+description: PageSetup DifferentFirstPageHeaderFooter eigendom. True wenn auf der ersten Seite eine andere Kopf oder Fußzeile verwendet wird in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ True, wenn auf der ersten Seite eine andere Kopf- oder Fußzeile verwendet wird.
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

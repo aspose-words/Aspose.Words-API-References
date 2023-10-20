@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Version
-second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtensionReference eigendom. Gibt die Version der Weberweiterung an.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words für .NET
+description: WebExtensionReference Version eigendom. Gibt die Version der Weberweiterung an in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.webextensions/webextensionreference/version/
@@ -14,7 +16,7 @@ Gibt die Version der Weberweiterung an.
 public string Version { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [WebExtensionReference](../)
-* namensraum [Aspose.Words.WebExtensions](../../webextensionreference/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

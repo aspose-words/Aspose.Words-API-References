@@ -1,7 +1,9 @@
 ---
-title: VbaProject.VbaProject
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaProject constructeur. Erstellt ein LeerzeichenVbaProject .
+title: VbaProject
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words für .NET
+description: VbaProject constructeur. Erstellt ein LeerzeichenVbaProject  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.vba/vbaproject/vbaproject/
@@ -14,7 +16,7 @@ Erstellt ein Leerzeichen[`VbaProject`](../) .
 public VbaProject()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Siehe auch
 
 * class [VbaProject](../)
-* namensraum [Aspose.Words.Vba](../../vbaproject/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

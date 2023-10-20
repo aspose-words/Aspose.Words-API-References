@@ -1,7 +1,9 @@
 ---
 title: ControlChar.TabChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Tabulatorzeichen char9 oder t.
+linktitle: TabChar
+articleTitle: TabChar
+second_title: Aspose.Words für .NET
+description: ControlChar TabChar veld. Tabulatorzeichen char9 oder t in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words/controlchar/tabchar/
@@ -14,7 +16,7 @@ Tabulatorzeichen: (char)9 oder „\t“.
 public const char TabChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein benutzerdefiniertes Intervall für Tabstopppositionen festgelegt wird.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

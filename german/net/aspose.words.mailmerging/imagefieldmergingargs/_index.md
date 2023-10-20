@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs klas. Stellt Daten für die bereitImageFieldMerging event.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs klas. Stellt Daten für die bereitImageFieldMerging event in C#.
 type: docs
 weight: 3830
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Gibt die Form an, die die Serienbrief-Engine in das Dokument einfügen muss. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ruft den Namen der Datentabelle für den aktuellen Zusammenführungsvorgang oder eine leere Zeichenfolge ab, wenn der Name nicht verfügbar ist. |
 
-### Bemerkungen
+## Bemerkungen
 
 Dieses Ereignis tritt während des Seriendrucks auf, wenn im Dokument ein Bildfeld „mail merge “ gefunden wird. Sie können auf dieses Ereignis reagieren, um einen -Dateinamen, einen Stream oder eine zurückzugebenImage Objekt an die Mail merge -Engine senden, damit es in das Dokument eingefügt wird.
 
@@ -42,7 +44,7 @@ Es stehen drei Eigenschaften zur Verfügung[`ImageFileName`](./imagefilename/) ,
 
 Um ein Bild-Serienbrieffeld in ein Dokument in Word einzufügen, wählen Sie den Befehl „Einfügen/Feld“ , dann „Zusammenführungsfeld“ und geben Sie „Image:MyFieldName“ ein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

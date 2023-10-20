@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: XpsSaveOptions eigendom. Ermöglicht die Angabe von Umrissoptionen.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words für .NET
+description: XpsSaveOptions OutlineOptions eigendom. Ermöglicht die Angabe von Umrissoptionen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe von Umrissoptionen.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) Diese Option funktioniert beim Speichern auf XPS nicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man die Überschriftenebene einschränkt, die in der Gliederung eines gespeicherten XPS-Dokuments angezeigt wird.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../xpssaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

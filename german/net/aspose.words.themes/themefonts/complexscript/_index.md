@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.ComplexScript
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThemeFonts eigendom. Gibt den Schriftartnamen für ComplexScriptZeichen an.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words für .NET
+description: ThemeFonts ComplexScript eigendom. Gibt den Schriftartnamen für ComplexScriptZeichen an in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.themes/themefonts/complexscript/
@@ -14,7 +16,7 @@ Gibt den Schriftartnamen für ComplexScript-Zeichen an.
 public string ComplexScript { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Siehe auch
 
 * class [ThemeFonts](../)
-* namensraum [Aspose.Words.Themes](../../themefonts/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

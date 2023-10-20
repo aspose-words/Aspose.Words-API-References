@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.PostalAddress
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBarcode eigendom. Ruft die Postanschrift ab die zum Generieren eines Barcodes verwendet wird oder den Namen des Lesezeichens das darauf verweist oder legt diese fest.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words für .NET
+description: FieldBarcode PostalAddress eigendom. Ruft die Postanschrift ab die zum Generieren eines Barcodes verwendet wird oder den Namen des Lesezeichens das darauf verweist oder legt diese fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldbarcode/postaladdress/
@@ -14,7 +16,7 @@ Ruft die Postanschrift ab, die zum Generieren eines Barcodes verwendet wird, ode
 public string PostalAddress { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld BARCODE verwendet wird, um US-Postleitzahlen in Form eines Barcodes anzuzeigen.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Siehe auch
 
 * class [FieldBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldbarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

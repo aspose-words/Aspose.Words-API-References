@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroked
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Definiert ob der Pfad gestrichen wird.
+linktitle: Stroked
+articleTitle: Stroked
+second_title: Aspose.Words für .NET
+description: Shape Stroked eigendom. Definiert ob der Pfad gestrichen wird in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.drawing/shape/stroked/
@@ -14,13 +16,13 @@ Definiert, ob der Pfad gestrichen wird.
 public bool Stroked { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine Verknüpfung zum[`On`](../../stroke/on/) Eigentum.
 
 Der Standardwert ist`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

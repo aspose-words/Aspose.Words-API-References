@@ -1,7 +1,9 @@
 ---
 title: Document.TrackRevisions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. True wenn Änderungen nachverfolgt werden wenn dieses Dokument in Microsoft Word bearbeitet wird.
+linktitle: TrackRevisions
+articleTitle: TrackRevisions
+second_title: Aspose.Words für .NET
+description: Document TrackRevisions eigendom. True wenn Änderungen nachverfolgt werden wenn dieses Dokument in Microsoft Word bearbeitet wird in C#.
 type: docs
 weight: 430
 url: /de/net/aspose.words/document/trackrevisions/
@@ -14,13 +16,13 @@ True, wenn Änderungen nachverfolgt werden, wenn dieses Dokument in Microsoft Wo
 public bool TrackRevisions { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Durch das Festlegen dieser Option wird Microsoft Word nur mitgeteilt, ob die Spur changes aktiviert oder deaktiviert ist. Diese Eigenschaft hat keine Auswirkung auf Änderungen am Dokument, die Sie programmgesteuert über Aspose.Words vornehmen.
 
 Wenn Sie Änderungen automatisch verfolgen möchten, wenn sie programmgesteuert von Aspose.Words an diesem Dokument vorgenommen werden, verwenden Sie die[`StartTrackRevisions`](../starttrackrevisions/) Methode.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -103,7 +105,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelOffset
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft den Abstand der Beschriftungen von der Achse ab oder legt diesen fest.
+linktitle: TickLabelOffset
+articleTitle: TickLabelOffset
+second_title: Aspose.Words für .NET
+description: ChartAxis TickLabelOffset eigendom. Ruft den Abstand der Beschriftungen von der Achse ab oder legt diesen fest in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
@@ -14,7 +16,7 @@ Ruft den Abstand der Beschriftungen von der Achse ab oder legt diesen fest.
 public int TickLabelOffset { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft stellt einen Prozentsatz des Standardbeschriftungsversatzes dar.
 
@@ -22,7 +24,7 @@ Der gültige Bereich liegt zwischen 0 und 1000 Prozent. Der Standardwert ist 100
 
 Die Eigenschaft hat nur Auswirkungen auf Kategorieachsen. Die neuen Diagramme von MS Office 2016 werden nicht unterstützt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

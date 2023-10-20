@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Shading
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft a abShading Objekt das sich auf die Schattierungsformatierung für Tabellenzellen bezieht.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words für .NET
+description: TableStyle Shading eigendom. Ruft a abShading Objekt das sich auf die Schattierungsformatierung für Tabellenzellen bezieht in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/tablestyle/shading/
@@ -14,7 +16,7 @@ Ruft a ab[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsforma
 public Shading Shading { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Shading](../../shading/)
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

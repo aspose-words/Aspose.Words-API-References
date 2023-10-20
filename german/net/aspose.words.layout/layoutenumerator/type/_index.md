@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator eigendom. Ruft den Typ der aktuellen Entität ab.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator Type eigendom. Ruft den Typ der aktuellen Entität ab in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.layout/layoutenumerator/type/
@@ -14,7 +16,7 @@ Ruft den Typ der aktuellen Entität ab.
 public LayoutEntityType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

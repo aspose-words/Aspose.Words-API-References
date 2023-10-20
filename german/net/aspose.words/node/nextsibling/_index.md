@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Ruft den Knoten ab der diesem Knoten unmittelbar folgt.
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: Aspose.Words für .NET
+description: Node NextSibling eigendom. Ruft den Knoten ab der diesem Knoten unmittelbar folgt in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ Ruft den Knoten ab, der diesem Knoten unmittelbar folgt.
 public Node NextSibling { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn es keinen nächsten Knoten gibt, a`Null` wird zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die NextSibling-Eigenschaft eines Knotens verwendet wird, um seine unmittelbaren untergeordneten Knoten aufzuzählen.
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Siehe auch
 
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

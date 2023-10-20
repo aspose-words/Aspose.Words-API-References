@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor zu einem Absatz im aktuellen Abschnitt.
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: Aspose.Words für .NET
+description: DocumentBuilder MoveToParagraph methode. Bewegt den Cursor zu einem Absatz im aktuellen Abschnitt in C#.
 type: docs
-weight: 570
+weight: 560
 url: /de/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | Der Index des Absatzes, zu dem verschoben werden soll. |
 | characterIndex | Int32 | Der Index des Zeichens innerhalb des Absatzes. Mit einem negativen Wert können Sie eine Position ab dem Ende des Absatzes angeben. Verwenden Sie -1, um zum Ende des Absatzes zu gelangen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Navigation erfolgt innerhalb der aktuellen Story des aktuellen Abschnitts. Das heißt, wenn Sie den Cursor auf die primäre Kopfzeile des ersten Abschnitts bewegt haben, dann*paragraphIndex*gab den Index des Absatzes innerhalb des header dieses Abschnitts an.
 
 Wann*paragraphIndex* größer oder gleich 0 ist, gibt es einen Index ab dem Anfang des Abschnitts an, wobei 0 der erste Absatz ist. Wann*paragraphIndex* kleiner als 0, ist, wurde ein Index vom Ende des Abschnitts angegeben, wobei -1 der letzte Absatz ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Cursorposition eines Builders auf einen bestimmten Absatz verschoben wird.
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

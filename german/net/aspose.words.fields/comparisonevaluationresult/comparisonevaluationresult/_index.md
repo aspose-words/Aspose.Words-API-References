@@ -1,12 +1,14 @@
 ---
-title: ComparisonEvaluationResult.ComparisonEvaluationResult
-second_title: Aspose.Words für .NET-API-Referenz
-description: ComparisonEvaluationResult constructeur. Erstellt ein Vergleichsauswertungsergebnis.
+title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words für .NET
+description: ComparisonEvaluationResult constructeur. Erstellt ein Vergleichsauswertungsergebnis in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#constructor}
+## ComparisonEvaluationResult(*bool*) {#constructor}
 
 Erstellt ein Vergleichsauswertungsergebnis.
 
@@ -14,7 +16,7 @@ Erstellt ein Vergleichsauswertungsergebnis.
 public ComparisonEvaluationResult(bool result)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -98,12 +100,12 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Siehe auch
 
 * class [ComparisonEvaluationResult](../)
-* namensraum [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ComparisonEvaluationResult(string) {#constructor_1}
+## ComparisonEvaluationResult(*string*) {#constructor_1}
 
 Erstellt ein fehlgeschlagenes Vergleichsauswertungsergebnis mit der entsprechenden Fehlermeldung.
 
@@ -111,7 +113,7 @@ Erstellt ein fehlgeschlagenes Vergleichsauswertungsergebnis mit der entsprechend
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -195,7 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Siehe auch
 
 * class [ComparisonEvaluationResult](../)
-* namensraum [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

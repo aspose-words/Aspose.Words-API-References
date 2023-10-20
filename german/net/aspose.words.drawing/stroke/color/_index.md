@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert die Farbe eines Strichs.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words für .NET
+description: Stroke Color eigendom. Definiert die Farbe eines Strichs in C#.
 type: docs
-weight: 30
+weight: 20
 url: /de/net/aspose.words.drawing/stroke/color/
 ---
 ## Stroke.Color property
@@ -14,11 +16,11 @@ Definiert die Farbe eines Strichs.
 public Color Color { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert für a[`Shape`](../../shape/) is Black.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Siehe auch
 
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

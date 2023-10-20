@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.Latin
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThemeFonts eigendom. Gibt den Schriftartnamen für lateinische Zeichen an.
+linktitle: Latin
+articleTitle: Latin
+second_title: Aspose.Words für .NET
+description: ThemeFonts Latin eigendom. Gibt den Schriftartnamen für lateinische Zeichen an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.themes/themefonts/latin/
@@ -14,7 +16,7 @@ Gibt den Schriftartnamen für lateinische Zeichen an.
 public string Latin { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Siehe auch
 
 * class [ThemeFonts](../)
-* namensraum [Aspose.Words.Themes](../../themefonts/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportDocumentStructure
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob die Dokumentstruktur exportiert werden soll oder nicht.
+linktitle: ExportDocumentStructure
+articleTitle: ExportDocumentStructure
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions ExportDocumentStructure eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob die Dokumentstruktur exportiert werden soll oder nicht in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
@@ -14,13 +16,13 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob die Dokumentstruktur 
 public bool ExportDocumentStructure { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dieser Wert wird beim Speichern in PDF/A-1a, PDF/A-2a und PDF/UA-1 ignoriert, da für diese Konformität eine Dokumentstruktur erforderlich ist.
 
 Beachten Sie, dass der Export der Dokumentstruktur den Speicherverbrauch erheblich erhöht, insbesondere für große Dokumente.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumentstrukturelemente erhalten bleiben, die bei der programmgesteuerten Interpretation unseres Dokuments hilfreich sein können.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

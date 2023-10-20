@@ -1,7 +1,9 @@
 ---
-title: Enum JsonSimpleValueParseMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode opsomming. Gibt einen Modus zum Parsen einfacher JSONWerte Null Boolescher Wert Zahl Ganzzahl und Zeichenfolge beim Laden von JSON an. Ein solcher Modus hat keinen Einfluss auf das Parsen von Datums/Uhrzeitwerten.
+title: JsonSimpleValueParseMode Enum
+linktitle: JsonSimpleValueParseMode
+articleTitle: JsonSimpleValueParseMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Reporting.JsonSimpleValueParseMode opsomming. Gibt einen Modus zum Parsen einfacher JSONWerte Null Boolescher Wert Zahl Ganzzahl und Zeichenfolge beim Laden von JSON an. Ein solcher Modus hat keinen Einfluss auf das Parsen von Datums/Uhrzeitwerten in C#.
 type: docs
 weight: 4700
 url: /de/net/aspose.words.reporting/jsonsimplevalueparsemode/
@@ -25,5 +27,3 @@ public enum JsonSimpleValueParseMode
 
 * namensraum [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapData eigendom. Gibt an ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde oder nicht. Der Standardwert istDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapData Type eigendom. Gibt an ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde oder nicht. Der Standardwert istDefault  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ Gibt an, ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen exter
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

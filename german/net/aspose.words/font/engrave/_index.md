@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart als graviert formatiert ist.
+linktitle: Engrave
+articleTitle: Engrave
+second_title: Aspose.Words für .NET
+description: Font Engrave eigendom. True wenn die Schriftart als graviert formatiert ist in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ True, wenn die Schriftart als graviert formatiert ist.
 public bool Engrave { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gravur-/Prägeeffekte auf Text angewendet werden.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

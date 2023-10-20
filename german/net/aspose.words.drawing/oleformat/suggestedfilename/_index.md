@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft den für das aktuell eingebettete Objekt vorgeschlagenen Dateinamen ab wenn Sie es in einer Datei speichern möchten.
+linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
+second_title: Aspose.Words für .NET
+description: OleFormat SuggestedFileName eigendom. Ruft den für das aktuell eingebettete Objekt vorgeschlagenen Dateinamen ab wenn Sie es in einer Datei speichern möchten in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -14,7 +16,7 @@ Ruft den für das aktuell eingebettete Objekt vorgeschlagenen Dateinamen ab, wen
 public string SuggestedFileName { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der vorgeschlagene Dateiname eines OLE-Objekts abgerufen wird.
 
@@ -38,7 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
-second_title: Aspose.Words für .NET-API-Referenz
-description: JsonDataLoadOptions eigendom. Ruft genaue Formate zum Parsen von JSONDatums/Uhrzeitwerten beim Laden von JSON ab oder legt diese fest. Die Standardeinstellung istNull .
+linktitle: ExactDateTimeParseFormats
+articleTitle: ExactDateTimeParseFormats
+second_title: Aspose.Words für .NET
+description: JsonDataLoadOptions ExactDateTimeParseFormats eigendom. Ruft genaue Formate zum Parsen von JSONDatums/Uhrzeitwerten beim Laden von JSON ab oder legt diese fest. Die Standardeinstellung istNull  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
@@ -14,7 +16,7 @@ Ruft genaue Formate zum Parsen von JSON-Datums-/Uhrzeitwerten beim Laden von JSO
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Zeichenfolgen, die im Microsoft® JSON-Datums-/Uhrzeitformat codiert sind (z. B. „/Date(1224043200000)/“), werden immer als Datums-/Uhrzeitwerte erkannt, unabhängig vom Wert dieser Eigenschaft. Die Eigenschaft definiert zusätzliche -Formate, die beim Parsen von Datums-/Uhrzeitwerten aus Zeichenfolgen auf folgende Weise verwendet werden:
 
@@ -25,7 +27,5 @@ Zeichenfolgen, die im Microsoft® JSON-Datums-/Uhrzeitformat codiert sind (z. B.
 ### Siehe auch
 
 * class [JsonDataLoadOptions](../)
-* namensraum [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

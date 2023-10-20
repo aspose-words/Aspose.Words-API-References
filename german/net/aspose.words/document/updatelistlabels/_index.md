@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Aktualisiert Listenbezeichnungen für alle Listenelemente im Dokument.
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: Aspose.Words für .NET
+description: Document UpdateListLabels methode. Aktualisiert Listenbezeichnungen für alle Listenelemente im Dokument in C#.
 type: docs
-weight: 780
+weight: 760
 url: /de/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ Aktualisiert Listenbezeichnungen für alle Listenelemente im Dokument.
 public void UpdateListLabels()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode aktualisiert Eigenschaften von Listenbezeichnungen, z[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) and [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) für jede[`ListLabel`](../../paragraph/listlabel/)Objekt im Dokument.
 
 Außerdem wird diese Methode manchmal implizit aufgerufen, wenn Felder im Dokument aktualisiert werden. Dies ist erforderlich , da einige Felder, die möglicherweise auf Listennummern verweisen (z. B. TOC oder REF), aktuell sein müssen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listenbeschriftungen aller Absätze extrahiert werden, die Listenelemente sind.
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

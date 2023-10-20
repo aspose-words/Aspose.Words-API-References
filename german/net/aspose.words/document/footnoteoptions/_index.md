@@ -1,7 +1,9 @@
 ---
 title: Document.FootnoteOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Bietet Optionen die die Nummerierung und Positionierung von Fußnoten in diesem Dokument steuern.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words für .NET
+description: Document FootnoteOptions eigendom. Bietet Optionen die die Nummerierung und Positionierung von Fußnoten in diesem Dokument steuern in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words/document/footnoteoptions/
@@ -14,7 +16,7 @@ Bietet Optionen, die die Nummerierung und Positionierung von Fußnoten in diesem
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen anderen Ort auswählen, an dem das Dokument seine Fußnoten sammelt und anzeigt.
 
@@ -186,7 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.Location
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGoToButton eigendom. Ruft den Namen eines Lesezeichens eine Seitenzahl oder ein anderes Element ab zu dem gesprungen werden soll oder legt diesen fest.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words für .NET
+description: FieldGoToButton Location eigendom. Ruft den Namen eines Lesezeichens eine Seitenzahl oder ein anderes Element ab zu dem gesprungen werden soll oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldgotobutton/location/
@@ -14,7 +16,7 @@ Ruft den Namen eines Lesezeichens, eine Seitenzahl oder ein anderes Element ab, 
 public string Location { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt an, dass ein GOTOBUTTON-Feld eingefügt werden soll.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Siehe auch
 
 * class [FieldGoToButton](../)
-* namensraum [Aspose.Words.Fields](../../fieldgotobutton/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

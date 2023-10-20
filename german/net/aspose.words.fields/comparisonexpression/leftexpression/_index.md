@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.LeftExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: ComparisonExpression eigendom. Ruft den linken Ausdruck ab.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words für .NET
+description: ComparisonExpression LeftExpression eigendom. Ruft den linken Ausdruck ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/comparisonexpression/leftexpression/
@@ -14,7 +16,7 @@ Ruft den linken Ausdruck ab.
 public string LeftExpression { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Siehe auch
 
 * class [ComparisonExpression](../)
-* namensraum [Aspose.Words.Fields](../../comparisonexpression/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

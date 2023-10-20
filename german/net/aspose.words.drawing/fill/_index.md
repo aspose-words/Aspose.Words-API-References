@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Fill klas. Stellt die Füllformatierung für ein Objekt dar.
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Fill klas. Stellt die Füllformatierung für ein Objekt dar in C#.
 type: docs
 weight: 950
 url: /de/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Ruft ein Color-Objekt ab oder legt dieses fest, das die Hintergrundfarbe für die Füllung darstellt. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Ruft ein ThemeColor-Objekt ab oder legt dieses fest, das die Hintergrundfarbe für die Füllung darstellt. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Ruft einen Double-Wert ab oder legt diesen fest, der die Hintergrundfarbe heller oder dunkler macht. |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Ruft ein Color-Objekt ab oder legt dieses fest, das die Vordergrundfarbe für die Füllung darstellt. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Ruft einen Fülltyp ab. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Ruft ein Color-Objekt ab oder legt dieses fest, das die Vordergrundfarbe für die Füllung darstellt. |
@@ -46,24 +47,24 @@ public class Fill
 
 | Name | Beschreibung |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf unter Verwendung der angegebenen Farbe. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | Setzt die angegebene Füllung auf ein Muster. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | Setzt die angegebene Füllung auf ein Muster. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | Setzt die Füllung auf eine voreingestellte Textur. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | Ändert den Fülltyp in Einzelbild. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | Ändert den Fülltyp in Einzelbild. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | Ändert den Fülltyp in Einzelbild. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf unter Verwendung der angegebenen Farbe. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | Setzt die angegebene Füllung auf ein Muster. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | Setzt die angegebene Füllung auf ein Muster. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | Setzt die Füllung auf eine voreingestellte Textur. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | Ändert den Fülltyp in Einzelbild. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | Ändert den Fülltyp in Einzelbild. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | Ändert den Fülltyp in Einzelbild. |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | Setzt die Füllung auf eine einheitliche Farbe. |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | Setzt die Füllung auf eine bestimmte einheitliche Farbe. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | Setzt die angegebene Füllung auf einen zweifarbigen Farbverlauf. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Setzt die angegebene Füllung auf einen zweifarbigen Farbverlauf. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | Setzt die Füllung auf eine bestimmte einheitliche Farbe. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Setzt die angegebene Füllung auf einen zweifarbigen Farbverlauf. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Setzt die angegebene Füllung auf einen zweifarbigen Farbverlauf. |
 
-### Bemerkungen
+## Bemerkungen
 
 Benutzen Sie die[`Fill`](../shapebase/fill/) oder[`Fill`](../../aspose.words/font/fill/) Eigenschaft, um auf Fülleigenschaften eines Objekts zuzugreifen. Sie erstellen keine Instanzen davon`Fill` Klasse direkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit einer Volltonfarbe gefüllt wird.
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

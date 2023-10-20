@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.Heading
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft eine Überschrift ab oder legt diese fest die am Anfang jedes Satzes von Einträgen für einen bestimmten Buchstaben angezeigt wird.
+linktitle: Heading
+articleTitle: Heading
+second_title: Aspose.Words für .NET
+description: FieldIndex Heading eigendom. Ruft eine Überschrift ab oder legt diese fest die am Anfang jedes Satzes von Einträgen für einen bestimmten Buchstaben angezeigt wird in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldindex/heading/
@@ -14,7 +16,7 @@ Ruft eine Überschrift ab oder legt diese fest, die am Anfang jedes Satzes von E
 public string Heading { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein INDEX-Feld mithilfe von XE-Feldern mit Einträgen füllt und auch sein Erscheinungsbild ändert.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

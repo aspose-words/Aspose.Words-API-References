@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.CreateFrom
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabaseDataTable methode. Initialisiert eine neue Instanz vonFieldDatabaseDataTable class aus demDataTable Instanz.
+linktitle: CreateFrom
+articleTitle: CreateFrom
+second_title: Aspose.Words für .NET
+description: FieldDatabaseDataTable CreateFrom methode. Initialisiert eine neue Instanz vonFieldDatabaseDataTable class aus demDataTable Instanz in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielddatabasedatatable/createfrom/
@@ -17,7 +19,5 @@ public static FieldDatabaseDataTable CreateFrom(DataTable dataTable)
 ### Siehe auch
 
 * class [FieldDatabaseDataTable](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

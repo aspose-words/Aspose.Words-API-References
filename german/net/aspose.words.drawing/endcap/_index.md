@@ -1,7 +1,9 @@
 ---
-title: Enum EndCap
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.EndCap opsomming. Gibt den Stil der Zeilenumbrüche an.
+title: EndCap Enum
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.EndCap opsomming. Gibt den Stil der Zeilenumbrüche an in C#.
 type: docs
 weight: 940
 url: /de/net/aspose.words.drawing/endcap/
@@ -23,7 +25,7 @@ public enum EndCap
 | Flat | `2` | Linie endet am Endpunkt. |
 | Default | `2` | Der Standardwert istFlat . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndCap](../stroke/endcap/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

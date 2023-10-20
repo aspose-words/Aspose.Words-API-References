@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings methode. Setzt die Schriftartenquellen auf den Systemstandard zurück.
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: Aspose.Words für .NET
+description: FontSettings ResetFontSources methode. Setzt die Schriftartenquellen auf den Systemstandard zurück in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ Setzt die Schriftartenquellen auf den Systemstandard zurück.
 public void ResetFontSources()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### Siehe auch
 
 * class [FontSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

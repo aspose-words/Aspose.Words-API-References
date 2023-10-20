@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.Position
-second_title: Aspose.Words für .NET-API-Referenz
-description: EndnoteOptions eigendom. Gibt die Position der Endnoten an.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words für .NET
+description: EndnoteOptions Position eigendom. Gibt die Position der Endnoten an in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.notes/endnoteoptions/position/
@@ -14,7 +16,7 @@ Gibt die Position der Endnoten an.
 public EndnotePosition Position { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen anderen Ort auswählen, an dem das Dokument seine Endnoten sammelt und anzeigt.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 
 * enum [EndnotePosition](../../endnoteposition/)
 * class [EndnoteOptions](../)
-* namensraum [Aspose.Words.Notes](../../endnoteoptions/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Steuert wie Tabellen Zeilen und Zellenbreiten nach HTML MHTML oder EPUB exportiert werden. Der Standardwert istAll .
+linktitle: TableWidthOutputMode
+articleTitle: TableWidthOutputMode
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions TableWidthOutputMode eigendom. Steuert wie Tabellen Zeilen und Zellenbreiten nach HTML MHTML oder EPUB exportiert werden. Der Standardwert istAll  in C#.
 type: docs
 weight: 460
 url: /de/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
@@ -14,15 +16,15 @@ Steuert, wie Tabellen-, Zeilen- und Zellenbreiten nach HTML, MHTML oder EPUB exp
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Im HTML-Format sind Tabellen-, Zeilen- und Zellenelemente ( **&lt;Tabelle&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**Die Breite von ) kann entweder in relativen (Prozent) oder in absoluten Einheiten angegeben werden. In einem Dokument in Aspose.Words können die Breiten von Tabellen, Zeilen und Zellen ebenfalls in relativen oder absoluten Einheiten angegeben werden .
+Im HTML-Format sind Tabellen-, Zeilen- und Zellenelemente (**&lt;Tabelle&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**Die Breite von ) kann entweder in relativen (Prozent) oder in absoluten Einheiten angegeben werden. In einem Dokument in Aspose.Words können die Breiten von Tabellen, Zeilen und Zellen ebenfalls in relativen oder absoluten Einheiten angegeben werden .
 
 Wenn Sie ein Dokument mit Aspose.Words in HTML konvertieren, möchten Sie möglicherweise steuern, wie Tabellen-, Zeilen- und Zellenbreiten exportiert werden, um zu beeinflussen, wie das resultierende Dokument im visuellen Agenten (z. B. einem Browser oder Viewer) angezeigt wird.
 
 Verwenden Sie diese Eigenschaft als Filter, um anzugeben, welche Tabellenbreitenwerte in das Zieldokument exportiert werden. Wenn Sie beispielsweise ein Dokument in EPUB konvertieren und beabsichtigen, das Dokument auf einem mobilen Lesegerät anzuzeigen, , sollten Sie dies wahrscheinlich vermeiden Exportieren absoluter Breitenwerte. Dazu müssen Sie den Ausgabemodus angebenRelativeOnly oderNone , damit der Betrachter auf dem Mobilgerät die Tabelle so gestalten kann, dass sie so gut wie möglich an die Breite des Bildschirms passt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie negative Einzüge in der Ausgabe-.html beibehalten werden.
 
@@ -85,7 +87,5 @@ else
 
 * enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

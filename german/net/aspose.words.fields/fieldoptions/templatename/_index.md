@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.TemplateName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den Dateinamen der vom Dokument verwendeten Vorlage ab oder legt diesen fest.
+linktitle: TemplateName
+articleTitle: TemplateName
+second_title: Aspose.Words für .NET
+description: FieldOptions TemplateName eigendom. Ruft den Dateinamen der vom Dokument verwendeten Vorlage ab oder legt diesen fest in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.fields/fieldoptions/templatename/
@@ -14,13 +16,13 @@ Ruft den Dateinamen der vom Dokument verwendeten Vorlage ab oder legt diesen fes
 public string TemplateName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft wird von verwendet[`FieldTemplate`](../../fieldtemplate/) Feld, wenn die[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) Die Immobilie ist leer.
 
 Wenn diese Eigenschaft leer ist, ist dies der Standardname der Vorlagendatei`Normal.dotm` wird eingesetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein TEMPLATE-Feld verwendet wird, um den lokalen Dateisystemspeicherort der Vorlage eines Dokuments anzuzeigen.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Siehe auch
 
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

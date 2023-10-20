@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt die Zeichenformatierung an die für die Listenbezeichnung verwendet wird.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: ListLevel Font eigendom. Gibt die Zeichenformatierung an die für die Listenbezeichnung verwendet wird in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ Gibt die Zeichenformatierung an, die für die Listenbezeichnung verwendet wird.
 public Font Font { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

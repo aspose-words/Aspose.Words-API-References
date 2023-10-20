@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.ReportingEngine klas. Stellt Routinen zum Füllen von Vorlagendokumenten mit Daten und eine Reihe von Einstellungen zur Steuerung dieser Routinen bereit.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Reporting.ReportingEngine klas. Stellt Routinen zum Füllen von Vorlagendokumenten mit Daten und eine Reihe von Einstellungen zur Steuerung dieser Routinen bereit in C#.
 type: docs
 weight: 4730
 url: /de/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | Name | Beschreibung |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Füllt das angegebene Vorlagendokument mit Daten aus der angegebenen Quelle und macht es zu einem fertigen Bericht. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Füllt das angegebene Vorlagendokument mit Daten aus der angegebenen Quelle und macht es zu einem fertigen Bericht. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Füllt das angegebene Vorlagendokument mit Daten aus den angegebenen Quellen und macht es zu einem fertigen Bericht. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Füllt das angegebene Vorlagendokument mit Daten aus der angegebenen Quelle und macht es zu einem fertigen Bericht. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Füllt das angegebene Vorlagendokument mit Daten aus der angegebenen Quelle und macht es zu einem fertigen Bericht. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Füllt das angegebene Vorlagendokument mit Daten aus den angegebenen Quellen und macht es zu einem fertigen Bericht. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Dient als Hash-Funktion für diesen Typ. |
 
 ### Siehe auch
 
 * namensraum [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../)
-
-

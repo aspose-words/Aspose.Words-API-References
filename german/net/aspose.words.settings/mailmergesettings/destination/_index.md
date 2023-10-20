@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt an wie Microsoft Word die Ergebnisse eines Seriendrucks ausgibt. Der Standardwert istDefault .
+linktitle: Destination
+articleTitle: Destination
+second_title: Aspose.Words für .NET
+description: MailMergeSettings Destination eigendom. Gibt an wie Microsoft Word die Ergebnisse eines Seriendrucks ausgibt. Der Standardwert istDefault  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ Gibt an, wie Microsoft Word die Ergebnisse eines Seriendrucks ausgibt. Der Stand
 public MailMergeDestination Destination { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

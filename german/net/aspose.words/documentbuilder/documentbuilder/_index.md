@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words für .NET
+description: DocumentBuilder constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ Initialisiert eine neue Instanz dieser Klasse.
 public DocumentBuilder()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Erstellt ein neues[`DocumentBuilder`](../) Objekt und hängt es an ein neues an[`Document`](../../document/) Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie formatierter Text mit DocumentBuilder eingefügt wird.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Initialisiert eine neue Instanz dieser Klasse.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | Der[`Document`](../../document/) Objekt zum Anhängen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Erstellt ein neues[`DocumentBuilder`](../) Objekt, wird an das angegebene Objekt angehängt[`Document`](../../document/)object. Der Cursor wird am Anfang des Dokuments positioniert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

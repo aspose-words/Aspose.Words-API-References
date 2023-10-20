@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldEnd eigendom. Gibt zurückFieldEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: FieldEnd NodeType eigendom. Gibt zurückFieldEnd  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldend/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückFieldEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldEnd](../)
-* namensraum [Aspose.Words.Fields](../../fieldend/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

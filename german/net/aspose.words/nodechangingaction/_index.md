@@ -1,7 +1,9 @@
 ---
-title: Enum NodeChangingAction
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NodeChangingAction opsomming. Gibt die Art der Knotenänderung an.
+title: NodeChangingAction Enum
+linktitle: NodeChangingAction
+articleTitle: NodeChangingAction
+second_title: Aspose.Words für .NET
+description: Aspose.Words.NodeChangingAction opsomming. Gibt die Art der Knotenänderung an in C#.
 type: docs
 weight: 4180
 url: /de/net/aspose.words/nodechangingaction/
@@ -21,7 +23,7 @@ public enum NodeChangingAction
 | Insert | `0` | Ein Knoten wird in den Baum eingefügt. |
 | Remove | `1` | Ein Knoten wird aus dem Baum entfernt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
 
@@ -99,5 +101,3 @@ private class NodeChangingPrinter : INodeChangingCallback
 * property [Action](../nodechangingargs/action/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

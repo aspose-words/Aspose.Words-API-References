@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooterCollection methode. Kopiert allesKopf und Fußzeile s aus der Sammlung in ein neues Array vonKopf und Fußzeile s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: HeaderFooterCollection ToArray methode. Kopiert allesKopf und Fußzeile s aus der Sammlung in ein neues Array vonKopf und Fußzeile s in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 Eine Reihe von`Kopf- und Fußzeile`S.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Kopf- und Fußzeile in einem Dokument gedruckt wird.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* namensraum [Aspose.Words](../../headerfootercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdtSaveOptions eigendom. Ruft ein Passwort zum Verschlüsseln des Dokuments ab oder legt es fest.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words für .NET
+description: OdtSaveOptions Password eigendom. Ruft ein Passwort zum Verschlüsseln des Dokuments ab oder legt es fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ Ruft ein Passwort zum Verschlüsseln des Dokuments ab oder legt es fest.
 public string Password { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Um ein Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft vorhanden sein`Null` oder leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein gespeichertes ODT/OTT-Dokument mit einem Passwort verschlüsselt und es dann mit Aspose.Words lädt.
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Siehe auch
 
 * class [OdtSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../odtsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

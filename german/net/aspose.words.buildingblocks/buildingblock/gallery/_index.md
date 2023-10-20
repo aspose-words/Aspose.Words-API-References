@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Gallery
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Gibt die Kategorisierung der ersten Ebene für den Baustein zum Zweck der Klassifizierung oder Sortierung der Benutzeroberfläche an.
+linktitle: Gallery
+articleTitle: Gallery
+second_title: Aspose.Words für .NET
+description: BuildingBlock Gallery eigendom. Gibt die Kategorisierung der ersten Ebene für den Baustein zum Zweck der Klassifizierung oder Sortierung der Benutzeroberfläche an in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.buildingblocks/buildingblock/gallery/
@@ -14,13 +16,13 @@ Gibt die Kategorisierung der ersten Ebene für den Baustein zum Zweck der -Klass
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Bausteine in der Microsoft Word-Benutzeroberfläche sind in Galerien angeordnet. Jede`Gallery` kann mehrere Kategorien haben. Jeder Block innerhalb a[`Category`](../category/) hat ein[`Name`](../name/).
 
-Entspricht dem **docPartPr.category.gallery** Element in OOXML.
+Entspricht dem**docPartPr.category.gallery** Element in OOXML.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

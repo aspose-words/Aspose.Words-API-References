@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontFallbackSettings methode. Erstellt automatisch die FallbackEinstellungen durch Scannen verfügbarer Schriftarten.
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: Aspose.Words für .NET
+description: FontFallbackSettings BuildAutomatic methode. Erstellt automatisch die FallbackEinstellungen durch Scannen verfügbarer Schriftarten in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ Erstellt automatisch die Fallback-Einstellungen durch Scannen verfügbarer Schri
 public void BuildAutomatic()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode führt möglicherweise zu nicht optimalen Fallback-Einstellungen. Schriftarten werden von überprüft[ Unicode-Zeichenbereich](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) Felder und nicht durch das tatsächliche Vorhandensein von Glyphen. Außerdem werden Unicode-Bereiche einzeln überprüft und mehrere Bereiche, die sich auf eine einzelne Sprache/ein einzelnes Skript beziehen, können unterschiedliche Fallback-Schriftarten verwenden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fallback-Schriftarten über Unicode-Zeichencodebereiche verteilt werden.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### Siehe auch
 
 * class [FontFallbackSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSymbol eigendom. Ruft den Namen der Schriftart des vom Feld abgerufenen Zeichens ab oder legt diesen fest.
+linktitle: FontName
+articleTitle: FontName
+second_title: Aspose.Words für .NET
+description: FieldSymbol FontName eigendom. Ruft den Namen der Schriftart des vom Feld abgerufenen Zeichens ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldsymbol/fontname/
@@ -14,7 +16,7 @@ Ruft den Namen der Schriftart des vom Feld abgerufenen Zeichens ab oder legt die
 public string FontName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das SYMBOL-Feld verwendet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldSymbol](../)
-* namensraum [Aspose.Words.Fields](../../fieldsymbol/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

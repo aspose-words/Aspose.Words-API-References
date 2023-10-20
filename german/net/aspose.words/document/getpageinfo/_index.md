@@ -1,9 +1,11 @@
 ---
 title: Document.GetPageInfo
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Ruft die Seitengröße Ausrichtung und andere Informationen zu einer Seite ab die zum Drucken oder Rendern nützlich sein könnten.
+linktitle: GetPageInfo
+articleTitle: GetPageInfo
+second_title: Aspose.Words für .NET
+description: Document GetPageInfo methode. Ruft die Seitengröße Ausrichtung und andere Informationen zu einer Seite ab die zum Drucken oder Rendern nützlich sein könnten in C#.
 type: docs
-weight: 630
+weight: 610
 url: /de/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
@@ -22,7 +24,5 @@ public PageInfo GetPageInfo(int pageIndex)
 
 * class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

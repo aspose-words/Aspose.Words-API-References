@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings methode. Legt die Quellen fest in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueTypeSchriftarten sucht.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words für .NET
+description: FontSettings SetFontsSources methode. Legt die Quellen fest in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueTypeSchriftarten sucht in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 Legt die Quellen fest, in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueType-Schriftarten sucht.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | Ein Array von Quellen, die TrueType-Schriftarten enthalten. |
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig sucht Aspose.Words nach auf dem System installierten Schriftarten.
 
 Durch das Festlegen dieser Eigenschaft wird der Cache aller zuvor geladenen Schriftarten zurückgesetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine Schriftartenquelle zu unseren vorhandenen Schriftartenquellen hinzufügen.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 Legt die Quellen fest, in denen Aspose.Words nach TrueType-Schriftarten sucht, und lädt zusätzlich den zuvor gespeicherten Schriftarten-Suchcache.
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | Ein Array von Quellen, die TrueType-Schriftarten enthalten. |
 | cacheInputStream | Stream | Eingabestream mit gespeichertem Cache für die Schriftartensuche. |
 
-### Bemerkungen
+## Bemerkungen
 
 Das Laden eines zuvor gespeicherten Schriftarten-Suchcaches beschleunigt den Initialisierungsprozess des Schriftarten-Caches. Dies ist besonders nützlich, wenn der Zugriff auf Schriftartquellen kompliziert ist (z. B. wenn Schriftarten über das Netzwerk geladen werden).
 
@@ -100,7 +102,7 @@ Beim Speichern und Laden des Schriftarten-Suchcaches werden Schriftarten in den 
 
 Es wird dringend empfohlen, beim Laden des Caches dieselben Schriftartenquellen bereitzustellen wie zum Zeitpunkt des Speicherns des Caches. Alle Änderungen an den Schriftartenquellen (z. B. das Hinzufügen neuer Schriftarten, das Verschieben von Schriftartendateien oder das Ändern des Cache-Schlüssels) können dazu führen, dass die Schriftart ungenau ist Auflösung durch Aspose.Words.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

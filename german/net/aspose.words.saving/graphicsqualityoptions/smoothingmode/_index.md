@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.SmoothingMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: GraphicsQualityOptions eigendom. Ruft die Renderqualität für diese Grafik ab oder legt sie fest.
+linktitle: SmoothingMode
+articleTitle: SmoothingMode
+second_title: Aspose.Words für .NET
+description: GraphicsQualityOptions SmoothingMode eigendom. Ruft die Renderqualität für diese Grafik ab oder legt sie fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
@@ -14,7 +16,7 @@ Ruft die Renderqualität für diese Grafik ab oder legt sie fest.
 public SmoothingMode? SmoothingMode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Siehe auch
 
 * class [GraphicsQualityOptions](../)
-* namensraum [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

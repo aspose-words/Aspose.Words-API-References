@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob im Dokument verwendete Schriftfamiliennamen gemäß aufgelöst und ersetzt werden.FontSettings beim Schreiben in HTMLbasierte Formate.
+linktitle: ResolveFontNames
+articleTitle: ResolveFontNames
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ResolveFontNames eigendom. Gibt an ob im Dokument verwendete Schriftfamiliennamen gemäß aufgelöst und ersetzt werden.FontSettings beim Schreiben in HTMLbasierte Formate in C#.
 type: docs
 weight: 410
 url: /de/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
@@ -14,13 +16,13 @@ Gibt an, ob im Dokument verwendete Schriftfamiliennamen gemäß aufgelöst und e
 public bool ResolveFontNames { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig ist diese Option auf eingestellt`FALSCH` und Schriftfamiliennamen werden in Quelldokumenten als angegeben in HTML geschrieben. Das ist,[`FontSettings`](../../../aspose.words/document/fontsettings/) werden ignoriert und es wird keine Auflösung oder Ersetzung von Schriftfamiliennamen durchgeführt.
 
 Wenn diese Option auf eingestellt ist`WAHR` , Aspose.Words verwendet[`FontSettings`](../../../aspose.words/document/fontsettings/) um jeden in einem Quelldokument angegebenen Schriftfamiliennamen in den Namen einer verfügbaren Schriftfamilie aufzulösen und bei Bedarf eine Schriftartenersetzung durchzuführen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Schriftartnamen aufgelöst werden, bevor sie in HTML geschrieben werden.
 
@@ -64,7 +66,5 @@ Assert.True(resolveFontNames
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

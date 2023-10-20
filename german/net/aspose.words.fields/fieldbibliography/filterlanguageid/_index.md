@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.FilterLanguageId
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBibliography eigendom. Ruft die SprachID ab die zum Filtern der bibliografischen Daten verwendet wird um nur die Quellen im Dokument zu filtern die diese Sprache verwenden oder legt diese fest.
+linktitle: FilterLanguageId
+articleTitle: FilterLanguageId
+second_title: Aspose.Words für .NET
+description: FieldBibliography FilterLanguageId eigendom. Ruft die SprachID ab die zum Filtern der bibliografischen Daten verwendet wird um nur die Quellen im Dokument zu filtern die diese Sprache verwenden oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldbibliography/filterlanguageid/
@@ -17,7 +19,5 @@ public string FilterLanguageId { get; set; }
 ### Siehe auch
 
 * class [FieldBibliography](../)
-* namensraum [Aspose.Words.Fields](../../fieldbibliography/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

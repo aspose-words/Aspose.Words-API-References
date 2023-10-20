@@ -1,7 +1,9 @@
 ---
-title: Class ControlChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.ControlChar klas. Steuerzeichen die häufig in Dokumenten vorkommen.
+title: ControlChar Class
+linktitle: ControlChar
+articleTitle: ControlChar
+second_title: Aspose.Words für .NET
+description: Aspose.Words.ControlChar klas. Steuerzeichen die häufig in Dokumenten vorkommen in C#.
 type: docs
 weight: 350
 url: /de/net/aspose.words/controlchar/
@@ -49,11 +51,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab/) | Tabulatorzeichen: „\x0009“ oder „\t“. |
 | const [TabChar](../../aspose.words/controlchar/tabchar/) | Tabulatorzeichen: (char)9 oder „\t“. |
 
-### Bemerkungen
+## Bemerkungen
 
 Stellt sowohl Char- als auch String-Versionen derselben Konstanten bereit. Zum Beispiel: string[`LineBreak`](./linebreak/) und char[`LineBreakChar`](./linebreakchar/) haben den gleichen Wert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Steuerzeichen verwendet werden.
 
@@ -81,5 +83,3 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

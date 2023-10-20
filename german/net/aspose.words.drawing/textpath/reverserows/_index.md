@@ -1,7 +1,9 @@
 ---
 title: TextPath.ReverseRows
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Legt fest ob die Layoutreihenfolge der Zeilen umgekehrt wird.
+linktitle: ReverseRows
+articleTitle: ReverseRows
+second_title: Aspose.Words für .NET
+description: TextPath ReverseRows eigendom. Legt fest ob die Layoutreihenfolge der Zeilen umgekehrt wird in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing/textpath/reverserows/
@@ -14,13 +16,13 @@ Legt fest, ob die Layoutreihenfolge der Zeilen umgekehrt wird.
 public bool ReverseRows { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
 Wenn`WAHR`, wird die Anordnungsreihenfolge der Zeilen umgekehrt. Dieses Attribut wird für das vertikale Textlayout verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

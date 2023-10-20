@@ -1,7 +1,9 @@
 ---
 title: Font.Spacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt den Abstand in Punkt zwischen Zeichen zurück oder legt diesen fest.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words für .NET
+description: Font Spacing eigendom. Gibt den Abstand in Punkt zwischen Zeichen zurück oder legt diesen fest in C#.
 type: docs
 weight: 380
 url: /de/net/aspose.words/font/spacing/
@@ -14,7 +16,7 @@ Gibt den Abstand (in Punkt) zwischen Zeichen zurück oder legt diesen fest.
 public double Spacing { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die horizontale Skalierung und der Abstand für Zeichen festgelegt werden.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

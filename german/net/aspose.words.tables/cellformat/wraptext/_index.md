@@ -1,9 +1,11 @@
 ---
 title: CellFormat.WrapText
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. WennWAHR  Text für die Zelle umbrechen.
+linktitle: WrapText
+articleTitle: WrapText
+second_title: Aspose.Words für .NET
+description: CellFormat WrapText eigendom. WennWAHR  Text für die Zelle umbrechen in C#.
 type: docs
-weight: 150
+weight: 140
 url: /de/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
@@ -14,7 +16,7 @@ Wenn`WAHR` , Text für die Zelle umbrechen.
 public bool WrapText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Siehe auch
 
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

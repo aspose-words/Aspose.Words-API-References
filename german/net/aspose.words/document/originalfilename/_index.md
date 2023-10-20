@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft den ursprünglichen Dateinamen des Dokuments ab.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words für .NET
+description: Document OriginalFileName eigendom. Ruft den ursprünglichen Dateinamen des Dokuments ab in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words/document/originalfilename/
@@ -14,11 +16,11 @@ Ruft den ursprünglichen Dateinamen des Dokuments ab.
 public string OriginalFileName { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kehrt zurück`Null` wenn das Dokument aus einem Stream geladen oder leer erstellt wurde.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Details zum Ladevorgang eines Dokuments abgerufen werden.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

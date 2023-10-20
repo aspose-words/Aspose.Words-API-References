@@ -1,7 +1,9 @@
 ---
 title: TabStop.Equals
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStop methode. Vergleicht mit dem angegebenenTabStop .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words für .NET
+description: TabStop Equals methode. Vergleicht mit dem angegebenenTabStop  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/tabstop/equals/
@@ -14,7 +16,7 @@ Vergleicht mit dem angegebenen[`TabStop`](../) .
 public bool Equals(TabStop rhs)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Siehe auch
 
 * class [TabStop](../)
-* namensraum [Aspose.Words](../../tabstop/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

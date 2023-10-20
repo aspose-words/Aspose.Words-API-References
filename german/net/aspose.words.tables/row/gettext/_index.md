@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row methode. Ruft den Text aller Zellen in dieser Zeile ab einschließlich des Zeilenendezeichens.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words für .NET
+description: Row GetText methode. Ruft den Text aller Zellen in dieser Zeile ab einschließlich des Zeilenendezeichens in C#.
 type: docs
-weight: 160
+weight: 140
 url: /de/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ Ruft den Text aller Zellen in dieser Zeile ab, einschließlich des Zeilenendezei
 public override string GetText()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt verketteten Text aller untergeordneten Knoten mit dem Zeilenende-Zeichen zurück.[`Cell`](../../../aspose.words/controlchar/cell/) am Ende angehängt.
 
 Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../../aspose.words/controlchar/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

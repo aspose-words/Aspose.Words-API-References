@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Tables
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Story sind.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words für .NET
+description: InlineStory Tables eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Story sind in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/inlinestory/tables/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Tabellen ab, die unmittelbar untergeordnete Elemente der 
 public TableCollection Tables { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie InlineStory-Knoten eingefügt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

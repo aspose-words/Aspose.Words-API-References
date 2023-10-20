@@ -1,7 +1,9 @@
 ---
 title: Style.LinkedStyleName
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft den Namen abStyle mit diesem verlinkt. Gibt eine leere Zeichenfolge zurück wenn keine Stile verknüpft sind.
+linktitle: LinkedStyleName
+articleTitle: LinkedStyleName
+second_title: Aspose.Words für .NET
+description: Style LinkedStyleName eigendom. Ruft den Namen abStyle mit diesem verlinkt. Gibt eine leere Zeichenfolge zurück wenn keine Stile verknüpft sind in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/style/linkedstylename/
@@ -14,7 +16,7 @@ Ruft den Namen ab[`Style`](../) mit diesem verlinkt. Gibt eine leere Zeichenfolg
 public string LinkedStyleName { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Stilaliase verwendet werden.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Siehe auch
 
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

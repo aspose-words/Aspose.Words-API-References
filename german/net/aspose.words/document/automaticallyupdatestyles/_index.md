@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft ein Flag ab oder legt es fest das angibt ob die Stile im Dokument bei jedem Öffnen des Dokuments in MS Word so aktualisiert werden dass sie mit den Stilen in der angehängten Vorlage übereinstimmen.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words für .NET
+description: Document AutomaticallyUpdateStyles eigendom. Ruft ein Flag ab oder legt es fest das angibt ob die Stile im Dokument bei jedem Öffnen des Dokuments in MS Word so aktualisiert werden dass sie mit den Stilen in der angehängten Vorlage übereinstimmen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder legt es fest, das angibt, ob die Stile im Dokument bei jed
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Vorlage an ein Dokument angehängt wird.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

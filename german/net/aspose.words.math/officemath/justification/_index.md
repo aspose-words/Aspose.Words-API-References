@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath eigendom. Ruft die Office MathBegründung ab bzw. legt sie fest.
+linktitle: Justification
+articleTitle: Justification
+second_title: Aspose.Words für .NET
+description: OfficeMath Justification eigendom. Ruft die Office MathBegründung ab bzw. legt sie fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ Ruft die Office Math-Begründung ab bzw. legt sie fest.
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Ausrichtung kann nicht auf den Anzeigeformattyp „Office Math“ eingestellt werdenInline.
 
@@ -22,7 +24,7 @@ Die Inline-Ausrichtung kann nicht auf den Anzeigeformattyp „Office Math“ ein
 
 Dazugehörigen[`DisplayType`](../displaytype/) muss vor dem Festlegen der Office Math-Ausrichtung festgelegt werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Anzeigeformatierung für Office-Mathematik festgelegt wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* namensraum [Aspose.Words.Math](../../officemath/)
+* namensraum [Aspose.Words.Math](../../../aspose.words.math/)
 * Montage [Aspose.Words](../../../)
-
-

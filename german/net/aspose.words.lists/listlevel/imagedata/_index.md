@@ -1,7 +1,9 @@
 ---
 title: ListLevel.ImageData
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt Bilddaten der Bildaufzählungsform für die aktuelle Listenebene zurück.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words für .NET
+description: ListLevel ImageData eigendom. Gibt Bilddaten der Bildaufzählungsform für die aktuelle Listenebene zurück in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.lists/listlevel/imagedata/
@@ -14,7 +16,7 @@ Gibt Bilddaten der Bildaufzählungsform für die aktuelle Listenebene zurück.
 public ImageData ImageData { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Ebene keine Bildaufzählungsrückgaben definiert`Null` . Bevor Sie ein neues Bild für die Aufzählungsform ohne Bild festlegen, verwenden Sie bitte[`CreatePictureBullet`](../createpicturebullet/) Methode zuerst.
 
@@ -22,7 +24,5 @@ Wenn diese Ebene keine Bildaufzählungsrückgaben definiert`Null` . Bevor Sie ei
 
 * class [ImageData](../../../aspose.words.drawing/imagedata/)
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

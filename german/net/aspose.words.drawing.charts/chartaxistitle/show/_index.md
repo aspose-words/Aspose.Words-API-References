@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Show
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxisTitle eigendom. Legt fest ob der Titel für die Achse angezeigt werden soll. Der Standardwert istFALSCH .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words für .NET
+description: ChartAxisTitle Show eigendom. Legt fest ob der Titel für die Achse angezeigt werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
-weight: 30
+weight: 20
 url: /de/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
@@ -14,7 +16,7 @@ Legt fest, ob der Titel für die Achse angezeigt werden soll. Der Standardwert i
 public bool Show { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Titel der Diagrammachse festgelegt wird.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Siehe auch
 
 * class [ChartAxisTitle](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

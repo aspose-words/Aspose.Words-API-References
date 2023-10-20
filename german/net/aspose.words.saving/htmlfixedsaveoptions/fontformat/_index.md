@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Ruft ab oder legt festExportFontFormat Wird zum Exportieren von Schriftarten verwendet. Der Standardwert istWoff .
+linktitle: FontFormat
+articleTitle: FontFormat
+second_title: Aspose.Words für .NET
+description: HtmlFixedSaveOptions FontFormat eigendom. Ruft ab oder legt festExportFontFormat Wird zum Exportieren von Schriftarten verwendet. Der Standardwert istWoff  in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest[`ExportFontFormat`](../../exportfontformat/) Wird zum Exp
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie beim Speichern eines Dokuments im HTML-Format Schriftarten nur vom Zielcomputer verwendet werden.
 
@@ -45,7 +47,5 @@ else
 
 * enum [ExportFontFormat](../../exportfontformat/)
 * class [HtmlFixedSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

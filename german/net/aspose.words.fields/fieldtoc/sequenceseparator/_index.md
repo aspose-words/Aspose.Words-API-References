@@ -1,7 +1,9 @@
 ---
 title: FieldToc.SequenceSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft die Zeichenfolge ab die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird oder legt diese fest.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words für .NET
+description: FieldToc SequenceSeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.fields/fieldtoc/sequenceseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen von Sequenznummern und Seitenzahlen ve
 public string SequenceSeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein TOC-Feld mithilfe von SEQ-Feldern mit Einträgen gefüllt wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

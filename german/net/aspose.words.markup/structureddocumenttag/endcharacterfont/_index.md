@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Schriftartformatierung die auf das letzte Zeichen des eingegebenen Textes angewendet wird SDT .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag EndCharacterFont eigendom. Schriftartformatierung die auf das letzte Zeichen des eingegebenen Textes angewendet wirdSDT  in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-Schriftartformatierung, die auf das letzte Zeichen des eingegebenen Textes angewendet wird **SDT** .
+Schriftartformatierung, die auf das letzte Zeichen des eingegebenen Textes angewendet wird**SDT** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

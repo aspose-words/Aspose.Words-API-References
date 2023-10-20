@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageFieldMergingArgs eigendom. Gibt den Stream an aus dem die SerienbriefEngine ein Bild lesen soll.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words für .NET
+description: ImageFieldMergingArgs ImageStream eigendom. Gibt den Stream an aus dem die SerienbriefEngine ein Bild lesen soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ Gibt den Stream an, aus dem die Serienbrief-Engine ein Bild lesen soll.
 public Stream ImageStream { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words schließt diesen Stream, nachdem das Bild in das Dokument eingefügt wurde.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Siehe auch
 
 * class [ImageFieldMergingArgs](../)
-* namensraum [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

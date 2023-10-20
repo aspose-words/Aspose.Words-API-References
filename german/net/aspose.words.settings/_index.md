@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.Settings
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Settings Namespace enthält Klassen und Enums  die beim Angeben verschiedener in einem Dokument gespeicherter Einstellungen und Optionen verwendet werden. Dies sind Seriendruck Schreibschutz Kompatibilität und andere Einstellungen.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Settings Namespace enthält Klassen und Enums  die beim Angeben verschiedener in einem Dokument gespeicherter Einstellungen und Optionen verwendet werden. Dies sind Seriendruck Schreibschutz Kompatibilität und andere Einstellungen in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words.settings/
 ---
-Der **Aspose.Words.Settings** Namespace enthält Klassen und Enums , die beim Angeben verschiedener in einem Dokument gespeicherter Einstellungen und Optionen verwendet werden. Dies sind Seriendruck, Schreibschutz, Kompatibilität und andere Einstellungen.
+Der**Aspose.Words.Settings** Namespace enthält Klassen und Enums , die beim Angeben verschiedener in einem Dokument gespeicherter Einstellungen und Optionen verwendet werden. Dies sind Seriendruck, Schreibschutz, Kompatibilität und andere Einstellungen.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Enthält Kompatibilitätsoptionen (d. h. die Benutzereinstellungen, die im eingegeben wurden **Kompatibilität** Registerkarte des **Optionen** Dialog in Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions/) | Enthält Kompatibilitätsoptionen (d. h. die Benutzereinstellungen, die im eingegeben wurden**Kompatibilität** Registerkarte des**Optionen** Dialog in Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions/) | Ermöglicht die Konfiguration der Silbentrennungsoptionen für Dokumente. |
 | [MailMergeSettings](./mailmergesettings/) | Gibt alle Serienbriefinformationen für ein Dokument an. |
 | [Odso](./odso/) | Gibt die Office Data Source Object (ODSO)-Einstellungen für eine Serienbrief-Datenquelle an. |
@@ -38,5 +40,3 @@ Der **Aspose.Words.Settings** Namespace enthält Klassen und Enums , die beim An
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Gibt die möglichen Typen an, die verwendet werden, um anzuzeigen, ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde. |
 | [ViewType](./viewtype/) | Mögliche Werte für den Ansichtsmodus in Microsoft Word. |
 | [ZoomType](./zoomtype/) | Mögliche Werte dafür, wie groß oder klein das Dokument auf dem Bildschirm in Microsoft Word erscheint. |
-
-

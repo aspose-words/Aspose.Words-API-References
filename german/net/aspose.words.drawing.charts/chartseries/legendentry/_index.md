@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.LegendEntry
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries eigendom. Ruft einen Legendeneintrag für diese Diagrammserie ab.
+linktitle: LegendEntry
+articleTitle: LegendEntry
+second_title: Aspose.Words für .NET
+description: ChartSeries LegendEntry eigendom. Ruft einen Legendeneintrag für diese Diagrammserie ab in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.drawing.charts/chartseries/legendentry/
@@ -18,7 +20,5 @@ public ChartLegendEntry LegendEntry { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

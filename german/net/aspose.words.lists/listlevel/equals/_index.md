@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Equals
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel methode. Vergleicht mit dem angegebenen ListLevel.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words für .NET
+description: ListLevel Equals methode. Vergleicht mit dem angegebenen ListLevel in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.lists/listlevel/equals/
@@ -17,7 +19,5 @@ public bool Equals(ListLevel level)
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

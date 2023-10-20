@@ -1,9 +1,11 @@
 ---
 title: Document.ExpandTableStylesToDirectFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Konvertiert die in Tabellenstilen angegebene Formatierung in direkte Formatierung für Tabellen im Dokument.
+linktitle: ExpandTableStylesToDirectFormatting
+articleTitle: ExpandTableStylesToDirectFormatting
+second_title: Aspose.Words für .NET
+description: Document ExpandTableStylesToDirectFormatting methode. Konvertiert die in Tabellenstilen angegebene Formatierung in direkte Formatierung für Tabellen im Dokument in C#.
 type: docs
-weight: 610
+weight: 590
 url: /de/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
@@ -14,7 +16,7 @@ Konvertiert die in Tabellenstilen angegebene Formatierung in direkte Formatierun
 public void ExpandTableStylesToDirectFormatting()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode existiert, weil diese Version von Aspose.Words nur begrenzte Unterstützung für -Tabellenstile bietet (siehe unten). Diese Methode kann nützlich sein, wenn Sie ein DOCX- oder WordprocessingML -Dokument laden, das Tabellen enthält, die mit Tabellenstilen formatiert sind, und Sie die Formatierung von Tabellen, Zellen, Absätzen oder Text abfragen müssen.
 
@@ -24,7 +26,7 @@ Diese Version von Aspose.Words bietet eingeschränkte Unterstützung für Tabell
 * Tabellenstile, die in DOCX- oder WordprocessingML-Dokumenten definiert sind, werden beim Speichern des Dokuments in einem anderen Format, beim Rendern oder Drucken automatisch in die direkte Formatierung in Tabellen konvertiert.
 * In DOC-Dokumenten definierte Tabellenstile bleiben als Tabellenstile erhalten, wenn das Dokument nur als DOC gespeichert wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines Tabellenstils direkt auf die Elemente der Tabelle angewendet werden.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

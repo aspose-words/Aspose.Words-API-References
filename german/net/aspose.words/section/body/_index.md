@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section eigendom. Gibt die zurückBody Unterknoten des Abschnitts.
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words für .NET
+description: Section Body eigendom. Gibt die zurückBody Unterknoten des Abschnitts in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ Gibt die zurück[`Body`](../../body/) Unterknoten des Abschnitts.
 public Body Body { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 [`Body`](../../body/) enthält den Haupttext des Abschnitts.
 
 Kehrt zurück`Null` wenn der Abschnitt kein hat[`Body`](../../body/) Knoten unter seinen Kindern.
 
-### Beispiele
+## Beispiele
 
 Löscht den Haupttext aus allen Abschnitten des Dokuments, wobei die Abschnitte selbst übrig bleiben.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

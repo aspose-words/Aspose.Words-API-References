@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft den vertikalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element abRelativeVerticalPosition Eigenschaft.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words für .NET
+description: FrameFormat VerticalPosition eigendom. Ruft den vertikalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element abRelativeVerticalPosition Eigenschaft in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/frameformat/verticalposition/
@@ -14,7 +16,7 @@ Ruft den vertikalen Abstand zwischen der Kante des Rahmens und dem durch das ang
 public double VerticalPosition { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Siehe auch
 
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

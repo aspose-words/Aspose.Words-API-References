@@ -1,7 +1,9 @@
 ---
 title: FieldRef.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRef eigendom. Ruft den Namen des referenzierten Lesezeichens ab oder legt diesen fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldRef BookmarkName eigendom. Ruft den Namen des referenzierten Lesezeichens ab oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldref/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des referenzierten Lesezeichens ab oder legt diesen fest.
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit einem SET-Feld markierten Text erstellen und ihn dann mithilfe eines REF-Felds im Dokument anzeigen.
 
@@ -130,7 +132,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Siehe auch
 
 * class [FieldRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

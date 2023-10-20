@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdatedFieldsCount
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldUpdatingProgressArgs eigendom. Ruft die Anzahl der aktualisierten Felder ab.
+linktitle: UpdatedFieldsCount
+articleTitle: UpdatedFieldsCount
+second_title: Aspose.Words für .NET
+description: FieldUpdatingProgressArgs UpdatedFieldsCount eigendom. Ruft die Anzahl der aktualisierten Felder ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -14,7 +16,7 @@ Ruft die Anzahl der aktualisierten Felder ab.
 public int UpdatedFieldsCount { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Siehe auch
 
 * class [FieldUpdatingProgressArgs](../)
-* namensraum [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

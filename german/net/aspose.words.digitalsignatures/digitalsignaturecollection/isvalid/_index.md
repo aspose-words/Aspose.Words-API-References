@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignatureCollection eigendom. Gibt zurückWAHR wenn alle digitalen Signaturen in dieser Sammlung gültig sind und das Dokument nicht manipuliert wurde Wird ebenfalls zurückgegebenWAHR wenn keine digitalen Signaturen vorhanden sind. Gibt zurückFALSCH wenn mindestens eine digitale Signatur ungültig ist.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words für .NET
+description: DigitalSignatureCollection IsValid eigendom. Gibt zurückWAHR wenn alle digitalen Signaturen in dieser Sammlung gültig sind und das Dokument nicht manipuliert wurde Wird ebenfalls zurückgegebenWAHR wenn keine digitalen Signaturen vorhanden sind. Gibt zurückFALSCH wenn mindestens eine digitale Signatur ungültig ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn alle digitalen Signaturen in dieser Sammlung gültig sin
 public bool IsValid { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Siehe auch
 
 * class [DigitalSignatureCollection](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

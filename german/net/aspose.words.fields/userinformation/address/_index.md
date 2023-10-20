@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Address
-second_title: Aspose.Words für .NET-API-Referenz
-description: UserInformation eigendom. Ruft die Postanschrift des Benutzers ab oder legt diese fest.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words für .NET
+description: UserInformation Address eigendom. Ruft die Postanschrift des Benutzers ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/userinformation/address/
@@ -14,7 +16,7 @@ Ruft die Postanschrift des Benutzers ab oder legt diese fest.
 public string Address { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Benutzerdetails festgelegt und mithilfe von Feldern angezeigt werden.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Siehe auch
 
 * class [UserInformation](../)
-* namensraum [Aspose.Words.Fields](../../userinformation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

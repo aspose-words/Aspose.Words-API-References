@@ -1,7 +1,9 @@
 ---
 title: ChartXValueCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartXValueCollection eigendom. Ruft den XWert am angegebenen Index ab oder legt ihn fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ChartXValueCollection Item eigendom. Ruft den XWert am angegebenen Index ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartxvaluecollection/item/
@@ -14,15 +16,13 @@ Ruft den X-Wert am angegebenen Index ab oder legt ihn fest.
 public ChartXValue this[int index] { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Leere Werte werden dargestellt als **Null** .
+Leere Werte werden dargestellt als**Null** .
 
 ### Siehe auch
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartXValueCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartxvaluecollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

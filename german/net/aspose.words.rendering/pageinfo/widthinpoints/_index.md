@@ -1,7 +1,9 @@
 ---
 title: PageInfo.WidthInPoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo eigendom. Ermittelt die Breite der Seite in Punkten.
+linktitle: WidthInPoints
+articleTitle: WidthInPoints
+second_title: Aspose.Words für .NET
+description: PageInfo WidthInPoints eigendom. Ermittelt die Breite der Seite in Punkten in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.rendering/pageinfo/widthinpoints/
@@ -14,7 +16,7 @@ Ermittelt die Breite der Seite in Punkten.
 public float WidthInPoints { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Siehe auch
 
 * class [PageInfo](../)
-* namensraum [Aspose.Words.Rendering](../../pageinfo/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

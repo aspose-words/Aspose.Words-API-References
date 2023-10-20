@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.DisplayUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt den Skalierungswert der Anzeigeeinheiten für die Werteachse an.
+linktitle: DisplayUnit
+articleTitle: DisplayUnit
+second_title: Aspose.Words für .NET
+description: ChartAxis DisplayUnit eigendom. Gibt den Skalierungswert der Anzeigeeinheiten für die Werteachse an in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing.charts/chartaxis/displayunit/
@@ -14,11 +16,11 @@ Gibt den Skalierungswert der Anzeigeeinheiten für die Werteachse an.
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft hat nur Auswirkungen auf Wertachsen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * class [AxisDisplayUnit](../../axisdisplayunit/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

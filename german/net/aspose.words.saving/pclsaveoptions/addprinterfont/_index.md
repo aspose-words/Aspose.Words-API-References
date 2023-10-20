@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.AddPrinterFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: PclSaveOptions methode. Fügt Informationen über die Schriftart hinzu die vom Hersteller auf den Drucker hochgeladen wird.
+linktitle: AddPrinterFont
+articleTitle: AddPrinterFont
+second_title: Aspose.Words für .NET
+description: PclSaveOptions AddPrinterFont methode. Fügt Informationen über die Schriftart hinzu die vom Hersteller auf den Drucker hochgeladen wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/pclsaveoptions/addprinterfont/
@@ -19,11 +21,11 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 | fontFullName | String | Vollständiger Name der Schriftart (z. B. „Times New Roman Bold Italic“). |
 | fontPclName | String | Name der Schriftart, die im PCL-Dokument verwendet wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Es gibt 52 Schriftarten, die in jedem Drucker gemäß der PCL-Spezifikation erstellt werden müssen. Allerdings können Hersteller ihren Geräten einige andere Schriftarten hinzufügen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Drucker dazu bringt, alle Instanzen einer bestimmten Schriftart durch eine andere Schriftart zu ersetzen.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ### Siehe auch
 
 * class [PclSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pclsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

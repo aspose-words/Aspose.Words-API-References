@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.AlternateText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGreetingLine eigendom. Ruft den in das Feld aufzunehmenden Text ab oder legt diesen fest wenn der Name leer ist.
+linktitle: AlternateText
+articleTitle: AlternateText
+second_title: Aspose.Words für .NET
+description: FieldGreetingLine AlternateText eigendom. Ruft den in das Feld aufzunehmenden Text ab oder legt diesen fest wenn der Name leer ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldgreetingline/alternatetext/
@@ -14,7 +16,7 @@ Ruft den in das Feld aufzunehmenden Text ab oder legt diesen fest, wenn der Name
 public string AlternateText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein GREETINGLINE-Feld eingefügt wird.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Siehe auch
 
 * class [FieldGreetingLine](../)
-* namensraum [Aspose.Words.Fields](../../fieldgreetingline/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

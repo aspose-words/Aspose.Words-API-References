@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt die Art der Fehlerberichterstattung an die von Microsoft Word beim Durchführen eines Seriendrucks durchgeführt werden soll. Der Standardwert istDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words für .NET
+description: MailMergeSettings CheckErrors eigendom. Gibt die Art der Fehlerberichterstattung an die von Microsoft Word beim Durchführen eines Seriendrucks durchgeführt werden soll. Der Standardwert istDefault  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ Gibt die Art der Fehlerberichterstattung an, die von Microsoft Word beim Durchf�
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

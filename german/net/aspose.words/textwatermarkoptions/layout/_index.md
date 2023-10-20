@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Layout
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextWatermarkOptions eigendom. Ruft das Layout des Wasserzeichens ab oder legt es fest. Der Standardwert istDiagonal .
+linktitle: Layout
+articleTitle: Layout
+second_title: Aspose.Words für .NET
+description: TextWatermarkOptions Layout eigendom. Ruft das Layout des Wasserzeichens ab oder legt es fest. Der Standardwert istDiagonal  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/textwatermarkoptions/layout/
@@ -14,7 +16,7 @@ Ruft das Layout des Wasserzeichens ab oder legt es fest. Der Standardwert istDia
 public WatermarkLayout Layout { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textwasserzeichen erstellt.
 
@@ -46,7 +48,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * enum [WatermarkLayout](../../watermarklayout/)
 * class [TextWatermarkOptions](../)
-* namensraum [Aspose.Words](../../textwatermarkoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

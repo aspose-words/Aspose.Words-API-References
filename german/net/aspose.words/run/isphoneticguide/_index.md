@@ -1,7 +1,9 @@
 ---
 title: Run.IsPhoneticGuide
-second_title: Aspose.Words für .NET-API-Referenz
-description: Run eigendom. Ruft einen booleschen Wert ab der angibt ob es sich bei der Ausführung um einen phonetischen Leitfaden handelt.
+linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
+second_title: Aspose.Words für .NET
+description: Run IsPhoneticGuide eigendom. Ruft einen booleschen Wert ab der angibt ob es sich bei der Ausführung um einen phonetischen Leitfaden handelt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/run/isphoneticguide/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab, der angibt, ob es sich bei der Ausführung um ein
 public bool IsPhoneticGuide { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Eigenschaften des phonetischen Führers erhält.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Siehe auch
 
 * class [Run](../)
-* namensraum [Aspose.Words](../../run/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

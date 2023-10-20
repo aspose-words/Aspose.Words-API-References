@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border methode. Setzt die Randeigenschaften auf die Standardwerte zurück.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words für .NET
+description: Border ClearFormatting methode. Setzt die Randeigenschaften auf die Standardwerte zurück in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ Setzt die Randeigenschaften auf die Standardwerte zurück.
 public void ClearFormatting()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die Randeigenschaften auf die Standardwerte zurückgesetzt werden, ist der Rand unsichtbar.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Rahmen aus einem Absatz entfernt werden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Siehe auch
 
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

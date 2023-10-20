@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartLegend eigendom. Legt fest ob andere Diagrammelemente die Legende überlappen dürfen. Der Standardwert istFALSCH .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words für .NET
+description: ChartLegend Overlay eigendom. Legt fest ob andere Diagrammelemente die Legende überlappen dürfen. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ Legt fest, ob andere Diagrammelemente die Legende überlappen dürfen. Der Stand
 public bool Overlay { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild der Legende eines Diagramms bearbeitet wird.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### Siehe auch
 
 * class [ChartLegend](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

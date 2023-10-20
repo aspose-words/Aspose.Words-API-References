@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font methode. Setzt die Standardschriftartformatierung zurück.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words für .NET
+description: Font ClearFormatting methode. Setzt die Standardschriftartformatierung zurück in C#.
 type: docs
 weight: 550
 url: /de/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ Setzt die Standardschriftartformatierung zurück.
 public void ClearFormatting()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Entfernt alle explizit für das Objekt angegebenen Schriftartformatierungen aus which [`Font`](../) wurde erhalten, sodass die Schriftartformatierung vom entsprechenden übergeordneten Element geerbt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Hyperlinkfeld eingefügt wird.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlSchemaCollection eigendom. Ruft das Element am angegebenen Index ab oder legt es fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: CustomXmlSchemaCollection Item eigendom. Ruft das Element am angegebenen Index ab oder legt es fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ Ruft das Element am angegebenen Index ab oder legt es fest.
 public string this[int index] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer XML-Schemasammlung gearbeitet wird.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Siehe auch
 
 * class [CustomXmlSchemaCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

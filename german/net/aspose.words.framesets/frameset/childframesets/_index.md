@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Aspose.Words für .NET-API-Referenz
-description: Frameset eigendom. Ruft die Sammlung untergeordneter Frames und FrameSeiten ab.
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: Aspose.Words für .NET
+description: Frameset ChildFramesets eigendom. Ruft die Sammlung untergeordneter Frames und FrameSeiten ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ Ruft die Sammlung untergeordneter Frames und Frame-Seiten ab.
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Frames auf der Seite zugreift.
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* namensraum [Aspose.Words.Framesets](../../frameset/)
+* namensraum [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Montage [Aspose.Words](../../../)
-
-

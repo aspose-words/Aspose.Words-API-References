@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.IsEncrypted
-second_title: Aspose.Words für .NET-API-Referenz
-description: FileFormatInfo eigendom. Gibt zurückWAHR wenn das Dokument verschlüsselt ist und zum Öffnen ein Passwort erfordert.
+linktitle: IsEncrypted
+articleTitle: IsEncrypted
+second_title: Aspose.Words für .NET
+description: FileFormatInfo IsEncrypted eigendom. Gibt zurückWAHR wenn das Dokument verschlüsselt ist und zum Öffnen ein Passwort erfordert in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/fileformatinfo/isencrypted/
@@ -14,11 +16,11 @@ Gibt zurück`WAHR` wenn das Dokument verschlüsselt ist und zum Öffnen ein Pass
 public bool IsEncrypted { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft hilft Ihnen dabei, verschlüsselte Dokumente von nicht verschlüsselten Dokumenten zu unterscheiden. Wenn Sie versuchen, ein verschlüsseltes Dokument mit Aspose.Words zu laden, ohne ein Kennwort anzugeben, wird eine -Ausnahme ausgelöst. Mit dieser Eigenschaft können Sie erkennen, ob für ein Dokument ein Kennwort erforderlich ist, und vor dem Laden eines Dokuments Maßnahmen ergreifen, beispielsweise den Benutzer zur Eingabe eines Kennworts auffordern.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die FileFormatUtil-Klasse verwendet wird, um das Dokumentformat und die Verschlüsselung zu erkennen.
 
@@ -42,7 +44,5 @@ Assert.True(info.IsEncrypted);
 ### Siehe auch
 
 * class [FileFormatInfo](../)
-* namensraum [Aspose.Words](../../fileformatinfo/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

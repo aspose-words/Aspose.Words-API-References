@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Aspose.Words für .NET-API-Referenz
-description: GlossaryDocument methode. Findet einen Baustein anhand der angegebenen Galerie Kategorie und des angegebenen Namens.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words für .NET
+description: GlossaryDocument GetBuildingBlock methode. Findet einen Baustein anhand der angegebenen Galerie Kategorie und des angegebenen Namens in C#.
 type: docs
-weight: 90
+weight: 70
 url: /de/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 Der passende Baustein bzw`Null` wenn keine Übereinstimmung gefunden wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine praktische Methode, die alle Bausteine in dieser Sammlung durchläuft und den ersten Baustein zurückgibt, der mit der angegebenen Galerie, Kategorie und dem angegebenen Namen übereinstimmt.
 
 Microsoft Word organisiert Bausteine in Galerien. Die Galerien sind mit vordefiniert[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Innerhalb jeder Galerie können Bausteine in einer oder mehreren Kategorien organisiert werden. Der Kategoriename ist eine Zeichenfolge. Jeder Baustein hat einen Namen. Es kann nicht garantiert werden, dass der Name eines Bausteins eindeutig ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

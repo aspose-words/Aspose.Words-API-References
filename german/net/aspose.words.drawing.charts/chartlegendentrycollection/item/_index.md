@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartLegendEntryCollection eigendom. Gibt zurückChartLegendEntry für den angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ChartLegendEntryCollection Item eigendom. Gibt zurückChartLegendEntry für den angegebenen Index in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
@@ -18,7 +20,5 @@ public ChartLegendEntry this[int index] { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

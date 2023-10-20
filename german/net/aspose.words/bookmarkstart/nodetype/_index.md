@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkStart eigendom. Gibt zurückBookmarkStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: BookmarkStart NodeType eigendom. Gibt zurückBookmarkStart  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/bookmarkstart/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückBookmarkStart .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkStart](../)
-* namensraum [Aspose.Words](../../bookmarkstart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

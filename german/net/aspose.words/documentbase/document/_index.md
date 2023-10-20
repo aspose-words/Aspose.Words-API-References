@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Ruft diese Instanz ab.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: DocumentBase Document eigendom. Ruft diese Instanz ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/documentbase/document/
@@ -17,7 +19,5 @@ public override DocumentBase Document { get; }
 ### Siehe auch
 
 * class [DocumentBase](../)
-* namensraum [Aspose.Words](../../documentbase/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

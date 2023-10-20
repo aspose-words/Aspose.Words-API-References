@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Aktualisiert die Wortanzahleigenschaften des Dokuments.
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: Aspose.Words für .NET
+description: Document UpdateWordCount methode. Aktualisiert die Wortanzahleigenschaften des Dokuments in C#.
 type: docs
-weight: 810
+weight: 790
 url: /de/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ Aktualisiert die Wortanzahleigenschaften des Dokuments.
 public void UpdateWordCount()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 `UpdateWordCount` Berechnet die Eigenschaften „Zeichen“, „Wörter“ und „Absätze“ neu und aktualisiert sie[`BuiltInDocumentProperties`](../builtindocumentproperties/) Sammlung der[`Document`](../).
 
@@ -22,7 +24,7 @@ Beachten Sie, dass`UpdateWordCount`aktualisiert die Zeilenanzahl- und Seiteneige
 
 Wenn Sie eine Testversion verwenden, wird das Testwasserzeichen auch in die Wortanzahl einbezogen .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Listenbezeichnungen in einem Dokument aktualisiert werden.
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 Aktualisiert die Wortanzahleigenschaften des Dokuments, optional aktualisiert[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) Eigenschaft.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `WAHR` ob die Anzahl der Zeilen im Dokument berechnet werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode erstellt das Seitenlayout des Dokuments neu.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Listenbezeichnungen in einem Dokument aktualisiert werden.
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

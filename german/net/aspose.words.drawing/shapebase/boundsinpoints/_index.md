@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsInPoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft die Position und Größe des enthaltenden Blocks der Form in Punkten ab relativ zum Anker der obersten Form.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words für .NET
+description: ShapeBase BoundsInPoints eigendom. Ruft die Position und Größe des enthaltenden Blocks der Form in Punkten ab relativ zum Anker der obersten Form in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing/shapebase/boundsinpoints/
@@ -14,7 +16,7 @@ Ruft die Position und Größe des enthaltenden Blocks der Form in Punkten ab, re
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form überprüft wird, die Blockgrenzen enthält.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

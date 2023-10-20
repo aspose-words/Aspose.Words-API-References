@@ -1,7 +1,9 @@
 ---
 title: Inline.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: Inline eigendom. Bietet Zugriff auf die Schriftartformatierung dieses Objekts.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: Inline Font eigendom. Bietet Zugriff auf die Schriftartformatierung dieses Objekts in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/inline/font/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Schriftartformatierung dieses Objekts.
 public Font Font { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* namensraum [Aspose.Words](../../inline/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

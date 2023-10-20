@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldEndChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Ende des MS WordFeldzeichens char21.
+linktitle: FieldEndChar
+articleTitle: FieldEndChar
+second_title: Aspose.Words für .NET
+description: ControlChar FieldEndChar veld. Ende des MS WordFeldzeichens char21 in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/controlchar/fieldendchar/
@@ -14,7 +16,7 @@ Ende des MS Word-Feldzeichens: (char)21.
 public const char FieldEndChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

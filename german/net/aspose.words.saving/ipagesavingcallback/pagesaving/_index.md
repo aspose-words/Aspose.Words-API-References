@@ -1,7 +1,9 @@
 ---
 title: IPageSavingCallback.PageSaving
-second_title: Aspose.Words für .NET-API-Referenz
-description: IPageSavingCallback methode. Wird aufgerufen wenn Aspose.Words eine separate Seite in festen Seitenformaten speichert.
+linktitle: PageSaving
+articleTitle: PageSaving
+second_title: Aspose.Words für .NET
+description: IPageSavingCallback PageSaving methode. Wird aufgerufen wenn Aspose.Words eine separate Seite in festen Seitenformaten speichert in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/ipagesavingcallback/pagesaving/
@@ -14,7 +16,7 @@ Wird aufgerufen, wenn Aspose.Words eine separate Seite in festen Seitenformaten 
 public void PageSaving(PageSavingArgs args)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf verwendet wird, um ein Dokument Seite für Seite im HTML-Format zu speichern.
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * class [PageSavingArgs](../../pagesavingargs/)
 * interface [IPageSavingCallback](../)
-* namensraum [Aspose.Words.Saving](../../ipagesavingcallback/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

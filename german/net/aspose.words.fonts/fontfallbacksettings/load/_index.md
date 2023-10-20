@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontFallbackSettings methode. Lädt SchriftartFallbackEinstellungen aus der XMLDatei.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words für .NET
+description: FontFallbackSettings Load methode. Lädt SchriftartFallbackEinstellungen aus der XMLDatei in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Lädt Schriftart-Fallback-Einstellungen aus der XML-Datei.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Name der Eingabedatei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftart-Fallback-Einstellungen in/aus einem XML-Dokument im lokalen Dateisystem geladen und gespeichert werden.
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Siehe auch
 
 * class [FontFallbackSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Lädt Fallback-Einstellungen aus dem XML-Stream.
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Eingabestrom. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftart-Fallback-Einstellungen in/aus einem Stream geladen und gespeichert werden.
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### Siehe auch
 
 * class [FontFallbackSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

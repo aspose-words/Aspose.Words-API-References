@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery opsomming. Gibt die vordefinierte Galerie an in die ein Baustein klassifiziert wird.
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery opsomming. Gibt die vordefinierte Galerie an in die ein Baustein klassifiziert wird in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.buildingblocks/buildingblockgallery/
@@ -58,11 +60,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | Das Gleiche wieAll . |
 
-### Bemerkungen
+## Bemerkungen
 
-Entspricht dem **ST_DocPartGallery** Geben Sie OOXML ein.
+Entspricht dem**ST_DocPartGallery** Geben Sie OOXML ein.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
@@ -167,5 +169,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * namensraum [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../)
-
-

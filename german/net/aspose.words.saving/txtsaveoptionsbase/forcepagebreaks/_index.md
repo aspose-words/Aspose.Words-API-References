@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptionsBase eigendom. Ermöglicht die Angabe ob die Seitenumbrüche beim Export beibehalten werden sollen.
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: Aspose.Words für .NET
+description: TxtSaveOptionsBase ForcePageBreaks eigendom. Ermöglicht die Angabe ob die Seitenumbrüche beim Export beibehalten werden sollen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ Der Standardwert ist`FALSCH`.
 public bool ForcePageBreaks { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft betrifft nur Seitenumbrüche, die explizit in ein Dokument eingefügt werden. Es hat nichts mit Seitenumbrüchen zu tun, die MS Word automatisch am Ende jeder Seite einfügt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie angeben, ob Seitenumbrüche beim Exportieren eines Dokuments in Klartext beibehalten werden sollen.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### Siehe auch
 
 * class [TxtSaveOptionsBase](../)
-* namensraum [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

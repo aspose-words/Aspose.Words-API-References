@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.RightExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldNextIf eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words für .NET
+description: FieldNextIf RightExpression eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldnextif/rightexpression/
@@ -14,7 +16,7 @@ Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
 public string RightExpression { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie NEXT/NEXTIF-Felder verwenden, um während eines Seriendrucks mehrere Zeilen auf einer Seite zusammenzuführen.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Siehe auch
 
 * class [FieldNextIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldnextif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

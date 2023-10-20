@@ -1,7 +1,9 @@
 ---
-title: Class Node
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Node klas. Basisklasse für alle Knoten eines WordDokuments.
+title: Node Class
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Node klas. Basisklasse für alle Knoten eines WordDokuments in C#.
 type: docs
 weight: 4170
 url: /de/net/aspose.words/node/
@@ -33,19 +35,19 @@ public abstract class Node
 
 | Name | Beschreibung |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Eine Dienstprogrammmethode, die einen Knotentyp-Enumerationswert in eine benutzerfreundliche Zeichenfolge konvertiert. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | Eine Dienstprogrammmethode, die einen Knotentyp-Enumerationswert in eine benutzerfreundliche Zeichenfolge konvertiert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Dokument wird als Knotenbaum dargestellt, ähnlich wie DOM oder XmlDocument.
 
@@ -59,7 +61,7 @@ Der`Node` Klasse:
 * Implementiert Mechanismen für übergeordnete Knoten und Eigentümerdokumente.
 * Implementiert den Zugriff auf Geschwisterknoten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle untergeordneten Knoten eines bestimmten Typs aus einem zusammengesetzten Knoten entfernt werden.
 
@@ -151,5 +153,3 @@ foreach (Node child in children)
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

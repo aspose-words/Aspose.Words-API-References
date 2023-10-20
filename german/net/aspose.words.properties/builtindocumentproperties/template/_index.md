@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Ruft den Informationsnamen der Dokumentvorlage ab oder legt diesen fest.
+linktitle: Template
+articleTitle: Template
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Template eigendom. Ruft den Informationsnamen der Dokumentvorlage ab oder legt diesen fest in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ Ruft den Informationsnamen der Dokumentvorlage ab oder legt diesen fest.
 public string Template { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 In Microsoft Word dient diese Eigenschaft nur zu Informationszwecken und enthält normalerweise nur den Dateinamen der Vorlage ohne den Pfad.
 
@@ -22,7 +24,7 @@ Eine leere Zeichenfolge bedeutet, dass das Dokument an die Vorlage „Normal“ 
 
 Um den tatsächlichen Namen der angehängten Vorlage abzurufen oder festzulegen, verwenden Sie the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Ursprung“ gearbeitet wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

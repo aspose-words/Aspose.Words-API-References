@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.BalanceSingleByteDoubleByteWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Balance zwischen Einzelbyte und DoppelbyteZeichen.
+linktitle: BalanceSingleByteDoubleByteWidth
+articleTitle: BalanceSingleByteDoubleByteWidth
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions BalanceSingleByteDoubleByteWidth eigendom. Balance zwischen Einzelbyte und DoppelbyteZeichen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/
@@ -17,7 +19,5 @@ public bool BalanceSingleByteDoubleByteWidth { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

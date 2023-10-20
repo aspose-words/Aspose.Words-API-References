@@ -1,7 +1,9 @@
 ---
 title: Document.FirstSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft den ersten Abschnitt im Dokument ab.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words für .NET
+description: Document FirstSection eigendom. Ruft den ersten Abschnitt im Dokument ab in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/document/firstsection/
@@ -14,11 +16,11 @@ Ruft den ersten Abschnitt im Dokument ab.
 public Section FirstSection { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt zurück`Null` wenn keine Abschnitte vorhanden sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in der Fußzeile eines Dokuments ersetzt wird.
 
@@ -120,7 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

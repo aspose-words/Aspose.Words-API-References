@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode opsomming. Gibt an wie Kopf und Fußzeilen in das NurTextFormat exportiert werden.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode opsomming. Gibt an wie Kopf und Fußzeilen in das NurTextFormat exportiert werden in C#.
 type: docs
 weight: 5640
 url: /de/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | Am Anfang und Ende jedes Abschnitts werden nur primäre Kopf- und Fußzeilen exportiert. |
 | AllAtEnd | `2` | Alle Kopf- und Fußzeilen werden nach allen Abschnittskörpern ganz am Ende eines Dokuments platziert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie angeben, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

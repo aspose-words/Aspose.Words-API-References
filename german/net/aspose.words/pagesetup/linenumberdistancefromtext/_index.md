@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberDistanceFromText
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft den Abstand zwischen dem rechten Rand der Zeilennummern und dem linken Rand des Dokuments ab oder legt diesen fest.
+linktitle: LineNumberDistanceFromText
+articleTitle: LineNumberDistanceFromText
+second_title: Aspose.Words für .NET
+description: PageSetup LineNumberDistanceFromText eigendom. Ruft den Abstand zwischen dem rechten Rand der Zeilennummern und dem linken Rand des Dokuments ab oder legt diesen fest in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -14,11 +16,11 @@ Ruft den Abstand zwischen dem rechten Rand der Zeilennummern und dem linken Rand
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Setzen Sie diese Eigenschaft auf Null, um den automatischen Abstand zwischen den Zeilennummern und dem Text des Dokuments zu gewährleisten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilennummerierung für einen Abschnitt aktiviert wird.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

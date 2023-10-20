@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.IFieldUserPromptRespondent koppel. Stellt den Befragten auf Benutzereingaben während der Feldaktualisierung dar.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent koppel. Stellt den Befragten auf Benutzereingaben während der Feldaktualisierung dar in C#.
 type: docs
 weight: 2740
 url: /de/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | Name | Beschreibung |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Gibt bei Implementierung eine Antwort des Benutzers auf Aufforderung zurück. Ihre Implementierung sollte zurückgegeben werden`Null` um anzuzeigen, dass der Benutzer nicht auf die Eingabeaufforderung geantwortet hat (d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche „Abbrechen“ geklickt). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Gibt bei Implementierung eine Antwort des Benutzers auf Aufforderung zurück. Ihre Implementierung sollte zurückgegeben werden`Null` um anzuzeigen, dass der Benutzer nicht auf die Eingabeaufforderung geantwortet hat (d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche „Abbrechen“ geklickt). |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Felder ASK und FILLIN sind Beispiele für Felder, die den Benutzer zu einer Antwort auffordern. Implementieren Sie diese Schnittstelle und weisen Sie sie der zu[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) Eigenschaft zum Herstellen einer Interaktion zwischen dem Feld update und dem Benutzer.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.GeneralFormatCollection klas. Stellt eine typisierte Sammlung allgemeiner Formate dar.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.GeneralFormatCollection klas. Stellt eine typisierte Sammlung allgemeiner Formate dar in C#.
 type: docs
 weight: 2650
 url: /de/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Fügt der Sammlung ein allgemeines Format hinzu. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Fügt der Sammlung ein allgemeines Format hinzu. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Entfernt alle Vorkommen des angegebenen allgemeinen Formats aus der Sammlung. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Entfernt ein allgemeines Formatvorkommen am angegebenen Index. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Entfernt alle Vorkommen des angegebenen allgemeinen Formats aus der Sammlung. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Entfernt ein allgemeines Formatvorkommen am angegebenen Index. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Feldergebnisse formatiert werden.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

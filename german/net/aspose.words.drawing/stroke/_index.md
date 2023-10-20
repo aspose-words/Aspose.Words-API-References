@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Stroke klas. Definiert einen Strich für eine Form.
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Stroke klas. Definiert einen Strich für eine Form in C#.
 type: docs
 weight: 1310
 url: /de/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | Name | Beschreibung |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Ruft die Hintergrundfarbe des Strichs ab oder legt diese fest. |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Definiert die Farbe eines Strichs. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Definiert eine zweite Farbe für einen Strich. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Gibt das Punkt- und Strichmuster für einen Strich an. |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob der Strich sichtbar ist. |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Definiert die Pinselstärke, die den Pfad einer Form in Punkten streicht. |
 
-### Bemerkungen
+## Bemerkungen
 
 Benutzen Sie die[`Stroke`](../shape/stroke/) Eigenschaft, um auf Stricheigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen davon`Stroke` Klasse direkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie sich die Stricheigenschaften ändern.
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

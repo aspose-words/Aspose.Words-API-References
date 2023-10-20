@@ -1,7 +1,9 @@
 ---
-title: FieldMergeBarcode.FieldMergeBarcode
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode constructeur. Default_Constructor
+title: FieldMergeBarcode
+linktitle: FieldMergeBarcode
+articleTitle: FieldMergeBarcode
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldmergebarcode/fieldmergebarcode/
@@ -17,7 +19,5 @@ public FieldMergeBarcode()
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

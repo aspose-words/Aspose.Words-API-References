@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.ChildNodes
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten ab.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart ChildNodes eigendom. Ruft alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/childnodes/
@@ -18,7 +20,5 @@ public NodeCollection ChildNodes { get; }
 
 * class [NodeCollection](../../../aspose.words/nodecollection/)
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

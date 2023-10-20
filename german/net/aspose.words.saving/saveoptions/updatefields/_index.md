@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob Felder bestimmter Typen aktualisiert werden sollen bevor das Dokument in einem festen Seitenformat gespeichert wird. Der Standardwert für diese Eigenschaft istWAHR .
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words für .NET
+description: SaveOptions UpdateFields eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob Felder bestimmter Typen aktualisiert werden sollen bevor das Dokument in einem festen Seitenformat gespeichert wird. Der Standardwert für diese Eigenschaft istWAHR  in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.saving/saveoptions/updatefields/
@@ -14,11 +16,11 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob Felder bestimmter Typ
 public bool UpdateFields { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Ermöglicht die Angabe, ob das Verhalten von MS Word nachgeahmt werden soll oder nicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Felder in einem Dokument unmittelbar vor dem Speichern als PDF aktualisiert werden.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### Siehe auch
 
 * class [SaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../saveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

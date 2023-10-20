@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Subject
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Ruft den Betreff des Dokuments ab oder legt diesen fest.
+linktitle: Subject
+articleTitle: Subject
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Subject eigendom. Ruft den Betreff des Dokuments ab oder legt diesen fest in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words.properties/builtindocumentproperties/subject/
@@ -14,7 +16,7 @@ Ruft den Betreff des Dokuments ab oder legt diesen fest.
 public string Subject { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften in der Kategorie „Beschreibung“ gearbeitet wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.SourceFullName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft den Pfad und Namen der Quelldatei für das verknüpfte Bild ab oder legt diesen fest.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words für .NET
+description: ImageData SourceFullName eigendom. Ruft den Pfad und Namen der Quelldatei für das verknüpfte Bild ab oder legt diesen fest in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -14,13 +16,13 @@ Ruft den Pfad und Namen der Quelldatei für das verknüpfte Bild ab oder legt di
 public string SourceFullName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
 Wenn`SourceFullName` ist kein leerer String, das Bild ist verlinkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein verknüpftes Bild in ein Dokument eingefügt wird.
 
@@ -62,7 +64,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

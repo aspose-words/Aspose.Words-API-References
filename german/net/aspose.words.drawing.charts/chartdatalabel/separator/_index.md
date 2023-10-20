@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Separator
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Ruft das für die Datenbeschriftungen in einem Diagramm verwendete Zeichenfolgentrennzeichen ab oder legt dieses fest. Der Standardwert ist ein Komma außer bei Kreisdiagrammen die nur den Kategorienamen und den Prozentsatz anzeigen bei denen stattdessen ein Zeilenumbruch verwendet werden soll.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words für .NET
+description: ChartDataLabel Separator eigendom. Ruft das für die Datenbeschriftungen in einem Diagramm verwendete Zeichenfolgentrennzeichen ab oder legt dieses fest. Der Standardwert ist ein Komma außer bei Kreisdiagrammen die nur den Kategorienamen und den Prozentsatz anzeigen bei denen stattdessen ein Zeilenumbruch verwendet werden soll in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/separator/
@@ -14,7 +16,7 @@ Ruft das für die Datenbeschriftungen in einem Diagramm verwendete Zeichenfolgen
 public string Separator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

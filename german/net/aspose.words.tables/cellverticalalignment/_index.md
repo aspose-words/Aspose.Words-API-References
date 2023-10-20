@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.CellVerticalAlignment opsomming. Gibt die vertikale Ausrichtung von Text innerhalb einer Tabellenzelle an.
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.CellVerticalAlignment opsomming. Gibt die vertikale Ausrichtung von Text innerhalb einer Tabellenzelle an in C#.
 type: docs
 weight: 6280
 url: /de/net/aspose.words.tables/cellverticalalignment/
@@ -22,7 +24,7 @@ public enum CellVerticalAlignment
 | Center | `1` | Text wird in der Mitte einer Zelle ausgerichtet. |
 | Bottom | `2` | Text wird am unteren Rand der Zelle ausgerichtet. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine formatierte 2x2-Tabelle erstellt wird.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

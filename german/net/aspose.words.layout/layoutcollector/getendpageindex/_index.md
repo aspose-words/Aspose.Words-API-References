@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEndPageIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector methode. Ruft den 1basierten Index der Seite ab auf der der Knoten endet. Gibt 0 zurück wenn der Knoten keiner Seite zugeordnet werden kann.
+linktitle: GetEndPageIndex
+articleTitle: GetEndPageIndex
+second_title: Aspose.Words für .NET
+description: LayoutCollector GetEndPageIndex methode. Ruft den 1basierten Index der Seite ab auf der der Knoten endet. Gibt 0 zurück wenn der Knoten keiner Seite zugeordnet werden kann in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.layout/layoutcollector/getendpageindex/
@@ -14,7 +16,7 @@ Ruft den 1-basierten Index der Seite ab, auf der der Knoten endet. Gibt 0 zurüc
 public int GetEndPageIndex(Node node)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namensraum [Aspose.Words.Layout](../../layoutcollector/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

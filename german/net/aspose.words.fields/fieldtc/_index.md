@@ -1,7 +1,9 @@
 ---
-title: Class FieldTC
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldTC klas. Implementiert das TCFeld.
+title: FieldTC Class
+linktitle: FieldTC
+articleTitle: FieldTC
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldTC klas. Implementiert das TCFeld in C#.
 type: docs
 weight: 2480
 url: /de/net/aspose.words.fields/fieldtc/
@@ -46,17 +48,17 @@ public sealed class FieldTC : Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Definiert den Text und die Seitenzahl für einen Inhaltsverzeichniseintrag (einschließlich eines Abbildungsverzeichnisses), der von einem Inhaltsverzeichnisfeld verwendet wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein TOC-Feld einfügt und filtert, welche TC-Felder als Einträge enden.
 
@@ -110,5 +112,3 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ruft den Abschnitt ab der aktuell darin ausgewählt istDocumentBuilder .
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: Aspose.Words für .NET
+description: DocumentBuilder CurrentSection eigendom. Ruft den Abschnitt ab der aktuell darin ausgewählt istDocumentBuilder  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ Ruft den Abschnitt ab, der aktuell darin ausgewählt ist[`DocumentBuilder`](../)
 public Section CurrentSection { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild einfügt und seine Position und Größe angibt.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

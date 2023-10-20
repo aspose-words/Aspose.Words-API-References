@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft den Knoten ab der den Anfang des Felds darstellt.
+linktitle: Start
+articleTitle: Start
+second_title: Aspose.Words für .NET
+description: Field Start eigendom. Ruft den Knoten ab der den Anfang des Felds darstellt in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der den Anfang des Felds darstellt.
 public FieldStart Start { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

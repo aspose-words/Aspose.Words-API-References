@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot koppel. Implementieren Sie diese Schnittstelle um Serienbriefe aus einer benutzerdefinierten Datenquelle mit MasterDetailDaten zu ermöglichen.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot koppel. Implementieren Sie diese Schnittstelle um Serienbriefe aus einer benutzerdefinierten Datenquelle mit MasterDetailDaten zu ermöglichen in C#.
 type: docs
 weight: 3820
 url: /de/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | Die Mail-Merge-Engine von Aspose.Words ruft diese Methode auf, wenn sie auf den Anfang eines Mail-Merge-Bereichs der obersten Ebene stößt. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | Die Mail-Merge-Engine von Aspose.Words ruft diese Methode auf, wenn sie auf den Anfang eines Mail-Merge-Bereichs der obersten Ebene stößt. |
 
-### Beispiele
+## Beispiele
 
 Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Master-Detail-Daten durch.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

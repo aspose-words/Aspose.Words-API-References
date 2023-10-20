@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft die Ebene ab auf der dieser Tagbereich des strukturierten Dokuments im Dokumentbaum beginnt.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart Level eigendom. Ruft die Ebene ab auf der dieser Tagbereich des strukturierten Dokuments im Dokumentbaum beginnt in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/level/
@@ -14,7 +16,7 @@ Ruft die Ebene ab, auf der dieser Tagbereich des strukturierten Dokuments im Dok
 public MarkupLevel Level { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

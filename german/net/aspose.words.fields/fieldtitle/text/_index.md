@@ -1,7 +1,9 @@
 ---
 title: FieldTitle.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTitle eigendom. Ruft den Text des Titels ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldTitle Text eigendom. Ruft den Text des Titels ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldtitle/text/
@@ -14,7 +16,7 @@ Ruft den Text des Titels ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld TITLE verwendet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.TITLE.docx");
 ### Siehe auch
 
 * class [FieldTitle](../)
-* namensraum [Aspose.Words.Fields](../../fieldtitle/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

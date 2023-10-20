@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartAxis klas. Stellt die Achsenoptionen des Diagramms dar.
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartAxis klas. Stellt die Achsenoptionen des Diagramms dar in C#.
 type: docs
 weight: 630
 url: /de/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Bietet Zugriff auf die Eigenschaften des Achsentitels. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Gibt den Typ der Achse zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

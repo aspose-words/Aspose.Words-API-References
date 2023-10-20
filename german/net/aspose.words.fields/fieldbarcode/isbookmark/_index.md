@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsBookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBarcode eigendom. Ruft ab oder legt fest obPostalAddress ist der Name eines Lesezeichens.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words für .NET
+description: FieldBarcode IsBookmark eigendom. Ruft ab oder legt fest obPostalAddress ist der Name eines Lesezeichens in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldbarcode/isbookmark/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob[`PostalAddress`](../postaladdress/) ist der Name eine
 public bool IsBookmark { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld BARCODE verwendet wird, um US-Postleitzahlen in Form eines Barcodes anzuzeigen.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Siehe auch
 
 * class [FieldBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldbarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

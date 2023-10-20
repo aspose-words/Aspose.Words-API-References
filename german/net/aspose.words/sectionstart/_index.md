@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.SectionStart opsomming. Die Art der Pause am Anfang des Abschnitts.
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words für .NET
+description: Aspose.Words.SectionStart opsomming. Die Art der Pause am Anfang des Abschnitts in C#.
 type: docs
 weight: 5760
 url: /de/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | Der Abschnitt beginnt auf einer neuen geraden Seite. |
 | OddPage | `4` | Der Abschnitt beginnt auf einer neuen ungeraden Seite. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

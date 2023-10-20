@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.IsFrame
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Gibt zurückWAHR wenn der Absatz ein Frame ist.
+linktitle: IsFrame
+articleTitle: IsFrame
+second_title: Aspose.Words für .NET
+description: FrameFormat IsFrame eigendom. Gibt zurückWAHR wenn der Absatz ein Frame ist in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/frameformat/isframe/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn der Absatz ein Frame ist.
 public bool IsFrame { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Siehe auch
 
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

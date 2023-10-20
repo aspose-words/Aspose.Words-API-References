@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Italic
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. True wenn die Schriftart kursiv formatiert ist.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words für .NET
+description: DocumentBuilder Italic eigendom. True wenn die Schriftart kursiv formatiert ist in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words/documentbuilder/italic/
@@ -14,7 +16,7 @@ True, wenn die Schriftart kursiv formatiert ist.
 public bool Italic { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie MERGEFIELDs mit einem Dokumentenersteller anstelle eines Seriendrucks mit Daten gefüllt werden.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

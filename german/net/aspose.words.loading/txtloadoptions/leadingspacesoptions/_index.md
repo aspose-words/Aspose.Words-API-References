@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtLoadOptions eigendom. Ruft die bevorzugte Option einer führenden Leerzeichenbehandlung ab oder legt diese fest. Der Standardwert istConvertToIndent .
+linktitle: LeadingSpacesOptions
+articleTitle: LeadingSpacesOptions
+second_title: Aspose.Words für .NET
+description: TxtLoadOptions LeadingSpacesOptions eigendom. Ruft die bevorzugte Option einer führenden Leerzeichenbehandlung ab oder legt diese fest. Der Standardwert istConvertToIndent  in C#.
 type: docs
-weight: 60
+weight: 50
 url: /de/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -14,7 +16,7 @@ Ruft die bevorzugte Option einer führenden Leerzeichenbehandlung ab oder legt d
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Leerzeichen beim Laden von Klartextdokumenten entfernt werden.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * class [TxtLoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../txtloadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

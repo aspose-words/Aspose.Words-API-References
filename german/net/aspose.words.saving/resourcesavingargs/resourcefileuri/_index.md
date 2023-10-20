@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceSavingArgs eigendom. Ruft den Uniform Resource Identifier URI ab der zum Verweisen auf die Ressourcendatei aus dem Dokument verwendet wird oder legt diesen fest.
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: Aspose.Words für .NET
+description: ResourceSavingArgs ResourceFileUri eigendom. Ruft den Uniform Resource Identifier URI ab der zum Verweisen auf die Ressourcendatei aus dem Dokument verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -14,7 +16,7 @@ Ruft den Uniform Resource Identifier (URI) ab, der zum Verweisen auf die Ressour
 public string ResourceFileUri { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie URIs von Ressourcendateien ändern, die in HTML- oder SVG-Dokumente mit fester Seite exportiert werden.
 
@@ -24,7 +26,7 @@ Wenn das Ereignis ausgelöst wird, enthält diese Eigenschaft den URI, der von A
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Rückruf verwenden, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Siehe auch
 
 * class [ResourceSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../resourcesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

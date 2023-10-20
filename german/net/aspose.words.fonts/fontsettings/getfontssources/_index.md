@@ -1,7 +1,9 @@
 ---
 title: FontSettings.GetFontsSources
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings methode. Ruft eine Kopie des Arrays ab das die Liste der Quellen enthält in denen Aspose.Words nach TrueTypeSchriftarten sucht.
+linktitle: GetFontsSources
+articleTitle: GetFontsSources
+second_title: Aspose.Words für .NET
+description: FontSettings GetFontsSources methode. Ruft eine Kopie des Arrays ab das die Liste der Quellen enthält in denen Aspose.Words nach TrueTypeSchriftarten sucht in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 Eine Kopie der aktuellen Schriftartquellen.
 
-### Bemerkungen
+## Bemerkungen
 
 Der zurückgegebene Wert ist eine Kopie der Daten, die Aspose.Words verwendet. Wenn Sie die Einträge im zurückgegebenen Array ändern, hat dies keine Auswirkungen auf die Dokumentwiedergabe. Um neue Schriftarten anzugeben, verwenden Sie „sources “.[`SetFontsSources`](../setfontssources/) Methode.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine Schriftartenquelle zu unseren vorhandenen Schriftartenquellen hinzufügen.
 
@@ -72,7 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

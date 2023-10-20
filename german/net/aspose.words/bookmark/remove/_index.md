@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark methode. Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text im Lesezeichen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: Bookmark Remove methode. Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text im Lesezeichen in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text im Lesezeichen.
 public void Remove()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Lesezeichen aus einem Dokument entfernt werden.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Siehe auch
 
 * class [Bookmark](../)
-* namensraum [Aspose.Words](../../bookmark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

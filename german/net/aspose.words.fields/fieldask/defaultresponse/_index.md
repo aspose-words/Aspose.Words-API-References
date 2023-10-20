@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.DefaultResponse
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAsk eigendom. Ruft die Standardbenutzerantwort ab oder legt diese fest Anfangswert im Eingabeaufforderungsfenster enthalten.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words für .NET
+description: FieldAsk DefaultResponse eigendom. Ruft die Standardbenutzerantwort ab oder legt diese fest Anfangswert im Eingabeaufforderungsfenster enthalten in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldask/defaultresponse/
@@ -14,7 +16,7 @@ Ruft die Standardbenutzerantwort ab oder legt diese fest (Anfangswert im Eingabe
 public string DefaultResponse { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * class [FieldAsk](../)
-* namensraum [Aspose.Words.Fields](../../fieldask/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

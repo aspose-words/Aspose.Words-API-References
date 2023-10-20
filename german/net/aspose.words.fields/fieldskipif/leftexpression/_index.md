@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.LeftExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSkipIf eigendom. Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words für .NET
+description: FieldSkipIf LeftExpression eigendom. Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldskipif/leftexpression/
@@ -14,7 +16,7 @@ Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest.
 public string LeftExpression { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten in einem Seriendruck mithilfe des SKIPIF-Felds übersprungen werden.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Siehe auch
 
 * class [FieldSkipIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldskipif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

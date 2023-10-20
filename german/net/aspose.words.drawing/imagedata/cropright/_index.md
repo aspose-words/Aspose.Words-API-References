@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropRight
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Definiert den Anteil der Bildentfernung von der rechten Seite.
+linktitle: CropRight
+articleTitle: CropRight
+second_title: Aspose.Words für .NET
+description: ImageData CropRight eigendom. Definiert den Anteil der Bildentfernung von der rechten Seite in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing/imagedata/cropright/
@@ -14,13 +16,13 @@ Definiert den Anteil der Bildentfernung von der rechten Seite.
 public double CropRight { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Zuschneidegrad kann zwischen -1,0 und 1,0 liegen. Der Standardwert ist 0. Beachten Sie, dass bei einem Wert von 1 überhaupt kein Bild angezeigt wird. Negative Werte führen dazu, dass das Bild von der zugeschnittenen Kante nach innen gequetscht wird (der leere Raum zwischen dem Bild und der zugeschnittenen Kante wird durch die Füllfarbe der -Form gefüllt). Positive Werte kleiner als 1 führen dazu, dass das verbleibende Bild um gestreckt wird, um es an die Form anzupassen.
 
 Der Standardwert ist 0.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Bilddaten einer Form bearbeitet werden.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

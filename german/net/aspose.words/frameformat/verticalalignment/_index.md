@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die vertikale Ausrichtung des angegebenen Frames ab.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words für .NET
+description: FrameFormat VerticalAlignment eigendom. Ruft die vertikale Ausrichtung des angegebenen Frames ab in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/frameformat/verticalalignment/
@@ -14,7 +16,7 @@ Ruft die vertikale Ausrichtung des angegebenen Frames ab.
 public VerticalAlignment VerticalAlignment { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

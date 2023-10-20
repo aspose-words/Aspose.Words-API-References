@@ -1,7 +1,9 @@
 ---
 title: Border.Shadow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der Rahmen einen Schatten hat.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words für .NET
+description: Border Shadow eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der Rahmen einen Schatten hat in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/border/shadow/
@@ -14,11 +16,11 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, ob der Rahmen einen Schatt
 public bool Shadow { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Damit in Microsoft Word ein Rahmen einen Schatten hat, müssen die Ränder auf allen vier Seiten (links, oben, rechts und unten) den gleichen Typ, die gleiche Breite und die gleiche Farbe haben und die Eigenschaft „Schatten“ muss auf alle gesetzt sein`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Siehe auch
 
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als bearbeitbares Bereichsende.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words für .NET
+description: DocumentBuilder EndEditableRange methode. Markiert die aktuelle Position im Dokument als bearbeitbares Bereichsende in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 Der gerade erstellte bearbeitbare Bereichsendknoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und umfassen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) Und`EndEditableRange` oder`EndEditableRange` Methoden.
 
 Ein fehlerhaft geformter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Markiert die aktuelle Position im Dokument als bearbeitbares Bereichsende.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 Der gerade erstellte bearbeitbare Bereichsendknoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Überladung beim Erstellen verschachtelter bearbeitbarer Bereiche.
 
@@ -100,7 +102,7 @@ Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und um
 
 Ein fehlerhaft geformter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschachtelte bearbeitbare Bereiche erstellt werden.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

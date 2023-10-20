@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.MWSmallCaps
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Emulieren Sie Word 5.x für die MacintoshKapitälchenformatierung.
+linktitle: MWSmallCaps
+articleTitle: MWSmallCaps
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions MWSmallCaps eigendom. Emulieren Sie Word 5.x für die MacintoshKapitälchenformatierung in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words.settings/compatibilityoptions/mwsmallcaps/
@@ -17,7 +19,5 @@ public bool MWSmallCaps { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft die Standardzeichenfolge oder einen Berechnungsausdruck eines Textformularfelds ab oder legt diese fest.
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: Aspose.Words für .NET
+description: FormField TextInputDefault eigendom. Ruft die Standardzeichenfolge oder einen Berechnungsausdruck eines Textformularfelds ab oder legt diese fest in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ Ruft die Standardzeichenfolge oder einen Berechnungsausdruck eines Textformularf
 public string TextInputDefault { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Bedeutung dieser Eigenschaft hängt vom Wert ab[`TextInputType`](../textinputtype/) Eigentum.
 
@@ -24,7 +26,7 @@ Wann[`TextInputType`](../textinputtype/) IstCalculated, dann enthält dieser Str
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 255 Zeichen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

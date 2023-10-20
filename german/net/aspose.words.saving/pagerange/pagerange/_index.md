@@ -1,7 +1,9 @@
 ---
-title: PageRange.PageRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageRange constructeur. Erstellt ein neues Seitenbereichsobjekt.
+title: PageRange
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words für .NET
+description: PageRange constructeur. Erstellt ein neues Seitenbereichsobjekt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/pagerange/pagerange/
@@ -19,11 +21,11 @@ public PageRange(int from, int to)
 | from | Int32 | Der nullbasierte Index der Startseite. |
 | to | Int32 | Der auf der Endseite basierende Index. Wenn es den Index der letzten Seite im Dokument überschreitet, wird es beim Rendern gekürzt, damit es in das Dokument passt. |
 
-### Bemerkungen
+## Bemerkungen
 
 MaxValue bedeutet die letzte Seite im Dokument.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten basierend auf genauen Seitenbereichen extrahiert werden.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### Siehe auch
 
 * class [PageRange](../)
-* namensraum [Aspose.Words.Saving](../../pagerange/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

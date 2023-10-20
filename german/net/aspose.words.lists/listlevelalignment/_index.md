@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListLevelAlignment opsomming. Gibt die Ausrichtung für die Listennummer oder das Aufzählungszeichen an.
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.ListLevelAlignment opsomming. Gibt die Ausrichtung für die Listennummer oder das Aufzählungszeichen an in C#.
 type: docs
 weight: 3510
 url: /de/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | Die Listenbeschriftung wird an der Nummernposition zentriert. |
 | Right | `2` | Diese Listenbeschriftung wird rechts von der Nummernposition ausgerichtet. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wird als Wert für verwendet[`Alignment`](../listlevel/alignment/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

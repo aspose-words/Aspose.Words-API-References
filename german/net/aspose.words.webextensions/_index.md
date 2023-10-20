@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.WebExtensions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.WebExtensionsDer Namespace stellt Klassen bereit die es ermöglichen Elemente und Attribute anzupassen die das XMLVokabular für die Darstellung von OfficeAddIns erweitern.
+linktitle: Aspose.Words.WebExtensions
+articleTitle: Aspose.Words.WebExtensions
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.WebExtensionsDer Namespace stellt Klassen bereit die es ermöglichen Elemente und Attribute anzupassen die das XMLVokabular für die Darstellung von OfficeAddIns erweitern in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words.webextensions/
 ---
-Der **Aspose.Words.WebExtensions**Der Namespace stellt Klassen bereit, die es ermöglichen, Elemente und Attribute anzupassen, die das XML-Vokabular für die Darstellung von Office-Add-Ins erweitern.
+Der**Aspose.Words.WebExtensions**Der Namespace stellt Klassen bereit, die es ermöglichen, Elemente und Attribute anzupassen, die das XML-Vokabular für die Darstellung von Office-Add-Ins erweitern.
 
 ## Klassen
 
@@ -29,5 +31,3 @@ Der **Aspose.Words.WebExtensions**Der Namespace stellt Klassen bereit, die es er
 | [TaskPaneDockState](./taskpanedockstate/) | Listet die verfügbaren Speicherorte des Aufgabenbereichsobjekts auf. |
 | [WebExtensionBindingType](./webextensionbindingtype/) | Listet verfügbare Bindungstypen zwischen einer Weberweiterung und den Daten im Dokument auf. |
 | [WebExtensionStoreType](./webextensionstoretype/) | Listet verfügbare Typen eines Web-Erweiterungsspeichers auf. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.AdjustSentenceAndWordSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob der Satz und Wortabstand automatisch angepasst werden soll. Der Standardwert istFALSCH .
+linktitle: AdjustSentenceAndWordSpacing
+articleTitle: AdjustSentenceAndWordSpacing
+second_title: Aspose.Words für .NET
+description: ImportFormatOptions AdjustSentenceAndWordSpacing eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob der Satz und Wortabstand automatisch angepasst werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob der Satz- un
 public bool AdjustSentenceAndWordSpacing { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Satz- und Wortabstände automatisch angepasst werden.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("Lorem ipsum. Dolor sit amet.", dstDoc.FirstSection.Body.FirstPa
 ### Siehe auch
 
 * class [ImportFormatOptions](../)
-* namensraum [Aspose.Words](../../importformatoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

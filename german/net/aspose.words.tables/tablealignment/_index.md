@@ -1,7 +1,9 @@
 ---
-title: Enum TableAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.TableAlignment opsomming. Gibt die Ausrichtung für eine InlineTabelle an.
+title: TableAlignment Enum
+linktitle: TableAlignment
+articleTitle: TableAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.TableAlignment opsomming. Gibt die Ausrichtung für eine InlineTabelle an in C#.
 type: docs
 weight: 6350
 url: /de/net/aspose.words.tables/tablealignment/
@@ -22,7 +24,7 @@ public enum TableAlignment
 | Center | `1` | Die Tabelle ist zentriert. |
 | Right | `2` | Die Tabelle ist rechtsbündig. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

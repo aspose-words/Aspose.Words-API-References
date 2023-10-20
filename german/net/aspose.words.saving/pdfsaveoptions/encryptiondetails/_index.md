@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft die Details zum Verschlüsseln des ausgegebenen PDFDokuments ab oder legt diese fest.
+linktitle: EncryptionDetails
+articleTitle: EncryptionDetails
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions EncryptionDetails eigendom. Ruft die Details zum Verschlüsseln des ausgegebenen PDFDokuments ab oder legt diese fest in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -14,7 +16,7 @@ Ruft die Details zum Verschlüsseln des ausgegebenen PDF-Dokuments ab oder legt 
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`Null` und das Ausgabedokument wird nicht verschlüsselt. Wenn diese Eigenschaft auf einen gültigen Wert gesetzt ist[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, dann wird das ausgegebene PDF-Dokument verschlüsselt.
 
@@ -26,7 +28,7 @@ ContentCopyForAccessibility Die Berechtigung ist gemäß PDF/UA-Compliance erfor
 
 ContentCopyForAccessibility Die Berechtigung ist im PDF 2.0-Format veraltet. Diese Berechtigung wird beim Speichern in PDF 2.0 ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Berechtigungen für ein gespeichertes PDF-Dokument festgelegt werden.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

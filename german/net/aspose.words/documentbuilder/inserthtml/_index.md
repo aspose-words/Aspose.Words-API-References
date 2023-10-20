@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt einen HTMLString in das Dokument ein.
+linktitle: InsertHtml
+articleTitle: InsertHtml
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertHtml methode. Fügt einen HTMLString in das Dokument ein in C#.
 type: docs
-weight: 360
+weight: 350
 url: /de/net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## InsertHtml(*string*) {#inserthtml}
 
 Fügt einen HTML-String in das Dokument ein.
 
@@ -18,11 +20,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | Eine HTML-Zeichenfolge zum Einfügen in das Dokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Methode können Sie ein HTML-Fragment oder ein ganzes HTML-Dokument einfügen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit einem Document Builder HTML-Inhalte in ein Dokument einfügt.
 
@@ -122,12 +124,12 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## InsertHtml(*string, bool*) {#inserthtml_2}
 
 Fügt einen HTML-String in das Dokument ein.
 
@@ -140,7 +142,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | Eine HTML-Zeichenfolge zum Einfügen in das Dokument. |
 | useBuilderFormatting | Boolean | Ein Wert, der angibt, ob die Formatierung in angegeben ist[`DocumentBuilder`](../) wird als Basisformatierung für aus HTML importierten Text verwendet. |
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Methode können Sie ein HTML-Fragment oder ein ganzes HTML-Dokument einfügen.
 
@@ -148,7 +150,7 @@ Wann*useBuilderFormatting* Ist`FALSCH` , [`DocumentBuilder`](../)Die Formatierun
 
 Wann*useBuilderFormatting* Ist`WAHR` , Die Formatierung des eingefügten Textes basiert auf[`DocumentBuilder`](../) Formatierung, und der Text sieht aus, als wäre er mit eingefügt worden[`Write`](../write/) .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Formatierung eines Document Builders beim Einfügen von HTML-Inhalten angewendet wird.
 
@@ -181,12 +183,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
 Fügt eine HTML-Zeichenfolge in das Dokument ein. Ermöglicht die Angabe zusätzlicher Optionen.
 
@@ -199,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | Eine HTML-Zeichenfolge zum Einfügen in das Dokument. |
 | options | HtmlInsertOptions | Optionen, die beim Einfügen einer HTML-Zeichenfolge verwendet werden. |
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Methode können Sie ein HTML-Fragment oder ein ganzes HTML-Dokument einfügen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Optionen beim Einfügen von HTML verwendet werden.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

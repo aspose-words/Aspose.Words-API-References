@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob transparente Bilder mit schwarzer Hintergrundfarbe vorgemischt werden sollen oder nicht.
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions PreblendImages eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob transparente Bilder mit schwarzer Hintergrundfarbe vorgemischt werden sollen oder nicht in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob transparente Bilder m
 public bool PreblendImages { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das Vormischen von Bildern kann das visuelle Erscheinungsbild von PDF-Dokumenten in Adobe Reader verbessern und Anti-Aliasing-Artefakte entfernen.
 
@@ -22,7 +24,7 @@ Um vorgemischte Bilder richtig anzuzeigen, muss die PDF-Viewer-Anwendung den Ein
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Bilder mit transparentem Hintergrund vormischt, während man ein Dokument als PDF speichert.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

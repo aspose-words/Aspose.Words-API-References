@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft den nullbasierten Index des Datensatzes ab der zusammengeführt wird.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words für .NET
+description: FieldMergingArgsBase RecordIndex eigendom. Ruft den nullbasierten Index des Datensatzes ab der zusammengeführt wird in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ Ruft den nullbasierten Index des Datensatzes ab, der zusammengeführt wird.
 public int RecordIndex { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kontrollkästchen-Formularfelder als Seriendaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Siehe auch
 
 * class [FieldMergingArgsBase](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

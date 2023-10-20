@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob Schriftartressourcen in Base64Kodierung in HTML eingebettet werden sollen. Die Standardeinstellung istFALSCH .
+linktitle: ExportFontsAsBase64
+articleTitle: ExportFontsAsBase64
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportFontsAsBase64 eigendom. Gibt an ob Schriftartressourcen in Base64Kodierung in HTML eingebettet werden sollen. Die Standardeinstellung istFALSCH  in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
@@ -14,11 +16,11 @@ Gibt an, ob Schriftartressourcen in Base64-Kodierung in HTML eingebettet werden 
 public bool ExportFontsAsBase64 { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig werden Schriftarten in separate Dateien geschrieben. Wenn diese Option auf eingestellt ist`WAHR`, Schriftarten werden in Base64-Kodierung in das CSS des Dokuments eingebettet .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftarten in ein gespeichertes HTML-Dokument eingebettet werden.
 
@@ -58,7 +60,5 @@ Assert.True(exportImagesAsBase64
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

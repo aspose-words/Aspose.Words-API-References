@@ -1,7 +1,9 @@
 ---
-title: Class DropDownItemCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.DropDownItemCollection klas. Eine Sammlung von Zeichenfolgen die alle Elemente in einem DropdownFormularfeld darstellen.
+title: DropDownItemCollection Class
+linktitle: DropDownItemCollection
+articleTitle: DropDownItemCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.DropDownItemCollection klas. Eine Sammlung von Zeichenfolgen die alle Elemente in einem DropdownFormularfeld darstellen in C#.
 type: docs
 weight: 1500
 url: /de/net/aspose.words.fields/dropdownitemcollection/
@@ -27,16 +29,16 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Fügt am Ende der Sammlung eine Zeichenfolge hinzu. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | Fügt am Ende der Sammlung eine Zeichenfolge hinzu. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Bestimmt, ob die Sammlung den angegebenen Wert enthält. |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | Bestimmt, ob die Sammlung den angegebenen Wert enthält. |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Gibt den nullbasierten Index des angegebenen Werts in der Sammlung zurück. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Fügt am angegebenen Index einen String in die Sammlung ein. |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Entfernt den angegebenen Wert aus der Sammlung. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Entfernt einen Wert am angegebenen Index. |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | Gibt den nullbasierten Index des angegebenen Werts in der Sammlung zurück. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | Fügt am angegebenen Index einen String in die Sammlung ein. |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | Entfernt den angegebenen Wert aus der Sammlung. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | Entfernt einen Wert am angegebenen Index. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
@@ -93,5 +95,3 @@ dropDownItems.Clear();
 * property [DropDownItems](../formfield/dropdownitems/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

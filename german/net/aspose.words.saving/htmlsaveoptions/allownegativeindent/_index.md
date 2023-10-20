@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob negative linke und rechte Einzüge von Absätzen beim Speichern in HTML MHTML oder EPUB normalisiert werden. Der Standardwert istFALSCH .
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions AllowNegativeIndent eigendom. Gibt an ob negative linke und rechte Einzüge von Absätzen beim Speichern in HTML MHTML oder EPUB normalisiert werden. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ Gibt an, ob negative linke und rechte Einzüge von Absätzen beim Speichern in H
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn ein negativer Einzug nicht zulässig ist, wird er als Nullrand nach HTML exportiert. Wenn ein negativer Einzug zulässig ist, wird ein Absatz möglicherweise teilweise außerhalb des Browserfensters angezeigt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie negative Einzüge in der Ausgabe-.html beibehalten werden.
 
@@ -80,7 +82,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

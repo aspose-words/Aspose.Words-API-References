@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeDuplicateRegions
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob alle DokumentSeriendruckbereiche mit dem Namen einer Datenquelle beim Ausführen eines Seriendrucks mit Bereichen für die Datenquelle zusammengeführt werden sollen oder nur der erste.
+linktitle: MergeDuplicateRegions
+articleTitle: MergeDuplicateRegions
+second_title: Aspose.Words für .NET
+description: MailMerge MergeDuplicateRegions eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob alle DokumentSeriendruckbereiche mit dem Namen einer Datenquelle beim Ausführen eines Seriendrucks mit Bereichen für die Datenquelle zusammengeführt werden sollen oder nur der erste in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
@@ -14,11 +16,11 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, ob alle Dokument-Seriendru
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit doppelten Seriendruckbereichen gearbeitet wird.
 
@@ -76,7 +78,5 @@ private static DataTable CreateSourceTableMergeDuplicateRegions()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontResources
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob Schriftartressourcen nach HTML MHTML oder EPUB exportiert werden sollen. Die Standardeinstellung istFALSCH .
+linktitle: ExportFontResources
+articleTitle: ExportFontResources
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportFontResources eigendom. Gibt an ob Schriftartressourcen nach HTML MHTML oder EPUB exportiert werden sollen. Die Standardeinstellung istFALSCH  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
@@ -14,17 +16,17 @@ Gibt an, ob Schriftartressourcen nach HTML, MHTML oder EPUB exportiert werden so
 public bool ExportFontResources { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das Exportieren von Schriftartressourcen ermöglicht eine konsistente Dokumentwiedergabe unabhängig von den verfügbaren Schriftarten in der Umgebung eines bestimmten Benutzers.
 
-Wenn`ExportFontResources` ist eingestellt auf`WAHR` Das Haupt-HTML-Dokument verweist über CSS 3 auf jede Schriftart **@Schriftart** at-rule und Schriftarten werden als separate Dateien ausgegeben. Beim Exportieren in die Formate IDPF EPUB oder MHTML werden Schriftarten zusammen mit anderen Tochterdateien in das entsprechende Paket eingebettet.
+Wenn`ExportFontResources` ist eingestellt auf`WAHR` Das Haupt-HTML-Dokument verweist über CSS 3 auf jede Schriftart**@Schriftart** at-rule und Schriftarten werden als separate Dateien ausgegeben. Beim Exportieren in die Formate IDPF EPUB oder MHTML werden Schriftarten zusammen mit anderen Tochterdateien in das entsprechende Paket eingebettet.
 
-Wenn[`ExportFontsAsBase64`](../exportfontsasbase64/) ist eingestellt auf`WAHR` Schriftarten werden nicht in separaten Dateien gespeichert. Stattdessen werden sie eingebettet **@Schriftart** at-Regeln in Base64-Kodierung.
+Wenn[`ExportFontsAsBase64`](../exportfontsasbase64/) ist eingestellt auf`WAHR` Schriftarten werden nicht in separaten Dateien gespeichert. Stattdessen werden sie eingebettet**@Schriftart** at-Regeln in Base64-Kodierung.
 
-**Wichtig!** Beim Exportieren von Schriftartressourcen sollten Aspekte der Schriftartlizenzierung berücksichtigt werden. Autoren, die bestimmte Schriftarten über einen herunterladbaren -Schriftartenmechanismus verwenden möchten, müssen stets sorgfältig prüfen, ob ihre beabsichtigte Verwendung im Rahmen der Schriftartenlizenz liegt. Bei vielen kommerziellen Schriftarten ist das Herunterladen ihrer Schriftarten aus dem Internet in irgendeiner Form derzeit nicht möglich. In Lizenzvereinbarungen, die einige Schriftarten abdecken, wird ausdrücklich darauf hingewiesen, dass die Verwendung durch erfolgt **@Schriftart** Rules in CSS-Stylesheets ist nicht zulässig. Unterteilung von Schriftarten kann ebenfalls gegen Lizenzbedingungen verstoßen.
+**Wichtig!** Beim Exportieren von Schriftartressourcen sollten Aspekte der Schriftartlizenzierung berücksichtigt werden. Autoren, die bestimmte Schriftarten über einen herunterladbaren -Schriftartenmechanismus verwenden möchten, müssen stets sorgfältig prüfen, ob ihre beabsichtigte Verwendung im Rahmen der Schriftartenlizenz liegt. Bei vielen kommerziellen Schriftarten ist das Herunterladen ihrer Schriftarten aus dem Internet in irgendeiner Form derzeit nicht möglich. In Lizenzvereinbarungen, die einige Schriftarten abdecken, wird ausdrücklich darauf hingewiesen, dass die Verwendung durch erfolgt**@Schriftart** Rules in CSS-Stylesheets ist nicht zulässig. Unterteilung von Schriftarten kann ebenfalls gegen Lizenzbedingungen verstoßen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -84,7 +86,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

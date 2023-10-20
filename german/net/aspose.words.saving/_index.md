@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Saving
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Saving Der Namespace stellt Klassen und Enumerationen bereit mit denen zusätzliche Optionen zum Speichern oder Konvertieren von Dokumenten angegeben werden können.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Saving Der Namespace stellt Klassen und Enumerationen bereit mit denen zusätzliche Optionen zum Speichern oder Konvertieren von Dokumenten angegeben werden können in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.saving/
 ---
-Der **Aspose.Words.Saving** Der Namespace stellt Klassen und Enumerationen bereit, mit denen zusätzliche Optionen zum Speichern oder Konvertieren von Dokumenten angegeben werden können.
+Der**Aspose.Words.Saving** Der Namespace stellt Klassen und Enumerationen bereit, mit denen zusätzliche Optionen zum Speichern oder Konvertieren von Dokumenten angegeben werden können.
 
 ## Klassen
 
@@ -108,5 +110,3 @@ Der **Aspose.Words.Saving** Der Namespace stellt Klassen und Enumerationen berei
 | [TableContentAlignment](./tablecontentalignment/) | Ermöglicht die Angabe der Ausrichtung des Tabelleninhalts, der beim Export in das Markdown-Format verwendet werden soll. |
 | [TiffCompression](./tiffcompression/) | Gibt an, welcher Komprimierungstyp beim Speichern von Seitenbildern in einer TIFF-Datei angewendet werden soll. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Gibt an, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden. |
-
-

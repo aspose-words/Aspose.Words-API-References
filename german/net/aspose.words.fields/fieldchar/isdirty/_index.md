@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldChar eigendom. Ruft ab oder legt fest ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt veraltet ist.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words für .NET
+description: FieldChar IsDirty eigendom. Ruft ab oder legt fest ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt veraltet ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am D
 public bool IsDirty { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem FieldStart-Knoten gearbeitet wird.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Siehe auch
 
 * class [FieldChar](../)
-* namensraum [Aspose.Words.Fields](../../fieldchar/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

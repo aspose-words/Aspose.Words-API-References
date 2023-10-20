@@ -1,7 +1,9 @@
 ---
 title: List.ListLevels
-second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Ruft die Auflistung der Listenebenen für diese Liste ab.
+linktitle: ListLevels
+articleTitle: ListLevels
+second_title: Aspose.Words für .NET
+description: List ListLevels eigendom. Ruft die Auflistung der Listenebenen für diese Liste ab in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.lists/list/listlevels/
@@ -14,11 +16,11 @@ Ruft die Auflistung der Listenebenen für diese Liste ab.
 public ListLevelCollection ListLevels { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Eigenschaft, um auf die Formatierung jeder Ebene der Liste zuzugreifen und diese individuell zu ändern.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevelCollection](../../listlevelcollection/)
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

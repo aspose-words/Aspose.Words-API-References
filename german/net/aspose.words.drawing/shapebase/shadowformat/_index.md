@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShadowFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft die Schattenformatierung für die Form ab.
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words für .NET
+description: ShapeBase ShadowFormat eigendom. Ruft die Schattenformatierung für die Form ab in C#.
 type: docs
 weight: 490
 url: /de/net/aspose.words.drawing/shapebase/shadowformat/
@@ -18,7 +20,5 @@ public ShadowFormat ShadowFormat { get; }
 
 * class [ShadowFormat](../../shadowformat/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

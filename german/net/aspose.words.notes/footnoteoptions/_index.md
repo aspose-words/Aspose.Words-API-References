@@ -1,7 +1,9 @@
 ---
-title: Class FootnoteOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Notes.FootnoteOptions klas. Stellt die Fußnotennummerierungsoptionen für ein Dokument oder einen Abschnitt dar.
+title: FootnoteOptions Class
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Notes.FootnoteOptions klas. Stellt die Fußnotennummerierungsoptionen für ein Dokument oder einen Abschnitt dar in C#.
 type: docs
 weight: 4280
 url: /de/net/aspose.words.notes/footnoteoptions/
@@ -26,7 +28,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule/) { get; set; } | Legt fest, wann die automatische Nummerierung neu startet. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber/) { get; set; } | Gibt die Startnummer oder das Anfangszeichen für die ersten automatisch nummerierten Fußnoten an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Fußnotenabschnitt in eine bestimmte Anzahl von Spalten aufgeteilt wird.
 
@@ -208,5 +210,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/)
 * namensraum [Aspose.Words.Notes](../../aspose.words.notes/)
 * Montage [Aspose.Words](../../)
-
-

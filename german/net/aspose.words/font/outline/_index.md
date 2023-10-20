@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart als Outline formatiert ist.
+linktitle: Outline
+articleTitle: Outline
+second_title: Aspose.Words für .NET
+description: Font Outline eigendom. True wenn die Schriftart als Outline formatiert ist in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ True, wenn die Schriftart als Outline formatiert ist.
 public bool Outline { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen als Gliederung formatierten Textlauf erstellt.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

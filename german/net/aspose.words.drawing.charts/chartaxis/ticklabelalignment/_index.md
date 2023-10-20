@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft die Textausrichtung von Achsenteilstrichbeschriftungen ab oder legt diese fest.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words für .NET
+description: ChartAxis TickLabelAlignment eigendom. Ruft die Textausrichtung von Achsenteilstrichbeschriftungen ab oder legt diese fest in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ Ruft die Textausrichtung von Achsenteilstrichbeschriftungen ab oder legt diese f
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft hat nur Auswirkungen auf mehrzeilige Etiketten.
 
@@ -22,7 +24,7 @@ Der Standardwert istCenter.
 
 .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

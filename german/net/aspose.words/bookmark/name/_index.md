@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: Bookmark Name eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ Ruft den Namen des Lesezeichens ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass, wenn Sie den Namen eines Lesezeichens in einen Namen ändern, der bereits im Dokument vorhanden ist, kein Fehler angezeigt wird und beim Speichern des Dokuments nur das erste Lesezeichen gespeichert wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Lesezeichen einfügt.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Bookmark](../)
-* namensraum [Aspose.Words](../../bookmark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

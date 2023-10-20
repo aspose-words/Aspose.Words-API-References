@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.FormatLanguageId
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft die SprachID ab oder legt diese fest die in Verbindung mit dem angegebenen bibliografischen Stil verwendet wird um das Zitat im Dokument zu formatieren.
+linktitle: FormatLanguageId
+articleTitle: FormatLanguageId
+second_title: Aspose.Words für .NET
+description: FieldCitation FormatLanguageId eigendom. Ruft die SprachID ab oder legt diese fest die in Verbindung mit dem angegebenen bibliografischen Stil verwendet wird um das Zitat im Dokument zu formatieren in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldcitation/formatlanguageid/
@@ -14,7 +16,7 @@ Ruft die Sprach-ID ab oder legt diese fest, die in Verbindung mit dem angegebene
 public string FormatLanguageId { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

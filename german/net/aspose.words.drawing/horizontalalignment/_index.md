@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.HorizontalAlignment opsomming. Gibt die horizontale Ausrichtung einer schwebenden Form eines Textrahmens oder einer schwebenden Tabelle an.
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.HorizontalAlignment opsomming. Gibt die horizontale Ausrichtung einer schwebenden Form eines Textrahmens oder einer schwebenden Tabelle an in C#.
 type: docs
 weight: 1030
 url: /de/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Das Objekt wird explizit positioniert, normalerweise mithilfe von its **Links** Eigenschaft. |
+| None | `0` | Das Objekt wird explizit positioniert, normalerweise mithilfe von its**Links** Eigenschaft. |
 | Default | `0` | Das Gleiche wieNone . |
 | Left | `1` | Gibt an, dass das Objekt linksbündig an der horizontalen Ausrichtungsbasis ausgerichtet werden soll. |
 | Center | `2` | Gibt an, dass das Objekt in Bezug auf die horizontale Ausrichtungsbasis zentriert werden soll. |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | Gibt an, dass sich das Objekt innerhalb der horizontalen Ausrichtungsbasis befinden soll. |
 | Outside | `5` | Gibt an, dass sich das Objekt außerhalb der horizontalen Ausrichtungsbasis befinden soll. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

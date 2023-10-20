@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: MustacheTag eigendom. Ruft den Text des Tags ab.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: MustacheTag Text eigendom. Ruft den Text des Tags ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/mustachetag/text/
@@ -14,7 +16,7 @@ Ruft den Text des Tags ab.
 public string Text { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Moustache-Tags gearbeitet wird.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Siehe auch
 
 * class [MustacheTag](../)
-* namensraum [Aspose.Words.MailMerging](../../mustachetag/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

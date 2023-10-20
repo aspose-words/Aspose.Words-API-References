@@ -1,7 +1,9 @@
 ---
 title: Field.Format
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft a abFieldFormat Objekt das typisierten Zugriff auf die Formatierung des Felds bietet.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words für .NET
+description: Field Format eigendom. Ruft a abFieldFormat Objekt das typisierten Zugriff auf die Formatierung des Felds bietet in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/field/format/
@@ -14,7 +16,7 @@ Ruft a ab[`FieldFormat`](../../fieldformat/) Objekt, das typisierten Zugriff auf
 public FieldFormat Format { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Feldergebnisse formatiert werden.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

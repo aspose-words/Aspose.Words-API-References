@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Ermöglicht die Angabe ob die aktuelle Schriftart vor dem Export als Schriftartressource in Teilmengen unterteilt wird.
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: Aspose.Words für .NET
+description: FontSavingArgs IsSubsettingNeeded eigendom. Ermöglicht die Angabe ob die aktuelle Schriftart vor dem Export als Schriftartressource in Teilmengen unterteilt wird in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ Ermöglicht die Angabe, ob die aktuelle Schriftart vor dem Export als Schriftart
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Schriftarten können als vollständige Originalschriftdateien oder in Teilmengen exportiert werden, um nur die Zeichen einzuschließen, die im Dokument verwendet werden. Durch die Teilmenge kann die resultierende Schriftressourcengröße reduziert werden.
 
 Standardmäßig entscheidet Aspose.Words, ob eine Teilmenge durchgeführt wird oder nicht, indem es die ursprüngliche Schriftdateigröße mit der in angegebenen Größe vergleicht[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Sie können dieses Verhalten für einzelne Schriftarten überschreiben, indem Sie Folgendes festlegen`IsSubsettingNeeded` Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

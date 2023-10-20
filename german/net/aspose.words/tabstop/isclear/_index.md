@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStop eigendom. Gibt zurückWAHR wenn dieser Tabstopp alle vorhandenen Tabstopps an dieser Position löscht.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words für .NET
+description: TabStop IsClear eigendom. Gibt zurückWAHR wenn dieser Tabstopp alle vorhandenen Tabstopps an dieser Position löscht in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn dieser Tabstopp alle vorhandenen Tabstopps an dieser Pos
 public bool IsClear { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Siehe auch
 
 * class [TabStop](../)
-* namensraum [Aspose.Words](../../tabstop/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeThemeColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft ein ThemeColorObjekt ab oder legt es fest das die Vordergrundfarbe für die Füllung darstellt.
+linktitle: ForeThemeColor
+articleTitle: ForeThemeColor
+second_title: Aspose.Words für .NET
+description: Fill ForeThemeColor eigendom. Ruft ein ThemeColorObjekt ab oder legt es fest das die Vordergrundfarbe für die Füllung darstellt in C#.
 type: docs
-weight: 80
+weight: 70
 url: /de/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -14,7 +16,7 @@ Ruft ein ThemeColor-Objekt ab oder legt es fest, das die Vordergrundfarbe für d
 public ThemeColor ForeThemeColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Designfarbe für die Vordergrund-/Hintergrundformfarbe festgelegt wird.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

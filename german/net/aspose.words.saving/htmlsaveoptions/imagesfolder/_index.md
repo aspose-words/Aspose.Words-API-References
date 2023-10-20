@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt den physischen Ordner an in dem Bilder gespeichert werden wenn ein Dokument in das HTMLFormat exportiert wird. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ImagesFolder eigendom. Gibt den physischen Ordner an in dem Bilder gespeichert werden wenn ein Dokument in das HTMLFormat exportiert wird. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 360
 url: /de/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Gibt den physischen Ordner an, in dem Bilder gespeichert werden, wenn ein Dokume
 public string ImagesFolder { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im HTML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.`ImagesFolder` Mit können Sie angeben, wo die Bilder gespeichert werden[`ImagesFolderAlias`](../imagesfolderalias/) ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
@@ -26,7 +28,7 @@ Wenn der von angegebene Ordner`ImagesFolder` nicht existiert, wird es automatisc
 
 [`ResourceFolder`](../resourcefolder/) ist eine weitere Möglichkeit, einen Ordner anzugeben, in dem Bilder gespeichert werden sollen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Ordner zum Speichern verknüpfter Bilder nach dem Speichern im HTML-Format angegeben wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

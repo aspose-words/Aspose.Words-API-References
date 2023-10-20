@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeRegionInfo eigendom. Gibt Informationen zur übergeordneten Region zurück null für die Region der obersten Ebene.
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: Aspose.Words für .NET
+description: MailMergeRegionInfo ParentRegion eigendom. Gibt Informationen zur übergeordneten Region zurück null für die Region der obersten Ebene in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,7 +16,7 @@ Gibt Informationen zur übergeordneten Region zurück (null für die Region der 
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche erstellt, aufgelistet und gelesen werden.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Siehe auch
 
 * class [MailMergeRegionInfo](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

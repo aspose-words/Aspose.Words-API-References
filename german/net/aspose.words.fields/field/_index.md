@@ -1,7 +1,9 @@
 ---
-title: Class Field
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.Field klas. Stellt ein Microsoft WordDokumentfeld dar.
+title: Field Class
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.Field klas. Stellt ein Microsoft WordDokumentfeld dar in C#.
 type: docs
 weight: 1510
 url: /de/net/aspose.words.fields/field/
@@ -36,13 +38,13 @@ public class Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Feld in einem Word-Dokument ist eine komplexe Struktur, die aus mehreren Knoten besteht, die Feldanfang, Feldcode, Feldtrennzeichen, Feldergebnis und Feldende umfassen. Felder können verschachtelt sein, umfangreiche Inhalte enthalten und mehrere Absätze oder Abschnitte in einem Dokument umfassen. Der`Field` Die Klasse ist ein „Fassaden“-Objekt, das Eigenschaften und Methoden bereitstellt, die es ermöglichen, mit einem Feld als einzelnes Objekt zu arbeiten.
 
@@ -56,7 +58,7 @@ Sie können die Nur-Text-Version des Feldcodes mithilfe von abrufen[`GetFieldCod
 
 Sie erstellen keine Instanzen davon`Field` Klasse direkt. Um ein neues Feld zu erstellen, verwenden Sie die[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Methode.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
@@ -77,5 +79,3 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

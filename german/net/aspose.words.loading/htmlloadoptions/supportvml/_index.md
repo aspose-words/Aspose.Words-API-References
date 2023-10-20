@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.SupportVml
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlLoadOptions eigendom. Ruft einen Wert ab oder legt ihn fest der angibt ob VMLBilder unterstützt werden sollen.
+linktitle: SupportVml
+articleTitle: SupportVml
+second_title: Aspose.Words für .NET
+description: HtmlLoadOptions SupportVml eigendom. Ruft einen Wert ab oder legt ihn fest der angibt ob VMLBilder unterstützt werden sollen in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.loading/htmlloadoptions/supportvml/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt ihn fest, der angibt, ob VML-Bilder unterstützt we
 public bool SupportVml { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bedingte Kommentare beim Laden eines HTML-Dokuments unterstützt werden.
 
@@ -39,7 +41,5 @@ else
 ### Siehe auch
 
 * class [HtmlLoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../htmlloadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

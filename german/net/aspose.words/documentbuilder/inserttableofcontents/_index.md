@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein TOCFeld Inhaltsverzeichnis in das Dokument ein.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertTableOfContents methode. Fügt ein TOCFeld Inhaltsverzeichnis in das Dokument ein in C#.
 type: docs
-weight: 470
+weight: 460
 url: /de/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | Das TOC-Feld wechselt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode fügt an der aktuellen Position ein TOC-Feld (Inhaltsverzeichnis) in das Dokument ein.
 
@@ -26,7 +28,7 @@ Ein Inhaltsverzeichnis in einem Word-Dokument kann auf verschiedene Arten erstel
 
 Der einfachste Weg, die Schalter anzugeben, besteht darin, über das Menü „Einfügen-&gt;Referenz-&gt;Index und Tabellen“ ein Inhaltsverzeichnis in ein Word-Dokument einzufügen und zu konfigurieren und dann die Anzeige der Feldcodes einzuschalten, um die Schalter anzuzeigen. Sie können Alt+F9 in Microsoft Word drücken, um die Anzeige von Feldcodes ein- oder auszuschalten.
 
-Nach dem Erstellen eines Inhaltsverzeichnisses wird beispielsweise das folgende Feld in das Dokument eingefügt : **{ TOC \o "1-3" \h \z \u }** . Sie können kopieren **\o "1-3" \h \z \u** und verwenden Sie es als Schalterparameter.
+Nach dem Erstellen eines Inhaltsverzeichnisses wird beispielsweise das folgende Feld in das Dokument eingefügt :**{ TOC \o "1-3" \h \z \u }** . Sie können kopieren**\o "1-3" \h \z \u** und verwenden Sie es als Schalterparameter.
 
 Beachten Sie, dass`InsertTableOfContents` fügt nur ein TOC-Feld ein, aber erstellt nicht tatsächlich das Inhaltsverzeichnis. Das Inhaltsverzeichnis wird von Microsoft Word erstellt, wenn das Feld aktualisiert wird.
 
@@ -34,7 +36,7 @@ Wenn Sie mit dieser Methode ein Inhaltsverzeichnis einfügen und dann die Datei 
 
 In Microsoft Word werden Felder beim Öffnen eines Dokuments nicht automatisch aktualisiert, Sie können Felder in einem Dokument jedoch jederzeit aktualisieren, indem Sie F9 drücken.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis (TOC) in ein Dokument einfügt, indem man Überschriftenstile als Einträge verwendet.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DisplayBackgroundShape
-second_title: Aspose.Words für .NET-API-Referenz
-description: ViewOptions eigendom. Steuert die Anzeige der Hintergrundform in der Drucklayoutansicht.
+linktitle: DisplayBackgroundShape
+articleTitle: DisplayBackgroundShape
+second_title: Aspose.Words für .NET
+description: ViewOptions DisplayBackgroundShape eigendom. Steuert die Anzeige der Hintergrundform in der Drucklayoutansicht in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -14,7 +16,7 @@ Steuert die Anzeige der Hintergrundform in der Drucklayoutansicht.
 public bool DisplayBackgroundShape { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumenthintergrundbilder in den Ansichtsoptionen ausgeblendet/angezeigt werden.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");
 ### Siehe auch
 
 * class [ViewOptions](../)
-* namensraum [Aspose.Words.Settings](../../viewoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

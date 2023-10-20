@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolder
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt den physischen Ordner an in dem Schriftarten gespeichert werden wenn ein Dokument nach HTML exportiert wird. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: FontsFolder
+articleTitle: FontsFolder
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions FontsFolder eigendom. Gibt den physischen Ordner an in dem Schriftarten gespeichert werden wenn ein Dokument nach HTML exportiert wird. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 310
 url: /de/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
@@ -14,7 +16,7 @@ Gibt den physischen Ordner an, in dem Schriftarten gespeichert werden, wenn ein 
 public string FontsFolder { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie a speichern[`Document`](../../../aspose.words/document/) im HTML-Format und[`ExportFontResources`](../exportfontresources/) ist eingestellt auf`WAHR` , Aspose.Words muss die im Dokument verwendeten Schriftarten als eigenständige Dateien speichern. `FontsFolder` Hier können Sie angeben, wo die Schriftarten gespeichert werden und [`FontsFolderAlias`](../fontsfolderalias/) ermöglicht die Angabe, wie die Schriftart-URIs erstellt werden.
 
@@ -26,7 +28,7 @@ Wenn der von angegebene Ordner`FontsFolder` nicht existiert, wird es automatisch
 
 [`ResourceFolder`](../resourcefolder/) ist eine weitere Möglichkeit, einen Ordner anzugeben, in dem Schriftarten gespeichert werden sollen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

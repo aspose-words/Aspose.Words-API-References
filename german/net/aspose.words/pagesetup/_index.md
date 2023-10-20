@@ -1,7 +1,9 @@
 ---
-title: Class PageSetup
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.PageSetup klas. Stellt die Seiteneinrichtungseigenschaften eines Abschnitts dar.
+title: PageSetup Class
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words für .NET
+description: Aspose.Words.PageSetup klas. Stellt die Seiteneinrichtungseigenschaften eines Abschnitts dar in C#.
 type: docs
 weight: 4360
 url: /de/net/aspose.words/pagesetup/
@@ -72,11 +74,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | Setzt die Seiteneinrichtung auf die Standardpapiergröße, -ränder und -ausrichtung zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 `PageSetup` Das Objekt enthält alle Seiteneinrichtungsattribute eines Abschnitts (linker Rand, unterer Rand, Papiergröße usw.) als Eigenschaften.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

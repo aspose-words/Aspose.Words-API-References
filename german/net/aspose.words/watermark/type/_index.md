@@ -1,7 +1,9 @@
 ---
 title: Watermark.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: Watermark eigendom. Ruft den Wasserzeichentyp ab.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: Watermark Type eigendom. Ruft den Wasserzeichentyp ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/watermark/type/
@@ -18,7 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* namensraum [Aspose.Words](../../watermark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

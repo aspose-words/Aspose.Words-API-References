@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisDisplayUnit eigendom. Ruft den Skalierungswert der Anzeigeeinheiten als einen der vordefinierten Werte ab oder legt ihn fest.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words für .NET
+description: AxisDisplayUnit Unit eigendom. Ruft den Skalierungswert der Anzeigeeinheiten als einen der vordefinierten Werte ab oder legt ihn fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ Ruft den Skalierungswert der Anzeigeeinheiten als einen der vordefinierten Werte
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istNone . DerCustom and Percentage Werte sind in einigen Diagrammtypen nicht verfügbar; see [`AxisBuiltInUnit`](../../axisbuiltinunit/) für weitere Informationen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

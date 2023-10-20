@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Gibt an ob die aktuelle Schriftart kursiv ist.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words für .NET
+description: FontSavingArgs Italic eigendom. Gibt an ob die aktuelle Schriftart kursiv ist in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ Gibt an, ob die aktuelle Schriftart kursiv ist.
 public bool Italic { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

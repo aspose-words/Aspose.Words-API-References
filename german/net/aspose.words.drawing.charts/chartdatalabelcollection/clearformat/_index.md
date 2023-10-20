@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ClearFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection methode. Löscht das gesamte FormatChartDataLabel in dieser Sammlung.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection ClearFormat methode. Löscht das gesamte FormatChartDataLabel in dieser Sammlung in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
@@ -14,7 +16,7 @@ Löscht das gesamte Format[`ChartDataLabel`](../../chartdatalabel/) in dieser Sa
 public void ClearFormat()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

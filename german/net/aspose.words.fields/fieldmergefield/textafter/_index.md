@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextAfter
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeField eigendom. Ruft den Text ab der nach dem Feld eingefügt werden soll wenn das Feld nicht leer ist oder legt diesen fest.
+linktitle: TextAfter
+articleTitle: TextAfter
+second_title: Aspose.Words für .NET
+description: FieldMergeField TextAfter eigendom. Ruft den Text ab der nach dem Feld eingefügt werden soll wenn das Feld nicht leer ist oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldmergefield/textafter/
@@ -14,7 +16,7 @@ Ruft den Text ab, der nach dem Feld eingefügt werden soll, wenn das Feld nicht 
 public string TextAfter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie MERGEFIELD-Felder zum Durchführen eines Seriendrucks verwendet werden.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Siehe auch
 
 * class [FieldMergeField](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergefield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

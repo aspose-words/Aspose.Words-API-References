@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Ruft das Objekt ab das die ODSOEinstellungen Office Data Source Object angibt oder legt dieses fest.
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words für .NET
+description: MailMergeSettings Odso eigendom. Ruft das Objekt ab das die ODSOEinstellungen Office Data Source Object angibt oder legt dieses fest in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ Ruft das Objekt ab, das die ODSO-Einstellungen (Office Data Source Object) angib
 public Odso Odso { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dieses Objekt ist niemals`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

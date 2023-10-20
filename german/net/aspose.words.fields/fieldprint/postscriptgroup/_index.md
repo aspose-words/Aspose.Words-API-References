@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PostScriptGroup
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldPrint eigendom. Ruft das Zeichenrechteck ab auf das die PostScriptAnweisungen angewendet werden oder legt dieses fest.
+linktitle: PostScriptGroup
+articleTitle: PostScriptGroup
+second_title: Aspose.Words für .NET
+description: FieldPrint PostScriptGroup eigendom. Ruft das Zeichenrechteck ab auf das die PostScriptAnweisungen angewendet werden oder legt dieses fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -14,7 +16,7 @@ Ruft das Zeichenrechteck ab, auf das die PostScript-Anweisungen angewendet werde
 public string PostScriptGroup { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt an, wie ein PRINT-Feld eingefügt werden soll.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Siehe auch
 
 * class [FieldPrint](../)
-* namensraum [Aspose.Words.Fields](../../fieldprint/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

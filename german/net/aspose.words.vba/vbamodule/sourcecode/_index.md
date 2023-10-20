@@ -1,7 +1,9 @@
 ---
 title: VbaModule.SourceCode
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaModule eigendom. Ruft den Quellcode des VBAProjektmoduls ab oder legt ihn fest.
+linktitle: SourceCode
+articleTitle: SourceCode
+second_title: Aspose.Words für .NET
+description: VbaModule SourceCode eigendom. Ruft den Quellcode des VBAProjektmoduls ab oder legt ihn fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.vba/vbamodule/sourcecode/
@@ -14,7 +16,7 @@ Ruft den Quellcode des VBA-Projektmoduls ab oder legt ihn fest.
 public string SourceCode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Siehe auch
 
 * class [VbaModule](../)
-* namensraum [Aspose.Words.Vba](../../vbamodule/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

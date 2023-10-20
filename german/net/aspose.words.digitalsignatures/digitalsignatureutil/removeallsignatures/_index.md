@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignatureUtil methode. Entfernt alle digitalen Signaturen aus der Quelldatei und schreibt die nicht signierte Datei in die Zieldatei.
+linktitle: RemoveAllSignatures
+articleTitle: RemoveAllSignatures
+second_title: Aspose.Words für .NET
+description: DigitalSignatureUtil RemoveAllSignatures methode. Entfernt alle digitalen Signaturen aus der Quelldatei und schreibt die nicht signierte Datei in die Zieldatei in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
 Entfernt alle digitalen Signaturen aus der Quelldatei und schreibt die nicht signierte Datei in die Zieldatei.
 
@@ -16,7 +18,7 @@ Die folgenden Formate sind für die Entfernung digitaler Signaturen kompatibel: 
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie digitale Signaturen aus einem digital signierten Dokument entfernt werden.
 
@@ -44,12 +46,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Siehe auch
 
 * class [DigitalSignatureUtil](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
 Entfernt alle digitalen Signaturen vom Dokument im Quellstream und schreibt das nicht signierte Dokument in den Zielstream.
 
@@ -61,7 +63,7 @@ Die folgenden Formate sind für die Entfernung digitaler Signaturen kompatibel: 
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie digitale Signaturen aus einem digital signierten Dokument entfernt werden.
 
@@ -89,7 +91,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Siehe auch
 
 * class [DigitalSignatureUtil](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

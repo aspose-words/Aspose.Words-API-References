@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LeftIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Wert in Punkten ab der den linken Einzug für Absatz darstellt oder legt diesen fest.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words für .NET
+description: ParagraphFormat LeftIndent eigendom. Ruft den Wert in Punkten ab der den linken Einzug für Absatz darstellt oder legt diesen fest in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words/paragraphformat/leftindent/
@@ -14,7 +16,7 @@ Ruft den Wert (in Punkten) ab, der den linken Einzug für Absatz darstellt, oder
 public double LeftIndent { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Absatzformatierung konfigurieren, um außermittigen Text zu erstellen.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

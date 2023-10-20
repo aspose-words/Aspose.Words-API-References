@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.AddCopy
-second_title: Aspose.Words für .NET-API-Referenz
-description: StyleCollection methode. Kopiert einen Stil in diese Sammlung.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words für .NET
+description: StyleCollection AddCopy methode. Kopiert einen Stil in diese Sammlung in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/stylecollection/addcopy/
@@ -22,7 +24,7 @@ public Style AddCopy(Style style)
 
 Kopierter Stil zur Verwendung bereit.
 
-### Bemerkungen
+## Bemerkungen
 
 Der zu kopierende Stil kann sowohl zum selben Dokument als auch zu einem anderen Dokument gehören.
 
@@ -32,7 +34,7 @@ Diese Methode kopiert keine Basisstile.
 
 Wenn die Sammlung bereits einen Stil mit demselben Namen enthält, wird automatisch ein neuer Name generiert, indem das Suffix „_Nummer“ hinzugefügt wird, das bei 0 beginnt, z. B. „Normal_0“, „Überschrift 1_1“ usw. Verwendung[`Name`](../../style/name/) Setter zum Ändern des Namens des importierten Stils.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Stil aus einem Dokument in ein anderes Dokument importiert wird.
 
@@ -81,7 +83,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* namensraum [Aspose.Words](../../stylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

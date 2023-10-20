@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.NoShade
-second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Zeigt das Vorhandensein einer 3DSchattierung für die horizontale Regel an. WennWAHR dann ist die horizontale Regel ohne 3DSchattierung und es wird Volltonfarbe verwendet.
+linktitle: NoShade
+articleTitle: NoShade
+second_title: Aspose.Words für .NET
+description: HorizontalRuleFormat NoShade eigendom. Zeigt das Vorhandensein einer 3DSchattierung für die horizontale Regel an. WennWAHR dann ist die horizontale Regel ohne 3DSchattierung und es wird Volltonfarbe verwendet in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/horizontalruleformat/noshade/
@@ -14,11 +16,11 @@ Zeigt das Vorhandensein einer 3D-Schattierung für die horizontale Regel an. Wen
 public bool NoShade { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
@@ -41,7 +43,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Siehe auch
 
 * class [HorizontalRuleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../horizontalruleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

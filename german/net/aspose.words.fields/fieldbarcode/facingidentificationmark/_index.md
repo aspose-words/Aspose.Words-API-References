@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.FacingIdentificationMark
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBarcode eigendom. Ruft den Typ einer einzufügenden Facing Identification Mark FIM ab oder legt diesen fest.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words für .NET
+description: FieldBarcode FacingIdentificationMark eigendom. Ruft den Typ einer einzufügenden Facing Identification Mark FIM ab oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
@@ -14,7 +16,7 @@ Ruft den Typ einer einzufügenden Facing Identification Mark (FIM) ab oder legt 
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld BARCODE verwendet wird, um US-Postleitzahlen in Form eines Barcodes anzuzeigen.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Siehe auch
 
 * class [FieldBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldbarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Run klas. Stellt eine Reihe von Zeichen mit derselben Schriftartformatierung dar.
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Run klas. Stellt eine Reihe von Zeichen mit derselben Schriftartformatierung dar in C#.
 type: docs
 weight: 4820
 url: /de/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | Name | Beschreibung |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Initialisiert eine neue Instanz von`Run` Klasse. |
-| [Run](run/#constructor_1)(DocumentBase, string) | Initialisiert eine neue Instanz von **Laufen** Klasse. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | Initialisiert eine neue Instanz von`Run` Klasse. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | Initialisiert eine neue Instanz von**Laufen** Klasse. |
 
 ## Eigenschaften
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | override [GetText](../../aspose.words/run/gettext/)() | Ruft den Text des Laufs ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der gesamte Text des Dokuments wird in Textläufen gespeichert.
 
 `Run` kann nur ein Kind von sein[`Paragraph`](../paragraph/) oder inline[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

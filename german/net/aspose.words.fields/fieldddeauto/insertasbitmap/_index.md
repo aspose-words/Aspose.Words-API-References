@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsBitmap
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDdeAuto eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als Bitmap eingefügt werden soll.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words für .NET
+description: FieldDdeAuto InsertAsBitmap eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als Bitmap eingefügt werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldddeauto/insertasbitmap/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das verknüpfte Objekt als Bitmap eingefügt werden s
 public bool InsertAsBitmap { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldDdeAuto](../)
-* namensraum [Aspose.Words.Fields](../../fieldddeauto/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Ermöglicht die Angabe ob Prozentwerte für die Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert istFALSCH . Gilt nur für Kreisdiagramme.
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection ShowPercentage eigendom. Ermöglicht die Angabe ob Prozentwerte für die Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert istFALSCH . Gilt nur für Kreisdiagramme in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe, ob Prozentwerte für die Datenbeschriftungen der gesamte
 public bool ShowPercentage { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowPercentage`](../../chartdatalabel/showpercentage/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenbeschriftungen eines Kreisdiagramms gearbeitet wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

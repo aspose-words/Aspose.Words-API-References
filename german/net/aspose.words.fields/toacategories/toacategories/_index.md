@@ -1,7 +1,9 @@
 ---
-title: ToaCategories.ToaCategories
-second_title: Aspose.Words für .NET-API-Referenz
-description: ToaCategories constructeur. Default_Constructor
+title: ToaCategories
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words für .NET
+description: ToaCategories constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/toacategories/toacategories/
@@ -17,7 +19,5 @@ public ToaCategories()
 ### Siehe auch
 
 * class [ToaCategories](../)
-* namensraum [Aspose.Words.Fields](../../toacategories/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

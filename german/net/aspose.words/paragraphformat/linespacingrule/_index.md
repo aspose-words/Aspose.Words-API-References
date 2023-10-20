@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacingRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Zeilenabstand für den Absatz ab oder legt ihn fest.
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words für .NET
+description: ParagraphFormat LineSpacingRule eigendom. Ruft den Zeilenabstand für den Absatz ab oder legt ihn fest in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words/paragraphformat/linespacingrule/
@@ -14,7 +16,7 @@ Ruft den Zeilenabstand für den Absatz ab oder legt ihn fest.
 public LineSpacingRule LineSpacingRule { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Zeilenabständen gearbeitet wird.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 
 * enum [LineSpacingRule](../../linespacingrule/)
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

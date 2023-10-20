@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector methode. Ruft die Anzahl der Seiten ab die der angegebene Knoten umfasst. 0 wenn sich der Knoten innerhalb einer einzelnen Seite befindet. Dies ist dasselbe wieGetEndPageIndex GetStartPageIndex .
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: Aspose.Words für .NET
+description: LayoutCollector GetNumPagesSpanned methode. Ruft die Anzahl der Seiten ab die der angegebene Knoten umfasst. 0 wenn sich der Knoten innerhalb einer einzelnen Seite befindet. Dies ist dasselbe wieGetEndPageIndex GetStartPageIndex  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Seiten ab, die der angegebene Knoten umfasst. 0, wenn sich d
 public int GetNumPagesSpanned(Node node)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namensraum [Aspose.Words.Layout](../../layoutcollector/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

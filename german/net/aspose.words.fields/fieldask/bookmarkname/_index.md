@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAsk eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldAsk BookmarkName eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldask/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab oder legt ihn fest.
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * class [FieldAsk](../)
-* namensraum [Aspose.Words.Fields](../../fieldask/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

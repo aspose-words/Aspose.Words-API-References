@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Hyphenation klas. Stellt Methoden zum Arbeiten mit Silbentrennungswörterbüchern bereit. Diese Wörterbücher schreiben vor wo Wörter einer bestimmten Sprache getrennt werden können.
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Hyphenation klas. Stellt Methoden zum Arbeiten mit Silbentrennungswörterbüchern bereit. Diese Wörterbücher schreiben vor wo Wörter einer bestimmten Sprache getrennt werden können in C#.
 type: docs
 weight: 3150
 url: /de/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | Name | Beschreibung |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Gibt zurück`FALSCH` wenn für die angegebene Sprache kein Wörterbuch registriert ist oder wenn registriert ein Null-Wörterbuch ist,`WAHR` sonst. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus einem Stream. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus der Datei. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Hebt die Registrierung eines Silbentrennungswörterbuchs für die angegebene Sprache auf. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Gibt zurück`FALSCH` wenn für die angegebene Sprache kein Wörterbuch registriert ist oder wenn registriert ein Null-Wörterbuch ist,`WAHR` sonst. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus einem Stream. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus der Datei. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Hebt die Registrierung eines Silbentrennungswörterbuchs für die angegebene Sprache auf. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

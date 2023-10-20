@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsUSPostalAddress
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBarcode eigendom. Ruft ab oder legt fest obPostalAddress ist eine USPostadresse.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words für .NET
+description: FieldBarcode IsUSPostalAddress eigendom. Ruft ab oder legt fest obPostalAddress ist eine USPostadresse in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob[`PostalAddress`](../postaladdress/) ist eine US-Posta
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld BARCODE verwendet wird, um US-Postleitzahlen in Form eines Barcodes anzuzeigen.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Siehe auch
 
 * class [FieldBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldbarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

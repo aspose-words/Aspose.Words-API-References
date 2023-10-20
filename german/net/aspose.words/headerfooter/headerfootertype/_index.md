@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooter eigendom. Ruft den Typ dieser Kopf/Fußzeile ab.
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words für .NET
+description: HeaderFooter HeaderFooterType eigendom. Ruft den Typ dieser Kopf/Fußzeile ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ Ruft den Typ dieser Kopf-/Fußzeile ab.
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* namensraum [Aspose.Words](../../headerfooter/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

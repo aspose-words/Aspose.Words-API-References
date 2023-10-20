@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.Rows
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabaseDataTable eigendom. Ruft Zeilen ab die zu dieser Tabelle gehören.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words für .NET
+description: FieldDatabaseDataTable Rows eigendom. Ruft Zeilen ab die zu dieser Tabelle gehören in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fielddatabasedatatable/rows/
@@ -18,7 +20,5 @@ public IList<FieldDatabaseDataRow> Rows { get; }
 
 * class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * class [FieldDatabaseDataTable](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

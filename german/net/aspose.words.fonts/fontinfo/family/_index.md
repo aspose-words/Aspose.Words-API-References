@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Ruft die Schriftfamilie ab zu der diese Schriftart gehört oder legt diese fest.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words für .NET
+description: FontInfo Family eigendom. Ruft die Schriftfamilie ab zu der diese Schriftart gehört oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ Ruft die Schriftfamilie ab, zu der diese Schriftart gehört, oder legt diese fes
 public FontFamily Family { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

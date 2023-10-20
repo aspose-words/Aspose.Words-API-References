@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkStart eigendom. Ruft den Lesezeichennamen ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: BookmarkStart Name eigendom. Ruft den Lesezeichennamen ab oder legt ihn fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/bookmarkstart/name/
@@ -14,11 +16,11 @@ Ruft den Lesezeichennamen ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [BookmarkStart](../)
-* namensraum [Aspose.Words](../../bookmarkstart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

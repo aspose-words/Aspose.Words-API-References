@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowLength
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert die Pfeilspitzenlänge für den Beginn eines Strichs.
+linktitle: StartArrowLength
+articleTitle: StartArrowLength
+second_title: Aspose.Words für .NET
+description: Stroke StartArrowLength eigendom. Definiert die Pfeilspitzenlänge für den Beginn eines Strichs in C#.
 type: docs
-weight: 170
+weight: 160
 url: /de/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property
@@ -14,11 +16,11 @@ Definiert die Pfeilspitzenlänge für den Beginn eines Strichs.
 public ArrowLength StartArrowLength { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istMedium.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

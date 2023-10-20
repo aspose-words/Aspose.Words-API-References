@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.RemoveAt
-second_title: Aspose.Words für .NET-API-Referenz
-description: VariableCollection methode. Entfernt eine Dokumentvariable am angegebenen Index.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words für .NET
+description: VariableCollection RemoveAt methode. Entfernt eine Dokumentvariable am angegebenen Index in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/variablecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Der auf Null basierende Index. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Variablensammlung eines Dokuments gearbeitet wird.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### Siehe auch
 
 * class [VariableCollection](../)
-* namensraum [Aspose.Words](../../variablecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

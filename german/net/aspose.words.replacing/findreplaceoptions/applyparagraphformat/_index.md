@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Absatzformatierung wird auf neuen Inhalt angewendet.
+linktitle: ApplyParagraphFormat
+articleTitle: ApplyParagraphFormat
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions ApplyParagraphFormat eigendom. Absatzformatierung wird auf neuen Inhalt angewendet in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -14,7 +16,7 @@ Absatzformatierung wird auf neuen Inhalt angewendet.
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formatierungen zu Absätzen hinzugefügt werden, in denen ein Such- und Ersetzungsvorgang Übereinstimmungen gefunden hat.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

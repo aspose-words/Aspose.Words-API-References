@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Shading
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für die Zelle bezieht.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words für .NET
+description: CellFormat Shading eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für die Zelle bezieht in C#.
 type: docs
-weight: 100
+weight: 90
 url: /de/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -14,7 +16,7 @@ Gibt a zurück[`Shading`](../../../aspose.words/shading/) Objekt, das sich auf d
 public Shading Shading { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Format von Zeilen und Zellen in einer Tabelle geändert wird.
 
@@ -113,7 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

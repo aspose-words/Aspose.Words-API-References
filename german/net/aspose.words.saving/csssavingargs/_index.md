@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.CssSavingArgs klas. Stellt Daten für die bereitCssSaving event.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.CssSavingArgs klas. Stellt Daten für die bereitCssSaving event in C#.
 type: docs
 weight: 4880
 url: /de/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | Ermöglicht die Angabe, ob das CSS in eine Datei exportiert und in ein HTML-Dokument eingebettet wird. Standard ist`WAHR` . Wenn diese Eigenschaft ist`FALSCH` , die CSS-Informationen werden nicht in einer CSS-Datei gespeichert und nicht in ein HTML-Dokument eingebettet. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Gibt an, ob Aspose.Words den Stream offen halten oder schließen soll, nachdem eine CSS-Information gespeichert wurde. |
 
-### Bemerkungen
+## Bemerkungen
 
-Wenn Aspose.Words ein Dokument im HTML-Format speichert, speichert es standardmäßig CSS-Informationen inline (als Wert von **Stil** Attribut für jedes Element).
+Wenn Aspose.Words ein Dokument im HTML-Format speichert, speichert es standardmäßig CSS-Informationen inline (als Wert von**Stil** Attribut für jedes Element).
 
 `CssSavingArgs`Ermöglicht das Speichern von CSS-Informationen in einer Datei, indem Sie Ihr eigenes Stream-Objekt bereitstellen.
 
@@ -35,7 +37,7 @@ Um CSS im Stream zu speichern, verwenden Sie die[`CssStream`](./cssstream/) Eige
 
 Um das Speichern von CSS in einer Datei und das Einbetten in ein HTML-Dokument zu unterdrücken, verwenden Sie die[`IsExportNeeded`](./isexportneeded/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit CSS-Stylesheets gearbeitet wird, die bei einer HTML-Konvertierung erstellt werden.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

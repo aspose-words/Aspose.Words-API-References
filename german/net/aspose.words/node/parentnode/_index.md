@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Ruft das unmittelbare übergeordnete Element dieses Knotens ab.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words für .NET
+description: Node ParentNode eigendom. Ruft das unmittelbare übergeordnete Element dieses Knotens ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ Ruft das unmittelbare übergeordnete Element dieses Knotens ab.
 public CompositeNode ParentNode { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn ein Knoten gerade erst erstellt und noch nicht zum Baum hinzugefügt wurde, oder wenn er aus dem Baum entfernt wurde, ist es der übergeordnete Knoten`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf den übergeordneten Knoten eines Knotens zugegriffen wird.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

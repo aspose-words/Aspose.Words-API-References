@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BuildingBlocks.BuildingBlockType opsomming. Gibt einen Bausteintyp an. Der Typ kann sich auf die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word auswirken.
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockType opsomming. Gibt einen Bausteintyp an. Der Typ kann sich auf die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word auswirken in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | Der Baustein ist allen Typen zugeordnet. |
 | Default | `0` | Speichern unterNone . |
 
-### Bemerkungen
+## Bemerkungen
 
-Entspricht dem **ST_DocPartType** Geben Sie OOXML ein.
+Entspricht dem**ST_DocPartType** Geben Sie OOXML ein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * namensraum [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../)
-
-

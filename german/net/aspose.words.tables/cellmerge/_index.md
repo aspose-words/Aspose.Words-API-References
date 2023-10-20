@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.CellMerge opsomming. Gibt an wie eine Zelle in einer Tabelle mit anderen Zellen zusammengeführt wird.
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.CellMerge opsomming. Gibt an wie eine Zelle in einer Tabelle mit anderen Zellen zusammengeführt wird in C#.
 type: docs
 weight: 6270
 url: /de/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | Die Zelle ist die erste Zelle in einer Reihe zusammengeführter Zellen. |
 | Previous | `2` | Die Zelle wird horizontal oder vertikal mit der vorherigen Zelle zusammengeführt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Tabellenzellen horizontal zusammengeführt werden.
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

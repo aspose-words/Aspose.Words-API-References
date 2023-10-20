@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldDatabaseProvider
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft einen Anbieter ab oder legt diesen fest der ein Abfrageergebnis für zurückgibtFieldDatabase field.
+linktitle: FieldDatabaseProvider
+articleTitle: FieldDatabaseProvider
+second_title: Aspose.Words für .NET
+description: FieldOptions FieldDatabaseProvider eigendom. Ruft einen Anbieter ab oder legt diesen fest der ein Abfrageergebnis für zurückgibtFieldDatabase field in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
@@ -18,7 +20,5 @@ public IFieldDatabaseProvider FieldDatabaseProvider { get; set; }
 
 * interface [IFieldDatabaseProvider](../../ifielddatabaseprovider/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaModule eigendom. Gibt an ob das Modul ein prozedurales Modul ein Dokumentmodul ein Klassenmodul oder ein Designermodul ist.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: VbaModule Type eigendom. Gibt an ob das Modul ein prozedurales Modul ein Dokumentmodul ein Klassenmodul oder ein Designermodul ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.vba/vbamodule/type/
@@ -14,7 +16,7 @@ Gibt an, ob das Modul ein prozedurales Modul, ein Dokumentmodul, ein Klassenmodu
 public VbaModuleType Type { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * enum [VbaModuleType](../../vbamoduletype/)
 * class [VbaModule](../)
-* namensraum [Aspose.Words.Vba](../../vbamodule/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

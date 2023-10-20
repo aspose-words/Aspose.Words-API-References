@@ -1,7 +1,9 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentSavingArgs eigendom. Gesamter geschätzter prozentualer Fortschritt.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words für .NET
+description: DocumentSavingArgs EstimatedProgress eigendom. Gesamter geschätzter prozentualer Fortschritt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/documentsavingargs/estimatedprogress/
@@ -14,7 +16,7 @@ Gesamter geschätzter prozentualer Fortschritt.
 public double EstimatedProgress { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument beim Speichern im HTML-Format verwaltet wird.
 
@@ -184,7 +186,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 ### Siehe auch
 
 * class [DocumentSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../documentsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

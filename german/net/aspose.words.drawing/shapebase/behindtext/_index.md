@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BehindText
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt an ob die Form unter oder über dem Text liegt.
+linktitle: BehindText
+articleTitle: BehindText
+second_title: Aspose.Words für .NET
+description: ShapeBase BehindText eigendom. Gibt an ob die Form unter oder über dem Text liegt in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/shapebase/behindtext/
@@ -14,13 +16,13 @@ Gibt an, ob die Form unter oder über dem Text liegt.
 public bool BehindText { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

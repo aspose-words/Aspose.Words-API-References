@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAsk eigendom. Ruft den Eingabeaufforderungstext den Titel des Eingabeaufforderungsfensters ab oder legt diesen fest.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words für .NET
+description: FieldAsk PromptText eigendom. Ruft den Eingabeaufforderungstext den Titel des Eingabeaufforderungsfensters ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ Ruft den Eingabeaufforderungstext (den Titel des Eingabeaufforderungsfensters) a
 public string PromptText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * class [FieldAsk](../)
-* namensraum [Aspose.Words.Fields](../../fieldask/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

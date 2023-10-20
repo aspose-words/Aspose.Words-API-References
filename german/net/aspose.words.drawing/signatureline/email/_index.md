@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Email
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft die EMailAdresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft ist leerer String Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words für .NET
+description: SignatureLine Email eigendom. Ruft die EMailAdresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Ruft die E-Mail-Adresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty).
+Ruft die E-Mail-Adresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

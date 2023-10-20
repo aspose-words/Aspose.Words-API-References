@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Designfarbe im angewendeten Farbschema ab das damit verknüpft ist oder legt diese festFont Objekt.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words für .NET
+description: Font ThemeColor eigendom. Ruft die Designfarbe im angewendeten Farbschema ab das damit verknüpft ist oder legt diese festFont Objekt in C#.
 type: docs
 weight: 460
 url: /de/net/aspose.words/font/themecolor/
@@ -14,7 +16,7 @@ Ruft die Designfarbe im angewendeten Farbschema ab, das damit verknüpft ist, od
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Themenstil erstellt und verwendet wird.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

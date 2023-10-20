@@ -1,26 +1,28 @@
 ---
 title: Footnote.ReferenceMark
-second_title: Aspose.Words für .NET-API-Referenz
-description: Footnote eigendom. Ruft die benutzerdefinierte Referenzmarke ab die für diese Fußnote verwendet werden soll bzw. legt sie fest. Der Standardwert ist leerer String Empty  was bedeutet dass automatisch nummerierte Fußnoten verwendet werden.
+linktitle: ReferenceMark
+articleTitle: ReferenceMark
+second_title: Aspose.Words für .NET
+description: Footnote ReferenceMark eigendom. Ruft die benutzerdefinierte Referenzmarke ab die für diese Fußnote verwendet werden soll bzw. legt sie fest. Der Standardwert istleerer String Empty  was bedeutet dass automatisch nummerierte Fußnoten verwendet werden in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.notes/footnote/referencemark/
 ---
 ## Footnote.ReferenceMark property
 
-Ruft die benutzerdefinierte Referenzmarke ab, die für diese Fußnote verwendet werden soll, bzw. legt sie fest. Der Standardwert ist **leerer String** (Empty ), was bedeutet, dass automatisch nummerierte Fußnoten verwendet werden.
+Ruft die benutzerdefinierte Referenzmarke ab, die für diese Fußnote verwendet werden soll, bzw. legt sie fest. Der Standardwert ist**leerer String** (Empty ), was bedeutet, dass automatisch nummerierte Fußnoten verwendet werden.
 
 ```csharp
 public string ReferenceMark { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Wenn diese Eigenschaft auf festgelegt ist **leerer String** (Empty ) oder`Null` , Dann[`IsAuto`](../isauto/) Die Eigenschaft wird automatisch auf gesetzt`WAHR` , , wenn dann etwas anderes eingestellt ist[`IsAuto`](../isauto/) wird eingestellt`FALSCH` .
+Wenn diese Eigenschaft auf festgelegt ist**leerer String** (Empty ) oder`Null` , Dann[`IsAuto`](../isauto/) Die Eigenschaft wird automatisch auf gesetzt`WAHR` , , wenn dann etwas anderes eingestellt ist[`IsAuto`](../isauto/) wird eingestellt`FALSCH` .
 
 Das RTF-Format kann nur 1 Symbol als benutzerdefinierte Referenzmarke speichern, daher wird beim Export nur das erste Symbol geschrieben, andere werden verworfen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fußnoten eingefügt und angepasst werden.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Siehe auch
 
 * class [Footnote](../)
-* namensraum [Aspose.Words.Notes](../../footnote/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

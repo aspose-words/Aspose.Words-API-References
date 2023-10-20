@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft die Ebene ab auf der dies geschieht SDT kommt im Dokumentenbaum vor.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Level eigendom. Ruft die Ebene ab auf der dies geschiehtSDT kommt im Dokumentenbaum vor in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-Ruft die Ebene ab, auf der dies geschieht **SDT** kommt im Dokumentenbaum vor.
+Ruft die Ebene ab, auf der dies geschieht**SDT** kommt im Dokumentenbaum vor.
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

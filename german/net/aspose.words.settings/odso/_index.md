@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.Odso klas. Gibt die Office Data Source Object ODSOEinstellungen für eine SerienbriefDatenquelle an.
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.Odso klas. Gibt die Office Data Source Object ODSOEinstellungen für eine SerienbriefDatenquelle an in C#.
 type: docs
 weight: 5880
 url: /de/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | Gibt einen tiefen Klon dieses Objekts zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 ODSO scheint die „neue“ Methode zu sein, die die neueren Microsoft Word-Versionen bevorzugen, wenn sie bestimmte -Typen von Datenquellen für ein Seriendruckdokument angeben. ODSO erschien wahrscheinlich erstmals in Microsoft Word 2000.
 
@@ -49,7 +51,7 @@ Die Verwendung von ODSO ist schlecht dokumentiert und der beste Weg, um zu lerne
 
 Normalerweise müssen Sie Objekte dieser Klasse nicht direkt erstellen, da ODSO-Einstellungen immer über verfügbar sind[`Odso`](../mailmergesettings/odso/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

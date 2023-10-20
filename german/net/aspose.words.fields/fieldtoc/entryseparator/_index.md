@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft eine Zeichenfolge ab die einen Eintrag und seine Seitenzahl trennt oder legt diese fest.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words für .NET
+description: FieldToc EntrySeparator eigendom. Ruft eine Zeichenfolge ab die einen Eintrag und seine Seitenzahl trennt oder legt diese fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ Ruft eine Zeichenfolge ab, die einen Eintrag und seine Seitenzahl trennt, oder l
 public string EntrySeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

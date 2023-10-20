@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.TimestampSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfDigitalSignatureDetails eigendom. Ruft die Zeitstempeleinstellungen für die digitale Signatur ab oder legt diese fest.
+linktitle: TimestampSettings
+articleTitle: TimestampSettings
+second_title: Aspose.Words für .NET
+description: PdfDigitalSignatureDetails TimestampSettings eigendom. Ruft die Zeitstempeleinstellungen für die digitale Signatur ab oder legt diese fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -14,11 +16,11 @@ Ruft die Zeitstempeleinstellungen für die digitale Signatur ab oder legt diese 
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`Null` und die digitale Signatur wird nicht mit einem Zeitstempel versehen. Wenn diese Eigenschaft auf einen gültigen Wert gesetzt ist[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, dann wird die digitale Signatur im PDF-Dokument mit einem Zeitstempel versehen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie ein gespeichertes PDF-Dokument digital signieren und mit einem Zeitstempel versehen.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * class [PdfDigitalSignatureDetails](../)
-* namensraum [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

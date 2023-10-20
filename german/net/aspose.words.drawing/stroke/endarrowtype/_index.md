@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert die Pfeilspitze für das Ende eines Strichs.
+linktitle: EndArrowType
+articleTitle: EndArrowType
+second_title: Aspose.Words für .NET
+description: Stroke EndArrowType eigendom. Definiert die Pfeilspitze für das Ende eines Strichs in C#.
 type: docs
-weight: 70
+weight: 60
 url: /de/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
@@ -14,11 +16,11 @@ Definiert die Pfeilspitze für das Ende eines Strichs.
 public ArrowType EndArrowType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istNone.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.DefaultTabStop
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft das Intervall in Punkt zwischen den Standardtabstopps ab oder legt es fest.
+linktitle: DefaultTabStop
+articleTitle: DefaultTabStop
+second_title: Aspose.Words für .NET
+description: Document DefaultTabStop eigendom. Ruft das Intervall in Punkt zwischen den Standardtabstopps ab oder legt es fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/document/defaulttabstop/
@@ -14,7 +16,7 @@ Ruft das Intervall (in Punkt) zwischen den Standardtabstopps ab oder legt es fes
 public double DefaultTabStop { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein benutzerdefiniertes Intervall für Tabstopppositionen festgelegt wird.
 
@@ -35,7 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStopCollection methode. Fügt einen Tabstopp in der Sammlung hinzu oder ersetzt ihn.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: TabStopCollection Add methode. Fügt einen Tabstopp in der Sammlung hinzu oder ersetzt ihn in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 Fügt einen Tabstopp in der Sammlung hinzu oder ersetzt ihn.
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | Ein hinzuzufügendes Tabstoppobjekt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn an der angegebenen Position bereits ein Tabstopp vorhanden ist, wird dieser ersetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man benutzerdefinierte Tabstopps zu einem Dokument hinzufügt.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 Fügt einen Tabstopp in der Sammlung hinzu oder ersetzt ihn.
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) Der Wert that gibt die Ausrichtung des Texts am Tabstopp an. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) Der Wert that gibt den Typ der Führungslinie an, die unter dem Tabulatorzeichen angezeigt wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn an der angegebenen Position bereits ein Tabstopp vorhanden ist, wird dieser ersetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man benutzerdefinierte Tabstopps zu einem Dokument hinzufügt.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument klas. Stellt eine Standardimplementierung zum Drucken von a bereitDocument innerhalb des .NETDruckframeworks.
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument klas. Stellt eine Standardimplementierung zum Drucken von a bereitDocument innerhalb des .NETDruckframeworks in C#.
 type: docs
 weight: 4530
 url: /de/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Initialisiert eine neue Instanz dieser Klasse. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | Liest und speichert einige Felder vonPrinterSettings zur Reduzierung der Druckzeit. |
 
-### Bemerkungen
+## Bemerkungen
 
 `AsposeWordsPrintDocument` überschreibtPrintEventArgs) zum Drucken des in angegebenen SeitenbereichsPrinterSettings.
 
@@ -47,5 +49,3 @@ Microsoft Word speichert druckerspezifische Werte für Papierfächer in einem Wo
 
 * namensraum [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../)
-
-

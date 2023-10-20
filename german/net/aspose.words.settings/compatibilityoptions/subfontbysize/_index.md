@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SubFontBySize
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Erhöhen Sie die Priorität der Schriftgröße bei der Schriftartersetzung.
+linktitle: SubFontBySize
+articleTitle: SubFontBySize
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions SubFontBySize eigendom. Erhöhen Sie die Priorität der Schriftgröße bei der Schriftartersetzung in C#.
 type: docs
 weight: 470
 url: /de/net/aspose.words.settings/compatibilityoptions/subfontbysize/
@@ -17,7 +19,5 @@ public bool SubFontBySize { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

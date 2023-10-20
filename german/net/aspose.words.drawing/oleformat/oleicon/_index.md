@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleIcon
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft den Zeichenaspekt des OLEObjekts ab. WannWAHR  das OLEObjekt wird als Symbol angezeigt. WennFALSCH  das OLEObjekt wird als content. angezeigt
+linktitle: OleIcon
+articleTitle: OleIcon
+second_title: Aspose.Words für .NET
+description: OleFormat OleIcon eigendom. Ruft den Zeichenaspekt des OLEObjekts ab. WannWAHR  das OLEObjekt wird als Symbol angezeigt. WennFALSCH  das OLEObjekt wird als content. angezeigt in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/oleformat/oleicon/
@@ -14,11 +16,11 @@ Ruft den Zeichenaspekt des OLE-Objekts ab. Wann`WAHR` , das OLE-Objekt wird als 
 public bool OleIcon { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words lässt das Festlegen dieser Eigenschaft nicht zu, um Verwirrung zu vermeiden. Wenn Sie den Zeichenaspekt in Aspose.Words ändern könnten, würde Microsoft Word das OLE-Objekt immer noch in seinem ursprünglichen Zeichenaspekt anzeigen, bis Sie das OLE-Objekt in Microsoft Word bearbeiten oder aktualisieren.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verknüpfte und nicht verknüpfte OLE-Objekte eingefügt werden.
 
@@ -68,7 +70,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.FieldMerging
-second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldMergingCallback methode. Wird aufgerufen wenn die MailMergeEngine von Aspose.Words im Begriff ist Daten in ein Seriendruckfeld im Dokument einzufügen.
+linktitle: FieldMerging
+articleTitle: FieldMerging
+second_title: Aspose.Words für .NET
+description: IFieldMergingCallback FieldMerging methode. Wird aufgerufen wenn die MailMergeEngine von Aspose.Words im Begriff ist Daten in ein Seriendruckfeld im Dokument einzufügen in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
@@ -14,7 +16,7 @@ Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, Dat
 public void FieldMerging(FieldMergingArgs args)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergingArgs](../../fieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* namensraum [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

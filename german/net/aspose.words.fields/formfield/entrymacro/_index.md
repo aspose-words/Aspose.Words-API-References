@@ -1,7 +1,9 @@
 ---
 title: FormField.EntryMacro
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt einen Eintragsmakronamen für das Formularfeld zurück oder legt diesen fest.
+linktitle: EntryMacro
+articleTitle: EntryMacro
+second_title: Aspose.Words für .NET
+description: FormField EntryMacro eigendom. Gibt einen Eintragsmakronamen für das Formularfeld zurück oder legt diesen fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/formfield/entrymacro/
@@ -14,13 +16,13 @@ Gibt einen Eintragsmakronamen für das Formularfeld zurück oder legt diesen fes
 public string EntryMacro { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das Eingabemakro wird ausgeführt, wenn das Formularfeld in Microsoft Word den Fokus erhält.
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 32 Zeichen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

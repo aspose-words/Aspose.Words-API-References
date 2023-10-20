@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpace
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Geschütztes Leerzeichen x00a0.
+linktitle: NonBreakingSpace
+articleTitle: NonBreakingSpace
+second_title: Aspose.Words für .NET
+description: ControlChar NonBreakingSpace veld. Geschütztes Leerzeichen x00a0 in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words/controlchar/nonbreakingspace/
@@ -14,7 +16,7 @@ Geschütztes Leerzeichen: „\x00a0“.
 public static readonly string NonBreakingSpace;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

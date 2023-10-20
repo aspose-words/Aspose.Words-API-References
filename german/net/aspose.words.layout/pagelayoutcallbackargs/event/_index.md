@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageLayoutCallbackArgs eigendom. Ruft das Ereignis ab.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words für .NET
+description: PageLayoutCallbackArgs Event eigendom. Ruft das Ereignis ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ Ruft das Ereignis ab.
 public PageLayoutEvent Event { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* namensraum [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

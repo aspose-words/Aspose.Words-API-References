@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPropertyCollection eigendom. Gibt a zurückDocumentProperty Objekt mit dem Namen der Eigenschaft.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: DocumentPropertyCollection Item eigendom. Gibt a zurückDocumentProperty Objekt mit dem Namen der Eigenschaft in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Der Name der abzurufenden Eigenschaft ohne Berücksichtigung der Groß-/Kleinschreibung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Kehrt zurück`Null` wenn eine Eigenschaft mit dem angegebenen Namen nicht gefunden wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Dokumenteigenschaft erstellt wird, die ein Datum und eine Uhrzeit enthält.
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* namensraum [Aspose.Words.Properties](../../documentpropertycollection/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | Nullbasierter Index des[`DocumentProperty`](../../documentproperty/) abrufen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit benutzerdefinierten Dokumenteigenschaften gearbeitet wird.
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* namensraum [Aspose.Words.Properties](../../documentpropertycollection/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisBound klas. Stellt die minimale oder maximale Grenze der Achsenwerte dar.
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisBound klas. Stellt die minimale oder maximale Grenze der Achsenwerte dar in C#.
 type: docs
 weight: 510
 url: /de/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | Name | Beschreibung |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | Erstellt eine neue Instanz, die angibt, dass die Achsengrenze automatisch von einer Textverarbeitungsanwendung bestimmt werden soll. |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Erstellt eine Achsengrenze, die als Datum/Uhrzeit-Wert dargestellt wird. |
-| [AxisBound](axisbound/#constructor_1)(double) | Erstellt eine als Zahl dargestellte Achsengrenze. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Erstellt eine Achsengrenze, die als Datum/Uhrzeit-Wert dargestellt wird. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Erstellt eine als Zahl dargestellte Achsengrenze. |
 
 ## Eigenschaften
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Dient als Hash-Funktion für diesen Typ. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Gibt eine benutzerfreundliche Zeichenfolge zurück, die den Wert dieses Objekts anzeigt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Bound kann als numerischer Wert, Datum/Uhrzeit-Wert oder spezieller „Auto“-Wert angegeben werden.
 
 Die Instanzen dieser Klasse sind unveränderlich.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

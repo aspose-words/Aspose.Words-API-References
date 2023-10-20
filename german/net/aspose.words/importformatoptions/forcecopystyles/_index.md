@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob widersprüchliche Stile kopiert werden sollenKeepSourceFormatting mode. Der Standardwert istFALSCH .
+linktitle: ForceCopyStyles
+articleTitle: ForceCopyStyles
+second_title: Aspose.Words für .NET
+description: ImportFormatOptions ForceCopyStyles eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob widersprüchliche Stile kopiert werden sollenKeepSourceFormatting mode. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/importformatoptions/forcecopystyles/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, ob widersprüchlic
 public bool ForceCopyStyles { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn in einem Zieldokument bereits ein passender Stil vorhanden ist, wird der Quellstil formatting standardmäßig in direkte Knotenattribute erweitert und der Stil dieses Knotens auf einen Standardwert zurückgesetzt.
 
@@ -22,7 +24,7 @@ Wenn diese Option auf eingestellt ist`WAHR`, wird der Quellstil zwangsweise in d
 
 Beachten Sie, dass in diesem Fall nicht garantiert werden kann, dass die Formatierung des importierten Knotens im Zieldokument erhalten bleibt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Quellstile mit eindeutigen Namen zwangsweise kopiert werden.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(paras[2].ParagraphFormat.Style.Name, "MyStyle3");
 ### Siehe auch
 
 * class [ImportFormatOptions](../)
-* namensraum [Aspose.Words](../../importformatoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

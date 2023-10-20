@@ -1,7 +1,9 @@
 ---
 title: Document.PackageCustomParts
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die Sammlung benutzerdefinierter Teile beliebiger Inhalt ab oder legt diese fest die über unbekannte Beziehungen mit dem OOXMLPaket verknüpft sind.
+linktitle: PackageCustomParts
+articleTitle: PackageCustomParts
+second_title: Aspose.Words für .NET
+description: Document PackageCustomParts eigendom. Ruft die Sammlung benutzerdefinierter Teile beliebiger Inhalt ab oder legt diese fest die über unbekannte Beziehungen mit dem OOXMLPaket verknüpft sind in C#.
 type: docs
 weight: 310
 url: /de/net/aspose.words/document/packagecustomparts/
@@ -14,7 +16,7 @@ Ruft die Sammlung benutzerdefinierter Teile (beliebiger Inhalt) ab oder legt die
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwechseln Sie diese benutzerdefinierten Teile nicht mit benutzerdefinierten XML-Daten. Wenn Sie auf benutzerdefinierte XML-Teile zugreifen müssen, verwenden Sie die[`CustomXmlParts`](../customxmlparts/) Eigentum.
 
@@ -24,7 +26,7 @@ Aspose.Words lädt und speichert benutzerdefinierte Teile nur in OOXML-Dokumente
 
 Diese Eigenschaft kann nicht sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -69,7 +71,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

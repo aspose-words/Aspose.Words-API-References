@@ -1,7 +1,9 @@
 ---
 title: FieldGlossary.EntryName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGlossary eigendom. Ruft den Namen des einzufügenden Glossareintrags ab oder legt diesen fest.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words für .NET
+description: FieldGlossary EntryName eigendom. Ruft den Namen des einzufügenden Glossareintrags ab oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldglossary/entryname/
@@ -14,7 +16,7 @@ Ruft den Namen des einzufügenden Glossareintrags ab oder legt diesen fest.
 public string EntryName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Baustein mit den Feldern AUTOTEXT und GLOSSARY angezeigt wird.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Siehe auch
 
 * class [FieldGlossary](../)
-* namensraum [Aspose.Words.Fields](../../fieldglossary/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

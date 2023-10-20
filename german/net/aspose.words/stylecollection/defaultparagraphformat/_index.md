@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultParagraphFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: StyleCollection eigendom. Ruft die standardmäßige Absatzformatierung des Dokuments ab.
+linktitle: DefaultParagraphFormat
+articleTitle: DefaultParagraphFormat
+second_title: Aspose.Words für .NET
+description: StyleCollection DefaultParagraphFormat eigendom. Ruft die standardmäßige Absatzformatierung des Dokuments ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/stylecollection/defaultparagraphformat/
@@ -14,11 +16,11 @@ Ruft die standardmäßige Absatzformatierung des Dokuments ab.
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass dokumentweite Standardeinstellungen in Microsoft Word 2007 eingeführt wurden und in OOXML-Formaten vollständig unterstützt werden (Docx) only. Frühere Dokumentformate unterstützen die standardmäßige Absatzformatierung des Dokuments nicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Stilsammlung eines Dokuments einen Stil hinzufügt.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [StyleCollection](../)
-* namensraum [Aspose.Words](../../stylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

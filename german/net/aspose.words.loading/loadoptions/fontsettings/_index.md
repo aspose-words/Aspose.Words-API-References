@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ermöglicht das Festlegen von Schriftarteinstellungen für Dokumente.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words für .NET
+description: LoadOptions FontSettings eigendom. Ermöglicht das Festlegen von Schriftarteinstellungen für Dokumente in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ Ermöglicht das Festlegen von Schriftarteinstellungen für Dokumente.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beim Laden einiger Formate muss Aspose.Words möglicherweise die Schriftarten auflösen. Beim Laden von HTML-Dokumenten kann Aspose.Words beispielsweise die Schriftarten auflösen, um einen Schriftart-Fallback durchzuführen.
 
@@ -22,7 +24,7 @@ Wenn eingestellt auf`Null` , Standardeinstellungen für statische Schriftarten[`
 
 Der Standardwert ist`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftartersetzungseinstellungen beim Laden eines Dokuments angewendet werden.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

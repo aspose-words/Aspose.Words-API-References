@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Geschützter Bindestrich in Microsoft Word ist char30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words für .NET
+description: ControlChar NonBreakingHyphenChar veld. Geschützter Bindestrich in Microsoft Word ist char30 in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ Geschützter Bindestrich in Microsoft Word ist (char)30.
 public const char NonBreakingHyphenChar;
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der geschützte Bindestrich in Microsoft Word entspricht nicht dem geschützten Bindestrich des Unicode-Zeichens U+2011, sondern stellt stattdessen interne Informationen dar, die Microsoft Word anweisen, einen Bindestrich anzuzeigen und keine Zeile umzubrechen.
 
 Nützliche Informationen: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

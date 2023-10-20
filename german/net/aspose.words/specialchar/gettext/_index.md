@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.GetText
-second_title: Aspose.Words für .NET-API-Referenz
-description: SpecialChar methode. Ruft das Sonderzeichen ab das dieser Knoten darstellt.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words für .NET
+description: SpecialChar GetText methode. Ruft das Sonderzeichen ab das dieser Knoten darstellt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/specialchar/gettext/
@@ -21,7 +23,5 @@ Die Zeichenfolge, die das Zeichen enthält, das dieser Knoten darstellt.
 ### Siehe auch
 
 * class [SpecialChar](../)
-* namensraum [Aspose.Words](../../specialchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

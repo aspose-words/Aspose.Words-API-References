@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Ruft die Füllformatierung für abStroke .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words für .NET
+description: Stroke Fill eigendom. Ruft die Füllformatierung für abStroke  in C#.
 type: docs
-weight: 100
+weight: 90
 url: /de/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ Ruft die Füllformatierung für ab[`Stroke`](../) .
 public Fill Fill { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie sich die Stricheigenschaften ändern.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

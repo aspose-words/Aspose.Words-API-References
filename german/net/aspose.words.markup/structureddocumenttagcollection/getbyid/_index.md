@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetById
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagCollection methode. Gibt das strukturierte DokumentTag nach Kennung zurück.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagCollection GetById methode. Gibt das strukturierte DokumentTag nach Kennung zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetById(int id)
 | --- | --- | --- |
 | id | Int32 | Die Tag-ID des strukturierten Dokuments. |
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt null zurück, wenn das strukturierte Dokument-Tag mit der angegebenen Kennung nicht gefunden werden kann.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag erhält.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

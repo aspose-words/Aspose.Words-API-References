@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Charset
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Ruft den Zeichensatz für die Schriftart ab oder legt diesen fest.
+linktitle: Charset
+articleTitle: Charset
+second_title: Aspose.Words für .NET
+description: FontInfo Charset eigendom. Ruft den Zeichensatz für die Schriftart ab oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontinfo/charset/
@@ -14,7 +16,7 @@ Ruft den Zeichensatz für die Schriftart ab oder legt diesen fest.
 public int Charset { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
@@ -53,7 +55,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Siehe auch
 
 * class [FontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

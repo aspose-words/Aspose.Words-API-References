@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNum.SeparatorCharacter
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoNum eigendom. Ruft das zu verwendende Trennzeichen ab oder legt es fest.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words für .NET
+description: FieldAutoNum SeparatorCharacter eigendom. Ruft das zu verwendende Trennzeichen ab oder legt es fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldautonum/separatorcharacter/
@@ -14,7 +16,7 @@ Ruft das zu verwendende Trennzeichen ab oder legt es fest.
 public string SeparatorCharacter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absätze mithilfe von Autonum-Feldern nummeriert werden.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ### Siehe auch
 
 * class [FieldAutoNum](../)
-* namensraum [Aspose.Words.Fields](../../fieldautonum/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.BindingType
-second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtensionBinding eigendom. Gibt den Bindungstyp an.
+linktitle: BindingType
+articleTitle: BindingType
+second_title: Aspose.Words für .NET
+description: WebExtensionBinding BindingType eigendom. Gibt den Bindungstyp an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.webextensions/webextensionbinding/bindingtype/
@@ -18,7 +20,5 @@ public WebExtensionBindingType BindingType { get; set; }
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* namensraum [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

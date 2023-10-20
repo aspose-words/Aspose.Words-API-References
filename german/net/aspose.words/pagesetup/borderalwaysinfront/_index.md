@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAlwaysInFront
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt an wo der Seitenrand relativ zu sich überschneidenden Texten und Objekten positioniert wird.
+linktitle: BorderAlwaysInFront
+articleTitle: BorderAlwaysInFront
+second_title: Aspose.Words für .NET
+description: PageSetup BorderAlwaysInFront eigendom. Gibt an wo der Seitenrand relativ zu sich überschneidenden Texten und Objekten positioniert wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/pagesetup/borderalwaysinfront/
@@ -14,7 +16,7 @@ Gibt an, wo der Seitenrand relativ zu sich überschneidenden Texten und Objekten
 public bool BorderAlwaysInFront { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

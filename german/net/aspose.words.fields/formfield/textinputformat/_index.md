@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt die Textformatierung für ein Textformularfeld zurück oder legt sie fest.
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: Aspose.Words für .NET
+description: FormField TextInputFormat eigendom. Gibt die Textformatierung für ein Textformularfeld zurück oder legt sie fest in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ Gibt die Textformatierung für ein Textformularfeld zurück oder legt sie fest.
 public string TextInputFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn das Textformularfeld regulären Text enthält, sind die gültigen Formatzeichenfolgen „ “, „GROSSBUCHSTABEN“, „KLEINBUCHSTABEN“, „ERSTES GROSSBUCHSTABEN“ und „TITELCASE“. Bei strings wird die Groß-/Kleinschreibung nicht beachtet.
 
@@ -22,7 +24,7 @@ Wenn das Textformularfeld eine Zahl oder einen Datums-/Uhrzeitwert enthält, sin
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 64 Zeichen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

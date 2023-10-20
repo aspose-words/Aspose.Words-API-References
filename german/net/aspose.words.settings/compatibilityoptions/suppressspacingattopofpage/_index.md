@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressSpacingAtTopOfPage
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Mindestzeilenhöhe für erste Zeile auf Seite ignorieren.
+linktitle: SuppressSpacingAtTopOfPage
+articleTitle: SuppressSpacingAtTopOfPage
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions SuppressSpacingAtTopOfPage eigendom. Mindestzeilenhöhe für erste Zeile auf Seite ignorieren in C#.
 type: docs
 weight: 490
 url: /de/net/aspose.words.settings/compatibilityoptions/suppressspacingattopofpage/
@@ -17,7 +19,5 @@ public bool SuppressSpacingAtTopOfPage { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

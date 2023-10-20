@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToField
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor auf ein Feld im Dokument.
+linktitle: MoveToField
+articleTitle: MoveToField
+second_title: Aspose.Words für .NET
+description: DocumentBuilder MoveToField methode. Bewegt den Cursor auf ein Feld im Dokument in C#.
 type: docs
-weight: 540
+weight: 530
 url: /de/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,7 +21,7 @@ public void MoveToField(Field field, bool isAfter)
 | field | Field | Das Feld, zu dem der Cursor bewegt werden soll. |
 | isAfter | Boolean | Wann`WAHR` , bewegt den Cursor hinter das Feldende. Wann`FALSCH`, bewegt den Cursor vor den Feldanfang. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Knoteneinfügepunkt-Cursor eines Document Builders in ein bestimmtes Feld verschoben wird.
 
@@ -62,7 +64,5 @@ else
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

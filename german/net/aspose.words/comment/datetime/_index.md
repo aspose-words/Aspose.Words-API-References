@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Ruft das Datum und die Uhrzeit ab zu der der Kommentar erstellt wurde.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words für .NET
+description: Comment DateTime eigendom. Ruft das Datum und die Uhrzeit ab zu der der Kommentar erstellt wurde in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ Ruft das Datum und die Uhrzeit ab, zu der der Kommentar erstellt wurde.
 public DateTime DateTime { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standard istMinValue.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

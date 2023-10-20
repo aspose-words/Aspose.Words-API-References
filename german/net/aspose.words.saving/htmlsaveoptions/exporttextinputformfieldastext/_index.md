@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Steuert wie Texteingabeformularfelder in HTML oder MHTML gespeichert werden. Der Standardwert istFALSCH .
+linktitle: ExportTextInputFormFieldAsText
+articleTitle: ExportTextInputFormFieldAsText
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportTextInputFormFieldAsText eigendom. Steuert wie Texteingabeformularfelder in HTML oder MHTML gespeichert werden. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
@@ -14,13 +16,13 @@ Steuert, wie Texteingabeformularfelder in HTML oder MHTML gespeichert werden. De
 public bool ExportTextInputFormFieldAsText { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn eingestellt auf`WAHR` , exportiert Texteingabeformularfelder als normalen Text. Wann`FALSCH`, exportiert Word-Texteingabeformularfelder als INPUT-Elemente in HTML.
 
 Beim Exportieren nach EPUB werden Texteingabeformularfelder aufgrund der Anforderungen dieses Formats immer als Text gespeichert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Ordner zum Speichern verknüpfter Bilder nach dem Speichern im HTML-Format angegeben wird.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

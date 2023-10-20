@@ -1,7 +1,9 @@
 ---
-title: Class TextColumn
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextColumn klas. Stellt eine einzelne Textspalte dar.TextColumn ist Mitglied derTextColumnCollection Sammlung. DieTextColumn Die Sammlung umfasst alle Spalten in einem Abschnitt eines Dokuments.
+title: TextColumn Class
+linktitle: TextColumn
+articleTitle: TextColumn
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TextColumn klas. Stellt eine einzelne Textspalte dar.TextColumn ist Mitglied derTextColumnCollection Sammlung. DieTextColumn Die Sammlung umfasst alle Spalten in einem Abschnitt eines Dokuments in C#.
 type: docs
 weight: 6390
 url: /de/net/aspose.words/textcolumn/
@@ -23,13 +25,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Ruft den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkten ab oder legt diesen fest. Für die letzte Spalte nicht erforderlich. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | Ruft die Breite der Textspalte in Punkten ab oder legt sie fest. |
 
-### Bemerkungen
+## Bemerkungen
 
 `TextColumn` Objekte werden nur verwendet, um Spalten mit benutzerdefinierter Breite und benutzerdefiniertem Abstand anzugeben. Wenn Sie möchten, dass die Spalten im Dokument die gleiche Breite haben, legen Sie TextColumns fest.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) Zu`WAHR`.
 
 Wenn ein neues`TextColumn` erstellt wird, werden Breite und Abstand auf Null gesetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

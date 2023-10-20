@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsFormatRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Gibt true zurück wenn die Formatierung des Objekts in Microsoft Word geändert wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: Aspose.Words für .NET
+description: Paragraph IsFormatRevision eigendom. Gibt true zurück wenn die Formatierung des Objekts in Microsoft Word geändert wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/paragraph/isformatrevision/
@@ -14,7 +16,7 @@ Gibt „true“ zurück, wenn die Formatierung des Objekts in Microsoft Word ge�
 public bool IsFormatRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man prüft, ob es sich bei einem Absatz um eine Formatrevision handelt.
 
@@ -29,7 +31,5 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

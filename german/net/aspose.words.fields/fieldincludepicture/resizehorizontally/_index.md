@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.ResizeHorizontally
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIncludePicture eigendom. Ruft ab oder legt fest ob die Größe des Bildes horizontal von der Quelle geändert werden soll.
+linktitle: ResizeHorizontally
+articleTitle: ResizeHorizontally
+second_title: Aspose.Words für .NET
+description: FieldIncludePicture ResizeHorizontally eigendom. Ruft ab oder legt fest ob die Größe des Bildes horizontal von der Quelle geändert werden soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldincludepicture/resizehorizontally/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Größe des Bildes horizontal von der Quelle geä
 public bool ResizeHorizontally { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Bilder mithilfe der Felder IMPORT und INCLUDEPICTURE eingefügt werden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Siehe auch
 
 * class [FieldIncludePicture](../)
-* namensraum [Aspose.Words.Fields](../../fieldincludepicture/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

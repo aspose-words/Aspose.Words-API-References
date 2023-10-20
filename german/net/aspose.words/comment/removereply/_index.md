@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveReply
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment methode. Entfernt die angegebene Antwort auf diesen Kommentar.
+linktitle: RemoveReply
+articleTitle: RemoveReply
+second_title: Aspose.Words für .NET
+description: Comment RemoveReply methode. Entfernt die angegebene Antwort auf diesen Kommentar in C#.
 type: docs
-weight: 170
+weight: 140
 url: /de/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -18,11 +20,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | Der Kommentarknoten der Löschantwort. |
 
-### Bemerkungen
+## Bemerkungen
 
 Alle Teilknoten der Antwort werden aus dem Dokument gelöscht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kommentarantworten entfernt werden.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

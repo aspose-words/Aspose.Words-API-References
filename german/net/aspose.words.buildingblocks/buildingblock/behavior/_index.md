@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Behavior
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Gibt das Verhalten an das angewendet werden soll wenn der Inhalt des Bausteins in das Hauptdokument eingefügt wird.
+linktitle: Behavior
+articleTitle: Behavior
+second_title: Aspose.Words für .NET
+description: BuildingBlock Behavior eigendom. Gibt das Verhalten an das angewendet werden soll wenn der Inhalt des Bausteins in das Hauptdokument eingefügt wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.buildingblocks/buildingblock/behavior/
@@ -14,7 +16,7 @@ Gibt das Verhalten an, das angewendet werden soll, wenn der Inhalt des Bausteins
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UICompat97To2003
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. True um UIFunktionalität zu deaktivieren die nicht mit Word972003 kompatibel ist. Der Standardwert istFALSCH .
+linktitle: UICompat97To2003
+articleTitle: UICompat97To2003
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions UICompat97To2003 eigendom. True um UIFunktionalität zu deaktivieren die nicht mit Word972003 kompatibel ist. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 570
 url: /de/net/aspose.words.settings/compatibilityoptions/uicompat97to2003/
@@ -14,14 +16,12 @@ True, um UI-Funktionalität zu deaktivieren, die nicht mit Word97-2003 kompatibe
 public bool UICompat97To2003 { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Steuert die Word97-2003-Kompatibilitätseinstellung, die die UI-Funktionalität deaktiviert, die nicht mit Word97-2003 kompatibel ist. Wann`WAHR` „w:uiCompat97To2003“ XML-Element wird in „\word\settings.xml“ geschrieben Dokumentpaket part. Der Standardwert ist`FALSCH` . Wenn eingestellt auf`FALSCH` , dieses Element wird nicht geschrieben. Technisch gesehen ist diese Eigenschaft nicht Teil der Kompatibilitätsoptionen, aber wir haben sie aus Gründen der API-Komfort hier eingefügt.
 
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

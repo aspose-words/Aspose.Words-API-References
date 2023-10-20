@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetListByListId
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListCollection methode. Ruft eine Liste anhand einer Listenkennung ab.
+linktitle: GetListByListId
+articleTitle: GetListByListId
+second_title: Aspose.Words für .NET
+description: ListCollection GetListByListId methode. Ruft eine Liste anhand einer Listenkennung ab in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.lists/listcollection/getlistbylistid/
@@ -22,11 +24,11 @@ public List GetListByListId(int listId)
 
 Gibt das Listenobjekt zurück. Kehrt zurück`Null` wenn keine Liste mit der angegebenen Kennung gefunden wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Normalerweise müssen Sie diese Methode nicht verwenden. Meistens wenden Sie die Listenformatierung auf Absätze an, indem Sie einfach die festlegen[`List`](../../listformat/list/) property des[`ListFormat`](../../listformat/) Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
@@ -49,7 +51,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namensraum [Aspose.Words.Lists](../../listcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.OutlineOptions klas. Ermöglicht die Angabe von Umrissoptionen.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.OutlineOptions klas. Ermöglicht die Angabe von Umrissoptionen in C#.
 type: docs
 weight: 5360
 url: /de/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Gibt an, wie viele Ebenen in der Dokumentgliederung erweitert angezeigt werden sollen, wenn die Datei angezeigt wird. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | Gibt an, wie viele Überschriftenebenen (mit den Überschriftenstilen formatierte Absätze) in die Dokumentgliederung einbezogen werden sollen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt an, dass Lesezeichen in Kopf-/Fußzeilen in einem Dokument verarbeitet werden, das wir als PDF rendern.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

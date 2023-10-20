@@ -1,20 +1,22 @@
 ---
 title: SignOptions.Comments
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Gibt Kommentare zur digitalen Signatur an. Der Standardwert ist leerer String Empty.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words für .NET
+description: SignOptions Comments eigendom. Gibt Kommentare zur digitalen Signatur an. Der Standardwert istleerer String Empty in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Gibt Kommentare zur digitalen Signatur an. Der Standardwert ist **leerer String** (Empty).
+Gibt Kommentare zur digitalen Signatur an. Der Standardwert ist**leerer String** (Empty).
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Dokumente digital signiert.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Siehe auch
 
 * class [SignOptions](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

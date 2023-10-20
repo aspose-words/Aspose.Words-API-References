@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UseInvariantCultureNumberFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den Wert ab oder legt ihn fest der angibt dass das Zahlenformat mithilfe der invarianten Kultur analysiert wird oder nicht
+linktitle: UseInvariantCultureNumberFormat
+articleTitle: UseInvariantCultureNumberFormat
+second_title: Aspose.Words für .NET
+description: FieldOptions UseInvariantCultureNumberFormat eigendom. Ruft den Wert ab oder legt ihn fest der angibt dass das Zahlenformat mithilfe der invarianten Kultur analysiert wird oder nicht in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
@@ -14,7 +16,7 @@ Ruft den Wert ab oder legt ihn fest, der angibt, dass das Zahlenformat mithilfe 
 public bool UseInvariantCultureNumberFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Eigenschaft auf festgelegt ist`WAHR` , das Zahlenformat stammt aus einer invarianten Kultur.
 
@@ -22,7 +24,7 @@ Wenn diese Eigenschaft auf festgelegt ist`FALSCH` , das Zahlenformat wird aus de
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zahlen entsprechend der invarianten Kultur formatiert werden.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("$1.234.567,89", field.Result);
 ### Siehe auch
 
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

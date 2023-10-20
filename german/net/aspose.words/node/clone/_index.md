@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node methode. Erstellt ein Duplikat des Knotens.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words für .NET
+description: Node Clone methode. Erstellt ein Duplikat des Knotens in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 Der geklonte Knoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode dient als Kopierkonstruktor für Knoten. Der geklonte Knoten hat keinen übergeordneten Knoten, gehört aber zum selben Dokument wie der ursprüngliche Knoten.
 
 Diese Methode führt immer eine tiefe Kopie des Knotens durch. Der*isCloneChildren* parameter gibt an, ob auch alle untergeordneten Knoten kopiert werden sollen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein zusammengesetzter Knoten geklont wird.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### Siehe auch
 
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

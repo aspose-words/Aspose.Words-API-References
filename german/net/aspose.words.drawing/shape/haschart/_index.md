@@ -1,7 +1,9 @@
 ---
 title: Shape.HasChart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Gibt zurückWAHR wenn dasShape hat einChart .
+linktitle: HasChart
+articleTitle: HasChart
+second_title: Aspose.Words für .NET
+description: Shape HasChart eigendom. Gibt zurückWAHR wenn dasShape hat einChart  in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/shape/haschart/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn das[`Shape`](../) hat ein[`Chart`](../../../aspose.words
 public bool HasChart { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

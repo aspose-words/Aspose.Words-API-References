@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteHorizontalDistance
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die durch die Tabelleneigenschaften angegebene absolute horizontale schwebende Tabellenposition in Punkten ab oder legt diese fest. Der Standardwert ist 0.
+linktitle: AbsoluteHorizontalDistance
+articleTitle: AbsoluteHorizontalDistance
+second_title: Aspose.Words für .NET
+description: Table AbsoluteHorizontalDistance eigendom. Ruft die durch die Tabelleneigenschaften angegebene absolute horizontale schwebende Tabellenposition in Punkten ab oder legt diese fest. Der Standardwert ist 0 in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/table/absolutehorizontaldistance/
@@ -14,7 +16,7 @@ Ruft die durch die Tabelleneigenschaften angegebene absolute horizontale schwebe
 public double AbsoluteHorizontalDistance { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position schwebender Tabellen festgelegt wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

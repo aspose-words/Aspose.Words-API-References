@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartTitle eigendom. Ruft den Text des Diagrammtitels ab oder legt ihn fest. WennNull oder ein leerer Wert angegeben wird wird der automatisch generierte Titel angezeigt.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: ChartTitle Text eigendom. Ruft den Text des Diagrammtitels ab oder legt ihn fest. WennNull oder ein leerer Wert angegeben wird wird der automatisch generierte Titel angezeigt in C#.
 type: docs
-weight: 40
+weight: 30
 url: /de/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -14,11 +16,11 @@ Ruft den Text des Diagrammtitels ab oder legt ihn fest. Wenn`Null` oder ein leer
 public string Text { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden[`Show`](../show/) Option, wenn Sie den Titel ausblenden müssen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und einen Titel festlegt.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Siehe auch
 
 * class [ChartTitle](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../charttitle/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft bei mehrseitigen Dokumenten ab oder legt fest wie ein Dokument gedruckt oder gerendert wird damit es als Broschüre gebunden werden kann.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words für .NET
+description: PageSetup MultiplePages eigendom. Ruft bei mehrseitigen Dokumenten ab oder legt fest wie ein Dokument gedruckt oder gerendert wird damit es als Broschüre gebunden werden kann in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ Ruft bei mehrseitigen Dokumenten ab oder legt fest, wie ein Dokument gedruckt od
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument konfiguriert wird, das als Buchfalte gedruckt werden kann.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

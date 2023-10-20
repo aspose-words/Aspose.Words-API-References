@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryIdentifier
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die mit den Typkennungen der enthaltenen TCFelder übereinstimmen soll.
+linktitle: EntryIdentifier
+articleTitle: EntryIdentifier
+second_title: Aspose.Words für .NET
+description: FieldToc EntryIdentifier eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die mit den Typkennungen der enthaltenen TCFelder übereinstimmen soll in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldtoc/entryidentifier/
@@ -14,7 +16,7 @@ Ruft eine Zeichenfolge ab oder legt diese fest, die mit den Typkennungen der ent
 public string EntryIdentifier { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein TOC-Feld einfügt und filtert, welche TC-Felder als Einträge enden.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

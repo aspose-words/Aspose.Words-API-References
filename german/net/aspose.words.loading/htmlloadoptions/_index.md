@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.HtmlLoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim Laden eines HTMLDokuments in einDocument Objekt.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.HtmlLoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim Laden eines HTMLDokuments in einDocument Objekt in C#.
 type: docs
 weight: 3620
 url: /de/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | Name | Beschreibung |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | Initialisiert eine neue Instanz dieser Klasse mit Standardwerten. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Kennwort, um ein verschlüsseltes Dokument zu laden. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit Eigenschaften, die auf die angegebenen Werte festgelegt sind. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Kennwort, um ein verschlüsseltes Dokument zu laden. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit Eigenschaften, die auf die angegebenen Werte festgelegt sind. |
 
 ## Eigenschaften
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Siehe auch
 
 * class [LoadOptions](../loadoptions/)
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

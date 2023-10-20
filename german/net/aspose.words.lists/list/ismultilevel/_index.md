@@ -1,7 +1,9 @@
 ---
 title: List.IsMultiLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Gibt zurückWAHR wenn die Liste 9 Ebenen enthältFALSCH wenn 1 Level.
+linktitle: IsMultiLevel
+articleTitle: IsMultiLevel
+second_title: Aspose.Words für .NET
+description: List IsMultiLevel eigendom. Gibt zurückWAHR wenn die Liste 9 Ebenen enthältFALSCH wenn 1 Level in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.lists/list/ismultilevel/
@@ -14,13 +16,13 @@ Gibt zurück`WAHR` wenn die Liste 9 Ebenen enthält;`FALSCH` wenn 1 Level.
 public bool IsMultiLevel { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Listen, die Sie mit Aspose.Words erstellen, sind immer mehrstufige Listen und enthalten 9 Ebenen.
 
 Microsoft Word 2003 und höher erstellt immer mehrstufige Listen mit 9 Ebenen. Aber in einigen Dokumenten, die mit früheren Versionen von Microsoft Word erstellt wurden, stoßen Sie möglicherweise auf Listen, die nur eine Ebene haben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -81,7 +83,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Siehe auch
 
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

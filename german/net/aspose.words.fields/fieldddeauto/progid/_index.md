@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.ProgId
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDdeAuto eigendom. Ruft den Anwendungstyp der Linkinformationen ab oder legt diesen fest.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words für .NET
+description: FieldDdeAuto ProgId eigendom. Ruft den Anwendungstyp der Linkinformationen ab oder legt diesen fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/fieldddeauto/progid/
@@ -14,7 +16,7 @@ Ruft den Anwendungstyp der Linkinformationen ab oder legt diesen fest.
 public string ProgId { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldDdeAuto](../)
-* namensraum [Aspose.Words.Fields](../../fieldddeauto/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

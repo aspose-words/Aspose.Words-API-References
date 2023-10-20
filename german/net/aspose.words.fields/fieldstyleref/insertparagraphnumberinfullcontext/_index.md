@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldStyleRef eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes im vollständigen Kontext eingefügt werden soll.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words für .NET
+description: FieldStyleRef InsertParagraphNumberInFullContext eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes im vollständigen Kontext eingefügt werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Absatznummer des referenzierten Absatzes im volls
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie STYLEREF-Felder verwendet werden.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Siehe auch
 
 * class [FieldStyleRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldstyleref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

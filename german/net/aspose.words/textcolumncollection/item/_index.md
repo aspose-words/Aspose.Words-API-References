@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection eigendom. Gibt eine Textspalte am angegebenen Index zurück.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: TextColumnCollection Item eigendom. Gibt eine Textspalte am angegebenen Index zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ Gibt eine Textspalte am angegebenen Index zurück.
 public TextColumn this[int index] { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* namensraum [Aspose.Words](../../textcolumncollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

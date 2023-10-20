@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataPoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries eigendom. Gibt eine Sammlung von Formatierungsobjekten für alle Datenpunkte in dieser Serie zurück.
+linktitle: DataPoints
+articleTitle: DataPoints
+second_title: Aspose.Words für .NET
+description: ChartSeries DataPoints eigendom. Gibt eine Sammlung von Formatierungsobjekten für alle Datenpunkte in dieser Serie zurück in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/chartseries/datapoints/
@@ -14,7 +16,7 @@ Gibt eine Sammlung von Formatierungsobjekten für alle Datenpunkte in dieser Ser
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataPointCollection](../../chartdatapointcollection/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

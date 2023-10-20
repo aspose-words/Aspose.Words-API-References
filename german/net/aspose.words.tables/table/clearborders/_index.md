@@ -1,9 +1,11 @@
 ---
 title: Table.ClearBorders
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table methode. Entfernt alle Tabellen und Zellenränder dieser Tabelle.
+linktitle: ClearBorders
+articleTitle: ClearBorders
+second_title: Aspose.Words für .NET
+description: Table ClearBorders methode. Entfernt alle Tabellen und Zellenränder dieser Tabelle in C#.
 type: docs
-weight: 390
+weight: 370
 url: /de/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -14,7 +16,7 @@ Entfernt alle Tabellen- und Zellenränder dieser Tabelle.
 public void ClearBorders()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

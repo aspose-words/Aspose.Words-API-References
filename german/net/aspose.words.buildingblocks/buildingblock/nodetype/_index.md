@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Gibt die zurückBuildingBlock value.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: BuildingBlock NodeType eigendom. Gibt die zurückBuildingBlock value in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.buildingblocks/buildingblock/nodetype/
@@ -14,7 +16,7 @@ Gibt die zurückBuildingBlock value.
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

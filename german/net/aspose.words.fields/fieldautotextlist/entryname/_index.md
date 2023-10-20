@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoTextList eigendom. Ruft den Namen des AutoTextEintrags ab oder legt ihn fest.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words für .NET
+description: FieldAutoTextList EntryName eigendom. Ruft den Namen des AutoTextEintrags ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ Ruft den Namen des AutoText-Eintrags ab oder legt ihn fest.
 public string EntryName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText-Einträgen auszuwählen.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Siehe auch
 
 * class [FieldAutoTextList](../)
-* namensraum [Aspose.Words.Fields](../../fieldautotextlist/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

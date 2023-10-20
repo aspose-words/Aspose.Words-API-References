@@ -1,7 +1,9 @@
 ---
 title: Document.FieldOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft a abFieldOptions Objekt das Optionen zur Steuerung der Feldverarbeitung im Dokument darstellt.
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words für .NET
+description: Document FieldOptions eigendom. Ruft a abFieldOptions Objekt das Optionen zur Steuerung der Feldverarbeitung im Dokument darstellt in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/document/fieldoptions/
@@ -14,7 +16,7 @@ Ruft a ab[`FieldOptions`](../../../aspose.words.fields/fieldoptions/) Objekt, da
 public FieldOptions FieldOptions { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Quelle der Kultur angeben, die für die Datumsformatierung während einer Feldaktualisierung oder eines Seriendrucks verwendet wird.
 
@@ -50,7 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

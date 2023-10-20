@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.EditorType opsomming. Gibt den Satz möglicher Aliase oder Bearbeitungsgruppen an die als Aliase verwendet werden können um zu bestimmen ob der aktuelle Benutzer einen einzelnen Bereich bearbeiten darf der durch einen bearbeitbaren Bereich innerhalb eines Dokuments definiert ist.
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.EditorType opsomming. Gibt den Satz möglicher Aliase oder Bearbeitungsgruppen an die als Aliase verwendet werden können um zu bestimmen ob der aktuelle Benutzer einen einzelnen Bereich bearbeiten darf der durch einen bearbeitbaren Bereich innerhalb eines Dokuments definiert ist in C#.
 type: docs
 weight: 1450
 url: /de/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | Gibt an, dass Benutzer, die der Gruppe „Besitzer“ zugeordnet sind, bearbeitbare Bereiche mit diesem Bearbeitungstyp bearbeiten dürfen, wenn der Dokumentschutz aktiviert ist. |
 | Default | `0` | Das Gleiche wieUnspecified . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt.
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

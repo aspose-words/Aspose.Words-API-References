@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeCollection methode. Bestimmt ob ein Knoten in der Sammlung ist.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words für .NET
+description: NodeCollection Contains methode. Bestimmt ob ein Knoten in der Sammlung ist in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `WAHR` wenn Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode führt eine lineare Suche durch; Daher ist die durchschnittliche Ausführungszeit proportional zu[`Count`](../count/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer NodeCollection gearbeitet wird.
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namensraum [Aspose.Words](../../nodecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

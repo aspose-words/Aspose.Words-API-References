@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt an wie eine Anwendung die den Serienbrief ausführt Leerzeilen in den aus dem Serienbrief resultierenden Seriendokumenten behandeln soll. Der Standardwert istFALSCH .
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: Aspose.Words für .NET
+description: MailMergeSettings DoNotSupressBlankLines eigendom. Gibt an wie eine Anwendung die den Serienbrief ausführt Leerzeilen in den aus dem Serienbrief resultierenden Seriendokumenten behandeln soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ Gibt an, wie eine Anwendung, die den Serienbrief ausführt, Leerzeilen in den au
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

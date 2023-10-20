@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionOptions eigendom. Ermöglicht die Angabe ob Revisionstext mit einem speziellen FormatierungsMarkup markiert werden soll. Der Standardwert istWAHR .
+linktitle: ShowRevisionMarks
+articleTitle: ShowRevisionMarks
+second_title: Aspose.Words für .NET
+description: RevisionOptions ShowRevisionMarks eigendom. Ermöglicht die Angabe ob Revisionstext mit einem speziellen FormatierungsMarkup markiert werden soll. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.layout/revisionoptions/showrevisionmarks/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe, ob Revisionstext mit einem speziellen Formatierungs-Mark
 public bool ShowRevisionMarks { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Siehe auch
 
 * class [RevisionOptions](../)
-* namensraum [Aspose.Words.Layout](../../revisionoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsMapped
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeField eigendom. Ruft ab oder legt fest ob dieses Feld ein zugeordnetes Feld ist.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words für .NET
+description: FieldMergeField IsMapped eigendom. Ruft ab oder legt fest ob dieses Feld ein zugeordnetes Feld ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldmergefield/ismapped/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob dieses Feld ein zugeordnetes Feld ist.
 public bool IsMapped { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie MERGEFIELD-Felder zum Durchführen eines Seriendrucks verwendet werden.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Siehe auch
 
 * class [FieldMergeField](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergefield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

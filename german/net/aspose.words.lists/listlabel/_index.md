@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListLabel klas. Definiert Eigenschaften die für eine Listenbezeichnung spezifisch sind.
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.ListLabel klas. Definiert Eigenschaften die für eine Listenbezeichnung spezifisch sind in C#.
 type: docs
 weight: 3490
 url: /de/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Ruft eine Zeichenfolgendarstellung der Listenbezeichnung ab. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Ruft einen numerischen Wert für dieses Label ab. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listenbeschriftungen aller Absätze extrahiert werden, die Listenelemente sind.
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

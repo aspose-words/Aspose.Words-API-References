@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CellChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Ende einer Tabellenzelle oder Ende einer Tabellenzeile Zeichen char7 oder a.
+linktitle: CellChar
+articleTitle: CellChar
+second_title: Aspose.Words für .NET
+description: ControlChar CellChar veld. Ende einer Tabellenzelle oder Ende einer Tabellenzeile Zeichen char7 oder a in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/controlchar/cellchar/
@@ -14,7 +16,7 @@ Ende einer Tabellenzelle oder Ende einer Tabellenzeile Zeichen: (char)7 oder „
 public const char CellChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

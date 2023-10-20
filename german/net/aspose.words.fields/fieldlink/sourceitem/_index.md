@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceItem
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldLink eigendom. Ruft den Teil der Quelldatei ab der verknüpft wird oder legt diesen fest.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words für .NET
+description: FieldLink SourceItem eigendom. Ruft den Teil der Quelldatei ab der verknüpft wird oder legt diesen fest in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/fieldlink/sourceitem/
@@ -14,7 +16,7 @@ Ruft den Teil der Quelldatei ab, der verknüpft wird, oder legt diesen fest.
 public string SourceItem { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldLink](../)
-* namensraum [Aspose.Words.Fields](../../fieldlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

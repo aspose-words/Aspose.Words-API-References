@@ -1,7 +1,9 @@
 ---
-title: Enum FontSourceType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontSourceType opsomming. Gibt den Typ einer Schriftartquelle an.
+title: FontSourceType Enum
+linktitle: FontSourceType
+articleTitle: FontSourceType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontSourceType opsomming. Gibt den Typ einer Schriftartquelle an in C#.
 type: docs
 weight: 2990
 url: /de/net/aspose.words.fonts/fontsourcetype/
@@ -24,7 +26,7 @@ public enum FontSourceType
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) Objekt, das alle auf dem System installierten Schriftarten darstellt. |
 | FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) Objekt, das einen Stream mit Schriftartdaten darstellt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
@@ -44,5 +46,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

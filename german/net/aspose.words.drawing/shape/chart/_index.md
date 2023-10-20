@@ -1,7 +1,9 @@
 ---
 title: Shape.Chart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Bietet Zugriff auf die Diagrammeigenschaften wenn diese Form über eine verfügtChart .
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words für .NET
+description: Shape Chart eigendom. Bietet Zugriff auf die Diagrammeigenschaften wenn diese Form über eine verfügtChart  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/shape/chart/
@@ -14,11 +16,11 @@ Bietet Zugriff auf die Diagrammeigenschaften, wenn diese Form über eine verfüg
 public Chart Chart { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft gibt die zurück[`Chart`](../../../aspose.words.drawing.charts/chart/) Einspruch nur, wenn[`HasChart`](../haschart/) -Eigenschaft ist`WAHR` dafür[`Shape`](../)andernfalls wird eine Ausnahme ausgelöst.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
@@ -142,7 +144,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

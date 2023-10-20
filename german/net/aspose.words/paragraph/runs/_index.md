@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Bietet Zugriff auf die eingegebene Sammlung von Textteilen im Absatz.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words für .NET
+description: Paragraph Runs eigendom. Bietet Zugriff auf die eingegebene Sammlung von Textteilen im Absatz in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die eingegebene Sammlung von Textteilen im Absatz.
 public RunCollection Runs { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Revisionstyp eines Inline-Knotens ermittelt wird.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

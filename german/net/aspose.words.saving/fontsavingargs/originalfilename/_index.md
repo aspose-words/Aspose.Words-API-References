@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Ruft den ursprünglichen Namen der Schriftartdatei mit einer Erweiterung ab.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words für .NET
+description: FontSavingArgs OriginalFileName eigendom. Ruft den ursprünglichen Namen der Schriftartdatei mit einer Erweiterung ab in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ Ruft den ursprünglichen Namen der Schriftartdatei mit einer Erweiterung ab.
 public string OriginalFileName { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft enthält den ursprünglichen Dateinamen der aktuellen Schriftart, sofern dieser bekannt ist. Andernfalls kann es sich um eine leere Zeichenfolge handeln.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

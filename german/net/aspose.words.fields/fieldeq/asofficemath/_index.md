@@ -1,7 +1,9 @@
 ---
 title: FieldEQ.AsOfficeMath
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldEQ methode. Gibt das Office MathObjekt zurück das dem EQFeld entspricht.
+linktitle: AsOfficeMath
+articleTitle: AsOfficeMath
+second_title: Aspose.Words für .NET
+description: FieldEQ AsOfficeMath methode. Gibt das Office MathObjekt zurück das dem EQFeld entspricht in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldeq/asofficemath/
@@ -22,7 +24,5 @@ Gibt zurück`Null` wenn der Feldcode leer oder ungültig ist, andernfalls ein[`O
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [FieldEQ](../)
-* namensraum [Aspose.Words.Fields](../../fieldeq/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

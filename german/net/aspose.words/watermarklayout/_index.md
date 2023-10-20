@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkLayout
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WatermarkLayout opsomming. Definiert das Layout des Wasserzeichens relativ zur Wasserzeichenmitte.
+title: WatermarkLayout Enum
+linktitle: WatermarkLayout
+articleTitle: WatermarkLayout
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WatermarkLayout opsomming. Definiert das Layout des Wasserzeichens relativ zur Wasserzeichenmitte in C#.
 type: docs
 weight: 6680
 url: /de/net/aspose.words/watermarklayout/
@@ -21,7 +23,7 @@ public enum WatermarkLayout
 | Horizontal | `0` | Horizontales Wasserzeichenlayout. Entspricht 0 Grad Drehung. |
 | Diagonal | `315` | Diagonales Wasserzeichen-Layout. Entspricht 315 Grad Drehung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textwasserzeichen erstellt.
 
@@ -53,5 +55,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

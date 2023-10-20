@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarksOutlineLevelCollection eigendom. Ruft eine LesezeichenGliederungsebene anhand des Lesezeichennamens ab oder legt diese fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: BookmarksOutlineLevelCollection Item eigendom. Ruft eine LesezeichenGliederungsebene anhand des Lesezeichennamens ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 Die Gliederungsebene des Lesezeichens. Der gültige Bereich liegt zwischen 0 und 9.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### Siehe auch
 
 * class [BookmarksOutlineLevelCollection](../)
-* namensraum [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 Die Gliederungsebene des Lesezeichens. Der gültige Bereich liegt zwischen 0 und 9.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### Siehe auch
 
 * class [BookmarksOutlineLevelCollection](../)
-* namensraum [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Story.StoryType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Story eigendom. Ruft den Typ dieser Geschichte ab.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words für .NET
+description: Story StoryType eigendom. Ruft den Typ dieser Geschichte ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/story/storytype/
@@ -14,7 +16,7 @@ Ruft den Typ dieser Geschichte ab.
 public StoryType StoryType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen von einem Knoten entfernt werden.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * enum [StoryType](../../storytype/)
 * class [Story](../)
-* namensraum [Aspose.Words](../../story/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

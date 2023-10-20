@@ -1,7 +1,9 @@
 ---
-title: Enum WrapType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.WrapType opsomming. Gibt an wie Text um eine Form oder ein Bild gewickelt wird.
+title: WrapType Enum
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.WrapType opsomming. Gibt an wie Text um eine Form oder ein Bild gewickelt wird in C#.
 type: docs
 weight: 1400
 url: /de/net/aspose.words.drawing/wraptype/
@@ -25,7 +27,7 @@ public enum WrapType
 | Tight | `4` | Wickelt sich eng um die Kanten der Form, anstatt um den Begrenzungsrahmen. |
 | Through | `5` | Wie „Tight“, aber umhüllt alle offenen Teile der Form. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [WrapType](../shapebase/wraptype/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

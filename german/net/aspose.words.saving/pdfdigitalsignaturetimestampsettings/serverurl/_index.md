@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfDigitalSignatureTimestampSettings eigendom. ZeitstempelServerURL.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: Aspose.Words für .NET
+description: PdfDigitalSignatureTimestampSettings ServerUrl eigendom. ZeitstempelServerURL in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ Zeitstempel-Server-URL.
 public string ServerUrl { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`Null` . Wenn`Null` , dann wird die digitale Signatur nicht mit einem Zeitstempel versehen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie ein gespeichertes PDF-Dokument digital signieren und mit einem Zeitstempel versehen.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Siehe auch
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* namensraum [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickMarkSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft das Intervall ab in dem Teilstriche gezeichnet werden oder legt es fest.
+linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
+second_title: Aspose.Words für .NET
+description: ChartAxis TickMarkSpacing eigendom. Ruft das Intervall ab in dem Teilstriche gezeichnet werden oder legt es fest in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
@@ -14,13 +16,13 @@ Ruft das Intervall ab, in dem Teilstriche gezeichnet werden, oder legt es fest.
 public int TickMarkSpacing { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wirkt sich auf Textkategorie- und Serienachsen aus. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
 Der gültige Bereich eines Werts ist größer oder gleich 1.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

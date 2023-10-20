@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UseHeading
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft ab oder legt fest ob die Kategorieüberschrift für die Einträge in einem Rechtsgrundlagenverzeichnis enthalten sein soll.
+linktitle: UseHeading
+articleTitle: UseHeading
+second_title: Aspose.Words für .NET
+description: FieldToa UseHeading eigendom. Ruft ab oder legt fest ob die Kategorieüberschrift für die Einträge in einem Rechtsgrundlagenverzeichnis enthalten sein soll in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fieldtoa/useheading/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Kategorieüberschrift für die Einträge in einem
 public bool UseHeading { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

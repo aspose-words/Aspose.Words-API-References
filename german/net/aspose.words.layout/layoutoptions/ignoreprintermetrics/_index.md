@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.IgnorePrinterMetrics
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Ruft die Angabe ab ob die Kompatibilitätsoption Druckermetriken zum Layouten des Dokuments verwenden ignoriert wird oder legt diese fest. Standard istWAHR .
+linktitle: IgnorePrinterMetrics
+articleTitle: IgnorePrinterMetrics
+second_title: Aspose.Words für .NET
+description: LayoutOptions IgnorePrinterMetrics eigendom. Ruft die Angabe ab ob die Kompatibilitätsoption Druckermetriken zum Layouten des Dokuments verwenden ignoriert wird oder legt diese fest. Standard istWAHR  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
@@ -14,7 +16,7 @@ Ruft die Angabe ab, ob die Kompatibilitätsoption „Druckermetriken zum Layoute
 public bool IgnorePrinterMetrics { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Option „Druckermetriken zum Layouten des Dokuments verwenden“ ignoriert wird.
 
@@ -29,7 +31,5 @@ doc.Save(ArtifactsDir + "Document.IgnorePrinterMetrics.docx");
 ### Siehe auch
 
 * class [LayoutOptions](../)
-* namensraum [Aspose.Words.Layout](../../layoutoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

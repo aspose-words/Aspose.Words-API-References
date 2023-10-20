@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceRight
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Abstand zwischen der rechten Tabellenseite und dem umgebenden Text in Punkten ab oder legt diesen fest.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words für .NET
+description: Table DistanceRight eigendom. Ruft den Abstand zwischen der rechten Tabellenseite und dem umgebenden Text in Punkten ab oder legt diesen fest in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.tables/table/distanceright/
@@ -14,7 +16,7 @@ Ruft den Abstand zwischen der rechten Tabellenseite und dem umgebenden Text in P
 public double DistanceRight { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Abstand zwischen Tabellengrenzen und Text festgelegt wird.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

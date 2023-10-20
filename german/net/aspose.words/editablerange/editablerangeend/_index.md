@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRange eigendom. Ruft den Knoten ab der das Ende des bearbeitbaren Bereichs darstellt.
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words für .NET
+description: EditableRange EditableRangeEnd eigendom. Ruft den Knoten ab der das Ende des bearbeitbaren Bereichs darstellt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/editablerange/editablerangeend/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der das Ende des bearbeitbaren Bereichs darstellt.
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* namensraum [Aspose.Words](../../editablerange/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

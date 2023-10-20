@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetHeadingLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSeq eigendom. Ruft eine Ganzzahl ab oder legt diese fest die eine Überschriftenebene darstellt um die Sequenznummer auf zurückzusetzen. Gibt 1 zurück wenn die Nummer fehlt.
+linktitle: ResetHeadingLevel
+articleTitle: ResetHeadingLevel
+second_title: Aspose.Words für .NET
+description: FieldSeq ResetHeadingLevel eigendom. Ruft eine Ganzzahl ab oder legt diese fest die eine Überschriftenebene darstellt um die Sequenznummer auf zurückzusetzen. Gibt 1 zurück wenn die Nummer fehlt in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldseq/resetheadinglevel/
@@ -14,7 +16,7 @@ Ruft eine Ganzzahl ab oder legt diese fest, die eine Überschriftenebene darstel
 public string ResetHeadingLevel { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt die Erstellung einer Nummerierung mithilfe von SEQ-Feldern an.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Siehe auch
 
 * class [FieldSeq](../)
-* namensraum [Aspose.Words.Fields](../../fieldseq/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

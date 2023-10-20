@@ -1,7 +1,9 @@
 ---
-title: Class CustomPartCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.CustomPartCollection klas. Stellt eine Sammlung von darCustomPart Objekte.
+title: CustomPartCollection Class
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Markup.CustomPartCollection klas. Stellt eine Sammlung von darCustomPart Objekte in C#.
 type: docs
 weight: 3910
 url: /de/net/aspose.words.markup/custompartcollection/
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Fügt der Sammlung ein Element hinzu. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Fügt der Sammlung ein Element hinzu. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Erstellt eine tiefe Kopie dieser Sammlung und ihrer Elemente. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Entfernt ein Element am angegebenen Index. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Entfernt ein Element am angegebenen Index. |
 
-### Bemerkungen
+## Bemerkungen
 
 Normalerweise müssen Sie keine Instanzen dieser Klasse erstellen. Sie greifen auf benutzerdefinierte Teile im Zusammenhang mit dem OOXML-Paket über zu[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 * class [CustomPart](../custompart/)
 * namensraum [Aspose.Words.Markup](../../aspose.words.markup/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.NoProofing
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die formatierten Zeichen nicht auf Rechtschreibung überprüft werden sollen.
+linktitle: NoProofing
+articleTitle: NoProofing
+second_title: Aspose.Words für .NET
+description: Font NoProofing eigendom. True wenn die formatierten Zeichen nicht auf Rechtschreibung überprüft werden sollen in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words/font/noproofing/
@@ -14,7 +16,7 @@ True, wenn die formatierten Zeichen nicht auf Rechtschreibung überprüft werden
 public bool NoProofing { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verhindern können, dass Text von Microsoft Word auf Rechtschreibung geprüft wird.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.NoProofing.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

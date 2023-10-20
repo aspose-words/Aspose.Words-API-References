@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevelNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListFormat eigendom. Ruft die Listenebenennummer 0 bis 8 für den Absatz ab oder legt diese fest.
+linktitle: ListLevelNumber
+articleTitle: ListLevelNumber
+second_title: Aspose.Words für .NET
+description: ListFormat ListLevelNumber eigendom. Ruft die Listenebenennummer 0 bis 8 für den Absatz ab oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.lists/listformat/listlevelnumber/
@@ -14,13 +16,13 @@ Ruft die Listenebenennummer (0 bis 8) für den Absatz ab oder legt diese fest.
 public int ListLevelNumber { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 In Word-Dokumenten können Listen aus 1 oder 9 Ebenen bestehen, die von 0 bis 8 nummeriert sind.
 
 Hat nur Wirkung, wenn die[`List`](../list/) Die Eigenschaft ist so eingestellt, dass sie auf eine gültige Liste verweist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Listenebenen gearbeitet wird.
 
@@ -153,7 +155,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Siehe auch
 
 * class [ListFormat](../)
-* namensraum [Aspose.Words.Lists](../../listformat/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

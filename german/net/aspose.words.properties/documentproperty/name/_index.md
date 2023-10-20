@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty eigendom. Gibt den Namen der Eigenschaft zurück.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: DocumentProperty Name eigendom. Gibt den Namen der Eigenschaft zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.properties/documentproperty/name/
@@ -14,11 +16,11 @@ Gibt den Namen der Eigenschaft zurück.
 public string Name { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null` und darf keine leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Siehe auch
 
 * class [DocumentProperty](../)
-* namensraum [Aspose.Words.Properties](../../documentproperty/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

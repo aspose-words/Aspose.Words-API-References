@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ermittelt die relative horizontale Position eines Frames.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words für .NET
+description: FrameFormat RelativeHorizontalPosition eigendom. Ermittelt die relative horizontale Position eines Frames in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/frameformat/relativehorizontalposition/
@@ -14,7 +16,7 @@ Ermittelt die relative horizontale Position eines Frames.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

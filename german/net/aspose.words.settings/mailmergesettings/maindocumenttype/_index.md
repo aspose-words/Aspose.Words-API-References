@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Typ des SerienbriefHauptdokuments an. Der Standardwert istDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words für .NET
+description: MailMergeSettings MainDocumentType eigendom. Gibt den Typ des SerienbriefHauptdokuments an. Der Standardwert istDefault  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ Gibt den Typ des Serienbrief-Hauptdokuments an. Der Standardwert istDefault .
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das Hauptdokument ist das Dokument, das Informationen enthält, die für jede Version des zusammengeführten Dokuments gleich sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

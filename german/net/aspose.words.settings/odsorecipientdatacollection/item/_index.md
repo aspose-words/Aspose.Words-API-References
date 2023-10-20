@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientDataCollection eigendom. Ruft ein Element in dieser Sammlung ab oder legt es fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: OdsoRecipientDataCollection Item eigendom. Ruft ein Element in dieser Sammlung ab oder legt es fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -14,7 +16,7 @@ Ruft ein Element in dieser Sammlung ab oder legt es fest.
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* namensraum [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

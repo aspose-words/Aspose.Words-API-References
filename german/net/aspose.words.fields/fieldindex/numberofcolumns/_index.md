@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.NumberOfColumns
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft die Anzahl der Spalten pro Seite ab die beim Erstellen des Index verwendet werden oder legt diese fest.
+linktitle: NumberOfColumns
+articleTitle: NumberOfColumns
+second_title: Aspose.Words für .NET
+description: FieldIndex NumberOfColumns eigendom. Ruft die Anzahl der Spalten pro Seite ab die beim Erstellen des Index verwendet werden oder legt diese fest in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fieldindex/numberofcolumns/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Spalten pro Seite ab, die beim Erstellen des Index verwendet
 public string NumberOfColumns { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein INDEX-Feld mithilfe von XE-Feldern mit Einträgen füllt und auch sein Erscheinungsbild ändert.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

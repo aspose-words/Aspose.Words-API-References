@@ -1,9 +1,11 @@
 ---
 title: Section.EnsureMinimum
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. Stellt sicher dass der Abschnitt vorhanden istBody mit einerParagraph .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words für .NET
+description: Section EnsureMinimum methode. Stellt sicher dass der Abschnitt vorhanden istBody mit einerParagraph  in C#.
 type: docs
-weight: 150
+weight: 130
 url: /de/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -14,7 +16,7 @@ Stellt sicher, dass der Abschnitt vorhanden ist[`Body`](../body/) mit einer[`Par
 public void EnsureMinimum()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein neuer Abschnittsknoten für die Bearbeitung vorbereitet wird.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Siehe auch
 
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

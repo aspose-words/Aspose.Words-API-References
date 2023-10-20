@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.FallbackFontName
-second_title: Aspose.Words für .NET-API-Referenz
-description: PclSaveOptions eigendom. Name der Schriftart die verwendet wird  wenn keine erwartete Schriftart im Drucker und in den integrierten Schriftartensammlungen gefunden wird.
+linktitle: FallbackFontName
+articleTitle: FallbackFontName
+second_title: Aspose.Words für .NET
+description: PclSaveOptions FallbackFontName eigendom. Name der Schriftart die verwendet wird  wenn keine erwartete Schriftart im Drucker und in den integrierten Schriftartensammlungen gefunden wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
@@ -14,11 +16,11 @@ Name der Schriftart, die verwendet wird , wenn keine erwartete Schriftart im Dru
 public string FallbackFontName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn kein Fallback gefunden wird, wird eine Warnung generiert und die Schriftart „Arial“ verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftart deklariert wird, die ein Drucker als Ersatz auf gedruckten Text anwendet, falls die ursprüngliche Schriftart nicht verfügbar ist.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ### Siehe auch
 
 * class [PclSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pclsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

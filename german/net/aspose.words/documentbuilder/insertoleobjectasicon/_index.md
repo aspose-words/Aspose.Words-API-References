@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein eingebettetes oder verknüpftes OLEObjekt als Symbol in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLEObjekttyp anhand der Dateierweiterung.
+linktitle: InsertOleObjectAsIcon
+articleTitle: InsertOleObjectAsIcon
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertOleObjectAsIcon methode. Fügt ein eingebettetes oder verknüpftes OLEObjekt als Symbol in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLEObjekttyp anhand der Dateierweiterung in C#.
 type: docs
-weight: 410
+weight: 400
 url: /de/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
 Fügt ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLE-Objekttyp anhand der Dateierweiterung.
 
@@ -26,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein OLE-Objekt in ein Dokument eingefügt wird.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
 Fügt ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLE-Objekttyp mithilfe des angegebenen progID-Parameters.
 
@@ -89,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument eingefügt wird.
 
@@ -122,12 +124,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
 Fügt ein eingebettetes OLE-Objekt als Symbol aus einem Stream in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLE-Objekttyp mithilfe des angegebenen progID-Parameters.
 
@@ -147,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument eingefügt wird.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

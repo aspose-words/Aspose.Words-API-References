@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Aspose.Words für .NET-API-Referenz
-description: FileFontSource eigendom. Pfad zur Schriftartdatei.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words für .NET
+description: FileFontSource FilePath eigendom. Pfad zur Schriftartdatei in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ Pfad zur Schriftartdatei.
 public string FilePath { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Siehe auch
 
 * class [FileFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../filefontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

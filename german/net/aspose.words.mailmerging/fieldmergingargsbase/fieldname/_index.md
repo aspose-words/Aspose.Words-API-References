@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft den Namen des Zusammenführungsfelds in der Datenquelle ab.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words für .NET
+description: FieldMergingArgsBase FieldName eigendom. Ruft den Namen des Zusammenführungsfelds in der Datenquelle ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ Ruft den Namen des Zusammenführungsfelds in der Datenquelle ab.
 public string FieldName { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie eine Zuordnung von einem Dokumentfeldnamen zu einem anderen Datenquellenfeldnamen haben, , dann ist dies der zugeordnete Feldname.
 
 Wenn Sie im Dokument ein Feldnamenpräfix angegeben haben, zum Beispiel „Image:MyFieldName“, dann`FieldName` gibt den Feldnamen ohne Präfix zurück, also „MyFieldName“.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kontrollkästchen-Formularfelder als Seriendaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Siehe auch
 
 * class [FieldMergingArgsBase](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

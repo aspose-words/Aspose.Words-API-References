@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.SizeInPoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeRendererBase eigendom. Ermittelt die tatsächliche Größe der Form in Punkten.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words für .NET
+description: NodeRendererBase SizeInPoints eigendom. Ermittelt die tatsächliche Größe der Form in Punkten in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.rendering/noderendererbase/sizeinpoints/
@@ -14,11 +16,11 @@ Ermittelt die tatsächliche Größe der Form in Punkten.
 public SizeF SizeInPoints { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft gibt die Größe des tatsächlichen (wie auf der Seite gerenderten) Begrenzungsrahmens der Form zurück. Die Größe berücksichtigt die Formdrehung (falls vorhanden).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formen gemessen und skaliert werden.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Siehe auch
 
 * class [NodeRendererBase](../)
-* namensraum [Aspose.Words.Rendering](../../noderendererbase/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

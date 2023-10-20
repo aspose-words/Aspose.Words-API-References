@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptionsBase eigendom. Gibt an wie Kopf und Fußzeilen in die Textformate exportiert werden. Der Standardwert istPrimaryOnly .
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words für .NET
+description: TxtSaveOptionsBase ExportHeadersFootersMode eigendom. Gibt an wie Kopf und Fußzeilen in die Textformate exportiert werden. Der Standardwert istPrimaryOnly  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Gibt an, wie Kopf- und Fußzeilen in die Textformate exportiert werden. Der Stan
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie angeben, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden.
 
@@ -86,7 +88,5 @@ switch (txtExportHeadersFootersMode)
 
 * enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * class [TxtSaveOptionsBase](../)
-* namensraum [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

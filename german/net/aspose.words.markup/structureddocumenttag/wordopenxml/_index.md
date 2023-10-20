@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXML
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag WordOpenXML eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words.markup/structureddocumenttag/wordopenxml/
@@ -14,7 +16,7 @@ Ruft eine Zeichenfolge ab, die das im Knoten im enthaltene XML darstelltFlatOpc 
 public string WordOpenXML { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie im Knoten enthaltenes XML im FlatOpc-Format abgerufen wird.
 
@@ -32,7 +34,5 @@ Assert.True(tags[0].WordOpenXML
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Caption
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControl eigendom. Ruft die CaptionEigenschaft des Steuerelements ab. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: Caption
+articleTitle: Caption
+second_title: Aspose.Words für .NET
+description: Forms2OleControl Caption eigendom. Ruft die CaptionEigenschaft des Steuerelements ab. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/caption/
@@ -14,7 +16,7 @@ Ruft die Caption-Eigenschaft des Steuerelements ab. Der Standardwert ist eine le
 public string Caption { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Siehe auch
 
 * class [Forms2OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

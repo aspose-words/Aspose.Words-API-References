@@ -1,20 +1,22 @@
 ---
 title: SignOptions.SignTime
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Das Datum der Unterzeichnung. Der Standardwert ist aktuelle Uhrzeit Now.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words für .NET
+description: SignOptions SignTime eigendom. Das Datum der Unterzeichnung. Der Standardwert istaktuelle Uhrzeit Now in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-Das Datum der Unterzeichnung. Der Standardwert ist **aktuelle Uhrzeit** (Now).
+Das Datum der Unterzeichnung. Der Standardwert ist**aktuelle Uhrzeit** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Dokumente digital signiert.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Siehe auch
 
 * class [SignOptions](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

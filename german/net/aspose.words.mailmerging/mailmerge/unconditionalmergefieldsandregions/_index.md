@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Zusammenführungsfelder und Zusammenführungsbereiche unabhängig von der Bedingung des übergeordneten IFFelds zusammengeführt werden.
+linktitle: UnconditionalMergeFieldsAndRegions
+articleTitle: UnconditionalMergeFieldsAndRegions
+second_title: Aspose.Words für .NET
+description: MailMerge UnconditionalMergeFieldsAndRegions eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Zusammenführungsfelder und Zusammenführungsbereiche unabhängig von der Bedingung des übergeordneten IFFelds zusammengeführt werden in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
@@ -14,11 +16,11 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, ob Zusammenführungsfelder
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder oder Regionen unabhängig von der Bedingung des übergeordneten IF-Felds zusammengeführt werden.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt den Abstand zwischen den Hauptteilstrichen zurück oder legt ihn fest.
+linktitle: MajorUnit
+articleTitle: MajorUnit
+second_title: Aspose.Words für .NET
+description: ChartAxis MajorUnit eigendom. Gibt den Abstand zwischen den Hauptteilstrichen zurück oder legt ihn fest in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing.charts/chartaxis/majorunit/
@@ -14,13 +16,13 @@ Gibt den Abstand zwischen den Hauptteilstrichen zurück oder legt ihn fest.
 public double MajorUnit { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der gültige Bereich eines Werts ist größer als Null. Die Eigenschaft wirkt sich auf die Zeitkategorie- und -Werteachsen aus.
 
 Durch das Festlegen dieser Eigenschaft wird die festgelegt[`MajorUnitIsAuto`](../majorunitisauto/) Eigentum zu`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

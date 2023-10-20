@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingProgressCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie den Fortschritt der Feldaktualisierung verfolgen möchten.
+title: IFieldUpdatingProgressCallback Interface
+linktitle: IFieldUpdatingProgressCallback
+articleTitle: IFieldUpdatingProgressCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie den Fortschritt der Feldaktualisierung verfolgen möchten in C#.
 type: docs
 weight: 2730
 url: /de/net/aspose.words.fields/ifieldupdatingprogresscallback/
@@ -18,9 +20,9 @@ public interface IFieldUpdatingProgressCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | Eine benutzerdefinierte Methode, die aufgerufen wird, wenn der Aktualisierungsfortschritt geändert wird. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Eine benutzerdefinierte Methode, die aufgerufen wird, wenn der Aktualisierungsfortschritt geändert wird. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
 
@@ -89,5 +91,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

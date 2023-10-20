@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.FontSavingArgs klas. Stellt Daten für die bereitFontSaving event.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.FontSavingArgs klas. Stellt Daten für die bereitFontSaving event in C#.
 type: docs
 weight: 5030
 url: /de/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Ruft den ursprünglichen Namen der Schriftartdatei mit einer Erweiterung ab. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Ruft die ursprüngliche Schriftdateigröße ab. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Aspose.Words ein Dokument in HTML oder verwandten Formaten speichert und[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) ist eingestellt auf`WAHR`, speichert es jedes Schriftartthema für den Export in einer separaten Datei.
 
@@ -44,7 +46,7 @@ Um zu entscheiden, ob eine bestimmte Schriftartressource gespeichert werden soll
 
 Um Schriftarten in Streams statt in Dateien zu speichern, verwenden Sie die[`FontStream`](./fontstream/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Border klas. Stellt einen Rand eines Objekts dar.
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Border klas. Stellt einen Rand eines Objekts dar in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | Name | Beschreibung |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Setzt die Randeigenschaften auf die Standardwerte zurück. |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | Bestimmt, ob der angegebene Rahmen den gleichen Wert wie der aktuelle Rahmen hat. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Bestimmt, ob der angegebene Rahmen den gleichen Wert wie der aktuelle Rahmen hat. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | Dient als Hash-Funktion für diesen Typ. |
 
-### Bemerkungen
+## Bemerkungen
 
 Rahmen können auf verschiedene Dokumentelemente angewendet werden, einschließlich Absätze, Textläufe innerhalb eines Absatzes oder einer Tabellenzelle.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

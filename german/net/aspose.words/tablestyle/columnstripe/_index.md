@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft eine Anzahl von Spalten ab die in die Banderstellung einbezogen werden sollen oder legt diese fest wenn der Stil eine Banderstellung für ungerade/gerade Spalten vorgibt.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words für .NET
+description: TableStyle ColumnStripe eigendom. Ruft eine Anzahl von Spalten ab die in die Banderstellung einbezogen werden sollen oder legt diese fest wenn der Stil eine Banderstellung für ungerade/gerade Spalten vorgibt in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ Ruft eine Anzahl von Spalten ab, die in die Banderstellung einbezogen werden sol
 public int ColumnStripe { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bedingte Tabellenstile erstellt werden, die zwischen Zeilen wechseln.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Siehe auch
 
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

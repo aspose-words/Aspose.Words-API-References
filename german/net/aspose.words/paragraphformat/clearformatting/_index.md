@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat methode. Setzt die StandardAbsatzformatierung zurück.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words für .NET
+description: ParagraphFormat ClearFormatting methode. Setzt die StandardAbsatzformatierung zurück in C#.
 type: docs
 weight: 420
 url: /de/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ Setzt die Standard-Absatzformatierung zurück.
 public void ClearFormatting()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Standardabsatzformatierung ist normaler Stil, linksbündig, keine Einrückung, kein Abstand, keine Ränder und keine Schattierung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

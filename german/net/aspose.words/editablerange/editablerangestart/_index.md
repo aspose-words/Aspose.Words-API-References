@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRange eigendom. Ruft den Knoten ab der den Anfang des bearbeitbaren Bereichs darstellt.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words für .NET
+description: EditableRange EditableRangeStart eigendom. Ruft den Knoten ab der den Anfang des bearbeitbaren Bereichs darstellt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/editablerange/editablerangestart/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der den Anfang des bearbeitbaren Bereichs darstellt.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRange](../)
-* namensraum [Aspose.Words](../../editablerange/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

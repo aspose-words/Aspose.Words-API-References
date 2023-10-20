@@ -1,7 +1,9 @@
 ---
-title: Class PreferredWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.PreferredWidth klas. Stellt einen Wert und seine Maßeinheit dar die zur Angabe der bevorzugten Breite einer Tabelle oder Zelle verwendet wird.
+title: PreferredWidth Class
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.PreferredWidth klas. Stellt einen Wert und seine Maßeinheit dar die zur Angabe der bevorzugten Breite einer Tabelle oder Zelle verwendet wird in C#.
 type: docs
 weight: 6290
 url: /de/net/aspose.words.tables/preferredwidth/
@@ -27,10 +29,10 @@ public sealed class PreferredWidth
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die als Prozentsatz angegeben wird. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die mithilfe einer Anzahl von Punkten angegeben wird. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Bestimmt, ob die angegebene`PreferredWidth` ist vom Wert her gleich dem Strom`PreferredWidth` . |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die als Prozentsatz angegeben wird. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die mithilfe einer Anzahl von Punkten angegeben wird. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Bestimmt, ob die angegebene`PreferredWidth` ist vom Wert her gleich dem Strom`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Dient als Hash-Funktion für diesen Typ. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Gibt eine benutzerfreundliche Zeichenfolge zurück, die den Wert dieses Objekts anzeigt. |
 
@@ -40,13 +42,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Gibt eine Instanz zurück, die den Wert „Bevorzugte Breite ist nicht angegeben“ darstellt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die bevorzugte Breite kann als Prozentsatz, Anzahl der Punkte oder als spezieller „Keine/Auto“-Wert angegeben werden.
 
 Die Instanzen dieser Klasse sind unveränderlich.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einstellt, dass sie automatisch an 50 % der Seitenbreite angepasst wird.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

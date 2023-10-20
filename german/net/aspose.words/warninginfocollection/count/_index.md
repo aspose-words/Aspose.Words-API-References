@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: WarningInfoCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: WarningInfoCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/warninginfocollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Siehe auch
 
 * class [WarningInfoCollection](../)
-* namensraum [Aspose.Words](../../warninginfocollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

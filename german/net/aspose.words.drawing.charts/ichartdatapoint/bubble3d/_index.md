@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Bubble3D
-second_title: Aspose.Words für .NET-API-Referenz
-description: IChartDataPoint eigendom. Gibt an ob auf die Blasen im Blasendiagramm ein 3DEffekt angewendet werden soll.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words für .NET
+description: IChartDataPoint Bubble3D eigendom. Gibt an ob auf die Blasen im Blasendiagramm ein 3DEffekt angewendet werden soll in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -14,7 +16,7 @@ Gibt an, ob auf die Blasen im Blasendiagramm ein 3D-Effekt angewendet werden sol
 public bool Bubble3D { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie 3D-Effekte mit Blasendiagrammen verwendet werden.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Siehe auch
 
 * interface [IChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

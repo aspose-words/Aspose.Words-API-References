@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageFieldMergingArgs eigendom. Gibt das Bild an das die SerienbriefEngine in das Dokument einfügen muss.
+linktitle: Image
+articleTitle: Image
+second_title: Aspose.Words für .NET
+description: ImageFieldMergingArgs Image eigendom. Gibt das Bild an das die SerienbriefEngine in das Dokument einfügen muss in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ Gibt das Bild an, das die Serienbrief-Engine in das Dokument einfügen muss.
 public Image Image { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Rückruf verwenden, um die Bildzusammenführungslogik anzupassen.
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### Siehe auch
 
 * class [ImageFieldMergingArgs](../)
-* namensraum [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

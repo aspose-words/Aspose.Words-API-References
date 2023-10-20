@@ -1,7 +1,9 @@
 ---
-title: FieldSeq.FieldSeq
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSeq constructeur. Default_Constructor
+title: FieldSeq
+linktitle: FieldSeq
+articleTitle: FieldSeq
+second_title: Aspose.Words für .NET
+description: FieldSeq constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldseq/fieldseq/
@@ -17,7 +19,5 @@ public FieldSeq()
 ### Siehe auch
 
 * class [FieldSeq](../)
-* namensraum [Aspose.Words.Fields](../../fieldseq/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.TopPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft die Menge an Platz in Punkten ab die oberhalb des Inhalts von Tabellenzellen hinzugefügt werden soll oder legt diese fest.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words für .NET
+description: ConditionalStyle TopPadding eigendom. Ruft die Menge an Platz in Punkten ab die oberhalb des Inhalts von Tabellenzellen hinzugefügt werden soll oder legt diese fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/conditionalstyle/toppadding/
@@ -14,7 +16,7 @@ Ruft die Menge an Platz (in Punkten) ab, die oberhalb des Inhalts von Tabellenze
 public double TopPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Siehe auch
 
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

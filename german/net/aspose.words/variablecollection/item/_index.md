@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: VariableCollection eigendom. Ruft eine Dokumentvariable ab oder legt sie fest wobei die Groß/Kleinschreibung nicht berücksichtigt wird. Null Werte sind auf der rechten Seite der Zuweisung nicht zulässig und werden durch eine leere Zeichenfolge ersetzt.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: VariableCollection Item eigendom. Ruft eine Dokumentvariable ab oder legt sie fest wobei die Groß/Kleinschreibung nicht berücksichtigt wird. Null Werte sind auf der rechten Seite der Zuweisung nicht zulässig und werden durch eine leere Zeichenfolge ersetzt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/variablecollection/item/
@@ -17,7 +19,7 @@ public string this[string name] { get; set; }
 ### Siehe auch
 
 * class [VariableCollection](../)
-* namensraum [Aspose.Words](../../variablecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -37,7 +39,5 @@ public string this[int index] { get; set; }
 ### Siehe auch
 
 * class [VariableCollection](../)
-* namensraum [Aspose.Words](../../variablecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

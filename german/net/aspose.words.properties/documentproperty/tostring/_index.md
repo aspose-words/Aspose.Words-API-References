@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty methode. Gibt den Eigenschaftswert als Zeichenfolge zurück die entsprechend dem aktuellen Gebietsschema formatiert ist.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words für .NET
+description: DocumentProperty ToString methode. Gibt den Eigenschaftswert als Zeichenfolge zurück die entsprechend dem aktuellen Gebietsschema formatiert ist in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ Gibt den Eigenschaftswert als Zeichenfolge zurück, die entsprechend dem aktuell
 public override string ToString()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Konvertiert eine boolesche Eigenschaft in „Y“ oder „N“. Konvertiert eine Datumseigenschaft in eine kurze Datumszeichenfolge. Konvertiert bei allen anderen Typen eine Eigenschaft mithilfe von Object.ToString().
 
-### Beispiele
+## Beispiele
 
 Zeigt verschiedene Typkonvertierungsmethoden für benutzerdefinierte Dokumenteigenschaften.
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Siehe auch
 
 * class [DocumentProperty](../)
-* namensraum [Aspose.Words.Properties](../../documentproperty/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

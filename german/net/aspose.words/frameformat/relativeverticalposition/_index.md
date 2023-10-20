@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeVerticalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ermittelt die relative vertikale Position eines Frames.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words für .NET
+description: FrameFormat RelativeVerticalPosition eigendom. Ermittelt die relative vertikale Position eines Frames in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/frameformat/relativeverticalposition/
@@ -14,7 +16,7 @@ Ermittelt die relative vertikale Position eines Frames.
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

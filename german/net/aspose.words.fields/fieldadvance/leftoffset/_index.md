@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.LeftOffset
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAdvance eigendom. Ruft die Anzahl der Punkte ab um die der Text der auf das Feld folgt nach links verschoben werden soll oder legt diese fest.
+linktitle: LeftOffset
+articleTitle: LeftOffset
+second_title: Aspose.Words für .NET
+description: FieldAdvance LeftOffset eigendom. Ruft die Anzahl der Punkte ab um die der Text der auf das Feld folgt nach links verschoben werden soll oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldadvance/leftoffset/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Punkte ab, um die der Text, der auf das Feld folgt, nach lin
 public string LeftOffset { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein ADVANCE-Feld einfügt und seine Eigenschaften bearbeitet.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Siehe auch
 
 * class [FieldAdvance](../)
-* namensraum [Aspose.Words.Fields](../../fieldadvance/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

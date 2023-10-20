@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Margins
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt die Voreinstellung zurück oder legt sie festMargins der Seite.
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words für .NET
+description: PageSetup Margins eigendom. Gibt die Voreinstellung zurück oder legt sie festMargins der Seite in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words/pagesetup/margins/
@@ -14,7 +16,7 @@ Gibt die Voreinstellung zurück oder legt sie fest[`Margins`](../../margins/) de
 public Margins Margins { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt an, wann das Seitenlayout des Dokuments neu berechnet werden soll.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

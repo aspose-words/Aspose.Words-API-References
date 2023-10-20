@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft die Startzeilennummer ab oder legt sie fest.
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: Aspose.Words für .NET
+description: PageSetup LineStartingNumber eigendom. Ruft die Startzeilennummer ab oder legt sie fest in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,7 +16,7 @@ Ruft die Startzeilennummer ab oder legt sie fest.
 public int LineStartingNumber { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilennummerierung für einen Abschnitt aktiviert wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

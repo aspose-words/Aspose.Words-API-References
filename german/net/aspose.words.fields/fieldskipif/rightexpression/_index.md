@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.RightExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSkipIf eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words für .NET
+description: FieldSkipIf RightExpression eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldskipif/rightexpression/
@@ -14,7 +16,7 @@ Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
 public string RightExpression { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten in einem Seriendruck mithilfe des SKIPIF-Felds übersprungen werden.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Siehe auch
 
 * class [FieldSkipIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldskipif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

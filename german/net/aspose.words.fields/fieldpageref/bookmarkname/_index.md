@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldPageRef eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldPageRef BookmarkName eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldpageref/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab oder legt ihn fest.
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt das Einfügen von PAGEREF-Feldern an, um die relative Position von Lesezeichen anzuzeigen.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Siehe auch
 
 * class [FieldPageRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldpageref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

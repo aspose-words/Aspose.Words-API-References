@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: MappedDataFieldCollection eigendom. Ruft den Namen des Felds in der Datenquelle ab die dem angegebenen Serienbrieffeld zugeordnet ist oder legt diesen fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: MappedDataFieldCollection Item eigendom. Ruft den Namen des Felds in der Datenquelle ab die dem angegebenen Serienbrieffeld zugeordnet ist oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ Ruft den Namen des Felds in der Datenquelle ab, die dem angegebenen Serienbrieff
 public string this[string documentFieldName] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Siehe auch
 
 * class [MappedDataFieldCollection](../)
-* namensraum [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

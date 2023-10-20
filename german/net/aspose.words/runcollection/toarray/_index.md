@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: RunCollection methode. Kopiert alle Läufe aus der Sammlung in ein neues Array von Läufen.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: RunCollection ToArray methode. Kopiert alle Läufe aus der Sammlung in ein neues Array von Läufen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 Eine Reihe von Läufen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Revisionstyp eines Inline-Knotens ermittelt wird.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* namensraum [Aspose.Words](../../runcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

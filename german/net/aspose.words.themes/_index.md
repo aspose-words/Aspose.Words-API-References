@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Themes
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Themes Der Namespace stellt Klassen bereit die den Zugriff auf Designinformationen in Microsoft WordDokumenten ermöglichen.
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Themes Der Namespace stellt Klassen bereit die den Zugriff auf Designinformationen in Microsoft WordDokumenten ermöglichen in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words.themes/
 ---
-Der **Aspose.Words.Themes** Der Namespace stellt Klassen bereit, die den Zugriff auf Designinformationen in Microsoft Word-Dokumenten ermöglichen.
+Der**Aspose.Words.Themes** Der Namespace stellt Klassen bereit, die den Zugriff auf Designinformationen in Microsoft Word-Dokumenten ermöglichen.
 
 ## Klassen
 
@@ -21,5 +23,3 @@ Der **Aspose.Words.Themes** Der Namespace stellt Klassen bereit, die den Zugriff
 | --- | --- |
 | [ThemeColor](./themecolor/) | Gibt die Designfarben für Dokumentdesigns an. |
 | [ThemeFont](./themefont/) | Gibt die Arten von Designschriftartennamen für Dokumentdesigns an. |
-
-

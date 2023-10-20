@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft das Intervall ab in dem Teilstrichbeschriftungen gezeichnet werden oder legt dieses fest.
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: Aspose.Words für .NET
+description: ChartAxis TickLabelSpacing eigendom. Ruft das Intervall ab in dem Teilstrichbeschriftungen gezeichnet werden oder legt dieses fest in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ Ruft das Intervall ab, in dem Teilstrichbeschriftungen gezeichnet werden, oder l
 public int TickLabelSpacing { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wirkt sich auf Textkategorie- und Serienachsen aus. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt. Der gültige Bereich eines Werts ist größer oder gleich 1.
 
 Durch das Festlegen dieser Eigenschaft wird die festgelegt[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) Eigentum zu`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

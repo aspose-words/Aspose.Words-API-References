@@ -1,7 +1,9 @@
 ---
 title: TextBox.Parent
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Ruft eine übergeordnete Form für abTextBox .
+linktitle: Parent
+articleTitle: Parent
+second_title: Aspose.Words für .NET
+description: TextBox Parent eigendom. Ruft eine übergeordnete Form für abTextBox  in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.drawing/textbox/parent/
@@ -18,7 +20,5 @@ public Shape Parent { get; }
 
 * class [Shape](../../shape/)
 * class [TextBox](../)
-* namensraum [Aspose.Words.Drawing](../../textbox/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

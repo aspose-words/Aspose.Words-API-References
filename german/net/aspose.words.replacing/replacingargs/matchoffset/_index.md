@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchOffset
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReplacingArgs eigendom. Ruft die nullbasierte Startposition der Übereinstimmung ab dem Anfang des Knotens ab der den Anfang der Übereinstimmung enthält.
+linktitle: MatchOffset
+articleTitle: MatchOffset
+second_title: Aspose.Words für .NET
+description: ReplacingArgs MatchOffset eigendom. Ruft die nullbasierte Startposition der Übereinstimmung ab dem Anfang des Knotens ab der den Anfang der Übereinstimmung enthält in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.replacing/replacingargs/matchoffset/
@@ -14,7 +16,7 @@ Ruft die nullbasierte Startposition der Übereinstimmung ab dem Anfang des Knote
 public int MatchOffset { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
 
@@ -87,7 +89,5 @@ private class NumberHexer : IReplacingCallback
 ### Siehe auch
 
 * class [ReplacingArgs](../)
-* namensraum [Aspose.Words.Replacing](../../replacingargs/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

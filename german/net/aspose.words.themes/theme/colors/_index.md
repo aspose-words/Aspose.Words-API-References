@@ -1,7 +1,9 @@
 ---
 title: Theme.Colors
-second_title: Aspose.Words für .NET-API-Referenz
-description: Theme eigendom. Ermöglicht die Angabe der Themenfarben für das Dokument.
+linktitle: Colors
+articleTitle: Colors
+second_title: Aspose.Words für .NET
+description: Theme Colors eigendom. Ermöglicht die Angabe der Themenfarben für das Dokument in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.themes/theme/colors/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe der Themenfarben für das Dokument.
 public ThemeColors Colors { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* namensraum [Aspose.Words.Themes](../../theme/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

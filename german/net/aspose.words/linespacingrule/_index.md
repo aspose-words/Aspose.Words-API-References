@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.LineSpacingRule opsomming. Gibt Zeilenabstandswerte für einen Absatz an.
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words für .NET
+description: Aspose.Words.LineSpacingRule opsomming. Gibt Zeilenabstandswerte für einen Absatz an in C#.
 type: docs
 weight: 3440
 url: /de/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

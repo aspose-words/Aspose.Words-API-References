@@ -1,7 +1,9 @@
 ---
-title: Class NodeImporter
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NodeImporter klas. Ermöglicht die effiziente Durchführung wiederholter Importe von Knoten von einem Dokument in ein anderes.
+title: NodeImporter Class
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words für .NET
+description: Aspose.Words.NodeImporter klas. Ermöglicht die effiziente Durchführung wiederholter Importe von Knoten von einem Dokument in ein anderes in C#.
 type: docs
 weight: 4210
 url: /de/net/aspose.words/nodeimporter/
@@ -20,16 +22,16 @@ public class NodeImporter
 
 | Name | Beschreibung |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initialisiert eine neue Instanz von`NodeImporter` Klasse. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initialisiert eine neue Instanz von`NodeImporter` Klasse. |
+| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | Initialisiert eine neue Instanz von`NodeImporter` Klasse. |
+| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Initialisiert eine neue Instanz von`NodeImporter` Klasse. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Importiert einen Knoten aus einem Dokument in ein anderes. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(*[Node](../node/), bool*) | Importiert einen Knoten aus einem Dokument in ein anderes. |
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words bietet Funktionen zum einfachen Kopieren und Verschieben von Fragmenten zwischen Microsoft Word-Dokumenten. Dies wird als „Importieren von Knoten“ bezeichnet. Bevor Sie ein Fragment aus einem Dokument in ein anderes einfügen können, müssen Sie es „importieren“. Beim Importieren wird ein tiefer Klon des ursprünglichen Knotens erstellt, der in das Zieldokument eingefügt werden kann.
 
@@ -43,7 +45,7 @@ Die Herausforderungen ergeben sich aus der Tatsache, dass Stile und Listen in ve
 
 Der`NodeImporter`Die Klasse ist wie ein Kontext, der die „Übersetzungstabellen“ während des Imports enthält. Es übersetzt korrekt zwischen Stilen und Listen in den Quell- und Zieldokumenten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument eingefügt wird.
 
@@ -112,5 +114,3 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

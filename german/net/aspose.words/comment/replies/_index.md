@@ -1,9 +1,11 @@
 ---
 title: Comment.Replies
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Gibt eine Sammlung von zurückComment Objekte die unmittelbare untergeordnete Elemente des angegebenen Kommentars sind.
+linktitle: Replies
+articleTitle: Replies
+second_title: Aspose.Words für .NET
+description: Comment Replies eigendom. Gibt eine Sammlung von zurückComment Objekte die unmittelbare untergeordnete Elemente des angegebenen Kommentars sind in C#.
 type: docs
-weight: 100
+weight: 90
 url: /de/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -14,7 +16,7 @@ Gibt eine Sammlung von zurück[`Comment`](../) Objekte, die unmittelbare unterge
 public CommentCollection Replies { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
@@ -41,7 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

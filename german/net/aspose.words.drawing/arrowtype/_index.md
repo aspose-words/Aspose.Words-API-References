@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.ArrowType opsomming. Gibt den Typ eines Pfeils an einem Linienende an.
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.ArrowType opsomming. Gibt den Typ eines Pfeils an einem Linienende an in C#.
 type: docs
 weight: 490
 url: /de/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | Der Pfeil ist ein offener Pfeil. |
 | Default | `0` | Das Gleiche wieNone . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

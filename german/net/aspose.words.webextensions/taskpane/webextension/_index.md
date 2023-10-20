@@ -1,7 +1,9 @@
 ---
 title: TaskPane.WebExtension
-second_title: Aspose.Words für .NET-API-Referenz
-description: TaskPane eigendom. Stellt ein Weberweiterungsobjekt dar.
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words für .NET
+description: TaskPane WebExtension eigendom. Stellt ein Weberweiterungsobjekt dar in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.webextensions/taskpane/webextension/
@@ -14,7 +16,7 @@ Stellt ein Weberweiterungsobjekt dar.
 public WebExtension WebExtension { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtension](../../webextension/)
 * class [TaskPane](../)
-* namensraum [Aspose.Words.WebExtensions](../../taskpane/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

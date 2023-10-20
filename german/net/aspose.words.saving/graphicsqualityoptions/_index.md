@@ -1,7 +1,9 @@
 ---
-title: Class GraphicsQualityOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.GraphicsQualityOptions klas. Ermöglicht die Angabe zusätzlicherGraphics Qualitätsoptionen.
+title: GraphicsQualityOptions Class
+linktitle: GraphicsQualityOptions
+articleTitle: GraphicsQualityOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.GraphicsQualityOptions klas. Ermöglicht die Angabe zusätzlicherGraphics Qualitätsoptionen in C#.
 type: docs
 weight: 5040
 url: /de/net/aspose.words.saving/graphicsqualityoptions/
@@ -34,7 +36,7 @@ public class GraphicsQualityOptions
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Ruft den Rendering-Modus für Text ab, der dieser Grafik zugeordnet ist, oder legt diesen fest. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob WrapMode TileFlipXY ist. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

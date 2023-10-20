@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.DateDisplayFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Zeichenfolge die das Format darstellt in dem Datumsangaben angezeigt werden. Kann nicht seinNull . Das Datum für Englisch USA ist mm/tt/jjjj.
+linktitle: DateDisplayFormat
+articleTitle: DateDisplayFormat
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag DateDisplayFormat eigendom. Zeichenfolge die das Format darstellt in dem Datumsangaben angezeigt werden. Kann nicht seinNull . Das Datum für Englisch USA ist mm/tt/jjjj in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
@@ -14,13 +16,13 @@ Zeichenfolge, die das Format darstellt, in dem Datumsangaben angezeigt werden. K
 public string DateDisplayFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Zugriff auf diese Eigenschaft funktioniert nur fürDate SDT-Typ.
 
 Bei allen anderen SDT-Typen tritt eine Ausnahme auf.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Benutzer mit einem strukturierten Dokument-Tag zur Eingabe eines Datums aufgefordert wird.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

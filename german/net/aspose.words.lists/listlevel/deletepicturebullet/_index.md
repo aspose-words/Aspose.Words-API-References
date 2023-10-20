@@ -1,7 +1,9 @@
 ---
 title: ListLevel.DeletePictureBullet
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel methode. Löscht Bildaufzählungszeichen für die aktuelle Listenebene.
+linktitle: DeletePictureBullet
+articleTitle: DeletePictureBullet
+second_title: Aspose.Words für .NET
+description: ListLevel DeletePictureBullet methode. Löscht Bildaufzählungszeichen für die aktuelle Listenebene in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.lists/listlevel/deletepicturebullet/
@@ -14,11 +16,11 @@ Löscht Bildaufzählungszeichen für die aktuelle Listenebene.
 public void DeletePictureBullet()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Nach dem Löschen wird das Standardaufzählungszeichen angezeigt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein benutzerdefiniertes Bildsymbol für Listenelementbezeichnungen festlegt.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

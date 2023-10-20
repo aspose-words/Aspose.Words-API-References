@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.FieldMergingArgs klas. Stellt Daten für die bereit MergeField event.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs klas. Stellt Daten für die bereitMergeField event in C#.
 type: docs
 weight: 3770
 url: /de/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Stellt Daten für die bereit **MergeField** event.
+Stellt Daten für die bereit**MergeField** event.
 
 Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ruft den Namen der Datentabelle für den aktuellen Zusammenführungsvorgang oder eine leere Zeichenfolge ab, wenn der Name nicht verfügbar ist. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Ruft den Text ab, der für das aktuelle Zusammenführungsfeld in das Dokument eingefügt wird, oder legt diesen fest. |
 
-### Bemerkungen
+## Bemerkungen
 
-Der **MergeField** Das Ereignis tritt beim Serienbrief auf, wenn im Dokument ein einfaches Feld „mail merge “ gefunden wird. Sie können auf dieses Ereignis reagieren, um Text zurückzugeben, den die Serienbrief-Engine in das Dokument einfügen kann.
+Der**MergeField** Das Ereignis tritt beim Serienbrief auf, wenn im Dokument ein einfaches Feld „mail merge “ gefunden wird. Sie können auf dieses Ereignis reagieren, um Text zurückzugeben, den die Serienbrief-Engine in das Dokument einfügen kann.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

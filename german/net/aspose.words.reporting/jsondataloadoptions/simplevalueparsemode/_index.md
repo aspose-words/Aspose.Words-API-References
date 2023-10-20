@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.SimpleValueParseMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: JsonDataLoadOptions eigendom. Ruft einen Modus zum Parsen einfacher JSONWerte Null Boolescher Wert Zahl Ganzzahl und Zeichenfolge ab oder legt diesen fest. beim Laden von JSON. Ein solcher Modus hat keinen Einfluss auf das Parsen von Datums/Uhrzeitwerten. Der Standardwert ist Loose .
+linktitle: SimpleValueParseMode
+articleTitle: SimpleValueParseMode
+second_title: Aspose.Words für .NET
+description: JsonDataLoadOptions SimpleValueParseMode eigendom. Ruft einen Modus zum Parsen einfacher JSONWerte Null Boolescher Wert Zahl Ganzzahl und Zeichenfolge ab oder legt diesen fest. beim Laden von JSON. Ein solcher Modus hat keinen Einfluss auf das Parsen von Datums/Uhrzeitwerten. Der Standardwert ist Loose  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/
@@ -18,7 +20,5 @@ public JsonSimpleValueParseMode SimpleValueParseMode { get; set; }
 
 * enum [JsonSimpleValueParseMode](../../jsonsimplevalueparsemode/)
 * class [JsonDataLoadOptions](../)
-* namensraum [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

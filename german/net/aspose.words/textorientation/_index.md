@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextOrientation opsomming. Gibt die Ausrichtung von Text auf einer Seite in einer Tabellenzelle oder einem Textrahmen an.
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TextOrientation opsomming. Gibt die Ausrichtung von Text auf einer Seite in einer Tabellenzelle oder einem Textrahmen an in C#.
 type: docs
 weight: 6430
 url: /de/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | Fernöstliche Zeichen erscheinen vertikal, anderer Text wird um 90 Grad nach rechts gedreht, um von oben nach unten zu erscheinen (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | Fernöstliche Zeichen erscheinen vertikal, anderer Text wird um 90 Grad nach rechts gedreht, um vertikal von oben nach unten und dann horizontal von links nach rechts zu erscheinen (tb-lr-v). |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine formatierte 2x2-Tabelle erstellt wird.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

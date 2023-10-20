@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CacheBackgroundGraphics
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob im Hintergrund des Dokuments platzierte Grafiken zwischengespeichert werden sollen oder nicht.
+linktitle: CacheBackgroundGraphics
+articleTitle: CacheBackgroundGraphics
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions CacheBackgroundGraphics eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob im Hintergrund des Dokuments platzierte Grafiken zwischengespeichert werden sollen oder nicht in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt ihn fest, der bestimmt, ob im Hintergrund des Dokum
 public bool CacheBackgroundGraphics { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`WAHR` und Hintergrundgrafiken werden als xObject in das PDF-Dokument geschrieben.
 
@@ -24,7 +26,7 @@ Einige Formen werden beim Caching nicht unterstützt (Formen mit Feldern, Leseze
 
 Bei der Hintergrundgrafik eines Dokuments handelt es sich um verschiedene Formen, Diagramme, Bilder, die in der Fuß- oder Kopfzeile platziert werden, sowie als Hintergrund und Rand einer Seite.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie im Hintergrund des Dokuments platzierte Grafiken zwischengespeichert werden.
 
@@ -45,7 +47,5 @@ Assert.Less(asposeToPdfSize, wordToPdfSize);
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

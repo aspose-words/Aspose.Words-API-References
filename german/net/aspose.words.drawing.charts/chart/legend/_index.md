@@ -1,7 +1,9 @@
 ---
 title: Chart.Legend
-second_title: Aspose.Words für .NET-API-Referenz
-description: Chart eigendom. Bietet Zugriff auf die Eigenschaften der Diagrammlegende.
+linktitle: Legend
+articleTitle: Legend
+second_title: Aspose.Words für .NET
+description: Chart Legend eigendom. Bietet Zugriff auf die Eigenschaften der Diagrammlegende in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/chart/legend/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Eigenschaften der Diagrammlegende.
 public ChartLegend Legend { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild der Legende eines Diagramms bearbeitet wird.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * class [ChartLegend](../../chartlegend/)
 * class [Chart](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chart/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

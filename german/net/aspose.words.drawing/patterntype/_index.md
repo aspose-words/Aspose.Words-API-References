@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.PatternType opsomming. Gibt das Füllmuster an das zum Füllen einer Form verwendet werden soll.
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.PatternType opsomming. Gibt das Füllmuster an das zum Füllen einer Form verwendet werden soll in C#.
 type: docs
 weight: 1170
 url: /de/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

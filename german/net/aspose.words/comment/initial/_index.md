@@ -1,7 +1,9 @@
 ---
 title: Comment.Initial
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Gibt die Initialen des Benutzers zurück der einem bestimmten Kommentar zugeordnet ist oder legt sie fest.
+linktitle: Initial
+articleTitle: Initial
+second_title: Aspose.Words für .NET
+description: Comment Initial eigendom. Gibt die Initialen des Benutzers zurück der einem bestimmten Kommentar zugeordnet ist oder legt sie fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/comment/initial/
@@ -14,13 +16,13 @@ Gibt die Initialen des Benutzers zurück, der einem bestimmten Kommentar zugeord
 public string Initial { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-
