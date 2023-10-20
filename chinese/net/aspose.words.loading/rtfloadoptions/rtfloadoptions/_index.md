@@ -18,7 +18,7 @@ public RtfLoadOptions()
 
 ## 例子
 
-展示如何在加载 RTF 文档时检测 UTF-8 字符。
+演示如何在加载 RTF 文档时检测 UTF-8 字符。
 
 ```csharp
 // 创建一个“RtfLoadOptions”对象来修改我们加载 RTF 文档的方式。

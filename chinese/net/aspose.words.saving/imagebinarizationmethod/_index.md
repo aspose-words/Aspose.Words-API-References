@@ -21,11 +21,11 @@ public enum ImageBinarizationMethod
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Threshold | `0` | 指定阈值方法。 |
-| FloydSteinbergDithering | `1` | 使用 Floyd-Steinberg 误差扩散方法指定抖动。 |
+| FloydSteinbergDithering | `1` | 指定使用 Floyd-Steinberg 误差扩散方法进行抖动。 |
 
 ## 例子
 
-演示在使用 Floyd-Steinberg 方法渲染 TIFF 图像时如何设置 TIFF 二值化错误阈值。
+演示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
 
 ```csharp
 Document doc = new Document();

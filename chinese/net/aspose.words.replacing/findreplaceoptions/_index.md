@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/
 
 指定查找/替换操作的选项。
 
+要了解更多信息，请访问[查找和替换](https://docs.aspose.com/words/net/find-and-replace/)文档文章。
+
 ```csharp
 public class FindReplaceOptions
 ```
@@ -30,26 +32,26 @@ public class FindReplaceOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [ApplyFont](../../aspose.words.replacing/findreplaceoptions/applyfont/) { get; } | 应用于新内容的文本格式。 |
-| [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat/) { get; } | 应用于新内容的段落格式。 |
+| [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat/) { get; } | 段落格式应用于新内容。 |
 | [Direction](../../aspose.words.replacing/findreplaceoptions/direction/) { get; set; } | 选择替换方向。默认值为Forward. |
-| [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly/) { get; set; } | True 表示 oldValue 必须是一个独立的词。 |
-| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted/) { get; set; } | 获取或设置一个布尔值，指示忽略删除修订中的文本。 默认值为`错误的`. |
-| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes/) { get; set; } | 获取或设置一个布尔值，指示忽略字段代码中的文本。 默认值为`错误的`. |
+| [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly/) { get; set; } | True 表示 oldValue 必须是独立的单词。 |
+| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted/) { get; set; } | 获取或设置一个布尔值，指示忽略删除修订内的文本。 默认值为`错误的`. |
+| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes/) { get; set; } | 获取或设置一个布尔值，指示忽略字段代码内的文本。 默认值为`错误的`. |
 | [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields/) { get; set; } | 获取或设置一个布尔值，指示忽略字段内的文本。 默认值为`错误的`. |
-| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | 获取或设置一个布尔值，指示忽略脚注。 默认值为`错误的`. |
+| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | 获取或设置一个布尔值，指示是否忽略脚注。 默认值为`错误的`. |
 | [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted/) { get; set; } | 获取或设置一个布尔值，指示忽略插入修订中的文本。 默认值为`错误的`. |
-| [IgnoreShapes](../../aspose.words.replacing/findreplaceoptions/ignoreshapes/) { get; set; } |  |
-| [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } |  |
+| [IgnoreShapes](../../aspose.words.replacing/findreplaceoptions/ignoreshapes/) { get; set; } | 获取或设置一个布尔值，指示忽略文本中的形状。 |
+| [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } | 获取或设置一个布尔值，指示忽略以下内容[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/). 默认值为`错误的`. |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | 获取或设置一个布尔值，指示使用旧的查找/替换算法。 |
-| [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | true表示区分大小写比较，false表示不区分大小写比较。 |
+| [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | True 表示区分大小写比较， false 表示不区分大小写比较。 |
 | [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | 在每次替换发生之前调用的用户定义方法。 |
-| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | 获取或设置一个布尔值，指示当没有下一个同级段落时是否允许替换段落 break 。 |
-| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True 表示考虑到文本框，从上到下顺序执行文本搜索。 默认值为 false。 |
-| [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | 获取或设置一个布尔值，指示是否识别和使用替换模式中的替换。 默认值为`错误的`. |
+| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | 获取或设置一个布尔值，指示当没有下一个兄弟段落时是否允许替换段落break 。 |
+| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True 表示考虑文本框从上到下顺序执行文本搜索。 默认值为`错误的`. |
+| [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | 获取或设置一个布尔值，指示是否在替换模式中识别和使用替换。 默认值为`错误的`. |
 
 ## 例子
 
-显示在执行查找和替换操作时如何切换区分大小写。
+演示如何在执行查找和替换操作时切换区分大小写。
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +72,7 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
     doc.GetText().Trim());
 ```
 
-显示如何切换独立的纯字查找和替换操作。
+演示如何切换独立的仅单词查找和替换操作。
 
 ```csharp
 Document doc = new Document();
@@ -81,7 +83,7 @@ builder.Writeln("Jackson will meet you in Jacksonville.");
 // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
 FindReplaceOptions options = new FindReplaceOptions();
 
-// 将“FindWholeWordsOnly”标志设置为“true”以替换找到的文本，如果它不是另一个词的一部分。
+// 将“FindWholeWordsOnly”标志设置为“true”，以替换找到的文本（如果它不是另一个单词的一部分）。
 // 将“FindWholeWordsOnly”标志设置为“false”以替换所有文本，无论其周围环境如何。
 options.FindWholeWordsOnly = findWholeWordsOnly;
 

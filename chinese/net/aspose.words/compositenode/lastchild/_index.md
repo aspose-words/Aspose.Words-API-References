@@ -18,11 +18,11 @@ public Node LastChild { get; }
 
 ## 评论
 
-如果没有最后一个子节点，则返回null。
+如果没有最后一个子节点，则`无效的`返回。
 
 ## 例子
 
-演示如何使用 Node 和 CompositeNode 的方法来删除文档中最后一个部分之前的部分。
+演示如何使用 Node 和 CompositeNode 的方法删除文档中最后一部分之前的部分。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// 两个部分是彼此的兄弟。
+// 两个部分互为兄弟部分。
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
@@ -40,7 +40,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// 我们删除的部分是第一个，文档只剩下第二个。
+// 我们删除的部分是第一个部分，文档中只剩下第二个部分。
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

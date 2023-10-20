@@ -18,9 +18,10 @@ public string Replacement { get; set; }
 
 ## 例子
 
-展示如何用另一个字符串替换所有出现的正则表达式模式，同时跟踪所有此类替换。
+演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,7 +32,7 @@ public string Replacement { get; set; }
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // 设置一个回调来跟踪“替换”方法将进行的任何替换。
+    // 设置一个回调来跟踪“Replace”方法将进行的任何替换。
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -45,8 +46,8 @@ public string Replacement { get; set; }
 }
 
 /// <summary>
-/// 维护由查找和替换操作完成的每个文本替换的日志
-/// 并注意原始匹配文本的值。
+/// 维护查找和替换操作完成的每个文本替换的日志
+/// 并记录原始匹配文本的值。
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {

@@ -26,7 +26,7 @@ Document doc = new Document();
 StructuredDocumentTag richText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(richText);
 
-// 校验和是只读的，使用对应的自定义 XML 数据部分的数据计算。
+// 校验和是只读的，并使用相应的自定义 XML 数据部分的数据进行计算。
 richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
     "<root><text>ContentControl</text></root>"), "/root/text", "");
 
@@ -39,7 +39,7 @@ richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
 long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
-// 我们更改了标签的 XmlPart，校验和在运行时更新。
+// 我们更改了标记的 XmlPart，并且校验和在运行时更新。
 Assert.AreNotEqual(checksum, updatedChecksum);
 ```
 

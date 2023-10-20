@@ -22,17 +22,17 @@ public Node this[int index] { get; }
 
 ## 评论
 
-该索引从零开始。
+该索引是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
-展示如何使用 XPath 导航 NodeList。
+演示如何使用 XPath 导航 NodeList。
 
 ```csharp
 Document doc = new Document();
@@ -56,25 +56,25 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 #endif
 
 // 我们的文档包含三个 Run 节点。
-NodeList nodeList = doc.SelectNodes("//跑”）;
+NodeList nodeList = doc.SelectNodes("//跑步”）;
 
 Assert.AreEqual(3, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// 使用双斜杠选择所有 Run 节点
-// 它们是 Table 节点的间接后代，这将是我们插入的两个单元格内的运行。
-nodeList = doc.SelectNodes("//Table//跑”）;
+// 使用双正斜杠选择所有 Run 节点
+// 它们是表节点的间接后代，这将是我们插入的两个单元格内的运行。
+nodeList = doc.SelectNodes("//Table//跑步”）;
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// 单个正斜杠指定直接后代关系，
-// 我们在使用双斜杠时跳过了它。
+// 单正斜杠指定直接后代关系，
+// 当我们使用双斜杠时我们跳过了它。
 Assert.AreEqual(doc.SelectNodes(" //表//运行"),
-    doc.SelectNodes("//表格/行/单元格/段落/运行"));
+    doc.SelectNodes("//表/行/单元格/段落/运行"));
 
 // 访问包含我们插入的图像的形状。
 nodeList = doc.SelectNodes("//形状”）;

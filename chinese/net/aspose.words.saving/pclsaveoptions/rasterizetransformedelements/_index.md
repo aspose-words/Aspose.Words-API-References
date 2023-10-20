@@ -3,14 +3,14 @@ title: PclSaveOptions.RasterizeTransformedElements
 linktitle: RasterizeTransformedElements
 articleTitle: RasterizeTransformedElements
 second_title: 用于 .NET 的 Aspose.Words
-description: PclSaveOptions RasterizeTransformedElements 财产. 获取或设置一个值该值确定复杂变换元素 在保存到 PCL 文档之前是否应进行光栅化 默认为真的 在 C#.
+description: PclSaveOptions RasterizeTransformedElements 财产. 获取或设置一个值确定在保存到 PCL 文档之前是否应光栅化复杂的变换元素  默认值为真的 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
 ## PclSaveOptions.RasterizeTransformedElements property
 
-获取或设置一个值，该值确定复杂变换元素 在保存到 PCL 文档之前是否应进行光栅化。 默认为`真的`.
+获取或设置一个值，确定在保存到 PCL 文档之前是否应光栅化复杂的变换元素 。 默认值为`真的`.
 
 ```csharp
 public bool RasterizeTransformedElements { get; set; }
@@ -18,11 +18,11 @@ public bool RasterizeTransformedElements { get; set; }
 
 ## 评论
 
-PCL 不支持 Aspose Words 使用的某种转换。 例如旋转、倾斜的图像和纹理画笔。为了正确渲染这样的元素 使用光栅化过程，即保存到图像和剪辑。 这个过程可能需要额外的时间和内存。 如果标志设置为`错误的`，输出中的某些内容可能与源文档不同 。
+PCL 不支持 Aspose Words 使用的某种转换。 例如旋转、倾斜的图像和纹理画笔。为了正确渲染此类元素 使用光栅化过程，即保存到图像并进行裁剪。 此过程可能需要额外的时间和内存。 如果标志设置为`错误的`，输出中的某些内容可能与源文档不同 。
 
 ## 例子
 
-演示如何在将文档保存到 PCL 时栅格化复杂元素。
+演示如何在将文档保存到 PCL 时对复杂元素进行栅格化。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

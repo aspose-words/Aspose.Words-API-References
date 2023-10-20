@@ -24,7 +24,7 @@ public void SetImage(Image image)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当图像为空时抛出。 |
+| ArgumentNullException | 当图像为`无效的`. |
 
 ### 也可以看看
 
@@ -51,11 +51,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当图像为空时抛出。 |
+| ArgumentNullException | 当图像为`无效的`. |
 
 ## 评论
 
-如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)为空，水印将使用默认选项设置。
+如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)是`无效的`，水印将设置为默认选项。
 
 ## 例子
 
@@ -108,11 +108,11 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当路径为空时抛出。 |
+| ArgumentNullException | 当路径为`无效的`. |
 
 ## 评论
 
-如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)为空，水印将使用默认选项设置。
+如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)是`无效的`，水印将设置为默认选项。
 
 ### 也可以看看
 

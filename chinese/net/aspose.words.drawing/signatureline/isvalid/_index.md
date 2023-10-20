@@ -3,14 +3,14 @@ title: SignatureLine.IsValid
 linktitle: IsValid
 articleTitle: IsValid
 second_title: 用于 .NET 的 Aspose.Words
-description: SignatureLine IsValid 财产. 表示签名行是数字签名的这个数字签名是有效的 在 C#.
+description: SignatureLine IsValid 财产. 表示签名行是由数字签名签署的并且该数字签名有效 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-表示签名行是数字签名的，这个数字签名是有效的。
+表示签名行是由数字签名签署的，并且该数字签名有效。
 
 ```csharp
 public bool IsValid { get; }
@@ -18,7 +18,7 @@ public bool IsValid { get; }
 
 ## 例子
 
-显示如何使用个人证书和签名行签署文档。
+演示如何使用个人证书和签名行签署文档。
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证 "IsSigned" 和 "IsValid" 属性都等于 "true",
+// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

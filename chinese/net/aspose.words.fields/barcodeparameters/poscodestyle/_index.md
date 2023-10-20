@@ -3,14 +3,14 @@ title: BarcodeParameters.PosCodeStyle
 linktitle: PosCodeStyle
 articleTitle: PosCodeStyle
 second_title: 用于 .NET 的 Aspose.Words
-description: BarcodeParameters PosCodeStyle 财产. POS 条码样式条码类型 UPCAUPCEEAN13EAN8有效值不区分大小写为 STDSUP2SUP5CASE 在 C#.
+description: BarcodeParameters PosCodeStyle 财产. 销售点条形码的样式条形码类型 UPCAUPCEEAN13EAN8有效值不区分大小写为 STDSUP2SUP5CASE 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-POS 条码样式（条码类型 UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+销售点条形码的样式（条形码类型 UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -23,14 +23,13 @@ public string PosCodeStyle { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
 // 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
-// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
-// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
+// 对于每个条形码，我们指定一组新的条形码参数，然后生成图像。
+// 之后，我们可以将图像插入到文档中，或者将其保存到本地文件系统。
 // 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

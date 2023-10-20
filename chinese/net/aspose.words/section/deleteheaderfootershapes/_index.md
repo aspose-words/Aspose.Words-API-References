@@ -3,14 +3,14 @@ title: Section.DeleteHeaderFooterShapes
 linktitle: DeleteHeaderFooterShapes
 articleTitle: DeleteHeaderFooterShapes
 second_title: 用于 .NET 的 Aspose.Words
-description: Section DeleteHeaderFooterShapes 方法. 从本节的页眉和页脚中删除所有形状绘图对象 在 C#.
+description: Section DeleteHeaderFooterShapes 方法. 删除本节页眉和页脚中的所有形状绘图对象 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
 
-从本节的页眉和页脚中删除所有形状（绘图对象）。
+删除本节页眉和页脚中的所有形状（绘图对象）。
 
 ```csharp
 public void DeleteHeaderFooterShapes()
@@ -18,17 +18,17 @@ public void DeleteHeaderFooterShapes()
 
 ## 例子
 
-演示如何从部分中的所有页眉页脚中删除所有形状。
+演示如何从节中的所有页眉页脚中删除所有形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 创建一个带形状的主标题。
+// 创建一个带有形状的主标题。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
-// 创建一个带有图像的主页脚。
+// 使用图像创建主页脚。
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.InsertImage(ImageDir + "Logo Icon.ico");
 

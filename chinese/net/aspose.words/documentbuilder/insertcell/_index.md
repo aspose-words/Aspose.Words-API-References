@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertCell
 linktitle: InsertCell
 articleTitle: InsertCell
 second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder InsertCell 方法. 在文档中插入一个表格单元格 在 C#.
+description: DocumentBuilder InsertCell 方法. 将表格单元格插入文档中 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder.InsertCell method
 
-在文档中插入一个表格单元格。
+将表格单元格插入文档中。
 
 ```csharp
 public Cell InsertCell()
@@ -22,17 +22,17 @@ public Cell InsertCell()
 
 ## 评论
 
-要开始一个表，只需调用**插入单元格**.在此之后，您使用 的其他方法添加的任何内容[`DocumentBuilder`](../)类将被添加到当前单元格。
+要启动一个表，只需调用`InsertCell`。此后，您使用 其他方法添加的任何内容[`DocumentBuilder`](../)类将被添加到当前单元格。
 
-要在同一行中开始一个新单元格，请调用**插入单元格**再次。
+要在同一行中开始一个新单元格，请调用`InsertCell`再次。
 
-结束表格行调用[`EndRow`](../endrow/).
+结束表行调用[`EndRow`](../endrow/)。
 
 使用[`CellFormat`](../cellformat/)属性来指定单元格格式。
 
 ## 例子
 
-展示如何使用文档构建器来创建表格。
+演示如何使用文档生成器创建表格。
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// 调用构建器的“EndRow”方法来开始一个新行。
+// 调用构建器的“EndRow”方法来开始新行。
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -64,8 +64,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
+// 为文档生成器设置表格格式选项
+// 将它们应用到我们添加的每一行和单元格。
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -89,7 +89,7 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
+// 以及我们随后使用构建器创建的任何新单元格。
 // 这不会影响我们之前添加的单元格。
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -101,7 +101,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// 增加行高以适应垂直文本。
+// 增加行高以适合垂直文本。
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

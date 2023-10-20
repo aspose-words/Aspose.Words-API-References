@@ -3,14 +3,14 @@ title: NodeCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: 用于 .NET 的 Aspose.Words
-description: NodeCollection ToArray 方法. 将集合中的所有节点复制到新的节点数组中 在 C#.
+description: NodeCollection ToArray 方法. 将集合中的所有节点复制到新的节点数组 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/nodecollection/toarray/
 ---
 ## NodeCollection.ToArray method
 
-将集合中的所有节点复制到新的节点数组中。
+将集合中的所有节点复制到新的节点数组。
 
 ```csharp
 public Node[] ToArray()
@@ -22,9 +22,9 @@ public Node[] ToArray()
 
 ## 评论
 
-在迭代节点集合 时不应添加/删除节点，因为它会使迭代器无效并需要刷新实时集合。
+您不应在迭代节点集合 时添加/删除节点，因为这会使迭代器无效并且需要刷新实时集合。
 
-为了能够在迭代期间添加/删除节点，请使用此方法将 节点复制到固定大小的数组中，然后遍历该数组。
+为了能够在迭代期间添加/删除节点，请使用此方法将 节点复制到固定大小的数组中，然后迭代该数组。
 
 ## 例子
 

@@ -18,7 +18,7 @@ public WrapSide WrapSide { get; set; }
 
 ## 评论
 
-默认值为Both.
+默认值为Both。
 
 仅对顶级形状有效。
 

@@ -3,14 +3,14 @@ title: Shading.BackgroundPatternColor
 linktitle: BackgroundPatternColor
 articleTitle: BackgroundPatternColor
 second_title: 用于 .NET 的 Aspose.Words
-description: Shading BackgroundPatternColor 财产. 获取或设置应用于 Shading 对象背景的颜色 在 C#.
+description: Shading BackgroundPatternColor 财产. 获取或设置应用于背景的颜色Shading对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-获取或设置应用于 Shading 对象背景的颜色。
+获取或设置应用于背景的颜色[`Shading`](../)对象.
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }

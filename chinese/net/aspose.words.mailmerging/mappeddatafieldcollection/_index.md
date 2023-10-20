@@ -3,14 +3,16 @@ title: MappedDataFieldCollection Class
 linktitle: MappedDataFieldCollection
 articleTitle: MappedDataFieldCollection
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.MailMerging.MappedDataFieldCollection 班级. 允许在数据源中的字段名称 和文档中的邮件合并字段名称之间自动映射 在 C#.
+description: Aspose.Words.MailMerging.MappedDataFieldCollection 班级. 允许在数据源 中的字段名称与文档中的邮件合并字段名称之间自动映射 在 C#.
 type: docs
 weight: 3870
 url: /zh/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-允许在数据源中的字段名称 和文档中的邮件合并字段名称之间自动映射。
+允许在数据源 中的字段名称与文档中的邮件合并字段名称之间自动映射。
+
+要了解更多信息，请访问[邮件合并和报告](https://docs.aspose.com/words/net/mail-merge-and-reporting/)文档文章。
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -20,27 +22,27 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | 获取集合中包含的元素数。 |
-| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | 获取或设置与指定邮件合并字段关联的数据源中的字段名称。 |
+| [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | 获取集合中包含的元素数量。 |
+| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | 获取或设置数据源中与指定邮件合并字段关联的字段名称。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | 添加一个新的字段映射。 |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | 添加新字段映射。 |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | 从集合中删除所有元素。 |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | 确定集合中是否存在来自文档中指定字段的映射。 |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | 确定集合中是否存在文档中指定字段的映射。 |
 | [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | 确定集合中是否存在来自数据源中指定字段的映射。 |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | 返回一个字典枚举器对象，可用于迭代集合中的所有项目。 |
 | [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | 删除字段映射。 |
 
 ## 评论
 
-这是作为字符串值的字符串键集合实现的。 键是文档中邮件合并字段的名称，而 values 是数据源中字段的名称。
+这是作为字符串键到字符串值的集合来实现的。 键是文档中邮件合并字段的名称，值 是数据源中字段的名称。
 
 ## 例子
 
-显示如何映射具有不同名称的数据列和 MERGEFIELD，以便在邮件合并期间在它们之间传输数据。
+演示如何映射具有不同名称的数据列和 MERGEFIELD，以便在邮件合并期间在它们之间传输数据。
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -48,10 +50,10 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // 该表有一个名为“Column2”的列，但没有具有该名称的 MERGEFIELD。
+    // 该表有一列名为“Column2”，但没有具有该名称的 MERGEFIELD。
     // 另外，我们有一个名为“Column3”的 MERGEFIELD，但数据源没有具有该名称的列。
     // 如果“Column2”中的数据适合“Column3”MERGEFIELD，
-    // 我们可以将该列名映射到“MappedDataFields”键/值对中的 MERGEFIELD。
+    // 我们可以将该列名称映射到“MappedDataFields”键/值对中的 MERGEFIELD。
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
     // 我们可以像这样将数据源列名称链接到 MERGEFIELD 名称。
@@ -65,12 +67,12 @@ public void MappedDataFieldCollection()
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // 现在如果我们运行这个邮件合并，“Column3”MERGEFIELDs 将从表的“Column2”获取数据。
+    // 现在，如果我们运行此邮件合并，“Column3”MERGEFIELD 将从表的“Column2”中获取数据。
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // 我们可以遍历这个集合中的元素。
+    // 我们可以迭代这个集合中的元素。
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -78,7 +80,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-    // 我们也可以从集合中移除元素。
+    // 我们还可以从集合中删除元素。
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -91,7 +93,7 @@ public void MappedDataFieldCollection()
 
 /// <summary>
 /// 创建一个包含 2 个 MERGEFIELD 的文档，其中一个没有
-/// 来自下面方法的数据表中的对应列。
+/// 通过下面的方法得到数据表中的相应列。
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
 {
@@ -107,7 +109,7 @@ private static Document CreateSourceDocMappedDataFields()
 
 /// <summary>
 /// 创建一个有2列的数据表，其中一列没有
-/// 以上方法对应源文档中的MERGEFIELD。
+/// 上面方法中源文档中对应的MERGEFIELD。
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()
 {

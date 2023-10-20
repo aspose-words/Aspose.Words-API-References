@@ -3,12 +3,14 @@ title: Forms2OleControlCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: 用于 .NET 的 Aspose.Words
-description: Forms2OleControlCollection GetEnumerator 方法.  在 C#.
+description: Forms2OleControlCollection GetEnumerator 方法. 获取枚举器 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/
 ---
 ## Forms2OleControlCollection.GetEnumerator method
+
+获取枚举器。
 
 ```csharp
 public IEnumerator<Forms2OleControl> GetEnumerator()

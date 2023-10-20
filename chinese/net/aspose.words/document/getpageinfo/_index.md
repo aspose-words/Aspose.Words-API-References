@@ -3,14 +3,14 @@ title: Document.GetPageInfo
 linktitle: GetPageInfo
 articleTitle: GetPageInfo
 second_title: 用于 .NET 的 Aspose.Words
-description: Document GetPageInfo 方法. 获取页面大小方向和其他可能对打印或渲染有用的页面信息 在 C#.
+description: Document GetPageInfo 方法. 获取可能对打印或渲染有用的页面大小方向和其他信息 在 C#.
 type: docs
 weight: 610
 url: /zh/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
 
-获取页面大小、方向和其他可能对打印或渲染有用的页面信息。
+获取可能对打印或渲染有用的页面大小、方向和其他信息。
 
 ```csharp
 public PageInfo GetPageInfo(int pageIndex)
@@ -18,7 +18,7 @@ public PageInfo GetPageInfo(int pageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 基于 0 的页面索引。 |
+| pageIndex | Int32 | 从 0 开始的页面索引。 |
 
 ### 也可以看看
 

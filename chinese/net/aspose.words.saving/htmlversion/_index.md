@@ -3,14 +3,14 @@ title: HtmlVersion Enum
 linktitle: HtmlVersion
 articleTitle: HtmlVersion
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.HtmlVersion 枚举. 表示将文档保存到时使用的 HTML 版本Html和 Mhtml格式 在 C#.
+description: Aspose.Words.Saving.HtmlVersion 枚举. 表示保存文档时使用的 HTML 版本Html和 Mhtml格式 在 C#.
 type: docs
 weight: 5120
 url: /zh/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
 
-表示将文档保存到时使用的 HTML 版本Html和 Mhtml格式.
+表示保存文档时使用的 HTML 版本Html和 Mhtml格式.
 
 ```csharp
 public enum HtmlVersion
@@ -25,7 +25,7 @@ public enum HtmlVersion
 
 ## 例子
 
-显示将文档转换为 Xhtml 1.0 过渡标准时如何显示 DOCTYPE 标题。
+演示将文档转换为 Xhtml 1.0 过渡标准时如何显示 DOCTYPE 标题。
 
 ```csharp
 Document doc = new Document();
@@ -67,7 +67,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// 我们的 HTML 文档会有细微的差异以兼容不同的 HTML 版本。
+// 我们的 HTML 文档会有细微的差别，以兼容不同的 HTML 版本。
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

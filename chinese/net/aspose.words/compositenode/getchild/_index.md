@@ -19,22 +19,22 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | NodeType | 指定子节点的类型。 |
-| index | Int32 | 要选择的子节点的从零开始的索引。 也允许负索引并指示从末尾访问， 即 -1 表示最后一个节点。 |
-| isDeep | Boolean | True 以递归方式从所有子节点中选择。 False 仅在直接子节点中选择。有关更多信息，请参阅备注。 |
+| index | Int32 | 要选择的子节点的从零开始的索引。 也允许负索引，表示从末尾开始访问， 即 -1 表示最后一个节点。 |
+| isDeep | Boolean | `真的`递归地从所有子节点中选择； `错误的`仅在直系子代中进行选择。请参阅备注了解更多信息。 |
 
 ### 返回值
 
-匹配条件的子节点，如果没有找到匹配的节点，则返回 null。
+符合条件的子节点或`无效的`如果没有找到匹配的节点。
 
 ## 评论
 
-如果 index 超出范围，则返回 null。
+如果索引超出范围，则`无效的`被返回。
 
-请注意，标记节点 (StructuredDocumentTag和SmartTag) 即使在 isDeep = false 并且为非标记节点类型调用 GetChild 时也会被遍历。例如，如果 para 中的第一次运行包装在 StructuredDocumentTag 中，它仍将由 GetChild(NodeType.Run, 0, false) 返回。
+请注意，标记节点 (StructuredDocumentTag和SmartTag ) 即使在以下情况下也会被遍历*isDeep*=`错误的`和`GetChild`为非标记节点类型调用。例如，如果 para 中的第一次运行被包装在[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)，它仍然会被返回`GetChild`（Run , 0,`错误的`）。
 
 ## 例子
 
-演示如何将表格样式的属性直接应用于表格元素。
+演示如何将表格样式的属性直接应用于表格的元素。
 
 ```csharp
 Document doc = new Document();
@@ -54,36 +54,36 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
 table.Style = tableStyle;
 
-// 此方法涉及表格样式属性，例如我们上面设置的那些。
+// 此方法涉及表格样式属性，例如我们上面设置的属性。
 doc.ExpandTableStylesToDirectFormatting();
 
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ```
 
-显示如何遍历复合节点的子节点集合。
+演示如何遍历复合节点的子节点集合。
 
 ```csharp
 Document doc = new Document();
 
-// 将两个运行和一个形状作为子节点添加到该文档的第一段。
+// 将两个运行和一个形状作为子节点添加到本文档的第一段。
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 请注意，'CustomNodeId' 不会保存到输出文件中，并且仅在节点生命周期内存在。
+// 请注意，“CustomNodeId”不会保存到输出文件中，并且仅在节点生命周期内存在。
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// 遍历段落的直接子元素集合，
+// 遍历该段落的直接子级集合，
 // 并打印我们在其中找到的任何运行或形状。
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -96,6 +96,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

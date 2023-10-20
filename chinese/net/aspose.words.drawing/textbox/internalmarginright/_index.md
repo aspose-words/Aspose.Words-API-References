@@ -3,14 +3,14 @@ title: TextBox.InternalMarginRight
 linktitle: InternalMarginRight
 articleTitle: InternalMarginRight
 second_title: 用于 .NET 的 Aspose.Words
-description: TextBox InternalMarginRight 财产. 以磅为单位指定形状的内右边距 在 C#.
+description: TextBox InternalMarginRight 财产. 指定形状的内部右边距以磅为单位 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/textbox/internalmarginright/
 ---
 ## TextBox.InternalMarginRight property
 
-以磅为单位指定形状的内右边距。
+指定形状的内部右边距（以磅为单位）。
 
 ```csharp
 public double InternalMarginRight { get; set; }
@@ -22,7 +22,7 @@ public double InternalMarginRight { get; set; }
 
 ## 例子
 
-显示如何设置文本框的内部边距。
+演示如何设置文本框的内部边距。
 
 ```csharp
 Document doc = new Document();

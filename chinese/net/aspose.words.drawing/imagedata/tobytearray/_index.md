@@ -18,7 +18,7 @@ public byte[] ToByteArray()
 
 ## 评论
 
-如果图像已链接，则每次调用时都会下载图像。
+如果图像已链接，则每次调用时都会下载该图像。
 
 ## 例子
 
@@ -26,7 +26,6 @@ public byte[] ToByteArray()
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

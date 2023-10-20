@@ -3,14 +3,14 @@ title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: 用于 .NET 的 Aspose.Words
-description: FontSourceBase WarningCallback 财产. 当检测到可能导致格式保真度丢失的问题时在处理字体源期间调用 在 C#.
+description: FontSourceBase WarningCallback 财产. 在处理字体源期间检测到可能导致格式保真度损失的问题时调用 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+在处理字体源期间检测到可能导致格式保真度损失的问题时调用。
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,10 +18,9 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## 例子
 
-显示在使用字体源时如何调用警告回调。
+展示了当字体源工作时如何调用警告回调。
 
 ```csharp
-[Test]
 public void FontSourceWarning()
 {
     FontSettings settings = new FontSettings();
@@ -31,7 +30,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // 获取要调用警告回调的字体列表。
+    // 获取调用警告回调的字体列表。
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -41,7 +40,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// 在处理字体源时每次出现警告时调用。
+    /// 处理字体源期间每次出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

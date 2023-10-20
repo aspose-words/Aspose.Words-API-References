@@ -3,14 +3,14 @@ title: ImageData.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: 用于 .NET 的 Aspose.Words
-description: ImageData HasImage 财产. 如果形状具有图像字节或链接图像则返回 true 在 C#.
+description: ImageData HasImage 财产. 返回真的如果形状具有图像字节或链接图像 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-如果形状具有图像字节或链接图像，则返回 true。
+返回`真的`如果形状具有图像字节或链接图像。
 
 ```csharp
 public bool HasImage { get; }
@@ -18,16 +18,16 @@ public bool HasImage { get; }
 
 ## 例子
 
-显示如何将文档中的所有图像保存到文件系统。
+演示如何将文档中的所有图像保存到文件系统。
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// 设置了“HasImage”标志的形状存储并显示所有文档的图像。
+// 设置了“HasImage”标志的形状存储并显示文档的所有图像。
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-//遍历每个形状并保存其图像。
+// 遍历每个形状并保存其图像。
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

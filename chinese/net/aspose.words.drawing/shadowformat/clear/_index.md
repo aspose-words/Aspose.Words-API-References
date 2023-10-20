@@ -16,6 +16,21 @@ url: /zh/net/aspose.words.drawing/shadowformat/clear/
 public void Clear()
 ```
 
+## 例子
+
+展示如何使用形状的阴影格式。
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
+
 ### 也可以看看
 
 * class [ShadowFormat](../)

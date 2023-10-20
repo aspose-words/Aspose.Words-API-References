@@ -23,25 +23,25 @@ public class FrameFormat
 | [Height](../../aspose.words/frameformat/height/) { get; } | 获取指定框架的高度。 |
 | [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | 获取确定指定框架高度的规则。 |
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | 获取指定帧的水平对齐方式。 |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | 获取框架与周围文本之间的水平距离，以磅为单位。 |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | 获取框架边缘与由[`RelativeHorizontalPosition`](./relativehorizontalposition/)属性. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | 如果段落是框架，则返回 true。 |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | 获取框架与周围文本之间的水平距离（以磅为单位）。 |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | 获取框架边缘与指定项目之间的水平距离[`RelativeHorizontalPosition`](./relativehorizontalposition/)属性. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | 返回`真的`如果该段落是一个框架. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | 获取帧的相对水平位置。 |
 | [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | 获取帧的相对垂直位置。 |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | 获取指定帧的垂直对齐方式。 |
 | [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | 指定框架与周围文本之间的垂直距离（以磅为单位）。 |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | 获取框架边缘和由[`RelativeVerticalPosition`](./relativeverticalposition/)属性. |
-| [Width](../../aspose.words/frameformat/width/) { get; } | 获取指定帧的宽度，以磅为单位。 |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | 获取框架边缘与指定项目之间的垂直距离[`RelativeVerticalPosition`](./relativeverticalposition/)属性. |
+| [Width](../../aspose.words/frameformat/width/) { get; } | 获取指定框架的宽度，以磅为单位。 |
 
 ## 评论
 
-始终创建此对象。如果一个段落是一个框架，那么所有属性都将包含各自的值，否则 所有属性都设置为其默认值。
+这个对象总是被创建的。如果段落是框架，则所有属性都将包含各自的值，否则 所有属性都将设置为其默认值。
 
-利用[`IsFrame`](./isframe/)检查段落是否为框架。
+使用[`IsFrame`](./isframe/)检查段落是否为框架。
 
 ## 例子
 
-显示如何获取有关作为框架的段落的格式属性的信息。
+演示如何获取有关框架段落的格式设置属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

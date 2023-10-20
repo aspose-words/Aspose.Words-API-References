@@ -3,14 +3,14 @@ title: WebExtension.AlternateReferences
 linktitle: AlternateReferences
 articleTitle: AlternateReferences
 second_title: 用于 .NET 的 Aspose.Words
-description: WebExtension AlternateReferences 财产. 指定对 Web 扩展的替代引用 在 C#.
+description: WebExtension AlternateReferences 财产. 指定对 Web 扩展的备用引用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/webextension/alternatereferences/
 ---
 ## WebExtension.AlternateReferences property
 
-指定对 Web 扩展的替代引用。
+指定对 Web 扩展的备用引用。
 
 ```csharp
 public WebExtensionReferenceCollection AlternateReferences { get; }

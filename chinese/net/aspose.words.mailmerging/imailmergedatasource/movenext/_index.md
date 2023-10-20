@@ -18,11 +18,11 @@ public bool MoveNext()
 
 ### 返回值
 
-如果成功移动到下一条记录，则为真。如果到达数据源的末尾，则为 False。
+`真的`如果成功移动到下一条记录；`错误的`如果到达数据源末尾。
 
 ## 例子
 
-展示如何使用自定义对象形式的数据源执行邮件合并。
+演示如何使用自定义对象形式的数据源执行邮件合并。
 
 ```csharp
 public void CustomDataSource()
@@ -33,11 +33,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // 要使用自定义对象作为数据源，它必须实现 IMailMergeDataSource 接口。 
+     // 要使用自定义对象作为数据源，它必须实现 IMailMergeDataSource 接口。
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -61,8 +63,8 @@ public class Customer
 }
 
 /// <summary>
-/// 您实现的自定义邮件合并数据源以允许 Aspose.Words 
-/// 将您的客户对象中的合并数据邮寄到 Microsoft Word 文档中。
+ /// 您实现的自定义邮件合并数据源以允许 Aspose.Words
+/// 将客户对象中的数据通过邮件合并到 Microsoft Word 文档中。
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -75,7 +77,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
+    /// 数据源的名称。仅在对可重复区域执行邮件合并时由 Aspose.Words 使用。
     /// </summary>
     public string TableName
     {
@@ -96,15 +98,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // 向 Aspose.Words 邮件合并引擎返回“false”以表示
-                // 我们找不到具有此名称的字段。
+                // 返回“false”给Aspose.Words邮件合并引擎来表示
+                // 我们找不到具有该名称的字段。
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// 移动到集合中的下一条记录的标准实现。
+    /// 移动到集合中下一条记录的标准实现。
     /// </summary>
     public bool MoveNext()
     {

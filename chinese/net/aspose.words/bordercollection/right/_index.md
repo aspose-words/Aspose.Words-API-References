@@ -18,7 +18,7 @@ public Border Right { get; }
 
 ## 例子
 
-展示如何在构建表格时应用边框和底纹颜色。
+演示如何在构建表格时应用边框和底纹颜色。
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// 创建一个包含两个具有不同背景颜色的单元格的行。
+// 创建一行，其中包含两个具有不同背景颜色的单元格。
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -38,7 +38,7 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // 重置单元格格式以禁用背景颜色
-// 为构建器创建的所有新单元格设置自定义边框粗细，
+// 为构建器创建的所有新单元格设置自定义边框厚度，
 // 然后构建第二行。
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;

@@ -20,13 +20,13 @@ public enum HtmlOfficeMathOutputMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Image | `0` | OfficeMath 转换为 HTML 作为 &lt;img&gt; 标记指定的图像。 |
+| Image | `0` | OfficeMath 转换为 HTML，作为 &lt;img&gt; 标记指定的图像。 |
 | MathML | `1` | OfficeMath 使用 MathML 转换为 HTML。 |
-| Text | `2` | OfficeMath 被转换为 HTML 作为由 &lt;span&gt; 标签指定的运行序列。 |
+| Text | `2` | OfficeMath 作为 &lt;span&gt; 标记指定的运行序列转换为 HTML。 |
 
 ## 例子
 
-演示如何指定如何将 Microsoft OfficeMath 对象导出为 HTML。
+显示如何指定如何将 Microsoft OfficeMath 对象导出为 HTML。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -34,7 +34,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 // 当我们将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象
 // 确定保存操作如何处理 OfficeMath 对象。
 // 将“OfficeMathOutputMode”属性设置为“HtmlOfficeMathOutputMode.Image”
-// 将每个 OfficeMath 对象渲染成图像。
+// 将把每个 OfficeMath 对象渲染成图像。
 // 将“OfficeMathOutputMode”属性设置为“HtmlOfficeMathOutputMode.MathML”
 // 将每个 OfficeMath 对象转换为 MathML。
 // 将“OfficeMathOutputMode”属性设置为“HtmlOfficeMathOutputMode.Text”

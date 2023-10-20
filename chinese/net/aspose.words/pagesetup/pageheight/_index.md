@@ -3,14 +3,14 @@ title: PageSetup.PageHeight
 linktitle: PageHeight
 articleTitle: PageHeight
 second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup PageHeight 财产. 以磅为单位返回或设置页面高度 在 C#.
+description: PageSetup PageHeight 财产. 返回或设置页面的高度以磅为单位 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
 
-以磅为单位返回或设置页面高度。
+返回或设置页面的高度（以磅为单位）。
 
 ```csharp
 public double PageHeight { get; set; }
@@ -24,14 +24,14 @@ public double PageHeight { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将图像插入到页眉中，以便在每个页面上都可见。
+// 将图像插入页眉中，以便它在每个页面上都可见。
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// 将图片放在页面的中心。
+// 将图像放置在页面的中心。
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -46,7 +46,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将图像插入到页眉中，以便在每个页面上都可见。
+// 将图像插入页眉中，以便它在每个页面上都可见。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
@@ -56,7 +56,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // 将图片放在页面的中心。
+    // 将图像放置在页面的中心。
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;

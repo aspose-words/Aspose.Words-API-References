@@ -18,20 +18,19 @@ public void Notify(DocumentLoadingArgs args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | DocumentLoadingArgs | 事件的论据。 |
+| args | DocumentLoadingArgs | 事件的一个论点。 |
 
 ## 评论
 
-此接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
+该接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
 
-应该从进度回调中抛出异常以进行中止，并且应该在消费者代码中捕获该异常。
+应该从中止的进度回调中抛出异常，并且应该在消费者代码中捕获该异常。
 
 ## 例子
 
-显示如何在文档加载超出预期加载时间时通知用户。
+演示如何在文档加载超出预期加载时间时通知用户。
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -56,7 +55,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// 中心。
+    /// Ctr。
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -64,7 +63,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载过程中调用的回调方法。
+    /// 文档加载期间调用的回调方法。
     /// </summary>
     /// <param name="args">加载参数。</param>
     public void Notify(DocumentLoadingArgs args)
@@ -77,7 +76,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 开始加载文档的日期和时间。
+    /// 文档加载开始的日期和时间。
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

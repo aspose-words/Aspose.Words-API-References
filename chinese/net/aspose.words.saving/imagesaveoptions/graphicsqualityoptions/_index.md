@@ -18,13 +18,13 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 ## 评论
 
-使用此属性覆盖 Aspose.Words 引擎默认提供的图形设置。
+使用此属性可以覆盖 Aspose.Words 引擎默认提供的图形设置。
 
-只有在将文档保存为类似图像的格式时才会生效。
+仅当文档保存为类似图像的格式时才会生效。
 
 ## 例子
 
-展示如何在将文档转换为图像格式时设置渲染质量选项。
+演示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

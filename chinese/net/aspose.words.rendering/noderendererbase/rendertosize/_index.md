@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
 second_title: 用于 .NET 的 Aspose.Words
-description: NodeRendererBase RenderToSize 方法. 将形状渲染为Graphics 对象到指定的大小 在 C#.
+description: NodeRendererBase RenderToSize 方法. 将形状渲染为Graphics 对象到指定大小 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-将形状渲染为Graphics 对象到指定的大小。
+将形状渲染为Graphics 对象到指定大小。
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -19,20 +19,21 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | graphics | Graphics | 渲染到的对象。 |
-| x | Single | 渲染形状左上角的 X 坐标（以世界单位为单位）。 |
-| y | Single | 渲染形状左上角的 Y 坐标（以世界单位为单位）。 |
+| x | Single | 渲染形状左上角的 X 坐标（以世界单位表示）。 |
+| y | Single | 渲染形状左上角的 Y 坐标（以世界单位表示）。 |
 | width | Single | 渲染形状可以占据的最大宽度（以世界单位为单位）。 |
 | height | Single | 渲染形状可以占据的最大高度（以世界单位为单位）。 |
 
 ### 返回值
 
-为渲染形状自动计算以适合指定大小的比例。
+自动计算渲染形状以适合指定尺寸的比例。
 
 ## 例子
 
-演示如何使用 Graphics 对象呈现形状并使用 Windows 窗体显示它。
+演示如何使用 Graphics 对象渲染形状并使用 Windows 窗体显示它。
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -130,6 +131,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

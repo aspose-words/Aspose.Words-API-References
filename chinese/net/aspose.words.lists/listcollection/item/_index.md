@@ -18,17 +18,15 @@ public List this[int index] { get; }
 
 ## 例子
 
-显示如何验证列表的所有者文档属性。
+演示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

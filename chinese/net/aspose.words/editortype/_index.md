@@ -3,14 +3,14 @@ title: EditorType Enum
 linktitle: EditorType
 articleTitle: EditorType
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.EditorType 枚举. 指定一组可能的别名或编辑组可用作别名 to 确定是否应允许当前用户编辑由文档内可编辑范围定义的单个范围  在 C#.
+description: Aspose.Words.EditorType 枚举. 指定一组可能的别名或编辑组可用作别名来 确定是否允许当前用户编辑由文档中的可编辑范围定义的单个范围  在 C#.
 type: docs
 weight: 1450
 url: /zh/net/aspose.words/editortype/
 ---
 ## EditorType enumeration
 
-指定一组可能的别名（或编辑组），可用作别名 to 确定是否应允许当前用户编辑由文档内可编辑范围定义的单个范围 。
+指定一组可能的别名（或编辑组），可用作别名来 确定是否允许当前用户编辑由文档中的可编辑范围定义的单个范围 。
 
 ```csharp
 public enum EditorType
@@ -20,19 +20,19 @@ public enum EditorType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Unspecified | `0` | 表示没有指定编辑器类型。 |
-| Administrators | `1` | 指定当启用文档保护时，应允许与管理员组关联的用户使用 此编辑类型编辑可编辑范围。 |
-| Contributors | `2` | 指定当启用文档保护时，应允许与贡献者组关联的用户使用 此编辑类型编辑可编辑范围。 |
-| Current | `3` | 指定当启用文档保护时，应允许与当前组关联的用户使用 this 编辑类型编辑可编辑范围。 |
-| Editors | `4` | 指定当启用文档保护时，应允许与 Editors 组关联的用户使用 this 编辑类型编辑可编辑范围。 |
-| Everyone | `5` | 指定在启用文档保护时，应允许所有打开文档的用户使用此 editor 类型编辑可编辑范围。 |
+| Unspecified | `0` | 表示未指定编辑器类型。 |
+| Administrators | `1` | 指定在启用文档保护时，应允许与管理员组关联的用户使用 此编辑类型来编辑可编辑范围。 |
+| Contributors | `2` | 指定在启用文档保护时，应允许与贡献者组关联的用户使用 此编辑类型来编辑可编辑范围。 |
+| Current | `3` | 指定在启用文档保护时，应允许与当前组关联的用户使用 this 编辑类型编辑可编辑范围。 |
+| Editors | `4` | 指定在启用文档保护时，应允许与 Editors 组关联的用户使用 this 编辑类型编辑可编辑范围。 |
+| Everyone | `5` | 指定当启用文档保护时，应允许所有打开文档的用户使用此编辑 类型编辑可编辑范围。 |
 | None | `6` | 指定在启用文档保护时，不允许任何打开文档的用户使用此编辑类型编辑可编辑范围 。 |
-| Owners | `7` | 指定当启用文档保护时，应允许与 Owners 组关联的用户使用 this 编辑类型编辑可编辑范围。 |
-| Default | `0` | 同Unspecified. |
+| Owners | `7` | 指定在启用文档保护时，应允许与 Owners 组关联的用户使用 this 编辑类型编辑可编辑范围。 |
+| Default | `0` | 与相同Unspecified. |
 
 ## 例子
 
-显示如何将可编辑范围的编辑权限限制为特定组/用户。
+展示如何将可编辑范围的编辑权限限制为特定组/用户。
 
 ```csharp
 public void Visitor()
@@ -45,7 +45,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种相互排斥的方法可以缩小允许的编辑器列表。
+    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 在字符串中收集访问过的可编辑范围的属性和内容。
+/// 收集字符串中访问过的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

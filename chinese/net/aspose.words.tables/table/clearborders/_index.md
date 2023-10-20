@@ -3,14 +3,14 @@ title: Table.ClearBorders
 linktitle: ClearBorders
 articleTitle: ClearBorders
 second_title: 用于 .NET 的 Aspose.Words
-description: Table ClearBorders 方法. 删除此表上的所有表和单元格边框 在 C#.
+description: Table ClearBorders 方法. 删除此表上的所有表格和单元格边框 在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
 
-删除此表上的所有表和单元格边框。
+删除此表上的所有表格和单元格边框。
 
 ```csharp
 public void ClearBorders()
@@ -18,7 +18,7 @@ public void ClearBorders()
 
 ## 例子
 
-显示如何将轮廓边框应用于表格。
+演示如何将轮廓边框应用到表格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -31,7 +31,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// 为表格的轮廓添加绿色边框。
+// 将绿色边框添加到表格的轮廓。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
@@ -43,7 +43,7 @@ table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ```
 
-显示如何从表格中删除所有边框。
+演示如何删除表格中的所有边框。
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +66,7 @@ Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 table.ClearBorders();
 doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 
-// 重新打开文档后验证表格属性的值。
+// 重新打开文档后验证表属性的值。
 doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
 table = doc.FirstSection.Body.Tables[0];
 topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];

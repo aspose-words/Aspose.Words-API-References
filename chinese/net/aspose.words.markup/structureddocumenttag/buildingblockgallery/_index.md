@@ -3,14 +3,14 @@ title: StructuredDocumentTag.BuildingBlockGallery
 linktitle: BuildingBlockGallery
 articleTitle: BuildingBlockGallery
 second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag BuildingBlockGallery 财产. 为此指定构建块的类型SDT 不能为空 在 C#.
+description: StructuredDocumentTag BuildingBlockGallery 财产. 指定构建块的类型特殊测试. 不能无效的 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-为此指定构建块的类型**SDT** 不能为空。
+指定构建块的类型**特殊测试**. 不能`无效的`.
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -18,13 +18,13 @@ public string BuildingBlockGallery { get; set; }
 
 ## 评论
 
-访问此属性仅适用于BuildingBlockGallery和 DocPartObj SDT 类型。它是只读的**SDT**文档部分类型的.
+访问该属性仅适用于BuildingBlockGallery和 DocPartObjSDT 类型。它是只读的**特殊测试**文档部分类型的。
 
-对于所有其他 SDT 类型，将发生异常。
+对于所有其他 SDT 类型，都会发生异常。
 
 ## 例子
 
-展示如何插入结构化文档标签作为构建块，并设置其类别和图库。
+演示如何插入结构化文档标签作为构建块，并设置其类别和库。
 
 ```csharp
 Document doc = new Document();

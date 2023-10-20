@@ -18,7 +18,7 @@ public string TemplateName { get; set; }
 
 ## 评论
 
-该属性由[`FieldTemplate`](../../fieldtemplate/)字段如果[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)属性为空。
+该属性由[`FieldTemplate`](../../fieldtemplate/)字段如果[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)财产是空的。
 
 如果该属性为空，则默认模板文件名`正常.dotm`用来。
 

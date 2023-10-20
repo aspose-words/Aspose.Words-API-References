@@ -3,12 +3,14 @@ title: DocumentBase.Document
 linktitle: Document
 articleTitle: Document
 second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBase Document 财产.  在 C#.
+description: DocumentBase Document 财产. 获取此实例 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/documentbase/document/
 ---
 ## DocumentBase.Document property
+
+获取此实例。
 
 ```csharp
 public override DocumentBase Document { get; }

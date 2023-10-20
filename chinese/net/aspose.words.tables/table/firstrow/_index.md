@@ -3,14 +3,14 @@ title: Table.FirstRow
 linktitle: FirstRow
 articleTitle: FirstRow
 second_title: 用于 .NET 的 Aspose.Words
-description: Table FirstRow 财产. 返回第一个排表中的节点 在 C#.
+description: Table FirstRow 财产. 返回第一个Row表中的节点 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-返回第一个**排**表中的节点。
+返回第一个[`Row`](../../row/)表中的节点.
 
 ```csharp
 public Row FirstRow { get; }
@@ -38,7 +38,7 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-显示如何将两个表中的行合并为一个。
+演示如何将两个表中的行合并为一个表。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

@@ -3,14 +3,14 @@ title: PageLayoutCallbackArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: 用于 .NET 的 Aspose.Words
-description: PageLayoutCallbackArgs PageIndex 财产. 获取与此事件相关的文档中页面的从 0 开始的索引 如果没有关联的页面或者如果页面在重排期间被删除则返回负值 在 C#.
+description: PageLayoutCallbackArgs PageIndex 财产. 获取与此事件相关的文档中页面的从 0 开始的索引 如果没有关联页面或者页面在重排期间被删除则返回负值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
 ## PageLayoutCallbackArgs.PageIndex property
 
-获取与此事件相关的文档中页面的从 0 开始的索引。 如果没有关联的页面，或者如果页面在重排期间被删除，则返回负值。
+获取与此事件相关的文档中页面的从 0 开始的索引。 如果没有关联页面，或者页面在重排期间被删除，则返回负值。
 
 ```csharp
 public int PageIndex { get; }
@@ -21,7 +21,6 @@ public int PageIndex { get; }
 展示如何使用布局回调跟踪布局更改。
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -38,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// 当我们将文档保存为固定页面格式时通知我们
-/// 并渲染一个页面，我们在本地文件系统中的图像上执行页面回流。
+/// 并渲染一个页面，我们将其执行页面回流到本地文件系统中的图像。
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

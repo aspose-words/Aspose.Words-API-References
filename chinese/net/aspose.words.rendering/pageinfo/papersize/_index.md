@@ -3,14 +3,14 @@ title: PageInfo.PaperSize
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: 用于 .NET 的 Aspose.Words
-description: PageInfo PaperSize 财产. 以枚举的形式获取纸张大小 在 C#.
+description: PageInfo PaperSize 财产. 获取纸张尺寸作为枚举 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.rendering/pageinfo/papersize/
 ---
 ## PageInfo.PaperSize property
 
-以枚举的形式获取纸张大小。
+获取纸张尺寸作为枚举。
 
 ```csharp
 public PaperSize PaperSize { get; }
@@ -18,13 +18,13 @@ public PaperSize PaperSize { get; }
 
 ## 例子
 
-演示如何打印 Word 文档中每一页的页面大小和方向信息。
+演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 第一部分有 2 页。我们将为每个人分配一个不同的打印机纸盘，
-// 其编号将匹配一种纸张来源。这些来源及其种类会有所不同
+// 第一部分有 2 页。我们将为每台打印机分配一个不同的打印机纸盘，
+// 其编号将与一种纸张来源相匹配。这些来源及其种类会有所不同
 // 取决于安装的打印机驱动程序。
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

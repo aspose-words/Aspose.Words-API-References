@@ -3,14 +3,14 @@ title: PdfSaveOptions.EmbedFullFonts
 linktitle: EmbedFullFonts
 articleTitle: EmbedFullFonts
 second_title: 用于 .NET 的 Aspose.Words
-description: PdfSaveOptions EmbedFullFonts 财产. 控制字体如何嵌入到生成的 PDF 文档中 在 C#.
+description: PdfSaveOptions EmbedFullFonts 财产. 控制如何将字体嵌入到生成的 PDF 文档中 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 ---
 ## PdfSaveOptions.EmbedFullFonts property
 
-控制字体如何嵌入到生成的 PDF 文档中。
+控制如何将字体嵌入到生成的 PDF 文档中。
 
 ```csharp
 public bool EmbedFullFonts { get; set; }
@@ -18,15 +18,15 @@ public bool EmbedFullFonts { get; set; }
 
 ## 评论
 
-默认值为`错误的`，这意味着在嵌入之前对字体进行子集化。 如果要保持输出文件更小，子集化很有用。子集从字体中删除 all 未使用的字形。
+默认值为`错误的`，这意味着在嵌入之前对字体进行子集化。 如果您想让输出文件大小保持较小，子集化很有用。子集化会从字体中删除 all 未使用的字形。
 
-当此值设置为`真的`，一个完整的字体文件被嵌入到 PDF 中，没有 子集。这将导致更大的输出文件，但当您想要 稍后编辑生成的 PDF（例如添加更多文本）时，这可能是一个有用的选项。
+当该值设置为`真的`，将完整的字体文件嵌入到 PDF 中，无需 子集化。这将导致输出文件更大，但当您想要稍后编辑生成的 PDF（例如添加更多文本）时，这可能是一个有用的选项。
 
-一些字体很大（几兆字节）并且在没有 subsetting 的情况下嵌入它们会导致输出文档很大。
+有些字体很大（几兆字节），在不使用 subsetting 的情况下嵌入它们将导致输出文档很大。
 
 ## 例子
 
-演示如何在将文档呈现为 PDF 时嵌入字体时启用或禁用子集。
+演示如何在将文档渲染为 PDF 时嵌入字体时启用或禁用子集化。
 
 ```csharp
 Document doc = new Document();
@@ -46,15 +46,15 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改该方法如何将文档转换为 .PDF。
+// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 由于我们的文档包含自定义字体，因此可能需要嵌入到输出文档中。
 // 将“EmbedFullFonts”属性设置为“true”以在输出 PDF 中嵌入每个嵌入字体的每个字形。
-// 文档的大小可能会变得非常大，但如果我们编辑 PDF，我们将充分利用所有字体。
-// 将“EmbedFullFonts”属性设置为“false”以对字体应用子集，只保存字形
-// 文档正在使用。文件会小很多，
+// 文档的大小可能会变得很大，但是如果我们编辑PDF，我们将充分利用所有字体。
+// 将“EmbedFullFonts”属性设置为“false”以对字体应用子集化，仅保存字形
+// 该文档正在使用。文件将会小得多，
 // 但如果我们编辑文档，我们可能需要访问任何自定义字体。
 options.EmbedFullFonts = embedFullFonts;
 

@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.Name
 linktitle: Name
 articleTitle: Name
 second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeRegionInfo Name 财产. 返回区域的名称 在 C#.
+description: MailMergeRegionInfo Name 财产. 返回区域名称 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/name/
 ---
 ## MailMergeRegionInfo.Name property
 
-返回区域的名称。
+返回区域名称。
 
 ```csharp
 public string Name { get; }
@@ -18,7 +18,7 @@ public string Name { get; }
 
 ## 例子
 
-显示如何验证邮件合并区域。
+演示如何验证邮件合并区域。
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -35,7 +35,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// 在第一个顶部区域中获取嵌套区域。
+// 获取第一个顶部区域中的嵌套区域。
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);

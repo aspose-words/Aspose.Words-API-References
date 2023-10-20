@@ -20,14 +20,15 @@ public enum NodeChangingAction
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Insert | `0` | 正在向树中插入一个节点。 |
+| Insert | `0` | 正在将节点插入树中。 |
 | Remove | `1` | 正在从树中删除一个节点。 |
 
 ## 例子
 
-展示如何使用 NodeChangingCallback 在我们编辑文档树时实时监控文档树的更改。
+演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

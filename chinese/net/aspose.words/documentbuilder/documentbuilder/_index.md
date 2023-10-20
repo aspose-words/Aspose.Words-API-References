@@ -3,14 +3,14 @@ title: DocumentBuilder
 linktitle: DocumentBuilder
 articleTitle: DocumentBuilder
 second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder 构造函数. 初始化这个类的一个新实例 在 C#.
+description: DocumentBuilder 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/documentbuilder/documentbuilder/
 ---
 ## DocumentBuilder() {#constructor}
 
-初始化这个类的一个新实例。
+初始化此类的新实例。
 
 ```csharp
 public DocumentBuilder()
@@ -18,7 +18,7 @@ public DocumentBuilder()
 
 ## 评论
 
-创建一个新的**文档生成器**对象并将其附加到新的[`Document`](../document/)对象.
+创建一个新的[`DocumentBuilder`](../)对象并将其附加到新的[`Document`](../../document/)对象.
 
 ## 例子
 
@@ -49,7 +49,7 @@ builder.Write("Hello world!");
 
 ## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
-初始化这个类的一个新实例。
+初始化此类的新实例。
 
 ```csharp
 public DocumentBuilder(Document doc)
@@ -57,11 +57,11 @@ public DocumentBuilder(Document doc)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | Document | 要附加到的 Document 对象。 |
+| doc | Document | 这[`Document`](../../document/)要附加到的对象。 |
 
 ## 评论
 
-创建一个新的**文档生成器**对象，附加到指定的[`Document`](../document/)object. 光标位于文档的开头。
+创建一个新的[`DocumentBuilder`](../)对象，附加到指定的[`Document`](../../document/)object. 光标位于文档的开头。
 
 ## 例子
 
@@ -71,11 +71,11 @@ public DocumentBuilder(Document doc)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 指定我们希望第一页、偶数页和奇数页使用不同的页眉和页脚。
+// 指定我们希望首页、偶数页和奇数页使用不同的页眉和页脚。
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// 创建页眉，然后在文档中添加三页以显示每种页眉类型。
+// 创建标题，然后向文档添加三个页面以显示每种标题类型。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -99,15 +99,15 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 为文档的第一页插入目录。
-// 配置表格以拾取具有 1 到 3 级标题的段落。
-// 此外，将其条目设置为将带我们的超链接
-// 在 Microsoft Word 中左键单击时指向标题的位置。
+// 插入文档第一页的目录。
+// 配置表格以选取标题为 1 至 3 级的段落。
+// 此外，将其条目设置为将带我们进入的超链接
+// 在 Microsoft Word 中左键单击时标题的位置。
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // 通过添加带有标题样式的段落来填充目录。
-// 每个级别在 1 到 3 之间的标题都会在表中创建一个条目。
+// 每个级别在 1 到 3 之间的此类标题将在表中创建一个条目。
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

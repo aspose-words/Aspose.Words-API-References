@@ -18,10 +18,10 @@ public bool DisplayBackgroundShape { get; set; }
 
 ## 例子
 
-显示如何在视图选项中隐藏/显示文档背景图像。
+演示如何在视图选项中隐藏/显示文档背景图像。
 
 ```csharp
-// 使用 HTML 字符串创建一个具有纯色背景的新文档。
+// 使用 HTML 字符串创建一个具有平坦背景颜色的新文档。
 const string html = 
 @"<html>
     <body style='background-color: blue'>
@@ -31,12 +31,12 @@ const string html =
 
 Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
-// 文档的源具有纯色背景，
-// 它的存在会将“DisplayBackgroundShape”标志设置为“true”。
+// 文档的源具有平坦的彩色背景，
+// 其存在会将“DisplayBackgroundShape”标志设置为“true”。
 Assert.True(doc.ViewOptions.DisplayBackgroundShape);
 
-// 保持“DisplayBackgroundShape”为“true”，让文档显示背景色。
-// 这可能会影响某些文本颜色以提高可见性。
+// 将“DisplayBackgroundShape”保留为“true”以使文档显示背景颜色。
+// 这可能会影响一些文本颜色以提高可见性。
 // 将“DisplayBackgroundShape”设置为“false”以不显示背景颜色。
 doc.ViewOptions.DisplayBackgroundShape = displayBackgroundShape;
 

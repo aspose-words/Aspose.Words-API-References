@@ -25,7 +25,7 @@ public enum RevisionsView
 
 ## 例子
 
-显示如何在文档的修订视图和原始视图之间切换。
+演示如何在文档的修订视图和原始视图之间切换。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");
@@ -36,7 +36,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// 查看文档对象，就好像所有的修订都被接受一样。目前支持列表标签。
+// 查看文档对象，就好像所有修订都被接受一样。目前支持列表标签。
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

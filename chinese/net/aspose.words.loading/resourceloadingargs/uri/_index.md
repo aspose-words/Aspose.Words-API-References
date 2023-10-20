@@ -10,9 +10,9 @@ url: /zh/net/aspose.words.loading/resourceloadingargs/uri/
 ---
 ## ResourceLoadingArgs.Uri property
 
-用于下载的资源的 URI if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) 返回Default.
+用于下载的资源的 URI if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) 返回Default。
 
-最初它设置为资源的绝对 URI， 但用户可以将其重新定义为任何值。
+最初它被设置为资源的绝对 URI， ，但用户可以将其重新定义为任何值。
 
 ```csharp
 public string Uri { get; set; }

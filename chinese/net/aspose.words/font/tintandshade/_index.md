@@ -18,13 +18,13 @@ public double TintAndShade { get; set; }
 
 ## 评论
 
-此属性的允许值范围为 -1（最暗）到 1（最亮）。 零 (0) 表示中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException.
+此属性允许的值范围为 -1（最暗）到 1（最亮）。 零 (0) 为中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
 
-为具有非主题颜色 的字体对象设置此属性会导致InvalidOperationException.
+设置该属性为[`Font`](../)具有非主题 color 的对象会导致InvalidOperationException。
 
 ## 例子
 
-展示如何创建和使用主题风格。
+展示如何创建和使用主题样式。
 
 ```csharp
 Document doc = new Document();

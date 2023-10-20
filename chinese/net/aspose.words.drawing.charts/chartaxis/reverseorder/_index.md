@@ -3,14 +3,14 @@ title: ChartAxis.ReverseOrder
 linktitle: ReverseOrder
 articleTitle: ReverseOrder
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxis ReverseOrder 财产. 返回或设置一个标志指示轴的值是否应该以相反的顺序显示即 从最大值到最小值 在 C#.
+description: ChartAxis ReverseOrder 财产. 返回或设置一个标志指示轴的值是否应以相反顺序显示即 从最大值到最小值 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.drawing.charts/chartaxis/reverseorder/
 ---
 ## ChartAxis.ReverseOrder property
 
-返回或设置一个标志，指示轴的值是否应该以相反的顺序显示，即 从最大值到最小值。
+返回或设置一个标志，指示轴的值是否应以相反顺序显示，即 从最大值到最小值。
 
 ```csharp
 public bool ReverseOrder { get; set; }
@@ -18,11 +18,11 @@ public bool ReverseOrder { get; set; }
 
 ## 评论
 
-MS Office 2016 新图表不支持该属性。默认值为**错误的**.
+MS Office 2016 新图表不支持该属性。默认值为`错误的`.
 
 ## 例子
 
-显示如何插入图表并修改其轴的外观。
+演示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });

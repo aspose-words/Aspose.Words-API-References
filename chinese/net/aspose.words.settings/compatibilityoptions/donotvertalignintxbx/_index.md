@@ -3,14 +3,14 @@ title: CompatibilityOptions.DoNotVertAlignInTxbx
 linktitle: DoNotVertAlignInTxbx
 articleTitle: DoNotVertAlignInTxbx
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions DoNotVertAlignInTxbx 财产. 忽略文本框中的垂直对齐 在 C#.
+description: CompatibilityOptions DoNotVertAlignInTxbx 财产. 忽略文本框中的垂直对齐方式 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotvertalignintxbx/
 ---
 ## CompatibilityOptions.DoNotVertAlignInTxbx property
 
-忽略文本框中的垂直对齐。
+忽略文本框中的垂直对齐方式。
 
 ```csharp
 public bool DoNotVertAlignInTxbx { get; set; }

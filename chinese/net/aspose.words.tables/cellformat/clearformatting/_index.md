@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## 例子
 
-显示如何将两个表中的行合并为一个。
+演示如何将两个表中的行合并为一个表。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

@@ -3,14 +3,14 @@ title: Field.Format
 linktitle: Format
 articleTitle: Format
 second_title: 用于 .NET 的 Aspose.Words
-description: Field Format 财产. 得到一个FieldFormat提供对字段格式的类型化访问的对象 在 C#.
+description: Field Format 财产. 获得FieldFormat提供对字段格式的类型化访问的对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/field/format/
 ---
 ## Field.Format property
 
-得到一个[`FieldFormat`](../../fieldformat/)提供对字段格式的类型化访问的对象。
+获得[`FieldFormat`](../../fieldformat/)提供对字段格式的类型化访问的对象。
 
 ```csharp
 public FieldFormat Format { get; }
@@ -18,13 +18,13 @@ public FieldFormat Format { get; }
 
 ## 例子
 
-显示如何格式化字段结果。
+展示如何设置字段结果的格式。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档构建器插入一个显示未应用格式的结果的字段。
+// 使用文档生成器插入一个显示未应用格式的结果的字段。
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// 我们可以删除格式以将字段的结果恢复为原始形式。
+// 我们可以删除格式以将字段的结果恢复为其原始形式。
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.ListItems
 linktitle: ListItems
 articleTitle: ListItems
 second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag ListItems 财产. 获取SdtListItemCollection与此相关SDT 在 C#.
+description: StructuredDocumentTag ListItems 财产. 获取SdtListItemCollection与此相关的特殊测试 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-获取[`SdtListItemCollection`](../../sdtlistitemcollection/)与此相关**SDT**
+获取[`SdtListItemCollection`](../../sdtlistitemcollection/)与此相关的**特殊测试**.
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
@@ -18,9 +18,9 @@ public SdtListItemCollection ListItems { get; }
 
 ## 评论
 
-访问此属性仅适用于ComboBox或者DropDownList SDT 类型。
+访问该属性仅适用于ComboBox或者DropDownList SDT 类型。
 
-对于所有其他 SDT 类型，将发生异常。
+对于所有其他 SDT 类型，都会发生异常。
 
 ## 例子
 
@@ -39,7 +39,7 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// 再添加 3 个列表项。使用与第一项不同的构造函数初始化这些项
+// 添加 3 个列表项。使用与第一项不同的构造函数来初始化这些项
 // 显示与其值不同的字符串。
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -65,12 +65,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// 因为我们的下拉控件默认设置为显示被移除的项，所以给它一个要显示的项，它存在。
+// 由于我们的下拉控件默认设置为显示已删除的项目，因此给它一个要显示存在的项目。
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// 使用“清除”方法一次清空整个下拉项集合。
+// 使用“Clear”方法一次性清空整个下拉项集合。
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

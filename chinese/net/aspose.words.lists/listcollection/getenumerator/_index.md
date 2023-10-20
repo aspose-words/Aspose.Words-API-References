@@ -18,7 +18,7 @@ public IEnumerator<List> GetEnumerator()
 
 ## 例子
 
-演示如何使用来自另一个文档的所有列表的示例创建一个文档。
+演示如何使用另一个文档中的所有列表的示例创建文档。
 
 ```csharp
 public void PrintOutAllLists()

@@ -3,14 +3,14 @@ title: CellFormat.WrapText
 linktitle: WrapText
 articleTitle: WrapText
 second_title: 用于 .NET 的 Aspose.Words
-description: CellFormat WrapText 财产. 如果为真则为单元格换行 在 C#.
+description: CellFormat WrapText 财产. 如果真的 单元格文本换行 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-如果为真，则为单元格换行。
+如果`真的` ，单元格文本换行。
 
 ```csharp
 public bool WrapText { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
+// 为文档生成器设置表格格式选项
+// 将它们应用到我们添加的每一行和单元格。
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -51,7 +51,7 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
+// 以及我们随后使用构建器创建的任何新单元格。
 // 这不会影响我们之前添加的单元格。
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// 增加行高以适应垂直文本。
+// 增加行高以适合垂直文本。
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

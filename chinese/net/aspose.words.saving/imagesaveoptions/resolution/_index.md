@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
 
-设置生成图像的水平和垂直分辨率，以每英寸点数为单位。
+设置生成图像的水平和垂直分辨率（以每英寸点数为单位）。
 
 ```csharp
 public float Resolution { set; }
@@ -22,7 +22,7 @@ public float Resolution { set; }
 
 ## 例子
 
-演示如何在将文档呈现为 PNG 时指定分辨率。
+演示如何在将文档渲染为 PNG 时指定分辨率。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // 创建一个“ImageSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+            // 创建一个“ImageSaveOptions”对象，我们可以将其传递给文档的“Save”方法
             // 修改该方法将文档呈现为图像的方式。
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 

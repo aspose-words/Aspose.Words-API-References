@@ -3,14 +3,14 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: 用于 .NET 的 Aspose.Words
-description: BorderCollection Item 财产. 按边框类型检索边框对象 在 C#.
+description: BorderCollection Item 财产. 检索Border按边框类型划分的对象 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-按边框类型检索边框对象。
+检索[`Border`](../../border/)按边框类型划分的对象。
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -18,11 +18,11 @@ public Border this[BorderType borderType] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| borderType | 一个[`BorderType`](../../bordertype/)value 指定要检索的边框类型。 |
+| borderType | A[`BorderType`](../../bordertype/) value 指定要检索的边框的类型。 |
 
 ## 评论
 
-请注意，对于不同的文档元素，并非所有边框都存在。 如果您请求的边框不适用于当前对象，此方法将引发异常。
+请注意，并非所有边框都适用于不同的文档元素。 如果您请求不适用于当前对象的边框，此方法将引发异常。
 
 ## 例子
 
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-按索引检索 Border 对象。
+检索[`Border`](../../border/)按索引的对象.
 
 ```csharp
 public Border this[int index] { get; }
@@ -72,7 +72,7 @@ public Border this[int index] { get; }
 
 ## 例子
 
-显示边框集合如何共享元素。
+展示边框集合如何共享元素。
 
 ```csharp
 Document doc = new Document();
@@ -85,7 +85,6 @@ builder.Write("Paragraph 2.");
 // 这些段落，它们的边框集合共享相同的元素。
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -96,8 +95,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// 仅在第二段更改边框的线条样式后，
-// 边框集合不再共享相同的元素。
+// 在第二段中更改边框的线条样式后，
+// 边界集合不再共享相同的元素。
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

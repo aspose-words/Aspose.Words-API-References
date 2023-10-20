@@ -3,14 +3,14 @@ title: ConditionalStyleCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: 用于 .NET 的 Aspose.Words
-description: ConditionalStyleCollection GetEnumerator 方法. 返回一个可用于迭代集合中所有条件样式的枚举器对象 在 C#.
+description: ConditionalStyleCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有条件样式 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/conditionalstylecollection/getenumerator/
 ---
 ## ConditionalStyleCollection.GetEnumerator method
 
-返回一个可用于迭代集合中所有条件样式的枚举器对象。
+返回一个枚举器对象，可用于迭代集合中的所有条件样式。
 
 ```csharp
 public IEnumerator<ConditionalStyle> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<ConditionalStyle> GetEnumerator()
 
 ## 例子
 
-显示如何使用表格的某些区域样式。
+展示如何使用表格的某些区域样式。
 
 ```csharp
 Document doc = new Document();
@@ -39,9 +39,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是只影响部分表格单元格的格式更改
-// 基于谓词，例如最后一行的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式条件样式的三种方法。
+// 条件样式是仅影响某些表格单元格的格式更改
+// 基于谓词，例如最后一行中的单元格。
+// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -77,7 +77,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// 我们需要通过“StyleOptions”属性自己启用所有其他样式。
+// 我们需要通过“StyleOptions”属性自行启用所有其他样式。
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

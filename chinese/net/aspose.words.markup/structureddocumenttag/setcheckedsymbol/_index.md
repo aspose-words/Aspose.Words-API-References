@@ -19,13 +19,13 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | characterCode | Int32 | 指定符号的字符代码。 |
-| fontName | String | 包含符号的字体的名称。 |
+| fontName | String | 包含符号的字体名称。 |
 
 ## 评论
 
 访问此方法仅适用于CheckboxSDT 类型。
 
-对于所有其他 SDT 类型，将发生异常。
+对于所有其他 SDT 类型，都会发生异常。
 
 ## 例子
 

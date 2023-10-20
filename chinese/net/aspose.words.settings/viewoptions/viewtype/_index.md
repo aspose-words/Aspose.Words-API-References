@@ -18,11 +18,11 @@ public ViewType ViewType { get; set; }
 
 ## 评论
 
-虽然 Aspose.Words 能够读写这个选项，但它的使用是特定于应用程序的。 例如 MS Word 2013 不尊重此选项的值。
+尽管 Aspose.Words 能够读取和写入此选项，但其用法是特定于应用程序的。 例如，MS Word 2013 不尊重此选项的值。
 
 ## 例子
 
-显示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
+演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
 
 ```csharp
 Document doc = new Document();

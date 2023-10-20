@@ -3,14 +3,14 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle BottomPadding 财产. 获取或设置要添加到表格单元格内容下方的空间量以磅为单位 在 C#.
+description: TableStyle BottomPadding 财产. 获取或设置要在表格单元格内容下方添加的空间量以磅为单位 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/tablestyle/bottompadding/
 ---
 ## TableStyle.BottomPadding property
 
-获取或设置要添加到表格单元格内容下方的空间量（以磅为单位）。
+获取或设置要在表格单元格内容下方添加的空间量（以磅为单位）。
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -18,7 +18,7 @@ public double BottomPadding { get; set; }
 
 ## 例子
 
-显示如何为表格创建自定义样式设置。
+演示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

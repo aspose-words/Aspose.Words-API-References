@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertChart
 linktitle: InsertChart
 articleTitle: InsertChart
 second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder InsertChart 方法. 在文档中插入一个图表对象并将其缩放到指定的大小 在 C#.
+description: DocumentBuilder InsertChart 方法. 将图表对象插入到文档中并将其缩放至指定大小 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double*) {#insertchart_1}
 
-在文档中插入一个图表对象并将其缩放到指定的大小。
+将图表对象插入到文档中并将其缩放至指定大小。
 
 ```csharp
 public Shape InsertChart(ChartType chartType, double width, double height)
@@ -28,11 +28,11 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
 ## 例子
 
-显示如何将饼图插入到文档中。
+演示如何将饼图插入文档中。
 
 ```csharp
 Document doc = new Document();
@@ -40,6 +40,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });
@@ -59,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertchart}
 
-在文档中插入一个图表对象并将其缩放到指定的大小。
+将图表对象插入到文档中并将其缩放至指定大小。
 
 ```csharp
 public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos, double left, 
@@ -75,7 +76,7 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
 | width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| wrapType | WrapType | 指定如何在图像周围环绕文本。 |
+| wrapType | WrapType | 指定如何使文本环绕图像。 |
 
 ### 返回值
 
@@ -83,11 +84,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
 ## 例子
 
-显示如何在插入图表时指定位置和换行。
+演示如何在插入图表时指定位置和换行。
 
 ```csharp
 Document doc = new Document();

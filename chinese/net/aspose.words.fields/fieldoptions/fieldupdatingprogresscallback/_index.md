@@ -3,12 +3,14 @@ title: FieldOptions.FieldUpdatingProgressCallback
 linktitle: FieldUpdatingProgressCallback
 articleTitle: FieldUpdatingProgressCallback
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldOptions FieldUpdatingProgressCallback 财产.  在 C#.
+description: FieldOptions FieldUpdatingProgressCallback 财产. 获取或设置IFieldUpdatingProgressCallback实施 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/
 ---
 ## FieldOptions.FieldUpdatingProgressCallback property
+
+获取或设置[`IFieldUpdatingProgressCallback`](../../ifieldupdatingprogresscallback/)实施.
 
 ```csharp
 public IFieldUpdatingProgressCallback FieldUpdatingProgressCallback { get; set; }

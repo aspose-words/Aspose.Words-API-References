@@ -3,14 +3,14 @@ title: CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing
 linktitle: DoNotUseHTMLParagraphAutoSpacing
 articleTitle: DoNotUseHTMLParagraphAutoSpacing
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions DoNotUseHTMLParagraphAutoSpacing 财产. 为 HTML 自动设置使用固定的段落间距 在 C#.
+description: CompatibilityOptions DoNotUseHTMLParagraphAutoSpacing 财产. 使用固定段落间距进行 HTML 自动设置 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/
 ---
 ## CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing property
 
-为 HTML 自动设置使用固定的段落间距。
+使用固定段落间距进行 HTML 自动设置。
 
 ```csharp
 public bool DoNotUseHTMLParagraphAutoSpacing { get; set; }

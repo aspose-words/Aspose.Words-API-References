@@ -3,14 +3,14 @@ title: FontInfoCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: 用于 .NET 的 Aspose.Words
-description: FontInfoCollection Count 财产. 获取集合中包含的元素数 在 C#.
+description: FontInfoCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontinfocollection/count/
 ---
 ## FontInfoCollection.Count property
 
-获取集合中包含的元素数。
+获取集合中包含的元素数量。
 
 ```csharp
 public int Count { get; }
@@ -23,8 +23,8 @@ public int Count { get; }
 ```csharp
 Document doc = new Document();
 
-// 一个空白文档包含 3 种默认字体。文档中的每种字体
-// 将有一个对应的 FontInfo 对象，其中包含有关该字体的详细信息。
+// 空白文档包含 3 种默认字体。文档中的每种字体
+// 将有一个相应的 FontInfo 对象，其中包含有关该字体的详细信息。
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

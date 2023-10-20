@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## 例子
 
-显示如何为柱形图的类别设置单独的格式。
+展示如何为柱形图的类别设置单独的格式。
 
 ```csharp
 Document doc = new Document();

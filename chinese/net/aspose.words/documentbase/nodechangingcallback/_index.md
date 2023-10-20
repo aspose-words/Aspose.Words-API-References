@@ -18,9 +18,10 @@ public INodeChangingCallback NodeChangingCallback { get; set; }
 
 ## 例子
 
-显示如何通过回调自定义节点更改。
+展示如何通过回调自定义节点更改。
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -38,10 +39,11 @@ public INodeChangingCallback NodeChangingCallback { get; set; }
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为 Run 节点的文本内容设置自定义字体名称/大小。
+/// 为运行节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

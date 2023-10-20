@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportRelativeFontSize
 linktitle: ExportRelativeFontSize
 articleTitle: ExportRelativeFontSize
 second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions ExportRelativeFontSize 财产. 指定在保存为 HTMLMHTML 或 EPUB 时是否应以相对单位输出字体大小 默认为错误的 在 C#.
+description: HtmlSaveOptions ExportRelativeFontSize 财产. 指定保存为 HTMLMHTML 或 EPUB 时是否应以相对单位输出字体大小 默认为错误的 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
 ---
 ## HtmlSaveOptions.ExportRelativeFontSize property
 
-指定在保存为 HTML、MHTML 或 EPUB 时是否应以相对单位输出字体大小。 默认为`错误的`.
+指定保存为 HTML、MHTML 或 EPUB 时是否应以相对单位输出字体大小。 默认为`错误的`.
 
 ```csharp
 public bool ExportRelativeFontSize { get; set; }
@@ -18,15 +18,15 @@ public bool ExportRelativeFontSize { get; set; }
 
 ## 评论
 
-在许多现有文档（HTML、IDPF EPUB）中，字体大小以相对单位指定。这允许 应用程序在查看/处理文档时调整文本大小。例如，Microsoft Internet Explorer 有“查看-&gt;文本大小”子菜单，Adobe Digital Editions 有两个按钮：增加/减小文本大小。 如果您希望此功能起作用，请设置`ExportRelativeFontSize`财产`真的`.
+在许多现有文档（HTML、IDPF EPUB）中，字体大小是以相对单位指定的。这允许 应用程序在查看/处理文档时调整文本大小。例如，Microsoft Internet Explorer 有“查看-&gt;文本大小”子菜单，Adobe Digital Editions 有两个按钮：增大/减小文本大小。 如果您希望此功能起作用，则设置`ExportRelativeFontSize`财产给`真的`.
 
-Aspose Words 文档模型包含并且仅使用绝对字体大小单位进行操作。相对单位需要 附加逻辑才能从某个初始（标准）大小重新计算。字体大小**普通的**文档样式 被视为标准。例如，如果**普通的**有 12pt 字体，有些文本是 18pt，那么它将输出 为**1.5em。**到 HTML。
+Aspose Words 文档模型包含并仅使用绝对字体大小单位进行操作。相对单位需要 附加逻辑才能从某些初始（标准）大小重新计算。字体大小为**普通的**文档样式 被视为标准。例如，如果**普通的**有 12pt 字体，有些文本是 18pt 那么它将输出 作为**1.5em。**到 HTML。
 
-启用此选项后，文本以外的文档元素仍将具有绝对大小。还有一些 文本相关的属性可能是绝对表达的。特别是，使用“精确”规则 指定的行距可能会在缩放文本时产生不需要的结果。因此，在导出时应正确设计和测试源文档 `ExportRelativeFontSize`调成`真的`.
+启用此选项后，文本以外的文档元素仍将具有绝对大小。另外，一些 文本相关的属性可能会被绝对地表达。特别是，在缩放文本时，使用“精确”规则 指定的行距可能会产生不需要的结果。因此，在导出时应正确设计和测试源文档 `ExportRelativeFontSize`设置`真的`。
 
 ## 例子
 
-显示保存为 .html 时如何使用相对字体大小。
+演示保存为 .html 时如何使用相对字体大小。
 
 ```csharp
 Document doc = new Document();
@@ -39,11 +39,11 @@ builder.Font.Size = 96;
 builder.Write("8x default font size");
 
 // 当我们将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象
-// 确定是使用相对还是绝对字体大小。
+// 确定是使用相对字体大小还是绝对字体大小。
 // 将“ExportRelativeFontSize”标志设置为“true”以声明字体大小
 // 使用“em”测量单位，它是乘以当前字体大小的因子。
 // 将“ExportRelativeFontSize”标志设置为“false”以声明字体大小
-// 使用“pt”测量单位，即字体的绝对大小（以磅为单位）。
+// 使用“pt”测量单位，这是字体的绝对大小（以磅为单位）。
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRelativeFontSize = exportRelativeFontSize };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RelativeFontSize.html", options);

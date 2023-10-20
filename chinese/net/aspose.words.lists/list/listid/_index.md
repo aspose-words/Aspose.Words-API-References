@@ -18,21 +18,19 @@ public int ListId { get; }
 
 ## 评论
 
-您通常不需要使用此属性。但是如果你使用它，你通常会做 so 与[`GetListByListId`](../../listcollection/getlistbylistid/)通过标识符查找 a 列表的方法。
+您通常不需要使用此属性。但如果你使用它，你通常会与 so 结合使用[`GetListByListId`](../../listcollection/getlistbylistid/)方法通过标识符查找 a 列表。
 
 ## 例子
 
-显示如何验证列表的所有者文档属性。
+演示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -41,7 +39,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-显示如何输出文档中作为列表项的所有段落。
+演示如何输出文档中作为列表项的所有段落。
 
 ```csharp
 Document doc = new Document();

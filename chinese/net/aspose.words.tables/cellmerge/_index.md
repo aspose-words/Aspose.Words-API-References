@@ -21,30 +21,30 @@ public enum CellMerge
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 单元格未合并。 |
-| First | `1` | 单元格是合并单元格范围中的第一个单元格。 |
+| First | `1` | 该单元格是合并单元格范围中的第一个单元格。 |
 | Previous | `2` | 单元格水平或垂直合并到前一个单元格。 |
 
 ## 例子
 
-显示如何水平合并表格单元格。
+演示如何水平合并表格单元格。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 在第一行的第一列中插入一个单元格。
-// 此单元格将是一系列水平合并单元格中的第一个。
+// 将单元格插入第一行的第一列。
+// 该单元格将是一系列水平合并单元格中的第一个。
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// 在第一行的第二列中插入一个单元格。而不是添加文本内容，
-// 我们将把这个单元格与我们直接添加到左边的第一个单元格合并。
+// 将单元格插入第一行的第二列。而不是添加文本内容，
+// 我们将将此单元格与直接添加到左侧的第一个单元格合并。
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// 在第二行再插入两个未合并的单元格。
+// 将另外两个未合并的单元格插入到第二行。
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -85,31 +85,31 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-显示如何垂直合并表格单元格。
+演示如何垂直合并表格单元格。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 在第一行的第一列中插入一个单元格。
-// 此单元格将是一系列垂直合并单元格中的第一个。
+// 将单元格插入第一行的第一列。
+// 该单元格将是一系列垂直合并单元格中的第一个。
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// 在第一行的第二列中插入一个单元格，然后结束该行。
-// 另外，将构建器配置为在创建的单元格中禁用垂直合并。
+// 将一个单元格插入第一行的第二列，然后结束该行。
+// 另外，配置构建器以禁用创建的单元格中的垂直合并。
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// 在第二行的第一列中插入一个单元格。 
+ // 将单元格插入第二行第一列。
 // 我们不会添加文本内容，而是将此单元格与我们在上面直接添加的第一个单元格合并。
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// 在第二行的第二列插入另一个独立的单元格。
+// 在第二行第二列插入另一个独立单元格。
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

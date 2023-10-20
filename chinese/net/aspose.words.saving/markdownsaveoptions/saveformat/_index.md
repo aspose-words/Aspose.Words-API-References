@@ -3,14 +3,14 @@ title: MarkdownSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: 用于 .NET 的 Aspose.Words
-description: MarkdownSaveOptions SaveFormat 财产. 指定使用此保存选项对象时文档将保存的格式 只能是Markdown 在 C#.
+description: MarkdownSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是Markdown 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/markdownsaveoptions/saveformat/
 ---
 ## MarkdownSaveOptions.SaveFormat property
 
-指定使用此保存选项对象时文档将保存的格式。 只能是Markdown.
+指定使用此保存选项对象时保存文档的格式。 只能是Markdown.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

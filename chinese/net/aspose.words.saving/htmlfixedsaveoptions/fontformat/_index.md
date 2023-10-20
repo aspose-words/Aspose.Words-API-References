@@ -18,7 +18,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ## 例子
 
-显示将文档保存为 HTML 时如何仅使用目标计算机中的字体。
+显示将文档保存为 HTML 时如何仅使用目标计算机的字体。
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

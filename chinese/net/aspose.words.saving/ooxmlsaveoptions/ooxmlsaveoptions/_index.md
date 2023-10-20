@@ -3,14 +3,14 @@ title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
 articleTitle: OoxmlSaveOptions
 second_title: 用于 .NET 的 Aspose.Words
-description: OoxmlSaveOptions 构造函数. 初始化此类的新实例该实例可用于将文档保存在Docx格式 在 C#.
+description: OoxmlSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将文档保存在Docx格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-初始化此类的新实例，该实例可用于将文档保存在Docx格式.
+初始化此类的一个新实例，该实例可用于将文档保存在Docx格式.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -18,7 +18,7 @@ public OoxmlSaveOptions()
 
 ## 例子
 
-演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
+演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// 我们保存的文档使用 DML 定义形状以符合“ISO/IEC 29500:2008”OOXML 标准。
+// 我们保存的文档使用 DML 定义形状，以遵守“ISO/IEC 29500:2008”OOXML 标准。
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -58,7 +58,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-初始化此类的新实例，该实例可用于将文档保存在Docx , Docm,Dotx,Dotmor FlatOpc格式.
+初始化此类的一个新实例，该实例可用于将文档保存在Docx, Docm,Dotx,Dotm或 FlatOpc格式.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -66,21 +66,21 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 可Docx,Docm , Dotx,Dotm或者FlatOpc. |
+| saveFormat | SaveFormat | 可Docx,Docm, Dotx,Dotm或者FlatOpc. |
 
 ## 例子
 
-显示在转换为 .docx 时如何支持旧版控制字符。
+演示如何在转换为 .docx 时支持旧控制字符。
 
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // 当我们将文档保存为 OOXML 格式时，我们可以创建一个 OoxmlSaveOptions 对象
-// 然后将它传递给文档的保存方法来修改我们如何保存文档。
+// 然后将其传递给文档的保存方法来修改我们保存文档的方式。
 // 将“KeepLegacyControlChars”属性设置为“true”以保留
-// 保存时的“ShortDateTime”遗留字符。
+// 保存时的“ShortDateTime”旧字符。
 // 将“KeepLegacyControlChars”属性设置为“false”以删除
-// 输出文档中的“ShortDateTime”遗留字符。
+// 输出文档中的“ShortDateTime”旧字符。
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

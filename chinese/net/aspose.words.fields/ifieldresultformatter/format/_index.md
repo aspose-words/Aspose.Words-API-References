@@ -3,14 +3,14 @@ title: IFieldResultFormatter.Format
 linktitle: Format
 articleTitle: Format
 second_title: 用于 .NET 的 Aspose.Words
-description: IFieldResultFormatter Format 方法. 当 Aspose.Words 应用大小写格式开关时调用即  Upper 在 C#.
+description: IFieldResultFormatter Format 方法. 当 Aspose.Words 应用大写格式切换时调用即  Upper 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifieldresultformatter/format/
 ---
 ## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
-当 Aspose.Words 应用大小写格式开关时调用，即 \* Upper.
+当 Aspose.Words 应用大写格式切换时调用，即 \* Upper.
 
 ```csharp
 public string Format(string value, GeneralFormat format)
@@ -18,22 +18,23 @@ public string Format(string value, GeneralFormat format)
 
 ## 评论
 
-实现应该返回**无效的**表示应应用默认格式。
+实现应该返回`无效的`指示应应用默认格式。
 
 ## 例子
 
-显示如何在字段更新时自动将自定义格式应用于字段结果。
+展示如何在更新字段时自动将自定义格式应用于字段结果。
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // 我们的字段结果格式化程序将自定义格式应用于三种格式的新创建字段。
-    // 字段结果格式化程序在字段更新时将新格式应用于字段，
-    // 一旦我们使用这个 InsertField 方法重载创建它们，就会发生这种情况。
+    // 我们的字段结果格式化程序将自定义格式应用于新创建的三种格式的字段。
+    // 字段结果格式化程序在更新字段时应用新的格式，
+    // 一旦我们使用此 InsertField 方法重载创建它们，就会发生这种情况。
     // 1 - 数字：
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -56,8 +57,8 @@ public string Format(string value, GeneralFormat format)
 }
 
 /// <summary>
-/// 当有格式的字段被更新时，这个格式化程序将覆盖它们的格式
-/// 使用自定义格式，同时跟踪每次调用。
+/// 当更新具有格式的字段时，此格式化程序将覆盖它们的格式
+/// 使用自定义格式，同时跟踪每个调用。
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -164,7 +165,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
-当 Aspose.Words 应用数字格式开关时调用，即 \* Ordinal.
+当 Aspose.Words 应用数字格式切换时调用，即 \* Ordinal.
 
 ```csharp
 public string Format(double value, GeneralFormat format)
@@ -172,22 +173,23 @@ public string Format(double value, GeneralFormat format)
 
 ## 评论
 
-实现应该返回**无效的**表示应应用默认格式。
+实现应该返回`无效的`指示应应用默认格式。
 
 ## 例子
 
-显示如何在字段更新时自动将自定义格式应用于字段结果。
+展示如何在更新字段时自动将自定义格式应用于字段结果。
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // 我们的字段结果格式化程序将自定义格式应用于三种格式的新创建字段。
-    // 字段结果格式化程序在字段更新时将新格式应用于字段，
-    // 一旦我们使用这个 InsertField 方法重载创建它们，就会发生这种情况。
+    // 我们的字段结果格式化程序将自定义格式应用于新创建的三种格式的字段。
+    // 字段结果格式化程序在更新字段时应用新的格式，
+    // 一旦我们使用此 InsertField 方法重载创建它们，就会发生这种情况。
     // 1 - 数字：
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -210,8 +212,8 @@ public string Format(double value, GeneralFormat format)
 }
 
 /// <summary>
-/// 当有格式的字段被更新时，这个格式化程序将覆盖它们的格式
-/// 使用自定义格式，同时跟踪每次调用。
+/// 当更新具有格式的字段时，此格式化程序将覆盖它们的格式
+/// 使用自定义格式，同时跟踪每个调用。
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

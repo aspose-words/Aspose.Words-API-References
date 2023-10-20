@@ -3,14 +3,14 @@ title: ChartAxis.DisplayUnit
 linktitle: DisplayUnit
 articleTitle: DisplayUnit
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxis DisplayUnit 财产. 指定数值轴的显示单位的缩放值 在 C#.
+description: ChartAxis DisplayUnit 财产. 指定值轴的显示单位的缩放值 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartaxis/displayunit/
 ---
 ## ChartAxis.DisplayUnit property
 
-指定数值轴的显示单位的缩放值。
+指定值轴的显示单位的缩放值。
 
 ```csharp
 public AxisDisplayUnit DisplayUnit { get; }
@@ -18,11 +18,11 @@ public AxisDisplayUnit DisplayUnit { get; }
 
 ## 评论
 
-该属性仅对数值轴有效。
+该属性仅对值轴有效。
 
 ## 例子
 
-显示如何操作刻度线和图表轴的显示值。
+演示如何操作图表轴的刻度线和显示值。
 
 ```csharp
 Document doc = new Document();
@@ -35,27 +35,27 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
 // 将 Y 轴的小刻度线设置为远离绘图区域，
-// 和跨轴的主要刻度线。
+// 以及与轴交叉的主要刻度线。
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
 
-// 将它们的 Y 轴设置为每 10 个单位显示一个主要刻度，每 1 个单位显示一个次要刻度。
+// 将 Y 轴设置为每 10 个单位显示一个主要刻度，每 1 个单位显示一个次要刻度。
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
-// 将 Y 轴范围设置为 -10 和 20。
-// 这个 Y 轴现在将显示 4 个主要刻度线和 27 个次要刻度线。
+// 将 Y 轴界限设置为 -10 和 20。
+// 此 Y 轴现在将显示 4 个主要刻度线和 27 个次要刻度线。
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 
-// 对于 X 轴，每 10 个单位设置一次主刻度线，
-// 2.5 个单位的每个次要刻度线。
+// 对于 X 轴，每 10 个单位设置一次主要刻度线，
+// 2.5 单位处的每个小刻度线。
 axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// 将两种类型的刻度线配置为出现在图形绘图区域内。
+// 配置两种类型的刻度线以显示在图形绘图区域内。
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
@@ -66,11 +66,11 @@ axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabelSpacing);
 
-// 将刻度标签设置为以百万为单位显示它们的值。
+// 设置刻度标签以显示其值（以百万为单位）。
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// 我们可以设置一个更具体的值，刻度标签将通过该值显示它们的值。
-// 这个语句和上面那个是等价的。
+// 我们可以设置一个更具体的值，刻度标签将通过该值显示其值。
+// 这个语句和上面的语句是等价的。
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```

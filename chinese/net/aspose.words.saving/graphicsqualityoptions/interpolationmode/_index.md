@@ -18,7 +18,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ## 例子
 
-展示如何在将文档转换为图像格式时设置渲染质量选项。
+演示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

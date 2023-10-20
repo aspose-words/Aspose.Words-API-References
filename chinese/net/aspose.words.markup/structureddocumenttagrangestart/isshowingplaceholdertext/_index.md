@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText 财产. 指定此结构化文档标记的内容是否应解释为包含 占位符文本与结构化文档标记中的常规文本内容相反 在 C#.
+description: StructuredDocumentTagRangeStart IsShowingPlaceholderText 财产. 指定是否应将此结构化文档标记的内容解释为包含 占位符文本与结构化文档标记内的常规文本内容相反 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-指定此结构化文档标记的内容是否应解释为包含 占位符文本（与结构化文档标记中的常规文本内容相反）。
+指定是否应将此结构化文档标记的内容解释为包含 占位符文本（与结构化文档标记内的常规文本内容相反）。
 
-如果设置为 true，则在打开此文档时应恢复此状态（显示占位符文本）。
+如果设置为`真的`，打开此文档后应恢复此状态（显示占位符文本）。
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -20,7 +20,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## 例子
 
-显示如何获取多节结构化文档标签的属性。
+演示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

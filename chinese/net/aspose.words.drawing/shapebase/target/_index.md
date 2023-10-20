@@ -22,7 +22,7 @@ public string Target { get; set; }
 
 ## 例子
 
-显示如何插入包含图像的形状，也是超链接。
+演示如何插入包含图像且也是超链接的形状。
 
 ```csharp
 Document doc = new Document();

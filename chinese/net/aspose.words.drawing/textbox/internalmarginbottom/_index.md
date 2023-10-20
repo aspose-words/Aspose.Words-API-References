@@ -3,14 +3,14 @@ title: TextBox.InternalMarginBottom
 linktitle: InternalMarginBottom
 articleTitle: InternalMarginBottom
 second_title: 用于 .NET 的 Aspose.Words
-description: TextBox InternalMarginBottom 财产. 以磅为单位指定形状的内底边距 在 C#.
+description: TextBox InternalMarginBottom 财产. 指定形状的内部底部边距以磅为单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/textbox/internalmarginbottom/
 ---
 ## TextBox.InternalMarginBottom property
 
-以磅为单位指定形状的内底边距。
+指定形状的内部底部边距（以磅为单位）。
 
 ```csharp
 public double InternalMarginBottom { get; set; }
@@ -22,7 +22,7 @@ public double InternalMarginBottom { get; set; }
 
 ## 例子
 
-显示如何设置文本框的内部边距。
+演示如何设置文本框的内部边距。
 
 ```csharp
 Document doc = new Document();

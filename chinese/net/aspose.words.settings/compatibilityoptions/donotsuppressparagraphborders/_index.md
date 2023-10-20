@@ -3,14 +3,14 @@ title: CompatibilityOptions.DoNotSuppressParagraphBorders
 linktitle: DoNotSuppressParagraphBorders
 articleTitle: DoNotSuppressParagraphBorders
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions DoNotSuppressParagraphBorders 财产. 不要抑制框架旁边的段落边框 在 C#.
+description: CompatibilityOptions DoNotSuppressParagraphBorders 财产. 不要隐藏框架旁边的段落边框 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/
 ---
 ## CompatibilityOptions.DoNotSuppressParagraphBorders property
 
-不要抑制框架旁边的段落边框。
+不要隐藏框架旁边的段落边框。
 
 ```csharp
 public bool DoNotSuppressParagraphBorders { get; set; }

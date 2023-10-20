@@ -3,14 +3,14 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: 用于 .NET 的 Aspose.Words
-description: Story Tables 财产. 获取作为故事直接子级的表的集合 在 C#.
+description: Story Tables 财产. 获取作为故事的直接子级的表的集合 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-获取作为故事直接子级的表的集合。
+获取作为故事的直接子级的表的集合。
 
 ```csharp
 public TableCollection Tables { get; }

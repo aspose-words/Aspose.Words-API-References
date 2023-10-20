@@ -18,7 +18,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ## 例子
 
-显示如何使用 FILLIN 字段提示用户做出响应。
+演示如何使用 FILLIN 字段提示用户做出响应。
 
 ```csharp
 public void FieldFillIn()
@@ -26,14 +26,14 @@ public void FieldFillIn()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入一个 FILLIN 字段。当我们在 Microsoft Word 中手动更新此字段时，
-    // 它将提示我们输入响应。然后该字段会将响应显示为文本。
+    // 插入 FILLIN 字段。当我们在 Microsoft Word 中手动更新此字段时，
+    // 它会提示我们输入响应。然后该字段将以文本形式显示响应。
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
 
-    // 我们也可以使用这些字段来询问用户对每个页面的唯一响应
-    // 在使用 Microsoft Word 完成的邮件合并期间创建。
+    // 我们还可以使用这些字段向用户询问每个页面的唯一响应
+    // 在使用 Microsoft Word 完成邮件合并期间创建。
     field.PromptOnceOnMailMerge = true;
 
     Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
@@ -48,9 +48,10 @@ public void FieldFillIn()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
-/// 在邮件合并期间为每个 FILLIN 字段的默认响应添加一行。
+/// 在邮件合并期间，在每个 FILLIN 字段的默认响应前面添加一行。
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

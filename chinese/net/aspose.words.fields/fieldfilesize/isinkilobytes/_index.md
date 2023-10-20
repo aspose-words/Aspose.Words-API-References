@@ -18,7 +18,7 @@ public bool IsInKilobytes { get; set; }
 
 ## 例子
 
-显示如何使用 FILESIZE 字段显示文档的文件大小。
+演示如何使用 FILESIZE 字段显示文档的文件大小。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -29,8 +29,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// 下面是三种不同的度量单位
-// 使用哪个 FILESIZE 字段可以显示文档的文件大小。
+// 下面是三种不同的测量单位
+// FILESIZE 字段可以显示文档的文件大小。
 // 1 - 字节：
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -56,8 +56,8 @@ field.Update();
 Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
-// 在 Microsoft Word 中编辑时更新这些字段的值，
-// 我们必须先保存更改，然后手动更新这些字段。
+// 要在 Microsoft Word 中编辑时更新这些字段的值，
+// 我们必须首先保存更改，然后手动更新这些字段。
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

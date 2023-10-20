@@ -18,9 +18,10 @@ public Node OldParent { get; }
 
 ## 例子
 
-展示如何使用 NodeChangingCallback 在我们编辑文档树时实时监控文档树的更改。
+演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

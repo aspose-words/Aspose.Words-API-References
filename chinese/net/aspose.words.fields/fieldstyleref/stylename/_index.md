@@ -3,14 +3,14 @@ title: FieldStyleRef.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldStyleRef StyleName 财产. 获取或设置要搜索的文本格式的样式名称 在 C#.
+description: FieldStyleRef StyleName 财产. 获取或设置要搜索的文本的格式化样式名称 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldstyleref/stylename/
 ---
 ## FieldStyleRef.StyleName property
 
-获取或设置要搜索的文本格式的样式名称。
+获取或设置要搜索的文本的格式化样式名称。
 
 ```csharp
 public string StyleName { get; set; }
@@ -18,7 +18,7 @@ public string StyleName { get; set; }
 
 ## 例子
 
-显示如何使用 STYLEREF 字段。
+演示如何使用 STYLEREF 字段。
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// 在标题中放置一个 STYLEREF 字段，并在文档中显示第一个“列表段落”样式的文本。
+// 在标题中放置一个 STYLEREF 字段，并显示文档中第一个“List Paragraph”样式的文本。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// 我们也可以使用 STYLEREF 字段来引用列表的列表编号。
+// 我们还可以使用STYLEREF字段来引用列表的列表编号。
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";
@@ -79,6 +79,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

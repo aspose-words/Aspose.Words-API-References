@@ -3,12 +3,14 @@ title: ChartSeries.BubbleSizes
 linktitle: BubbleSizes
 articleTitle: BubbleSizes
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartSeries BubbleSizes 财产.  在 C#.
+description: ChartSeries BubbleSizes 财产. 获取此图表系列的气泡大小的集合 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartseries/bubblesizes/
 ---
 ## ChartSeries.BubbleSizes property
+
+获取此图表系列的气泡大小的集合。
 
 ```csharp
 public BubbleSizeCollection BubbleSizes { get; }

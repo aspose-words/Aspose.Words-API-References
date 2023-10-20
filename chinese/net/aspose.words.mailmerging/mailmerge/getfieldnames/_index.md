@@ -18,11 +18,11 @@ public string[] GetFieldNames()
 
 ## 评论
 
-返回包含可选前缀的完整合并字段名称。不会消除重复的字段名称。
+返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
 
-每次调用都会创建一个新的 string[] 数组。
+每次调用时都会创建一个新的字符串数组。
 
-包括“mustache”字段名称，如果[`UseNonMergeFields`](../usenonmergefields/)是**真的**.
+包含“mustache”字段名称，如果[`UseNonMergeFields`](../usenonmergefields/)是`真的`。
 
 ## 例子
 
@@ -46,7 +46,7 @@ dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
 // 对于文档中的每个 MERGEFIELD 名称，确保数据表包含一列
-// 同名，然后执行邮件合并。 
+// 同名，然后执行邮件合并。
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

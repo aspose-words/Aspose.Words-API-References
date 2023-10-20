@@ -18,7 +18,7 @@ public int ImageResolution { get; set; }
 
 ## 评论
 
-此属性会在以下情况下影响光栅图像[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) 是`真的`和效果图元文件导出为光栅图像。某些图像属性（例如cropping 或旋转）需要保存转换后的图像，在这种情况下，转换后的图像以 given 分辨率创建。
+该属性在以下情况下影响光栅图像：[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) 是`真的`和效果图元文件导出为光栅图像。某些图像属性（例如cropping 或旋转）需要保存变换后的图像，在这种情况下，变换后的图像是以给定的 分辨率创建的。
 
 ## 例子
 

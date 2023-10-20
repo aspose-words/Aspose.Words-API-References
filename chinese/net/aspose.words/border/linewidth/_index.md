@@ -3,14 +3,14 @@ title: Border.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: 用于 .NET 的 Aspose.Words
-description: Border LineWidth 财产. 获取或设置以点为单位的边框宽度 在 C#.
+description: Border LineWidth 财产. 获取或设置边框宽度以磅为单位 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/border/linewidth/
 ---
 ## Border.LineWidth property
 
-获取或设置以点为单位的边框宽度。
+获取或设置边框宽度（以磅为单位）。
 
 ```csharp
 public double LineWidth { get; set; }
@@ -18,11 +18,11 @@ public double LineWidth { get; set; }
 
 ## 评论
 
-如果线型为 none 时设置线宽大于零，线型 is 会自动变为单线。
+当线型为无时，如果设置线宽大于零，则线型 is 自动更改为单线。
 
 ## 例子
 
-演示如何将由边框包围的字符串插入到文档中。
+演示如何将边框包围的字符串插入到文档中。
 
 ```csharp
 Document doc = new Document();

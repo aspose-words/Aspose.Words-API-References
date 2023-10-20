@@ -3,14 +3,14 @@ title: LoadOptions.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: 用于 .NET 的 Aspose.Words
-description: LoadOptions WarningCallback 财产. 在加载操作期间调用当检测到可能导致数据或格式保真度丢失的问题时调用 在 C#.
+description: LoadOptions WarningCallback 财产. 在加载操作期间检测到可能导致数据或格式保真度损失的问题时调用 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时调用。
+在加载操作期间检测到可能导致数据或格式保真度损失的问题时调用。
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,12 +18,13 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## 例子
 
-显示如何打印和存储文档加载过程中出现的警告。
+显示如何打印和存储文档加载期间出现的警告。
 
 ```csharp
+public void LoadOptionsWarningCallback()
 {
-    // 创建一个新的 LoadOptions 对象并设置它的 WarningCallback 属性
-    // 作为我们的 IWarningCallback 实现的一个实例。
+    // 创建一个新的LoadOptions对象并设置其WarningCallback属性
+    // 作为我们的 IWarningCallback 实现的实例。
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
@@ -32,9 +33,10 @@ public IWarningCallback WarningCallback { get; set; }
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
     Assert.AreEqual(3, warnings.Count);
+}
 
 /// <summary>
-/// IWarningCallback 打印在文档加载期间出现的警告及其详细信息。
+/// IWarningCallback 在文档加载期间出现警告时打印警告及其详细信息。
 /// </summary>
 private class DocumentLoadingWarningCallback : IWarningCallback
 {

@@ -10,9 +10,9 @@ url: /zh/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 此属性的默认值为**错误的**.
+指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 此属性的默认值为`错误的`。
 
-此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts/)属性设置为**真的**.
+此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts/)属性设置为`真的`。
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }
@@ -24,7 +24,7 @@ public bool SaveSubsetFonts { get; set; }
 
 ## 例子
 
-显示如何使用嵌入的 TrueType 字体保存文档。
+演示如何保存嵌入 TrueType 字体的文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

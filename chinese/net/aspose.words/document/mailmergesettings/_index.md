@@ -18,9 +18,9 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## 评论
 
-您可以使用此对象为文档指定邮件合并数据源，当用户打开此文档时，此信息 （以及可用的数据字段）将出现在 Microsoft Word 中。 或者您可以使用此对象查询邮件合并设置用户已在 Microsoft Word 中为此文档指定。
+您可以使用此对象指定文档的邮件合并数据源，当用户打开此文档时，此信息 （以及可用数据字段）将出现在 Microsoft Word 中。 或者您可以使用此对象来查询邮件合并设置用户已在 Microsoft Word 中为此文档指定。
 
-该对象永远不会为空。
+这个物体从来都不是`无效的`。
 
 ## 例子
 
@@ -37,9 +37,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，用“|”特点
+// 创建一个ASCII文件形式的数据源，带有“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 之后的每一行都是具有各自值的行。
+// 随后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -67,7 +67,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+ // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -22,16 +22,16 @@ public void SetImage(Image image)
 
 ## 例子
 
-演示如何在文档中显示来自本地文件系统的图像。
+演示如何在文档中显示本地文件系统中的图像。
 
 ```csharp
 Document doc = new Document();
 
 // 要在文档中显示图像，我们需要创建一个形状
-// 它将包含一个图像，然后将其附加到文档的正文中。
+// 其中将包含图像，然后将其附加到文档的正文中。
 Shape imgShape;
 
-// 下面是从本地文件系统的文件中获取图片的两种方式。
+// 下面是从本地文件系统中的文件获取图像的两种方法。
 // 1 - 从图像文件创建图像对象：
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -74,16 +74,16 @@ public void SetImage(Stream stream)
 
 ## 例子
 
-演示如何在文档中显示来自本地文件系统的图像。
+演示如何在文档中显示本地文件系统中的图像。
 
 ```csharp
 Document doc = new Document();
 
 // 要在文档中显示图像，我们需要创建一个形状
-// 它将包含一个图像，然后将其附加到文档的正文中。
+// 其中将包含图像，然后将其附加到文档的正文中。
 Shape imgShape;
 
-// 下面是从本地文件系统的文件中获取图片的两种方式。
+// 下面是从本地文件系统中的文件获取图像的两种方法。
 // 1 - 从图像文件创建图像对象：
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -134,8 +134,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// 下面是两种将图像应用到形状以便显示它的方法。
-// 1 - 设置包含图像的形状。
+// 下面是将图像应用到形状以便其显示的两种方法。
+// 1 - 设置形状以包含图像。
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -144,12 +144,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// 我们以形状存储的每个图像都会增加文档的大小。
+// 我们存储在 shape 中的每个图像都会增加文档的大小。
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - 将形状设置为链接到本地文件系统中的图像文件。
+// 2 - 设置形状以链接到本地文件系统中的图像文件。
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -158,8 +158,8 @@ builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
 // 链接到图像将节省空间并导致文档更小。
-// 但是，文档只能正确显示图像，而
-// 图像文件存在于形状的“SourceFullName”属性指向的位置。
+// 但是，文档只能正确显示图像
+// 图像文件位于形状的“SourceFullName”属性指向的位置。
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

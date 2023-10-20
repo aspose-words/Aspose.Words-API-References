@@ -3,14 +3,14 @@ title: FieldOptions.FieldIndexFormat
 linktitle: FieldIndexFormat
 articleTitle: FieldIndexFormat
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldOptions FieldIndexFormat 财产. 获取或设置一个FieldIndexFormat代表 的格式FieldIndex文档中的字段 在 C#.
+description: FieldOptions FieldIndexFormat 财产. 获取或设置FieldIndexFormat代表 的格式FieldIndex文档中的字段 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/fieldoptions/fieldindexformat/
 ---
 ## FieldOptions.FieldIndexFormat property
 
-获取或设置一个`FieldIndexFormat`代表 的格式[`FieldIndex`](../../fieldindex/)文档中的字段.
+获取或设置`FieldIndexFormat`代表 的格式[`FieldIndex`](../../fieldindex/)文档中的字段.
 
 ```csharp
 public FieldIndexFormat FieldIndexFormat { get; set; }
@@ -18,7 +18,7 @@ public FieldIndexFormat FieldIndexFormat { get; set; }
 
 ## 例子
 
-显示如何格式化 FieldIndex 字段。
+演示如何设置 FieldIndex 字段的格式。
 
 ```csharp
 Document doc = new Document();

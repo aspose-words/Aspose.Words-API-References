@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/
 
 指定字体替换机制设置。
 
+要了解更多信息，请访问[使用字体](https://docs.aspose.com/words/net/working-with-fonts/)文档文章。
+
 ```csharp
 public class FontSubstitutionSettings
 ```
@@ -22,23 +24,23 @@ public class FontSubstitutionSettings
 | --- | --- |
 | [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/) { get; } | 与默认字体替换规则相关的设置。 |
 | [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | 与字体配置替换规则相关的设置。 |
-| [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/) { get; } | 字体信息替换规则相关设置。 |
+| [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/) { get; } | 与字体信息替换规则相关的设置。 |
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | 与字体名称替换规则相关的设置。 |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | 与表替换规则相关的设置。 |
 
 ## 评论
 
-字体替换过程由几个规则组成，这些规则按特定顺序逐个检查。 如果第一个规则无法解析字体，则检查第二个规则，依此类推。
+字体替换过程由多个规则组成，这些规则按特定顺序逐一检查。 如果第一个规则无法解析字体，则检查第二个规则，依此类推。
 
-规则顺序如下： 1. 字体名称替换规则（默认开启） 2. 字体配置替换规则（默认关闭） 3. 表格替换规则（默认开启） 4. 字体信息替换规则(默认开启) 5. 默认字体规则(默认开启)
+规则的顺序如下： 1. 字体名称替换规则（默认启用） 2. 字体配置替换规则（默认禁用） 3. 表格替换规则（默认启用） 4. 字体信息替换规则（默认启用） 5.默认字体规则（默认启用）
 
-请注意，字体信息替换规则将始终解析字体，如果[`FontInfo`](../fontinfo/)is available 并将覆盖默认字体规则。如果要使用默认字体规则，则应禁用 字体信息替换规则。
+请注意，如果满足以下条件，字体信息替换规则将始终解析字体：[`FontInfo`](../fontinfo/)是 available 并将覆盖默认字体规则。如果您想使用默认字体规则，那么您应该禁用 字体信息替换规则。
 
-请注意，字体配置替换规则将在大多数情况下解析字体，因此会覆盖所有其他规则。
+请注意，字体配置替换规则将在大多数情况下解析字体，从而覆盖所有其他规则。
 
 ## 例子
 
-显示如何访问文档的系统字体源和设置字体替换。
+演示如何访问文档的系统字体源并设置字体替代品。
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +68,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// 设置一种存在于 Windows 字体目录中的字体来替代不存在的字体。
+// 设置 Windows Fonts 目录中存在的字体来替代不存在的字体。
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -80,7 +82,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// 重置字体源仍然给我们留下系统字体源以及我们的替代品。
+// 重置字体源仍然让我们保留系统字体源以及替代品。
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

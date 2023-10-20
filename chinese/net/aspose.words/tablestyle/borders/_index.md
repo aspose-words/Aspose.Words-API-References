@@ -3,14 +3,14 @@ title: TableStyle.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle Borders 财产. 获取样式的默认单元格边框集合 在 C#.
+description: TableStyle Borders 财产. 获取样式的默认单元格边框的集合 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/tablestyle/borders/
 ---
 ## TableStyle.Borders property
 
-获取样式的默认单元格边框集合。
+获取样式的默认单元格边框的集合。
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -18,7 +18,7 @@ public BorderCollection Borders { get; }
 
 ## 例子
 
-显示如何为表格创建自定义样式设置。
+演示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

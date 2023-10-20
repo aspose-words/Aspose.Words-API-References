@@ -18,7 +18,7 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ## 例子
 
-显示如何添加在字形字符上方/下方呈现的附加字符。
+展示如何添加在字形字符上方/下方呈现的附加字符。
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();

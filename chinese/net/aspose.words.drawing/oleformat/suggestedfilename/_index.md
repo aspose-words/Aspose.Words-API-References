@@ -18,7 +18,7 @@ public string SuggestedFileName { get; }
 
 ## 例子
 
-显示如何获取 OLE 对象的建议文件名。
+演示如何获取 OLE 对象的建议文件名。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE shape.rtf");
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "OLE shape.rtf");
 Shape oleShape = (Shape) doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 
 // OLE 对象可以提供建议的文件名和扩展名，
-// 我们可以在将对象的内容保存到本地文件系统中的文件时使用它。
+// 将对象的内容保存到本地文件系统中的文件时可以使用它。
 string suggestedFileName = oleShape.OleFormat.SuggestedFileName;
 
 Assert.AreEqual("CSV.csv", suggestedFileName);

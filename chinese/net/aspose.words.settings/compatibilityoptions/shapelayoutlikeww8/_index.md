@@ -3,14 +3,14 @@ title: CompatibilityOptions.ShapeLayoutLikeWW8
 linktitle: ShapeLayoutLikeWW8
 articleTitle: ShapeLayoutLikeWW8
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions ShapeLayoutLikeWW8 财产. 模拟环绕浮动对象的 Word 97 文本 在 C#.
+description: CompatibilityOptions ShapeLayoutLikeWW8 财产. 模拟 Word 97 文本环绕浮动对象 在 C#.
 type: docs
 weight: 420
 url: /zh/net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/
 ---
 ## CompatibilityOptions.ShapeLayoutLikeWW8 property
 
-模拟环绕浮动对象的 Word 97 文本。
+模拟 Word 97 文本环绕浮动对象。
 
 ```csharp
 public bool ShapeLayoutLikeWW8 { get; set; }

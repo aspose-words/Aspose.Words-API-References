@@ -18,11 +18,11 @@ public EditorType EditorGroup { get; set; }
 
 ## 评论
 
-具体可编辑范围不能同时设置单个用户和编辑组， 如果设置了一个，另一个会被清除。
+对于具体的可编辑范围，单个用户和编辑者组不能同时设置， 如果其中一个设置了，另一个就会被清除。
 
 ## 例子
 
-展示如何创建嵌套的可编辑范围。
+演示如何创建嵌套的可编辑范围。
 
 ```csharp
 Document doc = new Document();
@@ -39,9 +39,9 @@ builder.Writeln("This paragraph inside the outer editable range and can be edite
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// 目前，文档构建器的节点插入光标位于多个正在进行的可编辑范围内。
-// 当我们想在这种情况下结束一个可编辑的范围时，
-// 我们需要通过传递 EditableRangeStart 节点来指定我们希望结束的范围。
+// 当前，文档生成器的节点插入光标位于多个正在进行的可编辑范围内。
+// 当我们想要在这种情况下结束可编辑范围时，
+// 我们需要通过传递其 EditableRangeStart 节点来指定我们希望结束的范围。
 builder.EndEditableRange(innerEditableRangeStart);
 
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
@@ -50,15 +50,15 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// 如果一个文本区域有两个重叠的可编辑范围和指定的组，
-// 防止被两个组排除的用户组合组对其进行编辑。
+// 如果文本区域有两个重叠的可编辑范围且具有指定的组，
+// 被两个组排除的用户组合组将无法编辑它。
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 
 doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 ```
 
-显示如何将可编辑范围的编辑权限限制为特定组/用户。
+展示如何将可编辑范围的编辑权限限制为特定组/用户。
 
 ```csharp
 public void Visitor()
@@ -71,7 +71,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种相互排斥的方法可以缩小允许的编辑器列表。
+    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 在字符串中收集访问过的可编辑范围的属性和内容。
+/// 收集字符串中访问过的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -150,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

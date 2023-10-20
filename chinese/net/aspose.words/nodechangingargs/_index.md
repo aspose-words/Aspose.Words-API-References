@@ -3,14 +3,16 @@ title: NodeChangingArgs Class
 linktitle: NodeChangingArgs
 articleTitle: NodeChangingArgs
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.NodeChangingArgs 班级. 为INodeChangingCallback接口 在 C#.
+description: Aspose.Words.NodeChangingArgs 班级. 提供方法的数据INodeChangingCallback接口 在 C#.
 type: docs
 weight: 4190
 url: /zh/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-为[`INodeChangingCallback`](../inodechangingcallback/)接口.
+提供方法的数据[`INodeChangingCallback`](../inodechangingcallback/)接口.
+
+要了解更多信息，请访问[Aspose.Words 文档对象模型 (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
 
 ```csharp
 public class NodeChangingArgs
@@ -20,16 +22,17 @@ public class NodeChangingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action/) { get; } | 获取一个值，指示正在发生什么类型的节点更改事件。 |
+| [Action](../../aspose.words/nodechangingargs/action/) { get; } | 获取一个值，该值指示正在发生什么类型的节点更改事件。 |
 | [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | 获取操作完成后将设置的节点的父节点。 |
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | 获取[`Node`](./node/)正在添加或删除。 |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | 在操作开始之前获取节点的父节点。 |
 
 ## 例子
 
-显示如何通过回调自定义节点更改。
+展示如何通过回调自定义节点更改。
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,10 +50,11 @@ public class NodeChangingArgs
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为 Run 节点的文本内容设置自定义字体名称/大小。
+/// 为运行节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

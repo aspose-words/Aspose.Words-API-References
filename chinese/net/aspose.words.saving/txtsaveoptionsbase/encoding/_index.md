@@ -18,7 +18,7 @@ public Encoding Encoding { get; set; }
 
 ## 例子
 
-显示如何为 .txt 输出文档设置编码。
+演示如何设置 .txt 输出文档的编码。
 
 ```csharp
 Document doc = new Document();
@@ -27,11 +27,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 添加一些包含 ASCII 字符集之外的字符的文本。
 builder.Write("À È Ì Ò Ù.");
 
-// 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改我们如何将文档保存为纯文本。
+// 创建一个“TxtSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改我们将文档保存为纯文本的方式。
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// 验证“Encoding”属性是否包含适合我们文档内容的编码。
+// 验证“Encoding”属性是否包含适合文档内容的编码。
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);

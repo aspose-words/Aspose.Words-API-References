@@ -3,14 +3,14 @@ title: PdfDigitalSignatureTimestampSettings
 linktitle: PdfDigitalSignatureTimestampSettings
 articleTitle: PdfDigitalSignatureTimestampSettings
 second_title: 用于 .NET 的 Aspose.Words
-description: PdfDigitalSignatureTimestampSettings 构造函数. 初始化此类的一个实例 在 C#.
+description: PdfDigitalSignatureTimestampSettings 构造函数. 初始化此类的实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings() {#constructor}
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 ```csharp
 public PdfDigitalSignatureTimestampSettings()
@@ -18,29 +18,29 @@ public PdfDigitalSignatureTimestampSettings()
 
 ## 例子
 
-展示如何以数字方式签署已保存的 PDF 文档并为其添加时间戳。
+演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改该方法如何将文档转换为 .PDF。
+// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
- // 创建一个数字签名并将其分配给我们的 SaveOptions 对象，以便在我们将文档保存为 PDF 时对其进行签名。
+// 创建数字签名并将其分配给我们的 SaveOptions 对象，以便在将文档保存为 PDF 时对文档进行签名。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// 创建时间戳权威验证的时间戳。
+// 创建经过权威验证的时间戳时间戳。
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
-// 时间戳的默认生命周期是 100 秒。
+// 时间戳的默认生命周期是100秒。
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// 我们可以通过构造函数设置我们的超时时间。
+// 我们可以通过构造函数设置超时时间。
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", TimeSpan.FromMinutes(30));
 
@@ -49,7 +49,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// 此时“Save”方法会将我们的签名应用到输出文档。
+// 此时“Save”方法会将我们的签名应用到输出文档中。
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ## PdfDigitalSignatureTimestampSettings(*string, string, string*) {#constructor_1}
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 ```csharp
 public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, string password)
@@ -77,29 +77,29 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 ## 例子
 
-展示如何以数字方式签署已保存的 PDF 文档并为其添加时间戳。
+演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改该方法如何将文档转换为 .PDF。
+// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
- // 创建一个数字签名并将其分配给我们的 SaveOptions 对象，以便在我们将文档保存为 PDF 时对其进行签名。
+// 创建数字签名并将其分配给我们的 SaveOptions 对象，以便在将文档保存为 PDF 时对文档进行签名。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// 创建时间戳权威验证的时间戳。
+// 创建经过权威验证的时间戳时间戳。
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
-// 时间戳的默认生命周期是 100 秒。
+// 时间戳的默认生命周期是100秒。
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// 我们可以通过构造函数设置我们的超时时间。
+// 我们可以通过构造函数设置超时时间。
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", TimeSpan.FromMinutes(30));
 
@@ -108,7 +108,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// 此时“Save”方法会将我们的签名应用到输出文档。
+// 此时“Save”方法会将我们的签名应用到输出文档中。
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
@@ -122,7 +122,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ## PdfDigitalSignatureTimestampSettings(*string, string, string, TimeSpan*) {#constructor_2}
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 ```csharp
 public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, string password, 
@@ -138,29 +138,29 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 ## 例子
 
-展示如何以数字方式签署已保存的 PDF 文档并为其添加时间戳。
+演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改该方法如何将文档转换为 .PDF。
+// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
- // 创建一个数字签名并将其分配给我们的 SaveOptions 对象，以便在我们将文档保存为 PDF 时对其进行签名。
+// 创建数字签名并将其分配给我们的 SaveOptions 对象，以便在将文档保存为 PDF 时对文档进行签名。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// 创建时间戳权威验证的时间戳。
+// 创建经过权威验证的时间戳时间戳。
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
-// 时间戳的默认生命周期是 100 秒。
+// 时间戳的默认生命周期是100秒。
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// 我们可以通过构造函数设置我们的超时时间。
+// 我们可以通过构造函数设置超时时间。
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", TimeSpan.FromMinutes(30));
 
@@ -169,7 +169,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// 此时“Save”方法会将我们的签名应用到输出文档。
+// 此时“Save”方法会将我们的签名应用到输出文档中。
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

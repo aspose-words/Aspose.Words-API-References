@@ -12,6 +12,8 @@ url: /zh/net/aspose.words/unsupportedfileformatexception/
 
 在文档加载期间，当 Aspose.Words 无法识别或不支持文档格式时抛出。
 
+要了解更多信息，请访问[使用文档编程](https://docs.aspose.com/words/net/programming-with-documents/)文档文章。
+
 ```csharp
 public class UnsupportedFileFormatException : Exception
 ```

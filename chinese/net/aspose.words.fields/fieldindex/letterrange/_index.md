@@ -18,17 +18,17 @@ public string LetterRange { get; set; }
 
 ## 例子
 
-展示如何使用 XE 字段填充 INDEX 字段的条目，并修改其外观。
+演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 创建一个 INDEX 字段，它将为文档中找到的每个 XE 字段显示一个条目。
-// 每个条目都会在左侧显示 XE 字段的 Text 属性值，
+// 创建一个 INDEX 字段，它将显示文档中找到的每个 XE 字段的条目。
+// 每个条目都会在左侧显示XE字段的Text属性值，
 // 以及右侧包含 XE 字段的页码。
-// 如果 XE 字段的“Text”属性值相同，
-// INDEX 字段会将它们分组到一个条目中。
+// 如果 XE 字段的“Text”属性具有相同的值，
+// INDEX 字段会将它们分组为一个条目。
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
 
@@ -39,13 +39,13 @@ index.Heading = "A";
 // 将 INDEX 字段创建的表设置为跨越 2 列。
 index.NumberOfColumns = "2";
 
-// 将所有起始字母超出“ac”字符范围的条目设置为被忽略。
+// 设置省略起始字母在“ac”字符范围之外的所有条目。
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
 // 接下来的两个 XE 字段将显示在“A”标题下，
-// 它们各自的文本样式也应用于它们的页码。
+// 各自的文本样式也应用于其页码。
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
@@ -69,17 +69,18 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cherry";
 
-// INDEX 字段按字母顺序对所有条目进行排序，因此该条目将与其他两个一起显示在“A”下。
+// INDEX 字段按字母顺序对所有条目进行排序，因此该条目将与其他两个条目一起显示在“A”下。
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
-// 这个条目不会出现，因为它以字母“D”开头，
-// 它在 INDEX 字段的 LetterRange 属性定义的“ac”字符范围之外。
+// 该条目不会出现，因为它以字母“D”开头，
+// 它超出了 INDEX 字段的 LetterRange 属性定义的“ac”字符范围。
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ```

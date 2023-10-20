@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.loading/languagepreferences/
 
 允许设置语言首选项。
 
+要了解更多信息，请访问[指定加载选项](https://docs.aspose.com/words/net/specify-load-options/)文档文章。
+
 ```csharp
 public class LanguagePreferences
 ```
@@ -41,7 +43,7 @@ public class LanguagePreferences
 
 ## 例子
 
-显示如何在加载文档时应用语言首选项。
+演示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

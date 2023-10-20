@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.ForegroundColor
 linktitle: ForegroundColor
 articleTitle: ForegroundColor
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldDisplayBarcode ForegroundColor 财产. 获取或设置条码符号的前景色有效值在 0 0xFFFFFF 范围内 在 C#.
+description: FieldDisplayBarcode ForegroundColor 财产. 获取或设置条形码符号的前景色有效值范围为 0 0xFFFFFF 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
 ---
 ## FieldDisplayBarcode.ForegroundColor property
 
-获取或设置条码符号的前景色。有效值在 [0, 0xFFFFFF] 范围内
+获取或设置条形码符号的前景色。有效值范围为 [0, 0xFFFFFF]
 
 ```csharp
 public string ForegroundColor { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// 以下是 DISPLAYBARCODE 字段可以显示的四种类型的条码，以各种方式装饰。
-// 1 - 带有自定义颜色的二维码：
+// 下面是 DISPLAYBARCODE 字段可以显示的四种类型的条形码，以各种方式装饰。
+// 1 - 具有自定义颜色的 QR 码：
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - EAN13 条码，条码下方显示数字：
+// 2 - EAN13 条形码，数字显示在条形下方：
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4 条形码，带有指定的案例代码：
+// 4 - ITF4 条形码，具有指定的案例代码：
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

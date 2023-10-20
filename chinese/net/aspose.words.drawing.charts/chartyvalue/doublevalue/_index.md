@@ -3,12 +3,14 @@ title: ChartYValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValue DoubleValue 财产.  在 C#.
+description: ChartYValue DoubleValue 财产. 获取存储的数值 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/doublevalue/
 ---
 ## ChartYValue.DoubleValue property
+
+获取存储的数值。
 
 ```csharp
 public double DoubleValue { get; }

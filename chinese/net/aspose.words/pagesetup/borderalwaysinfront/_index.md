@@ -18,7 +18,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ## 例子
 
-展示如何在第一页的顶部创建一个宽的蓝色边框。
+演示如何在第一页顶部创建宽蓝色带边框。
 
 ```csharp
 Document doc = new Document();

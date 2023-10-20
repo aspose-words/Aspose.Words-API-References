@@ -3,14 +3,16 @@ title: Watermark Class
 linktitle: Watermark
 articleTitle: Watermark
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Watermark 班级. 表示使用文档水印的类 在 C#.
+description: Aspose.Words.Watermark 班级. 代表使用文档水印的类 在 C#.
 type: docs
 weight: 6670
 url: /zh/net/aspose.words/watermark/
 ---
 ## Watermark class
 
-表示使用文档水印的类。
+代表使用文档水印的类。
+
+要了解更多信息，请访问[使用水印](https://docs.aspose.com/words/net/working-with-watermark/)文档文章。
 
 ```csharp
 public sealed class Watermark

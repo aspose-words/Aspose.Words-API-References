@@ -22,7 +22,7 @@ public Document OpenIStream(IStream stream)
 
 ### 返回值
 
-一个[`Document`](../../document/)表示 Word 文档的对象。
+A[`Document`](../../document/)代表 Word 文档的对象。
 
 ### 也可以看看
 

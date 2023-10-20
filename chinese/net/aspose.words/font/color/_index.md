@@ -3,14 +3,14 @@ title: Font.Color
 linktitle: Color
 articleTitle: Color
 second_title: 用于 .NET 的 Aspose.Words
-description: Font Color 财产. 获取或设置字体颜色 在 C#.
+description: Font Color 财产. 获取或设置字体的颜色 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/font/color/
 ---
 ## Font.Color property
 
-获取或设置字体颜色。
+获取或设置字体的颜色。
 
 ```csharp
 public Color Color { get; set; }
@@ -35,7 +35,7 @@ font.Underline = Underline.Dash;
 builder.Write("Hello world!");
 ```
 
-显示如何插入超链接字段。
+演示如何插入超链接字段。
 
 ```csharp
 Document doc = new Document();
@@ -43,15 +43,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// 插入一个超链接并用自定义格式强调它。
-// 超链接将是一段可点击的文本，它将把我们带到 URL 中指定的位置。
+// 插入超链接并使用自定义格式强调它。
+// 超链接将是一段可点击的文本，它将带我们到 URL 中指定的位置。
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + 左键单击 Microsoft Word 文本中的链接将通过新的 Web 浏览器窗口将我们带到 URL。
+// Ctrl + 左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口转到 URL。
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

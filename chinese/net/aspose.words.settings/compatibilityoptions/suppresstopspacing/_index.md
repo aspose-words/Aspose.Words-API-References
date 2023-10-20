@@ -3,14 +3,14 @@ title: CompatibilityOptions.SuppressTopSpacing
 linktitle: SuppressTopSpacing
 articleTitle: SuppressTopSpacing
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions SuppressTopSpacing 财产. 忽略页面上第一行的最小和精确行高 在 C#.
+description: CompatibilityOptions SuppressTopSpacing 财产. 忽略页面第一行的最小和精确行高 在 C#.
 type: docs
 weight: 510
 url: /zh/net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
 ---
 ## CompatibilityOptions.SuppressTopSpacing property
 
-忽略页面上第一行的最小和精确行高。
+忽略页面第一行的最小和精确行高。
 
 ```csharp
 public bool SuppressTopSpacing { get; set; }

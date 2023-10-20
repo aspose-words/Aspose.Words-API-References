@@ -26,6 +26,29 @@ public enum HtmlInsertOptions
 | RemoveLastEmptyParagraph | `2` | 删除通常插入到以块级元素结尾的 HTML 之后的空段落。 |
 | PreserveBlocks | `4` | 保留块级元素的属性。 |
 
+## 例子
+
+展示如何更好地保留所看到的边框和边距。
+
+```csharp
+const string html = @"
+    <html>
+        <div style='border:dotted'>
+        <div style='border:solid'>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+        </div>
+        </div>
+    </html>";
+
+// 设置导入 HTML 块级元素的新模式。
+HtmlInsertOptions insertOptions = HtmlInsertOptions.PreserveBlocks;
+
+DocumentBuilder builder = new DocumentBuilder();
+builder.InsertHtml(html, insertOptions);
+builder.Document.Save(ArtifactsDir + "DocumentBuilder.PreserveBlocks.docx");
+```
+
 ### 也可以看看
 
 * 命名空间 [Aspose.Words](../../aspose.words/)

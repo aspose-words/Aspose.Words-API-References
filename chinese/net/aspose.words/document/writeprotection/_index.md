@@ -18,14 +18,13 @@ public WriteProtection WriteProtection { get; }
 
 ## 例子
 
-显示如何使用密码保护文档。
+演示如何使用密码保护文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// 输入最长 15 个字符的密码，然后验证文档的保护状态。
+// 输入长度不超过15个字符的密码，然后验证文档的保护状态。
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 

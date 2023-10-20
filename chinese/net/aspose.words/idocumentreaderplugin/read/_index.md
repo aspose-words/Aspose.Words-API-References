@@ -18,9 +18,9 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| src | Stream | 要从中读取文档的源流。 |
-| loadOptions | LoadOptions | 加载文档的附加加载选项。 |
-| document | Document | 的实例[`Document`](../../document/)类来读取数据。 如果实例包含一些内容，它将被源流中的数据覆盖 |
+| src | Stream | 从中读取文档的源流。 |
+| loadOptions | LoadOptions | 用于加载文档的附加加载选项。 |
+| document | Document | 的实例[`Document`](../../document/)读取数据的类。 如果实例包含某些内容，它将被源流中的数据覆盖 |
 
 ### 也可以看看
 

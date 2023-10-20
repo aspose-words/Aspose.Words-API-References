@@ -20,12 +20,12 @@ public enum TextureAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| TopLeft | `0` | 左上纹理对齐。 |
+| TopLeft | `0` | 左上角纹理对齐。 |
 | Top | `1` | 顶部纹理对齐。 |
 | TopRight | `2` | 右上角纹理对齐。 |
 | Left | `3` | 左纹理对齐。 |
 | Center | `4` | 中心纹理对齐。 |
-| Right | `5` | 右纹理对齐。 |
+| Right | `5` | 纹理右对齐。 |
 | BottomLeft | `6` | 左下纹理对齐。 |
 | Bottom | `7` | 底部纹理对齐。 |
 | BottomRight | `8` | 右下纹理对齐。 |
@@ -33,7 +33,7 @@ public enum TextureAlignment
 
 ## 例子
 
-显示如何填充和平铺形状内的纹理。
+展示如何填充和平铺形状内的纹理。
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// 如果您想获得“TextureAlignment”，请使用合规性选项使用 DML 定义形状
+// 如果您想获得“TextureAlignment”，请使用compliance 选项通过DML 定义形状
 // 文档保存后的属性。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

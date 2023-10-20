@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.saving/graphicsqualityoptions/
 
 允许指定额外的Graphics质量选项.
 
+要了解更多信息，请访问[保存文档](https://docs.aspose.com/words/net/save-a-document/)文档文章。
+
 ```csharp
 public class GraphicsQualityOptions
 ```
@@ -32,11 +34,11 @@ public class GraphicsQualityOptions
 | [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode/) { get; set; } | 获取或设置此 Graphics 的渲染质量。 |
 | [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat/) { get; set; } | 获取或设置文本布局信息（例如对齐、方向和制表位）显示操作 （例如省略号插入和国家数字替换）和 OpenType 功能。 |
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | 获取或设置与此 Graphics 关联的文本的呈现模式。 |
-| [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | 获取或设置一个标志，指示 WrapMode 是否为 TileFlipXY. |
+| [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | 获取或设置一个标志，指示 WrapMode 是否为 TileFlipXY。 |
 
 ## 例子
 
-展示如何在将文档转换为图像格式时设置渲染质量选项。
+演示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

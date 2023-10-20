@@ -20,13 +20,13 @@ public enum CommentDisplayMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Hide | `0` | 不呈现文档注释。 |
-| ShowInBalloons | `1` | 在页边距的气球中呈现文档注释。这是默认值。 |
+| Hide | `0` | 没有呈现文档注释。 |
+| ShowInBalloons | `1` | 在页边空白处以气球形式呈现文档注释。这是默认值。 |
 | ShowInAnnotations | `2` | 在注释中呈现文档注释。这仅适用于 Pdf 格式。 |
 
 ## 例子
 
-演示如何在将文档保存为呈现格式时显示注释。
+演示如何在将文档保存为渲染格式时显示注释。
 
 ```csharp
 Document doc = new Document();
@@ -44,8 +44,8 @@ doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// 注意需要重建文档页面布局（通过 Document.UpdatePageLayout() 方法）
-// 更改 Document.LayoutOptions 值之后。
+// 请注意，需要重建文档页面布局（通过 Document.UpdatePageLayout() 方法）
+// 更改 Document.LayoutOptions 值后。
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();
 

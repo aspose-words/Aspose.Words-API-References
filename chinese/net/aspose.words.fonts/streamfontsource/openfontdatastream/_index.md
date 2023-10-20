@@ -3,14 +3,14 @@ title: StreamFontSource.OpenFontDataStream
 linktitle: OpenFontDataStream
 articleTitle: OpenFontDataStream
 second_title: 用于 .NET 的 Aspose.Words
-description: StreamFontSource OpenFontDataStream 方法. 此方法应按需打开带有字体数据的流 在 C#.
+description: StreamFontSource OpenFontDataStream 方法. 此方法应根据需要打开包含字体数据的流 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
 ## StreamFontSource.OpenFontDataStream method
 
-此方法应按需打开带有字体数据的流。
+此方法应根据需要打开包含字体数据的流。
 
 ```csharp
 public abstract Stream OpenFontDataStream()
@@ -22,13 +22,14 @@ public abstract Stream OpenFontDataStream()
 
 ## 评论
 
-读取后将关闭流。无需显式关闭它。
+读取后流将关闭。无需显式关闭它。
 
 ## 例子
 
-显示如何从流中加载字体。
+展示如何从流加载字体。
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
@@ -42,8 +43,8 @@ public abstract Stream OpenFontDataStream()
 }
 
 /// <summary>
-/// 仅在需要时才加载字体数据，而不是将其存储在内存中
-/// 对于“FontSettings”对象的整个生命周期。
+/// 仅在需要时加载字体数据而不是将其存储在内存中
+/// 在“FontSettings”对象的整个生命周期内。
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

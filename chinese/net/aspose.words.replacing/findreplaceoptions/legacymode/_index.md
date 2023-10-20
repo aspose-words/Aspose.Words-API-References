@@ -18,7 +18,7 @@ public bool LegacyMode { get; set; }
 
 ## 评论
 
-如果您需要与引入高级查找/替换功能之前完全相同的行为，请使用此标志。 请注意，旧算法不支持高级功能，例如用中断替换、应用格式等。
+如果您需要与引入高级查找/替换功能之前完全相同的行为，请使用此标志。 请注意，旧算法不支持高级功能，例如替换为中断、应用格式设置等。
 
 ## 例子
 
@@ -35,7 +35,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// 使用 legacy 模式不支持很多高级功能，所以我们需要将其设置为 'false'。
+// 使用legacy模式不支持很多高级功能，所以我们需要将其设置为'false'。
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);

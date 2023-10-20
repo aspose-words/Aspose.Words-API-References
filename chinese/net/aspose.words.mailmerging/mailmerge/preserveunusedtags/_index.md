@@ -3,14 +3,14 @@ title: MailMerge.PreserveUnusedTags
 linktitle: PreserveUnusedTags
 articleTitle: PreserveUnusedTags
 second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge PreserveUnusedTags 财产. 获取或设置一个值指示是否应保留未使用的小胡子标签 在 C#.
+description: MailMerge PreserveUnusedTags 财产. 获取或设置一个值该值指示是否应保留未使用的mustache标签 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 ---
 ## MailMerge.PreserveUnusedTags property
 
-获取或设置一个值，指示是否应保留未使用的“小胡子”标签。
+获取或设置一个值，该值指示是否应保留未使用的“mustache”标签。
 
 ```csharp
 public bool PreserveUnusedTags { get; set; }
@@ -18,11 +18,11 @@ public bool PreserveUnusedTags { get; set; }
 
 ## 评论
 
-默认值为**错误的**.
+默认值为`错误的`.
 
 ## 例子
 
-显示如何保留在邮件合并期间未使用的替代邮件合并标签的外观。
+演示如何保留在邮件合并期间未使用的备用邮件合并标记的外观。
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -30,18 +30,18 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-    // 默认情况下，邮件合并将表中每一行的数据放入 MERGEFIELD 中，这些名称为该表中的列命名。 
-    // 我们的文档没有这样的字段，但它确实有用大括号括起来的明文标签。
+     // 默认情况下，邮件合并将表中每一行的数据放入 MERGEFIELD 中，MERGEFIELD 命名该表中的列。
+    // 我们的文档没有这样的字段，但它确实有用大括号括起来的纯文本标签。
     // 如果我们将“PreserveUnusedTags”标志设置为“true”，我们可以将这些标签视为 MERGEFIELD
     // 允许我们的邮件合并在这些标签处插入来自数据源的数据。
     // 如果我们将“PreserveUnusedTags”标志设置为“false”，
-    // 邮件合并会将这些标签转换为 MERGEFIELD 并将它们留空。
+    // 邮件合并会将这些标签转换为 MERGEFIELD 并将其保留为空。
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // 我们的文档有一个名为“Column2”的列的标记，该列在表中不存在。
+    // 我们的文档有一个名为“Column2”的列的标签，该标签在表中不存在。
     // 如果我们将“PreserveUnusedTags”标志设置为“false”， then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
@@ -52,7 +52,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 }
 
 /// <summary>
-/// 创建一个文档并添加两个可以在邮件合并期间充当 MERGEFIELD 的纯文本标签。
+/// 创建一个文档并添加两个纯文本标记，这些标记可以在邮件合并期间充当 MERGEFIELD。
 /// </summary>
 private static Document CreateSourceDocWithAlternativeMergeFields()
 {

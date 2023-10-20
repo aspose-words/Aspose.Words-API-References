@@ -18,15 +18,15 @@ public void SetCount(int newCount)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newCount | Int32 | 文本要排列到的列数。 |
+| newCount | Int32 | 文本要排列成的列数。 |
 
 ## 评论
 
-什么时候[`EvenlySpaced`](../evenlyspaced/)是**错误的**你增加列数， new[`TextColumn`](../../textcolumn/)创建的对象的宽度和间距为零。 您需要为新列设置宽度和间距。
+什么时候[`EvenlySpaced`](../evenlyspaced/)是`错误的`然后您增加列数， new[`TextColumn`](../../textcolumn/)创建的对象的宽度和间距为零。 您需要为新列设置宽度和间距。
 
 ## 例子
 
-显示如何在一个部分中创建多个均匀间隔的列。
+演示如何在一个部分中创建多个均匀间隔的列。
 
 ```csharp
 Document doc = new Document();

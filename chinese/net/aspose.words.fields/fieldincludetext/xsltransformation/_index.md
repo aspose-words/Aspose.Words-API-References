@@ -3,14 +3,14 @@ title: FieldIncludeText.XslTransformation
 linktitle: XslTransformation
 articleTitle: XslTransformation
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldIncludeText XslTransformation 财产. 获取或设置 XSL 转换的位置以格式化 XML 数据 在 C#.
+description: FieldIncludeText XslTransformation 财产. 获取或设置用于格式化 XML 数据的 XSL 转换的位置 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fieldincludetext/xsltransformation/
 ---
 ## FieldIncludeText.XslTransformation property
 
-获取或设置 XSL 转换的位置以格式化 XML 数据。
+获取或设置用于格式化 XML 数据的 XSL 转换的位置。
 
 ```csharp
 public string XslTransformation { get; set; }
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是两种使用 INCLUDETEXT 字段在本地文件系统中显示 XML 文件内容的方法。
+    // 下面是使用 INCLUDETEXT 字段显示本地文件系统中 XML 文件内容的两种方法。
     // 1 - 对 XML 文档执行 XSL 转换：
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
@@ -38,10 +38,12 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// 使用文档构建器插入具有自定义属性的 INCLUDETEXT 字段。
+/// 使用文档生成器插入具有自定义属性的 INCLUDETEXT 字段。
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

@@ -3,14 +3,14 @@ title: Document.ExtractPages
 linktitle: ExtractPages
 articleTitle: ExtractPages
 second_title: 用于 .NET 的 Aspose.Words
-description: Document ExtractPages 方法. 返回Document表示指定页面范围的对象 在 C#.
+description: Document ExtractPages 方法. 返回Document代表指定页面范围的对象 在 C#.
 type: docs
 weight: 600
 url: /zh/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-返回[`Document`](../)表示指定页面范围的对象。
+返回[`Document`](../)代表指定页面范围的对象。
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -23,11 +23,11 @@ public Document ExtractPages(int index, int count)
 
 ## 评论
 
-生成的文档应该看起来像 MS Word 中的文档，就像我们执行了“打印特定页面”一样 - 编号、 页眉/页脚和交叉表布局将被保留。 但由于存在大量细微差别，出现在减少页数的同时，完全匹配布局是一项安静而复杂的任务，需要付出很多努力。 根据文档的复杂性，生成的文档内容布局与源文档相比可能会略有不同。 任何反馈都会不胜感激。
+生成的文档应该看起来像 MS Word 中的文档，就好像我们执行了“打印特定页面”一样 – 编号、 页眉/页脚和交叉表布局将被保留。 但由于存在大量细微差别，出现在减少页数的同时，布局的完全匹配是一项安静而复杂的任务，需要付出大量努力。 根据文档的复杂性，与源文档相比，生成的文档内容布局可能会略有不同。 任何反馈都会不胜感激。
 
 ## 例子
 
-显示如何从文档中获取指定范围的页面。
+演示如何从文档中获取指定范围的页面。
 
 ```csharp
 Document doc = new Document(MyDir + "Layout entities.docx");

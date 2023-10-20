@@ -3,14 +3,14 @@ title: SaveOptions.PrettyFormat
 linktitle: PrettyFormat
 articleTitle: PrettyFormat
 second_title: 用于 .NET 的 Aspose.Words
-description: SaveOptions PrettyFormat 财产. 什么时候真的  在适用的情况下输出漂亮的格式 默认值为错误的 在 C#.
+description: SaveOptions PrettyFormat 财产. 当真的在适用的情况下漂亮的格式输出 默认值为错误的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-什么时候`真的` , 在适用的情况下输出漂亮的格式。 默认值为**错误的**.
+当`真的`，在适用的情况下漂亮的格式输出。 默认值为`错误的`.
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -18,11 +18,11 @@ public bool PrettyFormat { get; set; }
 
 ## 评论
 
-调成**真的**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。 用于测试或调试。
+设置`真的`使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出人类可读。 对于测试或调试很有用。
 
 ## 例子
 
-展示如何增强已保存 .html 文档的原始代码的可读性。
+演示如何增强已保存 .html 文档的原始代码的可读性。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// 启用漂亮格式通过添加制表位和换行符使原始 html 代码更具可读性。
+// 启用漂亮格式可以通过添加制表符和换行符使原始 html 代码更具可读性。
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
 
 if (usePrettyFormat)

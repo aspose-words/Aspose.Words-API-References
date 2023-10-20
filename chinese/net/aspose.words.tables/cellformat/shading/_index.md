@@ -3,14 +3,14 @@ title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: 用于 .NET 的 Aspose.Words
-description: CellFormat Shading 财产. 返回一个 Shading 对象该对象引用单元格的着色格式 在 C#.
+description: CellFormat Shading 财产. 返回一个Shading引用单元格着色格式的对象 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-返回一个 Shading 对象，该对象引用单元格的着色格式。
+返回一个[`Shading`](../../../aspose.words/shading/)引用单元格着色格式的对象。
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## 例子
 
-显示如何修改表格中行和单元格的格式。
+演示如何修改表中行和单元格的格式。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // 使用第一行的“RowFormat”属性修改格式
-// 此行中所有单元格的内容。
+// 该行中所有单元格的内容。
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
@@ -58,8 +58,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
+// 为文档生成器设置表格格式选项
+// 将它们应用到我们添加的每一行和单元格。
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -83,7 +83,7 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
+// 以及我们随后使用构建器创建的任何新单元格。
 // 这不会影响我们之前添加的单元格。
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -95,7 +95,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// 增加行高以适应垂直文本。
+// 增加行高以适合垂直文本。
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

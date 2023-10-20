@@ -18,17 +18,17 @@ public ChartTitle Title { get; }
 
 ## 例子
 
-显示如何插入图表和设置标题。
+演示如何插入图表并设置标题。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档构建器插入图表形状并获取其图表。
+// 使用文档生成器插入图表形状并获取其图表。
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性给我们的图表一个标题，它出现在图表区域的顶部中心。
+// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 

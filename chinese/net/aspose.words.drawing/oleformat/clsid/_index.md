@@ -23,14 +23,14 @@ public Guid Clsid { get; }
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// 形状在文档正文中存储和显示 OLE 对象。
+// Shapes 在文档主体中存储和显示 OLE 对象。
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// 一些 OLE 控件可能包含子控件，例如本文档中的具有三个选项按钮的控件。
+// 某些 OLE 控件可能包含子控件，例如本文档中带有三个选项按钮的控件。
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

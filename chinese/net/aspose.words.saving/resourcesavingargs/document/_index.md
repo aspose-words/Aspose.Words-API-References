@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## 例子
 
-演示如何使用回调来跟踪在将文档转换为 HTML 时创建的外部资源。
+演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
 
 ```csharp
 public void ResourceSavingCallback()

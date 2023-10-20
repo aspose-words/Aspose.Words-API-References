@@ -3,14 +3,14 @@ title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
 articleTitle: FirstRowContainsColumnNames
 second_title: 用于 .NET 的 Aspose.Words
-description: Odso FirstRowContainsColumnNames 财产. 指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每一列名称的标题行 默认值为错误的 在 C#.
+description: Odso FirstRowContainsColumnNames 财产. 指定托管应用程序应将指定外部数据 源中的第一行数据视为包含数据源中每列名称的标题行 默认值为错误的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每一列名称的标题行。 默认值为`错误的`.
+指定托管应用程序应将指定外部数据 源中的第一行数据视为包含数据源中每列名称的标题行。 默认值为`错误的`.
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -18,7 +18,7 @@ public bool FirstRowContainsColumnNames { get; set; }
 
 ## 评论
 
-RK 我从来没有见过这个在使用中。
+RK 我从未见过它被使用过。
 
 ## 例子
 
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，用“|”特点
+// 创建一个ASCII文件形式的数据源，带有“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 之后的每一行都是具有各自值的行。
+// 随后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+ // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

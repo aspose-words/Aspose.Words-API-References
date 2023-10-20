@@ -3,14 +3,14 @@ title: Stroke.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: 用于 .NET 的 Aspose.Words
-description: Stroke ImageBytes 财产. 为描边图像或图案填充定义图像 在 C#.
+description: Stroke ImageBytes 财产. 定义描边图像或图案填充的图像 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
 
-为描边图像或图案填充定义图像。
+定义描边图像或图案填充的图像。
 
 ```csharp
 public byte[] ImageBytes { get; }
@@ -18,7 +18,7 @@ public byte[] ImageBytes { get; }
 
 ## 例子
 
-显示如何处理形状笔划特征。
+展示如何处理形状笔划特征。
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");

@@ -18,11 +18,11 @@ public bool Hidden { get; set; }
 
 ## 评论
 
-默认值为**错误的**.
+默认值为`错误的`.
 
 ## 例子
 
-显示如何隐藏图表轴。
+展示如何隐藏图表轴。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 添加一个自定义系列，其中 X 轴为类别，Y 轴为相应的十进制值。
+// 添加一个自定义系列，其中 X 轴为类别，Y 轴为相应的小数值。
 chart.Series.Add("AW Series 1",
     new[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2 });

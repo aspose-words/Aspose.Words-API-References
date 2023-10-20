@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.drawing.charts/chartformat/
 
 表示图表元素的格式。
 
+要了解更多信息，请访问[使用图表](https://docs.aspose.com/words/net/working-with-charts/)文档文章。
+
 ```csharp
 public class ChartFormat
 ```
@@ -21,8 +23,8 @@ public class ChartFormat
 | 姓名 | 描述 |
 | --- | --- |
 | [Fill](../../aspose.words.drawing.charts/chartformat/fill/) { get; } | 获取父图表元素的填充格式。 |
-| [ShapeType](../../aspose.words.drawing.charts/chartformat/shapetype/) { get; set; } |  |
-| [Stroke](../../aspose.words.drawing.charts/chartformat/stroke/) { get; } | 获取父图表元素的行格式。 |
+| [ShapeType](../../aspose.words.drawing.charts/chartformat/shapetype/) { get; set; } | 获取或设置父图表元素的形状类型。 |
+| [Stroke](../../aspose.words.drawing.charts/chartformat/stroke/) { get; } | 获取父图表元素的线条格式。 |
 
 ### 也可以看看
 

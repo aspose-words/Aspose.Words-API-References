@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.tables/rowformat/
 
 表示表格行的所有格式。
 
+要了解更多信息，请访问[使用表格](https://docs.aspose.com/words/net/working-with-tables/)文档文章。
+
 ```csharp
 public class RowFormat
 ```
@@ -20,11 +22,11 @@ public class RowFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | 如果允许表格行中的文本跨分页符拆分，则为真。 |
+| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | 如果允许表格行中的文本跨分页符拆分，则为 True。 |
 | [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | 获取行的默认单元格边框的集合。 |
-| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | 当表格跨度超过一页时，如果该行作为表格标题在每一页上重复，则为真。 |
-| [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | 获取或设置表格行的高度，以磅为单位。 |
-| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | 获取或设置表格行高确定规则 |
+| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | 如果当表格跨越一页以上时，该行作为表格标题在每一页上重复，则为 True。 |
+| [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | 获取或设置表格行的高度（以磅为单位）。 |
+| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | 获取或设置确定表格行高度的规则。 |
 
 ## 方法
 
@@ -34,7 +36,7 @@ public class RowFormat
 
 ## 例子
 
-显示如何修改表格行的格式。
+演示如何修改表行的格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -49,7 +51,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-显示如何修改表格中行和单元格的格式。
+演示如何修改表中行和单元格的格式。
 
 ```csharp
 Document doc = new Document();
@@ -68,7 +70,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // 使用第一行的“RowFormat”属性修改格式
-// 此行中所有单元格的内容。
+// 该行中所有单元格的内容。
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
@@ -89,8 +91,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
+// 为文档生成器设置表格格式选项
+// 将它们应用到我们添加的每一行和单元格。
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -114,7 +116,7 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
+// 以及我们随后使用构建器创建的任何新单元格。
 // 这不会影响我们之前添加的单元格。
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -126,7 +128,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// 增加行高以适应垂直文本。
+// 增加行高以适合垂直文本。
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

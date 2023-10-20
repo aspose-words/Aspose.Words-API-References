@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 linktitle: ExportDropDownFormFieldAsText
 articleTitle: ExportDropDownFormFieldAsText
 second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions ExportDropDownFormFieldAsText 财产. 控制下拉表单字段如何保存为 HTML 或 MHTML 默认值为错误的 在 C#.
+description: HtmlSaveOptions ExportDropDownFormFieldAsText 财产. 控制如何将下拉表单字段保存为 HTML 或 MHTML 默认值为错误的 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-控制下拉表单字段如何保存为 HTML 或 MHTML。 默认值为`错误的`.
+控制如何将下拉表单字段保存为 HTML 或 MHTML。 默认值为`错误的`.
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -18,26 +18,26 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ## 评论
 
-当设置为`真的` 将下拉表单字段导出为普通文本。 当`错误的`将下拉表单字段导出为 HTML 中的 SELECT 元素。
+当设置为`真的`，将下拉表单字段导出为普通文本。 当`错误的`，将下拉表单字段导出为 HTML 中的 SELECT 元素。
 
-导出到 EPUB 时，文本下拉表单字段始终保存为文本，因为 符合此格式的要求。
+导出到 EPUB 时，由于 此格式的要求，文本下拉表单字段始终保存为文本。
 
 ## 例子
 
-演示如何在保存为 html 时获取下拉组合框表单字段以与段落文本混合。
+演示如何在保存为 html 时使下拉组合框表单字段与段落文本混合。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档构建器插入一个组合框，其中选择了值“Two”。
+// 使用文档生成器插入一个选择了值“Two”的组合框。
 builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
 // 此 SaveOptions 对象的“ExportDropDownFormFieldAsText”标志允许我们
-// 控制将文档保存为 HTML 处理下拉组合框的方式。
+// 控制将文档保存为 HTML 时如何处理下拉组合框。
 // 将其设置为“true”会将每个组合框转换为简单文本
-// 显示组合框当前选择的值，有效地冻结它。
-// 将其设置为 "false" 将使用 <select> 保留组合框的功能和<选项>标签。
+// 显示组合框当前选定的值，有效地冻结它。
+// 将其设置为“false”将保留使用 <select> 的组合框的功能和<选项>标签。
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

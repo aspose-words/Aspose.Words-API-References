@@ -3,14 +3,14 @@ title: IStructuredDocumentTag.Id
 linktitle: Id
 articleTitle: Id
 second_title: 用于 .NET 的 Aspose.Words
-description: IStructuredDocumentTag Id 财产. 为此指定一个唯一的只读持久数字 IDSDT 在 C#.
+description: IStructuredDocumentTag Id 财产. 为此指定一个唯一的只读持久数字 ID特殊测试 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/istructureddocumenttag/id/
 ---
 ## IStructuredDocumentTag.Id property
 
-为此指定一个唯一的只读持久数字 ID**SDT**.
+为此指定一个唯一的只读持久数字 ID**特殊测试**。
 
 ```csharp
 public int Id { get; }

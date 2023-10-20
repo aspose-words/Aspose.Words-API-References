@@ -3,14 +3,14 @@ title: OfficeMathJustification Enum
 linktitle: OfficeMathJustification
 articleTitle: OfficeMathJustification
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Math.OfficeMathJustification 枚举. 指定等式的理由 在 C#.
+description: Aspose.Words.Math.OfficeMathJustification 枚举. 指定方程的合理性 在 C#.
 type: docs
 weight: 4140
 url: /zh/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
 
-指定等式的理由。
+指定方程的合理性。
 
 ```csharp
 public enum OfficeMathJustification
@@ -20,8 +20,8 @@ public enum OfficeMathJustification
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| CenterGroup | `1` | 将数学文本的实例相对于彼此向左对齐，并使 math 文本组（数学段落）相对于页面居中。 |
-| Center | `2` | 将每个数学文本实例分别相对于边距居中。 |
+| CenterGroup | `1` | 将数学文本实例相对于彼此向左对齐，并将数学 文本组（数学段落）相对于页面居中。 |
+| Center | `2` | 将数学文本的每个实例相对于边距单独居中。 |
 | Left | `3` | 数学段落的左对齐。 |
 | Right | `4` | 数学段落的右对齐。 |
 | Inline | `7` | Math. 的内联位置 |
@@ -29,21 +29,18 @@ public enum OfficeMathJustification
 
 ## 例子
 
-显示如何设置办公室数学显示格式。
+演示如何设置 Office 数学显示格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// 作为其他 OfficeMath 节点的子节点的 OfficeMath 节点始终是内联的。
-// 我们正在使用的节点是更改其位置和显示类型的基础节点。
+// 作为其他 OfficeMath 节点子级的 OfficeMath 节点始终是内联的。
+// 我们正在使用的节点是改变其位置和显示类型的基础节点。
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML 和 WML 格式使用“EquationXmlEncoding”属性。
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // 更改 OfficeMath 节点的位置和显示类型。
 officeMath.DisplayType = OfficeMathDisplayType.Display;

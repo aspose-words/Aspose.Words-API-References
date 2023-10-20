@@ -3,14 +3,14 @@ title: CompatibilityOptions.DoNotBreakConstrainedForcedTable
 linktitle: DoNotBreakConstrainedForcedTable
 articleTitle: DoNotBreakConstrainedForcedTable
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions DoNotBreakConstrainedForcedTable 财产. 不要在浮动表格周围打断表格行 在 C#.
+description: CompatibilityOptions DoNotBreakConstrainedForcedTable 财产. 不要破坏浮动表周围的表行 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
 ---
 ## CompatibilityOptions.DoNotBreakConstrainedForcedTable property
 
-不要在浮动表格周围打断表格行。
+不要破坏浮动表周围的表行。
 
 ```csharp
 public bool DoNotBreakConstrainedForcedTable { get; set; }

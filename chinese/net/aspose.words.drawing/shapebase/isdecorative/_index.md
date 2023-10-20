@@ -3,14 +3,14 @@ title: ShapeBase.IsDecorative
 linktitle: IsDecorative
 articleTitle: IsDecorative
 second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase IsDecorative 财产. 获取或设置指定形状在文档中是否具有装饰性的标志 在 C#.
+description: ShapeBase IsDecorative 财产. 获取或设置指定形状在文档中是否为装饰性的标志 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.drawing/shapebase/isdecorative/
 ---
 ## ShapeBase.IsDecorative property
 
-获取或设置指定形状在文档中是否具有装饰性的标志。
+获取或设置指定形状在文档中是否为装饰性的标志。
 
 ```csharp
 public bool IsDecorative { get; set; }
@@ -18,11 +18,11 @@ public bool IsDecorative { get; set; }
 
 ## 评论
 
-注意形状不为空[`AlternativeText`](../alternativetext/)不能是装饰性的。
+请注意，形状不为空[`AlternativeText`](../alternativetext/)不能是装饰性的。
 
 ## 例子
 
-显示如何设置形状是装饰性的。
+展示如何设置形状具有装饰性。
 
 ```csharp
 Document doc = new Document(MyDir + "Decorative shapes.docx");
@@ -30,8 +30,8 @@ Document doc = new Document(MyDir + "Decorative shapes.docx");
 Shape shape = (Shape) doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(shape.IsDecorative);
 
-// 如果“AlternativeText”不为空，则该形状不能是装饰性的。
-// 这就是我们的值更改为“false”的原因。
+// 如果“AlternativeText”不为空，则形状不能是装饰性的。
+// 这就是为什么我们的值已更改为“false”。
 shape.AlternativeText = "Alternative text.";
 Assert.False(shape.IsDecorative);
 

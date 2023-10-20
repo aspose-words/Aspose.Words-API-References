@@ -20,13 +20,13 @@ public enum HtmlFixedPageHorizontalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 将页面向左对齐。 |
-| Center | `1` | 居中页面。这是默认值。 |
-| Right | `2` | 将页面向右对齐。 |
+| Left | `0` | 将页面左对齐。 |
+| Center | `1` | 中心页面。这是默认值。 |
+| Right | `2` | 页面右对齐。 |
 
 ## 例子
 
-演示如何在将文档保存为 HTML 时设置页面的水平对齐方式。
+演示将文档保存为 HTML 时如何设置页面的水平对齐方式。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

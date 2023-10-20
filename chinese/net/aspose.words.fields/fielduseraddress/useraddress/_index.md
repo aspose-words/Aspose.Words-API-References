@@ -3,14 +3,14 @@ title: FieldUserAddress.UserAddress
 linktitle: UserAddress
 articleTitle: UserAddress
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldUserAddress UserAddress 财产. 获取或设置当前用户的邮寄地址 在 C#.
+description: FieldUserAddress UserAddress 财产. 获取或设置当前用户的邮政地址 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielduseraddress/useraddress/
 ---
 ## FieldUserAddress.UserAddress property
 
-获取或设置当前用户的邮寄地址。
+获取或设置当前用户的邮政地址。
 
 ```csharp
 public string UserAddress { get; set; }
@@ -18,7 +18,7 @@ public string UserAddress { get; set; }
 
 ## 例子
 
-显示如何使用 USERADDRESS 字段。
+演示如何使用 USERADDRESS 字段。
 
 ```csharp
 Document doc = new Document();
@@ -28,14 +28,14 @@ UserInformation userInformation = new UserInformation();
 userInformation.Address = "123 Main Street";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// 创建一个USERADDRESS字段来显示当前用户的地址，
-// 取自我们在上面创建的 UserInformation 对象。
+// 创建一个 USERADDRESS 字段来显示当前用户的地址，
+// 取自我们上面创建的 UserInformation 对象。
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldType.FieldUserAddress, true);
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
- // 我们可以设置这个属性来让我们的字段覆盖当前存储在 UserInformation 对象中的值。
+ // 我们可以设置此属性以使我们的字段覆盖当前存储在 UserInformation 对象中的值。
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 

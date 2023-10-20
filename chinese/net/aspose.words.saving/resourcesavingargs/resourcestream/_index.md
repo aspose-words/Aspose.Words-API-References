@@ -3,14 +3,14 @@ title: ResourceSavingArgs.ResourceStream
 linktitle: ResourceStream
 articleTitle: ResourceStream
 second_title: 用于 .NET 的 Aspose.Words
-description: ResourceSavingArgs ResourceStream 财产. 允许指定将资源保存到的流 在 C#.
+description: ResourceSavingArgs ResourceStream 财产. 允许指定资源将保存到的流 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/resourcesavingargs/resourcestream/
 ---
 ## ResourceSavingArgs.ResourceStream property
 
-允许指定将资源保存到的流。
+允许指定资源将保存到的流。
 
 ```csharp
 public Stream ResourceStream { get; set; }
@@ -18,11 +18,11 @@ public Stream ResourceStream { get; set; }
 
 ## 评论
 
-此属性允许您将资源保存到流而不是文件。
+此属性允许您将资源保存到流而不是文件中。
 
-默认值为`无效的` .当这个属性是`无效的` ，资源 将被保存到[`ResourceFileName`](../resourcefilename/)财产。
+默认值为`无效的` 。当这个属性是`无效的` ，资源 将被保存到指定的文件中[`ResourceFileName`](../resourcefilename/)财产。
 
-使用[`IResourceSavingCallback`](../../iresourcesavingcallback/)您不能用 另一个资源替换一个资源。它仅用于控制保存资源的位置。
+使用[`IResourceSavingCallback`](../../iresourcesavingcallback/)您不能用 一种资源替换另一种资源。它仅用于控制节省资源的位置。
 
 ## 例子
 
@@ -45,8 +45,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // ResourcesFolderAlias 指定的文件夹将包含资源而不是 ResourcesFolder。
-    // 我们必须确保文件夹存在，然后流才能将其资源放入其中。
+    // 由 ResourcesFolderAlias 指定的文件夹将包含资源而不是 ResourcesFolder。
+    // 我们必须确保该文件夹存在，然后流才能将其资源放入其中。
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -60,7 +60,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// 在转换为固定 HTML 时计算并打印包含的资源的 URI。
+/// 计算并打印 包含的资源的 URI，因为它们被转换为固定的 HTML。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -75,8 +75,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // 默认情况下，'ResourceFileUri' 使用系统文件夹来存放字体。
-                // 为了避免在其他平台上出现问题，您必须明确指定字体的路径。
+                // 默认情况下，“ResourceFileUri”使用系统文件夹来存储字体。
+                // 为了避免在其他平台上出现问题，您必须显式指定字体的路径。
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -85,7 +85,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // 如果我们在“ResourcesFolderAlias”属性中指定了一个文件夹，
-        // 我们还需要重定向每个流以将其资源放在该文件夹中。
+        // 我们还需要重定向每个流以将其资源放入该文件夹中。
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

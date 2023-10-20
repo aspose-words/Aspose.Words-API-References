@@ -3,14 +3,14 @@ title: KnownTypeSet.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: 用于 .NET 的 Aspose.Words
-description: KnownTypeSet GetEnumerator 方法. 返回一个IEnumerator对象迭代集合中的项目 在 C#.
+description: KnownTypeSet GetEnumerator 方法. 返回一个IEnumerator用于迭代集合中的项目的对象 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.reporting/knowntypeset/getenumerator/
 ---
 ## KnownTypeSet.GetEnumerator method
 
-返回一个IEnumerator对象迭代集合中的项目。
+返回一个IEnumerator用于迭代集合中的项目的对象。
 
 ```csharp
 public IEnumerator<Type> GetEnumerator()

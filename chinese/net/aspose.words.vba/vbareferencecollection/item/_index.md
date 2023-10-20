@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.vba/vbareferencecollection/item/
 ---
 ## VbaReferenceCollection indexer
 
-获取[`VbaReference`](../../vbareference/)指定索引处的对象。
+获取[`VbaReference`](../../vbareference/)指定索引处的对象.
 
 ```csharp
 public VbaReference this[int index] { get; }

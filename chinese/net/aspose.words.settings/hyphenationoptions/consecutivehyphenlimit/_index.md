@@ -20,11 +20,11 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 如果此属性的值设置为 0，则任意数量的连续行都可以以连字符结尾。
 
-保存为固定页面格式（例如 PDF）时，该属性无效。
+当保存为固定页面格式（例如 PDF）时，该属性不起作用。
 
 ## 例子
 
-显示如何配置自动断字。
+展示如何配置自动连字。
 
 ```csharp
 Document doc = new Document();

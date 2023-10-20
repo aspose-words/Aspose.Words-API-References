@@ -3,14 +3,14 @@ title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 linktitle: NoSpaceBetweenParagraphsOfSameStyle
 articleTitle: NoSpaceBetweenParagraphsOfSameStyle
 second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle 财产. 为真时SpaceBefore和SpaceAfter将在相同样式的段落之间忽略  在 C#.
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle 财产. 当真的SpaceBefore和SpaceAfter相同样式的段落之间将被忽略  在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-为真时，[`SpaceBefore`](../spacebefore/)和[`SpaceAfter`](../spaceafter/)将在相同样式的段落之间忽略 。
+当`真的`,[`SpaceBefore`](../spacebefore/)和[`SpaceAfter`](../spaceafter/)相同样式的段落之间将被忽略 .
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -18,7 +18,7 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ## 评论
 
-此设置仅在应用于段落样式时生效。如果直接应用于 一个段落，是没有效果的。
+此设置仅在应用于段落样式时才会生效。如果直接应用于 段落，则没有效果。
 
 ## 例子
 
@@ -28,14 +28,14 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 在此构建器将创建的段落之前和之后应用大量间距。
+// 在该构建器将创建的段落之前和之后应用大量间距。
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
 // 将“NoSpaceBetweenParagraphsOfSameStyle”标志设置为“true”以应用
 // 相同样式的段落之间没有间距，这会将相似的段落分组。
 // 将“NoSpaceBetweenParagraphsOfSameStyle”标志保留为“false”
-// 将间距均匀地应用于每个段落。
+// 对每个段落均匀应用间距。
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

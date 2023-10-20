@@ -3,14 +3,14 @@ title: FormField.ExitMacro
 linktitle: ExitMacro
 articleTitle: ExitMacro
 second_title: 用于 .NET 的 Aspose.Words
-description: FormField ExitMacro 财产. 返回或设置表单域的退出宏名称 在 C#.
+description: FormField ExitMacro 财产. 返回或设置表单字段的退出宏名称 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/formfield/exitmacro/
 ---
 ## FormField.ExitMacro property
 
-返回或设置表单域的退出宏名称。
+返回或设置表单字段的退出宏名称。
 
 ```csharp
 public string ExitMacro { get; set; }
@@ -18,13 +18,13 @@ public string ExitMacro { get; set; }
 
 ## 评论
 
-当表单域在 Microsoft Word 中失去焦点时，将运行退出宏。
+当 Microsoft Word 中表单字段失去焦点时，退出宏将运行。
 
 Microsoft Word 允许最多包含 32 个字符的字符串。
 
 ## 例子
 
-展示了如何将不同类型的表单域插入到文档中，并使用文档访问者实现来处理它们。
+展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
 ```csharp
 public void Visitor()
@@ -32,7 +32,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 使用文档构建器插入组合框。
+    // 使用文档生成器插入组合框。
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -56,7 +56,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // 使用文档构建器插入文本输入表单字段。
+    // 使用文档生成器插入文本输入表单字段。
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -67,11 +67,11 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // 这个集合包含我们所有的表单字段。
+    // 该集合包含我们所有的表单字段。
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // 字段显示我们的表单字段。我们可以通过打开这个文档看到他们的域代码
+    // 字段显示我们的表单字段。我们打开这个文档就可以看到他们的域代码
     // 在 Microsoft 中并按 Alt + F9。这些字段没有开关，
     // 并且 FormField 对象的成员完全控制其表单字段的内容。
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -79,7 +79,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // 允许每个表单域接受一个文档访问者。
+    // 允许每个表单字段接受文档访问者。
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -93,7 +93,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 打印访问的表单字段详细信息的访问者实现。 
+ /// 访问者实现，打印其访问的表单字段的详细信息。
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -134,7 +134,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将换行符终止的文本添加到当前输出。
+    /// 将换行符结尾的文本添加到当前输出。
     /// </summary>
     private void AppendLine(string text)
     {

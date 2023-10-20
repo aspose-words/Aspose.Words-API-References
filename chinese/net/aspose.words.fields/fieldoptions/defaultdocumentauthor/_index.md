@@ -3,14 +3,14 @@ title: FieldOptions.DefaultDocumentAuthor
 linktitle: DefaultDocumentAuthor
 articleTitle: DefaultDocumentAuthor
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldOptions DefaultDocumentAuthor 财产. 获取或设置默认文档作者的姓名如果已在内置文档属性中指定作者姓名 不考虑此选项 在 C#.
+description: FieldOptions DefaultDocumentAuthor 财产. 获取或设置默认文档作者姓名如果内置文档属性中已指定作者姓名则 不考虑此选项 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 ---
 ## FieldOptions.DefaultDocumentAuthor property
 
-获取或设置默认文档作者的姓名。如果已在内置文档属性中指定作者姓名， 不考虑此选项。
+获取或设置默认文档作者姓名。如果内置文档属性中已指定作者姓名，则 不考虑此选项。
 
 ```csharp
 public string DefaultDocumentAuthor { get; set; }
@@ -24,15 +24,15 @@ public string DefaultDocumentAuthor { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 作者字段从名为“作者”的内置文档属性中获取结果。
-// 如果我们在 Microsoft Word 中创建并保存一个文档，
+// AUTHOR 字段的结果来自名为“Author”的内置文档属性。
+// 如果我们在 Microsoft Word 中创建并保存文档，
 // 它将在该属性中包含我们的用户名。
 // 但是，如果我们使用 Aspose.Words 以编程方式创建文档，
- // 默认情况下，“Author”属性将是一个空字符串。
+// 默认情况下，“Author”属性将为空字符串。
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// 为要使用的 AUTHOR 字段设置备份作者姓名
-// 如果“Author”属性包含一个空字符串。
+// 设置备用作者姓名供 AUTHOR 字段使用
+// 如果“Author”属性包含空字符串。
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
 builder.Write("This document was created by ");
@@ -43,7 +43,7 @@ Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
 // 更新包含值的 AUTHOR 字段
-// 将该值应用于“作者”内置属性。
+// 将该值应用于“Author”内置属性。
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
 // 更改此属性，然后更新 AUTHOR 字段会将此值应用于该字段。
@@ -53,7 +53,7 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("John Doe", field.Result);
 
-// 如果我们在更改其“名称”属性后更新 AUTHOR 字段，
+// 如果我们在更改“Name”属性后更新 AUTHOR 字段，
 // 然后该字段将显示新名称并将新名称应用于内置属性。
 field.AuthorName = "Jane Doe";
 field.Update();

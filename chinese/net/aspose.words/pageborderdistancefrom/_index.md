@@ -20,12 +20,12 @@ public enum PageBorderDistanceFrom
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Text | `0` | 边框位置从页边距开始测量。 |
-| PageEdge | `1` | 边框位置从页面边缘开始测量。 |
+| Text | `0` | 边框位置是从页边距开始测量的。 |
+| PageEdge | `1` | 边框位置是从页面边缘开始测量的。 |
 
 ## 例子
 
-展示如何在第一页的顶部创建一个宽的蓝色边框。
+演示如何在第一页顶部创建宽蓝色带边框。
 
 ```csharp
 Document doc = new Document();

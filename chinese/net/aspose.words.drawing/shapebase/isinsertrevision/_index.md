@@ -3,14 +3,14 @@ title: ShapeBase.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase IsInsertRevision 财产. 如果在启用更改跟踪时将此对象插入 Microsoft Word则返回 true 在 C#.
+description: ShapeBase IsInsertRevision 财产. 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中则返回 true 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
 ## ShapeBase.IsInsertRevision property
 
-如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。
+如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中，则返回 true。
 
 ```csharp
 public bool IsInsertRevision { get; }
@@ -18,7 +18,7 @@ public bool IsInsertRevision { get; }
 
 ## 例子
 
-显示如何使用修订形状。
+展示如何使用修订形状。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ shape.Width = 100.0;
 shape.Height = 100.0;
 doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
-// 开始跟踪修订，然后插入另一个形状，这将是一个修订。
+// 开始跟踪修订，然后插入另一个形状，这将是修订。
 doc.StartTrackRevisions("John Doe");
 
 shape = new Shape(doc, ShapeType.Sun);
@@ -47,15 +47,15 @@ Assert.AreEqual(2, shapes.Length);
 
 shapes[0].Remove();
 
-// 因为我们在跟踪变化时移除了那个形状，
-// 形状保留在文档中并算作删除修订。
-// 接受此修订将永久删除形状，拒绝它将保留在文档中。
+// 由于我们在跟踪更改时删除了该形状，
+// 该形状保留在文档中并算作删除修订。
+// 接受此修订将永久删除该形状，拒绝它会将其保留在文档中。
 Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
 Assert.True(shapes[0].IsDeleteRevision);
 
 // 我们在跟踪更改时插入了另一个形状，因此该形状将被视为插入修订。
-// 接受这个修订将把这个形状作为非修订吸收到文档中，
-// 拒绝修订将永久删除此形状。
+// 接受此修订版将将此形状作为非修订版吸收到文档中，
+// 拒绝修改将永久删除该形状。
 Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
 Assert.True(shapes[1].IsInsertRevision);
 ```

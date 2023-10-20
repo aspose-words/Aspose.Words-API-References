@@ -3,14 +3,14 @@ title: CompatibilityOptions.LineWrapLikeWord6
 linktitle: LineWrapLikeWord6
 articleTitle: LineWrapLikeWord6
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions LineWrapLikeWord6 财产. 为东亚文本模拟 Word 6.0 换行 在 C#.
+description: CompatibilityOptions LineWrapLikeWord6 财产. 模拟东亚文本的 Word 6.0 换行 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words.settings/compatibilityoptions/linewraplikeword6/
 ---
 ## CompatibilityOptions.LineWrapLikeWord6 property
 
-为东亚文本模拟 Word 6.0 换行。
+模拟东亚文本的 Word 6.0 换行。
 
 ```csharp
 public bool LineWrapLikeWord6 { get; set; }

@@ -3,14 +3,14 @@ title: CompatibilityOptions.SuppressTopSpacingWP
 linktitle: SuppressTopSpacingWP
 articleTitle: SuppressTopSpacingWP
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions SuppressTopSpacingWP 财产. 模拟 WordPerfect 5.x 行间距 在 C#.
+description: CompatibilityOptions SuppressTopSpacingWP 财产. 模拟 WordPerfect 5.x 行距 在 C#.
 type: docs
 weight: 520
 url: /zh/net/aspose.words.settings/compatibilityoptions/suppresstopspacingwp/
 ---
 ## CompatibilityOptions.SuppressTopSpacingWP property
 
-模拟 WordPerfect 5.x 行间距。
+模拟 WordPerfect 5.x 行距。
 
 ```csharp
 public bool SuppressTopSpacingWP { get; set; }

@@ -18,13 +18,13 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## 例子
 
-显示如何更改现有文本的样式。
+演示如何更改现有文本的样式。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是引用样式的两种方式。
+// 下面是两种引用样式的方法。
 // 1 - 使用样式名称：
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
@@ -33,8 +33,8 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// 将一种样式的所有用途转换为另一种样式，
-// 使用上述方法来引用新旧样式。
+// 将一种样式的所有使用转换为另一种样式，
+// 使用上述方法引用新旧样式。
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

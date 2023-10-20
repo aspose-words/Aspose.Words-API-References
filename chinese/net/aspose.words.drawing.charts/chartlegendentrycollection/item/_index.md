@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-返回[`ChartLegendEntry`](../../chartlegendentry/)对于指定的索引。
+返回[`ChartLegendEntry`](../../chartlegendentry/)对于指定的索引.
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

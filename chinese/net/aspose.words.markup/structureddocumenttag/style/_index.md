@@ -18,7 +18,7 @@ public Style Style { get; set; }
 
 ## 评论
 
-只有Character风格或Paragraph可以设置链接字符样式的样式。
+仅 Character风格或Paragraph可以设置链接字符样式的样式。
 
 ## 例子
 
@@ -28,8 +28,8 @@ public Style Style { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 以下是将文档中的样式应用到结构化文档标签的两种方法。
-// 1 - 应用文档样式集合中的样式对象：
+// 下面是将文档样式应用到结构化文档标签的两种方法。
+// 1 - 从文档的样式集合中应用样式对象：
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -48,6 +48,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

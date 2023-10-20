@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.reporting/csvdataloadoptions/
 
 表示解析 CSV 数据的选项。
 
+要了解更多信息，请访问[LINQ 报告引擎](https://docs.aspose.com/words/net/linq-reporting-engine/)文档文章。
+
 ```csharp
 public class CsvDataLoadOptions
 ```
@@ -21,7 +23,7 @@ public class CsvDataLoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | 使用默认选项初始化此类的新实例。 |
-| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | 初始化此类的新实例，并在第一行指定 CSV 数据是否包含列名称 。 |
+| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | 初始化此类的新实例，并指定 CSV 数据是否在第一行包含列名称 。 |
 
 ## 特性
 
@@ -34,7 +36,7 @@ public class CsvDataLoadOptions
 
 ## 评论
 
-可以将此类的实例传递给[`CsvDataSource`](../csvdatasource/).
+此类的实例可以传递到构造函数中[`CsvDataSource`](../csvdatasource/).
 
 ### 也可以看看
 

@@ -3,14 +3,14 @@ title: FieldCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldCollection Count 财产. 返回集合中的字段数 在 C#.
+description: FieldCollection Count 财产. 返回集合中字段的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldcollection/count/
 ---
 ## FieldCollection.Count property
 
-返回集合中的字段数。
+返回集合中字段的数量。
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## 例子
 
-显示如何从字段集合中删除字段。
+演示如何从字段集合中删除字段。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // 下面是从字段集合中删除字段的四种方法。
-// 1 - 获取一个字段来移除自身：
+// 1 - 获取一个字段来删除自身：
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -46,11 +46,11 @@ Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - 从集合中的索引处删除一个字段：
+// 3 - 从索引处的集合中删除字段：
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - 一次从集合中删除所有字段：
+// 4 - 立即从集合中删除所有字段：
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -58,6 +58,7 @@ Assert.AreEqual(0, fields.Count);
 展示如何使用字段集合。
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -96,6 +97,7 @@ Assert.AreEqual(0, fields.Count);
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。

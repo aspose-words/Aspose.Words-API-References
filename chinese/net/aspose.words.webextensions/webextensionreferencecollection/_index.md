@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.webextensions/webextensionreferencecollection/
 
 指定 Web 扩展引用列表。
 
+要了解更多信息，请访问[使用 Office 加载项](https://docs.aspose.com/words/net/work-with-office-add-ins/)文档文章。
+
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>
 ```

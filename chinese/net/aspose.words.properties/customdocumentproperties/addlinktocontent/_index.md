@@ -19,15 +19,15 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| linkSource | String | 财产的来源。 |
+| linkSource | String | 财产来源。 |
 
 ### 返回值
 
-新创建的属性对象或链接源无效时为空。
+新创建的属性对象或`无效的`当。。。的时候*linkSource*是无效的。
 
 ## 例子
 
-显示如何将自定义文档属性链接到书签。
+演示如何将自定义文档属性链接到书签。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// 将新的自定义属性链接到书签。该物业的价值
+// 将新的自定义属性链接到书签。该房产的价值
 // 将是它在“LinkSource”成员中引用的书签的内容。
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

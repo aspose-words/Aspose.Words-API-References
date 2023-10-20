@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/count/
 ---
 ## ChartDataPointCollection.Count property
 
-返回数量[`ChartDataPoint`](../../chartdatapoint/)在这个集合中。
+返回数量[`ChartDataPoint`](../../chartdatapoint/)在这个集合中.
 
 ```csharp
 public int Count { get; }
@@ -18,10 +18,9 @@ public int Count { get; }
 
 ## 例子
 
-显示如何使用折线图上的数据点。
+展示如何使用折线图上的数据点。
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -35,14 +34,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // 通过使它们显示为菱形来强调图表的数据点。
+    // 通过使图表的数据点显示为菱形来强调它们。
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // 平滑表示第一个数据系列的线。
     chart.Series[0].Smooth = true;
 
-    // 如果值为负数，则验证第一个系列的数据点不会反转它们的颜色。
+    // 验证如果值为负数，第一个系列的数据点不会反转其颜色。
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -51,17 +50,17 @@ public void ChartDataPoint()
         }
     }
 
-    // 为了更清晰的图表，我们可以单独清除格式。
+    // 为了使图表看起来更清晰，我们可以单独清除格式。
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // 我们也可以一次剥离整个系列的数据点。
+    // 我们还可以一次剥离整个系列的数据点。
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// 将多个数据点应用于系列。
+/// 将多个数据点应用于一个系列。
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

@@ -18,7 +18,7 @@ public void RemoveExternalSchemaReferences()
 
 ## 例子
 
-展示如何从文档中删除所有外部 XML 模式引用。
+演示如何从文档中删除所有外部 XML 架构引用。
 
 ```csharp
 Document doc = new Document(MyDir + "External XML schema.docx");

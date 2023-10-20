@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.webextensions/webextensionproperty/
 
 指定 Web 扩展自定义属性。
 
+要了解更多信息，请访问[使用 Office 加载项](https://docs.aspose.com/words/net/work-with-office-add-ins/)文档文章。
+
 ```csharp
 public class WebExtensionProperty
 ```

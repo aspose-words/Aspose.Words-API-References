@@ -3,14 +3,14 @@ title: CompositeNode.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: 用于 .NET 的 Aspose.Words
-description: CompositeNode GetEnumerator 方法. 为在该节点的子节点上的每个样式迭代提供支持 在 C#.
+description: CompositeNode GetEnumerator 方法. 为该节点的子节点上的每个样式迭代提供支持 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-为在该节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点上的每个样式迭代提供支持。
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -18,30 +18,30 @@ public IEnumerator<Node> GetEnumerator()
 
 ## 例子
 
-显示如何遍历复合节点的子节点集合。
+演示如何遍历复合节点的子节点集合。
 
 ```csharp
 Document doc = new Document();
 
-// 将两个运行和一个形状作为子节点添加到该文档的第一段。
+// 将两个运行和一个形状作为子节点添加到本文档的第一段。
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 请注意，'CustomNodeId' 不会保存到输出文件中，并且仅在节点生命周期内存在。
+// 请注意，“CustomNodeId”不会保存到输出文件中，并且仅在节点生命周期内存在。
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// 遍历段落的直接子元素集合，
+// 遍历该段落的直接子级集合，
 // 并打印我们在其中找到的任何运行或形状。
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -54,6 +54,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

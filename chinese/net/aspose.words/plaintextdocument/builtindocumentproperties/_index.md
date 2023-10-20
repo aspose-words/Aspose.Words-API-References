@@ -3,14 +3,14 @@ title: PlainTextDocument.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: 用于 .NET 的 Aspose.Words
-description: PlainTextDocument BuiltInDocumentProperties 财产. 获取BuiltInDocumentProperties文件的 在 C#.
+description: PlainTextDocument BuiltInDocumentProperties 财产. 获取BuiltInDocumentProperties文档的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/plaintextdocument/builtindocumentproperties/
 ---
 ## PlainTextDocument.BuiltInDocumentProperties property
 
-获取`BuiltInDocumentProperties`文件的.
+获取`BuiltInDocumentProperties`文档的.
 
 ```csharp
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }

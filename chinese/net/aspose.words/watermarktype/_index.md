@@ -20,13 +20,13 @@ public enum WatermarkType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Text | `0` | 表示将文本用作水印。 |
-| Image | `1` | 表示图片将用作水印。 |
+| Text | `0` | 表示该文本将用作水印。 |
+| Image | `1` | 表示该图像将用作水印。 |
 | None | `2` | 表示未设置水印。 |
 
 ## 例子
 
-演示如何创建文本水印。
+展示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Document doc = new Document();
 doc.Watermark.SetText("Aspose Watermark");
 
 // 如果我们希望使用它作为水印来编辑文本格式，
-// 我们可以通过在创建水印时传递一个 TextWatermarkOptions 对象来做到这一点。
+// 我们可以通过在创建水印时传递 TextWatermarkOptions 对象来做到这一点。
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

@@ -22,7 +22,7 @@ public bool FormsDesign { get; set; }
 
 ## 例子
 
-显示如何启用/禁用表单设计模式。
+展示如何启用/禁用表单设计模式。
 
 ```csharp
 Document doc = new Document();

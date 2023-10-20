@@ -18,32 +18,32 @@ public override bool Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 将访问节点的访问者。 |
+| visitor | DocumentVisitor | 将访问该节点的访问者。 |
 
 ### 返回值
 
-如果访问者请求停止枚举，则为 False。
+`错误的`如果访问者请求停止枚举。
 
 ## 评论
 
-调用 DocumentVisitor.VisitAbsolutePositionTab。
+通话[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
 ## 例子
 
-显示如何使用文档访问者处理绝对位置制表符。
+演示如何使用文档访问者处理绝对位置制表符。
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // 通过接受这个自定义文档访问者来提取我们文档的文本内容。
+    // 通过接受此自定义文档访问者来提取文档的文本内容。
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // 绝对位置制表符，在字符串形式中没有等价物，已显式转换为制表符。
+    // 绝对位置制表符在字符串形式中没有等效项，已被显式转换为制表符。
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
     // AbsolutePositionTab 本身也可以接受 DocumentVisitor。
@@ -56,7 +56,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// 收集访问文档中所有运行的文本内容。用普通制表符替换所有绝对制表符。
+/// 收集访问文档中所有运行的文本内容。将所有绝对制表符替换为普通制表符。
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -84,7 +84,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将文本添加到当前输出。尊重启用/禁用的输出标志。
+    /// 将文本添加到当前输出。尊重启用/禁用输出标志。
     /// </summary>
     private void AppendText(string text)
     {

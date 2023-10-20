@@ -25,7 +25,7 @@ public enum ShapeMarkupLanguage : byte
 
 ## 例子
 
-演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
+演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// 我们保存的文档使用 DML 定义形状以符合“ISO/IEC 29500:2008”OOXML 标准。
+// 我们保存的文档使用 DML 定义形状，以遵守“ISO/IEC 29500:2008”OOXML 标准。
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

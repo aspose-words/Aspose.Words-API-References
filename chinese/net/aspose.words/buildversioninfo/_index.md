@@ -12,6 +12,8 @@ url: /zh/net/aspose.words/buildversioninfo/
 
 提供有关当前产品名称和版本的信息。
 
+要了解更多信息，请访问[输出文档中包含的生成者或生产者名称](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/)文档文章。
+
 ```csharp
 public static class BuildVersionInfo
 ```
@@ -25,7 +27,7 @@ public static class BuildVersionInfo
 
 ## 例子
 
-显示如何显示有关已安装的 Aspose.Words 版本的信息。
+演示如何显示有关已安装的 Aspose.Words 版本的信息。
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

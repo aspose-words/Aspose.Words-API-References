@@ -3,14 +3,14 @@ title: BaseWebExtensionCollection1.Count
 linktitle: Count
 articleTitle: Count
 second_title: 用于 .NET 的 Aspose.Words
-description: BaseWebExtensionCollection Count 财产. 获取集合中包含的元素数 在 C#.
+description: BaseWebExtensionCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/count/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Count property
 
-获取集合中包含的元素数。
+获取集合中包含的元素数量。
 
 ```csharp
 public int Count { get; }
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// 打印文档的网络扩展的所有属性。
+// 打印文档 Web 扩展的所有属性。
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {

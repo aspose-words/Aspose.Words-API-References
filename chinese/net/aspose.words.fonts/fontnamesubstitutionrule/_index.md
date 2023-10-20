@@ -10,7 +10,9 @@ url: /zh/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
-处理字体名称的字体替换规则。
+处理字体名称的字体替换规则.
+
+要了解更多信息，请访问[使用字体](https://docs.aspose.com/words/net/working-with-fonts/)文档文章。
 
 ```csharp
 public class FontNameSubstitutionRule : FontSubstitutionRule
@@ -24,7 +26,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 ## 评论
 
-根据此规则，Aspose.Words 尝试处理字体名称以获取替换。特别是 Aspose.Words 尝试删除带有“-”和“,”分隔符的后缀，就像 MS Word 一样。
+根据此规则，Aspose.Words 尝试处理字体名称以获取替换。特别是 Aspose.Words 尝试像 MS Word 一样删除带有“-”、“,”和“(”分隔符的后缀。
 
 ### 也可以看看
 

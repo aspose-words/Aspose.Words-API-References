@@ -3,14 +3,14 @@ title: Cell
 linktitle: Cell
 articleTitle: Cell
 second_title: 用于 .NET 的 Aspose.Words
-description: Cell 构造函数. 初始化细胞类 在 C#.
+description: Cell 构造函数. 初始化一个新实例Cell类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-初始化**细胞**类.
+初始化一个新实例[`Cell`](../)类.
 
 ```csharp
 public Cell(DocumentBase doc)
@@ -22,24 +22,24 @@ public Cell(DocumentBase doc)
 
 ## 评论
 
-什么时候**细胞**被创建，它属于指定的文档，但不是 还不是文档的一部分，并且**父节点**一片空白。
+什么时候[`Cell`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。
 
-追加**细胞**在要插入单元格的行上使用 InsertAfter 或 InsertBefore 到文档中。
+追加[`Cell`](../)到文档使用[`InsertAfter`](../../../aspose.words/compositenode/insertafter/)或者[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) 在您想要插入单元格的行上。
 
 ## 例子
 
-展示如何在不使用文档构建器的情况下构建嵌套表。
+演示如何在不使用文档生成器的情况下构建嵌套表。
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // 创建三行四列的外部表，然后将其添加到文档中。
+    // 创建三行四列的外表，然后将其添加到文档中。
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // 创建另一个包含两行两列的表，然后将其插入到第一个表的第一个单元格中。
+    // 创建另一个包含两行和两列的表格，然后将其插入到第一个表格的第一个单元格中。
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -68,10 +68,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // 您可以使用“标题”和“描述”属性分别为表格添加标题和描述。
-    // 在我们可以使用这些属性之前，表格必须至少有一行。
-    // 这些属性对于符合 ISO/IEC 29500 的 .docx 文档有意义（请参阅 OoxmlCompliance 类）。
-    // 如果我们将文档保存为 pre-ISO/IEC 29500 格式，Microsoft Word 会忽略这些属性。
+    // 您可以使用“标题”和“描述”属性分别向表格添加标题和描述。
+    // 在我们可以使用这些属性之前，表必须至少有一行。
+    // 这些属性对于符合 ISO / IEC 29500 的 .docx 文档有意义（请参阅 OoxmlCompliance 类）。
+    // 如果我们将文档保存为 ISO/IEC 29500 之前的格式，Microsoft Word 将忽略这些属性。
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

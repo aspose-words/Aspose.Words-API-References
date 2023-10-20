@@ -20,7 +20,7 @@ public void NormalizeFieldTypes()
 
 在影响字段类型的文档更改后使用此方法。
 
-要更改整个文档中的字段类型值，请使用[`NormalizeFieldTypes`](../../document/normalizefieldtypes/).
+要更改整个文档中的字段类型值，请使用[`NormalizeFieldTypes`](../../document/normalizefieldtypes/)。
 
 ### 也可以看看
 

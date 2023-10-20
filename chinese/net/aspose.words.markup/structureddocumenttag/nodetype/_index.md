@@ -3,14 +3,14 @@ title: StructuredDocumentTag.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag NodeType 财产. 返回NodeType.StructuredDocumentTag 在 C#.
+description: StructuredDocumentTag NodeType 财产. 返回StructuredDocumentTag 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-返回**NodeType.StructuredDocumentTag**.
+返回StructuredDocumentTag.
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -24,8 +24,8 @@ public override NodeType NodeType { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 以下是将文档中的样式应用到结构化文档标签的两种方法。
-// 1 - 应用文档样式集合中的样式对象：
+// 下面是将文档样式应用到结构化文档标签的两种方法。
+// 1 - 从文档的样式集合中应用样式对象：
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -44,6 +44,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

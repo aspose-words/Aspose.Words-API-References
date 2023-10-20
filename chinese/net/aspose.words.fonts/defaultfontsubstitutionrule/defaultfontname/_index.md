@@ -22,7 +22,7 @@ public string DefaultFontName { get; set; }
 
 ## 例子
 
-显示如何设置默认字体替换规则。
+演示如何设置默认字体替换规则。
 
 ```csharp
 Document doc = new Document();
@@ -30,17 +30,17 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // 获取 FontSettings 中的默认替换规则。
-// 此规则会将所有缺失的字体替换为“Times New Roman”。
+// 此规则将用“Times New Roman”替换所有缺失的字体。
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// 将默认字体替换为“Courier New”。
+// 将默认字体替换设置为“Courier New”。
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// 使用文档构建器，以我们不必看到替换发生的字体添加一些文本，
-// 然后将结果呈现在 PDF 中。
+// 使用文档生成器，以我们不必看到替换发生的字体添加一些文本，
+// 然后将结果呈现为 PDF。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";
@@ -49,7 +49,7 @@ builder.Writeln("Line written in a missing font, which will be substituted with 
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
 
-显示如何指定默认字体。
+演示如何指定默认字体。
 
 ```csharp
 Document doc = new Document();
@@ -68,12 +68,12 @@ Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
 // 将“DefaultFontName”属性设置为“Courier New”，
- // 在渲染文档时，在其他字体不可用时应用该字体。
+ // 渲染文档时，在其他字体不可用的所有情况下都应用该字体。
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Aspose.Words 现在将在任何渲染调用期间使用默认字体代替任何丢失的字体。
+// Aspose.Words 现在将在任何渲染调用期间使用默认字体来代替任何缺失的字体。
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ```
 

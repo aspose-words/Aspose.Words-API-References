@@ -3,14 +3,14 @@ title: CommentCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: 用于 .NET 的 Aspose.Words
-description: CommentCollection Item 财产. 检索一个评论在给定的索引处 在 C#.
+description: CommentCollection Item 财产. 检索Comment在给定的索引 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-检索一个**评论**在给定的索引处。
+检索[`Comment`](../../comment/)在给定的索引.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -18,17 +18,17 @@ public Comment this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 集合中的索引。 |
+| index | 集合的索引。 |
 
 ## 评论
 
-该索引从零开始。
+该索引是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
@@ -47,13 +47,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// 下面是从评论中删除回复的两种方法。
-// 1 - 使用“RemoveReply”方法从评论中单独删除回复：
+// 以下是从评论中删除回复的两种方法。
+// 1 - 使用“RemoveReply”方法单独删除评论中的回复：
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - 使用“RemoveAllReplies”方法一次删除评论中的所有回复：
+// 2 - 使用“RemoveAllReplies”方法一次性删除评论中的所有回复：
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

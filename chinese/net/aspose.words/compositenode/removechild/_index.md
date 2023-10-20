@@ -3,14 +3,14 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: 用于 .NET 的 Aspose.Words
-description: CompositeNode RemoveChild 方法. 移除指定的子节点 在 C#.
+description: CompositeNode RemoveChild 方法. 删除指定的子节点 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words/compositenode/removechild/
 ---
 ## CompositeNode.RemoveChild method
 
-移除指定的子节点。
+删除指定的子节点。
 
 ```csharp
 public Node RemoveChild(Node oldChild)
@@ -18,19 +18,19 @@ public Node RemoveChild(Node oldChild)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChild | Node | 要移除的节点。 |
+| oldChild | Node | 要删除的节点。 |
 
 ### 返回值
 
-移除的节点。
+删除的节点。
 
 ## 评论
 
-删除节点后，oldChild 的父级设置为 null。
+的父母*oldChild*被设定为`无效的`节点被删除后。
 
 ## 例子
 
-演示如何使用 Node 和 CompositeNode 的方法来删除文档中最后一个部分之前的部分。
+演示如何使用 Node 和 CompositeNode 的方法删除文档中最后一部分之前的部分。
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// 两个部分是彼此的兄弟。
+// 两个部分互为兄弟部分。
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
@@ -48,7 +48,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// 我们删除的部分是第一个，文档只剩下第二个。
+// 我们删除的部分是第一个部分，文档中只剩下第二个部分。
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

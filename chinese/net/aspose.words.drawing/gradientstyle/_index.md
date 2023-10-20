@@ -20,24 +20,24 @@ public enum GradientStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `-1` | 没有渐变。 |
-| Horizontal | `1` | 在对象上水平运行的渐变。 |
-| Vertical | `2` | 沿对象垂直向下的渐变。 |
-| DiagonalUp | `3` | 从底角向上移动到对角的对角梯度。 |
-| DiagonalDown | `4` | 从顶角向下移动到对角的对角梯度。 |
+| None | `-1` | 无渐变。 |
+| Horizontal | `1` | 渐变水平穿过对象。 |
+| Vertical | `2` | 垂直向下对象的渐变。 |
+| DiagonalUp | `3` | 从底角到对角的对角渐变。 |
+| DiagonalDown | `4` | 从顶角向下移动到对角的对角渐变。 |
 | FromCorner | `5` | 从一个角到其他三个角的渐变。 |
-| FromCenter | `6` | 从中心到角落的渐变。 |
+| FromCenter | `6` | 从中心向外到角落的渐变。 |
 
 ## 例子
 
-展示如何用渐变填充形状。
+演示如何使用渐变填充形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// 使用渐变填充的 ForeColor 对形状应用单色渐变填充。
+// 使用渐变填充的前景色对形状应用一种颜色渐变填充。
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -48,10 +48,10 @@ Assert.AreEqual(270, shape.Fill.GradientAngle);
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // 对形状应用双色渐变填充。
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// 改变渐变填充的背景颜色。
+// 更改渐变填充的背景颜色。
 shape.Fill.BackColor = Color.Yellow;
-// 注意将“GradientAngle”更改为“GradientStyle.FromCorner/GradientStyle.FromCenter”
-// 渐变填充没有任何效果，它只适用于线性渐变。
+// 请注意，将“GradientAngle”更改为“GradientStyle.FromCorner/GradientStyle.FromCenter”
+// 渐变填充不会产生任何效果，它仅适用于线性渐变。
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -59,7 +59,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// 如果您想获得“GradientStyle”，请使用合规性选项使用 DML 定义形状，
+// 如果你想获得“GradientStyle”，请使用compliance选项通过DML定义形状，
 // 文档保存后的“GradientVariant”和“GradientAngle”属性。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

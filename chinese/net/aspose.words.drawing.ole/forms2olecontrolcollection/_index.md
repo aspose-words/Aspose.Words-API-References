@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 
 代表集合[`Forms2OleControl`](../forms2olecontrol/)对象.
 
+要了解更多信息，请访问[使用 Ole 对象](https://docs.aspose.com/words/net/working-with-ole-objects/)文档文章。
+
 ```csharp
 public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 ```
@@ -27,13 +29,13 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | 获取集合中对象的计数。 |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | 获取[`Forms2OleControl`](../forms2olecontrol/)指定索引处的对象。 |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | 获取[`Forms2OleControl`](../forms2olecontrol/)指定索引处的对象. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() |  |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | 获取枚举器。 |
 
 ## 例子
 
@@ -42,14 +44,14 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// 形状在文档正文中存储和显示 OLE 对象。
+// Shapes 在文档主体中存储和显示 OLE 对象。
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// 一些 OLE 控件可能包含子控件，例如本文档中的具有三个选项按钮的控件。
+// 某些 OLE 控件可能包含子控件，例如本文档中带有三个选项按钮的控件。
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

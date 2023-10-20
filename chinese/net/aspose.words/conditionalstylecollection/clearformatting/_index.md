@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## 例子
 
-显示如何重置条件表样式。
+演示如何重置条件表样式。
 
 ```csharp
 Document doc = new Document();
@@ -35,13 +35,13 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// 设置表格样式，将表格第一行的边框涂成红色。
+// 设置表格样式，将表格第一行的边框着色为红色。
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// 设置表格样式，将表格最后一行的边框涂成蓝色。
+// 设置表格样式，将表格最后一行的边框着色为蓝色。
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// 下面是使用“ClearFormatting”方法清除条件样式的两种方式。
+// 下面是使用“ClearFormatting”方法清除条件样式的两种方法。
 // 1 - 清除表格特定部分的条件样式：
 tableStyle.ConditionalStyles[0].ClearFormatting();
 

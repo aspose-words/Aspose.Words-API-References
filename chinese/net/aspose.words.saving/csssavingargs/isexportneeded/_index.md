@@ -3,14 +3,14 @@ title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: 用于 .NET 的 Aspose.Words
-description: CssSavingArgs IsExportNeeded 财产. 允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中默认为真的. 当这个属性是错误的 CSS 信息不会保存到 CSS 文件中也不会嵌入到 HTML 文档中 在 C#.
+description: CssSavingArgs IsExportNeeded 财产. 允许指定 CSS 是否导出到文件并嵌入到 HTML 文档默认为真的. 当此属性为错误的CSS信息不会保存到CSS文件中也不会嵌入到HTML文档中 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/csssavingargs/isexportneeded/
 ---
 ## CssSavingArgs.IsExportNeeded property
 
-允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。默认为`真的`. 当这个属性是`错误的` CSS 信息不会保存到 CSS 文件中，也不会嵌入到 HTML 文档中。
+允许指定 CSS 是否导出到文件并嵌入到 HTML 文档。默认为`真的`. 当此属性为`错误的`，CSS信息不会保存到CSS文件中，也不会嵌入到HTML文档中。
 
 ```csharp
 public bool IsExportNeeded { get; set; }
@@ -18,23 +18,23 @@ public bool IsExportNeeded { get; set; }
 
 ## 例子
 
-展示如何使用 HTML 转换创建的 CSS 样式表。
+演示如何使用 HTML 转换创建的 CSS 样式表。
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-    // 修改我们如何将文档转换为 HTML。
+    // 创建一个“HtmlFixedSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+    // 修改我们将文档转换为 HTML 的方式。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”以
-    // 将保存的 HTML 文档与外部 CSS 样式表文件一起保存。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”即可
+    // 保存的 HTML 文档附带外部 CSS 样式表文件。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // 下面是为输出 CSS 样式表指定目录和文件名的两种方法。
-    // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配一个文件名：
+    // 以下是指定输出 CSS 样式表的目录和文件名的两种方法。
+    // 1 - 使用“CssStyleSheetFileName”属性为样式表分配文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - 使用自定义回调来命名我们的样式表：

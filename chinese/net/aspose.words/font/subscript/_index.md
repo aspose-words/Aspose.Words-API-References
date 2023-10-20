@@ -3,14 +3,14 @@ title: Font.Subscript
 linktitle: Subscript
 articleTitle: Subscript
 second_title: 用于 .NET 的 Aspose.Words
-description: Font Subscript 财产. 如果字体格式为下标则为真 在 C#.
+description: Font Subscript 财产. 如果字体格式为下标则为 True 在 C#.
 type: docs
 weight: 430
 url: /zh/net/aspose.words/font/subscript/
 ---
 ## Font.Subscript property
 
-如果字体格式为下标则为真。
+如果字体格式为下标，则为 True。
 
 ```csharp
 public bool Subscript { get; set; }
@@ -18,18 +18,18 @@ public bool Subscript { get; set; }
 
 ## 例子
 
-显示如何格式化文本以偏移其位置。
+演示如何设置文本格式以偏移其位置。
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// 将此行文本提高到基线以上 5 点。
+// 将这行文本提高到基线以上 5 点。
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// 将此行文本降低到基线以下 10 个点。
+// 将这行文本降低到基线以下 10 点。
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);
@@ -38,12 +38,12 @@ para.AppendChild(run);
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// 添加一系列显示为下标的文本。
+// 添加一串显示为下标的文本。
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// 添加一系列显示为上标的文本。
+// 添加一串显示为上标的文本。
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

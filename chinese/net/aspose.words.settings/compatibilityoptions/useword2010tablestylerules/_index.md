@@ -3,12 +3,14 @@ title: CompatibilityOptions.UseWord2010TableStyleRules
 linktitle: UseWord2010TableStyleRules
 articleTitle: UseWord2010TableStyleRules
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions UseWord2010TableStyleRules 财产.  在 C#.
+description: CompatibilityOptions UseWord2010TableStyleRules 财产. 指定使用 Word2010 表格样式规则 在 C#.
 type: docs
 weight: 670
 url: /zh/net/aspose.words.settings/compatibilityoptions/useword2010tablestylerules/
 ---
 ## CompatibilityOptions.UseWord2010TableStyleRules property
+
+指定使用 Word2010 表格样式规则。
 
 ```csharp
 public bool UseWord2010TableStyleRules { get; set; }

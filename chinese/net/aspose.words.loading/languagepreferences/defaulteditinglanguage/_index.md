@@ -12,7 +12,7 @@ url: /zh/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 
 获取或设置默认编辑语言。
 
-默认值为EnglishUS.
+默认值为EnglishUS。
 
 ```csharp
 public EditingLanguage DefaultEditingLanguage { get; set; }

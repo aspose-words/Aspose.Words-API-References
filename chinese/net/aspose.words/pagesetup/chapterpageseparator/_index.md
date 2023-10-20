@@ -20,6 +20,20 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 
 在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
 
+## 例子
+
+展示如何使用页面章节。
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
+
 ### 也可以看看
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)

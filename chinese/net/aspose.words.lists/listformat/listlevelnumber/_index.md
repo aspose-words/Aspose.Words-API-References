@@ -18,13 +18,13 @@ public int ListLevelNumber { get; set; }
 
 ## 评论
 
-在 Word 文档中，列表可能由 1 或 9 个级别组成，编号为 0 到 8。
+在 Word 文档中，列表可能由 1 或 9 级组成，编号为 0 到 8。
 
-只有当[`List`](../list/)属性设置为引用有效列表。
+仅当[`List`](../list/)属性设置为引用有效列表。
 
 ## 例子
 
-显示如何使用列表级别。
+展示如何使用列表级别。
 
 ```csharp
 Document doc = new Document();
@@ -32,21 +32,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// 列表允许我们用前缀符号和缩进组织和装饰段落集。
-// 我们可以通过增加缩进级别来创建嵌套列表。 
-// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+// 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
+ // 我们可以通过增加缩进级别来创建嵌套列表。
+ // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
 // 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 下面是我们可以使用文档构建器创建的两种类型的列表。
+// 下面是我们可以使用文档生成器创建的两种类型的列表。
 // 1 - 编号列表：
 // 编号列表通过对每个项目进行编号来为其段落创建逻辑顺序。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// 通过设置“ListLevelNumber”属性，我们可以增加列表层级
-// 在当前列表项开始一个自包含的子列表。
+// 通过设置“ListLevelNumber”属性，我们可以增加列表级别
+// 在当前列表项处开始一个独立的子列表。
 // 名为“NumberDefault”的 Microsoft Word 列表模板使用数字为第一个列表级别创建列表级别。
-// 更深的列表级别使用字母和小写罗马数字。 
+ // 更深的列表级别使用字母和小写罗马数字。
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -54,7 +54,7 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - 项目符号列表：
-// 此列表将在每个段落之前应用缩进和项目符号 ("•")。
+// 此列表将在每个段落之前应用缩进和项目符号（“•”）。
 // 此列表的更深层次将使用不同的符号，例如“■”和“○”。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
@@ -64,7 +64,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// 我们可以通过取消设置“列表”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+// 我们可以通过取消设置“List”标志来禁用列表格式，以不将任何后续段落格式化为列表。
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -72,7 +72,7 @@ Assert.False(builder.ListFormat.IsListItem);
 doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ```
 
-展示如何创建项目符号列表和编号列表。
+演示如何创建项目符号列表和编号列表。
 
 ```csharp
 Document doc = new Document();
@@ -80,13 +80,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Aspose.Words main advantages are:");
 
-// 列表允许我们用前缀符号和缩进组织和装饰段落集。
-// 我们可以通过增加缩进级别来创建嵌套列表。 
-// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+// 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
+ // 我们可以通过增加缩进级别来创建嵌套列表。
+ // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
 // 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 下面是我们可以使用文档构建器创建的两种类型的列表。
+// 下面是我们可以使用文档生成器创建的两种类型的列表。
 // 1 - 项目符号列表：
-// 此列表将在每个段落之前应用缩进和项目符号 ("•")。
+// 此列表将在每个段落之前应用缩进和项目符号（“•”）。
 builder.ListFormat.ApplyBulletDefault();
 builder.Writeln("Great performance");
 builder.Writeln("High reliability");
@@ -94,7 +94,7 @@ builder.Writeln("Quality code and working");
 builder.Writeln("Wide variety of features");
 builder.Writeln("Easy to understand API");
 
-//结束项目符号列表。
+// 结束项目符号列表。
 builder.ListFormat.RemoveNumbers();
 
 builder.InsertBreak(BreakType.ParagraphBreak);
@@ -104,20 +104,20 @@ builder.Writeln("Aspose.Words allows:");
 // 编号列表通过对每个项目进行编号来为其段落创建逻辑顺序。
 builder.ListFormat.ApplyNumberDefault();
 
-// 本段为第一项。编号列表的第一项将具有“1”。作为其列表项符号。
+// 本段是第一项。编号列表的第一项将为“1”。作为其列表项符号。
 builder.Writeln("Opening documents from different formats:");
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
-// 调用“ListIndent”方法增加当前列表层级，
-// 这将在第一级列表的当前项开始一个新的独立列表，缩进更深。
+// 调用“ListIndent”方法增加当前列表级别，
+// 这将在第一个列表级别的当前项目处启动一个新的自包含列表，并具有更深的缩进。
 builder.ListFormat.ListIndent();
 
 Assert.AreEqual(1, builder.ListFormat.ListLevelNumber);
 
-// 这些是第二级列表的前三个列表项，会维护一个计数
-// 与第一个列表级别的计数无关。按照目前的列表格式，
-// 它们将具有“a.”、“b.”和“c.”的符号。
+// 这些是第二级列表的前三个列表项，它将维护一个计数
+// 与第一个列表级别的计数无关。按照目前的名单格式，
+// 它们将具有“a.”、“b.”和“c.”符号。
 builder.Writeln("DOC");
 builder.Writeln("PDF");
 builder.Writeln("HTML");
@@ -127,14 +127,14 @@ builder.ListFormat.ListOutdent();
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
-// 这两个段落会继续第一个列表级别的计数。
-// 这些项目将有符号“2.”和“3.”
+// 这两段将继续第一个列表级别的计数。
+// 这些项目将具有符号“2.”和“3.”
 builder.Writeln("Processing documents");
 builder.Writeln("Saving documents in different formats:");
 
 // 如果我们将列表级别增加到之前添加项目的级别，
-// 嵌套列表将与前一个分开，并且它的编号将从头开始。 
-// 这些列表项将具有“a.”、“b.”、“c.”、“d.”和“e”的符号。
+ // 嵌套列表将与前一个列表分开，并且其编号将从头开始。
+// 这些列表项将具有“a.”、“b.”、“c.”、“d.”和“e”符号。
 builder.ListFormat.ListIndent();
 builder.Writeln("DOC");
 builder.Writeln("PDF");
@@ -142,11 +142,11 @@ builder.Writeln("HTML");
 builder.Writeln("MHTML");
 builder.Writeln("Plain text");
 
-// 再次突出列表级别。
+// 再次减少列表级别。
 builder.ListFormat.ListOutdent();
 builder.Writeln("Doing many other things!");
 
-//结束编号列表。
+// 结束编号列表。
 builder.ListFormat.RemoveNumbers();
 
 doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");

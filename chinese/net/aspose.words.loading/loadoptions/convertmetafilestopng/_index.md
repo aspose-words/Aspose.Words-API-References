@@ -18,11 +18,11 @@ public bool ConvertMetafilesToPng { get; set; }
 
 ## 评论
 
-元文件 (Wmf或者Emf ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。 此选项允许将所有元文件图像转换为Png在文档加载时。 请注意 - 将矢量图形转换为光栅会降低图像的质量。
+图元文件 (Wmf或者Emf ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。 此选项允许将所有图元文件图像转换为Png文档加载时。 请注意 - 将矢量图形转换为光栅会降低图像质量。
 
 ## 例子
 
-显示如何在加载文档期间将 WMF/EMF 转换为 PNG。
+演示如何在加载文档期间将 WMF/EMF 转换为 PNG。
 
 ```csharp
 Document doc = new Document();

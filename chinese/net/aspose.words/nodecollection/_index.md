@@ -12,6 +12,8 @@ url: /zh/net/aspose.words/nodecollection/
 
 表示特定类型的节点集合。
 
+要了解更多信息，请访问[Aspose.Words 文档对象模型 (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
+
 ```csharp
 public class NodeCollection : IEnumerable<Node>
 ```
@@ -27,27 +29,27 @@ public class NodeCollection : IEnumerable<Node>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | 将一个节点添加到集合的末尾。 |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | 将节点添加到集合的末尾。 |
 | [Clear](../../aspose.words/nodecollection/clear/)() | 从此集合和文档中删除所有节点。 |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | 确定一个节点是否在集合中。 |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | 确定节点是否在集合中。 |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | 在节点集合上提供简单的“foreach”样式迭代。 |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | 返回指定节点的从零开始的索引。 |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | 将一个节点插入到集合中指定索引处。 |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | 将节点插入集合中指定索引处。 |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | 从集合和文档中删除节点。 |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | 从集合和文档中删除指定索引处的节点。 |
-| [ToArray](../../aspose.words/nodecollection/toarray/)() | 将集合中的所有节点复制到新的节点数组中。 |
+| [ToArray](../../aspose.words/nodecollection/toarray/)() | 将集合中的所有节点复制到新的节点数组。 |
 
 ## 评论
 
-**节点集合**不拥有它包含的节点，而只是指定类型的nodes 的选择，但节点存储在它们各自父节点下的树中。
+`NodeCollection`不拥有它包含的节点，而是只是指定类型的节点 的选择，但节点存储在树中各自的父节点下。
 
-**节点集合**支持索引访问、迭代并提供添加和删除方法。
+`NodeCollection`支持索引访问、迭代并提供添加和删除方法。
 
-这**节点集合**集合是“实时的”，即对创建它的节点 object 的子节点所做的更改会立即反映在由**节点集合** 属性和方法。
+这`NodeCollection`集合是“实时”的，即对创建它的节点 object 的子节点所做的更改会立即反映在由`NodeCollection` 属性和方法。
 
-**节点集合**由返回[`GetChildNodes`](../compositenode/getchildnodes/) 并且还用作类型化节点集合的基类，例如[`SectionCollection`](../sectioncollection/), [`ParagraphCollection`](../paragraphcollection/)等等
+`NodeCollection`由返回[`GetChildNodes`](../compositenode/getchildnodes/) 并且还用作类型化节点集合的基类，例如[`SectionCollection`](../sectioncollection/), [`ParagraphCollection`](../paragraphcollection/) ETC。
 
-**节点集合**可以是“平面的”并且只包含创建它的节点的直接子节点 ，或者它可以是“深的”并且包含所有后代子节点。
+`NodeCollection`可以是“扁平”的并且仅包含其创建的节点 的直接子节点，也可以是“深”的并且包含所有后代子节点。
 
 ## 例子
 

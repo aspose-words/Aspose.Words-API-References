@@ -3,14 +3,14 @@ title: PageSetup.BorderAppliesTo
 linktitle: BorderAppliesTo
 articleTitle: BorderAppliesTo
 second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup BorderAppliesTo 财产. 指定打印页面边框的页面 在 C#.
+description: PageSetup BorderAppliesTo 财产. 指定在哪些页面上打印页面边框 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/pagesetup/borderappliesto/
 ---
 ## PageSetup.BorderAppliesTo property
 
-指定打印页面边框的页面。
+指定在哪些页面上打印页面边框。
 
 ```csharp
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
@@ -18,7 +18,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ## 例子
 
-展示如何在第一页的顶部创建一个宽的蓝色边框。
+演示如何在第一页顶部创建宽蓝色带边框。
 
 ```csharp
 Document doc = new Document();

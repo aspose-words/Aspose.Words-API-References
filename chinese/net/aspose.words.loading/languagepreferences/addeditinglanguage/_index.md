@@ -18,7 +18,7 @@ public void AddEditingLanguage(EditingLanguage language)
 
 ## 例子
 
-显示如何在加载文档时应用语言首选项。
+演示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

@@ -3,27 +3,31 @@ title: Fill.Color
 linktitle: Color
 articleTitle: Color
 second_title: 用于 .NET 的 Aspose.Words
-description: Fill Color 财产. 获取或设置表示填充前景色的 Color 对象 在 C#.
+description: Fill Color 财产. 获取或设置一个 Color 对象该对象表示填充的前景色 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
 
-获取或设置表示填充前景色的 Color 对象。
+获取或设置一个 Color 对象，该对象表示填充的前景色。
 
 ```csharp
 public Color Color { get; set; }
 ```
 
+## 评论
+
+该属性保留了 alpha 分量Color, 与[`ForeColor`](../forecolor/)属性，将其重置为完全不透明的颜色。
+
 ## 例子
 
-显示如何将任何填充转换回实体填充。
+演示如何将任何填充转换回实体填充。
 
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
-// 获取第一个 Run 的 Font 的 Fill 对象。
+// 获取第一次运行的字体的填充对象。
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
 // 检查字体的填充属性。

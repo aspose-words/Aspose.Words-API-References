@@ -3,14 +3,14 @@ title: Bookmark.BookmarkEnd
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: 用于 .NET 的 Aspose.Words
-description: Bookmark BookmarkEnd 财产. 获取代表书签结束的节点 在 C#.
+description: Bookmark BookmarkEnd 财产. 获取表示书签末尾的节点 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/bookmark/bookmarkend/
 ---
 ## Bookmark.BookmarkEnd property
 
-获取代表书签结束的节点。
+获取表示书签末尾的节点。
 
 ```csharp
 public BookmarkEnd BookmarkEnd { get; }
@@ -18,7 +18,7 @@ public BookmarkEnd BookmarkEnd { get; }
 
 ## 例子
 
-展示如何添加书签和更新其内容。
+展示如何添加书签并更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -26,19 +26,18 @@ public void CreateUpdateAndPrintBookmarks()
     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
+    // 可以通过索引或名称在书签集合中访问书签，并且可以更新其名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新的值。
+    // 再次打印所有书签以查看更新后的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// 创建一个具有给定数量书签的文档。
+/// 创建具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {

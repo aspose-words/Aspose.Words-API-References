@@ -18,23 +18,24 @@ public override bool Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 将访问节点的访问者。 |
+| visitor | DocumentVisitor | 将访问该节点的访问者。 |
 
 ### 返回值
 
-**错误的**如果访问者请求枚举停止。
+**错误的**如果访问者请求停止枚举。
 
 ## 评论
 
-来电[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
+通话[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
 ## 例子
 
 展示如何使用字段集合。
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -73,6 +74,7 @@ public override bool Accept(DocumentVisitor visitor)
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。

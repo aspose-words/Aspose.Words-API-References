@@ -3,14 +3,14 @@ title: ImageData.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: 用于 .NET 的 Aspose.Words
-description: ImageData ImageBytes 财产. 获取或设置存储在 shape 中的图像的原始字节数 在 C#.
+description: ImageData ImageBytes 财产. 获取或设置存储在形状中的图像的原始字节 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/imagedata/imagebytes/
 ---
 ## ImageData.ImageBytes property
 
-获取或设置存储在 shape 中的图像的原始字节数。
+获取或设置存储在形状中的图像的原始字节。
 
 ```csharp
 public byte[] ImageBytes { get; set; }
@@ -18,9 +18,9 @@ public byte[] ImageBytes { get; set; }
 
 ## 评论
 
-将值设置为`无效的`或者一个空数组将从形状中删除图像。
+将值设置为`无效的`或者空数组将从形状中删除图像。
 
-退货`无效的`如果图像未存储在文档中（例如，在这种情况下图像可能是链接的）。
+退货`无效的`如果图像未存储在文档中（例如，在这种情况下图像可能已链接）。
 
 ## 例子
 
@@ -28,7 +28,6 @@ public byte[] ImageBytes { get; set; }
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

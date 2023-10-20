@@ -18,26 +18,27 @@ public ChartAxisType Type { get; }
 
 ## 例子
 
-展示如何为图表类型创建适当类型的图表系列。
+展示如何为图形类型创建适当类型的图表系列。
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 有几种方法可以填充图表的系列集合。
+    // 有多种方法可以填充图表的系列集合。
     // 不同的系列模式适用于不同的图表类型。
-    // 1 - 柱形图，柱形图按类别沿 X 轴分组和带状：
+    // 1 - 柱形图，其中的柱按类别沿 X 轴分组和排列：
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
     // 插入两个系列的十进制值，其中包含每个相应类别的值。
-    // 这个柱形图将有三组，每组有两列。
+    // 此柱形图将包含三组，每组有两列。
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // 类别沿 X 轴分布，值沿 Y 轴分布。
+    // 类别沿X轴分布，值沿Y轴分布。
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
@@ -51,9 +52,9 @@ public ChartAxisType Type { get; }
         new DateTime(2020, 9, 7)
     };
 
-    // 为每个日期插入一个带有十进制值的系列。
+    // 为每个相应日期插入一个带有十进制值的系列。
     // 日期将沿线性 X 轴分布，
-    // 添加到这个系列的值将创建数据点。
+    // 添加到该系列的值将创建数据点。
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -63,8 +64,8 @@ public ChartAxisType Type { get; }
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // 每个系列都需要两个长度相等的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值
-    // 图表图形上的数据点。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值
+    // 图表上的数据点。
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -78,9 +79,9 @@ public ChartAxisType Type { get; }
     // 4 - 气泡图：
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // 每个系列都需要三个等长的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值，
-    // 第三个包含每个图形数据点的直径。
+    // 每个系列需要三个长度相等的十进制数组。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值，
+    // 第三个包含图表每个数据点的直径。
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
         new [] { 1.2, 4.9, 9.9 }, 
@@ -90,7 +91,7 @@ public ChartAxisType Type { get; }
 }
 
 /// <summary>
-/// 使用指定 ChartType、宽度和高度的文档构建器插入图表，并删除其演示数据。
+/// 使用指定图表类型、宽度和高度的文档生成器插入图表，并删除其演示数据。
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

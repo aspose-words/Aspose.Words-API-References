@@ -20,9 +20,9 @@ public enum HorizontalRuleAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 向左对齐。 |
+| Left | `0` | 左对齐。 |
 | Center | `1` | 与中心对齐。 |
-| Right | `2` | 向右对齐。 |
+| Right | `2` | 右对齐。 |
 
 ### 也可以看看
 

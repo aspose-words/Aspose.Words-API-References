@@ -3,14 +3,14 @@ title: BarcodeParameters.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: 用于 .NET 的 Aspose.Words
-description: BarcodeParameters ScalingFactor 财产. 符号的比例因子该值以整数为单位有效值为 10 1000 在 C#.
+description: BarcodeParameters ScalingFactor 财产. 符号的缩放因子该值以整数百分比表示有效值为 10 1000 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.fields/barcodeparameters/scalingfactor/
 ---
 ## BarcodeParameters.ScalingFactor property
 
-符号的比例因子。该值以整数为单位，有效值为 [10, 1000].
+符号的缩放因子。该值以整数百分比表示，有效值为 [10, 1000].
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -23,14 +23,13 @@ public string ScalingFactor { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
 // 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
-// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
-// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
+// 对于每个条形码，我们指定一组新的条形码参数，然后生成图像。
+// 之后，我们可以将图像插入到文档中，或者将其保存到本地文件系统。
 // 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

@@ -18,20 +18,20 @@ public object Value { get; set; }
 
 ## 评论
 
-不能为空。
+不可能是`无效的`。
 
 ## 例子
 
-显示如何使用内置文档属性。
+展示如何使用内置文档属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// “文档”对象在其成员中包含一些元数据。
+// “Document”对象在其成员中包含一些元数据。
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// 文档还在其内置属性中存储元数据。
-// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
+// 该文档还将元数据存储在其内置属性中。
+// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

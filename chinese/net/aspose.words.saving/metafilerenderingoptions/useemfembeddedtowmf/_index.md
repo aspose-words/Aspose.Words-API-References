@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
 linktitle: UseEmfEmbeddedToWmf
 articleTitle: UseEmfEmbeddedToWmf
 second_title: 用于 .NET 的 Aspose.Words
-description: MetafileRenderingOptions UseEmfEmbeddedToWmf 财产. 获取或设置一个值该值确定应如何呈现具有嵌入式 EMF 元文件的 WMF 元文件 在 C#.
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf 财产. 获取或设置一个值确定如何呈现嵌入 EMF 图元文件的 WMF 图元文件 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 ---
 ## MetafileRenderingOptions.UseEmfEmbeddedToWmf property
 
-获取或设置一个值，该值确定应如何呈现具有嵌入式 EMF 元文件的 WMF 元文件。
+获取或设置一个值，确定如何呈现嵌入 EMF 图元文件的 WMF 图元文件。
 
 ```csharp
 public bool UseEmfEmbeddedToWmf { get; set; }
@@ -18,38 +18,38 @@ public bool UseEmfEmbeddedToWmf { get; set; }
 
 ## 评论
 
-WMF 元文件可以包含嵌入的 EMF 数据。 MS Word 在大多数情况下使用嵌入的 EMF 数据。 GDI+ 始终使用 WMF 数据。
+WMF 图元文件可以包含嵌入的 EMF 数据。大多数情况下，MS Word 使用嵌入的 EMF 数据。 GDI+ 始终使用 WMF 数据。
 
-当此值设置为`真的`Aspose.Words 在渲染时使用嵌入的 EMF 数据。
+当该值设置为`真的`，Aspose.Words 在渲染时使用嵌入的 EMF 数据。
 
-当此值设置为`错误的`, Aspose.Words 在渲染时使用 WMF 数据。
+当该值设置为`错误的`，Aspose.Words在渲染时使用WMF数据。
 
-此选项仅在元文件呈现为矢量图形时使用。当元文件render 到位图时，总是使用WMF 数据。
+仅当图元文件呈现为矢量图形时才使用此选项。当图元文件渲染 位图时，始终使用 WMF 数据。
 
-默认值为`真的`.
+默认值为`真的`。
 
 ## 例子
 
-显示保存为 PDF 时如何配置增强的 Windows 图元文件相关的呈现选项。
+演示如何在保存为 PDF 时配置增强型 Windows 图元文件相关的渲染选项。
 
 ```csharp
 Document doc = new Document(MyDir + "EMF.docx");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改该方法如何将文档转换为 .PDF。
+// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // 将“EmfPlusDualRenderingMode”属性设置为“EmfPlusDualRenderingMode.Emf”
-// 仅渲染 EMF+ 双元文件的 EMF 部分。
-// 将“EmfPlusDualRenderingMode”属性设置为“EmfPlusDualRenderingMode.EmfPlus”以
-// 渲染 EMF+ 双元文件的 EMF+ 部分。
+// 仅渲染 EMF+ 双图元文件的 EMF 部分。
+// 将“EmfPlusDualRenderingMode”属性设置为“EmfPlusDualRenderingMode.EmfPlus”
+// 渲染 EMF+ 双图元文件的 EMF+ 部分。
 // 将“EmfPlusDualRenderingMode”属性设置为“EmfPlusDualRenderingMode.EmfPlusWithFallback”
-// 如果支持所有 EMF+ 记录，则呈现 EMF+ 双元文件的 EMF+ 部分。
+// 如果支持所有 EMF+ 记录，则渲染 EMF+ 双图元文件的 EMF+ 部分。
 // 否则，Aspose.Words 将渲染 EMF 部分。
 saveOptions.MetafileRenderingOptions.EmfPlusDualRenderingMode = renderingMode;
 
-// 将“UseEmfEmbeddedToWmf”属性设置为“true”以呈现嵌入的 EMF 数据
-// 对于我们可以渲染为矢量图形的元文件。
+// 将“UseEmfEmbeddedToWmf”属性设置为“true”以渲染嵌入的 EMF 数据
+// 用于我们可以渲染为矢量图形的图元文件。
 saveOptions.MetafileRenderingOptions.UseEmfEmbeddedToWmf = true;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);

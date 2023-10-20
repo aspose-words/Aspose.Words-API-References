@@ -3,12 +3,14 @@ title: CompatibilityOptions.DisableOpenTypeFontFormattingFeatures
 linktitle: DisableOpenTypeFontFormattingFeatures
 articleTitle: DisableOpenTypeFontFormattingFeatures
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions DisableOpenTypeFontFormattingFeatures 财产.  在 C#.
+description: CompatibilityOptions DisableOpenTypeFontFormattingFeatures 财产. 指定禁用 OpenType 字体格式化功能 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/
 ---
 ## CompatibilityOptions.DisableOpenTypeFontFormattingFeatures property
+
+指定禁用 OpenType 字体格式化功能。
 
 ```csharp
 public bool DisableOpenTypeFontFormattingFeatures { get; set; }

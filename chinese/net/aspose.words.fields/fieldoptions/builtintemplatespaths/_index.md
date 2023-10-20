@@ -18,18 +18,18 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ## 评论
 
-该属性由[`FieldAutoText`](../../fieldautotext/)和[`FieldGlossary`](../../fieldglossary/)字段，如果在[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)模板。
+该属性由[`FieldAutoText`](../../fieldautotext/)和[`FieldGlossary`](../../fieldglossary/)字段，如果在中找不到引用的自动文本条目[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)模板。
 
-默认情况下，MS Word 将内置模板存储在 c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm 文件。
+默认情况下，MS Word 将内置模板存储在 c:\Users\&lt;用户名&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;用户名&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm 文件。
 
 ## 例子
 
-演示如何显示带有 AUTOTEXT 和 GLOSSARY 字段的构建块。
+演示如何显示带有自动文本和词汇表字段的构建块。
 
 ```csharp
 Document doc = new Document();
 
-// 创建词汇表文档并向其添加自动图文集构建块。
+// 创建词汇表文档并向其中添加自动图文集构建块。
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -52,14 +52,14 @@ doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是两种使用字段来显示我们构建块的内容的方法。
+// 下面是使用字段来显示构建块内容的两种方法。
 // 1 - 使用自动文本字段：
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - 使用词汇表字段：
+// 2 - 使用 GLOSSARY 字段：
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

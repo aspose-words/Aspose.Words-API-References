@@ -21,11 +21,11 @@ public enum DocumentSecurity
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 属性没有指定安全状态。 |
-| PasswordProtected | `1` | 文档受密码保护。 （到目前为止从未在文档中看到过注释）. |
-| ReadOnlyRecommended | `2` | 尽可能以只读方式打开的文档，但可以覆盖设置。 |
+| None | `0` | 该属性没有指定安全状态。 |
+| PasswordProtected | `1` | 该文档受密码保护。 （迄今为止在文档中从未见过注释）. |
+| ReadOnlyRecommended | `2` | 如果可能，以只读方式打开文档，但可以覆盖该设置。 |
 | ReadOnlyEnforced | `4` | 始终以只读方式打开的文档。 |
-| ReadOnlyExceptAnnotations | `8` | 始终以只读方式打开的文档，注释除外。 |
+| ReadOnlyExceptAnnotations | `8` | 除注释外始终以只读方式打开的文档。 |
 
 ## 例子
 
@@ -36,7 +36,7 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// 如果我们将文档配置为只读，它将使用“安全”内置属性显示此状态。
+// 如果我们将文档配置为只读，它将使用“Security”内置属性显示此状态。
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// “安全”是一个描述性属性。我们可以手动编辑它的值。
+//“安全”是一个描述性属性。我们可以手动编辑它的值。
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

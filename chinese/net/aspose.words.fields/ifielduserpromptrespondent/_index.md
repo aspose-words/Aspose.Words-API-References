@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent Interface
 linktitle: IFieldUserPromptRespondent
 articleTitle: IFieldUserPromptRespondent
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.IFieldUserPromptRespondent 界面. 表示字段更新期间对用户提示的响应者 在 C#.
+description: Aspose.Words.Fields.IFieldUserPromptRespondent 界面. 表示字段更新期间用户提示的响应者 在 C#.
 type: docs
 weight: 2740
 url: /zh/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
 
-表示字段更新期间对用户提示的响应者。
+表示字段更新期间用户提示的响应者。
 
 ```csharp
 public interface IFieldUserPromptRespondent
@@ -20,24 +20,23 @@ public interface IFieldUserPromptRespondent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | 实施时，在提示时返回用户的响应。 您的实施应返回**无效的**表示用户没有响应提示 （即用户在提示窗口中按下了取消按钮）。 |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | 实现后，根据提示返回用户的响应。 您的实现应该返回`无效的`表示用户尚未响应提示 （即用户已按下提示窗口中的“取消”按钮）。 |
 
 ## 评论
 
-ASK 和 FILLIN 字段是提示用户做出某些响应的字段示例。实现这个 interface 并将其分配给[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/)在字段 update 和 user. 之间建立交互的属性
+ASK 和 FILLIN 字段是提示用户进行某些响应的字段示例。实现这个接口 并将其分配给[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/)用于在字段 update 和用户之间建立交互的属性。
 
 ## 例子
 
-展示如何创建 ASK 字段并设置其属性。
+演示如何创建 ASK 字段并设置其属性。
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 放置一个字段，将放置对我们的 ASK 字段的响应。
+    // 放置一个字段，用于放置对 ASK 字段的响应。
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -56,7 +55,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK 字段在邮件合并期间将默认响应应用于其各自的 REF 字段。
+    // 在邮件合并期间，ASK 字段将默认响应应用于各自的 REF 字段。
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -65,13 +64,14 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // 我们可以使用自定义提示响应器修改或覆盖 ASK 字段中的默认响应，
+    // 我们可以使用自定义提示响应程序修改或覆盖 ASK 字段中的默认响应，
     // 这将在邮件合并期间发生。
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// 在邮件合并期间将文本添加到 ASK 字段的默认响应中。

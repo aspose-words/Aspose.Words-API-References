@@ -22,25 +22,25 @@ public void AutoFit(AutoFitBehavior behavior)
 
 ## 评论
 
-此方法模仿 Microsoft Word 中表格的自动调整菜单中可用的命令。 可用的命令是“自动调整到内容”、“自动调整到窗口”和“固定列宽”。在 Microsoft Word 中，这些命令设置相关的表格属性，然后更新表格布局，Aspose.Words 为您做同样的事情。
+此方法模仿 Microsoft Word 中表格的“自动调整”菜单中可用的命令。 可用的命令是“自动调整到内容”、“自动调整到窗口”和“固定列宽”。在 Microsoft Word 中，这些命令设置相关的表格属性，然后更新表格布局，Aspose.Words 会为您执行相同的操作。
 
 ## 例子
 
-展示如何在应用样式时构建新表格。
+演示如何在应用样式时构建新表格。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// 在设置任何表格格式之前，我们必须至少插入一行。
+// 在设置任何表格格式之前，我们必须插入至少一行。
 builder.InsertCell();
 
 // 根据样式标识符设置使用的表格样式。
-// 请注意，当保存为 .doc 格式时，并非所有表格样式都可用。
+// 请注意，保存为 .doc 格式时并非所有表格样式都可用。
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// 根据谓词将样式部分应用于表格的特征，然后构建表格。
+// 根据谓词将样式部分应用到表的特征，然后构建表。
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

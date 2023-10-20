@@ -3,14 +3,16 @@ title: WebExtensionBinding Class
 linktitle: WebExtensionBinding
 articleTitle: WebExtensionBinding
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.WebExtensions.WebExtensionBinding 班级. 指定 Web 扩展和文档中的数据之间的绑定关系 在 C#.
+description: Aspose.Words.WebExtensions.WebExtensionBinding 班级. 指定 Web 扩展与文档中的数据之间的绑定关系 在 C#.
 type: docs
 weight: 6750
 url: /zh/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-指定 Web 扩展和文档中的数据之间的绑定关系。
+指定 Web 扩展与文档中的数据之间的绑定关系。
+
+要了解更多信息，请访问[使用 Office 加载项](https://docs.aspose.com/words/net/work-with-office-add-ins/)文档文章。
 
 ```csharp
 public class WebExtensionBinding
@@ -26,7 +28,7 @@ public class WebExtensionBinding
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | 指定用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。 |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | 指定用于映射此列表中的绑定条目与文档中的绑定数据的绑定键。 |
 | [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | 指定绑定类型。 |
 | [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | 指定绑定标识符。 |
 

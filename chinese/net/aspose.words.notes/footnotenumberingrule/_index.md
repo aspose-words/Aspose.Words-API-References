@@ -3,14 +3,14 @@ title: FootnoteNumberingRule Enum
 linktitle: FootnoteNumberingRule
 articleTitle: FootnoteNumberingRule
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Notes.FootnoteNumberingRule 枚举. 确定自动脚注或尾注编号何时重新开始 在 C#.
+description: Aspose.Words.Notes.FootnoteNumberingRule 枚举. 确定何时重新启动自动脚注或尾注编号 在 C#.
 type: docs
 weight: 4270
 url: /zh/net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration
 
-确定自动脚注或尾注编号何时重新开始。
+确定何时重新启动自动脚注或尾注编号。
 
 ```csharp
 public enum FootnoteNumberingRule
@@ -21,8 +21,8 @@ public enum FootnoteNumberingRule
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Continuous | `0` | 在整个文档中连续编号。 |
-| RestartSection | `1` | 在每个部分重新开始编号。 |
-| RestartPage | `2` | 在每一页重新开始编号。仅对脚注有效。 |
+| RestartSection | `1` | 每个部分重新编号。 |
+| RestartPage | `2` | 每页重新编号。仅对脚注有效。 |
 | Default | `0` | 等于Continuous. |
 
 ## 例子
@@ -33,14 +33,14 @@ public enum FootnoteNumberingRule
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 脚注和尾注是一种将参考或旁注附加到文本的方法
-// 这不会干扰主体文本的流动。 
-// 插入脚注/尾注会添加一个小的上标参考符号
-// 在我们插入脚注/尾注的主体文本处。
-// 每个脚注/尾注还创建一个条目，其中包含一个与引用匹配的符号
-// 主体文本中的符号。我们传递给文档构建器的“InsertEndnote”方法的参考文本。
-// 默认情况下，脚注条目显示在包含
-// 它们的参考符号和尾注出现在文档的末尾。
+// 脚注和尾注是一种将参考文献或旁注附加到文本的方法
+// 这不会干扰主体文本的流程。
+// 插入脚注/尾注会添加一个小上标参考符号
+// 在正文文本处插入脚注/尾注。
+// 每个脚注/尾注还创建一个条目，其中包含与引用匹配的符号
+// 正文中的符号。我们传递给文档生成器的“InsertEndnote”方法的参考文本。
+// 脚注条目默认显示在包含以下内容的每个页面的底部
+// 它们的参考符号和尾注显示在文档的末尾。
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -63,14 +63,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 builder.Write("Text 4. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
-// 默认情况下，每个脚注和尾注的引用符号是它的索引
-// 在所有文档的脚注/尾注中。每个文档都有单独的计数
-// 用于脚注和尾注，并且不会在任何时候重新开始这些计数。
+// 默认情况下，每个脚注和尾注的引用符号是其索引
+// 在文档的所有脚注/尾注中。每个文档维护单独的计数
+// 对于脚注和尾注，并且不会在任何时候重新开始计数。
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
 // 我们可以使用“RestartRule”属性来让文档重新启动
-//脚注/尾注在新的页面或部分计数。
+// 脚注/尾注计入新页面或新章节。
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

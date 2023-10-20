@@ -22,21 +22,22 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
 ## 评论
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
-来电[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/) 用于形状的所有子节点并调用[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/)最后.
+通话[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/) 对于形状的所有子节点并调用[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/)最后.
 
 ## 例子
 
-演示如何遍历文档中的所有形状。
+演示如何迭代文档中的所有形状。
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -46,7 +47,7 @@ public override bool Accept(DocumentVisitor visitor)
 }
 
 /// <summary>
-/// 记录有关访问形状的外观相关信息。
+/// 记录有关所访问形状的外观相关信息。
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -58,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行添加到 StringBuilder，每个缩进级别都带有一个前置制表符。
+    /// 将一行附加到 StringBuilder，并为每个缩进级别添加一个前置制表符。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -76,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 Shape 节点的开头时调用。
+    /// 当访问者访问 Shape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -124,7 +125,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 GroupShape 节点的开头时调用。
+    /// 当访问者访问 GroupShape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -135,7 +136,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 GroupShape 节点的末尾时调用。
+    /// 当访问者访问 GroupShape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

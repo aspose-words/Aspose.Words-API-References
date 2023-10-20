@@ -18,10 +18,9 @@ public int Count { get; }
 
 ## 例子
 
-显示如何从 VBA 引用集合中获取/删除元素。
+演示如何从 VBA 参考集合中获取/删除元素。
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -47,7 +46,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// 返回表示指定引用的 LibId 路径的字符串。 
+ /// 返回表示指定引用的 LibId 路径的字符串。
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

@@ -18,18 +18,18 @@ public void DeletePictureBullet()
 
 ## 评论
 
-默认项目符号将在删除后显示。
+删除后将显示默认项目符号。
 
 ## 例子
 
-显示如何为列表项标签设置自定义图像图标。
+演示如何为列表项标签设置自定义图像图标。
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// 为当前列表级别创建图片项目符号，并从本地文件系统中设置图片
+// 为当前列表级别创建图片项目符号，并从本地文件系统设置图像
 // 作为此列表级别的项目符号将显示的图标。
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");

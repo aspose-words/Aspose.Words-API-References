@@ -3,14 +3,14 @@ title: Font.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: 用于 .NET 的 Aspose.Words
-description: Font Hidden 财产. 如果字体被格式化为隐藏文本则为真 在 C#.
+description: Font Hidden 财产. 如果字体格式为隐藏文本则为 True 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words/font/hidden/
 ---
 ## Font.Hidden property
 
-如果字体被格式化为隐藏文本，则为真。
+如果字体格式为隐藏文本，则为 True。
 
 ```csharp
 public bool Hidden { get; set; }
@@ -18,17 +18,17 @@ public bool Hidden { get; set; }
 
 ## 例子
 
-展示如何创建一系列隐藏文本。
+演示如何创建一系列隐藏文本。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将 Hidden 标志设置为 true，我们使用此 Font 对象创建的任何文本都将在文档中不可见。
+// 将 Hidden 标志设置为 true 后，我们使用此 Font 对象创建的任何文本都将在文档中不可见。
 // 除非我们启用“隐藏文本”选项，否则我们不会看到或突出显示隐藏文本
 // 通过“文件”在 Microsoft Word 中找到 -> “选项”-> “展示”。文字仍然存在，
 // 我们将能够以编程方式访问此文本。
-// 不建议使用此方法隐藏敏感信息。
+// 不建议使用该方法隐藏敏感信息。
 builder.Font.Hidden = true;
 builder.Font.Size = 36;
 
@@ -40,15 +40,15 @@ doc.Save(ArtifactsDir + "Font.Hidden.docx");
 演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // 下面是可以接受文档访问者的三种类型的字段，
+    // 以下是可以接受文档访问者的三种类型的字段，
     // 这将允许它访问接受节点，然后以深度优先的方式遍历其子节点。
     // 1 - 段落节点：
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - 表节点：
@@ -59,9 +59,10 @@ doc.Save(ArtifactsDir + "Font.Hidden.docx");
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// 删除所有标记为“隐藏内容”的访问节点。
+/// 删除所有标记为“隐藏内容”的已访问节点。
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -154,7 +155,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到评论时调用。
+    /// 在文档中遇到注释时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -176,7 +177,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 SpecialCharacter 时调用。
+    /// 在文档中遇到特殊字符时调用。
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -187,16 +188,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中结束访问 Table 节点时调用。
+    /// 文档中Table节点访问结束时调用。
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // 表格单元格内的内容可能有隐藏内容标志，但表格本身没有。
-        // 如果这个表只有隐藏的内容，这个访问者会删除所有的，
-        // 这样就没有子节点了。
+        // 表格单元格内的内容可能具有隐藏内容标志，但表格本身不能。
+        // 如果该表只有隐藏内容，则该访问者将删除所有内容，
+        // 这样就不会剩下任何子节点了。
         // 因此，我们也可以将表格本身视为隐藏内容并将其删除。
-        // 为空但没有隐藏内容的表格将包含带有空段落的单元格，
-        // 此访问者不会删除。
+        // 为空但没有隐藏内容的表格将具有内部带有空段落的单元格，
+        // 该访问者不会删除它。
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -215,7 +216,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中对 Row 节点的访问结束时调用。
+    /// 文档中Row节点访问结束时调用。
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

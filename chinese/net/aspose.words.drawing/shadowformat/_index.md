@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.drawing/shadowformat/
 
 表示对象的阴影格式。
 
+要了解更多信息，请访问[使用图形元素](https://docs.aspose.com/words/net/working-with-graphic-elements/)文档文章。
+
 ```csharp
 public class ShadowFormat
 ```

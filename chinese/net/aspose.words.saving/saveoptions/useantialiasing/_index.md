@@ -18,13 +18,13 @@ public bool UseAntiAliasing { get; set; }
 
 ## 评论
 
-默认值为`错误的` .当此值设置为`真的`抗锯齿是 用于渲染。
+默认值为`错误的` 。当该值设置为`真的`抗锯齿 is 用于渲染。
 
-当文档导出为以下格式时使用此属性： Tiff,Png,BmpJpeg,Emf .当文档导出到 Html,Mhtml和Epub 格式 此选项用于光栅图像。
+当文档导出为以下格式时使用此属性： Tiff,Png,Bmp, Jpeg,Emf 。当文档导出到 时Html,Mhtml, Epub,Azw3 或Mobi格式 该选项用于光栅图像。
 
 ## 例子
 
-演示如何使用 SaveOptions 提高呈现文档的质量。
+演示如何使用 SaveOptions 提高渲染文档的质量。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -34,7 +34,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;

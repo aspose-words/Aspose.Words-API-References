@@ -3,14 +3,14 @@ title: CompatibilityOptions.LayoutRawTableWidth
 linktitle: LayoutRawTableWidth
 articleTitle: LayoutRawTableWidth
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions LayoutRawTableWidth 财产. 在决定表是否应该包装浮动对象时忽略表前的空格 在 C#.
+description: CompatibilityOptions LayoutRawTableWidth 财产. 决定表是否应包裹浮动对象时忽略表之前的空间 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
 ---
 ## CompatibilityOptions.LayoutRawTableWidth property
 
-在决定表是否应该包装浮动对象时忽略表前的空格。
+决定表是否应包裹浮动对象时忽略表之前的空间。
 
 ```csharp
 public bool LayoutRawTableWidth { get; set; }

@@ -3,14 +3,14 @@ title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 linktitle: FormatAddressOnCountryOrRegion
 articleTitle: FormatAddressOnCountryOrRegion
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldAddressBlock FormatAddressOnCountryOrRegion 财产. 获取或设置是否根据收件人的国家/地区格式化地址 由 POSTCODE Universal Postal Union 2006 定义 在 C#.
+description: FieldAddressBlock FormatAddressOnCountryOrRegion 财产. 获取或设置是否根据 POSTCODE Universal Postal Union 2006 定义的收件人 的国家/地区来格式化地址 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-获取或设置是否根据收件人的国家/地区格式化地址 由 POST*CODE (Universal Postal Union 2006) 定义。
+获取或设置是否根据 POST*CODE (Universal Postal Union 2006) 定义的收件人 的国家/地区来格式化地址。
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }
@@ -18,7 +18,7 @@ public bool FormatAddressOnCountryOrRegion { get; set; }
 
 ## 例子
 
-显示如何插入 ADDRESSBLOCK 字段。
+演示如何插入 ADDRESSBLOCK 字段。
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// 将此设置为“2”将包括所有国家和地区，
-// 除非它是 ExcludedCountryOrRegionName 属性中指定的那个。
+// 设置为“2”将包括所有国家和地区，
+// 除非它是 ExcludedCountryOrRegionName 属性中指定的。
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // 默认情况下，此属性将包含文档第一个字符的语言 ID。
-// 我们可以为字段设置不同的文化来格式化结果，如下所示。
+// 我们可以为字段设置不同的区域性来格式化结果，如下所示。
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

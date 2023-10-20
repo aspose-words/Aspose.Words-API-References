@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentStory
 linktitle: CurrentStory
 articleTitle: CurrentStory
 second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder CurrentStory 财产. 获取当前在此 DocumentBuilder 中选择的故事 在 C#.
+description: DocumentBuilder CurrentStory 财产. 获取当前在此选择的故事DocumentBuilder 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-获取当前在此 DocumentBuilder 中选择的故事。
+获取当前在此选择的故事[`DocumentBuilder`](../).
 
 ```csharp
 public Story CurrentStory { get; }
@@ -18,20 +18,20 @@ public Story CurrentStory { get; }
 
 ## 例子
 
-展示如何使用文档构建器的当前故事。
+展示如何使用文档生成器的当前故事。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Story 是一种具有子 Paragraph 节点的节点，例如 Body。
+// Story 是一种具有子 Paragraph 节点的节点类型，例如 Body。
 Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
 Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
 Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);
 
 builder.CurrentStory.AppendParagraph("Text added to current Story.");
 
-// 一个故事也可以包含表格。
+// 故事还可以包含表格。
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1");

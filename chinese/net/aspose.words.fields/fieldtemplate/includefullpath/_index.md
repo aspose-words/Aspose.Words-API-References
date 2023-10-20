@@ -3,14 +3,14 @@ title: FieldTemplate.IncludeFullPath
 linktitle: IncludeFullPath
 articleTitle: IncludeFullPath
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldTemplate IncludeFullPath 财产. 获取或设置是否包含完整的文件路径名 在 C#.
+description: FieldTemplate IncludeFullPath 财产. 获取或设置是否包含完整文件路径名 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldtemplate/includefullpath/
 ---
 ## FieldTemplate.IncludeFullPath property
 
-获取或设置是否包含完整的文件路径名。
+获取或设置是否包含完整文件路径名。
 
 ```csharp
 public bool IncludeFullPath { get; set; }

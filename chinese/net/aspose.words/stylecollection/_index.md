@@ -3,14 +3,16 @@ title: StyleCollection Class
 linktitle: StyleCollection
 articleTitle: StyleCollection
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.StyleCollection 班级. Style 对象的集合代表文档中的内置样式和用户定义的样式 在 C#.
+description: Aspose.Words.StyleCollection 班级. 的集合Style表示文档中内置样式和用户定义样式的对象 在 C#.
 type: docs
 weight: 6140
 url: /zh/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-Style 对象的集合，代表文档中的内置样式和用户定义的样式。
+的集合[`Style`](../style/)表示文档中内置样式和用户定义样式的对象。
+
+要了解更多信息，请访问[使用样式和主题](https://docs.aspose.com/words/net/working-with-styles-and-themes/)文档文章。
 
 ```csharp
 public class StyleCollection : IEnumerable<Style>
@@ -20,24 +22,24 @@ public class StyleCollection : IEnumerable<Style>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words/stylecollection/count/) { get; } | 获取集合中的样式数。 |
+| [Count](../../aspose.words/stylecollection/count/) { get; } | 获取集合中的样式数量。 |
 | [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | 获取文档默认文本格式。 |
 | [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | 获取文档默认段落格式。 |
 | [Document](../../aspose.words/stylecollection/document/) { get; } | 获取所有者文档。 |
-| [Item](../../aspose.words/stylecollection/item/) { get; } | 按名称或别名获取样式。 (3 indexers) |
+| [Item](../../aspose.words/stylecollection/item/) { get; } | 通过名称或别名获取样式。 (3 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | 创建一个新的用户定义样式并将其添加到集合中。 |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | 创建新的用户定义样式并将其添加到集合中。 |
 | [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | 将样式复制到此集合中。 |
-| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | 从“快速样式库”面板中删除所有样式。 |
+| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | 从快速样式库面板中删除所有样式。 |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | 获取一个枚举器对象，该对象将按名称的字母顺序枚举样式。 |
 
 ## 例子
 
-展示如何使用列表格式创建和使用段落样式。
+演示如何创建和使用具有列表格式的段落样式。
 
 ```csharp
 Document doc = new Document();
@@ -53,11 +55,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// 将段落样式应用到文档构建器的当前段落，然后添加一些文本。
+// 将段落样式应用到文档生成器的当前段落，然后添加一些文本。
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// 将文档构建器的样式更改为没有列表格式的样式并编写另一个段落。
+// 将文档生成器的样式更改为没有列表格式的样式并编写另一段。
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

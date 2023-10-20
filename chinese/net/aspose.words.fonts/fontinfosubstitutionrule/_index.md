@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.fonts/fontinfosubstitutionrule/
 
 字体信息替换规则。
 
+要了解更多信息，请访问[使用字体](https://docs.aspose.com/words/net/working-with-fonts/)文档文章。
+
 ```csharp
 public class FontInfoSubstitutionRule : FontSubstitutionRule
 ```
@@ -24,17 +26,16 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ## 评论
 
-根据这条规则，Aspose.Words 评估所有相关字段[`FontInfo`](../fontinfo/)（Panose、Sig 等）for 丢失的字体并在可用字体源中找到最接近的匹配项。如果[`FontInfo`](../fontinfo/)is not 可用于缺少的字体，那么什么都不会做。
+根据此规则 Aspose.Words 评估中的所有相关字段[`FontInfo`](../fontinfo/)（Panose、Sig 等）查找 缺失的字体，并在可用字体源中找到最接近的匹配。如果[`FontInfo`](../fontinfo/) 不适用于缺少的字体，那么什么也不做。
 
 ## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们的任何字体源中都不存在的字体格式化的文本。
+    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -46,6 +47,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // 字体替换后应使用原始字体规格。
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // 如果我们保存缺少字体的文档，我们将收到字体替换警告。
     doc.FontSettings = fontSettings;
@@ -69,7 +73,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 在加载/保存过程中每次出现警告时调用。
+    /// 每次加载/保存期间发生警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

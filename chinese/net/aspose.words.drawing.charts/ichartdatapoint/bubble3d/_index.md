@@ -36,6 +36,7 @@ for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;
     chart.Series[0].DataLabels[i].ShowBubbleSize = true;
+    chart.Series[0].DataLabels[i].Font.Size = 12;
 }
 
 doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");

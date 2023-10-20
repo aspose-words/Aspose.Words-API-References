@@ -18,17 +18,17 @@ public FlipOrientation FlipOrientation { get; set; }
 
 ## 评论
 
-默认值为None.
+默认值为None。
 
 ## 例子
 
-显示如何在轴上翻转形状。
+展示如何在轴上翻转形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个图像形状并将其方向保持在默认状态。
+// 插入图像形状并将其方向保留为默认状态。
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
@@ -39,7 +39,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// 将 "FlipOrientation" 属性设置为 "FlipOrientation.Horizontal" 以翻转 y 轴上的第二个形状，
+// 将“FlipOrientation”属性设置为“FlipOrientation.Horizontal”以翻转 y 轴上的第二个形状，
 // 使其成为第一个形状的水平镜像。
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
@@ -47,7 +47,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// 将“FlipOrientation”属性设置为“FlipOrientation.Horizontal”以翻转x轴上的第三个形状，
+// 将“FlipOrientation”属性设置为“FlipOrientation.Horizontal”以翻转 x 轴上的第三个形状，
 // 使其成为第一个形状的垂直镜像。
 shape.FlipOrientation = FlipOrientation.Vertical;
 
@@ -55,7 +55,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// 将 "FlipOrientation" 属性设置为 "FlipOrientation.Horizontal" 以在 x 和 y 轴上翻转第四个形状，
+// 将“FlipOrientation”属性设置为“FlipOrientation.Horizontal”以在 x 轴和 y 轴上翻转第四个形状，
 // 使其成为第一个形状的水平和垂直镜像。
 shape.FlipOrientation = FlipOrientation.Both;
 

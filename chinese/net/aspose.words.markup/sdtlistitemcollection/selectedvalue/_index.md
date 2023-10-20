@@ -3,14 +3,14 @@ title: SdtListItemCollection.SelectedValue
 linktitle: SelectedValue
 articleTitle: SelectedValue
 second_title: 用于 .NET 的 Aspose.Words
-description: SdtListItemCollection SelectedValue 财产. 指定此列表中当前选定的值 允许空值这意味着当前选定的条目与此列表项集合没有关联 在 C#.
+description: SdtListItemCollection SelectedValue 财产. 指定此列表中当前选定的值 允许空值这意味着当前选定的条目没有与此列表项集合关联 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
 ---
 ## SdtListItemCollection.SelectedValue property
 
-指定此列表中当前选定的值。 允许空值，这意味着当前选定的条目与此列表项集合没有关联。
+指定此列表中当前选定的值。 允许空值，这意味着当前选定的条目没有与此列表项集合关联。
 
 ```csharp
 public SdtListItem SelectedValue { get; set; }
@@ -33,7 +33,7 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// 再添加 3 个列表项。使用与第一项不同的构造函数初始化这些项
+// 添加 3 个列表项。使用与第一项不同的构造函数来初始化这些项
 // 显示与其值不同的字符串。
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -59,12 +59,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// 因为我们的下拉控件默认设置为显示被移除的项，所以给它一个要显示的项，它存在。
+// 由于我们的下拉控件默认设置为显示已删除的项目，因此给它一个要显示存在的项目。
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// 使用“清除”方法一次清空整个下拉项集合。
+// 使用“Clear”方法一次性清空整个下拉项集合。
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

@@ -3,12 +3,14 @@ title: ChartXValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue TimeValue 财产.  在 C#.
+description: ChartXValue TimeValue 财产. 获取存储的时间值 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/timevalue/
 ---
 ## ChartXValue.TimeValue property
+
+获取存储的时间值。
 
 ```csharp
 public TimeSpan TimeValue { get; }

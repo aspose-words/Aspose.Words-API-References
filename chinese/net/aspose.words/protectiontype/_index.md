@@ -20,15 +20,15 @@ public enum ProtectionType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AllowOnlyComments | `1` | 用户只能修改文档中的评论。 |
-| AllowOnlyFormFields | `2` | 用户只能在文档的表单域中输入数据。 |
-| AllowOnlyRevisions | `0` | 用户只能在文档中添加修订标记。 |
-| ReadOnly | `3` | 不允许更改文档。自 Microsoft Word 2003 起可用。 |
-| NoProtection | `-1` | 文档不受保护。 |
+| AllowOnlyComments | `1` | 用户只能修改文档中的注释。 |
+| AllowOnlyFormFields | `2` | 用户只能在文档的表单字段中输入数据。 |
+| AllowOnlyRevisions | `0` | 用户只能向文档添加修订标记。 |
+| ReadOnly | `3` | 不允许对文档进行任何更改。自 Microsoft Word 2003 起可用。 |
+| NoProtection | `-1` | 该文档不受保护。 |
 
 ## 例子
 
-显示如何关闭部分的保护。
+展示如何关闭某个部分的保护。
 
 ```csharp
 Document doc = new Document();
@@ -44,11 +44,11 @@ builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholde
 // 对文档中的每个部分应用写保护。
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
-// 关闭第一节的写保护。
+// 关闭第一部分的写保护。
 doc.Sections[0].ProtectedForForms = false;
 
-// 在这个输出文档中，我们将能够自由编辑第一部分，
-// 我们只能在第二部分编辑表单域的内容。
+// 在此输出文档中，我们将能够自由编辑第一部分，
+// 我们只能编辑第二部分中表单字段的内容。
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

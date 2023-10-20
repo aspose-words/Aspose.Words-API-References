@@ -3,14 +3,14 @@ title: BorderCollection.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: 用于 .NET 的 Aspose.Words
-description: BorderCollection Equals 方法. 比较边框的集合 在 C#.
+description: BorderCollection Equals 方法. 比较边框集合 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/bordercollection/equals/
 ---
 ## BorderCollection.Equals method
 
-比较边框的集合。
+比较边框集合。
 
 ```csharp
 public bool Equals(BorderCollection brColl)
@@ -18,7 +18,7 @@ public bool Equals(BorderCollection brColl)
 
 ## 例子
 
-显示边框集合如何共享元素。
+展示边框集合如何共享元素。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,6 @@ builder.Write("Paragraph 2.");
 // 这些段落，它们的边框集合共享相同的元素。
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -42,8 +41,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// 仅在第二段更改边框的线条样式后，
-// 边框集合不再共享相同的元素。
+// 在第二段中更改边框的线条样式后，
+// 边界集合不再共享相同的元素。
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

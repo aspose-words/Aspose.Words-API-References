@@ -12,6 +12,8 @@ url: /zh/net/aspose.words/bookmarkend/
 
 表示 Word 文档中书签的结尾。
 
+要了解更多信息，请访问[使用书签](https://docs.aspose.com/words/net/working-with-bookmarks/)文档文章。
+
 ```csharp
 public class BookmarkEnd : Node
 ```
@@ -20,7 +22,7 @@ public class BookmarkEnd : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | 初始化`BookmarkEnd`类. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | 初始化一个新实例`BookmarkEnd`类. |
 
 ## 特性
 
@@ -28,13 +30,13 @@ public class BookmarkEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | 指定自定义节点标识符。 |
 | virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 如果此节点可以包含其他节点，则返回 true。 |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果该节点可以包含其他节点. |
 | [Name](../../aspose.words/bookmarkend/name/) { get; set; } | 获取或设置书签名称。 |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧跟此节点的节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随该节点的下一个节点。 |
 | override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | 返回BookmarkEnd. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range/) { get; } | 返回一个**范围**表示此节点中包含的文档部分的对象。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧邻此节点之前的节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回一个[`Range`](../range/)表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
@@ -44,24 +46,24 @@ public class BookmarkEnd : Node
 | [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
-| virtual [GetText](../../aspose.words/node/gettext/)() | 获取该节点及其所有子节点的文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取上一个节点。 |
-| [Remove](../../aspose.words/node/remove/)() | 从父级中移除自身。 |
+| virtual [GetText](../../aspose.words/node/gettext/)() | 获取此节点及其所有子节点的文本。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
 ## 评论
 
 Word 文档中的完整书签由[`BookmarkStart`](../bookmarkstart/) 和一个匹配的`BookmarkEnd`具有相同的书签名称。
 
-[`BookmarkStart`](../bookmarkstart/)和`BookmarkEnd`只是 document 中的标记，用于指定书签的开始和结束位置。
+[`BookmarkStart`](../bookmarkstart/)和`BookmarkEnd`只是 document 内的标记，指定书签的开始和结束位置。
 
-使用[`Bookmark`](../bookmark/)类作为“门面”以将 bookmark 作为单个对象使用。
+使用[`Bookmark`](../bookmark/)类作为“外观”，将 bookmark 作为单个对象使用。
 
 ## 例子
 
-展示如何添加书签和更新其内容。
+展示如何添加书签并更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -69,19 +71,18 @@ public void CreateUpdateAndPrintBookmarks()
     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
+    // 可以通过索引或名称在书签集合中访问书签，并且可以更新其名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新的值。
+    // 再次打印所有书签以查看更新后的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// 创建一个具有给定数量书签的文档。
+/// 创建具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {

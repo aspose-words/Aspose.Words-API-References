@@ -3,14 +3,14 @@ title: OoxmlCompliance Enum
 linktitle: OoxmlCompliance
 articleTitle: OoxmlCompliance
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.OoxmlCompliance 枚举. 允许指定以 DOCX 格式保存时将使用的 OOXML 规范 在 C#.
+description: Aspose.Words.Saving.OoxmlCompliance 枚举. 允许指定以 DOCX 格式保存时将使用哪个 OOXML 规范 在 C#.
 type: docs
 weight: 5340
 url: /zh/net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration
 
-允许指定以 DOCX 格式保存时将使用的 OOXML 规范。
+允许指定以 DOCX 格式保存时将使用哪个 OOXML 规范。
 
 ```csharp
 public enum OoxmlCompliance
@@ -20,7 +20,7 @@ public enum OoxmlCompliance
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | ECMA-376 第 1 版，2006. |
+| Ecma376_2006 | `0` | ECMA-376 第一版，2006 年。 |
 | Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 过渡合规级别。 |
 | Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 严格合规级别。 |
 
@@ -32,7 +32,7 @@ public enum OoxmlCompliance
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是形状可能具有的两种包装类型。
+// 下面是形状可能具有的两种环绕类型。
 // 1 - 浮动：
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
@@ -40,8 +40,8 @@ builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page
 // 2 - 内联：
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
-// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
+// 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded，
 // 然后以“严格”或“过渡”合规性保存文档，这允许将形状保存为 DML。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
@@ -49,7 +49,7 @@ saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 ```
 
-显示如何配置列表以在每个部分重新开始编号。
+展示如何配置列表以在每个部分重新开始编号。
 
 ```csharp
 Document doc = new Document();
@@ -60,8 +60,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// “IsRestartAtEachSection”属性仅在以下情况下适用
-// 文档的 OOXML 合规级别是比“OoxmlComplianceCore.Ecma376”更新的标准。
+// “IsRestartAtEachSection”属性仅适用于
+// 文档的 OOXML 合规级别符合比“OoxmlComplianceCore.Ecma376”更新的标准。
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
@@ -82,7 +82,7 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx"
 Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ```
 
-演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
+演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();
@@ -106,7 +106,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// 我们保存的文档使用 DML 定义形状以符合“ISO/IEC 29500:2008”OOXML 标准。
+// 我们保存的文档使用 DML 定义形状，以遵守“ISO/IEC 29500:2008”OOXML 标准。
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

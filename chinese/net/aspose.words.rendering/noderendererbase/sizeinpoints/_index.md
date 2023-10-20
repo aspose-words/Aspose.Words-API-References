@@ -3,14 +3,14 @@ title: NodeRendererBase.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
 second_title: 用于 .NET 的 Aspose.Words
-description: NodeRendererBase SizeInPoints 财产. 以点为单位获取形状的实际大小 在 C#.
+description: NodeRendererBase SizeInPoints 财产. 获取形状的实际大小以磅为单位 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 ---
 ## NodeRendererBase.SizeInPoints property
 
-以点为单位获取形状的实际大小。
+获取形状的实际大小（以磅为单位）。
 
 ```csharp
 public SizeF SizeInPoints { get; }
@@ -18,7 +18,7 @@ public SizeF SizeInPoints { get; }
 
 ## 评论
 
-此属性返回形状的实际（在页面上呈现）边界框的大小。 该大小考虑了形状旋转（如果有）。
+此属性返回形状的实际（如页面上呈现的）边界框的大小。 该大小考虑了形状旋转（如果有）。
 
 ## 例子
 
@@ -41,18 +41,18 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// 以像素为单位获取形状大小，线性缩放到特定的 DPI。
+// 获取形状大小（以像素为单位），并线性缩放到特定 DPI。
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// 以像素为单位获取形状大小，但水平和垂直尺寸使用不同的 DPI。
+// 获取形状大小（以像素为单位），但水平和垂直尺寸具有不同的 DPI。
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// 这里的不透明边界也可能不同。
+// 此处的不透明边界也可能有所不同。
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

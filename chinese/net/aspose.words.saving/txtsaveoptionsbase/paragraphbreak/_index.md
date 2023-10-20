@@ -3,14 +3,14 @@ title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptionsBase ParagraphBreak 财产. 指定以文本格式导出时用作分节符的字符串 在 C#.
+description: TxtSaveOptionsBase ParagraphBreak 财产. 指定以文本格式导出时用作段落分隔符的字符串 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
 ---
 ## TxtSaveOptionsBase.ParagraphBreak property
 
-指定以文本格式导出时用作分节符的字符串。
+指定以文本格式导出时用作段落分隔符的字符串。
 
 ```csharp
 public string ParagraphBreak { get; set; }
@@ -18,11 +18,11 @@ public string ParagraphBreak { get; set; }
 
 ## 评论
 
-默认值为[`CrLf`](../../../aspose.words/controlchar/crlf/).
+默认值为[`CrLf`](../../../aspose.words/controlchar/crlf/)。
 
 ## 例子
 
-显示如何使用自定义分节符保存 .txt 文档。
+演示如何使用自定义分段符保存 .txt 文档。
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改我们如何将文档保存为纯文本。
+// 创建一个“TxtSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改我们将文档保存为纯文本的方式。
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);

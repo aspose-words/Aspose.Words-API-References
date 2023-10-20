@@ -20,13 +20,13 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 此属性仅在保存为光栅图像格式时有效。
 
-默认值为Format32BppArgb.
+默认值为Format32BppArgb。
 
-由于 GDI+ 的工作，输出图像的像素格式可能与设置 value 不同。
+由于 GDI+ 的工作，输出图像的像素格式可能与设置的 value 不同。
 
 ## 例子
 
-演示如何选择将文档呈现为图像的每像素比特率。
+演示如何选择将文档渲染为图像的每像素比特率。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // 当我们将文档保存为图片时，我们可以传递一个 SaveOptions 对象到
+            // 当我们将文档保存为图像时，我们可以将 SaveOptions 对象传递给
             // 为保存操作将生成的图像选择像素格式。
             // 不同的每像素比特率会影响生成图像的质量和文件大小。
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);

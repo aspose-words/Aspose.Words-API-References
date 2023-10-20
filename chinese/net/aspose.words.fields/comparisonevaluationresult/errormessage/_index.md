@@ -3,14 +3,14 @@ title: ComparisonEvaluationResult.ErrorMessage
 linktitle: ErrorMessage
 articleTitle: ErrorMessage
 second_title: 用于 .NET 的 Aspose.Words
-description: ComparisonEvaluationResult ErrorMessage 财产. 获取比对评估结果失败的错误信息 在 C#.
+description: ComparisonEvaluationResult ErrorMessage 财产. 获取失败的比较评估结果的错误消息 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/comparisonevaluationresult/errormessage/
 ---
 ## ComparisonEvaluationResult.ErrorMessage property
 
-获取比对评估结果失败的错误信息。
+获取失败的比较评估结果的错误消息。
 
 ```csharp
 public string ErrorMessage { get; }

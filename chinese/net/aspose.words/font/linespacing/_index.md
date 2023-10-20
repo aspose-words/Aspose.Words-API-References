@@ -18,7 +18,7 @@ public double LineSpacing { get; }
 
 ## 例子
 
-显示如何获取字体的行间距（以磅为单位）。
+演示如何获取字体的行距（以磅为单位）。
 
 ```csharp
 Document doc = new Document();

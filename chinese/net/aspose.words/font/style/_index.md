@@ -24,7 +24,7 @@ public Style Style { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入自定义样式并将其应用于使用文档构建器创建的文本。
+// 插入自定义样式并将其应用到使用文档生成器创建的文本。
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -32,7 +32,7 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// 遍历每次运行并为每个自定义样式添加双下划线。
+// 迭代每次运行并向每个自定义样式添加双下划线。
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     Style charStyle = run.Font.Style;

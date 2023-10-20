@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: 用于 .NET 的 Aspose.Words
-description: OdsoRecipientDataCollection Clear 方法. 删除此集合中的所有元素 在 C#.
+description: OdsoRecipientDataCollection Clear 方法. 从此集合中删除所有元素 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/clear/
 ---
 ## OdsoRecipientDataCollection.Clear method
 
-删除此集合中的所有元素。
+从此集合中删除所有元素。
 
 ```csharp
 public void Clear()
@@ -18,7 +18,7 @@ public void Clear()
 
 ## 例子
 
-显示如何访问指定邮件合并将排除的合并数据源记录的数据集合。
+显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们还可以单独删除元素，或者一次性清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

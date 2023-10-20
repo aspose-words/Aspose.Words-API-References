@@ -3,12 +3,14 @@ title: CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePosit
 linktitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
 articleTitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
 second_title: 用于 .NET 的 Aspose.Words
-description: CompatibilityOptions SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning 财产.  在 C#.
+description: CompatibilityOptions SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning 财产. 指定交换内部和外部以实现镜像缩进和相对定位 在 C#.
 type: docs
 weight: 540
 url: /zh/net/aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/
 ---
 ## CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning property
+
+指定交换内部和外部以实现镜像缩进和相对定位。
 
 ```csharp
 public bool SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning { get; set; }

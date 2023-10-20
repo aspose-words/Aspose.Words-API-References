@@ -3,14 +3,14 @@ title: ListCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: 用于 .NET 的 Aspose.Words
-description: ListCollection Count 财产. 获取文档中编号和项目符号列表的计数 在 C#.
+description: ListCollection Count 财产. 获取文档中编号列表和项目符号列表的计数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/listcollection/count/
 ---
 ## ListCollection.Count property
 
-获取文档中编号和项目符号列表的计数。
+获取文档中编号列表和项目符号列表的计数。
 
 ```csharp
 public int Count { get; }
@@ -18,17 +18,15 @@ public int Count { get; }
 
 ## 例子
 
-显示如何验证列表的所有者文档属性。
+演示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

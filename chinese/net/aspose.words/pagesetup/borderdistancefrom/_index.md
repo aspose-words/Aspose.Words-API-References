@@ -3,14 +3,14 @@ title: PageSetup.BorderDistanceFrom
 linktitle: BorderDistanceFrom
 articleTitle: BorderDistanceFrom
 second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup BorderDistanceFrom 财产. 获取或设置一个值该值指示指定的页面边框是从页面边缘还是从它周围的文本测量的 在 C#.
+description: PageSetup BorderDistanceFrom 财产. 获取或设置一个值该值指示指定的页面边框是从页面边缘还是从其周围的文本测量 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-获取或设置一个值，该值指示指定的页面边框是从页面边缘还是从它周围的文本测量的。
+获取或设置一个值，该值指示指定的页面边框是从页面边缘还是从其周围的文本测量。
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -18,7 +18,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ## 例子
 
-展示如何在第一页的顶部创建一个宽的蓝色边框。
+演示如何在第一页顶部创建宽蓝色带边框。
 
 ```csharp
 Document doc = new Document();

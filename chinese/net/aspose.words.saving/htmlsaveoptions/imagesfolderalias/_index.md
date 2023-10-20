@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions ImagesFolderAlias 财产. 指定用于构造写入 HTML 文档的图像 URI 的文件夹的名称 默认为空字符串 在 C#.
+description: HtmlSaveOptions ImagesFolderAlias 财产. 指定用于构建写入 HTML 文档的图像 URI 的文件夹名称 默认为空字符串 在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property
 
-指定用于构造写入 HTML 文档的图像 URI 的文件夹的名称。 默认为空字符串。
+指定用于构建写入 HTML 文档的图像 URI 的文件夹名称。 默认为空字符串。
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -18,15 +18,15 @@ public string ImagesFolderAlias { get; set; }
 
 ## 评论
 
-当你保存一个[`Document`](../../../aspose.words/document/)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。[`ImagesFolder`](../imagesfolder/) 允许您指定图像的保存位置和`ImagesFolderAlias` 允许指定如何构建图像 URI。
+当您保存一个[`Document`](../../../aspose.words/document/)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。[`ImagesFolder`](../imagesfolder/) 允许您指定图像的保存位置`ImagesFolderAlias` 允许指定如何构建图像 URI。
 
-如果`ImagesFolderAlias`不是空字符串，则图像 URI 写入 HTML 的 将是ImagesFolderAlias + &lt;图像文件名&gt;.
+如果`ImagesFolderAlias`不是空字符串，则 HTML 中写入的图像 URI 将为ImagesFolderAlias + &lt;图像文件名&gt;。
 
-如果`ImagesFolderAlias`是一个空字符串，那么将 写入 HTML 的图像 URI 将是ImagesFolder + &lt;图像文件名&gt;.
+如果`ImagesFolderAlias`是一个空字符串，那么将 写入 HTML 的图像 URI 将是ImagesFolder + &lt;图像文件名&gt;。
 
-如果`ImagesFolderAlias`被设定为 '。' （点），那么无论其他选项如何，图像文件名 都将写入 HTML 中而没有路径。
+如果`ImagesFolderAlias`被设定为 '。' （点），那么无论其他选项如何，图像文件名 将被写入 HTML，不带路径。
 
-指定文件夹名称以构造图像 URIs 的另一种方法是使用[`ResourceFolderAlias`](../resourcefolderalias/).
+指定构建图像 URIs 的文件夹名称的替代方法是使用[`ResourceFolderAlias`](../resourcefolderalias/)。
 
 ## 例子
 

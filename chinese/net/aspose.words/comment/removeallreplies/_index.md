@@ -18,7 +18,7 @@ public void RemoveAllReplies()
 
 ## 评论
 
-回复的所有组成节点将从文档中删除。
+回复的所有组成节点都将从文档中删除。
 
 ## 例子
 
@@ -37,13 +37,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// 下面是从评论中删除回复的两种方法。
-// 1 - 使用“RemoveReply”方法从评论中单独删除回复：
+// 以下是从评论中删除回复的两种方法。
+// 1 - 使用“RemoveReply”方法单独删除评论中的回复：
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - 使用“RemoveAllReplies”方法一次删除评论中的所有回复：
+// 2 - 使用“RemoveAllReplies”方法一次性删除评论中的所有回复：
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

@@ -24,15 +24,15 @@ public StyleIdentifier StyleIdentifier { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 为文档的第一页插入目录。
-// 配置表格以拾取具有 1 到 3 级标题的段落。
-// 此外，将其条目设置为将带我们的超链接
-// 在 Microsoft Word 中左键单击时指向标题的位置。
+// 插入文档第一页的目录。
+// 配置表格以选取标题为 1 至 3 级的段落。
+// 此外，将其条目设置为将带我们进入的超链接
+// 在 Microsoft Word 中左键单击时标题的位置。
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // 通过添加带有标题样式的段落来填充目录。
-// 每个级别在 1 到 3 之间的标题都会在表中创建一个条目。
+// 每个级别在 1 到 3 之间的此类标题将在表中创建一个条目。
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

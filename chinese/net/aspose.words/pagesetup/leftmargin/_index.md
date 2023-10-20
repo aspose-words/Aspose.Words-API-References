@@ -3,14 +3,14 @@ title: PageSetup.LeftMargin
 linktitle: LeftMargin
 articleTitle: LeftMargin
 second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup LeftMargin 财产. 返回或设置页面左边缘和正文左边界之间的距离以磅为单位 在 C#.
+description: PageSetup LeftMargin 财产. 返回或设置页面左边缘与正文左边界之间的距离以磅为单位 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/pagesetup/leftmargin/
 ---
 ## PageSetup.LeftMargin property
 
-返回或设置页面左边缘和正文左边界之间的距离（以磅为单位）。
+返回或设置页面左边缘与正文左边界之间的距离（以磅为单位）。
 
 ```csharp
 public double LeftMargin { get; set; }
@@ -18,7 +18,7 @@ public double LeftMargin { get; set; }
 
 ## 例子
 
-显示如何调整纸张大小、方向、边距以及部分的其他设置。
+展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
 
 ```csharp
 Document doc = new Document();

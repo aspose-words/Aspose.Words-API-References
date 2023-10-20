@@ -3,14 +3,14 @@ title: ShapeBase.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase ScreenTip 财产. 定义当鼠标指针移到形状上时显示的文本 在 C#.
+description: ShapeBase ScreenTip 财产. 定义当鼠标指针移动到形状上时显示的文本 在 C#.
 type: docs
 weight: 480
 url: /zh/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
 
-定义当鼠标指针移到形状上时显示的文本。
+定义当鼠标指针移动到形状上时显示的文本。
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -22,7 +22,7 @@ public string ScreenTip { get; set; }
 
 ## 例子
 
-显示如何插入包含图像的形状，也是超链接。
+演示如何插入包含图像且也是超链接的形状。
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: ListLevel.CreatePictureBullet
 linktitle: CreatePictureBullet
 articleTitle: CreatePictureBullet
 second_title: 用于 .NET 的 Aspose.Words
-description: ListLevel CreatePictureBullet 方法. 为当前列表级别创建图片子弹形状 在 C#.
+description: ListLevel CreatePictureBullet 方法. 为当前列表级别创建图片项目符号形状 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.lists/listlevel/createpicturebullet/
 ---
 ## ListLevel.CreatePictureBullet method
 
-为当前列表级别创建图片子弹形状。
+为当前列表级别创建图片项目符号形状。
 
 ```csharp
 public void CreatePictureBullet()
@@ -18,18 +18,18 @@ public void CreatePictureBullet()
 
 ## 评论
 
-请注意，将 NumberStyle 设置为 Bullet 并将 NumberFormat 设置为 "\xF0B7" 以正确显示图片子弹。 红十字图像将在创建时设置为图片子弹图像。 要更改它，请使用[`ImageData`](../imagedata/).
+请注意，[`NumberStyle`](../numberstyle/)将被设置为Bullet和 [`NumberFormat`](../numberformat/)到“\xF0B7”以正确显示图片项目符号。 红十字图像将在创建时设置为图片项目符号图像。 要更改它，请使用[`ImageData`](../imagedata/)。
 
 ## 例子
 
-显示如何为列表项标签设置自定义图像图标。
+演示如何为列表项标签设置自定义图像图标。
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// 为当前列表级别创建图片项目符号，并从本地文件系统中设置图片
+// 为当前列表级别创建图片项目符号，并从本地文件系统设置图像
 // 作为此列表级别的项目符号将显示的图标。
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");

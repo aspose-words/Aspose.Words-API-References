@@ -3,12 +3,14 @@ title: ChartXValue.FromMultilevelValue
 linktitle: FromMultilevelValue
 articleTitle: FromMultilevelValue
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue FromMultilevelValue 方法.  在 C#.
+description: ChartXValue FromMultilevelValue 方法. 创建一个ChartXValue的实例Multilevel类型 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/
 ---
 ## ChartXValue.FromMultilevelValue method
+
+创建一个[`ChartXValue`](../)的实例Multilevel类型.
 
 ```csharp
 public static ChartXValue FromMultilevelValue(ChartMultilevelValue value)

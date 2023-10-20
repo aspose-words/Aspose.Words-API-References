@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## 评论
 
-获取时返回[`NameAscii`](../nameascii/).
+获取时，返回[`NameAscii`](../nameascii/)。
 
-设置时，设置[`NameAscii`](../nameascii/),[`NameBi`](../namebi/),[`NameFarEast`](../namefareast/) 和[`NameOther`](../nameother/)到指定的值。
+设置时，设置[`NameAscii`](../nameascii/),[`NameBi`](../namebi/),[`NameFarEast`](../namefareast/) 和[`NameOther`](../nameother/)到指定值。
 
 ## 例子
 
-显示如何使用其字体属性格式化文本运行。
+演示如何使用其字体属性设置文本串的格式。
 
 ```csharp
 Document doc = new Document();

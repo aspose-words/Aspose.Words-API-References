@@ -3,14 +3,14 @@ title: SignatureLineOptions.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: 用于 .NET 的 Aspose.Words
-description: SignatureLineOptions AllowComments 财产. 获取或设置一个值指示签名者可以在签名对话框中添加注释 此属性的默认值为错误的 在 C#.
+description: SignatureLineOptions AllowComments 财产. 获取或设置一个值该值指示签名者可以在签名对话框中添加注释 此属性的默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-获取或设置一个值，指示签名者可以在签名对话框中添加注释。 此属性的默认值为**错误的**.
+获取或设置一个值，该值指示签名者可以在“签名”对话框中添加注释。 此属性的默认值为`错误的`.
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -18,7 +18,7 @@ public bool AllowComments { get; set; }
 
 ## 例子
 
-显示如何使用个人证书和签名行签署文档。
+演示如何使用个人证书和签名行签署文档。
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证 "IsSigned" 和 "IsValid" 属性都等于 "true",
+// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

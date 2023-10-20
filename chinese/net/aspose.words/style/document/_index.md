@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## 例子
 
-展示如何访问文档的样式集合。
+演示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

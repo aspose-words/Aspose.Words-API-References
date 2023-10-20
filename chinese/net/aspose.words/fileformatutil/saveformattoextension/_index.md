@@ -41,15 +41,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // 下面是两种将 LoadFormat 转换为对应的 SaveFormat 的方法。
-    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串中获取相应的 SaveFormat：
+    // 下面是将 LoadFormat 转换为其相应的 SaveFormat 的两种方法。
+    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串获取相应的 SaveFormat：
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
     // 2 - 将 LoadFormat 直接转换为其 SaveFormat：
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // 从流中加载一个文档，然后将其保存到自动检测到的文件扩展名。
+    // 从流中加载文档，然后将其保存到自动检测到的文件扩展名。
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

@@ -3,14 +3,14 @@ title: MailMergeSettings.DataType
 linktitle: DataType
 articleTitle: DataType
 second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeSettings DataType 财产. 指定邮件合并数据源的类型和数据访问的方法 默认值为Default 在 C#.
+description: MailMergeSettings DataType 财产. 指定邮件合并数据源的类型和数据访问方法 默认值为Default 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.settings/mailmergesettings/datatype/
 ---
 ## MailMergeSettings.DataType property
 
-指定邮件合并数据源的类型和数据访问的方法。 默认值为Default.
+指定邮件合并数据源的类型和数据访问方法。 默认值为Default.
 
 ```csharp
 public MailMergeDataType DataType { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，用“|”特点
+// 创建一个ASCII文件形式的数据源，带有“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 之后的每一行都是具有各自值的行。
+// 随后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+ // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

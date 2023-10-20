@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.settings/odsorecipientdatacollection/
 
 的类型化集合[`OdsoRecipientData`](../odsorecipientdata/)
 
+要了解更多信息，请访问[邮件合并和报告](https://docs.aspose.com/words/net/mail-merge-and-reporting/)文档文章。
+
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 ```
@@ -26,7 +28,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.settings/odsorecipientdatacollection/count/) { get; } | 获取集合中包含的元素数。 |
+| [Count](../../aspose.words.settings/odsorecipientdatacollection/count/) { get; } | 获取集合中包含的元素数量。 |
 | [Item](../../aspose.words.settings/odsorecipientdatacollection/item/) { get; set; } | 获取或设置此集合中的项目。 |
 
 ## 方法
@@ -34,13 +36,13 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | 将一个对象添加到此集合的末尾。 |
-| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | 删除此集合中的所有元素。 |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | 返回一个可用于迭代集合中所有项目的枚举器对象。 |
+| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | 从此集合中删除所有元素。 |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | 删除指定索引处的元素。 |
 
 ## 例子
 
-显示如何访问指定邮件合并将排除的合并数据源记录的数据集合。
+显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -65,7 +67,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们还可以单独删除元素，或者一次性清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

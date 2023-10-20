@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property
 
-获取或设置填充是否随指定对象旋转
+获取或设置填充是否随指定对象旋转。
 
 ```csharp
 public bool RotateWithObject { get; set; }

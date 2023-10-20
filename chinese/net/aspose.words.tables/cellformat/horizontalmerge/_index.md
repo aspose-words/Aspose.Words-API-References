@@ -18,25 +18,25 @@ public CellMerge HorizontalMerge { get; set; }
 
 ## 例子
 
-显示如何水平合并表格单元格。
+演示如何水平合并表格单元格。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 在第一行的第一列中插入一个单元格。
-// 此单元格将是一系列水平合并单元格中的第一个。
+// 将单元格插入第一行的第一列。
+// 该单元格将是一系列水平合并单元格中的第一个。
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// 在第一行的第二列中插入一个单元格。而不是添加文本内容，
-// 我们将把这个单元格与我们直接添加到左边的第一个单元格合并。
+// 将单元格插入第一行的第二列。而不是添加文本内容，
+// 我们将将此单元格与直接添加到左侧的第一个单元格合并。
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// 在第二行再插入两个未合并的单元格。
+// 将另外两个未合并的单元格插入到第二行。
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");

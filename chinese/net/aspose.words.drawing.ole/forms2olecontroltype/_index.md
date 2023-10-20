@@ -3,12 +3,14 @@ title: Forms2OleControlType Enum
 linktitle: Forms2OleControlType
 articleTitle: Forms2OleControlType
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Ole.Forms2OleControlType 枚举.  在 C#.
+description: Aspose.Words.Drawing.Ole.Forms2OleControlType 枚举. 枚举 Forms 2.0 控件的类型 在 C#.
 type: docs
 weight: 1130
 url: /zh/net/aspose.words.drawing.ole/forms2olecontroltype/
 ---
 ## Forms2OleControlType enumeration
+
+枚举 Forms 2.0 控件的类型。
 
 ```csharp
 public enum Forms2OleControlType

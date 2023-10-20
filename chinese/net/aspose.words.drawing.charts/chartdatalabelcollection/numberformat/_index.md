@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabelCollection NumberFormat 财产. 得到一个ChartNumberFormat允许为 the 整个系列的数据标签设置数字格式的实例 在 C#.
+description: ChartDataLabelCollection NumberFormat 财产. 得到一个ChartNumberFormat允许为 整个系列的数据标签设置数字格式的实例 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property
 
-得到一个[`ChartNumberFormat`](../../chartnumberformat/)允许为 the 整个系列的数据标签设置数字格式的实例。
+得到一个[`ChartNumberFormat`](../../chartnumberformat/)允许为 整个系列的数据标签设置数字格式的实例。
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -18,7 +18,7 @@ public ChartNumberFormat NumberFormat { get; }
 
 ## 例子
 
-展示如何为图表系列启用和配置数据标签。
+展示如何启用和配置图表系列的数据标签。
 
 ```csharp
 Document doc = new Document();
@@ -31,18 +31,19 @@ Chart chart = shape.Chart;
 chart.Series.Clear();
 chart.Title.Text = "Monthly sales report";
 
-// 插入一个自定义图表系列，将月份作为 X 轴的类别，
-// 以及 Y 轴的相应小数。
+// 插入自定义图表系列，以月份作为 X 轴的类别，
+// 以及 Y 轴的相应小数量。
 ChartSeries series = chart.Series.Add("Revenue", 
     new[] { "January", "February", "March" }, 
     new[] { 25.611d, 21.439d, 33.750d });
 
 // 启用数据标签，然后为数据标签中显示的值应用自定义数字格式。
-// 这种格式会将显示的十进制值视为百万美元。
+// 此格式将显示的十进制值视为百万美元。
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
+dataLabels.Font.Size = 12;            
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

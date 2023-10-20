@@ -3,14 +3,14 @@ title: LayoutOptions.ShowParagraphMarks
 linktitle: ShowParagraphMarks
 articleTitle: ShowParagraphMarks
 second_title: 用于 .NET 的 Aspose.Words
-description: LayoutOptions ShowParagraphMarks 财产. 获取或设置是否呈现段落标记的指示 默认为 False 在 C#.
+description: LayoutOptions ShowParagraphMarks 财产. 获取或设置是否呈现段落标记的指示 默认为错误的 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-获取或设置是否呈现段落标记的指示。 默认为 False。
+获取或设置是否呈现段落标记的指示。 默认为`错误的`.
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -18,13 +18,13 @@ public bool ShowParagraphMarks { get; set; }
 
 ## 例子
 
-显示如何在呈现的输出文档中显示段落标记。
+演示如何在渲染的输出文档中显示段落标记。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// 添加一些段落，然后启用段落标记以显示段落的结尾
-// 渲染文档时使用 pilcrow (¶) 符号。
+// 添加一些段落，然后启用段落标记以显示段落结尾
+// 当我们渲染文档时使用 pilcrow (¶) 符号。
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

@@ -3,14 +3,14 @@ title: IFieldUpdatingCallback.FieldUpdating
 linktitle: FieldUpdating
 articleTitle: FieldUpdating
 second_title: 用于 .NET 的 Aspose.Words
-description: IFieldUpdatingCallback FieldUpdating 方法. 在字段更新之前调用的用户定义方法 在 C#.
+description: IFieldUpdatingCallback FieldUpdating 方法. 在更新字段之前调用的用户定义方法 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback.FieldUpdating method
 
-在字段更新之前调用的用户定义方法。
+在更新字段之前调用的用户定义方法。
 
 ```csharp
 public void FieldUpdating(Field field)
@@ -18,9 +18,10 @@ public void FieldUpdating(Field field)
 
 ## 例子
 
-展示如何在字段更新期间使用回调方法。
+演示如何在字段更新期间使用回调方法。
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -41,9 +42,9 @@ public void FieldUpdating(Field field)
 }
 
 /// <summary>
-/// 如果您想在字段更新期间调用自己的自定义方法，请实现此接口。
+/// 如果您想在字段更新期间调用您自己的自定义方法，请实现此接口。
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -51,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// 在字段更新之前调用的用户定义方法。
+    /// 在更新字段之前调用的用户定义方法。
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -63,11 +64,17 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// 在字段更新后立即调用的用户定义方法。
+    /// 更新字段后调用的用户定义方法。
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

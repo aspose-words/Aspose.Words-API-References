@@ -22,25 +22,23 @@ public List GetListByListId(int listId)
 
 ### 返回值
 
-返回列表对象。如果未找到具有指定标识符的列表，则返回 null。
+返回列表对象。退货`无效的`如果未找到具有指定标识符的列表。
 
 ## 评论
 
-您通常不需要使用此方法。大多数情况下，您只需通过设置[`List`](../../listformat/list/)property 的[`ListFormat`](../../listformat/)目的。
+您通常不需要使用此方法。大多数时候，您只需通过设置将列表格式化 应用于段落[`List`](../../listformat/list/)的 property [`ListFormat`](../../listformat/)目的。
 
 ## 例子
 
-显示如何验证列表的所有者文档属性。
+演示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

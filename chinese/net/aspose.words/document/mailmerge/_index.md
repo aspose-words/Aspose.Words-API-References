@@ -3,14 +3,14 @@ title: Document.MailMerge
 linktitle: MailMerge
 articleTitle: MailMerge
 second_title: 用于 .NET 的 Aspose.Words
-description: Document MailMerge 财产. 返回一个邮件合并表示文档的邮件合并功能的对象 在 C#.
+description: Document MailMerge 财产. 返回一个MailMerge代表文档邮件合并功能的对象 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-返回一个**邮件合并**表示文档的邮件合并功能的对象。
+返回一个[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/)代表文档邮件合并功能的对象。
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -18,7 +18,7 @@ public MailMerge MailMerge { get; }
 
 ## 例子
 
-演示如何使用 DataTable 中的数据执行邮件合并。
+演示如何使用数据表中的数据执行邮件合并。
 
 ```csharp
 public void ExecuteDataTable()
@@ -29,7 +29,7 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // 下面是使用 DataTable 作为邮件合并数据源的两种方式。
+    // 下面是使用 DataTable 作为邮件合并数据源的两种方法。
     // 1 - 使用整个表进行邮件合并，为表中的每一行创建一个输出邮件合并文档：
     Document doc = CreateSourceDocExecuteDataTable();
 
@@ -37,7 +37,7 @@ public void ExecuteDataTable()
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - 使用表格的一行创建一个输出邮件合并文档：
+    // 2 - 使用表的一行创建一个输出邮件合并文档：
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);

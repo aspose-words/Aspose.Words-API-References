@@ -3,14 +3,14 @@ title: ShapeBase.CanHaveImage
 linktitle: CanHaveImage
 articleTitle: CanHaveImage
 second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase CanHaveImage 财产. 如果形状类型允许形状具有图像则返回 true 在 C#.
+description: ShapeBase CanHaveImage 财产. 返回真的如果形状类型允许形状具有图像 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-如果形状类型允许形状具有图像，则返回 true。
+返回`真的`如果形状类型允许形状具有图像。
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -18,11 +18,11 @@ public bool CanHaveImage { get; }
 
 ## 评论
 
-尽管 Microsoft Word 有一种特殊的图像形状类型，但似乎在 Microsoft Word 文档中，除了组形状之外的任何 shape 都可以有图像，因此该属性对所有形状返回 true，除了[`GroupShape`](../../groupshape/).
+尽管 Microsoft Word 对图像有特殊的形状类型，但在 Microsoft Word 文档中，除组形状之外的任何 shape 都可以有图像，因此此属性返回`真的`对于所有形状，除了[`GroupShape`](../../groupshape/)。
 
 ## 例子
 
-显示如何插入和旋转图像。
+演示如何插入和旋转图像。
 
 ```csharp
 Document doc = new Document();

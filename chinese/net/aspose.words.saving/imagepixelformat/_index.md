@@ -3,14 +3,14 @@ title: ImagePixelFormat Enum
 linktitle: ImagePixelFormat
 articleTitle: ImagePixelFormat
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.ImagePixelFormat 枚举. 指定文档页面生成图像的像素格式 在 C#.
+description: Aspose.Words.Saving.ImagePixelFormat 枚举. 指定生成的文档页面图像的像素格式 在 C#.
 type: docs
 weight: 5220
 url: /zh/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
 
-指定文档页面生成图像的像素格式。
+指定生成的文档页面图像的像素格式。
 
 ```csharp
 public enum ImagePixelFormat
@@ -20,21 +20,21 @@ public enum ImagePixelFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Format16BppRgb555 | `0` | 每像素 16 位，RGB. |
-| Format16BppRgb565 | `1` | 每像素 16 位，RGB. |
-| Format16BppArgb1555 | `2` | 每像素 16 位，ARGB. |
-| Format24BppRgb | `3` | 每像素 24 位，RGB. |
-| Format32BppRgb | `4` | 每像素 32 位，RGB. |
-| Format32BppArgb | `5` | 每像素 32 位，ARGB. |
+| Format16BppRgb555 | `0` | 每像素 16 位，RGB。 |
+| Format16BppRgb565 | `1` | 每像素 16 位，RGB。 |
+| Format16BppArgb1555 | `2` | 每像素 16 位，ARGB。 |
+| Format24BppRgb | `3` | 每像素 24 位，RGB。 |
+| Format32BppRgb | `4` | 每像素 32 位，RGB。 |
+| Format32BppArgb | `5` | 每像素 32 位，ARGB。 |
 | Format32BppPArgb | `6` | 每像素 32 位，ARGB，预乘 alpha。 |
-| Format48BppRgb | `7` | 每像素 48 位，RGB. |
-| Format64BppArgb | `8` | 每像素 64 位，ARGB. |
+| Format48BppRgb | `7` | 每像素 48 位，RGB。 |
+| Format64BppArgb | `8` | 每像素 64 位，ARGB。 |
 | Format64BppPArgb | `9` | 每像素 64 位，ARGB，预乘 alpha。 |
-| Format1bppIndexed | `10` | 每像素 1 位，已索引。 |
+| Format1bppIndexed | `10` | 每像素 1 位，索引。 |
 
 ## 例子
 
-演示如何选择将文档呈现为图像的每像素比特率。
+演示如何选择将文档渲染为图像的每像素比特率。
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // 当我们将文档保存为图片时，我们可以传递一个 SaveOptions 对象到
+            // 当我们将文档保存为图像时，我们可以将 SaveOptions 对象传递给
             // 为保存操作将生成的图像选择像素格式。
             // 不同的每像素比特率会影响生成图像的质量和文件大小。
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);

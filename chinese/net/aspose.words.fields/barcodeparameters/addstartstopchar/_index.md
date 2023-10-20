@@ -3,14 +3,14 @@ title: BarcodeParameters.AddStartStopChar
 linktitle: AddStartStopChar
 articleTitle: AddStartStopChar
 second_title: 用于 .NET 的 Aspose.Words
-description: BarcodeParameters AddStartStopChar 财产. 是否为条形码类型 NW7 和 CODE39 添加开始/停止字符 在 C#.
+description: BarcodeParameters AddStartStopChar 财产. 是否为条码类型 NW7 和 CODE39 添加开始/结束字符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/barcodeparameters/addstartstopchar/
 ---
 ## BarcodeParameters.AddStartStopChar property
 
-是否为条形码类型 NW7 和 CODE39 添加开始/停止字符。
+是否为条码类型 NW7 和 CODE39 添加开始/结束字符。
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -23,14 +23,13 @@ public bool AddStartStopChar { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
 // 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
-// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
-// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
+// 对于每个条形码，我们指定一组新的条形码参数，然后生成图像。
+// 之后，我们可以将图像插入到文档中，或者将其保存到本地文件系统。
 // 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

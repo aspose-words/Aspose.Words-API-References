@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 ---
 ## ChartDataLabelCollection indexer
 
-返回[`ChartDataLabel`](../../chartdatalabel/)对于指定的索引。
+返回[`ChartDataLabel`](../../chartdatalabel/)对于指定的索引.
 
 ```csharp
 public ChartDataLabel this[int index] { get; }
@@ -18,9 +18,10 @@ public ChartDataLabel this[int index] { get; }
 
 ## 例子
 
-显示如何将标签应用于折线图中的数据点。
+展示如何将标签应用到折线图中的数据点。
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -34,7 +35,7 @@ public ChartDataLabel this[int index] { get; }
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // 将数据标签应用于图表中的每个系列。
-    // 这些标签将出现在图表中每个数据点的旁边并显示其值。
+    // 这些标签将出现在图表中每个数据点旁边并显示其值。
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -51,17 +52,17 @@ public ChartDataLabel this[int index] { get; }
         }
     }
 
-    // 为了更清晰的图表，我们可以单独删除数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // 我们也可以一次剥离整个系列的数据标签。
+    // 我们还可以一次剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// 将具有自定义数字格式和分隔符的数据标签应用于系列中的多个数据点。
+/// 将具有自定义数字格式和分隔符的数据标签应用于一系列中的多个数据点。
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

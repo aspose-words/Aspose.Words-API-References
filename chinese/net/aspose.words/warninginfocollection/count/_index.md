@@ -3,14 +3,14 @@ title: WarningInfoCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: 用于 .NET 的 Aspose.Words
-description: WarningInfoCollection Count 财产. 获取集合中包含的元素数 在 C#.
+description: WarningInfoCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/warninginfocollection/count/
 ---
 ## WarningInfoCollection.Count property
 
-获取集合中包含的元素数。
+获取集合中包含的元素数量。
 
 ```csharp
 public int Count { get; }

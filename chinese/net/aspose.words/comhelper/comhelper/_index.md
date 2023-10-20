@@ -3,14 +3,14 @@ title: ComHelper
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: 用于 .NET 的 Aspose.Words
-description: ComHelper 构造函数. 初始化这个类的一个新实例 在 C#.
+description: ComHelper 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/comhelper/comhelper/
 ---
 ## ComHelper constructor
 
-初始化这个类的一个新实例。
+初始化此类的新实例。
 
 ```csharp
 public ComHelper()
@@ -29,7 +29,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - 从流中：
+// 2 - 来自流：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

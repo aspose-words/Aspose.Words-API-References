@@ -22,11 +22,11 @@ public Document Open(string fileName)
 
 ### 返回值
 
-一个[`Document`](../../document/)表示 Word 文档的对象。
+A[`Document`](../../document/)代表 Word 文档的对象。
 
 ## 评论
 
-该方法与调用[`Document`](../../document/)带有文件名参数的构造函数。
+该方法与调用相同[`Document`](../../document/)带有文件名参数的构造函数。
 
 ## 例子
 
@@ -51,7 +51,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - 从流中：
+// 2 - 来自流：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -83,11 +83,11 @@ public Document Open(Stream stream)
 
 ### 返回值
 
-一个[`Document`](../../document/)表示 Word 文档的对象。
+A[`Document`](../../document/)代表 Word 文档的对象。
 
 ## 评论
 
-该方法与调用[`Document`](../../document/)带有流参数的构造函数。
+该方法与调用相同[`Document`](../../document/)带有流参数的构造函数。
 
 ## 例子
 
@@ -102,7 +102,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - 从流中：
+// 2 - 来自流：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

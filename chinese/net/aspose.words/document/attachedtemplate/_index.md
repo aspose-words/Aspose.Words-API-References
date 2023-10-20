@@ -20,15 +20,15 @@ public string AttachedTemplate { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果您尝试设置为空值，则抛出。 |
+| ArgumentNullException | 如果您尝试设置为`无效的`价值。 |
 
 ## 评论
 
-空字符串表示文档附加到 Normal 模板。
+空字符串表示文档附加到普通模板。
 
 ## 例子
 
-显示如何为没有附加模板的文档设置默认模板。
+演示如何为没有附加模板的文档设置默认模板。
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// 由于没有模板文档，因此文档无处跟踪样式更改。
+// 由于没有模板文档，文档无处跟踪样式更改。
 // 使用 SaveOptions 对象自动设置模板
-// 如果我们正在保存的文档没有。
+// 如果我们正在保存的文档没有该文档。
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

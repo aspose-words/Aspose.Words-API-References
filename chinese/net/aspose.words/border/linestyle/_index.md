@@ -10,7 +10,7 @@ url: /zh/net/aspose.words/border/linestyle/
 ---
 ## Border.LineStyle property
 
-获取或设置边框样式
+获取或设置边框样式。
 
 ```csharp
 public LineStyle LineStyle { get; set; }
@@ -18,11 +18,11 @@ public LineStyle LineStyle { get; set; }
 
 ## 评论
 
-如果将线型设置为无，则线宽会自动更改为零。
+如果将线条样式设置为无，则线条宽度将自动更改为零。
 
 ## 例子
 
-演示如何将由边框包围的字符串插入到文档中。
+演示如何将边框包围的字符串插入到文档中。
 
 ```csharp
 Document doc = new Document();

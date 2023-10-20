@@ -18,7 +18,7 @@ public WatermarkLayout Layout { get; set; }
 
 ## 例子
 
-演示如何创建文本水印。
+展示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ Document doc = new Document();
 doc.Watermark.SetText("Aspose Watermark");
 
 // 如果我们希望使用它作为水印来编辑文本格式，
-// 我们可以通过在创建水印时传递一个 TextWatermarkOptions 对象来做到这一点。
+// 我们可以通过在创建水印时传递 TextWatermarkOptions 对象来做到这一点。
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

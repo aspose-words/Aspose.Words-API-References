@@ -18,11 +18,11 @@ public bool Bidi { get; set; }
 
 ## 评论
 
-如果为 true，则此部分中的列从右到左排列。
+什么时候`真的`，本节中的列从右到左排列。
 
 ## 例子
 
-显示如何设置部分中文本列的顺序。
+演示如何设置节中文本列的顺序。
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
 // 将“Bidi”属性设置为“true”以从页面右侧开始排列列。
-// 列的顺序将匹配从右到左文本的方向。
+// 列的顺序将与从右到左文本的方向相匹配。
 // 将“Bidi”属性设置为“false”以从页面左侧开始排列列。
-// 列的顺序将匹配从左到右文本的方向。
+// 列的顺序将与从左到右文本的方向相匹配。
 pageSetup.Bidi = reverseColumns;
 
 doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");

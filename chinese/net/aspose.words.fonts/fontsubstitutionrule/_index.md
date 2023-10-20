@@ -12,6 +12,8 @@ url: /zh/net/aspose.words.fonts/fontsubstitutionrule/
 
 这是字体替换规则的抽象基类。
 
+要了解更多信息，请访问[使用字体](https://docs.aspose.com/words/net/working-with-fonts/)文档文章。
+
 ```csharp
 public abstract class FontSubstitutionRule
 ```
@@ -45,7 +47,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// 在 Linux/Mac 上，我们可以访问它，并且能够执行操作。
+// 在 Linux/Mac 上，我们将可以访问它，并且能够执行操作。
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

@@ -21,11 +21,11 @@ public enum FillType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Solid | `1` | 实心填充。 |
-| Patterned | `2` | 图案填充。 |
+| Patterned | `2` | 图案填充. |
 | Gradient | `3` | 渐变填充。 |
 | Textured | `4` | 纹理填充。 |
-| Background | `5` | 填充和背景一样 |
-| Picture | `6` | 图片填充。 |
+| Background | `5` | 填充与背景相同。 |
+| Picture | `6` | 图片填充. |
 
 ### 也可以看看
 

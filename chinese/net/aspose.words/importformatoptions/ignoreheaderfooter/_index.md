@@ -18,7 +18,7 @@ public bool IgnoreHeaderFooter { get; set; }
 
 ## 例子
 
-显示如何指定忽略或不指定页眉/页脚内容的源格式。
+演示如何指定忽略或不忽略页眉/页脚内容的源格式。
 
 ```csharp
 Document dstDoc = new Document(MyDir + "Document.docx");

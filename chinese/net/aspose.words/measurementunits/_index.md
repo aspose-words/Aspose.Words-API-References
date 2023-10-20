@@ -22,9 +22,9 @@ public enum MeasurementUnits
 | --- | --- | --- |
 | Inches | `0` | 英寸. |
 | Centimeters | `1` | 厘米. |
-| Millimeters | `2` | 毫米。 |
-| Points | `3` | 点数。 |
-| Picas | `4` | Picas（常用传统打字机字体间距）。 |
+| Millimeters | `2` | 毫米. |
+| Points | `3` | 点数. |
+| Picas | `4` | Picas（常用于传统打字机字体间距）. |
 
 ### 也可以看看
 

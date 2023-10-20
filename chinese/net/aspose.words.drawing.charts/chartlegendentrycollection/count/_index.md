@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/count/
 ---
 ## ChartLegendEntryCollection.Count property
 
-返回数量[`ChartLegendEntry`](../../chartlegendentry/)在这个集合中。
+返回数量[`ChartLegendEntry`](../../chartlegendentry/)在这个集合中.
 
 ```csharp
 public int Count { get; }

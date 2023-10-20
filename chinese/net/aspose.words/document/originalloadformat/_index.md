@@ -22,7 +22,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ## 例子
 
-显示如何检索文档加载操作的详细信息。
+演示如何检索文档加载操作的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

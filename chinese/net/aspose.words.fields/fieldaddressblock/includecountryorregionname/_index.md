@@ -18,7 +18,7 @@ public string IncludeCountryOrRegionName { get; set; }
 
 ## 例子
 
-显示如何插入 ADDRESSBLOCK 字段。
+演示如何插入 ADDRESSBLOCK 字段。
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// 将此设置为“2”将包括所有国家和地区，
-// 除非它是 ExcludedCountryOrRegionName 属性中指定的那个。
+// 设置为“2”将包括所有国家和地区，
+// 除非它是 ExcludedCountryOrRegionName 属性中指定的。
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // 默认情况下，此属性将包含文档第一个字符的语言 ID。
-// 我们可以为字段设置不同的文化来格式化结果，如下所示。
+// 我们可以为字段设置不同的区域性来格式化结果，如下所示。
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

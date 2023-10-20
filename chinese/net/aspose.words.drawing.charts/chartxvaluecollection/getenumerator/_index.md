@@ -3,12 +3,14 @@ title: ChartXValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValueCollection GetEnumerator 方法.  在 C#.
+description: ChartXValueCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
 ---
 ## ChartXValueCollection.GetEnumerator method
+
+返回一个枚举器对象。
 
 ```csharp
 public IEnumerator<ChartXValue> GetEnumerator()

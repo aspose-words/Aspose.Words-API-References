@@ -18,7 +18,7 @@ public HtmlVersion HtmlVersion { get; set; }
 
 ## 例子
 
-显示将文档转换为 Xhtml 1.0 过渡标准时如何显示 DOCTYPE 标题。
+演示将文档转换为 Xhtml 1.0 过渡标准时如何显示 DOCTYPE 标题。
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// 我们的 HTML 文档会有细微的差异以兼容不同的 HTML 版本。
+// 我们的 HTML 文档会有细微的差别，以兼容不同的 HTML 版本。
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

@@ -22,7 +22,7 @@ public double Rotation { get; set; }
 
 ## 例子
 
-显示如何插入和旋转图像。
+演示如何插入和旋转图像。
 
 ```csharp
 Document doc = new Document();

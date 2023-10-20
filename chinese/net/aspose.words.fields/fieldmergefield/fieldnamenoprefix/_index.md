@@ -3,14 +3,14 @@ title: FieldMergeField.FieldNameNoPrefix
 linktitle: FieldNameNoPrefix
 articleTitle: FieldNameNoPrefix
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldMergeField FieldNameNoPrefix 财产. 仅返回数据字段的名称任何前缀都被剥离到前缀属性 在 C#.
+description: FieldMergeField FieldNameNoPrefix 财产. 仅返回数据字段的名称任何前缀都会被剥离到前缀属性中 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
 ---
 ## FieldMergeField.FieldNameNoPrefix property
 
-仅返回数据字段的名称。任何前缀都被剥离到前缀属性.
+仅返回数据字段的名称。任何前缀都会被剥离到前缀属性中。
 
 ```csharp
 public string FieldNameNoPrefix { get; }
@@ -18,13 +18,13 @@ public string FieldNameNoPrefix { get; }
 
 ## 例子
 
-展示如何使用 MERGEFIELD 字段来执行邮件合并。
+演示如何使用 MERGEFIELD 字段来执行邮件合并。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 创建一个数据表，用作邮件合并数据源。
+// 创建一个数据表用作邮件合并数据源。
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -38,7 +38,7 @@ fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// 我们可以在合并发生时该字段接受的值之前和之后应用文本。
+// 当合并发生时，我们可以在该字段接受的值之前和之后应用文本。
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 

@@ -10,7 +10,7 @@ url: /zh/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-获取框架与周围文本之间的水平距离，以磅为单位。
+获取框架与周围文本之间的水平距离（以磅为单位）。
 
 ```csharp
 public double HorizontalDistanceFromText { get; }
@@ -18,7 +18,7 @@ public double HorizontalDistanceFromText { get; }
 
 ## 例子
 
-显示如何获取有关作为框架的段落的格式属性的信息。
+演示如何获取有关框架段落的格式设置属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

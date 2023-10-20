@@ -3,14 +3,14 @@ title: IBarcodeGenerator.GetOldBarcodeImage
 linktitle: GetOldBarcodeImage
 articleTitle: GetOldBarcodeImage
 second_title: 用于 .NET 的 Aspose.Words
-description: IBarcodeGenerator GetOldBarcodeImage 方法. 使用参数集生成条形码图像用于老式 Barcode 字段 在 C#.
+description: IBarcodeGenerator GetOldBarcodeImage 方法. 使用一组参数生成条形码图像适用于老式条形码字段 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
 ---
 ## IBarcodeGenerator.GetOldBarcodeImage method
 
-使用参数集生成条形码图像（用于老式 Barcode 字段）。
+使用一组参数生成条形码图像（适用于老式条形码字段）。
 
 ```csharp
 public Image GetOldBarcodeImage(BarcodeParameters parameters)
@@ -18,7 +18,7 @@ public Image GetOldBarcodeImage(BarcodeParameters parameters)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parameters | BarcodeParameters | 参数集 |
+| parameters | BarcodeParameters | 参数组 |
 
 ### 返回值
 
@@ -31,14 +31,13 @@ public Image GetOldBarcodeImage(BarcodeParameters parameters)
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
 // 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
-// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
-// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
+// 对于每个条形码，我们指定一组新的条形码参数，然后生成图像。
+// 之后，我们可以将图像插入到文档中，或者将其保存到本地文件系统。
 // 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

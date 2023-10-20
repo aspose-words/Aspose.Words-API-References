@@ -18,7 +18,7 @@ public ShapeMarkupLanguage MarkupLanguage { get; }
 
 ## 例子
 
-显示如何验证形状的大小和标记语言。
+演示如何验证形状的大小和标记语言。
 
 ```csharp
 Document doc = new Document();

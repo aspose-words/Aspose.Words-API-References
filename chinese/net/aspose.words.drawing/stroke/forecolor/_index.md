@@ -3,14 +3,14 @@ title: Stroke.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
 second_title: 用于 .NET 的 Aspose.Words
-description: Stroke ForeColor 财产. 获取或设置描边的前景色 在 C#.
+description: Stroke ForeColor 财产. 获取或设置笔划的前景色 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
 
-获取或设置描边的前景色。
+获取或设置笔划的前景色。
 
 ```csharp
 public Color ForeColor { get; set; }
@@ -18,7 +18,7 @@ public Color ForeColor { get; set; }
 
 ## 评论
 
-的默认值[`Shape`](../../shape/)是 Black.
+a 的默认值[`Shape`](../../shape/)is Black。
 
 ## 例子
 

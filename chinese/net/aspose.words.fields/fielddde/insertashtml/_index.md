@@ -3,14 +3,14 @@ title: FieldDde.InsertAsHtml
 linktitle: InsertAsHtml
 articleTitle: InsertAsHtml
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldDde InsertAsHtml 财产. 获取或设置是否将链接对象作为HTML格式文本插入 在 C#.
+description: FieldDde InsertAsHtml 财产. 获取或设置是否以 HTML 格式文本插入链接对象 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fielddde/insertashtml/
 ---
 ## FieldDde.InsertAsHtml property
 
-获取或设置是否将链接对象作为HTML格式文本插入。
+获取或设置是否以 HTML 格式文本插入链接对象。
 
 ```csharp
 public bool InsertAsHtml { get; set; }
@@ -18,15 +18,16 @@ public bool InsertAsHtml { get; set; }
 
 ## 例子
 
-展示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
+演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是我们可以用来以文本形式显示链接文档中的内容的三种类型的字段。
-    // 1 - 一个 LINK 字段：
+    // 下面是三种类型的字段，我们可以使用它们以文本形式显示链接文档中的内容。
+    // 1 - 链接字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -44,12 +45,13 @@ public bool InsertAsHtml { get; set; }
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 下面是三种类型的字段，我们可以使用它们以图像的形式显示链接文档中的内容。
-    // 1 - 一个 LINK 字段：
+    // 1 - 链接字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -69,7 +71,7 @@ public bool InsertAsHtml { get; set; }
 }
 
 /// <summary>
-/// 使用文档构建器插入 LINK 字段并根据参数设置其属性。
+/// 使用文档生成器插入 LINK 字段并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -107,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// 使用文档构建器插入一个DDE字段，并根据参数设置其属性。
+/// 使用文档构建器插入DDE字段，并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -146,7 +148,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// 使用文档构建器插入一个 DDEAUTO 字段并根据参数设置其属性。
+/// 使用文档生成器插入 DDEAUTO 字段并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -183,12 +185,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // LinkedObjectAsText
+    // 链接对象作为文本
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // 链接对象作为图像
     Picture,
     Bitmap
 }

@@ -18,21 +18,20 @@ public string Author { get; set; }
 
 ## 评论
 
-不能为空。
+不可能是`无效的`。
 
 默认为空字符串。
 
 ## 例子
 
-显示如何打印文档的所有评论及其回复。
+演示如何打印文档的所有注释及其回复。
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// 如果评论没有祖先，则它是“顶级”评论，而不是回复类型的评论。
-// 打印所有顶级评论以及他们可能拥有的任何回复。
+// 如果评论没有祖先，则它是“顶级”评论，而不是回复类型评论。
+// 打印所有顶级评论以及他们可能有的任何回复。
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

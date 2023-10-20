@@ -3,14 +3,16 @@ title: BuildingBlockCollection Class
 linktitle: BuildingBlockCollection
 articleTitle: BuildingBlockCollection
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection 班级. 集合BuildingBlock文档中的对象 在 C#.
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection 班级. 的集合BuildingBlock文档中的对象 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-集合[`BuildingBlock`](../buildingblock/)文档中的对象。
+的集合[`BuildingBlock`](../buildingblock/)文档中的对象.
+
+要了解更多信息，请访问[Aspose.Words 文档对象模型 (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection
@@ -21,21 +23,21 @@ public class BuildingBlockCollection : NodeCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | 获取集合中的节点数。 |
-| [Item](../../aspose.words.buildingblocks/buildingblockcollection/item/) { get; } | 在给定索引处检索构建块。 (2 indexers) |
+| [Item](../../aspose.words.buildingblocks/buildingblockcollection/item/) { get; } | 检索给定索引处的构建块。 (2 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | 将一个节点添加到集合的末尾。 |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | 将节点添加到集合的末尾。 |
 | [Clear](../../aspose.words/nodecollection/clear/)() | 从此集合和文档中删除所有节点。 |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | 确定一个节点是否在集合中。 |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | 确定节点是否在集合中。 |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | 在节点集合上提供简单的“foreach”样式迭代。 |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | 返回指定节点的从零开始的索引。 |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | 将一个节点插入到集合中指定索引处。 |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | 将节点插入集合中指定索引处。 |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | 从集合和文档中删除节点。 |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | 从集合和文档中删除指定索引处的节点。 |
-| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | 将集合中的所有构建块复制到新的构建块数组中。 (2 methods) |
+| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | 将集合中的所有构建块复制到新的构建块数组。 (2 methods) |
 
 ## 评论
 
@@ -43,7 +45,7 @@ public class BuildingBlockCollection : NodeCollection
 
 ## 例子
 
-显示访问词汇表文档中构建块的方法。
+显示访问术语表文档中的构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -61,7 +63,7 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // 有多种访问构建块的方法。
+    // 访问构建块的方式有多种。
     // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -78,15 +80,14 @@ public void GlossaryDocument()
     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 来访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
+/// 为访问的术语表文档中的每个构建块提供唯一的 GUID。
 /// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor

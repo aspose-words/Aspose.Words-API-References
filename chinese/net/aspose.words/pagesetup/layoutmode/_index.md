@@ -3,14 +3,14 @@ title: PageSetup.LayoutMode
 linktitle: LayoutMode
 articleTitle: LayoutMode
 second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup LayoutMode 财产. 获取或设置本节的布局模式 在 C#.
+description: PageSetup LayoutMode 财产. 获取或设置此部分的布局模式 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/pagesetup/layoutmode/
 ---
 ## PageSetup.LayoutMode property
 
-获取或设置本节的布局模式。
+获取或设置此部分的布局模式。
 
 ```csharp
 public SectionLayoutMode LayoutMode { get; set; }
@@ -18,13 +18,13 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ## 例子
 
-显示如何为每行可能包含的字符数指定 a。
+演示如何指定每行可以包含的字符数。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启用间距，然后使用它来设置本节中每行的字符数。
+// 启用间距，然后用它来设置此部分中每行的字符数。
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -38,14 +38,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-显示如何指定每页可能具有的行数限制。
+演示如何指定每页可以拥有的行数限制。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启用pitching，然后用它来设置本节每页的行数。
-// 足够大的字体大小会将一些行向下推到下一页以避免字符重叠。
+// 启用间距，然后用它来设置此部分中每页的行数。
+// 足够大的字体大小会将某些行向下推到下一页，以避免字符重叠。
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

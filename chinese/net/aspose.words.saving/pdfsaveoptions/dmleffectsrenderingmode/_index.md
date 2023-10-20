@@ -22,24 +22,24 @@ public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 当文档导出为固定页面格式时使用此属性。
 
-如果[`Compliance`](../compliance/)被设定为PdfA1a或者PdfA1b , 属性总是返回None.
+如果[`Compliance`](../compliance/)被设定为PdfA1a或者PdfA1b , 属性始终返回None。
 
 ## 例子
 
-展示了当我们将文档保存为 PDF 时如何在文档中配置 DrawingML 效果的渲染质量。
+演示如何在将文档保存为 PDF 时配置 DrawingML 效果的渲染质量。
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改该方法如何将文档转换为 .PDF。
+// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
-// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.None”以丢弃所有 DrawingML 效果。
+// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.None”以放弃所有 DrawingML 效果。
 // 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Simplified”
-// 渲染一个简化版的 DrawingML 效果。
-// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Fine”以
-// 以更高的准确性和更高的处理成本渲染 DrawingML 效果。
+// 渲染 DrawingML 效果的简化版本。
+// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Fine”
+// 更准确地渲染 DrawingML 效果，但处理成本也更高。
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

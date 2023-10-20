@@ -3,14 +3,16 @@ title: FieldMergingArgsBase Class
 linktitle: FieldMergingArgsBase
 articleTitle: FieldMergingArgsBase
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.MailMerging.FieldMergingArgsBase 班级. 基类FieldMergingArgs和ImageFieldMergingArgs 在 C#.
+description: Aspose.Words.MailMerging.FieldMergingArgsBase 班级. 的基类FieldMergingArgs和ImageFieldMergingArgs 在 C#.
 type: docs
 weight: 3780
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
 
-基类[`FieldMergingArgs`](../fieldmergingargs/)和[`ImageFieldMergingArgs`](../imagefieldmergingargs/).
+的基类[`FieldMergingArgs`](../fieldmergingargs/)和[`ImageFieldMergingArgs`](../imagefieldmergingargs/).
+
+要了解更多信息，请访问[邮件合并和报告](https://docs.aspose.com/words/net/mail-merge-and-reporting/)文档文章。
 
 ```csharp
 public abstract class FieldMergingArgsBase
@@ -26,13 +28,14 @@ public abstract class FieldMergingArgsBase
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | 获取数据源中合并字段的名称。 |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | 从数据源获取或设置字段的值。 |
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | 获取正在合并的记录的从零开始的索引。 |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | 获取当前合并操作的数据表的名称，如果名称不可用，则为空字符串。 |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | 获取当前合并操作的数据表的名称，如果名称不可用，则获取空字符串。 |
 
 ## 例子
 
-演示如何使用处理 HTML 文档形式的合并数据的自定义回调执行邮件合并。
+演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -74,13 +77,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // 将解析的 HTML 数据添加到文档的正文中。
+            // 将解析后的 HTML 数据添加到文档正文中。
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // 因为我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应这个事件。
+            // 由于我们已经手动插入了合并的内容，
+             // 我们不需要通过“Text”属性返回内容来响应此事件。
             args.Text = string.Empty;
         }
     }

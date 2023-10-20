@@ -22,7 +22,7 @@ public double InternalMarginTop { get; set; }
 
 ## 例子
 
-显示如何设置文本框的内部边距。
+演示如何设置文本框的内部边距。
 
 ```csharp
 Document doc = new Document();

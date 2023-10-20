@@ -3,14 +3,14 @@ title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
 second_title: 用于 .NET 的 Aspose.Words
-description: NodeChangingArgs Action 财产. 获取一个值指示正在发生什么类型的节点更改事件 在 C#.
+description: NodeChangingArgs Action 财产. 获取一个值该值指示正在发生什么类型的节点更改事件 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-获取一个值，指示正在发生什么类型的节点更改事件。
+获取一个值，该值指示正在发生什么类型的节点更改事件。
 
 ```csharp
 public NodeChangingAction Action { get; }
@@ -18,9 +18,10 @@ public NodeChangingAction Action { get; }
 
 ## 例子
 
-展示如何使用 NodeChangingCallback 在我们编辑文档树时实时监控文档树的更改。
+演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

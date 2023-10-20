@@ -3,14 +3,14 @@ title: DigitalSignature.SignTime
 linktitle: SignTime
 articleTitle: SignTime
 second_title: 用于 .NET 的 Aspose.Words
-description: DigitalSignature SignTime 财产. 获取文档签署的时间 在 C#.
+description: DigitalSignature SignTime 财产. 获取文档的签名时间 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property
 
-获取文档签署的时间。
+获取文档的签名时间。
 
 ```csharp
 public DateTime SignTime { get; }

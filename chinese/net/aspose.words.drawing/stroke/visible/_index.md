@@ -18,7 +18,7 @@ public bool Visible { get; set; }
 
 ## 评论
 
-的默认值[`Shape`](../../shape/)是**真的**.
+a 的默认值[`Shape`](../../shape/)是`真的`.
 
 ## 例子
 

@@ -3,14 +3,14 @@ title: FieldAdvance.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
 second_title: 用于 .NET 的 Aspose.Words
-description: FieldAdvance HorizontalPosition 财产. 获取或设置字段后面的文本应从列框架或文本框的左边缘水平移动的点数  在 C#.
+description: FieldAdvance HorizontalPosition 财产. 获取或设置字段后面的文本应从列框架或文本框的左边缘水平移动 的点数 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldadvance/horizontalposition/
 ---
 ## FieldAdvance.HorizontalPosition property
 
-获取或设置字段后面的文本应从列、框架或文本框的左边缘水平移动的点数 。
+获取或设置字段后面的文本应从列、框架或文本框的左边缘水平移动 的点数。
 
 ```csharp
 public string HorizontalPosition { get; set; }
@@ -18,7 +18,7 @@ public string HorizontalPosition { get; set; }
 
 ## 例子
 
-显示如何插入 ADVANCE 字段并编辑其属性。
+演示如何插入 ADVANCE 字段并编辑其属性。
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// 下面是使用 ADVANCE 字段调整其后文本位置的两种方法。
-// 继续应用 ADVANCE 字段的效果，直到段落结束，
+// 下面是使用 ADVANCE 字段来调整其后面的文本位置的两种方法。
+// ADVANCE 字段的效果继续应用，直到段落结束，
 // 或另一个 ADVANCE 字段更新偏移/坐标值。
 // 1 - 指定方向偏移：
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);

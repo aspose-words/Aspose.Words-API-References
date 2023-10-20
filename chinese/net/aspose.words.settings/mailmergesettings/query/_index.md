@@ -3,14 +3,14 @@ title: MailMergeSettings.Query
 linktitle: Query
 articleTitle: Query
 second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeSettings Query 财产. 包含应针对指定外部数据源运行的结构化查询语言字符串以 返回执行邮件合并操作时应导入文档的记录集 默认值为空字符串 在 C#.
+description: MailMergeSettings Query 财产. 包含结构化查询语言字符串该字符串应针对指定的外部数据源运行以返回执行邮件合并操作时应导入到文档中的记录集 默认值为空字符串 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-包含应针对指定外部数据源运行的结构化查询语言字符串，以 返回执行邮件合并操作时应导入文档的记录集。 默认值为空字符串。
+包含结构化查询语言字符串，该字符串应针对指定的外部数据源运行，以返回执行邮件合并操作时应导入到文档中的记录集。 默认值为空字符串。
 
 ```csharp
 public string Query { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，用“|”特点
+// 创建一个ASCII文件形式的数据源，带有“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 之后的每一行都是具有各自值的行。
+// 随后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+ // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -3,14 +3,16 @@ title: ConditionalStyle Class
 linktitle: ConditionalStyle
 articleTitle: ConditionalStyle
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.ConditionalStyle 班级. 表示应用于具有指定表格样式的表格的某些区域的特殊格式 在 C#.
+description: Aspose.Words.ConditionalStyle 班级. 表示应用于具有指定表格样式的表格某些区域的特殊格式 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/conditionalstyle/
 ---
 ## ConditionalStyle class
 
-表示应用于具有指定表格样式的表格的某些区域的特殊格式。
+表示应用于具有指定表格样式的表格某些区域的特殊格式。
+
+要了解更多信息，请访问[使用表格](https://docs.aspose.com/words/net/working-with-tables/)文档文章。
 
 ```csharp
 public sealed class ConditionalStyle
@@ -21,26 +23,26 @@ public sealed class ConditionalStyle
 | 姓名 | 描述 |
 | --- | --- |
 | [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | 获取条件样式的默认单元格边框的集合。 |
-| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | 获取或设置要添加到表格单元格内容下方的空间量（以磅为单位）。 |
+| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | 获取或设置要在表格单元格内容下方添加的空间量（以磅为单位）。 |
 | [Font](../../aspose.words/conditionalstyle/font/) { get; } | 获取条件样式的字符格式。 |
 | [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | 获取或设置要添加到表格单元格内容左侧的空间量（以磅为单位）。 |
 | [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | 获取条件样式的段落格式。 |
 | [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | 获取或设置要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
-| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | 得到一个[`Shading`](../shading/)引用此条件样式的阴影格式的对象。 |
-| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | 获取或设置要添加到表格单元格内容之上的空间量（以磅为单位）。 |
-| [Type](../../aspose.words/conditionalstyle/type/) { get; } | 获取与此条件样式相关的表格区域。 |
+| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | 获得[`Shading`](../shading/)引用此条件样式的着色格式的对象。 |
+| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | 获取或设置要在表格单元格内容上方添加的空间量（以磅为单位）。 |
+| [Type](../../aspose.words/conditionalstyle/type/) { get; } | 获取与此条件样式相关的表区域。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | 清除此条件样式的格式。 |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) |  |
-| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | 计算此对象的哈希码。 |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | 将此条件样式与指定对象进行比较。 |
+| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | 计算该对象的哈希码。 |
 
 ## 例子
 
-显示如何使用表格的某些区域样式。
+展示如何使用表格的某些区域样式。
 
 ```csharp
 Document doc = new Document();
@@ -61,9 +63,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是只影响部分表格单元格的格式更改
-// 基于谓词，例如最后一行的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式条件样式的三种方法。
+// 条件样式是仅影响某些表格单元格的格式更改
+// 基于谓词，例如最后一行中的单元格。
+// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -99,7 +101,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// 我们需要通过“StyleOptions”属性自己启用所有其他样式。
+// 我们需要通过“StyleOptions”属性自行启用所有其他样式。
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

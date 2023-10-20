@@ -3,14 +3,14 @@ title: ReplacingArgs.Match
 linktitle: Match
 articleTitle: Match
 second_title: 用于 .NET 的 Aspose.Words
-description: ReplacingArgs Match 财产. 的Match由单个 regular 表达式匹配产生的代替 在 C#.
+description: ReplacingArgs Match 财产. 的Match由单个regular 表达式匹配产生代替 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-的Match由单个 regular 表达式匹配产生的**代替**.
+的Match由单个regular 表达式匹配产生**代替**.
 
 ```csharp
 public Match Match { get; }
@@ -22,9 +22,10 @@ public Match Match { get; }
 
 ## 例子
 
-展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

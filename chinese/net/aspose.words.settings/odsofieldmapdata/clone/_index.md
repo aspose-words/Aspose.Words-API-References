@@ -3,14 +3,14 @@ title: OdsoFieldMapData.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: 用于 .NET 的 Aspose.Words
-description: OdsoFieldMapData Clone 方法. 返回此对象的深层克隆 在 C#.
+description: OdsoFieldMapData Clone 方法. 返回此对象的深度克隆 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/odsofieldmapdata/clone/
 ---
 ## OdsoFieldMapData.Clone method
 
-返回此对象的深层克隆。
+返回此对象的深度克隆。
 
 ```csharp
 public OdsoFieldMapData Clone()
@@ -23,8 +23,8 @@ public OdsoFieldMapData Clone()
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 此集合定义邮件合并如何映射来自数据源的列
-// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 该集合定义邮件合并如何映射数据源中的列
+// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -50,7 +50,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次清除整个集合。
+// 使用“Clear”方法一次性清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

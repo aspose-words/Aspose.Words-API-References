@@ -3,14 +3,14 @@ title: VbaReferenceType Enum
 linktitle: VbaReferenceType
 articleTitle: VbaReferenceType
 second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Vba.VbaReferenceType 枚举. 允许指定类型VbaReference对象 在 C#.
+description: Aspose.Words.Vba.VbaReferenceType 枚举. 允许指定 a 的类型VbaReference对象 在 C#.
 type: docs
 weight: 6610
 url: /zh/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-允许指定类型[`VbaReference`](../vbareference/)对象.
+允许指定 a 的类型[`VbaReference`](../vbareference/)对象.
 
 ```csharp
 public enum VbaReferenceType
@@ -23,14 +23,13 @@ public enum VbaReferenceType
 | Registered | `13` | 指定自动化类型库引用类型。 |
 | Project | `14` | 指定外部 VBA 项目引用类型。 |
 | Original | `51` | 指定原始自动化类型库引用类型。 |
-| Control | `47` | 指定旋转类型库引用类型。 |
+| Control | `47` | 指定一个扭曲的类型库引用类型。 |
 
 ## 例子
 
-显示如何从 VBA 引用集合中获取/删除元素。
+演示如何从 VBA 参考集合中获取/删除元素。
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -56,7 +55,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// 返回表示指定引用的 LibId 路径的字符串。 
+ /// 返回表示指定引用的 LibId 路径的字符串。
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

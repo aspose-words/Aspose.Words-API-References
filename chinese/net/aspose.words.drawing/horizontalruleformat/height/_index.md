@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: 用于 .NET 的 Aspose.Words
-description: HorizontalRuleFormat Height 财产. 获取或设置水平尺的高度 在 C#.
+description: HorizontalRuleFormat Height 财产. 获取或设置水平线的高度 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
 
-获取或设置水平尺的高度。
+获取或设置水平线的高度。
 
 ```csharp
 public double Height { get; set; }
@@ -32,7 +32,7 @@ public double Height { get; set; }
 
 ## 例子
 
-显示如何插入水平线形，并自定义其格式。
+演示如何插入水平标尺形状并自定义其格式。
 
 ```csharp
 Document doc = new Document();

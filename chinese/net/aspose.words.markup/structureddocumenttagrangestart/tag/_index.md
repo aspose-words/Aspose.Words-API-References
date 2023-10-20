@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart Tag 财产. 指定与当前结构化文档标签节点关联的标签 不能为空 在 C#.
+description: StructuredDocumentTagRangeStart Tag 财产. 指定与当前结构化文档标记节点关联的标记 不能无效的 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-指定与当前结构化文档标签节点关联的标签。 不能为空。
+指定与当前结构化文档标记节点关联的标记。 不能`无效的`.
 
 ```csharp
 public string Tag { get; set; }
@@ -18,11 +18,11 @@ public string Tag { get; set; }
 
 ## 评论
 
-标签是一个任意字符串，应用程序可以将其与结构化文档 标签相关联，以便在不提供可见友好名称的情况下识别它。
+标签是一个任意字符串，应用程序可以将其与结构化文档 标签关联起来，以便在不提供可见的友好名称的情况下识别它。
 
 ## 例子
 
-显示如何获取多节结构化文档标签的属性。
+演示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

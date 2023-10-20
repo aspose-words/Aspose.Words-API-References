@@ -18,13 +18,13 @@ public bool TickLabelSpacingIsAuto { get; set; }
 
 ## 评论
 
-默认值为**真的**.
+默认值为`真的`。
 
 该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。
 
 ## 例子
 
-显示如何插入图表并修改其轴的外观。
+演示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
