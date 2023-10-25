@@ -28,7 +28,7 @@ The simplest mail merge is without regions and it is very similar to how mail me
 
 Note that when [MailMerge](../../com.aspose.words/mailmerge/) object encounters a NEXT field, it selects next record in the data source and continues merging without copying any content.
 
-Use [executeWithRegions(com.aspose.words.IMailMergeDataSource)](../../com.aspose.words/mailmerge/\#executeWithRegions-com.aspose.words.IMailMergeDataSource) and other overloads to merge information into a document with mail merge regions defined. You can use  or  as data sources for this operation.
+Use [executeWithRegions(com.aspose.words.IMailMergeDataSource)](../../com.aspose.words/mailmerge/\#executeWithRegions-com.aspose.words.IMailMergeDataSource) and other overloads to merge information into a document with mail merge regions defined. You can use **DataSet**, **DataTable**, **DataView** or **IDataReader** as data sources for this operation.
 
 You need to use mail merge regions if you want to dynamically grow portions inside the document. Without mail merge regions whole document will be repeated for every record of the data source.
 

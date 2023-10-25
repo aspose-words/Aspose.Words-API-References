@@ -107,6 +107,7 @@ Shows how to create custom style settings for the table.
 | [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. |
 | [getList()](#getList) | Gets the list that defines formatting of this list style. |
 | [getListFormat()](#getListFormat) | Provides access to the list formatting properties of a paragraph style. |
+| [getLocked()](#getLocked) | Specifies whether this style is locked. |
 | [getName()](#getName) | Gets the name of the style. |
 | [getNextParagraphStyleName()](#getNextParagraphStyleName) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [getParagraphFormat()](#getParagraphFormat) | Gets the paragraph formatting of the style. |
@@ -137,6 +138,7 @@ Shows how to create custom style settings for the table.
 | [setColumnStripe(int value)](#setColumnStripe-int) | Sets a number of columns to include in the banding when the style specifies odd/even columns banding. |
 | [setLeftIndent(double value)](#setLeftIndent-double) | Sets the value that represents the left indent of a table. |
 | [setLeftPadding(double value)](#setLeftPadding-double) | Sets the amount of space (in points) to add to the left of the contents of table cells. |
+| [setLocked(boolean value)](#setLocked-boolean) | Specifies whether this style is locked. |
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the style. |
 | [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
@@ -1482,6 +1484,32 @@ Shows how to create and use a paragraph style with list formatting.
 
 **Returns:**
 [ListFormat](../../com.aspose.words/listformat/) - The corresponding [ListFormat](../../com.aspose.words/listformat/) value.
+### getLocked() {#getLocked}
+```
+public boolean getLocked()
+```
+
+
+Specifies whether this style is locked.
+
+ **Examples:** 
+
+Shows how to lock style.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+ if (!styleHeading1.getLocked())
+     styleHeading1.setLocked(true);
+
+ doc.save(getArtifactsDir() + "Styles.LockStyle.docx");
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getName() {#getName}
 ```
 public String getName()
@@ -2721,6 +2749,35 @@ Shows how to create custom style settings for the table.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add to the left of the contents of table cells. |
+
+### setLocked(boolean value) {#setLocked-boolean}
+```
+public void setLocked(boolean value)
+```
+
+
+Specifies whether this style is locked.
+
+ **Examples:** 
+
+Shows how to lock style.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+ if (!styleHeading1.getLocked())
+     styleHeading1.setLocked(true);
+
+ doc.save(getArtifactsDir() + "Styles.LockStyle.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setName(String value) {#setName-java.lang.String}
 ```

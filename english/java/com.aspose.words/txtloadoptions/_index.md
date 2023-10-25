@@ -34,6 +34,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 | [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Gets whether to convert shapes with EquationXML to Office Math objects. |
+| [getDetectHyperlinks()](#getDetectHyperlinks) | Specifies either to detect hyperlinks in text. |
 | [getDetectNumberingWithWhitespaces()](#getDetectNumberingWithWhitespaces) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
 | [getDocumentDirection()](#getDocumentDirection) | Gets a document direction. |
 | [getEncoding()](#getEncoding) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
@@ -55,6 +56,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [setBaseUri(String value)](#setBaseUri-java.lang.String) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 | [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean) | Sets whether to convert shapes with EquationXML to Office Math objects. |
+| [setDetectHyperlinks(boolean value)](#setDetectHyperlinks-boolean) | Specifies either to detect hyperlinks in text. |
 | [setDetectNumberingWithWhitespaces(boolean value)](#setDetectNumberingWithWhitespaces-boolean) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
 | [setDocumentDirection(int value)](#setDocumentDirection-int) | Sets a document direction. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
@@ -237,6 +239,43 @@ Shows how to convert EquationXML shapes to Office Math objects.
 
 **Returns:**
 boolean - Whether to convert shapes with EquationXML to Office Math objects.
+### getDetectHyperlinks() {#getDetectHyperlinks}
+```
+public boolean getDetectHyperlinks()
+```
+
+
+Specifies either to detect hyperlinks in text. The default value is  false .
+
+ **Examples:** 
+
+Shows how to read and display hyperlinks.
+
+```
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getDetectNumberingWithWhitespaces() {#getDetectNumberingWithWhitespaces}
 ```
 public boolean getDetectNumberingWithWhitespaces()
@@ -1264,6 +1303,46 @@ Shows how to convert EquationXML shapes to Office Math objects.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Whether to convert shapes with EquationXML to Office Math objects. |
+
+### setDetectHyperlinks(boolean value) {#setDetectHyperlinks-boolean}
+```
+public void setDetectHyperlinks(boolean value)
+```
+
+
+Specifies either to detect hyperlinks in text. The default value is  false .
+
+ **Examples:** 
+
+Shows how to read and display hyperlinks.
+
+```
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setDetectNumberingWithWhitespaces(boolean value) {#setDetectNumberingWithWhitespaces-boolean}
 ```

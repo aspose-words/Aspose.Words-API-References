@@ -112,7 +112,7 @@ The key of this source in the cache.
 
  **Remarks:** 
 
-This key is used to identify cache item when saving/loading font search cache with  and  methods.
+This key is used to identify cache item when saving/loading font search cache with **com.aspose.words.FontSettings.saveSearchCache(java.io.OutputStream outputStream)** and **com.aspose.words.FontSettings.setFontsSources(com.aspose.words.FontSourceBase[] sources, java.io.InputStream cacheInputStream)** methods.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.

@@ -83,8 +83,10 @@ Shows how to work with data points on a line chart.
 | Method | Description |
 | --- | --- |
 | [clearFormat()](#clearFormat) | Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection. |
+| [copyFormat(int sourceIndex, int destinationIndex)](#copyFormat-int-int) | Copies format from the source data point to the destination data point. |
 | [get(int index)](#get-int) | Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint/) for the specified index. |
 | [getCount()](#getCount) | Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection. |
+| [hasDefaultFormat(int dataPointIndex)](#hasDefaultFormat-int) | Gets a flag indicating whether the data point at the specified index has default format. |
 | [iterator()](#iterator) | Returns an enumerator object. |
 ### clearFormat() {#clearFormat}
 ```
@@ -148,6 +150,54 @@ Shows how to work with data points on a line chart.
  }
  
 ```
+
+### copyFormat(int sourceIndex, int destinationIndex) {#copyFormat-int-int}
+```
+public void copyFormat(int sourceIndex, int destinationIndex)
+```
+
+
+Copies format from the source data point to the destination data point.
+
+ **Examples:** 
+
+Shows how to copy data point format.
+
+```
+
+ Document doc = new Document(getMyDir() + "DataPoint format.docx");
+
+ // Get the chart and series to update format.
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertFalse(dataPoints.hasDefaultFormat(1));
+
+ // Copy format of the data point with index 1 to the data point with index 2
+ // so that the data point 2 looks the same as the data point 1.
+ dataPoints.copyFormat(0, 1);
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertTrue(dataPoints.hasDefaultFormat(1));
+
+ // Copy format of the data point with index 0 to the series defaults so that all data points
+ // in the series that have the default format look the same as the data point 0.
+ series.copyFormatFrom(1);
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertTrue(dataPoints.hasDefaultFormat(1));
+
+ doc.save(getArtifactsDir() + "Charts.CopyDataPointFormat.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceIndex | int |  |
+| destinationIndex | int |  |
 
 ### get(int index) {#get-int}
 ```
@@ -284,6 +334,55 @@ Shows how to work with data points on a line chart.
 
 **Returns:**
 int - The number of [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection.
+### hasDefaultFormat(int dataPointIndex) {#hasDefaultFormat-int}
+```
+public boolean hasDefaultFormat(int dataPointIndex)
+```
+
+
+Gets a flag indicating whether the data point at the specified index has default format.
+
+ **Examples:** 
+
+Shows how to copy data point format.
+
+```
+
+ Document doc = new Document(getMyDir() + "DataPoint format.docx");
+
+ // Get the chart and series to update format.
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertFalse(dataPoints.hasDefaultFormat(1));
+
+ // Copy format of the data point with index 1 to the data point with index 2
+ // so that the data point 2 looks the same as the data point 1.
+ dataPoints.copyFormat(0, 1);
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertTrue(dataPoints.hasDefaultFormat(1));
+
+ // Copy format of the data point with index 0 to the series defaults so that all data points
+ // in the series that have the default format look the same as the data point 0.
+ series.copyFormatFrom(1);
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertTrue(dataPoints.hasDefaultFormat(1));
+
+ doc.save(getArtifactsDir() + "Charts.CopyDataPointFormat.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataPointIndex | int |  |
+
+**Returns:**
+boolean
 ### iterator() {#iterator}
 ```
 public Iterator iterator()

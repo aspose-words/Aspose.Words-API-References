@@ -61,6 +61,7 @@ Shows how change stroke properties.
 | Method | Description |
 | --- | --- |
 | [getBackColor()](#getBackColor) | Gets the background color of the stroke. |
+| [getBaseForeColor()](#getBaseForeColor) | Gets the base foreground color of the stroke without any modifiers. |
 | [getColor()](#getColor) | Defines the color of a stroke. |
 | [getColor2()](#getColor2) | Defines a second color for a stroke. |
 | [getDashStyle()](#getDashStyle) | Specifies the dot and dash pattern for a stroke. |
@@ -73,6 +74,7 @@ Shows how change stroke properties.
 | [getFillableBackColor()](#getFillableBackColor) |  |
 | [getFillableBackThemeColor()](#getFillableBackThemeColor) |  |
 | [getFillableBackTintAndShade()](#getFillableBackTintAndShade) |  |
+| [getFillableBaseForeColor()](#getFillableBaseForeColor) |  |
 | [getFillableForeColor()](#getFillableForeColor) |  |
 | [getFillableForeThemeColor()](#getFillableForeThemeColor) |  |
 | [getFillableForeTintAndShade()](#getFillableForeTintAndShade) |  |
@@ -151,7 +153,7 @@ Gets the background color of the stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.WHITE**.
 
  **Examples:** 
 
@@ -192,6 +194,46 @@ Show how to set marker formatting.
 
 **Returns:**
 java.awt.Color - The background color of the stroke.
+### getBaseForeColor() {#getBaseForeColor}
+```
+public Color getBaseForeColor()
+```
+
+
+Gets the base foreground color of the stroke without any modifiers.
+
+ **Remarks:** 
+
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.BLACK**.
+
+ **Examples:** 
+
+Shows how to get foreground color without modifiers.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ shape.getFill().setForeColor(Color.RED);
+ shape.getFill().setForeTintAndShade(0.5);
+ shape.getStroke().getFill().setForeColor(Color.GREEN);
+ shape.getStroke().getFill().setTransparency(0.5);
+
+ Assert.assertEquals(new Color((255), (188), (188), (255)).getRGB(), shape.getFill().getForeColor().getRGB());
+ Assert.assertEquals(Color.RED.getRGB(), shape.getFill().getBaseForeColor().getRGB());
+
+ Assert.assertEquals(new Color((0), (128), (0), (128)).getRGB(), shape.getStroke().getForeColor().getRGB());
+ Assert.assertEquals(Color.GREEN.getRGB(), shape.getStroke().getBaseForeColor().getRGB());
+
+ Assert.assertEquals(Color.GREEN.getRGB(), shape.getStroke().getFill().getForeColor().getRGB());
+ Assert.assertEquals(Color.GREEN.getRGB(), shape.getStroke().getFill().getBaseForeColor().getRGB());
+ 
+```
+
+**Returns:**
+java.awt.Color - The base foreground color of the stroke without any modifiers.
 ### getColor() {#getColor}
 ```
 public Color getColor()
@@ -202,7 +244,7 @@ Defines the color of a stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.BLACK**.
 
  **Examples:** 
 
@@ -290,7 +332,7 @@ Defines a second color for a stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.WHITE**.
 
  **Examples:** 
 
@@ -836,6 +878,16 @@ public double getFillableBackTintAndShade()
 
 **Returns:**
 double
+### getFillableBaseForeColor() {#getFillableBaseForeColor}
+```
+public Color getFillableBaseForeColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
 ### getFillableForeColor() {#getFillableForeColor}
 ```
 public Color getFillableForeColor()
@@ -916,7 +968,7 @@ Gets the foreground color of the stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.BLACK**.
 
  **Examples:** 
 
@@ -1776,7 +1828,7 @@ Sets the background color of the stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.WHITE**.
 
  **Examples:** 
 
@@ -1830,7 +1882,7 @@ Defines the color of a stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.BLACK**.
 
  **Examples:** 
 
@@ -1921,7 +1973,7 @@ Defines a second color for a stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.WHITE**.
 
  **Examples:** 
 
@@ -2530,7 +2582,7 @@ Sets the foreground color of the stroke.
 
  **Remarks:** 
 
-The default value for a [Shape](../../com.aspose.words/shape/) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is **java.awt.Color.BLACK**.
 
  **Examples:** 
 

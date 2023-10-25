@@ -99,6 +99,7 @@ Shows how to insert a linked image into a document.
 | Method | Description |
 | --- | --- |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
+| [fitImageToShape()](#fitImageToShape) | Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame. |
 | [getBiLevel()](#getBiLevel) | Determines whether an image will be displayed in black and white. |
 | [getBorders()](#getBorders) | Gets the collection of borders of the image. |
 | [getBrightness()](#getBrightness) | Gets the brightness of the picture. |
@@ -154,6 +155,32 @@ public Object fetchInheritedBorderAttr(int key)
 
 **Returns:**
 java.lang.Object
+### fitImageToShape() {#fitImageToShape}
+```
+public void fitImageToShape()
+```
+
+
+Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame.
+
+ **Examples:** 
+
+Shows hot to fit the image data to Shape frame.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert an image shape and leave its orientation in its default state.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 300.0, 450.0);
+ shape.getImageData().setImage(getImageDir() + "Barcode.png");
+ shape.getImageData().fitImageToShape();
+
+ doc.save(getArtifactsDir() + "Shape.FitImageToShape.docx");
+ 
+```
+
 ### getBiLevel() {#getBiLevel}
 ```
 public boolean getBiLevel()
@@ -992,7 +1019,7 @@ public ImageSize getImageSize()
 ```
 
 
-Gets the information about image size and resolution. (20589,6)
+Gets the information about image size and resolution. (20839,6)
 
  **Remarks:** 
 
@@ -1055,7 +1082,7 @@ public int getImageType()
 ```
 
 
-Gets the type of the image. (20640,6)
+Gets the type of the image. (20890,6)
 
  **Examples:** 
 
@@ -1224,7 +1251,7 @@ public boolean hasImage()
 ```
 
 
-Returns  true  if the shape has image bytes or links an image. (20551,6)
+Returns  true  if the shape has image bytes or links an image. (20801,6)
 
  **Examples:** 
 
@@ -1273,7 +1300,7 @@ public boolean isLink()
 ```
 
 
-Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (20664,6)
+Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (20914,6)
 
  **Examples:** 
 
@@ -1346,7 +1373,7 @@ public boolean isLinkOnly()
 ```
 
 
-Returns  true  if the image is linked and not stored in the document. (20726,6)
+Returns  true  if the image is linked and not stored in the document. (20976,6)
 
  **Examples:** 
 
@@ -2612,11 +2639,11 @@ Creates and returns a stream that contains the image bytes.  This is not ported 
 
  **Remarks:** 
 
-If the image bytes are stored in the shape, creates and returns a  object.
+If the image bytes are stored in the shape, creates and returns a java.io.ByteArrayInputStream object.
 
-If the image is linked and stored in a file, opens the file and returns a  object.
+If the image is linked and stored in a file, opens the file and returns a java.io.FileInputStream object.
 
-If the image is linked and stored in an external URL, opens the URL and returns a  object.
+If the image is linked and stored in an external URL, opens the URL and returns a java.io.ByteArrayInputStream object.
 
 Is it the responsibility of the caller to dispose the stream object.
 

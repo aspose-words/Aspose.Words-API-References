@@ -53,7 +53,7 @@ Initializes a new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [ShapeBase](../../com.aspose.words/shapebase/) | The DrawinML shape object that you want to render. |
+| shape | [ShapeBase](../../com.aspose.words/shapebase/) |  |
 
 ### getBoundsInPixels(float scale, float dpi) {#getBoundsInPixels-float-float}
 ```

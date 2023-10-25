@@ -104,7 +104,7 @@ Gets the brush color that fills the horizontal rule.
 
 This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
-The default value is .
+The default value is **java.awt.Color.GRAY**.
 
  **Examples:** 
 
@@ -237,7 +237,7 @@ Sets the brush color that fills the horizontal rule.
 
 This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
-The default value is .
+The default value is **java.awt.Color.GRAY**.
 
  **Examples:** 
 

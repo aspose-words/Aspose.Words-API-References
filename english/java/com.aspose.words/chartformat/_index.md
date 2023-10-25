@@ -34,6 +34,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getFillableBackColor()](#getFillableBackColor) |  |
 | [getFillableBackThemeColor()](#getFillableBackThemeColor) |  |
 | [getFillableBackTintAndShade()](#getFillableBackTintAndShade) |  |
+| [getFillableBaseForeColor()](#getFillableBaseForeColor) |  |
 | [getFillableForeColor()](#getFillableForeColor) |  |
 | [getFillableForeThemeColor()](#getFillableForeThemeColor) |  |
 | [getFillableForeTintAndShade()](#getFillableForeTintAndShade) |  |
@@ -63,10 +64,12 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getStrokeVisible()](#getStrokeVisible) |  |
 | [getTextureAlignment()](#getTextureAlignment) |  |
 | [getWeight()](#getWeight) |  |
+| [isDefined()](#isDefined) | Gets a flag indicating whether any format is defined. |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double) |  |
 | [patterned(int patternType)](#patterned-int) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int) |  |
 | [setDashStyle(int value)](#setDashStyle-int) |  |
+| [setDefaultFill()](#setDefaultFill) | Resets the fill of the chart element to have the default value. |
 | [setEndArrowLength(int value)](#setEndArrowLength-int) |  |
 | [setEndArrowType(int value)](#setEndArrowType-int) |  |
 | [setEndArrowWidth(int value)](#setEndArrowWidth-int) |  |
@@ -235,6 +238,16 @@ public double getFillableBackTintAndShade()
 
 **Returns:**
 double
+### getFillableBaseForeColor() {#getFillableBaseForeColor}
+```
+public Color getFillableBaseForeColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
 ### getFillableForeColor() {#getFillableForeColor}
 ```
 public Color getFillableForeColor()
@@ -606,6 +619,36 @@ public double getWeight()
 
 **Returns:**
 double
+### isDefined() {#isDefined}
+```
+public boolean isDefined()
+```
+
+
+Gets a flag indicating whether any format is defined.
+
+ **Examples:** 
+
+Shows how to reset the fill to the default value defined in the series.
+
+```
+
+ Document doc = new Document(getMyDir() + "DataPoint format.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataPoint dataPoint = series.getDataPoints().get(1);
+
+ Assert.assertTrue(dataPoint.getFormat().isDefined());
+
+ dataPoint.getFormat().setDefaultFill();
+
+ doc.save(getArtifactsDir() + "Charts.ResetDataPointFill.docx");
+ 
+```
+
+**Returns:**
+boolean - A flag indicating whether any format is defined.
 ### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double}
 ```
 public void oneColorGradient(int style, int variant, double degree)
@@ -659,6 +702,34 @@ public void setDashStyle(int value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setDefaultFill() {#setDefaultFill}
+```
+public void setDefaultFill()
+```
+
+
+Resets the fill of the chart element to have the default value.
+
+ **Examples:** 
+
+Shows how to reset the fill to the default value defined in the series.
+
+```
+
+ Document doc = new Document(getMyDir() + "DataPoint format.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataPoint dataPoint = series.getDataPoints().get(1);
+
+ Assert.assertTrue(dataPoint.getFormat().isDefined());
+
+ dataPoint.getFormat().setDefaultFill();
+
+ doc.save(getArtifactsDir() + "Charts.ResetDataPointFill.docx");
+ 
+```
 
 ### setEndArrowLength(int value) {#setEndArrowLength-int}
 ```

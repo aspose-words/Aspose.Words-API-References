@@ -34,6 +34,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);
@@ -51,12 +53,52 @@ Shows how to insert a chart and set a title.
 
 | Method | Description |
 | --- | --- |
+| [getFont()](#getFont) | Provides access to the font formatting of the chart title. |
 | [getOverlay()](#getOverlay) | Determines whether other chart elements shall be allowed to overlap title. |
 | [getShow()](#getShow) | Determines whether the title shall be shown for this chart. |
 | [getText()](#getText) | Gets the text of the chart title. |
 | [setOverlay(boolean value)](#setOverlay-boolean) | Determines whether other chart elements shall be allowed to overlap title. |
 | [setShow(boolean value)](#setShow-boolean) | Determines whether the title shall be shown for this chart. |
 | [setText(String value)](#setText-java.lang.String) | Sets the text of the chart title. |
+### getFont() {#getFont}
+```
+public Font getFont()
+```
+
+
+Provides access to the font formatting of the chart title.
+
+ **Examples:** 
+
+Shows how to insert a chart and set a title.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getOverlay() {#getOverlay}
 ```
 public boolean getOverlay()
@@ -81,6 +123,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);
@@ -118,6 +162,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);
@@ -159,6 +205,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);
@@ -196,6 +244,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);
@@ -236,6 +286,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);
@@ -280,6 +332,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);

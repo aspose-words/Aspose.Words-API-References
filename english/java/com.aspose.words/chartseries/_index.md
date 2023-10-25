@@ -102,6 +102,7 @@ Shows how to apply labels to data points in a line chart.
 | [add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)](#add-com.aspose.words.ChartXValue-com.aspose.words.ChartYValue-double) | Adds the specified X value, Y value and bubble size to the chart series. |
 | [clear()](#clear) | Removes all data values from the chart series. |
 | [clearValues()](#clearValues) | Removes all data values from the chart series with preserving the format of the data points and data labels. |
+| [copyFormatFrom(int dataPointIndex)](#copyFormatFrom-int) | Copies default data point format from the data point with the specified index. |
 | [getBubble3D()](#getBubble3D) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [getBubbleSizes()](#getBubbleSizes) | Gets a collection of bubble sizes for this chart series. |
 | [getDataLabels()](#getDataLabels) | Specifies the settings for the data labels for the entire series. |
@@ -246,6 +247,53 @@ public void clearValues()
 
 
 Removes all data values from the chart series with preserving the format of the data points and data labels.
+
+### copyFormatFrom(int dataPointIndex) {#copyFormatFrom-int}
+```
+public void copyFormatFrom(int dataPointIndex)
+```
+
+
+Copies default data point format from the data point with the specified index.
+
+ **Examples:** 
+
+Shows how to copy data point format.
+
+```
+
+ Document doc = new Document(getMyDir() + "DataPoint format.docx");
+
+ // Get the chart and series to update format.
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertFalse(dataPoints.hasDefaultFormat(1));
+
+ // Copy format of the data point with index 1 to the data point with index 2
+ // so that the data point 2 looks the same as the data point 1.
+ dataPoints.copyFormat(0, 1);
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertTrue(dataPoints.hasDefaultFormat(1));
+
+ // Copy format of the data point with index 0 to the series defaults so that all data points
+ // in the series that have the default format look the same as the data point 0.
+ series.copyFormatFrom(1);
+
+ Assert.assertTrue(dataPoints.hasDefaultFormat(0));
+ Assert.assertTrue(dataPoints.hasDefaultFormat(1));
+
+ doc.save(getArtifactsDir() + "Charts.CopyDataPointFormat.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataPointIndex | int |  |
 
 ### getBubble3D() {#getBubble3D}
 ```

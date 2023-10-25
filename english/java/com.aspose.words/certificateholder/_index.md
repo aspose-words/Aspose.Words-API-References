@@ -249,4 +249,4 @@ Shows how to validate and display information about each signature in a document
 ```
 
 **Returns:**
-[X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper/) -  instance
+[X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper/) - [X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper/) instance

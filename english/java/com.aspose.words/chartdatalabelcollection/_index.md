@@ -113,6 +113,7 @@ Shows how to apply labels to data points in a line chart.
 | [getShowPercentage()](#getShowPercentage) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. |
 | [getShowSeriesName()](#getShowSeriesName) | Gets a Boolean to indicate the series name display behavior for the data labels of the entire series. |
 | [getShowValue()](#getShowValue) | Allows to specify whether values are to be displayed in the data labels of the entire series. |
+| [isFormatDefined()](#isFormatDefined) |  |
 | [isInherited()](#isInherited) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
 | [materializeSpPr()](#materializeSpPr) |  |
@@ -935,6 +936,16 @@ Shows how to work with data labels of a pie chart.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### isFormatDefined() {#isFormatDefined}
+```
+public boolean isFormatDefined()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isInherited() {#isInherited}
 ```
 public boolean isInherited()

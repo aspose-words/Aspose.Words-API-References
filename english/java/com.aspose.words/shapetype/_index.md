@@ -80,139 +80,139 @@ Shows how Aspose.Words identify shapes.
 
 | Field | Description |
 | --- | --- |
-| [ACCENT_BORDER_CALLOUT_1](#ACCENT-BORDER-CALLOUT-1) |  |
-| [ACCENT_BORDER_CALLOUT_2](#ACCENT-BORDER-CALLOUT-2) |  |
-| [ACCENT_BORDER_CALLOUT_3](#ACCENT-BORDER-CALLOUT-3) |  |
-| [ACCENT_BORDER_CALLOUT_90](#ACCENT-BORDER-CALLOUT-90) |  |
-| [ACCENT_CALLOUT_1](#ACCENT-CALLOUT-1) |  |
-| [ACCENT_CALLOUT_2](#ACCENT-CALLOUT-2) |  |
-| [ACCENT_CALLOUT_3](#ACCENT-CALLOUT-3) |  |
-| [ACCENT_CALLOUT_90](#ACCENT-CALLOUT-90) |  |
-| [ACTION_BUTTON_BACK_PREVIOUS](#ACTION-BUTTON-BACK-PREVIOUS) |  |
-| [ACTION_BUTTON_BEGINNING](#ACTION-BUTTON-BEGINNING) |  |
-| [ACTION_BUTTON_BLANK](#ACTION-BUTTON-BLANK) |  |
-| [ACTION_BUTTON_DOCUMENT](#ACTION-BUTTON-DOCUMENT) |  |
-| [ACTION_BUTTON_END](#ACTION-BUTTON-END) |  |
-| [ACTION_BUTTON_FORWARD_NEXT](#ACTION-BUTTON-FORWARD-NEXT) |  |
-| [ACTION_BUTTON_HELP](#ACTION-BUTTON-HELP) |  |
-| [ACTION_BUTTON_HOME](#ACTION-BUTTON-HOME) |  |
-| [ACTION_BUTTON_INFORMATION](#ACTION-BUTTON-INFORMATION) |  |
-| [ACTION_BUTTON_MOVIE](#ACTION-BUTTON-MOVIE) |  |
-| [ACTION_BUTTON_RETURN](#ACTION-BUTTON-RETURN) |  |
-| [ACTION_BUTTON_SOUND](#ACTION-BUTTON-SOUND) |  |
-| [ARC](#ARC) |  |
-| [ARROW](#ARROW) |  |
-| [BALLOON](#BALLOON) |  |
-| [BENT_ARROW](#BENT-ARROW) |  |
-| [BENT_CONNECTOR_2](#BENT-CONNECTOR-2) |  |
-| [BENT_CONNECTOR_3](#BENT-CONNECTOR-3) |  |
-| [BENT_CONNECTOR_4](#BENT-CONNECTOR-4) |  |
-| [BENT_CONNECTOR_5](#BENT-CONNECTOR-5) |  |
-| [BENT_UP_ARROW](#BENT-UP-ARROW) |  |
-| [BEVEL](#BEVEL) |  |
-| [BLOCK_ARC](#BLOCK-ARC) |  |
-| [BORDER_CALLOUT_1](#BORDER-CALLOUT-1) |  |
-| [BORDER_CALLOUT_2](#BORDER-CALLOUT-2) |  |
-| [BORDER_CALLOUT_3](#BORDER-CALLOUT-3) |  |
-| [BORDER_CALLOUT_90](#BORDER-CALLOUT-90) |  |
-| [BRACE_PAIR](#BRACE-PAIR) |  |
-| [BRACKET_PAIR](#BRACKET-PAIR) |  |
-| [CALLOUT_1](#CALLOUT-1) |  |
-| [CALLOUT_2](#CALLOUT-2) |  |
-| [CALLOUT_3](#CALLOUT-3) |  |
-| [CALLOUT_90](#CALLOUT-90) |  |
-| [CAN](#CAN) |  |
+| [ACCENT_BORDER_CALLOUT_1](#ACCENT-BORDER-CALLOUT-1) | Accent border callout 1. |
+| [ACCENT_BORDER_CALLOUT_2](#ACCENT-BORDER-CALLOUT-2) | Accent border callout 2. |
+| [ACCENT_BORDER_CALLOUT_3](#ACCENT-BORDER-CALLOUT-3) | Accent border callout 3. |
+| [ACCENT_BORDER_CALLOUT_90](#ACCENT-BORDER-CALLOUT-90) | Accent border callout 90. |
+| [ACCENT_CALLOUT_1](#ACCENT-CALLOUT-1) | An accent callout shape with one arrow. |
+| [ACCENT_CALLOUT_2](#ACCENT-CALLOUT-2) | An accent callout shape with two arrows. |
+| [ACCENT_CALLOUT_3](#ACCENT-CALLOUT-3) | An accent callout shape with three arrows. |
+| [ACCENT_CALLOUT_90](#ACCENT-CALLOUT-90) | Accent callout 90. |
+| [ACTION_BUTTON_BACK_PREVIOUS](#ACTION-BUTTON-BACK-PREVIOUS) | Action button back previous. |
+| [ACTION_BUTTON_BEGINNING](#ACTION-BUTTON-BEGINNING) | Action button beginning. |
+| [ACTION_BUTTON_BLANK](#ACTION-BUTTON-BLANK) | Action button blank. |
+| [ACTION_BUTTON_DOCUMENT](#ACTION-BUTTON-DOCUMENT) | Action button document. |
+| [ACTION_BUTTON_END](#ACTION-BUTTON-END) | Action button end. |
+| [ACTION_BUTTON_FORWARD_NEXT](#ACTION-BUTTON-FORWARD-NEXT) | Action button forward next. |
+| [ACTION_BUTTON_HELP](#ACTION-BUTTON-HELP) | Action button help. |
+| [ACTION_BUTTON_HOME](#ACTION-BUTTON-HOME) | Action button home. |
+| [ACTION_BUTTON_INFORMATION](#ACTION-BUTTON-INFORMATION) | Action button information. |
+| [ACTION_BUTTON_MOVIE](#ACTION-BUTTON-MOVIE) | Action button movie. |
+| [ACTION_BUTTON_RETURN](#ACTION-BUTTON-RETURN) | Action button return. |
+| [ACTION_BUTTON_SOUND](#ACTION-BUTTON-SOUND) | Action button sound. |
+| [ARC](#ARC) | Arc. |
+| [ARROW](#ARROW) | Arrow. |
+| [BALLOON](#BALLOON) | Balloon. |
+| [BENT_ARROW](#BENT-ARROW) | Bent arrow. |
+| [BENT_CONNECTOR_2](#BENT-CONNECTOR-2) | A bent connector shape with two segments. |
+| [BENT_CONNECTOR_3](#BENT-CONNECTOR-3) | A bent connector shape with three segments. |
+| [BENT_CONNECTOR_4](#BENT-CONNECTOR-4) | A bent connector shape with four segments. |
+| [BENT_CONNECTOR_5](#BENT-CONNECTOR-5) | A bent connector shape with five segments. |
+| [BENT_UP_ARROW](#BENT-UP-ARROW) | Bent up arrow. |
+| [BEVEL](#BEVEL) | Bevel. |
+| [BLOCK_ARC](#BLOCK-ARC) | Block arc. |
+| [BORDER_CALLOUT_1](#BORDER-CALLOUT-1) | Border callout 1. |
+| [BORDER_CALLOUT_2](#BORDER-CALLOUT-2) | Border callout 2. |
+| [BORDER_CALLOUT_3](#BORDER-CALLOUT-3) | Border callout 3. |
+| [BORDER_CALLOUT_90](#BORDER-CALLOUT-90) | Border callout 90. |
+| [BRACE_PAIR](#BRACE-PAIR) | Brace pair |
+| [BRACKET_PAIR](#BRACKET-PAIR) | Bracket pair. |
+| [CALLOUT_1](#CALLOUT-1) | A callout shape with one arrow. |
+| [CALLOUT_2](#CALLOUT-2) | A callout shape with two arrows. |
+| [CALLOUT_3](#CALLOUT-3) | A callout shape with three arrows. |
+| [CALLOUT_90](#CALLOUT-90) | Callout 90. |
+| [CAN](#CAN) | Can. |
 | [CHART_PLUS](#CHART-PLUS) | Chart plus. |
 | [CHART_STAR](#CHART-STAR) | Chart star. |
 | [CHART_X](#CHART-X) | Chart X. |
-| [CHEVRON](#CHEVRON) |  |
+| [CHEVRON](#CHEVRON) | Chevron. |
 | [CHORD](#CHORD) | Chord. |
-| [CIRCULAR_ARROW](#CIRCULAR-ARROW) |  |
+| [CIRCULAR_ARROW](#CIRCULAR-ARROW) | Circular arrow. |
 | [CLOUD](#CLOUD) | Cloud. |
-| [CLOUD_CALLOUT](#CLOUD-CALLOUT) |  |
+| [CLOUD_CALLOUT](#CLOUD-CALLOUT) | Cloud callout. |
 | [CORNER](#CORNER) | Corner. |
 | [CORNER_TABS](#CORNER-TABS) | Corner tabs. |
-| [CUBE](#CUBE) |  |
-| [CURVED_CONNECTOR_2](#CURVED-CONNECTOR-2) |  |
-| [CURVED_CONNECTOR_3](#CURVED-CONNECTOR-3) |  |
-| [CURVED_CONNECTOR_4](#CURVED-CONNECTOR-4) |  |
-| [CURVED_CONNECTOR_5](#CURVED-CONNECTOR-5) |  |
-| [CURVED_DOWN_ARROW](#CURVED-DOWN-ARROW) |  |
-| [CURVED_LEFT_ARROW](#CURVED-LEFT-ARROW) |  |
-| [CURVED_RIGHT_ARROW](#CURVED-RIGHT-ARROW) |  |
-| [CURVED_UP_ARROW](#CURVED-UP-ARROW) |  |
+| [CUBE](#CUBE) | Cube. |
+| [CURVED_CONNECTOR_2](#CURVED-CONNECTOR-2) | A curved connector shape with two segments. |
+| [CURVED_CONNECTOR_3](#CURVED-CONNECTOR-3) | A curved connector shape with three segments. |
+| [CURVED_CONNECTOR_4](#CURVED-CONNECTOR-4) | A curved connector shape with four segments. |
+| [CURVED_CONNECTOR_5](#CURVED-CONNECTOR-5) | A curved connector shape with five segments. |
+| [CURVED_DOWN_ARROW](#CURVED-DOWN-ARROW) | Curved down arrow. |
+| [CURVED_LEFT_ARROW](#CURVED-LEFT-ARROW) | Curved left arrow. |
+| [CURVED_RIGHT_ARROW](#CURVED-RIGHT-ARROW) | Curved right arrow. |
+| [CURVED_UP_ARROW](#CURVED-UP-ARROW) | Curved up arrow |
 | [CUSTOM_SHAPE](#CUSTOM-SHAPE) | This shape type seems to be set for shapes that are not part of the standard set of the auto shapes in Microsoft Word. |
 | [DECAGON](#DECAGON) | Decagon. |
 | [DIAGONAL_CORNERS_ROUNDED](#DIAGONAL-CORNERS-ROUNDED) | Round diagonal corner rectangle. |
 | [DIAGONAL_CORNERS_SNIPPED](#DIAGONAL-CORNERS-SNIPPED) | Snip diagonal corner rectangle. |
 | [DIAGONAL_STRIPE](#DIAGONAL-STRIPE) | Diagonal stripe. |
-| [DIAMOND](#DIAMOND) |  |
+| [DIAMOND](#DIAMOND) | Diamond. |
 | [DODECAGON](#DODECAGON) | Dodecagon. |
-| [DONUT](#DONUT) |  |
-| [DOUBLE_WAVE](#DOUBLE-WAVE) |  |
-| [DOWN_ARROW](#DOWN-ARROW) |  |
-| [DOWN_ARROW_CALLOUT](#DOWN-ARROW-CALLOUT) |  |
-| [ELLIPSE](#ELLIPSE) |  |
-| [ELLIPSE_RIBBON](#ELLIPSE-RIBBON) |  |
-| [ELLIPSE_RIBBON_2](#ELLIPSE-RIBBON-2) |  |
-| [FLOW_CHART_ALTERNATE_PROCESS](#FLOW-CHART-ALTERNATE-PROCESS) |  |
-| [FLOW_CHART_COLLATE](#FLOW-CHART-COLLATE) |  |
-| [FLOW_CHART_CONNECTOR](#FLOW-CHART-CONNECTOR) |  |
-| [FLOW_CHART_DECISION](#FLOW-CHART-DECISION) |  |
-| [FLOW_CHART_DELAY](#FLOW-CHART-DELAY) |  |
-| [FLOW_CHART_DISPLAY](#FLOW-CHART-DISPLAY) |  |
-| [FLOW_CHART_DOCUMENT](#FLOW-CHART-DOCUMENT) |  |
-| [FLOW_CHART_EXTRACT](#FLOW-CHART-EXTRACT) |  |
-| [FLOW_CHART_INPUT_OUTPUT](#FLOW-CHART-INPUT-OUTPUT) |  |
-| [FLOW_CHART_INTERNAL_STORAGE](#FLOW-CHART-INTERNAL-STORAGE) |  |
-| [FLOW_CHART_MAGNETIC_DISK](#FLOW-CHART-MAGNETIC-DISK) |  |
-| [FLOW_CHART_MAGNETIC_DRUM](#FLOW-CHART-MAGNETIC-DRUM) |  |
-| [FLOW_CHART_MAGNETIC_TAPE](#FLOW-CHART-MAGNETIC-TAPE) |  |
-| [FLOW_CHART_MANUAL_INPUT](#FLOW-CHART-MANUAL-INPUT) |  |
-| [FLOW_CHART_MANUAL_OPERATION](#FLOW-CHART-MANUAL-OPERATION) |  |
-| [FLOW_CHART_MERGE](#FLOW-CHART-MERGE) |  |
-| [FLOW_CHART_MULTIDOCUMENT](#FLOW-CHART-MULTIDOCUMENT) |  |
-| [FLOW_CHART_OFFLINE_STORAGE](#FLOW-CHART-OFFLINE-STORAGE) |  |
-| [FLOW_CHART_OFFPAGE_CONNECTOR](#FLOW-CHART-OFFPAGE-CONNECTOR) |  |
-| [FLOW_CHART_ONLINE_STORAGE](#FLOW-CHART-ONLINE-STORAGE) |  |
-| [FLOW_CHART_OR](#FLOW-CHART-OR) |  |
-| [FLOW_CHART_PREDEFINED_PROCESS](#FLOW-CHART-PREDEFINED-PROCESS) |  |
-| [FLOW_CHART_PREPARATION](#FLOW-CHART-PREPARATION) |  |
-| [FLOW_CHART_PROCESS](#FLOW-CHART-PROCESS) |  |
-| [FLOW_CHART_PUNCHED_CARD](#FLOW-CHART-PUNCHED-CARD) |  |
-| [FLOW_CHART_PUNCHED_TAPE](#FLOW-CHART-PUNCHED-TAPE) |  |
-| [FLOW_CHART_SORT](#FLOW-CHART-SORT) |  |
-| [FLOW_CHART_SUMMING_JUNCTION](#FLOW-CHART-SUMMING-JUNCTION) |  |
-| [FLOW_CHART_TERMINATOR](#FLOW-CHART-TERMINATOR) |  |
-| [FOLDED_CORNER](#FOLDED-CORNER) |  |
+| [DONUT](#DONUT) | Donut. |
+| [DOUBLE_WAVE](#DOUBLE-WAVE) | Double wave. |
+| [DOWN_ARROW](#DOWN-ARROW) | Down arrow. |
+| [DOWN_ARROW_CALLOUT](#DOWN-ARROW-CALLOUT) | Down arrow callout. |
+| [ELLIPSE](#ELLIPSE) | Ellipse. |
+| [ELLIPSE_RIBBON](#ELLIPSE-RIBBON) | Ellipse ribbon. |
+| [ELLIPSE_RIBBON_2](#ELLIPSE-RIBBON-2) | Ellipse ribbon 2. |
+| [FLOW_CHART_ALTERNATE_PROCESS](#FLOW-CHART-ALTERNATE-PROCESS) | Flow chart alternate process. |
+| [FLOW_CHART_COLLATE](#FLOW-CHART-COLLATE) | Flow chart collate. |
+| [FLOW_CHART_CONNECTOR](#FLOW-CHART-CONNECTOR) | Flow chart connector. |
+| [FLOW_CHART_DECISION](#FLOW-CHART-DECISION) | Flow chart decision. |
+| [FLOW_CHART_DELAY](#FLOW-CHART-DELAY) | Flow chart delay. |
+| [FLOW_CHART_DISPLAY](#FLOW-CHART-DISPLAY) | Flow chart display. |
+| [FLOW_CHART_DOCUMENT](#FLOW-CHART-DOCUMENT) | Flow chart document. |
+| [FLOW_CHART_EXTRACT](#FLOW-CHART-EXTRACT) | Flow chart extract. |
+| [FLOW_CHART_INPUT_OUTPUT](#FLOW-CHART-INPUT-OUTPUT) | Flow chart input output. |
+| [FLOW_CHART_INTERNAL_STORAGE](#FLOW-CHART-INTERNAL-STORAGE) | Flow chart internal storage. |
+| [FLOW_CHART_MAGNETIC_DISK](#FLOW-CHART-MAGNETIC-DISK) | Flow chart magnetic disk. |
+| [FLOW_CHART_MAGNETIC_DRUM](#FLOW-CHART-MAGNETIC-DRUM) | Flow chart magnetic drum. |
+| [FLOW_CHART_MAGNETIC_TAPE](#FLOW-CHART-MAGNETIC-TAPE) | Flow char magnetic tape. |
+| [FLOW_CHART_MANUAL_INPUT](#FLOW-CHART-MANUAL-INPUT) | Flow chart manual input. |
+| [FLOW_CHART_MANUAL_OPERATION](#FLOW-CHART-MANUAL-OPERATION) | Flow chart manual operation. |
+| [FLOW_CHART_MERGE](#FLOW-CHART-MERGE) | Flow chart merge. |
+| [FLOW_CHART_MULTIDOCUMENT](#FLOW-CHART-MULTIDOCUMENT) | Flow chart multi document. |
+| [FLOW_CHART_OFFLINE_STORAGE](#FLOW-CHART-OFFLINE-STORAGE) | Flow chart off-line storage. |
+| [FLOW_CHART_OFFPAGE_CONNECTOR](#FLOW-CHART-OFFPAGE-CONNECTOR) | Flow chart off page connector. |
+| [FLOW_CHART_ONLINE_STORAGE](#FLOW-CHART-ONLINE-STORAGE) | Flow chart on-line storage. |
+| [FLOW_CHART_OR](#FLOW-CHART-OR) | Flow chart or. |
+| [FLOW_CHART_PREDEFINED_PROCESS](#FLOW-CHART-PREDEFINED-PROCESS) | Flow chart predefined process |
+| [FLOW_CHART_PREPARATION](#FLOW-CHART-PREPARATION) | Flow chart preparation. |
+| [FLOW_CHART_PROCESS](#FLOW-CHART-PROCESS) | Flow chart process. |
+| [FLOW_CHART_PUNCHED_CARD](#FLOW-CHART-PUNCHED-CARD) | Flow chart punched card. |
+| [FLOW_CHART_PUNCHED_TAPE](#FLOW-CHART-PUNCHED-TAPE) | Flow chart punched tape. |
+| [FLOW_CHART_SORT](#FLOW-CHART-SORT) | Flow chart sort. |
+| [FLOW_CHART_SUMMING_JUNCTION](#FLOW-CHART-SUMMING-JUNCTION) | Flow chart summing junction. |
+| [FLOW_CHART_TERMINATOR](#FLOW-CHART-TERMINATOR) | Flow chart terminator. |
+| [FOLDED_CORNER](#FOLDED-CORNER) | Folded corner. |
 | [FRAME](#FRAME) | Frame. |
 | [FUNNEL](#FUNNEL) | Funnel. |
 | [GEAR_6](#GEAR-6) | Six-tooth gear. |
 | [GEAR_9](#GEAR-9) | Nine-tooth gear. |
 | [GROUP](#GROUP) | The shape is a group shape. |
 | [HALF_FRAME](#HALF-FRAME) | Half frame. |
-| [HEART](#HEART) |  |
+| [HEART](#HEART) | Heart. |
 | [HEPTAGON](#HEPTAGON) | Heptagon. |
-| [HEXAGON](#HEXAGON) |  |
-| [HOME_PLATE](#HOME-PLATE) |  |
-| [HORIZONTAL_SCROLL](#HORIZONTAL-SCROLL) |  |
+| [HEXAGON](#HEXAGON) | Hexagon. |
+| [HOME_PLATE](#HOME-PLATE) | Home plate. |
+| [HORIZONTAL_SCROLL](#HORIZONTAL-SCROLL) | Horizontal scroll. |
 | [IMAGE](#IMAGE) | The shape is an image. |
 | [INVERSE_LINE](#INVERSE-LINE) | Inverse line. |
-| [IRREGULAR_SEAL_1](#IRREGULAR-SEAL-1) |  |
-| [IRREGULAR_SEAL_2](#IRREGULAR-SEAL-2) |  |
-| [LEFT_ARROW](#LEFT-ARROW) |  |
-| [LEFT_ARROW_CALLOUT](#LEFT-ARROW-CALLOUT) |  |
-| [LEFT_BRACE](#LEFT-BRACE) |  |
-| [LEFT_BRACKET](#LEFT-BRACKET) |  |
+| [IRREGULAR_SEAL_1](#IRREGULAR-SEAL-1) | Irregular seal 1. |
+| [IRREGULAR_SEAL_2](#IRREGULAR-SEAL-2) | Irregular seal 2. |
+| [LEFT_ARROW](#LEFT-ARROW) | Left arrow. |
+| [LEFT_ARROW_CALLOUT](#LEFT-ARROW-CALLOUT) | Left arrow callout. |
+| [LEFT_BRACE](#LEFT-BRACE) | Left brace. |
+| [LEFT_BRACKET](#LEFT-BRACKET) | Left bracket. |
 | [LEFT_CIRCULAR_ARROW](#LEFT-CIRCULAR-ARROW) | Left circular arrow. |
-| [LEFT_RIGHT_ARROW](#LEFT-RIGHT-ARROW) |  |
-| [LEFT_RIGHT_ARROW_CALLOUT](#LEFT-RIGHT-ARROW-CALLOUT) |  |
+| [LEFT_RIGHT_ARROW](#LEFT-RIGHT-ARROW) | Left right arrow. |
+| [LEFT_RIGHT_ARROW_CALLOUT](#LEFT-RIGHT-ARROW-CALLOUT) | Left right arrow callout. |
 | [LEFT_RIGHT_CIRCULAR_ARROW](#LEFT-RIGHT-CIRCULAR-ARROW) | Left-right circular arrow. |
 | [LEFT_RIGHT_RIBBON](#LEFT-RIGHT-RIBBON) | Left-right ribbon. |
-| [LEFT_RIGHT_UP_ARROW](#LEFT-RIGHT-UP-ARROW) |  |
-| [LEFT_UP_ARROW](#LEFT-UP-ARROW) |  |
-| [LIGHTNING_BOLT](#LIGHTNING-BOLT) |  |
-| [LINE](#LINE) |  |
+| [LEFT_RIGHT_UP_ARROW](#LEFT-RIGHT-UP-ARROW) | Left right up arrow. |
+| [LEFT_UP_ARROW](#LEFT-UP-ARROW) | Left up arrow. |
+| [LIGHTNING_BOLT](#LIGHTNING-BOLT) | Lightning bolt. |
+| [LINE](#LINE) | Line. |
 | [MATH_DIVIDE](#MATH-DIVIDE) | Math divide. |
 | [MATH_EQUAL](#MATH-EQUAL) | Math equal. |
 | [MATH_MINUS](#MATH-MINUS) | Math minus. |
@@ -220,116 +220,116 @@ Shows how Aspose.Words identify shapes.
 | [MATH_NOT_EQUAL](#MATH-NOT-EQUAL) | Math not equal. |
 | [MATH_PLUS](#MATH-PLUS) | Math plus. |
 | [MIN_VALUE](#MIN-VALUE) | Reserved for the system use. |
-| [MOON](#MOON) |  |
+| [MOON](#MOON) | Moon. |
 | [NON_ISOSCELES_TRAPEZOID](#NON-ISOSCELES-TRAPEZOID) | Non-isosceles trapezoid. |
 | [NON_PRIMITIVE](#NON-PRIMITIVE) | A shape drawn by user and consisting of multiple segments and/or vertices (curve, freeform or scribble). |
-| [NOTCHED_RIGHT_ARROW](#NOTCHED-RIGHT-ARROW) |  |
-| [NO_SMOKING](#NO-SMOKING) |  |
-| [OCTAGON](#OCTAGON) |  |
+| [NOTCHED_RIGHT_ARROW](#NOTCHED-RIGHT-ARROW) | Notched right arrow. |
+| [NO_SMOKING](#NO-SMOKING) | NoSmoking. |
+| [OCTAGON](#OCTAGON) | Octagon. |
 | [OLE_CONTROL](#OLE-CONTROL) | The shape is an ActiveX control. |
 | [OLE_OBJECT](#OLE-OBJECT) | The shape is an OLE object. |
-| [PARALLELOGRAM](#PARALLELOGRAM) |  |
-| [PENTAGON](#PENTAGON) |  |
+| [PARALLELOGRAM](#PARALLELOGRAM) | Parallelogram. |
+| [PENTAGON](#PENTAGON) | Pentagon. |
 | [PIE](#PIE) | Pie. |
-| [PLAQUE](#PLAQUE) |  |
+| [PLAQUE](#PLAQUE) | Plaque. |
 | [PLAQUE_TABS](#PLAQUE-TABS) | Plaque tabs. |
-| [PLUS](#PLUS) |  |
-| [QUAD_ARROW](#QUAD-ARROW) |  |
-| [QUAD_ARROW_CALLOUT](#QUAD-ARROW-CALLOUT) |  |
-| [RECTANGLE](#RECTANGLE) |  |
-| [RIBBON](#RIBBON) |  |
-| [RIBBON_2](#RIBBON-2) |  |
-| [RIGHT_ARROW_CALLOUT](#RIGHT-ARROW-CALLOUT) |  |
-| [RIGHT_BRACE](#RIGHT-BRACE) |  |
-| [RIGHT_BRACKET](#RIGHT-BRACKET) |  |
-| [RIGHT_TRIANGLE](#RIGHT-TRIANGLE) |  |
-| [ROUND_RECTANGLE](#ROUND-RECTANGLE) |  |
-| [SEAL](#SEAL) |  |
+| [PLUS](#PLUS) | Plus. |
+| [QUAD_ARROW](#QUAD-ARROW) | Quad arrow. |
+| [QUAD_ARROW_CALLOUT](#QUAD-ARROW-CALLOUT) | Quad arrow callout. |
+| [RECTANGLE](#RECTANGLE) | Rectangle. |
+| [RIBBON](#RIBBON) | Ribbon. |
+| [RIBBON_2](#RIBBON-2) | Ribbon 2. |
+| [RIGHT_ARROW_CALLOUT](#RIGHT-ARROW-CALLOUT) | Right arrow callout |
+| [RIGHT_BRACE](#RIGHT-BRACE) | Right brace. |
+| [RIGHT_BRACKET](#RIGHT-BRACKET) | Right bracket. |
+| [RIGHT_TRIANGLE](#RIGHT-TRIANGLE) | Right triangle. |
+| [ROUND_RECTANGLE](#ROUND-RECTANGLE) | Round rectangle. |
+| [SEAL](#SEAL) | Seal. |
 | [SEAL_10](#SEAL-10) | Ten-pointed star. |
 | [SEAL_12](#SEAL-12) | Twelve-pointed star. |
-| [SEAL_16](#SEAL-16) |  |
-| [SEAL_24](#SEAL-24) |  |
-| [SEAL_32](#SEAL-32) |  |
-| [SEAL_4](#SEAL-4) |  |
+| [SEAL_16](#SEAL-16) | 16-pointed star. |
+| [SEAL_24](#SEAL-24) | 24-pointed star. |
+| [SEAL_32](#SEAL-32) | 32-pointed star. |
+| [SEAL_4](#SEAL-4) | Four-pointed star. |
 | [SEAL_6](#SEAL-6) | Six-pointed star. |
 | [SEAL_7](#SEAL-7) | Seven-pointed star. |
-| [SEAL_8](#SEAL-8) |  |
+| [SEAL_8](#SEAL-8) | Eight-pointed star. |
 | [SINGLE_CORNER_ROUNDED](#SINGLE-CORNER-ROUNDED) | Round single corner rectangle. |
 | [SINGLE_CORNER_SNIPPED](#SINGLE-CORNER-SNIPPED) | Snip single corner rectangle object. |
-| [SMILEY_FACE](#SMILEY-FACE) |  |
+| [SMILEY_FACE](#SMILEY-FACE) | Smiley face. |
 | [SQUARE_TABS](#SQUARE-TABS) | Square tabs. |
-| [STAR](#STAR) |  |
-| [STRAIGHT_CONNECTOR_1](#STRAIGHT-CONNECTOR-1) |  |
-| [STRIPED_RIGHT_ARROW](#STRIPED-RIGHT-ARROW) |  |
-| [SUN](#SUN) |  |
+| [STAR](#STAR) | Star. |
+| [STRAIGHT_CONNECTOR_1](#STRAIGHT-CONNECTOR-1) | A straight connector shape. |
+| [STRIPED_RIGHT_ARROW](#STRIPED-RIGHT-ARROW) | Striped right arrow. |
+| [SUN](#SUN) | Sun. |
 | [SWOOSH_ARROW](#SWOOSH-ARROW) | Swoosh arrow. |
 | [TEARDROP](#TEARDROP) | Teardrop. |
-| [TEXT_ARCH_DOWN_CURVE](#TEXT-ARCH-DOWN-CURVE) | WordArt object. |
-| [TEXT_ARCH_DOWN_POUR](#TEXT-ARCH-DOWN-POUR) | WordArt object. |
-| [TEXT_ARCH_UP_CURVE](#TEXT-ARCH-UP-CURVE) | WordArt object. |
-| [TEXT_ARCH_UP_POUR](#TEXT-ARCH-UP-POUR) | WordArt object. |
+| [TEXT_ARCH_DOWN_CURVE](#TEXT-ARCH-DOWN-CURVE) | Arch down curve, WordArt object. |
+| [TEXT_ARCH_DOWN_POUR](#TEXT-ARCH-DOWN-POUR) | Arch down pour, WordArt object. |
+| [TEXT_ARCH_UP_CURVE](#TEXT-ARCH-UP-CURVE) | Arch up curve, WordArt object. |
+| [TEXT_ARCH_UP_POUR](#TEXT-ARCH-UP-POUR) | Arch up pour, WordArt object. |
 | [TEXT_BOX](#TEXT-BOX) | The shape is a textbox. |
-| [TEXT_BUTTON_CURVE](#TEXT-BUTTON-CURVE) | WordArt object. |
-| [TEXT_BUTTON_POUR](#TEXT-BUTTON-POUR) | WordArt object. |
-| [TEXT_CAN_DOWN](#TEXT-CAN-DOWN) | WordArt object. |
-| [TEXT_CAN_UP](#TEXT-CAN-UP) | WordArt object. |
-| [TEXT_CASCADE_DOWN](#TEXT-CASCADE-DOWN) | WordArt object. |
-| [TEXT_CASCADE_UP](#TEXT-CASCADE-UP) | WordArt object. |
-| [TEXT_CHEVRON](#TEXT-CHEVRON) | WordArt object. |
-| [TEXT_CHEVRON_INVERTED](#TEXT-CHEVRON-INVERTED) | WordArt object. |
-| [TEXT_CIRCLE_CURVE](#TEXT-CIRCLE-CURVE) | WordArt object. |
-| [TEXT_CIRCLE_POUR](#TEXT-CIRCLE-POUR) | WordArt object. |
-| [TEXT_CURVE](#TEXT-CURVE) |  |
-| [TEXT_CURVE_DOWN](#TEXT-CURVE-DOWN) | WordArt object. |
-| [TEXT_CURVE_UP](#TEXT-CURVE-UP) | WordArt object. |
-| [TEXT_DEFLATE](#TEXT-DEFLATE) | WordArt object. |
-| [TEXT_DEFLATE_BOTTOM](#TEXT-DEFLATE-BOTTOM) | WordArt object. |
-| [TEXT_DEFLATE_INFLATE](#TEXT-DEFLATE-INFLATE) | WordArt object. |
-| [TEXT_DEFLATE_INFLATE_DEFLATE](#TEXT-DEFLATE-INFLATE-DEFLATE) | WordArt object. |
-| [TEXT_DEFLATE_TOP](#TEXT-DEFLATE-TOP) | WordArt object. |
-| [TEXT_FADE_DOWN](#TEXT-FADE-DOWN) | WordArt object. |
-| [TEXT_FADE_LEFT](#TEXT-FADE-LEFT) | WordArt object. |
-| [TEXT_FADE_RIGHT](#TEXT-FADE-RIGHT) | WordArt object. |
-| [TEXT_FADE_UP](#TEXT-FADE-UP) | WordArt object. |
-| [TEXT_HEXAGON](#TEXT-HEXAGON) |  |
-| [TEXT_INFLATE](#TEXT-INFLATE) | WordArt object. |
-| [TEXT_INFLATE_BOTTOM](#TEXT-INFLATE-BOTTOM) | WordArt object. |
-| [TEXT_INFLATE_TOP](#TEXT-INFLATE-TOP) | WordArt object. |
-| [TEXT_OCTAGON](#TEXT-OCTAGON) |  |
-| [TEXT_ON_CURVE](#TEXT-ON-CURVE) |  |
-| [TEXT_ON_RING](#TEXT-ON-RING) |  |
-| [TEXT_PLAIN_TEXT](#TEXT-PLAIN-TEXT) | WordArt object. |
-| [TEXT_RING](#TEXT-RING) |  |
-| [TEXT_RING_INSIDE](#TEXT-RING-INSIDE) | WordArt object. |
-| [TEXT_RING_OUTSIDE](#TEXT-RING-OUTSIDE) | WordArt object. |
-| [TEXT_SIMPLE](#TEXT-SIMPLE) |  |
-| [TEXT_SLANT_DOWN](#TEXT-SLANT-DOWN) | WordArt object. |
-| [TEXT_SLANT_UP](#TEXT-SLANT-UP) | WordArt object. |
-| [TEXT_STOP](#TEXT-STOP) | WordArt object. |
-| [TEXT_TRIANGLE](#TEXT-TRIANGLE) | WordArt object. |
-| [TEXT_TRIANGLE_INVERTED](#TEXT-TRIANGLE-INVERTED) | WordArt object. |
-| [TEXT_WAVE](#TEXT-WAVE) |  |
-| [TEXT_WAVE_1](#TEXT-WAVE-1) | WordArt object. |
-| [TEXT_WAVE_2](#TEXT-WAVE-2) | WordArt object. |
-| [TEXT_WAVE_3](#TEXT-WAVE-3) | WordArt object. |
-| [TEXT_WAVE_4](#TEXT-WAVE-4) | WordArt object. |
-| [THICK_ARROW](#THICK-ARROW) |  |
+| [TEXT_BUTTON_CURVE](#TEXT-BUTTON-CURVE) | Button curve, WordArt object. |
+| [TEXT_BUTTON_POUR](#TEXT-BUTTON-POUR) | Button pour, WordArt object. |
+| [TEXT_CAN_DOWN](#TEXT-CAN-DOWN) | Can down, WordArt object. |
+| [TEXT_CAN_UP](#TEXT-CAN-UP) | Can up, WordArt object. |
+| [TEXT_CASCADE_DOWN](#TEXT-CASCADE-DOWN) | Cascade down, WordArt object. |
+| [TEXT_CASCADE_UP](#TEXT-CASCADE-UP) | Cascade up, WordArt object. |
+| [TEXT_CHEVRON](#TEXT-CHEVRON) | Chevron, WordArt object. |
+| [TEXT_CHEVRON_INVERTED](#TEXT-CHEVRON-INVERTED) | Chevron inverted, WordArt object. |
+| [TEXT_CIRCLE_CURVE](#TEXT-CIRCLE-CURVE) | Circle curve, WordArt object. |
+| [TEXT_CIRCLE_POUR](#TEXT-CIRCLE-POUR) | Circle pour, WordArt object. |
+| [TEXT_CURVE](#TEXT-CURVE) | Text curve. |
+| [TEXT_CURVE_DOWN](#TEXT-CURVE-DOWN) | Curve down, WordArt object. |
+| [TEXT_CURVE_UP](#TEXT-CURVE-UP) | Curve up, WordArt object. |
+| [TEXT_DEFLATE](#TEXT-DEFLATE) | Deflate, WordArt object. |
+| [TEXT_DEFLATE_BOTTOM](#TEXT-DEFLATE-BOTTOM) | Deflate bottom, WordArt object. |
+| [TEXT_DEFLATE_INFLATE](#TEXT-DEFLATE-INFLATE) | Deflate inflate, WordArt object. |
+| [TEXT_DEFLATE_INFLATE_DEFLATE](#TEXT-DEFLATE-INFLATE-DEFLATE) | Deflate inflate deflate, WordArt object. |
+| [TEXT_DEFLATE_TOP](#TEXT-DEFLATE-TOP) | Deflate top, WordArt object. |
+| [TEXT_FADE_DOWN](#TEXT-FADE-DOWN) | Fade down, WordArt object. |
+| [TEXT_FADE_LEFT](#TEXT-FADE-LEFT) | Fade left, WordArt object. |
+| [TEXT_FADE_RIGHT](#TEXT-FADE-RIGHT) | Fade right, WordArt object. |
+| [TEXT_FADE_UP](#TEXT-FADE-UP) | Fade up, WordArt object. |
+| [TEXT_HEXAGON](#TEXT-HEXAGON) | Text hexagon. |
+| [TEXT_INFLATE](#TEXT-INFLATE) | Inflate, WordArt object. |
+| [TEXT_INFLATE_BOTTOM](#TEXT-INFLATE-BOTTOM) | Inflate bottom, WordArt object. |
+| [TEXT_INFLATE_TOP](#TEXT-INFLATE-TOP) | Inflate top, WordArt object. |
+| [TEXT_OCTAGON](#TEXT-OCTAGON) | Text octagon. |
+| [TEXT_ON_CURVE](#TEXT-ON-CURVE) | Text on curve. |
+| [TEXT_ON_RING](#TEXT-ON-RING) | Text on ring. |
+| [TEXT_PLAIN_TEXT](#TEXT-PLAIN-TEXT) | Plain-text, WordArt object. |
+| [TEXT_RING](#TEXT-RING) | Text ring. |
+| [TEXT_RING_INSIDE](#TEXT-RING-INSIDE) | Ring inside, WordArt object. |
+| [TEXT_RING_OUTSIDE](#TEXT-RING-OUTSIDE) | Ring outside, WordArt object. |
+| [TEXT_SIMPLE](#TEXT-SIMPLE) | Text simple. |
+| [TEXT_SLANT_DOWN](#TEXT-SLANT-DOWN) | Slant down, WordArt object. |
+| [TEXT_SLANT_UP](#TEXT-SLANT-UP) | Slant up, WordArt object. |
+| [TEXT_STOP](#TEXT-STOP) | Stop, WordArt object. |
+| [TEXT_TRIANGLE](#TEXT-TRIANGLE) | Triangle, WordArt object. |
+| [TEXT_TRIANGLE_INVERTED](#TEXT-TRIANGLE-INVERTED) | Triangle inverted, WordArt object. |
+| [TEXT_WAVE](#TEXT-WAVE) | Text wave. |
+| [TEXT_WAVE_1](#TEXT-WAVE-1) | Wave 1, WordArt object. |
+| [TEXT_WAVE_2](#TEXT-WAVE-2) | Wave 2, WordArt object. |
+| [TEXT_WAVE_3](#TEXT-WAVE-3) | Wave 3, WordArt object. |
+| [TEXT_WAVE_4](#TEXT-WAVE-4) | Wave 4, WordArt object. |
+| [THICK_ARROW](#THICK-ARROW) | Thick arrow. |
 | [TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED](#TOP-CORNERS-ONE-ROUNDED-ONE-SNIPPED) | Snip and round single corner rectangle. |
 | [TOP_CORNERS_ROUNDED](#TOP-CORNERS-ROUNDED) | Round same side corner rectangle. |
 | [TOP_CORNERS_SNIPPED](#TOP-CORNERS-SNIPPED) | Snip same side corner rectangle. |
-| [TRAPEZOID](#TRAPEZOID) |  |
-| [TRIANGLE](#TRIANGLE) |  |
-| [UP_ARROW](#UP-ARROW) |  |
-| [UP_ARROW_CALLOUT](#UP-ARROW-CALLOUT) |  |
-| [UP_DOWN_ARROW](#UP-DOWN-ARROW) |  |
-| [UP_DOWN_ARROW_CALLOUT](#UP-DOWN-ARROW-CALLOUT) |  |
-| [UTURN_ARROW](#UTURN-ARROW) |  |
-| [VERTICAL_SCROLL](#VERTICAL-SCROLL) |  |
-| [WAVE](#WAVE) |  |
-| [WEDGE_ELLIPSE_CALLOUT](#WEDGE-ELLIPSE-CALLOUT) |  |
+| [TRAPEZOID](#TRAPEZOID) | Trapezoid. |
+| [TRIANGLE](#TRIANGLE) | Triangle. |
+| [UP_ARROW](#UP-ARROW) | Up arrow. |
+| [UP_ARROW_CALLOUT](#UP-ARROW-CALLOUT) | Up arrow callout. |
+| [UP_DOWN_ARROW](#UP-DOWN-ARROW) | Up down arrow. |
+| [UP_DOWN_ARROW_CALLOUT](#UP-DOWN-ARROW-CALLOUT) | Up down arrow callout. |
+| [UTURN_ARROW](#UTURN-ARROW) | Uturn arrow. |
+| [VERTICAL_SCROLL](#VERTICAL-SCROLL) | Vertical scroll. |
+| [WAVE](#WAVE) | Wave. |
+| [WEDGE_ELLIPSE_CALLOUT](#WEDGE-ELLIPSE-CALLOUT) | Wedge ellipse callout. |
 | [WEDGE_PIE](#WEDGE-PIE) | Wedge pie. |
-| [WEDGE_RECT_CALLOUT](#WEDGE-RECT-CALLOUT) |  |
-| [WEDGE_R_RECT_CALLOUT](#WEDGE-R-RECT-CALLOUT) |  |
+| [WEDGE_RECT_CALLOUT](#WEDGE-RECT-CALLOUT) | Wedge rect callout. |
+| [WEDGE_R_RECT_CALLOUT](#WEDGE-R-RECT-CALLOUT) | Wedge R rect callout. |
 | [length](#length) |  |
 ## Methods
 
@@ -345,7 +345,7 @@ public static int ACCENT_BORDER_CALLOUT_1
 ```
 
 
-
+Accent border callout 1.
 
 ### ACCENT_BORDER_CALLOUT_2 {#ACCENT-BORDER-CALLOUT-2}
 ```
@@ -353,7 +353,7 @@ public static int ACCENT_BORDER_CALLOUT_2
 ```
 
 
-
+Accent border callout 2.
 
 ### ACCENT_BORDER_CALLOUT_3 {#ACCENT-BORDER-CALLOUT-3}
 ```
@@ -361,7 +361,7 @@ public static int ACCENT_BORDER_CALLOUT_3
 ```
 
 
-
+Accent border callout 3.
 
 ### ACCENT_BORDER_CALLOUT_90 {#ACCENT-BORDER-CALLOUT-90}
 ```
@@ -369,7 +369,7 @@ public static int ACCENT_BORDER_CALLOUT_90
 ```
 
 
-
+Accent border callout 90.
 
 ### ACCENT_CALLOUT_1 {#ACCENT-CALLOUT-1}
 ```
@@ -377,7 +377,7 @@ public static int ACCENT_CALLOUT_1
 ```
 
 
-
+An accent callout shape with one arrow.
 
 ### ACCENT_CALLOUT_2 {#ACCENT-CALLOUT-2}
 ```
@@ -385,7 +385,7 @@ public static int ACCENT_CALLOUT_2
 ```
 
 
-
+An accent callout shape with two arrows.
 
 ### ACCENT_CALLOUT_3 {#ACCENT-CALLOUT-3}
 ```
@@ -393,7 +393,7 @@ public static int ACCENT_CALLOUT_3
 ```
 
 
-
+An accent callout shape with three arrows.
 
 ### ACCENT_CALLOUT_90 {#ACCENT-CALLOUT-90}
 ```
@@ -401,7 +401,7 @@ public static int ACCENT_CALLOUT_90
 ```
 
 
-
+Accent callout 90.
 
 ### ACTION_BUTTON_BACK_PREVIOUS {#ACTION-BUTTON-BACK-PREVIOUS}
 ```
@@ -409,7 +409,7 @@ public static int ACTION_BUTTON_BACK_PREVIOUS
 ```
 
 
-
+Action button back previous.
 
 ### ACTION_BUTTON_BEGINNING {#ACTION-BUTTON-BEGINNING}
 ```
@@ -417,7 +417,7 @@ public static int ACTION_BUTTON_BEGINNING
 ```
 
 
-
+Action button beginning.
 
 ### ACTION_BUTTON_BLANK {#ACTION-BUTTON-BLANK}
 ```
@@ -425,7 +425,7 @@ public static int ACTION_BUTTON_BLANK
 ```
 
 
-
+Action button blank.
 
 ### ACTION_BUTTON_DOCUMENT {#ACTION-BUTTON-DOCUMENT}
 ```
@@ -433,7 +433,7 @@ public static int ACTION_BUTTON_DOCUMENT
 ```
 
 
-
+Action button document.
 
 ### ACTION_BUTTON_END {#ACTION-BUTTON-END}
 ```
@@ -441,7 +441,7 @@ public static int ACTION_BUTTON_END
 ```
 
 
-
+Action button end.
 
 ### ACTION_BUTTON_FORWARD_NEXT {#ACTION-BUTTON-FORWARD-NEXT}
 ```
@@ -449,7 +449,7 @@ public static int ACTION_BUTTON_FORWARD_NEXT
 ```
 
 
-
+Action button forward next.
 
 ### ACTION_BUTTON_HELP {#ACTION-BUTTON-HELP}
 ```
@@ -457,7 +457,7 @@ public static int ACTION_BUTTON_HELP
 ```
 
 
-
+Action button help.
 
 ### ACTION_BUTTON_HOME {#ACTION-BUTTON-HOME}
 ```
@@ -465,7 +465,7 @@ public static int ACTION_BUTTON_HOME
 ```
 
 
-
+Action button home.
 
 ### ACTION_BUTTON_INFORMATION {#ACTION-BUTTON-INFORMATION}
 ```
@@ -473,7 +473,7 @@ public static int ACTION_BUTTON_INFORMATION
 ```
 
 
-
+Action button information.
 
 ### ACTION_BUTTON_MOVIE {#ACTION-BUTTON-MOVIE}
 ```
@@ -481,7 +481,7 @@ public static int ACTION_BUTTON_MOVIE
 ```
 
 
-
+Action button movie.
 
 ### ACTION_BUTTON_RETURN {#ACTION-BUTTON-RETURN}
 ```
@@ -489,7 +489,7 @@ public static int ACTION_BUTTON_RETURN
 ```
 
 
-
+Action button return.
 
 ### ACTION_BUTTON_SOUND {#ACTION-BUTTON-SOUND}
 ```
@@ -497,7 +497,7 @@ public static int ACTION_BUTTON_SOUND
 ```
 
 
-
+Action button sound.
 
 ### ARC {#ARC}
 ```
@@ -505,7 +505,7 @@ public static int ARC
 ```
 
 
-
+Arc.
 
 ### ARROW {#ARROW}
 ```
@@ -513,7 +513,7 @@ public static int ARROW
 ```
 
 
-
+Arrow.
 
 ### BALLOON {#BALLOON}
 ```
@@ -521,7 +521,7 @@ public static int BALLOON
 ```
 
 
-
+Balloon.
 
 ### BENT_ARROW {#BENT-ARROW}
 ```
@@ -529,7 +529,7 @@ public static int BENT_ARROW
 ```
 
 
-
+Bent arrow.
 
 ### BENT_CONNECTOR_2 {#BENT-CONNECTOR-2}
 ```
@@ -537,7 +537,7 @@ public static int BENT_CONNECTOR_2
 ```
 
 
-
+A bent connector shape with two segments.
 
 ### BENT_CONNECTOR_3 {#BENT-CONNECTOR-3}
 ```
@@ -545,7 +545,7 @@ public static int BENT_CONNECTOR_3
 ```
 
 
-
+A bent connector shape with three segments.
 
 ### BENT_CONNECTOR_4 {#BENT-CONNECTOR-4}
 ```
@@ -553,7 +553,7 @@ public static int BENT_CONNECTOR_4
 ```
 
 
-
+A bent connector shape with four segments.
 
 ### BENT_CONNECTOR_5 {#BENT-CONNECTOR-5}
 ```
@@ -561,7 +561,7 @@ public static int BENT_CONNECTOR_5
 ```
 
 
-
+A bent connector shape with five segments.
 
 ### BENT_UP_ARROW {#BENT-UP-ARROW}
 ```
@@ -569,7 +569,7 @@ public static int BENT_UP_ARROW
 ```
 
 
-
+Bent up arrow.
 
 ### BEVEL {#BEVEL}
 ```
@@ -577,7 +577,7 @@ public static int BEVEL
 ```
 
 
-
+Bevel.
 
 ### BLOCK_ARC {#BLOCK-ARC}
 ```
@@ -585,7 +585,7 @@ public static int BLOCK_ARC
 ```
 
 
-
+Block arc.
 
 ### BORDER_CALLOUT_1 {#BORDER-CALLOUT-1}
 ```
@@ -593,7 +593,7 @@ public static int BORDER_CALLOUT_1
 ```
 
 
-
+Border callout 1.
 
 ### BORDER_CALLOUT_2 {#BORDER-CALLOUT-2}
 ```
@@ -601,7 +601,7 @@ public static int BORDER_CALLOUT_2
 ```
 
 
-
+Border callout 2.
 
 ### BORDER_CALLOUT_3 {#BORDER-CALLOUT-3}
 ```
@@ -609,7 +609,7 @@ public static int BORDER_CALLOUT_3
 ```
 
 
-
+Border callout 3.
 
 ### BORDER_CALLOUT_90 {#BORDER-CALLOUT-90}
 ```
@@ -617,7 +617,7 @@ public static int BORDER_CALLOUT_90
 ```
 
 
-
+Border callout 90.
 
 ### BRACE_PAIR {#BRACE-PAIR}
 ```
@@ -625,7 +625,7 @@ public static int BRACE_PAIR
 ```
 
 
-
+Brace pair
 
 ### BRACKET_PAIR {#BRACKET-PAIR}
 ```
@@ -633,7 +633,7 @@ public static int BRACKET_PAIR
 ```
 
 
-
+Bracket pair.
 
 ### CALLOUT_1 {#CALLOUT-1}
 ```
@@ -641,7 +641,7 @@ public static int CALLOUT_1
 ```
 
 
-
+A callout shape with one arrow.
 
 ### CALLOUT_2 {#CALLOUT-2}
 ```
@@ -649,7 +649,7 @@ public static int CALLOUT_2
 ```
 
 
-
+A callout shape with two arrows.
 
 ### CALLOUT_3 {#CALLOUT-3}
 ```
@@ -657,7 +657,7 @@ public static int CALLOUT_3
 ```
 
 
-
+A callout shape with three arrows.
 
 ### CALLOUT_90 {#CALLOUT-90}
 ```
@@ -665,7 +665,7 @@ public static int CALLOUT_90
 ```
 
 
-
+Callout 90.
 
 ### CAN {#CAN}
 ```
@@ -673,7 +673,7 @@ public static int CAN
 ```
 
 
-
+Can.
 
 ### CHART_PLUS {#CHART-PLUS}
 ```
@@ -717,7 +717,7 @@ public static int CHEVRON
 ```
 
 
-
+Chevron.
 
 ### CHORD {#CHORD}
 ```
@@ -737,7 +737,7 @@ public static int CIRCULAR_ARROW
 ```
 
 
-
+Circular arrow.
 
 ### CLOUD {#CLOUD}
 ```
@@ -757,7 +757,7 @@ public static int CLOUD_CALLOUT
 ```
 
 
-
+Cloud callout.
 
 ### CORNER {#CORNER}
 ```
@@ -789,7 +789,7 @@ public static int CUBE
 ```
 
 
-
+Cube.
 
 ### CURVED_CONNECTOR_2 {#CURVED-CONNECTOR-2}
 ```
@@ -797,7 +797,7 @@ public static int CURVED_CONNECTOR_2
 ```
 
 
-
+A curved connector shape with two segments.
 
 ### CURVED_CONNECTOR_3 {#CURVED-CONNECTOR-3}
 ```
@@ -805,7 +805,7 @@ public static int CURVED_CONNECTOR_3
 ```
 
 
-
+A curved connector shape with three segments.
 
 ### CURVED_CONNECTOR_4 {#CURVED-CONNECTOR-4}
 ```
@@ -813,7 +813,7 @@ public static int CURVED_CONNECTOR_4
 ```
 
 
-
+A curved connector shape with four segments.
 
 ### CURVED_CONNECTOR_5 {#CURVED-CONNECTOR-5}
 ```
@@ -821,7 +821,7 @@ public static int CURVED_CONNECTOR_5
 ```
 
 
-
+A curved connector shape with five segments.
 
 ### CURVED_DOWN_ARROW {#CURVED-DOWN-ARROW}
 ```
@@ -829,7 +829,7 @@ public static int CURVED_DOWN_ARROW
 ```
 
 
-
+Curved down arrow.
 
 ### CURVED_LEFT_ARROW {#CURVED-LEFT-ARROW}
 ```
@@ -837,7 +837,7 @@ public static int CURVED_LEFT_ARROW
 ```
 
 
-
+Curved left arrow.
 
 ### CURVED_RIGHT_ARROW {#CURVED-RIGHT-ARROW}
 ```
@@ -845,7 +845,7 @@ public static int CURVED_RIGHT_ARROW
 ```
 
 
-
+Curved right arrow.
 
 ### CURVED_UP_ARROW {#CURVED-UP-ARROW}
 ```
@@ -853,7 +853,7 @@ public static int CURVED_UP_ARROW
 ```
 
 
-
+Curved up arrow
 
 ### CUSTOM_SHAPE {#CUSTOM-SHAPE}
 ```
@@ -919,7 +919,7 @@ public static int DIAMOND
 ```
 
 
-
+Diamond.
 
 ### DODECAGON {#DODECAGON}
 ```
@@ -939,7 +939,7 @@ public static int DONUT
 ```
 
 
-
+Donut.
 
 ### DOUBLE_WAVE {#DOUBLE-WAVE}
 ```
@@ -947,7 +947,7 @@ public static int DOUBLE_WAVE
 ```
 
 
-
+Double wave.
 
 ### DOWN_ARROW {#DOWN-ARROW}
 ```
@@ -955,7 +955,7 @@ public static int DOWN_ARROW
 ```
 
 
-
+Down arrow.
 
 ### DOWN_ARROW_CALLOUT {#DOWN-ARROW-CALLOUT}
 ```
@@ -963,7 +963,7 @@ public static int DOWN_ARROW_CALLOUT
 ```
 
 
-
+Down arrow callout.
 
 ### ELLIPSE {#ELLIPSE}
 ```
@@ -971,7 +971,7 @@ public static int ELLIPSE
 ```
 
 
-
+Ellipse.
 
 ### ELLIPSE_RIBBON {#ELLIPSE-RIBBON}
 ```
@@ -979,7 +979,7 @@ public static int ELLIPSE_RIBBON
 ```
 
 
-
+Ellipse ribbon.
 
 ### ELLIPSE_RIBBON_2 {#ELLIPSE-RIBBON-2}
 ```
@@ -987,7 +987,7 @@ public static int ELLIPSE_RIBBON_2
 ```
 
 
-
+Ellipse ribbon 2.
 
 ### FLOW_CHART_ALTERNATE_PROCESS {#FLOW-CHART-ALTERNATE-PROCESS}
 ```
@@ -995,7 +995,7 @@ public static int FLOW_CHART_ALTERNATE_PROCESS
 ```
 
 
-
+Flow chart alternate process.
 
 ### FLOW_CHART_COLLATE {#FLOW-CHART-COLLATE}
 ```
@@ -1003,7 +1003,7 @@ public static int FLOW_CHART_COLLATE
 ```
 
 
-
+Flow chart collate.
 
 ### FLOW_CHART_CONNECTOR {#FLOW-CHART-CONNECTOR}
 ```
@@ -1011,7 +1011,7 @@ public static int FLOW_CHART_CONNECTOR
 ```
 
 
-
+Flow chart connector.
 
 ### FLOW_CHART_DECISION {#FLOW-CHART-DECISION}
 ```
@@ -1019,7 +1019,7 @@ public static int FLOW_CHART_DECISION
 ```
 
 
-
+Flow chart decision.
 
 ### FLOW_CHART_DELAY {#FLOW-CHART-DELAY}
 ```
@@ -1027,7 +1027,7 @@ public static int FLOW_CHART_DELAY
 ```
 
 
-
+Flow chart delay.
 
 ### FLOW_CHART_DISPLAY {#FLOW-CHART-DISPLAY}
 ```
@@ -1035,7 +1035,7 @@ public static int FLOW_CHART_DISPLAY
 ```
 
 
-
+Flow chart display.
 
 ### FLOW_CHART_DOCUMENT {#FLOW-CHART-DOCUMENT}
 ```
@@ -1043,7 +1043,7 @@ public static int FLOW_CHART_DOCUMENT
 ```
 
 
-
+Flow chart document.
 
 ### FLOW_CHART_EXTRACT {#FLOW-CHART-EXTRACT}
 ```
@@ -1051,7 +1051,7 @@ public static int FLOW_CHART_EXTRACT
 ```
 
 
-
+Flow chart extract.
 
 ### FLOW_CHART_INPUT_OUTPUT {#FLOW-CHART-INPUT-OUTPUT}
 ```
@@ -1059,7 +1059,7 @@ public static int FLOW_CHART_INPUT_OUTPUT
 ```
 
 
-
+Flow chart input output.
 
 ### FLOW_CHART_INTERNAL_STORAGE {#FLOW-CHART-INTERNAL-STORAGE}
 ```
@@ -1067,7 +1067,7 @@ public static int FLOW_CHART_INTERNAL_STORAGE
 ```
 
 
-
+Flow chart internal storage.
 
 ### FLOW_CHART_MAGNETIC_DISK {#FLOW-CHART-MAGNETIC-DISK}
 ```
@@ -1075,7 +1075,7 @@ public static int FLOW_CHART_MAGNETIC_DISK
 ```
 
 
-
+Flow chart magnetic disk.
 
 ### FLOW_CHART_MAGNETIC_DRUM {#FLOW-CHART-MAGNETIC-DRUM}
 ```
@@ -1083,7 +1083,7 @@ public static int FLOW_CHART_MAGNETIC_DRUM
 ```
 
 
-
+Flow chart magnetic drum.
 
 ### FLOW_CHART_MAGNETIC_TAPE {#FLOW-CHART-MAGNETIC-TAPE}
 ```
@@ -1091,7 +1091,7 @@ public static int FLOW_CHART_MAGNETIC_TAPE
 ```
 
 
-
+Flow char magnetic tape.
 
 ### FLOW_CHART_MANUAL_INPUT {#FLOW-CHART-MANUAL-INPUT}
 ```
@@ -1099,7 +1099,7 @@ public static int FLOW_CHART_MANUAL_INPUT
 ```
 
 
-
+Flow chart manual input.
 
 ### FLOW_CHART_MANUAL_OPERATION {#FLOW-CHART-MANUAL-OPERATION}
 ```
@@ -1107,7 +1107,7 @@ public static int FLOW_CHART_MANUAL_OPERATION
 ```
 
 
-
+Flow chart manual operation.
 
 ### FLOW_CHART_MERGE {#FLOW-CHART-MERGE}
 ```
@@ -1115,7 +1115,7 @@ public static int FLOW_CHART_MERGE
 ```
 
 
-
+Flow chart merge.
 
 ### FLOW_CHART_MULTIDOCUMENT {#FLOW-CHART-MULTIDOCUMENT}
 ```
@@ -1123,7 +1123,7 @@ public static int FLOW_CHART_MULTIDOCUMENT
 ```
 
 
-
+Flow chart multi document.
 
 ### FLOW_CHART_OFFLINE_STORAGE {#FLOW-CHART-OFFLINE-STORAGE}
 ```
@@ -1131,7 +1131,7 @@ public static int FLOW_CHART_OFFLINE_STORAGE
 ```
 
 
-
+Flow chart off-line storage.
 
 ### FLOW_CHART_OFFPAGE_CONNECTOR {#FLOW-CHART-OFFPAGE-CONNECTOR}
 ```
@@ -1139,7 +1139,7 @@ public static int FLOW_CHART_OFFPAGE_CONNECTOR
 ```
 
 
-
+Flow chart off page connector.
 
 ### FLOW_CHART_ONLINE_STORAGE {#FLOW-CHART-ONLINE-STORAGE}
 ```
@@ -1147,7 +1147,7 @@ public static int FLOW_CHART_ONLINE_STORAGE
 ```
 
 
-
+Flow chart on-line storage.
 
 ### FLOW_CHART_OR {#FLOW-CHART-OR}
 ```
@@ -1155,7 +1155,7 @@ public static int FLOW_CHART_OR
 ```
 
 
-
+Flow chart or.
 
 ### FLOW_CHART_PREDEFINED_PROCESS {#FLOW-CHART-PREDEFINED-PROCESS}
 ```
@@ -1163,7 +1163,7 @@ public static int FLOW_CHART_PREDEFINED_PROCESS
 ```
 
 
-
+Flow chart predefined process
 
 ### FLOW_CHART_PREPARATION {#FLOW-CHART-PREPARATION}
 ```
@@ -1171,7 +1171,7 @@ public static int FLOW_CHART_PREPARATION
 ```
 
 
-
+Flow chart preparation.
 
 ### FLOW_CHART_PROCESS {#FLOW-CHART-PROCESS}
 ```
@@ -1179,7 +1179,7 @@ public static int FLOW_CHART_PROCESS
 ```
 
 
-
+Flow chart process.
 
 ### FLOW_CHART_PUNCHED_CARD {#FLOW-CHART-PUNCHED-CARD}
 ```
@@ -1187,7 +1187,7 @@ public static int FLOW_CHART_PUNCHED_CARD
 ```
 
 
-
+Flow chart punched card.
 
 ### FLOW_CHART_PUNCHED_TAPE {#FLOW-CHART-PUNCHED-TAPE}
 ```
@@ -1195,7 +1195,7 @@ public static int FLOW_CHART_PUNCHED_TAPE
 ```
 
 
-
+Flow chart punched tape.
 
 ### FLOW_CHART_SORT {#FLOW-CHART-SORT}
 ```
@@ -1203,7 +1203,7 @@ public static int FLOW_CHART_SORT
 ```
 
 
-
+Flow chart sort.
 
 ### FLOW_CHART_SUMMING_JUNCTION {#FLOW-CHART-SUMMING-JUNCTION}
 ```
@@ -1211,7 +1211,7 @@ public static int FLOW_CHART_SUMMING_JUNCTION
 ```
 
 
-
+Flow chart summing junction.
 
 ### FLOW_CHART_TERMINATOR {#FLOW-CHART-TERMINATOR}
 ```
@@ -1219,7 +1219,7 @@ public static int FLOW_CHART_TERMINATOR
 ```
 
 
-
+Flow chart terminator.
 
 ### FOLDED_CORNER {#FOLDED-CORNER}
 ```
@@ -1227,7 +1227,7 @@ public static int FOLDED_CORNER
 ```
 
 
-
+Folded corner.
 
 ### FRAME {#FRAME}
 ```
@@ -1303,7 +1303,7 @@ public static int HEART
 ```
 
 
-
+Heart.
 
 ### HEPTAGON {#HEPTAGON}
 ```
@@ -1323,7 +1323,7 @@ public static int HEXAGON
 ```
 
 
-
+Hexagon.
 
 ### HOME_PLATE {#HOME-PLATE}
 ```
@@ -1331,7 +1331,7 @@ public static int HOME_PLATE
 ```
 
 
-
+Home plate.
 
 ### HORIZONTAL_SCROLL {#HORIZONTAL-SCROLL}
 ```
@@ -1339,7 +1339,7 @@ public static int HORIZONTAL_SCROLL
 ```
 
 
-
+Horizontal scroll.
 
 ### IMAGE {#IMAGE}
 ```
@@ -1367,7 +1367,7 @@ public static int IRREGULAR_SEAL_1
 ```
 
 
-
+Irregular seal 1.
 
 ### IRREGULAR_SEAL_2 {#IRREGULAR-SEAL-2}
 ```
@@ -1375,7 +1375,7 @@ public static int IRREGULAR_SEAL_2
 ```
 
 
-
+Irregular seal 2.
 
 ### LEFT_ARROW {#LEFT-ARROW}
 ```
@@ -1383,7 +1383,7 @@ public static int LEFT_ARROW
 ```
 
 
-
+Left arrow.
 
 ### LEFT_ARROW_CALLOUT {#LEFT-ARROW-CALLOUT}
 ```
@@ -1391,7 +1391,7 @@ public static int LEFT_ARROW_CALLOUT
 ```
 
 
-
+Left arrow callout.
 
 ### LEFT_BRACE {#LEFT-BRACE}
 ```
@@ -1399,7 +1399,7 @@ public static int LEFT_BRACE
 ```
 
 
-
+Left brace.
 
 ### LEFT_BRACKET {#LEFT-BRACKET}
 ```
@@ -1407,7 +1407,7 @@ public static int LEFT_BRACKET
 ```
 
 
-
+Left bracket.
 
 ### LEFT_CIRCULAR_ARROW {#LEFT-CIRCULAR-ARROW}
 ```
@@ -1427,7 +1427,7 @@ public static int LEFT_RIGHT_ARROW
 ```
 
 
-
+Left right arrow.
 
 ### LEFT_RIGHT_ARROW_CALLOUT {#LEFT-RIGHT-ARROW-CALLOUT}
 ```
@@ -1435,7 +1435,7 @@ public static int LEFT_RIGHT_ARROW_CALLOUT
 ```
 
 
-
+Left right arrow callout.
 
 ### LEFT_RIGHT_CIRCULAR_ARROW {#LEFT-RIGHT-CIRCULAR-ARROW}
 ```
@@ -1467,7 +1467,7 @@ public static int LEFT_RIGHT_UP_ARROW
 ```
 
 
-
+Left right up arrow.
 
 ### LEFT_UP_ARROW {#LEFT-UP-ARROW}
 ```
@@ -1475,7 +1475,7 @@ public static int LEFT_UP_ARROW
 ```
 
 
-
+Left up arrow.
 
 ### LIGHTNING_BOLT {#LIGHTNING-BOLT}
 ```
@@ -1483,7 +1483,7 @@ public static int LIGHTNING_BOLT
 ```
 
 
-
+Lightning bolt.
 
 ### LINE {#LINE}
 ```
@@ -1491,7 +1491,7 @@ public static int LINE
 ```
 
 
-
+Line.
 
 ### MATH_DIVIDE {#MATH-DIVIDE}
 ```
@@ -1579,7 +1579,7 @@ public static int MOON
 ```
 
 
-
+Moon.
 
 ### NON_ISOSCELES_TRAPEZOID {#NON-ISOSCELES-TRAPEZOID}
 ```
@@ -1609,7 +1609,7 @@ public static int NOTCHED_RIGHT_ARROW
 ```
 
 
-
+Notched right arrow.
 
 ### NO_SMOKING {#NO-SMOKING}
 ```
@@ -1617,7 +1617,7 @@ public static int NO_SMOKING
 ```
 
 
-
+NoSmoking.
 
 ### OCTAGON {#OCTAGON}
 ```
@@ -1625,7 +1625,7 @@ public static int OCTAGON
 ```
 
 
-
+Octagon.
 
 ### OLE_CONTROL {#OLE-CONTROL}
 ```
@@ -1653,7 +1653,7 @@ public static int PARALLELOGRAM
 ```
 
 
-
+Parallelogram.
 
 ### PENTAGON {#PENTAGON}
 ```
@@ -1661,7 +1661,7 @@ public static int PENTAGON
 ```
 
 
-
+Pentagon.
 
 ### PIE {#PIE}
 ```
@@ -1681,7 +1681,7 @@ public static int PLAQUE
 ```
 
 
-
+Plaque.
 
 ### PLAQUE_TABS {#PLAQUE-TABS}
 ```
@@ -1701,7 +1701,7 @@ public static int PLUS
 ```
 
 
-
+Plus.
 
 ### QUAD_ARROW {#QUAD-ARROW}
 ```
@@ -1709,7 +1709,7 @@ public static int QUAD_ARROW
 ```
 
 
-
+Quad arrow.
 
 ### QUAD_ARROW_CALLOUT {#QUAD-ARROW-CALLOUT}
 ```
@@ -1717,7 +1717,7 @@ public static int QUAD_ARROW_CALLOUT
 ```
 
 
-
+Quad arrow callout.
 
 ### RECTANGLE {#RECTANGLE}
 ```
@@ -1725,7 +1725,7 @@ public static int RECTANGLE
 ```
 
 
-
+Rectangle.
 
 ### RIBBON {#RIBBON}
 ```
@@ -1733,7 +1733,7 @@ public static int RIBBON
 ```
 
 
-
+Ribbon.
 
 ### RIBBON_2 {#RIBBON-2}
 ```
@@ -1741,7 +1741,7 @@ public static int RIBBON_2
 ```
 
 
-
+Ribbon 2.
 
 ### RIGHT_ARROW_CALLOUT {#RIGHT-ARROW-CALLOUT}
 ```
@@ -1749,7 +1749,7 @@ public static int RIGHT_ARROW_CALLOUT
 ```
 
 
-
+Right arrow callout
 
 ### RIGHT_BRACE {#RIGHT-BRACE}
 ```
@@ -1757,7 +1757,7 @@ public static int RIGHT_BRACE
 ```
 
 
-
+Right brace.
 
 ### RIGHT_BRACKET {#RIGHT-BRACKET}
 ```
@@ -1765,7 +1765,7 @@ public static int RIGHT_BRACKET
 ```
 
 
-
+Right bracket.
 
 ### RIGHT_TRIANGLE {#RIGHT-TRIANGLE}
 ```
@@ -1773,7 +1773,7 @@ public static int RIGHT_TRIANGLE
 ```
 
 
-
+Right triangle.
 
 ### ROUND_RECTANGLE {#ROUND-RECTANGLE}
 ```
@@ -1781,7 +1781,7 @@ public static int ROUND_RECTANGLE
 ```
 
 
-
+Round rectangle.
 
 ### SEAL {#SEAL}
 ```
@@ -1789,7 +1789,7 @@ public static int SEAL
 ```
 
 
-
+Seal.
 
 ### SEAL_10 {#SEAL-10}
 ```
@@ -1821,7 +1821,7 @@ public static int SEAL_16
 ```
 
 
-
+16-pointed star.
 
 ### SEAL_24 {#SEAL-24}
 ```
@@ -1829,7 +1829,7 @@ public static int SEAL_24
 ```
 
 
-
+24-pointed star.
 
 ### SEAL_32 {#SEAL-32}
 ```
@@ -1837,7 +1837,7 @@ public static int SEAL_32
 ```
 
 
-
+32-pointed star.
 
 ### SEAL_4 {#SEAL-4}
 ```
@@ -1845,7 +1845,7 @@ public static int SEAL_4
 ```
 
 
-
+Four-pointed star.
 
 ### SEAL_6 {#SEAL-6}
 ```
@@ -1877,7 +1877,7 @@ public static int SEAL_8
 ```
 
 
-
+Eight-pointed star.
 
 ### SINGLE_CORNER_ROUNDED {#SINGLE-CORNER-ROUNDED}
 ```
@@ -1909,7 +1909,7 @@ public static int SMILEY_FACE
 ```
 
 
-
+Smiley face.
 
 ### SQUARE_TABS {#SQUARE-TABS}
 ```
@@ -1929,7 +1929,7 @@ public static int STAR
 ```
 
 
-
+Star.
 
 ### STRAIGHT_CONNECTOR_1 {#STRAIGHT-CONNECTOR-1}
 ```
@@ -1937,7 +1937,7 @@ public static int STRAIGHT_CONNECTOR_1
 ```
 
 
-
+A straight connector shape.
 
 ### STRIPED_RIGHT_ARROW {#STRIPED-RIGHT-ARROW}
 ```
@@ -1945,7 +1945,7 @@ public static int STRIPED_RIGHT_ARROW
 ```
 
 
-
+Striped right arrow.
 
 ### SUN {#SUN}
 ```
@@ -1953,7 +1953,7 @@ public static int SUN
 ```
 
 
-
+Sun.
 
 ### SWOOSH_ARROW {#SWOOSH-ARROW}
 ```
@@ -1985,7 +1985,7 @@ public static int TEXT_ARCH_DOWN_CURVE
 ```
 
 
-WordArt object.
+Arch down curve, WordArt object.
 
 ### TEXT_ARCH_DOWN_POUR {#TEXT-ARCH-DOWN-POUR}
 ```
@@ -1993,7 +1993,7 @@ public static int TEXT_ARCH_DOWN_POUR
 ```
 
 
-WordArt object.
+Arch down pour, WordArt object.
 
 ### TEXT_ARCH_UP_CURVE {#TEXT-ARCH-UP-CURVE}
 ```
@@ -2001,7 +2001,7 @@ public static int TEXT_ARCH_UP_CURVE
 ```
 
 
-WordArt object.
+Arch up curve, WordArt object.
 
 ### TEXT_ARCH_UP_POUR {#TEXT-ARCH-UP-POUR}
 ```
@@ -2009,7 +2009,7 @@ public static int TEXT_ARCH_UP_POUR
 ```
 
 
-WordArt object.
+Arch up pour, WordArt object.
 
 ### TEXT_BOX {#TEXT-BOX}
 ```
@@ -2025,7 +2025,7 @@ public static int TEXT_BUTTON_CURVE
 ```
 
 
-WordArt object.
+Button curve, WordArt object.
 
 ### TEXT_BUTTON_POUR {#TEXT-BUTTON-POUR}
 ```
@@ -2033,7 +2033,7 @@ public static int TEXT_BUTTON_POUR
 ```
 
 
-WordArt object.
+Button pour, WordArt object.
 
 ### TEXT_CAN_DOWN {#TEXT-CAN-DOWN}
 ```
@@ -2041,7 +2041,7 @@ public static int TEXT_CAN_DOWN
 ```
 
 
-WordArt object.
+Can down, WordArt object.
 
 ### TEXT_CAN_UP {#TEXT-CAN-UP}
 ```
@@ -2049,7 +2049,7 @@ public static int TEXT_CAN_UP
 ```
 
 
-WordArt object.
+Can up, WordArt object.
 
 ### TEXT_CASCADE_DOWN {#TEXT-CASCADE-DOWN}
 ```
@@ -2057,7 +2057,7 @@ public static int TEXT_CASCADE_DOWN
 ```
 
 
-WordArt object.
+Cascade down, WordArt object.
 
 ### TEXT_CASCADE_UP {#TEXT-CASCADE-UP}
 ```
@@ -2065,7 +2065,7 @@ public static int TEXT_CASCADE_UP
 ```
 
 
-WordArt object.
+Cascade up, WordArt object.
 
 ### TEXT_CHEVRON {#TEXT-CHEVRON}
 ```
@@ -2073,7 +2073,7 @@ public static int TEXT_CHEVRON
 ```
 
 
-WordArt object.
+Chevron, WordArt object.
 
 ### TEXT_CHEVRON_INVERTED {#TEXT-CHEVRON-INVERTED}
 ```
@@ -2081,7 +2081,7 @@ public static int TEXT_CHEVRON_INVERTED
 ```
 
 
-WordArt object.
+Chevron inverted, WordArt object.
 
 ### TEXT_CIRCLE_CURVE {#TEXT-CIRCLE-CURVE}
 ```
@@ -2089,7 +2089,7 @@ public static int TEXT_CIRCLE_CURVE
 ```
 
 
-WordArt object.
+Circle curve, WordArt object.
 
 ### TEXT_CIRCLE_POUR {#TEXT-CIRCLE-POUR}
 ```
@@ -2097,7 +2097,7 @@ public static int TEXT_CIRCLE_POUR
 ```
 
 
-WordArt object.
+Circle pour, WordArt object.
 
 ### TEXT_CURVE {#TEXT-CURVE}
 ```
@@ -2105,7 +2105,7 @@ public static int TEXT_CURVE
 ```
 
 
-
+Text curve.
 
 ### TEXT_CURVE_DOWN {#TEXT-CURVE-DOWN}
 ```
@@ -2113,7 +2113,7 @@ public static int TEXT_CURVE_DOWN
 ```
 
 
-WordArt object.
+Curve down, WordArt object.
 
 ### TEXT_CURVE_UP {#TEXT-CURVE-UP}
 ```
@@ -2121,7 +2121,7 @@ public static int TEXT_CURVE_UP
 ```
 
 
-WordArt object.
+Curve up, WordArt object.
 
 ### TEXT_DEFLATE {#TEXT-DEFLATE}
 ```
@@ -2129,7 +2129,7 @@ public static int TEXT_DEFLATE
 ```
 
 
-WordArt object.
+Deflate, WordArt object.
 
 ### TEXT_DEFLATE_BOTTOM {#TEXT-DEFLATE-BOTTOM}
 ```
@@ -2137,7 +2137,7 @@ public static int TEXT_DEFLATE_BOTTOM
 ```
 
 
-WordArt object.
+Deflate bottom, WordArt object.
 
 ### TEXT_DEFLATE_INFLATE {#TEXT-DEFLATE-INFLATE}
 ```
@@ -2145,7 +2145,7 @@ public static int TEXT_DEFLATE_INFLATE
 ```
 
 
-WordArt object.
+Deflate inflate, WordArt object.
 
 ### TEXT_DEFLATE_INFLATE_DEFLATE {#TEXT-DEFLATE-INFLATE-DEFLATE}
 ```
@@ -2153,7 +2153,7 @@ public static int TEXT_DEFLATE_INFLATE_DEFLATE
 ```
 
 
-WordArt object.
+Deflate inflate deflate, WordArt object.
 
 ### TEXT_DEFLATE_TOP {#TEXT-DEFLATE-TOP}
 ```
@@ -2161,7 +2161,7 @@ public static int TEXT_DEFLATE_TOP
 ```
 
 
-WordArt object.
+Deflate top, WordArt object.
 
 ### TEXT_FADE_DOWN {#TEXT-FADE-DOWN}
 ```
@@ -2169,7 +2169,7 @@ public static int TEXT_FADE_DOWN
 ```
 
 
-WordArt object.
+Fade down, WordArt object.
 
 ### TEXT_FADE_LEFT {#TEXT-FADE-LEFT}
 ```
@@ -2177,7 +2177,7 @@ public static int TEXT_FADE_LEFT
 ```
 
 
-WordArt object.
+Fade left, WordArt object.
 
 ### TEXT_FADE_RIGHT {#TEXT-FADE-RIGHT}
 ```
@@ -2185,7 +2185,7 @@ public static int TEXT_FADE_RIGHT
 ```
 
 
-WordArt object.
+Fade right, WordArt object.
 
 ### TEXT_FADE_UP {#TEXT-FADE-UP}
 ```
@@ -2193,7 +2193,7 @@ public static int TEXT_FADE_UP
 ```
 
 
-WordArt object.
+Fade up, WordArt object.
 
 ### TEXT_HEXAGON {#TEXT-HEXAGON}
 ```
@@ -2201,7 +2201,7 @@ public static int TEXT_HEXAGON
 ```
 
 
-
+Text hexagon.
 
 ### TEXT_INFLATE {#TEXT-INFLATE}
 ```
@@ -2209,7 +2209,7 @@ public static int TEXT_INFLATE
 ```
 
 
-WordArt object.
+Inflate, WordArt object.
 
 ### TEXT_INFLATE_BOTTOM {#TEXT-INFLATE-BOTTOM}
 ```
@@ -2217,7 +2217,7 @@ public static int TEXT_INFLATE_BOTTOM
 ```
 
 
-WordArt object.
+Inflate bottom, WordArt object.
 
 ### TEXT_INFLATE_TOP {#TEXT-INFLATE-TOP}
 ```
@@ -2225,7 +2225,7 @@ public static int TEXT_INFLATE_TOP
 ```
 
 
-WordArt object.
+Inflate top, WordArt object.
 
 ### TEXT_OCTAGON {#TEXT-OCTAGON}
 ```
@@ -2233,7 +2233,7 @@ public static int TEXT_OCTAGON
 ```
 
 
-
+Text octagon.
 
 ### TEXT_ON_CURVE {#TEXT-ON-CURVE}
 ```
@@ -2241,7 +2241,7 @@ public static int TEXT_ON_CURVE
 ```
 
 
-
+Text on curve.
 
 ### TEXT_ON_RING {#TEXT-ON-RING}
 ```
@@ -2249,7 +2249,7 @@ public static int TEXT_ON_RING
 ```
 
 
-
+Text on ring.
 
 ### TEXT_PLAIN_TEXT {#TEXT-PLAIN-TEXT}
 ```
@@ -2257,7 +2257,7 @@ public static int TEXT_PLAIN_TEXT
 ```
 
 
-WordArt object.
+Plain-text, WordArt object.
 
 ### TEXT_RING {#TEXT-RING}
 ```
@@ -2265,7 +2265,7 @@ public static int TEXT_RING
 ```
 
 
-
+Text ring.
 
 ### TEXT_RING_INSIDE {#TEXT-RING-INSIDE}
 ```
@@ -2273,7 +2273,7 @@ public static int TEXT_RING_INSIDE
 ```
 
 
-WordArt object.
+Ring inside, WordArt object.
 
 ### TEXT_RING_OUTSIDE {#TEXT-RING-OUTSIDE}
 ```
@@ -2281,7 +2281,7 @@ public static int TEXT_RING_OUTSIDE
 ```
 
 
-WordArt object.
+Ring outside, WordArt object.
 
 ### TEXT_SIMPLE {#TEXT-SIMPLE}
 ```
@@ -2289,7 +2289,7 @@ public static int TEXT_SIMPLE
 ```
 
 
-
+Text simple.
 
 ### TEXT_SLANT_DOWN {#TEXT-SLANT-DOWN}
 ```
@@ -2297,7 +2297,7 @@ public static int TEXT_SLANT_DOWN
 ```
 
 
-WordArt object.
+Slant down, WordArt object.
 
 ### TEXT_SLANT_UP {#TEXT-SLANT-UP}
 ```
@@ -2305,7 +2305,7 @@ public static int TEXT_SLANT_UP
 ```
 
 
-WordArt object.
+Slant up, WordArt object.
 
 ### TEXT_STOP {#TEXT-STOP}
 ```
@@ -2313,7 +2313,7 @@ public static int TEXT_STOP
 ```
 
 
-WordArt object.
+Stop, WordArt object.
 
 ### TEXT_TRIANGLE {#TEXT-TRIANGLE}
 ```
@@ -2321,7 +2321,7 @@ public static int TEXT_TRIANGLE
 ```
 
 
-WordArt object.
+Triangle, WordArt object.
 
 ### TEXT_TRIANGLE_INVERTED {#TEXT-TRIANGLE-INVERTED}
 ```
@@ -2329,7 +2329,7 @@ public static int TEXT_TRIANGLE_INVERTED
 ```
 
 
-WordArt object.
+Triangle inverted, WordArt object.
 
 ### TEXT_WAVE {#TEXT-WAVE}
 ```
@@ -2337,7 +2337,7 @@ public static int TEXT_WAVE
 ```
 
 
-
+Text wave.
 
 ### TEXT_WAVE_1 {#TEXT-WAVE-1}
 ```
@@ -2345,7 +2345,7 @@ public static int TEXT_WAVE_1
 ```
 
 
-WordArt object.
+Wave 1, WordArt object.
 
 ### TEXT_WAVE_2 {#TEXT-WAVE-2}
 ```
@@ -2353,7 +2353,7 @@ public static int TEXT_WAVE_2
 ```
 
 
-WordArt object.
+Wave 2, WordArt object.
 
 ### TEXT_WAVE_3 {#TEXT-WAVE-3}
 ```
@@ -2361,7 +2361,7 @@ public static int TEXT_WAVE_3
 ```
 
 
-WordArt object.
+Wave 3, WordArt object.
 
 ### TEXT_WAVE_4 {#TEXT-WAVE-4}
 ```
@@ -2369,7 +2369,7 @@ public static int TEXT_WAVE_4
 ```
 
 
-WordArt object.
+Wave 4, WordArt object.
 
 ### THICK_ARROW {#THICK-ARROW}
 ```
@@ -2377,7 +2377,7 @@ public static int THICK_ARROW
 ```
 
 
-
+Thick arrow.
 
 ### TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED {#TOP-CORNERS-ONE-ROUNDED-ONE-SNIPPED}
 ```
@@ -2421,7 +2421,7 @@ public static int TRAPEZOID
 ```
 
 
-
+Trapezoid.
 
 ### TRIANGLE {#TRIANGLE}
 ```
@@ -2429,7 +2429,7 @@ public static int TRIANGLE
 ```
 
 
-
+Triangle.
 
 ### UP_ARROW {#UP-ARROW}
 ```
@@ -2437,7 +2437,7 @@ public static int UP_ARROW
 ```
 
 
-
+Up arrow.
 
 ### UP_ARROW_CALLOUT {#UP-ARROW-CALLOUT}
 ```
@@ -2445,7 +2445,7 @@ public static int UP_ARROW_CALLOUT
 ```
 
 
-
+Up arrow callout.
 
 ### UP_DOWN_ARROW {#UP-DOWN-ARROW}
 ```
@@ -2453,7 +2453,7 @@ public static int UP_DOWN_ARROW
 ```
 
 
-
+Up down arrow.
 
 ### UP_DOWN_ARROW_CALLOUT {#UP-DOWN-ARROW-CALLOUT}
 ```
@@ -2461,7 +2461,7 @@ public static int UP_DOWN_ARROW_CALLOUT
 ```
 
 
-
+Up down arrow callout.
 
 ### UTURN_ARROW {#UTURN-ARROW}
 ```
@@ -2469,7 +2469,7 @@ public static int UTURN_ARROW
 ```
 
 
-
+Uturn arrow.
 
 ### VERTICAL_SCROLL {#VERTICAL-SCROLL}
 ```
@@ -2477,7 +2477,7 @@ public static int VERTICAL_SCROLL
 ```
 
 
-
+Vertical scroll.
 
 ### WAVE {#WAVE}
 ```
@@ -2485,7 +2485,7 @@ public static int WAVE
 ```
 
 
-
+Wave.
 
 ### WEDGE_ELLIPSE_CALLOUT {#WEDGE-ELLIPSE-CALLOUT}
 ```
@@ -2493,7 +2493,7 @@ public static int WEDGE_ELLIPSE_CALLOUT
 ```
 
 
-
+Wedge ellipse callout.
 
 ### WEDGE_PIE {#WEDGE-PIE}
 ```
@@ -2513,7 +2513,7 @@ public static int WEDGE_RECT_CALLOUT
 ```
 
 
-
+Wedge rect callout.
 
 ### WEDGE_R_RECT_CALLOUT {#WEDGE-R-RECT-CALLOUT}
 ```
@@ -2521,7 +2521,7 @@ public static int WEDGE_R_RECT_CALLOUT
 ```
 
 
-
+Wedge R rect callout.
 
 ### length {#length}
 ```

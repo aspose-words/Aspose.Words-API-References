@@ -349,7 +349,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [GradientStyle](../com.aspose.words/gradientstyle/) | Specifies the style for a gradient fill. |
 | [GradientVariant](../com.aspose.words/gradientvariant/) | Specifies the variant for a gradient fill. |
 | [Granularity](../com.aspose.words/granularity/) | Specifies the granularity of changes to track when comparing two documents. |
-| [GraphicsQualityOptions](../com.aspose.words/graphicsqualityoptions/) | Allows to specify additional . |
+| [GraphicsQualityOptions](../com.aspose.words/graphicsqualityoptions/) | Allows to specify additional **java.awt.RenderingHints**. |
 | [GroupShape](../com.aspose.words/groupshape/) | Represents a group of shapes in a document. |
 | [HeaderFooter](../com.aspose.words/headerfooter/) | Represents a container for the header or footer text of a section. |
 | [HeaderFooterBookmarksExportMode](../com.aspose.words/headerfooterbookmarksexportmode/) | Specifies how bookmarks in headers/footers are exported. |

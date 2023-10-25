@@ -2383,7 +2383,7 @@ Font subsetting works as follows:
 
  *  By default, all exported fonts are subsetted.
  *  Setting [getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int) to a positive value instructs Aspose.Words to subset fonts which file size is larger than the specified value.
- *  Setting the property to  suppresses font subsetting.
+ *  Setting the property to **java.lang.Integer.MAX\_VALUE** suppresses font subsetting.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
@@ -6011,7 +6011,7 @@ Font subsetting works as follows:
 
  *  By default, all exported fonts are subsetted.
  *  Setting [getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int) to a positive value instructs Aspose.Words to subset fonts which file size is larger than the specified value.
- *  Setting the property to  suppresses font subsetting.
+ *  Setting the property to **java.lang.Integer.MAX\_VALUE** suppresses font subsetting.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
