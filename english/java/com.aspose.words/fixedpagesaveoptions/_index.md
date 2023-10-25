@@ -716,7 +716,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(62521.0,
+     Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191770.0,
@@ -2056,7 +2056,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(62521.0,
+     Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191770.0,

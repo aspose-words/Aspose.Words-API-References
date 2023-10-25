@@ -114,6 +114,7 @@ Shows how to create and use a paragraph style with list formatting.
 | [getFillableBackColor()](#getFillableBackColor) |  |
 | [getFillableBackThemeColor()](#getFillableBackThemeColor) |  |
 | [getFillableBackTintAndShade()](#getFillableBackTintAndShade) |  |
+| [getFillableBaseForeColor()](#getFillableBaseForeColor) |  |
 | [getFillableForeColor()](#getFillableForeColor) |  |
 | [getFillableForeThemeColor()](#getFillableForeThemeColor) |  |
 | [getFillableForeTintAndShade()](#getFillableForeTintAndShade) |  |
@@ -844,6 +845,16 @@ public double getFillableBackTintAndShade()
 
 **Returns:**
 double
+### getFillableBaseForeColor() {#getFillableBaseForeColor}
+```
+public Color getFillableBaseForeColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
 ### getFillableForeColor() {#getFillableForeColor}
 ```
 public Color getFillableForeColor()

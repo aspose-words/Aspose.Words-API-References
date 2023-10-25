@@ -34,6 +34,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);
@@ -465,6 +467,8 @@ Shows how to insert a chart and set a title.
  // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
  ChartTitle title = chart.getTitle();
  title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
  // Set the "Show" property to "true" to make the title visible.
  title.setShow(true);

@@ -1152,7 +1152,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(62521.0,
+     Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191770.0,
@@ -1373,7 +1373,7 @@ public Color getPaperColor()
 
 Gets the background (paper) color for the generated images.
 
-The default value is .
+The default value is **java.awt.Color.WHITE**.
 
  **Remarks:** 
 
@@ -3259,7 +3259,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(62521.0,
+     Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191770.0,
@@ -3489,7 +3489,7 @@ public void setPaperColor(Color value)
 
 Sets the background (paper) color for the generated images.
 
-The default value is .
+The default value is **java.awt.Color.WHITE**.
 
  **Remarks:** 
 

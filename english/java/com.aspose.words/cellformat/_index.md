@@ -147,6 +147,7 @@ Shows how to build a table with custom borders.
 | [getBottomPadding()](#getBottomPadding) | Gets the amount of space (in points) to add below the contents of cell. |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
 | [getFitText()](#getFitText) | If  true , fits text in the cell, compressing each paragraph to the width of the cell. |
+| [getHideMark()](#getHideMark) | Gets visibility of cell mark. |
 | [getHorizontalMerge()](#getHorizontalMerge) | Specifies how the cell is merged horizontally with other cells in the row. |
 | [getLeftPadding()](#getLeftPadding) | Gets the amount of space (in points) to add to the left of the contents of cell. |
 | [getOrientation()](#getOrientation) | Gets the orientation of text in a table cell. |
@@ -161,6 +162,7 @@ Shows how to build a table with custom borders.
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
 | [setBottomPadding(double value)](#setBottomPadding-double) | Sets the amount of space (in points) to add below the contents of cell. |
 | [setFitText(boolean value)](#setFitText-boolean) | If  true , fits text in the cell, compressing each paragraph to the width of the cell. |
+| [setHideMark(boolean value)](#setHideMark-boolean) | Sets visibility of cell mark. |
 | [setHorizontalMerge(int value)](#setHorizontalMerge-int) | Specifies how the cell is merged horizontally with other cells in the row. |
 | [setLeftPadding(double value)](#setLeftPadding-double) | Sets the amount of space (in points) to add to the left of the contents of cell. |
 | [setOrientation(int value)](#setOrientation-int) | Sets the orientation of text in a table cell. |
@@ -418,6 +420,20 @@ Shows how to build a table with custom borders.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getHideMark() {#getHideMark}
+```
+public boolean getHideMark()
+```
+
+
+Gets visibility of cell mark.
+
+ **Remarks:** 
+
+Specifies that table cell content is rendered with no height if all cells in the row are empty; however, cells have a visible height if they have nonzero cell borders, cell margins, or cell spacing.
+
+**Returns:**
+boolean - Visibility of cell mark.
 ### getHorizontalMerge() {#getHorizontalMerge}
 ```
 public int getHorizontalMerge()
@@ -1455,6 +1471,23 @@ Shows how to build a table with custom borders.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setHideMark(boolean value) {#setHideMark-boolean}
+```
+public void setHideMark(boolean value)
+```
+
+
+Sets visibility of cell mark.
+
+ **Remarks:** 
+
+Specifies that table cell content is rendered with no height if all cells in the row are empty; however, cells have a visible height if they have nonzero cell borders, cell margins, or cell spacing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Visibility of cell mark. |
 
 ### setHorizontalMerge(int value) {#setHorizontalMerge-int}
 ```

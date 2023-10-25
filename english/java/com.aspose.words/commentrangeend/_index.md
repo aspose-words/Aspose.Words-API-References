@@ -20,7 +20,7 @@ To learn more, visit the [ Working with Comments ][Working with Comments] docume
 
  **Remarks:** 
 
-To create a comment anchored to a region of text, you need to create a [Comment](../../com.aspose.words/comment/) and then create [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/) and set their identifiers to the same [Comment.getId()](../../com.aspose.words/comment/\#getId) value.
+To create a comment anchored to a region of text, you need to create a [Comment](../../com.aspose.words/comment/) and then create [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/) and set their identifiers to the same [Comment.getId()](../../com.aspose.words/comment/\#getId) / [Comment.setId(int)](../../com.aspose.words/comment/\#setId-int) value.
 
 [CommentRangeEnd](../../com.aspose.words/commentrangeend/) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph/).
 
@@ -1346,7 +1346,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (145110,6)
+Returns  true  if this node can contain other nodes. (145317,6)
 
  **Examples:** 
 

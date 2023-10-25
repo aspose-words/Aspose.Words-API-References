@@ -53,7 +53,7 @@ Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts 
          Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 491800);
          break;
      case PdfFontEmbeddingMode.EMBED_NONE:
-         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4255);
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4258);
          break;
  }
  

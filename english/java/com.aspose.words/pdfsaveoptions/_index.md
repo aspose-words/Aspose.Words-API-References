@@ -1303,7 +1303,7 @@ Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts 
          Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 491800);
          break;
      case PdfFontEmbeddingMode.EMBED_NONE:
-         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4255);
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4258);
          break;
  }
  
@@ -1799,7 +1799,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(62521.0,
+     Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191770.0,
@@ -4039,7 +4039,7 @@ Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts 
          Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 491800);
          break;
      case PdfFontEmbeddingMode.EMBED_NONE:
-         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4255);
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4258);
          break;
  }
  
@@ -4568,7 +4568,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(62521.0,
+     Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191770.0,

@@ -24,7 +24,7 @@ A comment is an annotation which is anchored to a region of text or to a positio
 
 If a [Comment](../../com.aspose.words/comment/) object occurs on its own, the comment is anchored to the position of the [Comment](../../com.aspose.words/comment/) object.
 
-To anchor a comment to a region of text three objects are required: [Comment](../../com.aspose.words/comment/), [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/). All three objects need to share the same [getId()](../../com.aspose.words/comment/\#getId) value.
+To anchor a comment to a region of text three objects are required: [Comment](../../com.aspose.words/comment/), [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/). All three objects need to share the same [getId()](../../com.aspose.words/comment/\#getId) / [setId(int)](../../com.aspose.words/comment/\#setId-int) value.
 
 [Comment](../../com.aspose.words/comment/) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph/).
 
@@ -96,8 +96,9 @@ Shows how to add a comment to a document, and then reply to it.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
+| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) |  |
+| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) |  |
 | [addReply(String author, String initial, Date dateTime, String text)](#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String) | Adds a reply to this comment. |
-| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
@@ -131,6 +132,7 @@ Shows how to add a comment to a document, and then reply to it.
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
 | [getNodeType()](#getNodeType) | Returns [NodeType.COMMENT](../../com.aspose.words/nodetype/\#COMMENT). |
 | [getParagraphs()](#getParagraphs) | Gets a collection of paragraphs that are immediate children of the story. |
+| [getParentId()](#getParentId) | Gets the parent comment ID. |
 | [getParentIdInternal()](#getParentIdInternal) |  |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node. |
@@ -143,8 +145,6 @@ Shows how to add a comment to a document, and then reply to it.
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately after the specified reference node. |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately before the specified reference node. |
 | [isComposite()](#isComposite) | Returns  true  as this node can have child nodes. |
 | [isDeleteRevision()](#isDeleteRevision) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [isInsertRevision()](#isInsertRevision) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
@@ -153,12 +153,10 @@ Shows how to add a comment to a document, and then reply to it.
 | [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
-| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [remove()](#remove) | Removes itself from the parent. |
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
 | [removeAllReplies()](#removeAllReplies) | Removes all replies to this comment. |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeReply(Comment reply)](#removeReply-com.aspose.words.Comment) | Removes the specified reply to this comment. |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
@@ -169,8 +167,10 @@ Shows how to add a comment to a document, and then reply to it.
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setDateTime(Date value)](#setDateTime-java.util.Date) | Gets the date and time that the comment was made. |
 | [setDone(boolean value)](#setDone-boolean) | Sets flag indicating that the comment has been marked done. |
+| [setId(int value)](#setId-int) | Sets the comment identifier. |
 | [setIdInternal(int value)](#setIdInternal-int) |  |
 | [setInitial(String value)](#setInitial-java.lang.String) | Sets the initials of the user associated with a specific comment. |
+| [setParentId(int value)](#setParentId-int) | Sets the parent comment ID. |
 | [setParentIdInternal(int value)](#setParentIdInternal-int) |  |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setText(String text)](#setText-java.lang.String) | This is a convenience method that allows to easily set text of the comment. |
@@ -189,7 +189,7 @@ Initializes a new instance of the [Comment](../../com.aspose.words/comment/) cla
 
 When [Comment](../../com.aspose.words/comment/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Comment](../../com.aspose.words/comment/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the comment inserted.
+To append [Comment](../../com.aspose.words/comment/) to the document use **M:Aspose.Words.CompositeNode.InsertAfter1(0,Aspose.Words.Node)** or **M:Aspose.Words.CompositeNode.InsertBefore1(0,Aspose.Words.Node)** on the paragraph where you want the comment inserted.
 
 After creating a comment, don't forget to set its [getAuthor()](../../com.aspose.words/comment/\#getAuthor) / [setAuthor(java.lang.String)](../../com.aspose.words/comment/\#setAuthor-java.lang.String), [getInitial()](../../com.aspose.words/comment/\#getInitial) / [setInitial(java.lang.String)](../../com.aspose.words/comment/\#setInitial-java.lang.String) and [getDateTime()](../../com.aspose.words/comment/\#getDateTime) / [setDateTime(java.util.Date)](../../com.aspose.words/comment/\#setDateTime-java.util.Date) properties.
 
@@ -557,6 +557,36 @@ Shows how print the contents of all comments and their comment ranges using a do
 
 **Returns:**
 boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
+### acceptEnd(DocumentVisitor visitor) {#acceptEnd-com.aspose.words.DocumentVisitor}
+```
+public int acceptEnd(DocumentVisitor visitor)
+```
+
+
+When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+
+**Returns:**
+int
+### acceptStart(DocumentVisitor visitor) {#acceptStart-com.aspose.words.DocumentVisitor}
+```
+public int acceptStart(DocumentVisitor visitor)
+```
+
+
+When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+
+**Returns:**
+int
 ### addReply(String author, String initial, Date dateTime, String text) {#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String}
 ```
 public Comment addReply(String author, String initial, Date dateTime, String text)
@@ -612,76 +642,6 @@ Shows how to add a comment to a document, and then reply to it.
 
 **Returns:**
 [Comment](../../com.aspose.words/comment/) - The created [Comment](../../com.aspose.words/comment/) node for the reply.
-### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
-```
-public Node appendChild(Node newChild)
-```
-
-
-Adds the specified node to the end of the list of child nodes for this node.
-
- **Remarks:** 
-
-If the  newChild  is already in the tree, it is first removed.
-
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
- **Examples:** 
-
-Shows how to construct an Aspose.Words document by hand.
-
-```
-
- Document doc = new Document();
-
- // A blank document contains one section, one body and one paragraph.
- // Call the "RemoveAllChildren" method to remove all those nodes,
- // and end up with a document node with no children.
- doc.removeAllChildren();
-
- // This document now has no composite child nodes that we can add content to.
- // If we wish to edit it, we will need to repopulate its node collection.
- // First, create a new section, and then append it as a child to the root document node.
- Section section = new Section(doc);
- doc.appendChild(section);
-
- // Set some page setup properties for the section.
- section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
- section.getPageSetup().setPaperSize(PaperSize.LETTER);
-
- // A section needs a body, which will contain and display all its contents
- // on the page between the section's header and footer.
- Body body = new Body(doc);
- section.appendChild(body);
-
- // Create a paragraph, set some formatting properties, and then append it as a child to the body.
- Paragraph para = new Paragraph(doc);
-
- para.getParagraphFormat().setStyleName("Heading 1");
- para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
-
- body.appendChild(para);
-
- // Finally, add some content to do the document. Create a run,
- // set its appearance and contents, and then append it as a child to the paragraph.
- Run run = new Run(doc);
- run.setText("Hello World!");
- run.getFont().setColor(Color.RED);
- para.appendChild(run);
-
- Assert.assertEquals("Hello World!", doc.getText().trim());
-
- doc.save(getArtifactsDir() + "Section.CreateManually.docx");
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
@@ -2478,6 +2438,16 @@ Shows how to insert and customize footnotes.
 
 **Returns:**
 [ParagraphCollection](../../com.aspose.words/paragraphcollection/) - A collection of paragraphs that are immediate children of the story.
+### getParentId() {#getParentId}
+```
+public int getParentId()
+```
+
+
+Gets the parent comment ID. A value of  -1  means the comment has no parent.
+
+**Returns:**
+int - The parent comment ID.
 ### getParentIdInternal() {#getParentIdInternal}
 ```
 public int getParentIdInternal()
@@ -3009,204 +2979,6 @@ Shows how to get the index of a given child node from its parent.
 
 **Returns:**
 int
-### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node}
-```
-public Node insertAfter(Node newChild, Node refChild)
-```
-
-
-Inserts the specified node immediately after the specified reference node.
-
- **Remarks:** 
-
-If  refChild  is  null , inserts  newChild  at the beginning of the list of child nodes.
-
-If the  newChild  is already in the tree, it is first removed.
-
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
- **Examples:** 
-
-Shows how to replace all textbox shapes with image shapes.
-
-```
-
- Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
-
- List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- for (Shape shape : shapeList) {
-     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
-         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
-         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
-         replacementShape.setLeft(shape.getLeft());
-         replacementShape.setTop(shape.getTop());
-         replacementShape.setWidth(shape.getWidth());
-         replacementShape.setHeight(shape.getHeight());
-         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
-         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
-         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
-         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
-         replacementShape.setWrapType(shape.getWrapType());
-         replacementShape.setWrapSide(shape.getWrapSide());
-
-         shape.getParentNode().insertAfter(replacementShape, shape);
-         shape.remove();
-     }
- }
-
- shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
- 
-```
-
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
-
-```
-
- Document doc = new Document();
-
- // An empty document, by default, has one paragraph.
- Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
-
- // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
- Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
- Run paragraphText = new Run(doc, "Initial text. ");
- paragraph.appendChild(paragraphText);
-
- // Create three more run nodes.
- Run run1 = new Run(doc, "Run 1. ");
- Run run2 = new Run(doc, "Run 2. ");
- Run run3 = new Run(doc, "Run 3. ");
-
- // The document body will not display these runs until we insert them into a composite node
- // that itself is a part of the document's node tree, as we did with the first run.
- // We can determine where the text contents of nodes that we insert
- // appears in the document by specifying an insertion location relative to another node in the paragraph.
- Assert.assertEquals("Initial text.", paragraph.getText().trim());
-
- // Insert the second run into the paragraph in front of the initial run.
- paragraph.insertBefore(run2, paragraphText);
-
- Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
-
- // Insert the third run after the initial run.
- paragraph.insertAfter(run3, paragraphText);
-
- Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
-
- // Insert the first run to the start of the paragraph's child nodes collection.
- paragraph.prependChild(run1);
-
- Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
- Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
-
- // We can modify the contents of the run by editing and deleting existing child nodes.
- ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
- paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
-
- Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
- Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
-### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
-```
-public Node insertBefore(Node newChild, Node refChild)
-```
-
-
-Inserts the specified node immediately before the specified reference node.
-
- **Remarks:** 
-
-If  refChild  is  null , inserts  newChild  at the end of the list of child nodes.
-
-If the  newChild  is already in the tree, it is first removed.
-
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
- **Examples:** 
-
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
-
-```
-
- Document doc = new Document();
-
- // An empty document, by default, has one paragraph.
- Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
-
- // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
- Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
- Run paragraphText = new Run(doc, "Initial text. ");
- paragraph.appendChild(paragraphText);
-
- // Create three more run nodes.
- Run run1 = new Run(doc, "Run 1. ");
- Run run2 = new Run(doc, "Run 2. ");
- Run run3 = new Run(doc, "Run 3. ");
-
- // The document body will not display these runs until we insert them into a composite node
- // that itself is a part of the document's node tree, as we did with the first run.
- // We can determine where the text contents of nodes that we insert
- // appears in the document by specifying an insertion location relative to another node in the paragraph.
- Assert.assertEquals("Initial text.", paragraph.getText().trim());
-
- // Insert the second run into the paragraph in front of the initial run.
- paragraph.insertBefore(run2, paragraphText);
-
- Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
-
- // Insert the third run after the initial run.
- paragraph.insertAfter(run3, paragraphText);
-
- Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
-
- // Insert the first run to the start of the paragraph's child nodes collection.
- paragraph.prependChild(run1);
-
- Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
- Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
-
- // We can modify the contents of the run by editing and deleting existing child nodes.
- ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
- paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
-
- Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
- Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -3622,79 +3394,6 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### prependChild(Node newChild) {#prependChild-com.aspose.words.Node}
-```
-public Node prependChild(Node newChild)
-```
-
-
-Adds the specified node to the beginning of the list of child nodes for this node.
-
- **Remarks:** 
-
-If the  newChild  is already in the tree, it is first removed.
-
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
- **Examples:** 
-
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
-
-```
-
- Document doc = new Document();
-
- // An empty document, by default, has one paragraph.
- Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
-
- // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
- Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
- Run paragraphText = new Run(doc, "Initial text. ");
- paragraph.appendChild(paragraphText);
-
- // Create three more run nodes.
- Run run1 = new Run(doc, "Run 1. ");
- Run run2 = new Run(doc, "Run 2. ");
- Run run3 = new Run(doc, "Run 3. ");
-
- // The document body will not display these runs until we insert them into a composite node
- // that itself is a part of the document's node tree, as we did with the first run.
- // We can determine where the text contents of nodes that we insert
- // appears in the document by specifying an insertion location relative to another node in the paragraph.
- Assert.assertEquals("Initial text.", paragraph.getText().trim());
-
- // Insert the second run into the paragraph in front of the initial run.
- paragraph.insertBefore(run2, paragraphText);
-
- Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
-
- // Insert the third run after the initial run.
- paragraph.insertAfter(run3, paragraphText);
-
- Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
-
- // Insert the first run to the start of the paragraph's child nodes collection.
- paragraph.prependChild(run1);
-
- Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
- Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
-
- // We can modify the contents of the run by editing and deleting existing child nodes.
- ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
- paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
-
- Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
- Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -3924,51 +3623,6 @@ Shows how to remove comment replies.
  
 ```
 
-### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node}
-```
-public Node removeChild(Node oldChild)
-```
-
-
-Removes the specified child node.
-
- **Remarks:** 
-
-The parent of  oldChild  is set to  null  after the node is removed.
-
- **Examples:** 
-
-Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("Section 1 text.");
- builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
- builder.writeln("Section 2 text.");
-
- // Both sections are siblings of each other.
- Section lastSection = (Section) doc.getLastChild();
- Section firstSection = (Section) lastSection.getPreviousSibling();
-
- // Remove a section based on its sibling relationship with another section.
- if (lastSection.getPreviousSibling() != null)
-     doc.removeChild(firstSection);
-
- // The section we removed was the first one, leaving the document with only the second.
- Assert.assertEquals("Section 2 text.", doc.getText().trim());
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The removed node.
 ### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
@@ -4747,6 +4401,176 @@ Shows how print the contents of all comments and their comment ranges using a do
 | --- | --- | --- |
 | value | boolean | Flag indicating that the comment has been marked done. |
 
+### setId(int value) {#setId-int}
+```
+public void setId(int value)
+```
+
+
+Sets the comment identifier.
+
+ **Remarks:** 
+
+The comment identifier allows to anchor a comment to a region of text in the document. The region must be demarcated using the [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/) object sharing the same identifier value as the [Comment](../../com.aspose.words/comment/) object.
+
+You would use this value when looking for the [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/) nodes that are linked to this comment.
+
+Comment identifiers are supposed to be unique across a document and Aspose.Words automatically maintains comment identifiers when loading, saving and combining documents.
+
+ **Examples:** 
+
+Shows how print the contents of all comments and their comment ranges using a document visitor.
+
+```
+
+ public void createCommentsAndPrintAllInfo() throws Exception {
+     Document doc = new Document();
+
+     Comment newComment = new Comment(doc);
+     {
+         newComment.setAuthor("VDeryushev");
+         newComment.setInitial("VD");
+         newComment.setDateTime(new Date());
+     }
+
+     newComment.setText("Comment regarding text.");
+
+     // Add text to the document, warp it in a comment range, and then add your comment.
+     Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+     para.appendChild(new CommentRangeStart(doc, newComment.getId()));
+     para.appendChild(new Run(doc, "Commented text."));
+     para.appendChild(new CommentRangeEnd(doc, newComment.getId()));
+     para.appendChild(newComment);
+
+     // Add two replies to the comment.
+     newComment.addReply("John Doe", "JD", new Date(), "New reply.");
+     newComment.addReply("John Doe", "JD", new Date(), "Another reply.");
+
+     printAllCommentInfo(doc.getChildNodes(NodeType.COMMENT, true));
+ }
+
+ /// 
+ /// Iterates over every top-level comment and prints its comment range, contents, and replies.
+ /// 
+ private static void printAllCommentInfo(NodeCollection comments) throws Exception {
+     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
+
+     // Iterate over all top-level comments. Unlike reply-type comments, top-level comments have no ancestor.
+     for (Comment comment : (Iterable) comments) {
+         if (comment.getAncestor() == null) {
+             // First, visit the start of the comment range.
+             CommentRangeStart commentRangeStart = (CommentRangeStart) comment.getPreviousSibling().getPreviousSibling().getPreviousSibling();
+             commentRangeStart.accept(commentVisitor);
+
+             // Then, visit the comment, and any replies that it may have.
+             comment.accept(commentVisitor);
+
+             for (Comment reply : comment.getReplies())
+                 reply.accept(commentVisitor);
+
+             // Finally, visit the end of the comment range, and then print the visitor's text contents.
+             CommentRangeEnd commentRangeEnd = (CommentRangeEnd) comment.getPreviousSibling();
+             commentRangeEnd.accept(commentVisitor);
+
+             System.out.println(commentVisitor.getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints information and contents of all comments and comment ranges encountered in the document.
+ /// 
+ public static class CommentInfoPrinter extends DocumentVisitor {
+     public CommentInfoPrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideComment = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideComment) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeStart node is encountered in the document.
+     /// 
+     public int visitCommentRangeStart(CommentRangeStart commentRangeStart) {
+         indentAndAppendLine("[Comment range start] ID: " + commentRangeStart.getId());
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeEnd node is encountered in the document.
+     /// 
+     public int visitCommentRangeEnd(CommentRangeEnd commentRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment range end] ID: " + commentRangeEnd.getId() + "\n");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment node is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         indentAndAppendLine(MessageFormat.format("[Comment start] For comment range ID {0}, By {1} on {2}", comment.getId(),
+                 comment.getAuthor(), comment.getDateTime()));
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a Comment node is ended in the document.
+     /// 
+     public int visitCommentEnd(Comment comment) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideComment;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The comment identifier. |
+
 ### setIdInternal(int value) {#setIdInternal-int}
 ```
 public void setIdInternal(int value)
@@ -4927,6 +4751,19 @@ Shows how print the contents of all comments and their comment ranges using a do
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The initials of the user associated with a specific comment. |
+
+### setParentId(int value) {#setParentId-int}
+```
+public void setParentId(int value)
+```
+
+
+Sets the parent comment ID. A value of  -1  means the comment has no parent.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The parent comment ID. |
 
 ### setParentIdInternal(int value) {#setParentIdInternal-int}
 ```

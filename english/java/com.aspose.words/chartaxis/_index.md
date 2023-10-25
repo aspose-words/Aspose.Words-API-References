@@ -84,6 +84,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getCategoryType()](#getCategoryType) | Gets type of the category axis. |
 | [getCrosses()](#getCrosses) | Specifies how this axis crosses the perpendicular axis. |
 | [getCrossesAt()](#getCrossesAt) | Specifies where on the perpendicular axis the axis crosses. |
+| [getDefaultFontSize()](#getDefaultFontSize) |  |
 | [getDefaultTitleText()](#getDefaultTitleText) |  |
 | [getDisplayUnit()](#getDisplayUnit) | Specifies the scaling value of the display units for the value axis. |
 | [getDocument()](#getDocument) | Returns the Document the title holder belongs. |
@@ -426,6 +427,16 @@ Shows how to get a graph axis to cross at a custom location.
 
 **Returns:**
 double - The corresponding  double  value.
+### getDefaultFontSize() {#getDefaultFontSize}
+```
+public double getDefaultFontSize()
+```
+
+
+
+
+**Returns:**
+double
 ### getDefaultTitleText() {#getDefaultTitleText}
 ```
 public String getDefaultTitleText()

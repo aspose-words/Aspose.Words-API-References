@@ -65,6 +65,7 @@ Shows how to fill a shape with a solid color.
 | [getBackColor()](#getBackColor) | Gets a Color object that represents the background color for the fill. |
 | [getBackThemeColor()](#getBackThemeColor) | Gets a ThemeColor object that represents the background color for the fill. |
 | [getBackTintAndShade()](#getBackTintAndShade) | Gets a double value that lightens or darkens the background color. |
+| [getBaseForeColor()](#getBaseForeColor) | Gets a Color object that represents the base foreground color for the fill without any modifiers. |
 | [getColor()](#getColor) | Gets a Color object that represents the foreground color for the fill. |
 | [getFillType()](#getFillType) | Gets a fill type. |
 | [getForeColor()](#getForeColor) | Gets a Color object that represents the foreground color for the fill. |
@@ -187,6 +188,42 @@ Shows how to set theme color for foreground/background shape color.
 
 **Returns:**
 double - A double value that lightens or darkens the background color.
+### getBaseForeColor() {#getBaseForeColor}
+```
+public Color getBaseForeColor()
+```
+
+
+Gets a Color object that represents the base foreground color for the fill without any modifiers.
+
+ **Examples:** 
+
+Shows how to get foreground color without modifiers.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ shape.getFill().setForeColor(Color.RED);
+ shape.getFill().setForeTintAndShade(0.5);
+ shape.getStroke().getFill().setForeColor(Color.GREEN);
+ shape.getStroke().getFill().setTransparency(0.5);
+
+ Assert.assertEquals(new Color((255), (188), (188), (255)).getRGB(), shape.getFill().getForeColor().getRGB());
+ Assert.assertEquals(Color.RED.getRGB(), shape.getFill().getBaseForeColor().getRGB());
+
+ Assert.assertEquals(new Color((0), (128), (0), (128)).getRGB(), shape.getStroke().getForeColor().getRGB());
+ Assert.assertEquals(Color.GREEN.getRGB(), shape.getStroke().getBaseForeColor().getRGB());
+
+ Assert.assertEquals(Color.GREEN.getRGB(), shape.getStroke().getFill().getForeColor().getRGB());
+ Assert.assertEquals(Color.GREEN.getRGB(), shape.getStroke().getFill().getBaseForeColor().getRGB());
+ 
+```
+
+**Returns:**
+java.awt.Color - A Color object that represents the base foreground color for the fill without any modifiers.
 ### getColor() {#getColor}
 ```
 public Color getColor()

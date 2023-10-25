@@ -85,6 +85,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 | Method | Description |
 | --- | --- |
 | [getCustomUnit()](#getCustomUnit) | Gets a user-defined divisor to scale display units on the value axis. |
+| [getDefaultFontSize()](#getDefaultFontSize) |  |
 | [getDefaultTitleText()](#getDefaultTitleText) |  |
 | [getDocument()](#getDocument) | Returns the Document the title holder belongs. |
 | [getTitleDeleted()](#getTitleDeleted) |  |
@@ -167,6 +168,16 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 
 **Returns:**
 double - A user-defined divisor to scale display units on the value axis.
+### getDefaultFontSize() {#getDefaultFontSize}
+```
+public double getDefaultFontSize()
+```
+
+
+
+
+**Returns:**
+double
 ### getDefaultTitleText() {#getDefaultTitleText}
 ```
 public String getDefaultTitleText()

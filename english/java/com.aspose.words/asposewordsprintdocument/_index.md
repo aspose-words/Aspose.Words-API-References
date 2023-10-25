@@ -23,11 +23,11 @@ To learn more, visit the [ Printing a Document Programmatically or Using Dialogs
 
  **Remarks:** 
 
-[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) overrides both  and .
+[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) overrides both **java.awt.print.Printable** and **java.awt.print.Pageable**.
 
-A single Aspose.Words document can consist of multiple sections that specify pages with different sizes, orientation and paper trays. [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) should be used as  to properly print each of the different paper size, orientation, etc.
+A single Aspose.Words document can consist of multiple sections that specify pages with different sizes, orientation and paper trays. [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) should be used as **java.awt.print.Pageable** to properly print each of the different paper size, orientation, etc.
 
-On the other hand, if the document consists of a single section only, the developer can use [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) as  to improve printing performance.
+On the other hand, if the document consists of a single section only, the developer can use [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) as **java.awt.print.Printable** to improve printing performance.
 
 
 [Printing a Document Programmatically or Using Dialogs]: https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/

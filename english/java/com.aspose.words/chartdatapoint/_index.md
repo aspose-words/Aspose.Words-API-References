@@ -94,6 +94,7 @@ Shows how to work with data points on a line chart.
 | [getInvertIfNegative()](#getInvertIfNegative) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [getMarker()](#getMarker) | Specifies chart data marker. |
 | [getShapeType()](#getShapeType) |  |
+| [isFormatDefined()](#isFormatDefined) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
@@ -263,6 +264,16 @@ public int getShapeType()
 
 **Returns:**
 int
+### isFormatDefined() {#isFormatDefined}
+```
+public boolean isFormatDefined()
+```
+
+
+
+
+**Returns:**
+boolean
 ### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()

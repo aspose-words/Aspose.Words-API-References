@@ -86,6 +86,7 @@ Shows how to work with data points on a line chart.
 | [getShapeType()](#getShapeType) |  |
 | [getSize()](#getSize) | Gets chart marker size. |
 | [getSymbol()](#getSymbol) | Gets chart marker symbol. |
+| [isFormatDefined()](#isFormatDefined) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setShapeType(int value)](#setShapeType-int) |  |
 | [setSize(int value)](#setSize-int) | Sets chart marker size. |
@@ -277,6 +278,16 @@ Shows how to work with data points on a line chart.
 
 **Returns:**
 int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol/) constants.
+### isFormatDefined() {#isFormatDefined}
+```
+public boolean isFormatDefined()
+```
+
+
+
+
+**Returns:**
+boolean
 ### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()

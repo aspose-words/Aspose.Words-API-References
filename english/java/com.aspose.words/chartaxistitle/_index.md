@@ -37,11 +37,15 @@ Shows how to set chart axis title.
  seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
 
  // Set axis title.
- chart.getAxisX().getTitle().setText("Categories");
- chart.getAxisX().getTitle().setShow(true);
- chart.getAxisY().getTitle().setText("Values");
- chart.getAxisY().getTitle().setShow(true);
- chart.getAxisY().getTitle().setOverlay(true);
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
  
@@ -53,12 +57,56 @@ Shows how to set chart axis title.
 
 | Method | Description |
 | --- | --- |
+| [getFont()](#getFont) | Provides access to the font formatting of the axis title. |
 | [getOverlay()](#getOverlay) | Determines whether other chart elements shall be allowed to overlap the title. |
 | [getShow()](#getShow) | Determines whether the title shall be shown for the axis. |
 | [getText()](#getText) | Gets the text of the axis title. |
 | [setOverlay(boolean value)](#setOverlay-boolean) | Determines whether other chart elements shall be allowed to overlap the title. |
 | [setShow(boolean value)](#setShow-boolean) | Determines whether the title shall be shown for the axis. |
 | [setText(String value)](#setText-java.lang.String) | Sets the text of the axis title. |
+### getFont() {#getFont}
+```
+public Font getFont()
+```
+
+
+Provides access to the font formatting of the axis title.
+
+ **Examples:** 
+
+Shows how to set chart axis title.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+
+ Chart chart = shape.getChart();
+ ChartSeriesCollection seriesColl = chart.getSeries();
+ // Delete default generated series.
+ seriesColl.clear();
+
+ seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
+
+ // Set axis title.
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getOverlay() {#getOverlay}
 ```
 public boolean getOverlay()
@@ -86,11 +134,15 @@ Shows how to set chart axis title.
  seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
 
  // Set axis title.
- chart.getAxisX().getTitle().setText("Categories");
- chart.getAxisX().getTitle().setShow(true);
- chart.getAxisY().getTitle().setText("Values");
- chart.getAxisY().getTitle().setShow(true);
- chart.getAxisY().getTitle().setOverlay(true);
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
  
@@ -125,11 +177,15 @@ Shows how to set chart axis title.
  seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
 
  // Set axis title.
- chart.getAxisX().getTitle().setText("Categories");
- chart.getAxisX().getTitle().setShow(true);
- chart.getAxisY().getTitle().setText("Values");
- chart.getAxisY().getTitle().setShow(true);
- chart.getAxisY().getTitle().setOverlay(true);
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
  
@@ -168,11 +224,15 @@ Shows how to set chart axis title.
  seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
 
  // Set axis title.
- chart.getAxisX().getTitle().setText("Categories");
- chart.getAxisX().getTitle().setShow(true);
- chart.getAxisY().getTitle().setText("Values");
- chart.getAxisY().getTitle().setShow(true);
- chart.getAxisY().getTitle().setOverlay(true);
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
  
@@ -207,11 +267,15 @@ Shows how to set chart axis title.
  seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
 
  // Set axis title.
- chart.getAxisX().getTitle().setText("Categories");
- chart.getAxisX().getTitle().setShow(true);
- chart.getAxisY().getTitle().setText("Values");
- chart.getAxisY().getTitle().setShow(true);
- chart.getAxisY().getTitle().setOverlay(true);
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
  
@@ -249,11 +313,15 @@ Shows how to set chart axis title.
  seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
 
  // Set axis title.
- chart.getAxisX().getTitle().setText("Categories");
- chart.getAxisX().getTitle().setShow(true);
- chart.getAxisY().getTitle().setText("Values");
- chart.getAxisY().getTitle().setShow(true);
- chart.getAxisY().getTitle().setOverlay(true);
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
  
@@ -295,11 +363,15 @@ Shows how to set chart axis title.
  seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
 
  // Set axis title.
- chart.getAxisX().getTitle().setText("Categories");
- chart.getAxisX().getTitle().setShow(true);
- chart.getAxisY().getTitle().setText("Values");
- chart.getAxisY().getTitle().setShow(true);
- chart.getAxisY().getTitle().setOverlay(true);
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
  

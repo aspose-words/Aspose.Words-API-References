@@ -36,7 +36,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -194,7 +194,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -308,7 +308,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -422,7 +422,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -536,7 +536,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -650,7 +650,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -764,7 +764,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -878,7 +878,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -994,7 +994,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1108,7 +1108,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1222,7 +1222,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1336,7 +1336,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1464,7 +1464,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1578,7 +1578,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1692,7 +1692,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1806,7 +1806,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -1920,7 +1920,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2034,7 +2034,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2148,7 +2148,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2264,7 +2264,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2378,7 +2378,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2495,7 +2495,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2612,7 +2612,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2729,7 +2729,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2846,7 +2846,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -2963,7 +2963,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3080,7 +3080,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3199,7 +3199,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3316,7 +3316,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3433,7 +3433,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3550,7 +3550,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3684,7 +3684,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3801,7 +3801,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -3918,7 +3918,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -4035,7 +4035,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -4152,7 +4152,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -4269,7 +4269,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -4386,7 +4386,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 
@@ -4505,7 +4505,7 @@ Shows how to work with WordArt.
      Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
              "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
 
-     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
      shape.getTextPath().setBold(true);
      shape.getTextPath().setItalic(true);
 

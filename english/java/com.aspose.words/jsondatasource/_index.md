@@ -26,11 +26,11 @@ In template documents, if a top-level JSON element is an array, a [JsonDataSourc
 
 In template documents, you can work with typed values of JSON elements. For convenience, the engine replaces the set of JSON simple types with the following one:
 
- *  
- *  
- *  
- *  
- *  
+ *  **java.lang.Long**
+ *  **java.lang.Double**
+ *  **java.lang.Boolean**
+ *  **java.util.Date**
+ *  **java.lang.String**
 
 The engine automatically recognizes values of the extra types upon their JSON representations.
 

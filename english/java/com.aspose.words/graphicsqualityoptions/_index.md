@@ -2,7 +2,7 @@
 title: GraphicsQualityOptions
 linktitle: GraphicsQualityOptions
 second_title: Aspose.Words for Java
-description: Allows to specify additional in Java.
+description: Allows to specify additional java.awt.RenderingHints in Java.
 type: docs
 weight: 328
 url: /java/com.aspose.words/graphicsqualityoptions/
@@ -14,11 +14,11 @@ java.lang.Object
 public class GraphicsQualityOptions
 ```
 
-Allows to specify additional .
+Allows to specify additional **java.awt.RenderingHints**.
 
 To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
-Gets current  to view or to add new hints. Overwrites current .
+Gets current **java.awt.RenderingHints** to view or to add new hints. Overwrites current **java.awt.RenderingHints**.
 
  **Examples:** 
 

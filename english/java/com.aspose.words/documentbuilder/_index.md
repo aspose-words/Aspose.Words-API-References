@@ -217,6 +217,7 @@ Shows how to build a table with custom borders.
 | [insertComboBox(String name, String[] items, int selectedIndex)](#insertComboBox-java.lang.String-java.lang.String---int) | Inserts a combobox form field at the current position. |
 | [insertDocument(Document srcDoc, int importFormatMode)](#insertDocument-com.aspose.words.Document-int) |  |
 | [insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#insertDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) |  |
+| [insertDocumentInline(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) |  |
 | [insertField(int fieldType, boolean updateField)](#insertField-int-boolean) |  |
 | [insertField(String fieldCode)](#insertField-java.lang.String) | Inserts a Word field into a document and updates the field result. |
 | [insertField(String fieldCode, String fieldValue)](#insertField-java.lang.String-java.lang.String) | Inserts a Word field into a document without updating the field result. |
@@ -231,7 +232,7 @@ Shows how to build a table with custom borders.
 | [insertImage(byte[] imageBytes, double width, double height)](#insertImage-byte---double-double) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
 | [insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-byte---int-double-int-double-double-double-int) |  |
 | [insertImage(BufferedImage image)](#insertImage-java.awt.image.BufferedImage) | Inserts an image into the document. |
-| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double) | Inserts an inline image from a  object into the document and scales it to the specified size. |
+| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double) | Inserts an inline image from a **java.awt.image.BufferedImage** object into the document and scales it to the specified size. |
 | [insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int) |  |
 | [insertImage(InputStream stream)](#insertImage-java.io.InputStream) |  |
 | [insertImage(InputStream stream, double width, double height)](#insertImage-java.io.InputStream-double-double) |  |
@@ -2687,6 +2688,23 @@ public Node insertDocument(Document srcDoc, int importFormatMode, ImportFormatOp
 
 **Returns:**
 [Node](../../com.aspose.words/node/)
+### insertDocumentInline(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions) {#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions}
+```
+public Node insertDocumentInline(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcDoc | [Document](../../com.aspose.words/document/) |  |
+| importFormatMode | int |  |
+| importFormatOptions | [ImportFormatOptions](../../com.aspose.words/importformatoptions/) |  |
+
+**Returns:**
+[Node](../../com.aspose.words/node/)
 ### insertField(int fieldType, boolean updateField) {#insertField-int-boolean}
 ```
 public Field insertField(int fieldType, boolean updateField)
@@ -3308,7 +3326,7 @@ public Shape insertImage(BufferedImage image)
 ```
 
 
-Inserts an image into the document.  Inserts an image from a  object into the document. The image is inserted inline and at 100% scale.
+Inserts an image into the document.  Inserts an image from a **java.awt.image.BufferedImage** object into the document. The image is inserted inline and at 100% scale.
 
  **Remarks:** 
 
@@ -3359,7 +3377,7 @@ public Shape insertImage(BufferedImage image, double width, double height)
 ```
 
 
-Inserts an inline image from a  object into the document and scales it to the specified size.
+Inserts an inline image from a **java.awt.image.BufferedImage** object into the document and scales it to the specified size.
 
  **Remarks:** 
 

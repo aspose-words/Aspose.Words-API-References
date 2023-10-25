@@ -33,10 +33,26 @@ The text of the entry is the name of the series or trendline. The text cannot be
 
 | Method | Description |
 | --- | --- |
+| [fetchSpecialDefaultRunPropertyValue(int key)](#fetchSpecialDefaultRunPropertyValue-int) |  |
 | [generateItemText()](#generateItemText) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this legend entry. |
 | [isHidden()](#isHidden) | Gets a value indicating whether this entry is hidden in the chart legend. |
 | [isHidden(boolean value)](#isHidden-boolean) | Sets a value indicating whether this entry is hidden in the chart legend. |
+### fetchSpecialDefaultRunPropertyValue(int key) {#fetchSpecialDefaultRunPropertyValue-int}
+```
+public Object fetchSpecialDefaultRunPropertyValue(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
 ### generateItemText() {#generateItemText}
 ```
 public String generateItemText()

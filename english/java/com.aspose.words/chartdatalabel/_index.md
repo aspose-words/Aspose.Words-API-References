@@ -102,6 +102,7 @@ Shows how to apply labels to data points in a line chart.
 | Method | Description |
 | --- | --- |
 | [clearFormat()](#clearFormat) | Clears format of this data label. |
+| [fetchSpecialDefaultRunPropertyValue(int key)](#fetchSpecialDefaultRunPropertyValue-int) |  |
 | [generateItemText()](#generateItemText) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this data label. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the data label. |
@@ -117,6 +118,7 @@ Shows how to apply labels to data points in a line chart.
 | [getShowPercentage()](#getShowPercentage) | Allows to specify if percentage value is to be displayed for the data labels on a chart. |
 | [getShowSeriesName()](#getShowSeriesName) | Gets a Boolean to indicate the series name display behavior for the data labels on a chart. |
 | [getShowValue()](#getShowValue) | Allows to specify if values are to be displayed in the data labels. |
+| [isFormatDefined()](#isFormatDefined) |  |
 | [isHidden()](#isHidden) | Gets/sets a flag indicating whether this label is hidden. |
 | [isHidden(boolean value)](#isHidden-boolean) | Gets/sets a flag indicating whether this label is hidden. |
 | [isInherited()](#isInherited) |  |
@@ -140,6 +142,21 @@ public void clearFormat()
 
 Clears format of this data label. The properties are set to the default values defined in the parent data label collection.
 
+### fetchSpecialDefaultRunPropertyValue(int key) {#fetchSpecialDefaultRunPropertyValue-int}
+```
+public Object fetchSpecialDefaultRunPropertyValue(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
 ### generateItemText() {#generateItemText}
 ```
 public String generateItemText()
@@ -1050,6 +1067,16 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### isFormatDefined() {#isFormatDefined}
+```
+public boolean isFormatDefined()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isHidden() {#isHidden}
 ```
 public boolean isHidden()

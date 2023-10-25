@@ -42,7 +42,7 @@ Shows how to determine which direction a find-and-replace operation traverses th
 
      // Set the "Direction" property to "FindReplaceDirection.Backward" to get the find-and-replace
      // operation to start from the end of the range, and traverse back to the beginning.
-     // Set the "Direction" property to "FindReplaceDirection.Backward" to get the find-and-replace
+     // Set the "Direction" property to "FindReplaceDirection.Forward" to get the find-and-replace
      // operation to start from the beginning of the range, and traverse to the end.
      options.setDirection(findReplaceDirection);
 
