@@ -5,7 +5,7 @@ articleTitle: RevisionCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.RevisionCollection class. A collection of Revision objects that represent revisions in the document in C#.
 type: docs
-weight: 4770
+weight: 4780
 url: /net/aspose.words/revisioncollection/
 ---
 ## RevisionCollection class
@@ -30,8 +30,10 @@ public class RevisionCollection : IEnumerable<Revision>
 
 | Name | Description |
 | --- | --- |
+| [Accept](../../aspose.words/revisioncollection/accept/)(*[IRevisionCriteria](../irevisioncriteria/)*) | Accepts revisions that match specified criteria. |
 | [AcceptAll](../../aspose.words/revisioncollection/acceptall/)() | Accepts all revisions in this collection. |
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | Returns an enumerator object. |
+| [Reject](../../aspose.words/revisioncollection/reject/)(*[IRevisionCriteria](../irevisioncriteria/)*) | Rejects revisions that match specified criteria. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | Rejects all revisions in this collection. |
 
 ## Remarks

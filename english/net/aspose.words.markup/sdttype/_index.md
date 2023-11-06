@@ -5,7 +5,7 @@ articleTitle: SdtType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.SdtType enum. Specifies the type of a structured document tag SDT node in C#.
 type: docs
-weight: 4040
+weight: 4050
 url: /net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
@@ -39,6 +39,27 @@ public enum SdtType
 | EntityPicker | `16` | The SDT represents an entity picker that allows the user to select an instance of an external content type. |
 
 ## Examples
+
+Shows how to create a structured document tag of the Citation type.
+
+```csharp
+Document doc = new Document();
+
+StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.Citation, MarkupLevel.Inline);
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+paragraph.AppendChild(sdt);
+
+// Create a Citation field.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.MoveToParagraph(0, -1);
+builder.InsertField(@"CITATION Ath22 \l 1033 ", "(John Lennon, 2022)");
+
+// Move the field to the structured document tag.
+while (sdt.NextSibling != null)
+    sdt.AppendChild(sdt.NextSibling);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.Citation.docx");
+```
 
 Shows how to create group structured document tag at the Row level.
 

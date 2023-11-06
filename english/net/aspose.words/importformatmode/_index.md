@@ -5,7 +5,7 @@ articleTitle: ImportFormatMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.ImportFormatMode enum. Specifies how formatting is merged when importing content from another document in C#.
 type: docs
-weight: 3230
+weight: 3240
 url: /net/aspose.words/importformatmode/
 ---
 ## ImportFormatMode enumeration
@@ -32,7 +32,7 @@ The formatting is resolved as follows:
 
 1. Built-in styles are matched using their locale independent style identifier. User defined styles are matched using case-sensitive style name.
 2. If a matching style is not found in the destination document, the style (and all styles referenced by it) are copied into the destination document and the imported nodes are updated to reference the new style.
-3. If a matching style already exists in the destination document, what happens depends on the `importFormatMode` parameter passed to [`Document.ImportNode`](../documentbase/importnode/) as described below.
+3. If a matching style already exists in the destination document, what happens depends on the `importFormatMode` parameter passed to [`ImportNode`](../documentbase/importnode/) as described below.
 
 When using the UseDestinationStyles option, if a matching style already exists in the destination document, the style is not copied and the imported nodes are updated to reference the existing style.
 

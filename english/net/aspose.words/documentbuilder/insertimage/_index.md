@@ -36,21 +36,21 @@ Shows how to insert an image from an object into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
 // Below are three ways of inserting an image from an Image object instance.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
-builder.InsertImage(image);
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
@@ -299,66 +299,24 @@ Shows how to insert an image from a byte array into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = File.ReadAllBytes(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// Below are three ways of inserting an image from a byte array.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.InsertImage(imageByteArray);
 
-    // Below are three ways of inserting an image from a byte array.
-    // 1 -  Inline shape with a default size based on the image's original dimensions:
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 -  Inline shape with custom dimensions:
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 -  Inline shape with custom dimensions:
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 -  Floating shape with custom dimensions:
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 -  Floating shape with custom dimensions:
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-Shows how to insert an image from a byte array into a document (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Decoding the image will convert it to the .png format.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // Below are three ways of inserting an image from a byte array.
-            // 1 -  Inline shape with a default size based on the image's original dimensions:
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 -  Inline shape with custom dimensions:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 -  Floating shape with custom dimensions:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### See Also
@@ -400,52 +358,24 @@ Shows how to insert an image from an object into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
 // Below are three ways of inserting an image from an Image object instance.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
-builder.InsertImage(image);
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-Shows how to insert an image from an object into a document (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Decoding the image will convert it to the .png format.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // Below are three ways of inserting an image from an Image object instance.
-    // 1 -  Inline shape with a default size based on the image's original dimensions:
-    builder.InsertImage(bitmap);
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 2 -  Inline shape with custom dimensions:
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 -  Floating shape with custom dimensions:
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### See Also
@@ -605,66 +535,24 @@ Shows how to insert an image from a byte array into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = File.ReadAllBytes(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// Below are three ways of inserting an image from a byte array.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.InsertImage(imageByteArray);
 
-    // Below are three ways of inserting an image from a byte array.
-    // 1 -  Inline shape with a default size based on the image's original dimensions:
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 -  Inline shape with custom dimensions:
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 -  Inline shape with custom dimensions:
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 -  Floating shape with custom dimensions:
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 -  Floating shape with custom dimensions:
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-Shows how to insert an image from a byte array into a document (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Decoding the image will convert it to the .png format.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // Below are three ways of inserting an image from a byte array.
-            // 1 -  Inline shape with a default size based on the image's original dimensions:
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 -  Inline shape with custom dimensions:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 -  Floating shape with custom dimensions:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### See Also
@@ -712,52 +600,24 @@ Shows how to insert an image from an object into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
 // Below are three ways of inserting an image from an Image object instance.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
-builder.InsertImage(image);
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-Shows how to insert an image from an object into a document (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Decoding the image will convert it to the .png format.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // Below are three ways of inserting an image from an Image object instance.
-    // 1 -  Inline shape with a default size based on the image's original dimensions:
-    builder.InsertImage(bitmap);
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 2 -  Inline shape with custom dimensions:
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 -  Floating shape with custom dimensions:
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### See Also
@@ -981,66 +841,24 @@ Shows how to insert an image from a byte array into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = File.ReadAllBytes(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// Below are three ways of inserting an image from a byte array.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.InsertImage(imageByteArray);
 
-    // Below are three ways of inserting an image from a byte array.
-    // 1 -  Inline shape with a default size based on the image's original dimensions:
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 -  Inline shape with custom dimensions:
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 -  Inline shape with custom dimensions:
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 -  Floating shape with custom dimensions:
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 -  Floating shape with custom dimensions:
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-Shows how to insert an image from a byte array into a document (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Decoding the image will convert it to the .png format.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // Below are three ways of inserting an image from a byte array.
-            // 1 -  Inline shape with a default size based on the image's original dimensions:
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 -  Inline shape with custom dimensions:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 -  Floating shape with custom dimensions:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### See Also

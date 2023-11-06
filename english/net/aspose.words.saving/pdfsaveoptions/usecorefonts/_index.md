@@ -46,18 +46,12 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
-
 // Set the "UseCoreFonts" property to "true" to replace some fonts,
 // including the two fonts in our document, with their PDF Type 1 equivalents.
 // Set the "UseCoreFonts" property to "false" to not apply PDF Type 1 fonts.
 options.UseCoreFonts = useCoreFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf", options);
-
-if (useCoreFonts)
-    Assert.That(3000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf").Length));
-else
-    Assert.That(30000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf").Length));
 ```
 
 ### See Also

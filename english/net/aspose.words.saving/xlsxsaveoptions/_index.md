@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the Xlsx format in C#.
 type: docs
-weight: 5710
+weight: 5720
 url: /net/aspose.words.saving/xlsxsaveoptions/
 ---
 ## XlsxSaveOptions class
@@ -41,6 +41,7 @@ public class XlsxSaveOptions : SaveOptions
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
 | override [SaveFormat](../../aspose.words.saving/xlsxsaveoptions/saveformat/) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Xlsx. |
+| [SectionMode](../../aspose.words.saving/xlsxsaveoptions/sectionmode/) { get; set; } | Gets or sets the way how sections are handled when saving to the output XLSX document. The default value is MultipleWorksheets. |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used. |
 | [UpdateCreatedTimeProperty](../../aspose.words.saving/saveoptions/updatecreatedtimeproperty/) { get; set; } | Gets or sets a value determining whether the [`CreatedTime`](../../aspose.words.properties/builtindocumentproperties/createdtime/) property is updated before saving. Default value is `false`; |
 | [UpdateFields](../../aspose.words.saving/saveoptions/updatefields/) { get; set; } | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is `true`. |

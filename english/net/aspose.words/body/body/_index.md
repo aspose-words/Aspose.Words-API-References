@@ -24,7 +24,7 @@ public Body(DocumentBase doc)
 
 When [`Body`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode/) is `null`.
 
-To append [`Body`](../) to a [`Section`](../../section/) use [`AppendChild`](../../compositenode/appendchild/), [`InsertAfter`](../../compositenode/insertafter/) or [`InsertBefore`](../../compositenode/insertbefore/) methods.
+To append [`Body`](../) to a [`Section`](../../section/) use [`AppendChild`](../../compositenode/appendchild/)[`InsertAfter`](../../compositenode/insertafter/) or [`InsertBefore`](../../compositenode/insertbefore/) methods.
 
 ## Examples
 

@@ -5,7 +5,7 @@ articleTitle: TxtLeadingSpacesOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.TxtLeadingSpacesOptions enum. Specifies available options for leading space handling during import from Text file in C#.
 type: docs
-weight: 3720
+weight: 3730
 url: /net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration
@@ -20,9 +20,9 @@ public enum TxtLeadingSpacesOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ConvertToIndent | `0` |  |
-| Trim | `1` |  |
-| Preserve | `2` |  |
+| ConvertToIndent | `0` | Leading spaces are removed and converted to left indent. |
+| Trim | `1` | Leading spaces are trimmed |
+| Preserve | `2` | Leading spaces are preserved. |
 
 ## Examples
 

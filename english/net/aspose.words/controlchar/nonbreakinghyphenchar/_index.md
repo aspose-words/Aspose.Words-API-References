@@ -10,7 +10,7 @@ url: /net/aspose.words/controlchar/nonbreakinghyphenchar/
 ---
 ## ControlChar.NonBreakingHyphenChar field
 
-Nonbreaking Hyphen in Microsoft Word is (char)30.
+Non-breaking Hyphen in Microsoft Word is (char)30.
 
 ```csharp
 public const char NonBreakingHyphenChar;
@@ -18,7 +18,7 @@ public const char NonBreakingHyphenChar;
 
 ## Remarks
 
-Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
+Non-breaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
 
 Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 

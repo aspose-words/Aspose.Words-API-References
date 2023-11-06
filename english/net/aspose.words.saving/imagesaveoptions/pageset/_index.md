@@ -53,7 +53,6 @@ Assert.AreEqual(3, doc.PageCount);
 // When we save the document as an image, Aspose.Words only renders the first page by default.
 // We can pass a SaveOptions object to specify a different page to render.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Gif);
-
 // Render every page of the document to a separate image file.
 for (int i = 1; i <= doc.PageCount; i++)
 {
@@ -109,7 +108,6 @@ builder.Writeln("Page 3.");
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // Set the "PageSet" to "1" to select the second page via
 // the zero-based index to start rendering the document from.
 options.PageSet = new PageSet(1);

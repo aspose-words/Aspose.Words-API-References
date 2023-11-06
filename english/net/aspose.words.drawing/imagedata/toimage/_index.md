@@ -42,11 +42,9 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 
     while (enumerator.MoveNext())
     {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
+        ImageData imageData = enumerator.Current.ImageData;                    
 
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
+        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{imageData.ImageType}"))
             imageData.Save(fileStream);
     }
 }

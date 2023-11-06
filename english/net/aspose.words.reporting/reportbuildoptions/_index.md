@@ -5,7 +5,7 @@ articleTitle: ReportBuildOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.ReportBuildOptions enum. Specifies options controlling behavior of ReportingEngine while building a report in C#.
 type: docs
-weight: 4720
+weight: 4730
 url: /net/aspose.words.reporting/reportbuildoptions/
 ---
 ## ReportBuildOptions enumeration
@@ -27,6 +27,7 @@ public enum ReportBuildOptions
 | InlineErrorMessages | `4` | Specifies that the engine should inline template syntax error messages into output documents. If this option is not set, the engine throws an exception when encounters a syntax error. |
 | UseLegacyHeaderFooterVisiting | `8` | Specifies that the engine should visit section child nodes (headers, footers, bodies) in an order compatible with Aspose.Words versions prior 21.9. |
 | RespectJpegExifOrientation | `10` | Specifies that the engine should use EXIF ​​image orientation values to appropriately rotate inserted JPEG images. |
+| UpdateFieldsSyntaxAware | `20` | Specifies that the engine should ignore template syntax in field results and update fields after a report is built. |
 
 ### See Also
 

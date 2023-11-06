@@ -5,14 +5,12 @@ articleTitle: Metered
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Metered class. Provides methods to set metered key in C#.
 type: docs
-weight: 4160
+weight: 4170
 url: /net/aspose.words/metered/
 ---
 ## Metered class
 
 Provides methods to set metered key.
-
-To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/net/licensing/) documentation article.
 
 ```csharp
 public class Metered
@@ -28,9 +26,11 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
+| [GetProductName](../../aspose.words/metered/getproductname/)() |  |
 | [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Gets consumption credit |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Gets consumption file size |
+| static [IsMeteredLicensed](../../aspose.words/metered/ismeteredlicensed/)() | Check whether metered is licensed |
 
 ## Examples
 

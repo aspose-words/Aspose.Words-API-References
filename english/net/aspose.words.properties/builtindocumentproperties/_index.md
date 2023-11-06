@@ -5,7 +5,7 @@ articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Properties.BuiltInDocumentProperties class. A collection of builtin document properties in C#.
 type: docs
-weight: 4450
+weight: 4460
 url: /net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
@@ -29,8 +29,8 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [CharactersWithSpaces](../../aspose.words.properties/builtindocumentproperties/characterswithspaces/) { get; set; } | Represents an estimate of the number of characters (including spaces) in the document. |
 | [Comments](../../aspose.words.properties/builtindocumentproperties/comments/) { get; set; } | Gets or sets the document comments. |
 | [Company](../../aspose.words.properties/builtindocumentproperties/company/) { get; set; } | Gets or sets the company property. |
-| [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus/) { get; set; } | Gets or sets the ContentStatus of the document. |
-| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Gets or sets the ContentType of the document. |
+| [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus/) { get; set; } | Gets or sets the content status of the document. |
+| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Gets or sets the content type of the document. |
 | [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Gets number of items in the collection. |
 | [CreatedTime](../../aspose.words.properties/builtindocumentproperties/createdtime/) { get; set; } | Gets or sets date of the document creation in UTC. |
 | [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs/) { get; set; } | Specifies document headings and their names. |

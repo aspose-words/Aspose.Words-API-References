@@ -5,7 +5,7 @@ articleTitle: ColorPrintMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Rendering.ColorPrintMode enum. Specifies how noncolored pages are printed if the device supports color printing in C#.
 type: docs
-weight: 4540
+weight: 4550
 url: /net/aspose.words.rendering/colorprintmode/
 ---
 ## ColorPrintMode enumeration
