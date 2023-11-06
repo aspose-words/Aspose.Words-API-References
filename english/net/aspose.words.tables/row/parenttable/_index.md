@@ -16,10 +16,6 @@ Returns the immediate parent table of the row.
 public Table ParentTable { get; }
 ```
 
-## Remarks
-
-Equivalent to FirstNonMarkupParentNode casted to [`Table`](../../table/).
-
 ## Examples
 
 Shows how to print the node structure of every table in a document.

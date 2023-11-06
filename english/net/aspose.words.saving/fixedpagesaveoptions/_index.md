@@ -5,7 +5,7 @@ articleTitle: FixedPageSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.FixedPageSaveOptions class. Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc in C#.
 type: docs
-weight: 5020
+weight: 5030
 url: /net/aspose.words.saving/fixedpagesaveoptions/
 ---
 ## FixedPageSaveOptions class
@@ -103,7 +103,6 @@ builder.Writeln("Page 3.");
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // Set the "PageSet" to "1" to select the second page via
 // the zero-based index to start rendering the document from.
 options.PageSet = new PageSet(1);

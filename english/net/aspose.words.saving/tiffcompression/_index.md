@@ -5,7 +5,7 @@ articleTitle: TiffCompression
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.TiffCompression enum. Specifies what type of compression to apply when saving page images into a TIFF file in C#.
 type: docs
-weight: 5630
+weight: 5640
 url: /net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
@@ -32,46 +32,22 @@ Shows how to select the compression scheme to apply to a document that we conver
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
-            // to modify the way in which that method renders the document into an image.
-            ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// Set the "TiffCompression" property to "TiffCompression.None" to apply no compression while saving,
+// which may result in a very large output file.
+// Set the "TiffCompression" property to "TiffCompression.Rle" to apply RLE compression
+// Set the "TiffCompression" property to "TiffCompression.Lzw" to apply LZW compression.
+// Set the "TiffCompression" property to "TiffCompression.Ccitt3" to apply CCITT3 compression.
+// Set the "TiffCompression" property to "TiffCompression.Ccitt4" to apply CCITT4 compression.
+options.TiffCompression = tiffCompression;
 
-            // Set the "TiffCompression" property to "TiffCompression.None" to apply no compression while saving,
-            // which may result in a very large output file.
-            // Set the "TiffCompression" property to "TiffCompression.Rle" to apply RLE compression
-            // Set the "TiffCompression" property to "TiffCompression.Lzw" to apply LZW compression.
-            // Set the "TiffCompression" property to "TiffCompression.Ccitt3" to apply CCITT3 compression.
-            // Set the "TiffCompression" property to "TiffCompression.Ccitt4" to apply CCITT4 compression.
-            options.TiffCompression = tiffCompression;
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
-
-            switch (tiffCompression)
-            {
-                case TiffCompression.None:
-                    Assert.That(3000000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Rle:
-#if NET5_0_OR_GREATER
-                    Assert.That(6000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#else
-                    Assert.That(600000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#endif
-                    break;
-                case TiffCompression.Lzw:
-                    Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt3:
-                    Assert.That(90000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt4:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-            }
+doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
 ```
 
 ### See Also

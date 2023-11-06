@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.StructuredDocumentTagRangeStart class. Represents a start of ranged structured document tag which accepts multisections content. See also StructuredDocumentTagRangeEnd in C#.
 type: docs
-weight: 4090
+weight: 4100
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
@@ -51,6 +51,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [Tag](../../aspose.words.markup/structureddocumenttagrangestart/tag/) { get; set; } | Specifies a tag associated with the current structured document tag node. Can not be `null`. |
 | [Title](../../aspose.words.markup/structureddocumenttagrangestart/title/) { get; set; } | Specifies the friendly name associated with this structured document tag. Can not be `null`. |
 | [WordOpenXML](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxml/) { get; } | Gets a string that represents the XML contained within the node in the FlatOpc format. |
+| [WordOpenXMLMinimal](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxmlminimal/) { get; } | Gets a string that represents the XML contained within the node in the FlatOpc format. Unlike the [`WordOpenXML`](./wordopenxml/) property, this method generates a stripped-down document that excludes any non-content-related parts. |
 | [XmlMapping](../../aspose.words.markup/structureddocumenttagrangestart/xmlmapping/) { get; } | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 
 ## Methods

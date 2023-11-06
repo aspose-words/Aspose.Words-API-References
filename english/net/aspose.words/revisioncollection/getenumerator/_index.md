@@ -5,7 +5,7 @@ articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
 description: RevisionCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words/revisioncollection/getenumerator/
 ---
 ## RevisionCollection.GetEnumerator method

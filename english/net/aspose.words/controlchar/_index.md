@@ -37,7 +37,7 @@ public static class ControlChar
 | const [LineBreakChar](../../aspose.words/controlchar/linebreakchar/) | Line break character: (char)11 or "\v". |
 | static readonly [LineFeed](../../aspose.words/controlchar/linefeed/) | Line feed character: "\x000a" or "\n". Same as [`Lf`](./lf/). |
 | const [LineFeedChar](../../aspose.words/controlchar/linefeedchar/) | Line feed character: (char)10 or "\n". |
-| const [NonBreakingHyphenChar](../../aspose.words/controlchar/nonbreakinghyphenchar/) | Nonbreaking Hyphen in Microsoft Word is (char)30. |
+| const [NonBreakingHyphenChar](../../aspose.words/controlchar/nonbreakinghyphenchar/) | Non-breaking Hyphen in Microsoft Word is (char)30. |
 | static readonly [NonBreakingSpace](../../aspose.words/controlchar/nonbreakingspace/) | Non-breaking space character: "\x00a0". |
 | const [NonBreakingSpaceChar](../../aspose.words/controlchar/nonbreakingspacechar/) | Non-breaking space character: (char)160. |
 | const [OptionalHyphenChar](../../aspose.words/controlchar/optionalhyphenchar/) | Optional Hyphen in Microsoft Word is (char)31. |

@@ -27,9 +27,15 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 
 The created [`Comment`](../) node for the reply.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Throws if this method is called on the existing Reply comment. |
+
 ## Remarks
 
-Due to the existing MS Office limitations only 1 level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
+Due to the existing MS Office limitations only 1 level of replies is allowed in the document.
 
 ## Examples
 

@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTag
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.StructuredDocumentTag class. Represents a structured document tag SDT or content control in a document in C#.
 type: docs
-weight: 4060
+weight: 4070
 url: /net/aspose.words.markup/structureddocumenttag/
 ---
 ## StructuredDocumentTag class
@@ -37,7 +37,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [ContentsFont](../../aspose.words.markup/structureddocumenttag/contentsfont/) { get; } | Font formatting that will be applied to text entered into **SDT**. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
-| [DateDisplayFormat](../../aspose.words.markup/structureddocumenttag/datedisplayformat/) { get; set; } | String that represents the format in which dates are displayed. Can not be `null`. The dates for English (U.S.) is "mm/dd/yyyy" |
+| [DateDisplayFormat](../../aspose.words.markup/structureddocumenttag/datedisplayformat/) { get; set; } | String that represents the format in which dates are displayed. |
 | [DateDisplayLocale](../../aspose.words.markup/structureddocumenttag/datedisplaylocale/) { get; set; } | Allows to set/get the language format for the date displayed in this **SDT**. |
 | [DateStorageFormat](../../aspose.words.markup/structureddocumenttag/datestorageformat/) { get; set; } | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is DateTime |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

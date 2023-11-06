@@ -5,7 +5,7 @@ articleTitle: PageInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Rendering.PageInfo class. Represents information about a particular document page in C#.
 type: docs
-weight: 4570
+weight: 4580
 url: /net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class

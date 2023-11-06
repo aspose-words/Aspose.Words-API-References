@@ -52,11 +52,6 @@ options.EmbedFullFonts = embedFullFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf", options);
 
-if (embedFullFonts)
-    Assert.That(500000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
-else
-    Assert.That(25000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
-
 // Restore the original font sources.
 FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ```

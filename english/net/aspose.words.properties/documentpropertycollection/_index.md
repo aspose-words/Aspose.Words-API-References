@@ -5,7 +5,7 @@ articleTitle: DocumentPropertyCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Properties.DocumentPropertyCollection class. Base class for BuiltInDocumentProperties and CustomDocumentProperties collections in C#.
 type: docs
-weight: 4480
+weight: 4490
 url: /net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class

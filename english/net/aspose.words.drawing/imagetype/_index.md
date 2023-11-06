@@ -38,16 +38,8 @@ Shows how to add an image to a shape and check its type.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
-
-using (MemoryStream stream = new MemoryStream(imageBytes))
-{
-    Image image = Image.FromStream(stream);
-
-    // The image in the URL is a .gif. Inserting it into a document converts it into a .png.
-    Shape imgShape = builder.InsertImage(image);
-    Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
-}
+Shape imgShape = builder.InsertImage(ImageDir + "Logo.jpg");
+Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 ```
 
 ### See Also

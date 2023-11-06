@@ -5,7 +5,7 @@ articleTitle: RevisionOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.RevisionOptions class. Allows to control how document revisions are handled during layout process in C#.
 type: docs
-weight: 3390
+weight: 3400
 url: /net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class

@@ -18,7 +18,7 @@ public DateTime DateTime { get; set; }
 
 ## Remarks
 
-Default is MinValue.
+Default is MinValue
 
 ## Examples
 

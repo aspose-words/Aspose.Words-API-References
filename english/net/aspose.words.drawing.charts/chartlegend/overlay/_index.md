@@ -5,7 +5,7 @@ articleTitle: Overlay
 second_title: Aspose.Words for .NET
 description: ChartLegend Overlay property. Determines whether other chart elements shall be allowed to overlap legend. Default value is false in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property

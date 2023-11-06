@@ -34,29 +34,19 @@ Shows how to choose a renderer when converting a document to .emf.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
-            builder.Writeln("Hello world!");
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
+builder.Writeln("Hello world!");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // When we save the document as an EMF image, we can pass a SaveOptions object to select a renderer for the image.
-            // If we set the "UseGdiEmfRenderer" flag to "true", Aspose.Words will use the GDI+ renderer.
-            // If we set the "UseGdiEmfRenderer" flag to "false", Aspose.Words will use its own metafile renderer.
-            ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Emf);
-            saveOptions.UseGdiEmfRenderer = useGdiEmfRenderer;
+// When we save the document as an EMF image, we can pass a SaveOptions object to select a renderer for the image.
+// If we set the "UseGdiEmfRenderer" flag to "true", Aspose.Words will use the GDI+ renderer.
+// If we set the "UseGdiEmfRenderer" flag to "false", Aspose.Words will use its own metafile renderer.
+ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Emf);
+saveOptions.UseGdiEmfRenderer = useGdiEmfRenderer;
 
-            doc.Save(ArtifactsDir + "ImageSaveOptions.Renderer.emf", saveOptions);
-
-            // The GDI+ renderer usually creates larger files.
-            if (useGdiEmfRenderer)
-#if NET48 || JAVA
-                Assert.That(300000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));
-#elif NET5_0_OR_GREATER
-                Assert.That(30000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));
-#endif
-            else
-                Assert.That(30000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));
+doc.Save(ArtifactsDir + "ImageSaveOptions.Renderer.emf", saveOptions);
 ```
 
 ### See Also

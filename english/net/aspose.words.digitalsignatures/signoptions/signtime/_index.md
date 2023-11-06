@@ -10,7 +10,7 @@ url: /net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-The date of signing. Default value is **current time** (Now).
+The date of signing. Default value is **current time** (Now)
 
 ```csharp
 public DateTime SignTime { get; set; }

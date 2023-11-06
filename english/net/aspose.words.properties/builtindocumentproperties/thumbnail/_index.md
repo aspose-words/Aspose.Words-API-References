@@ -16,11 +16,17 @@ Gets or sets the thumbnail of the document.
 public byte[] Thumbnail { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown if the image is invalid or its format is unsupported for specific format of document. |
+
 ## Remarks
 
 For now this property is used only when a document is being exported to ePub, it's not read from and written to other document formats.
 
-Image of arbitrary format can be set to this property, but the format is checked during export. InvalidOperationException is thrown if the image is invalid or its format is unsupported for specific format of document.
+Image of arbitrary format can be set to this property, but the format is checked during export.
 
 Only gif, jpeg and png images can be used for ePub publication.
 

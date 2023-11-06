@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### See Also
