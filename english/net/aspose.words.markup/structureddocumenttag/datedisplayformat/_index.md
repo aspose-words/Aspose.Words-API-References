@@ -3,20 +3,24 @@ title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag DateDisplayFormat property. String that represents the format in which dates are displayed. Can not be null. The dates for English U.S. is mm/dd/yyyy in C#.
+description: StructuredDocumentTag DateDisplayFormat property. String that represents the format in which dates are displayed in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-String that represents the format in which dates are displayed. Can not be `null`. The dates for English (U.S.) is "mm/dd/yyyy"
+String that represents the format in which dates are displayed.
 
 ```csharp
 public string DateDisplayFormat { get; set; }
 ```
 
 ## Remarks
+
+Can not be `null`.
+
+The dates for English (U.S.) is "mm/dd/yyyy"
 
 Accessing this property will only work for Date SDT type.
 

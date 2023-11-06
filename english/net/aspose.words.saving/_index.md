@@ -110,3 +110,4 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [TableContentAlignment](./tablecontentalignment/) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving page images into a TIFF file. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Specifies the way headers and footers are exported to plain text format. |
+| [XlsxSectionMode](./xlsxsectionmode/) | Specifies how sections are handled when saving a document in the XLSX format. |

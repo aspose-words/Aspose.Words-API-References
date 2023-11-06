@@ -26,56 +26,25 @@ Shows how to specify a resolution while rendering a document to PNG.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.Font.Name = "Times New Roman";
-            builder.Font.Size = 24;
-            builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder.Font.Name = "Times New Roman";
+builder.Font.Size = 24;
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
-            // to modify the way in which that method renders the document into an image.
-            ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 
-            // Set the "Resolution" property to "72" to render the document in 72dpi.
-            options.Resolution = 72;
+// Set the "Resolution" property to "72" to render the document in 72dpi.
+options.Resolution = 72;
+doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
 
-            doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
-
-            Assert.That(120000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png").Length));
-
-#if NET48 || JAVA
-            Image image = Image.FromFile(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png");
-
-            Assert.AreEqual(612, image.Width);
-            Assert.AreEqual(792, image.Height);
-#elif NET5_0_OR_GREATER || __MOBILE__
-            using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png")) 
-            {
-                Assert.AreEqual(612, image.Width);
-                Assert.AreEqual(792, image.Height);
-            }
-#endif
-            // Set the "Resolution" property to "300" to render the document in 300dpi.
-            options.Resolution = 300;
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);
-
-            Assert.That(700000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png").Length));
-
-#if NET48 || JAVA
-            image = Image.FromFile(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png");
-
-            Assert.AreEqual(2550, image.Width);
-            Assert.AreEqual(3300, image.Height);
-#elif NET5_0_OR_GREATER || __MOBILE__
-            using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png")) 
-            {
-                Assert.AreEqual(2550, image.Width);
-                Assert.AreEqual(3300, image.Height);
-            }
-#endif
+// Set the "Resolution" property to "300" to render the document in 300dpi.
+options.Resolution = 300;
+doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);
 ```
 
 ### See Also

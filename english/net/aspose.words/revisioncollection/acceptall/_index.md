@@ -5,7 +5,7 @@ articleTitle: AcceptAll
 second_title: Aspose.Words for .NET
 description: RevisionCollection AcceptAll method. Accepts all revisions in this collection in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method

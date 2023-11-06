@@ -25,7 +25,7 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 
 When [`Footnote`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../../aspose.words/node/parentnode/) is `null`.
 
-To append [`Footnote`](../) to the document use [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) or [`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) on the paragraph where you want the footnote inserted.
+To append [`Footnote`](../) to the document use[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) or [`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) on the paragraph where you want the footnote inserted.
 
 ## Examples
 

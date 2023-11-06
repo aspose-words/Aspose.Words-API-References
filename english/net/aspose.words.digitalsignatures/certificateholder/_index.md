@@ -140,19 +140,22 @@ Shows how to add a signature line to a document, and then sign it using a digita
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
-#if NET48 || JAVA
         /// <summary>
         /// Converts an image to a byte array.
         /// </summary>
-        private static byte[] ImageToByteArray(Image imageIn)
+        private static byte[] ImageToByteArray(string imagePath)
         {
+#if NET461_OR_GREATER || JAVA
+            Image image = Image.FromFile(imagePath);
             using (MemoryStream ms = new MemoryStream())
             {
-                imageIn.Save(ms, ImageFormat.Png);
+                image.Save(ms, ImageFormat.Png);
                 return ms.ToArray();
             }
-        }
+#elif NET5_0_OR_GREATER || __MOBILE__
+            return SkiaSharp.SKBitmap.Decode(imagePath).Bytes;
 #endif
+        }
 
         public class Signee
         {
@@ -172,23 +175,14 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
         private static void CreateSignees()
         {
+            var signImagePath = ImageDir + "Logo.jpg";
+
             mSignees = new List<Signee>
             {
-                #if NET48 || JAVA
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer",
-                    ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg"))),
-                #elif NET5_0_OR_GREATER || __MOBILE__
-                new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer", 
-                    SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes),
-                #endif
-
-                #if NET48 || JAVA
+                    ImageToByteArray(signImagePath)),                
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance",
-                    ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg")))
-                #elif NET5_0_OR_GREATER || __MOBILE__
-                new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance", 
-                    SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes)
-                #endif
+                    ImageToByteArray(signImagePath))                
             };
         }
 

@@ -34,13 +34,11 @@ Shows how to perform interpolation on images while saving a document to PDF.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
-builder.InsertImage(img);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Set the "InterpolateImages" property to "true" to get the reader that opens this document to interpolate images.
 // Their resolution should be lower than that of the device that is displaying the document.
 // Set the "InterpolateImages" property to "false" to make it so that the reader does not apply any interpolation.
@@ -49,29 +47,6 @@ saveOptions.InterpolateImages = interpolateImages;
 // When we open this document with a reader such as Adobe Acrobat, we will need to zoom in on the image
 // to see the interpolation effect if we saved the document with it enabled.
 doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImages.pdf", saveOptions);
-```
-
-Shows how to improve the quality of an image in the rendered documents (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
-    builder.InsertImage(image);
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// Set the "InterpolateImages" property to "true" to get the reader that opens this document to interpolate images.
-// Their resolution should be lower than that of the device that is displaying the document.
-// Set the "InterpolateImages" property to "false" to make it so that the reader does not apply any interpolation.
-saveOptions.InterpolateImages = interpolateImages;
-
-// When we open this document with a reader such as Adobe Acrobat, we will need to zoom in on the image
-// to see the interpolation effect if we saved the document with it enabled.
-doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", saveOptions);
 ```
 
 ### See Also

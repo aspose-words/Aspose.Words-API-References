@@ -5,7 +5,7 @@ articleTitle: TxtLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.TxtLoadOptions class. Allows to specify additional options when loading Text document into a Document object in C#.
 type: docs
-weight: 3730
+weight: 3740
 url: /net/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -30,7 +30,7 @@ public class TxtLoadOptions : LoadOptions
 | --- | --- |
 | [AutoNumberingDetection](../../aspose.words.loading/txtloadoptions/autonumberingdetection/) { get; set; } | Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is `true`. |
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri/) { get; set; } | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be `null` or empty string. Default is `null`. |
-| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format. |
+| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath/) { get; set; } | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |
 | [DetectHyperlinks](../../aspose.words.loading/txtloadoptions/detecthyperlinks/) { get; set; } | Specifies either to detect hyperlinks in text. The default value is `false`. |
 | [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) { get; set; } | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is `true`. |

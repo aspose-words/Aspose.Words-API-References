@@ -200,7 +200,6 @@ builder.Writeln("Page 3.");
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // Set the "PageSet" to "1" to select the second page via
 // the zero-based index to start rendering the document from.
 options.PageSet = new PageSet(1);
@@ -221,22 +220,15 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
 // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
 imageOptions.JpegQuality = 10;
-
-doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
-
-Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
+doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);            
 
 // Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
 // This will improve the quality of the image at the cost of an increased file size.
 imageOptions.JpegQuality = 100;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-
-Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg").Length));
 ```
 
 Shows how to convert a whole document to PDF with three levels in the document outline.
@@ -348,7 +340,7 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
@@ -363,7 +355,7 @@ Document doc = new Document();
                     Assert.AreEqual(1056, image.Height);
                 }
             }
-#elif NET5_0_OR_GREATER || __MOBILE__
+#elif NET5_0_OR_GREATER
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
@@ -451,9 +443,53 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 
 ## Save(*HttpResponse, string, [ContentDisposition](../../contentdisposition/), [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_5}
 
+Sends the document to the client browser.
+
 ```csharp
 public SaveOutputParameters Save(HttpResponse response, string fileName, 
     ContentDisposition contentDisposition, SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| response | HttpResponse | Response object where to save the document. |
+| fileName | String | The name for the document that will appear at the client browser. The name should not contain path. |
+| contentDisposition | ContentDisposition | A [`ContentDisposition`](../../contentdisposition/) value that specifies how the document is presented at the client browser. |
+| saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be `null`. |
+
+### Return Value
+
+Additional information that you can optionally use.
+
+## Remarks
+
+Internally, this method saves to a memory stream first and then copies to the response stream because the response stream does not support seek.
+
+## Examples
+
+Shows how to perform a mail merge, and then save the document to the client browser.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertField(" MERGEFIELD FullName ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD Company ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD Address ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD City ");
+
+doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
+    new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
+
+// Send the document to the client browser.
+Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
+    Throws.TypeOf<ArgumentNullException>()); //Thrown because HttpResponse is null in the test.
+
+// We will need to close this response manually to ensure that we do not add any superfluous content to the document after saving.
+Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ```
 
 ### See Also

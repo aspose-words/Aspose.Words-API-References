@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a Document object in C#.
 type: docs
-weight: 3620
+weight: 3630
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -32,7 +32,7 @@ public class HtmlLoadOptions : LoadOptions
 | --- | --- |
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri/) { get; set; } | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be `null` or empty string. Default is `null`. |
 | [BlockImportMode](../../aspose.words.loading/htmlloadoptions/blockimportmode/) { get; set; } | Gets or sets a value that specifies how properties of block-level elements are imported. Default value is Merge. |
-| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format. |
+| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath/) { get; set; } | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |
 | [ConvertSvgToEmf](../../aspose.words.loading/htmlloadoptions/convertsvgtoemf/) { get; set; } | Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is `false` and, if possible, loaded SVG images are stored as is without conversion. |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding/) { get; set; } | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be `null`. Default is `null`. |

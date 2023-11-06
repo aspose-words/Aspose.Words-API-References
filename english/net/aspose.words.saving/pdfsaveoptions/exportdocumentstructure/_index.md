@@ -39,7 +39,6 @@ builder.Write(
 // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
-
 // Set the "ExportDocumentStructure" property to "true" to make the document structure, such tags, available via the
 // "Content" navigation pane of Adobe Acrobat at the cost of increased file size.
 // Set the "ExportDocumentStructure" property to "false" to not export the document structure.
