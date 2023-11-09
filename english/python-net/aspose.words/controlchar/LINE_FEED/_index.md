@@ -15,6 +15,13 @@ Line feed character: "\\x000a" or "\\n". Same as [ControlChar.LF](../LF/).
 
 
 
+```python
+@property
+def LINE_FEED(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/entry_level_range/
 Gets or sets a range of levels of the table of contents entries to be included.
 
 
+```python
+@property
+def entry_level_range(self) -> str:
+    ...
+
+@entry_level_range.setter
+def entry_level_range(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.

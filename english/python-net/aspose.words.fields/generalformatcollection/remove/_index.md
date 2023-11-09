@@ -21,7 +21,7 @@ def remove(self, item: aspose.words.fields.GeneralFormat):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [GeneralFormat](../../generalformat/) |  |
+| item | [GeneralFormat](../../generalformat/) | A general format. |
 
 ### Examples
 

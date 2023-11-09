@@ -22,7 +22,7 @@ def append_paragraph(self, text: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | str |  |
+| text | str | The text for the paragraph. Can be ``None`` or empty string. |
 
 ### Returns
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/last_saved_by
 
 Gets or sets the name of the last author.
 
+
+```python
+@property
+def last_saved_by(self) -> str:
+    ...
+
+@last_saved_by.setter
+def last_saved_by(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words does not update this property.
 
 

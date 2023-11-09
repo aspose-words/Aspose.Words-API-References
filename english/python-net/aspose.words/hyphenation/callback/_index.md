@@ -15,6 +15,17 @@ Gets or sets callback interface used to request dictionaries when page layout of
 This allows delay loading of dictionaries which may be useful when processing documents in many languages.
 
 
+```python
+@property
+def callback(self) -> aspose.words.IHyphenationCallback:
+    ...
+
+@callback.setter
+def callback(self, value: aspose.words.IHyphenationCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

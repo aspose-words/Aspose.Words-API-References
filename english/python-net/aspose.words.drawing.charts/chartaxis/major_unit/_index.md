@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/major_unit/
 
 Returns or sets the distance between major tick marks.
 
+
+```python
+@property
+def major_unit(self) -> float:
+    ...
+
+@major_unit.setter
+def major_unit(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Valid range of a value is greater than zero. The property has effect for time category and 
 value axes.
 

@@ -15,6 +15,20 @@ Allows to specify the color to be used for side bars that identify document line
 Default value is [RevisionColor.RED](../../revisioncolor/#RED).
 
 
+
+```python
+@property
+def revision_bars_color(self) -> aspose.words.layout.RevisionColor:
+    ...
+
+@revision_bars_color.setter
+def revision_bars_color(self, value: aspose.words.layout.RevisionColor):
+    ...
+
+```
+
+### Remarks
+
 Setting this property  to [RevisionColor.BY_AUTHOR](../../revisioncolor/#BY_AUTHOR) or [RevisionColor.NO_HIGHLIGHT](../../revisioncolor/#NO_HIGHLIGHT) values
 will result in hiding revision bars from the layout.
 

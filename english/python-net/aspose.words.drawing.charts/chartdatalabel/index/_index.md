@@ -16,6 +16,13 @@ This index shall determine which of the parent's children collection this elemen
 Default value is 0.
 
 
+```python
+@property
+def index(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

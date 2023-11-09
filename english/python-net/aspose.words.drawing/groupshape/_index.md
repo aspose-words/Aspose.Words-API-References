@@ -17,6 +17,8 @@ To learn more, visit the [How to Add Group Shape into a Word Document](https://d
 
 
 
+### Remarks
+
 A [GroupShape](./) is a composite node and can have [Shape](../shape/) and
 [GroupShape](./) nodes as children.
 
@@ -124,7 +126,7 @@ The coordinate system is defined using the [ShapeBase.coord_size](../shapebase/c
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ fetch_inherited_shape_attr(key)](../shapebase/fetch_inherited_shape_attr/#int) | Reserved for system use. IShapeAttrSource.<br>(Inherited from [ShapeBase](../shapebase/)) |
 |[ fetch_shape_attr(key)](../shapebase/fetch_shape_attr/#int) | Reserved for system use. IShapeAttrSource.<br>(Inherited from [ShapeBase](../shapebase/)) |
-|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child(node_type, index, is_deep)](../../aspose.words/compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../../aspose.words/compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

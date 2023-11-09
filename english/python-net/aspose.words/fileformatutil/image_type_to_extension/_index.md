@@ -27,7 +27,7 @@ def image_type_to_extension(self, image_type: aspose.words.drawing.ImageType):
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentException | Throws when cannot convert. |
+| RuntimeError (Proxy error(ArgumentException)) | Throws when cannot convert. |
 
 ### Examples
 

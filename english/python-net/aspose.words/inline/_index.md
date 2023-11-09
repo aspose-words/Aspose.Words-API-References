@@ -5,7 +5,7 @@ articleTitle: Inline class
 second_title: Aspose.Words for Python
 description: "aspose.words.Inline class. Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own"
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.words/inline/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.as
 
 
 
+
+### Remarks
 
 A class derived from [Inline](./) can be a child of [Paragraph](../paragraph/).
 
@@ -50,7 +52,7 @@ A class derived from [Inline](./) can be a child of [Paragraph](../paragraph/).
 | --- | --- |
 |[ accept(visitor)](../node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../node/)) |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
-|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_text()](../node/get_text/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../node/)) |
 |[ next_pre_order(root_node)](../node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |

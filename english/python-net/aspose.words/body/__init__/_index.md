@@ -22,13 +22,16 @@ def __init__(self, doc: aspose.words.DocumentBase):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../documentbase/) |  |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+
+### Remarks
 
 When [Body](../) is created, it belongs to the specified document, but is not 
 yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
-To append [Body](../) to a [Section](../../section/) use [CompositeNode.append_child()](../../compositenode/append_child/#node),
-[CompositeNode.insert_after()](../../compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node) methods.
+To append [Body](../) to a [Section](../../section/) use [CompositeNode.append_child()](../../compositenode/append_child/#node)
+[CompositeNode.insert_after()](../../compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node)
+methods.
 
 
 

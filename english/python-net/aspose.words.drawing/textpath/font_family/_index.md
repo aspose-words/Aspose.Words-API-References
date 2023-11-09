@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/font_family/
 
 Defines the family of the textpath font.
 
+
+```python
+@property
+def font_family(self) -> str:
+    ...
+
+@font_family.setter
+def font_family(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is Arial.
 
 

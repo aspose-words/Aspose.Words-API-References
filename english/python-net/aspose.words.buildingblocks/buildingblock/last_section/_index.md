@@ -13,6 +13,16 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/last_section/
 
 Gets the last section in the building block.
 
+
+```python
+@property
+def last_section(self) -> aspose.words.Section:
+    ...
+
+```
+
+### Remarks
+
 Returns ``None`` if there are no sections.
 
 

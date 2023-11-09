@@ -15,6 +15,20 @@ Gets or sets a value indicating whether invocations of custom type members perfo
 optimized using dynamic class generation or not. The default value is ``True``.
 
 
+
+```python
+@property
+def use_reflection_optimization(self) -> bool:
+    ...
+
+@use_reflection_optimization.setter
+def use_reflection_optimization(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing 
 with small collections of data items all the time, then an overhead of dynamic class generation can be more 
 noticeable than an overhead of direct reflection API calls.

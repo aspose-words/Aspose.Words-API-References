@@ -14,6 +14,13 @@ url: /python-net/aspose.words/documentbuilder/list_format/
 Returns an object that represents current list formatting properties.
 
 
+```python
+@property
+def list_format(self) -> aspose.words.lists.ListFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create bulleted and numbered lists.

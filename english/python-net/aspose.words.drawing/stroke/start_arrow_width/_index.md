@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/start_arrow_width/
 
 Defines the arrowhead width for the start of a stroke.
 
+
+```python
+@property
+def start_arrow_width(self) -> aspose.words.drawing.ArrowWidth:
+    ...
+
+@start_arrow_width.setter
+def start_arrow_width(self, value: aspose.words.drawing.ArrowWidth):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ArrowWidth.MEDIUM](../../arrowwidth/#MEDIUM).
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/preserve_line_breaks/
 Gets or sets whether to preserve newline characters within table entries.
 
 
+```python
+@property
+def preserve_line_breaks(self) -> bool:
+    ...
+
+@preserve_line_breaks.setter
+def preserve_line_breaks(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

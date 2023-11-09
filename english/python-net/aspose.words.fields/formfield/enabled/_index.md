@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/enabled/
 
 True if a form field is enabled.
 
+
+```python
+@property
+def enabled(self) -> bool:
+    ...
+
+@enabled.setter
+def enabled(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If a form field is enabled, its contents can be changed as the form is filled in.
 
 

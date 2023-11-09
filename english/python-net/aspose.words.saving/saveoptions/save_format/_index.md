@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/saveoptions/save_format/
 Specifies the format in which the document will be saved if this save options object is used.
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a specific encoding when saving a document to .epub.

@@ -16,13 +16,13 @@ Creates a [ChartXValue](../) instance of the [ChartXValueType.DATE_TIME](../../c
 
 
 ```python
-def from_date_time(self, value: datetime):
+def from_date_time(self, value: datetime.datetime):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | datetime |  |
+| value | datetime.datetime |  |
 
 ### See Also
 

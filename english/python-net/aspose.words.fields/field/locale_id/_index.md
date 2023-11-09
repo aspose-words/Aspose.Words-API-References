@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/field/locale_id/
 Gets or sets the LCID of the field.
 
 
+```python
+@property
+def locale_id(self) -> int:
+    ...
+
+@locale_id.setter
+def locale_id(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a field and work with its locale.

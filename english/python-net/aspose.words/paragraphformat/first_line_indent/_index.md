@@ -17,6 +17,17 @@ Use positive values to set the first-line indent, and negative values to set the
 
 
 
+```python
+@property
+def first_line_indent(self) -> float:
+    ...
+
+@first_line_indent.setter
+def first_line_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a paragraph into the document.

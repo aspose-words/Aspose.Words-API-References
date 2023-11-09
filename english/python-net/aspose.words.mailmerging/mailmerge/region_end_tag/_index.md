@@ -14,6 +14,17 @@ url: /python-net/aspose.words.mailmerging/mailmerge/region_end_tag/
 Gets or sets a mail merge region end tag.
 
 
+```python
+@property
+def region_end_tag(self) -> str:
+    ...
+
+@region_end_tag.setter
+def region_end_tag(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create, list, and read mail merge regions.

@@ -16,6 +16,17 @@ Default value is ``True``, all metafiles are compressed regardless of its size.
 
 
 
+```python
+@property
+def always_compress_metafiles(self) -> bool:
+    ...
+
+@always_compress_metafiles.setter
+def always_compress_metafiles(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change metafiles compression in a document while saving.

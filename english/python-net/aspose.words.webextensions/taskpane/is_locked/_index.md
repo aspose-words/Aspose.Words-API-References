@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/taskpane/is_locked/
 Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
 
 
+```python
+@property
+def is_locked(self) -> bool:
+    ...
+
+@is_locked.setter
+def is_locked(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

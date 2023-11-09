@@ -14,6 +14,13 @@ url: /python-net/aspose.words/editablerange/editable_range_start/
 Gets the node that represents the start of the editable range.
 
 
+```python
+@property
+def editable_range_start(self) -> aspose.words.EditableRangeStart:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with an editable range.

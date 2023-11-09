@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/shadow/
 True if the font is formatted as shadowed.
 
 
+```python
+@property
+def shadow(self) -> bool:
+    ...
+
+@shadow.setter
+def shadow(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a run of text formatted with a shadow.

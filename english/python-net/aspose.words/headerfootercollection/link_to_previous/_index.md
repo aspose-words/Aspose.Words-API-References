@@ -22,7 +22,9 @@ def link_to_previous(self, is_link_to_previous: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| is_link_to_previous | bool |  |
+| is_link_to_previous | bool | ``True`` to link the headers and footers to the previous section; ``False`` to unlink them. |
+
+### Remarks
 
 If any of the headers or footers do not exist, creates them automatically.
 
@@ -42,8 +44,10 @@ def link_to_previous(self, header_footer_type: aspose.words.HeaderFooterType, is
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| header_footer_type | [HeaderFooterType](../../headerfootertype/) |  |
-| is_link_to_previous | bool |  |
+| header_footer_type | [HeaderFooterType](../../headerfootertype/) | A [HeaderFooterType](../../headerfootertype/) value that specifies the header or footer to link/unlink. |
+| is_link_to_previous | bool | ``True`` to link the header or footer to the previous section; ``False`` to unlink. |
+
+### Remarks
 
 If the header or footer of the specified type does not exist, creates it automatically.
 

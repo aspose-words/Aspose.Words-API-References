@@ -22,7 +22,9 @@ def extension_to_save_format(self, extension: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | str |  |
+| extension | str | The file extension. Can be with or without a leading dot. Case-insensitive. |
+
+### Remarks
 
 If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../saveformat/#UNKNOWN).
 
@@ -33,7 +35,7 @@ If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../savefo
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentNullException | Throws if the parameter is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws if the parameter is ``None``. |
 
 ### Examples
 

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.mailmerging/imailmergedatasource/table_name/
 
 Returns the name of the data source.
 
+
+```python
+@property
+def table_name(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 If you are implementing [IMailMergeDataSource](../), return the name of the data
 source from this property.
 
@@ -22,8 +32,6 @@ the mail merge region name is not case sensitive.
 
 
 
-:returns: The name of the data source. Empty string if the data source has no name.
-          
 
 ### Examples
 

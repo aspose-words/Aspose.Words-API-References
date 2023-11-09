@@ -13,6 +13,16 @@ url: /python-net/aspose.words/stylecollection/default_font/
 
 Gets document default text formatting.
 
+
+```python
+@property
+def default_font(self) -> aspose.words.Font:
+    ...
+
+```
+
+### Remarks
+
 Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats ([LoadFormat.DOCX](../../loadformat/#DOCX)) only.
 Earlier document formats have limited support for this feature and only font names can be stored.
 

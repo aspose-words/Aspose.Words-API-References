@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraphformat/is_heading/
 True when the paragraph style is one of the built-in Heading styles.
 
 
+```python
+@property
+def is_heading(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved PDF document.

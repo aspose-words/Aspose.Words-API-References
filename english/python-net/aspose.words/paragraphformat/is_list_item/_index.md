@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraphformat/is_list_item/
 True when the paragraph is an item in a bulleted or numbered list.
 
 
+```python
+@property
+def is_list_item(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to nest a list inside another list.

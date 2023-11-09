@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/web_extension_task_panes/
 Returns a collection that represents a list of task pane add-ins.
 
 
+```python
+@property
+def web_extension_task_panes(self) -> aspose.words.webextensions.TaskPaneCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

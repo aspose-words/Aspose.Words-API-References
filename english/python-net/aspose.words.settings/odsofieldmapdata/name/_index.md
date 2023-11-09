@@ -17,6 +17,17 @@ The default value is an empty string.
 
 
 
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.

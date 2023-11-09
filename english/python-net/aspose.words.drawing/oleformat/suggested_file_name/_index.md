@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/oleformat/suggested_file_name/
 Gets the file name suggested for the current embedded object if you want to save it into a file.
 
 
+```python
+@property
+def suggested_file_name(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get an OLE object's suggested file name.

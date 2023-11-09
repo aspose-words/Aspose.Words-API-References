@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartxvalue/value_type/
 Gets the type of the X value stored in the object.
 
 
+```python
+@property
+def value_type(self) -> aspose.words.drawing.charts.ChartXValueType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

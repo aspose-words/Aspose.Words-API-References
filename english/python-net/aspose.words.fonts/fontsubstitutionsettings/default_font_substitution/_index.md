@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/fontsubstitutionsettings/default_font_substi
 Settings related to default font substitution rule.
 
 
+```python
+@property
+def default_font_substitution(self) -> aspose.words.fonts.DefaultFontSubstitutionRule:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set the default font substitution rule.

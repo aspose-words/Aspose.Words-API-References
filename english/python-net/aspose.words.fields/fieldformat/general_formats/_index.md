@@ -15,6 +15,13 @@ Gets a collection of general formats that are applied to a numeric, text or any 
 Corresponds to the \\\* switches.
 
 
+```python
+@property
+def general_formats(self) -> aspose.words.fields.GeneralFormatCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to format field results.

@@ -19,6 +19,8 @@ def get_shape_renderer(self):
     ...
 ```
 
+### Remarks
+
 This method just invokes the [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/) constructor and passes
 this object as a parameter.
 

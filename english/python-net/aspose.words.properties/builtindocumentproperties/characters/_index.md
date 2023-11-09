@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/characters/
 
 Represents an estimate of the number of characters in the document.
 
+
+```python
+@property
+def characters(self) -> int:
+    ...
+
+@characters.setter
+def characters(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words updates this property when you call [Document.update_word_count()](../../../aspose.words/document/update_word_count/#default).
 
 

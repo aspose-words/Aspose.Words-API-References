@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/name_ascii/
 Returns or sets the font used for Latin text (characters with character codes from 0 (zero) through 127).
 
 
+```python
+@property
+def name_ascii(self) -> str:
+    ...
+
+@name_ascii.setter
+def name_ascii(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how Microsoft Word can combine two different fonts in one run.

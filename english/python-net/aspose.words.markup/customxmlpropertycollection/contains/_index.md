@@ -21,7 +21,7 @@ def contains(self, name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
+| name | str | Case-sensitive name of the property to locate. |
 
 ### Returns
 

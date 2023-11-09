@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/reverse_rows/
 
 Determines whether the layout order of rows is reversed.
 
+
+```python
+@property
+def reverse_rows(self) -> bool:
+    ...
+
+@reverse_rows.setter
+def reverse_rows(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 If ``True``, the layout order of rows is reversed. This attribute is used for vertical text layout.

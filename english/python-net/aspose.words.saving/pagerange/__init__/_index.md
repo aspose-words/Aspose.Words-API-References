@@ -21,10 +21,12 @@ def __init__(self, from_address: int, to: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| from_address | int |  |
-| to | int |  |
+| from_address | int | The starting page zero-based index. |
+| to | int | The ending page zero-based index.  If it exceeds the index of the last page in the document,  it is truncated to fit in the document on rendering. |
 
-System.Int32.MaxValue means the last page in the document.
+### Remarks
+
+int.MaxValue C# constant means the last page in the document.
 
 
 

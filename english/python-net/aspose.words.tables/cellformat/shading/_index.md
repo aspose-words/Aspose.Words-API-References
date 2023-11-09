@@ -15,6 +15,13 @@ Returns a [Shading](../../../aspose.words/shading/) object that refers to the sh
 
 
 
+```python
+@property
+def shading(self) -> aspose.words.Shading:
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

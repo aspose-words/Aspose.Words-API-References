@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/physicalfontinfo/file_path/
 Path to the font file if any.
 
 
+```python
+@property
+def file_path(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to list available fonts.

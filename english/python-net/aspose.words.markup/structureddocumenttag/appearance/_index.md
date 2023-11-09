@@ -14,6 +14,17 @@ url: /python-net/aspose.words.markup/structureddocumenttag/appearance/
 Gets/sets the appearance of a structured document tag.
 
 
+```python
+@property
+def appearance(self) -> aspose.words.markup.SdtAppearance:
+    ...
+
+@appearance.setter
+def appearance(self, value: aspose.words.markup.SdtAppearance):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.

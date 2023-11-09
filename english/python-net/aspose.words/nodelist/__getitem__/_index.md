@@ -21,7 +21,9 @@ def __getitem__(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
+| index | int | An index into the list of nodes. |
+
+### Remarks
 
 The index is zero-based.
 

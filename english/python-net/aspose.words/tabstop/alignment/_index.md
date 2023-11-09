@@ -14,6 +14,17 @@ url: /python-net/aspose.words/tabstop/alignment/
 Gets or sets the alignment of text at this tab stop.
 
 
+```python
+@property
+def alignment(self) -> aspose.words.TabAlignment:
+    ...
+
+@alignment.setter
+def alignment(self, value: aspose.words.TabAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.

@@ -19,6 +19,8 @@ def remove_field(self):
     ...
 ```
 
+### Remarks
+
 If there is a bookmark associated with the form field, the bookmark is not removed.
 
 

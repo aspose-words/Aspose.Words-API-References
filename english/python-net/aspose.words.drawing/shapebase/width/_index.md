@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/width/
 
 Gets or sets the width of the containing block of the shape.
 
+
+```python
+@property
+def width(self) -> float:
+    ...
+
+@width.setter
+def width(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 For a top-level shape, the value is in points.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.

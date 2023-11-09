@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/gradientstopcollection/count/
 Gets an integer value indicating the number of items in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add gradient stops to the gradient fill.

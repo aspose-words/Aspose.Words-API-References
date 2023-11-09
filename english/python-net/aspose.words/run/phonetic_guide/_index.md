@@ -15,6 +15,13 @@ Gets a [Run.phonetic_guide](./) object.
 
 
 
+```python
+@property
+def phonetic_guide(self) -> aspose.words.PhoneticGuide:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

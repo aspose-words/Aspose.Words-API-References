@@ -15,6 +15,13 @@ Gets the level at which this **SDT** occurs in the document tree.
 
 
 
+```python
+@property
+def level(self) -> aspose.words.markup.MarkupLevel:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

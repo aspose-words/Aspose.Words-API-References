@@ -22,7 +22,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | --- | --- |
 | [PdfDigitalSignatureTimestampSettings()](./__init__/#default) | Initializes an instance of this class. |
 | [PdfDigitalSignatureTimestampSettings(server_url, user_name, password)](./__init__/#str_str_str) | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings(server_url, user_name, password, timeout)](./__init__/#str_str_str_unknown) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings(server_url, user_name, password, timeout)](./__init__/#str_str_str_timespan) | Initializes an instance of this class. |
 
 ### Properties
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/use_invariant_culture_number_f
 
 Gets or sets the value indicating that number format is parsed using invariant culture or not
 
+
+```python
+@property
+def use_invariant_culture_number_format(self) -> bool:
+    ...
+
+@use_invariant_culture_number_format.setter
+def use_invariant_culture_number_format(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When this property is set to ``True``, number format is taken from an invariant culture.
 
 

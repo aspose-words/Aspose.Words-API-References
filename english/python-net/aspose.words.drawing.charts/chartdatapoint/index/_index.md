@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartdatapoint/index/
 Index of the data point this object applies formatting to.
 
 
+```python
+@property
+def index(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with data points on a line chart.

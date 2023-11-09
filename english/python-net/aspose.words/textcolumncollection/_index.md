@@ -5,7 +5,7 @@ articleTitle: TextColumnCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.TextColumnCollection class. A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document"
 type: docs
-weight: 1230
+weight: 1240
 url: /python-net/aspose.words/textcolumncollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/p
 
 
 
+
+### Remarks
 
 Use [TextColumnCollection.set_count()](./set_count/#int) to set the number of text columns.
 

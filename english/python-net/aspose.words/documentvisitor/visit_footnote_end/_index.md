@@ -21,7 +21,7 @@ def visit_footnote_end(self, footnote: aspose.words.notes.Footnote):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnote | [Footnote](../../../aspose.words.notes/footnote/) |  |
+| footnote | [Footnote](../../../aspose.words.notes/footnote/) | The object that is being visited. |
 
 ### Returns
 

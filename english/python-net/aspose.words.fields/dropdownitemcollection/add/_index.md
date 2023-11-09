@@ -21,7 +21,7 @@ def add(self, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | str |  |
+| value | str | The string to add to the end of the collection. |
 
 ### Returns
 

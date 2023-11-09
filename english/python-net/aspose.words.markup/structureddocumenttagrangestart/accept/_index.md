@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.accept method. Accepts a visitor."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/accept/
 ---
 
@@ -21,7 +21,9 @@ def accept(self, visitor: aspose.words.DocumentVisitor):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
+
+### Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 

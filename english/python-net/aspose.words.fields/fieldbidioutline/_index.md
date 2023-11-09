@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 This field is identical to the AUTONUMLGL field, except for the separator that delimits each level
 of the paragraph numbering.
 

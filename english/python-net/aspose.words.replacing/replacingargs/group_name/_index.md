@@ -15,6 +15,20 @@ Identifies, by name, a captured group in the Aspose.Words.Replacing.ReplacingArg
 that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string.
 
 
+
+```python
+@property
+def group_name(self) -> str:
+    ...
+
+@group_name.setter
+def group_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When group name is ``None``, [ReplacingArgs.group_index](../group_index/) is used to identify the group.
 
 Default is ``None``.

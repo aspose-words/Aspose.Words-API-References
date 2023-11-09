@@ -17,6 +17,17 @@ Use positive values to set the first-line indent, and negative values to set the
 
 
 
+```python
+@property
+def character_unit_first_line_indent(self) -> float:
+    ...
+
+@character_unit_first_line_indent.setter
+def character_unit_first_line_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change paragraph spacing and indents.

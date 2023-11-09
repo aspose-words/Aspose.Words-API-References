@@ -29,16 +29,16 @@ Supported formats are:
 
 
 ```python
-def sign(self, src_stream: BytesIO, dst_stream: BytesIO, cert_holder: aspose.words.digitalsignatures.CertificateHolder, sign_options: aspose.words.digitalsignatures.SignOptions):
+def sign(self, src_stream: io.BytesIO, dst_stream: io.BytesIO, cert_holder: aspose.words.digitalsignatures.CertificateHolder, sign_options: aspose.words.digitalsignatures.SignOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_stream | BytesIO |  |
-| dst_stream | BytesIO |  |
-| cert_holder | [CertificateHolder](../../certificateholder/) |  |
-| sign_options | [SignOptions](../../signoptions/) |  |
+| src_stream | io.BytesIO | The stream which contains the document to sign. |
+| dst_stream | io.BytesIO | The stream that signed document will be written to. |
+| cert_holder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| sign_options | [SignOptions](../../signoptions/) | [SignOptions](../../signoptions/) object with various signing options. |
 
 ## sign(src_file_name, dst_file_name, cert_holder, sign_options) {#str_str_certificateholder_signoptions}
 
@@ -63,10 +63,10 @@ def sign(self, src_file_name: str, dst_file_name: str, cert_holder: aspose.words
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_file_name | str |  |
-| dst_file_name | str |  |
-| cert_holder | [CertificateHolder](../../certificateholder/) |  |
-| sign_options | [SignOptions](../../signoptions/) |  |
+| src_file_name | str | The file name of the document to sign. |
+| dst_file_name | str | The file name of the signed document output. |
+| cert_holder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| sign_options | [SignOptions](../../signoptions/) | [SignOptions](../../signoptions/) object with various signing options. |
 
 ## sign(src_stream, dst_stream, cert_holder) {#bytesio_bytesio_certificateholder}
 
@@ -88,15 +88,15 @@ Supported formats are:
 
 
 ```python
-def sign(self, src_stream: BytesIO, dst_stream: BytesIO, cert_holder: aspose.words.digitalsignatures.CertificateHolder):
+def sign(self, src_stream: io.BytesIO, dst_stream: io.BytesIO, cert_holder: aspose.words.digitalsignatures.CertificateHolder):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_stream | BytesIO |  |
-| dst_stream | BytesIO |  |
-| cert_holder | [CertificateHolder](../../certificateholder/) |  |
+| src_stream | io.BytesIO | The stream which contains the document to sign. |
+| dst_stream | io.BytesIO | The stream that signed document will be written to. |
+| cert_holder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
 ## sign(src_file_name, dst_file_name, cert_holder) {#str_str_certificateholder}
 
@@ -121,9 +121,9 @@ def sign(self, src_file_name: str, dst_file_name: str, cert_holder: aspose.words
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_file_name | str |  |
-| dst_file_name | str |  |
-| cert_holder | [CertificateHolder](../../certificateholder/) |  |
+| src_file_name | str | The file name of the document to sign. |
+| dst_file_name | str | The file name of the signed document output. |
+| cert_holder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
 ## Examples
 

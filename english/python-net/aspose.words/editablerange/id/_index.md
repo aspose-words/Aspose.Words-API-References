@@ -13,6 +13,16 @@ url: /python-net/aspose.words/editablerange/id/
 
 Gets the editable range identifier.
 
+
+```python
+@property
+def id(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 The region must be demarcated using the [EditableRange.editable_range_start](../editable_range_start/) and [EditableRange.editable_range_end](../editable_range_end/)
 
 

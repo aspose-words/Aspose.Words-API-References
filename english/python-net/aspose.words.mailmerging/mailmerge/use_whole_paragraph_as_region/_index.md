@@ -15,6 +15,20 @@ Gets or sets a value indicating whether whole paragraph with **TableStart** or *
 or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region.
 
 
+
+```python
+@property
+def use_whole_paragraph_as_region(self) -> bool:
+    ...
+
+@use_whole_paragraph_as_region.setter
+def use_whole_paragraph_as_region(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``True``.
 
 

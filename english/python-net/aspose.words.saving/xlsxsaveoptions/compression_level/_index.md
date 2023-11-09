@@ -16,6 +16,17 @@ The default value is [CompressionLevel.NORMAL](../../compressionlevel/#NORMAL).
 
 
 
+```python
+@property
+def compression_level(self) -> aspose.words.saving.CompressionLevel:
+    ...
+
+@compression_level.setter
+def compression_level(self, value: aspose.words.saving.CompressionLevel):
+    ...
+
+```
+
 ### Examples
 
 Shows how to compress XLSX document.

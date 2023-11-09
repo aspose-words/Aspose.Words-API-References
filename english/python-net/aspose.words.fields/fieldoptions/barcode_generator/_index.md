@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/barcode_generator/
 
 Gets or set custom barcode generator.
 
+
+```python
+@property
+def barcode_generator(self) -> aspose.words.fields.IBarcodeGenerator:
+    ...
+
+@barcode_generator.setter
+def barcode_generator(self, value: aspose.words.fields.IBarcodeGenerator):
+    ...
+
+```
+
+### Remarks
+
 Custom barcode generator should implement public interface [IBarcodeGenerator](../../ibarcodegenerator/).
 
 

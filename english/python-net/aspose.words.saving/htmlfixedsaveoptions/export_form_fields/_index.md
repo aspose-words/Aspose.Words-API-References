@@ -15,6 +15,17 @@ Gets or sets indication of whether form fields are exported as interactive
 items (as 'input' tag) rather than converted to text or graphics.
 
 
+```python
+@property
+def export_form_fields(self) -> bool:
+    ...
+
+@export_form_fields.setter
+def export_form_fields(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to export form fields to Html.

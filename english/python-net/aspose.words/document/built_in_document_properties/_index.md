@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/built_in_document_properties/
 Returns a collection that represents all the built-in document properties of the document.
 
 
+```python
+@property
+def built_in_document_properties(self) -> aspose.words.properties.BuiltInDocumentProperties:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties.

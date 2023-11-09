@@ -21,8 +21,8 @@ def add(self, name: str, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| value | str |  |
+| name | str | The case-insensitive name of the variable to add. |
+| value | str | The value of the variable. The value cannot be ``None``, if value is null empty string will be used instead. |
 
 ### Examples
 

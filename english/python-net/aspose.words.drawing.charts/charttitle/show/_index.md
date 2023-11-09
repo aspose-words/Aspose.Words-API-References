@@ -16,6 +16,17 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def show(self) -> bool:
+    ...
+
+@show.setter
+def show(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and set a title.

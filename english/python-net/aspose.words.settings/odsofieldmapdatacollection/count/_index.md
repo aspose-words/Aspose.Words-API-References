@@ -14,6 +14,13 @@ url: /python-net/aspose.words.settings/odsofieldmapdatacollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.

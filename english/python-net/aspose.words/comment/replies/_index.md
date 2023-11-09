@@ -15,6 +15,13 @@ Returns a collection of [Comment](../) objects that are immediate children of th
 
 
 
+```python
+@property
+def replies(self) -> aspose.words.CommentCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print all of a document's comments and their replies.

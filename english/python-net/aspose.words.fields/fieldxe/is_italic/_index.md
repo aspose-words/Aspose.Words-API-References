@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldxe/is_italic/
 Gets or sets whether to apply italic formatting to the entry's page number.
 
 
+```python
+@property
+def is_italic(self) -> bool:
+    ...
+
+@is_italic.setter
+def is_italic(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.

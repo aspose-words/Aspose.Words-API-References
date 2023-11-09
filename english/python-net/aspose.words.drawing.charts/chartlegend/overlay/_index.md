@@ -5,7 +5,7 @@ articleTitle: overlay property
 second_title: Aspose.Words for Python
 description: "ChartLegend.overlay property. Determines whether other chart elements shall be allowed to overlap legend"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 
@@ -15,6 +15,17 @@ Determines whether other chart elements shall be allowed to overlap legend.
 Default value is ``False``.
 
 
+
+```python
+@property
+def overlay(self) -> bool:
+    ...
+
+@overlay.setter
+def overlay(self, value: bool):
+    ...
+
+```
 
 ### Examples
 

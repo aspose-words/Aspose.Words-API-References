@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldta/is_italic/
 Gets or sets whether to apply italic formatting to the page number for the entry.
 
 
+```python
+@property
+def is_italic(self) -> bool:
+    ...
+
+@is_italic.setter
+def is_italic(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

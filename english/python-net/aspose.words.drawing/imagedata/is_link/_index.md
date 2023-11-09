@@ -15,6 +15,13 @@ Returns ``True`` if the image is linked to the shape (when [ImageData.source_ful
 
 
 
+```python
+@property
+def is_link(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to edit a shape's image data.

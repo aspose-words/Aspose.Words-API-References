@@ -19,6 +19,17 @@ Default value for this property is ``False``.
 
 
 
+```python
+@property
+def create_missing_outline_levels(self) -> bool:
+    ...
+
+@create_missing_outline_levels.setter
+def create_missing_outline_levels(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with outline levels that do not contain any corresponding headings when saving a PDF document.

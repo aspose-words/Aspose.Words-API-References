@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldlink/auto_update/
 Gets or sets whether to update this field automatically.
 
 
+```python
+@property
+def auto_update(self) -> bool:
+    ...
+
+@auto_update.setter
+def auto_update(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

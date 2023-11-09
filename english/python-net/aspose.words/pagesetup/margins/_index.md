@@ -15,6 +15,17 @@ Returns or sets preset [Margins](../../margins/) of the page.
 
 
 
+```python
+@property
+def margins(self) -> aspose.words.Margins:
+    ...
+
+@margins.setter
+def margins(self, value: aspose.words.Margins):
+    ...
+
+```
+
 ### Examples
 
 Shows when to recalculate the page layout of the document.

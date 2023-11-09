@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Merges the next data record into the current resulting merged document, rather than starting a
 new merged document.
 

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.vba/vbaproject/modules/
 Returns collection of VBA project modules.
 
 
+```python
+@property
+def modules(self) -> aspose.words.vba.VbaModuleCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's VBA project information.

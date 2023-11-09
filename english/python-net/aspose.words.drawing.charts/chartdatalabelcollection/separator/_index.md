@@ -15,6 +15,20 @@ Gets or sets string separator used for the data labels of the entire series.
 The default is a comma, except for pie charts showing only category name and percentage, when a line break 
 shall be used instead.
 
+
+```python
+@property
+def separator(self) -> str:
+    ...
+
+@separator.setter
+def separator(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.separator](../../chartdatalabel/separator/) property.
 

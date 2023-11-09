@@ -16,6 +16,17 @@ The default value is 0, that means no indentation.
 
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+@count.setter
+def count(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure list indenting when saving a document to plaintext.

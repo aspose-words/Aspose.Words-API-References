@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_vert_align_in
 Ignore Vertical Alignment in Textboxes.
 
 
+```python
+@property
+def do_not_vert_align_in_txbx(self) -> bool:
+    ...
+
+@do_not_vert_align_in_txbx.setter
+def do_not_vert_align_in_txbx(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves, and optionally sets, the document's keywords, as recorded in the **Keywords** property of the
 built-in document properties.
 

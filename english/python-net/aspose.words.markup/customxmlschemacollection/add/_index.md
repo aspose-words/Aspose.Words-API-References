@@ -21,7 +21,7 @@ def add(self, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | str |  |
+| value | str | The item to add. |
 
 ### Examples
 

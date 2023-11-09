@@ -16,6 +16,20 @@ when [ImageSaveOptions.save_format](../save_format/) is [SaveFormat.TIFF](../../
 [ImageSaveOptions.tiff_compression](../tiff_compression/) is equal to [TiffCompression.CCITT3](../../tiffcompression/#CCITT3) or [TiffCompression.CCITT4](../../tiffcompression/#CCITT4).
 
 
+
+```python
+@property
+def tiff_binarization_method(self) -> aspose.words.saving.ImageBinarizationMethod:
+    ...
+
+@tiff_binarization_method.setter
+def tiff_binarization_method(self, value: aspose.words.saving.ImageBinarizationMethod):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ImageBinarizationMethod.THRESHOLD](../../imagebinarizationmethod/#THRESHOLD).
 
 

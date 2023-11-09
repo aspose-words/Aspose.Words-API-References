@@ -16,6 +16,20 @@ Default value is [CssStyleSheetType.INLINE](../../cssstylesheettype/#INLINE) for
 [CssStyleSheetType.EXTERNAL](../../cssstylesheettype/#EXTERNAL) for EPUB.
 
 
+
+```python
+@property
+def css_style_sheet_type(self) -> aspose.words.saving.CssStyleSheetType:
+    ...
+
+@css_style_sheet_type.setter
+def css_style_sheet_type(self, value: aspose.words.saving.CssStyleSheetType):
+    ...
+
+```
+
+### Remarks
+
 Saving CSS style sheet into an external file is only supported when saving to HTML. 
 When you are exporting to one of the container formats (EPUB or MHTML) and specifying 
 [CssStyleSheetType.EXTERNAL](../../cssstylesheettype/#EXTERNAL), CSS file will be encapsulated 

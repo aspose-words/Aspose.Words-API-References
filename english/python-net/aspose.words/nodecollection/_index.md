@@ -5,7 +5,7 @@ articleTitle: NodeCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.NodeCollection class. Represents a collection of nodes of a specific type"
 type: docs
-weight: 740
+weight: 750
 url: /python-net/aspose.words/nodecollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+
+### Remarks
 
 [NodeCollection](./) does not own the nodes it contains, rather, is just a selection of nodes
 of the specified type, but the nodes are stored in the tree under their respective parent nodes.

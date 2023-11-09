@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/xpssaveoptions/outline_options/
 
 Allows to specify outline options.
 
+
+```python
+@property
+def outline_options(self) -> aspose.words.saving.OutlineOptions:
+    ...
+
+```
+
+### Remarks
+
 Note that [OutlineOptions.expanded_outline_levels](../../outlineoptions/expanded_outline_levels/) option will not work when saving to XPS.
 
 

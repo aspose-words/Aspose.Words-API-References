@@ -14,6 +14,17 @@ url: /python-net/aspose.words.mailmerging/mailmerge/cleanup_options/
 Gets or sets a set of flags that specify what items should be removed during mail merge.
 
 
+```python
+@property
+def cleanup_options(self) -> aspose.words.mailmerging.MailMergeCleanupOptions:
+    ...
+
+@cleanup_options.setter
+def cleanup_options(self, value: aspose.words.mailmerging.MailMergeCleanupOptions):
+    ...
+
+```
+
 ### Examples
 
 Shows how to automatically remove MERGEFIELDs that go unused during mail merge.

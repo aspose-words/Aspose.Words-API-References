@@ -15,6 +15,17 @@ Gets or sets whether [FieldBarcode.postal_address](../postal_address/) is a U.S.
 
 
 
+```python
+@property
+def is_us_postal_address(self) -> bool:
+    ...
+
+@is_us_postal_address.setter
+def is_us_postal_address(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.

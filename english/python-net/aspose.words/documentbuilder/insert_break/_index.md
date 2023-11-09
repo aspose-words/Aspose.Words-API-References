@@ -21,7 +21,9 @@ def insert_break(self, break_type: aspose.words.BreakType):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| break_type | [BreakType](../../breaktype/) |  |
+| break_type | [BreakType](../../breaktype/) | Specifies the type of the break to insert. |
+
+### Remarks
 
 Use this method to insert paragraph, page, column, section or line break into the document.
 

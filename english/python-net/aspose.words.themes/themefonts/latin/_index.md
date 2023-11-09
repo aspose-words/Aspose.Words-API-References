@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themefonts/latin/
 Specifies font name for Latin characters.
 
 
+```python
+@property
+def latin(self) -> str:
+    ...
+
+@latin.setter
+def latin(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

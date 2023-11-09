@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Builds a table of authorities (that is, a list of the references in a legal document, such as references
 to cases, statutes, and rules, along with the numbers of the pages on which the references appear) using the
 entries specified by TA fields.

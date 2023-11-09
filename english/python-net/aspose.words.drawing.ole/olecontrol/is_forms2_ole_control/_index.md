@@ -15,6 +15,13 @@ Returns ``True`` if the control is a [Forms2OleControl](../../forms2olecontrol/)
 
 
 
+```python
+@property
+def is_forms2_ole_control(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_
 Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page
 or the display of the metafile in its default size.
 
+
+```python
+@property
+def emulate_rendering_to_size_on_page(self) -> bool:
+    ...
+
+@emulate_rendering_to_size_on_page.setter
+def emulate_rendering_to_size_on_page(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When metafiles are displayed in MS Word, some graphics may be scaled according to the actual metafile size in pixels.
 I.e. even zooming may affect the metafile display.
 

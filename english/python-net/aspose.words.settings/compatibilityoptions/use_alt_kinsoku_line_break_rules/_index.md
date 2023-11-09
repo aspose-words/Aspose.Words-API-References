@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/use_alt_kinsoku_line
 Use Alternate Set of East Asian Line Breaking Rules.
 
 
+```python
+@property
+def use_alt_kinsoku_line_break_rules(self) -> bool:
+    ...
+
+@use_alt_kinsoku_line_break_rules.setter
+def use_alt_kinsoku_line_break_rules(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

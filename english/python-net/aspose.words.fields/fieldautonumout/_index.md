@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Inserts an automatic number in outline format.
 
 

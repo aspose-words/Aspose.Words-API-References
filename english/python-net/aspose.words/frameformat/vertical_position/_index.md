@@ -15,6 +15,13 @@ Gets vertical distance between the edge of the frame and the item specified by t
 
 
 
+```python
+@property
+def vertical_position(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

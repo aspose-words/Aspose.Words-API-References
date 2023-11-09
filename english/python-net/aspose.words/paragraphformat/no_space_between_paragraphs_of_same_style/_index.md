@@ -15,6 +15,20 @@ When ``True``, [ParagraphFormat.space_before](../space_before/) and [ParagraphFo
 between the paragraphs of the same style.
 
 
+
+```python
+@property
+def no_space_between_paragraphs_of_same_style(self) -> bool:
+    ...
+
+@no_space_between_paragraphs_of_same_style.setter
+def no_space_between_paragraphs_of_same_style(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This setting only takes affect when applied to a paragraph style. If applied to
 a paragraph directly, it has no effect.
 

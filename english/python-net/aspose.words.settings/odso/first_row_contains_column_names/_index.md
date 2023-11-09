@@ -16,6 +16,20 @@ source as a header row containing the names of each column in the data source.
 The default value is ``False``.
 
 
+
+```python
+@property
+def first_row_contains_column_names(self) -> bool:
+    ...
+
+@first_row_contains_column_names.setter
+def first_row_contains_column_names(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 RK I have never seen this in use.
 
 

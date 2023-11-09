@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergebarcode/display_text/
 Gets or sets whether to display barcode data (text) along with image.
 
 
+```python
+@property
+def display_text(self) -> bool:
+    ...
+
+@display_text.setter
+def display_text(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

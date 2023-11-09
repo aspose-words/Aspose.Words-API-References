@@ -15,6 +15,13 @@ Gets type of this **Structured document tag**.
 
 
 
+```python
+@property
+def sdt_type(self) -> aspose.words.markup.SdtType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the type of a structured document tag.

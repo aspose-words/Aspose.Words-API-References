@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/accent5/
 Specifies color Accent 5.
 
 
+```python
+@property
+def accent5(self) -> aspose.pydrawing.Color:
+    ...
+
+@accent5.setter
+def accent5(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

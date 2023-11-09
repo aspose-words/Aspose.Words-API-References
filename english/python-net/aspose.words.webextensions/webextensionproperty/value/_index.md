@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionproperty/value/
 Specifies a custom property value.
 
 
+```python
+@property
+def value(self) -> str:
+    ...
+
+@value.setter
+def value(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.webextensions](../../)

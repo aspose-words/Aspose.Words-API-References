@@ -14,6 +14,20 @@ url: /python-net/aspose.words.layout/layoutoptions/continuous_section_page_numbe
 Gets or sets the mode of behavior for computing page numbers when a continuous section
 restarts the page numbering.
 
+
+```python
+@property
+def continuous_section_page_numbering_restart(self) -> aspose.words.layout.ContinuousSectionRestart:
+    ...
+
+@continuous_section_page_numbering_restart.setter
+def continuous_section_page_numbering_restart(self, value: aspose.words.layout.ContinuousSectionRestart):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ContinuousSectionRestart.ALWAYS](../../continuoussectionrestart/#ALWAYS).
 It matches the behavior of MS Word 2019 which was the latest version at the moment the option was introduced.
 Older page numbering logic demonstrated by MS Word 2016 is available via this option.

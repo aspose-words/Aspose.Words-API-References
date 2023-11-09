@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/legacy_number_format/
 
 Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
 
+
+```python
+@property
+def legacy_number_format(self) -> bool:
+    ...
+
+@legacy_number_format.setter
+def legacy_number_format(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When this property is set to ``True``, template symbol "#" worked as in .net:
 Replaces the pound sign with the corresponding digit if one is present; otherwise, no symbols appears in the result string.
 

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/tabstop/position/
 Gets the position of the tab stop in points.
 
 
+```python
+@property
+def position(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.

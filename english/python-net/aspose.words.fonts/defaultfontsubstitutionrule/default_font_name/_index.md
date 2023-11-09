@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_nam
 
 Gets or sets the default font name.
 
+
+```python
+@property
+def default_font_name(self) -> str:
+    ...
+
+@default_font_name.setter
+def default_font_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is 'Times New Roman'.
 
 

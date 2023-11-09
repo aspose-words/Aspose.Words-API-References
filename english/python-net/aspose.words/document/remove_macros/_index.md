@@ -19,6 +19,8 @@ def remove_macros(self):
     ...
 ```
 
+### Remarks
+
 By removing all macros from a document you can ensure the document contains no macro viruses.
 
 

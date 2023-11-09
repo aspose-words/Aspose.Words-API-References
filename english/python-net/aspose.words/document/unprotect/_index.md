@@ -19,6 +19,8 @@ def unprotect(self):
     ...
 ```
 
+### Remarks
+
 This method unprotects the document even if it has a protection password.
 
 Note that document protection is different from write protection.
@@ -39,7 +41,9 @@ def unprotect(self, password: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | str |  |
+| password | str | The password to unprotect the document with. |
+
+### Remarks
 
 This method unprotects the document only if a correct password is specified.
 

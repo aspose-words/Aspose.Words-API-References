@@ -14,6 +14,13 @@ url: /python-net/aspose.words/pagesetup/endnote_options/
 Provides options that control numbering and positioning of endnotes in this section.
 
 
+```python
+@property
+def endnote_options(self) -> aspose.words.notes.EndnoteOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure options affecting footnotes/endnotes in a section.

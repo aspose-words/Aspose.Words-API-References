@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/resource_saving_callba
 Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format.
 
 
+```python
+@property
+def resource_saving_callback(self) -> aspose.words.saving.IResourceSavingCallback:
+    ...
+
+@resource_saving_callback.setter
+def resource_saving_callback(self, value: aspose.words.saving.IResourceSavingCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

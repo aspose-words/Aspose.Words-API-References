@@ -14,6 +14,13 @@ url: /python-net/aspose.words/watermark/type/
 Gets the watermark type.
 
 
+```python
+@property
+def type(self) -> aspose.words.WatermarkType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

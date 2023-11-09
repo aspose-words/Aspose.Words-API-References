@@ -17,6 +17,8 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 It is not possible to add or remove items from this collection. It contains permanent set of items: one item for
 each value of the [ConditionalStyleType](../conditionalstyletype/) enumeration type.
 

@@ -15,6 +15,20 @@ Specifies whether or not to embed TrueType fonts in a document when it is saved.
 Default value for this property is ``False``.
 
 
+
+```python
+@property
+def embed_true_type_fonts(self) -> bool:
+    ...
+
+@embed_true_type_fonts.setter
+def embed_true_type_fonts(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it,
 but may substantially increase the document size.
 

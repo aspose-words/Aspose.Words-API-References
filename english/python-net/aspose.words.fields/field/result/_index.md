@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/field/result/
 Gets or sets text that is between the field separator and field end.
 
 
+```python
+@property
+def result(self) -> str:
+    ...
+
+@result.setter
+def result(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a field into a document using a field code.

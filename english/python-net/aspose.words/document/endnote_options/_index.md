@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/endnote_options/
 Provides options that control numbering and positioning of endnotes in this document.
 
 
+```python
+@property
+def endnote_options(self) -> aspose.words.notes.EndnoteOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.

@@ -16,6 +16,17 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def unused_styles(self) -> bool:
+    ...
+
+@unused_styles.setter
+def unused_styles(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove all unused custom styles from a document.

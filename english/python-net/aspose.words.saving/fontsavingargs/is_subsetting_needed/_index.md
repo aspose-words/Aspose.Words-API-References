@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/fontsavingargs/is_subsetting_needed/
 
 Allows to specify whether the current font will be subsetted before exporting as a font resource.
 
+
+```python
+@property
+def is_subsetting_needed(self) -> bool:
+    ...
+
+@is_subsetting_needed.setter
+def is_subsetting_needed(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Fonts can be exported as complete original font files or subsetted to include only the characters
 that are used in the document. Subsetting allows to reduce the resulting font resource size.
 

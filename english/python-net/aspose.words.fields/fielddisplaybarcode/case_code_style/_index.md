@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddisplaybarcode/case_code_style/
 Gets or sets the style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD]
 
 
+```python
+@property
+def case_code_style(self) -> str:
+    ...
+
+@case_code_style.setter
+def case_code_style(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.

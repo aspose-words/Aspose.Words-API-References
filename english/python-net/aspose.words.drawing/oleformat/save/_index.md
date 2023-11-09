@@ -15,13 +15,15 @@ Saves the data of the embedded object into the specified stream.
 
 
 ```python
-def save(self, stream: BytesIO):
+def save(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | Where to save the object data. |
+
+### Remarks
 
 It is the responsibility of the caller to dispose the stream.
 
@@ -32,7 +34,7 @@ It is the responsibility of the caller to dispose the stream.
 
 | exception | condition |
 | --- | --- |
-| System.InvalidOperationException | Throws if you attempt to save a linked object. |
+| RuntimeError (Proxy error(InvalidOperationException)) | Throws if you attempt to save a linked object. |
 
 ## save(file_name) {#str}
 
@@ -46,13 +48,13 @@ def save(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | Name of the file to save the OLE object data. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| System.InvalidOperationException | Throws if you attempt to save a linked object. |
+| RuntimeError (Proxy error(InvalidOperationException)) | Throws if you attempt to save a linked object. |
 
 ## Examples
 

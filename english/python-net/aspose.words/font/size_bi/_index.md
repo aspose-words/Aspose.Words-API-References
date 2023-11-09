@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/size_bi/
 Gets or sets the font size in points used in a right-to-left document.
 
 
+```python
+@property
+def size_bi(self) -> float:
+    ...
+
+@size_bi.setter
+def size_bi(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.

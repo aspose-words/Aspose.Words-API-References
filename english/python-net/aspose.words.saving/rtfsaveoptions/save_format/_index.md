@@ -16,6 +16,17 @@ Can only be [SaveFormat.RTF](../../../aspose.words/saveformat/#RTF).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to save a document to .rtf with custom options.

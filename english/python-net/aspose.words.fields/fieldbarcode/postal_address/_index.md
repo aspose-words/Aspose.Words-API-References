@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldbarcode/postal_address/
 Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it.
 
 
+```python
+@property
+def postal_address(self) -> str:
+    ...
+
+@postal_address.setter
+def postal_address(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.

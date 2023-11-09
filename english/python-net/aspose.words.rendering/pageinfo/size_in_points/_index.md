@@ -14,6 +14,13 @@ url: /python-net/aspose.words.rendering/pageinfo/size_in_points/
 Gets the page size in points.
 
 
+```python
+@property
+def size_in_points(self) -> aspose.pydrawing.SizeF:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.rendering](../../)

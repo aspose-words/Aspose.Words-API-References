@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/table_name/
 Gets the name of the data table for the current merge operation or empty string if the name is not available.
 
 
+```python
+@property
+def table_name(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.

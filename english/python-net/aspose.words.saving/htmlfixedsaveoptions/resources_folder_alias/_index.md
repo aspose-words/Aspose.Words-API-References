@@ -15,6 +15,20 @@ Specifies the name of the folder used to construct image URIs written into an Ht
 Default is ``None``.
 
 
+
+```python
+@property
+def resources_folder_alias(self) -> str:
+    ...
+
+@resources_folder_alias.setter
+def resources_folder_alias(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When you save a [Document](../../../aspose.words/document/) in Html format, Aspose.Words needs to save all
 images embedded in the document as standalone files. [HtmlFixedSaveOptions.resources_folder](../resources_folder/)
 allows you to specify where the images will be saved and [HtmlFixedSaveOptions.resources_folder_alias](./)

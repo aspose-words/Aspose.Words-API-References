@@ -14,6 +14,17 @@ url: /python-net/aspose.words.mailmerging/mailmerge/field_merging_callback/
 Occurs during mail merge when a mail merge field is encountered in the document.
 
 
+```python
+@property
+def field_merging_callback(self) -> aspose.words.mailmerging.IFieldMergingCallback:
+    ...
+
+@field_merging_callback.setter
+def field_merging_callback(self, value: aspose.words.mailmerging.IFieldMergingCallback):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.

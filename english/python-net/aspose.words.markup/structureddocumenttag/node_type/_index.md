@@ -15,6 +15,13 @@ Returns [NodeType.STRUCTURED_DOCUMENT_TAG](../../../aspose.words/nodetype/#STRUC
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with styles for content control elements.

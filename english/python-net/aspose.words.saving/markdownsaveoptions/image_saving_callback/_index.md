@@ -16,6 +16,17 @@ Allows to control how images are saved when a document is saved to
 
 
 
+```python
+@property
+def image_saving_callback(self) -> aspose.words.saving.IImageSavingCallback:
+    ...
+
+@image_saving_callback.setter
+def image_saving_callback(self, value: aspose.words.saving.IImageSavingCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

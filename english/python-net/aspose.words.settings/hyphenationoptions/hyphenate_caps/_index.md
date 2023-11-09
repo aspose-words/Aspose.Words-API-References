@@ -16,6 +16,17 @@ Default value for this property is ``True``.
 
 
 
+```python
+@property
+def hyphenate_caps(self) -> bool:
+    ...
+
+@hyphenate_caps.setter
+def hyphenate_caps(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure automatic hyphenation.

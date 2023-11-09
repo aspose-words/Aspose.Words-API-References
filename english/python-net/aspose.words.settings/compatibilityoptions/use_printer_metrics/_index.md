@@ -13,6 +13,20 @@ url: /python-net/aspose.words.settings/compatibilityoptions/use_printer_metrics/
 
 Use Printer Metrics To Display Documents.
 
+
+```python
+@property
+def use_printer_metrics(self) -> bool:
+    ...
+
+@use_printer_metrics.setter
+def use_printer_metrics(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Printer Metrics may differ depending on drivers used.
 For instance, Windows "Microsoft OpenXPS Class Driver 2" and "Microsoft Print to PDF" provide slightly different metrics.
 Therefore, the final document's layout may change if this option is enabled.

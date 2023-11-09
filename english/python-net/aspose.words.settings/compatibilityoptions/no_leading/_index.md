@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/no_leading/
 Do Not Add Leading Between Lines of Text.
 
 
+```python
+@property
+def no_leading(self) -> bool:
+    ...
+
+@no_leading.setter
+def no_leading(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -13,6 +13,16 @@ url: /python-net/aspose.words/document/versions_count/
 
 Gets the number of document versions that was stored in the DOC document.
 
+
+```python
+@property
+def versions_count(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 Versions in Microsoft Word are accessed via the File/Versions menu. Microsoft Word supports
 versions only for DOC files.
 

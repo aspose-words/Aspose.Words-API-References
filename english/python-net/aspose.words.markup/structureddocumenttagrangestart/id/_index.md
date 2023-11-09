@@ -15,13 +15,23 @@ Specifies a unique read-only persistent numerical Id for this structured documen
 
 
 
+
+```python
+@property
+def id(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 Id attribute shall follow these rules:
 
 * The document shall retain structured document tag ids only if the whole document
   is cloned [Document.clone()](../../../aspose.words/document/clone/#bool).
   
-* During [DocumentBase.import_node()](../../../aspose.words/documentbase/import_node/#node_bool) 
-  Id shall be retained if import does not cause conflicts with other structured document tag Ids in 
+* During [DocumentBase.import_node()](../../../aspose.words/documentbase/import_node/#node_bool)
+  Id shall be retained if import does not cause conflicts with other structured document tag Ids in
   the target document.
   
 * If multiple structured document tag nodes specify the same decimal number value for the Id attribute,

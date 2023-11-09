@@ -16,6 +16,17 @@ in a right-to-left language document.
 
 
 
+```python
+@property
+def theme_font_bi(self) -> aspose.words.themes.ThemeFont:
+    ...
+
+@theme_font_bi.setter
+def theme_font_bi(self, value: aspose.words.themes.ThemeFont):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with theme fonts and colors.

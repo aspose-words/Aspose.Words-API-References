@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldta/is_bold/
 Gets or sets whether to apply bold formatting to the page number for the entry.
 
 
+```python
+@property
+def is_bold(self) -> bool:
+    ...
+
+@is_bold.setter
+def is_bold(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

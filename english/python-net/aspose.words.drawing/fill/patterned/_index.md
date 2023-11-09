@@ -21,7 +21,7 @@ def patterned(self, pattern_type: aspose.words.drawing.PatternType):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern_type | [PatternType](../../patterntype/) |  |
+| pattern_type | [PatternType](../../patterntype/) | [PatternType](../../patterntype/) |
 
 ## patterned(pattern_type, fore_color, back_color) {#patterntype_color_color}
 
@@ -35,9 +35,9 @@ def patterned(self, pattern_type: aspose.words.drawing.PatternType, fore_color: 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern_type | [PatternType](../../patterntype/) |  |
-| fore_color | aspose.pydrawing.Color |  |
-| back_color | aspose.pydrawing.Color |  |
+| pattern_type | [PatternType](../../patterntype/) | [PatternType](../../patterntype/) |
+| fore_color | aspose.pydrawing.Color | The color of the foreground fill. |
+| back_color | aspose.pydrawing.Color | The color of the background fill. |
 
 ## Examples
 

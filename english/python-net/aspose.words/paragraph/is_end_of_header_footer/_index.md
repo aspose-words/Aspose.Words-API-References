@@ -15,6 +15,13 @@ True if this paragraph is the last paragraph in the [HeaderFooter](../../headerf
 
 
 
+```python
+@property
+def is_end_of_header_footer(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a header and a footer.

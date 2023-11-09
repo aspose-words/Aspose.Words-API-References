@@ -16,6 +16,20 @@ of the binarization error in the Floyd-Steinberg method.
 when [ImageBinarizationMethod](../../imagebinarizationmethod/) is [ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING](../../imagebinarizationmethod/#FLOYD_STEINBERG_DITHERING).
 
 
+
+```python
+@property
+def threshold_for_floyd_steinberg_dithering(self) -> int:
+    ...
+
+@threshold_for_floyd_steinberg_dithering.setter
+def threshold_for_floyd_steinberg_dithering(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The default value is 128.
 
 

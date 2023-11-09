@@ -15,6 +15,20 @@ Gets or sets the checked status of the check box form field.
 Default value for this property is ``False``.
 
 
+
+```python
+@property
+def checked(self) -> bool:
+    ...
+
+@checked.setter
+def checked(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Applicable for a check box form field only.
 
 

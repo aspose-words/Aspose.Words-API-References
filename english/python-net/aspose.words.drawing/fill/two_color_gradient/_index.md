@@ -21,8 +21,8 @@ def two_color_gradient(self, style: aspose.words.drawing.GradientStyle, variant:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [GradientStyle](../../gradientstyle/) |  |
-| variant | [GradientVariant](../../gradientvariant/) |  |
+| style | [GradientStyle](../../gradientstyle/) | The gradient style [GradientStyle](../../gradientstyle/). |
+| variant | [GradientVariant](../../gradientvariant/) | The gradient variant [GradientVariant](../../gradientvariant/) |
 
 ## two_color_gradient(color1, color2, style, variant) {#color_color_gradientstyle_gradientvariant}
 
@@ -36,10 +36,10 @@ def two_color_gradient(self, color1: aspose.pydrawing.Color, color2: aspose.pydr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | aspose.pydrawing.Color |  |
-| color2 | aspose.pydrawing.Color |  |
-| style | [GradientStyle](../../gradientstyle/) |  |
-| variant | [GradientVariant](../../gradientvariant/) |  |
+| color1 | aspose.pydrawing.Color | The first color to build the gradient. |
+| color2 | aspose.pydrawing.Color | The second color to build the gradient. |
+| style | [GradientStyle](../../gradientstyle/) | The gradient style [GradientStyle](../../gradientstyle/). |
+| variant | [GradientVariant](../../gradientvariant/) | The gradient variant [GradientVariant](../../gradientvariant/) |
 
 ## Examples
 

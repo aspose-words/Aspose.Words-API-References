@@ -16,6 +16,17 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def show_revision_marks(self) -> bool:
+    ...
+
+@show_revision_marks.setter
+def show_revision_marks(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

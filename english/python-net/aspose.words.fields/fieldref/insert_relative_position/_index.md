@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldref/insert_relative_position/
 Gets or sets whether to insert the relative position of the referenced paragraph.
 
 
+```python
+@property
+def insert_relative_position(self) -> bool:
+    ...
+
+@insert_relative_position.setter
+def insert_relative_position(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert REF fields to reference bookmarks.

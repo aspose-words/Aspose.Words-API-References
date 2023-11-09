@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrol/child_nodes/
 
 Gets collection of immediate child controls.
 
+
+```python
+@property
+def child_nodes(self) -> aspose.words.drawing.ole.Forms2OleControlCollection:
+    ...
+
+```
+
+### Remarks
+
 Returns ``None`` if this control can not have children.
 
 

@@ -15,6 +15,17 @@ Specifies that unused [Style.built_in](../../style/built_in/) styles should be r
 
 
 
+```python
+@property
+def unused_builtin_styles(self) -> bool:
+    ...
+
+@unused_builtin_styles.setter
+def unused_builtin_styles(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove all unused custom styles from a document.

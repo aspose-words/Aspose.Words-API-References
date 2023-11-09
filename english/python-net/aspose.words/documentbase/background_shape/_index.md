@@ -14,6 +14,20 @@ url: /python-net/aspose.words/documentbase/background_shape/
 Gets or sets the background shape of the document. Can be ``None``.
 
 
+
+```python
+@property
+def background_shape(self) -> aspose.words.drawing.Shape:
+    ...
+
+@background_shape.setter
+def background_shape(self, value: aspose.words.drawing.Shape):
+    ...
+
+```
+
+### Remarks
+
 Microsoft Word allows only a shape that has its [ShapeBase.shape_type](../../../aspose.words.drawing/shapebase/shape_type/) property equal
 to [ShapeType.RECTANGLE](../../../aspose.words.drawing/shapetype/#RECTANGLE) to be used as a background shape for a document.
 

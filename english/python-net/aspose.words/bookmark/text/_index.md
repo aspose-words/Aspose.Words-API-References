@@ -14,6 +14,17 @@ url: /python-net/aspose.words/bookmark/text/
 Gets or sets the text enclosed in the bookmark.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

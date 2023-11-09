@@ -5,7 +5,7 @@ articleTitle: scale_image_to_shape_size property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.scale_image_to_shape_size property. Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB"
 type: docs
-weight: 460
+weight: 450
 url: /python-net/aspose.words.saving/htmlsaveoptions/scale_image_to_shape_size/
 ---
 
@@ -15,6 +15,20 @@ Specifies whether images are scaled by Aspose.Words to the bounding shape size w
 or EPUB.
 Default value is ``True``.
 
+
+
+```python
+@property
+def scale_image_to_shape_size(self) -> bool:
+    ...
+
+@scale_image_to_shape_size.setter
+def scale_image_to_shape_size(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 An image in a Microsoft Word document is a shape. The shape has a size and the image
 has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, 

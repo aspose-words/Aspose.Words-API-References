@@ -21,7 +21,7 @@ def remove(self, node: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../node/) |  |
+| node | [Node](../../node/) | The node to remove. |
 
 ### Examples
 

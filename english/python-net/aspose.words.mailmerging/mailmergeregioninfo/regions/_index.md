@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 Returns a list of child regions.
 
 
+```python
+@property
+def regions(self) -> List[aspose.words.mailmerging.MailMergeRegionInfo]:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify mail merge regions.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldadvance/left_offset/
 Gets or sets the number of points by which the text that follows the field should be moved left.
 
 
+```python
+@property
+def left_offset(self) -> str:
+    ...
+
+@left_offset.setter
+def left_offset(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADVANCE field, and edit its properties.

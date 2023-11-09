@@ -15,6 +15,13 @@ Gets the [Document.theme](./) object for this document.
 
 
 
+```python
+@property
+def theme(self) -> aspose.words.themes.Theme:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

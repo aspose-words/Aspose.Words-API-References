@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddatabase/connection/
 Gets or sets a connection to the data.
 
 
+```python
+@property
+def connection(self) -> str:
+    ...
+
+@connection.setter
+def connection(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

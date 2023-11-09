@@ -22,7 +22,9 @@ def open(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | Filename of the document to load. |
+
+### Remarks
 
 This method is same as calling the [Document](../../document/) constructor with a file name parameter.
 
@@ -41,13 +43,15 @@ Allows a COM application to load [Document](../../document/) from a stream.
 
 
 ```python
-def open(self, stream: BytesIO):
+def open(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | A .NET stream object that contains the document to load. |
+
+### Remarks
 
 This method is same as calling the [Document](../../document/) constructor with a stream parameter.
 

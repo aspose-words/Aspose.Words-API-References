@@ -21,7 +21,9 @@ def move_to_merge_field(self, field_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_name | str |  |
+| field_name | str | The case-insensitive name of the mail merge field. |
+
+### Remarks
 
 Note that this method deletes the merge field from the document after moving the cursor.
 
@@ -45,9 +47,9 @@ def move_to_merge_field(self, field_name: str, is_after: bool, is_delete_field: 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_name | str |  |
-| is_after | bool |  |
-| is_delete_field | bool |  |
+| field_name | str | The case-insensitive name of the mail merge field. |
+| is_after | bool | When ``True``, moves the cursor to be after the field end. When ``False``, moves the cursor to be before the field start.  |
+| is_delete_field | bool | When ``True``, deletes the merge field. |
 
 ### Returns
 

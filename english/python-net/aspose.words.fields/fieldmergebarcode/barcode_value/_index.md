@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergebarcode/barcode_value/
 Gets or sets the barcode value.
 
 
+```python
+@property
+def barcode_value(self) -> str:
+    ...
+
+@barcode_value.setter
+def barcode_value(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

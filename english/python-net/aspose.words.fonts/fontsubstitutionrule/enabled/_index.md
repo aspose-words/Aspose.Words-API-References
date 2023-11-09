@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fonts/fontsubstitutionrule/enabled/
 Specifies whether the rule is enabled or not.
 
 
+```python
+@property
+def enabled(self) -> bool:
+    ...
+
+@enabled.setter
+def enabled(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's system font source and set font substitutes.

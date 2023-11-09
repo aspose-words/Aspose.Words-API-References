@@ -14,6 +14,13 @@ url: /python-net/aspose.words/nodecollection/count/
 Gets the number of nodes in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to traverse through a composite node's collection of child nodes.

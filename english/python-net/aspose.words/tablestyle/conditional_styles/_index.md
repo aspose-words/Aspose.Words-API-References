@@ -14,6 +14,13 @@ url: /python-net/aspose.words/tablestyle/conditional_styles/
 Collection of conditional styles that may be defined for this table style.
 
 
+```python
+@property
+def conditional_styles(self) -> aspose.words.ConditionalStyleCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

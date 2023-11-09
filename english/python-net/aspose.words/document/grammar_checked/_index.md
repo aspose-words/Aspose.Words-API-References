@@ -14,6 +14,20 @@ url: /python-net/aspose.words/document/grammar_checked/
 Returns ``True`` if the document has been checked for grammar.
 
 
+
+```python
+@property
+def grammar_checked(self) -> bool:
+    ...
+
+@grammar_checked.setter
+def grammar_checked(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 To recheck the grammar in the document, set this property to ``False``.
 
 

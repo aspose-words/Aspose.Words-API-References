@@ -21,7 +21,7 @@ def load(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | Input file name. |
 
 ## load(stream) {#bytesio}
 
@@ -29,13 +29,13 @@ Loads table substitution settings from XML stream.
 
 
 ```python
-def load(self, stream: BytesIO):
+def load(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | Input stream. |
 
 ## Examples
 

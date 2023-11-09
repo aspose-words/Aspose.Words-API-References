@@ -21,9 +21,11 @@ def get_building_block(self, gallery: aspose.words.buildingblocks.BuildingBlockG
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| gallery | [BuildingBlockGallery](../../buildingblockgallery/) |  |
-| category | str |  |
-| name | str |  |
+| gallery | [BuildingBlockGallery](../../buildingblockgallery/) | The gallery criteria. |
+| category | str | The category criteria. Can be ``None``, in which case it will not be used for comparison. |
+| name | str | The building block name criteria. |
+
+### Remarks
 
 This is a convenience method that iterates over all building blocks
 in this collection and returns the first building block that matches

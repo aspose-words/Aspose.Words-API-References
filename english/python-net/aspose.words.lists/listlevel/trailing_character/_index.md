@@ -14,6 +14,17 @@ url: /python-net/aspose.words.lists/listlevel/trailing_character/
 Returns or sets the character inserted after the number for the list level.
 
 
+```python
+@property
+def trailing_character(self) -> aspose.words.lists.ListTrailingCharacter:
+    ...
+
+@trailing_character.setter
+def trailing_character(self, value: aspose.words.lists.ListTrailingCharacter):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.

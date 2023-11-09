@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def do_not_supress_blank_lines(self) -> bool:
+    ...
+
+@do_not_supress_blank_lines.setter
+def do_not_supress_blank_lines(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

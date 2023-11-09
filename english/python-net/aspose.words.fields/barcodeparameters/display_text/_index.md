@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/display_text/
 Whether to display barcode data (text) along with image.
 
 
+```python
+@property
+def display_text(self) -> bool:
+    ...
+
+@display_text.setter
+def display_text(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

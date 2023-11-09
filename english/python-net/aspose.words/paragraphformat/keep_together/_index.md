@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/keep_together/
 True if all lines in the paragraph are to remain on the same page.
 
 
+```python
+@property
+def keep_together(self) -> bool:
+    ...
+
+@keep_together.setter
+def keep_together(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a paragraph into the document.

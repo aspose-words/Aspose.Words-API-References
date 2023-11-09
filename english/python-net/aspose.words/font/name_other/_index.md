@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/name_other/
 Returns or sets the font used for characters with character codes from 128 through 255.
 
 
+```python
+@property
+def name_other(self) -> str:
+    ...
+
+@name_other.setter
+def name_other(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how Microsoft Word can combine two different fonts in one run.

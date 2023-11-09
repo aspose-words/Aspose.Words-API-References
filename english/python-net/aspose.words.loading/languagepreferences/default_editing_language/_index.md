@@ -13,10 +13,21 @@ url: /python-net/aspose.words.loading/languagepreferences/default_editing_langua
 
 Gets or sets default editing language.
 
-The default value is Aspose.Words.Loading.EditingLanguage.EnglishUS.
+The default value is EnglishUS.
 
 
 
+
+```python
+@property
+def default_editing_language(self) -> aspose.words.loading.EditingLanguage:
+    ...
+
+@default_editing_language.setter
+def default_editing_language(self, value: aspose.words.loading.EditingLanguage):
+    ...
+
+```
 
 ### Examples
 

@@ -17,6 +17,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+### Remarks
+
 [EditableRange](./) is a "facade" object that encapsulates two nodes [EditableRange.editable_range_start](./editable_range_start/)
 and [EditableRange.editable_range_end](./editable_range_end/) in a document tree and allows to work with an editable range as a single object.
 

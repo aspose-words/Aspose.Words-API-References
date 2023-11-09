@@ -13,6 +13,20 @@ url: /python-net/aspose.words.loading/loadoptions/font_settings/
 
 Allows to specify document font settings.
 
+
+```python
+@property
+def font_settings(self) -> aspose.words.fonts.FontSettings:
+    ...
+
+@font_settings.setter
+def font_settings(self, value: aspose.words.fonts.FontSettings):
+    ...
+
+```
+
+### Remarks
+
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words
 may resolve the fonts to perform font fallback.
 

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/oleformat/clsid/
 Gets the CLSID of the OLE object.
 
 
+```python
+@property
+def clsid(self) -> uuid.UUID:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access an OLE control embedded in a document and its child controls.

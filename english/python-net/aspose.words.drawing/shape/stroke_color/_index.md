@@ -13,10 +13,25 @@ url: /python-net/aspose.words.drawing/shape/stroke_color/
 
 Defines the color of a stroke.
 
+
+```python
+@property
+def stroke_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@stroke_color.setter
+def stroke_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 This is a shortcut to the [Stroke.color](../../stroke/color/) property.
 
 The default value is
-System.Drawing.Color.Black.
+aspose.pydrawing.Color.black.
+
 
 
 

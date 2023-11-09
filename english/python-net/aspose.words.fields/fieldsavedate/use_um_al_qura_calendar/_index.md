@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldsavedate/use_um_al_qura_calendar/
 Gets or sets whether to use the Um-al-Qura calendar.
 
 
+```python
+@property
+def use_um_al_qura_calendar(self) -> bool:
+    ...
+
+@use_um_al_qura_calendar.setter
+def use_um_al_qura_calendar(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word.

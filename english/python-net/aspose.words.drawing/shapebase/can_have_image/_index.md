@@ -14,6 +14,16 @@ url: /python-net/aspose.words.drawing/shapebase/can_have_image/
 Returns ``True`` if the shape type allows the shape to have an image.
 
 
+
+```python
+@property
+def can_have_image(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape
 except a group shape can have an image, therefore this property returns ``True`` for all shapes except [GroupShape](../../groupshape/).
 

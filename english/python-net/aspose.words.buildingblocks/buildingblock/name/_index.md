@@ -13,6 +13,20 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/name/
 
 Gets or sets the name of this building block.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The name may contain any string content, usually a friendly identifier.
 Multiple building blocks can have the same name.
 

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/stylecollection/document/
 Gets the owner document.
 
 
+```python
+@property
+def document(self) -> aspose.words.DocumentBase:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's style collection.

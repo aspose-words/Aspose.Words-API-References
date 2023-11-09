@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/export_language_to_span_tag/
 
 Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
 
+
+```python
+@property
+def export_language_to_span_tag(self) -> bool:
+    ...
+
+@export_language_to_span_tag.setter
+def export_language_to_span_tag(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default value is ``False`` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
 
 When the value is ``True`` "Span" tag is created for the text with non-default language

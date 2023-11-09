@@ -14,6 +14,13 @@ url: /python-net/aspose.words.settings/odsorecipientdatacollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.

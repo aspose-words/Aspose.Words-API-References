@@ -13,6 +13,20 @@ url: /python-net/aspose.words.settings/viewoptions/view_type/
 
 Controls the view mode in Microsoft Word.
 
+
+```python
+@property
+def view_type(self) -> aspose.words.settings.ViewType:
+    ...
+
+@view_type.setter
+def view_type(self, value: aspose.words.settings.ViewType):
+    ...
+
+```
+
+### Remarks
+
 Although Aspose.Words is able to read and write this option, its usage is application-specific. 
 For example MS Word 2013 does not respect the value of this option.
 

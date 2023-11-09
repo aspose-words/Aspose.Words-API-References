@@ -16,6 +16,13 @@ By default it is zero count of character '\\0', that means no indentation.
 
 
 
+```python
+@property
+def list_indentation(self) -> aspose.words.saving.TxtListIndentation:
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure list indenting when saving a document to plaintext.

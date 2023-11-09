@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def ignore_footnotes(self) -> bool:
+    ...
+
+@ignore_footnotes.setter
+def ignore_footnotes(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to ignore footnotes during a find-and-replace operation.

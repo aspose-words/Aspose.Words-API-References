@@ -21,7 +21,9 @@ def set_license(self, license_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| license_name | str |  |
+| license_name | str | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
+### Remarks
 
 Tries to find the license in the following locations:
 
@@ -50,13 +52,15 @@ Licenses the component.
 
 
 ```python
-def set_license(self, stream: BytesIO):
+def set_license(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | A stream that contains the license. |
+
+### Remarks
 
 Use this method to load a license from a stream.
 

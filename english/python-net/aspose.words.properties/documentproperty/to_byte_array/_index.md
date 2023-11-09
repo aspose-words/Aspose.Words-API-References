@@ -19,6 +19,8 @@ def to_byte_array(self):
     ...
 ```
 
+### Remarks
+
 Throws an exception if the property type is not [PropertyType.BYTE_ARRAY](../../propertytype/#BYTE_ARRAY).
 
 

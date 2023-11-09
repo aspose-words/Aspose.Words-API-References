@@ -15,6 +15,13 @@ Returns ``True`` when a write protection password is set.
 
 
 
+```python
+@property
+def is_write_protected(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to protect a document with a password.

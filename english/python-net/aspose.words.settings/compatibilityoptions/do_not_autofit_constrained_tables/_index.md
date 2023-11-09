@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_autofit_const
 Do Not AutoFit Tables To Fit Next To Wrapped Objects.
 
 
+```python
+@property
+def do_not_autofit_constrained_tables(self) -> bool:
+    ...
+
+@do_not_autofit_constrained_tables.setter
+def do_not_autofit_constrained_tables(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

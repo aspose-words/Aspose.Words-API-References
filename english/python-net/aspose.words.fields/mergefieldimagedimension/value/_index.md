@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/mergefieldimagedimension/value/
 
 The value.
 
+
+```python
+@property
+def value(self) -> float:
+    ...
+
+@value.setter
+def value(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 You should use a negative value to indicate that the original value of the corresponding image dimension
 should be applied.
 

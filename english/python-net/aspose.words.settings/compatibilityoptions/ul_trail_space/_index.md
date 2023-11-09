@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/ul_trail_space/
 Underline All Trailing Spaces.
 
 
+```python
+@property
+def ul_trail_space(self) -> bool:
+    ...
+
+@ul_trail_space.setter
+def ul_trail_space(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

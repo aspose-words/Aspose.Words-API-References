@@ -5,7 +5,7 @@ articleTitle: resolve_font_names property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.resolve_font_names property. Specifies whether font family names used in the document are resolved and substituted according to [Document.font_settings](../../../aspose.words/document/font_settings/) when being written into HTML-based formats."
 type: docs
-weight: 420
+weight: 410
 url: /python-net/aspose.words.saving/htmlsaveoptions/resolve_font_names/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/resolve_font_names/
 Specifies whether font family names used in the document are resolved and substituted according to
 [Document.font_settings](../../../aspose.words/document/font_settings/) when being written into HTML-based formats.
 
+
+
+```python
+@property
+def resolve_font_names(self) -> bool:
+    ...
+
+@resolve_font_names.setter
+def resolve_font_names(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 By default, this option is set to ``False`` and font family names are written to HTML as specified
 in source documents. That is, [Document.font_settings](../../../aspose.words/document/font_settings/) are ignored and no resolution or substitution

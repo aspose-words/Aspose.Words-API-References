@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/fill/fill_type/
 Gets a fill type.
 
 
+```python
+@property
+def fill_type(self) -> aspose.words.drawing.FillType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

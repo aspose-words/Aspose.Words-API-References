@@ -23,8 +23,8 @@ def set_fonts_folder(self, font_folder: str, recursive: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| font_folder | str |  |
-| recursive | bool |  |
+| font_folder | str | The folder that contains TrueType fonts. |
+| recursive | bool | True to scan the specified folders for fonts recursively. |
 
 ### Examples
 

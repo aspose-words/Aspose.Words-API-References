@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldupdatingprogressargs/updated_fields_co
 Gets the number of updated fields.
 
 
+```python
+@property
+def updated_fields_count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

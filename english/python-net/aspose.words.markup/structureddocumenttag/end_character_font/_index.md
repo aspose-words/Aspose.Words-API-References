@@ -15,6 +15,13 @@ Font formatting that will be applied to the last character of text entered into 
 
 
 
+```python
+@property
+def end_character_font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.

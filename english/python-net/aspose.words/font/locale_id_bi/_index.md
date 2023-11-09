@@ -13,6 +13,20 @@ url: /python-net/aspose.words/font/locale_id_bi/
 
 Gets or sets the locale identifier (language) of the formatted right-to-left characters.
 
+
+```python
+@property
+def locale_id_bi(self) -> int:
+    ...
+
+@locale_id_bi.setter
+def locale_id_bi(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 

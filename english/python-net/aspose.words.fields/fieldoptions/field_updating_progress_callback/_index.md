@@ -15,6 +15,17 @@ Gets or sets [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallba
 
 
 
+```python
+@property
+def field_updating_progress_callback(self) -> aspose.words.fields.IFieldUpdatingProgressCallback:
+    ...
+
+@field_updating_progress_callback.setter
+def field_updating_progress_callback(self, value: aspose.words.fields.IFieldUpdatingProgressCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

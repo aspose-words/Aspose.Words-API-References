@@ -24,6 +24,8 @@ def format(self, value: str, format: aspose.words.fields.GeneralFormat):
 | value | str |  |
 | format | [GeneralFormat](../../generalformat/) |  |
 
+### Remarks
+
 The implementation should return ``None`` to indicate that the default formatting should be applied.
 
 
@@ -42,6 +44,8 @@ def format(self, value: float, format: aspose.words.fields.GeneralFormat):
 | --- | --- | --- |
 | value | float |  |
 | format | [GeneralFormat](../../generalformat/) |  |
+
+### Remarks
 
 The implementation should return ``None`` to indicate that the default formatting should be applied.
 

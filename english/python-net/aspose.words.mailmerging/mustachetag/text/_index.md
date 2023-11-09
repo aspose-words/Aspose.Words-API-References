@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mustachetag/text/
 Gets the text of the tag.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

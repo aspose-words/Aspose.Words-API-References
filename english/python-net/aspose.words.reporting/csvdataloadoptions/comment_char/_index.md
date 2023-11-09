@@ -13,6 +13,20 @@ url: /python-net/aspose.words.reporting/csvdataloadoptions/comment_char/
 
 Gets or sets the character that is used to comment lines of CSV data.
 
+
+```python
+@property
+def comment_char(self) -> str:
+    ...
+
+@comment_char.setter
+def comment_char(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is '#' (number sign).
 
 

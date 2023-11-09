@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/variables/
 Returns the collection of variables added to a document or template.
 
 
+```python
+@property
+def variables(self) -> aspose.words.VariableCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a document's variable collection.

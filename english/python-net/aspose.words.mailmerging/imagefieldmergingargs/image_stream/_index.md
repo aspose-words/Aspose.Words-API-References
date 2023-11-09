@@ -13,6 +13,20 @@ url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/image_stream/
 
 Specifies the stream for the mail merge engine to read an image from.
 
+
+```python
+@property
+def image_stream(self) -> io.BytesIO:
+    ...
+
+@image_stream.setter
+def image_stream(self, value: io.BytesIO):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words closes this stream after it merges the image into the document.
 
 

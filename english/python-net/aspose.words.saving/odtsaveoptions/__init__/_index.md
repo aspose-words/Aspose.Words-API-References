@@ -50,7 +50,7 @@ def __init__(self, save_format: aspose.words.SaveFormat):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| save_format | [SaveFormat](../../../aspose.words/saveformat/) |  |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.ODT](../../../aspose.words/saveformat/#ODT) or [SaveFormat.OTT](../../../aspose.words/saveformat/#OTT). |
 
 ## Examples
 

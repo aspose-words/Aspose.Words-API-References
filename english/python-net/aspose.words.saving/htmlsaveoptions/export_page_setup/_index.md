@@ -5,7 +5,7 @@ articleTitle: export_page_setup property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_page_setup property. Specifies whether page setup is exported to HTML, MHTML or EPUB"
 type: docs
-weight: 230
+weight: 220
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_page_setup/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_page_setup/
 Specifies whether page setup is exported to HTML, MHTML or EPUB.
 Default is ``False``.
 
+
+
+```python
+@property
+def export_page_setup(self) -> bool:
+    ...
+
+@export_page_setup.setter
+def export_page_setup(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 Each [Section](../../../aspose.words/section/) in Aspose.Words document model provides page setup information
 via [PageSetup](../../../aspose.words/pagesetup/) class. When you export a document to HTML format you might need to keep this information

@@ -23,6 +23,8 @@ def __getitem__(self, index: int):
 | --- | --- | --- |
 | index | int |  |
 
+### Remarks
+
 Empty values are represented as **null**.
 
 

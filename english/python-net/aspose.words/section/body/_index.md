@@ -14,6 +14,16 @@ url: /python-net/aspose.words/section/body/
 Returns the [Body](../../body/) child node of the section.
 
 
+
+```python
+@property
+def body(self) -> aspose.words.Body:
+    ...
+
+```
+
+### Remarks
+
 [Body](../../body/) contains main text of the section.
 
 Returns ``None`` if the section does not have a [Body](../../body/) node among its children.

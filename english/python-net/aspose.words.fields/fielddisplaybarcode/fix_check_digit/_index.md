@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddisplaybarcode/fix_check_digit/
 Gets or sets whether to fix the check digit if it’s invalid.
 
 
+```python
+@property
+def fix_check_digit(self) -> bool:
+    ...
+
+@fix_check_digit.setter
+def fix_check_digit(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.

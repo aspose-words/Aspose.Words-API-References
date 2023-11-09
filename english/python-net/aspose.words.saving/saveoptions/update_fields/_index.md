@@ -15,6 +15,20 @@ Gets or sets a value determining if fields of certain types should be updated be
 Default value for this property is ``True``.
 
 
+
+```python
+@property
+def update_fields(self) -> bool:
+    ...
+
+@update_fields.setter
+def update_fields(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Allows to specify whether to mimic or not MS Word behavior.
 
 

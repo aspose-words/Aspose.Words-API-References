@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/userinformation/address/
 Gets or sets the user's postal address.
 
 
+```python
+@property
+def address(self) -> str:
+    ...
+
+@address.setter
+def address(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set user details, and display them using fields.

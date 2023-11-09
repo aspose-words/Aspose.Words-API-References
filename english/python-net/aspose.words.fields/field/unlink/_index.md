@@ -19,6 +19,8 @@ def unlink(self):
     ...
 ```
 
+### Remarks
+
 Replaces the field with its most recent result.
 
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.

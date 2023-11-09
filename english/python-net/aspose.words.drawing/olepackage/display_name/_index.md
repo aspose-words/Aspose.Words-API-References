@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/olepackage/display_name/
 Gets or sets OLE Package display name.
 
 
+```python
+@property
+def display_name(self) -> str:
+    ...
+
+@display_name.setter
+def display_name(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

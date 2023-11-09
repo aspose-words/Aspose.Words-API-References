@@ -14,6 +14,20 @@ url: /python-net/aspose.words.drawing/imagedata/brightness/
 Gets or sets the brightness of the picture.
 The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest).
 
+
+```python
+@property
+def brightness(self) -> float:
+    ...
+
+@brightness.setter
+def brightness(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 0.5.
 
 

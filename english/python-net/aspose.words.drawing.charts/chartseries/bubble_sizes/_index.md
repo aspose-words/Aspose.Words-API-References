@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/bubble_sizes/
 Gets a collection of bubble sizes for this chart series.
 
 
+```python
+@property
+def bubble_sizes(self) -> aspose.words.drawing.charts.BubbleSizeCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldhyperlink/target/
 Gets or sets the target to which the link should be redirected.
 
 
+```python
+@property
+def target(self) -> str:
+    ...
+
+@target.setter
+def target(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.

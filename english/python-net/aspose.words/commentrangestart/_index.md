@@ -17,6 +17,8 @@ To learn more, visit the [Working with Comments](https://docs.aspose.com/words/p
 
 
 
+### Remarks
+
 To create a comment anchored to a region of text, you need to create a [Comment](../comment/) and
 then create [CommentRangeStart](./) and [CommentRangeEnd](../commentrangeend/) and set their identifiers 
 to the same [Comment.id](../comment/id/) value.
@@ -53,7 +55,7 @@ to the same [Comment.id](../comment/id/) value.
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
-|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_text()](../node/get_text/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../node/)) |
 |[ next_pre_order(root_node)](../node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |

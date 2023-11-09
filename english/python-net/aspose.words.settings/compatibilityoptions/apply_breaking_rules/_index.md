@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/apply_breaking_rules
 Use Legacy Ethiopic and Amharic Line Breaking Rules.
 
 
+```python
+@property
+def apply_breaking_rules(self) -> bool:
+    ...
+
+@apply_breaking_rules.setter
+def apply_breaking_rules(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

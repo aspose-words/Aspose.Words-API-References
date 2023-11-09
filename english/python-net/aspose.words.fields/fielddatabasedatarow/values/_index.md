@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fielddatabasedatarow/values/
 Gets values that belong to this row.
 
 
+```python
+@property
+def values(self) -> List[str]:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

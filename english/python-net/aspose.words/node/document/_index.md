@@ -13,6 +13,16 @@ url: /python-net/aspose.words/node/document/
 
 Gets the document to which this node belongs.
 
+
+```python
+@property
+def document(self) -> aspose.words.DocumentBase:
+    ...
+
+```
+
+### Remarks
+
 The node always belongs to a document even if it has just been created
 and not yet added to the tree, or if it has been removed from the tree.
 

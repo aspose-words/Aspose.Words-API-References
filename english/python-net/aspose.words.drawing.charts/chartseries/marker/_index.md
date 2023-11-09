@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/marker/
 Specifies a data marker. Marker is automatically created when requested.
 
 
+```python
+@property
+def marker(self) -> aspose.words.drawing.charts.ChartMarker:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

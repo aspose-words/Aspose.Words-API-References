@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/same_letter_heights/
 
 Determines whether all letters will be the same height regardless of initial case.
 
+
+```python
+@property
+def same_letter_heights(self) -> bool:
+    ...
+
+@same_letter_heights.setter
+def same_letter_heights(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

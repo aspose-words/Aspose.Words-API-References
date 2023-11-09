@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback.
 
 

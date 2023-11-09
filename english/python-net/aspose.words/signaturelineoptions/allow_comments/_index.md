@@ -16,6 +16,17 @@ Default value for this property is ``False``.
 
 
 
+```python
+@property
+def allow_comments(self) -> bool:
+    ...
+
+@allow_comments.setter
+def allow_comments(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign a document with a personal certificate and a signature line.

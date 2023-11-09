@@ -16,6 +16,17 @@ Returns or sets a Boolean to indicate the series name display behavior for the d
 
 
 
+```python
+@property
+def show_series_name(self) -> bool:
+    ...
+
+@show_series_name.setter
+def show_series_name(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

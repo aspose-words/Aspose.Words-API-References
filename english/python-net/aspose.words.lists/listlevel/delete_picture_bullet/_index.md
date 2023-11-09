@@ -19,6 +19,8 @@ def delete_picture_bullet(self):
     ...
 ```
 
+### Remarks
+
 Default bullet will be shown after deleting.
 
 

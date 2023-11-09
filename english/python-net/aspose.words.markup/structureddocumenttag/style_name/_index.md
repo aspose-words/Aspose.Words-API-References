@@ -14,6 +14,17 @@ url: /python-net/aspose.words.markup/structureddocumenttag/style_name/
 Gets or sets the name of the style applied to the structured document tag.
 
 
+```python
+@property
+def style_name(self) -> str:
+    ...
+
+@style_name.setter
+def style_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with styles for content control elements.

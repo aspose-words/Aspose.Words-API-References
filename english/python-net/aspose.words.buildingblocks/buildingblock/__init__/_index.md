@@ -21,7 +21,9 @@ def __init__(self, glossary_doc: aspose.words.buildingblocks.GlossaryDocument):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| glossary_doc | [GlossaryDocument](../../glossarydocument/) |  |
+| glossary_doc | [GlossaryDocument](../../glossarydocument/) | The owner document. |
+
+### Remarks
 
 When [BuildingBlock](../) is created, it belongs to the specified glossary document, 
 but is not yet part of the glossary document and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``None``.

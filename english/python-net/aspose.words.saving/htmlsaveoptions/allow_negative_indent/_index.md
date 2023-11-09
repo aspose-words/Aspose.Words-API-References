@@ -15,6 +15,20 @@ Specifies whether negative left and right indents of paragraphs are normalized
 when saving to HTML, MHTML or EPUB. Default value is ``False``.
 
 
+
+```python
+@property
+def allow_negative_indent(self) -> bool:
+    ...
+
+@allow_negative_indent.setter
+def allow_negative_indent(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When negative indent is not allowed, it is exported as zero margin to HTML.
 When negative indent is allowed, a paragraph might appear partially outside of the
 browser window.

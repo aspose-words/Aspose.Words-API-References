@@ -13,6 +13,16 @@ url: /python-net/aspose.words.rendering/noderendererbase/size_in_points/
 
 Gets the actual size of the shape in points.
 
+
+```python
+@property
+def size_in_points(self) -> aspose.pydrawing.SizeF:
+    ...
+
+```
+
+### Remarks
+
 This property returns the size of the actual (as rendered on the page) bounding box of the shape.
 The size takes into account shape rotation (if any).
 

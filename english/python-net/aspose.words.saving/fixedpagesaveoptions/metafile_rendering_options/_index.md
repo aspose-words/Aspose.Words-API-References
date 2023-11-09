@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_opt
 Allows to specify metafile rendering options.
 
 
+```python
+@property
+def metafile_rendering_options(self) -> aspose.words.saving.MetafileRenderingOptions:
+    ...
+
+@metafile_rendering_options.setter
+def metafile_rendering_options(self, value: aspose.words.saving.MetafileRenderingOptions):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

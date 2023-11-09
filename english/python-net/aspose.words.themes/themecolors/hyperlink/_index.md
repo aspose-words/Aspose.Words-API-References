@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/hyperlink/
 Specifies color for a hyperlink.
 
 
+```python
+@property
+def hyperlink(self) -> aspose.pydrawing.Color:
+    ...
+
+@hyperlink.setter
+def hyperlink(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

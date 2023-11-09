@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/followed_hyperlink/
 Specifies color for a clicked hyperlink.
 
 
+```python
+@property
+def followed_hyperlink(self) -> aspose.pydrawing.Color:
+    ...
+
+@followed_hyperlink.setter
+def followed_hyperlink(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

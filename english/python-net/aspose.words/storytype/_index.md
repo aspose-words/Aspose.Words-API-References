@@ -5,7 +5,7 @@ articleTitle: StoryType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.StoryType enumeration. Text of a Word document is stored in stories"
 type: docs
-weight: 1110
+weight: 1120
 url: /python-net/aspose.words/storytype/
 ---
 
@@ -31,12 +31,12 @@ Text of a Word document is stored in stories. [StoryType](./) identifies a story
 | PRIMARY_FOOTER | Contains text of the primary footer. When footer is different for odd and even pages, contains text of the odd pages footer. Represented by [HeaderFooter](../headerfooter/). |
 | FIRST_PAGE_HEADER | Contains text of the first page header, represented by [HeaderFooter](../headerfooter/). |
 | FIRST_PAGE_FOOTER | Contains text of the first page footer, represented by [HeaderFooter](../headerfooter/). |
-| FOOTNOTE_SEPARATOR | Contains the text of the footnote separator, represented by Aspose.Words.Notes.FootnoteSeparator. |
-| FOOTNOTE_CONTINUATION_SEPARATOR | Contains the text of the footnote continuation separator, represented by Aspose.Words.Notes.FootnoteSeparator. |
-| FOOTNOTE_CONTINUATION_NOTICE | Contains the text of the footnote continuation notice separator, represented by Aspose.Words.Notes.FootnoteSeparator. |
-| ENDNOTE_SEPARATOR | Contains the text of the endnote separator, represented by Aspose.Words.Notes.FootnoteSeparator. |
-| ENDNOTE_CONTINUATION_SEPARATOR | Contains the text of the endnote continuation separator, represented by Aspose.Words.Notes.FootnoteSeparator. |
-| ENDNOTE_CONTINUATION_NOTICE | Contains the text of the endnote continuation notice separator, represented by Aspose.Words.Notes.FootnoteSeparator. |
+| FOOTNOTE_SEPARATOR | Contains the text of the footnote separator. |
+| FOOTNOTE_CONTINUATION_SEPARATOR | Contains the text of the footnote continuation separator. |
+| FOOTNOTE_CONTINUATION_NOTICE | Contains the text of the footnote continuation notice separator. |
+| ENDNOTE_SEPARATOR | Contains the text of the endnote separator. |
+| ENDNOTE_CONTINUATION_SEPARATOR | Contains the text of the endnote continuation separator. |
+| ENDNOTE_CONTINUATION_NOTICE | Contains the text of the endnote continuation notice separator. |
 
 ### Examples
 

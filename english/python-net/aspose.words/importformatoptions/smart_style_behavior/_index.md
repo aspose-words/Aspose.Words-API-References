@@ -16,6 +16,20 @@ when they have equal names in source and destination documents.
 The default value is ``False``.
 
 
+
+```python
+@property
+def smart_style_behavior(self) -> bool:
+    ...
+
+@smart_style_behavior.setter
+def smart_style_behavior(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When this option is **enabled**, the source style will be expanded into a direct attributes inside a
 destination document, if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../../importformatmode/#KEEP_SOURCE_FORMATTING) importing mode is used.
 

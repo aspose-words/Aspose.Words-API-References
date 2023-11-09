@@ -19,6 +19,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def link_to_query(self) -> bool:
+    ...
+
+@link_to_query.setter
+def link_to_query(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

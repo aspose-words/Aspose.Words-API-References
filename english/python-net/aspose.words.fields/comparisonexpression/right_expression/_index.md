@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/comparisonexpression/right_expression/
 Gets the right expression.
 
 
+```python
+@property
+def right_expression(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

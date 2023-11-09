@@ -13,6 +13,20 @@ url: /python-net/aspose.words/border/distance_from_text/
 
 Gets or sets distance of the border from text or from the page edge in points.
 
+
+```python
+@property
+def distance_from_text(self) -> float:
+    ...
+
+@distance_from_text.setter
+def distance_from_text(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Has no effect and will be automatically reset to zero for borders of table cells.
 
 

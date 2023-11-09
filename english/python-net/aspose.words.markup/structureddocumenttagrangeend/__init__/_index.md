@@ -22,8 +22,8 @@ def __init__(self, doc: aspose.words.DocumentBase, id: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
-| id | int |  |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
+| id | int | Identifier of the corresponding structured document tag range start. |
 
 ### Examples
 

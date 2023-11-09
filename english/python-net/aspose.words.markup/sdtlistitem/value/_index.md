@@ -13,6 +13,16 @@ url: /python-net/aspose.words.markup/sdtlistitem/value/
 
 Gets the value of this list item.
 
+
+```python
+@property
+def value(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None`` and cannot be an empty string.
 
 

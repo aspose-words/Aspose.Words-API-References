@@ -17,6 +17,8 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 
 
 
+### Remarks
+
 You do not create instances of this class directly. Objects of this class are returned by 
 [FileFormatUtil.detect_file_format()](../fileformatutil/detect_file_format/#bytesio) methods.
 

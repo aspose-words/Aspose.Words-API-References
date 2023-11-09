@@ -21,7 +21,7 @@ def load_signatures(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | Path to the document. |
 
 ### Returns
 
@@ -34,13 +34,13 @@ Loads digital signatures from document using stream.
 
 
 ```python
-def load_signatures(self, stream: BytesIO):
+def load_signatures(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | Stream with the document. |
 
 ### Returns
 

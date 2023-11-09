@@ -13,6 +13,16 @@ url: /python-net/aspose.words/style/list/
 
 Gets the list that defines formatting of this list style.
 
+
+```python
+@property
+def list(self) -> aspose.words.lists.List:
+    ...
+
+```
+
+### Remarks
+
 This property is only valid for list styles.
 For other style types this property returns ``None``.
 

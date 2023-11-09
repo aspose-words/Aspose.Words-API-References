@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/name_of_appli
 Gets or sets the name of the application.
 
 
+```python
+@property
+def name_of_application(self) -> str:
+    ...
+
+@name_of_application.setter
+def name_of_application(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with document properties in the "Origin" category.

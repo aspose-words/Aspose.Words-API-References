@@ -16,6 +16,17 @@ Can only be [SaveFormat.WORD_ML](../../../aspose.words/saveformat/#WORD_ML).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to manage output document's raw content.

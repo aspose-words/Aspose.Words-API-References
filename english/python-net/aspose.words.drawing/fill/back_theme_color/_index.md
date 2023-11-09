@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/fill/back_theme_color/
 Gets or sets a ThemeColor object that represents the background color for the fill.
 
 
+```python
+@property
+def back_theme_color(self) -> aspose.words.themes.ThemeColor:
+    ...
+
+@back_theme_color.setter
+def back_theme_color(self, value: aspose.words.themes.ThemeColor):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set theme color for foreground / background shape color.

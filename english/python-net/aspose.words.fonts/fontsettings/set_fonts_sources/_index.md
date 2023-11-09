@@ -21,7 +21,9 @@ def set_fonts_sources(self, sources: List[aspose.words.fonts.FontSourceBase]):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sources | List[[FontSourceBase](../../fontsourcebase/)] |  |
+| sources | List[[FontSourceBase](../../fontsourcebase/)] | An array of sources that contain TrueType fonts. |
+
+### Remarks
 
 By default, Aspose.Words looks for fonts installed to the system.
 
@@ -37,14 +39,16 @@ font search cache.
 
 
 ```python
-def set_fonts_sources(self, sources: List[aspose.words.fonts.FontSourceBase], cache_input_stream: BytesIO):
+def set_fonts_sources(self, sources: List[aspose.words.fonts.FontSourceBase], cache_input_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sources | List[[FontSourceBase](../../fontsourcebase/)] |  |
-| cache_input_stream | BytesIO |  |
+| sources | List[[FontSourceBase](../../fontsourcebase/)] | An array of sources that contain TrueType fonts. |
+| cache_input_stream | io.BytesIO | Input stream with saved font search cache. |
+
+### Remarks
 
 Loading previously saved font search cache will speed up the font cache initialization process. It is
 especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).

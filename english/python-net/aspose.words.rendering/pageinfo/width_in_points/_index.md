@@ -14,6 +14,13 @@ url: /python-net/aspose.words.rendering/pageinfo/width_in_points/
 Gets the width of the page in points.
 
 
+```python
+@property
+def width_in_points(self) -> float:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.rendering](../../)

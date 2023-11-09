@@ -21,9 +21,11 @@ def insert_online_video(self, video_url: str, width: float, height: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| video_url | str |  |
-| width | float |  |
-| height | float |  |
+| video_url | str | The URL to the video. |
+| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
@@ -59,14 +61,16 @@ def insert_online_video(self, video_url: str, horz_pos: aspose.words.drawing.Rel
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| video_url | str |  |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
-| left | float |  |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
-| top | float |  |
-| width | float |  |
-| height | float |  |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
+| video_url | str | The URL to the video. |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| left | float | Distance in points from the origin to the left side of the image. |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| top | float | Distance in points from the origin to the top side of the image. |
+| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
+
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
@@ -102,11 +106,13 @@ def insert_online_video(self, video_url: str, video_embed_code: str, thumbnail_i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| video_url | str |  |
-| video_embed_code | str |  |
-| thumbnail_image_bytes | bytes |  |
-| width | float |  |
-| height | float |  |
+| video_url | str | The URL to the video. |
+| video_embed_code | str | The embed code for the video. |
+| thumbnail_image_bytes | bytes | The thumbnail image bytes. |
+| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
@@ -131,16 +137,18 @@ def insert_online_video(self, video_url: str, video_embed_code: str, thumbnail_i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| video_url | str |  |
-| video_embed_code | str |  |
-| thumbnail_image_bytes | bytes |  |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
-| left | float |  |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
-| top | float |  |
-| width | float |  |
-| height | float |  |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
+| video_url | str | The URL to the video. |
+| video_embed_code | str | The embed code for the video. |
+| thumbnail_image_bytes | bytes | The thumbnail image bytes. |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| left | float | Distance in points from the origin to the left side of the image. |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| top | float | Distance in points from the origin to the top side of the image. |
+| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
+
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.

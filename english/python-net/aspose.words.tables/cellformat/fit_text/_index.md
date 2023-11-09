@@ -15,6 +15,17 @@ If ``True``, fits text in the cell, compressing each paragraph to the width of t
 
 
 
+```python
+@property
+def fit_text(self) -> bool:
+    ...
+
+@fit_text.setter
+def fit_text(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

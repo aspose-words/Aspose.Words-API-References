@@ -19,6 +19,8 @@ def accept_all_revisions(self):
     ...
 ```
 
+### Remarks
+
 This method is a shortcut for [RevisionCollection.accept_all()](../../revisioncollection/accept_all/#default).
 
 

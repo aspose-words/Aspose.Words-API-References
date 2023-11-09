@@ -15,6 +15,17 @@ Specifies the index, enumerating from the outside to the inside, of this task pa
 task panes docked in the same default location.
 
 
+```python
+@property
+def row(self) -> int:
+    ...
+
+@row.setter
+def row(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

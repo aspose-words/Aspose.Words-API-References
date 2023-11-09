@@ -20,6 +20,17 @@ Default is ``True``.
 
 
 
+```python
+@property
+def optimize_output(self) -> bool:
+    ...
+
+@optimize_output.setter
+def optimize_output(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to simplify a document when saving it to HTML by removing various redundant objects.

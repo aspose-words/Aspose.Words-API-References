@@ -16,6 +16,17 @@ Default value is ``False``;
 
 
 
+```python
+@property
+def update_created_time_property(self) -> bool:
+    ...
+
+@update_created_time_property.setter
+def update_created_time_property(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

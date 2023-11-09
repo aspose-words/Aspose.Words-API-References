@@ -14,6 +14,13 @@ url: /python-net/aspose.words.framesets/frameset/child_framesets/
 Gets the collection of child frames and frames pages.
 
 
+```python
+@property
+def child_framesets(self) -> aspose.words.framesets.FramesetCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access frames on-page.

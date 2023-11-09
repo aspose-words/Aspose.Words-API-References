@@ -13,6 +13,20 @@ url: /python-net/aspose.words/font/locale_id/
 
 Gets or sets the locale identifier (language) of the formatted characters.
 
+
+```python
+@property
+def locale_id(self) -> int:
+    ...
+
+@locale_id.setter
+def locale_id(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listformat/is_list_item/
 True when the paragraph has bulleted or numbered formatting applied to it.
 
 
+```python
+@property
+def is_list_item(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with list levels.

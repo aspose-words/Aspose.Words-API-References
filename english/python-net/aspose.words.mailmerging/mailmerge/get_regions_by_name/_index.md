@@ -21,7 +21,7 @@ def get_regions_by_name(self, region_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| region_name | str |  |
+| region_name | str | Region name (case-insensitive). |
 
 ### Returns
 

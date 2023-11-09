@@ -19,6 +19,8 @@ def open_font_data_stream(self):
     ...
 ```
 
+### Remarks
+
 The stream will be closed after reading. There is no need to close it explicitly.
 
 

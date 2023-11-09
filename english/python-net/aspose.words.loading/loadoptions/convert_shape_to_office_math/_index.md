@@ -14,6 +14,17 @@ url: /python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/
 Gets or sets whether to convert shapes with EquationXML to Office Math objects.
 
 
+```python
+@property
+def convert_shape_to_office_math(self) -> bool:
+    ...
+
+@convert_shape_to_office_math.setter
+def convert_shape_to_office_math(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to convert EquationXML shapes to Office Math objects.

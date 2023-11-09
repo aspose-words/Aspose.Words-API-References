@@ -21,7 +21,9 @@ def visit_field_separator(self, field_separator: aspose.words.fields.FieldSepara
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_separator | [FieldSeparator](../../../aspose.words.fields/fieldseparator/) |  |
+| field_separator | [FieldSeparator](../../../aspose.words.fields/fieldseparator/) | The object that is being visited. |
+
+### Remarks
 
 The field separator separates field code from field value in the document. Note that some 
 fields have only field code and do not have field separator and field value.

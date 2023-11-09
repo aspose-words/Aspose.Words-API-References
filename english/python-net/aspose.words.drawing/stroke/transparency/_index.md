@@ -14,6 +14,20 @@ url: /python-net/aspose.words.drawing/stroke/transparency/
 Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency
 of the stroke.
 
+
+```python
+@property
+def transparency(self) -> float:
+    ...
+
+@transparency.setter
+def transparency(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 0.
 
 

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing/shapebase/right/
 
 Gets the position of the right edge of the containing block of the shape.
 
+
+```python
+@property
+def right(self) -> float:
+    ...
+
+```
+
+### Remarks
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.

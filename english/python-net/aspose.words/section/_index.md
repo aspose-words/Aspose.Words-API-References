@@ -5,7 +5,7 @@ articleTitle: Section class
 second_title: Aspose.Words for Python
 description: "aspose.words.Section class. Represents a single section in a document"
 type: docs
-weight: 1030
+weight: 1040
 url: /python-net/aspose.words/section/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/p
 
 
 
+
+### Remarks
 
 [Section](./) can have one [Body](../body/) and maximum one [HeaderFooter](../headerfooter/)
 of each [HeaderFooterType](../headerfootertype/). [Body](../body/) and [HeaderFooter](../headerfooter/) nodes
@@ -80,7 +82,7 @@ and section properties use [Section.append_content()](./append_content/#section)
 |[ clone(is_clone_children)](./clone/#bool) | Creates a duplicate of this section. |
 |[ delete_header_footer_shapes()](./delete_header_footer_shapes/#default) | Deletes all shapes (drawing objects) from the headers and footers of this section. |
 |[ ensure_minimum()](./ensure_minimum/#default) | Ensures that the section has [Section.body](./body/) with one [Paragraph](../paragraph/). |
-|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_child(node_type, index, is_deep)](../compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/oleformat/prog_id/
 
 Gets or sets the ProgID of the OLE object.
 
+
+```python
+@property
+def prog_id(self) -> str:
+    ...
+
+@prog_id.setter
+def prog_id(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
 
 Cannot be ``None``.

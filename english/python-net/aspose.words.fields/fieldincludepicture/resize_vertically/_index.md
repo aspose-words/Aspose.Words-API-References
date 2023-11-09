@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludepicture/resize_vertically/
 Gets or sets whether to resize the picture vertically from the source.
 
 
+```python
+@property
+def resize_vertically(self) -> bool:
+    ...
+
+@resize_vertically.setter
+def resize_vertically(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.

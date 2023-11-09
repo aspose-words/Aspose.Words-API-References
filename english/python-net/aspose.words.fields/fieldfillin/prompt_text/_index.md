@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldfillin/prompt_text/
 Gets or sets the prompt text (the title of the prompt window).
 
 
+```python
+@property
+def prompt_text(self) -> str:
+    ...
+
+@prompt_text.setter
+def prompt_text(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

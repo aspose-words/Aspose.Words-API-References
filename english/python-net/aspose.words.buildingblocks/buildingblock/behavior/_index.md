@@ -15,6 +15,17 @@ Specifies the behavior that shall be applied when the contents of the building b
 is inserted into the main document.
 
 
+```python
+@property
+def behavior(self) -> aspose.words.buildingblocks.BuildingBlockBehavior:
+    ...
+
+@behavior.setter
+def behavior(self, value: aspose.words.buildingblocks.BuildingBlockBehavior):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.buildingblocks](../../)

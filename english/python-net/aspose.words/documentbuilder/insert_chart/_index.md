@@ -21,9 +21,11 @@ def insert_chart(self, chart_type: aspose.words.drawing.charts.ChartType, width:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chart_type | [ChartType](../../../aspose.words.drawing.charts/charttype/) |  |
-| width | float |  |
-| height | float |  |
+| chart_type | [ChartType](../../../aspose.words.drawing.charts/charttype/) | The chart type to insert into the document. |
+| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
@@ -48,14 +50,16 @@ def insert_chart(self, chart_type: aspose.words.drawing.charts.ChartType, horz_p
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chart_type | [ChartType](../../../aspose.words.drawing.charts/charttype/) |  |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
-| left | float |  |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
-| top | float |  |
-| width | float |  |
-| height | float |  |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
+| chart_type | [ChartType](../../../aspose.words.drawing.charts/charttype/) | The chart type to insert into the document. |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| left | float | Distance in points from the origin to the left side of the image. |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| top | float | Distance in points from the origin to the top side of the image. |
+| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
+
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.

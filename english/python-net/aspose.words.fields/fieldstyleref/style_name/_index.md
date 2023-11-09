@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldstyleref/style_name/
 Gets or sets the name of the style by which the text to search for is formatted.
 
 
+```python
+@property
+def style_name(self) -> str:
+    ...
+
+@style_name.setter
+def style_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use STYLEREF fields.

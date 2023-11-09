@@ -15,6 +15,17 @@ Gets or sets the specified [ShadowType](../../shadowtype/) for ShadowFormat.
 
 
 
+```python
+@property
+def type(self) -> aspose.words.drawing.ShadowType:
+    ...
+
+@type.setter
+def type(self, value: aspose.words.drawing.ShadowType):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

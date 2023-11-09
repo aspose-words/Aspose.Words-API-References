@@ -15,6 +15,20 @@ Specifies whether list should be restarted at each section.
 Default value is ``False``.
 
 
+
+```python
+@property
+def is_restart_at_each_section(self) -> bool:
+    ...
+
+@is_restart_at_each_section.setter
+def is_restart_at_each_section(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This option is supported only in RTF, DOC and DOCX document formats.
 
 This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/) is higher then [OoxmlCompliance.ECMA376_2006](../../../aspose.words.saving/ooxmlcompliance/#ECMA376_2006).

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/internal_margin_top/
 
 Specifies the inner top margin in points for a shape.
 
+
+```python
+@property
+def internal_margin_top(self) -> float:
+    ...
+
+@internal_margin_top.setter
+def internal_margin_top(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1/20 inch.
 
 

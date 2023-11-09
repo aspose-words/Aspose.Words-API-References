@@ -21,7 +21,9 @@ def visit_glossary_document_end(self, glossary: aspose.words.buildingblocks.Glos
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| glossary | [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) |  |
+| glossary | [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) | The object that is being visited. |
+
+### Remarks
 
 Note: A glossary document node and its children are not visited when you execute a
 Visitor over a [Document](../../document/). If you want to execute a Visitor over a

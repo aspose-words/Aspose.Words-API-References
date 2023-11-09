@@ -15,6 +15,17 @@ Gets or sets absolute horizontal floating table position specified by the table 
 Default value is 0.
 
 
+```python
+@property
+def absolute_horizontal_distance(self) -> float:
+    ...
+
+@absolute_horizontal_distance.setter
+def absolute_horizontal_distance(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how set the location of floating tables.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludepicture/resize_horizontally/
 Gets or sets whether to resize the picture horizontally from the source.
 
 
+```python
+@property
+def resize_horizontally(self) -> bool:
+    ...
+
+@resize_horizontally.setter
+def resize_horizontally(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.

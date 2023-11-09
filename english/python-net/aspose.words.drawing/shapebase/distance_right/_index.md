@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/distance_right/
 
 Returns or sets the distance (in points) between the document text and the right edge of the shape.
 
+
+```python
+@property
+def distance_right(self) -> float:
+    ...
+
+@distance_right.setter
+def distance_right(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraph/frame_format/
 Provides access to the frame formatting properties.
 
 
+```python
+@property
+def frame_format(self) -> aspose.words.FrameFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

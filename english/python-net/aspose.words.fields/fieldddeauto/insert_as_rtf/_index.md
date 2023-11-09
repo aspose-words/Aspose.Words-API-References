@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldddeauto/insert_as_rtf/
 Gets or sets whether to insert the linked object in rich-text format (RTF).
 
 
+```python
+@property
+def insert_as_rtf(self) -> bool:
+    ...
+
+@insert_as_rtf.setter
+def insert_as_rtf(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

@@ -14,6 +14,20 @@ url: /python-net/aspose.words.drawing/imagedata/contrast/
 Gets or sets the contrast for the specified picture. The value
 for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast).
 
+
+```python
+@property
+def contrast(self) -> float:
+    ...
+
+@contrast.setter
+def contrast(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 0.5.
 
 

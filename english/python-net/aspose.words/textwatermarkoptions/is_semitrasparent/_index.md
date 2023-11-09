@@ -16,6 +16,17 @@ The default value is ``True``.
 
 
 
+```python
+@property
+def is_semitrasparent(self) -> bool:
+    ...
+
+@is_semitrasparent.setter
+def is_semitrasparent(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a text watermark.

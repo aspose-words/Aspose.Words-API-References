@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_vert_align_ce
 Don't Vertically Align Cells Containing Floating Objects.
 
 
+```python
+@property
+def do_not_vert_align_cell_with_sp(self) -> bool:
+    ...
+
+@do_not_vert_align_cell_with_sp.setter
+def do_not_vert_align_cell_with_sp(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

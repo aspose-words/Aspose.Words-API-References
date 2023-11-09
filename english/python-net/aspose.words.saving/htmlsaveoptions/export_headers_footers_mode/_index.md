@@ -5,7 +5,7 @@ articleTitle: export_headers_footers_mode property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_headers_footers_mode property. Specifies how headers and footers are output to HTML, MHTML or EPUB"
 type: docs
-weight: 170
+weight: 160
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_headers_footers_mode/
 ---
 
@@ -15,6 +15,20 @@ Specifies how headers and footers are output to HTML, MHTML or EPUB.
 Default value is [ExportHeadersFootersMode.PER_SECTION](../../exportheadersfootersmode/#PER_SECTION) for HTML/MHTML 
 and [ExportHeadersFootersMode.NONE](../../exportheadersfootersmode/#NONE) for EPUB.
 
+
+
+```python
+@property
+def export_headers_footers_mode(self) -> aspose.words.saving.ExportHeadersFootersMode:
+    ...
+
+@export_headers_footers_mode.setter
+def export_headers_footers_mode(self, value: aspose.words.saving.ExportHeadersFootersMode):
+    ...
+
+```
+
+### Remarks
 
 It is hard to meaningfully output headers and footers to HTML because HTML is not paginated.
 

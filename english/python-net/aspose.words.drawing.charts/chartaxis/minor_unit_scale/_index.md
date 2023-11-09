@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/minor_unit_scale/
 
 Returns or sets the scale value for minor tick marks on the time category axis.
 
+
+```python
+@property
+def minor_unit_scale(self) -> aspose.words.drawing.charts.AxisTimeUnit:
+    ...
+
+@minor_unit_scale.setter
+def minor_unit_scale(self, value: aspose.words.drawing.charts.AxisTimeUnit):
+    ...
+
+```
+
+### Remarks
+
 The property has effect only for time category axes.
 
 

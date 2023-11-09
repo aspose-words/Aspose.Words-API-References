@@ -16,6 +16,13 @@ for this paragraph.
 
 
 
+```python
+@property
+def list_label(self) -> aspose.words.lists.ListLabel:
+    ...
+
+```
+
 ### Examples
 
 Shows how to extract the list labels of all paragraphs that are list items.

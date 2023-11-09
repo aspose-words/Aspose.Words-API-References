@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 A field in a Word document is a complex structure consisting of multiple nodes that include field start,
 field code, field separator, field result and field end. Fields can be nested, contain rich content and span
 multiple paragraphs or sections in a document. The [Field](./) class is a "facade" object that provides

@@ -15,6 +15,13 @@ Returns [StoryType.TEXTBOX](../../../aspose.words/storytype/#TEXTBOX).
 
 
 
+```python
+@property
+def story_type(self) -> aspose.words.StoryType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

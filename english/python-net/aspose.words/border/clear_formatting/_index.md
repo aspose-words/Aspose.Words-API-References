@@ -19,6 +19,8 @@ def clear_formatting(self):
     ...
 ```
 
+### Remarks
+
 When border properties are reset to default values, the border is invisible.
 
 

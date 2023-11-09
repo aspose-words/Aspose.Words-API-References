@@ -21,7 +21,9 @@ def execute_with_regions(self, data_source: aspose.words.mailmerging.IMailMergeD
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data_source | [IMailMergeDataSource](../../imailmergedatasource/) |  |
+| data_source | [IMailMergeDataSource](../../imailmergedatasource/) | An object that implements the custom mail merge data source interface. |
+
+### Remarks
 
 Use this method to fill mail merge fields in the document with values from
 any custom data source such as an XML file or collections of business objects. You need to write your
@@ -45,7 +47,9 @@ def execute_with_regions(self, data_source_root: aspose.words.mailmerging.IMailM
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data_source_root | [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/) |  |
+| data_source_root | [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/) | An object that implements the custom mail merge data source root interface. |
+
+### Remarks
 
 Use this method to fill mail merge fields in the document with values from
 any custom data source such as an XML file or collections of business objects. You need to write your own classes

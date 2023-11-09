@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/xamlflowsaveoptions/image_saving_callback/
 Allows to control how images are saved when a document is saved to XAML.
 
 
+```python
+@property
+def image_saving_callback(self) -> aspose.words.saving.IImageSavingCallback:
+    ...
+
+@image_saving_callback.setter
+def image_saving_callback(self, value: aspose.words.saving.IImageSavingCallback):
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.

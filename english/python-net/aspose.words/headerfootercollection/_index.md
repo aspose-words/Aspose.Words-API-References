@@ -17,6 +17,8 @@ To learn more, visit the [Working with Headers and Footers](https://docs.aspose.
 
 
 
+### Remarks
+
 There can be maximum of one [HeaderFooter](../headerfooter/)
 
 

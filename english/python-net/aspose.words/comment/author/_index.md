@@ -13,6 +13,20 @@ url: /python-net/aspose.words/comment/author/
 
 Returns or sets the author name for a comment.
 
+
+```python
+@property
+def author(self) -> str:
+    ...
+
+@author.setter
+def author(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``.
 
 Default is empty string.

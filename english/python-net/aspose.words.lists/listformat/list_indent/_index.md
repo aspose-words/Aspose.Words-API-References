@@ -19,6 +19,8 @@ def list_indent(self):
     ...
 ```
 
+### Remarks
+
 This method changes the list level and applies formatting properties of the new level.
 
 In Word documents, lists may consist of up to nine levels. List formatting

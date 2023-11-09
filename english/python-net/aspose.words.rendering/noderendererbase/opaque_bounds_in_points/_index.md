@@ -13,6 +13,16 @@ url: /python-net/aspose.words.rendering/noderendererbase/opaque_bounds_in_points
 
 Gets the opaque bounds of the shape in points.
 
+
+```python
+@property
+def opaque_bounds_in_points(self) -> aspose.pydrawing.RectangleF:
+    ...
+
+```
+
+### Remarks
+
 This property returns the opaque (i.e. transparent parts of the shape are ignored) bounding box of the shape.
 The bounds takes the shape rotation into account.
 

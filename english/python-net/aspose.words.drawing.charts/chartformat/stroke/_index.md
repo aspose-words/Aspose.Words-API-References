@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartformat/stroke/
 Gets line formatting for the parent chart element.
 
 
+```python
+@property
+def stroke(self) -> aspose.words.drawing.Stroke:
+    ...
+
+```
+
 ### Examples
 
 Show how to set marker formatting.

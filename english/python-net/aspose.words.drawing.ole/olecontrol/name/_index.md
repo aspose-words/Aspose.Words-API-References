@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.ole/olecontrol/name/
 Gets or sets name of the ActiveX control.
 
 
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

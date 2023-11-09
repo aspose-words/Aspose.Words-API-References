@@ -17,6 +17,13 @@ Unlike the [StructuredDocumentTag.word_open_xml](../word_open_xml/) property, th
 
 
 
+```python
+@property
+def word_open_xml_minimal(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with styles for content control elements.

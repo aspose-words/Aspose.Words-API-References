@@ -15,6 +15,20 @@ Gets or sets the default value of the check box form field.
 Default value for this property is ``False``.
 
 
+
+```python
+@property
+def default(self) -> bool:
+    ...
+
+@default.setter
+def default(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Applicable for a check box form field only.
 
 

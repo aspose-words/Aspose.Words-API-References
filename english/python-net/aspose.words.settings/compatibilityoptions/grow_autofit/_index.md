@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/grow_autofit/
 Allow Tables to AutoFit Into Page Margins.
 
 
+```python
+@property
+def grow_autofit(self) -> bool:
+    ...
+
+@grow_autofit.setter
+def grow_autofit(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

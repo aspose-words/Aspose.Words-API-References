@@ -15,6 +15,13 @@ Returns ``True`` if this object was moved (inserted) in Microsoft Word while cha
 
 
 
+```python
+@property
+def is_move_to_revision(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to view revision-related properties of InlineStory nodes.

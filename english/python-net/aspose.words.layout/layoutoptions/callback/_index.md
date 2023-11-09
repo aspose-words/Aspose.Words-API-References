@@ -15,6 +15,17 @@ Gets or sets [IPageLayoutCallback](../../ipagelayoutcallback/) implementation us
 
 
 
+```python
+@property
+def callback(self) -> aspose.words.layout.IPageLayoutCallback:
+    ...
+
+@callback.setter
+def callback(self, value: aspose.words.layout.IPageLayoutCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.layout](../../)

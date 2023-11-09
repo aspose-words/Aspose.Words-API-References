@@ -14,6 +14,13 @@ url: /python-net/aspose.words/nodechangingargs/action/
 Gets a value indicating what type of node change event is occurring.
 
 
+```python
+@property
+def action(self) -> aspose.words.NodeChangingAction:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

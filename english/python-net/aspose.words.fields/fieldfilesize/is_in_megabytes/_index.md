@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldfilesize/is_in_megabytes/
 Gets or sets whether to display the file size in megabytes.
 
 
+```python
+@property
+def is_in_megabytes(self) -> bool:
+    ...
+
+@is_in_megabytes.setter
+def is_in_megabytes(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to display the file size of a document with a FILESIZE field.

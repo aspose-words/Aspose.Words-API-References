@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/NON_BREAKING_SPACE_CHAR/
 Non-breaking space character: (char)160.
 
 
+```python
+@property
+def NON_BREAKING_SPACE_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/text_converter/
 Gets or sets the name of the text converter for the format of the included file.
 
 
+```python
+@property
+def text_converter(self) -> str:
+    ...
+
+@text_converter.setter
+def text_converter(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

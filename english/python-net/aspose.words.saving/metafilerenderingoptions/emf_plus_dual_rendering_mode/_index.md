@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/metafilerenderingoptions/emf_plus_dual_rend
 
 Gets or sets a value determining how EMF+ Dual metafiles should be rendered.
 
+
+```python
+@property
+def emf_plus_dual_rendering_mode(self) -> aspose.words.saving.EmfPlusDualRenderingMode:
+    ...
+
+@emf_plus_dual_rendering_mode.setter
+def emf_plus_dual_rendering_mode(self, value: aspose.words.saving.EmfPlusDualRenderingMode):
+    ...
+
+```
+
+### Remarks
+
 EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always renders EMF+ part.
 Aspose.Words currently doesn't fully supports all EMF+ records and in some cases rendering result of
 EMF part looks better then rendering result of EMF+ part.

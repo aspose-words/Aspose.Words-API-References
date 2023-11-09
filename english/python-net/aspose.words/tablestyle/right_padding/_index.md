@@ -14,6 +14,17 @@ url: /python-net/aspose.words/tablestyle/right_padding/
 Gets or sets the amount of space (in points) to add to the right of the contents of table cells.
 
 
+```python
+@property
+def right_padding(self) -> float:
+    ...
+
+@right_padding.setter
+def right_padding(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create custom style settings for the table.

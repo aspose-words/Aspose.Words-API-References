@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/fontsettings/substitution_settings/
 Settings related to font substitution mechanism.
 
 
+```python
+@property
+def substitution_settings(self) -> aspose.words.fonts.FontSubstitutionSettings:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's system font source and set font substitutes.

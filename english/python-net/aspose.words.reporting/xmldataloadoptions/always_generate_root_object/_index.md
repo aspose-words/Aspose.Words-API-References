@@ -15,6 +15,20 @@ Gets or sets a flag indicating whether a generated data source will always conta
 element. If an XML root element has no attributes and all its child elements have same names, such an object 
 is not created by default.
 
+
+```python
+@property
+def always_generate_root_object(self) -> bool:
+    ...
+
+@always_generate_root_object.setter
+def always_generate_root_object(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

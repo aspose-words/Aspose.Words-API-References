@@ -14,6 +14,13 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/apply_font/
 Text formatting applied to new content.
 
 
+```python
+@property
+def apply_font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

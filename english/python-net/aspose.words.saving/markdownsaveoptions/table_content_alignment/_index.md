@@ -17,6 +17,17 @@ The default value is [TableContentAlignment.AUTO](../../tablecontentalignment/#A
 
 
 
+```python
+@property
+def table_content_alignment(self) -> aspose.words.saving.TableContentAlignment:
+    ...
+
+@table_content_alignment.setter
+def table_content_alignment(self, value: aspose.words.saving.TableContentAlignment):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

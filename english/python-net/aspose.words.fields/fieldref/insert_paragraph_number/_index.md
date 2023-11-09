@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldref/insert_paragraph_number/
 Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
 
 
+```python
+@property
+def insert_paragraph_number(self) -> bool:
+    ...
+
+@insert_paragraph_number.setter
+def insert_paragraph_number(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert REF fields to reference bookmarks.

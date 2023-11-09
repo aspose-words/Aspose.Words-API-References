@@ -14,6 +14,17 @@ url: /python-net/aspose.words.mailmerging/mailmerge/mail_merge_callback/
 Allows to handle particular events during mail merge.
 
 
+```python
+@property
+def mail_merge_callback(self) -> aspose.words.mailmerging.IMailMergeCallback:
+    ...
+
+@mail_merge_callback.setter
+def mail_merge_callback(self, value: aspose.words.mailmerging.IMailMergeCallback):
+    ...
+
+```
+
 ### Examples
 
 Shows how to define custom logic for handling events during mail merge.

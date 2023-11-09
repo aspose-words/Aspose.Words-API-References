@@ -15,6 +15,20 @@ Specifies a tag associated with the current SDT node.
 Can not be ``None``.
 
 
+
+```python
+@property
+def tag(self) -> str:
+    ...
+
+@tag.setter
+def tag(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 A tag is an arbitrary string which applications can associate with SDT
 in order to identify it without providing a visible friendly name.
 

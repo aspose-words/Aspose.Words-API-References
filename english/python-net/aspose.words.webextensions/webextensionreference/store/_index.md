@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionreference/store/
 Specifies the instance of the marketplace where the web extension is stored.
 
 
+```python
+@property
+def store(self) -> str:
+    ...
+
+@store.setter
+def store(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

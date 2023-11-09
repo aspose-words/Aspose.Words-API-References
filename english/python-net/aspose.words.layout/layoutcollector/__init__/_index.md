@@ -21,7 +21,7 @@ def __init__(self, doc: aspose.words.Document):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [Document](../../../aspose.words/document/) |  |
+| doc | [Document](../../../aspose.words/document/) | The document to which this collector instance will be attached to. |
 
 ### Examples
 

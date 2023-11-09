@@ -14,6 +14,16 @@ url: /python-net/aspose.words.lists/list/is_list_style_reference/
 Returns ``True`` if this list is a reference to a list style.
 
 
+
+```python
+@property
+def is_list_style_reference(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 Note, modifying properties of a list that is a reference to list style has no effect.
 The list formatting specified in the list style itself always takes precedence.
 

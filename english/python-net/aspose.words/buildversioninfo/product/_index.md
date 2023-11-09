@@ -14,6 +14,13 @@ url: /python-net/aspose.words/buildversioninfo/product/
 Gets the full name of the product.
 
 
+```python
+@property
+def product(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to display information about your installed version of Aspose.Words.

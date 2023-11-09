@@ -21,7 +21,7 @@ def add(self, value: aspose.words.settings.OdsoRecipientData):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoRecipientData](../../odsorecipientdata/) |  |
+| value | [OdsoRecipientData](../../odsorecipientdata/) | The object to add. Cannot be ``None``. |
 
 ### Examples
 

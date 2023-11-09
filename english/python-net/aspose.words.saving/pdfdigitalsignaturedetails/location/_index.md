@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 
 Gets or sets the location of the signing.
 
+
+```python
+@property
+def location(self) -> str:
+    ...
+
+@location.setter
+def location(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``None``.
 
 

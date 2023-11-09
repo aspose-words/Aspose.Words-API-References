@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shapebase/markup_language/
 Gets MarkupLanguage used for this graphic object.
 
 
+```python
+@property
+def markup_language(self) -> aspose.words.drawing.ShapeMarkupLanguage:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify a shape's size and markup language.

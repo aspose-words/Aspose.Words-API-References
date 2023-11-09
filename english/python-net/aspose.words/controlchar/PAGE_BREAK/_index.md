@@ -15,6 +15,13 @@ Page break character: "\\x000c" or "\\f". Note it has the same value as [Control
 
 
 
+```python
+@property
+def PAGE_BREAK(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

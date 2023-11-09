@@ -53,14 +53,14 @@ The following formats are compatible for digital signature removal:
 
 
 ```python
-def remove_all_signatures(self, src_stream: BytesIO, dst_stream: BytesIO):
+def remove_all_signatures(self, src_stream: io.BytesIO, dst_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_stream | BytesIO |  |
-| dst_stream | BytesIO |  |
+| src_stream | io.BytesIO |  |
+| dst_stream | io.BytesIO |  |
 
 ## Examples
 

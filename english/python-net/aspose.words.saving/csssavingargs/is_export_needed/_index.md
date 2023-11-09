@@ -16,6 +16,17 @@ When this property is ``False``, the CSS information will not be saved to a CSS 
 
 
 
+```python
+@property
+def is_export_needed(self) -> bool:
+    ...
+
+@is_export_needed.setter
+def is_export_needed(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

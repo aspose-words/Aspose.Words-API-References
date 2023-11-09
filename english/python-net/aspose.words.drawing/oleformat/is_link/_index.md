@@ -15,6 +15,13 @@ Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](
 
 
 
+```python
+@property
+def is_link(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert linked and unlinked OLE objects.

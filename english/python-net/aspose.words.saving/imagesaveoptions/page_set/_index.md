@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/page_set/
 Gets or sets the pages to render.
 Default is all the pages in the document.
 
+
+```python
+@property
+def page_set(self) -> aspose.words.saving.PageSet:
+    ...
+
+@page_set.setter
+def page_set(self, value: aspose.words.saving.PageSet):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when rendering document pages. This property is ignored when rendering shapes to images.
 
 

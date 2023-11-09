@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/heading_level_range/
 Gets or sets a range of heading levels to include.
 
 
+```python
+@property
+def heading_level_range(self) -> str:
+    ...
+
+@heading_level_range.setter
+def heading_level_range(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

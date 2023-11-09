@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/entry_separator/
 Gets or sets a sequence of characters that separate an entry and its page number.
 
 
+```python
+@property
+def entry_separator(self) -> str:
+    ...
+
+@entry_separator.setter
+def entry_separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

@@ -5,7 +5,7 @@ articleTitle: RevisionsView enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.RevisionsView enumeration. Allows to specify whether to work with the original or revised version of a document."
 type: docs
-weight: 990
+weight: 1000
 url: /python-net/aspose.words/revisionsview/
 ---
 

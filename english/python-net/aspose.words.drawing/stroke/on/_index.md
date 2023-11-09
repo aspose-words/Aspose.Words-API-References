@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/on/
 
 Defines whether the path will be stroked.
 
+
+```python
+@property
+def on(self) -> bool:
+    ...
+
+@on.setter
+def on(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value for a [Shape](../../shape/) is ``True``.
 
 

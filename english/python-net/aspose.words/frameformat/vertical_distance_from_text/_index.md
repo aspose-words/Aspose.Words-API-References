@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/vertical_distance_from_text/
 Specifies vertical distance (in points) between a frame and the surrounding text.
 
 
+```python
+@property
+def vertical_distance_from_text(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

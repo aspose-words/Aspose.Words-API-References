@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/base_time_unit/
 
 Returns or sets the smallest time unit that is represented on the time category axis.
 
+
+```python
+@property
+def base_time_unit(self) -> aspose.words.drawing.charts.AxisTimeUnit:
+    ...
+
+@base_time_unit.setter
+def base_time_unit(self, value: aspose.words.drawing.charts.AxisTimeUnit):
+    ...
+
+```
+
+### Remarks
+
 The property has effect only for time category axes.
 
 

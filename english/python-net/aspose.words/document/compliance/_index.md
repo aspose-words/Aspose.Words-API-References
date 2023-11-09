@@ -14,6 +14,16 @@ url: /python-net/aspose.words/document/compliance/
 Gets the OOXML compliance version determined from the loaded document content.
 Makes sense only for OOXML documents.
 
+
+```python
+@property
+def compliance(self) -> aspose.words.saving.OoxmlCompliance:
+    ...
+
+```
+
+### Remarks
+
 If you created a new blank document or load non OOXML document
 returns the [OoxmlCompliance.ECMA376_2006](../../../aspose.words.saving/ooxmlcompliance/#ECMA376_2006) value.
 

@@ -13,7 +13,22 @@ url: /python-net/aspose.words.drawing/shapebase/bounds/
 
 Gets or sets the location and size of the containing block of the shape.
 
+
+```python
+@property
+def bounds(self) -> aspose.pydrawing.RectangleF:
+    ...
+
+@bounds.setter
+def bounds(self, value: aspose.pydrawing.RectangleF):
+    ...
+
+```
+
+### Remarks
+
 Ignores aspect ratio lock upon setting.
+
 
 For a top-level shape, the value is in points and relative to the shape anchor.
 

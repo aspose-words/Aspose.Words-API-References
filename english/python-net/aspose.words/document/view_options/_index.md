@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/view_options/
 Provides options to control how the document is displayed in Microsoft Word.
 
 
+```python
+@property
+def view_options(self) -> aspose.words.settings.ViewOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.

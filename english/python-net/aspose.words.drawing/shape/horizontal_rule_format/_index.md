@@ -16,6 +16,13 @@ For a shape that is not a horizontal rule, returns ``None``.
 
 
 
+```python
+@property
+def horizontal_rule_format(self) -> aspose.words.drawing.HorizontalRuleFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.

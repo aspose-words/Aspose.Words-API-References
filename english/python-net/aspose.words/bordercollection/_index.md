@@ -17,6 +17,8 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 
 
+### Remarks
+
 Different document elements have different borders.
 For example, [ParagraphFormat](../paragraphformat/) has [BorderCollection.bottom](./bottom/), [BorderCollection.left](./left/), [BorderCollection.right](./right/) and [BorderCollection.top](./top/) borders.
 You can specify different formatting for each border independently or

@@ -21,10 +21,12 @@ def __init__(self, page: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| page | int |  |
+| page | int | Zero-based index of the page. |
+
+### Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering.
-System.Int32.MaxValue means the last page in the document.
+int.MaxValue C# constant means the last page in the document.
 
 
 
@@ -40,10 +42,12 @@ def __init__(self, pages: List[int]):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pages | List[int] |  |
+| pages | List[int] | Zero-based indices of pages. |
+
+### Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering.
-System.Int32.MaxValue means the last page in the document.
+int.MaxValue C# constant means the last page in the document.
 
 
 
@@ -59,7 +63,9 @@ def __init__(self, ranges: List[aspose.words.saving.PageRange]):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ranges | List[[PageRange](../../pagerange/)] |  |
+| ranges | List[[PageRange](../../pagerange/)] | Array of page ranges. |
+
+### Remarks
 
 If a range is encountered that starts after the last page in the document, 
 an exception will be thrown during rendering.

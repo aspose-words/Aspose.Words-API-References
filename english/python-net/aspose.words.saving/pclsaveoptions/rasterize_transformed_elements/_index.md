@@ -16,6 +16,20 @@ should be rasterized before saving to PCL document.
 Default is ``True``.
 
 
+
+```python
+@property
+def rasterize_transformed_elements(self) -> bool:
+    ...
+
+@rasterize_transformed_elements.setter
+def rasterize_transformed_elements(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 PCL doesn't support some kind of transformations that are used by Aspose Words.
 E.g. rotated, skewed images and texture brushes. To properly render such elements
 rasterization process is used, i.e. saving to image and clipping.

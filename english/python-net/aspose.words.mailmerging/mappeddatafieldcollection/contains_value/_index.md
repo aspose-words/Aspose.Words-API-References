@@ -21,7 +21,7 @@ def contains_value(self, data_source_field_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data_source_field_name | str |  |
+| data_source_field_name | str | Case-sensitive name of the field in the data source. |
 
 ### Returns
 

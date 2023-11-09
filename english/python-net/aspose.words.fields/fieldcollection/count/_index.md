@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldcollection/count/
 Returns the number of the fields in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove fields from a field collection.

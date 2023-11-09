@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/wrap_type/
 
 Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 
+
+```python
+@property
+def wrap_type(self) -> aspose.words.drawing.WrapType:
+    ...
+
+@wrap_type.setter
+def wrap_type(self, value: aspose.words.drawing.WrapType):
+    ...
+
+```
+
+### Remarks
+
 The default value is [WrapType.NONE](../../wraptype/#NONE).
 
 Has effect only for top level shapes.

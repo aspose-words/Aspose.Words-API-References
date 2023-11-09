@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldsymbol/is_ansi/
 Gets or sets whether the character code is interpreted as the value of an ANSI character.
 
 
+```python
+@property
+def is_ansi(self) -> bool:
+    ...
+
+@is_ansi.setter
+def is_ansi(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the SYMBOL field.

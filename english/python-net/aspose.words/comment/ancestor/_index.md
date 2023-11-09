@@ -15,6 +15,13 @@ Returns the parent [Comment](../) object. Returns ``None`` for top-level comment
 
 
 
+```python
+@property
+def ancestor(self) -> aspose.words.Comment:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print all of a document's comments and their replies.

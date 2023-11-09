@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/sdt_type/
 Gets type of this structured document tag.
 
 
+```python
+@property
+def sdt_type(self) -> aspose.words.markup.SdtType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the properties of multi-section structured document tags.

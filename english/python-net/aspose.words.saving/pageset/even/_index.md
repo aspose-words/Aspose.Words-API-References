@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/pageset/even/
 
 Gets a set with all the even pages of the document in their original order.
 
+
+```python
+@property
+def even(self) -> aspose.words.saving.PageSet:
+    ...
+
+```
+
+### Remarks
+
 Even pages have odd indices since page indices are zero-based.
 
 

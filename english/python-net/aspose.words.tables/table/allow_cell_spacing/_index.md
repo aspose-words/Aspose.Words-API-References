@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/allow_cell_spacing/
 Gets or sets the "Allow spacing between cells" option.
 
 
+```python
+@property
+def allow_cell_spacing(self) -> bool:
+    ...
+
+@allow_cell_spacing.setter
+def allow_cell_spacing(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable spacing between individual cells in a table.

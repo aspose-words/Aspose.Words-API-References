@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/LINE_FEED_CHAR/
 Line feed character: (char)10 or "\\n".
 
 
+```python
+@property
+def LINE_FEED_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

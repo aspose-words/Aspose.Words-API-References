@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution
 if the original font is not available.
 

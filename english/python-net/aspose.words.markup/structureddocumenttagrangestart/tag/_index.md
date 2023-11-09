@@ -15,6 +15,20 @@ Specifies a tag associated with the current structured document tag node.
 Can not be ``None``.
 
 
+
+```python
+@property
+def tag(self) -> str:
+    ...
+
+@tag.setter
+def tag(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 A tag is an arbitrary string which applications can associate with structured document
 tag in order to identify it without providing a visible friendly name.
 

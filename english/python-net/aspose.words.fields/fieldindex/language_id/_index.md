@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/language_id/
 Gets or sets the language ID used to generate the index.
 
 
+```python
+@property
+def language_id(self) -> str:
+    ...
+
+@language_id.setter
+def language_id(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.

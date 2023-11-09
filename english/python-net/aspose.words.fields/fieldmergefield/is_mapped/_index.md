@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergefield/is_mapped/
 Gets or sets whether this field is a mapped field.
 
 
+```python
+@property
+def is_mapped(self) -> bool:
+    ...
+
+@is_mapped.setter
+def is_mapped(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

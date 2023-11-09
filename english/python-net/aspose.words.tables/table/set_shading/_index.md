@@ -21,9 +21,9 @@ def set_shading(self, texture: aspose.words.TextureIndex, foreground_color: aspo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| texture | [TextureIndex](../../../aspose.words/textureindex/) |  |
-| foreground_color | aspose.pydrawing.Color |  |
-| background_color | aspose.pydrawing.Color |  |
+| texture | [TextureIndex](../../../aspose.words/textureindex/) | The texture to apply. |
+| foreground_color | aspose.pydrawing.Color | The color of the texture. |
+| background_color | aspose.pydrawing.Color | The color of the background fill. |
 
 ### Examples
 

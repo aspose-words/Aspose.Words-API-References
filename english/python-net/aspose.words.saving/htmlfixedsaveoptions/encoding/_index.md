@@ -16,6 +16,17 @@ Default value is ``new UTF8Encoding(true)`` (UTF-8 with BOM).
 
 
 
+```python
+@property
+def encoding(self) -> str:
+    ...
+
+@encoding.setter
+def encoding(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set which encoding to use while exporting a document to HTML.

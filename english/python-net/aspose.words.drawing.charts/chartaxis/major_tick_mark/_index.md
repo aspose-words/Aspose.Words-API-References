@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/major_tick_mark/
 Returns or sets the major tick marks.
 
 
+```python
+@property
+def major_tick_mark(self) -> aspose.words.drawing.charts.AxisTickMark:
+    ...
+
+@major_tick_mark.setter
+def major_tick_mark(self, value: aspose.words.drawing.charts.AxisTickMark):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.

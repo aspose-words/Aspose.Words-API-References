@@ -15,6 +15,13 @@ Returns [StoryType.COMMENTS](../../storytype/#COMMENTS).
 
 
 
+```python
+@property
+def story_type(self) -> aspose.words.StoryType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert InlineStory nodes.

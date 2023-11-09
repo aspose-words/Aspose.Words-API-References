@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/end_mustache_tag/
 Returns an end "mustache" tag for the region.
 
 
+```python
+@property
+def end_mustache_tag(self) -> aspose.words.mailmerging.MustacheTag:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

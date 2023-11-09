@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldhyperlink/screen_tip/
 Gets or sets the ScreenTip text for the hyperlink.
 
 
+```python
+@property
+def screen_tip(self) -> str:
+    ...
+
+@screen_tip.setter
+def screen_tip(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.

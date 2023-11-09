@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/fill/rotate_with_object/
 Gets or sets whether the fill rotates with the specified object.
 
 
+```python
+@property
+def rotate_with_object(self) -> bool:
+    ...
+
+@rotate_with_object.setter
+def rotate_with_object(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

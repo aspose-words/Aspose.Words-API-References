@@ -19,6 +19,8 @@ def unlink_fields(self):
     ...
 ```
 
+### Remarks
+
 Replaces all the fields in this range with their most recent results.
 
 To unlink fields in the whole document use [Range.unlink_fields()](./#default).

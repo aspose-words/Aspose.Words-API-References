@@ -14,6 +14,17 @@ url: /python-net/aspose.words.vba/vbamodule/source_code/
 Gets or sets VBA project module source code.
 
 
+```python
+@property
+def source_code(self) -> str:
+    ...
+
+@source_code.setter
+def source_code(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's VBA project information.

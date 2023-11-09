@@ -15,6 +15,17 @@ Gets or sets the way line numbering runs  that is, whether it starts over at the
 page or section or runs continuously.
 
 
+```python
+@property
+def line_number_restart_mode(self) -> aspose.words.LineNumberRestartMode:
+    ...
+
+@line_number_restart_mode.setter
+def line_number_restart_mode(self, value: aspose.words.LineNumberRestartMode):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable line numbering for a section.

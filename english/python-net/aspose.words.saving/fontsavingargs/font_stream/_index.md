@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/fontsavingargs/font_stream/
 
 Allows to specify the stream where the font will be saved to.
 
+
+```python
+@property
+def font_stream(self) -> io.BytesIO:
+    ...
+
+@font_stream.setter
+def font_stream(self, value: io.BytesIO):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to save fonts to streams instead of files during HTML export.
 
 The default value is ``None``. When this property is ``None``, the font 

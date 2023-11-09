@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/line_wrap_like_word6
 Emulate Word 6.0 Line Wrapping for East Asian Text.
 
 
+```python
+@property
+def line_wrap_like_word6(self) -> bool:
+    ...
+
+@line_wrap_like_word6.setter
+def line_wrap_like_word6(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

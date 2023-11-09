@@ -24,7 +24,7 @@ To learn more, visit the [Working
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ShapeRenderer(shape)](./__init__/#shapebase) |  |
+| [ShapeRenderer(shape)](./__init__/#shapebase) | Initializes a new instance of this class. |
 
 ### Properties
 

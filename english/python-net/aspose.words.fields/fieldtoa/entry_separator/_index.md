@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoa/entry_separator/
 Gets or sets the character sequence that is used to separate a table of authorities entry and its page number.
 
 
+```python
+@property
+def entry_separator(self) -> str:
+    ...
+
+@entry_separator.setter
+def entry_separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.properties/documentproperty/type/
 Gets the data type of the property.
 
 
+```python
+@property
+def type(self) -> aspose.words.properties.PropertyType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties.

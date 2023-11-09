@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/imagesize/height_pixels/
 Gets the height of the image in pixels.
 
 
+```python
+@property
+def height_pixels(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to read the properties of an image in a shape.

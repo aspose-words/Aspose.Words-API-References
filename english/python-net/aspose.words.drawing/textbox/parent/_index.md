@@ -15,6 +15,13 @@ Gets a parent shape for the [TextBox](../).
 
 
 
+```python
+@property
+def parent(self) -> aspose.words.drawing.Shape:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

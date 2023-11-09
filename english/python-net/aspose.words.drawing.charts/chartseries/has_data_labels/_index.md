@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chartseries/has_data_labels/
 Gets or sets a flag indicating whether data labels are displayed for the series.
 
 
+```python
+@property
+def has_data_labels(self) -> bool:
+    ...
+
+@has_data_labels.setter
+def has_data_labels(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

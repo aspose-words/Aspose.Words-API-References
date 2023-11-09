@@ -13,6 +13,16 @@ url: /python-net/aspose.words.rendering/noderendererbase/bounds_in_points/
 
 Gets the actual bounds of the shape in points.
 
+
+```python
+@property
+def bounds_in_points(self) -> aspose.pydrawing.RectangleF:
+    ...
+
+```
+
+### Remarks
+
 This property returns the actual (as rendered on the page) bounding box of the shape.
 The bounds takes into account shape rotation (if any).
 

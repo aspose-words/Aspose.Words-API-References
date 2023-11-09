@@ -16,6 +16,17 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def export_generator_name(self) -> bool:
+    ...
+
+@export_generator_name.setter
+def export_generator_name(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to disable adding name and version of Aspose.Words into produced files.

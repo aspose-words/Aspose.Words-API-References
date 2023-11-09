@@ -13,6 +13,20 @@ url: /python-net/aspose.words.markup/custompart/relationship_type/
 
 Gets or sets the relationship type from the parent part to this custom part.
 
+
+```python
+@property
+def relationship_type(self) -> str:
+    ...
+
+@relationship_type.setter
+def relationship_type(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The relationship type for a custom part must be "unknown" e.g. a custom relationship type, 
 not one of the relationship types defined within ISO/IEC 29500.
 

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/layoutenumerator/text/
 Gets text of the current span entity. Throws for other entity types.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows ways of traversing a document's layout entities.

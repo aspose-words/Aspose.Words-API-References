@@ -15,6 +15,13 @@ Gets the gradient variant [GradientVariant](../../gradientvariant/) for the fill
 
 
 
+```python
+@property
+def gradient_variant(self) -> aspose.words.drawing.GradientVariant:
+    ...
+
+```
+
 ### Examples
 
 Shows how to fill a shape with a gradients.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chart/axis_z/
 Provides access to properties of the Z axis of the chart.
 
 
+```python
+@property
+def axis_z(self) -> aspose.words.drawing.charts.ChartAxis:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.

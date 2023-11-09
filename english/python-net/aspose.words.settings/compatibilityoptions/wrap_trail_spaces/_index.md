@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/wrap_trail_spaces/
 Line Wrap Trailing Spaces.
 
 
+```python
+@property
+def wrap_trail_spaces(self) -> bool:
+    ...
+
+@wrap_trail_spaces.setter
+def wrap_trail_spaces(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

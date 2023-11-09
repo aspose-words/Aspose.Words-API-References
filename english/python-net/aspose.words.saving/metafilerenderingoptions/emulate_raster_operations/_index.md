@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/metafilerenderingoptions/emulate_raster_ope
 
 Gets or sets a value determining whether or not the raster operations should be emulated.
 
+
+```python
+@property
+def emulate_raster_operations(self) -> bool:
+    ...
+
+@emulate_raster_operations.setter
+def emulate_raster_operations(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Specific raster operations could be used in metafiles. They can not be rendered directly to vector graphics.
 Emulating raster operations requires partial rasterization of the resulting vector graphics which may affect the
 metafile rendering performance.

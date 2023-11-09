@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldgreetingline/name_format/
 Gets or sets the format of the name included in the field.
 
 
+```python
+@property
+def name_format(self) -> str:
+    ...
+
+@name_format.setter
+def name_format(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -15,6 +15,17 @@ Gets or sets the language ID that is used in conjunction with the specified bibl
 in the document.
 
 
+```python
+@property
+def format_language_id(self) -> str:
+    ...
+
+@format_language_id.setter
+def format_language_id(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

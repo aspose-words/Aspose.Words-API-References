@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/cellformat/vertical_alignment/
 Returns or sets the vertical alignment of text in the cell.
 
 
+```python
+@property
+def vertical_alignment(self) -> aspose.words.tables.CellVerticalAlignment:
+    ...
+
+@vertical_alignment.setter
+def vertical_alignment(self, value: aspose.words.tables.CellVerticalAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

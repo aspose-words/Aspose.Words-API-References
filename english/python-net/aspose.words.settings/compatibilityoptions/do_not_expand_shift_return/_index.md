@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_expand_shift_
 Don't Justify Lines Ending in Soft Line Break.
 
 
+```python
+@property
+def do_not_expand_shift_return(self) -> bool:
+    ...
+
+@do_not_expand_shift_return.setter
+def do_not_expand_shift_return(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -15,6 +15,13 @@ Returns ``True`` if the page orientation specified in the document for this page
 
 
 
+```python
+@property
+def landscape(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.rendering](../../)

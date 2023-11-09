@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/suppress_top_spacing
 Emulate WordPerfect 5.x Line Spacing.
 
 
+```python
+@property
+def suppress_top_spacing_wp(self) -> bool:
+    ...
+
+@suppress_top_spacing_wp.setter
+def suppress_top_spacing_wp(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

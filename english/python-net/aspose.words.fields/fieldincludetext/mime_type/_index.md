@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/mime_type/
 Gets or sets the MIME type of the referenced file.
 
 
+```python
+@property
+def mime_type(self) -> str:
+    ...
+
+@mime_type.setter
+def mime_type(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

@@ -21,12 +21,12 @@ def add_link_to_content(self, name: str, link_source: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| link_source | str |  |
+| name | str | The name of the property. |
+| link_source | str | The source of the property. |
 
 ### Returns
 
-The newly created property object or ``None`` when the  is invalid.
+The newly created property object or ``None`` when the *linkSource* is invalid.
 
 
 ### Examples

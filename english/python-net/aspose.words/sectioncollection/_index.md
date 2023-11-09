@@ -5,7 +5,7 @@ articleTitle: SectionCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.SectionCollection class. A collection of [Section](../section/) objects in the document"
 type: docs
-weight: 1040
+weight: 1050
 url: /python-net/aspose.words/sectioncollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/p
 
 
 
+
+### Remarks
 
 A Microsoft Word document can contain multiple sections. To create a section in a Microsoft Word,
 select the Insert/Break command and select a break type. The break specifies whether section starts

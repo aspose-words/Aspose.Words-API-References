@@ -14,6 +14,20 @@ url: /python-net/aspose.words.fields/fieldoptions/custom_toc_style_separator/
 Gets or sets custom style separator for the \\t switch in [FieldToc](../../fieldtoc/) field.
 
 
+
+```python
+@property
+def custom_toc_style_separator(self) -> str:
+    ...
+
+@custom_toc_style_separator.setter
+def custom_toc_style_separator(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 By default, custom styles defined by the \\t switch in the [FieldToc](../../fieldtoc/) field are separated by a delimiter taken from the current culture.
 This property overrides that behaviour by specifying a user defined delimiter.
 

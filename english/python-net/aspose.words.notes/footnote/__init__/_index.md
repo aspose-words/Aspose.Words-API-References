@@ -22,13 +22,15 @@ def __init__(self, doc: aspose.words.DocumentBase, footnote_type: aspose.words.n
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
-| footnote_type | [FootnoteType](../../footnotetype/) |  |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
+| footnote_type | [FootnoteType](../../footnotetype/) | A [Footnote.footnote_type](../footnote_type/) value that specifies whether this is a footnote or endnote. |
+
+### Remarks
 
 When [Footnote](../) is created, it belongs to the specified document, but is not
 yet part of the document and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``None``.
 
-To append [Footnote](../) to the document use [CompositeNode.insert_after()](../../../aspose.words/compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../../aspose.words/compositenode/insert_before/#node_node)
+To append [Footnote](../) to the document use[CompositeNode.insert_after()](../../../aspose.words/compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../../aspose.words/compositenode/insert_before/#node_node)
 on the paragraph where you want the footnote inserted.
 
 

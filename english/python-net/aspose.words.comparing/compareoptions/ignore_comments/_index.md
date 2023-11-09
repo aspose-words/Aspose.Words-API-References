@@ -3,7 +3,7 @@ title: CompareOptions.ignore_comments property
 linktitle: ignore_comments property
 articleTitle: ignore_comments property
 second_title: Aspose.Words for Python
-description: "CompareOptions.ignore_comments property. Specifies whether to compare differences in comments"
+description: "CompareOptions.ignore_comments property. Specifies whether to compare differences in comments."
 type: docs
 weight: 50
 url: /python-net/aspose.words.comparing/compareoptions/ignore_comments/
@@ -12,6 +12,21 @@ url: /python-net/aspose.words.comparing/compareoptions/ignore_comments/
 ## CompareOptions.ignore_comments property
 
 Specifies whether to compare differences in comments.
+
+
+```python
+@property
+def ignore_comments(self) -> bool:
+    ...
+
+@ignore_comments.setter
+def ignore_comments(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default comments are not ignored.
 
 

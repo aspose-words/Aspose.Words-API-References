@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing/shapebase/is_inline/
 
 A quick way to determine if this shape is positioned inline with text.
 
+
+```python
+@property
+def is_inline(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 Has effect only for top level shapes.
 
 

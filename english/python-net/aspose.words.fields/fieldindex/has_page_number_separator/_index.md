@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldindex/has_page_number_separator/
 Gets a value indicating whether a page number separator is overridden through the field's code.
 
 
+```python
+@property
+def has_page_number_separator(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to edit the page number separator in an INDEX field.

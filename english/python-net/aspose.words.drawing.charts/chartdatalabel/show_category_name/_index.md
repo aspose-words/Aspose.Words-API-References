@@ -16,6 +16,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def show_category_name(self) -> bool:
+    ...
+
+@show_category_name.setter
+def show_category_name(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

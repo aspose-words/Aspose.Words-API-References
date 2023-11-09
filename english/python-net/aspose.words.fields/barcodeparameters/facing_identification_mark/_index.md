@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/facing_identification_mar
 Type of a Facing Identification Mark (FIM).
 
 
+```python
+@property
+def facing_identification_mark(self) -> str:
+    ...
+
+@facing_identification_mark.setter
+def facing_identification_mark(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

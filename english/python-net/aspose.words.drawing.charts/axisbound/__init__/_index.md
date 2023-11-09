@@ -40,13 +40,13 @@ Creates an axis bound represented as datetime value.
 
 
 ```python
-def __init__(self, datetime: datetime):
+def __init__(self, datetime: datetime.datetime):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| datetime | datetime |  |
+| datetime | datetime.datetime |  |
 
 ## Examples
 

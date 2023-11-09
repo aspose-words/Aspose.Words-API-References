@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldhyperlink/open_in_new_window/
 Gets or sets whether to open the destination site in a new web browser window.
 
 
+```python
+@property
+def open_in_new_window(self) -> bool:
+    ...
+
+@open_in_new_window.setter
+def open_in_new_window(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.

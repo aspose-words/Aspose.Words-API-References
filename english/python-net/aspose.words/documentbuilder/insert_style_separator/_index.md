@@ -19,6 +19,8 @@ def insert_style_separator(self):
     ...
 ```
 
+### Remarks
+
 This method allows to apply different paragraph styles to two different parts of a text line.
 
 

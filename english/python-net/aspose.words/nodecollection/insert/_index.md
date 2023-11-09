@@ -21,8 +21,10 @@ def insert(self, index: int, node: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
-| node | [Node](../../node/) |  |
+| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
+| node | [Node](../../node/) | The node to insert. |
+
+### Remarks
 
 The node is inserted as a child into the node object from which the collection was created.
 
@@ -44,7 +46,7 @@ The imported node can then be inserted into the current document.
 
 | exception | condition |
 | --- | --- |
-| System.NotSupportedException | The [NodeCollection](../) is a "deep" collection. |
+| RuntimeError (Proxy error(NotSupportedException)) | The [NodeCollection](../) is a "deep" collection. |
 
 ### Examples
 

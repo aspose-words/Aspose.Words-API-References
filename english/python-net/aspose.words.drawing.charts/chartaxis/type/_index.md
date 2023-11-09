@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/type/
 Returns type of the axis.
 
 
+```python
+@property
+def type(self) -> aspose.words.drawing.charts.ChartAxisType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/CELL_CHAR/
 End of a table cell or end of a table row character: (char)7 or "\\a".
 
 
+```python
+@property
+def CELL_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

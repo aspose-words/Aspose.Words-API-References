@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddisplaybarcode/error_correction_level/
 Gets or sets an error correction level of QR Code. Valid values are [0, 3].
 
 
+```python
+@property
+def error_correction_level(self) -> str:
+    ...
+
+@error_correction_level.setter
+def error_correction_level(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/match_case/
 True indicates case-sensitive comparison, false indicates case-insensitive comparison.
 
 
+```python
+@property
+def match_case(self) -> bool:
+    ...
+
+@match_case.setter
+def match_case(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to toggle case sensitivity when performing a find-and-replace operation.

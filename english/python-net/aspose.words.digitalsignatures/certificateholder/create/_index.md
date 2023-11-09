@@ -22,8 +22,8 @@ def create(self, cert_bytes: bytes, password: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cert_bytes | bytes |  |
-| password | str |  |
+| cert_bytes | bytes | A byte array that contains data from an X.509 certificate. |
+| password | str | The password required to access the X.509 certificate data. |
 
 ### Returns
 
@@ -35,10 +35,10 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
-| System.Security.SecurityException | Thrown if PKCS12 store contains no aliases |
-| System.IO.IOException | Thrown if there is wrong password or corrupted file. |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
+| RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
 ## create(file_name, password) {#str_str}
 
@@ -53,8 +53,8 @@ def create(self, file_name: str, password: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| password | str |  |
+| file_name | str | The name of a certificate file. |
+| password | str | The password required to access the X.509 certificate data. |
 
 ### Returns
 
@@ -66,10 +66,10 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
-| System.Security.SecurityException | Thrown if PKCS12 store contains no aliases |
-| System.IO.IOException | Thrown if there is wrong password or corrupted file. |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
+| RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
 ## create(file_name, password, alias) {#str_str_str}
 
@@ -84,9 +84,9 @@ def create(self, file_name: str, password: str, alias: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| password | str |  |
-| alias | str |  |
+| file_name | str | The name of a certificate file. |
+| password | str | The password required to access the X.509 certificate data. |
+| alias | str | The associated alias for a certificate and its private key |
 
 ### Returns
 
@@ -98,11 +98,11 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
-| System.Security.SecurityException | Thrown if PKCS12 store contains no aliases |
-| System.IO.IOException | Thrown if there is wrong password or corrupted file. |
-| System.Security.SecurityException | Thrown if there is no private key with the given alias |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
+| RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
+| RuntimeError (Proxy error(SecurityException)) | Thrown if there is no private key with the given alias |
 
 ## Examples
 

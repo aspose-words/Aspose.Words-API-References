@@ -21,10 +21,12 @@ def move_to_cell(self, table_index: int, row_index: int, column_index: int, char
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table_index | int |  |
-| row_index | int |  |
-| column_index | int |  |
-| character_index | int |  |
+| table_index | int | The index of the table to move to. |
+| row_index | int | The index of the row in the table. |
+| column_index | int | The index of the column in the table. |
+| character_index | int | The index of the character inside the cell. A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of the cell. |
+
+### Remarks
 
 The navigation is performed inside the current story of the current section.
 

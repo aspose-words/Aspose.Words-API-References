@@ -21,8 +21,8 @@ def __init__(self, name: str, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| value | str |  |
+| name | str | Property name. |
+| value | str | Property value. |
 
 ### Examples
 

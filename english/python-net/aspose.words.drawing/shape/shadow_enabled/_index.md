@@ -15,6 +15,13 @@ Returns ``True`` if a shadow effect is enabled.
 
 
 
+```python
+@property
+def shadow_enabled(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

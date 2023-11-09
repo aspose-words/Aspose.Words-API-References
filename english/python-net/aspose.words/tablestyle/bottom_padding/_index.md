@@ -14,6 +14,17 @@ url: /python-net/aspose.words/tablestyle/bottom_padding/
 Gets or sets the amount of space (in points) to add below the contents of table cells.
 
 
+```python
+@property
+def bottom_padding(self) -> float:
+    ...
+
+@bottom_padding.setter
+def bottom_padding(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create custom style settings for the table.

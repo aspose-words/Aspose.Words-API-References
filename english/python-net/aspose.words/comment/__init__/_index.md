@@ -22,7 +22,9 @@ def __init__(self, doc: aspose.words.DocumentBase):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../documentbase/) |  |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+
+### Remarks
 
 When [Comment](../) is created, it belongs to the specified document, but is not
 yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
@@ -43,16 +45,16 @@ Initializes a new instance of the [Comment](../) class.
 
 
 ```python
-def __init__(self, doc: aspose.words.DocumentBase, author: str, initial: str, date_time: datetime):
+def __init__(self, doc: aspose.words.DocumentBase, author: str, initial: str, date_time: datetime.datetime):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../documentbase/) |  |
-| author | str |  |
-| initial | str |  |
-| date_time | datetime |  |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+| author | str | The author name for the comment. Cannot be ``None``. |
+| initial | str | The author initials for the comment. Cannot be ``None``. |
+| date_time | datetime.datetime | The date and time for the comment. |
 
 ## Examples
 

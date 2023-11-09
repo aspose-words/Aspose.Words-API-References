@@ -5,7 +5,7 @@ articleTitle: fonts_folder property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.fonts_folder property. Specifies the physical folder where fonts are saved when exporting a document to HTML"
 type: docs
-weight: 320
+weight: 310
 url: /python-net/aspose.words.saving/htmlsaveoptions/fonts_folder/
 ---
 
@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/fonts_folder/
 
 Specifies the physical folder where fonts are saved when exporting a document to HTML.
 Default is an empty string.
+
+
+```python
+@property
+def fonts_folder(self) -> str:
+    ...
+
+@fonts_folder.setter
+def fonts_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
 
 When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.export_font_resources](../export_font_resources/) 
 is set to ``True``, Aspose.Words needs to save fonts used in the document as standalone files. 

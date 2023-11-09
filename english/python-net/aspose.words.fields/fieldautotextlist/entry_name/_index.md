@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldautotextlist/entry_name/
 Gets or sets the name of the AutoText entry.
 
 
+```python
+@property
+def entry_name(self) -> str:
+    ...
+
+@entry_name.setter
+def entry_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use an AUTOTEXTLIST field to select from a list of AutoText entries.

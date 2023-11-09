@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/axisbound/is_auto/
 Returns a flag indicating that axis bound should be determined automatically.
 
 
+```python
+@property
+def is_auto(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom axis bounds.

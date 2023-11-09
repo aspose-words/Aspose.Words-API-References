@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldfillin/default_response/
 Gets or sets default user response (initial value contained in the prompt window).
 
 
+```python
+@property
+def default_response(self) -> str:
+    ...
+
+@default_response.setter
+def default_response(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

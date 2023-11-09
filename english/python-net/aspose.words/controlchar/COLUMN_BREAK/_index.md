@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/COLUMN_BREAK/
 End of column character: "\\x000e".
 
 
+```python
+@property
+def COLUMN_BREAK(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

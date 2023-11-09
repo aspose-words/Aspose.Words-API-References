@@ -21,7 +21,9 @@ def insert_html(self, html: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | str |  |
+| html | str | An HTML string to insert into the document. |
+
+### Remarks
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
@@ -38,17 +40,19 @@ def insert_html(self, html: str, use_builder_formatting: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | str |  |
-| use_builder_formatting | bool |  |
+| html | str | An HTML string to insert into the document. |
+| use_builder_formatting | bool | A value indicating whether formatting specified in [DocumentBuilder](../) is used as base formatting for text imported from HTML. |
+
+### Remarks
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
-When  is``False``,
+When *useBuilderFormatting* is``False``,
 [DocumentBuilder](../) formating is ignored and formatting of inserted text
 is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
 
-When  is``True``,
+When *useBuilderFormatting* is``True``,
 formatting of inserted text is based on [DocumentBuilder](../) formatting,
 and the text looks as if it were inserted with [DocumentBuilder.write()](../write/#str).
 
@@ -68,8 +72,10 @@ def insert_html(self, html: str, options: aspose.words.HtmlInsertOptions):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | str |  |
-| options | [HtmlInsertOptions](../../htmlinsertoptions/) |  |
+| html | str | An HTML string to insert into the document. |
+| options | [HtmlInsertOptions](../../htmlinsertoptions/) | Options that are used when HTML string is inserted. |
+
+### Remarks
 
 You can use this method to insert an HTML fragment or whole HTML document.
 

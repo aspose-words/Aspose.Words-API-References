@@ -13,6 +13,16 @@ url: /python-net/aspose.words/style/font/
 
 Gets the character formatting of the style.
 
+
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
+### Remarks
+
 For list styles this property returns ``None``.
 
 

@@ -21,7 +21,7 @@ def visit_editable_range_end(self, editable_range_end: aspose.words.EditableRang
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| editable_range_end | [EditableRangeEnd](../../editablerangeend/) |  |
+| editable_range_end | [EditableRangeEnd](../../editablerangeend/) | The object that is being visited. |
 
 ### Returns
 

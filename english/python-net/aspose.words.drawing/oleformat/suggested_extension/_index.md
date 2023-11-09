@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/oleformat/suggested_extension/
 Gets the file extension suggested for the current embedded object if you want to save it into a file.
 
 
+```python
+@property
+def suggested_extension(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to extract embedded OLE objects into files.

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/field_name/
 
 Gets the name of the merge field in the data source.
 
+
+```python
+@property
+def field_name(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 If you have a mapping from a document field name to a different data source field name,
 then this is the mapped field name.
 

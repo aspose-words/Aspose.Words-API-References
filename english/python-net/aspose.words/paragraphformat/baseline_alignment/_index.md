@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/baseline_alignment/
 Gets or sets fonts vertical position on a line.
 
 
+```python
+@property
+def baseline_alignment(self) -> aspose.words.BaselineAlignment:
+    ...
+
+@baseline_alignment.setter
+def baseline_alignment(self, value: aspose.words.BaselineAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set fonts vertical position on a line.

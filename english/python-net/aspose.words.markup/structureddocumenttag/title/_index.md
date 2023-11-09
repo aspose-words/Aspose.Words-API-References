@@ -16,6 +16,17 @@ Can not be ``None``.
 
 
 
+```python
+@property
+def title(self) -> str:
+    ...
+
+@title.setter
+def title(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.

@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def show(self) -> bool:
+    ...
+
+@show.setter
+def show(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set chart axis title.

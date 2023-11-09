@@ -21,7 +21,9 @@ def set_password(self, password: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | str |  |
+| password | str | The password to set. Cannot be ``None``, but can be an empty string. |
+
+### Remarks
 
 If a password is set, Microsoft Word will require the user to enter it or open 
 the document as read-only.

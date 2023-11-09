@@ -21,7 +21,7 @@ def get_embedded_font_as_open_type(self, style: aspose.words.fonts.EmbeddedFontS
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [EmbeddedFontStyle](../../embeddedfontstyle/) |  |
+| style | [EmbeddedFontStyle](../../embeddedfontstyle/) | Specifies the font style to retrieve. |
 
 ### Returns
 

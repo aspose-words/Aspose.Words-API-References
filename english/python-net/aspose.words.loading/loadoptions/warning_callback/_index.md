@@ -14,6 +14,17 @@ url: /python-net/aspose.words.loading/loadoptions/warning_callback/
 Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 
 
+```python
+@property
+def warning_callback(self) -> aspose.words.IWarningCallback:
+    ...
+
+@warning_callback.setter
+def warning_callback(self, value: aspose.words.IWarningCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

@@ -14,6 +14,16 @@ url: /python-net/aspose.words.markup/sdtlistitem/display_text/
 Gets the text to display in the run content in place of the [SdtListItem.value](../value/) attribute contents for this list item.
 
 
+
+```python
+@property
+def display_text(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None`` and cannot be an empty string.
 
 

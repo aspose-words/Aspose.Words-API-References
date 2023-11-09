@@ -14,6 +14,13 @@ url: /python-net/aspose.words/documentbuilder/row_format/
 Returns an object that represents current table row formatting properties.
 
 
+```python
+@property
+def row_format(self) -> aspose.words.tables.RowFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

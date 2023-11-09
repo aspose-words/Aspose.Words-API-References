@@ -16,6 +16,17 @@ Default value is [RevisionColor.NO_HIGHLIGHT](../../revisioncolor/#NO_HIGHLIGHT)
 
 
 
+```python
+@property
+def revised_properties_color(self) -> aspose.words.layout.RevisionColor:
+    ...
+
+@revised_properties_color.setter
+def revised_properties_color(self, value: aspose.words.layout.RevisionColor):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

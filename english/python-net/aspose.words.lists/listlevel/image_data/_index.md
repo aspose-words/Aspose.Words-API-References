@@ -13,6 +13,16 @@ url: /python-net/aspose.words.lists/listlevel/image_data/
 
 Returns image data of the picture bullet shape for the current list level.
 
+
+```python
+@property
+def image_data(self) -> aspose.words.drawing.ImageData:
+    ...
+
+```
+
+### Remarks
+
 If this level doesn't define picture bullet returns ``None``.
 Before setting new image for non picture bullet shape, please use [ListLevel.create_picture_bullet()](../create_picture_bullet/#default) method first.
 

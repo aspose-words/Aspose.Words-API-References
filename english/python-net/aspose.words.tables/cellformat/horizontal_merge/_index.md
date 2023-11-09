@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/cellformat/horizontal_merge/
 Specifies how the cell is merged horizontally with other cells in the row.
 
 
+```python
+@property
+def horizontal_merge(self) -> aspose.words.tables.CellMerge:
+    ...
+
+@horizontal_merge.setter
+def horizontal_merge(self, value: aspose.words.tables.CellMerge):
+    ...
+
+```
+
 ### Examples
 
 Shows how to merge table cells horizontally.

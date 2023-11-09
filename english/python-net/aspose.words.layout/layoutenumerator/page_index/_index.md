@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/layoutenumerator/page_index/
 Gets the 1-based index of a page which contains the current entity.
 
 
+```python
+@property
+def page_index(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows ways of traversing a document's layout entities.

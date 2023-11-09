@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/DEFAULT_TEXT_INPUT_CHAR/
 This is the "o" character used as a default value in text input form fields.
 
 
+```python
+@property
+def DEFAULT_TEXT_INPUT_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

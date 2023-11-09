@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/major_unit_scale/
 
 Returns or sets the scale value for major tick marks on the time category axis.
 
+
+```python
+@property
+def major_unit_scale(self) -> aspose.words.drawing.charts.AxisTimeUnit:
+    ...
+
+@major_unit_scale.setter
+def major_unit_scale(self, value: aspose.words.drawing.charts.AxisTimeUnit):
+    ...
+
+```
+
+### Remarks
+
 The property has effect only for time category axes.
 
 

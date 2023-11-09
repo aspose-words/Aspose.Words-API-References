@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartyvalue/value_type/
 Gets the type of the Y value stored in the object.
 
 
+```python
+@property
+def value_type(self) -> aspose.words.drawing.charts.ChartYValueType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

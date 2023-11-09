@@ -21,7 +21,7 @@ def visit_structured_document_tag_end(self, sdt: aspose.words.markup.StructuredD
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) |  |
+| sdt | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) | The object that is being visited. |
 
 ### Returns
 

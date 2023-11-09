@@ -17,6 +17,8 @@ To learn more, visit the [Working with Images](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Use the [Shape.image_data](../shape/image_data/) property to access and modify the image inside a shape.
 You do not create instances of the [ImageData](./) class directly.
 

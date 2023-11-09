@@ -15,14 +15,14 @@ Registers and loads a hyphenation dictionary for the specified language from a s
 
 
 ```python
-def register_dictionary(self, language: str, stream: BytesIO):
+def register_dictionary(self, language: str, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | str |  |
-| stream | BytesIO |  |
+| language | str | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| stream | io.BytesIO | A stream for the dictionary file in OpenOffice format. |
 
 ## register_dictionary(language, file_name) {#str_str}
 
@@ -40,8 +40,8 @@ def register_dictionary(self, language: str, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | str |  |
-| file_name | str |  |
+| language | str | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| file_name | str | A path to the dictionary file in Open Office format. |
 
 ## Examples
 

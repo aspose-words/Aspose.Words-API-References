@@ -13,6 +13,20 @@ url: /python-net/aspose.words/bordercollection/line_width/
 
 Gets or sets the border width in points.
 
+
+```python
+@property
+def line_width(self) -> float:
+    ...
+
+@line_width.setter
+def line_width(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Returns the width of the first border in the collection.
 
 Sets the width of all borders in the collection excluding diagonal borders.

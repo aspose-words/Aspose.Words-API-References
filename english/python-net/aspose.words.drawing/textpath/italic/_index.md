@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/italic/
 
 True if the font is formatted as italic.
 
+
+```python
+@property
+def italic(self) -> bool:
+    ...
+
+@italic.setter
+def italic(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

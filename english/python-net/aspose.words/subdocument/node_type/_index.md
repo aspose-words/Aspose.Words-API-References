@@ -15,6 +15,13 @@ Returns [NodeType.SUB_DOCUMENT](../../nodetype/#SUB_DOCUMENT).
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a master document's subdocument.

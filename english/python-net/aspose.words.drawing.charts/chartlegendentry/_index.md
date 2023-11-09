@@ -17,6 +17,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 A legend entry corresponds to a specific chart series or trendline.
 
 The text of the entry is the name of the series or trendline. The text cannot be changed.

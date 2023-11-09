@@ -17,6 +17,8 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 
 
 
+### Remarks
+
 For mail merge operation to work, the document should contain Word MERGEFIELD and
 optionally NEXT fields. During mail merge operation, merge fields in the document are
 replaced with values from your data source.

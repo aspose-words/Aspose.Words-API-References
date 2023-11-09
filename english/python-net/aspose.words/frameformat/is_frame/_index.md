@@ -15,6 +15,13 @@ Returns ``True`` if the paragraph is a frame.
 
 
 
+```python
+@property
+def is_frame(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/find_whole_words_only
 True indicates the oldValue must be a standalone word.
 
 
+```python
+@property
+def find_whole_words_only(self) -> bool:
+    ...
+
+@find_whole_words_only.setter
+def find_whole_words_only(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to toggle standalone word-only find-and-replace operations.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/signatureline/is_valid/
 Indicates that signature line is signed by digital signature and this digital signature is valid.
 
 
+```python
+@property
+def is_valid(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign a document with a personal certificate and a signature line.

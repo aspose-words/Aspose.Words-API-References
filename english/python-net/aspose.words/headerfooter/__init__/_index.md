@@ -21,8 +21,10 @@ def __init__(self, doc: aspose.words.DocumentBase, header_footer_type: aspose.wo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../documentbase/) |  |
-| header_footer_type | [HeaderFooterType](../../headerfootertype/) |  |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+| header_footer_type | [HeaderFooterType](../../headerfootertype/) | A [HeaderFooter.header_footer_type](../header_footer_type/) value that specifies the type of the header or footer. |
+
+### Remarks
 
 When [HeaderFooter](../) is created, it belongs to the specified document, but is not
 yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.

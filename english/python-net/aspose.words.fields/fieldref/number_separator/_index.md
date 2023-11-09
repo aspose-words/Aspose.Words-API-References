@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldref/number_separator/
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 
 
+```python
+@property
+def number_separator(self) -> str:
+    ...
+
+@number_separator.setter
+def number_separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert REF fields to reference bookmarks.

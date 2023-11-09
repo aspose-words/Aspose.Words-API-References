@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/relative_vertical_position/
 Gets the relative vertical position of a frame.
 
 
+```python
+@property
+def relative_vertical_position(self) -> aspose.words.drawing.RelativeVerticalPosition:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

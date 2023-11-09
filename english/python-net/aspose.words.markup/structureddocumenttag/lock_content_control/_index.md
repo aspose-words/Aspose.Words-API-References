@@ -15,6 +15,17 @@ When set to ``True``, this property will prohibit a user from deleting this **SD
 
 
 
+```python
+@property
+def lock_content_control(self) -> bool:
+    ...
+
+@lock_content_control.setter
+def lock_content_control(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply editing restrictions to structured document tags.

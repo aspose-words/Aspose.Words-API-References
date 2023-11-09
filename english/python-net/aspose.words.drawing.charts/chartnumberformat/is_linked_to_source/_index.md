@@ -14,6 +14,20 @@ url: /python-net/aspose.words.drawing.charts/chartnumberformat/is_linked_to_sour
 Specifies whether the format code is linked to a source cell.
 Default is true.
 
+
+```python
+@property
+def is_linked_to_source(self) -> bool:
+    ...
+
+@is_linked_to_source.setter
+def is_linked_to_source(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The NumberFormat will be reset to general if format code is linked to source.
 
 

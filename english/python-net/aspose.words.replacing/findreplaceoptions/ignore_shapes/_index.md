@@ -18,6 +18,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def ignore_shapes(self) -> bool:
+    ...
+
+@ignore_shapes.setter
+def ignore_shapes(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

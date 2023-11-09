@@ -21,7 +21,7 @@ def visit_comment_range_end(self, comment_range_end: aspose.words.CommentRangeEn
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comment_range_end | [CommentRangeEnd](../../commentrangeend/) |  |
+| comment_range_end | [CommentRangeEnd](../../commentrangeend/) | The object that is being visited. |
 
 ### Returns
 

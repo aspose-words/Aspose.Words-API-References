@@ -13,6 +13,20 @@ url: /python-net/aspose.words.loading/loadoptions/ignore_ole_data/
 
 Specifies whether to ignore the OLE data.
 
+
+```python
+@property
+def ignore_ole_data(self) -> bool:
+    ...
+
+@ignore_ole_data.setter
+def ignore_ole_data(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Ignoring OLE data may reduce memory consumption and increase performance without data lost in a case when destination format does not support OLE objects.
 
 The default value is ``False``.

@@ -15,6 +15,13 @@ True if this [HeaderFooter](../) object is a header.
 
 
 
+```python
+@property
+def is_header(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a header and a footer.

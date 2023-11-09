@@ -15,6 +15,17 @@ Gets or sets an integer value that specifies the maximum number of characters pe
 The default value is 0, that means no limit.
 
 
+```python
+@property
+def max_characters_per_line(self) -> int:
+    ...
+
+@max_characters_per_line.setter
+def max_characters_per_line(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set maximum number of characters per line.

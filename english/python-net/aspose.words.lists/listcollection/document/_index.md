@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listcollection/document/
 Gets the owner document.
 
 
+```python
+@property
+def document(self) -> aspose.words.DocumentBase:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify owner document properties of lists.

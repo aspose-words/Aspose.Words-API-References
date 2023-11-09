@@ -15,6 +15,13 @@ Gets [VbaReferenceType](../../vbareferencetype/) object that indicates the type 
 
 
 
+```python
+@property
+def type(self) -> aspose.words.vba.VbaReferenceType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.vba](../../)

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/preferredwidth/AUTO/
 Returns an instance that represents the "preferred width is not specified" value.
 
 
+```python
+@property
+def AUTO(self) -> aspose.words.tables.PreferredWidth:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a preferred width for table cells.

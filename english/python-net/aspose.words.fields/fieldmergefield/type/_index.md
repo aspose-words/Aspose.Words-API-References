@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldmergefield/type/
 Gets the Microsoft Word field type.
 
 
+```python
+@property
+def type(self) -> aspose.words.fields.FieldType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

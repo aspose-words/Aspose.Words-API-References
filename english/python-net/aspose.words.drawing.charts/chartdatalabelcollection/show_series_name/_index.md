@@ -15,6 +15,20 @@ Returns or sets a Boolean to indicate the series name display behavior for the d
 ``True`` to show the series name; ``False`` to hide. By default ``False``.
 
 
+
+```python
+@property
+def show_series_name(self) -> bool:
+    ...
+
+@show_series_name.setter
+def show_series_name(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.show_series_name](../../chartdatalabel/show_series_name/) property.
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/shapebase/top_relative/
 Gets or sets the value that represents shape's relative top position in percent.
 
 
+```python
+@property
+def top_relative(self) -> float:
+    ...
+
+@top_relative.setter
+def top_relative(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set relative size and position.

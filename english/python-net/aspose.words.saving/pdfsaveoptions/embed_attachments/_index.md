@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/embed_attachments/
 
 Gets or sets a value determining whether or not to embed attachments to the PDF document.
 
+
+```python
+@property
+def embed_attachments(self) -> bool:
+    ...
+
+@embed_attachments.setter
+def embed_attachments(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default value is ``False`` and attachments are not embedded.
 
 When the value is ``True`` attachments are embedded to the PDF document.

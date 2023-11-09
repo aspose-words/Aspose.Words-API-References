@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bookmark/bookmark_end/
 Gets the node that represents the end of the bookmark.
 
 
+```python
+@property
+def bookmark_end(self) -> aspose.words.BookmarkEnd:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

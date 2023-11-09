@@ -16,6 +16,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def show_percentage(self) -> bool:
+    ...
+
+@show_percentage.setter
+def show_percentage(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

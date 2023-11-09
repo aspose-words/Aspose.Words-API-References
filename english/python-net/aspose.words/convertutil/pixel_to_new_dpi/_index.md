@@ -21,9 +21,9 @@ def pixel_to_new_dpi(self, pixels: float, old_dpi: float, new_dpi: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pixels | float |  |
-| old_dpi | float |  |
-| new_dpi | float |  |
+| pixels | float | The value to convert. |
+| old_dpi | float | The current dpi (dots per inch) resolution. |
+| new_dpi | float | The new dpi (dots per inch) resolution. |
 
 ### Examples
 

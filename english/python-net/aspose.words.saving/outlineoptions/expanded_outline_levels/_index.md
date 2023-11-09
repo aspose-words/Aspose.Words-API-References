@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/outlineoptions/expanded_outline_levels/
 
 Specifies how many levels in the document outline to show expanded when the file is viewed.
 
+
+```python
+@property
+def expanded_outline_levels(self) -> int:
+    ...
+
+@expanded_outline_levels.setter
+def expanded_outline_levels(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Note that this options will not work when saving to XPS.
 
 Specify 0 and the document outline will be collapsed; specify 1 and the first level items

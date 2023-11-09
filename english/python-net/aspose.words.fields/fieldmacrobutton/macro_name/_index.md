@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmacrobutton/macro_name/
 Gets or sets the name of the macro or command to run.
 
 
+```python
+@property
+def macro_name(self) -> str:
+    ...
+
+@macro_name.setter
+def macro_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.

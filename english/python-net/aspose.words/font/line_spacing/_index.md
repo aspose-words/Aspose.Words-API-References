@@ -14,6 +14,13 @@ url: /python-net/aspose.words/font/line_spacing/
 Returns line spacing of this font (in points).
 
 
+```python
+@property
+def line_spacing(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get a font's line spacing, in points.

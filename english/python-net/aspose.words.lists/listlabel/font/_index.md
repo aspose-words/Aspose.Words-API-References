@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listlabel/font/
 Gets the list label font.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.lists](../../)

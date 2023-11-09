@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fields/userinformation/default_user/
 
 Default user information.
 
+
+```python
+@property
+def default_user(self) -> aspose.words.fields.UserInformation:
+    ...
+
+```
+
+### Remarks
+
 Use the [FieldOptions.current_user](../../fieldoptions/current_user/) property to specify user information for single document.
 
 

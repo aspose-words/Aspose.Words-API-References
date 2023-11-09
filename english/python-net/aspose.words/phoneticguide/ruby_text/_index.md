@@ -14,6 +14,13 @@ url: /python-net/aspose.words/phoneticguide/ruby_text/
 Gets ruby text of the phonetic guide.
 
 
+```python
+@property
+def ruby_text(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

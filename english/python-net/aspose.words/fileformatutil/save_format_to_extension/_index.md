@@ -23,6 +23,8 @@ def save_format_to_extension(self, save_format: aspose.words.SaveFormat):
 | --- | --- | --- |
 | save_format | [SaveFormat](../../saveformat/) |  |
 
+### Remarks
+
 The [SaveFormat.WORD_ML](../../saveformat/#WORD_ML) value is converted to ".wml".
 
 The [SaveFormat.FLAT_OPC](../../saveformat/#FLAT_OPC) value is converted to ".fopc".
@@ -34,7 +36,7 @@ The [SaveFormat.FLAT_OPC](../../saveformat/#FLAT_OPC) value is converted to ".fo
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentException | Throws when cannot convert. |
+| RuntimeError (Proxy error(ArgumentException)) | Throws when cannot convert. |
 
 ### Examples
 

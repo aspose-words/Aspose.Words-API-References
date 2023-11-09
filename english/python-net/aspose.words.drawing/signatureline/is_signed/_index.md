@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/signatureline/is_signed/
 Indicates that signature line is signed by digital signature.
 
 
+```python
+@property
+def is_signed(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign a document with a personal certificate and a signature line.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words/bookmarkstart/name/
 
 Gets or sets the bookmark name.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``.
 
 

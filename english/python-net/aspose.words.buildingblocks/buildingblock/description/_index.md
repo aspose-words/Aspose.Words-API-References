@@ -13,6 +13,20 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/description/
 
 Gets or sets the description associated with this building block.
 
+
+```python
+@property
+def description(self) -> str:
+    ...
+
+@description.setter
+def description(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The description may contain any string content, usually additional information.
 
 Cannot be ``None``, but can be an empty string.

@@ -15,6 +15,17 @@ Inserts the reference mark with the same character formatting as the Footnote Re
 or Endnote Reference style.
 
 
+```python
+@property
+def insert_reference_mark(self) -> bool:
+    ...
+
+@insert_reference_mark.setter
+def insert_reference_mark(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert NOTEREF fields, and modify their appearance.

@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def ignore_deleted(self) -> bool:
+    ...
+
+@ignore_deleted.setter
+def ignore_deleted(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to include or ignore text inside delete revisions during a find-and-replace operation.

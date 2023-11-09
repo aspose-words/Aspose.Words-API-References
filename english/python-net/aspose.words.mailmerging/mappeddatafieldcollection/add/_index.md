@@ -21,8 +21,8 @@ def add(self, document_field_name: str, data_source_field_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document_field_name | str |  |
-| data_source_field_name | str |  |
+| document_field_name | str | Case-sensitive name of the mail merge field in the document. |
+| data_source_field_name | str | Case-sensitive name of the field in the data source. |
 
 ### Examples
 

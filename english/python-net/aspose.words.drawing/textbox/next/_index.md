@@ -15,6 +15,17 @@ Returns or sets a [TextBox](../) that represents the next [TextBox](../) in a se
 
 
 
+```python
+@property
+def next(self) -> aspose.words.drawing.TextBox:
+    ...
+
+@next.setter
+def next(self, value: aspose.words.drawing.TextBox):
+    ...
+
+```
+
 ### Examples
 
 Shows how to link text boxes.

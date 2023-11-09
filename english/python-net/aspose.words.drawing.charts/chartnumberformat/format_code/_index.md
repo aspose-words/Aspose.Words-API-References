@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartnumberformat/format_code/
 
 Gets or sets the format code applied to a data label.
 
+
+```python
+@property
+def format_code(self) -> str:
+    ...
+
+@format_code.setter
+def format_code(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Number formatting is used to change the way a value appears in data label and can be used in some very creative ways.
 The examples of number formats:
 Number - "#,##0.00"

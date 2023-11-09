@@ -14,6 +14,13 @@ url: /python-net/aspose.words/plaintextdocument/text/
 Gets textual content of the document concatenated as a string.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext.

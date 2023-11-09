@@ -17,6 +17,17 @@ Default is ``False``.
 
 
 
+```python
+@property
+def create_note_hyperlinks(self) -> bool:
+    ...
+
+@create_note_hyperlinks.setter
+def create_note_hyperlinks(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to make footnotes and endnotes function as hyperlinks.

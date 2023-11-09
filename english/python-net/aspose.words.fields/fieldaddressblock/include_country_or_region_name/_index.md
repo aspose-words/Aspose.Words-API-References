@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldaddressblock/include_country_or_region
 Gets or sets whether to include the name of the country/region.
 
 
+```python
+@property
+def include_country_or_region_name(self) -> str:
+    ...
+
+@include_country_or_region_name.setter
+def include_country_or_region_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADDRESSBLOCK field.

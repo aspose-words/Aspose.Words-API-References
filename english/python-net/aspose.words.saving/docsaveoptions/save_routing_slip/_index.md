@@ -16,6 +16,17 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def save_routing_slip(self) -> bool:
+    ...
+
+@save_routing_slip.setter
+def save_routing_slip(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set save options for older Microsoft Word formats.

@@ -18,6 +18,20 @@ Can be a raster
 [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG).
 
 
+
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
+### Remarks
+
 The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [ImageSaveOptions](../) and via [SvgSaveOptions](../../svgsaveoptions/).

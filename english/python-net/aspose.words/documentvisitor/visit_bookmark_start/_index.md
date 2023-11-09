@@ -21,7 +21,7 @@ def visit_bookmark_start(self, bookmark_start: aspose.words.BookmarkStart):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark_start | [BookmarkStart](../../bookmarkstart/) |  |
+| bookmark_start | [BookmarkStart](../../bookmarkstart/) | The object that is being visited. |
 
 ### Returns
 

@@ -15,6 +15,13 @@ Returns ``True`` if the cursor is at the beginning of the current paragraph (no 
 
 
 
+```python
+@property
+def is_at_start_of_paragraph(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.

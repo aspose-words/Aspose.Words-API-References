@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/COLUMN_BREAK_CHAR/
 End of column character: (char)14.
 
 
+```python
+@property
+def COLUMN_BREAK_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

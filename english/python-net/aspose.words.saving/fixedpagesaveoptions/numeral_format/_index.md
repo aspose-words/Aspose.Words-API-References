@@ -15,6 +15,20 @@ Gets or sets [NumeralFormat](../../numeralformat/) used for rendering of numeral
 European numerals are used by default.
 
 
+
+```python
+@property
+def numeral_format(self) -> aspose.words.saving.NumeralFormat:
+    ...
+
+@numeral_format.setter
+def numeral_format(self, value: aspose.words.saving.NumeralFormat):
+    ...
+
+```
+
+### Remarks
+
 If the value of this property is changed and page layout is already built then
 [Document.update_page_layout()](../../../aspose.words/document/update_page_layout/#default) is invoked automatically to update any changes.
 

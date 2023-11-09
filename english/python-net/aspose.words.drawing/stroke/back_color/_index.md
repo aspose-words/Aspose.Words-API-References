@@ -13,8 +13,23 @@ url: /python-net/aspose.words.drawing/stroke/back_color/
 
 Gets or sets the background color of the stroke.
 
+
+```python
+@property
+def back_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@back_color.setter
+def back_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 The default value for a [Shape](../../shape/) is
-System.Drawing.Color.White.
+aspose.pydrawing.Color.white.
+
 
 
 ### Examples

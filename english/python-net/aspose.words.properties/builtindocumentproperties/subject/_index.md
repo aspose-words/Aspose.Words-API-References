@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/subject/
 Gets or sets the subject of the document.
 
 
+```python
+@property
+def subject(self) -> str:
+    ...
+
+@subject.setter
+def subject(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties in the "Description" category.

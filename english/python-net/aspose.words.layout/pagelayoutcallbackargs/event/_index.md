@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/pagelayoutcallbackargs/event/
 Gets event.
 
 
+```python
+@property
+def event(self) -> aspose.words.layout.PageLayoutEvent:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.layout](../../)

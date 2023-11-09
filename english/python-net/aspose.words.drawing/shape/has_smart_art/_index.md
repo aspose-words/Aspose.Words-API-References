@@ -15,6 +15,13 @@ Returns ``True`` if this [Shape](../) has a SmartArt object.
 
 
 
+```python
+@property
+def has_smart_art(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to count the number of shapes in a document with SmartArt objects.

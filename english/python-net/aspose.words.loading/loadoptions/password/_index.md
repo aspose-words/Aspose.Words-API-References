@@ -15,6 +15,20 @@ Gets or sets the password for opening an encrypted document.
 Can be ``None`` or empty string. Default is ``None``.
 
 
+
+```python
+@property
+def password(self) -> str:
+    ...
+
+@password.setter
+def password(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 You need to know the password to open an encrypted document. If the document is not encrypted, set this to ``None`` or empty string.
 
 

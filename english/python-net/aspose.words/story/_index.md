@@ -5,7 +5,7 @@ articleTitle: Story class
 second_title: Aspose.Words for Python
 description: "aspose.words.Story class. Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/)"
 type: docs
-weight: 1100
+weight: 1110
 url: /python-net/aspose.words/story/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.as
 
 
 
+
+### Remarks
 
 Text of a Word document is said to consist of several stories.
 The main text is stored in the main text story represented by [Body](../body/),
@@ -59,7 +61,7 @@ each header and footer is stored in a separate story represented by [HeaderFoote
 |[ append_paragraph(text)](./append_paragraph/#str) | A shortcut method that creates a [Paragraph](../paragraph/) object with optional text and appends it to the end of this object. |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
 |[ delete_shapes()](./delete_shapes/#default) | Deletes all shapes from the text of this story. |
-|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_child(node_type, index, is_deep)](../compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |

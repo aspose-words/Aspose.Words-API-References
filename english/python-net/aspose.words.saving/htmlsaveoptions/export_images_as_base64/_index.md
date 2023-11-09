@@ -5,7 +5,7 @@ articleTitle: export_images_as_base64 property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_images_as_base64 property. Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB"
 type: docs
-weight: 180
+weight: 170
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_images_as_base64/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_images_as_base64/
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB.
 Default is ``False``.
 
+
+
+```python
+@property
+def export_images_as_base64(self) -> bool:
+    ...
+
+@export_images_as_base64.setter
+def export_images_as_base64(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 When this property is set to ``True`` images data are exported
 directly into the **img** elements and separate files are not created.

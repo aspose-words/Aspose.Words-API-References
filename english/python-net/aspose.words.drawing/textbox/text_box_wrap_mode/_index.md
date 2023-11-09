@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/text_box_wrap_mode/
 
 Determines how text wraps inside a shape.
 
+
+```python
+@property
+def text_box_wrap_mode(self) -> aspose.words.drawing.TextBoxWrapMode:
+    ...
+
+@text_box_wrap_mode.setter
+def text_box_wrap_mode(self, value: aspose.words.drawing.TextBoxWrapMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [TextBoxWrapMode.SQUARE](../../textboxwrapmode/#SQUARE).
 
 

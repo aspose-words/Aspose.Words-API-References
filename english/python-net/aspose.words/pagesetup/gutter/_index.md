@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/gutter/
 Gets or sets the amount of extra space added to the margin for document binding.
 
 
+```python
+@property
+def gutter(self) -> float:
+    ...
+
+@gutter.setter
+def gutter(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set gutter margins.

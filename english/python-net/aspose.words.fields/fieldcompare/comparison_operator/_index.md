@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcompare/comparison_operator/
 Gets or sets the comparison operator.
 
 
+```python
+@property
+def comparison_operator(self) -> str:
+    ...
+
+@comparison_operator.setter
+def comparison_operator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to compare expressions using a COMPARE field.

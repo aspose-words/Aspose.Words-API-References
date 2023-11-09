@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldformat/date_time_format/
 Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \\@ switch.
 
 
+```python
+@property
+def date_time_format(self) -> str:
+    ...
+
+@date_time_format.setter
+def date_time_format(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format field results.

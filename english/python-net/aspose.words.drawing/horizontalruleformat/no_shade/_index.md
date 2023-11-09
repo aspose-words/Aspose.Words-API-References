@@ -15,6 +15,20 @@ Indicates the presence of 3D shading for the horizontal rule.
 If ``True``, then the horizontal rule is without 3D shading and solid color is used.
 
 
+
+```python
+@property
+def no_shade(self) -> bool:
+    ...
+
+@no_shade.setter
+def no_shade(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

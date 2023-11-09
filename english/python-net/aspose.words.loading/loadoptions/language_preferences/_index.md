@@ -14,6 +14,13 @@ url: /python-net/aspose.words.loading/loadoptions/language_preferences/
 Gets language preferences that will be used when document is loading.
 
 
+```python
+@property
+def language_preferences(self) -> aspose.words.loading.LanguagePreferences:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply language preferences when loading a document.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/relative_vertical_position/
 
 Specifies relative to what the shape is positioned vertically.
 
+
+```python
+@property
+def relative_vertical_position(self) -> aspose.words.drawing.RelativeVerticalPosition:
+    ...
+
+@relative_vertical_position.setter
+def relative_vertical_position(self, value: aspose.words.drawing.RelativeVerticalPosition):
+    ...
+
+```
+
+### Remarks
+
 The default value is [RelativeVerticalPosition.PARAGRAPH](../../relativeverticalposition/#PARAGRAPH).
 
 Has effect only for top level floating shapes.

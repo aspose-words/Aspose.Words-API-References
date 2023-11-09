@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/no_extra_line_spacin
 Do Not Center Content on Lines With Exact Line Height.
 
 
+```python
+@property
+def no_extra_line_spacing(self) -> bool:
+    ...
+
+@no_extra_line_spacing.setter
+def no_extra_line_spacing(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

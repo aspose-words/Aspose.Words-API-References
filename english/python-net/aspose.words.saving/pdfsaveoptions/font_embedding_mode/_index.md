@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/
 
 Specifies the font embedding mode.
 
+
+```python
+@property
+def font_embedding_mode(self) -> aspose.words.saving.PdfFontEmbeddingMode:
+    ...
+
+@font_embedding_mode.setter
+def font_embedding_mode(self, value: aspose.words.saving.PdfFontEmbeddingMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [PdfFontEmbeddingMode.EMBED_ALL](../../pdffontembeddingmode/#EMBED_ALL).
 
 This setting works only for the text in ANSI (Windows-1252) encoding. If the document contains

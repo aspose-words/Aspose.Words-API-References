@@ -14,6 +14,13 @@ url: /python-net/aspose.words.properties/documentproperty/link_source/
 Gets the source of a linked custom document property.
 
 
+```python
+@property
+def link_source(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to link a custom document property to a bookmark.

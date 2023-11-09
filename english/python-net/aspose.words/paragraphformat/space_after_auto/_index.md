@@ -13,7 +13,22 @@ url: /python-net/aspose.words/paragraphformat/space_after_auto/
 
 True if the amount of spacing after the paragraph is set automatically.
 
+
+```python
+@property
+def space_after_auto(self) -> bool:
+    ...
+
+@space_after_auto.setter
+def space_after_auto(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When set to ``True``, overrides the effect of [ParagraphFormat.space_after](../space_after/).
+
 
 
 

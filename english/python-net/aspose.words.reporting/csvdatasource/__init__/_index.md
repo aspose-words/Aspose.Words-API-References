@@ -21,7 +21,7 @@ def __init__(self, csv_path: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| csv_path | str |  |
+| csv_path | str | The path to the CSV file to be used as the data source. |
 
 ## CsvDataSource(csv_path, options) {#str_csvdataloadoptions}
 
@@ -35,8 +35,8 @@ def __init__(self, csv_path: str, options: aspose.words.reporting.CsvDataLoadOpt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| csv_path | str |  |
-| options | [CsvDataLoadOptions](../../csvdataloadoptions/) |  |
+| csv_path | str | The path to the CSV file to be used as the data source. |
+| options | [CsvDataLoadOptions](../../csvdataloadoptions/) | Options for parsing the CSV data. |
 
 ## CsvDataSource(csv_stream) {#bytesio}
 
@@ -44,13 +44,13 @@ Creates a new data source with data from a CSV stream using default options for 
 
 
 ```python
-def __init__(self, csv_stream: BytesIO):
+def __init__(self, csv_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| csv_stream | BytesIO |  |
+| csv_stream | io.BytesIO | The stream of CSV data to be used as the data source. |
 
 ## CsvDataSource(csv_stream, options) {#bytesio_csvdataloadoptions}
 
@@ -58,14 +58,14 @@ Creates a new data source with data from a CSV stream using the specified option
 
 
 ```python
-def __init__(self, csv_stream: BytesIO, options: aspose.words.reporting.CsvDataLoadOptions):
+def __init__(self, csv_stream: io.BytesIO, options: aspose.words.reporting.CsvDataLoadOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| csv_stream | BytesIO |  |
-| options | [CsvDataLoadOptions](../../csvdataloadoptions/) |  |
+| csv_stream | io.BytesIO | The stream of CSV data to be used as the data source. |
+| options | [CsvDataLoadOptions](../../csvdataloadoptions/) | Options for parsing the CSV data. |
 
 ## See Also
 

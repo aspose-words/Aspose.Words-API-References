@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/accent4/
 Specifies color Accent 4.
 
 
+```python
+@property
+def accent4(self) -> aspose.pydrawing.Color:
+    ...
+
+@accent4.setter
+def accent4(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

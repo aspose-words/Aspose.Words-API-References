@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/height/
 
 Gets or sets the height of the containing block of the shape.
 
+
+```python
+@property
+def height(self) -> float:
+    ...
+
+@height.setter
+def height(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 For a top-level shape, the value is in points.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.

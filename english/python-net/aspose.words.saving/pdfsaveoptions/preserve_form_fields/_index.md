@@ -15,6 +15,20 @@ Specifies whether to preserve Microsoft Word form fields as form fields in PDF o
 Default is ``False``.
 
 
+
+```python
+@property
+def preserve_form_fields(self) -> bool:
+    ...
+
+@preserve_form_fields.setter
+def preserve_form_fields(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Microsoft Word form fields include text input, drop down and check box controls.
 
 When set to ``False``, these fields will be exported as text to PDF. When set to ``True``,

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/formfield/text_input_type/
 Gets or sets the type of a text form field.
 
 
+```python
+@property
+def text_input_type(self) -> aspose.words.fields.TextFormFieldType:
+    ...
+
+@text_input_type.setter
+def text_input_type(self, value: aspose.words.fields.TextFormFieldType):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -15,6 +15,20 @@ Allows to specify whether percentage value is to be displayed for the data label
 Default value is ``False``. Applies only to Pie charts. 
 
 
+
+```python
+@property
+def show_percentage(self) -> bool:
+    ...
+
+@show_percentage.setter
+def show_percentage(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.show_percentage](../../chartdatalabel/show_percentage/) property.
 

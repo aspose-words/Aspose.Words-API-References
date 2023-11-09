@@ -21,8 +21,8 @@ def add(self, name: str, outline_level: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| outline_level | int |  |
+| name | str | The case-insensitive name of the bookmark to add. |
+| outline_level | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ### Examples
 

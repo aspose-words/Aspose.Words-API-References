@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldsymbol/font_name/
 Gets or sets the name of the font of the character retrieved by the field.
 
 
+```python
+@property
+def font_name(self) -> str:
+    ...
+
+@font_name.setter
+def font_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the SYMBOL field.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/line_unit_before/
 Gets or sets the amount of spacing (in gridlines) before the paragraphs.
 
 
+```python
+@property
+def line_unit_before(self) -> float:
+    ...
+
+@line_unit_before.setter
+def line_unit_before(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change paragraph spacing and indents.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/page_break_before/
 True if a page break is forced before the paragraph.
 
 
+```python
+@property
+def page_break_before(self) -> bool:
+    ...
+
+@page_break_before.setter
+def page_break_before(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create paragraphs with page breaks at the beginning.

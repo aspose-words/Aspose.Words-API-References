@@ -17,6 +17,8 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-
 
 
 
+### Remarks
+
 When Aspose.Words saves a document to HTML or related formats and [HtmlSaveOptions.document_split_criteria](../htmlsaveoptions/document_split_criteria/) 
 is specified, the document is split into parts and by default, each document part is saved into a separate file.
 

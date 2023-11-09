@@ -15,16 +15,16 @@ Inserts an embedded OLE object from a stream into the document.
 
 
 ```python
-def insert_ole_object(self, stream: BytesIO, prog_id: str, as_icon: bool, presentation: BytesIO):
+def insert_ole_object(self, stream: io.BytesIO, prog_id: str, as_icon: bool, presentation: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
-| prog_id | str |  |
-| as_icon | bool |  |
-| presentation | BytesIO |  |
+| stream | io.BytesIO | Stream containing application data. |
+| prog_id | str | Programmatic Identifier of OLE object. |
+| as_icon | bool | Specifies either Iconic or Normal mode of OLE object being inserted. |
+| presentation | io.BytesIO | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 
@@ -37,16 +37,16 @@ Inserts an embedded or linked OLE object from a file into the document. Detects 
 
 
 ```python
-def insert_ole_object(self, file_name: str, is_linked: bool, as_icon: bool, presentation: BytesIO):
+def insert_ole_object(self, file_name: str, is_linked: bool, as_icon: bool, presentation: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| is_linked | bool |  |
-| as_icon | bool |  |
-| presentation | BytesIO |  |
+| file_name | str | Full path to the file. |
+| is_linked | bool | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| as_icon | bool | Specifies either Iconic or Normal mode of OLE object being inserted. |
+| presentation | io.BytesIO | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 
@@ -59,17 +59,17 @@ Inserts an embedded or linked OLE object from a file into the document. Detects 
 
 
 ```python
-def insert_ole_object(self, file_name: str, prog_id: str, is_linked: bool, as_icon: bool, presentation: BytesIO):
+def insert_ole_object(self, file_name: str, prog_id: str, is_linked: bool, as_icon: bool, presentation: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| prog_id | str |  |
-| is_linked | bool |  |
-| as_icon | bool |  |
-| presentation | BytesIO |  |
+| file_name | str | Full path to the file. |
+| prog_id | str | ProgId of OLE object. |
+| is_linked | bool | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| as_icon | bool | Specifies either Iconic or Normal mode of OLE object being inserted. |
+| presentation | io.BytesIO | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 

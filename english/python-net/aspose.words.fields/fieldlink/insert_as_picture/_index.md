@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldlink/insert_as_picture/
 Gets or sets whether to insert the linked object as a picture.
 
 
+```python
+@property
+def insert_as_picture(self) -> bool:
+    ...
+
+@insert_as_picture.setter
+def insert_as_picture(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

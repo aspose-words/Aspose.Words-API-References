@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergebarcode/pos_code_style/
 Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
 
 
+```python
+@property
+def pos_code_style(self) -> str:
+    ...
+
+@pos_code_style.setter
+def pos_code_style(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

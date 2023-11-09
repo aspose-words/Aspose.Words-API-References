@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/vertical_alignment/
 Gets vertical alignment of the specified frame.
 
 
+```python
+@property
+def vertical_alignment(self) -> aspose.words.drawing.VerticalAlignment:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

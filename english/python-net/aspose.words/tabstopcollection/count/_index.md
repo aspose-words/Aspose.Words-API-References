@@ -14,6 +14,13 @@ url: /python-net/aspose.words/tabstopcollection/count/
 Gets the number of tab stops in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a document's collection of tab stops.

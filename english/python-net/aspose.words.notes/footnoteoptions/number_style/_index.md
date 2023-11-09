@@ -13,6 +13,20 @@ url: /python-net/aspose.words.notes/footnoteoptions/number_style/
 
 Specifies the number format for automatically numbered footnotes.
 
+
+```python
+@property
+def number_style(self) -> aspose.words.NumberStyle:
+    ...
+
+@number_style.setter
+def number_style(self, value: aspose.words.NumberStyle):
+    ...
+
+```
+
+### Remarks
+
 Not all number styles are applicable for this property. For the list of applicable
 number styles see the Insert Footnote or Endnote dialog box in Microsoft Word. If you select
 a number style that is not applicable, Microsoft Word will revert to a default value.

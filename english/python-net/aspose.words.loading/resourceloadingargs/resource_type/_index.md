@@ -14,6 +14,13 @@ url: /python-net/aspose.words.loading/resourceloadingargs/resource_type/
 Type of resource.
 
 
+```python
+@property
+def resource_type(self) -> aspose.words.loading.ResourceType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

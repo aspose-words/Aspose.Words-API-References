@@ -5,7 +5,7 @@ articleTitle: legend_entries property
 second_title: Aspose.Words for Python
 description: "ChartLegend.legend_entries property. Returns a collection of legend entries for all series and trendlines of the parent chart."
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.drawing.charts/chartlegend/legend_entries/
 ---
 
@@ -13,6 +13,13 @@ url: /python-net/aspose.words.drawing.charts/chartlegend/legend_entries/
 
 Returns a collection of legend entries for all series and trendlines of the parent chart.
 
+
+```python
+@property
+def legend_entries(self) -> aspose.words.drawing.charts.ChartLegendEntryCollection:
+    ...
+
+```
 
 ### Examples
 
@@ -36,11 +43,6 @@ series.add("Series 4", categories, [0, 0])
 
 legend_entries = chart.legend.legend_entries
 legend_entries[3].is_hidden = True
-
-for legend_entry in legend_entries:
-    legend_entry.font.size = 12
-
-series1.legend_entry.font.italic = True
 
 doc.save(ARTIFACTS_DIR + "Charts.LegendEntries.docx")
 ```

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.markup/customxmlproperty/value/
 
 Gets or sets the value of the custom XML attribute or smart tag property.
 
+
+```python
+@property
+def value(self) -> str:
+    ...
+
+@value.setter
+def value(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``.
 
 Default is empty string.

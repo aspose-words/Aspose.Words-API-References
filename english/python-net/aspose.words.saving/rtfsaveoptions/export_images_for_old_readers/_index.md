@@ -17,6 +17,20 @@ This can significantly affect the size of the RTF document.
 Default value is ``True``.
 
 
+
+```python
+@property
+def export_images_for_old_readers(self) -> bool:
+    ...
+
+@export_images_for_old_readers.setter
+def export_images_for_old_readers(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 "Old readers" are pre-Microsoft Word 97 applications and also WordPad.
 When this option is ``True`` Aspose.Words writes additional RTF keywords.
 These keywords allow the document to be displayed correctly when opened in an 

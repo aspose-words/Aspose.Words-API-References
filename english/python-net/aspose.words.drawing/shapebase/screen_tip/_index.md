@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/screen_tip/
 
 Defines the text displayed when the mouse pointer moves over the shape.
 
+
+```python
+@property
+def screen_tip(self) -> str:
+    ...
+
+@screen_tip.setter
+def screen_tip(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 

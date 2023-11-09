@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldlistnum/list_name/
 Gets or sets the name of the abstract numbering definition used for the numbering.
 
 
+```python
+@property
+def list_name(self) -> str:
+    ...
+
+@list_name.setter
+def list_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to number paragraphs with LISTNUM fields.

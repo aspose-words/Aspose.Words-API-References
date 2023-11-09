@@ -15,6 +15,13 @@ Returns the [FieldMergingArgsBase.document](./) object for which the mail merge 
 
 
 
+```python
+@property
+def document(self) -> aspose.words.Document:
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.

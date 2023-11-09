@@ -15,6 +15,20 @@ Specifies the format of the document to be loaded.
 Default is [LoadFormat.AUTO](../../../aspose.words/loadformat/#AUTO).
 
 
+
+```python
+@property
+def load_format(self) -> aspose.words.LoadFormat:
+    ...
+
+@load_format.setter
+def load_format(self, value: aspose.words.LoadFormat):
+    ...
+
+```
+
+### Remarks
+
 It is recommended that you specify the [LoadFormat.AUTO](../../../aspose.words/loadformat/#AUTO) value and let Aspose.Words detect
 the file format automatically. If you know the format of the document you are about to load, you can specify the format
 explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format.

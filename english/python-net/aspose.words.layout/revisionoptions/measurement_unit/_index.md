@@ -16,6 +16,17 @@ Default value is [MeasurementUnits.CENTIMETERS](../../../aspose.words/measuremen
 
 
 
+```python
+@property
+def measurement_unit(self) -> aspose.words.MeasurementUnits:
+    ...
+
+@measurement_unit.setter
+def measurement_unit(self, value: aspose.words.MeasurementUnits):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.layout](../../)

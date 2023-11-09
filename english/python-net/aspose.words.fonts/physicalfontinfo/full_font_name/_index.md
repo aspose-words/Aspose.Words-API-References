@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/physicalfontinfo/full_font_name/
 Full name of the font.
 
 
+```python
+@property
+def full_font_name(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to list available fonts.

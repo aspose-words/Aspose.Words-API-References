@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/downsample_options/
 Allows to specify downsample options.
 
 
+```python
+@property
+def downsample_options(self) -> aspose.words.saving.DownsampleOptions:
+    ...
+
+@downsample_options.setter
+def downsample_options(self, value: aspose.words.saving.DownsampleOptions):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change the resolution of images in the PDF document.

@@ -14,6 +14,16 @@ url: /python-net/aspose.words/document/has_revisions/
 Returns ``True`` if the document has any tracked changes.
 
 
+
+```python
+@property
+def has_revisions(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 This property is a shortcut for comparing [RevisionCollection.count](../../revisioncollection/count/) to zero.
 
 

@@ -21,8 +21,10 @@ def delete_row(self, table_index: int, row_index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table_index | int |  |
-| row_index | int |  |
+| table_index | int | The index of the table. |
+| row_index | int | The index of the row in the table. |
+
+### Remarks
 
 If the cursor is inside the row that is being deleted, the cursor is moved
 out to the next row or to the next paragraph after the table.

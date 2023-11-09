@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fonts/fontsourcebase/priority/
 
 Returns the font source priority.
 
+
+```python
+@property
+def priority(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 This value is used when there are fonts with the same family name and style in different font sources.
 In this case Aspose.Words selects the font from the source with the higher priority value.
 

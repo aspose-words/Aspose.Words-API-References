@@ -15,6 +15,20 @@ Specifies the physical folder where resources (images) are saved when exporting 
 Default is ``None``.
 
 
+
+```python
+@property
+def resources_folder(self) -> str:
+    ...
+
+@resources_folder.setter
+def resources_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Has effect only if [SvgSaveOptions.export_embedded_images](../export_embedded_images/) property is ``False``.
 
 When you save a [Document](../../../aspose.words/document/) in SVG format, Aspose.Words needs to save all

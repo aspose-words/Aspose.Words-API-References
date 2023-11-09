@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/number_format/
 Returns number format of the parent element.
 
 
+```python
+@property
+def number_format(self) -> aspose.words.drawing.charts.ChartNumberFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

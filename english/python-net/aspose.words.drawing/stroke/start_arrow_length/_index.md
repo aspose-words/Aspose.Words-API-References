@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/start_arrow_length/
 
 Defines the arrowhead length for the start of a stroke.
 
+
+```python
+@property
+def start_arrow_length(self) -> aspose.words.drawing.ArrowLength:
+    ...
+
+@start_arrow_length.setter
+def start_arrow_length(self, value: aspose.words.drawing.ArrowLength):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ArrowLength.MEDIUM](../../arrowlength/#MEDIUM).
 
 

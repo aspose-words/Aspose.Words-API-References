@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/pclsaveoptions/fallback_font_name/
 Name of the font that will be used
 if no expected font is found in printer and built-in fonts collections.
 
+
+```python
+@property
+def fallback_font_name(self) -> str:
+    ...
+
+@fallback_font_name.setter
+def fallback_font_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 If no fallback is found, a warning is generated and "Arial" font is used.
 
 

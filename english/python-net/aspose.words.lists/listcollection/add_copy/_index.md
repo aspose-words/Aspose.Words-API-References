@@ -21,7 +21,9 @@ def add_copy(self, src_list: aspose.words.lists.List):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_list | [List](../../list/) |  |
+| src_list | [List](../../list/) | The source list to copy from. |
+
+### Remarks
 
 The source list can be from any document. If the source list belongs to a different document,
 a copy of the list is created and added to the current document.

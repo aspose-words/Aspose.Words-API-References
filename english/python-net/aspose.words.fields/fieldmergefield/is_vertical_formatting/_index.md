@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergefield/is_vertical_formatting/
 Gets or sets whether to enable character conversion for vertical formatting.
 
 
+```python
+@property
+def is_vertical_formatting(self) -> bool:
+    ...
+
+@is_vertical_formatting.setter
+def is_vertical_formatting(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

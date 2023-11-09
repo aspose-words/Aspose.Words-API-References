@@ -13,6 +13,16 @@ url: /python-net/aspose.words.lists/list/style/
 
 Gets the list style that this list references or defines.
 
+
+```python
+@property
+def style(self) -> aspose.words.Style:
+    ...
+
+```
+
+### Remarks
+
 If this list is not associated with a list style, the property will return ``None``.
 
 A list could be a reference to a list style, in this case [List.is_list_style_reference](../is_list_style_reference/)

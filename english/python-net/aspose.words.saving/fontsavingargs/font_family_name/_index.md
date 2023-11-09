@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/fontsavingargs/font_family_name/
 Indicates the current font family name.
 
 
+```python
+@property
+def font_family_name(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Compares the values designated by the expressions [FieldCompare.left_expression](./left_expression/) and [FieldCompare.right_expression](./right_expression/)
 in comparison using the operator designated by [FieldCompare.comparison_operator](./comparison_operator/).
 

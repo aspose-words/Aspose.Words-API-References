@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/fontsubstitutionsettings/table_substitution/
 Settings related to table substitution rule.
 
 
+```python
+@property
+def table_substitution(self) -> aspose.words.fonts.TableSubstitutionRule:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with custom font substitution tables.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.layout/revisionoptions/revision_bars_width/
 Gets or sets width of revision bars, points.
 
 
+```python
+@property
+def revision_bars_width(self) -> float:
+    ...
+
+@revision_bars_width.setter
+def revision_bars_width(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

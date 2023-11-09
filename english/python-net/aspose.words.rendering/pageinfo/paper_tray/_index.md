@@ -15,6 +15,13 @@ Gets the paper tray (bin) for this page as specified in the document.
 The value is implementation (printer) specific.
 
 
+```python
+@property
+def paper_tray(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.rendering](../../)

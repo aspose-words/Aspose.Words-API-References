@@ -25,7 +25,7 @@ def __init__(self, save_format: aspose.words.SaveFormat):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| save_format | [SaveFormat](../../../aspose.words/saveformat/) |  |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../../aspose.words/saveformat/#EPS) or [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG) format. |
 
 ### Examples
 

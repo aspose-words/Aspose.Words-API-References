@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/font/
 
 Provides access to the font formatting of the data labels of the entire series.
 
+
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.font](../../chartdatalabel/font/) property.
 

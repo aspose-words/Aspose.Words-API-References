@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/custom_document_properties/
 Returns a collection that represents all the custom document properties of the document.
 
 
+```python
+@property
+def custom_document_properties(self) -> aspose.words.properties.CustomDocumentProperties:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties.

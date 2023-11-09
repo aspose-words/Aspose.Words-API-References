@@ -15,6 +15,13 @@ Returns ``True`` if this shape is not a child of a group shape.
 
 
 
+```python
+@property
+def is_top_level(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to tell whether a shape is a part of a group shape.

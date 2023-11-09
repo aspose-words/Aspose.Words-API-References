@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/layoutenumerator/rectangle/
 Returns the bounding rectangle of the current entity relative to the page top left corner (in points).
 
 
+```python
+@property
+def rectangle(self) -> aspose.pydrawing.RectangleF:
+    ...
+
+```
+
 ### Examples
 
 Shows ways of traversing a document's layout entities.

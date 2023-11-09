@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/linked_style/
 
 Gets or sets the paragraph style that is linked to this list level.
 
+
+```python
+@property
+def linked_style(self) -> aspose.words.Style:
+    ...
+
+@linked_style.setter
+def linked_style(self, value: aspose.words.Style):
+    ...
+
+```
+
+### Remarks
+
 This property is ``None`` when the list level is not linked to a paragraph style.
 This property can be set to ``None``.
 

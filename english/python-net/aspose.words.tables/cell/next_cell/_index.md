@@ -14,6 +14,16 @@ url: /python-net/aspose.words.tables/cell/next_cell/
 Gets the next [Cell](../) node.
 
 
+
+```python
+@property
+def next_cell(self) -> aspose.words.tables.Cell:
+    ...
+
+```
+
+### Remarks
+
 The method can be used when you need to have typed access to cells of a [Row](../../row/). If a
 [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) node is found in a row instead of a cell, it is automatically
 traversed to get a cell contained within.

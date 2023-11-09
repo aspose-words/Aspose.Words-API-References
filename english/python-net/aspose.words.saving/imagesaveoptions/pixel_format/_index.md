@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/pixel_format/
 
 Gets or sets the pixel format for the generated images.
 
+
+```python
+@property
+def pixel_format(self) -> aspose.words.saving.ImagePixelFormat:
+    ...
+
+@pixel_format.setter
+def pixel_format(self, value: aspose.words.saving.ImagePixelFormat):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving to raster image formats.
 
 The default value is [ImagePixelFormat.FORMAT_32BPP_ARGB](../../imagepixelformat/#FORMAT_32BPP_ARGB).

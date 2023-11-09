@@ -15,6 +15,17 @@ Gets or sets a flag indicating whether inter-character spacing is automatically 
 of Latin text and regions of East Asian text in the current paragraph.
 
 
+```python
+@property
+def add_space_between_far_east_and_alpha(self) -> bool:
+    ...
+
+@add_space_between_far_east_and_alpha.setter
+def add_space_between_far_east_and_alpha(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a paragraph into the document.

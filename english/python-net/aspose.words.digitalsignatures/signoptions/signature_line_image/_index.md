@@ -16,6 +16,17 @@ Default value is ``None``.
 
 
 
+```python
+@property
+def signature_line_image(self) -> bytes:
+    ...
+
+@signature_line_image.setter
+def signature_line_image(self, value: bytes):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.

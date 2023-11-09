@@ -21,8 +21,8 @@ def append_field(self, field_type: aspose.words.fields.FieldType, update_field: 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_type | [FieldType](../../../aspose.words.fields/fieldtype/) |  |
-| update_field | bool |  |
+| field_type | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to append. |
+| update_field | bool | Specifies whether to update the field immediately. |
 
 ### Returns
 
@@ -41,7 +41,7 @@ def append_field(self, field_code: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_code | str |  |
+| field_code | str | The field code to append (without curly braces). |
 
 ### Returns
 
@@ -60,8 +60,8 @@ def append_field(self, field_code: str, field_value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_code | str |  |
-| field_value | str |  |
+| field_code | str | The field code to append (without curly braces). |
+| field_value | str | The field value to append. Pass ``None`` for fields that do not have a value. |
 
 ### Returns
 

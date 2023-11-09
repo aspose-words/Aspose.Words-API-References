@@ -15,6 +15,20 @@ Gets or sets a value indicating whether this entry is hidden in the chart legend
 The default value is **false**.
 
 
+
+```python
+@property
+def is_hidden(self) -> bool:
+    ...
+
+@is_hidden.setter
+def is_hidden(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When a chart legend entry is hidden, it does not affect the corresponding chart series or trendline that
 is still displayed on the chart.
 
@@ -41,11 +55,6 @@ series.add("Series 4", categories, [0, 0])
 
 legend_entries = chart.legend.legend_entries
 legend_entries[3].is_hidden = True
-
-for legend_entry in legend_entries:
-    legend_entry.font.size = 12
-
-series1.legend_entry.font.italic = True
 
 doc.save(ARTIFACTS_DIR + "Charts.LegendEntries.docx")
 ```

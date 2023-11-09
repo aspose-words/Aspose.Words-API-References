@@ -14,6 +14,13 @@ url: /python-net/aspose.words/variablecollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a document's variable collection.

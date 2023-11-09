@@ -21,7 +21,9 @@ def add(self, list_template: aspose.words.lists.ListTemplate):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| list_template | [ListTemplate](../../listtemplate/) |  |
+| list_template | [ListTemplate](../../listtemplate/) | The template of the list. |
+
+### Remarks
 
 Aspose.Words list templates correspond to the 21 list templates available
 in the Bullets and Numbering dialog box in Microsoft Word 2003.
@@ -48,7 +50,9 @@ def add(self, list_style: aspose.words.Style):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| list_style | [Style](../../../aspose.words/style/) |  |
+| list_style | [Style](../../../aspose.words/style/) | The list style. |
+
+### Remarks
 
 The newly created list references the list style. If you change the properties of the list
 style, it is reflected in the properties of the list. Vice versa, if you change the properties

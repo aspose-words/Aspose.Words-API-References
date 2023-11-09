@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/ooxmlsaveoptions/password/
 
 Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm.
 
+
+```python
+@property
+def password(self) -> str:
+    ...
+
+@password.setter
+def password(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 In order to save document without encryption this property should be ``None`` or empty string.
 
 

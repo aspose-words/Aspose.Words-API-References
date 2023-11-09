@@ -15,6 +15,17 @@ Gets or sets the flag indicating whether images must be skipped while loading PD
 
 
 
+```python
+@property
+def skip_pdf_images(self) -> bool:
+    ...
+
+@skip_pdf_images.setter
+def skip_pdf_images(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to skip images during loading PDF files.

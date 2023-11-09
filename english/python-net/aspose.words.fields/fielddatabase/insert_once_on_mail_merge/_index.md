@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddatabase/insert_once_on_mail_merge/
 Gets or sets whether to insert data at the beginning of a merge.
 
 
+```python
+@property
+def insert_once_on_mail_merge(self) -> bool:
+    ...
+
+@insert_once_on_mail_merge.setter
+def insert_once_on_mail_merge(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

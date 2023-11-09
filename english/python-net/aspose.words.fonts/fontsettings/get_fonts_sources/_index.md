@@ -19,6 +19,8 @@ def get_fonts_sources(self):
     ...
 ```
 
+### Remarks
+
 The returned value is a copy of the data that Aspose.Words uses. If you change the entries
 in the returned array, it will have no effect on document rendering. To specify new font sources
 use the [FontSettings.set_fonts_sources()](../set_fonts_sources/#fontsourcebaselist) method.

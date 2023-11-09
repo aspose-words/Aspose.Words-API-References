@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/image_color_space_export_mod
 
 Specifies how the color space will be selected for the images in PDF document.
 
+
+```python
+@property
+def image_color_space_export_mode(self) -> aspose.words.saving.PdfImageColorSpaceExportMode:
+    ...
+
+@image_color_space_export_mode.setter
+def image_color_space_export_mode(self, value: aspose.words.saving.PdfImageColorSpaceExportMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [PdfImageColorSpaceExportMode.AUTO](../../pdfimagecolorspaceexportmode/#AUTO).
 
 

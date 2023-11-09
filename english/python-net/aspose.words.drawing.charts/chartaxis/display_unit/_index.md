@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/display_unit/
 
 Specifies the scaling value of the display units for the value axis.
 
+
+```python
+@property
+def display_unit(self) -> aspose.words.drawing.charts.AxisDisplayUnit:
+    ...
+
+```
+
+### Remarks
+
 The property has effect only for value axes.
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/document/justification_mode/
 Gets or sets the character spacing adjustment of a document.
 
 
+```python
+@property
+def justification_mode(self) -> aspose.words.settings.JustificationMode:
+    ...
+
+@justification_mode.setter
+def justification_mode(self, value: aspose.words.settings.JustificationMode):
+    ...
+
+```
+
 ### Examples
 
 Shows how to manage character spacing control.

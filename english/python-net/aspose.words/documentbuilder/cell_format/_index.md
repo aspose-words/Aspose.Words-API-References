@@ -14,6 +14,13 @@ url: /python-net/aspose.words/documentbuilder/cell_format/
 Returns an object that represents current table cell formatting properties.
 
 
+```python
+@property
+def cell_format(self) -> aspose.words.tables.CellFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

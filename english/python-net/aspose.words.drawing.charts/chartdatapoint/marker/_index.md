@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartdatapoint/marker/
 Specifies chart data marker.
 
 
+```python
+@property
+def marker(self) -> aspose.words.drawing.charts.ChartMarker:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

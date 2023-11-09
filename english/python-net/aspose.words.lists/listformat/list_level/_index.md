@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listformat/list_level/
 Returns the list level formatting plus any formatting overrides applied to the current paragraph.
 
 
+```python
+@property
+def list_level(self) -> aspose.words.lists.ListLevel:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.

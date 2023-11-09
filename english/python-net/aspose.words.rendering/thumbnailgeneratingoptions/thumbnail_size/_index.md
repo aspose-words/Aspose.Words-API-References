@@ -15,6 +15,17 @@ Size of generated thumbnail in pixels.
 Default is 600x900.
 
 
+```python
+@property
+def thumbnail_size(self) -> aspose.pydrawing.Size:
+    ...
+
+@thumbnail_size.setter
+def thumbnail_size(self, value: aspose.pydrawing.Size):
+    ...
+
+```
+
 ### Examples
 
 Shows how to update a document's thumbnail.

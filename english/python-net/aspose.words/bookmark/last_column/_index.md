@@ -13,6 +13,16 @@ url: /python-net/aspose.words/bookmark/last_column/
 
 Gets the zero-based index of the last column of the table column range associated with the bookmark.
 
+
+```python
+@property
+def last_column(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 Returns **-1** if this bookmark is not a table column bookmark.
 
 

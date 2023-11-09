@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/memoryfontsource/font_data/
 Binary font data.
 
 
+```python
+@property
+def font_data(self) -> bytes:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a byte array with data from a font file as a font source.

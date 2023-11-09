@@ -14,6 +14,13 @@ url: /python-net/aspose.words/story/story_type/
 Gets the type of this story.
 
 
+```python
+@property
+def story_type(self) -> aspose.words.StoryType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove all shapes from a node.

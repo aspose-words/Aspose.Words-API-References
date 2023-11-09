@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/series_type/
 Gets the type of this chart series.
 
 
+```python
+@property
+def series_type(self) -> aspose.words.drawing.charts.ChartSeriesType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove specific chart series

@@ -13,8 +13,23 @@ url: /python-net/aspose.words.drawing/stroke/fore_color/
 
 Gets or sets the foreground color of the stroke.
 
+
+```python
+@property
+def fore_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@fore_color.setter
+def fore_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 The default value for a [Shape](../../shape/) is
-System.Drawing.Color.Black.
+aspose.pydrawing.Color.black.
+
 
 
 ### Examples

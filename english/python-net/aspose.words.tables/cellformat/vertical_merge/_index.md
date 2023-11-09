@@ -13,6 +13,20 @@ url: /python-net/aspose.words.tables/cellformat/vertical_merge/
 
 Specifies how the cell is merged with other cells vertically.
 
+
+```python
+@property
+def vertical_merge(self) -> aspose.words.tables.CellMerge:
+    ...
+
+@vertical_merge.setter
+def vertical_merge(self, value: aspose.words.tables.CellMerge):
+    ...
+
+```
+
+### Remarks
+
 Cells can only be merged vertically if their left and right boundaries are identical.
 
 When cells are vertically merged, the display areas of the merged cells are consolidated.

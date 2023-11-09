@@ -15,6 +15,17 @@ When set to true, this property will prohibit a user from deleting this **SDT**.
 
 
 
+```python
+@property
+def lock_content_control(self) -> bool:
+    ...
+
+@lock_content_control.setter
+def lock_content_control(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

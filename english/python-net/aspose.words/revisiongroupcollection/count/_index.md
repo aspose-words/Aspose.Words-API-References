@@ -14,6 +14,13 @@ url: /python-net/aspose.words/revisiongroupcollection/count/
 Returns the number of revision groups in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print info about a group of revisions in a document.

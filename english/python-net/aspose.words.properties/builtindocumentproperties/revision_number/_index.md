@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/revision_numb
 
 Gets or sets the document revision number.
 
+
+```python
+@property
+def revision_number(self) -> int:
+    ...
+
+@revision_number.setter
+def revision_number(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words does not update this property.
 
 

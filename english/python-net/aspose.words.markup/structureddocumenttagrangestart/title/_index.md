@@ -16,6 +16,17 @@ Can not be ``None``.
 
 
 
+```python
+@property
+def title(self) -> str:
+    ...
+
+@title.setter
+def title(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the properties of multi-section structured document tags.

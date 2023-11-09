@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldhyperlink/address/
 Gets or sets a location where this hyperlink jumps.
 
 
+```python
+@property
+def address(self) -> str:
+    ...
+
+@address.setter
+def address(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.

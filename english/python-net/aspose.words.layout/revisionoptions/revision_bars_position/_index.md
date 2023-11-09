@@ -15,9 +15,23 @@ Gets or sets rendering position of revision bars.
 Default value is [HorizontalAlignment.OUTSIDE](../../../aspose.words.drawing/horizontalalignment/#OUTSIDE).
 
 
-Values of [HorizontalAlignment.CENTER](../../../aspose.words.drawing/horizontalalignment/#CENTER) and [HorizontalAlignment.INSIDE](../../../aspose.words.drawing/horizontalalignment/#INSIDE) 
-are not allowed and will cause System.ArgumentOutOfRangeException.
 
+```python
+@property
+def revision_bars_position(self) -> aspose.words.drawing.HorizontalAlignment:
+    ...
+
+@revision_bars_position.setter
+def revision_bars_position(self, value: aspose.words.drawing.HorizontalAlignment):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Values of [HorizontalAlignment.CENTER](../../../aspose.words.drawing/horizontalalignment/#CENTER) and [HorizontalAlignment.INSIDE](../../../aspose.words.drawing/horizontalalignment/#INSIDE)  are not allowed. |
 
 ### See Also
 

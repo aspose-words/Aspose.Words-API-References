@@ -16,6 +16,17 @@ Default value is [BlockImportMode.MERGE](../../blockimportmode/#MERGE).
 
 
 
+```python
+@property
+def block_import_mode(self) -> aspose.words.loading.BlockImportMode:
+    ...
+
+@block_import_mode.setter
+def block_import_mode(self, value: aspose.words.loading.BlockImportMode):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

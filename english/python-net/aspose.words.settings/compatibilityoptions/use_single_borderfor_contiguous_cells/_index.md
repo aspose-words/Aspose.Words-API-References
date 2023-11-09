@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/use_single_borderfor
 Use Simplified Rules For Table Border Conflicts.
 
 
+```python
+@property
+def use_single_borderfor_contiguous_cells(self) -> bool:
+    ...
+
+@use_single_borderfor_contiguous_cells.setter
+def use_single_borderfor_contiguous_cells(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

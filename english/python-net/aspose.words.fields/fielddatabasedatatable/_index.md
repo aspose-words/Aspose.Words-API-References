@@ -11,7 +11,7 @@ url: /python-net/aspose.words.fields/fielddatabasedatatable/
 
 ## FieldDatabaseDataTable class
 
-Provides data for the [FieldDatabase](../fielddatabase/) field result. Please see System.Data.DataTable instance.
+Provides data for the [FieldDatabase](../fielddatabase/) field result.
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 

@@ -15,6 +15,17 @@ Specifies the location of the external data source to be connected to a document
 The default value is an empty string.
 
 
+```python
+@property
+def data_source(self) -> str:
+    ...
+
+@data_source.setter
+def data_source(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

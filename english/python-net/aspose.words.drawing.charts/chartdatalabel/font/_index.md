@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/font/
 Provides access to the font formatting of this data label.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

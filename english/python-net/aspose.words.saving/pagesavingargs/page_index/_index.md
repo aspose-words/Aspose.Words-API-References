@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/pagesavingargs/page_index/
 Current page index.
 
 
+```python
+@property
+def page_index(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

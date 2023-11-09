@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/symbol_height/
 Bar code image height (in twips - 1/1440 inches)
 
 
+```python
+@property
+def symbol_height(self) -> str:
+    ...
+
+@symbol_height.setter
+def symbol_height(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

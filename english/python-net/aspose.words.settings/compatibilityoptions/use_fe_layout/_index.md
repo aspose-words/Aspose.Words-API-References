@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/use_fe_layout/
 Do Not Bypass East Asian/Complex Script Layout Code.
 
 
+```python
+@property
+def use_fe_layout(self) -> bool:
+    ...
+
+@use_fe_layout.setter
+def use_fe_layout(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shape/last_paragraph/
 Gets the last paragraph in the shape.
 
 
+```python
+@property
+def last_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set the orientation of text inside a text box.

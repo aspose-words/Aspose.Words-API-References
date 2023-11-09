@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcitation/suppress_author/
 Gets or sets whether the author information is suppressed from the citation.
 
 
+```python
+@property
+def suppress_author(self) -> bool:
+    ...
+
+@suppress_author.setter
+def suppress_author(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

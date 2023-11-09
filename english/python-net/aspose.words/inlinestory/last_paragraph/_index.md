@@ -14,6 +14,13 @@ url: /python-net/aspose.words/inlinestory/last_paragraph/
 Gets the last paragraph in the story.
 
 
+```python
+@property
+def last_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert InlineStory nodes.

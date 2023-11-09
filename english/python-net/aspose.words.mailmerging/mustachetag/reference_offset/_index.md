@@ -15,6 +15,13 @@ Gets the zero-based starting position of the tag from the start of the [Mustache
 
 
 
+```python
+@property
+def reference_offset(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

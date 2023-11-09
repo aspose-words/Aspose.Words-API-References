@@ -15,6 +15,13 @@ Returns ``True`` if this shape is a horizontal rule.
 
 
 
+```python
+@property
+def is_horizontal_rule(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.

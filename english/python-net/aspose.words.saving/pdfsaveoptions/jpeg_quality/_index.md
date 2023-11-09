@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/jpeg_quality/
 
 Gets or sets a value determining the quality of the JPEG images inside PDF document.
 
+
+```python
+@property
+def jpeg_quality(self) -> int:
+    ...
+
+@jpeg_quality.setter
+def jpeg_quality(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The default value is 100.
 
 This property is used in conjunction with the [PdfSaveOptions.image_compression](../image_compression/) option.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddisplaybarcode/symbol_rotation/
 Gets or sets the rotation of the barcode symbol. Valid values are [0, 3]
 
 
+```python
+@property
+def symbol_rotation(self) -> str:
+    ...
+
+@symbol_rotation.setter
+def symbol_rotation(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.

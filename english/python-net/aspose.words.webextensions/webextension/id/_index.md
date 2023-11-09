@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextension/id/
 Uniquely identifies the web extension instance in the current document.
 
 
+```python
+@property
+def id(self) -> str:
+    ...
+
+@id.setter
+def id(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.webextensions](../../)

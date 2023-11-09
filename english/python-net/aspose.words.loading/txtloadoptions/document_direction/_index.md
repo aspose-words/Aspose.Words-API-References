@@ -16,6 +16,17 @@ The default value is [DocumentDirection.LEFT_TO_RIGHT](../../documentdirection/#
 
 
 
+```python
+@property
+def document_direction(self) -> aspose.words.loading.DocumentDirection:
+    ...
+
+@document_direction.setter
+def document_direction(self, value: aspose.words.loading.DocumentDirection):
+    ...
+
+```
+
 ### Examples
 
 Shows how to detect plaintext document text direction.

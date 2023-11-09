@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/no_tab_hang_ind/
 Do Not Create Custom Tab Stop for Hanging Indent.
 
 
+```python
+@property
+def no_tab_hang_ind(self) -> bool:
+    ...
+
+@no_tab_hang_ind.setter
+def no_tab_hang_ind(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/allow_overlap/
 
 Gets or sets a value that specifies whether this shape can overlap other shapes.
 
+
+```python
+@property
+def allow_overlap(self) -> bool:
+    ...
+
+@allow_overlap.setter
+def allow_overlap(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This property affects behavior of the shape in Microsoft Word.
 Aspose.Words ignores the value of this property.
 

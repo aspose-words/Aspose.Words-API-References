@@ -25,16 +25,16 @@ Initializes an instance of this class.
 
 
 ```python
-def __init__(self, certificate_holder: aspose.words.digitalsignatures.CertificateHolder, reason: str, location: str, signature_date: datetime):
+def __init__(self, certificate_holder: aspose.words.digitalsignatures.CertificateHolder, reason: str, location: str, signature_date: datetime.datetime):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate_holder | [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/) |  |
-| reason | str |  |
-| location | str |  |
-| signature_date | datetime |  |
+| certificate_holder | [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/) | A certificate holder which contains the certificate itself. |
+| reason | str | The reason for signing. |
+| location | str | The location of signing. |
+| signature_date | datetime.datetime | The date and time of signing. |
 
 ## Examples
 

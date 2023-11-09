@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/alternative_text/
 
 Defines alternative text to be displayed instead of a graphic.
 
+
+```python
+@property
+def alternative_text(self) -> str:
+    ...
+
+@alternative_text.setter
+def alternative_text(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 

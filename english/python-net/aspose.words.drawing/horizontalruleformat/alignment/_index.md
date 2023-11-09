@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/horizontalruleformat/alignment/
 
 Gets or sets the alignment of the horizontal rule.
 
+
+```python
+@property
+def alignment(self) -> aspose.words.drawing.HorizontalRuleAlignment:
+    ...
+
+@alignment.setter
+def alignment(self, value: aspose.words.drawing.HorizontalRuleAlignment):
+    ...
+
+```
+
+### Remarks
+
 The default value is [HorizontalRuleAlignment.LEFT](../../horizontalrulealignment/#LEFT).
 
 

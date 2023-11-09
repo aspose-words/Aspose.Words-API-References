@@ -14,6 +14,17 @@ url: /python-net/aspose.words/document/default_tab_stop/
 Gets or sets the interval (in points) between the default tab stops.
 
 
+```python
+@property
+def default_tab_stop(self) -> float:
+    ...
+
+@default_tab_stop.setter
+def default_tab_stop(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a custom interval for tab stop positions.

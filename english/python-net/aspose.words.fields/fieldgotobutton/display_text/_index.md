@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldgotobutton/display_text/
 Gets or sets the text of the "button" that appears in the document, such that it can be selected to activate the jump.
 
 
+```python
+@property
+def display_text(self) -> str:
+    ...
+
+@display_text.setter
+def display_text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert a GOTOBUTTON field.

@@ -14,6 +14,16 @@ url: /python-net/aspose.words.drawing/shadowformat/visible/
 Returns ``True`` if the formatting applied to this instance is visible.
 
 
+
+```python
+@property
+def visible(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 Unlike [ShadowFormat.clear()](../clear/#default), assigning ``False`` to Visible does not clear the formatting,
 it only hides the shape effect.
 

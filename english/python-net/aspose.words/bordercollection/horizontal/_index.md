@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bordercollection/horizontal/
 Gets the horizontal border that is used between cells or conforming paragraphs.
 
 
+```python
+@property
+def horizontal(self) -> aspose.words.Border:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply settings to horizontal borders to a paragraph's format.

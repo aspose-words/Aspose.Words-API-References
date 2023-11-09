@@ -19,6 +19,8 @@ def update_word_count(self):
     ...
 ```
 
+### Remarks
+
 [Document.update_word_count()](./#default) recalculates and updates Characters, Words and Paragraphs
 properties in the [Document.built_in_document_properties](../built_in_document_properties/) collection of the [Document](../).
 
@@ -44,7 +46,9 @@ def update_word_count(self, update_lines_count: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| update_lines_count | bool |  |
+| update_lines_count | bool | ``True`` if number of lines in the document shall be calculated. |
+
+### Remarks
 
 This method will rebuild page layout of the document.
 

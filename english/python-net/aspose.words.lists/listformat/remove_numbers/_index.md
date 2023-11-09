@@ -19,6 +19,8 @@ def remove_numbers(self):
     ...
 ```
 
+### Remarks
+
 Calling this method is equivalent to setting the [ListFormat.list](../list/) property to ``None``.
 
 

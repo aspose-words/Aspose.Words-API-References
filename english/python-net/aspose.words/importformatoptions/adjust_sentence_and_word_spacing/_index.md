@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def adjust_sentence_and_word_spacing(self) -> bool:
+    ...
+
+@adjust_sentence_and_word_spacing.setter
+def adjust_sentence_and_word_spacing(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to adjust sentence and word spacing automatically.

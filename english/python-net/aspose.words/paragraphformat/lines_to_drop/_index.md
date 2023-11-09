@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/lines_to_drop/
 Gets or sets the number of lines of the paragraph text used to calculate the drop cap height.
 
 
+```python
+@property
+def lines_to_drop(self) -> int:
+    ...
+
+@lines_to_drop.setter
+def lines_to_drop(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set the size of a drop cap.

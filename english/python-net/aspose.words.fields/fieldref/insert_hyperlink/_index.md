@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldref/insert_hyperlink/
 Gets or sets whether to create a hyperlink to the bookmarked paragraph.
 
 
+```python
+@property
+def insert_hyperlink(self) -> bool:
+    ...
+
+@insert_hyperlink.setter
+def insert_hyperlink(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert REF fields to reference bookmarks.

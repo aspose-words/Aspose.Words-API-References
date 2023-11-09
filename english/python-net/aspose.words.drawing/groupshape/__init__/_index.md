@@ -21,7 +21,9 @@ def __init__(self, doc: aspose.words.DocumentBase):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
+
+### Remarks
 
 By default, the shape is floating and has default location and size.
 

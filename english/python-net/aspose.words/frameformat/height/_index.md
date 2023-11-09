@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/height/
 Gets the height of the specified frame.
 
 
+```python
+@property
+def height(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

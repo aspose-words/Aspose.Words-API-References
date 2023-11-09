@@ -26,17 +26,17 @@ To learn more, visit the [Compare Documents](https://docs.aspose.com/words/pytho
 
 | Name | Description |
 | --- | --- |
-| [compare_moves](./compare_moves/) | Specifies whether to compare differences in Aspose.Words.Revisions.MoveRevision between the two documents. By default move revisions are not produced. |
-| [granularity](./granularity/) | Specifies whether changes are tracked by character or by word. Default value is Aspose.Words.Comparing.Granularity.WordLevel. |
-| [ignore_case_changes](./ignore_case_changes/) | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
-| [ignore_comments](./ignore_comments/) | Specifies whether to compare differences in comments. By default comments are not ignored. |
-| [ignore_dml_unique_id](./ignore_dml_unique_id/) | Specifies whether to ignore difference in DrawingML unique Id. Default value is ``False``. |
-| [ignore_fields](./ignore_fields/) | Specifies whether to compare differences in fields. By default fields are not ignored. |
-| [ignore_footnotes](./ignore_footnotes/) | Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored. |
-| [ignore_formatting](./ignore_formatting/) | True indicates that formatting is ignored. By default document formatting is not ignored. |
-| [ignore_headers_and_footers](./ignore_headers_and_footers/) | True indicates that headers and footers content is ignored. By default headers and footers are not ignored. |
-| [ignore_tables](./ignore_tables/) | Specifies whether to compare the differences in data contained in tables. By default tables are not ignored. |
-| [ignore_textboxes](./ignore_textboxes/) | Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored. |
+| [compare_moves](./compare_moves/) | Specifies whether to compare differences   between the two documents. |
+| [granularity](./granularity/) | Specifies whether changes are tracked by character or by word. |
+| [ignore_case_changes](./ignore_case_changes/) | True indicates that documents comparison is case insensitive. |
+| [ignore_comments](./ignore_comments/) | Specifies whether to compare differences in comments. |
+| [ignore_dml_unique_id](./ignore_dml_unique_id/) | Specifies whether to ignore difference in DrawingML unique Id. |
+| [ignore_fields](./ignore_fields/) | Specifies whether to compare differences in fields. |
+| [ignore_footnotes](./ignore_footnotes/) | Specifies whether to compare differences in footnotes and endnotes. |
+| [ignore_formatting](./ignore_formatting/) | True indicates that formatting is ignored. |
+| [ignore_headers_and_footers](./ignore_headers_and_footers/) | True indicates that headers and footers content is ignored. |
+| [ignore_tables](./ignore_tables/) | Specifies whether to compare the differences in data contained in tables. |
+| [ignore_textboxes](./ignore_textboxes/) | Specifies whether to compare differences in the data contained within text boxes. |
 | [target](./target/) | Specifies which document shall be used as a target during comparison. |
 
 ### Examples

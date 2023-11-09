@@ -21,9 +21,9 @@ def insert_shape(self, shape_type: aspose.words.drawing.ShapeType, width: float,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape_type | [ShapeType](../../../aspose.words.drawing/shapetype/) |  |
-| width | float |  |
-| height | float |  |
+| shape_type | [ShapeType](../../../aspose.words.drawing/shapetype/) | The shape type to insert into the document. |
+| width | float | The width of the shape in points. |
+| height | float | The height of the shape in points. |
 
 ### Returns
 
@@ -42,14 +42,14 @@ def insert_shape(self, shape_type: aspose.words.drawing.ShapeType, horz_pos: asp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape_type | [ShapeType](../../../aspose.words.drawing/shapetype/) |  |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
-| left | float |  |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
-| top | float |  |
-| width | float |  |
-| height | float |  |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
+| shape_type | [ShapeType](../../../aspose.words.drawing/shapetype/) | The shape type to insert into the document |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the horizontal distance to the shape is measured from. |
+| left | float | Distance in points from the origin to the left side of the shape. |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the vertical distance to the shape is measured from. |
+| top | float | Distance in points from the origin to the top side of the shape. |
+| width | float | The width of the shape in points. |
+| height | float | The width of the shape in points. |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the shape. |
 
 ### Returns
 

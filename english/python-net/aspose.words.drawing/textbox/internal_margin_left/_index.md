@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/internal_margin_left/
 
 Specifies the inner left margin in points for a shape.
 
+
+```python
+@property
+def internal_margin_left(self) -> float:
+    ...
+
+@internal_margin_left.setter
+def internal_margin_left(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1/10 inch.
 
 

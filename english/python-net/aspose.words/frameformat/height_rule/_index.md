@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/height_rule/
 Gets the rule for determining the height of the specified frame.
 
 
+```python
+@property
+def height_rule(self) -> aspose.words.HeightRule:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

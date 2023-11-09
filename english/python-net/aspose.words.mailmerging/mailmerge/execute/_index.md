@@ -21,7 +21,9 @@ def execute(self, data_source: aspose.words.mailmerging.IMailMergeDataSource):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data_source | [IMailMergeDataSource](../../imailmergedatasource/) |  |
+| data_source | [IMailMergeDataSource](../../imailmergedatasource/) | An object that implements the custom mail merge data source interface. |
+
+### Remarks
 
 Use this method to fill mail merge fields in the document with values from
 any data source such as a list or hashtable or objects. You need to write your
@@ -47,8 +49,10 @@ def execute(self, field_names: List[str], values: List[object]):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_names | List[str] |  |
-| values | List[object] |  |
+| field_names | List[str] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| values | List[object] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in *fieldNames*. |
+
+### Remarks
 
 Use this method to fill mail merge fields in the document with values from
 an array of objects.

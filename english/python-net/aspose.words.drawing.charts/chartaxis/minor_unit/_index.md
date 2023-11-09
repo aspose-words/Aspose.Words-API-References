@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/minor_unit/
 
 Returns or sets the distance between minor tick marks.
 
+
+```python
+@property
+def minor_unit(self) -> float:
+    ...
+
+@minor_unit.setter
+def minor_unit(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Valid range of a value is greater than zero. The property has effect for time category and
 value axes.
 

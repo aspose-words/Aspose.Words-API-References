@@ -15,6 +15,13 @@ True if this paragraph is the last paragraph in the [Body](../../body/) (main te
 
 
 
+```python
+@property
+def is_end_of_section(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert the contents of one document to a bookmark in another document.

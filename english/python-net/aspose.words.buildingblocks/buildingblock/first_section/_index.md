@@ -13,6 +13,16 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/first_section/
 
 Gets the first section in the building block.
 
+
+```python
+@property
+def first_section(self) -> aspose.words.Section:
+    ...
+
+```
+
+### Remarks
+
 Returns ``None`` if there are no sections.
 
 

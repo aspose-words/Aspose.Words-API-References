@@ -14,6 +14,13 @@ url: /python-net/aspose.words/revision/revision_type/
 Gets the type of this revision.
 
 
+```python
+@property
+def revision_type(self) -> aspose.words.RevisionType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with revisions in a document.

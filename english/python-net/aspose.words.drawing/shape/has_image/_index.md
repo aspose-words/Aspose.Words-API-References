@@ -15,6 +15,13 @@ Returns ``True`` if the shape has image bytes or links an image.
 
 
 
+```python
+@property
+def has_image(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.

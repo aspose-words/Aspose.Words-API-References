@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/links_up_to_d
 
 Indicates whether hyperlinks in a document are up-to-date.
 
+
+```python
+@property
+def links_up_to_date(self) -> bool:
+    ...
+
+@links_up_to_date.setter
+def links_up_to_date(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words does not update this property.
 
 

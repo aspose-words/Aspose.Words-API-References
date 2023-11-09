@@ -5,7 +5,7 @@ articleTitle: images_folder property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.images_folder property. Specifies the physical folder where images are saved when exporting a document to HTML format"
 type: docs
-weight: 370
+weight: 360
 url: /python-net/aspose.words.saving/htmlsaveoptions/images_folder/
 ---
 
@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/images_folder/
 
 Specifies the physical folder where images are saved when exporting a document to HTML format.
 Default is an empty string.
+
+
+```python
+@property
+def images_folder(self) -> str:
+    ...
+
+@images_folder.setter
+def images_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
 
 When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all 
 images embedded in the document as standalone files. [HtmlSaveOptions.images_folder](./) 

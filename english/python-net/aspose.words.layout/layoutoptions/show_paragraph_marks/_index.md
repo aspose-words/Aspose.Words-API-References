@@ -16,6 +16,17 @@ Default is ``False``.
 
 
 
+```python
+@property
+def show_paragraph_marks(self) -> bool:
+    ...
+
+@show_paragraph_marks.setter
+def show_paragraph_marks(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to show paragraph marks in a rendered output document.

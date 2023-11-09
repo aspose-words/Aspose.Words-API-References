@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves, and optionally sets, the comments relating to the current document, as recorded in the [BuiltInDocumentProperties.comments](../../aspose.words.properties/builtindocumentproperties/comments/) property
 of the built-in document properties.
 

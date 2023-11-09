@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/oleformat/source_full_name/
 
 Gets or sets the path and name of the source file for the linked OLE object.
 
+
+```python
+@property
+def source_full_name(self) -> str:
+    ...
+
+@source_full_name.setter
+def source_full_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 If [OleFormat.source_full_name](./) is not an empty string, the OLE object is linked.

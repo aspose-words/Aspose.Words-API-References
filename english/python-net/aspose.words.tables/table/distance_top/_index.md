@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/distance_top/
 Gets or sets distance between table top and the surrounding text, in points.
 
 
+```python
+@property
+def distance_top(self) -> float:
+    ...
+
+@distance_top.setter
+def distance_top(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set distance between table boundaries and text.

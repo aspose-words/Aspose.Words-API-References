@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/fontsavingargs/original_file_size/
 
 Gets the original font file size.
 
+
+```python
+@property
+def original_file_size(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 This property contains the original file size of the current font if it is known. Otherwise it can be zero.
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/style/locked/
 Specifies whether this style is locked.
 
 
+```python
+@property
+def locked(self) -> bool:
+    ...
+
+@locked.setter
+def locked(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to lock style.

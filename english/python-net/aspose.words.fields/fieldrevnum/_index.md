@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves the document's revision number, as recorded in the **Revision** property of the
 built-in document properties.
 

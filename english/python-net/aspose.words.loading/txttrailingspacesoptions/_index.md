@@ -19,8 +19,8 @@ Specifies available options for trailing spaces handling during import from [Loa
 
 | Name | Description |
 | --- | --- |
-| TRIM |  |
-| PRESERVE |  |
+| TRIM | Trailing spaces are trimmed. |
+| PRESERVE | Trailing spaces are preserved. |
 
 ### Examples
 

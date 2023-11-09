@@ -15,6 +15,13 @@ Gets final extent that this shape object has after applying drawing effects.
 Value is measured in points.
 
 
+```python
+@property
+def bounds_with_effects(self) -> aspose.pydrawing.RectangleF:
+    ...
+
+```
+
 ### Examples
 
 Shows how to check how a shape's bounds are affected by shape effects.

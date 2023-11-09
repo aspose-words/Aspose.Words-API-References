@@ -14,6 +14,8 @@ url: /python-net/aspose.words.fields/ifielduserpromptrespondent/
 Represents the respondent to user prompts during field update.
 
 
+### Remarks
+
 The ASK and FILLIN fields are the examples of fields that prompt the user for some response. Implement this interface
 and assign it to the [FieldOptions.user_prompt_respondent](../fieldoptions/user_prompt_respondent/) property to establish interaction between field update
 and the user.

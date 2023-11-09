@@ -14,6 +14,16 @@ url: /python-net/aspose.words.drawing/shape/chart/
 Provides access to the chart properties if this shape has a [Chart](../../../aspose.words.drawing.charts/chart/).
 
 
+
+```python
+@property
+def chart(self) -> aspose.words.drawing.charts.Chart:
+    ...
+
+```
+
+### Remarks
+
 This property will return the [Chart](../../../aspose.words.drawing.charts/chart/) object only if [Shape.has_chart](../has_chart/)
 property is ``True`` for this [Shape](../), and will throw an exception otherwise.
 

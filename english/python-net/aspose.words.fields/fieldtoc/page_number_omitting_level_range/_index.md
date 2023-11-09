@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/page_number_omitting_level_range/
 Gets or sets a range of levels of the table of contents entries from which to omits page numbers.
 
 
+```python
+@property
+def page_number_omitting_level_range(self) -> str:
+    ...
+
+@page_number_omitting_level_range.setter
+def page_number_omitting_level_range(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

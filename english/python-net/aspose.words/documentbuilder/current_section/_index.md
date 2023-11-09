@@ -15,6 +15,13 @@ Gets the section that is currently selected in this [DocumentBuilder](../).
 
 
 
+```python
+@property
+def current_section(self) -> aspose.words.Section:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a floating image, and specify its position and size.

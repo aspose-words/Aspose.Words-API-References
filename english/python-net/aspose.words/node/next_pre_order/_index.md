@@ -21,11 +21,11 @@ def next_pre_order(self, root_node: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| root_node | [Node](../) |  |
+| root_node | [Node](../) | The top node (limit) of traversal. |
 
 ### Returns
 
-Next node in pre-order order. Null if reached the .
+Next node in pre-order order. Null if reached the *rootNode*.
 
 
 ### Examples

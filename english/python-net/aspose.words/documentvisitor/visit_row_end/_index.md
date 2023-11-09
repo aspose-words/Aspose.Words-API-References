@@ -21,7 +21,7 @@ def visit_row_end(self, row: aspose.words.tables.Row):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [Row](../../../aspose.words.tables/row/) |  |
+| row | [Row](../../../aspose.words.tables/row/) | The object that is being visited. |
 
 ### Returns
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/field/is_dirty/
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
 
+```python
+@property
+def is_dirty(self) -> bool:
+    ...
+
+@is_dirty.setter
+def is_dirty(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use special property for updating field result.

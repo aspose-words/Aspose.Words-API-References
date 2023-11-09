@@ -21,7 +21,7 @@ def add(self, part: aspose.words.markup.CustomXmlPart):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| part | [CustomXmlPart](../../customxmlpart/) |  |
+| part | [CustomXmlPart](../../customxmlpart/) | The custom XML part to add. |
 
 ## add(id, xml) {#str_str}
 
@@ -35,8 +35,8 @@ def add(self, id: str, xml: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | str |  |
-| xml | str |  |
+| id | str | Identifier of a new custom XML part. |
+| xml | str | XML data of the part. |
 
 ### Returns
 

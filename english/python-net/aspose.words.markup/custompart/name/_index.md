@@ -13,6 +13,20 @@ url: /python-net/aspose.words.markup/custompart/name/
 
 Gets or sets this part's absolute name within the OOXML package or the target URL.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 If the relationship target is internal, then this property is the absolute part name within the package.
 If the relationship target is external, then this property is the target URL.
 

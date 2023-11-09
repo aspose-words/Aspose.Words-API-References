@@ -15,6 +15,17 @@ Gets or sets a [Document.vba_project](./).
 
 
 
+```python
+@property
+def vba_project(self) -> aspose.words.vba.VbaProject:
+    ...
+
+@vba_project.setter
+def vba_project(self, value: aspose.words.vba.VbaProject):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's VBA project information.

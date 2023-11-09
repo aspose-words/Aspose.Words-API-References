@@ -19,6 +19,8 @@ def update_table_layout(self):
     ...
 ```
 
+### Remarks
+
 The method is deprecated and it will be removed in a few releases.
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.lists/listlevel/number_style/
 Returns or sets the number style for this list level.
 
 
+```python
+@property
+def number_style(self) -> aspose.words.NumberStyle:
+    ...
+
+@number_style.setter
+def number_style(self, value: aspose.words.NumberStyle):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.

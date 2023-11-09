@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldchar/field_type/
 Returns the type of the field.
 
 
+```python
+@property
+def field_type(self) -> aspose.words.fields.FieldType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a FieldStart node.

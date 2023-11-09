@@ -16,6 +16,17 @@ authority with "passim", which is used to indicate that a word or passage occurs
 in the work cited.
 
 
+```python
+@property
+def use_passim(self) -> bool:
+    ...
+
+@use_passim.setter
+def use_passim(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

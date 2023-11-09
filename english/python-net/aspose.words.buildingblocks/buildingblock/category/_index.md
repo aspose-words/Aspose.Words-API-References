@@ -13,6 +13,20 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/category/
 
 Specifies the second-level categorization for the building block.
 
+
+```python
+@property
+def category(self) -> str:
+    ...
+
+@category.setter
+def category(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Building blocks in Microsoft Word user interface are arranged 
 into Galleries. Each [BuildingBlock.gallery](../gallery/) can have multiple Categories. Each block within
 a [BuildingBlock.category](./) has a [BuildingBlock.name](../name/).

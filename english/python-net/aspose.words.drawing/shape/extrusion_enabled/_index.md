@@ -15,6 +15,13 @@ Returns ``True`` if an extrusion effect is enabled.
 
 
 
+```python
+@property
+def extrusion_enabled(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

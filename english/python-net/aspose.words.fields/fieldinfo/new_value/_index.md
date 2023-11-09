@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldinfo/new_value/
 Gets or sets an optional value that updates the property.
 
 
+```python
+@property
+def new_value(self) -> str:
+    ...
+
+@new_value.setter
+def new_value(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with INFO fields.

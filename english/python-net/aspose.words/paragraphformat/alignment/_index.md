@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/alignment/
 Gets or sets text alignment for the paragraph.
 
 
+```python
+@property
+def alignment(self) -> aspose.words.ParagraphAlignment:
+    ...
+
+@alignment.setter
+def alignment(self, value: aspose.words.ParagraphAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a paragraph into the document.

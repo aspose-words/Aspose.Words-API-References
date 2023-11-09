@@ -15,6 +15,20 @@ Gets or sets the text of the axis title.
 If ``None`` or empty value is specified, auto generated title will be shown.
 
 
+
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Use [ChartAxisTitle.show](../show/) option if you need to show the title.
 
 

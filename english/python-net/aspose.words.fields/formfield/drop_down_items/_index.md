@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fields/formfield/drop_down_items/
 
 Provides access to the items of a dropdown form field.
 
+
+```python
+@property
+def drop_down_items(self) -> aspose.words.fields.DropDownItemCollection:
+    ...
+
+```
+
+### Remarks
+
 Microsoft Word allows maximum 25 items in a dropdown form field.
 
 

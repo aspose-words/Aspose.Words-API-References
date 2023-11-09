@@ -15,6 +15,13 @@ Returns ``True`` if the page contains colored content.
 
 
 
+```python
+@property
+def colored(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to check whether the page is in color or not.

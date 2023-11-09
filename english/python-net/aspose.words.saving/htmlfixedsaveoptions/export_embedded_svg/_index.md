@@ -16,6 +16,17 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def export_embedded_svg(self) -> bool:
+    ...
+
+@export_embedded_svg.setter
+def export_embedded_svg(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to determine where to store SVG objects when exporting a document to Html.

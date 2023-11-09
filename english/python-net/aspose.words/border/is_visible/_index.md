@@ -15,6 +15,13 @@ Returns ``True`` if the [Border.line_style](../line_style/) is not [LineStyle.NO
 
 
 
+```python
+@property
+def is_visible(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove borders from a paragraph.

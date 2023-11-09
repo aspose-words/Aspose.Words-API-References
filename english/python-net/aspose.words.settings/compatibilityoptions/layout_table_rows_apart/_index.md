@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/layout_table_rows_ap
 Allow Table Rows to Wrap Inline Objects Independently.
 
 
+```python
+@property
+def layout_table_rows_apart(self) -> bool:
+    ...
+
+@layout_table_rows_apart.setter
+def layout_table_rows_apart(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

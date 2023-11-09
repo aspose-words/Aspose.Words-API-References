@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
 Gets the name of the chart top level that this value refers to.
 
 
+```python
+@property
+def level1(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

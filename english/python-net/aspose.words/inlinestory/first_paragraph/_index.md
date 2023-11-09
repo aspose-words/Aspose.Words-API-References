@@ -14,6 +14,13 @@ url: /python-net/aspose.words/inlinestory/first_paragraph/
 Gets the first paragraph in the story.
 
 
+```python
+@property
+def first_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert and customize footnotes.

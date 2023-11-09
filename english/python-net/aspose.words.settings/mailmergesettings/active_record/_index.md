@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/mailmergesettings/active_record/
 Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1.
 
 
+```python
+@property
+def active_record(self) -> int:
+    ...
+
+@active_record.setter
+def active_record(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.

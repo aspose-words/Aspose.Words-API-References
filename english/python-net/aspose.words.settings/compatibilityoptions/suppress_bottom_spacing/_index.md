@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/suppress_bottom_spac
 Ignore Exact Line Height for Last Line on Page.
 
 
+```python
+@property
+def suppress_bottom_spacing(self) -> bool:
+    ...
+
+@suppress_bottom_spacing.setter
+def suppress_bottom_spacing(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

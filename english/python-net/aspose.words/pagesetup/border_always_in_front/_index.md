@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/border_always_in_front/
 Specifies where the page border is positioned relative to intersecting texts and objects.
 
 
+```python
+@property
+def border_always_in_front(self) -> bool:
+    ...
+
+@border_always_in_front.setter
+def border_always_in_front(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a wide blue band border at the top of the first page.

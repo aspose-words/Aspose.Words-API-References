@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/gradientstop/color/
 Gets or sets a value representing the color of the gradient stop.
 
 
+```python
+@property
+def color(self) -> aspose.pydrawing.Color:
+    ...
+
+@color.setter
+def color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add gradient stops to the gradient fill.

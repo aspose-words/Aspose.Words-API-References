@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_wrap_text_wit
 Do Not Allow Hanging Punctuation With Character Grid.
 
 
+```python
+@property
+def do_not_wrap_text_with_punct(self) -> bool:
+    ...
+
+@do_not_wrap_text_with_punct.setter
+def do_not_wrap_text_with_punct(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

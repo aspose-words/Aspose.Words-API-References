@@ -16,6 +16,20 @@ inside the document.
 Can be ``None``. Default is ``None``.
 
 
+
+```python
+@property
+def encoding(self) -> str:
+    ...
+
+@encoding.setter
+def encoding(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is ``None``, then the system will try to

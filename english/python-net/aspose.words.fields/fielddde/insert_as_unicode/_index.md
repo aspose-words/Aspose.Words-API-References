@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddde/insert_as_unicode/
 Gets or sets whether to insert the linked object as Unicode text.
 
 
+```python
+@property
+def insert_as_unicode(self) -> bool:
+    ...
+
+@insert_as_unicode.setter
+def insert_as_unicode(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

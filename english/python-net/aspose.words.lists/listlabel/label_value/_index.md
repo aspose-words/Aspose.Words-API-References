@@ -13,6 +13,16 @@ url: /python-net/aspose.words.lists/listlabel/label_value/
 
 Gets a numeric value for this label.
 
+
+```python
+@property
+def label_value(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 Use the [Document.update_list_labels()](../../../aspose.words/document/update_list_labels/#default) method to update the value of this property.
 
 

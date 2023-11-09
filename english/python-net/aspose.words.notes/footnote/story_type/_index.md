@@ -15,6 +15,13 @@ Returns [StoryType.FOOTNOTES](../../../aspose.words/storytype/#FOOTNOTES) or [St
 
 
 
+```python
+@property
+def story_type(self) -> aspose.words.StoryType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert InlineStory nodes.

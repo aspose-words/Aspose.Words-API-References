@@ -14,6 +14,13 @@ url: /python-net/aspose.words.vba/vbamodulecollection/count/
 Returns the number of VBA modules in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's VBA project information.

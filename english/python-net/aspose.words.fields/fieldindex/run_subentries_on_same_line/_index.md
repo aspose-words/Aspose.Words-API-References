@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/run_subentries_on_same_line/
 Gets or sets whether run subentries into the same line as the main entry.
 
 
+```python
+@property
+def run_subentries_on_same_line(self) -> bool:
+    ...
+
+@run_subentries_on_same_line.setter
+def run_subentries_on_same_line(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with subentries in an INDEX field.

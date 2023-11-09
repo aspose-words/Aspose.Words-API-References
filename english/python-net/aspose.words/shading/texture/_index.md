@@ -14,6 +14,17 @@ url: /python-net/aspose.words/shading/texture/
 Gets or sets the shading texture.
 
 
+```python
+@property
+def texture(self) -> aspose.words.TextureIndex:
+    ...
+
+@texture.setter
+def texture(self, value: aspose.words.TextureIndex):
+    ...
+
+```
+
 ### Examples
 
 Shows how to decorate text with borders and shading.

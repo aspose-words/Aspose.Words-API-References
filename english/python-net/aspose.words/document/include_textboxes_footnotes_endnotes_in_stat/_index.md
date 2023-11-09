@@ -14,6 +14,17 @@ url: /python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_s
 Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
 
 
+```python
+@property
+def include_textboxes_footnotes_endnotes_in_stat(self) -> bool:
+    ...
+
+@include_textboxes_footnotes_endnotes_in_stat.setter
+def include_textboxes_footnotes_endnotes_in_stat(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to include or exclude textboxes, footnotes and endnotes from word count statistics.

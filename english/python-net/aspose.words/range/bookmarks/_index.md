@@ -15,6 +15,13 @@ Returns a [Range.bookmarks](./) collection that represents all bookmarks in the 
 
 
 
+```python
+@property
+def bookmarks(self) -> aspose.words.BookmarkCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

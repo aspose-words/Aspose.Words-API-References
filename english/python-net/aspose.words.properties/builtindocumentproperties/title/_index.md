@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/title/
 Gets or sets the title of the document.
 
 
+```python
+@property
+def title(self) -> str:
+    ...
+
+@title.setter
+def title(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties in the "Description" category.

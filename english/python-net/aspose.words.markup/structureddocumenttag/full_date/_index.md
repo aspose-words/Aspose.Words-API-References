@@ -14,6 +14,20 @@ url: /python-net/aspose.words.markup/structureddocumenttag/full_date/
 Specifies the full date and time last entered into this **SDT**.
 
 
+
+```python
+@property
+def full_date(self) -> datetime.datetime:
+    ...
+
+@full_date.setter
+def full_date(self, value: datetime.datetime):
+    ...
+
+```
+
+### Remarks
+
 Accessing this property will only work for [SdtType.DATE](../../sdttype/#DATE) SDT type.
 
 

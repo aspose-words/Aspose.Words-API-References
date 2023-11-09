@@ -21,7 +21,7 @@ def __init__(self, font_data: bytes):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| font_data | bytes |  |
+| font_data | bytes | Binary font data. |
 
 ## MemoryFontSource(font_data, priority) {#bytes_int}
 
@@ -35,8 +35,8 @@ def __init__(self, font_data: bytes, priority: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| font_data | bytes |  |
-| priority | int |  |
+| font_data | bytes | Binary font data. |
+| priority | int | Font source priority. See the [FontSourceBase.priority](../../fontsourcebase/priority/) property description for more information. |
 
 ## MemoryFontSource(font_data, priority, cache_key) {#bytes_int_str}
 
@@ -50,9 +50,9 @@ def __init__(self, font_data: bytes, priority: int, cache_key: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| font_data | bytes |  |
-| priority | int |  |
-| cache_key | str |  |
+| font_data | bytes | Binary font data. |
+| priority | int | Font source priority. See the [FontSourceBase.priority](../../fontsourcebase/priority/) property description for more information. |
+| cache_key | str | The key of this source in the cache. See [MemoryFontSource.cache_key](../cache_key/) property description for more information. |
 
 ## Examples
 

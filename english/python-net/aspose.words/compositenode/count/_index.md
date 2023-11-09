@@ -14,6 +14,13 @@ url: /python-net/aspose.words/compositenode/count/
 Gets the number of immediate children of this node.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.

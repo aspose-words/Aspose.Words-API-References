@@ -16,6 +16,17 @@ the [FieldBibliography](../../fieldbibliography/) and [FieldCitation](../../fiel
 
 
 
+```python
+@property
+def bibliography_styles_provider(self) -> aspose.words.fields.IBibliographyStylesProvider:
+    ...
+
+@bibliography_styles_provider.setter
+def bibliography_styles_provider(self, value: aspose.words.fields.IBibliographyStylesProvider):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

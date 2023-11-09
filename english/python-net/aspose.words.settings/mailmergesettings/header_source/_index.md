@@ -15,6 +15,17 @@ Specifies the path to the mail-merge header source.
 The default value is an empty string.
 
 
+```python
+@property
+def header_source(self) -> str:
+    ...
+
+@header_source.setter
+def header_source(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to construct a data source for a mail merge from a header source and a data source.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstylecollection/odd_column_banding/
 Gets the odd column banding style.
 
 
+```python
+@property
+def odd_column_banding(self) -> aspose.words.ConditionalStyle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

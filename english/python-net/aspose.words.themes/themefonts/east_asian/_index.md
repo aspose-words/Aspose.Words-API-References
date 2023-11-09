@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themefonts/east_asian/
 Specifies font name for EastAsian characters.
 
 
+```python
+@property
+def east_asian(self) -> str:
+    ...
+
+@east_asian.setter
+def east_asian(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

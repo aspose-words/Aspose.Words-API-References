@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 At the moment the MERGEREC and MERGESEQ fields implement the same functionality because we don't know for sure
 how to skip records in Aspose.Words mail merge.
 

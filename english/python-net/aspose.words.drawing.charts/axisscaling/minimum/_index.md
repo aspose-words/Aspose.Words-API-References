@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/axisscaling/minimum/
 
 Gets or sets minimum value of the axis.
 
+
+```python
+@property
+def minimum(self) -> aspose.words.drawing.charts.AxisBound:
+    ...
+
+@minimum.setter
+def minimum(self, value: aspose.words.drawing.charts.AxisBound):
+    ...
+
+```
+
+### Remarks
+
 The default value is "auto".
 
 

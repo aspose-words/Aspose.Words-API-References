@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergebarcode/fix_check_digit/
 Gets or sets whether to fix the check digit if it’s invalid.
 
 
+```python
+@property
+def fix_check_digit(self) -> bool:
+    ...
+
+@fix_check_digit.setter
+def fix_check_digit(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

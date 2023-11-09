@@ -21,7 +21,9 @@ def insert_table_of_contents(self, switches: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switches | str |  |
+| switches | str | The TOC field switches. |
+
+### Remarks
 
 This method inserts a TOC (table of contents) field into the document at
 the current position.

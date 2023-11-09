@@ -17,6 +17,8 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 
 
 
+### Remarks
+
 Structured document tags (SDTs) allow to embed customer-defined semantics as well as its
 behavior and appearance into a document.
 
@@ -64,7 +66,7 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 | [contents_font](./contents_font/) | Font formatting that will be applied to text entered into **SDT**. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [date_display_format](./date_display_format/) | String that represents the format in which dates are displayed. Can not be ``None``. |
+| [date_display_format](./date_display_format/) | String that represents the format in which dates are displayed. |
 | [date_display_locale](./date_display_locale/) | Allows to set/get the language format for the date displayed in this **SDT**. |
 | [date_storage_format](./date_storage_format/) | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is [SdtDateStorageFormat.DATE_TIME](../sdtdatestorageformat/#DATE_TIME) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -108,7 +110,7 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 |[ append_child(new_child)](../../aspose.words/compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ clear()](./clear/#default) | Clears contents of this structured document tag and displays a placeholder if it is defined. |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child(node_type, index, is_deep)](../../aspose.words/compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../../aspose.words/compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

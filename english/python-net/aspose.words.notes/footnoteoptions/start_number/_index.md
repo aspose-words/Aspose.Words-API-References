@@ -13,6 +13,20 @@ url: /python-net/aspose.words.notes/footnoteoptions/start_number/
 
 Specifies the starting number or character for the first automatically numbered footnotes.
 
+
+```python
+@property
+def start_number(self) -> int:
+    ...
+
+@start_number.setter
+def start_number(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when [FootnoteOptions.restart_rule](../restart_rule/) is set to
 [FootnoteNumberingRule.CONTINUOUS](../../footnotenumberingrule/#CONTINUOUS).
 

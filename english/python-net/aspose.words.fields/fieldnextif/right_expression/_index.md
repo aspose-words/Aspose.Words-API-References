@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldnextif/right_expression/
 Gets or sets the right part of the comparison expression.
 
 
+```python
+@property
+def right_expression(self) -> str:
+    ...
+
+@right_expression.setter
+def right_expression(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/headerfootercollection/header_primary/
 Retrieves a primary header, also used for odd numbered pages.
 
 
+```python
+@property
+def header_primary(self) -> aspose.words.HeaderFooter:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

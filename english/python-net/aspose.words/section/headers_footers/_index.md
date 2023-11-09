@@ -14,6 +14,13 @@ url: /python-net/aspose.words/section/headers_footers/
 Provides access to the headers and footers nodes of the section.
 
 
+```python
+@property
+def headers_footers(self) -> aspose.words.HeaderFooterCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to delete all footers from a document.

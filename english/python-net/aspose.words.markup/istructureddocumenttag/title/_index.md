@@ -16,6 +16,17 @@ Can not be null.
 
 
 
+```python
+@property
+def title(self) -> str:
+    ...
+
+@title.setter
+def title(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

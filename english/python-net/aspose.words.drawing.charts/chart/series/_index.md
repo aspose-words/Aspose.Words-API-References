@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chart/series/
 Provides access to series collection.
 
 
+```python
+@property
+def series(self) -> aspose.words.drawing.charts.ChartSeriesCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.

@@ -15,6 +15,17 @@ When set to ``True``, this property will prohibit a user from editing the conten
 
 
 
+```python
+@property
+def lock_contents(self) -> bool:
+    ...
+
+@lock_contents.setter
+def lock_contents(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the properties of multi-section structured document tags.

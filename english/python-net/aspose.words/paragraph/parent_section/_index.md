@@ -15,6 +15,13 @@ Retrieves the parent [Section](../../section/) of the paragraph.
 
 
 
+```python
+@property
+def parent_section(self) -> aspose.words.Section:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a header and a footer.

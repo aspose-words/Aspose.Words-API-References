@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/axisdisplayunit/unit/
 
 Gets or sets the scaling value of the display units as one of the predefined values.
 
+
+```python
+@property
+def unit(self) -> aspose.words.drawing.charts.AxisBuiltInUnit:
+    ...
+
+@unit.setter
+def unit(self, value: aspose.words.drawing.charts.AxisBuiltInUnit):
+    ...
+
+```
+
+### Remarks
+
 Default value is [AxisBuiltInUnit.NONE](../../axisbuiltinunit/#NONE). The [AxisBuiltInUnit.CUSTOM](../../axisbuiltinunit/#CUSTOM) and
 [AxisBuiltInUnit.PERCENTAGE](../../axisbuiltinunit/#PERCENTAGE) values are not available in some chart types; see
 [AxisBuiltInUnit](../../axisbuiltinunit/) for more information.

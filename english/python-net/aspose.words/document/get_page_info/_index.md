@@ -21,7 +21,7 @@ def get_page_info(self, page_index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| page_index | int |  |
+| page_index | int | The 0-based page index. |
 
 ### See Also
 

@@ -15,6 +15,13 @@ Returns the number of [ChartLegendEntry](../../chartlegendentry/) in this collec
 
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

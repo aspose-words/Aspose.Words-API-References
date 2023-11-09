@@ -14,6 +14,17 @@ url: /python-net/aspose.words.vba/vbamodule/type/
 Specifies whether the module is a procedural module, document module, class module, or designer module.
 
 
+```python
+@property
+def type(self) -> aspose.words.vba.VbaModuleType:
+    ...
+
+@type.setter
+def type(self, value: aspose.words.vba.VbaModuleType):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a VBA project using macros.

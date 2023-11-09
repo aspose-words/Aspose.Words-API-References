@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/style/
 Gets or sets the paragraph style applied to this formatting.
 
 
+```python
+@property
+def style(self) -> aspose.words.Style:
+    ...
+
+@style.setter
+def style(self, value: aspose.words.Style):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create and use a paragraph style with list formatting.

@@ -15,6 +15,13 @@ Returns ``True`` if this digital signature is valid and the document has not bee
 
 
 
+```python
+@property
+def is_valid(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to validate and display information about each signature in a document.

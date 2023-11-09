@@ -14,6 +14,13 @@ url: /python-net/aspose.words.vba/vbareferencecollection/count/
 Returns the number of VBA references in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get/remove an element from the VBA reference collection.

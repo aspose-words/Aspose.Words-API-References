@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/number_position/
 
 Returns or sets the position (in points) of the number or bullet for the list level.
 
+
+```python
+@property
+def number_position(self) -> float:
+    ...
+
+@number_position.setter
+def number_position(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 [ListLevel.number_position](./) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
 
 

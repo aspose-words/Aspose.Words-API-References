@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldxe/text/
 Gets or sets the text of the entry.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INDEX field, and then use XE fields to populate it with entries.

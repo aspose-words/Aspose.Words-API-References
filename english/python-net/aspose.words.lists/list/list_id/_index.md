@@ -13,6 +13,16 @@ url: /python-net/aspose.words.lists/list/list_id/
 
 Gets the unique identifier of the list.
 
+
+```python
+@property
+def list_id(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 You do not normally need to use this property. But if you use it, you normally do so
 in conjunction with the [ListCollection.get_list_by_list_id()](../../listcollection/get_list_by_list_id/#int) method to find a
 list by its identifier.

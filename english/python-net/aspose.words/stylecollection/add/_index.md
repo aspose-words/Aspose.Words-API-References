@@ -21,8 +21,10 @@ def add(self, type: aspose.words.StyleType, name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [StyleType](../../styletype/) |  |
-| name | str |  |
+| type | [StyleType](../../styletype/) | A [StyleType](../../styletype/) value that specifies the type of the style to create. |
+| name | str | Case sensitive name of the style to create. |
+
+### Remarks
 
 You can create character, paragraph or a list style.
 

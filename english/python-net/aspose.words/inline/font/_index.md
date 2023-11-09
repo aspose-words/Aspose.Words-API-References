@@ -14,6 +14,13 @@ url: /python-net/aspose.words/inline/font/
 Provides access to the font formatting of this object.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to construct an Aspose.Words document by hand.

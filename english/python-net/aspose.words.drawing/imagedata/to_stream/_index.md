@@ -19,11 +19,13 @@ def to_stream(self):
     ...
 ```
 
-If the image bytes are stored in the shape, creates and returns a System.IO.MemoryStream object.
+### Remarks
 
-If the image is linked and stored in a file, opens the file and returns a System.IO.FileStream object.
+If the image bytes are stored in the shape, creates and returns a io.BytesIO object.
 
-If the image is linked and stored in an external URL, downloads the file and returns a System.IO.MemoryStream object.
+If the image is linked and stored in a file, opens the file and returns a io.BytesIO object.
+
+If the image is linked and stored in an external URL, downloads the file and returns a io.BytesIO object.
 
 Is it the responsibility of the caller to dispose the stream object.
 

@@ -13,6 +13,16 @@ url: /python-net/aspose.words/node/parent_node/
 
 Gets the immediate parent of this node.
 
+
+```python
+@property
+def parent_node(self) -> aspose.words.CompositeNode:
+    ...
+
+```
+
+### Remarks
+
 If a node has just been created and not yet added to the tree,
 or if it has been removed from the tree, the parent is ``None``.
 

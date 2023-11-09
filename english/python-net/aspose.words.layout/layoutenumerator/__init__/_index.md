@@ -21,7 +21,9 @@ def __init__(self, document: aspose.words.Document):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../../aspose.words/document/) |  |
+| document | [Document](../../../aspose.words/document/) | A document whose page layout model to enumerate. |
+
+### Remarks
 
 If page layout model of the document hasn't been built the enumerator calls [Document.update_page_layout()](../../../aspose.words/document/update_page_layout/#default) to build it.
 

@@ -15,6 +15,20 @@ Allows to use temporary files when reading document.
 By default this property is ``None`` and no temporary files are used.
 
 
+
+```python
+@property
+def temp_folder(self) -> str:
+    ...
+
+@temp_folder.setter
+def temp_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when reading is complete.

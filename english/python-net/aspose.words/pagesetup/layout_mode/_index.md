@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/layout_mode/
 Gets or sets the layout mode of this section.
 
 
+```python
+@property
+def layout_mode(self) -> aspose.words.SectionLayoutMode:
+    ...
+
+@layout_mode.setter
+def layout_mode(self, value: aspose.words.SectionLayoutMode):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify a for the number of characters that each line may have.

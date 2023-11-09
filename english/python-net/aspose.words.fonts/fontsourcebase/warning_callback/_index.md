@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fonts/fontsourcebase/warning_callback/
 Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
 
+```python
+@property
+def warning_callback(self) -> aspose.words.IWarningCallback:
+    ...
+
+@warning_callback.setter
+def warning_callback(self, value: aspose.words.IWarningCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fonts](../../)

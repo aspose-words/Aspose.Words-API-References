@@ -22,6 +22,8 @@ def move_previous_logical(self):
     ...
 ```
 
+### Remarks
+
 Note that all [LayoutEntityType.SPAN](../../layoutentitytype/#SPAN) entities are linked together thus if Aspose.Words.Layout.LayoutEnumerator.Current
 entity is span repeated calling of this method will iterates complete story of the document.
 

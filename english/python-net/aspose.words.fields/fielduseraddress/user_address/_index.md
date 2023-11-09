@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielduseraddress/user_address/
 Gets or sets the current user's postal address.
 
 
+```python
+@property
+def user_address(self) -> str:
+    ...
+
+@user_address.setter
+def user_address(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the USERADDRESS field.

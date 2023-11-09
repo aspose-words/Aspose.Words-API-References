@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/disable_open_type_fo
 Specifies to disable OpenType font formatting features.
 
 
+```python
+@property
+def disable_open_type_font_formatting_features(self) -> bool:
+    ...
+
+@disable_open_type_font_formatting_features.setter
+def disable_open_type_font_formatting_features(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -21,7 +21,7 @@ def visit_group_shape_start(self, group_shape: aspose.words.drawing.GroupShape):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| group_shape | [GroupShape](../../../aspose.words.drawing/groupshape/) |  |
+| group_shape | [GroupShape](../../../aspose.words.drawing/groupshape/) | The object that is being visited. |
 
 ### Returns
 

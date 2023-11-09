@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/FIELD_START_CHAR/
 Start of MS Word field character: (char)19.
 
 
+```python
+@property
+def FIELD_START_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

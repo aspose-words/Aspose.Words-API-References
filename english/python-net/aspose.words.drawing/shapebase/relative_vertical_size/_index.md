@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/relative_vertical_size/
 
 Gets or sets the value of shape's relative size in vertical direction.
 
+
+```python
+@property
+def relative_vertical_size(self) -> aspose.words.drawing.RelativeVerticalSize:
+    ...
+
+@relative_vertical_size.setter
+def relative_vertical_size(self, value: aspose.words.drawing.RelativeVerticalSize):
+    ...
+
+```
+
+### Remarks
+
 The default value is [RelativeVerticalSize.MARGIN](../../relativeverticalsize/#MARGIN).
 
 Has effect only if [ShapeBase.height_relative](../height_relative/) is set.

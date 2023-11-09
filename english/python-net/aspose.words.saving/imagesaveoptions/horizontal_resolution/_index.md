@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/horizontal_resolution/
 
 Gets or sets the horizontal resolution for the generated images, in dots per inch.
 
+
+```python
+@property
+def horizontal_resolution(self) -> float:
+    ...
+
+@horizontal_resolution.setter
+def horizontal_resolution(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.

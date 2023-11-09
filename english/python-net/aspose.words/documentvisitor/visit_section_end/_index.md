@@ -21,7 +21,7 @@ def visit_section_end(self, section: aspose.words.Section):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | [Section](../../section/) |  |
+| section | [Section](../../section/) | The object that is being visited. |
 
 ### Returns
 

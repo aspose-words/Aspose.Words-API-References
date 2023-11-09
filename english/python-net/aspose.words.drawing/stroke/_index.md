@@ -17,6 +17,8 @@ To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Use the [Shape.stroke](../shape/stroke/) property to access stroke properties of a shape.
 You do not create instances of the [Stroke](./) class directly.
 

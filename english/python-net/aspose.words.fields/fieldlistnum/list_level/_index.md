@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldlistnum/list_level/
 Gets or sets the level in the list, overriding the default behavior of the field.
 
 
+```python
+@property
+def list_level(self) -> str:
+    ...
+
+@list_level.setter
+def list_level(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to number paragraphs with LISTNUM fields.

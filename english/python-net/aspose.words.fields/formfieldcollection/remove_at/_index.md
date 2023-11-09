@@ -21,7 +21,9 @@ def remove_at(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
+| index | int | The zero-based index of the form field to remove. |
+
+### Remarks
 
 If there is a bookmark associated with the form field, the bookmark is not removed.
 

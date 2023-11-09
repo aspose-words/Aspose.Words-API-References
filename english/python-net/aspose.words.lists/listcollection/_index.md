@@ -17,6 +17,8 @@ To learn more, visit the [Working with Lists](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 A list in a Microsoft Word document is a set of list formatting properties.
 The formatting of the lists is stored in the [ListCollection](./) collection separately
 from the paragraphs of text.

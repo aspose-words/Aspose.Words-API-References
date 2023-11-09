@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoa/sequence_name/
 Gets or sets the name of a sequence whose number is included with the page number.
 
 
+```python
+@property
+def sequence_name(self) -> str:
+    ...
+
+@sequence_name.setter
+def sequence_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

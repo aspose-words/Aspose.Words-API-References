@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldfilesize/is_in_kilobytes/
 Gets or sets whether to display the file size in kilobytes.
 
 
+```python
+@property
+def is_in_kilobytes(self) -> bool:
+    ...
+
+@is_in_kilobytes.setter
+def is_in_kilobytes(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to display the file size of a document with a FILESIZE field.

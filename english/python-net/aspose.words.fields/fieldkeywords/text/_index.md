@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldkeywords/text/
 Gets or sets the text of the keywords.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert a KEYWORDS field.

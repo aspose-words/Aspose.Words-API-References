@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/physicalfontinfo/version/
 Version string of the font.
 
 
+```python
+@property
+def version(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to list available fonts.

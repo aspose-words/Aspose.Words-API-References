@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/has_minor_gridlines/
 Gets or sets a flag indicating whether the axis has minor gridlines.
 
 
+```python
+@property
+def has_minor_gridlines(self) -> bool:
+    ...
+
+@has_minor_gridlines.setter
+def has_minor_gridlines(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert chart with date/time values.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_suppress_inde
 Do Not Ignore Floating Objects When Calculating Paragraph Indentation.
 
 
+```python
+@property
+def do_not_suppress_indentation(self) -> bool:
+    ...
+
+@do_not_suppress_indentation.setter
+def do_not_suppress_indentation(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

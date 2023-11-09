@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddatabase/file_name/
 Gets or sets the complete path and file name of the database
 
 
+```python
+@property
+def file_name(self) -> str:
+    ...
+
+@file_name.setter
+def file_name(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

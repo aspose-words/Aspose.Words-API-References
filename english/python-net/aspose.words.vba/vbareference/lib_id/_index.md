@@ -13,6 +13,16 @@ url: /python-net/aspose.words.vba/vbareference/lib_id/
 
 Gets a string value containing the identifier of an Automation type library.
 
+
+```python
+@property
+def lib_id(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Depending on reference type, the value of this property can be:
 
 * a LibidReference specified at 2.1.1.8 LibidReference of [MS-OVBA]:

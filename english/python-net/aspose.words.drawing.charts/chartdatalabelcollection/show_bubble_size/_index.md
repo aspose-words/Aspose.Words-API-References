@@ -16,6 +16,20 @@ Applies only to Bubble charts.
 Default value is ``False``.
 
 
+
+```python
+@property
+def show_bubble_size(self) -> bool:
+    ...
+
+@show_bubble_size.setter
+def show_bubble_size(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.show_bubble_size](../../chartdatalabel/show_bubble_size/) property.
 
