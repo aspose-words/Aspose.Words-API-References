@@ -76,8 +76,8 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.words.markup/structureddocumenttag/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor. |
-| override [AcceptEnd](../../aspose.words.markup/structureddocumenttag/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) |  |
-| override [AcceptStart](../../aspose.words.markup/structureddocumenttag/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) |  |
+| override [AcceptEnd](../../aspose.words.markup/structureddocumenttag/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor for visiting the end of the StructuredDocumentTag. |
+| override [AcceptStart](../../aspose.words.markup/structureddocumenttag/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor for visiting the start of the StructuredDocumentTag. |
 | [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clear](../../aspose.words.markup/structureddocumenttag/clear/)() | Clears contents of this structured document tag and displays a placeholder if it is defined. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |

@@ -55,8 +55,8 @@ public class Row : CompositeNode
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.words.tables/row/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor. |
-| override [AcceptEnd](../../aspose.words.tables/row/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) |  |
-| override [AcceptStart](../../aspose.words.tables/row/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) |  |
+| override [AcceptEnd](../../aspose.words.tables/row/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor for visiting the end of the row. |
+| override [AcceptStart](../../aspose.words.tables/row/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor for visiting the start of the row. |
 | [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |

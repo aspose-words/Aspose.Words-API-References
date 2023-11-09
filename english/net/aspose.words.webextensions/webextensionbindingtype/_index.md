@@ -23,7 +23,7 @@ public enum WebExtensionBindingType
 | Matrix | `0` | Tabular data without a header row. |
 | Table | `1` | Tabular data with a header row. |
 | Text | `2` | Plain text. |
-| Default | `0` |  |
+| Default | `0` | Matrix used by default. |
 
 ## Examples
 
