@@ -52,8 +52,8 @@ public class Body : Story
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.words/body/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor. |
-| override [AcceptEnd](../../aspose.words/body/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) |  |
-| override [AcceptStart](../../aspose.words/body/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) |  |
+| override [AcceptEnd](../../aspose.words/body/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor for visiting the end of the document's body. |
+| override [AcceptStart](../../aspose.words/body/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor for visiting the start of the document's body. |
 | [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Adds the specified node to the end of the list of child nodes for this node. |
 | [AppendParagraph](../../aspose.words/story/appendparagraph/)(*string*) | A shortcut method that creates a [`Paragraph`](../paragraph/) object with optional text and appends it to the end of this object. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |

@@ -55,8 +55,8 @@ public class HeaderFooter : Story
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.words/headerfooter/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor. |
-| override [AcceptEnd](../../aspose.words/headerfooter/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) |  |
-| override [AcceptStart](../../aspose.words/headerfooter/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) |  |
+| override [AcceptEnd](../../aspose.words/headerfooter/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor for visiting the end of the header. |
+| override [AcceptStart](../../aspose.words/headerfooter/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor for visiting the start of the header. |
 | [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Adds the specified node to the end of the list of child nodes for this node. |
 | [AppendParagraph](../../aspose.words/story/appendparagraph/)(*string*) | A shortcut method that creates a [`Paragraph`](../paragraph/) object with optional text and appends it to the end of this object. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |

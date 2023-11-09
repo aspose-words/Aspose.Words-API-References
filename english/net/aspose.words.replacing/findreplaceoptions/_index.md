@@ -22,10 +22,10 @@ public class FindReplaceOptions
 
 | Name | Description |
 | --- | --- |
-| [FindReplaceOptions](findreplaceoptions/#constructor)() | The default constructor. |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor)() | Initializes a new instance of the FindReplaceOptions class with default settings. |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) | Initializes a new instance of the FindReplaceOptions class with the specified direction. |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) | Initializes a new instance of the FindReplaceOptions class with the specified replacing callback. |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) | Initializes a new instance of the FindReplaceOptions class with the specified direction and replacing callback. |
 
 ## Properties
 

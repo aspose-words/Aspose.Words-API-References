@@ -20,21 +20,21 @@ public enum Forms2OleControlType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| OptionButton | `0` |  |
-| Label | `1` |  |
-| Textbox | `2` |  |
-| CheckBox | `3` |  |
-| ToggleButton | `4` |  |
-| SpinButton | `5` |  |
-| ComboBox | `6` |  |
-| Frame | `7` |  |
-| MultiPage | `8` |  |
-| TabStrip | `9` |  |
-| CommandButton | `10` |  |
-| Image | `11` |  |
-| ScrollBar | `12` |  |
-| Form | `13` |  |
-| ListBox | `14` |  |
+| OptionButton | `0` | A radio button control. |
+| Label | `1` | A control that displays text. |
+| Textbox | `2` | A control that allows the user to enter text. |
+| CheckBox | `3` | A control that allows the user to select or deselect an option. |
+| ToggleButton | `4` | A control that allows the user to toggle between two states. |
+| SpinButton | `5` | A control that allows the user to increase or decrease a value. |
+| ComboBox | `6` | A control that allows the user to select an item from a list. |
+| Frame | `7` | A control that groups other controls. |
+| MultiPage | `8` | A control that displays multiple pages of content. |
+| TabStrip | `9` | A control that allows the user to switch between multiple pages of content. |
+| CommandButton | `10` | A button that triggers an action when clicked. |
+| Image | `11` | A control that displays an image. |
+| ScrollBar | `12` | A control that allows the user to scroll through content. |
+| Form | `13` | A container for other controls. |
+| ListBox | `14` | A control that displays a list of items. |
 
 ### See Also
 

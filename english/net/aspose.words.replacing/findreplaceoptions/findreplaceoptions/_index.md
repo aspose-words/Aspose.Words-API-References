@@ -3,14 +3,14 @@ title: FindReplaceOptions
 linktitle: FindReplaceOptions
 articleTitle: FindReplaceOptions
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions constructor. The default constructor in C#.
+description: FindReplaceOptions constructor. Initializes a new instance of the FindReplaceOptions class with default settings in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.replacing/findreplaceoptions/findreplaceoptions/
 ---
 ## FindReplaceOptions() {#constructor}
 
-The default constructor.
+Initializes a new instance of the FindReplaceOptions class with default settings.
 
 ```csharp
 public FindReplaceOptions()
@@ -26,9 +26,15 @@ public FindReplaceOptions()
 
 ## FindReplaceOptions(*[FindReplaceDirection](../../findreplacedirection/)*) {#constructor_1}
 
+Initializes a new instance of the FindReplaceOptions class with the specified direction.
+
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| direction | FindReplaceDirection | The direction of the find and replace operation. |
 
 ### See Also
 
@@ -41,9 +47,15 @@ public FindReplaceOptions(FindReplaceDirection direction)
 
 ## FindReplaceOptions(*[IReplacingCallback](../../ireplacingcallback/)*) {#constructor_3}
 
+Initializes a new instance of the FindReplaceOptions class with the specified replacing callback.
+
 ```csharp
 public FindReplaceOptions(IReplacingCallback replacingCallback)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| replacingCallback | IReplacingCallback | The callback to use for replacing found text. |
 
 ### See Also
 
@@ -56,9 +68,16 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 
 ## FindReplaceOptions(*[FindReplaceDirection](../../findreplacedirection/), [IReplacingCallback](../../ireplacingcallback/)*) {#constructor_2}
 
+Initializes a new instance of the FindReplaceOptions class with the specified direction and replacing callback.
+
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction, IReplacingCallback replacingCallback)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| direction | FindReplaceDirection | The direction of the find and replace operation. |
+| replacingCallback | IReplacingCallback | The callback to use for replacing found text. |
 
 ### See Also
 
