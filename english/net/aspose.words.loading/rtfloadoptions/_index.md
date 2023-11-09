@@ -50,7 +50,7 @@ public class RtfLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

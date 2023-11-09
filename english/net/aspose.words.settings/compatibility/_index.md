@@ -20,77 +20,77 @@ public enum Compatibility
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NoTabHangInd | `0` |  |
-| NoSpaceRaiseLower | `1` |  |
-| SuppressSpBfAfterPgBrk | `2` |  |
-| WrapTrailSpaces | `3` |  |
-| PrintColBlack | `4` |  |
-| NoColumnBalance | `5` |  |
-| ConvMailMergeEsc | `6` |  |
-| SuppressTopSpacing | `7` |  |
-| UseSingleBorderforContiguousCells | `8` |  |
-| TransparentMetafiles | `9` |  |
-| ShowBreaksInFrames | `10` |  |
-| SwapBordersOddFacingPgs | `11` |  |
-| DoNotLeaveBackslashAlone | `12` |  |
-| DoNotExpandOnShiftReturn | `13` |  |
-| UlTrailSpace | `14` |  |
-| BalanceSingleByteDoubleByteWidth | `15` |  |
-| SuppressTopSpacingAtTopOfPage | `16` |  |
-| SpacingInWholePoints | `17` |  |
-| PrintBodyTextBeforeHeader | `18` |  |
-| NoLeading | `19` |  |
-| SpaceForUL | `20` |  |
-| MWSmallCaps | `21` |  |
-| SuppressTopLineSpacingWP | `22` |  |
-| TruncateFontHeightLikeWP6 | `23` |  |
-| SubFontBySize | `24` |  |
-| LineWrapLikeWord6 | `25` |  |
-| DoNotSuppressParagraphBorder | `26` |  |
-| NoExtraLineSpacing | `27` |  |
-| SuppressBottomSpacing | `28` |  |
-| WPSpaceWidth | `29` |  |
-| WPJustification | `30` |  |
-| UsePrinterMetrics | `31` |  |
-| ShapeLayoutLikeWW8 | `32` |  |
-| FootnoteLayoutLikeWW8 | `33` |  |
-| DoNotUseHtmlParagraphAutoSpacing | `34` |  |
-| AdjustLineHeightInTable | `35` |  |
-| ForgetLastTabAlignment | `36` |  |
-| AutoSpaceLikeWord95 | `37` |  |
-| AlignTableRowByRow | `38` |  |
-| LayoutRawTableWidth | `39` |  |
-| LayoutTableRowsApart | `40` |  |
-| UseWord97LineBreakRules | `41` |  |
-| DoNotBreakWrappedTables | `42` |  |
-| doNotSnapToGridInCell | `43` |  |
-| SelectFldWithFirstOrLastChar | `44` |  |
-| ApplyBreakingRules | `45` |  |
-| DoNotWrapTextWithPunct | `46` |  |
-| DoNotUseEastAsianBreakRules | `47` |  |
-| UseWord2002TableStyleRules | `48` |  |
-| GrowAutofit | `49` |  |
-| UseNormalStyleForList | `50` |  |
-| DoNotUseIndentAsNumberingTabStop | `51` |  |
-| UseAltKinsokuLineBreakRules | `52` |  |
-| AllowSpaceOfSameStyleInTable | `53` |  |
-| DoNotSuppressIndentation | `54` |  |
-| DoNotAutofitConstrainedTables | `55` |  |
-| AutofitToFirstFixedWidthCell | `56` |  |
-| UnderlineTabInNumList | `57` |  |
-| DisplayHangulFixedWidth | `58` |  |
-| SplitPgBreakAndParaMark | `59` |  |
-| DoNotVertAlignCellWithSp | `60` |  |
-| DoNotBreakConstrainedForcedTable | `61` |  |
-| DoNotVertAlignInTxbx | `62` |  |
-| UseAnsiKerningPairs | `63` |  |
-| CachedColBalance | `64` |  |
-| UseFELayout | `65` |  |
-| UICompat97To2003 | `66` |  |
-| OverrideTableStyleFontSizeAndJustification | `67` |  |
-| DisableOpenTypeFontFormattingFeatures | `68` |  |
-| SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
-| UseWord2010TableStyleRules | `70` |  |
+| NoTabHangInd | `0` | No Tab Hang Indent |
+| NoSpaceRaiseLower | `1` | No Space Raise Lower |
+| SuppressSpBfAfterPgBrk | `2` | Suppress Space Before Paragraph Break |
+| WrapTrailSpaces | `3` | Wrap Trailing Spaces |
+| PrintColBlack | `4` | Print Column Background |
+| NoColumnBalance | `5` | No Column Balancing |
+| ConvMailMergeEsc | `6` | Convert Mail Merge Escapes |
+| SuppressTopSpacing | `7` | Suppress Top Spacing |
+| UseSingleBorderforContiguousCells | `8` | Use Single Border for Contiguous Cells |
+| TransparentMetafiles | `9` | Transparent Metafiles |
+| ShowBreaksInFrames | `10` | Show Breaks in Frames |
+| SwapBordersOddFacingPgs | `11` | Swap Borders on Odd-Facing Pages |
+| DoNotLeaveBackslashAlone | `12` | Do Not Leave Backslash Alone |
+| DoNotExpandOnShiftReturn | `13` | Do Not Expand on Shift Return |
+| UlTrailSpace | `14` | Underline Trailing Space |
+| BalanceSingleByteDoubleByteWidth | `15` | Balance Single-Byte and Double-Byte Widths |
+| SuppressTopSpacingAtTopOfPage | `16` | Suppress Top Line Spacing in WordPerfect |
+| SpacingInWholePoints | `17` | Spacing in Whole Points |
+| PrintBodyTextBeforeHeader | `18` | Print Body Text Before Header |
+| NoLeading | `19` | No Leading |
+| SpaceForUL | `20` | Space for Underline |
+| MWSmallCaps | `21` | MW Small Caps |
+| SuppressTopLineSpacingWP | `22` | Suppress Top Line Spacing in WordPerfect |
+| TruncateFontHeightLikeWP6 | `23` | Truncate Font Height Like WordPerfect 6 |
+| SubFontBySize | `24` | Substitute Font by Size |
+| LineWrapLikeWord6 | `25` | Line Wrap Like Word 6 |
+| DoNotSuppressParagraphBorder | `26` | Do Not Suppress Paragraph Border |
+| NoExtraLineSpacing | `27` | No Extra Line Spacing |
+| SuppressBottomSpacing | `28` | Suppress Bottom Spacing |
+| WPSpaceWidth | `29` | WordPerfect Space Width |
+| WPJustification | `30` | WordPerfect Justification |
+| UsePrinterMetrics | `31` | Use Printer Metrics |
+| ShapeLayoutLikeWW8 | `32` | Shape Layout Like Word 2000 |
+| FootnoteLayoutLikeWW8 | `33` | Footnote Layout Like Word 2000 |
+| DoNotUseHtmlParagraphAutoSpacing | `34` | Do Not Use HTML Paragraph Auto Spacing |
+| AdjustLineHeightInTable | `35` | Adjust Line Height in Table |
+| ForgetLastTabAlignment | `36` | Forget Last Tab Alignment |
+| AutoSpaceLikeWord95 | `37` | Auto Space Like Word 95 |
+| AlignTableRowByRow | `38` | Align Table Rows by Rule |
+| LayoutRawTableWidth | `39` | Layout Raw Table Width |
+| LayoutTableRowsApart | `40` | Layout Table Rows Apart |
+| UseWord97LineBreakRules | `41` | Use Word 97 Line Break Rules |
+| DoNotBreakWrappedTables | `42` | Do Not Break Wrapped Tables |
+| doNotSnapToGridInCell | `43` | Do Not Snap to Grid in Cells |
+| SelectFldWithFirstOrLastChar | `44` | Select Field with First or Last Character |
+| ApplyBreakingRules | `45` | Apply Breaking Rules |
+| DoNotWrapTextWithPunct | `46` | Do Not Wrap Text with Punctuation |
+| DoNotUseEastAsianBreakRules | `47` | Do Not Use East Asian Break Rules |
+| UseWord2002TableStyleRules | `48` | Use Word 2002 Table Style Rules |
+| GrowAutofit | `49` | Grow AutoFit |
+| UseNormalStyleForList | `50` | Use Normal Style for List |
+| DoNotUseIndentAsNumberingTabStop | `51` | Do Not Use Indent as Numbering Tab Stop |
+| UseAltKinsokuLineBreakRules | `52` | Use Alt Kinsoku Line Break Rules |
+| AllowSpaceOfSameStyleInTable | `53` | Allow Space of Same Style in Table |
+| DoNotSuppressIndentation | `54` | Do Not Suppress Indentation |
+| DoNotAutofitConstrainedTables | `55` | Do Not AutoFit Constrained Tables |
+| AutofitToFirstFixedWidthCell | `56` | AutoFit to First Fixed-Width Cell |
+| UnderlineTabInNumList | `57` | Underline Tab in Numbered List |
+| DisplayHangulFixedWidth | `58` | Display Hangul Fixed Width |
+| SplitPgBreakAndParaMark | `59` | Split Page Break and Paragraph Mark |
+| DoNotVertAlignCellWithSp | `60` | Do Not Vertically Align Cell with Spacing |
+| DoNotBreakConstrainedForcedTable | `61` | Do Not Break Constrained Forced Tables |
+| DoNotVertAlignInTxbx | `62` | Do Not Vertically Align in Textboxes |
+| UseAnsiKerningPairs | `63` | Use ANSI Kerning Pairs |
+| CachedColBalance | `64` | Cached Column Balancing |
+| UseFELayout | `65` | Use Far East Layout |
+| UICompat97To2003 | `66` | User Interface Compatibility Mode from Word 97 to Word 2003 |
+| OverrideTableStyleFontSizeAndJustification | `67` | Override Table Style Font Size and Justification |
+| DisableOpenTypeFontFormattingFeatures | `68` | Disable OpenType Font Formatting Features |
+| SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` | Swap Inside and Outside for Mirror Indents and Relative Positioning |
+| UseWord2010TableStyleRules | `70` | Use Word 2010 Table Style Rules |
 
 ## Examples
 
