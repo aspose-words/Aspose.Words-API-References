@@ -14,6 +14,13 @@ url: /python-net/aspose.words/editablerangestart/editable_range/
 Gets the facade object that encapsulates this editable range start and end.
 
 
+```python
+@property
+def editable_range(self) -> aspose.words.EditableRange:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with an editable range.

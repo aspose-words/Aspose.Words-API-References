@@ -15,6 +15,20 @@ Gets or sets a boolean value indicating whether to recognize and use substitutio
 The default value is ``False``.
 
 
+
+```python
+@property
+def use_substitutions(self) -> bool:
+    ...
+
+@use_substitutions.setter
+def use_substitutions(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 For the details on substitution elements please refer to:
 https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 

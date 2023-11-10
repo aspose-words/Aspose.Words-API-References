@@ -13,6 +13,16 @@ url: /python-net/aspose.words/document/original_load_format/
 
 Gets the format of the original document that was loaded into this object.
 
+
+```python
+@property
+def original_load_format(self) -> aspose.words.LoadFormat:
+    ...
+
+```
+
+### Remarks
+
 If you created a new blank document, returns the [LoadFormat.DOC](../../loadformat/#DOC) value.
 
 

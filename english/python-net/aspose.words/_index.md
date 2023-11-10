@@ -91,6 +91,7 @@ The main classes in this module are:
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
 | [INodeChangingCallback](./inodechangingcallback/) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |
+| [IRevisionCriteria](./irevisioncriteria/) | Implement this interface if you want to control when certain [Revision](./revision/) should be accepted/rejected or not by the [RevisionCollection.accept()](./revisioncollection/accept/#irevisioncriteria)/[RevisionCollection.reject()](./revisioncollection/reject/#irevisioncriteria) methods. |
 | [IWarningCallback](./iwarningcallback/) | Implement this interface if you want to have your own custom method called to  capture loss of fidelity warnings that can occur during document loading or saving. |
 | [ImageWatermarkOptions](./imagewatermarkoptions/) | Contains options that can be specified when adding a watermark with image. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/python-net/working-with-watermark/) documentation article. |
 | [ImportFormatOptions](./importformatoptions/) | Allows to specify various import options to format output. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article. |
@@ -99,7 +100,7 @@ The main classes in this module are:
 | [InlineStory](./inlinestory/) | Base class for inline-level nodes that can contain paragraphs and tables. To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/) documentation article. |
 | [InternableComplexAttr](./internablecomplexattr/) | Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article. |
 | [License](./license/) | Provides methods to license the component. To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/python-net/licensing/) documentation article. |
-| [Metered](./metered/) | Provides methods to set metered key. To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/python-net/licensing/) documentation article. |
+| [Metered](./metered/) | Provides methods to set metered key. |
 | [Node](./node/) | Base class for all nodes of a Word document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article. |
 | [NodeChangingArgs](./nodechangingargs/) | Provides data for methods of the [INodeChangingCallback](./inodechangingcallback/) interface. |
 | [NodeCollection](./nodecollection/) | Represents a collection of nodes of a specific type. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article. |

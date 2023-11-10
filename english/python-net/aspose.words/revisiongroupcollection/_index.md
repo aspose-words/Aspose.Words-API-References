@@ -5,7 +5,7 @@ articleTitle: RevisionGroupCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.RevisionGroupCollection class. A collection of [RevisionGroup](../revisiongroup/) objects that represent revision groups in the document"
 type: docs
-weight: 970
+weight: 980
 url: /python-net/aspose.words/revisiongroupcollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/w
 
 
 
+
+### Remarks
 
 You do not create instances of this class directly. Use the [RevisionCollection.groups](../revisioncollection/groups/)
 property to get revision groups present in a document.

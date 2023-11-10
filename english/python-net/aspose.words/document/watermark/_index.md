@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/watermark/
 Provides access to the document watermark.
 
 
+```python
+@property
+def watermark(self) -> aspose.words.Watermark:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

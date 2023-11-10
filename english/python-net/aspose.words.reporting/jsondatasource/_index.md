@@ -17,36 +17,26 @@ To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/p
 
 
 
+### Remarks
+
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as
 a data source to one of [ReportingEngine](../reportingengine/).BuildReport overloads.
 
 
-In template documents, if a top-level JSON element is an array, a [JsonDataSource](./) instance should be
-treated in the same way as if it was a System.Data.DataTable
-instance. If a top-level JSON element 
-is an object, a [JsonDataSource](./) instance should be treated in the same way as if it was 
-a System.Data.DataRow
-instance. For more information, see template syntax reference 
-(https://docs.aspose.com/display/wordsnet/Template+Syntax).
-
-
-In template documents, you can work with typed values of JSON elements. For convenience, the engine replaces the set 
+In template documents, you can work with typed values of JSON elements. For convenience, the engine replaces the set
 of JSON simple types with the following one:
 
 
-* System.Nullable`1
+* int
   
   
-* System.Nullable`1
+* bool
   
   
-* System.Nullable`1
+* datetime.datetime
   
   
-* System.Nullable`1
-  
-  
-* System.String
+* str
   
   
 The engine automatically recognizes values of the extra types upon their JSON representations.

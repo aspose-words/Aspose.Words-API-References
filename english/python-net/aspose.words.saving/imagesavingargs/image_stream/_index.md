@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesavingargs/image_stream/
 
 Allows to specify the stream where the image will be saved to.
 
+
+```python
+@property
+def image_stream(self) -> io.BytesIO:
+    ...
+
+@image_stream.setter
+def image_stream(self, value: io.BytesIO):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to save images to streams instead of files during HTML.
 
 The default value is ``None``. When this property is ``None``, the image 

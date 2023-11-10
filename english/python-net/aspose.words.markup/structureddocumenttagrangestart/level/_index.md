@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/level/
 Gets the level at which this structured document tag range start occurs in the document tree.
 
 
+```python
+@property
+def level(self) -> aspose.words.markup.MarkupLevel:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the properties of multi-section structured document tags.

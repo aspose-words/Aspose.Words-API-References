@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def is_hidden(self) -> bool:
+    ...
+
+@is_hidden.setter
+def is_hidden(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

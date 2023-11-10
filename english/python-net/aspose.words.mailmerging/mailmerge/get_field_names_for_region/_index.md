@@ -21,7 +21,9 @@ def get_field_names_for_region(self, region_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| region_name | str |  |
+| region_name | str | Region name (case-insensitive). |
+
+### Remarks
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -44,8 +46,10 @@ def get_field_names_for_region(self, region_name: str, region_index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| region_name | str |  |
-| region_index | int |  |
+| region_name | str | Region name (case-insensitive). |
+| region_index | int | Region index (zero-based). |
+
+### Remarks
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 

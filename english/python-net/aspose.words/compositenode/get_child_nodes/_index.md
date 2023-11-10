@@ -21,10 +21,20 @@ def get_child_nodes(self, node_type: aspose.words.NodeType, is_deep: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node_type | [NodeType](../../nodetype/) |  |
-| is_deep | bool |  |
+| node_type | [NodeType](../../nodetype/) | Specifies the type of nodes to select. |
+| is_deep | bool | ``True`` to select from all child nodes recursively; ``False`` to select only among immediate children.  |
+
+### Remarks
 
 The collection of nodes returned by this method is always live.
+
+
+
+
+A live collection is always in sync with the document. For example, if you
+selected all sections in a document and enumerate through the collection
+deleting the sections, the section is removed from the collection immediately
+when it is removed from the document.
 
 
 

@@ -15,6 +15,17 @@ Gets or sets whether to increment footnote, endnote, and annotation numbers that
 marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
 
 
+```python
+@property
+def include_note_or_comment(self) -> bool:
+    ...
+
+@include_note_or_comment.setter
+def include_note_or_comment(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert REF fields to reference bookmarks.

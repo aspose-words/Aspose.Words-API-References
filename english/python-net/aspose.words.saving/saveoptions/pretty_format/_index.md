@@ -15,6 +15,20 @@ When ``True``, pretty formats output where applicable.
 Default value is ``False``.
 
 
+
+```python
+@property
+def pretty_format(self) -> bool:
+    ...
+
+@pretty_format.setter
+def pretty_format(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Set to ``True`` to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable.
 Useful for testing or debugging.
 

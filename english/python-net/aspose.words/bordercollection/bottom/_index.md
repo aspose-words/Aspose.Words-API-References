@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bordercollection/bottom/
 Gets the bottom border.
 
 
+```python
+@property
+def bottom(self) -> aspose.words.Border:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply border and shading color while building a table.

@@ -15,6 +15,20 @@ Allows to specify whether values are to be displayed in the data labels of the e
 Default value is ``False``.
 
 
+
+```python
+@property
+def show_value(self) -> bool:
+    ...
+
+@show_value.setter
+def show_value(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.show_value](../../chartdatalabel/show_value/) property.
 

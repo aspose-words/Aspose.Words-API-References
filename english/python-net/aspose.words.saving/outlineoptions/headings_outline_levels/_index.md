@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/outlineoptions/headings_outline_levels/
 Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the 
 document outline.
 
+
+```python
+@property
+def headings_outline_levels(self) -> int:
+    ...
+
+@headings_outline_levels.setter
+def headings_outline_levels(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Specify 0 for no headings in the outline; specify 1 for one level of headings in the outline and so on.
 
 Default is 0. Valid range is 0 to 9.

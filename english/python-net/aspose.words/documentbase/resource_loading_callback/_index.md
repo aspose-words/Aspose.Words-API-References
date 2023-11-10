@@ -14,6 +14,17 @@ url: /python-net/aspose.words/documentbase/resource_loading_callback/
 Allows to control how external resources are loaded.
 
 
+```python
+@property
+def resource_loading_callback(self) -> aspose.words.loading.IResourceLoadingCallback:
+    ...
+
+@resource_loading_callback.setter
+def resource_loading_callback(self, value: aspose.words.loading.IResourceLoadingCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

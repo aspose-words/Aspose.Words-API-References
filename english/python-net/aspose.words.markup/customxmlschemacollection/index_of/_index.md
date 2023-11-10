@@ -21,7 +21,7 @@ def index_of(self, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | str |  |
+| value | str | The case-sensitive value to locate. |
 
 ### Returns
 

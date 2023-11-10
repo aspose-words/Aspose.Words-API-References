@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/field/
 Gets the object that represents the current merge field.
 
 
+```python
+@property
+def field(self) -> aspose.words.fields.FieldMergeField:
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.

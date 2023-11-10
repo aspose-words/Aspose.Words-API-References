@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/FIELD_END_CHAR/
 End of MS Word field character: (char)21.
 
 
+```python
+@property
+def FIELD_END_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

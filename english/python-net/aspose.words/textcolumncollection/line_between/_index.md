@@ -15,6 +15,17 @@ When ``True``, adds a vertical line between columns.
 
 
 
+```python
+@property
+def line_between(self) -> bool:
+    ...
+
+@line_between.setter
+def line_between(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to separate columns with a vertical line.

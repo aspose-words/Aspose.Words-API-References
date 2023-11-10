@@ -13,6 +13,20 @@ url: /python-net/aspose.words/bordercollection/shadow/
 
 Gets or sets a value indicating whether the border has a shadow.
 
+
+```python
+@property
+def shadow(self) -> bool:
+    ...
+
+@shadow.setter
+def shadow(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Gets the value from the first border in the collection.
 
 Sets the value for all borders in the collection excluding diagonal borders.

@@ -15,6 +15,20 @@ Allows to specify whether data label leader lines need be shown for the data lab
 Default value is ``False``.
 
 
+
+```python
+@property
+def show_leader_lines(self) -> bool:
+    ...
+
+@show_leader_lines.setter
+def show_leader_lines(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Applies to Pie charts only. 
 Leader lines create a visual connection between a data label and its corresponding data point.
 

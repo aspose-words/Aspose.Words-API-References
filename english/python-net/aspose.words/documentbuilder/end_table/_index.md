@@ -19,6 +19,8 @@ def end_table(self):
     ...
 ```
 
+### Remarks
+
 This method should be called only once after [DocumentBuilder.end_row()](../end_row/#default) was called. When called,
 [DocumentBuilder.end_table()](./#default) moves the cursor out of the current cell to point just after the table.
 

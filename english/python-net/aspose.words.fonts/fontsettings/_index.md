@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 Aspose.Words uses font settings to resolve the fonts in the document. Fonts are resolved mostly when building document layout
 or rendering to fixed page formats. But when loading some formats, Aspose.Words also may require to resolve the fonts. For example, when
 loading HTML documents Aspose.Words may resolve the fonts to perform font fallback. So it is recommended that you set the font settings in

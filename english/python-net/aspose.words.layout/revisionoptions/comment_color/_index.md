@@ -15,6 +15,20 @@ Allows to specify the color to be used for comments.
 Default value is [RevisionColor.RED](../../revisioncolor/#RED).
 
 
+
+```python
+@property
+def comment_color(self) -> aspose.words.layout.RevisionColor:
+    ...
+
+@comment_color.setter
+def comment_color(self, value: aspose.words.layout.RevisionColor):
+    ...
+
+```
+
+### Remarks
+
 If set this property  to [RevisionColor.BY_AUTHOR](../../revisioncolor/#BY_AUTHOR) or [RevisionColor.NO_HIGHLIGHT](../../revisioncolor/#NO_HIGHLIGHT) values,
 as the result this property will be set to default color.
 

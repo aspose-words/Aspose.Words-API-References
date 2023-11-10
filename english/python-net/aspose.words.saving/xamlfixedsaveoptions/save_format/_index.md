@@ -16,6 +16,17 @@ Can only be [SaveFormat.XAML_FIXED](../../../aspose.words/saveformat/#XAML_FIXED
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the URIs of linked resources created while converting a document to fixed-form .xaml.

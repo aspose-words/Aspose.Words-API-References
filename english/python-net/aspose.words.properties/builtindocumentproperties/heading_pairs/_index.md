@@ -13,10 +13,24 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/heading_pairs
 
 Specifies document headings and their names.
 
+
+```python
+@property
+def heading_pairs(self) -> List[object]:
+    ...
+
+@heading_pairs.setter
+def heading_pairs(self, value: List[object]):
+    ...
+
+```
+
+### Remarks
+
 Every heading pair occupies two elements in this array.
 
-The first element of the pair is a System.String and specifies the heading name.
-The second element of the pair is an System.Int32 and specifies the count of document
+The first element of the pair is a string and specifies the heading name.
+The second element of the pair is an int and specifies the count of document
 parts for this heading in the [BuiltInDocumentProperties.titles_of_parts](../titles_of_parts/) property.
 
 The total sum of counts for all heading pairs in this property must be equal to the

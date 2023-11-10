@@ -14,6 +14,13 @@ url: /python-net/aspose.words/inlinestory/font/
 Provides access to the font formatting of the anchor character of this object.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert InlineStory nodes.

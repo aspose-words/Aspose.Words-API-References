@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/different_first_page_header_footer/
 True if a different header or footer is used on the first page.
 
 
+```python
+@property
+def different_first_page_header_footer(self) -> bool:
+    ...
+
+@different_first_page_header_footer.setter
+def different_first_page_header_footer(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.

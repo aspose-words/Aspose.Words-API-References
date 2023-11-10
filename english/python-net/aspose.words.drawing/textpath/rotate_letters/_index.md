@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/rotate_letters/
 
 Determines whether the letters of the text are rotated.
 
+
+```python
+@property
+def rotate_letters(self) -> bool:
+    ...
+
+@rotate_letters.setter
+def rotate_letters(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

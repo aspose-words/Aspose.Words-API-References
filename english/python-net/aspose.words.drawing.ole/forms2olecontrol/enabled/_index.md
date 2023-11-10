@@ -15,6 +15,13 @@ Returns ``True`` if control is in enabled state.
 
 
 
+```python
+@property
+def enabled(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/own_help/
 
 Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
+
+```python
+@property
+def own_help(self) -> bool:
+    ...
+
+@own_help.setter
+def own_help(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If ``True``, the text specified by the [FormField.help_text](../help_text/) property is displayed.
 If ``False``, the text in the AutoText entry specified by the [FormField.help_text](../help_text/) property is displayed.
 

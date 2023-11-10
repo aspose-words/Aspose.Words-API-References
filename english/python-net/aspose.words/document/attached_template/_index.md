@@ -13,12 +13,30 @@ url: /python-net/aspose.words/document/attached_template/
 
 Gets or sets the full path of the template attached to the document.
 
+
+```python
+@property
+def attached_template(self) -> str:
+    ...
+
+@attached_template.setter
+def attached_template(self, value: str):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws if you attempt to set to a ``None`` value. |
+
+### Remarks
+
 Empty string means the document is attached to the Normal template.
 
 
 
-:raises System.ArgumentNullException: Throws if you attempt to set to a ``None`` value.
-                                      
 
 ### Examples
 

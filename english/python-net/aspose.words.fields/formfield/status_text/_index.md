@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/status_text/
 
 Returns or sets the text that's displayed in the status bar when a form field has the focus.
 
+
+```python
+@property
+def status_text(self) -> str:
+    ...
+
+@status_text.setter
+def status_text(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 If the [FormField.own_status](../own_status/) property is set to ``True``, the [FormField.status_text](./) property specifies the status bar text.
 If the [FormField.own_status](../own_status/) property is set to ``False``, the [FormField.status_text](./) property specifies the name of an AutoText
 entry that contains status bar text for the form field.

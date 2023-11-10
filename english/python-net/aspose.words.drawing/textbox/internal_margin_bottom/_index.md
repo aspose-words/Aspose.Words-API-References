@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/internal_margin_bottom/
 
 Specifies the inner bottom margin in points for a shape.
 
+
+```python
+@property
+def internal_margin_bottom(self) -> float:
+    ...
+
+@internal_margin_bottom.setter
+def internal_margin_bottom(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1/20 inch.
 
 

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.mailmerging/mailmerge/mapped_data_fields/
 
 Returns a collection that represents mapped data fields for the mail merge operation.
 
+
+```python
+@property
+def mapped_data_fields(self) -> aspose.words.mailmerging.MappedDataFieldCollection:
+    ...
+
+```
+
+### Remarks
+
 Mapped data fields allow to automatically map between names of fields in your data source
 and names of mail merge fields in the document.
 

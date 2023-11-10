@@ -14,6 +14,13 @@ url: /python-net/aspose.words/pagesetup/footnote_options/
 Provides options that control numbering and positioning of footnotes in this section.
 
 
+```python
+@property
+def footnote_options(self) -> aspose.words.notes.FootnoteOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure options affecting footnotes/endnotes in a section.

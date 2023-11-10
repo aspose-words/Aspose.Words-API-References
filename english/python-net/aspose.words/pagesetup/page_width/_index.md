@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/page_width/
 Returns or sets the width of the page in points.
 
 
+```python
+@property
+def page_width(self) -> float:
+    ...
+
+@page_width.setter
+def page_width(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an image, and use it as a watermark.

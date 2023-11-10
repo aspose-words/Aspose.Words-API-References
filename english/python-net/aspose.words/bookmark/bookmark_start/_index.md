@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bookmark/bookmark_start/
 Gets the node that represents the start of the bookmark.
 
 
+```python
+@property
+def bookmark_start(self) -> aspose.words.BookmarkStart:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

@@ -21,8 +21,8 @@ def __init__(self, folder_path: str, scan_subfolders: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folder_path | str |  |
-| scan_subfolders | bool |  |
+| folder_path | str | Path to folder. |
+| scan_subfolders | bool | Determines whether or not to scan subfolders. |
 
 ## FolderFontSource(folder_path, scan_subfolders, priority) {#str_bool_int}
 
@@ -36,9 +36,9 @@ def __init__(self, folder_path: str, scan_subfolders: bool, priority: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folder_path | str |  |
-| scan_subfolders | bool |  |
-| priority | int |  |
+| folder_path | str | Path to folder. |
+| scan_subfolders | bool | Determines whether or not to scan subfolders. |
+| priority | int | Font source priority. See the [FontSourceBase.priority](../../fontsourcebase/priority/) property description for more information. |
 
 ## Examples
 

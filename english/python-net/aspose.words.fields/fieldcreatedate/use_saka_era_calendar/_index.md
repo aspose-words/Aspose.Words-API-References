@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcreatedate/use_saka_era_calendar/
 Gets or sets whether to use the Saka Era calendar.
 
 
+```python
+@property
+def use_saka_era_calendar(self) -> bool:
+    ...
+
+@use_saka_era_calendar.setter
+def use_saka_era_calendar(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the CREATEDATE field to display the creation date/time of the document.

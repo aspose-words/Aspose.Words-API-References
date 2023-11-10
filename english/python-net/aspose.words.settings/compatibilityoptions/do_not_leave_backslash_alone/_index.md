@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_leave_backsla
 Convert Backslash To Yen Sign When Entered.
 
 
+```python
+@property
+def do_not_leave_backslash_alone(self) -> bool:
+    ...
+
+@do_not_leave_backslash_alone.setter
+def do_not_leave_backslash_alone(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

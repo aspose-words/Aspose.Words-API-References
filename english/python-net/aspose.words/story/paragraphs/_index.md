@@ -14,6 +14,13 @@ url: /python-net/aspose.words/story/paragraphs/
 Gets a collection of paragraphs that are immediate children of the story.
 
 
+```python
+@property
+def paragraphs(self) -> aspose.words.ParagraphCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to check whether a paragraph is a move revision.

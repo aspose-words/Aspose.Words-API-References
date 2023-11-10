@@ -16,6 +16,17 @@ have been inserted (e.g. preview merged data). The default value is ``False``.
 
 
 
+```python
+@property
+def view_merged_data(self) -> bool:
+    ...
+
+@view_merged_data.setter
+def view_merged_data(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

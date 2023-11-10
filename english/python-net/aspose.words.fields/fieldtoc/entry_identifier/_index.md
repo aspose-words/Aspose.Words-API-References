@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/entry_identifier/
 Gets or sets a string that should match type identifiers of TC fields being included.
 
 
+```python
+@property
+def entry_identifier(self) -> str:
+    ...
+
+@entry_identifier.setter
+def entry_identifier(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.

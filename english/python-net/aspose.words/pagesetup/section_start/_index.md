@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/section_start/
 Returns or sets the type of section break for the specified object.
 
 
+```python
+@property
+def section_start(self) -> aspose.words.SectionStart:
+    ...
+
+@section_start.setter
+def section_start(self, value: aspose.words.SectionStart):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify how a new section separates itself from the previous.

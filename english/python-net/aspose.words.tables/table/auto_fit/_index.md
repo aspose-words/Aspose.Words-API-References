@@ -21,7 +21,9 @@ def auto_fit(self, behavior: aspose.words.tables.AutoFitBehavior):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| behavior | [AutoFitBehavior](../../autofitbehavior/) |  |
+| behavior | [AutoFitBehavior](../../autofitbehavior/) | Specifies how to auto fit the table. |
+
+### Remarks
 
 This method mimics the commands available in the Auto Fit menu for a table in Microsoft Word.
 The commands available are "Auto Fit to Contents", "Auto Fit to Window" and "Fixed Column Width". In Microsoft Word

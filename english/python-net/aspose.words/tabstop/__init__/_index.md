@@ -35,9 +35,9 @@ def __init__(self, position: float, alignment: aspose.words.TabAlignment, leader
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | float |  |
-| alignment | [TabAlignment](../../tabalignment/) |  |
-| leader | [TabLeader](../../tableader/) |  |
+| position | float | The position of the tab stop in points. |
+| alignment | [TabAlignment](../../tabalignment/) | A [TabAlignment](../../tabalignment/) value that specifies the alignment of text at this tab stop. |
+| leader | [TabLeader](../../tableader/) | A [TabLeader](../../tableader/) value that specifies the type of the leader line displayed under the tab character. |
 
 ## Examples
 

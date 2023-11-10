@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/version/
 
 Represents the version number of the application that created the document.
 
+
+```python
+@property
+def version(self) -> int:
+    ...
+
+@version.setter
+def version(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 When a document was created by Microsoft Word, then high 16 bit represent
 the major version and low 16 bit represent the build number.
 

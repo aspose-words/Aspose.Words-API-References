@@ -15,6 +15,13 @@ Gets a [PresetTexture](../../presettexture/) for the fill.
 
 
 
+```python
+@property
+def preset_texture(self) -> aspose.words.drawing.PresetTexture:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

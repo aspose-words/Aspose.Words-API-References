@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/folderfontsource/type/
 Returns the type of the font source.
 
 
+```python
+@property
+def type(self) -> aspose.words.fonts.FontSourceType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a local system folder which contains fonts as a font source.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shape/stroked/
 
 Defines whether the path will be stroked.
 
+
+```python
+@property
+def stroked(self) -> bool:
+    ...
+
+@stroked.setter
+def stroked(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This is a shortcut to the [Stroke.on](../../stroke/on/) property.
 
 The default value is ``True``.

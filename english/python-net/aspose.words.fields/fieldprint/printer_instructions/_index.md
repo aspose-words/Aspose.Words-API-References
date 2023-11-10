@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldprint/printer_instructions/
 Gets or sets the printer-specific control code characters or PostScript instructions.
 
 
+```python
+@property
+def printer_instructions(self) -> str:
+    ...
+
+@printer_instructions.setter
+def printer_instructions(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert a PRINT field.

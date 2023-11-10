@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/bold_bi/
 True if the right-to-left text is formatted as bold.
 
 
+```python
+@property
+def bold_bi(self) -> bool:
+    ...
+
+@bold_bi.setter
+def bold_bi(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.

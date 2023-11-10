@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/coord_origin/
 
 The coordinates at the top-left corner of the containing block of this shape.
 
+
+```python
+@property
+def coord_origin(self) -> aspose.pydrawing.Point:
+    ...
+
+@coord_origin.setter
+def coord_origin(self, value: aspose.pydrawing.Point):
+    ...
+
+```
+
+### Remarks
+
 The default value is (0,0).
 
 

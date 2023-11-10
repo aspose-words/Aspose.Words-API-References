@@ -5,7 +5,7 @@ articleTitle: TabStop class
 second_title: Aspose.Words for Python
 description: "aspose.words.TabStop class. Represents a single custom tab stop"
 type: docs
-weight: 1190
+weight: 1200
 url: /python-net/aspose.words/tabstop/
 ---
 
@@ -17,6 +17,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+
+### Remarks
 
 Normally, a tab stop specifies a position where a tab stop exists. But because
 tab stops can be inherited from parent styles, it might be needed for the child object

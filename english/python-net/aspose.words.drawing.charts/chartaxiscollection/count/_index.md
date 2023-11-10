@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartaxiscollection/count/
 Gets the number of axes in this collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

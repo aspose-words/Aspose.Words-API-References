@@ -14,6 +14,16 @@ url: /python-net/aspose.words.layout/layoutenumerator/kind/
 Gets the kind of the current entity. This can be an empty string but never ``None``.
 
 
+
+```python
+@property
+def kind(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 This is a more specific type of the current entity, e.g. bookmark span has [LayoutEntityType.SPAN](../../layoutentitytype/#SPAN) type and
 may have either a BOOKMARKSTART or BOOKMARKEND kind.
 

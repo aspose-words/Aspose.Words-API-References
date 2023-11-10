@@ -14,6 +14,20 @@ url: /python-net/aspose.words/style/next_paragraph_style_name/
 Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a
 paragraph formatted with the specified style.
 
+
+```python
+@property
+def next_paragraph_style_name(self) -> str:
+    ...
+
+@next_paragraph_style_name.setter
+def next_paragraph_style_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property is not used by Aspose.Words. The next paragraph style will only
 be applied automatically when you edit the document in MS Word.
 

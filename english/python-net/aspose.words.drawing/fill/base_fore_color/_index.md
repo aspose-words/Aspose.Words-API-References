@@ -15,6 +15,13 @@ Gets a Color object that represents the base foreground color for the fill
 without any modifiers.
 
 
+```python
+@property
+def base_fore_color(self) -> aspose.pydrawing.Color:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get foreground color without modifiers.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/scale/
 
 Gets or sets the zoom factor for the generated images.
 
+
+```python
+@property
+def scale(self) -> float:
+    ...
+
+@scale.setter
+def scale(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1.0. The value must be greater than 0.
 
 

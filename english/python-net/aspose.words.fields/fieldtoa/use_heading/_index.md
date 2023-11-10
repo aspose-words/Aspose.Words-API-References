@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoa/use_heading/
 Gets or sets whether to include the category heading for the entries in a table of authorities.
 
 
+```python
+@property
+def use_heading(self) -> bool:
+    ...
+
+@use_heading.setter
+def use_heading(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

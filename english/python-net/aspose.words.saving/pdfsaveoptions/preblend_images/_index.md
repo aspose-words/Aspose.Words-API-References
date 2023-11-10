@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/preblend_images/
 
 Gets or sets a value determining whether or not to preblend transparent images with black background color.
 
+
+```python
+@property
+def preblend_images(self) -> bool:
+    ...
+
+@preblend_images.setter
+def preblend_images(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Preblending images may improve PDF document visual appearance in Adobe Reader and remove anti-aliasing artifacts.
 
 In order to properly display preblended images, PDF viewer application must support /Matte entry in soft-mask image dictionary.

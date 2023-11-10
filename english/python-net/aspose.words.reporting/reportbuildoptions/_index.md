@@ -25,6 +25,7 @@ Specifies options controlling behavior of [ReportingEngine](../reportingengine/)
 | INLINE_ERROR_MESSAGES | Specifies that the engine should inline template syntax error messages into output documents.  If this option is not set, the engine throws an exception when encounters a syntax error. |
 | USE_LEGACY_HEADER_FOOTER_VISITING | Specifies that the engine should visit section child nodes (headers, footers, bodies) in an order compatible with Aspose.Words versions prior 21.9. |
 | RESPECT_JPEG_EXIF_ORIENTATION | Specifies that the engine should use EXIF ​​image orientation values to appropriately rotate inserted JPEG images. |
+| UPDATE_FIELDS_SYNTAX_AWARE | Specifies that the engine should ignore template syntax in field results and update fields after a report is built. |
 
 ### See Also
 

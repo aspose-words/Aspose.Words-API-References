@@ -21,7 +21,7 @@ def get_substitutes(self, original_font_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| original_font_name | str |  |
+| original_font_name | str | Original font name. |
 
 ### Returns
 

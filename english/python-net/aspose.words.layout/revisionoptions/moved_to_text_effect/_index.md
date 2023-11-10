@@ -15,9 +15,23 @@ Allows to specify the effect to be applied to the areas where content was moved 
 Default value is [RevisionTextEffect.DOUBLE_UNDERLINE](../../revisiontexteffect/#DOUBLE_UNDERLINE)
 
 
-Values of [RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) and [RevisionTextEffect.DOUBLE_STRIKE_THROUGH](../../revisiontexteffect/#DOUBLE_STRIKE_THROUGH) 
-are not allowed and will cause System.ArgumentOutOfRangeException.
 
+```python
+@property
+def moved_to_text_effect(self) -> aspose.words.layout.RevisionTextEffect:
+    ...
+
+@moved_to_text_effect.setter
+def moved_to_text_effect(self, value: aspose.words.layout.RevisionTextEffect):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Values of [RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) and [RevisionTextEffect.DOUBLE_STRIKE_THROUGH](../../revisiontexteffect/#DOUBLE_STRIKE_THROUGH)  are not allowed. |
 
 ### Examples
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/border_surrounds_footer/
 
 Specifies whether the page border includes or excludes the footer.
 
+
+```python
+@property
+def border_surrounds_footer(self) -> bool:
+    ...
+
+@border_surrounds_footer.setter
+def border_surrounds_footer(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Note, changing this property affects all sections in the document.
 
 

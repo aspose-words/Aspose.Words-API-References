@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/encryption_details/
 
 Gets or sets the details for encrypting the output PDF document.
 
+
+```python
+@property
+def encryption_details(self) -> aspose.words.saving.PdfEncryptionDetails:
+    ...
+
+@encryption_details.setter
+def encryption_details(self, value: aspose.words.saving.PdfEncryptionDetails):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``None`` and the output document will not be encrypted.
 When this property is set to a valid [PdfEncryptionDetails](../../pdfencryptiondetails/) object,
 then the output PDF document will be encrypted.

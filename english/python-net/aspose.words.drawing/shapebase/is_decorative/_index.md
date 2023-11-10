@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/is_decorative/
 
 Gets or sets the flag that specifies whether the shape is decorative in the document.
 
+
+```python
+@property
+def is_decorative(self) -> bool:
+    ...
+
+@is_decorative.setter
+def is_decorative(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Note that shape having not empty [ShapeBase.alternative_text](../alternative_text/) cannot be decorative.
 
 

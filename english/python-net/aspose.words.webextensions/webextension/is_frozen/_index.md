@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextension/is_frozen/
 Specifies whether the user can interact with the web extension or not.
 
 
+```python
+@property
+def is_frozen(self) -> bool:
+    ...
+
+@is_frozen.setter
+def is_frozen(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

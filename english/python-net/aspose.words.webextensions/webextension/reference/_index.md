@@ -14,6 +14,13 @@ url: /python-net/aspose.words.webextensions/webextension/reference/
 Specifies the primary reference to an web extension.
 
 
+```python
+@property
+def reference(self) -> aspose.words.webextensions.WebExtensionReference:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/SPACE_CHAR/
 Space character: (char)32.
 
 
+```python
+@property
+def SPACE_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

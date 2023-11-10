@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fields/fieldupdatingprogressargs/total_fields_coun
 
 Gets the total fields count to be updated.
 
+
+```python
+@property
+def total_fields_count(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 The value is not constant and may be increased during updating process.
 
 

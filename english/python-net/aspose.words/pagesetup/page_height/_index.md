@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/page_height/
 Returns or sets the height of the page in points.
 
 
+```python
+@property
+def page_height(self) -> float:
+    ...
+
+@page_height.setter
+def page_height(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an image, and use it as a watermark.

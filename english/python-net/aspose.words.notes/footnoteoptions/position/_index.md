@@ -14,6 +14,17 @@ url: /python-net/aspose.words.notes/footnoteoptions/position/
 Specifies the footnotes position.
 
 
+```python
+@property
+def position(self) -> aspose.words.notes.FootnotePosition:
+    ...
+
+@position.setter
+def position(self, value: aspose.words.notes.FootnotePosition):
+    ...
+
+```
+
 ### Examples
 
 Shows how to select a different place where the document collects and displays its footnotes.

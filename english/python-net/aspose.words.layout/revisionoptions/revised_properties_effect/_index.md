@@ -15,8 +15,23 @@ Allows to specify the effect for content areas with changes of formatting proper
 Default value is [RevisionTextEffect.NONE](../../revisiontexteffect/#NONE)
 
 
-[RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) is not allowed and will cause System.ArgumentOutOfRangeException.
 
+```python
+@property
+def revised_properties_effect(self) -> aspose.words.layout.RevisionTextEffect:
+    ...
+
+@revised_properties_effect.setter
+def revised_properties_effect(self, value: aspose.words.layout.RevisionTextEffect):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | [RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) is not allowed. |
 
 ### Examples
 

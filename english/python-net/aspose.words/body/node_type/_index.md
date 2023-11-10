@@ -15,6 +15,13 @@ Returns [NodeType.BODY](../../nodetype/#BODY).
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to iterate through the children of a composite node.

@@ -3,7 +3,7 @@ title: CompareOptions.granularity property
 linktitle: granularity property
 articleTitle: granularity property
 second_title: Aspose.Words for Python
-description: "CompareOptions.granularity property. Specifies whether changes are tracked by character or by word"
+description: "CompareOptions.granularity property. Specifies whether changes are tracked by character or by word."
 type: docs
 weight: 30
 url: /python-net/aspose.words.comparing/compareoptions/granularity/
@@ -12,7 +12,22 @@ url: /python-net/aspose.words.comparing/compareoptions/granularity/
 ## CompareOptions.granularity property
 
 Specifies whether changes are tracked by character or by word.
-Default value is Aspose.Words.Comparing.Granularity.WordLevel.
+
+
+```python
+@property
+def granularity(self) -> aspose.words.comparing.Granularity:
+    ...
+
+@granularity.setter
+def granularity(self, value: aspose.words.comparing.Granularity):
+    ...
+
+```
+
+### Remarks
+
+Default value is [Granularity.WORD_LEVEL](../../granularity/#WORD_LEVEL).
 
 
 

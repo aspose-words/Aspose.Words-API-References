@@ -21,7 +21,7 @@ def visit_sub_document(self, sub_document: aspose.words.SubDocument):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sub_document | [SubDocument](../../subdocument/) |  |
+| sub_document | [SubDocument](../../subdocument/) | The object that is being visited. |
 
 ### Returns
 

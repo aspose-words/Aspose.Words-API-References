@@ -13,6 +13,16 @@ url: /python-net/aspose.words/node/previous_sibling/
 
 Gets the node immediately preceding this node.
 
+
+```python
+@property
+def previous_sibling(self) -> aspose.words.Node:
+    ...
+
+```
+
+### Remarks
+
 If there is no preceding node, a ``None`` is returned.
 
 

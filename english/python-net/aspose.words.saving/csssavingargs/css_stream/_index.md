@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/csssavingargs/css_stream/
 
 Allows to specify the stream where the CSS information will be saved to.
 
+
+```python
+@property
+def css_stream(self) -> io.BytesIO:
+    ...
+
+@css_stream.setter
+def css_stream(self, value: io.BytesIO):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to save CSS information to a stream.
 
 The default value is ``None``. This property doesn't suppress saving CSS information to a file or

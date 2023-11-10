@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraph/list_format/
 Provides access to the list formatting properties of the paragraph.
 
 
+```python
+@property
+def list_format(self) -> aspose.words.lists.ListFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to output all paragraphs in a document that are list items.

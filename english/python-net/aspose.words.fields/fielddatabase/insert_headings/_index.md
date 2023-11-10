@@ -15,6 +15,17 @@ Gets or sets whether to insert the field names from the database as column headi
 the resulting table.
 
 
+```python
+@property
+def insert_headings(self) -> bool:
+    ...
+
+@insert_headings.setter
+def insert_headings(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

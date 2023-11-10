@@ -15,6 +15,17 @@ Specifies whether to update the fields with the ``dirty`` attribute.
 
 
 
+```python
+@property
+def update_dirty_fields(self) -> bool:
+    ...
+
+@update_dirty_fields.setter
+def update_dirty_fields(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use special property for updating field result.

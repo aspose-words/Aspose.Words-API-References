@@ -15,6 +15,20 @@ Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft
 The default value is ``False``.
 
 
+
+```python
+@property
+def preserve_include_picture_field(self) -> bool:
+    ...
+
+@preserve_include_picture_field.setter
+def preserve_include_picture_field(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need
 the field to be preserved, for example, if you wish to update it programmatically. Note however that this
 approach is not common for Aspose.Words. Use it on your own risk.

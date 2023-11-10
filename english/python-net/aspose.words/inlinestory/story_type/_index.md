@@ -14,6 +14,13 @@ url: /python-net/aspose.words/inlinestory/story_type/
 Returns the type of the story.
 
 
+```python
+@property
+def story_type(self) -> aspose.words.StoryType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert InlineStory nodes.

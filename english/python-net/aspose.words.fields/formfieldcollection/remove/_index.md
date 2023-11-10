@@ -21,7 +21,9 @@ def remove(self, form_field: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| form_field | str |  |
+| form_field | str | The case-insensitive name of the form field to remove. |
+
+### Remarks
 
 If there is a bookmark associated with the form field, the bookmark is not removed.
 

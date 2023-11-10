@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/total_editing
 Gets or sets the total editing time in minutes.
 
 
+```python
+@property
+def total_editing_time(self) -> int:
+    ...
+
+@total_editing_time.setter
+def total_editing_time(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with document properties in the "Origin" category.

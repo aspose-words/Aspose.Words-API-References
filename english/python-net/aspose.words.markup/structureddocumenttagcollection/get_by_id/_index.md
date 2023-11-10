@@ -21,7 +21,9 @@ def get_by_id(self, id: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | int |  |
+| id | int | The structured document tag identifier. |
+
+### Remarks
 
 Returns null if the structured document tag with the specified identifier cannot be found.
 

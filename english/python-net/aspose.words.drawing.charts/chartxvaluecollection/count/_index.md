@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartxvaluecollection/count/
 Gets the number of items in this collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

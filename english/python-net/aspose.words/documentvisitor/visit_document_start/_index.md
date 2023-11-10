@@ -21,7 +21,7 @@ def visit_document_start(self, doc: aspose.words.Document):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [Document](../../document/) |  |
+| doc | [Document](../../document/) | The object that is being visited. |
 
 ### Returns
 

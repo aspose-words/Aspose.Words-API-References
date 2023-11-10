@@ -5,7 +5,7 @@ articleTitle: metafile_format property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.metafile_format property. Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB"
 type: docs
-weight: 390
+weight: 380
 url: /python-net/aspose.words.saving/htmlsaveoptions/metafile_format/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/metafile_format/
 Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB.
 Default value is [HtmlMetafileFormat.PNG](../../htmlmetafileformat/#PNG), meaning that metafiles are rendered to raster PNG images.
 
+
+
+```python
+@property
+def metafile_format(self) -> aspose.words.saving.HtmlMetafileFormat:
+    ...
+
+@metafile_format.setter
+def metafile_format(self, value: aspose.words.saving.HtmlMetafileFormat):
+    ...
+
+```
+
+### Remarks
 
 Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF 
 images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export

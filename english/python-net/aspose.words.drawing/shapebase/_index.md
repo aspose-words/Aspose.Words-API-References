@@ -17,6 +17,8 @@ To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 This is an abstract class. The two derived classes that you can instantiate
 are [Shape](../shape/) and [GroupShape](../groupshape/).
 
@@ -136,7 +138,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ fetch_inherited_shape_attr(key)](./fetch_inherited_shape_attr/#int) | Reserved for system use. IShapeAttrSource. |
 |[ fetch_shape_attr(key)](./fetch_shape_attr/#int) | Reserved for system use. IShapeAttrSource. |
-|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child(node_type, index, is_deep)](../../aspose.words/compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../../aspose.words/compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

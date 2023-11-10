@@ -21,11 +21,13 @@ def insert_text_input(self, name: str, type: aspose.words.fields.TextFormFieldTy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| type | [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/) |  |
-| format | str |  |
-| field_value | str |  |
-| max_length | int |  |
+| name | str | The name of the form field. Can be an empty string. |
+| type | [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/) | Specifies the type of the text form field. |
+| format | str | Format string used to format the value of the form field. |
+| field_value | str | Text that will be shown in the field. |
+| max_length | int | Maximum length the user can enter into the form field. Set to zero for unlimited length. |
+
+### Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 

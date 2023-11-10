@@ -13,6 +13,20 @@ url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/shape/
 
 Specifies the shape that the mail merge engine must insert into the document.
 
+
+```python
+@property
+def shape(self) -> aspose.words.drawing.Shape:
+    ...
+
+@shape.setter
+def shape(self, value: aspose.words.drawing.Shape):
+    ...
+
+```
+
+### Remarks
+
 When this property is specified, the mail merge engine ignores all other properties like [ImageFieldMergingArgs.image_file_name](../image_file_name/) or [ImageFieldMergingArgs.image_stream](../image_stream/)
 and simply inserts the shape into the document.
 

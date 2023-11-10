@@ -16,6 +16,17 @@ Can be [SaveFormat.ODT](../../../aspose.words/saveformat/#ODT) or [SaveFormat.OT
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.

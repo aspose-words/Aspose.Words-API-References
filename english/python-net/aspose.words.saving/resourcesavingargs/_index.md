@@ -17,6 +17,8 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-
 
 
 
+### Remarks
+
 By default, when Aspose.Words saves a document to fixed page HTML or SVG, it saves each resource into 
 a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name
 for each resource found in the document.

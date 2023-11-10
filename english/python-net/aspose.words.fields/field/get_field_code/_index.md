@@ -32,7 +32,7 @@ def get_field_code(self, include_child_field_codes: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| include_child_field_codes | bool |  |
+| include_child_field_codes | bool | ``True`` if child field codes should be included. |
 
 ## Examples
 

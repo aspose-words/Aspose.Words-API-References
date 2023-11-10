@@ -18,6 +18,8 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 
 
 
+### Remarks
+
 An instance of the [SaveOptions](./) class or any derived class is passed to the stream [Document.save()](../../aspose.words/document/save/#bytesio_saveoptions)
 or string [Document.save()](../../aspose.words/document/save/#str_saveoptions) overloads for the user to define custom options when saving a document.
 
@@ -28,7 +30,7 @@ or string [Document.save()](../../aspose.words/document/save/#str_saveoptions) o
 | Name | Description |
 | --- | --- |
 | [allow_embedding_post_script_fonts](./allow_embedding_post_script_fonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``False``. |
-| [default_template](./default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** (System.String.Empty). |
+| [default_template](./default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** (). |
 | [dml_3d_effects_rendering_mode](./dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered. |
 | [dml_effects_rendering_mode](./dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered. |
 | [dml_rendering_mode](./dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered. |

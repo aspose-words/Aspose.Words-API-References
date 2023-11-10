@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldquote/text/
 Gets or sets the text to retrieve.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows to use the QUOTE field.

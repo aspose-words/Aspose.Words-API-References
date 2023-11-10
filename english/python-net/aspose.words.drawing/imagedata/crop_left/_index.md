@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/imagedata/crop_left/
 
 Defines the fraction of picture removal from the left side.
 
+
+```python
+@property
+def crop_left(self) -> float:
+    ...
+
+@crop_left.setter
+def crop_left(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note 
 that a value of 1 will display no picture at all. Negative values will result in 
 the picture being squeezed inward from the edge being cropped (the empty space 

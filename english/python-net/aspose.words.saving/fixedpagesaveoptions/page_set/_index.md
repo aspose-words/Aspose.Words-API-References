@@ -15,6 +15,17 @@ Gets or sets the pages to render.
 Default is all the pages in the document.
 
 
+```python
+@property
+def page_set(self) -> aspose.words.saving.PageSet:
+    ...
+
+@page_set.setter
+def page_set(self, value: aspose.words.saving.PageSet):
+    ...
+
+```
+
 ### Examples
 
 Shows how to convert only some of the pages in a document to PDF.

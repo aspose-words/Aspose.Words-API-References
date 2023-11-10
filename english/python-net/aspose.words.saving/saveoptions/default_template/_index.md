@@ -12,8 +12,22 @@ url: /python-net/aspose.words.saving/saveoptions/default_template/
 ## SaveOptions.default_template property
 
 Gets or sets path to default template (including filename).
-Default value for this property is **empty string** (System.String.Empty).
+Default value for this property is **empty string** ().
 
+
+
+```python
+@property
+def default_template(self) -> str:
+    ...
+
+@default_template.setter
+def default_template(self, value: str):
+    ...
+
+```
+
+### Remarks
 
 If specified, this path is used to load template when [Document.automatically_update_styles](../../../aspose.words/document/automatically_update_styles/) is ``True``,
 but [Document.attached_template](../../../aspose.words/document/attached_template/) is empty.

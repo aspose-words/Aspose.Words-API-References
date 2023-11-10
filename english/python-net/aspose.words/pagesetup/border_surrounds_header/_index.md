@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/border_surrounds_header/
 
 Specifies whether the page border includes or excludes the header.
 
+
+```python
+@property
+def border_surrounds_header(self) -> bool:
+    ...
+
+@border_surrounds_header.setter
+def border_surrounds_header(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Note, changing this property affects all sections in the document.
 
 

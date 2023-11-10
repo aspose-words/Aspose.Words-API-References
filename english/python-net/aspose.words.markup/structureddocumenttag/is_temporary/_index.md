@@ -16,6 +16,17 @@ are modified.
 
 
 
+```python
+@property
+def is_temporary(self) -> bool:
+    ...
+
+@is_temporary.setter
+def is_temporary(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to make single-use controls.

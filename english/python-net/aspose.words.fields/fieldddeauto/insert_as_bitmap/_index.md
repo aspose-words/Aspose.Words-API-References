@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldddeauto/insert_as_bitmap/
 Gets or sets whether to insert the linked object as a bitmap.
 
 
+```python
+@property
+def insert_as_bitmap(self) -> bool:
+    ...
+
+@insert_as_bitmap.setter
+def insert_as_bitmap(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldrd/is_path_relative/
 Gets or sets whether the path is relative to the current document.
 
 
+```python
+@property
+def is_path_relative(self) -> bool:
+    ...
+
+@is_path_relative.setter
+def is_path_relative(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows to use the RD field to create a table of contents entries from headings in other documents.

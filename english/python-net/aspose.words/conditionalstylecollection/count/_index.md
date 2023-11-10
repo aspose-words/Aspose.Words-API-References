@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstylecollection/count/
 Gets the number of conditional styles in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

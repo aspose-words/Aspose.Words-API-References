@@ -14,6 +14,17 @@ url: /python-net/aspose.words.framesets/frameset/frame_default_url/
 Gets or sets the web page URL or document file name to display in this frame.
 
 
+```python
+@property
+def frame_default_url(self) -> str:
+    ...
+
+@frame_default_url.setter
+def frame_default_url(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access frames on-page.

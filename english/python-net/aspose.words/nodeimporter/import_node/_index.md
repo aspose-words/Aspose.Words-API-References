@@ -23,8 +23,10 @@ def import_node(self, src_node: aspose.words.Node, is_import_children: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_node | [Node](../../node/) |  |
-| is_import_children | bool |  |
+| src_node | [Node](../../node/) | The node to import. |
+| is_import_children | bool | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+
+### Remarks
 
 Importing a node creates a copy of the source node belonging to the importing document. 
 The returned node has no parent. The source node is not altered or removed from the original document.

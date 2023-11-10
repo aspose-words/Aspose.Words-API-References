@@ -15,6 +15,13 @@ Returns **true** if the cursor is at the end of a structured document tag.
 
 
 
+```python
+@property
+def is_at_end_of_structured_document_tag(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

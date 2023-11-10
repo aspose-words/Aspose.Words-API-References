@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/built_in_templates_paths/
 
 Gets or sets paths of MS Word built-in templates.
 
+
+```python
+@property
+def built_in_templates_paths(self) -> List[str]:
+    ...
+
+@built_in_templates_paths.setter
+def built_in_templates_paths(self, value: List[str]):
+    ...
+
+```
+
+### Remarks
+
 This property is used by the [FieldAutoText](../../fieldautotext/) and [FieldGlossary](../../fieldglossary/) fields, if referenced auto text entry is not found in the [Document.attached_template](../../../aspose.words/document/attached_template/) template.
 
 By default MS Word stores built-in templates in c:\\Users\\\<username\>\\AppData\\Roaming\\Microsoft\\Document Building Blocks\\1033\\16\\Built-In Building Blocks.dotx and

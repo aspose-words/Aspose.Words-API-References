@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/distance_right/
 Gets or sets distance between table right and the surrounding text, in points.
 
 
+```python
+@property
+def distance_right(self) -> float:
+    ...
+
+@distance_right.setter
+def distance_right(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set distance between table boundaries and text.

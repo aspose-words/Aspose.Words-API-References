@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/rowformat/heading_format/
 True if the row is repeated as a table heading on every page when the table spans more than one page.
 
 
+```python
+@property
+def heading_format(self) -> bool:
+    ...
+
+@heading_format.setter
+def heading_format(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with rows that repeat on every page.

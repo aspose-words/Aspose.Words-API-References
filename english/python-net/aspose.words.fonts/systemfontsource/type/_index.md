@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/systemfontsource/type/
 Returns the type of the font source.
 
 
+```python
+@property
+def type(self) -> aspose.words.fonts.FontSourceType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's system font source and set font substitutes.

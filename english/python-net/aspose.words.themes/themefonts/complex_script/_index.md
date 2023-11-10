@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themefonts/complex_script/
 Specifies font name for ComplexScript characters.
 
 
+```python
+@property
+def complex_script(self) -> str:
+    ...
+
+@complex_script.setter
+def complex_script(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

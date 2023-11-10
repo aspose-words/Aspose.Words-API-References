@@ -29,7 +29,9 @@ def request_dictionary(self, language: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | str |  |
+| language | str | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+
+### Remarks
 
 Exceptions thrown by this method will abort execution of page layout process.
 

@@ -21,7 +21,7 @@ def remove(self, name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
+| name | str | The case-insensitive name of the bookmark. |
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: CompareOptions.ignore_tables property
 linktitle: ignore_tables property
 articleTitle: ignore_tables property
 second_title: Aspose.Words for Python
-description: "CompareOptions.ignore_tables property. Specifies whether to compare the differences in data contained in tables"
+description: "CompareOptions.ignore_tables property. Specifies whether to compare the differences in data contained in tables."
 type: docs
 weight: 110
 url: /python-net/aspose.words.comparing/compareoptions/ignore_tables/
@@ -12,6 +12,21 @@ url: /python-net/aspose.words.comparing/compareoptions/ignore_tables/
 ## CompareOptions.ignore_tables property
 
 Specifies whether to compare the differences in data contained in tables.
+
+
+```python
+@property
+def ignore_tables(self) -> bool:
+    ...
+
+@ignore_tables.setter
+def ignore_tables(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default tables are not ignored.
 
 

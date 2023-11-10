@@ -15,6 +15,13 @@ Returns a [Shading](../../shading/) object that refers to the shading formatting
 
 
 
+```python
+@property
+def shading(self) -> aspose.words.Shading:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply shading to text created by a document builder.

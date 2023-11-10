@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listformat/list_level_number/
 
 Gets or sets the list level number (0 to 8) for the paragraph.
 
+
+```python
+@property
+def list_level_number(self) -> int:
+    ...
+
+@list_level_number.setter
+def list_level_number(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
 
 Has effect only when the [ListFormat.list](../list/) property is set to reference a valid list.

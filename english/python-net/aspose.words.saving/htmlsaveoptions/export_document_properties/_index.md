@@ -5,7 +5,7 @@ articleTitle: export_document_properties property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_document_properties property. Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB"
 type: docs
-weight: 130
+weight: 120
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_document_properties/
 ---
 
@@ -15,6 +15,17 @@ Specifies whether to export built-in and custom document properties to HTML, MHT
 Default value is ``False``.
 
 
+
+```python
+@property
+def export_document_properties(self) -> bool:
+    ...
+
+@export_document_properties.setter
+def export_document_properties(self, value: bool):
+    ...
+
+```
 
 ### Examples
 

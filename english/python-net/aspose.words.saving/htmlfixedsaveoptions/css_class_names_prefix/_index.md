@@ -16,6 +16,17 @@ Default value is ``"aw"``.
 
 
 
+```python
+@property
+def css_class_names_prefix(self) -> str:
+    ...
+
+@css_class_names_prefix.setter
+def css_class_names_prefix(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to place CSS into a separate file and add a prefix to all of its CSS class names.

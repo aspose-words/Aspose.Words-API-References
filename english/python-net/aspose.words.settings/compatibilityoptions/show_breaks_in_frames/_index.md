@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/show_breaks_in_frame
 Display Page/Column Breaks Present in Frames.
 
 
+```python
+@property
+def show_breaks_in_frames(self) -> bool:
+    ...
+
+@show_breaks_in_frames.setter
+def show_breaks_in_frames(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

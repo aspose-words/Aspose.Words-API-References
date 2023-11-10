@@ -14,6 +14,13 @@ url: /python-net/aspose.words.shaping/cluster/glyphs/
 Gets glyphs of the cluster.
 
 
+```python
+@property
+def glyphs(self) -> List[aspose.words.shaping.Glyph]:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.shaping](../../)

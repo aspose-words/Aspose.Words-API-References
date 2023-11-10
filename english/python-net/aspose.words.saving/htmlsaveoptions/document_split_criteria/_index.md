@@ -17,6 +17,20 @@ Default is [DocumentSplitCriteria.NONE](../../documentsplitcriteria/#NONE) for H
 [DocumentSplitCriteria.HEADING_PARAGRAPH](../../documentsplitcriteria/#HEADING_PARAGRAPH) for EPUB and AZW3.
 
 
+
+```python
+@property
+def document_split_criteria(self) -> aspose.words.saving.DocumentSplitCriteria:
+    ...
+
+@document_split_criteria.setter
+def document_split_criteria(self, value: aspose.words.saving.DocumentSplitCriteria):
+    ...
+
+```
+
+### Remarks
+
 Normally you would want a document saved to HTML as a single file. 
 But in some cases it is preferable to split the output into several smaller HTML pages. 
 When saving to HTML format these pages will be output to individual files or streams. 

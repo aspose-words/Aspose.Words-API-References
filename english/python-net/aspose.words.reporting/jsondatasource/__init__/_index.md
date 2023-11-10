@@ -21,7 +21,7 @@ def __init__(self, json_path: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| json_path | str |  |
+| json_path | str | The path to the JSON file to be used as the data source. |
 
 ## JsonDataSource(json_stream) {#bytesio}
 
@@ -29,13 +29,13 @@ Creates a new data source with data from a JSON stream using default options for
 
 
 ```python
-def __init__(self, json_stream: BytesIO):
+def __init__(self, json_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| json_stream | BytesIO |  |
+| json_stream | io.BytesIO | The stream of JSON data to be used as the data source. |
 
 ## JsonDataSource(json_path, options) {#str_jsondataloadoptions}
 
@@ -49,8 +49,8 @@ def __init__(self, json_path: str, options: aspose.words.reporting.JsonDataLoadO
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| json_path | str |  |
-| options | [JsonDataLoadOptions](../../jsondataloadoptions/) |  |
+| json_path | str | The path to the JSON file to be used as the data source. |
+| options | [JsonDataLoadOptions](../../jsondataloadoptions/) | Options for parsing JSON data. |
 
 ## JsonDataSource(json_stream, options) {#bytesio_jsondataloadoptions}
 
@@ -58,14 +58,14 @@ Creates a new data source with data from a JSON stream using the specified optio
 
 
 ```python
-def __init__(self, json_stream: BytesIO, options: aspose.words.reporting.JsonDataLoadOptions):
+def __init__(self, json_stream: io.BytesIO, options: aspose.words.reporting.JsonDataLoadOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| json_stream | BytesIO |  |
-| options | [JsonDataLoadOptions](../../jsondataloadoptions/) |  |
+| json_stream | io.BytesIO | The stream of JSON data to be used as the data source. |
+| options | [JsonDataLoadOptions](../../jsondataloadoptions/) | Options for parsing JSON data. |
 
 ## See Also
 

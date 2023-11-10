@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldseq/insert_next_number/
 Gets or sets whether to insert the next sequence number for the specified item.
 
 
+```python
+@property
+def insert_next_number(self) -> bool:
+    ...
+
+@insert_next_number.setter
+def insert_next_number(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows create numbering using SEQ fields.

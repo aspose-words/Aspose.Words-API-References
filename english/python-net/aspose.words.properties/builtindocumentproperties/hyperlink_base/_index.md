@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/hyperlink_bas
 
 Specifies the base string used for evaluating relative hyperlinks in this document.
 
+
+```python
+@property
+def hyperlink_base(self) -> str:
+    ...
+
+@hyperlink_base.setter
+def hyperlink_base(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words does not use this property.
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fonts/fontinfo/charset/
 Gets or sets the character set for the font.
 
 
+```python
+@property
+def charset(self) -> int:
+    ...
+
+@charset.setter
+def charset(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access and print details of each font in a document.

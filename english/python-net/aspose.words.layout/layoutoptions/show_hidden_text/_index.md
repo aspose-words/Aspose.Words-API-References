@@ -15,6 +15,20 @@ Gets or sets indication of whether hidden text in the document is rendered.
 Default is ``False``.
 
 
+
+```python
+@property
+def show_hidden_text(self) -> bool:
+    ...
+
+@show_hidden_text.setter
+def show_hidden_text(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This property affects all hidden content, not just text.
 
 

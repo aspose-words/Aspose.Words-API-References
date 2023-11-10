@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/right_indent/
 Gets or sets the value (in points) that represents the right indent for paragraph.
 
 
+```python
+@property
+def right_indent(self) -> float:
+    ...
+
+@right_indent.setter
+def right_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure paragraph formatting to create off-center text.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldnoteref/insert_hyperlink/
 Gets or sets whether to insert a hyperlink to the bookmarked paragraph.
 
 
+```python
+@property
+def insert_hyperlink(self) -> bool:
+    ...
+
+@insert_hyperlink.setter
+def insert_hyperlink(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert NOTEREF fields, and modify their appearance.

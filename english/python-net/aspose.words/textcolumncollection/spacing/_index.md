@@ -13,6 +13,20 @@ url: /python-net/aspose.words/textcolumncollection/spacing/
 
 When columns are evenly spaced, gets or sets the amount of space between each column in points.
 
+
+```python
+@property
+def spacing(self) -> float:
+    ...
+
+@spacing.setter
+def spacing(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Has effect only when [TextColumnCollection.evenly_spaced](../evenly_spaced/) is set to ``True``.
 
 

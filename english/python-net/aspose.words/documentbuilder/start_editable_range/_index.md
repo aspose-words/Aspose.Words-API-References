@@ -19,6 +19,8 @@ def start_editable_range(self):
     ...
 ```
 
+### Remarks
+
 Editable range in a document can overlap and span any range. To create a valid editable range you need to
 call both [DocumentBuilder.start_editable_range()](./#default) and [DocumentBuilder.end_editable_range()](../end_editable_range/#default)
 or [DocumentBuilder.end_editable_range()](../end_editable_range/#editablerangestart) methods.

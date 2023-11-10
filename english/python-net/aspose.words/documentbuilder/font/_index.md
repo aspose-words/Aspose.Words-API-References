@@ -13,6 +13,16 @@ url: /python-net/aspose.words/documentbuilder/font/
 
 Returns an object that represents current font formatting properties.
 
+
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
+### Remarks
+
 Use [DocumentBuilder.font](./) to access and modify font formatting properties.
 
 Specify font formatting before inserting text.

@@ -21,8 +21,8 @@ def __init__(self, codepoints: List[int], glyphs: List[aspose.words.shaping.Glyp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| codepoints | List[int] |  |
-| glyphs | List[[Glyph](../../glyph/)] |  |
+| codepoints | List[int] | Array of Unicode points composing a grapheme. |
+| glyphs | List[[Glyph](../../glyph/)] | Array of [Glyph](../../glyph/)\> composing a grapheme. |
 
 ### See Also
 

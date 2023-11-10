@@ -15,6 +15,17 @@ Gets or sets the color that's applied to the background of the [Shading](../) ob
 
 
 
+```python
+@property
+def background_pattern_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@background_pattern_color.setter
+def background_pattern_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to decorate text with borders and shading.

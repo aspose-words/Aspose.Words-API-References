@@ -15,6 +15,17 @@ Specifies currently selected value in this list.
 Null value allowed, meaning that no currently selected entry is associated with this list item collection.
 
 
+```python
+@property
+def selected_value(self) -> aspose.words.markup.SdtListItem:
+    ...
+
+@selected_value.setter
+def selected_value(self, value: aspose.words.markup.SdtListItem):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with drop down-list structured document tags.

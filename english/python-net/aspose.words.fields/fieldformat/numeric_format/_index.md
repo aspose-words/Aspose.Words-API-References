@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldformat/numeric_format/
 Gets or sets a formatting that is applied to a numeric field result. Corresponds to the \\# switch.
 
 
+```python
+@property
+def numeric_format(self) -> str:
+    ...
+
+@numeric_format.setter
+def numeric_format(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format field results.

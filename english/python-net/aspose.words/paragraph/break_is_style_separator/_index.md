@@ -15,6 +15,13 @@ True if this paragraph break is a Style Separator. A style separator allows one
 paragraph to consist of parts that have different paragraph styles.
 
 
+```python
+@property
+def break_is_style_separator(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to write text to the same line as a TOC heading and have it not show up in the TOC.

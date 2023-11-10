@@ -15,6 +15,17 @@ Gets or sets the text displayed if the comparison expression is ``False``.
 
 
 
+```python
+@property
+def false_text(self) -> str:
+    ...
+
+@false_text.setter
+def false_text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an IF field.

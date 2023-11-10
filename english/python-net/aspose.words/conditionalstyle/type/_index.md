@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstyle/type/
 Gets table area to which this conditional style relates.
 
 
+```python
+@property
+def type(self) -> aspose.words.ConditionalStyleType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

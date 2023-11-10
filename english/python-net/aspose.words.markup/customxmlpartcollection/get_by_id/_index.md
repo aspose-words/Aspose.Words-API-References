@@ -21,7 +21,7 @@ def get_by_id(self, id: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | str |  |
+| id | str | Case-sensitive string that identifies the custom XML part. |
 
 ### Returns
 

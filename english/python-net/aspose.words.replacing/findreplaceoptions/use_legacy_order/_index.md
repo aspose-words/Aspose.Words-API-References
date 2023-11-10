@@ -16,6 +16,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def use_legacy_order(self) -> bool:
+    ...
+
+@use_legacy_order.setter
+def use_legacy_order(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

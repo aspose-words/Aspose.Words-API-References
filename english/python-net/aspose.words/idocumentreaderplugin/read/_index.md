@@ -16,15 +16,15 @@ Reads the data from the specified stream into the [Document](../../document/) in
 
 
 ```python
-def read(self, src: BytesIO, load_options: aspose.words.loading.LoadOptions, document: aspose.words.Document):
+def read(self, src: io.BytesIO, load_options: aspose.words.loading.LoadOptions, document: aspose.words.Document):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | BytesIO |  |
-| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) |  |
-| document | [Document](../../document/) |  |
+| src | io.BytesIO | The source stream to read the document from. |
+| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) | An additional load options to load the document. |
+| document | [Document](../../document/) | The instance of the [Document](../../document/) class to read the data to.  If the instance contains some content, it will be overridden by the data from the source stream |
 
 ### See Also
 

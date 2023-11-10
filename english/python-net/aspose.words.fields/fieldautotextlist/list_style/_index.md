@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldautotextlist/list_style/
 Gets or sets the name of the style on which the list to contain entries is based.
 
 
+```python
+@property
+def list_style(self) -> str:
+    ...
+
+@list_style.setter
+def list_style(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use an AUTOTEXTLIST field to select from a list of AutoText entries.

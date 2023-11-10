@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/ichartdatapoint/invert_if_negative/
 Specifies whether the parent element shall inverts its colors if the value is negative.
 
 
+```python
+@property
+def invert_if_negative(self) -> bool:
+    ...
+
+@invert_if_negative.setter
+def invert_if_negative(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with data points on a line chart.

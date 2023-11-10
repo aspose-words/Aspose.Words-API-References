@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/fixedpagesaveoptions/color_mode/
 
 Gets or sets a value determining how colors are rendered.
 
+
+```python
+@property
+def color_mode(self) -> aspose.words.saving.ColorMode:
+    ...
+
+@color_mode.setter
+def color_mode(self, value: aspose.words.saving.ColorMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ColorMode.NORMAL](../../colormode/#NORMAL).
 
 

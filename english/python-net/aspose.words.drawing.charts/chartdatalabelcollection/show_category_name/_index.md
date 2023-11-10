@@ -15,6 +15,20 @@ Allows to specify whether category name is to be displayed for the data labels o
 Default value is ``False``.
 
 
+
+```python
+@property
+def show_category_name(self) -> bool:
+    ...
+
+@show_category_name.setter
+def show_category_name(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.show_category_name](../../chartdatalabel/show_category_name/) property.
 

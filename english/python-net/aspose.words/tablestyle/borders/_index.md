@@ -14,6 +14,13 @@ url: /python-net/aspose.words/tablestyle/borders/
 Gets the collection of default cell borders for the style.
 
 
+```python
+@property
+def borders(self) -> aspose.words.BorderCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create custom style settings for the table.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldinfo/info_type/
 Gets or sets the type of the document property to insert.
 
 
+```python
+@property
+def info_type(self) -> str:
+    ...
+
+@info_type.setter
+def info_type(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with INFO fields.

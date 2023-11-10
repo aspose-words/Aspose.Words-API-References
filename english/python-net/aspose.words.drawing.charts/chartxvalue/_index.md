@@ -14,6 +14,8 @@ url: /python-net/aspose.words.drawing.charts/chartxvalue/
 Represents an X value for a chart series.
 
 
+### Remarks
+
 This class contains a number of static methods for creating an X value of a particular type. The
 [ChartXValue.value_type](./value_type/) property allows you to determine the type of an existing X value.
 
@@ -41,7 +43,7 @@ All non-null X values of a chart series must be of the same [ChartXValueType](..
 |[ from_double(value)](./from_double/#float) | Creates a [ChartXValue](./) instance of the [ChartXValueType.DOUBLE](../chartxvaluetype/#DOUBLE) type. |
 |[ from_multilevel_value(value)](./from_multilevel_value/#chartmultilevelvalue) | Creates a [ChartXValue](./) instance of the [ChartXValueType.MULTILEVEL](../chartxvaluetype/#MULTILEVEL) type. |
 |[ from_string(value)](./from_string/#str) | Creates a [ChartXValue](./) instance of the [ChartXValueType.STRING](../chartxvaluetype/#STRING) type. |
-|[ from_time_span(value)](./from_time_span/#unknown) | Creates a [ChartXValue](./) instance of the [ChartXValueType.TIME](../chartxvaluetype/#TIME) type. |
+|[ from_time_span(value)](./from_time_span/#timespan) | Creates a [ChartXValue](./) instance of the [ChartXValueType.TIME](../chartxvaluetype/#TIME) type. |
 
 ### See Also
 

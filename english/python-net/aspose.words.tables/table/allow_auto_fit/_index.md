@@ -13,6 +13,20 @@ url: /python-net/aspose.words.tables/table/allow_auto_fit/
 
 Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents.
 
+
+```python
+@property
+def allow_auto_fit(self) -> bool:
+    ...
+
+@allow_auto_fit.setter
+def allow_auto_fit(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``True``.
 
 

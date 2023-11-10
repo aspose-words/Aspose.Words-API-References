@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 You do not create instances of this class directly. 
 Use the [DocumentBase.font_infos](../../aspose.words/documentbase/font_infos/) property to access the collection of fonts 
 defined in a document.

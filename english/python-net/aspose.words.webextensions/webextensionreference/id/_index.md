@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionreference/id/
 Identifier associated with the web extension within a catalog provider.
 
 
+```python
+@property
+def id(self) -> str:
+    ...
+
+@id.setter
+def id(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

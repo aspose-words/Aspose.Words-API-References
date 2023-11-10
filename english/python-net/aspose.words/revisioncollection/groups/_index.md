@@ -14,6 +14,13 @@ url: /python-net/aspose.words/revisioncollection/groups/
 Collection of revision groups.
 
 
+```python
+@property
+def groups(self) -> aspose.words.RevisionGroupCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a document's collection of revisions.

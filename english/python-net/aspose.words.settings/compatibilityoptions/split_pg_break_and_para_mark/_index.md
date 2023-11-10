@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/split_pg_break_and_p
 Always Move Paragraph Mark to Page after a Page Break.
 
 
+```python
+@property
+def split_pg_break_and_para_mark(self) -> bool:
+    ...
+
+@split_pg_break_and_para_mark.setter
+def split_pg_break_and_para_mark(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

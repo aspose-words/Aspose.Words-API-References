@@ -15,6 +15,20 @@ Allows to specify that the document loading process should match a specific MS W
 Default value is [MsWordVersion.WORD2019](../../../aspose.words.settings/mswordversion/#WORD2019)
 
 
+
+```python
+@property
+def msw_version(self) -> aspose.words.settings.MsWordVersion:
+    ...
+
+@msw_version.setter
+def msw_version(self, value: aspose.words.settings.MsWordVersion):
+    ...
+
+```
+
+### Remarks
+
 Different Word versions may handle certain aspects of document content and formatting slightly differently
 during the loading process, which may result in minor differences in Document Object Model.
 

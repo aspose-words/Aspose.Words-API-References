@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.content_status property
 linktitle: content_status property
 articleTitle: content_status property
 second_title: Aspose.Words for Python
-description: "BuiltInDocumentProperties.content_status property. Gets or sets the Aspose.Words.Properties.PropertyName.ContentStatus of the document."
+description: "BuiltInDocumentProperties.content_status property. Gets or sets the content status of the document."
 type: docs
 weight: 90
 url: /python-net/aspose.words.properties/builtindocumentproperties/content_status/
@@ -11,9 +11,19 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/content_statu
 
 ## BuiltInDocumentProperties.content_status property
 
-Gets or sets the Aspose.Words.Properties.PropertyName.ContentStatus of the document.
+Gets or sets the content status of the document.
 
 
+```python
+@property
+def content_status(self) -> str:
+    ...
+
+@content_status.setter
+def content_status(self, value: str):
+    ...
+
+```
 
 ### Examples
 

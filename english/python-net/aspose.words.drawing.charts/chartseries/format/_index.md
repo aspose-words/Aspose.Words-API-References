@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/format/
 Provides access to fill and line formatting of the series.
 
 
+```python
+@property
+def format(self) -> aspose.words.drawing.charts.ChartFormat:
+    ...
+
+```
+
 ### Examples
 
 Sows how to set series color.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionbinding/app_ref/
 Specifies the binding key used to map the binding entry in this list with the bound data in the document.
 
 
+```python
+@property
+def app_ref(self) -> str:
+    ...
+
+@app_ref.setter
+def app_ref(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.webextensions](../../)

@@ -21,7 +21,9 @@ def set_text(self, text: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | str |  |
+| text | str | The new text of the comment. |
+
+### Remarks
 
 This method allows to quickly set text of a comment from a string. The string can contain
 paragraph breaks, this will create paragraphs of text in the comment accordingly.

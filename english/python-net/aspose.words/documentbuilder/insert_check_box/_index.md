@@ -21,9 +21,11 @@ def insert_check_box(self, name: str, checked_value: bool, size: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| checked_value | bool |  |
-| size | int |  |
+| name | str | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
+| checked_value | bool | Checked status of the checkbox form field. |
+| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
+
+### Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
@@ -47,10 +49,12 @@ def insert_check_box(self, name: str, default_value: bool, checked_value: bool, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| default_value | bool |  |
-| checked_value | bool |  |
-| size | int |  |
+| name | str | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
+| default_value | bool | Default value of the checkbox form field. |
+| checked_value | bool | Current checked status of the checkbox form field. |
+| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
+
+### Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 

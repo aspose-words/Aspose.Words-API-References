@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/auto_space_like_word
 Emulate Word 95 Full-Width Character Spacing.
 
 
+```python
+@property
+def auto_space_like_word95(self) -> bool:
+    ...
+
+@auto_space_like_word95.setter
+def auto_space_like_word95(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

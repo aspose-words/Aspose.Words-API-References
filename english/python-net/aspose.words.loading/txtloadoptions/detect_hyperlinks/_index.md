@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def detect_hyperlinks(self) -> bool:
+    ...
+
+@detect_hyperlinks.setter
+def detect_hyperlinks(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to read and display hyperlinks.

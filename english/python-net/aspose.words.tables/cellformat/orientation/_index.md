@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/cellformat/orientation/
 Returns or sets the orientation of text in a table cell.
 
 
+```python
+@property
+def orientation(self) -> aspose.words.TextOrientation:
+    ...
+
+@orientation.setter
+def orientation(self, value: aspose.words.TextOrientation):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

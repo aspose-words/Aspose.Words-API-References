@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/postal_address/
 Barcode postal address.
 
 
+```python
+@property
+def postal_address(self) -> str:
+    ...
+
+@postal_address.setter
+def postal_address(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -31,7 +31,7 @@ def __init__(self, priority: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| priority | int |  |
+| priority | int | Font source priority. See the [FontSourceBase.priority](../../fontsourcebase/priority/) property description for more information. |
 
 ## See Also
 

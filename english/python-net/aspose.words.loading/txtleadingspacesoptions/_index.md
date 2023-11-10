@@ -19,9 +19,9 @@ Specifies available options for leading space handling during import from [LoadF
 
 | Name | Description |
 | --- | --- |
-| CONVERT_TO_INDENT |  |
-| TRIM |  |
-| PRESERVE |  |
+| CONVERT_TO_INDENT | Leading spaces are removed and converted to left indent. |
+| TRIM | Leading spaces are trimmed |
+| PRESERVE | Leading spaces are preserved. |
 
 ### Examples
 

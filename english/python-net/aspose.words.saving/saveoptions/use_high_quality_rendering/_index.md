@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/saveoptions/use_high_quality_rendering/
 
 Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
 
+
+```python
+@property
+def use_high_quality_rendering(self) -> bool:
+    ...
+
+@use_high_quality_rendering.setter
+def use_high_quality_rendering(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 This property is used when the document is exported to image formats:
 [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP),

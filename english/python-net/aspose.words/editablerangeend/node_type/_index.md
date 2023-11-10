@@ -15,6 +15,13 @@ Returns [NodeType.EDITABLE_RANGE_END](../../nodetype/#EDITABLE_RANGE_END).
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with an editable range.

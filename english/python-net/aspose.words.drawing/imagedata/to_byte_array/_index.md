@@ -19,6 +19,8 @@ def to_byte_array(self):
     ...
 ```
 
+### Remarks
+
 If the image is linked, downloads the image every time it is called.
 
 

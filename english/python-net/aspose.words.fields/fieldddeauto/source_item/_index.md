@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldddeauto/source_item/
 Gets or sets the portion of the source file that's being linked.
 
 
+```python
+@property
+def source_item(self) -> str:
+    ...
+
+@source_item.setter
+def source_item(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/level/
 Returns the nesting level for the region.
 
 
+```python
+@property
+def level(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify mail merge regions.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words/document/package_custom_parts/
 
 Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships".
 
+
+```python
+@property
+def package_custom_parts(self) -> aspose.words.markup.CustomPartCollection:
+    ...
+
+@package_custom_parts.setter
+def package_custom_parts(self, value: aspose.words.markup.CustomPartCollection):
+    ...
+
+```
+
+### Remarks
+
 Do not confuse these custom parts with Custom XML Data. If you need to access Custom XML parts,
 use the [Document.custom_xml_parts](../custom_xml_parts/) property.
 

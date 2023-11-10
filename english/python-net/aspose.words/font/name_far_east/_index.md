@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/name_far_east/
 Returns or sets an East Asian font name.
 
 
+```python
+@property
+def name_far_east(self) -> str:
+    ...
+
+@name_far_east.setter
+def name_far_east(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert and format text in a Far East language.

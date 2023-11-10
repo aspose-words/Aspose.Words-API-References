@@ -20,6 +20,8 @@ def break_forward_link(self):
     ...
 ```
 
+### Remarks
+
 [TextBox.break_forward_link()](./#default) doesn't break all other links in the current sequence of shapes.
 For example: 1-2-3-4 sequence and [TextBox.break_forward_link()](./#default) at the 2-nd textbox will create
 two sequences 1-2, 3-4.

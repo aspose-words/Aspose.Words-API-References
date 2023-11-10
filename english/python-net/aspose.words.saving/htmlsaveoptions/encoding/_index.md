@@ -16,6 +16,20 @@ Default value is ``new UTF8Encoding(false)`` (UTF-8 without BOM).
 
 
 
+```python
+@property
+def encoding(self) -> str:
+    ...
+
+@encoding.setter
+def encoding(self, value: str):
+    ...
+
+```
+
+### Remarks
+
+
 
 
 ### Examples

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/light1/
 Specifies color Light 1.
 
 
+```python
+@property
+def light1(self) -> aspose.pydrawing.Color:
+    ...
+
+@light1.setter
+def light1(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

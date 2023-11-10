@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/outline_level/
 Specifies the outline level of the paragraph in the document.
 
 
+```python
+@property
+def outline_level(self) -> aspose.words.OutlineLevel:
+    ...
+
+@outline_level.setter
+def outline_level(self, value: aspose.words.OutlineLevel):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure paragraph outline levels to create collapsible text.

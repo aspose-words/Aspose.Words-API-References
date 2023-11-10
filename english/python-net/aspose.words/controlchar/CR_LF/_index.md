@@ -15,6 +15,13 @@ Carriage return followed by line feed character: "\\x000d\\x000a" or "\\r\\n".
 Not used as such in Microsoft Word documents, but commonly used in text files for paragraph breaks.
 
 
+```python
+@property
+def CR_LF(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

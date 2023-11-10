@@ -14,6 +14,20 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/gallery/
 Specifies the first-level categorization for the building block for the purposes of 
 classification or user interface sorting.
 
+
+```python
+@property
+def gallery(self) -> aspose.words.buildingblocks.BuildingBlockGallery:
+    ...
+
+@gallery.setter
+def gallery(self, value: aspose.words.buildingblocks.BuildingBlockGallery):
+    ...
+
+```
+
+### Remarks
+
 Building blocks in Microsoft Word user interface are arranged 
 into Galleries. Each [BuildingBlock.gallery](./) can have multiple Categories. Each block within
 a [BuildingBlock.category](../category/) has a [BuildingBlock.name](../name/).

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 According to this rule Aspose.Words evaluates all the related fields in [FontInfo](../fontinfo/) (Panose, Sig etc) for
 the missing font and finds the closest match among the available font sources. If [FontInfo](../fontinfo/) is not
 available for the missing font then nothing will be done.

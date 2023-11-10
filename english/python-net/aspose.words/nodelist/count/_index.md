@@ -14,6 +14,13 @@ url: /python-net/aspose.words/nodelist/count/
 Gets the number of nodes in the list.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use XPaths to navigate a NodeList.

@@ -13,6 +13,16 @@ url: /python-net/aspose.words/document/protection_type/
 
 Gets the currently active document protection type.
 
+
+```python
+@property
+def protection_type(self) -> aspose.words.ProtectionType:
+    ...
+
+```
+
+### Remarks
+
 This property allows to retrieve the currently set document protection type.
 To change the document protection type use the [Document.protect()](../protect/#protectiontype_str)
 and [Document.unprotect()](../unprotect/#default) methods.

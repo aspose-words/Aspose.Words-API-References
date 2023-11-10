@@ -21,18 +21,18 @@ def __init__(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | Name of the file to extract the text from. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
-| System.Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
-| System.IO.IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
-| System.ArgumentException | The name of the file cannot be null or empty string. |
+| RuntimeError (Proxy error(UnsupportedFileFormatException)) | The document format is not recognized or not supported. |
+| RuntimeError (Proxy error(FileCorruptedException)) | The document appears to be corrupted and cannot be loaded. |
+| RuntimeError (Proxy error(Exception)) | There is a problem with the document and it should be reported to Aspose.Words developers. |
+| RuntimeError (Proxy error(IOException)) | There is an input/output exception. |
+| RuntimeError (Proxy error(IncorrectPasswordException)) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| RuntimeError (Proxy error(ArgumentException)) | The name of the file cannot be null or empty string. |
 
 ## PlainTextDocument(file_name, load_options) {#str_loadoptions}
 
@@ -46,8 +46,10 @@ def __init__(self, file_name: str, load_options: aspose.words.loading.LoadOption
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) |  |
+| file_name | str | Name of the file to extract the text from. |
+| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+
+### Remarks
 
 
 
@@ -56,12 +58,12 @@ def __init__(self, file_name: str, load_options: aspose.words.loading.LoadOption
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
-| System.Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
-| System.IO.IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
-| System.ArgumentException | The name of the file cannot be null or empty string. |
+| RuntimeError (Proxy error(UnsupportedFileFormatException)) | The document format is not recognized or not supported. |
+| RuntimeError (Proxy error(FileCorruptedException)) | The document appears to be corrupted and cannot be loaded. |
+| RuntimeError (Proxy error(Exception)) | There is a problem with the document and it should be reported to Aspose.Words developers. |
+| RuntimeError (Proxy error(IOException)) | There is an input/output exception. |
+| RuntimeError (Proxy error(IncorrectPasswordException)) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| RuntimeError (Proxy error(ArgumentException)) | The name of the file cannot be null or empty string. |
 
 ## PlainTextDocument(stream) {#bytesio}
 
@@ -69,13 +71,15 @@ Creates a plain text document from a stream. Automatically detects the file form
 
 
 ```python
-def __init__(self, stream: BytesIO):
+def __init__(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | The stream where to extract the text from. |
+
+### Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
@@ -86,14 +90,14 @@ The document must be stored at the beginning of the stream. The stream must supp
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
-| System.Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
-| System.IO.IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
-| System.ArgumentNullException | The stream cannot be null. |
-| System.NotSupportedException | The stream does not support reading or seeking. |
-| System.ObjectDisposedException | The stream is a disposed object. |
+| RuntimeError (Proxy error(UnsupportedFileFormatException)) | The document format is not recognized or not supported. |
+| RuntimeError (Proxy error(FileCorruptedException)) | The document appears to be corrupted and cannot be loaded. |
+| RuntimeError (Proxy error(Exception)) | There is a problem with the document and it should be reported to Aspose.Words developers. |
+| RuntimeError (Proxy error(IOException)) | There is an input/output exception. |
+| RuntimeError (Proxy error(IncorrectPasswordException)) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| RuntimeError (Proxy error(ArgumentNullException)) | The stream cannot be null. |
+| RuntimeError (Proxy error(NotSupportedException)) | The stream does not support reading or seeking. |
+| RuntimeError (Proxy error(ObjectDisposedException)) | The stream is a disposed object. |
 
 ## PlainTextDocument(stream, load_options) {#bytesio_loadoptions}
 
@@ -101,14 +105,16 @@ Creates a plain text document from a stream. Allows to specify additional option
 
 
 ```python
-def __init__(self, stream: BytesIO, load_options: aspose.words.loading.LoadOptions):
+def __init__(self, stream: io.BytesIO, load_options: aspose.words.loading.LoadOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
-| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) |  |
+| stream | io.BytesIO | The stream where to extract the text from. |
+| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+
+### Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
@@ -119,14 +125,14 @@ The document must be stored at the beginning of the stream. The stream must supp
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
-| System.Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
-| System.IO.IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
-| System.ArgumentNullException | The stream cannot be null. |
-| System.NotSupportedException | The stream does not support reading or seeking. |
-| System.ObjectDisposedException | The stream is a disposed object. |
+| RuntimeError (Proxy error(UnsupportedFileFormatException)) | The document format is not recognized or not supported. |
+| RuntimeError (Proxy error(FileCorruptedException)) | The document appears to be corrupted and cannot be loaded. |
+| RuntimeError (Proxy error(Exception)) | There is a problem with the document and it should be reported to Aspose.Words developers. |
+| RuntimeError (Proxy error(IOException)) | There is an input/output exception. |
+| RuntimeError (Proxy error(IncorrectPasswordException)) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| RuntimeError (Proxy error(ArgumentNullException)) | The stream cannot be null. |
+| RuntimeError (Proxy error(NotSupportedException)) | The stream does not support reading or seeking. |
+| RuntimeError (Proxy error(ObjectDisposedException)) | The stream is a disposed object. |
 
 ## Examples
 

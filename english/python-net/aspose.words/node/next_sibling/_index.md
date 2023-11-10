@@ -13,6 +13,16 @@ url: /python-net/aspose.words/node/next_sibling/
 
 Gets the node immediately following this node.
 
+
+```python
+@property
+def next_sibling(self) -> aspose.words.Node:
+    ...
+
+```
+
+### Remarks
+
 If there is no next node, a ``None`` is returned.
 
 

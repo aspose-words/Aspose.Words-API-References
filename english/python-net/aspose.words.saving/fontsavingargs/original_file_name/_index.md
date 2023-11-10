@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/fontsavingargs/original_file_name/
 
 Gets the original font file name with an extension.
 
+
+```python
+@property
+def original_file_name(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 This property contains the original file name of the current font if it is known. Otherwise it can be an empty string.
 
 

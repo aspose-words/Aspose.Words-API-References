@@ -5,7 +5,7 @@ articleTitle: WarningInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving"
 type: docs
-weight: 1330
+weight: 1340
 url: /python-net/aspose.words/warninginfo/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 
 
+
+### Remarks
 
 You do not create instances of this class. Objects of this class are created
 and passed by Aspose.Words to the [IWarningCallback.warning()](../iwarningcallback/warning/#warninginfo) method.

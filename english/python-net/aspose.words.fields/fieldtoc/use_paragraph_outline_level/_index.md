@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/use_paragraph_outline_level/
 Gets or sets whether to use the applied paragraph outline level.
 
 
+```python
+@property
+def use_paragraph_outline_level(self) -> bool:
+    ...
+
+@use_paragraph_outline_level.setter
+def use_paragraph_outline_level(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

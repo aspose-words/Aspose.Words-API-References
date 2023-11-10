@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/bottom_margin/
 Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.
 
 
+```python
+@property
+def bottom_margin(self) -> float:
+    ...
+
+@bottom_margin.setter
+def bottom_margin(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.

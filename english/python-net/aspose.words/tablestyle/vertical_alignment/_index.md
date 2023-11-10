@@ -13,6 +13,20 @@ url: /python-net/aspose.words/tablestyle/vertical_alignment/
 
 Specifies the vertical alignment for the cells.
 
+
+```python
+@property
+def vertical_alignment(self) -> aspose.words.tables.CellVerticalAlignment:
+    ...
+
+@vertical_alignment.setter
+def vertical_alignment(self, value: aspose.words.tables.CellVerticalAlignment):
+    ...
+
+```
+
+### Remarks
+
 The default value is [CellVerticalAlignment.TOP](../../../aspose.words.tables/cellverticalalignment/#TOP).
 
 

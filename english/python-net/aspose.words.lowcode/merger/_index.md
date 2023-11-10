@@ -14,6 +14,8 @@ url: /python-net/aspose.words.lowcode/merger/
 Represents a group of methods intended to merge a variety of different types of documents into a single output document.
 
 
+### Remarks
+
 The specified input and output files or streams, along with the desired merge and save options,
 are used to merge the given input documents into a single output document.
 

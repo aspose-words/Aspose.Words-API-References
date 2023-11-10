@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 Font substitution process consists of several rules which are checked one by one in specific order.
 If the first rule can't resolve the font then second rule is checked and so on.
 

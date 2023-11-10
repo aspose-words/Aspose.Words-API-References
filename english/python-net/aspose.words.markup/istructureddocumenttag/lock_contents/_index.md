@@ -15,6 +15,17 @@ When set to true, this property will prohibit a user from editing the contents o
 
 
 
+```python
+@property
+def lock_contents(self) -> bool:
+    ...
+
+@lock_contents.setter
+def lock_contents(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

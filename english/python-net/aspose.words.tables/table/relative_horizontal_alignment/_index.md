@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/relative_horizontal_alignment/
 Gets or sets floating table relative horizontal alignment.
 
 
+```python
+@property
+def relative_horizontal_alignment(self) -> aspose.words.drawing.HorizontalAlignment:
+    ...
+
+@relative_horizontal_alignment.setter
+def relative_horizontal_alignment(self, value: aspose.words.drawing.HorizontalAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how set the location of floating tables.

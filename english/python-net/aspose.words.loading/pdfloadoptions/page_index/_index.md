@@ -14,6 +14,17 @@ url: /python-net/aspose.words.loading/pdfloadoptions/page_index/
 Gets or sets the 0-based index of the first page to read. Default is 0.
 
 
+```python
+@property
+def page_index(self) -> int:
+    ...
+
+@page_index.setter
+def page_index(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

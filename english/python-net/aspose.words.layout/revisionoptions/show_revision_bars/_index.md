@@ -16,6 +16,17 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def show_revision_bars(self) -> bool:
+    ...
+
+@show_revision_bars.setter
+def show_revision_bars(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.

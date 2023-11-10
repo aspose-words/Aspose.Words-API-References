@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldta/page_range_bookmark_name/
 Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number.
 
 
+```python
+@property
+def page_range_bookmark_name(self) -> str:
+    ...
+
+@page_range_bookmark_name.setter
+def page_range_bookmark_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

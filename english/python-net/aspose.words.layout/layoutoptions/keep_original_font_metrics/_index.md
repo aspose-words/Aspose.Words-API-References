@@ -16,6 +16,17 @@ Default is ``True``.
 
 
 
+```python
+@property
+def keep_original_font_metrics(self) -> bool:
+    ...
+
+@keep_original_font_metrics.setter
+def keep_original_font_metrics(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.layout](../../)

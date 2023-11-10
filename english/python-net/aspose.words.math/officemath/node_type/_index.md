@@ -15,6 +15,13 @@ Returns [NodeType.OFFICE_MATH](../../../aspose.words/nodetype/#OFFICE_MATH).
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set office math display formatting.

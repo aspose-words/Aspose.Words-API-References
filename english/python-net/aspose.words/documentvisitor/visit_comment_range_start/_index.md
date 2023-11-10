@@ -21,7 +21,7 @@ def visit_comment_range_start(self, comment_range_start: aspose.words.CommentRan
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comment_range_start | [CommentRangeStart](../../commentrangestart/) |  |
+| comment_range_start | [CommentRangeStart](../../commentrangestart/) | The object that is being visited. |
 
 ### Returns
 

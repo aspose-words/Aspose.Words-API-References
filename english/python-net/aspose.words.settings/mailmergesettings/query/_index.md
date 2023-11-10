@@ -16,6 +16,17 @@ return the set of records which shall be imported into the document when the mai
 The default value is an empty string.
 
 
+```python
+@property
+def query(self) -> str:
+    ...
+
+@query.setter
+def query(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

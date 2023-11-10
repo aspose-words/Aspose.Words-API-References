@@ -13,6 +13,16 @@ url: /python-net/aspose.words/buildversioninfo/version/
 
 Gets the product version.
 
+
+```python
+@property
+def version(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 The product version is in the "Major.Minor.Hotfix.0" format.
 
 

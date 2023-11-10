@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/keywords/
 Gets or sets the document keywords.
 
 
+```python
+@property
+def keywords(self) -> str:
+    ...
+
+@keywords.setter
+def keywords(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties in the "Description" category.

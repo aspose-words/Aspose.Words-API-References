@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/distance_left/
 
 Returns or sets the distance (in points) between the document text and the left edge of the shape.
 
+
+```python
+@property
+def distance_left(self) -> float:
+    ...
+
+@distance_left.setter
+def distance_left(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.

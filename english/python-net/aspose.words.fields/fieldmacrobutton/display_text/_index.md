@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmacrobutton/display_text/
 Gets or sets the text to appear as the "button" that is selected to run the macro or command.
 
 
+```python
+@property
+def display_text(self) -> str:
+    ...
+
+@display_text.setter
+def display_text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.

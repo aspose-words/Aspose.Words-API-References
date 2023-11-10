@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludepicture/source_full_name/
 Gets or sets the location of the picture using an IRI.
 
 
+```python
+@property
+def source_full_name(self) -> str:
+    ...
+
+@source_full_name.setter
+def source_full_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.

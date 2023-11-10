@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/fixedpagesaveoptions/jpeg_quality/
 
 Gets or sets a value determining the quality of the JPEG images inside Html document.
 
+
+```python
+@property
+def jpeg_quality(self) -> int:
+    ...
+
+@jpeg_quality.setter
+def jpeg_quality(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Has effect only when a document contains JPEG images.
 
 Use this property to get or set the quality of the images inside a document when saving in fixed page format.

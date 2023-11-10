@@ -5,7 +5,7 @@ articleTitle: html_version property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.html_version property. Specifies version of HTML standard that should be used when saving the document to HTML or MHTML"
 type: docs
-weight: 340
+weight: 330
 url: /python-net/aspose.words.saving/htmlsaveoptions/html_version/
 ---
 
@@ -15,6 +15,17 @@ Specifies version of HTML standard that should be used when saving the document 
 Default value is [HtmlVersion.XHTML](../../htmlversion/#XHTML).
 
 
+
+```python
+@property
+def html_version(self) -> aspose.words.saving.HtmlVersion:
+    ...
+
+@html_version.setter
+def html_version(self, value: aspose.words.saving.HtmlVersion):
+    ...
+
+```
 
 ### Examples
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/rowformat/height/
 Gets or sets the height of the table row in points.
 
 
+```python
+@property
+def height(self) -> float:
+    ...
+
+@height.setter
+def height(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a formatted table using DocumentBuilder.

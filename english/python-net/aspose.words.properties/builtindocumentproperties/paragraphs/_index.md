@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/paragraphs/
 
 Represents an estimate of the number of paragraphs in the document.
 
+
+```python
+@property
+def paragraphs(self) -> int:
+    ...
+
+@paragraphs.setter
+def paragraphs(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words updates this property when you call [Document.update_word_count()](../../../aspose.words/document/update_word_count/#default).
 
 

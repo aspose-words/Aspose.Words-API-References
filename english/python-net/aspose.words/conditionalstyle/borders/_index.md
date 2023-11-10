@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstyle/borders/
 Gets the collection of default cell borders for the conditional style.
 
 
+```python
+@property
+def borders(self) -> aspose.words.BorderCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

@@ -16,6 +16,17 @@ The default value is [OdsoFieldMappingType.DEFAULT](../../odsofieldmappingtype/#
 
 
 
+```python
+@property
+def type(self) -> aspose.words.settings.OdsoFieldMappingType:
+    ...
+
+@type.setter
+def type(self, value: aspose.words.settings.OdsoFieldMappingType):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.

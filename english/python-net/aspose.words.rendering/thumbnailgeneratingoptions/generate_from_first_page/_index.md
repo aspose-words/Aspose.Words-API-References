@@ -13,6 +13,20 @@ url: /python-net/aspose.words.rendering/thumbnailgeneratingoptions/generate_from
 
 Specifies whether to generate thumbnail from first page of the document or first image.
 
+
+```python
+@property
+def generate_from_first_page(self) -> bool:
+    ...
+
+@generate_from_first_page.setter
+def generate_from_first_page(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default is ``True``, which means thumbnail will be generated from first page of the document.
 If value is ``False`` and there is no image in the document, thumbnail will be generated 
 from first page of the document.

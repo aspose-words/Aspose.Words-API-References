@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listlabel/label_string/
 Gets a string representation of list label.
 
 
+```python
+@property
+def label_string(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to extract the list labels of all paragraphs that are list items.

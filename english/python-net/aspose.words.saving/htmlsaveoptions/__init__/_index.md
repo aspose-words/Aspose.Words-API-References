@@ -36,7 +36,7 @@ def __init__(self, save_format: aspose.words.SaveFormat):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| save_format | [SaveFormat](../../../aspose.words/saveformat/) |  |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB), [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) or [SaveFormat.MOBI](../../../aspose.words/saveformat/#MOBI). |
 
 ## Examples
 

@@ -16,6 +16,17 @@ Can only be [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.

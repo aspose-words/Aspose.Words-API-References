@@ -14,6 +14,17 @@ url: /python-net/aspose.words/documentbuilder/bold/
 True if the font is formatted as bold.
 
 
+```python
+@property
+def bold(self) -> bool:
+    ...
+
+@bold.setter
+def bold(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.

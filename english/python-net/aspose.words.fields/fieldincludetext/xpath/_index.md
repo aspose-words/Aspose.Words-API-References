@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/xpath/
 Gets or sets XPath for the desired portion of the XML file.
 
 
+```python
+@property
+def xpath(self) -> str:
+    ...
+
+@xpath.setter
+def xpath(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

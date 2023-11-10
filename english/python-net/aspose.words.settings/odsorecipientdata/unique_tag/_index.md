@@ -16,6 +16,17 @@ The default value is ``None``.
 
 
 
+```python
+@property
+def unique_tag(self) -> bytes:
+    ...
+
+@unique_tag.setter
+def unique_tag(self, value: bytes):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.

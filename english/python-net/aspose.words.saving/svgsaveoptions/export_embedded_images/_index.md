@@ -15,6 +15,17 @@ Specified whether images should be embedded into SVG document as base64.
 Note setting this flag can significantly increase size of output SVG file.
 
 
+```python
+@property
+def export_embedded_images(self) -> bool:
+    ...
+
+@export_embedded_images.setter
+def export_embedded_images(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.

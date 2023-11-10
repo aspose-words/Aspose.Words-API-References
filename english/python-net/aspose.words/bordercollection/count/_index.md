@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bordercollection/count/
 Gets the number of borders in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how border collections can share elements.

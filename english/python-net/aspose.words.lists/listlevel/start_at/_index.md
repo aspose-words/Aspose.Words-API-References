@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/start_at/
 
 Returns or sets the starting number for this list level.
 
+
+```python
+@property
+def start_at(self) -> int:
+    ...
+
+@start_at.setter
+def start_at(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Default value is 1.
 
 

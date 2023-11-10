@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/width/
 Gets the width of the specified frame, in points.
 
 
+```python
+@property
+def width(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

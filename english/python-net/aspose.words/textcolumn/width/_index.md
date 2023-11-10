@@ -14,6 +14,17 @@ url: /python-net/aspose.words/textcolumn/width/
 Gets or sets the width of the text column in points.
 
 
+```python
+@property
+def width(self) -> float:
+    ...
+
+@width.setter
+def width(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create unevenly spaced columns.

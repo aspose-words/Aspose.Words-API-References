@@ -16,6 +16,17 @@ mapped to the local name of a specific MERGEFIELD field.
 The default value is 0.
 
 
+```python
+@property
+def column(self) -> int:
+    ...
+
+@column.setter
+def column(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.

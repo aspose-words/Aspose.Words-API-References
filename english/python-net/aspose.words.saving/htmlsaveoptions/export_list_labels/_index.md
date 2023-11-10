@@ -5,7 +5,7 @@ articleTitle: export_list_labels property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_list_labels property. Controls how list labels are output to HTML, MHTML or EPUB"
 type: docs
-weight: 200
+weight: 190
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_list_labels/
 ---
 
@@ -15,6 +15,17 @@ Controls how list labels are output to HTML, MHTML or EPUB.
 Default value is [ExportListLabels.AUTO](../../exportlistlabels/#AUTO).
 
 
+
+```python
+@property
+def export_list_labels(self) -> aspose.words.saving.ExportListLabels:
+    ...
+
+@export_list_labels.setter
+def export_list_labels(self, value: aspose.words.saving.ExportListLabels):
+    ...
+
+```
 
 ### Examples
 

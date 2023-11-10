@@ -21,7 +21,7 @@ def visit_run(self, run: aspose.words.Run):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| run | [Run](../../run/) |  |
+| run | [Run](../../run/) | The object that is being visited. |
 
 ### Returns
 

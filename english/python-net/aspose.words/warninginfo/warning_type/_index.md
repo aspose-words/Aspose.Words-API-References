@@ -14,6 +14,13 @@ url: /python-net/aspose.words/warninginfo/warning_type/
 Returns the type of the warning.
 
 
+```python
+@property
+def warning_type(self) -> aspose.words.WarningType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

@@ -3,7 +3,7 @@ title: CompareOptions.ignore_footnotes property
 linktitle: ignore_footnotes property
 articleTitle: ignore_footnotes property
 second_title: Aspose.Words for Python
-description: "CompareOptions.ignore_footnotes property. Specifies whether to compare differences in footnotes and endnotes"
+description: "CompareOptions.ignore_footnotes property. Specifies whether to compare differences in footnotes and endnotes."
 type: docs
 weight: 80
 url: /python-net/aspose.words.comparing/compareoptions/ignore_footnotes/
@@ -12,6 +12,21 @@ url: /python-net/aspose.words.comparing/compareoptions/ignore_footnotes/
 ## CompareOptions.ignore_footnotes property
 
 Specifies whether to compare differences in footnotes and endnotes.
+
+
+```python
+@property
+def ignore_footnotes(self) -> bool:
+    ...
+
+@ignore_footnotes.setter
+def ignore_footnotes(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default footnotes are not ignored.
 
 

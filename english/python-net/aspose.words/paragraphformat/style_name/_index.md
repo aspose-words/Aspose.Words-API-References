@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/style_name/
 Gets or sets the name of the paragraph style applied to this formatting.
 
 
+```python
+@property
+def style_name(self) -> str:
+    ...
+
+@style_name.setter
+def style_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to construct an Aspose.Words document by hand.

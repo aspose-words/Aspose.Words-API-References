@@ -17,6 +17,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 On a series, the [ChartDataLabel](./) object is a member of the [ChartDataLabelCollection](../chartdatalabelcollection/). 
 The [ChartDataLabelCollection](../chartdatalabelcollection/) contains a [ChartDataLabel](./) object for each point. 
 

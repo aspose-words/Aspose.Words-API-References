@@ -14,6 +14,13 @@ url: /python-net/aspose.words/stylecollection/count/
 Gets the number of styles in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a Style to a document's styles collection.

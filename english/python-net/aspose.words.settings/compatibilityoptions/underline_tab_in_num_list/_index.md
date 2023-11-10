@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/underline_tab_in_num
 Underline Following Character Following Numbering.
 
 
+```python
+@property
+def underline_tab_in_num_list(self) -> bool:
+    ...
+
+@underline_tab_in_num_list.setter
+def underline_tab_in_num_list(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

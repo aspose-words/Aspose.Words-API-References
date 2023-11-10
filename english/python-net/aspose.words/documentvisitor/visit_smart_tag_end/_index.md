@@ -21,7 +21,7 @@ def visit_smart_tag_end(self, smart_tag: aspose.words.markup.SmartTag):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| smart_tag | [SmartTag](../../../aspose.words.markup/smarttag/) |  |
+| smart_tag | [SmartTag](../../../aspose.words.markup/smarttag/) | The object that is being visited. |
 
 ### Returns
 

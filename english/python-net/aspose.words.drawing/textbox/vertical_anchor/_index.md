@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/vertical_anchor/
 
 Specifies the vertical alignment of the text within a shape.
 
+
+```python
+@property
+def vertical_anchor(self) -> aspose.words.drawing.TextBoxAnchor:
+    ...
+
+@vertical_anchor.setter
+def vertical_anchor(self, value: aspose.words.drawing.TextBoxAnchor):
+    ...
+
+```
+
+### Remarks
+
 The default value is [TextBoxAnchor.TOP](../../textboxanchor/#TOP).
 
 

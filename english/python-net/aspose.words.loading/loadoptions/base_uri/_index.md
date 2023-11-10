@@ -15,6 +15,20 @@ Gets or sets the string that will be used to resolve relative URIs found in the 
 Can be ``None`` or empty string. Default is ``None``.
 
 
+
+```python
+@property
+def base_uri(self) -> str:
+    ...
+
+@base_uri.setter
+def base_uri(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property is used to resolve relative URIs into absolute in the following cases:
 
 

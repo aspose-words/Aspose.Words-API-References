@@ -15,7 +15,22 @@ Gets or sets a value indicating whether paragraphs with punctuation marks are co
 and should be removed if the [MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS](../../mailmergecleanupoptions/#REMOVE_EMPTY_PARAGRAPHS) option is specified.
 
 
+
+```python
+@property
+def cleanup_paragraphs_with_punctuation_marks(self) -> bool:
+    ...
+
+@cleanup_paragraphs_with_punctuation_marks.setter
+def cleanup_paragraphs_with_punctuation_marks(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``True``.
+
 
 
 Here is the complete list of cleanable punctuation marks:

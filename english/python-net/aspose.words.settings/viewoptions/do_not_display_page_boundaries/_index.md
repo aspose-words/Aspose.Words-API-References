@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/viewoptions/do_not_display_page_boundarie
 Turns off display of the space between the top of the text and the top edge of the page.
 
 
+```python
+@property
+def do_not_display_page_boundaries(self) -> bool:
+    ...
+
+@do_not_display_page_boundaries.setter
+def do_not_display_page_boundaries(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to hide vertical whitespace and headers/footers in view options.

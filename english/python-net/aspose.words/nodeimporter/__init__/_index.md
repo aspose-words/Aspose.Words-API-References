@@ -22,9 +22,9 @@ def __init__(self, src_doc: aspose.words.DocumentBase, dst_doc: aspose.words.Doc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_doc | [DocumentBase](../../documentbase/) |  |
-| dst_doc | [DocumentBase](../../documentbase/) |  |
-| import_format_mode | [ImportFormatMode](../../importformatmode/) |  |
+| src_doc | [DocumentBase](../../documentbase/) | The source document. |
+| dst_doc | [DocumentBase](../../documentbase/) | The destination document that will be the owner of imported nodes. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
 
 ## NodeImporter(src_doc, dst_doc, import_format_mode, import_format_options) {#documentbase_documentbase_importformatmode_importformatoptions}
 
@@ -39,10 +39,10 @@ def __init__(self, src_doc: aspose.words.DocumentBase, dst_doc: aspose.words.Doc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_doc | [DocumentBase](../../documentbase/) |  |
-| dst_doc | [DocumentBase](../../documentbase/) |  |
-| import_format_mode | [ImportFormatMode](../../importformatmode/) |  |
-| import_format_options | [ImportFormatOptions](../../importformatoptions/) |  |
+| src_doc | [DocumentBase](../../documentbase/) | The source document. |
+| dst_doc | [DocumentBase](../../documentbase/) | The destination document that will be the owner of imported nodes. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
+| import_format_options | [ImportFormatOptions](../../importformatoptions/) | Specifies various options to format imported node. |
 
 ## Examples
 

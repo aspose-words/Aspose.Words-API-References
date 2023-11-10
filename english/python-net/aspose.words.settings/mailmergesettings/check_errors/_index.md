@@ -16,6 +16,17 @@ The default value is [MailMergeCheckErrors.DEFAULT](../../mailmergecheckerrors/#
 
 
 
+```python
+@property
+def check_errors(self) -> aspose.words.settings.MailMergeCheckErrors:
+    ...
+
+@check_errors.setter
+def check_errors(self, value: aspose.words.settings.MailMergeCheckErrors):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

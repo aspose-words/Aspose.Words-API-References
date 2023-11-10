@@ -14,6 +14,20 @@ url: /python-net/aspose.words/documentbase/warning_callback/
 Called during various document processing procedures when an issue is detected that might result
 in data or formatting fidelity loss.
 
+
+```python
+@property
+def warning_callback(self) -> aspose.words.IWarningCallback:
+    ...
+
+@warning_callback.setter
+def warning_callback(self, value: aspose.words.IWarningCallback):
+    ...
+
+```
+
+### Remarks
+
 Document may generate warnings at any stage of its existence, so it's important to setup warning callback as
 early as possible to avoid the warnings loss. E.g. such properties as [Document.page_count](../../document/page_count/)
 actually build the document layout which is used later for rendering, and the layout warnings may be lost if

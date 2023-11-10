@@ -14,11 +14,25 @@ url: /python-net/aspose.words/documentbase/page_color/
 Gets or sets the page color of the document. This property is a simpler version of [DocumentBase.background_shape](../background_shape/).
 
 
+
+```python
+@property
+def page_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@page_color.setter
+def page_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 This property provides a simple way to specify a solid page color for the document.
 Setting this property creates and sets an appropriate [DocumentBase.background_shape](../background_shape/).
 
 If the page color is not set (e.g. there is no background shape in the document) returns
-System.Drawing.Color.Empty.
+aspose.pydrawing.Color.empty.
 
 
 

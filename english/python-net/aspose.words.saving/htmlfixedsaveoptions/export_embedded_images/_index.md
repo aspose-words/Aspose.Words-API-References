@@ -15,6 +15,17 @@ Specifies whether images should be embedded into Html document in Base64 format.
 Note setting this flag can significantly increase size of output Html file.
 
 
+```python
+@property
+def export_embedded_images(self) -> bool:
+    ...
+
+@export_embedded_images.setter
+def export_embedded_images(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to determine where to store images when exporting a document to Html.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/dash_style/
 
 Specifies the dot and dash pattern for a stroke.
 
+
+```python
+@property
+def dash_style(self) -> aspose.words.drawing.DashStyle:
+    ...
+
+@dash_style.setter
+def dash_style(self, value: aspose.words.drawing.DashStyle):
+    ...
+
+```
+
+### Remarks
+
 The default value is [DashStyle.SOLID](../../dashstyle/#SOLID).
 
 

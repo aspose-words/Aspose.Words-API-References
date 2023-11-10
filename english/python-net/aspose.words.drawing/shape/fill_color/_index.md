@@ -13,10 +13,25 @@ url: /python-net/aspose.words.drawing/shape/fill_color/
 
 Defines the brush color that fills the closed path of the shape.
 
+
+```python
+@property
+def fill_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@fill_color.setter
+def fill_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 This is a shortcut to the [Fill.color](../../fill/color/) property.
 
 The default value is
-System.Drawing.Color.White.
+aspose.pydrawing.Color.white.
+
 
 
 

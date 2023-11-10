@@ -14,6 +14,13 @@ url: /python-net/aspose.words.buildingblocks/glossarydocument/building_blocks/
 Returns a typed collection that represents all building blocks in the glossary document.
 
 
+```python
+@property
+def building_blocks(self) -> aspose.words.buildingblocks.BuildingBlockCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.buildingblocks](../../)

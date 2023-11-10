@@ -5,7 +5,7 @@ articleTitle: Run class
 second_title: Aspose.Words for Python
 description: "aspose.words.Run class. Represents a run of characters with the same font formatting"
 type: docs
-weight: 1000
+weight: 1010
 url: /python-net/aspose.words/run/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 
 
+
+### Remarks
 
 All text of the document is stored in runs of text.
 
@@ -61,7 +63,7 @@ All text of the document is stored in runs of text.
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
-|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_text()](./get_text/#default) | Gets the text of the run. |
 |[ next_pre_order(root_node)](../node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |

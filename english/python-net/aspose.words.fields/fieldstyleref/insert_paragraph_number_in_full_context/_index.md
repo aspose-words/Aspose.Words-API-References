@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldstyleref/insert_paragraph_number_in_fu
 Gets or sets whether to insert the paragraph number of the referenced paragraph in full context.
 
 
+```python
+@property
+def insert_paragraph_number_in_full_context(self) -> bool:
+    ...
+
+@insert_paragraph_number_in_full_context.setter
+def insert_paragraph_number_in_full_context(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use STYLEREF fields.

@@ -15,6 +15,17 @@ Gets or sets the paper tray (bin) to use for the first page of a section.
 The value is implementation (printer) specific.
 
 
+```python
+@property
+def first_page_tray(self) -> int:
+    ...
+
+@first_page_tray.setter
+def first_page_tray(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

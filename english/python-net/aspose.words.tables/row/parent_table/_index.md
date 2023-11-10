@@ -13,8 +13,13 @@ url: /python-net/aspose.words.tables/row/parent_table/
 
 Returns the immediate parent table of the row.
 
-Equivalent to Aspose.Words.Node.FirstNonMarkupParentNode casted to [Table](../../table/).
 
+```python
+@property
+def parent_table(self) -> aspose.words.tables.Table:
+    ...
+
+```
 
 ### Examples
 

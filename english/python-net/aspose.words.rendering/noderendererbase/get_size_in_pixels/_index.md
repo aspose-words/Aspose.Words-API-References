@@ -21,8 +21,10 @@ def get_size_in_pixels(self, scale: float, dpi: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scale | float |  |
-| dpi | float |  |
+| scale | float | The zoom factor (1.0 is 100%). |
+| dpi | float | The resolution (horizontal and vertical) to convert from points to pixels (dots per inch). |
+
+### Remarks
 
 This method converts [NodeRendererBase.size_in_points](../size_in_points/) into size in pixels and it is useful
 when you want to create a bitmap for rendering the shape neatly onto the bitmap.
@@ -47,9 +49,11 @@ def get_size_in_pixels(self, scale: float, horizontal_dpi: float, vertical_dpi: 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scale | float |  |
-| horizontal_dpi | float |  |
-| vertical_dpi | float |  |
+| scale | float | The zoom factor (1.0 is 100%). |
+| horizontal_dpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
+| vertical_dpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
+
+### Remarks
 
 This method converts [NodeRendererBase.size_in_points](../size_in_points/) into size in pixels and it is useful
 when you want to create a bitmap for rendering the shape neatly onto the bitmap.

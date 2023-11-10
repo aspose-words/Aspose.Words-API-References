@@ -14,6 +14,13 @@ url: /python-net/aspose.words.vba/vbaproject/references/
 Gets a collection of VBA project references.
 
 
+```python
+@property
+def references(self) -> aspose.words.vba.VbaReferenceCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.vba](../../)

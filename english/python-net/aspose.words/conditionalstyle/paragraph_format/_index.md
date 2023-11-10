@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstyle/paragraph_format/
 Gets the paragraph formatting of the conditional style.
 
 
+```python
+@property
+def paragraph_format(self) -> aspose.words.ParagraphFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

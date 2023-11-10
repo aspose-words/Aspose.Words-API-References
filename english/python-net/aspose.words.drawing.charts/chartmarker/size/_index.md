@@ -15,6 +15,17 @@ Gets or sets chart marker size.
 Default value is 7.
 
 
+```python
+@property
+def size(self) -> int:
+    ...
+
+@size.setter
+def size(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with data points on a line chart.

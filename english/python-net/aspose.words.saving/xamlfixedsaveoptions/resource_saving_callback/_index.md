@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/xamlfixedsaveoptions/resource_saving_callba
 Allows to control how resources (images and fonts) are saved when a document is exported to fixed page Xaml format.
 
 
+```python
+@property
+def resource_saving_callback(self) -> aspose.words.saving.IResourceSavingCallback:
+    ...
+
+@resource_saving_callback.setter
+def resource_saving_callback(self, value: aspose.words.saving.IResourceSavingCallback):
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the URIs of linked resources created while converting a document to fixed-form .xaml.

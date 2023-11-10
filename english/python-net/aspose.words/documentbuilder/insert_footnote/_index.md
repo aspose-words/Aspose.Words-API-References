@@ -21,8 +21,8 @@ def insert_footnote(self, footnote_type: aspose.words.notes.FootnoteType, footno
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnote_type | [FootnoteType](../../../aspose.words.notes/footnotetype/) |  |
-| footnote_text | str |  |
+| footnote_type | [FootnoteType](../../../aspose.words.notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
+| footnote_text | str | Specifies the text of the footnote. |
 
 ### Returns
 
@@ -41,9 +41,9 @@ def insert_footnote(self, footnote_type: aspose.words.notes.FootnoteType, footno
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnote_type | [FootnoteType](../../../aspose.words.notes/footnotetype/) |  |
-| footnote_text | str |  |
-| reference_mark | str |  |
+| footnote_type | [FootnoteType](../../../aspose.words.notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
+| footnote_text | str | Specifies the text of the footnote. |
+| reference_mark | str | Specifies the custom reference mark of the footnote. |
 
 ### Returns
 

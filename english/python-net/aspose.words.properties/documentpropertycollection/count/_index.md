@@ -14,6 +14,13 @@ url: /python-net/aspose.words.properties/documentpropertycollection/count/
 Gets number of items in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with custom document properties.

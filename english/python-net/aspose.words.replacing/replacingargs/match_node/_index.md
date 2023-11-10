@@ -14,6 +14,13 @@ url: /python-net/aspose.words.replacing/replacingargs/match_node/
 Gets the node that contains the beginning of the match.
 
 
+```python
+@property
+def match_node(self) -> aspose.words.Node:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

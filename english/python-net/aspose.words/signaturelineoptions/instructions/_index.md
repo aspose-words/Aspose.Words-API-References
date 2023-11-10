@@ -12,9 +12,20 @@ url: /python-net/aspose.words/signaturelineoptions/instructions/
 ## SignatureLineOptions.instructions property
 
 Gets or sets instructions to the signer that are displayed on signing the signature line.
-Default value for this property is **empty string** (System.String.Empty).
+Default value for this property is **empty string** ().
 
 
+
+```python
+@property
+def instructions(self) -> str:
+    ...
+
+@instructions.setter
+def instructions(self, value: str):
+    ...
+
+```
 
 ### Examples
 

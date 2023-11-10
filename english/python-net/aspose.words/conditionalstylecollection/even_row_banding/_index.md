@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstylecollection/even_row_banding/
 Gets the even row banding style.
 
 
+```python
+@property
+def even_row_banding(self) -> aspose.words.ConditionalStyle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

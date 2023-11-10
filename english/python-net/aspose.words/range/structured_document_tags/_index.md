@@ -15,6 +15,13 @@ Returns a [Range.structured_document_tags](./) collection that represents all st
 
 
 
+```python
+@property
+def structured_document_tags(self) -> aspose.words.markup.StructuredDocumentTagCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

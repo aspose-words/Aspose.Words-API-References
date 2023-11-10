@@ -16,6 +16,16 @@ the associated mapped XML element is empty as specified via the [IStructuredDocu
 or the [IStructuredDocumentTag.is_showing_placeholder_text](../is_showing_placeholder_text/) element is true. 
 
 
+
+```python
+@property
+def placeholder(self) -> aspose.words.buildingblocks.BuildingBlock:
+    ...
+
+```
+
+### Remarks
+
 Can be null, meaning that the placeholder is not applicable for this Sdt.
 
 

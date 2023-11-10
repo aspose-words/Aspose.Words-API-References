@@ -14,6 +14,16 @@ url: /python-net/aspose.words/documentbuilder/current_paragraph/
 Gets the paragraph that is currently selected in this [DocumentBuilder](../).
 
 
+
+```python
+@property
+def current_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
+### Remarks
+
 [DocumentBuilder.current_node](../current_node/)
 
 

@@ -15,6 +15,13 @@ Returns [NodeType.PARAGRAPH](../../nodetype/#PARAGRAPH).
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to traverse a composite node's tree of child nodes.

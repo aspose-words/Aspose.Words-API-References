@@ -15,6 +15,17 @@ Gets or sets the integral entry category, which is a number that corresponds to 
 categories.
 
 
+```python
+@property
+def entry_category(self) -> str:
+    ...
+
+@entry_category.setter
+def entry_category(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

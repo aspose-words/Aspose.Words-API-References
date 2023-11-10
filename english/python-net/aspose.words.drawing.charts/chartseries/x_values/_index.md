@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/x_values/
 Gets a collection of X values for this chart series.
 
 
+```python
+@property
+def x_values(self) -> aspose.words.drawing.charts.ChartXValueCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

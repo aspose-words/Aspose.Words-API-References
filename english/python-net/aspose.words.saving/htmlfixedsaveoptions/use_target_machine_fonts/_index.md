@@ -18,6 +18,17 @@ Default is ``False``.
 
 
 
+```python
+@property
+def use_target_machine_fonts(self) -> bool:
+    ...
+
+@use_target_machine_fonts.setter
+def use_target_machine_fonts(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how use fonts only from the target machine when saving a document to HTML.

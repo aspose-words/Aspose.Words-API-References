@@ -15,6 +15,17 @@ Gets or sets the language ID that is used to filter the bibliographic data to on
 use that language.
 
 
+```python
+@property
+def filter_language_id(self) -> str:
+    ...
+
+@filter_language_id.setter
+def filter_language_id(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -15,6 +15,13 @@ Retrieves the parent section-level story that can be [Body](../../body/) or [Hea
 
 
 
+```python
+@property
+def parent_story(self) -> aspose.words.Story:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a header and a footer.

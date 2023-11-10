@@ -17,6 +17,8 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 
 
 
+### Remarks
+
 You do not create instances of this class directly. Use the [Document.layout_options](../../aspose.words/document/layout_options/) property to access layout options for this document.
 
 

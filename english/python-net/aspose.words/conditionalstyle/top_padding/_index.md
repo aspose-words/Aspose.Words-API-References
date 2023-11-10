@@ -14,6 +14,17 @@ url: /python-net/aspose.words/conditionalstyle/top_padding/
 Gets or sets the amount of space (in points) to add above the contents of table cells.
 
 
+```python
+@property
+def top_padding(self) -> float:
+    ...
+
+@top_padding.setter
+def top_padding(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

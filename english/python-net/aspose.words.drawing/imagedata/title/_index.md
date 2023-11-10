@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/imagedata/title/
 
 Defines the title of an image.
 
+
+```python
+@property
+def title(self) -> str:
+    ...
+
+@title.setter
+def title(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 

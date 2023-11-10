@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtitle/text/
 Gets or sets the text of the title.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the TITLE field.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/letter_range/
 Gets or sets a range of letters to which limit the index.
 
 
+```python
+@property
+def letter_range(self) -> str:
+    ...
+
+@letter_range.setter
+def letter_range(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chartseries/smooth/
 Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines.
 
 
+```python
+@property
+def smooth(self) -> bool:
+    ...
+
+@smooth.setter
+def smooth(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with data points on a line chart.

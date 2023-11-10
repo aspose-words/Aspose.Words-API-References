@@ -15,6 +15,13 @@ Gets a [FieldOptions](../../../aspose.words.fields/fieldoptions/) object that re
 
 
 
+```python
+@property
+def field_options(self) -> aspose.words.fields.FieldOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify the source of the culture used for date formatting during a field update or mail merge.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/accent3/
 Specifies color Accent 3.
 
 
+```python
+@property
+def accent3(self) -> aspose.pydrawing.Color:
+    ...
+
+@accent3.setter
+def accent3(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

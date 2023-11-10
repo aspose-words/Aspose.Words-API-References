@@ -13,6 +13,16 @@ url: /python-net/aspose.words.properties/documentproperty/name/
 
 Returns the name of the property.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None`` and cannot be an empty string.
 
 

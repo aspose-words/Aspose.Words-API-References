@@ -16,6 +16,17 @@ Default value is [HtmlFixedPageHorizontalAlignment.CENTER](../../htmlfixedpageho
 
 
 
+```python
+@property
+def page_horizontal_alignment(self) -> aspose.words.saving.HtmlFixedPageHorizontalAlignment:
+    ...
+
+@page_horizontal_alignment.setter
+def page_horizontal_alignment(self, value: aspose.words.saving.HtmlFixedPageHorizontalAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set the horizontal alignment of pages when saving a document to HTML.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/top_margin/
 Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text.
 
 
+```python
+@property
+def top_margin(self) -> float:
+    ...
+
+@top_margin.setter
+def top_margin(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.

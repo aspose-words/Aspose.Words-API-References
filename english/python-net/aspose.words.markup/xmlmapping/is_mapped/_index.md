@@ -15,6 +15,13 @@ Returns ``True`` if the parent structured document tag is successfully mapped to
 
 
 
+```python
+@property
+def is_mapped(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set XML mappings for custom XML parts.

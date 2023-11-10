@@ -18,8 +18,8 @@ Type of document nodes that represent \<input\> and \<select\> elements imported
 
 | Name | Description |
 | --- | --- |
-| FORM_FIELD |  |
-| STRUCTURED_DOCUMENT_TAG |  |
+| FORM_FIELD | A form field. |
+| STRUCTURED_DOCUMENT_TAG | A structured document tag |
 
 ### See Also
 

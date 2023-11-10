@@ -13,6 +13,20 @@ url: /python-net/aspose.words/document/revisions_view/
 
 Gets or sets a value indicating whether to work with the original or revised version of a document.
 
+
+```python
+@property
+def revisions_view(self) -> aspose.words.RevisionsView:
+    ...
+
+@revisions_view.setter
+def revisions_view(self, value: aspose.words.RevisionsView):
+    ...
+
+```
+
+### Remarks
+
 The default value is ****.
 
 

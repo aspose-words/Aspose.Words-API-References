@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldusername/user_name/
 Gest or sets the current user's name.
 
 
+```python
+@property
+def user_name(self) -> str:
+    ...
+
+@user_name.setter
+def user_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the USERNAME field.

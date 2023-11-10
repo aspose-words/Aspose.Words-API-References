@@ -21,7 +21,9 @@ def get_by_title(self, title: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| title | str |  |
+| title | str | The title of structured document tag. |
+
+### Remarks
 
 Returns null if the structured document tag with the specified title cannot be found.
 

@@ -21,10 +21,12 @@ def start_bookmark(self, bookmark_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark_name | str |  |
+| bookmark_name | str | Name of the bookmark. |
+
+### Remarks
 
 Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to
-call both [DocumentBuilder.start_bookmark()](./#str) and [DocumentBuilder.end_bookmark()](../end_bookmark/#str) with the same 
+call both [DocumentBuilder.start_bookmark()](./#str) and [DocumentBuilder.end_bookmark()](../end_bookmark/#str) with the same *bookmarkName*
 parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.

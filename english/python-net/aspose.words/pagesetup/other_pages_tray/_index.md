@@ -15,6 +15,17 @@ Gets or sets the paper tray (bin) to be used for all but the first page of a sec
 The value is implementation (printer) specific.
 
 
+```python
+@property
+def other_pages_tray(self) -> int:
+    ...
+
+@other_pages_tray.setter
+def other_pages_tray(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

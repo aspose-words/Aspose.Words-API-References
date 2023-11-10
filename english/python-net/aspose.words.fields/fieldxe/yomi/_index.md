@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldxe/yomi/
 Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry
 
 
+```python
+@property
+def yomi(self) -> str:
+    ...
+
+@yomi.setter
+def yomi(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to sort INDEX field entries phonetically.

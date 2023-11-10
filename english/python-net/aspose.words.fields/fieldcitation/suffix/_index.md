@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcitation/suffix/
 Gets or sets a suffix that is appended to the citation.
 
 
+```python
+@property
+def suffix(self) -> str:
+    ...
+
+@suffix.setter
+def suffix(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

@@ -16,6 +16,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def show_original_revision(self) -> bool:
+    ...
+
+@show_original_revision.setter
+def show_original_revision(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

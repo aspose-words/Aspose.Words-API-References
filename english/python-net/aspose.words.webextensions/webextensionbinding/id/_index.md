@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionbinding/id/
 Specifies the binding identifier.
 
 
+```python
+@property
+def id(self) -> str:
+    ...
+
+@id.setter
+def id(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.webextensions](../../)

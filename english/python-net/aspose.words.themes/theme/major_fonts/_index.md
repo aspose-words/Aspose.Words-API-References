@@ -14,6 +14,13 @@ url: /python-net/aspose.words.themes/theme/major_fonts/
 Allows to specify the set of major fonts for different languages.
 
 
+```python
+@property
+def major_fonts(self) -> aspose.words.themes.ThemeFonts:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

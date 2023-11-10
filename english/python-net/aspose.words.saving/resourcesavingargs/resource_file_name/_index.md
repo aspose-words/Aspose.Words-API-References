@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/resourcesavingargs/resource_file_name/
 
 Gets or sets the file name (without path) where the resource will be saved to.
 
+
+```python
+@property
+def resource_file_name(self) -> str:
+    ...
+
+@resource_file_name.setter
+def resource_file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to redefine how the resource file names are generated
 during export to fixed page HTML or SVG.
 

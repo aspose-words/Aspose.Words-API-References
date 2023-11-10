@@ -13,6 +13,20 @@ url: /python-net/aspose.words/style/automatically_update/
 
 Specifies whether this style is automatically redefined based on the appropriate value.
 
+
+```python
+@property
+def automatically_update(self) -> bool:
+    ...
+
+@automatically_update.setter
+def automatically_update(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If the property value is set to true, MS Word automatically redefines the current style when
 the appropriate paragraph formatting has been changed.
 

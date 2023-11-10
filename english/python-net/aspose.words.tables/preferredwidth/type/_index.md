@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/preferredwidth/type/
 Gets the unit of measure used for this preferred width value.
 
 
+```python
+@property
+def type(self) -> aspose.words.tables.PreferredWidthType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the preferred width type and value of a table cell.

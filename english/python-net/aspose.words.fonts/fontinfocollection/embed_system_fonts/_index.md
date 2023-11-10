@@ -18,6 +18,20 @@ This option works only when [FontInfoCollection.embed_true_type_fonts](../embed_
 
 
 
+
+```python
+@property
+def embed_system_fonts(self) -> bool:
+    ...
+
+@embed_system_fonts.setter
+def embed_system_fonts(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Setting this property to ``True`` is useful if the user is on an East Asian system
 and wants to create a document that is readable by others who do not have fonts for that
 language on their system. For example, a user on a Japanese system could choose to embed the

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/underline/
 Gets or sets the type of underline applied to the font.
 
 
+```python
+@property
+def underline(self) -> aspose.words.Underline:
+    ...
+
+@underline.setter
+def underline(self, value: aspose.words.Underline):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert formatted text using DocumentBuilder.

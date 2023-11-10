@@ -21,7 +21,7 @@ def remove(self, bookmark: aspose.words.Bookmark):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark | [Bookmark](../../bookmark/) |  |
+| bookmark | [Bookmark](../../bookmark/) | The bookmark to remove. |
 
 ## remove(bookmark_name) {#str}
 
@@ -35,7 +35,7 @@ def remove(self, bookmark_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark_name | str |  |
+| bookmark_name | str | The case-insensitive name of the bookmark to remove. |
 
 ## Examples
 

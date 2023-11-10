@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/accent2/
 Specifies color Accent 2.
 
 
+```python
+@property
+def accent2(self) -> aspose.pydrawing.Color:
+    ...
+
+@accent2.setter
+def accent2(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

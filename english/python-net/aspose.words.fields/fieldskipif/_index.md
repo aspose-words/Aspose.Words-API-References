@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Compares the values designated by the expressions [FieldSkipIf.left_expression](./left_expression/) and [FieldSkipIf.right_expression](./right_expression/)
 in comparison using the operator designated by [FieldSkipIf.comparison_operator](./comparison_operator/). If the comparison is true, SKIPIF
 cancels the current merge document, moves to the next data record in the data source, and starts a new merge document.

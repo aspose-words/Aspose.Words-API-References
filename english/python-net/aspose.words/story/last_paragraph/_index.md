@@ -14,6 +14,13 @@ url: /python-net/aspose.words/story/last_paragraph/
 Gets the last paragraph in the story.
 
 
+```python
+@property
+def last_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to move a DocumentBuilder's cursor position to a specified node.

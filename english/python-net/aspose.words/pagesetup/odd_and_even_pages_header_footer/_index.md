@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/odd_and_even_pages_header_footer/
 
 True if the document has different headers and footers for odd-numbered and even-numbered pages.
 
+
+```python
+@property
+def odd_and_even_pages_header_footer(self) -> bool:
+    ...
+
+@odd_and_even_pages_header_footer.setter
+def odd_and_even_pages_header_footer(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Note, changing this property affects all sections in the document.
 
 

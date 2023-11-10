@@ -15,6 +15,13 @@ Gets a string that represents the XML contained within the node in the [SaveForm
 
 
 
+```python
+@property
+def word_open_xml(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the properties of multi-section structured document tags.

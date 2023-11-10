@@ -21,7 +21,7 @@ def save(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
 
 ### Returns
 
@@ -40,8 +40,8 @@ def save(self, file_name: str, save_format: aspose.words.SaveFormat):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| save_format | [SaveFormat](../../saveformat/) |  |
+| file_name | str | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
+| save_format | [SaveFormat](../../saveformat/) | The format in which to save the document. |
 
 ### Returns
 
@@ -60,8 +60,8 @@ def save(self, file_name: str, save_options: aspose.words.saving.SaveOptions):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) |  |
+| file_name | str | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | Specifies the options that control how the document is saved. Can be ``None``. |
 
 ### Returns
 
@@ -74,14 +74,14 @@ Saves the document to a stream using the specified format.
 
 
 ```python
-def save(self, stream: BytesIO, save_format: aspose.words.SaveFormat):
+def save(self, stream: io.BytesIO, save_format: aspose.words.SaveFormat):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
-| save_format | [SaveFormat](../../saveformat/) |  |
+| stream | io.BytesIO | Stream where to save the document. |
+| save_format | [SaveFormat](../../saveformat/) | The format in which to save the document. |
 
 ### Returns
 
@@ -94,14 +94,14 @@ Saves the document to a stream using the specified save options.
 
 
 ```python
-def save(self, stream: BytesIO, save_options: aspose.words.saving.SaveOptions):
+def save(self, stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
-| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) |  |
+| stream | io.BytesIO | Stream where to save the document. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | Specifies the options that control how the document is saved. Can be ``None``. If this is ``None``, the document will be saved in the binary DOC format. |
 
 ### Returns
 

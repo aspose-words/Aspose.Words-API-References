@@ -21,7 +21,9 @@ def protect(self, type: aspose.words.ProtectionType):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ProtectionType](../../protectiontype/) |  |
+| type | [ProtectionType](../../protectiontype/) | Specifies the protection type for the document. |
+
+### Remarks
 
 When a document is protected, the user can make only limited changes,
 such as adding annotations, making revisions, or completing a form.
@@ -49,8 +51,10 @@ def protect(self, type: aspose.words.ProtectionType, password: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ProtectionType](../../protectiontype/) |  |
-| password | str |  |
+| type | [ProtectionType](../../protectiontype/) | Specifies the protection type for the document. |
+| password | str | The password to protect the document with. Specify ``None`` or empty string if you want to protect the document without a password. |
+
+### Remarks
 
 When a document is protected, the user can make only limited changes,
 such as adding annotations, making revisions, or completing a form.

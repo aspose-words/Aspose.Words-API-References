@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/text/
 
 Defines the text of the text path.
 
+
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 

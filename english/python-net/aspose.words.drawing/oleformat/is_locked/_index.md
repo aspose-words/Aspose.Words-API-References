@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/oleformat/is_locked/
 
 Specifies whether the link to the OLE object is locked from updates.
 
+
+```python
+@property
+def is_locked(self) -> bool:
+    ...
+
+@is_locked.setter
+def is_locked(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

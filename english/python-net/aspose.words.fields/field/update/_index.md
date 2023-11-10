@@ -31,7 +31,7 @@ def update(self, ignore_merge_format: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignore_merge_format | bool |  |
+| ignore_merge_format | bool | If ``True`` then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ## Examples
 

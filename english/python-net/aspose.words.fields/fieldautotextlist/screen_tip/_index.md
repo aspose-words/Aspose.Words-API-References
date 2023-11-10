@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldautotextlist/screen_tip/
 Gets or sets the text of the ScreenTip to show.
 
 
+```python
+@property
+def screen_tip(self) -> str:
+    ...
+
+@screen_tip.setter
+def screen_tip(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use an AUTOTEXTLIST field to select from a list of AutoText entries.

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves the name of the user who last modified and saved the current document, as recorded in the **LastModifiedBy**
 property of the built-in document properties.
 

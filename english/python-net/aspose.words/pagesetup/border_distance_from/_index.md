@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/border_distance_from/
 Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
 
 
+```python
+@property
+def border_distance_from(self) -> aspose.words.PageBorderDistanceFrom:
+    ...
+
+@border_distance_from.setter
+def border_distance_from(self, value: aspose.words.PageBorderDistanceFrom):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a wide blue band border at the top of the first page.

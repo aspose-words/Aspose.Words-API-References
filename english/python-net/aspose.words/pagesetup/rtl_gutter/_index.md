@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/rtl_gutter/
 Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.
 
 
+```python
+@property
+def rtl_gutter(self) -> bool:
+    ...
+
+@rtl_gutter.setter
+def rtl_gutter(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set gutter margins.

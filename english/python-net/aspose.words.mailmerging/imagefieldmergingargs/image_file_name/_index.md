@@ -14,6 +14,17 @@ url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/image_file_name/
 Sets the file name of the image that the mail merge engine must insert into the document.
 
 
+```python
+@property
+def image_file_name(self) -> str:
+    ...
+
+@image_file_name.setter
+def image_file_name(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

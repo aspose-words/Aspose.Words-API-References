@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/zoom_behavior/
 
 Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer.
 
+
+```python
+@property
+def zoom_behavior(self) -> aspose.words.saving.PdfZoomBehavior:
+    ...
+
+@zoom_behavior.setter
+def zoom_behavior(self, value: aspose.words.saving.PdfZoomBehavior):
+    ...
+
+```
+
+### Remarks
+
 The default value is [PdfZoomBehavior.NONE](../../pdfzoombehavior/#NONE), i.e. no fit is applied.
 
 

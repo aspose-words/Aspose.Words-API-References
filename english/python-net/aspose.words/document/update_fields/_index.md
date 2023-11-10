@@ -19,6 +19,8 @@ def update_fields(self):
     ...
 ```
 
+### Remarks
+
 When you open, modify and then save a document, Aspose.Words does not update fields automatically, it keeps them intact.
 Therefore, you would usually want to call this method before saving if you have modified the document
 programmatically and want to make sure the proper (calculated) field values appear in the saved document.

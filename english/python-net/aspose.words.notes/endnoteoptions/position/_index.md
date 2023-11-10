@@ -14,6 +14,17 @@ url: /python-net/aspose.words.notes/endnoteoptions/position/
 Specifies the endnotes position.
 
 
+```python
+@property
+def position(self) -> aspose.words.notes.EndnotePosition:
+    ...
+
+@position.setter
+def position(self, value: aspose.words.notes.EndnotePosition):
+    ...
+
+```
+
 ### Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.

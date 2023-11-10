@@ -5,7 +5,7 @@ articleTitle: position property
 second_title: Aspose.Words for Python
 description: "ChartLegend.position property. Specifies the position of the legend on a chart"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing.charts/chartlegend/position/
 ---
 
@@ -15,6 +15,17 @@ Specifies the position of the legend on a chart.
 Default value is [LegendPosition.RIGHT](../../legendposition/#RIGHT).
 
 
+
+```python
+@property
+def position(self) -> aspose.words.drawing.charts.LegendPosition:
+    ...
+
+@position.setter
+def position(self, value: aspose.words.drawing.charts.LegendPosition):
+    ...
+
+```
 
 ### Examples
 

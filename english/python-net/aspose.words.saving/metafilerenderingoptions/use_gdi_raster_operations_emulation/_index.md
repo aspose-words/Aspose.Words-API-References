@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/metafilerenderingoptions/use_gdi_raster_ope
 
 Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation.
 
+
+```python
+@property
+def use_gdi_raster_operations_emulation(self) -> bool:
+    ...
+
+@use_gdi_raster_operations_emulation.setter
+def use_gdi_raster_operations_emulation(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Windows GDI+ library could be used to emulate raster operations. It provides support for all raster operation
 comparing to Aspose.Words own emulation but performance may be slower in some cases.
 

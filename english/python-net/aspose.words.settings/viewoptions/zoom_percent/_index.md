@@ -13,6 +13,20 @@ url: /python-net/aspose.words.settings/viewoptions/zoom_percent/
 
 Gets or sets the percentage (between 10 and 500) at which you want to view your document.
 
+
+```python
+@property
+def zoom_percent(self) -> int:
+    ...
+
+@zoom_percent.setter
+def zoom_percent(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 If value is 0 then this property uses 100 instead, else if value is less than 10 or greater 
 than 500 this property throws.
 

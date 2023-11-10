@@ -14,6 +14,13 @@ url: /python-net/aspose.words.loading/resourceloadingargs/original_uri/
 Original URI of the resource as specified in imported document.
 
 
+```python
+@property
+def original_uri(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

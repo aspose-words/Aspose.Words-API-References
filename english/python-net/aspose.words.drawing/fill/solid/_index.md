@@ -19,6 +19,8 @@ def solid(self):
     ...
 ```
 
+### Remarks
+
 Use this method to convert any of the fills back to solid fill.
 
 
@@ -35,6 +37,8 @@ def solid(self, color: aspose.pydrawing.Color):
 | Parameter | Type | Description |
 | --- | --- | --- |
 | color | aspose.pydrawing.Color |  |
+
+### Remarks
 
 Use this method to convert any of the fills back to solid fill.
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/category/
 Gets or sets the category of the document.
 
 
+```python
+@property
+def category(self) -> str:
+    ...
+
+@category.setter
+def category(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties in the "Description" category.

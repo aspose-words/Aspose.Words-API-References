@@ -15,12 +15,30 @@ Gets or sets the thumbnail of the document.
 
 
 
+
+```python
+@property
+def thumbnail(self) -> bytes:
+    ...
+
+@thumbnail.setter
+def thumbnail(self, value: bytes):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(InvalidOperationException)) | Thrown if the image is invalid or its format is unsupported for specific format of document. |
+
+### Remarks
+
 For now this property is used only when a document is being exported to ePub,
 it's not read from and written to other document formats.
 
 Image of arbitrary format can be set to this property, but the format is checked during export.
-System.InvalidOperationException is thrown if the image is invalid or its format is unsupported for
-specific format of document.
 
 Only gif, jpeg and png images can be used for ePub publication.
 

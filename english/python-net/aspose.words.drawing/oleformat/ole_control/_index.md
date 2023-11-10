@@ -15,6 +15,13 @@ Gets [OleFormat.ole_control](./) objects if this OLE object is an ActiveX contro
 
 
 
+```python
+@property
+def ole_control(self) -> aspose.words.drawing.ole.OleControl:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

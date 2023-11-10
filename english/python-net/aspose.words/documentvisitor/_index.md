@@ -17,6 +17,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+### Remarks
+
 With [DocumentVisitor](./) you can define and execute custom operations
 that require enumeration over the document tree.
 

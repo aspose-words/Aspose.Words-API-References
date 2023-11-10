@@ -15,6 +15,13 @@ Gets [PlainTextDocument.custom_document_properties](./) of the document.
 
 
 
+```python
+@property
+def custom_document_properties(self) -> aspose.words.properties.CustomDocumentProperties:
+    ...
+
+```
+
 ### Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's custom properties.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/author/
 Gets or sets the name of the document's author.
 
 
+```python
+@property
+def author(self) -> str:
+    ...
+
+@author.setter
+def author(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties in the "Description" category.

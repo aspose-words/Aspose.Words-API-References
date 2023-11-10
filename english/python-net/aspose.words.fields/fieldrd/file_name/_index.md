@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldrd/file_name/
 Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index.
 
 
+```python
+@property
+def file_name(self) -> str:
+    ...
+
+@file_name.setter
+def file_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows to use the RD field to create a table of contents entries from headings in other documents.

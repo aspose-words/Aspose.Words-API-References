@@ -17,6 +17,8 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 
 
 
+### Remarks
+
 You do not create instances of this class. You access the collection of XML schemas of a custom XML part
 via the [CustomXmlPart.schemas](../customxmlpart/schemas/) property.
 

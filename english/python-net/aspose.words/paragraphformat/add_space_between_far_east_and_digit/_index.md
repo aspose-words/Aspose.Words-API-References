@@ -15,6 +15,17 @@ Gets or sets a flag indicating whether inter-character spacing is automatically 
 of numbers and regions of East Asian text in the current paragraph.
 
 
+```python
+@property
+def add_space_between_far_east_and_digit(self) -> bool:
+    ...
+
+@add_space_between_far_east_and_digit.setter
+def add_space_between_far_east_and_digit(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a paragraph into the document.

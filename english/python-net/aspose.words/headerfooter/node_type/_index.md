@@ -15,6 +15,13 @@ Returns [NodeType.HEADER_FOOTER](../../nodetype/#HEADER_FOOTER).
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to iterate through the children of a composite node.

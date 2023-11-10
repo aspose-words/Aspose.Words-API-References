@@ -21,7 +21,9 @@ def select_nodes(self, xpath: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | str |  |
+| xpath | str | The XPath expression. |
+
+### Remarks
 
 Only expressions with element names are supported at the moment. Expressions
 that use attribute names are not supported.

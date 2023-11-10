@@ -15,6 +15,17 @@ Gets or sets which character to use for indenting list levels.
 The default value is '\\0', that means there is no indentation.
 
 
+```python
+@property
+def character(self) -> str:
+    ...
+
+@character.setter
+def character(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure list indenting when saving a document to plaintext.

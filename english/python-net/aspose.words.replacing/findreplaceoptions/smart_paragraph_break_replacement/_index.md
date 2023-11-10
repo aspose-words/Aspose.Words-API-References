@@ -18,6 +18,20 @@ The default value is ``False``.
 
 
 
+
+```python
+@property
+def smart_paragraph_break_replacement(self) -> bool:
+    ...
+
+@smart_paragraph_break_replacement.setter
+def smart_paragraph_break_replacement(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This option allows to replace paragraph break when there is no next sibling paragraph to which all child
 nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 

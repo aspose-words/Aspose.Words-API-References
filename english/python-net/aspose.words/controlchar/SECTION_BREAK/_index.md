@@ -15,6 +15,13 @@ End of section character: "\\x000c" or "\\f". Note it has the same value as [Con
 
 
 
+```python
+@property
+def SECTION_BREAK(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

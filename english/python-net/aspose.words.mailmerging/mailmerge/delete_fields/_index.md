@@ -19,6 +19,8 @@ def delete_fields(self):
     ...
 ```
 
+### Remarks
+
 This method removes MERGEFIELD and NEXT fields from the document.
 
 This method could be useful if your mail merge operation does not always need

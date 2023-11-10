@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/child_nodes
 Gets all nodes between this range start node and the range end node.
 
 
+```python
+@property
+def child_nodes(self) -> aspose.words.NodeCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

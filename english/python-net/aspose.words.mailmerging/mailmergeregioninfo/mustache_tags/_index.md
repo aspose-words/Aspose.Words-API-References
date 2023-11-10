@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/mustache_tags/
 Returns a list of child "mustache" tags.
 
 
+```python
+@property
+def mustache_tags(self) -> List[aspose.words.mailmerging.MustacheTag]:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

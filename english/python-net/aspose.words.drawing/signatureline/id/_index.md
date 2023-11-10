@@ -13,10 +13,22 @@ url: /python-net/aspose.words.drawing/signatureline/id/
 
 Gets or sets identifier for this signature line.
 This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../../aspose.words.digitalsignatures/digitalsignatureutil/).
-This value must be unique and by default it is randomly generated new Guid (System.Guid.NewGuid).
+This value must be unique and by default it is randomly generated new Guid
+().
 
 
 
+
+```python
+@property
+def id(self) -> uuid.UUID:
+    ...
+
+@id.setter
+def id(self, value: uuid.UUID):
+    ...
+
+```
 
 ### Examples
 

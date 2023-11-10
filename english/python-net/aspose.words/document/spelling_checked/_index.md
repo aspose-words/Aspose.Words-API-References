@@ -14,6 +14,20 @@ url: /python-net/aspose.words/document/spelling_checked/
 Returns ``True`` if the document has been checked for spelling.
 
 
+
+```python
+@property
+def spelling_checked(self) -> bool:
+    ...
+
+@spelling_checked.setter
+def spelling_checked(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 To recheck the spelling in the document, set this property to ``False``.
 
 

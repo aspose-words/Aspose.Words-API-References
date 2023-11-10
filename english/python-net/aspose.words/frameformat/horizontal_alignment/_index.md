@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/horizontal_alignment/
 Gets horizontal alignment of the specified frame.
 
 
+```python
+@property
+def horizontal_alignment(self) -> aspose.words.drawing.HorizontalAlignment:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

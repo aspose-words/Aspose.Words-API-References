@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/visible/
 
 Gets or sets a flag indicating whether the stroke is visible.
 
+
+```python
+@property
+def visible(self) -> bool:
+    ...
+
+@visible.setter
+def visible(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value for a [Shape](../../shape/) is ``True``.
 
 

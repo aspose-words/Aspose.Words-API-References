@@ -15,6 +15,17 @@ Gets or sets the number of points by which the text that follows the field shoul
 from the top edge of the page.
 
 
+```python
+@property
+def vertical_position(self) -> str:
+    ...
+
+@vertical_position.setter
+def vertical_position(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADVANCE field, and edit its properties.

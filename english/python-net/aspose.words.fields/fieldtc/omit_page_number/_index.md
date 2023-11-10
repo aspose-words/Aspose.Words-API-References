@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtc/omit_page_number/
 Gets or sets whether page number in TOC should be omitted for this field.
 
 
+```python
+@property
+def omit_page_number(self) -> bool:
+    ...
+
+@omit_page_number.setter
+def omit_page_number(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.

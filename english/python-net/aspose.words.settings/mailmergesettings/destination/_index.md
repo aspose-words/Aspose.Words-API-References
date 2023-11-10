@@ -16,6 +16,17 @@ The default value is [MailMergeDestination.DEFAULT](../../mailmergedestination/#
 
 
 
+```python
+@property
+def destination(self) -> aspose.words.settings.MailMergeDestination:
+    ...
+
+@destination.setter
+def destination(self, value: aspose.words.settings.MailMergeDestination):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

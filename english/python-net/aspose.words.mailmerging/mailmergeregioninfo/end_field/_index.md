@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/end_field/
 Returns an end field for the region.
 
 
+```python
+@property
+def end_field(self) -> aspose.words.fields.FieldMergeField:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify mail merge regions.

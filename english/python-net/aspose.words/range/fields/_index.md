@@ -15,6 +15,13 @@ Returns a [Range.fields](./) collection that represents all fields in the range.
 
 
 
+```python
+@property
+def fields(self) -> aspose.words.fields.FieldCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

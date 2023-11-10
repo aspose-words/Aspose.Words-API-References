@@ -16,6 +16,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def show_legend_key(self) -> bool:
+    ...
+
+@show_legend_key.setter
+def show_legend_key(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

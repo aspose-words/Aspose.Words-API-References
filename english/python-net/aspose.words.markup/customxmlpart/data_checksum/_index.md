@@ -15,6 +15,13 @@ Specifies a cyclic redundancy check (CRC) checksum of the [CustomXmlPart.data](.
 
 
 
+```python
+@property
+def data_checksum(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how the checksum is calculated in a runtime.

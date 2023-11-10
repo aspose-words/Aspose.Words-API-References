@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/tab_position/
 
 Returns or sets the tab position (in points) for the list level.
 
+
+```python
+@property
+def tab_position(self) -> float:
+    ...
+
+@tab_position.setter
+def tab_position(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Has effect only when [ListLevel.trailing_character](../trailing_character/) is a tab.
 
 

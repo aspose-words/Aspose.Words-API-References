@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldif/left_expression/
 Gets or sets the left part of the comparison expression.
 
 
+```python
+@property
+def left_expression(self) -> str:
+    ...
+
+@left_expression.setter
+def left_expression(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an IF field.

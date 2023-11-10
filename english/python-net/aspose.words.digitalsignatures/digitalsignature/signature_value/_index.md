@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/signature_value
 Gets an array of bytes representing a signature value.
 
 
+```python
+@property
+def signature_value(self) -> bytes:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.digitalsignatures](../../)

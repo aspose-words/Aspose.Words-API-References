@@ -13,6 +13,20 @@ url: /python-net/aspose.words/border/line_width/
 
 Gets or sets the border width in points.
 
+
+```python
+@property
+def line_width(self) -> float:
+    ...
+
+@line_width.setter
+def line_width(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 If you set line width greater than zero when line style is none, the line style is
 automatically changed to single line.
 

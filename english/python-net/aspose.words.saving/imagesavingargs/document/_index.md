@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/imagesavingargs/document/
 Gets the document object that is currently being saved.
 
 
+```python
+@property
+def document(self) -> aspose.words.Document:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

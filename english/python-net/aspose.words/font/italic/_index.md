@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/italic/
 True if the font is formatted as italic.
 
 
+```python
+@property
+def italic(self) -> bool:
+    ...
+
+@italic.setter
+def italic(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to write italicized text using a document builder.

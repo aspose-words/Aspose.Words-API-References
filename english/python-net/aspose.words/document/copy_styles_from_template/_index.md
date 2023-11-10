@@ -23,6 +23,8 @@ def copy_styles_from_template(self, template: str):
 | --- | --- | --- |
 | template | str |  |
 
+### Remarks
+
 When styles are copied from a template to a document,
 like-named styles in the document are redefined to match the style descriptions in the template.
 Unique styles from the template are copied to the document. Unique styles in the document remain intact.
@@ -41,6 +43,8 @@ def copy_styles_from_template(self, template: aspose.words.Document):
 | Parameter | Type | Description |
 | --- | --- | --- |
 | template | [Document](../) |  |
+
+### Remarks
 
 When styles are copied from a template to a document,
 like-named styles in the document are redefined to match the style descriptions in the template.

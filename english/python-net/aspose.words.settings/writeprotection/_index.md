@@ -17,6 +17,8 @@ To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com
 
 
 
+### Remarks
+
 Write protection specifies whether the author has recommended that 
 the document is to be opened as read-only and/or require a password to modify a document.
 

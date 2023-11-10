@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/comparisonevaluationresult/error_message/
 Gets the failed comparison evaluation result's error message.
 
 
+```python
+@property
+def error_message(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

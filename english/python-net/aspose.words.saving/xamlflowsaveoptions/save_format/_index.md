@@ -16,6 +16,17 @@ Can only be [SaveFormat.XAML_FLOW](../../../aspose.words/saveformat/#XAML_FLOW).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.

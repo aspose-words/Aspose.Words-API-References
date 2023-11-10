@@ -21,8 +21,8 @@ def save(self, file_name: str, save_options: aspose.words.saving.ImageSaveOption
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) |  |
+| file_name | str | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
+| save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
 
 ## save(stream, save_options) {#bytesio_imagesaveoptions}
 
@@ -30,14 +30,14 @@ Renders the shape into an image and saves into a stream.
 
 
 ```python
-def save(self, stream: BytesIO, save_options: aspose.words.saving.ImageSaveOptions):
+def save(self, stream: io.BytesIO, save_options: aspose.words.saving.ImageSaveOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
-| save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) |  |
+| stream | io.BytesIO | The stream where to save the image of the shape. |
+| save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved in the PNG format. |
 
 ## Examples
 

@@ -15,6 +15,13 @@ Returns [NodeType.BOOKMARK_END](../../nodetype/#BOOKMARK_END).
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to traverse a composite node's tree of child nodes.

@@ -15,14 +15,16 @@ Starts automatically marking all further changes you make to the document progra
 
 
 ```python
-def start_track_revisions(self, author: str, date_time: datetime):
+def start_track_revisions(self, author: str, date_time: datetime.datetime):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | str |  |
-| date_time | datetime |  |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+
+### Remarks
 
 If you call this method and then make some changes to the document programmatically,
 save the document and later open the document in MS Word you will see these changes as revisions.
@@ -52,7 +54,9 @@ def start_track_revisions(self, author: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | str |  |
+| author | str | Initials of the author to use for revisions. |
+
+### Remarks
 
 If you call this method and then make some changes to the document programmatically,
 save the document and later open the document in MS Word you will see these changes as revisions.

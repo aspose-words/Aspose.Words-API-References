@@ -63,14 +63,14 @@ Use this method to add series to any type of Area, Radar and Stock charts.
 
 
 ```python
-def add(self, series_name: str, dates: List[datetime], values: List[float]):
+def add(self, series_name: str, dates: List[datetime.datetime], values: List[float]):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | series_name | str |  |
-| dates | List[datetime] |  |
+| dates | List[datetime.datetime] |  |
 | values | List[float] |  |
 
 ## add(series_name, x_values, y_values, bubble_sizes) {#str_floatlist_floatlist_floatlist}

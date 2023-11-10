@@ -21,8 +21,8 @@ def append_document(self, src_doc: aspose.words.Document, import_format_mode: as
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_doc | [Document](../) |  |
-| import_format_mode | [ImportFormatMode](../../importformatmode/) |  |
+| src_doc | [Document](../) | The document to append. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
 
 ## append_document(src_doc, import_format_mode, import_format_options) {#document_importformatmode_importformatoptions}
 
@@ -36,9 +36,9 @@ def append_document(self, src_doc: aspose.words.Document, import_format_mode: as
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_doc | [Document](../) |  |
-| import_format_mode | [ImportFormatMode](../../importformatmode/) |  |
-| import_format_options | [ImportFormatOptions](../../importformatoptions/) |  |
+| src_doc | [Document](../) | The document to append. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
+| import_format_options | [ImportFormatOptions](../../importformatoptions/) | Allows to specify options that affect formatting of a result document. |
 
 ## Examples
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldsymbol/font_size/
 Gets or sets the size in points of the font of the character retrieved by the field.
 
 
+```python
+@property
+def font_size(self) -> str:
+    ...
+
+@font_size.setter
+def font_size(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the SYMBOL field.

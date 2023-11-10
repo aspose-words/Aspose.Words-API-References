@@ -13,6 +13,16 @@ url: /python-net/aspose.words/documentbase/lists/
 
 Provides access to the list formatting used in the document.
 
+
+```python
+@property
+def lists(self) -> aspose.words.lists.ListCollection:
+    ...
+
+```
+
+### Remarks
+
 For more information see the description of the [ListCollection](../../../aspose.words.lists/listcollection/) class.
 
 

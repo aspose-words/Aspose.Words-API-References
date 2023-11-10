@@ -19,6 +19,8 @@ def update_list_labels(self):
     ...
 ```
 
+### Remarks
+
 This method updates list label properties such as [ListLabel.label_value](../../../aspose.words.lists/listlabel/label_value/) and
 [ListLabel.label_string](../../../aspose.words.lists/listlabel/label_string/) for each [Paragraph.list_label](../../paragraph/list_label/) object in the document.
 

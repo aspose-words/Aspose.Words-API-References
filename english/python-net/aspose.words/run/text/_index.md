@@ -14,6 +14,17 @@ url: /python-net/aspose.words/run/text/
 Gets or sets the text of the run.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to construct an Aspose.Words document by hand.

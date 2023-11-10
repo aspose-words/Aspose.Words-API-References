@@ -17,6 +17,8 @@ To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Use the [Shape.text_box](../shape/text_box/) property to access text properties of a shape.
 You do not create instances of the [TextBox](./) class directly.
 

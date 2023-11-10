@@ -14,6 +14,13 @@ url: /python-net/aspose.words.themes/theme/minor_fonts/
 Allows to specify the set of minor fonts for different languages.
 
 
+```python
+@property
+def minor_fonts(self) -> aspose.words.themes.ThemeFonts:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

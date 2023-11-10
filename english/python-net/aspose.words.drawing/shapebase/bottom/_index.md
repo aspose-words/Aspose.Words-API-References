@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing/shapebase/bottom/
 
 Gets the position of the bottom edge of the containing block of the shape.
 
+
+```python
+@property
+def bottom(self) -> float:
+    ...
+
+```
+
+### Remarks
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.

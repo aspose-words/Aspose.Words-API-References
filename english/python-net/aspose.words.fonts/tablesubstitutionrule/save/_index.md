@@ -21,7 +21,7 @@ def save(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | Output file name. |
 
 ## save(output_stream) {#bytesio}
 
@@ -29,13 +29,13 @@ Saves the current table substitution settings to stream.
 
 
 ```python
-def save(self, output_stream: BytesIO):
+def save(self, output_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output_stream | BytesIO |  |
+| output_stream | io.BytesIO | Output stream. |
 
 ## Examples
 

@@ -24,6 +24,8 @@ def format_numeric(self, value: float, format: str):
 | value | float |  |
 | format | str |  |
 
+### Remarks
+
 The implementation should return ``None`` to indicate that the default formatting should be applied.
 
 

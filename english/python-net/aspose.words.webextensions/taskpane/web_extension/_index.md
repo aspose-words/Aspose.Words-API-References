@@ -14,6 +14,13 @@ url: /python-net/aspose.words.webextensions/taskpane/web_extension/
 Represents an web extension object.
 
 
+```python
+@property
+def web_extension(self) -> aspose.words.webextensions.WebExtension:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

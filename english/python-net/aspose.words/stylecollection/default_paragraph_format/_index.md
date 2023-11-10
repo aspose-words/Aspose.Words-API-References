@@ -13,6 +13,16 @@ url: /python-net/aspose.words/stylecollection/default_paragraph_format/
 
 Gets document default paragraph formatting.
 
+
+```python
+@property
+def default_paragraph_format(self) -> aspose.words.ParagraphFormat:
+    ...
+
+```
+
+### Remarks
+
 Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats ([LoadFormat.DOCX](../../loadformat/#DOCX)) only.
 Earlier document formats have no support for document default paragraph formatting.
 

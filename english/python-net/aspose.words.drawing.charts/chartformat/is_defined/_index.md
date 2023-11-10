@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartformat/is_defined/
 Gets a flag indicating whether any format is defined.
 
 
+```python
+@property
+def is_defined(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to reset the fill to the default value defined in the series.

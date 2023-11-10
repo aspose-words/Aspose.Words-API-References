@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/wrap_side/
 
 Specifies how the text is wrapped around the shape.
 
+
+```python
+@property
+def wrap_side(self) -> aspose.words.drawing.WrapSide:
+    ...
+
+@wrap_side.setter
+def wrap_side(self, value: aspose.words.drawing.WrapSide):
+    ...
+
+```
+
+### Remarks
+
 The default value is [WrapSide.BOTH](../../wrapside/#BOTH).
 
 Has effect only for top level shapes.

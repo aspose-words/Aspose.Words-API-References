@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/page_number_list_separator/
 Gets or sets the character sequence that is used to separate two page numbers in a page number list.
 
 
+```python
+@property
+def page_number_list_separator(self) -> str:
+    ...
+
+@page_number_list_separator.setter
+def page_number_list_separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to edit the page number separator in an INDEX field.

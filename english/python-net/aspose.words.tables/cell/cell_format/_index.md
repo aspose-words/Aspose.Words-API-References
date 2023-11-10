@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cell/cell_format/
 Provides access to the formatting properties of the cell.
 
 
+```python
+@property
+def cell_format(self) -> aspose.words.tables.CellFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the format of rows and cells in a table.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/mergefieldimagedimension/unit/
 The unit.
 
 
+```python
+@property
+def unit(self) -> aspose.words.fields.MergeFieldImageDimensionUnit:
+    ...
+
+@unit.setter
+def unit(self, value: aspose.words.fields.MergeFieldImageDimensionUnit):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

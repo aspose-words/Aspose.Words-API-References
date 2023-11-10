@@ -13,6 +13,20 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/legacy_mode/
 
 Gets or sets a boolean value indicating that old find/replace algorithm is used.
 
+
+```python
+@property
+def legacy_mode(self) -> bool:
+    ...
+
+@legacy_mode.setter
+def legacy_mode(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Use this flag if you need exactly the same behavior as before advanced find/replace feature was introduced.
 Note that old algorithm does not support advanced features such as replace with breaks, apply formatting and so on.
 

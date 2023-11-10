@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoa/bookmark_name/
 Gets or sets the name of the bookmark that marks the portion of the document used to build the table.
 
 
+```python
+@property
+def bookmark_name(self) -> str:
+    ...
+
+@bookmark_name.setter
+def bookmark_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

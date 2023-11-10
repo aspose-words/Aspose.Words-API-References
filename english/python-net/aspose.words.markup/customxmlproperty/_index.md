@@ -17,6 +17,8 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 
 
 
+### Remarks
+
 Used as an item of a [CustomXmlPropertyCollection](../customxmlpropertycollection/) collection.
 
 

@@ -15,6 +15,16 @@ Gets the draw aspect of the OLE object. When ``True``, the OLE object is display
 When ``False``, the OLE object is displayed as content.
 
 
+
+```python
+@property
+def ole_icon(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words does not allow to set this property to avoid confusion. If you were able to change
 the draw aspect in Aspose.Words, Microsoft Word would still display the OLE object in its original
 draw aspect until you edit or update the OLE object in Microsoft Word.

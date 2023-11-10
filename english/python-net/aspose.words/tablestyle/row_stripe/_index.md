@@ -14,6 +14,17 @@ url: /python-net/aspose.words/tablestyle/row_stripe/
 Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding.
 
 
+```python
+@property
+def row_stripe(self) -> int:
+    ...
+
+@row_stripe.setter
+def row_stripe(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create conditional table styles that alternate between rows.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/source_full_name/
 Gets or sets the location of the document using an IRI.
 
 
+```python
+@property
+def source_full_name(self) -> str:
+    ...
+
+@source_full_name.setter
+def source_full_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_spacing/
 
 Gets or sets the interval, at which tick labels are drawn.
 
+
+```python
+@property
+def tick_label_spacing(self) -> int:
+    ...
+
+@tick_label_spacing.setter
+def tick_label_spacing(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The property has effect for text category and series axes. It is not supported by MS Office 2016 
 new charts. Valid range of a value is greater than or equal to 1.
 

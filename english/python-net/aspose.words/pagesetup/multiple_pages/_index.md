@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/multiple_pages/
 For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet.
 
 
+```python
+@property
+def multiple_pages(self) -> aspose.words.settings.MultiplePagesType:
+    ...
+
+@multiple_pages.setter
+def multiple_pages(self, value: aspose.words.settings.MultiplePagesType):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set gutter margins.

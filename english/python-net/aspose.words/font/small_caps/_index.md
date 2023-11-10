@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/small_caps/
 True if the font is formatted as small capital letters.
 
 
+```python
+@property
+def small_caps(self) -> bool:
+    ...
+
+@small_caps.setter
+def small_caps(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format a run to display its contents in capitals.

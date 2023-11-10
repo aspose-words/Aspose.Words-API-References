@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/imagesize/horizontal_resolution/
 Gets the horizontal resolution in DPI.
 
 
+```python
+@property
+def horizontal_resolution(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to read the properties of an image in a shape.

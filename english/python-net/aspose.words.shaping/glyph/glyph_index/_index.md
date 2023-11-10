@@ -14,6 +14,13 @@ url: /python-net/aspose.words.shaping/glyph/glyph_index/
 Index of the glyph (GID) in the physical font.
 
 
+```python
+@property
+def glyph_index(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.shaping](../../)

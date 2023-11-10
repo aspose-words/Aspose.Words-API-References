@@ -15,6 +15,13 @@ Gets a [PatternType](../../patterntype/) for the fill.
 
 
 
+```python
+@property
+def pattern(self) -> aspose.words.drawing.PatternType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

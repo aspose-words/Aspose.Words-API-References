@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/resourcesavingargs/keep_resource_stream_ope
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a resource.
 
+
+```python
+@property
+def keep_resource_stream_open(self) -> bool:
+    ...
+
+@keep_resource_stream_open.setter
+def keep_resource_stream_open(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default is ``False`` and Aspose.Words will close the stream you provided
 in the [ResourceSavingArgs.resource_stream](../resource_stream/) property after writing a resource into it.
 Specify ``True`` to keep the stream open.

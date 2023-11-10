@@ -5,7 +5,7 @@ articleTitle: font_resources_subsetting_size_threshold property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.font_resources_subsetting_size_threshold property. Controls which font resources need subsetting when saving to HTML, MHTML or EPUB"
 type: docs
-weight: 300
+weight: 290
 url: /python-net/aspose.words.saving/htmlsaveoptions/font_resources_subsetting_size_threshold/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/font_resources_subsetting_s
 Controls which font resources need subsetting when saving to HTML, MHTML or EPUB.
 Default is ``0``.
 
+
+
+```python
+@property
+def font_resources_subsetting_size_threshold(self) -> int:
+    ...
+
+@font_resources_subsetting_size_threshold.setter
+def font_resources_subsetting_size_threshold(self, value: int):
+    ...
+
+```
+
+### Remarks
 
 [HtmlSaveOptions.export_font_resources](../export_font_resources/) allows exporting fonts as subsidiary files or as parts of the output
 package. If the document uses many fonts, especially with large number of glyphs, then output size can grow
@@ -28,7 +42,7 @@ Font subsetting works as follows:
 * Setting [HtmlSaveOptions.font_resources_subsetting_size_threshold](./) to a positive value 
   instructs Aspose.Words to subset fonts which file size is larger than the specified value.
   
-* Setting the property to System.Int32.MaxValue
+* Setting the property to int.MaxValue C# constant
   suppresses font subsetting.
   
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable

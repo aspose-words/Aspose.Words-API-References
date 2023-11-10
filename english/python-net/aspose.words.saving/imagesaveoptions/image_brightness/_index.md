@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/image_brightness/
 
 Gets or sets the brightness for the generated images.
 
+
+```python
+@property
+def image_brightness(self) -> float:
+    ...
+
+@image_brightness.setter
+def image_brightness(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 
 
 
+### Remarks
+
 Use the [Shape.ole_format](../shape/ole_format/) property to access the data of an OLE object.
 You do not create instances of the [OleFormat](./) class directly.
 

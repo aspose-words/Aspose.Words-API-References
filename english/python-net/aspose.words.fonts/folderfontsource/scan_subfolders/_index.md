@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/folderfontsource/scan_subfolders/
 Determines whether or not to scan the subfolders.
 
 
+```python
+@property
+def scan_subfolders(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a local system folder which contains fonts as a font source.

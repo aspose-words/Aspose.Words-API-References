@@ -17,6 +17,8 @@ To learn more, visit the [Working With Control Characters](https://docs.aspose.c
 
 
 
+### Remarks
+
 Provides both char and string versions of the same constants. For example:
 string [ControlChar.LINE_BREAK](./LINE_BREAK/) and char [ControlChar.LINE_BREAK_CHAR](./LINE_BREAK_CHAR/) have the same value.
 
@@ -41,7 +43,7 @@ string [ControlChar.LINE_BREAK](./LINE_BREAK/) and char [ControlChar.LINE_BREAK_
 | [LINE_BREAK_CHAR](./LINE_BREAK_CHAR/) | Line break character: (char)11 or "\\v". |
 | [LINE_FEED](./LINE_FEED/) | Line feed character: "\\x000a" or "\\n". Same as [ControlChar.LF](./LF/). |
 | [LINE_FEED_CHAR](./LINE_FEED_CHAR/) | Line feed character: (char)10 or "\\n". |
-| [NON_BREAKING_HYPHEN_CHAR](./NON_BREAKING_HYPHEN_CHAR/) | Nonbreaking Hyphen in Microsoft Word is (char)30. |
+| [NON_BREAKING_HYPHEN_CHAR](./NON_BREAKING_HYPHEN_CHAR/) | Non-breaking Hyphen in Microsoft Word is (char)30. |
 | [NON_BREAKING_SPACE](./NON_BREAKING_SPACE/) | Non-breaking space character: "\\x00a0". |
 | [NON_BREAKING_SPACE_CHAR](./NON_BREAKING_SPACE_CHAR/) | Non-breaking space character: (char)160. |
 | [OPTIONAL_HYPHEN_CHAR](./OPTIONAL_HYPHEN_CHAR/) | Optional Hyphen in Microsoft Word is (char)31. |

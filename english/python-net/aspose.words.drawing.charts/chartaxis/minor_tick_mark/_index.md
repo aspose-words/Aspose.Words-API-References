@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/minor_tick_mark/
 Returns or sets the minor tick marks for the axis.
 
 
+```python
+@property
+def minor_tick_mark(self) -> aspose.words.drawing.charts.AxisTickMark:
+    ...
+
+@minor_tick_mark.setter
+def minor_tick_mark(self, value: aspose.words.drawing.charts.AxisTickMark):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.

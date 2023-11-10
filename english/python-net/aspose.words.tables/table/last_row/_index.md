@@ -15,6 +15,13 @@ Returns the last [Row](../../row/) node in the table.
 
 
 
+```python
+@property
+def last_row(self) -> aspose.words.tables.Row:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove the first and last rows of all tables in a document.

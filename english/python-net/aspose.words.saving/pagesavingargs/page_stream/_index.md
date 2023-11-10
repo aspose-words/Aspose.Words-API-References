@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pagesavingargs/page_stream/
 
 Allows to specify the stream where the document page will be saved to.
 
+
+```python
+@property
+def page_stream(self) -> io.BytesIO:
+    ...
+
+@page_stream.setter
+def page_stream(self, value: io.BytesIO):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to save document pages to streams instead of files.
 
 The default value is ``None``. When this property is ``None``, the document page 

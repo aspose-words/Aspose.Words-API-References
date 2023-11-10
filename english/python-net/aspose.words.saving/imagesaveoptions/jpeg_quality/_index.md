@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/jpeg_quality/
 
 Gets or sets a value determining the quality of the generated JPEG images.
 
+
+```python
+@property
+def jpeg_quality(self) -> int:
+    ...
+
+@jpeg_quality.setter
+def jpeg_quality(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Has effect only when saving to JPEG.
 
 Use this property to get or set the quality of generated images when saving in JPEG format.

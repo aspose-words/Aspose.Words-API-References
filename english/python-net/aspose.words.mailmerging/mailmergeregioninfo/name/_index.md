@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/name/
 Returns the name of region.
 
 
+```python
+@property
+def name(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify mail merge regions.

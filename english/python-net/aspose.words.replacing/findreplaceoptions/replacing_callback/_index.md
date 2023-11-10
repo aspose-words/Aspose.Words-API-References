@@ -14,6 +14,17 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/replacing_callback/
 The user-defined method which is called before every replace occurrence.
 
 
+```python
+@property
+def replacing_callback(self) -> aspose.words.replacing.IReplacingCallback:
+    ...
+
+@replacing_callback.setter
+def replacing_callback(self, value: aspose.words.replacing.IReplacingCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

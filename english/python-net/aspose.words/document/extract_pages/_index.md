@@ -22,8 +22,10 @@ def extract_pages(self, index: int, count: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
-| count | int |  |
+| index | int | The zero-based index of the first page to extract. |
+| count | int | Number of pages to be extracted. |
+
+### Remarks
 
 The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' – the numbering,
 headers/footers and cross tables layout will be preserved.

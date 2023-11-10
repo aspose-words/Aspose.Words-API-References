@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergefield/field_name/
 Gets or sets the name of a data field.
 
 
+```python
+@property
+def field_name(self) -> str:
+    ...
+
+@field_name.setter
+def field_name(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

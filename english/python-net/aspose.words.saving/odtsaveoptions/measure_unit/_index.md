@@ -15,6 +15,20 @@ Allows to specify units of measure to apply to document content.
 The default value is [OdtSaveMeasureUnit.CENTIMETERS](../../odtsavemeasureunit/#CENTIMETERS)
 
 
+
+```python
+@property
+def measure_unit(self) -> aspose.words.saving.OdtSaveMeasureUnit:
+    ...
+
+@measure_unit.setter
+def measure_unit(self, value: aspose.words.saving.OdtSaveMeasureUnit):
+    ...
+
+```
+
+### Remarks
+
 Open Office uses centimeters when specifying lengths, widths and other measurable formatting and 
 content properties in documents whereas MS Office uses inches.
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcitation/suppress_year/
 Gets or sets whether the year information is suppressed from the citation.
 
 
+```python
+@property
+def suppress_year(self) -> bool:
+    ...
+
+@suppress_year.setter
+def suppress_year(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

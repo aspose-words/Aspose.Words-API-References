@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/pageset/odd/
 
 Gets a set with all the odd pages of the document in their original order.
 
+
+```python
+@property
+def odd(self) -> aspose.words.saving.PageSet:
+    ...
+
+```
+
+### Remarks
+
 Odd pages have even indices since page indices are zero-based.
 
 

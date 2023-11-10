@@ -21,7 +21,9 @@ def visit_building_block_start(self, block: aspose.words.buildingblocks.Building
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| block | [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) |  |
+| block | [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) | The object that is being visited. |
+
+### Remarks
 
 Note: A building block node and its children are not visited when you execute a
 Visitor over a [Document](../../document/). If you want to execute a Visitor over a

@@ -17,6 +17,8 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-
 
 
 
+### Remarks
+
 When Aspose.Words saves a document to HTML or related formats and [HtmlSaveOptions.export_font_resources](../htmlsaveoptions/export_font_resources/) 
 is set to ``True``, it saves each font subject for export into a separate file.
 

@@ -21,9 +21,11 @@ def insert_combo_box(self, name: str, items: List[str], selected_index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| items | List[str] |  |
-| selected_index | int |  |
+| name | str | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
+| items | List[str] | The items of the ComboBox. Maximum is 25 items. |
+| selected_index | int | The index of the selected item in the ComboBox. |
+
+### Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 

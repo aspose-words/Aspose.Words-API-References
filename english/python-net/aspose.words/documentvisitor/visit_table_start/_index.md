@@ -21,7 +21,7 @@ def visit_table_start(self, table: aspose.words.tables.Table):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table | [Table](../../../aspose.words.tables/table/) |  |
+| table | [Table](../../../aspose.words.tables/table/) | The object that is being visited. |
 
 ### Returns
 

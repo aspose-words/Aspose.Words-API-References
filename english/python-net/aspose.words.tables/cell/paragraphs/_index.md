@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cell/paragraphs/
 Gets a collection of paragraphs that are immediate children of the cell.
 
 
+```python
+@property
+def paragraphs(self) -> aspose.words.ParagraphCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a table to stay together on the same page.

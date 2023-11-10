@@ -17,6 +17,8 @@ To learn more, visit the [Working with Lists](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 You do not create objects of this class. List level objects are created automatically
 when a list is created. You access [ListLevel](./) objects via the
 [ListLevelCollection](../listlevelcollection/) collection.

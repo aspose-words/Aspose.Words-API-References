@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldxe/is_bold/
 Gets or sets whether to apply bold formatting to the entry's page number.
 
 
+```python
+@property
+def is_bold(self) -> bool:
+    ...
+
+@is_bold.setter
+def is_bold(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.

@@ -16,6 +16,17 @@ Default value for this property is ``True``.
 
 
 
+```python
+@property
+def default_instructions(self) -> bool:
+    ...
+
+@default_instructions.setter
+def default_instructions(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a line for a signature and insert it into a document.

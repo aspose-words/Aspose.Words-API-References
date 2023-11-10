@@ -22,7 +22,9 @@ def __init__(self, doc: aspose.words.DocumentBase):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../documentbase/) |  |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+
+### Remarks
 
 When [Run](../) is created, it belongs to the specified document, but is not
 yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
@@ -46,8 +48,10 @@ def __init__(self, doc: aspose.words.DocumentBase, text: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../documentbase/) |  |
-| text | str |  |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+| text | str | The text of the run. |
+
+### Remarks
 
 When [Run](../) is created, it belongs to the specified document, but is not
 yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.

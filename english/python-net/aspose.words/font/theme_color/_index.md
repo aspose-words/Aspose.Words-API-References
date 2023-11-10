@@ -15,6 +15,17 @@ Gets or sets the theme color in the applied color scheme that is associated with
 
 
 
+```python
+@property
+def theme_color(self) -> aspose.words.themes.ThemeColor:
+    ...
+
+@theme_color.setter
+def theme_color(self, value: aspose.words.themes.ThemeColor):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with theme fonts and colors.

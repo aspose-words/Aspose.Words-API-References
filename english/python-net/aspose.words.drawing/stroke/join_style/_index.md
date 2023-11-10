@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/join_style/
 
 Defines the join style of a polyline.
 
+
+```python
+@property
+def join_style(self) -> aspose.words.drawing.JoinStyle:
+    ...
+
+@join_style.setter
+def join_style(self, value: aspose.words.drawing.JoinStyle):
+    ...
+
+```
+
+### Remarks
+
 The default value is [JoinStyle.ROUND](../../joinstyle/#ROUND).
 
 

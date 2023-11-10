@@ -19,6 +19,8 @@ def start_table(self):
     ...
 ```
 
+### Remarks
+
 The next method to call is [DocumentBuilder.insert_cell()](../insert_cell/#default).
 
 This method starts a nested table when called inside a cell.

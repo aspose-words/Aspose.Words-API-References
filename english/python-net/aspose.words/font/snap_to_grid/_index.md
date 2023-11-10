@@ -15,6 +15,17 @@ Specifies whether the current font should use the document grid characters per l
 when laying out.
 
 
+```python
+@property
+def snap_to_grid(self) -> bool:
+    ...
+
+@snap_to_grid.setter
+def snap_to_grid(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

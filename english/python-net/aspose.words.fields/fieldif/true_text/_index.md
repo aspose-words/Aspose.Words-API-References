@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldif/true_text/
 Gets or sets the text displayed if the comparison expression is true.
 
 
+```python
+@property
+def true_text(self) -> str:
+    ...
+
+@true_text.setter
+def true_text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an IF field.

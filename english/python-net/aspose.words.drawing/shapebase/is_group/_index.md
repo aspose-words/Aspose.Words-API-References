@@ -15,6 +15,13 @@ Returns ``True`` if this is a group shape.
 
 
 
+```python
+@property
+def is_group(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

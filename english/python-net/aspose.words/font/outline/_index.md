@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/outline/
 True if the font is formatted as outline.
 
 
+```python
+@property
+def outline(self) -> bool:
+    ...
+
+@outline.setter
+def outline(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a run of text formatted as outline.

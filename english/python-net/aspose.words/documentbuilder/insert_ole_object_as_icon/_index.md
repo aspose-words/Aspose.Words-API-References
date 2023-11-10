@@ -22,10 +22,10 @@ def insert_ole_object_as_icon(self, file_name: str, is_linked: bool, icon_file: 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| is_linked | bool |  |
-| icon_file | str |  |
-| icon_caption | str |  |
+| file_name | str | Full path to the file. |
+| is_linked | bool | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| icon_file | str | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
+| icon_caption | str | Icon caption. If the value is ``None``, Aspose.Words will use the file name. |
 
 ### Returns
 
@@ -45,11 +45,11 @@ def insert_ole_object_as_icon(self, file_name: str, prog_id: str, is_linked: boo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| prog_id | str |  |
-| is_linked | bool |  |
-| icon_file | str |  |
-| icon_caption | str |  |
+| file_name | str | Full path to the file. |
+| prog_id | str | ProgId of OLE object. |
+| is_linked | bool | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| icon_file | str | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
+| icon_caption | str | Icon caption. If the value is ``None``, Aspose.Words will use the file name. |
 
 ### Returns
 
@@ -63,16 +63,16 @@ Allows to specify icon file and caption. Detects OLE object type using given pro
 
 
 ```python
-def insert_ole_object_as_icon(self, stream: BytesIO, prog_id: str, icon_file: str, icon_caption: str):
+def insert_ole_object_as_icon(self, stream: io.BytesIO, prog_id: str, icon_file: str, icon_caption: str):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
-| prog_id | str |  |
-| icon_file | str |  |
-| icon_caption | str |  |
+| stream | io.BytesIO | Stream containing application data. |
+| prog_id | str | ProgId of OLE object. |
+| icon_file | str | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
+| icon_caption | str | Icon caption. If the value is ``None``, Aspose.Words will use the a predefined icon caption. |
 
 ### Returns
 

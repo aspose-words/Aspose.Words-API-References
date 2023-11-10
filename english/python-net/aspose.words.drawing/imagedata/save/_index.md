@@ -15,13 +15,15 @@ Saves the image into the specified stream.
 
 
 ```python
-def save(self, stream: BytesIO):
+def save(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | The stream where to save the image to. |
+
+### Remarks
 
 Is it the responsibility of the caller to dispose the stream object.
 
@@ -40,7 +42,7 @@ def save(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | The file name where to save the image. |
 
 ## Examples
 

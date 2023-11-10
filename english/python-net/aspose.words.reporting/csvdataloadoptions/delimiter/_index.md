@@ -13,6 +13,20 @@ url: /python-net/aspose.words.reporting/csvdataloadoptions/delimiter/
 
 Gets or sets the character to be used as a column delimiter.
 
+
+```python
+@property
+def delimiter(self) -> str:
+    ...
+
+@delimiter.setter
+def delimiter(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is ',' (comma).
 
 

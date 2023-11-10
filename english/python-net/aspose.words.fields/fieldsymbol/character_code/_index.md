@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldsymbol/character_code/
 Gets or sets the character's code point value in decimal or hexadecimal.
 
 
+```python
+@property
+def character_code(self) -> str:
+    ...
+
+@character_code.setter
+def character_code(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the SYMBOL field.

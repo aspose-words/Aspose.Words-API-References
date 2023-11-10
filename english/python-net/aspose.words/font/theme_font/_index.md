@@ -15,6 +15,17 @@ Gets or sets the theme font in the applied font scheme that is associated with t
 
 
 
+```python
+@property
+def theme_font(self) -> aspose.words.themes.ThemeFont:
+    ...
+
+@theme_font.setter
+def theme_font(self, value: aspose.words.themes.ThemeFont):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with theme fonts and colors.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/page_range_separator/
 Gets or sets the character sequence that is used to separate the start and end of a page range.
 
 
+```python
+@property
+def page_range_separator(self) -> str:
+    ...
+
+@page_range_separator.setter
+def page_range_separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify a bookmark's spanned pages as a page range for an INDEX field entry.

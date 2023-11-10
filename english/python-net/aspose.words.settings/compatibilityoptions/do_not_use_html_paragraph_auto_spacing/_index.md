@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_use_html_para
 Use Fixed Paragraph Spacing for HTML Auto Setting.
 
 
+```python
+@property
+def do_not_use_html_paragraph_auto_spacing(self) -> bool:
+    ...
+
+@do_not_use_html_paragraph_auto_spacing.setter
+def do_not_use_html_paragraph_auto_spacing(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

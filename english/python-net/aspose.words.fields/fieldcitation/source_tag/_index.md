@@ -15,6 +15,17 @@ Gets or sets a value that matches the **Tag** element's value of the source to i
 
 
 
+```python
+@property
+def source_tag(self) -> str:
+    ...
+
+@source_tag.setter
+def source_tag(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

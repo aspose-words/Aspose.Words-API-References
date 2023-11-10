@@ -19,6 +19,8 @@ def remove(self):
     ...
 ```
 
+### Remarks
+
 Style removal has following effects on the document model:
 
 * All references to the style are removed from corresponding paragraphs, runs and tables.

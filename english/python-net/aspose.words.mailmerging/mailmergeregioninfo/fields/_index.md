@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/fields/
 Returns a list of child fields.
 
 
+```python
+@property
+def fields(self) -> List[aspose.words.fields.Field]:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify mail merge regions.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/documentbuilder/italic/
 True if the font is formatted as italic.
 
 
+```python
+@property
+def italic(self) -> bool:
+    ...
+
+@italic.setter
+def italic(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.

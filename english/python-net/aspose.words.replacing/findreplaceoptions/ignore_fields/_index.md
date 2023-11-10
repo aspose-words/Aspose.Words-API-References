@@ -15,6 +15,20 @@ Gets or sets a boolean value indicating either to ignore text inside fields.
 The default value is ``False``.
 
 
+
+```python
+@property
+def ignore_fields(self) -> bool:
+    ...
+
+@ignore_fields.setter
+def ignore_fields(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This option affects whole field (all nodes between
 [NodeType.FIELD_START](../../../aspose.words/nodetype/#FIELD_START) and [NodeType.FIELD_END](../../../aspose.words/nodetype/#FIELD_END)).
 

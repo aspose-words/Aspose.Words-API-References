@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/certificate_hol
 Returns the certificate holder object that contains the certificate was used to sign the document.
 
 
+```python
+@property
+def certificate_holder(self) -> aspose.words.digitalsignatures.CertificateHolder:
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign documents with X.509 certificates.

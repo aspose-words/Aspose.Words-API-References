@@ -21,7 +21,9 @@ def point_to_pixel(self, points: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | float |  |
+| points | float | The value to convert. |
+
+### Remarks
 
 1 inch equals 72 points.
 
@@ -38,8 +40,10 @@ def point_to_pixel(self, points: float, resolution: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | float |  |
-| resolution | float |  |
+| points | float | The value to convert. |
+| resolution | float | The dpi (dots per inch) resolution. |
+
+### Remarks
 
 1 inch equals 72 points.
 

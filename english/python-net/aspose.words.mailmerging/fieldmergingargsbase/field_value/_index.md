@@ -13,6 +13,20 @@ url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/field_value/
 
 Gets or sets the value of the field from the data source.
 
+
+```python
+@property
+def field_value(self) -> object:
+    ...
+
+@field_value.setter
+def field_value(self, value: object):
+    ...
+
+```
+
+### Remarks
+
 This property contains a value that has just been selected from your data source
 for this field by the mail merge engine. You can also replace the value by setting the property.
 

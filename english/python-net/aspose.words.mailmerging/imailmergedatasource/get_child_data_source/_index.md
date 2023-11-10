@@ -21,7 +21,9 @@ def get_child_data_source(self, table_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table_name | str |  |
+| table_name | str | The name of the mail merge region as specified in the template document. Case-insensitive. |
+
+### Remarks
 
 When the Aspose.Words mail merge engines populates a mail merge region with data and encounters the beginning of a nested
 mail merge region in the form of MERGEFIELD TableStart:TableName, it invokes [IMailMergeDataSource.get_child_data_source()](./#str) on the current

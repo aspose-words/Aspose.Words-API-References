@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/crosses/
 
 Specifies how this axis crosses the perpendicular axis.
 
+
+```python
+@property
+def crosses(self) -> aspose.words.drawing.charts.AxisCrosses:
+    ...
+
+@crosses.setter
+def crosses(self, value: aspose.words.drawing.charts.AxisCrosses):
+    ...
+
+```
+
+### Remarks
+
 Default value is [AxisCrosses.AUTOMATIC](../../axiscrosses/#AUTOMATIC).
 
 The property is not supported by MS Office 2016 new charts.

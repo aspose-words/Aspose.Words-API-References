@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/vertical_alignment/
 Returns or sets the vertical alignment of text on each page in a document or section.
 
 
+```python
+@property
+def vertical_alignment(self) -> aspose.words.PageVerticalAlignment:
+    ...
+
+@vertical_alignment.setter
+def vertical_alignment(self, value: aspose.words.PageVerticalAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply and revert page setup settings to sections in a document.

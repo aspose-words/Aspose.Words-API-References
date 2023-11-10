@@ -17,6 +17,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def keep_source_numbering(self) -> bool:
+    ...
+
+@keep_source_numbering.setter
+def keep_source_numbering(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to import a document with numbered lists.

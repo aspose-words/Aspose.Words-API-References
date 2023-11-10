@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/field/type/
 Gets the Microsoft Word field type.
 
 
+```python
+@property
+def type(self) -> aspose.words.fields.FieldType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a field into a document using a field code.

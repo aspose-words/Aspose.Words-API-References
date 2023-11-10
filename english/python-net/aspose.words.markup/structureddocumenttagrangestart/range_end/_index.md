@@ -11,10 +11,17 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/range_end/
 
 ## StructuredDocumentTagRangeStart.range_end property
 
-Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag. 
+Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag.
 Otherwise returns ``None``.
 
 
+
+```python
+@property
+def range_end(self) -> aspose.words.markup.StructuredDocumentTagRangeEnd:
+    ...
+
+```
 
 ### Examples
 

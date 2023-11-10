@@ -17,6 +17,8 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 
 
 
+### Remarks
+
 If a record shall be merged into a merged document, then no information is needed about that record. 
 However, if a given record shall not be merged into a merged document, then the value of the unique key 
 for that record shall be stored in the [OdsoRecipientData.unique_tag](./unique_tag/) property of this object to indicate this exclusion.

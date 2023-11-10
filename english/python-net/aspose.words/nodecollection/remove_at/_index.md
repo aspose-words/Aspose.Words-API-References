@@ -21,7 +21,7 @@ def remove_at(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
+| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
 
 ### Examples
 

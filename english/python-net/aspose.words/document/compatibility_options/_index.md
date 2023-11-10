@@ -16,6 +16,13 @@ tab of the **Options** dialog in Word).
 
 
 
+```python
+@property
+def compatibility_options(self) -> aspose.words.settings.CompatibilityOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to optimize the document for different versions of Microsoft Word.

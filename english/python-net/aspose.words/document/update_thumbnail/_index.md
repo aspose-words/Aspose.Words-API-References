@@ -22,7 +22,9 @@ def update_thumbnail(self, options: aspose.words.rendering.ThumbnailGeneratingOp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/) |  |
+| options | [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/) | The generating options to use. |
+
+### Remarks
 
 The [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/) allows you to specify the source of thumbnail, size and other options.
 If attempt to generate thumbnail fails, doesn't change one.

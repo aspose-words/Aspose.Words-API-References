@@ -15,6 +15,13 @@ Returns the number of [ChartSeries](../../chartseries/) in this collection.
 
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add and remove series data in a chart.

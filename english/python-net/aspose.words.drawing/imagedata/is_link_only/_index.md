@@ -15,6 +15,13 @@ Returns ``True`` if the image is linked and not stored in the document.
 
 
 
+```python
+@property
+def is_link_only(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to edit a shape's image data.

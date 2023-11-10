@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/SECTION_BREAK_CHAR/
 End of section character: (char)12 or "\\f".
 
 
+```python
+@property
+def SECTION_BREAK_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

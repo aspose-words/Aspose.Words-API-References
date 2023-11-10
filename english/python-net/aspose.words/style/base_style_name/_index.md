@@ -13,6 +13,20 @@ url: /python-net/aspose.words/style/base_style_name/
 
 Gets/sets the name of the style this style is based on.
 
+
+```python
+@property
+def base_style_name(self) -> str:
+    ...
+
+@base_style_name.setter
+def base_style_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This will be an empty string if the style is not based on any other style and it can be set
 to an empty string.
 

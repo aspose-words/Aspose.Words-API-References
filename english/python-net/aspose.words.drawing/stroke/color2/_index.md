@@ -13,8 +13,23 @@ url: /python-net/aspose.words.drawing/stroke/color2/
 
 Defines a second color for a stroke.
 
+
+```python
+@property
+def color2(self) -> aspose.pydrawing.Color:
+    ...
+
+@color2.setter
+def color2(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 The default value for a [Shape](../../shape/) is
-System.Drawing.Color.White.
+aspose.pydrawing.Color.white.
+
 
 
 

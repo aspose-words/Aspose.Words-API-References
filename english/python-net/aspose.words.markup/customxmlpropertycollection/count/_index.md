@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/customxmlpropertycollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fonts/fontsettings/default_instance/
 
 Static default font settings.
 
+
+```python
+@property
+def default_instance(self) -> aspose.words.fonts.FontSettings:
+    ...
+
+```
+
+### Remarks
+
 This instance is used by default in a document unless [Document.font_settings](../../../aspose.words/document/font_settings/) is specified.
 
 

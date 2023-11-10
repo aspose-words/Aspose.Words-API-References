@@ -16,6 +16,17 @@ while building a report.
 
 
 
+```python
+@property
+def options(self) -> aspose.words.reporting.ReportBuildOptions:
+    ...
+
+@options.setter
+def options(self, value: aspose.words.reporting.ReportBuildOptions):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.reporting](../../)

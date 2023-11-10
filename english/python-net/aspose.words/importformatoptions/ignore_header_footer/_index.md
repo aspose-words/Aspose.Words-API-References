@@ -17,6 +17,17 @@ The default value is ``True``.
 
 
 
+```python
+@property
+def ignore_header_footer(self) -> bool:
+    ...
+
+@ignore_header_footer.setter
+def ignore_header_footer(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specifies ignoring or not source formatting of headers/footers content.

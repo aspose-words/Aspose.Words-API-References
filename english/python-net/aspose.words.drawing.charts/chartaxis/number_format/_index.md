@@ -15,6 +15,13 @@ Returns a [ChartNumberFormat](../../chartnumberformat/) object that allows defin
 
 
 
+```python
+@property
+def number_format(self) -> aspose.words.drawing.charts.ChartNumberFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set formatting for chart values.

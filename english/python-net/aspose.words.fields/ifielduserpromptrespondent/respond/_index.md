@@ -24,8 +24,8 @@ def respond(self, prompt_text: str, default_response: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prompt_text | str |  |
-| default_response | str |  |
+| prompt_text | str | Prompt text (i.e. title of the prompt window). |
+| default_response | str | Default user response (i.e. initial value contained in the prompt window). |
 
 ### Returns
 

@@ -17,6 +17,20 @@ RTL (right-to-left) text, it will not be displayed correctly.
 Default value is ``False``.
 
 
+
+```python
+@property
+def export_compact_size(self) -> bool:
+    ...
+
+@export_compact_size.setter
+def export_compact_size(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If the document that you want to convert to RTF using Aspose.Words does not contain
 right-to-left text in languages like Arabic, then you can set this option to ``True``
 to reduce the size of the resulting RTF.

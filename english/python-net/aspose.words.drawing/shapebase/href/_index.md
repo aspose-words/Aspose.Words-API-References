@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/href/
 
 Gets or sets the full hyperlink address for a shape.
 
+
+```python
+@property
+def href(self) -> str:
+    ...
+
+@href.setter
+def href(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 Below are examples of valid values for this property:

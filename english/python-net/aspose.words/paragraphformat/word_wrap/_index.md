@@ -16,6 +16,17 @@ the current paragraph. Otherwise Latin text is wrapped by whole words.
 
 
 
+```python
+@property
+def word_wrap(self) -> bool:
+    ...
+
+@word_wrap.setter
+def word_wrap(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set special properties for Asian typography.

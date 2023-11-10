@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 Provides access to fill and line formatting of the data labels.
 
 
+```python
+@property
+def format(self) -> aspose.words.drawing.charts.ChartFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set fill, stroke and callout formatting for chart data labels.

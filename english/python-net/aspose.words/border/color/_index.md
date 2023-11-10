@@ -14,6 +14,17 @@ url: /python-net/aspose.words/border/color/
 Gets or sets the border color.
 
 
+```python
+@property
+def color(self) -> aspose.pydrawing.Color:
+    ...
+
+@color.setter
+def color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a string surrounded by a border into a document.

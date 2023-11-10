@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/all_caps/
 True if the font is formatted as all capital letters.
 
 
+```python
+@property
+def all_caps(self) -> bool:
+    ...
+
+@all_caps.setter
+def all_caps(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format a run to display its contents in capitals.

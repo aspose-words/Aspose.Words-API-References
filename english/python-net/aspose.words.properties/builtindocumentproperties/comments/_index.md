@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/comments/
 Gets or sets the document comments.
 
 
+```python
+@property
+def comments(self) -> str:
+    ...
+
+@comments.setter
+def comments(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with built-in document properties in the "Description" category.

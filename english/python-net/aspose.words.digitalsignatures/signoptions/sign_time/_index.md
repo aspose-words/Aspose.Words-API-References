@@ -12,9 +12,19 @@ url: /python-net/aspose.words.digitalsignatures/signoptions/sign_time/
 ## SignOptions.sign_time property
 
 The date of signing.
-Default value is **current time** (System.DateTime.Now).
+Default value is **current time** (datetime.datetime.now)
 
 
+```python
+@property
+def sign_time(self) -> datetime.datetime:
+    ...
+
+@sign_time.setter
+def sign_time(self, value: datetime.datetime):
+    ...
+
+```
 
 ### Examples
 

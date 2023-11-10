@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldseq/sequence_identifier/
 Gets or sets the name assigned to the series of items that are to be numbered.
 
 
+```python
+@property
+def sequence_identifier(self) -> str:
+    ...
+
+@sequence_identifier.setter
+def sequence_identifier(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate a TOC field with entries using SEQ fields.

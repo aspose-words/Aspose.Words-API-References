@@ -13,6 +13,20 @@ url: /python-net/aspose.words.notes/footnoteoptions/columns/
 
 Specifies the number of columns with which the footnotes area is formatted.
 
+
+```python
+@property
+def columns(self) -> int:
+    ...
+
+@columns.setter
+def columns(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 If this property has the value of 0, the footnotes area is formatted with a number of columns based on
 the number of columns on the displayed page. The default value is 0.
 

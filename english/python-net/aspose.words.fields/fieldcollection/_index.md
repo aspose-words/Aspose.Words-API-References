@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 An instance of this collection iterates fields which start fall within the specified range.
 
 The [FieldCollection](./) collection does not own the fields it contains, rather, is just a selection of fields.

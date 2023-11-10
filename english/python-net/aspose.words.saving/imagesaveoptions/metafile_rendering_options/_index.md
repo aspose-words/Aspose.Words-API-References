@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/imagesaveoptions/metafile_rendering_options
 
 Allows to specify how metafiles are treated in the rendered output.
 
+
+```python
+@property
+def metafile_rendering_options(self) -> aspose.words.saving.MetafileRenderingOptions:
+    ...
+
+```
+
+### Remarks
+
 When [MetafileRenderingMode.VECTOR](../../metafilerenderingmode/#VECTOR) is specified, Aspose.Words renders
 metafile to vector graphics using its own metafile rendering engine first and then renders vector
 graphics to the image.

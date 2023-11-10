@@ -5,7 +5,7 @@ articleTitle: SpecialChar class
 second_title: Aspose.Words for Python
 description: "aspose.words.SpecialChar class. Base class for special characters in the document"
 type: docs
-weight: 1090
+weight: 1100
 url: /python-net/aspose.words/specialchar/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+
+### Remarks
 
 A Microsoft Word document can include a number of special characters
 that represent fields, form fields, shapes, OLE objects, footnotes etc. For the list
@@ -59,7 +61,7 @@ Aspose.Words does not provide detailed programmatic access.
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
-|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_text()](./get_text/#default) | Gets the special character that this node represents. |
 |[ next_pre_order(root_node)](../node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |

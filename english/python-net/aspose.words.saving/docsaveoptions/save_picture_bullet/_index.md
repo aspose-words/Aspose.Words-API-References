@@ -15,6 +15,20 @@ When ``False``, PictureBullet data is not saved to output document.
 Default value is ``True``.
 
 
+
+```python
+@property
+def save_picture_bullet(self) -> bool:
+    ...
+
+@save_picture_bullet.setter
+def save_picture_bullet(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This option is provided for Word 97, which cannot work correctly with PictureBullet data. 
 To remove PictureBullet data, set the option to "false".
 

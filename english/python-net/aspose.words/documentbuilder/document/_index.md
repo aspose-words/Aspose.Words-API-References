@@ -15,6 +15,17 @@ Gets or sets the [DocumentBuilder.document](./) object that this object is attac
 
 
 
+```python
+@property
+def document(self) -> aspose.words.Document:
+    ...
+
+@document.setter
+def document(self, value: aspose.words.Document):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply and revert page setup settings to sections in a document.

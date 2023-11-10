@@ -15,6 +15,13 @@ Returns ``True`` if this node has any child nodes.
 
 
 
+```python
+@property
+def has_child_nodes(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to combine the rows from two tables into one.

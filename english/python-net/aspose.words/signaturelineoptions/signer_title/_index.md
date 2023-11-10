@@ -12,9 +12,20 @@ url: /python-net/aspose.words/signaturelineoptions/signer_title/
 ## SignatureLineOptions.signer_title property
 
 Gets or sets suggested signer's title.
-Default value for this property is **empty string** (System.String.Empty).
+Default value for this property is **empty string** ().
 
 
+
+```python
+@property
+def signer_title(self) -> str:
+    ...
+
+@signer_title.setter
+def signer_title(self, value: str):
+    ...
+
+```
 
 ### Examples
 

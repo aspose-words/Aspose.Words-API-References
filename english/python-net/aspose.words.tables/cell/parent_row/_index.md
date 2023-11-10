@@ -13,8 +13,13 @@ url: /python-net/aspose.words.tables/cell/parent_row/
 
 Returns the parent row of the cell.
 
-Equivalent to Aspose.Words.Node.FirstNonMarkupParentNode casted to [Row](../../row/).
 
+```python
+@property
+def parent_row(self) -> aspose.words.tables.Row:
+    ...
+
+```
 
 ### Examples
 

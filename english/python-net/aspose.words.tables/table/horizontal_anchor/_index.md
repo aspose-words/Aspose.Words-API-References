@@ -16,6 +16,17 @@ Default value is [RelativeHorizontalPosition.COLUMN](../../../aspose.words.drawi
 
 
 
+```python
+@property
+def horizontal_anchor(self) -> aspose.words.drawing.RelativeHorizontalPosition:
+    ...
+
+@horizontal_anchor.setter
+def horizontal_anchor(self, value: aspose.words.drawing.RelativeHorizontalPosition):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with floating tables properties.

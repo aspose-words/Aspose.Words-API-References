@@ -21,7 +21,9 @@ def notify(self, args: aspose.words.layout.PageLayoutCallbackArgs):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/) |  |
+| args | [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/) | An argument of the event. |
+
+### Remarks
 
 Exception when thrown by implementation aborts layout build process.
 

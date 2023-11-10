@@ -16,6 +16,13 @@ Specifies a unique read-only persistent numerical Id for this **SDT**.
 
 
 
+```python
+@property
+def id(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

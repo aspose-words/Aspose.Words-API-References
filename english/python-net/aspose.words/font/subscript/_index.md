@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/subscript/
 True if the font is formatted as subscript.
 
 
+```python
+@property
+def subscript(self) -> bool:
+    ...
+
+@subscript.setter
+def subscript(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format text to offset its position.

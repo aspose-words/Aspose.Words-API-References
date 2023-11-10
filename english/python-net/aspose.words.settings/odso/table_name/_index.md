@@ -15,6 +15,17 @@ Specifies the particular set of data that a source shall be connected to within 
 The default value is an empty string.
 
 
+```python
+@property
+def table_name(self) -> str:
+    ...
+
+@table_name.setter
+def table_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.

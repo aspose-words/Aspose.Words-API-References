@@ -16,6 +16,17 @@ than the body of the actual e-mail. The default value is ``False``.
 
 
 
+```python
+@property
+def mail_as_attachment(self) -> bool:
+    ...
+
+@mail_as_attachment.setter
+def mail_as_attachment(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.

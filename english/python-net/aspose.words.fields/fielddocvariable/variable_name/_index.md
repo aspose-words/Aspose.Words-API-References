@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddocvariable/variable_name/
 Gets or sets the name of the document variable to retrieve.
 
 
+```python
+@property
+def variable_name(self) -> str:
+    ...
+
+@variable_name.setter
+def variable_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use DOCPROPERTY fields to display document properties and variables.

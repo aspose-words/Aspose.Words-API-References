@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/resourcesavingargs/resource_file_uri/
 
 Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document.
 
+
+```python
+@property
+def resource_file_uri(self) -> str:
+    ...
+
+@resource_file_uri.setter
+def resource_file_uri(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to change URIs of resource files exported to fixed page HTML or SVG documents.
 
 Aspose.Words automatically generates an URI for every resource file during export to fixed page HTML 

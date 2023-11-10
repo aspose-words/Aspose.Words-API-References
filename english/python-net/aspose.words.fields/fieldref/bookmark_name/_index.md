@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldref/bookmark_name/
 Gets or sets the referenced bookmark's name.
 
 
+```python
+@property
+def bookmark_name(self) -> str:
+    ...
+
+@bookmark_name.setter
+def bookmark_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert REF fields to reference bookmarks.

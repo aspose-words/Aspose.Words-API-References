@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/documentpartsavingargs/document_part_file_n
 
 Gets or sets the file name (without path) where the document part will be saved to.
 
+
+```python
+@property
+def document_part_file_name(self) -> str:
+    ...
+
+@document_part_file_name.setter
+def document_part_file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to redefine how the document part file names are generated
 during export to HTML or EPUB.
 

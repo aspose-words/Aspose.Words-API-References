@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldlink/insert_as_html/
 Gets or sets whether to insert the linked object as HTML format text.
 
 
+```python
+@property
+def insert_as_html(self) -> bool:
+    ...
+
+@insert_as_html.setter
+def insert_as_html(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

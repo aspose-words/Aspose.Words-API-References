@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/axis_between_categories/
 
 Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
 
+
+```python
+@property
+def axis_between_categories(self) -> bool:
+    ...
+
+@axis_between_categories.setter
+def axis_between_categories(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The property has effect only for value axes. It is not supported by MS Office 2016 new charts.
 
 

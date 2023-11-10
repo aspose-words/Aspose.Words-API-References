@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Compares the values designated by the expressions [FieldNextIf.left_expression](./left_expression/) and [FieldNextIf.right_expression](./right_expression/)
 in comparison using the operator designated by [FieldNextIf.comparison_operator](./comparison_operator/). If the comparison is true,
 the next data record is merged into the current merge document. (Merge fields that follow the NEXTIF in the main

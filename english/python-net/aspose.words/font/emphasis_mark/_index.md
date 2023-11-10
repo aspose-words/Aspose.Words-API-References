@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/emphasis_mark/
 Gets or sets the emphasis mark applied to this formatting.
 
 
+```python
+@property
+def emphasis_mark(self) -> aspose.words.EmphasisMark:
+    ...
+
+@emphasis_mark.setter
+def emphasis_mark(self, value: aspose.words.EmphasisMark):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add additional character rendered above/below the glyph-character.

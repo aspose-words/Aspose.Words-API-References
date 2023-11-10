@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/security/
 
 Specifies the security level of a document as a numeric value.
 
+
+```python
+@property
+def security(self) -> aspose.words.properties.DocumentSecurity:
+    ...
+
+@security.setter
+def security(self, value: aspose.words.properties.DocumentSecurity):
+    ...
+
+```
+
+### Remarks
+
 Use this property for informational purposes only because Microsoft Word does not always
 set this property. This property is available in DOC and OOXML documents only.
 

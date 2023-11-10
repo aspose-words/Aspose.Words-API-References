@@ -19,6 +19,8 @@ def join_runs_with_same_formatting(self):
     ...
 ```
 
+### Remarks
+
 This is an optimization method. Some documents contain adjacent runs with same formatting.
 Usually this occurs if a document was intensively edited manually.
 You can reduce the document size and speed up further processing by joining these runs.

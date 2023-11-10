@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/restart_after_level/
 
 Sets or returns the list level that must appear before the specified list level restarts numbering.
 
+
+```python
+@property
+def restart_after_level(self) -> int:
+    ...
+
+@restart_after_level.setter
+def restart_after_level(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The value of -1 means the numbering will continue.
 
 

@@ -14,6 +14,16 @@ url: /python-net/aspose.words.markup/xmlmapping/prefix_mappings/
 Returns XML namespace prefix mappings to evaluate the [XmlMapping.xpath](../xpath/).
 
 
+
+```python
+@property
+def prefix_mappings(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Specifies the set of prefix mappings, which shall be used to interpret the XPath expression
 when the XPath expression is evaluated against the custom XML data parts in the document.
 

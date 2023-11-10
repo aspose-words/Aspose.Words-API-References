@@ -15,6 +15,17 @@ Gets or sets [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfacto
 
 
 
+```python
+@property
+def text_shaper_factory(self) -> aspose.words.shaping.ITextShaperFactory:
+    ...
+
+@text_shaper_factory.setter
+def text_shaper_factory(self, value: aspose.words.shaping.ITextShaperFactory):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.layout](../../)

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/olepackage/file_name/
 Gets or sets OLE Package file name.
 
 
+```python
+@property
+def file_name(self) -> str:
+    ...
+
+@file_name.setter
+def file_name(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

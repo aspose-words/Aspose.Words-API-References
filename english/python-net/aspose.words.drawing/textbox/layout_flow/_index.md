@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/layout_flow/
 
 Determines the flow of the text layout in a shape.
 
+
+```python
+@property
+def layout_flow(self) -> aspose.words.drawing.LayoutFlow:
+    ...
+
+@layout_flow.setter
+def layout_flow(self, value: aspose.words.drawing.LayoutFlow):
+    ...
+
+```
+
+### Remarks
+
 The default value is [LayoutFlow.HORIZONTAL](../../layoutflow/#HORIZONTAL).
 
 

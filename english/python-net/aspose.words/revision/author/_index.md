@@ -15,6 +15,17 @@ Gets or sets the author of this revision. Can not be empty string or ``None``.
 
 
 
+```python
+@property
+def author(self) -> str:
+    ...
+
+@author.setter
+def author(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with revisions in a document.

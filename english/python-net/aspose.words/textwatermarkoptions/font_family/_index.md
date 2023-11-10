@@ -14,6 +14,17 @@ url: /python-net/aspose.words/textwatermarkoptions/font_family/
 Gets or sets font family name. The default value is "Calibri".
 
 
+```python
+@property
+def font_family(self) -> str:
+    ...
+
+@font_family.setter
+def font_family(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a text watermark.

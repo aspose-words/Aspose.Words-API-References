@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/imagedata/borders/
 Gets the collection of borders of the image. Borders only have effect for inline images.
 
 
+```python
+@property
+def borders(self) -> aspose.words.BorderCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to edit a shape's image data.

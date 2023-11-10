@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/generalformatcollection/count/
 Gets the total number of the items in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to format field results.

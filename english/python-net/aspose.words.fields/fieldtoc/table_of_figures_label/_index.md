@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/table_of_figures_label/
 Gets or sets the name of the sequence identifier used when building a table of figures.
 
 
+```python
+@property
+def table_of_figures_label(self) -> str:
+    ...
+
+@table_of_figures_label.setter
+def table_of_figures_label(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate a TOC field with entries using SEQ fields.

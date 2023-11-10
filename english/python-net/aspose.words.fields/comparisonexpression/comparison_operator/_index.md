@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/comparisonexpression/comparison_operator/
 Gets the comparison operator.
 
 
+```python
+@property
+def comparison_operator(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -21,7 +21,7 @@ def visit_shape_end(self, shape: aspose.words.drawing.Shape):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](../../../aspose.words.drawing/shape/) |  |
+| shape | [Shape](../../../aspose.words.drawing/shape/) | The object that is being visited. |
 
 ### Returns
 

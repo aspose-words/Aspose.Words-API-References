@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/formfield/max_length/
 Maximum length for the text field. Zero when the length is not limited.
 
 
+```python
+@property
+def max_length(self) -> int:
+    ...
+
+@max_length.setter
+def max_length(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

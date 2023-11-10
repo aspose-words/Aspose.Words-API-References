@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/row/is_last_row/
 True if this is the last row in a table; false otherwise.
 
 
+```python
+@property
+def is_last_row(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a table to stay together on the same page.

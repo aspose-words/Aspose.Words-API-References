@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/text_compression/
 
 Specifies compression type to be used for all textual content in the document.
 
+
+```python
+@property
+def text_compression(self) -> aspose.words.saving.PdfTextCompression:
+    ...
+
+@text_compression.setter
+def text_compression(self, value: aspose.words.saving.PdfTextCompression):
+    ...
+
+```
+
+### Remarks
+
 Default is [PdfTextCompression.FLATE](../../pdftextcompression/#FLATE).
 
 Significantly increases output size when saving a document without compression.

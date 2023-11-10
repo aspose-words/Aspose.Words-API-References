@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/alignment/
 
 Gets or sets the justification of the actual number of the list item.
 
+
+```python
+@property
+def alignment(self) -> aspose.words.lists.ListLevelAlignment:
+    ...
+
+@alignment.setter
+def alignment(self, value: aspose.words.lists.ListLevelAlignment):
+    ...
+
+```
+
+### Remarks
+
 The list label is justified relative to the [ListLevel.number_position](../number_position/) property.
 
 

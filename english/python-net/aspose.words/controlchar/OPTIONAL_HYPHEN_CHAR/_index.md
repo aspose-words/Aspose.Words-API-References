@@ -13,6 +13,16 @@ url: /python-net/aspose.words/controlchar/OPTIONAL_HYPHEN_CHAR/
 
 Optional Hyphen in Microsoft Word is (char)31.
 
+
+```python
+@property
+def OPTIONAL_HYPHEN_CHAR(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Optional Hyphen in Microsoft Word does not correspond to the Unicode character U+00AD soft hyphen.
 Instead, it inserts internal information that tells Word about a possible hyphenation point.
 

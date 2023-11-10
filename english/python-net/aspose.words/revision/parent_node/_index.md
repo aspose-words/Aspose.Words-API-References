@@ -15,6 +15,16 @@ Gets the immediate parent node (owner) of this revision.
 This property will work for any revision type other than [RevisionType.STYLE_DEFINITION_CHANGE](../../revisiontype/#STYLE_DEFINITION_CHANGE).
 
 
+
+```python
+@property
+def parent_node(self) -> aspose.words.Node:
+    ...
+
+```
+
+### Remarks
+
 If this revision relates to change of Style formatting, use [Revision.parent_style](../parent_style/) instead.
 
 

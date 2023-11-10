@@ -14,6 +14,13 @@ url: /python-net/aspose.words/headerfooter/header_footer_type/
 Gets the type of this header/footer.
 
 
+```python
+@property
+def header_footer_type(self) -> aspose.words.HeaderFooterType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a header and a footer.

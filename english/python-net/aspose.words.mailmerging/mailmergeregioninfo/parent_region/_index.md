@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/parent_region/
 Returns parent region info (null for top-level region).
 
 
+```python
+@property
+def parent_region(self) -> aspose.words.mailmerging.MailMergeRegionInfo:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create, list, and read mail merge regions.

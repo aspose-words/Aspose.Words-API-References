@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/sign_time/
 Gets the time the document was signed.
 
 
+```python
+@property
+def sign_time(self) -> datetime.datetime:
+    ...
+
+```
+
 ### Examples
 
 Shows how to validate and display information about each signature in a document.

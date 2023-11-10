@@ -14,6 +14,16 @@ url: /python-net/aspose.words.drawing/shapebase/is_word_art/
 Returns ``True`` if this shape is a WordArt object.
 
 
+
+```python
+@property
+def is_word_art(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 Works till 2007 compatibility mode.
 In 2010 and higher compatibility mode WordArt is just a TextBox with fancy fonts.
 

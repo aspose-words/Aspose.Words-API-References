@@ -21,7 +21,7 @@ def add(self, part: aspose.words.markup.CustomPart):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| part | [CustomPart](../../custompart/) |  |
+| part | [CustomPart](../../custompart/) | The item to add. |
 
 ### Examples
 

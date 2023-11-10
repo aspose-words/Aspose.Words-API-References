@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/saveoptions/progress_callback/
 
 Called during saving a document and accepts data about saving progress.
 
+
+```python
+@property
+def progress_callback(self) -> aspose.words.saving.IDocumentSavingCallback:
+    ...
+
+@progress_callback.setter
+def progress_callback(self, value: aspose.words.saving.IDocumentSavingCallback):
+    ...
+
+```
+
+### Remarks
+
 Progress is reported when saving to [SaveFormat.DOCX](../../../aspose.words/saveformat/#DOCX), [SaveFormat.FLAT_OPC](../../../aspose.words/saveformat/#FLAT_OPC),
 [SaveFormat.DOCM](../../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTM](../../../aspose.words/saveformat/#DOTM), [SaveFormat.DOTX](../../../aspose.words/saveformat/#DOTX),
 [SaveFormat.DOC](../../../aspose.words/saveformat/#DOC), [SaveFormat.DOT](../../../aspose.words/saveformat/#DOT),

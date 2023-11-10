@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/export_paragraph_graphics_to
 
 Gets or sets a value determining whether a paragraph graphic should be marked as an artifact.
 
+
+```python
+@property
+def export_paragraph_graphics_to_artifact(self) -> bool:
+    ...
+
+@export_paragraph_graphics_to_artifact.setter
+def export_paragraph_graphics_to_artifact(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default value is ``False`` and paragraph graphics (underlines, text emphasis, etc.)
 will be marked as "Span" in the logical structure of the document.
 

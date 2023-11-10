@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/imagedata/gray_scale/
 
 Determines whether a picture will display in grayscale mode.
 
+
+```python
+@property
+def gray_scale(self) -> bool:
+    ...
+
+@gray_scale.setter
+def gray_scale(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

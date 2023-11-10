@@ -14,6 +14,13 @@ url: /python-net/aspose.words/pagesetup/borders/
 Gets a collection of the page borders.
 
 
+```python
+@property
+def borders(self) -> aspose.words.BorderCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create green wavy page border with a shadow.

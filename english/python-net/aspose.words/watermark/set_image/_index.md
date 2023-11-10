@@ -21,8 +21,10 @@ def set_image(self, image_path: str, options: aspose.words.ImageWatermarkOptions
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image_path | str |  |
-| options | [ImageWatermarkOptions](../../imagewatermarkoptions/) |  |
+| image_path | str | Path to the image file that is displayed as a watermark. |
+| options | [ImageWatermarkOptions](../../imagewatermarkoptions/) | Defines additional options for the image watermark. |
+
+### Remarks
 
 If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``None``, the watermark will be set with default options.
 
@@ -31,7 +33,7 @@ If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``None``, the waterm
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentNullException | Throws when the path is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``None``. |
 
 ### See Also
 

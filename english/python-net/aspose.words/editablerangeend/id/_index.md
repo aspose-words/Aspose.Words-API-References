@@ -14,6 +14,17 @@ url: /python-net/aspose.words/editablerangeend/id/
 Specifies the identifier of the editable range.
 
 
+```python
+@property
+def id(self) -> int:
+    ...
+
+@id.setter
+def id(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with an editable range.

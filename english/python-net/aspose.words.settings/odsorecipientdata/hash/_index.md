@@ -17,6 +17,17 @@ The default value is 0.
 
 
 
+```python
+@property
+def hash(self) -> int:
+    ...
+
+@hash.setter
+def hash(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.

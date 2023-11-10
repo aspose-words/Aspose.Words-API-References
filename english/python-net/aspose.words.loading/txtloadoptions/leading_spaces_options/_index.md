@@ -12,9 +12,20 @@ url: /python-net/aspose.words.loading/txtloadoptions/leading_spaces_options/
 ## TxtLoadOptions.leading_spaces_options property
 
 Gets or sets preferred option of a leading space handling.
-Default value is Aspose.Words.Loading.TxtLeadingSpacesOptions.ConvertToIndent.
+Default value is [TxtLeadingSpacesOptions.CONVERT_TO_INDENT](../../txtleadingspacesoptions/#CONVERT_TO_INDENT).
 
 
+
+```python
+@property
+def leading_spaces_options(self) -> aspose.words.loading.TxtLeadingSpacesOptions:
+    ...
+
+@leading_spaces_options.setter
+def leading_spaces_options(self, value: aspose.words.loading.TxtLeadingSpacesOptions):
+    ...
+
+```
 
 ### Examples
 

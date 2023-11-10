@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/PARAGRAPH_BREAK_CHAR/
 End of paragraph character: (char)13 or "\\r".
 
 
+```python
+@property
+def PARAGRAPH_BREAK_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

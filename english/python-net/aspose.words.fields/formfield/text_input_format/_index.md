@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/text_input_format/
 
 Returns or sets the text formatting for a text form field.
 
+
+```python
+@property
+def text_input_format(self) -> str:
+    ...
+
+@text_input_format.setter
+def text_input_format(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 If the text form field contains regular text, then valid format strings are
 "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" and "TITLE CASE". The strings
 are case-insensitive.

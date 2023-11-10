@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/titles_of_par
 
 Each string in the array specifies the name of a part in the document.
 
+
+```python
+@property
+def titles_of_parts(self) -> List[str]:
+    ...
+
+@titles_of_parts.setter
+def titles_of_parts(self, value: List[str]):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words does not update this property.
 
 

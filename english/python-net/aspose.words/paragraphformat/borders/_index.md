@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraphformat/borders/
 Gets collection of borders of the paragraph.
 
 
+```python
+@property
+def borders(self) -> aspose.words.BorderCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a paragraph with a top border.

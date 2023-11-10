@@ -25,6 +25,8 @@ def insert(self, index: int, x_value: aspose.words.drawing.charts.ChartXValue):
 | index | int |  |
 | x_value | [ChartXValue](../../chartxvalue/) |  |
 
+### Remarks
+
 The corresponding data point with default formatting will be inserted into the data point collection. And,
 if data labels are displayed, the corresponding data label with default formatting will be inserted too.
 
@@ -44,6 +46,8 @@ def insert(self, index: int, x_value: aspose.words.drawing.charts.ChartXValue, y
 | index | int |  |
 | x_value | [ChartXValue](../../chartxvalue/) |  |
 | y_value | [ChartYValue](../../chartyvalue/) |  |
+
+### Remarks
 
 The corresponding data point with default formatting will be inserted into the data point collection. And,
 if data labels are displayed, the corresponding data label with default formatting will be inserted too.
@@ -65,6 +69,8 @@ def insert(self, index: int, x_value: aspose.words.drawing.charts.ChartXValue, y
 | x_value | [ChartXValue](../../chartxvalue/) |  |
 | y_value | [ChartYValue](../../chartyvalue/) |  |
 | bubble_size | float |  |
+
+### Remarks
 
 The corresponding data point with default formatting will be inserted into the data point collection. And,
 if data labels are displayed, the corresponding data label with default formatting will be inserted too.

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves, and optionally sets, the document author's name, as recorded in the **Author** property of the
 built-in document properties.
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/taskpane/width/
 Specifies the default width value for this task pane instance.
 
 
+```python
+@property
+def width(self) -> float:
+    ...
+
+@width.setter
+def width(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

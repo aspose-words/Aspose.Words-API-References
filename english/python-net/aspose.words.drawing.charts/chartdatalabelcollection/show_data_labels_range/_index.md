@@ -15,6 +15,20 @@ Allows to specify whether values from data labels range to be displayed in the d
 Default value is ``False``.
 
 
+
+```python
+@property
+def show_data_labels_range(self) -> bool:
+    ...
+
+@show_data_labels_range.setter
+def show_data_labels_range(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.show_data_labels_range](../../chartdatalabel/show_data_labels_range/) property.
 

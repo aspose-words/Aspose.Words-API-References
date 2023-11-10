@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcompare/right_expression/
 Gets or sets the right part of the comparison expression.
 
 
+```python
+@property
+def right_expression(self) -> str:
+    ...
+
+@right_expression.setter
+def right_expression(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to compare expressions using a COMPARE field.

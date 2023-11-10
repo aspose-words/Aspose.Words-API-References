@@ -35,7 +35,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [compliance](./compliance/) | Specifies the PDF standards compliance level for output documents. |
 | [create_note_hyperlinks](./create_note_hyperlinks/) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is ``False``. |
 | [custom_properties_export](./custom_properties_export/) | Gets or sets a value determining the way [Document.custom_document_properties](../../aspose.words/document/custom_document_properties/) are exported to PDF file. |
-| [default_template](../saveoptions/default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** (System.String.Empty).<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [default_template](../saveoptions/default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [digital_signature_details](./digital_signature_details/) | Gets or sets the details for signing the output PDF document. |
 | [display_doc_title](./display_doc_title/) | A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary. |
 | [dml_3d_effects_rendering_mode](../saveoptions/dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |

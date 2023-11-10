@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 In order to use the stream font source you should create a derived class from the [StreamFontSource](./)
 and provide implementation of the [StreamFontSource.open_font_data_stream()](./open_font_data_stream/#default) method.
 

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/
 
 
 
+### Remarks
+
 [Bookmark](./) is a "facade" object that encapsulates two nodes [Bookmark.bookmark_start](./bookmark_start/)
 and [Bookmark.bookmark_end](./bookmark_end/) in a document tree and allows to work with a bookmark as a single object.
 

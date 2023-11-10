@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/zoom_factor/
 
 Gets or sets a value determining zoom factor (in percentages) for a document.
 
+
+```python
+@property
+def zoom_factor(self) -> int:
+    ...
+
+@zoom_factor.setter
+def zoom_factor(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 This value is used only if [PdfSaveOptions.zoom_behavior](../zoom_behavior/) is set to [PdfZoomBehavior.ZOOM_FACTOR](../../pdfzoombehavior/#ZOOM_FACTOR).
 
 

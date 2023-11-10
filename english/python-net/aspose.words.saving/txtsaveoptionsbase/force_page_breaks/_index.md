@@ -17,6 +17,20 @@ The default value is ``False``.
 
 
 
+
+```python
+@property
+def force_page_breaks(self) -> bool:
+    ...
+
+@force_page_breaks.setter
+def force_page_breaks(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The property affects only page breaks that are inserted explicitly into a document. 
 It is not related to page breaks that MS Word automatically inserts at the end of each page.
 

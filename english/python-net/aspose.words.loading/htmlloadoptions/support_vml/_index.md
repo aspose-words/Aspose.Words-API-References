@@ -14,6 +14,17 @@ url: /python-net/aspose.words.loading/htmlloadoptions/support_vml/
 Gets or sets a value indicating whether to support VML images.
 
 
+```python
+@property
+def support_vml(self) -> bool:
+    ...
+
+@support_vml.setter
+def support_vml(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to support conditional comments while loading an HTML document.

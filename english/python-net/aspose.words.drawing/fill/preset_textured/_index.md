@@ -21,7 +21,7 @@ def preset_textured(self, preset_texture: aspose.words.drawing.PresetTexture):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| preset_texture | [PresetTexture](../../presettexture/) |  |
+| preset_texture | [PresetTexture](../../presettexture/) | [PresetTexture](../../presettexture/) |
 
 ### Examples
 

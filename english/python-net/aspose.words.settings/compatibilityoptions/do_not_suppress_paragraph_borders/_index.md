@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_suppress_para
 Do Not Suppress Paragraph Borders Next To Frames.
 
 
+```python
+@property
+def do_not_suppress_paragraph_borders(self) -> bool:
+    ...
+
+@do_not_suppress_paragraph_borders.setter
+def do_not_suppress_paragraph_borders(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

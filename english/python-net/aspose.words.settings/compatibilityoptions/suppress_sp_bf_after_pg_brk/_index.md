@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/suppress_sp_bf_after
 Do Not Use Space Before On First Line After a Page Break.
 
 
+```python
+@property
+def suppress_sp_bf_after_pg_brk(self) -> bool:
+    ...
+
+@suppress_sp_bf_after_pg_brk.setter
+def suppress_sp_bf_after_pg_brk(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

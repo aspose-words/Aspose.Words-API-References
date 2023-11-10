@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/lines_per_page/
 
 Gets or sets the number of lines per page in the document grid.
 
+
+```python
+@property
+def lines_per_page(self) -> int:
+    ...
+
+@lines_per_page.setter
+def lines_per_page(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Minimum value of the property is 1. Maximum value depends on page height and font size of the Normal
 style. Minimum line pitch is 136 percent of the font size. For example, maximum number of lines per page of
 a Letter page with one-inch margins is 39.

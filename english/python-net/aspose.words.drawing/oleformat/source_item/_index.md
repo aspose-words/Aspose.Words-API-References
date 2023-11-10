@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/oleformat/source_item/
 
 Gets or sets a string that is used to identify the portion of the source file that is being linked.
 
+
+```python
+@property
+def source_item(self) -> str:
+    ...
+
+@source_item.setter
+def source_item(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 For example, if the source file is a Microsoft Excel workbook, the [OleFormat.source_item](./)

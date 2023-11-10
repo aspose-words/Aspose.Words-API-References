@@ -19,6 +19,8 @@ def end_row(self):
     ...
 ```
 
+### Remarks
+
 Call [DocumentBuilder.end_row()](./#default) to end a table row. If you call [DocumentBuilder.insert_cell()](../insert_cell/#default) immediately
 after that, then the table continues on a new row.
 

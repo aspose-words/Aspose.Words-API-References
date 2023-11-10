@@ -13,6 +13,20 @@ url: /python-net/aspose.words/document/font_settings/
 
 Gets or sets document font settings.
 
+
+```python
+@property
+def font_settings(self) -> aspose.words.fonts.FontSettings:
+    ...
+
+@font_settings.setter
+def font_settings(self, value: aspose.words.fonts.FontSettings):
+    ...
+
+```
+
+### Remarks
+
 This property allows to specify font settings per document. If set to ``None``, default static font settings
 [FontSettings.default_instance](../../../aspose.words.fonts/fontsettings/default_instance/) will be used.
 

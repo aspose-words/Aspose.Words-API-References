@@ -15,6 +15,13 @@ Provides typed access to the [Cell](../../cell/) child nodes of the row.
 
 
 
+```python
+@property
+def cells(self) -> aspose.words.tables.CellCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.

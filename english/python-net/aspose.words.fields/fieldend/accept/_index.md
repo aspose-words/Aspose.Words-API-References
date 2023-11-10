@@ -21,7 +21,9 @@ def accept(self, visitor: aspose.words.DocumentVisitor):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The visitor that will visit the node. |
+
+### Remarks
 
 Calls [DocumentVisitor.visit_field_end()](../../../aspose.words/documentvisitor/visit_field_end/#fieldend).
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldta/short_citation/
 Gets or sets the short citation for the entry.
 
 
+```python
+@property
+def short_citation(self) -> str:
+    ...
+
+@short_citation.setter
+def short_citation(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

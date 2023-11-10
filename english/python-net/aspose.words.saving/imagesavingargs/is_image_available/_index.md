@@ -14,6 +14,16 @@ url: /python-net/aspose.words.saving/imagesavingargs/is_image_available/
 Returns ``True`` if the current image is available for export.
 
 
+
+```python
+@property
+def is_image_available(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 Some images in the document can be unavailable, for example, because the image
 is linked and the link is inaccessible or does not point to a valid image. 
 In this case Aspose.Words exports an icon with a red cross. This property returns 

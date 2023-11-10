@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pagesavingargs/page_file_name/
 
 Gets or sets the file name where the document page will be saved to.
 
+
+```python
+@property
+def page_file_name(self) -> str:
+    ...
+
+@page_file_name.setter
+def page_file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 If not specified then page file name and path will be generated automatically using original file name.
 
 

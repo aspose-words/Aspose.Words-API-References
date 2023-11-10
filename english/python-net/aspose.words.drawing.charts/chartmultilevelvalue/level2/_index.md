@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartmultilevelvalue/level2/
 Gets the name of the chart intermediate level that this value refers to.
 
 
+```python
+@property
+def level2(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

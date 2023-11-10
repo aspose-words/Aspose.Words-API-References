@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/gradientstop/base_color/
 Gets a value representing the color of the gradient stop without any modifiers.
 
 
+```python
+@property
+def base_color(self) -> aspose.pydrawing.Color:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add gradient stops to the gradient fill.

@@ -19,6 +19,8 @@ def end_editable_range(self):
     ...
 ```
 
+### Remarks
+
 Editable range in a document can overlap and span any range. To create a valid editable range you need to
 call both [DocumentBuilder.start_editable_range()](../start_editable_range/#default) and [DocumentBuilder.end_editable_range()](./#default)
 or [DocumentBuilder.end_editable_range()](./#editablerangestart) methods.
@@ -45,7 +47,9 @@ def end_editable_range(self, start: aspose.words.EditableRangeStart):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| start | [EditableRangeStart](../../editablerangestart/) |  |
+| start | [EditableRangeStart](../../editablerangestart/) | This editable range start. |
+
+### Remarks
 
 Use this overload during creating nested editable ranges.
 

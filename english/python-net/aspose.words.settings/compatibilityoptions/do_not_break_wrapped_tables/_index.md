@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_break_wrapped
 Do Not Allow Floating Tables To Break Across Pages.
 
 
+```python
+@property
+def do_not_break_wrapped_tables(self) -> bool:
+    ...
+
+@do_not_break_wrapped_tables.setter
+def do_not_break_wrapped_tables(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

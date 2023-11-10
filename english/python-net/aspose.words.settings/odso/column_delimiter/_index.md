@@ -14,6 +14,20 @@ url: /python-net/aspose.words.settings/odso/column_delimiter/
 Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources.
 The default value is 0 which means there is no column delimiter defined.
 
+
+```python
+@property
+def column_delimiter(self) -> str:
+    ...
+
+@column_delimiter.setter
+def column_delimiter(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 RK I have never seen this in use.
 
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/digital_signature_details/
 
 Gets or sets the details for signing the output PDF document.
 
+
+```python
+@property
+def digital_signature_details(self) -> aspose.words.saving.PdfDigitalSignatureDetails:
+    ...
+
+@digital_signature_details.setter
+def digital_signature_details(self, value: aspose.words.saving.PdfDigitalSignatureDetails):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``None`` and the output document will not be signed.
 When this property is set to a valid [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/) object,
 then the output PDF document will be digitally signed.

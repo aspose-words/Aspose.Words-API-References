@@ -14,6 +14,17 @@ url: /python-net/aspose.words/revision/date_time/
 Gets or sets the date/time of this revision.
 
 
+```python
+@property
+def date_time(self) -> datetime.datetime:
+    ...
+
+@date_time.setter
+def date_time(self, value: datetime.datetime):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with revisions in a document.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/layoutoptions/revision_options/
 Gets revision options.
 
 
+```python
+@property
+def revision_options(self) -> aspose.words.layout.RevisionOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.

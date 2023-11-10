@@ -3,7 +3,7 @@ title: CompareOptions.ignore_formatting property
 linktitle: ignore_formatting property
 articleTitle: ignore_formatting property
 second_title: Aspose.Words for Python
-description: "CompareOptions.ignore_formatting property. True indicates that formatting is ignored"
+description: "CompareOptions.ignore_formatting property. True indicates that formatting is ignored."
 type: docs
 weight: 90
 url: /python-net/aspose.words.comparing/compareoptions/ignore_formatting/
@@ -12,6 +12,21 @@ url: /python-net/aspose.words.comparing/compareoptions/ignore_formatting/
 ## CompareOptions.ignore_formatting property
 
 True indicates that formatting is ignored.
+
+
+```python
+@property
+def ignore_formatting(self) -> bool:
+    ...
+
+@ignore_formatting.setter
+def ignore_formatting(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default document formatting is not ignored.
 
 

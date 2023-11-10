@@ -15,6 +15,13 @@ Font formatting that will be applied to text entered into **SDT**.
 
 
 
+```python
+@property
+def contents_font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cell/last_paragraph/
 Gets the last paragraph among the immediate children.
 
 
+```python
+@property
+def last_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply settings to vertical borders to a table row's format.

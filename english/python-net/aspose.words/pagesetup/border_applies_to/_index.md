@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/border_applies_to/
 Specifies which pages the page border is printed on.
 
 
+```python
+@property
+def border_applies_to(self) -> aspose.words.PageBorderAppliesTo:
+    ...
+
+@border_applies_to.setter
+def border_applies_to(self, value: aspose.words.PageBorderAppliesTo):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a wide blue band border at the top of the first page.

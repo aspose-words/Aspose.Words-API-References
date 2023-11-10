@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/streamfontsource/type/
 Returns the type of the font source.
 
 
+```python
+@property
+def type(self) -> aspose.words.fonts.FontSourceType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fonts](../../)

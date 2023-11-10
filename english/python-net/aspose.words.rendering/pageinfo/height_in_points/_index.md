@@ -14,6 +14,13 @@ url: /python-net/aspose.words.rendering/pageinfo/height_in_points/
 Gets the height of the page in points.
 
 
+```python
+@property
+def height_in_points(self) -> float:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.rendering](../../)

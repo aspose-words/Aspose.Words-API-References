@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionreference/store_type/
 Specifies the type of marketplace.
 
 
+```python
+@property
+def store_type(self) -> aspose.words.webextensions.WebExtensionStoreType:
+    ...
+
+@store_type.setter
+def store_type(self, value: aspose.words.webextensions.WebExtensionStoreType):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

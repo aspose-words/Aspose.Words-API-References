@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldaddressblock/language_id/
 Gets or sets the language ID used to format the address.
 
 
+```python
+@property
+def language_id(self) -> str:
+    ...
+
+@language_id.setter
+def language_id(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADDRESSBLOCK field.

@@ -5,7 +5,7 @@ articleTitle: fonts_folder_alias property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.fonts_folder_alias property. Specifies the name of the folder used to construct font URIs written into an HTML document"
 type: docs
-weight: 330
+weight: 320
 url: /python-net/aspose.words.saving/htmlsaveoptions/fonts_folder_alias/
 ---
 
@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/fonts_folder_alias/
 
 Specifies the name of the folder used to construct font URIs written into an HTML document.
 Default is an empty string.
+
+
+```python
+@property
+def fonts_folder_alias(self) -> str:
+    ...
+
+@fonts_folder_alias.setter
+def fonts_folder_alias(self, value: str):
+    ...
+
+```
+
+### Remarks
 
 When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.export_font_resources](../export_font_resources/) 
 is set to ``True``, Aspose.Words needs to save fonts used in the document as standalone files. 

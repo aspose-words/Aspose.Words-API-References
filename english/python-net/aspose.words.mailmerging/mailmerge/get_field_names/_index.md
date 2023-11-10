@@ -19,6 +19,8 @@ def get_field_names(self):
     ...
 ```
 
+### Remarks
+
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
 A new string array is created on every call.

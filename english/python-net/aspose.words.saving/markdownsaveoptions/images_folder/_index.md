@@ -15,6 +15,20 @@ Specifies the physical folder where images are saved when exporting a document t
 the [SaveFormat.MARKDOWN](../../../aspose.words/saveformat/#MARKDOWN) format. Default is an empty string.
 
 
+
+```python
+@property
+def images_folder(self) -> str:
+    ...
+
+@images_folder.setter
+def images_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When you save a [Document](../../../aspose.words/document/) in [SaveFormat.MARKDOWN](../../../aspose.words/saveformat/#MARKDOWN) format,
 Aspose.Words needs to save all images embedded in the document as standalone files.
 [MarkdownSaveOptions.images_folder](./) allows you to specify where the images will be saved.

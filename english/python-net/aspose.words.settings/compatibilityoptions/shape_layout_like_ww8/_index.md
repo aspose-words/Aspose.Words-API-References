@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/shape_layout_like_ww
 Emulate Word 97 Text Wrapping Around Floating Objects.
 
 
+```python
+@property
+def shape_layout_like_ww8(self) -> bool:
+    ...
+
+@shape_layout_like_ww8.setter
+def shape_layout_like_ww8(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

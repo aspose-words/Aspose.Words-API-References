@@ -14,6 +14,17 @@ url: /python-net/aspose.words/commentrangeend/id/
 Specifies the identifier of the comment to which this region is linked to.
 
 
+```python
+@property
+def id(self) -> int:
+    ...
+
+@id.setter
+def id(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

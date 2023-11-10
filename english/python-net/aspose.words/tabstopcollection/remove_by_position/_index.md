@@ -21,7 +21,7 @@ def remove_by_position(self, position: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | float |  |
+| position | float | The position (in points) of the tab stop to remove. |
 
 ### Examples
 

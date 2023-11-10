@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/ooxmlsaveoptions/keep_legacy_control_chars/
 Keeps original representation of legacy control characters.
 
 
+```python
+@property
+def keep_legacy_control_chars(self) -> bool:
+    ...
+
+@keep_legacy_control_chars.setter
+def keep_legacy_control_chars(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to support legacy control characters when converting to .docx.

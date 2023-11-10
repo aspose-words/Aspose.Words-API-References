@@ -15,6 +15,13 @@ Gets a [Shading](../../shading/) object that refers to the shading formatting fo
 
 
 
+```python
+@property
+def shading(self) -> aspose.words.Shading:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

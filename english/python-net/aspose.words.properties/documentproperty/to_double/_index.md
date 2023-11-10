@@ -19,6 +19,8 @@ def to_double(self):
     ...
 ```
 
+### Remarks
+
 Throws an exception if the property type is not [PropertyType.NUMBER](../../propertytype/#NUMBER).
 
 

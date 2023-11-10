@@ -19,6 +19,8 @@ def to_array(self):
     ...
 ```
 
+### Remarks
+
 You should not be adding/removing nodes while iterating over a collection 
 of nodes because it invalidates the iterator and requires refreshes for live collections.
 

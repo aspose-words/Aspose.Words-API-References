@@ -16,6 +16,17 @@ The default value is ``True``.
 
 
 
+```python
+@property
+def is_washout(self) -> bool:
+    ...
+
+@is_washout.setter
+def is_washout(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a watermark from an image in the local file system.

@@ -16,6 +16,17 @@ Can only be [SaveFormat.PS](../../../aspose.words/saveformat/#PS).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to save a document to the Postscript format in the form of a book fold.

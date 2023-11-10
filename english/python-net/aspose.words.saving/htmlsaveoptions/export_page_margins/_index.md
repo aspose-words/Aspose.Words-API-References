@@ -5,7 +5,7 @@ articleTitle: export_page_margins property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_page_margins property. Specifies whether page margins is exported to HTML, MHTML or EPUB"
 type: docs
-weight: 220
+weight: 210
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_page_margins/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_page_margins/
 Specifies whether page margins is exported to HTML, MHTML or EPUB.
 Default is ``False``.
 
+
+
+```python
+@property
+def export_page_margins(self) -> bool:
+    ...
+
+@export_page_margins.setter
+def export_page_margins(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 Aspose.Words does not show area of page margins by default. 
 If any elements are completely or partially clipped by the document edge the displayed area can be extended with

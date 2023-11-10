@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/allow_space_of_same_
 Allow Contextual Spacing of Paragraphs in Tables.
 
 
+```python
+@property
+def allow_space_of_same_style_in_table(self) -> bool:
+    ...
+
+@allow_space_of_same_style_in_table.setter
+def allow_space_of_same_style_in_table(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

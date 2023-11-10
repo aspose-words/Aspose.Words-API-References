@@ -14,6 +14,13 @@ url: /python-net/aspose.words.reporting/knowntypeset/count/
 Gets the count of items in the set.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.reporting](../../)

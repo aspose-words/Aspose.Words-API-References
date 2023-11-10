@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/ichartdatapoint/bubble_3d/
 Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 
 
+```python
+@property
+def bubble_3d(self) -> bool:
+    ...
+
+@bubble_3d.setter
+def bubble_3d(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use 3D effects with bubble charts.

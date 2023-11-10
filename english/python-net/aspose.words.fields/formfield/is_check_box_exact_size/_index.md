@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/is_check_box_exact_size/
 
 Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.
 
+
+```python
+@property
+def is_check_box_exact_size(self) -> bool:
+    ...
+
+@is_check_box_exact_size.setter
+def is_check_box_exact_size(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Applicable for a check box form field only.
 
 

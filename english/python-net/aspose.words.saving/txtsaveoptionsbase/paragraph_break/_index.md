@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/txtsaveoptionsbase/paragraph_break/
 
 Specifies the string to use as a paragraph break when exporting in text formats.
 
+
+```python
+@property
+def paragraph_break(self) -> str:
+    ...
+
+@paragraph_break.setter
+def paragraph_break(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ControlChar.CR_LF](../../../aspose.words/controlchar/CR_LF/).
 
 

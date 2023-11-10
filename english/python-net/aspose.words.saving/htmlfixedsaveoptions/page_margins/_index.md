@@ -15,6 +15,20 @@ Specifies the margins around pages in an HTML document.
 The margins value is measured in points and should be equal to or greater than 0.
 Default value is 10 points.
 
+
+```python
+@property
+def page_margins(self) -> float:
+    ...
+
+@page_margins.setter
+def page_margins(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Depends on the value of [HtmlFixedSaveOptions.page_horizontal_alignment](../page_horizontal_alignment/) property:
 
 

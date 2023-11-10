@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Inserts a postal barcode in a machine-readable form of address used by the U.S. Postal Service.
 
 

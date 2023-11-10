@@ -20,6 +20,8 @@ def remove_smart_tags(self):
     ...
 ```
 
+### Remarks
+
 This method does not remove the content of the smart tags.
 
 

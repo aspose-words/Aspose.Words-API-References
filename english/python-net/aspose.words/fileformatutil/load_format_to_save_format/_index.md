@@ -28,7 +28,7 @@ def load_format_to_save_format(self, load_format: aspose.words.LoadFormat):
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentException | Throws when cannot convert. |
+| RuntimeError (Proxy error(ArgumentException)) | Throws when cannot convert. |
 
 ### Examples
 

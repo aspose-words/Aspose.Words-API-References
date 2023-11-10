@@ -15,6 +15,13 @@ Gets fill formatting for the [Stroke](../).
 
 
 
+```python
+@property
+def fill(self) -> aspose.words.drawing.Fill:
+    ...
+
+```
+
 ### Examples
 
 Shows how change stroke properties.

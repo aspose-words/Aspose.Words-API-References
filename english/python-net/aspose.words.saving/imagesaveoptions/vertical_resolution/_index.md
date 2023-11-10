@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/vertical_resolution/
 
 Gets or sets the vertical resolution for the generated images, in dots per inch.
 
+
+```python
+@property
+def vertical_resolution(self) -> float:
+    ...
+
+@vertical_resolution.setter
+def vertical_resolution(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.

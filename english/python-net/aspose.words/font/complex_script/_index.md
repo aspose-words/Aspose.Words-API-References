@@ -15,6 +15,17 @@ Specifies whether the contents of this run shall be treated as complex script te
 of their Unicode character values when determining the formatting for this run.
 
 
+```python
+@property
+def complex_script(self) -> bool:
+    ...
+
+@complex_script.setter
+def complex_script(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add text that is always treated as complex script.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/line_number_distance_from_text/
 
 Gets or sets distance between the right edge of line numbers and the left edge of the document.
 
+
+```python
+@property
+def line_number_distance_from_text(self) -> float:
+    ...
+
+@line_number_distance_from_text.setter
+def line_number_distance_from_text(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Set this property to zero for automatic distance between the line numbers and text of the document.
 
 

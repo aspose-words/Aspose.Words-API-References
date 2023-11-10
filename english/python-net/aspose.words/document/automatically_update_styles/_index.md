@@ -15,6 +15,17 @@ Gets or sets a flag indicating whether the styles in the document are updated to
 attached template each time the document is opened in MS Word.
 
 
+```python
+@property
+def automatically_update_styles(self) -> bool:
+    ...
+
+@automatically_update_styles.setter
+def automatically_update_styles(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to attach a template to a document.

@@ -17,6 +17,17 @@ while loading JSON. Such a mode does not affect parsing of date-time values. The
 
 
 
+```python
+@property
+def simple_value_parse_mode(self) -> aspose.words.reporting.JsonSimpleValueParseMode:
+    ...
+
+@simple_value_parse_mode.setter
+def simple_value_parse_mode(self, value: aspose.words.reporting.JsonSimpleValueParseMode):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.reporting](../../)

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/customxmlpart/schemas/
 Specifies the set of XML schemas that are associated with this custom XML part.
 
 
+```python
+@property
+def schemas(self) -> aspose.words.markup.CustomXmlSchemaCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a structured document tag with custom XML data.

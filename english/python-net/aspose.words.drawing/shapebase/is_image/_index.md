@@ -15,6 +15,13 @@ Returns ``True`` if this shape is an image shape.
 
 
 
+```python
+@property
+def is_image(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

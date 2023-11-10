@@ -13,6 +13,20 @@ url: /python-net/aspose.words/paragraphformat/line_spacing/
 
 Gets or sets the line spacing (in points) for the paragraph.
 
+
+```python
+@property
+def line_spacing(self) -> float:
+    ...
+
+@line_spacing.setter
+def line_spacing(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 When [ParagraphFormat.line_spacing_rule](../line_spacing_rule/) property is set to [LineSpacingRule.AT_LEAST](../../linespacingrule/#AT_LEAST), the line spacing can be greater than or equal to,
 but never less than the specified [ParagraphFormat.line_spacing](./) value.
 

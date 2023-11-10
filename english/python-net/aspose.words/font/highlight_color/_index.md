@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/highlight_color/
 Gets or sets the highlight (marker) color.
 
 
+```python
+@property
+def highlight_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@highlight_color.setter
+def highlight_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format a run of text using its font property.

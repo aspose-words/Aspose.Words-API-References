@@ -13,6 +13,16 @@ url: /python-net/aspose.words/documentbase/styles/
 
 Returns a collection of styles defined in the document.
 
+
+```python
+@property
+def styles(self) -> aspose.words.StyleCollection:
+    ...
+
+```
+
+### Remarks
+
 For more information see the description of the [StyleCollection](../../stylecollection/) class.
 
 

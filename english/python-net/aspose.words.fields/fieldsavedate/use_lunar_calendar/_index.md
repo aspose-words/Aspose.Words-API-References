@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldsavedate/use_lunar_calendar/
 Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 
 
+```python
+@property
+def use_lunar_calendar(self) -> bool:
+    ...
+
+@use_lunar_calendar.setter
+def use_lunar_calendar(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word.

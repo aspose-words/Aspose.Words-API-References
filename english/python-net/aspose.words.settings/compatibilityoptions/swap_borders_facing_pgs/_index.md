@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/swap_borders_facing_
 Swap Paragraph Borders on Odd Numbered Pages.
 
 
+```python
+@property
+def swap_borders_facing_pgs(self) -> bool:
+    ...
+
+@swap_borders_facing_pgs.setter
+def swap_borders_facing_pgs(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

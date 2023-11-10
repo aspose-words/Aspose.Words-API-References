@@ -13,14 +13,32 @@ url: /python-net/aspose.words/paragraphformat/space_after/
 
 Gets or sets the amount of spacing (in points) after the paragraph.
 
+
+```python
+@property
+def space_after(self) -> float:
+    ...
+
+@space_after.setter
+def space_after(self, value: float):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when argument was out of the range of valid values. |
+
+### Remarks
+
 Has no effect when [ParagraphFormat.space_after_auto](../space_after_auto/) is ``True``.
 
 Valid values ​​range from 0 to 1584 inclusive.
 
 
 
-:raises System.ArgumentOutOfRangeException: Throws when argument was out of the range of valid values.
-                                            
 
 ### Examples
 

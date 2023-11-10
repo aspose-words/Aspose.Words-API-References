@@ -14,6 +14,13 @@ url: /python-net/aspose.words.framesets/framesetcollection/count/
 Gets the number of frames or frames pages contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.framesets](../../)

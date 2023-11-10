@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/formfieldcollection/count/
 Returns the number of form fields in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

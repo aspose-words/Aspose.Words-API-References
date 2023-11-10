@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chart/title/
 Provides access to the chart title properties.
 
 
+```python
+@property
+def title(self) -> aspose.words.drawing.charts.ChartTitle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and set a title.

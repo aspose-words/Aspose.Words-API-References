@@ -15,6 +15,13 @@ Returns ``True`` if this bookmark is a table column bookmark.
 
 
 
+```python
+@property
+def is_column(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about table column bookmarks.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/style_name/
 Gets or sets the name of the character style applied to this formatting.
 
 
+```python
+@property
+def style_name(self) -> str:
+    ...
+
+@style_name.setter
+def style_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change the style of existing text.

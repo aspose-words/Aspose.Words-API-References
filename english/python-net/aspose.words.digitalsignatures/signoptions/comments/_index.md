@@ -12,9 +12,20 @@ url: /python-net/aspose.words.digitalsignatures/signoptions/comments/
 ## SignOptions.comments property
 
 Specifies comments on the digital signature.
-Default value is **empty string** (System.String.Empty).
+Default value is **empty string**().
 
 
+
+```python
+@property
+def comments(self) -> str:
+    ...
+
+@comments.setter
+def comments(self, value: str):
+    ...
+
+```
 
 ### Examples
 

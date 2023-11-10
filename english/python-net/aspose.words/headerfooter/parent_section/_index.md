@@ -13,6 +13,16 @@ url: /python-net/aspose.words/headerfooter/parent_section/
 
 Gets the parent section of this story.
 
+
+```python
+@property
+def parent_section(self) -> aspose.words.Section:
+    ...
+
+```
+
+### Remarks
+
 [HeaderFooter.parent_section](./) is equivalent to [Node.parent_node](../../node/parent_node/) casted to [Section](../../section/).
 
 

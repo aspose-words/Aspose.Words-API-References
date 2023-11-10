@@ -3,7 +3,7 @@ title: CompareOptions.ignore_textboxes property
 linktitle: ignore_textboxes property
 articleTitle: ignore_textboxes property
 second_title: Aspose.Words for Python
-description: "CompareOptions.ignore_textboxes property. Specifies whether to compare differences in the data contained within text boxes"
+description: "CompareOptions.ignore_textboxes property. Specifies whether to compare differences in the data contained within text boxes."
 type: docs
 weight: 120
 url: /python-net/aspose.words.comparing/compareoptions/ignore_textboxes/
@@ -12,6 +12,21 @@ url: /python-net/aspose.words.comparing/compareoptions/ignore_textboxes/
 ## CompareOptions.ignore_textboxes property
 
 Specifies whether to compare differences in the data contained within text boxes.
+
+
+```python
+@property
+def ignore_textboxes(self) -> bool:
+    ...
+
+@ignore_textboxes.setter
+def ignore_textboxes(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default textboxes are not ignored.
 
 

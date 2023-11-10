@@ -17,6 +17,8 @@ To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose
 
 
 
+### Remarks
+
 The [Footnote](./) class is used to represent both footnotes and endnotes in a Word document.
 
 [Footnote](./) is an inline-level node and can only be a child of [Paragraph](../../aspose.words/paragraph/).
@@ -60,7 +62,7 @@ The [Footnote](./) class is used to represent both footnotes and endnotes in a W
 | [parent_paragraph](../../aspose.words/inlinestory/parent_paragraph/) | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [reference_mark](./reference_mark/) | Gets/sets custom reference mark to be used for this footnote. Default value is **empty string** (System.String.Empty), meaning auto-numbered footnotes are used. |
+| [reference_mark](./reference_mark/) | Gets/sets custom reference mark to be used for this footnote. Default value is **empty string** (), meaning auto-numbered footnotes are used. |
 | [story_type](./story_type/) | Returns [StoryType.FOOTNOTES](../../aspose.words/storytype/#FOOTNOTES) or [StoryType.ENDNOTES](../../aspose.words/storytype/#ENDNOTES). |
 | [tables](../../aspose.words/inlinestory/tables/) | Gets a collection of tables that are immediate children of the story.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 
@@ -74,7 +76,7 @@ The [Footnote](./) class is used to represent both footnotes and endnotes in a W
 |[ append_child(new_child)](../../aspose.words/compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ ensure_minimum()](../../aspose.words/inlinestory/ensure_minimum/#default) | If the last child is not a paragraph, creates and appends one empty paragraph.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
-|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child(node_type, index, is_deep)](../../aspose.words/compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../../aspose.words/compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

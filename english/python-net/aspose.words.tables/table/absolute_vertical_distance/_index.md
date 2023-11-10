@@ -15,6 +15,17 @@ Gets or sets absolute vertical floating table position specified by the table pr
 Default value is 0.
 
 
+```python
+@property
+def absolute_vertical_distance(self) -> float:
+    ...
+
+@absolute_vertical_distance.setter
+def absolute_vertical_distance(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how set the location of floating tables.

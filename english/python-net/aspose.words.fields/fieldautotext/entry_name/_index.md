@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldautotext/entry_name/
 Gets or sets the name of the AutoText entry.
 
 
+```python
+@property
+def entry_name(self) -> str:
+    ...
+
+@entry_name.setter
+def entry_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to display a building block with AUTOTEXT and GLOSSARY fields.

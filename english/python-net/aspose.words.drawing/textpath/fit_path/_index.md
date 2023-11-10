@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/fit_path/
 
 Defines whether the text fits the path of a shape.
 
+
+```python
+@property
+def fit_path(self) -> bool:
+    ...
+
+@fit_path.setter
+def fit_path(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

@@ -21,7 +21,9 @@ def get_style(self, style_file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style_file_name | str |  |
+| style_file_name | str | The bibliography style file name. |
+
+### Remarks
 
 The implementation should return ``None`` to indicate that
 the MS Word version of specified style should be used.
@@ -30,7 +32,7 @@ the MS Word version of specified style should be used.
 
 ### Returns
 
-The System.IO.Stream with bibliography style XSLT stylesheet.
+The io.BytesIO with bibliography style XSLT stylesheet.
 
 
 ### See Also

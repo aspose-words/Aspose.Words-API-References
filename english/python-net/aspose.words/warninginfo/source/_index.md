@@ -14,6 +14,13 @@ url: /python-net/aspose.words/warninginfo/source/
 Returns the source of the warning.
 
 
+```python
+@property
+def source(self) -> aspose.words.WarningSource:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

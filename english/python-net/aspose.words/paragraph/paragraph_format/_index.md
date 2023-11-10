@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraph/paragraph_format/
 Provides access to the paragraph formatting properties.
 
 
+```python
+@property
+def paragraph_format(self) -> aspose.words.ParagraphFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to construct an Aspose.Words document by hand.

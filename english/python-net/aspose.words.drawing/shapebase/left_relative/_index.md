@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/shapebase/left_relative/
 Gets or sets the value that represents shape's relative left position in percent.
 
 
+```python
+@property
+def left_relative(self) -> float:
+    ...
+
+@left_relative.setter
+def left_relative(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set relative size and position.

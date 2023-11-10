@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shape/text_box/
 Defines attributes that specify how text is displayed in a shape.
 
 
+```python
+@property
+def text_box(self) -> aspose.words.drawing.TextBox:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set the orientation of text inside a text box.

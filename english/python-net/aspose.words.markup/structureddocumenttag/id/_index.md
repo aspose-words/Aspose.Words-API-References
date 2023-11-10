@@ -15,6 +15,16 @@ Specifies a unique read-only persistent numerical Id for this **SDT**.
 
 
 
+
+```python
+@property
+def id(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 Id attribute shall follow these rules:
 
 * The document shall retain SDT ids only if the whole document is cloned [Document.clone()](../../../aspose.words/document/clone/#bool).

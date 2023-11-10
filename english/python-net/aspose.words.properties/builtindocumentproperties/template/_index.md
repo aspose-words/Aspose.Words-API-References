@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/template/
 
 Gets or sets the informational name of the document template.
 
+
+```python
+@property
+def template(self) -> str:
+    ...
+
+@template.setter
+def template(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 In Microsoft Word, this property is for informational purposes only and
 usually contains only the file name of the template without the path.
 

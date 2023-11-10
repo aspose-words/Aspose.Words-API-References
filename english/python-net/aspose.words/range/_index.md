@@ -5,7 +5,7 @@ articleTitle: Range class
 second_title: Aspose.Words for Python
 description: "aspose.words.Range class. Represents a contiguous area in a document"
 type: docs
-weight: 930
+weight: 940
 url: /python-net/aspose.words/range/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Working with Ranges](https://docs.aspose.com/words/pyt
 
 
 
+
+### Remarks
 
 The document is represented by a tree of nodes and the nodes provide operations
 to work with the tree, but some operations are easier to perform if the document

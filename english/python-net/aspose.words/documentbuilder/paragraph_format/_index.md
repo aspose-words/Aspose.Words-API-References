@@ -14,6 +14,13 @@ url: /python-net/aspose.words/documentbuilder/paragraph_format/
 Returns an object that represents current paragraph formatting properties.
 
 
+```python
+@property
+def paragraph_format(self) -> aspose.words.ParagraphFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a formatted table using DocumentBuilder.

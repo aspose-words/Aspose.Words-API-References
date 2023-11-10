@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/issuer_name/
 Returns the subject distinguished name of the certificate isuuer.
 
 
+```python
+@property
+def issuer_name(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign documents with X.509 certificates.

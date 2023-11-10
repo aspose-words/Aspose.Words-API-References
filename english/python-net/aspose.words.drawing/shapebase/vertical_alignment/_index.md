@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/vertical_alignment/
 
 Specifies how the shape is positioned vertically.
 
+
+```python
+@property
+def vertical_alignment(self) -> aspose.words.drawing.VerticalAlignment:
+    ...
+
+@vertical_alignment.setter
+def vertical_alignment(self, value: aspose.words.drawing.VerticalAlignment):
+    ...
+
+```
+
+### Remarks
+
 The default value is [VerticalAlignment.NONE](../../verticalalignment/#NONE).
 
 Has effect only for top level floating shapes.

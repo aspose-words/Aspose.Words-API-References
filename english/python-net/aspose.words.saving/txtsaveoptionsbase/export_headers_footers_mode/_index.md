@@ -16,6 +16,17 @@ Default value is [TxtExportHeadersFootersMode.PRIMARY_ONLY](../../txtexportheade
 
 
 
+```python
+@property
+def export_headers_footers_mode(self) -> aspose.words.saving.TxtExportHeadersFootersMode:
+    ...
+
+@export_headers_footers_mode.setter
+def export_headers_footers_mode(self, value: aspose.words.saving.TxtExportHeadersFootersMode):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify how to export headers and footers to plain text format.

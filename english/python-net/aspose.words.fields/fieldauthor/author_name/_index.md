@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldauthor/author_name/
 Gets or sets the document author's name.
 
 
+```python
+@property
+def author_name(self) -> str:
+    ...
+
+@author_name.setter
+def author_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use an AUTHOR field to display a document creator's name.

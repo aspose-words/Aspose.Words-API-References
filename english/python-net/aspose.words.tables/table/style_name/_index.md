@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/style_name/
 Gets or sets the name of the table style applied to this table.
 
 
+```python
+@property
+def style_name(self) -> str:
+    ...
+
+@style_name.setter
+def style_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create custom style settings for the table.

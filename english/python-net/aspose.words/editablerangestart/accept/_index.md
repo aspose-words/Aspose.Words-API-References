@@ -21,7 +21,9 @@ def accept(self, visitor: aspose.words.DocumentVisitor):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../documentvisitor/) | The visitor that will visit the node. |
+
+### Remarks
 
 Calls [DocumentVisitor.visit_editable_range_start()](../../documentvisitor/visit_editable_range_start/#editablerangestart).
 

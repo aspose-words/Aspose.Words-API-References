@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/userinformation/initials/
 Gets or sets the user's initials.
 
 
+```python
+@property
+def initials(self) -> str:
+    ...
+
+@initials.setter
+def initials(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set user details, and display them using fields.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/warninginfo/description/
 Returns the description of the warning.
 
 
+```python
+@property
+def description(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

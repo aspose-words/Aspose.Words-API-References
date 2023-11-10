@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartformat/shape_type/
 
 Gets or sets the shape type of the parent chart element.
 
+
+```python
+@property
+def shape_type(self) -> aspose.words.drawing.charts.ChartShapeType:
+    ...
+
+@shape_type.setter
+def shape_type(self, value: aspose.words.drawing.charts.ChartShapeType):
+    ...
+
+```
+
+### Remarks
+
 Currently, the property can only be used for data labels.
 
 

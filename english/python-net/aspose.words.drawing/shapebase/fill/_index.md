@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shapebase/fill/
 Gets fill formatting for the shape.
 
 
+```python
+@property
+def fill(self) -> aspose.words.drawing.Fill:
+    ...
+
+```
+
 ### Examples
 
 Shows how to fill a shape with a solid color.

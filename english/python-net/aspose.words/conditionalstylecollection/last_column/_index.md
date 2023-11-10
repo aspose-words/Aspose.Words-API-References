@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstylecollection/last_column/
 Gets the last column style.
 
 
+```python
+@property
+def last_column(self) -> aspose.words.ConditionalStyle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

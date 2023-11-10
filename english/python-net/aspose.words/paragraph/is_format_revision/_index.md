@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraph/is_format_revision/
 Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
 
 
+```python
+@property
+def is_format_revision(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to check whether a paragraph is a format revision.

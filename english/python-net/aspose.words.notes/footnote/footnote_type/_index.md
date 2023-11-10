@@ -14,6 +14,13 @@ url: /python-net/aspose.words.notes/footnote/footnote_type/
 Returns a value that specifies whether this is a footnote or endnote.
 
 
+```python
+@property
+def footnote_type(self) -> aspose.words.notes.FootnoteType:
+    ...
+
+```
+
 ### Examples
 
 Shows the difference between footnotes and endnotes.

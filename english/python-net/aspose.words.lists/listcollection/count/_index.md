@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listcollection/count/
 Gets the count of numbered and bulleted lists in the document.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify owner document properties of lists.

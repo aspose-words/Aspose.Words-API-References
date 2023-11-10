@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcitation/volume_number/
 Gets or sets a volume number associated with the citation.
 
 
+```python
+@property
+def volume_number(self) -> str:
+    ...
+
+@volume_number.setter
+def volume_number(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

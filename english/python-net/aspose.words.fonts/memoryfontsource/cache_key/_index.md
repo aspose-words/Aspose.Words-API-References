@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fonts/memoryfontsource/cache_key/
 
 The key of this source in the cache.
 
+
+```python
+@property
+def cache_key(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 This key is used to identify cache item when saving/loading font search cache with
 [FontSettings.save_search_cache()](../../fontsettings/save_search_cache/#bytesio) and [FontSettings.set_fonts_sources()](../../fontsettings/set_fonts_sources/#fontsourcebaselist_bytesio) methods.
 

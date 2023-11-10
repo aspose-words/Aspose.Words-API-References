@@ -21,6 +21,17 @@ if set to ``True``, this state shall be resumed (showing placeholder text) upon 
 
 
 
+```python
+@property
+def is_showing_placeholder_text(self) -> bool:
+    ...
+
+@is_showing_placeholder_text.setter
+def is_showing_placeholder_text(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a building block's contents as a custom placeholder text for a structured document tag.

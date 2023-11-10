@@ -14,6 +14,13 @@ url: /python-net/aspose.words/nodechangingargs/new_parent/
 Gets the node's parent that will be set after the operation completes.
 
 
+```python
+@property
+def new_parent(self) -> aspose.words.Node:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

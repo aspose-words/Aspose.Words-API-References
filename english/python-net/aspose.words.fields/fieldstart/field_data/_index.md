@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldstart/field_data/
 Gets custom field data which is associated with the field.
 
 
+```python
+@property
+def field_data(self) -> bytes:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get data associated with the field.

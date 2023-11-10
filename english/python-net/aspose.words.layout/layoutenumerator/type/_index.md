@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/layoutenumerator/type/
 Gets the type of the current entity.
 
 
+```python
+@property
+def type(self) -> aspose.words.layout.LayoutEntityType:
+    ...
+
+```
+
 ### Examples
 
 Shows ways of traversing a document's layout entities.

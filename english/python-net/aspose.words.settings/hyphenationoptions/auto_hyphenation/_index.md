@@ -16,6 +16,17 @@ Default value for this property is ``False``.
 
 
 
+```python
+@property
+def auto_hyphenation(self) -> bool:
+    ...
+
+@auto_hyphenation.setter
+def auto_hyphenation(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure automatic hyphenation.

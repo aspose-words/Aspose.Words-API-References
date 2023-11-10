@@ -16,6 +16,17 @@ The default value is [PdfPermissions.DISALLOW_ALL](../../pdfpermissions/#DISALLO
 
 
 
+```python
+@property
+def permissions(self) -> aspose.words.saving.PdfPermissions:
+    ...
+
+@permissions.setter
+def permissions(self, value: aspose.words.saving.PdfPermissions):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set permissions on a saved PDF document.

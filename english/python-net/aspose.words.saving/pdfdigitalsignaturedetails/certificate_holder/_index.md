@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/certificate_hold
 Returns the certificate holder object that contains the certificate was used to sign the document.
 
 
+```python
+@property
+def certificate_holder(self) -> aspose.words.digitalsignatures.CertificateHolder:
+    ...
+
+@certificate_holder.setter
+def certificate_holder(self, value: aspose.words.digitalsignatures.CertificateHolder):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

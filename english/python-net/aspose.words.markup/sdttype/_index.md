@@ -160,6 +160,27 @@ builder.write("Nulla blandit nisi.")
 doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.SdtAtRowLevel.docx")
 ```
 
+Shows how to create a structured document tag of the Citation type.
+
+```python
+doc = aw.Document()
+
+sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.CITATION, aw.markup.MarkupLevel.INLINE)
+paragraph = doc.first_section.body.first_paragraph
+paragraph.append_child(sdt)
+
+# Create a Citation field.
+builder = aw.DocumentBuilder(doc)
+builder.move_to_paragraph(0, -1)
+builder.insert_field(r"CITATION Ath22 \l 1033 ", "(John Lennon, 2022)")
+
+# Move the field to the structured document tag.
+while (sdt.next_sibling is not None):
+    sdt.append_child(sdt.next_sibling)
+
+doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.Citation.docx")
+```
+
 ### See Also
 
 * module [aspose.words.markup](../)

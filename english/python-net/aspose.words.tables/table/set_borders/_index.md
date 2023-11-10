@@ -21,9 +21,9 @@ def set_borders(self, line_style: aspose.words.LineStyle, line_width: float, col
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| line_style | [LineStyle](../../../aspose.words/linestyle/) |  |
-| line_width | float |  |
-| color | aspose.pydrawing.Color |  |
+| line_style | [LineStyle](../../../aspose.words/linestyle/) | The line style to apply. |
+| line_width | float | The line width to set (in points). |
+| color | aspose.pydrawing.Color | The color to use for the border. |
 
 ### Examples
 

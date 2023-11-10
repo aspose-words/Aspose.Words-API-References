@@ -21,9 +21,9 @@ def set_mapping(self, custom_xml_part: aspose.words.markup.CustomXmlPart, x_path
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| custom_xml_part | [CustomXmlPart](../../customxmlpart/) |  |
-| x_path | str |  |
-| prefix_mapping | str |  |
+| custom_xml_part | [CustomXmlPart](../../customxmlpart/) | A custom XML data part to map to. |
+| x_path | str | An XPath expression to find the XML node. |
+| prefix_mapping | str | XML namespace prefix mappings to evaluate the XPath. |
 
 ### Returns
 

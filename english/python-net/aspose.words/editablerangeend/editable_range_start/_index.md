@@ -15,6 +15,13 @@ Corresponding [EditableRangeStart](../../editablerangestart/), received by ID.
 
 
 
+```python
+@property
+def editable_range_start(self) -> aspose.words.EditableRangeStart:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with an editable range.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.settings/viewoptions/forms_design/
 
 Specifies whether the document is in forms design mode.
 
+
+```python
+@property
+def forms_design(self) -> bool:
+    ...
+
+@forms_design.setter
+def forms_design(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Currently works only for documents in WordML format.
 
 

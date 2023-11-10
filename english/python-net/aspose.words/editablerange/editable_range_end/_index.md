@@ -14,6 +14,13 @@ url: /python-net/aspose.words/editablerange/editable_range_end/
 Gets the node that represents the end of the editable range.
 
 
+```python
+@property
+def editable_range_end(self) -> aspose.words.EditableRangeEnd:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with an editable range.

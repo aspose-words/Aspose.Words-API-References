@@ -15,6 +15,20 @@ Specifies the maximum level of headings at which to split the document.
 Default value is ``2``.
 
 
+
+```python
+@property
+def document_split_heading_level(self) -> int:
+    ...
+
+@document_split_heading_level.setter
+def document_split_heading_level(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 When [HtmlSaveOptions.document_split_criteria](../document_split_criteria/) includes [DocumentSplitCriteria.HEADING_PARAGRAPH](../../documentsplitcriteria/#HEADING_PARAGRAPH) 
 and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using 
 **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.

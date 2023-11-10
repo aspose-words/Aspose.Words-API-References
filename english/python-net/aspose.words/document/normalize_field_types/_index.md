@@ -21,6 +21,8 @@ def normalize_field_types(self):
     ...
 ```
 
+### Remarks
+
 Use this method after document changes that affect field types.
 
 To change field type values in a specific part of the document use [Range.normalize_field_types()](../../range/normalize_field_types/#default).

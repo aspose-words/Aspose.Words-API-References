@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/result/
 
 Gets or sets a string that represents the result of this form field.
 
+
+```python
+@property
+def result(self) -> str:
+    ...
+
+@result.setter
+def result(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 For a text form field the result is the text that is in the field.
 
 For a checkbox form field the result can be "1" or "0" to indicate checked or unchecked.
@@ -24,7 +38,7 @@ specified in [FormField.text_input_format](../text_input_format/). If you want t
 format, use the [FormField.set_text_input_value()](../set_text_input_value/#object) method.
 
 For a text form field the [FormField.text_input_default](../text_input_default/) value is applied
-if  is``None``.
+if *value* is``None``.
 
 
 

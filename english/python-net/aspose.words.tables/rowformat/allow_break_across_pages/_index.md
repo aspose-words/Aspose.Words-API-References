@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/rowformat/allow_break_across_pages/
 True if the text in a table row is allowed to split across a page break.
 
 
+```python
+@property
+def allow_break_across_pages(self) -> bool:
+    ...
+
+@allow_break_across_pages.setter
+def allow_break_across_pages(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to disable rows breaking across pages for every row in a table.

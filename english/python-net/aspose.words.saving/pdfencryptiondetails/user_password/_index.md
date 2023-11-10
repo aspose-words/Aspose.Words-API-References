@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfencryptiondetails/user_password/
 
 Specifies the user password required for opening the encrypted PDF document.
 
+
+```python
+@property
+def user_password(self) -> str:
+    ...
+
+@user_password.setter
+def user_password(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The user password will be required to open an encrypted PDF document for viewing. The permissions specified in
 [PdfEncryptionDetails.permissions](../permissions/) will be enforced by the reader software.
 

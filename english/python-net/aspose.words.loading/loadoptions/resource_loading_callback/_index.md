@@ -14,6 +14,17 @@ url: /python-net/aspose.words.loading/loadoptions/resource_loading_callback/
 Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
 
 
+```python
+@property
+def resource_loading_callback(self) -> aspose.words.loading.IResourceLoadingCallback:
+    ...
+
+@resource_loading_callback.setter
+def resource_loading_callback(self, value: aspose.words.loading.IResourceLoadingCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

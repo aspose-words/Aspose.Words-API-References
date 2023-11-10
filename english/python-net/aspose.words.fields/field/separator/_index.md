@@ -15,6 +15,13 @@ Gets the node that represents the field separator. Can be ``None``.
 
 
 
+```python
+@property
+def separator(self) -> aspose.words.fields.FieldSeparator:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

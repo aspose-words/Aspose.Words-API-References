@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/hide_in_web_layout/
 Gets or sets whether to hide tab leader and page numbers in Web layout view.
 
 
+```python
+@property
+def hide_in_web_layout(self) -> bool:
+    ...
+
+@hide_in_web_layout.setter
+def hide_in_web_layout(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

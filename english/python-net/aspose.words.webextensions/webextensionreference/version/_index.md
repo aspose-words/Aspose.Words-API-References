@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionreference/version/
 Specifies the version of the web extension.
 
 
+```python
+@property
+def version(self) -> str:
+    ...
+
+@version.setter
+def version(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

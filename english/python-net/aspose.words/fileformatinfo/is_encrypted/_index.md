@@ -14,6 +14,16 @@ url: /python-net/aspose.words/fileformatinfo/is_encrypted/
 Returns ``True`` if the document is encrypted and requires a password to open.
 
 
+
+```python
+@property
+def is_encrypted(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 This property exists to help you sort documents that are encrypted from those that are not.
 If you attempt to load an encrypted document using Aspose.Words without supplying a password an 
 exception will be thrown. You can use this property to detect whether a document requires a password 

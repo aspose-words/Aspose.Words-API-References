@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/tick_mark_spacing/
 
 Gets or sets the interval, at which tick marks are drawn.
 
+
+```python
+@property
+def tick_mark_spacing(self) -> int:
+    ...
+
+@tick_mark_spacing.setter
+def tick_mark_spacing(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The property has effect for text category and series axes. It is not supported by MS Office 2016
 new charts.
 

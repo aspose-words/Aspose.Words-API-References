@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/custom_properties_export/
 Gets or sets a value determining the way [Document.custom_document_properties](../../../aspose.words/document/custom_document_properties/) are exported to PDF file.
 
 
+
+```python
+@property
+def custom_properties_export(self) -> aspose.words.saving.PdfCustomPropertiesExport:
+    ...
+
+@custom_properties_export.setter
+def custom_properties_export(self, value: aspose.words.saving.PdfCustomPropertiesExport):
+    ...
+
+```
+
+### Remarks
+
 Default value is [PdfCustomPropertiesExport.NONE](../../pdfcustompropertiesexport/#NONE).
 
 [PdfCustomPropertiesExport.METADATA](../../pdfcustompropertiesexport/#METADATA) value is not supported when saving to PDF/A.

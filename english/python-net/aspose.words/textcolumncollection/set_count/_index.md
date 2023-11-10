@@ -21,7 +21,9 @@ def set_count(self, new_count: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| new_count | int |  |
+| new_count | int | The number of columns the text is to be arranged into. |
+
+### Remarks
 
 When [TextColumnCollection.evenly_spaced](../evenly_spaced/) is ``False`` and you increase the number of columns,
 new [TextColumn](../../textcolumn/) objects are created with zero width and spacing.

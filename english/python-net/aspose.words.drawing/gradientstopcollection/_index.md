@@ -17,6 +17,8 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 
 
 
+### Remarks
+
 You do not create instances of this class directly.
 Use the [Fill.gradient_stops](../fill/gradient_stops/) property to access gradient stops of fill objects.
 

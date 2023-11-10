@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/namespace_mappings/
 Gets or sets the namespace mappings for XPath queries.
 
 
+```python
+@property
+def namespace_mappings(self) -> str:
+    ...
+
+@namespace_mappings.setter
+def namespace_mappings(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/name/
 
 Gets or sets the optional shape name.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Default is empty string.
 
 Cannot be ``None``, but can be an empty string.

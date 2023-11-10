@@ -15,15 +15,17 @@ Called when Aspose.Words applies a date/time format switch, i.e. \\@ "dd.MM.yyyy
 
 
 ```python
-def format_date_time(self, value: datetime, format: str, calendar_type: aspose.words.CalendarType):
+def format_date_time(self, value: datetime.datetime, format: str, calendar_type: aspose.words.CalendarType):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | datetime |  |
+| value | datetime.datetime |  |
 | format | str |  |
 | calendar_type | [CalendarType](../../../aspose.words/calendartype/) |  |
+
+### Remarks
 
 The implementation should return ``None`` to indicate that the default formatting should be applied.
 

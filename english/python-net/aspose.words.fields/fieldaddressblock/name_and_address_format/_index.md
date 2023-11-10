@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldaddressblock/name_and_address_format/
 Gets or sets the name and address format.
 
 
+```python
+@property
+def name_and_address_format(self) -> str:
+    ...
+
+@name_and_address_format.setter
+def name_and_address_format(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADDRESSBLOCK field.

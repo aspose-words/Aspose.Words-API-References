@@ -14,6 +14,8 @@ url: /python-net/aspose.words/frameformat/
 Represents frame related formatting for a paragraph.
 
 
+### Remarks
+
 This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise
 all properties are set to their defaults.
 

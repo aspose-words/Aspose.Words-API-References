@@ -17,6 +17,8 @@ To learn more, visit the [Working with Lists](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 A list in a Microsoft Word document is a set of list formatting properties.
 Each list can have up to 9 levels and formatting properties, such as number style, start value,
 indent, tab position etc are defined separately for each level.

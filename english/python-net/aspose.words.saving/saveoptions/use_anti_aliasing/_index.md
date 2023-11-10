@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/saveoptions/use_anti_aliasing/
 
 Gets or sets a value determining whether or not to use anti-aliasing for rendering.
 
+
+```python
+@property
+def use_anti_aliasing(self) -> bool:
+    ...
+
+@use_anti_aliasing.setter
+def use_anti_aliasing(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``. When this value is set to ``True`` anti-aliasing is
 used for rendering.
 

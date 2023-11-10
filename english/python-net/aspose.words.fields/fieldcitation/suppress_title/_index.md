@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcitation/suppress_title/
 Gets or sets whether the title information is suppressed from the citation.
 
 
+```python
+@property
+def suppress_title(self) -> bool:
+    ...
+
+@suppress_title.setter
+def suppress_title(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

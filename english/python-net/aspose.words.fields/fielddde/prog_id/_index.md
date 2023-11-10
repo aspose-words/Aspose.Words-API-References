@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddde/prog_id/
 Gets or sets the application type of the link information.
 
 
+```python
+@property
+def prog_id(self) -> str:
+    ...
+
+@prog_id.setter
+def prog_id(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/writeprotection/read_only_recommended/
 Specifies whether the document author has recommended that the document be opened as read-only.
 
 
+```python
+@property
+def read_only_recommended(self) -> bool:
+    ...
+
+@read_only_recommended.setter
+def read_only_recommended(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to protect a document with a password.

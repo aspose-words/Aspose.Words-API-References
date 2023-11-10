@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/relative_vertical_alignment/
 Gets or sets floating table relative vertical alignment.
 
 
+```python
+@property
+def relative_vertical_alignment(self) -> aspose.words.drawing.VerticalAlignment:
+    ...
+
+@relative_vertical_alignment.setter
+def relative_vertical_alignment(self, value: aspose.words.drawing.VerticalAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how set the location of floating tables.

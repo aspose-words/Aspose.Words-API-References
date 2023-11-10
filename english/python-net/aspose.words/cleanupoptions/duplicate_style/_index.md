@@ -16,6 +16,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def duplicate_style(self) -> bool:
+    ...
+
+@duplicate_style.setter
+def duplicate_style(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove duplicated styles from the document.

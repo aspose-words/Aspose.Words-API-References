@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chart/legend/
 Provides access to the chart legend properties.
 
 
+```python
+@property
+def legend(self) -> aspose.words.drawing.charts.ChartLegend:
+    ...
+
+```
+
 ### Examples
 
 Shows how to edit the appearance of a chart's legend.

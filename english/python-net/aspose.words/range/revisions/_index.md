@@ -13,6 +13,16 @@ url: /python-net/aspose.words/range/revisions/
 
 Gets a collection of revisions (tracked changes) that exist in this range.
 
+
+```python
+@property
+def revisions(self) -> aspose.words.RevisionCollection:
+    ...
+
+```
+
+### Remarks
+
 The returned collection is a "live" collection, which means if you remove parts of a document that contain
 revisions, the deleted revisions will automatically disappear from this collection.
 

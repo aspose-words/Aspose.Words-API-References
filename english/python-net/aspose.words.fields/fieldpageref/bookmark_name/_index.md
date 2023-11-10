@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldpageref/bookmark_name/
 Gets or sets the name of the bookmark.
 
 
+```python
+@property
+def bookmark_name(self) -> str:
+    ...
+
+@bookmark_name.setter
+def bookmark_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert PAGEREF fields to display the relative location of bookmarks.

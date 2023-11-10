@@ -15,6 +15,13 @@ Returns ``True`` if this field has a separator.
 
 
 
+```python
+@property
+def has_separator(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

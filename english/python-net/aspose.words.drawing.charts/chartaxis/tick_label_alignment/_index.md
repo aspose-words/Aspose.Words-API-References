@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/
 
 Gets or sets text alignment of axis tick labels.
 
+
+```python
+@property
+def tick_label_alignment(self) -> aspose.words.ParagraphAlignment:
+    ...
+
+@tick_label_alignment.setter
+def tick_label_alignment(self, value: aspose.words.ParagraphAlignment):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only for multi-line labels.
 
 Default value is [ParagraphAlignment.CENTER](../../../aspose.words/paragraphalignment/#CENTER).

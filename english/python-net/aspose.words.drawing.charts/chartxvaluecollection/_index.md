@@ -14,6 +14,8 @@ url: /python-net/aspose.words.drawing.charts/chartxvaluecollection/
 Represents a collection of X values for a chart series.
 
 
+### Remarks
+
 All items of the collection other than **null** must have the same [ChartXValue.value_type](../chartxvalue/value_type/).
 
 The collection allows only changing X values. To add or insert new values to a chart series, or remove values,

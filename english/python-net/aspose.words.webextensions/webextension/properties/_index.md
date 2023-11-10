@@ -14,6 +14,13 @@ url: /python-net/aspose.words.webextensions/webextension/properties/
 Represents a set of web extension custom properties.
 
 
+```python
+@property
+def properties(self) -> aspose.words.webextensions.WebExtensionPropertyCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

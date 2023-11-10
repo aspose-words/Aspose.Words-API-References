@@ -21,7 +21,7 @@ def visit_editable_range_start(self, editable_range_start: aspose.words.Editable
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| editable_range_start | [EditableRangeStart](../../editablerangestart/) |  |
+| editable_range_start | [EditableRangeStart](../../editablerangestart/) | The object that is being visited. |
 
 ### Returns
 

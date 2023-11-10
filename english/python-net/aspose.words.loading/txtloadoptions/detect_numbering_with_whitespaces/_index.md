@@ -14,6 +14,20 @@ url: /python-net/aspose.words.loading/txtloadoptions/detect_numbering_with_white
 Allows to specify how numbered list items are recognized when document is imported from plain text format.
 The default value is ``True``.
 
+
+```python
+@property
+def detect_numbering_with_whitespaces(self) -> bool:
+    ...
+
+@detect_numbering_with_whitespaces.setter
+def detect_numbering_with_whitespaces(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If this option is set to ``False``, lists recognition algorithm detects list paragraphs, when list numbers ends with
 either dot, right bracket or bullet symbols (such as "•", "\*", "-" or "o").
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/preserve_tabs/
 Gets or sets whether to preserve tab entries within table entries.
 
 
+```python
+@property
+def preserve_tabs(self) -> bool:
+    ...
+
+@preserve_tabs.setter
+def preserve_tabs(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

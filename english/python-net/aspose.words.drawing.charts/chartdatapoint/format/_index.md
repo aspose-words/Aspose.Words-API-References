@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartdatapoint/format/
 Provides access to fill and line formatting of this data point.
 
 
+```python
+@property
+def format(self) -> aspose.words.drawing.charts.ChartFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set individual formatting for categories of a column chart.

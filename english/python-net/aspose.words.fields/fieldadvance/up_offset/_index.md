@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldadvance/up_offset/
 Gets or sets the number of points by which the text that follows the field should be moved up.
 
 
+```python
+@property
+def up_offset(self) -> str:
+    ...
+
+@up_offset.setter
+def up_offset(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADVANCE field, and edit its properties.

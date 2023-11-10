@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/use_yomi/
 Gets or sets whether to enable the use of yomi text for index entries.
 
 
+```python
+@property
+def use_yomi(self) -> bool:
+    ...
+
+@use_yomi.setter
+def use_yomi(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to sort INDEX field entries phonetically.

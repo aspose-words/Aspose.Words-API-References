@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 This rule defines single default font name to be used for substitution if the original font is not available.
 
 

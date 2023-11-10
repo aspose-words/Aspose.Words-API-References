@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartxvalue/double_value/
 Gets the stored numeric value.
 
 
+```python
+@property
+def double_value(self) -> float:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves the name of a data field within the merge characters in a mail merge main document.
 When the main document is merged with the selected data source, information from the specified
 data field is inserted in place of the merge field.

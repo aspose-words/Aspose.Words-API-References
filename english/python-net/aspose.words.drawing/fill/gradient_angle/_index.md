@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/fill/gradient_angle/
 Gets or sets the angle of the gradient fill.
 
 
+```python
+@property
+def gradient_angle(self) -> float:
+    ...
+
+@gradient_angle.setter
+def gradient_angle(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to fill a shape with a gradients.

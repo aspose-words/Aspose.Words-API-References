@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/charttitle/font/
 Provides access to the font formatting of the chart title.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and set a title.

@@ -15,6 +15,13 @@ Gets total number of codepoints in the [Cluster](../).
 
 
 
+```python
+@property
+def codepoints_length(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.shaping](../../)

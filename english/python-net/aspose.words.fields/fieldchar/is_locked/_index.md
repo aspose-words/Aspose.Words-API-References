@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldchar/is_locked/
 Gets or sets whether the parent field is locked (should not recalculate its result).
 
 
+```python
+@property
+def is_locked(self) -> bool:
+    ...
+
+@is_locked.setter
+def is_locked(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a FieldStart node.

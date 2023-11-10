@@ -16,6 +16,20 @@ when embedding TrueType fonts in a document upon it is saved.
 The default value is ``False``.
 
 
+
+```python
+@property
+def allow_embedding_post_script_fonts(self) -> bool:
+    ...
+
+@allow_embedding_post_script_fonts.setter
+def allow_embedding_post_script_fonts(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.embed_true_type_fonts](../../../aspose.words.fonts/fontinfocollection/embed_true_type_fonts/) of the

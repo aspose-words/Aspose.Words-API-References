@@ -15,6 +15,13 @@ Returns a [Range.form_fields](./) collection that represents all form fields in 
 
 
 
+```python
+@property
+def form_fields(self) -> aspose.words.fields.FormFieldCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

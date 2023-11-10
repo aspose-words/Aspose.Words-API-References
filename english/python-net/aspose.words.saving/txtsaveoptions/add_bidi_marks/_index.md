@@ -18,6 +18,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def add_bidi_marks(self) -> bool:
+    ...
+
+@add_bidi_marks.setter
+def add_bidi_marks(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text.

@@ -21,7 +21,9 @@ def set_text(self, text: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | str |  |
+| text | str | Text that is displayed as a watermark. |
+
+### Remarks
 
 The text length must be in the range from 1 to 200 inclusive.
 The text cannot be ``None`` or contain only whitespaces.
@@ -32,8 +34,8 @@ The text cannot be ``None`` or contain only whitespaces.
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentOutOfRangeException | Throws when the text length is out of range or the text contains only whitespaces. |
-| System.ArgumentNullException | Throws when the text is ``None``. |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when the text length is out of range or the text contains only whitespaces. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the text is ``None``. |
 
 ## set_text(text, options) {#str_textwatermarkoptions}
 
@@ -47,8 +49,10 @@ def set_text(self, text: str, options: aspose.words.TextWatermarkOptions):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | str |  |
-| options | [TextWatermarkOptions](../../textwatermarkoptions/) |  |
+| text | str | Text that is displayed as a watermark. |
+| options | [TextWatermarkOptions](../../textwatermarkoptions/) | Defines additional options for the text watermark. |
+
+### Remarks
 
 The text length must be in the range from 1 to 200 inclusive.
 The text cannot be ``None`` or contain only whitespaces.
@@ -62,8 +66,8 @@ If [TextWatermarkOptions](../../textwatermarkoptions/) is ``None``, the watermar
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentOutOfRangeException | Throws when the text length is out of range or the text contain only whitespaces. |
-| System.ArgumentNullException | Throws when the text is ``None``. |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when the text length is out of range or the text contain only whitespaces. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the text is ``None``. |
 
 ## Examples
 

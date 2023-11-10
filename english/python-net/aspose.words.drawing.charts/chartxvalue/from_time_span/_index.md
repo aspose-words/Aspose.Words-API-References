@@ -9,20 +9,20 @@ weight: 110
 url: /python-net/aspose.words.drawing.charts/chartxvalue/from_time_span/
 ---
 
-## from_time_span(value) {#unknown}
+## from_time_span(value) {#timespan}
 
 Creates a [ChartXValue](../) instance of the [ChartXValueType.TIME](../../chartxvaluetype/#TIME) type.
 
 
 
 ```python
-def from_time_span(self, value):
+def from_time_span(self, value: datetime.timespan):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value |  |  |
+| value | datetime.timespan |  |
 
 ### See Also
 

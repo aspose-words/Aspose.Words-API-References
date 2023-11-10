@@ -13,6 +13,20 @@ url: /python-net/aspose.words/bordercollection/distance_from_text/
 
 Gets or sets distance of the border from text in points.
 
+
+```python
+@property
+def distance_from_text(self) -> float:
+    ...
+
+@distance_from_text.setter
+def distance_from_text(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 Gets the distance from text for the first border.
 
 Sets the distance from text for all borders in the collection excluding diagonal borders.

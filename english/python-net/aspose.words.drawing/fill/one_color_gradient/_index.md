@@ -21,9 +21,9 @@ def one_color_gradient(self, style: aspose.words.drawing.GradientStyle, variant:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [GradientStyle](../../gradientstyle/) |  |
-| variant | [GradientVariant](../../gradientvariant/) |  |
-| degree | float |  |
+| style | [GradientStyle](../../gradientstyle/) | The gradient style [GradientStyle](../../gradientstyle/) |
+| variant | [GradientVariant](../../gradientvariant/) | The gradient variant [GradientVariant](../../gradientvariant/) |
+| degree | float | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
 ## one_color_gradient(color, style, variant, degree) {#color_gradientstyle_gradientvariant_float}
 
@@ -37,10 +37,10 @@ def one_color_gradient(self, color: aspose.pydrawing.Color, style: aspose.words.
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | aspose.pydrawing.Color |  |
-| style | [GradientStyle](../../gradientstyle/) |  |
-| variant | [GradientVariant](../../gradientvariant/) |  |
-| degree | float |  |
+| color | aspose.pydrawing.Color | The color to build the gradient. |
+| style | [GradientStyle](../../gradientstyle/) | The gradient style [GradientStyle](../../gradientstyle/) |
+| variant | [GradientVariant](../../gradientvariant/) | The gradient variant [GradientVariant](../../gradientvariant/) |
+| degree | float | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
 ## Examples
 

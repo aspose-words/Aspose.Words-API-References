@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def preserve_table_layout(self) -> bool:
+    ...
+
+@preserve_table_layout.setter
+def preserve_table_layout(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to preserve the layout of tables when converting to plaintext.

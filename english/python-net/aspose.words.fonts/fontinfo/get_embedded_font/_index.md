@@ -21,8 +21,8 @@ def get_embedded_font(self, format: aspose.words.fonts.EmbeddedFontFormat, style
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | [EmbeddedFontFormat](../../embeddedfontformat/) |  |
-| style | [EmbeddedFontStyle](../../embeddedfontstyle/) |  |
+| format | [EmbeddedFontFormat](../../embeddedfontformat/) | Specifies the font format to retrieve. |
+| style | [EmbeddedFontStyle](../../embeddedfontstyle/) | Specifies the font style to retrieve. |
 
 ### Returns
 

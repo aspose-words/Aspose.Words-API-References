@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/shapebase/height_relative/
 Gets or sets the value that represents the percentage of shape's relative height.
 
 
+```python
+@property
+def height_relative(self) -> float:
+    ...
+
+@height_relative.setter
+def height_relative(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set relative size and position.

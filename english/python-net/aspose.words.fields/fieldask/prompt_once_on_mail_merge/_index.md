@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldask/prompt_once_on_mail_merge/
 Gets or sets whether the user response should be recieved once per a mail merge operation.
 
 
+```python
+@property
+def prompt_once_on_mail_merge(self) -> bool:
+    ...
+
+@prompt_once_on_mail_merge.setter
+def prompt_once_on_mail_merge(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

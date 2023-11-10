@@ -16,6 +16,17 @@ Can be [SaveFormat.DOC](../../../aspose.words/saveformat/#DOC) or [SaveFormat.DO
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set save options for older Microsoft Word formats.

@@ -21,8 +21,10 @@ def replace(self, pattern: str, replacement: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | str |  |
-| replacement | str |  |
+| pattern | str | A string to be replaced. |
+| replacement | str | A string to replace all occurrences of pattern. |
+
+### Remarks
 
 The pattern will not be used as regular expression.
 Please use Aspose.Words.Range.Replace(System.Text.RegularExpressions.Regex,System.String) if you need regular expressions.
@@ -63,9 +65,11 @@ def replace(self, pattern: str, replacement: str, options: aspose.words.replacin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | str |  |
-| replacement | str |  |
-| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) |  |
+| pattern | str | A string to be replaced. |
+| replacement | str | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Remarks
 
 The pattern will not be used as regular expression.
 Please use Aspose.Words.Range.Replace(System.Text.RegularExpressions.Regex,System.String,Aspose.Words.Replacing.FindReplaceOptions) if you need regular expressions.

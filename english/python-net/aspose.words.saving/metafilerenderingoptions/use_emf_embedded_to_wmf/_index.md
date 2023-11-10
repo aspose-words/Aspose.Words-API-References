@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/metafilerenderingoptions/use_emf_embedded_t
 
 Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered.
 
+
+```python
+@property
+def use_emf_embedded_to_wmf(self) -> bool:
+    ...
+
+@use_emf_embedded_to_wmf.setter
+def use_emf_embedded_to_wmf(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 WMF metafiles could contain embedded EMF data. MS Word in most cases uses embedded EMF data.
 GDI+ always uses WMF data.
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldautonumlgl/remove_trailing_period/
 Gets or sets whether to display the number without a trailing period.
 
 
+```python
+@property
+def remove_trailing_period(self) -> bool:
+    ...
+
+@remove_trailing_period.setter
+def remove_trailing_period(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to organize a document using AUTONUMLGL fields.

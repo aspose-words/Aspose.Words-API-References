@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/imagesize/vertical_resolution/
 Gets the vertical resolution in DPI.
 
 
+```python
+@property
+def vertical_resolution(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to read the properties of an image in a shape.

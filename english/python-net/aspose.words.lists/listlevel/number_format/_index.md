@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/number_format/
 
 Returns or sets the number format for the list level.
 
+
+```python
+@property
+def number_format(self) -> str:
+    ...
+
+@number_format.setter
+def number_format(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Among normal text characters, the string can contain placeholder characters \\x0000 to \\x0008
 representing the numbers from the corresponding list levels.
 

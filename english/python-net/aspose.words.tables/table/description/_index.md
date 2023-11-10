@@ -14,6 +14,20 @@ url: /python-net/aspose.words.tables/table/description/
 Gets or sets description of this table.
 It provides an alternative text representation of the information contained in the table.
 
+
+```python
+@property
+def description(self) -> str:
+    ...
+
+@description.setter
+def description(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 This property is meaningful for ISO/IEC 29500 compliant DOCX documents

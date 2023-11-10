@@ -15,15 +15,15 @@ Converts document using specified input output streams and save options.
 
 
 ```python
-def convert(self, input_stream: BytesIO, output_stream: BytesIO, save_options: aspose.words.saving.SaveOptions):
+def convert(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input_stream | BytesIO |  |
-| output_stream | BytesIO |  |
-| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) |  |
+| input_stream | io.BytesIO | The input stream. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 
 ### See Also
 

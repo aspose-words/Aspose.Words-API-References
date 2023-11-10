@@ -16,6 +16,20 @@ When ``False`` is specified, the flag is not written to the output document and
 the default behaviour of reader is used instead.
 
 
+
+```python
+@property
+def interpolate_images(self) -> bool:
+    ...
+
+@interpolate_images.setter
+def interpolate_images(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When the resolution of a source image is significantly lower than that of the output device,
 each source sample covers many device pixels. As a result, images can appear jaggy or blocky.
 These visual artifacts can be reduced by applying an image interpolation algorithm during rendering.

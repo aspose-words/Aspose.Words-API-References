@@ -9,21 +9,23 @@ weight: 440
 url: /python-net/aspose.words/node/get_ancestor/
 ---
 
-## get_ancestor(ancestor_type) {#unknown}
+## get_ancestor(ancestor_type) {#object}
 
 Gets the first ancestor of the specified object type.
 
 
 ```python
-def get_ancestor(self, ancestor_type):
+def get_ancestor(self, ancestor_type: object):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor_type |  |  |
+| ancestor_type | object | The object type of the ancestor to retrieve. |
 
-The ancestor type matches if it is equal to  or derived from.
+### Remarks
+
+The ancestor type matches if it is equal to *ancestorType* or derived from*ancestorType*.
 
 
 
@@ -46,7 +48,7 @@ def get_ancestor(self, ancestor_type: aspose.words.NodeType):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor_type | [NodeType](../../nodetype/) |  |
+| ancestor_type | [NodeType](../../nodetype/) | The node type of the ancestor to retrieve. |
 
 ### Returns
 

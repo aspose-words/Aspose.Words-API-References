@@ -21,7 +21,9 @@ def remove_reply(self, reply: aspose.words.Comment):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reply | [Comment](../) |  |
+| reply | [Comment](../) | The comment node of the deleting reply. |
+
+### Remarks
 
 All constituent nodes of the reply will be deleted from the document.
 

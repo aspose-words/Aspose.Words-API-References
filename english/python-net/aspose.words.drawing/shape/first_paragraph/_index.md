@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shape/first_paragraph/
 Gets the first paragraph in the shape.
 
 
+```python
+@property
+def first_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create and format a text box.

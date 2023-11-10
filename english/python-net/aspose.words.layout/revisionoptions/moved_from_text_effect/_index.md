@@ -16,6 +16,17 @@ Default value is [RevisionTextEffect.DOUBLE_STRIKE_THROUGH](../../revisiontextef
 
 
 
+```python
+@property
+def moved_from_text_effect(self) -> aspose.words.layout.RevisionTextEffect:
+    ...
+
+@moved_from_text_effect.setter
+def moved_from_text_effect(self, value: aspose.words.layout.RevisionTextEffect):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

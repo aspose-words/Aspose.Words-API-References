@@ -14,6 +14,13 @@ url: /python-net/aspose.words/node/node_type/
 Gets the type of this node.
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to traverse a composite node's tree of child nodes.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/cache_background_graphics/
 
 Gets or sets a value determining whether or not to cache graphics placed in document's background.
 
+
+```python
+@property
+def cache_background_graphics(self) -> bool:
+    ...
+
+@cache_background_graphics.setter
+def cache_background_graphics(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default value is ``True`` and background graphics are written to the PDF document as an xObject.
 
 When the value is ``False`` background graphics are not cached.

@@ -22,8 +22,8 @@ def __init__(self, doc: aspose.words.DocumentBase, name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../documentbase/) |  |
-| name | str |  |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+| name | str | The name of the bookmark. Cannot be ``None``. |
 
 ### See Also
 

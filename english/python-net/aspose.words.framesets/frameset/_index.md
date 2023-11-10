@@ -17,6 +17,8 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 
 
+### Remarks
+
 If the [Frameset.child_framesets](./child_framesets/) property contains items, this instance is a frames page, otherwise it is
 a single frame.
 

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.buildingblocks/glossarydocument/last_building_bloc
 
 Gets the last building block in the glossary document.
 
+
+```python
+@property
+def last_building_block(self) -> aspose.words.buildingblocks.BuildingBlock:
+    ...
+
+```
+
+### Remarks
+
 Returns ``None`` if there are no building blocks available.
 
 

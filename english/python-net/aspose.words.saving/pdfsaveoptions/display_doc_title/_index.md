@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/display_doc_title/
 A flag specifying whether the window’s title bar should display the document title taken from
 the Title entry of the document information dictionary.
 
+
+```python
+@property
+def display_doc_title(self) -> bool:
+    ...
+
+@display_doc_title.setter
+def display_doc_title(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If ``False``, the title bar should instead display the name of the PDF file containing the document.
 
 This flag is required by PDF/UA compliance. ``True`` value will be used automatically when saving

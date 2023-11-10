@@ -14,6 +14,13 @@ url: /python-net/aspose.words.themes/theme/colors/
 Allows to specify the set of theme colors for the document.
 
 
+```python
+@property
+def colors(self) -> aspose.words.themes.ThemeColors:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

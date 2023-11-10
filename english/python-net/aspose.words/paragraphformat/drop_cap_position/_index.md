@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/drop_cap_position/
 Gets or sets the position for a drop cap text.
 
 
+```python
+@property
+def drop_cap_position(self) -> aspose.words.DropCapPosition:
+    ...
+
+@drop_cap_position.setter
+def drop_cap_position(self, value: aspose.words.DropCapPosition):
+    ...
+
+```
+
 ### Examples
 
 Shows how to nest a list inside another list.

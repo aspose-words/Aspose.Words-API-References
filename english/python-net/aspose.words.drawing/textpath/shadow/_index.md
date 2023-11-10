@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/shadow/
 
 Defines whether a shadow is applied to the text on a text path.
 
+
+```python
+@property
+def shadow(self) -> bool:
+    ...
+
+@shadow.setter
+def shadow(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

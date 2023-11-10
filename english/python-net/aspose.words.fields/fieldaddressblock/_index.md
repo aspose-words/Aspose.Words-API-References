@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Represents an address block. An *address block* is a block of text specifying information
 appropriate for a postal mailing address, in the order required by the destination country.
 

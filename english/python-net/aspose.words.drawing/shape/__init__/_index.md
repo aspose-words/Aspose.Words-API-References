@@ -21,8 +21,10 @@ def __init__(self, doc: aspose.words.DocumentBase, shape_type: aspose.words.draw
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
-| shape_type | [ShapeType](../../shapetype/) |  |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
+| shape_type | [ShapeType](../../shapetype/) | The type of the shape to create. |
+
+### Remarks
 
 You should specify desired shape properties after you created a shape.
 

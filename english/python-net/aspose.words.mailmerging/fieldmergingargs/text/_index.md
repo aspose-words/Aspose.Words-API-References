@@ -13,6 +13,20 @@ url: /python-net/aspose.words.mailmerging/fieldmergingargs/text/
 
 Gets or sets the text that will be inserted into the document for the current merge field.
 
+
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When your event handler is called, this property is set to ``None``.
 
 If you leave Text as ``None``, the mail merge engine will insert [FieldMergingArgsBase.field_value](../../fieldmergingargsbase/field_value/) in place of the merge field.

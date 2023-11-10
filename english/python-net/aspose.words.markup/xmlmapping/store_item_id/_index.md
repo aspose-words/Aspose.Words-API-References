@@ -16,6 +16,13 @@ shall be used to evaluate the [XmlMapping.xpath](../xpath/) expression.
 
 
 
+```python
+@property
+def store_item_id(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the custom XML data identifier of an XML part.

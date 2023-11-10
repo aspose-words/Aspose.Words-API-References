@@ -16,6 +16,17 @@ Default value is [RevisionColor.BY_AUTHOR](../../revisioncolor/#BY_AUTHOR).
 
 
 
+```python
+@property
+def deleted_text_color(self) -> aspose.words.layout.RevisionColor:
+    ...
+
+@deleted_text_color.setter
+def deleted_text_color(self, value: aspose.words.layout.RevisionColor):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

@@ -17,37 +17,30 @@ To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/p
 
 
 
+### Remarks
+
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as
 a data source to one of [ReportingEngine](../reportingengine/).BuildReport overloads.
 
 
-In template documents, a [CsvDataSource](./) instance should be treated in the same way as if it was
-a System.Data.DataTable 
-instance. For more information, see template syntax reference 
-(https://docs.aspose.com/display/wordsnet/Template+Syntax).
-
-
 Data types of comma-separated values are determined automatically upon their string representations. So in template
-documents, you can work with typed values rather than just strings. The engine is capable to automatically recognize 
+documents, you can work with typed values rather than just strings. The engine is capable to automatically recognize
 values of the following types:
 
 
-* System.Nullable`1
+* int
   
   
-* System.Nullable`1
+* bool
   
   
-* System.Nullable`1
+* datetime.datetime
   
   
-* System.Nullable`1
+* string
   
   
-* System.String
-  
-  
-Note that for automatic recognition of data types to work, string representations of comma-separated values should 
+Note that for automatic recognition of data types to work, string representations of comma-separated values should
 be formed using invariant culture settings.
 
 To override default behavior of CSV data loading, initialize and pass a [CsvDataLoadOptions](../csvdataloadoptions/) instance

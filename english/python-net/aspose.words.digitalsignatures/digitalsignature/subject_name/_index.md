@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/subject_name/
 Returns the subject distinguished name of the certificate that was used to sign the document.
 
 
+```python
+@property
+def subject_name(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign documents with X.509 certificates.

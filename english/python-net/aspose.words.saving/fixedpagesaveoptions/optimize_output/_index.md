@@ -20,6 +20,17 @@ Default is ``False``.
 
 
 
+```python
+@property
+def optimize_output(self) -> bool:
+    ...
+
+@optimize_output.setter
+def optimize_output(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to optimize document objects while saving to xps.

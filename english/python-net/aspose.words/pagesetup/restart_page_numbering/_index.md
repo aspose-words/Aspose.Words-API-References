@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/restart_page_numbering/
 
 True if page numbering restarts at the beginning of the section.
 
+
+```python
+@property
+def restart_page_numbering(self) -> bool:
+    ...
+
+@restart_page_numbering.setter
+def restart_page_numbering(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If set to ``False``, the [PageSetup.restart_page_numbering](./) property will override the
 [PageSetup.page_starting_number](../page_starting_number/) property so that page numbering can continue from the previous section.
 

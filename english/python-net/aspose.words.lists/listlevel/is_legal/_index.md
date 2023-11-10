@@ -14,6 +14,17 @@ url: /python-net/aspose.words.lists/listlevel/is_legal/
 True if the level turns all inherited numbers to Arabic, false if it preserves their number style.
 
 
+```python
+@property
+def is_legal(self) -> bool:
+    ...
+
+@is_legal.setter
+def is_legal(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows advances ways of customizing list labels.

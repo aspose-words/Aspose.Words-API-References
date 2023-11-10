@@ -14,6 +14,13 @@ url: /python-net/aspose.words/inline/is_insert_revision/
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
 
+```python
+@property
+def is_insert_revision(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to determine the revision type of an inline node.

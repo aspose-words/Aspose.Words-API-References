@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/signature_date/
 
 Gets or sets the date of the signing.
 
+
+```python
+@property
+def signature_date(self) -> datetime.datetime:
+    ...
+
+@signature_date.setter
+def signature_date(self, value: datetime.datetime):
+    ...
+
+```
+
+### Remarks
+
 The default value is the current time.
 
 This value will appear in the digital signature as an unverified computer time.

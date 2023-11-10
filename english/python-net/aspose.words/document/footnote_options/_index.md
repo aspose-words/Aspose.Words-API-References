@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/footnote_options/
 Provides options that control numbering and positioning of footnotes in this document.
 
 
+```python
+@property
+def footnote_options(self) -> aspose.words.notes.FootnoteOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to select a different place where the document collects and displays its footnotes.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/superscript/
 True if the font is formatted as superscript.
 
 
+```python
+@property
+def superscript(self) -> bool:
+    ...
+
+@superscript.setter
+def superscript(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format text to offset its position.

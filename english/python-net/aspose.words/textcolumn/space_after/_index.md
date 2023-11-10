@@ -14,6 +14,17 @@ url: /python-net/aspose.words/textcolumn/space_after/
 Gets or sets the space between this column and the next column in points. Not required for the last column.
 
 
+```python
+@property
+def space_after(self) -> float:
+    ...
+
+@space_after.setter
+def space_after(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create unevenly spaced columns.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/name/
 
 Gets or sets the form field name.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Microsoft Word allows strings with at most 20 characters.
 
 

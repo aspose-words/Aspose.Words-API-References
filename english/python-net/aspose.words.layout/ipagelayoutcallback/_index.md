@@ -14,6 +14,8 @@ url: /python-net/aspose.words.layout/ipagelayoutcallback/
 Implement this interface if you want to have your own custom method called during build and rendering of page layout model.
 
 
+### Remarks
+
 The primary use for this interface is to allow application code to abort build process.
 
 

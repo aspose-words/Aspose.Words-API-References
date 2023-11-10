@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldddeauto/source_full_name/
 Gets or sets the name and location of the source file.
 
 
+```python
+@property
+def source_full_name(self) -> str:
+    ...
+
+@source_full_name.setter
+def source_full_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

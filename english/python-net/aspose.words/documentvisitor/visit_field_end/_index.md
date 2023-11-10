@@ -21,7 +21,9 @@ def visit_field_end(self, field_end: aspose.words.fields.FieldEnd):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_end | [FieldEnd](../../../aspose.words.fields/fieldend/) |  |
+| field_end | [FieldEnd](../../../aspose.words.fields/fieldend/) | The object that is being visited. |
+
+### Remarks
 
 For more info see [DocumentVisitor.visit_field_start()](../visit_field_start/#fieldstart)
 

@@ -21,7 +21,7 @@ def visit_office_math_end(self, office_math: aspose.words.math.OfficeMath):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| office_math | [OfficeMath](../../../aspose.words.math/officemath/) |  |
+| office_math | [OfficeMath](../../../aspose.words.math/officemath/) | The object that is being visited. |
 
 ### Returns
 

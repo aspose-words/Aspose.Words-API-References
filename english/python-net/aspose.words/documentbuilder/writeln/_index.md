@@ -21,7 +21,9 @@ def writeln(self, text: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | str |  |
+| text | str | The string to insert into the document. |
+
+### Remarks
 
 Current font and paragraph formatting specified by the [DocumentBuilder.font](../font/) and [DocumentBuilder.paragraph_format](../paragraph_format/) properties are used.
 
@@ -36,6 +38,8 @@ Inserts a paragraph break into the document.
 def writeln(self):
     ...
 ```
+
+### Remarks
 
 Calls [DocumentBuilder.insert_paragraph()](../insert_paragraph/#default).
 

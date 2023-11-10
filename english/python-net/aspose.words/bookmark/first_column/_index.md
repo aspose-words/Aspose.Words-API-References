@@ -13,6 +13,16 @@ url: /python-net/aspose.words/bookmark/first_column/
 
 Gets the zero-based index of the first column of the table column range associated with the bookmark.
 
+
+```python
+@property
+def first_column(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 Returns **-1** if this bookmark is not a table column bookmark.
 
 

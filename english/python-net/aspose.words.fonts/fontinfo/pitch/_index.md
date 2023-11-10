@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fonts/fontinfo/pitch/
 The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
 
 
+```python
+@property
+def pitch(self) -> aspose.words.fonts.FontPitch:
+    ...
+
+@pitch.setter
+def pitch(self, value: aspose.words.fonts.FontPitch):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access and print details of each font in a document.

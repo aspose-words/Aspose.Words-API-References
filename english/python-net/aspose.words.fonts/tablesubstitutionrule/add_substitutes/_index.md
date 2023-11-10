@@ -21,8 +21,8 @@ def add_substitutes(self, original_font_name: str, substitute_font_names: List[s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| original_font_name | str |  |
-| substitute_font_names | List[str] |  |
+| original_font_name | str | Original font name. |
+| substitute_font_names | List[str] | List of alternative font names. |
 
 ### Examples
 

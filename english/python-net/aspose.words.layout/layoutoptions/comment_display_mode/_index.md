@@ -15,6 +15,20 @@ Gets or sets the way comments are rendered.
 Default value is [CommentDisplayMode.SHOW_IN_BALLOONS](../../commentdisplaymode/#SHOW_IN_BALLOONS).
 
 
+
+```python
+@property
+def comment_display_mode(self) -> aspose.words.layout.CommentDisplayMode:
+    ...
+
+@comment_display_mode.setter
+def comment_display_mode(self, value: aspose.words.layout.CommentDisplayMode):
+    ...
+
+```
+
+### Remarks
+
 Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW_IN_ANNOTATIONS](../../commentdisplaymode/#SHOW_IN_ANNOTATIONS).
 
 

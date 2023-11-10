@@ -16,6 +16,17 @@ the formatting for the [FieldIndex](../../fieldindex/) fields in the document.
 
 
 
+```python
+@property
+def field_index_format(self) -> aspose.words.fields.FieldIndexFormat:
+    ...
+
+@field_index_format.setter
+def field_index_format(self, value: aspose.words.fields.FieldIndexFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to formatting FieldIndex fields.

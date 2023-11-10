@@ -17,6 +17,8 @@ To learn more, visit the [Working with Lists](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 A paragraph in a Microsoft Word document can be bulleted or numbered.
 When a paragraph is bulleted or numbered, it is said that list formatting
 is applied to the paragraph.

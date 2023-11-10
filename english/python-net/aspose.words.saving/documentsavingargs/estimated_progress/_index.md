@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/documentsavingargs/estimated_progress/
 Overall estimated percentage progress.
 
 
+```python
+@property
+def estimated_progress(self) -> float:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

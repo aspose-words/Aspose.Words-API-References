@@ -16,6 +16,17 @@ Default value is [ExportFontFormat.WOFF](../../exportfontformat/#WOFF).
 
 
 
+```python
+@property
+def font_format(self) -> aspose.words.saving.ExportFontFormat:
+    ...
+
+@font_format.setter
+def font_format(self, value: aspose.words.saving.ExportFontFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how use fonts only from the target machine when saving a document to HTML.

@@ -21,7 +21,7 @@ def insert_signature_line(self, signature_line_options: aspose.words.SignatureLi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| signature_line_options | [SignatureLineOptions](../../signaturelineoptions/) |  |
+| signature_line_options | [SignatureLineOptions](../../signaturelineoptions/) | The object that stores parameters of creating signature line. |
 
 ### Returns
 
@@ -40,12 +40,14 @@ def insert_signature_line(self, signature_line_options: aspose.words.SignatureLi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| signature_line_options | [SignatureLineOptions](../../signaturelineoptions/) |  |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
-| left | float |  |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
-| top | float |  |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
+| signature_line_options | [SignatureLineOptions](../../signaturelineoptions/) | The object that stores parameters of creating signature line. |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the signature line is measured from. |
+| left | float | Distance in points from the origin to the left side of the signature line. |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the signature line measured from. |
+| top | float | Distance in points from the origin to the top side of the signature line. |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the signature line. |
+
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.

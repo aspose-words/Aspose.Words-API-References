@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/kerning/
 
 Determines whether kerning is turned on.
 
+
+```python
+@property
+def kerning(self) -> bool:
+    ...
+
+@kerning.setter
+def kerning(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

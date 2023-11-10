@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcitation/page_number/
 Gets or sets a page number associated with the citation.
 
 
+```python
+@property
+def page_number(self) -> str:
+    ...
+
+@page_number.setter
+def page_number(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

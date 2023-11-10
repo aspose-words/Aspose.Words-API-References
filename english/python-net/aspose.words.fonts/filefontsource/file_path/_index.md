@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/filefontsource/file_path/
 Path to the font file.
 
 
+```python
+@property
+def file_path(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a font file in the local file system as a font source.
