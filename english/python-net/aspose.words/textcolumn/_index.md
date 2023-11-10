@@ -5,7 +5,7 @@ articleTitle: TextColumn class
 second_title: Aspose.Words for Python
 description: "aspose.words.TextColumn class. Represents a single text column"
 type: docs
-weight: 1220
+weight: 1230
 url: /python-net/aspose.words/textcolumn/
 ---
 
@@ -17,6 +17,8 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/p
 
 
 
+
+### Remarks
 
 [TextColumn](./) objects are only used to specify columns with custom width and spacing. If you want
 the columns in the document to be of equal width, set TextColumns.[TextColumnCollection.evenly_spaced](../textcolumncollection/evenly_spaced/) to ``True``.

@@ -16,6 +16,17 @@ Default value for this property is ``True``.
 
 
 
+```python
+@property
+def show_date(self) -> bool:
+    ...
+
+@show_date.setter
+def show_date(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign a document with a personal certificate and a signature line.

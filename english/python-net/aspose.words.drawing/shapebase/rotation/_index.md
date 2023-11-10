@@ -14,6 +14,20 @@ url: /python-net/aspose.words.drawing/shapebase/rotation/
 Defines the angle (in degrees) that a shape is rotated.
 Positive value corresponds to clockwise rotation angle.
 
+
+```python
+@property
+def rotation(self) -> float:
+    ...
+
+@rotation.setter
+def rotation(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 0.
 
 

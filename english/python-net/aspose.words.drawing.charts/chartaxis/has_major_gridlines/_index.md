@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/has_major_gridlines/
 Gets or sets a flag indicating whether the axis has major gridlines.
 
 
+```python
+@property
+def has_major_gridlines(self) -> bool:
+    ...
+
+@has_major_gridlines.setter
+def has_major_gridlines(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert chart with date/time values.

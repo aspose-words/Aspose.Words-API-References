@@ -14,10 +14,12 @@ url: /python-net/aspose.words.drawing.charts/bubblesizecollection/
 Represents a collection of bubble sizes for a chart series.
 
 
+### Remarks
+
 The collection allows only changing bubble sizes. To add or insert new values to a chart series, or remove
 values, the appropriate methods of the [ChartSeries](../chartseries/) class can be used.
 
-Empty bubble size values are represented as System.Double.NaN.
+Empty bubble size values are represented as None.
 
 
 

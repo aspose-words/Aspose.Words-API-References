@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/align_tables_row_by_
 Align Table Rows Independently.
 
 
+```python
+@property
+def align_tables_row_by_row(self) -> bool:
+    ...
+
+@align_tables_row_by_row.setter
+def align_tables_row_by_row(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoa/entry_category/
 Gets or sets the integral category for entries included in the table.
 
 
+```python
+@property
+def entry_category(self) -> str:
+    ...
+
+@entry_category.setter
+def entry_category(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

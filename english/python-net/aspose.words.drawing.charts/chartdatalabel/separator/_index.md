@@ -16,6 +16,17 @@ The default is a comma, except for pie charts showing only category name and per
 shall be used instead.
 
 
+```python
+@property
+def separator(self) -> str:
+    ...
+
+@separator.setter
+def separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

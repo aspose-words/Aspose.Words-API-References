@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/page_number_style/
 Gets or sets the page number format.
 
 
+```python
+@property
+def page_number_style(self) -> aspose.words.NumberStyle:
+    ...
+
+@page_number_style.setter
+def page_number_style(self, value: aspose.words.NumberStyle):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set up page numbering in a section.

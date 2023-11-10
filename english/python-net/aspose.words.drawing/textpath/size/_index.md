@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/size/
 
 Defines the size of the font in points.
 
+
+```python
+@property
+def size(self) -> float:
+    ...
+
+@size.setter
+def size(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 36.
 
 

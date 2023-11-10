@@ -16,6 +16,17 @@ Default value is **Encoding.UTF8**.
 
 
 
+```python
+@property
+def encoding(self) -> str:
+    ...
+
+@encoding.setter
+def encoding(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set encoding for a .txt output document.

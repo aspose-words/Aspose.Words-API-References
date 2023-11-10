@@ -14,6 +14,8 @@ url: /python-net/aspose.words.drawing.charts/chartyvalue/
 Represents an Y value for a chart series.
 
 
+### Remarks
+
 This class contains a number of static methods for creating an Y value of a particular type. The
 [ChartYValue.value_type](./value_type/) property allows you to determine the type of an existing Y value.
 
@@ -37,7 +39,7 @@ All non-null Y values of a chart series must be of the same [ChartYValueType](..
 | --- | --- |
 |[ from_date_time(value)](./from_date_time/#datetime) | Creates a [ChartYValue](./) instance of the [ChartYValueType.DATE_TIME](../chartyvaluetype/#DATE_TIME) type. |
 |[ from_double(value)](./from_double/#float) | Creates a [ChartYValue](./) instance of the [ChartYValueType.DOUBLE](../chartyvaluetype/#DOUBLE) type. |
-|[ from_time_span(value)](./from_time_span/#unknown) | Creates a [ChartYValue](./) instance of the [ChartYValueType.TIME](../chartyvaluetype/#TIME) type. |
+|[ from_time_span(value)](./from_time_span/#timespan) | Creates a [ChartYValue](./) instance of the [ChartYValueType.TIME](../chartyvaluetype/#TIME) type. |
 
 ### See Also
 

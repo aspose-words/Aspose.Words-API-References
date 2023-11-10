@@ -15,6 +15,17 @@ Specifies whether the current paragraph should use the document grid lines per p
 when laying out the contents in the paragraph.
 
 
+```python
+@property
+def snap_to_grid(self) -> bool:
+    ...
+
+@snap_to_grid.setter
+def snap_to_grid(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify a limit for the number of lines that each page may have.

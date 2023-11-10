@@ -15,6 +15,13 @@ Retrieves the parent [Paragraph](../../../aspose.words/paragraph/) of this node.
 
 
 
+```python
+@property
+def parent_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set office math display formatting.

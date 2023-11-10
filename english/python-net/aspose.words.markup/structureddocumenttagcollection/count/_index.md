@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/structureddocumenttagcollection/count/
 Returns the number of structured document tags in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

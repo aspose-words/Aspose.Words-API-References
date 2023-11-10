@@ -18,6 +18,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def is_strict_schema11(self) -> bool:
+    ...
+
+@is_strict_schema11.setter
+def is_strict_schema11(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to make a saved document conform to an older ODT schema.

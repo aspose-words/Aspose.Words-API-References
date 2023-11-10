@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/line_spacing_rule/
 Gets or sets the line spacing for the paragraph.
 
 
+```python
+@property
+def line_spacing_rule(self) -> aspose.words.LineSpacingRule:
+    ...
+
+@line_spacing_rule.setter
+def line_spacing_rule(self, value: aspose.words.LineSpacingRule):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with line spacing.

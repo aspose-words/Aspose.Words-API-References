@@ -15,6 +15,13 @@ Gets the story that is currently selected in this [DocumentBuilder](../).
 
 
 
+```python
+@property
+def current_story(self) -> aspose.words.Story:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a document builder's current story.

@@ -21,7 +21,9 @@ def add_switch(self, switch_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switch_name | str |  |
+| switch_name | str | The switch name. |
+
+### Remarks
 
 This overload adds a flag (switch without argument).
 
@@ -38,8 +40,8 @@ def add_switch(self, switch_name: str, switch_argument: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switch_name | str |  |
-| switch_argument | str |  |
+| switch_name | str | The switch name. |
+| switch_argument | str | The switch value. |
 
 ## add_switch(switch_name, switch_argument) {#str_int}
 
@@ -53,8 +55,8 @@ def add_switch(self, switch_name: str, switch_argument: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switch_name | str |  |
-| switch_argument | int |  |
+| switch_name | str | The switch name. |
+| switch_argument | int | The switch value. |
 
 ## add_switch(switch_name, switch_argument) {#str_float}
 
@@ -68,8 +70,8 @@ def add_switch(self, switch_name: str, switch_argument: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switch_name | str |  |
-| switch_argument | float |  |
+| switch_name | str | The switch name. |
+| switch_argument | float | The switch value. |
 
 ## Examples
 

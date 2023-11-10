@@ -14,6 +14,13 @@ url: /python-net/aspose.words.shaping/cluster/codepoints/
 Gets codepoints of the cluster.
 
 
+```python
+@property
+def codepoints(self) -> List[int]:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.shaping](../../)

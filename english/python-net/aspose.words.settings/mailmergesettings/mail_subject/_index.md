@@ -15,6 +15,17 @@ Specifies the text which shall appear in the subject line of the e-mails or faxe
 The default value is an empty string.
 
 
+```python
+@property
+def mail_subject(self) -> str:
+    ...
+
+@mail_subject.setter
+def mail_subject(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.

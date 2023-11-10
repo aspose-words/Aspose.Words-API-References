@@ -14,6 +14,13 @@ url: /python-net/aspose.words.properties/documentproperty/is_link_to_content/
 Shows whether this property is linked to content or not.
 
 
+```python
+@property
+def is_link_to_content(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to link a custom document property to a bookmark.

@@ -15,6 +15,20 @@ Specifies the type of calendar for this **SDT**.
 Default is [SdtCalendarType.DEFAULT](../../sdtcalendartype/#DEFAULT)
 
 
+
+```python
+@property
+def calendar_type(self) -> aspose.words.markup.SdtCalendarType:
+    ...
+
+@calendar_type.setter
+def calendar_type(self, value: aspose.words.markup.SdtCalendarType):
+    ...
+
+```
+
+### Remarks
+
 Accessing this property will only work for [SdtType.DATE](../../sdttype/#DATE) SDT type.
 
 

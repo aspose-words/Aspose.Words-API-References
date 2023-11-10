@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/pagelayoutcallbackargs/document/
 Gets document.
 
 
+```python
+@property
+def document(self) -> aspose.words.Document:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.layout](../../)

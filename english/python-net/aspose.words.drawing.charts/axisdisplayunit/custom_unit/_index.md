@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/axisdisplayunit/custom_unit/
 
 Gets or sets a user-defined divisor to scale display units on the value axis.
 
+
+```python
+@property
+def custom_unit(self) -> float:
+    ...
+
+@custom_unit.setter
+def custom_unit(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The property is not supported by MS Office 2016 new charts. Default value is 1.
 
 Setting this property sets the [AxisDisplayUnit.unit](../unit/) property to 

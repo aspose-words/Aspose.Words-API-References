@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergebarcode/background_color/
 Gets or sets the background color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]
 
 
+```python
+@property
+def background_color(self) -> str:
+    ...
+
+@background_color.setter
+def background_color(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

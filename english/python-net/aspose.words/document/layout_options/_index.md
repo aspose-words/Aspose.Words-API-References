@@ -15,6 +15,13 @@ Gets a [LayoutOptions](../../../aspose.words.layout/layoutoptions/) object that 
 
 
 
+```python
+@property
+def layout_options(self) -> aspose.words.layout.LayoutOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.

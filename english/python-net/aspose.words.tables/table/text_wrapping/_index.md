@@ -15,6 +15,17 @@ Gets or sets [Table.text_wrapping](./) for table.
 
 
 
+```python
+@property
+def text_wrapping(self) -> aspose.words.tables.TextWrapping:
+    ...
+
+@text_wrapping.setter
+def text_wrapping(self, value: aspose.words.tables.TextWrapping):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with table text wrapping.

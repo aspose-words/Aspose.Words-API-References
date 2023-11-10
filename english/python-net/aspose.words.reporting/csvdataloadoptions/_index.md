@@ -17,6 +17,8 @@ To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/p
 
 
 
+### Remarks
+
 An instance of this class can be passed into constructors of [CsvDataSource](../csvdatasource/).
 
 

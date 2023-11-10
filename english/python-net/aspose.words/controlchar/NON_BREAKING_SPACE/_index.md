@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/NON_BREAKING_SPACE/
 Non-breaking space character: "\\x00a0".
 
 
+```python
+@property
+def NON_BREAKING_SPACE(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

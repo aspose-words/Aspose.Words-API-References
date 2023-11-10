@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/rowformat/borders/
 Gets the collection of default cell borders for the row.
 
 
+```python
+@property
+def borders(self) -> aspose.words.BorderCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

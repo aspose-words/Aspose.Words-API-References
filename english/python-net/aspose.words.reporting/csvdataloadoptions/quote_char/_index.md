@@ -13,6 +13,20 @@ url: /python-net/aspose.words.reporting/csvdataloadoptions/quote_char/
 
 Gets or sets the character that is used to quote field values.
 
+
+```python
+@property
+def quote_char(self) -> str:
+    ...
+
+@quote_char.setter
+def quote_char(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is '"' (quotation mark).
 
 Double the character to place it into quoted text.

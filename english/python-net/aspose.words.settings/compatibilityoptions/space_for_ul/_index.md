@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/space_for_ul/
 Add Additional Space Below Baseline For Underlined East Asian Text.
 
 
+```python
+@property
+def space_for_ul(self) -> bool:
+    ...
+
+@space_for_ul.setter
+def space_for_ul(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

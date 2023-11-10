@@ -5,7 +5,7 @@ articleTitle: export_xhtml_transitional property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_xhtml_transitional property. Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML"
 type: docs
-weight: 290
+weight: 280
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_xhtml_transitional/
 ---
 
@@ -17,6 +17,20 @@ Default value is ``False``.
 When saving to EPUB or HTML5 ([HtmlVersion.HTML5](../../htmlversion/#HTML5)) the DOCTYPE
 declaration is always written.
 
+
+
+```python
+@property
+def export_xhtml_transitional(self) -> bool:
+    ...
+
+@export_xhtml_transitional.setter
+def export_xhtml_transitional(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 Aspose.Words always writes well formed HTML regardless of this setting.
 

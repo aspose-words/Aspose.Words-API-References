@@ -13,6 +13,16 @@ url: /python-net/aspose.words/range/text/
 
 Gets the text of the range.
 
+
+```python
+@property
+def text(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
 
 

@@ -15,6 +15,17 @@ Specifies the column within the data source that contains unique data for the cu
 The default value is 0.
 
 
+```python
+@property
+def column(self) -> int:
+    ...
+
+@column.setter
+def column(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.

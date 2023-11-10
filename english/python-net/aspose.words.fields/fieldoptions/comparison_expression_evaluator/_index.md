@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldoptions/comparison_expression_evaluato
 Gets or sets the field comparison expressions evaluator.
 
 
+```python
+@property
+def comparison_expression_evaluator(self) -> aspose.words.fields.IComparisonExpressionEvaluator:
+    ...
+
+@comparison_expression_evaluator.setter
+def comparison_expression_evaluator(self, value: aspose.words.fields.IComparisonExpressionEvaluator):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

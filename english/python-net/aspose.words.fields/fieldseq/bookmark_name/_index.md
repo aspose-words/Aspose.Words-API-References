@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldseq/bookmark_name/
 Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location.
 
 
+```python
+@property
+def bookmark_name(self) -> str:
+    ...
+
+@bookmark_name.setter
+def bookmark_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to combine table of contents and sequence fields.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/left_indent/
 Gets or sets the value that represents the left indent of the table.
 
 
+```python
+@property
+def left_indent(self) -> float:
+    ...
+
+@left_indent.setter
+def left_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a formatted table using DocumentBuilder.

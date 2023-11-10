@@ -14,6 +14,13 @@ url: /python-net/aspose.words.webextensions/webextension/alternate_references/
 Specifies alternate references to a web extension.
 
 
+```python
+@property
+def alternate_references(self) -> aspose.words.webextensions.WebExtensionReferenceCollection:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.webextensions](../../)

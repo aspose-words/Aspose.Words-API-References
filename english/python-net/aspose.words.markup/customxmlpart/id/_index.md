@@ -13,6 +13,20 @@ url: /python-net/aspose.words.markup/customxmlpart/id/
 
 Gets or sets the string that identifies this custom XML part within an OOXML document.
 
+
+```python
+@property
+def id(self) -> str:
+    ...
+
+@id.setter
+def id(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 ISO/IEC 29500 specifies that this value is a GUID, but old versions of Microsoft Word allowed any
 string here. Aspose.Words does the same for ECMA-376 format. But note, that Microsoft Word Online fails 
 to open a document created with a non-GUID value. So, a GUID is preferred value for this property.

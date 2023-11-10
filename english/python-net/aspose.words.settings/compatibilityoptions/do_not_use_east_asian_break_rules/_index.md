@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_use_east_asia
 Do Not Compress Compressible Characters When Using Document Grid.
 
 
+```python
+@property
+def do_not_use_east_asian_break_rules(self) -> bool:
+    ...
+
+@do_not_use_east_asian_break_rules.setter
+def do_not_use_east_asian_break_rules(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

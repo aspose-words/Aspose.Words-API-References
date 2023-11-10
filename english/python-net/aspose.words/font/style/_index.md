@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/style/
 Gets or sets the character style applied to this formatting.
 
 
+```python
+@property
+def style(self) -> aspose.words.Style:
+    ...
+
+@style.setter
+def style(self, value: aspose.words.Style):
+    ...
+
+```
+
 ### Examples
 
 Applies a double underline to all runs in a document that are formatted with custom character styles.

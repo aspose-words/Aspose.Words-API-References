@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/record_index/
 Gets the zero based index of the record that is being merged.
 
 
+```python
+@property
+def record_index(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.

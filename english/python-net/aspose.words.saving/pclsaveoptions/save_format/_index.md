@@ -16,6 +16,17 @@ Can only be [SaveFormat.PCL](../../../aspose.words/saveformat/#PCL).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to rasterize complex elements while saving a document to PCL.

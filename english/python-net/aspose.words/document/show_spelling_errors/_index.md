@@ -14,6 +14,17 @@ url: /python-net/aspose.words/document/show_spelling_errors/
 Specifies whether to display spelling errors in this document.
 
 
+```python
+@property
+def show_spelling_errors(self) -> bool:
+    ...
+
+@show_spelling_errors.setter
+def show_spelling_errors(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to show/hide errors in the document.

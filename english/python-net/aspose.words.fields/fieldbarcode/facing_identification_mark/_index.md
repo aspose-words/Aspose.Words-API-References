@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldbarcode/facing_identification_mark/
 Gets or sets the type of a Facing Identification Mark (FIM) to insert.
 
 
+```python
+@property
+def facing_identification_mark(self) -> str:
+    ...
+
+@facing_identification_mark.setter
+def facing_identification_mark(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/spacing/
 Returns or sets the spacing (in points) between characters .
 
 
+```python
+@property
+def spacing(self) -> float:
+    ...
+
+@spacing.setter
+def spacing(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set horizontal scaling and spacing for characters.

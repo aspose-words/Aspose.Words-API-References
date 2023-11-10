@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shapebase/shadow_format/
 Gets shadow formatting for the shape.
 
 
+```python
+@property
+def shadow_format(self) -> aspose.words.drawing.ShadowFormat:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

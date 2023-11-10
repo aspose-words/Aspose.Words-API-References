@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/sdtlistitemcollection/count/
 Gets number of items in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with drop down-list structured document tags.

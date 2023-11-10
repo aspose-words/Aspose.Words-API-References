@@ -14,6 +14,8 @@ url: /python-net/aspose.words.drawing.charts/chartyvaluecollection/
 Represents a collection of Y values for a chart series.
 
 
+### Remarks
+
 All items of the collection other than **null** must have the same [ChartYValue.value_type](../chartyvalue/value_type/).
 
 The collection allows only changing Y values. To add or insert new values to a chart series, or remove values,

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesavingargs/image_file_name/
 
 Gets or sets the file name (without path) where the image will be saved to.
 
+
+```python
+@property
+def image_file_name(self) -> str:
+    ...
+
+@image_file_name.setter
+def image_file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to redefine how the image file names are generated
 during export to HTML.
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/on/
 
 Defines whether the text is displayed.
 
+
+```python
+@property
+def on(self) -> bool:
+    ...
+
+@on.setter
+def on(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

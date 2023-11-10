@@ -15,6 +15,17 @@ Specifies a tag associated with the current SDT node.
 Can not be null.
 
 
+```python
+@property
+def tag(self) -> str:
+    ...
+
+@tag.setter
+def tag(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

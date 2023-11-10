@@ -18,6 +18,8 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 
 
 
+### Remarks
+
 Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 
 
@@ -53,11 +55,12 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 | [placeholder_name](./placeholder_name/) | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range_end](./range_end/) | Specifies end of range if the [StructuredDocumentTag](../structureddocumenttag/) is a ranged structured document tag.  Otherwise returns ``None``. |
+| [range_end](./range_end/) | Specifies end of range if the [StructuredDocumentTag](../structureddocumenttag/) is a ranged structured document tag. Otherwise returns ``None``. |
 | [sdt_type](./sdt_type/) | Gets type of this structured document tag. |
 | [tag](./tag/) | Specifies a tag associated with the current structured document tag node. Can not be ``None``. |
 | [title](./title/) | Specifies the friendly name associated with this structured document tag. Can not be ``None``. |
 | [word_open_xml](./word_open_xml/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format. |
+| [word_open_xml_minimal](./word_open_xml_minimal/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format. |
 | [xml_mapping](./xml_mapping/) | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 
 ### Methods
@@ -67,7 +70,7 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ append_child(new_child)](./append_child/#node) | Adds the specified node to the end of the stdContent range. |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child_nodes(node_type, is_deep)](./get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified types. |
 |[ get_text()](../../aspose.words/node/get_text/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../../aspose.words/node/)) |

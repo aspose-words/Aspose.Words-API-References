@@ -15,6 +15,13 @@ Returns ``True`` if this data label has something to display.
 
 
 
+```python
+@property
+def is_visible(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

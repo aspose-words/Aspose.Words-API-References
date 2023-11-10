@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/widow_control/
 True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 
 
+```python
+@property
+def widow_control(self) -> bool:
+    ...
+
+@widow_control.setter
+def widow_control(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable widow/orphan control for a paragraph.

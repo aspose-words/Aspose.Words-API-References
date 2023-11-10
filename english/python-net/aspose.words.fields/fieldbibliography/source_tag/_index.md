@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldbibliography/source_tag/
 Gets or sets a value so that only the sources with matching Tag element value are displayed in the bibliography.
 
 
+```python
+@property
+def source_tag(self) -> str:
+    ...
+
+@source_tag.setter
+def source_tag(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -13,6 +13,20 @@ url: /python-net/aspose.words/font/name/
 
 Gets or sets the name of the font.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When getting, returns [Font.name_ascii](../name_ascii/).
 
 When setting, sets [Font.name_ascii](../name_ascii/), [Font.name_bi](../name_bi/), [Font.name_far_east](../name_far_east/)

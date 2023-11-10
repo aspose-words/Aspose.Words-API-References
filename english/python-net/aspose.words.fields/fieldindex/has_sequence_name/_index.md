@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldindex/has_sequence_name/
 Gets a value indicating whether a sequence should be used while the field's result building.
 
 
+```python
+@property
+def has_sequence_name(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to split a document into portions by combining INDEX and SEQ fields.

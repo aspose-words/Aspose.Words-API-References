@@ -15,6 +15,13 @@ Returns the first [Row](../../row/) node in the table.
 
 
 
+```python
+@property
+def first_row(self) -> aspose.words.tables.Row:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove the first and last rows of all tables in a document.

@@ -16,6 +16,17 @@ Default is ``True``.
 
 
 
+```python
+@property
+def is_true_type(self) -> bool:
+    ...
+
+@is_true_type.setter
+def is_true_type(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the details of what fonts are present in a document.

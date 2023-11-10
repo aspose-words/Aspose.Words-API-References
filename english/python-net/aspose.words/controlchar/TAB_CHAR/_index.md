@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/TAB_CHAR/
 Tab character: (char)9 or "\\t".
 
 
+```python
+@property
+def TAB_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a custom interval for tab stop positions.

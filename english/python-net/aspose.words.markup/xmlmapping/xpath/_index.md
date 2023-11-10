@@ -15,6 +15,13 @@ Returns the XPath expression, which is evaluated to find the custom XML node
 that is mapped to the parent structured document tag.
 
 
+```python
+@property
+def xpath(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set XML mappings for custom XML parts.

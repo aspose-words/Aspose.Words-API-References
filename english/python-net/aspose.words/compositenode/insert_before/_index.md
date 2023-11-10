@@ -21,15 +21,17 @@ def insert_before(self, new_child: aspose.words.Node, ref_child: aspose.words.No
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| new_child | [Node](../../node/) |  |
-| ref_child | [Node](../../node/) |  |
+| new_child | [Node](../../node/) | The [Node](../../node/) to insert. |
+| ref_child | [Node](../../node/) | The [Node](../../node/) that is the reference node. The *newChild* is placed before this node. |
 
-If  is``None``, inserts  at the end of the list of child nodes.
+### Remarks
+
+If *refChild* is``None``, inserts *newChild* at the end of the list of child nodes.
 
 
 
 
-If the  is already in the tree, it is first removed.
+If the *newChild* is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use 
 [DocumentBase.import_node()](../../documentbase/import_node/#node_bool_importformatmode) to import the node to the current document. 

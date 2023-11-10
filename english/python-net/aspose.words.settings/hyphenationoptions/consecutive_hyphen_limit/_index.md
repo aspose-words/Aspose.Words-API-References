@@ -14,6 +14,20 @@ url: /python-net/aspose.words.settings/hyphenationoptions/consecutive_hyphen_lim
 Gets or sets the maximum number of consecutive lines that can end with hyphens.
 Default value for this property is 0.
 
+
+```python
+@property
+def consecutive_hyphen_limit(self) -> int:
+    ...
+
+@consecutive_hyphen_limit.setter
+def consecutive_hyphen_limit(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 If value of this property is set to 0, any number of consecutive lines can end with hyphens.
 
 The property does not have effect when saving to fixed page formats e.g. PDF.

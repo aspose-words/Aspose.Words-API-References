@@ -15,6 +15,13 @@ Gets a collection of [GradientStop](../../gradientstop/) objects for the fill.
 
 
 
+```python
+@property
+def gradient_stops(self) -> aspose.words.drawing.GradientStopCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add gradient stops to the gradient fill.

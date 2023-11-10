@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/imagedata/image_bytes/
 
 Gets or sets the raw bytes of the image stored in the shape.
 
+
+```python
+@property
+def image_bytes(self) -> bytes:
+    ...
+
+@image_bytes.setter
+def image_bytes(self, value: bytes):
+    ...
+
+```
+
+### Remarks
+
 Setting the value to ``None`` or an empty array will remove the image from the shape.
 
 Returns ``None`` if the image is not stored in the document (e.g the image is probably linked in this case).

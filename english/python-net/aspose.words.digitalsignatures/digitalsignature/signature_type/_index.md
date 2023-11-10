@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/signature_type/
 Gets the type of the digital signature.
 
 
+```python
+@property
+def signature_type(self) -> aspose.words.digitalsignatures.DigitalSignatureType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to validate and display information about each signature in a document.

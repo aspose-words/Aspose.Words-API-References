@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/number_of_columns/
 Gets or sets the number of columns per page used when building the index.
 
 
+```python
+@property
+def number_of_columns(self) -> str:
+    ...
+
+@number_of_columns.setter
+def number_of_columns(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/text_input_default/
 
 Gets or sets the default string or a calculation expression of a text form field.
 
+
+```python
+@property
+def text_input_default(self) -> str:
+    ...
+
+@text_input_default.setter
+def text_input_default(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The meaning of this property depends on the value of the [FormField.text_input_type](../text_input_type/) property.
 
 When [FormField.text_input_type](../text_input_type/) is [TextFormFieldType.REGULAR](../../textformfieldtype/#REGULAR) or

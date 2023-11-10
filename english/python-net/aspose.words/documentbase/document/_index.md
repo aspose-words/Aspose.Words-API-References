@@ -14,6 +14,13 @@ url: /python-net/aspose.words/documentbase/document/
 Gets this instance.
 
 
+```python
+@property
+def document(self) -> aspose.words.DocumentBase:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

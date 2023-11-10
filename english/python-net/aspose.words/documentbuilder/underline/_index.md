@@ -14,6 +14,17 @@ url: /python-net/aspose.words/documentbuilder/underline/
 Gets/sets underline type for the current font.
 
 
+```python
+@property
+def underline(self) -> aspose.words.Underline:
+    ...
+
+@underline.setter
+def underline(self, value: aspose.words.Underline):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format text inserted by a document builder.

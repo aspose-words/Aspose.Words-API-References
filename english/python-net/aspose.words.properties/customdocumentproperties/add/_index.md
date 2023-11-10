@@ -22,8 +22,8 @@ def add(self, name: str, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| value | str |  |
+| name | str | The name of the property. |
+| value | str | The value of the property. |
 
 ### Returns
 
@@ -43,8 +43,8 @@ def add(self, name: str, value: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| value | int |  |
+| name | str | The name of the property. |
+| value | int | The value of the property. |
 
 ### Returns
 
@@ -58,14 +58,14 @@ Creates a new custom document property of the [PropertyType.DATE_TIME](../../pro
 
 
 ```python
-def add(self, name: str, value: datetime):
+def add(self, name: str, value: datetime.datetime):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| value | datetime |  |
+| name | str | The name of the property. |
+| value | datetime.datetime | The value of the property. |
 
 ### Returns
 
@@ -85,8 +85,8 @@ def add(self, name: str, value: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| value | bool |  |
+| name | str | The name of the property. |
+| value | bool | The value of the property. |
 
 ### Returns
 
@@ -106,8 +106,8 @@ def add(self, name: str, value: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| value | float |  |
+| name | str | The name of the property. |
+| value | float | The value of the property. |
 
 ### Returns
 

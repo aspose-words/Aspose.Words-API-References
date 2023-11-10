@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/insert_hyperlinks/
 Gets or sets whether to make the table of contents entries hyperlinks.
 
 
+```python
+@property
+def insert_hyperlinks(self) -> bool:
+    ...
+
+@insert_hyperlinks.setter
+def insert_hyperlinks(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

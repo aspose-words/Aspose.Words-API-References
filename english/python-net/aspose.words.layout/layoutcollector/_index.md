@@ -18,6 +18,8 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 
 
 
+### Remarks
+
 When you create a [LayoutCollector](./) and specify a [Document](../../aspose.words/document/) document object to attach to, 
 the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
 

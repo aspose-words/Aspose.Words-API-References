@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfencryptiondetails/owner_password/
 
 Specifies the owner password for the encrypted PDF document.
 
+
+```python
+@property
+def owner_password(self) -> str:
+    ...
+
+@owner_password.setter
+def owner_password(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The owner password allows the user to open an encrypted PDF document without any access restrictions
 specified in [PdfEncryptionDetails.permissions](../permissions/).
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/documentpartsavingargs/document_part_stream
 
 Allows to specify the stream where the document part will be saved to.
 
+
+```python
+@property
+def document_part_stream(self) -> io.BytesIO:
+    ...
+
+@document_part_stream.setter
+def document_part_stream(self, value: io.BytesIO):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to save document parts to streams instead of files during HTML export.
 
 The default value is ``None``. When this property is ``None``, the document part 

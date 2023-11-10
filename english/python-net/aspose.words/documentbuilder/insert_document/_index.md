@@ -21,8 +21,10 @@ def insert_document(self, src_doc: aspose.words.Document, import_format_mode: as
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_doc | [Document](../../document/) |  |
-| import_format_mode | [ImportFormatMode](../../importformatmode/) |  |
+| src_doc | [Document](../../document/) | Source document for inserting. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
+
+### Remarks
 
 This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed,
 then CTRL+'C' (copy selected into the buffer) inside one document
@@ -46,9 +48,11 @@ def insert_document(self, src_doc: aspose.words.Document, import_format_mode: as
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_doc | [Document](../../document/) |  |
-| import_format_mode | [ImportFormatMode](../../importformatmode/) |  |
-| import_format_options | [ImportFormatOptions](../../importformatoptions/) |  |
+| src_doc | [Document](../../document/) | Source document for inserting. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
+| import_format_options | [ImportFormatOptions](../../importformatoptions/) | Allows to specify options that affect formatting of a result document. |
+
+### Remarks
 
 This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed,
 then CTRL+'C' (copy selected into the buffer) inside one document

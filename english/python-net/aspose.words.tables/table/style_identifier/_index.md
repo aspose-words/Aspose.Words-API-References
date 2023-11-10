@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/style_identifier/
 Gets or sets the locale independent style identifier of the table style applied to this table.
 
 
+```python
+@property
+def style_identifier(self) -> aspose.words.StyleIdentifier:
+    ...
+
+@style_identifier.setter
+def style_identifier(self, value: aspose.words.StyleIdentifier):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a new table while applying a style.

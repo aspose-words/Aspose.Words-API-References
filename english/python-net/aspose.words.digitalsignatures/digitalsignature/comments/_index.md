@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/comments/
 Gets the signing purpose comment.
 
 
+```python
+@property
+def comments(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to validate and display information about each signature in a document.

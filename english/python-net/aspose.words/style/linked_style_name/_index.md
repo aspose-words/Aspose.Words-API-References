@@ -15,6 +15,13 @@ Gets the name of the [Style](../) linked to this one. Returns empty string if no
 
 
 
+```python
+@property
+def linked_style_name(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use style aliases.

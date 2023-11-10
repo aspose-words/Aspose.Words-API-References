@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/line_starting_number/
 Gets or sets the starting line number.
 
 
+```python
+@property
+def line_starting_number(self) -> int:
+    ...
+
+@line_starting_number.setter
+def line_starting_number(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable line numbering for a section.

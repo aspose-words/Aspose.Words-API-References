@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/template_name/
 
 Gets or sets the file name of the template used by the document.
 
+
+```python
+@property
+def template_name(self) -> str:
+    ...
+
+@template_name.setter
+def template_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property is used by the [FieldTemplate](../../fieldtemplate/) field if the [Document.attached_template](../../../aspose.words/document/attached_template/) property is empty.
 
 If this property is empty, the default template file name ``Normal.dotm`` is used.

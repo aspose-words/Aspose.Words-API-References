@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/data_labels/
 Specifies the settings for the data labels for the entire series.
 
 
+```python
+@property
+def data_labels(self) -> aspose.words.drawing.charts.ChartDataLabelCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

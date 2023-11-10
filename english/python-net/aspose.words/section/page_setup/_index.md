@@ -14,6 +14,13 @@ url: /python-net/aspose.words/section/page_setup/
 Returns an object that represents page setup and section properties.
 
 
+```python
+@property
+def page_setup(self) -> aspose.words.PageSetup:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a wide blue band border at the top of the first page.

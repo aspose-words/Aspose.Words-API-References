@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/sub_font_by_size/
 Increase Priority Of Font Size During Font Substitution.
 
 
+```python
+@property
+def sub_font_by_size(self) -> bool:
+    ...
+
+@sub_font_by_size.setter
+def sub_font_by_size(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -15,6 +15,13 @@ Gets the gradient style [GradientStyle](../../gradientstyle/) for the fill.
 
 
 
+```python
+@property
+def gradient_style(self) -> aspose.words.drawing.GradientStyle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to fill a shape with a gradients.

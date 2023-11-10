@@ -16,6 +16,17 @@ Gets or sets a value indicating whether the web page or document file name speci
 
 
 
+```python
+@property
+def is_frame_link_to_file(self) -> bool:
+    ...
+
+@is_frame_link_to_file.setter
+def is_frame_link_to_file(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access frames on-page.

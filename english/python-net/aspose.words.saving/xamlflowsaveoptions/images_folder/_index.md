@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/xamlflowsaveoptions/images_folder/
 Specifies the physical folder where images are saved when exporting a document to XAML format.
 Default is an empty string.
 
+
+```python
+@property
+def images_folder(self) -> str:
+    ...
+
+@images_folder.setter
+def images_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When you save a [Document](../../../aspose.words/document/) in XAML format, Aspose.Words needs to save all 
 images embedded in the document as standalone files. [XamlFlowSaveOptions.images_folder](./) 
 allows you to specify where the images will be saved and [XamlFlowSaveOptions.images_folder_alias](../images_folder_alias/) 

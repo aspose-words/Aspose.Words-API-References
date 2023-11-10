@@ -21,7 +21,9 @@ def millimeter_to_point(self, millimeters: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| millimeters | float |  |
+| millimeters | float | The value to convert. |
+
+### Remarks
 
 1 inch equals 25.4 millimeters. 1 inch equals 72 points.
 

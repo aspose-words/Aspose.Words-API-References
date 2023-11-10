@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mustachetag/reference_run/
 Gets the run that contains the beginning of the tag.
 
 
+```python
+@property
+def reference_run(self) -> aspose.words.Run:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

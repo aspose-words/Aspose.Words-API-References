@@ -13,10 +13,25 @@ url: /python-net/aspose.words.drawing/horizontalruleformat/color/
 
 Gets or sets the brush color that fills the horizontal rule.
 
+
+```python
+@property
+def color(self) -> aspose.pydrawing.Color:
+    ...
+
+@color.setter
+def color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 This is a shortcut to the [Fill.color](../../fill/color/) property.
 
 The default value is
-System.Drawing.Color.Gray.
+aspose.pydrawing.Color.gray.
+
 
 
 

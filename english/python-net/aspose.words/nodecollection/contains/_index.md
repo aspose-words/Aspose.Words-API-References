@@ -21,7 +21,9 @@ def contains(self, node: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../node/) |  |
+| node | [Node](../../node/) | The node to locate. |
+
+### Remarks
 
 This method performs a linear search; therefore, the average execution time is proportional to [NodeCollection.count](../count/).
 

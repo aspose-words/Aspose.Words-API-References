@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/hash_algorithm/
 
 Gets or sets the hash algorithm.
 
+
+```python
+@property
+def hash_algorithm(self) -> aspose.words.saving.PdfDigitalSignatureHashAlgorithm:
+    ...
+
+@hash_algorithm.setter
+def hash_algorithm(self, value: aspose.words.saving.PdfDigitalSignatureHashAlgorithm):
+    ...
+
+```
+
+### Remarks
+
 The default value is the SHA-256 algorithm.
 
 

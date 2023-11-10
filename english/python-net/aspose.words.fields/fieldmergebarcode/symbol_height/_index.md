@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergebarcode/symbol_height/
 Gets or sets the height of the symbol. The units are in TWIPS (1/1440 inch).
 
 
+```python
+@property
+def symbol_height(self) -> str:
+    ...
+
+@symbol_height.setter
+def symbol_height(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

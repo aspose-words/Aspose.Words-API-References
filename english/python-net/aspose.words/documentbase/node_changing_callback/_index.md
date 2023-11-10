@@ -14,6 +14,17 @@ url: /python-net/aspose.words/documentbase/node_changing_callback/
 Called when a node is inserted or removed in the document.
 
 
+```python
+@property
+def node_changing_callback(self) -> aspose.words.INodeChangingCallback:
+    ...
+
+@node_changing_callback.setter
+def node_changing_callback(self, value: aspose.words.INodeChangingCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

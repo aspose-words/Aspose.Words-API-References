@@ -19,6 +19,8 @@ def get_text(self):
     ...
 ```
 
+### Remarks
+
 The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
 
 

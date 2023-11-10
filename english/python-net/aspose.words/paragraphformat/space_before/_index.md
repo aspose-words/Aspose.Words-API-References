@@ -13,14 +13,32 @@ url: /python-net/aspose.words/paragraphformat/space_before/
 
 Gets or sets the amount of spacing (in points) before the paragraph.
 
+
+```python
+@property
+def space_before(self) -> float:
+    ...
+
+@space_before.setter
+def space_before(self, value: float):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when argument was out of the range of valid values. |
+
+### Remarks
+
 Has no effect when [ParagraphFormat.space_before_auto](../space_before_auto/) is ``True``.
 
 Valid values range from 0 to 1584 inclusive.
 
 
 
-:raises System.ArgumentOutOfRangeException: Throws when argument was out of the range of valid values.
-                                            
 
 ### Examples
 

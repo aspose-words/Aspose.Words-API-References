@@ -17,6 +17,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def show_bubble_size(self) -> bool:
+    ...
+
+@show_bubble_size.setter
+def show_bubble_size(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use 3D effects with bubble charts.

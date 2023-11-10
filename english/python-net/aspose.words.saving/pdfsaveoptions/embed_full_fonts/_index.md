@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/
 
 Controls how fonts are embedded into the resulting PDF documents.
 
+
+```python
+@property
+def embed_full_fonts(self) -> bool:
+    ...
+
+@embed_full_fonts.setter
+def embed_full_fonts(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``, which means the fonts are subsetted before embedding.
 Subsetting is useful if you want to keep the output file size smaller. Subsetting removes all
 unused glyphs from a font.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergefield/text_before/
 Gets or sets the text to be inserted before the field if the field is not blank.
 
 
+```python
+@property
+def text_before(self) -> str:
+    ...
+
+@text_before.setter
+def text_before(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

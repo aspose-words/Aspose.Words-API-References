@@ -20,6 +20,17 @@ if set to true, this state shall be resumed (showing placeholder text) upon open
 
 
 
+```python
+@property
+def is_showing_placeholder_text(self) -> bool:
+    ...
+
+@is_showing_placeholder_text.setter
+def is_showing_placeholder_text(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

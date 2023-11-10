@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/page_starting_number/
 
 Gets or sets the starting page number of the section.
 
+
+```python
+@property
+def page_starting_number(self) -> int:
+    ...
+
+@page_starting_number.setter
+def page_starting_number(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The [PageSetup.restart_page_numbering](../restart_page_numbering/) property, if set to ``False``, will override the
 [PageSetup.page_starting_number](./) property so that page numbering can continue from the previous section.
 

@@ -21,7 +21,9 @@ def notify(self, args: aspose.words.loading.DocumentLoadingArgs):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [DocumentLoadingArgs](../../documentloadingargs/) |  |
+| args | [DocumentLoadingArgs](../../documentloadingargs/) | An argument of the event. |
+
+### Remarks
 
 The primary uses for this interface is to allow application code to obtain progress status and abort loading process.
 

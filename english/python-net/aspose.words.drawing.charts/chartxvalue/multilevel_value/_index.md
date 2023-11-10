@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartxvalue/multilevel_value/
 Gets the stored multilevel value.
 
 
+```python
+@property
+def multilevel_value(self) -> aspose.words.drawing.charts.ChartMultilevelValue:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

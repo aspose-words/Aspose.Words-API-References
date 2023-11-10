@@ -15,6 +15,20 @@ Specifies category of building block for this **SDT** node.
 Can not be ``None``.
 
 
+
+```python
+@property
+def building_block_category(self) -> str:
+    ...
+
+@building_block_category.setter
+def building_block_category(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Accessing this property will only work for [SdtType.BUILDING_BLOCK_GALLERY](../../sdttype/#BUILDING_BLOCK_GALLERY) and
 [SdtType.DOC_PART_OBJ](../../sdttype/#DOC_PART_OBJ) SDT types. It is read-only for **SDT** of the document part type.
 

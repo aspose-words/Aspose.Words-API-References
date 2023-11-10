@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/viewoptions/display_background_shape/
 Controls display of the background shape in print layout view.
 
 
+```python
+@property
+def display_background_shape(self) -> bool:
+    ...
+
+@display_background_shape.setter
+def display_background_shape(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to hide/display document background images in view options.

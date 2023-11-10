@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/shapebase/width_relative/
 Gets or sets the value that represents the percentage of shape's relative width.
 
 
+```python
+@property
+def width_relative(self) -> float:
+    ...
+
+@width_relative.setter
+def width_relative(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set relative size and position.

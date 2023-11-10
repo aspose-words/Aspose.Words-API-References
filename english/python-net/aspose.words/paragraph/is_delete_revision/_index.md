@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraph/is_delete_revision/
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 
 
+```python
+@property
+def is_delete_revision(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with revision paragraphs.

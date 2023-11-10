@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldaddressblock/excluded_country_or_regio
 Gets or sets the excluded country/region name.
 
 
+```python
+@property
+def excluded_country_or_region_name(self) -> str:
+    ...
+
+@excluded_country_or_region_name.setter
+def excluded_country_or_region_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADDRESSBLOCK field.

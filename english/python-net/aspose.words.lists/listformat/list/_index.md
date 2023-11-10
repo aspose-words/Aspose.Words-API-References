@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listformat/list/
 
 Gets or sets the list this paragraph is a member of.
 
+
+```python
+@property
+def list(self) -> aspose.words.lists.List:
+    ...
+
+@list.setter
+def list(self, value: aspose.words.lists.List):
+    ...
+
+```
+
+### Remarks
+
 The list that is being assigned to this property must belong to the current document.
 
 The list that is being assigned to this property must not be a list style definition.

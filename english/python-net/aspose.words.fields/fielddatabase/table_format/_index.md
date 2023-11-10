@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddatabase/table_format/
 Gets or sets the format that is to be applied to the result of the database query.
 
 
+```python
+@property
+def table_format(self) -> str:
+    ...
+
+@table_format.setter
+def table_format(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

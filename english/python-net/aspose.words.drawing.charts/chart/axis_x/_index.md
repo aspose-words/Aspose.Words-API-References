@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chart/axis_x/
 Provides access to properties of the X axis of the chart.
 
 
+```python
+@property
+def axis_x(self) -> aspose.words.drawing.charts.ChartAxis:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.

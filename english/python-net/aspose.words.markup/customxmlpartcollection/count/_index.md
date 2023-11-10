@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/customxmlpartcollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a structured document tag with custom XML data.

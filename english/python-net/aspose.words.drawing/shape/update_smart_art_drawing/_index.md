@@ -19,6 +19,8 @@ def update_smart_art_drawing(self):
     ...
 ```
 
+### Remarks
+
 Microsoft Word generates and saves the pre-rendered drawing along with SmartArt object. However,
 if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect.
 If pre-rendered drawing is available then Aspose.Words uses it to render the SmartArt object.

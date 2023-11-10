@@ -5,7 +5,7 @@ articleTitle: save_format property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.save_format property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
-weight: 450
+weight: 440
 url: /python-net/aspose.words.saving/htmlsaveoptions/save_format/
 ---
 
@@ -16,6 +16,17 @@ Can be [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MH
 [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) or [SaveFormat.MOBI](../../../aspose.words/saveformat/#MOBI).
 
 
+
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
 
 ### Examples
 

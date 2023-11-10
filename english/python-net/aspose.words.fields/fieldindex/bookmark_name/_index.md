@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/bookmark_name/
 Gets or sets the name of the bookmark that marks the portion of the document used to build the index.
 
 
+```python
+@property
+def bookmark_name(self) -> str:
+    ...
+
+@bookmark_name.setter
+def bookmark_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INDEX field, and then use XE fields to populate it with entries.

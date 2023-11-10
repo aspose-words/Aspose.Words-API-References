@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/style_identifier/
 Gets or sets the locale independent style identifier of the paragraph style applied to this formatting.
 
 
+```python
+@property
+def style_identifier(self) -> aspose.words.StyleIdentifier:
+    ...
+
+@style_identifier.setter
+def style_identifier(self, value: aspose.words.StyleIdentifier):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.

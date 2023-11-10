@@ -15,6 +15,17 @@ Gets or sets whether to remove the formatting of the entry text in the document 
 entry in the table of authorities.
 
 
+```python
+@property
+def remove_entry_formatting(self) -> bool:
+    ...
+
+@remove_entry_formatting.setter
+def remove_entry_formatting(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

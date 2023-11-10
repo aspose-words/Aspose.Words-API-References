@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldsymbol/is_shift_jis/
 Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character.
 
 
+```python
+@property
+def is_shift_jis(self) -> bool:
+    ...
+
+@is_shift_jis.setter
+def is_shift_jis(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the SYMBOL field.

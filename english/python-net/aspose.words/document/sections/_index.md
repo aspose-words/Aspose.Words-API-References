@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/sections/
 Returns a collection that represents all sections in the document.
 
 
+```python
+@property
+def sections(self) -> aspose.words.SectionCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify how a new section separates itself from the previous.

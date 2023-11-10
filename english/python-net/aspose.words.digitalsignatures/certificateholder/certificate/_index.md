@@ -14,8 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/certificateholder/certificate/
 Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain.
 
 
-:returns: System.Security.Cryptography.X509Certificates.X509Certificate2 instance
-          
+
+```python
+@property
+def certificate(self) -> None:
+    ...
+
+```
 
 ### Examples
 

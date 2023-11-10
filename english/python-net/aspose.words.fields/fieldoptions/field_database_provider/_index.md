@@ -15,6 +15,17 @@ Gets or sets a provider that returns a query result for the [FieldDatabase](../.
 
 
 
+```python
+@property
+def field_database_provider(self) -> aspose.words.fields.IFieldDatabaseProvider:
+    ...
+
+@field_database_provider.setter
+def field_database_provider(self, value: aspose.words.fields.IFieldDatabaseProvider):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

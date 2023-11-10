@@ -15,6 +15,17 @@ Gets or sets the color that's applied to the foreground of the [Shading](../) ob
 
 
 
+```python
+@property
+def foreground_pattern_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@foreground_pattern_color.setter
+def foreground_pattern_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to decorate text with borders and shading.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.tables/table/preferred_width/
 
 Gets or sets the table preferred width.
 
+
+```python
+@property
+def preferred_width(self) -> aspose.words.tables.PreferredWidth:
+    ...
+
+@preferred_width.setter
+def preferred_width(self, value: aspose.words.tables.PreferredWidth):
+    ...
+
+```
+
+### Remarks
+
 The default value is [PreferredWidth.AUTO](../../preferredwidth/AUTO/).
 
 

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/outline_options/
 
 Allows to specify outline options.
 
+
+```python
+@property
+def outline_options(self) -> aspose.words.saving.OutlineOptions:
+    ...
+
+```
+
+### Remarks
+
 Outlines can be created from headings and bookmarks.
 
 For headings outline level is determined by the heading level.

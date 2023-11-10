@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/imagesize/width_pixels/
 Gets the width of the image in pixels.
 
 
+```python
+@property
+def width_pixels(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to read the properties of an image in a shape.

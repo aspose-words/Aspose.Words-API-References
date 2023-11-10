@@ -13,6 +13,20 @@ url: /python-net/aspose.words/comment/id/
 
 Gets or sets the comment identifier.
 
+
+```python
+@property
+def id(self) -> int:
+    ...
+
+@id.setter
+def id(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The comment identifier allows to anchor a comment to a region of text in the document.
 The region must be demarcated using the [CommentRangeStart](../../commentrangestart/) and [CommentRangeEnd](../../commentrangeend/)
 object sharing the same identifier value as the [Comment](../) object.

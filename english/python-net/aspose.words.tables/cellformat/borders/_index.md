@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cellformat/borders/
 Gets collection of borders of the cell.
 
 
+```python
+@property
+def borders(self) -> aspose.words.BorderCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to combine the rows from two tables into one.

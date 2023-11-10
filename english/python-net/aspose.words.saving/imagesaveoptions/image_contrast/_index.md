@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/image_contrast/
 
 Gets or sets the contrast for the generated images.
 
+
+```python
+@property
+def image_contrast(self) -> float:
+    ...
+
+@image_contrast.setter
+def image_contrast(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.

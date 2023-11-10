@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 To indicate that the image should be inserted with its original dimension during a mail merge,
 you should assign a negative value to the [MergeFieldImageDimension.value](./value/) property.
 

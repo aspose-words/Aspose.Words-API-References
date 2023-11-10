@@ -13,6 +13,20 @@ url: /python-net/aspose.words.tables/table/alignment/
 
 Specifies how an inline table is aligned in the document.
 
+
+```python
+@property
+def alignment(self) -> aspose.words.tables.TableAlignment:
+    ...
+
+@alignment.setter
+def alignment(self, value: aspose.words.tables.TableAlignment):
+    ...
+
+```
+
+### Remarks
+
 The default value is [TableAlignment.LEFT](../../tablealignment/#LEFT).
 
 

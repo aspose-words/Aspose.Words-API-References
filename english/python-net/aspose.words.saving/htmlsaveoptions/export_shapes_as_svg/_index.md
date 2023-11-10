@@ -5,7 +5,7 @@ articleTitle: export_shapes_as_svg property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_shapes_as_svg property. Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3"
 type: docs
-weight: 260
+weight: 250
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/
 ---
 
@@ -15,6 +15,20 @@ Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are convert
 to HTML, MHTML, EPUB or AZW3.
 Default value is ``False``.
 
+
+
+```python
+@property
+def export_shapes_as_svg(self) -> bool:
+    ...
+
+@export_shapes_as_svg.setter
+def export_shapes_as_svg(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 If this option is set to ``True``, [Shape](../../../aspose.words.drawing/shape/) nodes are exported as \<svg\> elements.
 Otherwise, they are rendered to bitmaps and are exported as \<img\> elements.

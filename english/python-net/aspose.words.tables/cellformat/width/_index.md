@@ -13,6 +13,20 @@ url: /python-net/aspose.words.tables/cellformat/width/
 
 Gets the width of the cell in points.
 
+
+```python
+@property
+def width(self) -> float:
+    ...
+
+@width.setter
+def width(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The width is calculated by Aspose.Words on document loading and saving.
 Currently, not every combination of table, cell and document properties is supported.
 The returned value may not be accurate for some documents.

@@ -21,7 +21,7 @@ def index_of_key(self, name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
+| name | str | The case-sensitive name of the property. |
 
 ### Returns
 

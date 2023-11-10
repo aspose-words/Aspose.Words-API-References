@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/cellformat/top_padding/
 Returns or sets the amount of space (in points) to add above the contents of cell.
 
 
+```python
+@property
+def top_padding(self) -> float:
+    ...
+
+@top_padding.setter
+def top_padding(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format cells with a document builder.

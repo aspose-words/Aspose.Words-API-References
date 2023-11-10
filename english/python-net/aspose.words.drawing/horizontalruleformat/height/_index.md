@@ -13,6 +13,26 @@ url: /python-net/aspose.words.drawing/horizontalruleformat/height/
 
 Gets or sets the height of the horizontal rule.
 
+
+```python
+@property
+def height(self) -> float:
+    ...
+
+@height.setter
+def height(self, value: float):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when argument was out of the range of valid values. |
+
+### Remarks
+
 This is a shortcut to the [ShapeBase.height](../../shapebase/height/) property.
 
 Valid values ​​range from 0 to 1584 inclusive.
@@ -21,8 +41,6 @@ The default value is 1.5.
 
 
 
-:raises System.ArgumentOutOfRangeException: Throws when argument was out of the range of valid values.
-                                            
 
 ### Examples
 

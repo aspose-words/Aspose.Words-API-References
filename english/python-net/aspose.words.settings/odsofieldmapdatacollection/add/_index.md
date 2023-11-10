@@ -21,7 +21,7 @@ def add(self, value: aspose.words.settings.OdsoFieldMapData):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoFieldMapData](../../odsofieldmapdata/) |  |
+| value | [OdsoFieldMapData](../../odsofieldmapdata/) | The object to add. Cannot be ``None``. |
 
 ### Examples
 

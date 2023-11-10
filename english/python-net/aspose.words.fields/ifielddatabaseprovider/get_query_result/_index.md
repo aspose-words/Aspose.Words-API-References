@@ -21,10 +21,10 @@ def get_query_result(self, file_name: str, connection: str, query: str, field: a
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
-| connection | str |  |
-| query | str |  |
-| field | [FieldDatabase](../../fielddatabase/) |  |
+| file_name | str | The complete path and file name of the database specified in the \\d field switch. |
+| connection | str | The connection to the data specified in the \\c field switch. |
+| query | str | The set of SQL instructions that query the database specified in the \\s field switch. |
+| field | [FieldDatabase](../../fielddatabase/) | The field being updated. |
 
 ### Returns
 

@@ -21,7 +21,7 @@ def remove_at(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
+| index | int | An index into the collection. |
 
 ### Examples
 

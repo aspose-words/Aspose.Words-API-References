@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set outline levels for bookmarks.

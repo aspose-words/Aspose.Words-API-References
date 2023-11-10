@@ -15,6 +15,16 @@ Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Packag
 Returns ``None`` otherwise.
 
 
+
+```python
+@property
+def ole_package(self) -> aspose.words.drawing.OlePackage:
+    ...
+
+```
+
+### Remarks
+
 OLE Package is a legacy technology that allows to wrap any file format not present in the OLE registry of
 a Windows system into a generic package allowing to embed almost anything into a document.
 See [OlePackage](../../olepackage/) type for more info.

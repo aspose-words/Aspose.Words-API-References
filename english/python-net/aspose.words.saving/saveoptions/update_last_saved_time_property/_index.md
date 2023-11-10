@@ -15,6 +15,17 @@ Gets or sets a value determining whether the [BuiltInDocumentProperties.last_sav
 
 
 
+```python
+@property
+def update_last_saved_time_property(self) -> bool:
+    ...
+
+@update_last_saved_time_property.setter
+def update_last_saved_time_property(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to determine whether to preserve the document's "Last saved time" property when saving.

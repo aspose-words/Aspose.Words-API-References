@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chart/axes/
 Gets a collection of all axes of this chart.
 
 
+```python
+@property
+def axes(self) -> aspose.words.drawing.charts.ChartAxisCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with axes collection.

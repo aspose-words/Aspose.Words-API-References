@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/taskpane/dock_state/
 Specifies the last-docked location of this task pane object.
 
 
+```python
+@property
+def dock_state(self) -> aspose.words.webextensions.TaskPaneDockState:
+    ...
+
+@dock_state.setter
+def dock_state(self, value: aspose.words.webextensions.TaskPaneDockState):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

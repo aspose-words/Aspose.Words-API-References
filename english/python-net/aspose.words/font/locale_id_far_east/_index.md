@@ -13,6 +13,20 @@ url: /python-net/aspose.words/font/locale_id_far_east/
 
 Gets or sets the locale identifier (language) of the formatted Asian characters.
 
+
+```python
+@property
+def locale_id_far_east(self) -> int:
+    ...
+
+@locale_id_far_east.setter
+def locale_id_far_east(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 

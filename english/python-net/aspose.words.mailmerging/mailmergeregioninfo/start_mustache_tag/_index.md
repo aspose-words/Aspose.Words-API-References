@@ -14,6 +14,13 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/start_mustache_tag
 Returns a start "mustache" tag for the region.
 
 
+```python
+@property
+def start_mustache_tag(self) -> aspose.words.mailmerging.MustacheTag:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

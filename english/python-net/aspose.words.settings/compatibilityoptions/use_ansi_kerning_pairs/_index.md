@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/use_ansi_kerning_pai
 Use ANSI Kerning Pairs from Fonts.
 
 
+```python
+@property
+def use_ansi_kerning_pairs(self) -> bool:
+    ...
+
+@use_ansi_kerning_pairs.setter
+def use_ansi_kerning_pairs(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

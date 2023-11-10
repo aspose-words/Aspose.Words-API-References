@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/field/start/
 Gets the node that represents the start of the field.
 
 
+```python
+@property
+def start(self) -> aspose.words.fields.FieldStart:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -13,6 +13,16 @@ url: /python-net/aspose.words/style/style_identifier/
 
 Gets the locale independent style identifier for a built-in style.
 
+
+```python
+@property
+def style_identifier(self) -> aspose.words.StyleIdentifier:
+    ...
+
+```
+
+### Remarks
+
 For user defined (custom) styles, this property returns [StyleIdentifier.USER](../../styleidentifier/#USER).
 
 

@@ -35,7 +35,7 @@ def __init__(self, save_format: aspose.words.SaveFormat):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| save_format | [SaveFormat](../../../aspose.words/saveformat/) |  |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.DOCX](../../../aspose.words/saveformat/#DOCX), [SaveFormat.DOCM](../../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../../aspose.words/saveformat/#DOTM) or [SaveFormat.FLAT_OPC](../../../aspose.words/saveformat/#FLAT_OPC). |
 
 ## Examples
 

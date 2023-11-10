@@ -21,7 +21,7 @@ def get_position_by_index(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
+| index | int | An index into the collection of tab stops. |
 
 ### Returns
 

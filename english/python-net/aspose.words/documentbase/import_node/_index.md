@@ -23,8 +23,10 @@ def import_node(self, src_node: aspose.words.Node, is_import_children: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_node | [Node](../../node/) |  |
-| is_import_children | bool |  |
+| src_node | [Node](../../node/) | The node being imported. |
+| is_import_children | bool | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+
+### Remarks
 
 This method uses the [ImportFormatMode.USE_DESTINATION_STYLES](../../importformatmode/#USE_DESTINATION_STYLES) option to resolve formatting.
 
@@ -62,9 +64,11 @@ def import_node(self, src_node: aspose.words.Node, is_import_children: bool, imp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_node | [Node](../../node/) |  |
-| is_import_children | bool |  |
-| import_format_mode | [ImportFormatMode](../../importformatmode/) |  |
+| src_node | [Node](../../node/) | The node to imported. |
+| is_import_children | bool | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
+
+### Remarks
 
 This overload is useful to control how styles and list formatting are imported.
 

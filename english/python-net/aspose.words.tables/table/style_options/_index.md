@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/style_options/
 Gets or sets bit flags that specify how a table style is applied to this table.
 
 
+```python
+@property
+def style_options(self) -> aspose.words.tables.TableStyleOptions:
+    ...
+
+@style_options.setter
+def style_options(self, value: aspose.words.tables.TableStyleOptions):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a new table while applying a style.

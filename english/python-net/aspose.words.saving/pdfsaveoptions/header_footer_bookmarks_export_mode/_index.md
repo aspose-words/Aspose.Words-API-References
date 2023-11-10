@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/header_footer_bookmarks_expo
 
 Determines how bookmarks in headers/footers are exported.
 
+
+```python
+@property
+def header_footer_bookmarks_export_mode(self) -> aspose.words.saving.HeaderFooterBookmarksExportMode:
+    ...
+
+@header_footer_bookmarks_export_mode.setter
+def header_footer_bookmarks_export_mode(self, value: aspose.words.saving.HeaderFooterBookmarksExportMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [HeaderFooterBookmarksExportMode.ALL](../../headerfooterbookmarksexportmode/#ALL).
 
 This property is used in conjunction with the [PdfSaveOptions.outline_options](../outline_options/) option.

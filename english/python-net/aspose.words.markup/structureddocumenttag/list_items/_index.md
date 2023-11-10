@@ -14,6 +14,16 @@ url: /python-net/aspose.words.markup/structureddocumenttag/list_items/
 Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this **SDT**.
 
 
+
+```python
+@property
+def list_items(self) -> aspose.words.markup.SdtListItemCollection:
+    ...
+
+```
+
+### Remarks
+
 Accessing this property will only work for [SdtType.COMBO_BOX](../../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../../sdttype/#DROP_DOWN_LIST)
 SDT types.
 

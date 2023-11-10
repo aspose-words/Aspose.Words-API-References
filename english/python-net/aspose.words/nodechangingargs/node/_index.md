@@ -15,6 +15,13 @@ Gets the [NodeChangingArgs.node](./) that is being added or removed.
 
 
 
+```python
+@property
+def node(self) -> aspose.words.Node:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldoptions/result_formatter/
 Allows to control how the field result is formatted.
 
 
+```python
+@property
+def result_formatter(self) -> aspose.words.fields.IFieldResultFormatter:
+    ...
+
+@result_formatter.setter
+def result_formatter(self, value: aspose.words.fields.IFieldResultFormatter):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -15,6 +15,13 @@ Vertical (y) offset relative to glyph position.
 Mostly used to attach marks (like diacritics) to base characters.
 
 
+```python
+@property
+def ascender_offset(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.shaping](../../)

@@ -15,6 +15,13 @@ End of paragraph character: "\\x000d" or "\\r". Same as [ControlChar.CR](../CR/)
 
 
 
+```python
+@property
+def PARAGRAPH_BREAK(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

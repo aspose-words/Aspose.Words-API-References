@@ -13,8 +13,22 @@ url: /python-net/aspose.words/comment/date_time/
 
 Gets the date and time that the comment was made.
 
-Default is System.DateTime.MinValue.
 
+```python
+@property
+def date_time(self) -> datetime.datetime:
+    ...
+
+@date_time.setter
+def date_time(self, value: datetime.datetime):
+    ...
+
+```
+
+### Remarks
+
+Default is
+datetime.datetime.min
 
 
 

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/style/built_in/
 True if this style is one of the built-in styles in MS Word.
 
 
+```python
+@property
+def built_in(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to differentiate custom styles from built-in styles.

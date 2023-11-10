@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldseq/reset_number/
 Gets or sets an integer number to reset the sequence number to. Returns -1 if the number is absent.
 
 
+```python
+@property
+def reset_number(self) -> str:
+    ...
+
+@reset_number.setter
+def reset_number(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows create numbering using SEQ fields.

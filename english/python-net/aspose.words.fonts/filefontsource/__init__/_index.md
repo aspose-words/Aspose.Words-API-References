@@ -21,7 +21,7 @@ def __init__(self, file_path: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_path | str |  |
+| file_path | str | Path to font file. |
 
 ## FileFontSource(file_path, priority) {#str_int}
 
@@ -35,8 +35,8 @@ def __init__(self, file_path: str, priority: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_path | str |  |
-| priority | int |  |
+| file_path | str | Path to font file. |
+| priority | int | Font source priority. See the [FontSourceBase.priority](../../fontsourcebase/priority/) property description for more information. |
 
 ## FileFontSource(file_path, priority, cache_key) {#str_int_str}
 
@@ -50,9 +50,9 @@ def __init__(self, file_path: str, priority: int, cache_key: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_path | str |  |
-| priority | int |  |
-| cache_key | str |  |
+| file_path | str | Path to font file. |
+| priority | int | Font source priority. See the [FontSourceBase.priority](../../fontsourcebase/priority/) property description for more information. |
+| cache_key | str | The key of this source in the cache. See [FileFontSource.cache_key](../cache_key/) property description for more information. |
 
 ## Examples
 

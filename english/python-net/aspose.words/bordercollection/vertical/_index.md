@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bordercollection/vertical/
 Gets the vertical border that is used between cells.
 
 
+```python
+@property
+def vertical(self) -> aspose.words.Border:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply settings to vertical borders to a table row's format.

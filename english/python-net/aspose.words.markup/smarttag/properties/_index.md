@@ -13,6 +13,16 @@ url: /python-net/aspose.words.markup/smarttag/properties/
 
 A collection of the smart tag properties.
 
+
+```python
+@property
+def properties(self) -> aspose.words.markup.CustomXmlPropertyCollection:
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``.
 
 

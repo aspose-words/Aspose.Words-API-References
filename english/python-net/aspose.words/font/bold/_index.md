@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/bold/
 True if the font is formatted as bold.
 
 
+```python
+@property
+def bold(self) -> bool:
+    ...
+
+@bold.setter
+def bold(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert formatted text using DocumentBuilder.

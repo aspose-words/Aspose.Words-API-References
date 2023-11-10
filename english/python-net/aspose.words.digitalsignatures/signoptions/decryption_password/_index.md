@@ -12,8 +12,22 @@ url: /python-net/aspose.words.digitalsignatures/signoptions/decryption_password/
 ## SignOptions.decryption_password property
 
 The password to decrypt source document.
-Default value is **empty string** (System.String.Empty).
+Default value is **empty string** ().
 
+
+
+```python
+@property
+def decryption_password(self) -> str:
+    ...
+
+@decryption_password.setter
+def decryption_password(self, value: str):
+    ...
+
+```
+
+### Remarks
 
 If OOXML document is encrypted, you should provide decryption password
 to decrypt source document before it will be signed.

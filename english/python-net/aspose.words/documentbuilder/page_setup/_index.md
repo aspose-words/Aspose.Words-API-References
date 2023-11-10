@@ -14,6 +14,13 @@ url: /python-net/aspose.words/documentbuilder/page_setup/
 Returns an object that represents current page setup and section properties.
 
 
+```python
+@property
+def page_setup(self) -> aspose.words.PageSetup:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply and revert page setup settings to sections in a document.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/document/
 Returns the Document the title holder belongs.
 
 
+```python
+@property
+def document(self) -> aspose.words.DocumentBase:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

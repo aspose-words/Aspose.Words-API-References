@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/relative_horizontal_position/
 
 Specifies relative to what the shape is positioned horizontally.
 
+
+```python
+@property
+def relative_horizontal_position(self) -> aspose.words.drawing.RelativeHorizontalPosition:
+    ...
+
+@relative_horizontal_position.setter
+def relative_horizontal_position(self, value: aspose.words.drawing.RelativeHorizontalPosition):
+    ...
+
+```
+
+### Remarks
+
 The default value is [RelativeHorizontalPosition.COLUMN](../../relativehorizontalposition/#COLUMN).
 
 Has effect only for top level floating shapes.

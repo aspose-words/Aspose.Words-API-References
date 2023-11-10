@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/fit_shape/
 
 Defines whether the text fits bounding box of a shape.
 
+
+```python
+@property
+def fit_shape(self) -> bool:
+    ...
+
+@fit_shape.setter
+def fit_shape(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

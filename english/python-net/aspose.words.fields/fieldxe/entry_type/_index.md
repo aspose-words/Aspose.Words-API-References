@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldxe/entry_type/
 Gets or sets an index entry type.
 
 
+```python
+@property
+def entry_type(self) -> str:
+    ...
+
+@entry_type.setter
+def entry_type(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INDEX field, and then use XE fields to populate it with entries.

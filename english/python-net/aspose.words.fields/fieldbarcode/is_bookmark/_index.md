@@ -15,6 +15,17 @@ Gets or sets whether [FieldBarcode.postal_address](../postal_address/) is the na
 
 
 
+```python
+@property
+def is_bookmark(self) -> bool:
+    ...
+
+@is_bookmark.setter
+def is_bookmark(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/style/aliases/
 Gets all aliases of this style. If style has no aliases then empty array of string is returned.
 
 
+```python
+@property
+def aliases(self) -> List[str]:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use style aliases.

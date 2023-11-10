@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/relative_horizontal_position/
 Gets the relative horizontal position of a frame.
 
 
+```python
+@property
+def relative_horizontal_position(self) -> aspose.words.drawing.RelativeHorizontalPosition:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

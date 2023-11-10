@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Sequentially numbers chapters, tables, figures, and other user-defined lists of items in a document.
 
 

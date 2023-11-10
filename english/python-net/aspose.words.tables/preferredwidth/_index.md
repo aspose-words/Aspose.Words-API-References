@@ -17,6 +17,8 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Preferred width can be specified as a percentage, number of points or a special "none/auto" value.
 
 The instances of this class are immutable.

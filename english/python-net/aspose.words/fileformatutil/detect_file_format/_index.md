@@ -21,7 +21,9 @@ def detect_file_format(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | The file name. |
+
+### Remarks
 
 Even if this method detects the document format, it does not guarantee 
 that the specified document is valid. This method only detects the document format by 
@@ -45,13 +47,15 @@ Detects and returns the information about a format of a document stored in a str
 
 
 ```python
-def detect_file_format(self, stream: BytesIO):
+def detect_file_format(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | The stream. |
+
+### Remarks
 
 The stream must be positioned at the beginning of the document.
 

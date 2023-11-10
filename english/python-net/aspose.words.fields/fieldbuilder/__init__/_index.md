@@ -22,7 +22,7 @@ def __init__(self, field_type: aspose.words.fields.FieldType):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_type | [FieldType](../../fieldtype/) |  |
+| field_type | [FieldType](../../fieldtype/) | The type of the field to build. |
 
 ### Examples
 

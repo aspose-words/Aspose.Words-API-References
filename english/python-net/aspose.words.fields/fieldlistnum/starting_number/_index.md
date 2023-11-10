@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldlistnum/starting_number/
 Gets or sets the starting value for this field.
 
 
+```python
+@property
+def starting_number(self) -> str:
+    ...
+
+@starting_number.setter
+def starting_number(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to number paragraphs with LISTNUM fields.

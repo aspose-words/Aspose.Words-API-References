@@ -14,6 +14,13 @@ url: /python-net/aspose.words/story/tables/
 Gets a collection of tables that are immediate children of the story.
 
 
+```python
+@property
+def tables(self) -> aspose.words.tables.TableCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove the first and last rows of all tables in a document.

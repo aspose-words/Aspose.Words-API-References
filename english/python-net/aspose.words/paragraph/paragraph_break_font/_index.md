@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraph/paragraph_break_font/
 Provides access to the font formatting of the paragraph break character.
 
 
+```python
+@property
+def paragraph_break_font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

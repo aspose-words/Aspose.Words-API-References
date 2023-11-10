@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/flip_orientation/
 
 Switches the orientation of a shape.
 
+
+```python
+@property
+def flip_orientation(self) -> aspose.words.drawing.FlipOrientation:
+    ...
+
+@flip_orientation.setter
+def flip_orientation(self, value: aspose.words.drawing.FlipOrientation):
+    ...
+
+```
+
+### Remarks
+
 The default value is [FlipOrientation.NONE](../../fliporientation/#NONE).
 
 

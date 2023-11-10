@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/foreground_color/
 Bar code foreground color (0x000000 - 0xFFFFFF)
 
 
+```python
+@property
+def foreground_color(self) -> str:
+    ...
+
+@foreground_color.setter
+def foreground_color(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

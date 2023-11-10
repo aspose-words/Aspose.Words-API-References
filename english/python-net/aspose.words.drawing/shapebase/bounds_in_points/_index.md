@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shapebase/bounds_in_points/
 Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
 
 
+```python
+@property
+def bounds_in_points(self) -> aspose.pydrawing.RectangleF:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify shape containing block boundaries.

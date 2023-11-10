@@ -15,6 +15,13 @@ Gets the structured document tag that is currently selected in this [DocumentBui
 
 
 
+```python
+@property
+def current_structured_document_tag(self) -> aspose.words.markup.StructuredDocumentTag:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

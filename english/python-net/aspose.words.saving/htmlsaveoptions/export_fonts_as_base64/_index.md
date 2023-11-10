@@ -5,7 +5,7 @@ articleTitle: export_fonts_as_base64 property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_fonts_as_base64 property. Specifies whether fonts resources should be embedded to HTML in Base64 encoding"
 type: docs
-weight: 160
+weight: 150
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/
 Specifies whether fonts resources should be embedded to HTML in Base64 encoding.
 Default is ``False``.
 
+
+
+```python
+@property
+def export_fonts_as_base64(self) -> bool:
+    ...
+
+@export_fonts_as_base64.setter
+def export_fonts_as_base64(self, value: bool):
+    ...
+
+```
+
+### Remarks
 
 By default, fonts are written to separate files. If this option is set to ``True``, fonts will be embedded
 into the document's CSS in Base64 encoding.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/encoding/
 Gets or sets the encoding applied to the data within the referenced file.
 
 
+```python
+@property
+def encoding(self) -> str:
+    ...
+
+@encoding.setter
+def encoding(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/title/
 Provides access to the axis title properties.
 
 
+```python
+@property
+def title(self) -> aspose.words.drawing.charts.ChartAxisTitle:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

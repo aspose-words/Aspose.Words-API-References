@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/custom_styles/
 Gets or sets a list of styles other than the built-in heading styles to include in the table of contents.
 
 
+```python
+@property
+def custom_styles(self) -> str:
+    ...
+
+@custom_styles.setter
+def custom_styles(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.

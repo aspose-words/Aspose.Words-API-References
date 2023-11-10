@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/additional_text_positioning/
 
 A flag specifying whether to write additional text positioning operators or not.
 
+
+```python
+@property
+def additional_text_positioning(self) -> bool:
+    ...
+
+@additional_text_positioning.setter
+def additional_text_positioning(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 If ``True``, additional text positioning operators are written to the output PDF. This may help to overcome
 issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
 

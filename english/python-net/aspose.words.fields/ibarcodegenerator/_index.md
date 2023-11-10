@@ -14,6 +14,8 @@ url: /python-net/aspose.words.fields/ibarcodegenerator/
 Public interface for barcode custom generator. Implementation should be provided by user.
 
 
+### Remarks
+
 Generator instance should be passed through the [FieldOptions.barcode_generator](../fieldoptions/barcode_generator/) property.
 
 

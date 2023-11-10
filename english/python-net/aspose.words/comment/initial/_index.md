@@ -13,6 +13,20 @@ url: /python-net/aspose.words/comment/initial/
 
 Returns or sets the initials of the user associated with a specific comment.
 
+
+```python
+@property
+def initial(self) -> str:
+    ...
+
+@initial.setter
+def initial(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``.
 
 Default is empty string.

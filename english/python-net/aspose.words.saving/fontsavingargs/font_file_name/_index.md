@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/fontsavingargs/font_file_name/
 
 Gets or sets the file name (without path) where the font will be saved to.
 
+
+```python
+@property
+def font_file_name(self) -> str:
+    ...
+
+@font_file_name.setter
+def font_file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to redefine how the font file names are generated
 during export to HTML.
 

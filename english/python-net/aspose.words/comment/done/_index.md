@@ -14,6 +14,17 @@ url: /python-net/aspose.words/comment/done/
 Gets or sets flag indicating that the comment has been marked done.
 
 
+```python
+@property
+def done(self) -> bool:
+    ...
+
+@done.setter
+def done(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to mark a comment as "done".

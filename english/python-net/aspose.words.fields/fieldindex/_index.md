@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Builds an index using the index entries specified by XE fields, and inserts that index at this place in the document.
 
 

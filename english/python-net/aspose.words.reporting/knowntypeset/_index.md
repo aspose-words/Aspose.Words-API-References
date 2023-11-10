@@ -11,7 +11,7 @@ url: /python-net/aspose.words.reporting/knowntypeset/
 
 ## KnownTypeSet class
 
-Represents an unordered set (i.e. a collection of unique items) containing System.Type objects 
+Represents an unordered set (i.e. a collection of unique items) containing  objects 
 which fully or partially qualified names can be used within report templates to invoke the corresponding 
 types' static members, perform type casts, etc.
 To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article.
@@ -29,9 +29,9 @@ To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/p
 
 | Name | Description |
 | --- | --- |
-|[ add(type)](./add/#unknown) | Adds the specified System.Type object to the set. Throws System.ArgumentException in the following cases: |
+|[ add(type)](./add/#object) | Adds the specified  object to the set. |
 |[ clear()](./clear/#default) | Removes all items from the set. |
-|[ remove(type)](./remove/#unknown) | Removes the specified System.Type object from the set. Throws System.ArgumentException if  is``None``. |
+|[ remove(type)](./remove/#object) | Removes the specified  object from the set. |
 
 ### See Also
 

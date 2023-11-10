@@ -21,8 +21,10 @@ def replace_regex(self, pattern: str, replacement: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | str |  |
-| replacement | str |  |
+| pattern | str | A regular expression pattern used to find matches. |
+| replacement | str | A string to replace all occurrences of pattern. |
+
+### Remarks
 
 Replaces the whole match captured by the regular expression.
 
@@ -60,9 +62,11 @@ def replace_regex(self, pattern: str, replacement: str, options: aspose.words.re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | str |  |
-| replacement | str |  |
-| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) |  |
+| pattern | str | A regular expression pattern used to find matches. |
+| replacement | str | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Remarks
 
 Replaces the whole match captured by the regular expression.
 

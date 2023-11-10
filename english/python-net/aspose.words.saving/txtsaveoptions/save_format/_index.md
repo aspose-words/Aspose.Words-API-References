@@ -16,6 +16,17 @@ Can only be [SaveFormat.TEXT](../../../aspose.words/saveformat/#TEXT).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to save a .txt document with a custom paragraph break.

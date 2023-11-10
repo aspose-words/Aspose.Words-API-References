@@ -12,9 +12,20 @@ url: /python-net/aspose.words.loading/txtloadoptions/trailing_spaces_options/
 ## TxtLoadOptions.trailing_spaces_options property
 
 Gets or sets preferred option of a trailing space handling.
-Default value is Aspose.Words.Loading.TxtTrailingSpacesOptions.Trim.
+Default value is [TxtTrailingSpacesOptions.TRIM](../../txttrailingspacesoptions/#TRIM).
 
 
+
+```python
+@property
+def trailing_spaces_options(self) -> aspose.words.loading.TxtTrailingSpacesOptions:
+    ...
+
+@trailing_spaces_options.setter
+def trailing_spaces_options(self, value: aspose.words.loading.TxtTrailingSpacesOptions):
+    ...
+
+```
 
 ### Examples
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/target/
 
 Gets or sets the target frame for the shape hyperlink.
 
+
+```python
+@property
+def target(self) -> str:
+    ...
+
+@target.setter
+def target(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is an empty string.
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldref/suppress_non_delimiters/
 Gets or sets whether to suppress non-delimiter characters.
 
 
+```python
+@property
+def suppress_non_delimiters(self) -> bool:
+    ...
+
+@suppress_non_delimiters.setter
+def suppress_non_delimiters(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert REF fields to reference bookmarks.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cell/is_first_cell/
 True if this is the first cell inside a row; false otherwise.
 
 
+```python
+@property
+def is_first_cell(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the node structure of every table in a document.

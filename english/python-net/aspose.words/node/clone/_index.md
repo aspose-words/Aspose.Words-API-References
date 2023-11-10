@@ -21,12 +21,14 @@ def clone(self, is_clone_children: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| is_clone_children | bool |  |
+| is_clone_children | bool | True to recursively clone the subtree under the specified node;  false to clone only the node itself. |
+
+### Remarks
 
 This method serves as a copy constructor for nodes. 
 The cloned node has no parent, but belongs to the same document as the original node.
 
-This method always performs a deep copy of the node. The  parameter
+This method always performs a deep copy of the node. The *isCloneChildren* parameter
 specifies whether to perform copy all child nodes as well.
 
 

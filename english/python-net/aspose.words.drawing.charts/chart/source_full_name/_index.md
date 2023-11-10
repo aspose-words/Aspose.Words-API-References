@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chart/source_full_name/
 Gets the path and name of an xls/xlsx file this chart is linked to.
 
 
+```python
+@property
+def source_full_name(self) -> str:
+    ...
+
+@source_full_name.setter
+def source_full_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the full name of the external xls/xlsx document if the chart is linked.

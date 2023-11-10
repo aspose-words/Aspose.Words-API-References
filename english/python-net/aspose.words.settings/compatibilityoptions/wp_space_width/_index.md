@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/wp_space_width/
 Specifies whether to set the width of a space as is done in WordPerfect 5.x.
 
 
+```python
+@property
+def wp_space_width(self) -> bool:
+    ...
+
+@wp_space_width.setter
+def wp_space_width(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

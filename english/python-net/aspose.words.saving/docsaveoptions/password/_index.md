@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/docsaveoptions/password/
 
 Gets/sets a password to encrypt document using RC4 encryption method.
 
+
+```python
+@property
+def password(self) -> str:
+    ...
+
+@password.setter
+def password(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 In order to save document without encryption this property should be ``None`` or empty string.
 
 

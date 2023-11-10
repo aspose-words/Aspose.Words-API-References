@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fonts/fontinfo/name/
 
 Gets the name of the font.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``. Can be an empty string.
 
 

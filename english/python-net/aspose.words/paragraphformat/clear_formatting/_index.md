@@ -19,6 +19,8 @@ def clear_formatting(self):
     ...
 ```
 
+### Remarks
+
 Default paragraph formatting is Normal style, left aligned, no indentation,
 no spacing, no borders and no shading.
 

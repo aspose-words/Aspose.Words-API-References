@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergebarcode/barcode_type/
 Gets or sets the barcode type (QR, etc.)
 
 
+```python
+@property
+def barcode_type(self) -> str:
+    ...
+
+@barcode_type.setter
+def barcode_type(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

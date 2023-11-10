@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddisplaybarcode/symbol_height/
 Gets or sets the height of the symbol. The units are in TWIPS (1/1440 inch).
 
 
+```python
+@property
+def symbol_height(self) -> str:
+    ...
+
+@symbol_height.setter
+def symbol_height(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/apply_paragraph_forma
 Paragraph formatting applied to new content.
 
 
+```python
+@property
+def apply_paragraph_format(self) -> aspose.words.ParagraphFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add formatting to paragraphs in which a find-and-replace operation has found matches.

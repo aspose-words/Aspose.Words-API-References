@@ -14,6 +14,17 @@ url: /python-net/aspose.words.vba/vbamodule/name/
 Gets or sets VBA project module name.
 
 
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's VBA project information.

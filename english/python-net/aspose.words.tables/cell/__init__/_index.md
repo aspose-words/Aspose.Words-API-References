@@ -22,7 +22,9 @@ def __init__(self, doc: aspose.words.DocumentBase):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
+
+### Remarks
 
 When [Cell](../) is created, it belongs to the specified document, but is not
 yet part of the document and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``None``.

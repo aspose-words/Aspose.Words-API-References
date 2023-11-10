@@ -14,6 +14,20 @@ url: /python-net/aspose.words/headerfooter/is_linked_to_previous/
 True if this header or footer is linked to the corresponding header or footer
 in the previous section.
 
+
+```python
+@property
+def is_linked_to_previous(self) -> bool:
+    ...
+
+@is_linked_to_previous.setter
+def is_linked_to_previous(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default is ``True``.
 
 Note, when your link a header or footer, its contents is cleared.

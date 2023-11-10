@@ -15,6 +15,17 @@ Gets or sets the number of points by which the text that follows the field shoul
 from the left edge of the column, frame, or text box.
 
 
+```python
+@property
+def horizontal_position(self) -> str:
+    ...
+
+@horizontal_position.setter
+def horizontal_position(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADVANCE field, and edit its properties.

@@ -21,7 +21,7 @@ def add(self, property: aspose.words.markup.CustomXmlProperty):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | [CustomXmlProperty](../../customxmlproperty/) |  |
+| property | [CustomXmlProperty](../../customxmlproperty/) | The property to add. |
 
 ### Examples
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.lists/listlevel/text_position/
 
 Returns or sets the position (in points) for the second line of wrapping text for the list level.
 
+
+```python
+@property
+def text_position(self) -> float:
+    ...
+
+@text_position.setter
+def text_position(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 [ListLevel.text_position](./) corresponds to LeftIndent of the paragraph.
 
 

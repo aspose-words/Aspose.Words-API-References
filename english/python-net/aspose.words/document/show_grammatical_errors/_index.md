@@ -14,6 +14,17 @@ url: /python-net/aspose.words/document/show_grammatical_errors/
 Specifies whether to display grammar errors in this document.
 
 
+```python
+@property
+def show_grammatical_errors(self) -> bool:
+    ...
+
+@show_grammatical_errors.setter
+def show_grammatical_errors(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to show/hide errors in the document.

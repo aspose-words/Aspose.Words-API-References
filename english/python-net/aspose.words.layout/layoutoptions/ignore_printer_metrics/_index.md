@@ -16,6 +16,17 @@ Default is ``True``.
 
 
 
+```python
+@property
+def ignore_printer_metrics(self) -> bool:
+    ...
+
+@ignore_printer_metrics.setter
+def ignore_printer_metrics(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to ignore 'Use printer metrics to lay out document' option.

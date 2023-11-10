@@ -15,6 +15,13 @@ Returns ``True`` if the document has a VBA project (macros).
 
 
 
+```python
+@property
+def has_macros(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.

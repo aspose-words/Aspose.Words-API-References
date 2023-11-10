@@ -17,6 +17,8 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 
 
 
+### Remarks
+
 This event occurs during mail merge when an image mail merge
 field is encountered in the document. You can respond to this event to return a
 file name, stream, or an SkiaSharp.SKBitmap object to the mail merge

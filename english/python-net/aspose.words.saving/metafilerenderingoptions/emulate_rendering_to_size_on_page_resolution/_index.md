@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_
 
 Gets or sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page.
 
+
+```python
+@property
+def emulate_rendering_to_size_on_page_resolution(self) -> int:
+    ...
+
+@emulate_rendering_to_size_on_page_resolution.setter
+def emulate_rendering_to_size_on_page_resolution(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 This option is used only when [MetafileRenderingOptions.emulate_rendering_to_size_on_page](../emulate_rendering_to_size_on_page/) is set to ``True``.
 
 The default value is 96. This is a default display resolution. I.e. metafile rendering will emulate the display of

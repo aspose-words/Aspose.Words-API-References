@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/fontinfocollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows info about the fonts that are present in the blank document.

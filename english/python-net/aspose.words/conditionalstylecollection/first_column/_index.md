@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstylecollection/first_column/
 Gets the first column style.
 
 
+```python
+@property
+def first_column(self) -> aspose.words.ConditionalStyle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

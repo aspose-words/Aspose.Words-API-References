@@ -21,7 +21,7 @@ def visit_form_field(self, form_field: aspose.words.fields.FormField):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| form_field | [FormField](../../../aspose.words.fields/formfield/) |  |
+| form_field | [FormField](../../../aspose.words.fields/formfield/) | The object that is being visited. |
 
 ### Returns
 

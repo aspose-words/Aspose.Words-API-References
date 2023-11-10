@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Builds a table of contents (which can also be a table of figures) using the entries specified by TC fields,
 their heading levels, and specified styles, and inserts that table at this place in the document.
 

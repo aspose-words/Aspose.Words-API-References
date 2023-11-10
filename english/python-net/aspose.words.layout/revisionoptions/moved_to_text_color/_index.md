@@ -16,6 +16,17 @@ Default value is [RevisionColor.BY_AUTHOR](../../revisioncolor/#BY_AUTHOR).
 
 
 
+```python
+@property
+def moved_to_text_color(self) -> aspose.words.layout.RevisionColor:
+    ...
+
+@moved_to_text_color.setter
+def moved_to_text_color(self, value: aspose.words.layout.RevisionColor):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

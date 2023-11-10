@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/start_arrow_type/
 
 Defines the arrowhead for the start of a stroke.
 
+
+```python
+@property
+def start_arrow_type(self) -> aspose.words.drawing.ArrowType:
+    ...
+
+@start_arrow_type.setter
+def start_arrow_type(self, value: aspose.words.drawing.ArrowType):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ArrowType.NONE](../../arrowtype/#NONE).
 
 

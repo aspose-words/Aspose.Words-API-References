@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/text_path_alignment/
 
 Defines the alignment of text.
 
+
+```python
+@property
+def text_path_alignment(self) -> aspose.words.drawing.TextPathAlignment:
+    ...
+
+@text_path_alignment.setter
+def text_path_alignment(self, value: aspose.words.drawing.TextPathAlignment):
+    ...
+
+```
+
+### Remarks
+
 The default value is [TextPathAlignment.CENTER](../../textpathalignment/#CENTER).
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/no_proofing/
 True when the formatted characters are not to be spell checked.
 
 
+```python
+@property
+def no_proofing(self) -> bool:
+    ...
+
+@no_proofing.setter
+def no_proofing(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to prevent text from being spell checked by Microsoft Word.

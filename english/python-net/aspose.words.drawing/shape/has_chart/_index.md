@@ -15,6 +15,13 @@ Returns ``True`` if this [Shape](../) has a [Chart](../../../aspose.words.drawin
 
 
 
+```python
+@property
+def has_chart(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

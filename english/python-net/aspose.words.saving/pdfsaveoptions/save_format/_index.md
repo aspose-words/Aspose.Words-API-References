@@ -16,6 +16,17 @@ Can only be [SaveFormat.PDF](../../../aspose.words/saveformat/#PDF).
 
 
 
+```python
+@property
+def save_format(self) -> aspose.words.SaveFormat:
+    ...
+
+@save_format.setter
+def save_format(self, value: aspose.words.SaveFormat):
+    ...
+
+```
+
 ### Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved PDF document.

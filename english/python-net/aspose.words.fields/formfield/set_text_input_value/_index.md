@@ -22,9 +22,11 @@ def set_text_input_value(self, new_value: object):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| new_value | object |  |
+| new_value | object | Can be a string, number or a **DateTime** object. |
 
-The [FormField.text_input_default](../text_input_default/) value is applied if  is``None``.
+### Remarks
+
+The [FormField.text_input_default](../text_input_default/) value is applied if *newValue* is``None``.
 
 
 ### See Also

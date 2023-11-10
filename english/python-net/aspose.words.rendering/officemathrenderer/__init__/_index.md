@@ -21,7 +21,7 @@ def __init__(self, math: aspose.words.math.OfficeMath):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| math | [OfficeMath](../../../aspose.words.math/officemath/) |  |
+| math | [OfficeMath](../../../aspose.words.math/officemath/) | The [OfficeMath](../../../aspose.words.math/officemath/) object that you want to render. |
 
 ### Examples
 

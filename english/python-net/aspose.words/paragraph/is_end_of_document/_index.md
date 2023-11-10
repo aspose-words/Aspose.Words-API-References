@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraph/is_end_of_document/
 True if this paragraph is the last paragraph in the last section of the document.
 
 
+```python
+@property
+def is_end_of_document(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a paragraph into the document.

@@ -15,6 +15,13 @@ Returns the number of [ChartDataPoint](../../chartdatapoint/) in this collection
 
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with data points on a line chart.

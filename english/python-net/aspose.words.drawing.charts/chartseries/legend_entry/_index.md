@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/legend_entry/
 Gets a legend entry for this chart series.
 
 
+```python
+@property
+def legend_entry(self) -> aspose.words.drawing.charts.ChartLegendEntry:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

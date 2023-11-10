@@ -13,6 +13,16 @@ url: /python-net/aspose.words/compositenode/first_child/
 
 Gets the first child of the node.
 
+
+```python
+@property
+def first_child(self) -> aspose.words.Node:
+    ...
+
+```
+
+### Remarks
+
 If there is no first child node, a ``None`` is returned.
 
 

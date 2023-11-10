@@ -16,6 +16,20 @@ in [ImportFormatMode.KEEP_SOURCE_FORMATTING](../../importformatmode/#KEEP_SOURCE
 The default value is ``False``.
 
 
+
+```python
+@property
+def force_copy_styles(self) -> bool:
+    ...
+
+@force_copy_styles.setter
+def force_copy_styles(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default, if a matching style already exists in a destination document, the source style formatting
 is expanded into direct node attributes and the style of this node is reset to a default.
 

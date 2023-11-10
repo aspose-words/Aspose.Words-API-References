@@ -52,11 +52,6 @@ series.add("Series 4", categories, [0, 0])
 legend_entries = chart.legend.legend_entries
 legend_entries[3].is_hidden = True
 
-for legend_entry in legend_entries:
-    legend_entry.font.size = 12
-
-series1.legend_entry.font.italic = True
-
 doc.save(ARTIFACTS_DIR + "Charts.LegendEntries.docx")
 ```
 

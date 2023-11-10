@@ -14,6 +14,16 @@ url: /python-net/aspose.words.lists/list/is_list_style_definition/
 Returns ``True`` if this list is a definition of a list style.
 
 
+
+```python
+@property
+def is_list_style_definition(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 When this property is ``True``, the [List.style](../style/) property returns the list style that
 this list defines.
 

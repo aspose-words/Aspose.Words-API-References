@@ -17,6 +17,8 @@ To learn more, visit the [Work with Document Properties](https://docs.aspose.com
 
 
 
+### Remarks
+
 Provides access to [DocumentProperty](../documentproperty/) objects by their names (using an indexer) and
 via a set of typed properties that return values of appropriate types.
 
@@ -49,8 +51,8 @@ The properties in the collection are sorted alphabetically by name.
 | [characters_with_spaces](./characters_with_spaces/) | Represents an estimate of the number of characters (including spaces) in the document. |
 | [comments](./comments/) | Gets or sets the document comments. |
 | [company](./company/) | Gets or sets the company property. |
-| [content_status](./content_status/) | Gets or sets the Aspose.Words.Properties.PropertyName.ContentStatus of the document. |
-| [content_type](./content_type/) | Gets or sets the Aspose.Words.Properties.PropertyName.ContentType of the document. |
+| [content_status](./content_status/) | Gets or sets the content status of the document. |
+| [content_type](./content_type/) | Gets or sets the content type of the document. |
 | [count](../documentpropertycollection/count/) | Gets number of items in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 | [created_time](./created_time/) | Gets or sets date of the document creation in UTC. |
 | [heading_pairs](./heading_pairs/) | Specifies document headings and their names. |

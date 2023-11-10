@@ -21,7 +21,7 @@ def visit_bookmark_end(self, bookmark_end: aspose.words.BookmarkEnd):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark_end | [BookmarkEnd](../../bookmarkend/) |  |
+| bookmark_end | [BookmarkEnd](../../bookmarkend/) | The object that is being visited. |
 
 ### Returns
 

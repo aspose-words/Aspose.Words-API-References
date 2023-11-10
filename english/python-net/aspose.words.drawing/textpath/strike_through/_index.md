@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/strike_through/
 
 True if the font is formatted as strikethrough text.
 
+
+```python
+@property
+def strike_through(self) -> bool:
+    ...
+
+@strike_through.setter
+def strike_through(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

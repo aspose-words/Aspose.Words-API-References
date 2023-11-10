@@ -14,6 +14,13 @@ url: /python-net/aspose.words.markup/xmlmapping/custom_xml_part/
 Returns the custom XML data part to which the parent structured document tag is mapped.
 
 
+```python
+@property
+def custom_xml_part(self) -> aspose.words.markup.CustomXmlPart:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set XML mappings for custom XML parts.

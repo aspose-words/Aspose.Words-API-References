@@ -16,6 +16,17 @@ Default value is ``False``.
 
 
 
+```python
+@property
+def show_data_labels_range(self) -> bool:
+    ...
+
+@show_data_labels_range.setter
+def show_data_labels_range(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

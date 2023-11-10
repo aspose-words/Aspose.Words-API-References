@@ -15,6 +15,13 @@ Gets fill formatting for the [Font](../).
 
 
 
+```python
+@property
+def fill(self) -> aspose.words.drawing.Fill:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

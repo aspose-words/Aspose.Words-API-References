@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartxvalue/string_value/
 Gets the stored string value.
 
 
+```python
+@property
+def string_value(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

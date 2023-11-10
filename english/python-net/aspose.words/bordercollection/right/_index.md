@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bordercollection/right/
 Gets the right border.
 
 
+```python
+@property
+def right(self) -> aspose.words.Border:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply border and shading color while building a table.

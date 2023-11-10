@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/saveoutputparameters/content_type/
 Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document.
 
 
+```python
+@property
+def content_type(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access output parameters of a document's save operation.

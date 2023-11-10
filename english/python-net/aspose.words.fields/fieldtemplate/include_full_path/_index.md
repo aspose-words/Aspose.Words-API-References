@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtemplate/include_full_path/
 Gets or sets whether to include the full file path name.
 
 
+```python
+@property
+def include_full_path(self) -> bool:
+    ...
+
+@include_full_path.setter
+def include_full_path(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a TEMPLATE field to display the local file system location of a document's template.

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Inserts the mark of the footnote or endnote that is marked by the specified bookmark.
 
 

@@ -15,6 +15,20 @@ Allows to specify whether the revisions are rendered in the balloons.
 Default value is [ShowInBalloons.NONE](../../showinballoons/#NONE).
 
 
+
+```python
+@property
+def show_in_balloons(self) -> aspose.words.layout.ShowInBalloons:
+    ...
+
+@show_in_balloons.setter
+def show_in_balloons(self, value: aspose.words.layout.ShowInBalloons):
+    ...
+
+```
+
+### Remarks
+
 Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW_IN_ANNOTATIONS](../../commentdisplaymode/#SHOW_IN_ANNOTATIONS).
 
 

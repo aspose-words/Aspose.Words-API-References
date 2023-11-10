@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldoptions/toa_categories/
 Gets or sets the table of authorities categories.
 
 
+```python
+@property
+def toa_categories(self) -> aspose.words.fields.ToaCategories:
+    ...
+
+@toa_categories.setter
+def toa_categories(self, value: aspose.words.fields.ToaCategories):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify a set of categories for TOA fields.

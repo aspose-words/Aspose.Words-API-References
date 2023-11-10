@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/behind_text/
 
 Specifies whether the shape is below or above text.
 
+
+```python
+@property
+def behind_text(self) -> bool:
+    ...
+
+@behind_text.setter
+def behind_text(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Has effect only for top level shapes.
 
 The default value is ``False``.

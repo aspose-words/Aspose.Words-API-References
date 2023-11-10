@@ -20,6 +20,17 @@ and itemized list labels as simple ASCII characters. The default value is ``Fals
 
 
 
+```python
+@property
+def simplify_list_labels(self) -> bool:
+    ...
+
+@simplify_list_labels.setter
+def simplify_list_labels(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change the appearance of lists when saving a document to plaintext.

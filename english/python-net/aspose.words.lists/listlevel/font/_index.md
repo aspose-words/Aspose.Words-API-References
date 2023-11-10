@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listlevel/font/
 Specifies character formatting used for the list label.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.

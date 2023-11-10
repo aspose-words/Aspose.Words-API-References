@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/spacing/
 
 Defines the amount of spacing for text. 1 means 100%.
 
+
+```python
+@property
+def spacing(self) -> float:
+    ...
+
+@spacing.setter
+def spacing(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1.
 
 

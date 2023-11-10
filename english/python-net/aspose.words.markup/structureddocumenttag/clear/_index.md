@@ -19,6 +19,8 @@ def clear(self):
     ...
 ```
 
+### Remarks
+
 It is not possible to clear contents of a structured document tag if it has revisions.
 
 If this structured document tag is mapped to custom XML (with using the [StructuredDocumentTag.xml_mapping](../xml_mapping/)

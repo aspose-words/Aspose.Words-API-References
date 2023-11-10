@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/comparisonexpression/left_expression/
 Gets the left expression.
 
 
+```python
+@property
+def left_expression(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -31,7 +31,9 @@ def move_parent(self, types: aspose.words.layout.LayoutEntityType):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| types | [LayoutEntityType](../../layoutentitytype/) |  |
+| types | [LayoutEntityType](../../layoutentitytype/) | The parent entity type to move to. Use bitwise-OR to specify multiple parent types. |
+
+### Remarks
 
 This method is useful if you need to find the cell, column or header/footer parent of the entity.
 

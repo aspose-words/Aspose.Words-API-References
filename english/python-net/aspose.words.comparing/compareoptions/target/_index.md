@@ -14,6 +14,17 @@ url: /python-net/aspose.words.comparing/compareoptions/target/
 Specifies which document shall be used as a target during comparison.
 
 
+```python
+@property
+def target(self) -> aspose.words.comparing.ComparisonTargetType:
+    ...
+
+@target.setter
+def target(self, value: aspose.words.comparing.ComparisonTargetType):
+    ...
+
+```
+
 ### Examples
 
 Shows how to filter specific types of document elements when making a comparison.

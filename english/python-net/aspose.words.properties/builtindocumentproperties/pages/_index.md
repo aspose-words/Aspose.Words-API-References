@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/pages/
 
 Represents an estimate of the number of pages in the document.
 
+
+```python
+@property
+def pages(self) -> int:
+    ...
+
+@pages.setter
+def pages(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words updates this property when you call [Document.update_page_layout()](../../../aspose.words/document/update_page_layout/#default).
 
 

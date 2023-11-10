@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/axisbound/value_as_date/
 Returns value of axis bound represented as datetime.
 
 
+```python
+@property
+def value_as_date(self) -> datetime.datetime:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom axis bounds.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldhyperlink/is_image_map/
 Gets or sets whether to append coordinates to the hyperlink for a server-side image map.
 
 
+```python
+@property
+def is_image_map(self) -> bool:
+    ...
+
+@is_image_map.setter
+def is_image_map(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.

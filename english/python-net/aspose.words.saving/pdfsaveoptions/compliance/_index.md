@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/compliance/
 
 Specifies the PDF standards compliance level for output documents.
 
+
+```python
+@property
+def compliance(self) -> aspose.words.saving.PdfCompliance:
+    ...
+
+@compliance.setter
+def compliance(self, value: aspose.words.saving.PdfCompliance):
+    ...
+
+```
+
+### Remarks
+
 Default is [PdfCompliance.PDF17](../../pdfcompliance/#PDF17).
 
 

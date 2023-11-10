@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fielddatabasedatatable/rows/
 Gets rows that belong to this table.
 
 
+```python
+@property
+def rows(self) -> List[aspose.words.fields.FieldDatabaseDataRow]:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

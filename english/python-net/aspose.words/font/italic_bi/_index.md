@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/italic_bi/
 True if the right-to-left text is formatted as italic.
 
 
+```python
+@property
+def italic_bi(self) -> bool:
+    ...
+
+@italic_bi.setter
+def italic_bi(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.

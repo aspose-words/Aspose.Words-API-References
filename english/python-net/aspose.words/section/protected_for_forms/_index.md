@@ -15,6 +15,17 @@ True if the section is protected for forms. When a section is protected for form
 users can select and modify text only in form fields in Microsoft Word.
 
 
+```python
+@property
+def protected_for_forms(self) -> bool:
+    ...
+
+@protected_for_forms.setter
+def protected_for_forms(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to turn off protection for a section.

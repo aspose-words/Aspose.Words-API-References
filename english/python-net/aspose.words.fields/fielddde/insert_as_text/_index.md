@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddde/insert_as_text/
 Gets or sets whether to insert the linked object in text-only format.
 
 
+```python
+@property
+def insert_as_text(self) -> bool:
+    ...
+
+@insert_as_text.setter
+def insert_as_text(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

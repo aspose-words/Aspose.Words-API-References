@@ -21,8 +21,10 @@ def set_fonts_folders(self, fonts_folders: List[str], recursive: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fonts_folders | List[str] |  |
-| recursive | bool |  |
+| fonts_folders | List[str] | An array of folders that contain TrueType fonts. |
+| recursive | bool | True to scan the specified folders for fonts recursively. |
+
+### Remarks
 
 By default, Aspose.Words looks for fonts installed to the system.
 

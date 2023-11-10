@@ -19,6 +19,8 @@ def insert_cell(self):
     ...
 ```
 
+### Remarks
+
 To start a table, just call [DocumentBuilder.insert_cell()](./#default). After this, any content you add using
 other methods of the [DocumentBuilder](../) class will be added to the current cell.
 

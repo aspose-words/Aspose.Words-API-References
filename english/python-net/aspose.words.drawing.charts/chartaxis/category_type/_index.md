@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/category_type/
 
 Gets or sets type of the category axis.
 
+
+```python
+@property
+def category_type(self) -> aspose.words.drawing.charts.AxisCategoryType:
+    ...
+
+@category_type.setter
+def category_type(self, value: aspose.words.drawing.charts.AxisCategoryType):
+    ...
+
+```
+
+### Remarks
+
 Only text categories ([AxisCategoryType.CATEGORY](../../axiscategorytype/#CATEGORY)) are allowed in MS Office 2016 new charts.
 
 

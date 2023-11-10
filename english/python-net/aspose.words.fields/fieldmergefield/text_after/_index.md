@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldmergefield/text_after/
 Gets or sets the text to be inserted after the field if the field is not blank.
 
 
+```python
+@property
+def text_after(self) -> str:
+    ...
+
+@text_after.setter
+def text_after(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

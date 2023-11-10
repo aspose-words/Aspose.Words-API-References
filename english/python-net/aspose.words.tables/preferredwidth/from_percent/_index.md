@@ -21,7 +21,7 @@ def from_percent(self, percent: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| percent | float |  |
+| percent | float | The value must be from 0 to 100. |
 
 ### Examples
 

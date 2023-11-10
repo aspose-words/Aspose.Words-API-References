@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/case_code_style/
 Style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD]
 
 
+```python
+@property
+def case_code_style(self) -> str:
+    ...
+
+@case_code_style.setter
+def case_code_style(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

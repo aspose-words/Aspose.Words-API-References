@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/sequence_separator/
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 
 
+```python
+@property
+def sequence_separator(self) -> str:
+    ...
+
+@sequence_separator.setter
+def sequence_separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate a TOC field with entries using SEQ fields.

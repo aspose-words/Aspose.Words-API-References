@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/hyphenation_options/
 Provides access to document hyphenation options.
 
 
+```python
+@property
+def hyphenation_options(self) -> aspose.words.settings.HyphenationOptions:
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure automatic hyphenation.

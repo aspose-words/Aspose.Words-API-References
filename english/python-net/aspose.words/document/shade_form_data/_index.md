@@ -14,6 +14,17 @@ url: /python-net/aspose.words/document/shade_form_data/
 Specifies whether to turn on the gray shading on form fields.
 
 
+```python
+@property
+def shade_form_data(self) -> bool:
+    ...
+
+@shade_form_data.setter
+def shade_form_data(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply gray shading to form fields.

@@ -15,13 +15,15 @@ Saves the font search cache to the stream.
 
 
 ```python
-def save_search_cache(self, output_stream: BytesIO):
+def save_search_cache(self, output_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output_stream | BytesIO |  |
+| output_stream | io.BytesIO | Output stream. |
+
+### Remarks
 
 See [FontSettings.set_fonts_sources()](../set_fonts_sources/#fontsourcebaselist_bytesio) method description for more info.
 

@@ -21,7 +21,9 @@ def write(self, text: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | str |  |
+| text | str | The string to insert into the document. |
+
+### Remarks
 
 Current font formatting specified by the [DocumentBuilder.font](../font/) property is used.
 

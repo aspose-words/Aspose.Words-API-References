@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/cached_col_balance/
 Use Cached Paragraph Information for Column Balancing.
 
 
+```python
+@property
+def cached_col_balance(self) -> bool:
+    ...
+
+@cached_col_balance.setter
+def cached_col_balance(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

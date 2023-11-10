@@ -14,6 +14,13 @@ url: /python-net/aspose.words/headerfootercollection/footer_even/
 Retrieves a footer for even numbered pages.
 
 
+```python
+@property
+def footer_even(self) -> aspose.words.HeaderFooter:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

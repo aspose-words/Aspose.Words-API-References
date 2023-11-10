@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/imagedata/chroma_key/
 
 Defines the color value of the image that will be treated as transparent.
 
+
+```python
+@property
+def chroma_key(self) -> aspose.pydrawing.Color:
+    ...
+
+@chroma_key.setter
+def chroma_key(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
+### Remarks
+
 The default value is 0.
 
 

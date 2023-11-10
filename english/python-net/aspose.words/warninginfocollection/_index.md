@@ -5,7 +5,7 @@ articleTitle: WarningInfoCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.WarningInfoCollection class. Represents a typed collection of [WarningInfo](../warninginfo/) objects"
 type: docs
-weight: 1340
+weight: 1350
 url: /python-net/aspose.words/warninginfocollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 
 
+
+### Remarks
 
 You can use this collection object as the simplest form of [IWarningCallback](../iwarningcallback/) implementation to gather 
 all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it 

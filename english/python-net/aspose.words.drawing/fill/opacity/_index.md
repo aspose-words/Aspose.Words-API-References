@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/fill/opacity/
 
 Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque).
 
+
+```python
+@property
+def opacity(self) -> float:
+    ...
+
+@opacity.setter
+def opacity(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 This property is the opposite of property [Fill.transparency](../transparency/).
 
 

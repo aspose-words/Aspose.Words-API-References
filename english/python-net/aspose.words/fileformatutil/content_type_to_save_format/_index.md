@@ -27,7 +27,7 @@ def content_type_to_save_format(self, content_type: str):
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentException | Throws when cannot convert. |
+| RuntimeError (Proxy error(ArgumentException)) | Throws when cannot convert. |
 
 ### Examples
 

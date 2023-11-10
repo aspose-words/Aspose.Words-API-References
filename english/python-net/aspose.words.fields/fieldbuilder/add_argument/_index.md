@@ -21,7 +21,7 @@ def add_argument(self, argument: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | str |  |
+| argument | str | The argument value. |
 
 ## add_argument(argument) {#int}
 
@@ -35,7 +35,7 @@ def add_argument(self, argument: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | int |  |
+| argument | int | The argument value. |
 
 ## add_argument(argument) {#float}
 
@@ -49,7 +49,7 @@ def add_argument(self, argument: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | float |  |
+| argument | float | The argument value. |
 
 ## add_argument(argument) {#fieldbuilder}
 
@@ -65,6 +65,8 @@ def add_argument(self, argument: aspose.words.fields.FieldBuilder):
 | Parameter | Type | Description |
 | --- | --- | --- |
 | argument | [FieldBuilder](../) |  |
+
+### Remarks
 
 This overload is used when the argument consists of a single child field.
 
@@ -83,6 +85,8 @@ def add_argument(self, argument: aspose.words.fields.FieldArgumentBuilder):
 | Parameter | Type | Description |
 | --- | --- | --- |
 | argument | [FieldArgumentBuilder](../../fieldargumentbuilder/) |  |
+
+### Remarks
 
 This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
 

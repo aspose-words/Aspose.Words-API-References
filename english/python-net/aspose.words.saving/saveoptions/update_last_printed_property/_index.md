@@ -15,6 +15,17 @@ Gets or sets a value determining whether the [BuiltInDocumentProperties.last_pri
 
 
 
+```python
+@property
+def update_last_printed_property(self) -> bool:
+    ...
+
+@update_last_printed_property.setter
+def update_last_printed_property(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to update a document's "Last printed" property when saving.

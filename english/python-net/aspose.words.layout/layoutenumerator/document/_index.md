@@ -14,6 +14,13 @@ url: /python-net/aspose.words.layout/layoutenumerator/document/
 Gets document this instance enumerates.
 
 
+```python
+@property
+def document(self) -> aspose.words.Document:
+    ...
+
+```
+
 ### Examples
 
 Shows ways of traversing a document's layout entities.

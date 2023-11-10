@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_position/
 
 Returns or sets the position of the tick labels on the axis.
 
+
+```python
+@property
+def tick_label_position(self) -> aspose.words.drawing.charts.AxisTickLabelPosition:
+    ...
+
+@tick_label_position.setter
+def tick_label_position(self, value: aspose.words.drawing.charts.AxisTickLabelPosition):
+    ...
+
+```
+
+### Remarks
+
 The property is not supported by MS Office 2016 new charts.
 
 

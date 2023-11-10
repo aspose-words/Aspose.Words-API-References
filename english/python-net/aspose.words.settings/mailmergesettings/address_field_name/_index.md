@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/mailmergesettings/address_field_name/
 Specifies the column within the data source that contains e-mail addresses. The default value is an empty string.
 
 
+```python
+@property
+def address_field_name(self) -> str:
+    ...
+
+@address_field_name.setter
+def address_field_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.

@@ -17,6 +17,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 On a series, the [ChartDataPoint](./) object is a member of the [ChartDataPointCollection](../chartdatapointcollection/). 
 The [ChartDataPointCollection](../chartdatapointcollection/) contains a [ChartDataPoint](./) object for each point. 
 

@@ -21,11 +21,11 @@ def set_border(self, border_type: aspose.words.BorderType, line_style: aspose.wo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| border_type | [BorderType](../../../aspose.words/bordertype/) |  |
-| line_style | [LineStyle](../../../aspose.words/linestyle/) |  |
-| line_width | float |  |
-| color | aspose.pydrawing.Color |  |
-| is_override_cell_borders | bool |  |
+| border_type | [BorderType](../../../aspose.words/bordertype/) | The table border to change. |
+| line_style | [LineStyle](../../../aspose.words/linestyle/) | The line style to apply. |
+| line_width | float | The line width to set (in points). |
+| color | aspose.pydrawing.Color | The color to use for the border. |
+| is_override_cell_borders | bool | When ``True``, causes all existing explicit cell borders to be removed. |
 
 ### Examples
 

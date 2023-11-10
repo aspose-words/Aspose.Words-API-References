@@ -23,6 +23,8 @@ def index_of(self, child: aspose.words.Node):
 | --- | --- | --- |
 | child | [Node](../../node/) |  |
 
+### Remarks
+
 Returns -1 if the node is not found in the child nodes.
 
 

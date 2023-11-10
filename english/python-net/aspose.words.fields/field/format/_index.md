@@ -15,6 +15,13 @@ Gets a [FieldFormat](../../fieldformat/) object that provides typed access to fi
 
 
 
+```python
+@property
+def format(self) -> aspose.words.fields.FieldFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to format field results.

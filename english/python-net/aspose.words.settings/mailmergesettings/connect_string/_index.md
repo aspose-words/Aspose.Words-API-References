@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/mailmergesettings/connect_string/
 Specifies the connection string used to connect to an external data source. The default value is an empty string.
 
 
+```python
+@property
+def connect_string(self) -> str:
+    ...
+
+@connect_string.setter
+def connect_string(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.

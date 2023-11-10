@@ -15,6 +15,17 @@ Gets or sets [IFieldUpdatingCallback](../../ifieldupdatingcallback/) implementat
 
 
 
+```python
+@property
+def field_updating_callback(self) -> aspose.words.fields.IFieldUpdatingCallback:
+    ...
+
+@field_updating_callback.setter
+def field_updating_callback(self, value: aspose.words.fields.IFieldUpdatingCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

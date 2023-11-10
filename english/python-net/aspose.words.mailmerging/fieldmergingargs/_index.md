@@ -17,6 +17,8 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 
 
 
+### Remarks
+
 The **MergeField** event occurs during mail merge when a simple mail merge
 field is encountered in the document. You can respond to this event to return
 text for the mail merge engine to insert into the document.

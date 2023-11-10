@@ -16,6 +16,17 @@ The default value is [MailMergeDataType.DEFAULT](../../mailmergedatatype/#DEFAUL
 
 
 
+```python
+@property
+def data_type(self) -> aspose.words.settings.MailMergeDataType:
+    ...
+
+@data_type.setter
+def data_type(self, value: aspose.words.settings.MailMergeDataType):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/phoneticguide/base_text/
 Gets base text of the phonetic guide.
 
 
+```python
+@property
+def base_text(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

@@ -15,6 +15,13 @@ Returns the number of [ChartDataLabel](../../chartdatalabel/) in this collection
 
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

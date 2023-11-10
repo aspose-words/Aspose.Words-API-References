@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/underline/
 
 True if the font is underlined.
 
+
+```python
+@property
+def underline(self) -> bool:
+    ...
+
+@underline.setter
+def underline(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

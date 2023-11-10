@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/internal_margin_right/
 
 Specifies the inner right margin in points for a shape.
 
+
+```python
+@property
+def internal_margin_right(self) -> float:
+    ...
+
+@internal_margin_right.setter
+def internal_margin_right(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1/10 inch.
 
 

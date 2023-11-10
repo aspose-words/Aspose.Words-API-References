@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fonts/fontinfo/alt_name/
 
 Gets or sets the alternate name for the font.
 
+
+```python
+@property
+def alt_name(self) -> str:
+    ...
+
+@alt_name.setter
+def alt_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``. Can be an empty string.
 
 

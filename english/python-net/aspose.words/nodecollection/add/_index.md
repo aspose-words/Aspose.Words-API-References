@@ -21,7 +21,9 @@ def add(self, node: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../node/) |  |
+| node | [Node](../../node/) | The node to be added to the end of the collection. |
+
+### Remarks
 
 The node is inserted as a child into the node object from which the collection was created.
 
@@ -39,7 +41,7 @@ The imported node can then be inserted into the current document.
 
 | exception | condition |
 | --- | --- |
-| System.NotSupportedException | The [NodeCollection](../) is a "deep" collection. |
+| RuntimeError (Proxy error(NotSupportedException)) | The [NodeCollection](../) is a "deep" collection. |
 
 ### Examples
 

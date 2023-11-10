@@ -21,10 +21,10 @@ def insert_field(self, field_type: aspose.words.fields.FieldType, update_field: 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_type | [FieldType](../../../aspose.words.fields/fieldtype/) |  |
-| update_field | bool |  |
-| ref_node | [Node](../../node/) |  |
-| is_after | bool |  |
+| field_type | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to insert. |
+| update_field | bool | Specifies whether to update the field immediately. |
+| ref_node | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``None``, then appends to the end of the paragraph). |
+| is_after | bool | Whether to insert the field after or before reference node. |
 
 ### Returns
 
@@ -43,9 +43,9 @@ def insert_field(self, field_code: str, ref_node: aspose.words.Node, is_after: b
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_code | str |  |
-| ref_node | [Node](../../node/) |  |
-| is_after | bool |  |
+| field_code | str | The field code to insert (without curly braces). |
+| ref_node | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``None``, then appends to the end of the paragraph). |
+| is_after | bool | Whether to insert the field after or before reference node. |
 
 ### Returns
 
@@ -64,10 +64,10 @@ def insert_field(self, field_code: str, field_value: str, ref_node: aspose.words
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_code | str |  |
-| field_value | str |  |
-| ref_node | [Node](../../node/) |  |
-| is_after | bool |  |
+| field_code | str | The field code to insert (without curly braces). |
+| field_value | str | The field value to insert. Pass ``None`` for fields that do not have a value. |
+| ref_node | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``None``, then appends to the end of the paragraph). |
+| is_after | bool | Whether to insert the field after or before reference node. |
 
 ### Returns
 

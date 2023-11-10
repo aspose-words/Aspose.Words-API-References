@@ -15,6 +15,20 @@ Signature line identifier.
 Default value is **Empty (all zeroes) Guid**.
 
 
+
+```python
+@property
+def signature_line_id(self) -> uuid.UUID:
+    ...
+
+@signature_line_id.setter
+def signature_line_id(self, value: uuid.UUID):
+    ...
+
+```
+
+### Remarks
+
 When set, it associates [SignatureLine](../../../aspose.words.drawing/signatureline/) with corresponding [DigitalSignature](../../digitalsignature/).
 
 

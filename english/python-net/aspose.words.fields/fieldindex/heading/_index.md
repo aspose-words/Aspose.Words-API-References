@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/heading/
 Gets or sets a heading that appears at the start of each set of entries for any given letter.
 
 
+```python
+@property
+def heading(self) -> str:
+    ...
+
+@heading.setter
+def heading(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.

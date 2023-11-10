@@ -13,6 +13,26 @@ url: /python-net/aspose.words/textwatermarkoptions/font_size/
 
 Gets or sets a font size. The default value is 0 - auto.
 
+
+```python
+@property
+def font_size(self) -> float:
+    ...
+
+@font_size.setter
+def font_size(self, value: float):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when argument was out of the range of valid values. |
+
+### Remarks
+
 Valid values range from 0 to 65.5 inclusive.
 
 Auto font size means that the watermark will be scaled to its max width and max height relative to
@@ -20,8 +40,6 @@ the page margins.
 
 
 
-:raises System.ArgumentOutOfRangeException: Throws when argument was out of the range of valid values.
-                                            
 
 ### Examples
 

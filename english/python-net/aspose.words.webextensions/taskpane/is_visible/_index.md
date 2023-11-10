@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/taskpane/is_visible/
 Specifies whether the task pane shows as visible by default when the document opens.
 
 
+```python
+@property
+def is_visible(self) -> bool:
+    ...
+
+@is_visible.setter
+def is_visible(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

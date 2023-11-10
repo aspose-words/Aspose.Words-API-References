@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/row/row_format/
 Provides access to the formatting properties of the row.
 
 
+```python
+@property
+def row_format(self) -> aspose.words.tables.RowFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the format of rows and cells in a table.

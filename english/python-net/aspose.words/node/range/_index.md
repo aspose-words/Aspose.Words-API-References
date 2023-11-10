@@ -15,6 +15,13 @@ Returns a [Range](../../range/) object that represents the portion of a document
 
 
 
+```python
+@property
+def range(self) -> aspose.words.Range:
+    ...
+
+```
+
 ### Examples
 
 Shows how to delete all the nodes from a range.

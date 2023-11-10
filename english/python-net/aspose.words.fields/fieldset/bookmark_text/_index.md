@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldset/bookmark_text/
 Gets or sets the new text of the bookmark.
 
 
+```python
+@property
+def bookmark_text(self) -> str:
+    ...
+
+@bookmark_text.setter
+def bookmark_text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field.

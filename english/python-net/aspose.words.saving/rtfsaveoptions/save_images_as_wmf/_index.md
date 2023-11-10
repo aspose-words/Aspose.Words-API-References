@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/rtfsaveoptions/save_images_as_wmf/
 When ``True`` all images will be saved as WMF.
 
 
+
+```python
+@property
+def save_images_as_wmf(self) -> bool:
+    ...
+
+@save_images_as_wmf.setter
+def save_images_as_wmf(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This option might help to avoid WordPad warning messages.
 
 

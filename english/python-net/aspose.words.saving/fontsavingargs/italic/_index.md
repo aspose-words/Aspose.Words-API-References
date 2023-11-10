@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/fontsavingargs/italic/
 Indicates whether the current font is italic.
 
 
+```python
+@property
+def italic(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

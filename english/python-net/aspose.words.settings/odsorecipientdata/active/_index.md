@@ -16,6 +16,17 @@ The default value is ``True``.
 
 
 
+```python
+@property
+def active(self) -> bool:
+    ...
+
+@active.setter
+def active(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.

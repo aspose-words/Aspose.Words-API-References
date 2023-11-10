@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/character_unit_left_indent/
 Gets or sets the left indent value (in characters) for the specified paragraphs.
 
 
+```python
+@property
+def character_unit_left_indent(self) -> float:
+    ...
+
+@character_unit_left_indent.setter
+def character_unit_left_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change paragraph spacing and indents.

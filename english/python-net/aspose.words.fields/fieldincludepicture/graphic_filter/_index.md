@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludepicture/graphic_filter/
 Gets or sets the name of the filter for the format of the graphic that is to be inserted.
 
 
+```python
+@property
+def graphic_filter(self) -> str:
+    ...
+
+@graphic_filter.setter
+def graphic_filter(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.

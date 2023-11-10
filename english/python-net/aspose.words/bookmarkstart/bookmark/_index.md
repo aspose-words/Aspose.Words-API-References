@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bookmarkstart/bookmark/
 Gets the facade object that encapsulates this bookmark start and end.
 
 
+```python
+@property
+def bookmark(self) -> aspose.words.Bookmark:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

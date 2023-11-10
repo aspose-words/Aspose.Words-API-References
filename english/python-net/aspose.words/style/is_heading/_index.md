@@ -14,6 +14,13 @@ url: /python-net/aspose.words/style/is_heading/
 True when the style is one of the built-in Heading styles.
 
 
+```python
+@property
+def is_heading(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's style collection.

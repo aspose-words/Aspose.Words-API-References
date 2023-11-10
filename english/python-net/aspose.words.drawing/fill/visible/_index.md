@@ -15,6 +15,17 @@ Gets or sets value that is ``True`` if the formatting applied to this instance, 
 
 
 
+```python
+@property
+def visible(self) -> bool:
+    ...
+
+@visible.setter
+def visible(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows to create a variety of shapes.

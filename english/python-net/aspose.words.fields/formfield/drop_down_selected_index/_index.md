@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/formfield/drop_down_selected_index/
 Gets or sets the index specifying the currently selected item in a dropdown form field.
 
 
+```python
+@property
+def drop_down_selected_index(self) -> int:
+    ...
+
+@drop_down_selected_index.setter
+def drop_down_selected_index(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

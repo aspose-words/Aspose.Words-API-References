@@ -15,6 +15,17 @@ Whether [BarcodeParameters.postal_address](../postal_address/) is the name of a 
 
 
 
+```python
+@property
+def is_bookmark(self) -> bool:
+    ...
+
+@is_bookmark.setter
+def is_bookmark(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

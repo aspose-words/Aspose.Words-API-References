@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shapebase/shape_type/
 Gets the shape type.
 
 
+```python
+@property
+def shape_type(self) -> aspose.words.drawing.ShapeType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/suppress_spacing_at_
 Ignore Minimum Line Height for First Line on Page.
 
 
+```python
+@property
+def suppress_spacing_at_top_of_page(self) -> bool:
+    ...
+
+@suppress_spacing_at_top_of_page.setter
+def suppress_spacing_at_top_of_page(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

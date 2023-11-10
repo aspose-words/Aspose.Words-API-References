@@ -15,6 +15,20 @@ Gets or sets a value indicating whether the [PageSetup.section_start](../../../a
 are retained during mail merge or updated according to MS Word behaviour.
 
 
+
+```python
+@property
+def retain_first_section_start(self) -> bool:
+    ...
+
+@retain_first_section_start.setter
+def retain_first_section_start(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``True``.
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldcitation/prefix/
 Gets or sets a prefix that is prepended to the citation.
 
 
+```python
+@property
+def prefix(self) -> str:
+    ...
+
+@prefix.setter
+def prefix(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/hidden/
 True if the font is formatted as hidden text.
 
 
+```python
+@property
+def hidden(self) -> bool:
+    ...
+
+@hidden.setter
+def hidden(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a run of hidden text.

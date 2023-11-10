@@ -12,10 +12,24 @@ url: /python-net/aspose.words.notes/footnote/reference_mark/
 ## Footnote.reference_mark property
 
 Gets/sets custom reference mark to be used for this footnote.
-Default value is **empty string** (System.String.Empty), meaning auto-numbered footnotes are used.
+Default value is **empty string** (), meaning auto-numbered footnotes are used.
 
 
-If this property is set to **empty string** (System.String.Empty) or ``None``, then [Footnote.is_auto](../is_auto/) property will automatically be set to ``True``, 
+
+```python
+@property
+def reference_mark(self) -> str:
+    ...
+
+@reference_mark.setter
+def reference_mark(self, value: str):
+    ...
+
+```
+
+### Remarks
+
+If this property is set to **empty string** () or ``None``, then [Footnote.is_auto](../is_auto/) property will automatically be set to ``True``, 
 if set to anything else then [Footnote.is_auto](../is_auto/) will be set to ``False``.
 
 

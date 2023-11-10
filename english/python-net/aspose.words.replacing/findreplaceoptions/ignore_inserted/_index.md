@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def ignore_inserted(self) -> bool:
+    ...
+
+@ignore_inserted.setter
+def ignore_inserted(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to include or ignore text inside insert revisions during a find-and-replace operation.

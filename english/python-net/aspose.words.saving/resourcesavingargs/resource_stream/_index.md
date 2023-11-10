@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/resourcesavingargs/resource_stream/
 
 Allows to specify the stream where the resource will be saved to.
 
+
+```python
+@property
+def resource_stream(self) -> io.BytesIO:
+    ...
+
+@resource_stream.setter
+def resource_stream(self, value: io.BytesIO):
+    ...
+
+```
+
+### Remarks
+
 This property allows you to save resources to streams instead of files.
 
 The default value is ``None``. When this property is ``None``, the resource 

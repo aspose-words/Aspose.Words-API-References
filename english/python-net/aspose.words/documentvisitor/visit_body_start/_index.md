@@ -21,7 +21,7 @@ def visit_body_start(self, body: aspose.words.Body):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| body | [Body](../../body/) |  |
+| body | [Body](../../body/) | The object that is being visited. |
 
 ### Returns
 

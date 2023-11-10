@@ -21,7 +21,7 @@ def remove(self, document_field_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document_field_name | str |  |
+| document_field_name | str | Case-sensitive name of the mail merge field in the document. |
 
 ### Examples
 

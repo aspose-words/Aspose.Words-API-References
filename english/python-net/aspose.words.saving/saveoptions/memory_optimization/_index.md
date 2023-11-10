@@ -15,6 +15,20 @@ Gets or sets value determining if memory optimization should be performed before
 Default value for this property is ``False``.
 
 
+
+```python
+@property
+def memory_optimization(self) -> bool:
+    ...
+
+@memory_optimization.setter
+def memory_optimization(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Setting this option to ``True`` can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 

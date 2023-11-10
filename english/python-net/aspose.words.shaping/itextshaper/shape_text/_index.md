@@ -12,7 +12,7 @@ url: /python-net/aspose.words.shaping/itextshaper/shape_text/
 ## shape_text(runs, direction, script, font_features) {#strlist_direction_unicodescript_fontfeaturelist}
 
 Returns [Cluster](../../cluster/) objects generated from a sequence of text fragments.
-Length of the returned array is equal to length of .
+Length of the returned array is equal to length of *runs*.
 If run at an index has corresponding clusters then result at the same index will have them recorded.
 
 
@@ -23,10 +23,10 @@ def shape_text(self, runs: List[str], direction: aspose.words.shaping.Direction,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| runs | List[str] |  |
-| direction | [Direction](../../direction/) |  |
-| script | [UnicodeScript](../../unicodescript/) |  |
-| font_features | List[[FontFeature](../../fontfeature/)] |  |
+| runs | List[str] | A sequence of text fragments |
+| direction | [Direction](../../direction/) | A direction of text |
+| script | [UnicodeScript](../../unicodescript/) | A script |
+| font_features | List[[FontFeature](../../fontfeature/)] | A set of features to consider |
 
 ### See Also
 

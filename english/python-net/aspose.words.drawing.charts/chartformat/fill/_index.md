@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartformat/fill/
 Gets fill formatting for the parent chart element.
 
 
+```python
+@property
+def fill(self) -> aspose.words.drawing.Fill:
+    ...
+
+```
+
 ### Examples
 
 Show how to set marker formatting.

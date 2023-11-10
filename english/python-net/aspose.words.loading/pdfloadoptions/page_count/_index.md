@@ -14,6 +14,17 @@ url: /python-net/aspose.words.loading/pdfloadoptions/page_count/
 Gets or sets the number of pages to read. Default is MaxValue which means all pages of the document will be read.
 
 
+```python
+@property
+def page_count(self) -> int:
+    ...
+
+@page_count.setter
+def page_count(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

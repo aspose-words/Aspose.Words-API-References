@@ -15,6 +15,20 @@ Allows to specify [PageSetup.text_orientation](./) for the whole page.
 Default value is [TextOrientation.HORIZONTAL](../../textorientation/#HORIZONTAL)
 
 
+
+```python
+@property
+def text_orientation(self) -> aspose.words.TextOrientation:
+    ...
+
+@text_orientation.setter
+def text_orientation(self, value: aspose.words.TextOrientation):
+    ...
+
+```
+
+### Remarks
+
 This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
 
 

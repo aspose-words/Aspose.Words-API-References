@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/fontsettings/fallback_settings/
 Settings related to font fallback mechanism.
 
 
+```python
+@property
+def fallback_settings(self) -> aspose.words.fonts.FontFallbackSettings:
+    ...
+
+```
+
 ### Examples
 
 Shows how to distribute fallback fonts across Unicode character code ranges.

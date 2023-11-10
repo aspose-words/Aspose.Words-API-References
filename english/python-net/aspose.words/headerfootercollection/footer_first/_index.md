@@ -14,6 +14,13 @@ url: /python-net/aspose.words/headerfootercollection/footer_first/
 Retrieves a footer for the first page of the section.
 
 
+```python
+@property
+def footer_first(self) -> aspose.words.HeaderFooter:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

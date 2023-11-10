@@ -19,6 +19,8 @@ def clear_content(self):
     ...
 ```
 
+### Remarks
+
 The text of [Section.body](../body/) is cleared, only one empty paragraph is left that represents the section break.
 
 The text of all headers and footers is cleared, but [HeaderFooter](../../headerfooter/) objects themselves are not removed.

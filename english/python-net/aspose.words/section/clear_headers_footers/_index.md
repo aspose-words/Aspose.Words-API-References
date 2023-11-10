@@ -19,6 +19,8 @@ def clear_headers_footers(self):
     ...
 ```
 
+### Remarks
+
 The text of all headers and footers is cleared, but [HeaderFooter](../../headerfooter/) objects themselves are not removed.
 
 This makes headers and footers of this section linked to headers and footers of the previous section.

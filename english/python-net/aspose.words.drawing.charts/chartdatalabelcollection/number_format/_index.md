@@ -16,6 +16,13 @@ entire series.
 
 
 
+```python
+@property
+def number_format(self) -> aspose.words.drawing.charts.ChartNumberFormat:
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable and configure data labels for a chart series.

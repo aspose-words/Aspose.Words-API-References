@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/color/
 Gets or sets the color of the font.
 
 
+```python
+@property
+def color(self) -> aspose.pydrawing.Color:
+    ...
+
+@color.setter
+def color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert formatted text using DocumentBuilder.

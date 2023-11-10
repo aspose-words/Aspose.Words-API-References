@@ -13,6 +13,20 @@ url: /python-net/aspose.words.markup/smarttag/uri/
 
 Specifies the namespace URI of the smart tag.
 
+
+```python
+@property
+def uri(self) -> str:
+    ...
+
+@uri.setter
+def uri(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``.
 
 Default is empty string.

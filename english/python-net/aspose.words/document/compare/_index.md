@@ -16,15 +16,17 @@ Compares this document with another document producing changes as number of edit
 
 
 ```python
-def compare(self, document: aspose.words.Document, author: str, date_time: datetime):
+def compare(self, document: aspose.words.Document, author: str, date_time: datetime.datetime):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../) |  |
-| author | str |  |
-| date_time | datetime |  |
+| document | [Document](../) | Document to compare. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+
+### Remarks
 
 > **NOTE**
 >
@@ -41,7 +43,7 @@ Allows to specify comparison options using [CompareOptions](../../../aspose.word
 
 
 ```python
-def compare(self, document: aspose.words.Document, author: str, date_time: datetime, options: aspose.words.comparing.CompareOptions):
+def compare(self, document: aspose.words.Document, author: str, date_time: datetime.datetime, options: aspose.words.comparing.CompareOptions):
     ...
 ```
 
@@ -49,7 +51,7 @@ def compare(self, document: aspose.words.Document, author: str, date_time: datet
 | --- | --- | --- |
 | document | [Document](../) |  |
 | author | str |  |
-| date_time | datetime |  |
+| date_time | datetime.datetime |  |
 | options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) |  |
 
 ## Examples

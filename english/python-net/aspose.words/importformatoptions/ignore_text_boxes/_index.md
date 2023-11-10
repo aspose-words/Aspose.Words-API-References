@@ -17,6 +17,17 @@ The default value is ``True``.
 
 
 
+```python
+@property
+def ignore_text_boxes(self) -> bool:
+    ...
+
+@ignore_text_boxes.setter
+def ignore_text_boxes(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to manage text box formatting while appending a document.

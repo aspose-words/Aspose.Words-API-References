@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/table/rows/
 Provides typed access to the rows of the table.
 
 
+```python
+@property
+def rows(self) -> aspose.words.tables.RowCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.

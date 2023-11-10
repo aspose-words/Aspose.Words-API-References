@@ -18,6 +18,8 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 
 
 
+### Remarks
+
 This is implemented as a collection of string keys into string values.
 The keys are the names of mail merge fields in the document and the values
 are the names of fields in your data source.

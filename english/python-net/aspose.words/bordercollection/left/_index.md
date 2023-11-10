@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bordercollection/left/
 Gets the left border.
 
 
+```python
+@property
+def left(self) -> aspose.words.Border:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply border and shading color while building a table.

@@ -15,6 +15,17 @@ Gets or sets a flag indicating that Microsoft Word will remove all user informat
 document properties upon saving the document.
 
 
+```python
+@property
+def remove_personal_information(self) -> bool:
+    ...
+
+@remove_personal_information.setter
+def remove_personal_information(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable the removal of personal information during a manual save.

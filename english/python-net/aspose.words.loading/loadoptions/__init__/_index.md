@@ -31,7 +31,7 @@ def __init__(self, password: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | str |  |
+| password | str | The password to open an encrypted document. Can be ``None`` or empty string. |
 
 ## LoadOptions(load_format, password, base_uri) {#loadformat_str_str}
 
@@ -45,9 +45,9 @@ def __init__(self, load_format: aspose.words.LoadFormat, password: str, base_uri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| load_format | [LoadFormat](../../../aspose.words/loadformat/) |  |
-| password | str |  |
-| base_uri | str |  |
+| load_format | [LoadFormat](../../../aspose.words/loadformat/) | The format of the document to be loaded. |
+| password | str | The password to open an encrypted document. Can be ``None`` or empty string. |
+| base_uri | str | The string that will be used to resolve relative URIs to absolute. Can be ``None`` or empty string. |
 
 ## Examples
 

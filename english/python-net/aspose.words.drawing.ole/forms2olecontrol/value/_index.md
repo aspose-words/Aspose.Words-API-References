@@ -16,6 +16,13 @@ For example checked option button has '1' value while unchecked has '0'.
 Default value is an empty string.
 
 
+```python
+@property
+def value(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

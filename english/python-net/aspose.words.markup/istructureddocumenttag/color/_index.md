@@ -14,6 +14,17 @@ url: /python-net/aspose.words.markup/istructureddocumenttag/color/
 Gets or sets the color of the structured document tag.
 
 
+```python
+@property
+def color(self) -> aspose.pydrawing.Color:
+    ...
+
+@color.setter
+def color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

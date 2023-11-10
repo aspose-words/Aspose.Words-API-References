@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/documentpartsavingargs/keep_document_part_s
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
 
+
+```python
+@property
+def keep_document_part_stream_open(self) -> bool:
+    ...
+
+@keep_document_part_stream_open.setter
+def keep_document_part_stream_open(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default is ``False`` and Aspose.Words will close the stream you provided
 in the [DocumentPartSavingArgs.document_part_stream](../document_part_stream/) property after writing a document part into it.
 Specify ``True`` to keep the stream open. Please note that the main output stream 

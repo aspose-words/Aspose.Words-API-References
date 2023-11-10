@@ -15,6 +15,13 @@ Horizontal (x) offset relative to glyph position.
 Mostly used to attach marks (like diacritics) to base characters.
 
 
+```python
+@property
+def advance_offset(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.shaping](../../)

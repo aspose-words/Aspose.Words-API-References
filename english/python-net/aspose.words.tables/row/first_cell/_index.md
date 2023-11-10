@@ -15,6 +15,13 @@ Returns the first [Cell](../../cell/) in the row.
 
 
 
+```python
+@property
+def first_cell(self) -> aspose.words.tables.Cell:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the node structure of every table in a document.

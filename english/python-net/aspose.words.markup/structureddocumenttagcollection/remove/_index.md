@@ -21,7 +21,7 @@ def remove(self, id: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | int |  |
+| id | int | The structured document tag identifier. |
 
 ### See Also
 

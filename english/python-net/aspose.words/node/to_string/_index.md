@@ -40,7 +40,7 @@ def to_string(self, save_options: aspose.words.saving.SaveOptions):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) |  |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | Specifies the options that control how the node is saved. |
 
 ### Returns
 

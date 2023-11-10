@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shape/stroke/
 Defines a stroke for a shape.
 
 
+```python
+@property
+def stroke(self) -> aspose.words.drawing.Stroke:
+    ...
+
+```
+
 ### Examples
 
 Shows to create a variety of shapes.

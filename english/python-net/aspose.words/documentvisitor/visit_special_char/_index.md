@@ -22,7 +22,9 @@ def visit_special_char(self, special_char: aspose.words.SpecialChar):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| special_char | [SpecialChar](../../specialchar/) |  |
+| special_char | [SpecialChar](../../specialchar/) | The object that is being visited. |
+
+### Remarks
 
 This method is not be called for generic control characters (see [ControlChar](../../controlchar/)) that can be present in the document.
 

@@ -15,6 +15,13 @@ Provides access to the OLE data of a shape. For a shape that is not an OLE objec
 
 
 
+```python
+@property
+def ole_format(self) -> aspose.words.drawing.OleFormat:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

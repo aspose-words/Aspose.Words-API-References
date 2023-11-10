@@ -13,6 +13,16 @@ url: /python-net/aspose.words.lists/list/document/
 
 Gets the owner document.
 
+
+```python
+@property
+def document(self) -> aspose.words.DocumentBase:
+    ...
+
+```
+
+### Remarks
+
 A list always has a parent document and is valid only in the context of that document.
 
 

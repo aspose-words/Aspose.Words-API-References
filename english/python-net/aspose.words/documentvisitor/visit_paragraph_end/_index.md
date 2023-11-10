@@ -21,7 +21,7 @@ def visit_paragraph_end(self, paragraph: aspose.words.Paragraph):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paragraph | [Paragraph](../../paragraph/) |  |
+| paragraph | [Paragraph](../../paragraph/) | The object that is being visited. |
 
 ### Returns
 

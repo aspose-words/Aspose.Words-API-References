@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/dropdownitemcollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.

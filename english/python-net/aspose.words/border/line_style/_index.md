@@ -13,6 +13,20 @@ url: /python-net/aspose.words/border/line_style/
 
 Gets or sets the border style.
 
+
+```python
+@property
+def line_style(self) -> aspose.words.LineStyle:
+    ...
+
+@line_style.setter
+def line_style(self, value: aspose.words.LineStyle):
+    ...
+
+```
+
+### Remarks
+
 If you set line style to none, then line width is automatically changed to zero.
 
 

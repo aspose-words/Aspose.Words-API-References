@@ -15,6 +15,20 @@ Gets/Sets current state of the Checkbox **SDT**.
 Default value for this property is ``False``.
 
 
+
+```python
+@property
+def checked(self) -> bool:
+    ...
+
+@checked.setter
+def checked(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Accessing this property will only work for [SdtType.CHECKBOX](../../sdttype/#CHECKBOX)
 SDT types.
 

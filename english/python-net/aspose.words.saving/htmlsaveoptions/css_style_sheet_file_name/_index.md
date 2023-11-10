@@ -15,6 +15,20 @@ Specifies the path and the name of the Cascading Style Sheet (CSS) file written 
 is exported to HTML.
 Default is an empty string.
 
+
+```python
+@property
+def css_style_sheet_file_name(self) -> str:
+    ...
+
+@css_style_sheet_file_name.setter
+def css_style_sheet_file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving a document to HTML format 
 and external CSS style sheet is requested using [HtmlSaveOptions.css_style_sheet_type](../css_style_sheet_type/).
 

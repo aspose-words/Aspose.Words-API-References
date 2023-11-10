@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing/imagedata/image_size/
 
 Gets the information about image size and resolution.
 
+
+```python
+@property
+def image_size(self) -> aspose.words.drawing.ImageSize:
+    ...
+
+```
+
+### Remarks
+
 If the image is linked only and not stored in the document, returns zero size.
 
 

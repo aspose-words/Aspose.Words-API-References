@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/field_update_culture_source/
 
 Specifies what culture to use to format the field result.
 
+
+```python
+@property
+def field_update_culture_source(self) -> aspose.words.fields.FieldUpdateCultureSource:
+    ...
+
+@field_update_culture_source.setter
+def field_update_culture_source(self, value: aspose.words.fields.FieldUpdateCultureSource):
+    ...
+
+```
+
+### Remarks
+
 By default, the culture of the current thread is used.
 
 The setting affects only date/time fields with \\\\@ format switch.

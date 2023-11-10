@@ -13,6 +13,20 @@ url: /python-net/aspose.words/node/custom_node_id/
 
 Specifies custom node identifier.
 
+
+```python
+@property
+def custom_node_id(self) -> int:
+    ...
+
+@custom_node_id.setter
+def custom_node_id(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Default is zero.
 
 This identifier can be set and used arbitrarily. For example, as a key to get external data.

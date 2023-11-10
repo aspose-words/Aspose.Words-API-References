@@ -16,6 +16,17 @@ Default value is [RevisionTextEffect.STRIKE_THROUGH](../../revisiontexteffect/#S
 
 
 
+```python
+@property
+def deleted_text_effect(self) -> aspose.words.layout.RevisionTextEffect:
+    ...
+
+@deleted_text_effect.setter
+def deleted_text_effect(self, value: aspose.words.layout.RevisionTextEffect):
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

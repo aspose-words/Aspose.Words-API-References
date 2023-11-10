@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldinclude/bookmark_name/
 Gets or sets the name of the bookmark in the document to include.
 
 
+```python
+@property
+def bookmark_name(self) -> str:
+    ...
+
+@bookmark_name.setter
+def bookmark_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDE field, and set its properties.

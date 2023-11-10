@@ -21,8 +21,10 @@ def merge(self, output_file: str, input_files: List[str]):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output_file | str |  |
-| input_files | List[str] |  |
+| output_file | str | The output file name. |
+| input_files | List[str] | The input file names. |
+
+### Remarks
 
 By default [MergeFormatMode.KEEP_SOURCE_FORMATTING](../../mergeformatmode/#KEEP_SOURCE_FORMATTING) is used.
 
@@ -41,10 +43,10 @@ def merge(self, output_file: str, input_files: List[str], save_format: aspose.wo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output_file | str |  |
-| input_files | List[str] |  |
-| save_format | [SaveFormat](../../../aspose.words/saveformat/) |  |
-| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) |  |
+| output_file | str | The output file name. |
+| input_files | List[str] | The input file names. |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
 
 ## merge(output_file, input_files, save_options, merge_format_mode) {#str_strlist_saveoptions_mergeformatmode}
 
@@ -58,10 +60,10 @@ def merge(self, output_file: str, input_files: List[str], save_options: aspose.w
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output_file | str |  |
-| input_files | List[str] |  |
-| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) |  |
-| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) |  |
+| output_file | str | The output file name. |
+| input_files | List[str] | The input file names. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
 
 ## merge(input_files, merge_format_mode) {#strlist_mergeformatmode}
 
@@ -76,8 +78,8 @@ def merge(self, input_files: List[str], merge_format_mode: aspose.words.lowcode.
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input_files | List[str] |  |
-| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) |  |
+| input_files | List[str] | The input file names. |
+| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
 
 ## See Also
 

@@ -17,6 +17,8 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 
 
 
+### Remarks
+
 You do not normally need to create instances of this class. You access custom parts 
 related to the OOXML package via the [Document.package_custom_parts](../../aspose.words/document/package_custom_parts/) property.
 

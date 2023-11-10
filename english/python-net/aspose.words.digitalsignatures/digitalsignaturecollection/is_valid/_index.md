@@ -17,6 +17,13 @@ Returns ``False`` if at least one digital signature is invalid.
 
 
 
+```python
+@property
+def is_valid(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign documents with X.509 certificates.

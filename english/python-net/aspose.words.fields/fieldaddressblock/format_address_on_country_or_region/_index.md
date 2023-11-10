@@ -15,6 +15,17 @@ Gets or sets whether to format the address according to the country/region of th
 as defined by POST\*CODE (Universal Postal Union 2006).
 
 
+```python
+@property
+def format_address_on_country_or_region(self) -> bool:
+    ...
+
+@format_address_on_country_or_region.setter
+def format_address_on_country_or_region(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert an ADDRESSBLOCK field.

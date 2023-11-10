@@ -19,6 +19,8 @@ def to_bool(self):
     ...
 ```
 
+### Remarks
+
 Throws an exception if the property type is not [PropertyType.BOOLEAN](../../propertytype/#BOOLEAN).
 
 

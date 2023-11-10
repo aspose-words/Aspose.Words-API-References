@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/cell_spacing/
 Gets or sets the amount of space (in points) between the cells.
 
 
+```python
+@property
+def cell_spacing(self) -> float:
+    ...
+
+@cell_spacing.setter
+def cell_spacing(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable spacing between individual cells in a table.

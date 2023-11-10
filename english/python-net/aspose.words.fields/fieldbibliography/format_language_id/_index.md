@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldbibliography/format_language_id/
 Gets or sets the language ID that is used to format the bibliographic sources in the document.
 
 
+```python
+@property
+def format_language_id(self) -> str:
+    ...
+
+@format_language_id.setter
+def format_language_id(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.

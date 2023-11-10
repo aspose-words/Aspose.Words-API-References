@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cell/is_last_cell/
 True if this is the last cell inside a row; false otherwise.
 
 
+```python
+@property
+def is_last_cell(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the node structure of every table in a document.

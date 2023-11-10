@@ -15,14 +15,14 @@ Merges the given input PDF documents into a single output PDF document using spe
 
 
 ```python
-def merge(self, output_stream: BytesIO, input_streams: List[BytesIO]):
+def merge(self, output_stream: io.BytesIO, input_streams: List[io.BytesIO]):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output_stream | BytesIO |  |
-| input_streams | List[BytesIO] |  |
+| output_stream | io.BytesIO | The output stream. |
+| input_streams | List[io.BytesIO] | The input streams. |
 
 ### See Also
 

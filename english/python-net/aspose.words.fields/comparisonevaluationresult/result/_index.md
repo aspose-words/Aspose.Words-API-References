@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/comparisonevaluationresult/result/
 Gets the comparison evaluation result.
 
 
+```python
+@property
+def result(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

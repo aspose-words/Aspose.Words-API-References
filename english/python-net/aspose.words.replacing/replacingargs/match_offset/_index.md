@@ -15,6 +15,13 @@ Gets the zero-based starting position of the match from the start of
 the node that contains the beginning of the match.
 
 
+```python
+@property
+def match_offset(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

@@ -21,8 +21,10 @@ def insert_field(self, field_type: aspose.words.fields.FieldType, update_field: 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_type | [FieldType](../../../aspose.words.fields/fieldtype/) |  |
-| update_field | bool |  |
+| field_type | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to append. |
+| update_field | bool | Specifies whether to update the field immediately. |
+
+### Remarks
 
 This method inserts a field into a document.
 Aspose.Words can update fields of most types, but not all. For more details see the
@@ -48,7 +50,9 @@ def insert_field(self, field_code: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_code | str |  |
+| field_code | str | The field code to insert (without curly braces). |
+
+### Remarks
 
 This method inserts a field into a document and updates the field result immediately.
 Aspose.Words can update fields of most types, but not all. For more details see the
@@ -74,8 +78,10 @@ def insert_field(self, field_code: str, field_value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_code | str |  |
-| field_value | str |  |
+| field_code | str | The field code to insert (without curly braces). |
+| field_value | str | The field value to insert. Pass ``None`` for fields that do not have a value. |
+
+### Remarks
 
 Fields in Microsoft Word documents consist of a field code and a field result.
 The field code is like a formula and the field result is like the value that

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/print_body_text_befo
 Print Body Text before Header/Footer Contents.
 
 
+```python
+@property
+def print_body_text_before_header(self) -> bool:
+    ...
+
+@print_body_text_before_header.setter
+def print_body_text_before_header(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

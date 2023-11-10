@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/axisscaling/log_base/
 
 Gets or sets the logarithmic base for a logarithmic axis.
 
+
+```python
+@property
+def log_base(self) -> float:
+    ...
+
+@log_base.setter
+def log_base(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The property is not supported by MS Office 2016 new charts.
 
 Valid range of a floating point value is greater than or equal to 2 and less than or 

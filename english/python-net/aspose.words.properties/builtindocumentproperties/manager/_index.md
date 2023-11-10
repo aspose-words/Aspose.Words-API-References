@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/manager/
 Gets or sets the manager property.
 
 
+```python
+@property
+def manager(self) -> str:
+    ...
+
+@manager.setter
+def manager(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with document properties in the "Origin" category.

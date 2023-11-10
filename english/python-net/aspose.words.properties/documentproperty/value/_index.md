@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/documentproperty/value/
 
 Gets or sets the value of the property.
 
+
+```python
+@property
+def value(self) -> object:
+    ...
+
+@value.setter
+def value(self, value: object):
+    ...
+
+```
+
+### Remarks
+
 Cannot be ``None``.
 
 

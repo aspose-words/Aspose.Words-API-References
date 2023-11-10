@@ -21,7 +21,9 @@ def move_to(self, node: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../node/) |  |
+| node | [Node](../../node/) | The node must be a paragraph or a direct child of a paragraph. |
+
+### Remarks
 
 When *node* is an inline-level node, the cursor is moved to this node
 and further content will be inserted before that node.

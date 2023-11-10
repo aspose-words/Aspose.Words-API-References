@@ -13,6 +13,16 @@ url: /python-net/aspose.words.saving/outlineoptions/bookmarks_outline_levels/
 
 Allows to specify individual bookmarks outline level.
 
+
+```python
+@property
+def bookmarks_outline_levels(self) -> aspose.words.saving.BookmarksOutlineLevelCollection:
+    ...
+
+```
+
+### Remarks
+
 If bookmark level is not specified in this collection then [OutlineOptions.default_bookmarks_outline_level](../default_bookmarks_outline_level/) value is used.
 
 

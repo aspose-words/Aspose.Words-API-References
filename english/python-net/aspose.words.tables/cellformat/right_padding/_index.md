@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/cellformat/right_padding/
 Returns or sets the amount of space (in points) to add to the right of the contents of cell.
 
 
+```python
+@property
+def right_padding(self) -> float:
+    ...
+
+@right_padding.setter
+def right_padding(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format cells with a document builder.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/anchor_locked/
 
 Specifies whether the shape's anchor is locked.
 
+
+```python
+@property
+def anchor_locked(self) -> bool:
+    ...
+
+@anchor_locked.setter
+def anchor_locked(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 Has effect only for top level shapes.

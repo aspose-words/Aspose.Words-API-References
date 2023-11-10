@@ -15,6 +15,13 @@ Retrieves the parent [Paragraph](../../paragraph/) of this node.
 
 
 
+```python
+@property
+def parent_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert InlineStory nodes.

@@ -21,7 +21,7 @@ def create_save_options(self, save_format: aspose.words.SaveFormat):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| save_format | [SaveFormat](../../../aspose.words/saveformat/) |  |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format for which to create a save options object. |
 
 ### Returns
 
@@ -40,7 +40,7 @@ def create_save_options(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | The extension of this file name determines the class of the save options object to create. |
 
 ### Returns
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/axisscaling/type/
 
 Gets or sets scaling type of the axis.
 
+
+```python
+@property
+def type(self) -> aspose.words.drawing.charts.AxisScaleType:
+    ...
+
+@type.setter
+def type(self, value: aspose.words.drawing.charts.AxisScaleType):
+    ...
+
+```
+
+### Remarks
+
 The [AxisScaleType.LINEAR](../../axisscaletype/#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
 
 

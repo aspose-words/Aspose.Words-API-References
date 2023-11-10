@@ -21,9 +21,11 @@ def insert_hyperlink(self, display_text: str, url_or_bookmark: str, is_bookmark:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| display_text | str |  |
-| url_or_bookmark | str |  |
-| is_bookmark | bool |  |
+| display_text | str | Text of the link to be displayed in the document. |
+| url_or_bookmark | str | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
+| is_bookmark | bool | ``True`` if the previous parameter is a name of a bookmark inside the document; ``False`` is the previous parameter is a URL. |
+
+### Remarks
 
 Note that you need to specify font formatting for the hyperlink display text explicitly
 using the [DocumentBuilder.font](../font/) property.

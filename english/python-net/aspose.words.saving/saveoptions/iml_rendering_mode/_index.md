@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/saveoptions/iml_rendering_mode/
 
 Gets or sets a value determining how ink (InkML) objects are rendered.
 
+
+```python
+@property
+def iml_rendering_mode(self) -> aspose.words.saving.ImlRenderingMode:
+    ...
+
+@iml_rendering_mode.setter
+def iml_rendering_mode(self, value: aspose.words.saving.ImlRenderingMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ImlRenderingMode.INK_ML](../../imlrenderingmode/#INK_ML).
 This property is used when the document is exported to fixed page formats.
 

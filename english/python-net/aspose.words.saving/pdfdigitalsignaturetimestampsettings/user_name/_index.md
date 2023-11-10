@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/user_n
 
 Timestamp server user name.
 
+
+```python
+@property
+def user_name(self) -> str:
+    ...
+
+@user_name.setter
+def user_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``None``.
 
 

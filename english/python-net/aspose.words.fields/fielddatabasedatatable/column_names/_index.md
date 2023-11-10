@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fielddatabasedatatable/column_names/
 Gets columns that belong to this table.
 
 
+```python
+@property
+def column_names(self) -> List[str]:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

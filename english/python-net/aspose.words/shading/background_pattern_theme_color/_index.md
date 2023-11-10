@@ -15,6 +15,17 @@ Gets or sets the background pattern theme color in the applied color scheme that
 
 
 
+```python
+@property
+def background_pattern_theme_color(self) -> aspose.words.themes.ThemeColor:
+    ...
+
+@background_pattern_theme_color.setter
+def background_pattern_theme_color(self, value: aspose.words.themes.ThemeColor):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set foreground and background colors for shading texture.

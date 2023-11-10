@@ -17,6 +17,8 @@ To learn more, visit the [Work with Document Properties](https://docs.aspose.com
 
 
 
+### Remarks
+
 The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.

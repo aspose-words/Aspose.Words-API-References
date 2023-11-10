@@ -14,6 +14,17 @@ url: /python-net/aspose.words/hyphenation/warning_callback/
 Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
 
 
+```python
+@property
+def warning_callback(self) -> aspose.words.IWarningCallback:
+    ...
+
+@warning_callback.setter
+def warning_callback(self, value: aspose.words.IWarningCallback):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

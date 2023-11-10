@@ -21,7 +21,7 @@ def has_dml_effect(self, dml_effect_type: aspose.words.TextDmlEffect):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dml_effect_type | [TextDmlEffect](../../textdmleffect/) |  |
+| dml_effect_type | [TextDmlEffect](../../textdmleffect/) | DrawingML text effect type. |
 
 ### Returns
 

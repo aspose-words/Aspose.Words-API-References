@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldmergefield/field_name_no_prefix/
 Returns just the name of the data field. Any prefix is stripped to the prefix property.
 
 
+```python
+@property
+def field_name_no_prefix(self) -> str:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

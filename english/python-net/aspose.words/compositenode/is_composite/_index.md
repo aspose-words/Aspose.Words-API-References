@@ -15,6 +15,13 @@ Returns ``True`` as this node can have child nodes.
 
 
 
+```python
+@property
+def is_composite(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to traverse a composite node's tree of child nodes.

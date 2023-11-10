@@ -14,6 +14,13 @@ url: /python-net/aspose.words/textcolumncollection/count/
 Gets the number of columns in the section of a document.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

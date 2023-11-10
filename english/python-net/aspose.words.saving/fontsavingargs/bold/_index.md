@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/fontsavingargs/bold/
 Indicates whether the current font is bold.
 
 
+```python
+@property
+def bold(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

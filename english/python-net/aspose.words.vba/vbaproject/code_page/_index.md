@@ -13,6 +13,20 @@ url: /python-net/aspose.words.vba/vbaproject/code_page/
 
 Gets or sets the VBA project’s code page.
 
+
+```python
+@property
+def code_page(self) -> int:
+    ...
+
+@code_page.setter
+def code_page(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Please note that VBA is pre-Unicode feature and you have to explicitly set appropriate code page
 to preserve regional character sets.
 

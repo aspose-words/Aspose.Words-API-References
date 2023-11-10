@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/memoryfontsource/type/
 Returns the type of the font source.
 
 
+```python
+@property
+def type(self) -> aspose.words.fonts.FontSourceType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use a byte array with data from a font file as a font source.

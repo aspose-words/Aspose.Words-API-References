@@ -17,6 +17,13 @@ In case of OLE object is not embedded as icon or caption couldn't be retrieved r
 
 
 
+```python
+@property
+def icon_caption(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert linked and unlinked OLE objects.

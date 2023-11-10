@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldoptions/current_user/
 Gets or sets the current user information.
 
 
+```python
+@property
+def current_user(self) -> aspose.words.fields.UserInformation:
+    ...
+
+@current_user.setter
+def current_user(self, value: aspose.words.fields.UserInformation):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set user details, and display them using fields.

@@ -20,6 +20,8 @@ def to_date_time(self):
     ...
 ```
 
+### Remarks
+
 Throws an exception if the property type is not [PropertyType.DATE_TIME](../../propertytype/#DATE_TIME).
 
 Microsoft Word stores only the date part (no time) for custom date properties.

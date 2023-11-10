@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing/fill/texture_alignment/
 Gets or sets the alignment for tile texture fill.
 
 
+```python
+@property
+def texture_alignment(self) -> aspose.words.drawing.TextureAlignment:
+    ...
+
+@texture_alignment.setter
+def texture_alignment(self, value: aspose.words.drawing.TextureAlignment):
+    ...
+
+```
+
 ### Examples
 
 Shows how to fill and tiling the texture inside the shape.

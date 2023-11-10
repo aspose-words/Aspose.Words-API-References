@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/chapter_page_separator/
 
 Gets or sets the separator character that appears between the chapter number and the page number.
 
+
+```python
+@property
+def chapter_page_separator(self) -> aspose.words.ChapterPageSeparator:
+    ...
+
+@chapter_page_separator.setter
+def chapter_page_separator(self, value: aspose.words.ChapterPageSeparator):
+    ...
+
+```
+
+### Remarks
+
 Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
 
 

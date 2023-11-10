@@ -14,6 +14,16 @@ url: /python-net/aspose.words.tables/row/previous_row/
 Gets the previous [Row](../) node.
 
 
+
+```python
+@property
+def previous_row(self) -> aspose.words.tables.Row:
+    ...
+
+```
+
+### Remarks
+
 The method can be used when you need to have typed access to table rows. If a
 [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) node is found in a table instead of a row,
 it is automatically traversed to get a row contained within.

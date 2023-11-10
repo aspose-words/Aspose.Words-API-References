@@ -14,6 +14,20 @@ url: /python-net/aspose.words.markup/structureddocumenttag/multiline/
 Specifies whether this **SDT** allows multiple lines of text.
 
 
+
+```python
+@property
+def multiline(self) -> bool:
+    ...
+
+@multiline.setter
+def multiline(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Accessing this property will only work for [SdtType.RICH_TEXT](../../sdttype/#RICH_TEXT) and [SdtType.PLAIN_TEXT](../../sdttype/#PLAIN_TEXT) SDT type.
 
 

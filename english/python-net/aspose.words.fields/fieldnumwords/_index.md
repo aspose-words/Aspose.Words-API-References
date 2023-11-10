@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves the number of words in the current document, as recorded in the **Words** property of the
 built-in document properties.
 

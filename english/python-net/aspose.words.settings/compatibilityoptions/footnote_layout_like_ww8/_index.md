@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/footnote_layout_like
 Emulate Word 6.x/95/97 Footnote Placement.
 
 
+```python
+@property
+def footnote_layout_like_ww8(self) -> bool:
+    ...
+
+@footnote_layout_like_ww8.setter
+def footnote_layout_like_ww8(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

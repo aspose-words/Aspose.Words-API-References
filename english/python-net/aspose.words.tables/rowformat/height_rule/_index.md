@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/rowformat/height_rule/
 Gets or sets the rule for determining the height of the table row.
 
 
+```python
+@property
+def height_rule(self) -> aspose.words.HeightRule:
+    ...
+
+@height_rule.setter
+def height_rule(self, value: aspose.words.HeightRule):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a formatted table using DocumentBuilder.

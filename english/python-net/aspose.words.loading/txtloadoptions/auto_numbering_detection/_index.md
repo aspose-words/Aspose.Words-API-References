@@ -17,6 +17,17 @@ The default value is ``True``.
 
 
 
+```python
+@property
+def auto_numbering_detection(self) -> bool:
+    ...
+
+@auto_numbering_detection.setter
+def auto_numbering_detection(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to disable automatic numbering detection.

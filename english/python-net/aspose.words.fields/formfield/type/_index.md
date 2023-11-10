@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/formfield/type/
 Returns the form field type.
 
 
+```python
+@property
+def type(self) -> aspose.words.fields.FieldType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a combo box.

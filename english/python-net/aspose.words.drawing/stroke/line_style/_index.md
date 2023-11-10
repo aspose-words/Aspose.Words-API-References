@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/line_style/
 
 Defines the line style of the stroke.
 
+
+```python
+@property
+def line_style(self) -> aspose.words.drawing.ShapeLineStyle:
+    ...
+
+@line_style.setter
+def line_style(self, value: aspose.words.drawing.ShapeLineStyle):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ShapeLineStyle.SINGLE](../../shapelinestyle/#SINGLE).
 
 

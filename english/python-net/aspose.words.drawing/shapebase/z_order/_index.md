@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/z_order/
 
 Determines the display order of overlapping shapes.
 
+
+```python
+@property
+def z_order(self) -> int:
+    ...
+
+@z_order.setter
+def z_order(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Has effect only for top level shapes.
 
 The default value is 0.

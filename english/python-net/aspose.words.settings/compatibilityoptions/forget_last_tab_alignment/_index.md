@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/forget_last_tab_alig
 Ignore Width of Last Tab Stop When Aligning Paragraph If It Is Not Left Aligned.
 
 
+```python
+@property
+def forget_last_tab_alignment(self) -> bool:
+    ...
+
+@forget_last_tab_alignment.setter
+def forget_last_tab_alignment(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

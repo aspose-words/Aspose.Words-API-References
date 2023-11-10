@@ -15,6 +15,20 @@ Specifies the physical folder where resources (images and fonts) are saved when 
 Default is ``None``.
 
 
+
+```python
+@property
+def resources_folder(self) -> str:
+    ...
+
+@resources_folder.setter
+def resources_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When you save a [Document](../../../aspose.words/document/) in fixed page Xaml format, Aspose.Words needs to save all
 images embedded in the document as standalone files. [XamlFixedSaveOptions.resources_folder](./)
 allows you to specify where the images will be saved and [XamlFixedSaveOptions.resources_folder_alias](../resources_folder_alias/)

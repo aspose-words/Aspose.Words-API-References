@@ -13,6 +13,20 @@ url: /python-net/aspose.words/bookmark/name/
 
 Gets or sets the name of the bookmark.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Note that if you change the name of a bookmark to a name that already exists in the document,
 no error will be given and only the first bookmark will be stored when you save the document.
 

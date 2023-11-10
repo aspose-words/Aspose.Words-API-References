@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/left_margin/
 Returns or sets the distance (in points) between the left edge of the page and the left boundary of the body text.
 
 
+```python
+@property
+def left_margin(self) -> float:
+    ...
+
+@left_margin.setter
+def left_margin(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.

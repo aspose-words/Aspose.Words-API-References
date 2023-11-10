@@ -14,6 +14,8 @@ url: /python-net/aspose.words.rendering/thumbnailgeneratingoptions/
 Can be used to specify additional options when generating thumbnail for a document.
 
 
+### Remarks
+
 User can call method [Document.update_thumbnail()](../../aspose.words/document/update_thumbnail/#thumbnailgeneratingoptions) to generate 
 [BuiltInDocumentProperties.thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) for a document.
 

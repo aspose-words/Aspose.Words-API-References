@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/header_distance/
 Returns or sets the distance (in points) between the header and the top of the page.
 
 
+```python
+@property
+def header_distance(self) -> float:
+    ...
+
+@header_distance.setter
+def header_distance(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.

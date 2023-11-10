@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldpageref/insert_relative_position/
 Gets or sets whether to insert a relative position of the bookmarked paragraph.
 
 
+```python
+@property
+def insert_relative_position(self) -> bool:
+    ...
+
+@insert_relative_position.setter
+def insert_relative_position(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert PAGEREF fields to display the relative location of bookmarks.

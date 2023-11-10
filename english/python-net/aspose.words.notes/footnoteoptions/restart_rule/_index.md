@@ -14,6 +14,17 @@ url: /python-net/aspose.words.notes/footnoteoptions/restart_rule/
 Determines when automatic numbering restarts.
 
 
+```python
+@property
+def restart_rule(self) -> aspose.words.notes.FootnoteNumberingRule:
+    ...
+
+@restart_rule.setter
+def restart_rule(self, value: aspose.words.notes.FootnoteNumberingRule):
+    ...
+
+```
+
 ### Examples
 
 Shows how to restart footnote/endnote numbering at certain places in the document.

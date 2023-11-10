@@ -21,8 +21,8 @@ def insert(self, index: int, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
-| value | str |  |
+| index | int | The zero-based index at which value is inserted. |
+| value | str | The string to insert. |
 
 ### Examples
 

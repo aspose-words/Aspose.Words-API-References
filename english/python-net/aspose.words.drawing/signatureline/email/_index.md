@@ -12,9 +12,20 @@ url: /python-net/aspose.words.drawing/signatureline/email/
 ## SignatureLine.email property
 
 Gets or sets suggested signer's e-mail address. 
-Default value for this property is **empty string** (System.String.Empty).
+Default value for this property is **empty string** ().
 
 
+
+```python
+@property
+def email(self) -> str:
+    ...
+
+@email.setter
+def email(self, value: str):
+    ...
+
+```
 
 ### Examples
 

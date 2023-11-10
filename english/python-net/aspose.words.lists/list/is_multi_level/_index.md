@@ -14,6 +14,16 @@ url: /python-net/aspose.words.lists/list/is_multi_level/
 Returns ``True`` when the list contains 9 levels; ``False`` when 1 level.
 
 
+
+```python
+@property
+def is_multi_level(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 The lists that you create with Aspose.Words are always multi-level lists and contain 9 levels.
 
 Microsoft Word 2003 and later always create multi-level lists with 9 levels.

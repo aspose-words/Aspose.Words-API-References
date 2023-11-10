@@ -5,7 +5,7 @@ articleTitle: RevisionCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.RevisionCollection class. A collection of [Revision](../revision/) objects that represent revisions in the document"
 type: docs
-weight: 950
+weight: 960
 url: /python-net/aspose.words/revisioncollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/w
 
 
 
+
+### Remarks
 
 You do not create instances of this class directly. Use the [Document.revisions](../document/revisions/) property to get revisions present in a document.
 
@@ -39,7 +41,9 @@ You do not create instances of this class directly. Use the [Document.revisions]
 
 | Name | Description |
 | --- | --- |
+|[ accept(criteria)](./accept/#irevisioncriteria) | Accepts revisions that match specified criteria. |
 |[ accept_all()](./accept_all/#default) | Accepts all revisions in this collection. |
+|[ reject(criteria)](./reject/#irevisioncriteria) | Rejects revisions that match specified criteria. |
 |[ reject_all()](./reject_all/#default) | Rejects all revisions in this collection. |
 
 ### Examples

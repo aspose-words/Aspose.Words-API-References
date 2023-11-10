@@ -13,12 +13,30 @@ url: /python-net/aspose.words/shading/background_tint_and_shade/
 
 Gets or sets a double value that lightens or darkens a background theme color.
 
-The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property.
-Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1
-results in System.ArgumentOutOfRangeException.
 
-Setting this property for Shading object with non-theme colors
-results in System.InvalidOperationException.
+```python
+@property
+def background_tint_and_shade(self) -> float:
+    ...
+
+@background_tint_and_shade.setter
+def background_tint_and_shade(self, value: float):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throw if set this property to a value less than -1 or more than 1. |
+| RuntimeError (Proxy error(InvalidOperationException)) | Throw if set this property for Shading object with non-theme colors. |
+
+### Remarks
+
+The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property.
+
+Zero (0) is neutral.
 
 
 

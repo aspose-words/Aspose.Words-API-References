@@ -14,6 +14,17 @@ url: /python-net/aspose.words.mailmerging/mailmerge/region_start_tag/
 Gets or sets a mail merge region start tag.
 
 
+```python
+@property
+def region_start_tag(self) -> str:
+    ...
+
+@region_start_tag.setter
+def region_start_tag(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create, list, and read mail merge regions.

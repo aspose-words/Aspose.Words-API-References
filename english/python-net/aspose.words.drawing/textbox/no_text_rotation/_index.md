@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textbox/no_text_rotation/
 
 Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
 
+
+```python
+@property
+def no_text_rotation(self) -> bool:
+    ...
+
+@no_text_rotation.setter
+def no_text_rotation(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``
 
 

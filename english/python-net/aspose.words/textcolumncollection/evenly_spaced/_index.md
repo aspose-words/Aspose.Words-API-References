@@ -14,6 +14,17 @@ url: /python-net/aspose.words/textcolumncollection/evenly_spaced/
 True if text columns are of equal width and evenly spaced.
 
 
+```python
+@property
+def evenly_spaced(self) -> bool:
+    ...
+
+@evenly_spaced.setter
+def evenly_spaced(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create unevenly spaced columns.

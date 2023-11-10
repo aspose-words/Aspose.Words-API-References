@@ -14,6 +14,8 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/
 Contains details for signing a PDF document with a digital signature.
 
 
+### Remarks
+
 At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
 
 To digitally sign a PDF document when it is created by Aspose.Words, set the [PdfSaveOptions.digital_signature_details](../pdfsaveoptions/digital_signature_details/) 

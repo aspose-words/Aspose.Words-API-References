@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/downsampleoptions/resolution/
 
 Specifies the resolution in pixels per inch which the images should be downsampled to.
 
+
+```python
+@property
+def resolution(self) -> int:
+    ...
+
+@resolution.setter
+def resolution(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The default value is 220 ppi.
 
 

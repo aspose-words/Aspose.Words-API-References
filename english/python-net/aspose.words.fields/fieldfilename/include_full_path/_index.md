@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldfilename/include_full_path/
 Gets or sets whether to include the full file path name.
 
 
+```python
+@property
+def include_full_path(self) -> bool:
+    ...
+
+@include_full_path.setter
+def include_full_path(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use FieldOptions to override the default value for the FILENAME field.

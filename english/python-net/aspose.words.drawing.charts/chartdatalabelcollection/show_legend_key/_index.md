@@ -15,6 +15,20 @@ Allows to specify whether legend key is to be displayed for the data labels of t
 Default value is ``False``.
 
 
+
+```python
+@property
+def show_legend_key(self) -> bool:
+    ...
+
+@show_legend_key.setter
+def show_legend_key(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Value defined for this property can be overridden for an individual data label with using the
 [ChartDataLabel.show_legend_key](../../chartdatalabel/show_legend_key/) property.
 

@@ -13,6 +13,20 @@ url: /python-net/aspose.words/document/track_revisions/
 
 True if changes are tracked when this document is edited in Microsoft Word.
 
+
+```python
+@property
+def track_revisions(self) -> bool:
+    ...
+
+@track_revisions.setter
+def track_revisions(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Setting this option only instructs Microsoft Word whether the track changes
 is turned on or off. This property has no effect on changes to the document that you make
 programmatically via Aspose.Words.

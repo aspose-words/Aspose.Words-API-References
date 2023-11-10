@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/truncate_font_height
 Emulate WordPerfect 6.x Font Height Calculation.
 
 
+```python
+@property
+def truncate_font_heights_like_wp6(self) -> bool:
+    ...
+
+@truncate_font_heights_like_wp6.setter
+def truncate_font_heights_like_wp6(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

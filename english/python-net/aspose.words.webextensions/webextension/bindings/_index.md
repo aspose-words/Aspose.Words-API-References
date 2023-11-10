@@ -14,6 +14,13 @@ url: /python-net/aspose.words.webextensions/webextension/bindings/
 Specifies a list of web extension bindings.
 
 
+```python
+@property
+def bindings(self) -> aspose.words.webextensions.WebExtensionBindingCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a web extension to a document.

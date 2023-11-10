@@ -21,7 +21,7 @@ def get_ole_entry(self, ole_entry_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ole_entry_name | str |  |
+| ole_entry_name | str | Case-sensitive name of the OLE data stream. |
 
 ### Returns
 

@@ -15,6 +15,20 @@ Specifies the type of the external data source to be connected to as part of the
 The default value is [OdsoDataSourceType.DEFAULT](../../odsodatasourcetype/#DEFAULT).
 
 
+
+```python
+@property
+def data_source_type(self) -> aspose.words.settings.OdsoDataSourceType:
+    ...
+
+@data_source_type.setter
+def data_source_type(self, value: aspose.words.settings.OdsoDataSourceType):
+    ...
+
+```
+
+### Remarks
+
 This setting is purely a suggestion of the data source type that is being used for this mail merge.
 
 

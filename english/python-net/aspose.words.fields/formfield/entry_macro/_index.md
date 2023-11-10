@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/formfield/entry_macro/
 
 Returns or sets an entry macro name for the form field.
 
+
+```python
+@property
+def entry_macro(self) -> str:
+    ...
+
+@entry_macro.setter
+def entry_macro(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The entry macro runs when the form field gets the focus in Microsoft Word.
 
 Microsoft Word allows strings with at most 32 characters.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/transparent_metafile
 Specifies not to blank the area behind metafile pictures.
 
 
+```python
+@property
+def transparent_metafiles(self) -> bool:
+    ...
+
+@transparent_metafiles.setter
+def transparent_metafiles(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

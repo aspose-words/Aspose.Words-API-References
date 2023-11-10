@@ -22,7 +22,7 @@ def visit_absolute_position_tab(self, tab: aspose.words.AbsolutePositionTab):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tab | [AbsolutePositionTab](../../absolutepositiontab/) |  |
+| tab | [AbsolutePositionTab](../../absolutepositiontab/) | The object that is being visited. |
 
 ### Returns
 

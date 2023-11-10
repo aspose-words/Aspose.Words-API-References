@@ -13,6 +13,20 @@ url: /python-net/aspose.words.markup/structureddocumenttag/style/
 
 Gets or sets the Style of the structured document tag.
 
+
+```python
+@property
+def style(self) -> aspose.words.Style:
+    ...
+
+@style.setter
+def style(self, value: aspose.words.Style):
+    ...
+
+```
+
+### Remarks
+
 Only [StyleType.CHARACTER](../../../aspose.words/styletype/#CHARACTER) style or [StyleType.PARAGRAPH](../../../aspose.words/styletype/#PARAGRAPH) style with linked character style can be set.
 
 

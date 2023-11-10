@@ -15,6 +15,17 @@ Whether [BarcodeParameters.postal_address](../postal_address/) is a U.S. postal 
 
 
 
+```python
+@property
+def is_us_postal_address(self) -> bool:
+    ...
+
+@is_us_postal_address.setter
+def is_us_postal_address(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

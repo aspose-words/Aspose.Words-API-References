@@ -19,6 +19,8 @@ def get_regions_hierarchy(self):
     ...
 ```
 
+### Remarks
+
 Hierarchy is returned in the form of the [MailMergeRegionInfo](../../mailmergeregioninfo/) class.
 
 

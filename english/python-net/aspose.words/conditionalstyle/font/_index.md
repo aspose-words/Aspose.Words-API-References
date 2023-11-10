@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstyle/font/
 Gets the character formatting of the conditional style.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

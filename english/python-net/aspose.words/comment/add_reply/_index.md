@@ -15,20 +15,21 @@ Adds a reply to this comment.
 
 
 ```python
-def add_reply(self, author: str, initial: str, date_time: datetime, text: str):
+def add_reply(self, author: str, initial: str, date_time: datetime.datetime, text: str):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | str |  |
-| initial | str |  |
-| date_time | datetime |  |
-| text | str |  |
+| author | str | The author name for the reply. |
+| initial | str | The author initials for the reply. |
+| date_time | datetime.datetime | The date and time for the reply. |
+| text | str | The reply text. |
+
+### Remarks
 
 Due to the existing MS Office limitations only 1 level of replies is allowed in the document.
-An exception of type System.InvalidOperationException will be raised if this method is 
-called on the existing Reply comment.
+
 
 
 
@@ -36,6 +37,12 @@ called on the existing Reply comment.
 
 The created [Comment](../) node for the reply.
 
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(InvalidOperationException)) | Throws if this method is called on the existing Reply comment. |
 
 ### Examples
 

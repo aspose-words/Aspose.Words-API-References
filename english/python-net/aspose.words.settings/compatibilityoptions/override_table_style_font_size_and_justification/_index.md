@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/override_table_style
 Specifies how the style hierarchy of the document is evaluated.
 
 
+```python
+@property
+def override_table_style_font_size_and_justification(self) -> bool:
+    ...
+
+@override_table_style_font_size_and_justification.setter
+def override_table_style_font_size_and_justification(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -16,6 +16,17 @@ This object is never ``None``.
 
 
 
+```python
+@property
+def recipient_datas(self) -> aspose.words.settings.OdsoRecipientDataCollection:
+    ...
+
+@recipient_datas.setter
+def recipient_datas(self, value: aspose.words.settings.OdsoRecipientDataCollection):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.

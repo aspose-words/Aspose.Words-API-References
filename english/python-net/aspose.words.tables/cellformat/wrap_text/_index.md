@@ -15,6 +15,17 @@ If ``True``, wrap text for the cell.
 
 
 
+```python
+@property
+def wrap_text(self) -> bool:
+    ...
+
+@wrap_text.setter
+def wrap_text(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build a table with custom borders.

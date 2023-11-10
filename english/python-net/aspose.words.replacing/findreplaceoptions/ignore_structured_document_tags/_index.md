@@ -15,6 +15,20 @@ Gets or sets a boolean value indicating either to ignore content of [StructuredD
 The default value is ``False``.
 
 
+
+```python
+@property
+def ignore_structured_document_tags(self) -> bool:
+    ...
+
+@ignore_structured_document_tags.setter
+def ignore_structured_document_tags(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When this option is set to ``True``, the content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 will be treated as a simple text.
 

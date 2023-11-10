@@ -13,6 +13,16 @@ url: /python-net/aspose.words/fileformatinfo/load_format/
 
 Gets the detected document format.
 
+
+```python
+@property
+def load_format(self) -> aspose.words.LoadFormat:
+    ...
+
+```
+
+### Remarks
+
 When an OOXML document is encrypted, it is not possible to ascertained whether it is
 an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML
 document this property will always return [LoadFormat.DOCX](../../loadformat/#DOCX).

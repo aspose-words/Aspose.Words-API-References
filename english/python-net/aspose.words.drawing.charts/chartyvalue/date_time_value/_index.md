@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartyvalue/date_time_value/
 Gets the stored datetime value.
 
 
+```python
+@property
+def date_time_value(self) -> datetime.datetime:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

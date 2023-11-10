@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/bytes/
 
 Represents an estimate of the number of bytes in the document.
 
+
+```python
+@property
+def bytes(self) -> int:
+    ...
+
+@bytes.setter
+def bytes(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Microsoft Word does not always set this property.
 
 Aspose.Words does not update this property.

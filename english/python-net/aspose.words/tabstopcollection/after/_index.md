@@ -21,7 +21,9 @@ def after(self, position: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | float |  |
+| position | float | The reference position (in points). |
+
+### Remarks
 
 Skips tab stops with [TabStop.alignment](../../tabstop/alignment/) set to [TabAlignment.BAR](../../tabalignment/#BAR).
 

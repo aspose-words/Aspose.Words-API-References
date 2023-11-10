@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldstyleref/search_from_bottom/
 Gets or sets whether to search from the bottom of the current page, rather from the top.
 
 
+```python
+@property
+def search_from_bottom(self) -> bool:
+    ...
+
+@search_from_bottom.setter
+def search_from_bottom(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use STYLEREF fields.

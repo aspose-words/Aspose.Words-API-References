@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartseries/data_points/
 Returns a collection of formatting objects for all data points in this series.
 
 
+```python
+@property
+def data_points(self) -> aspose.words.drawing.charts.ChartDataPointCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply labels to data points in a line chart.

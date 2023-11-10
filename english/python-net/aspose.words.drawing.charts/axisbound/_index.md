@@ -17,6 +17,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Bound can be specified as a numeric, datetime or a special "auto" value.
 
 The instances of this class are immutable.

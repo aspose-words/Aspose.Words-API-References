@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/crosses_at/
 
 Specifies where on the perpendicular axis the axis crosses.
 
+
+```python
+@property
+def crosses_at(self) -> float:
+    ...
+
+@crosses_at.setter
+def crosses_at(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The property has effect only if [ChartAxis.crosses](../crosses/) are set to [AxisCrosses.CUSTOM](../../axiscrosses/#CUSTOM).
 It is not supported by MS Office 2016 new charts.
 

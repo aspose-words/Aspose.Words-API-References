@@ -19,6 +19,8 @@ def expand_table_styles_to_direct_formatting(self):
     ...
 ```
 
+### Remarks
+
 This method exists because this version of Aspose.Words provides only limited support for
 table styles (see below). This method might be useful when you load a DOCX or WordprocessingML
 document that contains tables formatted with table styles and you need to query formatting of

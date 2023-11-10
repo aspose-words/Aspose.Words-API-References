@@ -13,6 +13,16 @@ url: /python-net/aspose.words/style/paragraph_format/
 
 Gets the paragraph formatting of the style.
 
+
+```python
+@property
+def paragraph_format(self) -> aspose.words.ParagraphFormat:
+    ...
+
+```
+
+### Remarks
+
 For character and list styles this property returns ``None``.
 
 

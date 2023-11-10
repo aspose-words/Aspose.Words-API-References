@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shape/stroke_weight/
 
 Defines the brush thickness that strokes the path of a shape in points.
 
+
+```python
+@property
+def stroke_weight(self) -> float:
+    ...
+
+@stroke_weight.setter
+def stroke_weight(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 This is a shortcut to the [Stroke.weight](../../stroke/weight/) property.
 
 The default value is 0.75.

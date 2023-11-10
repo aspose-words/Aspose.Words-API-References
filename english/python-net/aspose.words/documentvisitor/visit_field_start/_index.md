@@ -21,7 +21,9 @@ def visit_field_start(self, field_start: aspose.words.fields.FieldStart):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field_start | [FieldStart](../../../aspose.words.fields/fieldstart/) |  |
+| field_start | [FieldStart](../../../aspose.words.fields/fieldstart/) | The object that is being visited. |
+
+### Remarks
 
 A field in a Word document consists of a field code and field value.
 

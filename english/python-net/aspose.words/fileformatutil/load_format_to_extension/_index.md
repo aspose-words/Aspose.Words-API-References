@@ -23,6 +23,8 @@ def load_format_to_extension(self, load_format: aspose.words.LoadFormat):
 | --- | --- | --- |
 | load_format | [LoadFormat](../../loadformat/) |  |
 
+### Remarks
+
 The [SaveFormat.WORD_ML](../../saveformat/#WORD_ML) value is converted to ".wml".
 
 
@@ -32,7 +34,7 @@ The [SaveFormat.WORD_ML](../../saveformat/#WORD_ML) value is converted to ".wml"
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentException | Throws when cannot convert. |
+| RuntimeError (Proxy error(ArgumentException)) | Throws when cannot convert. |
 
 ### Examples
 

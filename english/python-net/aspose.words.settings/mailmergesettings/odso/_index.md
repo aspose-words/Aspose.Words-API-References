@@ -13,6 +13,20 @@ url: /python-net/aspose.words.settings/mailmergesettings/odso/
 
 Gets or sets the object that specifies the Office Data Source Object (ODSO) settings.
 
+
+```python
+@property
+def odso(self) -> aspose.words.settings.Odso:
+    ...
+
+@odso.setter
+def odso(self, value: aspose.words.settings.Odso):
+    ...
+
+```
+
+### Remarks
+
 This object is never ``None``.
 
 

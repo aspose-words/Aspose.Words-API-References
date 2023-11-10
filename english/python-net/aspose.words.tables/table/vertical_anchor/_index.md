@@ -16,6 +16,17 @@ Default value is [RelativeVerticalPosition.MARGIN](../../../aspose.words.drawing
 
 
 
+```python
+@property
+def vertical_anchor(self) -> aspose.words.drawing.RelativeVerticalPosition:
+    ...
+
+@vertical_anchor.setter
+def vertical_anchor(self, value: aspose.words.drawing.RelativeVerticalPosition):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with floating tables properties.

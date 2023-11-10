@@ -15,6 +15,17 @@ Specifies whether the current paragraph's lines should be exempted from line num
 which is applied in the parent section.
 
 
+```python
+@property
+def suppress_line_numbers(self) -> bool:
+    ...
+
+@suppress_line_numbers.setter
+def suppress_line_numbers(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable line numbering for a section.

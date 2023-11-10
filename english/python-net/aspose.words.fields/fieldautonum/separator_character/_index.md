@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldautonum/separator_character/
 Gets or sets the separator character to be used.
 
 
+```python
+@property
+def separator_character(self) -> str:
+    ...
+
+@separator_character.setter
+def separator_character(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to number paragraphs using autonum fields.

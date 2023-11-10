@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/FIELD_SEPARATOR_CHAR/
 Field separator character separates field code from field value. Optional in some fields. Value: (char)20.
 
 
+```python
+@property
+def FIELD_SEPARATOR_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

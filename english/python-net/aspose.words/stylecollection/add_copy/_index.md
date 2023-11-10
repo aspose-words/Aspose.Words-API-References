@@ -21,7 +21,9 @@ def add_copy(self, style: aspose.words.Style):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](../../style/) |  |
+| style | [Style](../../style/) | Style to be copied. |
+
+### Remarks
 
 Style to be copied can belong to the same document as well as to different document.
 

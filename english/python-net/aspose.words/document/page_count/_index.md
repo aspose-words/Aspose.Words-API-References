@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/page_count/
 Gets the number of pages in the document as calculated by the most recent page layout operation.
 
 
+```python
+@property
+def page_count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to count the number of pages in the document.

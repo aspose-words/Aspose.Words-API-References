@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddate/use_last_format/
 Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field.
 
 
+```python
+@property
+def use_last_format(self) -> bool:
+    ...
+
+@use_last_format.setter
+def use_last_format(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use DATE fields to display dates according to different kinds of calendars.

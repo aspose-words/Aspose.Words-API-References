@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fonts/fontinfo/family/
 Gets or sets the font family this font belongs to.
 
 
+```python
+@property
+def family(self) -> aspose.words.fonts.FontFamily:
+    ...
+
+@family.setter
+def family(self, value: aspose.words.fonts.FontFamily):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access and print details of each font in a document.

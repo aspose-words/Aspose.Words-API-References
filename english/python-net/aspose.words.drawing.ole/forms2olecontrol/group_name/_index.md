@@ -15,6 +15,17 @@ Gets or sets a string that specifies a group of mutually exclusive controls.
 The default value is an empty string.
 
 
+```python
+@property
+def group_name(self) -> str:
+    ...
+
+@group_name.setter
+def group_name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

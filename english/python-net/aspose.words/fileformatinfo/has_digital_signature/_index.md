@@ -16,6 +16,16 @@ This property merely informs that a digital signature is present on a document,
 but it does not  specify whether the signature is valid or not.
 
 
+
+```python
+@property
+def has_digital_signature(self) -> bool:
+    ...
+
+```
+
+### Remarks
+
 This property exists to help you sort documents that are digitally signed from those that are not.
 If you use Aspose.Words to modify and save a document that is digitally signed, then the digital signature will 
 be lost. This is by design because a digital signature exists to guard the authenticity of a document. 

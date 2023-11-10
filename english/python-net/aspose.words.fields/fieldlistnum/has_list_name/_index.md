@@ -15,6 +15,13 @@ Returns a value indicating whether the name of an abstract numbering definition
 is provided by the field's code.
 
 
+```python
+@property
+def has_list_name(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to number paragraphs with LISTNUM fields.

@@ -20,6 +20,8 @@ def convert_to_horizontally_merged_cells(self):
     ...
 ```
 
+### Remarks
+
 Table cells can be horizontally merged either using merge flags [CellFormat.horizontal_merge](../../cellformat/horizontal_merge/) or using cell width [CellFormat.width](../../cellformat/width/).
 
 When table cell is merged by width property [CellFormat.horizontal_merge](../../cellformat/horizontal_merge/) is meaningless but sometimes having merge flags is more convenient way.

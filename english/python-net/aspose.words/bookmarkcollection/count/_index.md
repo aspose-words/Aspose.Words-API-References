@@ -14,6 +14,13 @@ url: /python-net/aspose.words/bookmarkcollection/count/
 Returns the number of bookmarks in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to remove bookmarks from a document.

@@ -16,6 +16,17 @@ Default is ``True``.
 
 
 
+```python
+@property
+def show_page_border(self) -> bool:
+    ...
+
+@show_page_border.setter
+def show_page_border(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to mimic the properties of images when converting a .docx document to .svg.

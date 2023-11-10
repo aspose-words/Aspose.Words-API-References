@@ -16,6 +16,13 @@ Returns ``None`` if the shape cannot have an image.
 
 
 
+```python
+@property
+def image_data(self) -> aspose.words.drawing.ImageData:
+    ...
+
+```
+
 ### Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.

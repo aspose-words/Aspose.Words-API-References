@@ -17,6 +17,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+### Remarks
+
 You do not create instances of this class directly. To access a collection 
 of building blocks use the [GlossaryDocument.building_blocks](../glossarydocument/building_blocks/) property.
 

@@ -5,7 +5,7 @@ articleTitle: append_child method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.append_child method. Adds the specified node to the end of the stdContent range."
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/append_child/
 ---
 
@@ -21,7 +21,7 @@ def append_child(self, new_child: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| new_child | [Node](../../../aspose.words/node/) |  |
+| new_child | [Node](../../../aspose.words/node/) | The node to add. |
 
 ### Returns
 

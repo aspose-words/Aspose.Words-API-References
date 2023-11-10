@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/
 Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman,
 Courier New and Symbol with core PDF Type 1 fonts.
 
+
+```python
+@property
+def use_core_fonts(self) -> bool:
+    ...
+
+@use_core_fonts.setter
+def use_core_fonts(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``. When this value is set to ``True`` Arial, Times New Roman,
 Courier New and Symbol fonts are replaced in PDF document with corresponding core Type 1 font.
 

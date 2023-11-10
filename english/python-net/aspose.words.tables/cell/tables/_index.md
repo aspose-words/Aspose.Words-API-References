@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cell/tables/
 Gets a collection of tables that are immediate children of the cell.
 
 
+```python
+@property
+def tables(self) -> aspose.words.tables.TableCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to find out if a tables are nested.

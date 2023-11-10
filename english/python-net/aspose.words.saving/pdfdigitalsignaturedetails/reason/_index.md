@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 
 Gets or sets the reason for the signing.
 
+
+```python
+@property
+def reason(self) -> str:
+    ...
+
+@reason.setter
+def reason(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``None``.
 
 

@@ -15,6 +15,13 @@ Returns a [TextBox](../) that represents the previous [TextBox](../) in a sequen
 
 
 
+```python
+@property
+def previous(self) -> aspose.words.drawing.TextBox:
+    ...
+
+```
+
 ### Examples
 
 Shows how to link text boxes.

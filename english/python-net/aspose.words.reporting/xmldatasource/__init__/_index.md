@@ -21,7 +21,7 @@ def __init__(self, xml_path: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_path | str |  |
+| xml_path | str | The path to the XML file to be used as the data source. |
 
 ## XmlDataSource(xml_stream) {#bytesio}
 
@@ -29,13 +29,13 @@ Creates a new data source with data from an XML stream using default options for
 
 
 ```python
-def __init__(self, xml_stream: BytesIO):
+def __init__(self, xml_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_stream | BytesIO |  |
+| xml_stream | io.BytesIO | The stream of XML data to be used as the data source. |
 
 ## XmlDataSource(xml_path, xml_schema_path) {#str_str}
 
@@ -50,8 +50,8 @@ def __init__(self, xml_path: str, xml_schema_path: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_path | str |  |
-| xml_schema_path | str |  |
+| xml_path | str | The path to the XML file to be used as the data source. |
+| xml_schema_path | str | The path to the XML Schema Definition file that provides schema for the XML file. |
 
 ## XmlDataSource(xml_stream, xml_schema_stream) {#bytesio_bytesio}
 
@@ -60,14 +60,14 @@ are used for XML data loading.
 
 
 ```python
-def __init__(self, xml_stream: BytesIO, xml_schema_stream: BytesIO):
+def __init__(self, xml_stream: io.BytesIO, xml_schema_stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_stream | BytesIO |  |
-| xml_schema_stream | BytesIO |  |
+| xml_stream | io.BytesIO | The stream of XML data to be used as the data source. |
+| xml_schema_stream | io.BytesIO | The stream of XML Schema Definition that provides schema for the XML data. |
 
 ## XmlDataSource(xml_path, options) {#str_xmldataloadoptions}
 
@@ -81,8 +81,8 @@ def __init__(self, xml_path: str, options: aspose.words.reporting.XmlDataLoadOpt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_path | str |  |
-| options | [XmlDataLoadOptions](../../xmldataloadoptions/) |  |
+| xml_path | str | The path to the XML file to be used as the data source. |
+| options | [XmlDataLoadOptions](../../xmldataloadoptions/) | Options for XML data loading. |
 
 ## XmlDataSource(xml_stream, options) {#bytesio_xmldataloadoptions}
 
@@ -90,14 +90,14 @@ Creates a new data source with data from an XML stream using the specified optio
 
 
 ```python
-def __init__(self, xml_stream: BytesIO, options: aspose.words.reporting.XmlDataLoadOptions):
+def __init__(self, xml_stream: io.BytesIO, options: aspose.words.reporting.XmlDataLoadOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_stream | BytesIO |  |
-| options | [XmlDataLoadOptions](../../xmldataloadoptions/) |  |
+| xml_stream | io.BytesIO | The stream of XML data to be used as the data source. |
+| options | [XmlDataLoadOptions](../../xmldataloadoptions/) | Options for XML data loading. |
 
 ## XmlDataSource(xml_path, xml_schema_path, options) {#str_str_xmldataloadoptions}
 
@@ -112,9 +112,9 @@ def __init__(self, xml_path: str, xml_schema_path: str, options: aspose.words.re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_path | str |  |
-| xml_schema_path | str |  |
-| options | [XmlDataLoadOptions](../../xmldataloadoptions/) |  |
+| xml_path | str | The path to the XML file to be used as the data source. |
+| xml_schema_path | str | The path to the XML Schema Definition file that provides schema for the XML file. |
+| options | [XmlDataLoadOptions](../../xmldataloadoptions/) | Options for XML data loading. |
 
 ## XmlDataSource(xml_stream, xml_schema_stream, options) {#bytesio_bytesio_xmldataloadoptions}
 
@@ -123,15 +123,15 @@ options are used for XML data loading.
 
 
 ```python
-def __init__(self, xml_stream: BytesIO, xml_schema_stream: BytesIO, options: aspose.words.reporting.XmlDataLoadOptions):
+def __init__(self, xml_stream: io.BytesIO, xml_schema_stream: io.BytesIO, options: aspose.words.reporting.XmlDataLoadOptions):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_stream | BytesIO |  |
-| xml_schema_stream | BytesIO |  |
-| options | [XmlDataLoadOptions](../../xmldataloadoptions/) |  |
+| xml_stream | io.BytesIO | The stream of XML data to be used as the data source. |
+| xml_schema_stream | io.BytesIO | The stream of XML Schema Definition that provides schema for the XML data. |
+| options | [XmlDataLoadOptions](../../xmldataloadoptions/) | Options for XML data loading. |
 
 ## See Also
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldxe/page_number_replacement/
 Gets or sets text used in place of a page number.
 
 
+```python
+@property
+def page_number_replacement(self) -> str:
+    ...
+
+@page_number_replacement.setter
+def page_number_replacement(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to define cross references in an INDEX field.

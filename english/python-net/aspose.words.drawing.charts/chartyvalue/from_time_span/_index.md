@@ -9,20 +9,20 @@ weight: 70
 url: /python-net/aspose.words.drawing.charts/chartyvalue/from_time_span/
 ---
 
-## from_time_span(value) {#unknown}
+## from_time_span(value) {#timespan}
 
 Creates a [ChartYValue](../) instance of the [ChartYValueType.TIME](../../chartyvaluetype/#TIME) type.
 
 
 
 ```python
-def from_time_span(self, value):
+def from_time_span(self, value: datetime.timespan):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value |  |  |
+| value | datetime.timespan |  |
 
 ### See Also
 

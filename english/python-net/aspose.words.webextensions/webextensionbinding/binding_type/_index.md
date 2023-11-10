@@ -14,6 +14,17 @@ url: /python-net/aspose.words.webextensions/webextensionbinding/binding_type/
 Specifies the binding type.
 
 
+```python
+@property
+def binding_type(self) -> aspose.words.webextensions.WebExtensionBindingType:
+    ...
+
+@binding_type.setter
+def binding_type(self, value: aspose.words.webextensions.WebExtensionBindingType):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.webextensions](../../)

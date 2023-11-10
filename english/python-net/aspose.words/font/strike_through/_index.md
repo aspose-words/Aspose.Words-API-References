@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/strike_through/
 True if the font is formatted as strikethrough text.
 
 
+```python
+@property
+def strike_through(self) -> bool:
+    ...
+
+@strike_through.setter
+def strike_through(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add a line strikethrough to text.

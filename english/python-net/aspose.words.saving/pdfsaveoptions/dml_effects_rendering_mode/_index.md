@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/dml_effects_rendering_mode/
 
 Gets or sets a value determining how DrawingML effects are rendered.
 
+
+```python
+@property
+def dml_effects_rendering_mode(self) -> aspose.words.saving.DmlEffectsRenderingMode:
+    ...
+
+@dml_effects_rendering_mode.setter
+def dml_effects_rendering_mode(self, value: aspose.words.saving.DmlEffectsRenderingMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../dmleffectsrenderingmode/#SIMPLIFIED).
 This property is used when the document is exported to fixed page formats.
 

@@ -15,6 +15,13 @@ Gets type [OfficeMath.math_object_type](./) of this Office Math object.
 
 
 
+```python
+@property
+def math_object_type(self) -> aspose.words.math.MathObjectType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print the node structure of every office math node in a document.

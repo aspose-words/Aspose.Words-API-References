@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/engrave/
 True if the font is formatted as engraved.
 
 
+```python
+@property
+def engrave(self) -> bool:
+    ...
+
+@engrave.setter
+def engrave(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply engraving/embossing effects to text.

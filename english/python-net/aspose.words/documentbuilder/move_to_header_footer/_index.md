@@ -21,7 +21,9 @@ def move_to_header_footer(self, header_footer_type: aspose.words.HeaderFooterTyp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| header_footer_type | [HeaderFooterType](../../headerfootertype/) |  |
+| header_footer_type | [HeaderFooterType](../../headerfootertype/) | Specifies the header or footer to move to. |
+
+### Remarks
 
 After you moved the cursor into a header or footer, you can use the rest of [DocumentBuilder](../)
 methods to modify the contents of the header or footer.

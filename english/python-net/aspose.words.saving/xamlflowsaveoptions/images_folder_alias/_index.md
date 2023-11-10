@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/xamlflowsaveoptions/images_folder_alias/
 Specifies the name of the folder used to construct image URIs written into an XAML document.
 Default is an empty string.
 
+
+```python
+@property
+def images_folder_alias(self) -> str:
+    ...
+
+@images_folder_alias.setter
+def images_folder_alias(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 When you save a [Document](../../../aspose.words/document/) in XAML format, Aspose.Words needs to save all 
 images embedded in the document as standalone files. [XamlFlowSaveOptions.images_folder](../images_folder/) 
 allows you to specify where the images will be saved and [XamlFlowSaveOptions.images_folder_alias](./) 

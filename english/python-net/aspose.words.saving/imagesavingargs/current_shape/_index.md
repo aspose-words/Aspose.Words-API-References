@@ -15,6 +15,16 @@ Gets the [ShapeBase](../../../aspose.words.drawing/shapebase/) object correspond
 that is about to be saved.
 
 
+
+```python
+@property
+def current_shape(self) -> aspose.words.drawing.ShapeBase:
+    ...
+
+```
+
+### Remarks
+
 [IImageSavingCallback](../../iimagesavingcallback/) can be fired while saving either a shape or a group shape. 
 That's why the property has [ShapeBase](../../../aspose.words.drawing/shapebase/) type. You can check whether it's a group shape comparing 
 [ShapeBase.shape_type](../../../aspose.words.drawing/shapebase/shape_type/) with [ShapeType.GROUP](../../../aspose.words.drawing/shapetype/#GROUP) or by casting it to one of derived classes: 

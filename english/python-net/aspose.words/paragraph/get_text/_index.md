@@ -19,6 +19,8 @@ def get_text(self):
     ...
 ```
 
+### Remarks
+
 The text of all child nodes is concatenated and the end of paragraph character is appended as follows:
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/style/is_quick_style/
 Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 
 
+```python
+@property
+def is_quick_style(self) -> bool:
+    ...
+
+@is_quick_style.setter
+def is_quick_style(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's style collection.

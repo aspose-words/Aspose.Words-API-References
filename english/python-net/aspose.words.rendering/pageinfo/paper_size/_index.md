@@ -14,6 +14,13 @@ url: /python-net/aspose.words.rendering/pageinfo/paper_size/
 Gets the paper size as enumeration.
 
 
+```python
+@property
+def paper_size(self) -> aspose.words.PaperSize:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.rendering](../../)

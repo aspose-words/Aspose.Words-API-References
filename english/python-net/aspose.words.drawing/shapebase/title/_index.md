@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/title/
 
 Gets or sets the title (caption) of the current shape object.
 
+
+```python
+@property
+def title(self) -> str:
+    ...
+
+@title.setter
+def title(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Default is empty string.
 
 Cannot be ``None``, but can be an empty string.

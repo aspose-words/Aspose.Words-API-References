@@ -12,8 +12,22 @@ url: /python-net/aspose.words.loading/htmlloadoptions/preferred_control_type/
 ## HtmlLoadOptions.preferred_control_type property
 
 Gets or sets preferred type of document nodes that will represent imported \<input\> and \<select\> elements.
-Default value is Aspose.Words.Loading.HtmlControlType.FormField.
+Default value is [HtmlControlType.FORM_FIELD](../../htmlcontroltype/#FORM_FIELD).
 
+
+
+```python
+@property
+def preferred_control_type(self) -> aspose.words.loading.HtmlControlType:
+    ...
+
+@preferred_control_type.setter
+def preferred_control_type(self, value: aspose.words.loading.HtmlControlType):
+    ...
+
+```
+
+### Remarks
 
 Please note that setting this property does not guarantee that all imported controls will be of the specified type.
 If an HTML control is not representable with document nodes of the preferred type, Aspose.Words will use

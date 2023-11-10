@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/textpath/trim/
 
 Determines whether extra space is removed above and below the text.
 
+
+```python
+@property
+def trim(self) -> bool:
+    ...
+
+@trim.setter
+def trim(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

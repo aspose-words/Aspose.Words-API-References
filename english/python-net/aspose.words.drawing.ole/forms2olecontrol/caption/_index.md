@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrol/caption/
 Gets Caption property of control. Default value is an empty string.
 
 
+```python
+@property
+def caption(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

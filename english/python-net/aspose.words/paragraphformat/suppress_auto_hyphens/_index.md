@@ -15,6 +15,17 @@ Specifies whether the current paragraph should be exempted from any hyphenation 
 is applied in the document settings.
 
 
+```python
+@property
+def suppress_auto_hyphens(self) -> bool:
+    ...
+
+@suppress_auto_hyphens.setter
+def suppress_auto_hyphens(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to suppress hyphenation for a paragraph.

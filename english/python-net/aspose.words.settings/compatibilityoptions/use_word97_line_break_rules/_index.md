@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/use_word97_line_brea
 Emulate Word 97 East Asian Line Breaking.
 
 
+```python
+@property
+def use_word97_line_break_rules(self) -> bool:
+    ...
+
+@use_word97_line_break_rules.setter
+def use_word97_line_break_rules(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

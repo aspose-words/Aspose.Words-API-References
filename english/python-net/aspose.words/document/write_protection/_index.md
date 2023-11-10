@@ -14,6 +14,13 @@ url: /python-net/aspose.words/document/write_protection/
 Provides access to the document write protection options.
 
 
+```python
+@property
+def write_protection(self) -> aspose.words.settings.WriteProtection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to protect a document with a password.

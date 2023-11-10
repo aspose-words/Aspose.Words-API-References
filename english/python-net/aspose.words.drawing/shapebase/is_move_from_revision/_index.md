@@ -15,6 +15,13 @@ Returns ``True`` if this object was moved (deleted) in Microsoft Word while chan
 
 
 
+```python
+@property
+def is_move_from_revision(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to identify move revision shapes.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/LINE_BREAK_CHAR/
 Line break character: (char)11 or "\\v".
 
 
+```python
+@property
+def LINE_BREAK_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

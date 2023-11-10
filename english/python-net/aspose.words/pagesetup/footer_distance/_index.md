@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/footer_distance/
 Returns or sets the distance (in points) between the footer and the bottom of the page.
 
 
+```python
+@property
+def footer_distance(self) -> float:
+    ...
+
+@footer_distance.setter
+def footer_distance(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.

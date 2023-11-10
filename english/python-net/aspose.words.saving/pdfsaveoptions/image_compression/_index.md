@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/image_compression/
 
 Specifies compression type to be used for all images in the document.
 
+
+```python
+@property
+def image_compression(self) -> aspose.words.saving.PdfImageCompression:
+    ...
+
+@image_compression.setter
+def image_compression(self, value: aspose.words.saving.PdfImageCompression):
+    ...
+
+```
+
+### Remarks
+
 Default is [PdfImageCompression.AUTO](../../pdfimagecompression/#AUTO).
 
 Using [PdfImageCompression.JPEG](../../pdfimagecompression/#JPEG) lets you control the quality of images in the output document through the [PdfSaveOptions.jpeg_quality](../jpeg_quality/) property.

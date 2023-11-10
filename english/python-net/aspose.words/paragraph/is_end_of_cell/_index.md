@@ -15,6 +15,13 @@ True if this paragraph is the last paragraph in a [Cell](../../../aspose.words.t
 
 
 
+```python
+@property
+def is_end_of_cell(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a table to stay together on the same page.

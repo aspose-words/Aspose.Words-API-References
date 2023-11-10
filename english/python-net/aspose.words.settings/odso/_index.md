@@ -17,6 +17,8 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 
 
 
+### Remarks
+
 ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use when specifying certain 
 types of data sources for a mail merge document. ODSO probably first appeared in Microsoft Word 2000.
 

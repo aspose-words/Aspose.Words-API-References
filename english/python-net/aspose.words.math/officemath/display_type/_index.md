@@ -14,6 +14,20 @@ url: /python-net/aspose.words.math/officemath/display_type/
 Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text
 or displayed on its own line.
 
+
+```python
+@property
+def display_type(self) -> aspose.words.math.OfficeMathDisplayType:
+    ...
+
+@display_type.setter
+def display_type(self, value: aspose.words.math.OfficeMathDisplayType):
+    ...
+
+```
+
+### Remarks
+
 Display format type has effect for top level Office Math only.
 
 Returned display format type is always [OfficeMathDisplayType.INLINE](../../officemathdisplaytype/#INLINE) for nested Office Math.

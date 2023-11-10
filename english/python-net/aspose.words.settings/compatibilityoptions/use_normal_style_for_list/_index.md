@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/use_normal_style_for
 Do Not Automatically Apply List Paragraph Style To Bulleted/Numbered Text.
 
 
+```python
+@property
+def use_normal_style_for_list(self) -> bool:
+    ...
+
+@use_normal_style_for_list.setter
+def use_normal_style_for_list(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

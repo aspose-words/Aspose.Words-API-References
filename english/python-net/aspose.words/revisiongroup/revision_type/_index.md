@@ -14,6 +14,13 @@ url: /python-net/aspose.words/revisiongroup/revision_type/
 Gets the type of revisions included in this group.
 
 
+```python
+@property
+def revision_type(self) -> aspose.words.RevisionType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print info about a group of revisions in a document.

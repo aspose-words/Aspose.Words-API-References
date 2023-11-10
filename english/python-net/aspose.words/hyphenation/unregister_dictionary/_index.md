@@ -24,7 +24,7 @@ def unregister_dictionary(self, language: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | str |  |
+| language | str | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
 
 ### Examples
 

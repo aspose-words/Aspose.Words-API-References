@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/characters_per_line/
 
 Gets or sets the number of characters per line in the document grid.
 
+
+```python
+@property
+def characters_per_line(self) -> int:
+    ...
+
+@characters_per_line.setter
+def characters_per_line(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Minimum value of the property is 1. Maximum value depends on page width and font size of the Normal
 style. Minimum character pitch is 90 percent of the font size. For example, maximum number of characters
 per line of a Letter page with one-inch margins is 43.

@@ -15,6 +15,17 @@ Gets or sets an integer number representing a heading level to reset the sequenc
 Returns -1 if the number is absent.
 
 
+```python
+@property
+def reset_heading_level(self) -> str:
+    ...
+
+@reset_heading_level.setter
+def reset_heading_level(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows create numbering using SEQ fields.

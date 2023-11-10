@@ -5,7 +5,7 @@ articleTitle: accept_all method
 second_title: Aspose.Words for Python
 description: "RevisionCollection.accept_all method. Accepts all revisions in this collection."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/revisioncollection/accept_all/
 ---
 

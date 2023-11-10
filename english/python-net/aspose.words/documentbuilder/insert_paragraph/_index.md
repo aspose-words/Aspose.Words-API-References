@@ -19,6 +19,8 @@ def insert_paragraph(self):
     ...
 ```
 
+### Remarks
+
 Current paragraph formatting specified by the [DocumentBuilder.paragraph_format](../paragraph_format/) property is used.
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.

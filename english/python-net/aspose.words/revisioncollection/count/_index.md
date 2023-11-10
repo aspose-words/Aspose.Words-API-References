@@ -14,6 +14,13 @@ url: /python-net/aspose.words/revisioncollection/count/
 Returns the number of revisions in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with revisions in a document.

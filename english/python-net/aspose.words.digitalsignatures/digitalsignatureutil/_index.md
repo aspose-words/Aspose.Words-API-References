@@ -17,6 +17,8 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 
 
 
+### Remarks
+
 Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
 
 Supported formats are:

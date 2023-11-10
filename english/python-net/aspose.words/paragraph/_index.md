@@ -5,7 +5,7 @@ articleTitle: Paragraph class
 second_title: Aspose.Words for Python
 description: "aspose.words.Paragraph class. Represents a paragraph of text"
 type: docs
-weight: 860
+weight: 870
 url: /python-net/aspose.words/paragraph/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 
 
 
+
+### Remarks
 
 [Paragraph](./) is a block-level node and can be a child of classes derived from
 [Story](../story/) or [InlineStory](../inlinestory/).
@@ -100,7 +102,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 |[ append_field(field_code)](./append_field/#str) | Appends a field to this paragraph. |
 |[ append_field(field_code, field_value)](./append_field/#str_str) | Appends a field to this paragraph. |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
-|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_child(node_type, index, is_deep)](../compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |

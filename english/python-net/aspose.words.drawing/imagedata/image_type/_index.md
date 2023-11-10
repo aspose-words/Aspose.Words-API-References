@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/imagedata/image_type/
 Gets the type of the image.
 
 
+```python
+@property
+def image_type(self) -> aspose.words.drawing.ImageType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.

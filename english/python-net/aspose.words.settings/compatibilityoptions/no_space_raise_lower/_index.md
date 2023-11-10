@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/no_space_raise_lower
 Do Not Increase Line Height for Raised/Lowered Text.
 
 
+```python
+@property
+def no_space_raise_lower(self) -> bool:
+    ...
+
+@no_space_raise_lower.setter
+def no_space_raise_lower(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

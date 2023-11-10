@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtoc/prefixed_sequence_identifier/
 Gets or sets the identifier of a sequence for which a prefix should be added to the entry's page number.
 
 
+```python
+@property
+def prefixed_sequence_identifier(self) -> str:
+    ...
+
+@prefixed_sequence_identifier.setter
+def prefixed_sequence_identifier(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to populate a TOC field with entries using SEQ fields.

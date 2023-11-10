@@ -14,6 +14,13 @@ url: /python-net/aspose.words.tables/cell/first_paragraph/
 Gets the first paragraph among the immediate children.
 
 
+```python
+@property
+def first_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a nested table using a document builder.

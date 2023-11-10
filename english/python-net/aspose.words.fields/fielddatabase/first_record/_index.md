@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddatabase/first_record/
 Gets or sets the integral record number of the first data record to insert.
 
 
+```python
+@property
+def first_record(self) -> str:
+    ...
+
+@first_record.setter
+def first_record(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

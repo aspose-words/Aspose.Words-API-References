@@ -13,6 +13,20 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/guid/
 
 Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block.
 
+
+```python
+@property
+def guid(self) -> uuid.UUID:
+    ...
+
+@guid.setter
+def guid(self, value: uuid.UUID):
+    ...
+
+```
+
+### Remarks
+
 Can be used by an application to uniquely reference a building block regardless of
 different naming due to localization.
 

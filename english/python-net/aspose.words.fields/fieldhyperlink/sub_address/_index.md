@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldhyperlink/sub_address/
 Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps.
 
 
+```python
+@property
+def sub_address(self) -> str:
+    ...
+
+@sub_address.setter
+def sub_address(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.

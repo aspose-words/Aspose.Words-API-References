@@ -13,6 +13,20 @@ url: /python-net/aspose.words.reporting/csvdataloadoptions/has_headers/
 
 Gets or sets a value indicating whether the first record of CSV data contains column names.
 
+
+```python
+@property
+def has_headers(self) -> bool:
+    ...
+
+@has_headers.setter
+def has_headers(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

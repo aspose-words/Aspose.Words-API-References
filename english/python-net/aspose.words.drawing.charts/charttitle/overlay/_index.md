@@ -16,6 +16,17 @@ By default overlay is ``False``.
 
 
 
+```python
+@property
+def overlay(self) -> bool:
+    ...
+
+@overlay.setter
+def overlay(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a chart and set a title.

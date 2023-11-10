@@ -15,6 +15,17 @@ Gets or sets the East Asian theme font in the applied font scheme that is associ
 
 
 
+```python
+@property
+def theme_font_far_east(self) -> aspose.words.themes.ThemeFont:
+    ...
+
+@theme_font_far_east.setter
+def theme_font_far_east(self, value: aspose.words.themes.ThemeFont):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with theme fonts and colors.

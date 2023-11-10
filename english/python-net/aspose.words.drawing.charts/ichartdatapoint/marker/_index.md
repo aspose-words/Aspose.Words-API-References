@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/ichartdatapoint/marker/
 Specifies a data marker. Marker is automatically created when requested.
 
 
+```python
+@property
+def marker(self) -> aspose.words.drawing.charts.ChartMarker:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with data points on a line chart.

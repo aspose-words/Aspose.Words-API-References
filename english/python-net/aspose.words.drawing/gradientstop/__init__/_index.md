@@ -22,8 +22,8 @@ def __init__(self, color: aspose.pydrawing.Color, position: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | aspose.pydrawing.Color |  |
-| position | float |  |
+| color | aspose.pydrawing.Color | Represents the color of the gradient stop. |
+| position | float | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
 ## GradientStop(color, position, transparency) {#color_float_float}
 
@@ -38,9 +38,9 @@ def __init__(self, color: aspose.pydrawing.Color, position: float, transparency:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | aspose.pydrawing.Color |  |
-| position | float |  |
-| transparency | float |  |
+| color | aspose.pydrawing.Color | Represents the color of the gradient stop. |
+| position | float | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
+| transparency | float | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
 ## Examples
 

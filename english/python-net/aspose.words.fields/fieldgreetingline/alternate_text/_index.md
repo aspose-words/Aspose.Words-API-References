@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldgreetingline/alternate_text/
 Gets or sets the text to include in the field if the name is blank.
 
 
+```python
+@property
+def alternate_text(self) -> str:
+    ...
+
+@alternate_text.setter
+def alternate_text(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

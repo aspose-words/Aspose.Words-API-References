@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shape/text_path/
 Defines the text of the text path (of a WordArt object).
 
 
+```python
+@property
+def text_path(self) -> aspose.words.drawing.TextPath:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with WordArt.

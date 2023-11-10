@@ -15,6 +15,17 @@ Specifies the Universal Data Link (UDL) connection string used to connect to an 
 The default value is an empty string.
 
 
+```python
+@property
+def udl_connect_string(self) -> str:
+    ...
+
+@udl_connect_string.setter
+def udl_connect_string(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.

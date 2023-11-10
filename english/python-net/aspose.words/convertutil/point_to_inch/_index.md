@@ -21,7 +21,9 @@ def point_to_inch(self, points: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | float |  |
+| points | float | The value to convert. |
+
+### Remarks
 
 1 inch equals 72 points.
 

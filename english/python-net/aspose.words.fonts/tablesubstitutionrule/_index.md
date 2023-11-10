@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 This rule defines the list of substitute font names to be used if the original font is not available.
 Substitutes will be checked for the font name and the [FontInfo.alt_name](../fontinfo/alt_name/) (if any).
 

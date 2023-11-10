@@ -16,6 +16,17 @@ The default value is [OoxmlCompliance.ECMA376_2006](../../ooxmlcompliance/#ECMA3
 
 
 
+```python
+@property
+def compliance(self) -> aspose.words.saving.OoxmlCompliance:
+    ...
+
+@compliance.setter
+def compliance(self, value: aspose.words.saving.OoxmlCompliance):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set an OOXML compliance specification for a saved document to adhere to.

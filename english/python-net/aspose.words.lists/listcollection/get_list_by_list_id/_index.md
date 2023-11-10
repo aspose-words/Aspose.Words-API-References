@@ -21,7 +21,9 @@ def get_list_by_list_id(self, list_id: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| list_id | int |  |
+| list_id | int | The list identifier. |
+
+### Remarks
 
 You don't normally need to use this method. Most of the time you apply list formatting
 to paragraphs just by settings the [ListFormat.list](../../listformat/list/) property

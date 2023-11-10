@@ -5,7 +5,7 @@ articleTitle: resource_folder property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.resource_folder property. Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML"
 type: docs
-weight: 430
+weight: 420
 url: /python-net/aspose.words.saving/htmlsaveoptions/resource_folder/
 ---
 
@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/resource_folder/
 
 Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document
 is exported to HTML. Default is an empty string.
+
+
+```python
+@property
+def resource_folder(self) -> str:
+    ...
+
+@resource_folder.setter
+def resource_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
 
 [HtmlSaveOptions.resource_folder](./) is the simplest way to specify a folder where all resources should be written.
 Another way is to use individual properties [HtmlSaveOptions.fonts_folder](../fonts_folder/), [HtmlSaveOptions.images_folder](../images_folder/),

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtc/text/
 Gets or sets the text of the entry.
 
 
+```python
+@property
+def text(self) -> str:
+    ...
+
+@text.setter
+def text(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.

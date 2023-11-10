@@ -17,7 +17,9 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 
 
 
-You do not normally need to create instances of this class. You can access custom XML data 
+### Remarks
+
+You do not normally need to create instances of this class. You can access custom XML data
 stored in a document via the [Document.custom_xml_parts](../../aspose.words/document/custom_xml_parts/) property.
 
 

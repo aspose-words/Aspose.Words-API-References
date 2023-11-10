@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/field/end/
 Gets the node that represents the field end.
 
 
+```python
+@property
+def end(self) -> aspose.words.fields.FieldEnd:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

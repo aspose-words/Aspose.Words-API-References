@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldlink/format_update_type/
 Gets or sets a way the linked object updates its formatting.
 
 
+```python
+@property
+def format_update_type(self) -> str:
+    ...
+
+@format_update_type.setter
+def format_update_type(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.

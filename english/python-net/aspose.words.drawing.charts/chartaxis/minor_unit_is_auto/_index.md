@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/minor_unit_is_auto/
 
 Gets or sets a flag indicating whether default distance between minor tick marks shall be used.
 
+
+```python
+@property
+def minor_unit_is_auto(self) -> bool:
+    ...
+
+@minor_unit_is_auto.setter
+def minor_unit_is_auto(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The property has effect for time category and value axes.
 
 

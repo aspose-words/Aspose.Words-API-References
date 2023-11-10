@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldimport/is_linked/
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
 
 
+```python
+@property
+def is_linked(self) -> bool:
+    ...
+
+@is_linked.setter
+def is_linked(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.

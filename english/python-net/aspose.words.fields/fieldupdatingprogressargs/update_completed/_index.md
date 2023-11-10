@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fields/fieldupdatingprogressargs/update_completed/
 Gets a value indicating whether field updating is completed.
 
 
+```python
+@property
+def update_completed(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

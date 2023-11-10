@@ -21,7 +21,9 @@ def get_by_tag(self, tag: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | str |  |
+| tag | str | The tag of the structured document tag. |
+
+### Remarks
 
 Returns null if the structured document tag with the specified tag cannot be found.
 

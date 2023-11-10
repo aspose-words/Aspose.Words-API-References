@@ -14,6 +14,13 @@ url: /python-net/aspose.words/style/type/
 Gets the style type (paragraph or character).
 
 
+```python
+@property
+def type(self) -> aspose.words.StyleType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's style collection.

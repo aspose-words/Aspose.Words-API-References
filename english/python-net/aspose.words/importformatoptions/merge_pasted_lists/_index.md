@@ -16,6 +16,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def merge_pasted_lists(self) -> bool:
+    ...
+
+@merge_pasted_lists.setter
+def merge_pasted_lists(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to merge lists from a documents.

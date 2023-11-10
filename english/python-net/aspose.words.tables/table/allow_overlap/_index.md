@@ -17,6 +17,13 @@ Default value is ``True``.
 
 
 
+```python
+@property
+def allow_overlap(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with floating tables properties.

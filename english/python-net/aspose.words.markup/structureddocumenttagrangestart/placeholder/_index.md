@@ -13,8 +13,18 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/placeholder
 
 Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when
 this structured document tag run contents are empty, the associated mapped XML element is empty as specified
-via the [StructuredDocumentTagRangeStart.xml_mapping](../xml_mapping/) element or the [StructuredDocumentTagRangeStart.is_showing_placeholder_text](../is_showing_placeholder_text/) element is ``True``. 
+via the [StructuredDocumentTagRangeStart.xml_mapping](../xml_mapping/) element or the [StructuredDocumentTagRangeStart.is_showing_placeholder_text](../is_showing_placeholder_text/) element is ``True``.
 
+
+
+```python
+@property
+def placeholder(self) -> aspose.words.buildingblocks.BuildingBlock:
+    ...
+
+```
+
+### Remarks
 
 Can be ``None``, meaning that the placeholder is not applicable for this structured document tag.
 

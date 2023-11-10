@@ -13,6 +13,16 @@ url: /python-net/aspose.words/document/original_file_name/
 
 Gets the original file name of the document.
 
+
+```python
+@property
+def original_file_name(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 Returns ``None`` if the document was loaded from a stream or created blank.
 
 

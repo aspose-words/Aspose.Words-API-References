@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_offset/
 
 Gets or sets the distance of labels from the axis.
 
+
+```python
+@property
+def tick_label_offset(self) -> int:
+    ...
+
+@tick_label_offset.setter
+def tick_label_offset(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 The property represents a percentage of the default label offset.
 
 Valid range is from 0 to 1000 percent inclusive. Default value is 100%.

@@ -21,7 +21,9 @@ def add(self, tab_stop: aspose.words.TabStop):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tab_stop | [TabStop](../../tabstop/) |  |
+| tab_stop | [TabStop](../../tabstop/) | A tab stop object to add. |
+
+### Remarks
 
 If a tab stop already exists at the specified position, it is replaced.
 
@@ -40,9 +42,11 @@ def add(self, position: float, alignment: aspose.words.TabAlignment, leader: asp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | float |  |
-| alignment | [TabAlignment](../../tabalignment/) |  |
-| leader | [TabLeader](../../tableader/) |  |
+| position | float | A position (in points) where to add the tab stop. |
+| alignment | [TabAlignment](../../tabalignment/) | A [TabAlignment](../../tabalignment/) value that specifies the alignment of text at the tab stop. |
+| leader | [TabLeader](../../tableader/) | A [TabLeader](../../tableader/) value that specifies the type of the leader line displayed under the tab character. |
+
+### Remarks
 
 If a tab stop already exists at the specified position, it is replaced.
 

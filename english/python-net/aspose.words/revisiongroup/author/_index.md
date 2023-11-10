@@ -14,6 +14,13 @@ url: /python-net/aspose.words/revisiongroup/author/
 Gets the author of this revision group.
 
 
+```python
+@property
+def author(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to print info about a group of revisions in a document.

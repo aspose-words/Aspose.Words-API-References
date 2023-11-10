@@ -13,6 +13,20 @@ url: /python-net/aspose.words/style/name/
 
 Gets or sets the name of the style.
 
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 Can not be empty string.
 
 If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.

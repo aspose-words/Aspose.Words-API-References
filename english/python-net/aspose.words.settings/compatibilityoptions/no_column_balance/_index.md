@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/no_column_balance/
 Do Not Balance Text Columns within a Section.
 
 
+```python
+@property
+def no_column_balance(self) -> bool:
+    ...
+
+@no_column_balance.setter
+def no_column_balance(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

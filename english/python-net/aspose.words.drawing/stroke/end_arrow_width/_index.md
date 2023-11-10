@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/end_arrow_width/
 
 Defines the arrowhead width for the end of a stroke.
 
+
+```python
+@property
+def end_arrow_width(self) -> aspose.words.drawing.ArrowWidth:
+    ...
+
+@end_arrow_width.setter
+def end_arrow_width(self, value: aspose.words.drawing.ArrowWidth):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ArrowWidth.MEDIUM](../../arrowwidth/#MEDIUM).
 
 

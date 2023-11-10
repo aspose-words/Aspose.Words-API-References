@@ -15,6 +15,13 @@ Returns a [MailMerge](../../../aspose.words.mailmerging/mailmerge/) object that 
 
 
 
+```python
+@property
+def mail_merge(self) -> aspose.words.mailmerging.MailMerge:
+    ...
+
+```
+
 ### Examples
 
 Shows how to execute a mail merge with data from a DataTable.

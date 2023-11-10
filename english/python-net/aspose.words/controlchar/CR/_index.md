@@ -15,6 +15,13 @@ Carriage return character: "\\x000d" or "\\r". Same as [ControlChar.PARAGRAPH_BR
 
 
 
+```python
+@property
+def CR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to use control characters.

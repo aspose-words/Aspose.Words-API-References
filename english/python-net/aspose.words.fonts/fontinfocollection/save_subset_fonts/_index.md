@@ -18,6 +18,20 @@ This option works only when [FontInfoCollection.embed_true_type_fonts](../embed_
 
 
 
+
+```python
+@property
+def save_subset_fonts(self) -> bool:
+    ...
+
+@save_subset_fonts.setter
+def save_subset_fonts(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This option works for DOC, DOCX and RTF formats only.
 
 

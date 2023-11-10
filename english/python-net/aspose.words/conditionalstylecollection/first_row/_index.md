@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstylecollection/first_row/
 Gets the first row style.
 
 
+```python
+@property
+def first_row(self) -> aspose.words.ConditionalStyle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/server
 
 Timestamp server URL.
 
+
+```python
+@property
+def server_url(self) -> str:
+    ...
+
+@server_url.setter
+def server_url(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``None``.
 If ``None``, then the digital signature will not be time-stamped.
 

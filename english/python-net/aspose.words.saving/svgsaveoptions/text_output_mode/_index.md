@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/svgsaveoptions/text_output_mode/
 
 Gets or sets a value determining how text should be rendered in SVG.
 
+
+```python
+@property
+def text_output_mode(self) -> aspose.words.saving.SvgTextOutputMode:
+    ...
+
+@text_output_mode.setter
+def text_output_mode(self, value: aspose.words.saving.SvgTextOutputMode):
+    ...
+
+```
+
+### Remarks
+
 Use this property to get or set the mode of how text inside a document should be rendered
 when saving in SVG format.
 

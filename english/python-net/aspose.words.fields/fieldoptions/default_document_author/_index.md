@@ -15,6 +15,17 @@ Gets or sets default document author's name. If author's name is already specifi
 this option is not considered.
 
 
+```python
+@property
+def default_document_author(self) -> str:
+    ...
+
+@default_document_author.setter
+def default_document_author(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use an AUTHOR field to display a document creator's name.

@@ -21,9 +21,11 @@ def prepend_child(self, new_child: aspose.words.Node):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| new_child | [Node](../../node/) |  |
+| new_child | [Node](../../node/) | The node to add. |
 
-If the  is already in the tree, it is first removed.
+### Remarks
+
+If the *newChild* is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use 
 [DocumentBase.import_node()](../../documentbase/import_node/#node_bool_importformatmode) to import the node to the current document. 

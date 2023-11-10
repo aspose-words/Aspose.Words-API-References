@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/print_col_black/
 Print Colors as Black And White without Dithering.
 
 
+```python
+@property
+def print_col_black(self) -> bool:
+    ...
+
+@print_col_black.setter
+def print_col_black(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/export_embedded_css/
 Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document.
 
 
+```python
+@property
+def export_embedded_css(self) -> bool:
+    ...
+
+@export_embedded_css.setter
+def export_embedded_css(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to determine where to store CSS stylesheets when exporting a document to Html.

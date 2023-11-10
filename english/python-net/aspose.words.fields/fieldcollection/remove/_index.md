@@ -21,7 +21,7 @@ def remove(self, field: aspose.words.fields.Field):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../field/) |  |
+| field | [Field](../../field/) | A field to remove. |
 
 ### Examples
 

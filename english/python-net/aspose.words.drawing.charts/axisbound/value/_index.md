@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/axisbound/value/
 Returns numeric value of axis bound.
 
 
+```python
+@property
+def value(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom axis bounds.

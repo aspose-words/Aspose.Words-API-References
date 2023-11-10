@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldprint/post_script_group/
 Gets or sets the drawing rectangle that the PostScript instructions operate on.
 
 
+```python
+@property
+def post_script_group(self) -> str:
+    ...
+
+@post_script_group.setter
+def post_script_group(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows to insert a PRINT field.

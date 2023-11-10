@@ -15,6 +15,13 @@ Returns ``True`` if this tab stop clears any existing tab stops in this position
 
 
 
+```python
+@property
+def is_clear(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a document's collection of tab stops.

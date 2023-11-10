@@ -14,6 +14,17 @@ url: /python-net/aspose.words.themes/themecolors/dark1/
 Specifies color Dark 1.
 
 
+```python
+@property
+def dark1(self) -> aspose.pydrawing.Color:
+    ...
+
+@dark1.setter
+def dark1(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set custom colors and fonts for themes.

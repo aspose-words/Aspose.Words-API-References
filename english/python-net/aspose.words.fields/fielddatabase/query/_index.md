@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddatabase/query/
 Gets or sets a set of SQL instructions that query the database.
 
 
+```python
+@property
+def query(self) -> str:
+    ...
+
+@query.setter
+def query(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

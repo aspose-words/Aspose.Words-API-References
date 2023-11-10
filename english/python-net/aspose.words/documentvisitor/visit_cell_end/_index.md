@@ -21,7 +21,7 @@ def visit_cell_end(self, cell: aspose.words.tables.Cell):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](../../../aspose.words.tables/cell/) |  |
+| cell | [Cell](../../../aspose.words.tables/cell/) | The object that is being visited. |
 
 ### Returns
 

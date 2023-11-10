@@ -21,8 +21,8 @@ def __init__(self, width_pixels: int, height_pixels: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| width_pixels | int |  |
-| height_pixels | int |  |
+| width_pixels | int | Width in pixels. |
+| height_pixels | int | Height in pixels. |
 
 ## ImageSize(width_pixels, height_pixels, horizontal_resolution, vertical_resolution) {#int_int_float_float}
 
@@ -36,10 +36,10 @@ def __init__(self, width_pixels: int, height_pixels: int, horizontal_resolution:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| width_pixels | int |  |
-| height_pixels | int |  |
-| horizontal_resolution | float |  |
-| vertical_resolution | float |  |
+| width_pixels | int | Width in pixels. |
+| height_pixels | int | Height in pixels. |
+| horizontal_resolution | float | Horizontal resolution in DPI. |
+| vertical_resolution | float | Vertical resolution in DPI. |
 
 ## See Also
 

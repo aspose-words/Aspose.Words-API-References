@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/scaling/
 Provides access to the scaling options of the axis.
 
 
+```python
+@property
+def scaling(self) -> aspose.words.drawing.charts.AxisScaling:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert chart with date/time values.

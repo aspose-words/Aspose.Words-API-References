@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/axisscaling/maximum/
 
 Gets or sets the maximum value of the axis.
 
+
+```python
+@property
+def maximum(self) -> aspose.words.drawing.charts.AxisBound:
+    ...
+
+@maximum.setter
+def maximum(self, value: aspose.words.drawing.charts.AxisBound):
+    ...
+
+```
+
+### Remarks
+
 The default value is "auto".
 
 

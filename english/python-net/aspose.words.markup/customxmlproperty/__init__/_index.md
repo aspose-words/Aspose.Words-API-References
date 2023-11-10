@@ -21,9 +21,9 @@ def __init__(self, name: str, uri: str, value: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
-| uri | str |  |
-| value | str |  |
+| name | str | The name of the property. Cannot be ``None``. |
+| uri | str | The namespace URI of the property. Cannot be ``None``. |
+| value | str | The value of the property. Cannot be ``None``. |
 
 ### Examples
 

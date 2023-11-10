@@ -5,7 +5,7 @@ articleTitle: Node class
 second_title: Aspose.Words for Python
 description: "aspose.words.Node class. Base class for all nodes of a Word document"
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.words/node/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+
+### Remarks
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
@@ -89,7 +91,7 @@ The [Node](./) class:
 |[ as_sub_document()](./as_sub_document/#default) | Cast node to [SubDocument](../subdocument/). |
 |[ as_table()](./as_table/#default) | Cast node to [Table](../../aspose.words.tables/table/). |
 |[ clone(is_clone_children)](./clone/#bool) | Creates a duplicate of the node. |
-|[ get_ancestor(ancestor_type)](./get_ancestor/#unknown) | Gets the first ancestor of the specified object type. |
+|[ get_ancestor(ancestor_type)](./get_ancestor/#object) | Gets the first ancestor of the specified object type. |
 |[ get_ancestor(ancestor_type)](./get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
 |[ get_text()](./get_text/#default) | Gets the text of this node and of all its children. |
 |[ next_pre_order(root_node)](./next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm. |

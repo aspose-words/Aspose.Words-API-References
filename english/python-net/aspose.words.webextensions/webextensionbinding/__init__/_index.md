@@ -21,9 +21,9 @@ def __init__(self, id: str, binding_type: aspose.words.webextensions.WebExtensio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | str |  |
-| binding_type | [WebExtensionBindingType](../../webextensionbindingtype/) |  |
-| app_ref | str |  |
+| id | str | Binding identifier. |
+| binding_type | [WebExtensionBindingType](../../webextensionbindingtype/) | Binding type. |
+| app_ref | str | Binding key used to map the binding entry in this list with the bound data in the document. |
 
 ### Examples
 

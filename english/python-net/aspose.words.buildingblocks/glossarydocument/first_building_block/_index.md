@@ -13,6 +13,16 @@ url: /python-net/aspose.words.buildingblocks/glossarydocument/first_building_blo
 
 Gets the first building block in the glossary document.
 
+
+```python
+@property
+def first_building_block(self) -> aspose.words.buildingblocks.BuildingBlock:
+    ...
+
+```
+
+### Remarks
+
 Returns ``None`` if there are no building blocks available.
 
 

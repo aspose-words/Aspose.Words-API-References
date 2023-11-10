@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/xsl_transformation/
 Gets or sets the location of XSL Transformation to format XML data.
 
 
+```python
+@property
+def xsl_transformation(self) -> str:
+    ...
+
+@xsl_transformation.setter
+def xsl_transformation(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

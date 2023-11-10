@@ -15,6 +15,17 @@ Gets or sets layout of the watermark. The default value is [WatermarkLayout.DIAG
 
 
 
+```python
+@property
+def layout(self) -> aspose.words.WatermarkLayout:
+    ...
+
+@layout.setter
+def layout(self, value: aspose.words.WatermarkLayout):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a text watermark.

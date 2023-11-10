@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartmarker/format/
 Provides access to fill and line formatting of this marker.
 
 
+```python
+@property
+def format(self) -> aspose.words.drawing.charts.ChartFormat:
+    ...
+
+```
+
 ### Examples
 
 Show how to set marker formatting.

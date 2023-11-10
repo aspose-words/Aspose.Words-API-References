@@ -17,6 +17,8 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 
 
+### Remarks
+
 Borders can be applied to various document elements including paragraph,
 run of text inside a paragraph or a table cell.
 

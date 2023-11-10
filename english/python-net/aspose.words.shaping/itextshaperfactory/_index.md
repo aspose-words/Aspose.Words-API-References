@@ -19,8 +19,8 @@ An interface of a factory for constructing [ITextShaper](../itextshaper/) implem
 
 | Name | Description |
 | --- | --- |
-|[ get_text_shaper(font_path, face_index)](./get_text_shaper/#str_int) | Returns new instance of a text shaper for the font specified by  and. |
-|[ get_text_shaper(font_id, font_blob, face_index)](./get_text_shaper/#str_bytes_int) | Returns new instance of a text shaper for the font represented by  and. |
+|[ get_text_shaper(font_path, face_index)](./get_text_shaper/#str_int) | Returns new instance of a text shaper for the font specified by *fontPath* and*faceIndex*. |
+|[ get_text_shaper(font_id, font_blob, face_index)](./get_text_shaper/#str_bytes_int) | Returns new instance of a text shaper for the font represented by *fontBlob* and*faceIndex*. |
 
 ### See Also
 

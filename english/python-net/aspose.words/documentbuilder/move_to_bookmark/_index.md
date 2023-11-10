@@ -21,7 +21,9 @@ def move_to_bookmark(self, bookmark_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark_name | str |  |
+| bookmark_name | str | The name of the bookmark to move the cursor to. |
+
+### Remarks
 
 Moves the cursor to a position just after the start of the bookmark with the
 specified name.
@@ -56,9 +58,11 @@ def move_to_bookmark(self, bookmark_name: str, is_start: bool, is_after: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark_name | str |  |
-| is_start | bool |  |
-| is_after | bool |  |
+| bookmark_name | str | The name of the bookmark to move the cursor to. |
+| is_start | bool | When ``True``, moves the cursor to the beginning of the bookmark. When ``False``, moves the cursor to the end of the bookmark. |
+| is_after | bool | When ``True``, moves the cursor to be after the bookmark start or end position. When ``False``, moves the cursor to be before the bookmark start or end position. |
+
+### Remarks
 
 Moves the cursor to a position before or after the bookmark start or end.
 

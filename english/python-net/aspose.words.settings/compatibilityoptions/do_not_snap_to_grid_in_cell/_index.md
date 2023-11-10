@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/do_not_snap_to_grid_
 Do Not Snap to Document Grid in Table Cells with Objects.
 
 
+```python
+@property
+def do_not_snap_to_grid_in_cell(self) -> bool:
+    ...
+
+@do_not_snap_to_grid_in_cell.setter
+def do_not_snap_to_grid_in_cell(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

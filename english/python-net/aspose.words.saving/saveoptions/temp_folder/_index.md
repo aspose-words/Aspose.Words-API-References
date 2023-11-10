@@ -15,12 +15,30 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 By default this property is ``None`` and no temporary files are used.
 
 
+
+```python
+@property
+def temp_folder(self) -> str:
+    ...
+
+@temp_folder.setter
+def temp_folder(self, value: str):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(OutOfMemoryException)) | Throw if you are saving a very large document (thousands of pages) and/or processing many documents at the same time. The memory spike during saving can be significant enough to cause the exception. |
+
+### Remarks
+
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default,
 these internal structures are created in memory and the memory usage spikes for a short period while
 the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time,
-then the memory spike during saving can be significant enough to cause the system to throw System.OutOfMemoryException.
 Specifying a temporary folder using [SaveOptions.temp_folder](./) will cause Aspose.Words to keep the internal structures in
 temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 

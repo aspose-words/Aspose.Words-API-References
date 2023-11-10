@@ -21,7 +21,9 @@ def accept(self, visitor: aspose.words.DocumentVisitor):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../documentvisitor/) | The visitor that will visit the nodes. |
+
+### Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../documentvisitor/).
 

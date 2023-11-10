@@ -13,14 +13,32 @@ url: /python-net/aspose.words.drawing/horizontalruleformat/width_percent/
 
 Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width.
 
+
+```python
+@property
+def width_percent(self) -> float:
+    ...
+
+@width_percent.setter
+def width_percent(self, value: float):
+    ...
+
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when argument was out of the range of valid values. |
+
+### Remarks
+
 Valid values ​​range from 1 to 100 inclusive.
 
 The default value is 100.
 
 
 
-:raises System.ArgumentOutOfRangeException: Throws when argument was out of the range of valid values.
-                                            
 
 ### Examples
 

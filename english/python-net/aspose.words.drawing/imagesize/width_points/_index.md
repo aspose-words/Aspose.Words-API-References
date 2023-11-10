@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/imagesize/width_points/
 Gets the width of the image in points. 1 point is 1/72 inch.
 
 
+```python
+@property
+def width_points(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to resize a shape with an image.

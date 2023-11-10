@@ -15,6 +15,17 @@ Gets or sets the position of text (in points) relative to the base line.
 A positive number raises the text, and a negative number lowers it.
 
 
+```python
+@property
+def position(self) -> float:
+    ...
+
+@position.setter
+def position(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format text to offset its position.

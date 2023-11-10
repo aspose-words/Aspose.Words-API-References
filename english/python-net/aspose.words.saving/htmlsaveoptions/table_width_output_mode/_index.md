@@ -5,7 +5,7 @@ articleTitle: table_width_output_mode property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.table_width_output_mode property. Controls how table, row and cell widths are exported to HTML, MHTML or EPUB"
 type: docs
-weight: 470
+weight: 460
 url: /python-net/aspose.words.saving/htmlsaveoptions/table_width_output_mode/
 ---
 
@@ -14,6 +14,20 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/table_width_output_mode/
 Controls how table, row and cell widths are exported to HTML, MHTML or EPUB.
 Default value is [HtmlElementSizeOutputMode.ALL](../../htmlelementsizeoutputmode/#ALL).
 
+
+
+```python
+@property
+def table_width_output_mode(self) -> aspose.words.saving.HtmlElementSizeOutputMode:
+    ...
+
+@table_width_output_mode.setter
+def table_width_output_mode(self, value: aspose.words.saving.HtmlElementSizeOutputMode):
+    ...
+
+```
+
+### Remarks
 
 In the HTML format, table, row and cell elements 
 (**\<table\>**, **\<tr\>**, **\<th\>**, **\<td\>**)

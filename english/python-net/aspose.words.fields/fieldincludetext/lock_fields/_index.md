@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldincludetext/lock_fields/
 Gets or sets whether to prevent fields in the included document from being updated.
 
 
+```python
+@property
+def lock_fields(self) -> bool:
+    ...
+
+@lock_fields.setter
+def lock_fields(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.

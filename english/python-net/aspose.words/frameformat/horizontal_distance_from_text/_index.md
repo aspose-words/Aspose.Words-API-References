@@ -14,6 +14,13 @@ url: /python-net/aspose.words/frameformat/horizontal_distance_from_text/
 Gets horizontal distance between a frame and the surrounding text, in points.
 
 
+```python
+@property
+def horizontal_distance_from_text(self) -> float:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.

@@ -14,6 +14,13 @@ url: /python-net/aspose.words/paragraphformat/tab_stops/
 Gets the collection of custom tab stops defined for this object.
 
 
+```python
+@property
+def tab_stops(self) -> aspose.words.TabStopCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.

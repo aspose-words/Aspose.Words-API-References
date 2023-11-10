@@ -14,6 +14,13 @@ url: /python-net/aspose.words/conditionalstylecollection/top_right_cell/
 Gets the top right cell style.
 
 
+```python
+@property
+def top_right_cell(self) -> aspose.words.ConditionalStyle:
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with certain area styles of a table.

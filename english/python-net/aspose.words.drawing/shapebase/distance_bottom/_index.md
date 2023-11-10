@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/distance_bottom/
 
 Returns or sets the distance (in points) between the document text and the bottom edge of the shape.
 
+
+```python
+@property
+def distance_bottom(self) -> float:
+    ...
+
+@distance_bottom.setter
+def distance_bottom(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 0.
 
 Has effect only for top level shapes.

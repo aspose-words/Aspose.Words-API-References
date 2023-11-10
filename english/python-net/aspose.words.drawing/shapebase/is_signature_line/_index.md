@@ -15,6 +15,13 @@ Indicates that shape is a [SignatureLine](../../signatureline/).
 
 
 
+```python
+@property
+def is_signature_line(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create a line for a signature and insert it into a document.

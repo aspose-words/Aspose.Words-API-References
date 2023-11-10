@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing/shapebase/parent_paragraph/
 
 Returns the immediate parent paragraph.
 
+
+```python
+@property
+def parent_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
+### Remarks
+
 For child shapes of a group shape and child shapes of an Office Math object always returns ``None``.
 
 

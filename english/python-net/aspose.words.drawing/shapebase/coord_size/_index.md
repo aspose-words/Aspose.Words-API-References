@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/coord_size/
 
 The width and height of the coordinate space inside the containing block of this shape.
 
+
+```python
+@property
+def coord_size(self) -> aspose.pydrawing.Size:
+    ...
+
+@coord_size.setter
+def coord_size(self, value: aspose.pydrawing.Size):
+    ...
+
+```
+
+### Remarks
+
 The default value is (1000, 1000).
 
 

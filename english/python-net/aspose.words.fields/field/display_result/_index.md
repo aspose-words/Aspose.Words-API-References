@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fields/field/display_result/
 
 Gets the text that represents the displayed field result.
 
+
+```python
+@property
+def display_result(self) -> str:
+    ...
+
+```
+
+### Remarks
+
 The [Document.update_list_labels()](../../../aspose.words/document/update_list_labels/#default) method must be called to obtain correct value for the
 [FieldListNum](../../fieldlistnum/), [FieldAutoNum](../../fieldautonum/), [FieldAutoNumOut](../../fieldautonumout/) and [FieldAutoNumLgl](../../fieldautonumlgl/) fields.
 

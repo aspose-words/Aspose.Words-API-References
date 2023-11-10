@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/outlineoptions/default_bookmarks_outline_le
 
 Specifies the default level in the document outline at which to display Word bookmarks.
 
+
+```python
+@property
+def default_bookmarks_outline_level(self) -> int:
+    ...
+
+@default_bookmarks_outline_level.setter
+def default_bookmarks_outline_level(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Individual bookmarks level could be specified using [OutlineOptions.bookmarks_outline_levels](../bookmarks_outline_levels/) property.
 
 Specify 0 and Word bookmarks will not be displayed in the document outline.

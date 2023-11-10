@@ -21,7 +21,7 @@ def remove(self, module: aspose.words.vba.VbaModule):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| module | [VbaModule](../../vbamodule/) |  |
+| module | [VbaModule](../../vbamodule/) | The module to remove. |
 
 ### Examples
 

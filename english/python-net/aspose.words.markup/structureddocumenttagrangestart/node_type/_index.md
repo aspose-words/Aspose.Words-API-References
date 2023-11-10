@@ -15,6 +15,13 @@ Returns [NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START](../../../aspose.words/nod
 
 
 
+```python
+@property
+def node_type(self) -> aspose.words.NodeType:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

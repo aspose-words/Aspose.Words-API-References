@@ -14,6 +14,13 @@ url: /python-net/aspose.words/pagesetup/text_columns/
 Returns a collection that represents the set of text columns.
 
 
+```python
+@property
+def text_columns(self) -> aspose.words.TextColumnCollection:
+    ...
+
+```
+
 ### Examples
 
 Shows how to create multiple evenly spaced columns in a section.

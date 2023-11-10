@@ -16,6 +16,13 @@ Corresponding [StructuredDocumentTagRangeStart](../../structureddocumenttagrange
 
 
 
+```python
+@property
+def id(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the properties of multi-section structured document tags.

@@ -15,6 +15,17 @@ Gets or sets the name of the sequence identifier used when building a table of f
 label and number.
 
 
+```python
+@property
+def captionless_table_of_figures_label(self) -> str:
+    ...
+
+@captionless_table_of_figures_label.setter
+def captionless_table_of_figures_label(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

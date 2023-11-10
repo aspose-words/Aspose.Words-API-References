@@ -13,6 +13,20 @@ url: /python-net/aspose.words.markup/custompart/is_external/
 
 False if this custom part is stored inside the OOXML package. True if this custom part is an external target.
 
+
+```python
+@property
+def is_external(self) -> bool:
+    ...
+
+@is_external.setter
+def is_external(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/barcode_value/
 Data to be encoded.
 
 
+```python
+@property
+def barcode_value(self) -> str:
+    ...
+
+@barcode_value.setter
+def barcode_value(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

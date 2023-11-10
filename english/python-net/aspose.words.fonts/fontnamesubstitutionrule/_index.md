@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 
 
+### Remarks
+
 According to this rule Aspose.Words tries to process the font name to get the substitution. Particularly
 Aspose.Words tries to removes suffixes with '-', ',' and '(' separators like it does the MS Word.
 

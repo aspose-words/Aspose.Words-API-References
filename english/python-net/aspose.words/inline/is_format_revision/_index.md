@@ -14,6 +14,13 @@ url: /python-net/aspose.words/inline/is_format_revision/
 Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
 
 
+```python
+@property
+def is_format_revision(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to determine the revision type of an inline node.

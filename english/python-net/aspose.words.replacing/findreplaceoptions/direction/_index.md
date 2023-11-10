@@ -15,6 +15,17 @@ Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](.
 
 
 
+```python
+@property
+def direction(self) -> aspose.words.replacing.FindReplaceDirection:
+    ...
+
+@direction.setter
+def direction(self, value: aspose.words.replacing.FindReplaceDirection):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

@@ -15,6 +15,17 @@ Gets or sets a value representing the transparency of the gradient fill
 expressed as a percent in range 0.0 to 1.0.
 
 
+```python
+@property
+def transparency(self) -> float:
+    ...
+
+@transparency.setter
+def transparency(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add gradient stops to the gradient fill.

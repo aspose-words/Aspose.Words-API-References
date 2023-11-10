@@ -22,8 +22,10 @@ def __init__(self, doc: aspose.words.DocumentBase, type: aspose.words.markup.Sdt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
-| type | [SdtType](../../sdttype/) |  |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
+| type | [SdtType](../../sdttype/) | Type of SDT node. |
+
+### Remarks
 
 The following types of SDT can be created:
 

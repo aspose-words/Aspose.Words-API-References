@@ -13,6 +13,20 @@ url: /python-net/aspose.words.settings/compatibilityoptions/autofit_to_first_fix
 
 Allow Table Columns To Exceed Preferred Widths of Constituent Cells.
 
+
+```python
+@property
+def autofit_to_first_fixed_width_cell(self) -> bool:
+    ...
+
+@autofit_to_first_fixed_width_cell.setter
+def autofit_to_first_fixed_width_cell(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user interface.
 It actually affects how the grid is calculated for fixed layout tables, too (for some cases).
 

@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/scaling/
 Gets or sets character width scaling in percent.
 
 
+```python
+@property
+def scaling(self) -> int:
+    ...
+
+@scaling.setter
+def scaling(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set horizontal scaling and spacing for characters.

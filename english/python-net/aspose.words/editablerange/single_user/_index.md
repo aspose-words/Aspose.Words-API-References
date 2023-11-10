@@ -13,6 +13,20 @@ url: /python-net/aspose.words/editablerange/single_user/
 
 Returns or sets the single user for editable range.
 
+
+```python
+@property
+def single_user(self) -> str:
+    ...
+
+@single_user.setter
+def single_user(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This editor can be stored in one of the following forms:
 
 DOMAIN\\Username - for users whose access shall be authenticated using the current user's domain credentials.

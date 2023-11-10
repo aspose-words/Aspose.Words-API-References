@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/barcode_type/
 Bar code type.
 
 
+```python
+@property
+def barcode_type(self) -> str:
+    ...
+
+@barcode_type.setter
+def barcode_type(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

@@ -14,6 +14,20 @@ url: /python-net/aspose.words/editablerange/editor_group/
 Returns or sets an alias (or editing group) which shall be used to determine if the current user
 shall be allowed to edit this editable range.
 
+
+```python
+@property
+def editor_group(self) -> aspose.words.EditorType:
+    ...
+
+@editor_group.setter
+def editor_group(self, value: aspose.words.EditorType):
+    ...
+
+```
+
+### Remarks
+
 Single user and editor group cannot be set simultaneously for the specific editable range,
 if the one is set, the other will be clear.
 

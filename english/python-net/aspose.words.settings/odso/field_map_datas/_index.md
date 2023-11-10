@@ -17,6 +17,17 @@ This object is never ``None``.
 
 
 
+```python
+@property
+def field_map_datas(self) -> aspose.words.settings.OdsoFieldMapDataCollection:
+    ...
+
+@field_map_datas.setter
+def field_map_datas(self, value: aspose.words.settings.OdsoFieldMapDataCollection):
+    ...
+
+```
+
 ### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.

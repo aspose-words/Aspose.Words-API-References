@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shapebase/size_in_points/
 Gets the size of the shape in points.
 
 
+```python
+@property
+def size_in_points(self) -> aspose.pydrawing.SizeF:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify a shape's size and markup language.

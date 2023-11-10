@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/is_bidi_text_supported_on_upda
 
 Gets or sets the value indicating whether bidirectional text is fully supported during field update or not.
 
+
+```python
+@property
+def is_bidi_text_supported_on_update(self) -> bool:
+    ...
+
+@is_bidi_text_supported_on_update.setter
+def is_bidi_text_supported_on_update(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When this property is set to ``True``, additional steps are performed to produce Right-To-Left language
 (i.e. Arabic or Hebrew) compatible field result during its update.
 

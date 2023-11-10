@@ -14,6 +14,20 @@ url: /python-net/aspose.words.markup/structureddocumenttag/date_display_locale/
 Allows to set/get the language format for the date displayed in this **SDT**.
 
 
+
+```python
+@property
+def date_display_locale(self) -> int:
+    ...
+
+@date_display_locale.setter
+def date_display_locale(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Accessing this property will only work for [SdtType.DATE](../../sdttype/#DATE) SDT type.
 
 

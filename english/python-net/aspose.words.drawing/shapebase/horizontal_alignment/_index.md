@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/shapebase/horizontal_alignment/
 
 Specifies how the shape is positioned horizontally.
 
+
+```python
+@property
+def horizontal_alignment(self) -> aspose.words.drawing.HorizontalAlignment:
+    ...
+
+@horizontal_alignment.setter
+def horizontal_alignment(self, value: aspose.words.drawing.HorizontalAlignment):
+    ...
+
+```
+
+### Remarks
+
 The default value is [HorizontalAlignment.NONE](../../horizontalalignment/#NONE).
 
 Has effect only for top level floating shapes.

@@ -13,6 +13,16 @@ url: /python-net/aspose.words/documentbuilder/current_node/
 
 Gets the node that is currently selected in this DocumentBuilder.
 
+
+```python
+@property
+def current_node(self) -> aspose.words.Node:
+    ...
+
+```
+
+### Remarks
+
 [DocumentBuilder.current_node](./) is a cursor of [DocumentBuilder](../) and points to a [Node](../../node/)
 that is a direct child of a [Paragraph](../../paragraph/). Any insert operations you perform using
 [DocumentBuilder](../) will insert before the [DocumentBuilder.current_node](./).

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/conv_mail_merge_esc/
 Treat Backslash Quotation Delimiter as Two Quotation Marks.
 
 
+```python
+@property
+def conv_mail_merge_esc(self) -> bool:
+    ...
+
+@conv_mail_merge_esc.setter
+def conv_mail_merge_esc(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

@@ -18,8 +18,8 @@ Specifies the granularity of changes to track when comparing two documents.
 
 | Name | Description |
 | --- | --- |
-| CHAR_LEVEL |  |
-| WORD_LEVEL |  |
+| CHAR_LEVEL | Specifies changes at the character level. |
+| WORD_LEVEL | Specifies changes at the word level. |
 
 ### Examples
 

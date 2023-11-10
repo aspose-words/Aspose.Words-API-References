@@ -14,6 +14,16 @@ url: /python-net/aspose.words.drawing/shape/signature_line/
 Gets [SignatureLine](../../signatureline/) object if the shape is a signature line. Returns ``None`` otherwise.
 
 
+
+```python
+@property
+def signature_line(self) -> aspose.words.drawing.SignatureLine:
+    ...
+
+```
+
+### Remarks
+
 You can insert new [SignatureLine](../../signatureline/) into the document using [DocumentBuilder.insert_signature_line()](../../../aspose.words/documentbuilder/insert_signature_line/#signaturelineoptions) and
 
 

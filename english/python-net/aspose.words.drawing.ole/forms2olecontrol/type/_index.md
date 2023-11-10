@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrol/type/
 Gets type of Forms 2.0 control.
 
 
+```python
+@property
+def type(self) -> aspose.words.drawing.ole.Forms2OleControlType:
+    ...
+
+```
+
 ### Examples
 
 Shows how to verify the properties of an ActiveX control.

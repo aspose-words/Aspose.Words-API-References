@@ -13,6 +13,20 @@ url: /python-net/aspose.words.tables/cellformat/preferred_width/
 
 Returns or sets the preferred width of the cell.
 
+
+```python
+@property
+def preferred_width(self) -> aspose.words.tables.PreferredWidth:
+    ...
+
+@preferred_width.setter
+def preferred_width(self, value: aspose.words.tables.PreferredWidth):
+    ...
+
+```
+
+### Remarks
+
 The preferred width (along with the table's Auto Fit option) determines how the actual
 width of the cell is calculated by the table layout algorithm. Table layout can be performed by
 Aspose.Words when it saves the document or by Microsoft Word when it displays the document.

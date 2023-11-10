@@ -21,7 +21,7 @@ def from_points(self, points: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | float |  |
+| points | float | The value must be from 0 to 22 inches (22 \* 72 points). |
 
 ### Examples
 

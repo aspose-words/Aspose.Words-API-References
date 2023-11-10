@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/userinformation/name/
 Gets or sets the user's name.
 
 
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set user details, and display them using fields.

@@ -13,6 +13,20 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/type/
 
 Specifies the building block type.
 
+
+```python
+@property
+def type(self) -> aspose.words.buildingblocks.BuildingBlockType:
+    ...
+
+@type.setter
+def type(self, value: aspose.words.buildingblocks.BuildingBlockType):
+    ...
+
+```
+
+### Remarks
+
 The building block type can influence the visibility and behavior of the 
 building block in Microsoft Word.
 

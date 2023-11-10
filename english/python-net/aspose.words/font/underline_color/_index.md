@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/underline_color/
 Gets or sets the color of the underline applied to the font.
 
 
+```python
+@property
+def underline_color(self) -> aspose.pydrawing.Color:
+    ...
+
+@underline_color.setter
+def underline_color(self, value: aspose.pydrawing.Color):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure the style and color of a text underline.

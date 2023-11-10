@@ -21,15 +21,17 @@ def move_to_structured_document_tag(self, structured_document_tag_index: int, ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| structured_document_tag_index | int |  |
-| character_index | int |  |
+| structured_document_tag_index | int | The index of the structured document tag to move to. |
+| character_index | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
+
+### Remarks
 
 The navigation is performed inside the current story of the current section. That is, if you moved the
-cursor to the primary header of the first section, then 
+cursor to the primary header of the first section, then *structuredDocumentTagIndex*
 specified the index of the structured document tag inside that header of that section.
 
-When  is greater than or equal to 0, it specifies an index
-from the beginning of the section with 0 being the first structured document tag. When is less than 0, it specified an index from the end of the
+When *structuredDocumentTagIndex* is greater than or equal to 0, it specifies an index
+from the beginning of the section with 0 being the first structured document tag. When*structuredDocumentTagIndex* is less than 0, it specified an index from the end of the
 section with -1 being the last structured document tag.
 
 
@@ -47,8 +49,8 @@ def move_to_structured_document_tag(self, structured_document_tag: aspose.words.
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| structured_document_tag | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) |  |
-| character_index | int |  |
+| structured_document_tag | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) | The structured document tag to move to. |
+| character_index | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
 ## Examples
 

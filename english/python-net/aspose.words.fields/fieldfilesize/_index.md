@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Retrieves the size of the current document's file or 0 if the size cannot be determined.
 
 In the current implementation, uses the [Document.original_file_name](../../aspose.words/document/original_file_name/) property to retrieve

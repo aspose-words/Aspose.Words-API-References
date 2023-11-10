@@ -21,7 +21,7 @@ def visit_header_footer_end(self, header_footer: aspose.words.HeaderFooter):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| header_footer | [HeaderFooter](../../headerfooter/) |  |
+| header_footer | [HeaderFooter](../../headerfooter/) | The object that is being visited. |
 
 ### Returns
 

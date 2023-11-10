@@ -17,6 +17,8 @@ To learn more, visit the [Document Builder Overview](https://docs.aspose.com/wor
 
 
 
+### Remarks
+
 [DocumentBuilder](./) makes the process of building a [Document](../document/) easier.
 [Document](../document/) is a composite object consisting of a tree of nodes and while inserting content
 nodes directly into the tree is possible, it requires good understanding of the tree structure.

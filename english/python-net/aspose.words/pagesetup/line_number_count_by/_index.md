@@ -14,6 +14,17 @@ url: /python-net/aspose.words/pagesetup/line_number_count_by/
 Returns or sets the numeric increment for line numbers.
 
 
+```python
+@property
+def line_number_count_by(self) -> int:
+    ...
+
+@line_number_count_by.setter
+def line_number_count_by(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to enable line numbering for a section.

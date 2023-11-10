@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/page_mode/
 
 Specifies how the PDF document should be displayed when opened in the PDF reader.
 
+
+```python
+@property
+def page_mode(self) -> aspose.words.saving.PdfPageMode:
+    ...
+
+@page_mode.setter
+def page_mode(self, value: aspose.words.saving.PdfPageMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [PdfPageMode.USE_OUTLINES](../../pdfpagemode/#USE_OUTLINES).
 
 

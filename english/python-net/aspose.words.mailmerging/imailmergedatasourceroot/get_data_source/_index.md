@@ -21,7 +21,9 @@ def get_data_source(self, table_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table_name | str |  |
+| table_name | str | The name of the mail merge region as specified in the template document. Case-insensitive. |
+
+### Remarks
 
 When the Aspose.Words mail merge engines populates a document with data and encounters MERGEFIELD TableStart:TableName,
 it invokes [IMailMergeDataSourceRoot.get_data_source()](./#str) on this object. Your implementation needs to return a new data source object.

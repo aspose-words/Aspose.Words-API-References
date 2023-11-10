@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/major_unit_is_auto/
 
 Gets or sets a flag indicating whether default distance between major tick marks shall be used.
 
+
+```python
+@property
+def major_unit_is_auto(self) -> bool:
+    ...
+
+@major_unit_is_auto.setter
+def major_unit_is_auto(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The property has effect for time category and value axes.
 
 

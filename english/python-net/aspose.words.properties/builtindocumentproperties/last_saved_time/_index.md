@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/last_saved_ti
 
 Gets or sets the time of the last save in UTC.
 
+
+```python
+@property
+def last_saved_time(self) -> datetime.datetime:
+    ...
+
+@last_saved_time.setter
+def last_saved_time(self, value: datetime.datetime):
+    ...
+
+```
+
+### Remarks
+
 For documents originated from RTF format this property returns the local time of last save operation.
 
 Aspose.Words does not update this property.

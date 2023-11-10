@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/stroke/image_bytes/
 Defines the image for a stroke image or pattern fill.
 
 
+```python
+@property
+def image_bytes(self) -> bytes:
+    ...
+
+```
+
 ### Examples
 
 Shows how to process shape stroke features.

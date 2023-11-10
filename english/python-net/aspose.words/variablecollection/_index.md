@@ -5,7 +5,7 @@ articleTitle: VariableCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.VariableCollection class. A collection of document variables"
 type: docs
-weight: 1310
+weight: 1320
 url: /python-net/aspose.words/variablecollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Work with Document Properties](https://docs.aspose.com
 
 
 
+
+### Remarks
 
 Variable names and values are strings.
 

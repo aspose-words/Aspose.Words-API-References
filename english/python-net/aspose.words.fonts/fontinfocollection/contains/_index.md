@@ -21,7 +21,7 @@ def contains(self, name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | str |  |
+| name | str | Case-insensitive name of the font to locate. |
 
 ### Returns
 

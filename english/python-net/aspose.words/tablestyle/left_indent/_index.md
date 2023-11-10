@@ -14,6 +14,17 @@ url: /python-net/aspose.words/tablestyle/left_indent/
 Gets or sets the value that represents the left indent of a table.
 
 
+```python
+@property
+def left_indent(self) -> float:
+    ...
+
+@left_indent.setter
+def left_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set the position of a table.

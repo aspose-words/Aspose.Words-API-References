@@ -21,8 +21,10 @@ def set_checked_symbol(self, character_code: int, font_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| character_code | int |  |
-| font_name | str |  |
+| character_code | int | The character code for the specified symbol. |
+| font_name | str | The name of the font that contains the symbol. |
+
+### Remarks
 
 Accessing this method will only work for [SdtType.CHECKBOX](../../sdttype/#CHECKBOX) SDT types.
 

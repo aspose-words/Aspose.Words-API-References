@@ -21,7 +21,7 @@ def visit_comment_start(self, comment: aspose.words.Comment):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comment | [Comment](../../comment/) |  |
+| comment | [Comment](../../comment/) | The object that is being visited. |
 
 ### Returns
 

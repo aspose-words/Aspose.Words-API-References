@@ -17,6 +17,8 @@ To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Use the [Shape.text_path](../shape/text_path/) property to access WordArt properties of a shape.
 You do not create instances of the [TextPath](./) class directly.
 

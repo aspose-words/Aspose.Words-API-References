@@ -14,6 +14,20 @@ url: /python-net/aspose.words.mailmerging/mailmerge/merge_duplicate_regions/
 Gets or sets a value indicating whether all of the document mail merge regions with the name of a data source
 should be merged while executing of a mail merge with regions against the data source or just the first one.
 
+
+```python
+@property
+def merge_duplicate_regions(self) -> bool:
+    ...
+
+@merge_duplicate_regions.setter
+def merge_duplicate_regions(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 The default value is ``False``.
 
 

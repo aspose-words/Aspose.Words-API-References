@@ -14,6 +14,13 @@ url: /python-net/aspose.words/run/is_phonetic_guide/
 Gets a boolean value indicating either the run is a phonetic guide.
 
 
+```python
+@property
+def is_phonetic_guide(self) -> bool:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

@@ -16,6 +16,17 @@ Can be negative, negative means that property is not set and no explosion should
 Applies only to Pie charts.
 
 
+```python
+@property
+def explosion(self) -> int:
+    ...
+
+@explosion.setter
+def explosion(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.drawing.charts](../../)

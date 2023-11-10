@@ -14,6 +14,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/count
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to sign documents with X.509 certificates.

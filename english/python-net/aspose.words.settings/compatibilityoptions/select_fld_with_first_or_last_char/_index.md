@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/select_fld_with_firs
 Select Field When First or Last Character Is Selected.
 
 
+```python
+@property
+def select_fld_with_first_or_last_char(self) -> bool:
+    ...
+
+@select_fld_with_first_or_last_char.setter
+def select_fld_with_first_or_last_char(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

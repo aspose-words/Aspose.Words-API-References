@@ -15,6 +15,17 @@ True if endnotes are printed at the end of the next section that doesn't suppres
 Suppressed endnotes are printed before the endnotes in that section.
 
 
+```python
+@property
+def suppress_endnotes(self) -> bool:
+    ...
+
+@suppress_endnotes.setter
+def suppress_endnotes(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to store endnotes at the end of each section, and modify their positions.

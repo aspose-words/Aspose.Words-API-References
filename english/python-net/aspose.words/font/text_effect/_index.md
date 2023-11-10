@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/text_effect/
 Gets or sets the font animation effect.
 
 
+```python
+@property
+def text_effect(self) -> aspose.words.TextEffect:
+    ...
+
+@text_effect.setter
+def text_effect(self, value: aspose.words.TextEffect):
+    ...
+
+```
+
 ### Examples
 
 Shows how to apply a visual effect to a run.

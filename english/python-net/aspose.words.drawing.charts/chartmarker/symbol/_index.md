@@ -14,6 +14,17 @@ url: /python-net/aspose.words.drawing.charts/chartmarker/symbol/
 Gets or sets chart marker symbol.
 
 
+```python
+@property
+def symbol(self) -> aspose.words.drawing.charts.MarkerSymbol:
+    ...
+
+@symbol.setter
+def symbol(self, value: aspose.words.drawing.charts.MarkerSymbol):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with data points on a line chart.

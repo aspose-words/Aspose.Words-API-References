@@ -15,6 +15,20 @@ Gets or sets a value indicating whether to ignore \<noscript\> HTML elements.
 Default value is ``False``.
 
 
+
+```python
+@property
+def ignore_noscript_elements(self) -> bool:
+    ...
+
+@ignore_noscript_elements.setter
+def ignore_noscript_elements(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Like MS Word, Aspose.Words does not support scripts and by default loads content of \<noscript\> elements
 into the resulting document. In most browsers, however, scripts are supported and content from \<noscript\>
 is not visible. Setting this property to ``True`` forces Aspose.Words to ignore all \<noscript\> elements

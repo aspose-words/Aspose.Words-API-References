@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldindex/cross_reference_separator/
 Gets or sets the character sequence that is used to separate cross references and other entries.
 
 
+```python
+@property
+def cross_reference_separator(self) -> str:
+    ...
+
+@cross_reference_separator.setter
+def cross_reference_separator(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to define cross references in an INDEX field.

@@ -21,7 +21,9 @@ def prepend_content(self, source_section: aspose.words.Section):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source_section | [Section](../) |  |
+| source_section | [Section](../) | The section to copy content from. |
+
+### Remarks
 
 Only content of [Section.body](../body/) of the source section is copied, page setup,
 headers and footers are not copied.

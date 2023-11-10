@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesavingargs/keep_image_stream_open/
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving an image.
 
+
+```python
+@property
+def keep_image_stream_open(self) -> bool:
+    ...
+
+@keep_image_stream_open.setter
+def keep_image_stream_open(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Default is ``False`` and Aspose.Words will close the stream you provided
 in the [ImageSavingArgs.image_stream](../image_stream/) property after writing an image into it.
 Specify ``True`` to keep the stream open.

@@ -5,7 +5,7 @@ articleTitle: TabStopCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.TabStopCollection class. A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style"
 type: docs
-weight: 1200
+weight: 1210
 url: /python-net/aspose.words/tabstopcollection/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs
 
 
 
+
+### Remarks
 
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph
 style or directly in the properties of a paragraph. A style can be based on another style.

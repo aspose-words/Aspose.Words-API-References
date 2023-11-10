@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/layout_raw_table_wid
 Ignore Space Before Table When Deciding If Table Should Wrap Floating Object.
 
 
+```python
+@property
+def layout_raw_table_width(self) -> bool:
+    ...
+
+@layout_raw_table_width.setter
+def layout_raw_table_width(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

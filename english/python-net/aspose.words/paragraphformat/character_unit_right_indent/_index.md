@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/character_unit_right_indent/
 Gets or sets the right indent value (in characters) for the specified paragraphs.
 
 
+```python
+@property
+def character_unit_right_indent(self) -> float:
+    ...
+
+@character_unit_right_indent.setter
+def character_unit_right_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to change paragraph spacing and indents.

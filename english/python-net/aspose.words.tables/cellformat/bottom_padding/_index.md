@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/cellformat/bottom_padding/
 Returns or sets the amount of space (in points) to add below the contents of cell.
 
 
+```python
+@property
+def bottom_padding(self) -> float:
+    ...
+
+@bottom_padding.setter
+def bottom_padding(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to format cells with a document builder.

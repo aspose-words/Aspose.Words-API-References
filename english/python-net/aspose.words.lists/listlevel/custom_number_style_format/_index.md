@@ -14,6 +14,13 @@ url: /python-net/aspose.words.lists/listlevel/custom_number_style_format/
 Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...".
 
 
+```python
+@property
+def custom_number_style_format(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to get the format for a list with the custom number style.

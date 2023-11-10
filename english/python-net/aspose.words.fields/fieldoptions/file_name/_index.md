@@ -13,6 +13,20 @@ url: /python-net/aspose.words.fields/fieldoptions/file_name/
 
 Gets or sets the file name of the document.
 
+
+```python
+@property
+def file_name(self) -> str:
+    ...
+
+@file_name.setter
+def file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 This property is used by the [FieldFileName](../../fieldfilename/) field with higher priority than the [Document.original_file_name](../../../aspose.words/document/original_file_name/) property.
 
 

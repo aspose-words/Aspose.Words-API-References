@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/paper_size/
 
 Returns or sets the paper size.
 
+
+```python
+@property
+def paper_size(self) -> aspose.words.PaperSize:
+    ...
+
+@paper_size.setter
+def paper_size(self, value: aspose.words.PaperSize):
+    ...
+
+```
+
+### Remarks
+
 Setting this property updates [PageSetup.page_width](../page_width/) and [PageSetup.page_height](../page_height/) values.
 Setting this value to [PaperSize.CUSTOM](../../papersize/#CUSTOM) does not change existing values.
 

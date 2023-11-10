@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/barcodeparameters/scaling_factor/
 Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
 
 
+```python
+@property
+def scaling_factor(self) -> str:
+    ...
+
+@scaling_factor.setter
+def scaling_factor(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

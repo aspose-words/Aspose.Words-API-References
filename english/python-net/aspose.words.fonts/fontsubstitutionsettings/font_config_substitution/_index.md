@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/fontsubstitutionsettings/font_config_substit
 Settings related to font config substitution rule.
 
 
+```python
+@property
+def font_config_substitution(self) -> aspose.words.fonts.FontConfigSubstitutionRule:
+    ...
+
+```
+
 ### Examples
 
 Shows operating system-dependent font config substitution.

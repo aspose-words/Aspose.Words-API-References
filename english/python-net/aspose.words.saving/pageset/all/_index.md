@@ -14,6 +14,13 @@ url: /python-net/aspose.words.saving/pageset/all/
 Gets a set with all the pages of the document in their original order.
 
 
+```python
+@property
+def all(self) -> aspose.words.saving.PageSet:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

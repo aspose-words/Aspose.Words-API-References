@@ -3,7 +3,7 @@ title: CompareOptions.ignore_case_changes property
 linktitle: ignore_case_changes property
 articleTitle: ignore_case_changes property
 second_title: Aspose.Words for Python
-description: "CompareOptions.ignore_case_changes property. True indicates that documents comparison is case insensitive"
+description: "CompareOptions.ignore_case_changes property. True indicates that documents comparison is case insensitive."
 type: docs
 weight: 40
 url: /python-net/aspose.words.comparing/compareoptions/ignore_case_changes/
@@ -12,6 +12,21 @@ url: /python-net/aspose.words.comparing/compareoptions/ignore_case_changes/
 ## CompareOptions.ignore_case_changes property
 
 True indicates that documents comparison is case insensitive.
+
+
+```python
+@property
+def ignore_case_changes(self) -> bool:
+    ...
+
+@ignore_case_changes.setter
+def ignore_case_changes(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 By default comparison is case sensitive.
 
 

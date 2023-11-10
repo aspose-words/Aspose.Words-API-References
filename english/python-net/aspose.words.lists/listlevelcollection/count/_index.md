@@ -13,6 +13,16 @@ url: /python-net/aspose.words.lists/listlevelcollection/count/
 
 Gets the number of levels in this list.
 
+
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
+### Remarks
+
 There could be 1 or 9 levels in a list.
 
 

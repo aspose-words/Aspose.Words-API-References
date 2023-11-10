@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/saveoptions/dml_rendering_mode/
 
 Gets or sets a value determining how DrawingML shapes are rendered.
 
+
+```python
+@property
+def dml_rendering_mode(self) -> aspose.words.saving.DmlRenderingMode:
+    ...
+
+@dml_rendering_mode.setter
+def dml_rendering_mode(self, value: aspose.words.saving.DmlRenderingMode):
+    ...
+
+```
+
+### Remarks
+
 The default value is [DmlRenderingMode.FALLBACK](../../dmlrenderingmode/#FALLBACK).
 This property is used when the document is exported to fixed page formats.
 

@@ -14,6 +14,20 @@ url: /python-net/aspose.words.drawing/signatureline/provider_id/
 Gets or sets signature provider identifier for this signature line.
 Default value is "{00000000-0000-0000-0000-000000000000}".
 
+
+```python
+@property
+def provider_id(self) -> uuid.UUID:
+    ...
+
+@provider_id.setter
+def provider_id(self, value: uuid.UUID):
+    ...
+
+```
+
+### Remarks
+
 The cryptographic service provider (CSP) is an independent software module that actually performs
 cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value
 of {00000000-0000-0000-0000-000000000000} for its default signature provider.

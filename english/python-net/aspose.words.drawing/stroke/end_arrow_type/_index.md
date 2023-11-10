@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/end_arrow_type/
 
 Defines the arrowhead for the end of a stroke.
 
+
+```python
+@property
+def end_arrow_type(self) -> aspose.words.drawing.ArrowType:
+    ...
+
+@end_arrow_type.setter
+def end_arrow_type(self, value: aspose.words.drawing.ArrowType):
+    ...
+
+```
+
+### Remarks
+
 The default value is [ArrowType.NONE](../../arrowtype/#NONE).
 
 

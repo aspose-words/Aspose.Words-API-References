@@ -14,6 +14,17 @@ url: /python-net/aspose.words.shaping/glyph/advance/
 Advance width indicating placement for the subsequent glyph.
 
 
+```python
+@property
+def advance(self) -> int:
+    ...
+
+@advance.setter
+def advance(self, value: int):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.shaping](../../)

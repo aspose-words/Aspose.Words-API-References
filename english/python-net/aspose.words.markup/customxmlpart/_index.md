@@ -17,6 +17,8 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 
 
 
+### Remarks
+
 A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and 
 allows to create and extract Custom XML Data via the [Document.custom_xml_parts](../../aspose.words/document/custom_xml_parts/) collection.
 

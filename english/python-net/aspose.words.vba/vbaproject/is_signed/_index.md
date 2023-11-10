@@ -15,6 +15,13 @@ Shows whether the [VbaProject](../) is signed or not.
 
 
 
+```python
+@property
+def is_signed(self) -> bool:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access a document's VBA project information.

@@ -15,6 +15,17 @@ Gets or sets a value representing the position of a stop within the gradient
 expressed as a percent in range 0.0 to 1.0.
 
 
+```python
+@property
+def position(self) -> float:
+    ...
+
+@position.setter
+def position(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to add gradient stops to the gradient fill.

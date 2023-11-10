@@ -14,6 +14,13 @@ url: /python-net/aspose.words/story/first_paragraph/
 Gets the first paragraph in the story.
 
 
+```python
+@property
+def first_paragraph(self) -> aspose.words.Paragraph:
+    ...
+
+```
+
 ### Examples
 
 Shows how to format a run of text using its font property.

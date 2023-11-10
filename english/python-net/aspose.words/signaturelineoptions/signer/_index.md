@@ -12,9 +12,20 @@ url: /python-net/aspose.words/signaturelineoptions/signer/
 ## SignatureLineOptions.signer property
 
 Gets or sets suggested signer of the signature line.
-Default value for this property is **empty string** (System.String.Empty).
+Default value for this property is **empty string** ().
 
 
+
+```python
+@property
+def signer(self) -> str:
+    ...
+
+@signer.setter
+def signer(self, value: str):
+    ...
+
+```
 
 ### Examples
 

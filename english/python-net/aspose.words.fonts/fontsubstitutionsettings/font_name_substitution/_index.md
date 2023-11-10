@@ -14,6 +14,13 @@ url: /python-net/aspose.words.fonts/fontsubstitutionsettings/font_name_substitut
 Settings related to font name substitution rule.
 
 
+```python
+@property
+def font_name_substitution(self) -> aspose.words.fonts.FontNameSubstitutionRule:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.fonts](../../)

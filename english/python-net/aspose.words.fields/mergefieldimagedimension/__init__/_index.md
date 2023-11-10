@@ -21,7 +21,9 @@ def __init__(self, value: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float |  |
+| value | float | The value. |
+
+### Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension
 should be applied.
@@ -39,8 +41,10 @@ def __init__(self, value: float, unit: aspose.words.fields.MergeFieldImageDimens
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float |  |
-| unit | [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/) |  |
+| value | float | The value. |
+| unit | [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/) | The unit. |
+
+### Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension
 should be applied.

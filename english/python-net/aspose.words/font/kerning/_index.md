@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/kerning/
 Gets or sets the font size at which kerning starts.
 
 
+```python
+@property
+def kerning(self) -> float:
+    ...
+
+@kerning.setter
+def kerning(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to specify the font size at which kerning begins to take effect.

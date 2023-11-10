@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.charts/chartaxistitle/font/
 Provides access to the font formatting of the axis title.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to set chart axis title.

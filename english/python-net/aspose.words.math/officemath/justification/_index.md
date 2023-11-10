@@ -13,6 +13,20 @@ url: /python-net/aspose.words.math/officemath/justification/
 
 Gets/sets Office Math justification.
 
+
+```python
+@property
+def justification(self) -> aspose.words.math.OfficeMathJustification:
+    ...
+
+@justification.setter
+def justification(self, value: aspose.words.math.OfficeMathJustification):
+    ...
+
+```
+
+### Remarks
+
 Justification cannot be set to the Office Math with display format type [OfficeMathDisplayType.INLINE](../../officemathdisplaytype/#INLINE).
 
 Inline justification cannot be set to the Office Math with display format type [OfficeMathDisplayType.DISPLAY](../../officemathdisplaytype/#DISPLAY).

@@ -13,6 +13,16 @@ url: /python-net/aspose.words.lists/list/list_levels/
 
 Gets the collection of list levels for this list.
 
+
+```python
+@property
+def list_levels(self) -> aspose.words.lists.ListLevelCollection:
+    ...
+
+```
+
+### Remarks
+
 Use this property to access and modify formatting individual to each level of the list.
 
 

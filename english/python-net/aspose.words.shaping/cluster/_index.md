@@ -32,8 +32,8 @@ Encapsulates code points and glyphs composing a grapheme.
 | Name | Description |
 | --- | --- |
 |[ deep_clone()](./deep_clone/#default) | Returns a deep clone of this instance. |
-|[ get_string(clusters)](./get_string/#clusterlist) | Creates System.String using codepoints from the specified clusters. |
-|[ get_string()](./get_string/#default) | Creates System.String using codepoints from this cluster. |
+|[ get_string(clusters)](./get_string/#clusterlist) | Creates string using codepoints from the specified clusters. |
+|[ get_string()](./get_string/#default) | Creates string using codepoints from this cluster. |
 |[ get_width(em, font_size)](./get_width/#int_float) | Returns width of the cluster. |
 
 ### See Also

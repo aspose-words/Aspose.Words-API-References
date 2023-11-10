@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/left_indent/
 Gets or sets the value (in points) that represents the left indent for paragraph.
 
 
+```python
+@property
+def left_indent(self) -> float:
+    ...
+
+@left_indent.setter
+def left_indent(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure paragraph formatting to create off-center text.

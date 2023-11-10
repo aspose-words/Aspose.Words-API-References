@@ -13,6 +13,20 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/words/
 
 Represents an estimate of the number of words in the document.
 
+
+```python
+@property
+def words(self) -> int:
+    ...
+
+@words.setter
+def words(self, value: int):
+    ...
+
+```
+
+### Remarks
+
 Aspose.Words updates this property when you call [Document.update_word_count()](../../../aspose.words/document/update_word_count/#default).
 
 

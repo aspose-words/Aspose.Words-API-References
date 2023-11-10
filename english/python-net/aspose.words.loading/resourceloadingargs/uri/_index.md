@@ -21,6 +21,17 @@ but user can redefine it to any value.
 
 
 
+```python
+@property
+def uri(self) -> str:
+    ...
+
+@uri.setter
+def uri(self, value: str):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

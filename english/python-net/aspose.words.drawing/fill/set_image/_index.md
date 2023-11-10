@@ -21,7 +21,7 @@ def set_image(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str |  |
+| file_name | str | The path to the image file. |
 
 ## set_image(stream) {#bytesio}
 
@@ -29,13 +29,13 @@ Changes the fill type to single image.
 
 
 ```python
-def set_image(self, stream: BytesIO):
+def set_image(self, stream: io.BytesIO):
     ...
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | BytesIO |  |
+| stream | io.BytesIO | The stream that contains the image bytes. |
 
 ## set_image(image_bytes) {#bytes}
 
@@ -49,7 +49,7 @@ def set_image(self, image_bytes: bytes):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image_bytes | bytes |  |
+| image_bytes | bytes | The image bytes array. |
 
 ## Examples
 

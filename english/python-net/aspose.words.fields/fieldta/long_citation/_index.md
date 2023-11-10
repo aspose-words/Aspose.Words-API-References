@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldta/long_citation/
 Gets or sets the long citation for the entry.
 
 
+```python
+@property
+def long_citation(self) -> str:
+    ...
+
+@long_citation.setter
+def long_citation(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.

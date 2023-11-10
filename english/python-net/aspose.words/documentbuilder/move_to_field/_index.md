@@ -21,8 +21,8 @@ def move_to_field(self, field: aspose.words.fields.Field, is_after: bool):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../../aspose.words.fields/field/) |  |
-| is_after | bool |  |
+| field | [Field](../../../aspose.words.fields/field/) | The field to move the cursor to. |
+| is_after | bool | When ``True``, moves the cursor to be after the field end. When ``False``, moves the cursor to be before the field start. |
 
 ### Examples
 

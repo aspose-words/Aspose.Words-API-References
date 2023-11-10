@@ -15,6 +15,20 @@ Gets or sets a boolean value indicating either to ignore text inside field codes
 The default value is ``False``.
 
 
+
+```python
+@property
+def ignore_field_codes(self) -> bool:
+    ...
+
+@ignore_field_codes.setter
+def ignore_field_codes(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 This option affects only field codes (it does not ignore nodes between
 [NodeType.FIELD_SEPARATOR](../../../aspose.words/nodetype/#FIELD_SEPARATOR) and [NodeType.FIELD_END](../../../aspose.words/nodetype/#FIELD_END)).
 

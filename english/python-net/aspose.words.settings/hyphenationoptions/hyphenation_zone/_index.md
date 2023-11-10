@@ -16,6 +16,17 @@ to hyphenate words.
 Default value for this property is 360 (0.25 inch).
 
 
+```python
+@property
+def hyphenation_zone(self) -> int:
+    ...
+
+@hyphenation_zone.setter
+def hyphenation_zone(self, value: int):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure automatic hyphenation.

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fielddate/use_saka_era_calendar/
 Gets or sets whether to use the Saka Era calendar.
 
 
+```python
+@property
+def use_saka_era_calendar(self) -> bool:
+    ...
+
+@use_saka_era_calendar.setter
+def use_saka_era_calendar(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to use DATE fields to display dates according to different kinds of calendars.

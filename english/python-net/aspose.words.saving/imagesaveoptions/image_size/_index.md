@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/image_size/
 
 Gets or sets the size of a generated image in pixels.
 
+
+```python
+@property
+def image_size(self) -> aspose.pydrawing.Size:
+    ...
+
+@image_size.setter
+def image_size(self, value: aspose.pydrawing.Size):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving to raster image formats.
 
 The default value is (0 x 0), which means that the size of the generated image will be calculated

@@ -14,6 +14,17 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/company/
 Gets or sets the company property.
 
 
+```python
+@property
+def company(self) -> str:
+    ...
+
+@company.setter
+def company(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with document properties in the "Origin" category.

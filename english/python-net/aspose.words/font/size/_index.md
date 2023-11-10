@@ -14,6 +14,17 @@ url: /python-net/aspose.words/font/size/
 Gets or sets the font size in points.
 
 
+```python
+@property
+def size(self) -> float:
+    ...
+
+@size.setter
+def size(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert formatted text using DocumentBuilder.

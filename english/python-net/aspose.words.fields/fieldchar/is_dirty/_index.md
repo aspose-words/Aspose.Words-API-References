@@ -15,6 +15,17 @@ Gets or sets whether the current result of the field is no longer correct (stale
 made to the document.
 
 
+```python
+@property
+def is_dirty(self) -> bool:
+    ...
+
+@is_dirty.setter
+def is_dirty(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with a FieldStart node.

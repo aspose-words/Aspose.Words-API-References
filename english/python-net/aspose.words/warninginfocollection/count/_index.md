@@ -14,6 +14,13 @@ url: /python-net/aspose.words/warninginfocollection/count/
 Gets the number of elements contained in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words](../../)

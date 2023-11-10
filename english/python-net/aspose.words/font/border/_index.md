@@ -15,6 +15,13 @@ Returns a [Border](../../border/) object that specifies border for the font.
 
 
 
+```python
+@property
+def border(self) -> aspose.words.Border:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a string surrounded by a border into a document.

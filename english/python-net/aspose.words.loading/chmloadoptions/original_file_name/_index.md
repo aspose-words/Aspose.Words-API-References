@@ -15,6 +15,20 @@ The name of the CHM file.
 Default value is ``None``.
 
 
+
+```python
+@property
+def original_file_name(self) -> str:
+    ...
+
+@original_file_name.setter
+def original_file_name(self, value: str):
+    ...
+
+```
+
+### Remarks
+
 CHM documents may contain links that reference the same document by file name. Aspose.Words supports such links
 and normally uses [Document.original_file_name](../../../aspose.words/document/original_file_name/) to check whether the file referenced by a link
 is the file that is being loaded. If a document is loaded from a stream, its original file name should be specified

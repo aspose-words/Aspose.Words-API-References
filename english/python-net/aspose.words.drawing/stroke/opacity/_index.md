@@ -13,6 +13,20 @@ url: /python-net/aspose.words.drawing/stroke/opacity/
 
 Defines the amount of transparency of a stroke. Valid range is from 0 to 1.
 
+
+```python
+@property
+def opacity(self) -> float:
+    ...
+
+@opacity.setter
+def opacity(self, value: float):
+    ...
+
+```
+
+### Remarks
+
 The default value is 1.
 
 

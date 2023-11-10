@@ -21,7 +21,9 @@ def notify(self, args: aspose.words.saving.DocumentSavingArgs):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [DocumentSavingArgs](../../documentsavingargs/) |  |
+| args | [DocumentSavingArgs](../../documentsavingargs/) | An argument of the event. |
+
+### Remarks
 
 The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
 

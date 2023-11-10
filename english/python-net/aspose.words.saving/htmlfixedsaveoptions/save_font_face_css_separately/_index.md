@@ -17,6 +17,20 @@ is ``False``).
 Default value is ``False``, all CSS rules are written into single file "styles.css".
 
 
+
+```python
+@property
+def save_font_face_css_separately(self) -> bool:
+    ...
+
+@save_font_face_css_separately.setter
+def save_font_face_css_separately(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 Setting this property to ``True`` restores the old behavior (separate files) for compatibility with legacy code.
 
 

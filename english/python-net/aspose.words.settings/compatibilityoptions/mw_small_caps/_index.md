@@ -14,6 +14,17 @@ url: /python-net/aspose.words.settings/compatibilityoptions/mw_small_caps/
 Emulate Word 5.x for the Macintosh Small Caps Formatting.
 
 
+```python
+@property
+def mw_small_caps(self) -> bool:
+    ...
+
+@mw_small_caps.setter
+def mw_small_caps(self, value: bool):
+    ...
+
+```
+
 ### See Also
 
 * module [aspose.words.settings](../../)

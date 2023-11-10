@@ -23,6 +23,8 @@ def add_node(self, node: aspose.words.Inline):
 | --- | --- | --- |
 | node | [Inline](../../../aspose.words/inline/) |  |
 
+### Remarks
+
 Only text level nodes are supported at the moment.
 
 

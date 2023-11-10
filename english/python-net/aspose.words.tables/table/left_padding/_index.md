@@ -14,6 +14,17 @@ url: /python-net/aspose.words.tables/table/left_padding/
 Gets or sets the amount of space (in points) to add to the left of the contents of cells.
 
 
+```python
+@property
+def left_padding(self) -> float:
+    ...
+
+@left_padding.setter
+def left_padding(self, value: float):
+    ...
+
+```
+
 ### Examples
 
 Shows how to configure content padding in a table.

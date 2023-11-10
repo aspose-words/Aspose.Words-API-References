@@ -13,6 +13,16 @@ url: /python-net/aspose.words.drawing/fill/image_bytes/
 
 Gets the raw bytes of the fill texture or pattern.
 
+
+```python
+@property
+def image_bytes(self) -> bytes:
+    ...
+
+```
+
+### Remarks
+
 The default value is ``None``.
 
 

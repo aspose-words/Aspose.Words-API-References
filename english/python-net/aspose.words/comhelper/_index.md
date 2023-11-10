@@ -14,6 +14,8 @@ url: /python-net/aspose.words/comhelper/
 Provides methods for COM clients to load a document into Aspose.Words.
 
 
+### Remarks
+
 Use the [ComHelper](./) class to load a document from a file or stream into a 
 [Document](../document/) object in a COM application.
 

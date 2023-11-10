@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldprintdate/use_lunar_calendar/
 Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 
 
+```python
+@property
+def use_lunar_calendar(self) -> bool:
+    ...
+
+@use_lunar_calendar.setter
+def use_lunar_calendar(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows read PRINTDATE fields.

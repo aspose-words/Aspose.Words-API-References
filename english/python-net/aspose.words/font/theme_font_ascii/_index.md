@@ -16,6 +16,17 @@ in the applied font scheme that is associated with this [Font](../) object.
 
 
 
+```python
+@property
+def theme_font_ascii(self) -> aspose.words.themes.ThemeFont:
+    ...
+
+@theme_font_ascii.setter
+def theme_font_ascii(self, value: aspose.words.themes.ThemeFont):
+    ...
+
+```
+
 ### Examples
 
 Shows how to work with theme fonts and colors.

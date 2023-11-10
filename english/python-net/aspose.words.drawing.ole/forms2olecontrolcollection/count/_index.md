@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 Gets count of objects in the collection.
 
 
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
 ### Examples
 
 Shows how to access an OLE control embedded in a document and its child controls.

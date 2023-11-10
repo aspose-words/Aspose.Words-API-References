@@ -19,6 +19,17 @@ The default value is ``False``.
 
 
 
+```python
+@property
+def fit_to_view_port(self) -> bool:
+    ...
+
+@fit_to_view_port.setter
+def fit_to_view_port(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to mimic the properties of images when converting a .docx document to .svg.

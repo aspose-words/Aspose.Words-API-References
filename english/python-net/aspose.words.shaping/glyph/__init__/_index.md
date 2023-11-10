@@ -21,10 +21,10 @@ def __init__(self, glyph_index: int, advance: int, advance_offset: int, ascender
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| glyph_index | int |  |
-| advance | int |  |
-| advance_offset | int |  |
-| ascender_offset | int |  |
+| glyph_index | int | Glyph index. |
+| advance | int | Advance metric of the glyph. |
+| advance_offset | int | Horizontal (x) offset. |
+| ascender_offset | int | Vertical (y) offset. |
 
 ### See Also
 

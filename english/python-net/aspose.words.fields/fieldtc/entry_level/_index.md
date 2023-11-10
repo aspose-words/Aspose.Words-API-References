@@ -14,6 +14,17 @@ url: /python-net/aspose.words.fields/fieldtc/entry_level/
 Gets or sets the level of the entry.
 
 
+```python
+@property
+def entry_level(self) -> str:
+    ...
+
+@entry_level.setter
+def entry_level(self, value: str):
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.

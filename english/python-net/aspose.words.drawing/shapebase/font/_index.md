@@ -14,6 +14,13 @@ url: /python-net/aspose.words.drawing/shapebase/font/
 Provides access to the font formatting of this object.
 
 
+```python
+@property
+def font(self) -> aspose.words.Font:
+    ...
+
+```
+
 ### Examples
 
 Shows how to insert a text box, and set the font of its contents.

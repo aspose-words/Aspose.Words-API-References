@@ -13,6 +13,20 @@ url: /python-net/aspose.words/pagesetup/bidi/
 
 Specifies that this section contains bidirectional (complex scripts) text.
 
+
+```python
+@property
+def bidi(self) -> bool:
+    ...
+
+@bidi.setter
+def bidi(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
 When ``True``, the columns in this section are laid out from right to left.
 
 

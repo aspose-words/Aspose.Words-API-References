@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/imagesaveoptions/image_color_mode/
 
 Gets or sets the color mode for the generated images.
 
+
+```python
+@property
+def image_color_mode(self) -> aspose.words.saving.ImageColorMode:
+    ...
+
+@image_color_mode.setter
+def image_color_mode(self, value: aspose.words.saving.ImageColorMode):
+    ...
+
+```
+
+### Remarks
+
 This property has effect only when saving to raster image formats.
 
 The default value is [ImageColorMode.NONE](../../imagecolormode/#NONE).

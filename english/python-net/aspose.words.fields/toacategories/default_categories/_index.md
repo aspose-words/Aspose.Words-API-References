@@ -13,6 +13,16 @@ url: /python-net/aspose.words.fields/toacategories/default_categories/
 
 Gets the default table of authorities categories.
 
+
+```python
+@property
+def default_categories(self) -> aspose.words.fields.ToaCategories:
+    ...
+
+```
+
+### Remarks
+
 Use the [FieldOptions.toa_categories](../../fieldoptions/toa_categories/) property to specify table of authorities categories for a single document.
 
 

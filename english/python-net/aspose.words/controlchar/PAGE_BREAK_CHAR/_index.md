@@ -14,6 +14,13 @@ url: /python-net/aspose.words/controlchar/PAGE_BREAK_CHAR/
 Page break character: (char)12 or "\\f".
 
 
+```python
+@property
+def PAGE_BREAK_CHAR(self) -> str:
+    ...
+
+```
+
 ### Examples
 
 Shows how to add various control characters to a document.

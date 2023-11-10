@@ -13,6 +13,20 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeou
 
 Time-out value for accessing timestamp server.
 
+
+```python
+@property
+def timeout(self) -> datetime.timespan:
+    ...
+
+@timeout.setter
+def timeout(self, value: datetime.timespan):
+    ...
+
+```
+
+### Remarks
+
 The default value is 100 seconds.
 
 

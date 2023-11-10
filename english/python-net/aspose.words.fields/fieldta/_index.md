@@ -17,6 +17,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 
 
+### Remarks
+
 Defines the text and page number for a table of authorities entry, which is used by a TOA field.
 
 

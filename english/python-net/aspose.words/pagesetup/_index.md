@@ -5,7 +5,7 @@ articleTitle: PageSetup class
 second_title: Aspose.Words for Python
 description: "aspose.words.PageSetup class. Represents the page setup properties of a section"
 type: docs
-weight: 830
+weight: 840
 url: /python-net/aspose.words/pagesetup/
 ---
 
@@ -16,6 +16,8 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/p
 
 
 
+
+### Remarks
 
 [PageSetup](./) object contains all the page setup attributes of a section
 (left margin, bottom margin, paper size, and so on) as properties.

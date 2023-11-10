@@ -14,6 +14,17 @@ url: /python-net/aspose.words/paragraphformat/keep_with_next/
 True if the paragraph is to remains on the same page as the paragraph that follows it.
 
 
+```python
+@property
+def keep_with_next(self) -> bool:
+    ...
+
+@keep_with_next.setter
+def keep_with_next(self, value: bool):
+    ...
+
+```
+
 ### Examples
 
 Shows how to set a table to stay together on the same page.
