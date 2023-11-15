@@ -446,34 +446,6 @@ public double getTintAndShade()
 
 Gets a double value that lightens or darkens a color.
 
- **Remarks:** 
-
-The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
-Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to insert a paragraph with a top border.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Border topBorder = builder.getParagraphFormat().getBorders().getByBorderType(BorderType.TOP);
- topBorder.setLineWidth(4.0d);
- topBorder.setLineStyle(LineStyle.DASH_SMALL_GAP);
- // Set ThemeColor only when LineWidth or LineStyle setted.
- topBorder.setThemeColor(ThemeColor.ACCENT_1);
- topBorder.setTintAndShade(0.25d);
-
- builder.writeln("Text with a top border.");
-
- doc.save(getArtifactsDir() + "Border.ParagraphTopBorder.docx");
- 
-```
-
 **Returns:**
 double - A double value that lightens or darkens a color.
 ### hashCode() {#hashCode}
@@ -759,34 +731,6 @@ public void setTintAndShade(double value)
 
 
 Sets a double value that lightens or darkens a color.
-
- **Remarks:** 
-
-The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
-Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to insert a paragraph with a top border.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Border topBorder = builder.getParagraphFormat().getBorders().getByBorderType(BorderType.TOP);
- topBorder.setLineWidth(4.0d);
- topBorder.setLineStyle(LineStyle.DASH_SMALL_GAP);
- // Set ThemeColor only when LineWidth or LineStyle setted.
- topBorder.setThemeColor(ThemeColor.ACCENT_1);
- topBorder.setTintAndShade(0.25d);
-
- builder.writeln("Text with a top border.");
-
- doc.save(getArtifactsDir() + "Border.ParagraphTopBorder.docx");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

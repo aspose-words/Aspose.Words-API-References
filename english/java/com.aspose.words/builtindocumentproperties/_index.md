@@ -43,8 +43,8 @@ The properties in the collection are sorted alphabetically by name.
 | [getCharactersWithSpaces()](#getCharactersWithSpaces) | Represents an estimate of the number of characters (including spaces) in the document. |
 | [getComments()](#getComments) | Gets the document comments. |
 | [getCompany()](#getCompany) | Gets the company property. |
-| [getContentStatus()](#getContentStatus) | Gets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document. |
-| [getContentType()](#getContentType) | Gets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document. |
+| [getContentStatus()](#getContentStatus) | Gets the content status of the document. |
+| [getContentType()](#getContentType) | Gets the content type of the document. |
 | [getCount()](#getCount) | Gets number of items in the collection. |
 | [getCreatedTime()](#getCreatedTime) | Gets date of the document creation in UTC. |
 | [getHeadingPairs()](#getHeadingPairs) | Specifies document headings and their names. |
@@ -80,8 +80,8 @@ The properties in the collection are sorted alphabetically by name.
 | [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int) | Represents an estimate of the number of characters (including spaces) in the document. |
 | [setComments(String value)](#setComments-java.lang.String) | Sets the document comments. |
 | [setCompany(String value)](#setCompany-java.lang.String) | Sets the company property. |
-| [setContentStatus(String value)](#setContentStatus-java.lang.String) | Sets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document. |
-| [setContentType(String value)](#setContentType-java.lang.String) | Sets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document. |
+| [setContentStatus(String value)](#setContentStatus-java.lang.String) | Sets the content status of the document. |
+| [setContentType(String value)](#setContentType-java.lang.String) | Sets the content type of the document. |
 | [setCreatedTime(Date value)](#setCreatedTime-java.util.Date) | Sets date of the document creation in UTC. |
 | [setHeadingPairs(Object[] value)](#setHeadingPairs-java.lang.Object) | Specifies document headings and their names. |
 | [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String) | Specifies the base string used for evaluating relative hyperlinks in this document. |
@@ -925,7 +925,7 @@ public String getContentStatus()
 ```
 
 
-Gets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document.
+Gets the content status of the document.
 
  **Examples:** 
 
@@ -1028,14 +1028,14 @@ Shows how to work with document properties in the "Content" category.
 ```
 
 **Returns:**
-java.lang.String - The **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document.
+java.lang.String - The content status of the document.
 ### getContentType() {#getContentType}
 ```
 public String getContentType()
 ```
 
 
-Gets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document.
+Gets the content type of the document.
 
  **Examples:** 
 
@@ -1138,7 +1138,7 @@ Shows how to work with document properties in the "Content" category.
 ```
 
 **Returns:**
-java.lang.String - The **F:Aspose.Words.Properties.PropertyName.ContentType** of the document.
+java.lang.String - The content type of the document.
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -2433,39 +2433,6 @@ public byte[] getThumbnail()
 
 Gets or sets the thumbnail of the document.
 
- **Remarks:** 
-
-For now this property is used only when a document is being exported to ePub, it's not read from and written to other document formats.
-
-Image of arbitrary format can be set to this property, but the format is checked during export. java.lang.IllegalStateException is thrown if the image is invalid or its format is unsupported for specific format of document.
-
-Only gif, jpeg and png images can be used for ePub publication.
-
- **Examples:** 
-
-Shows how to add a thumbnail to a document that we save as an Epub.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("Hello world!");
-
- // If we save a document, whose "Thumbnail" property contains image data that we added, as an Epub,
- // a reader that opens that document may display the image before the first page.
- BuiltInDocumentProperties properties = doc.getBuiltInDocumentProperties();
-
- byte[] thumbnailBytes = DocumentHelper.getBytesFromStream(new FileInputStream(getImageDir() + "Logo.jpg"));
- properties.setThumbnail(thumbnailBytes);
-
- doc.save(getArtifactsDir() + "DocumentProperties.Thumbnail.epub");
-
- // We can extract a document's thumbnail image and save it to the local file system.
- DocumentProperty thumbnail = doc.getBuiltInDocumentProperties().get("Thumbnail");
- FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "DocumentProperties.Thumbnail.gif"), thumbnail.toByteArray());
- 
-```
-
 **Returns:**
 byte[] - The corresponding byte[] value.
 ### getTitle() {#getTitle}
@@ -3714,7 +3681,7 @@ public void setContentStatus(String value)
 ```
 
 
-Sets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document.
+Sets the content status of the document.
 
  **Examples:** 
 
@@ -3819,7 +3786,7 @@ Shows how to work with document properties in the "Content" category.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document. |
+| value | java.lang.String | The content status of the document. |
 
 ### setContentType(String value) {#setContentType-java.lang.String}
 ```
@@ -3827,7 +3794,7 @@ public void setContentType(String value)
 ```
 
 
-Sets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document.
+Sets the content type of the document.
 
  **Examples:** 
 
@@ -3932,7 +3899,7 @@ Shows how to work with document properties in the "Content" category.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The **F:Aspose.Words.Properties.PropertyName.ContentType** of the document. |
+| value | java.lang.String | The content type of the document. |
 
 ### setCreatedTime(Date value) {#setCreatedTime-java.util.Date}
 ```
@@ -5245,39 +5212,6 @@ public void setThumbnail(byte[] value)
 
 
 Gets or sets the thumbnail of the document.
-
- **Remarks:** 
-
-For now this property is used only when a document is being exported to ePub, it's not read from and written to other document formats.
-
-Image of arbitrary format can be set to this property, but the format is checked during export. java.lang.IllegalStateException is thrown if the image is invalid or its format is unsupported for specific format of document.
-
-Only gif, jpeg and png images can be used for ePub publication.
-
- **Examples:** 
-
-Shows how to add a thumbnail to a document that we save as an Epub.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("Hello world!");
-
- // If we save a document, whose "Thumbnail" property contains image data that we added, as an Epub,
- // a reader that opens that document may display the image before the first page.
- BuiltInDocumentProperties properties = doc.getBuiltInDocumentProperties();
-
- byte[] thumbnailBytes = DocumentHelper.getBytesFromStream(new FileInputStream(getImageDir() + "Logo.jpg"));
- properties.setThumbnail(thumbnailBytes);
-
- doc.save(getArtifactsDir() + "DocumentProperties.Thumbnail.epub");
-
- // We can extract a document's thumbnail image and save it to the local file system.
- DocumentProperty thumbnail = doc.getBuiltInDocumentProperties().get("Thumbnail");
- FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "DocumentProperties.Thumbnail.gif"), thumbnail.toByteArray());
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

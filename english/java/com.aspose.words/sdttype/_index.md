@@ -18,6 +18,29 @@ Specifies the type of a structured document tag (SDT) node.
 
  **Examples:** 
 
+Shows how to create a structured document tag of the Citation type.
+
+```
+
+ Document doc = new Document();
+
+ StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.CITATION, MarkupLevel.INLINE);
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ paragraph.appendChild(sdt);
+
+ // Create a Citation field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToParagraph(0, -1);
+ builder.insertField("CITATION Ath22 \\l 1033 ", "(John Lennon, 2022)");
+
+ // Move the field to the structured document tag.
+ while (sdt.getNextSibling() != null)
+     sdt.appendChild(sdt.getNextSibling());
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.Citation.docx");
+ 
+```
+
 Shows how to create group structured document tag at the Row level.
 
 ```

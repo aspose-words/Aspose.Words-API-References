@@ -191,7 +191,7 @@ public Date getSignTime()
 ```
 
 
-The date of signing. Default value is **current time**.
+The date of signing. Default value is **current time**
 
  **Examples:** 
 
@@ -583,7 +583,7 @@ public void setSignTime(Date value)
 ```
 
 
-The date of signing. Default value is **current time**.
+The date of signing. Default value is **current time**
 
  **Examples:** 
 

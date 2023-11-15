@@ -205,7 +205,6 @@ Shows how to split a document into parts and save them.
 | [getDocumentSplitCriteria()](#getDocumentSplitCriteria) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) format. |
 | [getDocumentSplitHeadingLevel()](#getDocumentSplitHeadingLevel) | Specifies the maximum level of headings at which to split the document. |
 | [getEncoding()](#getEncoding) |  |
-| [getEpubNavigationMapLevel()](#getEpubNavigationMapLevel) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. |
 | [getExportCidUrlsForMhtmlResources()](#getExportCidUrlsForMhtmlResources) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
 | [getExportDocumentProperties()](#getExportDocumentProperties) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
 | [getExportDropDownFormFieldAsText()](#getExportDropDownFormFieldAsText) | Controls how drop-down form fields are saved to HTML or MHTML. |
@@ -268,7 +267,6 @@ Shows how to split a document into parts and save them.
 | [setDocumentSplitCriteria(int value)](#setDocumentSplitCriteria-int) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) format. |
 | [setDocumentSplitHeadingLevel(int value)](#setDocumentSplitHeadingLevel-int) | Specifies the maximum level of headings at which to split the document. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) |  |
-| [setEpubNavigationMapLevel(int value)](#setEpubNavigationMapLevel-int) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. |
 | [setExportCidUrlsForMhtmlResources(boolean value)](#setExportCidUrlsForMhtmlResources-boolean) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
 | [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
 | [setExportDropDownFormFieldAsText(boolean value)](#setExportDropDownFormFieldAsText-boolean) | Controls how drop-down form fields are saved to HTML or MHTML. |
@@ -1150,86 +1148,6 @@ public Charset getEncoding()
 
 **Returns:**
 java.nio.charset.Charset
-### getEpubNavigationMapLevel() {#getEpubNavigationMapLevel}
-```
-public int getEpubNavigationMapLevel()
-```
-
-
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is  3 .
-
- **Remarks:** 
-
-The navigation map allows user agents to provide an easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. In order to populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
-
-By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
-
- **Examples:** 
-
-Shows how to generate table of contents for Mobi documents.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
- options.setNavigationMapLevel(5);
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
- 
-```
-
-Shows how to generate table of contents for azw3 documents.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.AZW_3);
- options.setEpubNavigationMapLevel(2);
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
- 
-```
-
-Shows how to filter headings that appear in the navigation panel of a saved Epub document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Every paragraph that we format using a "Heading" style can serve as a heading.
- // Each heading may also have a heading level, determined by the number of its heading style.
- // The headings below are of levels 1-3.
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
- builder.writeln("Heading #1");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
- builder.writeln("Heading #2");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
- builder.writeln("Heading #3");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
- builder.writeln("Heading #4");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
- builder.writeln("Heading #5");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
- builder.writeln("Heading #6");
-
- // Epub readers typically create a table of contents for their documents.
- // Each paragraph with a "Heading" style in the document will create an entry in this table of contents.
- // We can use the "EpubNavigationMapLevel" property to set a maximum heading level.
- // The Epub reader will not add headings with a level above the one we specify to the contents table.
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.EPUB);
- options.setEpubNavigationMapLevel(2);
-
- // Our document has six headings, two of which are above level 2.
- // The table of contents for this document will have four entries.
- doc.save(getArtifactsDir() + "HtmlSaveOptions.EpubHeadings.epub", options);
- 
-```
-
-**Returns:**
-int - The corresponding  int  value.
 ### getExportCidUrlsForMhtmlResources() {#getExportCidUrlsForMhtmlResources}
 ```
 public boolean getExportCidUrlsForMhtmlResources()
@@ -2383,7 +2301,7 @@ Font subsetting works as follows:
 
  *  By default, all exported fonts are subsetted.
  *  Setting [getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int) to a positive value instructs Aspose.Words to subset fonts which file size is larger than the specified value.
- *  Setting the property to **java.lang.Integer.MAX\_VALUE** suppresses font subsetting.
+ *  Setting the property to **Integer.MAX\_VALUE** suppresses font subsetting.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
@@ -3085,6 +3003,70 @@ The navigation map allows user agents to provide an easy way of navigation throu
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
 
+ **Examples:** 
+
+Shows how to generate table of contents for Mobi documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
+ options.setNavigationMapLevel(5);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
+ 
+```
+
+Shows how to generate table of contents for azw3 documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.AZW_3);
+ options.setNavigationMapLevel(2);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
+ 
+```
+
+Shows how to filter headings that appear in the navigation panel of a saved Epub document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Every paragraph that we format using a "Heading" style can serve as a heading.
+ // Each heading may also have a heading level, determined by the number of its heading style.
+ // The headings below are of levels 1-3.
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #1");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #2");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #3");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #4");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #5");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #6");
+
+ // Epub readers typically create a table of contents for their documents.
+ // Each paragraph with a "Heading" style in the document will create an entry in this table of contents.
+ // We can use the "NavigationMapLevel" property to set a maximum heading level.
+ // The Epub reader will not add headings with a level above the one we specify to the contents table.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.EPUB);
+ options.setNavigationMapLevel(2);
+
+ // Our document has six headings, two of which are above level 2.
+ // The table of contents for this document will have four entries.
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.EpubHeadings.epub", options);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value.
 ### getOfficeMathOutputMode() {#getOfficeMathOutputMode}
@@ -3632,12 +3614,7 @@ Shows how to disable the scaling of images to their parent shape dimensions when
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a shape which contains an image, and then make that shape considerably smaller than the image.
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
-
- Shape imageShape = builder.insertImage(image);
+ Shape imageShape = builder.insertImage(getImageDir() + "Transparent background logo.png");
  imageShape.setWidth(50.0);
  imageShape.setHeight(50.0);
 
@@ -3684,40 +3661,6 @@ public String getTempFolder()
 
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
-
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -4717,89 +4660,6 @@ public void setEncoding(Charset value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setEpubNavigationMapLevel(int value) {#setEpubNavigationMapLevel-int}
-```
-public void setEpubNavigationMapLevel(int value)
-```
-
-
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is  3 .
-
- **Remarks:** 
-
-The navigation map allows user agents to provide an easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. In order to populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
-
-By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
-
- **Examples:** 
-
-Shows how to generate table of contents for Mobi documents.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
- options.setNavigationMapLevel(5);
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
- 
-```
-
-Shows how to generate table of contents for azw3 documents.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.AZW_3);
- options.setEpubNavigationMapLevel(2);
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
- 
-```
-
-Shows how to filter headings that appear in the navigation panel of a saved Epub document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Every paragraph that we format using a "Heading" style can serve as a heading.
- // Each heading may also have a heading level, determined by the number of its heading style.
- // The headings below are of levels 1-3.
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
- builder.writeln("Heading #1");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
- builder.writeln("Heading #2");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
- builder.writeln("Heading #3");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
- builder.writeln("Heading #4");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
- builder.writeln("Heading #5");
- builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
- builder.writeln("Heading #6");
-
- // Epub readers typically create a table of contents for their documents.
- // Each paragraph with a "Heading" style in the document will create an entry in this table of contents.
- // We can use the "EpubNavigationMapLevel" property to set a maximum heading level.
- // The Epub reader will not add headings with a level above the one we specify to the contents table.
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.EPUB);
- options.setEpubNavigationMapLevel(2);
-
- // Our document has six headings, two of which are above level 2.
- // The table of contents for this document will have four entries.
- doc.save(getArtifactsDir() + "HtmlSaveOptions.EpubHeadings.epub", options);
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | The corresponding  int  value. |
 
 ### setExportCidUrlsForMhtmlResources(boolean value) {#setExportCidUrlsForMhtmlResources-boolean}
 ```
@@ -6011,7 +5871,7 @@ Font subsetting works as follows:
 
  *  By default, all exported fonts are subsetted.
  *  Setting [getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int) to a positive value instructs Aspose.Words to subset fonts which file size is larger than the specified value.
- *  Setting the property to **java.lang.Integer.MAX\_VALUE** suppresses font subsetting.
+ *  Setting the property to **Integer.MAX\_VALUE** suppresses font subsetting.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
@@ -6749,6 +6609,70 @@ The navigation map allows user agents to provide an easy way of navigation throu
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
 
+ **Examples:** 
+
+Shows how to generate table of contents for Mobi documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
+ options.setNavigationMapLevel(5);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
+ 
+```
+
+Shows how to generate table of contents for azw3 documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.AZW_3);
+ options.setNavigationMapLevel(2);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
+ 
+```
+
+Shows how to filter headings that appear in the navigation panel of a saved Epub document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Every paragraph that we format using a "Heading" style can serve as a heading.
+ // Each heading may also have a heading level, determined by the number of its heading style.
+ // The headings below are of levels 1-3.
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #1");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #2");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #3");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #4");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #5");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #6");
+
+ // Epub readers typically create a table of contents for their documents.
+ // Each paragraph with a "Heading" style in the document will create an entry in this table of contents.
+ // We can use the "NavigationMapLevel" property to set a maximum heading level.
+ // The Epub reader will not add headings with a level above the one we specify to the contents table.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.EPUB);
+ options.setNavigationMapLevel(2);
+
+ // Our document has six headings, two of which are above level 2.
+ // The table of contents for this document will have four entries.
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.EpubHeadings.epub", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -7320,12 +7244,7 @@ Shows how to disable the scaling of images to their parent shape dimensions when
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a shape which contains an image, and then make that shape considerably smaller than the image.
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
-
- Shape imageShape = builder.insertImage(image);
+ Shape imageShape = builder.insertImage(getImageDir() + "Transparent background logo.png");
  imageShape.setWidth(50.0);
  imageShape.setHeight(50.0);
 
@@ -7378,40 +7297,6 @@ public void setTempFolder(String value)
 
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
-
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

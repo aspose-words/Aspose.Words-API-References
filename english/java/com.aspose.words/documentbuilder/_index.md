@@ -232,7 +232,7 @@ Shows how to build a table with custom borders.
 | [insertImage(byte[] imageBytes, double width, double height)](#insertImage-byte---double-double) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
 | [insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-byte---int-double-int-double-double-double-int) |  |
 | [insertImage(BufferedImage image)](#insertImage-java.awt.image.BufferedImage) | Inserts an image into the document. |
-| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double) | Inserts an inline image from a **java.awt.image.BufferedImage** object into the document and scales it to the specified size. |
+| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double) | Inserts an inline image from a java.awt.image.BufferedImage object into the document and scales it to the specified size. |
 | [insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int) |  |
 | [insertImage(InputStream stream)](#insertImage-java.io.InputStream) |  |
 | [insertImage(InputStream stream, double width, double height)](#insertImage-java.io.InputStream-double-double) |  |
@@ -3326,7 +3326,7 @@ public Shape insertImage(BufferedImage image)
 ```
 
 
-Inserts an image into the document.  Inserts an image from a **java.awt.image.BufferedImage** object into the document. The image is inserted inline and at 100% scale.
+Inserts an image into the document.  Inserts an image from a java.awt.image.BufferedImage object into the document. The image is inserted inline and at 100% scale.
 
  **Remarks:** 
 
@@ -3343,21 +3343,21 @@ Shows how to insert an image from an object into a document.
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
+ String imageFile = getImageDir() + "Logo.jpg";
 
  // Below are three ways of inserting an image from an Image object instance.
  // 1 -  Inline shape with a default size based on the image's original dimensions:
- builder.insertImage(image);
+ builder.insertImage(imageFile);
 
  builder.insertBreak(BreakType.PAGE_BREAK);
 
  // 2 -  Inline shape with custom dimensions:
- builder.insertImage(image, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
+ builder.insertImage(imageFile, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
 
  builder.insertBreak(BreakType.PAGE_BREAK);
 
  // 3 -  Floating shape with custom dimensions:
- builder.insertImage(image, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
+ builder.insertImage(imageFile, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
          100.0, 200.0, 100.0, WrapType.SQUARE);
 
  doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromImageObject.docx");
@@ -3377,7 +3377,7 @@ public Shape insertImage(BufferedImage image, double width, double height)
 ```
 
 
-Inserts an inline image from a **java.awt.image.BufferedImage** object into the document and scales it to the specified size.
+Inserts an inline image from a java.awt.image.BufferedImage object into the document and scales it to the specified size.
 
  **Remarks:** 
 
@@ -3394,21 +3394,21 @@ Shows how to insert an image from an object into a document.
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
+ String imageFile = getImageDir() + "Logo.jpg";
 
  // Below are three ways of inserting an image from an Image object instance.
  // 1 -  Inline shape with a default size based on the image's original dimensions:
- builder.insertImage(image);
+ builder.insertImage(imageFile);
 
  builder.insertBreak(BreakType.PAGE_BREAK);
 
  // 2 -  Inline shape with custom dimensions:
- builder.insertImage(image, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
+ builder.insertImage(imageFile, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
 
  builder.insertBreak(BreakType.PAGE_BREAK);
 
  // 3 -  Floating shape with custom dimensions:
- builder.insertImage(image, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
+ builder.insertImage(imageFile, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
          100.0, 200.0, 100.0, WrapType.SQUARE);
 
  doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromImageObject.docx");
@@ -3961,7 +3961,7 @@ Shows how to insert an online video into a document using a URL.
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- builder.insertOnlineVideo("https://youtu.be/t_1LYZ102RA", 360.0, 270.0);
+ builder.insertOnlineVideo("https://youtu.be/g1N9ke8Prmk", 360.0, 270.0);
 
  // We can watch the video from Microsoft Word by clicking on the shape.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertVideoWithUrl.docx");

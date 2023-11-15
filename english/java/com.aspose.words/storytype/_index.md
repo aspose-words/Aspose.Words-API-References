@@ -44,17 +44,17 @@ Shows how to remove all shapes from a node.
 | --- | --- |
 | [COMMENTS](#COMMENTS) | Contains document comments (annotations), represented by [Comment](../../com.aspose.words/comment/). |
 | [ENDNOTES](#ENDNOTES) | Contains endnotes text, represented by [Footnote](../../com.aspose.words/footnote/). |
-| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) | Contains the text of the endnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) | Contains the text of the endnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [ENDNOTE_SEPARATOR](#ENDNOTE-SEPARATOR) | Contains the text of the endnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) | Contains the text of the endnote continuation notice separator. |
+| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) | Contains the text of the endnote continuation separator. |
+| [ENDNOTE_SEPARATOR](#ENDNOTE-SEPARATOR) | Contains the text of the endnote separator. |
 | [EVEN_PAGES_FOOTER](#EVEN-PAGES-FOOTER) | Contains text of the even pages footer, represented by [HeaderFooter](../../com.aspose.words/headerfooter/). |
 | [EVEN_PAGES_HEADER](#EVEN-PAGES-HEADER) | Contains text of the even pages header, represented by [HeaderFooter](../../com.aspose.words/headerfooter/). |
 | [FIRST_PAGE_FOOTER](#FIRST-PAGE-FOOTER) | Contains text of the first page footer, represented by [HeaderFooter](../../com.aspose.words/headerfooter/). |
 | [FIRST_PAGE_HEADER](#FIRST-PAGE-HEADER) | Contains text of the first page header, represented by [HeaderFooter](../../com.aspose.words/headerfooter/). |
 | [FOOTNOTES](#FOOTNOTES) | Contains footnote text, represented by [Footnote](../../com.aspose.words/footnote/). |
-| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) | Contains the text of the footnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) | Contains the text of the footnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [FOOTNOTE_SEPARATOR](#FOOTNOTE-SEPARATOR) | Contains the text of the footnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) | Contains the text of the footnote continuation notice separator. |
+| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) | Contains the text of the footnote continuation separator. |
+| [FOOTNOTE_SEPARATOR](#FOOTNOTE-SEPARATOR) | Contains the text of the footnote separator. |
 | [MAIN_TEXT](#MAIN-TEXT) | Contains the main text of the document, represented by [Body](../../com.aspose.words/body/). |
 | [NONE](#NONE) | Default value. |
 | [PRIMARY_FOOTER](#PRIMARY-FOOTER) | Contains text of the primary footer. |
@@ -91,7 +91,7 @@ public static int ENDNOTE_CONTINUATION_NOTICE
 ```
 
 
-Contains the text of the endnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+Contains the text of the endnote continuation notice separator.
 
 ### ENDNOTE_CONTINUATION_SEPARATOR {#ENDNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -99,7 +99,7 @@ public static int ENDNOTE_CONTINUATION_SEPARATOR
 ```
 
 
-Contains the text of the endnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+Contains the text of the endnote continuation separator.
 
 ### ENDNOTE_SEPARATOR {#ENDNOTE-SEPARATOR}
 ```
@@ -107,7 +107,7 @@ public static int ENDNOTE_SEPARATOR
 ```
 
 
-Contains the text of the endnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+Contains the text of the endnote separator.
 
 ### EVEN_PAGES_FOOTER {#EVEN-PAGES-FOOTER}
 ```
@@ -155,7 +155,7 @@ public static int FOOTNOTE_CONTINUATION_NOTICE
 ```
 
 
-Contains the text of the footnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+Contains the text of the footnote continuation notice separator.
 
 ### FOOTNOTE_CONTINUATION_SEPARATOR {#FOOTNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -163,7 +163,7 @@ public static int FOOTNOTE_CONTINUATION_SEPARATOR
 ```
 
 
-Contains the text of the footnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+Contains the text of the footnote continuation separator.
 
 ### FOOTNOTE_SEPARATOR {#FOOTNOTE-SEPARATOR}
 ```
@@ -171,7 +171,7 @@ public static int FOOTNOTE_SEPARATOR
 ```
 
 
-Contains the text of the footnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+Contains the text of the footnote separator.
 
 ### MAIN_TEXT {#MAIN-TEXT}
 ```

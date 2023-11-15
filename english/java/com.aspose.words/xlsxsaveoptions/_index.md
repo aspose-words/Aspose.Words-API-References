@@ -38,6 +38,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
 | [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
+| [getSectionMode()](#getSectionMode) | Gets the way how sections are handled when saving to the output XLSX document. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
@@ -57,6 +58,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
 | [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
+| [setSectionMode(int value)](#setSectionMode-int) | Sets the way how sections are handled when saving to the output XLSX document. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
@@ -747,6 +749,33 @@ Specifies the format in which the document will be saved if this save options ob
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
+### getSectionMode() {#getSectionMode}
+```
+public int getSectionMode()
+```
+
+
+Gets the way how sections are handled when saving to the output XLSX document. The default value is [XlsxSectionMode.MULTIPLE\_WORKSHEETS](../../com.aspose.words/xlsxsectionmode/\#MULTIPLE-WORKSHEETS).
+
+ **Examples:** 
+
+Shows how to save document as a separate worksheets.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ // Each section of a document will be created as a separate worksheet.
+ // Use 'SingleWorksheet' to display all document on one worksheet.
+ XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+ xlsxSaveOptions.setSectionMode(XlsxSectionMode.MULTIPLE_WORKSHEETS);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.SelectionMode.xlsx", xlsxSaveOptions);
+ 
+```
+
+**Returns:**
+int - The way how sections are handled when saving to the output XLSX document. The returned value is one of [XlsxSectionMode](../../com.aspose.words/xlsxsectionmode/) constants.
 ### getTempFolder() {#getTempFolder}
 ```
 public String getTempFolder()
@@ -754,40 +783,6 @@ public String getTempFolder()
 
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
-
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -1679,6 +1674,36 @@ Specifies the format in which the document will be saved if this save options ob
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat/) constants. |
 
+### setSectionMode(int value) {#setSectionMode-int}
+```
+public void setSectionMode(int value)
+```
+
+
+Sets the way how sections are handled when saving to the output XLSX document. The default value is [XlsxSectionMode.MULTIPLE\_WORKSHEETS](../../com.aspose.words/xlsxsectionmode/\#MULTIPLE-WORKSHEETS).
+
+ **Examples:** 
+
+Shows how to save document as a separate worksheets.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ // Each section of a document will be created as a separate worksheet.
+ // Use 'SingleWorksheet' to display all document on one worksheet.
+ XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+ xlsxSaveOptions.setSectionMode(XlsxSectionMode.MULTIPLE_WORKSHEETS);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.SelectionMode.xlsx", xlsxSaveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The way how sections are handled when saving to the output XLSX document. The value must be one of [XlsxSectionMode](../../com.aspose.words/xlsxsectionmode/) constants. |
+
 ### setTempFolder(String value) {#setTempFolder-java.lang.String}
 ```
 public void setTempFolder(String value)
@@ -1686,40 +1711,6 @@ public void setTempFolder(String value)
 
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
-
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

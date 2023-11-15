@@ -41,20 +41,6 @@ Shows how to select a bit-per-pixel rate with which to render a document to an i
  Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
-
- switch (imagePixelFormat) {
-     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
-         break;
-     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
-     case ImagePixelFormat.FORMAT_32_BPP_RGB:
-     case ImagePixelFormat.FORMAT_48_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
-         break;
-     case ImagePixelFormat.FORMAT_24_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
-         break;
- }
  
 ```
 ## Fields

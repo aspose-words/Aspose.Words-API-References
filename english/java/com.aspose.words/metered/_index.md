@@ -16,8 +16,6 @@ public class Metered
 
 Provides methods to set metered key.
 
-To learn more, visit the [ Licensing and Subscription ][Licensing and Subscription] documentation article.
-
  **Examples:** 
 
 In this example, an attempt will be made to set metered public and private key the component jar file:
@@ -52,9 +50,6 @@ Shows how to activate a Metered license and track credit/consumption.
  System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
  
 ```
-
-
-[Licensing and Subscription]: https://docs.aspose.com/words/java/licensing/
 ## Constructors
 
 | Constructor | Description |
@@ -66,6 +61,8 @@ Shows how to activate a Metered license and track credit/consumption.
 | --- | --- |
 | [getConsumptionCredit()](#getConsumptionCredit) | Gets consumption credit |
 | [getConsumptionQuantity()](#getConsumptionQuantity) | Gets consumption file size |
+| [getProductName()](#getProductName) |  |
+| [isMeteredLicensed()](#isMeteredLicensed) | Check whether metered is licensed |
 | [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String) | Sets metered public and private key. |
 ### Metered() {#Metered}
 ```
@@ -173,6 +170,26 @@ Shows how to activate a Metered license and track credit/consumption.
 
 **Returns:**
 java.math.BigDecimal - consumption quantity
+### getProductName() {#getProductName}
+```
+public String getProductName()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### isMeteredLicensed() {#isMeteredLicensed}
+```
+public static boolean isMeteredLicensed()
+```
+
+
+Check whether metered is licensed
+
+**Returns:**
+boolean - True or false
 ### setMeteredKey(String publicKey, String privateKey) {#setMeteredKey-java.lang.String-java.lang.String}
 ```
 public void setMeteredKey(String publicKey, String privateKey)

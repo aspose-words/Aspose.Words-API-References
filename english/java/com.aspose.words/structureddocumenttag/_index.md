@@ -1110,17 +1110,19 @@ public String getDateDisplayFormat()
 ```
 
 
-String that represents the format in which dates are displayed. Can not be  null .
+String that represents the format in which dates are displayed.
 
  **Remarks:** 
+
+Can not be  null .
+
+The dates for English (U.S.) is "mm/dd/yyyy"
 
 Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype/\#DATE) SDT type.
 
 For all other SDT types exception will occur.
 
  **Examples:** 
-
-The dates for English (U.S.) is "mm/dd/yyyy"
 
 Shows how to prompt the user to enter a date with a structured document tag.
 
@@ -2199,54 +2201,6 @@ public String getPlaceholderName()
 
 
 Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
-
-[BuildingBlock](../../com.aspose.words/buildingblock/) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
-
- **Examples:** 
-
-Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
-
-```
-
- Document doc = new Document();
-
- // Insert a plain text structured document tag of the "PlainText" type, which will function as a text box.
- // The contents that it will display by default are a "Click here to enter text." prompt.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.INLINE);
-
- // We can get the tag to display the contents of a building block instead of the default text.
- // First, add a building block with contents to the glossary document.
- GlossaryDocument glossaryDoc = doc.getGlossaryDocument();
-
- BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
- substituteBlock.setName("Custom Placeholder");
- substituteBlock.appendChild(new Section(glossaryDoc));
- substituteBlock.getFirstSection().appendChild(new Body(glossaryDoc));
- substituteBlock.getFirstSection().getBody().appendParagraph("Custom placeholder text.");
-
- glossaryDoc.appendChild(substituteBlock);
-
- // Then, use the structured document tag's "PlaceholderName" property to reference that building block by name.
- tag.setPlaceholderName("Custom Placeholder");
-
- // If "PlaceholderName" refers to an existing block in the parent document's glossary document,
- // we will be able to verify the building block via the "Placeholder" property.
- Assert.assertEquals(substituteBlock, tag.getPlaceholder());
-
- // Set the "IsShowingPlaceholderText" property to "true" to treat the
- // structured document tag's current contents as placeholder text.
- // This means that clicking on the text box in Microsoft Word will immediately highlight all the tag's contents.
- // Set the "IsShowingPlaceholderText" property to "false" to get the
- // structured document tag to treat its contents as text that a user has already entered.
- // Clicking on this text in Microsoft Word will place the blinking cursor at the clicked location.
- tag.isShowingPlaceholderText(isShowingPlaceholderText);
-
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.insertNode(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
- 
-```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -4162,17 +4116,19 @@ public void setDateDisplayFormat(String value)
 ```
 
 
-String that represents the format in which dates are displayed. Can not be  null .
+String that represents the format in which dates are displayed.
 
  **Remarks:** 
+
+Can not be  null .
+
+The dates for English (U.S.) is "mm/dd/yyyy"
 
 Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype/\#DATE) SDT type.
 
 For all other SDT types exception will occur.
 
  **Examples:** 
-
-The dates for English (U.S.) is "mm/dd/yyyy"
 
 Shows how to prompt the user to enter a date with a structured document tag.
 
@@ -4556,54 +4512,6 @@ public void setPlaceholderName(String value)
 
 
 Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
-
-[BuildingBlock](../../com.aspose.words/buildingblock/) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
-
- **Examples:** 
-
-Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
-
-```
-
- Document doc = new Document();
-
- // Insert a plain text structured document tag of the "PlainText" type, which will function as a text box.
- // The contents that it will display by default are a "Click here to enter text." prompt.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.INLINE);
-
- // We can get the tag to display the contents of a building block instead of the default text.
- // First, add a building block with contents to the glossary document.
- GlossaryDocument glossaryDoc = doc.getGlossaryDocument();
-
- BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
- substituteBlock.setName("Custom Placeholder");
- substituteBlock.appendChild(new Section(glossaryDoc));
- substituteBlock.getFirstSection().appendChild(new Body(glossaryDoc));
- substituteBlock.getFirstSection().getBody().appendParagraph("Custom placeholder text.");
-
- glossaryDoc.appendChild(substituteBlock);
-
- // Then, use the structured document tag's "PlaceholderName" property to reference that building block by name.
- tag.setPlaceholderName("Custom Placeholder");
-
- // If "PlaceholderName" refers to an existing block in the parent document's glossary document,
- // we will be able to verify the building block via the "Placeholder" property.
- Assert.assertEquals(substituteBlock, tag.getPlaceholder());
-
- // Set the "IsShowingPlaceholderText" property to "true" to treat the
- // structured document tag's current contents as placeholder text.
- // This means that clicking on the text box in Microsoft Word will immediately highlight all the tag's contents.
- // Set the "IsShowingPlaceholderText" property to "false" to get the
- // structured document tag to treat its contents as text that a user has already entered.
- // Clicking on this text in Microsoft Word will place the blinking cursor at the clicked location.
- tag.isShowingPlaceholderText(isShowingPlaceholderText);
-
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.insertNode(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

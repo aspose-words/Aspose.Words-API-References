@@ -92,9 +92,9 @@ Shows how to trim whitespace when loading plaintext documents.
 
 | Field | Description |
 | --- | --- |
-| [CONVERT_TO_INDENT](#CONVERT-TO-INDENT) |  |
-| [PRESERVE](#PRESERVE) |  |
-| [TRIM](#TRIM) |  |
+| [CONVERT_TO_INDENT](#CONVERT-TO-INDENT) | Leading spaces are removed and converted to left indent. |
+| [PRESERVE](#PRESERVE) | Leading spaces are preserved. |
+| [TRIM](#TRIM) | Leading spaces are trimmed |
 | [length](#length) |  |
 ## Methods
 
@@ -110,17 +110,23 @@ public static int CONVERT_TO_INDENT
 ```
 
 
+Leading spaces are removed and converted to left indent.
+
 ### PRESERVE {#PRESERVE}
 ```
 public static int PRESERVE
 ```
 
 
+Leading spaces are preserved.
+
 ### TRIM {#TRIM}
 ```
 public static int TRIM
 ```
 
+
+Leading spaces are trimmed
 
 ### length {#length}
 ```

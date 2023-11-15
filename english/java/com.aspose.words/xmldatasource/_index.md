@@ -4,7 +4,7 @@ linktitle: XmlDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of an XML file or stream to be used within a report in Java.
 type: docs
-weight: 655
+weight: 656
 url: /java/com.aspose.words/xmldatasource/
 ---
 
@@ -28,11 +28,11 @@ When XML Schema Definition is passed to a constructor of this class, data types 
 
 When XML Schema Definition is not passed to a constructor of this class, data types of values of simple XML elements and attributes are determined automatically upon their string representations. So in template documents, you can work with typed values in this case as well. The engine is capable to automatically recognize values of the following types:
 
- *  **java.lang.Long**
- *  **java.lang.Double**
- *  **java.lang.Boolean**
- *  **java.util.Date**
- *  **java.lang.String**
+ *  long
+ *  double
+ *  boolean
+ *  java.util.Date
+ *  java.lang.String
 
 Note that for automatic recognition of data types to work, string representations of values of simple XML elements and attributes should be formed using invariant culture settings.
 

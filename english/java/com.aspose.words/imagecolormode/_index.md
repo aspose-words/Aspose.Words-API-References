@@ -43,18 +43,6 @@ Shows how to set a color mode when rendering documents.
  imageSaveOptions.setImageColorMode(imageColorMode);
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
-
- switch (imageColorMode) {
-     case ImageColorMode.NONE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 156000);
-         break;
-     case ImageColorMode.GRAYSCALE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 85000);
-         break;
-     case ImageColorMode.BLACK_AND_WHITE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() <= 20000);
-         break;
- }
  
 ```
 ## Fields

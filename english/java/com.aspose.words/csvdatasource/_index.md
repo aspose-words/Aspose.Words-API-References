@@ -26,11 +26,11 @@ In template documents, a [CsvDataSource](../../com.aspose.words/csvdatasource/) 
 
 Data types of comma-separated values are determined automatically upon their string representations. So in template documents, you can work with typed values rather than just strings. The engine is capable to automatically recognize values of the following types:
 
- *  **java.lang.Long**
- *  **java.lang.Double**
- *  **java.lang.Boolean**
- *  **java.util.Date**
- *  **java.lang.String**
+ *  long
+ *  double
+ *  boolean
+ *  java.util.Date
+ *  java.lang.String
 
 Note that for automatic recognition of data types to work, string representations of comma-separated values should be formed using invariant culture settings.
 

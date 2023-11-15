@@ -4,7 +4,7 @@ linktitle: IMailMergeCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to receive notifications while mail merge is performed in Java.
 type: docs
-weight: 680
+weight: 681
 url: /java/com.aspose.words/imailmergecallback/
 ---
 ```

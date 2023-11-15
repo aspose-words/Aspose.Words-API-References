@@ -2673,11 +2673,6 @@ Shows how to resize a shape with an image.
 
 ```
 
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
-
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
  Document doc = new Document();
@@ -4326,11 +4321,6 @@ Shows how to insert a floating image, and specify its position and size.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -7562,11 +7552,6 @@ Shows how to resize a shape with an image.
 
 ```
 
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
-
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
  Document doc = new Document();
@@ -8589,11 +8574,6 @@ Shows how to insert a floating image, and specify its position and size.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
