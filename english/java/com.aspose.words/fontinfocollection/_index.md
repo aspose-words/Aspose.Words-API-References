@@ -29,21 +29,6 @@ You do not create instances of this class directly. Use the [DocumentBase.getFon
 
  **Examples:** 
 
-Shows how to print the details of what fonts are present in a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Embedded font.docx");
-
- FontInfoCollection allFonts = doc.getFontInfos();
- // Print all the used and unused fonts in the document.
- for (int i = 0; i < allFonts.getCount(); i++) {
-     System.out.println("Font index #{i}");
-     System.out.println("\tName: {allFonts[i].Name}");
- }
- 
-```
-
 Shows how to save a document with embedded TrueType fonts.
 
 ```
@@ -56,11 +41,21 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
 
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
+Shows how to print the details of what fonts are present in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
  
 ```
 
@@ -258,11 +253,6 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
-
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
  
 ```
 
@@ -296,11 +286,6 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
-
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
  
 ```
 
@@ -334,11 +319,6 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
-
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
  
 ```
 
@@ -420,11 +400,6 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
-
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
  
 ```
 
@@ -461,11 +436,6 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
-
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
  
 ```
 
@@ -502,11 +472,6 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
-
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
  
 ```
 

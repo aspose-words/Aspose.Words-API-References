@@ -19,8 +19,8 @@ Type of document nodes that represent  and  elements imported from HTML.
 
 | Field | Description |
 | --- | --- |
-| [FORM_FIELD](#FORM-FIELD) |  |
-| [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) |  |
+| [FORM_FIELD](#FORM-FIELD) | A form field. |
+| [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) | A structured document tag |
 | [length](#length) |  |
 ## Methods
 
@@ -36,11 +36,15 @@ public static int FORM_FIELD
 ```
 
 
+A form field.
+
 ### STRUCTURED_DOCUMENT_TAG {#STRUCTURED-DOCUMENT-TAG}
 ```
 public static int STRUCTURED_DOCUMENT_TAG
 ```
 
+
+A structured document tag
 
 ### length {#length}
 ```

@@ -46,11 +46,6 @@ Shows how to work with a legend entry for chart series.
  ChartLegendEntryCollection legendEntries = chart.getLegend().getLegendEntries();
  legendEntries.get(3).isHidden(true);
 
- for (ChartLegendEntry legendEntry : legendEntries)
-     legendEntry.getFont().setSize(12.0);
-
- series1.getLegendEntry().getFont().setItalic(true);
-
  doc.save(getArtifactsDir() + "Charts.LegendEntries.docx");
  
 ```

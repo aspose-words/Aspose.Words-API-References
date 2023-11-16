@@ -4,7 +4,7 @@ linktitle: IStructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in Java.
 type: docs
-weight: 689
+weight: 691
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```
@@ -109,8 +109,6 @@ public abstract String getPlaceholderName()
 
 
 Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
-
-BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -289,8 +287,6 @@ public abstract void setPlaceholderName(String value)
 
 
 Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
-
-BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
 
 **Parameters:**
 | Parameter | Type | Description |

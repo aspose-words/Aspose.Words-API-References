@@ -1622,10 +1622,6 @@ public Table getParentTable()
 
 Returns the immediate parent table of the row.
 
- **Remarks:** 
-
-Equivalent to **P:Aspose.Words.Node.FirstNonMarkupParentNode** casted to [Table](../../com.aspose.words/table/).
-
  **Examples:** 
 
 Shows how to print the node structure of every table in a document.

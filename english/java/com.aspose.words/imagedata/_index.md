@@ -1019,7 +1019,7 @@ public ImageSize getImageSize()
 ```
 
 
-Gets the information about image size and resolution. (20839,6)
+Gets the information about image size and resolution. (20690,6)
 
  **Remarks:** 
 
@@ -1030,11 +1030,6 @@ If the image is linked only and not stored in the document, returns zero size.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -1082,7 +1077,7 @@ public int getImageType()
 ```
 
 
-Gets the type of the image. (20890,6)
+Gets the type of the image. (20736,6)
 
  **Examples:** 
 
@@ -1251,7 +1246,7 @@ public boolean hasImage()
 ```
 
 
-Returns  true  if the shape has image bytes or links an image. (20801,6)
+Returns  true  if the shape has image bytes or links an image. (20652,6)
 
  **Examples:** 
 
@@ -1300,7 +1295,7 @@ public boolean isLink()
 ```
 
 
-Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (20914,6)
+Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (20760,6)
 
  **Examples:** 
 
@@ -1373,7 +1368,7 @@ public boolean isLinkOnly()
 ```
 
 
-Returns  true  if the image is linked and not stored in the document. (20976,6)
+Returns  true  if the image is linked and not stored in the document. (20822,6)
 
  **Examples:** 
 
@@ -2639,11 +2634,11 @@ Creates and returns a stream that contains the image bytes.  This is not ported 
 
  **Remarks:** 
 
-If the image bytes are stored in the shape, creates and returns a java.io.ByteArrayInputStream object.
+If the image bytes are stored in the shape, creates and returns a  object.
 
-If the image is linked and stored in a file, opens the file and returns a java.io.FileInputStream object.
+If the image is linked and stored in a file, opens the file and returns a  object.
 
-If the image is linked and stored in an external URL, opens the URL and returns a java.io.ByteArrayInputStream object.
+If the image is linked and stored in an external URL, opens the URL and returns a  object.
 
 Is it the responsibility of the caller to dispose the stream object.
 

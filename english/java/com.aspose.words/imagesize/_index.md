@@ -24,11 +24,6 @@ Shows how to resize a shape with an image.
 
 ```
 
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
-
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
  Document doc = new Document();
@@ -170,11 +165,6 @@ Gets the height of the image in points. 1 point is 1/72 inch.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -355,11 +345,6 @@ Gets the width of the image in points. 1 point is 1/72 inch.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.

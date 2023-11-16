@@ -46,9 +46,8 @@ Shows how to insert an image, and use it as a watermark.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert the image into the header so that it will be visible on every page.
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
  builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
- Shape shape = builder.insertImage(image);
+ Shape shape = builder.insertImage(getImageDir() + "Transparent background logo.png");
  shape.setWrapType(WrapType.NONE);
  shape.setBehindText(true);
 

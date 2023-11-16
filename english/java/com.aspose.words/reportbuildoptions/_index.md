@@ -24,6 +24,7 @@ Specifies options controlling behavior of [ReportingEngine](../../com.aspose.wor
 | [NONE](#NONE) | Specifies default options. |
 | [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | Specifies that the engine should remove paragraphs becoming empty after template syntax tags are removed or replaced with empty values. |
 | [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | Specifies that the engine should use EXIF \\u200b\\u200bimage orientation values to appropriately rotate inserted JPEG images. |
+| [UPDATE_FIELDS_SYNTAX_AWARE](#UPDATE-FIELDS-SYNTAX-AWARE) | Specifies that the engine should ignore template syntax in field results and update fields after a report is built. |
 | [USE_LEGACY_HEADER_FOOTER_VISITING](#USE-LEGACY-HEADER-FOOTER-VISITING) | Specifies that the engine should visit section child nodes (headers, footers, bodies) in an order compatible with Aspose.Words versions prior 21.9. |
 | [length](#length) |  |
 ## Methods
@@ -76,6 +77,14 @@ public static int RESPECT_JPEG_EXIF_ORIENTATION
 
 
 Specifies that the engine should use EXIF \\u200b\\u200bimage orientation values to appropriately rotate inserted JPEG images.
+
+### UPDATE_FIELDS_SYNTAX_AWARE {#UPDATE-FIELDS-SYNTAX-AWARE}
+```
+public static int UPDATE_FIELDS_SYNTAX_AWARE
+```
+
+
+Specifies that the engine should ignore template syntax in field results and update fields after a report is built.
 
 ### USE_LEGACY_HEADER_FOOTER_VISITING {#USE-LEGACY-HEADER-FOOTER-VISITING}
 ```

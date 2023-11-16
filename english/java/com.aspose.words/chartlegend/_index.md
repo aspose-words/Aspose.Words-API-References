@@ -55,11 +55,42 @@ Shows how to edit the appearance of a chart's legend.
 
 | Method | Description |
 | --- | --- |
+| [getFont()](#getFont) | Provides access to the default font formatting of legend entries. |
 | [getLegendEntries()](#getLegendEntries) | Returns a collection of legend entries for all series and trendlines of the parent chart. |
 | [getOverlay()](#getOverlay) | Determines whether other chart elements shall be allowed to overlap legend. |
 | [getPosition()](#getPosition) | Specifies the position of the legend on a chart. |
 | [setOverlay(boolean value)](#setOverlay-boolean) | Determines whether other chart elements shall be allowed to overlap legend. |
 | [setPosition(int value)](#setPosition-int) | Specifies the position of the legend on a chart. |
+### getFont() {#getFont}
+```
+public Font getFont()
+```
+
+
+Provides access to the default font formatting of legend entries. To override the font formatting for a specific legend entry, use the [ChartLegendEntry.getFont()](../../com.aspose.words/chartlegendentry/\#getFont) property.
+
+ **Examples:** 
+
+Shows how to work with a legend font.
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series.docx");
+ Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
+
+ ChartLegend chartLegend = chart.getLegend();
+ // Set default font size all legend entries.
+ chartLegend.getFont().setSize(14.0);
+ // Change font for specific legend entry.
+ chartLegend.getLegendEntries().get(1).getFont().setItalic(true);
+ chartLegend.getLegendEntries().get(1).getFont().setSize(12.0);
+
+ doc.save(getArtifactsDir() + "Charts.LegendFont.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getLegendEntries() {#getLegendEntries}
 ```
 public ChartLegendEntryCollection getLegendEntries()
@@ -92,11 +123,6 @@ Shows how to work with a legend entry for chart series.
 
  ChartLegendEntryCollection legendEntries = chart.getLegend().getLegendEntries();
  legendEntries.get(3).isHidden(true);
-
- for (ChartLegendEntry legendEntry : legendEntries)
-     legendEntry.getFont().setSize(12.0);
-
- series1.getLegendEntry().getFont().setItalic(true);
 
  doc.save(getArtifactsDir() + "Charts.LegendEntries.docx");
  

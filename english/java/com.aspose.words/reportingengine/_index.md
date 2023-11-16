@@ -192,6 +192,24 @@ public int getOptions()
 
 Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report.
 
+ **Examples:** 
+
+Shows how to set options for Reporting Engine
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Fields.docx");
+
+ // Note that enabling of the option makes the engine to update fields while building a report,
+ // so there is no need to update fields separately after that.
+ ReportingEngine engine = new ReportingEngine();
+ engine.setOptions(ReportBuildOptions.UPDATE_FIELDS_SYNTAX_AWARE);
+ engine.buildReport(doc, new String[] { "First topic", "Second topic", "Third topic" }, "topics");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.UpdateFieldsSyntaxAware.docx");
+ 
+```
+
 **Returns:**
 int - A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. The returned value is a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions/) constants.
 ### getUseReflectionOptimization() {#getUseReflectionOptimization}
@@ -225,6 +243,24 @@ public void setOptions(int value)
 
 
 Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report.
+
+ **Examples:** 
+
+Shows how to set options for Reporting Engine
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Fields.docx");
+
+ // Note that enabling of the option makes the engine to update fields while building a report,
+ // so there is no need to update fields separately after that.
+ ReportingEngine engine = new ReportingEngine();
+ engine.setOptions(ReportBuildOptions.UPDATE_FIELDS_SYNTAX_AWARE);
+ engine.buildReport(doc, new String[] { "First topic", "Second topic", "Third topic" }, "topics");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.UpdateFieldsSyntaxAware.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

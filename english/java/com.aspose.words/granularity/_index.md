@@ -46,8 +46,8 @@ Shows to specify a granularity while comparing documents.
 
 | Field | Description |
 | --- | --- |
-| [CHAR_LEVEL](#CHAR-LEVEL) |  |
-| [WORD_LEVEL](#WORD-LEVEL) |  |
+| [CHAR_LEVEL](#CHAR-LEVEL) | Specifies changes at the character level. |
+| [WORD_LEVEL](#WORD-LEVEL) | Specifies changes at the word level. |
 | [length](#length) |  |
 ## Methods
 
@@ -63,11 +63,15 @@ public static int CHAR_LEVEL
 ```
 
 
+Specifies changes at the character level.
+
 ### WORD_LEVEL {#WORD-LEVEL}
 ```
 public static int WORD_LEVEL
 ```
 
+
+Specifies changes at the word level.
 
 ### length {#length}
 ```

@@ -97,6 +97,7 @@ Shows how to get the properties of multi-section structured document tags.
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [getTitle()](#getTitle) | Specifies the friendly name associated with this structured document tag. |
 | [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
+| [getWordOpenXMLMinimal()](#getWordOpenXMLMinimal) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
 | [isRanged()](#isRanged) |  |
@@ -870,40 +871,6 @@ public String getPlaceholderName()
 
 Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
 
-[BuildingBlock](../../com.aspose.words/buildingblock/) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
-
- **Examples:** 
-
-Shows how to get the properties of multi-section structured document tags.
-
-```
-
- Document doc = new Document(getMyDir() + "Multi-section structured document tags.docx");
-
- StructuredDocumentTagRangeStart rangeStartTag = (StructuredDocumentTagRangeStart) doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, true).get(0);
- StructuredDocumentTagRangeEnd rangeEndTag = (StructuredDocumentTagRangeEnd) doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_END, true).get(0);
-
- System.out.println("StructuredDocumentTagRangeStart values:");
- System.out.println(MessageFormat.format("\t|Id: {0}", rangeStartTag.getId()));
- System.out.println(MessageFormat.format("\t|Title: {0}", rangeStartTag.getTitle()));
- System.out.println(MessageFormat.format("\t|PlaceholderName: {0}", rangeStartTag.getPlaceholderName()));
- System.out.println(MessageFormat.format("\t|IsShowingPlaceholderText: {0}", rangeStartTag.isShowingPlaceholderText()));
- System.out.println(MessageFormat.format("\t|LockContentControl: {0}", rangeStartTag.getLockContentControl()));
- System.out.println(MessageFormat.format("\t|LockContents: {0}", rangeStartTag.getLockContents()));
- System.out.println(MessageFormat.format("\t|Level: {0}", rangeStartTag.getLevel()));
- System.out.println(MessageFormat.format("\t|NodeType: {0}", rangeStartTag.getNodeType()));
- System.out.println(MessageFormat.format("\t|RangeEnd: {0}", rangeStartTag.getRangeEnd()));
- System.out.println(MessageFormat.format("\t|Color: {0}", rangeStartTag.getColor()));
- System.out.println(MessageFormat.format("\t|SdtType: {0}", rangeStartTag.getSdtType()));
- System.out.println(MessageFormat.format("\t|FlatOpcContent: {0}", rangeStartTag.getWordOpenXML()));
- System.out.println(MessageFormat.format("\t|Tag: {0}\n", rangeStartTag.getTag()));
-
- System.out.println("StructuredDocumentTagRangeEnd values:");
- System.out.println("\t|Id: {rangeEndTag.Id}");
- System.out.println("\t|NodeType: {rangeEndTag.NodeType}");
- 
-```
-
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
 ### getPreviousSibling() {#getPreviousSibling}
@@ -1282,6 +1249,32 @@ Shows how to get the properties of multi-section structured document tags.
 
 **Returns:**
 java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
+### getWordOpenXMLMinimal() {#getWordOpenXMLMinimal}
+```
+public String getWordOpenXMLMinimal()
+```
+
+
+Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. Unlike the [getWordOpenXML()](../../com.aspose.words/structureddocumenttagrangestart/\#getWordOpenXML) property, this method generates a stripped-down document that excludes any non-content-related parts.
+
+ **Examples:** 
+
+Shows how to get minimal XML contained within the node in the FlatOpc format.
+
+```
+
+ Document doc = new Document(getMyDir() + "Multi-section structured document tags.docx");
+ StructuredDocumentTagRangeStart tag = (StructuredDocumentTagRangeStart) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, true);
+
+ Assert.assertTrue(tag.getWordOpenXMLMinimal()
+         .contains(
+                 ""));
+ Assert.assertFalse(tag.getWordOpenXMLMinimal().contains("xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\""));
+ 
+```
+
+**Returns:**
+java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
 ### getXmlMapping() {#getXmlMapping}
 ```
 public XmlMapping getXmlMapping()
@@ -1327,7 +1320,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (145317,6)
+Returns  true  if this node can contain other nodes. (144924,6)
 
  **Examples:** 
 
@@ -1924,40 +1917,6 @@ public void setPlaceholderName(String value)
 
 
 Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
-
-[BuildingBlock](../../com.aspose.words/buildingblock/) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
-
- **Examples:** 
-
-Shows how to get the properties of multi-section structured document tags.
-
-```
-
- Document doc = new Document(getMyDir() + "Multi-section structured document tags.docx");
-
- StructuredDocumentTagRangeStart rangeStartTag = (StructuredDocumentTagRangeStart) doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, true).get(0);
- StructuredDocumentTagRangeEnd rangeEndTag = (StructuredDocumentTagRangeEnd) doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_END, true).get(0);
-
- System.out.println("StructuredDocumentTagRangeStart values:");
- System.out.println(MessageFormat.format("\t|Id: {0}", rangeStartTag.getId()));
- System.out.println(MessageFormat.format("\t|Title: {0}", rangeStartTag.getTitle()));
- System.out.println(MessageFormat.format("\t|PlaceholderName: {0}", rangeStartTag.getPlaceholderName()));
- System.out.println(MessageFormat.format("\t|IsShowingPlaceholderText: {0}", rangeStartTag.isShowingPlaceholderText()));
- System.out.println(MessageFormat.format("\t|LockContentControl: {0}", rangeStartTag.getLockContentControl()));
- System.out.println(MessageFormat.format("\t|LockContents: {0}", rangeStartTag.getLockContents()));
- System.out.println(MessageFormat.format("\t|Level: {0}", rangeStartTag.getLevel()));
- System.out.println(MessageFormat.format("\t|NodeType: {0}", rangeStartTag.getNodeType()));
- System.out.println(MessageFormat.format("\t|RangeEnd: {0}", rangeStartTag.getRangeEnd()));
- System.out.println(MessageFormat.format("\t|Color: {0}", rangeStartTag.getColor()));
- System.out.println(MessageFormat.format("\t|SdtType: {0}", rangeStartTag.getSdtType()));
- System.out.println(MessageFormat.format("\t|FlatOpcContent: {0}", rangeStartTag.getWordOpenXML()));
- System.out.println(MessageFormat.format("\t|Tag: {0}\n", rangeStartTag.getTag()));
-
- System.out.println("StructuredDocumentTagRangeEnd values:");
- System.out.println("\t|Id: {rangeEndTag.Id}");
- System.out.println("\t|NodeType: {rangeEndTag.NodeType}");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

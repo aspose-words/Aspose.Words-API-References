@@ -146,7 +146,7 @@ Initializes a new instance of the [Body](../../com.aspose.words/body/) class.
 
 When [Body](../../com.aspose.words/body/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Body](../../com.aspose.words/body/) to a [Section](../../com.aspose.words/section/) use **M:Aspose.Words.CompositeNode.AppendChild1(0)**, **M:Aspose.Words.CompositeNode.InsertAfter1(0,Aspose.Words.Node)** or **M:Aspose.Words.CompositeNode.InsertBefore1(0,Aspose.Words.Node)** methods.
+To append [Body](../../com.aspose.words/body/) to a [Section](../../com.aspose.words/section/) use **M:Aspose.Words.CompositeNode.AppendChild1(0)** **M:Aspose.Words.CompositeNode.InsertAfter1(0,Aspose.Words.Node)** or **M:Aspose.Words.CompositeNode.InsertBefore1(0,Aspose.Words.Node)** methods.
 
  **Examples:** 
 

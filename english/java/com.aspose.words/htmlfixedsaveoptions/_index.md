@@ -2110,40 +2110,6 @@ public String getTempFolder()
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
-
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty}
@@ -4365,40 +4331,6 @@ public void setTempFolder(String value)
 
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
-
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

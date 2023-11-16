@@ -44,7 +44,7 @@ Creates an one-page set based on exact page index.
 
  **Remarks:** 
 
-If a page is encountered that is not in the document, an exception will be thrown during rendering. **java.lang.Integer.MAX\_VALUE** means the last page in the document.
+If a page is encountered that is not in the document, an exception will be thrown during rendering. **Integer.MAX\_VALUE** means the last page in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -61,7 +61,7 @@ Creates a page set based on exact page indices.
 
  **Remarks:** 
 
-If a page is encountered that is not in the document, an exception will be thrown during rendering. **java.lang.Integer.MAX\_VALUE** means the last page in the document.
+If a page is encountered that is not in the document, an exception will be thrown during rendering. **Integer.MAX\_VALUE** means the last page in the document.
 
  **Examples:** 
 

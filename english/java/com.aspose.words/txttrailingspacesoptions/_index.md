@@ -92,8 +92,8 @@ Shows how to trim whitespace when loading plaintext documents.
 
 | Field | Description |
 | --- | --- |
-| [PRESERVE](#PRESERVE) |  |
-| [TRIM](#TRIM) |  |
+| [PRESERVE](#PRESERVE) | Trailing spaces are preserved. |
+| [TRIM](#TRIM) | Trailing spaces are trimmed. |
 | [length](#length) |  |
 ## Methods
 
@@ -109,11 +109,15 @@ public static int PRESERVE
 ```
 
 
+Trailing spaces are preserved.
+
 ### TRIM {#TRIM}
 ```
 public static int TRIM
 ```
 
+
+Trailing spaces are trimmed.
 
 ### length {#length}
 ```

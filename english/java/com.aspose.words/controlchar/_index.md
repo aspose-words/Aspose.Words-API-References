@@ -69,7 +69,7 @@ Shows how to use control characters.
 | [LINE_BREAK_CHAR](#LINE-BREAK-CHAR) | Line break character: (char)11 or "\\v". |
 | [LINE_FEED](#LINE-FEED) | Line feed character: "\\x000a" or "\\n". |
 | [LINE_FEED_CHAR](#LINE-FEED-CHAR) | Line feed character: (char)10 or "\\n". |
-| [NON_BREAKING_HYPHEN_CHAR](#NON-BREAKING-HYPHEN-CHAR) | Nonbreaking Hyphen in Microsoft Word is (char)30. |
+| [NON_BREAKING_HYPHEN_CHAR](#NON-BREAKING-HYPHEN-CHAR) | Non-breaking Hyphen in Microsoft Word is (char)30. |
 | [NON_BREAKING_SPACE](#NON-BREAKING-SPACE) | Non-breaking space character: "\\x00a0". |
 | [NON_BREAKING_SPACE_CHAR](#NON-BREAKING-SPACE-CHAR) | Non-breaking space character: (char)160. |
 | [OPTIONAL_HYPHEN_CHAR](#OPTIONAL-HYPHEN-CHAR) | Optional Hyphen in Microsoft Word is (char)31. |
@@ -1228,11 +1228,11 @@ public static char NON_BREAKING_HYPHEN_CHAR
 ```
 
 
-Nonbreaking Hyphen in Microsoft Word is (char)30.
+Non-breaking Hyphen in Microsoft Word is (char)30.
 
  **Remarks:** 
 
-Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
+Non-breaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
 
 Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html\#linebreaks.
 

@@ -23,6 +23,33 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 
  **Examples:** 
 
+Shows how to specify a resolution while rendering a document to PNG.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Times New Roman");
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Resolution" property to "72" to render the document in 72dpi.
+ options.setResolution(72f);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png", options);
+
+ // Set the "Resolution" property to "300" to render the document in 300dpi.
+ options.setResolution(300f);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png", options);
+ 
+```
+
 Renders a page of a Word document into an image with transparent or colored background.
 
 ```
@@ -81,48 +108,6 @@ Shows how to configure compression while saving a document as a JPEG.
  doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
 
  Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg").length() < 60000);
- 
-```
-
-Shows how to specify a resolution while rendering a document to PNG.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getFont().setName("Times New Roman");
- builder.getFont().setSize(24.0);
- builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-
- builder.insertImage(getImageDir() + "Logo.jpg");
-
- // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
- // to modify the way in which that method renders the document into an image.
- ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
-
- // Set the "Resolution" property to "72" to render the document in 72dpi.
- options.setResolution(72f);
-
- doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png", options);
-
- Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png").length() <= 120000);
-
- BufferedImage image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png"));
-
- Assert.assertEquals(612, image.getWidth());
- Assert.assertEquals(792, image.getHeight());
- // Set the "Resolution" property to "300" to render the document in 300dpi.
- options.setResolution(300f);
-
- doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png", options);
-
- Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png").length() < 1170000);
-
- image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png"));
-
- Assert.assertEquals(2550, image.getWidth());
- Assert.assertEquals(3300, image.getHeight());
  
 ```
 
@@ -319,20 +304,6 @@ Shows how to select a bit-per-pixel rate with which to render a document to an i
  Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
-
- switch (imagePixelFormat) {
-     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
-         break;
-     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
-     case ImagePixelFormat.FORMAT_32_BPP_RGB:
-     case ImagePixelFormat.FORMAT_48_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
-         break;
-     case ImagePixelFormat.FORMAT_24_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
-         break;
- }
  
 ```
 
@@ -798,18 +769,6 @@ Shows how to set a color mode when rendering documents.
  imageSaveOptions.setImageColorMode(imageColorMode);
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
-
- switch (imageColorMode) {
-     case ImageColorMode.NONE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 156000);
-         break;
-     case ImageColorMode.GRAYSCALE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 85000);
-         break;
-     case ImageColorMode.BLACK_AND_WHITE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() <= 20000);
-         break;
- }
  
 ```
 
@@ -1373,7 +1332,7 @@ public Color getPaperColor()
 
 Gets the background (paper) color for the generated images.
 
-The default value is **java.awt.Color.WHITE**.
+The default value is java.awt.Color\#getWhite().getWhite().
 
  **Remarks:** 
 
@@ -1455,20 +1414,6 @@ Shows how to select a bit-per-pixel rate with which to render a document to an i
  Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
-
- switch (imagePixelFormat) {
-     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
-         break;
-     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
-     case ImagePixelFormat.FORMAT_32_BPP_RGB:
-     case ImagePixelFormat.FORMAT_48_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
-         break;
-     case ImagePixelFormat.FORMAT_24_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
-         break;
- }
  
 ```
 
@@ -1905,40 +1850,6 @@ public String getTempFolder()
 
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
-
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -2866,18 +2777,6 @@ Shows how to set a color mode when rendering documents.
  imageSaveOptions.setImageColorMode(imageColorMode);
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
-
- switch (imageColorMode) {
-     case ImageColorMode.NONE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 156000);
-         break;
-     case ImageColorMode.GRAYSCALE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 85000);
-         break;
-     case ImageColorMode.BLACK_AND_WHITE:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() <= 20000);
-         break;
- }
  
 ```
 
@@ -3489,7 +3388,7 @@ public void setPaperColor(Color value)
 
 Sets the background (paper) color for the generated images.
 
-The default value is **java.awt.Color.WHITE**.
+The default value is java.awt.Color\#getWhite().getWhite().
 
  **Remarks:** 
 
@@ -3574,20 +3473,6 @@ Shows how to select a bit-per-pixel rate with which to render a document to an i
  Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
-
- switch (imagePixelFormat) {
-     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
-         break;
-     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
-     case ImagePixelFormat.FORMAT_32_BPP_RGB:
-     case ImagePixelFormat.FORMAT_48_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
-         break;
-     case ImagePixelFormat.FORMAT_24_BPP_RGB:
-         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
-         break;
- }
  
 ```
 
@@ -3936,26 +3821,11 @@ Shows how to specify a resolution while rendering a document to PNG.
 
  // Set the "Resolution" property to "72" to render the document in 72dpi.
  options.setResolution(72f);
-
  doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png", options);
 
- Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png").length() <= 120000);
-
- BufferedImage image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png"));
-
- Assert.assertEquals(612, image.getWidth());
- Assert.assertEquals(792, image.getHeight());
  // Set the "Resolution" property to "300" to render the document in 300dpi.
  options.setResolution(300f);
-
  doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png", options);
-
- Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png").length() < 1170000);
-
- image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png"));
-
- Assert.assertEquals(2550, image.getWidth());
- Assert.assertEquals(3300, image.getHeight());
  
 ```
 
@@ -4100,40 +3970,6 @@ public void setTempFolder(String value)
 
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
-
- **Remarks:** 
-
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
-
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
-
-The folder must exist and be writable, otherwise an exception will be thrown.
-
-Aspose.Words automatically deletes all temporary files when saving is complete.
-
- **Examples:** 
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
- // We can use this option to use a temporary folder in the local file system instead,
- // which will reduce our application's memory overhead.
- DocSaveOptions options = new DocSaveOptions();
- options.setTempFolder(getArtifactsDir() + "TempFiles");
-
- // The specified temporary folder must exist in the local file system before the save operation.
- new File(options.getTempFolder()).mkdir();
-
- doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
-
- // The folder will persist with no residual contents from the load operation.
- Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

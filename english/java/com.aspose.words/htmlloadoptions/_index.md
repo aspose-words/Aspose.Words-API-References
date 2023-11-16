@@ -34,7 +34,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [equals(Object obj)](#equals-java.lang.Object) |  |
 | [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [getBlockImportMode()](#getBlockImportMode) | Gets a value that specifies how properties of block-level elements are imported. |
-| [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 | [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Gets whether to convert shapes with EquationXML to Office Math objects. |
 | [getConvertSvgToEmf()](#getConvertSvgToEmf) | Gets a value indicating whether to convert loaded SVG images to the EMF format. |
 | [getEncoding()](#getEncoding) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
@@ -56,7 +56,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [getWebRequestTimeout()](#getWebRequestTimeout) | The number of milliseconds to wait before the web request times out. |
 | [setBaseUri(String value)](#setBaseUri-java.lang.String) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [setBlockImportMode(int value)](#setBlockImportMode-int) | Sets a value that specifies how properties of block-level elements are imported. |
-| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Sets whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 | [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean) | Sets whether to convert shapes with EquationXML to Office Math objects. |
 | [setConvertSvgToEmf(boolean value)](#setConvertSvgToEmf-boolean) | Sets a value indicating whether to convert loaded SVG images to the EMF format. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
@@ -248,7 +248,7 @@ public boolean getConvertMetafilesToPng()
 ```
 
 
-Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
+Gets whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
 
  **Remarks:** 
 
@@ -280,11 +280,13 @@ Shows how to convert WMF/EMF to PNG during loading document.
 
  doc = new Document(getArtifactsDir() + "Image.CreateImageDirectly.docx", loadOptions);
  shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ TestUtil.verifyImageInShape(1600, 1600, ImageType.PNG, shape);
  
 ```
 
 **Returns:**
-boolean - Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
+boolean - Whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
 ### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath}
 ```
 public boolean getConvertShapeToOfficeMath()
@@ -1096,7 +1098,7 @@ public void setConvertMetafilesToPng(boolean value)
 ```
 
 
-Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
+Sets whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
 
  **Remarks:** 
 
@@ -1128,13 +1130,15 @@ Shows how to convert WMF/EMF to PNG during loading document.
 
  doc = new Document(getArtifactsDir() + "Image.CreateImageDirectly.docx", loadOptions);
  shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ TestUtil.verifyImageInShape(1600, 1600, ImageType.PNG, shape);
  
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| value | boolean | Whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 
 ### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean}
 ```

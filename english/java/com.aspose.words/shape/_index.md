@@ -2628,7 +2628,7 @@ Defines the brush color that fills the closed path of the shape.
 
 This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
-The default value is **java.awt.Color.WHITE**.
+The default value is java.awt.Color\#getWhite().getWhite().
 
  **Examples:** 
 
@@ -3268,11 +3268,6 @@ Shows how to insert a floating image, and specify its position and size.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -5264,7 +5259,7 @@ Defines the color of a stroke.
 
 This is a shortcut to the [Stroke.getColor()](../../com.aspose.words/stroke/\#getColor) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke/\#setColor-java.awt.Color) property.
 
-The default value is **java.awt.Color.BLACK**.
+The default value is java.awt.Color\#getBlack().getBlack().
 
  **Examples:** 
 
@@ -6239,11 +6234,6 @@ Shows how to insert a floating image, and specify its position and size.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -9483,7 +9473,7 @@ Defines the brush color that fills the closed path of the shape.
 
 This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
-The default value is **java.awt.Color.WHITE**.
+The default value is java.awt.Color\#getWhite().getWhite().
 
  **Examples:** 
 
@@ -9953,11 +9943,6 @@ Shows how to insert a floating image, and specify its position and size.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -10751,7 +10736,7 @@ Defines the color of a stroke.
 
 This is a shortcut to the [Stroke.getColor()](../../com.aspose.words/stroke/\#getColor) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke/\#setColor-java.awt.Color) property.
 
-The default value is **java.awt.Color.BLACK**.
+The default value is java.awt.Color\#getBlack().getBlack().
 
  **Examples:** 
 
@@ -11526,11 +11511,6 @@ Shows how to insert a floating image, and specify its position and size.
 Shows how to resize a shape with an image.
 
 ```
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- Assert.assertEquals(400, image.getWidth());
- Assert.assertEquals(400, image.getHeight());
 
  // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
  // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.

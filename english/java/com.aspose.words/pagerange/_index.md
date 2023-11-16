@@ -35,7 +35,7 @@ Creates a new page range object.
 
  **Remarks:** 
 
-**java.lang.Integer.MAX\_VALUE** means the last page in the document.
+**Integer.MAX\_VALUE** means the last page in the document.
 
  **Examples:** 
 

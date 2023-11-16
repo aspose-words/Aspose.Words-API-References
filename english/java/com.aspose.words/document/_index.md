@@ -221,8 +221,8 @@ Shows how to execute a mail merge with data from a DataTable.
 | [removeExternalSchemaReferences()](#removeExternalSchemaReferences) | Removes external XML schema references from this document. |
 | [removeMacros()](#removeMacros) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
-| [renderToScale(int pageIndex, Graphics2D graphics, float x, float y, float scale)](#renderToScale-int-java.awt.Graphics2D-float-float-float) | Renders a document page into a **java.awt.Graphics2D** object to a specified scale. |
-| [renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height)](#renderToSize-int-java.awt.Graphics2D-float-float-float-float) | Renders a document page into a **java.awt.Graphics2D** object to a specified size. |
+| [renderToScale(int pageIndex, Graphics2D graphics, float x, float y, float scale)](#renderToScale-int-java.awt.Graphics2D-float-float-float) | Renders a document page into a java.awt.Graphics2D object to a specified scale. |
+| [renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height)](#renderToSize-int-java.awt.Graphics2D-float-float-float-float) | Renders a document page into a java.awt.Graphics2D object to a specified size. |
 | [save(OutputStream stream, SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int) |  |
 | [save(String fileName)](#save-java.lang.String) | Saves the document. |
@@ -282,6 +282,10 @@ public Document()
 Creates or loads a document.  Creates a blank Word document.
 
  **Remarks:** 
+
+A blank document is retrieved from resources, and by default, the resulting document looks more like created by [MsWordVersion.WORD\_2007](../../com.aspose.words/mswordversion/\#WORD-2007). This blank document contains a default fonts table, minimal default styles, and latent styles.
+
+**M:Aspose.Words.Settings.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion)** method can be used to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
 
 The document paper size is Letter by default. If you want to change page setup, use [Section.getPageSetup()](../../com.aspose.words/section/\#getPageSetup).
 
@@ -2396,21 +2400,6 @@ Do not rely on this collection to ascertain that a particular font is used in th
 
  **Examples:** 
 
-Shows how to print the details of what fonts are present in a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Embedded font.docx");
-
- FontInfoCollection allFonts = doc.getFontInfos();
- // Print all the used and unused fonts in the document.
- for (int i = 0; i < allFonts.getCount(); i++) {
-     System.out.println("Font index #{i}");
-     System.out.println("\tName: {allFonts[i].Name}");
- }
- 
-```
-
 Shows how to save a document with embedded TrueType fonts.
 
 ```
@@ -2423,11 +2412,21 @@ Shows how to save a document with embedded TrueType fonts.
  fontInfos.setSaveSubsetFonts(embedAllFonts);
 
  doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
 
- if (embedAllFonts)
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() > 25000);
- else
-     Assert.assertTrue(new File(getArtifactsDir() + "Font.FontInfoCollection.docx").length() <= 15000);
+Shows how to print the details of what fonts are present in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
  
 ```
 
@@ -5589,7 +5588,7 @@ Prints the document according to the specified printer settings, using the stand
 
  **Remarks:** 
 
-The **javax.print.attribute.AttributeSet** object allows you to specify the printer to print on, the range of pages of to print and other options.
+The javax.print.attribute.AttributeSet object allows you to specify the printer to print on, the range of pages of to print and other options.
 
 The **javax.print.attribute.AttributeSet** can contain both **javax.print.attribute.PrintRequestAttribute** to configure PrintJob request and **javax.print.attribute.PrintServiceAttribute** to configure PrintService lookup.
 
@@ -5608,7 +5607,7 @@ Prints the document according to the specified printer settings, using the stand
 
  **Remarks:** 
 
-The **javax.print.attribute.AttributeSet** object allows you to specify the printer to print on, the range of pages of to print and other options.
+The javax.print.attribute.AttributeSet object allows you to specify the printer to print on, the range of pages of to print and other options.
 
 The **javax.print.attribute.AttributeSet** can contain both **javax.print.attribute.PrintRequestAttribute** to configure PrintJob request and **javax.print.attribute.PrintServiceAttribute** to configure PrintService lookup.
 
@@ -5948,7 +5947,7 @@ public Point2D.Float renderToScale(int pageIndex, Graphics2D graphics, float x, 
 ```
 
 
-Renders a document page into a **java.awt.Graphics2D** object to a specified scale.
+Renders a document page into a java.awt.Graphics2D object to a specified scale.
 
  **Examples:** 
 
@@ -6024,7 +6023,7 @@ public float renderToSize(int pageIndex, Graphics2D graphics, float x, float y, 
 ```
 
 
-Renders a document page into a **java.awt.Graphics2D** object to a specified size.
+Renders a document page into a java.awt.Graphics2D object to a specified size.
 
  **Examples:** 
 

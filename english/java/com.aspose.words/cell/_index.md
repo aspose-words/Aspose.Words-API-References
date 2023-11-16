@@ -1526,10 +1526,6 @@ public Row getParentRow()
 
 Returns the parent row of the cell.
 
- **Remarks:** 
-
-Equivalent to **P:Aspose.Words.Node.FirstNonMarkupParentNode** casted to [Row](../../com.aspose.words/row/).
-
  **Examples:** 
 
 Shows how to set a table to stay together on the same page.
