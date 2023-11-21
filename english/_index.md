@@ -46,6 +46,7 @@ With Aspose.Words for Java API Reference, developers can streamline their docume
 These are links to some useful resources:
 
 - [Aspose.Words for Java API Reference](/words/java/)
+- [Aspose.Words for Java API Tutorials](/tutorials/words/java/)
 
 
 ## Aspose.Words for C++
@@ -78,4 +79,4 @@ By utilizing the Aspose.Words for Python API Reference, developers can seamlessl
 
 These are links to some useful resources:
 - [Aspose.Words for Python via .NET API Reference](/words/python-net/)
-
+- [Aspose.Words for Python via .NET API Tutorials](/tutorials/words/python-net/)

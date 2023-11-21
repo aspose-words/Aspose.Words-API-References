@@ -20,7 +20,7 @@ Aspose.Words for .NET — это библиотека классов, котор
 
 Это ссылки на некоторые полезные ресурсы:
 - [Справочник по API Aspose.Words для .NET](/words/ru/net/)
-- [Руководства по Aspose.Words для .NET API](/tutorials/ru/words/net/)
+- [Руководства по Aspose.Words для .NET API](/tutorials/words/ru/net/)
 
 ## Aspose.Words для Java
 
@@ -35,6 +35,7 @@ Aspose.Words for Java — это библиотека классов, котор
 Это ссылки на некоторые полезные ресурсы:
 
 - [Справочник по API Aspose.Words для Java](/words/ru/java/)
+- [Учебные пособия по Aspose.Words для Java API](/tutorials/words/ru/java/)
 
 
 ## Aspose.Words для C++
@@ -63,4 +64,4 @@ Aspose.Words для Python через .NET — это библиотека кл�
 
 Это ссылки на некоторые полезные ресурсы:
 - [Aspose.Words для Python через справочник по .NET API](/words/python-net/)
-
+- [Учебные пособия по Aspose.Words для Python через .NET API](/tutorials/words/ru/python-net/)

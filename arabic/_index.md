@@ -20,7 +20,7 @@ Aspose.Words for .NET هي مكتبة فئة تمكن تطبيقاتك من أد
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Words لمرجع .NET API](/words/ar/net/)
-- [Aspose.Words لدروس .NET API](/tutorials/ar/words/net/)
+- [Aspose.Words لدروس .NET API](/tutorials/words/ar/net/)
 
 ## Aspose.Words for Java
 
@@ -35,6 +35,7 @@ Aspose.Words for Java هي مكتبة صفية تمكن تطبيقاتك من أ
 هذه روابط لبعض المصادر المفيدة:
 
 - [Aspose.Words لمرجع Java API](/words/java/)
+- [Aspose.Words لبرامج Java API التعليمية](/tutorials/words/ar/java/)
 
 
 ## Aspose.Words for C++
@@ -63,4 +64,4 @@ Aspose.Words for Python via .NET هي مكتبة فئة تمكن تطبيقات�
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Words for Python عبر مرجع .NET API](/words/python-net/)
-
+- [Aspose.Words لـ Python عبر دروس .NET API](/tutorials/words/ar/python-net/)

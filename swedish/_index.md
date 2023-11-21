@@ -20,7 +20,7 @@ Aspose.Words för .NET är ett klassbibliotek som gör det möjligt för dina ap
 
 Det här är länkar till några användbara resurser:
 - [Aspose.Words för .NET API Referens](/words/sv/net/)
-- [Handledning för Aspose.Words för .NET API](/tutorials/sv/words/net/)
+- [Handledning för Aspose.Words för .NET API](/tutorials/words/sv/net/)
 
 ## Aspose.Words för Java
 
@@ -35,6 +35,7 @@ Aspose.Words för Java är ett klassbibliotek som gör att dina applikationer ka
 Det här är länkar till några användbara resurser:
 
 - [Aspose.Words för Java API Referens](/words/java/)
+- [Handledning för Aspose.Words för Java API](/tutorials/words/sv/java/)
 
 
 ## Aspose.Words för C++
@@ -63,4 +64,4 @@ Aspose.Words för Python via .NET är ett klassbibliotek som gör det möjligt f
 
 Det här är länkar till några användbara resurser:
 - [Aspose.Words för Python via .NET API Reference](/words/python-net/)
-
+- [Aspose.Words för Python via .NET API Tutorials](/tutorials/words/sv/python-net/)
