@@ -20,7 +20,7 @@ Aspose.Words for .NET 是一个类库，使您的应用程序能够执行大量�
 
 这些是一些有用资源的链接：
 - [Aspose.Words for .NET API 参考](/words/zh/net/)
-- [Aspose.Words for .NET API 教程](/tutorials/zh/words/net/)
+- [Aspose.Words for .NET API 教程](/tutorials/words/zh/net/)
 
 ## Aspose.Words for Java
 
@@ -35,7 +35,7 @@ Aspose.Words for Java 是一个类库，使您的应用程序能够执行各种�
 这些是一些有用资源的链接：
 
 - [Aspose.Words for Java API 参考](/words/zh/java/)
-
+- [Aspose.Words Java API 教程](/tutorials/words/zh/java/)
 
 ## Aspose.Words for C++
 
@@ -63,6 +63,6 @@ Aspose.Words for Python via .NET 是一个类库，使您的应用程序能够�
 
 这些是一些有用资源的链接：
 - [Aspose.Words for Python 通过 .NET API 参考](/words/python-net/)
-
+- [Aspose.Words for Python via .NET API 教程](/tutorials/words/zh/python-net/)
 
 

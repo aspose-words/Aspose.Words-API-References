@@ -20,7 +20,7 @@ Aspose.Words f체r .NET ist eine Klassenbibliothek, die es Ihren Anwendungen erm�
 
 Dies sind Links zu einigen n체tzlichen Ressourcen:
 - [Aspose.Words f체r .NET-API-Referenz](/words/de/net/)
-- [Aspose.Words f체r .NET API-Tutorials](/tutorials/de/words/net/)
+- [Aspose.Words f체r .NET API-Tutorials](/tutorials/words/de/net/)
 
 ## Aspose.Words f체r Java
 
@@ -35,7 +35,7 @@ Aspose.Words f체r Java ist eine Klassenbibliothek, die es Ihren Anwendungen erm�
 Dies sind Links zu einigen n체tzlichen Ressourcen:
 
 - [Aspose.Words f체r Java-API-Referenz](/words/java/)
-
+- [Aspose.Words f체r Java API-Tutorials](/tutorials/words/de/java/)
 
 ## Aspose.Words f체r C++
 
@@ -63,4 +63,4 @@ Aspose.Words f체r Python 체ber .NET ist eine Klassenbibliothek, die es Ihren Anw
 
 Dies sind Links zu einigen n체tzlichen Ressourcen:
 - [Aspose.Words f체r Python 체ber die .NET-API-Referenz](/words/python-net/)
-
+- [Aspose.Words f체r Python 체ber .NET API-Tutorials](/tutorials/words/de/python-net/)

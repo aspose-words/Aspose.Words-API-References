@@ -20,7 +20,7 @@ Aspose.Words pour .NET est une bibliothèque de classes qui permet à vos applic
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Words pour .NET](/words/fr/net/)
-- [Aspose.Words pour les didacticiels de l'API .NET](/tutorials/fr/words/net/)
+- [Aspose.Words pour les didacticiels de l'API .NET](/tutorials/words/fr/net/)
 
 ## Aspose.Words pour Java
 
@@ -35,7 +35,7 @@ Aspose.Words pour Java est une bibliothèque de classes qui permet à vos applic
 Voici des liens vers des ressources utiles :
 
 - [Référence de l'API Aspose.Words pour Java](/words/java/)
-
+- [Aspose.Words pour les didacticiels de l'API Java](/tutorials/words/fr/java/)
 
 ## Aspose.Words pour C++
 
@@ -63,4 +63,4 @@ Aspose.Words pour Python via .NET est une bibliothèque de classes qui permet à
 
 Voici des liens vers des ressources utiles :
 - [Aspose.Words pour Python via la référence de l'API .NET](/words/python-net/)
-
+- [Aspose.Words pour Python via les didacticiels de l'API .NET](/tutorials/words/fr/python-net/)
