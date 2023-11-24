@@ -20,7 +20,7 @@ Aspose.Words for .NET, uygulamalarınızın çok çeşitli belge işleme görevl
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Words for .NET API Referansı](/words/tr/net/)
-- [Aspose.Words for .NET API Öğreticileri](/tutorials/tr/words/net/)
+- [Aspose.Words for .NET API Öğreticileri](/tutorials/words/tr/net/)
 
 ## Java için Aspose.Words
 
@@ -35,7 +35,7 @@ Aspose.Words for Java, uygulamalarınızın çok çeşitli belge işleme görevl
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 
 - [Java API Referansı için Aspose.Words](/words/java/)
-
+- [Aspose.Words for Java API Eğitimleri](/tutorials/words/tr/java/)
 
 ## C++ için Aspose.Words
 
@@ -63,4 +63,4 @@ Bunlar, bazı yararlı kaynaklara bağlantılar:
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [.NET API Referansı ile Python için Aspose.Words](/words/python-net/)
-
+- [.NET API Eğitimleri aracılığıyla Aspose.Words for Python](/tutorials/words/tr/python-net/)
