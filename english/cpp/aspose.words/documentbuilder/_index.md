@@ -60,6 +60,7 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [InsertComboBox](./insertcombobox/)(const System::String\&, const System::ArrayPtr\<System::String\>\&, int32_t) | Inserts a combobox form field at the current position. |
 | [InsertDocument](./insertdocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) | Inserts a document at the cursor position. |
 | [InsertDocument](./insertdocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) | Inserts a document at the cursor position. |
+| [InsertDocumentInline](./insertdocumentinline/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) |  |
 | [InsertField](./insertfield/)(Aspose::Words::Fields::FieldType, bool) | Inserts a Word field into a document and optionally updates the field result. |
 | [InsertField](./insertfield/)(const System::String\&) | Inserts a Word field into a document and updates the field result. |
 | [InsertField](./insertfield/)(const System::String\&, const System::String\&) | Inserts a Word field into a document without updating the field result. |

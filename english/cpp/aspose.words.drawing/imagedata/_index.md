@@ -20,6 +20,7 @@ class ImageData : public Aspose::Words::IBorderAttrSource
 
 | Method | Description |
 | --- | --- |
+| [FitImageToShape](./fitimagetoshape/)() |  |
 | [get_BiLevel](./get_bilevel/)() | Determines whether an image will be displayed in black and white. |
 | [get_Borders](./get_borders/)() | Gets the collection of borders of the image. Borders only have effect for inline images. |
 | [get_Brightness](./get_brightness/)() | Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest). |

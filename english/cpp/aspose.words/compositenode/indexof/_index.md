@@ -28,7 +28,7 @@ auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
 SharedPtr<Body> body = doc->get_FirstSection()->get_Body();
 
 // Retrieve the index of the last paragraph in the body of the first section.
-ASSERT_EQ(24, body->get_ChildNodes()->IndexOf(body->get_LastParagraph()));
+ASSERT_EQ(24, body->GetChildNodes(Aspose::Words::NodeType::Any, false)->IndexOf(body->get_LastParagraph()));
 ```
 
 ## See Also

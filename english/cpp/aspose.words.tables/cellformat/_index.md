@@ -25,6 +25,7 @@ class CellFormat : public Aspose::Words::IBorderAttrSource,
 | [get_Borders](./get_borders/)() | Gets collection of borders of the cell. |
 | [get_BottomPadding](./get_bottompadding/)() | Returns or sets the amount of space (in points) to add below the contents of cell. |
 | [get_FitText](./get_fittext/)() | If **true**, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [get_HideMark](./get_hidemark/)() |  |
 | [get_HorizontalMerge](./get_horizontalmerge/)() | Specifies how the cell is merged horizontally with other cells in the row. |
 | [get_LeftPadding](./get_leftpadding/)() | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
 | [get_Orientation](./get_orientation/)() | Returns or sets the orientation of text in a table cell. |
@@ -40,6 +41,7 @@ class CellFormat : public Aspose::Words::IBorderAttrSource,
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BottomPadding](./set_bottompadding/)(double) | Setter for [Aspose::Words::Tables::CellFormat::get_BottomPadding](./get_bottompadding/). |
 | [set_FitText](./set_fittext/)(bool) | Setter for [Aspose::Words::Tables::CellFormat::get_FitText](./get_fittext/). |
+| [set_HideMark](./set_hidemark/)(bool) |  |
 | [set_HorizontalMerge](./set_horizontalmerge/)(Aspose::Words::Tables::CellMerge) | Setter for [Aspose::Words::Tables::CellFormat::get_HorizontalMerge](./get_horizontalmerge/). |
 | [set_LeftPadding](./set_leftpadding/)(double) | Setter for [Aspose::Words::Tables::CellFormat::get_LeftPadding](./get_leftpadding/). |
 | [set_Orientation](./set_orientation/)(Aspose::Words::TextOrientation) | Setter for [Aspose::Words::Tables::CellFormat::get_Orientation](./get_orientation/). |

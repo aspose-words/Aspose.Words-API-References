@@ -55,9 +55,9 @@ paragraph->AppendChild(MakeObject<Run>(doc, u"Hello again!"));
 
 // Iterate through the paragraph's collection of immediate children,
 // and print any runs or shapes that we find within.
-SharedPtr<NodeCollection> children = paragraph->get_ChildNodes();
+SharedPtr<NodeCollection> children = paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false);
 
-ASSERT_EQ(3, paragraph->get_ChildNodes()->get_Count());
+ASSERT_EQ(3, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false)->get_Count());
 
 for (const auto& child : System::IterateOver(children))
 {
