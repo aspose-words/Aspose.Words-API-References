@@ -70,7 +70,7 @@ void HandleBinaryRasterWarnings()
     doc->Save(ArtifactsDir + u"PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     ASSERT_EQ(1, callback->Warnings->get_Count());
-    ASSERT_EQ(u"'R2_XORPEN' binary raster operation is partly supported.", callback->Warnings->idx_get(0)->get_Description());
+    ASSERT_EQ(u"'R2_XORPEN' binary raster operation is not supported.", callback->Warnings->idx_get(0)->get_Description());
 }
 
 class HandleDocumentWarnings : public IWarningCallback

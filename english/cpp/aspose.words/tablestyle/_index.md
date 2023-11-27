@@ -46,6 +46,7 @@ class TableStyle : public Aspose::Words::Style,
 | [get_LinkedStyleName](../style/get_linkedstylename/)() | Gets the name of the [Style](../style/) linked to this one. Returns empty string if no styles are linked. |
 | [get_List](../style/get_list/)() | Gets the list that defines formatting of this list style. |
 | [get_ListFormat](../style/get_listformat/)() | Provides access to the list formatting properties of a paragraph style. |
+| [get_Locked](../style/get_locked/)() const |  |
 | [get_Name](../style/get_name/)() const | Gets or sets the name of the style. |
 | [get_NextParagraphStyleName](../style/get_nextparagraphstylename/)() | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [get_ParagraphFormat](../style/get_paragraphformat/)() | Gets the paragraph formatting of the style. |
@@ -71,6 +72,7 @@ class TableStyle : public Aspose::Words::Style,
 | [set_IsQuickStyle](../style/set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](../style/get_isquickstyle/). |
 | [set_LeftIndent](./set_leftindent/)(double) | Setter for [Aspose::Words::TableStyle::get_LeftIndent](./get_leftindent/). |
 | [set_LeftPadding](./set_leftpadding/)(double) | Setter for [Aspose::Words::TableStyle::get_LeftPadding](./get_leftpadding/). |
+| [set_Locked](../style/set_locked/)(bool) |  |
 | [set_Name](../style/set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](../style/get_name/). |
 | [set_NextParagraphStyleName](../style/set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](../style/get_nextparagraphstylename/). |
 | [set_RightPadding](./set_rightpadding/)(double) | Setter for [Aspose::Words::TableStyle::get_RightPadding](./get_rightpadding/). |

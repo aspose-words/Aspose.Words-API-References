@@ -44,6 +44,7 @@ class FormField : public Aspose::Words::SpecialChar
 | [get_IsMoveToRevision](../../aspose.words/inline/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [get_MaxLength](./get_maxlength/)() | Maximum length for the text field. Zero when the length is not limited. |
 | [get_Name](./get_name/)() | Gets or sets the form field name. |
+| [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [FormField](../../aspose.words/nodetype/). |
 | [get_OwnHelp](./get_ownhelp/)() | Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
@@ -51,6 +52,7 @@ class FormField : public Aspose::Words::SpecialChar
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../../aspose.words/inline/get_parentparagraph/)() | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_Result](./get_result/)() | Gets or sets a string that represents the result of this form field. |
 | [get_StatusText](./get_statustext/)() | Returns or sets the text that's displayed in the status bar when a form field has the focus. |
@@ -63,6 +65,7 @@ class FormField : public Aspose::Words::SpecialChar
 | [GetText](../../aspose.words/specialchar/gettext/)() override | Gets the special character that this node represents. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [IsAncestorNode](../../aspose.words/node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
@@ -81,13 +84,16 @@ class FormField : public Aspose::Words::SpecialChar
 | [set_IsCheckBoxExactSize](./set_ischeckboxexactsize/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_IsCheckBoxExactSize](./get_ischeckboxexactsize/). |
 | [set_MaxLength](./set_maxlength/)(int32_t) | Setter for [Aspose::Words::Fields::FormField::get_MaxLength](./get_maxlength/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_Name](./get_name/). |
+| [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_OwnHelp](./set_ownhelp/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_OwnHelp](./get_ownhelp/). |
 | [set_OwnStatus](./set_ownstatus/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_OwnStatus](./get_ownstatus/). |
+| [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_Result](./set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_Result](./get_result/). |
 | [set_StatusText](./set_statustext/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_StatusText](./get_statustext/). |
 | [set_TextInputDefault](./set_textinputdefault/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_TextInputDefault](./get_textinputdefault/). |
 | [set_TextInputFormat](./set_textinputformat/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_TextInputFormat](./get_textinputformat/). |
 | [set_TextInputType](./set_textinputtype/)(Aspose::Words::Fields::TextFormFieldType) | Setter for [Aspose::Words::Fields::FormField::get_TextInputType](./get_textinputtype/). |
+| [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTextInputValue](./settextinputvalue/)(const System::SharedPtr\<System::Object\>\&) | Applies the text format specified in [TextInputFormat](./get_textinputformat/) and stores the value in [Result](./get_result/). |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |

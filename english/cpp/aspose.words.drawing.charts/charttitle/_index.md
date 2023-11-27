@@ -20,6 +20,7 @@ class ChartTitle : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [get_Font](./get_font/)() |  |
 | [get_Overlay](./get_overlay/)() | Determines whether other chart elements shall be allowed to overlap title. By default overlay is **false**. |
 | [get_Show](./get_show/)() | Determines whether the title shall be shown for this chart. Default value is **true**. |
 | [get_Text](./get_text/)() | Gets or sets the text of the chart title. If **null** or empty value is specified, auto generated title will be shown. |
