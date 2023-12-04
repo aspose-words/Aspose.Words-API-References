@@ -24,7 +24,7 @@ Shows how to get the custom XML data identifier of an XML part.
 Document doc = new Document(MyDir + "Custom XML part in structured document tag.docx");
 
 // Structured document tags have IDs in the form of GUIDs.
-StructuredDocumentTag tag = (StructuredDocumentTag) doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
+StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
 
 Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreItemId);
 ```

@@ -22,10 +22,12 @@ public interface IStructuredDocumentTag
 | --- | --- |
 | [Color](../../aspose.words.markup/istructureddocumenttag/color/) { get; set; } | Gets or sets the color of the structured document tag. |
 | [Id](../../aspose.words.markup/istructureddocumenttag/id/) { get; } | Specifies a unique read-only persistent numerical Id for this **SDT**. |
+| [IsMultiSection](../../aspose.words.markup/istructureddocumenttag/ismultisection/) { get; } | Returns true if this instance is a ranged (multi-section) structured document tag. |
 | [IsShowingPlaceholderText](../../aspose.words.markup/istructureddocumenttag/isshowingplaceholdertext/) { get; set; } | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [Level](../../aspose.words.markup/istructureddocumenttag/level/) { get; } | Gets the level at which this **SDT** occurs in the document tree. |
 | [LockContentControl](../../aspose.words.markup/istructureddocumenttag/lockcontentcontrol/) { get; set; } | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [LockContents](../../aspose.words.markup/istructureddocumenttag/lockcontents/) { get; set; } | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
+| [Node](../../aspose.words.markup/istructureddocumenttag/node/) { get; } | Returns Node object that implements this interface. |
 | [Placeholder](../../aspose.words.markup/istructureddocumenttag/placeholder/) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping/) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element is true. |
 | [PlaceholderName](../../aspose.words.markup/istructureddocumenttag/placeholdername/) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [SdtType](../../aspose.words.markup/istructureddocumenttag/sdttype/) { get; } | Gets type of this **Structured document tag**. |
@@ -38,8 +40,8 @@ public interface IStructuredDocumentTag
 
 | Name | Description |
 | --- | --- |
-| [IsRanged](../../aspose.words.markup/istructureddocumenttag/isranged/)() | Returns true if this instance is a ranged structured document tag. |
-| [StructuredDocumentTagNode](../../aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/)() | Returns Node object that implements this interface. |
+| [GetChildNodes](../../aspose.words.markup/istructureddocumenttag/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returns a live collection of child nodes that match the specified types. |
+| [RemoveSelfOnly](../../aspose.words.markup/istructureddocumenttag/removeselfonly/)() | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
 
 ### See Also
 

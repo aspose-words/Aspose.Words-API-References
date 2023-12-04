@@ -89,6 +89,17 @@ You can change the image size, location, positioning method and other settings u
 
 ## Examples
 
+Shows how to insert WebP image (only .NetStandard)
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertImage(ImageDir + "WebP image.webp");
+
+doc.Save(ArtifactsDir + "Image.InsertWebpImage.docx");
+```
+
 Shows how to insert gif image to the document.
 
 ```csharp

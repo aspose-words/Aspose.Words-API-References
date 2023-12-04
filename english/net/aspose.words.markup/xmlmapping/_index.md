@@ -47,7 +47,7 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>", 
+Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
 // Create a structured document tag that will display the contents of our CustomXmlPart.

@@ -5,7 +5,7 @@ articleTitle: SdtType
 second_title: Aspose.Words for .NET
 description: StructuredDocumentTagRangeStart SdtType property. Gets type of this structured document tag in C#.
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
 ---
 ## StructuredDocumentTagRangeStart.SdtType property

@@ -16,9 +16,17 @@ Gets or sets a double value that lightens or darkens the foreground color.
 public double ForeTintAndShade { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Throw if set this property to a value less than -1 or more than 1. |
+
 ## Remarks
 
-The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in ArgumentOutOfRangeException.
+The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property.
+
+Zero (0) is neutral.
 
 ## Examples
 

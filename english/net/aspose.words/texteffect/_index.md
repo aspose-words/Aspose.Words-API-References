@@ -5,7 +5,7 @@ articleTitle: TextEffect
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TextEffect enum. Animation effect for text runs in C#.
 type: docs
-weight: 6440
+weight: 6460
 url: /net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration
