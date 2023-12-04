@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the Pdf format in C#.
 type: docs
-weight: 5530
+weight: 5540
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -63,7 +63,8 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [OpenHyperlinksInNewWindow](../../aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/) { get; set; } | Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
 | virtual [OptimizeOutput](../../aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) { get; set; } | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to `true`. Default is `false`. |
 | [OutlineOptions](../../aspose.words.saving/pdfsaveoptions/outlineoptions/) { get; } | Allows to specify outline options. |
-| [PageMode](../../aspose.words.saving/pdfsaveoptions/pagemode/) { get; set; } | Specifies how the PDF document should be displayed when opened in the PDF reader. |
+| [PageLayout](../../aspose.words.saving/pdfsaveoptions/pagelayout/) { get; set; } | Specifies the page layout to be used when the document is opened in a PDF reader. |
+| [PageMode](../../aspose.words.saving/pdfsaveoptions/pagemode/) { get; set; } | Specifies how the PDF document should be displayed when opened in a PDF reader. |
 | [PageSavingCallback](../../aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/) { get; set; } | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [PageSet](../../aspose.words.saving/fixedpagesaveoptions/pageset/) { get; set; } | Gets or sets the pages to render. Default is all the pages in the document. |
 | [PreblendImages](../../aspose.words.saving/pdfsaveoptions/preblendimages/) { get; set; } | Gets or sets a value determining whether or not to preblend transparent images with black background color. |

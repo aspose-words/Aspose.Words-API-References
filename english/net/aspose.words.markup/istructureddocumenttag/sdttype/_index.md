@@ -5,7 +5,7 @@ articleTitle: SdtType
 second_title: Aspose.Words for .NET
 description: IStructuredDocumentTag SdtType property. Gets type of this Structured document tag in C#.
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.words.markup/istructureddocumenttag/sdttype/
 ---
 ## IStructuredDocumentTag.SdtType property

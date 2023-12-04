@@ -5,7 +5,7 @@ articleTitle: WordOpenXML
 second_title: Aspose.Words for .NET
 description: IStructuredDocumentTag WordOpenXML property. Gets a string that represents the XML contained within the node in the FlatOpc format in C#.
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property

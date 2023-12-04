@@ -3,14 +3,14 @@ title: KnownTypeSet.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words for .NET
-description: KnownTypeSet Remove method. Removes the specified Type object from the set. Throws ArgumentException if type is null in C#.
+description: KnownTypeSet Remove method. Removes the specified Type object from the set in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-Removes the specified Type object from the set. Throws ArgumentException if *type* is `null`.
+Removes the specified Type object from the set.
 
 ```csharp
 public void Remove(Type type)
@@ -19,6 +19,12 @@ public void Remove(Type type)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | Type | A Type object to remove. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Throws if *type* is `null`. |
 
 ### See Also
 

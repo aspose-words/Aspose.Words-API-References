@@ -5,7 +5,7 @@ articleTitle: Table
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Table class. Represents a table in a Word document in C#.
 type: docs
-weight: 6360
+weight: 6380
 url: /net/aspose.words.tables/table/
 ---
 ## Table class

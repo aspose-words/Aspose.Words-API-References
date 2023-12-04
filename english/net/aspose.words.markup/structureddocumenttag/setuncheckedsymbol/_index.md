@@ -36,7 +36,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
 // We can set the symbols used to represent the checked/unchecked state of a checkbox content control.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");

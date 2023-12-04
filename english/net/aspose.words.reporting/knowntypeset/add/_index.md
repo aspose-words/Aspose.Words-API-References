@@ -3,26 +3,14 @@ title: KnownTypeSet.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: KnownTypeSet Add method. Adds the specified Type object to the set. Throws ArgumentException in the following cases in C#.
+description: KnownTypeSet Add method. Adds the specified Type object to the set in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Adds the specified Type object to the set. Throws ArgumentException in the following cases:
-
-- *type* is `null`.
-
-- *type* represents a void type.
-
-- *type* represents an invisible type, i.e. a non-public type or a public nested type which has a non-public outer type.
-
-- *type* represents a generic type.
-
-- *type* represents an array type.
-
-- *type* has been added to the set already.
+Adds the specified Type object to the set.
 
 ```csharp
 public void Add(Type type)
@@ -31,6 +19,12 @@ public void Add(Type type)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | Type | A Type object to add. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Throws in the following cases: |
 
 ### See Also
 

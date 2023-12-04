@@ -28,17 +28,17 @@ public class CompareOptions
 
 | Name | Description |
 | --- | --- |
-| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Specifies whether to compare differences in MoveRevision between the two documents. By default move revisions are not produced. |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Specifies whether changes are tracked by character or by word. Default value is WordLevel. |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Specifies whether to compare differences in comments. By default comments are not ignored. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. Default value is `false`. |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Specifies whether to compare differences in fields. By default fields are not ignored. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indicates that formatting is ignored. By default document formatting is not ignored. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True indicates that headers and footers content is ignored. By default headers and footers are not ignored. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Specifies whether to compare the differences in data contained in tables. By default tables are not ignored. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored. |
+| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Specifies whether to compare differences between the two documents. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Specifies whether changes are tracked by character or by word. |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indicates that documents comparison is case insensitive. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Specifies whether to compare differences in comments. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Specifies whether to compare differences in fields. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Specifies whether to compare differences in footnotes and endnotes. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indicates that formatting is ignored. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True indicates that headers and footers content is ignored. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Specifies whether to compare the differences in data contained in tables. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Specifies whether to compare differences in the data contained within text boxes. |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Specifies which document shall be used as a target during comparison. |
 
 ## Examples
