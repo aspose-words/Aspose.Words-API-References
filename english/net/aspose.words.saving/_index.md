@@ -102,6 +102,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [PdfFontEmbeddingMode](./pdffontembeddingmode/) | Specifies how Aspose.Words should embed fonts. |
 | [PdfImageColorSpaceExportMode](./pdfimagecolorspaceexportmode/) | Specifies how the color space will be selected for the images in PDF document. |
 | [PdfImageCompression](./pdfimagecompression/) | Specifies the type of compression applied to images in the PDF file. |
+| [PdfPageLayout](./pdfpagelayout/) | Specifies the page layout to be used when the document is opened in a PDF reader. |
 | [PdfPageMode](./pdfpagemode/) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
 | [PdfPermissions](./pdfpermissions/) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
 | [PdfTextCompression](./pdftextcompression/) | Specifies a type of compression applied to all content in the PDF file except images. |
@@ -111,3 +112,4 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving page images into a TIFF file. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Specifies the way headers and footers are exported to plain text format. |
 | [XlsxSectionMode](./xlsxsectionmode/) | Specifies how sections are handled when saving a document in the XLSX format. |
+| [Zip64Mode](./zip64mode/) | Specifies when to use ZIP64 format extensions for OOXML files. |

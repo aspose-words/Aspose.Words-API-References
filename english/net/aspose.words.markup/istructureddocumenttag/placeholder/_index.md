@@ -5,7 +5,7 @@ articleTitle: Placeholder
 second_title: Aspose.Words for .NET
 description: IStructuredDocumentTag Placeholder property. Gets the BuildingBlock containing placeholder text which should be displayed when this SDT run contents are empty the associated mapped XML element is empty as specified via the XmlMapping element or the IsShowingPlaceholderText element is true in C#.
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.words.markup/istructureddocumenttag/placeholder/
 ---
 ## IStructuredDocumentTag.Placeholder property

@@ -24,7 +24,9 @@ class Paragraph : public Aspose::Words::CompositeNode,
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AppendChild](../compositenode/appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the list of child nodes for this node. |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AppendChild](../compositenode/appendchild/)(T) |  |
 | [AppendField](./appendfield/)(Aspose::Words::Fields::FieldType, bool) | Appends a field to this paragraph. |
 | [AppendField](./appendfield/)(const System::String\&) | Appends a field to this paragraph. |
 | [AppendField](./appendfield/)(const System::String\&, const System::String\&) | Appends a field to this paragraph. |
@@ -51,6 +53,7 @@ class Paragraph : public Aspose::Words::CompositeNode,
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_ListFormat](./get_listformat/)() | Provides access to the list formatting properties of the paragraph. |
 | [get_ListLabel](./get_listlabel/)() | Gets a [ListLabel](./get_listlabel/) object that provides access to list numbering value and formatting for this paragraph. |
+| [get_NextNode](../node/get_nextnode/)() const |  |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Paragraph](../nodetype/). |
 | [get_ParagraphBreakFont](./get_paragraphbreakfont/)() | Provides access to the font formatting of the paragraph break character. |
@@ -59,6 +62,7 @@ class Paragraph : public Aspose::Words::CompositeNode,
 | [get_ParentSection](./get_parentsection/)() | Retrieves the parent [Section](../section/) of the paragraph. |
 | [get_ParentStory](./get_parentstory/)() | Retrieves the parent section-level story that can be [Body](../body/) or [HeaderFooter](../headerfooter/). |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_PrevNode](../node/get_prevnode/)() const |  |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_Runs](./get_runs/)() | Provides access to the typed collection of pieces of text inside the paragraph. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
@@ -70,25 +74,29 @@ class Paragraph : public Aspose::Words::CompositeNode,
 | [GetText](./gettext/)() override | Gets the text of this paragraph including the end of paragraph character. |
 | [GetType](./gettype/)() const override |  |
 | [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
-| [InsertBefore](../compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [InsertAfter](../compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [InsertBefore](../compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [InsertField](./insertfield/)(Aspose::Words::Fields::FieldType, bool, const System::SharedPtr\<Aspose::Words::Node\>\&, bool) | Inserts a field into this paragraph. |
 | [InsertField](./insertfield/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Node\>\&, bool) | Inserts a field into this paragraph. |
 | [InsertField](./insertfield/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Node\>\&, bool) | Inserts a field into this paragraph. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [JoinRunsWithSameFormatting](./joinrunswithsameformatting/)() | Joins runs with the same formatting in the paragraph. |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [Paragraph](./paragraph/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [Paragraph](./) class. |
-| [PrependChild](../compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [PrependChild](../compositenode/prependchild/)(T) |  |
 | [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](../compositenode/removechild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the specified child node. |
+| [RemoveChild](../compositenode/removechild/)(T) |  |
 | [RemoveSmartTags](../compositenode/removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../node/) that matches the XPath expression. |
 | [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../node/get_customnodeid/). |
+| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |

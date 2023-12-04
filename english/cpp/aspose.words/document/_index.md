@@ -24,7 +24,9 @@ class Document : public Aspose::Words::DocumentBase,
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AcceptAllRevisions](./acceptallrevisions/)() | Accepts all tracked changes in the document. |
-| [AppendChild](../compositenode/appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the list of child nodes for this node. |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AppendChild](../compositenode/appendchild/)(T) |  |
 | [AppendDocument](./appenddocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) | Appends the specified document to the end of this document. |
 | [AppendDocument](./appenddocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) | Appends the specified document to the end of this document. |
 | [Cleanup](./cleanup/)() | Cleans unused styles and lists from the document. |
@@ -81,6 +83,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_Lists](../documentbase/get_lists/)() const | Provides access to the list formatting used in the document. |
 | [get_MailMerge](./get_mailmerge/)() | Returns a [MailMerge](../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document. |
 | [get_MailMergeSettings](./get_mailmergesettings/)() | Gets or sets the object that contains all of the mail merge information for a document. |
+| [get_NextNode](../node/get_nextnode/)() const |  |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeChangingCallback](../documentbase/get_nodechangingcallback/)() | Called when a node is inserted or removed in the document. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Document](../nodetype/). |
@@ -91,6 +94,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_PageCount](./get_pagecount/)() | Gets the number of pages in the document as calculated by the most recent page layout operation. |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_PrevNode](../node/get_prevnode/)() const |  |
 | [get_ProtectionType](./get_protectiontype/)() | Gets the currently active document protection type. |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_RemovePersonalInformation](./get_removepersonalinformation/)() | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
@@ -124,19 +128,20 @@ class Document : public Aspose::Words::DocumentBase,
 | [ImportNode](../documentbase/importnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&, bool) | Imports a node from another document to the current document. |
 | [ImportNode](../documentbase/importnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&, bool, Aspose::Words::ImportFormatMode) | Imports a node from another document to the current document with an option to control formatting. |
 | [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
-| [InsertBefore](../compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [InsertAfter](../compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [InsertBefore](../compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [JoinRunsWithSameFormatting](./joinrunswithsameformatting/)() | Joins runs with same formatting in all paragraphs of the document. |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [NormalizeFieldTypes](./normalizefieldtypes/)() | Changes field type values [FieldType](../../aspose.words.fields/fieldchar/get_fieldtype/) of [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
-| [PrependChild](../compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [PrependChild](../compositenode/prependchild/)(T) |  |
 | [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Protect](./protect/)(Aspose::Words::ProtectionType) | Protects the document from changes without changing the existing password or assigns a random password. |
 | [Protect](./protect/)(Aspose::Words::ProtectionType, const System::String\&) | Protects the document from changes and optionally sets a protection password. |
 | [RemoveAllChildren](../compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](../compositenode/removechild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the specified child node. |
+| [RemoveChild](../compositenode/removechild/)(T) |  |
 | [RemoveExternalSchemaReferences](./removeexternalschemareferences/)() | Removes external XML schema references from this document. |
 | [RemoveMacros](./removemacros/)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [RemoveSmartTags](../compositenode/removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
@@ -163,9 +168,11 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_IncludeTextboxesFootnotesEndnotesInStat](./set_includetextboxesfootnotesendnotesinstat/)(bool) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
 | [set_JustificationMode](./set_justificationmode/)(Aspose::Words::Settings::JustificationMode) | Sets the character spacing adjustment of a document. |
 | [set_MailMergeSettings](./set_mailmergesettings/)(const System::SharedPtr\<Aspose::Words::Settings::MailMergeSettings\>\&) | Setter for [Aspose::Words::Document::get_MailMergeSettings](./get_mailmergesettings/). |
+| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_NodeChangingCallback](../documentbase/set_nodechangingcallback/)(const System::SharedPtr\<Aspose::Words::INodeChangingCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_NodeChangingCallback](../documentbase/get_nodechangingcallback/). |
 | [set_PackageCustomParts](./set_packagecustomparts/)(const System::SharedPtr\<Aspose::Words::Markup::CustomPartCollection\>\&) | Setter for [Aspose::Words::Document::get_PackageCustomParts](./get_packagecustomparts/). |
 | [set_PageColor](../documentbase/set_pagecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::DocumentBase::get_PageColor](../documentbase/get_pagecolor/). |
+| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_RemovePersonalInformation](./set_removepersonalinformation/)(bool) | Setter for [Aspose::Words::Document::get_RemovePersonalInformation](./get_removepersonalinformation/). |
 | [set_ResourceLoadingCallback](../documentbase/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/). |
 | [set_RevisionsView](./set_revisionsview/)(Aspose::Words::RevisionsView) | Setter for [Aspose::Words::Document::get_RevisionsView](./get_revisionsview/). |
@@ -176,6 +183,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_TrackRevisions](./set_trackrevisions/)(bool) | Setter for [Aspose::Words::Document::get_TrackRevisions](./get_trackrevisions/). |
 | [set_VbaProject](./set_vbaproject/)(const System::SharedPtr\<Aspose::Words::Vba::VbaProject\>\&) | Setter for [Aspose::Words::Document::get_VbaProject](./get_vbaproject/). |
 | [set_WarningCallback](../documentbase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_WarningCallback](../documentbase/get_warningcallback/). |
+| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String\&, System::DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String\&) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |

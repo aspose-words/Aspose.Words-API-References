@@ -16,9 +16,11 @@ Allows to specify the effect to be applied to the areas where content was moved 
 public RevisionTextEffect MovedToTextEffect { get; set; }
 ```
 
-## Remarks
+### Exceptions
 
-Values of Hidden and DoubleStrikeThrough are not allowed and will cause ArgumentOutOfRangeException.
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Values of Hidden and DoubleStrikeThrough are not allowed. |
 
 ## Examples
 

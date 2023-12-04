@@ -20,13 +20,14 @@ public static class Merger
 
 | Name | Description |
 | --- | --- |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge)(*Stream[], [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single document and returns [`Document`](../../aspose.words/document/) instance of the final document. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_4)(*string, string[]*) | Merges the given input documents into a single output document using specified input and output file names. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_1)(*string[], [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single document and returns [`Document`](../../aspose.words/document/) instance of the final document. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_2)(*Stream, Stream[], [SaveFormat](../../aspose.words/saveformat/)*) | Merges the given input documents into a single output document using specified input output streams and the final document format. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_3)(*Stream, Stream[], [SaveOptions](../../aspose.words.saving/saveoptions/), [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single output document using specified input output streams and save options. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_5)(*string, string[], [SaveFormat](../../aspose.words/saveformat/), [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single output document using specified input output file names and the final document format. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_6)(*string, string[], [SaveOptions](../../aspose.words.saving/saveoptions/), [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single output document using specified input output file names and save options. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge)(*Document[], [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single document and returns [`Document`](../../aspose.words/document/) instance of the final document. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_1)(*Stream[], [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single document and returns [`Document`](../../aspose.words/document/) instance of the final document. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_5)(*string, string[]*) | Merges the given input documents into a single output document using specified input and output file names. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_2)(*string[], [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single document and returns [`Document`](../../aspose.words/document/) instance of the final document. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_3)(*Stream, Stream[], [SaveFormat](../../aspose.words/saveformat/)*) | Merges the given input documents into a single output document using specified input output streams and the final document format. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_4)(*Stream, Stream[], [SaveOptions](../../aspose.words.saving/saveoptions/), [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single output document using specified input output streams and save options. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_6)(*string, string[], [SaveFormat](../../aspose.words/saveformat/), [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single output document using specified input output file names and the final document format. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_7)(*string, string[], [SaveOptions](../../aspose.words.saving/saveoptions/), [MergeFormatMode](../mergeformatmode/)*) | Merges the given input documents into a single output document using specified input output file names and save options. |
 
 ## Remarks
 

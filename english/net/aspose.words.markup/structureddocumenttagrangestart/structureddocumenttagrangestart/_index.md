@@ -47,7 +47,7 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);            
 
     // Removes ranged structured document tag, but keeps content inside.
     rangeStart.RemoveSelfOnly();

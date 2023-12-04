@@ -92,6 +92,25 @@ A data source object can be of one of the following types:
 
 For information on how to work with data sources of different types in template documents, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
+## Examples
+
+Shows how to display values as dollar text.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("<<[ds.Value1]:dollarText>>\r<<[ds.Value2]:dollarText>>");
+
+NumericTestClass testData = new NumericTestBuilder().WithValues(1234, 5621718.589).Build();
+
+ReportingEngine report = new ReportingEngine();
+report.KnownTypes.Add(typeof(NumericTestClass));
+report.BuildReport(doc, testData, "ds");
+
+doc.Save(ArtifactsDir + "ReportingEngine.DollarTextFormat.docx");
+```
+
 ### See Also
 
 * class [Document](../../../aspose.words/document/)

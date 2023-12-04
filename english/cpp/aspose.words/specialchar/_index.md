@@ -31,22 +31,28 @@ class SpecialChar : public Aspose::Words::Inline
 | [get_IsInsertRevision](../inline/get_isinsertrevision/)() | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveFromRevision](../inline/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../inline/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [get_NextNode](../node/get_nextnode/)() const |  |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [SpecialChar](../nodetype/). |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../inline/get_parentparagraph/)() | Retrieves the parent [Paragraph](../paragraph/) of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_PrevNode](../node/get_prevnode/)() const |  |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
 | [GetAncestorOf](../node/getancestorof/)() |  |
 | [GetText](./gettext/)() override | Gets the special character that this node represents. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../node/remove/)() | Removes itself from the parent. |
 | [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../node/get_customnodeid/). |
+| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |

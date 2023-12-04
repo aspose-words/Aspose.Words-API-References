@@ -16,9 +16,11 @@ Allows to specify the effect for content areas with changes of formatting proper
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-## Remarks
+### Exceptions
 
-Hidden is not allowed and will cause ArgumentOutOfRangeException.
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Hidden is not allowed. |
 
 ## Examples
 

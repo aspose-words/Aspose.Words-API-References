@@ -5,7 +5,7 @@ articleTitle: PreblendImages
 second_title: Aspose.Words for .NET
 description: PdfSaveOptions PreblendImages property. Gets or sets a value determining whether or not to preblend transparent images with black background color in C#.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property

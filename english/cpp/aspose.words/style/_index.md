@@ -33,6 +33,7 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [get_LinkedStyleName](./get_linkedstylename/)() | Gets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
 | [get_List](./get_list/)() | Gets the list that defines formatting of this list style. |
 | [get_ListFormat](./get_listformat/)() | Provides access to the list formatting properties of a paragraph style. |
+| [get_Locked](./get_locked/)() const |  |
 | [get_Name](./get_name/)() const | Gets or sets the name of the style. |
 | [get_NextParagraphStyleName](./get_nextparagraphstylename/)() | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [get_ParagraphFormat](./get_paragraphformat/)() | Gets the paragraph formatting of the style. |
@@ -45,6 +46,7 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [set_AutomaticallyUpdate](./set_automaticallyupdate/)(bool) | Setter for [Aspose::Words::Style::get_AutomaticallyUpdate](./get_automaticallyupdate/). |
 | [set_BaseStyleName](./set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](./get_basestylename/). |
 | [set_IsQuickStyle](./set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](./get_isquickstyle/). |
+| [set_Locked](./set_locked/)(bool) |  |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |
 | [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |
 | static [Type](./type/)() |  |

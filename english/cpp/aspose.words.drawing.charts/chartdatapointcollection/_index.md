@@ -21,9 +21,11 @@ class ChartDataPointCollection : public System::Collections::Generic::IEnumerabl
 | Method | Description |
 | --- | --- |
 | [ClearFormat](./clearformat/)() | Clears format of all [ChartDataPoint](../chartdatapoint/) in this collection. |
+| [CopyFormat](./copyformat/)(int32_t, int32_t) |  |
 | [get_Count](./get_count/)() | Returns the number of [ChartDataPoint](../chartdatapoint/) in this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
+| [HasDefaultFormat](./hasdefaultformat/)(int32_t) |  |
 | [idx_get](./idx_get/)(int32_t) | Returns [ChartDataPoint](../chartdatapoint/) for the specified index. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | static [Type](./type/)() |  |

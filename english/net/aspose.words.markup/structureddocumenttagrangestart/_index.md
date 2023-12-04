@@ -28,7 +28,6 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Name | Description |
 | --- | --- |
-| [ChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/childnodes/) { get; } | Gets all nodes between this range start node and the range end node. |
 | [Color](../../aspose.words.markup/structureddocumenttagrangestart/color/) { get; set; } | Gets or sets the color of the structured document tag. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

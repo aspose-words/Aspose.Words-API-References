@@ -35,11 +35,13 @@ class FieldEnd : public Aspose::Words::Fields::FieldChar
 | [get_IsLocked](../fieldchar/get_islocked/)() const | Gets or sets whether the parent field is locked (should not recalculate its result). |
 | [get_IsMoveFromRevision](../../aspose.words/inline/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../../aspose.words/inline/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [FieldEnd](../../aspose.words/nodetype/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../../aspose.words/inline/get_parentparagraph/)() | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
@@ -47,6 +49,7 @@ class FieldEnd : public Aspose::Words::Fields::FieldChar
 | [GetText](../../aspose.words/specialchar/gettext/)() override | Gets the special character that this node represents. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [IsAncestorNode](../../aspose.words/node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
@@ -54,6 +57,9 @@ class FieldEnd : public Aspose::Words::Fields::FieldChar
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
 | [set_IsDirty](../fieldchar/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::FieldChar::get_IsDirty](../fieldchar/get_isdirty/). |
 | [set_IsLocked](../fieldchar/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::FieldChar::get_IsLocked](../fieldchar/get_islocked/). |
+| [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |

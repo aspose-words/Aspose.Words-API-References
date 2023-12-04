@@ -146,6 +146,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [StoryType](./storytype/) | Text of a Word document is stored in stories. [StoryType](./storytype/) identifies a story. |
 | [StyleIdentifier](./styleidentifier/) | Locale independent style identifier. |
 | [StyleType](./styletype/) | Represents type of the style. |
+| [SuspendedRevisionTypes](./suspendedrevisiontypes/) | SuspendedRevisionTypes enumeration. |
 | [TabAlignment](./tabalignment/) | Specifies the alignment/type of a tab stop. |
 | [TabLeader](./tableader/) | Specifies the type of the leader line displayed under the tab character. |
 | [TextDmlEffect](./textdmleffect/) | Dml text effect for text runs. |

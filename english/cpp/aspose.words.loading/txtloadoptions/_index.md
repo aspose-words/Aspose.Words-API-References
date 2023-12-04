@@ -25,6 +25,7 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile ([Wmf](../) or [Emf](../)) images to [Png](../) image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office [Math](../../aspose.words.math/) objects. |
+| [get_DetectHyperlinks](./get_detecthyperlinks/)() const |  |
 | [get_DetectNumberingWithWhitespaces](./get_detectnumberingwithwhitespaces/)() const | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is **true**. |
 | [get_DocumentDirection](./get_documentdirection/)() const | Gets or sets a document direction. The default value is [LeftToRight](../documentdirection/). |
 | [get_Encoding](../loadoptions/get_encoding/)() const | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be **null**. Default is **null**. |
@@ -51,6 +52,7 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_BaseUri](../loadoptions/set_baseuri/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_BaseUri](../loadoptions/get_baseuri/). |
 | [set_ConvertMetafilesToPng](../loadoptions/set_convertmetafilestopng/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/). |
 | [set_ConvertShapeToOfficeMath](../loadoptions/set_convertshapetoofficemath/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/). |
+| [set_DetectHyperlinks](./set_detecthyperlinks/)(bool) |  |
 | [set_DetectNumberingWithWhitespaces](./set_detectnumberingwithwhitespaces/)(bool) | Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces](./get_detectnumberingwithwhitespaces/). |
 | [set_DocumentDirection](./set_documentdirection/)(Aspose::Words::Loading::DocumentDirection) | Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DocumentDirection](./get_documentdirection/). |
 | [set_Encoding](../loadoptions/set_encoding/)(const System::SharedPtr\<System::Text::Encoding\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_Encoding](../loadoptions/get_encoding/). |

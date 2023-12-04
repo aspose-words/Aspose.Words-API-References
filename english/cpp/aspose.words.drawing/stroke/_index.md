@@ -21,6 +21,7 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | Method | Description |
 | --- | --- |
 | [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the stroke. |
+| [get_BaseForeColor](./get_baseforecolor/)() |  |
 | [get_Color](./get_color/)() | Defines the color of a stroke. |
 | [get_Color2](./get_color2/)() | Defines a second color for a stroke. |
 | [get_DashStyle](./get_dashstyle/)() | Specifies the dot and dash pattern for a stroke. |

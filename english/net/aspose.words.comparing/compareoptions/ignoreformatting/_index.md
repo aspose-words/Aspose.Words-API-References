@@ -3,18 +3,22 @@ title: CompareOptions.IgnoreFormatting
 linktitle: IgnoreFormatting
 articleTitle: IgnoreFormatting
 second_title: Aspose.Words for .NET
-description: CompareOptions IgnoreFormatting property. True indicates that formatting is ignored. By default document formatting is not ignored in C#.
+description: CompareOptions IgnoreFormatting property. True indicates that formatting is ignored in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.comparing/compareoptions/ignoreformatting/
 ---
 ## CompareOptions.IgnoreFormatting property
 
-True indicates that formatting is ignored. By default document formatting is not ignored.
+True indicates that formatting is ignored.
 
 ```csharp
 public bool IgnoreFormatting { get; set; }
 ```
+
+## Remarks
+
+By default document formatting is not ignored.
 
 ## Examples
 
