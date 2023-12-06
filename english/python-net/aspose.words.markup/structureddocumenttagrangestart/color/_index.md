@@ -5,7 +5,7 @@ articleTitle: color property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.color property. Gets or sets the color of the structured document tag."
 type: docs
-weight: 30
+weight: 20
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
 

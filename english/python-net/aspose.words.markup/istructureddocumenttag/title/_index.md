@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.title property. Specifies the friendly name associated with this SDT"
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.words.markup/istructureddocumenttag/title/
 ---
 

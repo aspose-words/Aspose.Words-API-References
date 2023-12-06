@@ -37,18 +37,19 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 
 | Name | Description |
 | --- | --- |
-| [child_nodes](./child_nodes/) | Gets all nodes between this range start node and the range end node. |
 | [color](./color/) | Gets or sets the color of the structured document tag. |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this structured document tag. |
 | [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_multi_section](../istructureddocumenttag/is_multi_section/) | Returns true if this instance is a ranged (multi-section) structured document tag.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 | [is_showing_placeholder_text](./is_showing_placeholder_text/) | Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). |
 | [last_child](./last_child/) | Gets the last child in the stdContent range. |
 | [level](./level/) | Gets the level at which this structured document tag range start occurs in the document tree. |
 | [lock_content_control](./lock_content_control/) | When set to ``True``, this property will prohibit a user from deleting this structured document tag. |
 | [lock_contents](./lock_contents/) | When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [node](../istructureddocumenttag/node/) | Returns Node object that implements this interface.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 | [node_type](./node_type/) | Returns [NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START](../../aspose.words/nodetype/#STRUCTURED_DOCUMENT_TAG_RANGE_START). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTagRangeStart.xml_mapping](./xml_mapping/) element or the [StructuredDocumentTagRangeStart.is_showing_placeholder_text](./is_showing_placeholder_text/) element is ``True``. |

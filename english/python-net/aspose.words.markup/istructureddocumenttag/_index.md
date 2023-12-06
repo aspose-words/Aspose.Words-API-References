@@ -21,10 +21,12 @@ Interface to define a common data for [StructuredDocumentTag](../structureddocum
 | --- | --- |
 | [color](./color/) | Gets or sets the color of the structured document tag. |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
+| [is_multi_section](./is_multi_section/) | Returns true if this instance is a ranged (multi-section) structured document tag. |
 | [is_showing_placeholder_text](./is_showing_placeholder_text/) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [level](./level/) | Gets the level at which this **SDT** occurs in the document tree. |
 | [lock_content_control](./lock_content_control/) | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [lock_contents](./lock_contents/) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
+| [node](./node/) | Returns Node object that implements this interface. |
 | [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,  the associated mapped XML element is empty as specified via the [IStructuredDocumentTag.xml_mapping](./xml_mapping/) element or the [IStructuredDocumentTag.is_showing_placeholder_text](./is_showing_placeholder_text/) element is true. |
 | [placeholder_name](./placeholder_name/) | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [sdt_type](./sdt_type/) | Gets type of this **Structured document tag**. |
@@ -37,7 +39,9 @@ Interface to define a common data for [StructuredDocumentTag](../structureddocum
 
 | Name | Description |
 | --- | --- |
+|[ get_child_nodes(node_type, is_deep)](./get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified types. |
 |[ is_ranged()](./is_ranged/#default) | Returns true if this instance is a ranged structured document tag. |
+|[ remove_self_only()](./remove_self_only/#default) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
 |[ structured_document_tag_node()](./structured_document_tag_node/#default) | Returns Node object that implements this interface. |
 
 ### See Also

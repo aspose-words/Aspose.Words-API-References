@@ -5,7 +5,7 @@ articleTitle: lock_contents property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.lock_contents property. When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag."
 type: docs
-weight: 90
+weight: 80
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/lock_contents/
 ---
 

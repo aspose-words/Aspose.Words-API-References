@@ -5,7 +5,7 @@ articleTitle: cleanup method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.cleanup method"
 type: docs
-weight: 540
+weight: 560
 url: /python-net/aspose.words/document/cleanup/
 ---
 

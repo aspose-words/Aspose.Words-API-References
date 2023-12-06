@@ -21,7 +21,7 @@ Enumerates available types of binding between a web extension and the data in th
 | MATRIX | Tabular data without a header row. |
 | TABLE | Tabular data with a header row. |
 | TEXT | Plain text. |
-| DEFAULT |  |
+| DEFAULT | Matrix used by default. |
 
 ### Examples
 

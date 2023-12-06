@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../aspose.words/saveformat/#PDF) format"
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.words.saving/pdfsaveoptions/
 ---
 
@@ -62,7 +62,8 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [open_hyperlinks_in_new_window](./open_hyperlinks_in_new_window/) | Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
 | [optimize_output](../fixedpagesaveoptions/optimize_output/) | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to ``True``.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [outline_options](./outline_options/) | Allows to specify outline options. |
-| [page_mode](./page_mode/) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
+| [page_layout](./page_layout/) | Specifies the page layout to be used when the document is opened in a PDF reader. |
+| [page_mode](./page_mode/) | Specifies how the PDF document should be displayed when opened in a PDF reader. |
 | [page_saving_callback](../fixedpagesaveoptions/page_saving_callback/) | Allows to control how separate pages are saved when a document is exported to fixed page format.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [page_set](../fixedpagesaveoptions/page_set/) | Gets or sets the pages to render. Default is all the pages in the document.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [preblend_images](./preblend_images/) | Gets or sets a value determining whether or not to preblend transparent images with black background color. |

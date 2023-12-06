@@ -5,7 +5,7 @@ articleTitle: remove_reply method
 second_title: Aspose.Words for Python
 description: "Comment.remove_reply method. Removes the specified reply to this comment."
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.words/comment/remove_reply/
 ---
 

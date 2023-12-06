@@ -18,77 +18,77 @@ Specifies names of compatibility options.
 
 | Name | Description |
 | --- | --- |
-| NO_TAB_HANG_IND |  |
-| NO_SPACE_RAISE_LOWER |  |
-| SUPPRESS_SP_BF_AFTER_PG_BRK |  |
-| WRAP_TRAIL_SPACES |  |
-| PRINT_COL_BLACK |  |
-| NO_COLUMN_BALANCE |  |
-| CONV_MAIL_MERGE_ESC |  |
-| SUPPRESS_TOP_SPACING |  |
-| USE_SINGLE_BORDERFOR_CONTIGUOUS_CELLS |  |
-| TRANSPARENT_METAFILES |  |
-| SHOW_BREAKS_IN_FRAMES |  |
-| SWAP_BORDERS_ODD_FACING_PGS |  |
-| DO_NOT_LEAVE_BACKSLASH_ALONE |  |
-| DO_NOT_EXPAND_ON_SHIFT_RETURN |  |
-| UL_TRAIL_SPACE |  |
-| BALANCE_SINGLE_BYTE_DOUBLE_BYTE_WIDTH |  |
-| SUPPRESS_TOP_SPACING_AT_TOP_OF_PAGE |  |
-| SPACING_IN_WHOLE_POINTS |  |
-| PRINT_BODY_TEXT_BEFORE_HEADER |  |
-| NO_LEADING |  |
-| SPACE_FOR_UL |  |
-| MW_SMALL_CAPS |  |
-| SUPPRESS_TOP_LINE_SPACING_WP |  |
-| TRUNCATE_FONT_HEIGHT_LIKE_WP6 |  |
-| SUB_FONT_BY_SIZE |  |
-| LINE_WRAP_LIKE_WORD6 |  |
-| DO_NOT_SUPPRESS_PARAGRAPH_BORDER |  |
-| NO_EXTRA_LINE_SPACING |  |
-| SUPPRESS_BOTTOM_SPACING |  |
-| WP_SPACE_WIDTH |  |
-| WP_JUSTIFICATION |  |
-| USE_PRINTER_METRICS |  |
-| SHAPE_LAYOUT_LIKE_WW8 |  |
-| FOOTNOTE_LAYOUT_LIKE_WW8 |  |
-| DO_NOT_USE_HTML_PARAGRAPH_AUTO_SPACING |  |
-| ADJUST_LINE_HEIGHT_IN_TABLE |  |
-| FORGET_LAST_TAB_ALIGNMENT |  |
-| AUTO_SPACE_LIKE_WORD95 |  |
-| ALIGN_TABLE_ROW_BY_ROW |  |
-| LAYOUT_RAW_TABLE_WIDTH |  |
-| LAYOUT_TABLE_ROWS_APART |  |
-| USE_WORD97_LINE_BREAK_RULES |  |
-| DO_NOT_BREAK_WRAPPED_TABLES |  |
-| DO_NOT_SNAP_TO_GRID_IN_CELL |  |
-| SELECT_FLD_WITH_FIRST_OR_LAST_CHAR |  |
-| APPLY_BREAKING_RULES |  |
-| DO_NOT_WRAP_TEXT_WITH_PUNCT |  |
-| DO_NOT_USE_EAST_ASIAN_BREAK_RULES |  |
-| USE_WORD2002_TABLE_STYLE_RULES |  |
-| GROW_AUTOFIT |  |
-| USE_NORMAL_STYLE_FOR_LIST |  |
-| DO_NOT_USE_INDENT_AS_NUMBERING_TAB_STOP |  |
-| USE_ALT_KINSOKU_LINE_BREAK_RULES |  |
-| ALLOW_SPACE_OF_SAME_STYLE_IN_TABLE |  |
-| DO_NOT_SUPPRESS_INDENTATION |  |
-| DO_NOT_AUTOFIT_CONSTRAINED_TABLES |  |
-| AUTOFIT_TO_FIRST_FIXED_WIDTH_CELL |  |
-| UNDERLINE_TAB_IN_NUM_LIST |  |
-| DISPLAY_HANGUL_FIXED_WIDTH |  |
-| SPLIT_PG_BREAK_AND_PARA_MARK |  |
-| DO_NOT_VERT_ALIGN_CELL_WITH_SP |  |
-| DO_NOT_BREAK_CONSTRAINED_FORCED_TABLE |  |
-| DO_NOT_VERT_ALIGN_IN_TXBX |  |
-| USE_ANSI_KERNING_PAIRS |  |
-| CACHED_COL_BALANCE |  |
-| USE_FE_LAYOUT |  |
-| UI_COMPAT_97_TO_2003 |  |
-| OVERRIDE_TABLE_STYLE_FONT_SIZE_AND_JUSTIFICATION |  |
-| DISABLE_OPEN_TYPE_FONT_FORMATTING_FEATURES |  |
-| SWAP_INSIDE_AND_OUTSIDE_FOR_MIRROR_INDENTS_AND_RELATIVE_POSITIONING |  |
-| USE_WORD2010_TABLE_STYLE_RULES |  |
+| NO_TAB_HANG_IND | No Tab Hang Indent |
+| NO_SPACE_RAISE_LOWER | No Space Raise Lower |
+| SUPPRESS_SP_BF_AFTER_PG_BRK | Suppress Space Before Paragraph Break |
+| WRAP_TRAIL_SPACES | Wrap Trailing Spaces |
+| PRINT_COL_BLACK | Print Column Background |
+| NO_COLUMN_BALANCE | No Column Balancing |
+| CONV_MAIL_MERGE_ESC | Convert Mail Merge Escapes |
+| SUPPRESS_TOP_SPACING | Suppress Top Spacing |
+| USE_SINGLE_BORDERFOR_CONTIGUOUS_CELLS | Use Single Border for Contiguous Cells |
+| TRANSPARENT_METAFILES | Transparent Metafiles |
+| SHOW_BREAKS_IN_FRAMES | Show Breaks in Frames |
+| SWAP_BORDERS_ODD_FACING_PGS | Swap Borders on Odd-Facing Pages |
+| DO_NOT_LEAVE_BACKSLASH_ALONE | Do Not Leave Backslash Alone |
+| DO_NOT_EXPAND_ON_SHIFT_RETURN | Do Not Expand on Shift Return |
+| UL_TRAIL_SPACE | Underline Trailing Space |
+| BALANCE_SINGLE_BYTE_DOUBLE_BYTE_WIDTH | Balance Single-Byte and Double-Byte Widths |
+| SUPPRESS_TOP_SPACING_AT_TOP_OF_PAGE | Suppress Top Line Spacing in WordPerfect |
+| SPACING_IN_WHOLE_POINTS | Spacing in Whole Points |
+| PRINT_BODY_TEXT_BEFORE_HEADER | Print Body Text Before Header |
+| NO_LEADING | No Leading |
+| SPACE_FOR_UL | Space for Underline |
+| MW_SMALL_CAPS | MW Small Caps |
+| SUPPRESS_TOP_LINE_SPACING_WP | Suppress Top Line Spacing in WordPerfect |
+| TRUNCATE_FONT_HEIGHT_LIKE_WP6 | Truncate Font Height Like WordPerfect 6 |
+| SUB_FONT_BY_SIZE | Substitute Font by Size |
+| LINE_WRAP_LIKE_WORD6 | Line Wrap Like Word 6 |
+| DO_NOT_SUPPRESS_PARAGRAPH_BORDER | Do Not Suppress Paragraph Border |
+| NO_EXTRA_LINE_SPACING | No Extra Line Spacing |
+| SUPPRESS_BOTTOM_SPACING | Suppress Bottom Spacing |
+| WP_SPACE_WIDTH | WordPerfect Space Width |
+| WP_JUSTIFICATION | WordPerfect Justification |
+| USE_PRINTER_METRICS | Use Printer Metrics |
+| SHAPE_LAYOUT_LIKE_WW8 | Shape Layout Like Word 2000 |
+| FOOTNOTE_LAYOUT_LIKE_WW8 | Footnote Layout Like Word 2000 |
+| DO_NOT_USE_HTML_PARAGRAPH_AUTO_SPACING | Do Not Use HTML Paragraph Auto Spacing |
+| ADJUST_LINE_HEIGHT_IN_TABLE | Adjust Line Height in Table |
+| FORGET_LAST_TAB_ALIGNMENT | Forget Last Tab Alignment |
+| AUTO_SPACE_LIKE_WORD95 | Auto Space Like Word 95 |
+| ALIGN_TABLE_ROW_BY_ROW | Align Table Rows by Rule |
+| LAYOUT_RAW_TABLE_WIDTH | Layout Raw Table Width |
+| LAYOUT_TABLE_ROWS_APART | Layout Table Rows Apart |
+| USE_WORD97_LINE_BREAK_RULES | Use Word 97 Line Break Rules |
+| DO_NOT_BREAK_WRAPPED_TABLES | Do Not Break Wrapped Tables |
+| DO_NOT_SNAP_TO_GRID_IN_CELL | Do Not Snap to Grid in Cells |
+| SELECT_FLD_WITH_FIRST_OR_LAST_CHAR | Select Field with First or Last Character |
+| APPLY_BREAKING_RULES | Apply Breaking Rules |
+| DO_NOT_WRAP_TEXT_WITH_PUNCT | Do Not Wrap Text with Punctuation |
+| DO_NOT_USE_EAST_ASIAN_BREAK_RULES | Do Not Use East Asian Break Rules |
+| USE_WORD2002_TABLE_STYLE_RULES | Use Word 2002 Table Style Rules |
+| GROW_AUTOFIT | Grow AutoFit |
+| USE_NORMAL_STYLE_FOR_LIST | Use Normal Style for List |
+| DO_NOT_USE_INDENT_AS_NUMBERING_TAB_STOP | Do Not Use Indent as Numbering Tab Stop |
+| USE_ALT_KINSOKU_LINE_BREAK_RULES | Use Alt Kinsoku Line Break Rules |
+| ALLOW_SPACE_OF_SAME_STYLE_IN_TABLE | Allow Space of Same Style in Table |
+| DO_NOT_SUPPRESS_INDENTATION | Do Not Suppress Indentation |
+| DO_NOT_AUTOFIT_CONSTRAINED_TABLES | Do Not AutoFit Constrained Tables |
+| AUTOFIT_TO_FIRST_FIXED_WIDTH_CELL | AutoFit to First Fixed-Width Cell |
+| UNDERLINE_TAB_IN_NUM_LIST | Underline Tab in Numbered List |
+| DISPLAY_HANGUL_FIXED_WIDTH | Display Hangul Fixed Width |
+| SPLIT_PG_BREAK_AND_PARA_MARK | Split Page Break and Paragraph Mark |
+| DO_NOT_VERT_ALIGN_CELL_WITH_SP | Do Not Vertically Align Cell with Spacing |
+| DO_NOT_BREAK_CONSTRAINED_FORCED_TABLE | Do Not Break Constrained Forced Tables |
+| DO_NOT_VERT_ALIGN_IN_TXBX | Do Not Vertically Align in Textboxes |
+| USE_ANSI_KERNING_PAIRS | Use ANSI Kerning Pairs |
+| CACHED_COL_BALANCE | Cached Column Balancing |
+| USE_FE_LAYOUT | Use Far East Layout |
+| UI_COMPAT_97_TO_2003 | User Interface Compatibility Mode from Word 97 to Word 2003 |
+| OVERRIDE_TABLE_STYLE_FONT_SIZE_AND_JUSTIFICATION | Override Table Style Font Size and Justification |
+| DISABLE_OPEN_TYPE_FONT_FORMATTING_FEATURES | Disable OpenType Font Formatting Features |
+| SWAP_INSIDE_AND_OUTSIDE_FOR_MIRROR_INDENTS_AND_RELATIVE_POSITIONING | Swap Inside and Outside for Mirror Indents and Relative Positioning |
+| USE_WORD2010_TABLE_STYLE_RULES | Use Word 2010 Table Style Rules |
 
 ### Examples
 

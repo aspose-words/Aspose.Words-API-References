@@ -5,7 +5,7 @@ articleTitle: get_text method
 second_title: Aspose.Words for Python
 description: "Row.get_text method. Gets the text of all cells in this row including the end of row character."
 type: docs
-weight: 140
+weight: 160
 url: /python-net/aspose.words.tables/row/get_text/
 ---
 

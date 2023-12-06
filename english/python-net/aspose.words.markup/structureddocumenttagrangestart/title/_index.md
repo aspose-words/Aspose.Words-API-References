@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.title property. Specifies the friendly name associated with this structured document tag"
 type: docs
-weight: 160
+weight: 150
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 

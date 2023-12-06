@@ -5,7 +5,7 @@ articleTitle: get_effective_tab_stops method
 second_title: Aspose.Words for Python
 description: "Paragraph.get_effective_tab_stops method. Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists."
 type: docs
-weight: 250
+weight: 270
 url: /python-net/aspose.words/paragraph/get_effective_tab_stops/
 ---
 

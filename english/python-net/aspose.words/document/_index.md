@@ -154,8 +154,8 @@ In Microsoft Word, a valid document needs to have at least one section.
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ accept_all_revisions()](./accept_all_revisions/#default) | Accepts all tracked changes in the document. |
-|[ accept_end(visitor)](../compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ accept_start(visitor)](../compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ accept_end(visitor)](./accept_end/#documentvisitor) | Accepts a visitor for visiting the end of the document. |
+|[ accept_start(visitor)](./accept_start/#documentvisitor) | Accepts a visitor for visiting the start of the document. |
 |[ append_child(new_child)](../compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ append_document(src_doc, import_format_mode)](./append_document/#document_importformatmode) | Appends the specified document to the end of this document. |
 |[ append_document(src_doc, import_format_mode, import_format_options)](./append_document/#document_importformatmode_importformatoptions) | Appends the specified document to the end of this document. |

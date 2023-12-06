@@ -5,7 +5,7 @@ articleTitle: merge_stream method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Merger.merge_stream method"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.lowcode/merger/merge_stream/
 ---
 

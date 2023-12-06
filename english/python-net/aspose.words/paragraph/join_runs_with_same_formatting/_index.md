@@ -5,7 +5,7 @@ articleTitle: join_runs_with_same_formatting method
 second_title: Aspose.Words for Python
 description: "Paragraph.join_runs_with_same_formatting method. Joins runs with the same formatting in the paragraph."
 type: docs
-weight: 280
+weight: 300
 url: /python-net/aspose.words/paragraph/join_runs_with_same_formatting/
 ---
 

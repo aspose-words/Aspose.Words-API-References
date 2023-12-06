@@ -5,7 +5,7 @@ articleTitle: auto_fit method
 second_title: Aspose.Words for Python
 description: "Table.auto_fit method. Resizes the table and cells according to the specified auto fit behavior."
 type: docs
-weight: 360
+weight: 380
 url: /python-net/aspose.words.tables/table/auto_fit/
 ---
 
