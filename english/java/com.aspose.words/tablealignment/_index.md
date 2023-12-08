@@ -4,7 +4,7 @@ linktitle: TableAlignment
 second_title: Aspose.Words for Java
 description: Specifies alignment for an inline table in Java.
 type: docs
-weight: 575
+weight: 576
 url: /java/com.aspose.words/tablealignment/
 ---
 

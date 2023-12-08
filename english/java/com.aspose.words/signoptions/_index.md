@@ -4,7 +4,7 @@ linktitle: SignOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for document signing in Java.
 type: docs
-weight: 549
+weight: 550
 url: /java/com.aspose.words/signoptions/
 ---
 

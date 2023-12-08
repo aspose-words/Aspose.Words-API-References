@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 504
+weight: 505
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -110,6 +110,27 @@ A data source object can be of one of the following types:
  *  Any other arbitrary Java type
 
 For information on how to work with data sources of different types in template documents, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+
+ **Examples:** 
+
+Shows how to display values as dollar text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("<<[ds.getValue1()]:dollarText>>\r<<[ds.getValue2()]:dollarText>>");
+
+ NumericTestClass testData = new NumericTestBuilder().withValues(1234, 5621718.589).build();
+
+ ReportingEngine report = new ReportingEngine();
+ report.getKnownTypes().add(NumericTestClass.class);
+ report.buildReport(doc, testData, "ds");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.DollarTextFormat.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

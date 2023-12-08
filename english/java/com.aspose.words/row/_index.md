@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Words for Java
 description: Represents a table row in Java.
 type: docs
-weight: 518
+weight: 519
 url: /java/com.aspose.words/row/
 ---
 
@@ -148,8 +148,8 @@ Shows how to build a nested table without using a document builder.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) |  |
-| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) |  |
+| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the row. |
+| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the row. |
 | [clearRowAttrs()](#clearRowAttrs) |  |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
@@ -446,30 +446,30 @@ public int acceptEnd(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
+Accepts a visitor for visiting the end of the row.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### acceptStart(DocumentVisitor visitor) {#acceptStart-com.aspose.words.DocumentVisitor}
 ```
 public int acceptStart(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
+Accepts a visitor for visiting the start of the row.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### clearRowAttrs() {#clearRowAttrs}
 ```
 public void clearRowAttrs()

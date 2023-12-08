@@ -31,7 +31,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object) |  |
+| [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [getBlockImportMode()](#getBlockImportMode) | Gets a value that specifies how properties of block-level elements are imported. |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
@@ -161,7 +161,7 @@ public boolean equals(Object obj)
 ```
 
 
-
+Determines whether the specified object is equal in value to the current object.
 
 **Parameters:**
 | Parameter | Type | Description |

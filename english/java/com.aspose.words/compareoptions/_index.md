@@ -96,7 +96,7 @@ Shows how to filter specific types of document elements when making a comparison
 
 | Method | Description |
 | --- | --- |
-| [getCompareMoves()](#getCompareMoves) | Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. |
+| [getCompareMoves()](#getCompareMoves) | Specifies whether to compare differences between the two documents. |
 | [getGranularity()](#getGranularity) | Specifies whether changes are tracked by character or by word. |
 | [getIgnoreCaseChanges()](#getIgnoreCaseChanges) | True indicates that documents comparison is case insensitive. |
 | [getIgnoreComments()](#getIgnoreComments) | Specifies whether to compare differences in comments. |
@@ -108,7 +108,7 @@ Shows how to filter specific types of document elements when making a comparison
 | [getIgnoreTables()](#getIgnoreTables) | Specifies whether to compare the differences in data contained in tables. |
 | [getIgnoreTextboxes()](#getIgnoreTextboxes) | Specifies whether to compare differences in the data contained within text boxes. |
 | [getTarget()](#getTarget) | Specifies which document shall be used as a target during comparison. |
-| [setCompareMoves(boolean value)](#setCompareMoves-boolean) | Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. |
+| [setCompareMoves(boolean value)](#setCompareMoves-boolean) | Specifies whether to compare differences between the two documents. |
 | [setGranularity(int value)](#setGranularity-int) | Specifies whether changes are tracked by character or by word. |
 | [setIgnoreCaseChanges(boolean value)](#setIgnoreCaseChanges-boolean) | True indicates that documents comparison is case insensitive. |
 | [setIgnoreComments(boolean value)](#setIgnoreComments-boolean) | Specifies whether to compare differences in comments. |
@@ -126,7 +126,11 @@ public boolean getCompareMoves()
 ```
 
 
-Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. By default move revisions are not produced.
+Specifies whether to compare differences between the two documents.
+
+ **Remarks:** 
+
+By default move revisions are not produced.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -136,7 +140,11 @@ public int getGranularity()
 ```
 
 
-Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity/\#WORD-LEVEL).
+Specifies whether changes are tracked by character or by word.
+
+ **Remarks:** 
+
+Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity/\#WORD-LEVEL).
 
  **Examples:** 
 
@@ -173,7 +181,11 @@ public boolean getIgnoreCaseChanges()
 ```
 
 
-True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
+True indicates that documents comparison is case insensitive.
+
+ **Remarks:** 
+
+By default comparison is case sensitive.
 
  **Examples:** 
 
@@ -255,7 +267,11 @@ public boolean getIgnoreComments()
 ```
 
 
-Specifies whether to compare differences in comments. By default comments are not ignored.
+Specifies whether to compare differences in comments.
+
+ **Remarks:** 
+
+By default comments are not ignored.
 
  **Examples:** 
 
@@ -337,7 +353,11 @@ public boolean getIgnoreDmlUniqueId()
 ```
 
 
-Specifies whether to ignore difference in DrawingML unique Id. Default value is  false .
+Specifies whether to ignore difference in DrawingML unique Id.
+
+ **Remarks:** 
+
+Default value is  false .
 
  **Examples:** 
 
@@ -367,7 +387,11 @@ public boolean getIgnoreFields()
 ```
 
 
-Specifies whether to compare differences in fields. By default fields are not ignored.
+Specifies whether to compare differences in fields.
+
+ **Remarks:** 
+
+By default fields are not ignored.
 
  **Examples:** 
 
@@ -449,7 +473,11 @@ public boolean getIgnoreFootnotes()
 ```
 
 
-Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored.
+Specifies whether to compare differences in footnotes and endnotes.
+
+ **Remarks:** 
+
+By default footnotes are not ignored.
 
  **Examples:** 
 
@@ -531,7 +559,11 @@ public boolean getIgnoreFormatting()
 ```
 
 
-True indicates that formatting is ignored. By default document formatting is not ignored.
+True indicates that formatting is ignored.
+
+ **Remarks:** 
+
+By default document formatting is not ignored.
 
  **Examples:** 
 
@@ -613,7 +645,11 @@ public boolean getIgnoreHeadersAndFooters()
 ```
 
 
-True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
+True indicates that headers and footers content is ignored.
+
+ **Remarks:** 
+
+By default headers and footers are not ignored.
 
  **Examples:** 
 
@@ -695,7 +731,11 @@ public boolean getIgnoreTables()
 ```
 
 
-Specifies whether to compare the differences in data contained in tables. By default tables are not ignored.
+Specifies whether to compare the differences in data contained in tables.
+
+ **Remarks:** 
+
+By default tables are not ignored.
 
  **Examples:** 
 
@@ -777,7 +817,11 @@ public boolean getIgnoreTextboxes()
 ```
 
 
-Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored.
+Specifies whether to compare differences in the data contained within text boxes.
+
+ **Remarks:** 
+
+By default textboxes are not ignored.
 
  **Examples:** 
 
@@ -941,7 +985,11 @@ public void setCompareMoves(boolean value)
 ```
 
 
-Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. By default move revisions are not produced.
+Specifies whether to compare differences between the two documents.
+
+ **Remarks:** 
+
+By default move revisions are not produced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -954,7 +1002,11 @@ public void setGranularity(int value)
 ```
 
 
-Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity/\#WORD-LEVEL).
+Specifies whether changes are tracked by character or by word.
+
+ **Remarks:** 
+
+Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity/\#WORD-LEVEL).
 
  **Examples:** 
 
@@ -994,7 +1046,11 @@ public void setIgnoreCaseChanges(boolean value)
 ```
 
 
-True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
+True indicates that documents comparison is case insensitive.
+
+ **Remarks:** 
+
+By default comparison is case sensitive.
 
  **Examples:** 
 
@@ -1079,7 +1135,11 @@ public void setIgnoreComments(boolean value)
 ```
 
 
-Specifies whether to compare differences in comments. By default comments are not ignored.
+Specifies whether to compare differences in comments.
+
+ **Remarks:** 
+
+By default comments are not ignored.
 
  **Examples:** 
 
@@ -1164,7 +1224,11 @@ public void setIgnoreDmlUniqueId(boolean value)
 ```
 
 
-Specifies whether to ignore difference in DrawingML unique Id. Default value is  false .
+Specifies whether to ignore difference in DrawingML unique Id.
+
+ **Remarks:** 
+
+Default value is  false .
 
  **Examples:** 
 
@@ -1197,7 +1261,11 @@ public void setIgnoreFields(boolean value)
 ```
 
 
-Specifies whether to compare differences in fields. By default fields are not ignored.
+Specifies whether to compare differences in fields.
+
+ **Remarks:** 
+
+By default fields are not ignored.
 
  **Examples:** 
 
@@ -1282,7 +1350,11 @@ public void setIgnoreFootnotes(boolean value)
 ```
 
 
-Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored.
+Specifies whether to compare differences in footnotes and endnotes.
+
+ **Remarks:** 
+
+By default footnotes are not ignored.
 
  **Examples:** 
 
@@ -1367,7 +1439,11 @@ public void setIgnoreFormatting(boolean value)
 ```
 
 
-True indicates that formatting is ignored. By default document formatting is not ignored.
+True indicates that formatting is ignored.
+
+ **Remarks:** 
+
+By default document formatting is not ignored.
 
  **Examples:** 
 
@@ -1452,7 +1528,11 @@ public void setIgnoreHeadersAndFooters(boolean value)
 ```
 
 
-True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
+True indicates that headers and footers content is ignored.
+
+ **Remarks:** 
+
+By default headers and footers are not ignored.
 
  **Examples:** 
 
@@ -1537,7 +1617,11 @@ public void setIgnoreTables(boolean value)
 ```
 
 
-Specifies whether to compare the differences in data contained in tables. By default tables are not ignored.
+Specifies whether to compare the differences in data contained in tables.
+
+ **Remarks:** 
+
+By default tables are not ignored.
 
  **Examples:** 
 
@@ -1622,7 +1706,11 @@ public void setIgnoreTextboxes(boolean value)
 ```
 
 
-Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored.
+Specifies whether to compare differences in the data contained within text boxes.
+
+ **Remarks:** 
+
+By default textboxes are not ignored.
 
  **Examples:** 
 

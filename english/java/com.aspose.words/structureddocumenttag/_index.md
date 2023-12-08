@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Represents a structured document tag SDT or content control in a document in Java.
 type: docs
-weight: 558
+weight: 559
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 
@@ -80,8 +80,8 @@ Shows how to work with styles for content control elements.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) |  |
-| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) |  |
+| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the StructuredDocumentTag. |
+| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the StructuredDocumentTag. |
 | [clear()](#clear) | Clears contents of this structured document tag and displays a placeholder if it is defined. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
 | [dd()](#dd) |  |
@@ -121,6 +121,7 @@ Shows how to work with styles for content control elements.
 | [getMultiline()](#getMultiline) | Specifies whether this **SDT** allows multiple lines of text. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
+| [getNode()](#getNode) |  |
 | [getNodeType()](#getNodeType) | Returns [NodeType.STRUCTURED\_DOCUMENT\_TAG](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttag/\#isShowingPlaceholderText-boolean) element is  true . |
@@ -139,6 +140,7 @@ Shows how to work with styles for content control elements.
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
 | [isComposite()](#isComposite) | Returns  true  as this node can have child nodes. |
+| [isMultiSection()](#isMultiSection) |  |
 | [isRanged()](#isRanged) |  |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
@@ -311,30 +313,30 @@ public int acceptEnd(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
+Accepts a visitor for visiting the end of the StructuredDocumentTag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### acceptStart(DocumentVisitor visitor) {#acceptStart-com.aspose.words.DocumentVisitor}
 ```
 public int acceptStart(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
+Accepts a visitor for visiting the start of the StructuredDocumentTag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### clear() {#clear}
 ```
 public void clear()
@@ -2026,6 +2028,16 @@ Shows how to traverse a composite node's tree of child nodes.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node immediately following this node.
+### getNode() {#getNode}
+```
+public Node getNode()
+```
+
+
+Returns Node object that implements this interface.
+
+**Returns:**
+[Node](../../com.aspose.words/node/)
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
@@ -2831,13 +2843,13 @@ Shows how to traverse a composite node's tree of child nodes.
 
 **Returns:**
 boolean -  true  as this node can have child nodes.
-### isRanged() {#isRanged}
+### isMultiSection() {#isMultiSection}
 ```
-public boolean isRanged()
+public boolean isMultiSection()
 ```
 
 
-Returns true if this instance is a ranged structured document tag.
+Returns true if this instance is a ranged (multi-section) structured document tag.
 
  **Examples:** 
 
@@ -2849,7 +2861,7 @@ Shows how to get structured document tag.
 
  // Get the structured document tag by Id.
  IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
- System.out.println(sdt.isRanged());
+ System.out.println(sdt.isMultiSection());
  System.out.println(sdt.getTitle());
 
  // Get the structured document tag or ranged tag by Title.
@@ -2857,6 +2869,16 @@ Shows how to get structured document tag.
  System.out.println(sdt.getId());
  
 ```
+
+**Returns:**
+boolean
+### isRanged() {#isRanged}
+```
+public boolean isRanged()
+```
+
+
+Returns true if this instance is a ranged structured document tag.
 
 **Returns:**
 boolean

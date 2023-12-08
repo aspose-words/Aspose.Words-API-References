@@ -4,7 +4,7 @@ linktitle: IBibliographyStylesProvider
 second_title: Aspose.Words for Java
 description: Implement this interface to provide bibliography style for the FieldBibliography and FieldCitation fields when theyre updated in Java.
 type: docs
-weight: 661
+weight: 663
 url: /java/com.aspose.words/ibibliographystylesprovider/
 ---
 ```

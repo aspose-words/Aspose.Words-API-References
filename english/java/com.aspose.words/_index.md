@@ -503,6 +503,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [PdfImageColorSpaceExportMode](../com.aspose.words/pdfimagecolorspaceexportmode/) | Specifies how the color space will be selected for the images in PDF document. |
 | [PdfImageCompression](../com.aspose.words/pdfimagecompression/) | Specifies the type of compression applied to images in the PDF file. |
 | [PdfLoadOptions](../com.aspose.words/pdfloadoptions/) | Allows to specify additional options when loading Pdf document into a [Document](../com.aspose.words/document/) object. |
+| [PdfPageLayout](../com.aspose.words/pdfpagelayout/) | Specifies the page layout to be used when the document is opened in a PDF reader. |
 | [PdfPageMode](../com.aspose.words/pdfpagemode/) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
 | [PdfPermissions](../com.aspose.words/pdfpermissions/) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
 | [PdfSaveOptions](../com.aspose.words/pdfsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PDF](../com.aspose.words/saveformat/\#PDF) format. |
@@ -680,6 +681,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [XmlDataSource](../com.aspose.words/xmldatasource/) | Provides access to data of an XML file or stream to be used within a report. |
 | [XmlMapping](../com.aspose.words/xmlmapping/) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
 | [XpsSaveOptions](../com.aspose.words/xpssaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XPS](../com.aspose.words/saveformat/\#XPS) format. |
+| [Zip64Mode](../com.aspose.words/zip64mode/) | Specifies when to use ZIP64 format extensions for OOXML files. |
 | [ZoomType](../com.aspose.words/zoomtype/) | Possible values for how large or small the document appears on the screen in Microsoft Word. |
 
 ## Interfaces

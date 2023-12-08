@@ -96,8 +96,8 @@ Shows how to add a comment to a document, and then reply to it.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) |  |
-| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) |  |
+| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the comment. |
+| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the comment. |
 | [addReply(String author, String initial, Date dateTime, String text)](#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String) | Adds a reply to this comment. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
 | [dd()](#dd) |  |
@@ -563,30 +563,30 @@ public int acceptEnd(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
+Accepts a visitor for visiting the end of the comment.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### acceptStart(DocumentVisitor visitor) {#acceptStart-com.aspose.words.DocumentVisitor}
 ```
 public int acceptStart(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
+Accepts a visitor for visiting the start of the comment.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### addReply(String author, String initial, Date dateTime, String text) {#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String}
 ```
 public Comment addReply(String author, String initial, Date dateTime, String text)

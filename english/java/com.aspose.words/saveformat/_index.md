@@ -4,7 +4,7 @@ linktitle: SaveFormat
 second_title: Aspose.Words for Java
 description: Indicates the format in which the document is saved in Java.
 type: docs
-weight: 525
+weight: 526
 url: /java/com.aspose.words/saveformat/
 ---
 

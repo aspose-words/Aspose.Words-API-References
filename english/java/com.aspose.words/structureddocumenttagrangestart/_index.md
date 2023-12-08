@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 561
+weight: 562
 url: /java/com.aspose.words/structureddocumenttagrangestart/
 ---
 
@@ -74,7 +74,6 @@ Shows how to get the properties of multi-section structured document tags.
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
-| [getChildNodes()](#getChildNodes) | Gets all nodes between this range start node and the range end node. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
 | [getColor()](#getColor) | Gets the color of the structured document tag. |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
@@ -85,6 +84,7 @@ Shows how to get the properties of multi-section structured document tags.
 | [getLockContentControl()](#getLockContentControl) | When set to  true , this property will prohibit a user from deleting this structured document tag. |
 | [getLockContents()](#getLockContents) | When set to  true , this property will prohibit a user from editing the contents of this structured document tag. |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
+| [getNode()](#getNode) |  |
 | [getNodeType()](#getNodeType) | Returns [NodeType.STRUCTURED\_DOCUMENT\_TAG\_RANGE\_START](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG-RANGE-START). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText-boolean) element is  true . |
@@ -100,6 +100,7 @@ Shows how to get the properties of multi-section structured document tags.
 | [getWordOpenXMLMinimal()](#getWordOpenXMLMinimal) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
+| [isMultiSection()](#isMultiSection) |  |
 | [isRanged()](#isRanged) |  |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean) | Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). |
@@ -324,36 +325,6 @@ Shows how to find out if a tables are nested.
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
-### getChildNodes() {#getChildNodes}
-```
-public NodeCollection getChildNodes()
-```
-
-
-Gets all nodes between this range start node and the range end node.
-
- **Examples:** 
-
-Shows how to get child nodes of StructuredDocumentTagRangeStart.
-
-```
-
- Document doc = new Document(getMyDir() + "Multi-section structured document tags.docx");
- StructuredDocumentTagRangeStart tag = (StructuredDocumentTagRangeStart) doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, true).get(0);
-
- System.out.println("StructuredDocumentTagRangeStart values:");
- System.out.println("\t|Child nodes count: {tag.ChildNodes.Count}\n");
-
- for (Node node : (Iterable) tag.getChildNodes())
-     System.out.println(MessageFormat.format("\t|Child node type: {0}", node.getNodeType()));
-
- for (Node node : (Iterable) tag.getChildNodes(NodeType.RUN, true))
-     System.out.println(MessageFormat.format("\t|Child node text: {0}", node.getText()));
- 
-```
-
-**Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection/) - All nodes between this range start node and the range end node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -774,6 +745,16 @@ Shows how to traverse a composite node's tree of child nodes.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node immediately following this node.
+### getNode() {#getNode}
+```
+public Node getNode()
+```
+
+
+Returns Node object that implements this interface.
+
+**Returns:**
+[Node](../../com.aspose.words/node/)
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
@@ -1320,7 +1301,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (144924,6)
+Returns  true  if this node can contain other nodes. (146747,6)
 
  **Examples:** 
 
@@ -1362,13 +1343,13 @@ Shows how to traverse a composite node's tree of child nodes.
 
 **Returns:**
 boolean -  true  if this node can contain other nodes.
-### isRanged() {#isRanged}
+### isMultiSection() {#isMultiSection}
 ```
-public boolean isRanged()
+public boolean isMultiSection()
 ```
 
 
-Returns true if this instance is a ranged structured document tag.
+Returns true if this instance is a ranged (multi-section) structured document tag.
 
  **Examples:** 
 
@@ -1380,7 +1361,7 @@ Shows how to get structured document tag.
 
  // Get the structured document tag by Id.
  IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
- System.out.println(sdt.isRanged());
+ System.out.println(sdt.isMultiSection());
  System.out.println(sdt.getTitle());
 
  // Get the structured document tag or ranged tag by Title.
@@ -1388,6 +1369,16 @@ Shows how to get structured document tag.
  System.out.println(sdt.getId());
  
 ```
+
+**Returns:**
+boolean
+### isRanged() {#isRanged}
+```
+public boolean isRanged()
+```
+
+
+Returns true if this instance is a ranged structured document tag.
 
 **Returns:**
 boolean

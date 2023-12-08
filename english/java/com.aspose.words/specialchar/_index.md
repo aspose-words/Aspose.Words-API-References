@@ -4,7 +4,7 @@ linktitle: SpecialChar
 second_title: Aspose.Words for Java
 description: Base class for special characters in the document in Java.
 type: docs
-weight: 553
+weight: 554
 url: /java/com.aspose.words/specialchar/
 ---
 
@@ -995,7 +995,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (144924,6)
+Returns  true  if this node can contain other nodes. (146747,6)
 
  **Examples:** 
 

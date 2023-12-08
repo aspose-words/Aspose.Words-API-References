@@ -87,8 +87,8 @@ Shows how to construct an Aspose.Words document by hand.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) |  |
-| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) |  |
+| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the document's body. |
+| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the document's body. |
 | [appendParagraph(String text)](#appendParagraph-java.lang.String) | A shortcut method that creates a [Paragraph](../../com.aspose.words/paragraph/) object with optional text and appends it to the end of this object. |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
@@ -386,30 +386,30 @@ public int acceptEnd(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
+Accepts a visitor for visiting the end of the document's body.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### acceptStart(DocumentVisitor visitor) {#acceptStart-com.aspose.words.DocumentVisitor}
 ```
 public int acceptStart(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
+Accepts a visitor for visiting the start of the document's body.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### appendParagraph(String text) {#appendParagraph-java.lang.String}
 ```
 public Paragraph appendParagraph(String text)

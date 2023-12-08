@@ -38,17 +38,7 @@ public void add(Class type)
 ```
 
 
-Adds the specified java.lang.Class object to the set. Throws java.lang.IllegalArgumentException in the following cases:
-
-\-  type  is  null .
-
-\-  type  represents a void type.
-
-\-  type  represents an invisible type, i.e. a non-public type or a public nested type which has a non-public outer type.
-
-\-  type  represents an array type.
-
-\-  type  has been added to the set already.
+Adds the specified java.lang.Class object to the set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -89,7 +79,7 @@ public void remove(Class type)
 ```
 
 
-Removes the specified java.lang.Class object from the set. Throws java.lang.IllegalArgumentException if  type  is  null .
+Removes the specified java.lang.Class object from the set.
 
 **Parameters:**
 | Parameter | Type | Description |

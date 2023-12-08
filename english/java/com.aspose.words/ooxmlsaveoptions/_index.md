@@ -86,6 +86,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [getZip64Mode()](#getZip64Mode) | Specifies whether or not to use ZIP64 format extensions for the output document. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setCompliance(int value)](#setCompliance-int) | Specifies the OOXML version for the output document. |
 | [setCompressionLevel(int value)](#setCompressionLevel-int) | Specifies the compression level used to save document. |
@@ -108,6 +109,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [setZip64Mode(int value)](#setZip64Mode-int) | Specifies whether or not to use ZIP64 format extensions for the output document. |
 ### OoxmlSaveOptions() {#OoxmlSaveOptions}
 ```
 public OoxmlSaveOptions()
@@ -1305,6 +1307,42 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
+### getZip64Mode() {#getZip64Mode}
+```
+public int getZip64Mode()
+```
+
+
+Specifies whether or not to use ZIP64 format extensions for the output document. The default value is [Zip64Mode.NEVER](../../com.aspose.words/zip64mode/\#NEVER).
+
+ **Examples:** 
+
+Shows how to use ZIP64 format extensions.
+
+```
+
+ Random random = new Random();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ for (int i = 0; i < 10000; i++)
+ {
+     BufferedImage bmp = new BufferedImage(5, 5, BufferedImage.TYPE_INT_ARGB);
+     Graphics2D g = bmp.createGraphics();
+     g.setColor(new Color(random.nextInt(254), random.nextInt(254), random.nextInt(254)));
+     g.drawImage(bmp, 0, 0, null);
+     g.dispose();
+     builder.insertImage(bmp);
+ }
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setZip64Mode(Zip64Mode.ALWAYS);
+
+ builder.getDocument().save(getArtifactsDir() + "OoxmlSaveOptions.Zip64ModeOption.docx", saveOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [Zip64Mode](../../com.aspose.words/zip64mode/) constants.
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -2461,4 +2499,43 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
+
+### setZip64Mode(int value) {#setZip64Mode-int}
+```
+public void setZip64Mode(int value)
+```
+
+
+Specifies whether or not to use ZIP64 format extensions for the output document. The default value is [Zip64Mode.NEVER](../../com.aspose.words/zip64mode/\#NEVER).
+
+ **Examples:** 
+
+Shows how to use ZIP64 format extensions.
+
+```
+
+ Random random = new Random();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ for (int i = 0; i < 10000; i++)
+ {
+     BufferedImage bmp = new BufferedImage(5, 5, BufferedImage.TYPE_INT_ARGB);
+     Graphics2D g = bmp.createGraphics();
+     g.setColor(new Color(random.nextInt(254), random.nextInt(254), random.nextInt(254)));
+     g.drawImage(bmp, 0, 0, null);
+     g.dispose();
+     builder.insertImage(bmp);
+ }
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setZip64Mode(Zip64Mode.ALWAYS);
+
+ builder.getDocument().save(getArtifactsDir() + "OoxmlSaveOptions.Zip64ModeOption.docx", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [Zip64Mode](../../com.aspose.words/zip64mode/) constants. |
 

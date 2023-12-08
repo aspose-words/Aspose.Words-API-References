@@ -25,6 +25,7 @@ The merging functionality supports over 35 different file formats.
 
 | Method | Description |
 | --- | --- |
+| [merge(Document[] inputDocuments, int mergeFormatMode)](#merge-com.aspose.words.Document---int) |  |
 | [merge(InputStream[] inputStreams, int mergeFormatMode)](#merge-java.io.InputStream---int) |  |
 | [merge(OutputStream outputStream, InputStream[] inputStreams, SaveOptions saveOptions, int mergeFormatMode)](#merge-java.io.OutputStream-java.io.InputStream---com.aspose.words.SaveOptions-int) |  |
 | [merge(OutputStream outputStream, InputStream[] inputStreams, int saveFormat)](#merge-java.io.OutputStream-java.io.InputStream---int) |  |
@@ -32,6 +33,22 @@ The merging functionality supports over 35 different file formats.
 | [merge(String outputFile, String[] inputFiles, SaveOptions saveOptions, int mergeFormatMode)](#merge-java.lang.String-java.lang.String---com.aspose.words.SaveOptions-int) |  |
 | [merge(String outputFile, String[] inputFiles, int saveFormat, int mergeFormatMode)](#merge-java.lang.String-java.lang.String---int-int) |  |
 | [merge(String[] inputFiles, int mergeFormatMode)](#merge-java.lang.String---int) |  |
+### merge(Document[] inputDocuments, int mergeFormatMode) {#merge-com.aspose.words.Document---int}
+```
+public static Document merge(Document[] inputDocuments, int mergeFormatMode)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputDocuments | [Document\[\]](../../com.aspose.words/document/) |  |
+| mergeFormatMode | int |  |
+
+**Returns:**
+[Document](../../com.aspose.words/document/)
 ### merge(InputStream[] inputStreams, int mergeFormatMode) {#merge-java.io.InputStream---int}
 ```
 public static Document merge(InputStream[] inputStreams, int mergeFormatMode)

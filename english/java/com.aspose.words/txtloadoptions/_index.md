@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.TEXT document into a Document object in Java.
 type: docs
-weight: 610
+weight: 611
 url: /java/com.aspose.words/txtloadoptions/
 ---
 
@@ -29,7 +29,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object) |  |
+| [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getAutoNumberingDetection()](#getAutoNumberingDetection) | Gets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
 | [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
@@ -87,7 +87,7 @@ public boolean equals(Object obj)
 ```
 
 
-
+Determines whether the specified object is equal in value to the current object.
 
 **Parameters:**
 | Parameter | Type | Description |
