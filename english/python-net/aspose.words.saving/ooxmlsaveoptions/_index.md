@@ -53,6 +53,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [update_last_saved_time_property](../saveoptions/update_last_saved_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_anti_aliasing](../saveoptions/use_anti_aliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_high_quality_rendering](../saveoptions/use_high_quality_rendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [zip_64_mode](./zip_64_mode/) | Specifies whether or not to use ZIP64 format extensions for the output document. The default value is [Zip64Mode.NEVER](../zip64mode/#NEVER). |
 
 ### Methods
 

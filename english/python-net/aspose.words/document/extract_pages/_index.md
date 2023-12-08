@@ -5,7 +5,7 @@ articleTitle: extract_pages method
 second_title: Aspose.Words for Python
 description: "Document.extract_pages method. Returns the [Document](../) object representing specified range of pages."
 type: docs
-weight: 600
+weight: 620
 url: /python-net/aspose.words/document/extract_pages/
 ---
 

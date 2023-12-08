@@ -5,7 +5,7 @@ articleTitle: tag property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.tag property. Specifies a tag associated with the current SDT node"
 type: docs
-weight: 100
+weight: 120
 url: /python-net/aspose.words.markup/istructureddocumenttag/tag/
 ---
 

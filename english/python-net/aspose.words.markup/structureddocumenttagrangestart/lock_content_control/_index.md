@@ -5,7 +5,7 @@ articleTitle: lock_content_control property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.lock_content_control property. When set to ``True``, this property will prohibit a user from deleting this structured document tag."
 type: docs
-weight: 80
+weight: 70
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/lock_content_control/
 ---
 

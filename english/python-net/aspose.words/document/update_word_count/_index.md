@@ -5,7 +5,7 @@ articleTitle: update_word_count method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.update_word_count method"
 type: docs
-weight: 770
+weight: 790
 url: /python-net/aspose.words/document/update_word_count/
 ---
 

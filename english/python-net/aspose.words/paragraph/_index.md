@@ -95,8 +95,8 @@ the paragraph as it might make the paragraph invalid when the document is opened
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
-|[ accept_end(visitor)](../compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ accept_start(visitor)](../compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ accept_end(visitor)](./accept_end/#documentvisitor) | Accepts a visitor for visiting the end of the document's paragraph. |
+|[ accept_start(visitor)](./accept_start/#documentvisitor) | Accepts a visitor for visiting the start of the document's paragraph. |
 |[ append_child(new_child)](../compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ append_field(field_type, update_field)](./append_field/#fieldtype_bool) | Appends a field to this paragraph. |
 |[ append_field(field_code)](./append_field/#str) | Appends a field to this paragraph. |

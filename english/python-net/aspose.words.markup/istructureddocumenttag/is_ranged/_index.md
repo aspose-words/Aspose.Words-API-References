@@ -5,7 +5,7 @@ articleTitle: is_ranged method
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.is_ranged method. Returns true if this instance is a ranged structured document tag."
 type: docs
-weight: 140
+weight: 170
 url: /python-net/aspose.words.markup/istructureddocumenttag/is_ranged/
 ---
 

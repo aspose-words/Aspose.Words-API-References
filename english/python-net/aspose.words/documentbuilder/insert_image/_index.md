@@ -385,6 +385,16 @@ shape.vertical_alignment = aw.drawing.VerticalAlignment.CENTER
 doc.save(ARTIFACTS_DIR + "Image.create_floating_page_center.docx")
 ```
 
+Shows how to insert WebP image
+
+```python
+doc = Document()
+builder = DocumentBuilder(doc)
+
+builder.insert_image(IMAGE_DIR + "WebP image.webp")
+doc.save(ARTIFACTS_DIR + "Image.InsertWebpImage.docx")
+```
+
 Shows how to insert an image from a stream into a document.
 
 ```python

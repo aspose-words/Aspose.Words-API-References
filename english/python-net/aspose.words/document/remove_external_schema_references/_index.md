@@ -5,7 +5,7 @@ articleTitle: remove_external_schema_references method
 second_title: Aspose.Words for Python
 description: "Document.remove_external_schema_references method. Removes external XML schema references from this document."
 type: docs
-weight: 650
+weight: 670
 url: /python-net/aspose.words/document/remove_external_schema_references/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ensure_minimum method
 second_title: Aspose.Words for Python
 description: "Table.ensure_minimum method. If the table has no rows, creates and appends one [Row](../../row/)."
 type: docs
-weight: 400
+weight: 420
 url: /python-net/aspose.words.tables/table/ensure_minimum/
 ---
 

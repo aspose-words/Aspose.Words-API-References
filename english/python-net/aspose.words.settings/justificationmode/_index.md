@@ -20,9 +20,9 @@ The default value is ``Expand``.
 
 | Name | Description |
 | --- | --- |
-| EXPAND |  |
-| COMPRESS |  |
-| COMPRESS_KANA |  |
+| EXPAND | Do not compress character spacing. |
+| COMPRESS | Compress character spacing. |
+| COMPRESS_KANA | Compress, using rules of the kana syllabaries, Hiragana and Katakana. |
 
 ### Examples
 
