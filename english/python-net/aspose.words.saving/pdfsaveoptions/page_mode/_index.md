@@ -3,15 +3,15 @@ title: PdfSaveOptions.page_mode property
 linktitle: page_mode property
 articleTitle: page_mode property
 second_title: Aspose.Words for Python
-description: "PdfSaveOptions.page_mode property. Specifies how the PDF document should be displayed when opened in the PDF reader."
+description: "PdfSaveOptions.page_mode property. Specifies how the PDF document should be displayed when opened in a PDF reader."
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.words.saving/pdfsaveoptions/page_mode/
 ---
 
 ## PdfSaveOptions.page_mode property
 
-Specifies how the PDF document should be displayed when opened in the PDF reader.
+Specifies how the PDF document should be displayed when opened in a PDF reader.
 
 
 ```python

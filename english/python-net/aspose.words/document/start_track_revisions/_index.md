@@ -5,7 +5,7 @@ articleTitle: start_track_revisions method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.start_track_revisions method"
 type: docs
-weight: 680
+weight: 700
 url: /python-net/aspose.words/document/start_track_revisions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: text_compression property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.text_compression property. Specifies compression type to be used for all textual content in the document."
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.words.saving/pdfsaveoptions/text_compression/
 ---
 

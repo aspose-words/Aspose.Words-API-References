@@ -85,8 +85,8 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
-|[ accept_end(visitor)](../compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ accept_start(visitor)](../compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ accept_end(visitor)](./accept_end/#documentvisitor) | Accepts a visitor for visiting the end of the comment. |
+|[ accept_start(visitor)](./accept_start/#documentvisitor) | Accepts a visitor for visiting the start of the comment. |
 |[ add_reply(author, initial, date_time, text)](./add_reply/#str_str_datetime_str) | Adds a reply to this comment. |
 |[ append_child(new_child)](../compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |

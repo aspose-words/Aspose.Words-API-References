@@ -5,7 +5,7 @@ articleTitle: remove_self_only method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.remove_self_only method. Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree."
 type: docs
-weight: 240
+weight: 230
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/remove_self_only/
 ---
 
@@ -53,7 +53,7 @@ def test_sdt_range_extended_methods(self):
     # Removes ranged structured document tag and content inside.
     range_start.remove_all_children()
 
-    self.assertEquals(0, range_start.child_nodes.count)
+    self.assertEquals(0, range_start.get_child_nodes(aw.NodeType.ANY, False).count)
 
 def insert_structured_document_tag_ranges(self, doc: aw.Document) -> aw.markup.StructuredDocumentTagRangeStart:
 

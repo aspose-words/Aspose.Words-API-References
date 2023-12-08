@@ -27,6 +27,7 @@ Specifies the type (format) of an image in a Microsoft Word document.
 | PNG | Portable Network Graphics. |
 | BMP | Windows Bitmap. |
 | EPS | Encapsulated PostScript. |
+| WEB_P | WebP. |
 
 ### Examples
 
@@ -43,6 +44,15 @@ with open(IMAGE_DIR + "Logo.jpg", "rb") as stream:
     # The image in the URL is a .gif. Inserting it into a document converts it into a .png.
     img_shape = builder.insert_image(image)
     self.assertEqual(aw.drawing.ImageType.JPEG, img_shape.image_data.image_type)
+```
+
+Shows how to read WebP image
+
+```python
+doc = Document(MY_DIR + "Document with WebP image.docx")
+shape = doc.get_child(NodeType.SHAPE, 0, True).as_shape()
+
+self.assertEqual(ImageType.WEB_P, shape.image_data.image_type)
 ```
 
 ### See Also

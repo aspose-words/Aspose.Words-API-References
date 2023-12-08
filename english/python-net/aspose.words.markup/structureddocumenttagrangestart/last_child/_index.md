@@ -5,7 +5,7 @@ articleTitle: last_child property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.last_child property. Gets the last child in the stdContent range."
 type: docs
-weight: 60
+weight: 50
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/last_child/
 ---
 

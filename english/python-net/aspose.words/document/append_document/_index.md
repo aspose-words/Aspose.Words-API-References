@@ -5,7 +5,7 @@ articleTitle: append_document method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.append_document method"
 type: docs
-weight: 530
+weight: 550
 url: /python-net/aspose.words/document/append_document/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: remove_all_replies method
 second_title: Aspose.Words for Python
 description: "Comment.remove_all_replies method. Removes all replies to this comment."
 type: docs
-weight: 140
+weight: 160
 url: /python-net/aspose.words/comment/remove_all_replies/
 ---
 

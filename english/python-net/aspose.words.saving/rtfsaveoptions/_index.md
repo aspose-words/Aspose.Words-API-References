@@ -5,7 +5,7 @@ articleTitle: RtfSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.RtfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.RTF](../../aspose.words/saveformat/#RTF) format"
 type: docs
-weight: 720
+weight: 730
 url: /python-net/aspose.words.saving/rtfsaveoptions/
 ---
 

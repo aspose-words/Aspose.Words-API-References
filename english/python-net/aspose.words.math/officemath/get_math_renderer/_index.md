@@ -5,7 +5,7 @@ articleTitle: get_math_renderer method
 second_title: Aspose.Words for Python
 description: "OfficeMath.get_math_renderer method. Creates and returns an object that can be used to render this equation into an image."
 type: docs
-weight: 70
+weight: 90
 url: /python-net/aspose.words.math/officemath/get_math_renderer/
 ---
 

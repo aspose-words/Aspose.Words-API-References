@@ -27,7 +27,7 @@ def created_time(self, value: datetime.datetime):
 
 ### Remarks
 
-For documents originated from RTF format  this property returns local time of the author's machine at the moment of document creation.
+For documents originated from RTF format this property returns local time of the author's machine at the moment of document creation.
 
 Aspose.Words does not update this property.
 

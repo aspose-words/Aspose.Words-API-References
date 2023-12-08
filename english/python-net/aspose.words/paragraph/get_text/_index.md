@@ -5,7 +5,7 @@ articleTitle: get_text method
 second_title: Aspose.Words for Python
 description: "Paragraph.get_text method. Gets the text of this paragraph including the end of paragraph character."
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.words/paragraph/get_text/
 ---
 

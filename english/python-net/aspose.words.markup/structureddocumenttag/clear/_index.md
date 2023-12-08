@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.clear method. Clears contents of this structured document tag and displays a placeholder if it is defined."
 type: docs
-weight: 340
+weight: 360
 url: /python-net/aspose.words.markup/structureddocumenttag/clear/
 ---
 

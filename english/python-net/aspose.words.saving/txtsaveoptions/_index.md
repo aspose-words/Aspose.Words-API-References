@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.TEXT](../../aspose.words/saveformat/#TEXT) format"
 type: docs
-weight: 810
+weight: 820
 url: /python-net/aspose.words.saving/txtsaveoptions/
 ---
 

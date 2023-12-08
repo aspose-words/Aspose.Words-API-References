@@ -5,7 +5,7 @@ articleTitle: compare method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.compare method"
 type: docs
-weight: 560
+weight: 580
 url: /python-net/aspose.words/document/compare/
 ---
 

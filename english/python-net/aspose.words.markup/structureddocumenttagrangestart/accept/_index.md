@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.accept method. Accepts a visitor."
 type: docs
-weight: 200
+weight: 190
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/accept/
 ---
 

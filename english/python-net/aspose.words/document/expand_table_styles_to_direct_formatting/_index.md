@@ -5,7 +5,7 @@ articleTitle: expand_table_styles_to_direct_formatting method
 second_title: Aspose.Words for Python
 description: "Document.expand_table_styles_to_direct_formatting method. Converts formatting specified in table styles into direct formatting on tables in the document."
 type: docs
-weight: 590
+weight: 610
 url: /python-net/aspose.words/document/expand_table_styles_to_direct_formatting/
 ---
 

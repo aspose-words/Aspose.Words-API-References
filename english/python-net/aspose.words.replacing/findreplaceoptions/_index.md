@@ -20,10 +20,10 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/python
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FindReplaceOptions()](./__init__/#default) | The default constructor. |
-| [FindReplaceOptions(direction)](./__init__/#findreplacedirection) |  |
-| [FindReplaceOptions(replacing_callback)](./__init__/#ireplacingcallback) |  |
-| [FindReplaceOptions(direction, replacing_callback)](./__init__/#findreplacedirection_ireplacingcallback) |  |
+| [FindReplaceOptions()](./__init__/#default) | Initializes a new instance of the FindReplaceOptions class with default settings. |
+| [FindReplaceOptions(direction)](./__init__/#findreplacedirection) | Initializes a new instance of the FindReplaceOptions class with the specified direction. |
+| [FindReplaceOptions(replacing_callback)](./__init__/#ireplacingcallback) | Initializes a new instance of the FindReplaceOptions class with the specified replacing callback. |
+| [FindReplaceOptions(direction, replacing_callback)](./__init__/#findreplacedirection_ireplacingcallback) | Initializes a new instance of the FindReplaceOptions class with the specified direction and replacing callback. |
 
 ### Properties
 

@@ -5,7 +5,7 @@ articleTitle: convert_to_horizontally_merged_cells method
 second_title: Aspose.Words for Python
 description: "Table.convert_to_horizontally_merged_cells method. Converts cells horizontally merged by width to cells merged by [CellFormat.horizontal_merge](../../cellformat/horizontal_merge/)."
 type: docs
-weight: 390
+weight: 410
 url: /python-net/aspose.words.tables/table/convert_to_horizontally_merged_cells/
 ---
 

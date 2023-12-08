@@ -5,7 +5,7 @@ articleTitle: ensure_minimum method
 second_title: Aspose.Words for Python
 description: "Document.ensure_minimum method. If the document contains no sections, creates one section with one paragraph."
 type: docs
-weight: 580
+weight: 600
 url: /python-net/aspose.words/document/ensure_minimum/
 ---
 

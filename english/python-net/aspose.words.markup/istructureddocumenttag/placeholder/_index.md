@@ -5,7 +5,7 @@ articleTitle: placeholder property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.placeholder property. Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,  the associated mapped XML element is empty as specified via the [IStructuredDocumentTag.xml_mapping](../xml_mapping/) element or the [IStructuredDocumentTag.is_showing_placeholder_text](../is_showing_placeholder_text/) element is true."
 type: docs
-weight: 70
+weight: 90
 url: /python-net/aspose.words.markup/istructureddocumenttag/placeholder/
 ---
 
