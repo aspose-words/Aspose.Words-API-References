@@ -159,33 +159,6 @@ public double getBackTintAndShade()
 
 Gets a double value that lightens or darkens the background color.
 
- **Remarks:** 
-
-The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to set theme color for foreground/background shape color.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertShape(ShapeType.ROUND_RECTANGLE, 80.0, 80.0);
-
- Fill fill = shape.getFill();
- fill.setForeThemeColor(ThemeColor.DARK_1);
- fill.setBackThemeColor(ThemeColor.BACKGROUND_2);
-
- // Note: do not use "BackThemeColor" and "BackTintAndShade" for font fill.
- if (fill.getBackTintAndShade() == 0)
-     fill.setBackTintAndShade(0.2);
-
- doc.save(getArtifactsDir() + "Shape.FillThemeColor.docx");
- 
-```
-
 **Returns:**
 double - A double value that lightens or darkens the background color.
 ### getBaseForeColor() {#getBaseForeColor}
@@ -403,27 +376,6 @@ public double getForeTintAndShade()
 
 
 Gets a double value that lightens or darkens the foreground color.
-
- **Remarks:** 
-
-The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to manage lightening and darkening foreground font color.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- Fill textFill = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getFont().getFill();
- textFill.setForeThemeColor(ThemeColor.ACCENT_1);
- if (textFill.getForeTintAndShade() == 0)
-     textFill.setForeTintAndShade(0.5);
-
- doc.save(getArtifactsDir() + "Shape.FillTintAndShade.docx");
- 
-```
 
 **Returns:**
 double - A double value that lightens or darkens the foreground color.
@@ -1065,33 +1017,6 @@ public void setBackTintAndShade(double value)
 
 Sets a double value that lightens or darkens the background color.
 
- **Remarks:** 
-
-The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to set theme color for foreground/background shape color.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertShape(ShapeType.ROUND_RECTANGLE, 80.0, 80.0);
-
- Fill fill = shape.getFill();
- fill.setForeThemeColor(ThemeColor.DARK_1);
- fill.setBackThemeColor(ThemeColor.BACKGROUND_2);
-
- // Note: do not use "BackThemeColor" and "BackTintAndShade" for font fill.
- if (fill.getBackTintAndShade() == 0)
-     fill.setBackTintAndShade(0.2);
-
- doc.save(getArtifactsDir() + "Shape.FillThemeColor.docx");
- 
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1275,27 +1200,6 @@ public void setForeTintAndShade(double value)
 
 
 Sets a double value that lightens or darkens the foreground color.
-
- **Remarks:** 
-
-The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to manage lightening and darkening foreground font color.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- Fill textFill = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getFont().getFill();
- textFill.setForeThemeColor(ThemeColor.ACCENT_1);
- if (textFill.getForeTintAndShade() == 0)
-     textFill.setForeTintAndShade(0.5);
-
- doc.save(getArtifactsDir() + "Shape.FillTintAndShade.docx");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

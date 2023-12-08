@@ -128,8 +128,8 @@ Shows how to add a custom building block to a document.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) |  |
-| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) |  |
+| [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the BuildingBlock. |
+| [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the BuildingBlock. |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -409,30 +409,30 @@ public int acceptEnd(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
+Accepts a visitor for visiting the end of the BuildingBlock.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### acceptStart(DocumentVisitor visitor) {#acceptStart-com.aspose.words.DocumentVisitor}
 ```
 public int acceptStart(DocumentVisitor visitor)
 ```
 
 
-When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
+Accepts a visitor for visiting the start of the BuildingBlock.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The document visitor. |
 
 **Returns:**
-int
+int - The action to be taken by the visitor. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### dd() {#dd}
 ```
 public void dd()

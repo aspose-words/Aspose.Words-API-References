@@ -4,7 +4,7 @@ linktitle: RevisionOptions
 second_title: Aspose.Words for Java
 description: Allows to control how document revisions are handled during layout process in Java.
 type: docs
-weight: 514
+weight: 515
 url: /java/com.aspose.words/revisionoptions/
 ---
 
@@ -315,60 +315,6 @@ public int getInsertedTextEffect()
 
 Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect/\#UNDERLINE).
 
- **Remarks:** 
-
-Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to modify the appearance of revisions.
-
-```
-
- Document doc = new Document(getMyDir() + "Revisions.docx");
-
- // Get the RevisionOptions object that controls the appearance of revisions.
- RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
-
- // Render insertion revisions in green and italic.
- revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
- revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
-
- // Render deletion revisions in red and bold.
- revisionOptions.setDeletedTextColor(RevisionColor.RED);
- revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
-
- // The same text will appear twice in a movement revision:
- // once at the departure point and once at the arrival destination.
- // Render the text at the moved-from revision yellow with a double strike through
- // and double-underlined blue at the moved-to revision.
- revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
- revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
-
- // Render format revisions in dark red and bold.
- revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
- revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
-
- // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
- revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
- revisionOptions.setRevisionBarsWidth(15.0f);
-
- // Show revision marks and original text.
- revisionOptions.setShowOriginalRevision(true);
- revisionOptions.setShowRevisionMarks(true);
-
- // Get movement, deletion, formatting revisions, and comments to show up in green balloons
- // on the right side of the page.
- revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
- revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
-
- // These features are only applicable to formats such as .pdf or .jpg.
- doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
- 
-```
-
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
 ### getMeasurementUnit() {#getMeasurementUnit}
@@ -569,60 +515,6 @@ public int getMovedToTextEffect()
 
 Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect/\#DOUBLE-UNDERLINE)
 
- **Remarks:** 
-
-Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to modify the appearance of revisions.
-
-```
-
- Document doc = new Document(getMyDir() + "Revisions.docx");
-
- // Get the RevisionOptions object that controls the appearance of revisions.
- RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
-
- // Render insertion revisions in green and italic.
- revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
- revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
-
- // Render deletion revisions in red and bold.
- revisionOptions.setDeletedTextColor(RevisionColor.RED);
- revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
-
- // The same text will appear twice in a movement revision:
- // once at the departure point and once at the arrival destination.
- // Render the text at the moved-from revision yellow with a double strike through
- // and double-underlined blue at the moved-to revision.
- revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
- revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
-
- // Render format revisions in dark red and bold.
- revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
- revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
-
- // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
- revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
- revisionOptions.setRevisionBarsWidth(15.0f);
-
- // Show revision marks and original text.
- revisionOptions.setShowOriginalRevision(true);
- revisionOptions.setShowRevisionMarks(true);
-
- // Get movement, deletion, formatting revisions, and comments to show up in green balloons
- // on the right side of the page.
- revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
- revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
-
- // These features are only applicable to formats such as .pdf or .jpg.
- doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
- 
-```
-
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
 ### getRevisedPropertiesColor() {#getRevisedPropertiesColor}
@@ -692,60 +584,6 @@ public int getRevisedPropertiesEffect()
 
 
 Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect/\#NONE)
-
- **Remarks:** 
-
-[RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to modify the appearance of revisions.
-
-```
-
- Document doc = new Document(getMyDir() + "Revisions.docx");
-
- // Get the RevisionOptions object that controls the appearance of revisions.
- RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
-
- // Render insertion revisions in green and italic.
- revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
- revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
-
- // Render deletion revisions in red and bold.
- revisionOptions.setDeletedTextColor(RevisionColor.RED);
- revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
-
- // The same text will appear twice in a movement revision:
- // once at the departure point and once at the arrival destination.
- // Render the text at the moved-from revision yellow with a double strike through
- // and double-underlined blue at the moved-to revision.
- revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
- revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
-
- // Render format revisions in dark red and bold.
- revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
- revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
-
- // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
- revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
- revisionOptions.setRevisionBarsWidth(15.0f);
-
- // Show revision marks and original text.
- revisionOptions.setShowOriginalRevision(true);
- revisionOptions.setShowRevisionMarks(true);
-
- // Get movement, deletion, formatting revisions, and comments to show up in green balloons
- // on the right side of the page.
- revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
- revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
-
- // These features are only applicable to formats such as .pdf or .jpg.
- doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
- 
-```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
@@ -820,10 +658,6 @@ public int getRevisionBarsPosition()
 
 
 Gets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment/\#OUTSIDE).
-
- **Remarks:** 
-
-Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment/\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment/\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Returns:**
 int - Rendering position of revision bars. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants.
@@ -1356,60 +1190,6 @@ public void setInsertedTextEffect(int value)
 
 Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect/\#UNDERLINE).
 
- **Remarks:** 
-
-Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to modify the appearance of revisions.
-
-```
-
- Document doc = new Document(getMyDir() + "Revisions.docx");
-
- // Get the RevisionOptions object that controls the appearance of revisions.
- RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
-
- // Render insertion revisions in green and italic.
- revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
- revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
-
- // Render deletion revisions in red and bold.
- revisionOptions.setDeletedTextColor(RevisionColor.RED);
- revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
-
- // The same text will appear twice in a movement revision:
- // once at the departure point and once at the arrival destination.
- // Render the text at the moved-from revision yellow with a double strike through
- // and double-underlined blue at the moved-to revision.
- revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
- revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
-
- // Render format revisions in dark red and bold.
- revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
- revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
-
- // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
- revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
- revisionOptions.setRevisionBarsWidth(15.0f);
-
- // Show revision marks and original text.
- revisionOptions.setShowOriginalRevision(true);
- revisionOptions.setShowRevisionMarks(true);
-
- // Get movement, deletion, formatting revisions, and comments to show up in green balloons
- // on the right side of the page.
- revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
- revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
-
- // These features are only applicable to formats such as .pdf or .jpg.
- doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
- 
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1625,60 +1405,6 @@ public void setMovedToTextEffect(int value)
 
 Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect/\#DOUBLE-UNDERLINE)
 
- **Remarks:** 
-
-Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to modify the appearance of revisions.
-
-```
-
- Document doc = new Document(getMyDir() + "Revisions.docx");
-
- // Get the RevisionOptions object that controls the appearance of revisions.
- RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
-
- // Render insertion revisions in green and italic.
- revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
- revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
-
- // Render deletion revisions in red and bold.
- revisionOptions.setDeletedTextColor(RevisionColor.RED);
- revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
-
- // The same text will appear twice in a movement revision:
- // once at the departure point and once at the arrival destination.
- // Render the text at the moved-from revision yellow with a double strike through
- // and double-underlined blue at the moved-to revision.
- revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
- revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
-
- // Render format revisions in dark red and bold.
- revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
- revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
-
- // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
- revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
- revisionOptions.setRevisionBarsWidth(15.0f);
-
- // Show revision marks and original text.
- revisionOptions.setShowOriginalRevision(true);
- revisionOptions.setShowRevisionMarks(true);
-
- // Get movement, deletion, formatting revisions, and comments to show up in green balloons
- // on the right side of the page.
- revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
- revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
-
- // These features are only applicable to formats such as .pdf or .jpg.
- doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
- 
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1754,60 +1480,6 @@ public void setRevisedPropertiesEffect(int value)
 
 
 Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect/\#NONE)
-
- **Remarks:** 
-
-[RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
-
- **Examples:** 
-
-Shows how to modify the appearance of revisions.
-
-```
-
- Document doc = new Document(getMyDir() + "Revisions.docx");
-
- // Get the RevisionOptions object that controls the appearance of revisions.
- RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
-
- // Render insertion revisions in green and italic.
- revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
- revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
-
- // Render deletion revisions in red and bold.
- revisionOptions.setDeletedTextColor(RevisionColor.RED);
- revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
-
- // The same text will appear twice in a movement revision:
- // once at the departure point and once at the arrival destination.
- // Render the text at the moved-from revision yellow with a double strike through
- // and double-underlined blue at the moved-to revision.
- revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
- revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
- revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
-
- // Render format revisions in dark red and bold.
- revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
- revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
-
- // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
- revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
- revisionOptions.setRevisionBarsWidth(15.0f);
-
- // Show revision marks and original text.
- revisionOptions.setShowOriginalRevision(true);
- revisionOptions.setShowRevisionMarks(true);
-
- // Get movement, deletion, formatting revisions, and comments to show up in green balloons
- // on the right side of the page.
- revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
- revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
-
- // These features are only applicable to formats such as .pdf or .jpg.
- doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1888,10 +1560,6 @@ public void setRevisionBarsPosition(int value)
 
 
 Sets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment/\#OUTSIDE).
-
- **Remarks:** 
-
-Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment/\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment/\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Parameters:**
 | Parameter | Type | Description |

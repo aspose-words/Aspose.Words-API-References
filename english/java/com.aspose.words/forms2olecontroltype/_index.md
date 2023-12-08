@@ -19,21 +19,21 @@ Enumerates types of Forms 2.0 controls.
 
 | Field | Description |
 | --- | --- |
-| [CHECK_BOX](#CHECK-BOX) |  |
-| [COMBO_BOX](#COMBO-BOX) |  |
-| [COMMAND_BUTTON](#COMMAND-BUTTON) |  |
-| [FORM](#FORM) |  |
-| [FRAME](#FRAME) |  |
-| [IMAGE](#IMAGE) |  |
-| [LABEL](#LABEL) |  |
-| [LIST_BOX](#LIST-BOX) |  |
-| [MULTI_PAGE](#MULTI-PAGE) |  |
-| [OPTION_BUTTON](#OPTION-BUTTON) |  |
-| [SCROLL_BAR](#SCROLL-BAR) |  |
-| [SPIN_BUTTON](#SPIN-BUTTON) |  |
-| [TAB_STRIP](#TAB-STRIP) |  |
-| [TEXTBOX](#TEXTBOX) |  |
-| [TOGGLE_BUTTON](#TOGGLE-BUTTON) |  |
+| [CHECK_BOX](#CHECK-BOX) | A control that allows the user to select or deselect an option. |
+| [COMBO_BOX](#COMBO-BOX) | A control that allows the user to select an item from a list. |
+| [COMMAND_BUTTON](#COMMAND-BUTTON) | A button that triggers an action when clicked. |
+| [FORM](#FORM) | A container for other controls. |
+| [FRAME](#FRAME) | A control that groups other controls. |
+| [IMAGE](#IMAGE) | A control that displays an image. |
+| [LABEL](#LABEL) | A control that displays text. |
+| [LIST_BOX](#LIST-BOX) | A control that displays a list of items. |
+| [MULTI_PAGE](#MULTI-PAGE) | A control that displays multiple pages of content. |
+| [OPTION_BUTTON](#OPTION-BUTTON) | A radio button control. |
+| [SCROLL_BAR](#SCROLL-BAR) | A control that allows the user to scroll through content. |
+| [SPIN_BUTTON](#SPIN-BUTTON) | A control that allows the user to increase or decrease a value. |
+| [TAB_STRIP](#TAB-STRIP) | A control that allows the user to switch between multiple pages of content. |
+| [TEXTBOX](#TEXTBOX) | A control that allows the user to enter text. |
+| [TOGGLE_BUTTON](#TOGGLE-BUTTON) | A control that allows the user to toggle between two states. |
 | [length](#length) |  |
 ## Methods
 
@@ -49,11 +49,15 @@ public static int CHECK_BOX
 ```
 
 
+A control that allows the user to select or deselect an option.
+
 ### COMBO_BOX {#COMBO-BOX}
 ```
 public static int COMBO_BOX
 ```
 
+
+A control that allows the user to select an item from a list.
 
 ### COMMAND_BUTTON {#COMMAND-BUTTON}
 ```
@@ -61,11 +65,15 @@ public static int COMMAND_BUTTON
 ```
 
 
+A button that triggers an action when clicked.
+
 ### FORM {#FORM}
 ```
 public static int FORM
 ```
 
+
+A container for other controls.
 
 ### FRAME {#FRAME}
 ```
@@ -73,11 +81,15 @@ public static int FRAME
 ```
 
 
+A control that groups other controls.
+
 ### IMAGE {#IMAGE}
 ```
 public static int IMAGE
 ```
 
+
+A control that displays an image.
 
 ### LABEL {#LABEL}
 ```
@@ -85,11 +97,15 @@ public static int LABEL
 ```
 
 
+A control that displays text.
+
 ### LIST_BOX {#LIST-BOX}
 ```
 public static int LIST_BOX
 ```
 
+
+A control that displays a list of items.
 
 ### MULTI_PAGE {#MULTI-PAGE}
 ```
@@ -97,11 +113,15 @@ public static int MULTI_PAGE
 ```
 
 
+A control that displays multiple pages of content.
+
 ### OPTION_BUTTON {#OPTION-BUTTON}
 ```
 public static int OPTION_BUTTON
 ```
 
+
+A radio button control.
 
 ### SCROLL_BAR {#SCROLL-BAR}
 ```
@@ -109,11 +129,15 @@ public static int SCROLL_BAR
 ```
 
 
+A control that allows the user to scroll through content.
+
 ### SPIN_BUTTON {#SPIN-BUTTON}
 ```
 public static int SPIN_BUTTON
 ```
 
+
+A control that allows the user to increase or decrease a value.
 
 ### TAB_STRIP {#TAB-STRIP}
 ```
@@ -121,17 +145,23 @@ public static int TAB_STRIP
 ```
 
 
+A control that allows the user to switch between multiple pages of content.
+
 ### TEXTBOX {#TEXTBOX}
 ```
 public static int TEXTBOX
 ```
 
 
+A control that allows the user to enter text.
+
 ### TOGGLE_BUTTON {#TOGGLE-BUTTON}
 ```
 public static int TOGGLE_BUTTON
 ```
 
+
+A control that allows the user to toggle between two states.
 
 ### length {#length}
 ```

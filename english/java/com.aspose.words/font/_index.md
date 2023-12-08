@@ -3041,34 +3041,6 @@ public double getTintAndShade()
 
 Gets a double value that lightens or darkens a color.
 
- **Remarks:** 
-
-The allowed values are in range from -1 (darkest) to 1 (lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in a java.lang.IllegalArgumentException.
-
-Setting this property for [Font](../../com.aspose.words/font/) object with non-theme colors results in a java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to create and use themed style.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln();
-
- // Create some style with theme font properties.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
- style.getFont().setThemeFont(ThemeFont.MAJOR);
- style.getFont().setThemeColor(ThemeColor.ACCENT_5);
- style.getFont().setTintAndShade(0.3);
-
- builder.getParagraphFormat().setStyleName("ThemedStyle");
- builder.writeln("Text with themed style");
- 
-```
-
 **Returns:**
 double - A double value that lightens or darkens a color.
 ### getUnderline() {#getUnderline}
@@ -5918,34 +5890,6 @@ public void setTintAndShade(double value)
 
 
 Sets a double value that lightens or darkens a color.
-
- **Remarks:** 
-
-The allowed values are in range from -1 (darkest) to 1 (lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in a java.lang.IllegalArgumentException.
-
-Setting this property for [Font](../../com.aspose.words/font/) object with non-theme colors results in a java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to create and use themed style.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln();
-
- // Create some style with theme font properties.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
- style.getFont().setThemeFont(ThemeFont.MAJOR);
- style.getFont().setThemeColor(ThemeColor.ACCENT_5);
- style.getFont().setTintAndShade(0.3);
-
- builder.getParagraphFormat().setStyleName("ThemedStyle");
- builder.writeln("Text with themed style");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: StreamFontSource
 second_title: Aspose.Words for Java
 description: Base class for user-defined stream font source in Java.
 type: docs
-weight: 556
+weight: 557
 url: /java/com.aspose.words/streamfontsource/
 ---
 

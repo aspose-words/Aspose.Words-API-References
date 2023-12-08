@@ -35,9 +35,9 @@ Shows how to manage character spacing control.
 
 | Field | Description |
 | --- | --- |
-| [COMPRESS](#COMPRESS) |  |
-| [COMPRESS_KANA](#COMPRESS-KANA) |  |
-| [EXPAND](#EXPAND) |  |
+| [COMPRESS](#COMPRESS) | Compress character spacing. |
+| [COMPRESS_KANA](#COMPRESS-KANA) | Compress, using rules of the kana syllabaries, Hiragana and Katakana. |
+| [EXPAND](#EXPAND) | Do not compress character spacing. |
 | [length](#length) |  |
 ## Methods
 
@@ -53,17 +53,23 @@ public static int COMPRESS
 ```
 
 
+Compress character spacing.
+
 ### COMPRESS_KANA {#COMPRESS-KANA}
 ```
 public static int COMPRESS_KANA
 ```
 
 
+Compress, using rules of the kana syllabaries, Hiragana and Katakana.
+
 ### EXPAND {#EXPAND}
 ```
 public static int EXPAND
 ```
 
+
+Do not compress character spacing.
 
 ### length {#length}
 ```

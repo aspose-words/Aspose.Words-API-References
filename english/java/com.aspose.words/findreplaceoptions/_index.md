@@ -73,9 +73,9 @@ Shows how to toggle standalone word-only find-and-replace operations.
 
 | Constructor | Description |
 | --- | --- |
-| [FindReplaceOptions()](#FindReplaceOptions) | Initializes a new instance of this class. |
+| [FindReplaceOptions()](#FindReplaceOptions) | Initializes a new instance of the FindReplaceOptions class with default settings. |
 | [FindReplaceOptions(int direction)](#FindReplaceOptions-int) | Initializes a new instance of this class. |
-| [FindReplaceOptions(IReplacingCallback replacingCallback)](#FindReplaceOptions-com.aspose.words.IReplacingCallback) | Initializes a new instance of this class. |
+| [FindReplaceOptions(IReplacingCallback replacingCallback)](#FindReplaceOptions-com.aspose.words.IReplacingCallback) | Initializes a new instance of the FindReplaceOptions class with the specified replacing callback. |
 | [FindReplaceOptions(int direction, IReplacingCallback replacingCallback)](#FindReplaceOptions-int-com.aspose.words.IReplacingCallback) | Initializes a new instance of this class. |
 ## Methods
 
@@ -119,7 +119,7 @@ public FindReplaceOptions()
 ```
 
 
-Initializes a new instance of this class.
+Initializes a new instance of the FindReplaceOptions class with default settings.
 
 ### FindReplaceOptions(int direction) {#FindReplaceOptions-int}
 ```
@@ -140,12 +140,12 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 ```
 
 
-Initializes a new instance of this class.
+Initializes a new instance of the FindReplaceOptions class with the specified replacing callback.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) |  |
+| replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) | The callback to use for replacing found text. |
 
 ### FindReplaceOptions(int direction, IReplacingCallback replacingCallback) {#FindReplaceOptions-int-com.aspose.words.IReplacingCallback}
 ```

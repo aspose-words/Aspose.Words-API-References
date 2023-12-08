@@ -4,7 +4,7 @@ linktitle: IStructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in Java.
 type: docs
-weight: 691
+weight: 693
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```
@@ -16,11 +16,13 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 
 | Method | Description |
 | --- | --- |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
 | [getColor()](#getColor) | Gets the color of the structured document tag. |
 | [getId()](#getId) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
 | [getLevel()](#getLevel) | Gets the level at which this **SDT** occurs in the document tree. |
 | [getLockContentControl()](#getLockContentControl) | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [getLockContents()](#getLockContents) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
+| [getNode()](#getNode) | Returns Node object that implements this interface. |
 | [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText-boolean) element is true. |
 | [getPlaceholderName()](#getPlaceholderName) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
 | [getSdtType()](#getSdtType) | Gets type of this **Structured document tag**. |
@@ -28,9 +30,11 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 | [getTitle()](#getTitle) | Specifies the friendly name associated with this **SDT**. |
 | [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
+| [isMultiSection()](#isMultiSection) | Returns true if this instance is a ranged (multi-section) structured document tag. |
 | [isRanged()](#isRanged) | Returns true if this instance is a ranged structured document tag. |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
+| [removeSelfOnly()](#removeSelfOnly) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets the color of the structured document tag. |
 | [setLockContentControl(boolean value)](#setLockContentControl-boolean) | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [setLockContents(boolean value)](#setLockContents-boolean) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
@@ -38,6 +42,22 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 | [setTag(String value)](#setTag-java.lang.String) | Specifies a tag associated with the current SDT node. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Specifies the friendly name associated with this **SDT**. |
 | [structuredDocumentTagNode()](#structuredDocumentTagNode) | Returns Node object that implements this interface. |
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
+```
+public abstract NodeCollection getChildNodes(int nodeType, boolean isDeep)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| nodeType | int |  |
+| isDeep | boolean |  |
+
+**Returns:**
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getColor() {#getColor}
 ```
 public abstract Color getColor()
@@ -88,6 +108,16 @@ When set to true, this property will prohibit a user from editing the contents o
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getNode() {#getNode}
+```
+public abstract Node getNode()
+```
+
+
+Returns Node object that implements this interface.
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Node object that implements this interface.
 ### getPlaceholder() {#getPlaceholder}
 ```
 public abstract BuildingBlock getPlaceholder()
@@ -150,7 +180,7 @@ Shows how to get structured document tag.
 
  // Get the structured document tag by Id.
  IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
- System.out.println(sdt.isRanged());
+ System.out.println(sdt.isMultiSection());
  System.out.println(sdt.getTitle());
 
  // Get the structured document tag or ranged tag by Title.
@@ -185,13 +215,13 @@ You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang
 
 **Returns:**
 [XmlMapping](../../com.aspose.words/xmlmapping/) - An object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
-### isRanged() {#isRanged}
+### isMultiSection() {#isMultiSection}
 ```
-public abstract boolean isRanged()
+public abstract boolean isMultiSection()
 ```
 
 
-Returns true if this instance is a ranged structured document tag.
+Returns true if this instance is a ranged (multi-section) structured document tag.
 
  **Examples:** 
 
@@ -203,7 +233,7 @@ Shows how to get structured document tag.
 
  // Get the structured document tag by Id.
  IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
- System.out.println(sdt.isRanged());
+ System.out.println(sdt.isMultiSection());
  System.out.println(sdt.getTitle());
 
  // Get the structured document tag or ranged tag by Title.
@@ -211,6 +241,16 @@ Shows how to get structured document tag.
  System.out.println(sdt.getId());
  
 ```
+
+**Returns:**
+boolean - True if this instance is a ranged (multi-section) structured document tag.
+### isRanged() {#isRanged}
+```
+public abstract boolean isRanged()
+```
+
+
+Returns true if this instance is a ranged structured document tag.
 
 **Returns:**
 boolean
@@ -240,6 +280,36 @@ if set to true, this state shall be resumed (showing placeholder text) upon open
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### removeSelfOnly() {#removeSelfOnly}
+```
+public abstract void removeSelfOnly()
+```
+
+
+Removes just this SDT node itself, but keeps the content of it inside the document tree.
+
+ **Examples:** 
+
+Shows how to remove structured document tag, but keeps content inside.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags.docx");
+
+ // This collection provides a unified interface for accessing ranged and non-ranged structured tags.
+ StructuredDocumentTagCollection sdts = doc.getRange().getStructuredDocumentTags();
+ Assert.assertEquals(5, sdts.getCount());
+
+ // Here we can get child nodes from the common interface of ranged and non-ranged structured tags.
+ for (IStructuredDocumentTag sdt : sdts)
+     if (sdt.getChildNodes(NodeType.ANY, false).getCount() > 0)
+         sdt.removeSelfOnly();
+
+ sdts = doc.getRange().getStructuredDocumentTags();
+ Assert.assertEquals(0, sdts.getCount());
+ 
+```
 
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```
@@ -324,7 +394,7 @@ Shows how to get structured document tag.
 
  // Get the structured document tag by Id.
  IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
- System.out.println(sdt.isRanged());
+ System.out.println(sdt.isMultiSection());
  System.out.println(sdt.getTitle());
 
  // Get the structured document tag or ranged tag by Title.

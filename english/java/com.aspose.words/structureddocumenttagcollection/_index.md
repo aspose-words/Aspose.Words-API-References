@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java
 description: A collection of IStructuredDocumentTag instances that represent the structured document tags in the specified range in Java.
 type: docs
-weight: 559
+weight: 560
 url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 
@@ -72,7 +72,7 @@ Shows how to get structured document tag.
 
  // Get the structured document tag by Id.
  IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
- System.out.println(sdt.isRanged());
+ System.out.println(sdt.isMultiSection());
  System.out.println(sdt.getTitle());
 
  // Get the structured document tag or ranged tag by Title.
@@ -129,7 +129,7 @@ Shows how to get structured document tag.
 
  // Get the structured document tag by Id.
  IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
- System.out.println(sdt.isRanged());
+ System.out.println(sdt.isMultiSection());
  System.out.println(sdt.getTitle());
 
  // Get the structured document tag or ranged tag by Title.

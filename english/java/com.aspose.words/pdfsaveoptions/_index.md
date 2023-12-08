@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PDF format in Java.
 type: docs
-weight: 484
+weight: 485
 url: /java/com.aspose.words/pdfsaveoptions/
 ---
 
@@ -189,7 +189,8 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getOpenHyperlinksInNewWindow()](#getOpenHyperlinksInNewWindow) | Gets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
 | [getOptimizeOutput()](#getOptimizeOutput) | Flag indicates whether it is required to optimize output. |
 | [getOutlineOptions()](#getOutlineOptions) | Allows to specify outline options. |
-| [getPageMode()](#getPageMode) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
+| [getPageLayout()](#getPageLayout) | Specifies the page layout to be used when the document is opened in a PDF reader. |
+| [getPageMode()](#getPageMode) | Specifies how the PDF document should be displayed when opened in a PDF reader. |
 | [getPageSavingCallback()](#getPageSavingCallback) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [getPageSet()](#getPageSet) | Gets the pages to render. |
 | [getPreblendImages()](#getPreblendImages) | Gets a value determining whether or not to preblend transparent images with black background color. |
@@ -242,7 +243,8 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [setNumeralFormat(int value)](#setNumeralFormat-int) | Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. |
 | [setOpenHyperlinksInNewWindow(boolean value)](#setOpenHyperlinksInNewWindow-boolean) | Sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
 | [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean) | Flag indicates whether it is required to optimize output. |
-| [setPageMode(int value)](#setPageMode-int) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
+| [setPageLayout(int value)](#setPageLayout-int) | Specifies the page layout to be used when the document is opened in a PDF reader. |
+| [setPageMode(int value)](#setPageMode-int) | Specifies how the PDF document should be displayed when opened in a PDF reader. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet) | Sets the pages to render. |
 | [setPreblendImages(boolean value)](#setPreblendImages-boolean) | Sets a value determining whether or not to preblend transparent images with black background color. |
@@ -1932,13 +1934,43 @@ Shows how to work with outline levels that do not contain any corresponding head
 
 **Returns:**
 [OutlineOptions](../../com.aspose.words/outlineoptions/) - The corresponding [OutlineOptions](../../com.aspose.words/outlineoptions/) value.
+### getPageLayout() {#getPageLayout}
+```
+public int getPageLayout()
+```
+
+
+Specifies the page layout to be used when the document is opened in a PDF reader.
+
+ **Remarks:** 
+
+The default value is [PdfPageLayout.SINGLE\_PAGE](../../com.aspose.words/pdfpagelayout/\#SINGLE-PAGE).
+
+ **Examples:** 
+
+Shows how to display pages when opened in a PDF reader.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ // Display the pages two at a time, with odd-numbered pages on the left.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setPageLayout(PdfPageLayout.TWO_PAGE_LEFT);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PageLayout.pdf", saveOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [PdfPageLayout](../../com.aspose.words/pdfpagelayout/) constants.
 ### getPageMode() {#getPageMode}
 ```
 public int getPageMode()
 ```
 
 
-Specifies how the PDF document should be displayed when opened in the PDF reader.
+Specifies how the PDF document should be displayed when opened in a PDF reader.
 
  **Remarks:** 
 
@@ -4567,13 +4599,46 @@ Shows how to optimize document objects while saving to xps.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
+### setPageLayout(int value) {#setPageLayout-int}
+```
+public void setPageLayout(int value)
+```
+
+
+Specifies the page layout to be used when the document is opened in a PDF reader.
+
+ **Remarks:** 
+
+The default value is [PdfPageLayout.SINGLE\_PAGE](../../com.aspose.words/pdfpagelayout/\#SINGLE-PAGE).
+
+ **Examples:** 
+
+Shows how to display pages when opened in a PDF reader.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ // Display the pages two at a time, with odd-numbered pages on the left.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setPageLayout(PdfPageLayout.TWO_PAGE_LEFT);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PageLayout.pdf", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [PdfPageLayout](../../com.aspose.words/pdfpagelayout/) constants. |
+
 ### setPageMode(int value) {#setPageMode-int}
 ```
 public void setPageMode(int value)
 ```
 
 
-Specifies how the PDF document should be displayed when opened in the PDF reader.
+Specifies how the PDF document should be displayed when opened in a PDF reader.
 
  **Remarks:** 
 

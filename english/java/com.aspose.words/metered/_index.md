@@ -61,7 +61,7 @@ Shows how to activate a Metered license and track credit/consumption.
 | --- | --- |
 | [getConsumptionCredit()](#getConsumptionCredit) | Gets consumption credit |
 | [getConsumptionQuantity()](#getConsumptionQuantity) | Gets consumption file size |
-| [getProductName()](#getProductName) |  |
+| [getProductName()](#getProductName) | Returns Product name |
 | [isMeteredLicensed()](#isMeteredLicensed) | Check whether metered is licensed |
 | [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String) | Sets metered public and private key. |
 ### Metered() {#Metered}
@@ -176,10 +176,10 @@ public String getProductName()
 ```
 
 
-
+Returns Product name
 
 **Returns:**
-java.lang.String
+java.lang.String - Product name
 ### isMeteredLicensed() {#isMeteredLicensed}
 ```
 public static boolean isMeteredLicensed()

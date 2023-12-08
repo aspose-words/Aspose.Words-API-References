@@ -4,7 +4,7 @@ linktitle: Shading
 second_title: Aspose.Words for Java
 description: Contains shading attributes for an object in Java.
 type: docs
-weight: 539
+weight: 540
 url: /java/com.aspose.words/shading/
 ---
 
@@ -294,39 +294,6 @@ public double getBackgroundTintAndShade()
 
 Gets a double value that lightens or darkens a background theme color.
 
- **Remarks:** 
-
-The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
-Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to set foreground and background colors for shading texture.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shading shading = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getShading();
- shading.setTexture(TextureIndex.TEXTURE_12_PT_5_PERCENT);
- shading.setForegroundPatternThemeColor(ThemeColor.DARK_1);
- shading.setBackgroundPatternThemeColor(ThemeColor.DARK_2);
-
- shading.setForegroundTintAndShade(0.5);
- shading.setBackgroundTintAndShade(-0.2);
-
- builder.getFont().getBorder().setColor(Color.GREEN);
- builder.getFont().getBorder().setLineWidth(2.5d);
- builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
-
- builder.writeln("Foreground and background pattern colors for shading texture.");
-
- doc.save(getArtifactsDir() + "Font.ForegroundAndBackground.docx");
- 
-```
-
 **Returns:**
 double - A double value that lightens or darkens a background theme color.
 ### getForegroundPatternColor() {#getForegroundPatternColor}
@@ -409,39 +376,6 @@ public double getForegroundTintAndShade()
 
 
 Gets a double value that lightens or darkens a foreground theme color.
-
- **Remarks:** 
-
-The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
-Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to set foreground and background colors for shading texture.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shading shading = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getShading();
- shading.setTexture(TextureIndex.TEXTURE_12_PT_5_PERCENT);
- shading.setForegroundPatternThemeColor(ThemeColor.DARK_1);
- shading.setBackgroundPatternThemeColor(ThemeColor.DARK_2);
-
- shading.setForegroundTintAndShade(0.5);
- shading.setBackgroundTintAndShade(-0.2);
-
- builder.getFont().getBorder().setColor(Color.GREEN);
- builder.getFont().getBorder().setLineWidth(2.5d);
- builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
-
- builder.writeln("Foreground and background pattern colors for shading texture.");
-
- doc.save(getArtifactsDir() + "Font.ForegroundAndBackground.docx");
- 
-```
 
 **Returns:**
 double - A double value that lightens or darkens a foreground theme color.
@@ -588,39 +522,6 @@ public void setBackgroundTintAndShade(double value)
 
 Sets a double value that lightens or darkens a background theme color.
 
- **Remarks:** 
-
-The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
-Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to set foreground and background colors for shading texture.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shading shading = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getShading();
- shading.setTexture(TextureIndex.TEXTURE_12_PT_5_PERCENT);
- shading.setForegroundPatternThemeColor(ThemeColor.DARK_1);
- shading.setBackgroundPatternThemeColor(ThemeColor.DARK_2);
-
- shading.setForegroundTintAndShade(0.5);
- shading.setBackgroundTintAndShade(-0.2);
-
- builder.getFont().getBorder().setColor(Color.GREEN);
- builder.getFont().getBorder().setLineWidth(2.5d);
- builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
-
- builder.writeln("Foreground and background pattern colors for shading texture.");
-
- doc.save(getArtifactsDir() + "Font.ForegroundAndBackground.docx");
- 
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -712,39 +613,6 @@ public void setForegroundTintAndShade(double value)
 
 
 Sets a double value that lightens or darkens a foreground theme color.
-
- **Remarks:** 
-
-The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
-
-Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
-
- **Examples:** 
-
-Shows how to set foreground and background colors for shading texture.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shading shading = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getShading();
- shading.setTexture(TextureIndex.TEXTURE_12_PT_5_PERCENT);
- shading.setForegroundPatternThemeColor(ThemeColor.DARK_1);
- shading.setBackgroundPatternThemeColor(ThemeColor.DARK_2);
-
- shading.setForegroundTintAndShade(0.5);
- shading.setBackgroundTintAndShade(-0.2);
-
- builder.getFont().getBorder().setColor(Color.GREEN);
- builder.getFont().getBorder().setLineWidth(2.5d);
- builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
-
- builder.writeln("Foreground and background pattern colors for shading texture.");
-
- doc.save(getArtifactsDir() + "Font.ForegroundAndBackground.docx");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: WordML2003SaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.WORD_ML format in Java.
 type: docs
-weight: 646
+weight: 647
 url: /java/com.aspose.words/wordml2003saveoptions/
 ---
 

@@ -4,7 +4,7 @@ linktitle: WebExtensionBindingType
 second_title: Aspose.Words for Java
 description: Enumerates available types of binding between a web extension and the data in the document in Java.
 type: docs
-weight: 640
+weight: 641
 url: /java/com.aspose.words/webextensionbindingtype/
 ---
 
@@ -63,7 +63,7 @@ Shows how to add a web extension to a document.
 
 | Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) |  |
+| [DEFAULT](#DEFAULT) | Matrix used by default. |
 | [MATRIX](#MATRIX) | Tabular data without a header row. |
 | [TABLE](#TABLE) | Tabular data with a header row. |
 | [TEXT](#TEXT) | Plain text. |
@@ -81,6 +81,8 @@ Shows how to add a web extension to a document.
 public static int DEFAULT
 ```
 
+
+Matrix used by default.
 
 ### MATRIX {#MATRIX}
 ```
