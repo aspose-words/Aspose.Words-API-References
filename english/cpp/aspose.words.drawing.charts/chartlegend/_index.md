@@ -20,6 +20,7 @@ class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 
 | Method | Description |
 | --- | --- |
+| [get_Font](./get_font/)() |  |
 | [get_LegendEntries](./get_legendentries/)() const | Returns a collection of legend entries for all series and trendlines of the parent chart. |
 | [get_Overlay](./get_overlay/)() const | Determines whether other chart elements shall be allowed to overlap legend. Default value is **false**. |
 | [get_Position](./get_position/)() const | Specifies the position of the legend on a chart. Default value is [Right](../legendposition/). |

@@ -50,6 +50,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [get_Tag](./get_tag/)() const override | Specifies a tag associated with the current structured document tag node. Can not be **null**. |
 | [get_Title](./get_title/)() const override | Specifies the friendly name associated with this structured document tag. Can not be **null**. |
 | [get_WordOpenXML](./get_wordopenxml/)() override | Gets a string that represents the XML contained within the node in the [FlatOpc](../../aspose.words/saveformat/) format. |
+| [get_WordOpenXMLMinimal](./get_wordopenxmlminimal/)() |  |
 | [get_XmlMapping](./get_xmlmapping/)() override | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
