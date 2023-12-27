@@ -15,6 +15,7 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [Aspose.Words](./aspose.words/) | The **Aspose.Words** namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word. |
+| [Aspose.Words.Bibliography](./aspose.words.bibliography/) |  |
 | [Aspose.Words.BuildingBlocks](./aspose.words.buildingblocks/) | The **Aspose.Words.BuildingBlocks** namespace provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document. |
 | [Aspose.Words.Comparing](./aspose.words.comparing/) | The **Aspose.Words.Comparing** namespace provides classes and enumerations that allow to specify additional options when comparing documents. |
 | [Aspose.Words.DigitalSignatures](./aspose.words.digitalsignatures/) | The **Aspose.Words.DigitalSignatures** namespace provides classes to sign documents and verify signatures. |
@@ -23,6 +24,7 @@ is_root: true
 | [Aspose.Words.Drawing.Ole](./aspose.words.drawing.ole/) | Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents. |
 | [Aspose.Words.Fields](./aspose.words.fields/) | The **Aspose.Words.Fields** namespace contains classes that represent Microsoft Word fields in a document. |
 | [Aspose.Words.Fonts](./aspose.words.fonts/) | The **Aspose.Words.Fonts** namespace provides classes and enumerations to access information about fonts used in a document. |
+| [Aspose.Words.Forms2](./aspose.words.forms2/) |  |
 | [Aspose.Words.Framesets](./aspose.words.framesets/) | The **Aspose.Words.Framesets** namespace provides classes and enumerations that represents a frames page or a single frame on a frames page. |
 | [Aspose.Words.Layout](./aspose.words.layout/) | The **Aspose.Words.Layout** namespace provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages. |
 | [Aspose.Words.Lists](./aspose.words.lists/) | The **Aspose.Words.Lists** namespace contains classes for working with bulleted and numbered lists defined in a document. |

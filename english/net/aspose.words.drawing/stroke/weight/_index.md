@@ -5,7 +5,7 @@ articleTitle: Weight
 second_title: Aspose.Words for .NET
 description: Stroke Weight property. Defines the brush thickness that strokes the path of a shape in points in C#.
 type: docs
-weight: 220
+weight: 260
 url: /net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property

@@ -380,28 +380,6 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
-Shows how save a web page as a .docx file.
-
-```csharp
-const string url = "https://www.aspose.com/";
-
-using (HttpClient client = new HttpClient()) 
-{
-    var bytes = await client.GetByteArrayAsync(url);
-    using (MemoryStream stream = new MemoryStream(bytes))
-    {
-        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
-        // Load the HTML document from stream and pass the LoadOptions object.
-        Document doc = new Document(stream, options);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
 Shows how to load an encrypted Microsoft Word document.
 
 ```csharp
@@ -420,6 +398,29 @@ doc = new Document(MyDir + "Encrypted.docx", options);
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
+```
+
+Shows how save a web page as a .docx file.
+
+```csharp
+const string url = "https://products.aspose.com/words/";
+
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
+    {
+        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+        options.Encoding = Encoding.UTF8;
+
+        // Load the HTML document from stream and pass the LoadOptions object.
+        Document doc = new Document(stream, options);
+
+        // At this stage, we can read and edit the document's contents and then save it to the local file system.
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
 }
 ```
 

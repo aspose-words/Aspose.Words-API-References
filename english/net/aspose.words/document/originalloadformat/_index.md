@@ -5,7 +5,7 @@ articleTitle: OriginalLoadFormat
 second_title: Aspose.Words for .NET
 description: Document OriginalLoadFormat property. Gets the format of the original document that was loaded into this object in C#.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property

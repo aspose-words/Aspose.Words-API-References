@@ -5,7 +5,7 @@ articleTitle: PackageCustomParts
 second_title: Aspose.Words for .NET
 description: Document PackageCustomParts property. Gets or sets the collection of custom parts arbitrary content that are linked to the OOXML package using unknown relationships in C#.
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property

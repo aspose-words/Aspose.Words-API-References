@@ -5,7 +5,7 @@ articleTitle: FontConfigSubstitutionRule
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontConfigSubstitutionRule class. Font config substitution rule in C#.
 type: docs
-weight: 2890
+weight: 2970
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class

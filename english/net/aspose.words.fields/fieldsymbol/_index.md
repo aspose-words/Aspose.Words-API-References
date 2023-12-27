@@ -5,7 +5,7 @@ articleTitle: FieldSymbol
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldSymbol class. Implements a SYMBOL field in C#.
 type: docs
-weight: 2460
+weight: 2540
 url: /net/aspose.words.fields/fieldsymbol/
 ---
 ## FieldSymbol class

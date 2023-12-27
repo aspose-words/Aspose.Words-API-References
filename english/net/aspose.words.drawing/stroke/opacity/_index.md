@@ -5,7 +5,7 @@ articleTitle: Opacity
 second_title: Aspose.Words for .NET
 description: Stroke Opacity property. Defines the amount of transparency of a stroke. Valid range is from 0 to 1 in C#.
 type: docs
-weight: 160
+weight: 200
 url: /net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property

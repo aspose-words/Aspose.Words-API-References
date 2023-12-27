@@ -110,7 +110,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 Shows how save a web page as a .docx file.
 
 ```csharp
-const string url = "https://www.aspose.com/";
+const string url = "https://products.aspose.com/words/";
 
 using (HttpClient client = new HttpClient()) 
 {
@@ -119,6 +119,7 @@ using (HttpClient client = new HttpClient())
     {
         // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+        options.Encoding = Encoding.UTF8;
 
         // Load the HTML document from stream and pass the LoadOptions object.
         Document doc = new Document(stream, options);

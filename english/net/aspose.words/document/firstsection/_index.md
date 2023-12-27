@@ -5,7 +5,7 @@ articleTitle: FirstSection
 second_title: Aspose.Words for .NET
 description: Document FirstSection property. Gets the first section in the document in C#.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property

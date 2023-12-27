@@ -5,7 +5,7 @@ articleTitle: Stroke
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Stroke class. Defines a stroke for a shape in C#.
 type: docs
-weight: 1310
+weight: 1390
 url: /net/aspose.words.drawing/stroke/
 ---
 ## Stroke class
@@ -23,6 +23,8 @@ public class Stroke
 | Name | Description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Gets or sets the background color of the stroke. |
+| [BackThemeColor](../../aspose.words.drawing/stroke/backthemecolor/) { get; set; } | Gets or sets a ThemeColor object that represents the stroke background color. |
+| [BackTintAndShade](../../aspose.words.drawing/stroke/backtintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens the stroke background color. |
 | [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } | Gets the base foreground color of the stroke without any modifiers. |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Defines the color of a stroke. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Defines a second color for a stroke. |
@@ -33,6 +35,8 @@ public class Stroke
 | [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Defines the cap style for the end of a stroke. |
 | [Fill](../../aspose.words.drawing/stroke/fill/) { get; } | Gets fill formatting for the `Stroke`. |
 | [ForeColor](../../aspose.words.drawing/stroke/forecolor/) { get; set; } | Gets or sets the foreground color of the stroke. |
+| [ForeThemeColor](../../aspose.words.drawing/stroke/forethemecolor/) { get; set; } | Gets or sets a ThemeColor object that represents the stroke foreground color. |
+| [ForeTintAndShade](../../aspose.words.drawing/stroke/foretintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens the stroke foreground color. |
 | [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Defines the image for a stroke image or pattern fill. |
 | [JoinStyle](../../aspose.words.drawing/stroke/joinstyle/) { get; set; } | Defines the join style of a polyline. |
 | [LineStyle](../../aspose.words.drawing/stroke/linestyle/) { get; set; } | Defines the line style of the stroke. |

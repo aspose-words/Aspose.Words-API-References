@@ -5,7 +5,7 @@ articleTitle: Chart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.Chart class. Provides access to the chart shape properties in C#.
 type: docs
-weight: 620
+weight: 700
 url: /net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class

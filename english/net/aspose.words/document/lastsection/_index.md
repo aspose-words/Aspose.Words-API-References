@@ -5,7 +5,7 @@ articleTitle: LastSection
 second_title: Aspose.Words for .NET
 description: Document LastSection property. Gets the last section in the document in C#.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
