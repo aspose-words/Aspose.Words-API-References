@@ -3,12 +3,12 @@ title: Aspose.Words.Bibliography
 linktitle: Aspose.Words.Bibliography
 articleTitle: Aspose.Words.Bibliography
 second_title: Aspose.Words for .NET
-description:  in C#.
+description: The Aspose.Words.Bibliography namespace provides classes that allow to access a list of bibliography sources available in a document in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.bibliography/
 ---
-
+The **Aspose.Words.Bibliography** namespace provides classes that allow to access a list of bibliography sources available in a document.
 
 ## Classes
 
