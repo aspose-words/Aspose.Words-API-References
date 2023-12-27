@@ -104,9 +104,9 @@ builder.Writeln("<<[ds.Value1]:dollarText>>\r<<[ds.Value2]:dollarText>>");
 
 NumericTestClass testData = new NumericTestBuilder().WithValues(1234, 5621718.589).Build();
 
-ReportingEngine report = new ReportingEngine();
-report.KnownTypes.Add(typeof(NumericTestClass));
-report.BuildReport(doc, testData, "ds");
+ReportingEngine engine = new ReportingEngine();
+engine.KnownTypes.Add(typeof(NumericTestClass));
+engine.BuildReport(doc, testData, "ds");            
 
 doc.Save(ArtifactsDir + "ReportingEngine.DollarTextFormat.docx");
 ```

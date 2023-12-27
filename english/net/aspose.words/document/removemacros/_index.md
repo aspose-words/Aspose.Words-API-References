@@ -5,7 +5,7 @@ articleTitle: RemoveMacros
 second_title: Aspose.Words for .NET
 description: Document RemoveMacros method. Removes all macros the VBA project as well as toolbars and command customizations from the document in C#.
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method

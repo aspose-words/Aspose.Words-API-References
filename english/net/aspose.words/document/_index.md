@@ -5,7 +5,7 @@ articleTitle: Document
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Document class. Represents a Word document in C#.
 type: docs
-weight: 430
+weight: 510
 url: /net/aspose.words/document/
 ---
 ## Document class
@@ -35,6 +35,7 @@ public class Document : DocumentBase
 | [AttachedTemplate](../../aspose.words/document/attachedtemplate/) { get; set; } | Gets or sets the full path of the template attached to the document. |
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Gets or sets the background shape of the document. Can be `null`. |
+| [Bibliography](../../aspose.words/document/bibliography/) { get; } | Gets the [`Bibliography`](./bibliography/) object that represents the list of sources available in the document. |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | Returns a collection that represents all the built-in document properties of the document. |
 | [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
 | [Compliance](../../aspose.words/document/compliance/) { get; } | Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents. |

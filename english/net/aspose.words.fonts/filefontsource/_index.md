@@ -5,7 +5,7 @@ articleTitle: FileFontSource
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FileFontSource class. Represents the single TrueType font file stored in the file system in C#.
 type: docs
-weight: 2870
+weight: 2950
 url: /net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class

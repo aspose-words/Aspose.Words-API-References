@@ -5,7 +5,7 @@ articleTitle: UpdateListLabels
 second_title: Aspose.Words for .NET
 description: Document UpdateListLabels method. Updates list labels for all list items in the document in C#.
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method

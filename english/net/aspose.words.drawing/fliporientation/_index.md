@@ -5,7 +5,7 @@ articleTitle: FlipOrientation
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.FlipOrientation enum. Possible values for the orientation of a shape in C#.
 type: docs
-weight: 970
+weight: 1050
 url: /net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration

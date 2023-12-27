@@ -37,7 +37,6 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_DocumentSplitCriteria](./get_documentsplitcriteria/)() const | Specifies how the document should be split when saving to [Html](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/) or [Azw3](../../aspose.words/saveformat/) format. Default is [None](../documentsplitcriteria/) for HTML and [HeadingParagraph](../documentsplitcriteria/) for EPUB and AZW3. |
 | [get_DocumentSplitHeadingLevel](./get_documentsplitheadinglevel/)() const | Specifies the maximum level of headings at which to split the document. Default value is **%2**. |
 | [get_Encoding](./get_encoding/)() const | Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is **new UTF8Encoding(false)** (UTF-8 without BOM). |
-| [get_EpubNavigationMapLevel](./get_epubnavigationmaplevel/)() | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is **%3**. |
 | [get_ExportCidUrlsForMhtmlResources](./get_exportcidurlsformhtmlresources/)() const | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is **false**. |
 | [get_ExportDocumentProperties](./get_exportdocumentproperties/)() const | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is **false**. |
 | [get_ExportDropDownFormFieldAsText](./get_exportdropdownformfieldastext/)() const | Controls how drop-down form fields are saved to HTML or MHTML. Default value is **false**. |
@@ -105,7 +104,6 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_DocumentSplitCriteria](./set_documentsplitcriteria/)(Aspose::Words::Saving::DocumentSplitCriteria) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitCriteria](./get_documentsplitcriteria/). |
 | [set_DocumentSplitHeadingLevel](./set_documentsplitheadinglevel/)(int32_t) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel](./get_documentsplitheadinglevel/). |
 | [set_Encoding](./set_encoding/)(const System::SharedPtr\<System::Text::Encoding\>\&) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_Encoding](./get_encoding/). |
-| [set_EpubNavigationMapLevel](./set_epubnavigationmaplevel/)(int32_t) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel](./get_epubnavigationmaplevel/). |
 | [set_ExportCidUrlsForMhtmlResources](./set_exportcidurlsformhtmlresources/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportCidUrlsForMhtmlResources](./get_exportcidurlsformhtmlresources/). |
 | [set_ExportDocumentProperties](./set_exportdocumentproperties/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportDocumentProperties](./get_exportdocumentproperties/). |
 | [set_ExportDropDownFormFieldAsText](./set_exportdropdownformfieldastext/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText](./get_exportdropdownformfieldastext/). |

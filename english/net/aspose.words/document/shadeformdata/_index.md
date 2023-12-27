@@ -5,7 +5,7 @@ articleTitle: ShadeFormData
 second_title: Aspose.Words for .NET
 description: Document ShadeFormData property. Specifies whether to turn on the gray shading on form fields in C#.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property

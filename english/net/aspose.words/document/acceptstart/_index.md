@@ -5,7 +5,7 @@ articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
 description: Document AcceptStart method. Accepts a visitor for visiting the start of the document in C#.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.words/document/acceptstart/
 ---
 ## Document.AcceptStart method

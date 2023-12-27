@@ -16,6 +16,23 @@ Returns true if this instance is a ranged (multi-section) structured document ta
 public bool IsMultiSection { get; }
 ```
 
+## Examples
+
+Shows how to get structured document tag.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Get the structured document tag by Id.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsMultiSection);
+Console.WriteLine(sdt.Title);
+
+// Get the structured document tag or ranged tag by Title.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### See Also
 
 * interface [IStructuredDocumentTag](../)
