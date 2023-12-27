@@ -5,7 +5,7 @@ articleTitle: SdtListItem
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.SdtListItem class. This element specifies a single list item within a parent ComboBox or DropDownList structured document tag in C#.
 type: docs
-weight: 4030
+weight: 4130
 url: /net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class

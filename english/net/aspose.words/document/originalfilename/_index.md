@@ -5,7 +5,7 @@ articleTitle: OriginalFileName
 second_title: Aspose.Words for .NET
 description: Document OriginalFileName property. Gets the original file name of the document in C#.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property

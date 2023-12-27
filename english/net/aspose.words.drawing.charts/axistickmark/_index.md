@@ -5,7 +5,7 @@ articleTitle: AxisTickMark
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.AxisTickMark enum. Specifies the possible positions for tick marks in C#.
 type: docs
-weight: 590
+weight: 670
 url: /net/aspose.words.drawing.charts/axistickmark/
 ---
 ## AxisTickMark enumeration

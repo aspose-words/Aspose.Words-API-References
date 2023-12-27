@@ -5,7 +5,7 @@ articleTitle: Forms2OleControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.Forms2OleControl class. Represents Microsoft Forms 2.0 OLE control in C#.
 type: docs
-weight: 1110
+weight: 1190
 url: /net/aspose.words.drawing.ole/forms2olecontrol/
 ---
 ## Forms2OleControl class
@@ -46,7 +46,7 @@ Assert.AreEqual("CheckBox1", oleControl.Name);
 if (oleControl.IsForms2OleControl)
 {
     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);

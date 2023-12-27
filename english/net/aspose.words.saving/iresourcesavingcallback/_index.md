@@ -5,7 +5,7 @@ articleTitle: IResourceSavingCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.IResourceSavingCallback interface. Implement this interface if you want to control how Aspose.Words saves external resources images fonts and css when saving a document to fixed page HTML or SVG in C#.
 type: docs
-weight: 5200
+weight: 5300
 url: /net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface

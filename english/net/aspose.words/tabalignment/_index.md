@@ -5,7 +5,7 @@ articleTitle: TabAlignment
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TabAlignment enum. Specifies the alignment/type of a tab stop in C#.
 type: docs
-weight: 6220
+weight: 6320
 url: /net/aspose.words/tabalignment/
 ---
 ## TabAlignment enumeration

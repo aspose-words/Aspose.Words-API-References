@@ -5,7 +5,7 @@ articleTitle: CompatibilityOptions
 second_title: Aspose.Words for .NET
 description: Document CompatibilityOptions property. Provides access to document compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Word in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property

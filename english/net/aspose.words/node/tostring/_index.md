@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
 // GetText will retrieve the visible text as well as field codes and special characters.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
 // ToString will give us the document's appearance if saved to a passed save format.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
 Exports the content of a node to String in HTML format.

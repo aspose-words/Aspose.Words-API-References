@@ -5,7 +5,7 @@ articleTitle: FontInfoCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontInfoCollection class. Represents a collection of fonts used in a document in C#.
 type: docs
-weight: 2930
+weight: 3010
 url: /net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class

@@ -5,7 +5,7 @@ articleTitle: SpellingChecked
 second_title: Aspose.Words for .NET
 description: Document SpellingChecked property. Returns true if the document has been checked for spelling in C#.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property

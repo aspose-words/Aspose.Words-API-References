@@ -5,7 +5,7 @@ articleTitle: IFieldUpdatingProgressCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.IFieldUpdatingProgressCallback interface. Implement this interface if you want to track field updating progress in C#.
 type: docs
-weight: 2730
+weight: 2810
 url: /net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 ## IFieldUpdatingProgressCallback interface

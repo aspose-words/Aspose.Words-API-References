@@ -5,7 +5,7 @@ articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.RelativeHorizontalPosition enum. Specifies to what the horizontal position of a shape or text frame is relative in C#.
 type: docs
-weight: 1190
+weight: 1270
 url: /net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration
