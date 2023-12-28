@@ -25,7 +25,6 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AppendChild](./appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the stdContent range. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [get_ChildNodes](./get_childnodes/)() | Gets all nodes between this range start node and the range end node. |
 | [get_Color](./get_color/)() override | Gets or sets the color of the structured document tag. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
@@ -54,7 +53,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [get_XmlMapping](./get_xmlmapping/)() override | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
-| [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified types. |
+| [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) override | Returns a live collection of child nodes that match the specified types. |
 | [GetEnumerator](./getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
 | [GetType](./gettype/)() const override |  |
@@ -65,7 +64,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](./removeallchildren/)() | Removes all the nodes between this range start node and the range end node. |
-| [RemoveSelfOnly](./removeselfonly/)() | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
+| [RemoveSelfOnly](./removeselfonly/)() override | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
 | [set_Color](./set_color/)(System::Drawing::Color) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Color](./get_color/). |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
 | [set_IsShowingPlaceholderText](./set_isshowingplaceholdertext/)(bool) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText](./get_isshowingplaceholdertext/). |
