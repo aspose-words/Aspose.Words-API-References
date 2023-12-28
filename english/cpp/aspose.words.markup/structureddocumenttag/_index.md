@@ -77,7 +77,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
 | [GetChild](../../aspose.words/compositenode/getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returns an Nth child node that matches the specified type. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
+| [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) override | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../../aspose.words/compositenode/gettext/)() override | Gets the text of this node and of all its children. |
 | [GetType](./gettype/)() const override |  |
@@ -93,7 +93,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(T) |  |
-| [RemoveSelfOnly](./removeselfonly/)() | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
+| [RemoveSelfOnly](./removeselfonly/)() override | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [SmartTag](../smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 Returns a live collection of child nodes that match the specified types.
 
 ```cpp
-System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetChildNodes(Aspose::Words::NodeType nodeType, bool isDeep)
+System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetChildNodes(Aspose::Words::NodeType nodeType, bool isDeep) override
 ```
 
 

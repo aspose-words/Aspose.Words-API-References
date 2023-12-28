@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree.
 
 ```cpp
-void Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveSelfOnly()
+void Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveSelfOnly() override
 ```
 
 
