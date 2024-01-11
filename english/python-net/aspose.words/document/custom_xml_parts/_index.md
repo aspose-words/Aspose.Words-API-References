@@ -5,7 +5,7 @@ articleTitle: custom_xml_parts property
 second_title: Aspose.Words for Python
 description: "Document.custom_xml_parts property. Gets or sets the collection of Custom XML Data Storage Parts."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words/document/custom_xml_parts/
 ---
 

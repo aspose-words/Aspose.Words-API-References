@@ -5,7 +5,7 @@ articleTitle: custom_document_properties property
 second_title: Aspose.Words for Python
 description: "Document.custom_document_properties property. Returns a collection that represents all the custom document properties of the document."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words/document/custom_document_properties/
 ---
 

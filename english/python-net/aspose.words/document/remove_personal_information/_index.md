@@ -5,7 +5,7 @@ articleTitle: remove_personal_information property
 second_title: Aspose.Words for Python
 description: "Document.remove_personal_information property. Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document."
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.words/document/remove_personal_information/
 ---
 

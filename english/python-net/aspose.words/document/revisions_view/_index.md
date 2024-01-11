@@ -5,7 +5,7 @@ articleTitle: revisions_view property
 second_title: Aspose.Words for Python
 description: "Document.revisions_view property. Gets or sets a value indicating whether to work with the original or revised version of a document."
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.words/document/revisions_view/
 ---
 

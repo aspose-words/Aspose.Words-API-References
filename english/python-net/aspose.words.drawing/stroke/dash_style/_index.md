@@ -5,7 +5,7 @@ articleTitle: dash_style property
 second_title: Aspose.Words for Python
 description: "Stroke.dash_style property. Specifies the dot and dash pattern for a stroke."
 type: docs
-weight: 50
+weight: 70
 url: /python-net/aspose.words.drawing/stroke/dash_style/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: aspose.words.buildingblocks module
 second_title: Aspose.Words for Python
 description: "The aspose.words.buildingblocks module provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.buildingblocks/
 ---
 

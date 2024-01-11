@@ -5,7 +5,7 @@ articleTitle: update_list_labels method
 second_title: Aspose.Words for Python
 description: "Document.update_list_labels method. Updates list labels for all list items in the document."
 type: docs
-weight: 750
+weight: 760
 url: /python-net/aspose.words/document/update_list_labels/
 ---
 

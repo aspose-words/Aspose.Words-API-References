@@ -30,6 +30,8 @@ You do not create instances of the [Stroke](./) class directly.
 | Name | Description |
 | --- | --- |
 | [back_color](./back_color/) | Gets or sets the background color of the stroke. |
+| [back_theme_color](./back_theme_color/) | Gets or sets a ThemeColor object that represents the stroke background color. |
+| [back_tint_and_shade](./back_tint_and_shade/) | Gets or sets a double value that lightens or darkens the stroke background color. |
 | [base_fore_color](./base_fore_color/) | Gets the base foreground color of the stroke without any modifiers. |
 | [color](./color/) | Defines the color of a stroke. |
 | [color2](./color2/) | Defines a second color for a stroke. |
@@ -40,6 +42,8 @@ You do not create instances of the [Stroke](./) class directly.
 | [end_cap](./end_cap/) | Defines the cap style for the end of a stroke. |
 | [fill](./fill/) | Gets fill formatting for the [Stroke](./). |
 | [fore_color](./fore_color/) | Gets or sets the foreground color of the stroke. |
+| [fore_theme_color](./fore_theme_color/) | Gets or sets a ThemeColor object that represents the stroke foreground color. |
+| [fore_tint_and_shade](./fore_tint_and_shade/) | Gets or sets a double value that lightens or darkens the stroke foreground color. |
 | [image_bytes](./image_bytes/) | Defines the image for a stroke image or pattern fill. |
 | [join_style](./join_style/) | Defines the join style of a polyline. |
 | [line_style](./line_style/) | Defines the line style of the stroke. |

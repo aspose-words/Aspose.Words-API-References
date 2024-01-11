@@ -5,7 +5,7 @@ articleTitle: end_arrow_type property
 second_title: Aspose.Words for Python
 description: "Stroke.end_arrow_type property. Defines the arrowhead for the end of a stroke."
 type: docs
-weight: 70
+weight: 90
 url: /python-net/aspose.words.drawing/stroke/end_arrow_type/
 ---
 

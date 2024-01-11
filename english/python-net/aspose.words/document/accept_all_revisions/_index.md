@@ -5,7 +5,7 @@ articleTitle: accept_all_revisions method
 second_title: Aspose.Words for Python
 description: "Document.accept_all_revisions method. Accepts all tracked changes in the document."
 type: docs
-weight: 520
+weight: 530
 url: /python-net/aspose.words/document/accept_all_revisions/
 ---
 

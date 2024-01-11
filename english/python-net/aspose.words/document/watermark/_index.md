@@ -5,7 +5,7 @@ articleTitle: watermark property
 second_title: Aspose.Words for Python
 description: "Document.watermark property. Provides access to the document watermark."
 type: docs
-weight: 480
+weight: 490
 url: /python-net/aspose.words/document/watermark/
 ---
 

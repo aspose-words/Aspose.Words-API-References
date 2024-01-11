@@ -37,6 +37,8 @@ To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/p
 |[ build_report(document, data_source)](./build_report/#document_object) | Populates the specified template document with data from the specified source making it a ready report. |
 |[ build_report(document, data_source, data_source_name)](./build_report/#document_object_str) | Populates the specified template document with data from the specified source making it a ready report. |
 |[ build_report(document, data_sources, data_source_names)](./build_report/#document_objectlist_strlist) | Populates the specified template document with data from the specified sources making it a ready report. |
+|[ get_restricted_types()](./get_restricted_types/#default) | Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
+|[ set_restricted_types(types)](./set_restricted_types/#objectlist) | Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 
 ### See Also
 
