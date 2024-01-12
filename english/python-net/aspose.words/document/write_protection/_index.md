@@ -5,7 +5,7 @@ articleTitle: write_protection property
 second_title: Aspose.Words for Python
 description: "Document.write_protection property. Provides access to the document write protection options."
 type: docs
-weight: 500
+weight: 510
 url: /python-net/aspose.words/document/write_protection/
 ---
 

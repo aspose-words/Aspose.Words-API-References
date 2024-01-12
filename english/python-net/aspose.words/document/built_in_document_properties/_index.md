@@ -5,7 +5,7 @@ articleTitle: built_in_document_properties property
 second_title: Aspose.Words for Python
 description: "Document.built_in_document_properties property. Returns a collection that represents all the built-in document properties of the document."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/document/built_in_document_properties/
 ---
 

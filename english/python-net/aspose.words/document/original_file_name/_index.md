@@ -5,7 +5,7 @@ articleTitle: original_file_name property
 second_title: Aspose.Words for Python
 description: "Document.original_file_name property. Gets the original file name of the document."
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.words/document/original_file_name/
 ---
 

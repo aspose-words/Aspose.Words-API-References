@@ -5,7 +5,7 @@ articleTitle: package_custom_parts property
 second_title: Aspose.Words for Python
 description: "Document.package_custom_parts property. Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using unknown relationships."
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.words/document/package_custom_parts/
 ---
 

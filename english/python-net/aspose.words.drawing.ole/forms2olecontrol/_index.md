@@ -36,6 +36,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 
 | Name | Description |
 | --- | --- |
+|[ as_text_box_control()](./as_text_box_control/#default) | Casts Forms2OleControl to [TextBoxControl](../../aspose.words.forms2/textboxcontrol/), otherwise returns null. |
 
 ### Examples
 

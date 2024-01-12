@@ -19,10 +19,10 @@ To learn more, visit the [Working with Comments](https://docs.aspose.com/words/p
 
 ### Remarks
 
-A comment is an annotation which is anchored to a region of text or to a position in text. 
+A comment is an annotation which is anchored to a region of text or to a position in text.
 A comment can contain an arbitrary amount of block-level content.
 
-If a [Comment](./) object occurs on its own, the comment is anchored to 
+If a [Comment](./) object occurs on its own, the comment is anchored to
 the position of the [Comment](./) object.
 
 To anchor a comment to a region of text three objects are required: [Comment](./),

@@ -5,7 +5,7 @@ articleTitle: aspose.words.drawing module
 second_title: Aspose.Words for Python
 description: "The aspose.words.drawing module provides classes that allow to create and modify drawing objects."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing/
 ---
 

@@ -34,7 +34,7 @@ object sharing the same identifier value as the [Comment](../) object.
 You would use this value when looking for the [CommentRangeStart](../../commentrangestart/) and
 [CommentRangeEnd](../../commentrangeend/) nodes that are linked to this comment.
 
-Comment identifiers are supposed to be unique across a document and Aspose.Words automatically 
+Comment identifiers are supposed to be unique across a document and Aspose.Words automatically
 maintains comment identifiers when loading, saving and combining documents.
 
 
