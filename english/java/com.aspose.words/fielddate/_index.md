@@ -4,7 +4,7 @@ linktitle: FieldDate
 second_title: Aspose.Words for Java
 description: Implements the DATE field in Java.
 type: docs
-weight: 191
+weight: 195
 url: /java/com.aspose.words/fielddate/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FieldAutoText
 second_title: Aspose.Words for Java
 description: Implements the AUTOTEXT field in Java.
 type: docs
-weight: 175
+weight: 179
 url: /java/com.aspose.words/fieldautotext/
 ---
 

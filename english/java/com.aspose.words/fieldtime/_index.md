@@ -4,7 +4,7 @@ linktitle: FieldTime
 second_title: Aspose.Words for Java
 description: Implements the TIME field in Java.
 type: docs
-weight: 266
+weight: 270
 url: /java/com.aspose.words/fieldtime/
 ---
 

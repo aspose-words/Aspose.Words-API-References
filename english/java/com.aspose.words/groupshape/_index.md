@@ -4,7 +4,7 @@ linktitle: GroupShape
 second_title: Aspose.Words for Java
 description: Represents a group of shapes in a document in Java.
 type: docs
-weight: 329
+weight: 333
 url: /java/com.aspose.words/groupshape/
 ---
 

@@ -4,7 +4,7 @@ linktitle: SystemFontSource
 second_title: Aspose.Words for Java
 description: Represents all TrueType fonts installed to the system in Java.
 type: docs
-weight: 570
+weight: 579
 url: /java/com.aspose.words/systemfontsource/
 ---
 

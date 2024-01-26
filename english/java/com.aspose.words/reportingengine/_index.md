@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 505
+weight: 512
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -35,9 +35,11 @@ To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] docume
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getKnownTypes()](#getKnownTypes) | Gets an unordered set (i.e. |
 | [getOptions()](#getOptions) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. |
+| [getRestrictedTypes()](#getRestrictedTypes) | Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 | [getUseReflectionOptimization()](#getUseReflectionOptimization) | Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
 | [hashCode()](#hashCode) |  |
 | [setOptions(int value)](#setOptions-int) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. |
+| [setRestrictedTypes(Class[] types)](#setRestrictedTypes-java.lang.Class...) | Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 | [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean) | Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
 ### ReportingEngine() {#ReportingEngine}
 ```
@@ -219,7 +221,7 @@ Shows how to set options for Reporting Engine
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - Fields.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - Fields (Java).docx");
 
  // Note that enabling of the option makes the engine to update fields while building a report,
  // so there is no need to update fields separately after that.
@@ -233,6 +235,22 @@ Shows how to set options for Reporting Engine
 
 **Returns:**
 int - A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. The returned value is a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions/) constants.
+### getRestrictedTypes() {#getRestrictedTypes}
+```
+public static Class[] getRestrictedTypes()
+```
+
+
+Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax.
+
+ **Remarks:** 
+
+The returned array contains items previously set using [setRestrictedTypes(java.lang.Class[])](../../com.aspose.words/reportingengine/\#setRestrictedTypes-java.lang.Class).
+
+Changing items of the returned array has no effect on restricted types. To change restricted types, use [setRestrictedTypes(java.lang.Class[])](../../com.aspose.words/reportingengine/\#setRestrictedTypes-java.lang.Class) instead.
+
+**Returns:**
+java.lang.Class[] - Types, which members as well as which derived types' members should be inaccessible by the engine through template syntax.
 ### getUseReflectionOptimization() {#getUseReflectionOptimization}
 ```
 public static boolean getUseReflectionOptimization()
@@ -271,7 +289,7 @@ Shows how to set options for Reporting Engine
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - Fields.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - Fields (Java).docx");
 
  // Note that enabling of the option makes the engine to update fields while building a report,
  // so there is no need to update fields separately after that.
@@ -287,6 +305,59 @@ Shows how to set options for Reporting Engine
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. The value must be a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions/) constants. |
+
+### setRestrictedTypes(Class[] types) {#setRestrictedTypes-java.lang.Class...}
+```
+public static void setRestrictedTypes(Class[] types)
+```
+
+
+Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax.
+
+ **Remarks:** 
+
+Restricted types should be set before the very first building of a report. After  BuildReportbuildReport  is invoked, restricted types cannot be modified and an exception is thrown on attempt to do this. The best place to set restricted types is application startup.
+
+Note that a big amount of restricted types may affect performance, so it is better to restrict only those types, access to which members is really sensitive.
+
+Throws java.lang.IllegalArgumentException in the following cases:
+
+\-  types  is null.
+
+\- One of  types  items is  null .
+
+\- One of  types  items represents an invisible type, i.e. a non-public type or a public nested type which has a non-public outer type.
+
+\- One of  types  items represents an array type.
+
+\-  types  contain duplicate entries.
+
+ **Examples:** 
+
+Shows how to deny access to members of types considered insecure.
+
+```
+
+ Document doc =
+         DocumentHelper.createSimpleDocument(
+                 "<><<[typeVar]>>");
+
+ // Note, that you can't set restricted types during or after building a report.
+ ReportingEngine.setRestrictedTypes(Class.class);
+ // We set "AllowMissingMembers" option to avoid exceptions during building a report.
+ ReportingEngine engine = new ReportingEngine();
+ engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+ engine.buildReport(doc, new Object());
+
+ // We get an empty string because we can't access the GetType() method.
+ Assert.assertEquals(doc.getText().trim(), "");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| types | java.lang.Class[] | Types to be restricted. |
 
 ### setUseReflectionOptimization(boolean value) {#setUseReflectionOptimization-boolean}
 ```

@@ -4,7 +4,7 @@ linktitle: ChartDataPointCollection
 second_title: Aspose.Words for Java
 description: Represents collection of a ChartDataPoint in Java.
 type: docs
-weight: 65
+weight: 66
 url: /java/com.aspose.words/chartdatapointcollection/
 ---
 

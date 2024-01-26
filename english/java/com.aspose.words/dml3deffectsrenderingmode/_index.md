@@ -4,7 +4,7 @@ linktitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for Java
 description: Specifies how 3D shape effects are rendered in Java.
 type: docs
-weight: 130
+weight: 134
 url: /java/com.aspose.words/dml3deffectsrenderingmode/
 ---
 

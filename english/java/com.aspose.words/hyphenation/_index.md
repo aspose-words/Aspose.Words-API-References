@@ -4,7 +4,7 @@ linktitle: Hyphenation
 second_title: Aspose.Words for Java
 description: Provides methods for working with hyphenation dictionaries in Java.
 type: docs
-weight: 348
+weight: 352
 url: /java/com.aspose.words/hyphenation/
 ---
 

@@ -4,7 +4,7 @@ linktitle: HtmlElementSizeOutputMode
 second_title: Aspose.Words for Java
 description: Specifies how Aspose.Words exports element widths and heights to HTML MHTML and EPUB in Java.
 type: docs
-weight: 339
+weight: 343
 url: /java/com.aspose.words/htmlelementsizeoutputmode/
 ---
 

@@ -4,7 +4,7 @@ linktitle: ChartMultilevelValue
 second_title: Aspose.Words for Java
 description: Represents a value for charts that display multilevel data in Java.
 type: docs
-weight: 71
+weight: 72
 url: /java/com.aspose.words/chartmultilevelvalue/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FieldAsk
 second_title: Aspose.Words for Java
 description: Implements the ASK field in Java.
 type: docs
-weight: 170
+weight: 174
 url: /java/com.aspose.words/fieldask/
 ---
 

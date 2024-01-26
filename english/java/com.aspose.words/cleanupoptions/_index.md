@@ -4,7 +4,7 @@ linktitle: CleanupOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for document cleaning in Java.
 type: docs
-weight: 86
+weight: 87
 url: /java/com.aspose.words/cleanupoptions/
 ---
 

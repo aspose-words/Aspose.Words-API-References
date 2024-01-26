@@ -51,6 +51,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [BaseWebExtensionCollection](../com.aspose.words/basewebextensioncollection/) | Base class for [TaskPaneCollection](../com.aspose.words/taskpanecollection/), [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection/), [WebExtensionPropertyCollection](../com.aspose.words/webextensionpropertycollection/) and [WebExtensionReferenceCollection](../com.aspose.words/webextensionreferencecollection/) collections. |
 | [BaselineAlignment](../com.aspose.words/baselinealignment/) | Specifies fonts vertical position on a line. |
 | [BasicTextShaperCache](../com.aspose.words/basictextshapercache/) | Implements basic cache for [ITextShaper](../com.aspose.words/itextshaper/) instances. |
+| [Bibliography](../com.aspose.words/bibliography/) | Represents the list of bibliography sources available in the document. |
 | [BlockImportMode](../com.aspose.words/blockimportmode/) | Specifies how properties of block-level elements are imported from HTML-based documents. |
 | [Body](../com.aspose.words/body/) | Represents a container for the main text of a section. |
 | [Bookmark](../com.aspose.words/bookmark/) | Represents a single bookmark. |
@@ -129,8 +130,11 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ConditionalStyleType](../com.aspose.words/conditionalstyletype/) | Represents possible table areas to which conditional formatting may be defined in a table style. |
 | [ContentDisposition](../com.aspose.words/contentdisposition/) | Enumerates different ways of presenting the document at the client browser. |
 | [ContinuousSectionRestart](../com.aspose.words/continuoussectionrestart/) | Represents different behaviors when computing page numbers in a continuous section that restarts page numbering. |
+| [Contributor](../com.aspose.words/contributor/) | Represents a bibliography source contributor. |
+| [ContributorCollection](../com.aspose.words/contributorcollection/) | Represents bibliography source contributors. |
 | [ControlChar](../com.aspose.words/controlchar/) | Control characters often encountered in documents. |
 | [ConvertUtil](../com.aspose.words/convertutil/) | Provides helper functions to convert between various measurement units. |
+| [Corporate](../com.aspose.words/corporate/) | Represents a corporate (an organization) bibliography source contributor. |
 | [CssSavingArgs](../com.aspose.words/csssavingargs/) | Provides data for the [ICssSavingCallback.\#cssSaving(com.aspose.words.CssSavingArgs)](../com.aspose.words/icsssavingcallback/\#cssSaving-com.aspose.words.CssSavingArgs) event. |
 | [CssStyleSheetType](../com.aspose.words/cssstylesheettype/) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
 | [CsvDataLoadOptions](../com.aspose.words/csvdataloadoptions/) | Represents options for parsing CSV data. |
@@ -441,6 +445,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MetafileRenderingMode](../com.aspose.words/metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [MetafileRenderingOptions](../com.aspose.words/metafilerenderingoptions/) | Allows to specify additional metafile rendering options. |
 | [Metered](../com.aspose.words/metered/) | Provides methods to set metered key. |
+| [MorphDataControl](../com.aspose.words/morphdatacontrol/) | The MorphDataControl structure is an aggregate of six controls: CheckBox, ComboBox, ListBox, OptionButton, TextBox, and ToggleButton. |
 | [MsWordVersion](../com.aspose.words/mswordversion/) | Allows Aspose.Wods to mimic MS Word version-specific application behavior. |
 | [MultiplePagesType](../com.aspose.words/multiplepagestype/) | Specifies how document is printed out. |
 | [MustacheTag](../com.aspose.words/mustachetag/) | Represents "mustache" tag. |
@@ -509,6 +514,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [PdfSaveOptions](../com.aspose.words/pdfsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PDF](../com.aspose.words/saveformat/\#PDF) format. |
 | [PdfTextCompression](../com.aspose.words/pdftextcompression/) | Specifies a type of compression applied to all content in the PDF file except images. |
 | [PdfZoomBehavior](../com.aspose.words/pdfzoombehavior/) | Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer. |
+| [Person](../com.aspose.words/person/) | Represents individual (a person) bibliography source contributor. |
+| [PersonCollection](../com.aspose.words/personcollection/) | Represents a list of persons who are bibliography source contributors. |
 | [PhoneticGuide](../com.aspose.words/phoneticguide/) | Represents Phonetic Guide. |
 | [PhysicalFontInfo](../com.aspose.words/physicalfontinfo/) | Specifies information about physical font available to Aspose.Words font engine. |
 | [PlainTextDocument](../com.aspose.words/plaintextdocument/) | Allows to extract plain-text representation of the document's content. |
@@ -575,6 +582,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [SignatureLine](../com.aspose.words/signatureline/) | Provides access to signature line properties. |
 | [SignatureLineOptions](../com.aspose.words/signaturelineoptions/) | Allows to specify options for signature line being inserted. |
 | [SmartTag](../com.aspose.words/smarttag/) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
+| [Source](../com.aspose.words/source/) | Represents an individual source, such as a book, journal article, or interview. |
+| [SourceType](../com.aspose.words/sourcetype/) | Represents bibliography source types. |
 | [SpecialChar](../com.aspose.words/specialchar/) | Base class for special characters in the document. |
 | [Story](../com.aspose.words/story/) | Base class for elements that contain block-level nodes [Paragraph](../com.aspose.words/paragraph/) and [Table](../com.aspose.words/table/). |
 | [StoryType](../com.aspose.words/storytype/) | Text of a Word document is stored in stories. |
@@ -608,6 +617,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [TaskPaneDockState](../com.aspose.words/taskpanedockstate/) | Enumerates available locations of task pane object. |
 | [TextBox](../com.aspose.words/textbox/) | Defines attributes that specify how a text is displayed inside a shape. |
 | [TextBoxAnchor](../com.aspose.words/textboxanchor/) | Specifies values used for shape text vertical alignment. |
+| [TextBoxControl](../com.aspose.words/textboxcontrol/) | The TextBox control displays text from an organized set of data or user input. |
 | [TextBoxWrapMode](../com.aspose.words/textboxwrapmode/) | Specifies how text wraps inside a shape. |
 | [TextColumn](../com.aspose.words/textcolumn/) | Represents a single text column. |
 | [TextColumnCollection](../com.aspose.words/textcolumncollection/) | A collection of [TextColumn](../com.aspose.words/textcolumn/) objects that represent all the columns of text in a section of a document. |
