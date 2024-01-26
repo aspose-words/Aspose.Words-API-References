@@ -4,7 +4,7 @@ linktitle: CompareOptions
 second_title: Aspose.Words for Java
 description: Allows to choose advanced options for document comparison operation in Java.
 type: docs
-weight: 95
+weight: 96
 url: /java/com.aspose.words/compareoptions/
 ---
 

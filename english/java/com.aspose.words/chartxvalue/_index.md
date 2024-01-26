@@ -4,7 +4,7 @@ linktitle: ChartXValue
 second_title: Aspose.Words for Java
 description: Represents an X value for a chart series in Java.
 type: docs
-weight: 79
+weight: 80
 url: /java/com.aspose.words/chartxvalue/
 ---
 

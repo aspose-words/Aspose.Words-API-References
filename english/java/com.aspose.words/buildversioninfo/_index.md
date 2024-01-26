@@ -4,7 +4,7 @@ linktitle: BuildVersionInfo
 second_title: Aspose.Words for Java
 description: Provides information about the current product name and version in Java.
 type: docs
-weight: 42
+weight: 43
 url: /java/com.aspose.words/buildversioninfo/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FieldAutoNum
 second_title: Aspose.Words for Java
 description: Implements the AUTONUM field in Java.
 type: docs
-weight: 172
+weight: 176
 url: /java/com.aspose.words/fieldautonum/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: show_grammatical_errors property
 second_title: Aspose.Words for Python
 description: "Document.show_grammatical_errors property. Specifies whether to display grammar errors in this document."
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.words/document/show_grammatical_errors/
 ---
 

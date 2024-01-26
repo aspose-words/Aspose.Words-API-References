@@ -4,7 +4,7 @@ linktitle: ChartFormat
 second_title: Aspose.Words for Java
 description: Represents the formatting of a chart element in Java.
 type: docs
-weight: 66
+weight: 67
 url: /java/com.aspose.words/chartformat/
 ---
 
@@ -59,6 +59,10 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getStartArrowType()](#getStartArrowType) |  |
 | [getStartArrowWidth()](#getStartArrowWidth) |  |
 | [getStroke()](#getStroke) | Gets line formatting for the parent chart element. |
+| [getStrokeBackThemeColor()](#getStrokeBackThemeColor) |  |
+| [getStrokeBackTintAndShade()](#getStrokeBackTintAndShade) |  |
+| [getStrokeForeThemeColor()](#getStrokeForeThemeColor) |  |
+| [getStrokeForeTintAndShade()](#getStrokeForeTintAndShade) |  |
 | [getStrokeImageBytes()](#getStrokeImageBytes) |  |
 | [getStrokeTransparency()](#getStrokeTransparency) |  |
 | [getStrokeVisible()](#getStrokeVisible) |  |
@@ -95,6 +99,10 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [setStartArrowLength(int value)](#setStartArrowLength-int) |  |
 | [setStartArrowType(int value)](#setStartArrowType-int) |  |
 | [setStartArrowWidth(int value)](#setStartArrowWidth-int) |  |
+| [setStrokeBackThemeColor(int value)](#setStrokeBackThemeColor-int) |  |
+| [setStrokeBackTintAndShade(double value)](#setStrokeBackTintAndShade-double) |  |
+| [setStrokeForeThemeColor(int value)](#setStrokeForeThemeColor-int) |  |
+| [setStrokeForeTintAndShade(double value)](#setStrokeForeTintAndShade-double) |  |
 | [setStrokeTransparency(double value)](#setStrokeTransparency-double) |  |
 | [setStrokeVisible(boolean value)](#setStrokeVisible-boolean) |  |
 | [setTextureAlignment(int value)](#setTextureAlignment-int) |  |
@@ -569,6 +577,46 @@ Show how to set marker formatting.
 
 **Returns:**
 [Stroke](../../com.aspose.words/stroke/) - Line formatting for the parent chart element.
+### getStrokeBackThemeColor() {#getStrokeBackThemeColor}
+```
+public int getStrokeBackThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getStrokeBackTintAndShade() {#getStrokeBackTintAndShade}
+```
+public double getStrokeBackTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
+### getStrokeForeThemeColor() {#getStrokeForeThemeColor}
+```
+public int getStrokeForeThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getStrokeForeTintAndShade() {#getStrokeForeTintAndShade}
+```
+public double getStrokeForeTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
 ### getStrokeImageBytes() {#getStrokeImageBytes}
 ```
 public byte[] getStrokeImageBytes()
@@ -1099,6 +1147,58 @@ public void setStartArrowWidth(int value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setStrokeBackThemeColor(int value) {#setStrokeBackThemeColor-int}
+```
+public void setStrokeBackThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStrokeBackTintAndShade(double value) {#setStrokeBackTintAndShade-double}
+```
+public void setStrokeBackTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### setStrokeForeThemeColor(int value) {#setStrokeForeThemeColor-int}
+```
+public void setStrokeForeThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStrokeForeTintAndShade(double value) {#setStrokeForeTintAndShade-double}
+```
+public void setStrokeForeTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setStrokeTransparency(double value) {#setStrokeTransparency-double}
 ```

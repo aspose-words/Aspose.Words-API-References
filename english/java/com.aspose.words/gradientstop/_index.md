@@ -4,7 +4,7 @@ linktitle: GradientStop
 second_title: Aspose.Words for Java
 description: Represents one gradient stop in Java.
 type: docs
-weight: 323
+weight: 327
 url: /java/com.aspose.words/gradientstop/
 ---
 

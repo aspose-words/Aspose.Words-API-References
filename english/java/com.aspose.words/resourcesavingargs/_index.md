@@ -4,7 +4,7 @@ linktitle: ResourceSavingArgs
 second_title: Aspose.Words for Java
 description: Provides data for the IResourceSavingCallback.resourceSavingcom.aspose.words.ResourceSavingArgs event in Java.
 type: docs
-weight: 508
+weight: 515
 url: /java/com.aspose.words/resourcesavingargs/
 ---
 

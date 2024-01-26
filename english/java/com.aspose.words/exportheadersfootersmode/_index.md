@@ -4,7 +4,7 @@ linktitle: ExportHeadersFootersMode
 second_title: Aspose.Words for Java
 description: Specifies how headers and footers are exported to HTML MHTML or EPUB in Java.
 type: docs
-weight: 163
+weight: 167
 url: /java/com.aspose.words/exportheadersfootersmode/
 ---
 

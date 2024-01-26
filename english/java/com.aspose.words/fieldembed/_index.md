@@ -4,7 +4,7 @@ linktitle: FieldEmbed
 second_title: Aspose.Words for Java
 description: Implements the EMBED field in Java.
 type: docs
-weight: 199
+weight: 203
 url: /java/com.aspose.words/fieldembed/
 ---
 

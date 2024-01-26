@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 407
+weight: 411
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -40,6 +40,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [getExportHeadersFootersMode()](#getExportHeadersFootersMode) | Specifies the way headers and footers are exported to the text formats. |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64) | Specifies whether images are saved in Base64 format to the output file. |
+| [getExportUnderlineFormatting()](#getExportUnderlineFormatting) | Gets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". |
 | [getForcePageBreaks()](#getForcePageBreaks) | Allows to specify whether the page breaks should be preserved during export. |
 | [getImageSavingCallback()](#getImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getImagesFolder()](#getImagesFolder) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
@@ -68,6 +69,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [setExportHeadersFootersMode(int value)](#setExportHeadersFootersMode-int) | Specifies the way headers and footers are exported to the text formats. |
 | [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean) | Specifies whether images are saved in Base64 format to the output file. |
+| [setExportUnderlineFormatting(boolean value)](#setExportUnderlineFormatting-boolean) | Sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". |
 | [setForcePageBreaks(boolean value)](#setForcePageBreaks-boolean) | Allows to specify whether the page breaks should be preserved during export. |
 | [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setImagesFolder(String value)](#setImagesFolder-java.lang.String) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
@@ -495,6 +497,34 @@ Shows how to save a .md document with images embedded inside it.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getExportUnderlineFormatting() {#getExportUnderlineFormatting}
+```
+public boolean getExportUnderlineFormatting()
+```
+
+
+Gets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is  false .
+
+ **Examples:** 
+
+Shows how to export underline formatting as ++.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.setUnderline(Underline.SINGLE);
+ builder.write("Lorem ipsum. Dolor sit amet.");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setExportUnderlineFormatting(true);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportUnderlineFormatting.md", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - A boolean value indicating either to export underline text formatting as sequence of two plus characters "++".
 ### getForcePageBreaks() {#getForcePageBreaks}
 ```
 public boolean getForcePageBreaks()
@@ -1776,6 +1806,37 @@ Shows how to save a .md document with images embedded inside it.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setExportUnderlineFormatting(boolean value) {#setExportUnderlineFormatting-boolean}
+```
+public void setExportUnderlineFormatting(boolean value)
+```
+
+
+Sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is  false .
+
+ **Examples:** 
+
+Shows how to export underline formatting as ++.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.setUnderline(Underline.SINGLE);
+ builder.write("Lorem ipsum. Dolor sit amet.");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setExportUnderlineFormatting(true);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportUnderlineFormatting.md", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value indicating either to export underline text formatting as sequence of two plus characters "++". |
 
 ### setForcePageBreaks(boolean value) {#setForcePageBreaks-boolean}
 ```

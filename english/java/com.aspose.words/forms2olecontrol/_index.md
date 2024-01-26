@@ -4,7 +4,7 @@ linktitle: Forms2OleControl
 second_title: Aspose.Words for Java
 description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
-weight: 313
+weight: 317
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
@@ -33,7 +33,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -98,7 +98,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -136,7 +136,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -180,7 +180,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -259,7 +259,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -293,7 +293,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -327,7 +327,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -361,7 +361,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
@@ -431,7 +431,7 @@ Shows how to verify the properties of an ActiveX control.
 
  if (oleControl.isForms2OleControl()) {
      Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getCaption(), "First");
      Assert.assertEquals(checkBox.getValue(), "0");
      Assert.assertEquals(checkBox.getEnabled(), true);
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);

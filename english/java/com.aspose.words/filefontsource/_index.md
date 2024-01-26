@@ -4,7 +4,7 @@ linktitle: FileFontSource
 second_title: Aspose.Words for Java
 description: Represents the single TrueType font file stored in the file system in Java.
 type: docs
-weight: 279
+weight: 283
 url: /java/com.aspose.words/filefontsource/
 ---
 

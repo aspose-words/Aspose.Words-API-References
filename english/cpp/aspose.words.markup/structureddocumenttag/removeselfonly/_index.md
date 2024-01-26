@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttag/removeselfonly/
 Removes just this SDT node itself, but keeps the content of it inside the document tree.
 
 ```cpp
-void Aspose::Words::Markup::StructuredDocumentTag::RemoveSelfOnly()
+void Aspose::Words::Markup::StructuredDocumentTag::RemoveSelfOnly() override
 ```
 
 

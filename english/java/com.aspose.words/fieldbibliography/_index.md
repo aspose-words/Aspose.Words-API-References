@@ -4,7 +4,7 @@ linktitle: FieldBibliography
 second_title: Aspose.Words for Java
 description: Implements the BIBLIOGRAPHY field in Java.
 type: docs
-weight: 178
+weight: 182
 url: /java/com.aspose.words/fieldbibliography/
 ---
 

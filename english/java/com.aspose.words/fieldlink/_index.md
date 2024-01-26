@@ -4,7 +4,7 @@ linktitle: FieldLink
 second_title: Aspose.Words for Java
 description: Implements the LINK field in Java.
 type: docs
-weight: 225
+weight: 229
 url: /java/com.aspose.words/fieldlink/
 ---
 

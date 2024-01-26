@@ -4,7 +4,7 @@ linktitle: DocumentPropertyCollection
 second_title: Aspose.Words for Java
 description: Base class for BuiltInDocumentProperties and CustomDocumentProperties collections in Java.
 type: docs
-weight: 141
+weight: 145
 url: /java/com.aspose.words/documentpropertycollection/
 ---
 

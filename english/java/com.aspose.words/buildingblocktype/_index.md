@@ -4,7 +4,7 @@ linktitle: BuildingBlockType
 second_title: Aspose.Words for Java
 description: Specifies a building block type in Java.
 type: docs
-weight: 47
+weight: 48
 url: /java/com.aspose.words/buildingblocktype/
 ---
 

@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for Java
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 543
+weight: 550
 url: /java/com.aspose.words/shape/
 ---
 
@@ -244,7 +244,11 @@ Shows how to delete all shapes from a document.
 | [getStartArrowWidth()](#getStartArrowWidth) |  |
 | [getStoryType()](#getStoryType) | Returns [StoryType.TEXTBOX](../../com.aspose.words/storytype/\#TEXTBOX). |
 | [getStroke()](#getStroke) | Defines a stroke for a shape. |
+| [getStrokeBackThemeColor()](#getStrokeBackThemeColor) |  |
+| [getStrokeBackTintAndShade()](#getStrokeBackTintAndShade) |  |
 | [getStrokeColor()](#getStrokeColor) | Defines the color of a stroke. |
+| [getStrokeForeThemeColor()](#getStrokeForeThemeColor) |  |
+| [getStrokeForeTintAndShade()](#getStrokeForeTintAndShade) |  |
 | [getStrokeImageBytes()](#getStrokeImageBytes) |  |
 | [getStrokeTransparency()](#getStrokeTransparency) |  |
 | [getStrokeVisible()](#getStrokeVisible) |  |
@@ -362,7 +366,11 @@ Shows how to delete all shapes from a document.
 | [setStartArrowLength(int value)](#setStartArrowLength-int) |  |
 | [setStartArrowType(int value)](#setStartArrowType-int) |  |
 | [setStartArrowWidth(int value)](#setStartArrowWidth-int) |  |
+| [setStrokeBackThemeColor(int value)](#setStrokeBackThemeColor-int) |  |
+| [setStrokeBackTintAndShade(double value)](#setStrokeBackTintAndShade-double) |  |
 | [setStrokeColor(Color value)](#setStrokeColor-java.awt.Color) | Defines the color of a stroke. |
+| [setStrokeForeThemeColor(int value)](#setStrokeForeThemeColor-int) |  |
+| [setStrokeForeTintAndShade(double value)](#setStrokeForeTintAndShade-double) |  |
 | [setStrokeTransparency(double value)](#setStrokeTransparency-double) |  |
 | [setStrokeVisible(boolean value)](#setStrokeVisible-boolean) |  |
 | [setStrokeWeight(double value)](#setStrokeWeight-double) | Defines the brush thickness that strokes the path of a shape in points. |
@@ -5247,6 +5255,26 @@ Shows to create a variety of shapes.
 
 **Returns:**
 [Stroke](../../com.aspose.words/stroke/) - The corresponding [Stroke](../../com.aspose.words/stroke/) value.
+### getStrokeBackThemeColor() {#getStrokeBackThemeColor}
+```
+public int getStrokeBackThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getStrokeBackTintAndShade() {#getStrokeBackTintAndShade}
+```
+public double getStrokeBackTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
 ### getStrokeColor() {#getStrokeColor}
 ```
 public Color getStrokeColor()
@@ -5408,6 +5436,26 @@ Shows how to iterate over all the shapes in a document.
 
 **Returns:**
 java.awt.Color - The corresponding java.awt.Color value.
+### getStrokeForeThemeColor() {#getStrokeForeThemeColor}
+```
+public int getStrokeForeThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getStrokeForeTintAndShade() {#getStrokeForeTintAndShade}
+```
+public double getStrokeForeTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
 ### getStrokeImageBytes() {#getStrokeImageBytes}
 ```
 public byte[] getStrokeImageBytes()
@@ -10724,6 +10772,32 @@ public void setStartArrowWidth(int value)
 | --- | --- | --- |
 | value | int |  |
 
+### setStrokeBackThemeColor(int value) {#setStrokeBackThemeColor-int}
+```
+public void setStrokeBackThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStrokeBackTintAndShade(double value) {#setStrokeBackTintAndShade-double}
+```
+public void setStrokeBackTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setStrokeColor(Color value) {#setStrokeColor-java.awt.Color}
 ```
 public void setStrokeColor(Color value)
@@ -10887,6 +10961,32 @@ Shows how to iterate over all the shapes in a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | The corresponding java.awt.Color value. |
+
+### setStrokeForeThemeColor(int value) {#setStrokeForeThemeColor-int}
+```
+public void setStrokeForeThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStrokeForeTintAndShade(double value) {#setStrokeForeTintAndShade-double}
+```
+public void setStrokeForeTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setStrokeTransparency(double value) {#setStrokeTransparency-double}
 ```

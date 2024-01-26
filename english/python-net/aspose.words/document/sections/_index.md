@@ -5,7 +5,7 @@ articleTitle: sections property
 second_title: Aspose.Words for Python
 description: "Document.sections property. Returns a collection that represents all sections in the document."
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.words/document/sections/
 ---
 

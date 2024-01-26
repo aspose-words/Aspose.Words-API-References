@@ -4,7 +4,7 @@ linktitle: Cell
 second_title: Aspose.Words for Java
 description: Represents a table cell in Java.
 type: docs
-weight: 50
+weight: 51
 url: /java/com.aspose.words/cell/
 ---
 

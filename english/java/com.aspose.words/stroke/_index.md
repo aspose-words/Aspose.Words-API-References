@@ -4,7 +4,7 @@ linktitle: Stroke
 second_title: Aspose.Words for Java
 description: Defines a stroke for a shape in Java.
 type: docs
-weight: 558
+weight: 567
 url: /java/com.aspose.words/stroke/
 ---
 
@@ -61,6 +61,8 @@ Shows how change stroke properties.
 | Method | Description |
 | --- | --- |
 | [getBackColor()](#getBackColor) | Gets the background color of the stroke. |
+| [getBackThemeColor()](#getBackThemeColor) | Gets a ThemeColor object that represents the stroke background color. |
+| [getBackTintAndShade()](#getBackTintAndShade) | Gets a double value that lightens or darkens the stroke background color. |
 | [getBaseForeColor()](#getBaseForeColor) | Gets the base foreground color of the stroke without any modifiers. |
 | [getColor()](#getColor) | Defines the color of a stroke. |
 | [getColor2()](#getColor2) | Defines a second color for a stroke. |
@@ -83,6 +85,8 @@ Shows how change stroke properties.
 | [getFillableVisible()](#getFillableVisible) |  |
 | [getFilledColor()](#getFilledColor) |  |
 | [getForeColor()](#getForeColor) | Gets the foreground color of the stroke. |
+| [getForeThemeColor()](#getForeThemeColor) | Gets a ThemeColor object that represents the stroke foreground color. |
+| [getForeTintAndShade()](#getForeTintAndShade) | Gets a double value that lightens or darkens the stroke foreground color. |
 | [getGradientAngle()](#getGradientAngle) |  |
 | [getGradientStops()](#getGradientStops) |  |
 | [getGradientStyle()](#getGradientStyle) |  |
@@ -108,6 +112,8 @@ Shows how change stroke properties.
 | [patterned(int patternType)](#patterned-int) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int) |  |
 | [setBackColor(Color value)](#setBackColor-java.awt.Color) | Sets the background color of the stroke. |
+| [setBackThemeColor(int value)](#setBackThemeColor-int) | Sets a ThemeColor object that represents the stroke background color. |
+| [setBackTintAndShade(double value)](#setBackTintAndShade-double) | Sets a double value that lightens or darkens the stroke background color. |
 | [setColor(Color value)](#setColor-java.awt.Color) | Defines the color of a stroke. |
 | [setColor2(Color value)](#setColor2-java.awt.Color) | Defines a second color for a stroke. |
 | [setDashStyle(int value)](#setDashStyle-int) | Specifies the dot and dash pattern for a stroke. |
@@ -125,6 +131,8 @@ Shows how change stroke properties.
 | [setFillableVisible(boolean value)](#setFillableVisible-boolean) |  |
 | [setFilledColor(Color value)](#setFilledColor-java.awt.Color) |  |
 | [setForeColor(Color value)](#setForeColor-java.awt.Color) | Sets the foreground color of the stroke. |
+| [setForeThemeColor(int value)](#setForeThemeColor-int) | Sets a ThemeColor object that represents the stroke foreground color. |
+| [setForeTintAndShade(double value)](#setForeTintAndShade-double) | Sets a double value that lightens or darkens the stroke foreground color. |
 | [setGradientAngle(double value)](#setGradientAngle-double) |  |
 | [setImage(byte[] imageBytes)](#setImage-byte) |  |
 | [setJoinStyle(int value)](#setJoinStyle-int) | Defines the join style of a polyline. |
@@ -194,6 +202,64 @@ Show how to set marker formatting.
 
 **Returns:**
 java.awt.Color - The background color of the stroke.
+### getBackThemeColor() {#getBackThemeColor}
+```
+public int getBackThemeColor()
+```
+
+
+Gets a ThemeColor object that represents the stroke background color.
+
+ **Examples:** 
+
+Shows how to set back theme color and tint and shade.
+
+```
+
+ Document doc = new Document(getMyDir() + "Stroke gradient outline.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Stroke stroke = shape.getStroke();
+ stroke.setBackThemeColor(ThemeColor.DARK_2);
+ stroke.setBackTintAndShade(0.2d);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeBackThemeColors.docx");
+ 
+```
+
+**Returns:**
+int - A ThemeColor object that represents the stroke background color. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor/) constants.
+### getBackTintAndShade() {#getBackTintAndShade}
+```
+public double getBackTintAndShade()
+```
+
+
+Gets a double value that lightens or darkens the stroke background color.
+
+ **Remarks:** 
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+ **Examples:** 
+
+Shows how to set back theme color and tint and shade.
+
+```
+
+ Document doc = new Document(getMyDir() + "Stroke gradient outline.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Stroke stroke = shape.getStroke();
+ stroke.setBackThemeColor(ThemeColor.DARK_2);
+ stroke.setBackTintAndShade(0.2d);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeBackThemeColors.docx");
+ 
+```
+
+**Returns:**
+double - A double value that lightens or darkens the stroke background color.
 ### getBaseForeColor() {#getBaseForeColor}
 ```
 public Color getBaseForeColor()
@@ -1009,6 +1075,66 @@ Show how to set marker formatting.
 
 **Returns:**
 java.awt.Color - The foreground color of the stroke.
+### getForeThemeColor() {#getForeThemeColor}
+```
+public int getForeThemeColor()
+```
+
+
+Gets a ThemeColor object that represents the stroke foreground color.
+
+ **Examples:** 
+
+Shows how to set fore theme color and tint and shade.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 40.0);
+ Stroke stroke = shape.getStroke();
+ stroke.setForeThemeColor(ThemeColor.DARK_1);
+ stroke.setForeTintAndShade(0.5);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeForeThemeColors.docx");
+ 
+```
+
+**Returns:**
+int - A ThemeColor object that represents the stroke foreground color. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor/) constants.
+### getForeTintAndShade() {#getForeTintAndShade}
+```
+public double getForeTintAndShade()
+```
+
+
+Gets a double value that lightens or darkens the stroke foreground color.
+
+ **Remarks:** 
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+ **Examples:** 
+
+Shows how to set fore theme color and tint and shade.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 40.0);
+ Stroke stroke = shape.getStroke();
+ stroke.setForeThemeColor(ThemeColor.DARK_1);
+ stroke.setForeTintAndShade(0.5);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeForeThemeColors.docx");
+ 
+```
+
+**Returns:**
+double - A double value that lightens or darkens the stroke foreground color.
 ### getGradientAngle() {#getGradientAngle}
 ```
 public double getGradientAngle()
@@ -1872,6 +1998,70 @@ Show how to set marker formatting.
 | --- | --- | --- |
 | value | java.awt.Color | The background color of the stroke. |
 
+### setBackThemeColor(int value) {#setBackThemeColor-int}
+```
+public void setBackThemeColor(int value)
+```
+
+
+Sets a ThemeColor object that represents the stroke background color.
+
+ **Examples:** 
+
+Shows how to set back theme color and tint and shade.
+
+```
+
+ Document doc = new Document(getMyDir() + "Stroke gradient outline.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Stroke stroke = shape.getStroke();
+ stroke.setBackThemeColor(ThemeColor.DARK_2);
+ stroke.setBackTintAndShade(0.2d);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeBackThemeColors.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | A ThemeColor object that represents the stroke background color. The value must be one of [ThemeColor](../../com.aspose.words/themecolor/) constants. |
+
+### setBackTintAndShade(double value) {#setBackTintAndShade-double}
+```
+public void setBackTintAndShade(double value)
+```
+
+
+Sets a double value that lightens or darkens the stroke background color.
+
+ **Remarks:** 
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+ **Examples:** 
+
+Shows how to set back theme color and tint and shade.
+
+```
+
+ Document doc = new Document(getMyDir() + "Stroke gradient outline.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Stroke stroke = shape.getStroke();
+ stroke.setBackThemeColor(ThemeColor.DARK_2);
+ stroke.setBackTintAndShade(0.2d);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeBackThemeColors.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | A double value that lightens or darkens the stroke background color. |
+
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
@@ -2625,6 +2815,72 @@ Show how to set marker formatting.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | The foreground color of the stroke. |
+
+### setForeThemeColor(int value) {#setForeThemeColor-int}
+```
+public void setForeThemeColor(int value)
+```
+
+
+Sets a ThemeColor object that represents the stroke foreground color.
+
+ **Examples:** 
+
+Shows how to set fore theme color and tint and shade.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 40.0);
+ Stroke stroke = shape.getStroke();
+ stroke.setForeThemeColor(ThemeColor.DARK_1);
+ stroke.setForeTintAndShade(0.5);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeForeThemeColors.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | A ThemeColor object that represents the stroke foreground color. The value must be one of [ThemeColor](../../com.aspose.words/themecolor/) constants. |
+
+### setForeTintAndShade(double value) {#setForeTintAndShade-double}
+```
+public void setForeTintAndShade(double value)
+```
+
+
+Sets a double value that lightens or darkens the stroke foreground color.
+
+ **Remarks:** 
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+ **Examples:** 
+
+Shows how to set fore theme color and tint and shade.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 40.0);
+ Stroke stroke = shape.getStroke();
+ stroke.setForeThemeColor(ThemeColor.DARK_1);
+ stroke.setForeTintAndShade(0.5);
+
+ doc.save(getArtifactsDir() + "Shape.StrokeForeThemeColors.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | A double value that lightens or darkens the stroke foreground color. |
 
 ### setGradientAngle(double value) {#setGradientAngle-double}
 ```

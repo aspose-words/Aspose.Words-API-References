@@ -4,7 +4,7 @@ linktitle: Compatibility
 second_title: Aspose.Words for Java
 description: Specifies names of compatibility options in Java.
 type: docs
-weight: 99
+weight: 100
 url: /java/com.aspose.words/compatibility/
 ---
 

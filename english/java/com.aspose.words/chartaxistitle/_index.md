@@ -4,7 +4,7 @@ linktitle: ChartAxisTitle
 second_title: Aspose.Words for Java
 description: Provides access to the axis title properties in Java.
 type: docs
-weight: 60
+weight: 61
 url: /java/com.aspose.words/chartaxistitle/
 ---
 

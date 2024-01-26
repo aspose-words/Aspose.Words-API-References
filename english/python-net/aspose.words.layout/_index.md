@@ -5,7 +5,7 @@ articleTitle: aspose.words.layout module
 second_title: Aspose.Words for Python
 description: "The aspose.words.layout module provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages."
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.words.layout/
 ---
 

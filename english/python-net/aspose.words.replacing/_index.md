@@ -5,7 +5,7 @@ articleTitle: aspose.words.replacing module
 second_title: Aspose.Words for Python
 description: "The aspose.words.replacing module provides classes to manipulate with find/replace operations over the document tree."
 type: docs
-weight: 210
+weight: 230
 url: /python-net/aspose.words.replacing/
 ---
 

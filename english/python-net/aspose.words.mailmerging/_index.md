@@ -5,7 +5,7 @@ articleTitle: aspose.words.mailmerging module
 second_title: Aspose.Words for Python
 description: "The aspose.words.mailmerging module contains classes of the original mail merge reporting engine."
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.words.mailmerging/
 ---
 

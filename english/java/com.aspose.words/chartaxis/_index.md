@@ -4,7 +4,7 @@ linktitle: ChartAxis
 second_title: Aspose.Words for Java
 description: Represents the axis options of the chart in Java.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.words/chartaxis/
 ---
 

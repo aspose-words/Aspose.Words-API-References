@@ -82,6 +82,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [attached_template](./attached_template/) | Gets or sets the full path of the template attached to the document. |
 | [automatically_update_styles](./automatically_update_styles/) | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
 | [background_shape](../documentbase/background_shape/) | Gets or sets the background shape of the document. Can be ``None``.<br>(Inherited from [DocumentBase](../documentbase/)) |
+| [bibliography](./bibliography/) | Gets the [Document.bibliography](./bibliography/) object that represents the list of sources available in the document. |
 | [built_in_document_properties](./built_in_document_properties/) | Returns a collection that represents all the built-in document properties of the document. |
 | [compatibility_options](./compatibility_options/) | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
 | [compliance](./compliance/) | Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents. |

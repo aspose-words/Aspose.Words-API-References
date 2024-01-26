@@ -4,7 +4,7 @@ linktitle: CertificateHolder
 second_title: Aspose.Words for Java
 description: Represents a holder of X509Certificate2 instance in Java.
 type: docs
-weight: 55
+weight: 56
 url: /java/com.aspose.words/certificateholder/
 ---
 

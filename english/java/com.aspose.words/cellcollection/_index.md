@@ -4,7 +4,7 @@ linktitle: CellCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to a collection of Cell nodes in Java.
 type: docs
-weight: 51
+weight: 52
 url: /java/com.aspose.words/cellcollection/
 ---
 

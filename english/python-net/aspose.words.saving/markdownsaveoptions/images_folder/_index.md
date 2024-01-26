@@ -5,7 +5,7 @@ articleTitle: images_folder property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.images_folder property. Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../../aspose.words/saveformat/#MARKDOWN) format"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.saving/markdownsaveoptions/images_folder/
 ---
 

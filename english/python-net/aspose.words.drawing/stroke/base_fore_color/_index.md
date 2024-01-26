@@ -5,7 +5,7 @@ articleTitle: base_fore_color property
 second_title: Aspose.Words for Python
 description: "Stroke.base_fore_color property. Gets the base foreground color of the stroke without any modifiers."
 type: docs
-weight: 20
+weight: 40
 url: /python-net/aspose.words.drawing/stroke/base_fore_color/
 ---
 

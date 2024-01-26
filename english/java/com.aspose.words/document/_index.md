@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 134
+weight: 138
 url: /java/com.aspose.words/document/
 ---
 
@@ -128,6 +128,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [getAttachedTemplate()](#getAttachedTemplate) | Gets the full path of the template attached to the document. |
 | [getAutomaticallyUpdateStyles()](#getAutomaticallyUpdateStyles) | Gets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
 | [getBackgroundShape()](#getBackgroundShape) | Gets the background shape of the document. |
+| [getBibliography()](#getBibliography) | Gets the [getBibliography()](../../com.aspose.words/document/\#getBibliography) object that represents the list of sources available in the document. |
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties) | Returns a collection that represents all the built-in document properties of the document. |
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
@@ -1556,6 +1557,16 @@ Shows how to set a background shape for every page of a document.
 
 **Returns:**
 [Shape](../../com.aspose.words/shape/) - The background shape of the document.
+### getBibliography() {#getBibliography}
+```
+public Bibliography getBibliography()
+```
+
+
+Gets the [getBibliography()](../../com.aspose.words/document/\#getBibliography) object that represents the list of sources available in the document.
+
+**Returns:**
+[Bibliography](../../com.aspose.words/bibliography/) - The [getBibliography()](../../com.aspose.words/document/\#getBibliography) object that represents the list of sources available in the document.
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties}
 ```
 public BuiltInDocumentProperties getBuiltInDocumentProperties()

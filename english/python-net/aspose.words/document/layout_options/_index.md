@@ -5,7 +5,7 @@ articleTitle: layout_options property
 second_title: Aspose.Words for Python
 description: "Document.layout_options property. Gets a [LayoutOptions](../../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document."
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.words/document/layout_options/
 ---
 
