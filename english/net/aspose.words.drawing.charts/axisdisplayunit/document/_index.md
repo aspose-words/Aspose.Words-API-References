@@ -3,14 +3,14 @@ title: AxisDisplayUnit.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: AxisDisplayUnit Document property. Returns the Document the title holder belongs in C#.
+description: AxisDisplayUnit Document property. Returns the document containing the parent chart in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisdisplayunit/document/
 ---
 ## AxisDisplayUnit.Document property
 
-Returns the Document the title holder belongs.
+Returns the document containing the parent chart.
 
 ```csharp
 public DocumentBase Document { get; }

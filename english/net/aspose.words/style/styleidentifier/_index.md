@@ -5,7 +5,7 @@ articleTitle: StyleIdentifier
 second_title: Aspose.Words for .NET
 description: Style StyleIdentifier property. Gets the locale independent style identifier for a builtin style in C#.
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property

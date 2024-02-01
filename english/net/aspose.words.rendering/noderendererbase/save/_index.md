@@ -8,7 +8,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.rendering/noderendererbase/save/
 ---
-## Save(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save_1}
+## Save(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save_2}
 
 Renders the shape into an image and saves into a file.
 
@@ -43,6 +43,43 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 ### See Also
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [NodeRendererBase](../)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Save(*string, [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)*) {#save_3}
+
+Renders the shape into an SVG image and saves into a file.
+
+```csharp
+public void Save(string fileName, SvgSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
+| saveOptions | SvgSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be `null`. |
+
+## Examples
+
+Shows how to pass save options when rendering office math.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
+
+SvgSaveOptions options = new SvgSaveOptions();
+options.TextOutputMode = SvgTextOutputMode.UsePlacedGlyphs;
+
+math.GetMathRenderer().Save(ArtifactsDir + "SvgSaveOptions.Output.svg", options);
+```
+
+### See Also
+
+* class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
 * class [NodeRendererBase](../)
 * namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)
@@ -87,6 +124,28 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 ### See Also
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [NodeRendererBase](../)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Save(*Stream, [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)*) {#save_1}
+
+Renders the shape into an SVG image and saves into a stream.
+
+```csharp
+public void Save(Stream stream, SvgSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream where to save the SVG image of the shape. |
+| saveOptions | SvgSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be `null`. If this is `null`, the image will be saved with the default options. |
+
+### See Also
+
+* class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
 * class [NodeRendererBase](../)
 * namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

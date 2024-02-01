@@ -5,7 +5,7 @@ articleTitle: ChartAxis
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartAxis class. Represents the axis options of the chart in C#.
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class
@@ -28,7 +28,8 @@ public class ChartAxis
 | [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses/) { get; set; } | Specifies how this axis crosses the perpendicular axis. |
 | [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Specifies where on the perpendicular axis the axis crosses. |
 | [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Specifies the scaling value of the display units for the value axis. |
-| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Returns the Document the title holder belongs. |
+| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Returns the document containing the parent chart. |
+| [Format](../../aspose.words.drawing.charts/chartaxis/format/) { get; } | Provides access to line formatting of the axis and fill of the tick labels. |
 | [HasMajorGridlines](../../aspose.words.drawing.charts/chartaxis/hasmajorgridlines/) { get; set; } | Gets or sets a flag indicating whether the axis has major gridlines. |
 | [HasMinorGridlines](../../aspose.words.drawing.charts/chartaxis/hasminorgridlines/) { get; set; } | Gets or sets a flag indicating whether the axis has minor gridlines. |
 | [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Gets or sets a flag indicating whether this axis is hidden or not. |
@@ -43,11 +44,7 @@ public class ChartAxis
 | [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat/) { get; } | Returns a [`ChartNumberFormat`](../chartnumberformat/) object that allows defining number formats for the axis. |
 | [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder/) { get; set; } | Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min. |
 | [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling/) { get; } | Provides access to the scaling options of the axis. |
-| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment/) { get; set; } | Gets or sets text alignment of axis tick labels. |
-| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset/) { get; set; } | Gets or sets the distance of labels from the axis. |
-| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition/) { get; set; } | Returns or sets the position of the tick labels on the axis. |
-| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Gets or sets the interval, at which tick labels are drawn. |
-| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
+| [TickLabels](../../aspose.words.drawing.charts/chartaxis/ticklabels/) { get; } | Provides access to the properties of the axis tick mark labels. |
 | [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Gets or sets the interval, at which tick marks are drawn. |
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Provides access to the axis title properties. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Returns type of the axis. |

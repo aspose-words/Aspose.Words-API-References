@@ -5,7 +5,7 @@ articleTitle: MorphDataControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Forms2.MorphDataControl class. The MorphDataControl structure is an aggregate of six controls CheckBox ComboBox ListBox OptionButton TextBox and ToggleButton in C#.
 type: docs
-weight: 3150
+weight: 3170
 url: /net/aspose.words.forms2/morphdatacontrol/
 ---
 ## MorphDataControl class

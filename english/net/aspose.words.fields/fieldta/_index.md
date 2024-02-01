@@ -5,7 +5,7 @@ articleTitle: FieldTA
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldTA class. Implements the TA field in C#.
 type: docs
-weight: 2550
+weight: 2570
 url: /net/aspose.words.fields/fieldta/
 ---
 ## FieldTA class

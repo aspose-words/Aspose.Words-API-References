@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images in C#.
 type: docs
-weight: 5340
+weight: 5370
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class

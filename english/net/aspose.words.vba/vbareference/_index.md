@@ -5,7 +5,7 @@ articleTitle: VbaReference
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Vba.VbaReference class. Implements a reference to an Automation type library or VBA project in C#.
 type: docs
-weight: 6730
+weight: 6760
 url: /net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class

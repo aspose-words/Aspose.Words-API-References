@@ -160,6 +160,20 @@ A data source object can be of one of the following types:
 
 For information on how to work with data sources of different types in template documents, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
+## Examples
+
+Shows how to work with charts from word 2016.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - Word 2016 Charts.docx");
+
+ReportingEngine engine = new ReportingEngine();
+engine.BuildReport(doc, new object[] { Common.GetShares(), Common.GetShareQuotes() },
+    new string[] { "shares", "quotes" });
+
+doc.Save(ArtifactsDir + "ReportingEngine.Word2016Charts.docx");
+```
+
 ### See Also
 
 * class [Document](../../../aspose.words/document/)

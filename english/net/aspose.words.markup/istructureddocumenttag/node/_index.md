@@ -5,7 +5,7 @@ articleTitle: Node
 second_title: Aspose.Words for .NET
 description: IStructuredDocumentTag Node property. Returns Node object that implements this interface in C#.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.markup/istructureddocumenttag/node/
 ---
 ## IStructuredDocumentTag.Node property

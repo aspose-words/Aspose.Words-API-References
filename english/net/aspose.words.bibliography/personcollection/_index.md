@@ -16,6 +16,13 @@ Represents a list of persons who are bibliography source contributors.
 public sealed class PersonCollection : Contributor, IEnumerable<Person>
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.words.bibliography/personcollection/count/) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.bibliography/personcollection/item/) { get; } | Returns a person at the specified index. |
+
 ## Examples
 
 Shows how to get bibliography sources available in the document.

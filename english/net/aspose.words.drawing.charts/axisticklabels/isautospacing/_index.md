@@ -1,24 +1,26 @@
 ---
-title: ChartAxis.TickLabelPosition
-linktitle: TickLabelPosition
-articleTitle: TickLabelPosition
+title: AxisTickLabels.IsAutoSpacing
+linktitle: IsAutoSpacing
+articleTitle: IsAutoSpacing
 second_title: Aspose.Words for .NET
-description: ChartAxis TickLabelPosition property. Returns or sets the position of the tick labels on the axis in C#.
+description: AxisTickLabels IsAutoSpacing property. Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels in C#.
 type: docs
-weight: 240
-url: /net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
+weight: 30
+url: /net/aspose.words.drawing.charts/axisticklabels/isautospacing/
 ---
-## ChartAxis.TickLabelPosition property
+## AxisTickLabels.IsAutoSpacing property
 
-Returns or sets the position of the tick labels on the axis.
+Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels.
 
 ```csharp
-public AxisTickLabelPosition TickLabelPosition { get; set; }
+public bool IsAutoSpacing { get; set; }
 ```
 
 ## Remarks
 
-The property is not supported by MS Office 2016 new charts.
+The default value is `true`.
+
+The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
 
 ## Examples
 
@@ -72,7 +74,6 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 ### See Also
 
-* enum [AxisTickLabelPosition](../../axisticklabelposition/)
-* class [ChartAxis](../)
+* class [AxisTickLabels](../)
 * namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

@@ -5,7 +5,7 @@ articleTitle: LoadFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LoadFormat enum. Indicates the format of the document that is to be loaded in C#.
 type: docs
-weight: 3660
+weight: 3680
 url: /net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
