@@ -5,7 +5,7 @@ articleTitle: ShapeRenderer
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Rendering.ShapeRenderer class. Provides methods to render an individual Shape or GroupShape to a raster or vector image or to a Graphics object in C#.
 type: docs
-weight: 4700
+weight: 4730
 url: /net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
@@ -45,7 +45,9 @@ public class ShapeRenderer : NodeRendererBase
 | [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Renders the shape into a Graphics object to a specified scale. |
 | [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Renders the shape into a Graphics object to a specified size. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Renders the shape into an image and saves into a stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Renders the shape into an SVG image and saves into a stream. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Renders the shape into an image and saves into a file. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Renders the shape into an SVG image and saves into a file. |
 
 ## Examples
 

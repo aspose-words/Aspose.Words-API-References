@@ -172,6 +172,7 @@ public class Document : DocumentBase
 | [UnlinkFields](../../aspose.words/document/unlinkfields/)() | Unlinks fields in the whole document. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect_1)() | Removes protection from the document regardless of the password. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect)(*string*) | Removes protection from the document if a correct password is specified. |
+| [UpdateActualReferenceMarks](../../aspose.words/document/updateactualreferencemarks/)() | Updates the [`ActualReferenceMark`](../../aspose.words.notes/footnote/actualreferencemark/) property of all footnotes and endnotes in the document. |
 | [UpdateFields](../../aspose.words/document/updatefields/)() | Updates the values of fields in the whole document. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels/)() | Updates list labels for all list items in the document. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout/)() | Rebuilds the page layout of the document. |

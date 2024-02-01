@@ -17,6 +17,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [AxisBound](./axisbound/) | Represents minimum or maximum bound of axis values. |
 | [AxisDisplayUnit](./axisdisplayunit/) | Provides access to the scaling options of the display units for the value axis. |
 | [AxisScaling](./axisscaling/) | Represents the scaling options of the axis. |
+| [AxisTickLabels](./axisticklabels/) | Represents properties of axis tick mark labels. |
 | [BubbleSizeCollection](./bubblesizecollection/) | Represents a collection of bubble sizes for a chart series. |
 | [Chart](./chart/) | Provides access to the chart shape properties. |
 | [ChartAxis](./chartaxis/) | Represents the axis options of the chart. |
@@ -26,6 +27,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [ChartDataLabelCollection](./chartdatalabelcollection/) | Represents a collection of [`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/). |
 | [ChartDataPoint](./chartdatapoint/) | Allows to specify formatting of a single data point on the chart. |
 | [ChartDataPointCollection](./chartdatapointcollection/) | Represents collection of a [`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/). |
+| [ChartDataTable](./chartdatatable/) | Allows to specify properties of a chart data table. |
 | [ChartFormat](./chartformat/) | Represents the formatting of a chart element. |
 | [ChartLegend](./chartlegend/) | Represents chart legend properties. |
 | [ChartLegendEntry](./chartlegendentry/) | Represents a chart legend entry. |

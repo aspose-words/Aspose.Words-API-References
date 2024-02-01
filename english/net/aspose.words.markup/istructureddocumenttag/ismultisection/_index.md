@@ -5,7 +5,7 @@ articleTitle: IsMultiSection
 second_title: Aspose.Words for .NET
 description: IStructuredDocumentTag IsMultiSection property. Returns true if this instance is a ranged multisection structured document tag in C#.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.markup/istructureddocumenttag/ismultisection/
 ---
 ## IStructuredDocumentTag.IsMultiSection property

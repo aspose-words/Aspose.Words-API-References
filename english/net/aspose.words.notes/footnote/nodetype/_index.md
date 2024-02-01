@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: Footnote NodeType property. Returns Footnote in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.notes/footnote/nodetype/
 ---
 ## Footnote.NodeType property

@@ -5,7 +5,7 @@ articleTitle: XmlMapping
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.XmlMapping class. Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document in C#.
 type: docs
-weight: 4210
+weight: 4240
 url: /net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class

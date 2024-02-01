@@ -1,26 +1,28 @@
 ---
-title: ChartAxis.TickLabelSpacingIsAuto
-linktitle: TickLabelSpacingIsAuto
-articleTitle: TickLabelSpacingIsAuto
+title: AxisTickLabels.Offset
+linktitle: Offset
+articleTitle: Offset
 second_title: Aspose.Words for .NET
-description: ChartAxis TickLabelSpacingIsAuto property. Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used in C#.
+description: AxisTickLabels Offset property. Gets or sets the distance of the tick labels from the axis in C#.
 type: docs
-weight: 260
-url: /net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
+weight: 40
+url: /net/aspose.words.drawing.charts/axisticklabels/offset/
 ---
-## ChartAxis.TickLabelSpacingIsAuto property
+## AxisTickLabels.Offset property
 
-Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used.
+Gets or sets the distance of the tick labels from the axis.
 
 ```csharp
-public bool TickLabelSpacingIsAuto { get; set; }
+public int Offset { get; set; }
 ```
 
 ## Remarks
 
-Default value is `true`.
+The property represents a percentage of the default label offset.
 
-The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
+Valid range is from 0 to 1000 percent inclusive. The default value is 100%.
+
+The property has effect only for category axes. It is not supported by MS Office 2016 new charts.
 
 ## Examples
 
@@ -74,6 +76,6 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 ### See Also
 
-* class [ChartAxis](../)
+* class [AxisTickLabels](../)
 * namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

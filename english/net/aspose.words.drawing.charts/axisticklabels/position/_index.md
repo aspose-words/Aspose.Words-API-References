@@ -1,28 +1,24 @@
 ---
-title: ChartAxis.TickLabelOffset
-linktitle: TickLabelOffset
-articleTitle: TickLabelOffset
+title: AxisTickLabels.Position
+linktitle: Position
+articleTitle: Position
 second_title: Aspose.Words for .NET
-description: ChartAxis TickLabelOffset property. Gets or sets the distance of labels from the axis in C#.
+description: AxisTickLabels Position property. Gets or sets the position of the tick labels on the axis in C#.
 type: docs
-weight: 230
-url: /net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
+weight: 50
+url: /net/aspose.words.drawing.charts/axisticklabels/position/
 ---
-## ChartAxis.TickLabelOffset property
+## AxisTickLabels.Position property
 
-Gets or sets the distance of labels from the axis.
+Gets or sets the position of the tick labels on the axis.
 
 ```csharp
-public int TickLabelOffset { get; set; }
+public AxisTickLabelPosition Position { get; set; }
 ```
 
 ## Remarks
 
-The property represents a percentage of the default label offset.
-
-Valid range is from 0 to 1000 percent inclusive. Default value is 100%.
-
-The property has effect only for category axes. It is not supported by MS Office 2016 new charts.
+The property is not supported by MS Office 2016 new charts.
 
 ## Examples
 
@@ -76,6 +72,7 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 ### See Also
 
-* class [ChartAxis](../)
+* enum [AxisTickLabelPosition](../../axisticklabelposition/)
+* class [AxisTickLabels](../)
 * namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

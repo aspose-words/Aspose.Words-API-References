@@ -5,7 +5,7 @@ articleTitle: Style
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Style class. Represents a single builtin or userdefined style in C#.
 type: docs
-weight: 6270
+weight: 6300
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -37,9 +37,12 @@ public class Style
 | [Name](../../aspose.words/style/name/) { get; set; } | Gets or sets the name of the style. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Gets the paragraph formatting of the style. |
+| [Priority](../../aspose.words/style/priority/) { get; set; } | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
+| [SemiHidden](../../aspose.words/style/semihidden/) { get; set; } | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
 | [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | Gets the locale independent style identifier for a built-in style. |
 | [Styles](../../aspose.words/style/styles/) { get; } | Gets the collection of styles this style belongs to. |
 | [Type](../../aspose.words/style/type/) { get; } | Gets the style type (paragraph or character). |
+| [UnhideWhenUsed](../../aspose.words/style/unhidewhenused/) { get; set; } | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
 
 ## Methods
 

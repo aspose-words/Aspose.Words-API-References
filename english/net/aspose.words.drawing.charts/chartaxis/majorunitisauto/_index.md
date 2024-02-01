@@ -5,7 +5,7 @@ articleTitle: MajorUnitIsAuto
 second_title: Aspose.Words for .NET
 description: ChartAxis MajorUnitIsAuto property. Gets or sets a flag indicating whether default distance between major tick marks shall be used in C#.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
 ---
 ## ChartAxis.MajorUnitIsAuto property

@@ -5,7 +5,7 @@ articleTitle: FootnoteType
 second_title: Aspose.Words for .NET
 description: Footnote FootnoteType property. Returns a value that specifies whether this is a footnote or endnote in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.notes/footnote/footnotetype/
 ---
 ## Footnote.FootnoteType property

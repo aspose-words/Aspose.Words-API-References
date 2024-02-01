@@ -5,7 +5,7 @@ articleTitle: HasMajorGridlines
 second_title: Aspose.Words for .NET
 description: ChartAxis HasMajorGridlines property. Gets or sets a flag indicating whether the axis has major gridlines in C#.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
 ---
 ## ChartAxis.HasMajorGridlines property

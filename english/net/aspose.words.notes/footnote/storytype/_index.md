@@ -5,7 +5,7 @@ articleTitle: StoryType
 second_title: Aspose.Words for .NET
 description: Footnote StoryType property. Returns Footnotes or Endnotes in C#.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.notes/footnote/storytype/
 ---
 ## Footnote.StoryType property
