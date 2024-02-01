@@ -50,6 +50,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_AttachedTemplate](./get_attachedtemplate/)() | Gets or sets the full path of the template attached to the document. |
 | [get_AutomaticallyUpdateStyles](./get_automaticallyupdatestyles/)() | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
 | [get_BackgroundShape](../documentbase/get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be **null**. |
+| [get_Bibliography](./get_bibliography/)() |  |
 | [get_BuiltInDocumentProperties](./get_builtindocumentproperties/)() const | Returns a collection that represents all the built-in document properties of the document. |
 | [get_CompatibilityOptions](./get_compatibilityoptions/)() | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
 | [get_Compliance](./get_compliance/)() | Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents. |
