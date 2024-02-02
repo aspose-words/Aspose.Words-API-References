@@ -6,7 +6,7 @@ second_title: Aspose.Words for .NET
 description: TextBoxControl Type property. Gets type of Forms 2.0 control in C#.
 type: docs
 weight: 20
-url: /net/aspose.words.forms2/textboxcontrol/type/
+url: /net/aspose.words.drawing.ole/textboxcontrol/type/
 ---
 ## TextBoxControl.Type property
 
@@ -18,7 +18,7 @@ public override Forms2OleControlType Type { get; }
 
 ### See Also
 
-* enum [Forms2OleControlType](../../../aspose.words.drawing.ole/forms2olecontroltype/)
+* enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [TextBoxControl](../)
-* namespace [Aspose.Words.Forms2](../../../aspose.words.forms2/)
+* namespace [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assembly [Aspose.Words](../../../)

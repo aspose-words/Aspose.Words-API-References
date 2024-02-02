@@ -5,7 +5,7 @@ articleTitle: FieldDatabaseDataRow
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldDatabaseDataRow class. Provides data for the FieldDatabase field result. Please see DataRow instance in C#.
 type: docs
-weight: 1850
+weight: 1870
 url: /net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
