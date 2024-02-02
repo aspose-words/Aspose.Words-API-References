@@ -5,7 +5,7 @@ articleTitle: MsWordVersion
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Settings.MsWordVersion enum. Allows Aspose.Wods to mimic MS Word versionspecific application behavior in C#.
 type: docs
-weight: 6000
+weight: 6030
 url: /net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration

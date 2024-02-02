@@ -29,7 +29,7 @@ public class AxisDisplayUnit
 | Name | Description |
 | --- | --- |
 | [CustomUnit](../../aspose.words.drawing.charts/axisdisplayunit/customunit/) { get; set; } | Gets or sets a user-defined divisor to scale display units on the value axis. |
-| [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Returns the Document the title holder belongs. |
+| [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Returns the document containing the parent chart. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Gets or sets the scaling value of the display units as one of the predefined values. |
 
 ## Examples

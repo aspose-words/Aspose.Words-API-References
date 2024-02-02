@@ -5,7 +5,7 @@ articleTitle: GeneralFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.GeneralFormat enum. Specifies a general format that is applied to a numeric text or any field result. A field may have a combination of general formats in C#.
 type: docs
-weight: 2720
+weight: 2760
 url: /net/aspose.words.fields/generalformat/
 ---
 ## GeneralFormat enumeration

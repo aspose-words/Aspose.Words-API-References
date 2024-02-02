@@ -5,7 +5,7 @@ articleTitle: GetChildNodes
 second_title: Aspose.Words for .NET
 description: IStructuredDocumentTag GetChildNodes method. Returns a live collection of child nodes that match the specified types in C#.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words.markup/istructureddocumenttag/getchildnodes/
 ---
 ## IStructuredDocumentTag.GetChildNodes method

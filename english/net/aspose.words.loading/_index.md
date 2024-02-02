@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Loading
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Loading namespace provides classes and enumerations that allow to specify additional options when loading documents in C#.
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.words.loading/
 ---
 The **Aspose.Words.Loading** namespace provides classes and enumerations that allow to specify additional options when loading documents.
@@ -19,6 +19,7 @@ The **Aspose.Words.Loading** namespace provides classes and enumerations that al
 | [HtmlLoadOptions](./htmlloadoptions/) | Allows to specify additional options when loading HTML document into a [`Document`](../aspose.words/document/) object. |
 | [LanguagePreferences](./languagepreferences/) | Allows to set up language preferences. |
 | [LoadOptions](./loadoptions/) | Allows to specify additional options (such as password or base URI) when loading a document into a [`Document`](../aspose.words/document/) object. |
+| [MarkdownLoadOptions](./markdownloadoptions/) | Allows to specify additional options when loading Markdown document into a [`Document`](../aspose.words/document/) object. |
 | [PdfLoadOptions](./pdfloadoptions/) | Allows to specify additional options when loading Pdf document into a [`Document`](../aspose.words/document/) object. |
 | [ResourceLoadingArgs](./resourceloadingargs/) | Provides data for the [`ResourceLoading`](../aspose.words.loading/iresourceloadingcallback/resourceloading/) method. |
 | [RtfLoadOptions](./rtfloadoptions/) | Allows to specify additional options when loading Rtf document into a [`Document`](../aspose.words/document/) object. |

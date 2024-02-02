@@ -5,7 +5,7 @@ articleTitle: FieldNext
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldNext class. Implements the NEXT field in C#.
 type: docs
-weight: 2260
+weight: 2300
 url: /net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class

@@ -16,7 +16,9 @@ Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word
 | --- | --- |
 | [Forms2OleControl](./forms2olecontrol/) | Represents Microsoft Forms 2.0 OLE control. |
 | [Forms2OleControlCollection](./forms2olecontrolcollection/) | Represents collection of [`Forms2OleControl`](../aspose.words.drawing.ole/forms2olecontrol/) objects. |
+| [MorphDataControl](./morphdatacontrol/) | The MorphDataControl structure is an aggregate of six controls: CheckBox, ComboBox, ListBox, OptionButton, TextBox, and ToggleButton. |
 | [OleControl](./olecontrol/) | Represents OLE ActiveX control. |
+| [TextBoxControl](./textboxcontrol/) | The TextBox control displays text from an organized set of data or user input. |
 ## Enumeration
 
 | Enumeration | Description |

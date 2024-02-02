@@ -5,7 +5,7 @@ articleTitle: IStructuredDocumentTag
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.IStructuredDocumentTag interface. Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in C#.
 type: docs
-weight: 4080
+weight: 4110
 url: /net/aspose.words.markup/istructureddocumenttag/
 ---
 ## IStructuredDocumentTag interface
@@ -20,6 +20,7 @@ public interface IStructuredDocumentTag
 
 | Name | Description |
 | --- | --- |
+| [Appearance](../../aspose.words.markup/istructureddocumenttag/appearance/) { get; set; } | Gets or sets the appearance of the structured document tag. |
 | [Color](../../aspose.words.markup/istructureddocumenttag/color/) { get; set; } | Gets or sets the color of the structured document tag. |
 | [Id](../../aspose.words.markup/istructureddocumenttag/id/) { get; } | Specifies a unique read-only persistent numerical Id for this **SDT**. |
 | [IsMultiSection](../../aspose.words.markup/istructureddocumenttag/ismultisection/) { get; } | Returns true if this instance is a ranged (multi-section) structured document tag. |

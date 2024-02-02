@@ -5,7 +5,7 @@ articleTitle: Chart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.Chart class. Provides access to the chart shape properties in C#.
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class
@@ -26,6 +26,7 @@ public class Chart
 | [AxisX](../../aspose.words.drawing.charts/chart/axisx/) { get; } | Provides access to properties of the X axis of the chart. |
 | [AxisY](../../aspose.words.drawing.charts/chart/axisy/) { get; } | Provides access to properties of the Y axis of the chart. |
 | [AxisZ](../../aspose.words.drawing.charts/chart/axisz/) { get; } | Provides access to properties of the Z axis of the chart. |
+| [DataTable](../../aspose.words.drawing.charts/chart/datatable/) { get; } | Provides access to properties of a data table of this chart. The data table can be shown using the [`Show`](../chartdatatable/show/) property. |
 | [Legend](../../aspose.words.drawing.charts/chart/legend/) { get; } | Provides access to the chart legend properties. |
 | [Series](../../aspose.words.drawing.charts/chart/series/) { get; } | Provides access to series collection. |
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |

@@ -5,7 +5,7 @@ articleTitle: ListLabel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Lists.ListLabel class. Defines properties specific to a list label in C#.
 type: docs
-weight: 3600
+weight: 3620
 url: /net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class

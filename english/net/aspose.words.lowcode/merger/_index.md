@@ -5,7 +5,7 @@ articleTitle: Merger
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.Merger class. Represents a group of methods intended to merge a variety of different types of documents into a single output document in C#.
 type: docs
-weight: 3870
+weight: 3900
 url: /net/aspose.words.lowcode/merger/
 ---
 ## Merger class

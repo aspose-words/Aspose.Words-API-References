@@ -5,7 +5,7 @@ articleTitle: MajorUnitScale
 second_title: Aspose.Words for .NET
 description: ChartAxis MajorUnitScale property. Returns or sets the scale value for major tick marks on the time category axis in C#.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 ---
 ## ChartAxis.MajorUnitScale property

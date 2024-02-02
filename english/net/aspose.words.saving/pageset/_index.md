@@ -5,7 +5,7 @@ articleTitle: PageSet
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PageSet class. Describes a random set of pages in C#.
 type: docs
-weight: 5500
+weight: 5530
 url: /net/aspose.words.saving/pageset/
 ---
 ## PageSet class

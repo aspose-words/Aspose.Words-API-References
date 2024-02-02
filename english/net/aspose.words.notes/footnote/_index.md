@@ -5,7 +5,7 @@ articleTitle: Footnote
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Notes.Footnote class. Represents a container for text of a footnote or endnote in C#.
 type: docs
-weight: 4370
+weight: 4400
 url: /net/aspose.words.notes/footnote/
 ---
 ## Footnote class
@@ -28,6 +28,7 @@ public class Footnote : InlineStory
 
 | Name | Description |
 | --- | --- |
+| [ActualReferenceMark](../../aspose.words.notes/footnote/actualreferencemark/) { get; } | Gets the actual text of the reference mark displayed in the document for this footnote. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
