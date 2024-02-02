@@ -21,6 +21,8 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | Method | Description |
 | --- | --- |
 | [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the stroke. |
+| [get_BackThemeColor](./get_backthemecolor/)() |  |
+| [get_BackTintAndShade](./get_backtintandshade/)() |  |
 | [get_BaseForeColor](./get_baseforecolor/)() |  |
 | [get_Color](./get_color/)() | Defines the color of a stroke. |
 | [get_Color2](./get_color2/)() | Defines a second color for a stroke. |
@@ -31,6 +33,8 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | [get_EndCap](./get_endcap/)() | Defines the cap style for the end of a stroke. |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the [Stroke](./). |
 | [get_ForeColor](./get_forecolor/)() | Gets or sets the foreground color of the stroke. |
+| [get_ForeThemeColor](./get_forethemecolor/)() |  |
+| [get_ForeTintAndShade](./get_foretintandshade/)() |  |
 | [get_ImageBytes](./get_imagebytes/)() | Defines the image for a stroke image or pattern fill. |
 | [get_JoinStyle](./get_joinstyle/)() | Defines the join style of a polyline. |
 | [get_LineStyle](./get_linestyle/)() | Defines the line style of the stroke. |
@@ -45,6 +49,8 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_BackColor](./get_backcolor/). |
+| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) |  |
+| [set_BackTintAndShade](./set_backtintandshade/)(double) |  |
 | [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_Color](./get_color/). |
 | [set_Color2](./set_color2/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_Color2](./get_color2/). |
 | [set_DashStyle](./set_dashstyle/)(Aspose::Words::Drawing::DashStyle) | Setter for [Aspose::Words::Drawing::Stroke::get_DashStyle](./get_dashstyle/). |
@@ -53,6 +59,8 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | [set_EndArrowWidth](./set_endarrowwidth/)(Aspose::Words::Drawing::ArrowWidth) | Setter for [Aspose::Words::Drawing::Stroke::get_EndArrowWidth](./get_endarrowwidth/). |
 | [set_EndCap](./set_endcap/)(Aspose::Words::Drawing::EndCap) | Setter for [Aspose::Words::Drawing::Stroke::get_EndCap](./get_endcap/). |
 | [set_ForeColor](./set_forecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_ForeColor](./get_forecolor/). |
+| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) |  |
+| [set_ForeTintAndShade](./set_foretintandshade/)(double) |  |
 | [set_JoinStyle](./set_joinstyle/)(Aspose::Words::Drawing::JoinStyle) | Setter for [Aspose::Words::Drawing::Stroke::get_JoinStyle](./get_joinstyle/). |
 | [set_LineStyle](./set_linestyle/)(Aspose::Words::Drawing::ShapeLineStyle) | Setter for [Aspose::Words::Drawing::Stroke::get_LineStyle](./get_linestyle/). |
 | [set_On](./set_on/)(bool) | Setter for [Aspose::Words::Drawing::Stroke::get_On](./get_on/). |

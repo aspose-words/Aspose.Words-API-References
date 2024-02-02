@@ -14,6 +14,7 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [Aspose::Words](./aspose.words/) | The **Aspose.Words** namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word. |
+| [Aspose::Words::Bibliography](./aspose.words.bibliography/) |  |
 | [Aspose::Words::BuildingBlocks](./aspose.words.buildingblocks/) | The **Aspose.Words.BuildingBlocks** namespace provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document. |
 | [Aspose::Words::Comparing](./aspose.words.comparing/) | The **Aspose.Words.Comparing** namespace provides classes and enumerations that allow to specify additional options when comparing documents. |
 | [Aspose::Words::DigitalSignatures](./aspose.words.digitalsignatures/) | The **Aspose.Words.DigitalSignatures** namespace provides classes to sign documents and verify signatures. |
