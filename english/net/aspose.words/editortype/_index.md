@@ -5,7 +5,7 @@ articleTitle: EditorType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.EditorType enum. Specifies the set of possible aliases or editing groups which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document in C#.
 type: docs
-weight: 1550
+weight: 1570
 url: /net/aspose.words/editortype/
 ---
 ## EditorType enumeration

@@ -6,7 +6,7 @@ second_title: Aspose.Words for .NET
 description: TextBoxControl Text property. Gets or sets a text of the control in C#.
 type: docs
 weight: 10
-url: /net/aspose.words.forms2/textboxcontrol/text/
+url: /net/aspose.words.drawing.ole/textboxcontrol/text/
 ---
 ## TextBoxControl.Text property
 
@@ -34,5 +34,5 @@ Assert.AreEqual("Updated text", textBoxControl.Text);
 ### See Also
 
 * class [TextBoxControl](../)
-* namespace [Aspose.Words.Forms2](../../../aspose.words.forms2/)
+* namespace [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assembly [Aspose.Words](../../../)

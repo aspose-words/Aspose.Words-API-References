@@ -24,7 +24,6 @@ is_root: true
 | [Aspose.Words.Drawing.Ole](./aspose.words.drawing.ole/) | Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents. |
 | [Aspose.Words.Fields](./aspose.words.fields/) | The **Aspose.Words.Fields** namespace contains classes that represent Microsoft Word fields in a document. |
 | [Aspose.Words.Fonts](./aspose.words.fonts/) | The **Aspose.Words.Fonts** namespace provides classes and enumerations to access information about fonts used in a document. |
-| [Aspose.Words.Forms2](./aspose.words.forms2/) |  |
 | [Aspose.Words.Framesets](./aspose.words.framesets/) | The **Aspose.Words.Framesets** namespace provides classes and enumerations that represents a frames page or a single frame on a frames page. |
 | [Aspose.Words.Layout](./aspose.words.layout/) | The **Aspose.Words.Layout** namespace provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages. |
 | [Aspose.Words.Lists](./aspose.words.lists/) | The **Aspose.Words.Lists** namespace contains classes for working with bulleted and numbered lists defined in a document. |

@@ -5,7 +5,7 @@ articleTitle: FieldStart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldStart class. Represents a start of a Word field in a document in C#.
 type: docs
-weight: 2530
+weight: 2550
 url: /net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
