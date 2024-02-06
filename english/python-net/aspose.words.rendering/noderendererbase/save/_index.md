@@ -24,6 +24,21 @@ def save(self, file_name: str, save_options: aspose.words.saving.ImageSaveOption
 | file_name | str | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
 | save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
 
+## save(file_name, save_options) {#str_svgsaveoptions}
+
+Renders the shape into an SVG image and saves into a file.
+
+
+```python
+def save(self, file_name: str, save_options: aspose.words.saving.SvgSaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file_name | str | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
+| save_options | [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
+
 ## save(stream, save_options) {#bytesio_imagesaveoptions}
 
 Renders the shape into an image and saves into a stream.
@@ -38,6 +53,21 @@ def save(self, stream: io.BytesIO, save_options: aspose.words.saving.ImageSaveOp
 | --- | --- | --- |
 | stream | io.BytesIO | The stream where to save the image of the shape. |
 | save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved in the PNG format. |
+
+## save(stream, save_options) {#bytesio_svgsaveoptions}
+
+Renders the shape into an SVG image and saves into a stream.
+
+
+```python
+def save(self, stream: io.BytesIO, save_options: aspose.words.saving.SvgSaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | io.BytesIO | The stream where to save the SVG image of the shape. |
+| save_options | [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved with the default options. |
 
 ## Examples
 

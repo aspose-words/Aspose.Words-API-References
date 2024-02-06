@@ -5,7 +5,7 @@ articleTitle: PdfLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.loading/pdfloadoptions/
 ---
 

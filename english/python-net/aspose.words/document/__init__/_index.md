@@ -318,7 +318,7 @@ with open(MY_DIR + "Document.html", "rb") as stream:
 Shows how save a web page as a .docx file.
 
 ```python
-url = "https://www.aspose.com/"
+url = "https://products.aspose.com/words/"
 
 with io.BytesIO(urlopen(url).read()) as stream:
     # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.

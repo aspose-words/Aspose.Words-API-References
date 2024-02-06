@@ -5,7 +5,7 @@ articleTitle: minor_unit_scale property
 second_title: Aspose.Words for Python
 description: "ChartAxis.minor_unit_scale property. Returns or sets the scale value for minor tick marks on the time category axis."
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.drawing.charts/chartaxis/minor_unit_scale/
 ---
 

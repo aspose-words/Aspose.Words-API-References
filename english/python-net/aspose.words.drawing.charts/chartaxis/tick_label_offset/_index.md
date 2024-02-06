@@ -5,7 +5,7 @@ articleTitle: tick_label_offset property
 second_title: Aspose.Words for Python
 description: "ChartAxis.tick_label_offset property. Gets or sets the distance of labels from the axis."
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_offset/
 ---
 

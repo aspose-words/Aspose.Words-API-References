@@ -5,7 +5,7 @@ articleTitle: ResourceType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.ResourceType enumeration. Type of loaded resource."
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.loading/resourcetype/
 ---
 

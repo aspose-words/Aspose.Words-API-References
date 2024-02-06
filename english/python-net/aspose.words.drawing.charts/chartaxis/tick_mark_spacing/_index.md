@@ -5,7 +5,7 @@ articleTitle: tick_mark_spacing property
 second_title: Aspose.Words for Python
 description: "ChartAxis.tick_mark_spacing property. Gets or sets the interval, at which tick marks are drawn."
 type: docs
-weight: 270
+weight: 290
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_mark_spacing/
 ---
 

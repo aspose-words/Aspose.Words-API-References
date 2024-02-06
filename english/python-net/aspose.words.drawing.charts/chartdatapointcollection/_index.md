@@ -5,7 +5,7 @@ articleTitle: ChartDataPointCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartDataPointCollection class. Represents collection of a [ChartDataPoint](../chartdatapoint/)"
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 

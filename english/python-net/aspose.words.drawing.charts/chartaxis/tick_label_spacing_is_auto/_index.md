@@ -5,7 +5,7 @@ articleTitle: tick_label_spacing_is_auto property
 second_title: Aspose.Words for Python
 description: "ChartAxis.tick_label_spacing_is_auto property. Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used."
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_spacing_is_auto/
 ---
 

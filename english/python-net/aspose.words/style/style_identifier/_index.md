@@ -5,7 +5,7 @@ articleTitle: style_identifier property
 second_title: Aspose.Words for Python
 description: "Style.style_identifier property. Gets the locale independent style identifier for a built-in style."
 type: docs
-weight: 160
+weight: 180
 url: /python-net/aspose.words/style/style_identifier/
 ---
 

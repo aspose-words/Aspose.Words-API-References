@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "Style.remove method. Removes the specified style from the document."
 type: docs
-weight: 210
+weight: 240
 url: /python-net/aspose.words/style/remove/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "Footnote.accept method. Accepts a visitor."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.notes/footnote/accept/
 ---
 

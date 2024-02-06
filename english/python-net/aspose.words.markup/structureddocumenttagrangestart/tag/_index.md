@@ -5,7 +5,7 @@ articleTitle: tag property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.tag property. Specifies a tag associated with the current structured document tag node"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 

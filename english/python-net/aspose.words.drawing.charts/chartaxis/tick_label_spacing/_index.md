@@ -5,7 +5,7 @@ articleTitle: tick_label_spacing property
 second_title: Aspose.Words for Python
 description: "ChartAxis.tick_label_spacing property. Gets or sets the interval, at which tick labels are drawn."
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_spacing/
 ---
 
@@ -30,7 +30,7 @@ def tick_label_spacing(self, value: int):
 The property has effect for text category and series axes. It is not supported by MS Office 2016 
 new charts. Valid range of a value is greater than or equal to 1.
 
-Setting this property sets the [ChartAxis.tick_label_spacing_is_auto](../tick_label_spacing_is_auto/) property to ``False``.
+Setting this property sets the [AxisTickLabels.is_auto_spacing](../../axisticklabels/is_auto_spacing/) property to ``False``.
 
 
 

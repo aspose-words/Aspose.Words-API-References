@@ -27,7 +27,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | Name | Description |
 | --- | --- |
 | [custom_unit](./custom_unit/) | Gets or sets a user-defined divisor to scale display units on the value axis. |
-| [document](./document/) | Returns the Document the title holder belongs. |
+| [document](./document/) | Returns the document containing the parent chart. |
 | [unit](./unit/) | Gets or sets the scaling value of the display units as one of the predefined values. |
 
 ### Examples

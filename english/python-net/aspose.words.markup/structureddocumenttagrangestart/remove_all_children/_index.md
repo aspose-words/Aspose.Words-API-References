@@ -5,7 +5,7 @@ articleTitle: remove_all_children method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.remove_all_children method. Removes all the nodes between this range start node and the range end node."
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/remove_all_children/
 ---
 

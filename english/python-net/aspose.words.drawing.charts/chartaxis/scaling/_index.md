@@ -5,7 +5,7 @@ articleTitle: scaling property
 second_title: Aspose.Words for Python
 description: "ChartAxis.scaling property. Provides access to the scaling options of the axis."
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
 

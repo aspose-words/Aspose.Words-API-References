@@ -5,7 +5,7 @@ articleTitle: get_child_nodes method
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.get_child_nodes method. Returns a live collection of child nodes that match the specified types."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.markup/istructureddocumenttag/get_child_nodes/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: word_open_xml property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.word_open_xml property. Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT_OPC](../../../aspose.words/saveformat/#FLAT_OPC) format."
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.markup/istructureddocumenttag/word_open_xml/
 ---
 
