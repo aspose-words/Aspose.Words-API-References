@@ -5,7 +5,7 @@ articleTitle: series property
 second_title: Aspose.Words for Python
 description: "Chart.series property. Provides access to series collection."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.drawing.charts/chart/series/
 ---
 

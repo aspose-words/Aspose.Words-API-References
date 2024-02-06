@@ -44,7 +44,9 @@ To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words
 |[ get_size_in_pixels(scale, dpi)](../noderendererbase/get_size_in_pixels/#float_float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution.<br>(Inherited from [NodeRendererBase](../noderendererbase/)) |
 |[ get_size_in_pixels(scale, horizontal_dpi, vertical_dpi)](../noderendererbase/get_size_in_pixels/#float_float_float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution.<br>(Inherited from [NodeRendererBase](../noderendererbase/)) |
 |[ save(file_name, save_options)](../noderendererbase/save/#str_imagesaveoptions) | Renders the shape into an image and saves into a file.<br>(Inherited from [NodeRendererBase](../noderendererbase/)) |
+|[ save(file_name, save_options)](../noderendererbase/save/#str_svgsaveoptions) | Renders the shape into an SVG image and saves into a file.<br>(Inherited from [NodeRendererBase](../noderendererbase/)) |
 |[ save(stream, save_options)](../noderendererbase/save/#bytesio_imagesaveoptions) | Renders the shape into an image and saves into a stream.<br>(Inherited from [NodeRendererBase](../noderendererbase/)) |
+|[ save(stream, save_options)](../noderendererbase/save/#bytesio_svgsaveoptions) | Renders the shape into an SVG image and saves into a stream.<br>(Inherited from [NodeRendererBase](../noderendererbase/)) |
 
 ### Examples
 

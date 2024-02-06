@@ -5,7 +5,7 @@ articleTitle: footnote_type property
 second_title: Aspose.Words for Python
 description: "Footnote.footnote_type property. Returns a value that specifies whether this is a footnote or endnote."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.notes/footnote/footnote_type/
 ---
 

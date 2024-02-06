@@ -5,7 +5,7 @@ articleTitle: lock_contents property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.lock_contents property. When set to true, this property will prohibit a user from editing the contents of this SDT."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.markup/istructureddocumenttag/lock_contents/
 ---
 

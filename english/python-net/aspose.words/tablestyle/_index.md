@@ -48,13 +48,16 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 | [name](../style/name/) | Gets or sets the name of the style.<br>(Inherited from [Style](../style/)) |
 | [next_paragraph_style_name](../style/next_paragraph_style_name/) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style.<br>(Inherited from [Style](../style/)) |
 | [paragraph_format](../style/paragraph_format/) | Gets the paragraph formatting of the style.<br>(Inherited from [Style](../style/)) |
+| [priority](../style/priority/) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane.<br>(Inherited from [Style](../style/)) |
 | [right_padding](./right_padding/) | Gets or sets the amount of space (in points) to add to the right of the contents of table cells. |
 | [row_stripe](./row_stripe/) | Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding. |
+| [semi_hidden](../style/semi_hidden/) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane.<br>(Inherited from [Style](../style/)) |
 | [shading](./shading/) | Gets a [Shading](../shading/) object that refers to the shading formatting for table cells. |
 | [style_identifier](../style/style_identifier/) | Gets the locale independent style identifier for a built-in style.<br>(Inherited from [Style](../style/)) |
 | [styles](../style/styles/) | Gets the collection of styles this style belongs to.<br>(Inherited from [Style](../style/)) |
 | [top_padding](./top_padding/) | Gets or sets the amount of space (in points) to add above the contents of table cells. |
 | [type](../style/type/) | Gets the style type (paragraph or character).<br>(Inherited from [Style](../style/)) |
+| [unhide_when_used](../style/unhide_when_used/) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery.<br>(Inherited from [Style](../style/)) |
 | [vertical_alignment](./vertical_alignment/) | Specifies the vertical alignment for the cells. |
 
 ### Methods

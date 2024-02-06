@@ -5,7 +5,7 @@ articleTitle: structured_document_tag_node method
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.structured_document_tag_node method. Returns Node object that implements this interface."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.markup/istructureddocumenttag/structured_document_tag_node/
 ---
 

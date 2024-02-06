@@ -5,7 +5,7 @@ articleTitle: reference_mark property
 second_title: Aspose.Words for Python
 description: "Footnote.reference_mark property. Gets/sets custom reference mark to be used for this footnote"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.notes/footnote/reference_mark/
 ---
 

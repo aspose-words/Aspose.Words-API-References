@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Python
 description: "ChartAxis.title property. Provides access to the axis title properties."
 type: docs
-weight: 280
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartaxis/title/
 ---
 

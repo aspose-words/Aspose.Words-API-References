@@ -36,7 +36,9 @@ To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/pyt
 |[ get_size_in_pixels(scale, dpi)](./get_size_in_pixels/#float_float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 |[ get_size_in_pixels(scale, horizontal_dpi, vertical_dpi)](./get_size_in_pixels/#float_float_float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 |[ save(file_name, save_options)](./save/#str_imagesaveoptions) | Renders the shape into an image and saves into a file. |
+|[ save(file_name, save_options)](./save/#str_svgsaveoptions) | Renders the shape into an SVG image and saves into a file. |
 |[ save(stream, save_options)](./save/#bytesio_imagesaveoptions) | Renders the shape into an image and saves into a stream. |
+|[ save(stream, save_options)](./save/#bytesio_svgsaveoptions) | Renders the shape into an SVG image and saves into a stream. |
 
 ### Examples
 

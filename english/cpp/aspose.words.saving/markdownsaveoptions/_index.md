@@ -32,6 +32,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_ExportHeadersFootersMode](../txtsaveoptionsbase/get_exportheadersfootersmode/)() const | Specifies the way headers and footers are exported to the text formats. Default value is [PrimaryOnly](../txtexportheadersfootersmode/). |
 | [get_ExportImagesAsBase64](./get_exportimagesasbase64/)() const | Specifies whether images are saved in Base64 format to the output file. Default value is **false**. |
+| [get_ExportUnderlineFormatting](./get_exportunderlineformatting/)() const |  |
 | [get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/)() const | Allows to specify whether the page breaks should be preserved during export. The default value is **false**. |
 | [get_ImageSavingCallback](./get_imagesavingcallback/)() const | Allows to control how images are saved when a document is saved to [Markdown](../../aspose.words/saveformat/) format. |
 | [get_ImagesFolder](./get_imagesfolder/)() const | Specifies the physical folder where images are saved when exporting a document to the [Markdown](../../aspose.words/saveformat/) format. Default is an empty string. |
@@ -64,6 +65,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [set_ExportGeneratorName](../saveoptions/set_exportgeneratorname/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/). |
 | [set_ExportHeadersFootersMode](../txtsaveoptionsbase/set_exportheadersfootersmode/)(Aspose::Words::Saving::TxtExportHeadersFootersMode) | Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_ExportHeadersFootersMode](../txtsaveoptionsbase/get_exportheadersfootersmode/). |
 | [set_ExportImagesAsBase64](./set_exportimagesasbase64/)(bool) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ExportImagesAsBase64](./get_exportimagesasbase64/). |
+| [set_ExportUnderlineFormatting](./set_exportunderlineformatting/)(bool) |  |
 | [set_ForcePageBreaks](../txtsaveoptionsbase/set_forcepagebreaks/)(bool) | Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/). |
 | [set_ImageSavingCallback](./set_imagesavingcallback/)(const System::SharedPtr\<Aspose::Words::Saving::IImageSavingCallback\>\&) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ImageSavingCallback](./get_imagesavingcallback/). |
 | [set_ImagesFolder](./set_imagesfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolder](./get_imagesfolder/). |

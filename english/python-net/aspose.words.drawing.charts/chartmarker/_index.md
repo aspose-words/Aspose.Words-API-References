@@ -5,7 +5,7 @@ articleTitle: ChartMarker class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartMarker class. Represents a chart data marker"
 type: docs
-weight: 250
+weight: 270
 url: /python-net/aspose.words.drawing.charts/chartmarker/
 ---
 

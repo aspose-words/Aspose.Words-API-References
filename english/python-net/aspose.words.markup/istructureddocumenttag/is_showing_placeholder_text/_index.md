@@ -5,7 +5,7 @@ articleTitle: is_showing_placeholder_text property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.is_showing_placeholder_text property. Specifies whether the content of this SDT shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT)."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.markup/istructureddocumenttag/is_showing_placeholder_text/
 ---
 

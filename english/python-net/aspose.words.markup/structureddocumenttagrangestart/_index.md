@@ -37,6 +37,7 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 
 | Name | Description |
 | --- | --- |
+| [appearance](./appearance/) | Gets or sets the appearance of the structured document tag. |
 | [color](./color/) | Gets or sets the color of the structured document tag. |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |

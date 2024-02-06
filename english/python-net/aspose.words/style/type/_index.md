@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "Style.type property. Gets the style type (paragraph or character)."
 type: docs
-weight: 180
+weight: 200
 url: /python-net/aspose.words/style/type/
 ---
 

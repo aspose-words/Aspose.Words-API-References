@@ -5,7 +5,7 @@ articleTitle: number_format property
 second_title: Aspose.Words for Python
 description: "ChartAxis.number_format property. Returns a [ChartNumberFormat](../../chartnumberformat/) object that allows defining number formats for the axis."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.drawing.charts/chartaxis/number_format/
 ---
 

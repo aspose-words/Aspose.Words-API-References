@@ -5,7 +5,7 @@ articleTitle: ChartDataPoint class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartDataPoint class. Allows to specify formatting of a single data point on the chart"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/
 ---
 

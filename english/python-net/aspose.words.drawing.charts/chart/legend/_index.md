@@ -5,7 +5,7 @@ articleTitle: legend property
 second_title: Aspose.Words for Python
 description: "Chart.legend property. Provides access to the chart legend properties."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing.charts/chart/legend/
 ---
 

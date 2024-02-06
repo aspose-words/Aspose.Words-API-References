@@ -5,7 +5,7 @@ articleTitle: aspose.words.framesets module
 second_title: Aspose.Words for Python
 description: "The aspose.words.framesets module provides classes and enumerations that represents a frames page or a single frame on a frames page."
 type: docs
-weight: 120
+weight: 110
 url: /python-net/aspose.words.framesets/
 ---
 
