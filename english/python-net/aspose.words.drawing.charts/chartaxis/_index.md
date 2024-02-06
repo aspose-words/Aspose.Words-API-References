@@ -5,7 +5,7 @@ articleTitle: ChartAxis class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartAxis class. Represents the axis options of the chart"
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.drawing.charts/chartaxis/
 ---
 
@@ -27,7 +27,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [crosses](./crosses/) | Specifies how this axis crosses the perpendicular axis. |
 | [crosses_at](./crosses_at/) | Specifies where on the perpendicular axis the axis crosses. |
 | [display_unit](./display_unit/) | Specifies the scaling value of the display units for the value axis. |
-| [document](./document/) | Returns the Document the title holder belongs. |
+| [document](./document/) | Returns the document containing the parent chart. |
+| [format](./format/) | Provides access to line formatting of the axis and fill of the tick labels. |
 | [has_major_gridlines](./has_major_gridlines/) | Gets or sets a flag indicating whether the axis has major gridlines. |
 | [has_minor_gridlines](./has_minor_gridlines/) | Gets or sets a flag indicating whether the axis has minor gridlines. |
 | [hidden](./hidden/) | Gets or sets a flag indicating whether this axis is hidden or not. |
@@ -47,6 +48,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [tick_label_position](./tick_label_position/) | Returns or sets the position of the tick labels on the axis. |
 | [tick_label_spacing](./tick_label_spacing/) | Gets or sets the interval, at which tick labels are drawn. |
 | [tick_label_spacing_is_auto](./tick_label_spacing_is_auto/) | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
+| [tick_labels](./tick_labels/) | Provides access to the properties of the axis tick mark labels. |
 | [tick_mark_spacing](./tick_mark_spacing/) | Gets or sets the interval, at which tick marks are drawn. |
 | [title](./title/) | Provides access to the axis title properties. |
 | [type](./type/) | Returns type of the axis. |

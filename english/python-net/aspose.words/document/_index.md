@@ -211,6 +211,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ unlink_fields()](./unlink_fields/#default) | Unlinks fields in the whole document. |
 |[ unprotect()](./unprotect/#default) | Removes protection from the document regardless of the password. |
 |[ unprotect(password)](./unprotect/#str) | Removes protection from the document if a correct password is specified. |
+|[ update_actual_reference_marks()](./update_actual_reference_marks/#default) | Updates the [Footnote.actual_reference_mark](../../aspose.words.notes/footnote/actual_reference_mark/) property of all footnotes and endnotes in the document. |
 |[ update_fields()](./update_fields/#default) | Updates the values of fields in the whole document. |
 |[ update_list_labels()](./update_list_labels/#default) | Updates list labels for all list items in the document. |
 |[ update_page_layout()](./update_page_layout/#default) | Rebuilds the page layout of the document. |

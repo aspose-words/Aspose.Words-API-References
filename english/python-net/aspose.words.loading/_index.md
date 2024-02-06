@@ -5,7 +5,7 @@ articleTitle: aspose.words.loading module
 second_title: Aspose.Words for Python
 description: "The aspose.words.loading module provides classes and enumerations that allow to specify additional options when loading documents."
 type: docs
-weight: 150
+weight: 140
 url: /python-net/aspose.words.loading/
 ---
 
@@ -27,6 +27,7 @@ allow to specify additional options when loading documents.
 | [IResourceLoadingCallback](./iresourceloadingcallback/) | Implement this interface if you want to control how Aspose.Words loads external resource when  importing a document and inserting images using [DocumentBuilder](../aspose.words/documentbuilder/). |
 | [LanguagePreferences](./languagepreferences/) | Allows to set up language preferences. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article. |
 | [LoadOptions](./loadoptions/) | Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article. |
+| [MarkdownLoadOptions](./markdownloadoptions/) | Allows to specify additional options when loading [LoadFormat.MARKDOWN](../aspose.words/loadformat/#MARKDOWN) document into a [Document](../aspose.words/document/) object. |
 | [PdfLoadOptions](./pdfloadoptions/) | Allows to specify additional options when loading Pdf document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article. |
 | [ResourceLoadingArgs](./resourceloadingargs/) | Provides data for the [IResourceLoadingCallback.resource_loading()](./iresourceloadingcallback/resource_loading/#resourceloadingargs) method. |
 | [RtfLoadOptions](./rtfloadoptions/) | Allows to specify additional options when loading [LoadFormat.RTF](../aspose.words/loadformat/#RTF) document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article. |

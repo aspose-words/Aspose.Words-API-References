@@ -5,7 +5,7 @@ articleTitle: ChartSeriesType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeriesType enumeration. Specifies a type of a chart series."
 type: docs
-weight: 300
+weight: 320
 url: /python-net/aspose.words.drawing.charts/chartseriestype/
 ---
 

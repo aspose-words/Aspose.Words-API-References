@@ -5,7 +5,7 @@ articleTitle: Chart class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.Chart class. Provides access to the chart shape properties"
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.drawing.charts/chart/
 ---
 
@@ -25,6 +25,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [axis_x](./axis_x/) | Provides access to properties of the X axis of the chart. |
 | [axis_y](./axis_y/) | Provides access to properties of the Y axis of the chart. |
 | [axis_z](./axis_z/) | Provides access to properties of the Z axis of the chart. |
+| [data_table](./data_table/) | Provides access to properties of a data table of this chart. The data table can be shown using the [ChartDataTable.show](../chartdatatable/show/) property. |
 | [legend](./legend/) | Provides access to the chart legend properties. |
 | [series](./series/) | Provides access to series collection. |
 | [source_full_name](./source_full_name/) | Gets the path and name of an xls/xlsx file this chart is linked to. |

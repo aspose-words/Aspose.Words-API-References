@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "Footnote.accept_end method. Accepts a visitor for visiting the end of the footnote."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.notes/footnote/accept_end/
 ---
 

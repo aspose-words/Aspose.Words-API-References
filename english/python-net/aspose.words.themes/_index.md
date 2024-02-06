@@ -5,7 +5,7 @@ articleTitle: aspose.words.themes module
 second_title: Aspose.Words for Python
 description: "The aspose.words.themes module provides classes that allow to access theme information in Microsoft Word documents."
 type: docs
-weight: 290
+weight: 280
 url: /python-net/aspose.words.themes/
 ---
 

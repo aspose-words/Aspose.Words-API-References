@@ -25,8 +25,8 @@ def is_encrypted(self) -> bool:
 ### Remarks
 
 This property exists to help you sort documents that are encrypted from those that are not.
-If you attempt to load an encrypted document using Aspose.Words without supplying a password an 
-exception will be thrown. You can use this property to detect whether a document requires a password 
+If you attempt to load an encrypted document using Aspose.Words without supplying a password an
+exception will be thrown. You can use this property to detect whether a document requires a password
 and take some action before loading a document, for example, prompt the user for a password.
 
 

@@ -36,9 +36,12 @@ To learn more, visit the [Working with Styles and Themes](https://docs.aspose.co
 | [name](./name/) | Gets or sets the name of the style. |
 | [next_paragraph_style_name](./next_paragraph_style_name/) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [paragraph_format](./paragraph_format/) | Gets the paragraph formatting of the style. |
+| [priority](./priority/) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
+| [semi_hidden](./semi_hidden/) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
 | [style_identifier](./style_identifier/) | Gets the locale independent style identifier for a built-in style. |
 | [styles](./styles/) | Gets the collection of styles this style belongs to. |
 | [type](./type/) | Gets the style type (paragraph or character). |
+| [unhide_when_used](./unhide_when_used/) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
 
 ### Methods
 

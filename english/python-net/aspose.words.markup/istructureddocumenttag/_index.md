@@ -19,6 +19,7 @@ Interface to define a common data for [StructuredDocumentTag](../structureddocum
 
 | Name | Description |
 | --- | --- |
+| [appearance](./appearance/) | Gets or sets the appearance of the structured document tag. |
 | [color](./color/) | Gets or sets the color of the structured document tag. |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
 | [is_multi_section](./is_multi_section/) | Returns true if this instance is a ranged (multi-section) structured document tag. |

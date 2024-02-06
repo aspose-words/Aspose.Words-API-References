@@ -39,6 +39,7 @@ The [Footnote](./) class is used to represent both footnotes and endnotes in a W
 
 | Name | Description |
 | --- | --- |
+| [actual_reference_mark](./actual_reference_mark/) | Gets the actual text of the reference mark displayed in the document for this footnote. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |

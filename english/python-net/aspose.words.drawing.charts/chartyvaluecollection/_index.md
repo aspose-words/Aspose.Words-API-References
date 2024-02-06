@@ -5,7 +5,7 @@ articleTitle: ChartYValueCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartYValueCollection class. Represents a collection of Y values for a chart series."
 type: docs
-weight: 380
+weight: 400
 url: /python-net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 

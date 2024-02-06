@@ -5,7 +5,7 @@ articleTitle: OleControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.OleControl class. Represents OLE ActiveX control"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing.ole/olecontrol/
 ---
 

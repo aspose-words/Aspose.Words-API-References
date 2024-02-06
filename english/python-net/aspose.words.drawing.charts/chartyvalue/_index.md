@@ -5,7 +5,7 @@ articleTitle: ChartYValue class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartYValue class. Represents an Y value for a chart series."
 type: docs
-weight: 370
+weight: 390
 url: /python-net/aspose.words.drawing.charts/chartyvalue/
 ---
 
