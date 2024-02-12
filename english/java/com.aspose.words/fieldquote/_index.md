@@ -4,7 +4,7 @@ linktitle: FieldQuote
 second_title: Aspose.Words for Java
 description: Implements the QUOTE field in Java.
 type: docs
-weight: 251
+weight: 253
 url: /java/com.aspose.words/fieldquote/
 ---
 

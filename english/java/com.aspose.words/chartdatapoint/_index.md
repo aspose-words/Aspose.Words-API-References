@@ -4,7 +4,7 @@ linktitle: ChartDataPoint
 second_title: Aspose.Words for Java
 description: Allows to specify formatting of a single data point on the chart in Java.
 type: docs
-weight: 65
+weight: 66
 url: /java/com.aspose.words/chartdatapoint/
 ---
 
@@ -94,6 +94,7 @@ Shows how to work with data points on a line chart.
 | [getInvertIfNegative()](#getInvertIfNegative) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [getMarker()](#getMarker) | Specifies chart data marker. |
 | [getShapeType()](#getShapeType) |  |
+| [isFillSupported()](#isFillSupported) |  |
 | [isFormatDefined()](#isFormatDefined) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
@@ -264,6 +265,16 @@ public int getShapeType()
 
 **Returns:**
 int
+### isFillSupported() {#isFillSupported}
+```
+public boolean isFillSupported()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isFormatDefined() {#isFormatDefined}
 ```
 public boolean isFormatDefined()

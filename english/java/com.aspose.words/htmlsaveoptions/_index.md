@@ -4,7 +4,7 @@ linktitle: HtmlSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.HTML SaveFormat.MHTML SaveFormat.EPUB SaveFormat.AZW_3 or SaveFormat.MOBI format in Java.
 type: docs
-weight: 350
+weight: 352
 url: /java/com.aspose.words/htmlsaveoptions/
 ---
 

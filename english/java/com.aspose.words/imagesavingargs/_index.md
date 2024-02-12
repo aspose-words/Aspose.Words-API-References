@@ -4,7 +4,7 @@ linktitle: ImageSavingArgs
 second_title: Aspose.Words for Java
 description: Provides data for the IImageSavingCallback.imageSavingcom.aspose.words.ImageSavingArgs event in Java.
 type: docs
-weight: 360
+weight: 362
 url: /java/com.aspose.words/imagesavingargs/
 ---
 

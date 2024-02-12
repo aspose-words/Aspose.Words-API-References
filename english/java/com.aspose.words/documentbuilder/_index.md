@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 140
+weight: 142
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -565,7 +565,8 @@ Shows how to insert a hyperlink which references a local bookmark.
  // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
  builder.getFont().setColor(Color.BLUE);
  builder.getFont().setUnderline(Underline.SINGLE);
- builder.insertHyperlink("Link to Bookmark1", "Bookmark1\" \\o \"Hyperlink Tip", true);
+ FieldHyperlink hyperlink = (FieldHyperlink)builder.insertHyperlink("Link to Bookmark1", "Bookmark1", true);
+ hyperlink.setScreenTip("Hyperlink Tip");
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
  
@@ -3111,28 +3112,6 @@ This methods internally calls [insertField(java.lang.String)](../../com.aspose.w
 
  **Examples:** 
 
-Shows how to insert a hyperlink which references a local bookmark.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.startBookmark("Bookmark1");
- builder.write("Bookmarked text. ");
- builder.endBookmark("Bookmark1");
- builder.writeln("Text outside of the bookmark.");
-
- // Insert a HYPERLINK field that links to the bookmark. We can pass field switches
- // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
- builder.getFont().setColor(Color.BLUE);
- builder.getFont().setUnderline(Underline.SINGLE);
- builder.insertHyperlink("Link to Bookmark1", "Bookmark1\" \\o \"Hyperlink Tip", true);
-
- doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
- 
-```
-
 Shows how to insert a hyperlink field.
 
 ```
@@ -3152,6 +3131,29 @@ Shows how to insert a hyperlink field.
 
  // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
+
+Shows how to insert a hyperlink which references a local bookmark.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.startBookmark("Bookmark1");
+ builder.write("Bookmarked text. ");
+ builder.endBookmark("Bookmark1");
+ builder.writeln("Text outside of the bookmark.");
+
+ // Insert a HYPERLINK field that links to the bookmark. We can pass field switches
+ // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ FieldHyperlink hyperlink = (FieldHyperlink)builder.insertHyperlink("Link to Bookmark1", "Bookmark1", true);
+ hyperlink.setScreenTip("Hyperlink Tip");
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
  
 ```
 
@@ -5818,7 +5820,8 @@ Shows how to insert a hyperlink which references a local bookmark.
  // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
  builder.getFont().setColor(Color.BLUE);
  builder.getFont().setUnderline(Underline.SINGLE);
- builder.insertHyperlink("Link to Bookmark1", "Bookmark1\" \\o \"Hyperlink Tip", true);
+ FieldHyperlink hyperlink = (FieldHyperlink)builder.insertHyperlink("Link to Bookmark1", "Bookmark1", true);
+ hyperlink.setScreenTip("Hyperlink Tip");
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
  

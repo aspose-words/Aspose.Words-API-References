@@ -4,7 +4,7 @@ linktitle: NodeRendererBase
 second_title: Aspose.Words for Java
 description: Base class for ShapeRenderer and OfficeMathRenderer in Java.
 type: docs
-weight: 435
+weight: 438
 url: /java/com.aspose.words/noderendererbase/
 ---
 
@@ -83,7 +83,9 @@ Shows how to measure and scale shapes.
 | [renderToScale(Graphics2D graphics, float x, float y, float scale)](#renderToScale-java.awt.Graphics2D-float-float-float) | Renders the shape into a java.awt.Graphics2D object to a specified scale. |
 | [renderToSize(Graphics2D graphics, float x, float y, float width, float height)](#renderToSize-java.awt.Graphics2D-float-float-float-float) | Renders the shape into a java.awt.Graphics2D object to a specified size. |
 | [save(OutputStream stream, ImageSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) |  |
+| [save(OutputStream stream, SvgSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) |  |
 | [save(String fileName, ImageSaveOptions saveOptions)](#save-java.lang.String-com.aspose.words.ImageSaveOptions) | Renders the shape and saves into an image. |
+| [save(String fileName, SvgSaveOptions saveOptions)](#save-java.lang.String-com.aspose.words.SvgSaveOptions) | Renders the shape and saves into an SVG image. |
 ### NodeRendererBase() {#NodeRendererBase}
 ```
 public NodeRendererBase()
@@ -684,6 +686,20 @@ public void save(OutputStream stream, ImageSaveOptions saveOptions)
 | stream | java.io.OutputStream |  |
 | saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
 
+### save(OutputStream stream, SvgSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions}
+```
+public void save(OutputStream stream, SvgSaveOptions saveOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream |  |
+| saveOptions | [SvgSaveOptions](../../com.aspose.words/svgsaveoptions/) |  |
+
 ### save(String fileName, ImageSaveOptions saveOptions) {#save-java.lang.String-com.aspose.words.ImageSaveOptions}
 ```
 public void save(String fileName, ImageSaveOptions saveOptions)
@@ -718,4 +734,35 @@ Shows how to render an Office Math object into an image file in the local file s
 | --- | --- | --- |
 | fileName | java.lang.String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
 | saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null . |
+
+### save(String fileName, SvgSaveOptions saveOptions) {#save-java.lang.String-com.aspose.words.SvgSaveOptions}
+```
+public void save(String fileName, SvgSaveOptions saveOptions)
+```
+
+
+Renders the shape and saves into an SVG image.  Renders the shape into an SVG image and saves into a file.
+
+ **Examples:** 
+
+Shows how to pass save options when rendering office math.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath math = (OfficeMath)doc.getChild(NodeType.OFFICE_MATH, 0, true);
+
+ SvgSaveOptions options = new SvgSaveOptions();
+ options.setTextOutputMode(SvgTextOutputMode.USE_PLACED_GLYPHS);
+
+ math.getMathRenderer().save(getArtifactsDir() + "SvgSaveOptions.Output.svg", options);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
+| saveOptions | [SvgSaveOptions](../../com.aspose.words/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null . |
 

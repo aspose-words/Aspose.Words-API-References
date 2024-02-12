@@ -4,7 +4,7 @@ linktitle: FieldNext
 second_title: Aspose.Words for Java
 description: Implements the NEXT field in Java.
 type: docs
-weight: 238
+weight: 240
 url: /java/com.aspose.words/fieldnext/
 ---
 

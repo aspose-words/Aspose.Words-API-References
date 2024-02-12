@@ -87,7 +87,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 | [getCustomUnit()](#getCustomUnit) | Gets a user-defined divisor to scale display units on the value axis. |
 | [getDefaultFontSize()](#getDefaultFontSize) |  |
 | [getDefaultTitleText()](#getDefaultTitleText) |  |
-| [getDocument()](#getDocument) | Returns the Document the title holder belongs. |
+| [getDocument()](#getDocument) | Returns the document containing the parent chart. |
 | [getTitleDeleted()](#getTitleDeleted) |  |
 | [getTitlePosition()](#getTitlePosition) |  |
 | [getUnit()](#getUnit) | Gets the scaling value of the display units as one of the predefined values. |
@@ -194,10 +194,10 @@ public DocumentBase getDocument()
 ```
 
 
-Returns the Document the title holder belongs.
+Returns the document containing the parent chart.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase/) - The Document the title holder belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document containing the parent chart.
 ### getTitleDeleted() {#getTitleDeleted}
 ```
 public boolean getTitleDeleted()

@@ -4,7 +4,7 @@ linktitle: FixedPageSaveOptions
 second_title: Aspose.Words for Java
 description: Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc in Java.
 type: docs
-weight: 291
+weight: 293
 url: /java/com.aspose.words/fixedpagesaveoptions/
 ---
 

@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 512
+weight: 515
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -172,6 +172,22 @@ A data source object can be of one of the following types:
  *  Any other arbitrary Java type
 
 For information on how to work with data sources of different types in template documents, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+
+ **Examples:** 
+
+Shows how to work with charts from word 2016.
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Word 2016 Charts (Java).docx");
+
+ ReportingEngine engine = new ReportingEngine();
+ engine.buildReport(doc, new Object[] { Common.getShares(), Common.getShareQuotes() },
+         new String[] { "shares", "quotes" });
+
+ doc.save(getArtifactsDir() + "ReportingEngine.Word2016Charts.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

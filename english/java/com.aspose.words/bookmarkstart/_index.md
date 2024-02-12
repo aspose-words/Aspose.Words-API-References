@@ -4,7 +4,7 @@ linktitle: BookmarkStart
 second_title: Aspose.Words for Java
 description: Represents a start of a bookmark in a Word document in Java.
 type: docs
-weight: 36
+weight: 37
 url: /java/com.aspose.words/bookmarkstart/
 ---
 
@@ -1134,7 +1134,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (147606,6)
+Returns  true  if this node can contain other nodes. (147948,6)
 
  **Examples:** 
 

@@ -4,7 +4,7 @@ linktitle: ImageType
 second_title: Aspose.Words for Java
 description: Specifies the type format of an image in a Microsoft Word document in Java.
 type: docs
-weight: 362
+weight: 364
 url: /java/com.aspose.words/imagetype/
 ---
 
@@ -44,6 +44,7 @@ Shows how to add an image to a shape and check its type.
 | [PICT](#PICT) | Macintosh PICT. |
 | [PNG](#PNG) | Portable Network Graphics. |
 | [UNKNOWN](#UNKNOWN) | An unknown image type or image type that cannot be directly stored inside a Microsoft Word document. |
+| [WEB_P](#WEB-P) |  |
 | [WMF](#WMF) | Windows Metafile. |
 | [length](#length) |  |
 ## Methods
@@ -117,6 +118,12 @@ public static int UNKNOWN
 
 
 An unknown image type or image type that cannot be directly stored inside a Microsoft Word document.
+
+### WEB_P {#WEB-P}
+```
+public static int WEB_P
+```
+
 
 ### WMF {#WMF}
 ```

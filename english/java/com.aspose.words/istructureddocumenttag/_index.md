@@ -4,7 +4,7 @@ linktitle: IStructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in Java.
 type: docs
-weight: 703
+weight: 706
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```
@@ -16,6 +16,7 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 
 | Method | Description |
 | --- | --- |
+| [getAppearance()](#getAppearance) | Gets the appearance of the structured document tag. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
 | [getColor()](#getColor) | Gets the color of the structured document tag. |
 | [getId()](#getId) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
@@ -35,6 +36,7 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [removeSelfOnly()](#removeSelfOnly) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
+| [setAppearance(int value)](#setAppearance-int) | Sets the appearance of the structured document tag. |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets the color of the structured document tag. |
 | [setLockContentControl(boolean value)](#setLockContentControl-boolean) | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [setLockContents(boolean value)](#setLockContents-boolean) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
@@ -42,6 +44,16 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 | [setTag(String value)](#setTag-java.lang.String) | Specifies a tag associated with the current SDT node. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Specifies the friendly name associated with this **SDT**. |
 | [structuredDocumentTagNode()](#structuredDocumentTagNode) | Returns Node object that implements this interface. |
+### getAppearance() {#getAppearance}
+```
+public abstract int getAppearance()
+```
+
+
+Gets the appearance of the structured document tag.
+
+**Returns:**
+int - The appearance of the structured document tag. The returned value is one of [SdtAppearance](../../com.aspose.words/sdtappearance/) constants.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public abstract NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -310,6 +322,19 @@ Shows how to remove structured document tag, but keeps content inside.
  Assert.assertEquals(0, sdts.getCount());
  
 ```
+
+### setAppearance(int value) {#setAppearance-int}
+```
+public abstract void setAppearance(int value)
+```
+
+
+Sets the appearance of the structured document tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The appearance of the structured document tag. The value must be one of [SdtAppearance](../../com.aspose.words/sdtappearance/) constants. |
 
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```

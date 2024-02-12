@@ -4,7 +4,7 @@ linktitle: MetafileRenderingOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional metafile rendering options in Java.
 type: docs
-weight: 422
+weight: 425
 url: /java/com.aspose.words/metafilerenderingoptions/
 ---
 

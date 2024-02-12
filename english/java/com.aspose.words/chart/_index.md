@@ -4,7 +4,7 @@ linktitle: Chart
 second_title: Aspose.Words for Java
 description: Provides access to the chart shape properties in Java.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.words/chart/
 ---
 
@@ -57,6 +57,7 @@ Shows how to insert a chart and set a title.
 | [getAxisX()](#getAxisX) | Provides access to properties of the X axis of the chart. |
 | [getAxisY()](#getAxisY) | Provides access to properties of the Y axis of the chart. |
 | [getAxisZ()](#getAxisZ) | Provides access to properties of the Z axis of the chart. |
+| [getDataTable()](#getDataTable) | Provides access to properties of a data table of this chart. |
 | [getLegend()](#getLegend) | Provides access to the chart legend properties. |
 | [getSeries()](#getSeries) | Provides access to series collection. |
 | [getSourceFullName()](#getSourceFullName) | Gets the path and name of an xls/xlsx file this chart is linked to. |
@@ -281,6 +282,16 @@ Shows how to insert a chart and modify the appearance of its axes.
 
 **Returns:**
 [ChartAxis](../../com.aspose.words/chartaxis/) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis/) value.
+### getDataTable() {#getDataTable}
+```
+public ChartDataTable getDataTable()
+```
+
+
+Provides access to properties of a data table of this chart. The data table can be shown using the [ChartDataTable.getShow()](../../com.aspose.words/chartdatatable/\#getShow) / [ChartDataTable.setShow(boolean)](../../com.aspose.words/chartdatatable/\#setShow-boolean) property.
+
+**Returns:**
+[ChartDataTable](../../com.aspose.words/chartdatatable/) - The corresponding [ChartDataTable](../../com.aspose.words/chartdatatable/) value.
 ### getLegend() {#getLegend}
 ```
 public ChartLegend getLegend()

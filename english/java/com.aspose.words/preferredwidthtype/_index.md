@@ -4,7 +4,7 @@ linktitle: PreferredWidthType
 second_title: Aspose.Words for Java
 description: Specifies the unit of measurement for the preferred width of a table or cell in Java.
 type: docs
-weight: 499
+weight: 502
 url: /java/com.aspose.words/preferredwidthtype/
 ---
 

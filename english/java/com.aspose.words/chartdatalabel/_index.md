@@ -4,7 +4,7 @@ linktitle: ChartDataLabel
 second_title: Aspose.Words for Java
 description: Represents data label on a chart point or trendline in Java.
 type: docs
-weight: 63
+weight: 64
 url: /java/com.aspose.words/chartdatalabel/
 ---
 
@@ -118,6 +118,7 @@ Shows how to apply labels to data points in a line chart.
 | [getShowPercentage()](#getShowPercentage) | Allows to specify if percentage value is to be displayed for the data labels on a chart. |
 | [getShowSeriesName()](#getShowSeriesName) | Gets a Boolean to indicate the series name display behavior for the data labels on a chart. |
 | [getShowValue()](#getShowValue) | Allows to specify if values are to be displayed in the data labels. |
+| [isFillSupported()](#isFillSupported) |  |
 | [isFormatDefined()](#isFormatDefined) |  |
 | [isHidden()](#isHidden) | Gets/sets a flag indicating whether this label is hidden. |
 | [isHidden(boolean value)](#isHidden-boolean) | Gets/sets a flag indicating whether this label is hidden. |
@@ -1067,6 +1068,16 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### isFillSupported() {#isFillSupported}
+```
+public boolean isFillSupported()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isFormatDefined() {#isFormatDefined}
 ```
 public boolean isFormatDefined()

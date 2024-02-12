@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Words for Java
 description: Represents a contiguous area in a document in Java.
 type: docs
-weight: 504
+weight: 507
 url: /java/com.aspose.words/range/
 ---
 

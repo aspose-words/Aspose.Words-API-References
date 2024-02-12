@@ -4,7 +4,7 @@ linktitle: ITextShaper
 second_title: Aspose.Words for Java
 description: Provides methods for text shaping in Java.
 type: docs
-weight: 704
+weight: 707
 url: /java/com.aspose.words/itextshaper/
 ---
 ```

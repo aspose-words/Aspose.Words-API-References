@@ -4,7 +4,7 @@ linktitle: ChartSeriesType
 second_title: Aspose.Words for Java
 description: Specifies a type of a chart series in Java.
 type: docs
-weight: 76
+weight: 78
 url: /java/com.aspose.words/chartseriestype/
 ---
 
@@ -22,7 +22,7 @@ Shows how to
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - Chart series.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series (Java).docx");
  Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
 
  // Remove all series of the Column type.

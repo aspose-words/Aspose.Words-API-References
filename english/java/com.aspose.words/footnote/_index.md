@@ -4,7 +4,7 @@ linktitle: Footnote
 second_title: Aspose.Words for Java
 description: Represents a container for text of a footnote or endnote in Java.
 type: docs
-weight: 310
+weight: 312
 url: /java/com.aspose.words/footnote/
 ---
 
@@ -92,6 +92,7 @@ Shows how to insert and customize footnotes.
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [ensureMinimum()](#ensureMinimum) | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
+| [getActualReferenceMark()](#getActualReferenceMark) | Gets the actual text of the reference mark displayed in the document for this footnote. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
@@ -446,6 +447,36 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 **Returns:**
 java.lang.Object
+### getActualReferenceMark() {#getActualReferenceMark}
+```
+public String getActualReferenceMark()
+```
+
+
+Gets the actual text of the reference mark displayed in the document for this footnote.
+
+ **Remarks:** 
+
+To initially populate values of this property for all reference marks of the document, or to update the values after changes in the document that might affect the reference marks, you must execute the [Document.updateActualReferenceMarks()](../../com.aspose.words/document/\#updateActualReferenceMarks) method. Updating fields ( [Document.updateFields()](../../com.aspose.words/document/\#updateFields)) may also be necessary to get the correct result.
+
+ **Examples:** 
+
+Shows how to get actual footnote reference mark.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ Footnote footnote = (Footnote)doc.getChild(NodeType.FOOTNOTE, 1, true);
+ doc.updateFields();
+ doc.updateActualReferenceMarks();
+
+ Assert.assertEquals("1", footnote.getActualReferenceMark());
+ 
+```
+
+**Returns:**
+java.lang.String - The actual text of the reference mark displayed in the document for this footnote.
 ### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)

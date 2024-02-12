@@ -4,7 +4,7 @@ linktitle: SectionStart
 second_title: Aspose.Words for Java
 description: The type of break at the beginning of the section in Java.
 type: docs
-weight: 546
+weight: 549
 url: /java/com.aspose.words/sectionstart/
 ---
 

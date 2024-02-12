@@ -4,7 +4,7 @@ linktitle: ScriptShapingLevel
 second_title: Aspose.Words for Java
 description: Describes shaping levels required by a script in Java.
 type: docs
-weight: 536
+weight: 539
 url: /java/com.aspose.words/scriptshapinglevel/
 ---
 

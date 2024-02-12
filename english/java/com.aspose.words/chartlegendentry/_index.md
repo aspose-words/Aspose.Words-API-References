@@ -4,7 +4,7 @@ linktitle: ChartLegendEntry
 second_title: Aspose.Words for Java
 description: Represents a chart legend entry in Java.
 type: docs
-weight: 69
+weight: 71
 url: /java/com.aspose.words/chartlegendentry/
 ---
 
@@ -77,7 +77,7 @@ Shows how to work with a legend font.
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - Chart series.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series (Java).docx");
  Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
 
  ChartLegend chartLegend = chart.getLegend();

@@ -4,7 +4,7 @@ linktitle: OoxmlSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.DOCX SaveFormat.DOCM SaveFormat.DOTX SaveFormat.DOTM or SaveFormat.FLAT_OPC format in Java.
 type: docs
-weight: 456
+weight: 459
 url: /java/com.aspose.words/ooxmlsaveoptions/
 ---
 

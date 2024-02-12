@@ -4,7 +4,7 @@ linktitle: MeasurementUnits
 second_title: Aspose.Words for Java
 description: Specifies the unit of measurement in Java.
 type: docs
-weight: 415
+weight: 418
 url: /java/com.aspose.words/measurementunits/
 ---
 
