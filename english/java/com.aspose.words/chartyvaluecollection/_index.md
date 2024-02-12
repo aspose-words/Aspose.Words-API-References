@@ -4,7 +4,7 @@ linktitle: ChartYValueCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of Y values for a chart series in Java.
 type: docs
-weight: 84
+weight: 86
 url: /java/com.aspose.words/chartyvaluecollection/
 ---
 

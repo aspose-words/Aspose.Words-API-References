@@ -4,7 +4,7 @@ linktitle: Body
 second_title: Aspose.Words for Java
 description: Represents a container for the main text of a section in Java.
 type: docs
-weight: 32
+weight: 33
 url: /java/com.aspose.words/body/
 ---
 

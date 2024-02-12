@@ -4,7 +4,7 @@ linktitle: SdtAppearance
 second_title: Aspose.Words for Java
 description: Specifies the appearance of a structured document tag in Java.
 type: docs
-weight: 537
+weight: 540
 url: /java/com.aspose.words/sdtappearance/
 ---
 
@@ -15,6 +15,20 @@ public class SdtAppearance
 ```
 
 Specifies the appearance of a structured document tag.
+
+ **Examples:** 
+
+Shows how to show tag around content.
+
+```
+
+ Document doc = new Document(getMyDir() + "Multi-section structured document tags.docx");
+ StructuredDocumentTagRangeStart tag = (StructuredDocumentTagRangeStart) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, true);
+
+ if (tag.getAppearance() == SdtAppearance.HIDDEN)
+     tag.setAppearance(SdtAppearance.TAGS);
+ 
+```
 ## Fields
 
 | Field | Description |

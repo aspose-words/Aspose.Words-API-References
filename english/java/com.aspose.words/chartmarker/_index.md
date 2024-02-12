@@ -4,7 +4,7 @@ linktitle: ChartMarker
 second_title: Aspose.Words for Java
 description: Represents a chart data marker in Java.
 type: docs
-weight: 71
+weight: 73
 url: /java/com.aspose.words/chartmarker/
 ---
 
@@ -86,6 +86,7 @@ Shows how to work with data points on a line chart.
 | [getShapeType()](#getShapeType) |  |
 | [getSize()](#getSize) | Gets chart marker size. |
 | [getSymbol()](#getSymbol) | Gets chart marker symbol. |
+| [isFillSupported()](#isFillSupported) |  |
 | [isFormatDefined()](#isFormatDefined) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setShapeType(int value)](#setShapeType-int) |  |
@@ -278,6 +279,16 @@ Shows how to work with data points on a line chart.
 
 **Returns:**
 int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol/) constants.
+### isFillSupported() {#isFillSupported}
+```
+public boolean isFillSupported()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isFormatDefined() {#isFormatDefined}
 ```
 public boolean isFormatDefined()

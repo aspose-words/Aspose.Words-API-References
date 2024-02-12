@@ -4,7 +4,7 @@ linktitle: MailMergeCheckErrors
 second_title: Aspose.Words for Java
 description: Specifies how Microsoft Word will report errors detected during mail merge in Java.
 type: docs
-weight: 400
+weight: 402
 url: /java/com.aspose.words/mailmergecheckerrors/
 ---
 

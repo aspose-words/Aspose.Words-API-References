@@ -4,7 +4,7 @@ linktitle: FindReplaceDirection
 second_title: Aspose.Words for Java
 description: Specifies direction for replace operations in Java.
 type: docs
-weight: 288
+weight: 290
 url: /java/com.aspose.words/findreplacedirection/
 ---
 

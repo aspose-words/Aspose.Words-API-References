@@ -4,7 +4,7 @@ linktitle: ChartXValueCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of X values for a chart series in Java.
 type: docs
-weight: 81
+weight: 83
 url: /java/com.aspose.words/chartxvaluecollection/
 ---
 

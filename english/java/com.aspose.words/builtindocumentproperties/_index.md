@@ -4,7 +4,7 @@ linktitle: BuiltInDocumentProperties
 second_title: Aspose.Words for Java
 description: A collection of built-in document properties in Java.
 type: docs
-weight: 49
+weight: 50
 url: /java/com.aspose.words/builtindocumentproperties/
 ---
 

@@ -4,7 +4,7 @@ linktitle: ChartSeries
 second_title: Aspose.Words for Java
 description: Represents chart series properties in Java.
 type: docs
-weight: 74
+weight: 76
 url: /java/com.aspose.words/chartseries/
 ---
 
@@ -653,7 +653,7 @@ Shows how to
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - Chart series.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series (Java).docx");
  Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
 
  // Remove all series of the Column type.

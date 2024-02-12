@@ -4,7 +4,7 @@ linktitle: ChartDataLabelCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of ChartDataLabel in Java.
 type: docs
-weight: 64
+weight: 65
 url: /java/com.aspose.words/chartdatalabelcollection/
 ---
 
@@ -113,6 +113,7 @@ Shows how to apply labels to data points in a line chart.
 | [getShowPercentage()](#getShowPercentage) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. |
 | [getShowSeriesName()](#getShowSeriesName) | Gets a Boolean to indicate the series name display behavior for the data labels of the entire series. |
 | [getShowValue()](#getShowValue) | Allows to specify whether values are to be displayed in the data labels of the entire series. |
+| [isFillSupported()](#isFillSupported) |  |
 | [isFormatDefined()](#isFormatDefined) |  |
 | [isInherited()](#isInherited) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
@@ -936,6 +937,16 @@ Shows how to work with data labels of a pie chart.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### isFillSupported() {#isFillSupported}
+```
+public boolean isFillSupported()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isFormatDefined() {#isFormatDefined}
 ```
 public boolean isFormatDefined()

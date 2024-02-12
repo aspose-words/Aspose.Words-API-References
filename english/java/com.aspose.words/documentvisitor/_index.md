@@ -4,7 +4,7 @@ linktitle: DocumentVisitor
 second_title: Aspose.Words for Java
 description: Base class for custom document visitors in Java.
 type: docs
-weight: 150
+weight: 152
 url: /java/com.aspose.words/documentvisitor/
 ---
 

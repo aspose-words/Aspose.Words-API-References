@@ -4,7 +4,7 @@ linktitle: ComparisonEvaluationResult
 second_title: Aspose.Words for Java
 description: The comparison evaluation result in Java.
 type: docs
-weight: 97
+weight: 99
 url: /java/com.aspose.words/comparisonevaluationresult/
 ---
 

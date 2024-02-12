@@ -4,7 +4,7 @@ linktitle: Shading
 second_title: Aspose.Words for Java
 description: Contains shading attributes for an object in Java.
 type: docs
-weight: 547
+weight: 550
 url: /java/com.aspose.words/shading/
 ---
 

@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 571
+weight: 574
 url: /java/com.aspose.words/structureddocumenttagrangestart/
 ---
 
@@ -74,6 +74,7 @@ Shows how to get the properties of multi-section structured document tags.
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
+| [getAppearance()](#getAppearance) | Gets the appearance of the structured document tag. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
 | [getColor()](#getColor) | Gets the color of the structured document tag. |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
@@ -111,6 +112,7 @@ Shows how to get the properties of multi-section structured document tags.
 | [remove()](#remove) | Removes itself from the parent. |
 | [removeAllChildren()](#removeAllChildren) | Removes all the nodes between this range start node and the range end node. |
 | [removeSelfOnly()](#removeSelfOnly) | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
+| [setAppearance(int value)](#setAppearance-int) | Sets the appearance of the structured document tag. |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets the color of the structured document tag. |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setLockContentControl(boolean value)](#setLockContentControl-boolean) | When set to  true , this property will prohibit a user from deleting this structured document tag. |
@@ -325,6 +327,30 @@ Shows how to find out if a tables are nested.
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+### getAppearance() {#getAppearance}
+```
+public int getAppearance()
+```
+
+
+Gets the appearance of the structured document tag.
+
+ **Examples:** 
+
+Shows how to show tag around content.
+
+```
+
+ Document doc = new Document(getMyDir() + "Multi-section structured document tags.docx");
+ StructuredDocumentTagRangeStart tag = (StructuredDocumentTagRangeStart) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, true);
+
+ if (tag.getAppearance() == SdtAppearance.HIDDEN)
+     tag.setAppearance(SdtAppearance.TAGS);
+ 
+```
+
+**Returns:**
+int - The appearance of the structured document tag. The returned value is one of [SdtAppearance](../../com.aspose.words/sdtappearance/) constants.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -1301,7 +1327,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (147606,6)
+Returns  true  if this node can contain other nodes. (147948,6)
 
  **Examples:** 
 
@@ -1701,6 +1727,33 @@ public void removeSelfOnly()
 
 
 Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree.
+
+### setAppearance(int value) {#setAppearance-int}
+```
+public void setAppearance(int value)
+```
+
+
+Sets the appearance of the structured document tag.
+
+ **Examples:** 
+
+Shows how to show tag around content.
+
+```
+
+ Document doc = new Document(getMyDir() + "Multi-section structured document tags.docx");
+ StructuredDocumentTagRangeStart tag = (StructuredDocumentTagRangeStart) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, true);
+
+ if (tag.getAppearance() == SdtAppearance.HIDDEN)
+     tag.setAppearance(SdtAppearance.TAGS);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The appearance of the structured document tag. The value must be one of [SdtAppearance](../../com.aspose.words/sdtappearance/) constants. |
 
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```

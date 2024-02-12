@@ -42,8 +42,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);

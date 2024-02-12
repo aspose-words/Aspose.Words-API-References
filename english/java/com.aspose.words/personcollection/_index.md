@@ -4,7 +4,7 @@ linktitle: PersonCollection
 second_title: Aspose.Words for Java
 description: Represents a list of persons who are bibliography source contributors in Java.
 type: docs
-weight: 494
+weight: 497
 url: /java/com.aspose.words/personcollection/
 ---
 
@@ -46,7 +46,34 @@ Shows how to get bibliography sources available in the document.
 
 | Method | Description |
 | --- | --- |
+| [get(int index)](#get-int) | Returns a person at the specified index. |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
 | [iterator()](#iterator) |  |
+### get(int index) {#get-int}
+```
+public Person get(int index)
+```
+
+
+Returns a person at the specified index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection. |
+
+**Returns:**
+[Person](../../com.aspose.words/person/) - A person at the specified index.
+### getCount() {#getCount}
+```
+public int getCount()
+```
+
+
+Gets the number of elements contained in the collection.
+
+**Returns:**
+int - The number of elements contained in the collection.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()

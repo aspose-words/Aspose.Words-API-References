@@ -4,7 +4,7 @@ linktitle: ChartAxis
 second_title: Aspose.Words for Java
 description: Represents the axis options of the chart in Java.
 type: docs
-weight: 59
+weight: 60
 url: /java/com.aspose.words/chartaxis/
 ---
 
@@ -87,7 +87,8 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getDefaultFontSize()](#getDefaultFontSize) |  |
 | [getDefaultTitleText()](#getDefaultTitleText) |  |
 | [getDisplayUnit()](#getDisplayUnit) | Specifies the scaling value of the display units for the value axis. |
-| [getDocument()](#getDocument) | Returns the Document the title holder belongs. |
+| [getDocument()](#getDocument) | Returns the document containing the parent chart. |
+| [getFormat()](#getFormat) | Provides access to line formatting of the axis and fill of the tick labels. |
 | [getHidden()](#getHidden) | Gets a flag indicating whether this axis is hidden or not. |
 | [getMajorTickMark()](#getMajorTickMark) | Gets the major tick marks. |
 | [getMajorUnit()](#getMajorUnit) | Gets the distance between major tick marks. |
@@ -100,11 +101,13 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getNumberFormat()](#getNumberFormat) | Returns a [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) object that allows defining number formats for the axis. |
 | [getReverseOrder()](#getReverseOrder) | Gets a flag indicating whether values of axis should be displayed in reverse order, i.e. |
 | [getScaling()](#getScaling) | Provides access to the scaling options of the axis. |
+| [getShapeType()](#getShapeType) |  |
 | [getTickLabelAlignment()](#getTickLabelAlignment) | Gets text alignment of axis tick labels. |
 | [getTickLabelOffset()](#getTickLabelOffset) | Gets the distance of labels from the axis. |
 | [getTickLabelPosition()](#getTickLabelPosition) | Gets the position of the tick labels on the axis. |
 | [getTickLabelSpacing()](#getTickLabelSpacing) | Gets the interval, at which tick labels are drawn. |
 | [getTickLabelSpacingIsAuto()](#getTickLabelSpacingIsAuto) | Gets a flag indicating whether automatic interval of drawing tick labels shall be used. |
+| [getTickLabels()](#getTickLabels) | Provides access to the properties of the axis tick mark labels. |
 | [getTickMarkSpacing()](#getTickMarkSpacing) | Gets the interval, at which tick marks are drawn. |
 | [getTitle()](#getTitle) | Provides access to the axis title properties. |
 | [getTitleDeleted()](#getTitleDeleted) |  |
@@ -114,8 +117,11 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [hasMajorGridlines(boolean value)](#hasMajorGridlines-boolean) | Sets a flag indicating whether the axis has major gridlines. |
 | [hasMinorGridlines()](#hasMinorGridlines) | Gets a flag indicating whether the axis has minor gridlines. |
 | [hasMinorGridlines(boolean value)](#hasMinorGridlines-boolean) | Sets a flag indicating whether the axis has minor gridlines. |
+| [isFillSupported()](#isFillSupported) |  |
+| [isFormatDefined()](#isFormatDefined) |  |
 | [isInherited()](#isInherited) |  |
 | [isVisible()](#isVisible) |  |
+| [materializeSpPr()](#materializeSpPr) |  |
 | [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean) | Sets a flag indicating whether the value axis crosses the category axis between categories. |
 | [setBaseTimeUnit(int value)](#setBaseTimeUnit-int) | Sets the smallest time unit that is represented on the time category axis. |
 | [setCategoryType(int value)](#setCategoryType-int) | Sets type of the category axis. |
@@ -131,6 +137,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [setMinorUnitIsAuto(boolean value)](#setMinorUnitIsAuto-boolean) | Sets a flag indicating whether default distance between minor tick marks shall be used. |
 | [setMinorUnitScale(int value)](#setMinorUnitScale-int) | Sets the scale value for minor tick marks on the time category axis. |
 | [setReverseOrder(boolean value)](#setReverseOrder-boolean) | Sets a flag indicating whether values of axis should be displayed in reverse order, i.e. |
+| [setShapeType(int value)](#setShapeType-int) |  |
 | [setTickLabelAlignment(int value)](#setTickLabelAlignment-int) | Sets text alignment of axis tick labels. |
 | [setTickLabelOffset(int value)](#setTickLabelOffset-int) | Sets the distance of labels from the axis. |
 | [setTickLabelPosition(int value)](#setTickLabelPosition-int) | Sets the position of the tick labels on the axis. |
@@ -219,8 +226,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -524,10 +533,24 @@ public DocumentBase getDocument()
 ```
 
 
-Returns the Document the title holder belongs.
+Returns the document containing the parent chart.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase/) - The Document the title holder belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document containing the parent chart.
+### getFormat() {#getFormat}
+```
+public ChartFormat getFormat()
+```
+
+
+Provides access to line formatting of the axis and fill of the tick labels.
+
+ **Remarks:** 
+
+Fill of chart tick marks can be changed only for pre Word 2016 charts. Word 2016 charts do not support this.
+
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
 ### getHidden() {#getHidden}
 ```
 public boolean getHidden()
@@ -1255,8 +1278,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -1284,6 +1309,16 @@ Shows how to insert chart with date/time values.
 
 **Returns:**
 [AxisScaling](../../com.aspose.words/axisscaling/) - The corresponding [AxisScaling](../../com.aspose.words/axisscaling/) value.
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
+```
+
+
+
+
+**Returns:**
+int
 ### getTickLabelAlignment() {#getTickLabelAlignment}
 ```
 public int getTickLabelAlignment()
@@ -1375,58 +1410,6 @@ Valid range is from 0 to 1000 percent inclusive. Default value is 100%.
 
 The property has effect only for category axes. It is not supported by MS Office 2016 new charts.
 
- **Examples:** 
-
-Shows how to insert a chart and modify the appearance of its axes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
-
- // Chart axes have various options that can change their appearance,
- // such as their direction, major/minor unit ticks, and tick marks.
- ChartAxis xAxis = chart.getAxisX();
- xAxis.setCategoryType(AxisCategoryType.CATEGORY);
- xAxis.setCrosses(AxisCrosses.MINIMUM);
- xAxis.setReverseOrder(false);
- xAxis.setMajorTickMark(AxisTickMark.INSIDE);
- xAxis.setMinorTickMark(AxisTickMark.CROSS);
- xAxis.setMajorUnit(10.0d);
- xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
- xAxis.setTickMarkSpacing(1);
-
- ChartAxis yAxis = chart.getAxisY();
- yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
- yAxis.setCrosses(AxisCrosses.MAXIMUM);
- yAxis.setReverseOrder(true);
- yAxis.setMajorTickMark(AxisTickMark.INSIDE);
- yAxis.setMinorTickMark(AxisTickMark.CROSS);
- yAxis.setMajorUnit(100.0d);
- yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
-
- // Column charts do not have a Z-axis.
- Assert.assertNull(chart.getAxisZ());
-
- doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
- 
-```
-
 **Returns:**
 int - The distance of labels from the axis.
 ### getTickLabelPosition() {#getTickLabelPosition}
@@ -1440,58 +1423,6 @@ Gets the position of the tick labels on the axis.
  **Remarks:** 
 
 The property is not supported by MS Office 2016 new charts.
-
- **Examples:** 
-
-Shows how to insert a chart and modify the appearance of its axes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
-
- // Chart axes have various options that can change their appearance,
- // such as their direction, major/minor unit ticks, and tick marks.
- ChartAxis xAxis = chart.getAxisX();
- xAxis.setCategoryType(AxisCategoryType.CATEGORY);
- xAxis.setCrosses(AxisCrosses.MINIMUM);
- xAxis.setReverseOrder(false);
- xAxis.setMajorTickMark(AxisTickMark.INSIDE);
- xAxis.setMinorTickMark(AxisTickMark.CROSS);
- xAxis.setMajorUnit(10.0d);
- xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
- xAxis.setTickMarkSpacing(1);
-
- ChartAxis yAxis = chart.getAxisY();
- yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
- yAxis.setCrosses(AxisCrosses.MAXIMUM);
- yAxis.setReverseOrder(true);
- yAxis.setMajorTickMark(AxisTickMark.INSIDE);
- yAxis.setMinorTickMark(AxisTickMark.CROSS);
- yAxis.setMajorUnit(100.0d);
- yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
-
- // Column charts do not have a Z-axis.
- Assert.assertNull(chart.getAxisZ());
-
- doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
- 
-```
 
 **Returns:**
 int - The position of the tick labels on the axis. The returned value is one of [AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition/) constants.
@@ -1507,7 +1438,7 @@ Gets the interval, at which tick labels are drawn.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
-Setting this property sets the [getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis/\#getTickLabelSpacingIsAuto) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setTickLabelSpacingIsAuto-boolean) property to  false .
+Setting this property sets the [AxisTickLabels.isAutoSpacing()](../../com.aspose.words/axisticklabels/\#isAutoSpacing) / [AxisTickLabels.isAutoSpacing(boolean)](../../com.aspose.words/axisticklabels/\#isAutoSpacing-boolean) property to  false .
 
  **Examples:** 
 
@@ -1582,60 +1513,18 @@ Default value is  true .
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
 
- **Examples:** 
-
-Shows how to insert a chart and modify the appearance of its axes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
-
- // Chart axes have various options that can change their appearance,
- // such as their direction, major/minor unit ticks, and tick marks.
- ChartAxis xAxis = chart.getAxisX();
- xAxis.setCategoryType(AxisCategoryType.CATEGORY);
- xAxis.setCrosses(AxisCrosses.MINIMUM);
- xAxis.setReverseOrder(false);
- xAxis.setMajorTickMark(AxisTickMark.INSIDE);
- xAxis.setMinorTickMark(AxisTickMark.CROSS);
- xAxis.setMajorUnit(10.0d);
- xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
- xAxis.setTickMarkSpacing(1);
-
- ChartAxis yAxis = chart.getAxisY();
- yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
- yAxis.setCrosses(AxisCrosses.MAXIMUM);
- yAxis.setReverseOrder(true);
- yAxis.setMajorTickMark(AxisTickMark.INSIDE);
- yAxis.setMinorTickMark(AxisTickMark.CROSS);
- yAxis.setMajorUnit(100.0d);
- yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
-
- // Column charts do not have a Z-axis.
- Assert.assertNull(chart.getAxisZ());
-
- doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
- 
-```
-
 **Returns:**
 boolean - A flag indicating whether automatic interval of drawing tick labels shall be used.
+### getTickLabels() {#getTickLabels}
+```
+public AxisTickLabels getTickLabels()
+```
+
+
+Provides access to the properties of the axis tick mark labels.
+
+**Returns:**
+[AxisTickLabels](../../com.aspose.words/axisticklabels/) - The corresponding [AxisTickLabels](../../com.aspose.words/axisticklabels/) value.
 ### getTickMarkSpacing() {#getTickMarkSpacing}
 ```
 public int getTickMarkSpacing()
@@ -1864,8 +1753,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -1927,8 +1818,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -1993,8 +1886,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -2056,8 +1951,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -2088,6 +1985,26 @@ Shows how to insert chart with date/time values.
 | --- | --- | --- |
 | value | boolean | A flag indicating whether the axis has minor gridlines. |
 
+### isFillSupported() {#isFillSupported}
+```
+public boolean isFillSupported()
+```
+
+
+
+
+**Returns:**
+boolean
+### isFormatDefined() {#isFormatDefined}
+```
+public boolean isFormatDefined()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isInherited() {#isInherited}
 ```
 public boolean isInherited()
@@ -2108,6 +2025,14 @@ public boolean isVisible()
 
 **Returns:**
 boolean
+### materializeSpPr() {#materializeSpPr}
+```
+public void materializeSpPr()
+```
+
+
+
+
 ### setAxisBetweenCategories(boolean value) {#setAxisBetweenCategories-boolean}
 ```
 public void setAxisBetweenCategories(boolean value)
@@ -2192,8 +2117,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -3094,6 +3021,19 @@ Shows how to insert a chart and modify the appearance of its axes.
 | --- | --- | --- |
 | value | boolean | A flag indicating whether values of axis should be displayed in reverse order, i.e. |
 
+### setShapeType(int value) {#setShapeType-int}
+```
+public void setShapeType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setTickLabelAlignment(int value) {#setTickLabelAlignment-int}
 ```
 public void setTickLabelAlignment(int value)
@@ -3188,58 +3128,6 @@ Valid range is from 0 to 1000 percent inclusive. Default value is 100%.
 
 The property has effect only for category axes. It is not supported by MS Office 2016 new charts.
 
- **Examples:** 
-
-Shows how to insert a chart and modify the appearance of its axes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
-
- // Chart axes have various options that can change their appearance,
- // such as their direction, major/minor unit ticks, and tick marks.
- ChartAxis xAxis = chart.getAxisX();
- xAxis.setCategoryType(AxisCategoryType.CATEGORY);
- xAxis.setCrosses(AxisCrosses.MINIMUM);
- xAxis.setReverseOrder(false);
- xAxis.setMajorTickMark(AxisTickMark.INSIDE);
- xAxis.setMinorTickMark(AxisTickMark.CROSS);
- xAxis.setMajorUnit(10.0d);
- xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
- xAxis.setTickMarkSpacing(1);
-
- ChartAxis yAxis = chart.getAxisY();
- yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
- yAxis.setCrosses(AxisCrosses.MAXIMUM);
- yAxis.setReverseOrder(true);
- yAxis.setMajorTickMark(AxisTickMark.INSIDE);
- yAxis.setMinorTickMark(AxisTickMark.CROSS);
- yAxis.setMajorUnit(100.0d);
- yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
-
- // Column charts do not have a Z-axis.
- Assert.assertNull(chart.getAxisZ());
-
- doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
- 
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3256,58 +3144,6 @@ Sets the position of the tick labels on the axis.
  **Remarks:** 
 
 The property is not supported by MS Office 2016 new charts.
-
- **Examples:** 
-
-Shows how to insert a chart and modify the appearance of its axes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
-
- // Chart axes have various options that can change their appearance,
- // such as their direction, major/minor unit ticks, and tick marks.
- ChartAxis xAxis = chart.getAxisX();
- xAxis.setCategoryType(AxisCategoryType.CATEGORY);
- xAxis.setCrosses(AxisCrosses.MINIMUM);
- xAxis.setReverseOrder(false);
- xAxis.setMajorTickMark(AxisTickMark.INSIDE);
- xAxis.setMinorTickMark(AxisTickMark.CROSS);
- xAxis.setMajorUnit(10.0d);
- xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
- xAxis.setTickMarkSpacing(1);
-
- ChartAxis yAxis = chart.getAxisY();
- yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
- yAxis.setCrosses(AxisCrosses.MAXIMUM);
- yAxis.setReverseOrder(true);
- yAxis.setMajorTickMark(AxisTickMark.INSIDE);
- yAxis.setMinorTickMark(AxisTickMark.CROSS);
- yAxis.setMajorUnit(100.0d);
- yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
-
- // Column charts do not have a Z-axis.
- Assert.assertNull(chart.getAxisZ());
-
- doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3326,7 +3162,7 @@ Sets the interval, at which tick labels are drawn.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
-Setting this property sets the [getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis/\#getTickLabelSpacingIsAuto) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setTickLabelSpacingIsAuto-boolean) property to  false .
+Setting this property sets the [AxisTickLabels.isAutoSpacing()](../../com.aspose.words/axisticklabels/\#isAutoSpacing) / [AxisTickLabels.isAutoSpacing(boolean)](../../com.aspose.words/axisticklabels/\#isAutoSpacing-boolean) property to  false .
 
  **Examples:** 
 
@@ -3403,58 +3239,6 @@ Sets a flag indicating whether automatic interval of drawing tick labels shall b
 Default value is  true .
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
-
- **Examples:** 
-
-Shows how to insert a chart and modify the appearance of its axes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
-
- // Chart axes have various options that can change their appearance,
- // such as their direction, major/minor unit ticks, and tick marks.
- ChartAxis xAxis = chart.getAxisX();
- xAxis.setCategoryType(AxisCategoryType.CATEGORY);
- xAxis.setCrosses(AxisCrosses.MINIMUM);
- xAxis.setReverseOrder(false);
- xAxis.setMajorTickMark(AxisTickMark.INSIDE);
- xAxis.setMinorTickMark(AxisTickMark.CROSS);
- xAxis.setMajorUnit(10.0d);
- xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
- xAxis.setTickMarkSpacing(1);
-
- ChartAxis yAxis = chart.getAxisY();
- yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
- yAxis.setCrosses(AxisCrosses.MAXIMUM);
- yAxis.setReverseOrder(true);
- yAxis.setMajorTickMark(AxisTickMark.INSIDE);
- yAxis.setMinorTickMark(AxisTickMark.CROSS);
- yAxis.setMajorUnit(100.0d);
- yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
-
- // Column charts do not have a Z-axis.
- Assert.assertNull(chart.getAxisZ());
-
- doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

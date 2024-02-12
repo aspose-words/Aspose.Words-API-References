@@ -4,7 +4,7 @@ linktitle: IncorrectPasswordException
 second_title: Aspose.Words for Java
 description: Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing in Java.
 type: docs
-weight: 367
+weight: 369
 url: /java/com.aspose.words/incorrectpasswordexception/
 ---
 

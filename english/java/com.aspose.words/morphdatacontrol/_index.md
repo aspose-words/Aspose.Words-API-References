@@ -4,7 +4,7 @@ linktitle: MorphDataControl
 second_title: Aspose.Words for Java
 description: The MorphDataControl structure is an aggregate of six controls CheckBox ComboBox ListBox OptionButton TextBox and ToggleButton in Java.
 type: docs
-weight: 424
+weight: 427
 url: /java/com.aspose.words/morphdatacontrol/
 ---
 

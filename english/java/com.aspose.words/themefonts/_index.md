@@ -4,7 +4,7 @@ linktitle: ThemeFonts
 second_title: Aspose.Words for Java
 description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages getLatin / setLatinjava.lang.String getEastAsian / setEastAsianjava.lang.String and getComplexScript / setComplexScriptjava.lang.String in Java.
 type: docs
-weight: 614
+weight: 617
 url: /java/com.aspose.words/themefonts/
 ---
 

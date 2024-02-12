@@ -4,7 +4,7 @@ linktitle: Section
 second_title: Aspose.Words for Java
 description: Represents a single section in a document in Java.
 type: docs
-weight: 543
+weight: 546
 url: /java/com.aspose.words/section/
 ---
 

@@ -4,7 +4,7 @@ linktitle: HeaderFooter
 second_title: Aspose.Words for Java
 description: Represents a container for the header or footer text of a section in Java.
 type: docs
-weight: 334
+weight: 336
 url: /java/com.aspose.words/headerfooter/
 ---
 

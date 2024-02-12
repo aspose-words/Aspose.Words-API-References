@@ -4,7 +4,7 @@ linktitle: DmlEffectsRenderingMode
 second_title: Aspose.Words for Java
 description: Specifies how DrawingML effects are rendered to fixed page formats in Java.
 type: docs
-weight: 135
+weight: 137
 url: /java/com.aspose.words/dmleffectsrenderingmode/
 ---
 

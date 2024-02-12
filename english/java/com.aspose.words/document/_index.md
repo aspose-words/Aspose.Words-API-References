@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 138
+weight: 140
 url: /java/com.aspose.words/document/
 ---
 
@@ -266,6 +266,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [unlinkFields()](#unlinkFields) | Unlinks fields in the whole document. |
 | [unprotect()](#unprotect) | Removes protection from the document. |
 | [unprotect(String password)](#unprotect-java.lang.String) | Removes protection from the document if a correct password is specified. |
+| [updateActualReferenceMarks()](#updateActualReferenceMarks) | Updates the [Footnote.getActualReferenceMark()](../../com.aspose.words/footnote/\#getActualReferenceMark) property of all footnotes and endnotes in the document. |
 | [updateFields()](#updateFields) | Updates the values of fields in the whole document. |
 | [updateListLabels()](#updateListLabels) | Updates list labels for all list items in the document. |
 | [updatePageLayout()](#updatePageLayout) | Rebuilds the page layout of the document. |
@@ -8235,6 +8236,34 @@ Shows how to protect and unprotect a document.
 
 **Returns:**
 boolean -  true  if a correct password was specified and the document was unprotected.
+### updateActualReferenceMarks() {#updateActualReferenceMarks}
+```
+public void updateActualReferenceMarks()
+```
+
+
+Updates the [Footnote.getActualReferenceMark()](../../com.aspose.words/footnote/\#getActualReferenceMark) property of all footnotes and endnotes in the document.
+
+ **Remarks:** 
+
+Updating fields ( [updateFields()](../../com.aspose.words/document/\#updateFields)) may be necessary to get the correct result.
+
+ **Examples:** 
+
+Shows how to get actual footnote reference mark.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ Footnote footnote = (Footnote)doc.getChild(NodeType.FOOTNOTE, 1, true);
+ doc.updateFields();
+ doc.updateActualReferenceMarks();
+
+ Assert.assertEquals("1", footnote.getActualReferenceMark());
+ 
+```
+
 ### updateFields() {#updateFields}
 ```
 public void updateFields()

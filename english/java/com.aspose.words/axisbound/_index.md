@@ -50,8 +50,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -156,8 +158,11 @@ Shows how to set custom axis bounds.
  // We can set axis bounds in the form of dates as well, limiting the chart to a period.
  // Setting the range to 1980-1990 will omit the two of the series values
  // that are outside of the range from the graph.
- chart.getAxisX().getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(1980, 1, 1)));
- chart.getAxisX().getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(1990, 1, 1)));
+
+ Date datetimeMin = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMaximum(new AxisBound(datetimeMax));
 
  doc.save(getArtifactsDir() + "Charts.AxisBound.docx");
  
@@ -197,8 +202,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -263,8 +270,10 @@ Shows how to insert chart with date/time values.
 
  // Set lower and upper bounds for the X-axis.
  ChartAxis xAxis = chart.getAxisX();
- xAxis.getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(2017, 11, 5)));
- xAxis.getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(2017, 12, 3)));
+ Date datetimeMin = DocumentHelper.createDate(2017, 11, 5);
+ xAxis.getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(2017, 12, 3);
+ xAxis.getScaling().setMaximum(new AxisBound(datetimeMax));
 
  // Set the major units of the X-axis to a week, and the minor units to a day.
  xAxis.setBaseTimeUnit(AxisTimeUnit.DAYS);
@@ -370,8 +379,11 @@ Shows how to set custom axis bounds.
  // We can set axis bounds in the form of dates as well, limiting the chart to a period.
  // Setting the range to 1980-1990 will omit the two of the series values
  // that are outside of the range from the graph.
- chart.getAxisX().getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(1980, 1, 1)));
- chart.getAxisX().getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(1990, 1, 1)));
+
+ Date datetimeMin = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMaximum(new AxisBound(datetimeMax));
 
  doc.save(getArtifactsDir() + "Charts.AxisBound.docx");
  
@@ -439,8 +451,11 @@ Shows how to set custom axis bounds.
  // We can set axis bounds in the form of dates as well, limiting the chart to a period.
  // Setting the range to 1980-1990 will omit the two of the series values
  // that are outside of the range from the graph.
- chart.getAxisX().getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(1980, 1, 1)));
- chart.getAxisX().getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(1990, 1, 1)));
+
+ Date datetimeMin = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMaximum(new AxisBound(datetimeMax));
 
  doc.save(getArtifactsDir() + "Charts.AxisBound.docx");
  
@@ -518,8 +533,11 @@ Shows how to set custom axis bounds.
  // We can set axis bounds in the form of dates as well, limiting the chart to a period.
  // Setting the range to 1980-1990 will omit the two of the series values
  // that are outside of the range from the graph.
- chart.getAxisX().getScaling().setMinimum(new AxisBound(DocumentHelper.createDate(1980, 1, 1)));
- chart.getAxisX().getScaling().setMaximum(new AxisBound(DocumentHelper.createDate(1990, 1, 1)));
+
+ Date datetimeMin = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMinimum(new AxisBound(datetimeMin));
+ Date datetimeMax = DocumentHelper.createDate(1980, 1, 1);
+ chart.getAxisX().getScaling().setMaximum(new AxisBound(datetimeMax));
 
  doc.save(getArtifactsDir() + "Charts.AxisBound.docx");
  

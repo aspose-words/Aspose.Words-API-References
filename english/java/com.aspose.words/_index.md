@@ -45,6 +45,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [AxisScaleType](../com.aspose.words/axisscaletype/) | Specifies the possible scale types for an axis. |
 | [AxisScaling](../com.aspose.words/axisscaling/) | Represents the scaling options of the axis. |
 | [AxisTickLabelPosition](../com.aspose.words/axisticklabelposition/) | Specifies the possible positions for tick labels. |
+| [AxisTickLabels](../com.aspose.words/axisticklabels/) | Represents properties of axis tick mark labels. |
 | [AxisTickMark](../com.aspose.words/axistickmark/) | Specifies the possible positions for tick marks. |
 | [AxisTimeUnit](../com.aspose.words/axistimeunit/) | Specifies the unit of time for axes. |
 | [BarcodeParameters](../com.aspose.words/barcodeparameters/) | Container class for barcode parameters to pass-through to BarcodeGenerator. |
@@ -88,6 +89,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartDataLabelCollection](../com.aspose.words/chartdatalabelcollection/) | Represents a collection of [ChartDataLabel](../com.aspose.words/chartdatalabel/). |
 | [ChartDataPoint](../com.aspose.words/chartdatapoint/) | Allows to specify formatting of a single data point on the chart. |
 | [ChartDataPointCollection](../com.aspose.words/chartdatapointcollection/) | Represents collection of a [ChartDataPoint](../com.aspose.words/chartdatapoint/). |
+| [ChartDataTable](../com.aspose.words/chartdatatable/) | Allows to specify properties of a chart data table. |
 | [ChartFormat](../com.aspose.words/chartformat/) | Represents the formatting of a chart element. |
 | [ChartLegend](../com.aspose.words/chartlegend/) | Represents chart legend properties. |
 | [ChartLegendEntry](../com.aspose.words/chartlegendentry/) | Represents a chart legend entry. |
@@ -432,6 +434,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Margins](../com.aspose.words/margins/) | Specifies preset margins. |
 | [MarkdownLinkExportMode](../com.aspose.words/markdownlinkexportmode/) | The mode of exporting links to a target document. |
 | [MarkdownListExportMode](../com.aspose.words/markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
+| [MarkdownLoadOptions](../com.aspose.words/markdownloadoptions/) | Allows to specify additional options when loading [LoadFormat.\#MARKDOWN](../com.aspose.words/loadformat/\#MARKDOWN) document into a [Document](../com.aspose.words/document/) object. |
 | [MarkdownSaveOptions](../com.aspose.words/markdownsaveoptions/) | Class to specify additional options when saving a document into the [SaveFormat.\#MARKDOWN](../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [MarkerSymbol](../com.aspose.words/markersymbol/) | Specifies marker symbol style. |
 | [MarkupLevel](../com.aspose.words/markuplevel/) | Specifies the level in the document tree where a particular [StructuredDocumentTag](../com.aspose.words/structureddocumenttag/) can occur. |

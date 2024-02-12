@@ -4,7 +4,7 @@ linktitle: TableStyle
 second_title: Aspose.Words for Java
 description: Represents a table style in Java.
 type: docs
-weight: 588
+weight: 591
 url: /java/com.aspose.words/tablestyle/
 ---
 
@@ -111,13 +111,16 @@ Shows how to create custom style settings for the table.
 | [getName()](#getName) | Gets the name of the style. |
 | [getNextParagraphStyleName()](#getNextParagraphStyleName) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [getParagraphFormat()](#getParagraphFormat) | Gets the paragraph formatting of the style. |
+| [getPriority()](#getPriority) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
 | [getRightPadding()](#getRightPadding) | Gets the amount of space (in points) to add to the right of the contents of table cells. |
 | [getRowStripe()](#getRowStripe) | Gets a number of rows to include in the banding when the style specifies odd/even row banding. |
+| [getSemiHidden()](#getSemiHidden) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
 | [getShading()](#getShading) | Gets a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for table cells. |
 | [getStyleIdentifier()](#getStyleIdentifier) | Gets the locale independent style identifier for a built-in style. |
 | [getStyles()](#getStyles) | Gets the collection of styles this style belongs to. |
 | [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of table cells. |
 | [getType()](#getType) | Gets the style type (paragraph or character). |
+| [getUnhideWhenUsed()](#getUnhideWhenUsed) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. |
 | [getVerticalAlignment()](#getVerticalAlignment) | Specifies the vertical alignment for the cells. |
 | [isHeading()](#isHeading) | True when the style is one of the built-in Heading styles. |
 | [isQuickStyle()](#isQuickStyle) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
@@ -142,11 +145,14 @@ Shows how to create custom style settings for the table.
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the style. |
 | [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setPriority(int value)](#setPriority-int) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
 | [setRightPadding(double value)](#setRightPadding-double) | Sets the amount of space (in points) to add to the right of the contents of table cells. |
 | [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object) |  |
 | [setRowStripe(int value)](#setRowStripe-int) | Sets a number of rows to include in the banding when the style specifies odd/even row banding. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setSemiHidden(boolean value)](#setSemiHidden-boolean) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
 | [setTopPadding(double value)](#setTopPadding-double) | Sets the amount of space (in points) to add above the contents of table cells. |
+| [setUnhideWhenUsed(boolean value)](#setUnhideWhenUsed-boolean) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int) | Specifies the vertical alignment for the cells. |
 ### clearCellAttrs() {#clearCellAttrs}
 ```
@@ -1613,6 +1619,38 @@ Shows how to create and use a paragraph style with list formatting.
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the style.
+### getPriority() {#getPriority}
+```
+public int getPriority()
+```
+
+
+Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value.
 ### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
@@ -1730,6 +1768,38 @@ Shows how to create conditional table styles that alternate between rows.
 
 **Returns:**
 int - A number of rows to include in the banding when the style specifies odd/even row banding.
+### getSemiHidden() {#getSemiHidden}
+```
+public boolean getSemiHidden()
+```
+
+
+Gets/sets whether the style hides from the Styles gallery and from the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getShading() {#getShading}
 ```
 public Shading getShading()
@@ -1923,6 +1993,38 @@ Shows how to access a document's style collection.
 
 **Returns:**
 int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype/) constants.
+### getUnhideWhenUsed() {#getUnhideWhenUsed}
+```
+public boolean getUnhideWhenUsed()
+```
+
+
+Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getVerticalAlignment() {#getVerticalAlignment}
 ```
 public int getVerticalAlignment()
@@ -2857,6 +2959,41 @@ public void setParaAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
+### setPriority(int value) {#setPriority-int}
+```
+public void setPriority(int value)
+```
+
+
+Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. |
+
 ### setRightPadding(double value) {#setRightPadding-double}
 ```
 public void setRightPadding(double value)
@@ -3008,6 +3145,41 @@ public void setRunAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
+### setSemiHidden(boolean value) {#setSemiHidden-boolean}
+```
+public void setSemiHidden(boolean value)
+```
+
+
+Gets/sets whether the style hides from the Styles gallery and from the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
 ### setTopPadding(double value) {#setTopPadding-double}
 ```
 public void setTopPadding(double value)
@@ -3063,6 +3235,41 @@ Shows how to create custom style settings for the table.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add above the contents of table cells. |
+
+### setUnhideWhenUsed(boolean value) {#setUnhideWhenUsed-boolean}
+```
+public void setUnhideWhenUsed(boolean value)
+```
+
+
+Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int}
 ```

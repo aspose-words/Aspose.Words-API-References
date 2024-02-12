@@ -4,7 +4,7 @@ linktitle: Style
 second_title: Aspose.Words for Java
 description: Represents a single built-in or user-defined style in Java.
 type: docs
-weight: 572
+weight: 575
 url: /java/com.aspose.words/style/
 ---
 
@@ -117,9 +117,12 @@ Shows how to create and apply a custom style.
 | [getName()](#getName) | Gets the name of the style. |
 | [getNextParagraphStyleName()](#getNextParagraphStyleName) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [getParagraphFormat()](#getParagraphFormat) | Gets the paragraph formatting of the style. |
+| [getPriority()](#getPriority) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
+| [getSemiHidden()](#getSemiHidden) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
 | [getStyleIdentifier()](#getStyleIdentifier) | Gets the locale independent style identifier for a built-in style. |
 | [getStyles()](#getStyles) | Gets the collection of styles this style belongs to. |
 | [getType()](#getType) | Gets the style type (paragraph or character). |
+| [getUnhideWhenUsed()](#getUnhideWhenUsed) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. |
 | [isHeading()](#isHeading) | True when the style is one of the built-in Heading styles. |
 | [isQuickStyle()](#isQuickStyle) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
 | [isQuickStyle(boolean value)](#isQuickStyle-boolean) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
@@ -132,7 +135,10 @@ Shows how to create and apply a custom style.
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the style. |
 | [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setPriority(int value)](#setPriority-int) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setSemiHidden(boolean value)](#setSemiHidden-boolean) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
+| [setUnhideWhenUsed(boolean value)](#setUnhideWhenUsed-boolean) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. |
 ### clearParaAttrs() {#clearParaAttrs}
 ```
 public void clearParaAttrs()
@@ -869,6 +875,70 @@ Shows how to create and use a paragraph style with list formatting.
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the style.
+### getPriority() {#getPriority}
+```
+public int getPriority()
+```
+
+
+Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value.
+### getSemiHidden() {#getSemiHidden}
+```
+public boolean getSemiHidden()
+```
+
+
+Gets/sets whether the style hides from the Styles gallery and from the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
@@ -956,6 +1026,38 @@ Shows how to access a document's style collection.
 
 **Returns:**
 int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype/) constants.
+### getUnhideWhenUsed() {#getUnhideWhenUsed}
+```
+public boolean getUnhideWhenUsed()
+```
+
+
+Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isHeading() {#isHeading}
 ```
 public boolean isHeading()
@@ -1324,6 +1426,41 @@ public void setParaAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
+### setPriority(int value) {#setPriority-int}
+```
+public void setPriority(int value)
+```
+
+
+Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. |
+
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
@@ -1337,4 +1474,74 @@ public void setRunAttr(int key, Object value)
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
+
+### setSemiHidden(boolean value) {#setSemiHidden-boolean}
+```
+public void setSemiHidden(boolean value)
+```
+
+
+Gets/sets whether the style hides from the Styles gallery and from the Styles task pane.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
+### setUnhideWhenUsed(boolean value) {#setUnhideWhenUsed-boolean}
+```
+public void setUnhideWhenUsed(boolean value)
+```
+
+
+Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery.
+
+ **Examples:** 
+
+Shows how to prioritize and hide a style.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 

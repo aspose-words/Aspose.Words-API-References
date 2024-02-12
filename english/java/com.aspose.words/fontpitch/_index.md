@@ -4,7 +4,7 @@ linktitle: FontPitch
 second_title: Aspose.Words for Java
 description: Represents the font pitch in Java.
 type: docs
-weight: 303
+weight: 305
 url: /java/com.aspose.words/fontpitch/
 ---
 
