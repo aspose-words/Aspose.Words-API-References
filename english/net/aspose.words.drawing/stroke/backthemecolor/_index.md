@@ -21,7 +21,7 @@ public ThemeColor BackThemeColor { get; set; }
 Shows how to set back theme color and tint and shade.
 
 ```csharp
-Document doc = new Document(MyDir + "Stroke gradient outline.docx");            
+Document doc = new Document(MyDir + "Stroke gradient outline.docx");
 
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;

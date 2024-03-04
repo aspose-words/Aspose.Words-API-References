@@ -25,7 +25,7 @@ The allowed values are within the range from -1 (the darkest) to 1 (the lightest
 Shows how to set back theme color and tint and shade.
 
 ```csharp
-Document doc = new Document(MyDir + "Stroke gradient outline.docx");            
+Document doc = new Document(MyDir + "Stroke gradient outline.docx");
 
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;

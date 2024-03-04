@@ -75,9 +75,9 @@ axis.MinorTickMark = AxisTickMark.Inside;
 // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
-axis.TickLabelAlignment = ParagraphAlignment.Right;
+axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
-Assert.AreEqual(1, axis.TickLabelSpacing);
+Assert.AreEqual(1, axis.TickLabels.Spacing);
 
 // Set the tick labels to display their value in millions.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;

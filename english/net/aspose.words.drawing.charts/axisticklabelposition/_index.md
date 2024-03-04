@@ -65,7 +65,7 @@ xAxis.HasMinorGridlines = true;
 
 // Define Y-axis properties for decimal values.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
