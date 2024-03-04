@@ -50,7 +50,7 @@ Document doc =
 // Note, that you can't set restricted types during or after building a report.
 ReportingEngine.SetRestrictedTypes(typeof(System.Type));
 // We set "AllowMissingMembers" option to avoid exceptions during building a report.
-ReportingEngine engine = new ReportingEngine() { Options = ReportBuildOptions.AllowMissingMembers };            
+ReportingEngine engine = new ReportingEngine() { Options = ReportBuildOptions.AllowMissingMembers };
 engine.BuildReport(doc, new object());
 
 // We get an empty string because we can't access the GetType() method.

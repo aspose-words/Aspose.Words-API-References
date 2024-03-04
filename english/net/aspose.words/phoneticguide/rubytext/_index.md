@@ -21,7 +21,7 @@ public string RubyText { get; }
 Shows how to get properties of the phonetic guide.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 // Use phonetic guide in the Asian text.
