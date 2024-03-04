@@ -47,7 +47,7 @@ if (moveCursorToAfterTheField)
     Assert.Null(builder.CurrentNode);
     builder.Write(" Text immediately after the field.");
 
-    Assert.AreEqual("\u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015 Text immediately after the field.", 
+    Assert.AreEqual("\u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015 Text immediately after the field.",
         doc.GetText().Trim());
 }
 else
@@ -55,7 +55,7 @@ else
     Assert.AreEqual(field.Start, builder.CurrentNode);
     builder.Write("Text immediately before the field. ");
 
-    Assert.AreEqual("Text immediately before the field. \u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015", 
+    Assert.AreEqual("Text immediately before the field. \u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015",
         doc.GetText().Trim());
 }
 ```

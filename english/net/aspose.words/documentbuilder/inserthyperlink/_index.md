@@ -34,6 +34,26 @@ This methods internally calls [`InsertField`](../insertfield/) to insert an MS W
 
 ## Examples
 
+Shows how to insert a hyperlink which references a local bookmark.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.StartBookmark("Bookmark1");
+builder.Write("Bookmarked text. ");
+builder.EndBookmark("Bookmark1");
+builder.Writeln("Text outside of the bookmark.");
+
+// Insert a HYPERLINK field that links to the bookmark.
+builder.Font.Color = Color.Blue;
+builder.Font.Underline = Underline.Single;
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
+```
+
 Shows how to insert a hyperlink field.
 
 ```csharp
@@ -52,27 +72,6 @@ builder.Writeln(".");
 
 // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
-```
-
-Shows how to insert a hyperlink which references a local bookmark.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.StartBookmark("Bookmark1");
-builder.Write("Bookmarked text. ");
-builder.EndBookmark("Bookmark1");
-builder.Writeln("Text outside of the bookmark.");
-
-// Insert a HYPERLINK field that links to the bookmark. We can pass field switches
-// to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
-builder.Font.Color = Color.Blue;
-builder.Font.Underline = Underline.Single;
-FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
-hyperlink.ScreenTip = "Hyperlink Tip";
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
 Shows how to use a document builder's formatting stack.

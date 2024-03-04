@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Create a valid bookmark, an entity that consists of nodes enclosed by a bookmark start node,
-// and a bookmark end node. 
+// and a bookmark end node.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");

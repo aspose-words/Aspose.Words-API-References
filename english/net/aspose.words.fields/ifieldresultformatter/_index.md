@@ -76,7 +76,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
     public string FormatNumeric(double value, string format)
     {
-        if (string.IsNullOrEmpty(mNumberFormat)) 
+        if (string.IsNullOrEmpty(mNumberFormat))
             return null;
 
         string newValue = String.Format(mNumberFormat, value);
@@ -123,7 +123,7 @@ private class FieldResultFormatter : IFieldResultFormatter
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +
@@ -133,7 +133,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
     private readonly string mNumberFormat;
     private readonly string mDateFormat;
-    private readonly string mGeneralFormat; 
+    private readonly string mGeneralFormat;
     private List<FormatInvocation> FormatInvocations { get; } = new List<FormatInvocation>();
 
     private class FormatInvocation
