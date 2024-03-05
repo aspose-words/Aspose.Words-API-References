@@ -30,7 +30,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clear](./clear/)() | Clears contents of this structured document tag and displays a placeholder if it is defined. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [get_Appearance](./get_appearance/)() const | Gets/sets the appearance of a structured document tag. |
+| [get_Appearance](./get_appearance/)() override | Gets/sets the appearance of a structured document tag. |
 | [get_BuildingBlockCategory](./get_buildingblockcategory/)() | Specifies category of building block for this **SDT** node. Can not be **null**. |
 | [get_BuildingBlockGallery](./get_buildingblockgallery/)() | Specifies type of building block for this **SDT**. Can not be **null**. |
 | [get_CalendarType](./get_calendartype/)() | Specifies the type of calendar for this **SDT**. Default is [Default](../sdtcalendartype/) |
@@ -97,7 +97,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [SmartTag](../smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |
-| [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) | Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Appearance](./get_appearance/). |
+| [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) override | Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Appearance](./get_appearance/). |
 | [set_BuildingBlockCategory](./set_buildingblockcategory/)(const System::String\&) | Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockCategory](./get_buildingblockcategory/). |
 | [set_BuildingBlockGallery](./set_buildingblockgallery/)(const System::String\&) | Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockGallery](./get_buildingblockgallery/). |
 | [set_CalendarType](./set_calendartype/)(Aspose::Words::Markup::SdtCalendarType) | Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_CalendarType](./get_calendartype/). |

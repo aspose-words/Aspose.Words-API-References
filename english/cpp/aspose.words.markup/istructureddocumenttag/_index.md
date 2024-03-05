@@ -20,6 +20,7 @@ class IStructuredDocumentTag : public virtual System::Object
 
 | Method | Description |
 | --- | --- |
+| virtual [get_Appearance](./get_appearance/)() |  |
 | virtual [get_Color](./get_color/)() | Gets the color of the structured document tag. |
 | virtual [get_Id](./get_id/)() | Specifies a unique read-only persistent numerical Id for this **SDT**. |
 | virtual [get_IsMultiSection](./get_ismultisection/)() |  |
@@ -40,6 +41,7 @@ class IStructuredDocumentTag : public virtual System::Object
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [IsRanged](./isranged/)() | Returns true if this instance is a ranged structured document tag. |
 | virtual [RemoveSelfOnly](./removeselfonly/)() |  |
+| virtual [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) |  |
 | virtual [set_Color](./set_color/)(System::Drawing::Color) | Sets the color of the structured document tag. |
 | virtual [set_IsShowingPlaceholderText](./set_isshowingplaceholdertext/)(bool) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). if set to true, this state shall be resumed (showing placeholder text) upon opening this document. |
 | virtual [set_LockContentControl](./set_lockcontentcontrol/)(bool) | When set to true, this property will prohibit a user from deleting this **SDT**. |

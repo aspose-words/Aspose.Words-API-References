@@ -51,6 +51,21 @@ for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape,
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
+## NodeRendererBase::Save(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) method
+
+
+
+
+```cpp
+void Aspose::Words::Rendering::NodeRendererBase::Save(const System::SharedPtr<System::IO::Stream> &stream, System::SharedPtr<Aspose::Words::Saving::SvgSaveOptions> saveOptions)
+```
+
+## See Also
+
+* Class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words for C++](../../../)
 ## NodeRendererBase::Save(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
 
 
@@ -92,6 +107,21 @@ math->GetMathRenderer()->Save(ArtifactsDir + u"Shape.RenderOfficeMath.png", save
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
+## NodeRendererBase::Save(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) method
+
+
+
+
+```cpp
+void Aspose::Words::Rendering::NodeRendererBase::Save(const System::String &fileName, System::SharedPtr<Aspose::Words::Saving::SvgSaveOptions> saveOptions)
+```
+
+## See Also
+
+* Class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words for C++](../../../)
 ## NodeRendererBase::Save(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
 
 
@@ -104,6 +134,21 @@ template<typename CharType,typename Traits> void Aspose::Words::Rendering::NodeR
 ## See Also
 
 * Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words for C++](../../../)
+## NodeRendererBase::Save(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) method
+
+
+
+
+```cpp
+template<typename CharType,typename Traits> void Aspose::Words::Rendering::NodeRendererBase::Save(std::basic_ostream<CharType, Traits> &stream, System::SharedPtr<Aspose::Words::Saving::SvgSaveOptions> saveOptions)
+```
+
+## See Also
+
+* Class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
