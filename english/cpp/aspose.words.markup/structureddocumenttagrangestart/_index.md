@@ -25,6 +25,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AppendChild](./appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the stdContent range. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
+| [get_Appearance](./get_appearance/)() override |  |
 | [get_Color](./get_color/)() override | Gets or sets the color of the structured document tag. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
@@ -65,6 +66,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](./removeallchildren/)() | Removes all the nodes between this range start node and the range end node. |
 | [RemoveSelfOnly](./removeselfonly/)() override | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
+| [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) override |  |
 | [set_Color](./set_color/)(System::Drawing::Color) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Color](./get_color/). |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
 | [set_IsShowingPlaceholderText](./set_isshowingplaceholdertext/)(bool) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText](./get_isshowingplaceholdertext/). |

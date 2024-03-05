@@ -195,6 +195,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [UnlinkFields](./unlinkfields/)() | Unlinks fields in the whole document. |
 | [Unprotect](./unprotect/)() | Removes protection from the document regardless of the password. |
 | [Unprotect](./unprotect/)(const System::String\&) | Removes protection from the document if a correct password is specified. |
+| [UpdateActualReferenceMarks](./updateactualreferencemarks/)() |  |
 | [UpdateFields](./updatefields/)() | Updates the values of fields in the whole document. |
 | [UpdateListLabels](./updatelistlabels/)() | Updates list labels for all list items in the document. |
 | [UpdatePageLayout](./updatepagelayout/)() | Rebuilds the page layout of the document. |

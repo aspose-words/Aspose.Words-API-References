@@ -50,13 +50,16 @@ class TableStyle : public Aspose::Words::Style,
 | [get_Name](../style/get_name/)() const | Gets or sets the name of the style. |
 | [get_NextParagraphStyleName](../style/get_nextparagraphstylename/)() | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [get_ParagraphFormat](../style/get_paragraphformat/)() | Gets the paragraph formatting of the style. |
+| [get_Priority](../style/get_priority/)() const |  |
 | [get_RightPadding](./get_rightpadding/)() | Gets or sets the amount of space (in points) to add to the right of the contents of table cells. |
 | [get_RowStripe](./get_rowstripe/)() | Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding. |
+| [get_SemiHidden](../style/get_semihidden/)() const |  |
 | [get_Shading](./get_shading/)() | Gets a [Shading](../shading/) object that refers to the shading formatting for table cells. |
 | [get_StyleIdentifier](../style/get_styleidentifier/)() const | Gets the locale independent style identifier for a built-in style. |
 | [get_Styles](../style/get_styles/)() const | Gets the collection of styles this style belongs to. |
 | [get_TopPadding](./get_toppadding/)() | Gets or sets the amount of space (in points) to add above the contents of table cells. |
 | [get_Type](../style/get_type/)() const | Gets the style type (paragraph or character). |
+| [get_UnhideWhenUsed](../style/get_unhidewhenused/)() const |  |
 | [get_VerticalAlignment](./get_verticalalignment/)() | Specifies the vertical alignment for the cells. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
@@ -75,9 +78,12 @@ class TableStyle : public Aspose::Words::Style,
 | [set_Locked](../style/set_locked/)(bool) |  |
 | [set_Name](../style/set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](../style/get_name/). |
 | [set_NextParagraphStyleName](../style/set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](../style/get_nextparagraphstylename/). |
+| [set_Priority](../style/set_priority/)(int32_t) |  |
 | [set_RightPadding](./set_rightpadding/)(double) | Setter for [Aspose::Words::TableStyle::get_RightPadding](./get_rightpadding/). |
 | [set_RowStripe](./set_rowstripe/)(int32_t) | Setter for [Aspose::Words::TableStyle::get_RowStripe](./get_rowstripe/). |
+| [set_SemiHidden](../style/set_semihidden/)(bool) |  |
 | [set_TopPadding](./set_toppadding/)(double) | Setter for [Aspose::Words::TableStyle::get_TopPadding](./get_toppadding/). |
+| [set_UnhideWhenUsed](../style/set_unhidewhenused/)(bool) |  |
 | [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::Tables::CellVerticalAlignment) | Setter for [Aspose::Words::TableStyle::get_VerticalAlignment](./get_verticalalignment/). |
 | static [Type](./type/)() |  |
 
