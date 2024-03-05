@@ -73,9 +73,9 @@ axis.minor_tick_mark = aw.drawing.charts.AxisTickMark.INSIDE
 # Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
 axis.scaling.minimum = aw.drawing.charts.AxisBound(-10)
 axis.scaling.maximum = aw.drawing.charts.AxisBound(30)
-axis.tick_label_alignment = aw.ParagraphAlignment.RIGHT
+axis.tick_labels.alignment = aw.ParagraphAlignment.RIGHT
 
-self.assertEqual(1, axis.tick_label_spacing)
+self.assertEqual(1, axis.tick_labels.spacing)
 
 # Set the tick labels to display their value in millions.
 axis.display_unit.unit = aw.drawing.charts.AxisBuiltInUnit.MILLIONS

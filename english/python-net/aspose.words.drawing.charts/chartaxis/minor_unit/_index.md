@@ -64,9 +64,9 @@ x_axis.major_tick_mark = aw.drawing.charts.AxisTickMark.INSIDE
 x_axis.minor_tick_mark = aw.drawing.charts.AxisTickMark.CROSS
 x_axis.major_unit = 10.0
 x_axis.minor_unit = 15.0
-x_axis.tick_label_offset = 50
-x_axis.tick_label_position = aw.drawing.charts.AxisTickLabelPosition.LOW
-x_axis.tick_label_spacing_is_auto = False
+x_axis.tick_labels.offset = 50
+x_axis.tick_labels.position = aw.drawing.charts.AxisTickLabelPosition.LOW
+x_axis.tick_labels.is_auto_spacing = False
 x_axis.tick_mark_spacing = 1
 
 y_axis = chart.axis_y
@@ -77,7 +77,7 @@ y_axis.major_tick_mark = aw.drawing.charts.AxisTickMark.INSIDE
 y_axis.minor_tick_mark = aw.drawing.charts.AxisTickMark.CROSS
 y_axis.major_unit = 100.0
 y_axis.minor_unit = 20.0
-y_axis.tick_label_position = aw.drawing.charts.AxisTickLabelPosition.NEXT_TO_AXIS
+y_axis.tick_labels.position = aw.drawing.charts.AxisTickLabelPosition.NEXT_TO_AXIS
 
 # Column charts do not have a Z-axis.
 self.assertIsNone(chart.axis_z)

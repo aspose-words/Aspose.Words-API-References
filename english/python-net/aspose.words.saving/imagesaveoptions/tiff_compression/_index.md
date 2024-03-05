@@ -42,7 +42,7 @@ Shows how to select the compression scheme to apply to a document that we conver
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 
-builder.insert_image(IMAGE_DIR + "Logo.jpg")
+builder.insert_image(IMAGE_DIR + "Tagged Image File Format.tiff")
 
 # Create an "ImageSaveOptions" object which we can pass to the document's "save" method
 # to modify the way in which that method renders the document into an image.

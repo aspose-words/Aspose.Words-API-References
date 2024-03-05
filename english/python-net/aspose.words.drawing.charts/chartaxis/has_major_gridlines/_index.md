@@ -66,7 +66,7 @@ x_axis.has_minor_gridlines = True
 
 # Define Y-axis properties for decimal values.
 y_axis = chart.axis_y
-y_axis.tick_label_position = aw.drawing.charts.AxisTickLabelPosition.HIGH
+y_axis.tick_labels.position = aw.drawing.charts.AxisTickLabelPosition.HIGH
 y_axis.major_unit = 100.0
 y_axis.minor_unit = 50.0
 y_axis.display_unit.unit = aw.drawing.charts.AxisBuiltInUnit.HUNDREDS

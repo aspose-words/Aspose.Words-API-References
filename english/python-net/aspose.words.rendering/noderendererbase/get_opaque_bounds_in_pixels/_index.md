@@ -77,14 +77,14 @@ office_math = doc.get_child(aw.NodeType.OFFICE_MATH, 0, True).as_office_math()
 renderer = aw.rendering.OfficeMathRenderer(office_math)
 
 # Verify the size of the image that the OfficeMath object will create when we render it.
-self.assertAlmostEqual(119.0, renderer.size_in_points.width, delta=0.2)
+self.assertAlmostEqual(119.0, renderer.size_in_points.width, delta=0.25)
 self.assertAlmostEqual(13.0, renderer.size_in_points.height, delta=0.1)
 
-self.assertAlmostEqual(119.0, renderer.bounds_in_points.width, delta=0.2)
+self.assertAlmostEqual(119.0, renderer.bounds_in_points.width, delta=0.25)
 self.assertAlmostEqual(13.0, renderer.bounds_in_points.height, delta=0.1)
 
 # Shapes with transparent parts may contain different values in the "opaque_bounds_in_points" properties.
-self.assertAlmostEqual(119.0, renderer.opaque_bounds_in_points.width, delta=0.2)
+self.assertAlmostEqual(119.0, renderer.opaque_bounds_in_points.width, delta=0.25)
 self.assertAlmostEqual(14.2, renderer.opaque_bounds_in_points.height, delta=0.1)
 
 # Get the shape size in pixels, with linear scaling to a specific DPI.
