@@ -23,7 +23,7 @@ class AxisDisplayUnit : public Aspose::Words::Drawing::Charts::Core::IDmlChartTi
 | --- | --- |
 | [AxisDisplayUnit](./axisdisplayunit/)() |  |
 | [get_CustomUnit](./get_customunit/)() const | Gets or sets a user-defined divisor to scale display units on the value axis. |
-| [get_Document](./get_document/)() override | Returns the [Document](../../aspose.words/document/) the title holder belongs. |
+| [get_Document](./get_document/)() | Returns the [Document](../../aspose.words/document/) the title holder belongs. |
 | [get_Unit](./get_unit/)() const | Gets or sets the scaling value of the display units as one of the predefined values. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |

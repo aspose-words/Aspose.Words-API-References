@@ -37,9 +37,12 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [get_Name](./get_name/)() const | Gets or sets the name of the style. |
 | [get_NextParagraphStyleName](./get_nextparagraphstylename/)() | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [get_ParagraphFormat](./get_paragraphformat/)() | Gets the paragraph formatting of the style. |
+| [get_Priority](./get_priority/)() const |  |
+| [get_SemiHidden](./get_semihidden/)() const |  |
 | [get_StyleIdentifier](./get_styleidentifier/)() const | Gets the locale independent style identifier for a built-in style. |
 | [get_Styles](./get_styles/)() const | Gets the collection of styles this style belongs to. |
 | [get_Type](./get_type/)() const | Gets the style type (paragraph or character). |
+| [get_UnhideWhenUsed](./get_unhidewhenused/)() const |  |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)() | Removes the specified style from the document. |
@@ -49,6 +52,9 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [set_Locked](./set_locked/)(bool) |  |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |
 | [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |
+| [set_Priority](./set_priority/)(int32_t) |  |
+| [set_SemiHidden](./set_semihidden/)(bool) |  |
+| [set_UnhideWhenUsed](./set_unhidewhenused/)(bool) |  |
 | static [Type](./type/)() |  |
 
 ## Examples

@@ -64,9 +64,9 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
  axis.getScaling().setMinimum(new AxisBound(-10));
  axis.getScaling().setMaximum(new AxisBound(30.0));
- axis.setTickLabelAlignment(ParagraphAlignment.RIGHT);
+ axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
- Assert.assertEquals(1, axis.getTickLabelSpacing());
+ Assert.assertEquals(1, axis.getTickLabels().getSpacing());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -152,9 +152,9 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
  axis.getScaling().setMinimum(new AxisBound(-10));
  axis.getScaling().setMaximum(new AxisBound(30.0));
- axis.setTickLabelAlignment(ParagraphAlignment.RIGHT);
+ axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
- Assert.assertEquals(1, axis.getTickLabelSpacing());
+ Assert.assertEquals(1, axis.getTickLabels().getSpacing());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -273,9 +273,9 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
  axis.getScaling().setMinimum(new AxisBound(-10));
  axis.getScaling().setMaximum(new AxisBound(30.0));
- axis.setTickLabelAlignment(ParagraphAlignment.RIGHT);
+ axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
- Assert.assertEquals(1, axis.getTickLabelSpacing());
+ Assert.assertEquals(1, axis.getTickLabels().getSpacing());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -356,9 +356,9 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
  axis.getScaling().setMinimum(new AxisBound(-10));
  axis.getScaling().setMaximum(new AxisBound(30.0));
- axis.setTickLabelAlignment(ParagraphAlignment.RIGHT);
+ axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
- Assert.assertEquals(1, axis.getTickLabelSpacing());
+ Assert.assertEquals(1, axis.getTickLabels().getSpacing());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -443,9 +443,9 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
  axis.getScaling().setMinimum(new AxisBound(-10));
  axis.getScaling().setMaximum(new AxisBound(30.0));
- axis.setTickLabelAlignment(ParagraphAlignment.RIGHT);
+ axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
- Assert.assertEquals(1, axis.getTickLabelSpacing());
+ Assert.assertEquals(1, axis.getTickLabels().getSpacing());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);

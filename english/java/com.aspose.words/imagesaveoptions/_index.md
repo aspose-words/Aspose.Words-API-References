@@ -1956,7 +1956,7 @@ Shows how to select the compression scheme to apply to a document that we conver
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertImage(getImageDir() + "Tagged Image File Format.tiff");
 
  // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
  // to modify the way in which that method renders the document into an image.
@@ -4085,7 +4085,7 @@ Shows how to select the compression scheme to apply to a document that we conver
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertImage(getImageDir() + "Tagged Image File Format.tiff");
 
  // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
  // to modify the way in which that method renders the document into an image.

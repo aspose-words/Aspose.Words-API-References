@@ -28,6 +28,7 @@ class Footnote : public Aspose::Words::InlineStory,
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [Footnote](./footnote/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::Notes::FootnoteType) | Initializes an instance of the [Footnote](./) class. |
+| [get_ActualReferenceMark](./get_actualreferencemark/)() |  |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |

@@ -15,7 +15,8 @@ Represents the axis options of the chart. To learn more, visit the [Working with
 ```cpp
 class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHolder,
                   public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource,
-                  public Aspose::Words::Drawing::Charts::Core::INumberFormatProvider
+                  public Aspose::Words::Drawing::Charts::Core::INumberFormatProvider,
+                  public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
 ```
 
 ## Methods
@@ -28,7 +29,8 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_Crosses](./get_crosses/)() | Specifies how this axis crosses the perpendicular axis. |
 | [get_CrossesAt](./get_crossesat/)() | Specifies where on the perpendicular axis the axis crosses. |
 | [get_DisplayUnit](./get_displayunit/)() | Specifies the scaling value of the display units for the value axis. |
-| [get_Document](./get_document/)() override | Returns the [Document](../../aspose.words/document/) the title holder belongs. |
+| [get_Document](./get_document/)() | Returns the [Document](../../aspose.words/document/) the title holder belongs. |
+| [get_Format](./get_format/)() |  |
 | [get_HasMajorGridlines](./get_hasmajorgridlines/)() | Gets a flag indicating whether the axis has major gridlines. |
 | [get_HasMinorGridlines](./get_hasminorgridlines/)() | Gets a flag indicating whether the axis has minor gridlines. |
 | [get_Hidden](./get_hidden/)() | Gets or sets a flag indicating whether this axis is hidden or not. |
@@ -46,6 +48,7 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_TickLabelAlignment](./get_ticklabelalignment/)() | Gets or sets text alignment of axis tick labels. |
 | [get_TickLabelOffset](./get_ticklabeloffset/)() | Gets or sets the distance of labels from the axis. |
 | [get_TickLabelPosition](./get_ticklabelposition/)() | Returns or sets the position of the tick labels on the axis. |
+| [get_TickLabels](./get_ticklabels/)() |  |
 | [get_TickLabelSpacing](./get_ticklabelspacing/)() | Gets or sets the interval, at which tick labels are drawn. |
 | [get_TickLabelSpacingIsAuto](./get_ticklabelspacingisauto/)() | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [get_TickMarkSpacing](./get_tickmarkspacing/)() | Gets or sets the interval, at which tick marks are drawn. |

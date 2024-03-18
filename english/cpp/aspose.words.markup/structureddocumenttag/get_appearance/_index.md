@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttag/get_appearance/
 Gets/sets the appearance of a structured document tag.
 
 ```cpp
-Aspose::Words::Markup::SdtAppearance Aspose::Words::Markup::StructuredDocumentTag::get_Appearance() const
+Aspose::Words::Markup::SdtAppearance Aspose::Words::Markup::StructuredDocumentTag::get_Appearance() override
 ```
 
 

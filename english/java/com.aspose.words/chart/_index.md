@@ -134,9 +134,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.setMinorTickMark(AxisTickMark.CROSS);
  xAxis.setMajorUnit(10.0d);
  xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
  ChartAxis yAxis = chart.getAxisY();
@@ -147,7 +147,7 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMinorTickMark(AxisTickMark.CROSS);
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -196,9 +196,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.setMinorTickMark(AxisTickMark.CROSS);
  xAxis.setMajorUnit(10.0d);
  xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
  ChartAxis yAxis = chart.getAxisY();
@@ -209,7 +209,7 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMinorTickMark(AxisTickMark.CROSS);
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -258,9 +258,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.setMinorTickMark(AxisTickMark.CROSS);
  xAxis.setMajorUnit(10.0d);
  xAxis.setMinorUnit(15.0d);
- xAxis.setTickLabelOffset(50);
- xAxis.setTickLabelPosition(AxisTickLabelPosition.LOW);
- xAxis.setTickLabelSpacingIsAuto(false);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
  ChartAxis yAxis = chart.getAxisY();
@@ -271,7 +271,7 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMinorTickMark(AxisTickMark.CROSS);
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
- yAxis.setTickLabelPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());

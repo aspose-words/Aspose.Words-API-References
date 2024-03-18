@@ -58,7 +58,7 @@ Shows how to insert chart with date/time values.
 
  // Define Y-axis properties for decimal values.
  ChartAxis yAxis = chart.getAxisY();
- yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.HIGH);
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(50.0d);
  yAxis.getDisplayUnit().setUnit(AxisBuiltInUnit.HUNDREDS);

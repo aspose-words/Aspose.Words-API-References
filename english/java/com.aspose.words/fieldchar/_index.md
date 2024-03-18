@@ -105,7 +105,7 @@ Shows how to work with a FieldStart node.
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
-| [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
@@ -1766,9 +1766,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setRunAttr(int fontAttr, Object value) {#setRunAttr-int-java.lang.Object}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
-public void setRunAttr(int fontAttr, Object value)
+public void setRunAttr(int key, Object value)
 ```
 
 
@@ -1777,7 +1777,7 @@ public void setRunAttr(int fontAttr, Object value)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontAttr | int |  |
+| key | int |  |
 | value | java.lang.Object |  |
 
 ### toString() {#toString}
