@@ -13,7 +13,8 @@ url: /cpp/aspose.words/story/
 Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/). To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/cpp/logical-levels-of-nodes-in-a-document/) documentation article.
 
 ```cpp
-class Story : public Aspose::Words::CompositeNode
+class Story : public Aspose::Words::CompositeNode,
+              public Aspose::Words::IStory
 ```
 
 ## Methods
@@ -31,21 +32,21 @@ class Story : public Aspose::Words::CompositeNode
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
-| [get_FirstParagraph](./get_firstparagraph/)() | Gets the first paragraph in the story. |
+| [get_FirstParagraph](./get_firstparagraph/)() override | Gets the first paragraph in the story. |
 | [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
-| [get_LastParagraph](./get_lastparagraph/)() | Gets the last paragraph in the story. |
+| [get_LastParagraph](./get_lastparagraph/)() override | Gets the last paragraph in the story. |
 | [get_NextNode](../node/get_nextnode/)() const |  |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | virtual [get_NodeType](../node/get_nodetype/)() const | Gets the type of this node. |
-| [get_Paragraphs](./get_paragraphs/)() | Gets a collection of paragraphs that are immediate children of the story. |
+| [get_Paragraphs](./get_paragraphs/)() override | Gets a collection of paragraphs that are immediate children of the story. |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../node/get_prevnode/)() const |  |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
-| [get_StoryType](./get_storytype/)() const | Gets the type of this story. |
-| [get_Tables](./get_tables/)() | Gets a collection of tables that are immediate children of the story. |
+| [get_StoryType](./get_storytype/)() override | Gets the type of this story. |
+| [get_Tables](./get_tables/)() override | Gets a collection of tables that are immediate children of the story. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
 | [GetAncestorOf](../node/getancestorof/)() |  |
 | [GetChild](../compositenode/getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returns an Nth child node that matches the specified type. |

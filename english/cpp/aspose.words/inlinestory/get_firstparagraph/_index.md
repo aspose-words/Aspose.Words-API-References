@@ -13,7 +13,7 @@ url: /cpp/aspose.words/inlinestory/get_firstparagraph/
 Gets the first paragraph in the story.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_FirstParagraph()
+System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_FirstParagraph() override
 ```
 
 
