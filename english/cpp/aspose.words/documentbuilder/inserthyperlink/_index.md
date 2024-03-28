@@ -103,7 +103,8 @@ builder->Writeln(u"Text outside of the bookmark.");
 // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
 builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 builder->get_Font()->set_Underline(Underline::Single);
-builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1\" \\o \"Hyperlink Tip", true);
+auto hyperlink = System::ExplicitCast<FieldHyperlink>(builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1", true));
+hyperlink->set_ScreenTip(u"Hyperlink Tip");
 
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```

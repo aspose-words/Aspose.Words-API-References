@@ -13,7 +13,7 @@ url: /cpp/aspose.words/inlinestory/get_storytype/
 Returns the type of the story.
 
 ```cpp
-virtual Aspose::Words::StoryType Aspose::Words::InlineStory::get_StoryType()=0
+Aspose::Words::StoryType Aspose::Words::InlineStory::get_StoryType() override=0
 ```
 
 
