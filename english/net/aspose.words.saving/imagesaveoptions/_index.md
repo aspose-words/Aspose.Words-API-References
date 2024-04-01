@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images in C#.
 type: docs
-weight: 5370
+weight: 5400
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -22,7 +22,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps or Svg format. |
+| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps, or Svg format. |
 
 ## Properties
 
@@ -117,7 +117,7 @@ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
 // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
 imageOptions.JpegQuality = 10;
-doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);            
+doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
 // Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
 // This will improve the quality of the image at the cost of an increased file size.

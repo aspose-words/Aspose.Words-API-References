@@ -5,7 +5,7 @@ articleTitle: TiffCompression
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.TiffCompression enum. Specifies what type of compression to apply when saving page images into a TIFF file in C#.
 type: docs
-weight: 5780
+weight: 5810
 url: /net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
@@ -34,7 +34,7 @@ Shows how to select the compression scheme to apply to a document that we conver
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertImage(ImageDir + "Tagged Image File Format.tiff");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.

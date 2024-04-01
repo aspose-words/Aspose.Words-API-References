@@ -5,7 +5,7 @@ articleTitle: FieldAddressBlock
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldAddressBlock class. Implements the ADDRESSBLOCK field in C#.
 type: docs
-weight: 1650
+weight: 1670
 url: /net/aspose.words.fields/fieldaddressblock/
 ---
 ## FieldAddressBlock class

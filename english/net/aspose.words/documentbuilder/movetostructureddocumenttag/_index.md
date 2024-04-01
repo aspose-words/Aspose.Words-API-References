@@ -48,7 +48,7 @@ Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
 // 3 -  Move to the end of the second structured document tag.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
 // Get currently selected structured document tag.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
@@ -99,7 +99,7 @@ Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
 // 3 -  Move to the end of the second structured document tag.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
 // Get currently selected structured document tag.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;

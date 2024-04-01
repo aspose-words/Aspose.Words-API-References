@@ -49,16 +49,13 @@ using (Stream spreadsheetStream = File.Open(MyDir + "Spreadsheet.xlsx", FileMode
 // This time, it will have an image downloaded from the web for an icon.
 using (Stream powerpointStream = File.Open(MyDir + "Presentation.pptx", FileMode.Open))
 {
-    using (HttpClient httpClient = new HttpClient())
-    {
-        byte[] imgBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
+    byte[] imgBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 
-        using (MemoryStream imageStream = new MemoryStream(imgBytes))
-        {
-            builder.InsertParagraph();
-            builder.Writeln("Powerpoint Ole object:");
-            builder.InsertOleObject(powerpointStream, "OleObject.pptx", true, imageStream);
-        }
+    using (MemoryStream imageStream = new MemoryStream(imgBytes))
+    {
+        builder.InsertParagraph();
+        builder.Writeln("Powerpoint Ole object:");
+        builder.InsertOleObject(powerpointStream, "OleObject.pptx", true, imageStream);
     }
 }
 
@@ -111,7 +108,7 @@ using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.O
 {
     // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
     // the icon according to the file extension and uses the filename for the icon caption.
-    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream);
+    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
 // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
@@ -174,7 +171,7 @@ using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.O
 {
     // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
     // the icon according to the file extension and uses the filename for the icon caption.
-    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream);
+    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
 // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects

@@ -5,7 +5,7 @@ articleTitle: IsGroup
 second_title: Aspose.Words for .NET
 description: ShapeBase IsGroup property. Returns true if this is a group shape in C#.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
@@ -31,14 +31,14 @@ public void GroupOfShapes()
     // please use DocumentBuilder.InsertShape methods.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

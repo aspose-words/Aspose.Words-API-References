@@ -23,6 +23,7 @@ public class ChartAxisTitle
 | Name | Description |
 | --- | --- |
 | [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } | Provides access to the font formatting of the axis title. |
+| [Format](../../aspose.words.drawing.charts/chartaxistitle/format/) { get; } | Provides access to fill and line formatting of the axis title. |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Determines whether other chart elements shall be allowed to overlap the title. The default value is `false`. |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Determines whether the title shall be shown for the axis. The default value is `false`. |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Gets or sets the text of the axis title. If `null` or empty value is specified, auto generated title will be shown. |

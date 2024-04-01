@@ -5,7 +5,7 @@ articleTitle: SavePictureBullet
 second_title: Aspose.Words for .NET
 description: DocSaveOptions SavePictureBullet property. When false PictureBullet data is not saved to output document. Default value is true in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property

@@ -39,7 +39,7 @@ tag.Color = Color.Magenta;
 tag.Tag = "MyPlainTextSDT";
 
 // Every structured document tag has a random unique ID.
-Assert.That(tag.Id, Is.Positive);
+Assert.IsTrue(tag.Id > 0);
 
 // Set the font for the text inside the structured document tag.
 tag.ContentsFont.Name = "Arial";

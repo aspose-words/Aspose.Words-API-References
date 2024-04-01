@@ -5,7 +5,7 @@ articleTitle: SetShapeAttr
 second_title: Aspose.Words for .NET
 description: ShapeBase SetShapeAttr method. Reserved for system use. IShapeAttrSource in C#.
 type: docs
-weight: 690
+weight: 710
 url: /net/aspose.words.drawing/shapebase/setshapeattr/
 ---
 ## ShapeBase.SetShapeAttr method

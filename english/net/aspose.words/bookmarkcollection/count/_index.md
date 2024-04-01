@@ -66,7 +66,7 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 bookmarks.Clear();
 
 // The text that was inside the bookmarks is still present in the document.
-Assert.That(bookmarks, Is.Empty);
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

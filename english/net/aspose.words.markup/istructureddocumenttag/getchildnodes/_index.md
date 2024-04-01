@@ -24,15 +24,15 @@ Shows how to remove structured document tag, but keeps content inside.
 Document doc = new Document(MyDir + "Structured document tags.docx");
 
 // This collection provides a unified interface for accessing ranged and non-ranged structured tags. 
-IEnumerable<IStructuredDocumentTag> sdts = doc.Range.StructuredDocumentTags.Cast<IStructuredDocumentTag>().ToList();
+IEnumerable<IStructuredDocumentTag> sdts = doc.Range.StructuredDocumentTags.ToList();
 Assert.AreEqual(5, sdts.Count());
 
 // Here we can get child nodes from the common interface of ranged and non-ranged structured tags.
-foreach (IStructuredDocumentTag sdt in sdts)                
+foreach (IStructuredDocumentTag sdt in sdts)
     if (sdt.GetChildNodes(NodeType.Any, false).Count > 0)
         sdt.RemoveSelfOnly();
 
-sdts = doc.Range.StructuredDocumentTags.Cast<IStructuredDocumentTag>().ToList();
+sdts = doc.Range.StructuredDocumentTags.ToList();
 Assert.AreEqual(0, sdts.Count());
 ```
 

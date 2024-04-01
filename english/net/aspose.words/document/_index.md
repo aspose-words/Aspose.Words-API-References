@@ -150,6 +150,7 @@ public class Document : DocumentBase
 | [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | Protects the document from changes and optionally sets a protection password. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
+| [RemoveBlankPages](../../aspose.words/document/removeblankpages/)() | Removes blank pages from the document. |
 | [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Removes the specified child node. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | Removes external XML schema references from this document. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |

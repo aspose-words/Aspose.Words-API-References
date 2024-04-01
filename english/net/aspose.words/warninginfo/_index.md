@@ -5,7 +5,7 @@ articleTitle: WarningInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving in C#.
 type: docs
-weight: 6800
+weight: 6830
 url: /net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
@@ -69,7 +69,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

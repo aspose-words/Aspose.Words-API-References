@@ -67,7 +67,7 @@ public enum ChartSeriesType
 
 ## Examples
 
-Shows how to
+Shows how to remove specific chart serie.
 
 ```csharp
 Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");

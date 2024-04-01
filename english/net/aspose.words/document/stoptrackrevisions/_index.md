@@ -5,7 +5,7 @@ articleTitle: StopTrackRevisions
 second_title: Aspose.Words for .NET
 description: Document StopTrackRevisions method. Stops automatic marking of document changes as revisions in C#.
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -37,7 +37,7 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
 // Stop tracking revisions to not count any future edits as revisions.
 doc.StopTrackRevisions();

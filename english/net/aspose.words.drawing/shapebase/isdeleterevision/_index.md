@@ -5,7 +5,7 @@ articleTitle: IsDeleteRevision
 second_title: Aspose.Words for .NET
 description: ShapeBase IsDeleteRevision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled in C#.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.words.drawing/shapebase/isdeleterevision/
 ---
 ## ShapeBase.IsDeleteRevision property

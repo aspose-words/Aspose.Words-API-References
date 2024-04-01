@@ -5,7 +5,7 @@ articleTitle: FieldGreetingLine
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldGreetingLine class. Implements the GREETINGLINE field in C#.
 type: docs
-weight: 2100
+weight: 2120
 url: /net/aspose.words.fields/fieldgreetingline/
 ---
 ## FieldGreetingLine class
@@ -108,7 +108,7 @@ table.Rows.Add("", "No", "Name");
 
 doc.MailMerge.Execute(table);
 
-Assert.That(doc.Range.Fields, Is.Empty);
+Assert.AreEqual(0, doc.Range.Fields.Count);
 Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
                 "\fDear Mrs. Cardholder,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
                 "\fDear Sir or Madam,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!",

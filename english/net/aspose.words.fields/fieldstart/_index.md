@@ -5,7 +5,7 @@ articleTitle: FieldStart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldStart class. Represents a start of a Word field in a document in C#.
 type: docs
-weight: 2550
+weight: 2570
 url: /net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
@@ -265,7 +265,10 @@ namespace ApiExamples
         /// </summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
                 // Hyperlink display name is stored in the field result, which is a Run 
@@ -283,7 +286,10 @@ namespace ApiExamples
         /// </summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -296,7 +302,10 @@ namespace ApiExamples
         /// </summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;

@@ -5,7 +5,7 @@ articleTitle: Shape
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Shape class. Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in C#.
 type: docs
-weight: 1370
+weight: 1390
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -56,6 +56,7 @@ public sealed class Shape : ShapeBase
 | [FirstParagraph](../../aspose.words.drawing/shape/firstparagraph/) { get; } | Gets the first paragraph in the shape. |
 | [FlipOrientation](../../aspose.words.drawing/shapebase/fliporientation/) { get; set; } | Switches the orientation of a shape. |
 | [Font](../../aspose.words.drawing/shapebase/font/) { get; } | Provides access to the font formatting of this object. |
+| [Glow](../../aspose.words.drawing/shapebase/glow/) { get; } | Gets glow formatting for the shape. |
 | [HasChart](../../aspose.words.drawing/shape/haschart/) { get; } | Returns `true` if this `Shape` has a [`Chart`](../../aspose.words.drawing.charts/chart/). |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [HasImage](../../aspose.words.drawing/shape/hasimage/) { get; } | Returns `true` if the shape has image bytes or links an image. |
@@ -93,6 +94,7 @@ public sealed class Shape : ShapeBase
 | [ParentParagraph](../../aspose.words.drawing/shapebase/parentparagraph/) { get; } | Returns the immediate parent paragraph. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [Reflection](../../aspose.words.drawing/shapebase/reflection/) { get; } | Gets reflection formatting for the shape. |
 | [RelativeHorizontalPosition](../../aspose.words.drawing/shapebase/relativehorizontalposition/) { get; set; } | Specifies relative to what the shape is positioned horizontally. |
 | [RelativeHorizontalSize](../../aspose.words.drawing/shapebase/relativehorizontalsize/) { get; set; } | Gets or sets the value of shape's relative size in horizontal direction. |
 | [RelativeVerticalPosition](../../aspose.words.drawing/shapebase/relativeverticalposition/) { get; set; } | Specifies relative to what the shape is positioned vertically. |

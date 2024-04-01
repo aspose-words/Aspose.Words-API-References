@@ -5,7 +5,7 @@ articleTitle: IsDecorative
 second_title: Aspose.Words for .NET
 description: ShapeBase IsDecorative property. Gets or sets the flag that specifies whether the shape is decorative in the document in C#.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.words.drawing/shapebase/isdecorative/
 ---
 ## ShapeBase.IsDecorative property
@@ -27,7 +27,7 @@ Shows how to set that the shape is decorative.
 ```csharp
 Document doc = new Document(MyDir + "Decorative shapes.docx");
 
-Shape shape = (Shape) doc.GetChildNodes(NodeType.Shape, true)[0];
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(shape.IsDecorative);
 
 // If "AlternativeText" is not empty, the shape cannot be decorative.

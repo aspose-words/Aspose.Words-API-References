@@ -5,7 +5,7 @@ articleTitle: WarningInfoCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningInfoCollection class. Represents a typed collection of WarningInfo objects in C#.
 type: docs
-weight: 6810
+weight: 6840
 url: /net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
@@ -82,7 +82,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

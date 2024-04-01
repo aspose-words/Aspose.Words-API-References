@@ -5,7 +5,7 @@ articleTitle: ShapeBase
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ShapeBase class. Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in C#.
 type: docs
-weight: 1380
+weight: 1400
 url: /net/aspose.words.drawing/shapebase/
 ---
 ## ShapeBase class
@@ -45,6 +45,7 @@ public abstract class ShapeBase : CompositeNode
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FlipOrientation](../../aspose.words.drawing/shapebase/fliporientation/) { get; set; } | Switches the orientation of a shape. |
 | [Font](../../aspose.words.drawing/shapebase/font/) { get; } | Provides access to the font formatting of this object. |
+| [Glow](../../aspose.words.drawing/shapebase/glow/) { get; } | Gets glow formatting for the shape. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
 | [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Gets or sets the value that represents the percentage of shape's relative height. |
@@ -75,6 +76,7 @@ public abstract class ShapeBase : CompositeNode
 | [ParentParagraph](../../aspose.words.drawing/shapebase/parentparagraph/) { get; } | Returns the immediate parent paragraph. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [Reflection](../../aspose.words.drawing/shapebase/reflection/) { get; } | Gets reflection formatting for the shape. |
 | [RelativeHorizontalPosition](../../aspose.words.drawing/shapebase/relativehorizontalposition/) { get; set; } | Specifies relative to what the shape is positioned horizontally. |
 | [RelativeHorizontalSize](../../aspose.words.drawing/shapebase/relativehorizontalsize/) { get; set; } | Gets or sets the value of shape's relative size in horizontal direction. |
 | [RelativeVerticalPosition](../../aspose.words.drawing/shapebase/relativeverticalposition/) { get; set; } | Specifies relative to what the shape is positioned vertically. |

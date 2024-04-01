@@ -5,7 +5,7 @@ articleTitle: ShapeType
 second_title: Aspose.Words for .NET
 description: ShapeBase ShapeType property. Gets the shape type in C#.
 type: docs
-weight: 500
+weight: 520
 url: /net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -31,14 +31,14 @@ public void GroupOfShapes()
     // please use DocumentBuilder.InsertShape methods.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

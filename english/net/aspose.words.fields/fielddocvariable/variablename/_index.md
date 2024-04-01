@@ -39,7 +39,7 @@ builder.InsertParagraph();
 
 // 2 -  Display a custom document variable:
 // Define a custom variable, then reference that variable with a DOCPROPERTY field.
-Assert.That(doc.Variables, Is.Empty);
+Assert.AreEqual(0, doc.Variables.Count);
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);

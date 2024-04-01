@@ -5,7 +5,7 @@ articleTitle: ShowInBalloons
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.ShowInBalloons enum. Specifies which revisions are rendered in balloons in C#.
 type: docs
-weight: 3540
+weight: 3560
 url: /net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration

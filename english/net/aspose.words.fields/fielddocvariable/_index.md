@@ -5,7 +5,7 @@ articleTitle: FieldDocVariable
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldDocVariable class. Implements DOCVARIABLE field in C#.
 type: docs
-weight: 1940
+weight: 1960
 url: /net/aspose.words.fields/fielddocvariable/
 ---
 ## FieldDocVariable class
@@ -74,7 +74,7 @@ builder.InsertParagraph();
 
 // 2 -  Display a custom document variable:
 // Define a custom variable, then reference that variable with a DOCPROPERTY field.
-Assert.That(doc.Variables, Is.Empty);
+Assert.AreEqual(0, doc.Variables.Count);
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);

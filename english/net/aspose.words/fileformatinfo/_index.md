@@ -5,7 +5,7 @@ articleTitle: FileFormatInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.FileFormatInfo class. Contains data returned by FileFormatUtil document format detection methods in C#.
 type: docs
-weight: 2930
+weight: 2950
 url: /net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
@@ -62,8 +62,9 @@ Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 // Use a new FileFormatInstance to confirm that it is signed.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");

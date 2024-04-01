@@ -41,7 +41,7 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.LastSavedTime.docx");
 DateTime lastSavedTimeNew = doc.BuiltInDocumentProperties.LastSavedTime;
 
 if (updateLastSavedTimeProperty)
-    Assert.That(DateTime.Now, Is.EqualTo(lastSavedTimeNew).Within(1).Days);
+    Assert.IsTrue((DateTime.Now - lastSavedTimeNew).Days < 1);
 else
     Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
         lastSavedTimeNew);

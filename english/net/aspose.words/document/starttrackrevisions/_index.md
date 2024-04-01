@@ -5,7 +5,7 @@ articleTitle: StartTrackRevisions
 second_title: Aspose.Words for .NET
 description: Document StartTrackRevisions method. Starts automatically marking all further changes you make to the document programmatically as revision changes in C#.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.words/document/starttrackrevisions/
 ---
 ## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
@@ -52,7 +52,7 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
 // Stop tracking revisions to not count any future edits as revisions.
 doc.StopTrackRevisions();
@@ -128,7 +128,7 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
 // Stop tracking revisions to not count any future edits as revisions.
 doc.StopTrackRevisions();

@@ -27,11 +27,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-builder.InsertShape(ShapeType.Balloon, 200, 200);            
+builder.InsertShape(ShapeType.Balloon, 200, 200);
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
+FindReplaceOptions findReplaceOptions = new FindReplaceOptions() { IgnoreShapes = true };
 builder.Document.Range.Replace("Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", new FindReplaceOptions() { IgnoreShapes = true });
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", findReplaceOptions);
 Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", builder.Document.GetText().Trim());
 ```
 

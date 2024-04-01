@@ -5,7 +5,7 @@ articleTitle: FieldMergeSeq
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldMergeSeq class. Implements the MERGESEQ field in C#.
 type: docs
-weight: 2290
+weight: 2310
 url: /net/aspose.words.fields/fieldmergeseq/
 ---
 ## FieldMergeSeq class
@@ -95,11 +95,11 @@ fieldSkipIf.RightExpression = "John Doe";
 // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
-table.Rows.Add(new[] { "Jane Doe" });
-table.Rows.Add(new[] { "John Doe" });
-table.Rows.Add(new[] { "Joe Bloggs" });
+table.Rows.Add("Jane Doe");
+table.Rows.Add("John Doe");
+table.Rows.Add("Joe Bloggs");
 
-doc.MailMerge.Execute(table);            
+doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

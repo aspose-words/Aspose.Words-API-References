@@ -5,7 +5,7 @@ articleTitle: Style
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Style class. Represents a single builtin or userdefined style in C#.
 type: docs
-weight: 6300
+weight: 6330
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -30,7 +30,7 @@ public class Style
 | [Font](../../aspose.words/style/font/) { get; } | Gets the character formatting of the style. |
 | [IsHeading](../../aspose.words/style/isheading/) { get; } | True when the style is one of the built-in Heading styles. |
 | [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Gets the name of the `Style` linked to this one. Returns empty string if no styles are linked. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; set; } | Gets/sets the name of the `Style` linked to this one. Returns empty string if no styles are linked. |
 | [List](../../aspose.words/style/list/) { get; } | Gets the list that defines formatting of this list style. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Provides access to the list formatting properties of a paragraph style. |
 | [Locked](../../aspose.words/style/locked/) { get; set; } | Specifies whether this style is locked. |

@@ -5,7 +5,7 @@ articleTitle: MultiplePagesType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Settings.MultiplePagesType enum. Specifies how document is printed out in C#.
 type: docs
-weight: 6040
+weight: 6070
 url: /net/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enumeration

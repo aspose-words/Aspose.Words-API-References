@@ -5,7 +5,7 @@ articleTitle: VariableCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.VariableCollection class. A collection of document variables in C#.
 type: docs
-weight: 6700
+weight: 6730
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
@@ -104,7 +104,7 @@ Assert.False(variables.Contains("Home address"));
 // 3 -  Clear the whole collection at once:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### See Also

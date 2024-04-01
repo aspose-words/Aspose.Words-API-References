@@ -23,7 +23,7 @@ Shows how to get an OLE object's suggested file name.
 ```csharp
 Document doc = new Document(MyDir + "OLE shape.rtf");
 
-Shape oleShape = (Shape) doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
+Shape oleShape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 
 // OLE objects can provide a suggested filename and extension,
 // which we can use when saving the object's contents into a file in the local file system.
