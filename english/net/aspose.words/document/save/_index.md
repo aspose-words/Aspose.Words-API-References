@@ -5,7 +5,7 @@ articleTitle: Save
 second_title: Aspose.Words for .NET
 description: Document Save method. Saves the document to a file. Automatically determines the save format from the extension in C#.
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.words/document/save/
 ---
 ## Save(*string*) {#save_2}
@@ -223,7 +223,7 @@ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
 // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
 imageOptions.JpegQuality = 10;
-doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);            
+doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
 // Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
 // This will improve the quality of the image at the cost of an increased file size.
@@ -485,11 +485,11 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
 // Send the document to the client browser.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Thrown because HttpResponse is null in the test.
+//Thrown because HttpResponse is null in the test.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
 // We will need to close this response manually to ensure that we do not add any superfluous content to the document after saving.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### See Also

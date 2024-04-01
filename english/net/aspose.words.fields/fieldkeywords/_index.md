@@ -5,7 +5,7 @@ articleTitle: FieldKeywords
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldKeywords class. Implements the KEYWORDS field in C#.
 type: docs
-weight: 2210
+weight: 2230
 url: /net/aspose.words.fields/fieldkeywords/
 ---
 ## FieldKeywords class

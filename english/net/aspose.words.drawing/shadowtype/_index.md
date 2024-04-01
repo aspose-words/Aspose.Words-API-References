@@ -5,7 +5,7 @@ articleTitle: ShadowType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ShadowType enum. Specifies the type of a shape shadow in C#.
 type: docs
-weight: 1360
+weight: 1380
 url: /net/aspose.words.drawing/shadowtype/
 ---
 ## ShadowType enumeration
@@ -77,10 +77,10 @@ Shows how to work with a shadow formatting for the shape.
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

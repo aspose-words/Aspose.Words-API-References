@@ -13,7 +13,7 @@ url: /cpp/aspose.words/story/get_paragraphs/
 Gets a collection of paragraphs that are immediate children of the story.
 
 ```cpp
-System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::Story::get_Paragraphs()
+System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::Story::get_Paragraphs() override
 ```
 
 

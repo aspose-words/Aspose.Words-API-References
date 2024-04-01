@@ -15,6 +15,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | Class | Description |
 | --- | --- |
 | [Fill](./fill/) | Represents fill formatting for an object. |
+| [GlowFormat](./glowformat/) | Represents the glow formatting for an object. |
 | [GradientStop](./gradientstop/) | Represents one gradient stop. |
 | [GradientStopCollection](./gradientstopcollection/) | Contains a collection of [`GradientStop`](../aspose.words.drawing/gradientstop/) objects. |
 | [GroupShape](./groupshape/) | Represents a group of shapes in a document. |
@@ -23,6 +24,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [ImageSize](./imagesize/) | Contains information about image size and resolution. |
 | [OleFormat](./oleformat/) | Provides access to the data of an OLE object or ActiveX control. |
 | [OlePackage](./olepackage/) | Allows to access OLE Package properties. |
+| [ReflectionFormat](./reflectionformat/) | Represents the reflection formatting for an object. |
 | [ShadowFormat](./shadowformat/) | Represents shadow formatting for an object. |
 | [Shape](./shape/) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. |
 | [ShapeBase](./shapebase/) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. |

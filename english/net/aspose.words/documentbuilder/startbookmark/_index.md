@@ -60,7 +60,8 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Insert a HYPERLINK field that links to the bookmark.
+// Insert a HYPERLINK field that links to the bookmark. We can pass field switches
+// to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);

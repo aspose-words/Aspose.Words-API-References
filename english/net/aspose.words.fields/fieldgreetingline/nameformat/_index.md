@@ -66,7 +66,7 @@ table.Rows.Add("", "No", "Name");
 
 doc.MailMerge.Execute(table);
 
-Assert.That(doc.Range.Fields, Is.Empty);
+Assert.AreEqual(0, doc.Range.Fields.Count);
 Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
                 "\fDear Mrs. Cardholder,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
                 "\fDear Sir or Madam,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!",

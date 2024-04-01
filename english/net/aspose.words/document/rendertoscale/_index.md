@@ -5,7 +5,7 @@ articleTitle: RenderToScale
 second_title: Aspose.Words for .NET
 description: Document RenderToScale method. Renders a document page into a Graphics object to a specified scale in C#.
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -37,7 +37,8 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 // Calculate the number of rows and columns that we will fill with thumbnails.
 const int thumbColumns = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
+int thumbRows = doc.PageCount / thumbColumns;
+int remainder = doc.PageCount % thumbColumns;
 
 if (remainder > 0)
     thumbRows++;
@@ -61,7 +62,8 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbColumns, out int columnIdx);
+            int rowIdx = pageIndex / thumbColumns;
+            int columnIdx = pageIndex % thumbColumns;
 
             // Specify where we want the thumbnail to appear.
             float thumbLeft = columnIdx * thumbSize.Width;
@@ -84,7 +86,8 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 // Calculate the number of rows and columns that we will fill with thumbnails.
 const int thumbnailColumnsNum = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
+int thumbRows = doc.PageCount / thumbnailColumnsNum;
+int remainder = doc.PageCount % thumbnailColumnsNum;
 
 if (remainder > 0)
     thumbRows++;
@@ -106,7 +109,8 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbnailColumnsNum, out int columnIdx);
+            int rowIdx = pageIndex / thumbnailColumnsNum;
+            int columnIdx = pageIndex % thumbnailColumnsNum;
 
             // Specify where we want the thumbnail to appear.
             float thumbLeft = columnIdx * thumbSize.Width;

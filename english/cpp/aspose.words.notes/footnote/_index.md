@@ -33,7 +33,7 @@ class Footnote : public Aspose::Words::InlineStory,
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
-| [get_FirstParagraph](../../aspose.words/inlinestory/get_firstparagraph/)() | Gets the first paragraph in the story. |
+| [get_FirstParagraph](../../aspose.words/inlinestory/get_firstparagraph/)() override | Gets the first paragraph in the story. |
 | [get_Font](../../aspose.words/inlinestory/get_font/)() | Provides access to the font formatting of the anchor character of this object. |
 | [get_FootnoteType](./get_footnotetype/)() const | Returns a value that specifies whether this is a footnote or endnote. |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
@@ -44,11 +44,11 @@ class Footnote : public Aspose::Words::InlineStory,
 | [get_IsMoveFromRevision](../../aspose.words/inlinestory/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../../aspose.words/inlinestory/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
-| [get_LastParagraph](../../aspose.words/inlinestory/get_lastparagraph/)() | Gets the last paragraph in the story. |
+| [get_LastParagraph](../../aspose.words/inlinestory/get_lastparagraph/)() override | Gets the last paragraph in the story. |
 | [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Footnote](../../aspose.words/nodetype/). |
-| [get_Paragraphs](../../aspose.words/inlinestory/get_paragraphs/)() | Gets a collection of paragraphs that are immediate children of the story. |
+| [get_Paragraphs](../../aspose.words/inlinestory/get_paragraphs/)() override | Gets a collection of paragraphs that are immediate children of the story. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../../aspose.words/inlinestory/get_parentparagraph/)() | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
@@ -56,7 +56,7 @@ class Footnote : public Aspose::Words::InlineStory,
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_ReferenceMark](./get_referencemark/)() const | Gets/sets custom reference mark to be used for this footnote. Default value is **empty string**, meaning auto-numbered footnotes are used. |
 | [get_StoryType](./get_storytype/)() override | Returns [Footnotes](../../aspose.words/storytype/) or [Endnotes](../../aspose.words/storytype/). |
-| [get_Tables](../../aspose.words/inlinestory/get_tables/)() | Gets a collection of tables that are immediate children of the story. |
+| [get_Tables](../../aspose.words/inlinestory/get_tables/)() override | Gets a collection of tables that are immediate children of the story. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
 | [GetChild](../../aspose.words/compositenode/getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returns an Nth child node that matches the specified type. |

@@ -89,7 +89,7 @@ You can change the image size, location, positioning method and other settings u
 
 ## Examples
 
-Shows how to insert WebP image (only .NetStandard)
+Shows how to insert WebP image.
 
 ```csharp
 Document doc = new Document();

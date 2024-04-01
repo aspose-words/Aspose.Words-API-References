@@ -5,7 +5,7 @@ articleTitle: WarningType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningType enum. Specifies the type of a warning that is issued by Aspose.Words during document loading or saving in C#.
 type: docs
-weight: 6830
+weight: 6860
 url: /net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -72,7 +72,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

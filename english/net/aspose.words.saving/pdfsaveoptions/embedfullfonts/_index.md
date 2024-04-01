@@ -39,7 +39,8 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // Configure our font sources to ensure that we have access to both the fonts in this document.
 FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
-Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
+Aspose.Words.Fonts.FolderFontSource folderFontSource =
+    new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();

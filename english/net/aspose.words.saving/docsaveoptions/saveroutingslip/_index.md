@@ -5,7 +5,7 @@ articleTitle: SaveRoutingSlip
 second_title: Aspose.Words for .NET
 description: DocSaveOptions SaveRoutingSlip property. When false RoutingSlip data is not saved to output document. Default value is true in C#.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property

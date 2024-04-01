@@ -103,11 +103,11 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
 // Send the document to the client browser.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Thrown because HttpResponse is null in the test.
+//Thrown because HttpResponse is null in the test.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
 // We will need to close this response manually to ensure that we do not add any superfluous content to the document after saving.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### See Also
@@ -249,8 +249,8 @@ using (OleDbConnection connection = new OleDbConnection(connectionString))
     OleDbCommand command = new OleDbCommand(query, connection);
     command.CommandText = query;
     try
-    {                    
-        connection.Open();                 
+    {
+        connection.Open();
         using (OleDbDataReader reader = command.ExecuteReader())
         {
             // Take the data from the reader and use it in the mail merge.
@@ -260,7 +260,7 @@ using (OleDbConnection connection = new OleDbConnection(connectionString))
     catch (Exception ex)
     {
         Console.WriteLine(ex.Message);
-    }                
+    }
 }
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");

@@ -27,6 +27,7 @@ public class Chart
 | [AxisY](../../aspose.words.drawing.charts/chart/axisy/) { get; } | Provides access to properties of the Y axis of the chart. |
 | [AxisZ](../../aspose.words.drawing.charts/chart/axisz/) { get; } | Provides access to properties of the Z axis of the chart. |
 | [DataTable](../../aspose.words.drawing.charts/chart/datatable/) { get; } | Provides access to properties of a data table of this chart. The data table can be shown using the [`Show`](../chartdatatable/show/) property. |
+| [Format](../../aspose.words.drawing.charts/chart/format/) { get; } | Provides access to fill and line formatting of the chart. |
 | [Legend](../../aspose.words.drawing.charts/chart/legend/) { get; } | Provides access to the chart legend properties. |
 | [Series](../../aspose.words.drawing.charts/chart/series/) { get; } | Provides access to series collection. |
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |

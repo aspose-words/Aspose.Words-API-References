@@ -5,7 +5,7 @@ articleTitle: NodeList
 second_title: Aspose.Words for .NET
 description: Aspose.Words.NodeList class. Represents a collection of nodes matching an XPath query executed using the SelectNodes method in C#.
 type: docs
-weight: 4360
+weight: 4380
 url: /net/aspose.words/nodelist/
 ---
 ## NodeList class
@@ -139,7 +139,10 @@ namespace ApiExamples
         /// </summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
                 // Hyperlink display name is stored in the field result, which is a Run 
@@ -157,7 +160,10 @@ namespace ApiExamples
         /// </summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
         /// </summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;

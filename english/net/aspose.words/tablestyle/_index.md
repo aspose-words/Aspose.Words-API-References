@@ -5,7 +5,7 @@ articleTitle: TableStyle
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TableStyle class. Represents a table style in C#.
 type: docs
-weight: 6390
+weight: 6420
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -40,7 +40,7 @@ public class TableStyle : Style
 | [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
 | [LeftIndent](../../aspose.words/tablestyle/leftindent/) { get; set; } | Gets or sets the value that represents the left indent of a table. |
 | [LeftPadding](../../aspose.words/tablestyle/leftpadding/) { get; set; } | Gets or sets the amount of space (in points) to add to the left of the contents of table cells. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Gets the name of the [`Style`](../style/) linked to this one. Returns empty string if no styles are linked. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; set; } | Gets/sets the name of the [`Style`](../style/) linked to this one. Returns empty string if no styles are linked. |
 | [List](../../aspose.words/style/list/) { get; } | Gets the list that defines formatting of this list style. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Provides access to the list formatting properties of a paragraph style. |
 | [Locked](../../aspose.words/style/locked/) { get; set; } | Specifies whether this style is locked. |

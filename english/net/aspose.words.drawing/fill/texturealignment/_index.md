@@ -28,7 +28,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 
 // Apply texture alignment to the shape fill.
 shape.Fill.PresetTextured(PresetTexture.Canvas);
-shape.Fill.TextureAlignment = TextureAlignment.TopRight;            
+shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
 // Use the compliance option to define the shape using DML if you want to get "TextureAlignment"
 // property after the document saves.

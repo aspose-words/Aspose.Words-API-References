@@ -5,7 +5,7 @@ articleTitle: OfficeMathJustification
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Math.OfficeMathJustification enum. Specifies the justification of the equation in C#.
 type: docs
-weight: 4280
+weight: 4300
 url: /net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
@@ -34,7 +34,7 @@ Shows how to set office math display formatting.
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.

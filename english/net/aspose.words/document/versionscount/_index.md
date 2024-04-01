@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Versions.doc");
 // We can read this property of a document, but we cannot preserve it while saving.
 Assert.AreEqual(4, doc.VersionsCount);
 
-doc.Save(ArtifactsDir + "Document.VersionsCount.doc");      
+doc.Save(ArtifactsDir + "Document.VersionsCount.doc");
 doc = new Document(ArtifactsDir + "Document.VersionsCount.doc");
 
 Assert.AreEqual(0, doc.VersionsCount);

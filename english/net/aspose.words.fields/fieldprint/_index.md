@@ -5,7 +5,7 @@ articleTitle: FieldPrint
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldPrint class. Implements the PRINT field in C#.
 type: docs
-weight: 2400
+weight: 2420
 url: /net/aspose.words.fields/fieldprint/
 ---
 ## FieldPrint class

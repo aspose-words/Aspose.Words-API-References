@@ -5,7 +5,7 @@ articleTitle: FontInfoSubstitutionRule
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontInfoSubstitutionRule class. Font info substitution rule in C#.
 type: docs
-weight: 3060
+weight: 3080
 url: /net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
@@ -67,7 +67,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

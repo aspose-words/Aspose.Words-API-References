@@ -56,7 +56,7 @@ loadOptions.FontSettings = new FontSettings();
 // this rule will substitute the unavailable font with one that does exist.
 // In this case, all uses of the "MissingFont" will convert to "Comic Sans MS".
 TableSubstitutionRule substitutionRule = loadOptions.FontSettings.SubstitutionSettings.TableSubstitution;
-substitutionRule.AddSubstitutes("MissingFont", new[] {"Comic Sans MS"});
+substitutionRule.AddSubstitutes("MissingFont", "Comic Sans MS");
 
 Document doc = new Document(MyDir + "Missing font.html", loadOptions);
 

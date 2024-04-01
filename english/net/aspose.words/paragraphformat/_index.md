@@ -5,7 +5,7 @@ articleTitle: ParagraphFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.ParagraphFormat class. Represents all the formatting for a paragraph in C#.
 type: docs
-weight: 4560
+weight: 4580
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class
@@ -45,6 +45,7 @@ public class ParagraphFormat
 | [LinesToDrop](../../aspose.words/paragraphformat/linestodrop/) { get; set; } | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [LineUnitAfter](../../aspose.words/paragraphformat/lineunitafter/) { get; set; } | Gets or sets the amount of spacing (in gridlines) after the paragraphs. |
 | [LineUnitBefore](../../aspose.words/paragraphformat/lineunitbefore/) { get; set; } | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
+| [MirrorIndents](../../aspose.words/paragraphformat/mirrorindents/) { get; set; } | Gets or sets a flag indicating whether the left and right indents are of the same width. |
 | [NoSpaceBetweenParagraphsOfSameStyle](../../aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/) { get; set; } | When `true`, [`SpaceBefore`](./spacebefore/) and [`SpaceAfter`](./spaceafter/) will be ignored between the paragraphs of the same style. |
 | [OutlineLevel](../../aspose.words/paragraphformat/outlinelevel/) { get; set; } | Specifies the outline level of the paragraph in the document. |
 | [PageBreakBefore](../../aspose.words/paragraphformat/pagebreakbefore/) { get; set; } | True if a page break is forced before the paragraph. |

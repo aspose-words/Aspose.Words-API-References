@@ -35,7 +35,7 @@ FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldT
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
-// We can set this property to get our field to override the value currently stored in the UserInformation object. 
+// We can set this property to get our field to override the value currently stored in the UserInformation object.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 

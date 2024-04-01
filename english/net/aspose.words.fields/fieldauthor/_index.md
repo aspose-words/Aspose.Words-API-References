@@ -5,7 +5,7 @@ articleTitle: FieldAuthor
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldAuthor class. Implements the AUTHOR field in C#.
 type: docs
-weight: 1690
+weight: 1710
 url: /net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class
@@ -86,7 +86,7 @@ Assert.AreEqual("Joe Bloggs", field.Result);
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
 // Changing this property, then updating the AUTHOR field will apply this value to the field.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());

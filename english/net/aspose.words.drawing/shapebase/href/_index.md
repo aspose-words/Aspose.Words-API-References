@@ -5,7 +5,7 @@ articleTitle: HRef
 second_title: Aspose.Words for .NET
 description: ShapeBase HRef property. Gets or sets the full hyperlink address for a shape in C#.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property

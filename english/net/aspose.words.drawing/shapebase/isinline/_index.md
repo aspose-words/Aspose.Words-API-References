@@ -5,7 +5,7 @@ articleTitle: IsInline
 second_title: Aspose.Words for .NET
 description: ShapeBase IsInline property. A quick way to determine if this shape is positioned inline with text in C#.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.words.drawing/shapebase/isinline/
 ---
 ## ShapeBase.IsInline property
@@ -43,8 +43,8 @@ Assert.AreEqual(WrapType.Inline, shape.WrapType);
 Assert.True(shape.IsInline);
 
 // 2 -  Floating:
-shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin ,200, 
-    RelativeVerticalPosition.TopMargin ,200, 100, 100, WrapType.None);
+shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 200,
+    RelativeVerticalPosition.TopMargin, 200, 100, 100, WrapType.None);
 shape.FillColor = Color.Orange;
 
 // A floating shape belongs to the paragraph that we insert it into,

@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Below are two wrapping types that shapes may have.
 // 1 -  Floating:
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 -  Inline:
@@ -95,7 +95,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Below are two wrapping types that shapes may have.
 // 1 -  Floating:
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 -  Inline:

@@ -29,7 +29,7 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
 // If the shape contains an image, its ImageData property will be valid,
 // and it will contain an ImageSize object.
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // The ImageSize object contains read-only information about the image within the shape.
 Assert.AreEqual(400, imageSize.HeightPixels);

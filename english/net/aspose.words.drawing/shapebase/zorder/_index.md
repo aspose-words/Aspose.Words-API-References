@@ -5,7 +5,7 @@ articleTitle: ZOrder
 second_title: Aspose.Words for .NET
 description: ShapeBase ZOrder property. Determines the display order of overlapping shapes in C#.
 type: docs
-weight: 610
+weight: 630
 url: /net/aspose.words.drawing/shapebase/zorder/
 ---
 ## ShapeBase.ZOrder property

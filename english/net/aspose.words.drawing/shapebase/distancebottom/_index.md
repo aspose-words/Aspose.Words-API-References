@@ -42,7 +42,7 @@ shape.DistanceRight = 40;
 
 // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
 shape.Top = 75;
-shape.Left = 150; 
+shape.Left = 150;
 shape.Rotation = 60;
 
 // Add text that will wrap around the shape.

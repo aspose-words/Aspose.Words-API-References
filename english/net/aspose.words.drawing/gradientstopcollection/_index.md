@@ -5,7 +5,7 @@ articleTitle: GradientStopCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.GradientStopCollection class. Contains a collection of GradientStop objects in C#.
 type: docs
-weight: 1090
+weight: 1100
 url: /net/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
@@ -53,8 +53,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Get gradient stops collection.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Change first gradient stop.            
-gradientStops[0].Color = Color.Aqua;            
+// Change first gradient stop.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
