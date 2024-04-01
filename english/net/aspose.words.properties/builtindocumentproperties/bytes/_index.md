@@ -66,7 +66,7 @@ public void Content()
     // Set a different template for our document, and then update the "Template" built-in property manually to reflect this change.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 

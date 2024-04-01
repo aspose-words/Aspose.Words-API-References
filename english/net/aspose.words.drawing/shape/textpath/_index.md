@@ -27,7 +27,7 @@ public void InsertTextPaths()
 
     // Insert a WordArt object to display text in a shape that we can re-size and move by using the mouse in Microsoft Word.
     // Provide a "ShapeType" as an argument to set a shape for the WordArt.
-    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
+    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.",
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
     // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.

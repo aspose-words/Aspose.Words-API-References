@@ -5,7 +5,7 @@ articleTitle: FieldPageRef
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldPageRef class. Implements the PAGEREF field in C#.
 type: docs
-weight: 2390
+weight: 2410
 url: /net/aspose.words.fields/fieldpageref/
 ---
 ## FieldPageRef class
@@ -65,7 +65,7 @@ Shows to insert PAGEREF fields to display the relative location of bookmarks.
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 

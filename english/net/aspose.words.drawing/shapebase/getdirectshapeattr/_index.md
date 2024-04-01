@@ -5,7 +5,7 @@ articleTitle: GetDirectShapeAttr
 second_title: Aspose.Words for .NET
 description: ShapeBase GetDirectShapeAttr method. Reserved for system use. IShapeAttrSource in C#.
 type: docs
-weight: 650
+weight: 670
 url: /net/aspose.words.drawing/shapebase/getdirectshapeattr/
 ---
 ## ShapeBase.GetDirectShapeAttr method

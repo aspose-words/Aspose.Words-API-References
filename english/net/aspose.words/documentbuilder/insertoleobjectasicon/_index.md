@@ -44,7 +44,7 @@ using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.O
 {
     // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
     // the icon according to the file extension and uses the filename for the icon caption.
-    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream);
+    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
 // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects

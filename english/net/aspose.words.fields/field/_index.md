@@ -5,7 +5,7 @@ articleTitle: Field
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.Field class. Represents a Microsoft Word document field in C#.
 type: docs
-weight: 1630
+weight: 1650
 url: /net/aspose.words.fields/field/
 ---
 ## Field class
@@ -72,7 +72,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // This overload of the InsertField method automatically updates inserted fields.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### See Also

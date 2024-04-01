@@ -27,7 +27,7 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 ChartSeries series = shape.Chart.Series[0];
 ChartDataPoint dataPoint = series.DataPoints[1];
 
-Assert.IsTrue(dataPoint.Format.IsDefined);            
+Assert.IsTrue(dataPoint.Format.IsDefined);
 
 dataPoint.Format.SetDefaultFill();
 

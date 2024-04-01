@@ -5,7 +5,7 @@ articleTitle: IHyphenationCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.IHyphenationCallback interface. Implemented by classes which can register hyphenation dictionaries in C#.
 type: docs
-weight: 3310
+weight: 3330
 url: /net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
@@ -55,6 +55,7 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>

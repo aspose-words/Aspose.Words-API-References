@@ -47,7 +47,7 @@ Assert.AreEqual("Joe Bloggs", field.Result);
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
 // Changing this property, then updating the AUTHOR field will apply this value to the field.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());

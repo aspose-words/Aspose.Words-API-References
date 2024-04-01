@@ -5,7 +5,7 @@ articleTitle: DocSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.DocSaveOptions class. Can be used to specify additional options when saving a document into the Doc or Dot format in C#.
 type: docs
-weight: 5070
+weight: 5100
 url: /net/aspose.words.saving/docsaveoptions/
 ---
 ## DocSaveOptions class
@@ -33,6 +33,7 @@ public class DocSaveOptions : SaveOptions
 | [AlwaysCompressMetafiles](../../aspose.words.saving/docsaveoptions/alwayscompressmetafiles/) { get; set; } | When `false`, small metafiles are not compressed for performance reason. Default value is `true`, all metafiles are compressed regardless of its size. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Gets or sets custom local time zone used for date/time fields. |
 | [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Gets or sets path to default template (including filename). Default value for this property is **empty string** (Empty). |
+| [DigitalSignatureDetails](../../aspose.words.saving/docsaveoptions/digitalsignaturedetails/) { get; set; } | Gets or sets [`DigitalSignatureDetails`](../digitalsignaturedetails/) object used to sign a document. |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Gets or sets a value determining how 3D effects are rendered. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML shapes are rendered. |

@@ -99,61 +99,66 @@ group.CoordSize = new Size(500, 500);
 group.CoordOrigin = new Point(-250, -250);
 
 // Create a rectangle that will display the boundary of this group shape and add it to the group.
-group.AppendChild(new Shape(doc, ShapeType.Rectangle)
+Shape child1 = new Shape(doc, ShapeType.Rectangle)
 {
     Width = group.CoordSize.Width,
     Height = group.CoordSize.Height,
     Left = group.CoordOrigin.X,
     Top = group.CoordOrigin.Y
-});
+};
+group.AppendChild(child1);
 
 // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
 ((Shape)group.GetChild(NodeType.Shape, 0, true)).Stroke.DashStyle = DashStyle.Dash;
 
 // Create a small red star and insert it into the group.
 // Line up the shape with the group's coordinate origin, which we have moved to the center.
-group.AppendChild(new Shape(doc, ShapeType.Star)
+Shape child2 = new Shape(doc, ShapeType.Star)
 {
     Width = 20,
     Height = 20,
     Left = -10,
     Top = -10,
     FillColor = Color.Red
-});
+};
+group.AppendChild(child2);
 
-// Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image. 
+// Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
 // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
 // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
-// We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape. 
-group.AppendChild(new Shape(doc, ShapeType.Rectangle)
+// We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+Shape child3 = new Shape(doc, ShapeType.Rectangle)
 {
     Width = 250,
     Height = 250,
     Left = -250,
     Top = -250,
     FillColor = Color.LightBlue
-});
+};
+group.AppendChild(child3);
 
-group.AppendChild(new Shape(doc, ShapeType.Image)
+Shape child4 = new Shape(doc, ShapeType.Image)
 {
     Width = 200,
     Height = 200,
     Left = -225,
     Top = -225
-});
+};
+group.AppendChild(child4);
 
 ((Shape)group.GetChild(NodeType.Shape, 3, true)).ImageData.SetImage(ImageDir + "Logo.jpg");
 
 // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
 // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
 // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
-group.AppendChild(new Shape(doc, ShapeType.TextBox)
+Shape child5 = new Shape(doc, ShapeType.TextBox)
 {
     Width = 200,
     Height = 50,
     Left = group.CoordSize.Width + group.CoordOrigin.X - 200,
     Top = group.CoordSize.Height + group.CoordOrigin.Y
-});
+};
+group.AppendChild(child5);
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(group);

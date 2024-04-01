@@ -32,9 +32,9 @@ Shows how to use a document builder to insert html content into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-const string html = "<p align='right'>Paragraph right</p>" +
+const string html = "<p align='right'>Paragraph right</p>" + 
                     "<b>Implicit paragraph left</b>" +
-                    "<div align='center'>Div center</div>" +
+                    "<div align='center'>Div center</div>" + 
                     "<h1 align='left'>Heading 1 left.</h1>";
 
 builder.InsertHtml(html);

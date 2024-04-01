@@ -5,7 +5,7 @@ articleTitle: StyleName
 second_title: Aspose.Words for .NET
 description: ParagraphFormat StyleName property. Gets or sets the name of the paragraph style applied to this formatting in C#.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.words/paragraphformat/stylename/
 ---
 ## ParagraphFormat.StyleName property

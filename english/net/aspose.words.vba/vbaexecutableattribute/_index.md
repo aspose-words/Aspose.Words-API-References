@@ -5,7 +5,7 @@ articleTitle: VbaExecutableAttribute
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Vba.VbaExecutableAttribute class.  in C#.
 type: docs
-weight: 6710
+weight: 6740
 url: /net/aspose.words.vba/vbaexecutableattribute/
 ---
 ## VbaExecutableAttribute class

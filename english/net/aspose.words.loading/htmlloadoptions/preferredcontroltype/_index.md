@@ -29,7 +29,7 @@ const string html = @"
     <html>
         <select name='ComboBox' size='1'>
             <option value='val1'>item1</option>
-            <option value='val2'></option>                        
+            <option value='val2'></option>
         </select>
     </html>
 ";

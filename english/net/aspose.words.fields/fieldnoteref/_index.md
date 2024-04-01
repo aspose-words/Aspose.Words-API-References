@@ -5,7 +5,7 @@ articleTitle: FieldNoteRef
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldNoteRef class. Implements the NOTEREF field in C#.
 type: docs
-weight: 2320
+weight: 2340
 url: /net/aspose.words.fields/fieldnoteref/
 ---
 ## FieldNoteRef class
@@ -79,9 +79,9 @@ builder.StartBookmark("CrossRefBookmark");
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
 builder.EndBookmark("CrossRefBookmark");
-builder.Writeln();            
+builder.Writeln();
 
-doc.UpdateFields();           
+doc.UpdateFields();
 
 // This field works only in older versions of Microsoft Word.
 doc.Save(ArtifactsDir + "Field.NOTEREF.doc");

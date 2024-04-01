@@ -81,7 +81,7 @@ Assert.False(variables.Contains("Home address"));
 // 3 -  Clear the whole collection at once:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### See Also

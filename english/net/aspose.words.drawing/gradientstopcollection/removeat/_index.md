@@ -34,8 +34,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Get gradient stops collection.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Change first gradient stop.            
-gradientStops[0].Color = Color.Aqua;            
+// Change first gradient stop.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 

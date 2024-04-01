@@ -5,7 +5,7 @@ articleTitle: ResourceType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.ResourceType enum. Type of loaded resource in C#.
 type: docs
-weight: 3840
+weight: 3860
 url: /net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
@@ -21,8 +21,9 @@ public enum ResourceType
 | Name | Value | Description |
 | --- | --- | --- |
 | Image | `0` | Image. |
-| CssStyleSheet | `1` | Css style sheet. |
-| Document | `2` | Document. |
+| Font | `1` | Font. |
+| CssStyleSheet | `2` | CSS style sheet. |
+| Document | `3` | Document. |
 
 ## Examples
 

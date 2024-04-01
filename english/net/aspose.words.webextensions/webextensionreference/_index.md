@@ -5,7 +5,7 @@ articleTitle: WebExtensionReference
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WebExtensions.WebExtensionReference class. Represents the reference to a web extension. The reference is used to identify the provider location and version of the extension in C#.
 type: docs
-weight: 6970
+weight: 7000
 url: /net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class

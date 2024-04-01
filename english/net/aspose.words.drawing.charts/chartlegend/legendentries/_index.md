@@ -5,7 +5,7 @@ articleTitle: LegendEntries
 second_title: Aspose.Words for .NET
 description: ChartLegend LegendEntries property. Returns a collection of legend entries for all series and trendlines of the parent chart in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
 ## ChartLegend.LegendEntries property

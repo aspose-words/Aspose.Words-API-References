@@ -5,7 +5,7 @@ articleTitle: FieldUserAddress
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldUserAddress class. Implements the USERADDRESS field in C#.
 type: docs
-weight: 2700
+weight: 2720
 url: /net/aspose.words.fields/fielduseraddress/
 ---
 ## FieldUserAddress class
@@ -74,7 +74,7 @@ FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldT
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
-// We can set this property to get our field to override the value currently stored in the UserInformation object. 
+// We can set this property to get our field to override the value currently stored in the UserInformation object.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 

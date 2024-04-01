@@ -5,7 +5,7 @@ articleTitle: Show
 second_title: Aspose.Words for .NET
 description: ChartAxisTitle Show property. Determines whether the title shall be shown for the axis. The default value is false in C#.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property

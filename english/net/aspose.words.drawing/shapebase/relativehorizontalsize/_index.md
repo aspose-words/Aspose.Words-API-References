@@ -5,7 +5,7 @@ articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words for .NET
 description: ShapeBase RelativeHorizontalSize property. Gets or sets the value of shapes relative size in horizontal direction in C#.
 type: docs
-weight: 430
+weight: 450
 url: /net/aspose.words.drawing/shapebase/relativehorizontalsize/
 ---
 ## ShapeBase.RelativeHorizontalSize property

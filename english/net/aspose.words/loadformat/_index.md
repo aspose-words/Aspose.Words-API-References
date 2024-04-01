@@ -5,7 +5,7 @@ articleTitle: LoadFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LoadFormat enum. Indicates the format of the document that is to be loaded in C#.
 type: docs
-weight: 3680
+weight: 3700
 url: /net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
@@ -55,14 +55,13 @@ Shows how save a web page as a .docx file.
 ```csharp
 const string url = "https://products.aspose.com/words/";
 
-using (HttpClient client = new HttpClient()) 
+using (WebClient client = new WebClient())
 {
-    var bytes = await client.GetByteArrayAsync(url);
+    var bytes = client.DownloadData(url);
     using (MemoryStream stream = new MemoryStream(bytes))
     {
         // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-        options.Encoding = Encoding.UTF8;
 
         // Load the HTML document from stream and pass the LoadOptions object.
         Document doc = new Document(stream, options);

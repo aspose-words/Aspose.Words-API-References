@@ -30,7 +30,7 @@ Table table = new Table(doc);
 table.EnsureMinimum();
 
 // We can place a table inside a footnote, which will make it appear at the referencing page's footer.
-Assert.That(footnote.Tables, Is.Empty);
+Assert.AreEqual(0, footnote.Tables.Count);
 footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
