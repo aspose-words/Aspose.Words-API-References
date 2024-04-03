@@ -5,7 +5,7 @@ articleTitle: update_thumbnail method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.update_thumbnail method"
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.words/document/update_thumbnail/
 ---
 

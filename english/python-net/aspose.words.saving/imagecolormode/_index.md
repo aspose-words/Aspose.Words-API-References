@@ -5,7 +5,7 @@ articleTitle: ImageColorMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.ImageColorMode enumeration. Specifies the color mode for the generated images of document pages."
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.words.saving/imagecolormode/
 ---
 

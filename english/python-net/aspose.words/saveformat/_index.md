@@ -58,6 +58,7 @@ Indicates the format in which the document is saved.
 | JPEG | Renders a page of the document and saves it as a JPEG file. |
 | GIF | Renders a page of the document and saves it as a GIF file. |
 | EPS | Renders a page of the document and saves it as an EPS file. |
+| WEB_P | Renders a page of the document and saves it as a WebP file. |
 
 ### Examples
 

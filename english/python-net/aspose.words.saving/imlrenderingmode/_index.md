@@ -5,7 +5,7 @@ articleTitle: ImlRenderingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.ImlRenderingMode enumeration. Specifies how ink (InkML) objects are rendered to fixed page formats."
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.words.saving/imlrenderingmode/
 ---
 

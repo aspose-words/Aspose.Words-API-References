@@ -5,7 +5,7 @@ articleTitle: OoxmlSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OoxmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.DOCX](../../aspose.words/saveformat/#DOCX), [SaveFormat.DOCM](../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../aspose.words/saveformat/#DOTM) or [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format"
 type: docs
-weight: 500
+weight: 510
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/
 ---
 
@@ -35,6 +35,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [compliance](./compliance/) | Specifies the OOXML version for the output document. The default value is [OoxmlCompliance.ECMA376_2006](../ooxmlcompliance/#ECMA376_2006). |
 | [compression_level](./compression_level/) | Specifies the compression level used to save document. The default value is [CompressionLevel.NORMAL](../compressionlevel/#NORMAL). |
 | [default_template](../saveoptions/default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [digital_signature_details](./digital_signature_details/) | Gets or sets [DigitalSignatureDetails](../digitalsignaturedetails/) object used to sign a document. |
 | [dml_3d_effects_rendering_mode](../saveoptions/dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_effects_rendering_mode](../saveoptions/dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |

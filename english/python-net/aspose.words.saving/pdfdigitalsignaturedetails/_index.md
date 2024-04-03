@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureDetails class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfDigitalSignatureDetails class. Contains details for signing a PDF document with a digital signature."
 type: docs
-weight: 580
+weight: 590
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 
@@ -16,7 +16,7 @@ Contains details for signing a PDF document with a digital signature.
 
 ### Remarks
 
-At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
+At the moment digitally signing PDF documents is only available on .NET 3.5 or higher.
 
 To digitally sign a PDF document when it is created by Aspose.Words, set the [PdfSaveOptions.digital_signature_details](../pdfsaveoptions/digital_signature_details/) 
 property to a valid [PdfDigitalSignatureDetails](./) object and then save the document in the PDF format passing 

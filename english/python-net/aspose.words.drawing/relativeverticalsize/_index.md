@@ -5,7 +5,7 @@ articleTitle: RelativeVerticalSize enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.RelativeVerticalSize enumeration. Specifies relatively to what the height of a shape or a text frame is calculated vertically."
 type: docs
-weight: 290
+weight: 310
 url: /python-net/aspose.words.drawing/relativeverticalsize/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: EmfPlusDualRenderingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.EmfPlusDualRenderingMode enumeration. Specifies how Aspose.Words should render EMF+ Dual metafiles."
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 

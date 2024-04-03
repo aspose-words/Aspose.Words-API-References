@@ -5,7 +5,7 @@ articleTitle: get_direct_shape_attr method
 second_title: Aspose.Words for Python
 description: "ShapeBase.get_direct_shape_attr method. Reserved for system use"
 type: docs
-weight: 650
+weight: 670
 url: /python-net/aspose.words.drawing/shapebase/get_direct_shape_attr/
 ---
 

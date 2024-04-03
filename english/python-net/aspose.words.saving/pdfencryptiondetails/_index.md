@@ -5,7 +5,7 @@ articleTitle: PdfEncryptionDetails class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfEncryptionDetails class. Contains details for encrypting and access permissions for a PDF document"
 type: docs
-weight: 610
+weight: 620
 url: /python-net/aspose.words.saving/pdfencryptiondetails/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FontSavingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.FontSavingArgs class. Provides data for the [IFontSavingCallback.font_saving()](../ifontsavingcallback/font_saving/#fontsavingargs) event"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.saving/fontsavingargs/
 ---
 

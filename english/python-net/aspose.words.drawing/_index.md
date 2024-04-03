@@ -26,6 +26,7 @@ The classes in this module support the latest (Word 2007 - 2013 DrawingML) and t
 | Class | Description |
 | --- | --- |
 | [Fill](./fill/) | Represents fill formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/python-net/working-with-graphic-elements/) documentation article. |
+| [GlowFormat](./glowformat/) | Represents the glow formatting for an object. |
 | [GradientStop](./gradientstop/) | Represents one gradient stop. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/python-net/working-with-graphic-elements/) documentation article. |
 | [GradientStopCollection](./gradientstopcollection/) | Contains a collection of [GradientStop](./gradientstop/) objects. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/python-net/working-with-graphic-elements/) documentation article. |
 | [GroupShape](./groupshape/) | Represents a group of shapes in a document. To learn more, visit the [How to Add Group Shape into a Word Document](https://docs.aspose.com/words/python-net/how-to-add-group-shape-into-a-word-document/) documentation article. |
@@ -34,6 +35,7 @@ The classes in this module support the latest (Word 2007 - 2013 DrawingML) and t
 | [ImageSize](./imagesize/) | Contains information about image size and resolution. To learn more, visit the [Working with Images](https://docs.aspose.com/words/python-net/working-with-images/) documentation article. |
 | [OleFormat](./oleformat/) | Provides access to the data of an OLE object or ActiveX control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects/) documentation article. |
 | [OlePackage](./olepackage/) | Allows to access OLE Package properties. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects/) documentation article. |
+| [ReflectionFormat](./reflectionformat/) | Represents the reflection formatting for an object. |
 | [ShadowFormat](./shadowformat/) | Represents shadow formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/python-net/working-with-graphic-elements/) documentation article. |
 | [Shape](./shape/) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/python-net/working-with-shapes/) documentation article. |
 | [ShapeBase](./shapebase/) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/python-net/working-with-shapes/) documentation article. |

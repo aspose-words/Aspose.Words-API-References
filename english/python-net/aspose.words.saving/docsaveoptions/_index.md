@@ -5,7 +5,7 @@ articleTitle: DocSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DocSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.DOC](../../aspose.words/saveformat/#DOC) or [SaveFormat.DOT](../../aspose.words/saveformat/#DOT) format"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.saving/docsaveoptions/
 ---
 
@@ -20,7 +20,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 
 ### Remarks
 
-At the moment provides only the [DocSaveOptions.save_format](./save_format/) property, but in the future will have 
+At the moment provides only the [DocSaveOptions.save_format](./save_format/) property, but in the future will have
 other options added, such as an encryption password or digital signature settings.
 
 
@@ -41,6 +41,7 @@ other options added, such as an encryption password or digital signature setting
 | [allow_embedding_post_script_fonts](../saveoptions/allow_embedding_post_script_fonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [always_compress_metafiles](./always_compress_metafiles/) | When ``False``, small metafiles are not compressed for performance reason. Default value is ``True``, all metafiles are compressed regardless of its size. |
 | [default_template](../saveoptions/default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [digital_signature_details](./digital_signature_details/) | Gets or sets [DigitalSignatureDetails](../digitalsignaturedetails/) object used to sign a document. |
 | [dml_3d_effects_rendering_mode](../saveoptions/dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_effects_rendering_mode](../saveoptions/dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |

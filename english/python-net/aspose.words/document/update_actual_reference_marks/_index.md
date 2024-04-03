@@ -5,7 +5,7 @@ articleTitle: update_actual_reference_marks method
 second_title: Aspose.Words for Python
 description: "Document.update_actual_reference_marks method. Updates the [Footnote.actual_reference_mark](../../../aspose.words.notes/footnote/actual_reference_mark/) property of all footnotes and endnotes in the document."
 type: docs
-weight: 750
+weight: 760
 url: /python-net/aspose.words/document/update_actual_reference_marks/
 ---
 

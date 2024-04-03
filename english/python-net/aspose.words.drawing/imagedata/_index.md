@@ -5,7 +5,7 @@ articleTitle: ImageData class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ImageData class. Defines an image for a shape"
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.drawing/imagedata/
 ---
 

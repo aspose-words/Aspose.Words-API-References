@@ -5,7 +5,7 @@ articleTitle: PatternType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.PatternType enumeration. Specifies the fill pattern to be used to fill a shape."
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.words.drawing/patterntype/
 ---
 

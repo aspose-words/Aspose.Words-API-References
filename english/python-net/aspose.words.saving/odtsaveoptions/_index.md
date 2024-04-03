@@ -5,7 +5,7 @@ articleTitle: OdtSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OdtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.ODT](../../aspose.words/saveformat/#ODT) or [SaveFormat.OTT](../../aspose.words/saveformat/#OTT) format"
 type: docs
-weight: 480
+weight: 490
 url: /python-net/aspose.words.saving/odtsaveoptions/
 ---
 
@@ -20,7 +20,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 
 ### Remarks
 
-At the moment provides only the [OdtSaveOptions.save_format](./save_format/) property, but in the future will have 
+At the moment provides only the [OdtSaveOptions.save_format](./save_format/) property, but in the future will have
 other options added, such as an encryption password or digital signature settings.
 
 
@@ -41,12 +41,13 @@ other options added, such as an encryption password or digital signature setting
 | --- | --- |
 | [allow_embedding_post_script_fonts](../saveoptions/allow_embedding_post_script_fonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [default_template](../saveoptions/default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [digital_signature_details](./digital_signature_details/) | Gets or sets [DigitalSignatureDetails](../digitalsignaturedetails/) object used to sign a document. |
 | [dml_3d_effects_rendering_mode](../saveoptions/dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_effects_rendering_mode](../saveoptions/dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [is_strict_schema11](./is_strict_schema11/) | Specifies whether export should correspond to ODT specification 1.1 strictly.  OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2.  Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is ``False``. |
+| [is_strict_schema11](./is_strict_schema11/) | Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is ``False``. |
 | [measure_unit](./measure_unit/) | Allows to specify units of measure to apply to document content. The default value is [OdtSaveMeasureUnit.CENTIMETERS](../odtsavemeasureunit/#CENTIMETERS) |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [password](./password/) | Gets or sets a password to encrypt document. |

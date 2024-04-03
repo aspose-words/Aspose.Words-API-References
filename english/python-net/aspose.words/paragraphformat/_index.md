@@ -44,6 +44,7 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 | [line_unit_after](./line_unit_after/) | Gets or sets the amount of spacing (in gridlines) after the paragraphs. |
 | [line_unit_before](./line_unit_before/) | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
 | [lines_to_drop](./lines_to_drop/) | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
+| [mirror_indents](./mirror_indents/) | Gets or sets a flag indicating whether the left and right indents are of the same width. |
 | [no_space_between_paragraphs_of_same_style](./no_space_between_paragraphs_of_same_style/) | When ``True``, [ParagraphFormat.space_before](./space_before/) and [ParagraphFormat.space_after](./space_after/) will be ignored between the paragraphs of the same style. |
 | [outline_level](./outline_level/) | Specifies the outline level of the paragraph in the document. |
 | [page_break_before](./page_break_before/) | True if a page break is forced before the paragraph. |

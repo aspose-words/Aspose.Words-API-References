@@ -19,7 +19,8 @@ Type of loaded resource.
 | Name | Description |
 | --- | --- |
 | IMAGE | Image. |
-| CSS_STYLE_SHEET | Css style sheet. |
+| FONT | Font. |
+| CSS_STYLE_SHEET | CSS style sheet. |
 | DOCUMENT | Document. |
 
 ### See Also

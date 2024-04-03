@@ -5,7 +5,7 @@ articleTitle: HtmlVersion enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlVersion enumeration. Indicates the version of HTML is used when saving the document to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML) and  [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML) formats."
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.words.saving/htmlversion/
 ---
 

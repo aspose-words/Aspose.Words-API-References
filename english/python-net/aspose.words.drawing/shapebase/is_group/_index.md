@@ -5,7 +5,7 @@ articleTitle: is_group property
 second_title: Aspose.Words for Python
 description: "ShapeBase.is_group property. Returns ``True`` if this is a group shape."
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.words.drawing/shapebase/is_group/
 ---
 

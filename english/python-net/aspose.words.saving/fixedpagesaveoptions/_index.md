@@ -5,7 +5,7 @@ articleTitle: FixedPageSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.FixedPageSaveOptions class. Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc)"
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/
 ---
 

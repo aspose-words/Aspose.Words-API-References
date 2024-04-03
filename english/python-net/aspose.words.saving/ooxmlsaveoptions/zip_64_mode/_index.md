@@ -5,7 +5,7 @@ articleTitle: zip_64_mode property
 second_title: Aspose.Words for Python
 description: "OoxmlSaveOptions.zip_64_mode property. Specifies whether or not to use ZIP64 format extensions for the output document"
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/zip_64_mode/
 ---
 

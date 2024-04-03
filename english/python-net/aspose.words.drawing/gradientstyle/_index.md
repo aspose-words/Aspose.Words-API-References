@@ -5,7 +5,7 @@ articleTitle: GradientStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.GradientStyle enumeration. Specifies the style for a gradient fill."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.drawing/gradientstyle/
 ---
 
