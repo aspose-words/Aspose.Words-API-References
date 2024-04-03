@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images"
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.words.saving/imagesaveoptions/
 ---
 
@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions(save_format)](./__init__/#saveformat) | Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../aspose.words/saveformat/#EPS) or [SaveFormat.SVG](../../aspose.words/saveformat/#SVG) format. |
+| [ImageSaveOptions(save_format)](./__init__/#saveformat) | Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../aspose.words/saveformat/#EPS), [SaveFormat.WEB_P](../../aspose.words/saveformat/#WEB_P) or [SaveFormat.SVG](../../aspose.words/saveformat/#SVG) format. |
 
 ### Properties
 
@@ -52,7 +52,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [pixel_format](./pixel_format/) | Gets or sets the pixel format for the generated images. |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [save_format](./save_format/) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG) or vector [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../aspose.words/saveformat/#EPS), [SaveFormat.SVG](../../aspose.words/saveformat/#SVG). |
+| [save_format](./save_format/) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG) or vector [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../aspose.words/saveformat/#EPS), [SaveFormat.WEB_P](../../aspose.words/saveformat/#WEB_P), [SaveFormat.SVG](../../aspose.words/saveformat/#SVG). |
 | [scale](./scale/) | Gets or sets the zoom factor for the generated images. |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [threshold_for_floyd_steinberg_dithering](./threshold_for_floyd_steinberg_dithering/) | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is [ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING](../imagebinarizationmethod/#FLOYD_STEINBERG_DITHERING). |

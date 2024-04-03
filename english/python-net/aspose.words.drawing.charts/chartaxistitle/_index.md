@@ -23,6 +23,7 @@ To learn more, visit the [Working with
 | Name | Description |
 | --- | --- |
 | [font](./font/) | Provides access to the font formatting of the axis title. |
+| [format](./format/) | Provides access to fill and line formatting of the axis title. |
 | [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap the title. The default value is ``False``. |
 | [show](./show/) | Determines whether the title shall be shown for the axis. The default value is ``False``. |
 | [text](./text/) | Gets or sets the text of the axis title. If ``None`` or empty value is specified, auto generated title will be shown. |

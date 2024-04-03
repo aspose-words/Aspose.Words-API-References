@@ -5,7 +5,7 @@ articleTitle: RelativeHorizontalSize enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.RelativeHorizontalSize enumeration. Specifies relatively to what the width of a shape or a text frame is calculated horizontally."
 type: docs
-weight: 270
+weight: 290
 url: /python-net/aspose.words.drawing/relativehorizontalsize/
 ---
 

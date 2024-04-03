@@ -5,7 +5,7 @@ articleTitle: DmlRenderingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DmlRenderingMode enumeration. Specifies how DrawingML shapes are rendered to fixed page formats."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.saving/dmlrenderingmode/
 ---
 

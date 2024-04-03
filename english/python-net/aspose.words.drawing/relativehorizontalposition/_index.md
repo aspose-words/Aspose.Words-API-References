@@ -5,7 +5,7 @@ articleTitle: RelativeHorizontalPosition enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.RelativeHorizontalPosition enumeration. Specifies to what the horizontal position of a shape or text frame is relative."
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.words.drawing/relativehorizontalposition/
 ---
 

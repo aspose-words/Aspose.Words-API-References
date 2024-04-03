@@ -5,7 +5,7 @@ articleTitle: ShapeBase class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ShapeBase class. Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture"
 type: docs
-weight: 330
+weight: 350
 url: /python-net/aspose.words.drawing/shapebase/
 ---
 
@@ -75,6 +75,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [flip_orientation](./flip_orientation/) | Switches the orientation of a shape. |
 | [font](./font/) | Provides access to the font formatting of this object. |
+| [glow](./glow/) | Gets glow formatting for the shape. |
 | [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [height](./height/) | Gets or sets the height of the containing block of the shape. |
 | [height_relative](./height_relative/) | Gets or sets the value that represents the percentage of shape's relative height. |
@@ -105,6 +106,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [parent_paragraph](./parent_paragraph/) | Returns the immediate parent paragraph. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [reflection](./reflection/) | Gets reflection formatting for the shape. |
 | [relative_horizontal_position](./relative_horizontal_position/) | Specifies relative to what the shape is positioned horizontally. |
 | [relative_horizontal_size](./relative_horizontal_size/) | Gets or sets the value of shape's relative size in horizontal direction. |
 | [relative_vertical_position](./relative_vertical_position/) | Specifies relative to what the shape is positioned vertically. |

@@ -5,7 +5,7 @@ articleTitle: LayoutFlow enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.LayoutFlow enumeration. Determines the flow of the text layout in a textbox."
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.words.drawing/layoutflow/
 ---
 

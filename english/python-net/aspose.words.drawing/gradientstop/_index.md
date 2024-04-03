@@ -5,7 +5,7 @@ articleTitle: GradientStop class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.GradientStop class. Represents one gradient stop"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing/gradientstop/
 ---
 

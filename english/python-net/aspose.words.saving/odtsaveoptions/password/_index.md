@@ -5,7 +5,7 @@ articleTitle: password property
 second_title: Aspose.Words for Python
 description: "OdtSaveOptions.password property. Gets or sets a password to encrypt document."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.saving/odtsaveoptions/password/
 ---
 

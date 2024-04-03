@@ -5,7 +5,7 @@ articleTitle: ImageSavingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.ImageSavingArgs class. Provides data for the [IImageSavingCallback.image_saving()](../iimagesavingcallback/image_saving/#imagesavingargs) event"
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.words.saving/imagesavingargs/
 ---
 

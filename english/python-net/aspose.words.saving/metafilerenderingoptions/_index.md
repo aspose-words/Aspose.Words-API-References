@@ -5,7 +5,7 @@ articleTitle: MetafileRenderingOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MetafileRenderingOptions class. Allows to specify additional metafile rendering options"
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.saving/metafilerenderingoptions/
 ---
 

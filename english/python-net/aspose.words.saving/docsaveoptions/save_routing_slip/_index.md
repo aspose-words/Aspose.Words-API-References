@@ -5,7 +5,7 @@ articleTitle: save_routing_slip property
 second_title: Aspose.Words for Python
 description: "DocSaveOptions.save_routing_slip property. When ``False``, RoutingSlip data is not saved to output document"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.saving/docsaveoptions/save_routing_slip/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: WordML2003SaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.WordML2003SaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.WORD_ML](../../aspose.words/saveformat/#WORD_ML) format"
 type: docs
-weight: 840
+weight: 850
 url: /python-net/aspose.words.saving/wordml2003saveoptions/
 ---
 

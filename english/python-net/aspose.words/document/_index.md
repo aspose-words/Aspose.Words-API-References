@@ -192,6 +192,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ protect(type, password)](./protect/#protectiontype_str) | Protects the document from changes and optionally sets a protection password. |
 |[ remove()](../node/remove/#default) | Removes itself from the parent.<br>(Inherited from [Node](../node/)) |
 |[ remove_all_children()](../compositenode/remove_all_children/#default) | Removes all the child nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ remove_blank_pages()](./remove_blank_pages/#default) | Removes blank pages from the document. |
 |[ remove_child(old_child)](../compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ remove_external_schema_references()](./remove_external_schema_references/#default) | Removes external XML schema references from this document. |
 |[ remove_macros()](./remove_macros/#default) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |

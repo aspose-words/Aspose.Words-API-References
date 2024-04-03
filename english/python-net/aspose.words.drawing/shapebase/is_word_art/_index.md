@@ -5,7 +5,7 @@ articleTitle: is_word_art property
 second_title: Aspose.Words for Python
 description: "ShapeBase.is_word_art property. Returns ``True`` if this shape is a WordArt object."
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.words.drawing/shapebase/is_word_art/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: HtmlMetafileFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlMetafileFormat enumeration. Indicates the format in which metafiles are saved to HTML documents."
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.words.saving/htmlmetafileformat/
 ---
 
