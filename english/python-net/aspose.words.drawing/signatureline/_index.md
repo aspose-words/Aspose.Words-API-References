@@ -5,7 +5,7 @@ articleTitle: SignatureLine class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.SignatureLine class. Provides access to signature line properties"
 type: docs
-weight: 370
+weight: 390
 url: /python-net/aspose.words.drawing/signatureline/
 ---
 

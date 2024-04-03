@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "ChartAxisTitle.text property. Gets or sets the text of the axis title"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 

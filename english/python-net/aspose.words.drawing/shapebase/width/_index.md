@@ -5,7 +5,7 @@ articleTitle: width property
 second_title: Aspose.Words for Python
 description: "ShapeBase.width property. Gets or sets the width of the containing block of the shape."
 type: docs
-weight: 570
+weight: 590
 url: /python-net/aspose.words.drawing/shapebase/width/
 ---
 

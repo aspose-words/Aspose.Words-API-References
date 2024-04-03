@@ -5,7 +5,7 @@ articleTitle: DownsampleOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DownsampleOptions class. Allows to specify downsample options"
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.saving/downsampleoptions/
 ---
 

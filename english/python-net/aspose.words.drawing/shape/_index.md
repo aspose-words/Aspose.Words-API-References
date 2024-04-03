@@ -5,7 +5,7 @@ articleTitle: Shape class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Shape class. Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture"
 type: docs
-weight: 320
+weight: 340
 url: /python-net/aspose.words.drawing/shape/
 ---
 
@@ -70,6 +70,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [first_paragraph](./first_paragraph/) | Gets the first paragraph in the shape. |
 | [flip_orientation](../shapebase/flip_orientation/) | Switches the orientation of a shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [font](../shapebase/font/) | Provides access to the font formatting of this object.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [glow](../shapebase/glow/) | Gets glow formatting for the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [has_chart](./has_chart/) | Returns ``True`` if this [Shape](./) has a [Chart](../../aspose.words.drawing.charts/chart/). |
 | [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [has_image](./has_image/) | Returns ``True`` if the shape has image bytes or links an image. |
@@ -107,6 +108,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [parent_paragraph](../shapebase/parent_paragraph/) | Returns the immediate parent paragraph.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [reflection](../shapebase/reflection/) | Gets reflection formatting for the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [relative_horizontal_position](../shapebase/relative_horizontal_position/) | Specifies relative to what the shape is positioned horizontally.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [relative_horizontal_size](../shapebase/relative_horizontal_size/) | Gets or sets the value of shape's relative size in horizontal direction.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [relative_vertical_position](../shapebase/relative_vertical_position/) | Specifies relative to what the shape is positioned vertically.<br>(Inherited from [ShapeBase](../shapebase/)) |

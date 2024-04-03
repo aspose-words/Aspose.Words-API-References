@@ -5,7 +5,7 @@ articleTitle: MarkdownLinkExportMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownLinkExportMode enumeration. The mode of exporting links to a target document."
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words.saving/markdownlinkexportmode/
 ---
 

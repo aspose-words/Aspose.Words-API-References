@@ -5,7 +5,7 @@ articleTitle: PageSavingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PageSavingArgs class. Provides data for the [IPageSavingCallback.page_saving()](../ipagesavingcallback/page_saving/#pagesavingargs) event"
 type: docs
-weight: 530
+weight: 540
 url: /python-net/aspose.words.saving/pagesavingargs/
 ---
 

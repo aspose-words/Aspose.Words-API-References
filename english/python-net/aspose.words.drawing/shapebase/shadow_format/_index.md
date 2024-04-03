@@ -5,7 +5,7 @@ articleTitle: shadow_format property
 second_title: Aspose.Words for Python
 description: "ShapeBase.shadow_format property. Gets shadow formatting for the shape."
 type: docs
-weight: 490
+weight: 510
 url: /python-net/aspose.words.drawing/shapebase/shadow_format/
 ---
 

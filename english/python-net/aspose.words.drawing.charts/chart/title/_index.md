@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Python
 description: "Chart.title property. Provides access to the chart title properties."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing.charts/chart/title/
 ---
 

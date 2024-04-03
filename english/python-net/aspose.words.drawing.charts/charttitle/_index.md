@@ -23,6 +23,7 @@ To learn more, visit the [Working with
 | Name | Description |
 | --- | --- |
 | [font](./font/) | Provides access to the font formatting of the chart title. |
+| [format](./format/) | Provides access to fill and line formatting of the chart title. |
 | [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap title. By default overlay is ``False``. |
 | [show](./show/) | Determines whether the title shall be shown for this chart. Default value is ``True``. |
 | [text](./text/) | Gets or sets the text of the chart title. If ``None`` or empty value is specified, auto generated title will be shown. |

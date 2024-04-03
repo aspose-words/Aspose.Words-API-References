@@ -29,7 +29,7 @@ To learn more, visit the [Working with Styles and Themes](https://docs.aspose.co
 | [font](./font/) | Gets the character formatting of the style. |
 | [is_heading](./is_heading/) | True when the style is one of the built-in Heading styles. |
 | [is_quick_style](./is_quick_style/) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [linked_style_name](./linked_style_name/) | Gets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
+| [linked_style_name](./linked_style_name/) | Gets/sets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
 | [list](./list/) | Gets the list that defines formatting of this list style. |
 | [list_format](./list_format/) | Provides access to the list formatting properties of a paragraph style. |
 | [locked](./locked/) | Specifies whether this style is locked. |

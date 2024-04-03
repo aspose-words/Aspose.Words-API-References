@@ -41,7 +41,7 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 | [is_quick_style](../style/is_quick_style/) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.<br>(Inherited from [Style](../style/)) |
 | [left_indent](./left_indent/) | Gets or sets the value that represents the left indent of a table. |
 | [left_padding](./left_padding/) | Gets or sets the amount of space (in points) to add to the left of the contents of table cells. |
-| [linked_style_name](../style/linked_style_name/) | Gets the name of the [Style](../style/) linked to this one. Returns empty string if no styles are linked.<br>(Inherited from [Style](../style/)) |
+| [linked_style_name](../style/linked_style_name/) | Gets/sets the name of the [Style](../style/) linked to this one. Returns empty string if no styles are linked.<br>(Inherited from [Style](../style/)) |
 | [list](../style/list/) | Gets the list that defines formatting of this list style.<br>(Inherited from [Style](../style/)) |
 | [list_format](../style/list_format/) | Provides access to the list formatting properties of a paragraph style.<br>(Inherited from [Style](../style/)) |
 | [locked](../style/locked/) | Specifies whether this style is locked.<br>(Inherited from [Style](../style/)) |

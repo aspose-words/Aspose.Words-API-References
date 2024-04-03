@@ -5,7 +5,7 @@ articleTitle: adjust_with_effects method
 second_title: Aspose.Words for Python
 description: "ShapeBase.adjust_with_effects method. Adds to the source rectangle values of the effect extent and returns the final rectangle."
 type: docs
-weight: 620
+weight: 640
 url: /python-net/aspose.words.drawing/shapebase/adjust_with_effects/
 ---
 

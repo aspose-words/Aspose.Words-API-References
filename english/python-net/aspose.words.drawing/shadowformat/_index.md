@@ -5,7 +5,7 @@ articleTitle: ShadowFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ShadowFormat class. Represents shadow formatting for an object"
 type: docs
-weight: 300
+weight: 320
 url: /python-net/aspose.words.drawing/shadowformat/
 ---
 

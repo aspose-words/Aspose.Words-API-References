@@ -5,7 +5,7 @@ articleTitle: ImageSize class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ImageSize class. Contains information about image size and resolution"
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.drawing/imagesize/
 ---
 

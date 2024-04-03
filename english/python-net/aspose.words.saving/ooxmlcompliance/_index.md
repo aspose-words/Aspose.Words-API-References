@@ -5,7 +5,7 @@ articleTitle: OoxmlCompliance enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OoxmlCompliance enumeration. Allows to specify which OOXML specification will be used when saving in the DOCX format."
 type: docs
-weight: 490
+weight: 500
 url: /python-net/aspose.words.saving/ooxmlcompliance/
 ---
 

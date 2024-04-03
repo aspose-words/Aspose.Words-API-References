@@ -5,7 +5,7 @@ articleTitle: rotation property
 second_title: Aspose.Words for Python
 description: "ShapeBase.rotation property. Defines the angle (in degrees) that a shape is rotated"
 type: docs
-weight: 470
+weight: 490
 url: /python-net/aspose.words.drawing/shapebase/rotation/
 ---
 

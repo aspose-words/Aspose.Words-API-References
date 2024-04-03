@@ -5,7 +5,7 @@ articleTitle: support_vml property
 second_title: Aspose.Words for Python
 description: "HtmlLoadOptions.support_vml property. Gets or sets a value indicating whether to support VML images."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.loading/htmlloadoptions/support_vml/
 ---
 

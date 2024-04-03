@@ -5,7 +5,7 @@ articleTitle: position property
 second_title: Aspose.Words for Python
 description: "ChartLegend.position property. Specifies the position of the legend on a chart"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing.charts/chartlegend/position/
 ---
 
