@@ -3,14 +3,14 @@ title: ImageSaveOptions
 linktitle: ImageSaveOptions
 articleTitle: ImageSaveOptions
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions constructor. Initializes a new instance of this class that can be used to save rendered images in the Tiff Png Bmp Jpeg Emf Eps or Svg format in C#.
+description: ImageSaveOptions constructor. Initializes a new instance of this class that can be used to save rendered images in the Tiff Png Bmp Jpeg Emf Eps WebP or Svg format in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps, or Svg format.
+Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps, WebP or Svg format.
 
 ```csharp
 public ImageSaveOptions(SaveFormat saveFormat)
@@ -18,7 +18,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Can be Tiff, Png, Bmp, Jpeg, Emf, Eps or Svg format. |
+| saveFormat | SaveFormat | Can be Tiff, Png, Bmp, Jpeg, Emf, EpsWebP or Svg format. |
 
 ## Examples
 
