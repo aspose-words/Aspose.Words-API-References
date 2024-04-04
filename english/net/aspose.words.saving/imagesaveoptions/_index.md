@@ -22,7 +22,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps, or Svg format. |
+| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps, WebP or Svg format. |
 
 ## Properties
 
@@ -55,7 +55,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
 | [Resolution](../../aspose.words.saving/imagesaveoptions/resolution/) { set; } | Sets both horizontal and vertical resolution for the generated images, in dots per inch. |
-| override [SaveFormat](../../aspose.words.saving/imagesaveoptions/saveformat/) { get; set; } | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Eps, Svg. |
+| override [SaveFormat](../../aspose.words.saving/imagesaveoptions/saveformat/) { get; set; } | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Eps, WebP, Svg. |
 | [Scale](../../aspose.words.saving/imagesaveoptions/scale/) { get; set; } | Gets or sets the zoom factor for the generated images. |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used. |
 | [ThresholdForFloydSteinbergDithering](../../aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/) { get; set; } | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [`ImageBinarizationMethod`](../imagebinarizationmethod/) is FloydSteinbergDithering. |

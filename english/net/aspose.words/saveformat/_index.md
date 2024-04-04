@@ -60,6 +60,7 @@ public enum SaveFormat
 | Jpeg | `104` | Renders a page of the document and saves it as a JPEG file. |
 | Gif | `105` | Renders a page of the document and saves it as a GIF file. |
 | Eps | `106` | Renders a page of the document and saves it as an EPS file. |
+| WebP | `107` | Renders a page of the document and saves it as a WebP file. |
 
 ## Examples
 
