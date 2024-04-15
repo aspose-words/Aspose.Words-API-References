@@ -649,7 +649,7 @@ Gets the type of this chart series.
 
  **Examples:** 
 
-Shows how to
+Shows how to remove specific chart serie.
 
 ```
 

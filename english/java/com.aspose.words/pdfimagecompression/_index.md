@@ -4,7 +4,7 @@ linktitle: PdfImageCompression
 second_title: Aspose.Words for Java
 description: Specifies the type of compression applied to images in the PDF file in Java.
 type: docs
-weight: 488
+weight: 490
 url: /java/com.aspose.words/pdfimagecompression/
 ---
 

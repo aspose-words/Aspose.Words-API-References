@@ -4,7 +4,7 @@ linktitle: PhoneticGuide
 second_title: Aspose.Words for Java
 description: Represents Phonetic Guide in Java.
 type: docs
-weight: 498
+weight: 500
 url: /java/com.aspose.words/phoneticguide/
 ---
 

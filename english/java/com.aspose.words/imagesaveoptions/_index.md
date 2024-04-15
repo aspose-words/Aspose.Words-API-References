@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when rendering document pages or shapes to images in Java.
 type: docs
-weight: 361
+weight: 363
 url: /java/com.aspose.words/imagesaveoptions/
 ---
 
@@ -1726,7 +1726,7 @@ public int getSaveFormat()
 ```
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF), [SaveFormat.EPS](../../com.aspose.words/saveformat/\#EPS), [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF), [SaveFormat.EPS](../../com.aspose.words/saveformat/\#EPS), [SaveFormat.WEB\_P](../../com.aspose.words/saveformat/\#WEB-P), [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
 
  **Remarks:** 
 
@@ -3840,7 +3840,7 @@ public void setSaveFormat(int value)
 ```
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF), [SaveFormat.EPS](../../com.aspose.words/saveformat/\#EPS), [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF), [SaveFormat.EPS](../../com.aspose.words/saveformat/\#EPS), [SaveFormat.WEB\_P](../../com.aspose.words/saveformat/\#WEB-P), [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
 
  **Remarks:** 
 

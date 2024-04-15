@@ -4,7 +4,7 @@ linktitle: Inline
 second_title: Aspose.Words for Java
 description: Base class for inline-level nodes that can have character formatting associated with them but cannot have child nodes of their own in Java.
 type: docs
-weight: 370
+weight: 372
 url: /java/com.aspose.words/inline/
 ---
 
@@ -556,12 +556,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  
@@ -767,7 +767,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -854,7 +854,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -1173,7 +1173,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (147948,6)
+Returns  true  if this node can contain other nodes. (148533,6)
 
  **Examples:** 
 
@@ -1204,7 +1204,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -1812,12 +1812,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  

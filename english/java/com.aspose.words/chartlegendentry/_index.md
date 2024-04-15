@@ -36,6 +36,7 @@ The text of the entry is the name of the series or trendline. The text cannot be
 | [fetchSpecialDefaultRunPropertyValue(int key)](#fetchSpecialDefaultRunPropertyValue-int) |  |
 | [generateItemText()](#generateItemText) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this legend entry. |
+| [getRelativePropertyValue(int key, Object value)](#getRelativePropertyValue-int-java.lang.Object) |  |
 | [isHidden()](#isHidden) | Gets a value indicating whether this entry is hidden in the chart legend. |
 | [isHidden(boolean value)](#isHidden-boolean) | Sets a value indicating whether this entry is hidden in the chart legend. |
 ### fetchSpecialDefaultRunPropertyValue(int key) {#fetchSpecialDefaultRunPropertyValue-int}
@@ -93,6 +94,22 @@ Shows how to work with a legend font.
 
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getRelativePropertyValue(int key, Object value) {#getRelativePropertyValue-int-java.lang.Object}
+```
+public Object getRelativePropertyValue(int key, Object value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+
+**Returns:**
+java.lang.Object
 ### isHidden() {#isHidden}
 ```
 public boolean isHidden()

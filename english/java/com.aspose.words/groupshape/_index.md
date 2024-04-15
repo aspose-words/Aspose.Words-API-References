@@ -4,7 +4,7 @@ linktitle: GroupShape
 second_title: Aspose.Words for Java
 description: Represents a group of shapes in a document in Java.
 type: docs
-weight: 335
+weight: 337
 url: /java/com.aspose.words/groupshape/
 ---
 
@@ -130,12 +130,14 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getAnchorLocked()](#getAnchorLocked) | Specifies whether the shape's anchor is locked. |
 | [getAspectRatioLocked()](#getAspectRatioLocked) | Specifies whether the shape's aspect ratio is locked. |
 | [getBehindText()](#getBehindText) | Specifies whether the shape is below or above text. |
+| [getBlur()](#getBlur) |  |
 | [getBottom()](#getBottom) | Gets the position of the bottom edge of the containing block of the shape. |
 | [getBounds()](#getBounds) | Gets the location and size of the containing block of the shape. |
 | [getBoundsInPoints()](#getBoundsInPoints) | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
 | [getBoundsWithEffects()](#getBoundsWithEffects) | Gets final extent that this shape object has after applying drawing effects. |
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
+| [getColor()](#getColor) |  |
 | [getContainer()](#getContainer) |  |
 | [getCoordOrigin()](#getCoordOrigin) | The coordinates at the top-left corner of the containing block of this shape. |
 | [getCoordSize()](#getCoordSize) | The width and height of the coordinate space inside the containing block of this shape. |
@@ -145,6 +147,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
 | [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDirectShapeAttr(int key)](#getDirectShapeAttr-int) | Reserved for system use. |
+| [getDistance()](#getDistance) |  |
 | [getDistanceBottom()](#getDistanceBottom) | Gets the distance (in points) between the document text and the bottom edge of the shape. |
 | [getDistanceLeft()](#getDistanceLeft) | Gets the distance (in points) between the document text and the left edge of the shape. |
 | [getDistanceRight()](#getDistanceRight) | Gets the distance (in points) between the document text and the right edge of the shape. |
@@ -167,6 +170,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
 | [getFlipOrientation()](#getFlipOrientation) | Switches the orientation of a shape. |
 | [getFont()](#getFont) | Provides access to the font formatting of this object. |
+| [getGlow()](#getGlow) | Gets glow formatting for the shape. |
 | [getGradientAngle()](#getGradientAngle) |  |
 | [getGradientStops()](#getGradientStops) |  |
 | [getGradientStyle()](#getGradientStyle) |  |
@@ -191,7 +195,11 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getPatternType()](#getPatternType) |  |
 | [getPresetTexture()](#getPresetTexture) |  |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
+| [getRadius()](#getRadius) |  |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [getReflection()](#getReflection) | Gets reflection formatting for the shape. |
+| [getReflectionSize()](#getReflectionSize) |  |
+| [getReflectionTransparency()](#getReflectionTransparency) |  |
 | [getRelativeHorizontalPosition()](#getRelativeHorizontalPosition) | Specifies relative to what the shape is positioned horizontally. |
 | [getRelativeHorizontalSize()](#getRelativeHorizontalSize) | Gets the value of shape's relative size in horizontal direction. |
 | [getRelativeVerticalPosition()](#getRelativeVerticalPosition) | Specifies relative to what the shape is positioned vertically. |
@@ -210,6 +218,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getTitle()](#getTitle) | Gets the title (caption) of the current shape object. |
 | [getTop()](#getTop) | Gets the position of the top edge of the containing block of the shape. |
 | [getTopRelative()](#getTopRelative) | Gets the value that represents shape's relative top position in percent. |
+| [getTransparency()](#getTransparency) |  |
 | [getVerticalAlignment()](#getVerticalAlignment) | Specifies how the shape is positioned vertically. |
 | [getWidth()](#getWidth) | Gets the width of the containing block of the shape. |
 | [getWidthRelative()](#getWidthRelative) | Gets the value that represents the percentage of shape's relative width. |
@@ -245,7 +254,9 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [remove()](#remove) | Removes itself from the parent. |
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
+| [removeGlow()](#removeGlow) |  |
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
+| [removeReflection()](#removeReflection) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
 | [removeShapeAttr(int key)](#removeShapeAttr-int) | Reserved for system use. |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
@@ -256,10 +267,13 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [setAnchorLocked(boolean value)](#setAnchorLocked-boolean) | Specifies whether the shape's anchor is locked. |
 | [setAspectRatioLocked(boolean value)](#setAspectRatioLocked-boolean) | Specifies whether the shape's aspect ratio is locked. |
 | [setBehindText(boolean value)](#setBehindText-boolean) | Specifies whether the shape is below or above text. |
+| [setBlur(double value)](#setBlur-double) |  |
 | [setBounds(Rectangle2D.Float value)](#setBounds-java.awt.geom.Rectangle2D.Float) | Sets the location and size of the containing block of the shape. |
+| [setColor(Color value)](#setColor-java.awt.Color) |  |
 | [setCoordOrigin(Point value)](#setCoordOrigin-java.awt.Point) | The coordinates at the top-left corner of the containing block of this shape. |
 | [setCoordSize(Dimension value)](#setCoordSize-java.awt.Dimension) | The width and height of the coordinate space inside the containing block of this shape. |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
+| [setDistance(double value)](#setDistance-double) |  |
 | [setDistanceBottom(double value)](#setDistanceBottom-double) | Sets the distance (in points) between the document text and the bottom edge of the shape. |
 | [setDistanceLeft(double value)](#setDistanceLeft-double) | Sets the distance (in points) between the document text and the left edge of the shape. |
 | [setDistanceRight(double value)](#setDistanceRight-double) | Sets the distance (in points) between the document text and the right edge of the shape. |
@@ -285,6 +299,9 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [setName(String value)](#setName-java.lang.String) | Sets the optional shape name. |
 | [setOldOn(boolean value)](#setOldOn-boolean) |  |
 | [setOldOpacity(double value)](#setOldOpacity-double) |  |
+| [setRadius(double value)](#setRadius-double) |  |
+| [setReflectionSize(double value)](#setReflectionSize-double) |  |
+| [setReflectionTransparency(double value)](#setReflectionTransparency-double) |  |
 | [setRelativeHorizontalPosition(int value)](#setRelativeHorizontalPosition-int) | Specifies relative to what the shape is positioned horizontally. |
 | [setRelativeHorizontalSize(int value)](#setRelativeHorizontalSize-int) | Sets the value of shape's relative size in horizontal direction. |
 | [setRelativeVerticalPosition(int value)](#setRelativeVerticalPosition-int) | Specifies relative to what the shape is positioned vertically. |
@@ -299,6 +316,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [setTitle(String value)](#setTitle-java.lang.String) | Sets the title (caption) of the current shape object. |
 | [setTop(double value)](#setTop-double) | Sets the position of the top edge of the containing block of the shape. |
 | [setTopRelative(float value)](#setTopRelative-float) | Sets the value that represents shape's relative top position in percent. |
+| [setTransparency(double value)](#setTransparency-double) |  |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int) | Specifies how the shape is positioned vertically. |
 | [setWidth(double value)](#setWidth-double) | Sets the width of the containing block of the shape. |
 | [setWidthRelative(float value)](#setWidthRelative-float) | Sets the value that represents the percentage of shape's relative width. |
@@ -1067,6 +1085,16 @@ Shows how to insert a floating image to the center of a page.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getBlur() {#getBlur}
+```
+public double getBlur()
+```
+
+
+
+
+**Returns:**
+double
 ### getBottom() {#getBottom}
 ```
 public double getBottom()
@@ -1481,6 +1509,16 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection/)
+### getColor() {#getColor}
+```
+public Color getColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
 ### getContainer() {#getContainer}
 ```
 public CompositeNode getContainer()
@@ -1933,12 +1971,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  
@@ -1992,6 +2030,16 @@ Reserved for system use. IShapeAttrSource.
 
 **Returns:**
 java.lang.Object
+### getDistance() {#getDistance}
+```
+public double getDistance()
+```
+
+
+
+
+**Returns:**
+double
 ### getDistanceBottom() {#getDistanceBottom}
 ```
 public double getDistanceBottom()
@@ -2460,7 +2508,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -2575,6 +2623,49 @@ Shows how to insert a text box, and set the font of its contents.
 
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getGlow() {#getGlow}
+```
+public GlowFormat getGlow()
+```
+
+
+Gets glow formatting for the shape.
+
+ **Examples:** 
+
+Shows how to interact with glow shape effect.
+
+```
+
+ Document doc = new Document(getMyDir() + "Various shapes.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Apply glow effect to the shape.
+ shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setRadius(30.0);
+ shape.getGlow().setTransparency(0.15);
+
+ doc.save(getArtifactsDir() + "Shape.Glow.docx");
+
+ doc = new Document(getArtifactsDir() + "Shape.Glow.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Check glow effect attributes.
+ Assert.assertEquals(new Color((250), (128), (114), (217)).getRGB(), shape.getGlow().getColor().getRGB());
+ Assert.assertEquals(30, shape.getGlow().getRadius());
+ Assert.assertEquals(0.15d, shape.getGlow().getTransparency(), 0.01d);
+
+ // Remove glow effect from the shape.
+ shape.getGlow().remove();
+
+ Assert.assertEquals(Color.BLACK.getRGB(), shape.getGlow().getColor().getRGB());
+ Assert.assertEquals(0, shape.getGlow().getRadius());
+ Assert.assertEquals(0, shape.getGlow().getTransparency());
+ 
+```
+
+**Returns:**
+[GlowFormat](../../com.aspose.words/glowformat/) - Glow formatting for the shape.
 ### getGradientAngle() {#getGradientAngle}
 ```
 public double getGradientAngle()
@@ -3154,7 +3245,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -3202,7 +3293,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -3418,6 +3509,16 @@ Shows how to use of methods of Node and CompositeNode to remove a section before
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node immediately preceding this node.
+### getRadius() {#getRadius}
+```
+public double getRadius()
+```
+
+
+
+
+**Returns:**
+double
 ### getRange() {#getRange}
 ```
 public Range getRange()
@@ -3453,6 +3554,72 @@ Shows how to delete all the nodes from a range.
 
 **Returns:**
 [Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
+### getReflection() {#getReflection}
+```
+public ReflectionFormat getReflection()
+```
+
+
+Gets reflection formatting for the shape.
+
+ **Examples:** 
+
+Shows how to interact with reflection shape effect.
+
+```
+
+ Document doc = new Document(getMyDir() + "Various shapes.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Apply reflection effect to the shape.
+ shape.getReflection().setTransparency(0.37);
+ shape.getReflection().setSize(0.48);
+ shape.getReflection().setBlur(17.5);
+ shape.getReflection().setDistance(9.2);
+
+ doc.save(getArtifactsDir() + "Shape.Reflection.docx");
+
+ doc = new Document(getArtifactsDir() + "Shape.Reflection.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Check reflection effect attributes.
+ Assert.assertEquals(0.37d, shape.getReflection().getTransparency(), 0.01d);
+ Assert.assertEquals(0.48d, shape.getReflection().getSize(), 0.01d);
+ Assert.assertEquals(17.5d, shape.getReflection().getBlur(), 0.01d);
+ Assert.assertEquals(9.2d, shape.getReflection().getDistance(), 0.01d);
+
+ // Remove reflection effect from the shape.
+ shape.getReflection().remove();
+
+ Assert.assertEquals(0, shape.getReflection().getTransparency());
+ Assert.assertEquals(0, shape.getReflection().getSize());
+ Assert.assertEquals(0, shape.getReflection().getBlur());
+ Assert.assertEquals(0, shape.getReflection().getDistance());
+ 
+```
+
+**Returns:**
+[ReflectionFormat](../../com.aspose.words/reflectionformat/) - Reflection formatting for the shape.
+### getReflectionSize() {#getReflectionSize}
+```
+public double getReflectionSize()
+```
+
+
+
+
+**Returns:**
+double
+### getReflectionTransparency() {#getReflectionTransparency}
+```
+public double getReflectionTransparency()
+```
+
+
+
+
+**Returns:**
+double
 ### getRelativeHorizontalPosition() {#getRelativeHorizontalPosition}
 ```
 public int getRelativeHorizontalPosition()
@@ -4235,6 +4402,16 @@ Shows how to set relative size and position.
 
 **Returns:**
 float - The value that represents shape's relative top position in percent.
+### getTransparency() {#getTransparency}
+```
+public double getTransparency()
+```
+
+
+
+
+**Returns:**
+double
 ### getVerticalAlignment() {#getVerticalAlignment}
 ```
 public int getVerticalAlignment()
@@ -4748,7 +4925,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -5568,49 +5745,6 @@ public Iterator iterator()
 
 Provides support for the for each style iteration over the child nodes of this node.
 
- **Examples:** 
-
-Shows how to traverse through a composite node's collection of child nodes.
-
-```
-
- Document doc = new Document();
-
- // Add two runs and one shape as child nodes to the first paragraph of this document.
- Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
- paragraph.appendChild(new Run(doc, "Hello world! "));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- shape.setWidth(200.0);
- shape.setHeight(200.0);
- // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
- shape.setCustomNodeId(100);
- shape.setWrapType(WrapType.INLINE);
- paragraph.appendChild(shape);
-
- paragraph.appendChild(new Run(doc, "Hello again!"));
-
- // Iterate through the paragraph's collection of immediate children,
- // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
-
- Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
-
- for (Node child : (Iterable) children)
-     switch (child.getNodeType()) {
-         case NodeType.RUN:
-             System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
-             break;
-         case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
-             System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-             break;
-     }
- 
-```
-
 **Returns:**
 java.util.Iterator
 ### localToParent(Point2D.Float value) {#localToParent-java.awt.geom.Point2D.Float}
@@ -5984,9 +6118,25 @@ Shows how to construct an Aspose.Words document by hand.
  
 ```
 
+### removeGlow() {#removeGlow}
+```
+public void removeGlow()
+```
+
+
+
+
 ### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
+```
+
+
+
+
+### removeReflection() {#removeReflection}
+```
+public void removeReflection()
 ```
 
 
@@ -6162,9 +6312,11 @@ Shows how to use an XPath expression to test whether a node is inside a field.
  // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
  NodeList resultList =
          doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
 
  // Check if the specified run is one of the nodes that are inside the field.
- System.out.println("Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 
@@ -6482,6 +6634,19 @@ Shows how to insert a floating image to the center of a page.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
+### setBlur(double value) {#setBlur-double}
+```
+public void setBlur(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setBounds(Rectangle2D.Float value) {#setBounds-java.awt.geom.Rectangle2D.Float}
 ```
 public void setBounds(Rectangle2D.Float value)
@@ -6660,6 +6825,19 @@ Shows how to create and populate a group shape.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.geom.Rectangle2D.Float | The location and size of the containing block of the shape. |
+
+### setColor(Color value) {#setColor-java.awt.Color}
+```
+public void setColor(Color value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color |  |
 
 ### setCoordOrigin(Point value) {#setCoordOrigin-java.awt.Point}
 ```
@@ -7037,12 +7215,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  
@@ -7052,6 +7230,19 @@ Shows how to traverse through a composite node's collection of child nodes.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
+
+### setDistance(double value) {#setDistance-double}
+```
+public void setDistance(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setDistanceBottom(double value) {#setDistanceBottom-double}
 ```
@@ -7917,6 +8108,45 @@ public void setOldOpacity(double value)
 | --- | --- | --- |
 | value | double |  |
 
+### setRadius(double value) {#setRadius-double}
+```
+public void setRadius(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### setReflectionSize(double value) {#setReflectionSize-double}
+```
+public void setReflectionSize(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### setReflectionTransparency(double value) {#setReflectionTransparency-double}
+```
+public void setReflectionTransparency(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setRelativeHorizontalPosition(int value) {#setRelativeHorizontalPosition-int}
 ```
 public void setRelativeHorizontalPosition(int value)
@@ -8484,6 +8714,19 @@ Shows how to set relative size and position.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float | The value that represents shape's relative top position in percent. |
+
+### setTransparency(double value) {#setTransparency-double}
+```
+public void setTransparency(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int}
 ```

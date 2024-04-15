@@ -4,7 +4,7 @@ linktitle: PdfEncryptionDetails
 second_title: Aspose.Words for Java
 description: Contains details for encrypting and access permissions for a PDF document in Java.
 type: docs
-weight: 485
+weight: 487
 url: /java/com.aspose.words/pdfencryptiondetails/
 ---
 

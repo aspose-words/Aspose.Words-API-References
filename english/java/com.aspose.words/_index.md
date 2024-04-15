@@ -154,6 +154,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [DefaultFontSubstitutionRule](../com.aspose.words/defaultfontsubstitutionrule/) | Default font substitution rule. |
 | [DigitalSignature](../com.aspose.words/digitalsignature/) | Represents a digital signature on a document and the result of its verification. |
 | [DigitalSignatureCollection](../com.aspose.words/digitalsignaturecollection/) | Provides a read-only collection of digital signatures attached to a document. |
+| [DigitalSignatureDetails](../com.aspose.words/digitalsignaturedetails/) | Contains details for signing a document with a digital signature. |
 | [DigitalSignatureType](../com.aspose.words/digitalsignaturetype/) | Specifies the type of a digital signature. |
 | [DigitalSignatureUtil](../com.aspose.words/digitalsignatureutil/) | Provides methods for signing document. |
 | [Direction](../com.aspose.words/direction/) | Text direction. |
@@ -349,6 +350,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [GeneralFormat](../com.aspose.words/generalformat/) | Specifies a general format that is applied to a numeric, text, or any field result. |
 | [GeneralFormatCollection](../com.aspose.words/generalformatcollection/) | Represents a typed collection of general formats. |
 | [GlossaryDocument](../com.aspose.words/glossarydocument/) | Represents the root element for a glossary document within a Word document. |
+| [GlowFormat](../com.aspose.words/glowformat/) | Represents the glow formatting for an object. |
 | [Glyph](../com.aspose.words/glyph/) | Represents a glyph |
 | [GradientStop](../com.aspose.words/gradientstop/) | Represents one gradient stop. |
 | [GradientStopCollection](../com.aspose.words/gradientstopcollection/) | Contains a collection of [GradientStop](../com.aspose.words/gradientstop/) objects. |
@@ -529,6 +531,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ProtectionType](../com.aspose.words/protectiontype/) | Protection type for a document. |
 | [PsSaveOptions](../com.aspose.words/pssaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PS](../com.aspose.words/saveformat/\#PS) format. |
 | [Range](../com.aspose.words/range/) | Represents a contiguous area in a document. |
+| [ReflectionFormat](../com.aspose.words/reflectionformat/) | Represents the reflection formatting for an object. |
 | [RelativeHorizontalPosition](../com.aspose.words/relativehorizontalposition/) | Specifies to what the horizontal position of a shape or text frame is relative. |
 | [RelativeHorizontalSize](../com.aspose.words/relativehorizontalsize/) | Specifies relatively to what the width of a shape or a text frame is calculated horizontally. |
 | [RelativeVerticalPosition](../com.aspose.words/relativeverticalposition/) | Specifies to what the vertical position of a shape or text frame is relative. |

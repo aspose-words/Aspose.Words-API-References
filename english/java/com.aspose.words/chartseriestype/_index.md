@@ -18,7 +18,7 @@ Specifies a type of a chart series.
 
  **Examples:** 
 
-Shows how to
+Shows how to remove specific chart serie.
 
 ```
 

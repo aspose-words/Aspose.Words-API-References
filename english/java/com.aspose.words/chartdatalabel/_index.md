@@ -108,6 +108,7 @@ Shows how to apply labels to data points in a line chart.
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the data label. |
 | [getIndex()](#getIndex) | Specifies the index of the containing element. |
 | [getNumberFormat()](#getNumberFormat) | Returns number format of the parent element. |
+| [getRelativePropertyValue(int key, Object value)](#getRelativePropertyValue-int-java.lang.Object) |  |
 | [getSeparator()](#getSeparator) | Gets string separator used for the data labels on a chart. |
 | [getShapeType()](#getShapeType) |  |
 | [getShowBubbleSize()](#getShowBubbleSize) | Allows to specify if bubble size is to be displayed for the data labels on a chart. |
@@ -376,6 +377,22 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) - Number format of the parent element.
+### getRelativePropertyValue(int key, Object value) {#getRelativePropertyValue-int-java.lang.Object}
+```
+public Object getRelativePropertyValue(int key, Object value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+
+**Returns:**
+java.lang.Object
 ### getSeparator() {#getSeparator}
 ```
 public String getSeparator()

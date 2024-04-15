@@ -4,7 +4,7 @@ linktitle: WarningInfoCollection
 second_title: Aspose.Words for Java
 description: Represents a typed collection of WarningInfo objects in Java.
 type: docs
-weight: 645
+weight: 648
 url: /java/com.aspose.words/warninginfocollection/
 ---
 

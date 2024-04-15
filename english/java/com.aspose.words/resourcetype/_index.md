@@ -4,7 +4,7 @@ linktitle: ResourceType
 second_title: Aspose.Words for Java
 description: Type of loaded resource in Java.
 type: docs
-weight: 519
+weight: 522
 url: /java/com.aspose.words/resourcetype/
 ---
 
@@ -77,8 +77,9 @@ Shows how to customize the process of loading external resources into a document
 
 | Field | Description |
 | --- | --- |
-| [CSS_STYLE_SHEET](#CSS-STYLE-SHEET) | Css style sheet. |
+| [CSS_STYLE_SHEET](#CSS-STYLE-SHEET) | CSS style sheet. |
 | [DOCUMENT](#DOCUMENT) | Document. |
+| [FONT](#FONT) | Font. |
 | [IMAGE](#IMAGE) | Image. |
 | [length](#length) |  |
 ## Methods
@@ -95,7 +96,7 @@ public static int CSS_STYLE_SHEET
 ```
 
 
-Css style sheet.
+CSS style sheet.
 
 ### DOCUMENT {#DOCUMENT}
 ```
@@ -104,6 +105,14 @@ public static int DOCUMENT
 
 
 Document.
+
+### FONT {#FONT}
+```
+public static int FONT
+```
+
+
+Font.
 
 ### IMAGE {#IMAGE}
 ```

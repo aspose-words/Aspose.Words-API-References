@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading HTML document into a Document object in Java.
 type: docs
-weight: 349
+weight: 351
 url: /java/com.aspose.words/htmlloadoptions/
 ---
 
@@ -49,6 +49,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [getProgressCallback()](#getProgressCallback) | Called during loading a document and accepts data about loading progress. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [getSupportFontFaceRules()](#getSupportFontFaceRules) | Gets a value indicating whether to support @font-face rules and whether to load declared fonts. |
 | [getSupportVml()](#getSupportVml) | Gets a value indicating whether to support VML images. |
 | [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
 | [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
@@ -70,6 +71,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Called during loading a document and accepts data about loading progress. |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [setSupportFontFaceRules(boolean value)](#setSupportFontFaceRules-boolean) | Sets a value indicating whether to support @font-face rules and whether to load declared fonts. |
 | [setSupportVml(boolean value)](#setSupportVml-boolean) | Sets a value indicating whether to support VML images. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
 | [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
@@ -813,6 +815,22 @@ Shows how to handle external resources when loading Html documents.
 
 **Returns:**
 [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value.
+### getSupportFontFaceRules() {#getSupportFontFaceRules}
+```
+public boolean getSupportFontFaceRules()
+```
+
+
+Gets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is  false .
+
+ **Remarks:** 
+
+If this option is enabled, fonts declared in @font-face rules are loaded and embedded into the resulting document's font definitions (see [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos)). This makes the loaded fonts available for rendering but doesn't automatically enable embedding of the fonts upon saving. In order to save the document with loaded fonts, the [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) property of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) collection should be set to  true .
+
+Supported font formats are TTF, EOT, and WOFF.
+
+**Returns:**
+boolean - A value indicating whether to support @font-face rules and whether to load declared fonts.
 ### getSupportVml() {#getSupportVml}
 ```
 public boolean getSupportVml()
@@ -1676,6 +1694,25 @@ Shows how to handle external resources when loading Html documents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value. |
+
+### setSupportFontFaceRules(boolean value) {#setSupportFontFaceRules-boolean}
+```
+public void setSupportFontFaceRules(boolean value)
+```
+
+
+Sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is  false .
+
+ **Remarks:** 
+
+If this option is enabled, fonts declared in @font-face rules are loaded and embedded into the resulting document's font definitions (see [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos)). This makes the loaded fonts available for rendering but doesn't automatically enable embedding of the fonts upon saving. In order to save the document with loaded fonts, the [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) property of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) collection should be set to  true .
+
+Supported font formats are TTF, EOT, and WOFF.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value indicating whether to support @font-face rules and whether to load declared fonts. |
 
 ### setSupportVml(boolean value) {#setSupportVml-boolean}
 ```

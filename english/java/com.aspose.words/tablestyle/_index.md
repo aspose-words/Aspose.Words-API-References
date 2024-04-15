@@ -4,7 +4,7 @@ linktitle: TableStyle
 second_title: Aspose.Words for Java
 description: Represents a table style in Java.
 type: docs
-weight: 591
+weight: 594
 url: /java/com.aspose.words/tablestyle/
 ---
 
@@ -104,7 +104,7 @@ Shows how to create custom style settings for the table.
 | [getFont()](#getFont) | Gets the character formatting of the style. |
 | [getLeftIndent()](#getLeftIndent) | Gets the value that represents the left indent of a table. |
 | [getLeftPadding()](#getLeftPadding) | Gets the amount of space (in points) to add to the left of the contents of table cells. |
-| [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. |
+| [getLinkedStyleName()](#getLinkedStyleName) | Gets/sets the name of the [Style](../../com.aspose.words/style/) linked to this one. |
 | [getList()](#getList) | Gets the list that defines formatting of this list style. |
 | [getListFormat()](#getListFormat) | Provides access to the list formatting properties of a paragraph style. |
 | [getLocked()](#getLocked) | Specifies whether this style is locked. |
@@ -141,6 +141,7 @@ Shows how to create custom style settings for the table.
 | [setColumnStripe(int value)](#setColumnStripe-int) | Sets a number of columns to include in the banding when the style specifies odd/even columns banding. |
 | [setLeftIndent(double value)](#setLeftIndent-double) | Sets the value that represents the left indent of a table. |
 | [setLeftPadding(double value)](#setLeftPadding-double) | Sets the amount of space (in points) to add to the left of the contents of table cells. |
+| [setLinkedStyleName(String value)](#setLinkedStyleName-java.lang.String) | Gets/sets the name of the [Style](../../com.aspose.words/style/) linked to this one. |
 | [setLocked(boolean value)](#setLocked-boolean) | Specifies whether this style is locked. |
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the style. |
 | [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
@@ -1338,9 +1339,38 @@ public String getLinkedStyleName()
 ```
 
 
-Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. Returns empty string if no styles are linked.
+Gets/sets the name of the [Style](../../com.aspose.words/style/) linked to this one. Returns empty string if no styles are linked.
+
+ **Remarks:** 
+
+It is only allowed to link the paragraph style to the character style and vice versa.
+
+Setting LinkedStyleName for the current style automatically leads to setting LinkedStyleName for the linked style.
+
+Assigning the empty string is equivalent to unlinking the previously linked style.
 
  **Examples:** 
+
+Shows how to link styles among themselves.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
+ styleHeading1Char.getFont().setName("Verdana");
+ styleHeading1Char.getFont().setBold(true);
+ styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
+ styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
+
+ styleHeading1.setLinkedStyleName("Heading 1 Char");
+
+ Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
+ Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
+ 
+```
 
 Shows how to use style aliases.
 
@@ -1371,7 +1401,7 @@ Shows how to use style aliases.
 ```
 
 **Returns:**
-java.lang.String - The name of the [Style](../../com.aspose.words/style/) linked to this one.
+java.lang.String - The corresponding java.lang.String value.
 ### getList() {#getList}
 ```
 public List getList()
@@ -2851,6 +2881,78 @@ Shows how to create custom style settings for the table.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add to the left of the contents of table cells. |
+
+### setLinkedStyleName(String value) {#setLinkedStyleName-java.lang.String}
+```
+public void setLinkedStyleName(String value)
+```
+
+
+Gets/sets the name of the [Style](../../com.aspose.words/style/) linked to this one. Returns empty string if no styles are linked.
+
+ **Remarks:** 
+
+It is only allowed to link the paragraph style to the character style and vice versa.
+
+Setting LinkedStyleName for the current style automatically leads to setting LinkedStyleName for the linked style.
+
+Assigning the empty string is equivalent to unlinking the previously linked style.
+
+ **Examples:** 
+
+Shows how to link styles among themselves.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
+ styleHeading1Char.getFont().setName("Verdana");
+ styleHeading1Char.getFont().setBold(true);
+ styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
+ styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
+
+ styleHeading1.setLinkedStyleName("Heading 1 Char");
+
+ Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
+ Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
+ 
+```
+
+Shows how to use style aliases.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setLocked(boolean value) {#setLocked-boolean}
 ```

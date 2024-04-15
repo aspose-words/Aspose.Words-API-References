@@ -4,7 +4,7 @@ linktitle: ShapeRenderer
 second_title: Aspose.Words for Java
 description: Provides methods to render an individual Shape or GroupShape to a raster or vector image or to a Graphics object in Java.
 type: docs
-weight: 557
+weight: 560
 url: /java/com.aspose.words/shaperenderer/
 ---
 
@@ -80,11 +80,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -142,11 +142,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -205,11 +205,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -261,11 +261,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -323,11 +323,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -386,11 +386,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -442,11 +442,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -504,11 +504,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
@@ -567,11 +567,11 @@ Shows how to measure and scale shapes.
  OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
  OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
- Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.21f);
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.

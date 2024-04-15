@@ -4,7 +4,7 @@ linktitle: OdtSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.ODT or SaveFormat.OTT format in Java.
 type: docs
-weight: 450
+weight: 452
 url: /java/com.aspose.words/odtsaveoptions/
 ---
 
@@ -77,6 +77,7 @@ Shows how to use different measurement units to define style parameters of a sav
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
+| [getDigitalSignatureDetails()](#getDigitalSignatureDetails) | Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
 | [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
@@ -99,6 +100,7 @@ Shows how to use different measurement units to define style parameters of a sav
 | [isStrictSchema11(boolean value)](#isStrictSchema11-boolean) | Specifies whether export should correspond to ODT specification 1.1 strictly. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
+| [setDigitalSignatureDetails(DigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails) | Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
@@ -304,6 +306,16 @@ Shows how to set a default template for documents that do not have attached temp
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
+### getDigitalSignatureDetails() {#getDigitalSignatureDetails}
+```
+public DigitalSignatureDetails getDigitalSignatureDetails()
+```
+
+
+Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
+
+**Returns:**
+[DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) - [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
 ### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode}
 ```
 public int getDml3DEffectsRenderingMode()
@@ -1323,6 +1335,19 @@ Shows how to set a default template for documents that do not have attached temp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Path to default template (including filename). |
+
+### setDigitalSignatureDetails(DigitalSignatureDetails value) {#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails}
+```
+public void setDigitalSignatureDetails(DigitalSignatureDetails value)
+```
+
+
+Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) | [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 
 ### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int}
 ```

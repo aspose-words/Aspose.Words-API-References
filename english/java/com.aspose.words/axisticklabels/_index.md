@@ -25,6 +25,7 @@ Represents properties of axis tick mark labels.
 | [getFont()](#getFont) | Provides access to font formatting of the tick labels. |
 | [getOffset()](#getOffset) | Gets the distance of the tick labels from the axis. |
 | [getPosition()](#getPosition) | Gets the position of the tick labels on the axis. |
+| [getRelativePropertyValue(int key, Object value)](#getRelativePropertyValue-int-java.lang.Object) |  |
 | [getSpacing()](#getSpacing) | Gets the interval at which the tick labels are drawn. |
 | [isAutoSpacing()](#isAutoSpacing) | Gets a flag indicating whether to use automatic interval for drawing the tick labels. |
 | [isAutoSpacing(boolean value)](#isAutoSpacing-boolean) | Sets a flag indicating whether to use automatic interval for drawing the tick labels. |
@@ -221,6 +222,22 @@ Shows how to insert a chart and modify the appearance of its axes.
 
 **Returns:**
 int - The position of the tick labels on the axis. The returned value is one of [AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition/) constants.
+### getRelativePropertyValue(int key, Object value) {#getRelativePropertyValue-int-java.lang.Object}
+```
+public Object getRelativePropertyValue(int key, Object value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+
+**Returns:**
+java.lang.Object
 ### getSpacing() {#getSpacing}
 ```
 public int getSpacing()

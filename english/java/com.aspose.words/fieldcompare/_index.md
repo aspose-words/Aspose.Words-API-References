@@ -4,7 +4,7 @@ linktitle: FieldCompare
 second_title: Aspose.Words for Java
 description: Implements the COMPARE field in Java.
 type: docs
-weight: 191
+weight: 192
 url: /java/com.aspose.words/fieldcompare/
 ---
 

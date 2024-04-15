@@ -4,7 +4,7 @@ linktitle: ParagraphFormat
 second_title: Aspose.Words for Java
 description: Represents all the formatting for a paragraph in Java.
 type: docs
-weight: 477
+weight: 479
 url: /java/com.aspose.words/paragraphformat/
 ---
 
@@ -98,6 +98,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [getLineUnitAfter()](#getLineUnitAfter) | Gets the amount of spacing (in gridlines) after the paragraphs. |
 | [getLineUnitBefore()](#getLineUnitBefore) | Gets the amount of spacing (in gridlines) before the paragraphs. |
 | [getLinesToDrop()](#getLinesToDrop) | Gets the number of lines of the paragraph text used to calculate the drop cap height. |
+| [getMirrorIndents()](#getMirrorIndents) | Gets a flag indicating whether the left and right indents are of the same width. |
 | [getNoSpaceBetweenParagraphsOfSameStyle()](#getNoSpaceBetweenParagraphsOfSameStyle) | When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double) will be ignored between the paragraphs of the same style. |
 | [getOutlineLevel()](#getOutlineLevel) | Specifies the outline level of the paragraph in the document. |
 | [getPageBreakBefore()](#getPageBreakBefore) | True if a page break is forced before the paragraph. |
@@ -139,6 +140,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [setLineUnitAfter(double value)](#setLineUnitAfter-double) | Sets the amount of spacing (in gridlines) after the paragraphs. |
 | [setLineUnitBefore(double value)](#setLineUnitBefore-double) | Sets the amount of spacing (in gridlines) before the paragraphs. |
 | [setLinesToDrop(int value)](#setLinesToDrop-int) | Sets the number of lines of the paragraph text used to calculate the drop cap height. |
+| [setMirrorIndents(boolean value)](#setMirrorIndents-boolean) | Sets a flag indicating whether the left and right indents are of the same width. |
 | [setNoSpaceBetweenParagraphsOfSameStyle(boolean value)](#setNoSpaceBetweenParagraphsOfSameStyle-boolean) | When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double) will be ignored between the paragraphs of the same style. |
 | [setOutlineLevel(int value)](#setOutlineLevel-int) | Specifies the outline level of the paragraph in the document. |
 | [setPageBreakBefore(boolean value)](#setPageBreakBefore-boolean) | True if a page break is forced before the paragraph. |
@@ -1296,6 +1298,31 @@ Shows how to set the size of a drop cap.
 
 **Returns:**
 int - The number of lines of the paragraph text used to calculate the drop cap height.
+### getMirrorIndents() {#getMirrorIndents}
+```
+public boolean getMirrorIndents()
+```
+
+
+Gets a flag indicating whether the left and right indents are of the same width.
+
+ **Examples:** 
+
+Show how to make left and right indents the same.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+ ParagraphFormat format = doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat();
+
+ format.setMirrorIndents(true);
+
+ doc.save(getArtifactsDir() + "ParagraphFormat.MirrorIndents.docx");
+ 
+```
+
+**Returns:**
+boolean - A flag indicating whether the left and right indents are of the same width.
 ### getNoSpaceBetweenParagraphsOfSameStyle() {#getNoSpaceBetweenParagraphsOfSameStyle}
 ```
 public boolean getNoSpaceBetweenParagraphsOfSameStyle()
@@ -3183,6 +3210,34 @@ Shows how to set the size of a drop cap.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The number of lines of the paragraph text used to calculate the drop cap height. |
+
+### setMirrorIndents(boolean value) {#setMirrorIndents-boolean}
+```
+public void setMirrorIndents(boolean value)
+```
+
+
+Sets a flag indicating whether the left and right indents are of the same width.
+
+ **Examples:** 
+
+Show how to make left and right indents the same.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+ ParagraphFormat format = doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat();
+
+ format.setMirrorIndents(true);
+
+ doc.save(getArtifactsDir() + "ParagraphFormat.MirrorIndents.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A flag indicating whether the left and right indents are of the same width. |
 
 ### setNoSpaceBetweenParagraphsOfSameStyle(boolean value) {#setNoSpaceBetweenParagraphsOfSameStyle-boolean}
 ```

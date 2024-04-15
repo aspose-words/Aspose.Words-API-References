@@ -4,7 +4,7 @@ linktitle: NodeCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of nodes of a specific type in Java.
 type: docs
-weight: 435
+weight: 437
 url: /java/com.aspose.words/nodecollection/
 ---
 
@@ -248,12 +248,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  
@@ -316,12 +316,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  
