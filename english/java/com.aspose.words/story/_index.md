@@ -4,7 +4,7 @@ linktitle: Story
 second_title: Aspose.Words for Java
 description: Base class for elements that contain block-level nodes Paragraph and Table in Java.
 type: docs
-weight: 567
+weight: 570
 url: /java/com.aspose.words/story/
 ---
 
@@ -736,12 +736,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  
@@ -847,7 +847,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -1066,7 +1066,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -1153,7 +1153,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -1587,7 +1587,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -1605,49 +1605,6 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
-
- **Examples:** 
-
-Shows how to traverse through a composite node's collection of child nodes.
-
-```
-
- Document doc = new Document();
-
- // Add two runs and one shape as child nodes to the first paragraph of this document.
- Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
- paragraph.appendChild(new Run(doc, "Hello world! "));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- shape.setWidth(200.0);
- shape.setHeight(200.0);
- // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
- shape.setCustomNodeId(100);
- shape.setWrapType(WrapType.INLINE);
- paragraph.appendChild(shape);
-
- paragraph.appendChild(new Run(doc, "Hello again!"));
-
- // Iterate through the paragraph's collection of immediate children,
- // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
-
- Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
-
- for (Node child : (Iterable) children)
-     switch (child.getNodeType()) {
-         case NodeType.RUN:
-             System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
-             break;
-         case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
-             System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-             break;
-     }
- 
-```
 
 **Returns:**
 java.util.Iterator
@@ -2055,9 +2012,11 @@ Shows how to use an XPath expression to test whether a node is inside a field.
  // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
  NodeList resultList =
          doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
 
  // Check if the specified run is one of the nodes that are inside the field.
- System.out.println("Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 
@@ -2201,12 +2160,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  

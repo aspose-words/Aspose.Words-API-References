@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 142
+weight: 143
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -3517,6 +3517,19 @@ This overload will automatically download the image before inserting into the do
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape/) object returned by this method.
 
  **Examples:** 
+
+Shows how to insert WebP image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "WebP image.webp");
+
+ doc.save(getArtifactsDir() + "Image.InsertWebpImage.docx");
+ 
+```
 
 Shows how to insert gif image to the document.
 

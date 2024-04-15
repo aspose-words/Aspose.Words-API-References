@@ -4,7 +4,7 @@ linktitle: FieldInfo
 second_title: Aspose.Words for Java
 description: Implements the INFO field in Java.
 type: docs
-weight: 228
+weight: 229
 url: /java/com.aspose.words/fieldinfo/
 ---
 

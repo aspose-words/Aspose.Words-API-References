@@ -61,6 +61,7 @@ Shows how to show data table with chart series data.
 | [generateItemText()](#generateItemText) |  |
 | [getFont()](#getFont) | Provides access to font formatting of the data table. |
 | [getFormat()](#getFormat) | Provides access to fill of text background and border formatting of the data table. |
+| [getRelativePropertyValue(int key, Object value)](#getRelativePropertyValue-int-java.lang.Object) |  |
 | [getShapeType()](#getShapeType) |  |
 | [getShow()](#getShow) | Gets a flag indicating whether the data table will be shown for the chart. |
 | [hasHorizontalBorder()](#hasHorizontalBorder) | Gets a flag indicating whether a horizontal border of the data table is displayed. |
@@ -121,6 +122,22 @@ Provides access to fill of text background and border formatting of the data tab
 
 **Returns:**
 [ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
+### getRelativePropertyValue(int key, Object value) {#getRelativePropertyValue-int-java.lang.Object}
+```
+public Object getRelativePropertyValue(int key, Object value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+
+**Returns:**
+java.lang.Object
 ### getShapeType() {#getShapeType}
 ```
 public int getShapeType()

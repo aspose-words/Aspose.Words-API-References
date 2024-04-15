@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PDF format in Java.
 type: docs
-weight: 493
+weight: 495
 url: /java/com.aspose.words/pdfsaveoptions/
 ---
 

@@ -4,7 +4,7 @@ linktitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for Java
 description: Contains details for signing a PDF document with a digital signature in Java.
 type: docs
-weight: 482
+weight: 484
 url: /java/com.aspose.words/pdfdigitalsignaturedetails/
 ---
 
@@ -18,7 +18,7 @@ Contains details for signing a PDF document with a digital signature.
 
  **Remarks:** 
 
-At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
+At the moment digitally signing PDF documents is only available on .NET 3.5 or higher.
 
 To digitally sign a PDF document when it is created by Aspose.Words, set the [PdfSaveOptions.getDigitalSignatureDetails()](../../com.aspose.words/pdfsaveoptions/\#getDigitalSignatureDetails) / [PdfSaveOptions.setDigitalSignatureDetails(com.aspose.words.PdfDigitalSignatureDetails)](../../com.aspose.words/pdfsaveoptions/\#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails) property to a valid [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails/) object and then save the document in the PDF format passing the [PdfSaveOptions](../../com.aspose.words/pdfsaveoptions/) as a parameter into the [Document.save(java.lang.String, com.aspose.words.SaveOptions)](../../com.aspose.words/document/\#save-java.lang.String--com.aspose.words.SaveOptions) method.
 

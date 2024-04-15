@@ -84,6 +84,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getCategoryType()](#getCategoryType) | Gets type of the category axis. |
 | [getCrosses()](#getCrosses) | Specifies how this axis crosses the perpendicular axis. |
 | [getCrossesAt()](#getCrossesAt) | Specifies where on the perpendicular axis the axis crosses. |
+| [getDefaultDisplayedFontSize()](#getDefaultDisplayedFontSize) |  |
 | [getDefaultFontSize()](#getDefaultFontSize) |  |
 | [getDefaultTitleText()](#getDefaultTitleText) |  |
 | [getDisplayUnit()](#getDisplayUnit) | Specifies the scaling value of the display units for the value axis. |
@@ -99,6 +100,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getMinorUnitIsAuto()](#getMinorUnitIsAuto) | Gets a flag indicating whether default distance between minor tick marks shall be used. |
 | [getMinorUnitScale()](#getMinorUnitScale) | Gets the scale value for minor tick marks on the time category axis. |
 | [getNumberFormat()](#getNumberFormat) | Returns a [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) object that allows defining number formats for the axis. |
+| [getRelativeFontSize(int chartFontSize)](#getRelativeFontSize-int) |  |
 | [getReverseOrder()](#getReverseOrder) | Gets a flag indicating whether values of axis should be displayed in reverse order, i.e. |
 | [getScaling()](#getScaling) | Provides access to the scaling options of the axis. |
 | [getShapeType()](#getShapeType) |  |
@@ -436,6 +438,16 @@ Shows how to get a graph axis to cross at a custom location.
 
 **Returns:**
 double - The corresponding  double  value.
+### getDefaultDisplayedFontSize() {#getDefaultDisplayedFontSize}
+```
+public double getDefaultDisplayedFontSize()
+```
+
+
+
+
+**Returns:**
+double
 ### getDefaultFontSize() {#getDefaultFontSize}
 ```
 public double getDefaultFontSize()
@@ -1178,6 +1190,21 @@ Shows how to set formatting for chart values.
 
 **Returns:**
 [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) - A [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) object that allows defining number formats for the axis.
+### getRelativeFontSize(int chartFontSize) {#getRelativeFontSize-int}
+```
+public int getRelativeFontSize(int chartFontSize)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chartFontSize | int |  |
+
+**Returns:**
+int
 ### getReverseOrder() {#getReverseOrder}
 ```
 public boolean getReverseOrder()

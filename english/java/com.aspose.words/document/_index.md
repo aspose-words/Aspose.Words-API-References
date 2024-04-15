@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 140
+weight: 141
 url: /java/com.aspose.words/document/
 ---
 
@@ -219,6 +219,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [protect(int type, String password)](#protect-int-java.lang.String) |  |
 | [remove()](#remove) |  |
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
+| [removeBlankPages()](#removeBlankPages) | Removes blank pages from the document. |
 | [removeExternalSchemaReferences()](#removeExternalSchemaReferences) | Removes external XML schema references from this document. |
 | [removeMacros()](#removeMacros) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
@@ -1792,12 +1793,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  
@@ -2274,7 +2275,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -3309,7 +3310,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -3435,7 +3436,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -5283,7 +5284,7 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
              traverseAllNodes((CompositeNode) childNode, depth + 1);
          } else if (childNode instanceof Inline) {
-             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
          } else {
              System.out.println();
          }
@@ -5301,49 +5302,6 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
-
- **Examples:** 
-
-Shows how to traverse through a composite node's collection of child nodes.
-
-```
-
- Document doc = new Document();
-
- // Add two runs and one shape as child nodes to the first paragraph of this document.
- Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
- paragraph.appendChild(new Run(doc, "Hello world! "));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- shape.setWidth(200.0);
- shape.setHeight(200.0);
- // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
- shape.setCustomNodeId(100);
- shape.setWrapType(WrapType.INLINE);
- paragraph.appendChild(shape);
-
- paragraph.appendChild(new Run(doc, "Hello again!"));
-
- // Iterate through the paragraph's collection of immediate children,
- // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
-
- Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
-
- for (Node child : (Iterable) children)
-     switch (child.getNodeType()) {
-         case NodeType.RUN:
-             System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
-             break;
-         case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
-             System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-             break;
-     }
- 
-```
 
 **Returns:**
 java.util.Iterator
@@ -5783,6 +5741,20 @@ Shows how to construct an Aspose.Words document by hand.
  
 ```
 
+### removeBlankPages() {#removeBlankPages}
+```
+public ArrayList removeBlankPages()
+```
+
+
+Removes blank pages from the document.
+
+ **Remarks:** 
+
+The resulting document will not contain pages considered to be blank while other content, including numbering, headers/footers and overall layout should remain unchanged. Page is considered to be blank when body of the page have no visible content, for example, empty table having no borders will be considered as invisible and therefore page will be detected as blank.
+
+**Returns:**
+java.util.ArrayList - List of page numbers has been considered as blank and removed.
 ### removeExternalSchemaReferences() {#removeExternalSchemaReferences}
 ```
 public void removeExternalSchemaReferences()
@@ -5972,8 +5944,8 @@ Shows how to the individual pages of a document to graphics to create one image 
  // Calculate the number of rows and columns that we will fill with thumbnails.
  final int thumbColumns = 2;
  int thumbRows = doc.getPageCount() / thumbColumns;
-
  int remainder = doc.getPageCount() % thumbColumns;
+
  if (remainder > 0) thumbRows++;
 
  // Scale the thumbnails relative to the size of the first page.
@@ -6374,9 +6346,11 @@ Shows how to use an XPath expression to test whether a node is inside a field.
  // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
  NodeList resultList =
          doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
 
  // Check if the specified run is one of the nodes that are inside the field.
- System.out.println("Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 
@@ -6650,12 +6624,12 @@ Shows how to traverse through a composite node's collection of child nodes.
      switch (child.getNodeType()) {
          case NodeType.RUN:
              System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
              break;
          case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
+             Shape childShape = (Shape)child;
              System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
              break;
      }
  

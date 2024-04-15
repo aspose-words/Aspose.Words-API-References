@@ -4,7 +4,7 @@ linktitle: OoxmlSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.DOCX SaveFormat.DOCM SaveFormat.DOTX SaveFormat.DOTM or SaveFormat.FLAT_OPC format in Java.
 type: docs
-weight: 459
+weight: 461
 url: /java/com.aspose.words/ooxmlsaveoptions/
 ---
 
@@ -68,6 +68,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [getCompliance()](#getCompliance) | Specifies the OOXML version for the output document. |
 | [getCompressionLevel()](#getCompressionLevel) | Specifies the compression level used to save document. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
+| [getDigitalSignatureDetails()](#getDigitalSignatureDetails) | Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
 | [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
@@ -91,6 +92,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [setCompliance(int value)](#setCompliance-int) | Specifies the OOXML version for the output document. |
 | [setCompressionLevel(int value)](#setCompressionLevel-int) | Specifies the compression level used to save document. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
+| [setDigitalSignatureDetails(DigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails) | Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
@@ -442,6 +444,37 @@ Shows how to set a default template for documents that do not have attached temp
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
+### getDigitalSignatureDetails() {#getDigitalSignatureDetails}
+```
+public DigitalSignatureDetails getDigitalSignatureDetails()
+```
+
+
+Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
+
+ **Examples:** 
+
+Shows how to sign OOXML document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.getDigitalSignatureDetails().setComments("Some comments");
+ saveOptions.getDigitalSignatureDetails().setSignTime(new Date());
+ saveOptions.setDigitalSignatureDetails(new DigitalSignatureDetails(
+         certificateHolder,
+         new SignOptions()));
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
+ 
+```
+
+**Returns:**
+[DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) - [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
 ### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode}
 ```
 public int getDml3DEffectsRenderingMode()
@@ -1580,6 +1613,40 @@ Shows how to set a default template for documents that do not have attached temp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Path to default template (including filename). |
+
+### setDigitalSignatureDetails(DigitalSignatureDetails value) {#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails}
+```
+public void setDigitalSignatureDetails(DigitalSignatureDetails value)
+```
+
+
+Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
+
+ **Examples:** 
+
+Shows how to sign OOXML document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.getDigitalSignatureDetails().setComments("Some comments");
+ saveOptions.getDigitalSignatureDetails().setSignTime(new Date());
+ saveOptions.setDigitalSignatureDetails(new DigitalSignatureDetails(
+         certificateHolder,
+         new SignOptions()));
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) | [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 
 ### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int}
 ```

@@ -661,7 +661,7 @@ Shows how to remove bookmarks from a document.
  bookmarks.clear();
 
  // The text that was inside the bookmarks is still present in the document.
- Assert.assertTrue(IterableUtils.size(bookmarks) == 0);
+ Assert.assertEquals(bookmarks.getCount(), 0);
  Assert.assertEquals("Text inside MyBookmark_1.\r" +
          "Text inside MyBookmark_2.\r" +
          "Text inside MyBookmark_3.\r" +
