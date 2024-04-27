@@ -49,6 +49,7 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [set_AutomaticallyUpdate](./set_automaticallyupdate/)(bool) | Setter for [Aspose::Words::Style::get_AutomaticallyUpdate](./get_automaticallyupdate/). |
 | [set_BaseStyleName](./set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](./get_basestylename/). |
 | [set_IsQuickStyle](./set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](./get_isquickstyle/). |
+| [set_LinkedStyleName](./set_linkedstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_LinkedStyleName](./get_linkedstylename/). |
 | [set_Locked](./set_locked/)(bool) |  |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |
 | [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |

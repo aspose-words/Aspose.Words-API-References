@@ -54,14 +54,14 @@ auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::Offic
 auto renderer = MakeObject<OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.
-ASSERT_NEAR(119.0f, renderer->get_SizeInPoints().get_Width(), 0.2f);
+ASSERT_NEAR(119.0f, renderer->get_SizeInPoints().get_Width(), 0.3f);
 ASSERT_NEAR(13.0f, renderer->get_SizeInPoints().get_Height(), 0.1f);
 
-ASSERT_NEAR(119.0f, renderer->get_BoundsInPoints().get_Width(), 0.2f);
+ASSERT_NEAR(119.0f, renderer->get_BoundsInPoints().get_Width(), 0.3f);
 ASSERT_NEAR(13.0f, renderer->get_BoundsInPoints().get_Height(), 0.1f);
 
 // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
-ASSERT_NEAR(119.0f, renderer->get_OpaqueBoundsInPoints().get_Width(), 0.2f);
+ASSERT_NEAR(119.0f, renderer->get_OpaqueBoundsInPoints().get_Width(), 0.3f);
 ASSERT_NEAR(14.2f, renderer->get_OpaqueBoundsInPoints().get_Height(), 0.1f);
 
 // Get the shape size in pixels, with linear scaling to a specific DPI.

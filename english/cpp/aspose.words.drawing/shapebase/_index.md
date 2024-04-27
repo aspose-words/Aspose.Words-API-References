@@ -18,7 +18,9 @@ class ShapeBase : public Aspose::Words::CompositeNode,
                   public Aspose::Words::Drawing::Core::IShape,
                   public Aspose::Words::IShapeAttrSource,
                   public Aspose::Words::Revisions::ITrackableNode,
-                  public Aspose::Words::Drawing::Core::IFillable
+                  public Aspose::Words::Drawing::Core::IFillable,
+                  public Aspose::Words::Drawing::Core::IGlow,
+                  public Aspose::Words::Drawing::Core::IReflection
 ```
 
 ## Methods
@@ -54,6 +56,7 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FlipOrientation](./get_fliporientation/)() | Switches the orientation of a shape. |
 | [get_Font](./get_font/)() | Provides access to the font formatting of this object. |
+| [get_Glow](./get_glow/)() |  |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_Height](./get_height/)() | Gets or sets the height of the containing block of the shape. |
 | [get_HeightRelative](./get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
@@ -86,6 +89,7 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [get_Reflection](./get_reflection/)() |  |
 | [get_RelativeHorizontalPosition](./get_relativehorizontalposition/)() | Specifies relative to what the shape is positioned horizontally. |
 | [get_RelativeHorizontalSize](./get_relativehorizontalsize/)() | Gets or sets the value of shape's relative size in horizontal direction. |
 | [get_RelativeVerticalPosition](./get_relativeverticalposition/)() | Specifies relative to what the shape is positioned vertically. |
