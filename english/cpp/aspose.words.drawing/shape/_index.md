@@ -56,6 +56,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_FirstParagraph](./get_firstparagraph/)() | Gets the first paragraph in the shape. |
 | [get_FlipOrientation](../shapebase/get_fliporientation/)() | Switches the orientation of a shape. |
 | [get_Font](../shapebase/get_font/)() | Provides access to the font formatting of this object. |
+| [get_Glow](../shapebase/get_glow/)() |  |
 | [get_HasChart](./get_haschart/)() | Returns **true** if this [Shape](./) has a [Chart](../../aspose.words.drawing.charts/chart/). |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_HasImage](./get_hasimage/)() | Returns **true** if the shape has image bytes or links an image. |
@@ -95,6 +96,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [get_Reflection](../shapebase/get_reflection/)() |  |
 | [get_RelativeHorizontalPosition](../shapebase/get_relativehorizontalposition/)() | Specifies relative to what the shape is positioned horizontally. |
 | [get_RelativeHorizontalSize](../shapebase/get_relativehorizontalsize/)() | Gets or sets the value of shape's relative size in horizontal direction. |
 | [get_RelativeVerticalPosition](../shapebase/get_relativeverticalposition/)() | Specifies relative to what the shape is positioned vertically. |

@@ -75,6 +75,7 @@ class TableStyle : public Aspose::Words::Style,
 | [set_IsQuickStyle](../style/set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](../style/get_isquickstyle/). |
 | [set_LeftIndent](./set_leftindent/)(double) | Setter for [Aspose::Words::TableStyle::get_LeftIndent](./get_leftindent/). |
 | [set_LeftPadding](./set_leftpadding/)(double) | Setter for [Aspose::Words::TableStyle::get_LeftPadding](./get_leftpadding/). |
+| [set_LinkedStyleName](../style/set_linkedstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_LinkedStyleName](../style/get_linkedstylename/). |
 | [set_Locked](../style/set_locked/)(bool) |  |
 | [set_Name](../style/set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](../style/get_name/). |
 | [set_NextParagraphStyleName](../style/set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](../style/get_nextparagraphstylename/). |

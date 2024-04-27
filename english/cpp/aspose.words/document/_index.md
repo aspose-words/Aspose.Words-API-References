@@ -142,6 +142,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [Protect](./protect/)(Aspose::Words::ProtectionType) | Protects the document from changes without changing the existing password or assigns a random password. |
 | [Protect](./protect/)(Aspose::Words::ProtectionType, const System::String\&) | Protects the document from changes and optionally sets a protection password. |
 | [RemoveAllChildren](../compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
+| [RemoveBlankPages](./removeblankpages/)() |  |
 | [RemoveChild](../compositenode/removechild/)(T) |  |
 | [RemoveExternalSchemaReferences](./removeexternalschemareferences/)() | Removes external XML schema references from this document. |
 | [RemoveMacros](./removemacros/)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
