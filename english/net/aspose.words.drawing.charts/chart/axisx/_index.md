@@ -3,14 +3,14 @@ title: Chart.AxisX
 linktitle: AxisX
 articleTitle: AxisX
 second_title: Aspose.Words for .NET
-description: Chart AxisX property. Provides access to properties of the X axis of the chart in C#.
+description: Chart AxisX property. Provides access to properties of the primary X axis of the chart in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chart/axisx/
 ---
 ## Chart.AxisX property
 
-Provides access to properties of the X axis of the chart.
+Provides access to properties of the primary X axis of the chart.
 
 ```csharp
 public ChartAxis AxisX { get; }

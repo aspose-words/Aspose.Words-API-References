@@ -14,6 +14,8 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 
 | Class | Description |
 | --- | --- |
+| [Adjustment](./adjustment/) | Represents adjustment values that are applied to the specified shape. |
+| [AdjustmentCollection](./adjustmentcollection/) | Represents a read-only collection of [`Adjustment`](../aspose.words.drawing/adjustment/) adjust values that are applied to the specified shape. |
 | [Fill](./fill/) | Represents fill formatting for an object. |
 | [GlowFormat](./glowformat/) | Represents the glow formatting for an object. |
 | [GradientStop](./gradientstop/) | Represents one gradient stop. |
@@ -29,6 +31,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [Shape](./shape/) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. |
 | [ShapeBase](./shapebase/) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. |
 | [SignatureLine](./signatureline/) | Provides access to signature line properties. |
+| [SoftEdgeFormat](./softedgeformat/) | Represents the soft edge formatting for an object. |
 | [Stroke](./stroke/) | Defines a stroke for a shape. |
 | [TextBox](./textbox/) | Defines attributes that specify how a text is displayed inside a shape. |
 | [TextPath](./textpath/) | Defines the text and formatting of the text path (of a WordArt object). |

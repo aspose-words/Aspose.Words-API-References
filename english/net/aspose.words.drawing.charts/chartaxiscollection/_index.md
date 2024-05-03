@@ -5,7 +5,7 @@ articleTitle: ChartAxisCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartAxisCollection class. Represents a collection of chart axes in C#.
 type: docs
-weight: 730
+weight: 760
 url: /net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class

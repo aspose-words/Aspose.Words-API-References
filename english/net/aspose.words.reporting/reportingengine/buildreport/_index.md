@@ -174,6 +174,22 @@ engine.BuildReport(doc, new object[] { Common.GetShares(), Common.GetShareQuotes
 doc.Save(ArtifactsDir + "ReportingEngine.Word2016Charts.docx");
 ```
 
+Shows how to keep inserted numbering as is.
+
+```csharp
+// By default, numbered lists from a template document are continued when their identifiers match those from a document being inserted.
+// With "-sourceNumbering" numbering should be separated and kept as is.
+Document template = DocumentHelper.CreateSimpleDocument("<<doc [src.Document]>>" + Environment.NewLine + "<<doc [src.Document] -sourceNumbering>>");
+
+DocumentTestClass doc = new DocumentTestBuilder()
+    .WithDocument(new Document(MyDir + "List item.docx")).Build();
+
+ReportingEngine engine = new ReportingEngine() { Options = ReportBuildOptions.RemoveEmptyParagraphs };
+engine.BuildReport(template, new object[] { doc }, new[] { "src" });
+
+template.Save(ArtifactsDir + "ReportingEngine.SourseListNumbering.docx");
+```
+
 ### See Also
 
 * class [Document](../../../aspose.words/document/)

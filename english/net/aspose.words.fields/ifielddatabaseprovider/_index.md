@@ -5,7 +5,7 @@ articleTitle: IFieldDatabaseProvider
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.IFieldDatabaseProvider interface. Implement this interface to provide data for the FieldDatabase field when its updated in C#.
 type: docs
-weight: 2830
+weight: 2890
 url: /net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface

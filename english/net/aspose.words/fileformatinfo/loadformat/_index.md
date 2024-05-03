@@ -5,7 +5,7 @@ articleTitle: LoadFormat
 second_title: Aspose.Words for .NET
 description: FileFormatInfo LoadFormat property. Gets the detected document format in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words/fileformatinfo/loadformat/
 ---
 ## FileFormatInfo.LoadFormat property

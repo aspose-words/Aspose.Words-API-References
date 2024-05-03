@@ -5,7 +5,7 @@ articleTitle: IBibliographyStylesProvider
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.IBibliographyStylesProvider interface. Implement this interface to provide bibliography style for the FieldBibliography and FieldCitation fields when theyre updated in C#.
 type: docs
-weight: 2810
+weight: 2870
 url: /net/aspose.words.fields/ibibliographystylesprovider/
 ---
 ## IBibliographyStylesProvider interface

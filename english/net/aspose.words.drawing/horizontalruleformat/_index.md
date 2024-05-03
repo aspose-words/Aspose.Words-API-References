@@ -5,7 +5,7 @@ articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.HorizontalRuleFormat class. Represents horizontal rule formatting in C#.
 type: docs
-weight: 1160
+weight: 1210
 url: /net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class

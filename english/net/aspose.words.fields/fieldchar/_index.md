@@ -5,7 +5,7 @@ articleTitle: FieldChar
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldChar class. Base class for nodes that represent field characters in a document in C#.
 type: docs
-weight: 1810
+weight: 1870
 url: /net/aspose.words.fields/fieldchar/
 ---
 ## FieldChar class
