@@ -24,7 +24,7 @@ Shows how to lock style.
 Document doc = new Document();
 
 Style styleHeading1 = doc.Styles[StyleIdentifier.Heading1];
-if (!styleHeading1.Locked)            
+if (!styleHeading1.Locked)
     styleHeading1.Locked = true;
 
 doc.Save(ArtifactsDir + "Styles.LockStyle.docx");

@@ -5,7 +5,7 @@ articleTitle: Stroked
 second_title: Aspose.Words for .NET
 description: Shape Stroked property. Defines whether the path will be stroked in C#.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property

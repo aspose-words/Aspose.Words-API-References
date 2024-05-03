@@ -45,6 +45,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [get_LinesToDrop](./get_linestodrop/)() | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [get_LineUnitAfter](./get_lineunitafter/)() | Gets or sets the amount of spacing (in gridlines) after the paragraphs. |
 | [get_LineUnitBefore](./get_lineunitbefore/)() | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
+| [get_MirrorIndents](./get_mirrorindents/)() |  |
 | [get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/)() | When **true**, [SpaceBefore](./get_spacebefore/) and [SpaceAfter](./get_spaceafter/) will be ignored between the paragraphs of the same style. |
 | [get_OutlineLevel](./get_outlinelevel/)() | Specifies the outline level of the paragraph in the document. |
 | [get_PageBreakBefore](./get_pagebreakbefore/)() | True if a page break is forced before the paragraph. |
@@ -85,6 +86,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [set_LinesToDrop](./set_linestodrop/)(int32_t) | Setter for [Aspose::Words::ParagraphFormat::get_LinesToDrop](./get_linestodrop/). |
 | [set_LineUnitAfter](./set_lineunitafter/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LineUnitAfter](./get_lineunitafter/). |
 | [set_LineUnitBefore](./set_lineunitbefore/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LineUnitBefore](./get_lineunitbefore/). |
+| [set_MirrorIndents](./set_mirrorindents/)(bool) |  |
 | [set_NoSpaceBetweenParagraphsOfSameStyle](./set_nospacebetweenparagraphsofsamestyle/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/). |
 | [set_OutlineLevel](./set_outlinelevel/)(Aspose::Words::OutlineLevel) | Setter for [Aspose::Words::ParagraphFormat::get_OutlineLevel](./get_outlinelevel/). |
 | [set_PageBreakBefore](./set_pagebreakbefore/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_PageBreakBefore](./get_pagebreakbefore/). |

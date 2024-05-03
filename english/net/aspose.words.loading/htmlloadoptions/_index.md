@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a Document object in C#.
 type: docs
-weight: 3770
+weight: 3830
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class

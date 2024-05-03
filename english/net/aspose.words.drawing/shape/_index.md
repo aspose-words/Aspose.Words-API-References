@@ -5,7 +5,7 @@ articleTitle: Shape
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Shape class. Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in C#.
 type: docs
-weight: 1390
+weight: 1440
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -28,6 +28,7 @@ public sealed class Shape : ShapeBase
 
 | Name | Description |
 | --- | --- |
+| [Adjustments](../../aspose.words.drawing/shape/adjustments/) { get; } | Provides access to the adjustment raw values of a shape. For a shape that does not contain any adjustment raw values, it returns an empty collection. |
 | [AllowOverlap](../../aspose.words.drawing/shapebase/allowoverlap/) { get; set; } | Gets or sets a value that specifies whether this shape can overlap other shapes. |
 | [AlternativeText](../../aspose.words.drawing/shapebase/alternativetext/) { get; set; } | Defines alternative text to be displayed instead of a graphic. |
 | [AnchorLocked](../../aspose.words.drawing/shapebase/anchorlocked/) { get; set; } | Specifies whether the shape's anchor is locked. |
@@ -107,6 +108,7 @@ public sealed class Shape : ShapeBase
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype/) { get; } | Gets the shape type. |
 | [SignatureLine](../../aspose.words.drawing/shape/signatureline/) { get; } | Gets [`SignatureLine`](../signatureline/) object if the shape is a signature line. Returns `null` otherwise. |
 | [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints/) { get; } | Gets the size of the shape in points. |
+| [SoftEdge](../../aspose.words.drawing/shapebase/softedge/) { get; } | Gets soft edge formatting for the shape. |
 | [StoryType](../../aspose.words.drawing/shape/storytype/) { get; } | Returns Textbox. |
 | [Stroke](../../aspose.words.drawing/shape/stroke/) { get; } | Defines a stroke for a shape. |
 | [StrokeColor](../../aspose.words.drawing/shape/strokecolor/) { get; set; } | Defines the color of a stroke. |
@@ -136,13 +138,10 @@ public sealed class Shape : ShapeBase
 | [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
-| [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(*int*) | Reserved for system use. IShapeAttrSource. |
-| [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(*int*) | Reserved for system use. IShapeAttrSource. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returns a live collection of child nodes that match the specified type. |
-| [GetDirectShapeAttr](../../aspose.words.drawing/shapebase/getdirectshapeattr/)(*int*) | Reserved for system use. IShapeAttrSource. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetShapeRenderer](../../aspose.words.drawing/shapebase/getshaperenderer/)() | Creates and returns an object that can be used to render this shape into an image. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Gets the text of this node and of all its children. |
@@ -156,11 +155,9 @@ public sealed class Shape : ShapeBase
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
 | [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Removes the specified child node. |
-| [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(*int*) | Reserved for system use. IShapeAttrSource. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
-| [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(*int, object*) | Reserved for system use. IShapeAttrSource. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exports the content of the node into a string using the specified save options. |
 | [UpdateSmartArtDrawing](../../aspose.words.drawing/shape/updatesmartartdrawing/)() | Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine. |

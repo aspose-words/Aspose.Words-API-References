@@ -5,7 +5,7 @@ articleTitle: Accept
 second_title: Aspose.Words for .NET
 description: Shape Accept method. Accepts a visitor in C#.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method

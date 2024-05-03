@@ -5,7 +5,7 @@ articleTitle: Row
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Row class. Represents a table row in C#.
 type: docs
-weight: 6510
+weight: 6570
 url: /net/aspose.words.tables/row/
 ---
 ## Row class

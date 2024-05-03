@@ -21,8 +21,9 @@ enum class ResourceType
 | Name | Value | Description |
 | --- | --- | --- |
 | Image | 0 | Image. |
-| CssStyleSheet | 1 | Css style sheet. |
-| Document | 2 | [Document](../../aspose.words/document/). |
+| Font | 1 |  |
+| CssStyleSheet | 2 | Css style sheet. |
+| Document | 3 | [Document](../../aspose.words/document/). |
 
 
 ## Examples

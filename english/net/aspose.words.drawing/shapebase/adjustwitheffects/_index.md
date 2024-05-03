@@ -5,7 +5,7 @@ articleTitle: AdjustWithEffects
 second_title: Aspose.Words for .NET
 description: ShapeBase AdjustWithEffects method. Adds to the source rectangle values of the effect extent and returns the final rectangle in C#.
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.words.drawing/shapebase/adjustwitheffects/
 ---
 ## ShapeBase.AdjustWithEffects method

@@ -5,7 +5,7 @@ articleTitle: DocumentLoadingArgs
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.DocumentLoadingArgs class. An argument passed into Notify in C#.
 type: docs
-weight: 3740
+weight: 3800
 url: /net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class

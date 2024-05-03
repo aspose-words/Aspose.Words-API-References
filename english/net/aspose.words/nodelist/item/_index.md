@@ -48,7 +48,7 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-builder.InsertImage(ImageDir + "Logo.jpg");            
+builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Our document contains three Run nodes.
 NodeList nodeList = doc.SelectNodes("//Run");

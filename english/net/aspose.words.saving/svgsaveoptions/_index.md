@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the Svg format in C#.
 type: docs
-weight: 5780
+weight: 5840
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class
@@ -40,6 +40,7 @@ public class SvgSaveOptions : FixedPageSaveOptions
 | [FitToViewPort](../../aspose.words.saving/svgsaveoptions/fittoviewport/) { get; set; } | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to `true` width and height of output SVG are set to 100%. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [JpegQuality](../../aspose.words.saving/fixedpagesaveoptions/jpegquality/) { get; set; } | Gets or sets a value determining the quality of the JPEG images inside Html document. |
+| [MaxImageResolution](../../aspose.words.saving/svgsaveoptions/maximageresolution/) { get; set; } | Gets or sets a value in pixels per inch that limits resolution of exported raster images. Default value is zero. |
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |
 | [MetafileRenderingOptions](../../aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/) { get; set; } | Allows to specify metafile rendering options. |
 | [NumeralFormat](../../aspose.words.saving/fixedpagesaveoptions/numeralformat/) { get; set; } | Gets or sets [`NumeralFormat`](../numeralformat/) used for rendering of numerals. European numerals are used by default. |

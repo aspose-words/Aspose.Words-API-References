@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: Shape NodeType property. Returns Shape in C#.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.drawing/shape/nodetype/
 ---
 ## Shape.NodeType property

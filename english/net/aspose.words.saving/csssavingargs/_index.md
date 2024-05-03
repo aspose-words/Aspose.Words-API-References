@@ -5,7 +5,7 @@ articleTitle: CssSavingArgs
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.CssSavingArgs class. Provides data for the CssSaving event in C#.
 type: docs
-weight: 5040
+weight: 5100
 url: /net/aspose.words.saving/csssavingargs/
 ---
 ## CssSavingArgs class

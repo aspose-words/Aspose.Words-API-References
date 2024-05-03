@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chart/
 Provides access to the chart shape properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
-class Chart : public System::Object
+class Chart : public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
 ```
 
 ## Methods
@@ -25,6 +25,7 @@ class Chart : public System::Object
 | [get_AxisY](./get_axisy/)() | Provides access to properties of the Y axis of the chart. |
 | [get_AxisZ](./get_axisz/)() | Provides access to properties of the Z axis of the chart. |
 | [get_DataTable](./get_datatable/)() |  |
+| [get_Format](./get_format/)() |  |
 | [get_Legend](./get_legend/)() | Provides access to the chart legend properties. |
 | [get_Series](./get_series/)() | Provides access to series collection. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets the path and name of an xls/xlsx file this chart is linked to. |

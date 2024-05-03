@@ -5,7 +5,7 @@ articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
 description: Shape AcceptEnd method. Accepts a visitor for visiting the end of the shape in C#.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.words.drawing/shape/acceptend/
 ---
 ## Shape.AcceptEnd method

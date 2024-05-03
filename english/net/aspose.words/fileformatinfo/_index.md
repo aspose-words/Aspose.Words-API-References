@@ -5,7 +5,7 @@ articleTitle: FileFormatInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.FileFormatInfo class. Contains data returned by FileFormatUtil document format detection methods in C#.
 type: docs
-weight: 2950
+weight: 3010
 url: /net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
@@ -24,6 +24,7 @@ public class FileFormatInfo
 | --- | --- |
 | [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents. |
 | [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Returns `true` if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not specify whether the signature is valid or not. |
+| [HasMacros](../../aspose.words/fileformatinfo/hasmacros/) { get; } | Returns `true` if this document contains a VBA macros. |
 | [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Returns `true` if the document is encrypted and requires a password to open. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Gets the detected document format. |
 

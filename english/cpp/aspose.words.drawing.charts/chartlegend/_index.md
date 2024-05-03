@@ -13,7 +13,8 @@ url: /cpp/aspose.words.drawing.charts/chartlegend/
 Represents chart legend properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
-class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
+class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource,
+                    public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
 ```
 
 ## Methods
@@ -21,6 +22,7 @@ class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 | Method | Description |
 | --- | --- |
 | [get_Font](./get_font/)() |  |
+| [get_Format](./get_format/)() |  |
 | [get_LegendEntries](./get_legendentries/)() const | Returns a collection of legend entries for all series and trendlines of the parent chart. |
 | [get_Overlay](./get_overlay/)() const | Determines whether other chart elements shall be allowed to overlap legend. Default value is **false**. |
 | [get_Position](./get_position/)() const | Specifies the position of the legend on a chart. Default value is [Right](../legendposition/). |

@@ -5,7 +5,7 @@ articleTitle: BarcodeParameters
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.BarcodeParameters class. Container class for barcode parameters to passthrough to BarcodeGenerator in C#.
 type: docs
-weight: 1610
+weight: 1670
 url: /net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class
@@ -58,7 +58,7 @@ Shows how to use a barcode generator.
 Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             // We can use a custom IBarcodeGenerator implementation to generate barcodes,
-            // and then insert them into the document as images.            
+            // and then insert them into the document as images.
             doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
             // Below are four examples of different barcode types that we can create using our generator.
