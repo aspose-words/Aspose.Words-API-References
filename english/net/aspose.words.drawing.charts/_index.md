@@ -37,6 +37,8 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [ChartNumberFormat](./chartnumberformat/) | Represents number formatting of the parent element. |
 | [ChartSeries](./chartseries/) | Represents chart series properties. |
 | [ChartSeriesCollection](./chartseriescollection/) | Represents collection of a [`ChartSeries`](../aspose.words.drawing.charts/chartseries/). |
+| [ChartSeriesGroup](./chartseriesgroup/) | Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes. |
+| [ChartSeriesGroupCollection](./chartseriesgroupcollection/) | Represents a collection of [`ChartSeriesGroup`](../aspose.words.drawing.charts/chartseriesgroup/) objects. |
 | [ChartTitle](./charttitle/) | Provides access to the chart title properties. |
 | [ChartXValue](./chartxvalue/) | Represents an X value for a chart series. |
 | [ChartXValueCollection](./chartxvaluecollection/) | Represents a collection of X values for a chart series. |
@@ -54,6 +56,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [AxisBuiltInUnit](./axisbuiltinunit/) | Specifies the display units for an axis. |
 | [AxisCategoryType](./axiscategorytype/) | Specifies type of a category axis. |
 | [AxisCrosses](./axiscrosses/) | Specifies the possible crossing points for an axis. |
+| [AxisGroup](./axisgroup/) | Represents a type of a chart axis group. |
 | [AxisScaleType](./axisscaletype/) | Specifies the possible scale types for an axis. |
 | [AxisTickLabelPosition](./axisticklabelposition/) | Specifies the possible positions for tick labels. |
 | [AxisTickMark](./axistickmark/) | Specifies the possible positions for tick marks. |

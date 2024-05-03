@@ -5,7 +5,7 @@ articleTitle: EmfPlusDualRenderingMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.EmfPlusDualRenderingMode enum. Specifies how Aspose.Words should render EMF Dual metafiles in C#.
 type: docs
-weight: 5150
+weight: 5210
 url: /net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 ## EmfPlusDualRenderingMode enumeration

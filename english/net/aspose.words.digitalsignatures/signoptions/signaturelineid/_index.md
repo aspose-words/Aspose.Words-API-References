@@ -118,9 +118,9 @@ Shows how to add a signature line to a document, and then sign it using a digita
             mSignees = new List<Signee>
             {
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer",
-                    ImageToByteArray(signImagePath)),                
+                    ImageToByteArray(signImagePath)),
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance",
-                    ImageToByteArray(signImagePath))                
+                    ImageToByteArray(signImagePath))
             };
         }
 

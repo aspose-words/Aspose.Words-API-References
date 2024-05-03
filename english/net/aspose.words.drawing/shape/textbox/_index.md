@@ -5,7 +5,7 @@ articleTitle: TextBox
 second_title: Aspose.Words for .NET
 description: Shape TextBox property. Defines attributes that specify how text is displayed in a shape in C#.
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.words.drawing/shape/textbox/
 ---
 ## Shape.TextBox property

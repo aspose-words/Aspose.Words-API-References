@@ -5,7 +5,7 @@ articleTitle: OleControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.OleControl class. Represents OLE ActiveX control in C#.
 type: docs
-weight: 1260
+weight: 1310
 url: /net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class

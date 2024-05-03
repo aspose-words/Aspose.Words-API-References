@@ -36,7 +36,7 @@ public void RevisionSpecifiedCriteria()
     builder.Write("This does not count as a revision. ");
 
     // To register our edits as revisions, we need to declare an author, and then start tracking them.
-    doc.StartTrackRevisions("John Doe", DateTime.Now);            
+    doc.StartTrackRevisions("John Doe", DateTime.Now);
     builder.Write("This is insertion revision #1. ");
     doc.StopTrackRevisions();
 

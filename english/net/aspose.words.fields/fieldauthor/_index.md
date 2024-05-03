@@ -5,7 +5,7 @@ articleTitle: FieldAuthor
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldAuthor class. Implements the AUTHOR field in C#.
 type: docs
-weight: 1710
+weight: 1770
 url: /net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class

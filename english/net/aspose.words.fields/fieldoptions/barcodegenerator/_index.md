@@ -28,7 +28,7 @@ Shows how to use a barcode generator.
 Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             // We can use a custom IBarcodeGenerator implementation to generate barcodes,
-            // and then insert them into the document as images.            
+            // and then insert them into the document as images.
             doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
             // Below are four examples of different barcode types that we can create using our generator.

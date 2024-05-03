@@ -5,7 +5,7 @@ articleTitle: SectionStart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.SectionStart enum. The type of break at the beginning of the section in C#.
 type: docs
-weight: 5960
+weight: 6020
 url: /net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration

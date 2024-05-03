@@ -5,7 +5,7 @@ articleTitle: IBarcodeGenerator
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.IBarcodeGenerator interface. Public interface for barcode custom generator. Implementation should be provided by user in C#.
 type: docs
-weight: 2800
+weight: 2860
 url: /net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
@@ -35,7 +35,7 @@ Shows how to use a barcode generator.
 Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             // We can use a custom IBarcodeGenerator implementation to generate barcodes,
-            // and then insert them into the document as images.            
+            // and then insert them into the document as images.
             doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
             // Below are four examples of different barcode types that we can create using our generator.

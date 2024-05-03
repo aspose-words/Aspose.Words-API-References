@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: SvgSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be Svg in C#.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.saving/svgsaveoptions/saveformat/
 ---
 ## SvgSaveOptions.SaveFormat property

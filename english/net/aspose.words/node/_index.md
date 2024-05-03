@@ -5,7 +5,7 @@ articleTitle: Node
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Node class. Base class for all nodes of a Word document in C#.
 type: docs
-weight: 4330
+weight: 4390
 url: /net/aspose.words/node/
 ---
 ## Node class

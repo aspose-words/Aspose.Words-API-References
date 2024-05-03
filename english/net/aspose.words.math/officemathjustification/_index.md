@@ -5,7 +5,7 @@ articleTitle: OfficeMathJustification
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Math.OfficeMathJustification enum. Specifies the justification of the equation in C#.
 type: docs
-weight: 4300
+weight: 4360
 url: /net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration

@@ -5,7 +5,7 @@ articleTitle: SubDocument
 second_title: Aspose.Words for .NET
 description: Aspose.Words.SubDocument class. Represents a SubDocument  which is a reference to an externally stored document in C#.
 type: docs
-weight: 6370
+weight: 6430
 url: /net/aspose.words/subdocument/
 ---
 ## SubDocument class
