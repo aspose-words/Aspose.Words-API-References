@@ -5,7 +5,7 @@ articleTitle: AxisScaleType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisScaleType enumeration. Specifies the possible scale types for an axis."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.drawing.charts/axisscaletype/
 ---
 

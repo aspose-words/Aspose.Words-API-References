@@ -5,7 +5,7 @@ articleTitle: text_box property
 second_title: Aspose.Words for Python
 description: "Shape.text_box property. Defines attributes that specify how text is displayed in a shape."
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.words.drawing/shape/text_box/
 ---
 

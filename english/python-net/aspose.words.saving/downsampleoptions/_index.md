@@ -28,7 +28,7 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-
 | --- | --- |
 | [downsample_images](./downsample_images/) | Specifies whether images should be downsampled. |
 | [resolution](./resolution/) | Specifies the resolution in pixels per inch which the images should be downsampled to. |
-| [resolution_threshold](./resolution_threshold/) | Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value,  the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |
+| [resolution_threshold](./resolution_threshold/) | Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |
 
 ### Examples
 

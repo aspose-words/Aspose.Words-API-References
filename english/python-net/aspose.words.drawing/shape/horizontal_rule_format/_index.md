@@ -5,7 +5,7 @@ articleTitle: horizontal_rule_format property
 second_title: Aspose.Words for Python
 description: "Shape.horizontal_rule_format property. Provides access to the properties of the horizontal rule shape"
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.drawing/shape/horizontal_rule_format/
 ---
 

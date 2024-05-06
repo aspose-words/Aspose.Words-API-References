@@ -5,7 +5,7 @@ articleTitle: TextPath class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.TextPath class. Defines the text and formatting of the text path (of a WordArt object)"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words.drawing/textpath/
 ---
 

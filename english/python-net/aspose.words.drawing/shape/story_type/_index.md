@@ -5,7 +5,7 @@ articleTitle: story_type property
 second_title: Aspose.Words for Python
 description: "Shape.story_type property. Returns [StoryType.TEXTBOX](../../../aspose.words/storytype/#TEXTBOX)."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.drawing/shape/story_type/
 ---
 

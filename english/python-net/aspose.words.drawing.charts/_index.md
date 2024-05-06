@@ -44,6 +44,8 @@ The chart supported are Word 2007 (or higher) DrawingML Charts.
 | [ChartNumberFormat](./chartnumberformat/) | Represents number formatting of the parent element. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartSeries](./chartseries/) | Represents chart series properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartSeriesCollection](./chartseriescollection/) | Represents collection of a [ChartSeries](./chartseries/). To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
+| [ChartSeriesGroup](./chartseriesgroup/) | Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes. |
+| [ChartSeriesGroupCollection](./chartseriesgroupcollection/) | Represents a collection of [ChartSeriesGroup](./chartseriesgroup/) objects. |
 | [ChartTitle](./charttitle/) | Provides access to the chart title properties. To learn more, visit the [Working with             Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartXValue](./chartxvalue/) | Represents an X value for a chart series. |
 | [ChartXValueCollection](./chartxvaluecollection/) | Represents a collection of X values for a chart series. |
@@ -58,6 +60,7 @@ The chart supported are Word 2007 (or higher) DrawingML Charts.
 | [AxisBuiltInUnit](./axisbuiltinunit/) | Specifies the display units for an axis. |
 | [AxisCategoryType](./axiscategorytype/) | Specifies type of a category axis. |
 | [AxisCrosses](./axiscrosses/) | Specifies the possible crossing points for an axis. |
+| [AxisGroup](./axisgroup/) | Represents a type of a chart axis group. |
 | [AxisScaleType](./axisscaletype/) | Specifies the possible scale types for an axis. |
 | [AxisTickLabelPosition](./axisticklabelposition/) | Specifies the possible positions for tick labels. |
 | [AxisTickMark](./axistickmark/) | Specifies the possible positions for tick marks. |

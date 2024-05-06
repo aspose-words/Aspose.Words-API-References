@@ -5,7 +5,7 @@ articleTitle: AxisTimeUnit enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisTimeUnit enumeration. Specifies the unit of time for axes."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.drawing.charts/axistimeunit/
 ---
 

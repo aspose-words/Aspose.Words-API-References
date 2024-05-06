@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "Shape.accept method. Accepts a visitor."
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.words.drawing/shape/accept/
 ---
 

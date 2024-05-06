@@ -5,7 +5,7 @@ articleTitle: ChartXValueType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartXValueType enumeration. Allows to specify type of an X value of a chart series."
 type: docs
-weight: 380
+weight: 410
 url: /python-net/aspose.words.drawing.charts/chartxvaluetype/
 ---
 

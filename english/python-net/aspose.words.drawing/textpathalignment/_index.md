@@ -5,7 +5,7 @@ articleTitle: TextPathAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.TextPathAlignment enumeration. WordArt alignment."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.drawing/textpathalignment/
 ---
 

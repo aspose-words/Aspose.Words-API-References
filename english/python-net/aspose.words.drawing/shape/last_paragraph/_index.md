@@ -5,7 +5,7 @@ articleTitle: last_paragraph property
 second_title: Aspose.Words for Python
 description: "Shape.last_paragraph property. Gets the last paragraph in the shape."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.drawing/shape/last_paragraph/
 ---
 

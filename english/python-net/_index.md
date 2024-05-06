@@ -32,6 +32,8 @@ is_root: true
 | [aspose.words.mailmerging](./aspose.words.mailmerging/) | The **aspose.words.mailmerging** module contains classes of the "original" mail merge reporting engine. |
 | [aspose.words.markup](./aspose.words.markup/) | The **aspose.words.markup** module contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls). |
 | [aspose.words.math](./aspose.words.math/) | The **aspose.words.math** module contains classes that represent Office Math elements. |
+| [aspose.words.model](./aspose.words.model/) |  |
+| [aspose.words.model.drawing](./aspose.words.model.drawing/) |  |
 | [aspose.words.notes](./aspose.words.notes/) | The **aspose.words.notes** module provides classes to work with Microsoft Word endnotes and footnotes. |
 | [aspose.words.properties](./aspose.words.properties/) | The **aspose.words.properties** module provides classes to work with custom and built-in document properties such as title, keywords, company etc. |
 | [aspose.words.rendering](./aspose.words.rendering/) | The **aspose.words.rendering** module provides classes that allow to customize printing or rendering of documents. |

@@ -5,7 +5,7 @@ articleTitle: has_chart property
 second_title: Aspose.Words for Python
 description: "Shape.has_chart property. Returns ``True`` if this [Shape](../) has a [Chart](../../../aspose.words.drawing.charts/chart/)."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.drawing/shape/has_chart/
 ---
 

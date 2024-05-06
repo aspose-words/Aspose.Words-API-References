@@ -5,7 +5,7 @@ articleTitle: fill_color property
 second_title: Aspose.Words for Python
 description: "Shape.fill_color property. Defines the brush color that fills the closed path of the shape."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing/shape/fill_color/
 ---
 
