@@ -5,7 +5,7 @@ articleTitle: ChartShapeType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartShapeType enumeration. Specifies the shape type of chart elements."
 type: docs
-weight: 330
+weight: 360
 url: /python-net/aspose.words.drawing.charts/chartshapetype/
 ---
 

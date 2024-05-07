@@ -5,7 +5,7 @@ articleTitle: ChartMultilevelValue class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartMultilevelValue class. Represents a value for charts that display multilevel data."
 type: docs
-weight: 280
+weight: 290
 url: /python-net/aspose.words.drawing.charts/chartmultilevelvalue/
 ---
 

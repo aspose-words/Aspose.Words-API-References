@@ -12,7 +12,8 @@ url: /python-net/aspose.words.drawing/oleformat/icon_caption/
 ## OleFormat.icon_caption property
 
 Gets icon caption of OLE object.
-In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string.
+In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty
+string.
 
 
 

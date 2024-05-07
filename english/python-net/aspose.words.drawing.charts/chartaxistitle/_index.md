@@ -5,7 +5,7 @@ articleTitle: ChartAxisTitle class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartAxisTitle class. Provides access to the axis title properties"
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.drawing.charts/chartaxistitle/
 ---
 

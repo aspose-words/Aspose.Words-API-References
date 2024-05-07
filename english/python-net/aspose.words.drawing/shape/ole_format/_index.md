@@ -5,7 +5,7 @@ articleTitle: ole_format property
 second_title: Aspose.Words for Python
 description: "Shape.ole_format property. Provides access to the OLE data of a shape"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.drawing/shape/ole_format/
 ---
 

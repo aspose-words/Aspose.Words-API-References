@@ -5,7 +5,7 @@ articleTitle: AxisTickLabels class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisTickLabels class. Represents properties of axis tick mark labels."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing.charts/axisticklabels/
 ---
 

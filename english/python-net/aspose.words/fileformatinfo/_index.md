@@ -31,6 +31,7 @@ You do not create instances of this class directly. Objects of this class are re
 | --- | --- |
 | [encoding](./encoding/) | Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents. |
 | [has_digital_signature](./has_digital_signature/) | Returns ``True`` if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not  specify whether the signature is valid or not. |
+| [has_macros](./has_macros/) | Returns ``True`` if this document contains a VBA macros. |
 | [is_encrypted](./is_encrypted/) | Returns ``True`` if the document is encrypted and requires a password to open. |
 | [load_format](./load_format/) | Gets the detected document format. |
 

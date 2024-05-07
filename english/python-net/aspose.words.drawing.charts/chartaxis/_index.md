@@ -5,7 +5,7 @@ articleTitle: ChartAxis class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartAxis class. Represents the axis options of the chart"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.drawing.charts/chartaxis/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: save_format property
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions.save_format property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.saving/svgsaveoptions/save_format/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "Shape.accept_start method. Accepts a visitor for visiting the start of the shape."
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.words.drawing/shape/accept_start/
 ---
 

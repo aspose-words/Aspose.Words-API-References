@@ -5,7 +5,7 @@ articleTitle: extrusion_enabled property
 second_title: Aspose.Words for Python
 description: "Shape.extrusion_enabled property. Returns ``True`` if an extrusion effect is enabled."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing/shape/extrusion_enabled/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: IChartDataPoint class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.IChartDataPoint class. Contains properties of a single data point on the chart."
 type: docs
-weight: 420
+weight: 450
 url: /python-net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 

@@ -117,6 +117,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [shadow_format](./shadow_format/) | Gets shadow formatting for the shape. |
 | [shape_type](./shape_type/) | Gets the shape type. |
 | [size_in_points](./size_in_points/) | Gets the size of the shape in points. |
+| [soft_edge](./soft_edge/) | Gets soft edge formatting for the shape. |
 | [target](./target/) | Gets or sets the target frame for the shape hyperlink. |
 | [title](./title/) | Gets or sets the title (caption) of the current shape object. |
 | [top](./top/) | Gets or sets the position of the top edge of the containing block of the shape. |
@@ -138,13 +139,10 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 |[ adjust_with_effects(source)](./adjust_with_effects/#rectanglef) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
 |[ append_child(new_child)](../../aspose.words/compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-|[ fetch_inherited_shape_attr(key)](./fetch_inherited_shape_attr/#int) | Reserved for system use. IShapeAttrSource. |
-|[ fetch_shape_attr(key)](./fetch_shape_attr/#int) | Reserved for system use. IShapeAttrSource. |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child(node_type, index, is_deep)](../../aspose.words/compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../../aspose.words/compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ get_direct_shape_attr(key)](./get_direct_shape_attr/#int) | Reserved for system use. IShapeAttrSource. |
 |[ get_shape_renderer()](./get_shape_renderer/#default) | Creates and returns an object that can be used to render this shape into an image. |
 |[ get_text()](../../aspose.words/node/get_text/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ index_of(child)](../../aspose.words/compositenode/index_of/#node) | Returns the index of the specified child node in the child node array.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
@@ -158,11 +156,9 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 |[ remove()](../../aspose.words/node/remove/#default) | Removes itself from the parent.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ remove_all_children()](../../aspose.words/compositenode/remove_all_children/#default) | Removes all the child nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ remove_shape_attr(key)](./remove_shape_attr/#int) | Reserved for system use. IShapeAttrSource. |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ set_shape_attr(key, value)](./set_shape_attr/#int_object) | Reserved for system use. IShapeAttrSource. |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 

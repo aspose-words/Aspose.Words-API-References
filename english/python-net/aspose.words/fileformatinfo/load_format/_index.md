@@ -5,7 +5,7 @@ articleTitle: load_format property
 second_title: Aspose.Words for Python
 description: "FileFormatInfo.load_format property. Gets the detected document format."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/fileformatinfo/load_format/
 ---
 

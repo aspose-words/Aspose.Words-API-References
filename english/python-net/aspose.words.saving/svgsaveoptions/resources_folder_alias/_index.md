@@ -5,7 +5,7 @@ articleTitle: resources_folder_alias property
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions.resources_folder_alias property. Specifies the name of the folder used to construct image URIs written into an SVG document"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.saving/svgsaveoptions/resources_folder_alias/
 ---
 

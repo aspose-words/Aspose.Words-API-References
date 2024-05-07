@@ -5,7 +5,7 @@ articleTitle: top_relative property
 second_title: Aspose.Words for Python
 description: "ShapeBase.top_relative property. Gets or sets the value that represents shape's relative top position in percent."
 type: docs
-weight: 570
+weight: 580
 url: /python-net/aspose.words.drawing/shapebase/top_relative/
 ---
 

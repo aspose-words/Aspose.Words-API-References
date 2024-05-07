@@ -5,7 +5,7 @@ articleTitle: has_smart_art property
 second_title: Aspose.Words for Python
 description: "Shape.has_smart_art property. Returns ``True`` if this [Shape](../) has a SmartArt object."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing/shape/has_smart_art/
 ---
 
