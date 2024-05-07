@@ -5,7 +5,7 @@ articleTitle: chart property
 second_title: Aspose.Words for Python
 description: "Shape.chart property. Provides access to the chart properties if this shape has a [Chart](../../../aspose.words.drawing.charts/chart/)."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing/shape/chart/
 ---
 

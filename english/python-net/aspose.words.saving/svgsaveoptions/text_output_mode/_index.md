@@ -5,7 +5,7 @@ articleTitle: text_output_mode property
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions.text_output_mode property. Gets or sets a value determining how text should be rendered in SVG."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.saving/svgsaveoptions/text_output_mode/
 ---
 

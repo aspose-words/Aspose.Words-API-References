@@ -5,7 +5,7 @@ articleTitle: width_relative property
 second_title: Aspose.Words for Python
 description: "ShapeBase.width_relative property. Gets or sets the value that represents the percentage of shape's relative width."
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.words.drawing/shapebase/width_relative/
 ---
 

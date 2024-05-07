@@ -5,7 +5,7 @@ articleTitle: AxisScaling class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisScaling class. Represents the scaling options of the axis"
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.drawing.charts/axisscaling/
 ---
 

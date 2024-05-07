@@ -31,7 +31,7 @@ You do not create instances of the [OleFormat](./) class directly.
 | --- | --- |
 | [auto_update](./auto_update/) | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
 | [clsid](./clsid/) | Gets the CLSID of the OLE object. |
-| [icon_caption](./icon_caption/) | Gets icon caption of OLE object. In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string. |
+| [icon_caption](./icon_caption/) | Gets icon caption of OLE object. In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty string. |
 | [is_link](./is_link/) | Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](./source_full_name/) is specified). |
 | [is_locked](./is_locked/) | Specifies whether the link to the OLE object is locked from updates. |
 | [ole_control](./ole_control/) | Gets [OleFormat.ole_control](./ole_control/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |

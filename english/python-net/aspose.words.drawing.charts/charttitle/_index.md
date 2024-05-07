@@ -5,7 +5,7 @@ articleTitle: ChartTitle class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartTitle class. Provides access to the chart title properties"
 type: docs
-weight: 340
+weight: 370
 url: /python-net/aspose.words.drawing.charts/charttitle/
 ---
 

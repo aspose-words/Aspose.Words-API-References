@@ -5,7 +5,7 @@ articleTitle: ChartLegend class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartLegend class. Represents chart legend properties"
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.words.drawing.charts/chartlegend/
 ---
 

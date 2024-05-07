@@ -5,7 +5,7 @@ articleTitle: ChartDataLabelCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartDataLabelCollection class. Represents a collection of [ChartDataLabel](../chartdatalabel/)"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 

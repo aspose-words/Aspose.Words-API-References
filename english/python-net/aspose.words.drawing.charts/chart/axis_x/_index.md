@@ -3,7 +3,7 @@ title: Chart.axis_x property
 linktitle: axis_x property
 articleTitle: axis_x property
 second_title: Aspose.Words for Python
-description: "Chart.axis_x property. Provides access to properties of the X axis of the chart."
+description: "Chart.axis_x property. Provides access to properties of the primary X axis of the chart."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/chart/axis_x/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing.charts/chart/axis_x/
 
 ## Chart.axis_x property
 
-Provides access to properties of the X axis of the chart.
+Provides access to properties of the primary X axis of the chart.
 
 
 ```python

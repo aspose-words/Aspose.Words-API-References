@@ -5,7 +5,7 @@ articleTitle: ChartSeries class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeries class. Represents chart series properties"
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.words.drawing.charts/chartseries/
 ---
 

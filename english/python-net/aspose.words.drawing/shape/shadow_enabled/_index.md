@@ -5,7 +5,7 @@ articleTitle: shadow_enabled property
 second_title: Aspose.Words for Python
 description: "Shape.shadow_enabled property. Returns ``True`` if a shadow effect is enabled."
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.drawing/shape/shadow_enabled/
 ---
 

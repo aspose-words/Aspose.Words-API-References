@@ -3,7 +3,7 @@ title: Chart.axis_y property
 linktitle: axis_y property
 articleTitle: axis_y property
 second_title: Aspose.Words for Python
-description: "Chart.axis_y property. Provides access to properties of the Y axis of the chart."
+description: "Chart.axis_y property. Provides access to properties of the primary Y axis of the chart."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/chart/axis_y/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing.charts/chart/axis_y/
 
 ## Chart.axis_y property
 
-Provides access to properties of the Y axis of the chart.
+Provides access to properties of the primary Y axis of the chart.
 
 
 ```python
