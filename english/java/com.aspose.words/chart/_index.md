@@ -4,7 +4,7 @@ linktitle: Chart
 second_title: Aspose.Words for Java
 description: Provides access to the chart shape properties in Java.
 type: docs
-weight: 59
+weight: 62
 url: /java/com.aspose.words/chart/
 ---
 
@@ -54,13 +54,14 @@ Shows how to insert a chart and set a title.
 | Method | Description |
 | --- | --- |
 | [getAxes()](#getAxes) | Gets a collection of all axes of this chart. |
-| [getAxisX()](#getAxisX) | Provides access to properties of the X axis of the chart. |
-| [getAxisY()](#getAxisY) | Provides access to properties of the Y axis of the chart. |
+| [getAxisX()](#getAxisX) | Provides access to properties of the primary X axis of the chart. |
+| [getAxisY()](#getAxisY) | Provides access to properties of the primary Y axis of the chart. |
 | [getAxisZ()](#getAxisZ) | Provides access to properties of the Z axis of the chart. |
 | [getDataTable()](#getDataTable) | Provides access to properties of a data table of this chart. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the chart. |
 | [getLegend()](#getLegend) | Provides access to the chart legend properties. |
 | [getSeries()](#getSeries) | Provides access to series collection. |
+| [getSeriesGroups()](#getSeriesGroups) | Provides access to a series group collection of this chart. |
 | [getShapeType()](#getShapeType) |  |
 | [getSourceFullName()](#getSourceFullName) | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [getTitle()](#getTitle) | Provides access to the chart title properties. |
@@ -108,7 +109,7 @@ public ChartAxis getAxisX()
 ```
 
 
-Provides access to properties of the X axis of the chart.
+Provides access to properties of the primary X axis of the chart.
 
  **Examples:** 
 
@@ -170,7 +171,7 @@ public ChartAxis getAxisY()
 ```
 
 
-Provides access to properties of the Y axis of the chart.
+Provides access to properties of the primary Y axis of the chart.
 
  **Examples:** 
 
@@ -483,6 +484,16 @@ Shows how to create an appropriate type of chart series for a graph type.
 
 **Returns:**
 [ChartSeriesCollection](../../com.aspose.words/chartseriescollection/) - The corresponding [ChartSeriesCollection](../../com.aspose.words/chartseriescollection/) value.
+### getSeriesGroups() {#getSeriesGroups}
+```
+public ChartSeriesGroupCollection getSeriesGroups()
+```
+
+
+Provides access to a series group collection of this chart.
+
+**Returns:**
+[ChartSeriesGroupCollection](../../com.aspose.words/chartseriesgroupcollection/) - The corresponding [ChartSeriesGroupCollection](../../com.aspose.words/chartseriesgroupcollection/) value.
 ### getShapeType() {#getShapeType}
 ```
 public int getShapeType()

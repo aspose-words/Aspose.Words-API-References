@@ -4,7 +4,7 @@ linktitle: EmbeddedFontStyle
 second_title: Aspose.Words for Java
 description: Specifies the style of an embedded font inside a FontInfo object in Java.
 type: docs
-weight: 163
+weight: 168
 url: /java/com.aspose.words/embeddedfontstyle/
 ---
 

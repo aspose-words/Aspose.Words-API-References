@@ -4,7 +4,7 @@ linktitle: FieldSeparator
 second_title: Aspose.Words for Java
 description: Represents a Word field separator that separates the field code from the field result in Java.
 type: docs
-weight: 261
+weight: 266
 url: /java/com.aspose.words/fieldseparator/
 ---
 
@@ -1096,7 +1096,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (148533,6)
+Returns  true  if this node can contain other nodes. (149207,6)
 
  **Examples:** 
 

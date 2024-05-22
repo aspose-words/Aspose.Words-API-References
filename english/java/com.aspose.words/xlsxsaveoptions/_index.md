@@ -4,7 +4,7 @@ linktitle: XlsxSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XLSX format in Java.
 type: docs
-weight: 670
+weight: 676
 url: /java/com.aspose.words/xlsxsaveoptions/
 ---
 

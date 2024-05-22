@@ -4,7 +4,7 @@ linktitle: FieldCreateDate
 second_title: Aspose.Words for Java
 description: Implements the CREATEDATE field in Java.
 type: docs
-weight: 193
+weight: 198
 url: /java/com.aspose.words/fieldcreatedate/
 ---
 

@@ -4,7 +4,7 @@ linktitle: VbaProject
 second_title: Aspose.Words for Java
 description: Provides access to VBA project information in Java.
 type: docs
-weight: 639
+weight: 645
 url: /java/com.aspose.words/vbaproject/
 ---
 

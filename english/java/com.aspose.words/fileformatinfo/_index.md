@@ -4,7 +4,7 @@ linktitle: FileFormatInfo
 second_title: Aspose.Words for Java
 description: Contains data returned by FileFormatUtil document format detection methods in Java.
 type: docs
-weight: 287
+weight: 292
 url: /java/com.aspose.words/fileformatinfo/
 ---
 
@@ -78,6 +78,7 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 | [getEncoding()](#getEncoding) | Gets the detected encoding if applicable to the current document format. |
 | [getLoadFormat()](#getLoadFormat) | Gets the detected document format. |
 | [hasDigitalSignature()](#hasDigitalSignature) | Returns  true  if this document contains a digital signature. |
+| [hasMacros()](#hasMacros) | Returns  true  if this document contains a VBA macros. |
 | [isEncrypted()](#isEncrypted) | Returns  true  if the document is encrypted and requires a password to open. |
 ### getEncoding() {#getEncoding}
 ```
@@ -236,6 +237,27 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 
 **Returns:**
 boolean -  true  if this document contains a digital signature.
+### hasMacros() {#hasMacros}
+```
+public boolean hasMacros()
+```
+
+
+Returns  true  if this document contains a VBA macros.
+
+ **Examples:** 
+
+Shows how to check VBA macro presence without loading document.
+
+```
+
+ FileFormatInfo fileFormatInfo = FileFormatUtil.detectFileFormat(getMyDir() + "Macro.docm");
+ Assert.assertTrue(fileFormatInfo.hasMacros());
+ 
+```
+
+**Returns:**
+boolean -  true  if this document contains a VBA macros.
 ### isEncrypted() {#isEncrypted}
 ```
 public boolean isEncrypted()

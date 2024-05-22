@@ -4,7 +4,7 @@ linktitle: DigitalSignatureUtil
 second_title: Aspose.Words for Java
 description: Provides methods for signing document in Java.
 type: docs
-weight: 135
+weight: 140
 url: /java/com.aspose.words/digitalsignatureutil/
 ---
 

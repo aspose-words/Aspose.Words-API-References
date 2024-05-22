@@ -32,6 +32,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | Class | Description |
 | --- | --- |
 | [AbsolutePositionTab](../com.aspose.words/absolutepositiontab/) | An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content. |
+| [Adjustment](../com.aspose.words/adjustment/) | Represents adjustment values that are applied to the specified shape. |
+| [AdjustmentCollection](../com.aspose.words/adjustmentcollection/) | Represents a read-only collection of [Adjustment](../com.aspose.words/adjustment/) adjust values that are applied to the specified shape. |
 | [ArrowLength](../com.aspose.words/arrowlength/) | Length of the arrow at the end of a line. |
 | [ArrowType](../com.aspose.words/arrowtype/) | Specifies the type of an arrow at a line end. |
 | [ArrowWidth](../com.aspose.words/arrowwidth/) | Width of the arrow at the end of a line. |
@@ -42,6 +44,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [AxisCategoryType](../com.aspose.words/axiscategorytype/) | Specifies type of a category axis. |
 | [AxisCrosses](../com.aspose.words/axiscrosses/) | Specifies the possible crossing points for an axis. |
 | [AxisDisplayUnit](../com.aspose.words/axisdisplayunit/) | Provides access to the scaling options of the display units for the value axis. |
+| [AxisGroup](../com.aspose.words/axisgroup/) | Represents a type of a chart axis group. |
 | [AxisScaleType](../com.aspose.words/axisscaletype/) | Specifies the possible scale types for an axis. |
 | [AxisScaling](../com.aspose.words/axisscaling/) | Represents the scaling options of the axis. |
 | [AxisTickLabelPosition](../com.aspose.words/axisticklabelposition/) | Specifies the possible positions for tick labels. |
@@ -99,6 +102,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartNumberFormat](../com.aspose.words/chartnumberformat/) | Represents number formatting of the parent element. |
 | [ChartSeries](../com.aspose.words/chartseries/) | Represents chart series properties. |
 | [ChartSeriesCollection](../com.aspose.words/chartseriescollection/) | Represents collection of a [ChartSeries](../com.aspose.words/chartseries/). |
+| [ChartSeriesGroup](../com.aspose.words/chartseriesgroup/) | Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes. |
+| [ChartSeriesGroupCollection](../com.aspose.words/chartseriesgroupcollection/) | Represents a collection of [ChartSeriesGroup](../com.aspose.words/chartseriesgroup/) objects. |
 | [ChartSeriesType](../com.aspose.words/chartseriestype/) | Specifies a type of a chart series. |
 | [ChartShapeType](../com.aspose.words/chartshapetype/) | Specifies the shape type of chart elements. |
 | [ChartTitle](../com.aspose.words/charttitle/) | Provides access to the chart title properties. |
@@ -588,6 +593,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [SignatureLine](../com.aspose.words/signatureline/) | Provides access to signature line properties. |
 | [SignatureLineOptions](../com.aspose.words/signaturelineoptions/) | Allows to specify options for signature line being inserted. |
 | [SmartTag](../com.aspose.words/smarttag/) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
+| [SoftEdgeFormat](../com.aspose.words/softedgeformat/) | Represents the soft edge formatting for an object. |
 | [Source](../com.aspose.words/source/) | Represents an individual source, such as a book, journal article, or interview. |
 | [SourceType](../com.aspose.words/sourcetype/) | Represents bibliography source types. |
 | [SpecialChar](../com.aspose.words/specialchar/) | Base class for special characters in the document. |

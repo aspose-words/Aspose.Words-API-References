@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for Java
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 556
+weight: 561
 url: /java/com.aspose.words/shape/
 ---
 
@@ -135,8 +135,9 @@ Shows how to delete all shapes from a document.
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
-| [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int) | Reserved for system use. |
-| [fetchShapeAttr(int key)](#fetchShapeAttr-int) | Reserved for system use. |
+| [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int) |  |
+| [fetchShapeAttr(int key)](#fetchShapeAttr-int) |  |
+| [getAdjustments()](#getAdjustments) | Provides access to the adjustment raw values of a shape. |
 | [getAllowOverlap()](#getAllowOverlap) | Gets a value that specifies whether this shape can overlap other shapes. |
 | [getAlternativeText()](#getAlternativeText) | Defines alternative text to be displayed instead of a graphic. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -162,7 +163,7 @@ Shows how to delete all shapes from a document.
 | [getDashStyle()](#getDashStyle) |  |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
 | [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
-| [getDirectShapeAttr(int key)](#getDirectShapeAttr-int) | Reserved for system use. |
+| [getDirectShapeAttr(int key)](#getDirectShapeAttr-int) |  |
 | [getDistance()](#getDistance) |  |
 | [getDistanceBottom()](#getDistanceBottom) | Gets the distance (in points) between the document text and the bottom edge of the shape. |
 | [getDistanceLeft()](#getDistanceLeft) | Gets the distance (in points) between the document text and the left edge of the shape. |
@@ -170,6 +171,7 @@ Shows how to delete all shapes from a document.
 | [getDistanceTop()](#getDistanceTop) | Gets the distance (in points) between the document text and the top edge of the shape. |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline) |  |
+| [getEdgeRadius()](#getEdgeRadius) |  |
 | [getEndArrowLength()](#getEndArrowLength) |  |
 | [getEndArrowType()](#getEndArrowType) |  |
 | [getEndArrowWidth()](#getEndArrowWidth) |  |
@@ -247,6 +249,7 @@ Shows how to delete all shapes from a document.
 | [getShapeType()](#getShapeType) | Gets the shape type. |
 | [getSignatureLine()](#getSignatureLine) | Gets [SignatureLine](../../com.aspose.words/signatureline/) object if the shape is a signature line. |
 | [getSizeInPoints()](#getSizeInPoints) | Gets the size of the shape in points. |
+| [getSoftEdge()](#getSoftEdge) | Gets soft edge formatting for the shape. |
 | [getStartArrowLength()](#getStartArrowLength) |  |
 | [getStartArrowType()](#getStartArrowType) |  |
 | [getStartArrowWidth()](#getStartArrowWidth) |  |
@@ -317,8 +320,9 @@ Shows how to delete all shapes from a document.
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeReflection()](#removeReflection) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
-| [removeShapeAttr(int key)](#removeShapeAttr-int) | Reserved for system use. |
+| [removeShapeAttr(int key)](#removeShapeAttr-int) |  |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
+| [removeSoftEdge()](#removeSoftEdge) |  |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
 | [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setAllowOverlap(boolean value)](#setAllowOverlap-boolean) | Sets a value that specifies whether this shape can overlap other shapes. |
@@ -338,6 +342,7 @@ Shows how to delete all shapes from a document.
 | [setDistanceLeft(double value)](#setDistanceLeft-double) | Sets the distance (in points) between the document text and the left edge of the shape. |
 | [setDistanceRight(double value)](#setDistanceRight-double) | Sets the distance (in points) between the document text and the right edge of the shape. |
 | [setDistanceTop(double value)](#setDistanceTop-double) | Sets the distance (in points) between the document text and the top edge of the shape. |
+| [setEdgeRadius(double value)](#setEdgeRadius-double) |  |
 | [setEndArrowLength(int value)](#setEndArrowLength-int) |  |
 | [setEndArrowType(int value)](#setEndArrowType-int) |  |
 | [setEndArrowWidth(int value)](#setEndArrowWidth-int) |  |
@@ -379,7 +384,7 @@ Shows how to delete all shapes from a document.
 | [setRotation(double value)](#setRotation-double) | Defines the angle (in degrees) that a shape is rotated. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setScreenTip(String value)](#setScreenTip-java.lang.String) | Defines the text displayed when the mouse pointer moves over the shape. |
-| [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object) | Reserved for system use. |
+| [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object) |  |
 | [setStartArrowLength(int value)](#setStartArrowLength-int) |  |
 | [setStartArrowType(int value)](#setStartArrowType-int) |  |
 | [setStartArrowWidth(int value)](#setStartArrowWidth-int) |  |
@@ -792,7 +797,7 @@ public Object fetchInheritedShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -807,7 +812,7 @@ public Object fetchShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -816,6 +821,38 @@ Reserved for system use. IShapeAttrSource.
 
 **Returns:**
 java.lang.Object
+### getAdjustments() {#getAdjustments}
+```
+public AdjustmentCollection getAdjustments()
+```
+
+
+Provides access to the adjustment raw values of a shape. For a shape that does not contain any adjustment raw values, it returns an empty collection.
+
+ **Examples:** 
+
+Shows how to work with adjustment raw values.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rounded rectangle shape.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ AdjustmentCollection adjustments = shape.getAdjustments();
+ Assert.assertEquals(1, adjustments.getCount());
+
+ Adjustment adjustment = adjustments.get(0);
+ Assert.assertEquals("adj", adjustment.getName());
+ Assert.assertEquals(16667, adjustment.getValue());
+
+ adjustment.setValue(30000);
+
+ doc.save(getArtifactsDir() + "Shape.Adjustments.docx");
+ 
+```
+
+**Returns:**
+[AdjustmentCollection](../../com.aspose.words/adjustmentcollection/) - The corresponding [AdjustmentCollection](../../com.aspose.words/adjustmentcollection/) value.
 ### getAllowOverlap() {#getAllowOverlap}
 ```
 public boolean getAllowOverlap()
@@ -2195,7 +2232,7 @@ public Object getDirectShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2465,6 +2502,16 @@ public DocumentBase getDocument_IInline()
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/)
+### getEdgeRadius() {#getEdgeRadius}
+```
+public double getEdgeRadius()
+```
+
+
+
+
+**Returns:**
+double
 ### getEndArrowLength() {#getEndArrowLength}
 ```
 public int getEndArrowLength()
@@ -3199,7 +3246,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -5185,6 +5232,58 @@ Shows how to verify a shape's size and markup language.
 
 **Returns:**
 java.awt.geom.Point2D.Float - The size of the shape in points.
+### getSoftEdge() {#getSoftEdge}
+```
+public SoftEdgeFormat getSoftEdge()
+```
+
+
+Gets soft edge formatting for the shape.
+
+ **Examples:** 
+
+Shows how to set limit for image resolution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setMaxImageResolution(72);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
+ 
+```
+
+Shows how to work with soft edge formatting.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 200.0, 200.0);
+
+ // Apply soft edge to the shape.
+ shape.getSoftEdge().setRadius(30.0);
+
+ builder.getDocument().save(getArtifactsDir() + "Shape.SoftEdge.docx");
+
+ // Load document with rectangle shape with soft edge.
+ Document doc = new Document(getArtifactsDir() + "Shape.SoftEdge.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Check soft edge radius.
+ Assert.assertEquals(30, shape.getSoftEdge().getRadius());
+
+ // Remove soft edge from the shape.
+ shape.getSoftEdge().remove();
+
+ // Check radius of the removed soft edge.
+ Assert.assertEquals(0, shape.getSoftEdge().getRadius());
+ 
+```
+
+**Returns:**
+[SoftEdgeFormat](../../com.aspose.words/softedgeformat/) - Soft edge formatting for the shape.
 ### getStartArrowLength() {#getStartArrowLength}
 ```
 public int getStartArrowLength()
@@ -8344,7 +8443,7 @@ public void removeShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -8469,6 +8568,14 @@ Shows how to create smart tags.
  }
  
 ```
+
+### removeSoftEdge() {#removeSoftEdge}
+```
+public void removeSoftEdge()
+```
+
+
+
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -9647,6 +9754,19 @@ Shows how to set the wrapping distance for a text that surrounds a shape.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The distance (in points) between the document text and the top edge of the shape. |
+
+### setEdgeRadius(double value) {#setEdgeRadius-double}
+```
+public void setEdgeRadius(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setEndArrowLength(int value) {#setEndArrowLength-int}
 ```
@@ -10955,7 +11075,7 @@ public void setShapeAttr(int key, Object value)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |

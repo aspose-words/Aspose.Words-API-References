@@ -4,7 +4,7 @@ linktitle: TextBoxControl
 second_title: Aspose.Words for Java
 description: The TextBox control displays text from an organized set of data or user input in Java.
 type: docs
-weight: 602
+weight: 608
 url: /java/com.aspose.words/textboxcontrol/
 ---
 
@@ -48,6 +48,7 @@ Shows how to change text of the TextBox OLE control.
 | [getText()](#getText) | Gets a text of the control. |
 | [getType()](#getType) | Gets type of Forms 2.0 control. |
 | [getValue()](#getValue) | Gets underlying Value property which often represents control state. |
+| [isEmpty()](#isEmpty) |  |
 | [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
 | [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
 | [setGroupName(String value)](#setGroupName-java.lang.String) | Sets a string that specifies a group of mutually exclusive controls. |
@@ -320,6 +321,16 @@ Shows how to verify the properties of an ActiveX control.
 
 **Returns:**
 java.lang.String - Underlying Value property which often represents control state.
+### isEmpty() {#isEmpty}
+```
+public boolean isEmpty()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isForms2OleControl() {#isForms2OleControl}
 ```
 public boolean isForms2OleControl()

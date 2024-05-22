@@ -4,7 +4,7 @@ linktitle: OfficeMathDisplayType
 second_title: Aspose.Words for Java
 description: Specifies the display format type of the equation in Java.
 type: docs
-weight: 454
+weight: 459
 url: /java/com.aspose.words/officemathdisplaytype/
 ---
 

@@ -4,7 +4,7 @@ linktitle: Theme
 second_title: Aspose.Words for Java
 description: Represents document Theme and provides access to main theme parts including getMajorFonts getMinorFonts and getColors in Java.
 type: docs
-weight: 616
+weight: 622
 url: /java/com.aspose.words/theme/
 ---
 

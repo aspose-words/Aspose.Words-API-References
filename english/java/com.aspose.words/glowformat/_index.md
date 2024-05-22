@@ -4,7 +4,7 @@ linktitle: GlowFormat
 second_title: Aspose.Words for Java
 description: Represents the glow formatting for an object in Java.
 type: docs
-weight: 329
+weight: 334
 url: /java/com.aspose.words/glowformat/
 ---
 
@@ -48,7 +48,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -91,7 +91,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -134,7 +134,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -177,7 +177,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -218,7 +218,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -264,7 +264,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -310,7 +310,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 

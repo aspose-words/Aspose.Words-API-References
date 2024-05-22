@@ -4,7 +4,7 @@ linktitle: GroupShape
 second_title: Aspose.Words for Java
 description: Represents a group of shapes in a document in Java.
 type: docs
-weight: 337
+weight: 342
 url: /java/com.aspose.words/groupshape/
 ---
 
@@ -121,8 +121,8 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
-| [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int) | Reserved for system use. |
-| [fetchShapeAttr(int key)](#fetchShapeAttr-int) | Reserved for system use. |
+| [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int) |  |
+| [fetchShapeAttr(int key)](#fetchShapeAttr-int) |  |
 | [getAllowOverlap()](#getAllowOverlap) | Gets a value that specifies whether this shape can overlap other shapes. |
 | [getAlternativeText()](#getAlternativeText) | Defines alternative text to be displayed instead of a graphic. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -146,7 +146,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
 | [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
-| [getDirectShapeAttr(int key)](#getDirectShapeAttr-int) | Reserved for system use. |
+| [getDirectShapeAttr(int key)](#getDirectShapeAttr-int) |  |
 | [getDistance()](#getDistance) |  |
 | [getDistanceBottom()](#getDistanceBottom) | Gets the distance (in points) between the document text and the bottom edge of the shape. |
 | [getDistanceLeft()](#getDistanceLeft) | Gets the distance (in points) between the document text and the left edge of the shape. |
@@ -154,6 +154,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getDistanceTop()](#getDistanceTop) | Gets the distance (in points) between the document text and the top edge of the shape. |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline) |  |
+| [getEdgeRadius()](#getEdgeRadius) |  |
 | [getFill()](#getFill) | Gets fill formatting for the shape. |
 | [getFillType()](#getFillType) |  |
 | [getFillableBackColor()](#getFillableBackColor) |  |
@@ -212,6 +213,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getShapeRenderer()](#getShapeRenderer) | Creates and returns an object that can be used to render this shape into an image. |
 | [getShapeType()](#getShapeType) | Gets the shape type. |
 | [getSizeInPoints()](#getSizeInPoints) | Gets the size of the shape in points. |
+| [getSoftEdge()](#getSoftEdge) | Gets soft edge formatting for the shape. |
 | [getTarget()](#getTarget) | Gets the target frame for the shape hyperlink. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [getTextureAlignment()](#getTextureAlignment) |  |
@@ -258,8 +260,9 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeReflection()](#removeReflection) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
-| [removeShapeAttr(int key)](#removeShapeAttr-int) | Reserved for system use. |
+| [removeShapeAttr(int key)](#removeShapeAttr-int) |  |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
+| [removeSoftEdge()](#removeSoftEdge) |  |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
 | [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setAllowOverlap(boolean value)](#setAllowOverlap-boolean) | Sets a value that specifies whether this shape can overlap other shapes. |
@@ -278,6 +281,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [setDistanceLeft(double value)](#setDistanceLeft-double) | Sets the distance (in points) between the document text and the left edge of the shape. |
 | [setDistanceRight(double value)](#setDistanceRight-double) | Sets the distance (in points) between the document text and the right edge of the shape. |
 | [setDistanceTop(double value)](#setDistanceTop-double) | Sets the distance (in points) between the document text and the top edge of the shape. |
+| [setEdgeRadius(double value)](#setEdgeRadius-double) |  |
 | [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color) |  |
 | [setFillableBackThemeColor(int value)](#setFillableBackThemeColor-int) |  |
 | [setFillableBackTintAndShade(double value)](#setFillableBackTintAndShade-double) |  |
@@ -310,7 +314,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [setRotation(double value)](#setRotation-double) | Defines the angle (in degrees) that a shape is rotated. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setScreenTip(String value)](#setScreenTip-java.lang.String) | Defines the text displayed when the mouse pointer moves over the shape. |
-| [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object) | Reserved for system use. |
+| [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object) |  |
 | [setTarget(String value)](#setTarget-java.lang.String) | Sets the target frame for the shape hyperlink. |
 | [setTextureAlignment(int value)](#setTextureAlignment-int) |  |
 | [setTitle(String value)](#setTitle-java.lang.String) | Sets the title (caption) of the current shape object. |
@@ -755,7 +759,7 @@ public Object fetchInheritedShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -770,7 +774,7 @@ public Object fetchShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2021,7 +2025,7 @@ public Object getDirectShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2291,6 +2295,16 @@ public DocumentBase getDocument_IInline()
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/)
+### getEdgeRadius() {#getEdgeRadius}
+```
+public double getEdgeRadius()
+```
+
+
+
+
+**Returns:**
+double
 ### getFill() {#getFill}
 ```
 public Fill getFill()
@@ -2641,7 +2655,7 @@ Shows how to interact with glow shape effect.
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
 
  // Apply glow effect to the shape.
- shape.getGlow().setColor(msColor.getSalmon());
+ shape.getGlow().setColor(new Color(0xFFFA8072));
  shape.getGlow().setRadius(30.0);
  shape.getGlow().setTransparency(0.15);
 
@@ -4131,6 +4145,58 @@ Shows how to verify a shape's size and markup language.
 
 **Returns:**
 java.awt.geom.Point2D.Float - The size of the shape in points.
+### getSoftEdge() {#getSoftEdge}
+```
+public SoftEdgeFormat getSoftEdge()
+```
+
+
+Gets soft edge formatting for the shape.
+
+ **Examples:** 
+
+Shows how to set limit for image resolution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setMaxImageResolution(72);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
+ 
+```
+
+Shows how to work with soft edge formatting.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 200.0, 200.0);
+
+ // Apply soft edge to the shape.
+ shape.getSoftEdge().setRadius(30.0);
+
+ builder.getDocument().save(getArtifactsDir() + "Shape.SoftEdge.docx");
+
+ // Load document with rectangle shape with soft edge.
+ Document doc = new Document(getArtifactsDir() + "Shape.SoftEdge.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Check soft edge radius.
+ Assert.assertEquals(30, shape.getSoftEdge().getRadius());
+
+ // Remove soft edge from the shape.
+ shape.getSoftEdge().remove();
+
+ // Check radius of the removed soft edge.
+ Assert.assertEquals(0, shape.getSoftEdge().getRadius());
+ 
+```
+
+**Returns:**
+[SoftEdgeFormat](../../com.aspose.words/softedgeformat/) - Soft edge formatting for the shape.
 ### getTarget() {#getTarget}
 ```
 public String getTarget()
@@ -6161,7 +6227,7 @@ public void removeShapeAttr(int key)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -6286,6 +6352,14 @@ Shows how to create smart tags.
  }
  
 ```
+
+### removeSoftEdge() {#removeSoftEdge}
+```
+public void removeSoftEdge()
+```
+
+
+
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -7452,6 +7526,19 @@ Shows how to set the wrapping distance for a text that surrounds a shape.
 | --- | --- | --- |
 | value | double | The distance (in points) between the document text and the top edge of the shape. |
 
+### setEdgeRadius(double value) {#setEdgeRadius-double}
+```
+public void setEdgeRadius(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color}
 ```
 public void setFillableBackColor(Color value)
@@ -8483,7 +8570,7 @@ public void setShapeAttr(int key, Object value)
 ```
 
 
-Reserved for system use. IShapeAttrSource.
+
 
 **Parameters:**
 | Parameter | Type | Description |

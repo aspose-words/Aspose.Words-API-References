@@ -4,7 +4,7 @@ linktitle: ChartAxisCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of chart axes in Java.
 type: docs
-weight: 61
+weight: 64
 url: /java/com.aspose.words/chartaxiscollection/
 ---
 

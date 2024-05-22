@@ -4,7 +4,7 @@ linktitle: ChartSeriesCollection
 second_title: Aspose.Words for Java
 description: Represents collection of a ChartSeries in Java.
 type: docs
-weight: 77
+weight: 80
 url: /java/com.aspose.words/chartseriescollection/
 ---
 

@@ -4,7 +4,7 @@ linktitle: ExportFontFormat
 second_title: Aspose.Words for Java
 description: Indicates the format that is used to export fonts while rendering to HTML fixed format in Java.
 type: docs
-weight: 169
+weight: 174
 url: /java/com.aspose.words/exportfontformat/
 ---
 

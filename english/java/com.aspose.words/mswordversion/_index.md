@@ -4,7 +4,7 @@ linktitle: MsWordVersion
 second_title: Aspose.Words for Java
 description: Allows Aspose.Wods to mimic MS Word version-specific application behavior in Java.
 type: docs
-weight: 430
+weight: 435
 url: /java/com.aspose.words/mswordversion/
 ---
 

@@ -4,7 +4,7 @@ linktitle: EditingLanguage
 second_title: Aspose.Words for Java
 description: Specifies the editing language in Java.
 type: docs
-weight: 160
+weight: 165
 url: /java/com.aspose.words/editinglanguage/
 ---
 

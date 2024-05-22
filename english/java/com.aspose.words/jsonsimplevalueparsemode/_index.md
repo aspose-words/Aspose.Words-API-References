@@ -4,7 +4,7 @@ linktitle: JsonSimpleValueParseMode
 second_title: Aspose.Words for Java
 description: Specifies a mode for parsing JSON simple values null boolean number integer and string while loading JSON in Java.
 type: docs
-weight: 378
+weight: 383
 url: /java/com.aspose.words/jsonsimplevalueparsemode/
 ---
 

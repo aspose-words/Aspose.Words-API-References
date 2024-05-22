@@ -4,7 +4,7 @@ linktitle: ShadowType
 second_title: Aspose.Words for Java
 description: Specifies the type of a shape shadow in Java.
 type: docs
-weight: 555
+weight: 560
 url: /java/com.aspose.words/shadowtype/
 ---
 

@@ -4,7 +4,7 @@ linktitle: OleFormat
 second_title: Aspose.Words for Java
 description: Provides access to the data of an OLE object or ActiveX control in Java.
 type: docs
-weight: 458
+weight: 463
 url: /java/com.aspose.words/oleformat/
 ---
 
@@ -185,7 +185,7 @@ public String getIconCaption()
 
 Gets icon caption of OLE object.
 
-In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string.
+In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty string.
 
  **Examples:** 
 

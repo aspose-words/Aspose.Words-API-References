@@ -4,7 +4,7 @@ linktitle: VbaReferenceType
 second_title: Aspose.Words for Java
 description: Allows to specify the type of a VbaReference object in Java.
 type: docs
-weight: 642
+weight: 648
 url: /java/com.aspose.words/vbareferencetype/
 ---
 
