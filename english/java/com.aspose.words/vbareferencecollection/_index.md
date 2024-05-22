@@ -4,7 +4,7 @@ linktitle: VbaReferenceCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of VbaReference objects in Java.
 type: docs
-weight: 641
+weight: 647
 url: /java/com.aspose.words/vbareferencecollection/
 ---
 

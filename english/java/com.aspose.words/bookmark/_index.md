@@ -4,7 +4,7 @@ linktitle: Bookmark
 second_title: Aspose.Words for Java
 description: Represents a single bookmark in Java.
 type: docs
-weight: 34
+weight: 37
 url: /java/com.aspose.words/bookmark/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FieldUserInitials
 second_title: Aspose.Words for Java
 description: Implements the USERINITIALS field in Java.
 type: docs
-weight: 282
+weight: 287
 url: /java/com.aspose.words/fielduserinitials/
 ---
 

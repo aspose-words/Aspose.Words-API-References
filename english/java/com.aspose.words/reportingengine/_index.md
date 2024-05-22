@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 518
+weight: 523
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -186,6 +186,24 @@ Shows how to work with charts from word 2016.
          new String[] { "shares", "quotes" });
 
  doc.save(getArtifactsDir() + "ReportingEngine.Word2016Charts.docx");
+ 
+```
+
+Shows how to keep inserted numbering as is.
+
+```
+
+ // By default, numbered lists from a template document are continued when their identifiers match those from a document being inserted.
+ // With "-sourceNumbering" numbering should be separated and kept as is.
+ Document template = DocumentHelper.createSimpleDocument("<>" + System.lineSeparator() + "<>");
+
+ DocumentTestClass doc = new DocumentTestBuilder()
+         .withDocument(new Document(getMyDir() + "List item.docx")).build();
+
+ ReportingEngine engine = new ReportingEngine(); { engine.setOptions(ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS); }
+ engine.buildReport(template, new Object[] { doc }, new String[] { "src" });
+
+ template.save(getArtifactsDir() + "ReportingEngine.SourseListNumbering.docx");
  
 ```
 

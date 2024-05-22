@@ -4,7 +4,7 @@ linktitle: AxisTickLabels
 second_title: Aspose.Words for Java
 description: Represents properties of axis tick mark labels in Java.
 type: docs
-weight: 24
+weight: 27
 url: /java/com.aspose.words/axisticklabels/
 ---
 

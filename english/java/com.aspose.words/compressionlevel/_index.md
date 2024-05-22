@@ -4,7 +4,7 @@ linktitle: CompressionLevel
 second_title: Aspose.Words for Java
 description: Compression level for OOXML files in Java.
 type: docs
-weight: 105
+weight: 110
 url: /java/com.aspose.words/compressionlevel/
 ---
 

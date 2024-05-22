@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Represents a structured document tag SDT or content control in a document in Java.
 type: docs
-weight: 574
+weight: 580
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 
@@ -789,6 +789,8 @@ Show how to create a structured document tag in the form of a check box.
 
  StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.CHECKBOX, MarkupLevel.INLINE);
  sdtCheckBox.setChecked(true);
+ sdtCheckBox.setCheckedSymbol(0x00A9, "Times New Roman");
+ sdtCheckBox.setUncheckedSymbol(0x00AE, "Times New Roman");
 
  builder.insertNode(sdtCheckBox);
 
@@ -3926,6 +3928,8 @@ Show how to create a structured document tag in the form of a check box.
 
  StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.CHECKBOX, MarkupLevel.INLINE);
  sdtCheckBox.setChecked(true);
+ sdtCheckBox.setCheckedSymbol(0x00A9, "Times New Roman");
+ sdtCheckBox.setUncheckedSymbol(0x00AE, "Times New Roman");
 
  builder.insertNode(sdtCheckBox);
 
@@ -3951,6 +3955,26 @@ Sets the symbol used to represent the checked state of a check box content contr
 Accessing this method will only work for [SdtType.CHECKBOX](../../com.aspose.words/sdttype/\#CHECKBOX) SDT types.
 
 For all other SDT types exception will occur.
+
+ **Examples:** 
+
+Show how to create a structured document tag in the form of a check box.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.CHECKBOX, MarkupLevel.INLINE);
+ sdtCheckBox.setChecked(true);
+ sdtCheckBox.setCheckedSymbol(0x00A9, "Times New Roman");
+ sdtCheckBox.setUncheckedSymbol(0x00AE, "Times New Roman");
+
+ builder.insertNode(sdtCheckBox);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CheckBox.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -4764,6 +4788,26 @@ Sets the symbol used to represent the unchecked state of a check box content con
 Accessing this method will only work for [SdtType.CHECKBOX](../../com.aspose.words/sdttype/\#CHECKBOX) SDT types.
 
 For all other SDT types exception will occur.
+
+ **Examples:** 
+
+Show how to create a structured document tag in the form of a check box.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.CHECKBOX, MarkupLevel.INLINE);
+ sdtCheckBox.setChecked(true);
+ sdtCheckBox.setCheckedSymbol(0x00A9, "Times New Roman");
+ sdtCheckBox.setUncheckedSymbol(0x00AE, "Times New Roman");
+
+ builder.insertNode(sdtCheckBox);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CheckBox.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

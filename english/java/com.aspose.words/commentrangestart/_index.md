@@ -4,7 +4,7 @@ linktitle: CommentRangeStart
 second_title: Aspose.Words for Java
 description: Denotes the start of a region of text that has a comment associated with it in Java.
 type: docs
-weight: 97
+weight: 102
 url: /java/com.aspose.words/commentrangestart/
 ---
 
@@ -1346,7 +1346,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (148533,6)
+Returns  true  if this node can contain other nodes. (149207,6)
 
  **Examples:** 
 

@@ -4,7 +4,7 @@ linktitle: MailMergeRegionInfo
 second_title: Aspose.Words for Java
 description: Contains information about a mail merge region in Java.
 type: docs
-weight: 409
+weight: 414
 url: /java/com.aspose.words/mailmergeregioninfo/
 ---
 

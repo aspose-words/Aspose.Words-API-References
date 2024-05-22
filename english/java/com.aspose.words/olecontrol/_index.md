@@ -4,7 +4,7 @@ linktitle: OleControl
 second_title: Aspose.Words for Java
 description: Represents OLE ActiveX control in Java.
 type: docs
-weight: 457
+weight: 462
 url: /java/com.aspose.words/olecontrol/
 ---
 
@@ -53,6 +53,7 @@ Shows how to verify the properties of an ActiveX control.
 | [getFileNameForUser()](#getFileNameForUser) |  |
 | [getId()](#getId) |  |
 | [getName()](#getName) | Gets name of the ActiveX control. |
+| [isEmpty()](#isEmpty) |  |
 | [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
 | [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
 | [setId(int value)](#setId-int) |  |
@@ -136,6 +137,16 @@ Shows how to verify the properties of an ActiveX control.
 
 **Returns:**
 java.lang.String - Name of the ActiveX control.
+### isEmpty() {#isEmpty}
+```
+public boolean isEmpty()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isForms2OleControl() {#isForms2OleControl}
 ```
 public boolean isForms2OleControl()

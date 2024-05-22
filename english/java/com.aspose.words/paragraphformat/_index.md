@@ -4,7 +4,7 @@ linktitle: ParagraphFormat
 second_title: Aspose.Words for Java
 description: Represents all the formatting for a paragraph in Java.
 type: docs
-weight: 479
+weight: 484
 url: /java/com.aspose.words/paragraphformat/
 ---
 

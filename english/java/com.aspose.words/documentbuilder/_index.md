@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 143
+weight: 148
 url: /java/com.aspose.words/documentbuilder/
 ---
 

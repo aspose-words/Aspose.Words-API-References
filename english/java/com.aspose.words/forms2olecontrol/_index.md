@@ -4,7 +4,7 @@ linktitle: Forms2OleControl
 second_title: Aspose.Words for Java
 description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
-weight: 320
+weight: 325
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
@@ -64,6 +64,7 @@ Shows how to verify the properties of an ActiveX control.
 | [getName()](#getName) | Gets name of the ActiveX control. |
 | [getType()](#getType) | Gets type of Forms 2.0 control. |
 | [getValue()](#getValue) | Gets underlying Value property which often represents control state. |
+| [isEmpty()](#isEmpty) |  |
 | [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
 | [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
 | [setGroupName(String value)](#setGroupName-java.lang.String) | Sets a string that specifies a group of mutually exclusive controls. |
@@ -338,6 +339,16 @@ Shows how to verify the properties of an ActiveX control.
 
 **Returns:**
 java.lang.String - Underlying Value property which often represents control state.
+### isEmpty() {#isEmpty}
+```
+public boolean isEmpty()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isForms2OleControl() {#isForms2OleControl}
 ```
 public boolean isForms2OleControl()

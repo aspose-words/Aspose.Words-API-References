@@ -4,7 +4,7 @@ linktitle: AxisTickMark
 second_title: Aspose.Words for Java
 description: Specifies the possible positions for tick marks in Java.
 type: docs
-weight: 25
+weight: 28
 url: /java/com.aspose.words/axistickmark/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FieldBuilder
 second_title: Aspose.Words for Java
 description: Builds a field from field code tokens arguments and switches in Java.
 type: docs
-weight: 187
+weight: 192
 url: /java/com.aspose.words/fieldbuilder/
 ---
 

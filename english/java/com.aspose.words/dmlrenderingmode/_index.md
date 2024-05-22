@@ -4,7 +4,7 @@ linktitle: DmlRenderingMode
 second_title: Aspose.Words for Java
 description: Specifies how DrawingML shapes are rendered to fixed page formats in Java.
 type: docs
-weight: 139
+weight: 144
 url: /java/com.aspose.words/dmlrenderingmode/
 ---
 

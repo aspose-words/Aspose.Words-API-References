@@ -4,7 +4,7 @@ linktitle: DropCapPosition
 second_title: Aspose.Words for Java
 description: Specifies the position for a drop cap text in Java.
 type: docs
-weight: 155
+weight: 160
 url: /java/com.aspose.words/dropcapposition/
 ---
 

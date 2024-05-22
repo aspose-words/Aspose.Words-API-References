@@ -4,7 +4,7 @@ linktitle: SvgSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.SVG format in Java.
 type: docs
-weight: 583
+weight: 589
 url: /java/com.aspose.words/svgsaveoptions/
 ---
 
@@ -77,6 +77,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [getFitToViewPort()](#getFitToViewPort) | Specifies if the output SVG should fill the available viewport area (browser window or container). |
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
 | [getJpegQuality()](#getJpegQuality) | Gets a value determining the quality of the JPEG images inside Html document. |
+| [getMaxImageResolution()](#getMaxImageResolution) | Gets a value in pixels per inch that limits resolution of exported raster images. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
 | [getMetafileRenderingOptions()](#getMetafileRenderingOptions) | Allows to specify metafile rendering options. |
 | [getNumeralFormat()](#getNumeralFormat) | Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. |
@@ -109,6 +110,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [setFitToViewPort(boolean value)](#setFitToViewPort-boolean) | Specifies if the output SVG should fill the available viewport area (browser window or container). |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
 | [setJpegQuality(int value)](#setJpegQuality-int) | Sets a value determining the quality of the JPEG images inside Html document. |
+| [setMaxImageResolution(int value)](#setMaxImageResolution-int) | Sets a value in pixels per inch that limits resolution of exported raster images. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
 | [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions) | Allows to specify metafile rendering options. |
 | [setNumeralFormat(int value)](#setNumeralFormat-int) | Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. |
@@ -624,6 +626,22 @@ Shows how to configure compression while saving a document as a JPEG.
 
 **Returns:**
 int - A value determining the quality of the JPEG images inside Html document.
+### getMaxImageResolution() {#getMaxImageResolution}
+```
+public int getMaxImageResolution()
+```
+
+
+Gets a value in pixels per inch that limits resolution of exported raster images. Default value is zero.
+
+ **Remarks:** 
+
+If the value of this property is non-zero, it limits resolution of exported raster images. That is, higher-resolution images are resampled down to the limit and lower-resolution images are exported as is.
+
+If the value of this property is zero, all raster images are exported without resampling.
+
+**Returns:**
+int - A value in pixels per inch that limits resolution of exported raster images.
 ### getMemoryOptimization() {#getMemoryOptimization}
 ```
 public boolean getMemoryOptimization()
@@ -2247,6 +2265,25 @@ Shows how to configure compression while saving a document as a JPEG.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining the quality of the JPEG images inside Html document. |
+
+### setMaxImageResolution(int value) {#setMaxImageResolution-int}
+```
+public void setMaxImageResolution(int value)
+```
+
+
+Sets a value in pixels per inch that limits resolution of exported raster images. Default value is zero.
+
+ **Remarks:** 
+
+If the value of this property is non-zero, it limits resolution of exported raster images. That is, higher-resolution images are resampled down to the limit and lower-resolution images are exported as is.
+
+If the value of this property is zero, all raster images are exported without resampling.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | A value in pixels per inch that limits resolution of exported raster images. |
 
 ### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean}
 ```

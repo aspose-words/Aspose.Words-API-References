@@ -4,7 +4,7 @@ linktitle: OoxmlSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.DOCX SaveFormat.DOCM SaveFormat.DOTX SaveFormat.DOTM or SaveFormat.FLAT_OPC format in Java.
 type: docs
-weight: 461
+weight: 466
 url: /java/com.aspose.words/ooxmlsaveoptions/
 ---
 
@@ -463,11 +463,12 @@ Shows how to sign OOXML document.
  CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
 
  OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- saveOptions.getDigitalSignatureDetails().setComments("Some comments");
- saveOptions.getDigitalSignatureDetails().setSignTime(new Date());
+ SignOptions signOptions = new SignOptions();
+ signOptions.setComments("Some comments");
+ signOptions.setSignTime(new Date());
  saveOptions.setDigitalSignatureDetails(new DigitalSignatureDetails(
          certificateHolder,
-         new SignOptions()));
+         signOptions));
 
  doc.save(getArtifactsDir() + "OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
  
@@ -1633,11 +1634,12 @@ Shows how to sign OOXML document.
  CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
 
  OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- saveOptions.getDigitalSignatureDetails().setComments("Some comments");
- saveOptions.getDigitalSignatureDetails().setSignTime(new Date());
+ SignOptions signOptions = new SignOptions();
+ signOptions.setComments("Some comments");
+ signOptions.setSignTime(new Date());
  saveOptions.setDigitalSignatureDetails(new DigitalSignatureDetails(
          certificateHolder,
-         new SignOptions()));
+         signOptions));
 
  doc.save(getArtifactsDir() + "OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
  
