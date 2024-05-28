@@ -28,6 +28,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [AdjustWithEffects](../shapebase/adjustwitheffects/)(System::Drawing::RectangleF) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
+| [get_Adjustments](./get_adjustments/)() |  |
 | [get_AllowOverlap](../shapebase/get_allowoverlap/)() | Gets or sets a value that specifies whether this shape can overlap other shapes. |
 | [get_AlternativeText](../shapebase/get_alternativetext/)() | Defines alternative text to be displayed instead of a graphic. |
 | [get_AnchorLocked](../shapebase/get_anchorlocked/)() | Specifies whether the shape's anchor is locked. |
@@ -109,6 +110,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_ShapeType](../shapebase/get_shapetype/)() | Gets the shape type. |
 | [get_SignatureLine](./get_signatureline/)() | Gets [SignatureLine](../signatureline/) object if the shape is a signature line. Returns **null** otherwise. |
 | [get_SizeInPoints](../shapebase/get_sizeinpoints/)() | Gets the size of the shape in points. |
+| [get_SoftEdge](../shapebase/get_softedge/)() |  |
 | [get_StoryType](./get_storytype/)() | Returns [Textbox](../../aspose.words/storytype/). |
 | [get_Stroke](./get_stroke/)() | Defines a stroke for a shape. |
 | [get_StrokeColor](./get_strokecolor/)() | Defines the color of a stroke. |
