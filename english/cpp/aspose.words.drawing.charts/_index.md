@@ -51,6 +51,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [AxisBuiltInUnit](./axisbuiltinunit/) | Specifies the display units for an axis. |
 | [AxisCategoryType](./axiscategorytype/) | Specifies type of a category axis. |
 | [AxisCrosses](./axiscrosses/) | Specifies the possible crossing points for an axis. |
+| [AxisGroup](./axisgroup/) | AxisGroup enumeration. |
 | [AxisScaleType](./axisscaletype/) | Specifies the possible scale types for an axis. |
 | [AxisTickLabelPosition](./axisticklabelposition/) | Specifies the possible positions for tick labels. |
 | [AxisTickMark](./axistickmark/) | Specifies the possible positions for tick marks. |

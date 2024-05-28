@@ -28,6 +28,7 @@ class Chart : public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
 | [get_Format](./get_format/)() |  |
 | [get_Legend](./get_legend/)() | Provides access to the chart legend properties. |
 | [get_Series](./get_series/)() | Provides access to series collection. |
+| [get_SeriesGroups](./get_seriesgroups/)() |  |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [get_Title](./get_title/)() | Provides access to the chart title properties. |
 | [GetType](./gettype/)() const override |  |

@@ -20,7 +20,8 @@ class ShapeBase : public Aspose::Words::CompositeNode,
                   public Aspose::Words::Revisions::ITrackableNode,
                   public Aspose::Words::Drawing::Core::IFillable,
                   public Aspose::Words::Drawing::Core::IGlow,
-                  public Aspose::Words::Drawing::Core::IReflection
+                  public Aspose::Words::Drawing::Core::IReflection,
+                  public Aspose::Words::Drawing::Core::ISoftEdge
 ```
 
 ## Methods
@@ -100,6 +101,7 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_ShadowFormat](./get_shadowformat/)() | Gets shadow formatting for the shape. |
 | [get_ShapeType](./get_shapetype/)() | Gets the shape type. |
 | [get_SizeInPoints](./get_sizeinpoints/)() | Gets the size of the shape in points. |
+| [get_SoftEdge](./get_softedge/)() |  |
 | [get_Target](./get_target/)() | Gets or sets the target frame for the shape hyperlink. |
 | [get_Title](./get_title/)() | Gets or sets the title (caption) of the current shape object. |
 | [get_Top](./get_top/)() | Gets or sets the position of the top edge of the containing block of the shape. |

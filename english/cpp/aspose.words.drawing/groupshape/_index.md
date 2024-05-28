@@ -93,6 +93,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_ShadowFormat](../shapebase/get_shadowformat/)() | Gets shadow formatting for the shape. |
 | [get_ShapeType](../shapebase/get_shapetype/)() | Gets the shape type. |
 | [get_SizeInPoints](../shapebase/get_sizeinpoints/)() | Gets the size of the shape in points. |
+| [get_SoftEdge](../shapebase/get_softedge/)() |  |
 | [get_Target](../shapebase/get_target/)() | Gets or sets the target frame for the shape hyperlink. |
 | [get_Title](../shapebase/get_title/)() | Gets or sets the title (caption) of the current shape object. |
 | [get_Top](../shapebase/get_top/)() | Gets or sets the position of the top edge of the containing block of the shape. |
