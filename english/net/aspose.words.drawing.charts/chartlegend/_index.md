@@ -5,7 +5,7 @@ articleTitle: ChartLegend
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartLegend class. Represents chart legend properties in C#.
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
@@ -26,7 +26,7 @@ public class ChartLegend
 | [Format](../../aspose.words.drawing.charts/chartlegend/format/) { get; } | Provides access to fill and line formatting of the legend. |
 | [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Returns a collection of legend entries for all series and trendlines of the parent chart. |
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Default value is `false`. |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Specifies the position of the legend on a chart. Default value is Right. |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Specifies the position of the legend on a chart. |
 
 ## Examples
 

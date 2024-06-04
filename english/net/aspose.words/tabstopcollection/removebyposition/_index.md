@@ -28,7 +28,7 @@ Shows how to modify the position of the right tab stop in TOC related paragraphs
 Document doc = new Document(MyDir + "Table of contents.docx");
 
 // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {

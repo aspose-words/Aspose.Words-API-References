@@ -8,7 +8,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(*string, string[], double[]*) {#add_3}
+## Add(*string, string[], double[]*) {#add_5}
 
 Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
@@ -115,7 +115,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## Add(*string, double[], double[]*) {#add}
+## Add(*string, double[], double[]*) {#add_2}
 
 Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to any type of Scatter charts.
 
@@ -222,7 +222,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## Add(*string, DateTime[], double[]*) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_4}
 
 Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
@@ -325,7 +325,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## Add(*string, double[], double[], double[]*) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_3}
 
 Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to any type of Bubble charts.
 
@@ -422,6 +422,85 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     return chart;
 }
 ```
+
+### See Also
+
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Add(*string, ChartMultilevelValue[], double[]*) {#add}
+
+Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series that have multi-level data categories.
+
+```csharp
+public ChartSeries Add(string seriesName, ChartMultilevelValue[] categories, double[] values)
+```
+
+### Return Value
+
+Recently added [`ChartSeries`](../../chartseries/) object.
+
+### See Also
+
+* class [ChartSeries](../../chartseries/)
+* class [ChartMultilevelValue](../../chartmultilevelvalue/)
+* class [ChartSeriesCollection](../)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Add(*string, double[]*) {#add_1}
+
+Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to Histogram charts.
+
+```csharp
+public ChartSeries Add(string seriesName, double[] xValues)
+```
+
+### Return Value
+
+Recently added [`ChartSeries`](../../chartseries/) object.
+
+## Remarks
+
+For chart types other than Histogram, this method adds a series with empty Y values.
+
+### See Also
+
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Add(*string, string[], double[], bool[]*) {#add_6}
+
+Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to Waterfall charts.
+
+```csharp
+public ChartSeries Add(string seriesName, string[] categories, double[] values, bool[] isSubtotal)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesName | String | A name of the series to be added. |
+| categories | String[] | Category names for the X axis. |
+| values | Double[] | Y-axis values. |
+| isSubtotal | Boolean[] | Values indicating whether the corresponding Y value is a subtotal. |
+
+### Return Value
+
+Recently added [`ChartSeries`](../../chartseries/) object.
+
+## Remarks
+
+For chart types other than Waterfall, *isSubtotal* values are ignored.
 
 ### See Also
 

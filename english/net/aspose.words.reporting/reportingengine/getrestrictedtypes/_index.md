@@ -5,7 +5,7 @@ articleTitle: GetRestrictedTypes
 second_title: Aspose.Words for .NET
 description: ReportingEngine GetRestrictedTypes method. Returns types which members as well as which derived types members should be inaccessible by the engine through template syntax in C#.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.reporting/reportingengine/getrestrictedtypes/
 ---
 ## ReportingEngine.GetRestrictedTypes method

@@ -5,7 +5,7 @@ articleTitle: Granularity
 second_title: Aspose.Words for .NET
 description: CompareOptions Granularity property. Specifies whether changes are tracked by character or by word in C#.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property

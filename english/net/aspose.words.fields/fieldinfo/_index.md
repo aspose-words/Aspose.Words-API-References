@@ -5,7 +5,7 @@ articleTitle: FieldInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldInfo class. Implements the INFO field in C#.
 type: docs
-weight: 2280
+weight: 2290
 url: /net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class

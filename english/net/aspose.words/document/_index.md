@@ -5,7 +5,7 @@ articleTitle: Document
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Document class. Represents a Word document in C#.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.words/document/
 ---
 ## Document class
@@ -80,6 +80,7 @@ public class Document : DocumentBase
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [ProtectionType](../../aspose.words/document/protectiontype/) { get; } | Gets the currently active document protection type. |
+| [PunctuationKerning](../../aspose.words/document/punctuationkerning/) { get; set; } | Specifies whether kerning applies to both Latin text and punctuation. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [RemovePersonalInformation](../../aspose.words/document/removepersonalinformation/) { get; set; } | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback/) { get; set; } | Allows to control how external resources are loaded. |

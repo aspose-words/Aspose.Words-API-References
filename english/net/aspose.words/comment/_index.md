@@ -34,6 +34,7 @@ public sealed class Comment : InlineStory
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | [DateTime](../../aspose.words/comment/datetime/) { get; set; } | Gets the date and time that the comment was made. |
+| [DateTimeUtc](../../aspose.words/comment/datetimeutc/) { get; } | Gets the UTC date and time that the comment was made. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [Done](../../aspose.words/comment/done/) { get; set; } | Gets or sets flag indicating that the comment has been marked done. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |

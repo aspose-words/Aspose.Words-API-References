@@ -5,7 +5,7 @@ articleTitle: Revisions
 second_title: Aspose.Words for .NET
 description: Document Revisions property. Gets a collection of revisions tracked changes that exist in this document in C#.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.words/document/revisions/
 ---
 ## Document.Revisions property
