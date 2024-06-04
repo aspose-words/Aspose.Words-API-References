@@ -33,7 +33,7 @@ builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
 // Iterate over every run and add a double underline to every custom style.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     Style charStyle = run.Font.Style;
 

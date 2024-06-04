@@ -5,7 +5,7 @@ articleTitle: GradientStopCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.GradientStopCollection class. Contains a collection of GradientStop objects in C#.
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class

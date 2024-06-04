@@ -5,7 +5,7 @@ articleTitle: Replies
 second_title: Aspose.Words for .NET
 description: Comment Replies property. Returns a collection of Comment objects that are immediate children of the specified comment in C#.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property

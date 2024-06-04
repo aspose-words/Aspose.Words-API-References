@@ -5,7 +5,7 @@ articleTitle: ChartSeriesCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartSeriesCollection class. Represents collection of a ChartSeries in C#.
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.words.drawing.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
@@ -29,10 +29,13 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(*string, DateTime[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(*string, double[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Scatter charts. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(*string, string[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(*string, double[], double[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Bubble charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(*string, double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to Histogram charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(*string, ChartMultilevelValue[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series that have multi-level data categories. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_4)(*string, DateTime[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(*string, double[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Scatter charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_5)(*string, string[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(*string, double[], double[], double[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to any type of Bubble charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_6)(*string, string[], double[], bool[]*) | Adds new [`ChartSeries`](../chartseries/) to this collection. Use this method to add series to Waterfall charts. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | Removes all [`ChartSeries`](../chartseries/) from this collection. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | Returns an enumerator object. |
 | [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(*int*) | Removes a [`ChartSeries`](../chartseries/) at the specified index. |

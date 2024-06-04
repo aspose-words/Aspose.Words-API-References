@@ -5,7 +5,7 @@ articleTitle: ShadowFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ShadowFormat class. Represents shadow formatting for an object in C#.
 type: docs
-weight: 1420
+weight: 1430
 url: /net/aspose.words.drawing/shadowformat/
 ---
 ## ShadowFormat class
@@ -22,6 +22,7 @@ public class ShadowFormat
 
 | Name | Description |
 | --- | --- |
+| [Color](../../aspose.words.drawing/shadowformat/color/) { get; } | Gets a Color object that represents the color for the shadow. The default value is Black. |
 | [Type](../../aspose.words.drawing/shadowformat/type/) { get; set; } | Gets or sets the specified [`ShadowType`](../shadowtype/) for ShadowFormat. |
 | [Visible](../../aspose.words.drawing/shadowformat/visible/) { get; } | Returns `true` if the formatting applied to this instance is visible. |
 

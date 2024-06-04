@@ -5,7 +5,7 @@ articleTitle: DocumentSecurity
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Properties.DocumentSecurity enum. Used as a value for the Security property. Specifies the security level of a document as a numeric value in C#.
 type: docs
-weight: 4710
+weight: 4720
 url: /net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration

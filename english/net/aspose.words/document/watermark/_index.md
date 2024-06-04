@@ -5,7 +5,7 @@ articleTitle: Watermark
 second_title: Aspose.Words for .NET
 description: Document Watermark property. Provides access to the document watermark in C#.
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

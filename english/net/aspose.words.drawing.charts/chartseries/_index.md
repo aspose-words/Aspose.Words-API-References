@@ -5,7 +5,7 @@ articleTitle: ChartSeries
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartSeries class. Represents chart series properties in C#.
 type: docs
-weight: 910
+weight: 920
 url: /net/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class

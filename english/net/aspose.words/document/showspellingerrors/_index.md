@@ -5,7 +5,7 @@ articleTitle: ShowSpellingErrors
 second_title: Aspose.Words for .NET
 description: Document ShowSpellingErrors property. Specifies whether to display spelling errors in this document in C#.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property

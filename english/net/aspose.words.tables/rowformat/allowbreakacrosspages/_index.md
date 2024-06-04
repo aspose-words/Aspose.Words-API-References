@@ -28,7 +28,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // in one piece if a table spans two pages, which break up along that row.
 // If the row is too big to fit in one page, Microsoft Word will push it down to the next page.
 // Set the "AllowBreakAcrossPages" property to "true" to allow the row to break up across two pages.
-foreach (Row row in table.OfType<Row>())
+foreach (Row row in table)
     row.RowFormat.AllowBreakAcrossPages = allowBreakAcrossPages;
 
 doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");

@@ -5,7 +5,7 @@ articleTitle: ChartDataLabel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartDataLabel class. Represents data label on a chart point or trendline in C#.
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class
