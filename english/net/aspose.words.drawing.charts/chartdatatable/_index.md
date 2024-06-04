@@ -5,7 +5,7 @@ articleTitle: ChartDataTable
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartDataTable class. Allows to specify properties of a chart data table in C#.
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.words.drawing.charts/chartdatatable/
 ---
 ## ChartDataTable class

@@ -5,7 +5,7 @@ articleTitle: CompareOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Comparing.CompareOptions class. Allows to choose advanced options for document comparison operation in C#.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
@@ -28,11 +28,11 @@ public class CompareOptions
 
 | Name | Description |
 | --- | --- |
+| [AdvancedOptions](../../aspose.words.comparing/compareoptions/advancedoptions/) { get; } | Specifies advanced compare options that might help to produce more precise comparison output. |
 | [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Specifies whether to compare differences between the two documents. |
 | [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Specifies whether changes are tracked by character or by word. |
 | [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indicates that documents comparison is case insensitive. |
 | [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Specifies whether to compare differences in comments. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. |
 | [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Specifies whether to compare differences in fields. |
 | [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Specifies whether to compare differences in footnotes and endnotes. |
 | [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indicates that formatting is ignored. |

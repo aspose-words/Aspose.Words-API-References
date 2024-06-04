@@ -5,7 +5,7 @@ articleTitle: CompareMoves
 second_title: Aspose.Words for .NET
 description: CompareOptions CompareMoves property. Specifies whether to compare differences between the two documents in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.comparing/compareoptions/comparemoves/
 ---
 ## CompareOptions.CompareMoves property

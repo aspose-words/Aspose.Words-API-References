@@ -35,7 +35,7 @@ builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
 // Convert all uses of one style to another,
 // using the above methods to reference old and new styles.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

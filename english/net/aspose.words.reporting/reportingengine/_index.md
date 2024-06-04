@@ -5,7 +5,7 @@ articleTitle: ReportingEngine
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.ReportingEngine class. Provides routines to populate template documents with data and a set of settings to control these routines in C#.
 type: docs
-weight: 4950
+weight: 4960
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
@@ -29,6 +29,7 @@ public class ReportingEngine
 | Name | Description |
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | Gets an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc. |
+| [MissingMemberMessage](../../aspose.words.reporting/reportingengine/missingmembermessage/) { get; set; } | Gets or sets a string value printed instead of a template expression that represents a plain reference to a missing member of an object. The default value is an empty string. |
 | [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Gets or sets a set of flags controlling behavior of this `ReportingEngine` instance while building a report. |
 | static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is `true`. |
 

@@ -5,7 +5,7 @@ articleTitle: ChartType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartType enum. Specifies type of a chart in C#.
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.words.drawing.charts/charttype/
 ---
 ## ChartType enumeration
@@ -55,6 +55,13 @@ public enum ChartType
 | Stock | `32` | Stock chart. |
 | Surface | `33` | Surface chart. |
 | Surface3D | `34` | 3D Surface chart. |
+| Treemap | `35` | Treemap chart. |
+| Sunburst | `36` | Sunburst chart. |
+| Histogram | `37` | Histogram chart. |
+| Pareto | `38` | Pareto chart. |
+| BoxAndWhisker | `39` | Box and Whisker chart. |
+| Waterfall | `40` | Waterfall chart. |
+| Funnel | `41` | Funnel chart. |
 
 ## Examples
 

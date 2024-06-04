@@ -5,7 +5,7 @@ articleTitle: Cell
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Cell class. Represents a table cell in C#.
 type: docs
-weight: 6500
+weight: 6510
 url: /net/aspose.words.tables/cell/
 ---
 ## Cell class

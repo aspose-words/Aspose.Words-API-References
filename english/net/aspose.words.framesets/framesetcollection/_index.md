@@ -5,7 +5,7 @@ articleTitle: FramesetCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Framesets.FramesetCollection class. Represents a collection of instances of the Frameset class in C#.
 type: docs
-weight: 3290
+weight: 3300
 url: /net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class

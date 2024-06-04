@@ -5,7 +5,7 @@ articleTitle: FieldIndex
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldIndex class. Implements the INDEX field in C#.
 type: docs
-weight: 2260
+weight: 2270
 url: /net/aspose.words.fields/fieldindex/
 ---
 ## FieldIndex class

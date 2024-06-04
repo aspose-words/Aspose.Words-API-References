@@ -5,7 +5,7 @@ articleTitle: OutlineLevel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.OutlineLevel enum. Specifies the outline level of a paragraph in the document in C#.
 type: docs
-weight: 4550
+weight: 4560
 url: /net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration

@@ -5,7 +5,7 @@ articleTitle: StyleIdentifier
 second_title: Aspose.Words for .NET
 description: Aspose.Words.StyleIdentifier enum. Locale independent style identifier in C#.
 type: docs
-weight: 6410
+weight: 6420
 url: /net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration
@@ -424,7 +424,7 @@ builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
 // Convert all uses of one style to another,
 // using the above methods to reference old and new styles.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

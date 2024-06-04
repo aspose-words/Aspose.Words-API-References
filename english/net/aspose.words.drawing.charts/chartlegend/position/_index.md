@@ -3,18 +3,22 @@ title: ChartLegend.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words for .NET
-description: ChartLegend Position property. Specifies the position of the legend on a chart. Default value is Right in C#.
+description: ChartLegend Position property. Specifies the position of the legend on a chart in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-Specifies the position of the legend on a chart. Default value is Right.
+Specifies the position of the legend on a chart.
 
 ```csharp
 public LegendPosition Position { get; set; }
 ```
+
+## Remarks
+
+The default value is Right for pre-Word 2016 charts and Top for Word 2016 charts.
 
 ## Examples
 

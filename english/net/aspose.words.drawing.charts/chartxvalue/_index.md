@@ -5,7 +5,7 @@ articleTitle: ChartXValue
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartXValue class. Represents an X value for a chart series in C#.
 type: docs
-weight: 990
+weight: 1000
 url: /net/aspose.words.drawing.charts/chartxvalue/
 ---
 ## ChartXValue class

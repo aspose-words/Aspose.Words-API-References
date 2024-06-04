@@ -5,7 +5,7 @@ articleTitle: ComparisonExpression
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.ComparisonExpression class. The comparison expression in C#.
 type: docs
-weight: 1690
+weight: 1700
 url: /net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class

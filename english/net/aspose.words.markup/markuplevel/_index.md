@@ -5,7 +5,7 @@ articleTitle: MarkupLevel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.MarkupLevel enum. Specifies the level in the document tree where a particular StructuredDocumentTag can occur in C#.
 type: docs
-weight: 4200
+weight: 4210
 url: /net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration

@@ -5,7 +5,7 @@ articleTitle: MathObjectType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Math.MathObjectType enum. Specifies type of an Office Math object in C#.
 type: docs
-weight: 4330
+weight: 4340
 url: /net/aspose.words.math/mathobjecttype/
 ---
 ## MathObjectType enumeration

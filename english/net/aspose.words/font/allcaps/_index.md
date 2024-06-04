@@ -30,7 +30,7 @@ Run run = new Run(doc, "all capitals");
 run.Font.AllCaps = true;
 para.AppendChild(run);
 
-para = para.ParentNode.AppendChild(new Paragraph(doc));
+para = (Paragraph)para.ParentNode.AppendChild(new Paragraph(doc));
 
 // 2 -  Set the SmallCaps flag to display all characters in small capitals:
 // If a character is lower case, it will appear in its upper case form

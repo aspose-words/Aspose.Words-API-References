@@ -5,7 +5,7 @@ articleTitle: RtfLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.RtfLoadOptions class. Allows to specify additional options when loading Rtf document into a Document object in C#.
 type: docs
-weight: 3930
+weight: 3940
 url: /net/aspose.words.loading/rtfloadoptions/
 ---
 ## RtfLoadOptions class
@@ -44,6 +44,7 @@ public class RtfLoadOptions : LoadOptions
 | [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback/) { get; set; } | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [TempFolder](../../aspose.words.loading/loadoptions/tempfolder/) { get; set; } | Allows to use temporary files when reading document. By default this property is `null` and no temporary files are used. |
 | [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields/) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
+| [UseSystemLcid](../../aspose.words.loading/loadoptions/usesystemlcid/) { get; set; } | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback/) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 
 ## Methods

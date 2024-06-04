@@ -5,7 +5,7 @@ articleTitle: Compatibility
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Settings.Compatibility enum. Specifies names of compatibility options in C#.
 type: docs
-weight: 6030
+weight: 6040
 url: /net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
