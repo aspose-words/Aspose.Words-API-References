@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Edit the document while tracking changes to create a few revisions.
 doc.StartTrackRevisions("John Doe");
 builder.Write("Hello world! ");
-builder.Write("Hello again! "); 
+builder.Write("Hello again! ");
 builder.Write("This is another revision.");
 doc.StopTrackRevisions();
 

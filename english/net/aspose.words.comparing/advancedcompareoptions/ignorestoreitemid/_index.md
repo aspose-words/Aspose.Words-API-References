@@ -20,6 +20,28 @@ public bool IgnoreStoreItemId { get; set; }
 
 Default value is `false`.
 
+## Examples
+
+Shows how to compare SDT with same content but different store item id.
+
+```csharp
+Document docA = new Document(MyDir + "Document with SDT 1.docx");
+Document docB = new Document(MyDir + "Document with SDT 2.docx");
+
+// Configure options to compare SDT with same content but different store item id.
+CompareOptions compareOptions = new CompareOptions();
+compareOptions.AdvancedOptions.IgnoreStoreItemId = false;
+
+docA.Compare(docB, "user", DateTime.Now, compareOptions);
+Assert.AreEqual(8, docA.Revisions.Count);
+
+compareOptions.AdvancedOptions.IgnoreStoreItemId = true;
+
+docA.Revisions.RejectAll();
+docA.Compare(docB, "user", DateTime.Now, compareOptions);
+Assert.AreEqual(0, docA.Revisions.Count);
+```
+
 ### See Also
 
 * class [AdvancedCompareOptions](../)

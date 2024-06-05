@@ -16,6 +16,17 @@ Gets a Color object that represents the color for the shadow. The default value 
 public Color Color { get; }
 ```
 
+## Examples
+
+Shows how to get shadow color.
+
+```csharp
+Document doc = new Document(MyDir + "Shadow color.docx");
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(Color.Red.ToArgb(), shape.ShadowFormat.Color.ToArgb());
+```
+
 ### See Also
 
 * class [ShadowFormat](../)

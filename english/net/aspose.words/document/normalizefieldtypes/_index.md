@@ -52,7 +52,7 @@ doc.NormalizeFieldTypes();
 
 Assert.AreEqual(FieldType.FieldPage, field.Type);
 Assert.AreEqual(FieldType.FieldPage, field.Start.FieldType);
-Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType); 
+Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType);
 Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ```
 
