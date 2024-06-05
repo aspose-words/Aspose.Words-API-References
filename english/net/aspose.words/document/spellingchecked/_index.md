@@ -30,7 +30,7 @@ Document doc = new Document();
 // The string with spelling errors.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
-// Spelling/Grammar check start if we set properties to false. 
+// Spelling/Grammar check start if we set properties to false.
 // We can see all errors in Microsoft Word via Review -> Spelling & Grammar.
 // Note that Microsoft Word does not start grammar/spell check automatically for DOC and RTF document format.
 doc.SpellingChecked = checkSpellingGrammar;
