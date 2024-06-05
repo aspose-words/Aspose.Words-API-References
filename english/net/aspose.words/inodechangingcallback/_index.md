@@ -63,7 +63,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

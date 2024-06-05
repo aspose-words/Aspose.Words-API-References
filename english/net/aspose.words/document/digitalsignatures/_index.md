@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
@@ -53,7 +53,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 // There are two ways of saving a signed copy of a document to the local file system:
 // 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
 SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
     certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
