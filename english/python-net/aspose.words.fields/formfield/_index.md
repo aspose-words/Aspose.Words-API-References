@@ -105,40 +105,31 @@ Shows how to insert a combo box.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Please select a fruit: ")
-
+builder.write('Please select a fruit: ')
 # Insert a combo box which will allow a user to choose an option from a collection of strings.
-combo_box = builder.insert_combo_box("MyComboBox", ["Apple", "Banana", "Cherry"], 0)
-
-self.assertEqual("MyComboBox", combo_box.name)
+combo_box = builder.insert_combo_box('MyComboBox', ['Apple', 'Banana', 'Cherry'], 0)
+self.assertEqual('MyComboBox', combo_box.name)
 self.assertEqual(aw.fields.FieldType.FIELD_FORM_DROP_DOWN, combo_box.type)
-self.assertEqual("Apple", combo_box.result)
-
+self.assertEqual('Apple', combo_box.result)
 # The form field will appear in the form of a "select" html tag.
-doc.save(ARTIFACTS_DIR + "FormFields.create.html")
+doc.save(file_name=ARTIFACTS_DIR + 'FormFields.Create.html')
 ```
 
 Shows how to formatting the entire FormField, including the field value.
 
 ```python
-doc = aw.Document(MY_DIR + "Form fields.docx")
-
+doc = aw.Document(MY_DIR + 'Form fields.docx')
 form_field = doc.range.form_fields[0]
 form_field.font.bold = True
 form_field.font.size = 24
-form_field.font.color = drawing.Color.red
-
-form_field.result = "Aspose.FormField"
-
+form_field.font.color = aspose.pydrawing.Color.red
+form_field.result = 'Aspose.FormField'
 doc = DocumentHelper.save_open(doc)
-
 form_field_run = doc.first_section.body.first_paragraph.runs[1]
-
-self.assertEqual("Aspose.FormField", form_field_run.text)
+self.assertEqual('Aspose.FormField', form_field_run.text)
 self.assertEqual(True, form_field_run.font.bold)
 self.assertEqual(24, form_field_run.font.size)
-self.assertEqual(drawing.Color.red.to_argb(), form_field_run.font.color.to_argb())
+self.assertEqual(aspose.pydrawing.Color.red.to_argb(), form_field_run.font.color.to_argb())
 ```
 
 ### See Also

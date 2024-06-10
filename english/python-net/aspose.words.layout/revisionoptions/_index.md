@@ -48,19 +48,16 @@ Shows how to alter the appearance of revisions in a rendered output document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert a revision, then change the color of all revisions to green.
-builder.writeln("This is not a revision.")
-doc.start_track_revisions("John Doe", datetime.now())
-builder.writeln("This is a revision.")
+builder.writeln('This is not a revision.')
+doc.start_track_revisions('John Doe', datetime.now())
+builder.writeln('This is a revision.')
 doc.stop_track_revisions()
-builder.writeln("This is not a revision.")
-
+builder.writeln('This is not a revision.')
 # Remove the bar that appears to the left of every revised line.
 doc.layout_options.revision_options.inserted_text_color = aw.layout.RevisionColor.BRIGHT_GREEN
 doc.layout_options.revision_options.show_revision_bars = False
-
-doc.save(ARTIFACTS_DIR + "Document.layout_options_revisions.pdf")
+doc.save(ARTIFACTS_DIR + 'Document.layout_options_revisions.pdf')
 ```
 
 ### See Also

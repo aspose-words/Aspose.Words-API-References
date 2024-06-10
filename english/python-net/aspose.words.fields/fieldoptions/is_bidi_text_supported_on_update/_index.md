@@ -45,16 +45,13 @@ Shows how to use FieldOptions to ensure that field updating fully supports bi-di
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Ensure that any field operation involving right-to-left text is performs as expected.
 doc.field_options.is_bidi_text_supported_on_update = True
-
 # Use a document builder to insert a field that contains the right-to-left text.
-combo_box = builder.insert_combo_box("MyComboBox", ["עֶשְׂרִים", "שְׁלוֹשִׁים", "אַרְבָּעִים", "חֲמִשִּׁים", "שִׁשִּׁים"], 0)
+combo_box = builder.insert_combo_box('MyComboBox', ['עֶשְׂרִים', 'שְׁלוֹשִׁים', 'אַרְבָּעִים', 'חֲמִשִּׁים', 'שִׁשִּׁים'], 0)
 combo_box.calculate_on_exit = True
-
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + "FieldOptions.bidi.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'FieldOptions.Bidi.docx')
 ```
 
 ### See Also

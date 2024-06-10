@@ -32,15 +32,13 @@ def is_true_type(self, value: bool):
 Shows how to print the details of what fonts are present in a document.
 
 ```python
-doc = aw.Document(MY_DIR + "Embedded font.docx")
-
+doc = aw.Document(MY_DIR + 'Embedded font.docx')
 all_fonts = doc.font_infos
-
 # Print all the used and unused fonts in the document.
 for i in range(all_fonts.count):
-    print(f"Font index #{i}")
-    print(f"\tName: {all_fonts[i].name}")
-    print(f'\tIs {"" if all_fonts[i].is_true_type else "not "}a TrueType font')
+    print(f'Font index #{i}')
+    print(f'\tName: {all_fonts[i].name}')
+    print(f"\tIs {('' if all_fonts[i].is_true_type else 'not ')}a TrueType font")
 ```
 
 ### See Also

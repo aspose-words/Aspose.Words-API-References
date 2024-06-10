@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "Comment.accept_end method. Accepts a visitor for visiting the end of the comment."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words/comment/accept_end/
 ---
 

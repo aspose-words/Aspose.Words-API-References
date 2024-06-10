@@ -93,12 +93,9 @@ Shows how to initialize the subclasses of DocumentBase.
 
 ```python
 doc = aw.Document()
-
 self.assertIsInstance(doc, aw.DocumentBase)
-
 glossary_doc = aw.buildingblocks.GlossaryDocument()
 doc.glossary_document = glossary_doc
-
 self.assertIsInstance(glossary_doc, aw.DocumentBase)
 ```
 

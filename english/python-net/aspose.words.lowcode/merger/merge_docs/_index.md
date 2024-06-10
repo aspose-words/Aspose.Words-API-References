@@ -25,24 +25,6 @@ def merge_docs(self, input_documents: List[aspose.words.Document], merge_format_
 | input_documents | List[[Document](../../../aspose.words/document/)] | The input documents. |
 | merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
 
-### Examples
-
-Shows how to merge input documents to a single document instance.
-
-```python
-first_doc = DocumentBuilder()
-first_doc.font.size = 16
-first_doc.font.color = Color.blue
-first_doc.write("Hello first word!")
-
-second_doc = DocumentBuilder()
-second_doc.write("Hello second word!")
-
-merged_doc = Merger.merge_docs([first_doc.document, second_doc.document], MergeFormatMode.KEEP_SOURCE_LAYOUT)
-
-self.assertEqual("Hello first word!\fHello second word!\f", merged_doc.get_text())
-```
-
 ### See Also
 
 * module [aspose.words.lowcode](../../)

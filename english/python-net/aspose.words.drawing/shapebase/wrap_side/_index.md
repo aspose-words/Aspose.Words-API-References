@@ -39,17 +39,14 @@ Has effect only for top level shapes.
 Shows how to replace all textbox shapes with image shapes.
 
 ```python
-doc = aw.Document(MY_DIR + "Textboxes in drawing canvas.docx")
-
+doc = aw.Document(MY_DIR + 'Textboxes in drawing canvas.docx')
 shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
-
 self.assertEqual(3, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.TEXT_BOX]))
 self.assertEqual(1, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.IMAGE]))
-
 for shape in shapes:
     if shape.shape_type == aw.drawing.ShapeType.TEXT_BOX:
         replacement_shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
-        replacement_shape.image_data.set_image(IMAGE_DIR + "Logo.jpg")
+        replacement_shape.image_data.set_image(IMAGE_DIR + 'Logo.jpg')
         replacement_shape.left = shape.left
         replacement_shape.top = shape.top
         replacement_shape.width = shape.width
@@ -60,16 +57,12 @@ for shape in shapes:
         replacement_shape.vertical_alignment = shape.vertical_alignment
         replacement_shape.wrap_type = shape.wrap_type
         replacement_shape.wrap_side = shape.wrap_side
-
         shape.parent_node.insert_after(replacement_shape, shape)
         shape.remove()
-
 shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
-
 self.assertEqual(0, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.TEXT_BOX]))
 self.assertEqual(4, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.IMAGE]))
-
-doc.save(ARTIFACTS_DIR + "Shape.replace_textboxes_with_images.docx")
+doc.save(ARTIFACTS_DIR + 'Shape.replace_textboxes_with_images.docx')
 ```
 
 ### See Also

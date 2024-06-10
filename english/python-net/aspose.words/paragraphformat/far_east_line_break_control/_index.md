@@ -30,14 +30,12 @@ def far_east_line_break_control(self, value: bool):
 Shows how to set special properties for Asian typography.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 format = doc.first_section.body.first_paragraph.paragraph_format
 format.far_east_line_break_control = True
 format.word_wrap = False
 format.hanging_punctuation = True
-
-doc.save(ARTIFACTS_DIR + "ParagraphFormat.asian_typography_properties.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'ParagraphFormat.AsianTypographyProperties.docx')
 ```
 
 ### See Also

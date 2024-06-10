@@ -57,25 +57,21 @@ Shows how to reference text with a footnote and an endnote.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert some text and mark it with a footnote with the "is_auto" property set to "True" by default,
 # so the marker seen in the body text will be auto-numbered at "1",
 # and the footnote will appear at the bottom of the page.
-builder.write("This text will be referenced by a footnote.")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Footnote comment regarding referenced text.")
-
+builder.write('This text will be referenced by a footnote.')
+builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, 'Footnote comment regarding referenced text.')
 # Insert more text and mark it with an endnote with a custom reference mark,
 # which will be used in place of the number "2" and set "is_auto" to False.
-builder.write("This text will be referenced by an endnote.")
-builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, "Endnote comment regarding referenced text.", "CustomMark")
-
+builder.write('This text will be referenced by an endnote.')
+builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, 'Endnote comment regarding referenced text.', 'CustomMark')
 # Footnotes always appear at the bottom of their referenced text,
 # so this page break will not affect the footnote.
 # On the other hand, endnotes are always at the end of the document
 # so that this page break will push the endnote down to the next page.
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_footnote.docx")
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_footnote.docx')
 ```
 
 ## See Also

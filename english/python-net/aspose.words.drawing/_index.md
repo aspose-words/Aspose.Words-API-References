@@ -25,6 +25,8 @@ The classes in this module support the latest (Word 2007 - 2013 DrawingML) and t
 
 | Class | Description |
 | --- | --- |
+| [Adjustment](./adjustment/) | Represents adjustment values that are applied to the specified shape. |
+| [AdjustmentCollection](./adjustmentcollection/) | Represents a read-only collection of [Adjustment](./adjustment/) adjust values that are applied to the specified shape. |
 | [Fill](./fill/) | Represents fill formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/python-net/working-with-graphic-elements/) documentation article. |
 | [GlowFormat](./glowformat/) | Represents the glow formatting for an object. |
 | [GradientStop](./gradientstop/) | Represents one gradient stop. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/python-net/working-with-graphic-elements/) documentation article. |

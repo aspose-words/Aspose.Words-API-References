@@ -31,12 +31,10 @@ Shows how to lock style.
 
 ```python
 doc = aw.Document()
-
-style_heading_1 = doc.styles[aw.StyleIdentifier.HEADING1]
-if not style_heading_1.locked:
-    style_heading_1.locked = True
-
-doc.save(ARTIFACTS_DIR + "Styles.LockStyle.docx")
+style_heading1 = doc.styles.get_by_style_identifier(aw.StyleIdentifier.HEADING1)
+if not style_heading1.locked:
+    style_heading1.locked = True
+doc.save(file_name=ARTIFACTS_DIR + 'Styles.LockStyle.docx')
 ```
 
 ### See Also

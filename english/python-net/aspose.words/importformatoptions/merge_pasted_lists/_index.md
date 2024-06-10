@@ -32,16 +32,13 @@ def merge_pasted_lists(self, value: bool):
 Shows how to merge lists from a documents.
 
 ```python
-src_doc = aw.Document(MY_DIR + "List item.docx")
-dst_doc = aw.Document(MY_DIR + "List destination.docx")
-
+src_doc = aw.Document(file_name=MY_DIR + 'List item.docx')
+dst_doc = aw.Document(file_name=MY_DIR + 'List destination.docx')
 options = aw.ImportFormatOptions()
 options.merge_pasted_lists = True
-
-# Set the "merge_pasted_lists" property to "True" pasted lists will be merged with surrounding lists.
-dst_doc.append_document(src_doc, aw.ImportFormatMode.USE_DESTINATION_STYLES, options)
-
-dst_doc.save(ARTIFACTS_DIR + "Document.merge_pasted_lists.docx")
+# Set the "MergePastedLists" property to "true" pasted lists will be merged with surrounding lists.
+dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.USE_DESTINATION_STYLES, import_format_options=options)
+dst_doc.save(file_name=ARTIFACTS_DIR + 'Document.MergePastedLists.docx')
 ```
 
 ### See Also

@@ -54,21 +54,14 @@ Shows how to toggle case sensitivity when performing a find-and-replace operatio
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Ruby bought a ruby necklace.")
-
+builder.writeln('Ruby bought a ruby necklace.')
 # We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 options = aw.replacing.FindReplaceOptions()
-
 # Set the "match_case" flag to "True" to apply case sensitivity while finding strings to replace.
 # Set the "match_case" flag to "False" to ignore character case while searching for text to replace.
 options.match_case = match_case
-
-doc.range.replace("Ruby", "Jade", options)
-
-self.assertEqual(
-    "Jade bought a ruby necklace." if match_case else "Jade bought a Jade necklace.",
-    doc.get_text().strip())
+doc.range.replace('Ruby', 'Jade', options)
+self.assertEqual('Jade bought a ruby necklace.' if match_case else 'Jade bought a Jade necklace.', doc.get_text().strip())
 ```
 
 Shows how to toggle standalone word-only find-and-replace operations.
@@ -76,21 +69,14 @@ Shows how to toggle standalone word-only find-and-replace operations.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Jackson will meet you in Jacksonville.")
-
+builder.writeln('Jackson will meet you in Jacksonville.')
 # We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 options = aw.replacing.FindReplaceOptions()
-
 # Set the "find_whole_words_only" flag to "True" to replace the found text if it is not a part of another word.
 # Set the "find_whole_words_only" flag to "False" to replace all text regardless of its surroundings.
 options.find_whole_words_only = find_whole_words_only
-
-doc.range.replace("Jackson", "Louis", options)
-
-self.assertEqual(
-    "Louis will meet you in Jacksonville." if find_whole_words_only else "Louis will meet you in Louisville.",
-    doc.get_text().strip())
+doc.range.replace('Jackson', 'Louis', options)
+self.assertEqual('Louis will meet you in Jacksonville.' if find_whole_words_only else 'Louis will meet you in Louisville.', doc.get_text().strip())
 ```
 
 ### See Also

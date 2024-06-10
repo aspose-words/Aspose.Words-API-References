@@ -30,10 +30,10 @@ def source_full_name(self, value: str):
 Shows how to get the full name of the external xls/xlsx document if the chart is linked.
 
 ```python
-doc = aw.Document(MY_DIR + "Shape with linked chart.docx")
+doc = aw.Document(MY_DIR + 'Shape with linked chart.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 source_fullname = shape.chart.source_full_name
-self.assertTrue(source_fullname.find("Examples\\Data\\Spreadsheet.xlsx") != -1)
+self.assertTrue(source_fullname.find('Examples\\Data\\Spreadsheet.xlsx') != -1)
 ```
 
 ### See Also

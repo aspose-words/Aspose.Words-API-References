@@ -47,9 +47,7 @@ Shows how to set the rendering mode when saving documents with Windows Metafile 
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.insert_image(drawing.Image.from_file(IMAGE_DIR + "Windows MetaFile.wmf"))
-
+builder.insert_image(drawing.Image.from_file(IMAGE_DIR + 'Windows MetaFile.wmf'))
 # When we save the document as an image, we can pass a SaveOptions object to
 # determine how the saving operation will process Windows Metafiles in the document.
 # If we set the "rendering_mode" property to "MetafileRenderingMode.VECTOR",
@@ -59,8 +57,7 @@ options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
 options.metafile_rendering_options.rendering_mode = metafile_rendering_mode
 # Aspose.Words uses GDI+ for raster operations emulation, when value is set to true.
 options.metafile_rendering_options.use_gdi_raster_operations_emulation = True
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.windows_meta_file.png", options)
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.windows_meta_file.png', options)
 ```
 
 ### See Also

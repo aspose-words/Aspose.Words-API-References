@@ -38,17 +38,14 @@ Shows how to set spelling or grammar verifying.
 
 ```python
 doc = aw.Document()
-
 # The string with spelling errors.
-doc.first_section.body.first_paragraph.runs.add(aw.Run(doc, "The speeling in this documentz is all broked."))
-
+doc.first_section.body.first_paragraph.runs.add(aw.Run(doc, 'The speeling in this documentz is all broked.'))
 # Spelling/Grammar check start if we set properties to False.
 # We can see all errors in Microsoft Word via Review -> Spelling & Grammar.
 # Note that Microsoft Word does not start grammar/spell check automatically for DOC and RTF document format.
 doc.spelling_checked = check_spelling_grammar
 doc.grammar_checked = check_spelling_grammar
-
-doc.save(ARTIFACTS_DIR + "Document.spelling_or_grammar.docx")
+doc.save(ARTIFACTS_DIR + 'Document.spelling_or_grammar.docx')
 ```
 
 ### See Also

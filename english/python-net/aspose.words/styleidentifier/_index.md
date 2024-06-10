@@ -411,28 +411,22 @@ Shows how to change the style of existing text.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Below are two ways of referencing styles.
 # 1 -  Using the style name:
-builder.font.style_name = "Emphasis"
-builder.writeln("Text originally in \"Emphasis\" style")
-
+builder.font.style_name = 'Emphasis'
+builder.writeln('Text originally in "Emphasis" style')
 # 2 -  Using a built-in style identifier:
 builder.font.style_identifier = aw.StyleIdentifier.INTENSE_EMPHASIS
-builder.writeln("Text originally in \"Intense Emphasis\" style")
-
+builder.writeln('Text originally in "Intense Emphasis" style')
 # Convert all uses of one style to another,
 # using the above methods to reference old and new styles.
 for run in doc.get_child_nodes(aw.NodeType.RUN, True):
     run = run.as_run()
-
-    if run.font.style_name == "Emphasis":
-        run.font.style_name = "Strong"
-
+    if run.font.style_name == 'Emphasis':
+        run.font.style_name = 'Strong'
     if run.font.style_identifier == aw.StyleIdentifier.INTENSE_EMPHASIS:
         run.font.style_identifier = aw.StyleIdentifier.STRONG
-
-doc.save(ARTIFACTS_DIR + "Font.change_style.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Font.ChangeStyle.docx')
 ```
 
 ### See Also

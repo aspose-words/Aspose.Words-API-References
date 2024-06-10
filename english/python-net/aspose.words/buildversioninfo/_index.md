@@ -29,7 +29,7 @@ To learn more, visit the [Generator or Producer Name Included in Output Document
 Shows how to display information about your installed version of Aspose.Words.
 
 ```python
-print(f"I am currently using {aw.BuildVersionInfo.product}, version number {aw.BuildVersionInfo.version}!")
+print(f'I am currently using {aw.BuildVersionInfo.product}, version number {aw.BuildVersionInfo.version}!')
 ```
 
 ### See Also

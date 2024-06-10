@@ -37,14 +37,12 @@ Default is [PdfCompliance.PDF17](../../pdfcompliance/#PDF17).
 Shows how to set the PDF standards compliance level of saved PDF documents.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
+doc = aw.Document(MY_DIR + 'Images.docx')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 # Note that some PdfSaveOptions are prohibited when saving to one of the standards and automatically fixed.
 # Use IWarningCallback to know which options are automatically fixed.
 save_options = aw.saving.PdfSaveOptions()
-
 # Set the "compliance" property to "PdfCompliance.PDF_A1B" to comply with the "PDF/A-1b" standard,
 # which aims to preserve the visual appearance of the document as Aspose.Words convert it to PDF.
 # Set the "compliance" property to "PdfCompliance.PDF17" to comply with the "1.7" standard.
@@ -57,8 +55,7 @@ save_options = aw.saving.PdfSaveOptions()
 # which preserving document static visual appearance over time.
 # This helps with making documents searchable but may significantly increase the size of already large documents.
 save_options.compliance = pdf_compliance
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.compliance.pdf", save_options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.compliance.pdf', save_options)
 ```
 
 ### See Also

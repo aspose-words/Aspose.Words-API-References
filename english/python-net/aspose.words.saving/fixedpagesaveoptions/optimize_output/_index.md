@@ -36,19 +36,16 @@ def optimize_output(self, value: bool):
 Shows how to optimize document objects while saving to xps.
 
 ```python
-doc = aw.Document(MY_DIR + "Unoptimized document.docx")
-
+doc = aw.Document(MY_DIR + 'Unoptimized document.docx')
 # Create an "XpsSaveOptions" object to pass to the document's "save" method
 # to modify how that method converts the document to .XPS.
 save_options = aw.saving.XpsSaveOptions()
-
 # Set the "optimize_output" property to "True" to take measures such as removing nested or empty canvases
 # and concatenating adjacent runs with identical formatting to optimize the output document's content.
 # This may affect the appearance of the document.
 # Set the "optimize_output" property to "False" to save the document normally.
 save_options.optimize_output = optimize_output
-
-doc.save(ARTIFACTS_DIR + "XpsSaveOptions.optimize_output.xps", save_options)
+doc.save(ARTIFACTS_DIR + 'XpsSaveOptions.optimize_output.xps', save_options)
 ```
 
 ### See Also

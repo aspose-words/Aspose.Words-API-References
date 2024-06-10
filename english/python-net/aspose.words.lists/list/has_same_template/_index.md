@@ -28,8 +28,7 @@ def has_same_template(self, other: aspose.words.lists.List):
 Shows how to define lists with the same ListDefId.
 
 ```python
-doc = aw.Document(MY_DIR + "Different lists.docx");
-
+doc = aw.Document(file_name=MY_DIR + 'Different lists.docx')
 self.assertTrue(doc.lists[0].has_same_template(doc.lists[1]))
 self.assertFalse(doc.lists[1].has_same_template(doc.lists[2]))
 ```

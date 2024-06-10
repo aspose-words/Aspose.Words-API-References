@@ -39,19 +39,14 @@ Returns ``None`` if the image is not stored in the document (e.g the image is pr
 Shows how to create an image file from a shape's raw image data.
 
 ```python
-img_source_doc = aw.Document(MY_DIR + "Images.docx")
-
+img_source_doc = aw.Document(MY_DIR + 'Images.docx')
 img_shape = img_source_doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-
 self.assertTrue(img_shape.has_image)
-
 # to_byte_array() returns the array stored in the "image_bytes" property.
 self.assertEqual(img_shape.image_data.image_bytes, img_shape.image_data.to_byte_array())
-
 # Save the shape's image data to an image file in the local file system.
 with img_shape.image_data.to_stream() as img_stream:
-
-    with open(ARTIFACTS_DIR + "Drawing.get_data_from_image.png", "wb") as out_stream:
+    with open(ARTIFACTS_DIR + 'Drawing.get_data_from_image.png', 'wb') as out_stream:
         out_stream.write(img_stream.read())
 ```
 

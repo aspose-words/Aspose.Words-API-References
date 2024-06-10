@@ -36,10 +36,9 @@ the number of columns on the displayed page. The default value is 0.
 Shows how to split the footnote section into a given number of columns.
 
 ```python
-doc = aw.Document(MY_DIR + "Footnotes and endnotes.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Footnotes and endnotes.docx')
 doc.footnote_options.columns = 2
-doc.save(ARTIFACTS_DIR + "Document.footnote_columns.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Document.FootnoteColumns.docx')
 ```
 
 ### See Also

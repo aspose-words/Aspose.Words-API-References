@@ -54,22 +54,20 @@ If the folder specified by [HtmlSaveOptions.fonts_folder](./) doesn't exist, it 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 options = aw.saving.HtmlSaveOptions()
 options.css_style_sheet_type = aw.saving.CssStyleSheetType.EXTERNAL
 options.export_font_resources = True
 options.image_resolution = 72
 options.font_resources_subsetting_size_threshold = 0
-options.fonts_folder = ARTIFACTS_DIR + "Fonts"
-options.images_folder = ARTIFACTS_DIR + "Images"
-options.resource_folder = ARTIFACTS_DIR + "Resources"
-options.fonts_folder_alias = "http://example.com/fonts"
-options.images_folder_alias = "http://example.com/images"
-options.resource_folder_alias = "http://example.com/resources"
+options.fonts_folder = ARTIFACTS_DIR + 'Fonts'
+options.images_folder = ARTIFACTS_DIR + 'Images'
+options.resource_folder = ARTIFACTS_DIR + 'Resources'
+options.fonts_folder_alias = 'http://example.com/fonts'
+options.images_folder_alias = 'http://example.com/images'
+options.resource_folder_alias = 'http://example.com/resources'
 options.export_original_url_for_linked_images = True
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.folder_alias.html", options)
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.FolderAlias.html', save_options=options)
 ```
 
 ### See Also

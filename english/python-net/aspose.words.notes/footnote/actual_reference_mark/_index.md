@@ -35,11 +35,11 @@ Updating fields ([Document.update_fields()](../../../aspose.words/document/updat
 Shows how to get actual footnote reference mark.
 
 ```python
-doc = aw.Document(file_name=MY_DIR + "Footnotes and endnotes.docx")
+doc = aw.Document(file_name=MY_DIR + 'Footnotes and endnotes.docx')
 footnote = doc.get_child(aw.NodeType.FOOTNOTE, 1, True).as_footnote()
 doc.update_fields()
 doc.update_actual_reference_marks()
-self.assertEqual("1", footnote.actual_reference_mark)
+self.assertEqual('1', footnote.actual_reference_mark)
 ```
 
 ### See Also

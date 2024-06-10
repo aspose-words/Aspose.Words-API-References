@@ -5,7 +5,7 @@ articleTitle: parent_id property
 second_title: Aspose.Words for Python
 description: "Comment.parent_id property. Gets or sets the parent comment ID"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words/comment/parent_id/
 ---
 

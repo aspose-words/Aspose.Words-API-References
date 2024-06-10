@@ -31,14 +31,14 @@ def blur(self, value: float):
 Shows how to interact with reflection shape effect.
 
 ```python
-doc = aw.Document(file_name=MY_DIR + "Various shapes.docx")
+doc = aw.Document(file_name=MY_DIR + 'Various shapes.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 shape.reflection.transparency = 0.37
 shape.reflection.size = 0.48
 shape.reflection.blur = 17.5
 shape.reflection.distance = 9.2
-doc.save(file_name=ARTIFACTS_DIR + "Shape.Reflection.docx")
-doc = aw.Document(file_name=ARTIFACTS_DIR + "Shape.Reflection.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.Reflection.docx')
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'Shape.Reflection.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 self.assertAlmostEqual(0.37, shape.reflection.transparency, delta=0.01)
 self.assertAlmostEqual(0.48, shape.reflection.size, delta=0.01)

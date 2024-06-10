@@ -170,27 +170,23 @@ Shows how to create headers and footers in a document using DocumentBuilder.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Specify that we want different headers and footers for first, even and odd pages.
 builder.page_setup.different_first_page_header_footer = True
 builder.page_setup.odd_and_even_pages_header_footer = True
-
 # Create the headers, then add three pages to the document to display each header type.
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_FIRST)
-builder.write("Header for the first page")
+builder.write('Header for the first page')
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_EVEN)
-builder.write("Header for even pages")
+builder.write('Header for even pages')
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
-builder.write("Header for all other pages")
-
+builder.write('Header for all other pages')
 builder.move_to_section(0)
-builder.writeln("Page1")
+builder.writeln('Page1')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Page2")
+builder.writeln('Page2')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Page3")
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.headers_and_footers.docx")
+builder.writeln('Page3')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.HeadersAndFooters.docx')
 ```
 
 Shows how to build a table with custom borders.
@@ -198,60 +194,46 @@ Shows how to build a table with custom borders.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.start_table()
-
 # Setting table formatting options for a document builder
 # will apply them to every row and cell that we add with it.
 builder.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
-
 builder.cell_format.clear_formatting()
 builder.cell_format.width = 150
 builder.cell_format.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER
-builder.cell_format.shading.background_pattern_color = drawing.Color.green_yellow
+builder.cell_format.shading.background_pattern_color = aspose.pydrawing.Color.green_yellow
 builder.cell_format.wrap_text = False
 builder.cell_format.fit_text = True
-
 builder.row_format.clear_formatting()
 builder.row_format.height_rule = aw.HeightRule.EXACTLY
 builder.row_format.height = 50
 builder.row_format.borders.line_style = aw.LineStyle.ENGRAVE_3D
-builder.row_format.borders.color = drawing.Color.orange
-
+builder.row_format.borders.color = aspose.pydrawing.Color.orange
 builder.insert_cell()
-builder.write("Row 1, Col 1")
-
+builder.write('Row 1, Col 1')
 builder.insert_cell()
-builder.write("Row 1, Col 2")
+builder.write('Row 1, Col 2')
 builder.end_row()
-
 # Changing the formatting will apply it to the current cell,
 # and any new cells that we create with the builder afterward.
 # This will not affect the cells that we have added previously.
 builder.cell_format.shading.clear_formatting()
-
 builder.insert_cell()
-builder.write("Row 2, Col 1")
-
+builder.write('Row 2, Col 1')
 builder.insert_cell()
-builder.write("Row 2, Col 2")
-
+builder.write('Row 2, Col 2')
 builder.end_row()
-
 # Increase row height to fit the vertical text.
 builder.insert_cell()
 builder.row_format.height = 150
 builder.cell_format.orientation = aw.TextOrientation.UPWARD
-builder.write("Row 3, Col 1")
-
+builder.write('Row 3, Col 1')
 builder.insert_cell()
 builder.cell_format.orientation = aw.TextOrientation.DOWNWARD
-builder.write("Row 3, Col 2")
-
+builder.write('Row 3, Col 2')
 builder.end_row()
 builder.end_table()
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_table.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertTable.docx')
 ```
 
 Shows how to use a document builder to create a table.
@@ -259,23 +241,20 @@ Shows how to use a document builder to create a table.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Start the table, then populate the first row with two cells.
 builder.start_table()
 builder.insert_cell()
-builder.write("Row 1, Cell 1.")
+builder.write('Row 1, Cell 1.')
 builder.insert_cell()
-builder.write("Row 1, Cell 2.")
-
-# Call the builder's "end_row" method to start a new row.
+builder.write('Row 1, Cell 2.')
+# Call the builder's "EndRow" method to start a new row.
 builder.end_row()
 builder.insert_cell()
-builder.write("Row 2, Cell 1.")
+builder.write('Row 2, Cell 1.')
 builder.insert_cell()
-builder.write("Row 2, Cell 2.")
+builder.write('Row 2, Cell 2.')
 builder.end_table()
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.create_table.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.CreateTable.docx')
 ```
 
 ### See Also

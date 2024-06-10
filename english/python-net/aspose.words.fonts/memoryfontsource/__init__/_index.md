@@ -59,15 +59,12 @@ def __init__(self, font_data: bytes, priority: int, cache_key: str):
 Shows how to use a byte array with data from a font file as a font source.
 
 ```python
-with open(MY_DIR + "Alte DIN 1451 Mittelschrift.ttf", "rb") as file:
+with open(MY_DIR + 'Alte DIN 1451 Mittelschrift.ttf', 'rb') as file:
     font_bytes = file.read()
-
 memory_font_source = aw.fonts.MemoryFontSource(font_bytes, 0)
-
 doc = aw.Document()
 doc.font_settings = aw.fonts.FontSettings()
 doc.font_settings.set_fonts_sources([memory_font_source])
-
 self.assertEqual(aw.fonts.FontSourceType.MEMORY_FONT, memory_font_source.type)
 self.assertEqual(0, memory_font_source.priority)
 ```

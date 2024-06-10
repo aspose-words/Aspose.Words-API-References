@@ -39,7 +39,7 @@ Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot b
 Shows how to unlink a field.
 
 ```python
-doc = aw.Document(MY_DIR + "Linked fields.docx")
+doc = aw.Document(MY_DIR + 'Linked fields.docx')
 doc.range.fields[1].unlink()
 ```
 

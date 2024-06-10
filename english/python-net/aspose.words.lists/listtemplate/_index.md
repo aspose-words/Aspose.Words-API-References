@@ -56,9 +56,7 @@ Shows how to work with list levels.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 self.assertFalse(builder.list_format.is_list_item)
-
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
 # We can begin and end a list by using a document builder's "list_format" property.
@@ -67,112 +65,86 @@ self.assertFalse(builder.list_format.is_list_item)
 # 1 -  A numbered list:
 # Numbered lists create a logical order for their paragraphs by numbering each item.
 builder.list_format.list = doc.lists.add(aw.lists.ListTemplate.NUMBER_DEFAULT)
-
 self.assertTrue(builder.list_format.is_list_item)
-
 # By setting the "list_level_number" property, we can increase the list level
 # to begin a self-contained sub-list at the current list item.
 # The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
 # Deeper list levels use letters and lowercase Roman numerals.
 for i in range(9):
-
     builder.list_format.list_level_number = i
-    builder.writeln(f"Level {i}")
-
+    builder.writeln(f'Level {i}')
 # 2 -  A bulleted list:
 # This list will apply an indent and a bullet symbol ("•") before each paragraph.
 # Deeper levels of this list will use different symbols, such as "■" and "○".
 builder.list_format.list = doc.lists.add(aw.lists.ListTemplate.BULLET_DEFAULT)
-
 for i in range(9):
     builder.list_format.list_level_number = i
-    builder.writeln(f"Level {i}")
-
+    builder.writeln(f'Level {i}')
 # We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
 builder.list_format.list = None
-
 self.assertFalse(builder.list_format.is_list_item)
-
-doc.save(ARTIFACTS_DIR + "Lists.specify_list_level.docx")
+doc.save(ARTIFACTS_DIR + 'Lists.specify_list_level.docx')
 ```
 
 Shows how to restart numbering in a list by copying a list.
 
 ```python
 doc = aw.Document()
-
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
 # We can begin and end a list by using a document builder's "list_format" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
 # Create a list from a Microsoft Word template, and customize its first list level.
 list1 = doc.lists.add(aw.lists.ListTemplate.NUMBER_ARABIC_PARENTHESIS)
-list1.list_levels[0].font.color = drawing.Color.red
+list1.list_levels[0].font.color = aspose.pydrawing.Color.red
 list1.list_levels[0].alignment = aw.lists.ListLevelAlignment.RIGHT
-
 # Apply our list to some paragraphs.
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("List 1 starts below:")
+builder.writeln('List 1 starts below:')
 builder.list_format.list = list1
-builder.writeln("Item 1")
-builder.writeln("Item 2")
+builder.writeln('Item 1')
+builder.writeln('Item 2')
 builder.list_format.remove_numbers()
-
 # We can add a copy of an existing list to the document's list collection
 # to create a similar list without making changes to the original.
 list2 = doc.lists.add_copy(list1)
-list2.list_levels[0].font.color = drawing.Color.blue
+list2.list_levels[0].font.color = aspose.pydrawing.Color.blue
 list2.list_levels[0].start_at = 10
-
 # Apply the second list to new paragraphs.
-builder.writeln("List 2 starts below:")
+builder.writeln('List 2 starts below:')
 builder.list_format.list = list2
-builder.writeln("Item 1")
-builder.writeln("Item 2")
+builder.writeln('Item 1')
+builder.writeln('Item 2')
 builder.list_format.remove_numbers()
-
-doc.save(ARTIFACTS_DIR + "Lists.restart_numbering_using_list_copy.docx")
+doc.save(ARTIFACTS_DIR + 'Lists.restart_numbering_using_list_copy.docx')
 ```
 
 Shows how to create a document that contains all outline headings list templates.
 
 ```python
-def test_outline_heading_templates(self):
-
+def outline_heading_templates():
     doc = aw.Document()
     builder = aw.DocumentBuilder(doc)
-
-    list = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION)
-    ExLists.add_outline_heading_paragraphs(builder, list, "Aspose.Words Outline - \"Article Section\"")
-
-    list = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_LEGAL)
-    ExLists.add_outline_heading_paragraphs(builder, list, "Aspose.Words Outline - \"Legal\"")
-
+    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION)
+    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Article Section"')
+    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_LEGAL)
+    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Legal"')
     builder.insert_break(aw.BreakType.PAGE_BREAK)
+    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_NUMBERS)
+    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Numbers"')
+    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_CHAPTER)
+    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Chapters"')
+    doc.save(ARTIFACTS_DIR + 'Lists.outline_heading_templates.docx')
 
-    list = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_NUMBERS)
-    ExLists.add_outline_heading_paragraphs(builder, list, "Aspose.Words Outline - \"Numbers\"")
-
-    list = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_CHAPTER)
-    ExLists.add_outline_heading_paragraphs(builder, list, "Aspose.Words Outline - \"Chapters\"")
-
-    doc.save(ARTIFACTS_DIR + "Lists.outline_heading_templates.docx")
-
-@staticmethod
 def add_outline_heading_paragraphs(builder: aw.DocumentBuilder, list: aw.lists.List, title: str):
-
     builder.paragraph_format.clear_formatting()
     builder.writeln(title)
-
     for i in range(9):
         builder.list_format.list = list
         builder.list_format.list_level_number = i
-
-        style_name = f"Heading {i + 1}"
+        style_name = f'Heading {i + 1}'
         builder.paragraph_format.style_name = style_name
         builder.writeln(style_name)
-
     builder.list_format.remove_numbers()
 ```
 

@@ -27,21 +27,17 @@ Shows how to differentiate custom styles from built-in styles.
 
 ```python
 doc = aw.Document()
-
 # When we create a document using Microsoft Word, or programmatically using Aspose.Words,
 # the document will come with a collection of styles to apply to its text to modify its appearance.
-# We can access these built-in styles via the document's "styles" collection.
-# These styles will all have the "built_in" flag set to "True".
-style = doc.styles.get_by_name("Emphasis")
-
+# We can access these built-in styles via the document's "Styles" collection.
+# These styles will all have the "BuiltIn" flag set to "true".
+style = doc.styles.get_by_name('Emphasis')
 self.assertTrue(style.built_in)
-
 # Create a custom style and add it to the collection.
-# Custom styles such as this will have the "built_in" flag set to "False".
-style = doc.styles.add(aw.StyleType.CHARACTER, "MyStyle")
-style.font.color = drawing.Color.navy
-style.font.name = "Courier New"
-
+# Custom styles such as this will have the "BuiltIn" flag set to "false".
+style = doc.styles.add(aw.StyleType.CHARACTER, 'MyStyle')
+style.font.color = aspose.pydrawing.Color.navy
+style.font.name = 'Courier New'
 self.assertFalse(style.built_in)
 ```
 

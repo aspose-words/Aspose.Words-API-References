@@ -29,13 +29,10 @@ def word_open_xml_minimal(self) -> str:
 Shows how to get minimal XML contained within the node in the FlatOpc format.
 
 ```python
-doc = aw.Document(MY_DIR + "Multi-section structured document tags.docx")
-
-
+doc = aw.Document(file_name=MY_DIR + 'Multi-section structured document tags.docx')
 tag = doc.get_child(aw.NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, True).as_structured_document_tag_range_start()
-self.assertTrue(tag.word_open_xml_minimal.find( "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">") > 0)
-self.assertTrue(tag.word_open_xml_minimal.find(
-    "xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\"") < 0)
+self.assertTrue('<pkg:part pkg:name="/docProps/app.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.extended-properties+xml">' in tag.word_open_xml_minimal)
+self.assertFalse('xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid"' in tag.word_open_xml_minimal)
 ```
 
 ### See Also

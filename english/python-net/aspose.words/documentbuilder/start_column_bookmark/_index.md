@@ -49,41 +49,30 @@ Shows how to create a column bookmark.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.start_table()
-
 builder.insert_cell()
 # Cells 1,2,4,5 will be bookmarked.
-builder.start_column_bookmark("MyBookmark_1")
+builder.start_column_bookmark('MyBookmark_1')
 # Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
-builder.start_column_bookmark("MyBookmark_1")
-builder.start_column_bookmark("BadStartBookmark")
-builder.write("Cell 1")
-
+builder.start_column_bookmark('MyBookmark_1')
+builder.start_column_bookmark('BadStartBookmark')
+builder.write('Cell 1')
 builder.insert_cell()
-builder.write("Cell 2")
-
+builder.write('Cell 2')
 builder.insert_cell()
-builder.write("Cell 3")
-
+builder.write('Cell 3')
 builder.end_row()
-
 builder.insert_cell()
-builder.write("Cell 4")
-
+builder.write('Cell 4')
 builder.insert_cell()
-builder.write("Cell 5")
-builder.end_column_bookmark("MyBookmark_1")
-builder.end_column_bookmark("MyBookmark_1")
-
-
+builder.write('Cell 5')
+builder.end_column_bookmark('MyBookmark_1')
+builder.end_column_bookmark('MyBookmark_1')
 builder.insert_cell()
-builder.write("Cell 6")
-
+builder.write('Cell 6')
 builder.end_row()
 builder.end_table()
-
-doc.save(ARTIFACTS_DIR + "Bookmarks.create_column_bookmark.docx")
+doc.save(ARTIFACTS_DIR + 'Bookmarks.create_column_bookmark.docx')
 ```
 
 ### See Also

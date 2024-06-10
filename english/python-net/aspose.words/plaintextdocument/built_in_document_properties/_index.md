@@ -29,16 +29,12 @@ Shows how to load the contents of a Microsoft Word document in plaintext and the
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Hello world!")
-doc.built_in_document_properties.author = "John Doe"
-
-doc.save(ARTIFACTS_DIR + "PlainTextDocument.built_in_properties.docx")
-
-plaintext = aw.PlainTextDocument(ARTIFACTS_DIR + "PlainTextDocument.built_in_properties.docx")
-
-self.assertEqual("Hello world!", plaintext.text.strip())
-self.assertEqual("John Doe", plaintext.built_in_document_properties.author)
+builder.writeln('Hello world!')
+doc.built_in_document_properties.author = 'John Doe'
+doc.save(file_name=ARTIFACTS_DIR + 'PlainTextDocument.BuiltInProperties.docx')
+plaintext = aw.PlainTextDocument(file_name=ARTIFACTS_DIR + 'PlainTextDocument.BuiltInProperties.docx')
+self.assertEqual('Hello world!', plaintext.text.strip())
+self.assertEqual('John Doe', plaintext.built_in_document_properties.author)
 ```
 
 ### See Also

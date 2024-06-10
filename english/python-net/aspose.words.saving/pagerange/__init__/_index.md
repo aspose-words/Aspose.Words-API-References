@@ -35,20 +35,11 @@ int.MaxValue C# constant means the last page in the document.
 Shows how to extract pages based on exact page ranges.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
 image_options = aw.saving.ImageSaveOptions(aw.SaveFormat.TIFF)
-ranges = [
-    aw.saving.PageRange(1, 1),
-    aw.saving.PageRange(2, 3),
-    aw.saving.PageRange(1, 3),
-    aw.saving.PageRange(2, 4),
-    aw.saving.PageRange(1, 1)
-    ]
-page_set = aw.saving.PageSet(ranges=ranges)
-
+page_set = aw.saving.PageSet(ranges=[aw.saving.PageRange(1, 1), aw.saving.PageRange(2, 3), aw.saving.PageRange(1, 3), aw.saving.PageRange(2, 4), aw.saving.PageRange(1, 1)])
 image_options.page_set = page_set
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.export_various_page_ranges.tiff", image_options)
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.ExportVariousPageRanges.tiff', save_options=image_options)
 ```
 
 ### See Also

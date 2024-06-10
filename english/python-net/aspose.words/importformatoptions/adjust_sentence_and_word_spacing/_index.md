@@ -32,21 +32,16 @@ def adjust_sentence_and_word_spacing(self, value: bool):
 Shows how to adjust sentence and word spacing automatically.
 
 ```python
-srcDoc = aw.Document()
-dstDoc = aw.Document()
-
-builder = aw.DocumentBuilder(srcDoc)
-builder.write("Dolor sit amet.")
-
-builder = aw.DocumentBuilder(dstDoc)
-builder.write("Lorem ipsum.")
-
+src_doc = aw.Document()
+dst_doc = aw.Document()
+builder = aw.DocumentBuilder(src_doc)
+builder.write('Dolor sit amet.')
+builder = aw.DocumentBuilder(dst_doc)
+builder.write('Lorem ipsum.')
 options = aw.ImportFormatOptions()
 options.adjust_sentence_and_word_spacing = True
-
-builder.insert_document(srcDoc, aw.ImportFormatMode.USE_DESTINATION_STYLES, options)
-
-self.assertEqual("Lorem ipsum. Dolor sit amet.", dstDoc.first_section.body.first_paragraph.get_text().strip())
+builder.insert_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.USE_DESTINATION_STYLES, import_format_options=options)
+self.assertEqual('Lorem ipsum. Dolor sit amet.', dst_doc.first_section.body.first_paragraph.get_text().strip())
 ```
 
 ### See Also

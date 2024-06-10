@@ -44,12 +44,11 @@ list items in manner that allows to numerate list items in automatic mode by Mar
 Shows how to list items will be written to the markdown document.
 
 ```python
-doc = aw.Document(MY_DIR + "List item.docx");
-
+doc = aw.Document(MY_DIR + 'List item.docx')
 # Use MarkdownListExportMode.PLAIN_TEXT or MarkdownListExportMode.MARKDOWN_SYNTAX to export list.
 options = aw.saving.MarkdownSaveOptions()
 options.list_export_mode = markdownListExportMode
-doc.save(ARTIFACTS_DIR + "MarkdownSaveOptions.ListExportMode.md", options)
+doc.save(ARTIFACTS_DIR + 'MarkdownSaveOptions.ListExportMode.md', options)
 ```
 
 ### See Also

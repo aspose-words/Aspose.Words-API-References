@@ -62,16 +62,13 @@ Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 ```python
 # These fields are legacy equivalents of the FormField. We can read, but not create these fields using Aspose.Words.
 # In Microsoft Word, we can insert these fields via the Legacy Tools menu in the Developer tab.
-doc = aw.Document(MY_DIR + "Form fields.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Form fields.docx')
 field_form_check_box = doc.range.fields[1].as_field_form_check_box()
-self.assertEqual(" FORMCHECKBOX \u0001", field_form_check_box.get_field_code())
-
+self.assertEqual(' FORMCHECKBOX \x01', field_form_check_box.get_field_code())
 field_form_drop_down = doc.range.fields[2].as_field_form_drop_down()
-self.assertEqual(" FORMDROPDOWN \u0001", field_form_drop_down.get_field_code())
-
+self.assertEqual(' FORMDROPDOWN \x01', field_form_drop_down.get_field_code())
 field_form_text = doc.range.fields[0].as_field_form_text()
-self.assertEqual(" FORMTEXT \u0001", field_form_text.get_field_code())
+self.assertEqual(' FORMTEXT \x01', field_form_text.get_field_code())
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: get_restricted_types method
 second_title: Aspose.Words for Python
 description: "ReportingEngine.get_restricted_types method. Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.reporting/reportingengine/get_restricted_types/
 ---
 

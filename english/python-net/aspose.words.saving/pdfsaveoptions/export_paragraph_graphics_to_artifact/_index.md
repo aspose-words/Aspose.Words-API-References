@@ -37,6 +37,19 @@ This value is ignored when [PdfSaveOptions.export_document_structure](../export_
 
 
 
+### Examples
+
+Shows how to export paragraph graphics as artifact (underlines, text emphasis, etc.).
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'PDF artifacts.docx')
+save_options = aw.saving.PdfSaveOptions()
+save_options.export_document_structure = True
+save_options.export_paragraph_graphics_to_artifact = True
+save_options.text_compression = aw.saving.PdfTextCompression.NONE
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf', save_options=save_options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

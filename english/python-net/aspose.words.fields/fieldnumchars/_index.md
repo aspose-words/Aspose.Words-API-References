@@ -62,39 +62,33 @@ built-in document properties.
 Shows how to use NUMCHARS, NUMWORDS, NUMPAGES and PAGE fields to track the size of our documents.
 
 ```python
-doc = aw.Document(MY_DIR + "Paragraphs.docx")
+doc = aw.Document(MY_DIR + 'Paragraphs.docx')
 builder = aw.DocumentBuilder(doc)
-
 builder.move_to_header_footer(aw.HeaderFooterType.FOOTER_PRIMARY)
 builder.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
-
 # Below are three types of fields that we can use to track the size of our documents.
 # 1 -  Track the character count with a NUMCHARS field:
 field_num_chars = builder.insert_field(aw.fields.FieldType.FIELD_NUM_CHARS, True).as_field_num_chars()
-builder.writeln(" characters")
-
+builder.writeln(' characters')
 # 2 -  Track the word count with a NUMWORDS field:
 field_num_words = builder.insert_field(aw.fields.FieldType.FIELD_NUM_WORDS, True).as_field_num_words()
-builder.writeln(" words")
-
+builder.writeln(' words')
 # 3 -  Use both PAGE and NUMPAGES fields to display what page the field is on,
 # and the total number of pages in the document:
 builder.paragraph_format.alignment = aw.ParagraphAlignment.RIGHT
-builder.write("Page ")
+builder.write('Page ')
 field_page = builder.insert_field(aw.fields.FieldType.FIELD_PAGE, True).as_field_page()
-builder.write(" of ")
+builder.write(' of ')
 field_num_pages = builder.insert_field(aw.fields.FieldType.FIELD_NUM_PAGES, True).as_field_num_pages()
-
-self.assertEqual(" NUMCHARS ", field_num_chars.get_field_code())
-self.assertEqual(" NUMWORDS ", field_num_words.get_field_code())
-self.assertEqual(" NUMPAGES ", field_num_pages.get_field_code())
-self.assertEqual(" PAGE ", field_page.get_field_code())
-
+self.assertEqual(' NUMCHARS ', field_num_chars.get_field_code())
+self.assertEqual(' NUMWORDS ', field_num_words.get_field_code())
+self.assertEqual(' NUMPAGES ', field_num_pages.get_field_code())
+self.assertEqual(' PAGE ', field_page.get_field_code())
 # These fields will not maintain accurate values in real time
 # while we edit the document programmatically using Aspose.Words, or in Microsoft Word.
 # We need to update them every we need to see an up-to-date value.
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + "Field.field_num.docx")
+doc.save(ARTIFACTS_DIR + 'Field.field_num.docx')
 ```
 
 ### See Also

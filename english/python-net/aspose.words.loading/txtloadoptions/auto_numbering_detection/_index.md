@@ -35,7 +35,7 @@ Shows how to disable automatic numbering detection.
 ```python
 options = aw.loading.TxtLoadOptions()
 options.auto_numbering_detection = False
-doc = aw.Document(MY_DIR + "Number detection.txt", options)
+doc = aw.Document(file_name=MY_DIR + 'Number detection.txt', load_options=options)
 ```
 
 ### See Also

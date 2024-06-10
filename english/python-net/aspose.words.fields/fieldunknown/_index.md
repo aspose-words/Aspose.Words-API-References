@@ -57,16 +57,13 @@ Shows how to work with 'FieldNone' field in a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert a field that does not denote an objective field type in its field code.
-field = builder.insert_field(" NOTAREALFIELD //a")
-
+field = builder.insert_field(' NOTAREALFIELD //a')
 # The "FieldNone" field type is reserved for fields such as these.
 self.assertEqual(aw.fields.FieldType.FIELD_NONE, field.type)
-
 # We can also still work with these fields and assign them as instances of the FieldUnknown class.
 field_unknown = field.as_field_unknown()
-self.assertEqual(" NOTAREALFIELD //a", field_unknown.get_field_code())
+self.assertEqual(' NOTAREALFIELD //a', field_unknown.get_field_code())
 ```
 
 ### See Also

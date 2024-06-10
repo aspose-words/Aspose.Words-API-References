@@ -5,7 +5,7 @@ articleTitle: expand_table_styles_to_direct_formatting method
 second_title: Aspose.Words for Python
 description: "Document.expand_table_styles_to_direct_formatting method. Converts formatting specified in table styles into direct formatting on tables in the document."
 type: docs
-weight: 620
+weight: 630
 url: /python-net/aspose.words/document/expand_table_styles_to_direct_formatting/
 ---
 
@@ -49,25 +49,20 @@ Shows how to apply the properties of a table's style directly to the table's ele
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 table = builder.start_table()
 builder.insert_cell()
-builder.write("Hello world!")
+builder.write('Hello world!')
 builder.end_table()
-
-table_style = doc.styles.add(aw.StyleType.TABLE, "MyTableStyle1").as_table_style()
+table_style = doc.styles.add(aw.StyleType.TABLE, 'MyTableStyle1').as_table_style()
 table_style.row_stripe = 3
 table_style.cell_spacing = 5
-table_style.shading.background_pattern_color = drawing.Color.antique_white
-table_style.borders.color = drawing.Color.blue
+table_style.shading.background_pattern_color = aspose.pydrawing.Color.antique_white
+table_style.borders.color = aspose.pydrawing.Color.blue
 table_style.borders.line_style = aw.LineStyle.DOT_DASH
-
 table.style = table_style
-
 # This method concerns table style properties such as the ones we set above.
 doc.expand_table_styles_to_direct_formatting()
-
-doc.save(ARTIFACTS_DIR + "Document.table_style_to_direct_formatting.docx")
+doc.save(ARTIFACTS_DIR + 'Document.table_style_to_direct_formatting.docx')
 ```
 
 ### See Also

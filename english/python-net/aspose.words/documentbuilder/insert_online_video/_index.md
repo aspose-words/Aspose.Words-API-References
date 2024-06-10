@@ -168,11 +168,9 @@ Shows how to insert an online video into a document using a URL.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.insert_online_video("https://youtu.be/t_1LYZ102RA", 360, 270)
-
+builder.insert_online_video('https://youtu.be/t_1LYZ102RA', 360, 270)
 # We can watch the video from Microsoft Word by clicking on the shape.
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_video_with_url.docx")
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_video_with_url.docx')
 ```
 
 Shows how to insert an online video into a document.
@@ -180,17 +178,13 @@ Shows how to insert an online video into a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-video_url = "https://vimeo.com/52477838"
-
+video_url = 'https://vimeo.com/52477838'
 # Insert a shape that plays a video from the web when clicked in Microsoft Word.
 # This rectangular shape will contain an image based on the first frame of the linked video
 # and a "play button" visual prompt. The video has an aspect ratio of 16:9.
 # We will set the shape's size to that ratio, so the image does not appear stretched.
-builder.insert_online_video(video_url, aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, 0,
-    aw.drawing.RelativeVerticalPosition.TOP_MARGIN, 0, 320, 180, aw.drawing.WrapType.SQUARE)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_online_video.docx")
+builder.insert_online_video(video_url, aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, 0, aw.drawing.RelativeVerticalPosition.TOP_MARGIN, 0, 320, 180, aw.drawing.WrapType.SQUARE)
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_online_video.docx')
 ```
 
 Shows how to insert an online video into a document with a custom thumbnail.
@@ -198,32 +192,21 @@ Shows how to insert an online video into a document with a custom thumbnail.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-video_url = "https://vimeo.com/52477838"
-video_embed_code = ("<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" " +
-                    "title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>")
-
-with open(IMAGE_DIR + "Logo.jpg", "rb") as file:
+video_url = 'https://vimeo.com/52477838'
+video_embed_code = '<iframe src="https://player.vimeo.com/video/52477838" width="640" height="360" frameborder="0" ' + 'title="Aspose" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+with open(IMAGE_DIR + 'Logo.jpg', 'rb') as file:
     thumbnail_image_bytes = file.read()
-
-    image = drawing.Image.from_stream(io.BytesIO(thumbnail_image_bytes))
-
+    image = aspose.pydrawing.Image.from_stream(io.BytesIO(thumbnail_image_bytes))
     # Below are two ways of creating a shape with a custom thumbnail, which links to an online video
     # that will play when we click on the shape in Microsoft Word.
     # 1 -  Insert an inline shape at the builder's node insertion cursor:
     builder.insert_online_video(video_url, video_embed_code, thumbnail_image_bytes, image.width, image.height)
-
     builder.insert_break(aw.BreakType.PAGE_BREAK)
-
     # 2 -  Insert a floating shape:
     left = builder.page_setup.right_margin - image.width
     top = builder.page_setup.bottom_margin - image.height
-
-    builder.insert_online_video(video_url, video_embed_code, thumbnail_image_bytes,
-        aw.drawing.RelativeHorizontalPosition.RIGHT_MARGIN, left, aw.drawing.RelativeVerticalPosition.BOTTOM_MARGIN, top,
-        image.width, image.height, aw.drawing.WrapType.SQUARE)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_online_video_custom_thumbnail.docx")
+    builder.insert_online_video(video_url, video_embed_code, thumbnail_image_bytes, aw.drawing.RelativeHorizontalPosition.RIGHT_MARGIN, left, aw.drawing.RelativeVerticalPosition.BOTTOM_MARGIN, top, image.width, image.height, aw.drawing.WrapType.SQUARE)
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_online_video_custom_thumbnail.docx')
 ```
 
 ## See Also

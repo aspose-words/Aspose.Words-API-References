@@ -41,14 +41,11 @@ Shows how to set the numeral format used when saving to PDF.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.locale_id = 4096 # CultureInfo("ar-AR").lcid
-builder.writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100")
-
+builder.font.locale_id = 4096  # CultureInfo("ar-AR").lcid
+builder.writeln('1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-
 # Set the "numeral_format" property to "NumeralFormat.ARABIC_INDIC" to
 # use glyphs from the U+0660 to U+0669 range as numbers.
 # Set the "numeral_format" property to "NumeralFormat.CONTEXT" to
@@ -58,8 +55,7 @@ options = aw.saving.PdfSaveOptions()
 # Set the "numeral_format" property to "NumeralFormat.EUROPEAN" to use european numerals.
 # Set the "numeral_format" property to "NumeralFormat.SYSTEM" to determine the symbol set from regional settings.
 options.numeral_format = numeral_format
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.set_numeral_format.pdf", options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.set_numeral_format.pdf', options)
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: TextBox class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.TextBox class. Defines attributes that specify how a text is displayed inside a shape"
 type: docs
-weight: 420
+weight: 440
 url: /python-net/aspose.words.drawing/textbox/
 ---
 
@@ -56,19 +56,15 @@ Shows how to set the orientation of text inside a text box.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 text_box_shape = builder.insert_shape(aw.drawing.ShapeType.TEXT_BOX, 150, 100)
 text_box = text_box_shape.text_box
-
 # Move the document builder to inside the TextBox and add text.
 builder.move_to(text_box_shape.last_paragraph)
-builder.writeln("Hello world!")
-builder.write("Hello again!")
-
+builder.writeln('Hello world!')
+builder.write('Hello again!')
 # Set the "layout_flow" property to set an orientation for the text contents of this text box.
 text_box.layout_flow = layout_flow
-
-doc.save(ARTIFACTS_DIR + "Shape.text_box_layout_flow.docx")
+doc.save(ARTIFACTS_DIR + 'Shape.text_box_layout_flow.docx')
 ```
 
 Shows how to get a text box to resize itself to fit its contents tightly.
@@ -76,19 +72,15 @@ Shows how to get a text box to resize itself to fit its contents tightly.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 text_box_shape = builder.insert_shape(aw.drawing.ShapeType.TEXT_BOX, 150, 100)
 text_box = text_box_shape.text_box
-
 # Apply these values to both these members to get the parent shape to fit
 # tightly around the text contents, ignoring the dimensions we have set.
 text_box.fit_shape_to_text = True
 text_box.text_box_wrap_mode = aw.drawing.TextBoxWrapMode.NONE
-
 builder.move_to(text_box_shape.last_paragraph)
-builder.write("Text fit tightly inside textbox.")
-
-doc.save(ARTIFACTS_DIR + "Shape.text_box_fit_shape_to_text.docx")
+builder.write('Text fit tightly inside textbox.')
+doc.save(ARTIFACTS_DIR + 'Shape.text_box_fit_shape_to_text.docx')
 ```
 
 Shows how to set internal margins for a text box.
@@ -96,7 +88,6 @@ Shows how to set internal margins for a text box.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert another textbox with specific margins.
 text_box_shape = builder.insert_shape(aw.drawing.ShapeType.TEXT_BOX, 100, 100)
 text_box = text_box_shape.text_box
@@ -104,11 +95,9 @@ text_box.internal_margin_top = 15
 text_box.internal_margin_bottom = 15
 text_box.internal_margin_left = 15
 text_box.internal_margin_right = 15
-
 builder.move_to(text_box_shape.last_paragraph)
-builder.write("Text placed according to textbox margins.")
-
-doc.save(ARTIFACTS_DIR + "Shape.text_box_margins.docx")
+builder.write('Text placed according to textbox margins.')
+doc.save(ARTIFACTS_DIR + 'Shape.text_box_margins.docx')
 ```
 
 ### See Also

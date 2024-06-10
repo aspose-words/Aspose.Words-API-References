@@ -26,8 +26,7 @@ def is_format_revision(self) -> bool:
 Shows how to check whether a paragraph is a format revision.
 
 ```python
-doc = aw.Document(MY_DIR + "Format revision.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Format revision.docx')
 # This paragraph is a "Format" revision, which occurs when we change the formatting of existing text
 # while tracking revisions in Microsoft Word via "Review" -> "Track changes".
 self.assertTrue(doc.first_section.body.first_paragraph.is_format_revision)

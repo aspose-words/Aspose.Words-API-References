@@ -30,10 +30,10 @@ def mirror_indents(self, value: bool):
 Show how to make left and right indents the same.
 
 ```python
-doc = aw.Document(file_name=MY_DIR + "Document.docx")
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 format = doc.first_section.body.paragraphs[0].paragraph_format
 format.mirror_indents = True
-doc.save(file_name=ARTIFACTS_DIR + "ParagraphFormat.MirrorIndents.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'ParagraphFormat.MirrorIndents.docx')
 ```
 
 ### See Also

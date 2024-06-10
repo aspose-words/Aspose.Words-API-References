@@ -29,6 +29,22 @@ def ignore_shapes(self, value: bool):
 
 ```
 
+### Examples
+
+Shows how to ignore shapes while replacing text.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
+builder.insert_shape(shape_type=aw.drawing.ShapeType.BALLOON, width=200, height=200)
+builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
+find_replace_options = aw.replacing.FindReplaceOptions()
+find_replace_options.ignore_shapes = True
+builder.document.range.replace(pattern='Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.', replacement='Lorem ipsum dolor sit amet, consectetur adipiscing elit.', options=find_replace_options)
+self.assertEqual('Lorem ipsum dolor sit amet, consectetur adipiscing elit.', builder.document.get_text().strip())
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

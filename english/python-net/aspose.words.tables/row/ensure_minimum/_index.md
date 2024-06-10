@@ -30,15 +30,13 @@ table = aw.tables.Table(doc)
 doc.first_section.body.append_child(table)
 row = aw.tables.Row(doc)
 table.append_child(row)
-
 # Rows contain cells, containing paragraphs with typical elements such as runs, shapes, and even other tables.
 # Our new row has none of these nodes, and we cannot add contents to it until it does.
 self.assertEqual(0, row.get_child_nodes(aw.NodeType.ANY, True).count)
-
-# Calling the "ensure_minimum" method on a table will ensure that
+# Calling the "EnsureMinimum" method on a table will ensure that
 # the table has at least one cell with an empty paragraph.
 row.ensure_minimum()
-row.first_cell.first_paragraph.append_child(aw.Run(doc, "Hello world!"))
+row.first_cell.first_paragraph.append_child(aw.Run(doc=doc, text='Hello world!'))
 ```
 
 ### See Also

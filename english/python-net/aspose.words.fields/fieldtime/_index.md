@@ -60,37 +60,26 @@ Inserts the current date and time.
 Shows how to display the current time using the TIME field.
 
 ```python
-def test_field_time(self):
-
+def field_time():
     doc = aw.Document()
     builder = aw.DocumentBuilder(doc)
-
     # By default, time is displayed in the "h:mm am/pm" format.
-    field = ExField.insert_field_time(builder, "")
-
-    self.assertEqual(" TIME ", field.get_field_code())
-
+    field = insert_field_time(builder, '')
+    self.assertEqual(' TIME ', field.get_field_code())
     # We can use the \@ flag to change the format of our displayed time.
-    field = ExField.insert_field_time(builder, "\\@ HHmm")
-
-    self.assertEqual(" TIME \\@ HHmm", field.get_field_code())
-
+    field = insert_field_time(builder, '\\@ HHmm')
+    self.assertEqual(' TIME \\@ HHmm', field.get_field_code())
     # We can adjust the format to get TIME field to also display the date, according to the Gregorian calendar.
-    field = ExField.insert_field_time(builder, "\\@ \"M/d/yyyy h mm:ss am/pm\"")
+    field = insert_field_time(builder, '\\@ "M/d/yyyy h mm:ss am/pm"')
+    self.assertEqual(' TIME \\@ "M/d/yyyy h mm:ss am/pm"', field.get_field_code())
+    doc.save(ARTIFACTS_DIR + 'Field.field_time.docx')
 
-    self.assertEqual(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\"", field.get_field_code())
-
-    doc.save(ARTIFACTS_DIR + "Field.field_time.docx")
-
-@staticmethod
 def insert_field_time(builder: aw.DocumentBuilder, format: str) -> aw.fields.FieldTime:
     """Use a document builder to insert a TIME field, insert a new paragraph and return the field."""
-
     field = builder.insert_field(aw.fields.FieldType.FIELD_TIME, True).as_field_time()
     builder.move_to(field.separator)
     builder.write(format)
     builder.move_to(field.start.parent_node)
-
     builder.insert_paragraph()
     return field
 ```

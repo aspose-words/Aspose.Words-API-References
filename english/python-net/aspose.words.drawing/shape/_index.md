@@ -5,7 +5,7 @@ articleTitle: Shape class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Shape class. Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture"
 type: docs
-weight: 340
+weight: 360
 url: /python-net/aspose.words.drawing/shape/
 ---
 
@@ -180,23 +180,18 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 Shows how to extract images from a document, and save them to the local file system as individual files.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
+doc = aw.Document(MY_DIR + 'Images.docx')
 # Get the collection of shapes from the document,
 # and save the image data of every shape with an image as a file to the local file system.
 shapes = doc.get_child_nodes(aw.NodeType.SHAPE, True)
-
 self.assertEqual(9, len([s for s in shapes if s.as_shape().has_image]))
-
 image_index = 0
 for shape in shapes:
     shape = shape.as_shape()
-
     if shape.has_image:
-
         # The image data of shapes may contain images of many possible image formats.
         # We can determine a file extension for each image automatically, based on its format.
-        image_file_name = f"File.extract_images.{image_index}{aw.FileFormatUtil.image_type_to_extension(shape.image_data.image_type)}"
+        image_file_name = f'File.extract_images.{image_index}{aw.FileFormatUtil.image_type_to_extension(shape.image_data.image_type)}'
         shape.image_data.save(ARTIFACTS_DIR + image_file_name)
         image_index += 1
 ```
@@ -206,17 +201,15 @@ Shows how to insert a floating image to the center of a page.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-shape = builder.insert_image(IMAGE_DIR + "Logo.jpg")
+shape = builder.insert_image(IMAGE_DIR + 'Logo.jpg')
 shape.wrap_type = aw.drawing.WrapType.NONE
 shape.behind_text = True
 shape.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.PAGE
 shape.relative_vertical_position = aw.drawing.RelativeVerticalPosition.PAGE
 shape.horizontal_alignment = aw.drawing.HorizontalAlignment.CENTER
 shape.vertical_alignment = aw.drawing.VerticalAlignment.CENTER
-
-doc.save(ARTIFACTS_DIR + "Image.create_floating_page_center.docx")
+doc.save(ARTIFACTS_DIR + 'Image.create_floating_page_center.docx')
 ```
 
 Shows how to delete all shapes from a document.
@@ -224,39 +217,30 @@ Shows how to delete all shapes from a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert two shapes along with a group shape with another shape inside it.
-builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 400, 200)
-builder.insert_shape(aw.drawing.ShapeType.STAR, 300, 300)
-
+builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=400, height=200)
+builder.insert_shape(shape_type=aw.drawing.ShapeType.STAR, width=300, height=300)
 group = aw.drawing.GroupShape(doc)
-group.bounds = drawing.RectangleF(100, 50, 200, 100)
-group.coord_origin = drawing.Point(-1000, -500)
-
+group.bounds = aspose.pydrawing.RectangleF(100, 50, 200, 100)
+group.coord_origin = aspose.pydrawing.Point(-1000, -500)
 sub_shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.CUBE)
 sub_shape.width = 500
 sub_shape.height = 700
 sub_shape.left = 0
 sub_shape.top = 0
-
 group.append_child(sub_shape)
 builder.insert_node(group)
-
 self.assertEqual(3, doc.get_child_nodes(aw.NodeType.SHAPE, True).count)
 self.assertEqual(1, doc.get_child_nodes(aw.NodeType.GROUP_SHAPE, True).count)
-
 # Remove all Shape nodes from the document.
 shapes = doc.get_child_nodes(aw.NodeType.SHAPE, True)
 shapes.clear()
-
 # All shapes are gone, but the group shape is still in the document.
 self.assertEqual(1, doc.get_child_nodes(aw.NodeType.GROUP_SHAPE, True).count)
 self.assertEqual(0, doc.get_child_nodes(aw.NodeType.SHAPE, True).count)
-
 # Remove all group shapes separately.
 group_shapes = doc.get_child_nodes(aw.NodeType.GROUP_SHAPE, True)
 group_shapes.clear()
-
 self.assertEqual(0, doc.get_child_nodes(aw.NodeType.GROUP_SHAPE, True).count)
 self.assertEqual(0, doc.get_child_nodes(aw.NodeType.SHAPE, True).count)
 ```

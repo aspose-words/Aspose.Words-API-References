@@ -49,43 +49,35 @@ Shows how to clone a document's style.
 
 ```python
 doc = aw.Document()
-
-# The add_copy method creates a copy of the specified style and
+# The AddCopy method creates a copy of the specified style and
 # automatically generates a new name for the style, such as "Heading 1_0".
-new_style = doc.styles.add_copy(doc.styles.get_by_name("Heading 1"))
-
-# Use the style's "name" property to change the style's identifying name.
-new_style.name = "My Heading 1"
-
+new_style = doc.styles.add_copy(doc.styles.get_by_name('Heading 1'))
+# Use the style's "Name" property to change the style's identifying name.
+new_style.name = 'My Heading 1'
 # Our document now has two identical looking styles with different names.
 # Changing settings of one of the styles do not affect the other.
-new_style.font.color = drawing.Color.red
-
-self.assertEqual("My Heading 1", new_style.name)
-self.assertEqual("Heading 1", doc.styles.get_by_name("Heading 1").name)
-
-self.assertEqual(doc.styles.get_by_name("Heading 1").type, new_style.type)
-self.assertEqual(doc.styles.get_by_name("Heading 1").font.name, new_style.font.name)
-self.assertEqual(doc.styles.get_by_name("Heading 1").font.size, new_style.font.size)
-self.assertNotEqual(doc.styles.get_by_name("Heading 1").font.color, new_style.font.color)
+new_style.font.color = aspose.pydrawing.Color.red
+self.assertEqual('My Heading 1', new_style.name)
+self.assertEqual('Heading 1', doc.styles.get_by_name('Heading 1').name)
+self.assertEqual(doc.styles.get_by_name('Heading 1').type, new_style.type)
+self.assertEqual(doc.styles.get_by_name('Heading 1').font.name, new_style.font.name)
+self.assertEqual(doc.styles.get_by_name('Heading 1').font.size, new_style.font.size)
+self.assertNotEqual(doc.styles.get_by_name('Heading 1').font.color, new_style.font.color)
 ```
 
 Shows how to import a style from one document into a different document.
 
 ```python
 src_doc = aw.Document()
-
 # Create a custom style for the source document.
-src_style = src_doc.styles.add(aw.StyleType.PARAGRAPH, "MyStyle")
-src_style.font.color = drawing.Color.red
-
+src_style = src_doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle')
+src_style.font.color = aspose.pydrawing.Color.red
 # Import the source document's custom style into the destination document.
 dst_doc = aw.Document()
 new_style = dst_doc.styles.add_copy(src_style)
-
 # The imported style has an appearance identical to its source style.
-self.assertEqual("MyStyle", new_style.name)
-self.assertEqual(drawing.Color.red.to_argb(), new_style.font.color.to_argb())
+self.assertEqual('MyStyle', new_style.name)
+self.assertEqual(aspose.pydrawing.Color.red.to_argb(), new_style.font.color.to_argb())
 ```
 
 ### See Also

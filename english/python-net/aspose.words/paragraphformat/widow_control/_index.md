@@ -32,7 +32,6 @@ Shows how to enable widow/orphan control for a paragraph.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # When we write the text that does not fit onto one page, one line may spill over onto the next page.
 # The single line that ends up on the next page is called an "Orphan",
 # and the previous line where the orphan broke off is called a "Widow".
@@ -43,13 +42,10 @@ builder = aw.DocumentBuilder(doc)
 # Every paragraph has this setting accessible in Microsoft Word via Home -> Paragraph -> Paragraph Settings
 # (button on bottom right hand corner of "Paragraph" tab) -> "Widow/Orphan control".
 builder.paragraph_format.widow_control = widow_control
-
 # Insert text that produces an orphan and a widow.
 builder.font.size = 68
-builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-
-doc.save(ARTIFACTS_DIR + "ParagraphFormat.widow_control.docx")
+builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' + 'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+doc.save(ARTIFACTS_DIR + 'ParagraphFormat.widow_control.docx')
 ```
 
 ### See Also

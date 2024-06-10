@@ -28,24 +28,19 @@ Specifies how headers and footers are exported to HTML, MHTML or EPUB.
 Shows how to omit headers/footers when saving a document to HTML.
 
 ```python
-doc = aw.Document(MY_DIR + "Header and footer types.docx")
-
-# This document contains headers and footers. We can access them via the "headers_footers" collection.
-self.assertEqual("First header", doc.first_section.headers_footers[aw.HeaderFooterType.HEADER_FIRST].get_text().strip())
-
+doc = aw.Document(file_name=MY_DIR + 'Header and footer types.docx')
+# This document contains headers and footers. We can access them via the "HeadersFooters" collection.
+self.assertEqual('First header', doc.first_section.headers_footers.get_by_header_footer_type(aw.HeaderFooterType.HEADER_FIRST).get_text().strip())
 # Formats such as .html do not split the document into pages, so headers/footers will not function the same way
 # they would when we open the document as a .docx using Microsoft Word.
 # If we convert a document with headers/footers to html, the conversion will assimilate the headers/footers into body text.
 # We can use a SaveOptions object to omit headers/footers while converting to html.
 save_options = aw.saving.HtmlSaveOptions(aw.SaveFormat.HTML)
 save_options.export_headers_footers_mode = aw.saving.ExportHeadersFootersMode.NONE
-
-doc.save(ARTIFACTS_DIR + "HeaderFooter.export_mode.html", save_options)
-
+doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.ExportMode.html', save_options=save_options)
 # Open our saved document and verify that it does not contain the header's text
-doc = aw.Document(ARTIFACTS_DIR + "HeaderFooter.export_mode.html")
-
-self.assertNotIn("First header", doc.range.text)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'HeaderFooter.ExportMode.html')
+self.assertFalse('First header' in doc.range.text)
 ```
 
 ### See Also

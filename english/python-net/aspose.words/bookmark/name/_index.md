@@ -38,19 +38,16 @@ Shows how to insert a bookmark.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # A valid bookmark has a name, a BookmarkStart, and a BookmarkEnd node.
 # Any whitespace in the names of bookmarks will be converted to underscores if we open the saved document with Microsoft Word.
 # If we highlight the bookmark's name in Microsoft Word via Insert -> Links -> Bookmark, and press "Go To",
 # the cursor will jump to the text enclosed between the BookmarkStart and BookmarkEnd nodes.
-builder.start_bookmark("My Bookmark")
-builder.write("Contents of MyBookmark.")
-builder.end_bookmark("My Bookmark")
-
+builder.start_bookmark('My Bookmark')
+builder.write('Contents of MyBookmark.')
+builder.end_bookmark('My Bookmark')
 # Bookmarks are stored in this collection.
-self.assertEqual("My Bookmark", doc.range.bookmarks[0].name)
-
-doc.save(ARTIFACTS_DIR + "Bookmarks.insert.docx")
+self.assertEqual('My Bookmark', doc.range.bookmarks[0].name)
+doc.save(file_name=ARTIFACTS_DIR + 'Bookmarks.Insert.docx')
 ```
 
 ### See Also

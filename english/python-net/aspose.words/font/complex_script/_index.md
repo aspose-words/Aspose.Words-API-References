@@ -33,12 +33,9 @@ Shows how to add text that is always treated as complex script.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.font.complex_script = True
-
-builder.writeln("Text treated as complex script.")
-
-doc.save(ARTIFACTS_DIR + "Font.complex_script.docx")
+builder.writeln('Text treated as complex script.')
+doc.save(file_name=ARTIFACTS_DIR + 'Font.ComplexScript.docx')
 ```
 
 ### See Also

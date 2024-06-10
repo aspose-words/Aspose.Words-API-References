@@ -49,18 +49,13 @@ Depends on the value of [HtmlFixedSaveOptions.page_horizontal_alignment](../page
 Shows how to adjust page margins when saving a document to HTML.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
-
+doc = aw.Document(MY_DIR + 'Document.docx')
 save_options = aw.saving.HtmlFixedSaveOptions()
 save_options.page_margins = 15
-
-doc.save(ARTIFACTS_DIR + "HtmlFixedSaveOptions.page_margins.html", save_options)
-
-with open(ARTIFACTS_DIR + "HtmlFixedSaveOptions.page_margins/styles.css", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.page_margins.html', save_options)
+with open(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.page_margins/styles.css', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
-self.assertRegex(out_doc_contents,
-    "[.]awpage { position:relative; border:solid 1pt black; margin:15pt auto 15pt auto; overflow:hidden; }")
+self.assertRegex(out_doc_contents, '[.]awpage { position:relative; border:solid 1pt black; margin:15pt auto 15pt auto; overflow:hidden; }')
 ```
 
 ### See Also

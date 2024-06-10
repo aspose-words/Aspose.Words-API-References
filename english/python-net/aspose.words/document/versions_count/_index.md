@@ -5,7 +5,7 @@ articleTitle: versions_count property
 second_title: Aspose.Words for Python
 description: "Document.versions_count property. Gets the number of document versions that was stored in the DOC document."
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.words/document/versions_count/
 ---
 
@@ -38,14 +38,11 @@ If you save this document using Aspose.Words, the document will be saved without
 Shows how to work with the versions count feature of older Microsoft Word documents.
 
 ```python
-doc = aw.Document(MY_DIR + "Versions.doc")
-
+doc = aw.Document(file_name=MY_DIR + 'Versions.doc')
 # We can read this property of a document, but we cannot preserve it while saving.
 self.assertEqual(4, doc.versions_count)
-
-doc.save(ARTIFACTS_DIR + "Document.versions_count.doc")
-doc = aw.Document(ARTIFACTS_DIR + "Document.versions_count.doc")
-
+doc.save(file_name=ARTIFACTS_DIR + 'Document.VersionsCount.doc')
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'Document.VersionsCount.doc')
 self.assertEqual(0, doc.versions_count)
 ```
 

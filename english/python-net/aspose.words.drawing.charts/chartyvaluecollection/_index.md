@@ -41,38 +41,33 @@ the appropriate methods of the [ChartSeries](../chartseries/) class can be used.
 Shows how to get chart series data.
 
 ```python
-doc = Document()
-builder = DocumentBuilder()
-
-shape = builder.insert_chart(ChartType.COLUMN, 432, 252)
+doc = aw.Document()
+builder = aw.DocumentBuilder()
+shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=432, height=252)
 chart = shape.chart
 series = chart.series[0]
-
-min_value = sys.float_info.max
+min_value = 1.7976931348623157e+308
 min_value_index = 0
-max_value = sys.float_info.max
+max_value = -1.7976931348623157e+308
 max_value_index = 0
-
-for i in range(0, series.y_values.count):
+i = 0
+while i < series.y_values.count:
     # Clear individual format of all data points.
-    # Data points and data values are one - to - one in column charts.
+    # Data points and data values are one-to-one in column charts.
     series.data_points[i].clear_format()
-
     # Get Y value.
     y_value = series.y_values[i].double_value
     if y_value < min_value:
         min_value = y_value
         min_value_index = i
-
     if y_value > max_value:
         max_value = y_value
         max_value_index = i
-
+    i += 1
 # Change colors of the max and min values.
-series.data_points[min_value_index].format.fill.fore_color = Color.red
-series.data_points[max_value_index].format.fill.fore_color = Color.green
-
-doc.save(ARTIFACTS_DIR + "Charts.GetChartSeriesData.docx");
+series.data_points[min_value_index].format.fill.fore_color = aspose.pydrawing.Color.red
+series.data_points[max_value_index].format.fill.fore_color = aspose.pydrawing.Color.green
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.GetChartSeriesData.docx')
 ```
 
 ### See Also

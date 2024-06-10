@@ -53,6 +53,7 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [date_time](./date_time/) | Gets the date and time that the comment was made. |
+| [date_time_utc](./date_time_utc/) | Gets the UTC date and time that the comment was made. |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [done](./done/) | Gets or sets flag indicating that the comment has been marked done. |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
@@ -122,28 +123,21 @@ Shows how to add a comment to a document, and then reply to it.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-comment = aw.Comment(doc, "John Doe", "J.D.", datetime.now())
-comment.set_text("My comment.")
-
+comment = aw.Comment(doc, 'John Doe', 'J.D.', datetime.now())
+comment.set_text('My comment.')
 # Place the comment at a node in the document's body.
 # This comment will show up at the location of its paragraph,
 # outside the right-side margin of the page, and with a dotted line connecting it to its paragraph.
 builder.current_paragraph.append_child(comment)
-
 # Add a reply, which will show up under its parent comment.
-comment.add_reply("Joe Bloggs", "J.B.", datetime.now(), "New reply")
-
+comment.add_reply('Joe Bloggs', 'J.B.', datetime.now(), 'New reply')
 # Comments and replies are both Comment nodes.
 self.assertEqual(2, doc.get_child_nodes(aw.NodeType.COMMENT, True).count)
-
 # Comments that do not reply to other comments are "top-level". They have no ancestor comments.
 self.assertIsNone(comment.ancestor)
-
 # Replies have an ancestor top-level comment.
 self.assertEqual(comment, comment.replies[0].ancestor)
-
-doc.save(ARTIFACTS_DIR + "Comment.add_comment_with_reply.docx")
+doc.save(ARTIFACTS_DIR + 'Comment.add_comment_with_reply.docx')
 ```
 
 Shows how to add a comment to a paragraph.
@@ -151,17 +145,14 @@ Shows how to add a comment to a paragraph.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
-
-comment = aw.Comment(doc, "John Doe", "JD", date.today())
+builder.write('Hello world!')
+comment = aw.Comment(doc, 'John Doe', 'JD', date.today())
 builder.current_paragraph.append_child(comment)
 builder.move_to(comment.append_child(aw.Paragraph(doc)))
-builder.write("Comment text.")
-
+builder.write('Comment text.')
 self.assertEqual(date.today(), comment.date_time.date())
-
 # In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
-doc.save(ARTIFACTS_DIR + "InlineStory.add_comment.docx")
+doc.save(ARTIFACTS_DIR + 'InlineStory.add_comment.docx')
 ```
 
 ### See Also

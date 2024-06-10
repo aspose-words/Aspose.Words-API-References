@@ -73,24 +73,19 @@ Shows how to insert checkboxes into the document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert checkboxes of varying sizes and default checked statuses.
-builder.write("Unchecked check box of a default size: ")
-builder.insert_check_box("", False, False, 0)
+builder.write('Unchecked check box of a default size: ')
+builder.insert_check_box(name='', default_value=False, checked_value=False, size=0)
 builder.insert_paragraph()
-
-builder.write("Large checked check box: ")
-builder.insert_check_box("CheckBox_Default", True, True, 50)
+builder.write('Large checked check box: ')
+builder.insert_check_box(name='CheckBox_Default', default_value=True, checked_value=True, size=50)
 builder.insert_paragraph()
-
 # Form fields have a name length limit of 20 characters.
-builder.write("Very large checked check box: ")
-builder.insert_check_box("CheckBox_OnlyCheckedValue", True, 100)
-
-self.assertEqual("CheckBox_OnlyChecked", doc.range.form_fields[2].name)
-
+builder.write('Very large checked check box: ')
+builder.insert_check_box(name='CheckBox_OnlyCheckedValue', checked_value=True, size=100)
+self.assertEqual('CheckBox_OnlyChecked', doc.range.form_fields[2].name)
 # We can interact with these check boxes in Microsoft Word by double clicking them.
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_check_box.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertCheckBox.docx')
 ```
 
 ## See Also

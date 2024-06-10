@@ -31,6 +31,18 @@ The default value is [PdfPageLayout.SINGLE_PAGE](../../pdfpagelayout/#SINGLE_PAG
 
 
 
+### Examples
+
+Shows how to display pages when opened in a PDF reader.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Big document.docx')
+# Display the pages two at a time, with odd-numbered pages on the left.
+save_options = aw.saving.PdfSaveOptions()
+save_options.page_layout = aw.saving.PdfPageLayout.TWO_PAGE_LEFT
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.PageLayout.pdf', save_options=save_options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "Comment.accept_start method. Accepts a visitor for visiting the start of the comment."
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words/comment/accept_start/
 ---
 

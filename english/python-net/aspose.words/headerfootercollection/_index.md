@@ -71,62 +71,48 @@ Shows how to create a header and a footer.
 
 ```python
 doc = aw.Document()
-
 # Create a header and append a paragraph to it. The text in that paragraph
 # will appear at the top of every page of this section, above the main body text.
 header = aw.HeaderFooter(doc, aw.HeaderFooterType.HEADER_PRIMARY)
 doc.first_section.headers_footers.add(header)
-
-para = header.append_paragraph("My header.")
-
+para = header.append_paragraph('My header.')
 self.assertTrue(header.is_header)
 self.assertTrue(para.is_end_of_header_footer)
-
 # Create a footer and append a paragraph to it. The text in that paragraph
 # will appear at the bottom of every page of this section, below the main body text.
 footer = aw.HeaderFooter(doc, aw.HeaderFooterType.FOOTER_PRIMARY)
 doc.first_section.headers_footers.add(footer)
-
-para = footer.append_paragraph("My footer.")
-
+para = footer.append_paragraph('My footer.')
 self.assertFalse(footer.is_header)
 self.assertTrue(para.is_end_of_header_footer)
-
 self.assertEqual(footer, para.parent_story)
 self.assertEqual(footer.parent_section, para.parent_section)
 self.assertEqual(footer.parent_section, header.parent_section)
-
-doc.save(ARTIFACTS_DIR + "HeaderFooter.create.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.Create.docx')
 ```
 
 Shows how to delete all footers from a document.
 
 ```python
-doc = aw.Document(MY_DIR + "Header and footer types.docx")
-
+doc = aw.Document(MY_DIR + 'Header and footer types.docx')
 # Iterate through each section and remove footers of every kind.
 for section in doc:
     section = section.as_section()
-
     # There are three kinds of footer and header types.
     # 1 -  The "First" header/footer, which only appears on the first page of a section.
     footer = section.headers_footers[aw.HeaderFooterType.FOOTER_FIRST]
     if footer is not None:
         footer.remove()
-
     # 2 -  The "Primary" header/footer, which appears on odd pages.
     footer = section.headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY]
     if footer is not None:
         footer.remove()
-
     # 3 -  The "Even" header/footer, which appears on even pages.
     footer = section.headers_footers[aw.HeaderFooterType.FOOTER_EVEN]
     if footer is not None:
         footer.remove()
-
     self.assertEqual(0, len([node for node in section.headers_footers if not node.as_header_footer().is_header]))
-
-doc.save(ARTIFACTS_DIR + "HeaderFooter.remove_footers.docx")
+doc.save(ARTIFACTS_DIR + 'HeaderFooter.remove_footers.docx')
 ```
 
 ### See Also

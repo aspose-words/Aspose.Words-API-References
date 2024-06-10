@@ -55,13 +55,11 @@ Shows how to use relative font sizes when saving to .html.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Default font size, ")
+builder.writeln('Default font size, ')
 builder.font.size = 24
-builder.writeln("2x default font size,")
+builder.writeln('2x default font size,')
 builder.font.size = 96
-builder.write("8x default font size")
-
+builder.write('8x default font size')
 # When we save the document to HTML, we can pass a SaveOptions object
 # to determine whether to use relative or absolute font sizes.
 # Set the "export_relative_font_size" flag to "True" to declare font sizes
@@ -70,42 +68,13 @@ builder.write("8x default font size")
 # using the "pt" measurement unit, which is the font's absolute size in points.
 options = aw.saving.HtmlSaveOptions()
 options.export_relative_font_size = export_relative_font_size
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.relative_font_size.html", options)
-
-with open(ARTIFACTS_DIR + "HtmlSaveOptions.relative_font_size.html", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.relative_font_size.html', options)
+with open(ARTIFACTS_DIR + 'HtmlSaveOptions.relative_font_size.html', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
 if export_relative_font_size:
-    self.assertIn(
-        "<body style=\"font-family:'Times New Roman'\">" +
-            "<div>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-                    "<span>Default font size, </span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:2em\">" +
-                    "<span>2x default font size,</span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:8em\">" +
-                    "<span>8x default font size</span>" +
-                "</p>" +
-            "</div>" +
-        "</body>", out_doc_contents)
+    self.assertIn('<body style="font-family:\'Times New Roman\'">' + '<div>' + '<p style="margin-top:0pt; margin-bottom:0pt">' + '<span>Default font size, </span>' + '</p>' + '<p style="margin-top:0pt; margin-bottom:0pt; font-size:2em">' + '<span>2x default font size,</span>' + '</p>' + '<p style="margin-top:0pt; margin-bottom:0pt; font-size:8em">' + '<span>8x default font size</span>' + '</p>' + '</div>' + '</body>', out_doc_contents)
 else:
-    self.assertIn(
-        "<body style=\"font-family:'Times New Roman'; font-size:12pt\">" +
-            "<div>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-                    "<span>Default font size, </span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:24pt\">" +
-                    "<span>2x default font size,</span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:96pt\">" +
-                    "<span>8x default font size</span>" +
-                "</p>" +
-            "</div>" +
-        "</body>", out_doc_contents)
+    self.assertIn('<body style="font-family:\'Times New Roman\'; font-size:12pt">' + '<div>' + '<p style="margin-top:0pt; margin-bottom:0pt">' + '<span>Default font size, </span>' + '</p>' + '<p style="margin-top:0pt; margin-bottom:0pt; font-size:24pt">' + '<span>2x default font size,</span>' + '</p>' + '<p style="margin-top:0pt; margin-bottom:0pt; font-size:96pt">' + '<span>8x default font size</span>' + '</p>' + '</div>' + '</body>', out_doc_contents)
 ```
 
 ### See Also

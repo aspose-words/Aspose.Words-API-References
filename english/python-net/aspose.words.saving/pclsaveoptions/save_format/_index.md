@@ -32,13 +32,11 @@ def save_format(self, value: aspose.words.SaveFormat):
 Shows how to rasterize complex elements while saving a document to PCL.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 save_options = aw.saving.PclSaveOptions()
 save_options.save_format = aw.SaveFormat.PCL
 save_options.rasterize_transformed_elements = True
-
-doc.save(ARTIFACTS_DIR + "PclSaveOptions.rasterize_elements.pcl", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PclSaveOptions.RasterizeElements.pcl', save_options=save_options)
 ```
 
 ### See Also

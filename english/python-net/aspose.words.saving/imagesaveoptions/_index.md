@@ -82,28 +82,21 @@ Renders a page of a Word document into an image with transparent or colored back
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.name = "Times New Roman"
+builder.font.name = 'Times New Roman'
 builder.font.size = 24
-builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-
-builder.insert_image(IMAGE_DIR + "Logo.jpg")
-
+builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+builder.insert_image(IMAGE_DIR + 'Logo.jpg')
 # Create an "ImageSaveOptions" object which we can pass to the document's "save" method
 # to modify the way in which that method renders the document into an image.
 img_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-
 # Set the "paper_color" property to a transparent color to apply a transparent
 # background to the document while rendering it to an image.
 img_options.paper_color = drawing.Color.transparent
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.paper_color.transparent.png", img_options)
-
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.paper_color.transparent.png', img_options)
 # Set the "paper_color" property to an opaque color to apply that color
 # as the background of the document as we render it to an image.
 img_options.paper_color = drawing.Color.light_coral
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.paper_color.light_coral.png", img_options)
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.paper_color.light_coral.png', img_options)
 ```
 
 Shows how to configure compression while saving a document as a JPEG.
@@ -111,27 +104,20 @@ Shows how to configure compression while saving a document as a JPEG.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.insert_image(IMAGE_DIR + "Logo.jpg")
-
+builder.insert_image(IMAGE_DIR + 'Logo.jpg')
 # Create an "ImageSaveOptions" object which we can pass to the document's "save" method
 # to modify the way in which that method renders the document into an image.
 image_options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-
 # Set the "jpeg_quality" property to "10" to use stronger compression when rendering the document.
 # This will reduce the file size of the document, but the image will display more prominent compression artifacts.
 image_options.jpeg_quality = 10
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.jpeg_quality.high_compression.jpg", image_options)
-
-self.assertGreater(20000, os.path.getsize(ARTIFACTS_DIR + "ImageSaveOptions.jpeg_quality.high_compression.jpg"))
-
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.jpeg_quality.high_compression.jpg', image_options)
+self.assertGreater(20000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.jpeg_quality.high_compression.jpg'))
 # Set the "jpeg_quality" property to "100" to use weaker compression when rending the document.
 # This will improve the quality of the image at the cost of an increased file size.
 image_options.jpeg_quality = 100
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.jpeg_quality.high_quality.jpg", image_options)
-
-self.assertLess(40000, os.path.getsize(ARTIFACTS_DIR + "ImageSaveOptions.jpeg_quality.high_quality.jpg"))
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.jpeg_quality.high_quality.jpg', image_options)
+self.assertLess(40000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.jpeg_quality.high_quality.jpg'))
 ```
 
 Shows how to specify a resolution while rendering a document to PNG.
@@ -139,40 +125,27 @@ Shows how to specify a resolution while rendering a document to PNG.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.name = "Times New Roman"
+builder.font.name = 'Times New Roman'
 builder.font.size = 24
-builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-
-builder.insert_image(IMAGE_DIR + "Logo.jpg")
-
+builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+builder.insert_image(IMAGE_DIR + 'Logo.jpg')
 # Create an "ImageSaveOptions" object which we can pass to the document's "save" method
 # to modify the way in which that method renders the document into an image.
 options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-
 # Set the "resolution" property to "72" to render the document in 72dpi.
 options.vertical_resolution = 72
 options.horizontal_resolution = 72
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.resolution.72dpi.png", options)
-
-self.assertGreater(120000, os.path.getsize(ARTIFACTS_DIR + "ImageSaveOptions.resolution.72dpi.png"))
-
-image = drawing.Image.from_file(ARTIFACTS_DIR + "ImageSaveOptions.resolution.72dpi.png")
-
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.72dpi.png', options)
+self.assertGreater(120000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.72dpi.png'))
+image = aspose.pydrawing.Image.from_file(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.72dpi.png')
 self.assertEqual(612, image.width)
 self.assertEqual(792, image.height)
-
 # Set the "resolution" property to "300" to render the document in 300dpi.
 options.vertical_resolution = 300
 options.horizontal_resolution = 300
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.resolution.300dpi.png", options)
-
-self.assertLess(700000, os.path.getsize(ARTIFACTS_DIR + "ImageSaveOptions.resolution.300dpi.png"))
-
-image = drawing.Image.from_file(ARTIFACTS_DIR + "ImageSaveOptions.resolution.300dpi.png")
-
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.300dpi.png', options)
+self.assertLess(700000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.300dpi.png'))
+image = aspose.pydrawing.Image.from_file(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.300dpi.png')
 self.assertEqual(2550, image.width)
 self.assertEqual(3300, image.height)
 ```

@@ -47,16 +47,13 @@ Shows how decide whether to preserve section structure/page setup information wh
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Section 1")
+builder.write('Section 1')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
-builder.write("Section 2")
-
+builder.write('Section 2')
 page_setup = doc.sections[0].page_setup
 page_setup.top_margin = 36.0
 page_setup.bottom_margin = 36.0
 page_setup.paper_size = aw.PaperSize.A5
-
 # When saving the document to HTML, we can pass a SaveOptions object
 # to decide whether to preserve or discard page setup settings.
 # If we set the "export_page_setup" flag to "True", the output HTML document will contain our page setup configuration.
@@ -64,35 +61,15 @@ page_setup.paper_size = aw.PaperSize.A5
 # for the first section, and both sections will look identical.
 options = aw.saving.HtmlSaveOptions()
 options.export_page_setup = export_page_setup
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.export_page_setup.html", options)
-
-with open(ARTIFACTS_DIR + "HtmlSaveOptions.export_page_setup.html", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.export_page_setup.html', options)
+with open(ARTIFACTS_DIR + 'HtmlSaveOptions.export_page_setup.html', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
 if export_page_setup:
-    self.assertIn(
-        "<style type=\"text/css\">" +
-            "@page Section1 { size:419.55pt 595.3pt; margin:36pt 70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
-            "@page Section2 { size:612pt 792pt; margin:70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
-            "div.Section1 { page:Section1 }div.Section2 { page:Section2 }" +
-        "</style>", out_doc_contents)
-
-    self.assertIn(
-        "<div class=\"Section1\">" +
-            "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-                "<span>Section 1</span>" +
-            "</p>" +
-        "</div>", out_doc_contents)
+    self.assertIn('<style type="text/css">' + '@page Section1 { size:419.55pt 595.3pt; margin:36pt 70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }' + '@page Section2 { size:612pt 792pt; margin:70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }' + 'div.Section1 { page:Section1 }div.Section2 { page:Section2 }' + '</style>', out_doc_contents)
+    self.assertIn('<div class="Section1">' + '<p style="margin-top:0pt; margin-bottom:0pt">' + '<span>Section 1</span>' + '</p>' + '</div>', out_doc_contents)
 else:
-    self.assertNotIn("style type=\"text/css\">", out_doc_contents)
-
-    self.assertIn(
-        "<div>" +
-            "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-                "<span>Section 1</span>" +
-            "</p>" +
-        "</div>", out_doc_contents)
+    self.assertNotIn('style type="text/css">', out_doc_contents)
+    self.assertIn('<div>' + '<p style="margin-top:0pt; margin-bottom:0pt">' + '<span>Section 1</span>' + '</p>' + '</div>', out_doc_contents)
 ```
 
 ### See Also

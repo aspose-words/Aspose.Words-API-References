@@ -40,19 +40,13 @@ The zero-based index of the node within the collection, if found; otherwise, -1.
 Shows how to get the index of a node in a collection.
 
 ```python
-doc = aw.Document(MY_DIR + "Tables.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
 table = doc.first_section.body.tables[0]
 all_tables = doc.get_child_nodes(aw.NodeType.TABLE, True)
-
 self.assertEqual(0, all_tables.index_of(table))
-
 row = table.rows[2]
-
 self.assertEqual(2, table.index_of(row))
-
 cell = row.last_cell
-
 self.assertEqual(4, row.index_of(cell))
 ```
 

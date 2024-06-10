@@ -38,18 +38,13 @@ Shows how to recognize and use substitutions within replacement patterns.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Jason gave money to Paul.")
-
+builder.write('Jason gave money to Paul.')
 options = aw.replacing.FindReplaceOptions()
 options.use_substitutions = True
-
 # Using legacy mode does not support many advanced features, so we need to set it to 'False'.
 options.legacy_mode = False
-
-doc.range.replace_regex(r"([A-z]+) gave money to ([A-z]+)", r"$2 took money from $1", options)
-
-self.assertEqual(doc.get_text(), "Paul took money from Jason.\f")
+doc.range.replace_regex('([A-z]+) gave money to ([A-z]+)', '$2 took money from $1', options)
+self.assertEqual(doc.get_text(), 'Paul took money from Jason.\x0c')
 ```
 
 ### See Also

@@ -33,18 +33,15 @@ def create_note_hyperlinks(self, value: bool):
 Shows how to make footnotes and endnotes function as hyperlinks.
 
 ```python
-doc = aw.Document(MY_DIR + "Footnotes and endnotes.docx")
-
+doc = aw.Document(MY_DIR + 'Footnotes and endnotes.docx')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-
 # Set the "create_note_hyperlinks" property to "True" to turn all footnote/endnote symbols
 # in the text act as links that, upon clicking, take us to their respective footnotes/endnotes.
 # Set the "create_note_hyperlinks" property to "False" not to have footnote/endnote symbols link to anything.
 options.create_note_hyperlinks = create_note_hyperlinks
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.note_hyperlinks.pdf", options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.note_hyperlinks.pdf', options)
 ```
 
 ### See Also

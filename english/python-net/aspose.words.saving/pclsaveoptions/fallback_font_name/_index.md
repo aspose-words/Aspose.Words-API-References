@@ -38,16 +38,13 @@ Shows how to declare a font that a printer will apply to printed text as a subst
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.name = "Non-existent font"
-builder.write("Hello world!")
-
+builder.font.name = 'Non-existent font'
+builder.write('Hello world!')
 save_options = aw.saving.PclSaveOptions()
-save_options.fallback_font_name = "Times New Roman"
-
+save_options.fallback_font_name = 'Times New Roman'
 # This document will instruct the printer to apply "Times New Roman" to the text with the missing font.
 # Should "Times New Roman" also be unavailable, the printer will default to the "Arial" font.
-doc.save(ARTIFACTS_DIR + "PclSaveOptions.fallback_font_name.pcl", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PclSaveOptions.SetPrinterFont.pcl', save_options=save_options)
 ```
 
 ### See Also
