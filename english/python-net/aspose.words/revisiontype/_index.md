@@ -5,7 +5,7 @@ articleTitle: RevisionType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.RevisionType enumeration. Specifies the type of change being tracked in [Revision](../revision/)."
 type: docs
-weight: 910
+weight: 990
 url: /python-net/aspose.words/revisiontype/
 ---
 

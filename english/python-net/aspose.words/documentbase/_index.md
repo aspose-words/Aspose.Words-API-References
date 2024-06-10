@@ -45,11 +45,13 @@ root node of the tree that contains all other nodes of the document.
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lists](./lists/) | Provides access to the list formatting used in the document. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
+| [node_changing_callback](./node_changing_callback/) | Called when a node is inserted or removed in the document. |
 | [node_type](../node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../node/)) |
 | [page_color](./page_color/) | Gets or sets the page color of the document. This property is a simpler version of [DocumentBase.background_shape](./background_shape/). |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
 | [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [resource_loading_callback](./resource_loading_callback/) | Allows to control how external resources are loaded. |
 | [styles](./styles/) | Returns a collection of styles defined in the document. |
 | [warning_callback](./warning_callback/) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
 

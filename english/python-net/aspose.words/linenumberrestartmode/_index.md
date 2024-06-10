@@ -5,7 +5,7 @@ articleTitle: LineNumberRestartMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LineNumberRestartMode enumeration. Determines when automatic line numbering restarts."
 type: docs
-weight: 590
+weight: 650
 url: /python-net/aspose.words/linenumberrestartmode/
 ---
 

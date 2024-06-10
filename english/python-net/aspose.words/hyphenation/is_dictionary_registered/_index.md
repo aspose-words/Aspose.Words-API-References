@@ -5,7 +5,7 @@ articleTitle: is_dictionary_registered method
 second_title: Aspose.Words for Python
 description: "Hyphenation.is_dictionary_registered method. Returns ``False`` if for the specified language there is no dictionary registered or if registered is Null dictionary, ``True`` otherwise."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words/hyphenation/is_dictionary_registered/
 ---
 

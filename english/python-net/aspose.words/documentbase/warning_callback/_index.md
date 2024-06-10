@@ -5,7 +5,7 @@ articleTitle: warning_callback property
 second_title: Aspose.Words for Python
 description: "DocumentBase.warning_callback property. Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss."
 type: docs
-weight: 70
+weight: 90
 url: /python-net/aspose.words/documentbase/warning_callback/
 ---
 

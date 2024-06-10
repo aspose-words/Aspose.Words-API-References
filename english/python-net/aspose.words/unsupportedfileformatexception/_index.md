@@ -5,7 +5,7 @@ articleTitle: UnsupportedFileFormatException class
 second_title: Aspose.Words for Python
 description: "aspose.words.UnsupportedFileFormatException class. Thrown during document load, when the document format is not recognized or not supported by Aspose.Words"
 type: docs
-weight: 1230
+weight: 1310
 url: /python-net/aspose.words/unsupportedfileformatexception/
 ---
 

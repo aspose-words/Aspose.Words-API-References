@@ -16,11 +16,11 @@ Allows to control how external resources (images, style sheets) are loaded when 
 
 ```python
 @property
-def resource_loading_callback(self) -> None:
+def resource_loading_callback(self) -> aspose.words.loading.IResourceLoadingCallback:
     ...
 
 @resource_loading_callback.setter
-def resource_loading_callback(self, value: None):
+def resource_loading_callback(self, value: aspose.words.loading.IResourceLoadingCallback):
     ...
 
 ```

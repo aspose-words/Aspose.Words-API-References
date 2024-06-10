@@ -5,7 +5,7 @@ articleTitle: TxtTrailingSpacesOptions enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.TxtTrailingSpacesOptions enumeration. Specifies available options for trailing spaces handling during import from [LoadFormat.TEXT](../../aspose.words/loadformat/#TEXT) file."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.loading/txttrailingspacesoptions/
 ---
 

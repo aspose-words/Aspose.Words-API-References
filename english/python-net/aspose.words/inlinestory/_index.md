@@ -5,7 +5,7 @@ articleTitle: InlineStory class
 second_title: Aspose.Words for Python
 description: "aspose.words.InlineStory class. Base class for inline-level nodes that can contain paragraphs and tables"
 type: docs
-weight: 560
+weight: 620
 url: /python-net/aspose.words/inlinestory/
 ---
 

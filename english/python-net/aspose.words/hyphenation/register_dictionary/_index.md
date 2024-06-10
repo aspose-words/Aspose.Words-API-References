@@ -5,7 +5,7 @@ articleTitle: register_dictionary method
 second_title: Aspose.Words for Python
 description: "aspose.words.Hyphenation.register_dictionary method"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words/hyphenation/register_dictionary/
 ---
 
@@ -29,7 +29,7 @@ def register_dictionary(self, language: str, stream: io.BytesIO):
 Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
 
 
-This method can also be used to register Null dictionary to preventAspose.Words.Hyphenation.Callback from being called repeatedly for the same language.
+This method can also be used to register Null dictionary to prevent[Hyphenation.callback](../callback/) from being called repeatedly for the same language.
 
 
 

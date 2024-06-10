@@ -141,6 +141,7 @@ represent Microsoft Word fields in a document.
 | [IFieldResultFormatter](./ifieldresultformatter/) | Implement this interface if you want to control how the field result is formatted. |
 | [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider/) | When implemented, provides a System.Globalization.CultureInfo object that should be used during the update of a particular field. |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback/) | Implement this interface if you want to have your own custom methods called during a field update. |
+| [IFieldUpdatingProgressCallback](./ifieldupdatingprogresscallback/) | Implement this interface if you want to track field updating progress. |
 | [IFieldUserPromptRespondent](./ifielduserpromptrespondent/) | Represents the respondent to user prompts during field update. |
 | [MergeFieldImageDimension](./mergefieldimagedimension/) | Represents an image dimension (i.e. the width or the height) used across a mail merge process. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
 | [ToaCategories](./toacategories/) | Represents a table of authorities categories. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |

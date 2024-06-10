@@ -5,7 +5,7 @@ articleTitle: Margins enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.Margins enumeration. Specifies preset margins."
 type: docs
-weight: 630
+weight: 690
 url: /python-net/aspose.words/margins/
 ---
 

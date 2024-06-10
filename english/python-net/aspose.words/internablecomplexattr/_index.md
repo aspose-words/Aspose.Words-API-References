@@ -5,7 +5,7 @@ articleTitle: InternableComplexAttr class
 second_title: Aspose.Words for Python
 description: "aspose.words.InternableComplexAttr class. Base class for internable complex attribute"
 type: docs
-weight: 570
+weight: 630
 url: /python-net/aspose.words/internablecomplexattr/
 ---
 

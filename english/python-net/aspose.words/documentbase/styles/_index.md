@@ -5,7 +5,7 @@ articleTitle: styles property
 second_title: Aspose.Words for Python
 description: "DocumentBase.styles property. Returns a collection of styles defined in the document."
 type: docs
-weight: 60
+weight: 80
 url: /python-net/aspose.words/documentbase/styles/
 ---
 

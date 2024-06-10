@@ -5,7 +5,7 @@ articleTitle: import_node method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBase.import_node method"
 type: docs
-weight: 80
+weight: 100
 url: /python-net/aspose.words/documentbase/import_node/
 ---
 

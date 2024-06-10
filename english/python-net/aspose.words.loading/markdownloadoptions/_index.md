@@ -5,7 +5,7 @@ articleTitle: MarkdownLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.MarkdownLoadOptions class. Allows to specify additional options when loading [LoadFormat.MARKDOWN](../../aspose.words/loadformat/#MARKDOWN) document into a [Document](../../aspose.words/document/) object."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.loading/markdownloadoptions/
 ---
 

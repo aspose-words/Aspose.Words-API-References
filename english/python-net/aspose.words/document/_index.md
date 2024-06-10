@@ -117,6 +117,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [mail_merge](./mail_merge/) | Returns a [MailMerge](../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document. |
 | [mail_merge_settings](./mail_merge_settings/) | Gets or sets the object that contains all of the mail merge information for a document. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
+| [node_changing_callback](../documentbase/node_changing_callback/) | Called when a node is inserted or removed in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [node_type](./node_type/) | Returns [NodeType.DOCUMENT](../nodetype/#DOCUMENT). |
 | [original_file_name](./original_file_name/) | Gets the original file name of the document. |
 | [original_load_format](./original_load_format/) | Gets the format of the original document that was loaded into this object. |
@@ -129,6 +130,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [punctuation_kerning](./punctuation_kerning/) | Specifies whether kerning applies to both Latin text and punctuation. |
 | [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [remove_personal_information](./remove_personal_information/) | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
+| [resource_loading_callback](../documentbase/resource_loading_callback/) | Allows to control how external resources are loaded.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [revisions](./revisions/) | Gets a collection of revisions (tracked changes) that exist in this document. |
 | [revisions_view](./revisions_view/) | Gets or sets a value indicating whether to work with the original or revised version of a document. |
 | [sections](./sections/) | Returns a collection that represents all sections in the document. |

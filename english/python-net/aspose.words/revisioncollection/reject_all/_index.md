@@ -5,7 +5,7 @@ articleTitle: reject_all method
 second_title: Aspose.Words for Python
 description: "RevisionCollection.reject_all method. Rejects all revisions in this collection."
 type: docs
-weight: 50
+weight: 70
 url: /python-net/aspose.words/revisioncollection/reject_all/
 ---
 
