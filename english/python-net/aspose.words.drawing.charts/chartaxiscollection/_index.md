@@ -33,16 +33,13 @@ Shows how to work with axes collection.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-shape = builder.insert_chart(awdc.ChartType.COLUMN, 500, 300)
+shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=500, height=300)
 chart = shape.chart
-
 # Hide the major grid lines on the primary and secondary Y axes.
 for axis in chart.axes:
-    if axis.type == awdc.ChartAxisType.VALUE:
+    if axis.type == aw.drawing.charts.ChartAxisType.VALUE:
         axis.has_major_gridlines = False
-
-doc.save(ARTIFACTS_DIR + "Charts.AxisCollection.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.AxisCollection.docx')
 ```
 
 ### See Also

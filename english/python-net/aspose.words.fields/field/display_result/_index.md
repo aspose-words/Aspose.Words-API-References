@@ -35,23 +35,18 @@ Shows how to get the real text that a field displays in the document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("This document was written by ")
-field_author = builder.insert_field(aw.fields.FieldType.FIELD_AUTHOR, True).as_field_author()
-field_author.author_name = "John Doe"
-
-# We can use the "display_result" property to verify what exact text
+builder.write('This document was written by ')
+field_author = builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTHOR, update_field=True).as_field_author()
+field_author.author_name = 'John Doe'
+# We can use the DisplayResult property to verify what exact text
 # a field would display in its place in the document.
-self.assertEqual("", field_author.display_result)
-
+self.assertEqual('', field_author.display_result)
 # Fields do not maintain accurate result values in real-time.
 # To make sure our fields display accurate results at any given time,
 # such as right before a save operation, we need to update them manually.
 field_author.update()
-
-self.assertEqual("John Doe", field_author.display_result)
-
-doc.save(ARTIFACTS_DIR + "Field.display_result.docx")
+self.assertEqual('John Doe', field_author.display_result)
+doc.save(file_name=ARTIFACTS_DIR + 'Field.DisplayResult.docx')
 ```
 
 ### See Also

@@ -67,58 +67,6 @@ This method ignores the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](../../ma
 
 
 
-## Examples
-
-Shows how to perform a mail merge, and then save the document to the client browser.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.insert_field(" MERGEFIELD FullName ")
-builder.insert_paragraph()
-builder.insert_field(" MERGEFIELD Company ")
-builder.insert_paragraph()
-builder.insert_field(" MERGEFIELD Address ")
-builder.insert_paragraph()
-builder.insert_field(" MERGEFIELD City ")
-
-doc.mail_merge.execute(["FullName", "Company", "Address", "City"],
-    ["James Bond", "MI5 Headquarters", "Milbank", "London"])
-
-# Send the document to the client browser.
-with self.assertRaises(Exception):
-    #Thrown because HttpResponse is null in the test.
-    doc.save(response, "Artifacts/MailMerge.execute_array.docx", aw.ContentDisposition.INLINE, None)
-
-# We will need to close this response manually to ensure that we do not add any superfluous content to the document after saving.
-with self.assertRaises(Exception):
-    response.end()
-```
-
-Shows how to merge an image from a URI as mail merge data into a MERGEFIELD.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-# MERGEFIELDs with "Image:" tags will receive an image during a mail merge.
-# The string after the colon in the "Image:" tag corresponds to a column name
-# in the data source whose cells contain URIs of image files.
-builder.insert_field("MERGEFIELD  Image:logo_FromWeb ")
-builder.insert_field("MERGEFIELD  Image:logo_FromFileSystem ")
-
-# Create a data source that contains URIs of images that we will merge.
-# A URI can be a web URL that points to an image, or a local file system filename of an image file.
-columns = ["logo_FromWeb", "logo_FromFileSystem"]
-uris = [IMAGE_URL, IMAGE_DIR + "Logo.jpg"]
-
-# Execute a mail merge on a data source with one row.
-doc.mail_merge.execute(columns, uris)
-
-doc.save(ARTIFACTS_DIR + "MailMergeEvent.image_from_url.docx")
-```
-
 ## See Also
 
 * module [aspose.words.mailmerging](../../)

@@ -46,27 +46,23 @@ Shows how to create headers and footers in a document using DocumentBuilder.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Specify that we want different headers and footers for first, even and odd pages.
 builder.page_setup.different_first_page_header_footer = True
 builder.page_setup.odd_and_even_pages_header_footer = True
-
 # Create the headers, then add three pages to the document to display each header type.
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_FIRST)
-builder.write("Header for the first page")
+builder.write('Header for the first page')
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_EVEN)
-builder.write("Header for even pages")
+builder.write('Header for even pages')
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
-builder.write("Header for all other pages")
-
+builder.write('Header for all other pages')
 builder.move_to_section(0)
-builder.writeln("Page1")
+builder.writeln('Page1')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Page2")
+builder.writeln('Page2')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Page3")
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.headers_and_footers.docx")
+builder.writeln('Page3')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.HeadersAndFooters.docx')
 ```
 
 Shows how to insert an image, and use it as a watermark.
@@ -74,21 +70,18 @@ Shows how to insert an image, and use it as a watermark.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert the image into the header so that it will be visible on every page.
-image = drawing.Image.from_file(IMAGE_DIR + "Transparent background logo.png")
+image = aspose.pydrawing.Image.from_file(IMAGE_DIR + 'Transparent background logo.png')
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
 shape = builder.insert_image(image)
 shape.wrap_type = aw.drawing.WrapType.NONE
 shape.behind_text = True
-
 # Place the image at the center of the page.
 shape.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.PAGE
 shape.relative_vertical_position = aw.drawing.RelativeVerticalPosition.PAGE
 shape.left = (builder.page_setup.page_width - shape.width) // 2
 shape.top = (builder.page_setup.page_height - shape.height) // 2
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_watermark.docx")
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_watermark.docx')
 ```
 
 ### See Also

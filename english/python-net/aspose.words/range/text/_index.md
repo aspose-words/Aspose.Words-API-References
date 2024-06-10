@@ -35,10 +35,8 @@ Shows how to get the text contents of all the nodes that a range covers.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Hello world!")
-
-self.assertEqual("Hello world!", doc.range.text.strip())
+builder.write('Hello world!')
+self.assertEqual('Hello world!', doc.range.text.strip())
 ```
 
 ### See Also

@@ -46,20 +46,16 @@ Shows how to clone a composite node.
 ```python
 doc = aw.Document()
 para = doc.first_section.body.first_paragraph
-para.append_child(aw.Run(doc, "Hello world!"))
-
+para.append_child(aw.Run(doc=doc, text='Hello world!'))
 # Below are two ways of cloning a composite node.
 # 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
 clone_with_children = para.clone(True)
-
 self.assertTrue(clone_with_children.as_composite_node().has_child_nodes)
-self.assertEqual("Hello world!", clone_with_children.get_text().strip())
-
+self.assertEqual('Hello world!', clone_with_children.get_text().strip())
 # 2 -  Create a clone of a node just by itself without any children.
 clone_without_children = para.clone(False)
-
 self.assertFalse(clone_without_children.as_composite_node().has_child_nodes)
-self.assertEqual("", clone_without_children.get_text().strip())
+self.assertEqual('', clone_without_children.get_text().strip())
 ```
 
 ### See Also

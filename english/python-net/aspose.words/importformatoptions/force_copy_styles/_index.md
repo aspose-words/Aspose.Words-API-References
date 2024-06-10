@@ -48,18 +48,15 @@ Shows how to copy source styles with unique names forcibly.
 
 ```python
 # Both documents contain MyStyle1 and MyStyle2, MyStyle3 exists only in a source document.
-src_doc = aw.Document(MY_DIR + "Styles source.docx");
-dst_doc = aw.Document(MY_DIR + "Styles destination.docx");
-
+src_doc = aw.Document(file_name=MY_DIR + 'Styles source.docx')
+dst_doc = aw.Document(file_name=MY_DIR + 'Styles destination.docx')
 options = aw.ImportFormatOptions()
 options.force_copy_styles = True
-dst_doc.append_document(src_doc, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, options)
-
+dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, import_format_options=options)
 paras = dst_doc.sections[1].body.paragraphs
-
-self.assertEqual(paras[0].paragraph_format.style.name, "MyStyle1_0")
-self.assertEqual(paras[1].paragraph_format.style.name, "MyStyle2_0")
-self.assertEqual(paras[2].paragraph_format.style.name, "MyStyle3")
+self.assertEqual(paras[0].paragraph_format.style.name, 'MyStyle1_0')
+self.assertEqual(paras[1].paragraph_format.style.name, 'MyStyle2_0')
+self.assertEqual(paras[2].paragraph_format.style.name, 'MyStyle3')
 ```
 
 ### See Also

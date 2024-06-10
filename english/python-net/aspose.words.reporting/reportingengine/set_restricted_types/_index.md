@@ -5,7 +5,7 @@ articleTitle: set_restricted_types method
 second_title: Aspose.Words for Python
 description: "ReportingEngine.set_restricted_types method. Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.reporting/reportingengine/set_restricted_types/
 ---
 

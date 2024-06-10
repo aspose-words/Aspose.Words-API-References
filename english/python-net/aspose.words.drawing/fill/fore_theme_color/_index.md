@@ -27,23 +27,19 @@ def fore_theme_color(self, value: aspose.words.themes.ThemeColor):
 
 ### Examples
 
-Shows how to set theme color for foreground / background shape color.
+Shows how to set theme color for foreground/background shape color.
 
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-shape = builder.insert_shape(awd.ShapeType.ROUND_RECTANGLE, 80.0, 80.0)
-
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.ROUND_RECTANGLE, width=80, height=80)
 fill = shape.fill
 fill.fore_theme_color = aw.themes.ThemeColor.DARK1
 fill.back_theme_color = aw.themes.ThemeColor.BACKGROUND2
-
-# Note: do not use "BackThemeColor" and "BackTintAndShade"for font fill.
+# Note: do not use "BackThemeColor" and "BackTintAndShade" for font fill.
 if fill.back_tint_and_shade == 0:
     fill.back_tint_and_shade = 0.2
-
-doc.save(ARTIFACTS_DIR + "Shape.FillThemeColor.docx");
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.FillThemeColor.docx')
 ```
 
 ### See Also

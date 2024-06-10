@@ -43,23 +43,18 @@ it specified an index from the end of the section with -1 being the last paragra
 Shows how to move a builder's cursor position to a specified paragraph.
 
 ```python
-doc = aw.Document(MY_DIR + "Paragraphs.docx")
+doc = aw.Document(MY_DIR + 'Paragraphs.docx')
 paragraphs = doc.first_section.body.paragraphs
-
 self.assertEqual(22, paragraphs.count)
-
 # Create document builder to edit the document. The builder's cursor,
 # which is the point where it will insert new nodes when we call its document construction methods,
 # is currently at the beginning of the document.
 builder = aw.DocumentBuilder(doc)
-
 self.assertEqual(0, paragraphs.index_of(builder.current_paragraph))
-
 # Move that cursor to a different paragraph will place that cursor in front of that paragraph.
 builder.move_to_paragraph(2, 0)
-
 # Any new content that we add will be inserted at that point.
-builder.writeln("This is a new third paragraph. ")
+builder.writeln('This is a new third paragraph. ')
 ```
 
 ### See Also

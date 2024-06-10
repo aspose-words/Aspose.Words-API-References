@@ -62,17 +62,13 @@ Shows how to disable the scaling of images to their parent shape dimensions when
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert a shape which contains an image, and then make that shape considerably smaller than the image.
-image = drawing.Image.from_file(IMAGE_DIR + "Transparent background logo.png")
-
+image = drawing.Image.from_file(IMAGE_DIR + 'Transparent background logo.png')
 self.assertEqual(400, image.size.width)
 self.assertEqual(400, image.size.height)
-
 image_shape = builder.insert_image(image)
 image_shape.width = 50
 image_shape.height = 50
-
 # Saving a document that contains shapes with images to HTML will create an image file in the local file system
 # for each such shape. The output HTML document will use <image> tags to link to and display these images.
 # When we save the document to HTML, we can pass a SaveOptions object to determine
@@ -83,11 +79,8 @@ image_shape.height = 50
 # which will take up more space in exchange for preserving image quality.
 options = aw.saving.HtmlSaveOptions()
 options.scale_image_to_shape_size = scale_image_to_shape_size
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.scale_image_to_shape_size.html", options)
-
-file_size = os.path.getsize(ARTIFACTS_DIR + "HtmlSaveOptions.scale_image_to_shape_size.001.png")
-
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.scale_image_to_shape_size.html', options)
+file_size = os.path.getsize(ARTIFACTS_DIR + 'HtmlSaveOptions.scale_image_to_shape_size.001.png')
 if scale_image_to_shape_size:
     self.assertGreater(10000, file_size)
 else:

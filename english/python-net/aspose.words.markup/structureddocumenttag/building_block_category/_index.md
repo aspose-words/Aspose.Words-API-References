@@ -44,14 +44,11 @@ Shows how to insert a structured document tag as a building block, and set its c
 
 ```python
 doc = aw.Document()
-
 building_block_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.BUILDING_BLOCK_GALLERY, aw.markup.MarkupLevel.BLOCK)
-building_block_sdt.building_block_category = "Built-in"
-building_block_sdt.building_block_gallery = "Table of Contents"
-
+building_block_sdt.building_block_category = 'Built-in'
+building_block_sdt.building_block_gallery = 'Table of Contents'
 doc.first_section.body.append_child(building_block_sdt)
-
-doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.BuildingBlockCategories.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'StructuredDocumentTag.BuildingBlockCategories.docx')
 ```
 
 ### See Also

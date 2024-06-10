@@ -51,6 +51,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [support_vml](./support_vml/) | Gets or sets a value indicating whether to support VML images. |
 | [temp_folder](../loadoptions/temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [update_dirty_fields](../loadoptions/update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [use_system_lcid](../loadoptions/use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [warning_callback](../loadoptions/warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [web_request_timeout](./web_request_timeout/) | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
 

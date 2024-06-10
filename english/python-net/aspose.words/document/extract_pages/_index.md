@@ -5,7 +5,7 @@ articleTitle: extract_pages method
 second_title: Aspose.Words for Python
 description: "Document.extract_pages method. Returns the [Document](../) object representing specified range of pages."
 type: docs
-weight: 630
+weight: 640
 url: /python-net/aspose.words/document/extract_pages/
 ---
 
@@ -39,11 +39,9 @@ Any feedback would be greatly appreciated.
 Shows how to get specified range of pages from the document.
 
 ```python
-doc = aw.Document(MY_DIR + "Layout entities.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Layout entities.docx')
 doc = doc.extract_pages(0, 2)
-
-doc.save(ARTIFACTS_DIR + "Document.extract_pages.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Document.ExtractPages.docx')
 ```
 
 ### See Also

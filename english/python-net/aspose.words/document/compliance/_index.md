@@ -36,12 +36,9 @@ Shows how to read a loaded document's Open Office XML compliance version.
 
 ```python
 # The compliance version varies between documents created by different versions of Microsoft Word.
-doc = aw.Document(MY_DIR + "Document.doc")
-
+doc = aw.Document(file_name=MY_DIR + 'Document.doc')
 self.assertEqual(doc.compliance, aw.saving.OoxmlCompliance.ECMA376_2006)
-
-doc = aw.Document(MY_DIR + "Document.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 self.assertEqual(doc.compliance, aw.saving.OoxmlCompliance.ISO29500_2008_TRANSITIONAL)
 ```
 

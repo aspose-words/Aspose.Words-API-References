@@ -34,17 +34,14 @@ Shows how to formatting FieldIndex fields.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.write("A")
+builder.write('A')
 builder.insert_break(aw.BreakType.LINE_BREAK)
-builder.insert_field("XE \"A\"")
-builder.write("B")
-
-builder.insert_field(" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", None)
-
+builder.insert_field(field_code='XE "A"')
+builder.write('B')
+builder.insert_field(field_code=' INDEX \\e " · " \\h "A" \\c "2" \\z "1033"', field_value=None)
 doc.field_options.field_index_format = aw.fields.FieldIndexFormat.FANCY
 doc.update_fields()
-
-doc.save(ARTIFACTS_DIR + "Field.set_field_index_format.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Field.SetFieldIndexFormat.docx')
 ```
 
 ### See Also

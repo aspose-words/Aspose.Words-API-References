@@ -32,15 +32,12 @@ Shows how to format text inserted by a document builder.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.underline = aw.Underline.DASH
-builder.font.color = drawing.Color.blue
+builder.font.color = aspose.pydrawing.Color.blue
 builder.font.size = 32
-
 # The builder applies formatting to its current paragraph and any new text added by it afterward.
-builder.writeln("Large, blue, and underlined text.")
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_underline.docx")
+builder.writeln('Large, blue, and underlined text.')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertUnderline.docx')
 ```
 
 ### See Also

@@ -28,17 +28,13 @@ Shows how to access output parameters of a document's save operation.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.writeln("Hello world!")
-
+builder.writeln('Hello world!')
 # After we save a document, we can access the Internet Media Type (MIME type) of the newly created output document.
-parameters = doc.save(ARTIFACTS_DIR + "Document.save_output_parameters.doc")
-
-self.assertEqual("application/msword", parameters.content_type)
-
+parameters = doc.save(file_name=ARTIFACTS_DIR + 'Document.SaveOutputParameters.doc')
+self.assertEqual('application/msword', parameters.content_type)
 # This property changes depending on the save format.
-parameters = doc.save(ARTIFACTS_DIR + "Document.save_output_parameters.pdf")
-
-self.assertEqual("application/pdf", parameters.content_type)
+parameters = doc.save(file_name=ARTIFACTS_DIR + 'Document.SaveOutputParameters.pdf')
+self.assertEqual('application/pdf', parameters.content_type)
 ```
 
 ### See Also

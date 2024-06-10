@@ -27,8 +27,7 @@ def colored(self) -> bool:
 Shows how to check whether the page is in color or not.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 # Check that the first page of the document is not colored.
 self.assertFalse(doc.get_page_info(0).colored)
 ```

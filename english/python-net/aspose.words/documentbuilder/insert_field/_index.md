@@ -117,35 +117,27 @@ Shows how to insert a field into a document using FieldType.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert two fields while passing a flag which determines whether to update them as the builder inserts them.
 # In some cases, updating fields could be computationally expensive, and it may be a good idea to defer the update.
-doc.built_in_document_properties.author = "John Doe"
-builder.write("This document was written by ")
+doc.built_in_document_properties.author = 'John Doe'
+builder.write('This document was written by ')
 builder.insert_field(aw.fields.FieldType.FIELD_AUTHOR, update_inserted_fields_immediately)
-
 builder.insert_paragraph()
-builder.write("\nThis is page ")
+builder.write('\nThis is page ')
 builder.insert_field(aw.fields.FieldType.FIELD_PAGE, update_inserted_fields_immediately)
-
-self.assertEqual(" AUTHOR ", doc.range.fields[0].get_field_code())
-self.assertEqual(" PAGE ", doc.range.fields[1].get_field_code())
-
+self.assertEqual(' AUTHOR ', doc.range.fields[0].get_field_code())
+self.assertEqual(' PAGE ', doc.range.fields[1].get_field_code())
 if update_inserted_fields_immediately:
-    self.assertEqual("John Doe", doc.range.fields[0].result)
-    self.assertEqual("1", doc.range.fields[1].result)
+    self.assertEqual('John Doe', doc.range.fields[0].result)
+    self.assertEqual('1', doc.range.fields[1].result)
 else:
-    self.assertEqual("", doc.range.fields[0].result)
-    self.assertEqual("", doc.range.fields[1].result)
-
+    self.assertEqual('', doc.range.fields[0].result)
+    self.assertEqual('', doc.range.fields[1].result)
     # We will need to update these fields using the update methods manually.
     doc.range.fields[0].update()
-
-    self.assertEqual("John Doe", doc.range.fields[0].result)
-
+    self.assertEqual('John Doe', doc.range.fields[0].result)
     doc.update_fields()
-
-    self.assertEqual("1", doc.range.fields[1].result)
+    self.assertEqual('1', doc.range.fields[1].result)
 ```
 
 Shows how to insert fields, and move the document builder's cursor to them.
@@ -153,23 +145,19 @@ Shows how to insert fields, and move the document builder's cursor to them.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.insert_field(r"MERGEFIELD MyMergeField1 \* MERGEFORMAT")
-builder.insert_field(r"MERGEFIELD MyMergeField2 \* MERGEFORMAT")
-
+builder.insert_field('MERGEFIELD MyMergeField1 \\* MERGEFORMAT')
+builder.insert_field('MERGEFIELD MyMergeField2 \\* MERGEFORMAT')
 # Move the cursor to the first MERGEFIELD.
-builder.move_to_merge_field("MyMergeField1", True, False)
-
+builder.move_to_merge_field('MyMergeField1', True, False)
 # Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
 self.assertEqual(doc.range.fields[1].start, builder.current_node)
 self.assertEqual(doc.range.fields[0].end, builder.current_node.previous_sibling)
-
 # If we wish to edit the field's field code or contents using the builder,
 # its cursor would need to be inside a field.
 # To place it inside a field, we would need to call the document builder's "move_to" method
 # and pass the field's start or separator node as an argument.
-builder.write(" Text between our merge fields. ")
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.merge_fields.docx")
+builder.write(' Text between our merge fields. ')
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.merge_fields.docx')
 ```
 
 Shows how to insert a field into a document using a field code.
@@ -177,14 +165,11 @@ Shows how to insert a field into a document using a field code.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-field = builder.insert_field("DATE \\@ \"dddd, MMMM dd, yyyy\"")
-
+field = builder.insert_field('DATE \\@ "dddd, MMMM dd, yyyy"')
 self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.type)
-self.assertEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.get_field_code())
-
+self.assertEqual('DATE \\@ "dddd, MMMM dd, yyyy"', field.get_field_code())
 # This overload of the "insert_field" method automatically updates inserted fields.
-self.assertAlmostEqual(datetime.strptime(field.result, "%A, %B %d, %Y"), datetime.now(), delta=timedelta(1))
+self.assertAlmostEqual(datetime.strptime(field.result, '%A, %B %d, %Y'), datetime.now(), delta=timedelta(1))
 ```
 
 Shows how to set up page numbering in a section.
@@ -192,51 +177,44 @@ Shows how to set up page numbering in a section.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Section 1, page 1.")
+builder.writeln('Section 1, page 1.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Section 1, page 2.")
+builder.writeln('Section 1, page 2.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Section 1, page 3.")
+builder.writeln('Section 1, page 3.')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
-builder.writeln("Section 2, page 1.")
+builder.writeln('Section 2, page 1.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Section 2, page 2.")
+builder.writeln('Section 2, page 2.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln("Section 2, page 3.")
-
+builder.writeln('Section 2, page 3.')
 # Move the document builder to the first section's primary header,
 # which every page in that section will display.
 builder.move_to_section(0)
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
-
 # Insert a PAGE field, which will display the number of the current page.
-builder.write("Page ")
-builder.insert_field("PAGE", "")
-
+builder.write('Page ')
+builder.insert_field(field_code='PAGE', field_value='')
 # Configure the section to have the page count that PAGE fields display start from 5.
 # Also, configure all PAGE fields to display their page numbers using uppercase Roman numerals.
 page_setup = doc.sections[0].page_setup
 page_setup.restart_page_numbering = True
 page_setup.page_starting_number = 5
 page_setup.page_number_style = aw.NumberStyle.UPPERCASE_ROMAN
-
 # Create another primary header for the second section, with another PAGE field.
 builder.move_to_section(1)
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
 builder.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
-builder.write(" - ")
-builder.insert_field("PAGE", "")
-builder.write(" - ")
-
+builder.write(' - ')
+builder.insert_field(field_code='PAGE', field_value='')
+builder.write(' - ')
 # Configure the section to have the page count that PAGE fields display start from 10.
 # Also, configure all PAGE fields to display their page numbers using Arabic numbers.
 page_setup = doc.sections[1].page_setup
 page_setup.page_starting_number = 10
 page_setup.restart_page_numbering = True
 page_setup.page_number_style = aw.NumberStyle.ARABIC
-
-doc.save(ARTIFACTS_DIR + "PageSetup.page_numbering.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.PageNumbering.docx')
 ```
 
 ## See Also

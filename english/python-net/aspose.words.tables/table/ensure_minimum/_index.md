@@ -28,16 +28,14 @@ Shows how to ensure that a table node contains the nodes we need to add content.
 doc = aw.Document()
 table = aw.tables.Table(doc)
 doc.first_section.body.append_child(table)
-
 # Tables contain rows, which contain cells, which may contain paragraphs
 # with typical elements such as runs, shapes, and even other tables.
 # Our new table has none of these nodes, and we cannot add contents to it until it does.
 self.assertEqual(0, table.get_child_nodes(aw.NodeType.ANY, True).count)
-
-# Calling the "ensure_minimum" method on a table will ensure that
+# Calling the "EnsureMinimum" method on a table will ensure that
 # the table has at least one row and one cell with an empty paragraph.
 table.ensure_minimum()
-table.first_row.first_cell.first_paragraph.append_child(aw.Run(doc, "Hello world!"))
+table.first_row.first_cell.first_paragraph.append_child(aw.Run(doc=doc, text='Hello world!'))
 ```
 
 ### See Also

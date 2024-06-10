@@ -44,11 +44,9 @@ Shows how to set the background color for all pages of a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.writeln("Hello world!")
-
-doc.page_color = drawing.Color.light_gray
-
-doc.save(ARTIFACTS_DIR + "DocumentBase.set_page_color.docx")
+builder.writeln('Hello world!')
+doc.page_color = aspose.pydrawing.Color.light_gray
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBase.SetPageColor.docx')
 ```
 
 ### See Also

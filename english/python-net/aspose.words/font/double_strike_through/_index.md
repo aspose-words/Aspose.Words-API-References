@@ -32,18 +32,14 @@ Shows how to add a line strikethrough to text.
 ```python
 doc = aw.Document()
 para = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
-
-run = aw.Run(doc, "Text with a single-line strikethrough.")
+run = aw.Run(doc=doc, text='Text with a single-line strikethrough.')
 run.font.strike_through = True
 para.append_child(run)
-
 para = para.parent_node.append_child(aw.Paragraph(doc)).as_paragraph()
-
-run = aw.Run(doc, "Text with a double-line strikethrough.")
+run = aw.Run(doc=doc, text='Text with a double-line strikethrough.')
 run.font.double_strike_through = True
 para.append_child(run)
-
-doc.save(ARTIFACTS_DIR + "Font.strike_through.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Font.StrikeThrough.docx')
 ```
 
 ### See Also

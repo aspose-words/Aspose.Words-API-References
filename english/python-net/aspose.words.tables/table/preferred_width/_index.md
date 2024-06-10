@@ -39,18 +39,15 @@ Shows how to set a table to auto fit to 50% of the width of the page.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 table = builder.start_table()
 builder.insert_cell()
-builder.write("Cell #1")
+builder.write('Cell #1')
 builder.insert_cell()
-builder.write("Cell #2")
+builder.write('Cell #2')
 builder.insert_cell()
-builder.write("Cell #3")
-
+builder.write('Cell #3')
 table.preferred_width = aw.tables.PreferredWidth.from_percent(50)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_table_with_preferred_width.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertTableWithPreferredWidth.docx')
 ```
 
 ### See Also

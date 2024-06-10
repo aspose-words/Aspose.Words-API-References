@@ -39,19 +39,15 @@ Shows how to set a default template for documents that do not have attached temp
 
 ```python
 doc = aw.Document()
-
 # Enable automatic style updating, but do not attach a template document.
 doc.automatically_update_styles = True
-
-self.assertEqual("", doc.attached_template)
-
+self.assertEqual('', doc.attached_template)
 # Since there is no template document, the document had nowhere to track style changes.
 # Use a SaveOptions object to automatically set a template
 # if a document that we are saving does not have one.
-options = aw.saving.SaveOptions.create_save_options("Document.default_template.docx")
-options.default_template = MY_DIR + "Business brochure.dotx"
-
-doc.save(ARTIFACTS_DIR + "Document.default_template.docx", options)
+options = aw.saving.SaveOptions.create_save_options('Document.default_template.docx')
+options.default_template = MY_DIR + 'Business brochure.dotx'
+doc.save(ARTIFACTS_DIR + 'Document.default_template.docx', options)
 ```
 
 ### See Also

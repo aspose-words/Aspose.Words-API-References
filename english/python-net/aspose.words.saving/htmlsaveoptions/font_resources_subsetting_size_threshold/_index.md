@@ -61,14 +61,12 @@ Shows how to work with font subsetting.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.name = "Arial"
-builder.writeln("Hello world!")
-builder.font.name = "Times New Roman"
-builder.writeln("Hello world!")
-builder.font.name = "Courier New"
-builder.writeln("Hello world!")
-
+builder.font.name = 'Arial'
+builder.writeln('Hello world!')
+builder.font.name = 'Times New Roman'
+builder.writeln('Hello world!')
+builder.font.name = 'Courier New'
+builder.writeln('Hello world!')
 # When we save the document to HTML, we can pass a SaveOptions object configure font subsetting.
 # Suppose we set the "export_font_resources" flag to "True" and also name a folder in the "fonts_folder" property.
 # In that case, the saving operation will create that folder and place a .ttf file inside
@@ -82,27 +80,20 @@ builder.writeln("Hello world!")
 # If an exported font creates a size bigger file than that, then the save operation will apply subsetting to that font.
 # Setting a threshold of 0 applies subsetting to all fonts,
 # and setting it to "2**31 - 1" effectively disables subsetting.
-fonts_folder = ARTIFACTS_DIR + "HtmlSaveOptions.font_subsetting.fonts"
-
+fonts_folder = ARTIFACTS_DIR + 'HtmlSaveOptions.font_subsetting.fonts'
 if os.path.exists(fonts_folder):
     shutil.rmtree(fonts_folder)
-
 options = aw.saving.HtmlSaveOptions()
 options.export_font_resources = True
 options.fonts_folder = fonts_folder
 options.font_resources_subsetting_size_threshold = font_resources_subsetting_size_threshold
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.font_subsetting.html", options)
-
-font_file_names = glob.glob(fonts_folder + "/*.ttf")
-
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.font_subsetting.html', options)
+font_file_names = glob.glob(fonts_folder + '/*.ttf')
 self.assertEqual(3, len(font_file_names))
-
 for filename in font_file_names:
     # By default, the .ttf files for each of our three fonts will be over 700MB.
     # Subsetting will reduce them all to under 30MB.
     font_file_size = os.path.getsize(filename)
-
     self.assertTrue(font_file_size > 700000 or font_file_size < 30000)
     self.assertTrue(max(font_resources_subsetting_size_threshold, 30000) > font_file_size)
 ```

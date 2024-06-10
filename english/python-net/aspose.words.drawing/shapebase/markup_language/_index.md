@@ -28,11 +28,9 @@ Shows how to verify a shape's size and markup language.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-shape = builder.insert_image(IMAGE_DIR + "Transparent background logo.png")
-
+shape = builder.insert_image(file_name=IMAGE_DIR + 'Transparent background logo.png')
 self.assertEqual(aw.drawing.ShapeMarkupLanguage.DML, shape.markup_language)
-self.assertEqual(drawing.SizeF(300, 300), shape.size_in_points)
+self.assertEqual(aspose.pydrawing.SizeF(300, 300), shape.size_in_points)
 ```
 
 ### See Also

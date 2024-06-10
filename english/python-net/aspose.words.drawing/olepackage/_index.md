@@ -5,7 +5,7 @@ articleTitle: OlePackage class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.OlePackage class. Allows to access OLE Package properties"
 type: docs
-weight: 240
+weight: 260
 url: /python-net/aspose.words.drawing/olepackage/
 ---
 

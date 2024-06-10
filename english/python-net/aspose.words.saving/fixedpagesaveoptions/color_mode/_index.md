@@ -36,8 +36,7 @@ The default value is [ColorMode.NORMAL](../../colormode/#NORMAL).
 Shows how to change image color with saving options property.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
+doc = aw.Document(MY_DIR + 'Images.docx')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 # Set the "color_mode" property to "GRAYSCALE" to render all images from the document in black and white.
@@ -45,8 +44,7 @@ doc = aw.Document(MY_DIR + "Images.docx")
 # Set the "color_mode" property to "NORMAL" to render all images in color.
 pdf_save_options = aw.saving.PdfSaveOptions()
 pdf_save_options.color_mode = color_mode
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.color_rendering.pdf", pdf_save_options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.color_rendering.pdf', pdf_save_options)
 ```
 
 ### See Also

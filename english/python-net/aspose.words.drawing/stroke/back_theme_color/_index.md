@@ -30,14 +30,12 @@ def back_theme_color(self, value: aspose.words.themes.ThemeColor):
 Shows how to set back theme color and tint and shade.
 
 ```python
-doc = aw.Document(MY_DIR + "Stroke gradient outline.docx")
-
-shape = doc.get_child(NodeType.SHAPE, 0, True).as_shape()
+doc = aw.Document(file_name=MY_DIR + 'Stroke gradient outline.docx')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 stroke = shape.stroke
-stroke.back_theme_color = ThemeColor.DARK2
+stroke.back_theme_color = aw.themes.ThemeColor.DARK2
 stroke.back_tint_and_shade = 0.2
-
-doc.save(ARTIFACTS_DIR + "Shape.StrokeBackThemeColors.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.StrokeBackThemeColors.docx')
 ```
 
 ### See Also

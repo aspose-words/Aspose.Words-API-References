@@ -5,7 +5,7 @@ articleTitle: LayoutFlow enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.LayoutFlow enumeration. Determines the flow of the text layout in a textbox."
 type: docs
-weight: 220
+weight: 240
 url: /python-net/aspose.words.drawing/layoutflow/
 ---
 
@@ -32,19 +32,15 @@ Shows how to add text to a text box, and change its orientation
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 textbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_BOX)
 textbox.width = 100
 textbox.height = 100
 textbox.text_box.layout_flow = aw.drawing.LayoutFlow.BOTTOM_TO_TOP
-
 textbox.append_child(aw.Paragraph(doc))
 builder.insert_node(textbox)
-
 builder.move_to(textbox.first_paragraph)
-builder.write("This text is flipped 90 degrees to the left.")
-
-doc.save(ARTIFACTS_DIR + "Drawing.text_box.docx")
+builder.write('This text is flipped 90 degrees to the left.')
+doc.save(file_name=ARTIFACTS_DIR + 'Drawing.TextBox.docx')
 ```
 
 ### See Also

@@ -48,27 +48,18 @@ If the value is not ``None`` or empty, it must be a valid CSS identifier.
 Shows how to save a document to HTML, and add a prefix to all of its CSS class names.
 
 ```python
-doc = aw.Document(MY_DIR + "Paragraphs.docx")
-
+doc = aw.Document(MY_DIR + 'Paragraphs.docx')
 save_options = aw.saving.HtmlSaveOptions()
 save_options.css_style_sheet_type = aw.saving.CssStyleSheetType.EXTERNAL
-save_options.css_class_name_prefix = "myprefix-"
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.css_class_name_prefix.html", save_options)
-
-with open(ARTIFACTS_DIR + "HtmlSaveOptions.css_class_name_prefix.html", "rt", encoding="utf-8") as file:
+save_options.css_class_name_prefix = 'myprefix-'
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.css_class_name_prefix.html', save_options)
+with open(ARTIFACTS_DIR + 'HtmlSaveOptions.css_class_name_prefix.html', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
-self.assertIn("<p class=\"myprefix-Header\">", out_doc_contents)
-self.assertIn("<p class=\"myprefix-Footer\">", out_doc_contents)
-
-with open(ARTIFACTS_DIR + "HtmlSaveOptions.css_class_name_prefix.css", "rt", encoding="utf-8") as file:
+self.assertIn('<p class="myprefix-Header">', out_doc_contents)
+self.assertIn('<p class="myprefix-Footer">', out_doc_contents)
+with open(ARTIFACTS_DIR + 'HtmlSaveOptions.css_class_name_prefix.css', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
-self.assertIn(
-    ".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\n" +
-    ".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\n",
-    out_doc_contents)
+self.assertIn('.myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }\n' + '.myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }\n', out_doc_contents)
 ```
 
 ### See Also

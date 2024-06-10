@@ -44,29 +44,20 @@ Shows how to ignore text inside fields.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Hello world!")
-builder.insert_field("QUOTE", "Hello again!")
-
+builder.writeln('Hello world!')
+builder.insert_field('QUOTE', 'Hello again!')
 # We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 options = aw.replacing.FindReplaceOptions()
-
 # Set the "ignore_fields" flag to "True" to get the find-and-replace
 # operation to ignore text inside fields.
 # Set the "ignore_fields" flag to "False" to get the find-and-replace
 # operation to also search for text inside fields.
 options.ignore_fields = ignore_text_inside_fields
-
-doc.range.replace("Hello", "Greetings", options)
-
+doc.range.replace('Hello', 'Greetings', options)
 if ignore_text_inside_fields:
-    self.assertEqual(
-        "Greetings world!\r\u0013QUOTE\u0014Hello again!\u0015",
-        doc.get_text().strip())
+    self.assertEqual('Greetings world!\r\x13QUOTE\x14Hello again!\x15', doc.get_text().strip())
 else:
-    self.assertEqual(
-        "Greetings world!\r\u0013QUOTE\u0014Greetings again!\u0015",
-        doc.get_text().strip())
+    self.assertEqual('Greetings world!\r\x13QUOTE\x14Greetings again!\x15', doc.get_text().strip())
 ```
 
 ### See Also

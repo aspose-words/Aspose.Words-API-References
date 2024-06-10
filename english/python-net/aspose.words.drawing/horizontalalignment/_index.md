@@ -5,7 +5,7 @@ articleTitle: HorizontalAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.HorizontalAlignment enumeration. Specifies horizontal alignment of a floating shape, text frame or floating table."
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.words.drawing/horizontalalignment/
 ---
 
@@ -33,17 +33,15 @@ Shows how to insert a floating image to the center of a page.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-shape = builder.insert_image(IMAGE_DIR + "Logo.jpg")
+shape = builder.insert_image(IMAGE_DIR + 'Logo.jpg')
 shape.wrap_type = aw.drawing.WrapType.NONE
 shape.behind_text = True
 shape.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.PAGE
 shape.relative_vertical_position = aw.drawing.RelativeVerticalPosition.PAGE
 shape.horizontal_alignment = aw.drawing.HorizontalAlignment.CENTER
 shape.vertical_alignment = aw.drawing.VerticalAlignment.CENTER
-
-doc.save(ARTIFACTS_DIR + "Image.create_floating_page_center.docx")
+doc.save(ARTIFACTS_DIR + 'Image.create_floating_page_center.docx')
 ```
 
 ### See Also

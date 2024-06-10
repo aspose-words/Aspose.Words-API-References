@@ -35,19 +35,16 @@ Shows how to insert a hyperlink field.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("For more information, please visit the ")
-
+builder.write('For more information, please visit the ')
 # Insert a hyperlink and emphasize it with custom formatting.
 # The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
-builder.font.color = drawing.Color.blue
+builder.font.color = aspose.pydrawing.Color.blue
 builder.font.underline = aw.Underline.SINGLE
-builder.insert_hyperlink("Google website", "https://www.google.com", False)
+builder.insert_hyperlink('Google website', 'https://www.google.com', False)
 builder.font.clear_formatting()
-builder.writeln(".")
-
+builder.writeln('.')
 # Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_hyperlink.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertHyperlink.docx')
 ```
 
 ### See Also

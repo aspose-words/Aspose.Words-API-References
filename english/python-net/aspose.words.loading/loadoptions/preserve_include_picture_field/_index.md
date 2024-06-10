@@ -46,29 +46,22 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 include_picture = builder.insert_field(aw.fields.FieldType.FIELD_INCLUDE_PICTURE, True).as_field_include_picture()
-include_picture.source_full_name = IMAGE_DIR + "Transparent background logo.png"
+include_picture.source_full_name = IMAGE_DIR + 'Transparent background logo.png'
 include_picture.update(True)
-
 with io.BytesIO() as doc_stream:
-
     doc.save(doc_stream, aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX))
-
     # We can set a flag in a LoadOptions object to decide whether to convert all INCLUDEPICTURE fields
     # into image shapes when loading a document that contains them.
     load_options = aw.loading.LoadOptions()
     load_options.preserve_include_picture_field = preserve_include_picture_field
-
     doc = aw.Document(doc_stream, load_options)
-
     if preserve_include_picture_field:
-        self.assertTrue(any(f for f in doc.range.fields if f.type == aw.fields.FieldType.FIELD_INCLUDE_PICTURE))
-
+        self.assertTrue(any((f for f in doc.range.fields if f.type == aw.fields.FieldType.FIELD_INCLUDE_PICTURE)))
         doc.update_fields()
-        doc.save(ARTIFACTS_DIR + "Field.preserve_include_picture.docx")
+        doc.save(ARTIFACTS_DIR + 'Field.preserve_include_picture.docx')
     else:
-        self.assertFalse(any(f for f in doc.range.fields if f.type == aw.fields.FieldType.FIELD_INCLUDE_PICTURE))
+        self.assertFalse(any((f for f in doc.range.fields if f.type == aw.fields.FieldType.FIELD_INCLUDE_PICTURE)))
 ```
 
 ### See Also

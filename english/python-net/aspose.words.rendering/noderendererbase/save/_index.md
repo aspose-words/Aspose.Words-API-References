@@ -74,28 +74,32 @@ def save(self, stream: io.BytesIO, save_options: aspose.words.saving.SvgSaveOpti
 Shows how to render an Office Math object into an image file in the local file system.
 
 ```python
-doc = aw.Document(MY_DIR + "Office math.docx")
-
+doc = aw.Document(MY_DIR + 'Office math.docx')
 math = doc.get_child(aw.NodeType.OFFICE_MATH, 0, True).as_office_math()
-
 # Create an "ImageSaveOptions" object to pass to the node renderer's "save" method to modify
 # how it renders the OfficeMath node into an image.
 save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-
 # Set the "scale" property to 5 to render the object to five times its original size.
 save_options.scale = 5
+math.get_math_renderer().save(ARTIFACTS_DIR + 'Shape.render_office_math.png', save_options)
+```
 
-math.get_math_renderer().save(ARTIFACTS_DIR + "Shape.render_office_math.png", save_options)
+Shows how to pass save options when rendering office math.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Office math.docx')
+math = doc.get_child(aw.NodeType.OFFICE_MATH, 0, True).as_office_math()
+options = aw.saving.SvgSaveOptions()
+options.text_output_mode = aw.saving.SvgTextOutputMode.USE_PLACED_GLYPHS
+math.get_math_renderer().save(file_name=ARTIFACTS_DIR + 'SvgSaveOptions.Output.svg', save_options=options)
 ```
 
 Shows how to use a shape renderer to export shapes to files in the local file system.
 
 ```python
-doc = aw.Document(MY_DIR + "Various shapes.docx")
+doc = aw.Document(MY_DIR + 'Various shapes.docx')
 shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
-
 self.assertEqual(7, len(shapes))
-
 # There are 7 shapes in the document, including one group shape with 2 child shapes.
 # We will render every shape to an image file in the local file system
 # while ignoring the group shapes since they have no appearance.
@@ -104,7 +108,7 @@ for shape in doc.get_child_nodes(aw.NodeType.SHAPE, True):
     shape = shape.as_shape()
     renderer = shape.get_shape_renderer()
     options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-    renderer.save(ARTIFACTS_DIR + "Shape.render_all_shapes." + shape.name + ".png", options)
+    renderer.save(ARTIFACTS_DIR + 'Shape.render_all_shapes.' + shape.name + '.png', options)
 ```
 
 ## See Also

@@ -54,14 +54,11 @@ Shows how to insert a string surrounded by a border into a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.border.color = drawing.Color.green
+builder.font.border.color = aspose.pydrawing.Color.green
 builder.font.border.line_width = 2.5
 builder.font.border.line_style = aw.LineStyle.DASH_DOT_STROKER
-
-builder.write("Text surrounded by green border.")
-
-doc.save(ARTIFACTS_DIR + "Border.font_border.docx")
+builder.write('Text surrounded by green border.')
+doc.save(file_name=ARTIFACTS_DIR + 'Border.FontBorder.docx')
 ```
 
 Shows how to insert a paragraph with a top border.
@@ -69,17 +66,14 @@ Shows how to insert a paragraph with a top border.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 top_border = builder.paragraph_format.borders.top
-top_border.line_width = 4.0
+top_border.line_width = 4
 top_border.line_style = aw.LineStyle.DASH_SMALL_GAP
 # Set ThemeColor only when LineWidth or LineStyle setted.
-top_border.theme_color = awthemes.ThemeColor.ACCENT1
+top_border.theme_color = aw.themes.ThemeColor.ACCENT1
 top_border.tint_and_shade = 0.25
-
-builder.writeln("Text with a top border.")
-
-doc.save(ARTIFACTS_DIR + "Border.paragraph_top_border.docx")
+builder.writeln('Text with a top border.')
+doc.save(file_name=ARTIFACTS_DIR + 'Border.ParagraphTopBorder.docx')
 ```
 
 ### See Also

@@ -36,24 +36,19 @@ Note that shape having not empty [ShapeBase.alternative_text](../alternative_tex
 Shows how to set that the shape is decorative.
 
 ```python
-doc = aw.Document(MY_DIR + "Decorative shapes.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Decorative shapes.docx')
 shape = doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
 self.assertTrue(shape.is_decorative)
-
-# If "alternative_text" is not empty, the shape cannot be decorative.
-# That's why our value has changed to 'False'.
-shape.alternative_text = "Alternative text."
+# If "AlternativeText" is not empty, the shape cannot be decorative.
+# That's why our value has changed to 'false'.
+shape.alternative_text = 'Alternative text.'
 self.assertFalse(shape.is_decorative)
-
 builder = aw.DocumentBuilder(doc)
-
 builder.move_to_document_end()
 # Create a new shape as decorative.
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 100, 100)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=100, height=100)
 shape.is_decorative = True
-
-doc.save(ARTIFACTS_DIR + "Shape.is_decorative.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.IsDecorative.docx')
 ```
 
 ### See Also

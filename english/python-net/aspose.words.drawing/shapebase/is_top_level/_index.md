@@ -28,19 +28,15 @@ Shows how to tell whether a shape is a part of a group shape.
 
 ```python
 doc = aw.Document()
-
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.RECTANGLE)
 shape.width = 200
 shape.height = 200
 shape.wrap_type = aw.drawing.WrapType.NONE
-
-# A shape by default is not part of any group shape, and therefore has the "is_top_level" property set to "True".
+# A shape by default is not part of any group shape, and therefore has the "IsTopLevel" property set to "true".
 self.assertTrue(shape.is_top_level)
-
 group = aw.drawing.GroupShape(doc)
 group.append_child(shape)
-
-# Once we assimilate a shape into a group shape, the "is_top_level" property changes to "False".
+# Once we assimilate a shape into a group shape, the "IsTopLevel" property changes to "false".
 self.assertFalse(shape.is_top_level)
 ```
 

@@ -34,13 +34,11 @@ def is_strict_schema11(self, value: bool):
 Shows how to make a saved document conform to an older ODT schema.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(MY_DIR + 'Rendering.docx')
 save_options = aw.saving.OdtSaveOptions()
 save_options.measure_unit = aw.saving.OdtSaveMeasureUnit.CENTIMETERS
 save_options.is_strict_schema11 = export_to_odt11_specs
-
-doc.save(ARTIFACTS_DIR + "OdtSaveOptions.odt11_schema.odt", save_options)
+doc.save(ARTIFACTS_DIR + 'OdtSaveOptions.odt11_schema.odt', save_options)
 ```
 
 ### See Also

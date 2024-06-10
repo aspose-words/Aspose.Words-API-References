@@ -48,17 +48,14 @@ Shows how to create and use themed style.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.writeln()
-
 # Create some style with theme font properties.
-style = doc.styles.add(aw.StyleType.PARAGRAPH, "ThemedStyle")
+style = doc.styles.add(aw.StyleType.PARAGRAPH, 'ThemedStyle')
 style.font.theme_font = aw.themes.ThemeFont.MAJOR
 style.font.theme_color = aw.themes.ThemeColor.ACCENT5
 style.font.tint_and_shade = 0.3
-
-builder.paragraph_format.style_name = "ThemedStyle"
-builder.writeln("Text with themed style")
+builder.paragraph_format.style_name = 'ThemedStyle'
+builder.writeln('Text with themed style')
 ```
 
 ### See Also

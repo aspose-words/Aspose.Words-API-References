@@ -36,21 +36,17 @@ Shows how to link a custom document property to a bookmark.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.start_bookmark("MyBookmark")
-builder.write("Hello world!")
-builder.end_bookmark("MyBookmark")
-
+builder.start_bookmark('MyBookmark')
+builder.write('Hello world!')
+builder.end_bookmark('MyBookmark')
 # Link a new custom property to a bookmark. The value of this property
-# will be the contents of the bookmark that it references in the "link_source" member.
+# will be the contents of the bookmark that it references in the "LinkSource" member.
 custom_properties = doc.custom_document_properties
-custom_property = custom_properties.add_link_to_content("Bookmark", "MyBookmark")
-
+custom_property = custom_properties.add_link_to_content('Bookmark', 'MyBookmark')
 self.assertEqual(True, custom_property.is_link_to_content)
-self.assertEqual("MyBookmark", custom_property.link_source)
-self.assertEqual("Hello world!", custom_property.value)
-
-doc.save(ARTIFACTS_DIR + "DocumentProperties.link_custom_document_properties_to_bookmark.docx")
+self.assertEqual('MyBookmark', custom_property.link_source)
+self.assertEqual('Hello world!', custom_property.value)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx')
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: visible property
 second_title: Aspose.Words for Python
 description: "ShadowFormat.visible property. Returns ``True`` if the formatting applied to this instance is visible."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing/shadowformat/visible/
 ---
 
@@ -34,11 +34,11 @@ it only hides the shape effect.
 Shows how to work with a shadow formatting for the shape.
 
 ```python
-doc = aw.Document(MY_DIR + "Shape stroke pattern border.docx")
+doc = aw.Document(file_name=MY_DIR + 'Shape stroke pattern border.docx')
 shape = doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
-if shape.shadow_format.visible and shape.shadow_format.type == awd.ShadowType.SHADOW2:
-    shape.shadow_format.type == awd.ShadowType.SHADOW7
-if shape.shadow_format.type == awd.ShadowType.SHADOW_MIXED:
+if shape.shadow_format.visible and shape.shadow_format.type == aw.drawing.ShadowType.SHADOW2:
+    shape.shadow_format.type = aw.drawing.ShadowType.SHADOW7
+if shape.shadow_format.type == aw.drawing.ShadowType.SHADOW_MIXED:
     shape.shadow_format.clear()
 ```
 

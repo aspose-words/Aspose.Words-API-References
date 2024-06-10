@@ -51,26 +51,22 @@ Shows how to delete a row from a table.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 table = builder.start_table()
 builder.insert_cell()
-builder.write("Row 1, cell 1.")
+builder.write('Row 1, cell 1.')
 builder.insert_cell()
-builder.write("Row 1, cell 2.")
+builder.write('Row 1, cell 2.')
 builder.end_row()
 builder.insert_cell()
-builder.write("Row 2, cell 1.")
+builder.write('Row 2, cell 1.')
 builder.insert_cell()
-builder.write("Row 2, cell 2.")
+builder.write('Row 2, cell 2.')
 builder.end_table()
-
 self.assertEqual(2, table.rows.count)
-
 # Delete the first row of the first table in the document.
 builder.delete_row(0, 0)
-
 self.assertEqual(1, table.rows.count)
-self.assertEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.get_text().strip())
+self.assertEqual('Row 2, cell 1.\x07Row 2, cell 2.\x07\x07', table.get_text().strip())
 ```
 
 ### See Also

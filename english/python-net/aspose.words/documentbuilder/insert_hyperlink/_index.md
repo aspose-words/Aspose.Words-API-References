@@ -48,19 +48,16 @@ Shows how to insert a hyperlink field.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("For more information, please visit the ")
-
+builder.write('For more information, please visit the ')
 # Insert a hyperlink and emphasize it with custom formatting.
 # The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
-builder.font.color = drawing.Color.blue
+builder.font.color = aspose.pydrawing.Color.blue
 builder.font.underline = aw.Underline.SINGLE
-builder.insert_hyperlink("Google website", "https://www.google.com", False)
+builder.insert_hyperlink('Google website', 'https://www.google.com', False)
 builder.font.clear_formatting()
-builder.writeln(".")
-
+builder.writeln('.')
 # Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_hyperlink.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertHyperlink.docx')
 ```
 
 Shows how to use a document builder's formatting stack.
@@ -68,31 +65,23 @@ Shows how to use a document builder's formatting stack.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Set up font formatting, then write the text that goes before the hyperlink.
-builder.font.name = "Arial"
+builder.font.name = 'Arial'
 builder.font.size = 24
-builder.write("To visit Google, hold Ctrl and click ")
-
+builder.write('To visit Google, hold Ctrl and click ')
 # Preserve our current formatting configuration on the stack.
 builder.push_font()
-
 # Alter the builder's current formatting by applying a new style.
 builder.font.style_identifier = aw.StyleIdentifier.HYPERLINK
-builder.insert_hyperlink("here", "http://www.google.com", False)
-
-self.assertEqual(drawing.Color.blue.to_argb(), builder.font.color.to_argb())
+builder.insert_hyperlink('here', 'http://www.google.com', False)
+self.assertEqual(aspose.pydrawing.Color.blue.to_argb(), builder.font.color.to_argb())
 self.assertEqual(aw.Underline.SINGLE, builder.font.underline)
-
 # Restore the font formatting that we saved earlier and remove the element from the stack.
 builder.pop_font()
-
-self.assertEqual(drawing.Color.empty().to_argb(), builder.font.color.to_argb())
+self.assertEqual(aspose.pydrawing.Color.empty().to_argb(), builder.font.color.to_argb())
 self.assertEqual(aw.Underline.NONE, builder.font.underline)
-
-builder.write(". We hope you enjoyed the example.")
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.push_pop_font.docx")
+builder.write('. We hope you enjoyed the example.')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.PushPopFont.docx')
 ```
 
 Shows how to insert a hyperlink which references a local bookmark.
@@ -100,20 +89,17 @@ Shows how to insert a hyperlink which references a local bookmark.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.start_bookmark("Bookmark1")
-builder.write("Bookmarked text. ")
-builder.end_bookmark("Bookmark1")
-builder.writeln("Text outside of the bookmark.")
-
+builder.start_bookmark('Bookmark1')
+builder.write('Bookmarked text. ')
+builder.end_bookmark('Bookmark1')
+builder.writeln('Text outside of the bookmark.')
 # Insert a HYPERLINK field that links to the bookmark. We can pass field switches
 # to the "insert_hyperlink" method as part of the argument containing the referenced bookmark's name.
-builder.font.color = drawing.Color.blue
+builder.font.color = aspose.pydrawing.Color.blue
 builder.font.underline = aw.Underline.SINGLE
-hyper_link = builder.insert_hyperlink("Link to Bookmark1", "Bookmark1", True).as_field_hyperlink()
-hyper_link.screen_tip = "Hyperlink Tip"
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_hyperlink_to_local_bookmark.docx")
+hyper_link = builder.insert_hyperlink('Link to Bookmark1', 'Bookmark1', True).as_field_hyperlink()
+hyper_link.screen_tip = 'Hyperlink Tip'
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_hyperlink_to_local_bookmark.docx')
 ```
 
 ### See Also

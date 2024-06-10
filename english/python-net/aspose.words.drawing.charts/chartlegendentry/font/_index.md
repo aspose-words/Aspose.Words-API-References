@@ -26,18 +26,15 @@ def font(self) -> aspose.words.Font:
 Shows how to work with a legend font.
 
 ```python
-doc = Document(MY_DIR + "Reporting engine template - Chart series.docx")
-shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-chart = shape.chart
-
+doc = aw.Document(file_name=MY_DIR + 'Reporting engine template - Chart series.docx')
+chart = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape().chart
 chart_legend = chart.legend
 # Set default font size all legend entries.
 chart_legend.font.size = 14
 # Change font for specific legend entry.
 chart_legend.legend_entries[1].font.italic = True
 chart_legend.legend_entries[1].font.size = 12
-
-doc.save(ARTIFACTS_DIR + "Charts.LegendFont.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.LegendFont.docx')
 ```
 
 ### See Also

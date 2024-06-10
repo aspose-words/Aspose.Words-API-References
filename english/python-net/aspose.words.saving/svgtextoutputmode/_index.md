@@ -28,15 +28,13 @@ when saving in SVG format.
 Shows how to mimic the properties of images when converting a .docx document to .svg.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 # Configure the SvgSaveOptions object to save with no page borders or selectable text.
 options = aw.saving.SvgSaveOptions()
 options.fit_to_view_port = True
 options.show_page_border = False
 options.text_output_mode = aw.saving.SvgTextOutputMode.USE_PLACED_GLYPHS
-
-doc.save(ARTIFACTS_DIR + "SvgSaveOptions.save_like_image.svg", options)
+doc.save(file_name=ARTIFACTS_DIR + 'SvgSaveOptions.SaveLikeImage.svg', save_options=options)
 ```
 
 ### See Also

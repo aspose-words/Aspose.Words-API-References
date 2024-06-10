@@ -26,34 +26,28 @@ An array of paragraphs.
 
 ### Examples
 
-Shows how to create an array from a NodeCollection.
-
-```python
-doc = aw.Document(MY_DIR + "Paragraphs.docx")
-
-paras = doc.first_section.body.paragraphs.to_array()
-
-self.assertEqual(22, len(paras))
-```
-
 Shows how to use "hot remove" to remove a node during enumeration.
 
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("The first paragraph")
-builder.writeln("The second paragraph")
-builder.writeln("The third paragraph")
-builder.writeln("The fourth paragraph")
-
+builder.writeln('The first paragraph')
+builder.writeln('The second paragraph')
+builder.writeln('The third paragraph')
+builder.writeln('The fourth paragraph')
 # Remove a node from the collection in the middle of an enumeration.
-for para in doc.first_section.body.paragraphs:
-    para = para.as_paragraph()
-    if "third" in para.range.text:
+for para in list(doc.first_section.body.paragraphs):
+    if 'third' in para.range.text:
         para.remove()
+self.assertFalse('The third paragraph' in doc.get_text())
+```
 
-self.assertNotIn("The third paragraph", doc.get_text())
+Shows how to create an array from a NodeCollection.
+
+```python
+doc = aw.Document(MY_DIR + 'Paragraphs.docx')
+paras = doc.first_section.body.paragraphs.to_array()
+self.assertEqual(22, len(paras))
 ```
 
 ### See Also

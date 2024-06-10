@@ -32,17 +32,13 @@ Shows how to prioritize and hide a style.
 ```python
 doc = aw.Document()
 style_title = doc.styles.get_by_style_identifier(aw.StyleIdentifier.SUBTITLE)
-
 if style_title.priority == 9:
     style_title.priority = 10
-
 if not style_title.unhide_when_used:
     style_title.unhide_when_used = True
-
 if style_title.semi_hidden:
     style_title.semi_hidden = True
-
-doc.save(file_name=ARTIFACTS_DIR + "Styles.StylePriority.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Styles.StylePriority.docx')
 ```
 
 ### See Also

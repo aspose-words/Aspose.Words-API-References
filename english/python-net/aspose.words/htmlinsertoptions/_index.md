@@ -29,12 +29,12 @@ Specifies options for the [DocumentBuilder.insert_html()](../documentbuilder/ins
 Shows how to allows better preserve borders and margins seen.
 
 ```python
-html = "<html><div style='border:dotted'><div style='border:solid'><p>paragraph 1</p><p>paragraph 2</p></div></div></html>"
+html = "\n                <html>\n                    <div style='border:dotted'>\n                    <div style='border:solid'>\n                        <p>paragraph 1</p>\n                        <p>paragraph 2</p>\n                    </div>\n                    </div>\n                </html>"
 # Set the new mode of import HTML block-level elements.
 insert_options = aw.HtmlInsertOptions.PRESERVE_BLOCKS
 builder = aw.DocumentBuilder()
-builder.insert_html(html, insert_options)
-builder.document.save(ARTIFACTS_DIR + "DocumentBuilder.PreserveBlocks.docx")
+builder.insert_html(html=html, options=insert_options)
+builder.document.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.PreserveBlocks.docx')
 ```
 
 ### See Also

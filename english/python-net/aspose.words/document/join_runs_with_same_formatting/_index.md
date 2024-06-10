@@ -5,7 +5,7 @@ articleTitle: join_runs_with_same_formatting method
 second_title: Aspose.Words for Python
 description: "Document.join_runs_with_same_formatting method. Joins runs with same formatting in all paragraphs of the document."
 type: docs
-weight: 650
+weight: 660
 url: /python-net/aspose.words/document/join_runs_with_same_formatting/
 ---
 
@@ -45,15 +45,12 @@ Shows how to join runs in a document to reduce unneeded runs.
 ```python
 # Open a document that contains adjacent runs of text with identical formatting,
 # which commonly occurs if we edit the same paragraph multiple times in Microsoft Word.
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 # If any number of these runs are adjacent with identical formatting,
 # then the document may be simplified.
 self.assertEqual(317, doc.get_child_nodes(aw.NodeType.RUN, True).count)
-
 # Combine such runs with this method and verify the number of run joins that will take place.
 self.assertEqual(121, doc.join_runs_with_same_formatting())
-
 # The number of joins and the number of runs we have after the join
 # should add up the number of runs we had initially.
 self.assertEqual(196, doc.get_child_nodes(aw.NodeType.RUN, True).count)

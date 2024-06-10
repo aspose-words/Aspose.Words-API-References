@@ -28,12 +28,10 @@ def store_item_id(self) -> str:
 Shows how to get the custom XML data identifier of an XML part.
 
 ```python
-doc = aw.Document(MY_DIR + "Custom XML part in structured document tag.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Custom XML part in structured document tag.docx')
 # Structured document tags have IDs in the form of GUIDs.
 tag = doc.get_child(aw.NodeType.STRUCTURED_DOCUMENT_TAG, 0, True).as_structured_document_tag()
-
-self.assertEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.xml_mapping.store_item_id)
+self.assertEqual('{F3029283-4FF8-4DD2-9F31-395F19ACEE85}', tag.xml_mapping.store_item_id)
 ```
 
 ### See Also

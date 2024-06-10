@@ -42,11 +42,9 @@ Shows how to set the TIFF binarization error threshold when using the Floyd-Stei
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.paragraph_format.style = doc.styles.get_by_name("Heading 1")
-builder.writeln("Hello world!")
-builder.insert_image(IMAGE_DIR + "Logo.jpg")
-
+builder.paragraph_format.style = doc.styles.get_by_name('Heading 1')
+builder.writeln('Hello world!')
+builder.insert_image(IMAGE_DIR + 'Logo.jpg')
 # When we save the document as a TIFF, we can pass a SaveOptions object to
 # adjust the dithering that Aspose.Words will apply when rendering this image.
 # The default value of the "threshold_for_floyd_steinberg_dithering" property is 128.
@@ -55,8 +53,7 @@ options = aw.saving.ImageSaveOptions(aw.SaveFormat.TIFF)
 options.tiff_compression = aw.saving.TiffCompression.CCITT3
 options.tiff_binarization_method = aw.saving.ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING
 options.threshold_for_floyd_steinberg_dithering = 240
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.floyd_steinberg_dithering.tiff", options)
+doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.floyd_steinberg_dithering.tiff', options)
 ```
 
 ### See Also

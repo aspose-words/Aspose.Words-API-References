@@ -44,26 +44,20 @@ Shows how to set the encoding with which to open a document.
 
 ```python
 # A FileFormatInfo object will detect this file as being encoded in something other than UTF-7.
-file_format_info = aw.FileFormatUtil.detect_file_format(MY_DIR + "Encoded in UTF-7.txt")
-
-self.assertNotEqual("utf-7", file_format_info.encoding)
-
+file_format_info = aw.FileFormatUtil.detect_file_format(MY_DIR + 'Encoded in UTF-7.txt')
+self.assertNotEqual('utf-7', file_format_info.encoding)
 # If we load the document with no loading configurations, Aspose.Words will detect its encoding as UTF-8.
-doc = aw.Document(MY_DIR + "Encoded in UTF-7.txt")
-
+doc = aw.Document(MY_DIR + 'Encoded in UTF-7.txt')
 # The contents, parsed in UTF-8, create a valid string.
 # However, knowing that the file is in UTF-7, we can see that the result is incorrect.
-self.assertEqual("Hello world+ACE-", doc.to_string(aw.SaveFormat.TEXT).strip())
-
+self.assertEqual('Hello world+ACE-', doc.to_string(aw.SaveFormat.TEXT).strip())
 # In cases of ambiguous encoding such as this one, we can set a specific encoding variant
 # to parse the file within a LoadOptions object.
 load_options = aw.loading.LoadOptions()
-load_options.encoding = "utf-7"
-
+load_options.encoding = 'utf-7'
 # Load the document while passing the LoadOptions object, then verify the document's contents.
-doc = aw.Document(MY_DIR + "Encoded in UTF-7.txt", load_options)
-
-self.assertEqual("Hello world!", doc.to_string(aw.SaveFormat.TEXT).strip())
+doc = aw.Document(MY_DIR + 'Encoded in UTF-7.txt', load_options)
+self.assertEqual('Hello world!', doc.to_string(aw.SaveFormat.TEXT).strip())
 ```
 
 ### See Also

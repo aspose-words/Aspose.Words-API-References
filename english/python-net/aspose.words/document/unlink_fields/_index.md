@@ -5,7 +5,7 @@ articleTitle: unlink_fields method
 second_title: Aspose.Words for Python
 description: "Document.unlink_fields method. Unlinks fields in the whole document."
 type: docs
-weight: 740
+weight: 750
 url: /python-net/aspose.words/document/unlink_fields/
 ---
 
@@ -33,8 +33,7 @@ To unlink fields in a specific part of the document use [Range.unlink_fields()](
 Shows how to unlink all fields in the document.
 
 ```python
-doc = aw.Document(MY_DIR + "Linked fields.docx")
-
+doc = aw.Document(MY_DIR + 'Linked fields.docx')
 doc.unlink_fields()
 ```
 

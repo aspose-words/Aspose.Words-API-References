@@ -28,8 +28,7 @@ def __getitem__(self, index: int):
 Shows how to get a group of revisions in a document.
 
 ```python
-doc = aw.Document(MY_DIR + "Revisions.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Revisions.docx')
 revision_group = doc.revisions.groups[0]
 ```
 

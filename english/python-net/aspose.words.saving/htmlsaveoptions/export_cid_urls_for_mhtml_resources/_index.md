@@ -50,8 +50,7 @@ CSS styles), try exporting the document with CID URLs.
 Shows how to enable content IDs for output MHTML documents.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(MY_DIR + 'Rendering.docx')
 # Setting this flag will replace "Content-Location" tags
 # with "Content-ID" tags for each resource from the input document.
 options = aw.saving.HtmlSaveOptions(aw.SaveFormat.MHTML)
@@ -59,22 +58,19 @@ options.export_cid_urls_for_mhtml_resources = export_cid_urls_for_mhtml_resource
 options.css_style_sheet_type = aw.saving.CssStyleSheetType.EXTERNAL
 options.export_font_resources = True
 options.pretty_format = True
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.content_id_urls.mht", options)
-
-with open(ARTIFACTS_DIR + "HtmlSaveOptions.content_id_urls.mht", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.content_id_urls.mht', options)
+with open(ARTIFACTS_DIR + 'HtmlSaveOptions.content_id_urls.mht', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
 if export_cid_urls_for_mhtml_resources:
-    self.assertIn("Content-ID: <document.html>", out_doc_contents)
-    self.assertIn("<link href=3D\"cid:styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />", out_doc_contents)
+    self.assertIn('Content-ID: <document.html>', out_doc_contents)
+    self.assertIn('<link href=3D"cid:styles.css" type=3D"text/css" rel=3D"stylesheet" />', out_doc_contents)
     self.assertIn("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\nlk.ttf') }", out_doc_contents)
-    self.assertIn("<img src=3D\"cid:image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />", out_doc_contents)
+    self.assertIn('<img src=3D"cid:image.003.jpeg" width=3D"350" height=3D"180" alt=3D"" />', out_doc_contents)
 else:
-    self.assertIn("Content-Location: document.html", out_doc_contents)
-    self.assertIn("<link href=3D\"styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />", out_doc_contents)
+    self.assertIn('Content-Location: document.html', out_doc_contents)
+    self.assertIn('<link href=3D"styles.css" type=3D"text/css" rel=3D"stylesheet" />', out_doc_contents)
     self.assertIn("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\ntf') }", out_doc_contents)
-    self.assertIn("<img src=3D\"image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />",out_doc_contents)
+    self.assertIn('<img src=3D"image.003.jpeg" width=3D"350" height=3D"180" alt=3D"" />', out_doc_contents)
 ```
 
 ### See Also

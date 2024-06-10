@@ -45,23 +45,18 @@ Shows how to update all the fields in a range.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.insert_field(" DOCPROPERTY Category")
+builder.insert_field(field_code=' DOCPROPERTY Category')
 builder.insert_break(aw.BreakType.SECTION_BREAK_EVEN_PAGE)
-builder.insert_field(" DOCPROPERTY Category")
-
+builder.insert_field(field_code=' DOCPROPERTY Category')
 # The above DOCPROPERTY fields will display the value of this built-in document property.
-doc.built_in_document_properties.category = "MyCategory"
-
+doc.built_in_document_properties.category = 'MyCategory'
 # If we update the value of a document property, we will need to update all the DOCPROPERTY fields to display it.
-self.assertEqual("", doc.range.fields[0].result)
-self.assertEqual("", doc.range.fields[1].result)
-
+self.assertEqual('', doc.range.fields[0].result)
+self.assertEqual('', doc.range.fields[1].result)
 # Update all the fields that are in the range of the first section.
 doc.first_section.range.update_fields()
-
-self.assertEqual("MyCategory", doc.range.fields[0].result)
-self.assertEqual("", doc.range.fields[1].result)
+self.assertEqual('MyCategory', doc.range.fields[0].result)
+self.assertEqual('', doc.range.fields[1].result)
 ```
 
 ### See Also

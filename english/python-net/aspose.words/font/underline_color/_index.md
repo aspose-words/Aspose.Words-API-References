@@ -32,13 +32,10 @@ Shows how to configure the style and color of a text underline.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.font.underline = aw.Underline.DOTTED
-builder.font.underline_color = drawing.Color.red
-
-builder.writeln("Underlined text.")
-
-doc.save(ARTIFACTS_DIR + "Font.underlines.docx")
+builder.font.underline_color = aspose.pydrawing.Color.red
+builder.writeln('Underlined text.')
+doc.save(file_name=ARTIFACTS_DIR + 'Font.Underlines.docx')
 ```
 
 ### See Also

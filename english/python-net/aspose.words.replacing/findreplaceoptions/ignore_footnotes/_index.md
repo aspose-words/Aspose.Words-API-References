@@ -34,22 +34,18 @@ Shows how to ignore footnotes during a find-and-replace operation.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-
+builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
+builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
 builder.insert_paragraph()
-
-builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-
+builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
+builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
 # Set the "ignore_footnotes" flag to "True" to get the find-and-replace
 # operation to ignore text inside footnotes.
 # Set the "ignore_footnotes" flag to "False" to get the find-and-replace
 # operation to also search for text inside footnotes.
 options = aw.replacing.FindReplaceOptions()
 options.ignore_footnotes = is_ignore_footnotes
-doc.range.replace("Lorem ipsum", "Replaced Lorem ipsum", options)
+doc.range.replace('Lorem ipsum', 'Replaced Lorem ipsum', options)
 ```
 
 ### See Also

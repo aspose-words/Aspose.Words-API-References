@@ -108,31 +108,42 @@ Shows how to clone a composite node.
 ```python
 doc = aw.Document()
 para = doc.first_section.body.first_paragraph
-para.append_child(aw.Run(doc, "Hello world!"))
-
+para.append_child(aw.Run(doc=doc, text='Hello world!'))
 # Below are two ways of cloning a composite node.
 # 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
 clone_with_children = para.clone(True)
-
 self.assertTrue(clone_with_children.as_composite_node().has_child_nodes)
-self.assertEqual("Hello world!", clone_with_children.get_text().strip())
-
+self.assertEqual('Hello world!', clone_with_children.get_text().strip())
 # 2 -  Create a clone of a node just by itself without any children.
 clone_without_children = para.clone(False)
-
 self.assertFalse(clone_without_children.as_composite_node().has_child_nodes)
-self.assertEqual("", clone_without_children.get_text().strip())
+self.assertEqual('', clone_without_children.get_text().strip())
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
+self.assertEqual(2, doc.get_child_nodes(aw.NodeType.TABLE, True).count)
+cur_node = doc.first_section.body.first_child
+while cur_node != None:
+    # Save the next sibling node as a variable in case we want to move to it after deleting this node.
+    next_node = cur_node.next_sibling
+    # A section body can contain Paragraph and Table nodes.
+    # If the node is a Table, remove it from the parent.
+    if cur_node.node_type == aw.NodeType.TABLE:
+        cur_node.remove()
+    cur_node = next_node
+self.assertEqual(0, doc.get_child_nodes(aw.NodeType.TABLE, True).count)
 ```
 
 Shows how to traverse through a composite node's collection of child nodes.
 
 ```python
 doc = aw.Document()
-
 # Add two runs and one shape as child nodes to the first paragraph of this document.
 paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
-paragraph.append_child(aw.Run(doc, "Hello world! "))
-
+paragraph.append_child(aw.Run(doc, 'Hello world! '))
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.RECTANGLE)
 shape.width = 200
 shape.height = 200
@@ -140,48 +151,19 @@ shape.height = 200
 shape.custom_node_id = 100
 shape.wrap_type = aw.drawing.WrapType.INLINE
 paragraph.append_child(shape)
-
-paragraph.append_child(aw.Run(doc, "Hello again!"))
-
+paragraph.append_child(aw.Run(doc, 'Hello again!'))
 # Iterate through the paragraph's collection of immediate children,
 # and print any runs or shapes that we find within.
 children = paragraph.get_child_nodes(aw.NodeType.ANY, False)
-
 self.assertEqual(3, paragraph.get_child_nodes(aw.NodeType.ANY, False).count)
-
 for child in children:
     if child.node_type == aw.NodeType.RUN:
-        print("Run contents:")
-        print(f"\t\"{child.get_text().strip()}\"")
-
+        print('Run contents:')
+        print(f'\t"{child.get_text().strip()}"')
     elif child.node_type == aw.NodeType.SHAPE:
         child_shape = child.as_shape()
-        print("Shape:")
-        print(f"\t{child_shape.shape_type}, {child_shape.width}x{child_shape.height}")
-```
-
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```python
-doc = aw.Document(MY_DIR + "Tables.docx")
-
-self.assertEqual(2, doc.get_child_nodes(aw.NodeType.TABLE, True).count)
-
-cur_node = doc.first_section.body.first_child
-
-while cur_node is not None:
-
-    # Save the next sibling node as a variable in case we want to move to it after deleting this node.
-    next_node = cur_node.next_sibling
-
-    # A section body can contain Paragraph and Table nodes.
-    # If the node is a Table, remove it from the parent.
-    if cur_node.node_type == aw.NodeType.TABLE:
-        cur_node.remove()
-
-    cur_node = next_node
-
-self.assertEqual(0, doc.get_child_nodes(aw.NodeType.TABLE, True).count)
+        print('Shape:')
+        print(f'\t{child_shape.shape_type}, {child_shape.width}x{child_shape.height}')
 ```
 
 ### See Also

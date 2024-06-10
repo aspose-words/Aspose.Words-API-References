@@ -81,6 +81,21 @@ def merge(self, input_files: List[str], merge_format_mode: aspose.words.lowcode.
 | input_files | List[str] | The input file names. |
 | merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
 
+## Examples
+
+Shows how to merge documents into a single output document.
+
+```python
+#There is a several ways to merge documents:
+aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.SimpleMerge.docx', input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'])
+save_options = aw.saving.OoxmlSaveOptions()
+save_options.password = 'Aspose.Words'
+aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.SaveOptions.docx', input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'], save_options=save_options, merge_format_mode=aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING)
+aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.SaveFormat.pdf', input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'], save_format=aw.SaveFormat.PDF, merge_format_mode=aw.lowcode.MergeFormatMode.KEEP_SOURCE_LAYOUT)
+doc = aw.lowcode.Merger.merge(input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'], merge_format_mode=aw.lowcode.MergeFormatMode.MERGE_FORMATTING)
+doc.save(file_name=ARTIFACTS_DIR + 'LowCode.MergeDocument.DocumentInstance.docx')
+```
+
 ## See Also
 
 * module [aspose.words.lowcode](../../)

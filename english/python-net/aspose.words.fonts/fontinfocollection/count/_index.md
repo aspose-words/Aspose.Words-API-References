@@ -27,17 +27,13 @@ Shows info about the fonts that are present in the blank document.
 
 ```python
 doc = aw.Document()
-
 # A blank document contains 3 default fonts. Each font in the document
 # will have a corresponding FontInfo object which contains details about that font.
 self.assertEqual(3, doc.font_infos.count)
-
-font_names = [font.name for font in doc.font_infos]
-self.assertIn("Times New Roman", font_names)
-self.assertEqual(204, doc.font_infos.get_by_name("Times New Roman").charset)
-
-self.assertIn("Symbol", font_names)
-self.assertIn("Arial", font_names)
+self.assertTrue(doc.font_infos.contains('Times New Roman'))
+self.assertEqual(204, doc.font_infos.get_by_name('Times New Roman').charset)
+self.assertTrue(doc.font_infos.contains('Symbol'))
+self.assertTrue(doc.font_infos.contains('Arial'))
 ```
 
 ### See Also

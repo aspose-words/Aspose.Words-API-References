@@ -33,26 +33,20 @@ Shows how to apply editing restrictions to structured document tags.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert a plain text structured document tag, which acts as a text box that prompts the user to fill it in.
 tag = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.PLAIN_TEXT, aw.markup.MarkupLevel.INLINE)
-
-# Set the "lock_contents" property to "True" to prohibit the user from editing this text box's contents.
+# Set the "LockContents" property to "true" to prohibit the user from editing this text box's contents.
 tag.lock_contents = True
-builder.write("The contents of this structured document tag cannot be edited: ")
+builder.write('The contents of this structured document tag cannot be edited: ')
 builder.insert_node(tag)
-
 tag = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.PLAIN_TEXT, aw.markup.MarkupLevel.INLINE)
-
-# Set the "lock_content_control" property to "True" to prohibit the user from
+# Set the "LockContentControl" property to "true" to prohibit the user from
 # deleting this structured document tag manually in Microsoft Word.
 tag.lock_content_control = True
-
 builder.insert_paragraph()
-builder.write("This structured document tag cannot be deleted but its contents can be edited: ")
+builder.write('This structured document tag cannot be deleted but its contents can be edited: ')
 builder.insert_node(tag)
-
-doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.lock.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'StructuredDocumentTag.Lock.docx')
 ```
 
 ### See Also

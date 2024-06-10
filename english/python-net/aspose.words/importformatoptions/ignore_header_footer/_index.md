@@ -33,15 +33,12 @@ def ignore_header_footer(self, value: bool):
 Shows how to specifies ignoring or not source formatting of headers/footers content.
 
 ```python
-dst_doc = aw.Document(MY_DIR + "Document.docx")
-src_doc = aw.Document(MY_DIR + "Header and footer types.docx")
-
+dst_doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+src_doc = aw.Document(file_name=MY_DIR + 'Header and footer types.docx')
 import_format_options = aw.ImportFormatOptions()
 import_format_options.ignore_header_footer = False
-
-dst_doc.append_document(src_doc, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, import_format_options)
-
-dst_doc.save(ARTIFACTS_DIR + "DocumentBuilder.do_not_ignore_header_footer.docx")
+dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, import_format_options=import_format_options)
+dst_doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.DoNotIgnoreHeaderFooter.docx')
 ```
 
 ### See Also

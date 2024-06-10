@@ -64,23 +64,18 @@ Shows how to work with REVNUM fields.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Current revision #")
-
+builder.write('Current revision #')
 # Insert a REVNUM field, which displays the document's current revision number property.
 field = builder.insert_field(aw.fields.FieldType.FIELD_REVISION_NUM, True).as_field_rev_num()
-
-self.assertEqual(" REVNUM ", field.get_field_code())
-self.assertEqual("1", field.result)
+self.assertEqual(' REVNUM ', field.get_field_code())
+self.assertEqual('1', field.result)
 self.assertEqual(1, doc.built_in_document_properties.revision_number)
-
 # This property counts how many times a document has been saved in Microsoft Word,
 # and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
 # via Properties -> Details. We can update this property manually.
 doc.built_in_document_properties.revision_number += 1
 field.update()
-
-self.assertEqual("2", field.result)
+self.assertEqual('2', field.result)
 ```
 
 ### See Also

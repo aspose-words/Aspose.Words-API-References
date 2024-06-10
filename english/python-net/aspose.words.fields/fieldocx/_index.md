@@ -57,10 +57,8 @@ Shows how to insert an OCX field.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 field = builder.insert_field(aw.fields.FieldType.FIELD_OCX, True).as_field_ocx()
-
-self.assertEqual(" OCX ", field.get_field_code())
+self.assertEqual(' OCX ', field.get_field_code())
 ```
 
 ### See Also

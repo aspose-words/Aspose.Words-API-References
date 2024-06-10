@@ -39,18 +39,15 @@ aspose.pydrawing.Color.white.
 Shows how to process shape stroke features.
 
 ```python
-doc = aw.Document(MY_DIR + "Shape stroke pattern border.docx")
+doc = aw.Document(MY_DIR + 'Shape stroke pattern border.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 stroke = shape.stroke
-
 # Strokes can have two colors, which are used to create a pattern defined by two-tone image data.
 # Strokes with a single color do not use the Color2 property.
-self.assertEqual(drawing.Color.from_argb(255, 128, 0, 0), stroke.color)
-self.assertEqual(drawing.Color.from_argb(255, 255, 255, 0), stroke.color2)
-
+self.assertEqual(aspose.pydrawing.Color.from_argb(255, 128, 0, 0), stroke.color)
+self.assertEqual(aspose.pydrawing.Color.from_argb(255, 255, 255, 0), stroke.color2)
 self.assertIsNotNone(stroke.image_bytes)
-
-with open(ARTIFACTS_DIR + "Drawing.stroke_pattern.png", "wb") as file:
+with open(ARTIFACTS_DIR + 'Drawing.stroke_pattern.png', 'wb') as file:
     file.write(stroke.image_bytes)
 ```
 

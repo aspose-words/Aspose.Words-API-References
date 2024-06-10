@@ -38,15 +38,13 @@ This property is used when the document is exported to fixed page formats.
 Shows how to render Ink object.
 
 ```python
-doc = aw.Document(MY_DIR + "Ink object.docx")
-
-# Set 'ImlRenderingMode.INK_ML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+doc = aw.Document(file_name=MY_DIR + 'Ink object.docx')
+# Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
 # If the rendering result is unsatisfactory,
-# please use 'ImlRenderingMode.FALLBACK' to get a result similar to previous versions.
+# please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
 save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
 save_options.iml_rendering_mode = aw.saving.ImlRenderingMode.INK_ML
-
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.render_ink_object.jpeg", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.RenderInkObject.jpeg', save_options=save_options)
 ```
 
 ### See Also

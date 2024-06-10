@@ -5,7 +5,7 @@ articleTitle: aspose.words.tables module
 second_title: Aspose.Words for Python
 description: "The aspose.words.tables module contains classes that represent tables, rows, cells and their formatting."
 type: docs
-weight: 290
+weight: 270
 url: /python-net/aspose.words.tables/
 ---
 

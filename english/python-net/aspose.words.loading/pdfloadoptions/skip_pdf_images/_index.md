@@ -26,23 +26,6 @@ def skip_pdf_images(self, value: bool):
 
 ```
 
-### Examples
-
-Shows how to skip images during loading PDF files.
-
-```python
-options = aw.loading.PdfLoadOptions()
-options.skip_pdf_images = is_skip_pdf_images
-
-doc = aw.Document(MY_DIR + "Images.pdf", options)
-shape_collection = doc.get_child_nodes(aw.NodeType.SHAPE, True)
-
-if is_skip_pdf_images:
-    self.assertEqual(shape_collection.count, 0)
-else:
-    self.assertNotEqual(shape_collection.count, 0)
-```
-
 ### See Also
 
 * module [aspose.words.loading](../../)

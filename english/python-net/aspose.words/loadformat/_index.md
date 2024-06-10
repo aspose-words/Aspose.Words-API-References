@@ -51,45 +51,34 @@ Indicates the format of the document that is to be loaded.
 Shows how save a web page as a .docx file.
 
 ```python
-url = "https://products.aspose.com/words/"
-
+url = 'https://products.aspose.com/words/'
 with io.BytesIO(urlopen(url).read()) as stream:
     # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
-    options = aw.loading.LoadOptions(aw.LoadFormat.HTML, "", url)
-
+    options = aw.loading.LoadOptions(aw.LoadFormat.HTML, '', url)
     # Load the HTML document from stream and pass the LoadOptions object.
     doc = aw.Document(stream, options)
-
     # At this stage, we can read and edit the document's contents and then save it to the local file system.
-
-    doc.save(ARTIFACTS_DIR + "Document.insert_html_from_web_page.docx")
+    doc.save(ARTIFACTS_DIR + 'Document.insert_html_from_web_page.docx')
 ```
 
 Shows how to use the aw.FileFormatUtil methods to detect the format of a document.
 
 ```python
 # Load a document from a file that is missing a file extension, and then detect its file format.
-with open(MY_DIR + "Word document with missing file extension", "rb") as doc_stream:
-
+with open(MY_DIR + 'Word document with missing file extension', 'rb') as doc_stream:
     info = aw.FileFormatUtil.detect_file_format(doc_stream)
     load_format = info.load_format
-
     self.assertEqual(aw.LoadFormat.DOC, load_format)
-
     # Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     # 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
     file_extension = aw.FileFormatUtil.load_format_to_extension(load_format)
     save_format = aw.FileFormatUtil.extension_to_save_format(file_extension)
-
     # 2 -  Convert the LoadFormat directly to its SaveFormat:
     save_format = aw.FileFormatUtil.load_format_to_save_format(load_format)
-
     # Load a document from the stream, and then save it to the automatically detected file extension.
     doc = aw.Document(doc_stream)
-
-    self.assertEqual(".doc", aw.FileFormatUtil.save_format_to_extension(save_format))
-
-    doc.save(ARTIFACTS_DIR + "File.save_to_detected_file_format" + aw.FileFormatUtil.save_format_to_extension(save_format))
+    self.assertEqual('.doc', aw.FileFormatUtil.save_format_to_extension(save_format))
+    doc.save(ARTIFACTS_DIR + 'File.save_to_detected_file_format' + aw.FileFormatUtil.save_format_to_extension(save_format))
 ```
 
 Shows how to specify a base URI when opening an html document.
@@ -98,18 +87,14 @@ Shows how to specify a base URI when opening an html document.
 # Suppose we want to load an .html document that contains an image linked by a relative URI
 # while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
 # We can provide a base URI using an HtmlLoadOptions object.
-load_options = aw.loading.HtmlLoadOptions(aw.LoadFormat.HTML, "", IMAGE_DIR)
-
+load_options = aw.loading.HtmlLoadOptions(aw.LoadFormat.HTML, '', IMAGE_DIR)
 self.assertEqual(aw.LoadFormat.HTML, load_options.load_format)
-
-doc = aw.Document(MY_DIR + "Missing image.html", load_options)
-
+doc = aw.Document(MY_DIR + 'Missing image.html', load_options)
 # While the image was broken in the input .html, our custom base URI helped us repair the link.
 image_shape = doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
 self.assertTrue(image_shape.is_image)
-
 # This output document will display the image that was missing.
-doc.save(ARTIFACTS_DIR + "HtmlLoadOptions.base_uri.docx")
+doc.save(ARTIFACTS_DIR + 'HtmlLoadOptions.base_uri.docx')
 ```
 
 ### See Also

@@ -44,7 +44,6 @@ Shows how to move a document builder's cursor to a cell in a table.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Create an empty 2x2 table.
 builder.start_table()
 builder.insert_cell()
@@ -53,16 +52,14 @@ builder.end_row()
 builder.insert_cell()
 builder.insert_cell()
 builder.end_table()
-
-# Because we have ended the table with the "end_table" method,
+# Because we have ended the table with the EndTable method,
 # the document builder's cursor is currently outside the table.
 # This cursor has the same function as Microsoft Word's blinking text cursor.
 # It can also be moved to a different location in the document using the builder's MoveTo methods.
 # We can move the cursor back inside the table to a specific cell.
 builder.move_to_cell(0, 1, 1, 0)
-builder.write("Column 2, cell 2.")
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.move_to_cell.docx")
+builder.write('Column 2, cell 2.')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.MoveToCell.docx')
 ```
 
 ### See Also

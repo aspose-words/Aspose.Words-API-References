@@ -26,11 +26,9 @@ def type(self) -> aspose.words.tables.PreferredWidthType:
 Shows how to verify the preferred width type and value of a table cell.
 
 ```python
-doc = aw.Document(MY_DIR + "Tables.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
 table = doc.first_section.body.tables[0]
 first_cell = table.first_row.first_cell
-
 self.assertEqual(aw.tables.PreferredWidthType.PERCENT, first_cell.cell_format.preferred_width.type)
 self.assertEqual(11.16, first_cell.cell_format.preferred_width.value)
 ```
