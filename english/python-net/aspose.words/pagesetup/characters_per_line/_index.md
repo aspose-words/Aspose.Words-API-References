@@ -44,19 +44,14 @@ Shows how to specify a for the number of characters that each line may have.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Enable pitching, and then use it to set the number of characters per line in this section.
 builder.page_setup.layout_mode = aw.SectionLayoutMode.GRID
 builder.page_setup.characters_per_line = 10
-
 # The number of characters also depends on the size of the font.
-doc.styles.get_by_name("Normal").font.size = 20
-
+doc.styles.get_by_name('Normal').font.size = 20
 self.assertEqual(8, doc.first_section.page_setup.characters_per_line)
-
-builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-
-doc.save(ARTIFACTS_DIR + "PageSetup.characters_per_line.docx")
+builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.CharactersPerLine.docx')
 ```
 
 ### See Also

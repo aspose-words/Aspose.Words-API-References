@@ -30,15 +30,12 @@ def text(self, value: str):
 Shows how to change text of the TextBox OLE control.
 
 ```python
-doc = aw.Document(MY_DIR + "Textbox control.docm")
-
-shape = doc.get_child(NodeType.SHAPE, 0, True).as_shape()
-
-textBoxControl = shape.ole_format.ole_control.as_forms2_ole_control().as_text_box_control()
-self.assertEqual("Aspose.Words test", textBoxControl.text)
-
-textBoxControl.text = "Updated text"
-self.assertEqual("Updated text", textBoxControl.text)
+doc = aw.Document(file_name=MY_DIR + 'Textbox control.docm')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+text_box_control = shape.ole_format.ole_control.as_text_box_control()
+self.assertEqual('Aspose.Words test', text_box_control.text)
+text_box_control.text = 'Updated text'
+self.assertEqual('Updated text', text_box_control.text)
 ```
 
 ### See Also

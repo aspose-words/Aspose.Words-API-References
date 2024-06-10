@@ -46,13 +46,10 @@ Shows how to export custom properties while converting a document to PDF.
 
 ```python
 doc = aw.Document()
-
-doc.custom_document_properties.add("Company", "My value")
-
+doc.custom_document_properties.add('Company', 'My value')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-
 # Set the "custom_properties_export" property to "PdfCustomPropertiesExport.NONE" to discard
 # custom document properties as we save the document to .PDF.
 # Set the "custom_properties_export" property to "PdfCustomPropertiesExport.STANDARD"
@@ -60,8 +57,7 @@ options = aw.saving.PdfSaveOptions()
 # Set the "custom_properties_export" property to "PdfCustomPropertiesExport.METADATA"
 # to preserve custom properties in an XMP packet.
 options.custom_properties_export = pdf_custom_properties_export_mode
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.custom_properties_export.pdf", options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.custom_properties_export.pdf', options)
 ```
 
 ### See Also

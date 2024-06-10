@@ -5,7 +5,7 @@ articleTitle: ShapeType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ShapeType enumeration. Specifies the type of shape in a Microsoft Word document."
 type: docs
-weight: 380
+weight: 400
 url: /python-net/aspose.words.drawing/shapetype/
 ---
 
@@ -275,19 +275,16 @@ Shows how to insert a shape with an image from the local file system into a docu
 
 ```python
 doc = aw.Document()
-
 # The "Shape" class's public constructor will create a shape with "ShapeMarkupLanguage.VML" markup type.
 # If you need to create a shape of a non-primitive type, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 # TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
 # please use DocumentBuilder.insert_shape.
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
-shape.image_data.set_image(IMAGE_DIR + "Windows MetaFile.wmf")
+shape.image_data.set_image(IMAGE_DIR + 'Windows MetaFile.wmf')
 shape.width = 100
 shape.height = 100
-
 doc.first_section.body.first_paragraph.append_child(shape)
-
-doc.save(ARTIFACTS_DIR + "Image.from_file.docx")
+doc.save(ARTIFACTS_DIR + 'Image.from_file.docx')
 ```
 
 Shows how Aspose.Words identify shapes.
@@ -295,27 +292,16 @@ Shows how Aspose.Words identify shapes.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.insert_shape(aw.drawing.ShapeType.HEPTAGON, aw.drawing.RelativeHorizontalPosition.PAGE, 0,
-    aw.drawing.RelativeVerticalPosition.PAGE, 0, 0, 0, aw.drawing.WrapType.NONE)
-
-builder.insert_shape(aw.drawing.ShapeType.CLOUD, aw.drawing.RelativeHorizontalPosition.RIGHT_MARGIN, 0,
-    aw.drawing.RelativeVerticalPosition.PAGE, 0, 0, 0, aw.drawing.WrapType.NONE)
-
-builder.insert_shape(aw.drawing.ShapeType.MATH_PLUS, aw.drawing.RelativeHorizontalPosition.RIGHT_MARGIN, 0,
-    aw.drawing.RelativeVerticalPosition.PAGE, 0, 0, 0, aw.drawing.WrapType.NONE)
-
+builder.insert_shape(aw.drawing.ShapeType.HEPTAGON, aw.drawing.RelativeHorizontalPosition.PAGE, 0, aw.drawing.RelativeVerticalPosition.PAGE, 0, 0, 0, aw.drawing.WrapType.NONE)
+builder.insert_shape(aw.drawing.ShapeType.CLOUD, aw.drawing.RelativeHorizontalPosition.RIGHT_MARGIN, 0, aw.drawing.RelativeVerticalPosition.PAGE, 0, 0, 0, aw.drawing.WrapType.NONE)
+builder.insert_shape(aw.drawing.ShapeType.MATH_PLUS, aw.drawing.RelativeHorizontalPosition.RIGHT_MARGIN, 0, aw.drawing.RelativeVerticalPosition.PAGE, 0, 0, 0, aw.drawing.WrapType.NONE)
 # To correct identify shape types you need to work with shapes as DML.
 save_options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
-
 # "Strict" or "Transitional" compliance allows to save shape as DML.
 save_options.compliance = aw.saving.OoxmlCompliance.ISO29500_2008_TRANSITIONAL
-
-doc.save(ARTIFACTS_DIR + "Shape.shape_types.docx", save_options)
-doc = aw.Document(ARTIFACTS_DIR + "Shape.shape_types.docx")
-
+doc.save(ARTIFACTS_DIR + 'Shape.shape_types.docx', save_options)
+doc = aw.Document(ARTIFACTS_DIR + 'Shape.shape_types.docx')
 shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
-
 for shape in shapes:
     print(shape.shape_type)
 ```

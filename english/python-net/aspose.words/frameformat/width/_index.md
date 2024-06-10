@@ -26,14 +26,12 @@ def width(self) -> float:
 Shows how to get information about formatting properties of paragraphs that are frames.
 
 ```python
-doc = aw.Document(MY_DIR + "Paragraph frame.docx")
-
+doc = aw.Document(MY_DIR + 'Paragraph frame.docx')
 for paragraph in doc.first_section.body.paragraphs:
     paragraph = paragraph.as_paragraph()
     if paragraph.frame_format.is_frame:
         paragraph_frame = paragraph
         break
-
 self.assertEqual(233.3, paragraph_frame.frame_format.width)
 self.assertEqual(138.8, paragraph_frame.frame_format.height)
 self.assertEqual(aw.HeightRule.AT_LEAST, paragraph_frame.frame_format.height_rule)

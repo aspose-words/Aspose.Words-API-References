@@ -33,10 +33,8 @@ Returns -1 if the node is not found in the child nodes.
 Shows how to get the index of a given child node from its parent.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 body = doc.first_section.body
-
 # Retrieve the index of the last paragraph in the body of the first section.
 self.assertEqual(24, body.get_child_nodes(aw.NodeType.ANY, False).index_of(body.last_paragraph))
 ```

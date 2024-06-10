@@ -60,13 +60,11 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [lists](../../aspose.words/documentbase/lists/) | Provides access to the list formatting used in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_changing_callback](../../aspose.words/documentbase/node_changing_callback/) | Called when a node is inserted or removed in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [node_type](./node_type/) | Returns the [NodeType.GLOSSARY_DOCUMENT](../../aspose.words/nodetype/#GLOSSARY_DOCUMENT) value. |
 | [page_color](../../aspose.words/documentbase/page_color/) | Gets or sets the page color of the document. This property is a simpler version of [DocumentBase.background_shape](../../aspose.words/documentbase/background_shape/).<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [resource_loading_callback](../../aspose.words/documentbase/resource_loading_callback/) | Allows to control how external resources are loaded.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [styles](../../aspose.words/documentbase/styles/) | Returns a collection of styles defined in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [warning_callback](../../aspose.words/documentbase/warning_callback/) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 

@@ -46,20 +46,15 @@ or [SaveFormat.MOBI](../../../aspose.words/saveformat/#MOBI) formats this option
 Shows how to improve the quality of a rendered document with SaveOptions.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
+doc = aw.Document(MY_DIR + 'Rendering.docx')
 builder = aw.DocumentBuilder(doc)
-
 builder.font.size = 60
-builder.writeln("Some text.")
-
+builder.writeln('Some text.')
 options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-
-doc.save(ARTIFACTS_DIR + "Document.image_save_options.default.jpg", options)
-
+doc.save(ARTIFACTS_DIR + 'Document.image_save_options.default.jpg', options)
 options.use_anti_aliasing = True
 options.use_high_quality_rendering = True
-
-doc.save(ARTIFACTS_DIR + "Document.image_save_options.high_quality.jpg", options)
+doc.save(ARTIFACTS_DIR + 'Document.image_save_options.high_quality.jpg', options)
 ```
 
 ### See Also

@@ -33,9 +33,8 @@ If you created a new blank document, returns the [LoadFormat.DOC](../../loadform
 Shows how to retrieve details of a document's load operation.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
-
-self.assertEqual(MY_DIR + "Document.docx", doc.original_file_name)
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+self.assertEqual(MY_DIR + 'Document.docx', doc.original_file_name)
 self.assertEqual(aw.LoadFormat.DOCX, doc.original_load_format)
 ```
 

@@ -5,7 +5,7 @@ articleTitle: TxtLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.TxtLoadOptions class. Allows to specify additional options when loading [LoadFormat.TEXT](../../aspose.words/loadformat/#TEXT) document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 190
+weight: 180
 url: /python-net/aspose.words.loading/txtloadoptions/
 ---
 
@@ -49,6 +49,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [temp_folder](../loadoptions/temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [trailing_spaces_options](./trailing_spaces_options/) | Gets or sets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions.TRIM](../txttrailingspacesoptions/#TRIM). |
 | [update_dirty_fields](../loadoptions/update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [use_system_lcid](../loadoptions/use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [warning_callback](../loadoptions/warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
 ### See Also

@@ -62,46 +62,35 @@ Shows how to use SECTION and SECTIONPAGES fields to number pages by sections.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
 builder.paragraph_format.alignment = aw.ParagraphAlignment.RIGHT
-
 # A SECTION field displays the number of the section it is in.
-builder.write("Section ")
+builder.write('Section ')
 field_section = builder.insert_field(aw.fields.FieldType.FIELD_SECTION, True).as_field_section()
-
-self.assertEqual(" SECTION ", field_section.get_field_code())
-
+self.assertEqual(' SECTION ', field_section.get_field_code())
 # A PAGE field displays the number of the page it is in.
-builder.write("\nPage ")
+builder.write('\nPage ')
 field_page = builder.insert_field(aw.fields.FieldType.FIELD_PAGE, True).as_field_page()
-
-self.assertEqual(" PAGE ", field_page.get_field_code())
-
+self.assertEqual(' PAGE ', field_page.get_field_code())
 # A SECTIONPAGES field displays the number of pages that the section it is in spans across.
-builder.write(" of ")
+builder.write(' of ')
 field_section_pages = builder.insert_field(aw.fields.FieldType.FIELD_SECTION_PAGES, True).as_field_section_pages()
-
-self.assertEqual(" SECTIONPAGES ", field_section_pages.get_field_code())
-
+self.assertEqual(' SECTIONPAGES ', field_section_pages.get_field_code())
 # Move out of the header back into the main document and insert two pages.
 # All these pages will be in the first section. Our fields, which appear once every header,
 # will number the current/total pages of this section.
 builder.move_to_document_end()
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-
 # We can insert a new section with the document builder like this.
 # This will affect the values displayed in the SECTION and SECTIONPAGES fields in all upcoming headers.
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
-
 # The PAGE field will keep counting pages across the whole document.
 # We can manually reset its count at each section to keep track of pages section-by-section.
 builder.current_section.page_setup.restart_page_numbering = True
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + "Field.field_section.docx")
+doc.save(ARTIFACTS_DIR + 'Field.field_section.docx')
 ```
 
 ### See Also

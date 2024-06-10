@@ -51,18 +51,15 @@ Shows how to save hyperlinks in a document we convert to PDF so that they open n
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.insert_hyperlink("Testlink", "https://www.google.com/search?q=%20aspose", False)
-
+builder.insert_hyperlink('Testlink', 'https://www.google.com/search?q=%20aspose', False)
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-
 # Set the "open_hyperlinks_in_new_window" property to "True" to save all hyperlinks using Javascript code
 # that forces readers to open these links in new windows/browser tabs.
 # Set the "open_hyperlinks_in_new_window" property to "False" to save all hyperlinks normally.
 options.open_hyperlinks_in_new_window = open_hyperlinks_in_new_window
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.open_hyperlinks_in_new_window.pdf", options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.open_hyperlinks_in_new_window.pdf', options)
 ```
 
 ### See Also

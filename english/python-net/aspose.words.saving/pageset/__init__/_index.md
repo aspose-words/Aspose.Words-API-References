@@ -79,40 +79,29 @@ Shows how to extract pages based on exact page indices.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Add five pages to the document.
-for i in range(1, 6):
-    builder.write("Page " + str(i))
+i = 1
+while i < 6:
+    builder.write('Page ' + str(i))
     builder.insert_break(aw.BreakType.PAGE_BREAK)
-
-# Create an "XpsSaveOptions" object, which we can pass to the document's "save" method
+    i += 1
+# Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method
 # to modify how that method converts the document to .XPS.
 xps_options = aw.saving.XpsSaveOptions()
-
-# Use the "page_set" property to select a set of the document's pages to save to output XPS.
+# Use the "PageSet" property to select a set of the document's pages to save to output XPS.
 # In this case, we will choose, via a zero-based index, only three pages: page 1, page 2, and page 4.
-xps_options.page_set = aw.saving.PageSet([0, 1, 3])
-
-doc.save(ARTIFACTS_DIR + "XpsSaveOptions.export_exact_pages.xps", xps_options)
+xps_options.page_set = aw.saving.PageSet(pages=[0, 1, 3])
+doc.save(file_name=ARTIFACTS_DIR + 'XpsSaveOptions.ExportExactPages.xps', save_options=xps_options)
 ```
 
 Shows how to extract pages based on exact page ranges.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
 image_options = aw.saving.ImageSaveOptions(aw.SaveFormat.TIFF)
-ranges = [
-    aw.saving.PageRange(1, 1),
-    aw.saving.PageRange(2, 3),
-    aw.saving.PageRange(1, 3),
-    aw.saving.PageRange(2, 4),
-    aw.saving.PageRange(1, 1)
-    ]
-page_set = aw.saving.PageSet(ranges=ranges)
-
+page_set = aw.saving.PageSet(ranges=[aw.saving.PageRange(1, 1), aw.saving.PageRange(2, 3), aw.saving.PageRange(1, 3), aw.saving.PageRange(2, 4), aw.saving.PageRange(1, 1)])
 image_options.page_set = page_set
-doc.save(ARTIFACTS_DIR + "ImageSaveOptions.export_various_page_ranges.tiff", image_options)
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.ExportVariousPageRanges.tiff', save_options=image_options)
 ```
 
 ## See Also

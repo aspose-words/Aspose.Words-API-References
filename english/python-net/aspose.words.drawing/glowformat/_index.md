@@ -5,7 +5,7 @@ articleTitle: GlowFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.GlowFormat class. Represents the glow formatting for an object."
 type: docs
-weight: 90
+weight: 110
 url: /python-net/aspose.words.drawing/glowformat/
 ---
 

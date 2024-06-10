@@ -5,7 +5,7 @@ articleTitle: id property
 second_title: Aspose.Words for Python
 description: "Comment.id property. Gets or sets the comment identifier."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words/comment/id/
 ---
 

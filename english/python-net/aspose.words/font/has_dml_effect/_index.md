@@ -33,10 +33,8 @@ def has_dml_effect(self, dml_effect_type: aspose.words.TextDmlEffect):
 Shows how to check if a run displays a DrawingML text effect.
 
 ```python
-doc = aw.Document(MY_DIR + "DrawingML text effects.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'DrawingML text effects.docx')
 runs = doc.first_section.body.first_paragraph.runs
-
 self.assertTrue(runs[0].font.has_dml_effect(aw.TextDmlEffect.SHADOW))
 self.assertTrue(runs[1].font.has_dml_effect(aw.TextDmlEffect.SHADOW))
 self.assertTrue(runs[2].font.has_dml_effect(aw.TextDmlEffect.REFLECTION))

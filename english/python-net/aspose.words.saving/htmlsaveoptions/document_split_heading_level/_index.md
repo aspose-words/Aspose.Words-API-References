@@ -46,24 +46,22 @@ Shows how to split an output HTML document by headings into several parts.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Every paragraph that we format using a "Heading" style can serve as a heading.
 # Each heading may also have a heading level, determined by the number of its heading style.
 # The headings below are of levels 1-3.
-builder.paragraph_format.style = builder.document.styles.get_by_name("Heading 1")
-builder.writeln("Heading #1")
-builder.paragraph_format.style = builder.document.styles.get_by_name("Heading 2")
-builder.writeln("Heading #2")
-builder.paragraph_format.style = builder.document.styles.get_by_name("Heading 3")
-builder.writeln("Heading #3")
-builder.paragraph_format.style = builder.document.styles.get_by_name("Heading 1")
-builder.writeln("Heading #4")
-builder.paragraph_format.style = builder.document.styles.get_by_name("Heading 2")
-builder.writeln("Heading #5")
-builder.paragraph_format.style = builder.document.styles.get_by_name("Heading 3")
-builder.writeln("Heading #6")
-
-# Create a HtmlSaveOptions object and set the split criteria to "HEADING_PARAGRAPH".
+builder.paragraph_format.style = builder.document.styles.get_by_name('Heading 1')
+builder.writeln('Heading #1')
+builder.paragraph_format.style = builder.document.styles.get_by_name('Heading 2')
+builder.writeln('Heading #2')
+builder.paragraph_format.style = builder.document.styles.get_by_name('Heading 3')
+builder.writeln('Heading #3')
+builder.paragraph_format.style = builder.document.styles.get_by_name('Heading 1')
+builder.writeln('Heading #4')
+builder.paragraph_format.style = builder.document.styles.get_by_name('Heading 2')
+builder.writeln('Heading #5')
+builder.paragraph_format.style = builder.document.styles.get_by_name('Heading 3')
+builder.writeln('Heading #6')
+# Create a HtmlSaveOptions object and set the split criteria to "HeadingParagraph".
 # These criteria will split the document at paragraphs with "Heading" styles into several smaller documents,
 # and save each document in a separate HTML file in the local file system.
 # We will also set the maximum heading level, which splits the document to 2.
@@ -71,29 +69,18 @@ builder.writeln("Heading #6")
 options = aw.saving.HtmlSaveOptions()
 options.document_split_criteria = aw.saving.DocumentSplitCriteria.HEADING_PARAGRAPH
 options.document_split_heading_level = 2
-
 # Our document has four headings of levels 1 - 2. One of those headings will not be
 # a split point since it is at the beginning of the document.
 # The saving operation will split our document at three places, into four smaller documents.
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.heading_levels.html", options)
-
-doc = aw.Document(ARTIFACTS_DIR + "HtmlSaveOptions.heading_levels.html")
-
-self.assertEqual("Heading #1", doc.get_text().strip())
-
-doc = aw.Document(ARTIFACTS_DIR + "HtmlSaveOptions.heading_levels-01.html")
-
-self.assertEqual("Heading #2\r" +
-                 "Heading #3", doc.get_text().strip())
-
-doc = aw.Document(ARTIFACTS_DIR + "HtmlSaveOptions.heading_levels-02.html")
-
-self.assertEqual("Heading #4", doc.get_text().strip())
-
-doc = aw.Document(ARTIFACTS_DIR + "HtmlSaveOptions.heading_levels-03.html")
-
-self.assertEqual("Heading #5\r" +
-                 "Heading #6", doc.get_text().strip())
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.HeadingLevels.html', save_options=options)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.HeadingLevels.html')
+self.assertEqual('Heading #1', doc.get_text().strip())
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.HeadingLevels-01.html')
+self.assertEqual('Heading #2\r' + 'Heading #3', doc.get_text().strip())
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.HeadingLevels-02.html')
+self.assertEqual('Heading #4', doc.get_text().strip())
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.HeadingLevels-03.html')
+self.assertEqual('Heading #5\r' + 'Heading #6', doc.get_text().strip())
 ```
 
 ### See Also

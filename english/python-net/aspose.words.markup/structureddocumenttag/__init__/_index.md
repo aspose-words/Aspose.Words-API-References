@@ -68,17 +68,13 @@ Show how to create a structured document tag in the form of a check box.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 sdt_check_box = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.CHECKBOX, aw.markup.MarkupLevel.INLINE)
 sdt_check_box.checked = True
-
 # We can set the symbols used to represent the checked/unchecked state of a checkbox content control.
-sdt_check_box.set_checked_symbol(0x00A9, "Times New Roman")
-sdt_check_box.set_unchecked_symbol(0x00AE, "Times New Roman")
-
+sdt_check_box.set_checked_symbol(169, 'Times New Roman')
+sdt_check_box.set_unchecked_symbol(174, 'Times New Roman')
 builder.insert_node(sdt_check_box)
-
-doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.check_box.docx")
+doc.save(ARTIFACTS_DIR + 'StructuredDocumentTag.check_box.docx')
 ```
 
 ### See Also

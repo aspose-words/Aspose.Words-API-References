@@ -30,39 +30,6 @@ Includes "mustache" field names if [MailMerge.use_non_merge_fields](../use_non_m
 
 
 
-### Examples
-
-Shows how to get names of all merge fields in a document.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.insert_field(" MERGEFIELD FirstName ")
-builder.write(" ")
-builder.insert_field(" MERGEFIELD LastName ")
-builder.insert_paragraph()
-builder.insert_field(" MERGEFIELD City ")
-
-data_table = DataTable("MyTable")
-data_table.columns.add("FirstName")
-data_table.columns.add("LastName")
-data_table.columns.add("City")
-data_table.rows.add(["John", "Doe", "New York"])
-data_table.rows.add(["Joe", "Bloggs", "Washington"])
-
-# For every MERGEFIELD name in the document, ensure that the data table contains a column
-# with the same name, and then execute the mail merge.
-field_names = doc.mail_merge.get_field_names()
-
-self.assertEqual(3, len(field_names))
-
-for field_name in field_names:
-    self.assertTrue(data_table.columns.contains(field_name))
-
-doc.mail_merge.execute(data_table)
-```
-
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

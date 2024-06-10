@@ -17,7 +17,7 @@ For a shape that does not contain any adjustment raw values, it returns an empty
 
 ```python
 @property
-def adjustments(self) -> aspose.words.model.drawing.AdjustmentCollection:
+def adjustments(self) -> aspose.words.drawing.AdjustmentCollection:
     ...
 
 ```

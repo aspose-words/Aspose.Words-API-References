@@ -5,7 +5,7 @@ articleTitle: LoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.LoadOptions class. Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 110
+weight: 100
 url: /python-net/aspose.words.loading/loadoptions/
 ---
 
@@ -44,6 +44,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [resource_loading_callback](./resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [temp_folder](./temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used. |
 | [update_dirty_fields](./update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute. |
+| [use_system_lcid](./use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 | [warning_callback](./warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 
 ### Examples
@@ -53,17 +54,14 @@ Shows how to load an encrypted Microsoft Word document.
 ```python
 # Aspose.Words throw an exception if we try to open an encrypted document without its password.
 with self.assertRaises(Exception):
-    doc = aw.Document(MY_DIR + "Encrypted.docx")
-
+    doc = aw.Document(MY_DIR + 'Encrypted.docx')
 # When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
-options = aw.loading.LoadOptions("docPassword")
-
+options = aw.loading.LoadOptions('docPassword')
 # There are two ways of loading an encrypted document with a LoadOptions object.
 # 1 -  Load the document from the local file system by filename:
-doc = aw.Document(MY_DIR + "Encrypted.docx", options)
-
+doc = aw.Document(MY_DIR + 'Encrypted.docx', options)
 # 2 -  Load the document from a stream:
-with open(MY_DIR + "Encrypted.docx", "rb") as stream:
+with open(MY_DIR + 'Encrypted.docx', 'rb') as stream:
     doc = aw.Document(stream, options)
 ```
 

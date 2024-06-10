@@ -5,7 +5,7 @@ articleTitle: OleFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.OleFormat class. Provides access to the data of an OLE object or ActiveX control"
 type: docs
-weight: 230
+weight: 250
 url: /python-net/aspose.words.drawing/oleformat/
 ---
 
@@ -57,29 +57,23 @@ You do not create instances of the [OleFormat](./) class directly.
 Shows how to extract embedded OLE objects into files.
 
 ```python
-doc = aw.Document(MY_DIR + "OLE spreadsheet.docm")
+doc = aw.Document(MY_DIR + 'OLE spreadsheet.docm')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-
 # The OLE object in the first shape is a Microsoft Excel spreadsheet.
 ole_format = shape.ole_format
-
-self.assertEqual("Excel.Sheet.12", ole_format.prog_id)
-
+self.assertEqual('Excel.Sheet.12', ole_format.prog_id)
 # Our object is neither auto updating nor locked from updates.
 self.assertFalse(ole_format.auto_update)
 self.assertEqual(False, ole_format.is_locked)
-
 # If we plan on saving the OLE object to a file in the local file system,
 # we can use the "suggested_extension" property to determine which file extension to apply to the file.
-self.assertEqual(".xlsx", ole_format.suggested_extension)
-
+self.assertEqual('.xlsx', ole_format.suggested_extension)
 # Below are two ways of saving an OLE object to a file in the local file system.
 # 1 -  Save it via a stream:
-with open(ARTIFACTS_DIR + "OLE spreadsheet extracted via stream" + ole_format.suggested_extension, "wb") as file:
+with open(ARTIFACTS_DIR + 'OLE spreadsheet extracted via stream' + ole_format.suggested_extension, 'wb') as file:
     ole_format.save(file)
-
 # 2 -  Save it directly to a filename:
-ole_format.save(ARTIFACTS_DIR + "OLE spreadsheet saved directly" + ole_format.suggested_extension)
+ole_format.save(ARTIFACTS_DIR + 'OLE spreadsheet saved directly' + ole_format.suggested_extension)
 ```
 
 ### See Also

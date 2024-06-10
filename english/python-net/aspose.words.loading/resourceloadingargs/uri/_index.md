@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.uri property
 linktitle: uri property
 articleTitle: uri property
 second_title: Aspose.Words for Python
-description: "ResourceLoadingArgs.uri property. URI of the resource which is used for downloading if [IResourceLoadingCallback.resource_loading()](../../iresourceloadingcallback/resource_loading/#resourceloadingargs) returns [ResourceLoadingAction.DEFAULT](../../resourceloadingaction/#DEFAULT)."
+description: "ResourceLoadingArgs.uri property. URI of the resource which is used for downloading if Aspose.Words.Loading.IResourceLoadingCallback.ResourceLoading(Aspose.Words.Loading.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../resourceloadingaction/#DEFAULT)."
 type: docs
 weight: 30
 url: /python-net/aspose.words.loading/resourceloadingargs/uri/
@@ -12,7 +12,7 @@ url: /python-net/aspose.words.loading/resourceloadingargs/uri/
 ## ResourceLoadingArgs.uri property
 
 URI of the resource which is used for downloading
-if [IResourceLoadingCallback.resource_loading()](../../iresourceloadingcallback/resource_loading/#resourceloadingargs)
+if Aspose.Words.Loading.IResourceLoadingCallback.ResourceLoading(Aspose.Words.Loading.ResourceLoadingArgs)
 returns [ResourceLoadingAction.DEFAULT](../../resourceloadingaction/#DEFAULT).
 
 Initially it's set to absolute URI of the resource,

@@ -44,20 +44,16 @@ Shows how to ignore text inside field codes.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.insert_field("INCLUDETEXT", "Test IT!")
-
+builder.insert_field('INCLUDETEXT', 'Test IT!')
 options = aw.replacing.FindReplaceOptions()
 options.ignore_field_codes = ignore_field_codes
-
 # Replace 'T' in document ignoring text inside field code or not.
-doc.range.replace_regex("T", "*", options)
+doc.range.replace_regex('T', '*', options)
 print(doc.get_text())
-
 if ignore_field_codes:
-    self.assertEqual("\u0013INCLUDETEXT\u0014*est I*!\u0015", doc.get_text().strip())
+    self.assertEqual('\x13INCLUDETEXT\x14*est I*!\x15', doc.get_text().strip())
 else:
-    self.assertEqual("\u0013INCLUDE*EX*\u0014*est I*!\u0015", doc.get_text().strip())
+    self.assertEqual('\x13INCLUDE*EX*\x14*est I*!\x15', doc.get_text().strip())
 ```
 
 ### See Also

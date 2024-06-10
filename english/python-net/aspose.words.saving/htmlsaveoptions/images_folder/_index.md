@@ -54,21 +54,16 @@ If the folder specified by [HtmlSaveOptions.images_folder](./) doesn't exist, it
 Shows how to specify the folder for storing linked images after saving to .html.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
-images_dir = os.path.join(ARTIFACTS_DIR, "SaveHtmlWithOptions")
-
+doc = aw.Document(MY_DIR + 'Rendering.docx')
+images_dir = os.path.join(ARTIFACTS_DIR, 'SaveHtmlWithOptions')
 if os.path.exists(images_dir):
     shutil.rmtree(images_dir)
-
 os.makedirs(images_dir)
-
 # Set an option to export form fields as plain text instead of HTML input elements.
 options = aw.saving.HtmlSaveOptions(aw.SaveFormat.HTML)
 options.export_text_input_form_field_as_text = True
 options.images_folder = images_dir
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.image_folder.html", options)
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.image_folder.html', options)
 ```
 
 ### See Also

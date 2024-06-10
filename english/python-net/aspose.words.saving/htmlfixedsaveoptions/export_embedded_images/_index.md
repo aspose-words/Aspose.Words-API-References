@@ -31,8 +31,7 @@ def export_embedded_images(self, value: bool):
 Shows how to determine where to store images when exporting a document to Html.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
+doc = aw.Document(MY_DIR + 'Images.docx')
 # When we export a document with embedded images to .html,
 # Aspose.Words can place the images in two possible locations.
 # Setting the "export_embedded_images" flag to "True" will store the raw data
@@ -41,22 +40,15 @@ doc = aw.Document(MY_DIR + "Images.docx")
 # and store all these files in a separate folder.
 html_fixed_save_options = aw.saving.HtmlFixedSaveOptions()
 html_fixed_save_options.export_embedded_images = export_images
-
-doc.save(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_images.html", html_fixed_save_options)
-
-with open(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_images.html", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_images.html', html_fixed_save_options)
+with open(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_images.html', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
 if export_images:
-    self.assertFalse(os.path.exists(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_images/image001.jpeg"))
-    self.assertRegex(out_doc_contents,
-        '<img class="awimg" style="left:0pt; top:0pt; width:493.1pt; height:300.55pt;" src=".+" />')
+    self.assertFalse(os.path.exists(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_images/image001.jpeg'))
+    self.assertRegex(out_doc_contents, '<img class="awimg" style="left:0pt; top:0pt; width:493.1pt; height:300.55pt;" src=".+" />')
 else:
-    self.assertTrue(os.path.exists(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_images/image001.jpeg"))
-    self.assertIn(
-        '<img class="awimg" style="left:0pt; top:0pt; width:493.1pt; height:300.55pt;" ' +
-        'src="HtmlFixedSaveOptions.export_embedded_images/image001.jpeg" />',
-        out_doc_contents)
+    self.assertTrue(os.path.exists(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_images/image001.jpeg'))
+    self.assertIn('<img class="awimg" style="left:0pt; top:0pt; width:493.1pt; height:300.55pt;" ' + 'src="HtmlFixedSaveOptions.export_embedded_images/image001.jpeg" />', out_doc_contents)
 ```
 
 ### See Also

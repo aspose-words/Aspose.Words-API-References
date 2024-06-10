@@ -32,11 +32,9 @@ def ignore_printer_metrics(self, value: bool):
 Shows how to ignore 'Use printer metrics to lay out document' option.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 doc.layout_options.ignore_printer_metrics = False
-
-doc.save(ARTIFACTS_DIR + "Document.ignore_printer_metrics.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Document.IgnorePrinterMetrics.docx')
 ```
 
 ### See Also

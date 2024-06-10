@@ -35,28 +35,22 @@ The default value is 220 ppi.
 Shows how to change the resolution of images in the PDF document.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-
 # By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
 self.assertTrue(options.downsample_options.downsample_images)
 self.assertEqual(220, options.downsample_options.resolution)
 self.assertEqual(0, options.downsample_options.resolution_threshold)
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.downsample_options.default.pdf", options)
-
-# Set the "resolution" property to "36" to downsample all images to 36 ppi.
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.DownsampleOptions.Default.pdf', save_options=options)
+# Set the "Resolution" property to "36" to downsample all images to 36 ppi.
 options.downsample_options.resolution = 36
-
-# Set the "resolution_threshold" property to only apply the downsampling to
+# Set the "ResolutionThreshold" property to only apply the downsampling to
 # images with a resolution that is above 128 ppi.
 options.downsample_options.resolution_threshold = 128
-
 # Only the first two images from the document will be downsampled at this stage.
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.downsample_options.lower_resolution.pdf", options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.DownsampleOptions.LowerResolution.pdf', save_options=options)
 ```
 
 ### See Also

@@ -41,12 +41,11 @@ Shows how to set fore theme color and tint and shade.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-shape = builder.insert_shape(aw.drawing.ShapeType.TEXT_BOX, 100, 40)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.TEXT_BOX, width=100, height=40)
 stroke = shape.stroke
-stroke.fore_theme_color = ThemeColor.DARK1
+stroke.fore_theme_color = aw.themes.ThemeColor.DARK1
 stroke.fore_tint_and_shade = 0.5
-
-doc.save(ARTIFACTS_DIR + "Shape.StrokeForeThemeColors.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.StrokeForeThemeColors.docx')
 ```
 
 ### See Also

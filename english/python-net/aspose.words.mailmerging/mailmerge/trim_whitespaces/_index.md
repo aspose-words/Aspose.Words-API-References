@@ -31,22 +31,6 @@ The default value is ``True``.
 
 
 
-### Examples
-
-Shows how to trim whitespaces from values of a data source while executing a mail merge.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.insert_field("MERGEFIELD myMergeField", None)
-
-doc.mail_merge.trim_whitespaces = trim_whitespaces
-doc.mail_merge.execute(["myMergeField"], ["\t hello world! "])
-
-self.assertEqual("hello world!\f" if trim_whitespaces else "\t hello world! \f", doc.get_text())
-```
-
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

@@ -56,30 +56,25 @@ Shows how some older Microsoft Word fields such as SHAPE and EMBED are handled d
 
 ```python
 # Open a document that was created in Microsoft Word 2003.
-doc = aw.Document(MY_DIR + "Legacy fields.doc")
-
+doc = aw.Document(file_name=MY_DIR + 'Legacy fields.doc')
 # If we open the Word document and press Alt+F9, we will see a SHAPE and an EMBED field.
 # A SHAPE field is the anchor/canvas for an AutoShape object with the "In line with text" wrapping style enabled.
 # An EMBED field has the same function, but for an embedded object,
 # such as a spreadsheet from an external Excel document.
 # However, these fields will not appear in the document's Fields collection.
 self.assertEqual(0, doc.range.fields.count)
-
 # These fields are supported only by old versions of Microsoft Word.
 # The document loading process will convert these fields into Shape objects,
 # which we can access in the document's node collection.
 shapes = doc.get_child_nodes(aw.NodeType.SHAPE, True)
 self.assertEqual(3, shapes.count)
-
 # The first Shape node corresponds to the SHAPE field in the input document,
 # which is the inline canvas for the AutoShape.
 shape = shapes[0].as_shape()
 self.assertEqual(aw.drawing.ShapeType.IMAGE, shape.shape_type)
-
 # The second Shape node is the AutoShape itself.
 shape = shapes[1].as_shape()
 self.assertEqual(aw.drawing.ShapeType.CAN, shape.shape_type)
-
 # The third Shape is what was the EMBED field that contained the external spreadsheet.
 shape = shapes[2].as_shape()
 self.assertEqual(aw.drawing.ShapeType.OLE_OBJECT, shape.shape_type)

@@ -26,8 +26,7 @@ Specified units of measure to apply to measurable document content such as shape
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(MY_DIR + 'Rendering.docx')
 # When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
 # We can set the "measure_unit" property to "OdtSaveMeasureUnit.CENTIMETERS"
 # to define content such as style parameters using the metric system, which Open Office uses.
@@ -35,8 +34,7 @@ doc = aw.Document(MY_DIR + "Rendering.docx")
 # to define content such as style parameters using the imperial system, which Microsoft Word uses.
 save_options = aw.saving.OdtSaveOptions()
 save_options.measure_unit = odt_save_measure_unit
-
-doc.save(ARTIFACTS_DIR + "OdtSaveOptions.measurement_units.odt", save_options)
+doc.save(ARTIFACTS_DIR + 'OdtSaveOptions.measurement_units.odt', save_options)
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: ImageType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ImageType enumeration. Specifies the type (format) of an image in a Microsoft Word document."
 type: docs
-weight: 200
+weight: 220
 url: /python-net/aspose.words.drawing/imagetype/
 ---
 
@@ -36,23 +36,16 @@ Shows how to add an image to a shape and check its type.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-with open(IMAGE_DIR + "Logo.jpg", "rb") as stream:
-
-    image = drawing.Image.from_stream(stream)
-
-    # The image in the URL is a .gif. Inserting it into a document converts it into a .png.
-    img_shape = builder.insert_image(image)
-    self.assertEqual(aw.drawing.ImageType.JPEG, img_shape.image_data.image_type)
+img_shape = builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+self.assertEqual(aw.drawing.ImageType.JPEG, img_shape.image_data.image_type)
 ```
 
-Shows how to read WebP image
+Shows how to read WebP image.
 
 ```python
-doc = Document(MY_DIR + "Document with WebP image.docx")
-shape = doc.get_child(NodeType.SHAPE, 0, True).as_shape()
-
-self.assertEqual(ImageType.WEB_P, shape.image_data.image_type)
+doc = aw.Document(file_name=MY_DIR + 'Document with WebP image.docx')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+self.assertEqual(aw.drawing.ImageType.WEB_P, shape.image_data.image_type)
 ```
 
 ### See Also

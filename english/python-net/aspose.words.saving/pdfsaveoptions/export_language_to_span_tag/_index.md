@@ -44,17 +44,12 @@ Shows how to create a "Span" tag in the document structure to export the text la
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Hello world!")
-builder.writeln("Hola mundo!")
-
+builder.writeln('Hello world!')
+builder.writeln('Hola mundo!')
 save_options = aw.saving.PdfSaveOptions()
-
-# Note, when "export_document_structure" is "False", "export_language_to_span_tag" is ignored.
 save_options.export_document_structure = True
 save_options.export_language_to_span_tag = True
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.export_language_to_span_tag.pdf", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ExportLanguageToSpanTag.pdf', save_options=save_options)
 ```
 
 ### See Also

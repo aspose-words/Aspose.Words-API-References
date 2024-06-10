@@ -5,7 +5,7 @@ articleTitle: RtfLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.RtfLoadOptions class. Allows to specify additional options when loading [LoadFormat.RTF](../../aspose.words/loadformat/#RTF) document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 170
+weight: 160
 url: /python-net/aspose.words.loading/rtfloadoptions/
 ---
 
@@ -44,6 +44,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [resource_loading_callback](../loadoptions/resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [temp_folder](../loadoptions/temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [update_dirty_fields](../loadoptions/update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [use_system_lcid](../loadoptions/use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [warning_callback](../loadoptions/warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
 ### Examples
@@ -53,22 +54,15 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 ```python
 # Create an "RtfLoadOptions" object to modify how we load an RTF document.
 load_options = aw.loading.RtfLoadOptions()
-
 # Set the "recognize_utf8_text" property to "False" to assume that the document uses the ISO 8859-1 charset
 # and loads every character in the document.
 # Set the "recognize_utf8_text" property to "True" to parse any variable-length characters that may occur in the text.
 load_options.recognize_utf8_text = recognize_utf8_text
-
-doc = aw.Document(MY_DIR + "UTF-8 characters.rtf", load_options)
-
+doc = aw.Document(MY_DIR + 'UTF-8 characters.rtf', load_options)
 if recognize_utf8_text:
-    self.assertEqual(
-        "“John Doe´s list of currency symbols”™\r" + "€, ¢, £, ¥, ¤",
-        doc.first_section.body.get_text().strip())
+    self.assertEqual('“John Doe´s list of currency symbols”™\r' + '€, ¢, £, ¥, ¤', doc.first_section.body.get_text().strip())
 else:
-    self.assertEqual(
-        "â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r" + "â‚¬, Â¢, Â£, Â¥, Â¤",
-        doc.first_section.body.get_text().strip())
+    self.assertEqual('â€œJohn DoeÂ´s list of currency symbolsâ€\x9dâ„¢\r' + 'â‚¬, Â¢, Â£, Â¥, Â¤', doc.first_section.body.get_text().strip())
 ```
 
 ### See Also

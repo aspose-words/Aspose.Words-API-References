@@ -30,30 +30,6 @@ mail merge fields.
 
 
 
-### Examples
-
-Shows how to delete all MERGEFIELDs from a document.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.write("Dear ")
-builder.insert_field(" MERGEFIELD FirstName ")
-builder.write(" ")
-builder.insert_field(" MERGEFIELD LastName ")
-builder.writeln(",")
-builder.writeln("Greetings!")
-
-self.assertEqual(
-    "Dear \u0013 MERGEFIELD FirstName \u0014«FirstName»\u0015 \u0013 MERGEFIELD LastName \u0014«LastName»\u0015,\rGreetings!",
-    doc.get_text().strip())
-
-doc.mail_merge.delete_fields()
-
-self.assertEqual("Dear  ,\rGreetings!", doc.get_text().strip())
-```
-
 ### See Also
 
 * module [aspose.words.mailmerging](../../)

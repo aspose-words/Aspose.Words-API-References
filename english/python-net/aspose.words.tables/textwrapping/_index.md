@@ -29,25 +29,21 @@ Shows how to work with table text wrapping.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 table = builder.start_table()
 builder.insert_cell()
-builder.write("Cell 1")
+builder.write('Cell 1')
 builder.insert_cell()
-builder.write("Cell 2")
+builder.write('Cell 2')
 builder.end_table()
 table.preferred_width = aw.tables.PreferredWidth.from_points(300)
-
 builder.font.size = 16
-builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-
-# Set the "text_wrapping" property to "TextWrapping.AROUND" to get the table to wrap text around it,
+builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+# Set the "TextWrapping" property to "TextWrapping.Around" to get the table to wrap text around it,
 # and push it down into the paragraph below by setting the position.
 table.text_wrapping = aw.tables.TextWrapping.AROUND
 table.absolute_horizontal_distance = 100
 table.absolute_vertical_distance = 20
-
-doc.save(ARTIFACTS_DIR + "Table.wrap_text.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Table.WrapText.docx')
 ```
 
 ### See Also

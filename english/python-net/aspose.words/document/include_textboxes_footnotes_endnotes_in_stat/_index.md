@@ -32,19 +32,15 @@ Shows how to include or exclude textboxes, footnotes and endnotes from word coun
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.writeln("Lorem ipsum")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "sit amet")
-
+builder.writeln('Lorem ipsum')
+builder.insert_footnote(footnote_type=aw.notes.FootnoteType.FOOTNOTE, footnote_text='sit amet')
 # By default option is set to 'false'.
 doc.update_word_count()
-
 # Words count without textboxes, footnotes and endnotes.
 self.assertEqual(2, doc.built_in_document_properties.words)
-
-# Words count with textboxes, footnotes and endnotes.
 doc.include_textboxes_footnotes_endnotes_in_stat = True
 doc.update_word_count()
-
+# Words count with textboxes, footnotes and endnotes.
 self.assertEqual(4, doc.built_in_document_properties.words)
 ```
 

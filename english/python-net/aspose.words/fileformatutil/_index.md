@@ -38,12 +38,10 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 Shows how to detect encoding in an html file.
 
 ```python
-info = aw.FileFormatUtil.detect_file_format(MY_DIR + "Document.html")
-
+info = aw.FileFormatUtil.detect_file_format(MY_DIR + 'Document.html')
 self.assertEqual(aw.LoadFormat.HTML, info.load_format)
-
 # The "encoding" property is used only when we create a FileFormatInfo object for an html document.
-self.assertEqual("windows-1252", info.encoding)
+self.assertEqual('windows-1252', info.encoding)
 ```
 
 ### See Also

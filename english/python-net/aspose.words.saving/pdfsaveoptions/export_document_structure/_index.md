@@ -42,25 +42,21 @@ Shows how to preserve document structure elements, which can assist in programma
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.paragraph_format.style = doc.styles.get_by_name("Heading 1")
-builder.writeln("Hello world!")
-builder.paragraph_format.style = doc.styles.get_by_name("Normal")
-builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-
+builder.paragraph_format.style = doc.styles.get_by_name('Heading 1')
+builder.writeln('Hello world!')
+builder.paragraph_format.style = doc.styles.get_by_name('Normal')
+builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-
 # Set the "export_document_structure" property to "True" to make the document structure, such tags, available via the
 # "Content" navigation pane of Adobe Acrobat at the cost of increased file size.
 # Set the "export_document_structure" property to "False" to not export the document structure.
 options.export_document_structure = export_document_structure
-
 # Suppose we export document structure while saving this document. In that case,
 # we can open it using Adobe Acrobat and find tags for elements such as the heading
 # and the next paragraph via "View" -> "Show/Hide" -> "Navigation panes" -> "Tags".
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.export_document_structure.pdf", options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.export_document_structure.pdf', options)
 ```
 
 ### See Also

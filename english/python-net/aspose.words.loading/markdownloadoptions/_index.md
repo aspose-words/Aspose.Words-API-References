@@ -5,7 +5,7 @@ articleTitle: MarkdownLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.MarkdownLoadOptions class. Allows to specify additional options when loading [LoadFormat.MARKDOWN](../../aspose.words/loadformat/#MARKDOWN) document into a [Document](../../aspose.words/document/) object."
 type: docs
-weight: 120
+weight: 110
 url: /python-net/aspose.words.loading/markdownloadoptions/
 ---
 
@@ -42,6 +42,7 @@ Allows to specify additional options when loading [LoadFormat.MARKDOWN](../../as
 | [resource_loading_callback](../loadoptions/resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [temp_folder](../loadoptions/temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [update_dirty_fields](../loadoptions/update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [use_system_lcid](../loadoptions/use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [warning_callback](../loadoptions/warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
 ### Examples
@@ -49,15 +50,13 @@ Allows to specify additional options when loading [LoadFormat.MARKDOWN](../../as
 Shows how to preserve empty line while load a document.
 
 ```python
-md_text = f"{os.linesep}Line1{os.linesep}{os.linesep}Line2{os.linesep}{os.linesep}"
+md_text = f'{os.linesep}Line1{os.linesep}{os.linesep}Line2{os.linesep}{os.linesep}'
 stream = io.BytesIO(str.encode(md_text))
 stream.seek(0)
-
 load_options = aw.loading.MarkdownLoadOptions()
 load_options.preserve_empty_lines = True
 doc = aw.Document(stream, load_options)
-
-self.assertEqual("\rLine1\r\rLine2\r\f", doc.get_text())
+self.assertEqual('\rLine1\r\rLine2\r\x0c', doc.get_text())
 ```
 
 ### See Also

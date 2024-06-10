@@ -63,17 +63,14 @@ Shows how to add a comment to a paragraph.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
-
-comment = aw.Comment(doc, "John Doe", "JD", date.today())
+builder.write('Hello world!')
+comment = aw.Comment(doc, 'John Doe', 'JD', date.today())
 builder.current_paragraph.append_child(comment)
 builder.move_to(comment.append_child(aw.Paragraph(doc)))
-builder.write("Comment text.")
-
+builder.write('Comment text.')
 self.assertEqual(date.today(), comment.date_time.date())
-
 # In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
-doc.save(ARTIFACTS_DIR + "InlineStory.add_comment.docx")
+doc.save(ARTIFACTS_DIR + 'InlineStory.add_comment.docx')
 ```
 
 ## See Also

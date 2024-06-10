@@ -46,16 +46,14 @@ Shows how create a bookmark.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # A valid bookmark needs to have document body text enclosed by
 # BookmarkStart and BookmarkEnd nodes created with a matching bookmark name.
-builder.start_bookmark("MyBookmark")
-builder.writeln("Hello world!")
-builder.end_bookmark("MyBookmark")
-
+builder.start_bookmark('MyBookmark')
+builder.writeln('Hello world!')
+builder.end_bookmark('MyBookmark')
 self.assertEqual(1, doc.range.bookmarks.count)
-self.assertEqual("MyBookmark", doc.range.bookmarks[0].name)
-self.assertEqual("Hello world!", doc.range.bookmarks[0].text.strip())
+self.assertEqual('MyBookmark', doc.range.bookmarks[0].name)
+self.assertEqual('Hello world!', doc.range.bookmarks[0].text.strip())
 ```
 
 Shows how to insert a hyperlink which references a local bookmark.
@@ -63,20 +61,17 @@ Shows how to insert a hyperlink which references a local bookmark.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.start_bookmark("Bookmark1")
-builder.write("Bookmarked text. ")
-builder.end_bookmark("Bookmark1")
-builder.writeln("Text outside of the bookmark.")
-
+builder.start_bookmark('Bookmark1')
+builder.write('Bookmarked text. ')
+builder.end_bookmark('Bookmark1')
+builder.writeln('Text outside of the bookmark.')
 # Insert a HYPERLINK field that links to the bookmark. We can pass field switches
 # to the "insert_hyperlink" method as part of the argument containing the referenced bookmark's name.
-builder.font.color = drawing.Color.blue
+builder.font.color = aspose.pydrawing.Color.blue
 builder.font.underline = aw.Underline.SINGLE
-hyper_link = builder.insert_hyperlink("Link to Bookmark1", "Bookmark1", True).as_field_hyperlink()
-hyper_link.screen_tip = "Hyperlink Tip"
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_hyperlink_to_local_bookmark.docx")
+hyper_link = builder.insert_hyperlink('Link to Bookmark1', 'Bookmark1', True).as_field_hyperlink()
+hyper_link.screen_tip = 'Hyperlink Tip'
+doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_hyperlink_to_local_bookmark.docx')
 ```
 
 ### See Also

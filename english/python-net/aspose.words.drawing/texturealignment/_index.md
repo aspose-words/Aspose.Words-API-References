@@ -5,7 +5,7 @@ articleTitle: TextureAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.TextureAlignment enumeration. Specifies the alignment for the tiling of the texture fill."
 type: docs
-weight: 470
+weight: 490
 url: /python-net/aspose.words.drawing/texturealignment/
 ---
 
@@ -36,19 +36,15 @@ Shows how to fill and tiling the texture inside the shape.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 80, 80)
-
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=80, height=80)
 # Apply texture alignment to the shape fill.
 shape.fill.preset_textured(aw.drawing.PresetTexture.CANVAS)
 shape.fill.texture_alignment = aw.drawing.TextureAlignment.TOP_RIGHT
-
-# Use the compliance option to define the shape using DML if you want to get "texture_alignment"
+# Use the compliance option to define the shape using DML if you want to get "TextureAlignment"
 # property after the document saves.
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.compliance = aw.saving.OoxmlCompliance.ISO29500_2008_STRICT
-
-doc.save(ARTIFACTS_DIR + "Shape.texture_fill.docx", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.TextureFill.docx', save_options=save_options)
 ```
 
 ### See Also

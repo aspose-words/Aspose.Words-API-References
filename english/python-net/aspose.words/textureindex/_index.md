@@ -5,7 +5,7 @@ articleTitle: TextureIndex enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextureIndex enumeration. Specifies shading texture."
 type: docs
-weight: 1290
+weight: 1210
 url: /python-net/aspose.words/textureindex/
 ---
 
@@ -80,46 +80,38 @@ Shows how to decorate text with borders and shading.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 borders = builder.paragraph_format.borders
 borders.distance_from_text = 20
-borders.left.line_style = aw.LineStyle.DOUBLE
-borders.right.line_style = aw.LineStyle.DOUBLE
-borders.top.line_style = aw.LineStyle.DOUBLE
-borders.bottom.line_style = aw.LineStyle.DOUBLE
-
+borders.get_by_border_type(aw.BorderType.LEFT).line_style = aw.LineStyle.DOUBLE
+borders.get_by_border_type(aw.BorderType.RIGHT).line_style = aw.LineStyle.DOUBLE
+borders.get_by_border_type(aw.BorderType.TOP).line_style = aw.LineStyle.DOUBLE
+borders.get_by_border_type(aw.BorderType.BOTTOM).line_style = aw.LineStyle.DOUBLE
 shading = builder.paragraph_format.shading
 shading.texture = aw.TextureIndex.TEXTURE_DIAGONAL_CROSS
-shading.background_pattern_color = drawing.Color.light_coral
-shading.foreground_pattern_color = drawing.Color.light_salmon
-
-builder.write("This paragraph is formatted with a double border and shading.")
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.apply_borders_and_shading.docx")
+shading.background_pattern_color = aspose.pydrawing.Color.light_coral
+shading.foreground_pattern_color = aspose.pydrawing.Color.light_salmon
+builder.write('This paragraph is formatted with a double border and shading.')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.ApplyBordersAndShading.docx')
 ```
 
 Shows how to apply an outline border to a table.
 
 ```python
-doc = aw.Document(MY_DIR + "Tables.docx")
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
 table = doc.first_section.body.tables[0]
-
 # Align the table to the center of the page.
 table.alignment = aw.tables.TableAlignment.CENTER
-
 # Clear any existing borders and shading from the table.
 table.clear_borders()
 table.clear_shading()
-
 # Add green borders to the outline of the table.
-table.set_border(aw.BorderType.LEFT, aw.LineStyle.SINGLE, 1.5, drawing.Color.green, True)
-table.set_border(aw.BorderType.RIGHT, aw.LineStyle.SINGLE, 1.5, drawing.Color.green, True)
-table.set_border(aw.BorderType.TOP, aw.LineStyle.SINGLE, 1.5, drawing.Color.green, True)
-table.set_border(aw.BorderType.BOTTOM, aw.LineStyle.SINGLE, 1.5, drawing.Color.green, True)
-
+table.set_border(aw.BorderType.LEFT, aw.LineStyle.SINGLE, 1.5, aspose.pydrawing.Color.green, True)
+table.set_border(aw.BorderType.RIGHT, aw.LineStyle.SINGLE, 1.5, aspose.pydrawing.Color.green, True)
+table.set_border(aw.BorderType.TOP, aw.LineStyle.SINGLE, 1.5, aspose.pydrawing.Color.green, True)
+table.set_border(aw.BorderType.BOTTOM, aw.LineStyle.SINGLE, 1.5, aspose.pydrawing.Color.green, True)
 # Fill the cells with a light green solid color.
-table.set_shading(aw.TextureIndex.TEXTURE_SOLID, drawing.Color.light_green, drawing.Color.empty())
-
-doc.save(ARTIFACTS_DIR + "Table.set_outline_borders.docx")
+table.set_shading(aw.TextureIndex.TEXTURE_SOLID, aspose.pydrawing.Color.light_green, aspose.pydrawing.Color.empty())
+doc.save(file_name=ARTIFACTS_DIR + 'Table.SetOutlineBorders.docx')
 ```
 
 ### See Also

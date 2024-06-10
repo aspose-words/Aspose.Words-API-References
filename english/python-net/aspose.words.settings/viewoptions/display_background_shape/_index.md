@@ -31,25 +31,16 @@ Shows how to hide/display document background images in view options.
 
 ```python
 # Use an HTML string to create a new document with a flat background color.
-html = """
-    <html>
-        <body style='background-color: blue'>
-            <p>Hello world!</p>
-        </body>
-    </html>"""
-
+html = "\n                    <html>\n                        <body style='background-color: blue'>\n                            <p>Hello world!</p>\n                        </body>\n                    </html>"
 doc = aw.Document(io.BytesIO(html.encode('utf-8')))
-
 # The source for the document has a flat color background,
 # the presence of which will set the "display_background_shape" flag to "True".
 self.assertTrue(doc.view_options.display_background_shape)
-
 # Keep the "display_background_shape" as "True" to get the document to display the background color.
 # This may affect some text colors to improve visibility.
 # Set the "display_background_shape" to "False" to not display the background color.
 doc.view_options.display_background_shape = display_background_shape
-
-doc.save(ARTIFACTS_DIR + "ViewOptions.display_background_shape.docx")
+doc.save(ARTIFACTS_DIR + 'ViewOptions.display_background_shape.docx')
 ```
 
 ### See Also

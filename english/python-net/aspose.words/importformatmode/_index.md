@@ -5,7 +5,7 @@ articleTitle: ImportFormatMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ImportFormatMode enumeration. Specifies how formatting is merged when importing content from another document."
 type: docs
-weight: 580
+weight: 520
 url: /python-net/aspose.words/importformatmode/
 ---
 
@@ -75,16 +75,13 @@ If the style in destination document is different from the source then it is imp
 Shows how to insert a document into another document.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
-
+doc = aw.Document(MY_DIR + 'Document.docx')
 builder = aw.DocumentBuilder(doc)
 builder.move_to_document_end()
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-
-doc_to_insert = aw.Document(MY_DIR + "Formatted elements.docx")
-
+doc_to_insert = aw.Document(MY_DIR + 'Formatted elements.docx')
 builder.insert_document(doc_to_insert, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
-builder.document.save(ARTIFACTS_DIR + "DocumentBuilder.insert_document.docx")
+builder.document.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_document.docx')
 ```
 
 ### See Also

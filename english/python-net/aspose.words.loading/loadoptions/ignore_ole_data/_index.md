@@ -43,9 +43,8 @@ Shows how to ingore OLE data while loading.
 # without data lost in a case when destination format does not support OLE objects.
 load_options = aw.loading.LoadOptions()
 load_options.ignore_ole_data = True
-doc = aw.Document(MY_DIR + "OLE objects.docx", load_options)
-
-doc.save(ARTIFACTS_DIR + "LoadOptions.IgnoreOleData.docx")
+doc = aw.Document(file_name=MY_DIR + 'OLE objects.docx', load_options=load_options)
+doc.save(file_name=ARTIFACTS_DIR + 'LoadOptions.IgnoreOleData.docx')
 ```
 
 ### See Also

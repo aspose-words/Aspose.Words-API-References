@@ -31,19 +31,18 @@ ZIP64 format extensions increase the limits to 2^64.
 Shows how to use ZIP64 format extensions.
 
 ```python
-builder = DocumentBuilder()
+builder = aw.DocumentBuilder()
 for i in range(0, 10000):
-    bmp = Bitmap(5, 5)
-    g = Graphics.from_image(bmp)
-    g.clear(Color.from_argb(random.randint(0, 254), random.randint(0, 254), random.randint(0, 254)))
+    bmp = aspose.pydrawing.Bitmap(5, 5)
+    g = aspose.pydrawing.Graphics.from_image(bmp)
+    g.clear(aspose.pydrawing.Color.from_argb(random.randint(0, 254), random.randint(0, 254), random.randint(0, 254)))
     data = io.BytesIO()
-    bmp.save(data, ImageFormat.bmp)
+    bmp.save(data, aspose.pydrawing.imaging.ImageFormat.bmp)
     builder.insert_image(data)
     data.close()
-
-options = OoxmlSaveOptions()
-options.zip_64_mode = Zip64Mode.ALWAYS
-builder.document.save(ARTIFACTS_DIR + "OoxmlSaveOptions.Zip64ModeOption.docx")
+options = aw.saving.OoxmlSaveOptions()
+options.zip_64_mode = aw.saving.Zip64Mode.ALWAYS
+builder.document.save(ARTIFACTS_DIR + 'OoxmlSaveOptions.Zip64ModeOption.docx')
 ```
 
 ### See Also

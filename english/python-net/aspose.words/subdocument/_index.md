@@ -5,7 +5,7 @@ articleTitle: SubDocument class
 second_title: Aspose.Words for Python
 description: "aspose.words.SubDocument class. Represents a SubDocument - which is a reference to an externally stored document"
 type: docs
-weight: 1170
+weight: 1090
 url: /python-net/aspose.words/subdocument/
 ---
 
@@ -64,13 +64,10 @@ and properties to create or modify a subdocument. In this version you are not ab
 Shows how to access a master document's subdocument.
 
 ```python
-doc = aw.Document(MY_DIR + "Master document.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Master document.docx')
 sub_documents = doc.get_child_nodes(aw.NodeType.SUB_DOCUMENT, True)
-
 # This node serves as a reference to an external document, and its contents cannot be accessed.
 sub_document = sub_documents[0].as_sub_document()
-
 self.assertFalse(sub_document.is_composite)
 ```
 

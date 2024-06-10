@@ -5,7 +5,7 @@ articleTitle: Metered class
 second_title: Aspose.Words for Python
 description: "aspose.words.Metered class. Provides methods to set metered key."
 type: docs
-weight: 710
+weight: 650
 url: /python-net/aspose.words/metered/
 ---
 
@@ -36,21 +36,17 @@ Shows how to activate a Metered license and track credit/consumption.
 ```python
 # Create a new Metered license, and then print its usage statistics.
 metered = aw.Metered()
-metered.set_metered_key("MyPublicKey", "MyPrivateKey")
-
-print("Credit before operation:", metered.get_consumption_credit())
-print("Consumption quantity before operation:", metered.get_consumption_quantity())
-
+metered.set_metered_key('MyPublicKey', 'MyPrivateKey')
+print('Credit before operation:', metered.get_consumption_credit())
+print('Consumption quantity before operation:', metered.get_consumption_quantity())
 # Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
-doc = aw.Document(MY_DIR + "Document.docx")
-doc.save(ARTIFACTS_DIR + "Metered.usage.pdf")
-
+doc = aw.Document(MY_DIR + 'Document.docx')
+doc.save(ARTIFACTS_DIR + 'Metered.usage.pdf')
 # Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
 # you need to use waiting.
 time.sleep(10)
-
-print("Credit after operation:", metered.get_consumption_credit())
-print("Consumption quantity after operation:", metered.get_consumption_quantity())
+print('Credit after operation:', metered.get_consumption_credit())
+print('Consumption quantity after operation:', metered.get_consumption_quantity())
 ```
 
 ### See Also

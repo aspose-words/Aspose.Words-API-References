@@ -29,31 +29,24 @@ Shows how to format rows with a document builder.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 table = builder.start_table()
 builder.insert_cell()
-builder.write("Row 1, cell 1.")
-
+builder.write('Row 1, cell 1.')
 # Start a second row, and then configure its height. The builder will apply these settings to
 # its current row, as well as any new rows it creates afterwards.
 builder.end_row()
-
 row_format = builder.row_format
 row_format.height = 100
 row_format.height_rule = aw.HeightRule.EXACTLY
-
 builder.insert_cell()
-builder.write("Row 2, cell 1.")
+builder.write('Row 2, cell 1.')
 builder.end_table()
-
 # The first row was unaffected by the padding reconfiguration and still holds the default values.
-self.assertEqual(0.0, table.rows[0].row_format.height)
+self.assertEqual(0, table.rows[0].row_format.height)
 self.assertEqual(aw.HeightRule.AUTO, table.rows[0].row_format.height_rule)
-
-self.assertEqual(100.0, table.rows[1].row_format.height)
+self.assertEqual(100, table.rows[1].row_format.height)
 self.assertEqual(aw.HeightRule.EXACTLY, table.rows[1].row_format.height_rule)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.set_row_formatting.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.SetRowFormatting.docx')
 ```
 
 ### See Also

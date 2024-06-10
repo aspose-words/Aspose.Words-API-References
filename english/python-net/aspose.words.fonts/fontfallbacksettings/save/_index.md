@@ -42,38 +42,29 @@ def save(self, file_name: str):
 Shows how to load and save font fallback settings to/from a stream.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(MY_DIR + 'Rendering.docx')
 # Load an XML document that defines a set of font fallback settings.
-with open(MY_DIR + "Font fallback rules.xml", "rb") as font_fallback_stream:
-
+with open(MY_DIR + 'Font fallback rules.xml', 'rb') as font_fallback_stream:
     font_settings = aw.fonts.FontSettings()
     font_settings.fallback_settings.load(font_fallback_stream)
-
     doc.font_settings = font_settings
-
-doc.save(ARTIFACTS_DIR + "FontSettings.load_font_fallback_settings_from_stream.pdf")
-
+doc.save(ARTIFACTS_DIR + 'FontSettings.load_font_fallback_settings_from_stream.pdf')
 # Use a stream to save our document's current font fallback settings as an XML document.
-with open(ARTIFACTS_DIR + "FallbackSettings.xml", "wb") as font_fallback_stream:
-
+with open(ARTIFACTS_DIR + 'FallbackSettings.xml', 'wb') as font_fallback_stream:
     doc.font_settings.fallback_settings.save(font_fallback_stream)
 ```
 
 Shows how to load and save font fallback settings to/from an XML document in the local file system.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 # Load an XML document that defines a set of font fallback settings.
 font_settings = aw.fonts.FontSettings()
-font_settings.fallback_settings.load(MY_DIR + "Font fallback rules.xml")
-
+font_settings.fallback_settings.load(file_name=MY_DIR + 'Font fallback rules.xml')
 doc.font_settings = font_settings
-doc.save(ARTIFACTS_DIR + "FontSettings.load_font_fallback_settings_from_file.pdf")
-
+doc.save(file_name=ARTIFACTS_DIR + 'FontSettings.LoadFontFallbackSettingsFromFile.pdf')
 # Save our document's current font fallback settings as an XML document.
-doc.font_settings.fallback_settings.save(ARTIFACTS_DIR + "FallbackSettings.xml")
+doc.font_settings.fallback_settings.save(file_name=ARTIFACTS_DIR + 'FallbackSettings.xml')
 ```
 
 ## See Also

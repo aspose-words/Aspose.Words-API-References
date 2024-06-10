@@ -62,26 +62,22 @@ Shows how to use the EDITTIME field.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # The EDITTIME field will show, in minutes,
 # the time spent with the document open in a Microsoft Word window.
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
 builder.write("You've been editing this document for ")
 field = builder.insert_field(aw.fields.FieldType.FIELD_EDIT_TIME, True).as_field_edit_time()
-builder.writeln(" minutes.")
-
+builder.writeln(' minutes.')
 # This built in document property tracks the minutes. Microsoft Word uses this property
 # to track the time spent with the document open. We can also edit it ourselves.
 doc.built_in_document_properties.total_editing_time = 10
 field.update()
-
-self.assertEqual(" EDITTIME ", field.get_field_code())
-self.assertEqual("10", field.result)
-
+self.assertEqual(' EDITTIME ', field.get_field_code())
+self.assertEqual('10', field.result)
 # The field does not update itself in real-time, and will also have to be
 # manually updated in Microsoft Word anytime we need an accurate value.
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + "Field.field_edit_time.docx")
+doc.save(ARTIFACTS_DIR + 'Field.field_edit_time.docx')
 ```
 
 ### See Also

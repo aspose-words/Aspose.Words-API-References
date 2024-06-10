@@ -45,20 +45,15 @@ Shows how to create form fields.
 
 ```python
 builder = aw.DocumentBuilder()
-
 # Form fields are objects in the document that the user can interact with by being prompted to enter values.
 # We can create them using a document builder, and below are two ways of doing so.
 # 1 -  Basic text input:
-builder.insert_text_input("My text input", aw.fields.TextFormFieldType.REGULAR,
-    "", "Enter your name here", 30)
-
+builder.insert_text_input('My text input', aw.fields.TextFormFieldType.REGULAR, '', 'Enter your name here', 30)
 # 2 -  Combo box with prompt text, and a range of possible values:
-items = [ "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other" ]
-
+items = ['-- Select your favorite footwear --', 'Sneakers', 'Oxfords', 'Flip-flops', 'Other']
 builder.insert_paragraph()
-builder.insert_combo_box("My combo box", items, 0)
-
-builder.document.save(ARTIFACTS_DIR + "DocumentBuilder.create_form.docx")
+builder.insert_combo_box('My combo box', items, 0)
+builder.document.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.CreateForm.docx')
 ```
 
 Shows how to insert a text input form field into a document.
@@ -66,11 +61,9 @@ Shows how to insert a text input form field into a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Insert a form that prompts the user to enter text.
-builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Enter your text here", 0)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_text_input.docx")
+builder.insert_text_input('TextInput', aw.fields.TextFormFieldType.REGULAR, '', 'Enter your text here', 0)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertTextInput.docx')
 ```
 
 Shows how to insert a text input form field.
@@ -78,16 +71,13 @@ Shows how to insert a text input form field.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Please enter text here: ")
-
+builder.write('Please enter text here: ')
 # Insert a text input field, which will allow the user to click it and enter text.
 # Assign some placeholder text that the user may overwrite and pass
 # a maximum text length of 0 to apply no limit on the form field's contents.
-builder.insert_text_input("TextInput1", aw.fields.TextFormFieldType.REGULAR, "", "Placeholder text", 0)
-
+builder.insert_text_input('TextInput1', aw.fields.TextFormFieldType.REGULAR, '', 'Placeholder text', 0)
 # The form field will appear in the form of an "input" html tag, with a type of "text".
-doc.save(ARTIFACTS_DIR + "FormFields.text_input.html")
+doc.save(file_name=ARTIFACTS_DIR + 'FormFields.TextInput.html')
 ```
 
 ### See Also

@@ -141,13 +141,10 @@ Shows how to load the contents of a Microsoft Word document in plaintext.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.writeln("Hello world!")
-
-doc.save(ARTIFACTS_DIR + "PlainTextDocument.load.docx")
-
-plaintext = aw.PlainTextDocument(ARTIFACTS_DIR + "PlainTextDocument.load.docx")
-
-self.assertEqual("Hello world!", plaintext.text.strip())
+builder.writeln('Hello world!')
+doc.save(file_name=ARTIFACTS_DIR + 'PlainTextDocument.Load.docx')
+plaintext = aw.PlainTextDocument(file_name=ARTIFACTS_DIR + 'PlainTextDocument.Load.docx')
+self.assertEqual('Hello world!', plaintext.text.strip())
 ```
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext.
@@ -155,19 +152,14 @@ Shows how to load the contents of an encrypted Microsoft Word document in plaint
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.writeln("Hello world!")
-
+builder.writeln('Hello world!')
 save_options = aw.saving.OoxmlSaveOptions()
-save_options.password = "MyPassword"
-
-doc.save(ARTIFACTS_DIR + "PlainTextDocument.load_encrypted.docx", save_options)
-
+save_options.password = 'MyPassword'
+doc.save(file_name=ARTIFACTS_DIR + 'PlainTextDocument.LoadEncrypted.docx', save_options=save_options)
 load_options = aw.loading.LoadOptions()
-load_options.password = "MyPassword"
-
-plaintext = aw.PlainTextDocument(ARTIFACTS_DIR + "PlainTextDocument.load_encrypted.docx", load_options)
-
-self.assertEqual("Hello world!", plaintext.text.strip())
+load_options.password = 'MyPassword'
+plaintext = aw.PlainTextDocument(file_name=ARTIFACTS_DIR + 'PlainTextDocument.LoadEncrypted.docx', load_options=load_options)
+self.assertEqual('Hello world!', plaintext.text.strip())
 ```
 
 Shows how to load the contents of a Microsoft Word document in plaintext using stream.
@@ -175,15 +167,11 @@ Shows how to load the contents of a Microsoft Word document in plaintext using s
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Hello world!")
-doc.save(ARTIFACTS_DIR + "PlainTextDocument.load_from_stream.docx")
-
-with open(ARTIFACTS_DIR + "PlainTextDocument.load_from_stream.docx", "rb") as stream:
-
+builder.writeln('Hello world!')
+doc.save(ARTIFACTS_DIR + 'PlainTextDocument.load_from_stream.docx')
+with open(ARTIFACTS_DIR + 'PlainTextDocument.load_from_stream.docx', 'rb') as stream:
     plaintext = aw.PlainTextDocument(stream)
-
-    self.assertEqual("Hello world!", plaintext.text.strip())
+    self.assertEqual('Hello world!', plaintext.text.strip())
 ```
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext using stream.
@@ -191,22 +179,15 @@ Shows how to load the contents of an encrypted Microsoft Word document in plaint
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Hello world!")
-
+builder.writeln('Hello world!')
 save_options = aw.saving.OoxmlSaveOptions()
-save_options.password = "MyPassword"
-
-doc.save(ARTIFACTS_DIR + "PlainTextDocument.load_encrypted_using_stream.docx", save_options)
-
+save_options.password = 'MyPassword'
+doc.save(ARTIFACTS_DIR + 'PlainTextDocument.load_encrypted_using_stream.docx', save_options)
 load_options = aw.loading.LoadOptions()
-load_options.password = "MyPassword"
-
-with open(ARTIFACTS_DIR + "PlainTextDocument.load_encrypted_using_stream.docx", "rb") as stream:
-
+load_options.password = 'MyPassword'
+with open(ARTIFACTS_DIR + 'PlainTextDocument.load_encrypted_using_stream.docx', 'rb') as stream:
     plaintext = aw.PlainTextDocument(stream, load_options)
-
-    self.assertEqual("Hello world!", plaintext.text.strip())
+    self.assertEqual('Hello world!', plaintext.text.strip())
 ```
 
 ## See Also

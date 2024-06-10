@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "ShadowFormat.clear method. Clears shadow format."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing/shadowformat/clear/
 ---
 
@@ -24,11 +24,11 @@ def clear(self):
 Shows how to work with a shadow formatting for the shape.
 
 ```python
-doc = aw.Document(MY_DIR + "Shape stroke pattern border.docx")
+doc = aw.Document(file_name=MY_DIR + 'Shape stroke pattern border.docx')
 shape = doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
-if shape.shadow_format.visible and shape.shadow_format.type == awd.ShadowType.SHADOW2:
-    shape.shadow_format.type == awd.ShadowType.SHADOW7
-if shape.shadow_format.type == awd.ShadowType.SHADOW_MIXED:
+if shape.shadow_format.visible and shape.shadow_format.type == aw.drawing.ShadowType.SHADOW2:
+    shape.shadow_format.type = aw.drawing.ShadowType.SHADOW7
+if shape.shadow_format.type == aw.drawing.ShadowType.SHADOW_MIXED:
     shape.shadow_format.clear()
 ```
 

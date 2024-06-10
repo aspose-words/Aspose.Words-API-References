@@ -60,22 +60,18 @@ Shows how to set automatic paragraph spacing.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Apply a large amount of spacing before and after paragraphs that this builder will create.
 builder.paragraph_format.space_before = 24
 builder.paragraph_format.space_after = 24
-
 # Set these flags to "True" to apply automatic spacing,
 # effectively ignoring the spacing in the properties we set above.
 # Leave them as "False" will apply our custom paragraph spacing.
 builder.paragraph_format.space_after_auto = auto_spacing
 builder.paragraph_format.space_before_auto = auto_spacing
-
 # Insert two paragraphs that will have spacing above and below them and save the document.
-builder.writeln("Paragraph 1.")
-builder.writeln("Paragraph 2.")
-
-doc.save(ARTIFACTS_DIR + "ParagraphFormat.paragraph_spacing_auto.docx")
+builder.writeln('Paragraph 1.')
+builder.writeln('Paragraph 2.')
+doc.save(ARTIFACTS_DIR + 'ParagraphFormat.paragraph_spacing_auto.docx')
 ```
 
 ### See Also

@@ -32,15 +32,12 @@ def section_mode(self, value: aspose.words.saving.XlsxSectionMode):
 Shows how to save document as a separate worksheets.
 
 ```python
-doc = Document(MY_DIR + "Big document.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Big document.docx')
 # Each section of a document will be created as a separate worksheet.
 # Use 'SingleWorksheet' to display all document on one worksheet.
-
-xlsx_save_options = XlsxSaveOptions()
-xlsx_save_options.section_mode = XlsxSectionMode.MULTIPLE_WORKSHEETS
-
-doc.save(ARTIFACTS_DIR + "XlsxSaveOptions.SelectionMode.xlsx", xlsx_save_options)
+xlsx_save_options = aw.saving.XlsxSaveOptions()
+xlsx_save_options.section_mode = aw.saving.XlsxSectionMode.MULTIPLE_WORKSHEETS
+doc.save(file_name=ARTIFACTS_DIR + 'XlsxSaveOptions.SelectionMode.xlsx', save_options=xlsx_save_options)
 ```
 
 ### See Also

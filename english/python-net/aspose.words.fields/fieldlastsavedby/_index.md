@@ -64,18 +64,14 @@ Shows how to use the LASTSAVEDBY field.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # If we create a document in Microsoft Word, it will have the user's name in the "Last saved by" built-in property.
 # If we make a document programmatically, this property will be null, and we will need to assign a value.
-doc.built_in_document_properties.last_saved_by = "John Doe"
-
+doc.built_in_document_properties.last_saved_by = 'John Doe'
 # We can use the LASTSAVEDBY field to display the value of this property in the document.
 field = builder.insert_field(aw.fields.FieldType.FIELD_LAST_SAVED_BY, True).as_field_last_saved_by()
-
-self.assertEqual(" LASTSAVEDBY ", field.get_field_code())
-self.assertEqual("John Doe", field.result)
-
-doc.save(ARTIFACTS_DIR + "Field.field_last_saved_by.docx")
+self.assertEqual(' LASTSAVEDBY ', field.get_field_code())
+self.assertEqual('John Doe', field.result)
+doc.save(ARTIFACTS_DIR + 'Field.field_last_saved_by.docx')
 ```
 
 ### See Also

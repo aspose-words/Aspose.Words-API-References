@@ -31,17 +31,14 @@ Shows how to add additional character rendered above/below the glyph-character.
 
 ```python
 builder = aw.DocumentBuilder()
-
 # Possible types of emphasis mark:
 # https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.font.emphasis_mark = emphasis_mark
-
-builder.write("Emphasis text")
+builder.write('Emphasis text')
 builder.writeln()
 builder.font.clear_formatting()
-builder.write("Simple text")
-
-builder.document.save(ARTIFACTS_DIR + "Fonts.set_emphasis_mark.docx")
+builder.write('Simple text')
+builder.document.save(ARTIFACTS_DIR + 'Fonts.set_emphasis_mark.docx')
 ```
 
 ### See Also

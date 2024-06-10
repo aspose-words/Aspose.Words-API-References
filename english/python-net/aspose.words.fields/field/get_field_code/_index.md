@@ -41,31 +41,24 @@ Shows how to insert a field into a document using a field code.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-field = builder.insert_field("DATE \\@ \"dddd, MMMM dd, yyyy\"")
-
+field = builder.insert_field('DATE \\@ "dddd, MMMM dd, yyyy"')
 self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.type)
-self.assertEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.get_field_code())
-
+self.assertEqual('DATE \\@ "dddd, MMMM dd, yyyy"', field.get_field_code())
 # This overload of the "insert_field" method automatically updates inserted fields.
-self.assertAlmostEqual(datetime.strptime(field.result, "%A, %B %d, %Y"), datetime.now(), delta=timedelta(1))
+self.assertAlmostEqual(datetime.strptime(field.result, '%A, %B %d, %Y'), datetime.now(), delta=timedelta(1))
 ```
 
 Shows how to get a field's field code.
 
 ```python
 # Open a document which contains a MERGEFIELD inside an IF field.
-doc = aw.Document(MY_DIR + "Nested fields.docx")
+doc = aw.Document(MY_DIR + 'Nested fields.docx')
 field_if = doc.range.fields[0].as_field_if()
-
 # There are two ways of getting a field's field code:
 # 1 -  Omit its inner fields:
-self.assertEqual(" IF  > 0 \" (surplus of ) \" \"\" ", field_if.get_field_code(False))
-
+self.assertEqual(' IF  > 0 " (surplus of ) " "" ', field_if.get_field_code(False))
 # 2 -  Include its inner fields:
-self.assertEqual(" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
-    field_if.get_field_code(True))
-
+self.assertEqual(' IF \x13 MERGEFIELD NetIncome \x14\x15 > 0 " (surplus of \x13 MERGEFIELD  NetIncome \\f $ \x14\x15) " "" ', field_if.get_field_code(True))
 # By default, the "get_field_code" method displays inner fields.
 self.assertEqual(field_if.get_field_code(), field_if.get_field_code(True))
 ```

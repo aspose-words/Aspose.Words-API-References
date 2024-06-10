@@ -32,8 +32,7 @@ def export_embedded_svg(self, value: bool):
 Shows how to determine where to store SVG objects when exporting a document to Html.
 
 ```python
-doc = aw.Document(MY_DIR + "Images.docx")
-
+doc = aw.Document(MY_DIR + 'Images.docx')
 # When we export a document with SVG objects to .html,
 # Aspose.Words can place these objects in two possible locations.
 # Setting the "export_embedded_svg" flag to "True" will embed all SVG object raw data
@@ -42,19 +41,15 @@ doc = aw.Document(MY_DIR + "Images.docx")
 # The HTML will link to each file using the "data" attribute of an <object> tag.
 html_fixed_save_options = aw.saving.HtmlFixedSaveOptions()
 html_fixed_save_options.export_embedded_svg = export_svgs
-
-doc.save(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_svgs.html", html_fixed_save_options)
-
-with open(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_svgs.html", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs.html', html_fixed_save_options)
+with open(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs.html', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
 if export_svgs:
-    self.assertFalse(os.path.exists(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_svgs/svg001.svg"))
+    self.assertFalse(os.path.exists(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs/svg001.svg'))
     self.assertRegex(out_doc_contents, '<image id="image004" xlink:href=.+/>')
 else:
-    self.assertTrue(os.path.exists(ARTIFACTS_DIR + "HtmlFixedSaveOptions.export_embedded_svgs/svg001.svg"))
-    self.assertRegex(out_doc_contents,
-        '<object type="image/svg[+]xml" data="HtmlFixedSaveOptions.export_embedded_svgs/svg001[.]svg"></object>')
+    self.assertTrue(os.path.exists(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs/svg001.svg'))
+    self.assertRegex(out_doc_contents, '<object type="image/svg[+]xml" data="HtmlFixedSaveOptions.export_embedded_svgs/svg001[.]svg"></object>')
 ```
 
 ### See Also

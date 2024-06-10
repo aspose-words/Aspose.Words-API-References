@@ -35,17 +35,13 @@ Shows how to clear the contents of a section.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Hello world!")
-
-self.assertEqual("Hello world!", doc.get_text().strip())
+builder.write('Hello world!')
+self.assertEqual('Hello world!', doc.get_text().strip())
 self.assertEqual(1, doc.first_section.body.paragraphs.count)
-
-# Running the "clear_content" method will remove all the section contents
+# Running the "ClearContent" method will remove all the section contents
 # but leave a blank paragraph to add content again.
 doc.first_section.clear_content()
-
-self.assertEqual("", doc.get_text().strip())
+self.assertEqual('', doc.get_text().strip())
 self.assertEqual(1, doc.first_section.body.paragraphs.count)
 ```
 

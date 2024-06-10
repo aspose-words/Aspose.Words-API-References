@@ -54,19 +54,15 @@ Aspose.Words automatically deletes all temporary files when saving is complete.
 Shows how to use the hard drive instead of memory when saving a document.
 
 ```python
-doc = aw.Document(MY_DIR + "Rendering.docx")
-
+doc = aw.Document(MY_DIR + 'Rendering.docx')
 # When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
 # We can use this option to use a temporary folder in the local file system instead,
 # which will reduce our application's memory overhead.
 options = aw.saving.DocSaveOptions()
-options.temp_folder = ARTIFACTS_DIR + "TempFiles"
-
+options.temp_folder = ARTIFACTS_DIR + 'TempFiles'
 # The specified temporary folder must exist in the local file system before the save operation.
 os.makedirs(options.temp_folder, exist_ok=True)
-
-doc.save(ARTIFACTS_DIR + "DocSaveOptions.temp_folder.doc", options)
-
+doc.save(ARTIFACTS_DIR + 'DocSaveOptions.temp_folder.doc', options)
 # The folder will persist with no residual contents from the load operation.
 self.assertEqual(0, len(os.listdir(options.temp_folder)))
 ```

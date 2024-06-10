@@ -32,16 +32,13 @@ Shows how to create a run of text formatted as outline.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-# Set the "outline" flag to change the text's fill color to white and
+# Set the Outline flag to change the text's fill color to white and
 # leave a thin outline around each character in the original color of the text.
 builder.font.outline = True
-builder.font.color = drawing.Color.blue
+builder.font.color = aspose.pydrawing.Color.blue
 builder.font.size = 36
-
-builder.writeln("This text has an outline.")
-
-doc.save(ARTIFACTS_DIR + "Font.outline.docx")
+builder.writeln('This text has an outline.')
+doc.save(file_name=ARTIFACTS_DIR + 'Font.Outline.docx')
 ```
 
 ### See Also

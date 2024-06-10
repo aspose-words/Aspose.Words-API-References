@@ -21,7 +21,6 @@ To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/word
 
 | Name | Description |
 | --- | --- |
-| [callback](./callback/) | Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages. |
 | [warning_callback](./warning_callback/) | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
 
 ### Methods

@@ -32,14 +32,11 @@ Shows how to apply a visual effect to a run.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 builder.font.size = 36
 builder.font.text_effect = aw.TextEffect.SPARKLE_TEXT
-
-builder.writeln("Text with a sparkle effect.")
-
+builder.writeln('Text with a sparkle effect.')
 # Older versions of Microsoft Word only support font animation effects.
-doc.save(ARTIFACTS_DIR + "Font.sparkling_text.doc")
+doc.save(file_name=ARTIFACTS_DIR + 'Font.SparklingText.doc')
 ```
 
 ### See Also

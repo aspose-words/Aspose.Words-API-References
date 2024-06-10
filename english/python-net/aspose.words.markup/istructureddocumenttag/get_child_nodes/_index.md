@@ -24,6 +24,23 @@ def get_child_nodes(self, node_type: aspose.words.NodeType, is_deep: bool):
 | node_type | [NodeType](../../../aspose.words/nodetype/) |  |
 | is_deep | bool |  |
 
+### Examples
+
+Shows how to remove structured document tag, but keeps content inside.
+
+```python
+doc = aw.Document(MY_DIR + 'Structured document tags.docx')
+# This collection provides a unified interface for accessing ranged and non - ranged structured tags.
+sdts = [tag for tag in doc.range.structured_document_tags]
+self.assertEqual(5, len(sdts))
+# Here we can get child nodes from the common interface of ranged and non - ranged structured tags.
+for std in sdts:
+    if std.get_child_nodes(aw.NodeType.ANY, False).count > 0:
+        std.remove_self_only()
+sdts = [tag for tag in doc.range.structured_document_tags]
+self.assertEqual(0, len(sdts))
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

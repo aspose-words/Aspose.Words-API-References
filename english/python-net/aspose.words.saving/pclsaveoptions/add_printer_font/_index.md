@@ -37,16 +37,13 @@ Shows how to get a printer to substitute all instances of a specific font with a
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.name = "Courier"
-builder.write("Hello world!")
-
+builder.font.name = 'Courier'
+builder.write('Hello world!')
 save_options = aw.saving.PclSaveOptions()
-save_options.add_printer_font("Courier New", "Courier")
-
+save_options.add_printer_font('Courier New', 'Courier')
 # When printing this document, the printer will use the "Courier New" font
 # to access places where our document used the "Courier" font.
-doc.save(ARTIFACTS_DIR + "PclSaveOptions.add_printer_font.pcl", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PclSaveOptions.AddPrinterFont.pcl', save_options=save_options)
 ```
 
 ### See Also

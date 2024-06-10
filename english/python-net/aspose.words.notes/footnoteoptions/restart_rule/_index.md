@@ -32,7 +32,6 @@ Shows how to restart footnote/endnote numbering at certain places in the documen
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Footnotes and endnotes are a way to attach a reference or a side comment to text
 # that does not interfere with the main body text's flow.
 # Inserting a footnote/endnote adds a small superscript reference symbol
@@ -41,40 +40,35 @@ builder = aw.DocumentBuilder(doc)
 # symbol in the main body text. The reference text that we pass to the document builder's "insert_endnote" method.
 # Footnote entries, by default, show up at the bottom of each page that contains
 # their reference symbols, and endnotes show up at the end of the document.
-builder.write("Text 1. ")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Footnote 1.")
-builder.write("Text 2. ")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Footnote 2.")
+builder.write('Text 1. ')
+builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, 'Footnote 1.')
+builder.write('Text 2. ')
+builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, 'Footnote 2.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.write("Text 3. ")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Footnote 3.")
-builder.write("Text 4. ")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Footnote 4.")
-
+builder.write('Text 3. ')
+builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, 'Footnote 3.')
+builder.write('Text 4. ')
+builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, 'Footnote 4.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-
-builder.write("Text 1. ")
-builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, "Endnote 1.")
-builder.write("Text 2. ")
-builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, "Endnote 2.")
+builder.write('Text 1. ')
+builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, 'Endnote 1.')
+builder.write('Text 2. ')
+builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, 'Endnote 2.')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
-builder.write("Text 3. ")
-builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, "Endnote 3.")
-builder.write("Text 4. ")
-builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, "Endnote 4.")
-
+builder.write('Text 3. ')
+builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, 'Endnote 3.')
+builder.write('Text 4. ')
+builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, 'Endnote 4.')
 # By default, the reference symbol for each footnote and endnote is its index
 # among all the document's footnotes/endnotes. Each document maintains separate counts
 # for footnotes and endnotes and does not restart these counts at any point.
 self.assertEqual(doc.footnote_options.restart_rule, aw.notes.FootnoteNumberingRule.DEFAULT)
 self.assertEqual(aw.notes.FootnoteNumberingRule.DEFAULT, aw.notes.FootnoteNumberingRule.CONTINUOUS)
-
 # We can use the "restart_rule" property to get the document to restart
 # the footnote/endnote counts at a new page or section.
 doc.footnote_options.restart_rule = aw.notes.FootnoteNumberingRule.RESTART_PAGE
 doc.endnote_options.restart_rule = aw.notes.FootnoteNumberingRule.RESTART_SECTION
-
-doc.save(ARTIFACTS_DIR + "InlineStory.numbering_rule.docx")
+doc.save(ARTIFACTS_DIR + 'InlineStory.numbering_rule.docx')
 ```
 
 ### See Also

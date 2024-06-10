@@ -40,15 +40,13 @@ To remove PictureBullet data, set the option to "false".
 Shows how to omit PictureBullet data from the document when saving.
 
 ```python
-doc = aw.Document(MY_DIR + "Image bullet points.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Image bullet points.docx')
 # Some word processors, such as Microsoft Word 97, are incompatible with PictureBullet data.
 # By setting a flag in the SaveOptions object,
 # we can convert all image bullet points to ordinary bullet points while saving.
 save_options = aw.saving.DocSaveOptions(aw.SaveFormat.DOC)
 save_options.save_picture_bullet = False
-
-doc.save(ARTIFACTS_DIR + "DocSaveOptions.picture_bullets.doc", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'DocSaveOptions.PictureBullets.doc', save_options=save_options)
 ```
 
 ### See Also

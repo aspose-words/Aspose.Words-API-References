@@ -29,12 +29,11 @@ The default value is ``Expand``.
 Shows how to manage character spacing control.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 justification_mode = doc.justification_mode
 if justification_mode == aw.settings.JustificationMode.EXPAND:
     doc.justification_mode = aw.settings.JustificationMode.COMPRESS
-
-doc.save(ARTIFACTS_DIR + "Document.SetJustificationMode.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Document.SetJustificationMode.docx')
 ```
 
 ### See Also

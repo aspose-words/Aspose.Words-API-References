@@ -30,20 +30,17 @@ The cloned [VbaProject](../).
 Shows how to deep clone a VBA project and module.
 
 ```python
-doc = aw.Document(MY_DIR + "VBA project.docm")
+doc = aw.Document(file_name=MY_DIR + 'VBA project.docm')
 dest_doc = aw.Document()
-
 copy_vba_project = doc.vba_project.clone()
 dest_doc.vba_project = copy_vba_project
-
 # In the destination document, we already have a module named "Module1"
 # because we cloned it along with the project. We will need to remove the module.
-old_vba_module = dest_doc.vba_project.modules.get_by_name("Module1")
-copy_vba_module = doc.vba_project.modules.get_by_name("Module1").clone()
+old_vba_module = dest_doc.vba_project.modules.get_by_name('Module1')
+copy_vba_module = doc.vba_project.modules.get_by_name('Module1').clone()
 dest_doc.vba_project.modules.remove(old_vba_module)
 dest_doc.vba_project.modules.add(copy_vba_module)
-
-dest_doc.save(ARTIFACTS_DIR + "VbaProject.clone_vba_project.docm")
+dest_doc.save(file_name=ARTIFACTS_DIR + 'VbaProject.CloneVbaProject.docm')
 ```
 
 ### See Also

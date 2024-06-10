@@ -38,16 +38,13 @@ Shows how to set text orientation.
 
 ```python
 doc = aw.Document()
-
 builder = aw.DocumentBuilder(doc)
-builder.writeln("Hello world!")
-
-# Set the "text_orientation" property to "TextOrientation.UPWARD" to rotate all the text 90 degrees
+builder.writeln('Hello world!')
+# Set the "TextOrientation" property to "TextOrientation.Upward" to rotate all the text 90 degrees
 # to the right so that all left-to-right text now goes top-to-bottom.
 page_setup = doc.sections[0].page_setup
 page_setup.text_orientation = aw.TextOrientation.UPWARD
-
-doc.save(ARTIFACTS_DIR + "PageSetup.set_text_orientation.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.SetTextOrientation.docx')
 ```
 
 ### See Also

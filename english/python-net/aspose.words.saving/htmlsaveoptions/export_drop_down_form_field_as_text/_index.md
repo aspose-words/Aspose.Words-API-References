@@ -45,10 +45,8 @@ Shows how to get drop-down combo box form fields to blend in with paragraph text
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Use a document builder to insert a combo box with the value "Two" selected.
-builder.insert_combo_box("MyComboBox", ["One", "Two", "Three"], 1)
-
+builder.insert_combo_box('MyComboBox', ['One', 'Two', 'Three'], 1)
 # The "export_drop_down_form_field_as_text" flag of this SaveOptions object allows us to
 # control how saving the document to HTML treats drop-down combo boxes.
 # Setting it to "True" will convert each combo box into simple text
@@ -56,22 +54,13 @@ builder.insert_combo_box("MyComboBox", ["One", "Two", "Three"], 1)
 # Setting it to "False" will preserve the functionality of the combo box using <select> and <option> tags.
 options = aw.saving.HtmlSaveOptions()
 options.export_drop_down_form_field_as_text = export_drop_down_form_field_as_text
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.drop_down_form_field.html", options)
-
-with open(ARTIFACTS_DIR + "HtmlSaveOptions.drop_down_form_field.html", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.drop_down_form_field.html', options)
+with open(ARTIFACTS_DIR + 'HtmlSaveOptions.drop_down_form_field.html', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
 if export_drop_down_form_field_as_text:
-    self.assertIn("<span>Two</span>", out_doc_contents)
+    self.assertIn('<span>Two</span>', out_doc_contents)
 else:
-    self.assertIn(
-        "<select name=\"MyComboBox\">" +
-            "<option>One</option>" +
-            "<option selected=\"selected\">Two</option>" +
-            "<option>Three</option>" +
-        "</select>",
-        out_doc_contents)
+    self.assertIn('<select name="MyComboBox">' + '<option>One</option>' + '<option selected="selected">Two</option>' + '<option>Three</option>' + '</select>', out_doc_contents)
 ```
 
 ### See Also

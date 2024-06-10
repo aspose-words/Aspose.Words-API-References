@@ -3,7 +3,7 @@ title: FieldOptions.field_updating_progress_callback property
 linktitle: field_updating_progress_callback property
 articleTitle: field_updating_progress_callback property
 second_title: Aspose.Words for Python
-description: "FieldOptions.field_updating_progress_callback property. Gets or sets [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/) implementation."
+description: "FieldOptions.field_updating_progress_callback property. Gets or sets Aspose.Words.Fields.IFieldUpdatingProgressCallback implementation."
 type: docs
 weight: 130
 url: /python-net/aspose.words.fields/fieldoptions/field_updating_progress_callback/
@@ -11,17 +11,17 @@ url: /python-net/aspose.words.fields/fieldoptions/field_updating_progress_callba
 
 ## FieldOptions.field_updating_progress_callback property
 
-Gets or sets [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/) implementation.
+Gets or sets Aspose.Words.Fields.IFieldUpdatingProgressCallback implementation.
 
 
 
 ```python
 @property
-def field_updating_progress_callback(self) -> aspose.words.fields.IFieldUpdatingProgressCallback:
+def field_updating_progress_callback(self) -> None:
     ...
 
 @field_updating_progress_callback.setter
-def field_updating_progress_callback(self, value: aspose.words.fields.IFieldUpdatingProgressCallback):
+def field_updating_progress_callback(self, value: None):
     ...
 
 ```

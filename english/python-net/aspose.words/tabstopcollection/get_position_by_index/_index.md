@@ -35,10 +35,8 @@ Shows how to find a tab, stop by its index and verify its position.
 ```python
 doc = aw.Document()
 tab_stops = doc.first_section.body.paragraphs[0].paragraph_format.tab_stops
-
-tab_stops.add(aw.ConvertUtil.millimeter_to_point(30), aw.TabAlignment.LEFT, aw.TabLeader.DASHES)
-tab_stops.add(aw.ConvertUtil.millimeter_to_point(60), aw.TabAlignment.LEFT, aw.TabLeader.DASHES)
-
+tab_stops.add(position=aw.ConvertUtil.millimeter_to_point(30), alignment=aw.TabAlignment.LEFT, leader=aw.TabLeader.DASHES)
+tab_stops.add(position=aw.ConvertUtil.millimeter_to_point(60), alignment=aw.TabAlignment.LEFT, leader=aw.TabLeader.DASHES)
 # Verify the position of the second tab stop in the collection.
 self.assertAlmostEqual(aw.ConvertUtil.millimeter_to_point(60), tab_stops.get_position_by_index(1), delta=0.1)
 ```

@@ -41,41 +41,32 @@ A list of nodes matching the XPath query.
 Shows how to select certain nodes by using an XPath expression.
 
 ```python
-doc = aw.Document(MY_DIR + "Tables.docx")
-
+doc = aw.Document(MY_DIR + 'Tables.docx')
 # This expression will extract all paragraph nodes,
 # which are descendants of any table node in the document.
-node_list = doc.select_nodes("//Table//Paragraph")
-
+node_list = doc.select_nodes('//Table//Paragraph')
 # Iterate through the list with an enumerator and print the contents of every paragraph in each cell of the table.
 index = 0
-
 for node in node_list:
     print(f'Table paragraph index {index}, contents: "{node.get_text().strip()}"')
     index += 1
-
 # This expression will select any paragraphs that are direct children of any Body node in the document.
-node_list = doc.select_nodes("//Body/Paragraph")
-
+node_list = doc.select_nodes('//Body/Paragraph')
 # We can treat the list as an array.
 self.assertEqual(4, len(node_list.to_array()))
-
 # Use "select_single_node" to select the first result of the same expression as above.
-node = doc.select_single_node("//Body/Paragraph")
-
+node = doc.select_single_node('//Body/Paragraph')
 self.assertIsInstance(node.as_paragraph(), aw.Paragraph)
 ```
 
 Shows how to use an XPath expression to test whether a node is inside a field.
 
 ```python
-doc = aw.Document(MY_DIR + "Mail merge destination - Northwind employees.docx")
-
+doc = aw.Document(MY_DIR + 'Mail merge destination - Northwind employees.docx')
 # The NodeList that results from this XPath expression will contain all nodes we find inside a field.
 # However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
 # Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
-result_list = doc.select_nodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]")
-
+result_list = doc.select_nodes('//FieldStart/following-sibling::node()[following-sibling::FieldEnd]')
 # Check if the specified run is one of the nodes that are inside the field.
 for node in result_list:
     if node.node_type == aw.NodeType.RUN:

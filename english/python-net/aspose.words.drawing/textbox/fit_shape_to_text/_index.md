@@ -39,19 +39,15 @@ Shows how to get a text box to resize itself to fit its contents tightly.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 text_box_shape = builder.insert_shape(aw.drawing.ShapeType.TEXT_BOX, 150, 100)
 text_box = text_box_shape.text_box
-
 # Apply these values to both these members to get the parent shape to fit
 # tightly around the text contents, ignoring the dimensions we have set.
 text_box.fit_shape_to_text = True
 text_box.text_box_wrap_mode = aw.drawing.TextBoxWrapMode.NONE
-
 builder.move_to(text_box_shape.last_paragraph)
-builder.write("Text fit tightly inside textbox.")
-
-doc.save(ARTIFACTS_DIR + "Shape.text_box_fit_shape_to_text.docx")
+builder.write('Text fit tightly inside textbox.')
+doc.save(ARTIFACTS_DIR + 'Shape.text_box_fit_shape_to_text.docx')
 ```
 
 ### See Also

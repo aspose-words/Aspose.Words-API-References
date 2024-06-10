@@ -50,8 +50,8 @@ Shows how to load declared "@font-face" rules.
 ```python
 load_options = aw.loading.HtmlLoadOptions()
 load_options.support_font_face_rules = True
-doc = aw.Document(file_name=MY_DIR + "Html with FontFace.html", load_options=load_options)
-self.assertEqual("Squarish Sans CT Regular", doc.font_infos[0].name)
+doc = aw.Document(file_name=MY_DIR + 'Html with FontFace.html', load_options=load_options)
+self.assertEqual('Squarish Sans CT Regular', doc.font_infos[0].name)
 ```
 
 ### See Also

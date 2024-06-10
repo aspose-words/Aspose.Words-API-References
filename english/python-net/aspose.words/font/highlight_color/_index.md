@@ -31,15 +31,13 @@ Shows how to format a run of text using its font property.
 
 ```python
 doc = aw.Document()
-run = aw.Run(doc, "Hello world!")
-
+run = aw.Run(doc=doc, text='Hello world!')
 font = run.font
-font.name = "Courier New"
+font.name = 'Courier New'
 font.size = 36
-font.highlight_color = drawing.Color.yellow
-
+font.highlight_color = aspose.pydrawing.Color.yellow
 doc.first_section.body.first_paragraph.append_child(run)
-doc.save(ARTIFACTS_DIR + "Font.create_formatted_run.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Font.CreateFormattedRun.docx')
 ```
 
 ### See Also

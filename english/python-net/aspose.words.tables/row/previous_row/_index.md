@@ -30,6 +30,23 @@ it is automatically traversed to get a row contained within.
 
 
 
+### Examples
+
+Shows how to enumerate through all table cells.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
+table = doc.first_section.body.tables[0]
+# Enumerate through all cells of the table.
+row = table.first_row
+while row != None:
+    cell = row.first_cell
+    while cell != None:
+        print(cell.get_text())
+        cell = cell.next_cell
+    row = row.next_row
+```
+
 ### See Also
 
 * module [aspose.words.tables](../../)

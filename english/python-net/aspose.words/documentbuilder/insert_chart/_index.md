@@ -79,15 +79,10 @@ Shows how to insert a pie chart into a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-chart = builder.insert_chart(aw.drawing.charts.ChartType.PIE, aw.ConvertUtil.pixel_to_point(300),
-    aw.ConvertUtil.pixel_to_point(300)).chart
+chart = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.PIE, width=aw.ConvertUtil.pixel_to_point(pixels=300), height=aw.ConvertUtil.pixel_to_point(pixels=300)).chart
 chart.series.clear()
-chart.series.add("My fruit",
-    [ "Apples", "Bananas", "Cherries" ],
-    [ 1.3, 2.2, 1.5 ])
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_pie_chart.docx")
+chart.series.add(series_name='My fruit', categories=['Apples', 'Bananas', 'Cherries'], values=[1.3, 2.2, 1.5])
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertPieChart.docx')
 ```
 
 Shows how to specify position and wrapping while inserting a chart.
@@ -95,11 +90,8 @@ Shows how to specify position and wrapping while inserting a chart.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.insert_chart(aw.drawing.charts.ChartType.PIE, aw.drawing.RelativeHorizontalPosition.MARGIN, 100, aw.drawing.RelativeVerticalPosition.MARGIN,
-    100, 200, 100, aw.drawing.WrapType.SQUARE)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.inserted_chart_relative_position.docx")
+builder.insert_chart(chart_type=aw.drawing.charts.ChartType.PIE, horz_pos=aw.drawing.RelativeHorizontalPosition.MARGIN, left=100, vert_pos=aw.drawing.RelativeVerticalPosition.MARGIN, top=100, width=200, height=100, wrap_type=aw.drawing.WrapType.SQUARE)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertedChartRelativePosition.docx')
 ```
 
 ## See Also

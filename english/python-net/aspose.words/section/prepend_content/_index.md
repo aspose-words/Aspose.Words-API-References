@@ -42,30 +42,22 @@ Shows how to append the contents of a section to another section.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.write("Section 1")
+builder.write('Section 1')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
-builder.write("Section 2")
+builder.write('Section 2')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
-builder.write("Section 3")
-
+builder.write('Section 3')
 section = doc.sections[2]
-
-self.assertEqual("Section 3" + aw.ControlChar.SECTION_BREAK, section.get_text())
-
+self.assertEqual('Section 3' + aw.ControlChar.SECTION_BREAK, section.get_text())
 # Insert the contents of the first section to the beginning of the third section.
 section_to_prepend = doc.sections[0]
 section.prepend_content(section_to_prepend)
-
 # Insert the contents of the second section to the end of the third section.
 section_to_append = doc.sections[1]
 section.append_content(section_to_append)
-
-# The "prepend_content" and "append_content" methods did not create any new sections.
+# The "PrependContent" and "AppendContent" methods did not create any new sections.
 self.assertEqual(3, doc.sections.count)
-self.assertEqual("Section 1" + aw.ControlChar.PARAGRAPH_BREAK +
-                 "Section 3" + aw.ControlChar.PARAGRAPH_BREAK +
-                 "Section 2" + aw.ControlChar.SECTION_BREAK, section.get_text())
+self.assertEqual('Section 1' + aw.ControlChar.PARAGRAPH_BREAK + 'Section 3' + aw.ControlChar.PARAGRAPH_BREAK + 'Section 2' + aw.ControlChar.SECTION_BREAK, section.get_text())
 ```
 
 ### See Also

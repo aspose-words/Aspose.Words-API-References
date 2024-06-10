@@ -28,12 +28,10 @@ Shows how to set a custom interval for tab stop positions.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Set tab stops to appear every 72 points (1 inch).
 builder.document.default_tab_stop = 72
-
 # Each tab character snaps the text after it to the next closest tab stop position.
-builder.writeln("Hello" + aw.ControlChar.TAB + "World!")
+builder.writeln('Hello' + aw.ControlChar.TAB + 'World!')
 ```
 
 ### See Also

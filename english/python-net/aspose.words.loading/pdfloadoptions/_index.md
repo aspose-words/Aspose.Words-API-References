@@ -5,7 +5,7 @@ articleTitle: PdfLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 130
+weight: 120
 url: /python-net/aspose.words.loading/pdfloadoptions/
 ---
 
@@ -46,6 +46,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [skip_pdf_images](./skip_pdf_images/) | Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is ``False``. |
 | [temp_folder](../loadoptions/temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [update_dirty_fields](../loadoptions/update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [use_system_lcid](../loadoptions/use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [warning_callback](../loadoptions/warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
 ### See Also

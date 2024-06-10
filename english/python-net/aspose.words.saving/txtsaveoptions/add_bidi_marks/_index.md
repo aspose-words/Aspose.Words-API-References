@@ -36,34 +36,28 @@ Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each 
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Hello world!")
+builder.writeln('Hello world!')
 builder.paragraph_format.bidi = True
-builder.writeln("שלום עולם!")
-builder.writeln("مرحبا بالعالم!")
-
+builder.writeln('שלום עולם!')
+builder.writeln('مرحبا بالعالم!')
 # Create a "TxtSaveOptions" object, which we can pass to the document's "save" method
 # to modify how we save the document to plaintext.
 save_options = aw.saving.TxtSaveOptions()
-save_options.encoding = "utf-8"
-
+save_options.encoding = 'utf-8'
 # Set the "add_bidi_marks" property to "True" to add marks before runs
 # with right-to-left text to indicate the fact.
 # Set the "add_bidi_marks" property to "False" to write all left-to-right
 # and right-to-left run equally with nothing to indicate which is which.
 save_options.add_bidi_marks = add_bidi_marks
-
-doc.save(ARTIFACTS_DIR + "TxtSaveOptions.add_bidi_marks.txt", save_options)
-
-with open(ARTIFACTS_DIR + "TxtSaveOptions.add_bidi_marks.txt", "rb") as file:
+doc.save(ARTIFACTS_DIR + 'TxtSaveOptions.add_bidi_marks.txt', save_options)
+with open(ARTIFACTS_DIR + 'TxtSaveOptions.add_bidi_marks.txt', 'rb') as file:
     doc_text = file.read().decode('utf-8')
-
 if add_bidi_marks:
-    self.assertEqual("\uFEFFHello world!‎\r\nשלום עולם!‏\r\nمرحبا بالعالم!‏\r\n\r\n", doc_text)
-    self.assertIn("\u200f", doc_text)
+    self.assertEqual('\ufeffHello world!\u200e\r\nשלום עולם!\u200f\r\nمرحبا بالعالم!\u200f\r\n\r\n', doc_text)
+    self.assertIn('\u200f', doc_text)
 else:
-    self.assertEqual("\uFEFFHello world!\r\nשלום עולם!\r\nمرحبا بالعالم!\r\n\r\n", doc_text)
-    self.assertNotIn("\u200f", doc_text)
+    self.assertEqual('\ufeffHello world!\r\nשלום עולם!\r\nمرحبا بالعالم!\r\n\r\n', doc_text)
+    self.assertNotIn('\u200f', doc_text)
 ```
 
 ### See Also

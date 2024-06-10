@@ -46,18 +46,12 @@ Shows how to apply logarithmic scaling to a chart axis.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-chart_shape = builder.insert_chart(aw.drawing.charts.ChartType.SCATTER, 450, 300)
+chart_shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.SCATTER, width=450, height=300)
 chart = chart_shape.chart
-
 # Clear the chart's demo data series to start with a clean chart.
 chart.series.clear()
-
 # Insert a series with X/Y coordinates for five points.
-chart.series.add("Series 1",
-    x_values=[1.0, 2.0, 3.0, 4.0, 5.0],
-    y_values=[1.0, 20.0, 400.0, 8000.0, 160000.0])
-
+chart.series.add(series_name='Series 1', x_values=[1, 2, 3, 4, 5], y_values=[1, 20, 400, 8000, 160000])
 # The scaling of the X-axis is linear by default,
 # displaying evenly incrementing values that cover our X-value range (0, 1, 2, 3...).
 # A linear axis is not ideal for our Y-values
@@ -66,8 +60,7 @@ chart.series.add("Series 1",
 # will spread the plotted points, allowing us to read their values on the chart more easily.
 chart.axis_y.scaling.type = aw.drawing.charts.AxisScaleType.LOGARITHMIC
 chart.axis_y.scaling.log_base = 20
-
-doc.save(ARTIFACTS_DIR + "Charts.axis_scaling.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.AxisScaling.docx')
 ```
 
 ### See Also

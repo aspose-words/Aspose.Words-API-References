@@ -24,17 +24,13 @@ def set_default_fill(self):
 Shows how to reset the fill to the default value defined in the series.
 
 ```python
-doc = Document(MY_DIR + "DataPoint format.docx")
+doc = aw.Document(file_name=MY_DIR + 'DataPoint format.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-
 series = shape.chart.series[0]
 data_point = series.data_points[1]
-
 self.assertTrue(data_point.format.is_defined)
-
 data_point.format.set_default_fill()
-
-doc.save(ARTIFACTS_DIR + "Charts.ResetDataPointFill.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.ResetDataPointFill.docx')
 ```
 
 ### See Also

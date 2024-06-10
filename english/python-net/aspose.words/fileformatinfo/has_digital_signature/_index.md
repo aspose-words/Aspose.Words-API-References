@@ -41,25 +41,18 @@ Shows how to use the aw.FileFormatUtil class to detect the document format and p
 
 ```python
 # Use a FileFormatInfo instance to verify that a document is not digitally signed.
-info = aw.FileFormatUtil.detect_file_format(MY_DIR + "Document.docx")
-
-self.assertEqual(".docx", aw.FileFormatUtil.load_format_to_extension(info.load_format))
+info = aw.FileFormatUtil.detect_file_format(MY_DIR + 'Document.docx')
+self.assertEqual('.docx', aw.FileFormatUtil.load_format_to_extension(info.load_format))
 self.assertFalse(info.has_digital_signature)
-
 sign_options = aw.digitalsignatures.SignOptions()
-sign_options.sign_time = datetime.now()
-
-certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + "morzal.pfx", "aw", None)
-aw.digitalsignatures.DigitalSignatureUtil.sign(MY_DIR + "Document.docx", ARTIFACTS_DIR + "File.detect_digital_signatures.docx",
-    certificate_holder, sign_options)
-
+sign_options.sign_time = datetime.datetime.now()
+certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'morzal.pfx', 'aw', None)
+aw.digitalsignatures.DigitalSignatureUtil.sign(MY_DIR + 'Document.docx', ARTIFACTS_DIR + 'File.detect_digital_signatures.docx', certificate_holder, sign_options)
 # Use a new FileFormatInstance to confirm that it is signed.
-info = aw.FileFormatUtil.detect_file_format(ARTIFACTS_DIR + "File.detect_digital_signatures.docx")
-
+info = aw.FileFormatUtil.detect_file_format(ARTIFACTS_DIR + 'File.detect_digital_signatures.docx')
 self.assertTrue(info.has_digital_signature)
-
 # We can load and access the signatures of a signed document in a collection like this.
-self.assertEqual(1, aw.digitalsignatures.DigitalSignatureUtil.load_signatures(ARTIFACTS_DIR + "File.detect_digital_signatures.docx").count)
+self.assertEqual(1, aw.digitalsignatures.DigitalSignatureUtil.load_signatures(ARTIFACTS_DIR + 'File.detect_digital_signatures.docx').count)
 ```
 
 ### See Also

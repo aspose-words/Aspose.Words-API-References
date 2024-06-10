@@ -30,9 +30,8 @@ def allow_break_across_pages(self, value: bool):
 Shows how to disable rows breaking across pages for every row in a table.
 
 ```python
-doc = aw.Document(MY_DIR + "Table spanning two pages.docx")
+doc = aw.Document(MY_DIR + 'Table spanning two pages.docx')
 table = doc.first_section.body.tables[0]
-
 # Set the "allow_break_across_pages" property to "False" to keep the row
 # in one piece if a table spans two pages, which break up along that row.
 # If the row is too big to fit in one page, Microsoft Word will push it down to the next page.
@@ -40,8 +39,7 @@ table = doc.first_section.body.tables[0]
 for row in table:
     row = row.as_row()
     row.row_format.allow_break_across_pages = allow_break_across_pages
-
-doc.save(ARTIFACTS_DIR + "Table.allow_break_across_pages.docx")
+doc.save(ARTIFACTS_DIR + 'Table.allow_break_across_pages.docx')
 ```
 
 ### See Also

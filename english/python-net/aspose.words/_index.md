@@ -86,12 +86,6 @@ The main classes in this module are:
 | [HeaderFooter](./headerfooter/) | Represents a container for the header or footer text of a section. To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/python-net/working-with-headers-and-footers/) documentation article. |
 | [HeaderFooterCollection](./headerfootercollection/) | Provides typed access to [HeaderFooter](./headerfooter/) nodes of a [Section](./section/). To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/python-net/working-with-headers-and-footers/) documentation article. |
 | [Hyphenation](./hyphenation/) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/python-net/working-with-hyphenation/) documentation article. |
-| [IDocumentConverterPlugin](./idocumentconverterplugin/) | Defines an interface for external converter plugin. |
-| [IDocumentMergerPlugin](./idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
-| [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
-| [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
-| [INodeChangingCallback](./inodechangingcallback/) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |
-| [IRevisionCriteria](./irevisioncriteria/) | Implement this interface if you want to control when certain [Revision](./revision/) should be accepted/rejected or not by the [RevisionCollection.accept()](./revisioncollection/accept/#irevisioncriteria)/[RevisionCollection.reject()](./revisioncollection/reject/#irevisioncriteria) methods. |
 | [IWarningCallback](./iwarningcallback/) | Implement this interface if you want to have your own custom method called to  capture loss of fidelity warnings that can occur during document loading or saving. |
 | [ImageWatermarkOptions](./imagewatermarkoptions/) | Contains options that can be specified when adding a watermark with image. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/python-net/working-with-watermark/) documentation article. |
 | [ImportFormatOptions](./importformatoptions/) | Allows to specify various import options to format output. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article. |
@@ -102,7 +96,6 @@ The main classes in this module are:
 | [License](./license/) | Provides methods to license the component. To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/python-net/licensing/) documentation article. |
 | [Metered](./metered/) | Provides methods to set metered key. |
 | [Node](./node/) | Base class for all nodes of a Word document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article. |
-| [NodeChangingArgs](./nodechangingargs/) | Provides data for methods of the [INodeChangingCallback](./inodechangingcallback/) interface. |
 | [NodeCollection](./nodecollection/) | Represents a collection of nodes of a specific type. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article. |
 | [NodeImporter](./nodeimporter/) | Allows to efficiently perform repeated import of nodes from one document to another. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article. |
 | [NodeList](./nodelist/) | Represents a collection of nodes matching an XPath query executed using the [CompositeNode.select_nodes()](./compositenode/select_nodes/#str) method. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article. |
@@ -164,7 +157,6 @@ The main classes in this module are:
 | [LoadFormat](./loadformat/) | Indicates the format of the document that is to be loaded. |
 | [Margins](./margins/) | Specifies preset margins. |
 | [MeasurementUnits](./measurementunits/) | Specifies the unit of measurement. |
-| [NodeChangingAction](./nodechangingaction/) | Specifies the type of node change. |
 | [NodeType](./nodetype/) | Specifies the type of a Word document node. |
 | [NumberStyle](./numberstyle/) | Specifies the number style for a list, footnotes and endnotes, page numbers. |
 | [Orientation](./orientation/) | Specifies page orientation. |

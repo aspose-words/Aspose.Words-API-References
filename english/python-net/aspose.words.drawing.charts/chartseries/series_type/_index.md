@@ -23,21 +23,19 @@ def series_type(self) -> aspose.words.drawing.charts.ChartSeriesType:
 
 ### Examples
 
-Shows how to remove specific chart series
+Shows how to remove specific chart serie.
 
 ```python
-doc = Document(MY_DIR + "Reporting engine template - Chart series.docx")
-chart = doc.get_child(NodeType.SHAPE, 0, True).as_shape().chart
-
+doc = aw.Document(file_name=MY_DIR + 'Reporting engine template - Chart series.docx')
+chart = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape().chart
 # Remove all series of the Column type.
-for i in range(0, chart.series.count, -1):
-    if chart.series[i].series_type == ChartSeriesType.COLUMN:
-        chart.series.remove(i)
-
-chart.series.add("Aspose Series", ["Category 1", "Category 2", "Category 3", "Category 4"],
-                 [5.6, 7.1, 2.9, 8.9])
-
-doc.save(ARTIFACTS_DIR + "Charts.RemoveSpecificChartSeries.docx")
+i = chart.series.count - 1
+while i >= 0:
+    if chart.series[i].series_type == aw.drawing.charts.ChartSeriesType.COLUMN:
+        chart.series.remove_at(i)
+    i -= 1
+chart.series.add(series_name='Aspose Series', categories=['Category 1', 'Category 2', 'Category 3', 'Category 4'], values=[5.6, 7.1, 2.9, 8.9])
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.RemoveSpecificChartSeries.docx')
 ```
 
 ### See Also

@@ -32,22 +32,17 @@ Shows how to use a TEMPLATE field to display the local file system location of a
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-# We can set a template name using by the fields. This property is used when the "doc.attached_template" is empty.
+# We can set a template name using by the fields. This property is used when the "doc.AttachedTemplate" is empty.
 # If this property is empty the default template file name "Normal.dotm" is used.
-doc.field_options.template_name = ""
-
-field = builder.insert_field(aw.fields.FieldType.FIELD_TEMPLATE, False).as_field_template()
-self.assertEqual(" TEMPLATE ", field.get_field_code())
-
+doc.field_options.template_name = ''
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_TEMPLATE, update_field=False).as_field_template()
+self.assertEqual(' TEMPLATE ', field.get_field_code())
 builder.writeln()
-field = builder.insert_field(aw.fields.FieldType.FIELD_TEMPLATE, False).as_field_template()
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_TEMPLATE, update_field=False).as_field_template()
 field.include_full_path = True
-
-self.assertEqual(" TEMPLATE  \\p", field.get_field_code())
-
+self.assertEqual(' TEMPLATE  \\p', field.get_field_code())
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + "Field.field_template.docx")
+doc.save(file_name=ARTIFACTS_DIR + 'Field.TEMPLATE.docx')
 ```
 
 ### See Also

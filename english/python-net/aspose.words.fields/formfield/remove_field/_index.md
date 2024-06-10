@@ -29,8 +29,7 @@ If there is a bookmark associated with the form field, the bookmark is not remov
 Shows how to delete a form field.
 
 ```python
-doc = aw.Document(MY_DIR + "Form fields.docx")
-
+doc = aw.Document(file_name=MY_DIR + 'Form fields.docx')
 form_field = doc.range.form_fields[3]
 form_field.remove_field()
 ```

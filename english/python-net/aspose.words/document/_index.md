@@ -117,7 +117,6 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [mail_merge](./mail_merge/) | Returns a [MailMerge](../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document. |
 | [mail_merge_settings](./mail_merge_settings/) | Gets or sets the object that contains all of the mail merge information for a document. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
-| [node_changing_callback](../documentbase/node_changing_callback/) | Called when a node is inserted or removed in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [node_type](./node_type/) | Returns [NodeType.DOCUMENT](../nodetype/#DOCUMENT). |
 | [original_file_name](./original_file_name/) | Gets the original file name of the document. |
 | [original_load_format](./original_load_format/) | Gets the format of the original document that was loaded into this object. |
@@ -127,9 +126,9 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
 | [protection_type](./protection_type/) | Gets the currently active document protection type. |
+| [punctuation_kerning](./punctuation_kerning/) | Specifies whether kerning applies to both Latin text and punctuation. |
 | [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [remove_personal_information](./remove_personal_information/) | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
-| [resource_loading_callback](../documentbase/resource_loading_callback/) | Allows to control how external resources are loaded.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [revisions](./revisions/) | Gets a collection of revisions (tracked changes) that exist in this document. |
 | [revisions_view](./revisions_view/) | Gets or sets a value indicating whether to work with the original or revised version of a document. |
 | [sections](./sections/) | Returns a collection that represents all sections in the document. |
@@ -221,48 +220,6 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ update_thumbnail()](./update_thumbnail/#default) | Updates [BuiltInDocumentProperties.thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document using default options. |
 |[ update_word_count()](./update_word_count/#default) | Updates word count properties of the document. |
 |[ update_word_count(update_lines_count)](./update_word_count/#bool) | Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../aspose.words.properties/builtindocumentproperties/lines/) property. |
-
-### Examples
-
-Shows how to execute a mail merge with data from a DataTable.
-
-```python
-def test_execute_data_table(self):
-
-    table = DataTable("Test")
-    table.columns.add("CustomerName")
-    table.columns.add("Address")
-    table.rows.add(["Thomas Hardy", "120 Hanover Sq., London"])
-    table.rows.add(["Paolo Accorti", "Via Monte Bianco 34, Torino"])
-
-    # Below are two ways of using a DataTable as the data source for a mail merge.
-    # 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
-    doc = ExMailMerge.create_source_doc_execute_data_table()
-
-    doc.mail_merge.execute(table)
-
-    doc.save(ARTIFACTS_DIR + "MailMerge.execute_data_table.whole_table.docx")
-
-    # 2 -  Use one row of the table to create one output mail merge document:
-    doc = ExMailMerge.create_source_doc_execute_data_table()
-
-    doc.mail_merge.execute(table.rows[1])
-
-    doc.save(ARTIFACTS_DIR + "MailMerge.execute_data_table.one_row.docx")
-
-@staticmethod
-def create_source_doc_execute_data_table() -> aw.Document:
-    """Creates a mail merge source document."""
-
-    doc = aw.Document()
-    builder = aw.DocumentBuilder(doc)
-
-    builder.insert_field(" MERGEFIELD CustomerName ")
-    builder.insert_paragraph()
-    builder.insert_field(" MERGEFIELD Address ")
-
-    return doc
-```
 
 ### See Also
 

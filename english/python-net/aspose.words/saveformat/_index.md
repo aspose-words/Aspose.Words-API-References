@@ -5,7 +5,7 @@ articleTitle: SaveFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.SaveFormat enumeration. Indicates the format in which the document is saved."
 type: docs
-weight: 1030
+weight: 950
 url: /python-net/aspose.words/saveformat/
 ---
 
@@ -65,9 +65,8 @@ Indicates the format in which the document is saved.
 Shows how to convert from DOCX to HTML format.
 
 ```python
-doc = aw.Document(MY_DIR + "Document.docx")
-
-doc.save(ARTIFACTS_DIR + "Document.convert_to_html.html", aw.SaveFormat.HTML)
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.ConvertToHtml.html', save_format=aw.SaveFormat.HTML)
 ```
 
 ### See Also

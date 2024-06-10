@@ -30,8 +30,7 @@ def keep_legacy_control_chars(self, value: bool):
 Shows how to support legacy control characters when converting to .docx.
 
 ```python
-doc = aw.Document(MY_DIR + "Legacy control character.doc")
-
+doc = aw.Document(MY_DIR + 'Legacy control character.doc')
 # When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
 # and then pass it to the document's saving method to modify how we save the document.
 # Set the "keep_legacy_control_chars" property to "True" to preserve
@@ -40,14 +39,9 @@ doc = aw.Document(MY_DIR + "Legacy control character.doc")
 # the "ShortDateTime" legacy character from the output document.
 save_options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
 save_options.keep_legacy_control_chars = keep_legacy_control_chars
-
-doc.save(ARTIFACTS_DIR + "OoxmlSaveOptions.keep_legacy_control_chars.docx", save_options)
-
-doc = aw.Document(ARTIFACTS_DIR + "OoxmlSaveOptions.keep_legacy_control_chars.docx")
-
-self.assertEqual(
-    "\u0013date \\@ \"d/MM/yyyy\"\u0014\u0015\f" if keep_legacy_control_chars else "\u001e\f",
-    doc.first_section.body.get_text())
+doc.save(ARTIFACTS_DIR + 'OoxmlSaveOptions.keep_legacy_control_chars.docx', save_options)
+doc = aw.Document(ARTIFACTS_DIR + 'OoxmlSaveOptions.keep_legacy_control_chars.docx')
+self.assertEqual('\x13date \\@ "d/MM/yyyy"\x14\x15\x0c' if keep_legacy_control_chars else '\x1e\x0c', doc.first_section.body.get_text())
 ```
 
 ### See Also

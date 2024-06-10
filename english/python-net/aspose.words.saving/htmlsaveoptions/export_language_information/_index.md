@@ -42,17 +42,13 @@ Shows how to preserve language information when saving to .html.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
 # Use the builder to write text while formatting it in different locales.
-builder.font.locale_id = 1033 # en-US
-builder.writeln("Hello world!")
-
-builder.font.locale_id = 2057 # en-GB
-builder.writeln("Hello again!")
-
-builder.font.locale_id = 1049 # ru-RU
-builder.write("Привет, мир!")
-
+builder.font.locale_id = 1033  # en-US
+builder.writeln('Hello world!')
+builder.font.locale_id = 2057  # en-GB
+builder.writeln('Hello again!')
+builder.font.locale_id = 1049  # ru-RU
+builder.write('Привет, мир!')
 # When saving the document to HTML, we can pass a SaveOptions object
 # to either preserve or discard each formatted text's locale.
 # If we set the "export_language_information" flag to "True",
@@ -62,20 +58,17 @@ builder.write("Привет, мир!")
 options = aw.saving.HtmlSaveOptions()
 options.export_language_information = export_language_information
 options.pretty_format = True
-
-doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.export_language_information.html", options)
-
-with open(ARTIFACTS_DIR + "HtmlSaveOptions.export_language_information.html", "rt", encoding="utf-8") as file:
+doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.export_language_information.html', options)
+with open(ARTIFACTS_DIR + 'HtmlSaveOptions.export_language_information.html', 'rt', encoding='utf-8') as file:
     out_doc_contents = file.read()
-
 if export_language_information:
-    self.assertIn("<span>Hello world!</span>", out_doc_contents)
-    self.assertIn("<span lang=\"en-GB\">Hello again!</span>", out_doc_contents)
-    self.assertIn("<span lang=\"ru-RU\">Привет, мир!</span>", out_doc_contents)
+    self.assertIn('<span>Hello world!</span>', out_doc_contents)
+    self.assertIn('<span lang="en-GB">Hello again!</span>', out_doc_contents)
+    self.assertIn('<span lang="ru-RU">Привет, мир!</span>', out_doc_contents)
 else:
-    self.assertIn("<span>Hello world!</span>", out_doc_contents)
-    self.assertIn("<span>Hello again!</span>", out_doc_contents)
-    self.assertIn("<span>Привет, мир!</span>", out_doc_contents)
+    self.assertIn('<span>Hello world!</span>', out_doc_contents)
+    self.assertIn('<span>Hello again!</span>', out_doc_contents)
+    self.assertIn('<span>Привет, мир!</span>', out_doc_contents)
 ```
 
 ### See Also

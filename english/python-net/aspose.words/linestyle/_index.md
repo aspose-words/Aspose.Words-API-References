@@ -5,7 +5,7 @@ articleTitle: LineStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LineStyle enumeration. Specifies line style of a [Border](../border/)."
 type: docs
-weight: 670
+weight: 610
 url: /python-net/aspose.words/linestyle/
 ---
 
@@ -54,14 +54,11 @@ Shows how to insert a string surrounded by a border into a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-
-builder.font.border.color = drawing.Color.green
+builder.font.border.color = aspose.pydrawing.Color.green
 builder.font.border.line_width = 2.5
 builder.font.border.line_style = aw.LineStyle.DASH_DOT_STROKER
-
-builder.write("Text surrounded by green border.")
-
-doc.save(ARTIFACTS_DIR + "Border.font_border.docx")
+builder.write('Text surrounded by green border.')
+doc.save(file_name=ARTIFACTS_DIR + 'Border.FontBorder.docx')
 ```
 
 ### See Also

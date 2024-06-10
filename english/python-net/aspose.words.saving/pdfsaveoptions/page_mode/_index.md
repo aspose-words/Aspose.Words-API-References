@@ -36,19 +36,15 @@ The default value is [PdfPageMode.USE_OUTLINES](../../pdfpagemode/#USE_OUTLINES)
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
 
 ```python
-doc = aw.Document(MY_DIR + "Bookmarks in headers and footers.docx")
-
+doc = aw.Document(MY_DIR + 'Bookmarks in headers and footers.docx')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 save_options = aw.saving.PdfSaveOptions()
-
 # Set the "page_mode" property to "PdfPageMode.USE_OUTLINES" to display the outline navigation pane in the output PDF.
 save_options.page_mode = aw.saving.PdfPageMode.USE_OUTLINES
-
 # Set the "default_bookmarks_outline_level" property to "1" to display all
 # bookmarks at the first level of the outline in the output PDF.
 save_options.outline_options.default_bookmarks_outline_level = 1
-
 # Set the "header_footer_bookmarks_export_mode" property to "HeaderFooterBookmarksExportMode.NONE" to
 # not export any bookmarks that are inside headers/footers.
 # Set the "header_footer_bookmarks_export_mode" property to "HeaderFooterBookmarksExportMode.FIRST" to
@@ -56,8 +52,7 @@ save_options.outline_options.default_bookmarks_outline_level = 1
 # Set the "header_footer_bookmarks_export_mode" property to "HeaderFooterBookmarksExportMode.ALL" to
 # export bookmarks that are in all headers/footers.
 save_options.header_footer_bookmarks_export_mode = header_footer_bookmarks_export_mode
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.header_footer_bookmarks_export_mode.pdf", save_options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.header_footer_bookmarks_export_mode.pdf', save_options)
 ```
 
 Shows how to set instructions for some PDF readers to follow when opening an output document.
@@ -65,12 +60,10 @@ Shows how to set instructions for some PDF readers to follow when opening an out
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-builder.writeln("Hello world!")
-
+builder.writeln('Hello world!')
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-
 # Set the "page_mode" property to "PdfPageMode.FULL_SCREEN" to get the PDF reader to open the saved
 # document in full-screen mode, which takes over the monitor's display and has no controls visible.
 # Set the "page_mode" property to "PdfPageMode.USE_THUMBS" to get the PDF reader to display a separate panel
@@ -82,8 +75,7 @@ options = aw.saving.PdfSaveOptions()
 # Set the "page_mode" property to "PdfPageMode.USE_NONE" to get the PDF reader to display just the document itself.
 # Set the "page_mode" property to "PdfPageMode.USE_ATTACHMENTS" to make visible attachments panel.
 options.page_mode = page_mode
-
-doc.save(ARTIFACTS_DIR + "PdfSaveOptions.page_mode.pdf", options)
+doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.page_mode.pdf', options)
 ```
 
 ### See Also

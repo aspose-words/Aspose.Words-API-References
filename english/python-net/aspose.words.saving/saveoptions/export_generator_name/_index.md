@@ -33,12 +33,10 @@ Shows how to disable adding name and version of Aspose.Words into produced files
 
 ```python
 doc = aw.Document()
-
-# Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+# Use https:#docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.export_generator_name = False
-
-doc.save(ARTIFACTS_DIR + "OoxmlSaveOptions.export_generator_name.docx", save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.ExportGeneratorName.docx', save_options=save_options)
 ```
 
 ### See Also
