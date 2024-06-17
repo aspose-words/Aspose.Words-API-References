@@ -4,7 +4,7 @@ linktitle: FindReplaceOptions
 second_title: Aspose.Words for Java
 description: Specifies options for find/replace operations in Java.
 type: docs
-weight: 297
+weight: 298
 url: /java/com.aspose.words/findreplaceoptions/
 ---
 

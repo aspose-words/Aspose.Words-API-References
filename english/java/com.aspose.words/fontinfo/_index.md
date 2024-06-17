@@ -4,7 +4,7 @@ linktitle: FontInfo
 second_title: Aspose.Words for Java
 description: Specifies information about a font used in the document in Java.
 type: docs
-weight: 307
+weight: 308
 url: /java/com.aspose.words/fontinfo/
 ---
 

@@ -4,7 +4,7 @@ linktitle: CompareOptions
 second_title: Aspose.Words for Java
 description: Allows to choose advanced options for document comparison operation in Java.
 type: docs
-weight: 103
+weight: 104
 url: /java/com.aspose.words/compareoptions/
 ---
 
@@ -59,16 +59,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -92,10 +92,16 @@ Shows how to filter specific types of document elements when making a comparison
 
 
 [Compare Documents]: https://docs.aspose.com/words/java/compare-documents/
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CompareOptions()](#CompareOptions) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getAdvancedOptions()](#getAdvancedOptions) | Specifies advanced compare options that might help to produce more precise comparison output. |
 | [getCompareMoves()](#getCompareMoves) | Specifies whether to compare differences between the two documents. |
 | [getGranularity()](#getGranularity) | Specifies whether changes are tracked by character or by word. |
 | [getIgnoreCaseChanges()](#getIgnoreCaseChanges) | True indicates that documents comparison is case insensitive. |
@@ -120,6 +126,24 @@ Shows how to filter specific types of document elements when making a comparison
 | [setIgnoreTables(boolean value)](#setIgnoreTables-boolean) | Specifies whether to compare the differences in data contained in tables. |
 | [setIgnoreTextboxes(boolean value)](#setIgnoreTextboxes-boolean) | Specifies whether to compare differences in the data contained within text boxes. |
 | [setTarget(int value)](#setTarget-int) | Specifies which document shall be used as a target during comparison. |
+### CompareOptions() {#CompareOptions}
+```
+public CompareOptions()
+```
+
+
+Initializes a new instance of this class.
+
+### getAdvancedOptions() {#getAdvancedOptions}
+```
+public AdvancedCompareOptions getAdvancedOptions()
+```
+
+
+Specifies advanced compare options that might help to produce more precise comparison output.
+
+**Returns:**
+[AdvancedCompareOptions](../../com.aspose.words/advancedcompareoptions/) - The corresponding [AdvancedCompareOptions](../../com.aspose.words/advancedcompareoptions/) value.
 ### getCompareMoves() {#getCompareMoves}
 ```
 public boolean getCompareMoves()
@@ -228,16 +252,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -314,16 +338,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -371,7 +395,7 @@ Shows how to compare documents ignoring DML unique ID.
  // By default, Aspose.Words do not ignore DML's unique ID, and the revisions count was 2.
  // If we are ignoring DML's unique ID, and revisions count were 0.
  CompareOptions compareOptions = new CompareOptions();
- compareOptions.setIgnoreDmlUniqueId(isIgnoreDmlUniqueId);
+ compareOptions.getAdvancedOptions().setIgnoreDmlUniqueId(isIgnoreDmlUniqueId);
 
  docA.compare(docB, "Aspose.Words", new Date(), compareOptions);
 
@@ -434,16 +458,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -520,16 +544,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -606,16 +630,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -692,16 +716,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -778,16 +802,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -864,16 +888,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -946,16 +970,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1093,16 +1117,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1182,16 +1206,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1242,7 +1266,7 @@ Shows how to compare documents ignoring DML unique ID.
  // By default, Aspose.Words do not ignore DML's unique ID, and the revisions count was 2.
  // If we are ignoring DML's unique ID, and revisions count were 0.
  CompareOptions compareOptions = new CompareOptions();
- compareOptions.setIgnoreDmlUniqueId(isIgnoreDmlUniqueId);
+ compareOptions.getAdvancedOptions().setIgnoreDmlUniqueId(isIgnoreDmlUniqueId);
 
  docA.compare(docB, "Aspose.Words", new Date(), compareOptions);
 
@@ -1308,16 +1332,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1397,16 +1421,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1486,16 +1510,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1575,16 +1599,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1664,16 +1688,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1753,16 +1777,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -1838,16 +1862,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.

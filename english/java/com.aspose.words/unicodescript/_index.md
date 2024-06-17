@@ -4,7 +4,7 @@ linktitle: UnicodeScript
 second_title: Aspose.Words for Java
 description: Unicode Character Database property Script sc in Java.
 type: docs
-weight: 638
+weight: 639
 url: /java/com.aspose.words/unicodescript/
 ---
 

@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 146
+weight: 147
 url: /java/com.aspose.words/document/
 ---
 
@@ -176,6 +176,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getProtectionType()](#getProtectionType) | Gets the currently active document protection type. |
+| [getPunctuationKerning()](#getPunctuationKerning) | Specifies whether kerning applies to both Latin text and punctuation. |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation) | Gets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources are loaded. |
@@ -247,6 +248,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [setNodeChangingCallback(INodeChangingCallback value)](#setNodeChangingCallback-com.aspose.words.INodeChangingCallback) | Called when a node is inserted or removed in the document. |
 | [setPackageCustomParts(CustomPartCollection value)](#setPackageCustomParts-com.aspose.words.CustomPartCollection) | Sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
 | [setPageColor(Color value)](#setPageColor-java.awt.Color) | Sets the page color of the document. |
+| [setPunctuationKerning(boolean value)](#setPunctuationKerning-boolean) | Specifies whether kerning applies to both Latin text and punctuation. |
 | [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean) | Sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources are loaded. |
 | [setRevisionsView(int value)](#setRevisionsView-int) | Sets a value indicating whether to work with the original or revised version of a document. |
@@ -832,7 +834,8 @@ Shows how to compare documents.
 
  // After the comparison, the original document will gain a new revision
  // for every element that is different in the edited document.
- for (Revision r : docOriginal.getRevisions()) {
+ for (Revision r : docOriginal.getRevisions())
+ {
      System.out.println("Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
      System.out.println("\tChanged text: \"{r.ParentNode.GetText()}\"");
  }
@@ -900,16 +903,16 @@ Shows how to filter specific types of document elements when making a comparison
  builder.writeln("Original header contents.");
 
  // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
- Document docEdited = (Document) docOriginal.deepClone(true);
+ Document docEdited = (Document)docOriginal.deepClone(true);
  Paragraph firstParagraph = docEdited.getFirstSection().getBody().getFirstParagraph();
 
  firstParagraph.getRuns().get(0).setText("hello world! this is the first paragraph, after editing.");
  firstParagraph.getParagraphFormat().setStyle(docEdited.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1));
- ((Footnote) docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
- ((Table) docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
- ((Shape) docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
- ((FieldDate) docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
- ((Comment) docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
+ ((Footnote)docEdited.getChild(NodeType.FOOTNOTE, 0, true)).getFirstParagraph().getRuns().get(1).setText("Edited endnote text.");
+ ((Table)docEdited.getChild(NodeType.TABLE, 0, true)).getFirstRow().getCells().get(1).getFirstParagraph().getRuns().get(0).setText("Edited Cell 2 contents");
+ ((Shape)docEdited.getChild(NodeType.SHAPE, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited textbox contents");
+ ((FieldDate)docEdited.getRange().getFields().get(0)).setUseLunarCalendar(true);
+ ((Comment)docEdited.getChild(NodeType.COMMENT, 0, true)).getFirstParagraph().getRuns().get(0).setText("Edited comment.");
  docEdited.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getFirstParagraph().getRuns().get(0).setText("Edited header contents.");
 
  // Comparing documents creates a revision for every edit in the edited document.
@@ -3847,6 +3850,16 @@ Shows how to protect and unprotect a document.
 
 **Returns:**
 int - The currently active document protection type. The returned value is one of [ProtectionType](../../com.aspose.words/protectiontype/) constants.
+### getPunctuationKerning() {#getPunctuationKerning}
+```
+public boolean getPunctuationKerning()
+```
+
+
+Specifies whether kerning applies to both Latin text and punctuation.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getRange() {#getRange}
 ```
 public Range getRange()
@@ -7226,6 +7239,19 @@ Shows how to set the background color for all pages of a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | The page color of the document. |
+
+### setPunctuationKerning(boolean value) {#setPunctuationKerning-boolean}
+```
+public void setPunctuationKerning(boolean value)
+```
+
+
+Specifies whether kerning applies to both Latin text and punctuation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setRemovePersonalInformation(boolean value) {#setRemovePersonalInformation-boolean}
 ```

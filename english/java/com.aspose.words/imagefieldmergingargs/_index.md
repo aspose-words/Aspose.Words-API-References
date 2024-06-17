@@ -4,7 +4,7 @@ linktitle: ImageFieldMergingArgs
 second_title: Aspose.Words for Java
 description: Provides data for the IFieldMergingCallback.imageFieldMergingcom.aspose.words.ImageFieldMergingArgs event in Java.
 type: docs
-weight: 366
+weight: 367
 url: /java/com.aspose.words/imagefieldmergingargs/
 ---
 

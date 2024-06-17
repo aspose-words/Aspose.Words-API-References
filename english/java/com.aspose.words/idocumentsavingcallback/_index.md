@@ -4,7 +4,7 @@ linktitle: IDocumentSavingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom method called during saving a document in Java.
 type: docs
-weight: 694
+weight: 695
 url: /java/com.aspose.words/idocumentsavingcallback/
 ---
 ```

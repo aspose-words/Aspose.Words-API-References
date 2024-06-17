@@ -4,7 +4,7 @@ linktitle: IPageLayoutCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom method called during build and rendering of page layout model in Java.
 type: docs
-weight: 709
+weight: 710
 url: /java/com.aspose.words/ipagelayoutcallback/
 ---
 ```

@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 523
+weight: 524
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -34,10 +34,12 @@ To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] docume
 | [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String) | Populates the specified template document with data from the specified sources making it a ready report. |
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getKnownTypes()](#getKnownTypes) | Gets an unordered set (i.e. |
+| [getMissingMemberMessage()](#getMissingMemberMessage) | Gets a string value printed instead of a template expression that represents a plain reference to a missing member of an object. |
 | [getOptions()](#getOptions) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. |
 | [getRestrictedTypes()](#getRestrictedTypes) | Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 | [getUseReflectionOptimization()](#getUseReflectionOptimization) | Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
 | [hashCode()](#hashCode) |  |
+| [setMissingMemberMessage(String value)](#setMissingMemberMessage-java.lang.String) | Sets a string value printed instead of a template expression that represents a plain reference to a missing member of an object. |
 | [setOptions(int value)](#setOptions-int) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. |
 | [setRestrictedTypes(Class[] types)](#setRestrictedTypes-java.lang.Class...) | Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 | [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean) | Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
@@ -114,6 +116,34 @@ A data source object can be of one of the following types:
 For information on how to work with data sources of different types in template documents, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
 
  **Examples:** 
+
+Shows how to remove paragraphs selectively.
+
+```
+
+ // Template contains tags with an exclamation mark. For such tags, empty paragraphs will be removed.
+ Document doc = new Document(getMyDir() + "Reporting engine template - Selective remove paragraphs.docx");
+
+ ReportingEngine engine = new ReportingEngine();
+ engine.buildReport(doc, false, "value");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.SelectiveDeletionOfParagraphs.docx");
+ 
+```
+
+Shows how to allow missing members.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.writeln("<<[missingObject.First().id]>>");
+ builder.writeln("<><<[id]>><>");
+
+ ReportingEngine engine = new ReportingEngine(); { engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS); }
+ engine.setMissingMemberMessage("Missed");
+ engine.buildReport(builder.getDocument(), new DataSet(), "");
+ 
+```
 
 Shows how to display values as dollar text.
 
@@ -241,6 +271,24 @@ Gets an unordered set (i.e. a collection of unique items) containing java.lang.C
 
 **Returns:**
 [KnownTypeSet](../../com.aspose.words/knowntypeset/) - An unordered set (i.e.
+### getMissingMemberMessage() {#getMissingMemberMessage}
+```
+public String getMissingMemberMessage()
+```
+
+
+Gets a string value printed instead of a template expression that represents a plain reference to a missing member of an object. The default value is an empty string.
+
+ **Remarks:** 
+
+The property should be used in conjunction with the [ReportBuildOptions.ALLOW\_MISSING\_MEMBERS](../../com.aspose.words/reportbuildoptions/\#ALLOW-MISSING-MEMBERS) option. Otherwise, an exception is thrown when a missing member of an object is encountered.
+
+The property affects only printing of a template expression representing a plain reference to a missing object member. For example, printing of a binary operator, one of which operands references a missing object member, is not affected.
+
+The value of this property cannot be set to null.
+
+**Returns:**
+java.lang.String - A string value printed instead of a template expression that represents a plain reference to a missing member of an object.
 ### getOptions() {#getOptions}
 ```
 public int getOptions()
@@ -309,6 +357,27 @@ public int hashCode()
 
 **Returns:**
 int
+### setMissingMemberMessage(String value) {#setMissingMemberMessage-java.lang.String}
+```
+public void setMissingMemberMessage(String value)
+```
+
+
+Sets a string value printed instead of a template expression that represents a plain reference to a missing member of an object. The default value is an empty string.
+
+ **Remarks:** 
+
+The property should be used in conjunction with the [ReportBuildOptions.ALLOW\_MISSING\_MEMBERS](../../com.aspose.words/reportbuildoptions/\#ALLOW-MISSING-MEMBERS) option. Otherwise, an exception is thrown when a missing member of an object is encountered.
+
+The property affects only printing of a template expression representing a plain reference to a missing object member. For example, printing of a binary operator, one of which operands references a missing object member, is not affected.
+
+The value of this property cannot be set to null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A string value printed instead of a template expression that represents a plain reference to a missing member of an object. |
+
 ### setOptions(int value) {#setOptions-int}
 ```
 public void setOptions(int value)

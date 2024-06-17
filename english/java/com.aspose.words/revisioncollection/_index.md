@@ -4,7 +4,7 @@ linktitle: RevisionCollection
 second_title: Aspose.Words for Java
 description: A collection of Revision objects that represent revisions in the document in Java.
 type: docs
-weight: 529
+weight: 530
 url: /java/com.aspose.words/revisioncollection/
 ---
 
@@ -220,7 +220,8 @@ Shows how to compare documents.
 
  // After the comparison, the original document will gain a new revision
  // for every element that is different in the edited document.
- for (Revision r : docOriginal.getRevisions()) {
+ for (Revision r : docOriginal.getRevisions())
+ {
      System.out.println("Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
      System.out.println("\tChanged text: \"{r.ParentNode.GetText()}\"");
  }

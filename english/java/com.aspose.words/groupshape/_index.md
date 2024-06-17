@@ -4,7 +4,7 @@ linktitle: GroupShape
 second_title: Aspose.Words for Java
 description: Represents a group of shapes in a document in Java.
 type: docs
-weight: 342
+weight: 343
 url: /java/com.aspose.words/groupshape/
 ---
 
@@ -209,7 +209,9 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getRotateWithObject()](#getRotateWithObject) |  |
 | [getRotation()](#getRotation) | Defines the angle (in degrees) that a shape is rotated. |
 | [getScreenTip()](#getScreenTip) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [getShadowColors()](#getShadowColors) |  |
 | [getShadowFormat()](#getShadowFormat) | Gets shadow formatting for the shape. |
+| [getShadowType()](#getShadowType) |  |
 | [getShapeRenderer()](#getShapeRenderer) | Creates and returns an object that can be used to render this shape into an image. |
 | [getShapeType()](#getShapeType) | Gets the shape type. |
 | [getSizeInPoints()](#getSizeInPoints) | Gets the size of the shape in points. |
@@ -222,6 +224,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [getTopRelative()](#getTopRelative) | Gets the value that represents shape's relative top position in percent. |
 | [getTransparency()](#getTransparency) |  |
 | [getVerticalAlignment()](#getVerticalAlignment) | Specifies how the shape is positioned vertically. |
+| [getVisible()](#getVisible) |  |
 | [getWidth()](#getWidth) | Gets the width of the containing block of the shape. |
 | [getWidthRelative()](#getWidthRelative) | Gets the value that represents the percentage of shape's relative width. |
 | [getWrapSide()](#getWrapSide) | Specifies how the text is wrapped around the shape. |
@@ -260,6 +263,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeReflection()](#removeReflection) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [removeShadow()](#removeShadow) |  |
 | [removeShapeAttr(int key)](#removeShapeAttr-int) |  |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [removeSoftEdge()](#removeSoftEdge) |  |
@@ -314,6 +318,7 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [setRotation(double value)](#setRotation-double) | Defines the angle (in degrees) that a shape is rotated. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setScreenTip(String value)](#setScreenTip-java.lang.String) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [setShadowType(int value)](#setShadowType-int) |  |
 | [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object) |  |
 | [setTarget(String value)](#setTarget-java.lang.String) | Sets the target frame for the shape hyperlink. |
 | [setTextureAlignment(int value)](#setTextureAlignment-int) |  |
@@ -3981,6 +3986,16 @@ Shows how to insert a shape which contains an image, and is also a hyperlink.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
+### getShadowColors() {#getShadowColors}
+```
+public Color getShadowColors()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
 ### getShadowFormat() {#getShadowFormat}
 ```
 public ShadowFormat getShadowFormat()
@@ -3991,6 +4006,16 @@ Gets shadow formatting for the shape.
 
 **Returns:**
 [ShadowFormat](../../com.aspose.words/shadowformat/) - Shadow formatting for the shape.
+### getShadowType() {#getShadowType}
+```
+public int getShadowType()
+```
+
+
+
+
+**Returns:**
+int
 ### getShapeRenderer() {#getShapeRenderer}
 ```
 public ShapeRenderer getShapeRenderer()
@@ -4516,6 +4541,16 @@ Shows how to insert a floating image to the center of a page.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment/) constants.
+### getVisible() {#getVisible}
+```
+public boolean getVisible()
+```
+
+
+
+
+**Returns:**
+boolean
 ### getWidth() {#getWidth}
 ```
 public double getWidth()
@@ -6220,6 +6255,14 @@ public void removeRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+### removeShadow() {#removeShadow}
+```
+public void removeShadow()
+```
+
+
+
 
 ### removeShapeAttr(int key) {#removeShapeAttr-int}
 ```
@@ -8563,6 +8606,19 @@ Shows how to insert a shape which contains an image, and is also a hyperlink.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
+
+### setShadowType(int value) {#setShadowType-int}
+```
+public void setShadowType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setShapeAttr(int key, Object value) {#setShapeAttr-int-java.lang.Object}
 ```

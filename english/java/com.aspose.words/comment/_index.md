@@ -4,7 +4,7 @@ linktitle: Comment
 second_title: Aspose.Words for Java
 description: Represents a container for text of a comment in Java.
 type: docs
-weight: 98
+weight: 99
 url: /java/com.aspose.words/comment/
 ---
 
@@ -115,6 +115,7 @@ Shows how to add a comment to a document, and then reply to it.
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDateTime()](#getDateTime) | Gets the date and time that the comment was made. |
+| [getDateTimeUtc()](#getDateTimeUtc) | Gets the UTC date and time that the comment was made. |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
 | [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
@@ -1262,6 +1263,44 @@ Shows how print the contents of all comments and their comment ranges using a do
 
 **Returns:**
 java.util.Date - The date and time that the comment was made.
+### getDateTimeUtc() {#getDateTimeUtc}
+```
+public Date getDateTimeUtc()
+```
+
+
+Gets the UTC date and time that the comment was made.
+
+ **Remarks:** 
+
+The default value is 03.01.0001
+
+ **Examples:** 
+
+Shows how to get UTC date and time.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Date dateTime = new Date();
+ Comment comment = new Comment(doc, "John Doe", "J.D.", dateTime);
+ comment.setText("My comment.");
+
+ builder.getCurrentParagraph().appendChild(comment);
+
+ doc.save(getArtifactsDir() + "Comment.UtcDateTime.docx");
+ doc = new Document(getArtifactsDir() + "Comment.UtcDateTime.docx");
+
+ comment = (Comment)doc.getChild(NodeType.COMMENT, 0, true);
+ // DateTimeUtc return data without milliseconds.
+ Assert.assertEquals(dateTime.toString(), comment.getDateTimeUtc().toString());
+ 
+```
+
+**Returns:**
+java.util.Date - The UTC date and time that the comment was made.
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)

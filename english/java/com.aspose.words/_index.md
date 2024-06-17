@@ -34,6 +34,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [AbsolutePositionTab](../com.aspose.words/absolutepositiontab/) | An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content. |
 | [Adjustment](../com.aspose.words/adjustment/) | Represents adjustment values that are applied to the specified shape. |
 | [AdjustmentCollection](../com.aspose.words/adjustmentcollection/) | Represents a read-only collection of [Adjustment](../com.aspose.words/adjustment/) adjust values that are applied to the specified shape. |
+| [AdvancedCompareOptions](../com.aspose.words/advancedcompareoptions/) | Allows to set advanced compare options. |
 | [ArrowLength](../com.aspose.words/arrowlength/) | Length of the arrow at the end of a line. |
 | [ArrowType](../com.aspose.words/arrowtype/) | Specifies the type of an arrow at a line end. |
 | [ArrowWidth](../com.aspose.words/arrowwidth/) | Width of the arrow at the end of a line. |

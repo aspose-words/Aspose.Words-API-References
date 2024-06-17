@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for Java
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 561
+weight: 562
 url: /java/com.aspose.words/shape/
 ---
 
@@ -243,8 +243,10 @@ Shows how to delete all shapes from a document.
 | [getRotateWithObject()](#getRotateWithObject) |  |
 | [getRotation()](#getRotation) | Defines the angle (in degrees) that a shape is rotated. |
 | [getScreenTip()](#getScreenTip) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [getShadowColors()](#getShadowColors) |  |
 | [getShadowEnabled()](#getShadowEnabled) | Returns  true  if a shadow effect is enabled. |
 | [getShadowFormat()](#getShadowFormat) | Gets shadow formatting for the shape. |
+| [getShadowType()](#getShadowType) |  |
 | [getShapeRenderer()](#getShapeRenderer) | Creates and returns an object that can be used to render this shape into an image. |
 | [getShapeType()](#getShapeType) | Gets the shape type. |
 | [getSignatureLine()](#getSignatureLine) | Gets [SignatureLine](../../com.aspose.words/signatureline/) object if the shape is a signature line. |
@@ -277,6 +279,7 @@ Shows how to delete all shapes from a document.
 | [getTopRelative()](#getTopRelative) | Gets the value that represents shape's relative top position in percent. |
 | [getTransparency()](#getTransparency) |  |
 | [getVerticalAlignment()](#getVerticalAlignment) | Specifies how the shape is positioned vertically. |
+| [getVisible()](#getVisible) |  |
 | [getWeight()](#getWeight) |  |
 | [getWidth()](#getWidth) | Gets the width of the containing block of the shape. |
 | [getWidthRelative()](#getWidthRelative) | Gets the value that represents the percentage of shape's relative width. |
@@ -320,6 +323,7 @@ Shows how to delete all shapes from a document.
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeReflection()](#removeReflection) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [removeShadow()](#removeShadow) |  |
 | [removeShapeAttr(int key)](#removeShapeAttr-int) |  |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [removeSoftEdge()](#removeSoftEdge) |  |
@@ -384,6 +388,7 @@ Shows how to delete all shapes from a document.
 | [setRotation(double value)](#setRotation-double) | Defines the angle (in degrees) that a shape is rotated. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setScreenTip(String value)](#setScreenTip-java.lang.String) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [setShadowType(int value)](#setShadowType-int) |  |
 | [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object) |  |
 | [setStartArrowLength(int value)](#setStartArrowLength-int) |  |
 | [setStartArrowType(int value)](#setStartArrowType-int) |  |
@@ -4885,6 +4890,16 @@ Shows how to insert a shape which contains an image, and is also a hyperlink.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
+### getShadowColors() {#getShadowColors}
+```
+public Color getShadowColors()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
 ### getShadowEnabled() {#getShadowEnabled}
 ```
 public boolean getShadowEnabled()
@@ -5018,6 +5033,16 @@ Gets shadow formatting for the shape.
 
 **Returns:**
 [ShadowFormat](../../com.aspose.words/shadowformat/) - Shadow formatting for the shape.
+### getShadowType() {#getShadowType}
+```
+public int getShadowType()
+```
+
+
+
+
+**Returns:**
+int
 ### getShapeRenderer() {#getShapeRenderer}
 ```
 public ShapeRenderer getShapeRenderer()
@@ -6493,6 +6518,16 @@ Shows how to insert a floating image to the center of a page.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment/) constants.
+### getVisible() {#getVisible}
+```
+public boolean getVisible()
+```
+
+
+
+
+**Returns:**
+boolean
 ### getWeight() {#getWeight}
 ```
 public double getWeight()
@@ -8436,6 +8471,14 @@ public void removeRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+### removeShadow() {#removeShadow}
+```
+public void removeShadow()
+```
+
+
+
 
 ### removeShapeAttr(int key) {#removeShapeAttr-int}
 ```
@@ -11068,6 +11111,19 @@ Shows how to insert a shape which contains an image, and is also a hyperlink.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
+
+### setShadowType(int value) {#setShadowType-int}
+```
+public void setShadowType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setShapeAttr(int key, Object value) {#setShapeAttr-int-java.lang.Object}
 ```

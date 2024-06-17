@@ -4,7 +4,7 @@ linktitle: RtfLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.RTF document into a Document object in Java.
 type: docs
-weight: 540
+weight: 541
 url: /java/com.aspose.words/rtfloadoptions/
 ---
 
@@ -72,6 +72,7 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
 | [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
+| [getUseSystemLcid()](#getUseSystemLcid) | Gets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 | [getWarningCallback()](#getWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [setBaseUri(String value)](#setBaseUri-java.lang.String) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Sets whether to convert metafile( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
@@ -88,6 +89,7 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
 | [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
+| [setUseSystemLcid(boolean value)](#setUseSystemLcid-boolean) | Sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 ### RtfLoadOptions() {#RtfLoadOptions}
 ```
@@ -852,6 +854,22 @@ Shows how to use special property for updating field result.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getUseSystemLcid() {#getUseSystemLcid}
+```
+public boolean getUseSystemLcid()
+```
+
+
+Gets whether to use LCID value obtained from Windows registry to determine page setup default margins.
+
+ **Remarks:** 
+
+If set to  true , then MS Word behavior is emulated which takes LCID value from Windows registry.
+
+The default value is  false .
+
+**Returns:**
+boolean - Whether to use LCID value obtained from Windows registry to determine page setup default margins.
 ### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
@@ -1631,6 +1649,25 @@ Shows how to use special property for updating field result.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setUseSystemLcid(boolean value) {#setUseSystemLcid-boolean}
+```
+public void setUseSystemLcid(boolean value)
+```
+
+
+Sets whether to use LCID value obtained from Windows registry to determine page setup default margins.
+
+ **Remarks:** 
+
+If set to  true , then MS Word behavior is emulated which takes LCID value from Windows registry.
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```

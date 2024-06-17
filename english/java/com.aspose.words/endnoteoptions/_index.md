@@ -4,7 +4,7 @@ linktitle: EndnoteOptions
 second_title: Aspose.Words for Java
 description: Represents the endnote numbering options for a document or section in Java.
 type: docs
-weight: 172
+weight: 173
 url: /java/com.aspose.words/endnoteoptions/
 ---
 

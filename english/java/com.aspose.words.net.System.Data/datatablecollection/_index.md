@@ -30,6 +30,7 @@ Represents the collection of tables for the [DataSet](../../com.aspose.words.net
 | [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable/) object with the specified name in the specified namespace. |
 | [getCount()](#getCount) |  |
 | [iterator()](#iterator) |  |
+| [remove(String name)](#remove-java.lang.String) | Removes the [DataTable](../../com.aspose.words.net.system.data/datatable/) object with the specified name from the collection. |
 ### add(System.Data.DataTable table) {#add-com.aspose.words.net.System.Data.DataTable}
 ```
 public void add(System.Data.DataTable table)
@@ -139,3 +140,18 @@ public Iterator iterator()
 
 **Returns:**
 java.util.Iterator
+### remove(String name) {#remove-java.lang.String}
+```
+public System.Data.DataTable remove(String name)
+```
+
+
+Removes the [DataTable](../../com.aspose.words.net.system.data/datatable/) object with the specified name from the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the [DataTable](../../com.aspose.words.net.system.data/datatable/) object to remove. |
+
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/)

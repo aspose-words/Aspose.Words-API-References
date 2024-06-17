@@ -4,7 +4,7 @@ linktitle: ChartType
 second_title: Aspose.Words for Java
 description: Specifies type of a chart in Java.
 type: docs
-weight: 86
+weight: 87
 url: /java/com.aspose.words/charttype/
 ---
 
@@ -117,6 +117,7 @@ Shows how to create an appropriate type of chart series for a graph type.
 | [BAR_3_D_STACKED](#BAR-3-D-STACKED) | 3D Stacked Bar chart. |
 | [BAR_PERCENT_STACKED](#BAR-PERCENT-STACKED) | 100% Stacked Bar chart. |
 | [BAR_STACKED](#BAR-STACKED) | Stacked Bar chart. |
+| [BOX_AND_WHISKER](#BOX-AND-WHISKER) | Box and Whisker chart. |
 | [BUBBLE](#BUBBLE) | Bubble chart. |
 | [BUBBLE_3_D](#BUBBLE-3-D) | 3D Bubble chart. |
 | [COLUMN](#COLUMN) | Column chart. |
@@ -127,10 +128,13 @@ Shows how to create an appropriate type of chart series for a graph type.
 | [COLUMN_PERCENT_STACKED](#COLUMN-PERCENT-STACKED) | 100% Stacked Column chart. |
 | [COLUMN_STACKED](#COLUMN-STACKED) | Stacked Column chart. |
 | [DOUGHNUT](#DOUGHNUT) | Doughnut chart. |
+| [FUNNEL](#FUNNEL) | Funnel chart. |
+| [HISTOGRAM](#HISTOGRAM) | Histogram chart. |
 | [LINE](#LINE) | Line chart. |
 | [LINE_3_D](#LINE-3-D) | 3D Line chart. |
 | [LINE_PERCENT_STACKED](#LINE-PERCENT-STACKED) | 100% Stacked Line chart. |
 | [LINE_STACKED](#LINE-STACKED) | Stacked Line chart. |
+| [PARETO](#PARETO) | Pareto chart. |
 | [PIE](#PIE) | Pie chart. |
 | [PIE_3_D](#PIE-3-D) | 3D Pie chart. |
 | [PIE_OF_BAR](#PIE-OF-BAR) | Pie of Bar chart. |
@@ -138,8 +142,11 @@ Shows how to create an appropriate type of chart series for a graph type.
 | [RADAR](#RADAR) | Radar chart. |
 | [SCATTER](#SCATTER) | Scatter chart. |
 | [STOCK](#STOCK) | Stock chart. |
+| [SUNBURST](#SUNBURST) | Sunburst chart. |
 | [SURFACE](#SURFACE) | Surface chart. |
 | [SURFACE_3_D](#SURFACE-3-D) | 3D Surface chart. |
+| [TREEMAP](#TREEMAP) | Treemap chart. |
+| [WATERFALL](#WATERFALL) | Waterfall chart. |
 | [length](#length) |  |
 ## Methods
 
@@ -245,6 +252,14 @@ public static int BAR_STACKED
 
 Stacked Bar chart.
 
+### BOX_AND_WHISKER {#BOX-AND-WHISKER}
+```
+public static int BOX_AND_WHISKER
+```
+
+
+Box and Whisker chart.
+
 ### BUBBLE {#BUBBLE}
 ```
 public static int BUBBLE
@@ -325,6 +340,22 @@ public static int DOUGHNUT
 
 Doughnut chart.
 
+### FUNNEL {#FUNNEL}
+```
+public static int FUNNEL
+```
+
+
+Funnel chart.
+
+### HISTOGRAM {#HISTOGRAM}
+```
+public static int HISTOGRAM
+```
+
+
+Histogram chart.
+
 ### LINE {#LINE}
 ```
 public static int LINE
@@ -356,6 +387,14 @@ public static int LINE_STACKED
 
 
 Stacked Line chart.
+
+### PARETO {#PARETO}
+```
+public static int PARETO
+```
+
+
+Pareto chart.
 
 ### PIE {#PIE}
 ```
@@ -413,6 +452,14 @@ public static int STOCK
 
 Stock chart.
 
+### SUNBURST {#SUNBURST}
+```
+public static int SUNBURST
+```
+
+
+Sunburst chart.
+
 ### SURFACE {#SURFACE}
 ```
 public static int SURFACE
@@ -428,6 +475,22 @@ public static int SURFACE_3_D
 
 
 3D Surface chart.
+
+### TREEMAP {#TREEMAP}
+```
+public static int TREEMAP
+```
+
+
+Treemap chart.
+
+### WATERFALL {#WATERFALL}
+```
+public static int WATERFALL
+```
+
+
+Waterfall chart.
 
 ### length {#length}
 ```
