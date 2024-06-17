@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.TEXT document into a Document object in Java.
 type: docs
-weight: 633
+weight: 634
 url: /java/com.aspose.words/txtloadoptions/
 ---
 
@@ -51,6 +51,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
 | [getTrailingSpacesOptions()](#getTrailingSpacesOptions) | Gets preferred option of a trailing space handling. |
 | [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
+| [getUseSystemLcid()](#getUseSystemLcid) | Gets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 | [getWarningCallback()](#getWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [setAutoNumberingDetection(boolean value)](#setAutoNumberingDetection-boolean) | Sets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
 | [setBaseUri(String value)](#setBaseUri-java.lang.String) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
@@ -72,6 +73,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
 | [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int) | Sets preferred option of a trailing space handling. |
 | [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
+| [setUseSystemLcid(boolean value)](#setUseSystemLcid-boolean) | Sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 ### TxtLoadOptions() {#TxtLoadOptions}
 ```
@@ -1102,6 +1104,22 @@ Shows how to use special property for updating field result.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getUseSystemLcid() {#getUseSystemLcid}
+```
+public boolean getUseSystemLcid()
+```
+
+
+Gets whether to use LCID value obtained from Windows registry to determine page setup default margins.
+
+ **Remarks:** 
+
+If set to  true , then MS Word behavior is emulated which takes LCID value from Windows registry.
+
+The default value is  false .
+
+**Returns:**
+boolean - Whether to use LCID value obtained from Windows registry to determine page setup default margins.
 ### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
@@ -2188,6 +2206,25 @@ Shows how to use special property for updating field result.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setUseSystemLcid(boolean value) {#setUseSystemLcid-boolean}
+```
+public void setUseSystemLcid(boolean value)
+```
+
+
+Sets whether to use LCID value obtained from Windows registry to determine page setup default margins.
+
+ **Remarks:** 
+
+If set to  true , then MS Word behavior is emulated which takes LCID value from Windows registry.
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```

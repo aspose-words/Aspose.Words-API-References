@@ -4,7 +4,7 @@ linktitle: ArrowWidth
 second_title: Aspose.Words for Java
 description: Width of the arrow at the end of a line in Java.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.aspose.words/arrowwidth/
 ---
 

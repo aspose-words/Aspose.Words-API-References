@@ -4,7 +4,7 @@ linktitle: IDocumentPartSavingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to SaveFormat.HTML or SaveFormat.EPUB format in Java.
 type: docs
-weight: 692
+weight: 693
 url: /java/com.aspose.words/idocumentpartsavingcallback/
 ---
 ```

@@ -4,7 +4,7 @@ linktitle: AxisBuiltInUnit
 second_title: Aspose.Words for Java
 description: Specifies the display units for an axis in Java.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.words/axisbuiltinunit/
 ---
 

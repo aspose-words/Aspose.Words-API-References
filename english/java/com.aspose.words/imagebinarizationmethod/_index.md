@@ -4,7 +4,7 @@ linktitle: ImageBinarizationMethod
 second_title: Aspose.Words for Java
 description: Specifies the method used to binarize image in Java.
 type: docs
-weight: 363
+weight: 364
 url: /java/com.aspose.words/imagebinarizationmethod/
 ---
 

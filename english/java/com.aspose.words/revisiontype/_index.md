@@ -4,7 +4,7 @@ linktitle: RevisionType
 second_title: Aspose.Words for Java
 description: Specifies the type of change being tracked in Revision in Java.
 type: docs
-weight: 535
+weight: 536
 url: /java/com.aspose.words/revisiontype/
 ---
 

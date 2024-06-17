@@ -4,7 +4,7 @@ linktitle: CssStyleSheetType
 second_title: Aspose.Words for Java
 description: Specifies how CSS Cascading Style Sheet styles are exported to HTML in Java.
 type: docs
-weight: 122
+weight: 123
 url: /java/com.aspose.words/cssstylesheettype/
 ---
 

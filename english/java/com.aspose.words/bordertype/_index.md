@@ -4,7 +4,7 @@ linktitle: BorderType
 second_title: Aspose.Words for Java
 description: Specifies sides of a border in Java.
 type: docs
-weight: 44
+weight: 45
 url: /java/com.aspose.words/bordertype/
 ---
 

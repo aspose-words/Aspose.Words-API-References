@@ -4,7 +4,7 @@ linktitle: BookmarkCollection
 second_title: Aspose.Words for Java
 description: A collection of Bookmark objects that represent the bookmarks in the specified range in Java.
 type: docs
-weight: 38
+weight: 39
 url: /java/com.aspose.words/bookmarkcollection/
 ---
 

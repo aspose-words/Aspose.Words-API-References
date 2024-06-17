@@ -4,7 +4,7 @@ linktitle: DocumentSplitCriteria
 second_title: Aspose.Words for Java
 description: Specifies how the document is split into parts when saving to SaveFormat.HTML SaveFormat.EPUB or SaveFormat.AZW_3 format in Java.
 type: docs
-weight: 157
+weight: 158
 url: /java/com.aspose.words/documentsplitcriteria/
 ---
 

@@ -4,7 +4,7 @@ linktitle: CsvDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of a CSV file or stream to be used within a report in Java.
 type: docs
-weight: 124
+weight: 125
 url: /java/com.aspose.words/csvdatasource/
 ---
 

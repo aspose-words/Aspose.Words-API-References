@@ -4,7 +4,7 @@ linktitle: ChartDataLabel
 second_title: Aspose.Words for Java
 description: Represents data label on a chart point or trendline in Java.
 type: docs
-weight: 67
+weight: 68
 url: /java/com.aspose.words/chartdatalabel/
 ---
 

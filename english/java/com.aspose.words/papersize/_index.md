@@ -4,7 +4,7 @@ linktitle: PaperSize
 second_title: Aspose.Words for Java
 description: Specifies paper size in Java.
 type: docs
-weight: 480
+weight: 481
 url: /java/com.aspose.words/papersize/
 ---
 

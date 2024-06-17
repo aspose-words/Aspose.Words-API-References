@@ -4,7 +4,7 @@ linktitle: ListTemplate
 second_title: Aspose.Words for Java
 description: Specifies one of the predefined list formats available in Microsoft Word in Java.
 type: docs
-weight: 404
+weight: 405
 url: /java/com.aspose.words/listtemplate/
 ---
 

@@ -4,7 +4,7 @@ linktitle: IRevisionCriteria
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to control when certain Revision should be accepted/rejected or not by the RevisionCollection.acceptcom.aspose.words.IRevisionCriteria/ RevisionCollection.rejectcom.aspose.words.IRevisionCriteria methods in Java.
 type: docs
-weight: 714
+weight: 715
 url: /java/com.aspose.words/irevisioncriteria/
 ---
 ```

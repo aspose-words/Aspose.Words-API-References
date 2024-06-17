@@ -4,7 +4,7 @@ linktitle: ChartLegend
 second_title: Aspose.Words for Java
 description: Represents chart legend properties in Java.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.words/chartlegend/
 ---
 
@@ -231,7 +231,11 @@ public int getPosition()
 ```
 
 
-Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT).
+Specifies the position of the legend on a chart.
+
+ **Remarks:** 
+
+The default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT) for pre-Word 2016 charts and [LegendPosition.TOP](../../com.aspose.words/legendposition/\#TOP) for Word 2016 charts.
 
  **Examples:** 
 
@@ -348,7 +352,11 @@ public void setPosition(int value)
 ```
 
 
-Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT).
+Specifies the position of the legend on a chart.
+
+ **Remarks:** 
+
+The default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT) for pre-Word 2016 charts and [LegendPosition.TOP](../../com.aspose.words/legendposition/\#TOP) for Word 2016 charts.
 
  **Examples:** 
 

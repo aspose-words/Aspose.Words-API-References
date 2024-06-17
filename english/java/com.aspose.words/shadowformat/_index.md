@@ -4,7 +4,7 @@ linktitle: ShadowFormat
 second_title: Aspose.Words for Java
 description: Represents shadow formatting for an object in Java.
 type: docs
-weight: 559
+weight: 560
 url: /java/com.aspose.words/shadowformat/
 ---
 
@@ -25,6 +25,7 @@ To learn more, visit the [ Working with Graphic Elements ][Working with Graphic 
 | Method | Description |
 | --- | --- |
 | [clear()](#clear) | Clears shadow format. |
+| [getColor()](#getColor) | Gets a java.awt.Color object that represents the color for the shadow. |
 | [getType()](#getType) | Gets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat. |
 | [getVisible()](#getVisible) | Returns  true  if the formatting applied to this instance is visible. |
 | [setType(int value)](#setType-int) | Sets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat. |
@@ -53,6 +54,29 @@ Shows how to work with a shadow formatting for the shape.
  
 ```
 
+### getColor() {#getColor}
+```
+public Color getColor()
+```
+
+
+Gets a java.awt.Color object that represents the color for the shadow. The default value is java.awt.Color\#getBlack().getBlack().
+
+ **Examples:** 
+
+Shows how to get shadow color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals(Color.RED.getRGB(), shape.getShadowFormat().getColor().getRGB());
+ 
+```
+
+**Returns:**
+java.awt.Color - A java.awt.Color object that represents the color for the shadow.
 ### getType() {#getType}
 ```
 public int getType()

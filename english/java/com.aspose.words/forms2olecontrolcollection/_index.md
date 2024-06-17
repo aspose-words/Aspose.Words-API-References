@@ -4,7 +4,7 @@ linktitle: Forms2OleControlCollection
 second_title: Aspose.Words for Java
 description: Represents collection of Forms2OleControl objects in Java.
 type: docs
-weight: 326
+weight: 327
 url: /java/com.aspose.words/forms2olecontrolcollection/
 ---
 

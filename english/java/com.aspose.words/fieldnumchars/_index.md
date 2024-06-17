@@ -4,7 +4,7 @@ linktitle: FieldNumChars
 second_title: Aspose.Words for Java
 description: Implements the NUMCHARS field in Java.
 type: docs
-weight: 249
+weight: 250
 url: /java/com.aspose.words/fieldnumchars/
 ---
 

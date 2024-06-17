@@ -4,7 +4,7 @@ linktitle: ImportFormatMode
 second_title: Aspose.Words for Java
 description: Specifies how formatting is merged when importing content from another document in Java.
 type: docs
-weight: 374
+weight: 375
 url: /java/com.aspose.words/importformatmode/
 ---
 
