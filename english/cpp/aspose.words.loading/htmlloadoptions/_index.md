@@ -42,6 +42,7 @@ class HtmlLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [get_SupportVml](./get_supportvml/)() const | Gets or sets a value indicating whether to support VML images. |
 | [get_TempFolder](../loadoptions/get_tempfolder/)() const | Allows to use temporary files when reading document. By default this property is **null** and no temporary files are used. |
 | [get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/)() const | Specifies whether to update the fields with the **dirty** attribute. |
+| [get_UseSystemLcid](../loadoptions/get_usesystemlcid/)() const |  |
 | [get_WarningCallback](../loadoptions/get_warningcallback/)() const | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [get_WebRequestTimeout](./get_webrequesttimeout/)() const | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
 | [GetType](./gettype/)() const override |  |
@@ -72,6 +73,7 @@ class HtmlLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_SupportVml](./set_supportvml/)(bool) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml](./get_supportvml/). |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
 | [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
+| [set_UseSystemLcid](../loadoptions/set_usesystemlcid/)(bool) |  |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
 | [set_WebRequestTimeout](./set_webrequesttimeout/)(int32_t) | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
 | static [Type](./type/)() |  |

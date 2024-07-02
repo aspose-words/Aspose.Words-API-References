@@ -2,11 +2,26 @@
 title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add method
 linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add method. Adds new ChartSeries to this collection. Use this method to add series to any type of Scatter charts in C++.'
+description: 'How to use Add method of Aspose::Words::Drawing::Charts::ChartSeriesCollection class in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/add/
 ---
+## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&) method
+
+
+
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<double> &xValues)
+```
+
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
 ## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) method
 
 
@@ -294,6 +309,22 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
+## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartMultilevelValue\>\>\&, const System::ArrayPtr\<double\>\&) method
+
+
+
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMultilevelValue>> &categories, const System::ArrayPtr<double> &values)
+```
+
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartMultilevelValue](../../chartmultilevelvalue/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
 ## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<double\>\&) method
 
 
@@ -383,6 +414,21 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 
     return chart;
 }
+```
+
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
+## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<bool\>\&) method
+
+
+
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::String> &categories, const System::ArrayPtr<double> &values, const System::ArrayPtr<bool> &isSubtotal)
 ```
 
 ## See Also

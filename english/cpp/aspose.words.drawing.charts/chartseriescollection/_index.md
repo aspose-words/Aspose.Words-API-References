@@ -24,6 +24,9 @@ class ChartSeriesCollection : public System::Collections::Generic::IEnumerable<S
 | [Add](./add/)(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Scatter charts. |
 | [Add](./add/)(const System::String\&, const System::ArrayPtr\<System::DateTime\>\&, const System::ArrayPtr\<double\>\&) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
 | [Add](./add/)(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Bubble charts. |
+| [Add](./add/)(const System::String\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartMultilevelValue\>\>\&, const System::ArrayPtr\<double\>\&) |  |
+| [Add](./add/)(const System::String\&, const System::ArrayPtr\<double\>\&) |  |
+| [Add](./add/)(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<bool\>\&) |  |
 | [Clear](./clear/)() | Removes all [ChartSeries](../chartseries/) from this collection. |
 | [get_Count](./get_count/)() | Returns the number of [ChartSeries](../chartseries/) in this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |

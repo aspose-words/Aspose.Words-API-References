@@ -21,11 +21,12 @@ class CompareOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CompareOptions](./compareoptions/)() |  |
+| [get_AdvancedOptions](./get_advancedoptions/)() const |  |
 | [get_CompareMoves](./get_comparemoves/)() const | Specifies whether to compare differences in [MoveRevision](../) between the two documents. By default move revisions are not produced. |
 | [get_Granularity](./get_granularity/)() const | Specifies whether changes are tracked by character or by word. Default value is [WordLevel](../granularity/). |
 | [get_IgnoreCaseChanges](./get_ignorecasechanges/)() const | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
 | [get_IgnoreComments](./get_ignorecomments/)() const | Specifies whether to compare differences in comments. By default comments are not ignored. |
-| [get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/)() const | Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**. |
+| [get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/)() | Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**. |
 | [get_IgnoreFields](./get_ignorefields/)() const | Specifies whether to compare differences in fields. By default fields are not ignored. |
 | [get_IgnoreFootnotes](./get_ignorefootnotes/)() const | Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored. |
 | [get_IgnoreFormatting](./get_ignoreformatting/)() const | True indicates that formatting is ignored. By default document formatting is not ignored. |
