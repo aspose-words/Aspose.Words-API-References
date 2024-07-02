@@ -39,6 +39,7 @@ class PdfLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [get_SkipPdfImages](./get_skippdfimages/)() const | Gets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
 | [get_TempFolder](../loadoptions/get_tempfolder/)() const | Allows to use temporary files when reading document. By default this property is **null** and no temporary files are used. |
 | [get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/)() const | Specifies whether to update the fields with the **dirty** attribute. |
+| [get_UseSystemLcid](../loadoptions/get_usesystemlcid/)() const |  |
 | [get_WarningCallback](../loadoptions/get_warningcallback/)() const | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
@@ -63,6 +64,7 @@ class PdfLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_SkipPdfImages](./set_skippdfimages/)(bool) | Sets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
 | [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
+| [set_UseSystemLcid](../loadoptions/set_usesystemlcid/)(bool) |  |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
 | static [Type](./type/)() |  |
 ## See Also

@@ -55,6 +55,13 @@ enum class ChartType
 | Stock | 32 | Stock chart. |
 | Surface | 33 | Surface chart. |
 | Surface3D | 34 | 3D Surface chart. |
+| Treemap | 35 |  |
+| Sunburst | 36 |  |
+| Histogram | 37 |  |
+| Pareto | 38 |  |
+| BoxAndWhisker | 39 |  |
+| Waterfall | 40 |  |
+| Funnel | 41 |  |
 
 
 ## Examples

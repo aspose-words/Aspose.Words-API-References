@@ -36,6 +36,7 @@ class Comment : public Aspose::Words::InlineStory,
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_DateTime](./get_datetime/)() const | Gets the date and time that the comment was made. |
+| [get_DateTimeUtc](./get_datetimeutc/)() |  |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_Done](./get_done/)() const | Gets or sets flag indicating that the comment has been marked done. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
