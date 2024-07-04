@@ -5,7 +5,7 @@ articleTitle: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.HtmlOfficeMathOutputMode enum. Specifies how Aspose.Words exports OfficeMath to HTML MHTML and EPUB in C#.
 type: docs
-weight: 5340
+weight: 5380
 url: /net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -49,7 +49,7 @@ switch (htmlOfficeMathOutputMode)
     case HtmlOfficeMathOutputMode.Image:
         Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt\">" +
-                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"160\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
+                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"163\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
                 "-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
             "</p>").Success);
         break;

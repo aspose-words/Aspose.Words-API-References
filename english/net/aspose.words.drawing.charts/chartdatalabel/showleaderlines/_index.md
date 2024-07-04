@@ -5,7 +5,7 @@ articleTitle: ShowLeaderLines
 second_title: Aspose.Words for .NET
 description: ChartDataLabel ShowLeaderLines property. Allows to specify if data label leader lines need be shown. Default value is false in C#.
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property

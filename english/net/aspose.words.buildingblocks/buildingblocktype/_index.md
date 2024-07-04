@@ -69,7 +69,12 @@ public void CreateAndInsert()
     // Before we can add this building block to our document, we will need to give it some contents,
     // which we will do using a document visitor. This visitor will also set a category, gallery, and behavior.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Visit start/end of the BuildingBlock.
     block.Accept(visitor);
+    // Visit only start of the BuildingBlock.
+    block.AcceptStart(visitor);
+    // Visit only end of the BuildingBlock.
+    block.AcceptEnd(visitor);
 
     // We can access the block that we just made from the glossary document.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,

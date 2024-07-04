@@ -105,7 +105,12 @@ public void GlossaryDocument()
     // We will do that using a custom visitor,
     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Visit start/end of the Glossary document.
     glossaryDoc.Accept(visitor);
+    // Visit only start of the Glossary document.
+    glossaryDoc.AcceptStart(visitor);
+    // Visit only end of the Glossary document.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".

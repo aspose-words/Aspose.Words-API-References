@@ -5,7 +5,7 @@ articleTitle: FieldDocProperty
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldDocProperty class. Implements the DOCPROPERTY field in C#.
 type: docs
-weight: 2020
+weight: 2050
 url: /net/aspose.words.fields/fielddocproperty/
 ---
 ## FieldDocProperty class

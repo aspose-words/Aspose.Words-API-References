@@ -5,7 +5,7 @@ articleTitle: FindReplaceOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Replacing.FindReplaceOptions class. Specifies options for find/replace operations in C#.
 type: docs
-weight: 4850
+weight: 4890
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class

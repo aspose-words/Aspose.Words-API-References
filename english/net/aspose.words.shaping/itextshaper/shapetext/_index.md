@@ -14,7 +14,7 @@ Returns [`Cluster`](../../cluster/) objects generated from a sequence of text fr
 
 ```csharp
 public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript script, 
-    params FontFeature[] fontFeatures)
+    FontFeature[] enabledFontFeatures, VariationAxisCoordinate[] variations)
 ```
 
 | Parameter | Type | Description |
@@ -22,7 +22,8 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 | runs | String[] | A sequence of text fragments |
 | direction | Direction | A direction of text |
 | script | UnicodeScript | A script |
-| fontFeatures | FontFeature[] | A set of features to consider |
+| enabledFontFeatures | FontFeature[] | A set of explicitly enabled OpenType features to consider |
+| variations | VariationAxisCoordinate[] | Font's variation axis values |
 
 ### See Also
 
@@ -30,6 +31,7 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [Direction](../../direction/)
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
+* class [VariationAxisCoordinate](../../variationaxiscoordinate/)
 * interface [ITextShaper](../)
 * namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

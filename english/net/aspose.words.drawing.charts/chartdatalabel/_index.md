@@ -28,6 +28,8 @@ public class ChartDataLabel
 | [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Gets/sets a flag indicating whether this label is hidden. The default value is `false`. |
 | [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Returns `true` if this data label has something to display. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Returns number format of the parent element. |
+| [Orientation](../../aspose.words.drawing.charts/chartdatalabel/orientation/) { get; set; } | Gets or sets the orientation of the label text. |
+| [Rotation](../../aspose.words.drawing.charts/chartdatalabel/rotation/) { get; set; } | Gets or sets the rotation of the label in degrees. |
 | [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
 | [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is `false`. |
 | [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Allows to specify if category name is to be displayed for the data labels on a chart. Default value is `false`. |

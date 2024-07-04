@@ -5,7 +5,7 @@ articleTitle: PageSet
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PageSet class. Describes a random set of pages in C#.
 type: docs
-weight: 5630
+weight: 5670
 url: /net/aspose.words.saving/pageset/
 ---
 ## PageSet class
@@ -15,7 +15,7 @@ Describes a random set of pages.
 To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
 
 ```csharp
-public sealed class PageSet
+public sealed class PageSet : IEnumerable<int>
 ```
 
 ## Constructors
@@ -33,6 +33,12 @@ public sealed class PageSet
 | static [All](../../aspose.words.saving/pageset/all/) { get; } | Gets a set with all the pages of the document in their original order. |
 | static [Even](../../aspose.words.saving/pageset/even/) { get; } | Gets a set with all the even pages of the document in their original order. |
 | static [Odd](../../aspose.words.saving/pageset/odd/) { get; } | Gets a set with all the odd pages of the document in their original order. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetEnumerator](../../aspose.words.saving/pageset/getenumerator/)() |  |
 
 ### See Also
 

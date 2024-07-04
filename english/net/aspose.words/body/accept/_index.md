@@ -34,132 +34,42 @@ Calls [`VisitBodyStart`](../../documentvisitor/visitbodystart/), then calls [`Ac
 
 ## Examples
 
-Shows how to use a document visitor to print a document's node structure.
+Shows how to process absolute position tab characters with a document visitor.
 
 ```csharp
-public void DocStructureToText()
+public void DocumentToTxt()
 {
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    DocStructurePrinter visitor = new DocStructurePrinter();
+    Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
-    // and then traverses all the node's children in a depth-first manner.
-    // The visitor can read and modify each visited node.
-    doc.Accept(visitor);
+    // Extract the text contents of our document by accepting this custom document visitor.
+    DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Visit only start of the document body.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Visit only end of the document body.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    Console.WriteLine(visitor.GetText());
+    // The absolute position tab, which has no equivalent in string form, has been explicitly converted to a tab character.
+    Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
+
+    // An AbsolutePositionTab can accept a DocumentVisitor by itself too.
+    AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
+
+    myDocTextExtractor = new DocTextExtractor();
+    absPositionTab.Accept(myDocTextExtractor);
+
+    Assert.AreEqual("\t", myDocTextExtractor.GetText());
 }
 
 /// <summary>
-/// Traverses a node's tree of child nodes.
-/// Creates a map of this tree in the form of a string.
+/// Collects the text contents of all runs in the visited document. Replaces all absolute tab characters with ordinary tabs.
 /// </summary>
-public class DocStructurePrinter : DocumentVisitor
+public class DocTextExtractor : DocumentVisitor
 {
-    public DocStructurePrinter()
+    public DocTextExtractor()
     {
-        mAcceptingNodeChildTree = new StringBuilder();
-    }
-
-    public string GetText()
-    {
-        return mAcceptingNodeChildTree.ToString();
-    }
-
-    /// <summary>
-    /// Called when a Document node is encountered.
-    /// </summary>
-    public override VisitorAction VisitDocumentStart(Document doc)
-    {
-        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
-
-        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
-        mDocTraversalDepth++;
-
-        // Allow the visitor to continue visiting other nodes.
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Called after all the child nodes of a Document node have been visited.
-    /// </summary>
-    public override VisitorAction VisitDocumentEnd(Document doc)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Document end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Called when a Section node is encountered in the document.
-    /// </summary>
-    public override VisitorAction VisitSectionStart(Section section)
-    {
-        // Get the index of our section within the document.
-        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
-        int sectionIndex = docSections.IndexOf(section);
-
-        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Called after all the child nodes of a Section node have been visited.
-    /// </summary>
-    public override VisitorAction VisitSectionEnd(Section section)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Section end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Called when a Body node is encountered in the document.
-    /// </summary>
-    public override VisitorAction VisitBodyStart(Body body)
-    {
-        int paragraphCount = body.Paragraphs.Count;
-        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Called after all the child nodes of a Body node have been visited.
-    /// </summary>
-    public override VisitorAction VisitBodyEnd(Body body)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Body end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Called when a Paragraph node is encountered in the document.
-    /// </summary>
-    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
-    {
-        IndentAndAppendLine("[Paragraph start]");
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Called after all the child nodes of a Paragraph node have been visited.
-    /// </summary>
-    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Paragraph end]");
-
-        return VisitorAction.Continue;
+        mBuilder = new StringBuilder();
     }
 
     /// <summary>
@@ -167,34 +77,36 @@ public class DocStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
-
+        AppendText(run.Text);
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Called when a SubDocument node is encountered in the document.
+    /// Called when an AbsolutePositionTab node is encountered in the document.
     /// </summary>
-    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
-        IndentAndAppendLine("[SubDocument]");
-
+        mBuilder.Append("\t");
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+    /// Adds text to the current output. Honors the enabled/disabled output flag.
     /// </summary>
-    /// <param name="text"></param>
-    private void IndentAndAppendLine(string text)
+    private void AppendText(string text)
     {
-        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
-
-        mAcceptingNodeChildTree.AppendLine(text);
+        mBuilder.Append(text);
     }
 
-    private int mDocTraversalDepth;
-    private readonly StringBuilder mAcceptingNodeChildTree;
+    /// <summary>
+    /// Plain text of the document that was accumulated by the visitor.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    private readonly StringBuilder mBuilder;
 }
 ```
 

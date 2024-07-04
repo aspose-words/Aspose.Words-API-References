@@ -68,6 +68,10 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 
         // Then, visit the comment, and any replies that it may have.
         comment.Accept(commentVisitor);
+        // Visit only start of the comment.
+        comment.AcceptStart(commentVisitor);
+        // Visit only end of the comment.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);

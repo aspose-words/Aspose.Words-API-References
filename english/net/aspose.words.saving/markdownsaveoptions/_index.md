@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the Markdown format in C#.
 type: docs
-weight: 5520
+weight: 5560
 url: /net/aspose.words.saving/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -44,6 +44,7 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 | [ImagesFolder](../../aspose.words.saving/markdownsaveoptions/imagesfolder/) { get; set; } | Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string. |
 | [ImagesFolderAlias](../../aspose.words.saving/markdownsaveoptions/imagesfolderalias/) { get; set; } | Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
+| [LinkExportMode](../../aspose.words.saving/markdownsaveoptions/linkexportmode/) { get; set; } | Specifies how links will be written to the output file. Default value is Auto. |
 | [ListExportMode](../../aspose.words.saving/markdownsaveoptions/listexportmode/) { get; set; } | Specifies how list items will be written to the output file. Default value is MarkdownSyntax. |
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |
 | [ParagraphBreak](../../aspose.words.saving/txtsaveoptionsbase/paragraphbreak/) { get; set; } | Specifies the string to use as a paragraph break when exporting in text formats. |

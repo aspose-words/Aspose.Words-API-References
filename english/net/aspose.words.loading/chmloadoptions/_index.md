@@ -5,7 +5,7 @@ articleTitle: ChmLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.ChmLoadOptions class. Allows to specify additional options when loading CHM document into a Document object in C#.
 type: docs
-weight: 3790
+weight: 3820
 url: /net/aspose.words.loading/chmloadoptions/
 ---
 ## ChmLoadOptions class
@@ -52,6 +52,22 @@ public class ChmLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
+
+## Examples
+
+Shows how to resolve URLs like "ms-its:myfile.chm::/index.htm".
+
+```csharp
+// Our document contains URLs like "ms-its:amhelp.chm::....htm", but it has a different name,
+// so file links don't work after saving it to HTML.
+// We need to define the original filename in 'ChmLoadOptions' to avoid this behavior.
+ChmLoadOptions loadOptions = new ChmLoadOptions { OriginalFileName = "amhelp.chm" };
+
+Document doc = new Document(new MemoryStream(File.ReadAllBytes(MyDir + "Document with ms-its links.chm")),
+    loadOptions);
+
+doc.Save(ArtifactsDir + "ExChmLoadOptions.OriginalFileName.html");
+```
 
 ### See Also
 

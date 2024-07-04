@@ -5,7 +5,7 @@ articleTitle: ReportingEngine
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.ReportingEngine class. Provides routines to populate template documents with data and a set of settings to control these routines in C#.
 type: docs
-weight: 4960
+weight: 5000
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
