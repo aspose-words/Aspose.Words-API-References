@@ -3,14 +3,14 @@ title: MarkdownLinkExportMode Enum
 linktitle: MarkdownLinkExportMode
 articleTitle: MarkdownLinkExportMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.MarkdownLinkExportMode enum. The mode of exporting links to a target document in C#.
+description: Aspose.Words.Saving.MarkdownLinkExportMode enum. Specifies how links are exported into Markdown in C#.
 type: docs
-weight: 5500
+weight: 5540
 url: /net/aspose.words.saving/markdownlinkexportmode/
 ---
 ## MarkdownLinkExportMode enumeration
 
-The mode of exporting links to a target document.
+Specifies how links are exported into Markdown.
 
 ```csharp
 public enum MarkdownLinkExportMode
@@ -20,9 +20,32 @@ public enum MarkdownLinkExportMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | `0` | A link is exported as a reference block if it has roundtrip information or is mentioned more than once in a document. In all other cases a link is exported as an inline block. |
-| Inline | `1` | Links are exported as inline blocks. |
-| Reference | `2` | Links are exported as reference blocks. |
+| Auto | `0` | Automatically detect export mode for each link. |
+| Inline | `1` | Export all links as inline blocks. |
+| Reference | `2` | Export all links as reference blocks. |
+
+## Examples
+
+Shows how to links will be written to the .md file.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertShape(ShapeType.Balloon, 100, 100);
+
+// Image will be written as reference:
+// ![ref1]
+//
+// [ref1]: aw_ref.001.png
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.LinkExportMode = MarkdownLinkExportMode.Reference;
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.LinkExportMode.Reference.md", saveOptions);
+
+// Image will be written as inline:
+// ![](aw_inline.001.png)
+saveOptions.LinkExportMode = MarkdownLinkExportMode.Inline;
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
+```
 
 ### See Also
 

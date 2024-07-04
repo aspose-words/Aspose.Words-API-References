@@ -5,7 +5,7 @@ articleTitle: Name
 second_title: Aspose.Words for .NET
 description: VbaProject Name property. Gets or sets VBA project name in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.vba/vbaproject/name/
 ---
 ## VbaProject.Name property

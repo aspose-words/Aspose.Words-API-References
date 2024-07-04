@@ -30,6 +30,7 @@ public enum ImageType
 | Bmp | `7` | Windows Bitmap. |
 | Eps | `8` | Encapsulated PostScript. |
 | WebP | `9` | WebP. |
+| Gif | `10` | GIF |
 
 ## Examples
 

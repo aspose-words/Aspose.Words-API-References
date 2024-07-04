@@ -91,7 +91,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageColorMode](./imagecolormode/) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images of document pages. |
 | [ImlRenderingMode](./imlrenderingmode/) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
-| [MarkdownLinkExportMode](./markdownlinkexportmode/) | The mode of exporting links to a target document. |
+| [MarkdownLinkExportMode](./markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](./markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
@@ -112,5 +112,6 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [TableContentAlignment](./tablecontentalignment/) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving page images into a TIFF file. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Specifies the way headers and footers are exported to plain text format. |
+| [XlsxDateTimeParsingMode](./xlsxdatetimeparsingmode/) | Specifies how document text is parsed to identify date and time values. |
 | [XlsxSectionMode](./xlsxsectionmode/) | Specifies how sections are handled when saving a document in the XLSX format. |
 | [Zip64Mode](./zip64mode/) | Specifies when to use ZIP64 format extensions for OOXML files. |
