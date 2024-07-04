@@ -5,7 +5,7 @@ articleTitle: SectionMode
 second_title: Aspose.Words for .NET
 description: XlsxSaveOptions SectionMode property. Gets or sets the way how sections are handled when saving to the output XLSX document. The default value is MultipleWorksheets in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.saving/xlsxsaveoptions/sectionmode/
 ---
 ## XlsxSaveOptions.SectionMode property

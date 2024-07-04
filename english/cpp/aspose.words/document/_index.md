@@ -97,6 +97,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../node/get_prevnode/)() const |  |
 | [get_ProtectionType](./get_protectiontype/)() | Gets the currently active document protection type. |
+| [get_PunctuationKerning](./get_punctuationkerning/)() |  |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_RemovePersonalInformation](./get_removepersonalinformation/)() | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/)() const | Allows to control how external resources are loaded. |
@@ -175,6 +176,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_PackageCustomParts](./set_packagecustomparts/)(const System::SharedPtr\<Aspose::Words::Markup::CustomPartCollection\>\&) | Setter for [Aspose::Words::Document::get_PackageCustomParts](./get_packagecustomparts/). |
 | [set_PageColor](../documentbase/set_pagecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::DocumentBase::get_PageColor](../documentbase/get_pagecolor/). |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [set_PunctuationKerning](./set_punctuationkerning/)(bool) |  |
 | [set_RemovePersonalInformation](./set_removepersonalinformation/)(bool) | Setter for [Aspose::Words::Document::get_RemovePersonalInformation](./get_removepersonalinformation/). |
 | [set_ResourceLoadingCallback](../documentbase/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/). |
 | [set_RevisionsView](./set_revisionsview/)(Aspose::Words::RevisionsView) | Setter for [Aspose::Words::Document::get_RevisionsView](./get_revisionsview/). |

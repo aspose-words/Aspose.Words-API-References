@@ -5,7 +5,7 @@ articleTitle: ListLevel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Lists.ListLevel class. Defines formatting for a list level in C#.
 type: docs
-weight: 3720
+weight: 3750
 url: /net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
@@ -23,7 +23,7 @@ public class ListLevel
 | Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | Gets or sets the justification of the actual number of the list item. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; set; } | Gets or sets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
 | [Font](../../aspose.words.lists/listlevel/font/) { get; } | Specifies character formatting used for the list label. |
 | [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | Returns image data of the picture bullet shape for the current list level. |
 | [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | True if the level turns all inherited numbers to Arabic, false if it preserves their number style. |

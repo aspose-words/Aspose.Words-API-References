@@ -17,6 +17,7 @@ The **Aspose.Words.Shaping** namespace contains classes to provide support for O
 | [BasicTextShaperCache](./basictextshapercache/) | Implements basic cache for [`ITextShaper`](../aspose.words.shaping/itextshaper/) instances. This class is thread-safe. |
 | [Cluster](./cluster/) | Encapsulates code points and glyphs composing a grapheme. |
 | [Glyph](./glyph/) | Represents a glyph |
+| [VariationAxisCoordinate](./variationaxiscoordinate/) | Represents an axis coordinate. |
 ## Interfaces
 
 | Interface | Description |
@@ -31,3 +32,4 @@ The **Aspose.Words.Shaping** namespace contains classes to provide support for O
 | [FontFeature](./fontfeature/) | Features provide information about how glyphs are used in a font to render a script. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Describes shaping levels required by a script. |
 | [UnicodeScript](./unicodescript/) | Unicode Character Database property: Script (sc). |
+| [VariationAxis](./variationaxis/) | Represents OpenType Design-Variation Axis Tag. https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg |

@@ -5,7 +5,7 @@ articleTitle: ShowPercentage
 second_title: Aspose.Words for .NET
 description: ChartDataLabel ShowPercentage property. Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is false in C#.
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
 ---
 ## ChartDataLabel.ShowPercentage property

@@ -15,7 +15,7 @@ The **Aspose.Words.Comparing** namespace provides classes and enumerations that 
 | Class | Description |
 | --- | --- |
 | [AdvancedCompareOptions](./advancedcompareoptions/) | Allows to set advanced compare options. |
-| [CompareOptions](./compareoptions/) | Allows to choose advanced options for document comparison operation. |
+| [CompareOptions](./compareoptions/) | Allows to choose additional options for document comparison operation. |
 ## Enumeration
 
 | Enumeration | Description |

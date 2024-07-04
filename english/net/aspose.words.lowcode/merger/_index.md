@@ -5,7 +5,7 @@ articleTitle: Merger
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.Merger class. Represents a group of methods intended to merge a variety of different types of documents into a single output document in C#.
 type: docs
-weight: 3990
+weight: 4030
 url: /net/aspose.words.lowcode/merger/
 ---
 ## Merger class
@@ -34,6 +34,23 @@ public static class Merger
 The specified input and output files or streams, along with the desired merge and save options, are used to merge the given input documents into a single output document.
 
 The merging functionality supports over 35 different file formats.
+
+## Examples
+
+Shows how to merge documents into a single output document.
+
+```csharp
+//There is a several ways to merge documents:
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SimpleMerge.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" });
+
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveOptions.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, saveOptions, MergeFormatMode.KeepSourceFormatting);
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveFormat.pdf", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, SaveFormat.Pdf, MergeFormatMode.KeepSourceLayout);
+
+Document doc = Merger.Merge(new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, MergeFormatMode.MergeFormatting);
+doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
+```
 
 ### See Also
 

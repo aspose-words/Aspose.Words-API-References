@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the Xlsx format in C#.
 type: docs
-weight: 5960
+weight: 6010
 url: /net/aspose.words.saving/xlsxsaveoptions/
 ---
 ## XlsxSaveOptions class
@@ -31,6 +31,7 @@ public class XlsxSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is `false`. |
 | [CompressionLevel](../../aspose.words.saving/xlsxsaveoptions/compressionlevel/) { get; set; } | Specifies the compression level used to save document. The default value is Normal. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Gets or sets custom local time zone used for date/time fields. |
+| [DateTimeParsingMode](../../aspose.words.saving/xlsxsaveoptions/datetimeparsingmode/) { get; set; } | Gets or sets the mode that specifies how document text is parsed to identify date and time values. The default value is UseCurrentLocale. |
 | [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Gets or sets path to default template (including filename). Default value for this property is **empty string** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Gets or sets a value determining how 3D effects are rendered. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |

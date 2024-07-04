@@ -21,7 +21,8 @@ class ShapeBase : public Aspose::Words::CompositeNode,
                   public Aspose::Words::Drawing::Core::IFillable,
                   public Aspose::Words::Drawing::Core::IGlow,
                   public Aspose::Words::Drawing::Core::IReflection,
-                  public Aspose::Words::Drawing::Core::ISoftEdge
+                  public Aspose::Words::Drawing::Core::ISoftEdge,
+                  public Aspose::Words::Drawing::Core::IShadow
 ```
 
 ## Methods

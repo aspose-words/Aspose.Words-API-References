@@ -5,7 +5,7 @@ articleTitle: EmbeddedFontFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.EmbeddedFontFormat enum. Specifies format of particular embedded font inside FontInfo object in C#.
 type: docs
-weight: 3060
+weight: 3090
 url: /net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration
