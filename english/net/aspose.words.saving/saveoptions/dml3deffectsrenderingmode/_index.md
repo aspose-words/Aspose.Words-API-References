@@ -20,6 +20,22 @@ public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 
 The default value is Basic.
 
+## Examples
+
+Shows how 3D effects are rendered.
+
+```csharp
+Document doc = new Document(MyDir + "DrawingML shape 3D effects.docx");
+
+RenderCallback warningCallback = new RenderCallback();
+doc.WarningCallback = warningCallback;
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.Dml3DEffectsRenderingMode = Dml3DEffectsRenderingMode.Advanced;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+```
+
 ### See Also
 
 * enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)

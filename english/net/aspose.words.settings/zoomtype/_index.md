@@ -26,6 +26,24 @@ public enum ZoomType
 | PageWidth | `2` | Zoom percentage is automatically recalculated to fit page width. |
 | TextFit | `3` | Zoom percentage is automatically recalculated to fit text. |
 
+## Examples
+
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.ViewOptions.ViewType = ViewType.PageLayout;
+doc.ViewOptions.ZoomPercent = 50;
+
+Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
+Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+
+doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
+```
+
 ### See Also
 
 * class [ViewOptions](../viewoptions/)

@@ -36,6 +36,23 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 | [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(*int*) | Removes the structured document tag with the specified identifier. |
 | [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(*int*) | Removes a structured document tag at the specified index. |
 
+## Examples
+
+Shows how to get structured document tag.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Get the structured document tag by Id.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsMultiSection);
+Console.WriteLine(sdt.Title);
+
+// Get the structured document tag or ranged tag by Title.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### See Also
 
 * interface [IStructuredDocumentTag](../istructureddocumenttag/)

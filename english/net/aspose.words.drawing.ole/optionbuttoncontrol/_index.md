@@ -34,6 +34,29 @@ public class OptionButtonControl : MorphDataControl
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |
 | [Width](../../aspose.words.drawing.ole/forms2olecontrol/width/) { get; set; } | Gets or sets a width of the control in points. |
 
+## Examples
+
+Shows how to select radio button.
+
+```csharp
+Document doc = new Document(MyDir + "Radio buttons.docx");
+
+Shape shape1 = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+OptionButtonControl optionButton1 = (OptionButtonControl)shape1.OleFormat.OleControl;
+// Deselect selected first item.
+optionButton1.Selected = false;
+
+Shape shape2 = (Shape)doc.GetChild(NodeType.Shape, 1, true);
+OptionButtonControl optionButton2 = (OptionButtonControl)shape2.OleFormat.OleControl;
+// Select second option button.
+optionButton2.Selected = true;
+
+Assert.AreEqual(Forms2OleControlType.OptionButton, optionButton1.Type);
+Assert.AreEqual(Forms2OleControlType.OptionButton, optionButton2.Type);
+
+doc.Save(ArtifactsDir + "Shape.SelectRadioControl.docx");
+```
+
 ### See Also
 
 * class [MorphDataControl](../morphdatacontrol/)

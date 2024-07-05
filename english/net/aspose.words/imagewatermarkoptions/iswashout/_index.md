@@ -30,7 +30,12 @@ Document doc = new Document();
             imageWatermarkOptions.IsWashout = false;
 
 #if NET461_OR_GREATER || JAVA
+            // We have a different options to insert image:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
 #elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {

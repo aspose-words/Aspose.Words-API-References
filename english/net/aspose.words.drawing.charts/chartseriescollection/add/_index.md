@@ -613,7 +613,7 @@ ChartSeries series = chart.Series.Add(
         new ChartMultilevelValue("Latin America", "Brazil"),
         new ChartMultilevelValue("Latin America", "Mexico"),
         new ChartMultilevelValue("Latin America", "Other"),
-        new ChartMultilevelValue("Northern America", "United States"),
+        new ChartMultilevelValue("Northern America", "United States", "Other"),
         new ChartMultilevelValue("Northern America", "Other"),
         new ChartMultilevelValue("Oceania")
     },

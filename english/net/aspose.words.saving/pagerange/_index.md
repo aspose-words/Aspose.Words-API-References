@@ -24,6 +24,21 @@ public sealed class PageRange
 | --- | --- |
 | [PageRange](pagerange/)(*int, int*) | Creates a new page range object. |
 
+## Examples
+
+Shows how to extract pages based on exact page ranges.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Tiff);
+PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3),
+    new PageRange(2, 4), new PageRange(1, 1));
+
+imageOptions.PageSet = pageSet;
+doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving/)

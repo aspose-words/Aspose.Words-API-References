@@ -47,6 +47,7 @@ Assert.AreEqual("Aspose.Words test", textBoxControl.Text);
 
 textBoxControl.Text = "Updated text";
 Assert.AreEqual("Updated text", textBoxControl.Text);
+Assert.AreEqual(Forms2OleControlType.Textbox, textBoxControl.Type);
 ```
 
 ### See Also

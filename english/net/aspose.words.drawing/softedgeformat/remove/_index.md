@@ -43,15 +43,16 @@ builder.Document.Save(ArtifactsDir + "Shape.SoftEdge.docx");
 // Load document with rectangle shape with soft edge.
 Document doc = new Document(ArtifactsDir + "Shape.SoftEdge.docx");
 shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+SoftEdgeFormat softEdgeFormat = shape.SoftEdge;
 
 // Check soft edge radius.
-Assert.AreEqual(30, shape.SoftEdge.Radius);
+Assert.AreEqual(30, softEdgeFormat.Radius);
 
 // Remove soft edge from the shape.
-shape.SoftEdge.Remove();
+softEdgeFormat.Remove();
 
 // Check radius of the removed soft edge.
-Assert.AreEqual(0, shape.SoftEdge.Radius);
+Assert.AreEqual(0, softEdgeFormat.Radius);
 ```
 
 ### See Also

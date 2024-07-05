@@ -32,6 +32,19 @@ public class ShadowFormat
 | --- | --- |
 | [Clear](../../aspose.words.drawing/shadowformat/clear/)() | Clears shadow format. |
 
+## Examples
+
+Shows how to get shadow color.
+
+```csharp
+Document doc = new Document(MyDir + "Shadow color.docx");
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+ShadowFormat shadowFormat = shape.ShadowFormat;
+
+Assert.AreEqual(Color.Red.ToArgb(), shadowFormat.Color.ToArgb());
+Assert.AreEqual(ShadowType.ShadowMixed, shadowFormat.Type);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Drawing](../../aspose.words.drawing/)

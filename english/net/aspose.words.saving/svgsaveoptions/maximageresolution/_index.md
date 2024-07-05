@@ -22,6 +22,19 @@ If the value of this property is non-zero, it limits resolution of exported rast
 
 If the value of this property is zero, all raster images are exported without resampling.
 
+## Examples
+
+Shows how to set limit for image resolution.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+SvgSaveOptions saveOptions = new SvgSaveOptions();
+saveOptions.MaxImageResolution = 72;
+
+doc.Save(ArtifactsDir + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
+```
+
 ### See Also
 
 * class [SvgSaveOptions](../)

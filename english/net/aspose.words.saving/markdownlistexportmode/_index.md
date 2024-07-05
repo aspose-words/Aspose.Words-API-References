@@ -23,6 +23,18 @@ public enum MarkdownListExportMode
 | MarkdownSyntax | `0` | Export list items compatible with Markdown syntax. |
 | PlainText | `1` | Export list items as plain text. |
 
+## Examples
+
+Shows how to list items will be written to the markdown document.
+
+```csharp
+Document doc = new Document(MyDir + "List item.docx");
+
+// Use MarkdownListExportMode.PlainText or MarkdownListExportMode.MarkdownSyntax to export list.
+MarkdownSaveOptions options = new MarkdownSaveOptions { ListExportMode = markdownListExportMode };
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.ListExportMode.md", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving/)

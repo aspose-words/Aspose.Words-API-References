@@ -37,10 +37,27 @@ Source source = bibliography.Sources.FirstOrDefault();
 Assert.AreEqual("Book 0 (No LCID)", source.Title);
 
 ContributorCollection contributors = source.Contributors;
+Assert.IsNull(contributors.Artist);
+Assert.IsNull(contributors.BookAuthor);
+Assert.IsNull(contributors.Compiler);
+Assert.IsNull(contributors.Composer);
+Assert.IsNull(contributors.Conductor);
+Assert.IsNull(contributors.Counsel);
+Assert.IsNull(contributors.Director);
+Assert.IsNotNull(contributors.Editor);
+Assert.IsNull(contributors.Interviewee);
+Assert.IsNull(contributors.Interviewer);
+Assert.IsNull(contributors.Inventor);
+Assert.IsNull(contributors.Performer);
+Assert.IsNull(contributors.Producer);
+Assert.IsNotNull(contributors.Translator);
+Assert.IsNull(contributors.Writer);
+Contributor editor  = contributors.Editor;
+Assert.AreEqual(2, ((PersonCollection)editor).Count());
 PersonCollection authors = (PersonCollection)contributors.Author;
 Assert.AreEqual(2, authors.Count());
 
-Person person = authors.FirstOrDefault();
+Person person = authors[0];
 Assert.AreEqual("Roxanne", person.First);
 Assert.AreEqual("Brielle", person.Middle);
 Assert.AreEqual("Tejeda", person.Last);

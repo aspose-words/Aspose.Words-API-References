@@ -26,6 +26,22 @@ public enum MeasurementUnits
 | Points | `3` | Points. |
 | Picas | `4` | Picas (commonly used in traditional typewriter font spacing). |
 
+## Examples
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
+    IsStrictSchema11 = exportToOdt11Specs
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+```
+
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words/)

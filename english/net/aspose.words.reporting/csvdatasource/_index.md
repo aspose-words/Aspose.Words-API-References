@@ -45,6 +45,25 @@ Note that for automatic recognition of data types to work, string representation
 
 To override default behavior of CSV data loading, initialize and pass a [`CsvDataLoadOptions`](../csvdataloadoptions/) instance to a constructor of this class.
 
+## Examples
+
+Shows how to use CSV as a data source (string).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Reporting](../../aspose.words.reporting/)

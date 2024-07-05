@@ -27,6 +27,22 @@ public enum TextDmlEffect
 | Effect3D | `4` | 3D effect. |
 | Reflection | `5` | Reflection effect. |
 
+## Examples
+
+Shows how to check if a run displays a DrawingML text effect.
+
+```csharp
+Document doc = new Document(MyDir + "DrawingML text effects.docx");
+
+RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
+
+Assert.True(runs[0].Font.HasDmlEffect(TextDmlEffect.Shadow));
+Assert.True(runs[1].Font.HasDmlEffect(TextDmlEffect.Shadow));
+Assert.True(runs[2].Font.HasDmlEffect(TextDmlEffect.Reflection));
+Assert.True(runs[3].Font.HasDmlEffect(TextDmlEffect.Effect3D));
+Assert.True(runs[4].Font.HasDmlEffect(TextDmlEffect.Fill));
+```
+
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words/)

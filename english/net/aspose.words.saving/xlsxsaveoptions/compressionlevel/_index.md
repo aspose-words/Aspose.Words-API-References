@@ -24,7 +24,8 @@ Shows how to compress XLSX document.
 Document doc = new Document(MyDir + "Shape with linked chart.docx");
 
 XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
-xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum; 
+xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum;
+xlsxSaveOptions.SaveFormat = SaveFormat.Xlsx;
 
 doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 ```

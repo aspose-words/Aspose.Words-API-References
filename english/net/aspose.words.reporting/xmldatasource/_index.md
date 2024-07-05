@@ -51,6 +51,33 @@ Note that for automatic recognition of data types to work, string representation
 
 To override default behavior of XML data loading, initialize and pass a [`XmlDataLoadOptions`](../xmldataloadoptions/) instance to a constructor of this class.
 
+## Examples
+
+Show how to use XML as a data source (string).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+XmlDataSource dataSource = new XmlDataSource(MyDir + "List of people.xml");
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataString.docx");
+```
+
+Show how to use XML as a data source (stream).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.xml"))
+{
+    XmlDataSource dataSource = new XmlDataSource(stream);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataStream.docx");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Reporting](../../aspose.words.reporting/)

@@ -16,6 +16,47 @@ Initializes an instance of this class.
 public PdfEncryptionDetails(string userPassword, string ownerPassword)
 ```
 
+## Examples
+
+Shows how to load encrypted pdf using plugin.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world! This is an encrypted PDF document.");
+
+// Configure a SaveOptions object to encrypt this PDF document while saving it to the local file system.
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("MyPassword", string.Empty);
+
+Assert.AreEqual(PdfPermissions.DisallowAll, encryptionDetails.Permissions);
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.EncryptionDetails = encryptionDetails;
+
+doc.Save(ArtifactsDir + "PDF2Word.LoadEncryptedPdfUsingPlugin.pdf", saveOptions);
+
+Document pdfDoc = new Document();
+
+// To load a password encrypted document, we need to pass a LoadOptions object
+// with the correct password stored in its "Password" property.
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Password = "MyPassword";
+
+Aspose.Words.Pdf2Word.PdfDocumentReaderPlugin pdf2Word = new Aspose.Words.Pdf2Word.PdfDocumentReaderPlugin();
+using (FileStream stream =
+    new FileStream(ArtifactsDir + "PDF2Word.LoadEncryptedPdfUsingPlugin.pdf", FileMode.Open))
+{
+    // Pass the LoadOptions object into the Pdf2Word plugin's "Read" method
+    // the same way we would pass it into a document's "Load" method.
+    pdf2Word.Read(stream, new LoadOptions("MyPassword"), pdfDoc);
+}
+
+Assert.AreEqual("Hello world! This is an encrypted PDF document.",
+    pdfDoc.GetText().Trim());
+```
+
 ### See Also
 
 * class [PdfEncryptionDetails](../)

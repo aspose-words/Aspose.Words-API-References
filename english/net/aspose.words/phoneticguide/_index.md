@@ -23,6 +23,22 @@ public class PhoneticGuide
 | [BaseText](../../aspose.words/phoneticguide/basetext/) { get; } | Gets base text of the phonetic guide. |
 | [RubyText](../../aspose.words/phoneticguide/rubytext/) { get; } | Gets ruby text of the phonetic guide. |
 
+## Examples
+
+Shows how to get properties of the phonetic guide.
+
+```csharp
+Document doc = new Document(MyDir + "Phonetic guide.docx");
+
+RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
+// Use phonetic guide in the Asian text.
+Assert.AreEqual(true, runs[0].IsPhoneticGuide);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
+```
+
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words/)

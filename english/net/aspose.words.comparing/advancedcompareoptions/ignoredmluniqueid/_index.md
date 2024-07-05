@@ -20,6 +20,24 @@ public bool IgnoreDmlUniqueId { get; set; }
 
 Default value is `false`.
 
+## Examples
+
+Shows how to compare documents ignoring DML unique ID.
+
+```csharp
+Document docA = new Document(MyDir + "DML unique ID original.docx");
+Document docB = new Document(MyDir + "DML unique ID compare.docx");
+
+// By default, Aspose.Words do not ignore DML's unique ID, and the revisions count was 2.
+// If we are ignoring DML's unique ID, and revisions count were 0.
+Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+compareOptions.AdvancedOptions.IgnoreDmlUniqueId = isIgnoreDmlUniqueId;
+
+docA.Compare(docB, "Aspose.Words", DateTime.Now, compareOptions);
+
+Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
+```
+
 ### See Also
 
 * class [AdvancedCompareOptions](../)

@@ -34,7 +34,7 @@ public void Order(bool differentFirstPageHeaderFooter)
     Section firstPageSection = doc.FirstSection;
 
     ReplaceLog logger = new ReplaceLog();
-    FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
+    FindReplaceOptions options = new FindReplaceOptions(logger);
 
     // Using a different header/footer for the first page will affect the search order.
     firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;

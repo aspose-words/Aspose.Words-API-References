@@ -26,8 +26,10 @@ Document doc = new Document(MyDir + "Phonetic guide.docx");
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 // Use phonetic guide in the Asian text.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### See Also
