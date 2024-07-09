@@ -25,12 +25,12 @@ def detect_file_format(self, file_name: str):
 
 ### Remarks
 
-Even if this method detects the document format, it does not guarantee 
-that the specified document is valid. This method only detects the document format by 
-reading data that is sufficient for detection. To fully verify that a document is valid 
+Even if this method detects the document format, it does not guarantee
+that the specified document is valid. This method only detects the document format by
+reading data that is sufficient for detection. To fully verify that a document is valid
 you need to load the document into a [Document](../../document/) object.
 
-This method throws [FileCorruptedException](../../filecorruptedexception/) when the format is 
+This method throws [FileCorruptedException](../../filecorruptedexception/) when the format is
 recognized, but the detection cannot complete because of corruption.
 
 
@@ -61,12 +61,12 @@ The stream must be positioned at the beginning of the document.
 
 When this method returns, the position in the stream is restored to the original position.
 
-Even if this method detects the document format, it does not guarantee 
-that the specified document is valid. This method only detects the document format by 
-reading data that is sufficient for detection. To fully verify that a document is valid 
+Even if this method detects the document format, it does not guarantee
+that the specified document is valid. This method only detects the document format by
+reading data that is sufficient for detection. To fully verify that a document is valid
 you need to load the document into a [Document](../../document/) object.
 
-This method throws [FileCorruptedException](../../filecorruptedexception/) when the format is 
+This method throws [FileCorruptedException](../../filecorruptedexception/) when the format is
 recognized, but the detection cannot complete because of corruption.
 
 

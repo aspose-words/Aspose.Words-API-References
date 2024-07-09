@@ -5,7 +5,7 @@ articleTitle: remove_at method
 second_title: Aspose.Words for Python
 description: "ChartSeriesCollection.remove_at method. Removes a [ChartSeries](../../chartseries/) at the specified index."
 type: docs
-weight: 90
+weight: 80
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/remove_at/
 ---
 

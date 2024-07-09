@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Python
 description: "VbaProject.clone method. Performs a copy of the [VbaProject](../)."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.vba/vbaproject/clone/
 ---
 

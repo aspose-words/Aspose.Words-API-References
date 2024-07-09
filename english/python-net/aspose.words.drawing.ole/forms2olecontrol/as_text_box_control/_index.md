@@ -5,7 +5,7 @@ articleTitle: as_text_box_control method
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.as_text_box_control method. Casts Forms2OleControl to [TextBoxControl](../../textboxcontrol/), otherwise returns null."
 type: docs
-weight: 70
+weight: 110
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/as_text_box_control/
 ---
 

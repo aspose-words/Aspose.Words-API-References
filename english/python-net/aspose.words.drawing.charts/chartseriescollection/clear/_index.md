@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "ChartSeriesCollection.clear method. Removes all [ChartSeries](../../chartseries/) from this collection."
 type: docs
-weight: 80
+weight: 70
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
 

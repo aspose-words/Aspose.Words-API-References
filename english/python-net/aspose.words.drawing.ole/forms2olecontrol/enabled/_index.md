@@ -5,7 +5,7 @@ articleTitle: enabled property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.enabled property. Returns ``True`` if control is in enabled state."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 ---
 

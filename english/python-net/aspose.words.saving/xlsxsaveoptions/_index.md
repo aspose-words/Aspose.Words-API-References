@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.XLSX](../../aspose.words/saveformat/#XLSX) format"
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.words.saving/xlsxsaveoptions/
 ---
 
@@ -32,6 +32,7 @@ To learn more, visit the [Specify
 | --- | --- |
 | [allow_embedding_post_script_fonts](../saveoptions/allow_embedding_post_script_fonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [compression_level](./compression_level/) | Specifies the compression level used to save document. The default value is [CompressionLevel.NORMAL](../compressionlevel/#NORMAL). |
+| [date_time_parsing_mode](./date_time_parsing_mode/) | Gets or sets the mode that specifies how document text is parsed to identify date and time values. The default value is [XlsxDateTimeParsingMode.USE_CURRENT_LOCALE](../xlsxdatetimeparsingmode/#USE_CURRENT_LOCALE). |
 | [default_template](../saveoptions/default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_3d_effects_rendering_mode](../saveoptions/dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_effects_rendering_mode](../saveoptions/dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |

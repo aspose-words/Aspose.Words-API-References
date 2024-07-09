@@ -5,7 +5,7 @@ articleTitle: OleControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.OleControl class. Represents OLE ActiveX control"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing.ole/olecontrol/
 ---
 
@@ -28,7 +28,9 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 
 | Name | Description |
 | --- | --- |
+|[ as_check_box_control()](./as_check_box_control/#default) |  |
 |[ as_forms2_ole_control()](./as_forms2_ole_control/#default) |  |
+|[ as_option_button_control()](./as_option_button_control/#default) |  |
 |[ as_text_box_control()](./as_text_box_control/#default) |  |
 
 ### Examples

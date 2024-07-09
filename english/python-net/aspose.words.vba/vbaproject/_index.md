@@ -28,6 +28,7 @@ To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words
 | Name | Description |
 | --- | --- |
 | [code_page](./code_page/) | Gets or sets the VBA project’s code page. |
+| [is_protected](./is_protected/) | Shows whether the [VbaProject](./) is password protected. |
 | [is_signed](./is_signed/) | Shows whether the [VbaProject](./) is signed or not. |
 | [modules](./modules/) | Returns collection of VBA project modules. |
 | [name](./name/) | Gets or sets VBA project name. |

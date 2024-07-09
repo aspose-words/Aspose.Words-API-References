@@ -31,6 +31,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [font](./font/) | Provides access to the font formatting of the data labels of the entire series. |
 | [format](./format/) | Provides access to fill and line formatting of the data labels. |
 | [number_format](./number_format/) | Gets an [ChartNumberFormat](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
+| [orientation](./orientation/) | Gets or sets the text orientation of the data labels of the entire series. |
+| [rotation](./rotation/) | Gets or sets the rotation of the data labels of the entire series in degrees. |
 | [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
 | [show_bubble_size](./show_bubble_size/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is ``False``. |
 | [show_category_name](./show_category_name/) | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is ``False``. |

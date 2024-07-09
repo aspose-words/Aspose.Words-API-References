@@ -74,6 +74,7 @@ The classes in this module support the latest (Word 2007 - 2013 DrawingML) and t
 | [ShadowType](./shadowtype/) | Specifies the type of a shape shadow. |
 | [ShapeLineStyle](./shapelinestyle/) | Specifies the compound line style of a [Shape](./shape/). |
 | [ShapeMarkupLanguage](./shapemarkuplanguage/) | Specifies Markup language used for the shape. |
+| [ShapeTextOrientation](./shapetextorientation/) | Specifies orientation of text in shapes. |
 | [ShapeType](./shapetype/) | Specifies the type of shape in a Microsoft Word document. |
 | [TextBoxAnchor](./textboxanchor/) | Specifies values used for shape text vertical alignment. |
 | [TextBoxWrapMode](./textboxwrapmode/) | Specifies how text wraps inside a shape. |

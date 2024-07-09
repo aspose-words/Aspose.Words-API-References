@@ -5,7 +5,7 @@ articleTitle: Forms2OleControlType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.Forms2OleControlType enumeration. Enumerates types of Forms 2.0 controls."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing.ole/forms2olecontroltype/
 ---
 
