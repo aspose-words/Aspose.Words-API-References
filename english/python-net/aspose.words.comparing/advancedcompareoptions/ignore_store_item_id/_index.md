@@ -41,11 +41,11 @@ doc_b = aw.Document(file_name=MY_DIR + 'Document with SDT 2.docx')
 # Configure options to compare SDT with same content but different store item id.
 compare_options = aw.comparing.CompareOptions()
 compare_options.advanced_options.ignore_store_item_id = False
-doc_a.compare(doc_b, "user", datetime.now(), compare_options)
+doc_a.compare(doc_b, 'user', datetime.now(), compare_options)
 self.assertEqual(8, doc_a.revisions.count)
 compare_options.advanced_options.ignore_store_item_id = True
 doc_a.revisions.reject_all()
-doc_a.compare(doc_b, "user", datetime.now(), compare_options)
+doc_a.compare(doc_b, 'user', datetime.now(), compare_options)
 self.assertEqual(0, doc_a.revisions.count)
 ```
 

@@ -5,7 +5,7 @@ articleTitle: TextBox class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.TextBox class. Defines attributes that specify how a text is displayed inside a shape"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words.drawing/textbox/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_signed property
 second_title: Aspose.Words for Python
 description: "VbaProject.is_signed property. Shows whether the [VbaProject](../) is signed or not."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.vba/vbaproject/is_signed/
 ---
 

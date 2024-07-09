@@ -28,6 +28,7 @@ Specifies the type (format) of an image in a Microsoft Word document.
 | BMP | Windows Bitmap. |
 | EPS | Encapsulated PostScript. |
 | WEB_P | WebP. |
+| GIF | GIF |
 
 ### Examples
 

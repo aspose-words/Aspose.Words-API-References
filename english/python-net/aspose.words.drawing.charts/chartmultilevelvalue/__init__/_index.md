@@ -74,7 +74,7 @@ series.has_data_labels = True
 series.data_labels.show_value = True
 series.data_labels.show_category_name = True
 decimal_separator = locale.localeconv()['decimal_point']
-series.data_labels.number_format.format_code = f"0{decimal_separator}0%"
+series.data_labels.number_format.format_code = f'0{decimal_separator}0%'
 doc.save(file_name=ARTIFACTS_DIR + 'Charts.Treemap.docx')
 ```
 

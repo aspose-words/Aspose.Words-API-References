@@ -34,7 +34,7 @@ for individual list levels.
 | Name | Description |
 | --- | --- |
 | [alignment](./alignment/) | Gets or sets the justification of the actual number of the list item. |
-| [custom_number_style_format](./custom_number_style_format/) | Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
+| [custom_number_style_format](./custom_number_style_format/) | Gets or sets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
 | [font](./font/) | Specifies character formatting used for the list label. |
 | [image_data](./image_data/) | Returns image data of the picture bullet shape for the current list level. |
 | [is_legal](./is_legal/) | True if the level turns all inherited numbers to Arabic, false if it preserves their number style. |

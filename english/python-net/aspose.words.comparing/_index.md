@@ -20,7 +20,7 @@ The **aspose.words.comparing** module provides classes and enumerations that all
 | Class | Description |
 | --- | --- |
 | [AdvancedCompareOptions](./advancedcompareoptions/) | Allows to set advanced compare options. |
-| [CompareOptions](./compareoptions/) | Allows to choose advanced options for document comparison operation. To learn more, visit the [Compare Documents](https://docs.aspose.com/words/python-net/compare-documents/) documentation article. |
+| [CompareOptions](./compareoptions/) | Allows to choose additional options for document comparison operation. To learn more, visit the [Compare Documents](https://docs.aspose.com/words/python-net/compare-documents/) documentation article. |
 
 ## Enumerations
 

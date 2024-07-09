@@ -5,7 +5,7 @@ articleTitle: TextBoxAnchor enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.TextBoxAnchor enumeration. Specifies values used for shape text vertical alignment."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.drawing/textboxanchor/
 ---
 
