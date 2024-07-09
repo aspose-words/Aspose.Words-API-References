@@ -5,7 +5,7 @@ articleTitle: WrapType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.WrapType enumeration. Specifies how text is wrapped around a shape or picture."
 type: docs
-weight: 520
+weight: 530
 url: /python-net/aspose.words.drawing/wraptype/
 ---
 

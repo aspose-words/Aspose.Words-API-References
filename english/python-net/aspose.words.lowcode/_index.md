@@ -23,6 +23,7 @@ Provides comprehensive document convert, merge, split with 35+ supported file fo
 
 | Class | Description |
 | --- | --- |
+| [Converter](./converter/) | Represents a group of methods intended to convert a variety of different types of documents. |
 | [Merger](./merger/) | Represents a group of methods intended to merge a variety of different types of documents into a single output document. |
 
 ## Enumerations

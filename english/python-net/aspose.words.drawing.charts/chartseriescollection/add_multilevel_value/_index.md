@@ -52,28 +52,8 @@ series.has_data_labels = True
 series.data_labels.show_value = True
 series.data_labels.show_category_name = True
 decimal_separator = locale.localeconv()['decimal_point']
-series.data_labels.number_format.format_code = f"0{decimal_separator}0%"
+series.data_labels.number_format.format_code = f'0{decimal_separator}0%'
 doc.save(file_name=ARTIFACTS_DIR + 'Charts.Treemap.docx')
-```
-
-Shows how to create sunburst chart.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-# Insert a Sunburst chart.
-shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.SUNBURST, width=450, height=450)
-chart = shape.chart
-chart.title.text = 'Sales'
-# Delete default generated series.
-chart.series.clear()
-# Add a series.
-series = chart.series.add_multilevel_value(series_name='Sales', categories=[aw.drawing.charts.ChartMultilevelValue(level1='Sales - Europe', level2='UK', level3='London Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - Europe', level2='UK', level3='Liverpool Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - Europe', level2='UK', level3='Manchester Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - Europe', level2='France', level3='Paris Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - Europe', level2='France', level3='Lyon Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - NA', level2='USA', level3='Denver Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - NA', level2='USA', level3='Seattle Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - NA', level2='USA', level3='Detroit Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - NA', level2='USA', level3='Houston Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - NA', level2='Canada', level3='Toronto Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - NA', level2='Canada', level3='Montreal Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - Oceania', level2='Australia', level3='Sydney Dep.'), aw.drawing.charts.ChartMultilevelValue(level1='Sales - Oceania', level2='New Zealand', level3='Auckland Dep.')], values=[1236, 851, 536, 468, 179, 527, 799, 1148, 921, 457, 482, 761, 694])
-# Show data labels.
-series.has_data_labels = True
-series.data_labels.show_value = False
-series.data_labels.show_category_name = True
-doc.save(file_name=ARTIFACTS_DIR + 'Charts.Sunburst.docx')
 ```
 
 ### See Also

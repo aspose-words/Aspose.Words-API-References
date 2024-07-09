@@ -5,7 +5,7 @@ articleTitle: child_nodes property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.child_nodes property. Gets collection of immediate child controls."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/child_nodes/
 ---
 

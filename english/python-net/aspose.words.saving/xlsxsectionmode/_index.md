@@ -5,7 +5,7 @@ articleTitle: XlsxSectionMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.XlsxSectionMode enumeration. Specifies how sections are handled when saving a document in the XLSX format."
 type: docs
-weight: 890
+weight: 900
 url: /python-net/aspose.words.saving/xlsxsectionmode/
 ---
 

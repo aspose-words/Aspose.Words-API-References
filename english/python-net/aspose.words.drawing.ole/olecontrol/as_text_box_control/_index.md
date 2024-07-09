@@ -5,7 +5,7 @@ articleTitle: as_text_box_control method
 second_title: Aspose.Words for Python
 description: "OleControl.as_text_box_control method. "
 type: docs
-weight: 40
+weight: 60
 url: /python-net/aspose.words.drawing.ole/olecontrol/as_text_box_control/
 ---
 

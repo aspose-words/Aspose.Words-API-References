@@ -34,6 +34,8 @@ The [ChartDataLabelCollection](../chartdatalabelcollection/) contains a [ChartDa
 | [is_hidden](./is_hidden/) | Gets/sets a flag indicating whether this label is hidden. The default value is ``False``. |
 | [is_visible](./is_visible/) | Returns ``True`` if this data label has something to display. |
 | [number_format](./number_format/) | Returns number format of the parent element. |
+| [orientation](./orientation/) | Gets or sets the orientation of the label text. |
+| [rotation](./rotation/) | Gets or sets the rotation of the label in degrees. |
 | [separator](./separator/) | Gets or sets string separator used for the data labels on a chart.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
 | [show_bubble_size](./show_bubble_size/) | Allows to specify if bubble size is to be displayed for the data labels on a chart.  Applies only to Bubble charts.  Default value is ``False``. |
 | [show_category_name](./show_category_name/) | Allows to specify if category name is to be displayed for the data labels on a chart.  Default value is ``False``. |

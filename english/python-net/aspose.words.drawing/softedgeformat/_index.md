@@ -5,7 +5,7 @@ articleTitle: SoftEdgeFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.SoftEdgeFormat class. Represents the soft edge formatting for an object."
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.words.drawing/softedgeformat/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: references property
 second_title: Aspose.Words for Python
 description: "VbaProject.references property. Gets a collection of VBA project references."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.vba/vbaproject/references/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Zip64Mode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.Zip64Mode enumeration. Specifies when to use ZIP64 format extensions for OOXML files."
 type: docs
-weight: 910
+weight: 920
 url: /python-net/aspose.words.saving/zip64mode/
 ---
 

@@ -9,7 +9,7 @@ weight: 10
 url: /python-net/aspose.words.shaping/itextshaper/shape_text/
 ---
 
-## shape_text(runs, direction, script, font_features) {#strlist_direction_unicodescript_fontfeaturelist}
+## shape_text(runs, direction, script, enabled_font_features, variations) {#strlist_direction_unicodescript_fontfeaturelist_variationaxiscoordinatelist}
 
 Returns [Cluster](../../cluster/) objects generated from a sequence of text fragments.
 Length of the returned array is equal to length of *runs*.
@@ -17,7 +17,7 @@ If run at an index has corresponding clusters then result at the same index will
 
 
 ```python
-def shape_text(self, runs: List[str], direction: aspose.words.shaping.Direction, script: aspose.words.shaping.UnicodeScript, font_features: List[aspose.words.shaping.FontFeature]):
+def shape_text(self, runs: List[str], direction: aspose.words.shaping.Direction, script: aspose.words.shaping.UnicodeScript, enabled_font_features: List[aspose.words.shaping.FontFeature], variations: List[aspose.words.shaping.VariationAxisCoordinate]):
     ...
 ```
 
@@ -26,7 +26,8 @@ def shape_text(self, runs: List[str], direction: aspose.words.shaping.Direction,
 | runs | List[str] | A sequence of text fragments |
 | direction | [Direction](../../direction/) | A direction of text |
 | script | [UnicodeScript](../../unicodescript/) | A script |
-| font_features | List[[FontFeature](../../fontfeature/)] | A set of features to consider |
+| enabled_font_features | List[[FontFeature](../../fontfeature/)] | A set of explicitly enabled OpenType features to consider |
+| variations | List[[VariationAxisCoordinate](../../variationaxiscoordinate/)] | Font's variation axis values |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: FileFormatUtil class
 linktitle: FileFormatUtil class
 articleTitle: FileFormatUtil class
 second_title: Aspose.Words for Python
-description: "aspose.words.FileFormatUtil class. Provides utility methods for working with file formats, such as detecting file format  or converting file extensions to/from file format enums"
+description: "aspose.words.FileFormatUtil class. Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums"
 type: docs
 weight: 410
 url: /python-net/aspose.words/fileformatutil/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/fileformatutil/
 
 ## FileFormatUtil class
 
-Provides utility methods for working with file formats, such as detecting file format 
+Provides utility methods for working with file formats, such as detecting file format
 or converting file extensions to/from file format enums.
 To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/python-net/detect-file-format-and-check-format-compatibility/) documentation article.
 

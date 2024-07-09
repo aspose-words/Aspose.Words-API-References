@@ -18,7 +18,7 @@ Provides methods for text shaping.
 
 | Name | Description |
 | --- | --- |
-|[ shape_text(runs, direction, script, font_features)](./shape_text/#strlist_direction_unicodescript_fontfeaturelist) | Returns [Cluster](../cluster/) objects generated from a sequence of text fragments. Length of the returned array is equal to length of *runs*. If run at an index has corresponding clusters then result at the same index will have them recorded. |
+|[ shape_text(runs, direction, script, enabled_font_features, variations)](./shape_text/#strlist_direction_unicodescript_fontfeaturelist_variationaxiscoordinatelist) | Returns [Cluster](../cluster/) objects generated from a sequence of text fragments. Length of the returned array is equal to length of *runs*. If run at an index has corresponding clusters then result at the same index will have them recorded. |
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: value property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.value property. Gets underlying Value property which often represents control state"
 type: docs
-weight: 60
+weight: 90
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/value/
 ---
 

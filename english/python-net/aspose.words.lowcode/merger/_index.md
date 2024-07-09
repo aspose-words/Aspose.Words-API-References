@@ -5,7 +5,7 @@ articleTitle: Merger class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Merger class. Represents a group of methods intended to merge a variety of different types of documents into a single output document."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.lowcode/merger/
 ---
 

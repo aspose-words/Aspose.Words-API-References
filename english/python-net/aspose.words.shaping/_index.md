@@ -23,6 +23,7 @@ support for OpenType features using external text shaping engines.
 | [Glyph](./glyph/) | Represents a glyph |
 | [ITextShaper](./itextshaper/) | Provides methods for text shaping. |
 | [ITextShaperFactory](./itextshaperfactory/) | An interface of a factory for constructing [ITextShaper](./itextshaper/) implementations. |
+| [VariationAxisCoordinate](./variationaxiscoordinate/) | Represents an axis coordinate. |
 
 ## Enumerations
 
@@ -32,4 +33,5 @@ support for OpenType features using external text shaping engines.
 | [FontFeature](./fontfeature/) | Features provide information about how glyphs are used in a font to render a script. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Describes shaping levels required by a script. |
 | [UnicodeScript](./unicodescript/) | Unicode Character Database property: Script (sc). |
+| [VariationAxis](./variationaxis/) | Represents OpenType Design-Variation Axis Tag. https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg |
 

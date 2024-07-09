@@ -43,6 +43,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [images_folder](./images_folder/) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format. Default is an empty string. |
 | [images_folder_alias](./images_folder_alias/) | Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [link_export_mode](./link_export_mode/) | Specifies how links will be written to the output file. Default value is [MarkdownLinkExportMode.AUTO](../markdownlinkexportmode/#AUTO). |
 | [list_export_mode](./list_export_mode/) | Specifies how list items will be written to the output file. Default value is [MarkdownListExportMode.MARKDOWN_SYNTAX](../markdownlistexportmode/#MARKDOWN_SYNTAX). |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [paragraph_break](../txtsaveoptionsbase/paragraph_break/) | Specifies the string to use as a paragraph break when exporting in text formats.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |

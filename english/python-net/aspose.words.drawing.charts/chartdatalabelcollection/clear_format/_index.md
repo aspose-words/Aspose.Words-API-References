@@ -5,7 +5,7 @@ articleTitle: clear_format method
 second_title: Aspose.Words for Python
 description: "ChartDataLabelCollection.clear_format method. Clears format of all [ChartDataLabel](../../chartdatalabel/) in this collection."
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/clear_format/
 ---
 
