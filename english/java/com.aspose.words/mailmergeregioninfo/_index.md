@@ -4,7 +4,7 @@ linktitle: MailMergeRegionInfo
 second_title: Aspose.Words for Java
 description: Contains information about a mail merge region in Java.
 type: docs
-weight: 415
+weight: 416
 url: /java/com.aspose.words/mailmergeregioninfo/
 ---
 
@@ -299,7 +299,7 @@ Returns parent region info (null for top-level region).
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 

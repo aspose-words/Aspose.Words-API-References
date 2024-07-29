@@ -4,7 +4,7 @@ linktitle: VbaProject
 second_title: Aspose.Words for Java
 description: Provides access to VBA project information in Java.
 type: docs
-weight: 646
+weight: 651
 url: /java/com.aspose.words/vbaproject/
 ---
 
@@ -68,6 +68,7 @@ Shows how to access a document's VBA project information.
 | [getModules()](#getModules) | Returns collection of VBA project modules. |
 | [getName()](#getName) | Gets VBA project name. |
 | [getReferences()](#getReferences) | Gets a collection of VBA project references. |
+| [isProtected()](#isProtected) | Shows whether the [VbaProject](../../com.aspose.words/vbaproject/) is password protected. |
 | [isSigned()](#isSigned) | Shows whether the [VbaProject](../../com.aspose.words/vbaproject/) is signed or not. |
 | [setCodePage(int value)](#setCodePage-int) | Sets the VBA project\\u2019s code page. |
 | [setName(String value)](#setName-java.lang.String) | Sets VBA project name. |
@@ -297,8 +298,95 @@ public VbaReferenceCollection getReferences()
 
 Gets a collection of VBA project references.
 
+ **Examples:** 
+
+Shows how to get/remove an element from the VBA reference collection.
+
+```
+
+ public void removeVbaReference() throws Exception {
+     final String BROKEN_PATH = "X:\\broken.dll";
+     Document doc = new Document(getMyDir() + "VBA project.docm");
+
+     VbaReferenceCollection references = doc.getVbaProject().getReferences();
+     Assert.assertEquals(5, references.getCount());
+
+     for (int i = references.getCount() - 1; i >= 0; i--) {
+         VbaReference reference = doc.getVbaProject().getReferences().get(i);
+         String path = getLibIdPath(reference);
+
+         if (BROKEN_PATH.equals(path))
+             references.removeAt(i);
+     }
+     Assert.assertEquals(4, references.getCount());
+
+     references.remove(references.get(1));
+     Assert.assertEquals(3, references.getCount());
+
+     doc.save(getArtifactsDir() + "VbaProject.RemoveVbaReference.docm");
+ }
+
+ /// 
+ /// Returns string representing LibId path of a specified reference.
+ /// 
+ private static String getLibIdPath(VbaReference reference) {
+     switch (reference.getType()) {
+         case VbaReferenceType.REGISTERED:
+         case VbaReferenceType.ORIGINAL:
+         case VbaReferenceType.CONTROL:
+             return getLibIdReferencePath(reference.getLibId());
+         case VbaReferenceType.PROJECT:
+             return getLibIdProjectPath(reference.getLibId());
+         default:
+             throw new IllegalArgumentException();
+     }
+ }
+
+ /// 
+ /// Returns path from a specified identifier of an Automation type library.
+ /// 
+ private static String getLibIdReferencePath(String libIdReference) {
+     if (libIdReference != null) {
+         String[] refParts = libIdReference.split("#");
+         if (refParts.length > 3)
+             return refParts[3];
+     }
+
+     return "";
+ }
+
+ /// 
+ /// Returns path from a specified identifier of an Automation type library.
+ /// 
+ private static String getLibIdProjectPath(String libIdProject) {
+     return libIdProject != null ? libIdProject.substring(3) : "";
+ }
+ 
+```
+
 **Returns:**
 [VbaReferenceCollection](../../com.aspose.words/vbareferencecollection/) - A collection of VBA project references.
+### isProtected() {#isProtected}
+```
+public boolean isProtected()
+```
+
+
+Shows whether the [VbaProject](../../com.aspose.words/vbaproject/) is password protected.
+
+ **Examples:** 
+
+Shows whether the VbaProject is password protected.
+
+```
+
+ Document doc = new Document(getMyDir() + "Vba protected.docm");
+ Assert.assertTrue(doc.getVbaProject().isProtected());
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isSigned() {#isSigned}
 ```
 public boolean isSigned()

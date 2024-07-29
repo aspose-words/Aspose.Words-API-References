@@ -4,7 +4,7 @@ linktitle: IReplacingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom method called during a find and replace operation in Java.
 type: docs
-weight: 712
+weight: 718
 url: /java/com.aspose.words/ireplacingcallback/
 ---
 ```

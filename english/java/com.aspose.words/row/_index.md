@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Words for Java
 description: Represents a table row in Java.
 type: docs
-weight: 538
+weight: 540
 url: /java/com.aspose.words/row/
 ---
 
@@ -448,6 +448,152 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the row.
 
+ **Examples:** 
+
+Shows how to print the node structure of every table in a document.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -462,6 +608,152 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the row.
+
+ **Examples:** 
+
+Shows how to print the node structure of every table in a document.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2418,6 +2710,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

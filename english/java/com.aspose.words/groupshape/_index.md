@@ -4,7 +4,7 @@ linktitle: GroupShape
 second_title: Aspose.Words for Java
 description: Represents a group of shapes in a document in Java.
 type: docs
-weight: 343
+weight: 344
 url: /java/com.aspose.words/groupshape/
 ---
 
@@ -542,6 +542,83 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the GroupShape.
 
+ **Examples:** 
+
+Shows how to create a group of shapes, and print its contents using a document visitor.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -556,6 +633,83 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the GroupShape.
+
+ **Examples:** 
+
+Shows how to create a group of shapes, and print its contents using a document visitor.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -4004,6 +4158,21 @@ public ShadowFormat getShadowFormat()
 
 Gets shadow formatting for the shape.
 
+ **Examples:** 
+
+Shows how to get shadow color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShadowFormat shadowFormat = shape.getShadowFormat();
+
+ Assert.assertEquals(Color.RED.getRGB(), shadowFormat.getColor().getRGB());
+ Assert.assertEquals(ShadowType.SHADOW_MIXED, shadowFormat.getType());
+ 
+```
+
 **Returns:**
 [ShadowFormat](../../com.aspose.words/shadowformat/) - Shadow formatting for the shape.
 ### getShadowType() {#getShadowType}
@@ -5308,6 +5477,34 @@ public boolean isImage()
 
 Returns  true  if this shape is an image shape.
 
+ **Examples:** 
+
+Shows how to open an HTML document with images from a stream using a base URI.
+
+```
+
+ InputStream stream = new FileInputStream(getMyDir() + "Document.html");
+ try  {
+     // Pass the URI of the base folder while loading it
+     // so that any images with relative URIs in the HTML document can be found.
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setBaseUri(getImageDir());
+
+     Document doc = new Document(stream, loadOptions);
+
+     // Verify that the first shape of the document contains a valid image.
+     Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+     Assert.assertTrue(shape.isImage());
+     Assert.assertNotNull(shape.getImageData().getImageBytes());
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getWidth()), 0.01);
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getHeight()), 0.01);
+ } finally {
+     if (stream != null) stream.close();
+ }
+ 
+```
+
 **Returns:**
 boolean -  true  if this shape is an image shape.
 ### isInline() {#isInline}
@@ -5845,6 +6042,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

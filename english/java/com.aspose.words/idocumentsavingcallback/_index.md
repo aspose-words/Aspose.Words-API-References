@@ -4,7 +4,7 @@ linktitle: IDocumentSavingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom method called during saving a document in Java.
 type: docs
-weight: 695
+weight: 701
 url: /java/com.aspose.words/idocumentsavingcallback/
 ---
 ```
@@ -45,6 +45,80 @@ Shows how to manage a document while saving to html.
                      {SaveFormat.HTML,  "html"},
                      {SaveFormat.MHTML,  "mhtml"},
                      {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to docx.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
              };
  }
 

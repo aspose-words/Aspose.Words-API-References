@@ -4,7 +4,7 @@ linktitle: GlossaryDocument
 second_title: Aspose.Words for Java
 description: Represents the root element for a glossary document within a Word document in Java.
 type: docs
-weight: 334
+weight: 335
 url: /java/com.aspose.words/glossarydocument/
 ---
 
@@ -64,7 +64,12 @@ Shows ways of accessing building blocks in a glossary document.
      // We will do that using a custom visitor,
      // which will give every BuildingBlock in the GlossaryDocument a unique GUID
      GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
      glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
      System.out.println(visitor.getText());
 
      // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
@@ -247,7 +252,12 @@ Shows ways of accessing building blocks in a glossary document.
      // We will do that using a custom visitor,
      // which will give every BuildingBlock in the GlossaryDocument a unique GUID
      GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
      glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
      System.out.println(visitor.getText());
 
      // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
@@ -327,6 +337,112 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the Glossary document.
 
+ **Examples:** 
+
+Shows ways of accessing building blocks in a glossary document.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
+     glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -341,6 +457,112 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the Glossary document.
+
+ **Examples:** 
+
+Shows ways of accessing building blocks in a glossary document.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
+     glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +844,12 @@ Shows ways of accessing building blocks in a glossary document.
      // We will do that using a custom visitor,
      // which will give every BuildingBlock in the GlossaryDocument a unique GUID
      GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
      glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
      System.out.println(visitor.getText());
 
      // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
@@ -873,6 +1100,23 @@ public DocumentBase getDocument()
 
 Gets this instance.
 
+ **Examples:** 
+
+Shows how to create simple document.
+
+```
+
+ Document doc = new Document();
+
+ // New Document objects by default come with the minimal set of nodes
+ // required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+ doc.appendChild(new Section(doc))
+     .appendChild(new Body(doc))
+     .appendChild(new Paragraph(doc))
+     .appendChild(new Run(doc, "Hello world!"));
+ 
+```
+
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - This instance.
 ### getFirstBuildingBlock() {#getFirstBuildingBlock}
@@ -923,7 +1167,12 @@ Shows ways of accessing building blocks in a glossary document.
      // We will do that using a custom visitor,
      // which will give every BuildingBlock in the GlossaryDocument a unique GUID
      GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
      glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
      System.out.println(visitor.getText());
 
      // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
@@ -1150,7 +1399,12 @@ Shows ways of accessing building blocks in a glossary document.
      // We will do that using a custom visitor,
      // which will give every BuildingBlock in the GlossaryDocument a unique GUID
      GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
      glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
      System.out.println(visitor.getText());
 
      // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
@@ -1301,8 +1555,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -2174,6 +2428,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

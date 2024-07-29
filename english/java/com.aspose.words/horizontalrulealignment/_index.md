@@ -4,7 +4,7 @@ linktitle: HorizontalRuleAlignment
 second_title: Aspose.Words for Java
 description: Represents the alignment for the specified horizontal rule in Java.
 type: docs
-weight: 350
+weight: 351
 url: /java/com.aspose.words/horizontalrulealignment/
 ---
 
@@ -15,6 +15,28 @@ public class HorizontalRuleAlignment
 ```
 
 Represents the alignment for the specified horizontal rule.
+
+ **Examples:** 
+
+Shows how to insert a horizontal rule shape, and customize its formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
 ## Fields
 
 | Field | Description |

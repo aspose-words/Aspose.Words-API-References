@@ -15,6 +15,61 @@ public class AxisTickLabels
 ```
 
 Represents properties of axis tick mark labels.
+
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
 ## Methods
 
 | Method | Description |
@@ -74,6 +129,61 @@ The default value is [ParagraphAlignment.CENTER](../../com.aspose.words/paragrap
 
 .
 
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
+
 **Returns:**
 int - Text alignment of the axis tick labels. The returned value is one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment/) constants.
 ### getFont() {#getFont}
@@ -83,6 +193,61 @@ public Font getFont()
 
 
 Provides access to font formatting of the tick labels.
+
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
 
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
@@ -146,6 +311,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -212,6 +380,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -251,6 +422,61 @@ Gets the interval at which the tick labels are drawn.
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
 Setting this property sets the [isAutoSpacing()](../../com.aspose.words/axisticklabels/\#isAutoSpacing) / [isAutoSpacing(boolean)](../../com.aspose.words/axisticklabels/\#isAutoSpacing-boolean) property to  false .
+
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
 
 **Returns:**
 int - The interval at which the tick labels are drawn.
@@ -312,6 +538,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -380,6 +609,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -408,6 +640,61 @@ This property has effect only for multi-line labels.
 The default value is [ParagraphAlignment.CENTER](../../com.aspose.words/paragraphalignment/\#CENTER).
 
 .
+
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -474,6 +761,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -543,6 +833,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -569,6 +862,61 @@ Sets the interval at which the tick labels are drawn.
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
 Setting this property sets the [isAutoSpacing()](../../com.aspose.words/axisticklabels/\#isAutoSpacing) / [isAutoSpacing(boolean)](../../com.aspose.words/axisticklabels/\#isAutoSpacing-boolean) property to  false .
+
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: PhoneticGuide
 second_title: Aspose.Words for Java
 description: Represents Phonetic Guide in Java.
 type: docs
-weight: 506
+weight: 508
 url: /java/com.aspose.words/phoneticguide/
 ---
 
@@ -15,6 +15,24 @@ public class PhoneticGuide
 ```
 
 Represents Phonetic Guide.
+
+ **Examples:** 
+
+Shows how to get properties of the phonetic guide.
+
+```
+
+ Document doc = new Document(getMyDir() + "Phonetic guide.docx");
+
+ RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
+ // Use phonetic guide in the Asian text.
+ Assert.assertEquals(true, runs.get(0).isPhoneticGuide());
+
+ PhoneticGuide phoneticGuide = runs.get(0).getPhoneticGuide();
+ Assert.assertEquals("base", phoneticGuide.getBaseText());
+ Assert.assertEquals("ruby", phoneticGuide.getRubyText());
+ 
+```
 ## Methods
 
 | Method | Description |
@@ -38,11 +56,12 @@ Shows how to get properties of the phonetic guide.
  Document doc = new Document(getMyDir() + "Phonetic guide.docx");
 
  RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
-
  // Use phonetic guide in the Asian text.
  Assert.assertEquals(true, runs.get(0).isPhoneticGuide());
- Assert.assertEquals("base", runs.get(0).getPhoneticGuide().getBaseText());
- Assert.assertEquals("ruby", runs.get(0).getPhoneticGuide().getRubyText());
+
+ PhoneticGuide phoneticGuide = runs.get(0).getPhoneticGuide();
+ Assert.assertEquals("base", phoneticGuide.getBaseText());
+ Assert.assertEquals("ruby", phoneticGuide.getRubyText());
  
 ```
 
@@ -65,11 +84,12 @@ Shows how to get properties of the phonetic guide.
  Document doc = new Document(getMyDir() + "Phonetic guide.docx");
 
  RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
-
  // Use phonetic guide in the Asian text.
  Assert.assertEquals(true, runs.get(0).isPhoneticGuide());
- Assert.assertEquals("base", runs.get(0).getPhoneticGuide().getBaseText());
- Assert.assertEquals("ruby", runs.get(0).getPhoneticGuide().getRubyText());
+
+ PhoneticGuide phoneticGuide = runs.get(0).getPhoneticGuide();
+ Assert.assertEquals("base", phoneticGuide.getBaseText());
+ Assert.assertEquals("ruby", phoneticGuide.getRubyText());
  
 ```
 

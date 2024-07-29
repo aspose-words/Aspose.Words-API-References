@@ -4,7 +4,7 @@ linktitle: FieldLastSavedBy
 second_title: Aspose.Words for Java
 description: Implements the LASTSAVEDBY field in Java.
 type: docs
-weight: 237
+weight: 238
 url: /java/com.aspose.words/fieldlastsavedby/
 ---
 

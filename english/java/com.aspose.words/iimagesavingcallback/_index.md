@@ -4,7 +4,7 @@ linktitle: IImageSavingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML in Java.
 type: docs
-weight: 705
+weight: 711
 url: /java/com.aspose.words/iimagesavingcallback/
 ---
 ```
@@ -23,11 +23,11 @@ Shows how to rename the image name during saving into Markdown document.
      Document doc = new Document(getMyDir() + "Rendering.docx");
 
      MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
      // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
      // Each image will be in the form of a file in the local file system.
      // There is also a callback that can customize the name and file system location of each image.
      saveOptions.setImageSavingCallback(new SavedImageRename("MarkdownSaveOptions.HandleDocument.md"));
+     saveOptions.setSaveFormat(SaveFormat.MARKDOWN);
 
      // The ImageSaving() method of our callback will be run at this time.
      doc.save(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md", saveOptions);

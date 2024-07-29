@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java
 description: A collection of IStructuredDocumentTag instances that represent the structured document tags in the specified range in Java.
 type: docs
-weight: 582
+weight: 585
 url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 
@@ -20,6 +20,25 @@ public class StructuredDocumentTagCollection implements Iterable
 A collection of [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/) instances that represent the structured document tags in the specified range.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
+
+ **Examples:** 
+
+Shows how to get structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isMultiSection());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+```
 
 
 [Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/

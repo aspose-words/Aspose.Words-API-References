@@ -4,7 +4,7 @@ linktitle: HtmlMetafileFormat
 second_title: Aspose.Words for Java
 description: Indicates the format in which metafiles are saved to HTML documents in Java.
 type: docs
-weight: 358
+weight: 359
 url: /java/com.aspose.words/htmlmetafileformat/
 ---
 
@@ -23,7 +23,13 @@ Shows how to convert SVG objects to a different format when saving HTML document
 ```
 
  String html =
-         "\r\n                    \r\n                        Hello world!\r\n                    \r\n                ";
+     "\n                    \n                        Hello world!\n                    \n                ";
+
+ // Use 'ConvertSvgToEmf' to turn back the legacy behavior
+ // where all SVG images loaded from an HTML document were converted to EMF.
+ // Now SVG images are loaded without conversion
+ // if the MS Word version specified in load options supports SVG images natively.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(); { loadOptions.setConvertSvgToEmf(true); }
 
  Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
 

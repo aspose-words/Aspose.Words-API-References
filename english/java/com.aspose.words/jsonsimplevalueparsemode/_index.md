@@ -4,7 +4,7 @@ linktitle: JsonSimpleValueParseMode
 second_title: Aspose.Words for Java
 description: Specifies a mode for parsing JSON simple values null boolean number integer and string while loading JSON in Java.
 type: docs
-weight: 384
+weight: 385
 url: /java/com.aspose.words/jsonsimplevalueparsemode/
 ---
 
@@ -15,6 +15,26 @@ public class JsonSimpleValueParseMode
 ```
 
 Specifies a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values.
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 422
+weight: 423
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -17,6 +17,62 @@ public class MarkdownSaveOptions extends TxtSaveOptionsBase
 Class to specify additional options when saving a document into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format.
 
 To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
+
+ **Examples:** 
+
+Shows how to rename the image name during saving into Markdown document.
+
+```
+
+ public void renameImages() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     saveOptions.setImageSavingCallback(new SavedImageRename("MarkdownSaveOptions.HandleDocument.md"));
+     saveOptions.setSaveFormat(SaveFormat.MARKDOWN);
+
+     // The ImageSaving() method of our callback will be run at this time.
+     doc.save(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
+
+     Supplier> filteredShapes = () -> DocumentHelper.directoryGetFiles(
+             getArtifactsDir(), "*").stream().
+             filter(s -> s.startsWith(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md shape"));
+
+     Assert.assertEquals(1, filteredShapes.get().filter(f -> f.endsWith(".jpeg")).count());
+     Assert.assertEquals(8, filteredShapes.get().filter(f -> f.endsWith(".png")).count());
+ }
+
+ /// 
+ /// Renames saved images that are produced when an Markdown document is saved.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback
+ {
+     public SavedImageRename(String outFileName)
+     {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception
+     {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}",
+                 mOutFileName, ++mCount, args.getCurrentShape().getShapeType(),
+                 FilenameUtils.getExtension(args.getImageFileName()));
+
+         args.setImageFileName(imageFileName);
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private String mOutFileName;
+ }
+ 
+```
 
 
 [Specify Save Options]: https://docs.aspose.com/words/java/specify-save-options/
@@ -46,6 +102,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getImagesFolder()](#getImagesFolder) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getImagesFolderAlias()](#getImagesFolderAlias) | Specifies the name of the folder used to construct image URIs written into a document. |
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
+| [getLinkExportMode()](#getLinkExportMode) | Specifies how links will be written to the output file. |
 | [getListExportMode()](#getListExportMode) | Specifies how list items will be written to the output file. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
 | [getParagraphBreak()](#getParagraphBreak) | Specifies the string to use as a paragraph break when exporting in text formats. |
@@ -75,6 +132,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setImagesFolder(String value)](#setImagesFolder-java.lang.String) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setImagesFolderAlias(String value)](#setImagesFolderAlias-java.lang.String) | Specifies the name of the folder used to construct image URIs written into a document. |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
+| [setLinkExportMode(int value)](#setLinkExportMode-int) | Specifies how links will be written to the output file. |
 | [setListExportMode(int value)](#setListExportMode-int) | Specifies how list items will be written to the output file. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
 | [setParagraphBreak(String value)](#setParagraphBreak-java.lang.String) | Specifies the string to use as a paragraph break when exporting in text formats. |
@@ -96,6 +154,62 @@ public MarkdownSaveOptions()
 
 
 Initializes a new instance of this class that can be used to save a document in the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format.
+
+ **Examples:** 
+
+Shows how to rename the image name during saving into Markdown document.
+
+```
+
+ public void renameImages() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     saveOptions.setImageSavingCallback(new SavedImageRename("MarkdownSaveOptions.HandleDocument.md"));
+     saveOptions.setSaveFormat(SaveFormat.MARKDOWN);
+
+     // The ImageSaving() method of our callback will be run at this time.
+     doc.save(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
+
+     Supplier> filteredShapes = () -> DocumentHelper.directoryGetFiles(
+             getArtifactsDir(), "*").stream().
+             filter(s -> s.startsWith(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md shape"));
+
+     Assert.assertEquals(1, filteredShapes.get().filter(f -> f.endsWith(".jpeg")).count());
+     Assert.assertEquals(8, filteredShapes.get().filter(f -> f.endsWith(".png")).count());
+ }
+
+ /// 
+ /// Renames saved images that are produced when an Markdown document is saved.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback
+ {
+     public SavedImageRename(String outFileName)
+     {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception
+     {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}",
+                 mOutFileName, ++mCount, args.getCurrentShape().getShapeType(),
+                 FilenameUtils.getExtension(args.getImageFileName()));
+
+         args.setImageFileName(imageFileName);
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private String mOutFileName;
+ }
+ 
+```
 
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
@@ -243,6 +357,24 @@ Gets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
@@ -594,11 +726,11 @@ Shows how to rename the image name during saving into Markdown document.
      Document doc = new Document(getMyDir() + "Rendering.docx");
 
      MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
      // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
      // Each image will be in the form of a file in the local file system.
      // There is also a callback that can customize the name and file system location of each image.
      saveOptions.setImageSavingCallback(new SavedImageRename("MarkdownSaveOptions.HandleDocument.md"));
+     saveOptions.setSaveFormat(SaveFormat.MARKDOWN);
 
      // The ImageSaving() method of our callback will be run at this time.
      doc.save(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
@@ -769,6 +901,41 @@ Shows how to render Ink object.
 
 **Returns:**
 int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) constants.
+### getLinkExportMode() {#getLinkExportMode}
+```
+public int getLinkExportMode()
+```
+
+
+Specifies how links will be written to the output file. Default value is [MarkdownLinkExportMode.AUTO](../../com.aspose.words/markdownlinkexportmode/\#AUTO).
+
+ **Examples:** 
+
+Shows how to links will be written to the .md file.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertShape(ShapeType.BALLOON, 100.0, 100.0);
+
+ // Image will be written as reference:
+ // ![ref1]
+ //
+ // [ref1]: aw_ref.001.png
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setLinkExportMode(MarkdownLinkExportMode.REFERENCE);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.LinkExportMode.Reference.md", saveOptions);
+
+ // Image will be written as inline:
+ // ![](../aw_inline.001.png)
+ saveOptions.setLinkExportMode(MarkdownLinkExportMode.INLINE);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MarkdownLinkExportMode](../../com.aspose.words/markdownlinkexportmode/) constants.
 ### getListExportMode() {#getListExportMode}
 ```
 public int getListExportMode()
@@ -1189,6 +1356,62 @@ public int getSaveFormat()
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN).
 
+ **Examples:** 
+
+Shows how to rename the image name during saving into Markdown document.
+
+```
+
+ public void renameImages() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     saveOptions.setImageSavingCallback(new SavedImageRename("MarkdownSaveOptions.HandleDocument.md"));
+     saveOptions.setSaveFormat(SaveFormat.MARKDOWN);
+
+     // The ImageSaving() method of our callback will be run at this time.
+     doc.save(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
+
+     Supplier> filteredShapes = () -> DocumentHelper.directoryGetFiles(
+             getArtifactsDir(), "*").stream().
+             filter(s -> s.startsWith(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md shape"));
+
+     Assert.assertEquals(1, filteredShapes.get().filter(f -> f.endsWith(".jpeg")).count());
+     Assert.assertEquals(8, filteredShapes.get().filter(f -> f.endsWith(".png")).count());
+ }
+
+ /// 
+ /// Renames saved images that are produced when an Markdown document is saved.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback
+ {
+     public SavedImageRename(String outFileName)
+     {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception
+     {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}",
+                 mOutFileName, ++mCount, args.getCurrentShape().getShapeType(),
+                 FilenameUtils.getExtension(args.getImageFileName()));
+
+         args.setImageFileName(imageFileName);
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private String mOutFileName;
+ }
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
 ### getTableContentAlignment() {#getTableContentAlignment}
@@ -1198,6 +1421,58 @@ public int getTableContentAlignment()
 
 
 Gets a value that specifies how to align contents in tables when exporting into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. The default value is [TableContentAlignment.AUTO](../../com.aspose.words/tablecontentalignment/\#AUTO).
+
+ **Examples:** 
+
+Shows how to align contents in tables.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
+ builder.write("Cell1");
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ builder.write("Cell2");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions(); { saveOptions.setTableContentAlignment(tableContentAlignment); }
+
+ builder.getDocument().save(getArtifactsDir() + "MarkdownSaveOptions.MarkdownDocumentTableContentAlignment.md", saveOptions);
+
+ Document doc = new Document(getArtifactsDir() + "MarkdownSaveOptions.MarkdownDocumentTableContentAlignment.md");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ switch (tableContentAlignment)
+ {
+     case TableContentAlignment.AUTO:
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.LEFT:
+         Assert.assertEquals(ParagraphAlignment.LEFT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.LEFT,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.CENTER:
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.RIGHT:
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+ }
+ 
+```
 
 **Returns:**
 int - A value that specifies how to align contents in tables when exporting into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. The returned value is one of [TableContentAlignment](../../com.aspose.words/tablecontentalignment/) constants.
@@ -1218,6 +1493,28 @@ public boolean getUpdateCreatedTimeProperty()
 
 
 Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
+
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving.
@@ -1281,26 +1578,6 @@ public boolean getUpdateLastPrintedProperty()
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 
@@ -1532,6 +1809,24 @@ Sets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1910,11 +2205,11 @@ Shows how to rename the image name during saving into Markdown document.
      Document doc = new Document(getMyDir() + "Rendering.docx");
 
      MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
      // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
      // Each image will be in the form of a file in the local file system.
      // There is also a callback that can customize the name and file system location of each image.
      saveOptions.setImageSavingCallback(new SavedImageRename("MarkdownSaveOptions.HandleDocument.md"));
+     saveOptions.setSaveFormat(SaveFormat.MARKDOWN);
 
      // The ImageSaving() method of our callback will be run at this time.
      doc.save(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
@@ -2096,6 +2391,44 @@ Shows how to render Ink object.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) constants. |
+
+### setLinkExportMode(int value) {#setLinkExportMode-int}
+```
+public void setLinkExportMode(int value)
+```
+
+
+Specifies how links will be written to the output file. Default value is [MarkdownLinkExportMode.AUTO](../../com.aspose.words/markdownlinkexportmode/\#AUTO).
+
+ **Examples:** 
+
+Shows how to links will be written to the .md file.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertShape(ShapeType.BALLOON, 100.0, 100.0);
+
+ // Image will be written as reference:
+ // ![ref1]
+ //
+ // [ref1]: aw_ref.001.png
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setLinkExportMode(MarkdownLinkExportMode.REFERENCE);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.LinkExportMode.Reference.md", saveOptions);
+
+ // Image will be written as inline:
+ // ![](../aw_inline.001.png)
+ saveOptions.setLinkExportMode(MarkdownLinkExportMode.INLINE);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [MarkdownLinkExportMode](../../com.aspose.words/markdownlinkexportmode/) constants. |
 
 ### setListExportMode(int value) {#setListExportMode-int}
 ```
@@ -2532,6 +2865,62 @@ public void setSaveFormat(int value)
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN).
 
+ **Examples:** 
+
+Shows how to rename the image name during saving into Markdown document.
+
+```
+
+ public void renameImages() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     saveOptions.setImageSavingCallback(new SavedImageRename("MarkdownSaveOptions.HandleDocument.md"));
+     saveOptions.setSaveFormat(SaveFormat.MARKDOWN);
+
+     // The ImageSaving() method of our callback will be run at this time.
+     doc.save(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
+
+     Supplier> filteredShapes = () -> DocumentHelper.directoryGetFiles(
+             getArtifactsDir(), "*").stream().
+             filter(s -> s.startsWith(getArtifactsDir() + "MarkdownSaveOptions.HandleDocument.md shape"));
+
+     Assert.assertEquals(1, filteredShapes.get().filter(f -> f.endsWith(".jpeg")).count());
+     Assert.assertEquals(8, filteredShapes.get().filter(f -> f.endsWith(".png")).count());
+ }
+
+ /// 
+ /// Renames saved images that are produced when an Markdown document is saved.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback
+ {
+     public SavedImageRename(String outFileName)
+     {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception
+     {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}",
+                 mOutFileName, ++mCount, args.getCurrentShape().getShapeType(),
+                 FilenameUtils.getExtension(args.getImageFileName()));
+
+         args.setImageFileName(imageFileName);
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private String mOutFileName;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2544,6 +2933,58 @@ public void setTableContentAlignment(int value)
 
 
 Sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. The default value is [TableContentAlignment.AUTO](../../com.aspose.words/tablecontentalignment/\#AUTO).
+
+ **Examples:** 
+
+Shows how to align contents in tables.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
+ builder.write("Cell1");
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ builder.write("Cell2");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions(); { saveOptions.setTableContentAlignment(tableContentAlignment); }
+
+ builder.getDocument().save(getArtifactsDir() + "MarkdownSaveOptions.MarkdownDocumentTableContentAlignment.md", saveOptions);
+
+ Document doc = new Document(getArtifactsDir() + "MarkdownSaveOptions.MarkdownDocumentTableContentAlignment.md");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ switch (tableContentAlignment)
+ {
+     case TableContentAlignment.AUTO:
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.LEFT:
+         Assert.assertEquals(ParagraphAlignment.LEFT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.LEFT,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.CENTER:
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.RIGHT:
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2570,6 +3011,28 @@ public void setUpdateCreatedTimeProperty(boolean value)
 
 
 Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
+
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2639,26 +3102,6 @@ public void setUpdateLastPrintedProperty(boolean value)
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 

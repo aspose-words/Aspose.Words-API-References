@@ -4,7 +4,7 @@ linktitle: TextDmlEffect
 second_title: Aspose.Words for Java
 description: Dml text effect for text runs in Java.
 type: docs
-weight: 613
+weight: 616
 url: /java/com.aspose.words/textdmleffect/
 ---
 
@@ -15,6 +15,24 @@ public class TextDmlEffect
 ```
 
 Dml text effect for text runs.
+
+ **Examples:** 
+
+Shows how to check if a run displays a DrawingML text effect.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML text effects.docx");
+
+ RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
+
+ Assert.assertTrue(runs.get(0).getFont().hasDmlEffect(TextDmlEffect.SHADOW));
+ Assert.assertTrue(runs.get(1).getFont().hasDmlEffect(TextDmlEffect.SHADOW));
+ Assert.assertTrue(runs.get(2).getFont().hasDmlEffect(TextDmlEffect.REFLECTION));
+ Assert.assertTrue(runs.get(3).getFont().hasDmlEffect(TextDmlEffect.EFFECT_3_D));
+ Assert.assertTrue(runs.get(4).getFont().hasDmlEffect(TextDmlEffect.FILL));
+ 
+```
 ## Fields
 
 | Field | Description |

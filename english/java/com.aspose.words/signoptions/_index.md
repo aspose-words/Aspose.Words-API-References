@@ -4,7 +4,7 @@ linktitle: SignOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for document signing in Java.
 type: docs
-weight: 569
+weight: 572
 url: /java/com.aspose.words/signoptions/
 ---
 
@@ -17,6 +17,38 @@ public class SignOptions
 Allows to specify options for document signing.
 
 To learn more, visit the [ Work with Digital Signatures ][Work with Digital Signatures] documentation article.
+
+ **Examples:** 
+
+Shows how to digitally sign documents.
+
+```
+
+ // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a comment and date which will be applied with our new digital signature.
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setComments("My comment");
+     signOptions.setSignTime(new Date());
+ }
+
+ // Take an unsigned document from the local file system via a file stream,
+ // then create a signed copy of it determined by the filename of the output file stream.
+ InputStream streamIn = new FileInputStream(getMyDir() + "Document.docx");
+ try {
+     OutputStream streamOut = new FileOutputStream(getArtifactsDir() + "DigitalSignatureUtil.SignDocument.docx");
+     try {
+         DigitalSignatureUtil.sign(streamIn, streamOut, certificateHolder, signOptions);
+     } finally {
+         if (streamOut != null) streamOut.close();
+     }
+ } finally {
+     if (streamIn != null) streamIn.close();
+ }
+ 
+```
 
 
 [Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/

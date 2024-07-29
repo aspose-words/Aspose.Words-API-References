@@ -4,7 +4,7 @@ linktitle: PatternType
 second_title: Aspose.Words for Java
 description: Specifies the fill pattern to be used to fill a shape in Java.
 type: docs
-weight: 486
+weight: 488
 url: /java/com.aspose.words/patterntype/
 ---
 
@@ -15,6 +15,30 @@ public class PatternType
 ```
 
 Specifies the fill pattern to be used to fill a shape.
+
+ **Examples:** 
+
+Shows how to set pattern for a shape.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape stroke pattern border.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Fill fill = shape.getFill();
+
+ System.out.println(MessageFormat.format("Pattern value is: {0}",fill.getPattern()));
+
+ // There are several ways specified fill to a pattern.
+ // 1 -  Apply pattern to the shape fill:
+ fill.patterned(PatternType.DIAGONAL_BRICK);
+
+ // 2 -  Apply pattern with foreground and background colors to the shape fill:
+ fill.patterned(PatternType.DIAGONAL_BRICK, Color.yellow, Color.blue);
+
+ doc.save(getArtifactsDir() + "Shape.FillPattern.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

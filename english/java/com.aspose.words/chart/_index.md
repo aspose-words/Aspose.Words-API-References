@@ -155,6 +155,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -217,6 +220,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -279,6 +285,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -296,6 +305,41 @@ public ChartDataTable getDataTable()
 
 
 Provides access to properties of a data table of this chart. The data table can be shown using the [ChartDataTable.getShow()](../../com.aspose.words/chartdatatable/\#getShow) / [ChartDataTable.setShow(boolean)](../../com.aspose.words/chartdatatable/\#setShow-boolean) property.
+
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
 
 **Returns:**
 [ChartDataTable](../../com.aspose.words/chartdatatable/) - The corresponding [ChartDataTable](../../com.aspose.words/chartdatatable/) value.
@@ -491,6 +535,26 @@ public ChartSeriesGroupCollection getSeriesGroups()
 
 
 Provides access to a series group collection of this chart.
+
+ **Examples:** 
+
+Show how to configure gap width and overlap.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 450.0, 250.0);
+ ChartSeriesGroup seriesGroup = shape.getChart().getSeriesGroups().get(0);
+
+ // Set column gap width and overlap.
+ seriesGroup.setGapWidth(450);
+ seriesGroup.setOverlap(-75);
+
+ doc.save(getArtifactsDir() + "Charts.ConfigureGapOverlap.docx");
+ 
+```
 
 **Returns:**
 [ChartSeriesGroupCollection](../../com.aspose.words/chartseriesgroupcollection/) - The corresponding [ChartSeriesGroupCollection](../../com.aspose.words/chartseriesgroupcollection/) value.

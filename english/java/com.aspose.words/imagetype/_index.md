@@ -4,7 +4,7 @@ linktitle: ImageType
 second_title: Aspose.Words for Java
 description: Specifies the type format of an image in a Microsoft Word document in Java.
 type: docs
-weight: 372
+weight: 373
 url: /java/com.aspose.words/imagetype/
 ---
 
@@ -50,6 +50,7 @@ Shows how to add an image to a shape and check its type.
 | [BMP](#BMP) | Windows Bitmap. |
 | [EMF](#EMF) | Windows Enhanced Metafile. |
 | [EPS](#EPS) | Encapsulated PostScript. |
+| [GIF](#GIF) | GIF |
 | [JPEG](#JPEG) | JPEG JFIF. |
 | [NO_IMAGE](#NO-IMAGE) | The is no image data. |
 | [PICT](#PICT) | Macintosh PICT. |
@@ -89,6 +90,14 @@ public static int EPS
 
 
 Encapsulated PostScript.
+
+### GIF {#GIF}
+```
+public static int GIF
+```
+
+
+GIF
 
 ### JPEG {#JPEG}
 ```

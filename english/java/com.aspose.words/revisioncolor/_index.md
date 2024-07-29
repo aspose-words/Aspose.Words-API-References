@@ -4,7 +4,7 @@ linktitle: RevisionColor
 second_title: Aspose.Words for Java
 description: Allows to specify color of document revisions in Java.
 type: docs
-weight: 531
+weight: 533
 url: /java/com.aspose.words/revisioncolor/
 ---
 
@@ -35,6 +35,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  // Remove the bar that appears to the left of every revised line.
  doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
  doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
  

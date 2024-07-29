@@ -4,7 +4,7 @@ linktitle: FieldCitation
 second_title: Aspose.Words for Java
 description: Implements the CITATION field in Java.
 type: docs
-weight: 195
+weight: 196
 url: /java/com.aspose.words/fieldcitation/
 ---
 
@@ -65,10 +65,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -173,10 +175,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -542,10 +546,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -642,10 +648,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -705,10 +713,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -898,10 +908,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1065,10 +1077,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1128,10 +1142,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1191,10 +1207,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1254,10 +1272,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1358,10 +1378,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1742,10 +1764,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1808,10 +1832,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1914,10 +1940,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1980,10 +2008,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -2075,10 +2105,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -2141,10 +2173,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -2207,10 +2241,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -2273,10 +2309,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -2339,10 +2377,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -2405,10 +2445,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");

@@ -4,7 +4,7 @@ linktitle: HtmlInsertOptions
 second_title: Aspose.Words for Java
 description: Specifies options for the MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions method in Java.
 type: docs
-weight: 356
+weight: 357
 url: /java/com.aspose.words/htmlinsertoptions/
 ---
 
@@ -15,6 +15,23 @@ public class HtmlInsertOptions
 ```
 
 Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)** method.
+
+ **Examples:** 
+
+Shows how to allows better preserve borders and margins seen.
+
+```
+
+ final String HTML = "\n                \n                    \n                    \n                        paragraph 1\n                        paragraph 2\n                    \n                    \n                ";
+
+ // Set the new mode of import HTML block-level elements.
+ int insertOptions = HtmlInsertOptions.PRESERVE_BLOCKS;
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.insertHtml(HTML, insertOptions);
+ builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.PreserveBlocks.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

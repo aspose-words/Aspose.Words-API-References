@@ -4,7 +4,7 @@ linktitle: MultiplePagesType
 second_title: Aspose.Words for Java
 description: Specifies how document is printed out in Java.
 type: docs
-weight: 437
+weight: 438
 url: /java/com.aspose.words/multiplepagestype/
 ---
 
@@ -15,6 +15,36 @@ public class MultiplePagesType
 ```
 
 Specifies how document is printed out.
+
+ **Examples:** 
+
+Shows how to configure a document that can be printed as a book fold.
+
+```
+
+ Document doc = new Document();
+
+ // Insert text that spans 16 pages.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("My Booklet:");
+
+ for (int i = 0; i < 15; i++) {
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.write(MessageFormat.format("Booklet face #{0}", i));
+ }
+
+ // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
+ // When we print this document on both sides, we can take the pages to stack them
+ // and fold them all down the middle at once. The contents of the document will line up into a book fold.
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
+
+ // We can only specify the number of sheets in multiples of 4.
+ pageSetup.setSheetsPerBooklet(4);
+
+ doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

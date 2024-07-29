@@ -4,7 +4,7 @@ linktitle: ShadowFormat
 second_title: Aspose.Words for Java
 description: Represents shadow formatting for an object in Java.
 type: docs
-weight: 560
+weight: 562
 url: /java/com.aspose.words/shadowformat/
 ---
 
@@ -17,6 +17,21 @@ public class ShadowFormat
 Represents shadow formatting for an object.
 
 To learn more, visit the [ Working with Graphic Elements ][Working with Graphic Elements] documentation article.
+
+ **Examples:** 
+
+Shows how to get shadow color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShadowFormat shadowFormat = shape.getShadowFormat();
+
+ Assert.assertEquals(Color.RED.getRGB(), shadowFormat.getColor().getRGB());
+ Assert.assertEquals(ShadowType.SHADOW_MIXED, shadowFormat.getType());
+ 
+```
 
 
 [Working with Graphic Elements]: https://docs.aspose.com/words/java/working-with-graphic-elements/
@@ -70,8 +85,10 @@ Shows how to get shadow color.
 
  Document doc = new Document(getMyDir() + "Shadow color.docx");
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShadowFormat shadowFormat = shape.getShadowFormat();
 
- Assert.assertEquals(Color.RED.getRGB(), shape.getShadowFormat().getColor().getRGB());
+ Assert.assertEquals(Color.RED.getRGB(), shadowFormat.getColor().getRGB());
+ Assert.assertEquals(ShadowType.SHADOW_MIXED, shadowFormat.getType());
  
 ```
 
@@ -84,6 +101,21 @@ public int getType()
 
 
 Gets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat.
+
+ **Examples:** 
+
+Shows how to get shadow color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShadowFormat shadowFormat = shape.getShadowFormat();
+
+ Assert.assertEquals(Color.RED.getRGB(), shadowFormat.getColor().getRGB());
+ Assert.assertEquals(ShadowType.SHADOW_MIXED, shadowFormat.getType());
+ 
+```
 
 **Returns:**
 int - The specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat. The returned value is one of [ShadowType](../../com.aspose.words/shadowtype/) constants.
@@ -125,6 +157,21 @@ public void setType(int value)
 
 
 Sets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat.
+
+ **Examples:** 
+
+Shows how to get shadow color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShadowFormat shadowFormat = shape.getShadowFormat();
+
+ Assert.assertEquals(Color.RED.getRGB(), shadowFormat.getColor().getRGB());
+ Assert.assertEquals(ShadowType.SHADOW_MIXED, shadowFormat.getType());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

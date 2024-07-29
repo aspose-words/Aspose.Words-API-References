@@ -4,7 +4,7 @@ linktitle: SignatureLineOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for signature line being inserted in Java.
 type: docs
-weight: 571
+weight: 574
 url: /java/com.aspose.words/signaturelineoptions/
 ---
 
@@ -17,6 +17,56 @@ public class SignatureLineOptions
 Allows to specify options for signature line being inserted. Used in [DocumentBuilder](../../com.aspose.words/documentbuilder/).
 
 To learn more, visit the [ Work with Digital Signatures ][Work with Digital Signatures] documentation article.
+
+ **Examples:** 
+
+Shows how to sign a document with a personal certificate and a signature line.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
 
 
 [Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/

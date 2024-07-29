@@ -4,7 +4,7 @@ linktitle: XmlDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of an XML file or stream to be used within a report in Java.
 type: docs
-weight: 680
+weight: 686
 url: /java/com.aspose.words/xmldatasource/
 ---
 
@@ -38,6 +38,39 @@ Note that for automatic recognition of data types to work, string representation
 
 To override default behavior of XML data loading, initialize and pass a [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions/) instance to a constructor of this class.
 
+ **Examples:** 
+
+Show how to use XML as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination.docx");
+
+ XmlDataSource dataSource = new XmlDataSource(getMyDir() + "List of people.xml");
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.XmlDataString.docx");
+ 
+```
+
+Show how to use XML as a data source (stream).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination.docx");
+
+ InputStream stream = new FileInputStream(getMyDir() + "List of people.xml");
+ try {
+     XmlDataSource dataSource = new XmlDataSource(stream);
+     buildReport(doc, dataSource, "persons");
+ } finally {
+     stream.close();
+ }
+
+ doc.save(getArtifactsDir() + "ReportingEngine.XmlDataStream.docx");
+ 
+```
+
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Constructors
@@ -59,6 +92,21 @@ public XmlDataSource(String xmlPath)
 
 
 Creates a new data source with data from an XML file using default options for XML data loading.
+
+ **Examples:** 
+
+Show how to use XML as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination.docx");
+
+ XmlDataSource dataSource = new XmlDataSource(getMyDir() + "List of people.xml");
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.XmlDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

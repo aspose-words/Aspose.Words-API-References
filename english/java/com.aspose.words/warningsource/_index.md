@@ -4,7 +4,7 @@ linktitle: WarningSource
 second_title: Aspose.Words for Java
 description: Specifies the module that produces a warning during document loading or saving in Java.
 type: docs
-weight: 656
+weight: 661
 url: /java/com.aspose.words/warningsource/
 ---
 
@@ -15,6 +15,25 @@ public class WarningSource
 ```
 
 Specifies the module that produces a warning during document loading or saving.
+
+ **Examples:** 
+
+Shows how to work with the warning source.
+
+```
+
+ Document doc = new Document(getMyDir() + "Emphases markdown warning.docx");
+
+ WarningInfoCollection warnings = new WarningInfoCollection();
+ doc.setWarningCallback(warnings);
+ doc.save(getArtifactsDir() + "DocumentBuilder.EmphasesWarningSourceMarkdown.md");
+
+ for (WarningInfo warningInfo : warnings) {
+     if (warningInfo.getSource() == WarningSource.MARKDOWN)
+         Assert.assertEquals("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.getDescription());
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

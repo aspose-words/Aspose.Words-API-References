@@ -4,7 +4,7 @@ linktitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for Java
 description: Contains details for signing a PDF document with a digital signature in Java.
 type: docs
-weight: 490
+weight: 492
 url: /java/com.aspose.words/pdfdigitalsignaturedetails/
 ---
 
@@ -172,6 +172,38 @@ public CertificateHolder getCertificateHolder()
 
 
 Returns the certificate holder object that contains the certificate was used to sign the document.
+
+ **Examples:** 
+
+Shows how to sign a generated PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Contents of signed PDF.");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+ // digitally sign the document as we render it with the "Save" method.
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
+ options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+ 
+```
 
 **Returns:**
 [CertificateHolder](../../com.aspose.words/certificateholder/) - The certificate holder object that contains the certificate was used to sign the document.
@@ -387,7 +419,7 @@ Shows how to sign a saved PDF document digitally and timestamp it.
  // to modify how that method converts the document to .PDF.
  PdfSaveOptions options = new PdfSaveOptions();
 
- // Create a digital signature, and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
  CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
 
@@ -419,6 +451,38 @@ public void setCertificateHolder(CertificateHolder value)
 
 
 Returns the certificate holder object that contains the certificate was used to sign the document.
+
+ **Examples:** 
+
+Shows how to sign a generated PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Contents of signed PDF.");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+ // digitally sign the document as we render it with the "Save" method.
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
+ options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -649,7 +713,7 @@ Shows how to sign a saved PDF document digitally and timestamp it.
  // to modify how that method converts the document to .PDF.
  PdfSaveOptions options = new PdfSaveOptions();
 
- // Create a digital signature, and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
  CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
 

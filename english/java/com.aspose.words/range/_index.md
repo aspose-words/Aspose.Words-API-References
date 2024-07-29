@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Words for Java
 description: Represents a contiguous area in a document in Java.
 type: docs
-weight: 515
+weight: 517
 url: /java/com.aspose.words/range/
 ---
 
@@ -192,6 +192,74 @@ public FieldCollection getFields()
 
 Returns a [getFields()](../../com.aspose.words/range/\#getFields) collection that represents all fields in the range.
 
+ **Examples:** 
+
+Shows how customize node changing with a callback.
+
+```
+
+ public void fontChangeViaCallback() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Set the node changing callback to custom implementation,
+     // then add/remove nodes to get it to generate a log.
+     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
+     doc.setNodeChangingCallback(callback);
+
+     builder.writeln("Hello world!");
+     builder.writeln("Hello again!");
+     builder.insertField(" HYPERLINK \"https://www.google.com/\" ");
+     builder.insertShape(ShapeType.RECTANGLE, 300.0, 300.0);
+
+     doc.getRange().getFields().get(0).remove();
+
+     System.out.println(callback.getLog());
+ }
+
+ /// 
+ /// Logs the date and time of each node insertion and removal.
+ /// Sets a custom font name/size for the text contents of Run nodes.
+ /// 
+ public static class HandleNodeChangingFontChanger implements INodeChangingCallback {
+     public void nodeInserted(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+
+         if (args.getNode().getNodeType() == NodeType.RUN) {
+             Font font = ((Run) args.getNode()).getFont();
+             mLog.append(MessageFormat.format("\tFont:\tChanged from \"{0}\" {1}pt", font.getName(), font.getSize()));
+
+             font.setSize(24.0);
+             font.setName("Arial");
+
+             mLog.append(MessageFormat.format(" to \"{0}\" {1}pt", font.getName(), font.getSize()));
+             mLog.append(MessageFormat.format("\tContents:\n\t\t\"{0}\"", args.getNode().getText()));
+         }
+     }
+
+     public void nodeInserting(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode insertion:", new Date()));
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash code:\t{0}", args.getNode().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode removal:", new Date()));
+     }
+
+     public String getLog() {
+         return mLog.toString();
+     }
+
+     private final StringBuilder mLog = new StringBuilder();
+ }
+ 
+```
+
 **Returns:**
 [FieldCollection](../../com.aspose.words/fieldcollection/) - A [getFields()](../../com.aspose.words/range/\#getFields) collection that represents all fields in the range.
 ### getFormFields() {#getFormFields}
@@ -372,6 +440,34 @@ public StructuredDocumentTagCollection getStructuredDocumentTags()
 
 Returns a [getStructuredDocumentTags()](../../com.aspose.words/range/\#getStructuredDocumentTags) collection that represents all structured document tags in the range.
 
+ **Examples:** 
+
+Shows how to remove structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags.docx");
+
+ StructuredDocumentTagCollection structuredDocumentTags = doc.getRange().getStructuredDocumentTags();
+ IStructuredDocumentTag sdt;
+ for (int i = 0; i < structuredDocumentTags.getCount(); i++)
+ {
+     sdt = structuredDocumentTags.get(i);
+     System.out.println(sdt.getTitle());
+ }
+
+ sdt = structuredDocumentTags.getById(1691867797);
+ Assert.assertEquals(1691867797, sdt.getId());
+
+ Assert.assertEquals(5, structuredDocumentTags.getCount());
+ // Remove the structured document tag by Id.
+ structuredDocumentTags.remove(1691867797);
+ // Remove the structured document tag at position 0.
+ structuredDocumentTags.removeAt(0);
+ Assert.assertEquals(3, structuredDocumentTags.getCount());
+ 
+```
+
 **Returns:**
 [StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection/) - A [getStructuredDocumentTags()](../../com.aspose.words/range/\#getStructuredDocumentTags) collection that represents all structured document tags in the range.
 ### getText() {#getText}
@@ -416,6 +512,42 @@ Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fiel
 Use this method after document changes that affect field types.
 
 To change field type values in the whole document use [Document.normalizeFieldTypes()](../../com.aspose.words/document/\#normalizeFieldTypes).
+
+ **Examples:** 
+
+Shows how to get the keep a field's type up to date with its field code.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Field field = builder.insertField("DATE", null);
+
+ // Aspose.Words automatically detects field types based on field codes.
+ Assert.assertEquals(FieldType.FIELD_DATE, field.getType());
+
+ // Manually change the raw text of the field, which determines the field code.
+ Run fieldText = (Run) doc.getFirstSection().getBody().getFirstParagraph().getChildNodes(NodeType.RUN, true).get(0);
+ fieldText.setText("PAGE");
+
+ // Changing the field code has changed this field to one of a different type,
+ // but the field's type properties still display the old type.
+ Assert.assertEquals("PAGE", field.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_DATE, field.getType());
+ Assert.assertEquals(FieldType.FIELD_DATE, field.getStart().getFieldType());
+ Assert.assertEquals(FieldType.FIELD_DATE, field.getSeparator().getFieldType());
+ Assert.assertEquals(FieldType.FIELD_DATE, field.getEnd().getFieldType());
+
+ // Update those properties with this method to display current value.
+ doc.normalizeFieldTypes();
+
+ Assert.assertEquals(FieldType.FIELD_PAGE, field.getType());
+ Assert.assertEquals(FieldType.FIELD_PAGE, field.getStart().getFieldType());
+ Assert.assertEquals(FieldType.FIELD_PAGE, field.getSeparator().getFieldType());
+ Assert.assertEquals(FieldType.FIELD_PAGE, field.getEnd().getFieldType());
+ 
+```
 
 ### replace(String pattern, String replacement) {#replace-java.lang.String-java.lang.String}
 ```

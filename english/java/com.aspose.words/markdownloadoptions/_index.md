@@ -4,7 +4,7 @@ linktitle: MarkdownLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.MARKDOWN document into a Document object in Java.
 type: docs
-weight: 421
+weight: 422
 url: /java/com.aspose.words/markdownloadoptions/
 ---
 
@@ -87,6 +87,22 @@ Initializes a new instance of [MarkdownLoadOptions](../../com.aspose.words/markd
  **Remarks:** 
 
 Automatically sets [LoadFormat](../../com.aspose.words/loadformat/) to [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat/\#MARKDOWN).
+
+ **Examples:** 
+
+Shows how to preserve empty line while load a document.
+
+```
+
+ String mdText = MessageFormat.format("{0}Line1{0}{0}Line2{0}{0}", System.lineSeparator());
+
+ MarkdownLoadOptions loadOptions = new MarkdownLoadOptions();
+ loadOptions.setPreserveEmptyLines(true);
+ Document doc = new Document(new ByteArrayInputStream(mdText.getBytes()), loadOptions);
+
+ Assert.assertEquals("\rLine1\r\rLine2\r\f", doc.getText());
+ 
+```
 
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
@@ -240,6 +256,24 @@ Gets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
@@ -1016,6 +1050,24 @@ Sets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

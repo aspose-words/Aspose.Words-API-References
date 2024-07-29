@@ -4,7 +4,7 @@ linktitle: EditableRange
 second_title: Aspose.Words for Java
 description: Represents a single editable range in Java.
 type: docs
-weight: 163
+weight: 164
 url: /java/com.aspose.words/editablerange/
 ---
 

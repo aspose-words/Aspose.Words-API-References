@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 147
+weight: 148
 url: /java/com.aspose.words/document/
 ---
 
@@ -315,6 +315,21 @@ Shows how to format a run of text using its font property.
  
 ```
 
+Shows how to create simple document.
+
+```
+
+ Document doc = new Document();
+
+ // New Document objects by default come with the minimal set of nodes
+ // required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+ doc.appendChild(new Section(doc))
+     .appendChild(new Body(doc))
+     .appendChild(new Paragraph(doc))
+     .appendChild(new Run(doc, "Hello world!"));
+ 
+```
+
 Shows how to create and load documents.
 
 ```
@@ -549,6 +564,26 @@ Shows how to use a document visitor to print a document's node structure.
      }
 
      /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
      /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
      /// 
      /// 
@@ -620,6 +655,181 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the document.
 
+ **Examples:** 
+
+Shows how to use a document visitor to print a document's node structure.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -634,6 +844,181 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the document.
+
+ **Examples:** 
+
+Shows how to use a document visitor to print a document's node structure.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1570,6 +1955,100 @@ public Bibliography getBibliography()
 
 Gets the [getBibliography()](../../com.aspose.words/document/\#getBibliography) object that represents the list of sources available in the document.
 
+ **Examples:** 
+
+Shows how to get bibliography sources available in the document.
+
+```
+
+ Document document = new Document(getMyDir() + "Bibliography sources.docx");
+
+ Bibliography bibliography = document.getBibliography();
+ Assert.assertEquals(12, bibliography.getSources().size());
+
+ Collection sources = bibliography.getSources();
+ Source source = sources.iterator().next();
+ Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
+ Assert.assertEquals(SourceType.BOOK, source.getSourceType());
+ Assert.assertNull(source.getAbbreviatedCaseNumber());
+ Assert.assertNull(source.getAlbumTitle());
+ Assert.assertNull(source.getBookTitle());
+ Assert.assertNull(source.getBroadcaster());
+ Assert.assertNull(source.getBroadcastTitle());
+ Assert.assertNull(source.getCaseNumber());
+ Assert.assertNull(source.getChapterNumber());
+ Assert.assertNull(source.getComments());
+ Assert.assertNull(source.getConferenceName());
+ Assert.assertNull(source.getCountryOrRegion());
+ Assert.assertNull(source.getCourt());
+ Assert.assertNull(source.getDay());
+ Assert.assertNull(source.getDayAccessed());
+ Assert.assertNull(source.getDepartment());
+ Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getEdition());
+ Assert.assertNull(source.getGuid());
+ Assert.assertNull(source.getInstitution());
+ Assert.assertNull(source.getInternetSiteTitle());
+ Assert.assertNull(source.getIssue());
+ Assert.assertNull(source.getJournalName());
+ Assert.assertNull(source.getLcid());
+ Assert.assertNull(source.getMedium());
+ Assert.assertNull(source.getMonth());
+ Assert.assertNull(source.getMonthAccessed());
+ Assert.assertNull(source.getNumberVolumes());
+ Assert.assertNull(source.getPages());
+ Assert.assertNull(source.getPatentNumber());
+ Assert.assertNull(source.getPeriodicalTitle());
+ Assert.assertNull(source.getProductionCompany());
+ Assert.assertNull(source.getPublicationTitle());
+ Assert.assertNull(source.getPublisher());
+ Assert.assertNull(source.getRecordingNumber());
+ Assert.assertNull(source.getRefOrder());
+ Assert.assertNull(source.getReporter());
+ Assert.assertNull(source.getShortTitle());
+ Assert.assertNull(source.getStandardNumber());
+ Assert.assertNull(source.getStateOrProvince());
+ Assert.assertNull(source.getStation());
+ Assert.assertEquals("BookNoLCID", source.getTag());
+ Assert.assertNull(source.getTheater());
+ Assert.assertNull(source.getThesisType());
+ Assert.assertNull(source.getType());
+ Assert.assertNull(source.getUrl());
+ Assert.assertNull(source.getVersion());
+ Assert.assertNull(source.getVolume());
+ Assert.assertNull(source.getYear());
+ Assert.assertNull(source.getYearAccessed());
+
+ ContributorCollection contributors = source.getContributors();
+ Assert.assertNull(contributors.getArtist());
+ Assert.assertNull(contributors.getBookAuthor());
+ Assert.assertNull(contributors.getCompiler());
+ Assert.assertNull(contributors.getComposer());
+ Assert.assertNull(contributors.getConductor());
+ Assert.assertNull(contributors.getCounsel());
+ Assert.assertNull(contributors.getDirector());
+ Assert.assertNotNull(contributors.getEditor());
+ Assert.assertNull(contributors.getInterviewee());
+ Assert.assertNull(contributors.getInterviewer());
+ Assert.assertNull(contributors.getInventor());
+ Assert.assertNull(contributors.getPerformer());
+ Assert.assertNull(contributors.getProducer());
+ Assert.assertNotNull(contributors.getTranslator());
+ Assert.assertNull(contributors.getWriter());
+
+ Contributor editor  = contributors.getEditor();
+ Assert.assertEquals(2, ((PersonCollection)editor).getCount());
+
+ PersonCollection authors = (PersonCollection)contributors.getAuthor();
+ Assert.assertEquals(2, authors.getCount());
+
+ Person person = authors.get(0);
+ Assert.assertEquals("Roxanne", person.getFirst());
+ Assert.assertEquals("Brielle", person.getMiddle());
+ Assert.assertEquals("Tejeda", person.getLast());
+ 
+```
+
 **Returns:**
 [Bibliography](../../com.aspose.words/bibliography/) - The [getBibliography()](../../com.aspose.words/document/\#getBibliography) object that represents the list of sources available in the document.
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties}
@@ -1622,6 +2101,133 @@ public CompatibilityOptions getCompatibilityOptions()
 
 
 Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word).
+
+ **Examples:** 
+
+Shows how to optimize the document for different versions of Microsoft Word.
+
+```
+
+ public void optimizeFor() throws Exception
+ {
+     Document doc = new Document();
+
+     // This object contains an extensive list of flags unique to each document
+     // that allow us to facilitate backward compatibility with older versions of Microsoft Word.
+     CompatibilityOptions options = doc.getCompatibilityOptions();
+
+     // Print the default settings for a blank document.
+     System.out.println("\nDefault optimization settings:");
+     printCompatibilityOptions(options);
+
+     // We can access these settings in Microsoft Word via "File" -> "Options" -> "Advanced" -> "Compatibility options for...".
+     doc.save(getArtifactsDir() + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
+
+     // We can use the OptimizeFor method to ensure optimal compatibility with a specific Microsoft Word version.
+     doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
+     System.out.println("\nOptimized for Word 2010:");
+     printCompatibilityOptions(options);
+
+     doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2000);
+     System.out.println("\nOptimized for Word 2000:");
+     printCompatibilityOptions(options);
+ }
+
+ /// 
+ /// Groups all flags in a document's compatibility options object by state, then prints each group.
+ /// 
+ private static void printCompatibilityOptions(CompatibilityOptions options)
+ {
+     ArrayList enabledOptions = new ArrayList();
+     ArrayList disabledOptions = new ArrayList();
+     addOptionName(options.getAdjustLineHeightInTable(), "AdjustLineHeightInTable", enabledOptions, disabledOptions);
+     addOptionName(options.getAlignTablesRowByRow(), "AlignTablesRowByRow", enabledOptions, disabledOptions);
+     addOptionName(options.getAllowSpaceOfSameStyleInTable(), "AllowSpaceOfSameStyleInTable", enabledOptions, disabledOptions);
+     addOptionName(options.getApplyBreakingRules(), "ApplyBreakingRules", enabledOptions, disabledOptions);
+     addOptionName(options.getAutoSpaceLikeWord95(), "AutoSpaceLikeWord95", enabledOptions, disabledOptions);
+     addOptionName(options.getAutofitToFirstFixedWidthCell(), "AutofitToFirstFixedWidthCell", enabledOptions, disabledOptions);
+     addOptionName(options.getBalanceSingleByteDoubleByteWidth(), "BalanceSingleByteDoubleByteWidth", enabledOptions, disabledOptions);
+     addOptionName(options.getCachedColBalance(), "CachedColBalance", enabledOptions, disabledOptions);
+     addOptionName(options.getConvMailMergeEsc(), "ConvMailMergeEsc", enabledOptions, disabledOptions);
+     addOptionName(options.getDisableOpenTypeFontFormattingFeatures(), "DisableOpenTypeFontFormattingFeatures", enabledOptions, disabledOptions);
+     addOptionName(options.getDisplayHangulFixedWidth(), "DisplayHangulFixedWidth", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotAutofitConstrainedTables(), "DoNotAutofitConstrainedTables", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotBreakConstrainedForcedTable(), "DoNotBreakConstrainedForcedTable", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotBreakWrappedTables(), "DoNotBreakWrappedTables", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotExpandShiftReturn(), "DoNotExpandShiftReturn", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotLeaveBackslashAlone(), "DoNotLeaveBackslashAlone", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotSnapToGridInCell(), "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotSuppressIndentation(), "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotSuppressParagraphBorders(), "DoNotSuppressParagraphBorders", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotUseEastAsianBreakRules(), "DoNotUseEastAsianBreakRules", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotUseHTMLParagraphAutoSpacing(), "DoNotUseHTMLParagraphAutoSpacing", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotUseIndentAsNumberingTabStop(), "DoNotUseIndentAsNumberingTabStop", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotVertAlignCellWithSp(), "DoNotVertAlignCellWithSp", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotVertAlignInTxbx(), "DoNotVertAlignInTxbx", enabledOptions, disabledOptions);
+     addOptionName(options.getDoNotWrapTextWithPunct(), "DoNotWrapTextWithPunct", enabledOptions, disabledOptions);
+     addOptionName(options.getFootnoteLayoutLikeWW8(), "FootnoteLayoutLikeWW8", enabledOptions, disabledOptions);
+     addOptionName(options.getForgetLastTabAlignment(), "ForgetLastTabAlignment", enabledOptions, disabledOptions);
+     addOptionName(options.getGrowAutofit(), "GrowAutofit", enabledOptions, disabledOptions);
+     addOptionName(options.getLayoutRawTableWidth(), "LayoutRawTableWidth", enabledOptions, disabledOptions);
+     addOptionName(options.getLayoutTableRowsApart(), "LayoutTableRowsApart", enabledOptions, disabledOptions);
+     addOptionName(options.getLineWrapLikeWord6(), "LineWrapLikeWord6", enabledOptions, disabledOptions);
+     addOptionName(options.getMWSmallCaps(), "MWSmallCaps", enabledOptions, disabledOptions);
+     addOptionName(options.getNoColumnBalance(), "NoColumnBalance", enabledOptions, disabledOptions);
+     addOptionName(options.getNoExtraLineSpacing(), "NoExtraLineSpacing", enabledOptions, disabledOptions);
+     addOptionName(options.getNoLeading(), "NoLeading", enabledOptions, disabledOptions);
+     addOptionName(options.getNoSpaceRaiseLower(), "NoSpaceRaiseLower", enabledOptions, disabledOptions);
+     addOptionName(options.getNoTabHangInd(), "NoTabHangInd", enabledOptions, disabledOptions);
+     addOptionName(options.getOverrideTableStyleFontSizeAndJustification(), "OverrideTableStyleFontSizeAndJustification", enabledOptions, disabledOptions);
+     addOptionName(options.getPrintBodyTextBeforeHeader(), "PrintBodyTextBeforeHeader", enabledOptions, disabledOptions);
+     addOptionName(options.getPrintColBlack(), "PrintColBlack", enabledOptions, disabledOptions);
+     addOptionName(options.getSelectFldWithFirstOrLastChar(), "SelectFldWithFirstOrLastChar", enabledOptions, disabledOptions);
+     addOptionName(options.getShapeLayoutLikeWW8(), "ShapeLayoutLikeWW8", enabledOptions, disabledOptions);
+     addOptionName(options.getShowBreaksInFrames(), "ShowBreaksInFrames", enabledOptions, disabledOptions);
+     addOptionName(options.getSpaceForUL(), "SpaceForUL", enabledOptions, disabledOptions);
+     addOptionName(options.getSpacingInWholePoints(), "SpacingInWholePoints", enabledOptions, disabledOptions);
+     addOptionName(options.getSplitPgBreakAndParaMark(), "SplitPgBreakAndParaMark", enabledOptions, disabledOptions);
+     addOptionName(options.getSubFontBySize(), "SubFontBySize", enabledOptions, disabledOptions);
+     addOptionName(options.getSuppressBottomSpacing(), "SuppressBottomSpacing", enabledOptions, disabledOptions);
+     addOptionName(options.getSuppressSpBfAfterPgBrk(), "SuppressSpBfAfterPgBrk", enabledOptions, disabledOptions);
+     addOptionName(options.getSuppressSpacingAtTopOfPage(), "SuppressSpacingAtTopOfPage", enabledOptions, disabledOptions);
+     addOptionName(options.getSuppressTopSpacing(), "SuppressTopSpacing", enabledOptions, disabledOptions);
+     addOptionName(options.getSuppressTopSpacingWP(), "SuppressTopSpacingWP", enabledOptions, disabledOptions);
+     addOptionName(options.getSwapBordersFacingPgs(), "SwapBordersFacingPgs", enabledOptions, disabledOptions);
+     addOptionName(options.getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning(), "SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning", enabledOptions, disabledOptions);
+     addOptionName(options.getTransparentMetafiles(), "TransparentMetafiles", enabledOptions, disabledOptions);
+     addOptionName(options.getTruncateFontHeightsLikeWP6(), "TruncateFontHeightsLikeWP6", enabledOptions, disabledOptions);
+     addOptionName(options.getUICompat97To2003(), "UICompat97To2003", enabledOptions, disabledOptions);
+     addOptionName(options.getUlTrailSpace(), "UlTrailSpace", enabledOptions, disabledOptions);
+     addOptionName(options.getUnderlineTabInNumList(), "UnderlineTabInNumList", enabledOptions, disabledOptions);
+     addOptionName(options.getUseAltKinsokuLineBreakRules(), "UseAltKinsokuLineBreakRules", enabledOptions, disabledOptions);
+     addOptionName(options.getUseAnsiKerningPairs(), "UseAnsiKerningPairs", enabledOptions, disabledOptions);
+     addOptionName(options.getUseFELayout(), "UseFELayout", enabledOptions, disabledOptions);
+     addOptionName(options.getUseNormalStyleForList(), "UseNormalStyleForList", enabledOptions, disabledOptions);
+     addOptionName(options.getUsePrinterMetrics(), "UsePrinterMetrics", enabledOptions, disabledOptions);
+     addOptionName(options.getUseSingleBorderforContiguousCells(), "UseSingleBorderforContiguousCells", enabledOptions, disabledOptions);
+     addOptionName(options.getUseWord2002TableStyleRules(), "UseWord2002TableStyleRules", enabledOptions, disabledOptions);
+     addOptionName(options.getUseWord2010TableStyleRules(), "UseWord2010TableStyleRules", enabledOptions, disabledOptions);
+     addOptionName(options.getUseWord97LineBreakRules(), "UseWord97LineBreakRules", enabledOptions, disabledOptions);
+     addOptionName(options.getWPJustification(), "WPJustification", enabledOptions, disabledOptions);
+     addOptionName(options.getWPSpaceWidth(), "WPSpaceWidth", enabledOptions, disabledOptions);
+     addOptionName(options.getWrapTrailSpaces(), "WrapTrailSpaces", enabledOptions, disabledOptions);
+     System.out.println("\tEnabled options:");
+     for (String optionName : enabledOptions)
+         System.out.println("\t\t{optionName}");
+     System.out.println("\tDisabled options:");
+     for (String optionName : disabledOptions)
+         System.out.println("\t\t{optionName}");
+ }
+
+ private static void addOptionName(boolean option, String optionName, ArrayList enabledOptions, ArrayList disabledOptions)
+ {
+     if (option)
+         enabledOptions.add(optionName);
+     else
+         disabledOptions.add(optionName);
+ }
+ 
+```
 
 **Returns:**
 [CompatibilityOptions](../../com.aspose.words/compatibilityoptions/) - The corresponding [CompatibilityOptions](../../com.aspose.words/compatibilityoptions/) value.
@@ -2024,6 +2630,23 @@ public DocumentBase getDocument()
 
 
 Gets this instance.
+
+ **Examples:** 
+
+Shows how to create simple document.
+
+```
+
+ Document doc = new Document();
+
+ // New Document objects by default come with the minimal set of nodes
+ // required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+ doc.appendChild(new Section(doc))
+     .appendChild(new Body(doc))
+     .appendChild(new Paragraph(doc))
+     .appendChild(new Run(doc, "Hello world!"));
+ 
+```
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - This instance.
@@ -2776,7 +3399,12 @@ Shows how to add a custom building block to a document.
      // Before we can add this building block to our document, we will need to give it some contents,
      // which we will do using a document visitor. This visitor will also set a category, gallery, and behavior.
      BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+     // Visit start/end of the BuildingBlock.
      block.accept(visitor);
+     // Visit only start of the BuildingBlock.
+     block.acceptStart(visitor);
+     // Visit only end of the BuildingBlock.
+     block.acceptEnd(visitor);
 
      // We can access the block that we just made from the glossary document.
      BuildingBlock customBlock = glossaryDoc.getBuildingBlock(BuildingBlockGallery.QUICK_PARTS,
@@ -3110,6 +3738,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  // Remove the bar that appears to the left of every revised line.
  doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
  doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
  
@@ -3161,8 +3790,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -3673,6 +4302,19 @@ public PageInfo getPageInfo(int pageIndex)
 
 
 Gets the page size, orientation and other information about a page that might be useful for printing or rendering.
+
+ **Examples:** 
+
+Shows how to check whether the page is in color or not.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // Check that the first page of the document is not colored.
+ Assert.assertFalse(doc.getPageInfo(0).getColored());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -4918,6 +5560,36 @@ public Watermark getWatermark()
 
 Provides access to the document watermark.
 
+ **Examples:** 
+
+Shows how to create a text watermark.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
 **Returns:**
 [Watermark](../../com.aspose.words/watermark/) - The corresponding [Watermark](../../com.aspose.words/watermark/) value.
 ### getWebExtensionTaskPanes() {#getWebExtensionTaskPanes}
@@ -4927,6 +5599,50 @@ public TaskPaneCollection getWebExtensionTaskPanes()
 
 
 Returns a collection that represents a list of task pane add-ins.
+
+ **Examples:** 
+
+Shows how to add a web extension to a document.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+ 
+```
 
 **Returns:**
 [TaskPaneCollection](../../com.aspose.words/taskpanecollection/) - A collection that represents a list of task pane add-ins.
@@ -5315,6 +6031,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator
@@ -6181,7 +6922,6 @@ Shows how to render one page from a document to a JPEG image.
  // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
  // to modify the way in which that method renders the document into an image.
  ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
-
  // Set the "PageSet" to "1" to select the second page via
  // the zero-based index to start rendering the document from.
  options.setPageSet(new PageSet(1));
@@ -6875,7 +7615,12 @@ Shows how to add a custom building block to a document.
      // Before we can add this building block to our document, we will need to give it some contents,
      // which we will do using a document visitor. This visitor will also set a category, gallery, and behavior.
      BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+     // Visit start/end of the BuildingBlock.
      block.accept(visitor);
+     // Visit only start of the BuildingBlock.
+     block.acceptStart(visitor);
+     // Visit only end of the BuildingBlock.
+     block.acceptEnd(visitor);
 
      // We can access the block that we just made from the glossary document.
      BuildingBlock customBlock = glossaryDoc.getBuildingBlock(BuildingBlockGallery.QUICK_PARTS,

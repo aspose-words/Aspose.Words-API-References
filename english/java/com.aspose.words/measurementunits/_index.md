@@ -4,7 +4,7 @@ linktitle: MeasurementUnits
 second_title: Aspose.Words for Java
 description: Specifies the unit of measurement in Java.
 type: docs
-weight: 426
+weight: 427
 url: /java/com.aspose.words/measurementunits/
 ---
 
@@ -15,6 +15,24 @@ public class MeasurementUnits
 ```
 
 Specifies the unit of measurement.
+
+ **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

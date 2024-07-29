@@ -4,7 +4,7 @@ linktitle: ListTemplate
 second_title: Aspose.Words for Java
 description: Specifies one of the predefined list formats available in Microsoft Word in Java.
 type: docs
-weight: 405
+weight: 406
 url: /java/com.aspose.words/listtemplate/
 ---
 
@@ -138,8 +138,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {

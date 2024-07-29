@@ -4,7 +4,7 @@ linktitle: Comment
 second_title: Aspose.Words for Java
 description: Represents a container for text of a comment in Java.
 type: docs
-weight: 99
+weight: 100
 url: /java/com.aspose.words/comment/
 ---
 
@@ -566,6 +566,155 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the comment.
 
+ **Examples:** 
+
+Shows how print the contents of all comments and their comment ranges using a document visitor.
+
+```
+
+ public void createCommentsAndPrintAllInfo() throws Exception {
+     Document doc = new Document();
+
+     Comment newComment = new Comment(doc);
+     {
+         newComment.setAuthor("VDeryushev");
+         newComment.setInitial("VD");
+         newComment.setDateTime(new Date());
+     }
+
+     newComment.setText("Comment regarding text.");
+
+     // Add text to the document, warp it in a comment range, and then add your comment.
+     Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+     para.appendChild(new CommentRangeStart(doc, newComment.getId()));
+     para.appendChild(new Run(doc, "Commented text."));
+     para.appendChild(new CommentRangeEnd(doc, newComment.getId()));
+     para.appendChild(newComment);
+
+     // Add two replies to the comment.
+     newComment.addReply("John Doe", "JD", new Date(), "New reply.");
+     newComment.addReply("John Doe", "JD", new Date(), "Another reply.");
+
+     printAllCommentInfo(doc.getChildNodes(NodeType.COMMENT, true));
+ }
+
+ /// 
+ /// Iterates over every top-level comment and prints its comment range, contents, and replies.
+ /// 
+ private static void printAllCommentInfo(NodeCollection comments) throws Exception {
+     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
+
+     // Iterate over all top-level comments. Unlike reply-type comments, top-level comments have no ancestor.
+     for (Comment comment : (Iterable) comments) {
+         if (comment.getAncestor() == null) {
+             // First, visit the start of the comment range.
+             CommentRangeStart commentRangeStart = (CommentRangeStart) comment.getPreviousSibling().getPreviousSibling().getPreviousSibling();
+             commentRangeStart.accept(commentVisitor);
+
+             // Then, visit the comment, and any replies that it may have.
+             comment.accept(commentVisitor);
+
+             for (Comment reply : comment.getReplies())
+                 reply.accept(commentVisitor);
+
+             // Finally, visit the end of the comment range, and then print the visitor's text contents.
+             CommentRangeEnd commentRangeEnd = (CommentRangeEnd) comment.getPreviousSibling();
+             commentRangeEnd.accept(commentVisitor);
+
+             System.out.println(commentVisitor.getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints information and contents of all comments and comment ranges encountered in the document.
+ /// 
+ public static class CommentInfoPrinter extends DocumentVisitor {
+     public CommentInfoPrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideComment = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideComment) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeStart node is encountered in the document.
+     /// 
+     public int visitCommentRangeStart(CommentRangeStart commentRangeStart) {
+         indentAndAppendLine("[Comment range start] ID: " + commentRangeStart.getId());
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeEnd node is encountered in the document.
+     /// 
+     public int visitCommentRangeEnd(CommentRangeEnd commentRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment range end] ID: " + commentRangeEnd.getId() + "\n");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment node is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         indentAndAppendLine(MessageFormat.format("[Comment start] For comment range ID {0}, By {1} on {2}", comment.getId(),
+                 comment.getAuthor(), comment.getDateTime()));
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a Comment node is ended in the document.
+     /// 
+     public int visitCommentEnd(Comment comment) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideComment;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -580,6 +729,155 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the comment.
+
+ **Examples:** 
+
+Shows how print the contents of all comments and their comment ranges using a document visitor.
+
+```
+
+ public void createCommentsAndPrintAllInfo() throws Exception {
+     Document doc = new Document();
+
+     Comment newComment = new Comment(doc);
+     {
+         newComment.setAuthor("VDeryushev");
+         newComment.setInitial("VD");
+         newComment.setDateTime(new Date());
+     }
+
+     newComment.setText("Comment regarding text.");
+
+     // Add text to the document, warp it in a comment range, and then add your comment.
+     Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+     para.appendChild(new CommentRangeStart(doc, newComment.getId()));
+     para.appendChild(new Run(doc, "Commented text."));
+     para.appendChild(new CommentRangeEnd(doc, newComment.getId()));
+     para.appendChild(newComment);
+
+     // Add two replies to the comment.
+     newComment.addReply("John Doe", "JD", new Date(), "New reply.");
+     newComment.addReply("John Doe", "JD", new Date(), "Another reply.");
+
+     printAllCommentInfo(doc.getChildNodes(NodeType.COMMENT, true));
+ }
+
+ /// 
+ /// Iterates over every top-level comment and prints its comment range, contents, and replies.
+ /// 
+ private static void printAllCommentInfo(NodeCollection comments) throws Exception {
+     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
+
+     // Iterate over all top-level comments. Unlike reply-type comments, top-level comments have no ancestor.
+     for (Comment comment : (Iterable) comments) {
+         if (comment.getAncestor() == null) {
+             // First, visit the start of the comment range.
+             CommentRangeStart commentRangeStart = (CommentRangeStart) comment.getPreviousSibling().getPreviousSibling().getPreviousSibling();
+             commentRangeStart.accept(commentVisitor);
+
+             // Then, visit the comment, and any replies that it may have.
+             comment.accept(commentVisitor);
+
+             for (Comment reply : comment.getReplies())
+                 reply.accept(commentVisitor);
+
+             // Finally, visit the end of the comment range, and then print the visitor's text contents.
+             CommentRangeEnd commentRangeEnd = (CommentRangeEnd) comment.getPreviousSibling();
+             commentRangeEnd.accept(commentVisitor);
+
+             System.out.println(commentVisitor.getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints information and contents of all comments and comment ranges encountered in the document.
+ /// 
+ public static class CommentInfoPrinter extends DocumentVisitor {
+     public CommentInfoPrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideComment = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideComment) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeStart node is encountered in the document.
+     /// 
+     public int visitCommentRangeStart(CommentRangeStart commentRangeStart) {
+         indentAndAppendLine("[Comment range start] ID: " + commentRangeStart.getId());
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeEnd node is encountered in the document.
+     /// 
+     public int visitCommentRangeEnd(CommentRangeEnd commentRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment range end] ID: " + commentRangeEnd.getId() + "\n");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment node is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         indentAndAppendLine(MessageFormat.format("[Comment start] For comment range ID {0}, By {1} on {2}", comment.getId(),
+                 comment.getAuthor(), comment.getDateTime()));
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a Comment node is ended in the document.
+     /// 
+     public int visitCommentEnd(Comment comment) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideComment;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3276,6 +3574,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

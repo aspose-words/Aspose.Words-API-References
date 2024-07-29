@@ -4,7 +4,7 @@ linktitle: FieldEQ
 second_title: Aspose.Words for Java
 description: Implements the EQ field in Java.
 type: docs
-weight: 210
+weight: 211
 url: /java/com.aspose.words/fieldeq/
 ---
 
@@ -19,6 +19,27 @@ Implements the EQ field.
 To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
  **Examples:** 
+
+Shows how to replace the EQ field with Office Math.
+
+```
+
+ Document doc = new Document(getMyDir() + "Field sample - EQ.docx");
+ FieldCollection fields = doc.getRange().getFields();
+
+ for (Field field : fields) {
+     if (field.getType() == FieldType.FIELD_EQUATION) {
+         FieldEQ fieldEQ = (FieldEQ) field;
+         OfficeMath officeMath = fieldEQ.asOfficeMath();
+
+         fieldEQ.getStart().getParentNode().insertBefore(officeMath, fieldEQ.getStart());
+         fieldEQ.remove();
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Field.EQAsOfficeMath.docx");
+ 
+```
 
 Shows how to use the EQ field to display a variety of mathematical equations.
 
@@ -132,6 +153,29 @@ public OfficeMath asOfficeMath()
 
 
 Returns Office Math object corresponded to the EQ field.
+
+ **Examples:** 
+
+Shows how to replace the EQ field with Office Math.
+
+```
+
+ Document doc = new Document(getMyDir() + "Field sample - EQ.docx");
+ FieldCollection fields = doc.getRange().getFields();
+
+ for (Field field : fields) {
+     if (field.getType() == FieldType.FIELD_EQUATION) {
+         FieldEQ fieldEQ = (FieldEQ) field;
+         OfficeMath officeMath = fieldEQ.asOfficeMath();
+
+         fieldEQ.getStart().getParentNode().insertBefore(officeMath, fieldEQ.getStart());
+         fieldEQ.remove();
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Field.EQAsOfficeMath.docx");
+ 
+```
 
 **Returns:**
 [OfficeMath](../../com.aspose.words/officemath/) - Returns  null  if field code is empty or invalid, otherwise an [OfficeMath](../../com.aspose.words/officemath/) instance.

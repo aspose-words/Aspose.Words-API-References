@@ -4,7 +4,7 @@ linktitle: FieldBibliography
 second_title: Aspose.Words for Java
 description: Implements the BIBLIOGRAPHY field in Java.
 type: docs
-weight: 191
+weight: 192
 url: /java/com.aspose.words/fieldbibliography/
 ---
 
@@ -65,10 +65,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -347,6 +349,61 @@ public String getFilterLanguageId()
 
 Gets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language.
 
+ **Examples:** 
+
+Shows how to work with CITATION and BIBLIOGRAPHY fields.
+
+```
+
+ // Open a document containing bibliographical sources that we can find in
+ // Microsoft Word via References -> Citations & Bibliography -> Manage Sources.
+ Document doc = new Document(getMyDir() + "Bibliography.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.write("Text to be cited with one source.");
+
+ // Create a citation with just the page number and the author of the referenced book.
+ FieldCitation fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+
+ // We refer to sources using their tag names.
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setPageNumber("85");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(true);
+ fieldCitation.setSuppressYear(true);
+
+ Assert.assertEquals(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.getFieldCode());
+
+ // Create a more detailed citation which cites two sources.
+ builder.insertParagraph();
+ builder.write("Text to be cited with two sources.");
+ fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setAnotherSourceTag("Book2");
+ fieldCitation.setFormatLanguageId("en-US");
+ fieldCitation.setPageNumber("19");
+ fieldCitation.setPrefix("Prefix ");
+ fieldCitation.setSuffix(" Suffix");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(false);
+ fieldCitation.setSuppressYear(false);
+ fieldCitation.setVolumeNumber("VII");
+
+ Assert.assertEquals(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.getFieldCode());
+
+ // We can use a BIBLIOGRAPHY field to display all the sources within the document.
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
+
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.CITATION.docx");
+ 
+```
+
 **Returns:**
 java.lang.String - The language ID that is used to filter the bibliographic data to only the sources in the document that use that language.
 ### getFormat() {#getFormat}
@@ -475,10 +532,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -661,6 +720,61 @@ public String getSourceTag()
 
 
 Gets a value so that only the sources with matching Tag element value are displayed in the bibliography.
+
+ **Examples:** 
+
+Shows how to work with CITATION and BIBLIOGRAPHY fields.
+
+```
+
+ // Open a document containing bibliographical sources that we can find in
+ // Microsoft Word via References -> Citations & Bibliography -> Manage Sources.
+ Document doc = new Document(getMyDir() + "Bibliography.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.write("Text to be cited with one source.");
+
+ // Create a citation with just the page number and the author of the referenced book.
+ FieldCitation fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+
+ // We refer to sources using their tag names.
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setPageNumber("85");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(true);
+ fieldCitation.setSuppressYear(true);
+
+ Assert.assertEquals(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.getFieldCode());
+
+ // Create a more detailed citation which cites two sources.
+ builder.insertParagraph();
+ builder.write("Text to be cited with two sources.");
+ fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setAnotherSourceTag("Book2");
+ fieldCitation.setFormatLanguageId("en-US");
+ fieldCitation.setPageNumber("19");
+ fieldCitation.setPrefix("Prefix ");
+ fieldCitation.setSuffix(" Suffix");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(false);
+ fieldCitation.setSuppressYear(false);
+ fieldCitation.setVolumeNumber("VII");
+
+ Assert.assertEquals(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.getFieldCode());
+
+ // We can use a BIBLIOGRAPHY field to display all the sources within the document.
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
+
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.CITATION.docx");
+ 
+```
 
 **Returns:**
 java.lang.String - A value so that only the sources with matching Tag element value are displayed in the bibliography.
@@ -1138,6 +1252,61 @@ public void setFilterLanguageId(String value)
 
 Sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language.
 
+ **Examples:** 
+
+Shows how to work with CITATION and BIBLIOGRAPHY fields.
+
+```
+
+ // Open a document containing bibliographical sources that we can find in
+ // Microsoft Word via References -> Citations & Bibliography -> Manage Sources.
+ Document doc = new Document(getMyDir() + "Bibliography.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.write("Text to be cited with one source.");
+
+ // Create a citation with just the page number and the author of the referenced book.
+ FieldCitation fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+
+ // We refer to sources using their tag names.
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setPageNumber("85");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(true);
+ fieldCitation.setSuppressYear(true);
+
+ Assert.assertEquals(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.getFieldCode());
+
+ // Create a more detailed citation which cites two sources.
+ builder.insertParagraph();
+ builder.write("Text to be cited with two sources.");
+ fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setAnotherSourceTag("Book2");
+ fieldCitation.setFormatLanguageId("en-US");
+ fieldCitation.setPageNumber("19");
+ fieldCitation.setPrefix("Prefix ");
+ fieldCitation.setSuffix(" Suffix");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(false);
+ fieldCitation.setSuppressYear(false);
+ fieldCitation.setVolumeNumber("VII");
+
+ Assert.assertEquals(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.getFieldCode());
+
+ // We can use a BIBLIOGRAPHY field to display all the sources within the document.
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
+
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.CITATION.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1194,10 +1363,12 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
  // We can use a BIBLIOGRAPHY field to display all the sources within the document.
  builder.insertBreak(BreakType.PAGE_BREAK);
- FieldBibliography fieldBibliography = (FieldBibliography) builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
- fieldBibliography.setFormatLanguageId("1124");
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
 
- Assert.assertEquals(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.getFieldCode());
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.CITATION.docx");
@@ -1285,6 +1456,61 @@ public void setSourceTag(String value)
 
 
 Sets a value so that only the sources with matching Tag element value are displayed in the bibliography.
+
+ **Examples:** 
+
+Shows how to work with CITATION and BIBLIOGRAPHY fields.
+
+```
+
+ // Open a document containing bibliographical sources that we can find in
+ // Microsoft Word via References -> Citations & Bibliography -> Manage Sources.
+ Document doc = new Document(getMyDir() + "Bibliography.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.write("Text to be cited with one source.");
+
+ // Create a citation with just the page number and the author of the referenced book.
+ FieldCitation fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+
+ // We refer to sources using their tag names.
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setPageNumber("85");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(true);
+ fieldCitation.setSuppressYear(true);
+
+ Assert.assertEquals(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.getFieldCode());
+
+ // Create a more detailed citation which cites two sources.
+ builder.insertParagraph();
+ builder.write("Text to be cited with two sources.");
+ fieldCitation = (FieldCitation) builder.insertField(FieldType.FIELD_CITATION, true);
+ fieldCitation.setSourceTag("Book1");
+ fieldCitation.setAnotherSourceTag("Book2");
+ fieldCitation.setFormatLanguageId("en-US");
+ fieldCitation.setPageNumber("19");
+ fieldCitation.setPrefix("Prefix ");
+ fieldCitation.setSuffix(" Suffix");
+ fieldCitation.setSuppressAuthor(false);
+ fieldCitation.setSuppressTitle(false);
+ fieldCitation.setSuppressYear(false);
+ fieldCitation.setVolumeNumber("VII");
+
+ Assert.assertEquals(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.getFieldCode());
+
+ // We can use a BIBLIOGRAPHY field to display all the sources within the document.
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ FieldBibliography fieldBibliography = (FieldBibliography)builder.insertField(FieldType.FIELD_BIBLIOGRAPHY, true);
+ fieldBibliography.setFormatLanguageId("5129");
+ fieldBibliography.setFilterLanguageId("5129");
+ fieldBibliography.setSourceTag("Book2");
+
+ Assert.assertEquals(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.CITATION.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

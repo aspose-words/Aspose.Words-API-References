@@ -4,7 +4,7 @@ linktitle: Fill
 second_title: Aspose.Words for Java
 description: Represents fill formatting for an object in Java.
 type: docs
-weight: 295
+weight: 296
 url: /java/com.aspose.words/fill/
 ---
 
@@ -115,6 +115,46 @@ public Color getBackColor()
 
 
 Gets a Color object that represents the background color for the fill.
+
+ **Examples:** 
+
+Shows how to fill a shape with a gradients.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // Apply One-color gradient fill to the shape with ForeColor of gradient fill.
+ shape.getFill().oneColorGradient(Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2, 0.1);
+
+ Assert.assertEquals(Color.RED.getRGB(), shape.getFill().getForeColor().getRGB());
+ Assert.assertEquals(GradientStyle.HORIZONTAL, shape.getFill().getGradientStyle());
+ Assert.assertEquals(GradientVariant.VARIANT_2, shape.getFill().getGradientVariant());
+ Assert.assertEquals(270, shape.getFill().getGradientAngle());
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // Apply Two-color gradient fill to the shape.
+ shape.getFill().twoColorGradient(GradientStyle.FROM_CORNER, GradientVariant.VARIANT_4);
+ // Change BackColor of gradient fill.
+ shape.getFill().setBackColor(Color.YELLOW);
+ // Note that changes "GradientAngle" for "GradientStyle.FromCorner/GradientStyle.FromCenter"
+ // gradient fill don't get any effect, it will work only for linear gradient.
+ shape.getFill().setGradientAngle(15.0);
+
+ Assert.assertEquals(Color.YELLOW.getRGB(), shape.getFill().getBackColor().getRGB());
+ Assert.assertEquals(GradientStyle.FROM_CORNER, shape.getFill().getGradientStyle());
+ Assert.assertEquals(GradientVariant.VARIANT_4, shape.getFill().getGradientVariant());
+ Assert.assertEquals(0, shape.getFill().getGradientAngle());
+
+ // Use the compliance option to define the shape using DML if you want to get "GradientStyle",
+ // "GradientVariant" and "GradientAngle" properties after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientFill.docx", saveOptions);
+ 
+```
 
 **Returns:**
 java.awt.Color - A Color object that represents the background color for the fill.
@@ -245,6 +285,33 @@ public int getFillType()
 
 
 Gets a fill type.
+
+ **Examples:** 
+
+Shows how to convert any of the fills back to solid fill.
+
+```
+
+ Document doc = new Document(getMyDir() + "Two color gradient.docx");
+
+ // Get Fill object for Font of the first Run.
+ Fill fill = doc.getFirstSection().getBody().getParagraphs().get(0).getRuns().get(0).getFont().getFill();
+
+ // Check Fill properties of the Font.
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill is transparent at {0}%",fill.getTransparency() * 100.0));
+
+ // Change type of the fill to Solid with uniform green color.
+ fill.solid(Color.GREEN);
+ System.out.println("\nThe fill is changed:");
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill transparency is {0}%",fill.getTransparency() * 100.0));
+
+ doc.save(getArtifactsDir() + "Drawing.FillSolid.docx");
+ 
+```
 
 **Returns:**
 int - A fill type. The returned value is one of [FillType](../../com.aspose.words/filltype/) constants.
@@ -735,6 +802,30 @@ public int getPattern()
 
 Gets a [PatternType](../../com.aspose.words/patterntype/) for the fill.
 
+ **Examples:** 
+
+Shows how to set pattern for a shape.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape stroke pattern border.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Fill fill = shape.getFill();
+
+ System.out.println(MessageFormat.format("Pattern value is: {0}",fill.getPattern()));
+
+ // There are several ways specified fill to a pattern.
+ // 1 -  Apply pattern to the shape fill:
+ fill.patterned(PatternType.DIAGONAL_BRICK);
+
+ // 2 -  Apply pattern with foreground and background colors to the shape fill:
+ fill.patterned(PatternType.DIAGONAL_BRICK, Color.yellow, Color.blue);
+
+ doc.save(getArtifactsDir() + "Shape.FillPattern.docx");
+ 
+```
+
 **Returns:**
 int - A [PatternType](../../com.aspose.words/patterntype/) for the fill. The returned value is one of [PatternType](../../com.aspose.words/patterntype/) constants.
 ### getPresetTexture() {#getPresetTexture}
@@ -744,6 +835,29 @@ public int getPresetTexture()
 
 
 Gets a [PresetTexture](../../com.aspose.words/presettexture/) for the fill.
+
+ **Examples:** 
+
+Shows how to fill and tiling the texture inside the shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+
+ // Apply texture alignment to the shape fill.
+ shape.getFill().presetTextured(PresetTexture.CANVAS);
+ shape.getFill().setTextureAlignment(TextureAlignment.TOP_RIGHT);
+
+ // Use the compliance option to define the shape using DML if you want to get "TextureAlignment"
+ // property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.TextureFill.docx", saveOptions);
+ 
+```
 
 **Returns:**
 int - A [PresetTexture](../../com.aspose.words/presettexture/) for the fill. The returned value is one of [PresetTexture](../../com.aspose.words/presettexture/) constants.
@@ -801,6 +915,33 @@ Gets the degree of transparency of the specified fill as a value between 0.0 (op
  **Remarks:** 
 
 This property is the opposite of property [getOpacity()](../../com.aspose.words/fill/\#getOpacity) / [setOpacity(double)](../../com.aspose.words/fill/\#setOpacity-double).
+
+ **Examples:** 
+
+Shows how to convert any of the fills back to solid fill.
+
+```
+
+ Document doc = new Document(getMyDir() + "Two color gradient.docx");
+
+ // Get Fill object for Font of the first Run.
+ Fill fill = doc.getFirstSection().getBody().getParagraphs().get(0).getRuns().get(0).getFont().getFill();
+
+ // Check Fill properties of the Font.
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill is transparent at {0}%",fill.getTransparency() * 100.0));
+
+ // Change type of the fill to Solid with uniform green color.
+ fill.solid(Color.GREEN);
+ System.out.println("\nThe fill is changed:");
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill transparency is {0}%",fill.getTransparency() * 100.0));
+
+ doc.save(getArtifactsDir() + "Drawing.FillSolid.docx");
+ 
+```
 
 **Returns:**
 double - The degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear).
@@ -967,6 +1108,46 @@ public void setBackColor(Color value)
 
 
 Sets a Color object that represents the background color for the fill.
+
+ **Examples:** 
+
+Shows how to fill a shape with a gradients.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // Apply One-color gradient fill to the shape with ForeColor of gradient fill.
+ shape.getFill().oneColorGradient(Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2, 0.1);
+
+ Assert.assertEquals(Color.RED.getRGB(), shape.getFill().getForeColor().getRGB());
+ Assert.assertEquals(GradientStyle.HORIZONTAL, shape.getFill().getGradientStyle());
+ Assert.assertEquals(GradientVariant.VARIANT_2, shape.getFill().getGradientVariant());
+ Assert.assertEquals(270, shape.getFill().getGradientAngle());
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // Apply Two-color gradient fill to the shape.
+ shape.getFill().twoColorGradient(GradientStyle.FROM_CORNER, GradientVariant.VARIANT_4);
+ // Change BackColor of gradient fill.
+ shape.getFill().setBackColor(Color.YELLOW);
+ // Note that changes "GradientAngle" for "GradientStyle.FromCorner/GradientStyle.FromCenter"
+ // gradient fill don't get any effect, it will work only for linear gradient.
+ shape.getFill().setGradientAngle(15.0);
+
+ Assert.assertEquals(Color.YELLOW.getRGB(), shape.getFill().getBackColor().getRGB());
+ Assert.assertEquals(GradientStyle.FROM_CORNER, shape.getFill().getGradientStyle());
+ Assert.assertEquals(GradientVariant.VARIANT_4, shape.getFill().getGradientVariant());
+ Assert.assertEquals(0, shape.getFill().getGradientAngle());
+
+ // Use the compliance option to define the shape using DML if you want to get "GradientStyle",
+ // "GradientVariant" and "GradientAngle" properties after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientFill.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1267,6 +1448,36 @@ public void setImage(byte[] imageBytes)
 
 Changes the fill type to single image.
 
+ **Examples:** 
+
+Shows how to set shape fill type as image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // There are several ways of setting image.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // 1 -  Using a local system filename:
+ shape.getFill().setImage(getImageDir() + "Logo.jpg");
+ doc.save(getArtifactsDir() + "Shape.FillImage.FileName.docx");
+
+ // 2 -  Load a file into a byte array:
+ shape.getFill().setImage(Files.readAllBytes(Paths.get(getImageDir() + "Logo.jpg")));
+ doc.save(getArtifactsDir() + "Shape.FillImage.ByteArray.docx");
+
+ // 3 -  From a stream:
+ FileInputStream stream = new FileInputStream(getImageDir() + "Logo.jpg");
+ try
+ {
+     shape.getFill().setImage(stream);
+ }
+ finally { if (stream != null) stream.close(); }
+ doc.save(getArtifactsDir() + "Shape.FillImage.Stream.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1292,6 +1503,36 @@ public void setImage(String fileName)
 
 
 Changes the fill type to single image.
+
+ **Examples:** 
+
+Shows how to set shape fill type as image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // There are several ways of setting image.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // 1 -  Using a local system filename:
+ shape.getFill().setImage(getImageDir() + "Logo.jpg");
+ doc.save(getArtifactsDir() + "Shape.FillImage.FileName.docx");
+
+ // 2 -  Load a file into a byte array:
+ shape.getFill().setImage(Files.readAllBytes(Paths.get(getImageDir() + "Logo.jpg")));
+ doc.save(getArtifactsDir() + "Shape.FillImage.ByteArray.docx");
+
+ // 3 -  From a stream:
+ FileInputStream stream = new FileInputStream(getImageDir() + "Logo.jpg");
+ try
+ {
+     shape.getFill().setImage(stream);
+ }
+ finally { if (stream != null) stream.close(); }
+ doc.save(getArtifactsDir() + "Shape.FillImage.Stream.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1410,6 +1651,33 @@ Sets the degree of transparency of the specified fill as a value between 0.0 (op
 
 This property is the opposite of property [getOpacity()](../../com.aspose.words/fill/\#getOpacity) / [setOpacity(double)](../../com.aspose.words/fill/\#setOpacity-double).
 
+ **Examples:** 
+
+Shows how to convert any of the fills back to solid fill.
+
+```
+
+ Document doc = new Document(getMyDir() + "Two color gradient.docx");
+
+ // Get Fill object for Font of the first Run.
+ Fill fill = doc.getFirstSection().getBody().getParagraphs().get(0).getRuns().get(0).getFont().getFill();
+
+ // Check Fill properties of the Font.
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill is transparent at {0}%",fill.getTransparency() * 100.0));
+
+ // Change type of the fill to Solid with uniform green color.
+ fill.solid(Color.GREEN);
+ System.out.println("\nThe fill is changed:");
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill transparency is {0}%",fill.getTransparency() * 100.0));
+
+ doc.save(getArtifactsDir() + "Drawing.FillSolid.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1514,18 +1782,6 @@ Sets the fill to a uniform color.
 
 Use this method to convert any of the fills back to solid fill.
 
-### solid(Color color) {#solid-java.awt.Color}
-```
-public void solid(Color color)
-```
-
-
-Sets the fill to a specified uniform color.
-
- **Remarks:** 
-
-Use this method to convert any of the fills back to solid fill.
-
  **Examples:** 
 
 Shows how to convert any of the fills back to solid fill.
@@ -1550,6 +1806,59 @@ Shows how to convert any of the fills back to solid fill.
  System.out.println(MessageFormat.format("The fill transparency is {0}%",fill.getTransparency() * 100.0));
 
  doc.save(getArtifactsDir() + "Drawing.FillSolid.docx");
+ 
+```
+
+### solid(Color color) {#solid-java.awt.Color}
+```
+public void solid(Color color)
+```
+
+
+Sets the fill to a specified uniform color.
+
+ **Remarks:** 
+
+Use this method to convert any of the fills back to solid fill.
+
+ **Examples:** 
+
+Shows how to use chart formating.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete series generated by default.
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2" };
+ series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+
+ // Format chart background.
+ chart.getFormat().getFill().solid(Color.darkGray);
+
+ // Hide axis tick labels.
+ chart.getAxisX().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+ chart.getAxisY().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+
+ // Format chart title.
+ chart.getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format axis title.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format legend.
+ chart.getLegend().getFormat().getFill().solid(Color.yellow);
+
+ doc.save(getArtifactsDir() + "Charts.ChartFormat.docx");
  
 ```
 

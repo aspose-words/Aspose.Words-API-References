@@ -4,7 +4,7 @@ linktitle: CustomXmlPropertyCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of custom XML attributes or smart tag properties in Java.
 type: docs
-weight: 133
+weight: 134
 url: /java/com.aspose.words/customxmlpropertycollection/
 ---
 

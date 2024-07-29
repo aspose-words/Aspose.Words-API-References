@@ -4,7 +4,7 @@ linktitle: XlsxSectionMode
 second_title: Aspose.Words for Java
 description: Specifies how sections are handled when saving a document in the XLSX format in Java.
 type: docs
-weight: 678
+weight: 684
 url: /java/com.aspose.words/xlsxsectionmode/
 ---
 
@@ -15,6 +15,23 @@ public class XlsxSectionMode
 ```
 
 Specifies how sections are handled when saving a document in the XLSX format.
+
+ **Examples:** 
+
+Shows how to save document as a separate worksheets.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ // Each section of a document will be created as a separate worksheet.
+ // Use 'SingleWorksheet' to display all document on one worksheet.
+ XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+ xlsxSaveOptions.setSectionMode(XlsxSectionMode.MULTIPLE_WORKSHEETS);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.SelectionMode.xlsx", xlsxSaveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

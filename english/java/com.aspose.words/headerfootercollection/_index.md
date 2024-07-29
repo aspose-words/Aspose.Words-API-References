@@ -4,7 +4,7 @@ linktitle: HeaderFooterCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to HeaderFooter nodes of a Section in Java.
 type: docs
-weight: 346
+weight: 347
 url: /java/com.aspose.words/headerfootercollection/
 ---
 
@@ -725,7 +725,7 @@ Shows how to add and remove sections in a document.
 
 ### toArray() {#toArray}
 ```
-public Node[] toArray()
+public HeaderFooter[] toArray()
 ```
 
 
@@ -818,4 +818,4 @@ Shows how to print the node structure of every header and footer in a document.
 ```
 
 **Returns:**
-com.aspose.words.Node[] - An array of  HeaderFoorter  s.
+com.aspose.words.HeaderFooter[] - An array of  HeaderFoorter  s.

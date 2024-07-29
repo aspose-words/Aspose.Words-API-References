@@ -115,6 +115,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartYValue](../com.aspose.words/chartyvalue/) | Represents an Y value for a chart series. |
 | [ChartYValueCollection](../com.aspose.words/chartyvaluecollection/) | Represents a collection of Y values for a chart series. |
 | [ChartYValueType](../com.aspose.words/chartyvaluetype/) | Allows to specify type of an Y value of a chart series. |
+| [CheckBoxControl](../com.aspose.words/checkboxcontrol/) | The CheckBox control toggles a value. |
 | [ChmLoadOptions](../com.aspose.words/chmloadoptions/) | Allows to specify additional options when loading CHM document into a [Document](../com.aspose.words/document/) object. |
 | [CleanupOptions](../com.aspose.words/cleanupoptions/) | Allows to specify options for document cleaning. |
 | [Cluster](../com.aspose.words/cluster/) | Encapsulates code points and glyphs composing a grapheme. |
@@ -125,7 +126,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [CommentDisplayMode](../com.aspose.words/commentdisplaymode/) | Specifies the rendering mode for document comments. |
 | [CommentRangeEnd](../com.aspose.words/commentrangeend/) | Denotes the end of a region of text that has a comment associated with it. |
 | [CommentRangeStart](../com.aspose.words/commentrangestart/) | Denotes the start of a region of text that has a comment associated with it. |
-| [CompareOptions](../com.aspose.words/compareoptions/) | Allows to choose advanced options for document comparison operation. |
+| [CompareOptions](../com.aspose.words/compareoptions/) | Allows to choose additional options for document comparison operation. |
 | [ComparisonEvaluationResult](../com.aspose.words/comparisonevaluationresult/) | The comparison evaluation result. |
 | [ComparisonExpression](../com.aspose.words/comparisonexpression/) | The comparison expression. |
 | [ComparisonTargetType](../com.aspose.words/comparisontargettype/) | Allows to specify base document which will be used during comparison. |
@@ -440,7 +441,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMergeSettings](../com.aspose.words/mailmergesettings/) | Specifies all of the mail merge information for a document. |
 | [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
 | [Margins](../com.aspose.words/margins/) | Specifies preset margins. |
-| [MarkdownLinkExportMode](../com.aspose.words/markdownlinkexportmode/) | The mode of exporting links to a target document. |
+| [MarkdownLinkExportMode](../com.aspose.words/markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](../com.aspose.words/markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MarkdownLoadOptions](../com.aspose.words/markdownloadoptions/) | Allows to specify additional options when loading [LoadFormat.\#MARKDOWN](../com.aspose.words/loadformat/\#MARKDOWN) document into a [Document](../com.aspose.words/document/) object. |
 | [MarkdownSaveOptions](../com.aspose.words/markdownsaveoptions/) | Class to specify additional options when saving a document into the [SaveFormat.\#MARKDOWN](../com.aspose.words/saveformat/\#MARKDOWN) format. |
@@ -489,6 +490,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [OlePackage](../com.aspose.words/olepackage/) | Allows to access OLE Package properties. |
 | [OoxmlCompliance](../com.aspose.words/ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the DOCX format. |
 | [OoxmlSaveOptions](../com.aspose.words/ooxmlsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#DOCX](../com.aspose.words/saveformat/\#DOCX), [SaveFormat.\#DOCM](../com.aspose.words/saveformat/\#DOCM), [SaveFormat.\#DOTX](../com.aspose.words/saveformat/\#DOTX), [SaveFormat.\#DOTM](../com.aspose.words/saveformat/\#DOTM) or [SaveFormat.\#FLAT\_OPC](../com.aspose.words/saveformat/\#FLAT-OPC) format. |
+| [OptionButtonControl](../com.aspose.words/optionbuttoncontrol/) | The OptionButton control enables a single choice in a limited set of mutually exclusive choices. |
 | [Orientation](../com.aspose.words/orientation/) | Specifies page orientation. |
 | [OutlineLevel](../com.aspose.words/outlinelevel/) | Specifies the outline level of a paragraph in the document. |
 | [OutlineOptions](../com.aspose.words/outlineoptions/) | Allows to specify outline options. |
@@ -588,6 +590,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ShapeLineStyle](../com.aspose.words/shapelinestyle/) | Specifies the compound line style of a [Shape](../com.aspose.words/shape/). |
 | [ShapeMarkupLanguage](../com.aspose.words/shapemarkuplanguage/) | Specifies Markup language used for the shape. |
 | [ShapeRenderer](../com.aspose.words/shaperenderer/) | Provides methods to render an individual [Shape](../com.aspose.words/shape/) or [GroupShape](../com.aspose.words/groupshape/) to a raster or vector image or to a Graphics object. |
+| [ShapeTextOrientation](../com.aspose.words/shapetextorientation/) | Specifies orientation of text in shapes. |
 | [ShapeType](../com.aspose.words/shapetype/) | Specifies the type of shape in a Microsoft Word document. |
 | [ShowInBalloons](../com.aspose.words/showinballoons/) | Specifies which revisions are rendered in balloons. |
 | [SignOptions](../com.aspose.words/signoptions/) | Allows to specify options for document signing. |
@@ -664,6 +667,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [UnsupportedFileFormatException](../com.aspose.words/unsupportedfileformatexception/) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
 | [UserInformation](../com.aspose.words/userinformation/) | Specifies information about the user. |
 | [VariableCollection](../com.aspose.words/variablecollection/) | A collection of document variables. |
+| [VariationAxis](../com.aspose.words/variationaxis/) |  |
+| [VariationAxisCoordinate](../com.aspose.words/variationaxiscoordinate/) |  |
 | [VbaModule](../com.aspose.words/vbamodule/) | Provides access to VBA project module. |
 | [VbaModuleCollection](../com.aspose.words/vbamodulecollection/) | Represents a collection of [VbaModule](../com.aspose.words/vbamodule/) objects. |
 | [VbaModuleType](../com.aspose.words/vbamoduletype/) | Specifies the type of a model in a VBA project. |
@@ -698,6 +703,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [X509Certificate2Wrapper](../com.aspose.words/x509certificate2wrapper/) | JAVA-added public wrapper around ours internal X509Certificate2. |
 | [XamlFixedSaveOptions](../com.aspose.words/xamlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XAML\_FIXED](../com.aspose.words/saveformat/\#XAML-FIXED) format. |
 | [XamlFlowSaveOptions](../com.aspose.words/xamlflowsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XAML\_FLOW](../com.aspose.words/saveformat/\#XAML-FLOW) or [SaveFormat.\#XAML\_FLOW\_PACK](../com.aspose.words/saveformat/\#XAML-FLOW-PACK) format. |
+| [XlsxDateTimeParsingMode](../com.aspose.words/xlsxdatetimeparsingmode/) | Specifies how document text is parsed to identify date and time values. |
 | [XlsxSaveOptions](../com.aspose.words/xlsxsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XLSX](../com.aspose.words/saveformat/\#XLSX) format. |
 | [XlsxSectionMode](../com.aspose.words/xlsxsectionmode/) | Specifies how sections are handled when saving a document in the XLSX format. |
 | [XmlDataLoadOptions](../com.aspose.words/xmldataloadoptions/) | Represents options for XML data loading. |

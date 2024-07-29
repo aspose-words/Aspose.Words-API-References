@@ -4,7 +4,7 @@ linktitle: WarningInfo
 second_title: Aspose.Words for Java
 description: Contains information about a warning that Aspose.Words issued during document loading or saving in Java.
 type: docs
-weight: 654
+weight: 659
 url: /java/com.aspose.words/warninginfo/
 ---
 
@@ -158,6 +158,25 @@ public int getSource()
 
 
 Returns the source of the warning.
+
+ **Examples:** 
+
+Shows how to work with the warning source.
+
+```
+
+ Document doc = new Document(getMyDir() + "Emphases markdown warning.docx");
+
+ WarningInfoCollection warnings = new WarningInfoCollection();
+ doc.setWarningCallback(warnings);
+ doc.save(getArtifactsDir() + "DocumentBuilder.EmphasesWarningSourceMarkdown.md");
+
+ for (WarningInfo warningInfo : warnings) {
+     if (warningInfo.getSource() == WarningSource.MARKDOWN)
+         Assert.assertEquals("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.getDescription());
+ }
+ 
+```
 
 **Returns:**
 int - The source of the warning. The returned value is one of [WarningSource](../../com.aspose.words/warningsource/) constants.

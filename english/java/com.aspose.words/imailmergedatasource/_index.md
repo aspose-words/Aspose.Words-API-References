@@ -4,7 +4,7 @@ linktitle: IMailMergeDataSource
 second_title: Aspose.Words for Java
 description: Implement this interface to allow mail merge from a custom data source such as a list of objects in Java.
 type: docs
-weight: 707
+weight: 713
 url: /java/com.aspose.words/imailmergedatasource/
 ---
 ```
@@ -19,7 +19,7 @@ When a data source is created, it should be initialized to point to BOF (before 
 
  **Examples:** 
 
-Performs mail merge from a custom data source.
+Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```
 
@@ -165,7 +165,7 @@ If a table with the specified name does not exist, your implementation should re
 
  **Examples:** 
 
-Performs mail merge from a custom data source.
+Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```
 
@@ -305,7 +305,7 @@ Aspose.Words uses this name to match against the mail merge region name specifie
 
  **Examples:** 
 
-Performs mail merge from a custom data source.
+Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```
 
@@ -450,7 +450,7 @@ Advances to the next record in the data source.
 
  **Examples:** 
 
-Performs mail merge from a custom data source.
+Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```
 

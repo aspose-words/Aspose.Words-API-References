@@ -4,7 +4,7 @@ linktitle: ITextShaperFactory
 second_title: Aspose.Words for Java
 description: An interface of a factory for constructing ITextShaper implementations in Java.
 type: docs
-weight: 718
+weight: 724
 url: /java/com.aspose.words/itextshaperfactory/
 ---
 ```

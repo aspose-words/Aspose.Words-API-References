@@ -4,7 +4,7 @@ linktitle: XlsxSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XLSX format in Java.
 type: docs
-weight: 677
+weight: 683
 url: /java/com.aspose.words/xlsxsaveoptions/
 ---
 
@@ -18,6 +18,22 @@ Can be used to specify additional options when saving a document into the [SaveF
 
 To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
 
+ **Examples:** 
+
+Shows how to compress XLSX document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape with linked chart.docx");
+
+ XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+ xlsxSaveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
+ xlsxSaveOptions.setSaveFormat(SaveFormat.XLSX);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
+ 
+```
+
 
 [Specify Save Options]: https://docs.aspose.com/words/java/specify-save-options/
 ## Methods
@@ -28,6 +44,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getCompressionLevel()](#getCompressionLevel) | Specifies the compression level used to save document. |
+| [getDateTimeParsingMode()](#getDateTimeParsingMode) | Gets the mode that specifies how document text is parsed to identify date and time values. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
@@ -48,6 +65,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setCompressionLevel(int value)](#setCompressionLevel-int) | Specifies the compression level used to save document. |
+| [setDateTimeParsingMode(int value)](#setDateTimeParsingMode-int) | Sets the mode that specifies how document text is parsed to identify date and time values. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
@@ -182,6 +200,7 @@ Shows how to compress XLSX document.
 
  XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
  xlsxSaveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
+ xlsxSaveOptions.setSaveFormat(SaveFormat.XLSX);
 
  doc.save(getArtifactsDir() + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
  
@@ -189,6 +208,32 @@ Shows how to compress XLSX document.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants.
+### getDateTimeParsingMode() {#getDateTimeParsingMode}
+```
+public int getDateTimeParsingMode()
+```
+
+
+Gets the mode that specifies how document text is parsed to identify date and time values. The default value is [XlsxDateTimeParsingMode.USE\_CURRENT\_LOCALE](../../com.aspose.words/xlsxdatetimeparsingmode/\#USE-CURRENT-LOCALE).
+
+ **Examples:** 
+
+Shows how to specify autodetection of the date time format.
+
+```
+
+ Document doc = new Document(getMyDir() + "Xlsx DateTime.docx");
+
+ XlsxSaveOptions saveOptions = new XlsxSaveOptions();
+ // Specify using datetime format autodetection.
+ saveOptions.setDateTimeParsingMode(XlsxDateTimeParsingMode.AUTO);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.DateTimeParsingMode.xlsx", saveOptions);
+ 
+```
+
+**Returns:**
+int - The mode that specifies how document text is parsed to identify date and time values. The returned value is one of [XlsxDateTimeParsingMode](../../com.aspose.words/xlsxdatetimeparsingmode/) constants.
 ### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
@@ -237,6 +282,24 @@ Gets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
@@ -747,6 +810,22 @@ public int getSaveFormat()
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.XLSX](../../com.aspose.words/saveformat/\#XLSX).
 
+ **Examples:** 
+
+Shows how to compress XLSX document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape with linked chart.docx");
+
+ XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+ xlsxSaveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
+ xlsxSaveOptions.setSaveFormat(SaveFormat.XLSX);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
 ### getSectionMode() {#getSectionMode}
@@ -793,6 +872,28 @@ public boolean getUpdateCreatedTimeProperty()
 
 
 Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
+
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving.
@@ -856,26 +957,6 @@ public boolean getUpdateLastPrintedProperty()
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 
@@ -1074,6 +1155,7 @@ Shows how to compress XLSX document.
 
  XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
  xlsxSaveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
+ xlsxSaveOptions.setSaveFormat(SaveFormat.XLSX);
 
  doc.save(getArtifactsDir() + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
  
@@ -1083,6 +1165,35 @@ Shows how to compress XLSX document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants. |
+
+### setDateTimeParsingMode(int value) {#setDateTimeParsingMode-int}
+```
+public void setDateTimeParsingMode(int value)
+```
+
+
+Sets the mode that specifies how document text is parsed to identify date and time values. The default value is [XlsxDateTimeParsingMode.USE\_CURRENT\_LOCALE](../../com.aspose.words/xlsxdatetimeparsingmode/\#USE-CURRENT-LOCALE).
+
+ **Examples:** 
+
+Shows how to specify autodetection of the date time format.
+
+```
+
+ Document doc = new Document(getMyDir() + "Xlsx DateTime.docx");
+
+ XlsxSaveOptions saveOptions = new XlsxSaveOptions();
+ // Specify using datetime format autodetection.
+ saveOptions.setDateTimeParsingMode(XlsxDateTimeParsingMode.AUTO);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.DateTimeParsingMode.xlsx", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The mode that specifies how document text is parsed to identify date and time values. The value must be one of [XlsxDateTimeParsingMode](../../com.aspose.words/xlsxdatetimeparsingmode/) constants. |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String}
 ```
@@ -1135,6 +1246,24 @@ Sets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1669,6 +1798,22 @@ public void setSaveFormat(int value)
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.XLSX](../../com.aspose.words/saveformat/\#XLSX).
 
+ **Examples:** 
+
+Shows how to compress XLSX document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape with linked chart.docx");
+
+ XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+ xlsxSaveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
+ xlsxSaveOptions.setSaveFormat(SaveFormat.XLSX);
+
+ doc.save(getArtifactsDir() + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1724,6 +1869,28 @@ public void setUpdateCreatedTimeProperty(boolean value)
 
 
 Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
+
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1793,26 +1960,6 @@ public void setUpdateLastPrintedProperty(boolean value)
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 

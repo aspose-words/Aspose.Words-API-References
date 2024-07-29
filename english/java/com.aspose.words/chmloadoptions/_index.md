@@ -4,7 +4,7 @@ linktitle: ChmLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading CHM document into a Document object in Java.
 type: docs
-weight: 94
+weight: 95
 url: /java/com.aspose.words/chmloadoptions/
 ---
 
@@ -17,6 +17,24 @@ public class ChmLoadOptions extends LoadOptions
 Allows to specify additional options when loading CHM document into a [Document](../../com.aspose.words/document/) object.
 
 To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
+
+ **Examples:** 
+
+Shows how to resolve URLs like "ms-its:myfile.chm::/index.htm".
+
+```
+
+ // Our document contains URLs like "ms-its:amhelp.chm::....htm", but it has a different name,
+ // so file links don't work after saving it to HTML.
+ // We need to define the original filename in 'ChmLoadOptions' to avoid this behavior.
+ ChmLoadOptions loadOptions = new ChmLoadOptions(); { loadOptions.setOriginalFileName("amhelp.chm"); }
+
+ Document doc = new Document(new ByteArrayInputStream(Files.readAllBytes(Paths.get(getMyDir() + "Document with ms-its links.chm"))),
+     loadOptions);
+
+ doc.save(getArtifactsDir() + "ExChmLoadOptions.OriginalFileName.html");
+ 
+```
 
 
 [Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
@@ -72,6 +90,24 @@ public ChmLoadOptions()
 
 
 Initializes a new instance of this class with default values.
+
+ **Examples:** 
+
+Shows how to resolve URLs like "ms-its:myfile.chm::/index.htm".
+
+```
+
+ // Our document contains URLs like "ms-its:amhelp.chm::....htm", but it has a different name,
+ // so file links don't work after saving it to HTML.
+ // We need to define the original filename in 'ChmLoadOptions' to avoid this behavior.
+ ChmLoadOptions loadOptions = new ChmLoadOptions(); { loadOptions.setOriginalFileName("amhelp.chm"); }
+
+ Document doc = new Document(new ByteArrayInputStream(Files.readAllBytes(Paths.get(getMyDir() + "Document with ms-its links.chm"))),
+     loadOptions);
+
+ doc.save(getArtifactsDir() + "ExChmLoadOptions.OriginalFileName.html");
+ 
+```
 
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
@@ -225,6 +261,24 @@ Gets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
@@ -1007,6 +1061,24 @@ Sets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

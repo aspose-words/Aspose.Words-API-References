@@ -4,7 +4,7 @@ linktitle: LayoutEntityType
 second_title: Aspose.Words for Java
 description: Types of the layout entities in Java.
 type: docs
-weight: 389
+weight: 390
 url: /java/com.aspose.words/layoutentitytype/
 ---
 

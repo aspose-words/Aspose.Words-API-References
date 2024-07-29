@@ -4,7 +4,7 @@ linktitle: OfficeMath
 second_title: Aspose.Words for Java
 description: Represents an Office Math object such as function equation matrix or alike in Java.
 type: docs
-weight: 459
+weight: 460
 url: /java/com.aspose.words/officemath/
 ---
 
@@ -227,6 +227,93 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the office math.
 
+ **Examples:** 
+
+Shows how to print the node structure of every office math node in a document.
+
+```
+
+ public void officeMathToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered OfficeMath nodes and their children.
+ /// 
+ public static class OfficeMathStructurePrinter extends DocumentVisitor {
+     public OfficeMathStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideOfficeMath = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideOfficeMath) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when an OfficeMath node is encountered in the document.
+     /// 
+     public int visitOfficeMathStart(final OfficeMath officeMath) {
+         indentAndAppendLine("[OfficeMath start] Math object type: " + officeMath.getMathObjectType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideOfficeMath = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of an OfficeMath node have been visited.
+     /// 
+     public int visitOfficeMathEnd(final OfficeMath officeMath) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[OfficeMath end]");
+         mVisitorIsInsideOfficeMath = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideOfficeMath;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -241,6 +328,93 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the office math.
+
+ **Examples:** 
+
+Shows how to print the node structure of every office math node in a document.
+
+```
+
+ public void officeMathToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered OfficeMath nodes and their children.
+ /// 
+ public static class OfficeMathStructurePrinter extends DocumentVisitor {
+     public OfficeMathStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideOfficeMath = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideOfficeMath) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when an OfficeMath node is encountered in the document.
+     /// 
+     public int visitOfficeMathStart(final OfficeMath officeMath) {
+         indentAndAppendLine("[OfficeMath start] Math object type: " + officeMath.getMathObjectType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideOfficeMath = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of an OfficeMath node have been visited.
+     /// 
+     public int visitOfficeMathEnd(final OfficeMath officeMath) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[OfficeMath end]");
+         mVisitorIsInsideOfficeMath = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideOfficeMath;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1489,6 +1663,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

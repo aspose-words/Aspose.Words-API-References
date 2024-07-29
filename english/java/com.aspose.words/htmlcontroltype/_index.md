@@ -4,7 +4,7 @@ linktitle: HtmlControlType
 second_title: Aspose.Words for Java
 description: Type of document nodes that represent  and  elements imported from HTML in Java.
 type: docs
-weight: 352
+weight: 353
 url: /java/com.aspose.words/htmlcontroltype/
 ---
 
@@ -14,7 +14,7 @@ java.lang.Object
 public class HtmlControlType
 ```
 
-Type of document nodes that represent  and  elements imported from HTML.
+Type of document nodes that represent  and  elements imported from HTML. Examples:Shows how to set preferred type of document nodes that will represent imported  and  elements.   final String html = "\\r\\n\\r\\n\\r\\n" + "item1\\r\\n\\r\\n\\r\\n\\r\\n"; HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions(); htmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED\_DOCUMENT\_TAG); Document doc = new Document(new ByteArrayInputStream(html.getBytes(StandardCharsets.UTF\_8)), htmlLoadOptions); NodeCollection nodes = doc.getChildNodes(NodeType.STRUCTURED\_DOCUMENT\_TAG, true); StructuredDocumentTag tag = (StructuredDocumentTag) nodes.get(0); 
 ## Fields
 
 | Field | Description |

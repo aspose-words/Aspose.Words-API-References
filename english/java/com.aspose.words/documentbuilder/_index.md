@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 149
+weight: 150
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -1962,7 +1962,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");

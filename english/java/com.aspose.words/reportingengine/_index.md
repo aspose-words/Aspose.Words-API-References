@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 524
+weight: 526
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -131,7 +131,7 @@ Shows how to remove paragraphs selectively.
  
 ```
 
-Shows how to allow missing members.
+Shows how to allow missinng members.
 
 ```
 
@@ -287,6 +287,22 @@ The property affects only printing of a template expression representing a plain
 
 The value of this property cannot be set to null.
 
+ **Examples:** 
+
+Shows how to allow missinng members.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.writeln("<<[missingObject.First().id]>>");
+ builder.writeln("<><<[id]>><>");
+
+ ReportingEngine engine = new ReportingEngine(); { engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS); }
+ engine.setMissingMemberMessage("Missed");
+ engine.buildReport(builder.getDocument(), new DataSet(), "");
+ 
+```
+
 **Returns:**
 java.lang.String - A string value printed instead of a template expression that represents a plain reference to a missing member of an object.
 ### getOptions() {#getOptions}
@@ -298,6 +314,20 @@ public int getOptions()
 Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report.
 
  **Examples:** 
+
+Shows how to allow missinng members.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.writeln("<<[missingObject.First().id]>>");
+ builder.writeln("<><<[id]>><>");
+
+ ReportingEngine engine = new ReportingEngine(); { engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS); }
+ engine.setMissingMemberMessage("Missed");
+ engine.buildReport(builder.getDocument(), new DataSet(), "");
+ 
+```
 
 Shows how to set options for Reporting Engine
 
@@ -373,6 +403,22 @@ The property affects only printing of a template expression representing a plain
 
 The value of this property cannot be set to null.
 
+ **Examples:** 
+
+Shows how to allow missinng members.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.writeln("<<[missingObject.First().id]>>");
+ builder.writeln("<><<[id]>><>");
+
+ ReportingEngine engine = new ReportingEngine(); { engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS); }
+ engine.setMissingMemberMessage("Missed");
+ engine.buildReport(builder.getDocument(), new DataSet(), "");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -387,6 +433,20 @@ public void setOptions(int value)
 Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report.
 
  **Examples:** 
+
+Shows how to allow missinng members.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.writeln("<<[missingObject.First().id]>>");
+ builder.writeln("<><<[id]>><>");
+
+ ReportingEngine engine = new ReportingEngine(); { engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS); }
+ engine.setMissingMemberMessage("Missed");
+ engine.buildReport(builder.getDocument(), new DataSet(), "");
+ 
+```
 
 Shows how to set options for Reporting Engine
 
