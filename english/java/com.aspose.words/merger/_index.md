@@ -4,7 +4,7 @@ linktitle: Merger
 second_title: Aspose.Words for Java
 description: Represents a group of methods intended to merge a variety of different types of documents into a single output document in Java.
 type: docs
-weight: 431
+weight: 432
 url: /java/com.aspose.words/merger/
 ---
 
@@ -21,6 +21,26 @@ Represents a group of methods intended to merge a variety of different types of 
 The specified input and output files or streams, along with the desired merge and save options, are used to merge the given input documents into a single output document.
 
 The merging functionality supports over 35 different file formats.
+
+ **Examples:** 
+
+Shows how to merge documents into a single output document.
+
+```
+
+ //There is a several ways to merge documents:
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SimpleMerge.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" });
+
+ OoxmlSaveOptions ooxmlSaveOptions = new OoxmlSaveOptions();
+ ooxmlSaveOptions.setPassword("Aspose.Words");
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveOptions.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, ooxmlSaveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
+
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveFormat.pdf", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, SaveFormat.PDF, MergeFormatMode.KEEP_SOURCE_LAYOUT);
+
+ Document doc = Merger.merge(new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, MergeFormatMode.MERGE_FORMATTING);
+ doc.save(getArtifactsDir() + "LowCode.MergeDocument.DocumentInstance.docx");
+ 
+```
 ## Methods
 
 | Method | Description |

@@ -4,7 +4,7 @@ linktitle: Font
 second_title: Aspose.Words for Java
 description: Contains font attributes font name font size color and so on for an object in Java.
 type: docs
-weight: 303
+weight: 304
 url: /java/com.aspose.words/font/
 ---
 
@@ -802,6 +802,33 @@ public Fill getFill()
 
 
 Gets fill formatting for the [Font](../../com.aspose.words/font/).
+
+ **Examples:** 
+
+Shows how to convert any of the fills back to solid fill.
+
+```
+
+ Document doc = new Document(getMyDir() + "Two color gradient.docx");
+
+ // Get Fill object for Font of the first Run.
+ Fill fill = doc.getFirstSection().getBody().getParagraphs().get(0).getRuns().get(0).getFont().getFill();
+
+ // Check Fill properties of the Font.
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill is transparent at {0}%",fill.getTransparency() * 100.0));
+
+ // Change type of the fill to Solid with uniform green color.
+ fill.solid(Color.GREEN);
+ System.out.println("\nThe fill is changed:");
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill transparency is {0}%",fill.getTransparency() * 100.0));
+
+ doc.save(getArtifactsDir() + "Drawing.FillSolid.docx");
+ 
+```
 
 **Returns:**
 [Fill](../../com.aspose.words/fill/) - Fill formatting for the [Font](../../com.aspose.words/font/).

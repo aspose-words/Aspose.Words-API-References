@@ -4,7 +4,7 @@ linktitle: Margins
 second_title: Aspose.Words for Java
 description: Specifies preset margins in Java.
 type: docs
-weight: 418
+weight: 419
 url: /java/com.aspose.words/margins/
 ---
 
@@ -15,6 +15,32 @@ public class Margins
 ```
 
 Specifies preset margins.
+
+ **Examples:** 
+
+Shows when to recalculate the page layout of the document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Saving a document to PDF, to an image, or printing for the first time will automatically
+ // cache the layout of the document within its pages.
+ doc.save(getArtifactsDir() + "Document.UpdatePageLayout.1.pdf");
+
+ // Modify the document in some way.
+ doc.getStyles().get("Normal").getFont().setSize(6.0);
+ doc.getSections().get(0).getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ doc.getSections().get(0).getPageSetup().setMargins(Margins.MIRRORED);
+
+ // In the current version of Aspose.Words, modifying the document does not automatically rebuild
+ // the cached page layout. If we wish for the cached layout
+ // to stay up to date, we will need to update it manually.
+ doc.updatePageLayout();
+
+ doc.save(getArtifactsDir() + "Document.UpdatePageLayout.2.pdf");
+ 
+```
 ## Fields
 
 | Field | Description |

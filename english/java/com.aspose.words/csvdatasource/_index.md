@@ -4,7 +4,7 @@ linktitle: CsvDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of a CSV file or stream to be used within a report in Java.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.words/csvdatasource/
 ---
 
@@ -36,6 +36,27 @@ Note that for automatic recognition of data types to work, string representation
 
 To override default behavior of CSV data loading, initialize and pass a [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions/) instance to a constructor of this class.
 
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Constructors
@@ -66,6 +87,27 @@ public CsvDataSource(String csvPath, CsvDataLoadOptions options)
 
 
 Creates a new data source with data from a CSV file using the specified options for parsing CSV data.
+
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

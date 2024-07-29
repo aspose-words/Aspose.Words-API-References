@@ -4,7 +4,7 @@ linktitle: SdtCalendarType
 second_title: Aspose.Words for Java
 description: Specifies the possible types of calendars which can be used to specify StructuredDocumentTag.getCalendarType / StructuredDocumentTag.setCalendarTypeint in an Office Open XML document in Java.
 type: docs
-weight: 550
+weight: 552
 url: /java/com.aspose.words/sdtcalendartype/
 ---
 
@@ -15,6 +15,44 @@ public class SdtCalendarType
 ```
 
 Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag/\#getCalendarType) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag/\#setCalendarType-int) in an Office Open XML document.
+
+ **Examples:** 
+
+Shows how to prompt the user to enter a date with a structured document tag.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a structured document tag that prompts the user to enter a date.
+ // In Microsoft Word, this element is known as a "Date picker content control".
+ // When we click on the arrow on the right end of this tag in Microsoft Word,
+ // we will see a pop up in the form of a clickable calendar.
+ // We can use that popup to select a date that the tag will display.
+ StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.DATE, MarkupLevel.INLINE);
+
+ // Display the date, according to the Saudi Arabian Arabic locale.
+ sdtDate.setDateDisplayLocale(1025);
+
+ // Set the format with which to display the date.
+ sdtDate.setDateDisplayFormat("dd MMMM, yyyy");
+ sdtDate.setDateStorageFormat(SdtDateStorageFormat.DATE_TIME);
+
+ // Display the date according to the Hijri calendar.
+ sdtDate.setCalendarType(SdtCalendarType.HIJRI);
+
+ // Before the user chooses a date in Microsoft Word, the tag will display the text "Click here to enter a date.".
+ // According to the tag's calendar, set the "FullDate" property to get the tag to display a default date.
+ Calendar cal = Calendar.getInstance();
+ cal.set(1440, 10, 20);
+ sdtDate.setFullDate(cal.getTime());
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(sdtDate);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.Date.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: FieldIndexFormat
 second_title: Aspose.Words for Java
 description: Specifies the formatting for the FieldIndex fields in a document in Java.
 type: docs
-weight: 234
+weight: 235
 url: /java/com.aspose.words/fieldindexformat/
 ---
 
@@ -15,6 +15,28 @@ public class FieldIndexFormat
 ```
 
 Specifies the formatting for the [FieldIndex](../../com.aspose.words/fieldindex/) fields in a document.
+
+ **Examples:** 
+
+Shows how to formatting FieldIndex fields.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.write("A");
+ builder.insertBreak(BreakType.LINE_BREAK);
+ builder.insertField("XE \"A\"");
+ builder.write("B");
+
+ builder.insertField(" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", null);
+
+ doc.getFieldOptions().setFieldIndexFormat(FieldIndexFormat.FANCY);
+ doc.updateFields();
+
+ doc.save(getArtifactsDir() + "Field.SetFieldIndexFormat.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: JustificationMode
 second_title: Aspose.Words for Java
 description: Specifies the character spacing adjustment for a document in Java.
 type: docs
-weight: 385
+weight: 386
 url: /java/com.aspose.words/justificationmode/
 ---
 

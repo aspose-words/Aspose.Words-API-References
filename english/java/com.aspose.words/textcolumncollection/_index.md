@@ -4,7 +4,7 @@ linktitle: TextColumnCollection
 second_title: Aspose.Words for Java
 description: A collection of TextColumn objects that represent all the columns of text in a section of a document in Java.
 type: docs
-weight: 612
+weight: 615
 url: /java/com.aspose.words/textcolumncollection/
 ---
 
@@ -90,7 +90,7 @@ Shows how to create unevenly spaced columns.
  // Determine the amount of room that we have available for arranging columns.
  double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
 
- Assert.assertEquals(468.0d, contentWidth, 0.01d);
+ Assert.assertEquals(470.30d, contentWidth, 0.01d);
 
  // Set the first column to be narrow.
  TextColumn column = columns.get(0);
@@ -124,6 +124,27 @@ public int getCount()
 
 Gets the number of columns in the section of a document.
 
+ **Examples:** 
+
+Shows how to create multiple evenly spaced columns in a section.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
+```
+
 **Returns:**
 int - The number of columns in the section of a document.
 ### getEvenlySpaced() {#getEvenlySpaced}
@@ -151,7 +172,7 @@ Shows how to create unevenly spaced columns.
  // Determine the amount of room that we have available for arranging columns.
  double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
 
- Assert.assertEquals(468.0d, contentWidth, 0.01d);
+ Assert.assertEquals(470.30d, contentWidth, 0.01d);
 
  // Set the first column to be narrow.
  TextColumn column = columns.get(0);
@@ -255,6 +276,27 @@ When columns are evenly spaced, gets the width of the columns.
 
 Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) is set to  true .
 
+ **Examples:** 
+
+Shows how to create multiple evenly spaced columns in a section.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
+```
+
 **Returns:**
 double - The corresponding  double  value.
 ### setCount(int newCount) {#setCount-int}
@@ -320,7 +362,7 @@ Shows how to create unevenly spaced columns.
  // Determine the amount of room that we have available for arranging columns.
  double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
 
- Assert.assertEquals(468.0d, contentWidth, 0.01d);
+ Assert.assertEquals(470.30d, contentWidth, 0.01d);
 
  // Set the first column to be narrow.
  TextColumn column = columns.get(0);

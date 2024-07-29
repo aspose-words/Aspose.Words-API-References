@@ -4,7 +4,7 @@ linktitle: JsonDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of a JSON file or stream to be used within a report in Java.
 type: docs
-weight: 383
+weight: 384
 url: /java/com.aspose.words/jsondatasource/
 ---
 
@@ -35,6 +35,26 @@ In template documents, you can work with typed values of JSON elements. For conv
 The engine automatically recognizes values of the extra types upon their JSON representations.
 
 To override default behavior of JSON data loading, initialize and pass a [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions/) instance to a constructor of this class.
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
@@ -79,6 +99,26 @@ public JsonDataSource(String jsonPath, JsonDataLoadOptions options)
 
 
 Creates a new data source with data from a JSON file using the specified options for parsing JSON data.
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

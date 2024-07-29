@@ -4,7 +4,7 @@ linktitle: WarningInfoCollection
 second_title: Aspose.Words for Java
 description: Represents a typed collection of WarningInfo objects in Java.
 type: docs
-weight: 655
+weight: 660
 url: /java/com.aspose.words/warninginfocollection/
 ---
 
@@ -162,6 +162,21 @@ public WarningInfo get(int index)
 
 Gets an item at the specified index.
 
+ **Examples:** 
+
+Shows how to get warnings about unsupported formats.
+
+```
+
+ WarningInfoCollection warings = new WarningInfoCollection();
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setWarningCallback(warings);
+ Document doc = new Document(getMyDir() + "FB2 document.fb2", loadOptions);
+
+ Assert.assertEquals("The original file load format is FB2, which is not supported by Aspose.Words. The file is loaded as an XML document.", warings.get(0).getDescription());
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -176,6 +191,21 @@ public int getCount()
 
 
 Gets the number of elements contained in the collection.
+
+ **Examples:** 
+
+Shows how to get warnings about unsupported formats.
+
+```
+
+ WarningInfoCollection warings = new WarningInfoCollection();
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setWarningCallback(warings);
+ Document doc = new Document(getMyDir() + "FB2 document.fb2", loadOptions);
+
+ Assert.assertEquals("The original file load format is FB2, which is not supported by Aspose.Words. The file is loaded as an XML document.", warings.get(0).getDescription());
+ 
+```
 
 **Returns:**
 int - The number of elements contained in the collection.

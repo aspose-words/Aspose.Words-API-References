@@ -4,7 +4,7 @@ linktitle: PdfLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading Pdf document into a Document object in Java.
 type: docs
-weight: 497
+weight: 499
 url: /java/com.aspose.words/pdfloadoptions/
 ---
 
@@ -17,6 +17,27 @@ public class PdfLoadOptions extends LoadOptions
 Allows to specify additional options when loading Pdf document into a [Document](../../com.aspose.words/document/) object.
 
 To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
+
+ **Examples:** 
+
+Shows how to skip images during loading PDF files.
+
+```
+
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.setSkipPdfImages(isSkipPdfImages);
+ options.setPageIndex(0);
+ options.setPageCount(1);
+
+ Document doc = new Document(getMyDir() + "Images.pdf", options);
+ NodeCollection shapeCollection = doc.getChildNodes(NodeType.SHAPE, true);
+
+ if (isSkipPdfImages)
+     Assert.assertEquals(shapeCollection.getCount(), 0);
+ else
+     Assert.assertNotEquals(shapeCollection.getCount(), 0);
+ 
+```
 
 
 [Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
@@ -216,6 +237,24 @@ Gets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
@@ -425,6 +464,27 @@ public int getPageCount()
 
 Gets the number of pages to read. Default is MaxValue which means all pages of the document will be read.
 
+ **Examples:** 
+
+Shows how to skip images during loading PDF files.
+
+```
+
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.setSkipPdfImages(isSkipPdfImages);
+ options.setPageIndex(0);
+ options.setPageCount(1);
+
+ Document doc = new Document(getMyDir() + "Images.pdf", options);
+ NodeCollection shapeCollection = doc.getChildNodes(NodeType.SHAPE, true);
+
+ if (isSkipPdfImages)
+     Assert.assertEquals(shapeCollection.getCount(), 0);
+ else
+     Assert.assertNotEquals(shapeCollection.getCount(), 0);
+ 
+```
+
 **Returns:**
 int - The number of pages to read.
 ### getPageIndex() {#getPageIndex}
@@ -434,6 +494,27 @@ public int getPageIndex()
 
 
 Gets the 0-based index of the first page to read. Default is 0.
+
+ **Examples:** 
+
+Shows how to skip images during loading PDF files.
+
+```
+
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.setSkipPdfImages(isSkipPdfImages);
+ options.setPageIndex(0);
+ options.setPageCount(1);
+
+ Document doc = new Document(getMyDir() + "Images.pdf", options);
+ NodeCollection shapeCollection = doc.getChildNodes(NodeType.SHAPE, true);
+
+ if (isSkipPdfImages)
+     Assert.assertEquals(shapeCollection.getCount(), 0);
+ else
+     Assert.assertNotEquals(shapeCollection.getCount(), 0);
+ 
+```
 
 **Returns:**
 int - The 0-based index of the first page to read.
@@ -666,6 +747,27 @@ public boolean getSkipPdfImages()
 
 
 Gets the flag indicating whether images must be skipped while loading PDF document. Default is  false .
+
+ **Examples:** 
+
+Shows how to skip images during loading PDF files.
+
+```
+
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.setSkipPdfImages(isSkipPdfImages);
+ options.setPageIndex(0);
+ options.setPageCount(1);
+
+ Document doc = new Document(getMyDir() + "Images.pdf", options);
+ NodeCollection shapeCollection = doc.getChildNodes(NodeType.SHAPE, true);
+
+ if (isSkipPdfImages)
+     Assert.assertEquals(shapeCollection.getCount(), 0);
+ else
+     Assert.assertNotEquals(shapeCollection.getCount(), 0);
+ 
+```
 
 **Returns:**
 boolean - The flag indicating whether images must be skipped while loading PDF document.
@@ -995,6 +1097,24 @@ This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
 
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1190,6 +1310,27 @@ public void setPageCount(int value)
 
 Sets the number of pages to read. Default is MaxValue which means all pages of the document will be read.
 
+ **Examples:** 
+
+Shows how to skip images during loading PDF files.
+
+```
+
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.setSkipPdfImages(isSkipPdfImages);
+ options.setPageIndex(0);
+ options.setPageCount(1);
+
+ Document doc = new Document(getMyDir() + "Images.pdf", options);
+ NodeCollection shapeCollection = doc.getChildNodes(NodeType.SHAPE, true);
+
+ if (isSkipPdfImages)
+     Assert.assertEquals(shapeCollection.getCount(), 0);
+ else
+     Assert.assertNotEquals(shapeCollection.getCount(), 0);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1202,6 +1343,27 @@ public void setPageIndex(int value)
 
 
 Sets the 0-based index of the first page to read. Default is 0.
+
+ **Examples:** 
+
+Shows how to skip images during loading PDF files.
+
+```
+
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.setSkipPdfImages(isSkipPdfImages);
+ options.setPageIndex(0);
+ options.setPageCount(1);
+
+ Document doc = new Document(getMyDir() + "Images.pdf", options);
+ NodeCollection shapeCollection = doc.getChildNodes(NodeType.SHAPE, true);
+
+ if (isSkipPdfImages)
+     Assert.assertEquals(shapeCollection.getCount(), 0);
+ else
+     Assert.assertNotEquals(shapeCollection.getCount(), 0);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1449,6 +1611,27 @@ public void setSkipPdfImages(boolean value)
 
 
 Sets the flag indicating whether images must be skipped while loading PDF document. Default is  false .
+
+ **Examples:** 
+
+Shows how to skip images during loading PDF files.
+
+```
+
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.setSkipPdfImages(isSkipPdfImages);
+ options.setPageIndex(0);
+ options.setPageCount(1);
+
+ Document doc = new Document(getMyDir() + "Images.pdf", options);
+ NodeCollection shapeCollection = doc.getChildNodes(NodeType.SHAPE, true);
+
+ if (isSkipPdfImages)
+     Assert.assertEquals(shapeCollection.getCount(), 0);
+ else
+     Assert.assertNotEquals(shapeCollection.getCount(), 0);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

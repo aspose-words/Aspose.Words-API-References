@@ -4,7 +4,7 @@ linktitle: TextEffect
 second_title: Aspose.Words for Java
 description: Animation effect for text runs in Java.
 type: docs
-weight: 614
+weight: 617
 url: /java/com.aspose.words/texteffect/
 ---
 
@@ -15,6 +15,25 @@ public class TextEffect
 ```
 
 Animation effect for text runs.
+
+ **Examples:** 
+
+Shows how to apply a visual effect to a run.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setTextEffect(TextEffect.SPARKLE_TEXT);
+
+ builder.writeln("Text with a sparkle effect.");
+
+ // Older versions of Microsoft Word only support font animation effects.
+ doc.save(getArtifactsDir() + "Font.SparklingText.doc");
+ 
+```
 ## Fields
 
 | Field | Description |

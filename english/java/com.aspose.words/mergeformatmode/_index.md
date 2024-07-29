@@ -4,7 +4,7 @@ linktitle: MergeFormatMode
 second_title: Aspose.Words for Java
 description: Specifies how formatting is merged when combining multiple documents in Java.
 type: docs
-weight: 430
+weight: 431
 url: /java/com.aspose.words/mergeformatmode/
 ---
 
@@ -15,6 +15,26 @@ public class MergeFormatMode
 ```
 
 Specifies how formatting is merged when combining multiple documents.
+
+ **Examples:** 
+
+Shows how to merge documents into a single output document.
+
+```
+
+ //There is a several ways to merge documents:
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SimpleMerge.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" });
+
+ OoxmlSaveOptions ooxmlSaveOptions = new OoxmlSaveOptions();
+ ooxmlSaveOptions.setPassword("Aspose.Words");
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveOptions.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, ooxmlSaveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
+
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveFormat.pdf", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, SaveFormat.PDF, MergeFormatMode.KEEP_SOURCE_LAYOUT);
+
+ Document doc = Merger.merge(new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, MergeFormatMode.MERGE_FORMATTING);
+ doc.save(getArtifactsDir() + "LowCode.MergeDocument.DocumentInstance.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: FieldSeparator
 second_title: Aspose.Words for Java
 description: Represents a Word field separator that separates the field code from the field result in Java.
 type: docs
-weight: 267
+weight: 268
 url: /java/com.aspose.words/fieldseparator/
 ---
 
@@ -1088,6 +1088,185 @@ public String getText()
 
 Gets the special character that this node represents.
 
+ **Examples:** 
+
+Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
 **Returns:**
 java.lang.String - The string that contains the character that this node represents.
 ### isComposite() {#isComposite}
@@ -1096,7 +1275,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (149655,6)
+Returns  true  if this node can contain other nodes. (181117,6)
 
  **Examples:** 
 

@@ -4,7 +4,7 @@ linktitle: HtmlSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.HTML SaveFormat.MHTML SaveFormat.EPUB SaveFormat.AZW_3 or SaveFormat.MOBI format in Java.
 type: docs
-weight: 360
+weight: 361
 url: /java/com.aspose.words/htmlsaveoptions/
 ---
 
@@ -795,6 +795,24 @@ Gets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
@@ -2076,7 +2094,7 @@ If this option is set to  true , [Shape](../../com.aspose.words/shape/) nodes ar
 
  **Examples:** 
 
-Shows how to export text boxes as scalable vector graphics.
+Shows how to export shape as scalable vector graphics.
 
 ```
 
@@ -2946,7 +2964,13 @@ Shows how to convert SVG objects to a different format when saving HTML document
 ```
 
  String html =
-         "\r\n                    \r\n                        Hello world!\r\n                    \r\n                ";
+     "\n                    \n                        Hello world!\n                    \n                ";
+
+ // Use 'ConvertSvgToEmf' to turn back the legacy behavior
+ // where all SVG images loaded from an HTML document were converted to EMF.
+ // Now SVG images are loaded without conversion
+ // if the MS Word version specified in load options supports SVG images natively.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(); { loadOptions.setConvertSvgToEmf(true); }
 
  Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
 
@@ -3018,7 +3042,7 @@ Shows how to generate table of contents for Mobi documents.
  
 ```
 
-Shows how to generate table of contents for azw3 documents.
+Shows how to generate table of contents for Azw3 documents.
 
 ```
 
@@ -3672,6 +3696,28 @@ public boolean getUpdateCreatedTimeProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving.
 ### getUpdateFields() {#getUpdateFields}
@@ -3734,26 +3780,6 @@ public boolean getUpdateLastPrintedProperty()
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 
@@ -4287,6 +4313,24 @@ Sets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -5634,7 +5678,7 @@ If this option is set to  true , [Shape](../../com.aspose.words/shape/) nodes ar
 
  **Examples:** 
 
-Shows how to export text boxes as scalable vector graphics.
+Shows how to export shape as scalable vector graphics.
 
 ```
 
@@ -6549,7 +6593,13 @@ Shows how to convert SVG objects to a different format when saving HTML document
 ```
 
  String html =
-         "\r\n                    \r\n                        Hello world!\r\n                    \r\n                ";
+     "\n                    \n                        Hello world!\n                    \n                ";
+
+ // Use 'ConvertSvgToEmf' to turn back the legacy behavior
+ // where all SVG images loaded from an HTML document were converted to EMF.
+ // Now SVG images are loaded without conversion
+ // if the MS Word version specified in load options supports SVG images natively.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(); { loadOptions.setConvertSvgToEmf(true); }
 
  Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
 
@@ -6624,7 +6674,7 @@ Shows how to generate table of contents for Mobi documents.
  
 ```
 
-Shows how to generate table of contents for azw3 documents.
+Shows how to generate table of contents for Azw3 documents.
 
 ```
 
@@ -7311,6 +7361,28 @@ public void setUpdateCreatedTimeProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -7379,26 +7451,6 @@ public void setUpdateLastPrintedProperty(boolean value)
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 

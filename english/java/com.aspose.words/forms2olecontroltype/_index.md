@@ -4,7 +4,7 @@ linktitle: Forms2OleControlType
 second_title: Aspose.Words for Java
 description: Enumerates types of Forms 2.0 controls in Java.
 type: docs
-weight: 328
+weight: 329
 url: /java/com.aspose.words/forms2olecontroltype/
 ---
 
@@ -15,6 +15,23 @@ public class Forms2OleControlType
 ```
 
 Enumerates types of Forms 2.0 controls.
+
+ **Examples:** 
+
+Shows how to change state of the CheckBox control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ CheckBoxControl checkBoxControl = (CheckBoxControl)shape.getOleFormat().getOleControl();
+ checkBoxControl.setChecked(true);
+
+ Assert.assertEquals(true, checkBoxControl.getChecked());
+ Assert.assertEquals(Forms2OleControlType.CHECK_BOX, checkBoxControl.getType());
+ 
+```
 ## Fields
 
 | Field | Description |

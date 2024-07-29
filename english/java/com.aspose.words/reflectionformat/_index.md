@@ -4,7 +4,7 @@ linktitle: ReflectionFormat
 second_title: Aspose.Words for Java
 description: Represents the reflection formatting for an object in Java.
 type: docs
-weight: 516
+weight: 518
 url: /java/com.aspose.words/reflectionformat/
 ---
 
@@ -19,6 +19,42 @@ Represents the reflection formatting for an object.
  **Remarks:** 
 
 Use the [ShapeBase.getReflection()](../../com.aspose.words/shapebase/\#getReflection) property to access reflection properties of an object. You do not create instances of the [ReflectionFormat](../../com.aspose.words/reflectionformat/) class directly.
+
+ **Examples:** 
+
+Shows how to interact with reflection shape effect.
+
+```
+
+ Document doc = new Document(getMyDir() + "Various shapes.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Apply reflection effect to the shape.
+ shape.getReflection().setTransparency(0.37);
+ shape.getReflection().setSize(0.48);
+ shape.getReflection().setBlur(17.5);
+ shape.getReflection().setDistance(9.2);
+
+ doc.save(getArtifactsDir() + "Shape.Reflection.docx");
+
+ doc = new Document(getArtifactsDir() + "Shape.Reflection.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Check reflection effect attributes.
+ Assert.assertEquals(0.37d, shape.getReflection().getTransparency(), 0.01d);
+ Assert.assertEquals(0.48d, shape.getReflection().getSize(), 0.01d);
+ Assert.assertEquals(17.5d, shape.getReflection().getBlur(), 0.01d);
+ Assert.assertEquals(9.2d, shape.getReflection().getDistance(), 0.01d);
+
+ // Remove reflection effect from the shape.
+ shape.getReflection().remove();
+
+ Assert.assertEquals(0, shape.getReflection().getTransparency());
+ Assert.assertEquals(0, shape.getReflection().getSize());
+ Assert.assertEquals(0, shape.getReflection().getBlur());
+ Assert.assertEquals(0, shape.getReflection().getDistance());
+ 
+```
 ## Methods
 
 | Method | Description |

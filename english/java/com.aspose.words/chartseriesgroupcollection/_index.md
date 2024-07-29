@@ -23,6 +23,45 @@ Represents a collection of [ChartSeriesGroup](../../com.aspose.words/chartseries
 
 To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
+ **Examples:** 
+
+Shows how to work with the secondary axis of chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 250.0);
+ Chart chart = shape.getChart();
+ ChartSeriesCollection series = chart.getSeries();
+
+ // Delete default generated series.
+ series.clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2", "Category 3" };
+ series.add("Series 1 of primary series group", categories, new double[] { 2.0, 3.0, 4.0 });
+ series.add("Series 2 of primary series group", categories, new double[] { 5.0, 2.0, 3.0 });
+
+ // Create an additional series group, also of the line type.
+ ChartSeriesGroup newSeriesGroup = chart.getSeriesGroups().add(ChartSeriesType.LINE);
+ // Specify the use of secondary axes for the new series group.
+ newSeriesGroup.setAxisGroup(AxisGroup.SECONDARY);
+ // Hide the secondary X axis.
+ newSeriesGroup.getAxisX().setHidden(true);
+ // Define title of the secondary Y axis.
+ newSeriesGroup.getAxisY().getTitle().setShow(true);
+ newSeriesGroup.getAxisY().getTitle().setText("Secondary Y axis");
+
+ // Add a series to the new series group.
+ ChartSeries series3 =
+         newSeriesGroup.getSeries().add("Series of secondary series group", categories, new double[] { 13.0, 11.0, 16.0 });
+ series3.getFormat().getStroke().setWeight(3.5);
+
+ doc.save(getArtifactsDir() + "Charts.SecondaryAxis.docx");
+ 
+```
+
 
 [Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods

@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading HTML document into a Document object in Java.
 type: docs
-weight: 357
+weight: 358
 url: /java/com.aspose.words/htmlloadoptions/
 ---
 
@@ -17,6 +17,20 @@ public class HtmlLoadOptions extends LoadOptions
 Allows to specify additional options when loading HTML document into a [Document](../../com.aspose.words/document/) object.
 
 To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
+
+ **Examples:** 
+
+Shows how to support conditional comments while loading an HTML document.
+
+```
+
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+
+ // If the value is true, then we take VML code into account while parsing the loaded document.
+ loadOptions.setSupportVml(supportVml);
+
+ // This document contains a JPEG image within "
+```
 
 
 [Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
@@ -339,6 +353,60 @@ Newer versions of MS Word support SVG images natively. If the MS Word version sp
 
 If, however, this option is set to  true , Aspose.Words will convert loaded SVG images to EMF even if SVG images are supported by the specified version of MS Word.
 
+ **Examples:** 
+
+Shows how to convert SVG objects to a different format when saving HTML documents.
+
+```
+
+ String html =
+     "\n                    \n                        Hello world!\n                    \n                ";
+
+ // Use 'ConvertSvgToEmf' to turn back the legacy behavior
+ // where all SVG images loaded from an HTML document were converted to EMF.
+ // Now SVG images are loaded without conversion
+ // if the MS Word version specified in load options supports SVG images natively.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(); { loadOptions.setConvertSvgToEmf(true); }
+
+ Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
+
+ // This document contains a  element in the form of text.
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles this object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Png" to convert it to a PNG image.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Svg" preserve it as a SVG object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.EmfOrWmf" to convert it to a metafile.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setMetafileFormat(htmlMetafileFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html"), StandardCharsets.UTF_8);
+
+ switch (htmlMetafileFormat) {
+     case HtmlMetafileFormat.PNG:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.SVG:
+         Assert.assertTrue(outDocContents.contains(
+                 "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.EMF_OR_WMF:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
+
 **Returns:**
 boolean - A value indicating whether to convert loaded SVG images to the EMF format.
 ### getEncoding() {#getEncoding}
@@ -354,6 +422,24 @@ Gets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
@@ -1227,6 +1313,60 @@ Newer versions of MS Word support SVG images natively. If the MS Word version sp
 
 If, however, this option is set to  true , Aspose.Words will convert loaded SVG images to EMF even if SVG images are supported by the specified version of MS Word.
 
+ **Examples:** 
+
+Shows how to convert SVG objects to a different format when saving HTML documents.
+
+```
+
+ String html =
+     "\n                    \n                        Hello world!\n                    \n                ";
+
+ // Use 'ConvertSvgToEmf' to turn back the legacy behavior
+ // where all SVG images loaded from an HTML document were converted to EMF.
+ // Now SVG images are loaded without conversion
+ // if the MS Word version specified in load options supports SVG images natively.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(); { loadOptions.setConvertSvgToEmf(true); }
+
+ Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
+
+ // This document contains a  element in the form of text.
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles this object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Png" to convert it to a PNG image.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Svg" preserve it as a SVG object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.EmfOrWmf" to convert it to a metafile.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setMetafileFormat(htmlMetafileFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html"), StandardCharsets.UTF_8);
+
+ switch (htmlMetafileFormat) {
+     case HtmlMetafileFormat.PNG:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.SVG:
+         Assert.assertTrue(outDocContents.contains(
+                 "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.EMF_OR_WMF:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1245,6 +1385,24 @@ Sets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: FieldIncludeText
 second_title: Aspose.Words for Java
 description: Implements the INCLUDETEXT field in Java.
 type: docs
-weight: 232
+weight: 233
 url: /java/com.aspose.words/fieldincludetext/
 ---
 
@@ -44,6 +44,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -139,6 +140,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -232,6 +234,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -584,6 +587,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -635,6 +639,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -686,6 +691,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -867,6 +873,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1047,6 +1054,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1124,6 +1132,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1175,6 +1184,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1547,6 +1557,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1601,6 +1612,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1695,6 +1707,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1749,6 +1762,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1803,6 +1817,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1886,6 +1901,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1940,6 +1956,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -1994,6 +2011,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 
@@ -2048,6 +2066,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
      fieldIncludeText.setNamespaceMappings("xmlns:n='myNamespace'");
      fieldIncludeText.setXPath("/catalog/cd/title");
 
+     doc.updateFields();
      doc.save(getArtifactsDir() + "Field.INCLUDETEXT.docx");
  }
 

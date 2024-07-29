@@ -4,7 +4,7 @@ linktitle: FileFontSource
 second_title: Aspose.Words for Java
 description: Represents the single TrueType font file stored in the file system in Java.
 type: docs
-weight: 292
+weight: 293
 url: /java/com.aspose.words/filefontsource/
 ---
 
@@ -230,6 +230,59 @@ The key of this source in the cache.
 This key is used to identify cache item when saving/loading font search cache with  and  methods.
 
 If key is not specified then [getFilePath()](../../com.aspose.words/filefontsource/\#getFilePath) will be used as a key instead.
+
+ **Examples:** 
+
+Shows how to speed up the font cache initialization process.
+
+```
+
+ public void loadFontSearchCache() throws Exception
+ {
+     final String CACHE_KEY_1 = "Arvo";
+     final String CACHE_KEY_2 = "Arvo-Bold";
+     FontSettings parsedFonts = new FontSettings();
+     FontSettings loadedCache = new FontSettings();
+
+     parsedFonts.setFontsSources(new FontSourceBase[]
+             {
+                     new FileFontSource(getFontsDir() + "Arvo-Regular.ttf", 0, CACHE_KEY_1),
+                     new FileFontSource(getFontsDir() + "Arvo-Bold.ttf", 0, CACHE_KEY_2)
+             });
+
+     try (ByteArrayOutputStream cacheStream = new ByteArrayOutputStream())
+     {
+         parsedFonts.saveSearchCache(cacheStream);
+         ByteArrayInputStream inputStream = new ByteArrayInputStream(cacheStream.toByteArray());
+         loadedCache.setFontsSources(new FontSourceBase[]
+                 {
+                         new SearchCacheStream(CACHE_KEY_1),
+                         new MemoryFontSource(Files.readAllBytes(Paths.get(getFontsDir() + "Arvo-Bold.ttf")), 0, CACHE_KEY_2)
+                 }, inputStream);
+     }
+
+     Assert.assertEquals(parsedFonts.getFontsSources().length, loadedCache.getFontsSources().length);
+ }
+
+ /// 
+ /// Load the font data only when required instead of storing it in the memory
+ /// for the entire lifetime of the "FontSettings" object.
+ /// 
+ private static class SearchCacheStream extends StreamFontSource
+ {
+     public SearchCacheStream(String cacheKey)
+     {
+         super(0, cacheKey);
+
+     }
+
+     public FileInputStream openFontDataStream() throws Exception
+     {
+         return new FileInputStream(getFontsDir() + "Arvo-Regular.ttf");
+     }
+ }
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.

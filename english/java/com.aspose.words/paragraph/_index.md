@@ -4,7 +4,7 @@ linktitle: Paragraph
 second_title: Aspose.Words for Java
 description: Represents a paragraph of text in Java.
 type: docs
-weight: 482
+weight: 484
 url: /java/com.aspose.words/paragraph/
 ---
 
@@ -449,6 +449,185 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the document's paragraph.
 
+ **Examples:** 
+
+Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -463,6 +642,185 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the document's paragraph.
+
+ **Examples:** 
+
+Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2906,6 +3264,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for Java
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 562
+weight: 564
 url: /java/com.aspose.words/shape/
 ---
 
@@ -580,6 +580,119 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the shape.
 
+ **Examples:** 
+
+Shows how to iterate over all the shapes in a document.
+
+```
+
+ public void visitShapes() throws Exception {
+     Document doc = new Document(getMyDir() + "Revision shape.docx");
+     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Logs appearance-related information about visited shapes.
+ /// 
+ private static class ShapeAppearancePrinter extends DocumentVisitor {
+     public ShapeAppearancePrinter() {
+         mShapesVisited = 0;
+         mTextIndentLevel = 0;
+         mStringBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Appends a line to the StringBuilder with one prepended tab character for each indent level.
+     /// 
+     private void appendLine(String text) {
+         for (int i = 0; i < mTextIndentLevel; i++) {
+             mStringBuilder.append('\t');
+         }
+
+         mStringBuilder.append(text + "\n");
+     }
+
+     /// 
+     /// Return all the text that the StringBuilder has accumulated.
+     /// 
+     public String getText() {
+         return MessageFormat.format("Shapes visited: {0}\n{1}", mShapesVisited, mStringBuilder);
+     }
+
+     /// 
+     /// Called when this visitor visits the start of a Shape node.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         appendLine(MessageFormat.format("Shape found: {0}", shape.getShapeType()));
+
+         mTextIndentLevel++;
+
+         if (shape.hasChart())
+             appendLine(MessageFormat.format("Has chart: {0}", shape.getChart().getTitle().getText()));
+
+         appendLine(MessageFormat.format("Extrusion enabled: {0}", shape.getExtrusionEnabled()));
+         appendLine(MessageFormat.format("Shadow enabled: {0}", shape.getShadowEnabled()));
+         appendLine(MessageFormat.format("StoryType: {0}", shape.getStoryType()));
+
+         if (shape.getStroked()) {
+             Assert.assertEquals(shape.getStrokeColor(), shape.getStroke().getColor());
+             appendLine(MessageFormat.format("Stroke colors: {0}, {1}", shape.getStroke().getColor(), shape.getStroke().getColor2()));
+             appendLine(MessageFormat.format("Stroke weight: {0}", shape.getStrokeWeight()));
+         }
+
+         if (shape.getFilled())
+             appendLine(MessageFormat.format("Filled: {0}", shape.getFillColor()));
+
+         if (shape.getOleFormat() != null)
+             appendLine(MessageFormat.format("Ole found of type: {0}", shape.getOleFormat().getProgId()));
+
+         if (shape.getSignatureLine() != null)
+             appendLine(MessageFormat.format("Found signature line for: {0}, {1}", shape.getSignatureLine().getSigner(), shape.getSignatureLine().getSignerTitle()));
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when this visitor visits the end of a Shape node.
+     /// 
+     public int visitShapeEnd(Shape shape) {
+         mTextIndentLevel--;
+         mShapesVisited++;
+         appendLine(MessageFormat.format("End of {0}", shape.getShapeType()));
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when this visitor visits the start of a GroupShape node.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         appendLine(MessageFormat.format("Shape group found: {0}", groupShape.getShapeType()));
+         mTextIndentLevel++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when this visitor visits the end of a GroupShape node.
+     /// 
+     public int visitGroupShapeEnd(GroupShape groupShape) {
+         mTextIndentLevel--;
+         appendLine(MessageFormat.format("End of {0}", groupShape.getShapeType()));
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private int mShapesVisited;
+     private int mTextIndentLevel;
+     private final StringBuilder mStringBuilder;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -594,6 +707,119 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the shape.
+
+ **Examples:** 
+
+Shows how to iterate over all the shapes in a document.
+
+```
+
+ public void visitShapes() throws Exception {
+     Document doc = new Document(getMyDir() + "Revision shape.docx");
+     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Logs appearance-related information about visited shapes.
+ /// 
+ private static class ShapeAppearancePrinter extends DocumentVisitor {
+     public ShapeAppearancePrinter() {
+         mShapesVisited = 0;
+         mTextIndentLevel = 0;
+         mStringBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Appends a line to the StringBuilder with one prepended tab character for each indent level.
+     /// 
+     private void appendLine(String text) {
+         for (int i = 0; i < mTextIndentLevel; i++) {
+             mStringBuilder.append('\t');
+         }
+
+         mStringBuilder.append(text + "\n");
+     }
+
+     /// 
+     /// Return all the text that the StringBuilder has accumulated.
+     /// 
+     public String getText() {
+         return MessageFormat.format("Shapes visited: {0}\n{1}", mShapesVisited, mStringBuilder);
+     }
+
+     /// 
+     /// Called when this visitor visits the start of a Shape node.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         appendLine(MessageFormat.format("Shape found: {0}", shape.getShapeType()));
+
+         mTextIndentLevel++;
+
+         if (shape.hasChart())
+             appendLine(MessageFormat.format("Has chart: {0}", shape.getChart().getTitle().getText()));
+
+         appendLine(MessageFormat.format("Extrusion enabled: {0}", shape.getExtrusionEnabled()));
+         appendLine(MessageFormat.format("Shadow enabled: {0}", shape.getShadowEnabled()));
+         appendLine(MessageFormat.format("StoryType: {0}", shape.getStoryType()));
+
+         if (shape.getStroked()) {
+             Assert.assertEquals(shape.getStrokeColor(), shape.getStroke().getColor());
+             appendLine(MessageFormat.format("Stroke colors: {0}, {1}", shape.getStroke().getColor(), shape.getStroke().getColor2()));
+             appendLine(MessageFormat.format("Stroke weight: {0}", shape.getStrokeWeight()));
+         }
+
+         if (shape.getFilled())
+             appendLine(MessageFormat.format("Filled: {0}", shape.getFillColor()));
+
+         if (shape.getOleFormat() != null)
+             appendLine(MessageFormat.format("Ole found of type: {0}", shape.getOleFormat().getProgId()));
+
+         if (shape.getSignatureLine() != null)
+             appendLine(MessageFormat.format("Found signature line for: {0}, {1}", shape.getSignatureLine().getSigner(), shape.getSignatureLine().getSignerTitle()));
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when this visitor visits the end of a Shape node.
+     /// 
+     public int visitShapeEnd(Shape shape) {
+         mTextIndentLevel--;
+         mShapesVisited++;
+         appendLine(MessageFormat.format("End of {0}", shape.getShapeType()));
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when this visitor visits the start of a GroupShape node.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         appendLine(MessageFormat.format("Shape group found: {0}", groupShape.getShapeType()));
+         mTextIndentLevel++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when this visitor visits the end of a GroupShape node.
+     /// 
+     public int visitGroupShapeEnd(GroupShape groupShape) {
+         mTextIndentLevel--;
+         appendLine(MessageFormat.format("End of {0}", groupShape.getShapeType()));
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private int mShapesVisited;
+     private int mTextIndentLevel;
+     private final StringBuilder mStringBuilder;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -5031,6 +5257,21 @@ public ShadowFormat getShadowFormat()
 
 Gets shadow formatting for the shape.
 
+ **Examples:** 
+
+Shows how to get shadow color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShadowFormat shadowFormat = shape.getShadowFormat();
+
+ Assert.assertEquals(Color.RED.getRGB(), shadowFormat.getColor().getRGB());
+ Assert.assertEquals(ShadowType.SHADOW_MIXED, shadowFormat.getType());
+ 
+```
+
 **Returns:**
 [ShadowFormat](../../com.aspose.words/shadowformat/) - Shadow formatting for the shape.
 ### getShadowType() {#getShadowType}
@@ -7524,6 +7765,34 @@ public boolean isImage()
 
 Returns  true  if this shape is an image shape.
 
+ **Examples:** 
+
+Shows how to open an HTML document with images from a stream using a base URI.
+
+```
+
+ InputStream stream = new FileInputStream(getMyDir() + "Document.html");
+ try  {
+     // Pass the URI of the base folder while loading it
+     // so that any images with relative URIs in the HTML document can be found.
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setBaseUri(getImageDir());
+
+     Document doc = new Document(stream, loadOptions);
+
+     // Verify that the first shape of the document contains a valid image.
+     Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+     Assert.assertTrue(shape.isImage());
+     Assert.assertNotNull(shape.getImageData().getImageBytes());
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getWidth()), 0.01);
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getHeight()), 0.01);
+ } finally {
+     if (stream != null) stream.close();
+ }
+ 
+```
+
 **Returns:**
 boolean -  true  if this shape is an image shape.
 ### isInline() {#isInline}
@@ -8061,6 +8330,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

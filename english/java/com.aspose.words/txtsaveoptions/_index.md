@@ -4,7 +4,7 @@ linktitle: TxtSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.TEXT format in Java.
 type: docs
-weight: 635
+weight: 638
 url: /java/com.aspose.words/txtsaveoptions/
 ---
 
@@ -308,6 +308,24 @@ Gets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
@@ -1252,6 +1270,28 @@ public boolean getUpdateCreatedTimeProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving.
 ### getUpdateFields() {#getUpdateFields}
@@ -1314,26 +1354,6 @@ public boolean getUpdateLastPrintedProperty()
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 
@@ -1619,6 +1639,24 @@ Sets a value determining how 3D effects are rendered.
  **Remarks:** 
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2565,6 +2603,28 @@ public void setUpdateCreatedTimeProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2633,26 +2693,6 @@ public void setUpdateLastPrintedProperty(boolean value)
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 

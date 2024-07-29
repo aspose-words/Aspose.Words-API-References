@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for Java
 description: Represents an end of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 583
+weight: 586
 url: /java/com.aspose.words/structureddocumenttagrangeend/
 ---
 
@@ -95,6 +95,48 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 
 
 Initializes a new instance of the **Structured document tag range end** class.
+
+ **Examples:** 
+
+Shows how to create/remove structured document tag and its content.
+
+```
+{@code
+ public void sdtRangeExtendedMethods() throws Exception
+ {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.writeln("StructuredDocumentTag element");
+
+     StructuredDocumentTagRangeStart rangeStart = insertStructuredDocumentTagRanges(doc);
+
+     // Removes ranged structured document tag, but keeps content inside.
+     rangeStart.removeSelfOnly();
+
+     rangeStart = (StructuredDocumentTagRangeStart)doc.getChild(
+         NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, false);
+     Assert.assertEquals(null, rangeStart);
+
+     StructuredDocumentTagRangeEnd rangeEnd = (StructuredDocumentTagRangeEnd)doc.getChild(
+         NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_END, 0, false);
+
+     Assert.assertEquals(null, rangeEnd);
+     Assert.assertEquals("StructuredDocumentTag element", doc.getText().trim());
+
+     rangeStart = insertStructuredDocumentTagRanges(doc);
+
+     Node paragraphNode = rangeStart.getLastChild();
+     if (paragraphNode != null)
+         Assert.assertEquals("StructuredDocumentTag element", paragraphNode.getText().trim());
+
+     // Removes ranged structured document tag and content inside.
+     rangeStart.removeAllChildren();
+
+     paragraphNode = rangeStart.getLastChild();
+     Assert.assertEquals(null,  paragraphNode);
+ }
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -731,7 +773,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (149655,6)
+Returns  true  if this node can contain other nodes. (181117,6)
 
  **Examples:** 
 

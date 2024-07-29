@@ -65,6 +65,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -315,6 +318,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -383,6 +389,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -657,6 +666,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -725,6 +737,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -929,6 +944,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -997,6 +1015,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -1261,6 +1282,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -1610,6 +1634,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -2234,6 +2261,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -2305,6 +2335,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -2463,6 +2496,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -2534,6 +2570,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -2747,6 +2786,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -2818,6 +2860,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -3035,6 +3080,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());
@@ -3330,6 +3378,9 @@ Shows how to insert a chart and modify the appearance of its axes.
  yAxis.setMajorUnit(100.0d);
  yAxis.setMinorUnit(20.0d);
  yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
 
  // Column charts do not have a Z-axis.
  Assert.assertNull(chart.getAxisZ());

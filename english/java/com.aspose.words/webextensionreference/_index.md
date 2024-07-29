@@ -4,7 +4,7 @@ linktitle: WebExtensionReference
 second_title: Aspose.Words for Java
 description: Represents the reference to a web extension in Java.
 type: docs
-weight: 667
+weight: 672
 url: /java/com.aspose.words/webextensionreference/
 ---
 
@@ -17,6 +17,50 @@ public class WebExtensionReference
 Represents the reference to a web extension. The reference is used to identify the provider location and version of the extension.
 
 To learn more, visit the [ Work with Office Add-ins ][Work with Office Add-ins] documentation article.
+
+ **Examples:** 
+
+Shows how to add a web extension to a document.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+ 
+```
 
 
 [Work with Office Add-ins]: https://docs.aspose.com/words/java/work-with-office-add-ins/

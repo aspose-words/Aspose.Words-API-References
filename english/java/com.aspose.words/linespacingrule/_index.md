@@ -4,7 +4,7 @@ linktitle: LineSpacingRule
 second_title: Aspose.Words for Java
 description: Specifies line spacing values for a paragraph in Java.
 type: docs
-weight: 396
+weight: 397
 url: /java/com.aspose.words/linespacingrule/
 ---
 
@@ -15,6 +15,46 @@ public class LineSpacingRule
 ```
 
 Specifies line spacing values for a paragraph.
+
+ **Examples:** 
+
+Shows how to work with line spacing.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are three line spacing rules that we can define using the
+ // paragraph's "LineSpacingRule" property to configure spacing between paragraphs.
+ // 1 -  Set a minimum amount of spacing.
+ // This will give vertical padding to lines of text of any size
+ // that is too small to maintain the minimum line-height.
+ builder.getParagraphFormat().setLineSpacingRule(LineSpacingRule.AT_LEAST);
+ builder.getParagraphFormat().setLineSpacing(20.0);
+
+ builder.writeln("Minimum line spacing of 20.");
+ builder.writeln("Minimum line spacing of 20.");
+
+ // 2 -  Set exact spacing.
+ // Using font sizes that are too large for the spacing will truncate the text.
+ builder.getParagraphFormat().setLineSpacingRule(LineSpacingRule.EXACTLY);
+ builder.getParagraphFormat().setLineSpacing(5.0);
+
+ builder.writeln("Line spacing of exactly 5.");
+ builder.writeln("Line spacing of exactly 5.");
+
+ // 3 -  Set spacing as a multiple of default line spacing, which is 12 points by default.
+ // This kind of spacing will scale to different font sizes.
+ builder.getParagraphFormat().setLineSpacingRule(LineSpacingRule.MULTIPLE);
+ builder.getParagraphFormat().setLineSpacing(18.0);
+
+ builder.writeln("Line spacing of 1.5 default lines.");
+ builder.writeln("Line spacing of 1.5 default lines.");
+
+ doc.save(getArtifactsDir() + "ParagraphFormat.LineSpacing.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

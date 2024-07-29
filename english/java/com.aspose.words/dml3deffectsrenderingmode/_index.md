@@ -4,7 +4,7 @@ linktitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for Java
 description: Specifies how 3D shape effects are rendered in Java.
 type: docs
-weight: 143
+weight: 144
 url: /java/com.aspose.words/dml3deffectsrenderingmode/
 ---
 
@@ -15,6 +15,24 @@ public class Dml3DEffectsRenderingMode
 ```
 
 Specifies how 3D shape effects are rendered.
+
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

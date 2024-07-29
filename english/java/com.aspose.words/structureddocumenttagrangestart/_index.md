@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 584
+weight: 587
 url: /java/com.aspose.words/structureddocumenttagrangestart/
 ---
 
@@ -1327,7 +1327,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (149655,6)
+Returns  true  if this node can contain other nodes. (181117,6)
 
  **Examples:** 
 
@@ -1720,6 +1720,48 @@ public void removeAllChildren()
 
 Removes all the nodes between this range start node and the range end node.
 
+ **Examples:** 
+
+Shows how to create/remove structured document tag and its content.
+
+```
+{@code
+ public void sdtRangeExtendedMethods() throws Exception
+ {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.writeln("StructuredDocumentTag element");
+
+     StructuredDocumentTagRangeStart rangeStart = insertStructuredDocumentTagRanges(doc);
+
+     // Removes ranged structured document tag, but keeps content inside.
+     rangeStart.removeSelfOnly();
+
+     rangeStart = (StructuredDocumentTagRangeStart)doc.getChild(
+         NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, false);
+     Assert.assertEquals(null, rangeStart);
+
+     StructuredDocumentTagRangeEnd rangeEnd = (StructuredDocumentTagRangeEnd)doc.getChild(
+         NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_END, 0, false);
+
+     Assert.assertEquals(null, rangeEnd);
+     Assert.assertEquals("StructuredDocumentTag element", doc.getText().trim());
+
+     rangeStart = insertStructuredDocumentTagRanges(doc);
+
+     Node paragraphNode = rangeStart.getLastChild();
+     if (paragraphNode != null)
+         Assert.assertEquals("StructuredDocumentTag element", paragraphNode.getText().trim());
+
+     // Removes ranged structured document tag and content inside.
+     rangeStart.removeAllChildren();
+
+     paragraphNode = rangeStart.getLastChild();
+     Assert.assertEquals(null,  paragraphNode);
+ }
+```
+
 ### removeSelfOnly() {#removeSelfOnly}
 ```
 public void removeSelfOnly()
@@ -1727,6 +1769,48 @@ public void removeSelfOnly()
 
 
 Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree.
+
+ **Examples:** 
+
+Shows how to create/remove structured document tag and its content.
+
+```
+{@code
+ public void sdtRangeExtendedMethods() throws Exception
+ {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.writeln("StructuredDocumentTag element");
+
+     StructuredDocumentTagRangeStart rangeStart = insertStructuredDocumentTagRanges(doc);
+
+     // Removes ranged structured document tag, but keeps content inside.
+     rangeStart.removeSelfOnly();
+
+     rangeStart = (StructuredDocumentTagRangeStart)doc.getChild(
+         NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, 0, false);
+     Assert.assertEquals(null, rangeStart);
+
+     StructuredDocumentTagRangeEnd rangeEnd = (StructuredDocumentTagRangeEnd)doc.getChild(
+         NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_END, 0, false);
+
+     Assert.assertEquals(null, rangeEnd);
+     Assert.assertEquals("StructuredDocumentTag element", doc.getText().trim());
+
+     rangeStart = insertStructuredDocumentTagRanges(doc);
+
+     Node paragraphNode = rangeStart.getLastChild();
+     if (paragraphNode != null)
+         Assert.assertEquals("StructuredDocumentTag element", paragraphNode.getText().trim());
+
+     // Removes ranged structured document tag and content inside.
+     rangeStart.removeAllChildren();
+
+     paragraphNode = rangeStart.getLastChild();
+     Assert.assertEquals(null,  paragraphNode);
+ }
+```
 
 ### setAppearance(int value) {#setAppearance-int}
 ```

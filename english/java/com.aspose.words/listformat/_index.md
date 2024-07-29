@@ -4,7 +4,7 @@ linktitle: ListFormat
 second_title: Aspose.Words for Java
 description: Allows to control what list formatting is applied to a paragraph in Java.
 type: docs
-weight: 400
+weight: 401
 url: /java/com.aspose.words/listformat/
 ---
 
@@ -66,8 +66,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -130,7 +130,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");
@@ -226,7 +226,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");
@@ -341,8 +341,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -526,8 +526,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -559,7 +559,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");
@@ -697,8 +697,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -748,7 +748,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");
@@ -846,7 +846,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");
@@ -968,7 +968,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");
@@ -1083,8 +1083,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -1203,8 +1203,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -1236,7 +1236,7 @@ Shows how to create bulleted and numbered lists.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Below are two types of lists that we can create with a document builder.
  // 1 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
  builder.getListFormat().applyBulletDefault();
  builder.writeln("Great performance");
  builder.writeln("High reliability");

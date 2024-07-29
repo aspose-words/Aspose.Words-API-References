@@ -27,6 +27,26 @@ A legend entry corresponds to a specific chart series or trendline.
 
 The text of the entry is the name of the series or trendline. The text cannot be changed.
 
+ **Examples:** 
+
+Shows how to work with a legend font.
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series (Java).docx");
+ Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
+
+ ChartLegend chartLegend = chart.getLegend();
+ // Set default font size all legend entries.
+ chartLegend.getFont().setSize(14.0);
+ // Change font for specific legend entry.
+ chartLegend.getLegendEntries().get(1).getFont().setItalic(true);
+ chartLegend.getLegendEntries().get(1).getFont().setSize(12.0);
+
+ doc.save(getArtifactsDir() + "Charts.LegendFont.docx");
+ 
+```
+
 
 [Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods

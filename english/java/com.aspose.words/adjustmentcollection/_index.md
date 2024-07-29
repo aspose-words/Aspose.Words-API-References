@@ -51,6 +51,28 @@ public Adjustment get(int index)
 
 Returns an adjustment at the specified index.
 
+ **Examples:** 
+
+Shows how to work with adjustment raw values.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rounded rectangle shape.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ AdjustmentCollection adjustments = shape.getAdjustments();
+ Assert.assertEquals(1, adjustments.getCount());
+
+ Adjustment adjustment = adjustments.get(0);
+ Assert.assertEquals("adj", adjustment.getName());
+ Assert.assertEquals(16667, adjustment.getValue());
+
+ adjustment.setValue(30000);
+
+ doc.save(getArtifactsDir() + "Shape.Adjustments.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -65,6 +87,28 @@ public int getCount()
 
 
 Gets the number of elements contained in the collection.
+
+ **Examples:** 
+
+Shows how to work with adjustment raw values.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rounded rectangle shape.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ AdjustmentCollection adjustments = shape.getAdjustments();
+ Assert.assertEquals(1, adjustments.getCount());
+
+ Adjustment adjustment = adjustments.get(0);
+ Assert.assertEquals("adj", adjustment.getName());
+ Assert.assertEquals(16667, adjustment.getValue());
+
+ adjustment.setValue(30000);
+
+ doc.save(getArtifactsDir() + "Shape.Adjustments.docx");
+ 
+```
 
 **Returns:**
 int - The number of elements contained in the collection.

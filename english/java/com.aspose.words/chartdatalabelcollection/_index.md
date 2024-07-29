@@ -103,6 +103,8 @@ Shows how to apply labels to data points in a line chart.
 | [getFont()](#getFont) | Provides access to the font formatting of the data labels of the entire series. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the data labels. |
 | [getNumberFormat()](#getNumberFormat) | Gets an [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
+| [getOrientation()](#getOrientation) | Gets the text orientation of the data labels of the entire series. |
+| [getRotation()](#getRotation) | Gets the rotation of the data labels of the entire series in degrees. |
 | [getSeparator()](#getSeparator) | Gets string separator used for the data labels of the entire series. |
 | [getShapeType()](#getShapeType) |  |
 | [getShowBubbleSize()](#getShowBubbleSize) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. |
@@ -118,6 +120,8 @@ Shows how to apply labels to data points in a line chart.
 | [isInherited()](#isInherited) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
 | [materializeSpPr()](#materializeSpPr) |  |
+| [setOrientation(int value)](#setOrientation-int) | Sets the text orientation of the data labels of the entire series. |
+| [setRotation(int value)](#setRotation-int) | Sets the rotation of the data labels of the entire series in degrees. |
 | [setSeparator(String value)](#setSeparator-java.lang.String) | Sets string separator used for the data labels of the entire series. |
 | [setShapeType(int value)](#setShapeType-int) |  |
 | [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. |
@@ -513,6 +517,104 @@ Shows how to enable and configure data labels for a chart series.
 
 **Returns:**
 [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) - An [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) instance allowing to set number format for the data labels of the entire series.
+### getOrientation() {#getOrientation}
+```
+public int getOrientation()
+```
+
+
+Gets the text orientation of the data labels of the entire series.
+
+ **Remarks:** 
+
+The default value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for data labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+
+ // Show data labels.
+ series.hasDataLabels(true);
+ dataLabels.setShowValue(true);
+ dataLabels.setShowCategoryName(true);
+
+ // Define data label shape.
+ dataLabels.getFormat().setShapeType(ChartShapeType.UP_ARROW);
+ dataLabels.getFormat().getStroke().getFill().solid(Color.blue);
+
+ // Set data label orientation and rotation for the entire series.
+ dataLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ dataLabels.setRotation(-45);
+
+ // Change orientation and rotation of the first data label.
+ dataLabels.get(0).setOrientation(ShapeTextOrientation.HORIZONTAL);
+ dataLabels.get(0).setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.LabelOrientationRotation.docx");
+ 
+```
+
+**Returns:**
+int - The text orientation of the data labels of the entire series. The returned value is one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants.
+### getRotation() {#getRotation}
+```
+public int getRotation()
+```
+
+
+Gets the rotation of the data labels of the entire series in degrees.
+
+ **Remarks:** 
+
+The range of acceptable values is from -180 to 180 inclusive. The default value is 0.
+
+If the [getOrientation()](../../com.aspose.words/chartdatalabelcollection/\#getOrientation) / [setOrientation(int)](../../com.aspose.words/chartdatalabelcollection/\#setOrientation-int) value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL), label shapes, if they exist, are rotated along with the label text. Otherwise, only the label text is rotated.
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for data labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+
+ // Show data labels.
+ series.hasDataLabels(true);
+ dataLabels.setShowValue(true);
+ dataLabels.setShowCategoryName(true);
+
+ // Define data label shape.
+ dataLabels.getFormat().setShapeType(ChartShapeType.UP_ARROW);
+ dataLabels.getFormat().getStroke().getFill().solid(Color.blue);
+
+ // Set data label orientation and rotation for the entire series.
+ dataLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ dataLabels.setRotation(-45);
+
+ // Change orientation and rotation of the first data label.
+ dataLabels.get(0).setOrientation(ShapeTextOrientation.HORIZONTAL);
+ dataLabels.get(0).setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.LabelOrientationRotation.docx");
+ 
+```
+
+**Returns:**
+int - The rotation of the data labels of the entire series in degrees.
 ### getSeparator() {#getSeparator}
 ```
 public String getSeparator()
@@ -1054,6 +1156,110 @@ public void materializeSpPr()
 
 
 
+
+### setOrientation(int value) {#setOrientation-int}
+```
+public void setOrientation(int value)
+```
+
+
+Sets the text orientation of the data labels of the entire series.
+
+ **Remarks:** 
+
+The default value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for data labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+
+ // Show data labels.
+ series.hasDataLabels(true);
+ dataLabels.setShowValue(true);
+ dataLabels.setShowCategoryName(true);
+
+ // Define data label shape.
+ dataLabels.getFormat().setShapeType(ChartShapeType.UP_ARROW);
+ dataLabels.getFormat().getStroke().getFill().solid(Color.blue);
+
+ // Set data label orientation and rotation for the entire series.
+ dataLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ dataLabels.setRotation(-45);
+
+ // Change orientation and rotation of the first data label.
+ dataLabels.get(0).setOrientation(ShapeTextOrientation.HORIZONTAL);
+ dataLabels.get(0).setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.LabelOrientationRotation.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The text orientation of the data labels of the entire series. The value must be one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants. |
+
+### setRotation(int value) {#setRotation-int}
+```
+public void setRotation(int value)
+```
+
+
+Sets the rotation of the data labels of the entire series in degrees.
+
+ **Remarks:** 
+
+The range of acceptable values is from -180 to 180 inclusive. The default value is 0.
+
+If the [getOrientation()](../../com.aspose.words/chartdatalabelcollection/\#getOrientation) / [setOrientation(int)](../../com.aspose.words/chartdatalabelcollection/\#setOrientation-int) value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL), label shapes, if they exist, are rotated along with the label text. Otherwise, only the label text is rotated.
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for data labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ ChartSeries series = shape.getChart().getSeries().get(0);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+
+ // Show data labels.
+ series.hasDataLabels(true);
+ dataLabels.setShowValue(true);
+ dataLabels.setShowCategoryName(true);
+
+ // Define data label shape.
+ dataLabels.getFormat().setShapeType(ChartShapeType.UP_ARROW);
+ dataLabels.getFormat().getStroke().getFill().solid(Color.blue);
+
+ // Set data label orientation and rotation for the entire series.
+ dataLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ dataLabels.setRotation(-45);
+
+ // Change orientation and rotation of the first data label.
+ dataLabels.get(0).setOrientation(ShapeTextOrientation.HORIZONTAL);
+ dataLabels.get(0).setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.LabelOrientationRotation.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The rotation of the data labels of the entire series in degrees. |
 
 ### setSeparator(String value) {#setSeparator-java.lang.String}
 ```

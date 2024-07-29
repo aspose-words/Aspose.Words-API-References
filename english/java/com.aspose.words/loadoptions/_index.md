@@ -4,7 +4,7 @@ linktitle: LoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options such as password or base URI when loading a document into a Document object in Java.
 type: docs
-weight: 408
+weight: 409
 url: /java/com.aspose.words/loadoptions/
 ---
 
@@ -335,6 +335,24 @@ Gets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
@@ -1083,6 +1101,24 @@ Sets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

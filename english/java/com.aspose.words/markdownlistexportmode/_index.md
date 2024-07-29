@@ -4,7 +4,7 @@ linktitle: MarkdownListExportMode
 second_title: Aspose.Words for Java
 description: Specifies how lists are exported into Markdown in Java.
 type: docs
-weight: 420
+weight: 421
 url: /java/com.aspose.words/markdownlistexportmode/
 ---
 
@@ -15,6 +15,20 @@ public class MarkdownListExportMode
 ```
 
 Specifies how lists are exported into Markdown.
+
+ **Examples:** 
+
+Shows how to list items will be written to the markdown document.
+
+```
+
+ Document doc = new Document(getMyDir() + "List item.docx");
+
+ // Use MarkdownListExportMode.PlainText or MarkdownListExportMode.MarkdownSyntax to export list.
+ MarkdownSaveOptions options = new MarkdownSaveOptions(); { options.setListExportMode(markdownListExportMode); }
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ListExportMode.md", options);
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: SmartTag
 second_title: Aspose.Words for Java
 description: This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph in Java.
 type: docs
-weight: 572
+weight: 575
 url: /java/com.aspose.words/smarttag/
 ---
 
@@ -411,6 +411,99 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the SmartTag.
 
+ **Examples:** 
+
+Shows how to create smart tags.
+
+```
+
+ public void create() throws Exception {
+     Document doc = new Document();
+
+     // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+     // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+     SmartTag smartTag = new SmartTag(doc);
+
+     // Smart tags are composite nodes that contain their recognized text in its entirety.
+     // Add contents to this smart tag manually.
+     smartTag.appendChild(new Run(doc, "May 29, 2019"));
+
+     // Microsoft Word may recognize the above contents as being a date.
+     // Smart tags use the "Element" property to reflect the type of data they contain.
+     smartTag.setElement("date");
+
+     // Some smart tag types process their contents further into custom XML properties.
+     smartTag.getProperties().add(new CustomXmlProperty("Day", "", "29"));
+     smartTag.getProperties().add(new CustomXmlProperty("Month", "", "5"));
+     smartTag.getProperties().add(new CustomXmlProperty("Year", "", "2019"));
+
+     // Set the smart tag's URI to the default value.
+     smartTag.setUri("urn:schemas-microsoft-com:office:smarttags");
+
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(smartTag);
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(new Run(doc, " is a date. "));
+
+     // Create another smart tag for a stock ticker.
+     smartTag = new SmartTag(doc);
+     smartTag.setElement("stockticker");
+     smartTag.setUri("urn:schemas-microsoft-com:office:smarttags");
+
+     smartTag.appendChild(new Run(doc, "MSFT"));
+
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(smartTag);
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(new Run(doc, " is a stock ticker."));
+
+     // Print all the smart tags in our document using a document visitor.
+     doc.accept(new SmartTagPrinter());
+
+     // Older versions of Microsoft Word support smart tags.
+     doc.save(getArtifactsDir() + "SmartTag.Create.doc");
+
+     // Use the "RemoveSmartTags" method to remove all smart tags from a document.
+     Assert.assertEquals(2, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+
+     doc.removeSmartTags();
+
+     Assert.assertEquals(0, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+ }
+
+ /// 
+ /// Prints visited smart tags and their contents.
+ /// 
+ private static class SmartTagPrinter extends DocumentVisitor {
+     /// 
+     /// Called when a SmartTag node is encountered in the document.
+     /// 
+     public int visitSmartTagStart(SmartTag smartTag) {
+         System.out.println("Smart tag type: {smartTag.Element}");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a SmartTag node is ended.
+     /// 
+     public int visitSmartTagEnd(SmartTag smartTag) {
+         System.out.println("\tContents: \"{smartTag.ToString(SaveFormat.Text)}\"");
+
+         if (smartTag.getProperties().getCount() == 0) {
+             System.out.println("\tContains no properties");
+         } else {
+             System.out.println("\tProperties: ");
+             String[] properties = new String[smartTag.getProperties().getCount()];
+             int index = 0;
+
+             for (CustomXmlProperty cxp : smartTag.getProperties())
+                 properties[index++] = MessageFormat.format("\"{0}\" = \"{1}\"", cxp.getName(), cxp.getValue());
+
+             System.out.println(StringUtils.join(properties, ", "));
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -425,6 +518,99 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the SmartTag.
+
+ **Examples:** 
+
+Shows how to create smart tags.
+
+```
+
+ public void create() throws Exception {
+     Document doc = new Document();
+
+     // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+     // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+     SmartTag smartTag = new SmartTag(doc);
+
+     // Smart tags are composite nodes that contain their recognized text in its entirety.
+     // Add contents to this smart tag manually.
+     smartTag.appendChild(new Run(doc, "May 29, 2019"));
+
+     // Microsoft Word may recognize the above contents as being a date.
+     // Smart tags use the "Element" property to reflect the type of data they contain.
+     smartTag.setElement("date");
+
+     // Some smart tag types process their contents further into custom XML properties.
+     smartTag.getProperties().add(new CustomXmlProperty("Day", "", "29"));
+     smartTag.getProperties().add(new CustomXmlProperty("Month", "", "5"));
+     smartTag.getProperties().add(new CustomXmlProperty("Year", "", "2019"));
+
+     // Set the smart tag's URI to the default value.
+     smartTag.setUri("urn:schemas-microsoft-com:office:smarttags");
+
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(smartTag);
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(new Run(doc, " is a date. "));
+
+     // Create another smart tag for a stock ticker.
+     smartTag = new SmartTag(doc);
+     smartTag.setElement("stockticker");
+     smartTag.setUri("urn:schemas-microsoft-com:office:smarttags");
+
+     smartTag.appendChild(new Run(doc, "MSFT"));
+
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(smartTag);
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(new Run(doc, " is a stock ticker."));
+
+     // Print all the smart tags in our document using a document visitor.
+     doc.accept(new SmartTagPrinter());
+
+     // Older versions of Microsoft Word support smart tags.
+     doc.save(getArtifactsDir() + "SmartTag.Create.doc");
+
+     // Use the "RemoveSmartTags" method to remove all smart tags from a document.
+     Assert.assertEquals(2, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+
+     doc.removeSmartTags();
+
+     Assert.assertEquals(0, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+ }
+
+ /// 
+ /// Prints visited smart tags and their contents.
+ /// 
+ private static class SmartTagPrinter extends DocumentVisitor {
+     /// 
+     /// Called when a SmartTag node is encountered in the document.
+     /// 
+     public int visitSmartTagStart(SmartTag smartTag) {
+         System.out.println("Smart tag type: {smartTag.Element}");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a SmartTag node is ended.
+     /// 
+     public int visitSmartTagEnd(SmartTag smartTag) {
+         System.out.println("\tContents: \"{smartTag.ToString(SaveFormat.Text)}\"");
+
+         if (smartTag.getProperties().getCount() == 0) {
+             System.out.println("\tContains no properties");
+         } else {
+             System.out.println("\tProperties: ");
+             String[] properties = new String[smartTag.getProperties().getCount()];
+             int index = 0;
+
+             for (CustomXmlProperty cxp : smartTag.getProperties())
+                 properties[index++] = MessageFormat.format("\"{0}\" = \"{1}\"", cxp.getName(), cxp.getValue());
+
+             System.out.println(StringUtils.join(properties, ", "));
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1700,6 +1886,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

@@ -4,7 +4,7 @@ linktitle: ImageWatermarkOptions
 second_title: Aspose.Words for Java
 description: Contains options that can be specified when adding a watermark with image in Java.
 type: docs
-weight: 373
+weight: 374
 url: /java/com.aspose.words/imagewatermarkoptions/
 ---
 
@@ -17,6 +17,26 @@ public class ImageWatermarkOptions
 Contains options that can be specified when adding a watermark with image.
 
 To learn more, visit the [ Working with Watermark ][Working with Watermark] documentation article.
+
+ **Examples:** 
+
+Shows how to create a watermark from an image in the local file system.
+
+```
+
+ Document doc = new Document();
+
+ // Modify the image watermark's appearance with an ImageWatermarkOptions object,
+ // then pass it while creating a watermark from an image file.
+ ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+ imageWatermarkOptions.setScale(5.0);
+ imageWatermarkOptions.isWashout(false);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
+ 
+```
 
 
 [Working with Watermark]: https://docs.aspose.com/words/java/working-with-watermark/

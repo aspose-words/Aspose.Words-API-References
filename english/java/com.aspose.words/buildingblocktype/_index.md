@@ -53,7 +53,12 @@ Shows how to add a custom building block to a document.
      // Before we can add this building block to our document, we will need to give it some contents,
      // which we will do using a document visitor. This visitor will also set a category, gallery, and behavior.
      BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+     // Visit start/end of the BuildingBlock.
      block.accept(visitor);
+     // Visit only start of the BuildingBlock.
+     block.acceptStart(visitor);
+     // Visit only end of the BuildingBlock.
+     block.acceptEnd(visitor);
 
      // We can access the block that we just made from the glossary document.
      BuildingBlock customBlock = glossaryDoc.getBuildingBlock(BuildingBlockGallery.QUICK_PARTS,

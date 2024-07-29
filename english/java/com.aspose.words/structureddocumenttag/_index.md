@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Represents a structured document tag SDT or content control in a document in Java.
 type: docs
-weight: 581
+weight: 584
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 
@@ -315,6 +315,91 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the StructuredDocumentTag.
 
+ **Examples:** 
+
+Shows how to print the node structure of every structured document tag in a document.
+
+```
+
+ public void structuredDocumentTagToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered StructuredDocumentTag nodes and their children.
+ /// 
+ public static class StructuredDocumentTagNodePrinter extends DocumentVisitor {
+     public StructuredDocumentTagNodePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideStructuredDocumentTag = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideStructuredDocumentTag) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a StructuredDocumentTag node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagStart(final StructuredDocumentTag sdt) {
+         indentAndAppendLine("[StructuredDocumentTag start] Title: " + sdt.getTitle());
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a StructuredDocumentTag node have been visited.
+     /// 
+     public int visitStructuredDocumentTagEnd(final StructuredDocumentTag sdt) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[StructuredDocumentTag end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private final boolean mVisitorIsInsideStructuredDocumentTag;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -329,6 +414,91 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the StructuredDocumentTag.
+
+ **Examples:** 
+
+Shows how to print the node structure of every structured document tag in a document.
+
+```
+
+ public void structuredDocumentTagToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered StructuredDocumentTag nodes and their children.
+ /// 
+ public static class StructuredDocumentTagNodePrinter extends DocumentVisitor {
+     public StructuredDocumentTagNodePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideStructuredDocumentTag = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideStructuredDocumentTag) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a StructuredDocumentTag node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagStart(final StructuredDocumentTag sdt) {
+         indentAndAppendLine("[StructuredDocumentTag start] Title: " + sdt.getTitle());
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a StructuredDocumentTag node have been visited.
+     /// 
+     public int visitStructuredDocumentTagEnd(final StructuredDocumentTag sdt) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[StructuredDocumentTag end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private final boolean mVisitorIsInsideStructuredDocumentTag;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2647,6 +2817,39 @@ public String getWordOpenXMLMinimal()
 
 Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. Unlike the [getWordOpenXML()](../../com.aspose.words/structureddocumenttag/\#getWordOpenXML) property, this method generates a stripped-down document that excludes any non-content-related parts.
 
+ **Examples:** 
+
+Shows how to work with styles for content control elements.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways to apply a style from the document to a structured document tag.
+ // 1 -  Apply a style object from the document's style collection:
+ Style quoteStyle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.QUOTE);
+ StructuredDocumentTag sdtPlainText = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.INLINE);
+ sdtPlainText.setStyle(quoteStyle);
+
+ // 2 -  Reference a style in the document by name:
+ StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RICH_TEXT, MarkupLevel.INLINE);
+ sdtRichText.setStyleName("Quote");
+
+ builder.insertNode(sdtPlainText);
+ builder.insertNode(sdtRichText);
+
+ Assert.assertEquals(NodeType.STRUCTURED_DOCUMENT_TAG, sdtPlainText.getNodeType());
+
+ NodeCollection tags = doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG, true);
+
+ for (StructuredDocumentTag sdt : (Iterable) tags) {
+     Assert.assertEquals(StyleIdentifier.QUOTE, sdt.getStyle().getStyleIdentifier());
+     Assert.assertEquals("Quote", sdt.getStyleName());
+ }
+ 
+```
+
 **Returns:**
 java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
 ### getXmlMapping() {#getXmlMapping}
@@ -3109,6 +3312,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

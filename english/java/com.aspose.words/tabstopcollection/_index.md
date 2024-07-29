@@ -4,7 +4,7 @@ linktitle: TabStopCollection
 second_title: Aspose.Words for Java
 description: A collection of TabStop objects that represent custom tabs for a paragraph or a style in Java.
 type: docs
-weight: 596
+weight: 599
 url: /java/com.aspose.words/tabstopcollection/
 ---
 

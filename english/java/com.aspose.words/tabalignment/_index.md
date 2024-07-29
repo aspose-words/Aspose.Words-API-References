@@ -4,7 +4,7 @@ linktitle: TabAlignment
 second_title: Aspose.Words for Java
 description: Specifies the alignment/type of a tab stop in Java.
 type: docs
-weight: 593
+weight: 596
 url: /java/com.aspose.words/tabalignment/
 ---
 
@@ -15,6 +15,38 @@ public class TabAlignment
 ```
 
 Specifies the alignment/type of a tab stop.
+
+ **Examples:** 
+
+Shows how to set custom tab stops for a paragraph.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+
+ // If we are in a paragraph with no tab stops in this collection,
+ // the cursor will jump 36 points each time we press the Tab key in Microsoft Word.
+ Assert.assertEquals(0, doc.getFirstSection().getBody().getFirstParagraph().getEffectiveTabStops().length);
+
+ // We can add custom tab stops in Microsoft Word if we enable the ruler via the "View" tab.
+ // Each unit on this ruler is two default tab stops, which is 72 points.
+ // We can add custom tab stops programmatically like this.
+ TabStopCollection tabStops = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getTabStops();
+ tabStops.add(72.0, TabAlignment.LEFT, TabLeader.DOTS);
+ tabStops.add(216.0, TabAlignment.CENTER, TabLeader.DASHES);
+ tabStops.add(360.0, TabAlignment.RIGHT, TabLeader.LINE);
+
+ // We can see these tab stops in Microsoft Word by enabling the ruler via "View" -> "Show" -> "Ruler".
+ Assert.assertEquals(3, para.getEffectiveTabStops().length);
+
+ // Any tab characters we add will make use of the tab stops on the ruler and may,
+ // depending on the tab leader's value, leave a line between the tab departure and arrival destinations.
+ para.appendChild(new Run(doc, "\tTab 1\tTab 2\tTab 3"));
+
+ doc.save(getArtifactsDir() + "Paragraph.TabStops.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

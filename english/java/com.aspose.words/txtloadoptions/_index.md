@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.TEXT document into a Document object in Java.
 type: docs
-weight: 634
+weight: 637
 url: /java/com.aspose.words/txtloadoptions/
 ---
 
@@ -17,6 +17,33 @@ public class TxtLoadOptions extends LoadOptions
 Allows to specify additional options when loading [LoadFormat.TEXT](../../com.aspose.words/loadformat/\#TEXT) document into a [Document](../../com.aspose.words/document/) object.
 
 To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
+
+ **Examples:** 
+
+Shows how to read and display hyperlinks.
+
+```
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
 
 
 [Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
@@ -82,6 +109,33 @@ public TxtLoadOptions()
 
 
 Initializes a new instance of this class with default values.
+
+ **Examples:** 
+
+Shows how to read and display hyperlinks.
+
+```
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
 
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
@@ -401,6 +455,24 @@ Gets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
@@ -1493,6 +1565,24 @@ Sets the encoding that will be used to load an HTML, TXT, or CHM document if the
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
+
+ **Examples:** 
+
+Shows how to set the encoding with which to open a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

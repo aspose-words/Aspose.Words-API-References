@@ -4,7 +4,7 @@ linktitle: LineStyle
 second_title: Aspose.Words for Java
 description: Specifies line style of a Border in Java.
 type: docs
-weight: 397
+weight: 398
 url: /java/com.aspose.words/linestyle/
 ---
 

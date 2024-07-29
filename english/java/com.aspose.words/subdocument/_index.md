@@ -4,7 +4,7 @@ linktitle: SubDocument
 second_title: Aspose.Words for Java
 description: Represents a SubDocument - which is a reference to an externally stored document in Java.
 type: docs
-weight: 589
+weight: 592
 url: /java/com.aspose.words/subdocument/
 ---
 
@@ -215,6 +215,26 @@ Shows how to use a document visitor to print a document's node structure.
      /// 
      public int visitSubDocument(final SubDocument subDocument) {
          indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
 
          return VisitorAction.CONTINUE;
      }
@@ -826,7 +846,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (149655,6)
+Returns  true  if this node can contain other nodes. (181117,6)
 
  **Examples:** 
 

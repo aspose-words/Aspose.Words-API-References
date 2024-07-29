@@ -2,9 +2,9 @@
 title: MarkdownLinkExportMode
 linktitle: MarkdownLinkExportMode
 second_title: Aspose.Words for Java
-description: The mode of exporting links to a target document in Java.
+description: Specifies how links are exported into Markdown in Java.
 type: docs
-weight: 419
+weight: 420
 url: /java/com.aspose.words/markdownlinkexportmode/
 ---
 
@@ -14,14 +14,39 @@ java.lang.Object
 public class MarkdownLinkExportMode
 ```
 
-The mode of exporting links to a target document.
+Specifies how links are exported into Markdown.
+
+ **Examples:** 
+
+Shows how to links will be written to the .md file.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertShape(ShapeType.BALLOON, 100.0, 100.0);
+
+ // Image will be written as reference:
+ // ![ref1]
+ //
+ // [ref1]: aw_ref.001.png
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setLinkExportMode(MarkdownLinkExportMode.REFERENCE);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.LinkExportMode.Reference.md", saveOptions);
+
+ // Image will be written as inline:
+ // ![](../aw_inline.001.png)
+ saveOptions.setLinkExportMode(MarkdownLinkExportMode.INLINE);
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | A link is exported as a reference block if it has roundtrip information or is mentioned more than once in a document. |
-| [INLINE](#INLINE) | Links are exported as inline blocks. |
-| [REFERENCE](#REFERENCE) | Links are exported as reference blocks. |
+| [AUTO](#AUTO) | Automatically detect export mode for each link. |
+| [INLINE](#INLINE) | Export all links as inline blocks. |
+| [REFERENCE](#REFERENCE) | Export all links as reference blocks. |
 | [length](#length) |  |
 ## Methods
 
@@ -37,7 +62,7 @@ public static int AUTO
 ```
 
 
-A link is exported as a reference block if it has roundtrip information or is mentioned more than once in a document. In all other cases a link is exported as an inline block.
+Automatically detect export mode for each link.
 
 ### INLINE {#INLINE}
 ```
@@ -45,7 +70,7 @@ public static int INLINE
 ```
 
 
-Links are exported as inline blocks.
+Export all links as inline blocks.
 
 ### REFERENCE {#REFERENCE}
 ```
@@ -53,7 +78,7 @@ public static int REFERENCE
 ```
 
 
-Links are exported as reference blocks.
+Export all links as reference blocks.
 
 ### length {#length}
 ```

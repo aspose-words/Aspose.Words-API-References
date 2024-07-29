@@ -4,7 +4,7 @@ linktitle: FindReplaceOptions
 second_title: Aspose.Words for Java
 description: Specifies options for find/replace operations in Java.
 type: docs
-weight: 298
+weight: 299
 url: /java/com.aspose.words/findreplaceoptions/
 ---
 
@@ -121,6 +121,31 @@ public FindReplaceOptions()
 
 Initializes a new instance of the FindReplaceOptions class with default settings.
 
+ **Examples:** 
+
+Shows how to recognize and use substitutions within replacement patterns.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Jason gave money to Paul.");
+
+ String regex = "([A-z]+) gave money to ([A-z]+)";
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setUseSubstitutions(true);
+
+ // Using legacy mode does not support many advanced features, so we need to set it to 'false'.
+ options.setLegacyMode(false);
+
+ doc.getRange().replace(Pattern.compile(regex), "$2 took money from $1", options);
+
+ Assert.assertEquals(doc.getText(), "Paul took money from Jason.\f");
+ 
+```
+
 ### FindReplaceOptions(int direction) {#FindReplaceOptions-int}
 ```
 public FindReplaceOptions(int direction)
@@ -141,6 +166,63 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 
 
 Initializes a new instance of the FindReplaceOptions class with the specified replacing callback.
+
+ **Examples:** 
+
+Shows how to track the order in which a text replacement operation traverses nodes.
+
+```
+
+ public void order(boolean differentFirstPageHeaderFooter) throws Exception {
+     Document doc = new Document(getMyDir() + "Header and footer types.docx");
+
+     Section firstPageSection = doc.getFirstSection();
+
+     ReplaceLog logger = new ReplaceLog();
+     FindReplaceOptions options = new FindReplaceOptions();
+     {
+         options.setReplacingCallback(logger);
+     }
+
+     // Using a different header/footer for the first page will affect the search order.
+     firstPageSection.getPageSetup().setDifferentFirstPageHeaderFooter(differentFirstPageHeaderFooter);
+     doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
+
+     if (differentFirstPageHeaderFooter)
+         Assert.assertEquals("First headerFirst footerSecond headerSecond footerThird headerThird footer",
+                 logger.Text().replace("\r", ""));
+     else
+         Assert.assertEquals("Third headerFirst headerThird footerFirst footerSecond headerSecond footer",
+                 logger.Text().replace("\r", ""));
+ }
+
+ public static Object[][] orderDataProvider() throws Exception {
+     return new Object[][]
+             {
+                     {false},
+                     {true},
+             };
+ }
+
+ /// 
+ /// During a find-and-replace operation, records the contents of every node that has text that the operation 'finds',
+ /// in the state it is in before the replacement takes place.
+ /// This will display the order in which the text replacement operation traverses nodes.
+ /// 
+ private static class ReplaceLog implements IReplacingCallback {
+     public int replacing(ReplacingArgs args) {
+         mTextBuilder.append(args.getMatchNode().getText());
+         return ReplaceAction.SKIP;
+     }
+
+     public String Text() {
+         return mTextBuilder.toString();
+     }
+
+     private final StringBuilder mTextBuilder = new StringBuilder();
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -680,6 +762,31 @@ Gets a boolean value indicating that old find/replace algorithm is used.
 
 Use this flag if you need exactly the same behavior as before advanced find/replace feature was introduced. Note that old algorithm does not support advanced features such as replace with breaks, apply formatting and so on.
 
+ **Examples:** 
+
+Shows how to recognize and use substitutions within replacement patterns.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Jason gave money to Paul.");
+
+ String regex = "([A-z]+) gave money to ([A-z]+)";
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setUseSubstitutions(true);
+
+ // Using legacy mode does not support many advanced features, so we need to set it to 'false'.
+ options.setLegacyMode(false);
+
+ doc.getRange().replace(Pattern.compile(regex), "$2 took money from $1", options);
+
+ Assert.assertEquals(doc.getText(), "Paul took money from Jason.\f");
+ 
+```
+
 **Returns:**
 boolean - A boolean value indicating that old find/replace algorithm is used.
 ### getMatchCase() {#getMatchCase}
@@ -967,6 +1074,29 @@ Gets a boolean value indicating whether to recognize and use substitutions withi
 For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
  **Examples:** 
+
+Shows how to recognize and use substitutions within replacement patterns.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Jason gave money to Paul.");
+
+ String regex = "([A-z]+) gave money to ([A-z]+)";
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setUseSubstitutions(true);
+
+ // Using legacy mode does not support many advanced features, so we need to set it to 'false'.
+ options.setLegacyMode(false);
+
+ doc.getRange().replace(Pattern.compile(regex), "$2 took money from $1", options);
+
+ Assert.assertEquals(doc.getText(), "Paul took money from Jason.\f");
+ 
+```
 
 Shows how to replace the text with substitutions.
 
@@ -1422,6 +1552,31 @@ Sets a boolean value indicating that old find/replace algorithm is used.
 
 Use this flag if you need exactly the same behavior as before advanced find/replace feature was introduced. Note that old algorithm does not support advanced features such as replace with breaks, apply formatting and so on.
 
+ **Examples:** 
+
+Shows how to recognize and use substitutions within replacement patterns.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Jason gave money to Paul.");
+
+ String regex = "([A-z]+) gave money to ([A-z]+)";
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setUseSubstitutions(true);
+
+ // Using legacy mode does not support many advanced features, so we need to set it to 'false'.
+ options.setLegacyMode(false);
+
+ doc.getRange().replace(Pattern.compile(regex), "$2 took money from $1", options);
+
+ Assert.assertEquals(doc.getText(), "Paul took money from Jason.\f");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1724,6 +1879,29 @@ Sets a boolean value indicating whether to recognize and use substitutions withi
 For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
  **Examples:** 
+
+Shows how to recognize and use substitutions within replacement patterns.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Jason gave money to Paul.");
+
+ String regex = "([A-z]+) gave money to ([A-z]+)";
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setUseSubstitutions(true);
+
+ // Using legacy mode does not support many advanced features, so we need to set it to 'false'.
+ options.setLegacyMode(false);
+
+ doc.getRange().replace(Pattern.compile(regex), "$2 took money from $1", options);
+
+ Assert.assertEquals(doc.getText(), "Paul took money from Jason.\f");
+ 
+```
 
 Shows how to replace the text with substitutions.
 

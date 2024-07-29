@@ -4,7 +4,7 @@ linktitle: ITextShaper
 second_title: Aspose.Words for Java
 description: Provides methods for text shaping in Java.
 type: docs
-weight: 717
+weight: 723
 url: /java/com.aspose.words/itextshaper/
 ---
 ```
@@ -16,10 +16,10 @@ Provides methods for text shaping.
 
 | Method | Description |
 | --- | --- |
-| [shapeText(String[] runs, int direction, int script, int[] fontFeatures)](#shapeText-java.lang.String---int-int-int...) |  |
-### shapeText(String[] runs, int direction, int script, int[] fontFeatures) {#shapeText-java.lang.String---int-int-int...}
+| [shapeText(String[] runs, int direction, int script, int[] enabledFontFeatures, VariationAxisCoordinate[] variations)](#shapeText-java.lang.String---int-int-int---com.aspose.words.VariationAxisCoordinate) |  |
+### shapeText(String[] runs, int direction, int script, int[] enabledFontFeatures, VariationAxisCoordinate[] variations) {#shapeText-java.lang.String---int-int-int---com.aspose.words.VariationAxisCoordinate}
 ```
-public abstract Cluster[][] shapeText(String[] runs, int direction, int script, int[] fontFeatures)
+public abstract Cluster[][] shapeText(String[] runs, int direction, int script, int[] enabledFontFeatures, VariationAxisCoordinate[] variations)
 ```
 
 
@@ -31,7 +31,8 @@ public abstract Cluster[][] shapeText(String[] runs, int direction, int script, 
 | runs | java.lang.String[] |  |
 | direction | int |  |
 | script | int |  |
-| fontFeatures | int[] |  |
+| enabledFontFeatures | int[] |  |
+| variations | [VariationAxisCoordinate\[\]](../../com.aspose.words/variationaxiscoordinate/) |  |
 
 **Returns:**
 com.aspose.words.Cluster[][]

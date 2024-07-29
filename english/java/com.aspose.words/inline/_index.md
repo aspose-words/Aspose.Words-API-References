@@ -4,7 +4,7 @@ linktitle: Inline
 second_title: Aspose.Words for Java
 description: Base class for inline-level nodes that can have character formatting associated with them but cannot have child nodes of their own in Java.
 type: docs
-weight: 378
+weight: 379
 url: /java/com.aspose.words/inline/
 ---
 
@@ -1173,7 +1173,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (149655,6)
+Returns  true  if this node can contain other nodes. (181117,6)
 
  **Examples:** 
 

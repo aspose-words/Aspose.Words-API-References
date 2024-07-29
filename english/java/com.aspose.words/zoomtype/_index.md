@@ -4,7 +4,7 @@ linktitle: ZoomType
 second_title: Aspose.Words for Java
 description: Possible values for how large or small the document appears on the screen in Microsoft Word in Java.
 type: docs
-weight: 684
+weight: 690
 url: /java/com.aspose.words/zoomtype/
 ---
 
@@ -15,6 +15,26 @@ public class ZoomType
 ```
 
 Possible values for how large or small the document appears on the screen in Microsoft Word.
+
+ **Examples:** 
+
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
 ## Fields
 
 | Field | Description |

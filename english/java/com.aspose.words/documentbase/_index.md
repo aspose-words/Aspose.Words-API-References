@@ -4,7 +4,7 @@ linktitle: DocumentBase
 second_title: Aspose.Words for Java
 description: Provides the abstract base class for a main document and a glossary document of a Word document in Java.
 type: docs
-weight: 148
+weight: 149
 url: /java/com.aspose.words/documentbase/
 ---
 
@@ -309,6 +309,181 @@ public abstract int acceptEnd(DocumentVisitor visitor)
 
 When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
 
+ **Examples:** 
+
+Shows how to use a document visitor to print a document's node structure.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -323,6 +498,181 @@ public abstract int acceptStart(DocumentVisitor visitor)
 
 
 When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
+
+ **Examples:** 
+
+Shows how to use a document visitor to print a document's node structure.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -727,6 +1077,23 @@ public DocumentBase getDocument()
 
 Gets this instance.
 
+ **Examples:** 
+
+Shows how to create simple document.
+
+```
+
+ Document doc = new Document();
+
+ // New Document objects by default come with the minimal set of nodes
+ // required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+ doc.appendChild(new Section(doc))
+     .appendChild(new Body(doc))
+     .appendChild(new Paragraph(doc))
+     .appendChild(new Run(doc, "Hello world!"));
+ 
+```
+
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - This instance.
 ### getFirstChild() {#getFirstChild}
@@ -925,8 +1292,8 @@ Shows how to work with list levels.
  }
 
  // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
  builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
 
  for (int i = 0; i < 9; i++) {
@@ -1837,6 +2204,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

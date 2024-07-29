@@ -4,7 +4,7 @@ linktitle: FieldDde
 second_title: Aspose.Words for Java
 description: Implements the DDE field in Java.
 type: docs
-weight: 205
+weight: 206
 url: /java/com.aspose.words/fielddde/
 ---
 
@@ -277,6 +277,205 @@ public boolean getAutoUpdate()
 
 
 Gets whether to update this field automatically.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Returns:**
 boolean - Whether to update this field automatically.
@@ -594,6 +793,205 @@ public boolean getInsertAsBitmap()
 
 Gets whether to insert the linked object as a bitmap.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Returns:**
 boolean - Whether to insert the linked object as a bitmap.
 ### getInsertAsHtml() {#getInsertAsHtml}
@@ -603,6 +1001,205 @@ public boolean getInsertAsHtml()
 
 
 Gets whether to insert the linked object as HTML format text.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Returns:**
 boolean - Whether to insert the linked object as HTML format text.
@@ -614,6 +1211,205 @@ public boolean getInsertAsPicture()
 
 Gets whether to insert the linked object as a picture.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Returns:**
 boolean - Whether to insert the linked object as a picture.
 ### getInsertAsRtf() {#getInsertAsRtf}
@@ -623,6 +1419,205 @@ public boolean getInsertAsRtf()
 
 
 Gets whether to insert the linked object in rich-text format (RTF).
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Returns:**
 boolean - Whether to insert the linked object in rich-text format (RTF).
@@ -634,6 +1629,205 @@ public boolean getInsertAsText()
 
 Gets whether to insert the linked object in text-only format.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Returns:**
 boolean - Whether to insert the linked object in text-only format.
 ### getInsertAsUnicode() {#getInsertAsUnicode}
@@ -643,6 +1837,205 @@ public boolean getInsertAsUnicode()
 
 
 Gets whether to insert the linked object as Unicode text.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Returns:**
 boolean - Whether to insert the linked object as Unicode text.
@@ -690,6 +2083,205 @@ public String getProgId()
 
 
 Gets the application type of the link information.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Returns:**
 java.lang.String - The application type of the link information.
@@ -831,6 +2423,205 @@ public String getSourceFullName()
 
 Gets the name and location of the source file.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Returns:**
 java.lang.String - The name and location of the source file.
 ### getSourceItem() {#getSourceItem}
@@ -840,6 +2631,205 @@ public String getSourceItem()
 
 
 Gets the portion of the source file that's being linked.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Returns:**
 java.lang.String - The portion of the source file that's being linked.
@@ -1121,6 +3111,205 @@ public boolean isLinked()
 
 Gets whether to reduce the file size by not storing graphics data with the document.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Returns:**
 boolean - Whether to reduce the file size by not storing graphics data with the document.
 ### isLinked(boolean value) {#isLinked-boolean}
@@ -1130,6 +3319,205 @@ public void isLinked(boolean value)
 
 
 Sets whether to reduce the file size by not storing graphics data with the document.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1340,6 +3728,205 @@ public void setAutoUpdate(boolean value)
 
 Sets whether to update this field automatically.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1352,6 +3939,205 @@ public void setInsertAsBitmap(boolean value)
 
 
 Sets whether to insert the linked object as a bitmap.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1366,6 +4152,205 @@ public void setInsertAsHtml(boolean value)
 
 Sets whether to insert the linked object as HTML format text.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1378,6 +4363,205 @@ public void setInsertAsPicture(boolean value)
 
 
 Sets whether to insert the linked object as a picture.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1392,6 +4576,205 @@ public void setInsertAsRtf(boolean value)
 
 Sets whether to insert the linked object in rich-text format (RTF).
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1405,6 +4788,205 @@ public void setInsertAsText(boolean value)
 
 Sets whether to insert the linked object in text-only format.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1417,6 +4999,205 @@ public void setInsertAsUnicode(boolean value)
 
 
 Sets whether to insert the linked object as Unicode text.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1471,6 +5252,205 @@ public void setProgId(String value)
 
 Sets the application type of the link information.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1513,6 +5493,205 @@ public void setSourceFullName(String value)
 
 Sets the name and location of the source file.
 
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1525,6 +5704,205 @@ public void setSourceItem(String value)
 
 
 Sets the portion of the source file that's being linked.
+
+ **Examples:** 
+
+Shows how to use various field types to link to other documents in the local file system, and display their contents.
+
+```
+
+ public void fieldLinkedObjectsAsText(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of text.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", getMyDir() + "Document.docx", null, true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsTextDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.TEXT},
+                     {InsertLinkedObjectAs.UNICODE},
+                     {InsertLinkedObjectAs.HTML},
+                     {InsertLinkedObjectAs.RTF},
+             };
+ }
+
+ public void fieldLinkedObjectsAsImage(int insertLinkedObjectAs) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Below are three types of fields we can use to display contents from a linked document in the form of an image.
+     // 1 -  A LINK field:
+     builder.writeln("FieldLink:\n");
+     insertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "MySpreadsheet.xlsx",
+             "Sheet1!R2C2", true);
+
+     // 2 -  A DDE field:
+     builder.writeln("FieldDde:\n");
+     insertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true, true);
+
+     // 3 -  A DDEAUTO field:
+     builder.writeln("FieldDdeAuto:\n");
+     insertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", getMyDir() + "Spreadsheet.xlsx",
+             "Sheet1!R1C1", true);
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "Field.LINK.DDE.DDEAUTO.AsImage.docx");
+ }
+
+ public static Object[][] fieldLinkedObjectsAsImageDataProvider() {
+     return new Object[][]
+             {
+                     {InsertLinkedObjectAs.PICTURE},
+                     {InsertLinkedObjectAs.BITMAP},
+             };
+ }
+
+ /// 
+ /// Use a document builder to insert a LINK field and set its properties according to parameters.
+ /// 
+ private void insertFieldLink(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                              final String progId, final String sourceFullName, final String sourceItem,
+                              final boolean shouldAutoUpdate) throws Exception {
+     FieldLink field = (FieldLink) builder.insertField(FieldType.FIELD_LINK, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDE field, and set its properties according to parameters.
+ /// 
+ private void insertFieldDde(final DocumentBuilder builder, final int insertLinkedObjectAs, final String progId,
+                             final String sourceFullName, final String sourceItem, final boolean isLinked,
+                             final boolean shouldAutoUpdate) throws Exception {
+     FieldDde field = (FieldDde) builder.insertField(FieldType.FIELD_DDE, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setAutoUpdate(shouldAutoUpdate);
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+
+     builder.writeln("\n");
+ }
+
+ /// 
+ /// Use a document builder to insert a DDEAUTO, field and set its properties according to parameters.
+ /// 
+ private void insertFieldDdeAuto(final DocumentBuilder builder, final int insertLinkedObjectAs,
+                                 final String progId, final String sourceFullName, final String sourceItem,
+                                 final boolean isLinked) throws Exception {
+     FieldDdeAuto field = (FieldDdeAuto) builder.insertField(FieldType.FIELD_DDE_AUTO, true);
+
+     switch (insertLinkedObjectAs) {
+         case InsertLinkedObjectAs.TEXT:
+             field.setInsertAsText(true);
+             break;
+         case InsertLinkedObjectAs.UNICODE:
+             field.setInsertAsUnicode(true);
+             break;
+         case InsertLinkedObjectAs.HTML:
+             field.setInsertAsHtml(true);
+             break;
+         case InsertLinkedObjectAs.RTF:
+             field.setInsertAsRtf(true);
+             break;
+         case InsertLinkedObjectAs.PICTURE:
+             field.setInsertAsPicture(true);
+             break;
+         case InsertLinkedObjectAs.BITMAP:
+             field.setInsertAsBitmap(true);
+             break;
+     }
+
+     field.setProgId(progId);
+     field.setSourceFullName(sourceFullName);
+     field.setSourceItem(sourceItem);
+     field.isLinked(isLinked);
+ }
+
+ public final class InsertLinkedObjectAs {
+     private InsertLinkedObjectAs() {
+     }
+
+     // LinkedObjectAsText
+     public static final int TEXT = 0;
+     public static final int UNICODE = 1;
+     public static final int HTML = 2;
+     public static final int RTF = 3;
+     // LinkedObjectAsImage
+     public static final int PICTURE = 4;
+     public static final int BITMAP = 5;
+
+     public static final int length = 6;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

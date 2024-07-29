@@ -2,9 +2,9 @@
 title: CompareOptions
 linktitle: CompareOptions
 second_title: Aspose.Words for Java
-description: Allows to choose advanced options for document comparison operation in Java.
+description: Allows to choose additional options for document comparison operation in Java.
 type: docs
-weight: 104
+weight: 105
 url: /java/com.aspose.words/compareoptions/
 ---
 
@@ -14,7 +14,7 @@ java.lang.Object
 public class CompareOptions
 ```
 
-Allows to choose advanced options for document comparison operation.
+Allows to choose additional options for document comparison operation.
 
 To learn more, visit the [ Compare Documents ][Compare Documents] documentation article.
 
@@ -141,6 +141,26 @@ public AdvancedCompareOptions getAdvancedOptions()
 
 
 Specifies advanced compare options that might help to produce more precise comparison output.
+
+ **Examples:** 
+
+Shows how to compare documents ignoring DML unique ID.
+
+```
+
+ Document docA = new Document(getMyDir() + "DML unique ID original.docx");
+ Document docB = new Document(getMyDir() + "DML unique ID compare.docx");
+
+ // By default, Aspose.Words do not ignore DML's unique ID, and the revisions count was 2.
+ // If we are ignoring DML's unique ID, and revisions count were 0.
+ CompareOptions compareOptions = new CompareOptions();
+ compareOptions.getAdvancedOptions().setIgnoreDmlUniqueId(isIgnoreDmlUniqueId);
+
+ docA.compare(docB, "Aspose.Words", new Date(), compareOptions);
+
+ Assert.assertEquals(isIgnoreDmlUniqueId ? 0 : 2, docA.getRevisions().getCount());
+ 
+```
 
 **Returns:**
 [AdvancedCompareOptions](../../com.aspose.words/advancedcompareoptions/) - The corresponding [AdvancedCompareOptions](../../com.aspose.words/advancedcompareoptions/) value.

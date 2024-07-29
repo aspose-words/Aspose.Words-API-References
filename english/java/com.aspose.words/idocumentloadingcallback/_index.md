@@ -4,7 +4,7 @@ linktitle: IDocumentLoadingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom method called during loading a document in Java.
 type: docs
-weight: 691
+weight: 697
 url: /java/com.aspose.words/idocumentloadingcallback/
 ---
 ```

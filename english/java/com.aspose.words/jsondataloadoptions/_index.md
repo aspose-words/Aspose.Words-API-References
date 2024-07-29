@@ -4,7 +4,7 @@ linktitle: JsonDataLoadOptions
 second_title: Aspose.Words for Java
 description: Represents options for parsing JSON data in Java.
 type: docs
-weight: 382
+weight: 383
 url: /java/com.aspose.words/jsondataloadoptions/
 ---
 
@@ -21,6 +21,26 @@ To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] docume
  **Remarks:** 
 
 An instance of this class can be passed into constructors of [JsonDataSource](../../com.aspose.words/jsondatasource/).
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
@@ -49,6 +69,26 @@ public JsonDataLoadOptions()
 
 Initializes a new instance of this class with default options.
 
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
+
 ### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject}
 ```
 public boolean getAlwaysGenerateRootObject()
@@ -60,6 +100,26 @@ Gets a flag indicating whether a generated data source will always contain an ob
  **Remarks:** 
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 
 **Returns:**
 boolean - A flag indicating whether a generated data source will always contain an object for a JSON root element.
@@ -79,6 +139,26 @@ Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224
  *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormats) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormats-java.lang.Iterable) contains strings, they are used as additional date-time formats utilizing the current culture.
  *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormats) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormats-java.lang.Iterable) is empty, no additional date-time formats are used.
 
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
+
 **Returns:**
 java.lang.Iterable - Exact formats for parsing JSON date-time values while loading JSON.
 ### getPreserveSpaces() {#getPreserveSpaces}
@@ -93,6 +173,26 @@ Gets a flag indicating whether leading and trailing spaces should be preserved w
 
 The default value is  false .
 
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
+
 **Returns:**
 boolean - A flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data.
 ### getSimpleValueParseMode() {#getSimpleValueParseMode}
@@ -102,6 +202,26 @@ public int getSimpleValueParseMode()
 
 
 Gets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values. The default is [JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode/\#LOOSE).
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 
 **Returns:**
 int - A mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. The returned value is one of [JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode/) constants.
@@ -116,6 +236,26 @@ Sets a flag indicating whether a generated data source will always contain an ob
  **Remarks:** 
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -138,6 +278,26 @@ Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224
  *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormats) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormats-java.lang.Iterable) contains strings, they are used as additional date-time formats utilizing the current culture.
  *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormats) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormats-java.lang.Iterable) is empty, no additional date-time formats are used.
 
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -155,6 +315,26 @@ Sets a flag indicating whether leading and trailing spaces should be preserved w
 
 The default value is  false .
 
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -167,6 +347,26 @@ public void setSimpleValueParseMode(int value)
 
 
 Sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values. The default is [JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode/\#LOOSE).
+
+ **Examples:** 
+
+Shows how to use JSON as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

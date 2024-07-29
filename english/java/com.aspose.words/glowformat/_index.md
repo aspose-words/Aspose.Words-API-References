@@ -4,7 +4,7 @@ linktitle: GlowFormat
 second_title: Aspose.Words for Java
 description: Represents the glow formatting for an object in Java.
 type: docs
-weight: 335
+weight: 336
 url: /java/com.aspose.words/glowformat/
 ---
 
@@ -19,6 +19,39 @@ Represents the glow formatting for an object.
  **Remarks:** 
 
 Use the [ShapeBase.getGlow()](../../com.aspose.words/shapebase/\#getGlow) property to access glow properties of an object. You do not create instances of the [GlowFormat](../../com.aspose.words/glowformat/) class directly.
+
+ **Examples:** 
+
+Shows how to interact with glow shape effect.
+
+```
+
+ Document doc = new Document(getMyDir() + "Various shapes.docx");
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Apply glow effect to the shape.
+ shape.getGlow().setColor(new Color(0xFFFA8072));
+ shape.getGlow().setRadius(30.0);
+ shape.getGlow().setTransparency(0.15);
+
+ doc.save(getArtifactsDir() + "Shape.Glow.docx");
+
+ doc = new Document(getArtifactsDir() + "Shape.Glow.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Check glow effect attributes.
+ Assert.assertEquals(new Color((250), (128), (114), (217)).getRGB(), shape.getGlow().getColor().getRGB());
+ Assert.assertEquals(30, shape.getGlow().getRadius());
+ Assert.assertEquals(0.15d, shape.getGlow().getTransparency(), 0.01d);
+
+ // Remove glow effect from the shape.
+ shape.getGlow().remove();
+
+ Assert.assertEquals(Color.BLACK.getRGB(), shape.getGlow().getColor().getRGB());
+ Assert.assertEquals(0, shape.getGlow().getRadius());
+ Assert.assertEquals(0, shape.getGlow().getTransparency());
+ 
+```
 ## Methods
 
 | Method | Description |

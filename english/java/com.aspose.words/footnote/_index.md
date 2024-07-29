@@ -4,7 +4,7 @@ linktitle: Footnote
 second_title: Aspose.Words for Java
 description: Represents a container for text of a footnote or endnote in Java.
 type: docs
-weight: 319
+weight: 320
 url: /java/com.aspose.words/footnote/
 ---
 
@@ -282,6 +282,93 @@ public int acceptEnd(DocumentVisitor visitor)
 
 Accepts a visitor for visiting the end of the footnote.
 
+ **Examples:** 
+
+Shows how to print the node structure of every footnote in a document.
+
+```
+
+ public void footnoteToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Footnote nodes and their children.
+ /// 
+ public static class FootnoteStructurePrinter extends DocumentVisitor {
+     public FootnoteStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideFootnote = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Footnote node is encountered in the document.
+     /// 
+     public int visitFootnoteStart(final Footnote footnote) {
+         indentAndAppendLine("[Footnote start] Type: " + footnote.getFootnoteType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideFootnote = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Footnote node have been visited.
+     /// 
+     public int visitFootnoteEnd(final Footnote footnote) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Footnote end]");
+         mVisitorIsInsideFootnote = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideFootnote) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideFootnote;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -296,6 +383,93 @@ public int acceptStart(DocumentVisitor visitor)
 
 
 Accepts a visitor for visiting the start of the footnote.
+
+ **Examples:** 
+
+Shows how to print the node structure of every footnote in a document.
+
+```
+
+ public void footnoteToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Footnote nodes and their children.
+ /// 
+ public static class FootnoteStructurePrinter extends DocumentVisitor {
+     public FootnoteStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideFootnote = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Footnote node is encountered in the document.
+     /// 
+     public int visitFootnoteStart(final Footnote footnote) {
+         indentAndAppendLine("[Footnote start] Type: " + footnote.getFootnoteType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideFootnote = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Footnote node have been visited.
+     /// 
+     public int visitFootnoteEnd(final Footnote footnote) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Footnote end]");
+         mVisitorIsInsideFootnote = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideFootnote) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideFootnote;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2370,6 +2544,31 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to print all of a document's comments and their replies.
+
+```
+
+ Document doc = new Document(getMyDir() + "Comments.docx");
+
+ NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
+ // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+ // Print all top-level comments along with any replies they may have.
+ for (Comment comment : (Iterable) comments) {
+     if (comment.getAncestor() == null) {
+         System.out.println("Top-level comment:");
+         System.out.println("\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+         System.out.println("Has {comment.Replies.Count} replies");
+         for (Comment commentReply : comment.getReplies()) {
+             System.out.println("\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
+         }
+         System.out.println();
+     }
+ }
+ 
+```
 
 **Returns:**
 java.util.Iterator

@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PDF format in Java.
 type: docs
-weight: 501
+weight: 503
 url: /java/com.aspose.words/pdfsaveoptions/
 ---
 
@@ -531,6 +531,26 @@ Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
 
 Document background graphic is various shapes, charts, images placed in the footer or header, well as background and border of a page.
 
+ **Examples:** 
+
+Shows how to cache graphics placed in document's background.
+
+```
+
+ Document doc = new Document(getMyDir() + "Background images.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setCacheBackgroundGraphics(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.CacheBackgroundGraphics.pdf", saveOptions);
+
+ long asposeToPdfSize = new File(getArtifactsDir() + "PdfSaveOptions.CacheBackgroundGraphics.pdf").length();
+ long wordToPdfSize = new File(getMyDir() + "Background images (word to pdf).pdf").length();
+
+ Assert.assertTrue(asposeToPdfSize < wordToPdfSize);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether or not to cache graphics placed in document's background.
 ### getColorMode() {#getColorMode}
@@ -605,6 +625,9 @@ Shows how to set the PDF standards compliance level of saved PDF documents.
  // Set the "Compliance" property to "PdfCompliance.Pdf20" to comply with the "PDF 2.0" (ISO 32000-2) standard.
  // Set the "Compliance" property to "PdfCompliance.PdfA4" to comply with the "PDF/A-4" (ISO 19004:2020) standard,
  // which preserving document static visual appearance over time.
+ // Set the "Compliance" property to "PdfCompliance.PdfA4Ua2" to comply with both PDF/A-4 (ISO 19005-4:2020)
+ // and PDF/UA-2 (ISO 14289-2:2024) standards.
+ // Set the "Compliance" property to "PdfCompliance.PdfUa2" to comply with the PDF/UA-2 (ISO 14289-2:2024) standard.
  // This helps with making documents searchable but may significantly increase the size of already large documents.
  saveOptions.setCompliance(pdfCompliance);
 
@@ -828,6 +851,24 @@ Gets a value determining how 3D effects are rendered.
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode}
@@ -992,6 +1033,24 @@ When the value is  true  attachments are embedded to the PDF document.
 Embedding attachments is not supported when saving to PDF/A and PDF/UA compliance.  false  value will be used automatically.
 
 Embedding attachments is not supported when encryption is enabled.  false  value will be used automatically.
+
+ **Examples:** 
+
+Shows how to add embed attachments to the PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertOleObject(getMyDir() + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+ PdfSaveOptions options = new PdfSaveOptions();
+ options.setEmbedAttachments(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to embed attachments to the PDF document.
@@ -2705,6 +2764,28 @@ public boolean getUpdateCreatedTimeProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving.
 ### getUpdateFields() {#getUpdateFields}
@@ -2767,26 +2848,6 @@ public boolean getUpdateLastPrintedProperty()
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 
@@ -3206,6 +3267,26 @@ Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
 
 Document background graphic is various shapes, charts, images placed in the footer or header, well as background and border of a page.
 
+ **Examples:** 
+
+Shows how to cache graphics placed in document's background.
+
+```
+
+ Document doc = new Document(getMyDir() + "Background images.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setCacheBackgroundGraphics(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.CacheBackgroundGraphics.pdf", saveOptions);
+
+ long asposeToPdfSize = new File(getArtifactsDir() + "PdfSaveOptions.CacheBackgroundGraphics.pdf").length();
+ long wordToPdfSize = new File(getMyDir() + "Background images (word to pdf).pdf").length();
+
+ Assert.assertTrue(asposeToPdfSize < wordToPdfSize);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3286,6 +3367,9 @@ Shows how to set the PDF standards compliance level of saved PDF documents.
  // Set the "Compliance" property to "PdfCompliance.Pdf20" to comply with the "PDF 2.0" (ISO 32000-2) standard.
  // Set the "Compliance" property to "PdfCompliance.PdfA4" to comply with the "PDF/A-4" (ISO 19004:2020) standard,
  // which preserving document static visual appearance over time.
+ // Set the "Compliance" property to "PdfCompliance.PdfA4Ua2" to comply with both PDF/A-4 (ISO 19005-4:2020)
+ // and PDF/UA-2 (ISO 14289-2:2024) standards.
+ // Set the "Compliance" property to "PdfCompliance.PdfUa2" to comply with the PDF/UA-2 (ISO 14289-2:2024) standard.
  // This helps with making documents searchable but may significantly increase the size of already large documents.
  saveOptions.setCompliance(pdfCompliance);
 
@@ -3527,6 +3611,24 @@ Sets a value determining how 3D effects are rendered.
 
 The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
+ **Examples:** 
+
+Shows how 3D effects are rendered.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape 3D effects.docx");
+
+ RenderCallback warningCallback = new RenderCallback();
+ doc.setWarningCallback(warningCallback);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3703,6 +3805,24 @@ When the value is  true  attachments are embedded to the PDF document.
 Embedding attachments is not supported when saving to PDF/A and PDF/UA compliance.  false  value will be used automatically.
 
 Embedding attachments is not supported when encryption is enabled.  false  value will be used automatically.
+
+ **Examples:** 
+
+Shows how to add embed attachments to the PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertOleObject(getMyDir() + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+ PdfSaveOptions options = new PdfSaveOptions();
+ options.setEmbedAttachments(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -5403,6 +5523,28 @@ public void setUpdateCreatedTimeProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -5471,26 +5613,6 @@ public void setUpdateLastPrintedProperty(boolean value)
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
  **Examples:** 
-
-Shows how to update a document's "CreatedTime" property when saving.
-
-```
-
- Document doc = new Document();
-
- Calendar calendar = Calendar.getInstance();
- calendar.set(2019, 11, 20);
- doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
-
- // This flag determines whether the created time, which is a built-in property, is updated.
- // If so, then the date of the document's most recent save operation
- // with this SaveOptions object passed as a parameter is used as the created time.
- DocSaveOptions saveOptions = new DocSaveOptions();
- saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
-
- doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
- 
-```
 
 Shows how to update a document's "Last printed" property when saving.
 

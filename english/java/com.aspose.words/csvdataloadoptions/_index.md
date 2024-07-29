@@ -4,7 +4,7 @@ linktitle: CsvDataLoadOptions
 second_title: Aspose.Words for Java
 description: Represents options for parsing CSV data in Java.
 type: docs
-weight: 124
+weight: 125
 url: /java/com.aspose.words/csvdataloadoptions/
 ---
 
@@ -21,6 +21,27 @@ To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] docume
  **Remarks:** 
 
 An instance of this class can be passed into constructors of [CsvDataSource](../../com.aspose.words/csvdatasource/).
+
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
@@ -50,6 +71,27 @@ public CsvDataLoadOptions()
 
 Initializes a new instance of this class with default options.
 
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
 ### CsvDataLoadOptions(boolean hasHeaders) {#CsvDataLoadOptions-boolean}
 ```
 public CsvDataLoadOptions(boolean hasHeaders)
@@ -57,6 +99,27 @@ public CsvDataLoadOptions(boolean hasHeaders)
 
 
 Initializes a new instance of this class with specifying whether CSV data contains column names at the first line.
+
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -75,6 +138,27 @@ Gets the character that is used to comment lines of CSV data.
 
 The default value is '\#' (number sign).
 
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
 **Returns:**
 char - The character that is used to comment lines of CSV data.
 ### getDelimiter() {#getDelimiter}
@@ -88,6 +172,27 @@ Gets the character to be used as a column delimiter.
  **Remarks:** 
 
 The default value is ',' (comma).
+
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
 
 **Returns:**
 char - The character to be used as a column delimiter.
@@ -105,6 +210,27 @@ The default value is '"' (quotation mark).
 
 Double the character to place it into quoted text.
 
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
 **Returns:**
 char - The character that is used to quote field values.
 ### hasHeaders() {#hasHeaders}
@@ -119,6 +245,27 @@ Gets a value indicating whether the first record of CSV data contains column nam
 
 The default value is  false .
 
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
 **Returns:**
 boolean - A value indicating whether the first record of CSV data contains column names.
 ### hasHeaders(boolean value) {#hasHeaders-boolean}
@@ -132,6 +279,27 @@ Sets a value indicating whether the first record of CSV data contains column nam
  **Remarks:** 
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -150,6 +318,27 @@ Sets the character that is used to comment lines of CSV data.
 
 The default value is '\#' (number sign).
 
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -166,6 +355,27 @@ Sets the character to be used as a column delimiter.
  **Remarks:** 
 
 The default value is ',' (comma).
+
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -185,6 +395,27 @@ Sets the character that is used to quote field values.
 The default value is '"' (quotation mark).
 
 Double the character to place it into quoted text.
+
+ **Examples:** 
+
+Shows how to use CSV as a data source (string).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

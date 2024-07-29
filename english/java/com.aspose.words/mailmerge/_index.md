@@ -4,7 +4,7 @@ linktitle: MailMerge
 second_title: Aspose.Words for Java
 description: Represents the mail merge functionality in Java.
 type: docs
-weight: 409
+weight: 410
 url: /java/com.aspose.words/mailmerge/
 ---
 
@@ -164,6 +164,125 @@ Use this method to fill mail merge fields in the document with values from any d
 You can use this method only when [FieldOptions.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions/\#isBidiTextSupportedOnUpdate) / [FieldOptions.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions/\#isBidiTextSupportedOnUpdate-boolean) is  false , that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 This method ignores the [MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-UNUSED-REGIONS) option.
+
+ **Examples:** 
+
+Shows how to execute a mail merge with a data source in the form of a custom object.
+
+```
+
+ public void customDataSource() throws Exception {
+     // Create a destination document for the mail merge
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+     builder.insertField(" MERGEFIELD FullName ");
+     builder.insertParagraph();
+     builder.insertField(" MERGEFIELD Address ");
+
+     // Create some data that we will use in the mail merge
+     CustomerList customers = new CustomerList();
+     customers.add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
+     customers.add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+
+     // To be able to mail merge from your own data source, it must be wrapped
+     // into an object that implements the IMailMergeDataSource interface
+     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
+
+     // Now you can pass your data source into Aspose.Words
+     doc.getMailMerge().execute(customersDataSource);
+
+     doc.save(getArtifactsDir() + "MailMergeCustom.CustomDataSource.docx");
+ }
+
+ // An example of a "data entity" class in your application.
+ public class Customer {
+     public Customer(final String aFullName, final String anAddress) {
+         mFullName = aFullName;
+         mAddress = anAddress;
+     }
+
+     public String getFullName() {
+         return mFullName;
+     }
+
+     public void setFullName(final String value) {
+         mFullName = value;
+     }
+
+     public String getAddress() {
+         return mAddress;
+     }
+
+     public void setAddress(final String value) {
+         mAddress = value;
+     }
+
+     private String mFullName;
+     private String mAddress;
+ }
+
+ // An example of a typed collection that contains your "data" objects.
+ public class CustomerList extends ArrayList {
+     public Customer get(final int index) {
+         return (Customer) super.get(index);
+     }
+
+     public void set(final int index, final Customer value) {
+         super.set(index, value);
+     }
+ }
+
+ // A custom mail merge data source that you implement to allow Aspose.Words
+ // to mail merge data from your Customer objects into Microsoft Word documents.
+ public class CustomerMailMergeDataSource implements IMailMergeDataSource {
+     public CustomerMailMergeDataSource(final CustomerList customers) {
+         mCustomers = customers;
+
+         // When the data source is initialized, it must be positioned before the first record.
+         mRecordIndex = -1;
+     }
+
+     // The name of the data source. Used by Aspose.Words only when executing mail merge with repeatable regions.
+     public String getTableName() {
+         return "Customer";
+     }
+
+     // Aspose.Words calls this method to get a value for every data field.
+     public boolean getValue(final String fieldName, final Ref fieldValue) throws Exception {
+         if (fieldName.equals("FullName")) {
+             fieldValue.set(mCustomers.get(mRecordIndex).getFullName());
+             return true;
+         } else if (fieldName.equals("Address")) {
+             fieldValue.set(mCustomers.get(mRecordIndex).getAddress());
+             return true;
+         } else {
+             // A field with this name was not found,
+             // return false to the Aspose.Words mail merge engine
+             fieldValue.set(null);
+             return false;
+         }
+     }
+
+     // A standard implementation for moving to a next record in a collection.
+     public boolean moveNext() {
+         if (!isEof()) mRecordIndex++;
+
+         return (!isEof());
+     }
+
+     public IMailMergeDataSource getChildDataSource(final String tableName) {
+         return null;
+     }
+
+     private boolean isEof() {
+         return (mRecordIndex >= mCustomers.size());
+     }
+
+     private final CustomerList mCustomers;
+     private int mRecordIndex;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -668,7 +787,7 @@ Mail merge regions in a document should be well formed (there always needs to be
 
  **Examples:** 
 
-Shows how to create a nested mail merge with regions with data from a data set with two related tables.
+Shows how to execute a nested mail merge with two merge regions and two data tables.
 
 ```
 
@@ -676,18 +795,18 @@ Shows how to create a nested mail merge with regions with data from a data set w
      Document doc = new Document();
      DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Create a MERGEFIELD with a value of "TableStart:Customers"
-     // Normally, MERGEFIELDs specify the name of the column that they take row data from
-     // "TableStart:Customers" however means that we are starting a mail merge region which belongs to a table called "Customers"
-     // This will start the outer region and an "TableEnd:Customers" MERGEFIELD will signify its end
+     // Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
+     // Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
+     // Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
      builder.insertField(" MERGEFIELD TableStart:Customers");
 
-     // Data from rows of the "CustomerName" column of the "Customers" table will go in this MERGEFIELD
+     // This MERGEFIELD is inside the mail merge region of the "Customers" table.
+     // When we execute the mail merge, this field will receive data from rows in a data source named "Customers".
      builder.write("Orders for ");
      builder.insertField(" MERGEFIELD CustomerName");
      builder.write(":");
 
-     // Create column headers for a table which will contain values from the second inner region
+     // Create column headers for a table that will contain values from a second inner region.
      builder.startTable();
      builder.insertCell();
      builder.write("Item");
@@ -695,11 +814,8 @@ Shows how to create a nested mail merge with regions with data from a data set w
      builder.write("Quantity");
      builder.endRow();
 
-     // We have a second data table called "Orders", which has a many-to-one relationship with "Customers",
-     // related by a "CustomerID" column
-     // We will start this inner mail merge region over which the "Orders" table will preside,
-     // which will iterate over the "Orders" table once for each merge of the outer "Customers" region,
-     // picking up rows with the same CustomerID value
+     // Create a second mail merge region inside the outer region for a table named "Orders".
+     // The "Orders" table has a many-to-one relationship with the "Customers" table on the "CustomerID" column.
      builder.insertCell();
      builder.insertField(" MERGEFIELD TableStart:Orders");
      builder.insertField(" MERGEFIELD ItemName");
@@ -712,9 +828,11 @@ Shows how to create a nested mail merge with regions with data from a data set w
      builder.insertField(" MERGEFIELD TableEnd:Orders");
      builder.endTable();
 
-     // End the outer region
      builder.insertField(" MERGEFIELD TableEnd:Customers");
 
+     // Create a dataset that contains the two tables with the required names and relationships.
+     // Each merge document for each row of the "Customers" table of the outer merge region will perform its mail merge on the "Orders" table.
+     // Each merge document will display all rows of the latter table whose "CustomerID" column values match the current "Customers" table row.
      DataSet customersAndOrders = createDataSet();
      doc.getMailMerge().executeWithRegions(customersAndOrders);
 
@@ -782,22 +900,24 @@ Shows how to use regions to execute two separate mail merges in one document.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // If we want to perform two consecutive mail merges on one document while taking data from two tables
- // that are related to each other in any way, we can separate the mail merges with regions
- // A mail merge region starts and ends with "TableStart:[RegionName]" and "TableEnd:[RegionName]" MERGEFIELDs
- // These regions are separate for unrelated data, while they can be nested for hierarchical data
+ // related to each other in any way, we can separate the mail merges with regions.
+ // Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
+ // Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
+ // Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
+ // These regions are separate for unrelated data, while they can be nested for hierarchical data.
  builder.writeln("\tCities: ");
  builder.insertField(" MERGEFIELD TableStart:Cities");
  builder.insertField(" MERGEFIELD Name");
  builder.insertField(" MERGEFIELD TableEnd:Cities");
  builder.insertParagraph();
 
- // Both MERGEFIELDs refer to a same column name, but values for each will come from different data tables
+ // Both MERGEFIELDs refer to the same column name, but values for each will come from different data tables.
  builder.writeln("\tFruit: ");
  builder.insertField(" MERGEFIELD TableStart:Fruit");
  builder.insertField(" MERGEFIELD Name");
  builder.insertField(" MERGEFIELD TableEnd:Fruit");
 
- // Create two data tables that aren't linked or related in any way which we still want in the same document
+ // Create two unrelated data tables.
  DataTable tableCities = new DataTable("Cities");
  tableCities.getColumns().add("Name");
  tableCities.getRows().add("Washington");
@@ -811,8 +931,8 @@ Shows how to use regions to execute two separate mail merges in one document.
  tableFruit.getRows().add("Watermelon");
  tableFruit.getRows().add("Banana");
 
- // We will need to run one mail merge per table
- // This mail merge will populate the MERGEFIELDs in the "Cities" range, while leaving the fields in "Fruit" empty
+ // We will need to run one mail merge per table. The first mail merge will populate the MERGEFIELDs
+ // in the "Cities" range while leaving the fields the "Fruit" range unfilled.
  doc.getMailMerge().executeWithRegions(tableCities);
 
  doc.save(getArtifactsDir() + "MailMerge.ExecuteWithRegionsConcurrent.docx");
@@ -928,22 +1048,24 @@ Shows how to use regions to execute two separate mail merges in one document.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // If we want to perform two consecutive mail merges on one document while taking data from two tables
- // that are related to each other in any way, we can separate the mail merges with regions
- // A mail merge region starts and ends with "TableStart:[RegionName]" and "TableEnd:[RegionName]" MERGEFIELDs
- // These regions are separate for unrelated data, while they can be nested for hierarchical data
+ // related to each other in any way, we can separate the mail merges with regions.
+ // Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
+ // Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
+ // Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
+ // These regions are separate for unrelated data, while they can be nested for hierarchical data.
  builder.writeln("\tCities: ");
  builder.insertField(" MERGEFIELD TableStart:Cities");
  builder.insertField(" MERGEFIELD Name");
  builder.insertField(" MERGEFIELD TableEnd:Cities");
  builder.insertParagraph();
 
- // Both MERGEFIELDs refer to a same column name, but values for each will come from different data tables
+ // Both MERGEFIELDs refer to the same column name, but values for each will come from different data tables.
  builder.writeln("\tFruit: ");
  builder.insertField(" MERGEFIELD TableStart:Fruit");
  builder.insertField(" MERGEFIELD Name");
  builder.insertField(" MERGEFIELD TableEnd:Fruit");
 
- // Create two data tables that aren't linked or related in any way which we still want in the same document
+ // Create two unrelated data tables.
  DataTable tableCities = new DataTable("Cities");
  tableCities.getColumns().add("Name");
  tableCities.getRows().add("Washington");
@@ -957,8 +1079,8 @@ Shows how to use regions to execute two separate mail merges in one document.
  tableFruit.getRows().add("Watermelon");
  tableFruit.getRows().add("Banana");
 
- // We will need to run one mail merge per table
- // This mail merge will populate the MERGEFIELDs in the "Cities" range, while leaving the fields in "Fruit" empty
+ // We will need to run one mail merge per table. The first mail merge will populate the MERGEFIELDs
+ // in the "Cities" range while leaving the fields the "Fruit" range unfilled.
  doc.getMailMerge().executeWithRegions(tableCities);
 
  doc.save(getArtifactsDir() + "MailMerge.ExecuteWithRegionsConcurrent.docx");
@@ -1293,7 +1415,7 @@ A new string array is created on every call.
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 
@@ -1363,7 +1485,7 @@ A new string array is created on every call.
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 
@@ -1805,7 +1927,7 @@ Gets a mail merge region end tag.
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 
@@ -1862,7 +1984,7 @@ Gets a mail merge region start tag.
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 
@@ -1919,7 +2041,7 @@ Returns a collection of mail merge regions with the specified name.
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 
@@ -2775,7 +2897,7 @@ Sets a mail merge region end tag.
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 
@@ -2835,7 +2957,7 @@ Sets a mail merge region start tag.
 
  **Examples:** 
 
-Shows how to create, list and read mail merge regions.
+Shows how to create, list, and read mail merge regions.
 
 ```
 

@@ -4,7 +4,7 @@ linktitle: RevisionOptions
 second_title: Aspose.Words for Java
 description: Allows to control how document revisions are handled during layout process in Java.
 type: docs
-weight: 534
+weight: 536
 url: /java/com.aspose.words/revisionoptions/
 ---
 
@@ -40,6 +40,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  // Remove the bar that appears to the left of every revised line.
  doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
  doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
  
@@ -300,6 +301,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  // Remove the bar that appears to the left of every revised line.
  doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
  doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
  
@@ -324,6 +326,24 @@ public int getMeasurementUnit()
 
 
 Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits/\#CENTIMETERS)
+
+ **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [MeasurementUnits](../../com.aspose.words/measurementunits/) constants.
@@ -885,6 +905,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  // Remove the bar that appears to the left of every revised line.
  doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
  doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
  
@@ -1172,6 +1193,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  // Remove the bar that appears to the left of every revised line.
  doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
  doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
  
@@ -1202,6 +1224,24 @@ public void setMeasurementUnit(int value)
 
 
 Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits/\#CENTIMETERS)
+
+ **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1799,6 +1839,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  // Remove the bar that appears to the left of every revised line.
  doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
  doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
  

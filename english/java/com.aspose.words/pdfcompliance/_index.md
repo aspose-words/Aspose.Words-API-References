@@ -4,7 +4,7 @@ linktitle: PdfCompliance
 second_title: Aspose.Words for Java
 description: Specifies the PDF standards compliance level in Java.
 type: docs
-weight: 488
+weight: 490
 url: /java/com.aspose.words/pdfcompliance/
 ---
 
@@ -40,6 +40,9 @@ Shows how to set the PDF standards compliance level of saved PDF documents.
  // Set the "Compliance" property to "PdfCompliance.Pdf20" to comply with the "PDF 2.0" (ISO 32000-2) standard.
  // Set the "Compliance" property to "PdfCompliance.PdfA4" to comply with the "PDF/A-4" (ISO 19004:2020) standard,
  // which preserving document static visual appearance over time.
+ // Set the "Compliance" property to "PdfCompliance.PdfA4Ua2" to comply with both PDF/A-4 (ISO 19005-4:2020)
+ // and PDF/UA-2 (ISO 14289-2:2024) standards.
+ // Set the "Compliance" property to "PdfCompliance.PdfUa2" to comply with the PDF/UA-2 (ISO 14289-2:2024) standard.
  // This helps with making documents searchable but may significantly increase the size of already large documents.
  saveOptions.setCompliance(pdfCompliance);
 
@@ -57,7 +60,9 @@ Shows how to set the PDF standards compliance level of saved PDF documents.
 | [PDF_A_2_A](#PDF-A-2-A) | The output file will comply with the PDF/A-2a (ISO 19005-2) standard. |
 | [PDF_A_2_U](#PDF-A-2-U) | The output file will comply with the PDF/A-2u (ISO 19005-2) standard. |
 | [PDF_A_4](#PDF-A-4) | The output file will comply with the PDF/A-4 (ISO 19005-4:2020) standard. |
+| [PDF_A_4_UA_2](#PDF-A-4-UA-2) | The output file will comply with both PDF/A-4 (ISO 19005-4:2020) and PDF/UA-2 (ISO 14289-2:2024) standards. |
 | [PDF_UA_1](#PDF-UA-1) | The output file will comply with the PDF/UA-1 (ISO 14289-1) standard. |
+| [PDF_UA_2](#PDF-UA-2) | The output file will comply with the PDF/UA-2 (ISO 14289-2:2024) standard. |
 | [length](#length) |  |
 ## Methods
 
@@ -121,7 +126,7 @@ public static int PDF_A_2_U
 ```
 
 
-The output file will comply with the PDF/A-2u (ISO 19005-2) standard. PDF/A-2u has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally any text contained in the document can be reliably extracted as a series of Unicode codepoints.
+The output file will comply with the PDF/A-2u (ISO 19005-2) standard. PDF/A-2u has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally, any text contained in the document can be reliably extracted as a series of Unicode codepoints.
 
 ### PDF_A_4 {#PDF-A-4}
 ```
@@ -129,7 +134,19 @@ public static int PDF_A_4
 ```
 
 
-The output file will comply with the PDF/A-4 (ISO 19005-4:2020) standard. PDF/A-4 has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally any text contained in the document can be reliably extracted as a series of Unicode codepoints.
+The output file will comply with the PDF/A-4 (ISO 19005-4:2020) standard. PDF/A-4 has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally, any text contained in the document can be reliably extracted as a series of Unicode codepoints.
+
+### PDF_A_4_UA_2 {#PDF-A-4-UA-2}
+```
+public static int PDF_A_4_UA_2
+```
+
+
+The output file will comply with both PDF/A-4 (ISO 19005-4:2020) and PDF/UA-2 (ISO 14289-2:2024) standards. PDF/A-4 has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. The primary purpose of PDF/UA is to define how to represent electronic documents in the PDF format in a manner that allows the file to be accessible.
+
+ **Remarks:** 
+
+Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
 
 ### PDF_UA_1 {#PDF-UA-1}
 ```
@@ -138,6 +155,22 @@ public static int PDF_UA_1
 
 
 The output file will comply with the PDF/UA-1 (ISO 14289-1) standard. The primary purpose of PDF/UA is to define how to represent electronic documents in the PDF format in a manner that allows the file to be accessible.
+
+ **Remarks:** 
+
+Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+
+### PDF_UA_2 {#PDF-UA-2}
+```
+public static int PDF_UA_2
+```
+
+
+The output file will comply with the PDF/UA-2 (ISO 14289-2:2024) standard. The primary purpose of PDF/UA is to define how to represent electronic documents in the PDF format in a manner that allows the file to be accessible.
+
+ **Remarks:** 
+
+Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
 
 ### length {#length}
 ```

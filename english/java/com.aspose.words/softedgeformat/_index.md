@@ -4,7 +4,7 @@ linktitle: SoftEdgeFormat
 second_title: Aspose.Words for Java
 description: Represents the soft edge formatting for an object in Java.
 type: docs
-weight: 573
+weight: 576
 url: /java/com.aspose.words/softedgeformat/
 ---
 
@@ -19,6 +19,35 @@ Represents the soft edge formatting for an object.
  **Remarks:** 
 
 Use the [ShapeBase.getSoftEdge()](../../com.aspose.words/shapebase/\#getSoftEdge) property to access soft edge properties of an object. You do not create instances of the [SoftEdgeFormat](../../com.aspose.words/softedgeformat/) class directly.
+
+ **Examples:** 
+
+Shows how to work with soft edge formatting.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 200.0, 200.0);
+
+ // Apply soft edge to the shape.
+ shape.getSoftEdge().setRadius(30.0);
+
+ builder.getDocument().save(getArtifactsDir() + "Shape.SoftEdge.docx");
+
+ // Load document with rectangle shape with soft edge.
+ Document doc = new Document(getArtifactsDir() + "Shape.SoftEdge.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ // Check soft edge radius.
+ Assert.assertEquals(30, shape.getSoftEdge().getRadius());
+
+ // Remove soft edge from the shape.
+ shape.getSoftEdge().remove();
+
+ // Check radius of the removed soft edge.
+ Assert.assertEquals(0, shape.getSoftEdge().getRadius());
+ 
+```
 ## Methods
 
 | Method | Description |

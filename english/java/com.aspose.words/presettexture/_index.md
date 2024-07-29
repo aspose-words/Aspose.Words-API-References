@@ -4,7 +4,7 @@ linktitle: PresetTexture
 second_title: Aspose.Words for Java
 description: Specifies texture to be used to fill a shape in Java.
 type: docs
-weight: 511
+weight: 513
 url: /java/com.aspose.words/presettexture/
 ---
 
@@ -15,6 +15,43 @@ public class PresetTexture
 ```
 
 Specifies texture to be used to fill a shape.
+
+ **Examples:** 
+
+Show how to set marker formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.SCATTER, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+ ChartSeries series = chart.getSeries().add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.9 },
+         new double[] { 2.7, 3.2, 0.8, 1.7 });
+
+ // Set marker formatting.
+ series.getMarker().setSize(40);
+ series.getMarker().setSymbol(MarkerSymbol.SQUARE);
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+ dataPoints.get(0).getMarker().getFormat().getFill().presetTextured(PresetTexture.DENIM);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setBackColor(Color.RED);
+ dataPoints.get(1).getMarker().getFormat().getFill().presetTextured(PresetTexture.WATER_DROPLETS);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setVisible(false);
+ dataPoints.get(2).getMarker().getFormat().getFill().presetTextured(PresetTexture.GREEN_MARBLE);
+ dataPoints.get(2).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getFill().presetTextured(PresetTexture.OAK);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setTransparency(0.5);
+
+ doc.save(getArtifactsDir() + "Charts.MarkerFormatting.docx");
+ 
+```
 ## Fields
 
 | Field | Description |
