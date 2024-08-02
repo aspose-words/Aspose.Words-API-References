@@ -21,6 +21,7 @@ class IDocumentConverterPlugin : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [Convert](./convert/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Converts document using specified input output streams and save options. |
+| virtual [ConvertToImages](./converttoimages/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) |  |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | static [Type](./type/)() |  |

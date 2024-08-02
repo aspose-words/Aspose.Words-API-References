@@ -87,44 +87,6 @@ The image node that was just inserted.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
-## Examples
-
-
-
-Shows how to insert an online video into a document with a custom thumbnail. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-String videoUrl = u"https://vimeo.com/52477838";
-String videoEmbedCode = String(u"<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" ") +
-                        u"title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
-
-ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.jpg");
-
-{
-    auto stream = MakeObject<System::IO::MemoryStream>(thumbnailImageBytes);
-    {
-        SharedPtr<System::Drawing::Image> image = System::Drawing::Image::FromStream(stream);
-        // Below are two ways of creating a shape with a custom thumbnail, which links to an online video
-        // that will play when we click on the shape in Microsoft Word.
-        // 1 -  Insert an inline shape at the builder's node insertion cursor:
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image->get_Width(), image->get_Height());
-
-        builder->InsertBreak(BreakType::PageBreak);
-
-        // 2 -  Insert a floating shape:
-        double left = builder->get_PageSetup()->get_RightMargin() - image->get_Width();
-        double top = builder->get_PageSetup()->get_BottomMargin() - image->get_Height();
-
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, RelativeHorizontalPosition::RightMargin, left,
-                                   RelativeVerticalPosition::BottomMargin, top, image->get_Width(), image->get_Height(), WrapType::Square);
-    }
-}
-
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx");
-```
-
 ## See Also
 
 * Class [Shape](../../../aspose.words.drawing/shape/)
@@ -159,44 +121,6 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-## Examples
-
-
-
-Shows how to insert an online video into a document with a custom thumbnail. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-String videoUrl = u"https://vimeo.com/52477838";
-String videoEmbedCode = String(u"<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" ") +
-                        u"title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
-
-ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.jpg");
-
-{
-    auto stream = MakeObject<System::IO::MemoryStream>(thumbnailImageBytes);
-    {
-        SharedPtr<System::Drawing::Image> image = System::Drawing::Image::FromStream(stream);
-        // Below are two ways of creating a shape with a custom thumbnail, which links to an online video
-        // that will play when we click on the shape in Microsoft Word.
-        // 1 -  Insert an inline shape at the builder's node insertion cursor:
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image->get_Width(), image->get_Height());
-
-        builder->InsertBreak(BreakType::PageBreak);
-
-        // 2 -  Insert a floating shape:
-        double left = builder->get_PageSetup()->get_RightMargin() - image->get_Width();
-        double top = builder->get_PageSetup()->get_BottomMargin() - image->get_Height();
-
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, RelativeHorizontalPosition::RightMargin, left,
-                                   RelativeVerticalPosition::BottomMargin, top, image->get_Width(), image->get_Height(), WrapType::Square);
-    }
-}
-
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx");
-```
 
 ## See Also
 

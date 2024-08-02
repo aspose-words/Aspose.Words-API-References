@@ -44,8 +44,8 @@ ASSERT_TRUE(outDocContents.Contains(u"<p class=\"myprefix-Footer\">"));
 
 outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.CssClassNamePrefix.css");
 
-ASSERT_TRUE(outDocContents.Contains(String(u".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n") +
-                                    u".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n"));
+ASSERT_TRUE(outDocContents.Contains(String(u".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }\r\n") +
+                                    u".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }\r\n"));
 ```
 
 ## See Also
