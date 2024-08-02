@@ -30,6 +30,7 @@ enum class ImageType
 | Bmp | 7 | Windows Bitmap. |
 | Eps | 8 | Encapsulated PostScript. |
 | WebP | 9 |  |
+| Gif | 10 |  |
 
 
 ## Examples
