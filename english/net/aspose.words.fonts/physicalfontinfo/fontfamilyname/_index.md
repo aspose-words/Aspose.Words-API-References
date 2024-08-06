@@ -5,7 +5,7 @@ articleTitle: FontFamilyName
 second_title: Aspose.Words for .NET
 description: PhysicalFontInfo FontFamilyName property. Family name of the font in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property

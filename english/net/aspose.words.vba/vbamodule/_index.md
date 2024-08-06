@@ -5,7 +5,7 @@ articleTitle: VbaModule
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Vba.VbaModule class. Provides access to VBA project module in C#.
 type: docs
-weight: 6890
+weight: 6910
 url: /net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class

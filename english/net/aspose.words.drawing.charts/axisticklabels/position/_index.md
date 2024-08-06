@@ -5,7 +5,7 @@ articleTitle: Position
 second_title: Aspose.Words for .NET
 description: AxisTickLabels Position property. Gets or sets the position of the tick labels on the axis in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.drawing.charts/axisticklabels/position/
 ---
 ## AxisTickLabels.Position property

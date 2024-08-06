@@ -42,6 +42,7 @@ class ListLevel : public Aspose::Words::IRunAttrSource
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Alignment](./set_alignment/)(Aspose::Words::Lists::ListLevelAlignment) | Setter for [Aspose::Words::Lists::ListLevel::get_Alignment](./get_alignment/). |
+| [set_CustomNumberStyleFormat](./set_customnumberstyleformat/)(const System::String\&) | Setter for [Aspose::Words::Lists::ListLevel::get_CustomNumberStyleFormat](./get_customnumberstyleformat/). |
 | [set_IsLegal](./set_islegal/)(bool) | Setter for [Aspose::Words::Lists::ListLevel::get_IsLegal](./get_islegal/). |
 | [set_LinkedStyle](./set_linkedstyle/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Setter for [Aspose::Words::Lists::ListLevel::get_LinkedStyle](./get_linkedstyle/). |
 | [set_NumberFormat](./set_numberformat/)(const System::String\&) | Setter for [Aspose::Words::Lists::ListLevel::get_NumberFormat](./get_numberformat/). |

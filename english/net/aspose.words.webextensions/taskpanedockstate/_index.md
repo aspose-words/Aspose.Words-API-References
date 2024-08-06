@@ -5,7 +5,7 @@ articleTitle: TaskPaneDockState
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WebExtensions.TaskPaneDockState enum. Enumerates available locations of task pane object in C#.
 type: docs
-weight: 7070
+weight: 7090
 url: /net/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enumeration

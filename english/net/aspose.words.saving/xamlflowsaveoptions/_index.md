@@ -5,7 +5,7 @@ articleTitle: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.XamlFlowSaveOptions class. Can be used to specify additional options when saving a document into the XamlFlow or XamlFlowPack format in C#.
 type: docs
-weight: 5990
+weight: 6010
 url: /net/aspose.words.saving/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions class
@@ -43,6 +43,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
+| [ReplaceBackslashWithYenSign](../../aspose.words.saving/xamlflowsaveoptions/replacebackslashwithyensign/) { get; set; } | Specifies whether backslash characters should be replaced with yen signs. Default value is `false`. |
 | override [SaveFormat](../../aspose.words.saving/xamlflowsaveoptions/saveformat/) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be XamlFlow. |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used. |
 | [UpdateCreatedTimeProperty](../../aspose.words.saving/saveoptions/updatecreatedtimeproperty/) { get; set; } | Gets or sets a value determining whether the [`CreatedTime`](../../aspose.words.properties/builtindocumentproperties/createdtime/) property is updated before saving. Default value is `false`; |

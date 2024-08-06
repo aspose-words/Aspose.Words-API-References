@@ -5,7 +5,7 @@ articleTitle: ShapeRenderer
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Rendering.ShapeRenderer class. Provides methods to render an individual Shape or GroupShape to a raster or vector image or to a Graphics object in C#.
 type: docs
-weight: 4860
+weight: 4880
 url: /net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class

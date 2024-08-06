@@ -5,7 +5,7 @@ articleTitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.Dml3DEffectsRenderingMode enum. Specifies how 3D shape effects are rendered in C#.
 type: docs
-weight: 5180
+weight: 5200
 url: /net/aspose.words.saving/dml3deffectsrenderingmode/
 ---
 ## Dml3DEffectsRenderingMode enumeration

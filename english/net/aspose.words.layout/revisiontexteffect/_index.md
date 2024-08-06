@@ -5,7 +5,7 @@ articleTitle: RevisionTextEffect
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.RevisionTextEffect enum. Allows to specify decoration effect for revisions of document text in C#.
 type: docs
-weight: 3650
+weight: 3670
 url: /net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration
@@ -55,7 +55,7 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Render format revisions in dark red and bold.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;

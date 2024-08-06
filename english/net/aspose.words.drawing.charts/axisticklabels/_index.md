@@ -24,7 +24,9 @@ public class AxisTickLabels
 | [Font](../../aspose.words.drawing.charts/axisticklabels/font/) { get; } | Provides access to font formatting of the tick labels. |
 | [IsAutoSpacing](../../aspose.words.drawing.charts/axisticklabels/isautospacing/) { get; set; } | Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels. |
 | [Offset](../../aspose.words.drawing.charts/axisticklabels/offset/) { get; set; } | Gets or sets the distance of the tick labels from the axis. |
+| [Orientation](../../aspose.words.drawing.charts/axisticklabels/orientation/) { get; set; } | Gets or sets the orientation of the tick label text. |
 | [Position](../../aspose.words.drawing.charts/axisticklabels/position/) { get; set; } | Gets or sets the position of the tick labels on the axis. |
+| [Rotation](../../aspose.words.drawing.charts/axisticklabels/rotation/) { get; set; } | Gets or sets the rotation of the tick labels in degrees. |
 | [Spacing](../../aspose.words.drawing.charts/axisticklabels/spacing/) { get; set; } | Gets or sets the interval at which the tick labels are drawn. |
 
 ## Examples

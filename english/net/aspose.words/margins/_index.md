@@ -5,7 +5,7 @@ articleTitle: Margins
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Margins enum. Specifies preset margins in C#.
 type: docs
-weight: 4160
+weight: 4180
 url: /net/aspose.words/margins/
 ---
 ## Margins enumeration

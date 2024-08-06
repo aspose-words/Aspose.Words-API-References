@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the Pdf format in C#.
 type: docs
-weight: 5810
+weight: 5830
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -82,6 +82,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [UseBookFoldPrintingSettings](../../aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/) { get; set; } | Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [`MultiplePages`](../../aspose.words/pagesetup/multiplepages/). |
 | [UseCoreFonts](../../aspose.words.saving/pdfsaveoptions/usecorefonts/) { get; set; } | Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
+| [UseSdtTagAsFormFieldName](../../aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) { get; set; } | Specifies whether to use SDT control Tag or Id property as a name of form field in PDF. |
 | [ZoomBehavior](../../aspose.words.saving/pdfsaveoptions/zoombehavior/) { get; set; } | Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [ZoomFactor](../../aspose.words.saving/pdfsaveoptions/zoomfactor/) { get; set; } | Gets or sets a value determining zoom factor (in percentages) for a document. |
 
