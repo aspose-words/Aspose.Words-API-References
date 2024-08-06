@@ -16,6 +16,20 @@ Gets or sets a set of flags controlling behavior of this [`ReportingEngine`](../
 public ReportBuildOptions Options { get; set; }
 ```
 
+## Examples
+
+Shows how to allow missinng members.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+builder.Writeln("<<[missingObject.First().id]>>");
+builder.Writeln("<<foreach [in missingObject]>><<[id]>><</foreach>>");
+
+ReportingEngine engine = new ReportingEngine { Options = ReportBuildOptions.AllowMissingMembers };
+engine.MissingMemberMessage = "Missed";
+engine.BuildReport(builder.Document, new DataSet(), "");
+```
+
 ### See Also
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)

@@ -3,17 +3,17 @@ title: Corporate.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: Corporate Name property. Gets the name of a organization in C#.
+description: Corporate Name property. Gets or sets the name of an organization in C#.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.bibliography/corporate/name/
 ---
 ## Corporate.Name property
 
-Gets the name of a organization.
+Gets or sets the name of an organization.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### See Also

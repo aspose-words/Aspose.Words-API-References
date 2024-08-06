@@ -5,7 +5,7 @@ articleTitle: Frameset
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Framesets.Frameset class. Represents a frames page or a single frame on a frames page in C#.
 type: docs
-weight: 3320
+weight: 3340
 url: /net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
@@ -44,6 +44,7 @@ Shows how to access frames on-page.
 // Document contains several frames with links to other documents.
 Document doc = new Document(MyDir + "Frameset.docx");
 
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
 // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);

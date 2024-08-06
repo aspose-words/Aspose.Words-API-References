@@ -5,7 +5,7 @@ articleTitle: PdfLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a Document object in C#.
 type: docs
-weight: 3930
+weight: 3950
 url: /net/aspose.words.loading/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -54,6 +54,25 @@ public class PdfLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
+
+## Examples
+
+Shows how to skip images during loading PDF files.
+
+```csharp
+PdfLoadOptions options = new PdfLoadOptions();
+options.SkipPdfImages = isSkipPdfImages;
+options.PageIndex = 0;
+options.PageCount = 1;
+
+Document doc = new Document(MyDir + "Images.pdf", options);
+NodeCollection shapeCollection = doc.GetChildNodes(NodeType.Shape, true);
+
+if (isSkipPdfImages)
+    Assert.AreEqual(shapeCollection.Count, 0);
+else
+    Assert.AreNotEqual(shapeCollection.Count, 0);
+```
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: FramesetCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Framesets.FramesetCollection class. Represents a collection of instances of the Frameset class in C#.
 type: docs
-weight: 3330
+weight: 3350
 url: /net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
@@ -36,6 +36,29 @@ public class FramesetCollection : IEnumerable<Frameset>
 | Name | Description |
 | --- | --- |
 | [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() | Returns an enumerator that iterates through the collection. |
+
+## Examples
+
+Shows how to access frames on-page.
+
+```csharp
+// Document contains several frames with links to other documents.
+Document doc = new Document(MyDir + "Frameset.docx");
+
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+// We can check the default URL (a web page URL or local document) or if the frame is an external resource.
+Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
+    doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
+Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
+
+Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
+Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
+
+// Change properties for one of our frames.
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
+    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx";
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
+```
 
 ### See Also
 

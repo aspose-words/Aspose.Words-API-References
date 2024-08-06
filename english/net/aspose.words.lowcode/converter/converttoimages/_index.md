@@ -3,14 +3,14 @@ title: Converter.ConvertToImages
 linktitle: ConvertToImages
 articleTitle: ConvertToImages
 second_title: Aspose.Words for .NET
-description: Converter ConvertToImages method. Convert the input file pages to images in C#.
+description: Converter ConvertToImages method. Converts the input file pages to images in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.lowcode/converter/converttoimages/
 ---
 ## ConvertToImages(*string, string*) {#converttoimages_6}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 ```csharp
 public static void ConvertToImages(string inputFile, string outputFile)
@@ -20,6 +20,20 @@ public static void ConvertToImages(string inputFile, string outputFile)
 | --- | --- | --- |
 | inputFile | String | The input file name. |
 | outputFile | String | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
+
+## Examples
+
+Shows how to convert document to images.
+
+```csharp
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png");
+
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.jpeg", SaveFormat.Jpeg);
+
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png", imageSaveOptions);
+```
 
 ### See Also
 
@@ -31,7 +45,7 @@ public static void ConvertToImages(string inputFile, string outputFile)
 
 ## ConvertToImages(*string, string, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_7}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 ```csharp
 public static void ConvertToImages(string inputFile, string outputFile, SaveFormat saveFormat)
@@ -42,6 +56,20 @@ public static void ConvertToImages(string inputFile, string outputFile, SaveForm
 | inputFile | String | The input file name. |
 | outputFile | String | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
 | saveFormat | SaveFormat | Save format. Only image save formats are allowed. |
+
+## Examples
+
+Shows how to convert document to images.
+
+```csharp
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png");
+
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.jpeg", SaveFormat.Jpeg);
+
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png", imageSaveOptions);
+```
 
 ### See Also
 
@@ -54,7 +82,7 @@ public static void ConvertToImages(string inputFile, string outputFile, SaveForm
 
 ## ConvertToImages(*string, string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_8}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 ```csharp
 public static void ConvertToImages(string inputFile, string outputFile, 
@@ -67,6 +95,20 @@ public static void ConvertToImages(string inputFile, string outputFile,
 | outputFile | String | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
 | saveOptions | ImageSaveOptions | Image save options. |
 
+## Examples
+
+Shows how to convert document to images.
+
+```csharp
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png");
+
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.jpeg", SaveFormat.Jpeg);
+
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png", imageSaveOptions);
+```
+
 ### See Also
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
@@ -78,7 +120,7 @@ public static void ConvertToImages(string inputFile, string outputFile,
 
 ## ConvertToImages(*string, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_4}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 ```csharp
 public static Stream[] ConvertToImages(string inputFile, SaveFormat saveFormat)
@@ -93,6 +135,22 @@ public static Stream[] ConvertToImages(string inputFile, SaveFormat saveFormat)
 
 Returns array of image streams. The streams should be disposed by the enduser.
 
+## Examples
+
+Shows how to convert document to images stream.
+
+```csharp
+Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+```
+
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
@@ -104,7 +162,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## ConvertToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_5}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 ```csharp
 public static Stream[] ConvertToImages(string inputFile, ImageSaveOptions saveOptions)
@@ -119,6 +177,22 @@ public static Stream[] ConvertToImages(string inputFile, ImageSaveOptions saveOp
 
 Returns array of image streams. The streams should be disposed by the enduser.
 
+## Examples
+
+Shows how to convert document to images stream.
+
+```csharp
+Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+```
+
 ### See Also
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
@@ -130,7 +204,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## ConvertToImages(*Stream, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_2}
 
-Convert the input stream pages to images.
+Converts the input stream pages to images.
 
 ```csharp
 public static Stream[] ConvertToImages(Stream inputStream, SaveFormat saveFormat)
@@ -145,6 +219,21 @@ public static Stream[] ConvertToImages(Stream inputStream, SaveFormat saveFormat
 
 Returns array of image streams. The streams should be disposed by the enduser.
 
+## Examples
+
+Shows how to convert document to images from stream.
+
+```csharp
+using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    Stream[] streams = Converter.ConvertToImages(streamIn, SaveFormat.Jpeg);
+
+    ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+    imageSaveOptions.PageSet = new PageSet(1);
+    streams = Converter.ConvertToImages(streamIn, imageSaveOptions);
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
@@ -156,7 +245,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## ConvertToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_3}
 
-Convert the input stream pages to images.
+Converts the input stream pages to images.
 
 ```csharp
 public static Stream[] ConvertToImages(Stream inputStream, ImageSaveOptions saveOptions)
@@ -171,6 +260,21 @@ public static Stream[] ConvertToImages(Stream inputStream, ImageSaveOptions save
 
 Returns array of image streams. The streams should be disposed by the enduser.
 
+## Examples
+
+Shows how to convert document to images from stream.
+
+```csharp
+using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    Stream[] streams = Converter.ConvertToImages(streamIn, SaveFormat.Jpeg);
+
+    ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+    imageSaveOptions.PageSet = new PageSet(1);
+    streams = Converter.ConvertToImages(streamIn, imageSaveOptions);
+}
+```
+
 ### See Also
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
@@ -182,7 +286,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## ConvertToImages(*[Document](../../../aspose.words/document/), [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages}
 
-Convert the document pages to images.
+Converts the document pages to images.
 
 ```csharp
 public static Stream[] ConvertToImages(Document doc, SaveFormat saveFormat)
@@ -197,6 +301,22 @@ public static Stream[] ConvertToImages(Document doc, SaveFormat saveFormat)
 
 Returns array of image streams. The streams should be disposed by the enduser.
 
+## Examples
+
+Shows how to convert document to images stream.
+
+```csharp
+Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+```
+
 ### See Also
 
 * class [Document](../../../aspose.words/document/)
@@ -209,7 +329,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## ConvertToImages(*[Document](../../../aspose.words/document/), [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_1}
 
-Convert the document pages to images.
+Converts the document pages to images.
 
 ```csharp
 public static Stream[] ConvertToImages(Document doc, ImageSaveOptions saveOptions)
@@ -223,6 +343,22 @@ public static Stream[] ConvertToImages(Document doc, ImageSaveOptions saveOption
 ### Return Value
 
 Returns array of image streams. The streams should be disposed by the enduser.
+
+## Examples
+
+Shows how to convert document to images stream.
+
+```csharp
+Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+
+streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+```
 
 ### See Also
 

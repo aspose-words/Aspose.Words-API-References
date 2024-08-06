@@ -5,7 +5,7 @@ articleTitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.Dml3DEffectsRenderingMode enum. Specifies how 3D shape effects are rendered in C#.
 type: docs
-weight: 5180
+weight: 5200
 url: /net/aspose.words.saving/dml3deffectsrenderingmode/
 ---
 ## Dml3DEffectsRenderingMode enumeration
@@ -22,6 +22,22 @@ public enum Dml3DEffectsRenderingMode
 | --- | --- | --- |
 | Basic | `0` | A lightweight and stable rendering, based on the internal engine, but advanced effects such as lighting, materials and other additional effects are not displayed when using this mode. Please see documentation for details. |
 | Advanced | `1` | Rendering of an extended list of special effects including advanced 3D effects such as bevels, lighting and materials. |
+
+## Examples
+
+Shows how 3D effects are rendered.
+
+```csharp
+Document doc = new Document(MyDir + "DrawingML shape 3D effects.docx");
+
+RenderCallback warningCallback = new RenderCallback();
+doc.WarningCallback = warningCallback;
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.Dml3DEffectsRenderingMode = Dml3DEffectsRenderingMode.Advanced;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf", saveOptions);
+```
 
 ### See Also
 

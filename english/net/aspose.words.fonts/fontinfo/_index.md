@@ -5,7 +5,7 @@ articleTitle: FontInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontInfo class. Specifies information about a font used in the document in C#.
 type: docs
-weight: 3160
+weight: 3180
 url: /net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
@@ -24,6 +24,7 @@ public class FontInfo
 | --- | --- |
 | [AltName](../../aspose.words.fonts/fontinfo/altname/) { get; set; } | Gets or sets the alternate name for the font. |
 | [Charset](../../aspose.words.fonts/fontinfo/charset/) { get; set; } | Gets or sets the character set for the font. |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/fontinfo/embeddinglicensingrights/) { get; } | Gets the embedded font licensing rights. |
 | [Family](../../aspose.words.fonts/fontinfo/family/) { get; set; } | Gets or sets the font family this font belongs to. |
 | [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is `true`. |
 | [Name](../../aspose.words.fonts/fontinfo/name/) { get; } | Gets the name of the font. |

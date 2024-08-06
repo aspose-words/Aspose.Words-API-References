@@ -36,7 +36,7 @@ Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
 
 // Change type of the fill to Solid with uniform green color.
-fill.Solid(Color.Green);
+fill.Solid();
 Console.WriteLine("\nThe fill is changed:");
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);

@@ -16,6 +16,21 @@ Gets this instance.
 public override DocumentBase Document { get; }
 ```
 
+## Examples
+
+Shows how to create simple document.
+
+```csharp
+Document doc = new Document();
+
+// New Document objects by default come with the minimal set of nodes
+// required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+doc.AppendChild(new Section(doc))
+    .AppendChild(new Body(doc))
+    .AppendChild(new Paragraph(doc))
+    .AppendChild(new Run(doc, "Hello world!"));
+```
+
 ### See Also
 
 * class [DocumentBase](../)

@@ -16,6 +16,22 @@ Gets type of Forms 2.0 control.
 public override Forms2OleControlType Type { get; }
 ```
 
+## Examples
+
+Shows how to change text of the TextBox OLE control.
+
+```csharp
+Document doc = new Document(MyDir + "Textbox control.docm");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+TextBoxControl textBoxControl = (TextBoxControl)shape.OleFormat.OleControl;
+Assert.AreEqual("Aspose.Words test", textBoxControl.Text);
+
+textBoxControl.Text = "Updated text";
+Assert.AreEqual("Updated text", textBoxControl.Text);
+Assert.AreEqual(Forms2OleControlType.Textbox, textBoxControl.Type);
+```
+
 ### See Also
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)

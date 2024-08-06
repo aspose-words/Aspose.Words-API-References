@@ -5,7 +5,7 @@ articleTitle: VariableCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.VariableCollection class. A collection of document variables in C#.
 type: docs
-weight: 6870
+weight: 6890
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
@@ -84,6 +84,9 @@ Assert.True(variables.Any(v => v.Value == "London"));
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
+
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
 
 // Enumerate over the collection of variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())

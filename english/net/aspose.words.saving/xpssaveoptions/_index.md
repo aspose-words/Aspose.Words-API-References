@@ -5,7 +5,7 @@ articleTitle: XpsSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.XpsSaveOptions class. Can be used to specify additional options when saving a document into the Xps format in C#.
 type: docs
-weight: 6030
+weight: 6050
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -33,6 +33,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Gets or sets a value determining how colors are rendered. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Gets or sets custom local time zone used for date/time fields. |
 | [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Gets or sets path to default template (including filename). Default value for this property is **empty string** (Empty). |
+| [DigitalSignatureDetails](../../aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) { get; set; } | Gets or sets [`DigitalSignatureDetails`](../digitalsignaturedetails/) object used to sign a document. |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Gets or sets a value determining how 3D effects are rendered. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML shapes are rendered. |

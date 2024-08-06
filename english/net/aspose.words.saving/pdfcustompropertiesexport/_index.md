@@ -5,7 +5,7 @@ articleTitle: PdfCustomPropertiesExport
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfCustomPropertiesExport enum. Specifies the way CustomDocumentProperties are exported to PDF file in C#.
 type: docs
-weight: 5700
+weight: 5720
 url: /net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration

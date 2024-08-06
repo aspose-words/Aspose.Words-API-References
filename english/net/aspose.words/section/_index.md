@@ -5,7 +5,7 @@ articleTitle: Section
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Section class. Represents a single section in a document in C#.
 type: docs
-weight: 6050
+weight: 6070
 url: /net/aspose.words/section/
 ---
 ## Section class
@@ -55,7 +55,8 @@ public sealed class Section : CompositeNode
 | [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Adds the specified node to the end of the list of child nodes for this node. |
 | [AppendContent](../../aspose.words/section/appendcontent/)(*Section*) | Inserts a copy of content of the source section at the end of this section. |
 | [ClearContent](../../aspose.words/section/clearcontent/)() | Clears the section. |
-| [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/)() | Clears the headers and footers of this section. |
+| [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/#clearheadersfooters)() | Clears the headers and footers of this section. |
+| [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/#clearheadersfooters_1)(*bool*) | Clears the headers and footers of this section. |
 | [Clone](../../aspose.words/section/clone/#clone_1)() | Creates a duplicate of this section. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |

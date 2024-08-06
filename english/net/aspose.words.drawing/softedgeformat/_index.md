@@ -32,6 +32,34 @@ public class SoftEdgeFormat
 
 Use the [`SoftEdge`](../shapebase/softedge/) property to access soft edge properties of an object. You do not create instances of the `SoftEdgeFormat` class directly.
 
+## Examples
+
+Shows how to work with soft edge formatting.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 200, 200);
+
+// Apply soft edge to the shape.
+shape.SoftEdge.Radius = 30;
+
+builder.Document.Save(ArtifactsDir + "Shape.SoftEdge.docx");
+
+// Load document with rectangle shape with soft edge.
+Document doc = new Document(ArtifactsDir + "Shape.SoftEdge.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+SoftEdgeFormat softEdgeFormat = shape.SoftEdge;
+
+// Check soft edge radius.
+Assert.AreEqual(30, softEdgeFormat.Radius);
+
+// Remove soft edge from the shape.
+softEdgeFormat.Remove();
+
+// Check radius of the removed soft edge.
+Assert.AreEqual(0, softEdgeFormat.Radius);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Drawing](../../aspose.words.drawing/)

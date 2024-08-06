@@ -76,6 +76,28 @@ public enum PatternType
 | WideUpwardDiagonal | `54` | Wide upward diagonal. |
 | ZigZag | `55` | Zig zag. |
 
+## Examples
+
+Shows how to set pattern for a shape.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Fill fill = shape.Fill;
+
+Console.WriteLine("Pattern value is: {0}", fill.Pattern);
+
+// There are several ways specified fill to a pattern.
+// 1 -  Apply pattern to the shape fill:
+fill.Patterned(PatternType.DiagonalBrick);
+
+// 2 -  Apply pattern with foreground and background colors to the shape fill:
+fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
+
+doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Drawing](../../aspose.words.drawing/)

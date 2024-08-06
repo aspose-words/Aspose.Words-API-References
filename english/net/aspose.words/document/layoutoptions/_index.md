@@ -64,6 +64,7 @@ builder.Writeln("This is not a revision.");
 // Remove the bar that appears to the left of every revised line.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
 doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ```

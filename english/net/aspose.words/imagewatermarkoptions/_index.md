@@ -5,7 +5,7 @@ articleTitle: ImageWatermarkOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.ImageWatermarkOptions class. Contains options that can be specified when adding a watermark with image in C#.
 type: docs
-weight: 3470
+weight: 3490
 url: /net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
@@ -30,6 +30,36 @@ public class ImageWatermarkOptions
 | --- | --- |
 | [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is `true`. |
 | [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
+
+## Examples
+
+Shows how to create a watermark from an image in the local file system.
+
+```csharp
+Document doc = new Document();
+
+            // Modify the image watermark's appearance with an ImageWatermarkOptions object,
+            // then pass it while creating a watermark from an image file.
+            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+            imageWatermarkOptions.Scale = 5;
+            imageWatermarkOptions.IsWashout = false;
+
+#if NET461_OR_GREATER || JAVA
+            // We have a different options to insert image:
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
+            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+            {
+                doc.Watermark.SetImage(image, imageWatermarkOptions);
+            }
+#endif
+
+            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
 
 ### See Also
 

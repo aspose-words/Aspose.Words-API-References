@@ -20,6 +20,21 @@ public MarkdownLoadOptions()
 
 Automatically sets [`LoadFormat`](../../../aspose.words/loadformat/) to Markdown.
 
+## Examples
+
+Shows how to preserve empty line while load a document.
+
+```csharp
+string mdText = $"{Environment.NewLine}Line1{Environment.NewLine}{Environment.NewLine}Line2{Environment.NewLine}{Environment.NewLine}";
+using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(mdText)))
+{
+    MarkdownLoadOptions loadOptions = new MarkdownLoadOptions() { PreserveEmptyLines = true };
+    Document doc = new Document(stream, loadOptions);
+
+    Assert.AreEqual("\rLine1\r\rLine2\r\f", doc.GetText());
+}
+```
+
 ### See Also
 
 * class [MarkdownLoadOptions](../)

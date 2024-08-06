@@ -5,7 +5,7 @@ articleTitle: IReplacingCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Replacing.IReplacingCallback interface. Implement this interface if you want to have your own custom method called during a find and replace operation in C#.
 type: docs
-weight: 4900
+weight: 4920
 url: /net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -34,7 +34,7 @@ public void Order(bool differentFirstPageHeaderFooter)
     Section firstPageSection = doc.FirstSection;
 
     ReplaceLog logger = new ReplaceLog();
-    FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
+    FindReplaceOptions options = new FindReplaceOptions(logger);
 
     // Using a different header/footer for the first page will affect the search order.
     firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;

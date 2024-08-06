@@ -20,6 +20,19 @@ public XmlDataSource(string xmlPath)
 | --- | --- | --- |
 | xmlPath | String | The path to the XML file to be used as the data source. |
 
+## Examples
+
+Show how to use XML as a data source (string).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+XmlDataSource dataSource = new XmlDataSource(MyDir + "List of people.xml");
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataString.docx");
+```
+
 ### See Also
 
 * class [XmlDataSource](../)
@@ -39,6 +52,22 @@ public XmlDataSource(Stream xmlStream)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | xmlStream | Stream | The stream of XML data to be used as the data source. |
+
+## Examples
+
+Show how to use XML as a data source (stream).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.xml"))
+{
+    XmlDataSource dataSource = new XmlDataSource(stream);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataStream.docx");
+```
 
 ### See Also
 

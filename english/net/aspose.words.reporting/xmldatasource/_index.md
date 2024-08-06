@@ -5,7 +5,7 @@ articleTitle: XmlDataSource
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.XmlDataSource class. Provides access to data of an XML file or stream to be used within a report in C#.
 type: docs
-weight: 5020
+weight: 5040
 url: /net/aspose.words.reporting/xmldatasource/
 ---
 ## XmlDataSource class
@@ -50,6 +50,33 @@ When XML Schema Definition is not passed to a constructor of this class, data ty
 Note that for automatic recognition of data types to work, string representations of values of simple XML elements and attributes should be formed using invariant culture settings.
 
 To override default behavior of XML data loading, initialize and pass a [`XmlDataLoadOptions`](../xmldataloadoptions/) instance to a constructor of this class.
+
+## Examples
+
+Show how to use XML as a data source (string).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+XmlDataSource dataSource = new XmlDataSource(MyDir + "List of people.xml");
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataString.docx");
+```
+
+Show how to use XML as a data source (stream).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.xml"))
+{
+    XmlDataSource dataSource = new XmlDataSource(stream);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataStream.docx");
+```
 
 ### See Also
 
