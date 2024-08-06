@@ -16,11 +16,17 @@ Represents a corporate (an organization) bibliography source contributor.
 public sealed class Corporate : Contributor
 ```
 
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [Corporate](corporate/)(*string*) | Initialize a new instance of the `Corporate` class. |
+
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Name](../../aspose.words.bibliography/corporate/name/) { get; } | Gets the name of a organization. |
+| [Name](../../aspose.words.bibliography/corporate/name/) { get; set; } | Gets or sets the name of an organization. |
 
 ### See Also
 

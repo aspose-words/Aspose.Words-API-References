@@ -5,7 +5,7 @@ articleTitle: ShowInBalloons
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.ShowInBalloons enum. Specifies which revisions are rendered in balloons in C#.
 type: docs
-weight: 3660
+weight: 3680
 url: /net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration
@@ -53,7 +53,7 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Render format revisions in dark red and bold.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;

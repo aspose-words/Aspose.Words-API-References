@@ -5,7 +5,7 @@ articleTitle: MailMergeRegionInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.MailMergeRegionInfo class. Contains information about a mail merge region in C#.
 type: docs
-weight: 4130
+weight: 4150
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
@@ -60,6 +60,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Get list of fields inside the first top region.
 IList<Field> fieldList = topRegions[0].Fields;

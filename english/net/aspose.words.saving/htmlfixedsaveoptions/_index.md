@@ -5,7 +5,7 @@ articleTitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.HtmlFixedSaveOptions class. Can be used to specify additional options when saving a document into the HtmlFixed format in C#.
 type: docs
-weight: 5360
+weight: 5380
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class

@@ -14,7 +14,7 @@ The **Aspose.Words.LowCode** contains classes and methods to handle complex gene
 
 | Class | Description |
 | --- | --- |
-| [Converter](./converter/) | Represents a group of methods intended to convert a variety of different types of documents. |
+| [Converter](./converter/) | Represents a group of methods intended to convert a variety of different types of documents using a single line of code. |
 | [Merger](./merger/) | Represents a group of methods intended to merge a variety of different types of documents into a single output document. |
 ## Enumeration
 

@@ -16,6 +16,21 @@ Gets type of this **Structured document tag**.
 public SdtType SdtType { get; }
 ```
 
+## Examples
+
+Shows how to get the type of a structured document tag.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags.docx");
+
+List<StructuredDocumentTag> tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true)
+    .OfType<StructuredDocumentTag>().ToList();
+
+Assert.AreEqual(SdtType.RepeatingSection, tags[0].SdtType);
+Assert.AreEqual(SdtType.RepeatingSectionItem, tags[1].SdtType);
+Assert.AreEqual(SdtType.RichText, tags[2].SdtType);
+```
+
 ### See Also
 
 * enum [SdtType](../../sdttype/)

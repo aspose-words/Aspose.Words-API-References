@@ -5,7 +5,7 @@ articleTitle: List
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Lists.List class. Represents formatting of a list in C#.
 type: docs
-weight: 3710
+weight: 3730
 url: /net/aspose.words.lists/list/
 ---
 ## List class

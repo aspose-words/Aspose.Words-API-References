@@ -310,7 +310,7 @@ Shows how to insert an image from a byte array into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageByteArray = File.ReadAllBytes(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
 // Below are three ways of inserting an image from a byte array.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
@@ -546,7 +546,7 @@ Shows how to insert an image from a byte array into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageByteArray = File.ReadAllBytes(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
 // Below are three ways of inserting an image from a byte array.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
@@ -852,7 +852,7 @@ Shows how to insert an image from a byte array into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageByteArray = File.ReadAllBytes(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
 // Below are three ways of inserting an image from a byte array.
 // 1 -  Inline shape with a default size based on the image's original dimensions:

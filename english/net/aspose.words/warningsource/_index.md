@@ -5,7 +5,7 @@ articleTitle: WarningSource
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningSource enum. Specifies the module that produces a warning during document loading or saving in C#.
 type: docs
-weight: 6990
+weight: 7010
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -48,6 +48,24 @@ public enum WarningSource
 | Epub | `25` | Module that reads/writes EPUB files. |
 | Xml | `26` | Module that reads XML files. |
 | Xlsx | `27` | Module that writes XLSX files. |
+
+## Examples
+
+Shows how to work with the warning source.
+
+```csharp
+Document doc = new Document(MyDir + "Emphases markdown warning.docx");
+
+WarningInfoCollection warnings = new WarningInfoCollection();
+doc.WarningCallback = warnings;
+doc.Save(ArtifactsDir + "DocumentBuilder.EmphasesWarningSourceMarkdown.md");
+
+foreach (WarningInfo warningInfo in warnings)
+{
+    if (warningInfo.Source == WarningSource.Markdown)
+        Assert.AreEqual("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.Description);
+}
+```
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: IImageSavingCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.IImageSavingCallback interface. Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. May be used by other formats in C#.
 type: docs
-weight: 5450
+weight: 5470
 url: /net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
@@ -32,11 +32,11 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
     // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
     // Each image will be in the form of a file in the local file system.
     // There is also a callback that can customize the name and file system location of each image.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
     // The ImageSaving() method of our callback will be run at this time.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);

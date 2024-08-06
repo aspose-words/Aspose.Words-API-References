@@ -5,7 +5,7 @@ articleTitle: Name
 second_title: Aspose.Words for .NET
 description: FontInfo Name property. Gets the name of the font in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property

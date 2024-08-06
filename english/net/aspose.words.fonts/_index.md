@@ -18,6 +18,7 @@ The **Aspose.Words.Fonts** namespace provides classes and enumerations to access
 | [FileFontSource](./filefontsource/) | Represents the single TrueType font file stored in the file system. |
 | [FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
 | [FontConfigSubstitutionRule](./fontconfigsubstitutionrule/) | Font config substitution rule. |
+| [FontEmbeddingLicensingRights](./fontembeddinglicensingrights/) | Represents embedding licensing rights for the font. |
 | [FontFallbackSettings](./fontfallbacksettings/) | Specifies font fallback mechanism settings. |
 | [FontInfo](./fontinfo/) | Specifies information about a font used in the document. |
 | [FontInfoCollection](./fontinfocollection/) | Represents a collection of fonts used in a document. |
@@ -38,6 +39,7 @@ The **Aspose.Words.Fonts** namespace provides classes and enumerations to access
 | --- | --- |
 | [EmbeddedFontFormat](./embeddedfontformat/) | Specifies format of particular embedded font inside [`FontInfo`](../aspose.words.fonts/fontinfo/) object. |
 | [EmbeddedFontStyle](./embeddedfontstyle/) | Specifies the style of an embedded font inside a [`FontInfo`](../aspose.words.fonts/fontinfo/) object. |
+| [FontEmbeddingUsagePermissions](./fontembeddingusagepermissions/) | Represents the font embedding usage permissions. |
 | [FontFamily](./fontfamily/) | Represents the font family. |
 | [FontPitch](./fontpitch/) | Represents the font pitch. |
-| [FontSourceType](./fontsourcetype/) | Specifies the type of a font source. |
+| [FontSourceType](./fontsourcetype/) | Specifies the type of font source. |

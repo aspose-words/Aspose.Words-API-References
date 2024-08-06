@@ -5,7 +5,7 @@ articleTitle: Position
 second_title: Aspose.Words for .NET
 description: AxisTickLabels Position property. Gets or sets the position of the tick labels on the axis in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.drawing.charts/axisticklabels/position/
 ---
 ## AxisTickLabels.Position property
@@ -63,6 +63,9 @@ yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Column charts do not have a Z-axis.
 Assert.Null(chart.AxisZ);

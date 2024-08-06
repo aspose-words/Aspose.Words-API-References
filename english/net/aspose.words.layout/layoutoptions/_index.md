@@ -5,7 +5,7 @@ articleTitle: LayoutOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.LayoutOptions class. Holds the options that allow controlling the document layout process in C#.
 type: docs
-weight: 3600
+weight: 3620
 url: /net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
@@ -92,6 +92,7 @@ builder.Writeln("This is not a revision.");
 // Remove the bar that appears to the left of every revised line.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
 doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ```

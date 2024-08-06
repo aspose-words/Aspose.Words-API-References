@@ -5,7 +5,7 @@ articleTitle: TextEffect
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TextEffect enum. Animation effect for text runs in C#.
 type: docs
-weight: 6760
+weight: 6780
 url: /net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration
@@ -27,6 +27,23 @@ public enum TextEffect
 | MarchingBlackAnts | `4` |  |
 | MarchingRedAnts | `5` |  |
 | Shimmer | `6` |  |
+
+## Examples
+
+Shows how to apply a visual effect to a run.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Size = 36;
+builder.Font.TextEffect = TextEffect.SparkleText;
+
+builder.Writeln("Text with a sparkle effect.");
+
+// Older versions of Microsoft Word only support font animation effects.
+doc.Save(ArtifactsDir + "Font.SparklingText.doc");
+```
 
 ### See Also
 

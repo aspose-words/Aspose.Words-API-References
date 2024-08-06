@@ -5,7 +5,7 @@ articleTitle: MeasurementUnits
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MeasurementUnits enum. Specifies the unit of measurement in C#.
 type: docs
-weight: 4420
+weight: 4440
 url: /net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
@@ -25,6 +25,22 @@ public enum MeasurementUnits
 | Millimeters | `2` | Millimeters. |
 | Points | `3` | Points. |
 | Picas | `4` | Picas (commonly used in traditional typewriter font spacing). |
+
+## Examples
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
+    IsStrictSchema11 = exportToOdt11Specs
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+```
 
 ### See Also
 

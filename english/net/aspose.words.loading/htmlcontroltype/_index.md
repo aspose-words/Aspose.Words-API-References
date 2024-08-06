@@ -5,7 +5,7 @@ articleTitle: HtmlControlType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.HtmlControlType enum. Type of document nodes that represent input and select elements imported from HTML in C#.
 type: docs
-weight: 3860
+weight: 3880
 url: /net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration
@@ -22,6 +22,29 @@ public enum HtmlControlType
 | --- | --- | --- |
 | FormField | `0` | A form field. |
 | StructuredDocumentTag | `1` | A structured document tag |
+
+## Examples
+
+Shows how to set preferred type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements.
+
+```csharp
+const string html = @"
+    <html>
+        <select name='ComboBox' size='1'>
+            <option value='val1'>item1</option>
+            <option value='val2'></option>
+        </select>
+    </html>
+";
+
+HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+htmlLoadOptions.PreferredControlType = HtmlControlType.StructuredDocumentTag;
+
+Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), htmlLoadOptions);
+NodeCollection nodes = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
+
+StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
+```
 
 ### See Also
 

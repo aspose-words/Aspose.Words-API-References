@@ -5,7 +5,7 @@ articleTitle: PhysicalFontInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.PhysicalFontInfo class. Specifies information about physical font available to Aspose.Words font engine in C#.
 type: docs
-weight: 3270
+weight: 3290
 url: /net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
@@ -22,6 +22,7 @@ public class PhysicalFontInfo
 
 | Name | Description |
 | --- | --- |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/) { get; } | Embedding licensing rights for the font. |
 | [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Path to the font file if any. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Family name of the font. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Full name of the font. |

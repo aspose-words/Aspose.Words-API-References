@@ -16,6 +16,19 @@ Gets or sets the appearance of the structured document tag.
 public SdtAppearance Appearance { get; set; }
 ```
 
+## Examples
+
+Shows how to show tag around content.
+
+```csharp
+Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
+StructuredDocumentTagRangeStart tag =
+    doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true) as StructuredDocumentTagRangeStart;
+
+if (tag.Appearance == SdtAppearance.Hidden)
+    tag.Appearance = SdtAppearance.Tags;
+```
+
 ### See Also
 
 * enum [SdtAppearance](../../sdtappearance/)

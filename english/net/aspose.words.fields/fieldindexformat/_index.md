@@ -28,6 +28,26 @@ public enum FieldIndexFormat
 | Formal | `5` | Formal. |
 | Simple | `6` | Simple. |
 
+## Examples
+
+Shows how to formatting FieldIndex fields.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("A");
+builder.InsertBreak(BreakType.LineBreak);
+builder.InsertField("XE \"A\"");
+builder.Write("B");
+
+builder.InsertField(" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", null);
+
+doc.FieldOptions.FieldIndexFormat = FieldIndexFormat.Fancy;
+doc.UpdateFields();
+
+doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Fields](../../aspose.words.fields/)

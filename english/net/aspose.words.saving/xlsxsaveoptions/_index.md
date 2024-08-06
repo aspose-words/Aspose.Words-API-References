@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the Xlsx format in C#.
 type: docs
-weight: 6010
+weight: 6030
 url: /net/aspose.words.saving/xlsxsaveoptions/
 ---
 ## XlsxSaveOptions class
@@ -50,6 +50,20 @@ public class XlsxSaveOptions : SaveOptions
 | [UpdateLastSavedTimeProperty](../../aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) { get; set; } | Gets or sets a value determining whether the [`LastSavedTime`](../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) property is updated before saving. |
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
+
+## Examples
+
+Shows how to compress XLSX document.
+
+```csharp
+Document doc = new Document(MyDir + "Shape with linked chart.docx");
+
+XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum;
+xlsxSaveOptions.SaveFormat = SaveFormat.Xlsx;
+
+doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
+```
 
 ### See Also
 

@@ -20,6 +20,18 @@ public WarningInfo this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the item. |
 
+## Examples
+
+Shows how to get warnings about unsupported formats.
+
+```csharp
+WarningInfoCollection warnings = new WarningInfoCollection();
+Document doc = new Document(MyDir + "FB2 document.fb2", new LoadOptions { WarningCallback = warnings });
+
+Assert.AreEqual("The original file load format is FB2, which is not supported by Aspose.Words. The file is loaded as an XML document.", warnings[0].Description);
+Assert.AreEqual(1, warnings.Count);
+```
+
 ### See Also
 
 * class [WarningInfo](../../warninginfo/)

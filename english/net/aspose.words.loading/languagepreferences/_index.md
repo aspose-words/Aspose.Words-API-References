@@ -5,7 +5,7 @@ articleTitle: LanguagePreferences
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.LanguagePreferences class. Allows to set up language preferences in C#.
 type: docs
-weight: 3900
+weight: 3920
 url: /net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class

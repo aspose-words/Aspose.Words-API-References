@@ -240,6 +240,26 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
+    /// Called when a SubDocument node is encountered in the document.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Called when a SubDocument node is encountered in the document.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
     /// </summary>
     /// <param name="text"></param>

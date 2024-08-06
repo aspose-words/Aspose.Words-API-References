@@ -5,7 +5,7 @@ articleTitle: JsonDataSource
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.JsonDataSource class. Provides access to data of a JSON file or stream to be used within a report in C#.
 type: docs
-weight: 4960
+weight: 4980
 url: /net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class
@@ -44,6 +44,27 @@ In template documents, you can work with typed values of JSON elements. For conv
 The engine automatically recognizes values of the extra types upon their JSON representations.
 
 To override default behavior of JSON data loading, initialize and pass a [`JsonDataLoadOptions`](../jsondataloadoptions/) instance to a constructor of this class.
+
+## Examples
+
+Shows how to use JSON as a data source (string).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - JSON data destination.docx");
+
+JsonDataLoadOptions options = new JsonDataLoadOptions
+{
+    ExactDateTimeParseFormats = new List<string> {"MM/dd/yyyy", "MM.d.yy", "MM d yy"},
+    AlwaysGenerateRootObject = true,
+    PreserveSpaces = true,
+    SimpleValueParseMode = JsonSimpleValueParseMode.Loose
+};
+
+JsonDataSource dataSource = new JsonDataSource(MyDir + "List of people.json", options);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.JsonDataString.docx");
+```
 
 ### See Also
 

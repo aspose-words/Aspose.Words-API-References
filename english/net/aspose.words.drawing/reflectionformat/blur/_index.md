@@ -34,17 +34,19 @@ doc.Save(ArtifactsDir + "Shape.Reflection.docx");
 doc = new Document(ArtifactsDir + "Shape.Reflection.docx");
 shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-Assert.AreEqual(0.37d, shape.Reflection.Transparency, 0.01d);
-Assert.AreEqual(0.48d, shape.Reflection.Size, 0.01d);
-Assert.AreEqual(17.5d, shape.Reflection.Blur, 0.01d);
-Assert.AreEqual(9.2d, shape.Reflection.Distance, 0.01d);
+ReflectionFormat reflectionFormat = shape.Reflection;
 
-shape.Reflection.Remove();
+Assert.AreEqual(0.37d, reflectionFormat.Transparency, 0.01d);
+Assert.AreEqual(0.48d, reflectionFormat.Size, 0.01d);
+Assert.AreEqual(17.5d, reflectionFormat.Blur, 0.01d);
+Assert.AreEqual(9.2d, reflectionFormat.Distance, 0.01d);
 
-Assert.AreEqual(0, shape.Reflection.Transparency);
-Assert.AreEqual(0, shape.Reflection.Size);
-Assert.AreEqual(0, shape.Reflection.Blur);
-Assert.AreEqual(0, shape.Reflection.Distance);
+reflectionFormat.Remove();
+
+Assert.AreEqual(0, reflectionFormat.Transparency);
+Assert.AreEqual(0, reflectionFormat.Size);
+Assert.AreEqual(0, reflectionFormat.Blur);
+Assert.AreEqual(0, reflectionFormat.Distance);
 ```
 
 ### See Also

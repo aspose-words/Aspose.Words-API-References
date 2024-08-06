@@ -75,6 +75,9 @@ SvgSaveOptions options = new SvgSaveOptions();
 options.TextOutputMode = SvgTextOutputMode.UsePlacedGlyphs;
 
 math.GetMathRenderer().Save(ArtifactsDir + "SvgSaveOptions.Output.svg", options);
+
+using (MemoryStream stream = new MemoryStream())
+    math.GetMathRenderer().Save(stream, options);
 ```
 
 ### See Also
@@ -142,6 +145,24 @@ public void Save(Stream stream, SvgSaveOptions saveOptions)
 | --- | --- | --- |
 | stream | Stream | The stream where to save the SVG image of the shape. |
 | saveOptions | SvgSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be `null`. If this is `null`, the image will be saved with the default options. |
+
+## Examples
+
+Shows how to pass save options when rendering office math.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
+
+SvgSaveOptions options = new SvgSaveOptions();
+options.TextOutputMode = SvgTextOutputMode.UsePlacedGlyphs;
+
+math.GetMathRenderer().Save(ArtifactsDir + "SvgSaveOptions.Output.svg", options);
+
+using (MemoryStream stream = new MemoryStream())
+    math.GetMathRenderer().Save(stream, options);
+```
 
 ### See Also
 

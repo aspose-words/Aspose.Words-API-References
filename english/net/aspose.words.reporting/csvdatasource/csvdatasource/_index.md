@@ -41,6 +41,25 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 | csvPath | String | The path to the CSV file to be used as the data source. |
 | options | CsvDataLoadOptions | Options for parsing the CSV data. |
 
+## Examples
+
+Shows how to use CSV as a data source (string).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
+
 ### See Also
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
@@ -82,6 +101,26 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 | --- | --- | --- |
 | csvStream | Stream | The stream of CSV data to be used as the data source. |
 | options | CsvDataLoadOptions | Options for parsing the CSV data. |
+
+## Examples
+
+Shows how to use CSV as a data source (stream).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.csv"))
+{
+    CsvDataSource dataSource = new CsvDataSource(stream, loadOptions);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataStream.docx");
+```
 
 ### See Also
 

@@ -16,6 +16,24 @@ Provides access to a series group collection of this chart.
 public ChartSeriesGroupCollection SeriesGroups { get; }
 ```
 
+## Examples
+
+Show how to configure gap width and overlap.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 450, 250);
+ChartSeriesGroup seriesGroup = shape.Chart.SeriesGroups[0];
+
+// Set column gap width and overlap.
+seriesGroup.GapWidth = 450;
+seriesGroup.Overlap = -75;
+
+doc.Save(ArtifactsDir + "Charts.ConfigureGapOverlap.docx");
+```
+
 ### See Also
 
 * class [ChartSeriesGroupCollection](../../chartseriesgroupcollection/)

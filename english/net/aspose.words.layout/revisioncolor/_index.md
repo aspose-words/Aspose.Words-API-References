@@ -5,7 +5,7 @@ articleTitle: RevisionColor
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.RevisionColor enum. Allows to specify color of document revisions in C#.
 type: docs
-weight: 3630
+weight: 3650
 url: /net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
@@ -60,6 +60,7 @@ builder.Writeln("This is not a revision.");
 // Remove the bar that appears to the left of every revised line.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
 doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ```
