@@ -30,7 +30,9 @@ Shows how to get shadow color.
 ```python
 doc = aw.Document(file_name=MY_DIR + 'Shadow color.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-self.assertEqual(aspose.pydrawing.Color.red.to_argb(), shape.shadow_format.color.to_argb())
+shadow_format = shape.shadow_format
+self.assertEqual(aspose.pydrawing.Color.red.to_argb(), shadow_format.color.to_argb())
+self.assertEqual(aw.drawing.ShadowType.SHADOW_MIXED, shadow_format.type)
 ```
 
 ### See Also

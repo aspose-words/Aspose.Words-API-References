@@ -36,6 +36,7 @@ text_box_control = shape.ole_format.ole_control.as_text_box_control()
 self.assertEqual('Aspose.Words test', text_box_control.text)
 text_box_control.text = 'Updated text'
 self.assertEqual('Updated text', text_box_control.text)
+self.assertEqual(aw.drawing.ole.Forms2OleControlType.TEXTBOX, text_box_control.type)
 ```
 
 ### See Also

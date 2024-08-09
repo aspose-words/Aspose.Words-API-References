@@ -3,7 +3,7 @@ title: ContributorCollection.author property
 linktitle: author property
 articleTitle: author property
 second_title: Aspose.Words for Python
-description: "ContributorCollection.author property. Gets the author of a source."
+description: "ContributorCollection.author property. Gets or sets the author of a source."
 type: docs
 weight: 20
 url: /python-net/aspose.words.bibliography/contributorcollection/author/
@@ -11,12 +11,16 @@ url: /python-net/aspose.words.bibliography/contributorcollection/author/
 
 ## ContributorCollection.author property
 
-Gets the author of a source.
+Gets or sets the author of a source.
 
 
 ```python
 @property
 def author(self) -> aspose.words.bibliography.Contributor:
+    ...
+
+@author.setter
+def author(self, value: aspose.words.bibliography.Contributor):
     ...
 
 ```

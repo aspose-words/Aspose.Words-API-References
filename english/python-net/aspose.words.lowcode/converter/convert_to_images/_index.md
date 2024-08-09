@@ -11,7 +11,7 @@ url: /python-net/aspose.words.lowcode/converter/convert_to_images/
 
 ## convert_to_images(input_file, output_file) {#str_str}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 
 ```python
@@ -26,7 +26,7 @@ def convert_to_images(self, input_file: str, output_file: str):
 
 ## convert_to_images(input_file, output_file, save_format) {#str_str_saveformat}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 
 ```python
@@ -42,7 +42,7 @@ def convert_to_images(self, input_file: str, output_file: str, save_format: aspo
 
 ## convert_to_images(input_file, output_file, save_options) {#str_str_imagesaveoptions}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 
 ```python
@@ -58,7 +58,7 @@ def convert_to_images(self, input_file: str, output_file: str, save_options: asp
 
 ## convert_to_images(input_file, save_format) {#str_saveformat}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 
 ```python
@@ -78,7 +78,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(input_file, save_options) {#str_imagesaveoptions}
 
-Convert the input file pages to images.
+Converts the input file pages to images.
 
 
 ```python
@@ -98,7 +98,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(input_stream, save_format) {#bytesio_saveformat}
 
-Convert the input stream pages to images.
+Converts the input stream pages to images.
 
 
 ```python
@@ -118,7 +118,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(input_stream, save_options) {#bytesio_imagesaveoptions}
 
-Convert the input stream pages to images.
+Converts the input stream pages to images.
 
 
 ```python
@@ -138,7 +138,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(doc, save_format) {#document_saveformat}
 
-Convert the document pages to images.
+Converts the document pages to images.
 
 
 ```python
@@ -158,7 +158,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(doc, save_options) {#document_imagesaveoptions}
 
-Convert the document pages to images.
+Converts the document pages to images.
 
 
 ```python
@@ -175,6 +175,29 @@ def convert_to_images(self, doc: aspose.words.Document, save_options: aspose.wor
 
 Returns array of image streams. The streams should be disposed by the enduser.
 
+
+## Examples
+
+Shows how to convert document to images.
+
+```python
+aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.png')
+aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.jpeg', save_format=aw.SaveFormat.JPEG)
+image_save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
+image_save_options.page_set = aw.saving.PageSet(page=1)
+aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.png', save_options=image_save_options)
+```
+
+Shows how to convert document to images stream.
+
+```python
+streams = aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', save_format=aw.SaveFormat.PNG)
+image_save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
+image_save_options.page_set = aw.saving.PageSet(page=1)
+streams = aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', save_options=image_save_options)
+streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=MY_DIR + 'Big document.docx'), save_format=aw.SaveFormat.PNG)
+streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=MY_DIR + 'Big document.docx'), save_options=image_save_options)
+```
 
 ## See Also
 

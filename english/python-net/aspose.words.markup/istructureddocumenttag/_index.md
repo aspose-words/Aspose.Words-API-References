@@ -41,9 +41,7 @@ Interface to define a common data for [StructuredDocumentTag](../structureddocum
 | Name | Description |
 | --- | --- |
 |[ get_child_nodes(node_type, is_deep)](./get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified types. |
-|[ is_ranged()](./is_ranged/#default) | Returns true if this instance is a ranged structured document tag. |
 |[ remove_self_only()](./remove_self_only/#default) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
-|[ structured_document_tag_node()](./structured_document_tag_node/#default) | Returns Node object that implements this interface. |
 
 ### See Also
 

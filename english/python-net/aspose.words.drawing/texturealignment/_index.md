@@ -45,6 +45,10 @@ shape.fill.texture_alignment = aw.drawing.TextureAlignment.TOP_RIGHT
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.compliance = aw.saving.OoxmlCompliance.ISO29500_2008_STRICT
 doc.save(file_name=ARTIFACTS_DIR + 'Shape.TextureFill.docx', save_options=save_options)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'Shape.TextureFill.docx')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+self.assertEqual(aw.drawing.TextureAlignment.TOP_RIGHT, shape.fill.texture_alignment)
+self.assertEqual(aw.drawing.PresetTexture.CANVAS, shape.fill.preset_texture)
 ```
 
 ### See Also

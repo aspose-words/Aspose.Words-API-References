@@ -5,7 +5,7 @@ articleTitle: full_font_name property
 second_title: Aspose.Words for Python
 description: "PhysicalFontInfo.full_font_name property. Full name of the font."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.fonts/physicalfontinfo/full_font_name/
 ---
 

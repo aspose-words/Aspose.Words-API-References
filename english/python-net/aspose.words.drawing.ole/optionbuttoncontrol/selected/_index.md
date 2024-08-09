@@ -48,6 +48,8 @@ shape2 = doc.get_child(aw.NodeType.SHAPE, 1, True).as_shape()
 option_button2 = shape2.ole_format.ole_control.as_option_button_control()
 # Select second option button.
 option_button2.selected = True
+self.assertEqual(aw.drawing.ole.Forms2OleControlType.OPTION_BUTTON, option_button1.type)
+self.assertEqual(aw.drawing.ole.Forms2OleControlType.OPTION_BUTTON, option_button2.type)
 doc.save(file_name=ARTIFACTS_DIR + 'Shape.SelectRadioControl.docx')
 ```
 

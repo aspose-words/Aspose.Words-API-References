@@ -35,6 +35,17 @@ If the value of this property is zero, all raster images are exported without re
 
 
 
+### Examples
+
+Shows how to set limit for image resolution.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+save_options = aw.saving.SvgSaveOptions()
+save_options.max_image_resolution = 72
+doc.save(file_name=ARTIFACTS_DIR + 'SvgSaveOptions.MaxImageResolution.svg', save_options=save_options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

@@ -24,6 +24,7 @@ fonts used in a document.
 | [FileFontSource](./filefontsource/) | Represents the single TrueType font file stored in the file system. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article. |
 | [FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article. |
 | [FontConfigSubstitutionRule](./fontconfigsubstitutionrule/) | Font config substitution rule. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article. |
+| [FontEmbeddingLicensingRights](./fontembeddinglicensingrights/) | Represents embedding licensing rights for the font. |
 | [FontFallbackSettings](./fontfallbacksettings/) | Specifies font fallback mechanism settings. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article. |
 | [FontInfo](./fontinfo/) | Specifies information about a font used in the document. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article. |
 | [FontInfoCollection](./fontinfocollection/) | Represents a collection of fonts used in a document. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article. |
@@ -45,7 +46,8 @@ fonts used in a document.
 | --- | --- |
 | [EmbeddedFontFormat](./embeddedfontformat/) | Specifies format of particular embedded font inside [FontInfo](./fontinfo/) object. |
 | [EmbeddedFontStyle](./embeddedfontstyle/) | Specifies the style of an embedded font inside a [FontInfo](./fontinfo/) object. |
+| [FontEmbeddingUsagePermissions](./fontembeddingusagepermissions/) | Represents the font embedding usage permissions. |
 | [FontFamily](./fontfamily/) | Represents the font family. |
 | [FontPitch](./fontpitch/) | Represents the font pitch. |
-| [FontSourceType](./fontsourcetype/) | Specifies the type of a font source. |
+| [FontSourceType](./fontsourcetype/) | Specifies the type of font source. |
 

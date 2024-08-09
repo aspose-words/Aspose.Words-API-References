@@ -39,7 +39,7 @@ builder = aw.DocumentBuilder(doc)
 builder.write('This does not count as a revision. ')
 self.assertFalse(doc.has_revisions)
 # To register our edits as revisions, we need to declare an author, and then start tracking them.
-doc.start_track_revisions('John Doe', datetime.now())
+doc.start_track_revisions('John Doe', datetime.datetime.now())
 builder.write('This is revision #1. ')
 self.assertTrue(doc.has_revisions)
 self.assertEqual(1, doc.revisions.count)

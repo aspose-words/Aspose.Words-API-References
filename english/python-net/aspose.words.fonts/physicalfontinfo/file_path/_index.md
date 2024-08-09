@@ -5,7 +5,7 @@ articleTitle: file_path property
 second_title: Aspose.Words for Python
 description: "PhysicalFontInfo.file_path property. Path to the font file if any."
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.fonts/physicalfontinfo/file_path/
 ---
 

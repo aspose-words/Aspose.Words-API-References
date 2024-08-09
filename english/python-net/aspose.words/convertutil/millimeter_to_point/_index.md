@@ -47,7 +47,7 @@ page_setup.right_margin = aw.ConvertUtil.millimeter_to_point(40)
 self.assertAlmostEqual(28.34, aw.ConvertUtil.millimeter_to_point(10), delta=0.01)
 # Add content to demonstrate the new margins.
 builder.writeln(f'This Text is {page_setup.left_margin} points from the left, ' + f'{page_setup.right_margin} points from the right, ' + f'{page_setup.top_margin} points from the top, ' + f'and {page_setup.bottom_margin} points from the bottom of the page.')
-doc.save(ARTIFACTS_DIR + 'UtilityClasses.points_and_millimeters.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'UtilityClasses.PointsAndMillimeters.docx')
 ```
 
 ### See Also

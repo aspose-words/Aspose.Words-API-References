@@ -3,20 +3,24 @@ title: Person.first property
 linktitle: first property
 articleTitle: first property
 second_title: Aspose.Words for Python
-description: "Person.first property. Gets the first name of a person."
+description: "Person.first property. Gets or sets the first name of a person."
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.bibliography/person/first/
 ---
 
 ## Person.first property
 
-Gets the first name of a person.
+Gets or sets the first name of a person.
 
 
 ```python
 @property
 def first(self) -> str:
+    ...
+
+@first.setter
+def first(self, value: str):
     ...
 
 ```

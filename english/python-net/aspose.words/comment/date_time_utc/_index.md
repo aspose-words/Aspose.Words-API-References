@@ -35,7 +35,7 @@ Shows how to get UTC date and time.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-date = datetime.now()
+date = datetime.datetime.now()
 comment = aw.Comment(doc, 'John Doe', 'J.D.', date)
 comment.set_text('My comment.')
 builder.current_paragraph.append_child(comment)

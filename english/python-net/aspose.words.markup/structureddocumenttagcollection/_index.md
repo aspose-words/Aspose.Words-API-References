@@ -39,6 +39,21 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 |[ remove(id)](./remove/#int) | Removes the structured document tag with the specified identifier. |
 |[ remove_at(index)](./remove_at/#int) | Removes a structured document tag at the specified index. |
 
+### Examples
+
+Shows how to get structured document tag.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Structured document tags by id.docx')
+# Get the structured document tag by Id.
+sdt = doc.range.structured_document_tags.get_by_id(1160505028)
+print(sdt.is_multi_section)
+print(sdt.title)
+# Get the structured document tag or ranged tag by Title.
+sdt = doc.range.structured_document_tags.get_by_title('Alias4')
+print(sdt.id)
+```
+
 ### See Also
 
 * module [aspose.words.markup](../)

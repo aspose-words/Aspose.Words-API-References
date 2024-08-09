@@ -3,15 +3,15 @@ title: FontSourceType enumeration
 linktitle: FontSourceType enumeration
 articleTitle: FontSourceType enumeration
 second_title: Aspose.Words for Python
-description: "aspose.words.fonts.FontSourceType enumeration. Specifies the type of a font source."
+description: "aspose.words.fonts.FontSourceType enumeration. Specifies the type of font source."
 type: docs
-weight: 160
+weight: 180
 url: /python-net/aspose.words.fonts/fontsourcetype/
 ---
 
 ## FontSourceType enumeration
 
-Specifies the type of a font source.
+Specifies the type of font source.
 
 
 ### Members

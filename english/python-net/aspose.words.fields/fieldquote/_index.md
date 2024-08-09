@@ -75,7 +75,7 @@ builder.write('\nDocument creation date: ')
 field = builder.insert_field(aw.fields.FieldType.FIELD_QUOTE, True).as_field_quote()
 builder.move_to(field.separator)
 builder.insert_field(aw.fields.FieldType.FIELD_DATE, True)
-today = datetime.now().strftime('%d/%m/%Y').lstrip('0')
+today = datetime.datetime.now().strftime('%d/%m/%Y').lstrip('0')
 self.assertEqual(' QUOTE \x13 DATE \x14' + today + '\x15', field.get_field_code())
 # Update all the fields to display their correct results.
 doc.update_fields()

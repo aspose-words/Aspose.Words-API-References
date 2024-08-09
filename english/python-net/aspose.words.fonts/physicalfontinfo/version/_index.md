@@ -5,7 +5,7 @@ articleTitle: version property
 second_title: Aspose.Words for Python
 description: "PhysicalFontInfo.version property. Version string of the font."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.fonts/physicalfontinfo/version/
 ---
 

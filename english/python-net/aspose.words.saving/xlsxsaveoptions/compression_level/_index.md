@@ -35,6 +35,7 @@ Shows how to compress XLSX document.
 doc = aw.Document(file_name=MY_DIR + 'Shape with linked chart.docx')
 xlsx_save_options = aw.saving.XlsxSaveOptions()
 xlsx_save_options.compression_level = aw.saving.CompressionLevel.MAXIMUM
+xlsx_save_options.save_format = aw.SaveFormat.XLSX
 doc.save(file_name=ARTIFACTS_DIR + 'XlsxSaveOptions.CompressXlsx.xlsx', save_options=xlsx_save_options)
 ```
 

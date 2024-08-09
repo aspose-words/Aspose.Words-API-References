@@ -5,7 +5,7 @@ articleTitle: family property
 second_title: Aspose.Words for Python
 description: "FontInfo.family property. Gets or sets the font family this font belongs to."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.fonts/fontinfo/family/
 ---
 

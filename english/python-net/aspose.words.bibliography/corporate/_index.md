@@ -16,11 +16,16 @@ Represents a corporate (an organization) bibliography source contributor.
 
 **Inheritance:** [Corporate](./) → [Contributor](../contributor/)
 
+### Constructors
+| Name | Description |
+| --- | --- |
+| [Corporate(name)](./__init__/#str) | Initialize a new instance of the [Corporate](./) class. |
+
 ### Properties
 
 | Name | Description |
 | --- | --- |
-| [name](./name/) | Gets the name of a organization. |
+| [name](./name/) | Gets or sets the name of an organization. |
 
 ### Methods
 

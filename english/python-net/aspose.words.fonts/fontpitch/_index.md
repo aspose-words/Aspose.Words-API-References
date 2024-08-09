@@ -5,7 +5,7 @@ articleTitle: FontPitch enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontPitch enumeration. Represents the font pitch."
 type: docs
-weight: 130
+weight: 150
 url: /python-net/aspose.words.fonts/fontpitch/
 ---
 

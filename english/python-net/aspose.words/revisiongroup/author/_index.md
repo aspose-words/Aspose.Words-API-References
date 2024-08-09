@@ -26,7 +26,7 @@ def author(self) -> str:
 Shows how to print info about a group of revisions in a document.
 
 ```python
-doc = aw.Document(MY_DIR + 'Revisions.docx')
+doc = aw.Document(file_name=MY_DIR + 'Revisions.docx')
 self.assertEqual(7, doc.revisions.groups.count)
 for group in doc.revisions.groups:
     print(f'Revision author: {group.author}; Revision type: {group.revision_type} \n\tRevision text: {group.text}')

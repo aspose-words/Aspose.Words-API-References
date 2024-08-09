@@ -5,7 +5,7 @@ articleTitle: pitch property
 second_title: Aspose.Words for Python
 description: "FontInfo.pitch property. The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.fonts/fontinfo/pitch/
 ---
 

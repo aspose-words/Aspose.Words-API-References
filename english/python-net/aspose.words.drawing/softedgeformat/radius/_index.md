@@ -39,12 +39,13 @@ builder.document.save(file_name=ARTIFACTS_DIR + 'Shape.SoftEdge.docx')
 # Load document with rectangle shape with soft edge.
 doc = aw.Document(file_name=ARTIFACTS_DIR + 'Shape.SoftEdge.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+soft_edge_format = shape.soft_edge
 # Check soft edge radius.
-self.assertEqual(30, shape.soft_edge.radius)
+self.assertEqual(30, soft_edge_format.radius)
 # Remove soft edge from the shape.
-shape.soft_edge.remove()
+soft_edge_format.remove()
 # Check radius of the removed soft edge.
-self.assertEqual(0, shape.soft_edge.radius)
+self.assertEqual(0, soft_edge_format.radius)
 ```
 
 Shows how to set limit for image resolution.

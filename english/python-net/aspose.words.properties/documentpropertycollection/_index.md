@@ -60,7 +60,7 @@ self.assertEqual(0, properties.count)
 # Custom document properties are key-value pairs that we can add to the document.
 properties.add('Authorized', True)
 properties.add('Authorized By', 'John Doe')
-properties.add('Authorized Date', datetime.now())
+properties.add('Authorized Date', datetime.datetime.now())
 properties.add('Authorized Revision', doc.built_in_document_properties.revision_number)
 properties.add('Authorized Amount', 123.45)
 # The collection sorts the custom properties in alphabetic order.

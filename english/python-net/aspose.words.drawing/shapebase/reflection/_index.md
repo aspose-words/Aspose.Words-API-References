@@ -35,15 +35,16 @@ shape.reflection.distance = 9.2
 doc.save(file_name=ARTIFACTS_DIR + 'Shape.Reflection.docx')
 doc = aw.Document(file_name=ARTIFACTS_DIR + 'Shape.Reflection.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-self.assertAlmostEqual(0.37, shape.reflection.transparency, delta=0.01)
-self.assertAlmostEqual(0.48, shape.reflection.size, delta=0.01)
-self.assertAlmostEqual(17.5, shape.reflection.blur, delta=0.01)
-self.assertAlmostEqual(9.2, shape.reflection.distance, delta=0.01)
-shape.reflection.remove()
-self.assertEqual(0, shape.reflection.transparency)
-self.assertEqual(0, shape.reflection.size)
-self.assertEqual(0, shape.reflection.blur)
-self.assertEqual(0, shape.reflection.distance)
+reflection_format = shape.reflection
+self.assertAlmostEqual(0.37, reflection_format.transparency, delta=0.01)
+self.assertAlmostEqual(0.48, reflection_format.size, delta=0.01)
+self.assertAlmostEqual(17.5, reflection_format.blur, delta=0.01)
+self.assertAlmostEqual(9.2, reflection_format.distance, delta=0.01)
+reflection_format.remove()
+self.assertEqual(0, reflection_format.transparency)
+self.assertEqual(0, reflection_format.size)
+self.assertEqual(0, reflection_format.blur)
+self.assertEqual(0, reflection_format.distance)
 ```
 
 ### See Also

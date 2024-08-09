@@ -3,20 +3,24 @@ title: Person.last property
 linktitle: last property
 articleTitle: last property
 second_title: Aspose.Words for Python
-description: "Person.last property. Gets the last name of a person."
+description: "Person.last property. Gets or sets the last name of a person."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.bibliography/person/last/
 ---
 
 ## Person.last property
 
-Gets the last name of a person.
+Gets or sets the last name of a person.
 
 
 ```python
 @property
 def last(self) -> str:
+    ...
+
+@last.setter
+def last(self, value: str):
     ...
 
 ```
