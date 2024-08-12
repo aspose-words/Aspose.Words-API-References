@@ -5,7 +5,7 @@ articleTitle: StreamFontSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.StreamFontSource class. Base class for user-defined stream font source"
 type: docs
-weight: 210
+weight: 230
 url: /python-net/aspose.words.fonts/streamfontsource/
 ---
 

@@ -72,19 +72,19 @@ Shows how to encrypt an Html document, and then open it using a password.
 
 ```python
 # Create and sign an encrypted HTML document from an encrypted .docx.
-certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'morzal.pfx', 'aw')
+certificate_holder = aw.digitalsignatures.CertificateHolder.create(file_name=MY_DIR + 'morzal.pfx', password='aw')
 sign_options = aw.digitalsignatures.SignOptions()
 sign_options.comments = 'Comment'
-sign_options.sign_time = datetime.now()
+sign_options.sign_time = datetime.datetime.now()
 sign_options.decryption_password = 'docPassword'
 input_file_name = MY_DIR + 'Encrypted.docx'
-output_file_name = ARTIFACTS_DIR + 'HtmlLoadOptions.encrypted_html.html'
-aw.digitalsignatures.DigitalSignatureUtil.sign(input_file_name, output_file_name, certificate_holder, sign_options)
+output_file_name = ARTIFACTS_DIR + 'HtmlLoadOptions.EncryptedHtml.html'
+aw.digitalsignatures.DigitalSignatureUtil.sign(src_file_name=input_file_name, dst_file_name=output_file_name, cert_holder=certificate_holder, sign_options=sign_options)
 # To load and read this document, we will need to pass its decryption
 # password using a HtmlLoadOptions object.
-load_options = aw.loading.HtmlLoadOptions('docPassword')
+load_options = aw.loading.HtmlLoadOptions(password='docPassword')
 self.assertEqual(sign_options.decryption_password, load_options.password)
-doc = aw.Document(output_file_name, load_options)
+doc = aw.Document(file_name=output_file_name, load_options=load_options)
 self.assertEqual('Test encrypted document.', doc.get_text().strip())
 ```
 

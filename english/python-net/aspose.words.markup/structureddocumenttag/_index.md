@@ -120,7 +120,6 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 |[ index_of(child)](../../aspose.words/compositenode/index_of/#node) | Returns the index of the specified child node in the child node array.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ insert_after(new_child, ref_child)](../../aspose.words/compositenode/insert_after/#node_node) | Inserts the specified node immediately after the specified reference node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ insert_before(new_child, ref_child)](../../aspose.words/compositenode/insert_before/#node_node) | Inserts the specified node immediately before the specified reference node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ is_ranged()](../istructureddocumenttag/is_ranged/#default) | Returns true if this instance is a ranged structured document tag.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 |[ next_pre_order(root_node)](../../aspose.words/node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ node_type_to_string(node_type)](../../aspose.words/node/node_type_to_string/#nodetype) | A utility method that converts a node type enum value into a user friendly string.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ prepend_child(new_child)](../../aspose.words/compositenode/prepend_child/#node) | Adds the specified node to the beginning of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
@@ -134,7 +133,6 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 |[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ set_checked_symbol(character_code, font_name)](./set_checked_symbol/#int_str) | Sets the symbol used to represent the checked state of a check box content control. |
 |[ set_unchecked_symbol(character_code, font_name)](./set_unchecked_symbol/#int_str) | Sets the symbol used to represent the unchecked state of a check box content control. |
-|[ structured_document_tag_node()](../istructureddocumenttag/structured_document_tag_node/#default) | Returns Node object that implements this interface.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 

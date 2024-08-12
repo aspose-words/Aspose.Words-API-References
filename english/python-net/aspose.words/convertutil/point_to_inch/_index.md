@@ -39,16 +39,16 @@ builder = aw.DocumentBuilder(doc)
 # We can also use the "ConvertUtil" class to use a more familiar measurement unit,
 # such as inches when defining boundaries.
 page_setup = builder.page_setup
-page_setup.top_margin = aw.ConvertUtil.inch_to_point(1.0)
-page_setup.bottom_margin = aw.ConvertUtil.inch_to_point(2.0)
+page_setup.top_margin = aw.ConvertUtil.inch_to_point(1)
+page_setup.bottom_margin = aw.ConvertUtil.inch_to_point(2)
 page_setup.left_margin = aw.ConvertUtil.inch_to_point(2.5)
 page_setup.right_margin = aw.ConvertUtil.inch_to_point(1.5)
 # An inch is 72 points.
-self.assertEqual(72.0, aw.ConvertUtil.inch_to_point(1))
-self.assertEqual(1.0, aw.ConvertUtil.point_to_inch(72))
+self.assertEqual(72, aw.ConvertUtil.inch_to_point(1))
+self.assertEqual(1, aw.ConvertUtil.point_to_inch(72))
 # Add content to demonstrate the new margins.
 builder.writeln(f'This Text is {page_setup.left_margin} points/{aw.ConvertUtil.point_to_inch(page_setup.left_margin)} inches from the left, ' + f'{page_setup.right_margin} points/{aw.ConvertUtil.point_to_inch(page_setup.right_margin)} inches from the right, ' + f'{page_setup.top_margin} points/{aw.ConvertUtil.point_to_inch(page_setup.top_margin)} inches from the top, ' + f'and {page_setup.bottom_margin} points/{aw.ConvertUtil.point_to_inch(page_setup.bottom_margin)} inches from the bottom of the page.')
-doc.save(ARTIFACTS_DIR + 'UtilityClasses.points_and_inches.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'UtilityClasses.PointsAndInches.docx')
 ```
 
 ### See Also

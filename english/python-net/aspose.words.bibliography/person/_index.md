@@ -14,13 +14,18 @@ url: /python-net/aspose.words.bibliography/person/
 Represents individual (a person) bibliography source contributor.
 
 
+### Constructors
+| Name | Description |
+| --- | --- |
+| [Person(last, first, middle)](./__init__/#str_str_str) | Initialize a new instance of the [Person](./) class. |
+
 ### Properties
 
 | Name | Description |
 | --- | --- |
-| [first](./first/) | Gets the first name of a person. |
-| [last](./last/) | Gets the last name of a person. |
-| [middle](./middle/) | Gets the middle name of a person. |
+| [first](./first/) | Gets or sets the first name of a person. |
+| [last](./last/) | Gets or sets the last name of a person. |
+| [middle](./middle/) | Gets or sets the middle name of a person. |
 
 ### Examples
 

@@ -18,7 +18,7 @@ Represents the list of bibliography sources available in the document.
 
 | Name | Description |
 | --- | --- |
-| [bibliography_style](./bibliography_style/) | Gets a string that represents the name of the active style to use for a bibliography. |
+| [bibliography_style](./bibliography_style/) | Gets or sets a string that represents the name of the active style to use for a bibliography. |
 | [sources](./sources/) | Gets a collection that represents all the sources contained in a bibliography. |
 
 ### Examples

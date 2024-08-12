@@ -5,7 +5,7 @@ articleTitle: PhysicalFontInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.PhysicalFontInfo class. Specifies information about physical font available to Aspose.Words font engine"
 type: docs
-weight: 200
+weight: 220
 url: /python-net/aspose.words.fonts/physicalfontinfo/
 ---
 
@@ -21,6 +21,7 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 | Name | Description |
 | --- | --- |
+| [embedding_licensing_rights](./embedding_licensing_rights/) | Embedding licensing rights for the font. |
 | [file_path](./file_path/) | Path to the font file if any. |
 | [font_family_name](./font_family_name/) | Family name of the font. |
 | [full_font_name](./full_font_name/) | Full name of the font. |

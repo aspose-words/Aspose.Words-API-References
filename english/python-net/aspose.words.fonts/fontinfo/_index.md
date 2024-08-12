@@ -5,7 +5,7 @@ articleTitle: FontInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontInfo class. Specifies information about a font used in the document"
 type: docs
-weight: 90
+weight: 110
 url: /python-net/aspose.words.fonts/fontinfo/
 ---
 
@@ -19,8 +19,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 ### Remarks
 
-You do not create instances of this class directly. 
-Use the [DocumentBase.font_infos](../../aspose.words/documentbase/font_infos/) property to access the collection of fonts 
+You do not create instances of this class directly.
+Use the [DocumentBase.font_infos](../../aspose.words/documentbase/font_infos/) property to access the collection of fonts
 defined in a document.
 
 
@@ -32,6 +32,7 @@ defined in a document.
 | --- | --- |
 | [alt_name](./alt_name/) | Gets or sets the alternate name for the font. |
 | [charset](./charset/) | Gets or sets the character set for the font. |
+| [embedding_licensing_rights](./embedding_licensing_rights/) | Gets the embedded font licensing rights. |
 | [family](./family/) | Gets or sets the font family this font belongs to. |
 | [is_true_type](./is_true_type/) | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is ``True``. |
 | [name](./name/) | Gets the name of the font. |

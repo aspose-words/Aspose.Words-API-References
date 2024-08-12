@@ -36,7 +36,7 @@ builder = aw.DocumentBuilder(doc)
 # Insert some content with personal information.
 doc.built_in_document_properties.author = 'John Doe'
 doc.built_in_document_properties.company = 'Placeholder Inc.'
-doc.start_track_revisions(doc.built_in_document_properties.author, datetime.now())
+doc.start_track_revisions(doc.built_in_document_properties.author, datetime.datetime.now())
 builder.write('Hello world!')
 doc.stop_track_revisions()
 # This flag is equivalent to File -> Options -> Trust Center -> Trust Center Settings... ->

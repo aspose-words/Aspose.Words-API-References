@@ -36,7 +36,7 @@ certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'mor
 # Create a comment and date which will be applied with our new digital signature.
 sign_options = aw.digitalsignatures.SignOptions()
 sign_options.comments = 'My comment'
-sign_options.sign_time = datetime.now()
+sign_options.sign_time = datetime.datetime.now()
 # Take an unsigned document from the local file system via a file stream,
 # then create a signed copy of it determined by the filename of the output file stream.
 with open(MY_DIR + 'Document.docx', 'rb') as stream_in:

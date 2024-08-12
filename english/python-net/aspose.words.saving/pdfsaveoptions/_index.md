@@ -81,6 +81,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [use_book_fold_printing_settings](./use_book_fold_printing_settings/) | Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.multiple_pages](../../aspose.words/pagesetup/multiple_pages/). |
 | [use_core_fonts](./use_core_fonts/) | Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
 | [use_high_quality_rendering](../saveoptions/use_high_quality_rendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [use_sdt_tag_as_form_field_name](./use_sdt_tag_as_form_field_name/) | Specifies whether to use SDT control Tag or Id property as a name of form field in PDF. |
 | [zoom_behavior](./zoom_behavior/) | Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [zoom_factor](./zoom_factor/) | Gets or sets a value determining zoom factor (in percentages) for a document. |
 

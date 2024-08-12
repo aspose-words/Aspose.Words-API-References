@@ -44,24 +44,25 @@ Shows how to traverse through a composite node's collection of child nodes.
 doc = aw.Document()
 # Add two runs and one shape as child nodes to the first paragraph of this document.
 paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
-paragraph.append_child(aw.Run(doc, 'Hello world! '))
+paragraph.append_child(aw.Run(doc=doc, text='Hello world! '))
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.RECTANGLE)
 shape.width = 200
 shape.height = 200
-# Note that the 'custom_node_id' is not saved to an output file and exists only during the node lifetime.
+# Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
 shape.custom_node_id = 100
 shape.wrap_type = aw.drawing.WrapType.INLINE
 paragraph.append_child(shape)
-paragraph.append_child(aw.Run(doc, 'Hello again!'))
+paragraph.append_child(aw.Run(doc=doc, text='Hello again!'))
 # Iterate through the paragraph's collection of immediate children,
 # and print any runs or shapes that we find within.
 children = paragraph.get_child_nodes(aw.NodeType.ANY, False)
 self.assertEqual(3, paragraph.get_child_nodes(aw.NodeType.ANY, False).count)
 for child in children:
-    if child.node_type == aw.NodeType.RUN:
+    switch_condition = child.node_type
+    if switch_condition == aw.NodeType.RUN:
         print('Run contents:')
         print(f'\t"{child.get_text().strip()}"')
-    elif child.node_type == aw.NodeType.SHAPE:
+    elif switch_condition == aw.NodeType.SHAPE:
         child_shape = child.as_shape()
         print('Shape:')
         print(f'\t{child_shape.shape_type}, {child_shape.width}x{child_shape.height}')

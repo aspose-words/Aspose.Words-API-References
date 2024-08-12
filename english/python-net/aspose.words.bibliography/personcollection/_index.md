@@ -16,22 +16,34 @@ Represents a list of persons who are bibliography source contributors.
 
 **Inheritance:** [PersonCollection](./) → [Contributor](../contributor/)
 
+### Constructors
+| Name | Description |
+| --- | --- |
+| [PersonCollection()](./__init__/#default) | Initialize a new instance of the [PersonCollection](./) class. |
+| [PersonCollection(persons)](./__init__/#person]) |  |
+| [PersonCollection(persons)](./__init__/#personlist) | Initialize a new instance of the [PersonCollection](./) class. |
+
 ### Indexers
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Returns a person at the specified index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Gets or sets a person at the specified index. |
 
 ### Properties
 
 | Name | Description |
 | --- | --- |
-| [count](./count/) | Gets the number of elements contained in the collection. |
+| [count](./count/) | Gets the number of persons contained in the collection. |
 
 ### Methods
 
 | Name | Description |
 | --- | --- |
+|[ add(person)](./add/#person) | Adds a [Person](../person/) to the collection. |
+|[ clear()](./clear/#default) | Removes all items from the collection. |
+|[ contains(person)](./contains/#person) | Determines whether the collection contains a specific person. |
+|[ remove(person)](./remove/#person) | Removes the person from the collection. |
+|[ remove_at(index)](./remove_at/#int) | Removes the person at the specified index. |
 
 ### Examples
 

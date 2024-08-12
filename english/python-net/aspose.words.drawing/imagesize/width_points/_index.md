@@ -26,9 +26,6 @@ def width_points(self) -> float:
 Shows how to resize a shape with an image.
 
 ```python
-image = drawing.Image.from_file(IMAGE_DIR + 'Logo.jpg')
-self.assertEqual(400, image.size.width)
-self.assertEqual(400, image.size.height)
 # When we insert an image using the "insert_image" method, the builder scales the shape that displays the image so that,
 # when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
 doc = aw.Document()

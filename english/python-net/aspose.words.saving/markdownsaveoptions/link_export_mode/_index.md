@@ -35,20 +35,17 @@ Shows how to links will be written to the .md file.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 builder.insert_shape(aw.drawing.ShapeType.BALLOON, 100, 100)
-
 # Image will be written as reference:
 # ![ref1]
 #
 # [ref1]: aw_ref.001.png
-
 save_options = aw.saving.MarkdownSaveOptions()
 save_options.link_export_mode = aw.saving.MarkdownLinkExportMode.REFERENCE
-doc.save(ARTIFACTS_DIR + "MarkdownSaveOptions.LinkExportMode.Reference.md", save_options)
-
+doc.save(ARTIFACTS_DIR + 'MarkdownSaveOptions.LinkExportMode.Reference.md', save_options)
 # Image will be written as inline:
 # ![](aw_inline.001.png)
 save_options.link_export_mode = aw.saving.MarkdownLinkExportMode.INLINE
-doc.save(ARTIFACTS_DIR + "MarkdownSaveOptions.LinkExportMode.Inline.md", save_options)
+doc.save(ARTIFACTS_DIR + 'MarkdownSaveOptions.LinkExportMode.Inline.md', save_options)
 ```
 
 ### See Also

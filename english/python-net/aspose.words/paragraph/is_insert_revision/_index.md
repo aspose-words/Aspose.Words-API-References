@@ -29,12 +29,12 @@ Shows how to work with revision paragraphs.
 doc = aw.Document()
 body = doc.first_section.body
 para = body.first_paragraph
-para.append_child(aw.Run(doc, 'Paragraph 1. '))
+para.append_child(aw.Run(doc=doc, text='Paragraph 1. '))
 body.append_paragraph('Paragraph 2. ')
 body.append_paragraph('Paragraph 3. ')
 # The above paragraphs are not revisions.
 # Paragraphs that we add after starting revision tracking will register as "Insert" revisions.
-doc.start_track_revisions('John Doe', datetime.now())
+doc.start_track_revisions(author='John Doe', date_time=datetime.datetime.now())
 para = body.append_paragraph('Paragraph 4. ')
 self.assertTrue(para.is_insert_revision)
 # Paragraphs that we remove after starting revision tracking will register as "Delete" revisions.
@@ -50,7 +50,7 @@ self.assertTrue(para.is_delete_revision)
 # Accept the revision, and then verify that the paragraph is gone.
 doc.accept_all_revisions()
 self.assertEqual(3, paragraphs.count)
-#self.assertEqual(para, "")
+self.assertEqual(0, para.count)
 self.assertEqual('Paragraph 1. \r' + 'Paragraph 2. \r' + 'Paragraph 4.', doc.get_text().strip())
 ```
 

@@ -407,19 +407,16 @@ Shows how to insert an image from a byte array into a document.
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-image = drawing.Image.from_file(IMAGE_DIR + 'Logo.jpg')
-with io.BytesIO() as stream:
-    image.save(stream, drawing.imaging.ImageFormat.png)
-    image_byte_array = bytes(stream.getvalue())
-    # Below are three ways of inserting an image from a byte array.
-    # 1 -  Inline shape with a default size based on the image's original dimensions:
-    builder.insert_image(image_byte_array)
-    builder.insert_break(aw.BreakType.PAGE_BREAK)
-    # 2 -  Inline shape with custom dimensions:
-    builder.insert_image(image_byte_array, aw.ConvertUtil.pixel_to_point(250), aw.ConvertUtil.pixel_to_point(144))
-    builder.insert_break(aw.BreakType.PAGE_BREAK)
-    # 3 -  Floating shape with custom dimensions:
-    builder.insert_image(image_byte_array, aw.drawing.RelativeHorizontalPosition.MARGIN, 100, aw.drawing.RelativeVerticalPosition.MARGIN, 100, 200, 100, aw.drawing.WrapType.SQUARE)
+image_byte_array = self.image_to_byte_array(IMAGE_DIR + 'Logo.jpg')
+# Below are three ways of inserting an image from a byte array.
+# 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.insert_image(image_byte_array)
+builder.insert_break(aw.BreakType.PAGE_BREAK)
+# 2 -  Inline shape with custom dimensions:
+builder.insert_image(image_byte_array, aw.ConvertUtil.pixel_to_point(250), aw.ConvertUtil.pixel_to_point(144))
+builder.insert_break(aw.BreakType.PAGE_BREAK)
+# 3 -  Floating shape with custom dimensions:
+builder.insert_image(image_byte_array, aw.drawing.RelativeHorizontalPosition.MARGIN, 100, aw.drawing.RelativeVerticalPosition.MARGIN, 100, 200, 100, aw.drawing.WrapType.SQUARE)
 doc.save(ARTIFACTS_DIR + 'DocumentBuilderImages.insert_image_from_byte_array.docx')
 ```
 

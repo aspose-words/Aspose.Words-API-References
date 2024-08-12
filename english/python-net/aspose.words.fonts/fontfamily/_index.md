@@ -5,7 +5,7 @@ articleTitle: FontFamily enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontFamily enumeration. Represents the font family."
 type: docs
-weight: 80
+weight: 100
 url: /python-net/aspose.words.fonts/fontfamily/
 ---
 

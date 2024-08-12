@@ -76,14 +76,12 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child_nodes(node_type, is_deep)](./get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified types. |
 |[ get_text()](../../aspose.words/node/get_text/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../../aspose.words/node/)) |
-|[ is_ranged()](../istructureddocumenttag/is_ranged/#default) | Returns true if this instance is a ranged structured document tag.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 |[ next_pre_order(root_node)](../../aspose.words/node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ node_type_to_string(node_type)](../../aspose.words/node/node_type_to_string/#nodetype) | A utility method that converts a node type enum value into a user friendly string.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ previous_pre_order(root_node)](../../aspose.words/node/previous_pre_order/#node) | Gets the previous node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ remove()](../../aspose.words/node/remove/#default) | Removes itself from the parent.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ remove_all_children()](./remove_all_children/#default) | Removes all the nodes between this range start node and the range end node. |
 |[ remove_self_only()](./remove_self_only/#default) | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
-|[ structured_document_tag_node()](../istructureddocumenttag/structured_document_tag_node/#default) | Returns Node object that implements this interface.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 
@@ -92,26 +90,26 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 Shows how to get the properties of multi-section structured document tags.
 
 ```python
-doc = aw.Document(MY_DIR + 'Multi-section structured document tags.docx')
+doc = aw.Document(file_name=MY_DIR + 'Multi-section structured document tags.docx')
 range_start_tag = doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, True)[0].as_structured_document_tag_range_start()
 range_end_tag = doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_END, True)[0].as_structured_document_tag_range_end()
 print('StructuredDocumentTagRangeStart values:')
-print(f'\t|id: {range_start_tag.id}')
-print(f'\t|title: {range_start_tag.title}')
-print(f'\t|placeholder_name: {range_start_tag.placeholder_name}')
-print(f'\t|is_showing_placeholder_text: {range_start_tag.is_showing_placeholder_text}')
-print(f'\t|lock_content_control: {range_start_tag.lock_content_control}')
-print(f'\t|lock_contents: {range_start_tag.lock_contents}')
-print(f'\t|level: {range_start_tag.level}')
-print(f'\t|node_type: {range_start_tag.node_type}')
-print(f'\t|range_end: {range_start_tag.range_end}')
-print(f'\t|color: {range_start_tag.color.to_argb()}')
-print(f'\t|sdt_type: {range_start_tag.sdt_type}')
-print(f'\t|flat_opc_content: {range_start_tag.word_open_xml}')
-print(f'\t|tag: {range_start_tag.tag}\n')
+print(f'\t|Id: {range_start_tag.id}')
+print(f'\t|Title: {range_start_tag.title}')
+print(f'\t|PlaceholderName: {range_start_tag.placeholder_name}')
+print(f'\t|IsShowingPlaceholderText: {range_start_tag.is_showing_placeholder_text}')
+print(f'\t|LockContentControl: {range_start_tag.lock_content_control}')
+print(f'\t|LockContents: {range_start_tag.lock_contents}')
+print(f'\t|Level: {range_start_tag.level}')
+print(f'\t|NodeType: {range_start_tag.node_type}')
+print(f'\t|RangeEnd: {range_start_tag.range_end}')
+print(f'\t|Color: {range_start_tag.color.to_argb()}')
+print(f'\t|SdtType: {range_start_tag.sdt_type}')
+print(f'\t|FlatOpcContent: {range_start_tag.word_open_xml}')
+print(f'\t|Tag: {range_start_tag.tag}\n')
 print('StructuredDocumentTagRangeEnd values:')
-print(f'\t|id: {range_end_tag.id}')
-print(f'\t|node_type: {range_end_tag.node_type}')
+print(f'\t|Id: {range_end_tag.id}')
+print(f'\t|NodeType: {range_end_tag.node_type}')
 ```
 
 ### See Also

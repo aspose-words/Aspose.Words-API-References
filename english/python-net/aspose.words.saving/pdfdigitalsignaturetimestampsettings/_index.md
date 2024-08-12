@@ -46,7 +46,7 @@ builder.writeln('Signed PDF contents.')
 options = aw.saving.PdfSaveOptions()
 # Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
 certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'morzal.pfx', 'aw')
-options.digital_signature_details = aw.saving.PdfDigitalSignatureDetails(certificate_holder, 'Test Signing', 'Aspose Office', datetime.now())
+options.digital_signature_details = aw.saving.PdfDigitalSignatureDetails(certificate_holder, 'Test Signing', 'Aspose Office', datetime.datetime.now())
 # Create a timestamp authority-verified timestamp.
 options.digital_signature_details.timestamp_settings = aw.saving.PdfDigitalSignatureTimestampSettings('https://freetsa.org/tsr', 'JohnDoe', 'MyPassword')
 # The default lifespan of the timestamp is 100 seconds.

@@ -35,6 +35,10 @@ Shows how to specifies ignoring or not source formatting of headers/footers cont
 ```python
 dst_doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 src_doc = aw.Document(file_name=MY_DIR + 'Header and footer types.docx')
+# If 'IgnoreHeaderFooter' is false then the original formatting for header/footer content
+# from "Header and footer types.docx" will be used.
+# If 'IgnoreHeaderFooter' is true then the formatting for header/footer content
+# from "Document.docx" will be used.
 import_format_options = aw.ImportFormatOptions()
 import_format_options.ignore_header_footer = False
 dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, import_format_options=import_format_options)

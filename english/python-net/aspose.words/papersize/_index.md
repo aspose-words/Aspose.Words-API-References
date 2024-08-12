@@ -62,10 +62,10 @@ Shows how to set page sizes.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 # We can change the current page's size to a pre-defined size
-# by using the "paper_size" property of this section's PageSetup object.
+# by using the "PaperSize" property of this section's PageSetup object.
 builder.page_setup.paper_size = aw.PaperSize.TABLOID
-self.assertEqual(792.0, builder.page_setup.page_width)
-self.assertEqual(1224.0, builder.page_setup.page_height)
+self.assertEqual(792, builder.page_setup.page_width)
+self.assertEqual(1224, builder.page_setup.page_height)
 builder.writeln(f'This page is {builder.page_setup.page_width}x{builder.page_setup.page_height}.')
 # Each section has its own PageSetup object. When we use a document builder to make a new section,
 # that section's PageSetup object inherits all the previous section's PageSetup object's values.
@@ -81,7 +81,7 @@ builder.page_setup.page_width = 620
 builder.page_setup.page_height = 480
 self.assertEqual(aw.PaperSize.CUSTOM, builder.page_setup.paper_size)
 builder.writeln(f'This page is {builder.page_setup.page_width}x{builder.page_setup.page_height}.')
-doc.save(ARTIFACTS_DIR + 'PageSetup.paper_sizes.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.PaperSizes.docx')
 ```
 
 Shows how to construct an Aspose.Words document by hand.

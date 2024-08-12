@@ -5,7 +5,7 @@ articleTitle: FontInfoCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontInfoCollection class. Represents a collection of fonts used in a document"
 type: docs
-weight: 100
+weight: 120
 url: /python-net/aspose.words.fonts/fontinfocollection/
 ---
 

@@ -42,7 +42,7 @@ doc_b = aw.Document(MY_DIR + 'DML unique ID compare.docx')
 # If we are ignoring DML's unique ID, and revisions count were 0.
 compare_options = aw.comparing.CompareOptions()
 compare_options.ignore_dml_unique_id = is_ignore_dml_unique_id
-doc_a.compare(doc_b, 'Aspose.Words', datetime.now(), compare_options)
+doc_a.compare(doc_b, 'Aspose.Words', datetime.datetime.now(), compare_options)
 self.assertEqual(0 if is_ignore_dml_unique_id else 2, doc_a.revisions.count)
 ```
 
