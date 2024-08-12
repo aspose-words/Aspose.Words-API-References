@@ -52,14 +52,14 @@ Shows how to get a field's field code.
 
 ```python
 # Open a document which contains a MERGEFIELD inside an IF field.
-doc = aw.Document(MY_DIR + 'Nested fields.docx')
+doc = aw.Document(file_name=MY_DIR + 'Nested fields.docx')
 field_if = doc.range.fields[0].as_field_if()
 # There are two ways of getting a field's field code:
 # 1 -  Omit its inner fields:
 self.assertEqual(' IF  > 0 " (surplus of ) " "" ', field_if.get_field_code(False))
 # 2 -  Include its inner fields:
-self.assertEqual(' IF \x13 MERGEFIELD NetIncome \x14\x15 > 0 " (surplus of \x13 MERGEFIELD  NetIncome \\f $ \x14\x15) " "" ', field_if.get_field_code(True))
-# By default, the "get_field_code" method displays inner fields.
+self.assertEqual(f' IF \x13 MERGEFIELD NetIncome \x14\x15 > 0 " (surplus of \x13 MERGEFIELD  NetIncome \\f $ \x14\x15) " "" ', field_if.get_field_code(True))
+# By default, the GetFieldCode method displays inner fields.
 self.assertEqual(field_if.get_field_code(), field_if.get_field_code(True))
 ```
 

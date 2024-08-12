@@ -5,7 +5,7 @@ articleTitle: FontSourceBase class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontSourceBase class. This is an abstract base class for the classes that allow the user to specify various font sources"
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.words.fonts/fontsourcebase/
 ---
 

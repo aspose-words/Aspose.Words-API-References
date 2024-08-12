@@ -3,20 +3,24 @@ title: Source.title property
 linktitle: title property
 articleTitle: title property
 second_title: Aspose.Words for Python
-description: "Source.title property. Gets the title of a source."
+description: "Source.title property. Gets or sets the title of a source."
 type: docs
-weight: 460
+weight: 480
 url: /python-net/aspose.words.bibliography/source/title/
 ---
 
 ## Source.title property
 
-Gets the title of a source.
+Gets or sets the title of a source.
 
 
 ```python
 @property
 def title(self) -> str:
+    ...
+
+@title.setter
+def title(self, value: str):
     ...
 
 ```

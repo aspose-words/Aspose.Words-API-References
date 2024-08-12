@@ -3,7 +3,7 @@ title: ContributorCollection.performer property
 linktitle: performer property
 articleTitle: performer property
 second_title: Aspose.Words for Python
-description: "ContributorCollection.performer property. Gets the performer of a source."
+description: "ContributorCollection.performer property. Gets or sets the performer of a source."
 type: docs
 weight: 130
 url: /python-net/aspose.words.bibliography/contributorcollection/performer/
@@ -11,12 +11,16 @@ url: /python-net/aspose.words.bibliography/contributorcollection/performer/
 
 ## ContributorCollection.performer property
 
-Gets the performer of a source.
+Gets or sets the performer of a source.
 
 
 ```python
 @property
 def performer(self) -> aspose.words.bibliography.Contributor:
+    ...
+
+@performer.setter
+def performer(self, value: aspose.words.bibliography.Contributor):
     ...
 
 ```

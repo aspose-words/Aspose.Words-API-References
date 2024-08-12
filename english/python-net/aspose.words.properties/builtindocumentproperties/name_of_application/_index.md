@@ -49,7 +49,7 @@ properties.revision_number += 1
 # Microsoft Word updates the following properties automatically when we save the document.
 # To use these properties with Aspose.Words, we will need to set values for them manually.
 properties.last_saved_by = 'John Doe'
-properties.last_saved_time = datetime.utcnow()
+properties.last_saved_time = datetime.datetime.utcnow()
 # We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
 doc.save(ARTIFACTS_DIR + 'DocumentProperties.origin.docx')
 ```

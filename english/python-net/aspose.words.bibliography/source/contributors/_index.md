@@ -5,7 +5,7 @@ articleTitle: contributors property
 second_title: Aspose.Words for Python
 description: "Source.contributors property. Gets contributors list (author, editor, writer etc) of a source."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.bibliography/source/contributors/
 ---
 

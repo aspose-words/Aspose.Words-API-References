@@ -56,7 +56,7 @@ builder.write('Original textbox contents')
 builder.move_to(doc_original.first_section.body.append_paragraph(''))
 builder.insert_field(' DATE ')
 # Comment:
-new_comment = aw.Comment(doc_original, 'John Doe', 'J.D.', datetime.now())
+new_comment = aw.Comment(doc_original, 'John Doe', 'J.D.', datetime.datetime.now())
 new_comment.set_text('Original comment.')
 builder.current_paragraph.append_child(new_comment)
 # Header:
@@ -86,7 +86,7 @@ compare_options.ignore_footnotes = False
 compare_options.ignore_textboxes = False
 compare_options.ignore_headers_and_footers = False
 compare_options.target = aw.comparing.ComparisonTargetType.NEW
-doc_original.compare(doc_edited, 'John Doe', datetime.now(), compare_options)
+doc_original.compare(doc_edited, 'John Doe', datetime.datetime.now(), compare_options)
 doc_original.save(ARTIFACTS_DIR + 'Document.compare_options.docx')
 ```
 

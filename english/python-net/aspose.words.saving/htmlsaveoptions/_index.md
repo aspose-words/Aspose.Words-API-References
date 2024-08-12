@@ -80,6 +80,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [office_math_output_mode](./office_math_output_mode/) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [HtmlOfficeMathOutputMode.IMAGE](../htmlofficemathoutputmode/#IMAGE). |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [replace_backslash_with_yen_sign](./replace_backslash_with_yen_sign/) | Specifies whether backslash characters should be replaced with yen signs. Default value is ``False``. |
 | [resolve_font_names](./resolve_font_names/) | Specifies whether font family names used in the document are resolved and substituted according to [Document.font_settings](../../aspose.words/document/font_settings/) when being written into HTML-based formats. |
 | [resource_folder](./resource_folder/) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
 | [resource_folder_alias](./resource_folder_alias/) | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string. |

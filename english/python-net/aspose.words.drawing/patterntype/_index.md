@@ -74,6 +74,23 @@ Specifies the fill pattern to be used to fill a shape.
 | WIDE_UPWARD_DIAGONAL | Wide upward diagonal. |
 | ZIG_ZAG | Zig zag. |
 
+### Examples
+
+Shows how to set pattern for a shape.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Shape stroke pattern border.docx')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+fill = shape.fill
+print('Pattern value is: {0}'.format(fill.pattern))
+# There are several ways specified fill to a pattern.
+# 1 -  Apply pattern to the shape fill:
+fill.patterned(pattern_type=aw.drawing.PatternType.DIAGONAL_BRICK)
+# 2 -  Apply pattern with foreground and background colors to the shape fill:
+fill.patterned(pattern_type=aw.drawing.PatternType.DIAGONAL_BRICK, fore_color=aspose.pydrawing.Color.aqua, back_color=aspose.pydrawing.Color.bisque)
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.FillPattern.docx')
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../)

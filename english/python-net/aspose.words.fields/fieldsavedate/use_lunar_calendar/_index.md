@@ -55,7 +55,7 @@ field.use_saka_era_calendar = True
 self.assertEqual(' SAVEDATE  \\s', field.get_field_code())
 # The SAVEDATE fields draw their date/time values from the "last_saved_time" built-in property.
 # The document's Save method will not update this value, but we can still update it manually.
-doc.built_in_document_properties.last_saved_time = datetime.now()
+doc.built_in_document_properties.last_saved_time = datetime.datetime.now()
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + 'Field.field_save_date.docx')
 ```

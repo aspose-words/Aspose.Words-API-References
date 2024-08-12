@@ -5,7 +5,7 @@ articleTitle: is_true_type property
 second_title: Aspose.Words for Python
 description: "FontInfo.is_true_type property. Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.fonts/fontinfo/is_true_type/
 ---
 

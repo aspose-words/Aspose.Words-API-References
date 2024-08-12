@@ -24,6 +24,21 @@ Possible values for how large or small the document appears on the screen in Mic
 | PAGE_WIDTH | Zoom percentage is automatically recalculated to fit page width. |
 | TEXT_FIT | Zoom percentage is automatically recalculated to fit text. |
 
+### Examples
+
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+builder.writeln('Hello world!')
+doc.view_options.view_type = aw.settings.ViewType.PAGE_LAYOUT
+doc.view_options.zoom_percent = 50
+self.assertEqual(aw.settings.ZoomType.CUSTOM, doc.view_options.zoom_type)
+self.assertEqual(aw.settings.ZoomType.NONE, doc.view_options.zoom_type)
+doc.save(file_name=ARTIFACTS_DIR + 'ViewOptions.SetZoomPercentage.doc')
+```
+
 ### See Also
 
 * module [aspose.words.settings](../)

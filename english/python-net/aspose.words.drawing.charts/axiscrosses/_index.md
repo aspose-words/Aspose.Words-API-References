@@ -59,6 +59,9 @@ y_axis.minor_tick_mark = aw.drawing.charts.AxisTickMark.CROSS
 y_axis.major_unit = 100
 y_axis.minor_unit = 20
 y_axis.tick_labels.position = aw.drawing.charts.AxisTickLabelPosition.NEXT_TO_AXIS
+y_axis.tick_labels.alignment = aw.ParagraphAlignment.CENTER
+y_axis.tick_labels.font.color = aspose.pydrawing.Color.red
+y_axis.tick_labels.spacing = 1
 # Column charts do not have a Z-axis.
 self.assertIsNone(chart.axis_z)
 doc.save(file_name=ARTIFACTS_DIR + 'Charts.AxisProperties.docx')

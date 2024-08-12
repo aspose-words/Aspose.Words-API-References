@@ -29,7 +29,7 @@ def get_child_nodes(self, node_type: aspose.words.NodeType, is_deep: bool):
 Shows how to get child nodes of StructuredDocumentTagRangeStart.
 
 ```python
-doc = aw.Document(MY_DIR + 'Multi-section structured document tags.docx')
+doc = aw.Document(file_name=MY_DIR + 'Multi-section structured document tags.docx')
 tag = doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, True)[0].as_structured_document_tag_range_start()
 print('StructuredDocumentTagRangeStart values:')
 print(f'\t|Child nodes count: {tag.get_child_nodes(aw.NodeType.ANY, False).count}\n')

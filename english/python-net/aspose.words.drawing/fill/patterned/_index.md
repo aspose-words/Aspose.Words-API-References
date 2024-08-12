@@ -44,16 +44,16 @@ def patterned(self, pattern_type: aspose.words.drawing.PatternType, fore_color: 
 Shows how to set pattern for a shape.
 
 ```python
-doc = aw.Document(MY_DIR + 'Shape stroke pattern border.docx')
+doc = aw.Document(file_name=MY_DIR + 'Shape stroke pattern border.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 fill = shape.fill
-print('Pattern value is:', fill.pattern)
+print('Pattern value is: {0}'.format(fill.pattern))
 # There are several ways specified fill to a pattern.
 # 1 -  Apply pattern to the shape fill:
-fill.patterned(aw.drawing.PatternType.DIAGONAL_BRICK)
+fill.patterned(pattern_type=aw.drawing.PatternType.DIAGONAL_BRICK)
 # 2 -  Apply pattern with foreground and background colors to the shape fill:
-fill.patterned(aw.drawing.PatternType.DIAGONAL_BRICK, aspose.pydrawing.Color.aqua, aspose.pydrawing.Color.bisque)
-doc.save(ARTIFACTS_DIR + 'Shape.fill_pattern.docx')
+fill.patterned(pattern_type=aw.drawing.PatternType.DIAGONAL_BRICK, fore_color=aspose.pydrawing.Color.aqua, back_color=aspose.pydrawing.Color.bisque)
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.FillPattern.docx')
 ```
 
 ## See Also

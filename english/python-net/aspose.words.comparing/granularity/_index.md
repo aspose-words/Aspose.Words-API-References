@@ -36,7 +36,7 @@ builder_b.writeln('Lorems ipsum dolor sit amet consectetur - "adipiscing" elit')
 # by character ('Granularity.CHAR_LEVEL'), or by word ('Granularity.WORD_LEVEL').
 compare_options = aw.comparing.CompareOptions()
 compare_options.granularity = granularity
-doc_a.compare(doc_b, 'author', datetime.now(), compare_options)
+doc_a.compare(doc_b, 'author', datetime.datetime.now(), compare_options)
 # The first document's collection of revision groups contains all the differences between documents.
 groups = doc_a.revisions.groups
 self.assertEqual(5, groups.count)

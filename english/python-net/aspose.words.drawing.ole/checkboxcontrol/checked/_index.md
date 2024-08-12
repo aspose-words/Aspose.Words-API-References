@@ -36,6 +36,8 @@ doc = aw.Document(file_name=MY_DIR + 'ActiveX controls.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 check_box_control = shape.ole_format.ole_control.as_check_box_control()
 check_box_control.checked = True
+self.assertEqual(True, check_box_control.checked)
+self.assertEqual(aw.drawing.ole.Forms2OleControlType.CHECK_BOX, check_box_control.type)
 ```
 
 ### See Also

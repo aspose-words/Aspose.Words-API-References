@@ -31,6 +31,18 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 | --- | --- |
 |[ clear()](./clear/#default) | Clears shadow format. |
 
+### Examples
+
+Shows how to get shadow color.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Shadow color.docx')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+shadow_format = shape.shadow_format
+self.assertEqual(aspose.pydrawing.Color.red.to_argb(), shadow_format.color.to_argb())
+self.assertEqual(aw.drawing.ShadowType.SHADOW_MIXED, shadow_format.type)
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../)

@@ -78,6 +78,7 @@ and section properties use [Section.append_content()](./append_content/#section)
 |[ append_content(source_section)](./append_content/#section) | Inserts a copy of content of the source section at the end of this section. |
 |[ clear_content()](./clear_content/#default) | Clears the section. |
 |[ clear_headers_footers()](./clear_headers_footers/#default) | Clears the headers and footers of this section. |
+|[ clear_headers_footers(preserve_watermarks)](./clear_headers_footers/#bool) | Clears the headers and footers of this section. |
 |[ clone()](./clone/#default) | Creates a duplicate of this section. |
 |[ clone(is_clone_children)](./clone/#bool) | Creates a duplicate of this section. |
 |[ delete_header_footer_shapes()](./delete_header_footer_shapes/#default) | Deletes all shapes (drawing objects) from the headers and footers of this section. |

@@ -32,7 +32,7 @@ builder = aw.DocumentBuilder(doc_edited)
 builder.writeln('This is the edited document.')
 # Comparing documents with revisions will throw an exception.
 if doc_original.revisions.count == 0 and doc_edited.revisions.count == 0:
-    doc_original.compare(doc_edited, 'authorName', datetime.now())
+    doc_original.compare(doc_edited, 'authorName', datetime.datetime.now())
 # After the comparison, the original document will gain a new revision
 # for every element that is different in the edited document.
 self.assertEqual(2, doc_original.revisions.count)  # ExSkip

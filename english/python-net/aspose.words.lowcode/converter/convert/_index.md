@@ -11,7 +11,7 @@ url: /python-net/aspose.words.lowcode/converter/convert/
 
 ## convert(input_file, output_file) {#str_str}
 
-Convert the given input document into the output document using specified input output file names and its extensions.
+Converts the given input document into the output document using specified input output file names and its extensions.
 
 
 ```python
@@ -26,7 +26,7 @@ def convert(self, input_file: str, output_file: str):
 
 ## convert(input_file, output_file, save_format) {#str_str_saveformat}
 
-Convert the given input document into the output document using specified input output file names and the final document format.
+Converts the given input document into the output document using specified input output file names and the final document format.
 
 
 ```python
@@ -42,7 +42,7 @@ def convert(self, input_file: str, output_file: str, save_format: aspose.words.S
 
 ## convert(input_file, output_file, save_options) {#str_str_saveoptions}
 
-Convert the given input document into the output document using specified input output file names and save options.
+Converts the given input document into the output document using specified input output file names and save options.
 
 
 ```python
@@ -58,7 +58,7 @@ def convert(self, input_file: str, output_file: str, save_options: aspose.words.
 
 ## convert(input_stream, output_stream, save_format) {#bytesio_bytesio_saveformat}
 
-Convert the given input document into a single output document using specified input and output streams.
+Converts the given input document into a single output document using specified input and output streams.
 
 
 ```python
@@ -74,7 +74,7 @@ def convert(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_form
 
 ## convert(input_stream, output_stream, save_options) {#bytesio_bytesio_saveoptions}
 
-Convert the given input document into a single output document using specified input and output streams.
+Converts the given input document into a single output document using specified input and output streams.
 
 
 ```python
@@ -87,6 +87,18 @@ def convert(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_opti
 | input_stream | io.BytesIO | The input streams. |
 | output_stream | io.BytesIO | The output stream. |
 | save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+
+## Examples
+
+Shows how to convert documents with a single line of code.
+
+```python
+aw.lowcode.Converter.convert(input_file=MY_DIR + 'Document.docx', output_file=ARTIFACTS_DIR + 'LowCode.Convert.pdf')
+aw.lowcode.Converter.convert(input_file=MY_DIR + 'Document.docx', output_file=ARTIFACTS_DIR + 'LowCode.Convert.rtf', save_format=aw.SaveFormat.RTF)
+save_options = aw.saving.OoxmlSaveOptions()
+save_options.password = 'Aspose.Words'
+aw.lowcode.Converter.convert(input_file=MY_DIR + 'Document.doc', output_file=ARTIFACTS_DIR + 'LowCode.Convert.docx', save_options=save_options)
+```
 
 ## See Also
 

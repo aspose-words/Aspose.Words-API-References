@@ -25,6 +25,20 @@ Dml text effect for text runs.
 | EFFECT_3D | 3D effect. |
 | REFLECTION | Reflection effect. |
 
+### Examples
+
+Shows how to check if a run displays a DrawingML text effect.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'DrawingML text effects.docx')
+runs = doc.first_section.body.first_paragraph.runs
+self.assertTrue(runs[0].font.has_dml_effect(aw.TextDmlEffect.SHADOW))
+self.assertTrue(runs[1].font.has_dml_effect(aw.TextDmlEffect.SHADOW))
+self.assertTrue(runs[2].font.has_dml_effect(aw.TextDmlEffect.REFLECTION))
+self.assertTrue(runs[3].font.has_dml_effect(aw.TextDmlEffect.EFFECT_3D))
+self.assertTrue(runs[4].font.has_dml_effect(aw.TextDmlEffect.FILL))
+```
+
 ### See Also
 
 * module [aspose.words](../)

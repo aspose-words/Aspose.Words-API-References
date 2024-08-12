@@ -5,7 +5,7 @@ articleTitle: panose property
 second_title: Aspose.Words for Python
 description: "FontInfo.panose property. Gets or sets the PANOSE typeface classification number."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.fonts/fontinfo/panose/
 ---
 
@@ -27,8 +27,8 @@ def panose(self, value: bytes):
 
 ### Remarks
 
-PANOSE is a compact 10-byte description of a fonts critical visual characteristics, 
-such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, 
+PANOSE is a compact 10-byte description of a fonts critical visual characteristics,
+such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style,
 Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
 
 Can be ``None``.

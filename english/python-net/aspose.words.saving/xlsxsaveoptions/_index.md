@@ -59,6 +59,18 @@ To learn more, visit the [Specify
 |[ create_save_options(save_format)](../saveoptions/create_save_options/#saveformat) | Creates a save options object of a class suitable for the specified save format.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 |[ create_save_options(file_name)](../saveoptions/create_save_options/#str) | Creates a save options object of a class suitable for the file extension specified in the given file name.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 
+### Examples
+
+Shows how to compress XLSX document.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Shape with linked chart.docx')
+xlsx_save_options = aw.saving.XlsxSaveOptions()
+xlsx_save_options.compression_level = aw.saving.CompressionLevel.MAXIMUM
+xlsx_save_options.save_format = aw.SaveFormat.XLSX
+doc.save(file_name=ARTIFACTS_DIR + 'XlsxSaveOptions.CompressXlsx.xlsx', save_options=xlsx_save_options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../)

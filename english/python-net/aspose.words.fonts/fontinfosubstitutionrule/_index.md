@@ -5,7 +5,7 @@ articleTitle: FontInfoSubstitutionRule class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontInfoSubstitutionRule class. Font info substitution rule"
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 

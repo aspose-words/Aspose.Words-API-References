@@ -43,6 +43,22 @@ System.Security.Cryptography.X509Certificates.X509Certificate2 as parameters.
 
 ### Examples
 
+Shows how to sign encrypted document file.
+
+```python
+# Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+certificate_holder = aw.digitalsignatures.CertificateHolder.create(file_name=MY_DIR + 'morzal.pfx', password='aw')
+# Create a comment, date, and decryption password which will be applied with our new digital signature.
+sign_options = aw.digitalsignatures.SignOptions()
+sign_options.comments = 'Comment'
+sign_options.sign_time = datetime.datetime.now()
+sign_options.decryption_password = 'docPassword'
+# Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
+input_file_name = MY_DIR + 'Encrypted.docx'
+output_file_name = ARTIFACTS_DIR + 'DigitalSignatureUtil.DecryptionPassword.docx'
+aw.digitalsignatures.DigitalSignatureUtil.sign(src_file_name=input_file_name, dst_file_name=output_file_name, cert_holder=certificate_holder, sign_options=sign_options)
+```
+
 Shows how to digitally sign documents.
 
 ```python
@@ -51,28 +67,12 @@ certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'mor
 # Create a comment and date which will be applied with our new digital signature.
 sign_options = aw.digitalsignatures.SignOptions()
 sign_options.comments = 'My comment'
-sign_options.sign_time = datetime.now()
+sign_options.sign_time = datetime.datetime.now()
 # Take an unsigned document from the local file system via a file stream,
 # then create a signed copy of it determined by the filename of the output file stream.
 with open(MY_DIR + 'Document.docx', 'rb') as stream_in:
     with open(ARTIFACTS_DIR + 'DigitalSignatureUtil.sign_document.docx', 'wb') as stream_out:
         aw.digitalsignatures.DigitalSignatureUtil.sign(stream_in, stream_out, certificate_holder, sign_options)
-```
-
-Shows how to sign encrypted document file.
-
-```python
-# Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
-certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'morzal.pfx', 'aw')
-# Create a comment, date, and decryption password which will be applied with our new digital signature.
-sign_options = aw.digitalsignatures.SignOptions()
-sign_options.comments = 'Comment'
-sign_options.sign_time = datetime.now()
-sign_options.decryption_password = 'docPassword'
-# Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
-input_file_name = MY_DIR + 'Encrypted.docx'
-output_file_name = ARTIFACTS_DIR + 'DigitalSignatureUtil.decryption_password.docx'
-aw.digitalsignatures.DigitalSignatureUtil.sign(input_file_name, output_file_name, certificate_holder, sign_options)
 ```
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
@@ -88,13 +88,14 @@ def test_sign(self):
 
     for signee_info in self._create_signees():
         if signee_info.name == signee_name:
-            self._sign_document(src_document_path, dst_document_path, signee_info, certificate_path, certificate_password)
+            self._sign_document(src_document_path, dst_document_path, signee_info, certificate_path,
+                                certificate_password)
             break
     else:
         raise Exception("Signee does not exist.")
 
 def _sign_document(self, src_document_path: str, dst_document_path: str,
-    signee_info, certificate_path: str, certificate_password: str):
+                   signee_info, certificate_path: str, certificate_password: str):
     """Creates a copy of a source document signed using provided signee information and X509 certificate."""
 
     document = aw.Document(src_document_path)
@@ -118,14 +119,8 @@ def _sign_document(self, src_document_path: str, dst_document_path: str,
     sign_options.signature_line_image = signee_info.image
 
     # Overwrite the unsigned document we saved above with a version signed using the certificate.
-    aw.digitalsignatures.DigitalSignatureUtil.sign(dst_document_path, dst_document_path, certificate_holder, sign_options)
-
-def _image_to_byte_array(self, image_in: drawing.Image) -> bytes:
-    """Converts an image to a byte array."""
-
-    with io.BytesIO() as stream:
-        image_in.save(stream, drawing.imaging.ImageFormat.png)
-        return bytes(stream.getbuffer())
+    aw.digitalsignatures.DigitalSignatureUtil.sign(dst_document_path, dst_document_path, certificate_holder,
+                                                   sign_options)
 
 class Signee:
 
@@ -139,9 +134,9 @@ def _create_signees(self):
 
     return [
         ExSignDocumentCustom.Signee(uuid.uuid4(), "Ron Williams", "Chief Executive Officer",
-            self._image_to_byte_array(drawing.Image.from_file(IMAGE_DIR + "Logo.jpg"))),
+                                    self.image_to_byte_array(IMAGE_DIR + "Logo.jpg")),
         ExSignDocumentCustom.Signee(uuid.uuid4(), "Stephen Morse", "Head of Compliance",
-            self._image_to_byte_array(drawing.Image.from_file(IMAGE_DIR + "Logo.jpg")))
+                                    self.image_to_byte_array(IMAGE_DIR + "Logo.jpg"))
     ]
 ```
 

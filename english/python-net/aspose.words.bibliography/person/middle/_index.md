@@ -3,20 +3,24 @@ title: Person.middle property
 linktitle: middle property
 articleTitle: middle property
 second_title: Aspose.Words for Python
-description: "Person.middle property. Gets the middle name of a person."
+description: "Person.middle property. Gets or sets the middle name of a person."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.bibliography/person/middle/
 ---
 
 ## Person.middle property
 
-Gets the middle name of a person.
+Gets or sets the middle name of a person.
 
 
 ```python
 @property
 def middle(self) -> str:
+    ...
+
+@middle.setter
+def middle(self, value: str):
     ...
 
 ```

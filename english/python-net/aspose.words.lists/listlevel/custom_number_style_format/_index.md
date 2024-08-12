@@ -43,6 +43,22 @@ self.assertEqual('001.', paras[1].list_label.label_string)
 self.assertEqual('002.', paras[2].list_label.label_string)
 ```
 
+Shows how to set customer number style format.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'List with leading zero.docx')
+doc.update_list_labels()
+paras = doc.first_section.body.paragraphs
+self.assertEqual('001.', paras[0].list_label.label_string)
+self.assertEqual('0001.', paras[1].list_label.label_string)
+self.assertEqual('0002.', paras[2].list_label.label_string)
+paras[1].list_format.list_level.custom_number_style_format = '001, 002, 003, ...'
+doc.update_list_labels()
+self.assertEqual('001.', paras[0].list_label.label_string)
+self.assertEqual('001.', paras[1].list_label.label_string)
+self.assertEqual('002.', paras[2].list_label.label_string)
+```
+
 ### See Also
 
 * module [aspose.words.lists](../../)

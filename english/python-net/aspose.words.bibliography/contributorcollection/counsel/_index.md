@@ -3,7 +3,7 @@ title: ContributorCollection.counsel property
 linktitle: counsel property
 articleTitle: counsel property
 second_title: Aspose.Words for Python
-description: "ContributorCollection.counsel property. Gets the counsel of a source."
+description: "ContributorCollection.counsel property. Gets or sets the counsel of a source."
 type: docs
 weight: 70
 url: /python-net/aspose.words.bibliography/contributorcollection/counsel/
@@ -11,12 +11,16 @@ url: /python-net/aspose.words.bibliography/contributorcollection/counsel/
 
 ## ContributorCollection.counsel property
 
-Gets the counsel of a source.
+Gets or sets the counsel of a source.
 
 
 ```python
 @property
 def counsel(self) -> aspose.words.bibliography.Contributor:
+    ...
+
+@counsel.setter
+def counsel(self, value: aspose.words.bibliography.Contributor):
     ...
 
 ```

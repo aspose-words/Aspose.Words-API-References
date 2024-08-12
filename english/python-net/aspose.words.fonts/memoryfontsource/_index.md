@@ -5,7 +5,7 @@ articleTitle: MemoryFontSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.MemoryFontSource class. Represents the single TrueType font file stored in memory"
 type: docs
-weight: 190
+weight: 210
 url: /python-net/aspose.words.fonts/memoryfontsource/
 ---
 
