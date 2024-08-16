@@ -4,7 +4,7 @@ linktitle: FieldRD
 second_title: Aspose.Words for Java
 description: Implements the RD field in Java.
 type: docs
-weight: 262
+weight: 263
 url: /java/com.aspose.words/fieldrd/
 ---
 

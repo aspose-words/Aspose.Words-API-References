@@ -4,7 +4,7 @@ linktitle: IStructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in Java.
 type: docs
-weight: 722
+weight: 725
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```
@@ -54,7 +54,6 @@ Shows how to remove structured document tag, but keeps content inside.
 | [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 | [isMultiSection()](#isMultiSection) | Returns true if this instance is a ranged (multi-section) structured document tag. |
-| [isRanged()](#isRanged) | Returns true if this instance is a ranged structured document tag. |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [removeSelfOnly()](#removeSelfOnly) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
@@ -65,7 +64,6 @@ Shows how to remove structured document tag, but keeps content inside.
 | [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
 | [setTag(String value)](#setTag-java.lang.String) | Specifies a tag associated with the current SDT node. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Specifies the friendly name associated with this **SDT**. |
-| [structuredDocumentTagNode()](#structuredDocumentTagNode) | Returns Node object that implements this interface. |
 ### getAppearance() {#getAppearance}
 ```
 public abstract int getAppearance()
@@ -635,16 +633,6 @@ Shows how to get structured document tag.
 
 **Returns:**
 boolean - True if this instance is a ranged (multi-section) structured document tag.
-### isRanged() {#isRanged}
-```
-public abstract boolean isRanged()
-```
-
-
-Returns true if this instance is a ranged structured document tag.
-
-**Returns:**
-boolean
 ### isShowingPlaceholderText() {#isShowingPlaceholderText}
 ```
 public abstract boolean isShowingPlaceholderText()
@@ -1068,13 +1056,3 @@ Shows how to get structured document tag.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### structuredDocumentTagNode() {#structuredDocumentTagNode}
-```
-public abstract Node structuredDocumentTagNode()
-```
-
-
-Returns Node object that implements this interface.
-
-**Returns:**
-[Node](../../com.aspose.words/node/)

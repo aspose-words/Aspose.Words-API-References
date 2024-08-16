@@ -4,7 +4,7 @@ linktitle: NodeChangingArgs
 second_title: Aspose.Words for Java
 description: Provides data for methods of the INodeChangingCallback interface in Java.
 type: docs
-weight: 443
+weight: 446
 url: /java/com.aspose.words/nodechangingargs/
 ---
 

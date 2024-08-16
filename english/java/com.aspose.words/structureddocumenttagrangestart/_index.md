@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 587
+weight: 590
 url: /java/com.aspose.words/structureddocumenttagrangestart/
 ---
 
@@ -102,7 +102,6 @@ Shows how to get the properties of multi-section structured document tags.
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
 | [isMultiSection()](#isMultiSection) |  |
-| [isRanged()](#isRanged) |  |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean) | Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). |
 | [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
@@ -120,7 +119,6 @@ Shows how to get the properties of multi-section structured document tags.
 | [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
 | [setTag(String value)](#setTag-java.lang.String) | Specifies a tag associated with the current structured document tag node. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Specifies the friendly name associated with this structured document tag. |
-| [structuredDocumentTagNode()](#structuredDocumentTagNode) |  |
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
@@ -1327,7 +1325,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (181117,6)
+Returns  true  if this node can contain other nodes. (181548,6)
 
  **Examples:** 
 
@@ -1395,16 +1393,6 @@ Shows how to get structured document tag.
  System.out.println(sdt.getId());
  
 ```
-
-**Returns:**
-boolean
-### isRanged() {#isRanged}
-```
-public boolean isRanged()
-```
-
-
-Returns true if this instance is a ranged structured document tag.
 
 **Returns:**
 boolean
@@ -1758,7 +1746,7 @@ Shows how to create/remove structured document tag and its content.
      rangeStart.removeAllChildren();
 
      paragraphNode = rangeStart.getLastChild();
-     Assert.assertEquals(null,  paragraphNode);
+     Assert.assertEquals("",  paragraphNode.getText());
  }
 ```
 
@@ -1808,7 +1796,7 @@ Shows how to create/remove structured document tag and its content.
      rangeStart.removeAllChildren();
 
      paragraphNode = rangeStart.getLastChild();
-     Assert.assertEquals(null,  paragraphNode);
+     Assert.assertEquals("",  paragraphNode.getText());
  }
 ```
 
@@ -2145,16 +2133,6 @@ Shows how to get the properties of multi-section structured document tags.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### structuredDocumentTagNode() {#structuredDocumentTagNode}
-```
-public Node structuredDocumentTagNode()
-```
-
-
-Returns Node object that implements this interface.
-
-**Returns:**
-[Node](../../com.aspose.words/node/)
 ### toString() {#toString}
 ```
 public String toString()

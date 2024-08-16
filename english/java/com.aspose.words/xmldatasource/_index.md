@@ -4,7 +4,7 @@ linktitle: XmlDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of an XML file or stream to be used within a report in Java.
 type: docs
-weight: 686
+weight: 689
 url: /java/com.aspose.words/xmldatasource/
 ---
 
@@ -44,7 +44,7 @@ Show how to use XML as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination (Java).docx");
 
  XmlDataSource dataSource = new XmlDataSource(getMyDir() + "List of people.xml");
  buildReport(doc, dataSource, "persons");
@@ -57,7 +57,7 @@ Show how to use XML as a data source (stream).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination (Java).docx");
 
  InputStream stream = new FileInputStream(getMyDir() + "List of people.xml");
  try {
@@ -99,7 +99,7 @@ Show how to use XML as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - XML data destination (Java).docx");
 
  XmlDataSource dataSource = new XmlDataSource(getMyDir() + "List of people.xml");
  buildReport(doc, dataSource, "persons");

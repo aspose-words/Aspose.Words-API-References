@@ -4,7 +4,7 @@ linktitle: Section
 second_title: Aspose.Words for Java
 description: Represents a single section in a document in Java.
 type: docs
-weight: 557
+weight: 560
 url: /java/com.aspose.words/section/
 ---
 
@@ -98,6 +98,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [appendContent(Section sourceSection)](#appendContent-com.aspose.words.Section) | Inserts a copy of content of the source section at the end of this section. |
 | [clearContent()](#clearContent) | Clears the section. |
 | [clearHeadersFooters()](#clearHeadersFooters) | Clears the headers and footers of this section. |
+| [clearHeadersFooters(boolean preserveWatermarks)](#clearHeadersFooters-boolean) | Clears the headers and footers of this section. |
 | [clearSectionAttrs()](#clearSectionAttrs) |  |
 | [dd()](#dd) |  |
 | [deepClone()](#deepClone) | Creates a duplicate of this section. |
@@ -933,6 +934,63 @@ Shows how to clear the contents of all headers and footers in a section.
  Assert.assertEquals("", doc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY).getText().trim());
  
 ```
+
+### clearHeadersFooters(boolean preserveWatermarks) {#clearHeadersFooters-boolean}
+```
+public void clearHeadersFooters(boolean preserveWatermarks)
+```
+
+
+Clears the headers and footers of this section.
+
+ **Remarks:** 
+
+The text of all headers and footers is cleared, but [HeaderFooter](../../com.aspose.words/headerfooter/) objects themselves are not removed.
+
+This makes headers and footers of this section linked to headers and footers of the previous section.
+
+ **Examples:** 
+
+Shows how to clear the contents of header and footer with or without a watermark.
+
+```
+
+ Document doc = new Document(getMyDir() + "Header and footer types.docx");
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // Make sure the headers and footers have content.
+ HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
+ Assert.assertEquals("First header", headersFooters.getByHeaderFooterType(HeaderFooterType.HEADER_FIRST).getText().trim());
+ Assert.assertEquals("Second header", headersFooters.getByHeaderFooterType(HeaderFooterType.HEADER_EVEN).getText().trim());
+ Assert.assertEquals("Third header", headersFooters.getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getText().trim());
+ Assert.assertEquals("First footer", headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_FIRST).getText().trim());
+ Assert.assertEquals("Second footer", headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_EVEN).getText().trim());
+ Assert.assertEquals("Third footer", headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY).getText().trim());
+
+ // Removes all header and footer content except watermarks.
+ doc.getFirstSection().clearHeadersFooters(true);
+
+ headersFooters = doc.getFirstSection().getHeadersFooters();
+ Assert.assertEquals("", headersFooters.getByHeaderFooterType(HeaderFooterType.HEADER_FIRST).getText().trim());
+ Assert.assertEquals("", headersFooters.getByHeaderFooterType(HeaderFooterType.HEADER_EVEN).getText().trim());
+ Assert.assertEquals("", headersFooters.getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY).getText().trim());
+ Assert.assertEquals("", headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_FIRST).getText().trim());
+ Assert.assertEquals("", headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_EVEN).getText().trim());
+ Assert.assertEquals("", headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY).getText().trim());
+ Assert.assertEquals(WatermarkType.TEXT, doc.getWatermark().getType());
+
+ // Removes all header and footer content including watermarks.
+ doc.getFirstSection().clearHeadersFooters(false);
+ Assert.assertEquals(WatermarkType.NONE, doc.getWatermark().getType());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| preserveWatermarks | boolean | True if the watermarks shall not be removed. |
 
 ### clearSectionAttrs() {#clearSectionAttrs}
 ```

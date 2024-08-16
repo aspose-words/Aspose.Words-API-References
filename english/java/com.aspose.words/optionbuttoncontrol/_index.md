@@ -4,7 +4,7 @@ linktitle: OptionButtonControl
 second_title: Aspose.Words for Java
 description: The OptionButton control enables a single choice in a limited set of mutually exclusive choices in Java.
 type: docs
-weight: 469
+weight: 472
 url: /java/com.aspose.words/optionbuttoncontrol/
 ---
 

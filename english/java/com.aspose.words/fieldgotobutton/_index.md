@@ -4,7 +4,7 @@ linktitle: FieldGoToButton
 second_title: Aspose.Words for Java
 description: Implements the GOTOBUTTON field in Java.
 type: docs
-weight: 225
+weight: 226
 url: /java/com.aspose.words/fieldgotobutton/
 ---
 

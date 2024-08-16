@@ -4,7 +4,7 @@ linktitle: TextColumnCollection
 second_title: Aspose.Words for Java
 description: A collection of TextColumn objects that represent all the columns of text in a section of a document in Java.
 type: docs
-weight: 615
+weight: 618
 url: /java/com.aspose.words/textcolumncollection/
 ---
 
@@ -90,7 +90,7 @@ Shows how to create unevenly spaced columns.
  // Determine the amount of room that we have available for arranging columns.
  double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
 
- Assert.assertEquals(470.30d, contentWidth, 0.01d);
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
 
  // Set the first column to be narrow.
  TextColumn column = columns.get(0);
@@ -172,7 +172,7 @@ Shows how to create unevenly spaced columns.
  // Determine the amount of room that we have available for arranging columns.
  double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
 
- Assert.assertEquals(470.30d, contentWidth, 0.01d);
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
 
  // Set the first column to be narrow.
  TextColumn column = columns.get(0);
@@ -362,7 +362,7 @@ Shows how to create unevenly spaced columns.
  // Determine the amount of room that we have available for arranging columns.
  double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
 
- Assert.assertEquals(470.30d, contentWidth, 0.01d);
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
 
  // Set the first column to be narrow.
  TextColumn column = columns.get(0);

@@ -28,7 +28,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertEquals(12, bibliography.getSources().size());
 
  Collection sources = bibliography.getSources();
- Source source = sources.iterator().next();
+ Source source = (Source)bibliography.getSources().toArray()[8];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -115,6 +115,7 @@ Shows how to get bibliography sources available in the document.
 | --- | --- |
 | [getBibliographyStyle()](#getBibliographyStyle) | Gets a string that represents the name of the active style to use for a bibliography. |
 | [getSources()](#getSources) | Gets a collection that represents all the sources contained in a bibliography. |
+| [setBibliographyStyle(String value)](#setBibliographyStyle-java.lang.String) | Sets a string that represents the name of the active style to use for a bibliography. |
 ### getBibliographyStyle() {#getBibliographyStyle}
 ```
 public String getBibliographyStyle()
@@ -127,7 +128,7 @@ Gets a string that represents the name of the active style to use for a bibliogr
 java.lang.String - A string that represents the name of the active style to use for a bibliography.
 ### getSources() {#getSources}
 ```
-public Collection getSources()
+public ArrayList getSources()
 ```
 
 
@@ -145,7 +146,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertEquals(12, bibliography.getSources().size());
 
  Collection sources = bibliography.getSources();
- Source source = sources.iterator().next();
+ Source source = (Source)bibliography.getSources().toArray()[8];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -228,4 +229,17 @@ Shows how to get bibliography sources available in the document.
 ```
 
 **Returns:**
-java.util.Collection - A collection that represents all the sources contained in a bibliography.
+java.util.ArrayList - A collection that represents all the sources contained in a bibliography.
+### setBibliographyStyle(String value) {#setBibliographyStyle-java.lang.String}
+```
+public void setBibliographyStyle(String value)
+```
+
+
+Sets a string that represents the name of the active style to use for a bibliography.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A string that represents the name of the active style to use for a bibliography. |
+

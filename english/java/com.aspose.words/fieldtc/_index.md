@@ -4,7 +4,7 @@ linktitle: FieldTC
 second_title: Aspose.Words for Java
 description: Implements the TC field in Java.
 type: docs
-weight: 278
+weight: 279
 url: /java/com.aspose.words/fieldtc/
 ---
 
@@ -101,6 +101,7 @@ Shows how to insert a TOC field, and filter which TC fields end up as entries.
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isInFieldCode()](#isInFieldCode) |  |
+| [isLinkedStyleTocEntry()](#isLinkedStyleTocEntry) |  |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
 | [remove()](#remove) | Removes the field from the document. |
@@ -1160,6 +1161,16 @@ Shows how to use special property for updating field result.
 ### isInFieldCode() {#isInFieldCode}
 ```
 public boolean isInFieldCode()
+```
+
+
+
+
+**Returns:**
+boolean
+### isLinkedStyleTocEntry() {#isLinkedStyleTocEntry}
+```
+public boolean isLinkedStyleTocEntry()
 ```
 
 

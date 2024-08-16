@@ -4,7 +4,7 @@ linktitle: PhysicalFontInfo
 second_title: Aspose.Words for Java
 description: Specifies information about physical font available to Aspose.Words font engine in Java.
 type: docs
-weight: 509
+weight: 512
 url: /java/com.aspose.words/physicalfontinfo/
 ---
 
@@ -42,10 +42,44 @@ Shows how to list available fonts.
 
 | Method | Description |
 | --- | --- |
+| [getEmbeddingLicensingRights()](#getEmbeddingLicensingRights) | Embedding licensing rights for the font. |
 | [getFilePath()](#getFilePath) | Path to the font file if any. |
 | [getFontFamilyName()](#getFontFamilyName) | Family name of the font. |
 | [getFullFontName()](#getFullFontName) | Full name of the font. |
 | [getVersion()](#getVersion) | Version string of the font. |
+### getEmbeddingLicensingRights() {#getEmbeddingLicensingRights}
+```
+public FontEmbeddingLicensingRights getEmbeddingLicensingRights()
+```
+
+
+Embedding licensing rights for the font.
+
+ **Examples:** 
+
+Shows how to get license rights information for embedded fonts (PhysicalFontInfo).
+
+```
+
+ FontSettings settings = FontSettings.getDefaultInstance();
+ FontSourceBase source = settings.getFontsSources()[0];
+
+ // Get the list of available fonts.
+ ArrayList fontInfos = source.getAvailableFonts();
+ for (PhysicalFontInfo fontInfo : fontInfos)
+ {
+     if (fontInfo.getEmbeddingLicensingRights() != null)
+     {
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getEmbeddingUsagePermissions());
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getBitmapEmbeddingOnly());
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getNoSubsetting());
+     }
+ }
+ 
+```
+
+**Returns:**
+[FontEmbeddingLicensingRights](../../com.aspose.words/fontembeddinglicensingrights/) - The corresponding [FontEmbeddingLicensingRights](../../com.aspose.words/fontembeddinglicensingrights/) value.
 ### getFilePath() {#getFilePath}
 ```
 public String getFilePath()

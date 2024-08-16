@@ -4,7 +4,7 @@ linktitle: JsonDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of a JSON file or stream to be used within a report in Java.
 type: docs
-weight: 384
+weight: 387
 url: /java/com.aspose.words/jsondatasource/
 ---
 
@@ -42,7 +42,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -106,7 +106,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {

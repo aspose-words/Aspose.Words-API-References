@@ -4,7 +4,7 @@ linktitle: OdtSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.ODT or SaveFormat.OTT format in Java.
 type: docs
-weight: 459
+weight: 462
 url: /java/com.aspose.words/odtsaveoptions/
 ---
 

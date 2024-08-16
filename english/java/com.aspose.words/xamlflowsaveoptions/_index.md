@@ -4,7 +4,7 @@ linktitle: XamlFlowSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XAML_FLOW or SaveFormat.XAML_FLOW_PACK format in Java.
 type: docs
-weight: 681
+weight: 684
 url: /java/com.aspose.words/xamlflowsaveoptions/
 ---
 
@@ -115,6 +115,7 @@ Shows how to print the filenames of linked images created while converting a doc
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
+| [getReplaceBackslashWithYenSign()](#getReplaceBackslashWithYenSign) | Specifies whether backslash characters should be replaced with yen signs. |
 | [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
@@ -136,6 +137,7 @@ Shows how to print the filenames of linked images created while converting a doc
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
+| [setReplaceBackslashWithYenSign(boolean value)](#setReplaceBackslashWithYenSign-boolean) | Specifies whether backslash characters should be replaced with yen signs. |
 | [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
@@ -1162,6 +1164,38 @@ Shows how to manage a document while saving to docx.
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
+### getReplaceBackslashWithYenSign() {#getReplaceBackslashWithYenSign}
+```
+public boolean getReplaceBackslashWithYenSign()
+```
+
+
+Specifies whether backslash characters should be replaced with yen signs. Default value is  false .
+
+ **Remarks:** 
+
+By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in generated XAML documents. However, previous versions of Aspose.Words performed such replacements in certain scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+
+ **Examples:** 
+
+Shows how to replace backslash characters with yen signs (Xaml).
+
+```
+
+ Document doc = new Document(getMyDir() + "Korean backslash symbol.docx");
+
+ // By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in
+ // generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain
+ // scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+ XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions();
+ saveOptions.setReplaceBackslashWithYenSign(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ReplaceBackslashWithYenSign.xaml", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSaveFormat() {#getSaveFormat}
 ```
 public int getSaveFormat()
@@ -2388,6 +2422,41 @@ Shows how to manage a document while saving to docx.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value. |
+
+### setReplaceBackslashWithYenSign(boolean value) {#setReplaceBackslashWithYenSign-boolean}
+```
+public void setReplaceBackslashWithYenSign(boolean value)
+```
+
+
+Specifies whether backslash characters should be replaced with yen signs. Default value is  false .
+
+ **Remarks:** 
+
+By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in generated XAML documents. However, previous versions of Aspose.Words performed such replacements in certain scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+
+ **Examples:** 
+
+Shows how to replace backslash characters with yen signs (Xaml).
+
+```
+
+ Document doc = new Document(getMyDir() + "Korean backslash symbol.docx");
+
+ // By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in
+ // generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain
+ // scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+ XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions();
+ saveOptions.setReplaceBackslashWithYenSign(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ReplaceBackslashWithYenSign.xaml", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSaveFormat(int value) {#setSaveFormat-int}
 ```

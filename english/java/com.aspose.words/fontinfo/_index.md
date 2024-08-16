@@ -4,7 +4,7 @@ linktitle: FontInfo
 second_title: Aspose.Words for Java
 description: Specifies information about a font used in the document in Java.
 type: docs
-weight: 309
+weight: 312
 url: /java/com.aspose.words/fontinfo/
 ---
 
@@ -52,6 +52,7 @@ Shows how to print the details of what fonts are present in a document.
 | [getCharset()](#getCharset) | Gets the character set for the font. |
 | [getEmbeddedFont(int format, int style)](#getEmbeddedFont-int-int) |  |
 | [getEmbeddedFontAsOpenType(int style)](#getEmbeddedFontAsOpenType-int) |  |
+| [getEmbeddingLicensingRights()](#getEmbeddingLicensingRights) | Gets the embedded font licensing rights. |
 | [getFamily()](#getFamily) | Gets the font family this font belongs to. |
 | [getName()](#getName) | Gets the name of the font. |
 | [getPanose()](#getPanose) | Gets the PANOSE typeface classification number. |
@@ -190,6 +191,42 @@ public byte[] getEmbeddedFontAsOpenType(int style)
 
 **Returns:**
 byte[]
+### getEmbeddingLicensingRights() {#getEmbeddingLicensingRights}
+```
+public FontEmbeddingLicensingRights getEmbeddingLicensingRights()
+```
+
+
+Gets the embedded font licensing rights.
+
+ **Remarks:** 
+
+The value may be null if font is not embedded.
+
+ **Examples:** 
+
+Shows how to get license rights information for embedded fonts (FontInfo).
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font rights.docx");
+
+ // Get the list of document fonts.
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ for (FontInfo fontInfo : fontInfos)
+ {
+     if (fontInfo.getEmbeddingLicensingRights() != null)
+     {
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getEmbeddingUsagePermissions());
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getBitmapEmbeddingOnly());
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getNoSubsetting());
+     }
+ }
+ 
+```
+
+**Returns:**
+[FontEmbeddingLicensingRights](../../com.aspose.words/fontembeddinglicensingrights/) - The embedded font licensing rights.
 ### getFamily() {#getFamily}
 ```
 public int getFamily()

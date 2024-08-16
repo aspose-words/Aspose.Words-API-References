@@ -4,7 +4,7 @@ linktitle: JsonDataLoadOptions
 second_title: Aspose.Words for Java
 description: Represents options for parsing JSON data in Java.
 type: docs
-weight: 383
+weight: 386
 url: /java/com.aspose.words/jsondataloadoptions/
 ---
 
@@ -28,7 +28,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -75,7 +75,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -107,7 +107,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -145,7 +145,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -179,7 +179,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -209,7 +209,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -243,7 +243,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -284,7 +284,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -321,7 +321,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {
@@ -354,7 +354,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {

@@ -4,7 +4,7 @@ linktitle: JsonSimpleValueParseMode
 second_title: Aspose.Words for Java
 description: Specifies a mode for parsing JSON simple values null boolean number integer and string while loading JSON in Java.
 type: docs
-weight: 385
+weight: 388
 url: /java/com.aspose.words/jsonsimplevalueparsemode/
 ---
 
@@ -22,7 +22,7 @@ Shows how to use JSON as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
 
  JsonDataLoadOptions options = new JsonDataLoadOptions();
  {

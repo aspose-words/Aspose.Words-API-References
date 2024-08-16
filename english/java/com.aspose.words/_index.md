@@ -143,6 +143,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ContributorCollection](../com.aspose.words/contributorcollection/) | Represents bibliography source contributors. |
 | [ControlChar](../com.aspose.words/controlchar/) | Control characters often encountered in documents. |
 | [ConvertUtil](../com.aspose.words/convertutil/) | Provides helper functions to convert between various measurement units. |
+| [Converter](../com.aspose.words/converter/) | Represents a group of methods intended to convert a variety of different types of documents using a single line of code. |
 | [Corporate](../com.aspose.words/corporate/) | Represents a corporate (an organization) bibliography source contributor. |
 | [CssSavingArgs](../com.aspose.words/csssavingargs/) | Provides data for the [ICssSavingCallback.\#cssSaving(com.aspose.words.CssSavingArgs)](../com.aspose.words/icsssavingcallback/\#cssSaving-com.aspose.words.CssSavingArgs) event. |
 | [CssStyleSheetType](../com.aspose.words/cssstylesheettype/) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
@@ -327,6 +328,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FolderFontSource](../com.aspose.words/folderfontsource/) | Represents the folder that contains TrueType font files. |
 | [Font](../com.aspose.words/font/) | Contains font attributes (font name, font size, color, and so on) for an object. |
 | [FontConfigSubstitutionRule](../com.aspose.words/fontconfigsubstitutionrule/) | Font config substitution rule. |
+| [FontEmbeddingLicensingRights](../com.aspose.words/fontembeddinglicensingrights/) | Represents embedding licensing rights for the font. |
+| [FontEmbeddingUsagePermissions](../com.aspose.words/fontembeddingusagepermissions/) | Represents the font embedding usage permissions. |
 | [FontFallbackSettings](../com.aspose.words/fontfallbacksettings/) | Specifies font fallback mechanism settings. |
 | [FontFamily](../com.aspose.words/fontfamily/) | Represents the font family. |
 | [FontFeature](../com.aspose.words/fontfeature/) | Features provide information about how glyphs are used in a font to render a script. |
@@ -338,7 +341,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FontSavingArgs](../com.aspose.words/fontsavingargs/) | Provides data for the [IFontSavingCallback.\#fontSaving(com.aspose.words.FontSavingArgs)](../com.aspose.words/ifontsavingcallback/\#fontSaving-com.aspose.words.FontSavingArgs) event. |
 | [FontSettings](../com.aspose.words/fontsettings/) | Specifies font settings for a document. |
 | [FontSourceBase](../com.aspose.words/fontsourcebase/) | This is an abstract base class for the classes that allow the user to specify various font sources. |
-| [FontSourceType](../com.aspose.words/fontsourcetype/) | Specifies the type of a font source. |
+| [FontSourceType](../com.aspose.words/fontsourcetype/) | Specifies the type of font source. |
 | [FontSubstitutionRule](../com.aspose.words/fontsubstitutionrule/) | This is an abstract base class for the font substitution rule. |
 | [FontSubstitutionSettings](../com.aspose.words/fontsubstitutionsettings/) | Specifies font substitution mechanism settings. |
 | [Footnote](../com.aspose.words/footnote/) | Represents a container for text of a footnote or endnote. |

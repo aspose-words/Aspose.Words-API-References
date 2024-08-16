@@ -4,7 +4,7 @@ linktitle: PropertyType
 second_title: Aspose.Words for Java
 description: Specifies data type of a document property in Java.
 type: docs
-weight: 514
+weight: 517
 url: /java/com.aspose.words/propertytype/
 ---
 

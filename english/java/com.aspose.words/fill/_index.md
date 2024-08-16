@@ -4,7 +4,7 @@ linktitle: Fill
 second_title: Aspose.Words for Java
 description: Represents fill formatting for an object in Java.
 type: docs
-weight: 296
+weight: 297
 url: /java/com.aspose.words/fill/
 ---
 
