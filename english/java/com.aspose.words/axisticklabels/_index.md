@@ -79,14 +79,18 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getAlignment()](#getAlignment) | Gets text alignment of the axis tick labels. |
 | [getFont()](#getFont) | Provides access to font formatting of the tick labels. |
 | [getOffset()](#getOffset) | Gets the distance of the tick labels from the axis. |
+| [getOrientation()](#getOrientation) | Gets the orientation of the tick label text. |
 | [getPosition()](#getPosition) | Gets the position of the tick labels on the axis. |
 | [getRelativePropertyValue(int key, Object value)](#getRelativePropertyValue-int-java.lang.Object) |  |
+| [getRotation()](#getRotation) | Gets the rotation of the tick labels in degrees. |
 | [getSpacing()](#getSpacing) | Gets the interval at which the tick labels are drawn. |
 | [isAutoSpacing()](#isAutoSpacing) | Gets a flag indicating whether to use automatic interval for drawing the tick labels. |
 | [isAutoSpacing(boolean value)](#isAutoSpacing-boolean) | Sets a flag indicating whether to use automatic interval for drawing the tick labels. |
 | [setAlignment(int value)](#setAlignment-int) | Sets text alignment of the axis tick labels. |
 | [setOffset(int value)](#setOffset-int) | Sets the distance of the tick labels from the axis. |
+| [setOrientation(int value)](#setOrientation-int) | Sets the orientation of the tick label text. |
 | [setPosition(int value)](#setPosition-int) | Sets the position of the tick labels on the axis. |
+| [setRotation(int value)](#setRotation-int) | Sets the rotation of the tick labels in degrees. |
 | [setSpacing(int value)](#setSpacing-int) | Sets the interval at which the tick labels are drawn. |
 ### fetchSpecialDefaultRunPropertyValue(int key) {#fetchSpecialDefaultRunPropertyValue-int}
 ```
@@ -324,6 +328,46 @@ Shows how to insert a chart and modify the appearance of its axes.
 
 **Returns:**
 int - The distance of the tick labels from the axis.
+### getOrientation() {#getOrientation}
+```
+public int getOrientation()
+```
+
+
+Gets the orientation of the tick label text.
+
+ **Remarks:** 
+
+The default value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
+
+Note that some [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) values do not affect the orientation of tick label text in value axes.
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for axis tick labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a column chart.
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ AxisTickLabels xTickLabels = shape.getChart().getAxisX().getTickLabels();
+ AxisTickLabels yTickLabels = shape.getChart().getAxisY().getTickLabels();
+
+ // Set axis tick label orientation and rotation.
+ xTickLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ xTickLabels.setRotation(-30);
+ yTickLabels.setOrientation(ShapeTextOrientation.HORIZONTAL);
+ yTickLabels.setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.TickLabelsOrientationRotation.docx");
+ 
+```
+
+**Returns:**
+int - The orientation of the tick label text. The returned value is one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants.
 ### getPosition() {#getPosition}
 ```
 public int getPosition()
@@ -409,6 +453,44 @@ public Object getRelativePropertyValue(int key, Object value)
 
 **Returns:**
 java.lang.Object
+### getRotation() {#getRotation}
+```
+public int getRotation()
+```
+
+
+Gets the rotation of the tick labels in degrees.
+
+ **Remarks:** 
+
+The range of acceptable values is from -180 to 180 inclusive. The default value is 0.
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for axis tick labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a column chart.
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ AxisTickLabels xTickLabels = shape.getChart().getAxisX().getTickLabels();
+ AxisTickLabels yTickLabels = shape.getChart().getAxisY().getTickLabels();
+
+ // Set axis tick label orientation and rotation.
+ xTickLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ xTickLabels.setRotation(-30);
+ yTickLabels.setOrientation(ShapeTextOrientation.HORIZONTAL);
+ yTickLabels.setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.TickLabelsOrientationRotation.docx");
+ 
+```
+
+**Returns:**
+int - The rotation of the tick labels in degrees.
 ### getSpacing() {#getSpacing}
 ```
 public int getSpacing()
@@ -777,6 +859,49 @@ Shows how to insert a chart and modify the appearance of its axes.
 | --- | --- | --- |
 | value | int | The distance of the tick labels from the axis. |
 
+### setOrientation(int value) {#setOrientation-int}
+```
+public void setOrientation(int value)
+```
+
+
+Sets the orientation of the tick label text.
+
+ **Remarks:** 
+
+The default value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
+
+Note that some [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) values do not affect the orientation of tick label text in value axes.
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for axis tick labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a column chart.
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ AxisTickLabels xTickLabels = shape.getChart().getAxisX().getTickLabels();
+ AxisTickLabels yTickLabels = shape.getChart().getAxisY().getTickLabels();
+
+ // Set axis tick label orientation and rotation.
+ xTickLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ xTickLabels.setRotation(-30);
+ yTickLabels.setOrientation(ShapeTextOrientation.HORIZONTAL);
+ yTickLabels.setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.TickLabelsOrientationRotation.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The orientation of the tick label text. The value must be one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants. |
+
 ### setPosition(int value) {#setPosition-int}
 ```
 public void setPosition(int value)
@@ -848,6 +973,47 @@ Shows how to insert a chart and modify the appearance of its axes.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The position of the tick labels on the axis. The value must be one of [AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition/) constants. |
+
+### setRotation(int value) {#setRotation-int}
+```
+public void setRotation(int value)
+```
+
+
+Sets the rotation of the tick labels in degrees.
+
+ **Remarks:** 
+
+The range of acceptable values is from -180 to 180 inclusive. The default value is 0.
+
+ **Examples:** 
+
+Shows how to change orientation and rotation for axis tick labels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a column chart.
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ AxisTickLabels xTickLabels = shape.getChart().getAxisX().getTickLabels();
+ AxisTickLabels yTickLabels = shape.getChart().getAxisY().getTickLabels();
+
+ // Set axis tick label orientation and rotation.
+ xTickLabels.setOrientation(ShapeTextOrientation.VERTICAL_FAR_EAST);
+ xTickLabels.setRotation(-30);
+ yTickLabels.setOrientation(ShapeTextOrientation.HORIZONTAL);
+ yTickLabels.setRotation(45);
+
+ doc.save(getArtifactsDir() + "Charts.TickLabelsOrientationRotation.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The rotation of the tick labels in degrees. |
 
 ### setSpacing(int value) {#setSpacing-int}
 ```

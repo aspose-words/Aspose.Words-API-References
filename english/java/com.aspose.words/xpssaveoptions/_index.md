@@ -4,7 +4,7 @@ linktitle: XpsSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XPS format in Java.
 type: docs
-weight: 688
+weight: 691
 url: /java/com.aspose.words/xpssaveoptions/
 ---
 
@@ -78,6 +78,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getColorMode()](#getColorMode) | Gets a value determining how colors are rendered. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
+| [getDigitalSignatureDetails()](#getDigitalSignatureDetails) | Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
 | [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
@@ -105,6 +106,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
+| [setDigitalSignatureDetails(DigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails) | Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
@@ -377,6 +379,42 @@ Shows how to set a default template for documents that do not have attached temp
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
+### getDigitalSignatureDetails() {#getDigitalSignatureDetails}
+```
+public DigitalSignatureDetails getDigitalSignatureDetails()
+```
+
+
+Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
+
+ **Examples:** 
+
+Shows how to sign XPS document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setComments("My comment");
+     signOptions.setSignTime(new Date());
+ }
+ DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(certificateHolder, signOptions);
+
+ XpsSaveOptions saveOptions = new XpsSaveOptions();
+ saveOptions.setDigitalSignatureDetails(digitalSignatureDetails);
+
+ Assert.assertEquals(certificateHolder, digitalSignatureDetails.getCertificateHolder());
+ Assert.assertEquals("Some comments", digitalSignatureDetails.getSignOptions().getComments());
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.XpsDigitalSignature.docx", saveOptions);
+ 
+```
+
+**Returns:**
+[DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) - [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
 ### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode}
 ```
 public int getDml3DEffectsRenderingMode()
@@ -1791,6 +1829,45 @@ Shows how to set a default template for documents that do not have attached temp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Path to default template (including filename). |
+
+### setDigitalSignatureDetails(DigitalSignatureDetails value) {#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails}
+```
+public void setDigitalSignatureDetails(DigitalSignatureDetails value)
+```
+
+
+Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document.
+
+ **Examples:** 
+
+Shows how to sign XPS document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setComments("My comment");
+     signOptions.setSignTime(new Date());
+ }
+ DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(certificateHolder, signOptions);
+
+ XpsSaveOptions saveOptions = new XpsSaveOptions();
+ saveOptions.setDigitalSignatureDetails(digitalSignatureDetails);
+
+ Assert.assertEquals(certificateHolder, digitalSignatureDetails.getCertificateHolder());
+ Assert.assertEquals("Some comments", digitalSignatureDetails.getSignOptions().getComments());
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.XpsDigitalSignature.docx", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) | [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 
 ### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int}
 ```

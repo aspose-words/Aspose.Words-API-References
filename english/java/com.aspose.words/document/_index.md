@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 148
+weight: 149
 url: /java/com.aspose.words/document/
 ---
 
@@ -1967,7 +1967,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertEquals(12, bibliography.getSources().size());
 
  Collection sources = bibliography.getSources();
- Source source = sources.iterator().next();
+ Source source = (Source)bibliography.getSources().toArray()[8];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -3401,10 +3401,6 @@ Shows how to add a custom building block to a document.
      BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
      // Visit start/end of the BuildingBlock.
      block.accept(visitor);
-     // Visit only start of the BuildingBlock.
-     block.acceptStart(visitor);
-     // Visit only end of the BuildingBlock.
-     block.acceptEnd(visitor);
 
      // We can access the block that we just made from the glossary document.
      BuildingBlock customBlock = glossaryDoc.getBuildingBlock(BuildingBlockGallery.QUICK_PARTS,
@@ -7617,10 +7613,6 @@ Shows how to add a custom building block to a document.
      BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
      // Visit start/end of the BuildingBlock.
      block.accept(visitor);
-     // Visit only start of the BuildingBlock.
-     block.acceptStart(visitor);
-     // Visit only end of the BuildingBlock.
-     block.acceptEnd(visitor);
 
      // We can access the block that we just made from the glossary document.
      BuildingBlock customBlock = glossaryDoc.getBuildingBlock(BuildingBlockGallery.QUICK_PARTS,

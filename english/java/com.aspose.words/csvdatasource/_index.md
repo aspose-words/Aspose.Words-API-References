@@ -4,7 +4,7 @@ linktitle: CsvDataSource
 second_title: Aspose.Words for Java
 description: Provides access to data of a CSV file or stream to be used within a report in Java.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.words/csvdatasource/
 ---
 
@@ -42,7 +42,7 @@ Shows how to use CSV as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
 
  CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
  loadOptions.setDelimiter(';');
@@ -94,7 +94,7 @@ Shows how to use CSV as a data source (string).
 
 ```
 
- Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination.docx");
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
 
  CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
  loadOptions.setDelimiter(';');

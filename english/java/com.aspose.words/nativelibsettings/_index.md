@@ -4,7 +4,7 @@ linktitle: NativeLibSettings
 second_title: Aspose.Words for Java
 description: This class helps to set various options such as temporary folder for Aspose.Words native libraries and whether native libraries should be loaded and used in Java.
 type: docs
-weight: 440
+weight: 443
 url: /java/com.aspose.words/nativelibsettings/
 ---
 

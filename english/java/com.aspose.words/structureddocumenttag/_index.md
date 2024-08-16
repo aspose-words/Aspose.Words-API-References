@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Represents a structured document tag SDT or content control in a document in Java.
 type: docs
-weight: 584
+weight: 587
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 
@@ -141,7 +141,6 @@ Shows how to work with styles for content control elements.
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
 | [isComposite()](#isComposite) | Returns  true  as this node can have child nodes. |
 | [isMultiSection()](#isMultiSection) |  |
-| [isRanged()](#isRanged) |  |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [isTemporary()](#isTemporary) | Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified. |
@@ -180,7 +179,6 @@ Shows how to work with styles for content control elements.
 | [setTag(String value)](#setTag-java.lang.String) | Specifies a tag associated with the current SDT node. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Specifies the friendly name associated with this **SDT**. |
 | [setUncheckedSymbol(int characterCode, String fontName)](#setUncheckedSymbol-int-java.lang.String) | Sets the symbol used to represent the unchecked state of a check box content control. |
-| [structuredDocumentTagNode()](#structuredDocumentTagNode) |  |
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
@@ -3077,16 +3075,6 @@ Shows how to get structured document tag.
 
 **Returns:**
 boolean
-### isRanged() {#isRanged}
-```
-public boolean isRanged()
-```
-
-
-Returns true if this instance is a ranged structured document tag.
-
-**Returns:**
-boolean
 ### isShowingPlaceholderText() {#isShowingPlaceholderText}
 ```
 public boolean isShowingPlaceholderText()
@@ -5043,16 +5031,6 @@ Show how to create a structured document tag in the form of a check box.
 | characterCode | int | The character code for the specified symbol. |
 | fontName | java.lang.String | The name of the font that contains the symbol. |
 
-### structuredDocumentTagNode() {#structuredDocumentTagNode}
-```
-public Node structuredDocumentTagNode()
-```
-
-
-Returns Node object that implements this interface.
-
-**Returns:**
-[Node](../../com.aspose.words/node/)
 ### toString() {#toString}
 ```
 public String toString()

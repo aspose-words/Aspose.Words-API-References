@@ -4,7 +4,7 @@ linktitle: ImportFormatOptions
 second_title: Aspose.Words for Java
 description: Allows to specify various import options to format output in Java.
 type: docs
-weight: 377
+weight: 380
 url: /java/com.aspose.words/importformatoptions/
 ---
 
@@ -160,6 +160,10 @@ Shows how to specifies ignoring or not source formatting of headers/footers cont
  Document dstDoc = new Document(getMyDir() + "Document.docx");
  Document srcDoc = new Document(getMyDir() + "Header and footer types.docx");
 
+ // If 'IgnoreHeaderFooter' is false then the original formatting for header/footer content
+ // from "Header and footer types.docx" will be used.
+ // If 'IgnoreHeaderFooter' is true then the formatting for header/footer content
+ // from "Document.docx" will be used.
  ImportFormatOptions importFormatOptions = new ImportFormatOptions();
  importFormatOptions.setIgnoreHeaderFooter(false);
 
@@ -506,6 +510,10 @@ Shows how to specifies ignoring or not source formatting of headers/footers cont
  Document dstDoc = new Document(getMyDir() + "Document.docx");
  Document srcDoc = new Document(getMyDir() + "Header and footer types.docx");
 
+ // If 'IgnoreHeaderFooter' is false then the original formatting for header/footer content
+ // from "Header and footer types.docx" will be used.
+ // If 'IgnoreHeaderFooter' is true then the formatting for header/footer content
+ // from "Document.docx" will be used.
  ImportFormatOptions importFormatOptions = new ImportFormatOptions();
  importFormatOptions.setIgnoreHeaderFooter(false);
 

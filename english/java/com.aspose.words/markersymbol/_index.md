@@ -4,7 +4,7 @@ linktitle: MarkerSymbol
 second_title: Aspose.Words for Java
 description: Specifies marker symbol style in Java.
 type: docs
-weight: 424
+weight: 427
 url: /java/com.aspose.words/markersymbol/
 ---
 

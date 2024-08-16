@@ -28,7 +28,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertEquals(12, bibliography.getSources().size());
 
  Collection sources = bibliography.getSources();
- Source source = sources.iterator().next();
+ Source source = (Source)bibliography.getSources().toArray()[8];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());

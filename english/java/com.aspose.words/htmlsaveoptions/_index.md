@@ -4,7 +4,7 @@ linktitle: HtmlSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.HTML SaveFormat.MHTML SaveFormat.EPUB SaveFormat.AZW_3 or SaveFormat.MOBI format in Java.
 type: docs
-weight: 361
+weight: 364
 url: /java/com.aspose.words/htmlsaveoptions/
 ---
 
@@ -240,6 +240,7 @@ Shows how to split a document into parts and save them.
 | [getOfficeMathOutputMode()](#getOfficeMathOutputMode) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
+| [getReplaceBackslashWithYenSign()](#getReplaceBackslashWithYenSign) | Specifies whether backslash characters should be replaced with yen signs. |
 | [getResolveFontNames()](#getResolveFontNames) | Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) when being written into HTML-based formats. |
 | [getResourceFolder()](#getResourceFolder) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. |
 | [getResourceFolderAlias()](#getResourceFolderAlias) | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. |
@@ -302,6 +303,7 @@ Shows how to split a document into parts and save them.
 | [setOfficeMathOutputMode(int value)](#setOfficeMathOutputMode-int) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
+| [setReplaceBackslashWithYenSign(boolean value)](#setReplaceBackslashWithYenSign-boolean) | Specifies whether backslash characters should be replaced with yen signs. |
 | [setResolveFontNames(boolean value)](#setResolveFontNames-boolean) | Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) when being written into HTML-based formats. |
 | [setResourceFolder(String value)](#setResourceFolder-java.lang.String) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. |
 | [setResourceFolderAlias(String value)](#setResourceFolderAlias-java.lang.String) | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. |
@@ -3429,6 +3431,38 @@ Shows how to manage a document while saving to docx.
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
+### getReplaceBackslashWithYenSign() {#getReplaceBackslashWithYenSign}
+```
+public boolean getReplaceBackslashWithYenSign()
+```
+
+
+Specifies whether backslash characters should be replaced with yen signs. Default value is  false .
+
+ **Remarks:** 
+
+By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+
+ **Examples:** 
+
+Shows how to replace backslash characters with yen signs (Html).
+
+```
+
+ Document doc = new Document(getMyDir() + "Korean backslash symbol.docx");
+
+ // By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in
+ // generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain
+ // scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setReplaceBackslashWithYenSign(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ReplaceBackslashWithYenSign.html", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getResolveFontNames() {#getResolveFontNames}
 ```
 public boolean getResolveFontNames()
@@ -7072,6 +7106,41 @@ Shows how to manage a document while saving to docx.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value. |
+
+### setReplaceBackslashWithYenSign(boolean value) {#setReplaceBackslashWithYenSign-boolean}
+```
+public void setReplaceBackslashWithYenSign(boolean value)
+```
+
+
+Specifies whether backslash characters should be replaced with yen signs. Default value is  false .
+
+ **Remarks:** 
+
+By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+
+ **Examples:** 
+
+Shows how to replace backslash characters with yen signs (Html).
+
+```
+
+ Document doc = new Document(getMyDir() + "Korean backslash symbol.docx");
+
+ // By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in
+ // generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain
+ // scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setReplaceBackslashWithYenSign(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ReplaceBackslashWithYenSign.html", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setResolveFontNames(boolean value) {#setResolveFontNames-boolean}
 ```
