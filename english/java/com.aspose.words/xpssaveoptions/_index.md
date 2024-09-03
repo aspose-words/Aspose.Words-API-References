@@ -407,7 +407,7 @@ Shows how to sign XPS document.
  saveOptions.setDigitalSignatureDetails(digitalSignatureDetails);
 
  Assert.assertEquals(certificateHolder, digitalSignatureDetails.getCertificateHolder());
- Assert.assertEquals("Some comments", digitalSignatureDetails.getSignOptions().getComments());
+ Assert.assertEquals("My comment", digitalSignatureDetails.getSignOptions().getComments());
 
  doc.save(getArtifactsDir() + "XpsSaveOptions.XpsDigitalSignature.docx", saveOptions);
  
@@ -1858,7 +1858,7 @@ Shows how to sign XPS document.
  saveOptions.setDigitalSignatureDetails(digitalSignatureDetails);
 
  Assert.assertEquals(certificateHolder, digitalSignatureDetails.getCertificateHolder());
- Assert.assertEquals("Some comments", digitalSignatureDetails.getSignOptions().getComments());
+ Assert.assertEquals("My comment", digitalSignatureDetails.getSignOptions().getComments());
 
  doc.save(getArtifactsDir() + "XpsSaveOptions.XpsDigitalSignature.docx", saveOptions);
  

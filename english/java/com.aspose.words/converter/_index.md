@@ -161,7 +161,7 @@ Shows how to convert document to images stream.
 
 ```
 
- Stream[] streams = Converter.convertToImages(getMyDir() + "Big document.docx", SaveFormat.PNG);
+ InputStream[] streams = Converter.convertToImages(getMyDir() + "Big document.docx", SaveFormat.PNG);
 
  ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
  imageSaveOptions.setPageSet(new PageSet(1));
@@ -213,7 +213,7 @@ Shows how to convert document to images from stream.
 
  try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Big document.docx"))
  {
-     Stream[] streams = Converter.convertToImages(streamIn, SaveFormat.JPEG);
+     InputStream[] streams = Converter.convertToImages(streamIn, SaveFormat.JPEG);
 
      ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
      imageSaveOptions.setPageSet(new PageSet(1));
@@ -260,7 +260,7 @@ Shows how to convert document to images stream.
 
 ```
 
- Stream[] streams = Converter.convertToImages(getMyDir() + "Big document.docx", SaveFormat.PNG);
+ InputStream[] streams = Converter.convertToImages(getMyDir() + "Big document.docx", SaveFormat.PNG);
 
  ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
  imageSaveOptions.setPageSet(new PageSet(1));

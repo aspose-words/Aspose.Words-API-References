@@ -205,7 +205,7 @@ Initializes a new instance of the [Run](../../com.aspose.words/run/) class.
 
 When [Run](../../com.aspose.words/run/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Run](../../com.aspose.words/run/) to the document use **M:Aspose.Words.CompositeNode.InsertAfter1(0,Aspose.Words.Node)** or **M:Aspose.Words.CompositeNode.InsertBefore1(0,Aspose.Words.Node)** on the paragraph where you want the run inserted.
+To append [Run](../../com.aspose.words/run/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
 
  **Examples:** 
 
@@ -273,7 +273,7 @@ Initializes a new instance of the **Run** class.
 
 When [Run](../../com.aspose.words/run/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Run](../../com.aspose.words/run/) to the document use **M:Aspose.Words.CompositeNode.InsertAfter1(0,Aspose.Words.Node)** or **M:Aspose.Words.CompositeNode.InsertBefore1(0,Aspose.Words.Node)** on the paragraph where you want the run inserted.
+To append [Run](../../com.aspose.words/run/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
 
  **Examples:** 
 
@@ -1209,7 +1209,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (181548,6)
+Returns  true  if this node can contain other nodes. (181553,6)
 
  **Examples:** 
 

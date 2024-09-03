@@ -38,7 +38,7 @@ The [Document](../../com.aspose.words/document/) is a root node of a tree that c
 
  *  The nodes of the document can be accessed via typed collections, for example [getSections()](../../com.aspose.words/document/\#getSections), [ParagraphCollection](../../com.aspose.words/paragraphcollection/) etc.
  *  The nodes of the document can be selected by their node type using **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** or using an XPath query with [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode/\#selectNodes-java.lang.String) or [CompositeNode.selectSingleNode(java.lang.String)](../../com.aspose.words/compositenode/\#selectSingleNode-java.lang.String).
- *  Content nodes can be added or removed from anywhere in the document using **M:Aspose.Words.CompositeNode.InsertBefore1(0,Aspose.Words.Node)**, **M:Aspose.Words.CompositeNode.InsertAfter1(0,Aspose.Words.Node)**, **M:Aspose.Words.CompositeNode.RemoveChild1(0)** and other methods provided by the base class [CompositeNode](../../com.aspose.words/compositenode/).
+ *  Content nodes can be added or removed from anywhere in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node), [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node), [CompositeNode.removeChild(com.aspose.words.Node)](../../com.aspose.words/compositenode/\#removeChild-com.aspose.words.Node) and other methods provided by the base class [CompositeNode](../../com.aspose.words/compositenode/).
  *  The formatting attributes of each node can be changed via the properties of that node.
 
 Consider using [DocumentBuilder](../../com.aspose.words/documentbuilder/) that simplifies the task of programmatically creating or populating the document tree.
@@ -105,6 +105,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the document. |
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the document. |
 | [add(Shape watermark)](#add-com.aspose.words.Shape) |  |
+| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [appendDocument(Document srcDoc, int importFormatMode)](#appendDocument-com.aspose.words.Document-int) |  |
 | [appendDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#appendDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) |  |
 | [cleanup()](#cleanup) | Cleans unused styles and lists from the document. |
@@ -205,12 +206,15 @@ Shows how to execute a mail merge with data from a DataTable.
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean) | Imports a node from another document to the current document. |
 | [importNode(Node srcNode, boolean isImportChildren, int importFormatMode)](#importNode-com.aspose.words.Node-boolean-int) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately after the specified reference node. |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately before the specified reference node. |
 | [isComposite()](#isComposite) | Returns  true  as this node can have child nodes. |
 | [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
 | [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting) | Joins runs with same formatting in all paragraphs of the document. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
 | [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
+| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [print()](#print) | Prints the document without bringing up any user interface forms. |
 | [print(String printerName)](#print-java.lang.String) | Print the whole document to the specified printer, using the standard (no User Interface) print controller. |
@@ -221,6 +225,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [remove()](#remove) |  |
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
 | [removeBlankPages()](#removeBlankPages) | Removes blank pages from the document. |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
 | [removeExternalSchemaReferences()](#removeExternalSchemaReferences) | Removes external XML schema references from this document. |
 | [removeMacros()](#removeMacros) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
@@ -1040,6 +1045,76 @@ public void add(Shape watermark)
 | --- | --- | --- |
 | watermark | [Shape](../../com.aspose.words/shape/) |  |
 
+### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
+```
+public Node appendChild(Node newChild)
+```
+
+
+Adds the specified node to the end of the list of child nodes for this node.
+
+ **Remarks:** 
+
+If the  newChild  is already in the tree, it is first removed.
+
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+
+ **Examples:** 
+
+Shows how to construct an Aspose.Words document by hand.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### appendDocument(Document srcDoc, int importFormatMode) {#appendDocument-com.aspose.words.Document-int}
 ```
 public void appendDocument(Document srcDoc, int importFormatMode)
@@ -5876,7 +5951,7 @@ This method uses the [ImportFormatMode.USE\_DESTINATION\_STYLES](../../com.aspos
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using **M:Aspose.Words.CompositeNode.InsertBefore1(0,Aspose.Words.Node)** or **M:Aspose.Words.CompositeNode.InsertAfter1(0,Aspose.Words.Node)**.
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
@@ -5972,6 +6047,204 @@ Shows how to get the index of a given child node from its parent.
 
 **Returns:**
 int
+### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node}
+```
+public Node insertAfter(Node newChild, Node refChild)
+```
+
+
+Inserts the specified node immediately after the specified reference node.
+
+ **Remarks:** 
+
+If  refChild  is  null , inserts  newChild  at the beginning of the list of child nodes.
+
+If the  newChild  is already in the tree, it is first removed.
+
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+
+ **Examples:** 
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
+ 
+```
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```
+
+ Document doc = new Document();
+
+ // An empty document, by default, has one paragraph.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
+
+ // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ Run paragraphText = new Run(doc, "Initial text. ");
+ paragraph.appendChild(paragraphText);
+
+ // Create three more run nodes.
+ Run run1 = new Run(doc, "Run 1. ");
+ Run run2 = new Run(doc, "Run 2. ");
+ Run run3 = new Run(doc, "Run 3. ");
+
+ // The document body will not display these runs until we insert them into a composite node
+ // that itself is a part of the document's node tree, as we did with the first run.
+ // We can determine where the text contents of nodes that we insert
+ // appears in the document by specifying an insertion location relative to another node in the paragraph.
+ Assert.assertEquals("Initial text.", paragraph.getText().trim());
+
+ // Insert the second run into the paragraph in front of the initial run.
+ paragraph.insertBefore(run2, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
+
+ // Insert the third run after the initial run.
+ paragraph.insertAfter(run3, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
+
+ // Insert the first run to the start of the paragraph's child nodes collection.
+ paragraph.prependChild(run1);
+
+ Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+
+ // We can modify the contents of the run by editing and deleting existing child nodes.
+ ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
+ paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
+
+ Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
+### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
+```
+public Node insertBefore(Node newChild, Node refChild)
+```
+
+
+Inserts the specified node immediately before the specified reference node.
+
+ **Remarks:** 
+
+If  refChild  is  null , inserts  newChild  at the end of the list of child nodes.
+
+If the  newChild  is already in the tree, it is first removed.
+
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+
+ **Examples:** 
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```
+
+ Document doc = new Document();
+
+ // An empty document, by default, has one paragraph.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
+
+ // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ Run paragraphText = new Run(doc, "Initial text. ");
+ paragraph.appendChild(paragraphText);
+
+ // Create three more run nodes.
+ Run run1 = new Run(doc, "Run 1. ");
+ Run run2 = new Run(doc, "Run 2. ");
+ Run run3 = new Run(doc, "Run 3. ");
+
+ // The document body will not display these runs until we insert them into a composite node
+ // that itself is a part of the document's node tree, as we did with the first run.
+ // We can determine where the text contents of nodes that we insert
+ // appears in the document by specifying an insertion location relative to another node in the paragraph.
+ Assert.assertEquals("Initial text.", paragraph.getText().trim());
+
+ // Insert the second run into the paragraph in front of the initial run.
+ paragraph.insertBefore(run2, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
+
+ // Insert the third run after the initial run.
+ paragraph.insertAfter(run3, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
+
+ // Insert the first run to the start of the paragraph's child nodes collection.
+ paragraph.prependChild(run1);
+
+ Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+
+ // We can modify the contents of the run by editing and deleting existing child nodes.
+ ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
+ paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
+
+ Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -6218,6 +6491,79 @@ Shows how to get the keep a field's type up to date with its field code.
  
 ```
 
+### prependChild(Node newChild) {#prependChild-com.aspose.words.Node}
+```
+public Node prependChild(Node newChild)
+```
+
+
+Adds the specified node to the beginning of the list of child nodes for this node.
+
+ **Remarks:** 
+
+If the  newChild  is already in the tree, it is first removed.
+
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+
+ **Examples:** 
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```
+
+ Document doc = new Document();
+
+ // An empty document, by default, has one paragraph.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
+
+ // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ Run paragraphText = new Run(doc, "Initial text. ");
+ paragraph.appendChild(paragraphText);
+
+ // Create three more run nodes.
+ Run run1 = new Run(doc, "Run 1. ");
+ Run run2 = new Run(doc, "Run 2. ");
+ Run run3 = new Run(doc, "Run 3. ");
+
+ // The document body will not display these runs until we insert them into a composite node
+ // that itself is a part of the document's node tree, as we did with the first run.
+ // We can determine where the text contents of nodes that we insert
+ // appears in the document by specifying an insertion location relative to another node in the paragraph.
+ Assert.assertEquals("Initial text.", paragraph.getText().trim());
+
+ // Insert the second run into the paragraph in front of the initial run.
+ paragraph.insertBefore(run2, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
+
+ // Insert the third run after the initial run.
+ paragraph.insertAfter(run3, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
+
+ // Insert the first run to the start of the paragraph's child nodes collection.
+ paragraph.prependChild(run1);
+
+ Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+
+ // We can modify the contents of the run by editing and deleting existing child nodes.
+ ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
+ paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
+
+ Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -6505,6 +6851,51 @@ The resulting document will not contain pages considered to be blank while other
 
 **Returns:**
 java.util.ArrayList - List of page numbers has been considered as blank and removed.
+### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node}
+```
+public Node removeChild(Node oldChild)
+```
+
+
+Removes the specified child node.
+
+ **Remarks:** 
+
+The parent of  oldChild  is set to  null  after the node is removed.
+
+ **Examples:** 
+
+Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Section 1 text.");
+ builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+ builder.writeln("Section 2 text.");
+
+ // Both sections are siblings of each other.
+ Section lastSection = (Section) doc.getLastChild();
+ Section firstSection = (Section) lastSection.getPreviousSibling();
+
+ // Remove a section based on its sibling relationship with another section.
+ if (lastSection.getPreviousSibling() != null)
+     doc.removeChild(firstSection);
+
+ // The section we removed was the first one, leaving the document with only the second.
+ Assert.assertEquals("Section 2 text.", doc.getText().trim());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeExternalSchemaReferences() {#removeExternalSchemaReferences}
 ```
 public void removeExternalSchemaReferences()
