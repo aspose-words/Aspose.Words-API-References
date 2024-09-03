@@ -32,16 +32,31 @@ To learn more, visit the [ Work with Office Add-ins ][Work with Office Add-ins] 
 
 | Method | Description |
 | --- | --- |
+| [add(Object item)](#add-java.lang.Object) |  |
 | [clear()](#clear) | Removes all elements from the collection. |
 | [get(int index)](#get-int) | Gets an item at the specified index. |
 | [getCount()](#getCount) | Gets the number of elements contained in the collection. |
 | [iterator()](#iterator) | Returns an enumerator that can iterate through a collection. |
 | [remove(int index)](#remove-int) | Removes the item at the specified index from the collection. |
+| [set(int index, Object value)](#set-int-java.lang.Object) | Sets an item at the specified index. |
 ### BaseWebExtensionCollection() {#BaseWebExtensionCollection}
 ```
 public BaseWebExtensionCollection()
 ```
 
+
+### add(Object item) {#add-java.lang.Object}
+```
+public void add(Object item)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | java.lang.Object |  |
 
 ### clear() {#clear}
 ```
@@ -246,4 +261,44 @@ Shows how to work with a document's collection of web extensions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the collection item. |
+
+### set(int index, Object value) {#set-int-java.lang.Object}
+```
+public void set(int index, Object value)
+```
+
+
+Sets an item at the specified index.
+
+ **Examples:** 
+
+Shows how to work with a document's collection of web extensions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Web extension.docx");
+
+ Assert.assertEquals(1, doc.getWebExtensionTaskPanes().getCount());
+
+ // Print all properties of the document's web extension.
+ WebExtensionPropertyCollection webExtensionPropertyCollection = doc.getWebExtensionTaskPanes().get(0).getWebExtension().getProperties();
+ Iterator enumerator = webExtensionPropertyCollection.iterator();
+
+ while (enumerator.hasNext()) {
+     WebExtensionProperty webExtensionProperty = enumerator.next();
+     System.out.println("Binding name: {webExtensionProperty.Name}; Binding value: {webExtensionProperty.Value}");
+ }
+
+ // Remove the web extension.
+ doc.getWebExtensionTaskPanes().remove(0);
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the item. |
+| value | java.lang.Object | An item at the specified index. |
 
