@@ -31,6 +31,14 @@ public sealed class Person
 | override [Equals](../../aspose.words.bibliography/person/equals/)(*object*) |  |
 | override [GetHashCode](../../aspose.words.bibliography/person/gethashcode/)() |  |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.words.bibliography/person/equals/#equals_1)(*object*) |  |
+| [Equals](../../aspose.words.bibliography/person/equals/#equals)(*Person*) |  |
+| override [GetHashCode](../../aspose.words.bibliography/person/gethashcode/)() |  |
+
 ## Examples
 
 Shows how to get bibliography sources available in the document.

@@ -5,7 +5,7 @@ articleTitle: MoveToMergeField
 second_title: Aspose.Words for .NET
 description: DocumentBuilder MoveToMergeField method. Moves the cursor to a position just beyond the specified merge field and removes the merge field in C#.
 type: docs
-weight: 560
+weight: 580
 url: /net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(*string*) {#movetomergefield}

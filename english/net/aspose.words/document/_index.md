@@ -5,7 +5,7 @@ articleTitle: Document
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Document class. Represents a Word document in C#.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.words/document/
 ---
 ## Document class
@@ -53,6 +53,7 @@ public class Document : DocumentBase
 | [FontInfos](../../aspose.words/documentbase/fontinfos/) { get; } | Provides access to properties of fonts used in this document. |
 | [FontSettings](../../aspose.words/document/fontsettings/) { get; set; } | Gets or sets document font settings. |
 | [FootnoteOptions](../../aspose.words/document/footnoteoptions/) { get; } | Provides options that control numbering and positioning of footnotes in this document. |
+| [FootnoteSeparators](../../aspose.words/documentbase/footnoteseparators/) { get; } | Provides access to the footnote/endnote separators defined in the document. |
 | [Frameset](../../aspose.words/document/frameset/) { get; } | Returns a [`Frameset`](./frameset/) instance if this document represents a frames page. |
 | [GlossaryDocument](../../aspose.words/document/glossarydocument/) { get; set; } | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
 | [GrammarChecked](../../aspose.words/document/grammarchecked/) { get; set; } | Returns `true` if the document has been checked for grammar. |

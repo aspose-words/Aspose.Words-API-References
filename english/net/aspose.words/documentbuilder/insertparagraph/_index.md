@@ -5,7 +5,7 @@ articleTitle: InsertParagraph
 second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertParagraph method. Inserts a paragraph break into the document in C#.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method

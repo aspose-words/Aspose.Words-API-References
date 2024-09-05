@@ -5,7 +5,7 @@ articleTitle: OfficeMathDisplayType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Math.OfficeMathDisplayType enum. Specifies the display format type of the equation in C#.
 type: docs
-weight: 4420
+weight: 4440
 url: /net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration

@@ -5,7 +5,7 @@ articleTitle: PreserveEmptyLines
 second_title: Aspose.Words for .NET
 description: MarkdownLoadOptions PreserveEmptyLines property. Gets or sets a boolean value indicating whether to preserve empty lines while load a Markdown document. The default value is false in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.loading/markdownloadoptions/preserveemptylines/
 ---
 ## MarkdownLoadOptions.PreserveEmptyLines property

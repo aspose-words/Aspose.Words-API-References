@@ -5,7 +5,7 @@ articleTitle: FieldSubject
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldSubject class. Implements the SUBJECT field in C#.
 type: docs
-weight: 2690
+weight: 2710
 url: /net/aspose.words.fields/fieldsubject/
 ---
 ## FieldSubject class
