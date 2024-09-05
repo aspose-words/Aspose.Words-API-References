@@ -30,6 +30,14 @@ public sealed class Person
 | [Last](../../aspose.words.bibliography/person/last/) { get; set; } | Gets or sets the last name of a person. |
 | [Middle](../../aspose.words.bibliography/person/middle/) { get; set; } | Gets or sets the middle name of a person. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.words.bibliography/person/equals/#equals_1)(*object*) |  |
+| [Equals](../../aspose.words.bibliography/person/equals/#equals)(*Person*) |  |
+| override [GetHashCode](../../aspose.words.bibliography/person/gethashcode/)() |  |
+
 ## Examples
 
 Shows how to get bibliography sources available in the document.

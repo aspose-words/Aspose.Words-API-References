@@ -5,7 +5,7 @@ articleTitle: FieldSectionPages
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldSectionPages class. Implements the SECTIONPAGES field in C#.
 type: docs
-weight: 2610
+weight: 2630
 url: /net/aspose.words.fields/fieldsectionpages/
 ---
 ## FieldSectionPages class

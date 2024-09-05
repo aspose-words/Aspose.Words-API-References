@@ -34,6 +34,7 @@ public class SignOptions
 | [SignatureLineId](../../aspose.words.digitalsignatures/signoptions/signaturelineid/) { get; set; } | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [SignatureLineImage](../../aspose.words.digitalsignatures/signoptions/signaturelineimage/) { get; set; } | The image that will be shown in associated [`SignatureLine`](../../aspose.words.drawing/signatureline/). Default value is `null`. |
 | [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime/) { get; set; } | The date of signing. Default value is **current time** (Now) |
+| [XmlDsigLevel](../../aspose.words.digitalsignatures/signoptions/xmldsiglevel/) { get; set; } | Specifies the level of a digital signature based on XML-DSig standard. The default value is XmlDSig. |
 
 ## Examples
 

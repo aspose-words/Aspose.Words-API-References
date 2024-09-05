@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.SaveFormat enum. Indicates the format in which the document is saved in C#.
 type: docs
-weight: 5130
+weight: 5180
 url: /net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration

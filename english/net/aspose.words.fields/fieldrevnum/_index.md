@@ -5,7 +5,7 @@ articleTitle: FieldRevNum
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldRevNum class. Implements the REVNUM field in C#.
 type: docs
-weight: 2580
+weight: 2600
 url: /net/aspose.words.fields/fieldrevnum/
 ---
 ## FieldRevNum class

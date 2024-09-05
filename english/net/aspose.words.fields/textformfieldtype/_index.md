@@ -5,7 +5,7 @@ articleTitle: TextFormFieldType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.TextFormFieldType enum. Specifies the type of a text form field in C#.
 type: docs
-weight: 3010
+weight: 3030
 url: /net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration

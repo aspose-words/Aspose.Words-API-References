@@ -24,9 +24,11 @@ Shows how to sign XPS document.
 Document doc = new Document(MyDir + "Document.docx");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
-DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(
-    certificateHolder,
-    new SignOptions() { Comments = "Some comments", SignTime = DateTime.Now });
+SignOptions options = new SignOptions();
+options.SignTime = DateTime.Now;
+options.Comments = "Some comments";
+
+DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(certificateHolder, options);
 
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 saveOptions.DigitalSignatureDetails = digitalSignatureDetails;

@@ -5,7 +5,7 @@ articleTitle: ChartSeriesGroupCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartSeriesGroupCollection class. Represents a collection of ChartSeriesGroup objects in C#.
 type: docs
-weight: 950
+weight: 970
 url: /net/aspose.words.drawing.charts/chartseriesgroupcollection/
 ---
 ## ChartSeriesGroupCollection class
