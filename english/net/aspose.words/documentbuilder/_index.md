@@ -5,7 +5,7 @@ articleTitle: DocumentBuilder
 second_title: Aspose.Words for .NET
 description: Aspose.Words.DocumentBuilder class. Provides methods to insert text images and other content specify font paragraph and section formatting in C#.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.words/documentbuilder/
 ---
 ## DocumentBuilder class
@@ -24,6 +24,8 @@ public class DocumentBuilder
 | --- | --- |
 | [DocumentBuilder](documentbuilder/#constructor)() | Initializes a new instance of this class. |
 | [DocumentBuilder](documentbuilder/#constructor_1)(*[Document](../document/)*) | Initializes a new instance of this class. |
+| [DocumentBuilder](documentbuilder/#constructor_3)(*[DocumentBuilderOptions](../documentbuilderoptions/)*) | Initializes a new instance of this class. |
+| [DocumentBuilder](documentbuilder/#constructor_2)(*[Document](../document/), [DocumentBuilderOptions](../documentbuilderoptions/)*) | Initializes a new instance of this class. |
 
 ## Properties
 
@@ -74,6 +76,8 @@ public class DocumentBuilder
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(*string, string*) | Inserts a Word field into a document without updating the field result. |
 | [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)(*[FootnoteType](../../aspose.words.notes/footnotetype/), string*) | Inserts a footnote or endnote into the document. |
 | [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)(*[FootnoteType](../../aspose.words.notes/footnotetype/), string, string*) | Inserts a footnote or endnote into the document. |
+| [InsertGroupShape](../../aspose.words/documentbuilder/insertgroupshape/#insertgroupshape)(*params Shape[]*) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
+| [InsertGroupShape](../../aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1)(*double, double, double, double, params Shape[]*) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 | [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule/)() | Inserts a horizontal rule shape into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml)(*string*) | Inserts an HTML string into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_2)(*string, bool*) | Inserts an HTML string into the document. |
@@ -107,6 +111,7 @@ public class DocumentBuilder
 | [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape)(*[ShapeType](../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)*) | Inserts free-floating shape with specified position, size and text wrap type. |
 | [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline)(*[SignatureLineOptions](../signaturelineoptions/)*) | Inserts a signature line at the current position. |
 | [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline_1)(*[SignatureLineOptions](../signaturelineoptions/), [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../aspose.words.drawing/wraptype/)*) | Inserts a signature line at the specified position. |
+| [InsertStructuredDocumentTag](../../aspose.words/documentbuilder/insertstructureddocumenttag/)(*[SdtType](../../aspose.words.markup/sdttype/)*) | Inserts a [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/) into the document. |
 | [InsertStyleSeparator](../../aspose.words/documentbuilder/insertstyleseparator/)() | Inserts style separator into the document. |
 | [InsertTableOfContents](../../aspose.words/documentbuilder/inserttableofcontents/)(*string*) | Inserts a TOC (table of contents) field into the document. |
 | [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput/)(*string, [TextFormFieldType](../../aspose.words.fields/textformfieldtype/), string, string, int*) | Inserts a text form field at the current position. |

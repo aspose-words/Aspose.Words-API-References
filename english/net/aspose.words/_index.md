@@ -37,6 +37,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [Document](./document/) | Represents a Word document. |
 | [DocumentBase](./documentbase/) | Provides the abstract base class for a main document and a glossary document of a Word document. |
 | [DocumentBuilder](./documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. |
+| [DocumentBuilderOptions](./documentbuilderoptions/) | Allows to specify additional options for the document building process. |
 | [DocumentReaderPluginLoadException](./documentreaderpluginloadexception/) | Thrown during document load, when the plugin required for reading the document format cannot be loaded. |
 | [DocumentVisitor](./documentvisitor/) | Base class for custom document visitors. |
 | [EditableRange](./editablerange/) | Represents a single editable range. |

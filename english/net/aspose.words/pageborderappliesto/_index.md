@@ -5,7 +5,7 @@ articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.PageBorderAppliesTo enum. Specifies which pages the page border is printed on in C#.
 type: docs
-weight: 4630
+weight: 4680
 url: /net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration

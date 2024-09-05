@@ -5,7 +5,7 @@ articleTitle: PopFont
 second_title: Aspose.Words for .NET
 description: DocumentBuilder PopFont method. Retrieves character formatting previously saved on the stack in C#.
 type: docs
-weight: 600
+weight: 620
 url: /net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method

@@ -5,7 +5,7 @@ articleTitle: ImageType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ImageType enum. Specifies the type format of an image in a Microsoft Word document in C#.
 type: docs
-weight: 1250
+weight: 1270
 url: /net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration

@@ -5,7 +5,7 @@ articleTitle: FieldUserName
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldUserName class. Implements the USERNAME field in C#.
 type: docs
-weight: 2840
+weight: 2860
 url: /net/aspose.words.fields/fieldusername/
 ---
 ## FieldUserName class

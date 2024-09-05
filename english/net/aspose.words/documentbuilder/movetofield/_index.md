@@ -5,7 +5,7 @@ articleTitle: MoveToField
 second_title: Aspose.Words for .NET
 description: DocumentBuilder MoveToField method. Moves the cursor to a field in the document in C#.
 type: docs
-weight: 540
+weight: 560
 url: /net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method

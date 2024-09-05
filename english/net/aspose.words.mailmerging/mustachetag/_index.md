@@ -5,7 +5,7 @@ articleTitle: MustacheTag
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.MustacheTag class. Represents mustache tag in C#.
 type: docs
-weight: 4170
+weight: 4190
 url: /net/aspose.words.mailmerging/mustachetag/
 ---
 ## MustacheTag class

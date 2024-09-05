@@ -47,6 +47,27 @@ builder.Write("Hello world!");
 
 ---
 
+## DocumentBuilder(*[DocumentBuilderOptions](../../documentbuilderoptions/)*) {#constructor_3}
+
+Initializes a new instance of this class.
+
+```csharp
+public DocumentBuilder(DocumentBuilderOptions options)
+```
+
+## Remarks
+
+Creates a new [`DocumentBuilder`](../) object and attaches it to a new [`Document`](../../document/) object. Additional document building options can be specified.
+
+### See Also
+
+* class [DocumentBuilderOptions](../../documentbuilderoptions/)
+* class [DocumentBuilder](../)
+* namespace [Aspose.Words](../../../aspose.words/)
+* assembly [Aspose.Words](../../../)
+
+---
+
 ## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Initializes a new instance of this class.
@@ -143,6 +164,33 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### See Also
 
 * class [Document](../../document/)
+* class [DocumentBuilder](../)
+* namespace [Aspose.Words](../../../aspose.words/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## DocumentBuilder(*[Document](../../document/), [DocumentBuilderOptions](../../documentbuilderoptions/)*) {#constructor_2}
+
+Initializes a new instance of this class.
+
+```csharp
+public DocumentBuilder(Document doc, DocumentBuilderOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | Document | The [`Document`](../../document/) object to attach to. |
+| options | DocumentBuilderOptions | Additional options for the document building process. |
+
+## Remarks
+
+Creates a new [`DocumentBuilder`](../) object, attaches to the specified [`Document`](../../document/) object. The cursor is positioned at the beginning of the document.
+
+### See Also
+
+* class [Document](../../document/)
+* class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * class [DocumentBuilder](../)
 * namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

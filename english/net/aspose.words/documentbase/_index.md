@@ -5,7 +5,7 @@ articleTitle: DocumentBase
 second_title: Aspose.Words for .NET
 description: Aspose.Words.DocumentBase class. Provides the abstract base class for a main document and a glossary document of a Word document in C#.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.words/documentbase/
 ---
 ## DocumentBase class
@@ -28,6 +28,7 @@ public abstract class DocumentBase : CompositeNode
 | override [Document](../../aspose.words/documentbase/document/) { get; } | Gets this instance. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FontInfos](../../aspose.words/documentbase/fontinfos/) { get; } | Provides access to properties of fonts used in this document. |
+| [FootnoteSeparators](../../aspose.words/documentbase/footnoteseparators/) { get; } | Provides access to the footnote/endnote separators defined in the document. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |

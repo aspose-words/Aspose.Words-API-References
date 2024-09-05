@@ -5,7 +5,7 @@ articleTitle: InsertShape
 second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertShape method. Inserts inline shape with specified type and size in C#.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
@@ -78,7 +78,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 | vertPos | RelativeVerticalPosition | Specifies where the vertical distance to the shape is measured from. |
 | top | Double | Distance in points from the origin to the top side of the shape. |
 | width | Double | The width of the shape in points. |
-| height | Double | The width of the shape in points. |
+| height | Double | The height of the shape in points. |
 | wrapType | WrapType | Specifies how to wrap text around the shape. |
 
 ### Return Value

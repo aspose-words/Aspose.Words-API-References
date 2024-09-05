@@ -5,7 +5,7 @@ articleTitle: HeaderFooterCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.HeaderFooterCollection class. Provides typed access to HeaderFooter nodes of a Section in C#.
 type: docs
-weight: 3370
+weight: 3390
 url: /net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
@@ -39,7 +39,7 @@ public class HeaderFooterCollection : NodeCollection
 | [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Links or unlinks the specified header or footer to the corresponding header or footer in the previous section. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Removes the node from the collection and from the document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Removes the node at the specified index from the collection and from the document. |
-| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Copies all `HeaderFoorter`s from the collection to a new array of `HeaderFoorter`s. (2 methods) |
+| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Copies all `HeaderFooter`s from the collection to a new array of `HeaderFooter`s. (2 methods) |
 
 ## Remarks
 

@@ -5,7 +5,7 @@ articleTitle: MoveToHeaderFooter
 second_title: Aspose.Words for .NET
 description: DocumentBuilder MoveToHeaderFooter method. Moves the cursor to the beginning of a header or footer in the current section in C#.
 type: docs
-weight: 550
+weight: 570
 url: /net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
