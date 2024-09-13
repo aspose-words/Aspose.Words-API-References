@@ -7,7 +7,7 @@ type: docs
 weight: 6000
 url: /cpp/aspose.words/section/clearheadersfooters/
 ---
-## Section::ClearHeadersFooters method
+## Section::ClearHeadersFooters() method
 
 
 Clears the headers and footers of this section.
@@ -53,6 +53,20 @@ ASSERT_EQ(2, doc->get_FirstSection()->get_HeadersFooters()->get_Count());
 
 ASSERT_EQ(String::Empty, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetText().Trim());
 ASSERT_EQ(String::Empty, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetText().Trim());
+```
+
+## See Also
+
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
+## Section::ClearHeadersFooters(bool) method
+
+
+
+
+```cpp
+void Aspose::Words::Section::ClearHeadersFooters(bool preserveWatermarks)
 ```
 
 ## See Also

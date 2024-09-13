@@ -28,6 +28,7 @@ class Section : public Aspose::Words::CompositeNode,
 | [AppendContent](./appendcontent/)(const System::SharedPtr\<Aspose::Words::Section\>\&) | Inserts a copy of content of the source section at the end of this section. |
 | [ClearContent](./clearcontent/)() | Clears the section. |
 | [ClearHeadersFooters](./clearheadersfooters/)() | Clears the headers and footers of this section. |
+| [ClearHeadersFooters](./clearheadersfooters/)(bool) |  |
 | [Clone](./clone/)() | Creates a duplicate of this section. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [DeleteHeaderFooterShapes](./deleteheaderfootershapes/)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |
