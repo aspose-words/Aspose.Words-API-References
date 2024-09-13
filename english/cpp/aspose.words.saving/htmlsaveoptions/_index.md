@@ -72,6 +72,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_OfficeMathOutputMode](./get_officemathoutputmode/)() const | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [Image](../htmlofficemathoutputmode/). |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
+| [get_ReplaceBackslashWithYenSign](./get_replacebackslashwithyensign/)() const |  |
 | [get_ResolveFontNames](./get_resolvefontnames/)() const | Specifies whether font family names used in the document are resolved and substituted according to [FontSettings](../../aspose.words/document/get_fontsettings/) when being written into HTML-based formats. |
 | [get_ResourceFolder](./get_resourcefolder/)() const | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
 | [get_ResourceFolderAlias](./get_resourcefolderalias/)() const | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string. |
@@ -139,6 +140,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_OfficeMathOutputMode](./set_officemathoutputmode/)(Aspose::Words::Saving::HtmlOfficeMathOutputMode) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_OfficeMathOutputMode](./get_officemathoutputmode/). |
 | [set_PrettyFormat](../saveoptions/set_prettyformat/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_PrettyFormat](../saveoptions/get_prettyformat/). |
 | [set_ProgressCallback](../saveoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Saving::IDocumentSavingCallback\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_ProgressCallback](../saveoptions/get_progresscallback/). |
+| [set_ReplaceBackslashWithYenSign](./set_replacebackslashwithyensign/)(bool) |  |
 | [set_ResolveFontNames](./set_resolvefontnames/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ResolveFontNames](./get_resolvefontnames/). |
 | [set_ResourceFolder](./set_resourcefolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolder](./get_resourcefolder/). |
 | [set_ResourceFolderAlias](./set_resourcefolderalias/)(const System::String\&) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias](./get_resourcefolderalias/). |
