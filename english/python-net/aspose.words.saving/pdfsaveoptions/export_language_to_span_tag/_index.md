@@ -43,7 +43,7 @@ Shows how to create a "Span" tag in the document structure to export the text la
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 builder.writeln('Hola mundo!')
 save_options = aw.saving.PdfSaveOptions()

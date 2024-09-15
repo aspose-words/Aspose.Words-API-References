@@ -5,7 +5,7 @@ articleTitle: insert_ole_object_as_icon method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_ole_object_as_icon method"
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words/documentbuilder/insert_ole_object_as_icon/
 ---
 

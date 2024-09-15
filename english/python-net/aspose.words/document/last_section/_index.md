@@ -37,7 +37,7 @@ doc = aw.Document()
 # which contains child nodes that we can edit.
 self.assertEqual(1, doc.sections.count)
 # Use a document builder to add text to the first section.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 # Create a second section by inserting a section break.
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)

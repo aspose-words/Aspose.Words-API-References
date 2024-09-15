@@ -5,7 +5,7 @@ articleTitle: Range class
 second_title: Aspose.Words for Python
 description: "aspose.words.Range class. Represents a contiguous area in a document"
 type: docs
-weight: 940
+weight: 950
 url: /python-net/aspose.words/range/
 ---
 
@@ -64,7 +64,7 @@ Shows how to get the text contents of all the nodes that a range covers.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Hello world!')
 self.assertEqual('Hello world!', doc.range.text.strip())
 ```

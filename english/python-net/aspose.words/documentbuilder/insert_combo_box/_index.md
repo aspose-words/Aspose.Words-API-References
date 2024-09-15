@@ -58,7 +58,7 @@ Shows how to insert a combo box form field into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a form that prompts the user to pick one of the items from the menu.
 builder.write('Pick a fruit: ')
 items = ['Apple', 'Banana', 'Cherry']

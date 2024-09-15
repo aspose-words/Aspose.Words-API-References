@@ -32,7 +32,7 @@ Shows how to configure a document that can be printed as a book fold.
 ```python
 doc = aw.Document()
 # Insert text that spans 16 pages.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('My Booklet:')
 i = 0
 while i < 15:

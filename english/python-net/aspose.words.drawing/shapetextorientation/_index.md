@@ -32,7 +32,7 @@ Shows how to change orientation and rotation for data labels.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=432, height=252)
 series = shape.chart.series[0]
 data_labels = series.data_labels

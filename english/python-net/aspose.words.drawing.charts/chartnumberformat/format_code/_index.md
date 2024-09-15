@@ -58,7 +58,7 @@ Shows how to enable and configure data labels for a chart series.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Add a line chart, then clear its demo data series to start with a clean chart,
 # and then set a title.
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.LINE, width=500, height=300)
@@ -82,7 +82,7 @@ Shows how to set formatting for chart values.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=500, height=300)
 chart = shape.chart
 # Clear the chart's demo data series to start with a clean chart.

@@ -5,7 +5,7 @@ articleTitle: HeaderFooterCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.HeaderFooterCollection class. Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/)"
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words/headerfootercollection/
 ---
 
@@ -63,7 +63,7 @@ There can be maximum of one [HeaderFooter](../headerfooter/)
 |[ link_to_previous(header_footer_type, is_link_to_previous)](./link_to_previous/#headerfootertype_bool) | Links or unlinks the specified header or footer to the corresponding header or footer in the previous section. |
 |[ remove(node)](../nodecollection/remove/#node) | Removes the node from the collection and from the document.<br>(Inherited from [NodeCollection](../nodecollection/)) |
 |[ remove_at(index)](../nodecollection/remove_at/#int) | Removes the node at the specified index from the collection and from the document.<br>(Inherited from [NodeCollection](../nodecollection/)) |
-|[ to_array()](./to_array/#default) | Copies all ``HeaderFoorter`` s from the collection to a new array of ``HeaderFoorter`` s. |
+|[ to_array()](./to_array/#default) | Copies all ``HeaderFooter`` s from the collection to a new array of ``HeaderFooter`` s. |
 
 ### Examples
 

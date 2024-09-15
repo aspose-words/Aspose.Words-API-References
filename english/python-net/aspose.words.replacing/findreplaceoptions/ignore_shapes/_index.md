@@ -35,7 +35,7 @@ Shows how to ignore shapes while replacing text.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
 builder.insert_shape(shape_type=aw.drawing.ShapeType.BALLOON, width=200, height=200)
 builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit.')

@@ -27,7 +27,7 @@ Shows how to build a table with custom borders.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.start_table()
 # Setting table formatting options for a document builder
 # will apply them to every row and cell that we add with it.

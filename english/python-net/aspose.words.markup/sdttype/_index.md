@@ -42,7 +42,7 @@ Shows how to work with styles for content control elements.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two ways to apply a style from the document to a structured document tag.
 # 1 -  Apply a style object from the document's style collection:
 quote_style = doc.styles.get_by_style_identifier(aw.StyleIdentifier.QUOTE)
@@ -66,7 +66,7 @@ Shows how to create group structured document tag at the Row level.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 # Create a Group structured document tag at the Row level.
 group_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.GROUP, aw.markup.MarkupLevel.ROW)
@@ -97,7 +97,7 @@ sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.CITATION, aw.markup
 paragraph = doc.first_section.body.first_paragraph
 paragraph.append_child(sdt)
 # Create a Citation field.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.move_to_paragraph(0, -1)
 builder.insert_field(field_code='CITATION Ath22 \\l 1033 ', field_value='(John Lennon, 2022)')
 # Move the field to the structured document tag.

@@ -28,7 +28,7 @@ Shows how to work with table text wrapping.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Cell 1')

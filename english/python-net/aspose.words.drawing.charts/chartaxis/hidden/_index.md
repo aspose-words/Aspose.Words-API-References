@@ -37,7 +37,7 @@ Shows how to hide chart axes.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.LINE, width=500, height=300)
 chart = shape.chart
 # Clear the chart's demo data series to start with a clean chart.

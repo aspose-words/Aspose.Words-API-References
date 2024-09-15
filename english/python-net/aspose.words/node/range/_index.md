@@ -28,7 +28,7 @@ Shows how to delete all the nodes from a range.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Add text to the first section in the document, and then add another section.
 builder.write('Section 1. ')
 builder.insert_break(aw.BreakType.SECTION_BREAK_CONTINUOUS)

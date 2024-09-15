@@ -46,7 +46,7 @@ Shows how to work with the secondary axis of chart.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.LINE, width=450, height=250)
 chart = shape.chart
 series = chart.series

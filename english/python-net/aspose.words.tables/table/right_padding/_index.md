@@ -31,7 +31,7 @@ Shows how to configure content padding in a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Row 1, cell 1.')

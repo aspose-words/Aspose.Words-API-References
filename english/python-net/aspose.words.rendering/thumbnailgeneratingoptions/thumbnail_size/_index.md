@@ -32,7 +32,7 @@ Shows how to update a document's thumbnail.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
 # There are two ways of setting a thumbnail image when saving a document to .epub.

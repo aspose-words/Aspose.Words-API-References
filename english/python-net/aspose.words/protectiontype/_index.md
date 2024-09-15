@@ -5,7 +5,7 @@ articleTitle: ProtectionType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ProtectionType enumeration. Protection type for a document."
 type: docs
-weight: 930
+weight: 940
 url: /python-net/aspose.words/protectiontype/
 ---
 
@@ -30,7 +30,7 @@ Shows how to turn off protection for a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Section 1. Hello world!')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 builder.writeln('Section 2. Hello again!')

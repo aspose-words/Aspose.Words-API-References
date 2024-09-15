@@ -25,7 +25,7 @@ Shows how to remove fields from a field collection.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_field(field_code=' DATE \\@ "dddd, d MMMM yyyy" ')
 builder.insert_field(field_code=' TIME ')
 builder.insert_field(field_code=' REVNUM ')

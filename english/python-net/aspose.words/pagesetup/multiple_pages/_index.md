@@ -32,7 +32,7 @@ Shows how to set gutter margins.
 ```python
 doc = aw.Document()
 # Insert text that spans several pages.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 i = 0
 while i < 6:
     builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' + 'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
@@ -57,7 +57,7 @@ Shows how to configure a document that can be printed as a book fold.
 ```python
 doc = aw.Document()
 # Insert text that spans 16 pages.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('My Booklet:')
 i = 0
 while i < 15:

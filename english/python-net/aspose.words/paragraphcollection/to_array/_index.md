@@ -30,7 +30,7 @@ Shows how to use "hot remove" to remove a node during enumeration.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('The first paragraph')
 builder.writeln('The second paragraph')
 builder.writeln('The third paragraph')

@@ -27,7 +27,7 @@ Shows how to apply settings to horizontal borders to a paragraph's format.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a red horizontal border for the paragraph. Any paragraphs created afterwards will inherit these border settings.
 borders = doc.first_section.body.first_paragraph.paragraph_format.borders
 borders.horizontal.color = aspose.pydrawing.Color.red
@@ -46,7 +46,7 @@ Shows how to apply settings to vertical borders to a table row's format.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a table with red and blue inner borders.
 table = builder.start_table()
 i = 0

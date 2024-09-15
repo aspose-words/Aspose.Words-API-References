@@ -28,7 +28,7 @@ Shows how to move cursor of DocumentBuilder inside a structured document tag.
 
 ```python
 doc = aw.Document(file_name=MY_DIR + 'Structured document tags.docx')
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # There is a several ways to move the cursor:
 # 1 -  Move to the first character of structured document tag by index.
 builder.move_to_structured_document_tag(structured_document_tag_index=1, character_index=1)

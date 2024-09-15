@@ -31,7 +31,7 @@ Shows how to create a run of text formatted with a shadow.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Set the Shadow flag to apply an offset shadow effect,
 # making it look like the letters are floating above the page.
 builder.font.shadow = True

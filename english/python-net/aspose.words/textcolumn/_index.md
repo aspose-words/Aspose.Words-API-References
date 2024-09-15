@@ -5,7 +5,7 @@ articleTitle: TextColumn class
 second_title: Aspose.Words for Python
 description: "aspose.words.TextColumn class. Represents a single text column"
 type: docs
-weight: 1230
+weight: 1240
 url: /python-net/aspose.words/textcolumn/
 ---
 
@@ -41,7 +41,7 @@ Shows how to create unevenly spaced columns.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 page_setup = builder.page_setup
 columns = page_setup.text_columns
 columns.evenly_spaced = False

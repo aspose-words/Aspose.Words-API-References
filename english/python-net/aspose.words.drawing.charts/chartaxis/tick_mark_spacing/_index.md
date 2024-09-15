@@ -5,7 +5,7 @@ articleTitle: tick_mark_spacing property
 second_title: Aspose.Words for Python
 description: "ChartAxis.tick_mark_spacing property. Gets or sets the interval, at which tick marks are drawn."
 type: docs
-weight: 290
+weight: 240
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_mark_spacing/
 ---
 
@@ -41,7 +41,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=500, height=300)
 chart = shape.chart
 # Clear the chart's demo data series to start with a clean chart.

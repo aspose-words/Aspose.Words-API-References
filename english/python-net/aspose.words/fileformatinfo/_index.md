@@ -5,7 +5,7 @@ articleTitle: FileFormatInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.FileFormatInfo class. Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods"
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.words/fileformatinfo/
 ---
 

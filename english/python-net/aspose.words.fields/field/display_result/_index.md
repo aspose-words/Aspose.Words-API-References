@@ -34,7 +34,7 @@ Shows how to get the real text that a field displays in the document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('This document was written by ')
 field_author = builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTHOR, update_field=True).as_field_author()
 field_author.author_name = 'John Doe'

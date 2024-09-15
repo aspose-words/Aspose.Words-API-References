@@ -182,7 +182,7 @@ Shows how to create pareto chart.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a Pareto chart.
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.PARETO, width=450, height=450)
 chart = shape.chart
@@ -198,7 +198,7 @@ Shows how to create box and whisker chart.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a Box & Whisker chart.
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.BOX_AND_WHISKER, width=450, height=450)
 chart = shape.chart
@@ -308,7 +308,7 @@ Shows how to create histogram chart.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a Histogram chart.
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.HISTOGRAM, width=450, height=450)
 chart = shape.chart
@@ -324,7 +324,7 @@ Shows how to create waterfall chart.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a Waterfall chart.
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.WATERFALL, width=450, height=450)
 chart = shape.chart

@@ -31,7 +31,7 @@ Shows how to use convert points to pixels with default and custom resolution.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Define the size of the top margin of this section in pixels, according to a custom DPI.
 my_dpi = 192
 page_setup = builder.page_setup

@@ -47,7 +47,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a revision, then change the color of all revisions to green.
 builder.writeln('This is not a revision.')
 doc.start_track_revisions(author='John Doe', date_time=datetime.datetime.now())

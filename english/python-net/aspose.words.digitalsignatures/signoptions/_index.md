@@ -32,6 +32,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | [sign_time](./sign_time/) | The date of signing. Default value is **current time** (datetime.datetime.now) |
 | [signature_line_id](./signature_line_id/) | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [signature_line_image](./signature_line_image/) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is ``None``. |
+| [xml_dsig_level](./xml_dsig_level/) | Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDsigLevel.XML_D_SIG](../xmldsiglevel/#XML_D_SIG). |
 
 ### See Also
 

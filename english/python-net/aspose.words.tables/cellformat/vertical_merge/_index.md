@@ -42,7 +42,7 @@ Shows how to merge table cells vertically.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a cell into the first column of the first row.
 # This cell will be the first in a range of vertically merged cells.
 builder.insert_cell()

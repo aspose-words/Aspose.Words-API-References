@@ -102,7 +102,7 @@ Shows how to perform a find-and-replace text operation on the contents of a docu
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Greetings, _FullName_!')
 # Perform a find-and-replace operation on our document's contents and verify the number of replacements that took place.
 replacement_count = doc.range.replace(pattern='_FullName_', replacement='John Doe')
@@ -114,7 +114,7 @@ Shows how to add formatting to paragraphs in which a find-and-replace operation 
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Every paragraph that ends with a full stop like this one will be right aligned.')
 builder.writeln('This one will not!')
 builder.write('This one also will.')
@@ -184,7 +184,7 @@ Shows how to replace all instances of String of text in a table and cell.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Carrots')

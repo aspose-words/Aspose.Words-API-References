@@ -27,7 +27,7 @@ Shows how to configure options affecting footnotes/endnotes in a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Hello world!')
 builder.insert_footnote(footnote_type=aw.notes.FootnoteType.FOOTNOTE, footnote_text='Footnote reference text.')
 # Configure all footnotes in the first section to restart the numbering from 1

@@ -31,7 +31,7 @@ Shows how to work with built-in document properties in the "Description" categor
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 properties = doc.built_in_document_properties
 # Below are four built-in document properties that have fields that can display their values in the document body.
 # 1 -  "Author" property, which we can display using an AUTHOR field:

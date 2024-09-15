@@ -31,7 +31,7 @@ Shows how to configure paragraph outline levels to create collapsible text.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Each paragraph has an OutlineLevel, which could be any number from 1 to 9, or at the default "BodyText" value.
 # Setting the property to one of the numbered values will show an arrow to the left
 # of the beginning of the paragraph.

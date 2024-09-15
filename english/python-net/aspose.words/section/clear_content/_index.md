@@ -34,7 +34,7 @@ Shows how to clear the contents of a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Hello world!')
 self.assertEqual('Hello world!', doc.get_text().strip())
 self.assertEqual(1, doc.first_section.body.paragraphs.count)

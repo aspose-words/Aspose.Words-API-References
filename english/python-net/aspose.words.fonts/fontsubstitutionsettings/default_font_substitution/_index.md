@@ -38,7 +38,7 @@ self.assertEqual('Times New Roman', default_font_substitution_rule.default_font_
 default_font_substitution_rule.default_font_name = 'Courier New'
 # Using a document builder, add some text in a font that we do not have to see the substitution take place,
 # and then render the result in a PDF.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Missing Font'
 builder.writeln('Line written in a missing font, which will be substituted with Courier New.')
 doc.save(file_name=ARTIFACTS_DIR + 'FontSettings.DefaultFontSubstitutionRule.pdf')

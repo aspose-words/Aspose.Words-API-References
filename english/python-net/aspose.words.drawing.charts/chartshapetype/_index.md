@@ -213,7 +213,7 @@ Shows how to set fill, stroke and callout formatting for chart data labels.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=432, height=252)
 chart = shape.chart
 # Delete default generated series.

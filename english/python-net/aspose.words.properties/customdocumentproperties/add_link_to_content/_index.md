@@ -35,7 +35,7 @@ Shows how to link a custom document property to a bookmark.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.start_bookmark('MyBookmark')
 builder.write('Hello world!')
 builder.end_bookmark('MyBookmark')

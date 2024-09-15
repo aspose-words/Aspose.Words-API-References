@@ -5,7 +5,7 @@ articleTitle: TabAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TabAlignment enumeration. Specifies the alignment/type of a tab stop."
 type: docs
-weight: 1180
+weight: 1190
 url: /python-net/aspose.words/tabalignment/
 ---
 

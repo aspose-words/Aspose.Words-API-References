@@ -31,7 +31,7 @@ Shows how to use 3D effects with bubble charts.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.BUBBLE_3D, width=500, height=350)
 chart = shape.chart
 self.assertEqual(1, chart.series.count)

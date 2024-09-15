@@ -5,7 +5,7 @@ articleTitle: ImageWatermarkOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.ImageWatermarkOptions class. Contains options that can be specified when adding a watermark with image"
 type: docs
-weight: 570
+weight: 580
 url: /python-net/aspose.words/imagewatermarkoptions/
 ---
 

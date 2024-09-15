@@ -32,7 +32,7 @@ Shows how to apply editing restrictions to structured document tags.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a plain text structured document tag, which acts as a text box that prompts the user to fill it in.
 tag = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.PLAIN_TEXT, aw.markup.MarkupLevel.INLINE)
 # Set the "LockContents" property to "true" to prohibit the user from editing this text box's contents.

@@ -27,7 +27,7 @@ Shows how to work with axes collection.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=500, height=300)
 chart = shape.chart
 # Hide the major grid lines on the primary and secondary Y axes.

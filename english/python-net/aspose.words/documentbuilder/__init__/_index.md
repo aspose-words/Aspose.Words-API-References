@@ -25,6 +25,27 @@ Creates a new [DocumentBuilder](../) object and attaches it to a new [Document](
 
 
 
+## DocumentBuilder(options) {#documentbuilderoptions}
+
+Initializes a new instance of this class.
+
+
+```python
+def __init__(self, options: aspose.words.DocumentBuilderOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [DocumentBuilderOptions](../../documentbuilderoptions/) |  |
+
+### Remarks
+
+Creates a new [DocumentBuilder](../) object and attaches it to a new [Document](../../document/) object.
+Additional document building options can be specified.
+
+
+
 ## DocumentBuilder(doc) {#document}
 
 Initializes a new instance of this class.
@@ -46,13 +67,35 @@ The cursor is positioned at the beginning of the document.
 
 
 
+## DocumentBuilder(doc, options) {#document_documentbuilderoptions}
+
+Initializes a new instance of this class.
+
+
+```python
+def __init__(self, doc: aspose.words.Document, options: aspose.words.DocumentBuilderOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [Document](../../document/) | The [Document](../../document/) object to attach to. |
+| options | [DocumentBuilderOptions](../../documentbuilderoptions/) | Additional options for the document building process. |
+
+### Remarks
+
+Creates a new [DocumentBuilder](../) object, attaches to the specified [Document](../../document/) object.
+The cursor is positioned at the beginning of the document.
+
+
+
 ## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Specify that we want different headers and footers for first, even and odd pages.
 builder.page_setup.different_first_page_header_footer = True
 builder.page_setup.odd_and_even_pages_header_footer = True
@@ -76,7 +119,7 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a table of contents for the first page of the document.
 # Configure the table to pick up paragraphs with headings of levels 1 to 3.
 # Also, set its entries to be hyperlinks that will take us

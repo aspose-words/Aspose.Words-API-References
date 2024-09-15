@@ -37,7 +37,7 @@ Shows how to set the position of a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two ways of aligning a table horizontally.
 # 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
 table_style = doc.styles.add(aw.StyleType.TABLE, 'MyTableStyle1').as_table_style()

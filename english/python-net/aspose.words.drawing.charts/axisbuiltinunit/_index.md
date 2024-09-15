@@ -37,7 +37,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.SCATTER, width=450, height=250)
 chart = shape.chart
 self.assertEqual(1, chart.series.count)

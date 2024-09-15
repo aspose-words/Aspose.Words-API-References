@@ -31,7 +31,7 @@ Shows how to build a table with rows that repeat on every page.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 # Any rows inserted while the "HeadingFormat" flag is set to "true"
 # will show up at the top of the table on every page that it spans.

@@ -44,7 +44,7 @@ Shows how to use FieldOptions to ensure that field updating fully supports bi-di
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Ensure that any field operation involving right-to-left text is performs as expected.
 doc.field_options.is_bidi_text_supported_on_update = True
 # Use a document builder to insert a field that contains the right-to-left text.

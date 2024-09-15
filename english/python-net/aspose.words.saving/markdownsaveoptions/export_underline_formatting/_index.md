@@ -34,7 +34,7 @@ Shows how to export underline formatting as ++.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.underline = aw.Underline.SINGLE
 builder.write('Lorem ipsum. Dolor sit amet.')
 save_options = aw.saving.MarkdownSaveOptions()

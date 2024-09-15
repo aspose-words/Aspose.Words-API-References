@@ -5,7 +5,7 @@ articleTitle: insert_image method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_image method"
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.words/documentbuilder/insert_image/
 ---
 
@@ -288,7 +288,7 @@ Shows how to determine which image will be inserted.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_image(file_name=IMAGE_DIR + 'Scalable Vector Graphics.svg')
 # Aspose.Words insert SVG image to the document as PNG with svgBlip extension
 # that contains the original vector SVG image representation.
@@ -334,7 +334,7 @@ Shows how to insert WebP image.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_image(file_name=IMAGE_DIR + 'WebP image.webp')
 doc.save(file_name=ARTIFACTS_DIR + 'Image.InsertWebpImage.docx')
 ```

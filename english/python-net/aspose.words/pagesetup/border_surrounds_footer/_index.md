@@ -36,7 +36,7 @@ Shows how to apply a border to the page and header/footer.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world! This is the main body text.')
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
 builder.write('This is the header.')

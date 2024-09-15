@@ -52,7 +52,7 @@ doc.save(file_name=ARTIFACTS_DIR + 'Document.Protect.docx')
 # We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
 protected_doc = aw.Document(file_name=ARTIFACTS_DIR + 'Document.Protect.docx')
 self.assertEqual(aw.ProtectionType.READ_ONLY, protected_doc.protection_type)
-builder = aw.DocumentBuilder(protected_doc)
+builder = aw.DocumentBuilder(doc=protected_doc)
 builder.writeln('Text added to a protected document.')
 # There are two ways of removing protection from a document.
 # 1 - With no password:

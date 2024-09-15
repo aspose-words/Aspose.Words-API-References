@@ -31,7 +31,7 @@ Shows how to specify the font size at which kerning begins to take effect.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Arial Black'
 # Set the builder's font size, and minimum size at which kerning will take effect.
 # The font size falls below the kerning threshold, so the run bellow will not have kerning.

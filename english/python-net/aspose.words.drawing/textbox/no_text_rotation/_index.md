@@ -39,7 +39,7 @@ Shows how to disable text rotation when the shape is rotate.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.ELLIPSE, width=20, height=20)
 shape.text_box.no_text_rotation = True
 doc.save(file_name=ARTIFACTS_DIR + 'Shape.NoTextRotation.docx')

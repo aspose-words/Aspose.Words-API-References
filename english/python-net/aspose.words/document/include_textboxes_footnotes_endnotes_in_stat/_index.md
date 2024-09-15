@@ -31,7 +31,7 @@ Shows how to include or exclude textboxes, footnotes and endnotes from word coun
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Lorem ipsum')
 builder.insert_footnote(footnote_type=aw.notes.FootnoteType.FOOTNOTE, footnote_text='sit amet')
 # By default option is set to 'false'.

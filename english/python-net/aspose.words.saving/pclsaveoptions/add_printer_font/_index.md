@@ -36,7 +36,7 @@ Shows how to get a printer to substitute all instances of a specific font with a
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Courier'
 builder.write('Hello world!')
 save_options = aw.saving.PclSaveOptions()

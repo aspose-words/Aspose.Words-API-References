@@ -39,7 +39,7 @@ Shows how to show comments when saving a document to a rendered format.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Hello world!')
 comment = aw.Comment(doc=doc, author='John Doe', initial='J.D.', date_time=datetime.datetime.now())
 comment.set_text('My comment.')

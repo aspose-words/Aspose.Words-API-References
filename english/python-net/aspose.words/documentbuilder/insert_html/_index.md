@@ -5,7 +5,7 @@ articleTitle: insert_html method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_html method"
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.words/documentbuilder/insert_html/
 ---
 
@@ -86,7 +86,7 @@ Shows how to use a document builder to insert html content into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 html = "<p align='right'>Paragraph right</p>" + '<b>Implicit paragraph left</b>' + "<div align='center'>Div center</div>" + "<h1 align='left'>Heading 1 left.</h1>"
 builder.insert_html(html=html)
 # Inserting HTML code parses the formatting of each element into equivalent document text formatting.

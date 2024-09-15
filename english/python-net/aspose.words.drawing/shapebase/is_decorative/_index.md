@@ -43,7 +43,7 @@ self.assertTrue(shape.is_decorative)
 # That's why our value has changed to 'false'.
 shape.alternative_text = 'Alternative text.'
 self.assertFalse(shape.is_decorative)
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.move_to_document_end()
 # Create a new shape as decorative.
 shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=100, height=100)

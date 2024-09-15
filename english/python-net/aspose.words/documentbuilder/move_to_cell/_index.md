@@ -5,7 +5,7 @@ articleTitle: move_to_cell method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.move_to_cell method. Moves the cursor to a table cell in the current section."
 type: docs
-weight: 510
+weight: 530
 url: /python-net/aspose.words/documentbuilder/move_to_cell/
 ---
 
@@ -43,7 +43,7 @@ Shows how to move a document builder's cursor to a cell in a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create an empty 2x2 table.
 builder.start_table()
 builder.insert_cell()

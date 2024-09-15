@@ -45,7 +45,7 @@ duplicate_style.font.name = 'Courier New'
 duplicate_style.font.color = aspose.pydrawing.Color.blue
 self.assertEqual(6, doc.styles.count)
 # Apply both styles to different paragraphs within the document.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.paragraph_format.style_name = my_style.name
 builder.writeln('Hello world!')
 builder.paragraph_format.style_name = duplicate_style.name

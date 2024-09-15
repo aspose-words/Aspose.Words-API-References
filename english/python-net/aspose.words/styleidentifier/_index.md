@@ -5,7 +5,7 @@ articleTitle: StyleIdentifier enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.StyleIdentifier enumeration. Locale independent style identifier."
 type: docs
-weight: 1150
+weight: 1160
 url: /python-net/aspose.words/styleidentifier/
 ---
 
@@ -410,7 +410,7 @@ Shows how to change the style of existing text.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two ways of referencing styles.
 # 1 -  Using the style name:
 builder.font.style_name = 'Emphasis'

@@ -100,6 +100,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [font_infos](../documentbase/font_infos/) | Provides access to properties of fonts used in this document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [font_settings](./font_settings/) | Gets or sets document font settings. |
 | [footnote_options](./footnote_options/) | Provides options that control numbering and positioning of footnotes in this document. |
+| [footnote_separators](../documentbase/footnote_separators/) | Provides access to the footnote/endnote separators defined in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [frameset](./frameset/) | Returns a [Document.frameset](./frameset/) instance if this document represents a frames page. |
 | [glossary_document](./glossary_document/) | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
 | [grammar_checked](./grammar_checked/) | Returns ``True`` if the document has been checked for grammar. |

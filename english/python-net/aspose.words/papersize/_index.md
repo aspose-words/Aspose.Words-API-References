@@ -5,7 +5,7 @@ articleTitle: PaperSize enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.PaperSize enumeration. Specifies paper size."
 type: docs
-weight: 860
+weight: 870
 url: /python-net/aspose.words/papersize/
 ---
 
@@ -43,7 +43,7 @@ Shows how to adjust paper size, orientation, margins, along with other settings 
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.page_setup.paper_size = aw.PaperSize.LEGAL
 builder.page_setup.orientation = aw.Orientation.LANDSCAPE
 builder.page_setup.top_margin = aw.ConvertUtil.inch_to_point(1)
@@ -60,7 +60,7 @@ Shows how to set page sizes.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # We can change the current page's size to a pre-defined size
 # by using the "PaperSize" property of this section's PageSetup object.
 builder.page_setup.paper_size = aw.PaperSize.TABLOID

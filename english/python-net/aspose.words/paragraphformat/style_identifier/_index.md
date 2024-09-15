@@ -31,7 +31,7 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a table of contents for the first page of the document.
 # Configure the table to pick up paragraphs with headings of levels 1 to 3.
 # Also, set its entries to be hyperlinks that will take us

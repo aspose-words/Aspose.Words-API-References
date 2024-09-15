@@ -50,7 +50,7 @@ Show how to set marker formatting.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.SCATTER, width=432, height=252)
 chart = shape.chart
 # Delete default generated series.

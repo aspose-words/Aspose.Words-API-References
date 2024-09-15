@@ -38,7 +38,7 @@ Shows how to improve readability by automatically selecting text color based on 
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # If a run's Font object does not specify text color, it will automatically
 # select either black or white depending on the background color's color.
 self.assertEqual(aspose.pydrawing.Color.empty().to_argb(), builder.font.color.to_argb())

@@ -5,7 +5,7 @@ articleTitle: SubDocument class
 second_title: Aspose.Words for Python
 description: "aspose.words.SubDocument class. Represents a SubDocument - which is a reference to an externally stored document"
 type: docs
-weight: 1170
+weight: 1180
 url: /python-net/aspose.words/subdocument/
 ---
 

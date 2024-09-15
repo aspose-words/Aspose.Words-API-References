@@ -32,7 +32,7 @@ Shows how set the location of floating tables.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Table 1, cell 1')

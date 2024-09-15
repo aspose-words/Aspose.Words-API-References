@@ -5,7 +5,7 @@ articleTitle: DocumentReaderPluginLoadException class
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentReaderPluginLoadException class. Thrown during document load, when the plugin required for reading the document format cannot be loaded."
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.words/documentreaderpluginloadexception/
 ---
 

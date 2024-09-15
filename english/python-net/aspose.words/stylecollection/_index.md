@@ -5,7 +5,7 @@ articleTitle: StyleCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.StyleCollection class. A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document"
 type: docs
-weight: 1140
+weight: 1150
 url: /python-net/aspose.words/stylecollection/
 ---
 
@@ -48,7 +48,7 @@ Shows how to create and use a paragraph style with list formatting.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a custom paragraph style.
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle1')
 style.font.size = 24

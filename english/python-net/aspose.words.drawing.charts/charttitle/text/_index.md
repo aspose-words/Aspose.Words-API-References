@@ -38,7 +38,7 @@ Shows how to insert a chart and set a title.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a chart shape with a document builder and get its chart.
 chart_shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.BAR, width=400, height=300)
 chart = chart_shape.chart

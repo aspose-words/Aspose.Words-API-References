@@ -31,7 +31,7 @@ Shows how to insert a hyperlink field.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('For more information, please visit the ')
 # Insert a hyperlink and emphasize it with custom formatting.
 # The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.

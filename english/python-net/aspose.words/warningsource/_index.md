@@ -5,7 +5,7 @@ articleTitle: WarningSource enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.WarningSource enumeration. Specifies the module that produces a warning during document loading or saving."
 type: docs
-weight: 1360
+weight: 1370
 url: /python-net/aspose.words/warningsource/
 ---
 

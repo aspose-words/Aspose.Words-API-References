@@ -35,7 +35,7 @@ Shows how to fill and tiling the texture inside the shape.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=80, height=80)
 # Apply texture alignment to the shape fill.
 shape.fill.preset_textured(aw.drawing.PresetTexture.CANVAS)

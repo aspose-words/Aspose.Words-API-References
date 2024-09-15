@@ -5,7 +5,7 @@ articleTitle: insert_signature_line method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_signature_line method"
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words/documentbuilder/insert_signature_line/
 ---
 
@@ -100,7 +100,7 @@ Shows how to insert an inline signature line into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 options = aw.SignatureLineOptions()
 options.signer = 'John Doe'
 options.signer_title = 'Manager'
