@@ -173,6 +173,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Document](../com.aspose.words/document/) | Represents a Word document. |
 | [DocumentBase](../com.aspose.words/documentbase/) | Provides the abstract base class for a main document and a glossary document of a Word document. |
 | [DocumentBuilder](../com.aspose.words/documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. |
+| [DocumentBuilderOptions](../com.aspose.words/documentbuilderoptions/) | Allows to specify additional options for the document building process. |
 | [DocumentDirection](../com.aspose.words/documentdirection/) | Allows to specify the direction to flow the text in a document. |
 | [DocumentLoadingArgs](../com.aspose.words/documentloadingargs/) | An argument passed into [IDocumentLoadingCallback.\#notify(com.aspose.words.DocumentLoadingArgs)](../com.aspose.words/idocumentloadingcallback/\#notify-com.aspose.words.DocumentLoadingArgs). |
 | [DocumentPartSavingArgs](../com.aspose.words/documentpartsavingargs/) | Provides data for the [IDocumentPartSavingCallback.\#documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../com.aspose.words/idocumentpartsavingcallback/\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs) callback. |
@@ -348,6 +349,9 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FootnoteNumberingRule](../com.aspose.words/footnotenumberingrule/) | Determines when automatic footnote or endnote numbering restarts. |
 | [FootnoteOptions](../com.aspose.words/footnoteoptions/) | Represents the footnote numbering options for a document or section. |
 | [FootnotePosition](../com.aspose.words/footnoteposition/) | Defines the footnote position. |
+| [FootnoteSeparator](../com.aspose.words/footnoteseparator/) |  |
+| [FootnoteSeparatorCollection](../com.aspose.words/footnoteseparatorcollection/) | Provides typed access to **T:Aspose.Words.Notes.FootnoteSeparator** nodes of a document. |
+| [FootnoteSeparatorType](../com.aspose.words/footnoteseparatortype/) | Specifies the type of the footnote/endnote separator. |
 | [FootnoteType](../com.aspose.words/footnotetype/) | Specifies whether this is a footnote or an endnote. |
 | [FormField](../com.aspose.words/formfield/) | Represents a single form field. |
 | [FormFieldCollection](../com.aspose.words/formfieldcollection/) | A collection of [FormField](../com.aspose.words/formfield/) objects that represent all the form fields in a range. |
@@ -711,6 +715,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [XlsxSectionMode](../com.aspose.words/xlsxsectionmode/) | Specifies how sections are handled when saving a document in the XLSX format. |
 | [XmlDataLoadOptions](../com.aspose.words/xmldataloadoptions/) | Represents options for XML data loading. |
 | [XmlDataSource](../com.aspose.words/xmldatasource/) | Provides access to data of an XML file or stream to be used within a report. |
+| [XmlDsigLevel](../com.aspose.words/xmldsiglevel/) | Specifies the level of a digital signature based on XML-DSig standard. |
 | [XmlMapping](../com.aspose.words/xmlmapping/) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
 | [XpsSaveOptions](../com.aspose.words/xpssaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XPS](../com.aspose.words/saveformat/\#XPS) format. |
 | [Zip64Mode](../com.aspose.words/zip64mode/) | Specifies when to use ZIP64 format extensions for OOXML files. |

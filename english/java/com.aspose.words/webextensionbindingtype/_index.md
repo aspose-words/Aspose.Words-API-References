@@ -4,7 +4,7 @@ linktitle: WebExtensionBindingType
 second_title: Aspose.Words for Java
 description: Enumerates available types of binding between a web extension and the data in the document in Java.
 type: docs
-weight: 672
+weight: 676
 url: /java/com.aspose.words/webextensionbindingtype/
 ---
 

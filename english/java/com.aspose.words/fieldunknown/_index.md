@@ -4,7 +4,7 @@ linktitle: FieldUnknown
 second_title: Aspose.Words for Java
 description: Implements an unknown or unrecognized field in Java.
 type: docs
-weight: 286
+weight: 287
 url: /java/com.aspose.words/fieldunknown/
 ---
 

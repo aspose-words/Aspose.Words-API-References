@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading HTML document into a Document object in Java.
 type: docs
-weight: 361
+weight: 365
 url: /java/com.aspose.words/htmlloadoptions/
 ---
 

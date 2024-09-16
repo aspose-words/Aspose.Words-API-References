@@ -152,6 +152,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [getFontInfos()](#getFontInfos) | Provides access to properties of fonts used in this document. |
 | [getFontSettings()](#getFontSettings) | Gets document font settings. |
 | [getFootnoteOptions()](#getFootnoteOptions) | Provides options that control numbering and positioning of footnotes in this document. |
+| [getFootnoteSeparators()](#getFootnoteSeparators) | Provides access to the footnote/endnote separators defined in the document. |
 | [getFrameset()](#getFrameset) | Returns a [getFrameset()](../../com.aspose.words/document/\#getFrameset) instance if this document represents a frames page. |
 | [getGlossaryDocument()](#getGlossaryDocument) | Gets the glossary document within this document or template. |
 | [getGrammarChecked()](#getGrammarChecked) | Returns  true  if the document has been checked for grammar. |
@@ -3390,6 +3391,42 @@ Shows how to restart footnote/endnote numbering at certain places in the documen
 
 **Returns:**
 [FootnoteOptions](../../com.aspose.words/footnoteoptions/) - The corresponding [FootnoteOptions](../../com.aspose.words/footnoteoptions/) value.
+### getFootnoteSeparators() {#getFootnoteSeparators}
+```
+public FootnoteSeparatorCollection getFootnoteSeparators()
+```
+
+
+Provides access to the footnote/endnote separators defined in the document.
+
+ **Examples:** 
+
+Shows how to remove endnote separator.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ FootnoteSeparator endnoteSeparator = doc.getFootnoteSeparators().getByFootnoteSeparatorType(FootnoteSeparatorType.ENDNOTE_SEPARATOR);
+ // Remove endnote separator.
+ endnoteSeparator.getFirstParagraph().getFirstChild().remove();
+ 
+```
+
+Shows how to manage footnote separator format.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ FootnoteSeparator footnoteSeparator = doc.getFootnoteSeparators().getByFootnoteSeparatorType(FootnoteSeparatorType.FOOTNOTE_SEPARATOR);
+ // Align footnote separator.
+ footnoteSeparator.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ 
+```
+
+**Returns:**
+[FootnoteSeparatorCollection](../../com.aspose.words/footnoteseparatorcollection/) - The corresponding [FootnoteSeparatorCollection](../../com.aspose.words/footnoteseparatorcollection/) value.
 ### getFrameset() {#getFrameset}
 ```
 public Frameset getFrameset()

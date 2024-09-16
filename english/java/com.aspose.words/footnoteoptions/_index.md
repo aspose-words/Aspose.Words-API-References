@@ -4,7 +4,7 @@ linktitle: FootnoteOptions
 second_title: Aspose.Words for Java
 description: Represents the footnote numbering options for a document or section in Java.
 type: docs
-weight: 325
+weight: 326
 url: /java/com.aspose.words/footnoteoptions/
 ---
 

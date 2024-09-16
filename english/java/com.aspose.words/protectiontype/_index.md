@@ -4,7 +4,7 @@ linktitle: ProtectionType
 second_title: Aspose.Words for Java
 description: Protection type for a document in Java.
 type: docs
-weight: 518
+weight: 522
 url: /java/com.aspose.words/protectiontype/
 ---
 

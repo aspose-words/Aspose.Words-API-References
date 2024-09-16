@@ -4,7 +4,7 @@ linktitle: FieldChar
 second_title: Aspose.Words for Java
 description: Base class for nodes that represent field characters in a document in Java.
 type: docs
-weight: 196
+weight: 197
 url: /java/com.aspose.words/fieldchar/
 ---
 
@@ -1303,7 +1303,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (181553,6)
+Returns  true  if this node can contain other nodes. (181550,6)
 
  **Examples:** 
 

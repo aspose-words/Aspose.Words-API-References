@@ -4,7 +4,7 @@ linktitle: HyphenationOptions
 second_title: Aspose.Words for Java
 description: Allows to configure document hyphenation options in Java.
 type: docs
-weight: 367
+weight: 371
 url: /java/com.aspose.words/hyphenationoptions/
 ---
 

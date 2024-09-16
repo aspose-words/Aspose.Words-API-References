@@ -4,7 +4,7 @@ linktitle: VariationAxis
 second_title: Aspose.Words for Java
 description:  in Java.
 type: docs
-weight: 649
+weight: 653
 url: /java/com.aspose.words/variationaxis/
 ---
 

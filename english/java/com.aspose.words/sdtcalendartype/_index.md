@@ -4,7 +4,7 @@ linktitle: SdtCalendarType
 second_title: Aspose.Words for Java
 description: Specifies the possible types of calendars which can be used to specify StructuredDocumentTag.getCalendarType / StructuredDocumentTag.setCalendarTypeint in an Office Open XML document in Java.
 type: docs
-weight: 555
+weight: 559
 url: /java/com.aspose.words/sdtcalendartype/
 ---
 

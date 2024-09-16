@@ -4,7 +4,7 @@ linktitle: MarkdownLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.MARKDOWN document into a Document object in Java.
 type: docs
-weight: 425
+weight: 429
 url: /java/com.aspose.words/markdownloadoptions/
 ---
 
@@ -47,6 +47,7 @@ Shows how to preserve empty line while load a document.
 | [getEncoding()](#getEncoding) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 | [getFontSettings()](#getFontSettings) | Allows to specify document font settings. |
 | [getIgnoreOleData()](#getIgnoreOleData) | Specifies whether to ignore the OLE data. |
+| [getImportUnderlineFormatting()](#getImportUnderlineFormatting) | Gets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. |
 | [getLanguagePreferences()](#getLanguagePreferences) | Gets language preferences that will be used when document is loading. |
 | [getLoadFormat()](#getLoadFormat) | Specifies the format of the document to be loaded. |
 | [getMswVersion()](#getMswVersion) | Allows to specify that the document loading process should match a specific MS Word version. |
@@ -65,6 +66,7 @@ Shows how to preserve empty line while load a document.
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 | [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings) | Allows to specify document font settings. |
 | [setIgnoreOleData(boolean value)](#setIgnoreOleData-boolean) | Specifies whether to ignore the OLE data. |
+| [setImportUnderlineFormatting(boolean value)](#setImportUnderlineFormatting-boolean) | Sets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. |
 | [setLoadFormat(int value)](#setLoadFormat-int) | Specifies the format of the document to be loaded. |
 | [setMswVersion(int value)](#setMswVersion-int) | Allows to specify that the document loading process should match a specific MS Word version. |
 | [setPassword(String value)](#setPassword-java.lang.String) | Sets the password for opening an encrypted document. |
@@ -374,6 +376,39 @@ Shows how to ingore OLE data while loading.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getImportUnderlineFormatting() {#getImportUnderlineFormatting}
+```
+public boolean getImportUnderlineFormatting()
+```
+
+
+Gets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. The default value is  false .
+
+ **Examples:** 
+
+Shows how to recognize plus characters "++" as underline text formatting.
+
+```
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream("++12 and B++".getBytes(StandardCharsets.US_ASCII)))
+ {
+     MarkdownLoadOptions loadOptions = new MarkdownLoadOptions(); { loadOptions.setImportUnderlineFormatting(true); }
+     Document doc = new Document(stream, loadOptions);
+
+     Paragraph para = (Paragraph)doc.getChild(NodeType.PARAGRAPH, 0, true);
+     Assert.assertEquals(Underline.SINGLE, para.getRuns().get(0).getFont().getUnderline());
+
+     loadOptions = new MarkdownLoadOptions(); { loadOptions.setImportUnderlineFormatting(false); }
+     doc = new Document(stream, loadOptions);
+
+     para = (Paragraph)doc.getChild(NodeType.PARAGRAPH, 0, true);
+     Assert.assertEquals(Underline.NONE, para.getRuns().get(0).getFont().getUnderline());
+ }
+ 
+```
+
+**Returns:**
+boolean - A boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting.
 ### getLanguagePreferences() {#getLanguagePreferences}
 ```
 public LanguagePreferences getLanguagePreferences()
@@ -1176,6 +1211,42 @@ Shows how to ingore OLE data while loading.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setImportUnderlineFormatting(boolean value) {#setImportUnderlineFormatting-boolean}
+```
+public void setImportUnderlineFormatting(boolean value)
+```
+
+
+Sets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. The default value is  false .
+
+ **Examples:** 
+
+Shows how to recognize plus characters "++" as underline text formatting.
+
+```
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream("++12 and B++".getBytes(StandardCharsets.US_ASCII)))
+ {
+     MarkdownLoadOptions loadOptions = new MarkdownLoadOptions(); { loadOptions.setImportUnderlineFormatting(true); }
+     Document doc = new Document(stream, loadOptions);
+
+     Paragraph para = (Paragraph)doc.getChild(NodeType.PARAGRAPH, 0, true);
+     Assert.assertEquals(Underline.SINGLE, para.getRuns().get(0).getFont().getUnderline());
+
+     loadOptions = new MarkdownLoadOptions(); { loadOptions.setImportUnderlineFormatting(false); }
+     doc = new Document(stream, loadOptions);
+
+     para = (Paragraph)doc.getChild(NodeType.PARAGRAPH, 0, true);
+     Assert.assertEquals(Underline.NONE, para.getRuns().get(0).getFont().getUnderline());
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. |
 
 ### setLoadFormat(int value) {#setLoadFormat-int}
 ```

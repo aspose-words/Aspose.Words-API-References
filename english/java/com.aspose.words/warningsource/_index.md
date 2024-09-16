@@ -4,7 +4,7 @@ linktitle: WarningSource
 second_title: Aspose.Words for Java
 description: Specifies the module that produces a warning during document loading or saving in Java.
 type: docs
-weight: 664
+weight: 668
 url: /java/com.aspose.words/warningsource/
 ---
 

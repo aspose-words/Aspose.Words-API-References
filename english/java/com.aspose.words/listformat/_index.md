@@ -4,7 +4,7 @@ linktitle: ListFormat
 second_title: Aspose.Words for Java
 description: Allows to control what list formatting is applied to a paragraph in Java.
 type: docs
-weight: 404
+weight: 408
 url: /java/com.aspose.words/listformat/
 ---
 
