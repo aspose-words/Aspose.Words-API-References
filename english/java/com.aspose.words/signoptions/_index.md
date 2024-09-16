@@ -4,7 +4,7 @@ linktitle: SignOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for document signing in Java.
 type: docs
-weight: 575
+weight: 579
 url: /java/com.aspose.words/signoptions/
 ---
 
@@ -62,12 +62,14 @@ Shows how to digitally sign documents.
 | [getSignTime()](#getSignTime) | The date of signing. |
 | [getSignatureLineId()](#getSignatureLineId) | Signature line identifier. |
 | [getSignatureLineImage()](#getSignatureLineImage) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
+| [getXmlDsigLevel()](#getXmlDsigLevel) | Specifies the level of a digital signature based on XML-DSig standard. |
 | [setComments(String value)](#setComments-java.lang.String) | Specifies comments on the digital signature. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String) | The password to decrypt source document. |
 | [setProviderId(UUID value)](#setProviderId-java.util.UUID) | Specifies the class ID of the signature provider. |
 | [setSignTime(Date value)](#setSignTime-java.util.Date) | The date of signing. |
 | [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID) | Signature line identifier. |
 | [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
+| [setXmlDsigLevel(int value)](#setXmlDsigLevel-int) | Specifies the level of a digital signature based on XML-DSig standard. |
 ### getComments() {#getComments}
 ```
 public String getComments()
@@ -451,6 +453,35 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
 **Returns:**
 byte[] - The corresponding byte[] value.
+### getXmlDsigLevel() {#getXmlDsigLevel}
+```
+public int getXmlDsigLevel()
+```
+
+
+Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDsigLevel.XML\_D\_SIG](../../com.aspose.words/xmldsiglevel/\#XML-D-SIG).
+
+ **Remarks:** 
+
+Different levels of XAdES signatures can be created starting from Office 2010.
+
+ **Examples:** 
+
+Shows how to sign document based on XML-DSig standard.
+
+```
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ SignOptions signOptions = new SignOptions(); { signOptions.setXmlDsigLevel(XmlDsigLevel.X_AD_ES_EPES); }
+
+ String inputFileName = getMyDir() + "Document.docx";
+ String outputFileName = getArtifactsDir() + "DigitalSignatureUtil.XmlDsig.docx";
+ DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [XmlDsigLevel](../../com.aspose.words/xmldsiglevel/) constants.
 ### setComments(String value) {#setComments-java.lang.String}
 ```
 public void setComments(String value)
@@ -851,4 +882,36 @@ Shows how to add a signature line to a document, and then sign it using a digita
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
+
+### setXmlDsigLevel(int value) {#setXmlDsigLevel-int}
+```
+public void setXmlDsigLevel(int value)
+```
+
+
+Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDsigLevel.XML\_D\_SIG](../../com.aspose.words/xmldsiglevel/\#XML-D-SIG).
+
+ **Remarks:** 
+
+Different levels of XAdES signatures can be created starting from Office 2010.
+
+ **Examples:** 
+
+Shows how to sign document based on XML-DSig standard.
+
+```
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ SignOptions signOptions = new SignOptions(); { signOptions.setXmlDsigLevel(XmlDsigLevel.X_AD_ES_EPES); }
+
+ String inputFileName = getMyDir() + "Document.docx";
+ String outputFileName = getArtifactsDir() + "DigitalSignatureUtil.XmlDsig.docx";
+ DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [XmlDsigLevel](../../com.aspose.words/xmldsiglevel/) constants. |
 

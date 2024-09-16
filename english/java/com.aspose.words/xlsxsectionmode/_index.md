@@ -4,7 +4,7 @@ linktitle: XlsxSectionMode
 second_title: Aspose.Words for Java
 description: Specifies how sections are handled when saving a document in the XLSX format in Java.
 type: docs
-weight: 687
+weight: 691
 url: /java/com.aspose.words/xlsxsectionmode/
 ---
 

@@ -4,7 +4,7 @@ linktitle: EditableRangeEnd
 second_title: Aspose.Words for Java
 description: Represents an end of an editable range in a Word document in Java.
 type: docs
-weight: 166
+weight: 167
 url: /java/com.aspose.words/editablerangeend/
 ---
 
@@ -1045,7 +1045,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (181553,6)
+Returns  true  if this node can contain other nodes. (181550,6)
 
  **Examples:** 
 

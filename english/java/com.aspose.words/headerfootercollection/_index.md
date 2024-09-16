@@ -4,7 +4,7 @@ linktitle: HeaderFooterCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to HeaderFooter nodes of a Section in Java.
 type: docs
-weight: 350
+weight: 354
 url: /java/com.aspose.words/headerfootercollection/
 ---
 
@@ -118,7 +118,7 @@ Shows how to create a header and a footer.
 | [linkToPrevious(int headerFooterType, boolean isLinkToPrevious)](#linkToPrevious-int-boolean) |  |
 | [remove(Node node)](#remove-com.aspose.words.Node) | Removes the node from the collection and from the document. |
 | [removeAt(int index)](#removeAt-int) | Removes the node at the specified index from the collection and from the document. |
-| [toArray()](#toArray) | Copies all  HeaderFoorter  s from the collection to a new array of  HeaderFoorter  s. |
+| [toArray()](#toArray) | Copies all  HeaderFooter  s from the collection to a new array of  HeaderFooter  s. |
 ### add(Node node) {#add-com.aspose.words.Node}
 ```
 public void add(Node node)
@@ -725,11 +725,11 @@ Shows how to add and remove sections in a document.
 
 ### toArray() {#toArray}
 ```
-public Node[] toArray()
+public HeaderFooter[] toArray()
 ```
 
 
-Copies all  HeaderFoorter  s from the collection to a new array of  HeaderFoorter  s.
+Copies all  HeaderFooter  s from the collection to a new array of  HeaderFooter  s.
 
  **Examples:** 
 
@@ -818,4 +818,4 @@ Shows how to print the node structure of every header and footer in a document.
 ```
 
 **Returns:**
-com.aspose.words.Node[] - An array of  HeaderFoorter  s.
+com.aspose.words.HeaderFooter[] - An array of  HeaderFooter  s.

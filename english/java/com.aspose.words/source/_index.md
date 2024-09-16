@@ -4,7 +4,7 @@ linktitle: Source
 second_title: Aspose.Words for Java
 description: Represents an individual source such as a book journal article or interview in Java.
 type: docs
-weight: 580
+weight: 584
 url: /java/com.aspose.words/source/
 ---
 

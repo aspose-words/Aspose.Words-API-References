@@ -4,7 +4,7 @@ linktitle: VariationAxisCoordinate
 second_title: Aspose.Words for Java
 description:  in Java.
 type: docs
-weight: 650
+weight: 654
 url: /java/com.aspose.words/variationaxiscoordinate/
 ---
 

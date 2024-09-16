@@ -39,7 +39,6 @@ class IStructuredDocumentTag : public virtual System::Object
 | virtual [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) |  |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| virtual [IsRanged](./isranged/)() | Returns true if this instance is a ranged structured document tag. |
 | virtual [RemoveSelfOnly](./removeselfonly/)() |  |
 | virtual [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) |  |
 | virtual [set_Color](./set_color/)(System::Drawing::Color) | Sets the color of the structured document tag. |
@@ -49,7 +48,6 @@ class IStructuredDocumentTag : public virtual System::Object
 | virtual [set_PlaceholderName](./set_placeholdername/)(System::String) | Sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. BuildingBlock with this name [Name](../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../aspose.words/document/get_glossarydocument/) otherwise [InvalidOperationException](../) will occur. |
 | virtual [set_Tag](./set_tag/)(System::String) | Specifies a tag associated with the current SDT node. Can not be null. |
 | virtual [set_Title](./set_title/)(System::String) | Specifies the friendly name associated with this **SDT**. Can not be null. |
-| virtual [StructuredDocumentTagNode](./structureddocumenttagnode/)() | Returns [Node](../../aspose.words/node/) object that implements this interface. |
 | static [Type](./type/)() |  |
 ## See Also
 

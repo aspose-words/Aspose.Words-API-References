@@ -4,7 +4,7 @@ linktitle: FieldDocProperty
 second_title: Aspose.Words for Java
 description: Implements the DOCPROPERTY field in Java.
 type: docs
-weight: 210
+weight: 211
 url: /java/com.aspose.words/fielddocproperty/
 ---
 

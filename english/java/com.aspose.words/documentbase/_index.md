@@ -65,6 +65,7 @@ Shows how to initialize the subclasses of DocumentBase.
 | [getDocument()](#getDocument) | Gets this instance. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
 | [getFontInfos()](#getFontInfos) | Provides access to properties of fonts used in this document. |
+| [getFootnoteSeparators()](#getFootnoteSeparators) | Provides access to the footnote/endnote separators defined in the document. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getLists()](#getLists) | Provides access to the list formatting used in the document. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
@@ -1283,6 +1284,42 @@ Shows how to print the details of what fonts are present in a document.
 
 **Returns:**
 [FontInfoCollection](../../com.aspose.words/fontinfocollection/) - The corresponding [FontInfoCollection](../../com.aspose.words/fontinfocollection/) value.
+### getFootnoteSeparators() {#getFootnoteSeparators}
+```
+public FootnoteSeparatorCollection getFootnoteSeparators()
+```
+
+
+Provides access to the footnote/endnote separators defined in the document.
+
+ **Examples:** 
+
+Shows how to remove endnote separator.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ FootnoteSeparator endnoteSeparator = doc.getFootnoteSeparators().getByFootnoteSeparatorType(FootnoteSeparatorType.ENDNOTE_SEPARATOR);
+ // Remove endnote separator.
+ endnoteSeparator.getFirstParagraph().getFirstChild().remove();
+ 
+```
+
+Shows how to manage footnote separator format.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ FootnoteSeparator footnoteSeparator = doc.getFootnoteSeparators().getByFootnoteSeparatorType(FootnoteSeparatorType.FOOTNOTE_SEPARATOR);
+ // Align footnote separator.
+ footnoteSeparator.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ 
+```
+
+**Returns:**
+[FootnoteSeparatorCollection](../../com.aspose.words/footnoteseparatorcollection/) - The corresponding [FootnoteSeparatorCollection](../../com.aspose.words/footnoteseparatorcollection/) value.
 ### getLastChild() {#getLastChild}
 ```
 public Node getLastChild()

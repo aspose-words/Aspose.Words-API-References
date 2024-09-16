@@ -164,7 +164,9 @@ Shows how to build a table with custom borders.
 | Constructor | Description |
 | --- | --- |
 | [DocumentBuilder()](#DocumentBuilder) | Initializes a new instance of this class. |
+| [DocumentBuilder(DocumentBuilderOptions options)](#DocumentBuilder-com.aspose.words.DocumentBuilderOptions) | Initializes a new instance of this class. |
 | [DocumentBuilder(Document doc)](#DocumentBuilder-com.aspose.words.Document) | Initializes a new instance of this class. |
+| [DocumentBuilder(Document doc, DocumentBuilderOptions options)](#DocumentBuilder-com.aspose.words.Document-com.aspose.words.DocumentBuilderOptions) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
@@ -223,6 +225,8 @@ Shows how to build a table with custom borders.
 | [insertField(String fieldCode, String fieldValue)](#insertField-java.lang.String-java.lang.String) | Inserts a Word field into a document without updating the field result. |
 | [insertFootnote(int footnoteType, String footnoteText)](#insertFootnote-int-java.lang.String) |  |
 | [insertFootnote(int footnoteType, String footnoteText, String referenceMark)](#insertFootnote-int-java.lang.String-java.lang.String) |  |
+| [insertGroupShape(Shape[] shapes)](#insertGroupShape-com.aspose.words.Shape...) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
+| [insertGroupShape(double left, double top, double width, double height, Shape[] shapes)](#insertGroupShape-double-double-double-double-com.aspose.words.Shape...) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 | [insertHorizontalRule()](#insertHorizontalRule) | Inserts a horizontal rule shape into the document. |
 | [insertHtml(String html)](#insertHtml-java.lang.String) | Inserts an HTML string into the document. |
 | [insertHtml(String html, boolean useBuilderFormatting)](#insertHtml-java.lang.String-boolean) | Inserts an HTML string into the document. |
@@ -256,6 +260,7 @@ Shows how to build a table with custom borders.
 | [insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertShape-int-int-double-int-double-double-double-int) |  |
 | [insertSignatureLine(SignatureLineOptions signatureLineOptions)](#insertSignatureLine-com.aspose.words.SignatureLineOptions) | Inserts a signature line at the current position. |
 | [insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int) |  |
+| [insertStructuredDocumentTag(int type)](#insertStructuredDocumentTag-int) |  |
 | [insertStyleSeparator()](#insertStyleSeparator) | Inserts style separator into the document. |
 | [insertTableOfContents(String switches)](#insertTableOfContents-java.lang.String) | Inserts a TOC (table of contents) field into the document. |
 | [insertTextInput(String name, int type, String format, String fieldValue, int maxLength)](#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int) |  |
@@ -328,6 +333,23 @@ Shows how to insert formatted text using DocumentBuilder.
  builder.write("Hello world!");
  
 ```
+
+### DocumentBuilder(DocumentBuilderOptions options) {#DocumentBuilder-com.aspose.words.DocumentBuilderOptions}
+```
+public DocumentBuilder(DocumentBuilderOptions options)
+```
+
+
+Initializes a new instance of this class.
+
+ **Remarks:** 
+
+Creates a new [DocumentBuilder](../../com.aspose.words/documentbuilder/) object and attaches it to a new [Document](../../com.aspose.words/document/) object. Additional document building options can be specified.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [DocumentBuilderOptions](../../com.aspose.words/documentbuilderoptions/) |  |
 
 ### DocumentBuilder(Document doc) {#DocumentBuilder-com.aspose.words.Document}
 ```
@@ -426,6 +448,24 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | [Document](../../com.aspose.words/document/) | The [Document](../../com.aspose.words/document/) object to attach to. |
+
+### DocumentBuilder(Document doc, DocumentBuilderOptions options) {#DocumentBuilder-com.aspose.words.Document-com.aspose.words.DocumentBuilderOptions}
+```
+public DocumentBuilder(Document doc, DocumentBuilderOptions options)
+```
+
+
+Initializes a new instance of this class.
+
+ **Remarks:** 
+
+Creates a new [DocumentBuilder](../../com.aspose.words/documentbuilder/) object, attaches to the specified [Document](../../com.aspose.words/document/) object. The cursor is positioned at the beginning of the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [Document](../../com.aspose.words/document/) | The [Document](../../com.aspose.words/document/) object to attach to. |
+| options | [DocumentBuilderOptions](../../com.aspose.words/documentbuilderoptions/) | Additional options for the document building process. |
 
 ### clearCellAttrs() {#clearCellAttrs}
 ```
@@ -2898,6 +2938,120 @@ public Footnote insertFootnote(int footnoteType, String footnoteText, String ref
 
 **Returns:**
 [Footnote](../../com.aspose.words/footnote/)
+### insertGroupShape(Shape[] shapes) {#insertGroupShape-com.aspose.words.Shape...}
+```
+public GroupShape insertGroupShape(Shape[] shapes)
+```
+
+
+Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position.
+
+ **Remarks:** 
+
+The position and dimension of the new GroupShape will be calculated automatically.
+
+VML and DML shapes cannot be grouped together.
+
+ **Examples:** 
+
+Shows how to insert DML group shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape1 = builder.insertShape(ShapeType.RECTANGLE, 200.0, 250.0);
+ shape1.setLeft(20.0);
+ shape1.setTop(20.0);
+ shape1.getStroke().setColor(Color.RED);
+
+ Shape shape2 = builder.insertShape(ShapeType.ELLIPSE, 150.0, 200.0);
+ shape2.setLeft(40.0);
+ shape2.setTop(50.0);
+ shape2.getStroke().setColor(Color.GREEN);
+
+ // Dimensions for the new GroupShape node.
+ double left = 10.0;
+ double top = 10.0;
+ double width = 200.0;
+ double height = 300.0;
+ // Insert GroupShape node for the specified size which is inserted into the specified position.
+ GroupShape groupShape1 = builder.insertGroupShape(left, top, width, height, new Shape[] { shape1, shape2 });
+
+ // Insert GroupShape node which position and dimension will be calculated automatically.
+ Shape shape3 = (Shape)shape1.deepClone(true);
+ GroupShape groupShape2 = builder.insertGroupShape(shape3);
+
+ doc.save(getArtifactsDir() + "Shape.InsertGroupShape.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapes | [Shape\[\]](../../com.aspose.words/shape/) | The list of shapes to be grouped. |
+
+**Returns:**
+[GroupShape](../../com.aspose.words/groupshape/)
+### insertGroupShape(double left, double top, double width, double height, Shape[] shapes) {#insertGroupShape-double-double-double-double-com.aspose.words.Shape...}
+```
+public GroupShape insertGroupShape(double left, double top, double width, double height, Shape[] shapes)
+```
+
+
+Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position.
+
+ **Remarks:** 
+
+VML and DML shapes cannot be grouped together.
+
+ **Examples:** 
+
+Shows how to insert DML group shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape1 = builder.insertShape(ShapeType.RECTANGLE, 200.0, 250.0);
+ shape1.setLeft(20.0);
+ shape1.setTop(20.0);
+ shape1.getStroke().setColor(Color.RED);
+
+ Shape shape2 = builder.insertShape(ShapeType.ELLIPSE, 150.0, 200.0);
+ shape2.setLeft(40.0);
+ shape2.setTop(50.0);
+ shape2.getStroke().setColor(Color.GREEN);
+
+ // Dimensions for the new GroupShape node.
+ double left = 10.0;
+ double top = 10.0;
+ double width = 200.0;
+ double height = 300.0;
+ // Insert GroupShape node for the specified size which is inserted into the specified position.
+ GroupShape groupShape1 = builder.insertGroupShape(left, top, width, height, new Shape[] { shape1, shape2 });
+
+ // Insert GroupShape node which position and dimension will be calculated automatically.
+ Shape shape3 = (Shape)shape1.deepClone(true);
+ GroupShape groupShape2 = builder.insertGroupShape(shape3);
+
+ doc.save(getArtifactsDir() + "Shape.InsertGroupShape.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| left | double | Distance in points from the origin to the left side of the group shape. |
+| top | double | Distance in points from the origin to the top side of the group shape. |
+| width | double | The width of the group shape in points. A negative value is not allowed. |
+| height | double | The height of the group shape in points. A negative value is not allowed. |
+| shapes | [Shape\[\]](../../com.aspose.words/shape/) | The list of shapes to be grouped. |
+
+**Returns:**
+[GroupShape](../../com.aspose.words/groupshape/)
 ### insertHorizontalRule() {#insertHorizontalRule}
 ```
 public Shape insertHorizontalRule()
@@ -4269,6 +4423,21 @@ public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, int 
 
 **Returns:**
 [Shape](../../com.aspose.words/shape/)
+### insertStructuredDocumentTag(int type) {#insertStructuredDocumentTag-int}
+```
+public StructuredDocumentTag insertStructuredDocumentTag(int type)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int |  |
+
+**Returns:**
+[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/)
 ### insertStyleSeparator() {#insertStyleSeparator}
 ```
 public void insertStyleSeparator()
