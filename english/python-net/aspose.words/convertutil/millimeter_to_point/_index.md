@@ -34,7 +34,7 @@ Shows how to specify page properties in millimeters.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A section's "Page Setup" defines the size of the page margins in points.
 # We can also use the "ConvertUtil" class to use a more familiar measurement unit,
 # such as millimeters when defining boundaries.

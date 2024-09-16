@@ -41,7 +41,7 @@ Shows how to work with data labels of a bubble chart.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 chart = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.BUBBLE, width=500, height=300).chart
 # Clear the chart's demo data series to start with a clean chart.
 chart.series.clear()

@@ -47,7 +47,7 @@ Shows how to set foreground and background colors for shading texture.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shading = doc.first_section.body.first_paragraph.paragraph_format.shading
 shading.texture = aw.TextureIndex.TEXTURE_12PT5_PERCENT
 shading.foreground_pattern_theme_color = aw.themes.ThemeColor.DARK1

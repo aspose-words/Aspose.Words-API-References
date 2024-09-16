@@ -5,7 +5,7 @@ articleTitle: HeaderFooter class
 second_title: Aspose.Words for Python
 description: "aspose.words.HeaderFooter class. Represents a container for the header or footer text of a section"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words/headerfooter/
 ---
 

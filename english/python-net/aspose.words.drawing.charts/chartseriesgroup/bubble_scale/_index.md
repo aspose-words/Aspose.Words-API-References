@@ -41,7 +41,7 @@ Show how to set size of the bubbles.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a bubble 3D chart.
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.BUBBLE_3D, width=450, height=250)
 series_group = shape.chart.series_groups[0]

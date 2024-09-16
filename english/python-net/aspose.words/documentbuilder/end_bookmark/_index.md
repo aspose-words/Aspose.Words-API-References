@@ -45,7 +45,7 @@ Shows how create a bookmark.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A valid bookmark needs to have document body text enclosed by
 # BookmarkStart and BookmarkEnd nodes created with a matching bookmark name.
 builder.start_bookmark('MyBookmark')

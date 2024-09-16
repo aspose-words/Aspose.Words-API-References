@@ -5,7 +5,7 @@ articleTitle: page_color property
 second_title: Aspose.Words for Python
 description: "DocumentBase.page_color property. Gets or sets the page color of the document"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words/documentbase/page_color/
 ---
 
@@ -43,7 +43,7 @@ Shows how to set the background color for all pages of a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 doc.page_color = aspose.pydrawing.Color.light_gray
 doc.save(file_name=ARTIFACTS_DIR + 'DocumentBase.SetPageColor.docx')

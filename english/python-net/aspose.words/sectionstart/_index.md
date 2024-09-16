@@ -5,7 +5,7 @@ articleTitle: SectionStart enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.SectionStart enumeration. The type of break at the beginning of the section."
 type: docs
-weight: 1070
+weight: 1080
 url: /python-net/aspose.words/sectionstart/
 ---
 
@@ -30,7 +30,7 @@ Shows how to specify how a new section separates itself from the previous.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('This text is in section 1.')
 # Section break types determine how a new section separates itself from the previous section.
 # Below are five types of section breaks.

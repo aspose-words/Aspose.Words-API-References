@@ -37,7 +37,7 @@ Shows how to declare a font that a printer will apply to printed text as a subst
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Non-existent font'
 builder.write('Hello world!')
 save_options = aw.saving.PclSaveOptions()

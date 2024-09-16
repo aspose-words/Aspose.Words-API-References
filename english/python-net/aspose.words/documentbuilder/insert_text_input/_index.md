@@ -5,7 +5,7 @@ articleTitle: insert_text_input method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_text_input method. Inserts a text form field at the current position."
 type: docs
-weight: 480
+weight: 500
 url: /python-net/aspose.words/documentbuilder/insert_text_input/
 ---
 
@@ -60,7 +60,7 @@ Shows how to insert a text input form field into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a form that prompts the user to enter text.
 builder.insert_text_input('TextInput', aw.fields.TextFormFieldType.REGULAR, '', 'Enter your text here', 0)
 doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertTextInput.docx')
@@ -70,7 +70,7 @@ Shows how to insert a text input form field.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Please enter text here: ')
 # Insert a text input field, which will allow the user to click it and enter text.
 # Assign some placeholder text that the user may overwrite and pass

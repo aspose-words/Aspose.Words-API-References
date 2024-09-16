@@ -216,7 +216,7 @@ Shows how to delete all shapes from a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert two shapes along with a group shape with another shape inside it.
 builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=400, height=200)
 builder.insert_shape(shape_type=aw.drawing.ShapeType.STAR, width=300, height=300)

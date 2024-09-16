@@ -31,7 +31,7 @@ Shows how to set fore theme color and tint and shade.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.TEXT_BOX, width=100, height=40)
 stroke = shape.stroke
 stroke.fore_theme_color = aw.themes.ThemeColor.DARK1

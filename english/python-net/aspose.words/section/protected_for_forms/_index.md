@@ -32,7 +32,7 @@ Shows how to turn off protection for a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Section 1. Hello world!')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 builder.writeln('Section 2. Hello again!')

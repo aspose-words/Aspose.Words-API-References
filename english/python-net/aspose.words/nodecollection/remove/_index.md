@@ -29,7 +29,7 @@ Shows how to work with a NodeCollection.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Add text to the document by inserting Runs using a DocumentBuilder.
 builder.write('Run 1. ')
 builder.write('Run 2. ')

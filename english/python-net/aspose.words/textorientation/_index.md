@@ -5,7 +5,7 @@ articleTitle: TextOrientation enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextOrientation enumeration. Specifies orientation of text on a page, in a table cell or a text frame."
 type: docs
-weight: 1270
+weight: 1280
 url: /python-net/aspose.words/textorientation/
 ---
 
@@ -31,7 +31,7 @@ Shows how to build a formatted 2x2 table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.cell_format.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER

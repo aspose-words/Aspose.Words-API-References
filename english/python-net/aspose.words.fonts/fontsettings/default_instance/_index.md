@@ -37,7 +37,7 @@ Shows how to configure the default font settings instance.
 aw.fonts.FontSettings.default_instance.substitution_settings.default_font_substitution.default_font_name = 'Courier New'
 self.assertTrue(aw.fonts.FontSettings.default_instance.substitution_settings.default_font_substitution.enabled)
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Non-existent font'
 builder.write('Hello world!')
 # This document does not have a FontSettings configuration. When we render the document,

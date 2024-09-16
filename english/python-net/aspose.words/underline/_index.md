@@ -5,7 +5,7 @@ articleTitle: Underline enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.Underline enumeration. Indicates type of the underline applied to a font."
 type: docs
-weight: 1300
+weight: 1310
 url: /python-net/aspose.words/underline/
 ---
 
@@ -43,7 +43,7 @@ Shows how to insert a hyperlink field.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('For more information, please visit the ')
 # Insert a hyperlink and emphasize it with custom formatting.
 # The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.

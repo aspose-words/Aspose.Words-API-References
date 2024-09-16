@@ -78,7 +78,7 @@ Shows how to extract pages based on exact page indices.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Add five pages to the document.
 i = 1
 while i < 6:

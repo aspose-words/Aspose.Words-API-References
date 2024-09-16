@@ -28,7 +28,7 @@ Shows how to decorate text with borders and shading.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 borders = builder.paragraph_format.borders
 borders.distance_from_text = 20
 borders.get_by_border_type(aw.BorderType.LEFT).line_style = aw.LineStyle.DOUBLE

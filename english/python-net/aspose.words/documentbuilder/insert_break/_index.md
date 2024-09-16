@@ -34,7 +34,7 @@ Shows how to create headers and footers in a document using DocumentBuilder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Specify that we want different headers and footers for first, even and odd pages.
 builder.page_setup.different_first_page_header_footer = True
 builder.page_setup.odd_and_even_pages_header_footer = True
@@ -58,7 +58,7 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a table of contents for the first page of the document.
 # Configure the table to pick up paragraphs with headings of levels 1 to 3.
 # Also, set its entries to be hyperlinks that will take us
@@ -96,7 +96,7 @@ Shows how to apply and revert page setup settings to sections in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Modify the page setup properties for the builder's current section and add text.
 builder.page_setup.orientation = aw.Orientation.LANDSCAPE
 builder.page_setup.vertical_alignment = aw.PageVerticalAlignment.CENTER

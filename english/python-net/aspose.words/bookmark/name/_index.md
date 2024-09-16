@@ -37,7 +37,7 @@ Shows how to insert a bookmark.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A valid bookmark has a name, a BookmarkStart, and a BookmarkEnd node.
 # Any whitespace in the names of bookmarks will be converted to underscores if we open the saved document with Microsoft Word.
 # If we highlight the bookmark's name in Microsoft Word via Insert -> Links -> Bookmark, and press "Go To",

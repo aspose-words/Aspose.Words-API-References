@@ -5,7 +5,7 @@ articleTitle: lists property
 second_title: Aspose.Words for Python
 description: "DocumentBase.lists property. Provides access to the list formatting used in the document."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/documentbase/lists/
 ---
 

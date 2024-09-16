@@ -31,7 +31,7 @@ Shows how to set the default zooming that a reader applies when opening a render
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 # Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.

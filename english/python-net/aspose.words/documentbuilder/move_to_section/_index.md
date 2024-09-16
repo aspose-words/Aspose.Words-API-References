@@ -5,7 +5,7 @@ articleTitle: move_to_section method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.move_to_section method. Moves the cursor to the beginning of the body in a specified section."
 type: docs
-weight: 580
+weight: 600
 url: /python-net/aspose.words/documentbuilder/move_to_section/
 ---
 
@@ -40,7 +40,7 @@ Shows how to create headers and footers in a document using DocumentBuilder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Specify that we want different headers and footers for first, even and odd pages.
 builder.page_setup.different_first_page_header_footer = True
 builder.page_setup.odd_and_even_pages_header_footer = True

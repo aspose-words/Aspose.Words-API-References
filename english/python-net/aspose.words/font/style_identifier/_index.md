@@ -31,7 +31,7 @@ Shows how to change the style of existing text.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two ways of referencing styles.
 # 1 -  Using the style name:
 builder.font.style_name = 'Emphasis'

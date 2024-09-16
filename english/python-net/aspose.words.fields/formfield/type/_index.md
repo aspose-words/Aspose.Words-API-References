@@ -27,7 +27,7 @@ Shows how to insert a combo box.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Please select a fruit: ')
 # Insert a combo box which will allow a user to choose an option from a collection of strings.
 combo_box = builder.insert_combo_box('MyComboBox', ['Apple', 'Banana', 'Cherry'], 0)

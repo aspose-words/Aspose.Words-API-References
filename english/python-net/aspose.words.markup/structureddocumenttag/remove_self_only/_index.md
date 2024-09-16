@@ -49,7 +49,7 @@ tag.multiline = True
 # Set the "Appearance" property to "SdtAppearance.Tags" to show tags around content.
 # By default structured document tag shows as BoundingBox.
 tag.appearance = aw.markup.SdtAppearance.TAGS
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_node(tag)
 # Insert a clone of our structured document tag in a new paragraph.
 tag_clone = tag.clone(True).as_structured_document_tag()

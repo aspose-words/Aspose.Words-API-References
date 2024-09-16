@@ -35,7 +35,7 @@ Shows how to create and use a paragraph style with list formatting.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a custom paragraph style.
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle1')
 style.font.size = 24

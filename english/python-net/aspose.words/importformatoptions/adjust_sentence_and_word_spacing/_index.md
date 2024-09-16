@@ -34,9 +34,9 @@ Shows how to adjust sentence and word spacing automatically.
 ```python
 src_doc = aw.Document()
 dst_doc = aw.Document()
-builder = aw.DocumentBuilder(src_doc)
+builder = aw.DocumentBuilder(doc=src_doc)
 builder.write('Dolor sit amet.')
-builder = aw.DocumentBuilder(dst_doc)
+builder = aw.DocumentBuilder(doc=dst_doc)
 builder.write('Lorem ipsum.')
 options = aw.ImportFormatOptions()
 options.adjust_sentence_and_word_spacing = True

@@ -31,7 +31,7 @@ Shows how to set the size of a drop cap.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Modify the "LinesToDrop" property to designate a paragraph as a drop cap,
 # which will turn it into a large capital letter that will decorate the next paragraph.
 # Give this property a value of 4 to give the drop cap the height of four text lines.

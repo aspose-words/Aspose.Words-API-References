@@ -54,7 +54,7 @@ Shows how to specify page properties in pixels.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A section's "Page Setup" defines the size of the page margins in points.
 # We can also use the "ConvertUtil" class to use a different measurement unit,
 # such as pixels when defining boundaries.
@@ -77,7 +77,7 @@ Shows how to use convert points to pixels with default and custom resolution.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Define the size of the top margin of this section in pixels, according to a custom DPI.
 my_dpi = 192
 page_setup = builder.page_setup

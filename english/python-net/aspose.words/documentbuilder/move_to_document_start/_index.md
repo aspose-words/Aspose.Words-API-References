@@ -5,7 +5,7 @@ articleTitle: move_to_document_start method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.move_to_document_start method. Moves the cursor to the beginning of the document."
 type: docs
-weight: 530
+weight: 550
 url: /python-net/aspose.words/documentbuilder/move_to_document_start/
 ---
 
@@ -25,7 +25,7 @@ Shows how to move a document builder's cursor to different nodes in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a valid bookmark, an entity that consists of nodes enclosed by a bookmark start node,
 # and a bookmark end node.
 builder.start_bookmark('MyBookmark')

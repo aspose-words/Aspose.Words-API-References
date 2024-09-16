@@ -5,7 +5,7 @@ articleTitle: styles property
 second_title: Aspose.Words for Python
 description: "DocumentBase.styles property. Returns a collection of styles defined in the document."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words/documentbase/styles/
 ---
 
@@ -34,7 +34,7 @@ Shows how to create and use a paragraph style with list formatting.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a custom paragraph style.
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle1')
 style.font.size = 24

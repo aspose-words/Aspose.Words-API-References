@@ -5,7 +5,7 @@ articleTitle: move_to method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.move_to method. Moves the cursor to an inline node or to the end of a paragraph."
 type: docs
-weight: 490
+weight: 510
 url: /python-net/aspose.words/documentbuilder/move_to/
 ---
 
@@ -43,7 +43,7 @@ Shows how to move a document builder's cursor to different nodes in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a valid bookmark, an entity that consists of nodes enclosed by a bookmark start node,
 # and a bookmark end node.
 builder.start_bookmark('MyBookmark')
@@ -80,7 +80,7 @@ Shows how to move a DocumentBuilder's cursor position to a specified node.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Run 1. ')
 # The document builder has a cursor, which acts as the part of the document
 # where the builder appends new nodes when we use its document construction methods.

@@ -33,7 +33,7 @@ Shows how to use of methods of Node and CompositeNode to remove a section before
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Section 1 text.')
 builder.insert_break(aw.BreakType.SECTION_BREAK_CONTINUOUS)
 builder.writeln('Section 2 text.')

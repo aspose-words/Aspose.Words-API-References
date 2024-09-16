@@ -43,11 +43,6 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [number_format](./number_format/) | Returns a [ChartNumberFormat](../chartnumberformat/) object that allows defining number formats for the axis. |
 | [reverse_order](./reverse_order/) | Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min. |
 | [scaling](./scaling/) | Provides access to the scaling options of the axis. |
-| [tick_label_alignment](./tick_label_alignment/) | Gets or sets text alignment of axis tick labels. |
-| [tick_label_offset](./tick_label_offset/) | Gets or sets the distance of labels from the axis. |
-| [tick_label_position](./tick_label_position/) | Returns or sets the position of the tick labels on the axis. |
-| [tick_label_spacing](./tick_label_spacing/) | Gets or sets the interval, at which tick labels are drawn. |
-| [tick_label_spacing_is_auto](./tick_label_spacing_is_auto/) | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [tick_labels](./tick_labels/) | Provides access to the properties of the axis tick mark labels. |
 | [tick_mark_spacing](./tick_mark_spacing/) | Gets or sets the interval, at which tick marks are drawn. |
 | [title](./title/) | Provides access to the axis title properties. |
@@ -59,7 +54,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=500, height=300)
 chart = shape.chart
 # Clear the chart's demo data series to start with a clean chart.

@@ -5,7 +5,7 @@ articleTitle: TextureIndex enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextureIndex enumeration. Specifies shading texture."
 type: docs
-weight: 1290
+weight: 1300
 url: /python-net/aspose.words/textureindex/
 ---
 
@@ -79,7 +79,7 @@ Shows how to decorate text with borders and shading.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 borders = builder.paragraph_format.borders
 borders.distance_from_text = 20
 borders.get_by_border_type(aw.BorderType.LEFT).line_style = aw.LineStyle.DOUBLE

@@ -37,7 +37,7 @@ Shows how to work with styles for content control elements.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two ways to apply a style from the document to a structured document tag.
 # 1 -  Apply a style object from the document's style collection:
 quote_style = doc.styles.get_by_style_identifier(aw.StyleIdentifier.QUOTE)

@@ -41,7 +41,7 @@ Shows how to change orientation and rotation for axis tick labels.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a column chart.
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.COLUMN, width=432, height=252)
 x_tick_labels = shape.chart.axis_x.tick_labels

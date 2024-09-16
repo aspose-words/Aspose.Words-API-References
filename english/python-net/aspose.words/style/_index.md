@@ -5,7 +5,7 @@ articleTitle: Style class
 second_title: Aspose.Words for Python
 description: "aspose.words.Style class. Represents a single built-in or user-defined style"
 type: docs
-weight: 1130
+weight: 1140
 url: /python-net/aspose.words/style/
 ---
 
@@ -57,7 +57,7 @@ Shows how to create and use a paragraph style with list formatting.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a custom paragraph style.
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle1')
 style.font.size = 24

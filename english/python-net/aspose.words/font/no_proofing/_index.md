@@ -31,7 +31,7 @@ Shows how to prevent text from being spell checked by Microsoft Word.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Normally, Microsoft Word emphasizes spelling errors with a jagged red underline.
 # We can un-set the "NoProofing" flag to create a portion of text that
 # bypasses the spell checker while completely disabling it.

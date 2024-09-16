@@ -5,7 +5,7 @@ articleTitle: Story class
 second_title: Aspose.Words for Python
 description: "aspose.words.Story class. Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/)"
 type: docs
-weight: 1110
+weight: 1120
 url: /python-net/aspose.words/story/
 ---
 
@@ -88,7 +88,7 @@ Shows how to remove all shapes from a node.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Use a DocumentBuilder to insert a shape. This is an inline shape,
 # which has a parent Paragraph, which is a child node of the first section's Body.
 builder.insert_shape(shape_type=aw.drawing.ShapeType.CUBE, width=100, height=100)

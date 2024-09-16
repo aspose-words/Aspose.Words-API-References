@@ -31,7 +31,7 @@ Shows how to configure paragraph formatting to create off-center text.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Center all text that the document builder writes, and set up indents.
 # The indent configuration below will create a body of text that will sit asymmetrically on the page.
 # The "center" that we align the text to will be the middle of the body of text, not the middle of the page.

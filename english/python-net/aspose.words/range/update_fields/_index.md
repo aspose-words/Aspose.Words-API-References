@@ -44,7 +44,7 @@ Shows how to update all the fields in a range.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_field(field_code=' DOCPROPERTY Category')
 builder.insert_break(aw.BreakType.SECTION_BREAK_EVEN_PAGE)
 builder.insert_field(field_code=' DOCPROPERTY Category')

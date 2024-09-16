@@ -54,6 +54,7 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [first_building_block](./first_building_block/) | Gets the first building block in the glossary document. |
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [font_infos](../../aspose.words/documentbase/font_infos/) | Provides access to properties of fonts used in this document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
+| [footnote_separators](../../aspose.words/documentbase/footnote_separators/) | Provides access to the footnote/endnote separators defined in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [last_building_block](./last_building_block/) | Gets the last building block in the glossary document. |

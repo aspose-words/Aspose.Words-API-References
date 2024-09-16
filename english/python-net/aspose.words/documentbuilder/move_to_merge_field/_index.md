@@ -5,7 +5,7 @@ articleTitle: move_to_merge_field method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_merge_field method"
 type: docs
-weight: 560
+weight: 580
 url: /python-net/aspose.words/documentbuilder/move_to_merge_field/
 ---
 
@@ -62,7 +62,7 @@ Shows how to fill MERGEFIELDs with data with a document builder instead of a mai
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
 # and then fill them manually.
 builder.insert_field(field_code=' MERGEFIELD Chairman ')

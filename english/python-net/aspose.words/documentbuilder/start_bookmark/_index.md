@@ -5,7 +5,7 @@ articleTitle: start_bookmark method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.start_bookmark method. Marks the current position in the document as a bookmark start."
 type: docs
-weight: 620
+weight: 640
 url: /python-net/aspose.words/documentbuilder/start_bookmark/
 ---
 
@@ -45,7 +45,7 @@ Shows how create a bookmark.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A valid bookmark needs to have document body text enclosed by
 # BookmarkStart and BookmarkEnd nodes created with a matching bookmark name.
 builder.start_bookmark('MyBookmark')

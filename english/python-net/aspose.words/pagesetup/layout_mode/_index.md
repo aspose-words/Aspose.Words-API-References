@@ -31,7 +31,7 @@ Shows how to specify a for the number of characters that each line may have.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Enable pitching, and then use it to set the number of characters per line in this section.
 builder.page_setup.layout_mode = aw.SectionLayoutMode.GRID
 builder.page_setup.characters_per_line = 10
@@ -46,7 +46,7 @@ Shows how to specify a limit for the number of lines that each page may have.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Enable pitching, and then use it to set the number of lines per page in this section.
 # A large enough font size will push some lines down onto the next page to avoid overlapping characters.
 builder.page_setup.layout_mode = aw.SectionLayoutMode.LINE_GRID

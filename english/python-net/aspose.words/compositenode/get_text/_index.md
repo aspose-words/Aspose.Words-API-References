@@ -32,7 +32,7 @@ Shows the difference between calling the GetText and ToString methods on a node.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_field(field_code='MERGEFIELD Field')
 # GetText will retrieve the visible text as well as field codes and special characters.
 self.assertEqual('\x13MERGEFIELD Field\x14«Field»\x15', doc.get_text().strip())

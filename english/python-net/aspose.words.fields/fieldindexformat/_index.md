@@ -33,7 +33,7 @@ Shows how to formatting FieldIndex fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('A')
 builder.insert_break(aw.BreakType.LINE_BREAK)
 builder.insert_field(field_code='XE "A"')

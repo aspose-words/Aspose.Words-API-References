@@ -5,7 +5,7 @@ articleTitle: SaveFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.SaveFormat enumeration. Indicates the format in which the document is saved."
 type: docs
-weight: 1030
+weight: 1040
 url: /python-net/aspose.words/saveformat/
 ---
 

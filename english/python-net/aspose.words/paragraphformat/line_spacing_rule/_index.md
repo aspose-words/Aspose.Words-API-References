@@ -31,7 +31,7 @@ Shows how to work with line spacing.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are three line spacing rules that we can define using the
 # paragraph's "LineSpacingRule" property to configure spacing between paragraphs.
 # 1 -  Set a minimum amount of spacing.

@@ -25,7 +25,7 @@ Shows hot to fit the image data to Shape frame.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert an image shape and leave its orientation in its default state.
 shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=300, height=450)
 shape.image_data.set_image(file_name=IMAGE_DIR + 'Barcode.png')

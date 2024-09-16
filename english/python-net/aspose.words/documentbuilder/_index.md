@@ -55,7 +55,9 @@ you navigate to a different place in the document to reflect formatting properti
 | Name | Description |
 | --- | --- |
 | [DocumentBuilder()](./__init__/#default) | Initializes a new instance of this class. |
+| [DocumentBuilder(options)](./__init__/#documentbuilderoptions) | Initializes a new instance of this class. |
 | [DocumentBuilder(doc)](./__init__/#document) | Initializes a new instance of this class. |
+| [DocumentBuilder(doc, options)](./__init__/#document_documentbuilderoptions) | Initializes a new instance of this class. |
 
 ### Properties
 
@@ -106,6 +108,8 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insert_field(field_code, field_value)](./insert_field/#str_str) | Inserts a Word field into a document without updating the field result. |
 |[ insert_footnote(footnote_type, footnote_text)](./insert_footnote/#footnotetype_str) | Inserts a footnote or endnote into the document. |
 |[ insert_footnote(footnote_type, footnote_text, reference_mark)](./insert_footnote/#footnotetype_str_str) | Inserts a footnote or endnote into the document. |
+|[ insert_group_shape(shapes)](./insert_group_shape/#shapelist) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
+|[ insert_group_shape(left, top, width, height, shapes)](./insert_group_shape/#float_float_float_float_shapelist) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 |[ insert_horizontal_rule()](./insert_horizontal_rule/#default) | Inserts a horizontal rule shape into the document. |
 |[ insert_html(html)](./insert_html/#str) | Inserts an HTML string into the document. |
 |[ insert_html(html, use_builder_formatting)](./insert_html/#str_bool) | Inserts an HTML string into the document. |
@@ -136,6 +140,7 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insert_shape(shape_type, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_shape/#shapetype_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts free-floating shape with specified position, size and text wrap type. |
 |[ insert_signature_line(signature_line_options)](./insert_signature_line/#signaturelineoptions) | Inserts a signature line at the current position. |
 |[ insert_signature_line(signature_line_options, horz_pos, left, vert_pos, top, wrap_type)](./insert_signature_line/#signaturelineoptions_relativehorizontalposition_float_relativeverticalposition_float_wraptype) | Inserts a signature line at the specified position. |
+|[ insert_structured_document_tag(type)](./insert_structured_document_tag/#sdttype) | Inserts a [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) into the document. |
 |[ insert_style_separator()](./insert_style_separator/#default) | Inserts style separator into the document. |
 |[ insert_table_of_contents(switches)](./insert_table_of_contents/#str) | Inserts a TOC (table of contents) field into the document. |
 |[ insert_text_input(name, type, format, field_value, max_length)](./insert_text_input/#str_textformfieldtype_str_str_int) | Inserts a text form field at the current position. |
@@ -169,7 +174,7 @@ Shows how to create headers and footers in a document using DocumentBuilder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Specify that we want different headers and footers for first, even and odd pages.
 builder.page_setup.different_first_page_header_footer = True
 builder.page_setup.odd_and_even_pages_header_footer = True
@@ -193,7 +198,7 @@ Shows how to build a table with custom borders.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.start_table()
 # Setting table formatting options for a document builder
 # will apply them to every row and cell that we add with it.
@@ -240,7 +245,7 @@ Shows how to use a document builder to create a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Start the table, then populate the first row with two cells.
 builder.start_table()
 builder.insert_cell()

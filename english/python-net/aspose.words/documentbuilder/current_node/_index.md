@@ -39,7 +39,7 @@ Shows how to move a document builder's cursor to different nodes in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a valid bookmark, an entity that consists of nodes enclosed by a bookmark start node,
 # and a bookmark end node.
 builder.start_bookmark('MyBookmark')

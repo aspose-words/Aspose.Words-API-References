@@ -5,7 +5,7 @@ articleTitle: pop_font method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.pop_font method. Retrieves character formatting previously saved on the stack."
 type: docs
-weight: 600
+weight: 620
 url: /python-net/aspose.words/documentbuilder/pop_font/
 ---
 
@@ -25,7 +25,7 @@ Shows how to use a document builder's formatting stack.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Set up font formatting, then write the text that goes before the hyperlink.
 builder.font.name = 'Arial'
 builder.font.size = 24

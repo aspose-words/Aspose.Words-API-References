@@ -30,4 +30,5 @@ The **aspose.words.digitalsignatures** module provides classes to sign documents
 | Enumeration | Description |
 | --- | --- |
 | [DigitalSignatureType](./digitalsignaturetype/) | Specifies the type of a digital signature. |
+| [XmlDsigLevel](./xmldsiglevel/) | Specifies the level of a digital signature based on XML-DSig standard. |
 

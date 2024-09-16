@@ -5,7 +5,7 @@ articleTitle: LineSpacingRule enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LineSpacingRule enumeration. Specifies line spacing values for a paragraph."
 type: docs
-weight: 660
+weight: 670
 url: /python-net/aspose.words/linespacingrule/
 ---
 
@@ -28,7 +28,7 @@ Shows how to work with line spacing.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are three line spacing rules that we can define using the
 # paragraph's "LineSpacingRule" property to configure spacing between paragraphs.
 # 1 -  Set a minimum amount of spacing.
