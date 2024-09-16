@@ -5,7 +5,7 @@ articleTitle: PageBorderDistanceFrom enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.PageBorderDistanceFrom enumeration. Specifies the positioning of the page border relative to the page margin."
 type: docs
-weight: 830
+weight: 840
 url: /python-net/aspose.words/pageborderdistancefrom/
 ---
 

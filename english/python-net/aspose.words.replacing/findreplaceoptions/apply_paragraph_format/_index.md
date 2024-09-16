@@ -27,7 +27,7 @@ Shows how to add formatting to paragraphs in which a find-and-replace operation 
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Every paragraph that ends with a full stop like this one will be right aligned.')
 builder.writeln('This one will not!')
 builder.write('This one also will.')

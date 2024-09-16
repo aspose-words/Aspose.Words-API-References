@@ -5,7 +5,7 @@ articleTitle: Shading class
 second_title: Aspose.Words for Python
 description: "aspose.words.Shading class. Contains shading attributes for an object"
 type: docs
-weight: 1080
+weight: 1090
 url: /python-net/aspose.words/shading/
 ---
 
@@ -44,7 +44,7 @@ Shows how to apply border and shading color while building a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Start a table and set a default color/thickness for its borders.
 table = builder.start_table()
 table.set_borders(aw.LineStyle.SINGLE, 2, aspose.pydrawing.Color.black)
@@ -75,7 +75,7 @@ Shows how to decorate text with borders and shading.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 borders = builder.paragraph_format.borders
 borders.distance_from_text = 20
 borders.get_by_border_type(aw.BorderType.LEFT).line_style = aw.LineStyle.DOUBLE

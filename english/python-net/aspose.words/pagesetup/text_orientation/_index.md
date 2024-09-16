@@ -38,7 +38,7 @@ Shows how to set text orientation.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 # Set the "TextOrientation" property to "TextOrientation.Upward" to rotate all the text 90 degrees
 # to the right so that all left-to-right text now goes top-to-bottom.

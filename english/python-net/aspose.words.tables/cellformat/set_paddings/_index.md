@@ -32,7 +32,7 @@ Shows how to pad the contents of a cell with whitespace.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Set a padding distance (in points) between the border and the text contents
 # of each table cell we create with the document builder.
 builder.cell_format.set_paddings(5, 10, 40, 50)

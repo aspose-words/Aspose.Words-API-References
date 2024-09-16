@@ -31,7 +31,7 @@ Shows how to set horizontal scaling and spacing for characters.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Add run of text and increase character width to 150%.
 builder.font.scaling = 150
 builder.writeln('Wide characters')

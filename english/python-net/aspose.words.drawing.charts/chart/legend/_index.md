@@ -27,7 +27,7 @@ Shows how to edit the appearance of a chart's legend.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.LINE, width=450, height=300)
 chart = shape.chart
 self.assertEqual(3, chart.series.count)

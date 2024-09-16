@@ -62,7 +62,7 @@ Shows how to use a TEMPLATE field to display the local file system location of a
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # We can set a template name using by the fields. This property is used when the "doc.AttachedTemplate" is empty.
 # If this property is empty the default template file name "Normal.dotm" is used.
 doc.field_options.template_name = ''

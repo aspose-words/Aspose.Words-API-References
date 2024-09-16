@@ -31,7 +31,7 @@ Shows how to create unevenly spaced columns.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 page_setup = builder.page_setup
 columns = page_setup.text_columns
 columns.evenly_spaced = False

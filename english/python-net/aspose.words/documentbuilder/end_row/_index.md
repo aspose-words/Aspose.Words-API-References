@@ -40,7 +40,7 @@ Shows how to merge table cells vertically.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a cell into the first column of the first row.
 # This cell will be the first in a range of vertically merged cells.
 builder.insert_cell()
@@ -69,7 +69,7 @@ Shows how to build a table with custom borders.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.start_table()
 # Setting table formatting options for a document builder
 # will apply them to every row and cell that we add with it.
@@ -116,7 +116,7 @@ Shows how to build a formatted 2x2 table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.cell_format.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER

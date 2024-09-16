@@ -5,7 +5,7 @@ articleTitle: insert_hyperlink method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_hyperlink method. Inserts a hyperlink into the document."
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.words/documentbuilder/insert_hyperlink/
 ---
 
@@ -47,7 +47,7 @@ Shows how to insert a hyperlink field.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('For more information, please visit the ')
 # Insert a hyperlink and emphasize it with custom formatting.
 # The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
@@ -64,7 +64,7 @@ Shows how to use a document builder's formatting stack.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Set up font formatting, then write the text that goes before the hyperlink.
 builder.font.name = 'Arial'
 builder.font.size = 24

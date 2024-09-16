@@ -37,7 +37,7 @@ Shows how to insert a paragraph with a top border.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 top_border = builder.paragraph_format.borders.top
 top_border.line_width = 4
 top_border.line_style = aw.LineStyle.DASH_SMALL_GAP

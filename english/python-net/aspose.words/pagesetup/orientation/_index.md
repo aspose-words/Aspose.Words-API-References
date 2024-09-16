@@ -38,7 +38,7 @@ Shows how to apply and revert page setup settings to sections in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Modify the page setup properties for the builder's current section and add text.
 builder.page_setup.orientation = aw.Orientation.LANDSCAPE
 builder.page_setup.vertical_alignment = aw.PageVerticalAlignment.CENTER
@@ -60,7 +60,7 @@ Shows how to adjust paper size, orientation, margins, along with other settings 
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.page_setup.paper_size = aw.PaperSize.LEGAL
 builder.page_setup.orientation = aw.Orientation.LANDSCAPE
 builder.page_setup.top_margin = aw.ConvertUtil.inch_to_point(1)

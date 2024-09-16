@@ -31,7 +31,7 @@ Shows how to create a formatted table using DocumentBuilder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 table.left_indent = 20

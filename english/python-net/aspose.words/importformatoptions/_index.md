@@ -5,7 +5,7 @@ articleTitle: ImportFormatOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.ImportFormatOptions class. Allows to specify various import options to format output"
 type: docs
-weight: 590
+weight: 600
 url: /python-net/aspose.words/importformatoptions/
 ---
 
@@ -40,7 +40,7 @@ Shows how to resolve duplicate styles while inserting documents.
 
 ```python
 dst_doc = aw.Document()
-builder = aw.DocumentBuilder(dst_doc)
+builder = aw.DocumentBuilder(doc=dst_doc)
 my_style = builder.document.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle')
 my_style.font.size = 14
 my_style.font.name = 'Courier New'

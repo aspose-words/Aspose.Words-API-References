@@ -53,7 +53,7 @@ Shows how to insert a string surrounded by a border into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.border.color = aspose.pydrawing.Color.green
 builder.font.border.line_width = 2.5
 builder.font.border.line_style = aw.LineStyle.DASH_DOT_STROKER
@@ -65,7 +65,7 @@ Shows how to insert a paragraph with a top border.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 top_border = builder.paragraph_format.borders.top
 top_border.line_width = 4
 top_border.line_style = aw.LineStyle.DASH_SMALL_GAP

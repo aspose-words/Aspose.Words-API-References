@@ -31,7 +31,7 @@ Shows how to format text inserted by a document builder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.underline = aw.Underline.DASH
 builder.font.color = aspose.pydrawing.Color.blue
 builder.font.size = 32

@@ -28,7 +28,7 @@ Shows how to load the contents of a Microsoft Word document in plaintext and the
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 doc.custom_document_properties.add(name='Location of writing', value='123 Main St, London, UK')
 doc.save(file_name=ARTIFACTS_DIR + 'PlainTextDocument.CustomDocumentProperties.docx')

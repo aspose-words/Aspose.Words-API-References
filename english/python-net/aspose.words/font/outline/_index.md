@@ -31,7 +31,7 @@ Shows how to create a run of text formatted as outline.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Set the Outline flag to change the text's fill color to white and
 # leave a thin outline around each character in the original color of the text.
 builder.font.outline = True

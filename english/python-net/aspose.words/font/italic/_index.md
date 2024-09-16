@@ -31,7 +31,7 @@ Shows how to write italicized text using a document builder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.size = 36
 builder.font.italic = True
 builder.writeln('Hello world!')

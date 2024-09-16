@@ -27,7 +27,7 @@ Shows how to specify how a new section separates itself from the previous.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('This text is in section 1.')
 # Section break types determine how a new section separates itself from the previous section.
 # Below are five types of section breaks.
@@ -60,7 +60,7 @@ Shows how to add and remove sections in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Section 1')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 builder.write('Section 2')

@@ -40,6 +40,7 @@ root node of the tree that contains all other nodes of the document.
 | [document](./document/) | Gets this instance. |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [font_infos](./font_infos/) | Provides access to properties of fonts used in this document. |
+| [footnote_separators](./footnote_separators/) | Provides access to the footnote/endnote separators defined in the document. |
 | [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |

@@ -5,7 +5,7 @@ articleTitle: push_font method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.push_font method. Saves current character formatting onto the stack."
 type: docs
-weight: 610
+weight: 630
 url: /python-net/aspose.words/documentbuilder/push_font/
 ---
 
@@ -25,7 +25,7 @@ Shows how to use a document builder's formatting stack.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Set up font formatting, then write the text that goes before the hyperlink.
 builder.font.name = 'Arial'
 builder.font.size = 24

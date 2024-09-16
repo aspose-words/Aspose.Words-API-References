@@ -46,7 +46,7 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a table of contents for the first page of the document.
 # Configure the table to pick up paragraphs with headings of levels 1 to 3.
 # Also, set its entries to be hyperlinks that will take us
@@ -109,7 +109,7 @@ Shows how to set user details, and display them using fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a UserInformation object and set it as the data source for fields that display user information.
 user_information = aw.fields.UserInformation()
 user_information.name = 'John Doe'

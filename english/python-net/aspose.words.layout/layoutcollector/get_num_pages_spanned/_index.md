@@ -32,12 +32,12 @@ Shows how to see the the ranges of pages that a node spans.
 ```python
 doc = aw.Document()
 layout_collector = aw.layout.LayoutCollector(doc)
-# Call the "get_num_pages_spanned" method to count how many pages the content of our document spans.
+# Call the "GetNumPagesSpanned" method to count how many pages the content of our document spans.
 # Since the document is empty, that number of pages is currently zero.
 self.assertEqual(doc, layout_collector.document)
 self.assertEqual(0, layout_collector.get_num_pages_spanned(doc))
 # Populate the document with 5 pages of content.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Section 1')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.insert_break(aw.BreakType.PAGE_BREAK)
@@ -45,7 +45,7 @@ builder.insert_break(aw.BreakType.SECTION_BREAK_EVEN_PAGE)
 builder.write('Section 2')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-# Before the layout collector, we need to call the "update_page_layout" method to give us
+# Before the layout collector, we need to call the "UpdatePageLayout" method to give us
 # an accurate figure for any layout-related metric, such as the page count.
 self.assertEqual(0, layout_collector.get_num_pages_spanned(doc))
 layout_collector.clear()

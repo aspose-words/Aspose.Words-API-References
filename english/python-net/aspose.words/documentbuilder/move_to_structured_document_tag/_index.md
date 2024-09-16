@@ -5,7 +5,7 @@ articleTitle: move_to_structured_document_tag method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_structured_document_tag method"
 type: docs
-weight: 590
+weight: 610
 url: /python-net/aspose.words/documentbuilder/move_to_structured_document_tag/
 ---
 
@@ -58,7 +58,7 @@ Shows how to move cursor of DocumentBuilder inside a structured document tag.
 
 ```python
 doc = aw.Document(file_name=MY_DIR + 'Structured document tags.docx')
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # There is a several ways to move the cursor:
 # 1 -  Move to the first character of structured document tag by index.
 builder.move_to_structured_document_tag(structured_document_tag_index=1, character_index=1)

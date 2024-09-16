@@ -31,7 +31,7 @@ Shows how to enable line numbering for a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # We can use the section's PageSetup object to display numbers to the left of the section's text lines.
 # This is the same behavior as a List object,
 # but it covers the entire section and does not modify the text in any way.

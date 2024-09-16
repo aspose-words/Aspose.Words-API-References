@@ -27,7 +27,7 @@ Shows how to apply settings to vertical borders to a table row's format.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a table with red and blue inner borders.
 table = builder.start_table()
 i = 0

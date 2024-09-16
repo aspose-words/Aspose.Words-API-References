@@ -27,7 +27,7 @@ Shows how border collections can share elements.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Paragraph 1.')
 builder.write('Paragraph 2.')
 # Since we used the same border configuration while creating

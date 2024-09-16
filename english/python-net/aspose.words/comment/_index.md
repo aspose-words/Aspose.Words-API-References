@@ -122,7 +122,7 @@ Shows how to add a comment to a document, and then reply to it.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 comment = aw.Comment(doc=doc, author='John Doe', initial='J.D.', date_time=datetime.datetime.now())
 comment.set_text('My comment.')
 # Place the comment at a node in the document's body.

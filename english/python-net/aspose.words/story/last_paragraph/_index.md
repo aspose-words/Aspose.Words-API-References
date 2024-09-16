@@ -27,7 +27,7 @@ Shows how to move a DocumentBuilder's cursor position to a specified node.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Run 1. ')
 # The document builder has a cursor, which acts as the part of the document
 # where the builder appends new nodes when we use its document construction methods.

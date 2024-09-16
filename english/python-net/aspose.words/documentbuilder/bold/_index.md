@@ -31,7 +31,7 @@ Shows how to fill MERGEFIELDs with data with a document builder instead of a mai
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
 # and then fill them manually.
 builder.insert_field(field_code=' MERGEFIELD Chairman ')

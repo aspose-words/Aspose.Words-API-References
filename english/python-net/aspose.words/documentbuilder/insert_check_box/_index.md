@@ -72,7 +72,7 @@ Shows how to insert checkboxes into the document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert checkboxes of varying sizes and default checked statuses.
 builder.write('Unchecked check box of a default size: ')
 builder.insert_check_box(name='', default_value=False, checked_value=False, size=0)

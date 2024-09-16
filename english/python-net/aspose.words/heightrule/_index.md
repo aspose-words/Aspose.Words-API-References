@@ -5,7 +5,7 @@ articleTitle: HeightRule enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.HeightRule enumeration. Specifies the rule for determining the height of an object."
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.words/heightrule/
 ---
 
@@ -28,7 +28,7 @@ Shows how to format rows with a document builder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Row 1, cell 1.')

@@ -63,7 +63,7 @@ Shows how to use control characters.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert paragraphs with text with DocumentBuilder.
 builder.writeln('Hello world!')
 builder.writeln('Hello again!')

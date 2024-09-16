@@ -25,7 +25,7 @@ Shows how to remove all shapes from all headers footers in a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a primary header with a shape.
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
 builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=100, height=100)

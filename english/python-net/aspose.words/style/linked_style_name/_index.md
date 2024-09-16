@@ -51,7 +51,7 @@ self.assertEqual('Title', style.base_style_name)
 self.assertEqual('MyStyle Char', style.linked_style_name)
 # We can reference a style using its alias, as well as its name.
 self.assertEqual(doc.styles.get_by_name('MyStyle Alias 1'), doc.styles.get_by_name('MyStyle Alias 2'))
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.move_to_document_end()
 builder.paragraph_format.style = doc.styles.get_by_name('MyStyle Alias 1')
 builder.writeln('Hello world!')

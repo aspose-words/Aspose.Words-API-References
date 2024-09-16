@@ -27,7 +27,7 @@ Shows how to apply logarithmic scaling to a chart axis.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 chart_shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.SCATTER, width=450, height=300)
 chart = chart_shape.chart
 # Clear the chart's demo data series to start with a clean chart.

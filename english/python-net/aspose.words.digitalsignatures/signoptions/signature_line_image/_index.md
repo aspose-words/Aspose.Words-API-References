@@ -12,7 +12,7 @@ url: /python-net/aspose.words.digitalsignatures/signoptions/signature_line_image
 ## SignOptions.signature_line_image property
 
 The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/).
-Default value is ``None``. 
+Default value is ``None``.
 
 
 

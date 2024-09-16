@@ -40,7 +40,7 @@ Shows how to set relative size and position.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Adding a simple shape with absolute size and position.
 shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=100, height=40)
 # Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.

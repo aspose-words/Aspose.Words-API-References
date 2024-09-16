@@ -31,7 +31,7 @@ Shows how to apply engraving/embossing effects to text.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.size = 36
 builder.font.color = aspose.pydrawing.Color.light_blue
 # Below are two ways of using shadows to apply a 3D-like effect to the text.

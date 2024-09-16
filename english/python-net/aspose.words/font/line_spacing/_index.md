@@ -27,7 +27,7 @@ Shows how to get a font's line spacing, in points.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Set different fonts for the DocumentBuilder and verify their line spacing.
 builder.font.name = 'Calibri'
 self.assertEqual(14.6484375, builder.font.line_spacing)

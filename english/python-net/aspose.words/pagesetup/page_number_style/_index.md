@@ -31,7 +31,7 @@ Shows how to set up page numbering in a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Section 1, page 1.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.writeln('Section 1, page 2.')

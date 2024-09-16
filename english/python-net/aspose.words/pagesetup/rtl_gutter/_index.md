@@ -32,7 +32,7 @@ Shows how to set gutter margins.
 ```python
 doc = aw.Document()
 # Insert text that spans several pages.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 i = 0
 while i < 6:
     builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' + 'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')

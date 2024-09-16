@@ -90,7 +90,7 @@ Shows how to create and use themed style.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln()
 # Create some style with theme font properties.
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'ThemedStyle')

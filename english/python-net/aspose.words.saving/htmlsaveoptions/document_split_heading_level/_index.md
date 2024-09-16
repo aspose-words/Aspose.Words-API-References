@@ -45,7 +45,7 @@ Shows how to split an output HTML document by headings into several parts.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Every paragraph that we format using a "Heading" style can serve as a heading.
 # Each heading may also have a heading level, determined by the number of its heading style.
 # The headings below are of levels 1-3.

@@ -31,7 +31,7 @@ Shows how to add text to a text box, and change its orientation
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 textbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_BOX)
 textbox.width = 100
 textbox.height = 100

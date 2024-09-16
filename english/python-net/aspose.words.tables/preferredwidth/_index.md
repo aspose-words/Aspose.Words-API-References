@@ -48,7 +48,7 @@ Shows how to set a table to auto fit to 50% of the width of the page.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Cell #1')
@@ -64,7 +64,7 @@ Shows how to set a preferred width for table cells.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 # There are two ways of applying the "PreferredWidth" class to table cells.
 # 1 -  Set an absolute preferred width based on points:

@@ -27,7 +27,7 @@ Shows how to create a nested table using a document builder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Build the outer table.
 cell = builder.insert_cell()
 builder.writeln('Outer Table Cell 1')

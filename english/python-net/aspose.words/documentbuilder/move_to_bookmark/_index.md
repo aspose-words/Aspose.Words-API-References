@@ -5,7 +5,7 @@ articleTitle: move_to_bookmark method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_bookmark method"
 type: docs
-weight: 500
+weight: 520
 url: /python-net/aspose.words/documentbuilder/move_to_bookmark/
 ---
 
@@ -85,7 +85,7 @@ Shows how to move a document builder's cursor to different nodes in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a valid bookmark, an entity that consists of nodes enclosed by a bookmark start node,
 # and a bookmark end node.
 builder.start_bookmark('MyBookmark')
@@ -122,7 +122,7 @@ Shows how to move a document builder's node insertion point cursor to a bookmark
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A valid bookmark consists of a BookmarkStart node, a BookmarkEnd node with a
 # matching bookmark name somewhere afterward, and contents enclosed by those nodes.
 builder.start_bookmark('MyBookmark')

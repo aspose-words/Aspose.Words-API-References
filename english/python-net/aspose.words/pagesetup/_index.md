@@ -5,7 +5,7 @@ articleTitle: PageSetup class
 second_title: Aspose.Words for Python
 description: "aspose.words.PageSetup class. Represents the page setup properties of a section"
 type: docs
-weight: 840
+weight: 850
 url: /python-net/aspose.words/pagesetup/
 ---
 
@@ -87,7 +87,7 @@ Shows how to apply and revert page setup settings to sections in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Modify the page setup properties for the builder's current section and add text.
 builder.page_setup.orientation = aw.Orientation.LANDSCAPE
 builder.page_setup.vertical_alignment = aw.PageVerticalAlignment.CENTER

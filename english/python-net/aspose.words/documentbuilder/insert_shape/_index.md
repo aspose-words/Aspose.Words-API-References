@@ -5,7 +5,7 @@ articleTitle: insert_shape method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_shape method"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words/documentbuilder/insert_shape/
 ---
 
@@ -48,7 +48,7 @@ def insert_shape(self, shape_type: aspose.words.drawing.ShapeType, horz_pos: asp
 | vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the vertical distance to the shape is measured from. |
 | top | float | Distance in points from the origin to the top side of the shape. |
 | width | float | The width of the shape in points. |
-| height | float | The width of the shape in points. |
+| height | float | The height of the shape in points. |
 | wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the shape. |
 
 ### Returns

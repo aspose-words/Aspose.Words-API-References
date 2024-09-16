@@ -29,7 +29,7 @@ Shows how to build a new table while applying a style.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 # We must insert at least one row before setting any table formatting.
 builder.insert_cell()
@@ -66,7 +66,7 @@ Shows how to build a formatted 2x2 table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.cell_format.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER

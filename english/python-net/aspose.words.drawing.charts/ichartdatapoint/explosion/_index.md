@@ -33,7 +33,7 @@ Shows how to move the slices of a pie chart away from the center.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.PIE, width=500, height=350)
 chart = shape.chart
 self.assertEqual(1, chart.series.count)

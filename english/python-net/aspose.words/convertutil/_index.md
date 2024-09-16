@@ -36,7 +36,7 @@ Shows how to adjust paper size, orientation, margins, along with other settings 
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.page_setup.paper_size = aw.PaperSize.LEGAL
 builder.page_setup.orientation = aw.Orientation.LANDSCAPE
 builder.page_setup.top_margin = aw.ConvertUtil.inch_to_point(1)
@@ -53,7 +53,7 @@ Shows how to specify page properties in inches.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A section's "Page Setup" defines the size of the page margins in points.
 # We can also use the "ConvertUtil" class to use a more familiar measurement unit,
 # such as inches when defining boundaries.

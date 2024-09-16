@@ -99,7 +99,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert headings of levels 1 to 5.
 builder.paragraph_format.style_identifier = aw.StyleIdentifier.HEADING1
 self.assertTrue(builder.paragraph_format.is_heading)

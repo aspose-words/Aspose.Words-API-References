@@ -31,7 +31,7 @@ Shows how to apply border and shading color while building a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Start a table and set a default color/thickness for its borders.
 table = builder.start_table()
 table.set_borders(aw.LineStyle.SINGLE, 2, aspose.pydrawing.Color.black)

@@ -5,7 +5,7 @@ articleTitle: start_table method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.start_table method. Starts a table in the document."
 type: docs
-weight: 650
+weight: 670
 url: /python-net/aspose.words/documentbuilder/start_table/
 ---
 
@@ -39,7 +39,7 @@ Shows how to build a table with custom borders.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.start_table()
 # Setting table formatting options for a document builder
 # will apply them to every row and cell that we add with it.
@@ -86,7 +86,7 @@ Shows how to build a formatted 2x2 table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.cell_format.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER
@@ -122,7 +122,7 @@ Shows how to format cells with a document builder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Row 1, cell 1.')

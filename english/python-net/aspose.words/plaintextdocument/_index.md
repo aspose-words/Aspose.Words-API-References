@@ -5,7 +5,7 @@ articleTitle: PlainTextDocument class
 second_title: Aspose.Words for Python
 description: "aspose.words.PlainTextDocument class. Allows to extract plain-text representation of the document's content"
 type: docs
-weight: 920
+weight: 930
 url: /python-net/aspose.words/plaintextdocument/
 ---
 
@@ -39,7 +39,7 @@ Shows how to load the contents of a Microsoft Word document in plaintext.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 doc.save(file_name=ARTIFACTS_DIR + 'PlainTextDocument.Load.docx')
 plaintext = aw.PlainTextDocument(file_name=ARTIFACTS_DIR + 'PlainTextDocument.Load.docx')

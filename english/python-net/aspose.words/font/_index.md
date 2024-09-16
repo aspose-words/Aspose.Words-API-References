@@ -5,7 +5,7 @@ articleTitle: Font class
 second_title: Aspose.Words for Python
 description: "aspose.words.Font class. Contains font attributes (font name, font size, color, and so on) for an object"
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.words/font/
 ---
 
@@ -98,7 +98,7 @@ Shows how to insert a string surrounded by a border into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.border.color = aspose.pydrawing.Color.green
 builder.font.border.line_width = 2.5
 builder.font.border.line_style = aw.LineStyle.DASH_DOT_STROKER
@@ -123,7 +123,7 @@ Shows how to create and use a paragraph style with list formatting.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a custom paragraph style.
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle1')
 style.font.size = 24

@@ -42,7 +42,7 @@ Shows how to set a custom zoom factor, which older versions of Microsoft Word wi
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 doc.view_options.view_type = aw.settings.ViewType.PAGE_LAYOUT
 doc.view_options.zoom_percent = 50

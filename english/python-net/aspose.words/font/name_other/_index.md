@@ -31,7 +31,7 @@ Shows how Microsoft Word can combine two different fonts in one run.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Suppose a run that we use the builder to insert while using this font configuration
 # contains characters within the ASCII characters' range. In that case,
 # it will display those characters using this font.

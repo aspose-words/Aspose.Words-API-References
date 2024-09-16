@@ -27,7 +27,7 @@ Shows how to count the number of pages in the document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Page 1')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.write('Page 2')

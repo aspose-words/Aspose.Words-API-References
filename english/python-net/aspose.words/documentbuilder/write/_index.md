@@ -5,7 +5,7 @@ articleTitle: write method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.write method. Inserts a string into the document at the current insert position."
 type: docs
-weight: 660
+weight: 680
 url: /python-net/aspose.words/documentbuilder/write/
 ---
 
@@ -35,7 +35,7 @@ Shows how to insert a string surrounded by a border into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.border.color = aspose.pydrawing.Color.green
 builder.font.border.line_width = 2.5
 builder.font.border.line_style = aw.LineStyle.DASH_DOT_STROKER
@@ -47,7 +47,7 @@ Shows how to build a table with custom borders.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.start_table()
 # Setting table formatting options for a document builder
 # will apply them to every row and cell that we add with it.
@@ -94,7 +94,7 @@ Shows how to use a document builder to create a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Start the table, then populate the first row with two cells.
 builder.start_table()
 builder.insert_cell()
@@ -115,7 +115,7 @@ Shows how to build a formatted 2x2 table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.cell_format.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER

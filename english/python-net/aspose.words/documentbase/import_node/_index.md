@@ -5,7 +5,7 @@ articleTitle: import_node method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBase.import_node method"
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words/documentbase/import_node/
 ---
 
@@ -123,13 +123,13 @@ Shows how to import node from source document to destination document with speci
 src_doc = aw.Document()
 src_style = src_doc.styles.add(aw.StyleType.CHARACTER, 'My style')
 src_style.font.name = 'Courier New'
-src_builder = aw.DocumentBuilder(src_doc)
+src_builder = aw.DocumentBuilder(doc=src_doc)
 src_builder.font.style = src_style
 src_builder.writeln('Source document text.')
 dst_doc = aw.Document()
 dst_style = dst_doc.styles.add(aw.StyleType.CHARACTER, 'My style')
 dst_style.font.name = 'Calibri'
-dst_builder = aw.DocumentBuilder(dst_doc)
+dst_builder = aw.DocumentBuilder(doc=dst_doc)
 dst_builder.font.style = dst_style
 dst_builder.writeln('Destination document text.')
 # Import the Section from the destination document into the source document, causing a style name collision.

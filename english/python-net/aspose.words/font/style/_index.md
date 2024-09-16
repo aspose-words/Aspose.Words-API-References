@@ -31,7 +31,7 @@ Applies a double underline to all runs in a document that are formatted with cus
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a custom style and apply it to text created using a document builder.
 style = doc.styles.add(aw.StyleType.CHARACTER, 'MyStyle')
 style.font.color = aspose.pydrawing.Color.red

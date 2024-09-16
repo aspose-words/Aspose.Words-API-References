@@ -46,7 +46,7 @@ Shows how to add embed attachments to the PDF document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_ole_object(file_name=MY_DIR + 'Spreadsheet.xlsx', prog_id='Excel.Sheet', is_linked=False, as_icon=True, presentation=None)
 options = aw.saving.PdfSaveOptions()
 options.embed_attachments = True

@@ -27,7 +27,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert headings that can serve as TOC entries of levels 1, 2, and then 3.
 builder.paragraph_format.style_identifier = aw.StyleIdentifier.HEADING1
 self.assertTrue(builder.paragraph_format.is_heading)

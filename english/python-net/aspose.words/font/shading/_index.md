@@ -28,7 +28,7 @@ Shows how to apply shading to text created by a document builder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.color = aspose.pydrawing.Color.white
 # One way to make the text created using our white font color visible
 # is to apply a background shading effect.

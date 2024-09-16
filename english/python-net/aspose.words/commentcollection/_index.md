@@ -50,7 +50,7 @@ Shows how to mark a comment as "done".
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Helo world!')
 # Insert a comment to point out an error.
 comment = aw.Comment(doc=doc, author='John Doe', initial='J.D.', date_time=datetime.datetime.now())

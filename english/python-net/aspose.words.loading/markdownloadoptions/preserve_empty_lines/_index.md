@@ -5,7 +5,7 @@ articleTitle: preserve_empty_lines property
 second_title: Aspose.Words for Python
 description: "MarkdownLoadOptions.preserve_empty_lines property. Gets or sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.MARKDOWN](../../../aspose.words/loadformat/#MARKDOWN) document"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.loading/markdownloadoptions/preserve_empty_lines/
 ---
 

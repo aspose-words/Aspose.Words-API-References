@@ -5,7 +5,7 @@ articleTitle: tick_labels property
 second_title: Aspose.Words for Python
 description: "ChartAxis.tick_labels property. Provides access to the properties of the axis tick mark labels."
 type: docs
-weight: 280
+weight: 230
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_labels/
 ---
 

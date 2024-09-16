@@ -37,7 +37,7 @@ Shows how to set user details, and display them using fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a UserInformation object and set it as the data source for fields that display user information.
 user_information = aw.fields.UserInformation()
 user_information.name = 'John Doe'

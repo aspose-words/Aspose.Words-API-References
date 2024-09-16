@@ -5,7 +5,7 @@ articleTitle: WarningInfoCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.WarningInfoCollection class. Represents a typed collection of [WarningInfo](../warninginfo/) objects"
 type: docs
-weight: 1350
+weight: 1360
 url: /python-net/aspose.words/warninginfocollection/
 ---
 

@@ -46,7 +46,7 @@ Shows how to set theme color for foreground/background shape color.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.ROUND_RECTANGLE, width=80, height=80)
 fill = shape.fill
 fill.fore_theme_color = aw.themes.ThemeColor.DARK1

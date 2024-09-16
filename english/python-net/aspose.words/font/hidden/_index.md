@@ -31,7 +31,7 @@ Shows how to create a run of hidden text.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # With the Hidden flag set to true, any text that we create using this Font object will be invisible in the document.
 # We will not see or highlight hidden text unless we enable the "Hidden text" option
 # found in Microsoft Word via "File" -> "Options" -> "Display". The text will still be there,

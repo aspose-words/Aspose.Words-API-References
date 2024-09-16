@@ -36,7 +36,7 @@ Shows how to get the keep a field's type up to date with its field code.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 field = builder.insert_field(field_code='DATE', field_value=None)
 # Aspose.Words automatically detects field types based on field codes.
 self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.type)

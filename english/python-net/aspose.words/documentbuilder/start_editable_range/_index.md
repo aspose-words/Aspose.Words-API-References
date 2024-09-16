@@ -5,7 +5,7 @@ articleTitle: start_editable_range method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.start_editable_range method. Marks the current position in the document as an editable range start."
 type: docs
-weight: 640
+weight: 660
 url: /python-net/aspose.words/documentbuilder/start_editable_range/
 ---
 

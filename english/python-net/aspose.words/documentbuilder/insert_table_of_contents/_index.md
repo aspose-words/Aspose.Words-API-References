@@ -5,7 +5,7 @@ articleTitle: insert_table_of_contents method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_table_of_contents method. Inserts a TOC (table of contents) field into the document."
 type: docs
-weight: 470
+weight: 490
 url: /python-net/aspose.words/documentbuilder/insert_table_of_contents/
 ---
 
@@ -61,7 +61,7 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a table of contents for the first page of the document.
 # Configure the table to pick up paragraphs with headings of levels 1 to 3.
 # Also, set its entries to be hyperlinks that will take us

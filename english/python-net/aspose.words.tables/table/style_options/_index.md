@@ -31,7 +31,7 @@ Shows how to build a new table while applying a style.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 # We must insert at least one row before setting any table formatting.
 builder.insert_cell()

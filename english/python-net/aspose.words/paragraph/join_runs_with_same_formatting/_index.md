@@ -30,7 +30,7 @@ Shows how to simplify paragraphs by merging superfluous runs.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert four runs of text into the paragraph.
 builder.write('Run 1. ')
 builder.write('Run 2. ')

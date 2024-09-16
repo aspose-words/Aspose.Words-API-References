@@ -36,7 +36,7 @@ Shows how to insert a string surrounded by a border into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.border.color = aspose.pydrawing.Color.green
 builder.font.border.line_width = 2.5
 builder.font.border.line_style = aw.LineStyle.DASH_DOT_STROKER
@@ -48,7 +48,7 @@ Shows how to create a formatted table using DocumentBuilder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 table.left_indent = 20

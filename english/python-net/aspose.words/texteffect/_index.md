@@ -5,7 +5,7 @@ articleTitle: TextEffect enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextEffect enumeration. Animation effect for text runs."
 type: docs
-weight: 1260
+weight: 1270
 url: /python-net/aspose.words/texteffect/
 ---
 
@@ -32,7 +32,7 @@ Shows how to apply a visual effect to a run.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.size = 36
 builder.font.text_effect = aw.TextEffect.SPARKLE_TEXT
 builder.writeln('Text with a sparkle effect.')
