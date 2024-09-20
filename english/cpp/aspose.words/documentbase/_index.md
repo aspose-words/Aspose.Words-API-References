@@ -31,6 +31,7 @@ class DocumentBase : public Aspose::Words::CompositeNode
 | [get_Document](./get_document/)() const override | Gets this instance. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FontInfos](./get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
+| [get_FootnoteSeparators](./get_footnoteseparators/)() const |  |
 | [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
