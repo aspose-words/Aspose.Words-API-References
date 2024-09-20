@@ -24,3 +24,4 @@ The **Aspose.Words.DigitalSignatures** namespace provides classes to sign docume
 | Enum | Description |
 | --- | --- |
 | [DigitalSignatureType](./digitalsignaturetype/) | Specifies the type of a digital signature. |
+| [XmlDsigLevel](./xmldsiglevel/) | XmlDsigLevel enumeration. |

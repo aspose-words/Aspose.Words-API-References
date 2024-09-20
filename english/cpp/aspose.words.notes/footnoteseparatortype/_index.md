@@ -20,7 +20,6 @@ enum class FootnoteSeparatorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | -1 |  |
 | FootnoteSeparator | 0 |  |
 | FootnoteContinuationSeparator | 1 |  |
 | FootnoteContinuationNotice | 2 |  |

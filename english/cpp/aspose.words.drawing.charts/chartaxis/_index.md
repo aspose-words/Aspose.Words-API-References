@@ -45,12 +45,7 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_NumberFormat](./get_numberformat/)() | Returns a [ChartNumberFormat](../chartnumberformat/) object that allows defining number formats for the axis. |
 | [get_ReverseOrder](./get_reverseorder/)() | Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min. |
 | [get_Scaling](./get_scaling/)() | Provides access to the scaling options of the axis. |
-| [get_TickLabelAlignment](./get_ticklabelalignment/)() | Gets or sets text alignment of axis tick labels. |
-| [get_TickLabelOffset](./get_ticklabeloffset/)() | Gets or sets the distance of labels from the axis. |
-| [get_TickLabelPosition](./get_ticklabelposition/)() | Returns or sets the position of the tick labels on the axis. |
 | [get_TickLabels](./get_ticklabels/)() |  |
-| [get_TickLabelSpacing](./get_ticklabelspacing/)() | Gets or sets the interval, at which tick labels are drawn. |
-| [get_TickLabelSpacingIsAuto](./get_ticklabelspacingisauto/)() | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [get_TickMarkSpacing](./get_tickmarkspacing/)() | Gets or sets the interval, at which tick marks are drawn. |
 | [get_Title](./get_title/)() |  |
 | [get_Type](./get_type/)() const | Returns type of the axis. |
@@ -73,11 +68,6 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [set_MinorUnitIsAuto](./set_minorunitisauto/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitIsAuto](./get_minorunitisauto/). |
 | [set_MinorUnitScale](./set_minorunitscale/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitScale](./get_minorunitscale/). |
 | [set_ReverseOrder](./set_reverseorder/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_ReverseOrder](./get_reverseorder/). |
-| [set_TickLabelAlignment](./set_ticklabelalignment/)(Aspose::Words::ParagraphAlignment) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelAlignment](./get_ticklabelalignment/). |
-| [set_TickLabelOffset](./set_ticklabeloffset/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelOffset](./get_ticklabeloffset/). |
-| [set_TickLabelPosition](./set_ticklabelposition/)(Aspose::Words::Drawing::Charts::AxisTickLabelPosition) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelPosition](./get_ticklabelposition/). |
-| [set_TickLabelSpacing](./set_ticklabelspacing/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacing](./get_ticklabelspacing/). |
-| [set_TickLabelSpacingIsAuto](./set_ticklabelspacingisauto/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacingIsAuto](./get_ticklabelspacingisauto/). |
 | [set_TickMarkSpacing](./set_tickmarkspacing/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing](./get_tickmarkspacing/). |
 | static [Type](./type/)() |  |
 

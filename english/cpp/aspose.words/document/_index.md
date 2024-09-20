@@ -68,6 +68,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_FontInfos](../documentbase/get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
 | [get_FontSettings](./get_fontsettings/)() const | Gets or sets document font settings. |
 | [get_FootnoteOptions](./get_footnoteoptions/)() | Provides options that control numbering and positioning of footnotes in this document. |
+| [get_FootnoteSeparators](../documentbase/get_footnoteseparators/)() const |  |
 | [get_Frameset](./get_frameset/)() const | Returns a [Frameset](./get_frameset/) instance if this document represents a frames page. |
 | [get_GlossaryDocument](./get_glossarydocument/)() const | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
 | [get_GrammarChecked](./get_grammarchecked/)() | Returns **true** if the document has been checked for grammar. |
