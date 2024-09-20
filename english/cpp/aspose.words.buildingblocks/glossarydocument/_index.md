@@ -33,6 +33,7 @@ class GlossaryDocument : public Aspose::Words::DocumentBase
 | [get_FirstBuildingBlock](./get_firstbuildingblock/)() | Gets the first building block in the glossary document. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FontInfos](../../aspose.words/documentbase/get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
+| [get_FootnoteSeparators](../../aspose.words/documentbase/get_footnoteseparators/)() const |  |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastBuildingBlock](./get_lastbuildingblock/)() | Gets the last building block in the glossary document. |
