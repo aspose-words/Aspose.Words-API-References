@@ -5,7 +5,7 @@ articleTitle: Shape
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Shape class. Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in C#.
 type: docs
-weight: 1490
+weight: 1500
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -64,6 +64,7 @@ public sealed class Shape : ShapeBase
 | [HasSmartArt](../../aspose.words.drawing/shape/hassmartart/) { get; } | Returns `true` if this `Shape` has a SmartArt object. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
 | [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Gets or sets the value that represents the percentage of shape's relative height. |
+| [Hidden](../../aspose.words.drawing/shapebase/hidden/) { get; set; } |  |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Specifies how the shape is positioned horizontally. |
 | [HorizontalRuleFormat](../../aspose.words.drawing/shape/horizontalruleformat/) { get; } | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns `null`. |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Gets or sets the full hyperlink address for a shape. |

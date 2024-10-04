@@ -5,7 +5,7 @@ articleTitle: TableStyle
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TableStyle class. Represents a table style in C#.
 type: docs
-weight: 6630
+weight: 6650
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class

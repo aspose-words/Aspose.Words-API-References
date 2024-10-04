@@ -5,7 +5,7 @@ articleTitle: EndnotePosition
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Notes.EndnotePosition enum. Defines the endnote position in C#.
 type: docs
-weight: 4560
+weight: 4570
 url: /net/aspose.words.notes/endnoteposition/
 ---
 ## EndnotePosition enumeration

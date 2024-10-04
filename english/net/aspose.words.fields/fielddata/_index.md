@@ -5,7 +5,7 @@ articleTitle: FieldData
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldData class. Implements the DATA field in C#.
 type: docs
-weight: 1990
+weight: 2000
 url: /net/aspose.words.fields/fielddata/
 ---
 ## FieldData class

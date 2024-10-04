@@ -5,7 +5,7 @@ articleTitle: Story
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Story class. Base class for elements that contain blocklevel nodes Paragraph and Table in C#.
 type: docs
-weight: 6520
+weight: 6540
 url: /net/aspose.words/story/
 ---
 ## Story class

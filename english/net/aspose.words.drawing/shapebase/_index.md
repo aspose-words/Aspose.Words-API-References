@@ -5,7 +5,7 @@ articleTitle: ShapeBase
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ShapeBase class. Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in C#.
 type: docs
-weight: 1500
+weight: 1510
 url: /net/aspose.words.drawing/shapebase/
 ---
 ## ShapeBase class
@@ -49,6 +49,7 @@ public abstract class ShapeBase : CompositeNode
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
 | [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Gets or sets the value that represents the percentage of shape's relative height. |
+| [Hidden](../../aspose.words.drawing/shapebase/hidden/) { get; set; } |  |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Specifies how the shape is positioned horizontally. |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Gets or sets the full hyperlink address for a shape. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |

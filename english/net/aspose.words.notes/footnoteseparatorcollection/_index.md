@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparatorCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Notes.FootnoteSeparatorCollection class. Provides typed access to FootnoteSeparator nodes of a document in C#.
 type: docs
-weight: 4620
+weight: 4630
 url: /net/aspose.words.notes/footnoteseparatorcollection/
 ---
 ## FootnoteSeparatorCollection class
@@ -26,7 +26,7 @@ public class FootnoteSeparatorCollection : IEnumerable<FootnoteSeparator>
 
 | Name | Description |
 | --- | --- |
-| [Item](../../aspose.words.notes/footnoteseparatorcollection/item/) { get; set; } | Retrieves a [`FootnoteSeparator`](../footnoteseparator/) of the specified type. |
+| [Item](../../aspose.words.notes/footnoteseparatorcollection/item/) { get; } | Retrieves a [`FootnoteSeparator`](../footnoteseparator/) of the specified type. |
 
 ## Methods
 

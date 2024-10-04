@@ -5,7 +5,7 @@ articleTitle: InsertSignatureLine
 second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertSignatureLine method. Inserts a signature line at the specified position in C#.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}

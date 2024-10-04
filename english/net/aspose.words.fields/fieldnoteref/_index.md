@@ -5,7 +5,7 @@ articleTitle: FieldNoteRef
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldNoteRef class. Implements the NOTEREF field in C#.
 type: docs
-weight: 2460
+weight: 2470
 url: /net/aspose.words.fields/fieldnoteref/
 ---
 ## FieldNoteRef class

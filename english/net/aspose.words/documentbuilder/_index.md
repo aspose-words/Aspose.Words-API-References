@@ -76,8 +76,9 @@ public class DocumentBuilder
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(*string, string*) | Inserts a Word field into a document without updating the field result. |
 | [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)(*[FootnoteType](../../aspose.words.notes/footnotetype/), string*) | Inserts a footnote or endnote into the document. |
 | [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)(*[FootnoteType](../../aspose.words.notes/footnotetype/), string, string*) | Inserts a footnote or endnote into the document. |
-| [InsertGroupShape](../../aspose.words/documentbuilder/insertgroupshape/#insertgroupshape)(*params Shape[]*) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
-| [InsertGroupShape](../../aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1)(*double, double, double, double, params Shape[]*) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
+| [InsertForms2OleControl](../../aspose.words/documentbuilder/insertforms2olecontrol/)(*[Forms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/)*) |  |
+| [InsertGroupShape](../../aspose.words/documentbuilder/insertgroupshape/#insertgroupshape)(*params ShapeBase[]*) |  |
+| [InsertGroupShape](../../aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1)(*double, double, double, double, params ShapeBase[]*) |  |
 | [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule/)() | Inserts a horizontal rule shape into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml)(*string*) | Inserts an HTML string into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_2)(*string, bool*) | Inserts an HTML string into the document. |

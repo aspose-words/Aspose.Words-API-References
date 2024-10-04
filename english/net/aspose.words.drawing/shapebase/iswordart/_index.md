@@ -5,7 +5,7 @@ articleTitle: IsWordArt
 second_title: Aspose.Words for .NET
 description: ShapeBase IsWordArt property. Returns true if this shape is a WordArt object in C#.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.words.drawing/shapebase/iswordart/
 ---
 ## ShapeBase.IsWordArt property

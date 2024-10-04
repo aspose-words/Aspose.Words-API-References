@@ -24,8 +24,11 @@ public class ChartSeriesGroup
 | [AxisX](../../aspose.words.drawing.charts/chartseriesgroup/axisx/) { get; } | Provides access to properties of the X axis of this series group. |
 | [AxisY](../../aspose.words.drawing.charts/chartseriesgroup/axisy/) { get; } | Provides access to properties of the Y axis of this series group. |
 | [BubbleScale](../../aspose.words.drawing.charts/chartseriesgroup/bubblescale/) { get; set; } | Gets or sets the size of the bubbles as a percentage of their default size. |
+| [DoughnutHoleSize](../../aspose.words.drawing.charts/chartseriesgroup/doughnutholesize/) { get; set; } |  |
+| [FirstSliceAngle](../../aspose.words.drawing.charts/chartseriesgroup/firstsliceangle/) { get; set; } |  |
 | [GapWidth](../../aspose.words.drawing.charts/chartseriesgroup/gapwidth/) { get; set; } | Gets or sets the percentage of gap width between chart elements. |
 | [Overlap](../../aspose.words.drawing.charts/chartseriesgroup/overlap/) { get; set; } | Gets or sets the percentage of how much the series bars or columns overlap. |
+| [SecondSectionSize](../../aspose.words.drawing.charts/chartseriesgroup/secondsectionsize/) { get; set; } |  |
 | [Series](../../aspose.words.drawing.charts/chartseriesgroup/series/) { get; } | Gets a collection of series that belong to this series group. |
 | [SeriesType](../../aspose.words.drawing.charts/chartseriesgroup/seriestype/) { get; } | Gets the type of chart series included in this group. |
 

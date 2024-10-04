@@ -5,7 +5,7 @@ articleTitle: FieldFormula
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldFormula class. Implements the  formula field in C#.
 type: docs
-weight: 2210
+weight: 2220
 url: /net/aspose.words.fields/fieldformula/
 ---
 ## FieldFormula class

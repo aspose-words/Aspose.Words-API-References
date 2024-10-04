@@ -5,7 +5,7 @@ articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
 description: FootnoteSeparator AcceptEnd method.  in C#.
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words.notes/footnoteseparator/acceptend/
 ---
 ## FootnoteSeparator.AcceptEnd method

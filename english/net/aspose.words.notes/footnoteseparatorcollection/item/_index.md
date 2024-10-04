@@ -13,7 +13,7 @@ url: /net/aspose.words.notes/footnoteseparatorcollection/item/
 Retrieves a [`FootnoteSeparator`](../../footnoteseparator/) of the specified type.
 
 ```csharp
-public FootnoteSeparator this[FootnoteSeparatorType separatorType] { get; set; }
+public FootnoteSeparator this[FootnoteSeparatorType separatorType] { get; }
 ```
 
 ## Remarks
