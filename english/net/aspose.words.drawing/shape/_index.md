@@ -64,7 +64,7 @@ public sealed class Shape : ShapeBase
 | [HasSmartArt](../../aspose.words.drawing/shape/hassmartart/) { get; } | Returns `true` if this `Shape` has a SmartArt object. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
 | [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Gets or sets the value that represents the percentage of shape's relative height. |
-| [Hidden](../../aspose.words.drawing/shapebase/hidden/) { get; set; } |  |
+| [Hidden](../../aspose.words.drawing/shapebase/hidden/) { get; set; } | Gets or sets a boolean value indicating whether the shape is visible. |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Specifies how the shape is positioned horizontally. |
 | [HorizontalRuleFormat](../../aspose.words.drawing/shape/horizontalruleformat/) { get; } | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns `null`. |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Gets or sets the full hyperlink address for a shape. |

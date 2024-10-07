@@ -3,12 +3,14 @@ title: CommandButtonControl Class
 linktitle: CommandButtonControl
 articleTitle: CommandButtonControl
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Ole.CommandButtonControl class.  in C#.
+description: Aspose.Words.Drawing.Ole.CommandButtonControl class. The CommandButton control runs a macro that performs an action when a user clicks it in C#.
 type: docs
 weight: 1310
 url: /net/aspose.words.drawing.ole/commandbuttoncontrol/
 ---
 ## CommandButtonControl class
+
+The CommandButton control runs a macro that performs an action when a user clicks it.
 
 ```csharp
 public class CommandButtonControl : Forms2OleControl
@@ -18,7 +20,7 @@ public class CommandButtonControl : Forms2OleControl
 
 | Name | Description |
 | --- | --- |
-| [CommandButtonControl](commandbuttoncontrol/)() | The default constructor. |
+| [CommandButtonControl](commandbuttoncontrol/)() | Initializes a new instance of `CommandButtonControl` class. |
 
 ## Properties
 
@@ -33,9 +35,21 @@ public class CommandButtonControl : Forms2OleControl
 | [Height](../../aspose.words.drawing.ole/forms2olecontrol/height/) { get; set; } | Gets or sets a height of the control in points. |
 | [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | Returns `true` if the control is a [`Forms2OleControl`](../forms2olecontrol/). |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | Gets or sets name of the ActiveX control. |
-| override [Type](../../aspose.words.drawing.ole/commandbuttoncontrol/type/) { get; } |  |
+| override [Type](../../aspose.words.drawing.ole/commandbuttoncontrol/type/) { get; } | Gets type of Forms 2.0 control. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |
 | [Width](../../aspose.words.drawing.ole/forms2olecontrol/width/) { get; set; } | Gets or sets a width of the control in points. |
+
+## Examples
+
+Shows how to insert ActiveX control.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+CommandButtonControl button1 = new CommandButtonControl();
+Shape shape = builder.InsertForms2OleControl(button1);
+Assert.AreEqual(Forms2OleControlType.CommandButton, ((Forms2OleControl)shape.OleFormat.OleControl).Type);
+```
 
 ### See Also
 

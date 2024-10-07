@@ -3,14 +3,14 @@ title: CommandButtonControl
 linktitle: CommandButtonControl
 articleTitle: CommandButtonControl
 second_title: Aspose.Words for .NET
-description: CommandButtonControl constructor. The default constructor in C#.
+description: CommandButtonControl constructor. Initializes a new instance of CommandButtonControl class in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/commandbuttoncontrol/commandbuttoncontrol/
 ---
 ## CommandButtonControl constructor
 
-The default constructor.
+Initializes a new instance of [`CommandButtonControl`](../) class.
 
 ```csharp
 public CommandButtonControl()
