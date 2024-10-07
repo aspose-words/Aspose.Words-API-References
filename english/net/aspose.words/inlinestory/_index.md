@@ -5,7 +5,7 @@ articleTitle: InlineStory
 second_title: Aspose.Words for .NET
 description: Aspose.Words.InlineStory class. Base class for inlinelevel nodes that can contain paragraphs and tables in C#.
 type: docs
-weight: 3560
+weight: 3570
 url: /net/aspose.words/inlinestory/
 ---
 ## InlineStory class

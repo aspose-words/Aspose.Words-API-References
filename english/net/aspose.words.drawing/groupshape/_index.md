@@ -55,6 +55,7 @@ public class GroupShape : ShapeBase
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
 | [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Gets or sets the value that represents the percentage of shape's relative height. |
+| [Hidden](../../aspose.words.drawing/shapebase/hidden/) { get; set; } | Gets or sets a boolean value indicating whether the shape is visible. |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Specifies how the shape is positioned horizontally. |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Gets or sets the full hyperlink address for a shape. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |

@@ -5,7 +5,7 @@ articleTitle: Overlap
 second_title: Aspose.Words for .NET
 description: ChartSeriesGroup Overlap property. Gets or sets the percentage of how much the series bars or columns overlap in C#.
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.words.drawing.charts/chartseriesgroup/overlap/
 ---
 ## ChartSeriesGroup.Overlap property

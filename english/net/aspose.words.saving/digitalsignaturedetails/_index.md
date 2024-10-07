@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.DigitalSignatureDetails class. Contains details for signing a document with a digital signature in C#.
 type: docs
-weight: 5240
+weight: 5250
 url: /net/aspose.words.saving/digitalsignaturedetails/
 ---
 ## DigitalSignatureDetails class

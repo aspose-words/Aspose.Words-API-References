@@ -5,7 +5,7 @@ articleTitle: SeparatorType
 second_title: Aspose.Words for .NET
 description: FootnoteSeparator SeparatorType property.  in C#.
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.words.notes/footnoteseparator/separatortype/
 ---
 ## FootnoteSeparator.SeparatorType property

@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: FootnoteSeparator NodeType property.  in C#.
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words.notes/footnoteseparator/nodetype/
 ---
 ## FootnoteSeparator.NodeType property

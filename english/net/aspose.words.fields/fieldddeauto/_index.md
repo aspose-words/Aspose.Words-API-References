@@ -5,7 +5,7 @@ articleTitle: FieldDdeAuto
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldDdeAuto class. Implements the DDEAUTO field in C#.
 type: docs
-weight: 2050
+weight: 2060
 url: /net/aspose.words.fields/fieldddeauto/
 ---
 ## FieldDdeAuto class

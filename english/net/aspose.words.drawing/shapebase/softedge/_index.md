@@ -5,7 +5,7 @@ articleTitle: SoftEdge
 second_title: Aspose.Words for .NET
 description: ShapeBase SoftEdge property. Gets soft edge formatting for the shape in C#.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.words.drawing/shapebase/softedge/
 ---
 ## ShapeBase.SoftEdge property

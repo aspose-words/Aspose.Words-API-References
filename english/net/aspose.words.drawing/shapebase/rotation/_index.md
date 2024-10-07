@@ -5,7 +5,7 @@ articleTitle: Rotation
 second_title: Aspose.Words for .NET
 description: ShapeBase Rotation property. Defines the angle in degrees that a shape is rotated. Positive value corresponds to clockwise rotation angle in C#.
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property

@@ -5,7 +5,7 @@ articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words for .NET
 description: ShapeBase RelativeVerticalPosition property. Specifies relative to what the shape is positioned vertically in C#.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
