@@ -5,7 +5,7 @@ articleTitle: Series
 second_title: Aspose.Words for .NET
 description: ChartSeriesGroup Series property. Gets a collection of series that belong to this series group in C#.
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.words.drawing.charts/chartseriesgroup/series/
 ---
 ## ChartSeriesGroup.Series property

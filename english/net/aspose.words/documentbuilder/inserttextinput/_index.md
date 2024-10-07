@@ -5,7 +5,7 @@ articleTitle: InsertTextInput
 second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertTextInput method. Inserts a text form field at the current position in C#.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method

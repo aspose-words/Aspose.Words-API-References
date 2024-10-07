@@ -20,7 +20,7 @@ public int BubbleScale { get; set; }
 
 Applies only to series groups of the Bubble and Bubble3D types.
 
-The range of acceptable values is from 0 to 300 inclusive.
+The range of acceptable values is from 0 to 300 inclusive. The default value is 100.
 
 ## Examples
 

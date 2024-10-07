@@ -5,7 +5,7 @@ articleTitle: AutoFitBehavior
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.AutoFitBehavior enum. Determines how Aspose.Words resizes the table when you invoke the AutoFit method in C#.
 type: docs
-weight: 6640
+weight: 6660
 url: /net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration

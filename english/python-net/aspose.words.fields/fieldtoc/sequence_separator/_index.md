@@ -3,7 +3,7 @@ title: FieldToc.sequence_separator property
 linktitle: sequence_separator property
 articleTitle: sequence_separator property
 second_title: Aspose.Words for Python
-description: "FieldToc.sequence_separator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers."
+description: "FieldToc.sequence_separator property. Makes a Bookmark object for a bookmark name in \\\\b switch argument."
 type: docs
 weight: 150
 url: /python-net/aspose.words.fields/fieldtoc/sequence_separator/
@@ -11,6 +11,10 @@ url: /python-net/aspose.words.fields/fieldtoc/sequence_separator/
 
 ## FieldToc.sequence_separator property
 
+Makes a Bookmark object for a bookmark name in \\\\b switch argument.
+
+:returns: ``None`` if a valid bookmark can not be found.
+          
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 
 

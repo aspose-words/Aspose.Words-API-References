@@ -5,7 +5,7 @@ articleTitle: Writeln
 second_title: Aspose.Words for .NET
 description: DocumentBuilder Writeln method. Inserts a string and a paragraph break into the document in C#.
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}

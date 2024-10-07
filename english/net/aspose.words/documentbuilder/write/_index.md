@@ -5,7 +5,7 @@ articleTitle: Write
 second_title: Aspose.Words for .NET
 description: DocumentBuilder Write method. Inserts a string into the document at the current insert position in C#.
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method

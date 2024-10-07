@@ -5,7 +5,7 @@ articleTitle: Accept
 second_title: Aspose.Words for .NET
 description: FootnoteSeparator Accept method.  in C#.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.words.notes/footnoteseparator/accept/
 ---
 ## FootnoteSeparator.Accept method

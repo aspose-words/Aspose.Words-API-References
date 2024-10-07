@@ -5,7 +5,7 @@ articleTitle: GapWidth
 second_title: Aspose.Words for .NET
 description: ChartSeriesGroup GapWidth property. Gets or sets the percentage of gap width between chart elements in C#.
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.words.drawing.charts/chartseriesgroup/gapwidth/
 ---
 ## ChartSeriesGroup.GapWidth property

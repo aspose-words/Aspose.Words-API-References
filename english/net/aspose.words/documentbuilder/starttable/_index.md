@@ -5,7 +5,7 @@ articleTitle: StartTable
 second_title: Aspose.Words for .NET
 description: DocumentBuilder StartTable method. Starts a table in the document in C#.
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
