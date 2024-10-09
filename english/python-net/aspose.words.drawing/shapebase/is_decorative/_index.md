@@ -5,7 +5,7 @@ articleTitle: is_decorative property
 second_title: Aspose.Words for Python
 description: "ShapeBase.is_decorative property. Gets or sets the flag that specifies whether the shape is decorative in the document."
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.words.drawing/shapebase/is_decorative/
 ---
 

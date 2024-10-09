@@ -78,6 +78,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [has_smart_art](./has_smart_art/) | Returns ``True`` if this [Shape](./) has a SmartArt object. |
 | [height](../shapebase/height/) | Gets or sets the height of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [height_relative](../shapebase/height_relative/) | Gets or sets the value that represents the percentage of shape's relative height.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [hidden](../shapebase/hidden/) | Gets or sets a boolean value indicating whether the shape is visible.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [horizontal_alignment](../shapebase/horizontal_alignment/) | Specifies how the shape is positioned horizontally.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [horizontal_rule_format](./horizontal_rule_format/) | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns ``None``. |
 | [href](../shapebase/href/) | Gets or sets the full hyperlink address for a shape.<br>(Inherited from [ShapeBase](../shapebase/)) |

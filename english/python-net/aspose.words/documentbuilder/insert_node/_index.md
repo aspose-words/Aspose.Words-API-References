@@ -5,7 +5,7 @@ articleTitle: insert_node method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_node method. Inserts a node before the cursor."
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.words/documentbuilder/insert_node/
 ---
 

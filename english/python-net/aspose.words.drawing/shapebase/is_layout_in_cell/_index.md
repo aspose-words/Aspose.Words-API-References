@@ -5,7 +5,7 @@ articleTitle: is_layout_in_cell property
 second_title: Aspose.Words for Python
 description: "ShapeBase.is_layout_in_cell property. Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it."
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.words.drawing/shapebase/is_layout_in_cell/
 ---
 

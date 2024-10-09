@@ -5,7 +5,7 @@ articleTitle: PageRange class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PageRange class. Represents a continuous range of pages"
 type: docs
-weight: 530
+weight: 540
 url: /python-net/aspose.words.saving/pagerange/
 ---
 

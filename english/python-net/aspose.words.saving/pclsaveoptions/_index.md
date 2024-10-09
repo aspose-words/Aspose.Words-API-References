@@ -5,7 +5,7 @@ articleTitle: PclSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PclSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.PCL](../../aspose.words/saveformat/#PCL) format"
 type: docs
-weight: 560
+weight: 570
 url: /python-net/aspose.words.saving/pclsaveoptions/
 ---
 

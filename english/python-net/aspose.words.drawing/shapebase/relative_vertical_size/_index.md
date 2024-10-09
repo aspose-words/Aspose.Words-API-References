@@ -5,7 +5,7 @@ articleTitle: relative_vertical_size property
 second_title: Aspose.Words for Python
 description: "ShapeBase.relative_vertical_size property. Gets or sets the value of shape's relative size in vertical direction."
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.words.drawing/shapebase/relative_vertical_size/
 ---
 

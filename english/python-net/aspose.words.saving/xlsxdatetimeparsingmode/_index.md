@@ -5,7 +5,7 @@ articleTitle: XlsxDateTimeParsingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.XlsxDateTimeParsingMode enumeration. Specifies how document text is parsed to identify date and time values."
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.words.saving/xlsxdatetimeparsingmode/
 ---
 

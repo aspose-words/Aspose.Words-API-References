@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words.saving/markdownsaveoptions/
 ---
 
@@ -34,6 +34,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [dml_effects_rendering_mode](../saveoptions/dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [encoding](../txtsaveoptionsbase/encoding/) | Specifies the encoding to use when exporting in text formats.  Default value is **Encoding.UTF8**.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
+| [export_as_html](./export_as_html/) | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [MarkdownExportAsHtml.NONE](../markdownexportashtml/#NONE). |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [export_headers_footers_mode](../txtsaveoptionsbase/export_headers_footers_mode/) | Specifies the way headers and footers are exported to the text formats. Default value is [TxtExportHeadersFootersMode.PRIMARY_ONLY](../txtexportheadersfootersmode/#PRIMARY_ONLY).<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [export_images_as_base64](./export_images_as_base64/) | Specifies whether images are saved in Base64 format to the output file. Default value is ``False``. |

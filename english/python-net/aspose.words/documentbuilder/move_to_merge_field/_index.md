@@ -5,7 +5,7 @@ articleTitle: move_to_merge_field method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_merge_field method"
 type: docs
-weight: 580
+weight: 590
 url: /python-net/aspose.words/documentbuilder/move_to_merge_field/
 ---
 

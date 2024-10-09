@@ -5,7 +5,7 @@ articleTitle: move_to_paragraph method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.move_to_paragraph method. Moves the cursor to a paragraph in the current section."
 type: docs
-weight: 590
+weight: 600
 url: /python-net/aspose.words/documentbuilder/move_to_paragraph/
 ---
 

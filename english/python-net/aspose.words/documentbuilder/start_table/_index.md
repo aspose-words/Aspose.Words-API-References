@@ -5,7 +5,7 @@ articleTitle: start_table method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.start_table method. Starts a table in the document."
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.words/documentbuilder/start_table/
 ---
 

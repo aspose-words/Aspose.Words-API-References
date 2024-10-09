@@ -5,7 +5,7 @@ articleTitle: OptionButtonControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.OptionButtonControl class. The OptionButton control enables a single choice in a limited set of mutually exclusive choices."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.drawing.ole/optionbuttoncontrol/
 ---
 

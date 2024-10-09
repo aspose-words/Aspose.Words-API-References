@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.TEXT](../../aspose.words/saveformat/#TEXT) format"
 type: docs
-weight: 830
+weight: 840
 url: /python-net/aspose.words.saving/txtsaveoptions/
 ---
 
@@ -69,7 +69,7 @@ Shows how to save a .txt document with a custom paragraph break.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Paragraph 1.')
 builder.writeln('Paragraph 2.')
 builder.write('Paragraph 3.')
@@ -77,11 +77,10 @@ builder.write('Paragraph 3.')
 # to modify how we save the document to plaintext.
 txt_save_options = aw.saving.TxtSaveOptions()
 self.assertEqual(aw.SaveFormat.TEXT, txt_save_options.save_format)
-# Set the "paragraph_break" to a custom value that we wish to put at the end of every paragraph.
+# Set the "ParagraphBreak" to a custom value that we wish to put at the end of every paragraph.
 txt_save_options.paragraph_break = ' End of paragraph.\n\n\t'
-doc.save(ARTIFACTS_DIR + 'TxtSaveOptions.paragraph_break.txt', txt_save_options)
-with open(ARTIFACTS_DIR + 'TxtSaveOptions.paragraph_break.txt', 'rb') as file:
-    doc_text = file.read().decode('utf-8-sig')
+doc.save(file_name=ARTIFACTS_DIR + 'TxtSaveOptions.ParagraphBreak.txt', save_options=txt_save_options)
+doc_text = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'TxtSaveOptions.ParagraphBreak.txt')
 self.assertEqual('Paragraph 1. End of paragraph.\n\n\t' + 'Paragraph 2. End of paragraph.\n\n\t' + 'Paragraph 3. End of paragraph.\n\n\t', doc_text)
 ```
 

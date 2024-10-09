@@ -5,7 +5,7 @@ articleTitle: is_insert_revision property
 second_title: Aspose.Words for Python
 description: "ShapeBase.is_insert_revision property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled."
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.words.drawing/shapebase/is_insert_revision/
 ---
 

@@ -26,7 +26,7 @@ def count(self) -> int:
 Shows how to access an OLE control embedded in a document and its child controls.
 
 ```python
-doc = aw.Document(MY_DIR + 'OLE ActiveX controls.docm')
+doc = aw.Document(file_name=MY_DIR + 'OLE ActiveX controls.docm')
 # Shapes store and display OLE objects in the document's body.
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 self.assertEqual('6e182020-f460-11ce-9bcd-00aa00608e01', str(shape.ole_format.clsid))

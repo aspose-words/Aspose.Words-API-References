@@ -5,7 +5,7 @@ articleTitle: insert_hyperlink method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_hyperlink method. Inserts a hyperlink into the document."
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.words/documentbuilder/insert_hyperlink/
 ---
 

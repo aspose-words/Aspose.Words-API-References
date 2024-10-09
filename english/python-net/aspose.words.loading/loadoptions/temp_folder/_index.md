@@ -45,8 +45,8 @@ Shows how to load a document using temporary files.
 load_options = aw.loading.LoadOptions()
 load_options.temp_folder = 'C:\\TempFolder\\'
 # Ensure that the directory exists and load
-os.makedirs(load_options.temp_folder, exist_ok=True)
-doc = aw.Document(MY_DIR + 'Document.docx', load_options)
+system_helper.io.Directory.create_directory(load_options.temp_folder)
+doc = aw.Document(file_name=MY_DIR + 'Document.docx', load_options=load_options)
 ```
 
 Shows how to use the hard drive instead of memory when loading a document.

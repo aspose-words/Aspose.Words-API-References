@@ -65,7 +65,7 @@ sign_options = aw.digitalsignatures.SignOptions()
 sign_options.signature_line_id = signature_line.id
 sign_options.provider_id = signature_line.provider_id
 sign_options.comments = 'Document was signed by vderyushev'
-sign_options.sign_time = datetime.utcnow()
+sign_options.sign_time = datetime.datetime.utcnow()
 cert_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'morzal.pfx', 'aw')
 aw.digitalsignatures.DigitalSignatureUtil.sign(ARTIFACTS_DIR + 'DocumentBuilder.signature_line_provider_id.docx', ARTIFACTS_DIR + 'DocumentBuilder.signature_line_provider_id.signed.docx', cert_holder, sign_options)
 # Re-open our saved document, and verify that the "is_signed" and "is_valid" properties both equal "True",

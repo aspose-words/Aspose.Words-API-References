@@ -5,7 +5,7 @@ articleTitle: OdtSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OdtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.ODT](../../aspose.words/saveformat/#ODT) or [SaveFormat.OTT](../../aspose.words/saveformat/#OTT) format"
 type: docs
-weight: 490
+weight: 500
 url: /python-net/aspose.words.saving/odtsaveoptions/
 ---
 

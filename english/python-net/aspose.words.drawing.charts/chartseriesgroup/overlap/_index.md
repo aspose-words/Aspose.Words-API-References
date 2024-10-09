@@ -5,7 +5,7 @@ articleTitle: overlap property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.overlap property. Gets or sets the percentage of how much the series bars or columns overlap."
 type: docs
-weight: 60
+weight: 80
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/overlap/
 ---
 
