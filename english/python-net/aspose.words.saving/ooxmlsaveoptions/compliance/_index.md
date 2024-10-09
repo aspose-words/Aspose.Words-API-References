@@ -33,7 +33,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # If we configure compatibility options to comply with Microsoft Word 2003,
 # inserting an image will define its shape using VML.
 doc.compatibility_options.optimize_for(aw.settings.MsWordVersion.WORD2003)

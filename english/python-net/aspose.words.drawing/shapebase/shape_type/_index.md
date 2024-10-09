@@ -5,7 +5,7 @@ articleTitle: shape_type property
 second_title: Aspose.Words for Python
 description: "ShapeBase.shape_type property. Gets the shape type."
 type: docs
-weight: 520
+weight: 530
 url: /python-net/aspose.words.drawing/shapebase/shape_type/
 ---
 

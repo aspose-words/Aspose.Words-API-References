@@ -5,7 +5,7 @@ articleTitle: left_relative property
 second_title: Aspose.Words for Python
 description: "ShapeBase.left_relative property. Gets or sets the value that represents shape's relative left position in percent."
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.words.drawing/shapebase/left_relative/
 ---
 

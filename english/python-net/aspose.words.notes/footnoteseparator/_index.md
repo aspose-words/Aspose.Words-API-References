@@ -25,11 +25,6 @@ There can only be one [FootnoteSeparator](./) of each [FootnoteSeparatorType](..
 
 **Inheritance:** [FootnoteSeparator](./) → [Story](../../aspose.words/story/) → [CompositeNode](../../aspose.words/compositenode/) → [Node](../../aspose.words/node/)
 
-### Constructors
-| Name | Description |
-| --- | --- |
-| [FootnoteSeparator(doc, separator_type)](./__init__/#documentbase_footnoteseparatortype) | Creates a new footnoet/endnote separator of the specified type. |
-
 ### Properties
 
 | Name | Description |

@@ -5,7 +5,7 @@ articleTitle: series property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.series property. Gets a collection of series that belong to this series group."
 type: docs
-weight: 70
+weight: 100
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/series/
 ---
 

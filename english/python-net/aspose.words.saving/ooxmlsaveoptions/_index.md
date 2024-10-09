@@ -5,7 +5,7 @@ articleTitle: OoxmlSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OoxmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.DOCX](../../aspose.words/saveformat/#DOCX), [SaveFormat.DOCM](../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../aspose.words/saveformat/#DOTM) or [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format"
 type: docs
-weight: 510
+weight: 520
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/
 ---
 
@@ -69,7 +69,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # If we configure compatibility options to comply with Microsoft Word 2003,
 # inserting an image will define its shape using VML.
 doc.compatibility_options.optimize_for(aw.settings.MsWordVersion.WORD2003)

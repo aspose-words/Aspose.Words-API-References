@@ -5,7 +5,7 @@ articleTitle: local_to_parent method
 second_title: Aspose.Words for Python
 description: "ShapeBase.local_to_parent method. Converts a value from the local coordinate space into the coordinate space of the parent shape."
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.words.drawing/shapebase/local_to_parent/
 ---
 

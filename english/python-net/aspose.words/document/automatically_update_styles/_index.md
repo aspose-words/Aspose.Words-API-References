@@ -39,7 +39,7 @@ self.assertEqual('', doc.attached_template)
 # within the template to styles in our document.
 doc.attached_template = MY_DIR + 'Business brochure.dotx'
 doc.automatically_update_styles = True
-doc.save(ARTIFACTS_DIR + 'Document.automatically_update_styles.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.AutomaticallyUpdateStyles.docx')
 ```
 
 Shows how to set a default template for documents that do not have attached templates.
@@ -52,9 +52,9 @@ self.assertEqual('', doc.attached_template)
 # Since there is no template document, the document had nowhere to track style changes.
 # Use a SaveOptions object to automatically set a template
 # if a document that we are saving does not have one.
-options = aw.saving.SaveOptions.create_save_options('Document.default_template.docx')
+options = aw.saving.SaveOptions.create_save_options(file_name='Document.DefaultTemplate.docx')
 options.default_template = MY_DIR + 'Business brochure.dotx'
-doc.save(ARTIFACTS_DIR + 'Document.default_template.docx', options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.DefaultTemplate.docx', save_options=options)
 ```
 
 ### See Also

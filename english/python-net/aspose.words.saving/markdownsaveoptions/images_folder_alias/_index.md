@@ -5,7 +5,7 @@ articleTitle: images_folder_alias property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.images_folder_alias property. Specifies the name of the folder used to construct image URIs written into a document"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/
 ---
 

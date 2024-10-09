@@ -30,7 +30,7 @@ def bubble_scale(self, value: int):
 Applies only to series groups of the [ChartSeriesType.BUBBLE](../../chartseriestype/#BUBBLE) and
 [ChartSeriesType.BUBBLE_3D](../../chartseriestype/#BUBBLE_3D) types.
 
-The range of acceptable values is from 0 to 300 inclusive.
+The range of acceptable values is from 0 to 300 inclusive. The default value is 100.
 
 
 

@@ -5,7 +5,7 @@ articleTitle: writeln method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.writeln method"
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.words/documentbuilder/writeln/
 ---
 

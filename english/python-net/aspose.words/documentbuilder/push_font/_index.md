@@ -5,7 +5,7 @@ articleTitle: push_font method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.push_font method. Saves current character formatting onto the stack."
 type: docs
-weight: 630
+weight: 640
 url: /python-net/aspose.words/documentbuilder/push_font/
 ---
 

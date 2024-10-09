@@ -5,7 +5,7 @@ articleTitle: export_images_as_base64 property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.export_images_as_base64 property. Specifies whether images are saved in Base64 format to the output file"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.saving/markdownsaveoptions/export_images_as_base64/
 ---
 

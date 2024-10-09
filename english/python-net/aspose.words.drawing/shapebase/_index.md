@@ -79,6 +79,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [height](./height/) | Gets or sets the height of the containing block of the shape. |
 | [height_relative](./height_relative/) | Gets or sets the value that represents the percentage of shape's relative height. |
+| [hidden](./hidden/) | Gets or sets a boolean value indicating whether the shape is visible. |
 | [horizontal_alignment](./horizontal_alignment/) | Specifies how the shape is positioned horizontally. |
 | [href](./href/) | Gets or sets the full hyperlink address for a shape. |
 | [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
