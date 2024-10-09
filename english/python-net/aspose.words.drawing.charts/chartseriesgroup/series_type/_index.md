@@ -5,7 +5,7 @@ articleTitle: series_type property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.series_type property. Gets the type of chart series included in this group."
 type: docs
-weight: 80
+weight: 110
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/series_type/
 ---
 

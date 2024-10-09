@@ -44,21 +44,20 @@ Shows how to save the document with PostScript font.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'PostScriptFont'
 builder.writeln('Some text with PostScript font.')
 # Load the font with PostScript to use in the document.
-with open(FONTS_DIR + 'AllegroOpen.otf', 'rb') as file:
-    otf = aw.fonts.MemoryFontSource(file.read())
+otf = aw.fonts.MemoryFontSource(font_data=system_helper.io.File.read_all_bytes(FONTS_DIR + 'AllegroOpen.otf'))
 doc.font_settings = aw.fonts.FontSettings()
-doc.font_settings.set_fonts_sources([otf])
+doc.font_settings.set_fonts_sources(sources=[otf])
 # Embed TrueType fonts.
 doc.font_infos.embed_true_type_fonts = True
 # Allow embedding PostScript fonts while embedding TrueType fonts.
 # Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
-save_options = aw.saving.SaveOptions.create_save_options(aw.SaveFormat.DOCX)
+save_options = aw.saving.SaveOptions.create_save_options(save_format=aw.SaveFormat.DOCX)
 save_options.allow_embedding_post_script_fonts = True
-doc.save(ARTIFACTS_DIR + 'Document.allow_embedding_post_script_fonts.docx', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.AllowEmbeddingPostScriptFonts.docx', save_options=save_options)
 ```
 
 ### See Also

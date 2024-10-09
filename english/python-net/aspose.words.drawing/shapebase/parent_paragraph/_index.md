@@ -5,7 +5,7 @@ articleTitle: parent_paragraph property
 second_title: Aspose.Words for Python
 description: "ShapeBase.parent_paragraph property. Returns the immediate parent paragraph."
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.words.drawing/shapebase/parent_paragraph/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: insert_online_video method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_online_video method"
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words/documentbuilder/insert_online_video/
 ---
 

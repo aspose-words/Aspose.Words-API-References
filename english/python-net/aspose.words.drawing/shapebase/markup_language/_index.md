@@ -5,7 +5,7 @@ articleTitle: markup_language property
 second_title: Aspose.Words for Python
 description: "ShapeBase.markup_language property. Gets MarkupLanguage used for this graphic object."
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.words.drawing/shapebase/markup_language/
 ---
 

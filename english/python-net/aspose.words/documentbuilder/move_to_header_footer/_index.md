@@ -5,7 +5,7 @@ articleTitle: move_to_header_footer method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.move_to_header_footer method. Moves the cursor to the beginning of a header or footer in the current section."
 type: docs
-weight: 570
+weight: 580
 url: /python-net/aspose.words/documentbuilder/move_to_header_footer/
 ---
 

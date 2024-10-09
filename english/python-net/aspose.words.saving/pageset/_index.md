@@ -5,7 +5,7 @@ articleTitle: PageSet class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PageSet class. Describes a random set of pages"
 type: docs
-weight: 550
+weight: 560
 url: /python-net/aspose.words.saving/pageset/
 ---
 

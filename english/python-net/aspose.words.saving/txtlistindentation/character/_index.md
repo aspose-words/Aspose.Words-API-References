@@ -32,7 +32,7 @@ Shows how to configure list indenting when saving a document to plaintext.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a list with three levels of indentation.
 builder.list_format.apply_number_default()
 builder.writeln('Item 1')
@@ -40,19 +40,19 @@ builder.list_format.list_indent()
 builder.writeln('Item 2')
 builder.list_format.list_indent()
 builder.write('Item 3')
-# Create a "TxtSaveOptions" object, which we can pass to the document's "save" method
+# Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
 # to modify how we save the document to plaintext.
 txt_save_options = aw.saving.TxtSaveOptions()
-# Set the "character" property to assign a character to use
+# Set the "Character" property to assign a character to use
 # for padding that simulates list indentation in plaintext.
 txt_save_options.list_indentation.character = ' '
-# Set the "count" property to specify the number of times
+# Set the "Count" property to specify the number of times
 # to place the padding character for each list indent level.
 txt_save_options.list_indentation.count = 3
-doc.save(ARTIFACTS_DIR + 'TxtSaveOptions.txt_list_indentation.txt', txt_save_options)
-with open(ARTIFACTS_DIR + 'TxtSaveOptions.txt_list_indentation.txt', 'rb') as file:
-    doc_text = file.read().decode('utf-8-sig')
-self.assertEqual('1. Item 1\r\n' + '   a. Item 2\r\n' + '      i. Item 3\r\n', doc_text)
+doc.save(file_name=ARTIFACTS_DIR + 'TxtSaveOptions.TxtListIndentation.txt', save_options=txt_save_options)
+doc_text = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'TxtSaveOptions.TxtListIndentation.txt')
+new_line = system_helper.environment.Environment.new_line()
+self.assertEqual(f'1. Item 1{new_line}' + f'   a. Item 2{new_line}' + f'      i. Item 3{new_line}', doc_text)
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: separator_type property
 second_title: Aspose.Words for Python
 description: "FootnoteSeparator.separator_type property. "
 type: docs
-weight: 20
+weight: 10
 url: /python-net/aspose.words.notes/footnoteseparator/separator_type/
 ---
 

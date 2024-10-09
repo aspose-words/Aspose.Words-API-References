@@ -5,7 +5,7 @@ articleTitle: target property
 second_title: Aspose.Words for Python
 description: "ShapeBase.target property. Gets or sets the target frame for the shape hyperlink."
 type: docs
-weight: 550
+weight: 560
 url: /python-net/aspose.words.drawing/shapebase/target/
 ---
 

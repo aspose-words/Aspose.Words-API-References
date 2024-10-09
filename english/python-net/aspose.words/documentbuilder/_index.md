@@ -108,8 +108,9 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insert_field(field_code, field_value)](./insert_field/#str_str) | Inserts a Word field into a document without updating the field result. |
 |[ insert_footnote(footnote_type, footnote_text)](./insert_footnote/#footnotetype_str) | Inserts a footnote or endnote into the document. |
 |[ insert_footnote(footnote_type, footnote_text, reference_mark)](./insert_footnote/#footnotetype_str_str) | Inserts a footnote or endnote into the document. |
-|[ insert_group_shape(shapes)](./insert_group_shape/#shapelist) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
-|[ insert_group_shape(left, top, width, height, shapes)](./insert_group_shape/#float_float_float_float_shapelist) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
+|[ insert_forms_2_ole_control(forms_2_ole_control)](./insert_forms_2_ole_control/#forms2olecontrol) | Inserts [Forms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/) object into current position. |
+|[ insert_group_shape(shapes)](./insert_group_shape/#shapebaselist) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
+|[ insert_group_shape(left, top, width, height, shapes)](./insert_group_shape/#float_float_float_float_shapebaselist) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 |[ insert_horizontal_rule()](./insert_horizontal_rule/#default) | Inserts a horizontal rule shape into the document. |
 |[ insert_html(html)](./insert_html/#str) | Inserts an HTML string into the document. |
 |[ insert_html(html, use_builder_formatting)](./insert_html/#str_bool) | Inserts an HTML string into the document. |

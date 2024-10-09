@@ -35,8 +35,11 @@ To learn more, visit the [
 | [axis_x](./axis_x/) | Provides access to properties of the X axis of this series group. |
 | [axis_y](./axis_y/) | Provides access to properties of the Y axis of this series group. |
 | [bubble_scale](./bubble_scale/) | Gets or sets the size of the bubbles as a percentage of their default size. |
+| [doughnut_hole_size](./doughnut_hole_size/) | Gets or sets the hole size of the parent doughnut chart as a percentage. |
+| [first_slice_angle](./first_slice_angle/) | Gets or sets the angle, in degrees, of the first slice of the parent pie chart. |
 | [gap_width](./gap_width/) | Gets or sets the percentage of gap width between chart elements. |
 | [overlap](./overlap/) | Gets or sets the percentage of how much the series bars or columns overlap. |
+| [second_section_size](./second_section_size/) | Gets or sets the size of the pie chart secondary section as a percentage. |
 | [series](./series/) | Gets a collection of series that belong to this series group. |
 | [series_type](./series_type/) | Gets the type of chart series included in this group. |
 

@@ -5,7 +5,7 @@ articleTitle: wrap_side property
 second_title: Aspose.Words for Python
 description: "ShapeBase.wrap_side property. Specifies how the text is wrapped around the shape."
 type: docs
-weight: 620
+weight: 630
 url: /python-net/aspose.words.drawing/shapebase/wrap_side/
 ---
 

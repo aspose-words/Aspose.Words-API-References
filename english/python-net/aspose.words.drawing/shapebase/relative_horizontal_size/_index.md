@@ -5,7 +5,7 @@ articleTitle: relative_horizontal_size property
 second_title: Aspose.Words for Python
 description: "ShapeBase.relative_horizontal_size property. Gets or sets the value of shape's relative size in horizontal direction."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.drawing/shapebase/relative_horizontal_size/
 ---
 

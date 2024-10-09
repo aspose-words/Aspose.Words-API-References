@@ -5,7 +5,7 @@ articleTitle: Forms2OleControlCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.Forms2OleControlCollection class. Represents collection of [Forms2OleControl](../forms2olecontrol/) objects"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 
@@ -39,7 +39,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 Shows how to access an OLE control embedded in a document and its child controls.
 
 ```python
-doc = aw.Document(MY_DIR + 'OLE ActiveX controls.docm')
+doc = aw.Document(file_name=MY_DIR + 'OLE ActiveX controls.docm')
 # Shapes store and display OLE objects in the document's body.
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 self.assertEqual('6e182020-f460-11ce-9bcd-00aa00608e01', str(shape.ole_format.clsid))

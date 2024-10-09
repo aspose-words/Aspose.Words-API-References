@@ -5,7 +5,7 @@ articleTitle: TextBoxControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.TextBoxControl class. The TextBox control displays text from an organized set of data or user input."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.drawing.ole/textboxcontrol/
 ---
 

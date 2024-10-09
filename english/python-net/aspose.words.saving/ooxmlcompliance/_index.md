@@ -5,7 +5,7 @@ articleTitle: OoxmlCompliance enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OoxmlCompliance enumeration. Allows to specify which OOXML specification will be used when saving in the DOCX format."
 type: docs
-weight: 500
+weight: 510
 url: /python-net/aspose.words.saving/ooxmlcompliance/
 ---
 
@@ -28,7 +28,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # If we configure compatibility options to comply with Microsoft Word 2003,
 # inserting an image will define its shape using VML.
 doc.compatibility_options.optimize_for(aw.settings.MsWordVersion.WORD2003)

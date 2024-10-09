@@ -19,6 +19,7 @@ Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word
 | Class | Description |
 | --- | --- |
 | [CheckBoxControl](./checkboxcontrol/) | The CheckBox control toggles a value. |
+| [CommandButtonControl](./commandbuttoncontrol/) | The CommandButton control runs a macro that performs an action when a user clicks it. |
 | [Forms2OleControl](./forms2olecontrol/) | Represents Microsoft Forms 2.0 OLE control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects/) documentation article. |
 | [Forms2OleControlCollection](./forms2olecontrolcollection/) | Represents collection of [Forms2OleControl](./forms2olecontrol/) objects. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects/) documentation article. |
 | [MorphDataControl](./morphdatacontrol/) | The MorphDataControl structure is an aggregate of six controls: CheckBox, ComboBox, ListBox, OptionButton, TextBox, and ToggleButton. |

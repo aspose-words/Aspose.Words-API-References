@@ -5,7 +5,7 @@ articleTitle: move_to_structured_document_tag method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_structured_document_tag method"
 type: docs
-weight: 610
+weight: 620
 url: /python-net/aspose.words/documentbuilder/move_to_structured_document_tag/
 ---
 

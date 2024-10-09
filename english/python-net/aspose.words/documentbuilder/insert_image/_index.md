@@ -5,7 +5,7 @@ articleTitle: insert_image method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_image method"
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.words/documentbuilder/insert_image/
 ---
 
@@ -300,6 +300,18 @@ doc.compatibility_options.optimize_for(aw.settings.MsWordVersion.WORD2003)
 doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilderImages.InsertSvgImage.Emf.docx')
 ```
 
+Shows how to insert gif image to the document.
+
+```python
+builder = aw.DocumentBuilder()
+# We can insert gif image using path or bytes array.
+# It works only if DocumentBuilder optimized to Word version 2010 or higher.
+# Note, that access to the image bytes causes conversion Gif to Png.
+gif_image = builder.insert_image(file_name=IMAGE_DIR + 'Graphics Interchange Format.gif')
+gif_image = builder.insert_image(image_bytes=system_helper.io.File.read_all_bytes(IMAGE_DIR + 'Graphics Interchange Format.gif'))
+builder.document.save(file_name=ARTIFACTS_DIR + 'InsertGif.docx')
+```
+
 Shows how to insert an image from the local file system into a document.
 
 ```python
@@ -315,19 +327,6 @@ builder.insert_break(aw.BreakType.PAGE_BREAK)
 # 3 -  Floating shape with custom dimensions:
 builder.insert_image(IMAGE_DIR + 'Windows MetaFile.wmf', aw.drawing.RelativeHorizontalPosition.MARGIN, 100, aw.drawing.RelativeVerticalPosition.MARGIN, 100, 200, 100, aw.drawing.WrapType.SQUARE)
 doc.save(ARTIFACTS_DIR + 'DocumentBuilderImages.insert_image_from_filename.docx')
-```
-
-Shows how to insert gif image to the document.
-
-```python
-builder = aw.DocumentBuilder()
-# We can insert gif image using path or bytes array.
-# It works only if DocumentBuilder optimized to Word version 2010 or higher.
-# Note, that access to the image bytes causes conversion Gif to Png.
-gif_image = builder.insert_image(IMAGE_DIR + 'Graphics Interchange Format.gif')
-with open(IMAGE_DIR + 'Graphics Interchange Format.gif', 'rb') as file:
-    gif_image = builder.insert_image(file.read())
-builder.document.save(ARTIFACTS_DIR + 'DocumentBuilderImages.insert_gif.docx')
 ```
 
 Shows how to insert WebP image.
