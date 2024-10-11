@@ -4,7 +4,7 @@ linktitle: TextWrapping
 second_title: Aspose.Words for Java
 description: Specifies how text is wrapped around the table in Java.
 type: docs
-weight: 630
+weight: 632
 url: /java/com.aspose.words/textwrapping/
 ---
 

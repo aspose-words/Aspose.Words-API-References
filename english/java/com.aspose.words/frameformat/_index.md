@@ -4,7 +4,7 @@ linktitle: FrameFormat
 second_title: Aspose.Words for Java
 description: Represents frame related formatting for a paragraph in Java.
 type: docs
-weight: 337
+weight: 338
 url: /java/com.aspose.words/frameformat/
 ---
 

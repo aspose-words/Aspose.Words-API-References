@@ -4,7 +4,7 @@ linktitle: ExportListLabels
 second_title: Aspose.Words for Java
 description: Specifies how list labels are exported to HTML MHTML and EPUB in Java.
 type: docs
-weight: 180
+weight: 181
 url: /java/com.aspose.words/exportlistlabels/
 ---
 

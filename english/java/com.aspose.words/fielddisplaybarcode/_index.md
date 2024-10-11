@@ -4,7 +4,7 @@ linktitle: FieldDisplayBarcode
 second_title: Aspose.Words for Java
 description: Implements the DISPLAYBARCODE field in Java.
 type: docs
-weight: 210
+weight: 211
 url: /java/com.aspose.words/fielddisplaybarcode/
 ---
 
@@ -110,8 +110,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 

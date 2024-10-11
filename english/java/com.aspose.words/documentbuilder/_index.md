@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 151
+weight: 152
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -225,8 +225,9 @@ Shows how to build a table with custom borders.
 | [insertField(String fieldCode, String fieldValue)](#insertField-java.lang.String-java.lang.String) | Inserts a Word field into a document without updating the field result. |
 | [insertFootnote(int footnoteType, String footnoteText)](#insertFootnote-int-java.lang.String) |  |
 | [insertFootnote(int footnoteType, String footnoteText, String referenceMark)](#insertFootnote-int-java.lang.String-java.lang.String) |  |
-| [insertGroupShape(Shape[] shapes)](#insertGroupShape-com.aspose.words.Shape...) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
-| [insertGroupShape(double left, double top, double width, double height, Shape[] shapes)](#insertGroupShape-double-double-double-double-com.aspose.words.Shape...) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
+| [insertForms2OleControl(Forms2OleControl forms2OleControl)](#insertForms2OleControl-com.aspose.words.Forms2OleControl) | Inserts [Forms2OleControl](../../com.aspose.words/forms2olecontrol/) object into current position.. |
+| [insertGroupShape(ShapeBase[] shapes)](#insertGroupShape-com.aspose.words.ShapeBase...) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
+| [insertGroupShape(double left, double top, double width, double height, ShapeBase[] shapes)](#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 | [insertHorizontalRule()](#insertHorizontalRule) | Inserts a horizontal rule shape into the document. |
 | [insertHtml(String html)](#insertHtml-java.lang.String) | Inserts an HTML string into the document. |
 | [insertHtml(String html, boolean useBuilderFormatting)](#insertHtml-java.lang.String-boolean) | Inserts an HTML string into the document. |
@@ -2938,9 +2939,38 @@ public Footnote insertFootnote(int footnoteType, String footnoteText, String ref
 
 **Returns:**
 [Footnote](../../com.aspose.words/footnote/)
-### insertGroupShape(Shape[] shapes) {#insertGroupShape-com.aspose.words.Shape...}
+### insertForms2OleControl(Forms2OleControl forms2OleControl) {#insertForms2OleControl-com.aspose.words.Forms2OleControl}
 ```
-public GroupShape insertGroupShape(Shape[] shapes)
+public Shape insertForms2OleControl(Forms2OleControl forms2OleControl)
+```
+
+
+Inserts [Forms2OleControl](../../com.aspose.words/forms2olecontrol/) object into current position..
+
+ **Examples:** 
+
+Shows how to insert ActiveX control.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ CommandButtonControl button1 = new CommandButtonControl();
+ Shape shape = builder.insertForms2OleControl(button1);
+ Assert.assertEquals(Forms2OleControlType.COMMAND_BUTTON, ((Forms2OleControl)shape.getOleFormat().getOleControl()).getType());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| forms2OleControl | [Forms2OleControl](../../com.aspose.words/forms2olecontrol/) |  |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - [Shape](../../com.aspose.words/shape/) object that contains passed [Forms2OleControl](../../com.aspose.words/forms2olecontrol/)
+### insertGroupShape(ShapeBase[] shapes) {#insertGroupShape-com.aspose.words.ShapeBase...}
+```
+public GroupShape insertGroupShape(ShapeBase[] shapes)
 ```
 
 
@@ -2953,6 +2983,34 @@ The position and dimension of the new GroupShape will be calculated automaticall
 VML and DML shapes cannot be grouped together.
 
  **Examples:** 
+
+Shows how to combine group shape with the shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape1 = builder.insertShape(ShapeType.RECTANGLE, 200.0, 250.0);
+ shape1.setLeft(20.0);
+ shape1.setTop(20.0);
+ shape1.getStroke().setColor(Color.RED);
+
+ Shape shape2 = builder.insertShape(ShapeType.ELLIPSE, 150.0, 200.0);
+ shape2.setLeft(40.0);
+ shape2.setTop(50.0);
+ shape2.getStroke().setColor(Color.GREEN);
+
+ // Combine shapes into a GroupShape node which is inserted into the specified position.
+ GroupShape groupShape1 = builder.insertGroupShape(shape1, shape2);
+
+ // Combine Shape and GroupShape nodes.
+ Shape shape3 = (Shape)shape1.deepClone(true);
+ GroupShape groupShape2 = builder.insertGroupShape(groupShape1, shape3);
+
+ doc.save(getArtifactsDir() + "Shape.CombineGroupShape.docx");
+ 
+```
 
 Shows how to insert DML group shape.
 
@@ -2990,13 +3048,13 @@ Shows how to insert DML group shape.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapes | [Shape\[\]](../../com.aspose.words/shape/) | The list of shapes to be grouped. |
+| shapes | [ShapeBase\[\]](../../com.aspose.words/shapebase/) | The list of shapes to be grouped. |
 
 **Returns:**
 [GroupShape](../../com.aspose.words/groupshape/)
-### insertGroupShape(double left, double top, double width, double height, Shape[] shapes) {#insertGroupShape-double-double-double-double-com.aspose.words.Shape...}
+### insertGroupShape(double left, double top, double width, double height, ShapeBase[] shapes) {#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...}
 ```
-public GroupShape insertGroupShape(double left, double top, double width, double height, Shape[] shapes)
+public GroupShape insertGroupShape(double left, double top, double width, double height, ShapeBase[] shapes)
 ```
 
 
@@ -3048,7 +3106,7 @@ Shows how to insert DML group shape.
 | top | double | Distance in points from the origin to the top side of the group shape. |
 | width | double | The width of the group shape in points. A negative value is not allowed. |
 | height | double | The height of the group shape in points. A negative value is not allowed. |
-| shapes | [Shape\[\]](../../com.aspose.words/shape/) | The list of shapes to be grouped. |
+| shapes | [ShapeBase\[\]](../../com.aspose.words/shapebase/) | The list of shapes to be grouped. |
 
 **Returns:**
 [GroupShape](../../com.aspose.words/groupshape/)

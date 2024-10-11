@@ -4,7 +4,7 @@ linktitle: PdfFontEmbeddingMode
 second_title: Aspose.Words for Java
 description: Specifies how Aspose.Words should embed fonts in Java.
 type: docs
-weight: 503
+weight: 505
 url: /java/com.aspose.words/pdffontembeddingmode/
 ---
 

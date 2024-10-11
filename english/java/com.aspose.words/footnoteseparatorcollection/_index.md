@@ -4,7 +4,7 @@ linktitle: FootnoteSeparatorCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to TAspose.Words.Notes.FootnoteSeparator nodes of a document in Java.
 type: docs
-weight: 329
+weight: 330
 url: /java/com.aspose.words/footnoteseparatorcollection/
 ---
 
@@ -24,7 +24,6 @@ Provides typed access to **T:Aspose.Words.Notes.FootnoteSeparator** nodes of a d
 | --- | --- |
 | [getByFootnoteSeparatorType(int separatorType)](#getByFootnoteSeparatorType-int) |  |
 | [iterator()](#iterator) |  |
-| [setByFootnoteSeparatorType(int separatorType, FootnoteSeparator value)](#setByFootnoteSeparatorType-int-com.aspose.words.FootnoteSeparator) |  |
 ### getByFootnoteSeparatorType(int separatorType) {#getByFootnoteSeparatorType-int}
 ```
 public FootnoteSeparator getByFootnoteSeparatorType(int separatorType)
@@ -50,17 +49,3 @@ public Iterator iterator()
 
 **Returns:**
 java.util.Iterator
-### setByFootnoteSeparatorType(int separatorType, FootnoteSeparator value) {#setByFootnoteSeparatorType-int-com.aspose.words.FootnoteSeparator}
-```
-public void setByFootnoteSeparatorType(int separatorType, FootnoteSeparator value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| separatorType | int |  |
-| value | [FootnoteSeparator](../../com.aspose.words/footnoteseparator/) |  |
-

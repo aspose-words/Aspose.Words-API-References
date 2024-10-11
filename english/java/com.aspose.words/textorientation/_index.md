@@ -4,7 +4,7 @@ linktitle: TextOrientation
 second_title: Aspose.Words for Java
 description: Specifies orientation of text on a page in a table cell or a text frame in Java.
 type: docs
-weight: 626
+weight: 628
 url: /java/com.aspose.words/textorientation/
 ---
 

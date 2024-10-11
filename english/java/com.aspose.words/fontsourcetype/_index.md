@@ -4,7 +4,7 @@ linktitle: FontSourceType
 second_title: Aspose.Words for Java
 description: Specifies the type of font source in Java.
 type: docs
-weight: 321
+weight: 322
 url: /java/com.aspose.words/fontsourcetype/
 ---
 

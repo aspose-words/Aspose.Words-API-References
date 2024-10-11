@@ -4,7 +4,7 @@ linktitle: FieldBidiOutline
 second_title: Aspose.Words for Java
 description: Implements the BIDIOUTLINE field in Java.
 type: docs
-weight: 195
+weight: 196
 url: /java/com.aspose.words/fieldbidioutline/
 ---
 

@@ -4,7 +4,7 @@ linktitle: HtmlInsertOptions
 second_title: Aspose.Words for Java
 description: Specifies options for the MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions method in Java.
 type: docs
-weight: 364
+weight: 365
 url: /java/com.aspose.words/htmlinsertoptions/
 ---
 

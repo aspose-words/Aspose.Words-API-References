@@ -4,7 +4,7 @@ linktitle: TxtLeadingSpacesOptions
 second_title: Aspose.Words for Java
 description: Specifies available options for leading space handling during import from LoadFormat.TEXT file in Java.
 type: docs
-weight: 642
+weight: 644
 url: /java/com.aspose.words/txtleadingspacesoptions/
 ---
 
