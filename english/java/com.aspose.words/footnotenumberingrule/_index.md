@@ -4,7 +4,7 @@ linktitle: FootnoteNumberingRule
 second_title: Aspose.Words for Java
 description: Determines when automatic footnote or endnote numbering restarts in Java.
 type: docs
-weight: 325
+weight: 326
 url: /java/com.aspose.words/footnotenumberingrule/
 ---
 

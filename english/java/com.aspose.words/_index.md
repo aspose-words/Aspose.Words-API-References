@@ -121,6 +121,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Cluster](../com.aspose.words/cluster/) | Encapsulates code points and glyphs composing a grapheme. |
 | [ColorMode](../com.aspose.words/colormode/) | Specifies how colors are rendered. |
 | [ColorPrintMode](../com.aspose.words/colorprintmode/) | Specifies how non-colored pages are printed if the device supports color printing. |
+| [CommandButtonControl](../com.aspose.words/commandbuttoncontrol/) | The CommandButton control runs a macro that performs an action when a user clicks it. |
 | [Comment](../com.aspose.words/comment/) | Represents a container for text of a comment. |
 | [CommentCollection](../com.aspose.words/commentcollection/) | Provides typed access to a collection of [Comment](../com.aspose.words/comment/) nodes. |
 | [CommentDisplayMode](../com.aspose.words/commentdisplaymode/) | Specifies the rendering mode for document comments. |
@@ -448,6 +449,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMergeSettings](../com.aspose.words/mailmergesettings/) | Specifies all of the mail merge information for a document. |
 | [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
 | [Margins](../com.aspose.words/margins/) | Specifies preset margins. |
+| [MarkdownExportAsHtml](../com.aspose.words/markdownexportashtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [MarkdownLinkExportMode](../com.aspose.words/markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](../com.aspose.words/markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MarkdownLoadOptions](../com.aspose.words/markdownloadoptions/) | Allows to specify additional options when loading [LoadFormat.\#MARKDOWN](../com.aspose.words/loadformat/\#MARKDOWN) document into a [Document](../com.aspose.words/document/) object. |

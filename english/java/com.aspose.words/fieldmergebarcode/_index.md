@@ -4,7 +4,7 @@ linktitle: FieldMergeBarcode
 second_title: Aspose.Words for Java
 description: Implements the MERGEBARCODE field in Java.
 type: docs
-weight: 244
+weight: 245
 url: /java/com.aspose.words/fieldmergebarcode/
 ---
 
@@ -46,8 +46,8 @@ Shows how to perform a mail merge on ITF14 barcodes.
  // which will display an ITF14 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyITF14Barcode");
- table.getRows().add(new String[]{"09312345678907"});
- table.getRows().add(new String[]{"1234567891234"});
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
 
  doc.getMailMerge().execute(table);
 
@@ -87,8 +87,8 @@ Shows how to perform a mail merge on CODE39 barcodes.
  // which will display a CODE39 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyCODE39Barcode");
- table.getRows().add(new String[]{"12345ABCDE"});
- table.getRows().add(new String[]{"67890FGHIJ"});
+ table.getRows().add("12345ABCDE");
+ table.getRows().add("67890FGHIJ");
 
  doc.getMailMerge().execute(table);
 
@@ -130,8 +130,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -177,8 +177,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -294,8 +294,8 @@ Shows how to perform a mail merge on CODE39 barcodes.
  // which will display a CODE39 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyCODE39Barcode");
- table.getRows().add(new String[]{"12345ABCDE"});
- table.getRows().add(new String[]{"67890FGHIJ"});
+ table.getRows().add("12345ABCDE");
+ table.getRows().add("67890FGHIJ");
 
  doc.getMailMerge().execute(table);
 
@@ -353,8 +353,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -403,8 +403,8 @@ Shows how to perform a mail merge on ITF14 barcodes.
  // which will display an ITF14 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyITF14Barcode");
- table.getRows().add(new String[]{"09312345678907"});
- table.getRows().add(new String[]{"1234567891234"});
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
 
  doc.getMailMerge().execute(table);
 
@@ -444,8 +444,8 @@ Shows how to perform a mail merge on CODE39 barcodes.
  // which will display a CODE39 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyCODE39Barcode");
- table.getRows().add(new String[]{"12345ABCDE"});
- table.getRows().add(new String[]{"67890FGHIJ"});
+ table.getRows().add("12345ABCDE");
+ table.getRows().add("67890FGHIJ");
 
  doc.getMailMerge().execute(table);
 
@@ -487,8 +487,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -534,8 +534,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -589,8 +589,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -636,8 +636,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -686,8 +686,8 @@ Shows how to perform a mail merge on ITF14 barcodes.
  // which will display an ITF14 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyITF14Barcode");
- table.getRows().add(new String[]{"09312345678907"});
- table.getRows().add(new String[]{"1234567891234"});
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
 
  doc.getMailMerge().execute(table);
 
@@ -783,8 +783,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -946,8 +946,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -1086,8 +1086,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -1145,8 +1145,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -1322,8 +1322,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -1407,8 +1407,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -1689,8 +1689,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -1748,8 +1748,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -2158,8 +2158,8 @@ Shows how to perform a mail merge on CODE39 barcodes.
  // which will display a CODE39 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyCODE39Barcode");
- table.getRows().add(new String[]{"12345ABCDE"});
- table.getRows().add(new String[]{"67890FGHIJ"});
+ table.getRows().add("12345ABCDE");
+ table.getRows().add("67890FGHIJ");
 
  doc.getMailMerge().execute(table);
 
@@ -2220,8 +2220,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -2273,8 +2273,8 @@ Shows how to perform a mail merge on ITF14 barcodes.
  // which will display an ITF14 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyITF14Barcode");
- table.getRows().add(new String[]{"09312345678907"});
- table.getRows().add(new String[]{"1234567891234"});
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
 
  doc.getMailMerge().execute(table);
 
@@ -2314,8 +2314,8 @@ Shows how to perform a mail merge on CODE39 barcodes.
  // which will display a CODE39 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyCODE39Barcode");
- table.getRows().add(new String[]{"12345ABCDE"});
- table.getRows().add(new String[]{"67890FGHIJ"});
+ table.getRows().add("12345ABCDE");
+ table.getRows().add("67890FGHIJ");
 
  doc.getMailMerge().execute(table);
 
@@ -2357,8 +2357,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -2404,8 +2404,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -2462,8 +2462,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -2509,8 +2509,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -2562,8 +2562,8 @@ Shows how to perform a mail merge on ITF14 barcodes.
  // which will display an ITF14 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyITF14Barcode");
- table.getRows().add(new String[]{"09312345678907"});
- table.getRows().add(new String[]{"1234567891234"});
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
 
  doc.getMailMerge().execute(table);
 
@@ -2620,8 +2620,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -2682,8 +2682,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -2740,8 +2740,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -2802,8 +2802,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -2900,8 +2900,8 @@ Shows how to perform a mail merge on EAN13 barcodes.
  // which will display an EAN13 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyEAN13Barcode");
- table.getRows().add(new String[]{"501234567890"});
- table.getRows().add(new String[]{"123456789012"});
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
 
  doc.getMailMerge().execute(table);
 
@@ -2991,8 +2991,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -3053,8 +3053,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
@@ -3115,8 +3115,8 @@ Shows how to perform a mail merge on QR barcodes.
  // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
  table.getColumns().add("MyQRCode");
- table.getRows().add(new String[]{"ABC123"});
- table.getRows().add(new String[]{"DEF456"});
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 

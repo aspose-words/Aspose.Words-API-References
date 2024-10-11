@@ -4,7 +4,7 @@ linktitle: IChartDataPoint
 second_title: Aspose.Words for Java
 description: Contains properties of a single data point on the chart in Java.
 type: docs
-weight: 701
+weight: 703
 url: /java/com.aspose.words/ichartdatapoint/
 ---
 ```

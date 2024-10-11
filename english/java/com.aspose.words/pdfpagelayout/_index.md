@@ -4,7 +4,7 @@ linktitle: PdfPageLayout
 second_title: Aspose.Words for Java
 description: Specifies the page layout to be used when the document is opened in a PDF reader in Java.
 type: docs
-weight: 507
+weight: 509
 url: /java/com.aspose.words/pdfpagelayout/
 ---
 

@@ -4,7 +4,7 @@ linktitle: GradientVariant
 second_title: Aspose.Words for Java
 description: Specifies the variant for a gradient fill in Java.
 type: docs
-weight: 348
+weight: 349
 url: /java/com.aspose.words/gradientvariant/
 ---
 

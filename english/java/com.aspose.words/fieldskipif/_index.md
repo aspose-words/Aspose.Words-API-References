@@ -4,7 +4,7 @@ linktitle: FieldSkipIf
 second_title: Aspose.Words for Java
 description: Implements the SKIPIF field in Java.
 type: docs
-weight: 274
+weight: 275
 url: /java/com.aspose.words/fieldskipif/
 ---
 
@@ -107,9 +107,9 @@ Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge
  // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
  DataTable table = new DataTable("Employees");
  table.getColumns().add("Name");
- table.getRows().add(new String[]{"Jane Doe"});
- table.getRows().add(new String[]{"John Doe"});
- table.getRows().add(new String[]{"Joe Bloggs"});
+ table.getRows().add("Jane Doe");
+ table.getRows().add("John Doe");
+ table.getRows().add("Joe Bloggs");
 
  doc.getMailMerge().execute(table);
  doc.save(getArtifactsDir() + "Field.MERGEREC.MERGESEQ.docx");
@@ -241,9 +241,9 @@ Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge
  // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
  DataTable table = new DataTable("Employees");
  table.getColumns().add("Name");
- table.getRows().add(new String[]{"Jane Doe"});
- table.getRows().add(new String[]{"John Doe"});
- table.getRows().add(new String[]{"Joe Bloggs"});
+ table.getRows().add("Jane Doe");
+ table.getRows().add("John Doe");
+ table.getRows().add("Joe Bloggs");
 
  doc.getMailMerge().execute(table);
  doc.save(getArtifactsDir() + "Field.MERGEREC.MERGESEQ.docx");
@@ -651,9 +651,9 @@ Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge
  // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
  DataTable table = new DataTable("Employees");
  table.getColumns().add("Name");
- table.getRows().add(new String[]{"Jane Doe"});
- table.getRows().add(new String[]{"John Doe"});
- table.getRows().add(new String[]{"Joe Bloggs"});
+ table.getRows().add("Jane Doe");
+ table.getRows().add("John Doe");
+ table.getRows().add("Joe Bloggs");
 
  doc.getMailMerge().execute(table);
  doc.save(getArtifactsDir() + "Field.MERGEREC.MERGESEQ.docx");
@@ -818,9 +818,9 @@ Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge
  // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
  DataTable table = new DataTable("Employees");
  table.getColumns().add("Name");
- table.getRows().add(new String[]{"Jane Doe"});
- table.getRows().add(new String[]{"John Doe"});
- table.getRows().add(new String[]{"Joe Bloggs"});
+ table.getRows().add("Jane Doe");
+ table.getRows().add("John Doe");
+ table.getRows().add("Joe Bloggs");
 
  doc.getMailMerge().execute(table);
  doc.save(getArtifactsDir() + "Field.MERGEREC.MERGESEQ.docx");
@@ -1477,9 +1477,9 @@ Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge
  // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
  DataTable table = new DataTable("Employees");
  table.getColumns().add("Name");
- table.getRows().add(new String[]{"Jane Doe"});
- table.getRows().add(new String[]{"John Doe"});
- table.getRows().add(new String[]{"Joe Bloggs"});
+ table.getRows().add("Jane Doe");
+ table.getRows().add("John Doe");
+ table.getRows().add("Joe Bloggs");
 
  doc.getMailMerge().execute(table);
  doc.save(getArtifactsDir() + "Field.MERGEREC.MERGESEQ.docx");
@@ -1584,9 +1584,9 @@ Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge
  // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
  DataTable table = new DataTable("Employees");
  table.getColumns().add("Name");
- table.getRows().add(new String[]{"Jane Doe"});
- table.getRows().add(new String[]{"John Doe"});
- table.getRows().add(new String[]{"Joe Bloggs"});
+ table.getRows().add("Jane Doe");
+ table.getRows().add("John Doe");
+ table.getRows().add("Joe Bloggs");
 
  doc.getMailMerge().execute(table);
  doc.save(getArtifactsDir() + "Field.MERGEREC.MERGESEQ.docx");
@@ -1760,9 +1760,9 @@ Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge
  // On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
  DataTable table = new DataTable("Employees");
  table.getColumns().add("Name");
- table.getRows().add(new String[]{"Jane Doe"});
- table.getRows().add(new String[]{"John Doe"});
- table.getRows().add(new String[]{"Joe Bloggs"});
+ table.getRows().add("Jane Doe");
+ table.getRows().add("John Doe");
+ table.getRows().add("Joe Bloggs");
 
  doc.getMailMerge().execute(table);
  doc.save(getArtifactsDir() + "Field.MERGEREC.MERGESEQ.docx");

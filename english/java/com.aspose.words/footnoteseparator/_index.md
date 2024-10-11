@@ -4,7 +4,7 @@ linktitle: FootnoteSeparator
 second_title: Aspose.Words for Java
 description:  in Java.
 type: docs
-weight: 328
+weight: 329
 url: /java/com.aspose.words/footnoteseparator/
 ---
 
@@ -13,11 +13,6 @@ java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.as
 ```
 public class FootnoteSeparator extends Story
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FootnoteSeparator(DocumentBase doc, int separatorType)](#FootnoteSeparator-com.aspose.words.DocumentBase-int) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
@@ -74,20 +69,6 @@ public class FootnoteSeparator extends Story
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
-### FootnoteSeparator(DocumentBase doc, int separatorType) {#FootnoteSeparator-com.aspose.words.DocumentBase-int}
-```
-public FootnoteSeparator(DocumentBase doc, int separatorType)
-```
-
-
-Initializes a new instance of this class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase/) |  |
-| separatorType | int |  |
-
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)

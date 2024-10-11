@@ -73,14 +73,20 @@ Shows how to work with the secondary axis of chart.
 | [getAxisX()](#getAxisX) | Provides access to properties of the X axis of this series group. |
 | [getAxisY()](#getAxisY) | Provides access to properties of the Y axis of this series group. |
 | [getBubbleScale()](#getBubbleScale) | Gets the size of the bubbles as a percentage of their default size. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize) | Gets the hole size of the parent doughnut chart as a percentage. |
+| [getFirstSliceAngle()](#getFirstSliceAngle) | Gets the angle, in degrees, of the first slice of the parent pie chart. |
 | [getGapWidth()](#getGapWidth) | Gets the percentage of gap width between chart elements. |
 | [getOverlap()](#getOverlap) | Gets the percentage of how much the series bars or columns overlap. |
+| [getSecondSectionSize()](#getSecondSectionSize) | Gets the size of the pie chart secondary section as a percentage. |
 | [getSeries()](#getSeries) | Gets a collection of series that belong to this series group. |
 | [getSeriesType()](#getSeriesType) | Gets the type of chart series included in this group. |
 | [setAxisGroup(int value)](#setAxisGroup-int) | Sets the axis group to which this series group belongs. |
 | [setBubbleScale(int value)](#setBubbleScale-int) | Sets the size of the bubbles as a percentage of their default size. |
+| [setDoughnutHoleSize(int value)](#setDoughnutHoleSize-int) | Sets the hole size of the parent doughnut chart as a percentage. |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int) | Sets the angle, in degrees, of the first slice of the parent pie chart. |
 | [setGapWidth(int value)](#setGapWidth-int) | Sets the percentage of gap width between chart elements. |
 | [setOverlap(int value)](#setOverlap-int) | Sets the percentage of how much the series bars or columns overlap. |
+| [setSecondSectionSize(int value)](#setSecondSectionSize-int) | Sets the size of the pie chart secondary section as a percentage. |
 ### getAxisGroup() {#getAxisGroup}
 ```
 public int getAxisGroup()
@@ -240,7 +246,7 @@ Gets the size of the bubbles as a percentage of their default size.
 
 Applies only to series groups of the [ChartSeriesType.BUBBLE](../../com.aspose.words/chartseriestype/\#BUBBLE) and [ChartSeriesType.BUBBLE\_3\_D](../../com.aspose.words/chartseriestype/\#BUBBLE-3-D) types.
 
-The range of acceptable values is from 0 to 300 inclusive.
+The range of acceptable values is from 0 to 300 inclusive. The default value is 100.
 
  **Examples:** 
 
@@ -264,6 +270,90 @@ Show how to set size of the bubbles.
 
 **Returns:**
 int - The size of the bubbles as a percentage of their default size.
+### getDoughnutHoleSize() {#getDoughnutHoleSize}
+```
+public int getDoughnutHoleSize()
+```
+
+
+Gets the hole size of the parent doughnut chart as a percentage.
+
+ **Remarks:** 
+
+Applies only to series groups of the [ChartSeriesType.DOUGHNUT](../../com.aspose.words/chartseriestype/\#DOUGHNUT) type.
+
+The range of acceptable values is from 0 to 90 inclusive. The default value is 75.
+
+ **Examples:** 
+
+Shows how to create and format Doughnut chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.DOUGHNUT, 400.0, 400.0);
+ Chart chart = shape.getChart();
+ // Delete the default generated series.
+ chart.getSeries().clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2", "Category 3" };
+ chart.getSeries().add("Series 1", categories, new double[] { 4.0, 2.0, 5.0 });
+
+ // Format the Doughnut chart.
+ ChartSeriesGroup seriesGroup = chart.getSeriesGroups().get(0);
+ seriesGroup.setDoughnutHoleSize(10);
+ seriesGroup.setFirstSliceAngle(270);
+
+ doc.save(getArtifactsDir() + "Charts.DoughnutChart.docx");
+ 
+```
+
+**Returns:**
+int - The hole size of the parent doughnut chart as a percentage.
+### getFirstSliceAngle() {#getFirstSliceAngle}
+```
+public int getFirstSliceAngle()
+```
+
+
+Gets the angle, in degrees, of the first slice of the parent pie chart.
+
+ **Remarks:** 
+
+Applies to series groups of the [ChartSeriesType.PIE](../../com.aspose.words/chartseriestype/\#PIE), [ChartSeriesType.PIE\_3\_D](../../com.aspose.words/chartseriestype/\#PIE-3-D) and [ChartSeriesType.DOUGHNUT](../../com.aspose.words/chartseriestype/\#DOUGHNUT) types.
+
+The range of acceptable values is from 0 to 360 inclusive. The default value is 0.
+
+ **Examples:** 
+
+Shows how to create and format Doughnut chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.DOUGHNUT, 400.0, 400.0);
+ Chart chart = shape.getChart();
+ // Delete the default generated series.
+ chart.getSeries().clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2", "Category 3" };
+ chart.getSeries().add("Series 1", categories, new double[] { 4.0, 2.0, 5.0 });
+
+ // Format the Doughnut chart.
+ ChartSeriesGroup seriesGroup = chart.getSeriesGroups().get(0);
+ seriesGroup.setDoughnutHoleSize(10);
+ seriesGroup.setFirstSliceAngle(270);
+
+ doc.save(getArtifactsDir() + "Charts.DoughnutChart.docx");
+ 
+```
+
+**Returns:**
+int - The angle, in degrees, of the first slice of the parent pie chart.
 ### getGapWidth() {#getGapWidth}
 ```
 public int getGapWidth()
@@ -336,6 +426,48 @@ Show how to configure gap width and overlap.
 
 **Returns:**
 int - The percentage of how much the series bars or columns overlap.
+### getSecondSectionSize() {#getSecondSectionSize}
+```
+public int getSecondSectionSize()
+```
+
+
+Gets the size of the pie chart secondary section as a percentage.
+
+ **Remarks:** 
+
+Applies to series groups of the [ChartSeriesType.PIE\_OF\_PIE](../../com.aspose.words/chartseriestype/\#PIE-OF-PIE) and [ChartSeriesType.PIE\_OF\_BAR](../../com.aspose.words/chartseriestype/\#PIE-OF-BAR) types.
+
+The range of acceptable values is from 5 to 200 inclusive. The default value is 75.
+
+ **Examples:** 
+
+Shows how to create and format pie of Pie chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.PIE_OF_PIE, 440.0, 300.0);
+ Chart chart = shape.getChart();
+ // Delete the default generated series.
+ chart.getSeries().clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2", "Category 3", "Category 4" };
+ chart.getSeries().add("Series 1", categories, new double[] { 11.0, 8.0, 4.0, 3.0 });
+
+ // Format the Pie of Pie chart.
+ ChartSeriesGroup seriesGroup = chart.getSeriesGroups().get(0);
+ seriesGroup.setGapWidth(10);
+ seriesGroup.setSecondSectionSize(77);
+
+ doc.save(getArtifactsDir() + "Charts.PieOfPieChart.docx");
+ 
+```
+
+**Returns:**
+int - The size of the pie chart secondary section as a percentage.
 ### getSeries() {#getSeries}
 ```
 public ChartSeriesCollection getSeries()
@@ -459,7 +591,7 @@ Sets the size of the bubbles as a percentage of their default size.
 
 Applies only to series groups of the [ChartSeriesType.BUBBLE](../../com.aspose.words/chartseriestype/\#BUBBLE) and [ChartSeriesType.BUBBLE\_3\_D](../../com.aspose.words/chartseriestype/\#BUBBLE-3-D) types.
 
-The range of acceptable values is from 0 to 300 inclusive.
+The range of acceptable values is from 0 to 300 inclusive. The default value is 100.
 
  **Examples:** 
 
@@ -485,6 +617,96 @@ Show how to set size of the bubbles.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The size of the bubbles as a percentage of their default size. |
+
+### setDoughnutHoleSize(int value) {#setDoughnutHoleSize-int}
+```
+public void setDoughnutHoleSize(int value)
+```
+
+
+Sets the hole size of the parent doughnut chart as a percentage.
+
+ **Remarks:** 
+
+Applies only to series groups of the [ChartSeriesType.DOUGHNUT](../../com.aspose.words/chartseriestype/\#DOUGHNUT) type.
+
+The range of acceptable values is from 0 to 90 inclusive. The default value is 75.
+
+ **Examples:** 
+
+Shows how to create and format Doughnut chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.DOUGHNUT, 400.0, 400.0);
+ Chart chart = shape.getChart();
+ // Delete the default generated series.
+ chart.getSeries().clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2", "Category 3" };
+ chart.getSeries().add("Series 1", categories, new double[] { 4.0, 2.0, 5.0 });
+
+ // Format the Doughnut chart.
+ ChartSeriesGroup seriesGroup = chart.getSeriesGroups().get(0);
+ seriesGroup.setDoughnutHoleSize(10);
+ seriesGroup.setFirstSliceAngle(270);
+
+ doc.save(getArtifactsDir() + "Charts.DoughnutChart.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The hole size of the parent doughnut chart as a percentage. |
+
+### setFirstSliceAngle(int value) {#setFirstSliceAngle-int}
+```
+public void setFirstSliceAngle(int value)
+```
+
+
+Sets the angle, in degrees, of the first slice of the parent pie chart.
+
+ **Remarks:** 
+
+Applies to series groups of the [ChartSeriesType.PIE](../../com.aspose.words/chartseriestype/\#PIE), [ChartSeriesType.PIE\_3\_D](../../com.aspose.words/chartseriestype/\#PIE-3-D) and [ChartSeriesType.DOUGHNUT](../../com.aspose.words/chartseriestype/\#DOUGHNUT) types.
+
+The range of acceptable values is from 0 to 360 inclusive. The default value is 0.
+
+ **Examples:** 
+
+Shows how to create and format Doughnut chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.DOUGHNUT, 400.0, 400.0);
+ Chart chart = shape.getChart();
+ // Delete the default generated series.
+ chart.getSeries().clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2", "Category 3" };
+ chart.getSeries().add("Series 1", categories, new double[] { 4.0, 2.0, 5.0 });
+
+ // Format the Doughnut chart.
+ ChartSeriesGroup seriesGroup = chart.getSeriesGroups().get(0);
+ seriesGroup.setDoughnutHoleSize(10);
+ seriesGroup.setFirstSliceAngle(270);
+
+ doc.save(getArtifactsDir() + "Charts.DoughnutChart.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The angle, in degrees, of the first slice of the parent pie chart. |
 
 ### setGapWidth(int value) {#setGapWidth-int}
 ```
@@ -563,4 +785,49 @@ Show how to configure gap width and overlap.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The percentage of how much the series bars or columns overlap. |
+
+### setSecondSectionSize(int value) {#setSecondSectionSize-int}
+```
+public void setSecondSectionSize(int value)
+```
+
+
+Sets the size of the pie chart secondary section as a percentage.
+
+ **Remarks:** 
+
+Applies to series groups of the [ChartSeriesType.PIE\_OF\_PIE](../../com.aspose.words/chartseriestype/\#PIE-OF-PIE) and [ChartSeriesType.PIE\_OF\_BAR](../../com.aspose.words/chartseriestype/\#PIE-OF-BAR) types.
+
+The range of acceptable values is from 5 to 200 inclusive. The default value is 75.
+
+ **Examples:** 
+
+Shows how to create and format pie of Pie chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.PIE_OF_PIE, 440.0, 300.0);
+ Chart chart = shape.getChart();
+ // Delete the default generated series.
+ chart.getSeries().clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2", "Category 3", "Category 4" };
+ chart.getSeries().add("Series 1", categories, new double[] { 11.0, 8.0, 4.0, 3.0 });
+
+ // Format the Pie of Pie chart.
+ ChartSeriesGroup seriesGroup = chart.getSeriesGroups().get(0);
+ seriesGroup.setGapWidth(10);
+ seriesGroup.setSecondSectionSize(77);
+
+ doc.save(getArtifactsDir() + "Charts.PieOfPieChart.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The size of the pie chart secondary section as a percentage. |
 

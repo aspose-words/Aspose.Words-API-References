@@ -4,7 +4,7 @@ linktitle: ShapeBase
 second_title: Aspose.Words for Java
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 572
+weight: 574
 url: /java/com.aspose.words/shapebase/
 ---
 
@@ -130,6 +130,7 @@ Shows how to insert a floating image to the center of a page.
 | [getHRef()](#getHRef) | Gets the full hyperlink address for a shape. |
 | [getHeight()](#getHeight) | Gets the height of the containing block of the shape. |
 | [getHeightRelative()](#getHeightRelative) | Gets the value that represents the percentage of shape's relative height. |
+| [getHidden()](#getHidden) | Gets a boolean value indicating whether the shape is visible. |
 | [getHorizontalAlignment()](#getHorizontalAlignment) | Specifies how the shape is positioned horizontally. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getLeft()](#getLeft) | Gets the position of the left edge of the containing block of the shape. |
@@ -255,6 +256,7 @@ Shows how to insert a floating image to the center of a page.
 | [setHRef(String value)](#setHRef-java.lang.String) | Sets the full hyperlink address for a shape. |
 | [setHeight(double value)](#setHeight-double) | Sets the height of the containing block of the shape. |
 | [setHeightRelative(float value)](#setHeightRelative-float) | Sets the value that represents the percentage of shape's relative height. |
+| [setHidden(boolean value)](#setHidden-boolean) | Sets a boolean value indicating whether the shape is visible. |
 | [setHorizontalAlignment(int value)](#setHorizontalAlignment-int) | Specifies how the shape is positioned horizontally. |
 | [setImage(byte[] imageBytes)](#setImage-byte) |  |
 | [setLeft(double value)](#setLeft-double) | Sets the position of the left edge of the containing block of the shape. |
@@ -3312,6 +3314,36 @@ Shows how to set relative size and position.
 
 **Returns:**
 float - The value that represents the percentage of shape's relative height.
+### getHidden() {#getHidden}
+```
+public boolean getHidden()
+```
+
+
+Gets a boolean value indicating whether the shape is visible.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to hide the shape.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ if (!shape.getHidden())
+     shape.setHidden(true);
+
+ doc.save(getArtifactsDir() + "Shape.Hidden.docx");
+ 
+```
+
+**Returns:**
+boolean - A boolean value indicating whether the shape is visible.
 ### getHorizontalAlignment() {#getHorizontalAlignment}
 ```
 public int getHorizontalAlignment()
@@ -8791,6 +8823,39 @@ Shows how to set relative size and position.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float | The value that represents the percentage of shape's relative height. |
+
+### setHidden(boolean value) {#setHidden-boolean}
+```
+public void setHidden(boolean value)
+```
+
+
+Sets a boolean value indicating whether the shape is visible.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to hide the shape.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shadow color.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ if (!shape.getHidden())
+     shape.setHidden(true);
+
+ doc.save(getArtifactsDir() + "Shape.Hidden.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value indicating whether the shape is visible. |
 
 ### setHorizontalAlignment(int value) {#setHorizontalAlignment-int}
 ```

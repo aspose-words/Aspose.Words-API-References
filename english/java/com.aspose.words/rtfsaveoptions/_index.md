@@ -4,7 +4,7 @@ linktitle: RtfSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.RTF format in Java.
 type: docs
-weight: 551
+weight: 553
 url: /java/com.aspose.words/rtfsaveoptions/
 ---
 

@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 430
+weight: 432
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -93,6 +93,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
 | [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
 | [getEncoding()](#getEncoding) |  |
+| [getExportAsHtml()](#getExportAsHtml) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [getExportHeadersFootersMode()](#getExportHeadersFootersMode) | Specifies the way headers and footers are exported to the text formats. |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64) | Specifies whether images are saved in Base64 format to the output file. |
@@ -123,6 +124,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) |  |
+| [setExportAsHtml(int value)](#setExportAsHtml-int) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [setExportHeadersFootersMode(int value)](#setExportHeadersFootersMode-int) | Specifies the way headers and footers are exported to the text formats. |
 | [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean) | Specifies whether images are saved in Base64 format to the output file. |
@@ -490,6 +492,42 @@ public Charset getEncoding()
 
 **Returns:**
 java.nio.charset.Charset
+### getExportAsHtml() {#getExportAsHtml}
+```
+public int getExportAsHtml()
+```
+
+
+Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [MarkdownExportAsHtml.NONE](../../com.aspose.words/markdownexportashtml/\#NONE).
+
+ **Examples:** 
+
+Shows how to export a table to Markdown as raw HTML.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Sample table:");
+
+ // Create table.
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
+ builder.write("Cell1");
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ builder.write("Cell2");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setExportAsHtml(MarkdownExportAsHtml.TABLES);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is a bitwise combination of [MarkdownExportAsHtml](../../com.aspose.words/markdownexportashtml/) constants.
 ### getExportGeneratorName() {#getExportGeneratorName}
 ```
 public boolean getExportGeneratorName()
@@ -1953,6 +1991,45 @@ public void setEncoding(Charset value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
+
+### setExportAsHtml(int value) {#setExportAsHtml-int}
+```
+public void setExportAsHtml(int value)
+```
+
+
+Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [MarkdownExportAsHtml.NONE](../../com.aspose.words/markdownexportashtml/\#NONE).
+
+ **Examples:** 
+
+Shows how to export a table to Markdown as raw HTML.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Sample table:");
+
+ // Create table.
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
+ builder.write("Cell1");
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ builder.write("Cell2");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setExportAsHtml(MarkdownExportAsHtml.TABLES);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be a bitwise combination of [MarkdownExportAsHtml](../../com.aspose.words/markdownexportashtml/) constants. |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean}
 ```

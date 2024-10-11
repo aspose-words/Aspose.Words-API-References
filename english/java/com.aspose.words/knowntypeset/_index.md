@@ -4,7 +4,7 @@ linktitle: KnownTypeSet
 second_title: Aspose.Words for Java
 description: Represents an unordered set i.e in Java.
 type: docs
-weight: 394
+weight: 395
 url: /java/com.aspose.words/knowntypeset/
 ---
 

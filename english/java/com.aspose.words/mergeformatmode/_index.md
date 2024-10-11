@@ -4,7 +4,7 @@ linktitle: MergeFormatMode
 second_title: Aspose.Words for Java
 description: Specifies how formatting is merged when combining multiple documents in Java.
 type: docs
-weight: 438
+weight: 440
 url: /java/com.aspose.words/mergeformatmode/
 ---
 

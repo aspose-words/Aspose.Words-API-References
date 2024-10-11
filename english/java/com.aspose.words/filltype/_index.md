@@ -4,7 +4,7 @@ linktitle: FillType
 second_title: Aspose.Words for Java
 description: Specifies fill type for a fillable object in Java.
 type: docs
-weight: 299
+weight: 300
 url: /java/com.aspose.words/filltype/
 ---
 
