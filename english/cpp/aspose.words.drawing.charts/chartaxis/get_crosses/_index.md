@@ -52,9 +52,9 @@ xAxis->set_MajorTickMark(AxisTickMark::Inside);
 xAxis->set_MinorTickMark(AxisTickMark::Cross);
 xAxis->set_MajorUnit(10.0);
 xAxis->set_MinorUnit(15.0);
-xAxis->set_TickLabelOffset(50);
-xAxis->set_TickLabelPosition(AxisTickLabelPosition::Low);
-xAxis->set_TickLabelSpacingIsAuto(false);
+xAxis->get_TickLabels()->set_Offset(50);
+xAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::Low);
+xAxis->get_TickLabels()->set_IsAutoSpacing(false);
 xAxis->set_TickMarkSpacing(1);
 
 SharedPtr<ChartAxis> yAxis = chart->get_AxisY();
@@ -65,7 +65,7 @@ yAxis->set_MajorTickMark(AxisTickMark::Inside);
 yAxis->set_MinorTickMark(AxisTickMark::Cross);
 yAxis->set_MajorUnit(100.0);
 yAxis->set_MinorUnit(20.0);
-yAxis->set_TickLabelPosition(AxisTickLabelPosition::NextToAxis);
+yAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::NextToAxis);
 
 // Column charts do not have a Z-axis.
 ASSERT_TRUE(chart->get_AxisZ() == nullptr);

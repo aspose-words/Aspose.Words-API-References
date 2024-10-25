@@ -66,9 +66,9 @@ axis->set_MinorTickMark(AxisTickMark::Inside);
 // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
 axis->get_Scaling()->set_Minimum(MakeObject<AxisBound>(-10.0));
 axis->get_Scaling()->set_Maximum(MakeObject<AxisBound>(30.0));
-axis->set_TickLabelAlignment(ParagraphAlignment::Right);
+axis->get_TickLabels()->set_Alignment(ParagraphAlignment::Right);
 
-ASSERT_EQ(1, axis->get_TickLabelSpacing());
+ASSERT_EQ(1, axis->get_TickLabels()->get_Spacing());
 
 // Set the tick labels to display their value in millions.
 axis->get_DisplayUnit()->set_Unit(AxisBuiltInUnit::Millions);
