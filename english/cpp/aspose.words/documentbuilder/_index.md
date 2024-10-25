@@ -68,8 +68,9 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [InsertField](./insertfield/)(const System::String\&, const System::String\&) | Inserts a Word field into a document without updating the field result. |
 | [InsertFootnote](./insertfootnote/)(Aspose::Words::Notes::FootnoteType, const System::String\&) | Inserts a footnote or endnote into the document. |
 | [InsertFootnote](./insertfootnote/)(Aspose::Words::Notes::FootnoteType, const System::String\&, const System::String\&) | Inserts a footnote or endnote into the document. |
-| [InsertGroupShape](./insertgroupshape/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::Shape\>\>\&) |  |
-| [InsertGroupShape](./insertgroupshape/)(double, double, double, double, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::Shape\>\>\&) |  |
+| [InsertForms2OleControl](./insertforms2olecontrol/)(const System::SharedPtr\<Aspose::Words::Drawing::Ole::Forms2OleControl\>\&) |  |
+| [InsertGroupShape](./insertgroupshape/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\>\&) |  |
+| [InsertGroupShape](./insertgroupshape/)(double, double, double, double, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\>\&) |  |
 | [InsertHorizontalRule](./inserthorizontalrule/)() | Inserts a horizontal rule shape into the document. |
 | [InsertHtml](./inserthtml/)(const System::String\&) | Inserts an HTML string into the document. |
 | [InsertHtml](./inserthtml/)(const System::String\&, bool) | Inserts an HTML string into the document. |
