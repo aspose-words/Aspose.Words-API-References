@@ -64,6 +64,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_HasSmartArt](./get_hassmartart/)() | Returns **true** if this [Shape](./) has a SmartArt object. |
 | [get_Height](../shapebase/get_height/)() | Gets or sets the height of the containing block of the shape. |
 | [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
+| [get_Hidden](../shapebase/get_hidden/)() |  |
 | [get_HorizontalAlignment](../shapebase/get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
 | [get_HorizontalRuleFormat](./get_horizontalruleformat/)() | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns **null**. |
 | [get_HRef](../shapebase/get_href/)() | Gets or sets the full hyperlink address for a shape. |
@@ -170,6 +171,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [set_FlipOrientation](../shapebase/set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](../shapebase/get_fliporientation/). |
 | [set_Height](../shapebase/set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](../shapebase/get_height/). |
 | [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
+| [set_Hidden](../shapebase/set_hidden/)(bool) |  |
 | [set_HorizontalAlignment](../shapebase/set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](../shapebase/get_horizontalalignment/). |
 | [set_HRef](../shapebase/set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../shapebase/get_href/). |
 | [set_IsDecorative](../shapebase/set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](../shapebase/get_isdecorative/). |

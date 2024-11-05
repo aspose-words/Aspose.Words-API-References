@@ -5,7 +5,7 @@ articleTitle: Person
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Bibliography.Person class. Represents individual a person bibliography source contributor in C#.
 type: docs
-weight: 70
+weight: 150
 url: /net/aspose.words.bibliography/person/
 ---
 ## Person class

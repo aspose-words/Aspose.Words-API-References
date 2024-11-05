@@ -3,14 +3,12 @@ title: ITextShaperFactory Interface
 linktitle: ITextShaperFactory
 articleTitle: ITextShaperFactory
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Shaping.ITextShaperFactory interface. An interface of a factory for constructing ITextShaper implementations in C#.
+description: Aspose.Words.Shaping.ITextShaperFactory interface.  in C#.
 type: docs
-weight: 6470
+weight: 6550
 url: /net/aspose.words.shaping/itextshaperfactory/
 ---
 ## ITextShaperFactory interface
-
-An interface of a factory for constructing [`ITextShaper`](../itextshaper/) implementations.
 
 ```csharp
 public interface ITextShaperFactory
@@ -20,8 +18,8 @@ public interface ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(*string, int*) | Returns new instance of a text shaper for the font specified by *fontPath* and *faceIndex*. |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(*string, byte[], int*) | Returns new instance of a text shaper for the font represented by *fontBlob* and *faceIndex*. |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(*string, int*) |  |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(*string, byte[], int*) |  |
 
 ### See Also
 

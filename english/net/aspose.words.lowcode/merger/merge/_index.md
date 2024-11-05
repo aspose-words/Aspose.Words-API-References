@@ -8,7 +8,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(*string, string[]*) {#merge_5}
+## Merge(*string, string[]*) {#merge_8}
 
 Merges the given input documents into a single output document using specified input and output file names.
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 
 ---
 
-## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_10}
 
 Merges the given input documents into a single output document using specified input output file names and the final document format.
 
@@ -93,7 +93,7 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 
 ---
 
-## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_7}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_11}
 
 Merges the given input documents into a single output document using specified input output file names and save options.
 
@@ -136,7 +136,35 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 
 ---
 
-## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_2}
+## Merge(*string, string[], LoadOptions[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_9}
+
+Merges the given input documents into a single output document using specified input output file names and save options.
+
+```csharp
+public static void Merge(string outputFile, string[] inputFiles, LoadOptions[] loadOptions, 
+    SaveOptions saveOptions, MergeFormatMode mergeFormatMode)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputFile | String | The output file name. |
+| inputFiles | String[] | The input file names. |
+| loadOptions | LoadOptions[] | Load options for the input files. |
+| saveOptions | SaveOptions | The save options. |
+| mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+### See Also
+
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* enum [MergeFormatMode](../../mergeformatmode/)
+* class [Merger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_4}
 
 Merges the given input documents into a single document and returns [`Document`](../../../aspose.words/document/) instance of the final document.
 
@@ -169,6 +197,32 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### See Also
 
 * class [Document](../../../aspose.words/document/)
+* enum [MergeFormatMode](../../mergeformatmode/)
+* class [Merger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Merge(*string[], LoadOptions[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
+
+Merges the given input documents into a single document and returns [`Document`](../../../aspose.words/document/) instance of the final document.
+
+```csharp
+public static Document Merge(string[] inputFiles, LoadOptions[] loadOptions, 
+    MergeFormatMode mergeFormatMode)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFiles | String[] | The input file names. |
+| loadOptions | LoadOptions[] | Load options for the input files. |
+| mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+### See Also
+
+* class [Document](../../../aspose.words/document/)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -216,7 +270,7 @@ Assert.AreEqual("Hello first word!\fHello second word!\f", mergedDoc.GetText());
 
 ---
 
-## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_3}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_6}
 
 Merges the given input documents into a single output document using specified input output streams and the final document format.
 
@@ -262,7 +316,7 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 ---
 
-## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_4}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_7}
 
 Merges the given input documents into a single output document using specified input output streams and save options.
 
@@ -311,7 +365,35 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 ---
 
-## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
+## Merge(*Stream, Stream[], LoadOptions[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
+
+Merges the given input documents into a single output document using specified input output streams and save options.
+
+```csharp
+public static void Merge(Stream outputStream, Stream[] inputStreams, LoadOptions[] loadOptions, 
+    SaveOptions saveOptions, MergeFormatMode mergeFormatMode)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | Stream | The output stream. |
+| inputStreams | Stream[] | The input streams. |
+| loadOptions | LoadOptions[] | Load options for the input files. |
+| saveOptions | SaveOptions | The save options. |
+| mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+### See Also
+
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* enum [MergeFormatMode](../../mergeformatmode/)
+* class [Merger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_2}
 
 Merges the given input documents into a single document and returns [`Document`](../../../aspose.words/document/) instance of the final document.
 
@@ -350,6 +432,32 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 ### See Also
 
 * class [Document](../../../aspose.words/document/)
+* enum [MergeFormatMode](../../mergeformatmode/)
+* class [Merger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Merge(*Stream[], LoadOptions[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
+
+Merges the given input documents into a single document and returns [`Document`](../../../aspose.words/document/) instance of the final document.
+
+```csharp
+public static Document Merge(Stream[] inputStreams, LoadOptions[] loadOptions, 
+    MergeFormatMode mergeFormatMode)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStreams | Stream[] | The input streams. |
+| loadOptions | LoadOptions[] | Load options for the input files. |
+| mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+### See Also
+
+* class [Document](../../../aspose.words/document/)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)

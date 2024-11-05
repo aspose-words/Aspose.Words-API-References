@@ -5,7 +5,7 @@ articleTitle: ConditionalStyleType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.ConditionalStyleType enum. Represents possible table areas to which conditional formatting may be defined in a table style in C#.
 type: docs
-weight: 420
+weight: 500
 url: /net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration

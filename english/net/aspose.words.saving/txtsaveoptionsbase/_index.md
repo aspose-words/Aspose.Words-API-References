@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptionsBase
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.TxtSaveOptionsBase class. The base class for specifying additional options when saving a document into a text based formats in C#.
 type: docs
-weight: 6050
+weight: 6130
 url: /net/aspose.words.saving/txtsaveoptionsbase/
 ---
 ## TxtSaveOptionsBase class

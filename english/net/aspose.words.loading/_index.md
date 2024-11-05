@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Loading
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Loading namespace provides classes and enumerations that allow to specify additional options when loading documents in C#.
 type: docs
-weight: 140
+weight: 170
 url: /net/aspose.words.loading/
 ---
 The **Aspose.Words.Loading** namespace provides classes and enumerations that allow to specify additional options when loading documents.

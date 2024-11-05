@@ -5,7 +5,7 @@ articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.RelativeHorizontalSize enum. Specifies relatively to what the width of a shape or a text frame is calculated horizontally in C#.
 type: docs
-weight: 1450
+weight: 1530
 url: /net/aspose.words.drawing/relativehorizontalsize/
 ---
 ## RelativeHorizontalSize enumeration

@@ -5,7 +5,7 @@ articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Properties.BuiltInDocumentProperties class. A collection of builtin document properties in C#.
 type: docs
-weight: 4800
+weight: 4880
 url: /net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
@@ -35,6 +35,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [CreatedTime](../../aspose.words.properties/builtindocumentproperties/createdtime/) { get; set; } | Gets or sets date of the document creation in UTC. |
 | [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs/) { get; set; } | Specifies document headings and their names. |
 | [HyperlinkBase](../../aspose.words.properties/builtindocumentproperties/hyperlinkbase/) { get; set; } | Specifies the base string used for evaluating relative hyperlinks in this document. |
+| [HyperlinksChanged](../../aspose.words.properties/builtindocumentproperties/hyperlinkschanged/) { get; } | Indicates whether hyperlinks in a document were changed. |
 | [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returns a [`DocumentProperty`](../documentproperty/) object by index. |
 | override [Item](../../aspose.words.properties/builtindocumentproperties/item/) { get; } | Returns a [`DocumentProperty`](../documentproperty/) object by the name of the property. |
 | [Keywords](../../aspose.words.properties/builtindocumentproperties/keywords/) { get; set; } | Gets or sets the document keywords. |
@@ -48,7 +49,9 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [Pages](../../aspose.words.properties/builtindocumentproperties/pages/) { get; set; } | Represents an estimate of the number of pages in the document. |
 | [Paragraphs](../../aspose.words.properties/builtindocumentproperties/paragraphs/) { get; set; } | Represents an estimate of the number of paragraphs in the document. |
 | [RevisionNumber](../../aspose.words.properties/builtindocumentproperties/revisionnumber/) { get; set; } | Gets or sets the document revision number. |
+| [ScaleCrop](../../aspose.words.properties/builtindocumentproperties/scalecrop/) { get; } | Indicates whether document thumbnail is cropped or scaled to fit the display. |
 | [Security](../../aspose.words.properties/builtindocumentproperties/security/) { get; set; } | Specifies the security level of a document as a numeric value. |
+| [SharedDocument](../../aspose.words.properties/builtindocumentproperties/shareddocument/) { get; } | Indicates whether the document is a shared document. |
 | [Subject](../../aspose.words.properties/builtindocumentproperties/subject/) { get; set; } | Gets or sets the subject of the document. |
 | [Template](../../aspose.words.properties/builtindocumentproperties/template/) { get; set; } | Gets or sets the informational name of the document template. |
 | [Thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) { get; set; } | Gets or sets the thumbnail of the document. |

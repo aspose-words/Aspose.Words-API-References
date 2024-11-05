@@ -52,7 +52,7 @@ xAxis->set_MinorTickMark(AxisTickMark::Outside);
 
 // Define Y-axis properties for decimal values.
 SharedPtr<ChartAxis> yAxis = chart->get_AxisY();
-yAxis->set_TickLabelPosition(AxisTickLabelPosition::High);
+yAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::High);
 yAxis->set_MajorUnit(100.0);
 yAxis->set_MinorUnit(50.0);
 yAxis->get_DisplayUnit()->set_Unit(AxisBuiltInUnit::Hundreds);

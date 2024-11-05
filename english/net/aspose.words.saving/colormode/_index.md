@@ -5,7 +5,7 @@ articleTitle: ColorMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.ColorMode enum. Specifies how colors are rendered in C#.
 type: docs
-weight: 5210
+weight: 5290
 url: /net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration

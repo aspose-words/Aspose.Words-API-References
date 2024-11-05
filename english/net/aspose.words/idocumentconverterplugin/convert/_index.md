@@ -13,17 +13,20 @@ url: /net/aspose.words/idocumentconverterplugin/convert/
 Converts document using specified input output streams and save options.
 
 ```csharp
-public void Convert(Stream inputStream, Stream outputStream, SaveOptions saveOptions)
+public void Convert(Stream inputStream, LoadOptions loadOptions, Stream outputStream, 
+    SaveOptions saveOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | inputStream | Stream | The input stream. |
+| loadOptions | LoadOptions | The document load options. |
 | outputStream | Stream | The output stream. |
 | saveOptions | SaveOptions | The save options. |
 
 ### See Also
 
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * interface [IDocumentConverterPlugin](../)
 * namespace [Aspose.Words](../../../aspose.words/)

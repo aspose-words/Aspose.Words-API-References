@@ -89,6 +89,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageColorMode](./imagecolormode/) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images of document pages. |
 | [ImlRenderingMode](./imlrenderingmode/) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
+| [MarkdownExportAsHtml](./markdownexportashtml/) | MarkdownExportAsHtml enumeration. |
 | [MarkdownLinkExportMode](./markdownlinkexportmode/) | The mode of exporting links to a target document. |
 | [MarkdownListExportMode](./markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |

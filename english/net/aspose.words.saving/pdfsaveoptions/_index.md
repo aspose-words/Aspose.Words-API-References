@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the Pdf format in C#.
 type: docs
-weight: 5900
+weight: 5980
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -71,6 +71,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [PreserveFormFields](../../aspose.words.saving/pdfsaveoptions/preserveformfields/) { get; set; } | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is `false`. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
+| [RenderChoiceFormFieldBorder](../../aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/) { get; set; } | Specifies whether to render PDF choice form field border. |
 | override [SaveFormat](../../aspose.words.saving/pdfsaveoptions/saveformat/) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Pdf. |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used. |
 | [TextCompression](../../aspose.words.saving/pdfsaveoptions/textcompression/) { get; set; } | Specifies compression type to be used for all textual content in the document. |

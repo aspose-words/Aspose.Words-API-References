@@ -13,16 +13,18 @@ url: /net/aspose.words/idocumentmergerplugin/merge/
 Merges the given input PDF documents into a single output PDF document using specified input and output streams.
 
 ```csharp
-public void Merge(Stream outputStream, params Stream[] inputStreams)
+public void Merge(Stream outputStream, Stream[] inputStreams, LoadOptions[] loadOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | outputStream | Stream | The output stream. |
 | inputStreams | Stream[] | The input streams. |
+| loadOptions | LoadOptions[] | Load options for the input files. |
 
 ### See Also
 
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * interface [IDocumentMergerPlugin](../)
 * namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

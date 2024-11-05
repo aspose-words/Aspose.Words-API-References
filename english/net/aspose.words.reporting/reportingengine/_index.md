@@ -5,7 +5,7 @@ articleTitle: ReportingEngine
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.ReportingEngine class. Provides routines to populate template documents with data and a set of settings to control these routines in C#.
 type: docs
-weight: 5080
+weight: 5160
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
@@ -40,8 +40,6 @@ public class ReportingEngine
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Populates the specified template document with data from the specified source making it a ready report. |
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Populates the specified template document with data from the specified source making it a ready report. |
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Populates the specified template document with data from the specified sources making it a ready report. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
-| [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Serves as a hash function for this type. |
 | static [GetRestrictedTypes](../../aspose.words.reporting/reportingengine/getrestrictedtypes/)() | Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 | static [SetRestrictedTypes](../../aspose.words.reporting/reportingengine/setrestrictedtypes/)(*params Type[]*) | Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 

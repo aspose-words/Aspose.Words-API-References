@@ -53,6 +53,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_Height](../shapebase/get_height/)() | Gets or sets the height of the containing block of the shape. |
 | [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
+| [get_Hidden](../shapebase/get_hidden/)() |  |
 | [get_HorizontalAlignment](../shapebase/get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
 | [get_HRef](../shapebase/get_href/)() | Gets or sets the full hyperlink address for a shape. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
@@ -145,6 +146,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [set_FlipOrientation](../shapebase/set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](../shapebase/get_fliporientation/). |
 | [set_Height](../shapebase/set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](../shapebase/get_height/). |
 | [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
+| [set_Hidden](../shapebase/set_hidden/)(bool) |  |
 | [set_HorizontalAlignment](../shapebase/set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](../shapebase/get_horizontalalignment/). |
 | [set_HRef](../shapebase/set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../shapebase/get_href/). |
 | [set_IsDecorative](../shapebase/set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](../shapebase/get_isdecorative/). |
