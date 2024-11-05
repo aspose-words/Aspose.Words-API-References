@@ -15,6 +15,8 @@ The **Aspose.Words.AI** namespace enables seamless integration with large langua
 | Class | Description |
 | --- | --- |
 | [AiModel](./aimodel/) | The class to represent information about a Generative Language Model. |
+| [GoogleAiModel](./googleaimodel/) | The class to represent information about a Generative Language Model. |
+| [OpenAiModel](./openaimodel/) | The class to represent information about a OpenAI Generative Language Model. |
 | [SummarizeOptions](./summarizeoptions/) | The class to specify various options for summarizing content. |
 ## Interfaces
 

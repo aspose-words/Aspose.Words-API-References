@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Drawing
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Drawing namespace provides classes that allow to create and modify drawing objects in C#.
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.words.drawing/
 ---
 The **Aspose.Words.Drawing** namespace provides classes that allow to create and modify drawing objects.
