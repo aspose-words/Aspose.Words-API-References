@@ -3,10 +3,10 @@ title: GoogleAiModel Class
 linktitle: GoogleAiModel
 articleTitle: GoogleAiModel
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.Google.Models.GoogleAiModel class. The class to represent information about a Generative Language Model in C#.
+description: Aspose.Words.AI.GoogleAiModel class. The class to represent information about a Generative Language Model in C#.
 type: docs
 weight: 40
-url: /net/aspose.words.ai.google.models/googleaimodel/
+url: /net/aspose.words.ai/googleaimodel/
 ---
 ## GoogleAiModel class
 
@@ -24,7 +24,7 @@ public abstract class GoogleAiModel : AiModel, IAiModelText
 
 ### See Also
 
-* class [AiModel](../../aspose.words.ai/aimodel/)
-* interface [IAiModelText](../../aspose.words.ai/iaimodeltext/)
-* namespace [Aspose.Words.AI.Google.Models](../../aspose.words.ai.google.models/)
+* class [AiModel](../aimodel/)
+* interface [IAiModelText](../iaimodeltext/)
+* namespace [Aspose.Words.AI](../../aspose.words.ai/)
 * assembly [Aspose.Words](../../)
