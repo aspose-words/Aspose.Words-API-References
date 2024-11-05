@@ -5,7 +5,7 @@ articleTitle: GlossaryDocument
 second_title: Aspose.Words for .NET
 description: Aspose.Words.BuildingBlocks.GlossaryDocument class. Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText AutoCorrect entries and Building Blocks in C#.
 type: docs
-weight: 260
+weight: 340
 url: /net/aspose.words.buildingblocks/glossarydocument/
 ---
 ## GlossaryDocument class

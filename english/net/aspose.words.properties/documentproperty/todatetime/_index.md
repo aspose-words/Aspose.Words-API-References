@@ -30,8 +30,8 @@ Shows how to create a custom document property which contains a date and time.
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 Shows various type conversion methods of custom document properties.

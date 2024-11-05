@@ -5,7 +5,7 @@ articleTitle: Title
 second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties Title property. Gets or sets the title of the document in C#.
 type: docs
-weight: 290
+weight: 320
 url: /net/aspose.words.properties/builtindocumentproperties/title/
 ---
 ## BuiltInDocumentProperties.Title property

@@ -22,7 +22,9 @@ Shows how to update a document's "Last printed" property when saving.
 
 ```csharp
 Document doc = new Document();
-doc.BuiltInDocumentProperties.LastPrinted = new DateTime(2019, 12, 20);
+
+DateTime lastPrinted = new DateTime(2019, 12, 20);
+doc.BuiltInDocumentProperties.LastPrinted = lastPrinted;
 
 // This flag determines whether the last printed date, which is a built-in property, is updated.
 // If so, then the date of the document's most recent save operation
@@ -37,7 +39,10 @@ doc.Save(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOpti
 // Open the saved document, then verify the value of the property.
 doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc");
 
-Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.LastPrinted);
+if (isUpdateLastPrintedProperty)
+    Assert.AreNotEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
+else
+    Assert.AreEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
 ```
 
 ### See Also

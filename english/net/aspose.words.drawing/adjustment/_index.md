@@ -5,7 +5,7 @@ articleTitle: Adjustment
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Adjustment class. Represents adjustment values that are applied to the specified shape in C#.
 type: docs
-weight: 590
+weight: 670
 url: /net/aspose.words.drawing/adjustment/
 ---
 ## Adjustment class

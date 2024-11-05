@@ -5,7 +5,7 @@ articleTitle: Clone
 second_title: Aspose.Words for .NET
 description: PdfSaveOptions Clone method. Creates a deep clone of this object in C#.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.words.saving/pdfsaveoptions/clone/
 ---
 ## PdfSaveOptions.Clone method

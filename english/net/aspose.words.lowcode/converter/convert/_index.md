@@ -8,7 +8,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lowcode/converter/convert/
 ---
-## Convert(*string, string*) {#convert_2}
+## Convert(*string, string*) {#convert_4}
 
 Converts the given input document into the output document using specified input output file names and its extensions.
 
@@ -42,7 +42,7 @@ Converter.Convert(MyDir + "Document.doc", ArtifactsDir + "LowCode.Convert.docx",
 
 ---
 
-## Convert(*string, string, [SaveFormat](../../../aspose.words/saveformat/)*) {#convert_3}
+## Convert(*string, string, [SaveFormat](../../../aspose.words/saveformat/)*) {#convert_5}
 
 Converts the given input document into the output document using specified input output file names and the final document format.
 
@@ -78,7 +78,7 @@ Converter.Convert(MyDir + "Document.doc", ArtifactsDir + "LowCode.Convert.docx",
 
 ---
 
-## Convert(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#convert_4}
+## Convert(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#convert_6}
 
 Converts the given input document into the output document using specified input output file names and save options.
 
@@ -114,7 +114,33 @@ Converter.Convert(MyDir + "Document.doc", ArtifactsDir + "LowCode.Convert.docx",
 
 ---
 
-## Convert(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/)*) {#convert}
+## Convert(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/), string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#convert_3}
+
+Converts the given input document into the output document using specified input output file names its load/save options.
+
+```csharp
+public static void Convert(string inputFile, LoadOptions loadOptions, string outputFile, 
+    SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFile | String | The input file name. |
+| loadOptions | LoadOptions | The input document load options. |
+| outputFile | String | The output file name. |
+| saveOptions | SaveOptions | The save options. |
+
+### See Also
+
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [Converter](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Convert(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/)*) {#convert_1}
 
 Converts the given input document into a single output document using specified input and output streams.
 
@@ -153,7 +179,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMod
 
 ---
 
-## Convert(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#convert_1}
+## Convert(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#convert_2}
 
 Converts the given input document into a single output document using specified input and output streams.
 
@@ -185,6 +211,32 @@ using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMod
 
 ### See Also
 
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [Converter](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Convert(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/), Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#convert}
+
+Converts the given input document into a single output document using specified input and output streams.
+
+```csharp
+public static void Convert(Stream inputStream, LoadOptions loadOptions, Stream outputStream, 
+    SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input streams. |
+| loadOptions | LoadOptions | The input document load options. |
+| outputStream | Stream | The output stream. |
+| saveOptions | SaveOptions | The save options. |
+
+### See Also
+
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Converter](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)

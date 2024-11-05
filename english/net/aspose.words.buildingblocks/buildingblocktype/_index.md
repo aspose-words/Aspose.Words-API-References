@@ -5,7 +5,7 @@ articleTitle: BuildingBlockType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.BuildingBlocks.BuildingBlockType enum. Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word in C#.
 type: docs
-weight: 250
+weight: 330
 url: /net/aspose.words.buildingblocks/buildingblocktype/
 ---
 ## BuildingBlockType enumeration

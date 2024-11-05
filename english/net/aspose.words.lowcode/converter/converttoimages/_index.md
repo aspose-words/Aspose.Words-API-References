@@ -8,7 +8,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lowcode/converter/converttoimages/
 ---
-## ConvertToImages(*string, string*) {#converttoimages_6}
+## ConvertToImages(*string, string*) {#converttoimages_8}
 
 Converts the input file pages to images.
 
@@ -43,7 +43,7 @@ Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.C
 
 ---
 
-## ConvertToImages(*string, string, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_7}
+## ConvertToImages(*string, string, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_9}
 
 Converts the input file pages to images.
 
@@ -80,7 +80,7 @@ Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.C
 
 ---
 
-## ConvertToImages(*string, string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_8}
+## ConvertToImages(*string, string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_10}
 
 Converts the input file pages to images.
 
@@ -118,7 +118,33 @@ Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.C
 
 ---
 
-## ConvertToImages(*string, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_4}
+## ConvertToImages(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/), string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_7}
+
+Converts the input file pages to images.
+
+```csharp
+public static void ConvertToImages(string inputFile, LoadOptions loadOptions, string outputFile, 
+    ImageSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFile | String | The input file name. |
+| loadOptions | LoadOptions | The input document load options. |
+| outputFile | String | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
+| saveOptions | ImageSaveOptions | Image save options. |
+
+### See Also
+
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Converter](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ConvertToImages(*string, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_5}
 
 Converts the input file pages to images.
 
@@ -160,7 +186,7 @@ streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), i
 
 ---
 
-## ConvertToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_5}
+## ConvertToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_6}
 
 Converts the input file pages to images.
 
@@ -202,7 +228,7 @@ streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), i
 
 ---
 
-## ConvertToImages(*Stream, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_2}
+## ConvertToImages(*Stream, [SaveFormat](../../../aspose.words/saveformat/)*) {#converttoimages_3}
 
 Converts the input stream pages to images.
 
@@ -243,7 +269,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMod
 
 ---
 
-## ConvertToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_3}
+## ConvertToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_4}
 
 Converts the input stream pages to images.
 
@@ -277,6 +303,35 @@ using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMod
 
 ### See Also
 
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Converter](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ConvertToImages(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/), [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#converttoimages_2}
+
+Converts the input stream pages to images.
+
+```csharp
+public static Stream[] ConvertToImages(Stream inputStream, LoadOptions loadOptions, 
+    ImageSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| loadOptions | LoadOptions | The input document load options. |
+| saveOptions | ImageSaveOptions | Image save options. |
+
+### Return Value
+
+Returns array of image streams. The streams should be disposed by the enduser.
+
+### See Also
+
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [Converter](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)

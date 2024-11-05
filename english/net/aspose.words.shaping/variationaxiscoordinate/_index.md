@@ -3,14 +3,12 @@ title: VariationAxisCoordinate Class
 linktitle: VariationAxisCoordinate
 articleTitle: VariationAxisCoordinate
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Shaping.VariationAxisCoordinate class. Represents an axis coordinate in C#.
+description: Aspose.Words.Shaping.VariationAxisCoordinate class.  in C#.
 type: docs
-weight: 6510
+weight: 6590
 url: /net/aspose.words.shaping/variationaxiscoordinate/
 ---
 ## VariationAxisCoordinate class
-
-Represents an axis coordinate.
 
 ```csharp
 public class VariationAxisCoordinate
@@ -26,8 +24,8 @@ public class VariationAxisCoordinate
 
 | Name | Description |
 | --- | --- |
-| [Axis](../../aspose.words.shaping/variationaxiscoordinate/axis/) { get; set; } | Axis. |
-| [Coordinate](../../aspose.words.shaping/variationaxiscoordinate/coordinate/) { get; set; } | Coordinate. |
+| [Axis](../../aspose.words.shaping/variationaxiscoordinate/axis/) { get; set; } |  |
+| [Coordinate](../../aspose.words.shaping/variationaxiscoordinate/coordinate/) { get; set; } |  |
 
 ### See Also
 

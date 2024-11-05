@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: PdfSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be Pdf in C#.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.words.saving/pdfsaveoptions/saveformat/
 ---
 ## PdfSaveOptions.SaveFormat property

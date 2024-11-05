@@ -15,13 +15,16 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [Aspose.Words](./aspose.words/) | The **Aspose.Words** namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word. |
+| [Aspose.Words.AI](./aspose.words.ai/) | The **Aspose.Words.AI** namespace enables seamless integration with large language models (LLMs), such as OpenAI and Gemini, providing robust support for AI-powered document processing. |
+| [Aspose.Words.AI.Google.Models](./aspose.words.ai.google.models/) |  |
+| [Aspose.Words.AI.OpenAi.Models](./aspose.words.ai.openai.models/) |  |
 | [Aspose.Words.Bibliography](./aspose.words.bibliography/) | The **Aspose.Words.Bibliography** namespace provides classes that allow to access a list of bibliography sources available in a document. |
 | [Aspose.Words.BuildingBlocks](./aspose.words.buildingblocks/) | The **Aspose.Words.BuildingBlocks** namespace provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document. |
 | [Aspose.Words.Comparing](./aspose.words.comparing/) | The **Aspose.Words.Comparing** namespace provides classes and enumerations that allow to specify additional options when comparing documents. |
 | [Aspose.Words.DigitalSignatures](./aspose.words.digitalsignatures/) | The **Aspose.Words.DigitalSignatures** namespace provides classes to sign documents and verify signatures. |
 | [Aspose.Words.Drawing](./aspose.words.drawing/) | The **Aspose.Words.Drawing** namespace provides classes that allow to create and modify drawing objects. |
 | [Aspose.Words.Drawing.Charts](./aspose.words.drawing.charts/) | The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to access charts in Microsoft Word documents. |
-| [Aspose.Words.Drawing.Ole](./aspose.words.drawing.ole/) | Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents. |
+| [Aspose.Words.Drawing.Ole](./aspose.words.drawing.ole/) | The **Aspose.Words.Drawing.Ole** namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents. |
 | [Aspose.Words.Fields](./aspose.words.fields/) | The **Aspose.Words.Fields** namespace contains classes that represent Microsoft Word fields in a document. |
 | [Aspose.Words.Fonts](./aspose.words.fonts/) | The **Aspose.Words.Fonts** namespace provides classes and enumerations to access information about fonts used in a document. |
 | [Aspose.Words.Framesets](./aspose.words.framesets/) | The **Aspose.Words.Framesets** namespace provides classes and enumerations that represents a frames page or a single frame on a frames page. |
@@ -36,7 +39,7 @@ is_root: true
 | [Aspose.Words.Properties](./aspose.words.properties/) | The **Aspose.Words.Properties** namespace provides classes to work with custom and built-in document properties such as title, keywords, company etc. |
 | [Aspose.Words.Rendering](./aspose.words.rendering/) | The **Aspose.Words.Rendering** namespace provides classes that allow to customize printing or rendering of documents. |
 | [Aspose.Words.Replacing](./aspose.words.replacing/) | The **Aspose.Words.Replacing** namespace provides classes to manipulate with find/replace operations over the document tree. |
-| [Aspose.Words.Reporting](./aspose.words.reporting/) | This namespace contains classes of the Aspose.Words' new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax. |
+| [Aspose.Words.Reporting](./aspose.words.reporting/) | The **Aspose.Words.Reporting** namespace contains classes of the Aspose.Words' new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax. |
 | [Aspose.Words.Saving](./aspose.words.saving/) | The **Aspose.Words.Saving** namespace provides classes and enumerations that allow to specify additional options for saving or converting documents. |
 | [Aspose.Words.Settings](./aspose.words.settings/) | The **Aspose.Words.Settings** namespace contains classes and enums that are used when specifying various settings and options stored in a document. These are mail merge, write protection, compatibility and other settings. |
 | [Aspose.Words.Shaping](./aspose.words.shaping/) | The **Aspose.Words.Shaping** namespace contains classes to provide support for OpenType features using external text shaping engines. |
