@@ -5,7 +5,7 @@ articleTitle: RevisionOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.RevisionOptions class. Allows to control how document revisions are handled during layout process in C#.
 type: docs
-weight: 3690
+weight: 3770
 url: /net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class
@@ -23,8 +23,10 @@ public class RevisionOptions
 | Name | Description |
 | --- | --- |
 | [CommentColor](../../aspose.words.layout/revisionoptions/commentcolor/) { get; set; } | Allows to specify the color to be used for comments. Default value is Red. |
+| [DeleteCellColor](../../aspose.words.layout/revisionoptions/deletecellcolor/) { get; set; } | Allows to specify the color to be used for deleted cells Deletion. Default value is Pink. |
 | [DeletedTextColor](../../aspose.words.layout/revisionoptions/deletedtextcolor/) { get; set; } | Allows to specify the color to be used for deleted content Deletion. Default value is ByAuthor. |
 | [DeletedTextEffect](../../aspose.words.layout/revisionoptions/deletedtexteffect/) { get; set; } | Allows to specify the effect to be applied to the deleted content Deletion. Default value is StrikeThrough |
+| [InsertCellColor](../../aspose.words.layout/revisionoptions/insertcellcolor/) { get; set; } | Allows to specify the color to be used for inserted cells Insertion. Default value is Blue. |
 | [InsertedTextColor](../../aspose.words.layout/revisionoptions/insertedtextcolor/) { get; set; } | Allows to specify the color to be used for inserted content Insertion. Default value is ByAuthor. |
 | [InsertedTextEffect](../../aspose.words.layout/revisionoptions/insertedtexteffect/) { get; set; } | Allows to specify the effect to be applied to the inserted content Insertion. Default value is Underline. |
 | [MeasurementUnit](../../aspose.words.layout/revisionoptions/measurementunit/) { get; set; } | Allows to specify the measurement units for revision comments. Default value is Centimeters |

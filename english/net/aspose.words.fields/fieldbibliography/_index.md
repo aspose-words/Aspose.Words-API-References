@@ -5,7 +5,7 @@ articleTitle: FieldBibliography
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldBibliography class. Implements the BIBLIOGRAPHY field in C#.
 type: docs
-weight: 1910
+weight: 1990
 url: /net/aspose.words.fields/fieldbibliography/
 ---
 ## FieldBibliography class

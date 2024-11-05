@@ -5,7 +5,7 @@ articleTitle: TxtListIndentation
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.TxtListIndentation class. Specifies how list levels are indented when document is exporting to Text format in C#.
 type: docs
-weight: 6030
+weight: 6110
 url: /net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
@@ -62,10 +62,11 @@ txtSaveOptions.ListIndentation.Count = 3;
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: RevisionNumber
 second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties RevisionNumber property. Gets or sets the document revision number in C#.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 ---
 ## BuiltInDocumentProperties.RevisionNumber property

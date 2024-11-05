@@ -5,7 +5,7 @@ articleTitle: RevisionColor
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.RevisionColor enum. Allows to specify color of document revisions in C#.
 type: docs
-weight: 3680
+weight: 3760
 url: /net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
@@ -39,8 +39,15 @@ public enum RevisionColor
 | Violet | `16` | Represents 633277 color. |
 | White | `17` | Represents ffffff color. |
 | Yellow | `18` | Represents fad272 color. |
-| NoHighlight | `19` | No color is used to highlight revision changes. |
-| ByAuthor | `20` | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
+| LightPink | `19` | Represents fce6f4 color. |
+| LightBlue | `20` | Represents e1f2fa color. |
+| LightYellow | `21` | Represents fef4de color. |
+| LightPurple | `22` | Represents eadfef color. |
+| LightOrange | `23` | Represents fce3d0 color. |
+| LightGreen | `24` | Represents e9f8ce color. |
+| Gray | `25` | Represents efeded color. |
+| NoHighlight | `26` | No color is used to highlight revision changes. |
+| ByAuthor | `27` | Revisions of each author receive their own color for highlighting from a predefined set of hi-contrast colors. |
 
 ## Examples
 

@@ -5,7 +5,7 @@ articleTitle: MovedFromTextColor
 second_title: Aspose.Words for .NET
 description: RevisionOptions MovedFromTextColor property. Allows to specify the color to be used for areas where content was moved from Moving. Default value is ByAuthor in C#.
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.words.layout/revisionoptions/movedfromtextcolor/
 ---
 ## RevisionOptions.MovedFromTextColor property

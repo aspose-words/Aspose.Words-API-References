@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Framesets
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Framesets namespace provides classes and enumerations that represents a frames page or a single frame on a frames page in C#.
 type: docs
-weight: 110
+weight: 140
 url: /net/aspose.words.framesets/
 ---
 The **Aspose.Words.Framesets** namespace provides classes and enumerations that represents a frames page or a single frame on a frames page.

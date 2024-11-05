@@ -5,7 +5,7 @@ articleTitle: Lines
 second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties Lines property. Represents an estimate of the number of lines in the document in C#.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.properties/builtindocumentproperties/lines/
 ---
 ## BuiltInDocumentProperties.Lines property

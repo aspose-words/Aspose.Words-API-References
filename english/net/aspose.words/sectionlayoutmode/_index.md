@@ -5,7 +5,7 @@ articleTitle: SectionLayoutMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.SectionLayoutMode enum. Specifies the layout mode for a section allowing to define the document grid behavior in C#.
 type: docs
-weight: 6160
+weight: 6240
 url: /net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration

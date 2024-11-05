@@ -5,7 +5,7 @@ articleTitle: OptionButtonControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.OptionButtonControl class. The OptionButton control enables a single choice in a limited set of mutually exclusive choices in C#.
 type: docs
-weight: 1370
+weight: 1450
 url: /net/aspose.words.drawing.ole/optionbuttoncontrol/
 ---
 ## OptionButtonControl class
@@ -21,7 +21,7 @@ public class OptionButtonControl : MorphDataControl
 | Name | Description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing.ole/forms2olecontrol/backcolor/) { get; set; } | Gets or sets a background color of the control. The default value depends on a type of the control. |
-| [Caption](../../aspose.words.drawing.ole/forms2olecontrol/caption/) { get; } | Gets Caption property of control. Default value is an empty string. |
+| [Caption](../../aspose.words.drawing.ole/forms2olecontrol/caption/) { get; set; } | Gets or sets a Caption property of the control. Default value is an empty string. |
 | virtual [ChildNodes](../../aspose.words.drawing.ole/forms2olecontrol/childnodes/) { get; } | Gets collection of immediate child controls. |
 | [Enabled](../../aspose.words.drawing.ole/forms2olecontrol/enabled/) { get; } | Returns `true` if control is in enabled state. |
 | [ForeColor](../../aspose.words.drawing.ole/forms2olecontrol/forecolor/) { get; set; } | Gets or sets a foreground color of the control. The default value depends on a type of the control. |

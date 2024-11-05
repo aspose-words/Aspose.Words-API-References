@@ -5,7 +5,7 @@ articleTitle: UseCoreFonts
 second_title: Aspose.Words for .NET
 description: PdfSaveOptions UseCoreFonts property. Gets or sets a value determining whether or not to substitute TrueType fonts Arial Times New Roman Courier New and Symbol with core PDF Type 1 fonts in C#.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property

@@ -3,14 +3,12 @@ title: Glyph Class
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Shaping.Glyph class. Represents a glyph in C#.
+description: Aspose.Words.Shaping.Glyph class.  in C#.
 type: docs
-weight: 6450
+weight: 6530
 url: /net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
-
-Represents a glyph
 
 ```csharp
 public class Glyph
@@ -20,23 +18,23 @@ public class Glyph
 
 | Name | Description |
 | --- | --- |
-| [Glyph](glyph/)(*int, short, short, short*) | Initializes new instance of this class. |
+| [Glyph](glyph/)(*int, short, short, short*) |  |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | Advance width indicating placement for the subsequent glyph. |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | Horizontal (x) offset relative to glyph position. Mostly used to attach marks (like diacritics) to base characters. |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | Vertical (y) offset relative to glyph position. Mostly used to attach marks (like diacritics) to base characters. |
-| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | Index of the glyph (GID) in the physical font. |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } |  |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } |  |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } |  |
+| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Returns a clone of this instance. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Returns width (advance) of the glyph in points. |
+| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() |  |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) |  |
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: ImageBinarizationMethod
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.ImageBinarizationMethod enum. Specifies the method used to binarize image in C#.
 type: docs
-weight: 5560
+weight: 5640
 url: /net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration

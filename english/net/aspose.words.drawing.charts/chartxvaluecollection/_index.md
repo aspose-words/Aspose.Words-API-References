@@ -5,7 +5,7 @@ articleTitle: ChartXValueCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartXValueCollection class. Represents a collection of X values for a chart series in C#.
 type: docs
-weight: 1030
+weight: 1110
 url: /net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
@@ -21,6 +21,7 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | Gets the number of items in this collection. |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | Gets or sets the format code applied to the X values. |
 | [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Gets or sets the X value at the specified index. |
 
 ## Methods

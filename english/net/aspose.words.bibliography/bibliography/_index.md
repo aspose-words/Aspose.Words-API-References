@@ -5,7 +5,7 @@ articleTitle: Bibliography
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Bibliography.Bibliography class. Represents the list of bibliography sources available in the document in C#.
 type: docs
-weight: 30
+weight: 110
 url: /net/aspose.words.bibliography/bibliography/
 ---
 ## Bibliography class

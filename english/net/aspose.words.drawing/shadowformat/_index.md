@@ -5,7 +5,7 @@ articleTitle: ShadowFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ShadowFormat class. Represents shadow formatting for an object in C#.
 type: docs
-weight: 1480
+weight: 1560
 url: /net/aspose.words.drawing/shadowformat/
 ---
 ## ShadowFormat class

@@ -5,7 +5,7 @@ articleTitle: CheckBoxControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.CheckBoxControl class. The CheckBox control toggles a value in C#.
 type: docs
-weight: 1300
+weight: 1380
 url: /net/aspose.words.drawing.ole/checkboxcontrol/
 ---
 ## CheckBoxControl class
@@ -21,7 +21,7 @@ public class CheckBoxControl : MorphDataControl
 | Name | Description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing.ole/forms2olecontrol/backcolor/) { get; set; } | Gets or sets a background color of the control. The default value depends on a type of the control. |
-| [Caption](../../aspose.words.drawing.ole/forms2olecontrol/caption/) { get; } | Gets Caption property of control. Default value is an empty string. |
+| [Caption](../../aspose.words.drawing.ole/forms2olecontrol/caption/) { get; set; } | Gets or sets a Caption property of the control. Default value is an empty string. |
 | [Checked](../../aspose.words.drawing.ole/checkboxcontrol/checked/) { get; set; } | Gets or sets a boolean value indicating either this `CheckBoxControl` is checked or not. The default value is `false`. |
 | virtual [ChildNodes](../../aspose.words.drawing.ole/forms2olecontrol/childnodes/) { get; } | Gets collection of immediate child controls. |
 | [Enabled](../../aspose.words.drawing.ole/forms2olecontrol/enabled/) { get; } | Returns `true` if control is in enabled state. |

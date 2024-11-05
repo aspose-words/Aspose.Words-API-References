@@ -5,7 +5,7 @@ articleTitle: DocumentProperty
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Properties.DocumentProperty class. Represents a custom or builtin document property in C#.
 type: docs
-weight: 4820
+weight: 4900
 url: /net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class

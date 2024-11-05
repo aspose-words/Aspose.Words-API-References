@@ -5,7 +5,7 @@ articleTitle: NameOfApplication
 second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties NameOfApplication property. Gets or sets the name of the application in C#.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.words.properties/builtindocumentproperties/nameofapplication/
 ---
 ## BuiltInDocumentProperties.NameOfApplication property

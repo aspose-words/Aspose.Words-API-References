@@ -5,7 +5,7 @@ articleTitle: CommentRangeStart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.CommentRangeStart class. Denotes the start of a region of text that has a comment associated with it in C#.
 type: docs
-weight: 340
+weight: 420
 url: /net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class

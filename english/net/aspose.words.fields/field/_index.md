@@ -5,7 +5,7 @@ articleTitle: Field
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.Field class. Represents a Microsoft Word document field in C#.
 type: docs
-weight: 1780
+weight: 1860
 url: /net/aspose.words.fields/field/
 ---
 ## Field class
