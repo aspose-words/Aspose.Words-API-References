@@ -3,14 +3,14 @@ title: OpenAiModel Class
 linktitle: OpenAiModel
 articleTitle: OpenAiModel
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.OpenAiModel class. The class to represent information about a OpenAI Generative Language Model in C#.
+description: Aspose.Words.AI.OpenAiModel class. An abstract class representing the integration with OpenAIs large language models within the Aspose.Words in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.ai/openaimodel/
 ---
 ## OpenAiModel class
 
-The class to represent information about a OpenAI Generative Language Model.
+An abstract class representing the integration with OpenAI's large language models within the Aspose.Words.
 
 ```csharp
 public abstract class OpenAiModel : AiModel, IAiModelText
