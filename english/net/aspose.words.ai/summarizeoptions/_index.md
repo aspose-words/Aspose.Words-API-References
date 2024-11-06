@@ -3,14 +3,14 @@ title: SummarizeOptions Class
 linktitle: SummarizeOptions
 articleTitle: SummarizeOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.SummarizeOptions class. The class to specify various options for summarizing content in C#.
+description: Aspose.Words.AI.SummarizeOptions class. Allows to specify various options for summarizing document content in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.ai/summarizeoptions/
 ---
 ## SummarizeOptions class
 
-The class to specify various options for summarizing content.
+Allows to specify various options for summarizing document content.
 
 ```csharp
 public class SummarizeOptions

@@ -14,18 +14,18 @@ The **Aspose.Words.AI** namespace enables seamless integration with large langua
 
 | Class | Description |
 | --- | --- |
-| [AiModel](./aimodel/) | The class to represent information about a Generative Language Model. |
-| [GoogleAiModel](./googleaimodel/) | The class to represent information about a Generative Language Model. |
-| [OpenAiModel](./openaimodel/) | The class to represent information about a OpenAI Generative Language Model. |
-| [SummarizeOptions](./summarizeoptions/) | The class to specify various options for summarizing content. |
+| [AiModel](./aimodel/) | Represents information about a Generative Language Model. |
+| [GoogleAiModel](./googleaimodel/) | An abstract class representing the integration with Google’s AI models within the Aspose.Words. |
+| [OpenAiModel](./openaimodel/) | An abstract class representing the integration with OpenAI's large language models within the Aspose.Words. |
+| [SummarizeOptions](./summarizeoptions/) | Allows to specify various options for summarizing document content. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [IAiModelText](./iaimodeltext/) | The common for AI models interface to generate various text content. |
+| [IAiModelText](./iaimodeltext/) | The common interface for AI models designed to generate a variety of text-based content. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [AiModelType](./aimodeltype/) | Represents a [`AiModel`](../aspose.words.ai/aimodel/) type. |
+| [AiModelType](./aimodeltype/) | Represents the types of [`AiModel`](../aspose.words.ai/aimodel/) that can be integrated into the document processing workflow. |
 | [SummaryLength](./summarylength/) | Enumerates possible lengths of summary. |

@@ -3,14 +3,14 @@ title: AiModelType Enum
 linktitle: AiModelType
 articleTitle: AiModelType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.AiModelType enum. Represents a AiModel type in C#.
+description: Aspose.Words.AI.AiModelType enum. Represents the types of AiModel that can be integrated into the document processing workflow in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.ai/aimodeltype/
 ---
 ## AiModelType enumeration
 
-Represents a [`AiModel`](../aimodel/) type.
+Represents the types of [`AiModel`](../aimodel/) that can be integrated into the document processing workflow.
 
 ```csharp
 public enum AiModelType
@@ -27,6 +27,10 @@ public enum AiModelType
 | Gemini15Flash | `4` | Gemini 1.5 Flash generative model type. |
 | Gemini15Flash8B | `5` | Gemini 1.5 Flash-8B generative model type. |
 | Gemini15Pro | `6` | Gemini 1.5 Pro generative model type. |
+
+## Remarks
+
+This enumeration is used to define which large language model (LLM) should be utilized for tasks such as summarization, translation, and content generation.
 
 ### See Also
 
