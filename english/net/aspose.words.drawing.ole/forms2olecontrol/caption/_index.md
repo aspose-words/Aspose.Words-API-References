@@ -18,6 +18,16 @@ public string Caption { get; set; }
 
 ## Examples
 
+Shows how to set caption for ActiveX control.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+CommandButtonControl button1 = new CommandButtonControl() { Caption = "Button caption" };
+Shape shape = builder.InsertForms2OleControl(button1);
+Assert.AreEqual("Button caption", ((Forms2OleControl)shape.OleFormat.OleControl).Caption);
+```
+
 Shows how to verify the properties of an ActiveX control.
 
 ```csharp

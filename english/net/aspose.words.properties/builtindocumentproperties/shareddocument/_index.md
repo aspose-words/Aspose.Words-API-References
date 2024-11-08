@@ -20,6 +20,17 @@ public bool SharedDocument { get; }
 
 Aspose.Words does not update this property.
 
+## Examples
+
+Shows how to get extended properties.
+
+```csharp
+Document doc = new Document(MyDir + "Extended properties.docx");
+Assert.IsTrue(doc.BuiltInDocumentProperties.ScaleCrop);
+Assert.IsTrue(doc.BuiltInDocumentProperties.SharedDocument);
+Assert.IsTrue(doc.BuiltInDocumentProperties.HyperlinksChanged);
+```
+
 ### See Also
 
 * class [BuiltInDocumentProperties](../)

@@ -22,6 +22,20 @@ PDF choice form fields are used for export of SDT Combo Box Content Control, SDT
 
 The default value is `true`.
 
+## Examples
+
+Shows how to render PDF choice form field border.
+
+```csharp
+Document doc = new Document(MyDir + "Legacy drop-down.docx");
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.PreserveFormFields = true;
+saveOptions.RenderChoiceFormFieldBorder = true;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.RenderChoiceFormFieldBorder.pdf", saveOptions);
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../)
