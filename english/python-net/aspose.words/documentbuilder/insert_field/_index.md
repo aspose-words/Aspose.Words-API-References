@@ -116,15 +116,15 @@ Shows how to insert a field into a document using FieldType.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert two fields while passing a flag which determines whether to update them as the builder inserts them.
 # In some cases, updating fields could be computationally expensive, and it may be a good idea to defer the update.
 doc.built_in_document_properties.author = 'John Doe'
 builder.write('This document was written by ')
-builder.insert_field(aw.fields.FieldType.FIELD_AUTHOR, update_inserted_fields_immediately)
+builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTHOR, update_field=update_inserted_fields_immediately)
 builder.insert_paragraph()
 builder.write('\nThis is page ')
-builder.insert_field(aw.fields.FieldType.FIELD_PAGE, update_inserted_fields_immediately)
+builder.insert_field(field_type=aw.fields.FieldType.FIELD_PAGE, update_field=update_inserted_fields_immediately)
 self.assertEqual(' AUTHOR ', doc.range.fields[0].get_field_code())
 self.assertEqual(' PAGE ', doc.range.fields[1].get_field_code())
 if update_inserted_fields_immediately:
@@ -144,20 +144,20 @@ Shows how to insert fields, and move the document builder's cursor to them.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.insert_field('MERGEFIELD MyMergeField1 \\* MERGEFORMAT')
-builder.insert_field('MERGEFIELD MyMergeField2 \\* MERGEFORMAT')
+builder = aw.DocumentBuilder(doc=doc)
+builder.insert_field(field_code='MERGEFIELD MyMergeField1 \\* MERGEFORMAT')
+builder.insert_field(field_code='MERGEFIELD MyMergeField2 \\* MERGEFORMAT')
 # Move the cursor to the first MERGEFIELD.
-builder.move_to_merge_field('MyMergeField1', True, False)
+builder.move_to_merge_field(field_name='MyMergeField1', is_after=True, is_delete_field=False)
 # Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
 self.assertEqual(doc.range.fields[1].start, builder.current_node)
 self.assertEqual(doc.range.fields[0].end, builder.current_node.previous_sibling)
 # If we wish to edit the field's field code or contents using the builder,
 # its cursor would need to be inside a field.
-# To place it inside a field, we would need to call the document builder's "move_to" method
+# To place it inside a field, we would need to call the document builder's MoveTo method
 # and pass the field's start or separator node as an argument.
 builder.write(' Text between our merge fields. ')
-doc.save(ARTIFACTS_DIR + 'DocumentBuilder.merge_fields.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.MergeFields.docx')
 ```
 
 Shows how to insert a field into a document using a field code.

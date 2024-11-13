@@ -33,10 +33,10 @@ Shows how to apply custom list formatting to paragraphs when using DocumentBuild
 doc = aw.Document()
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
-# We can begin and end a list by using a document builder's "list_format" property.
+# We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
 # Create a list from a Microsoft Word template, and customize the first two of its list levels.
-list = doc.lists.add(aw.lists.ListTemplate.NUMBER_DEFAULT)
+list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
 list_level = list.list_levels[0]
 list_level.font.color = aspose.pydrawing.Color.red
 list_level.font.size = 24
@@ -57,7 +57,7 @@ list_level.number_format = '\uf0af'
 list_level.trailing_character = aw.lists.ListTrailingCharacter.SPACE
 list_level.number_position = 144
 # Create paragraphs and apply both list levels of our custom list formatting to them.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.list_format.list = list
 builder.writeln('The quick brown fox...')
 builder.writeln('The quick brown fox...')
@@ -67,19 +67,19 @@ builder.writeln('jumped over the lazy dog.')
 builder.list_format.list_outdent()
 builder.writeln('The quick brown fox...')
 builder.list_format.remove_numbers()
-builder.document.save(ARTIFACTS_DIR + 'Lists.create_custom_list.docx')
+builder.document.save(file_name=ARTIFACTS_DIR + 'Lists.CreateCustomList.docx')
 ```
 
 Shows advances ways of customizing list labels.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
-# We can begin and end a list by using a document builder's "list_format" property.
+# We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
-list = doc.lists.add(aw.lists.ListTemplate.NUMBER_DEFAULT)
+list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
 # Level 1 labels will be formatted according to the "Heading 1" paragraph style and will have a prefix.
 # These will look like "Appendix A", "Appendix B"...
 list.list_levels[0].number_format = 'Appendix \x00'
@@ -90,7 +90,7 @@ list.list_levels[0].linked_style = doc.styles.get_by_name('Heading 1')
 list.list_levels[1].number_format = 'Section (\x00.\x01)'
 list.list_levels[1].number_style = aw.NumberStyle.LEADING_ZERO
 # Note that the higher-level uses UppercaseLetter numbering.
-# We can set the "is_legal" property to use Arabic numbers for the higher list levels.
+# We can set the "IsLegal" property to use Arabic numbers for the higher list levels.
 list.list_levels[1].is_legal = True
 list.list_levels[1].restart_after_level = 0
 # Level 3 labels will be upper case Roman numerals with a prefix and a suffix and will restart at each List level 1 item.
@@ -104,12 +104,16 @@ for level in list.list_levels:
 # Apply list formatting to the current paragraph.
 builder.list_format.list = list
 # Create list items that will display all three of our list levels.
-for n in range(2):
-    for i in range(3):
+n = 0
+while n < 2:
+    i = 0
+    while i < 3:
         builder.list_format.list_level_number = i
-        builder.writeln(f'Level {i}')
+        builder.writeln('Level ' + str(i))
+        i += 1
+    n += 1
 builder.list_format.remove_numbers()
-doc.save(ARTIFACTS_DIR + 'Lists.create_list_restart_after_higher.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Lists.CreateListRestartAfterHigher.docx')
 ```
 
 ### See Also

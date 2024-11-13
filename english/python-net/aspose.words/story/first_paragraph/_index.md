@@ -52,11 +52,11 @@ text_box.vertical_alignment = aw.drawing.VerticalAlignment.TOP
 text_box.append_child(aw.Paragraph(doc))
 para = text_box.first_paragraph
 para.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
-run = aw.Run(doc)
+run = aw.Run(doc=doc)
 run.text = 'Hello world!'
 para.append_child(run)
 doc.first_section.body.first_paragraph.append_child(text_box)
-doc.save(ARTIFACTS_DIR + 'Shape.create_text_box.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.CreateTextBox.docx')
 ```
 
 ### See Also

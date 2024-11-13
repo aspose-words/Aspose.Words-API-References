@@ -122,23 +122,22 @@ Shows how to specify a resolution while rendering a document to PNG.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Times New Roman'
 builder.font.size = 24
 builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
-builder.insert_image(IMAGE_DIR + 'Logo.jpg')
-# Create an "ImageSaveOptions" object which we can pass to the document's "save" method
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+# Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 # to modify the way in which that method renders the document into an image.
 options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-# Set the "resolution" property to "72" to render the document in 72dpi.
+# Set the "Resolution" property to "72" to render the document in 72dpi.
 options.vertical_resolution = 72
 options.horizontal_resolution = 72
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.72dpi.png', options)
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.Resolution.72dpi.png', save_options=options)
+# Set the "Resolution" property to "300" to render the document in 300dpi.
 options.vertical_resolution = 300
 options.horizontal_resolution = 300
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.resolution.300dpi.png', options)
-self.verify_image(612, 792, ARTIFACTS_DIR + 'ImageSaveOptions.resolution.72dpi.png')
-self.verify_image(2550, 3300, ARTIFACTS_DIR + 'ImageSaveOptions.resolution.300dpi.png')
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.Resolution.300dpi.png', save_options=options)
 ```
 
 ### See Also

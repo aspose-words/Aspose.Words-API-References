@@ -39,14 +39,14 @@ Shows how to insert and rotate an image.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a shape with an image.
-shape = builder.insert_image(drawing.Image.from_file(IMAGE_DIR + 'Logo.jpg'))
+shape = builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
 self.assertTrue(shape.can_have_image)
 self.assertTrue(shape.has_image)
 # Rotate the image 45 degrees clockwise.
 shape.rotation = 45
-doc.save(ARTIFACTS_DIR + 'Shape.rotate.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.Rotate.docx')
 ```
 
 ### See Also

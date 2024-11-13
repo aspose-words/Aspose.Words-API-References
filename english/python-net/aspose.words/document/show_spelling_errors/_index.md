@@ -31,7 +31,7 @@ Shows how to show/hide errors in the document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert two sentences with mistakes that would be picked up
 # by the spelling and grammar checkers in Microsoft Word.
 builder.writeln('There is a speling error in this sentence.')
@@ -40,7 +40,7 @@ builder.writeln('Their is a grammatical error in this sentence.')
 # in the output document by a jagged red line, and a double blue line will highlight grammatical mistakes.
 doc.show_grammatical_errors = show_errors
 doc.show_spelling_errors = show_errors
-doc.save(ARTIFACTS_DIR + 'Document.spelling_and_grammar_errors.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.SpellingAndGrammarErrors.docx')
 ```
 
 ### See Also

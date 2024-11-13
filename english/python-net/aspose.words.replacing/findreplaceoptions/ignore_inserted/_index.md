@@ -36,7 +36,7 @@ doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 builder.writeln('Hello world!')
 # Start tracking revisions and insert a paragraph. That paragraph will be an insert revision.
-doc.start_track_revisions('John Doe', datetime.now())
+doc.start_track_revisions('John Doe', datetime.datetime.now())
 builder.writeln('Hello again!')
 doc.stop_track_revisions()
 self.assertTrue(doc.first_section.body.paragraphs[1].is_insert_revision)

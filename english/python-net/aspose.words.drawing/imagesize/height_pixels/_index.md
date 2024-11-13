@@ -27,10 +27,10 @@ Shows how to read the properties of an image in a shape.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a shape into the document which contains an image taken from our local file system.
-shape = builder.insert_image(IMAGE_DIR + 'Logo.jpg')
-# If the shape contains an image, its "image_data" property will be valid,
+shape = builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+# If the shape contains an image, its ImageData property will be valid,
 # and it will contain an ImageSize object.
 image_size = shape.image_data.image_size
 # The ImageSize object contains read-only information about the image within the shape.
@@ -42,7 +42,7 @@ self.assertAlmostEqual(95.98, image_size.vertical_resolution, delta=delta)
 # We can base the size of the shape on the size of its image to avoid stretching the image.
 shape.width = image_size.width_points * 2
 shape.height = image_size.height_points * 2
-doc.save(ARTIFACTS_DIR + 'Drawing.image_size.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Drawing.ImageSize.docx')
 ```
 
 ### See Also

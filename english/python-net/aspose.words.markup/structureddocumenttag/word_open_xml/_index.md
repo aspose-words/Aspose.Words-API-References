@@ -27,9 +27,9 @@ def word_open_xml(self) -> str:
 Shows how to get XML contained within the node in the FlatOpc format.
 
 ```python
-doc = aw.Document(MY_DIR + 'Structured document tags.docx')
-tags = [node.as_structured_document_tag() for node in doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG, True)]
-self.assertIn('<pkg:part pkg:name="/docProps/app.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.extended-properties+xml">', tags[0].word_open_xml)
+doc = aw.Document(file_name=MY_DIR + 'Structured document tags.docx')
+tags = [x.as_structured_document_tag() for x in list(doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG, True)) if isinstance(x.as_structured_document_tag(), aw.markup.StructuredDocumentTag)]
+self.assertTrue('<pkg:part pkg:name="/docProps/app.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.extended-properties+xml">' in tags[0].word_open_xml)
 ```
 
 ### See Also

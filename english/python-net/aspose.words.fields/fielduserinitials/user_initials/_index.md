@@ -37,8 +37,8 @@ user_information.initials = 'J. D.'
 doc.field_options.current_user = user_information
 # Create a USERINITIALS field to display the current user's initials,
 # taken from the UserInformation object we created above.
-builder = aw.DocumentBuilder(doc)
-field_user_initials = builder.insert_field(aw.fields.FieldType.FIELD_USER_INITIALS, True).as_field_user_initials()
+builder = aw.DocumentBuilder(doc=doc)
+field_user_initials = builder.insert_field(field_type=aw.fields.FieldType.FIELD_USER_INITIALS, update_field=True).as_field_user_initials()
 self.assertEqual(user_information.initials, field_user_initials.result)
 self.assertEqual(' USERINITIALS ', field_user_initials.get_field_code())
 self.assertEqual('J. D.', field_user_initials.result)
@@ -50,7 +50,7 @@ self.assertEqual('J. C.', field_user_initials.result)
 # This does not affect the value in the UserInformation object.
 self.assertEqual('J. D.', doc.field_options.current_user.initials)
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.field_user_initials.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.USERINITIALS.docx')
 ```
 
 ### See Also

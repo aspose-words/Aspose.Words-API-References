@@ -27,6 +27,21 @@ def underline(self, value: aspose.words.Underline):
 
 ### Examples
 
+Shows how to insert formatted text using DocumentBuilder.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# Specify font formatting, then add text.
+font = builder.font
+font.size = 16
+font.bold = True
+font.color = aspose.pydrawing.Color.blue
+font.name = 'Courier New'
+font.underline = aw.Underline.DASH
+builder.write('Hello world!')
+```
+
 Shows how to insert a hyperlink field.
 
 ```python
@@ -42,21 +57,6 @@ builder.font.clear_formatting()
 builder.writeln('.')
 # Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
 doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertHyperlink.docx')
-```
-
-Shows how to insert formatted text using DocumentBuilder.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-# Specify font formatting, then add text.
-font = builder.font
-font.size = 16
-font.bold = True
-font.color = aspose.pydrawing.Color.blue
-font.name = 'Courier New'
-font.underline = aw.Underline.DASH
-builder.write('Hello world!')
 ```
 
 Shows how to configure the style and color of a text underline.

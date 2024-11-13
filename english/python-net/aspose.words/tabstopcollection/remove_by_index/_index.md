@@ -30,13 +30,13 @@ Shows how to select a tab stop in a document by its index and remove it.
 ```python
 doc = aw.Document()
 tab_stops = doc.first_section.body.paragraphs[0].paragraph_format.tab_stops
-tab_stops.add(aw.ConvertUtil.millimeter_to_point(30), aw.TabAlignment.LEFT, aw.TabLeader.DASHES)
-tab_stops.add(aw.ConvertUtil.millimeter_to_point(60), aw.TabAlignment.LEFT, aw.TabLeader.DASHES)
+tab_stops.add(position=aw.ConvertUtil.millimeter_to_point(30), alignment=aw.TabAlignment.LEFT, leader=aw.TabLeader.DASHES)
+tab_stops.add(position=aw.ConvertUtil.millimeter_to_point(60), alignment=aw.TabAlignment.LEFT, leader=aw.TabLeader.DASHES)
 self.assertEqual(2, tab_stops.count)
 # Remove the first tab stop.
 tab_stops.remove_by_index(0)
 self.assertEqual(1, tab_stops.count)
-doc.save(ARTIFACTS_DIR + 'TabStopCollection.remove_by_index.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'TabStopCollection.RemoveByIndex.docx')
 ```
 
 ### See Also

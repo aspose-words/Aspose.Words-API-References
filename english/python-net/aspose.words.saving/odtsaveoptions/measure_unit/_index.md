@@ -38,15 +38,15 @@ content properties in documents whereas MS Office uses inches.
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 
 ```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 # When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
-# We can set the "measure_unit" property to "OdtSaveMeasureUnit.CENTIMETERS"
+# We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Centimeters"
 # to define content such as style parameters using the metric system, which Open Office uses.
-# We can set the "measure_unit" property to "OdtSaveMeasureUnit.INCHES"
+# We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Inches"
 # to define content such as style parameters using the imperial system, which Microsoft Word uses.
 save_options = aw.saving.OdtSaveOptions()
 save_options.measure_unit = odt_save_measure_unit
-doc.save(ARTIFACTS_DIR + 'OdtSaveOptions.measurement_units.odt', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'OdtSaveOptions.Odt11Schema.odt', save_options=save_options)
 ```
 
 ### See Also

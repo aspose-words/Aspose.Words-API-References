@@ -31,6 +31,15 @@ Microsoft Word stores only the date part (no time) for custom date properties.
 
 ### Examples
 
+Shows how to create a custom document property which contains a date and time.
+
+```python
+doc = aw.Document()
+doc.custom_document_properties.add(name='AuthorizationDate', value=datetime.datetime.now())
+authorization_date = doc.custom_document_properties.get_by_name('AuthorizationDate').to_date_time()
+print(f'Document authorized on {authorization_date}')
+```
+
 Shows various type conversion methods of custom document properties.
 
 ```python
@@ -47,14 +56,6 @@ self.assertEqual('John Doe', properties.get_by_name('Authorized By').to_string()
 self.assertEqual(auth_date, properties.get_by_name('Authorized Date').to_date_time())
 self.assertEqual(1, properties.get_by_name('Authorized Revision').to_int())
 self.assertEqual(123.45, properties.get_by_name('Authorized Amount').to_double())
-```
-
-Shows how to create a custom document property which contains a date and time.
-
-```python
-doc = aw.Document()
-doc.custom_document_properties.add('AuthorizationDate', datetime.datetime.utcnow())
-print('Document authorized on', doc.custom_document_properties.get_by_name('AuthorizationDate').to_date_time())
 ```
 
 ### See Also

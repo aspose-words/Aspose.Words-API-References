@@ -26,6 +26,14 @@ An array of paragraphs.
 
 ### Examples
 
+Shows how to create an array from a NodeCollection.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Paragraphs.docx')
+paras = list(doc.first_section.body.paragraphs)
+self.assertEqual(22, len(paras))
+```
+
 Shows how to use "hot remove" to remove a node during enumeration.
 
 ```python
@@ -40,14 +48,6 @@ for para in list(doc.first_section.body.paragraphs):
     if 'third' in para.range.text:
         para.remove()
 self.assertFalse('The third paragraph' in doc.get_text())
-```
-
-Shows how to create an array from a NodeCollection.
-
-```python
-doc = aw.Document(MY_DIR + 'Paragraphs.docx')
-paras = doc.first_section.body.paragraphs.to_array()
-self.assertEqual(22, len(paras))
 ```
 
 ### See Also

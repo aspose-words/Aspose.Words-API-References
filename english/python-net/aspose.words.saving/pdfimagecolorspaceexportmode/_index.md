@@ -27,23 +27,23 @@ Shows how to set a different color space for images in a document as we export i
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Jpeg image:')
-builder.insert_image(IMAGE_DIR + 'Logo.jpg')
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
 builder.insert_paragraph()
 builder.writeln('Png image:')
-builder.insert_image(IMAGE_DIR + 'Transparent background logo.png')
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+builder.insert_image(file_name=IMAGE_DIR + 'Transparent background logo.png')
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 pdf_save_options = aw.saving.PdfSaveOptions()
-# Set the "image_color_space_export_mode" property to "PdfImageColorSpaceExportMode.AUTO" to get Aspose.Words to
+# Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.Auto" to get Aspose.Words to
 # automatically select the color space for images in the document that it converts to PDF.
 # In most cases, the color space will be RGB.
-# Set the "image_color_space_export_mode" property to "PdfImageColorSpaceExportMode.SIMPLE_CMYK"
+# Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.SimpleCmyk"
 # to use the CMYK color space for all images in the saved PDF.
-# Aspose.Words will also apply Flate compression to all images and ignore the "image_compression" property's value.
+# Aspose.Words will also apply Flate compression to all images and ignore the "ImageCompression" property's value.
 pdf_save_options.image_color_space_export_mode = pdf_image_color_space_export_mode
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.image_color_space_export_mode.pdf', pdf_save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ImageColorSpaceExportMode.pdf', save_options=pdf_save_options)
 ```
 
 ### See Also

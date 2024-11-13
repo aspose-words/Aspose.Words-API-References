@@ -35,34 +35,6 @@ def update(self, ignore_merge_format: bool):
 
 ## Examples
 
-Shows how to insert a field into a document using FieldType.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-# Insert two fields while passing a flag which determines whether to update them as the builder inserts them.
-# In some cases, updating fields could be computationally expensive, and it may be a good idea to defer the update.
-doc.built_in_document_properties.author = 'John Doe'
-builder.write('This document was written by ')
-builder.insert_field(aw.fields.FieldType.FIELD_AUTHOR, update_inserted_fields_immediately)
-builder.insert_paragraph()
-builder.write('\nThis is page ')
-builder.insert_field(aw.fields.FieldType.FIELD_PAGE, update_inserted_fields_immediately)
-self.assertEqual(' AUTHOR ', doc.range.fields[0].get_field_code())
-self.assertEqual(' PAGE ', doc.range.fields[1].get_field_code())
-if update_inserted_fields_immediately:
-    self.assertEqual('John Doe', doc.range.fields[0].result)
-    self.assertEqual('1', doc.range.fields[1].result)
-else:
-    self.assertEqual('', doc.range.fields[0].result)
-    self.assertEqual('', doc.range.fields[1].result)
-    # We will need to update these fields using the update methods manually.
-    doc.range.fields[0].update()
-    self.assertEqual('John Doe', doc.range.fields[0].result)
-    doc.update_fields()
-    self.assertEqual('1', doc.range.fields[1].result)
-```
-
 Shows how to format field results.
 
 ```python

@@ -35,6 +35,7 @@ Empty bubble size values are represented as None.
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of items in this collection. |
+| [format_code](./format_code/) | Gets or sets the format code applied to the bubble sizes. |
 
 ### See Also
 

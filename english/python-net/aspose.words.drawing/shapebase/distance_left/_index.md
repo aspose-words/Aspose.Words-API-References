@@ -40,9 +40,9 @@ Shows how to set the wrapping distance for a text that surrounds a shape.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a rectangle and, get the text to wrap tightly around its bounds.
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 150, 150)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=150, height=150)
 shape.wrap_type = aw.drawing.WrapType.TIGHT
 # Set the minimum distance between the shape and surrounding text to 40pt from all sides.
 shape.distance_top = 40
@@ -56,7 +56,7 @@ shape.rotation = 60
 # Add text that will wrap around the shape.
 builder.font.size = 24
 builder.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ' + 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')
-doc.save(ARTIFACTS_DIR + 'Shape.coordinates.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.Coordinates.docx')
 ```
 
 ### See Also

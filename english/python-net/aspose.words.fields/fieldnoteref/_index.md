@@ -61,6 +61,28 @@ Inserts the mark of the footnote or endnote that is marked by the specified book
 
 ### Examples
 
+Shows how to cross-reference footnotes with the NOTEREF field.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.write('CrossReference: ')
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_NOTE_REF, update_field=False).as_field_note_ref()  # <--- don't update field
+field.bookmark_name = 'CrossRefBookmark'
+field.insert_hyperlink = True
+field.insert_reference_mark = True
+field.insert_relative_position = False
+builder.writeln()
+builder.start_bookmark('CrossRefBookmark')
+builder.write('Hello world!')
+builder.insert_footnote(footnote_type=aw.notes.FootnoteType.FOOTNOTE, footnote_text='Cross referenced footnote.')
+builder.end_bookmark('CrossRefBookmark')
+builder.writeln()
+doc.update_fields()
+# This field works only in older versions of Microsoft Word.
+doc.save(file_name=ARTIFACTS_DIR + 'Field.NOTEREF.doc')
+```
+
 Shows to insert NOTEREF fields, and modify their appearance.
 
 ```python
@@ -102,29 +124,6 @@ def insert_bookmark_with_footnote(builder: aw.DocumentBuilder, bookmark_name: st
     builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, footnote_text)
     builder.end_bookmark(bookmark_name)
     builder.writeln()
-```
-
-Shows how to cross-reference footnotes with the NOTEREF field.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.write('CrossReference: ')
-# <--- don't update field
-field = builder.insert_field(awf.FieldType.FIELD_NOTE_REF, False).as_field_note_ref()
-field.bookmark_name = 'CrossRefBookmark'
-field.insert_hyperlink = True
-field.insert_reference_mark = True
-field.insert_relative_position = False
-builder.writeln()
-builder.start_bookmark('CrossRefBookmark')
-builder.write('Hello world!')
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, 'Cross referenced footnote.')
-builder.end_bookmark('CrossRefBookmark')
-builder.writeln()
-doc.update_fields()
-# This field works only in older versions of Microsoft Word.
-doc.save(ARTIFACTS_DIR + 'Field.field_note_ref.doc')
 ```
 
 ### See Also

@@ -33,7 +33,7 @@ To unlink fields in a specific part of the document use [Range.unlink_fields()](
 Shows how to unlink all fields in the document.
 
 ```python
-doc = aw.Document(MY_DIR + 'Linked fields.docx')
+doc = aw.Document(file_name=MY_DIR + 'Linked fields.docx')
 doc.unlink_fields()
 ```
 

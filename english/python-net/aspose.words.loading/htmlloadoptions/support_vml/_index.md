@@ -31,13 +31,13 @@ Shows how to support conditional comments while loading an HTML document.
 
 ```python
 load_options = aw.loading.HtmlLoadOptions()
-# If the value is True, then we take VML code into account while parsing the loaded document.
+# If the value is true, then we take VML code into account while parsing the loaded document.
 load_options.support_vml = support_vml
 # This document contains a JPEG image within "<!--[if gte vml 1]>" tags,
 # and a different PNG image within "<![if !vml]>" tags.
-# If we set the "support_vml" flag to "True", then Aspose.Words will load the JPEG.
-# If we set this flag to "False", then Aspose.Words will only load the PNG.
-doc = aw.Document(MY_DIR + 'VML conditional.htm', load_options)
+# If we set the "SupportVml" flag to "true", then Aspose.Words will load the JPEG.
+# If we set this flag to "false", then Aspose.Words will only load the PNG.
+doc = aw.Document(file_name=MY_DIR + 'VML conditional.htm', load_options=load_options)
 if support_vml:
     self.assertEqual(aw.drawing.ImageType.JPEG, doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape().image_data.image_type)
 else:

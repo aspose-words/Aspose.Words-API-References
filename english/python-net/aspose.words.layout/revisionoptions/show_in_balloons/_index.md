@@ -5,7 +5,7 @@ articleTitle: show_in_balloons property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.show_in_balloons property. Allows to specify whether the revisions are rendered in the balloons"
 type: docs
-weight: 160
+weight: 180
 url: /python-net/aspose.words.layout/revisionoptions/show_in_balloons/
 ---
 

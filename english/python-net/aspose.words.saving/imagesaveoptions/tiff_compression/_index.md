@@ -40,29 +40,19 @@ Shows how to select the compression scheme to apply to a document that we conver
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.insert_image(IMAGE_DIR + 'Tagged Image File Format.tiff')
-# Create an "ImageSaveOptions" object which we can pass to the document's "save" method
+builder = aw.DocumentBuilder(doc=doc)
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+# Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 # to modify the way in which that method renders the document into an image.
 options = aw.saving.ImageSaveOptions(aw.SaveFormat.TIFF)
-# Set the "tiff_compression" property to "TiffCompression.NONE" to apply no compression while saving,
+# Set the "TiffCompression" property to "TiffCompression.None" to apply no compression while saving,
 # which may result in a very large output file.
-# Set the "tiff_compression" property to "TiffCompression.RLE" to apply RLE compression
-# Set the "tiff_compression" property to "TiffCompression.LZW" to apply LZW compression.
-# Set the "tiff_compression" property to "TiffCompression.CCITT3" to apply CCITT3 compression.
-# Set the "tiff_compression" property to "TiffCompression.CCITT4" to apply CCITT4 compression.
+# Set the "TiffCompression" property to "TiffCompression.Rle" to apply RLE compression
+# Set the "TiffCompression" property to "TiffCompression.Lzw" to apply LZW compression.
+# Set the "TiffCompression" property to "TiffCompression.Ccitt3" to apply CCITT3 compression.
+# Set the "TiffCompression" property to "TiffCompression.Ccitt4" to apply CCITT4 compression.
 options.tiff_compression = tiff_compression
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.tiff_image_compression.tiff', options)
-if tiff_compression == aw.saving.TiffCompression.NONE:
-    self.assertLess(3000000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.tiff_image_compression.tiff'))
-elif tiff_compression == aw.saving.TiffCompression.RLE:
-    self.assertLess(6000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.tiff_image_compression.tiff'))
-elif tiff_compression == aw.saving.TiffCompression.LZW:
-    self.assertLess(200000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.tiff_image_compression.tiff'))
-elif tiff_compression == aw.saving.TiffCompression.CCITT3:
-    self.assertGreater(90000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.tiff_image_compression.tiff'))
-elif tiff_compression == aw.saving.TiffCompression.CCITT4:
-    self.assertGreater(20000, os.path.getsize(ARTIFACTS_DIR + 'ImageSaveOptions.tiff_image_compression.tiff'))
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.TiffImageCompression.tiff', save_options=options)
 ```
 
 ### See Also

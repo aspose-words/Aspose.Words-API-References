@@ -5,7 +5,7 @@ articleTitle: lines property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.lines property. Represents an estimate of the number of lines in the document."
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.properties/builtindocumentproperties/lines/
 ---
 

@@ -52,24 +52,24 @@ building_block.behavior = aw.buildingblocks.BuildingBlockBehavior.PARAGRAPH
 doc.glossary_document.append_child(building_block)
 # Create a source and add it as text to our building block.
 building_block_source = aw.Document()
-building_block_source_builder = aw.DocumentBuilder(building_block_source)
+building_block_source_builder = aw.DocumentBuilder(doc=building_block_source)
 building_block_source_builder.writeln('Hello World!')
-building_block_content = doc.glossary_document.import_node(building_block_source.first_section, True)
+building_block_content = doc.glossary_document.import_node(src_node=building_block_source.first_section, is_import_children=True)
 building_block.append_child(building_block_content)
 # Set a file which contains parts that our document, or its attached template may not contain.
 doc.field_options.built_in_templates_paths = [MY_DIR + 'Busniess brochure.dotx']
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two ways to use fields to display the contents of our building block.
 # 1 -  Using an AUTOTEXT field:
-field_auto_text = builder.insert_field(aw.fields.FieldType.FIELD_AUTO_TEXT, True).as_field_auto_text()
+field_auto_text = builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTO_TEXT, update_field=True).as_field_auto_text()
 field_auto_text.entry_name = 'MyBlock'
 self.assertEqual(' AUTOTEXT  MyBlock', field_auto_text.get_field_code())
 # 2 -  Using a GLOSSARY field:
-field_glossary = builder.insert_field(aw.fields.FieldType.FIELD_GLOSSARY, True).as_field_glossary()
+field_glossary = builder.insert_field(field_type=aw.fields.FieldType.FIELD_GLOSSARY, update_field=True).as_field_glossary()
 field_glossary.entry_name = 'MyBlock'
 self.assertEqual(' GLOSSARY  MyBlock', field_glossary.get_field_code())
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.field_auto_text.glossary.dotx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.AUTOTEXT.GLOSSARY.dotx')
 ```
 
 ### See Also

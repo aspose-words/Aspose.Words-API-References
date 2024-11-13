@@ -61,22 +61,22 @@ doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.doc2_epub_save_options.epub', save_opt
 Shows how to save a document to a specific version of HTML.
 
 ```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 options = aw.saving.HtmlSaveOptions(aw.SaveFormat.HTML)
 options.html_version = html_version
 options.pretty_format = True
-doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.html_versions.html', options)
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.HtmlVersions.html', save_options=options)
 # Our HTML documents will have minor differences to be compatible with different HTML versions.
-with open(ARTIFACTS_DIR + 'HtmlSaveOptions.html_versions.html', 'rt', encoding='utf-8') as file:
-    out_doc_contents = file.read()
-if html_version == aw.saving.HtmlVersion.HTML5:
-    self.assertIn('<a id="_Toc76372689"></a>', out_doc_contents)
-    self.assertIn('<a id="_Toc76372689"></a>', out_doc_contents)
-    self.assertIn('<table style="padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse">', out_doc_contents)
-elif html_version == aw.saving.HtmlVersion.XHTML:
-    self.assertIn('<a name="_Toc76372689"></a>', out_doc_contents)
-    self.assertIn('<ul type="disc" style="margin:0pt; padding-left:0pt">', out_doc_contents)
-    self.assertIn('<table cellspacing="0" cellpadding="0" style="-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse"', out_doc_contents)
+out_doc_contents = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'HtmlSaveOptions.HtmlVersions.html')
+switch_condition = html_version
+if switch_condition == aw.saving.HtmlVersion.HTML5:
+    self.assertTrue('<a id="_Toc76372689"></a>' in out_doc_contents)
+    self.assertTrue('<a id="_Toc76372689"></a>' in out_doc_contents)
+    self.assertTrue('<table style="padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse">' in out_doc_contents)
+elif switch_condition == aw.saving.HtmlVersion.XHTML:
+    self.assertTrue('<a name="_Toc76372689"></a>' in out_doc_contents)
+    self.assertTrue('<ul type="disc" style="margin:0pt; padding-left:0pt">' in out_doc_contents)
+    self.assertTrue('<table cellspacing="0" cellpadding="0" style="-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse"' in out_doc_contents)
 ```
 
 ## See Also

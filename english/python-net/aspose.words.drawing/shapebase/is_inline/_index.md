@@ -34,11 +34,11 @@ Shows how to determine whether a shape is inline or floating.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two wrapping types that shapes may have.
 # 1 -  Inline:
 builder.write('Hello world! ')
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 100, 100)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=100, height=100)
 shape.fill_color = aspose.pydrawing.Color.light_blue
 builder.write(' Hello again.')
 # An inline shape sits inside a paragraph among other paragraph elements, such as runs of text.
@@ -48,7 +48,7 @@ builder.write(' Hello again.')
 self.assertEqual(aw.drawing.WrapType.INLINE, shape.wrap_type)
 self.assertTrue(shape.is_inline)
 # 2 -  Floating:
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, 200, aw.drawing.RelativeVerticalPosition.TOP_MARGIN, 200, 100, 100, aw.drawing.WrapType.NONE)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, horz_pos=aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, left=200, vert_pos=aw.drawing.RelativeVerticalPosition.TOP_MARGIN, top=200, width=100, height=100, wrap_type=aw.drawing.WrapType.NONE)
 shape.fill_color = aspose.pydrawing.Color.orange
 # A floating shape belongs to the paragraph that we insert it into,
 # which we can determine by an anchor symbol that appears when we click the shape.
@@ -57,7 +57,7 @@ shape.fill_color = aspose.pydrawing.Color.orange
 # In Microsoft Word, we may left click and drag this shape freely to any location.
 self.assertEqual(aw.drawing.WrapType.NONE, shape.wrap_type)
 self.assertFalse(shape.is_inline)
-doc.save(ARTIFACTS_DIR + 'Shape.is_inline.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.IsInline.docx')
 ```
 
 ### See Also

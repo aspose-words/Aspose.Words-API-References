@@ -28,8 +28,8 @@ Shows how to work with an editable range.
 
 ```python
 doc = aw.Document()
-doc.protect(aw.ProtectionType.READ_ONLY, 'MyPassword')
-builder = aw.DocumentBuilder(doc)
+doc.protect(type=aw.ProtectionType.READ_ONLY, password='MyPassword')
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln("Hello world! Since we have set the document's protection level to read-only," + ' we cannot edit this paragraph without the password.')
 # Editable ranges allow us to leave parts of protected documents open for editing.
 editable_range_start = builder.start_editable_range()
@@ -50,7 +50,7 @@ self.assertEqual(editable_range_end.id, editable_range.editable_range_end.id)
 self.assertEqual(aw.NodeType.EDITABLE_RANGE_START, editable_range_start.node_type)
 self.assertEqual(aw.NodeType.EDITABLE_RANGE_END, editable_range_end.node_type)
 builder.writeln('This paragraph is outside the editable range, and cannot be edited.')
-doc.save(ARTIFACTS_DIR + 'EditableRange.create_and_remove.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'EditableRange.CreateAndRemove.docx')
 # Remove an editable range. All the nodes that were inside the range will remain intact.
 editable_range.remove()
 ```

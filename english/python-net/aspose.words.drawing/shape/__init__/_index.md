@@ -37,16 +37,16 @@ Shows how to insert a shape with an image from the local file system into a docu
 
 ```python
 doc = aw.Document()
-# The "Shape" class's public constructor will create a shape with "ShapeMarkupLanguage.VML" markup type.
+# The "Shape" class's public constructor will create a shape with "ShapeMarkupLanguage.Vml" markup type.
 # If you need to create a shape of a non-primitive type, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 # TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
-# please use DocumentBuilder.insert_shape.
+# please use DocumentBuilder.InsertShape.
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
-shape.image_data.set_image(IMAGE_DIR + 'Windows MetaFile.wmf')
+shape.image_data.set_image(file_name=IMAGE_DIR + 'Windows MetaFile.wmf')
 shape.width = 100
 shape.height = 100
 doc.first_section.body.first_paragraph.append_child(shape)
-doc.save(ARTIFACTS_DIR + 'Image.from_file.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Image.FromFile.docx')
 ```
 
 Shows how to create and format a text box.
@@ -65,11 +65,11 @@ text_box.vertical_alignment = aw.drawing.VerticalAlignment.TOP
 text_box.append_child(aw.Paragraph(doc))
 para = text_box.first_paragraph
 para.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
-run = aw.Run(doc)
+run = aw.Run(doc=doc)
 run.text = 'Hello world!'
 para.append_child(run)
 doc.first_section.body.first_paragraph.append_child(text_box)
-doc.save(ARTIFACTS_DIR + 'Shape.create_text_box.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.CreateTextBox.docx')
 ```
 
 ### See Also

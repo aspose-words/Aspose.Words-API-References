@@ -31,23 +31,23 @@ Shows how to number paragraphs using autonum fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Each AUTONUM field displays the current value of a running count of AUTONUM fields,
 # allowing us to automatically number items like a numbered list.
 # This field will display a number "1.".
-field = builder.insert_field(aw.fields.FieldType.FIELD_AUTO_NUM, True).as_field_auto_num()
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTO_NUM, update_field=True).as_field_auto_num()
 builder.writeln('\tParagraph 1.')
 self.assertEqual(' AUTONUM ', field.get_field_code())
-field = builder.insert_field(aw.fields.FieldType.FIELD_AUTO_NUM, True).as_field_auto_num()
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTO_NUM, update_field=True).as_field_auto_num()
 builder.writeln('\tParagraph 2.')
-# The separator character, which appears in the field result immediately after the number, is a full stop by default.
+# The separator character, which appears in the field result immediately after the number,is a full stop by default.
 # If we leave this property null, our second AUTONUM field will display "2." in the document.
 self.assertIsNone(field.separator_character)
 # We can set this property to apply the first character of its string as the new separator character.
 # In this case, our AUTONUM field will now display "2:".
 field.separator_character = ':'
 self.assertEqual(' AUTONUM  \\s :', field.get_field_code())
-doc.save(ARTIFACTS_DIR + 'Field.field_auto_num.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.AUTONUM.docx')
 ```
 
 ### See Also

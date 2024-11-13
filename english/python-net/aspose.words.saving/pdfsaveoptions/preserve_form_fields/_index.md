@@ -54,18 +54,18 @@ Shows how to save a document to the PDF format using the Save method and the Pdf
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Please select a fruit: ')
 # Insert a combo box which will allow a user to choose an option from a collection of strings.
 builder.insert_combo_box('MyComboBox', ['Apple', 'Banana', 'Cherry'], 0)
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 pdf_options = aw.saving.PdfSaveOptions()
-# Set the "preserve_form_fields" property to "True" to save form fields as interactive objects in the output PDF.
-# Set the "preserve_form_fields" property to "False" to freeze all form fields in the document at
+# Set the "PreserveFormFields" property to "true" to save form fields as interactive objects in the output PDF.
+# Set the "PreserveFormFields" property to "false" to freeze all form fields in the document at
 # their current values and display them as plain text in the output PDF.
 pdf_options.preserve_form_fields = preserve_form_fields
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.preserve_form_fields.pdf', pdf_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.PreserveFormFields.pdf', save_options=pdf_options)
 ```
 
 ### See Also

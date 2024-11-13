@@ -42,24 +42,24 @@ Shows how to insert a floating image, and specify its position and size.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-shape = builder.insert_image(IMAGE_DIR + 'Logo.jpg')
+builder = aw.DocumentBuilder(doc=doc)
+shape = builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
 shape.wrap_type = aw.drawing.WrapType.NONE
-# Configure the shape's "relative_horizontal_position" property to treat the value of the "left" property
+# Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
 # as the shape's horizontal distance, in points, from the left side of the page.
 shape.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.PAGE
 # Set the shape's horizontal distance from the left side of the page to 100.
 shape.left = 100
-# Use the "relative_vertical_position" property in a similar way to position the shape 80pt below the top of the page.
+# Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
 shape.relative_vertical_position = aw.drawing.RelativeVerticalPosition.PAGE
 shape.top = 80
 # Set the shape's height, which will automatically scale the width to preserve dimensions.
 shape.height = 125
-self.assertEqual(125.0, shape.width)
-# The "bottom" and "right" properties contain the bottom and right edges of the image.
+self.assertEqual(125, shape.width)
+# The "Bottom" and "Right" properties contain the bottom and right edges of the image.
 self.assertEqual(shape.top + shape.height, shape.bottom)
 self.assertEqual(shape.left + shape.width, shape.right)
-doc.save(ARTIFACTS_DIR + 'Image.create_floating_position_size.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Image.CreateFloatingPositionSize.docx')
 ```
 
 Shows how to resize a shape with an image.

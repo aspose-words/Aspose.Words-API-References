@@ -15,13 +15,14 @@ is_root: true
 | Module | Description |
 | --- | --- |
 | [aspose.words](./aspose.words/) | The **aspose.words** module provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word. |
+| [aspose.words.ai](./aspose.words.ai/) | The **Aspose.Words.AI** namespace enables seamless integration with large language models (LLMs), such as OpenAI and Gemini, providing robust support for AI-powered document processing. |
 | [aspose.words.bibliography](./aspose.words.bibliography/) | The **Aspose.Words.Bibliography** namespace provides classes that allow to access  a list of bibliography sources available in a document. |
 | [aspose.words.buildingblocks](./aspose.words.buildingblocks/) | The **aspose.words.buildingblocks** module provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document. |
 | [aspose.words.comparing](./aspose.words.comparing/) | The **aspose.words.comparing** module provides classes and enumerations that allow to specify additional options when comparing documents. |
 | [aspose.words.digitalsignatures](./aspose.words.digitalsignatures/) | The **aspose.words.digitalsignatures** module provides classes to sign documents and verify signatures. |
 | [aspose.words.drawing](./aspose.words.drawing/) | The **aspose.words.drawing** module provides classes that allow to create and modify drawing objects. |
 | [aspose.words.drawing.charts](./aspose.words.drawing.charts/) | The **aspose.words.drawing.charts** module provides classes that allow to access charts in Microsoft Word documents. |
-| [aspose.words.drawing.ole](./aspose.words.drawing.ole/) | Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents. |
+| [aspose.words.drawing.ole](./aspose.words.drawing.ole/) | The **Aspose.Words.Drawing.Ole** namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents. |
 | [aspose.words.fields](./aspose.words.fields/) | The **aspose.words.fields** module contains classes that represent Microsoft Word fields in a document. |
 | [aspose.words.fonts](./aspose.words.fonts/) | The **aspose.words.fonts** module provides classes and enumerations to access information about fonts used in a document. |
 | [aspose.words.framesets](./aspose.words.framesets/) | The **aspose.words.framesets** module provides classes and enumerations that represents a frames page or a single frame on a frames page. |
@@ -44,3 +45,4 @@ is_root: true
 | [aspose.words.themes](./aspose.words.themes/) | The **aspose.words.themes** module provides classes that allow to access theme information in Microsoft Word documents. |
 | [aspose.words.vba](./aspose.words.vba/) | The **aspose.words.vba** module provides classes to work with VBA projects. |
 | [aspose.words.webextensions](./aspose.words.webextensions/) | The **aspose.words.webextensions** module provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Add-ins. |
+| [aspose.words.xattr](./aspose.words.xattr/) |  |

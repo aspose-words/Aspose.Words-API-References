@@ -5,7 +5,7 @@ articleTitle: aspose.words.comparing module
 second_title: Aspose.Words for Python
 description: "The aspose.words.comparing module provides classes and enumerations that allow to specify additional options when comparing documents."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.comparing/
 ---
 

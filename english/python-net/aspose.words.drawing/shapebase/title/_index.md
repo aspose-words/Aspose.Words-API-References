@@ -40,7 +40,7 @@ Shows how to set the title of a shape.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a shape, give it a title, and then add it to the document.
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.CUBE)
 shape.width = 200
@@ -49,8 +49,8 @@ shape.title = 'My cube'
 builder.insert_node(shape)
 # When we save a document with a shape that has a title,
 # Aspose.Words will store that title in the shape's Alt Text.
-doc.save(ARTIFACTS_DIR + 'Shape.title.docx')
-doc = aw.Document(ARTIFACTS_DIR + 'Shape.title.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.Title.docx')
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'Shape.Title.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 self.assertEqual('', shape.title)
 self.assertEqual('Title: My cube', shape.alternative_text)

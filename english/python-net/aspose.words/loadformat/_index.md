@@ -87,14 +87,14 @@ Shows how to specify a base URI when opening an html document.
 # Suppose we want to load an .html document that contains an image linked by a relative URI
 # while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
 # We can provide a base URI using an HtmlLoadOptions object.
-load_options = aw.loading.HtmlLoadOptions(aw.LoadFormat.HTML, '', IMAGE_DIR)
+load_options = aw.loading.HtmlLoadOptions(load_format=aw.LoadFormat.HTML, password='', base_uri=IMAGE_DIR)
 self.assertEqual(aw.LoadFormat.HTML, load_options.load_format)
-doc = aw.Document(MY_DIR + 'Missing image.html', load_options)
+doc = aw.Document(file_name=MY_DIR + 'Missing image.html', load_options=load_options)
 # While the image was broken in the input .html, our custom base URI helped us repair the link.
 image_shape = doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
 self.assertTrue(image_shape.is_image)
 # This output document will display the image that was missing.
-doc.save(ARTIFACTS_DIR + 'HtmlLoadOptions.base_uri.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlLoadOptions.BaseUri.docx')
 ```
 
 ### See Also

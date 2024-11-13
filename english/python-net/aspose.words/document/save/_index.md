@@ -139,15 +139,38 @@ doc.save(file_name=ARTIFACTS_DIR + 'Document.ConvertToHtml.html', save_format=aw
 Shows how to improve the quality of a rendered document with SaveOptions.
 
 ```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
-builder = aw.DocumentBuilder(doc)
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.size = 60
 builder.writeln('Some text.')
 options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-doc.save(ARTIFACTS_DIR + 'Document.image_save_options.default.jpg', options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.ImageSaveOptions.Default.jpg', save_options=options)
 options.use_anti_aliasing = True
 options.use_high_quality_rendering = True
-doc.save(ARTIFACTS_DIR + 'Document.image_save_options.high_quality.jpg', options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.ImageSaveOptions.HighQuality.jpg', save_options=options)
+```
+
+Shows how to render one page from a document to a JPEG image.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.writeln('Page 1.')
+builder.insert_break(aw.BreakType.PAGE_BREAK)
+builder.writeln('Page 2.')
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+builder.insert_break(aw.BreakType.PAGE_BREAK)
+builder.writeln('Page 3.')
+# Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+# to modify the way in which that method renders the document into an image.
+options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
+# Set the "PageSet" to "1" to select the second page via
+# the zero-based index to start rendering the document from.
+options.page_set = aw.saving.PageSet(page=1)
+# When we save the document to the JPEG format, Aspose.Words only renders one page.
+# This image will contain one page starting from page two,
+# which will just be the second page of the original document.
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.OnePage.jpg', save_options=options)
 ```
 
 Shows how to configure compression while saving a document as a JPEG.
@@ -167,29 +190,6 @@ doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.JpegQuality.HighCompression
 # This will improve the quality of the image at the cost of an increased file size.
 image_options.jpeg_quality = 100
 doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.JpegQuality.HighQuality.jpg', save_options=image_options)
-```
-
-Shows how to render one page from a document to a JPEG image.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.writeln('Page 1.')
-builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln('Page 2.')
-builder.insert_image(IMAGE_DIR + 'Logo.jpg')
-builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln('Page 3.')
-# Create an "ImageSaveOptions" object which we can pass to the document's "save" method
-# to modify the way in which that method renders the document into an image.
-options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-# Set the "page_set" to "1" to select the second page via
-# the zero-based index to start rendering the document from.
-options.page_set = aw.saving.PageSet(1)
-# When we save the document to the JPEG format, Aspose.Words only renders one page.
-# This image will contain one page starting from page two,
-# which will just be the second page of the original document.
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.one_page.jpg', options)
 ```
 
 Shows how to render every page of a document to a separate TIFF image.

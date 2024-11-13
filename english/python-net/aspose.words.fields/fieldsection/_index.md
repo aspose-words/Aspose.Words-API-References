@@ -61,20 +61,20 @@ Shows how to use SECTION and SECTIONPAGES fields to number pages by sections.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
 builder.paragraph_format.alignment = aw.ParagraphAlignment.RIGHT
 # A SECTION field displays the number of the section it is in.
 builder.write('Section ')
-field_section = builder.insert_field(aw.fields.FieldType.FIELD_SECTION, True).as_field_section()
+field_section = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SECTION, update_field=True).as_field_section()
 self.assertEqual(' SECTION ', field_section.get_field_code())
 # A PAGE field displays the number of the page it is in.
 builder.write('\nPage ')
-field_page = builder.insert_field(aw.fields.FieldType.FIELD_PAGE, True).as_field_page()
+field_page = builder.insert_field(field_type=aw.fields.FieldType.FIELD_PAGE, update_field=True).as_field_page()
 self.assertEqual(' PAGE ', field_page.get_field_code())
 # A SECTIONPAGES field displays the number of pages that the section it is in spans across.
 builder.write(' of ')
-field_section_pages = builder.insert_field(aw.fields.FieldType.FIELD_SECTION_PAGES, True).as_field_section_pages()
+field_section_pages = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SECTION_PAGES, update_field=True).as_field_section_pages()
 self.assertEqual(' SECTIONPAGES ', field_section_pages.get_field_code())
 # Move out of the header back into the main document and insert two pages.
 # All these pages will be in the first section. Our fields, which appear once every header,
@@ -90,7 +90,7 @@ builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 builder.current_section.page_setup.restart_page_numbering = True
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.field_section.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.SECTION.SECTIONPAGES.docx')
 ```
 
 ### See Also

@@ -47,14 +47,14 @@ Shows how to restart numbering in a list by copying a list.
 doc = aw.Document()
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
-# We can begin and end a list by using a document builder's "list_format" property.
+# We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
 # Create a list from a Microsoft Word template, and customize its first list level.
-list1 = doc.lists.add(aw.lists.ListTemplate.NUMBER_ARABIC_PARENTHESIS)
+list1 = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_ARABIC_PARENTHESIS)
 list1.list_levels[0].font.color = aspose.pydrawing.Color.red
 list1.list_levels[0].alignment = aw.lists.ListLevelAlignment.RIGHT
 # Apply our list to some paragraphs.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('List 1 starts below:')
 builder.list_format.list = list1
 builder.writeln('Item 1')
@@ -71,7 +71,7 @@ builder.list_format.list = list2
 builder.writeln('Item 1')
 builder.writeln('Item 2')
 builder.list_format.remove_numbers()
-doc.save(ARTIFACTS_DIR + 'Lists.restart_numbering_using_list_copy.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Lists.RestartNumberingUsingListCopy.docx')
 ```
 
 Shows how to create a document with a sample of all the lists from another document.

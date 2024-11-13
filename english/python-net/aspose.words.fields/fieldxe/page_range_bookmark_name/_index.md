@@ -31,22 +31,22 @@ Shows how to specify a bookmark's spanned pages as a page range for an INDEX fie
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create an INDEX field which will display an entry for each XE field found in the document.
-# Each entry will display the XE field's "text" property value on the left side,
+# Each entry will display the XE field's Text property value on the left side,
 # and the number of the page that contains the XE field on the right.
-# The INDEX entry will collect all XE fields with matching values in the "text" property
+# The INDEX entry will collect all XE fields with matching values in the "Text" property
 # into one entry as opposed to making an entry for each XE field.
-index = builder.insert_field(aw.fields.FieldType.FIELD_INDEX, True).as_field_index()
+index = builder.insert_field(field_type=aw.fields.FieldType.FIELD_INDEX, update_field=True).as_field_index()
 # For INDEX entries that display page ranges, we can specify a separator string
 # which will appear between the number of the first page, and the number of the last.
 index.page_number_separator = ', on page(s) '
 index.page_range_separator = ' to '
 self.assertEqual(' INDEX  \\e ", on page(s) " \\g " to "', index.get_field_code())
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-index_entry = builder.insert_field(aw.fields.FieldType.FIELD_INDEX_ENTRY, True).as_field_xe()
+index_entry = builder.insert_field(field_type=aw.fields.FieldType.FIELD_INDEX_ENTRY, update_field=True).as_field_xe()
 index_entry.text = 'My entry'
-# If an XE field names a bookmark using the page_range_bookmark_name property,
+# If an XE field names a bookmark using the PageRangeBookmarkName property,
 # its INDEX entry will show the range of pages that the bookmark spans
 # instead of the number of the page that contains the XE field.
 index_entry.page_range_bookmark_name = 'MyBookmark'
@@ -64,7 +64,7 @@ builder.write('End of MyBookmark')
 builder.end_bookmark('MyBookmark')
 doc.update_page_layout()
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.field_index_page_range_bookmark.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.INDEX.XE.PageRangeBookmark.docx')
 ```
 
 ### See Also
