@@ -3,16 +3,13 @@ title: VariationAxisCoordinate class
 linktitle: VariationAxisCoordinate class
 articleTitle: VariationAxisCoordinate class
 second_title: Aspose.Words for Python
-description: "aspose.words.shaping.VariationAxisCoordinate class. Represents an axis coordinate."
+description: "aspose.words.shaping.VariationAxisCoordinate class. "
 type: docs
 weight: 110
 url: /python-net/aspose.words.shaping/variationaxiscoordinate/
 ---
 
 ## VariationAxisCoordinate class
-
-Represents an axis coordinate.
-
 
 ### Constructors
 | Name | Description |
@@ -23,8 +20,8 @@ Represents an axis coordinate.
 
 | Name | Description |
 | --- | --- |
-| [axis](./axis/) | Axis. |
-| [coordinate](./coordinate/) | Coordinate. |
+| [axis](./axis/) |  |
+| [coordinate](./coordinate/) |  |
 
 ### See Also
 

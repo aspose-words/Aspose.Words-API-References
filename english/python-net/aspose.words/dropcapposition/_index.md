@@ -28,7 +28,7 @@ Shows how to create a drop cap.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert one paragraph with a large letter that the text in the second and third paragraphs begins with.
 builder.font.size = 54
 builder.writeln('L')
@@ -37,14 +37,14 @@ builder.writeln('orem ipsum dolor sit amet, consectetur adipiscing elit, ' + 'se
 builder.writeln('Ut enim ad minim veniam, quis nostrud exercitation ' + 'ullamco laboris nisi ut aliquip ex ea commodo consequat.')
 # Currently, the second and third paragraphs will appear underneath the first.
 # We can convert the first paragraph as a drop cap for the other paragraphs via its "ParagraphFormat" object.
-# Set the "drop_cap_position" property to "DropCapPosition.MARGIN" to place the drop cap
+# Set the "DropCapPosition" property to "DropCapPosition.Margin" to place the drop cap
 # outside the left-hand side page margin if our text is left-to-right.
-# Set the "drop_cap_position" property to "DropCapPosition.NORMAL" to place the drop cap within the page margins
+# Set the "DropCapPosition" property to "DropCapPosition.Normal" to place the drop cap within the page margins
 # and to wrap the rest of the text around it.
 # "DropCapPosition.None" is the default state for all paragraphs.
 format = doc.first_section.body.first_paragraph.paragraph_format
 format.drop_cap_position = drop_cap_position
-doc.save(ARTIFACTS_DIR + 'ParagraphFormat.drop_cap.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'ParagraphFormat.DropCap.docx')
 ```
 
 ### See Also

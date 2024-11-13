@@ -38,7 +38,7 @@ Shows how to create PDF document outline entries for headings inside tables.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a table with three rows. The first row,
 # whose text we will format in a heading-type style, will serve as the column header.
 builder.start_table()
@@ -53,20 +53,20 @@ builder.end_row()
 builder.insert_cell()
 builder.write('Jane Doe')
 builder.end_table()
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 pdf_save_options = aw.saving.PdfSaveOptions()
 # The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
 # Clicking on an entry in this outline will take us to the location of its respective heading.
-# Set the "headings_outline_levels" property to "1" to get the outline
+# Set the "HeadingsOutlineLevels" property to "1" to get the outline
 # to only register headings with heading levels that are no larger than 1.
 pdf_save_options.outline_options.headings_outline_levels = 1
-# Set the "create_outlines_for_headings_in_tables" property to "False" to exclude all headings within tables,
+# Set the "CreateOutlinesForHeadingsInTables" property to "false" to exclude all headings within tables,
 # such as the one we have created above from the outline.
-# Set the "create_outlines_for_headings_in_tables" property to "True" to include all headings within tables
-# in the outline, provided that they have a heading level that is no larger than the value of the "headings_outline_levels" property.
+# Set the "CreateOutlinesForHeadingsInTables" property to "true" to include all headings within tables
+# in the outline, provided that they have a heading level that is no larger than the value of the "HeadingsOutlineLevels" property.
 pdf_save_options.outline_options.create_outlines_for_headings_in_tables = create_outlines_for_headings_in_tables
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.table_heading_outlines.pdf', pdf_save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.TableHeadingOutlines.pdf', save_options=pdf_save_options)
 ```
 
 ### See Also

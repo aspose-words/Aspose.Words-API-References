@@ -38,15 +38,15 @@ Setting this option to ``True`` can significantly decrease memory consumption wh
 Shows an option to optimize memory consumption when rendering large documents to PDF.
 
 ```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
-save_options = aw.saving.SaveOptions.create_save_options(aw.SaveFormat.PDF)
-# Set the "memory_optimization" property to "True" to lower the memory footprint of large documents' saving operations
+save_options = aw.saving.SaveOptions.create_save_options(save_format=aw.SaveFormat.PDF)
+# Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
 # at the cost of increasing the duration of the operation.
-# Set the "memory_optimization" property to "False" to save the document as a PDF normally.
+# Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
 save_options.memory_optimization = memory_optimization
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.memory_optimization.pdf', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.MemoryOptimization.pdf', save_options=save_options)
 ```
 
 ### See Also

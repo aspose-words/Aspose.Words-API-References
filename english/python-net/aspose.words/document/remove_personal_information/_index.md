@@ -32,11 +32,11 @@ Shows how to enable the removal of personal information during a manual save.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert some content with personal information.
 doc.built_in_document_properties.author = 'John Doe'
 doc.built_in_document_properties.company = 'Placeholder Inc.'
-doc.start_track_revisions(doc.built_in_document_properties.author, datetime.datetime.now())
+doc.start_track_revisions(author=doc.built_in_document_properties.author, date_time=datetime.datetime.now())
 builder.write('Hello world!')
 doc.stop_track_revisions()
 # This flag is equivalent to File -> Options -> Trust Center -> Trust Center Settings... ->
@@ -44,8 +44,8 @@ doc.stop_track_revisions()
 doc.remove_personal_information = save_without_personal_info
 # This option will not take effect during a save operation made using Aspose.Words.
 # Personal data will be removed from our document with the flag set when we save it manually using Microsoft Word.
-doc.save(ARTIFACTS_DIR + 'Document.remove_personal_information.docx')
-doc = aw.Document(ARTIFACTS_DIR + 'Document.remove_personal_information.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.RemovePersonalInformation.docx')
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'Document.RemovePersonalInformation.docx')
 self.assertEqual(save_without_personal_info, doc.remove_personal_information)
 self.assertEqual('John Doe', doc.built_in_document_properties.author)
 self.assertEqual('Placeholder Inc.', doc.built_in_document_properties.company)

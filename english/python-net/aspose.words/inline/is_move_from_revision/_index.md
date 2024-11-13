@@ -27,11 +27,11 @@ def is_move_from_revision(self) -> bool:
 Shows how to determine the revision type of an inline node.
 
 ```python
-doc = aw.Document(MY_DIR + 'Revision runs.docx')
+doc = aw.Document(file_name=MY_DIR + 'Revision runs.docx')
 # When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
 # is turned on in Microsoft Word, the changes we apply count as revisions.
 # When editing a document using Aspose.Words, we can begin tracking revisions by
-# invoking the document's "start_track_revisions" method and stop tracking by using the "stop_track_revisions" method.
+# invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
 # We can either accept revisions to assimilate them into the document
 # or reject them to change the proposed change effectively.
 self.assertEqual(6, doc.revisions.count)
@@ -39,7 +39,7 @@ self.assertEqual(6, doc.revisions.count)
 run = doc.revisions[0].parent_node.as_run()
 first_paragraph = run.parent_paragraph
 runs = first_paragraph.runs
-self.assertEqual(6, len(runs.to_array()))
+self.assertEqual(6, len(list(runs)))
 # Below are five types of revisions that can flag an Inline node.
 # 1 -  An "insert" revision:
 # This revision occurs when we insert text while tracking changes.

@@ -45,8 +45,8 @@ Shows how enable legacy number formatting for fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-field = builder.insert_field('= 2 + 3 \\# $##')
+builder = aw.DocumentBuilder(doc=doc)
+field = builder.insert_field(field_code='= 2 + 3 \\# $##')
 self.assertEqual('$ 5', field.result)
 doc.field_options.legacy_number_format = True
 field.update()

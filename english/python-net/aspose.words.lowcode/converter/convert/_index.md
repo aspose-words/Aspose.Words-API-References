@@ -56,6 +56,23 @@ def convert(self, input_file: str, output_file: str, save_options: aspose.words.
 | output_file | str | The output file name. |
 | save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 
+## convert(input_file, load_options, output_file, save_options) {#str_loadoptions_str_saveoptions}
+
+Converts the given input document into the output document using specified input output file names its load/save options.
+
+
+```python
+def convert(self, input_file: str, load_options: aspose.words.loading.LoadOptions, output_file: str, save_options: aspose.words.saving.SaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file | str | The input file name. |
+| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) | The input document load options. |
+| output_file | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+
 ## convert(input_stream, output_stream, save_format) {#bytesio_bytesio_saveformat}
 
 Converts the given input document into a single output document using specified input and output streams.
@@ -85,6 +102,23 @@ def convert(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_opti
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input_stream | io.BytesIO | The input streams. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+
+## convert(input_stream, load_options, output_stream, save_options) {#bytesio_loadoptions_bytesio_saveoptions}
+
+Converts the given input document into a single output document using specified input and output streams.
+
+
+```python
+def convert(self, input_stream: io.BytesIO, load_options: aspose.words.loading.LoadOptions, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input streams. |
+| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) | The input document load options. |
 | output_stream | io.BytesIO | The output stream. |
 | save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 

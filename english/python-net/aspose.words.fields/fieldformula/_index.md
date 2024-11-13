@@ -64,15 +64,15 @@ doc = aw.Document()
 # Use a field builder to construct a mathematical equation,
 # then create a formula field to display the equation's result in the document.
 field_builder = aw.fields.FieldBuilder(aw.fields.FieldType.FIELD_FORMULA)
-field_builder.add_argument(2)
-field_builder.add_argument('*')
-field_builder.add_argument(5)
-field = field_builder.build_and_insert(doc.first_section.body.first_paragraph).as_field_formula()
+field_builder.add_argument(argument=2)
+field_builder.add_argument(argument='*')
+field_builder.add_argument(argument=5)
+field = field_builder.build_and_insert(ref_node=doc.first_section.body.first_paragraph).as_field_formula()
 field.update()
 self.assertEqual(' = 2 * 5 ', field.get_field_code())
 self.assertEqual('10', field.result)
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.field_formula.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.FORMULA.docx')
 ```
 
 ### See Also

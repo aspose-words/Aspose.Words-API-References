@@ -35,10 +35,10 @@ doc = aw.Document()
 user_information = aw.fields.UserInformation()
 user_information.name = 'John Doe'
 doc.field_options.current_user = user_information
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Create a USERNAME field to display the current user's name,
 # taken from the UserInformation object we created above.
-field_user_name = builder.insert_field(aw.fields.FieldType.FIELD_USER_NAME, True).as_field_user_name()
+field_user_name = builder.insert_field(field_type=aw.fields.FieldType.FIELD_USER_NAME, update_field=True).as_field_user_name()
 self.assertEqual(user_information.name, field_user_name.result)
 self.assertEqual(' USERNAME ', field_user_name.get_field_code())
 self.assertEqual('John Doe', field_user_name.result)
@@ -50,7 +50,7 @@ self.assertEqual('Jane Doe', field_user_name.result)
 # This does not affect the value in the UserInformation object.
 self.assertEqual('John Doe', doc.field_options.current_user.name)
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.field_user_name.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.USERNAME.docx')
 ```
 
 ### See Also

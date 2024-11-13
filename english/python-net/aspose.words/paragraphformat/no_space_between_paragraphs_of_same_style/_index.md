@@ -41,13 +41,13 @@ Shows how to apply no spacing between paragraphs with the same style.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Apply a large amount of spacing before and after paragraphs that this builder will create.
 builder.paragraph_format.space_before = 24
 builder.paragraph_format.space_after = 24
-# Set the "no_space_between_paragraphs_of_same_style" flag to "True" to apply
+# Set the "NoSpaceBetweenParagraphsOfSameStyle" flag to "true" to apply
 # no spacing between paragraphs with the same style, which will group similar paragraphs.
-# Leave the "no_space_between_paragraphs_of_same_style" flag as "False"
+# Leave the "NoSpaceBetweenParagraphsOfSameStyle" flag as "false"
 # to evenly apply spacing to every paragraph.
 builder.paragraph_format.no_space_between_paragraphs_of_same_style = no_space_between_paragraphs_of_same_style
 builder.paragraph_format.style = doc.styles.get_by_name('Normal')
@@ -60,7 +60,7 @@ builder.writeln(f'Paragraph in the "{builder.paragraph_format.style.name}" style
 builder.paragraph_format.style = doc.styles.get_by_name('Normal')
 builder.writeln(f'Paragraph in the "{builder.paragraph_format.style.name}" style.')
 builder.writeln(f'Paragraph in the "{builder.paragraph_format.style.name}" style.')
-doc.save(ARTIFACTS_DIR + 'ParagraphFormat.paragraph_spacing_same_style.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'ParagraphFormat.ParagraphSpacingSameStyle.docx')
 ```
 
 ### See Also

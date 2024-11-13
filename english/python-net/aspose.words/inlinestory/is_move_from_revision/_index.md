@@ -27,15 +27,15 @@ def is_move_from_revision(self) -> bool:
 Shows how to view revision-related properties of InlineStory nodes.
 
 ```python
-doc = aw.Document(MY_DIR + 'Revision footnotes.docx')
+doc = aw.Document(file_name=MY_DIR + 'Revision footnotes.docx')
 # When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
 # is turned on in Microsoft Word, the changes we apply count as revisions.
 # When editing a document using Aspose.Words, we can begin tracking revisions by
-# invoking the document's "start_track_revisions" method and stop tracking by using the "stop_track_revisions" method.
+# invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
 # We can either accept revisions to assimilate them into the document
 # or reject them to undo and discard the proposed change.
 self.assertTrue(doc.has_revisions)
-footnotes = [node.as_footnote() for node in doc.get_child_nodes(aw.NodeType.FOOTNOTE, True)]
+footnotes = [x.as_footnote() for x in list(doc.get_child_nodes(aw.NodeType.FOOTNOTE, True)) if isinstance(x.as_footnote(), aw.notes.Footnote)]
 self.assertEqual(5, len(footnotes))
 # Below are five types of revisions that can flag an InlineStory node.
 # 1 -  An "insert" revision:

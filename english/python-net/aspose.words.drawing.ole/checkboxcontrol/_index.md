@@ -27,7 +27,7 @@ meaning a combination of on and off states.
 | Name | Description |
 | --- | --- |
 | [back_color](../forms2olecontrol/back_color/) | Gets or sets a background color of the control. The default value depends on a type of the control.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
-| [caption](../forms2olecontrol/caption/) | Gets Caption property of control. Default value is an empty string.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
+| [caption](../forms2olecontrol/caption/) | Gets or sets a Caption property of the control. Default value is an empty string.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [checked](./checked/) | Gets or sets a boolean value indicating either this [CheckBoxControl](./) is checked or not. The default value is ``False``. |
 | [child_nodes](../forms2olecontrol/child_nodes/) | Gets collection of immediate child controls.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [enabled](../forms2olecontrol/enabled/) | Returns ``True`` if control is in enabled state.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |

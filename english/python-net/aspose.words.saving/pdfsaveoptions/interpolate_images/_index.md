@@ -53,19 +53,18 @@ Shows how to perform interpolation on images while saving a document to PDF.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-img = drawing.Image.from_file(IMAGE_DIR + 'Transparent background logo.png')
-builder.insert_image(img)
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+builder = aw.DocumentBuilder(doc=doc)
+builder.insert_image(file_name=IMAGE_DIR + 'Transparent background logo.png')
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 save_options = aw.saving.PdfSaveOptions()
-# Set the "interpolate_images" property to "True" to get the reader that opens this document to interpolate images.
+# Set the "InterpolateImages" property to "true" to get the reader that opens this document to interpolate images.
 # Their resolution should be lower than that of the device that is displaying the document.
-# Set the "interpolate_images" property to "False" to make it so that the reader does not apply any interpolation.
+# Set the "InterpolateImages" property to "false" to make it so that the reader does not apply any interpolation.
 save_options.interpolate_images = interpolate_images
 # When we open this document with a reader such as Adobe Acrobat, we will need to zoom in on the image
 # to see the interpolation effect if we saved the document with it enabled.
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.interpolate_images.pdf', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.InterpolateImages.pdf', save_options=save_options)
 ```
 
 ### See Also

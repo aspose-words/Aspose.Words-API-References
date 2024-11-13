@@ -30,16 +30,16 @@ Shows how to move a document builder's node insertion point cursor to a specific
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a field using the DocumentBuilder and add a run of text after it.
-field = builder.insert_field(' AUTHOR "John Doe" ')
+field = builder.insert_field(field_code=' AUTHOR "John Doe" ')
 # The builder's cursor is currently at end of the document.
 self.assertIsNone(builder.current_node)
 # Move the cursor to the field while specifying whether to place that cursor before or after the field.
 builder.move_to_field(field, move_cursor_to_after_the_field)
 # Note that the cursor is outside of the field in both cases.
 # This means that we cannot edit the field using the builder like this.
-# To edit a field, we can use the builder's "move_to" method on a field's FieldStart
+# To edit a field, we can use the builder's MoveTo method on a field's FieldStart
 # or FieldSeparator node to place the cursor inside.
 if move_cursor_to_after_the_field:
     self.assertIsNone(builder.current_node)

@@ -26,7 +26,7 @@ The CommandButton control runs a macro that performs an action when a user click
 | Name | Description |
 | --- | --- |
 | [back_color](../forms2olecontrol/back_color/) | Gets or sets a background color of the control. The default value depends on a type of the control.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
-| [caption](../forms2olecontrol/caption/) | Gets Caption property of control. Default value is an empty string.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
+| [caption](../forms2olecontrol/caption/) | Gets or sets a Caption property of the control. Default value is an empty string.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [child_nodes](../forms2olecontrol/child_nodes/) | Gets collection of immediate child controls.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [enabled](../forms2olecontrol/enabled/) | Returns ``True`` if control is in enabled state.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [fore_color](../forms2olecontrol/fore_color/) | Gets or sets a foreground color of the control. The default value depends on a type of the control.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |

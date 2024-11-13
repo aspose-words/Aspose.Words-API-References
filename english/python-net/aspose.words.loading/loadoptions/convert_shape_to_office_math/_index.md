@@ -34,7 +34,7 @@ load_options = aw.loading.LoadOptions()
 # Use this flag to specify whether to convert the shapes with EquationXML attributes
 # to Office Math objects and then load the document.
 load_options.convert_shape_to_office_math = is_convert_shape_to_office_math
-doc = aw.Document(MY_DIR + 'Math shapes.docx', load_options)
+doc = aw.Document(file_name=MY_DIR + 'Math shapes.docx', load_options=load_options)
 if is_convert_shape_to_office_math:
     self.assertEqual(16, doc.get_child_nodes(aw.NodeType.SHAPE, True).count)
     self.assertEqual(34, doc.get_child_nodes(aw.NodeType.OFFICE_MATH, True).count)

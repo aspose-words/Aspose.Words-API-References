@@ -57,7 +57,7 @@ Contains data created by an add-in.
 Shows how to process an ADDIN field.
 
 ```python
-doc = aw.Document(MY_DIR + 'Field sample - ADDIN.docx')
+doc = aw.Document(file_name=MY_DIR + 'Field sample - ADDIN.docx')
 # Aspose.Words does not support inserting ADDIN fields, but we can still load and read them.
 field = doc.range.fields[0].as_field_add_in()
 self.assertEqual(' ADDIN "My value" ', field.get_field_code())

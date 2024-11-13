@@ -28,7 +28,7 @@ Shows how to write text to the same line as a TOC heading and have it not show u
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.insert_table_of_contents('\\o \\h \\z \\u')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 # Insert a paragraph with a style that the TOC will pick up as an entry.
@@ -44,7 +44,7 @@ builder.paragraph_format.style_identifier = aw.StyleIdentifier.QUOTE
 builder.write("Won't appear in the TOC. ")
 self.assertTrue(doc.first_section.body.first_paragraph.break_is_style_separator)
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Paragraph.break_is_style_separator.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Paragraph.BreakIsStyleSeparator.docx')
 ```
 
 ### See Also

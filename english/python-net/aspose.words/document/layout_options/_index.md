@@ -28,26 +28,26 @@ Shows how to hide text in a rendered output document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert hidden text, then specify whether we wish to omit it from a rendered document.
 builder.writeln('This text is not hidden.')
 builder.font.hidden = True
 builder.writeln('This text is hidden.')
 doc.layout_options.show_hidden_text = show_hidden_text
-doc.save(ARTIFACTS_DIR + 'Document.layout_options_hidden_text.pdf')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.LayoutOptionsHiddenText.pdf')
 ```
 
 Shows how to show paragraph marks in a rendered output document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Add some paragraphs, then enable paragraph marks to show the ends of paragraphs
 # with a pilcrow (¶) symbol when we render the document.
 builder.writeln('Hello world!')
 builder.writeln('Hello again!')
 doc.layout_options.show_paragraph_marks = show_paragraph_marks
-doc.save(ARTIFACTS_DIR + 'Document.layout_options_paragraph_marks.pdf')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.LayoutOptionsParagraphMarks.pdf')
 ```
 
 Shows how to alter the appearance of revisions in a rendered output document.

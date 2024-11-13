@@ -54,14 +54,14 @@ Shows how to insert a shape which contains an image, and is also a hyperlink.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-shape = builder.insert_image(IMAGE_DIR + 'Logo.jpg')
+builder = aw.DocumentBuilder(doc=doc)
+shape = builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
 shape.href = 'https://forum.aspose.com/'
 shape.target = 'New Window'
 shape.screen_tip = 'Aspose.Words Support Forums'
 # Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
-# and take us to the hyperlink in the "href" property.
-doc.save(ARTIFACTS_DIR + 'Image.insert_image_with_hyperlink.docx')
+# and take us to the hyperlink in the "HRef" property.
+doc.save(file_name=ARTIFACTS_DIR + 'Image.InsertImageWithHyperlink.docx')
 ```
 
 ### See Also

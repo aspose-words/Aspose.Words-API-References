@@ -5,7 +5,7 @@ articleTitle: links_up_to_date property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.links_up_to_date property. Indicates whether hyperlinks in a document are up-to-date."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.properties/builtindocumentproperties/links_up_to_date/
 ---
 

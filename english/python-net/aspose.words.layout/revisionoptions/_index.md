@@ -22,8 +22,10 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 | Name | Description |
 | --- | --- |
 | [comment_color](./comment_color/) | Allows to specify the color to be used for comments. Default value is [RevisionColor.RED](../revisioncolor/#RED). |
+| [delete_cell_color](./delete_cell_color/) | Allows to specify the color to be used for deleted cells [RevisionType.DELETION](../../aspose.words/revisiontype/#DELETION). Default value is [RevisionColor.PINK](../revisioncolor/#PINK). |
 | [deleted_text_color](./deleted_text_color/) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../aspose.words/revisiontype/#DELETION). Default value is [RevisionColor.BY_AUTHOR](../revisioncolor/#BY_AUTHOR). |
 | [deleted_text_effect](./deleted_text_effect/) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../aspose.words/revisiontype/#DELETION). Default value is [RevisionTextEffect.STRIKE_THROUGH](../revisiontexteffect/#STRIKE_THROUGH) |
+| [insert_cell_color](./insert_cell_color/) | Allows to specify the color to be used for inserted cells [RevisionType.INSERTION](../../aspose.words/revisiontype/#INSERTION). Default value is [RevisionColor.BLUE](../revisioncolor/#BLUE). |
 | [inserted_text_color](./inserted_text_color/) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../aspose.words/revisiontype/#INSERTION). Default value is [RevisionColor.BY_AUTHOR](../revisioncolor/#BY_AUTHOR). |
 | [inserted_text_effect](./inserted_text_effect/) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../aspose.words/revisiontype/#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../revisiontexteffect/#UNDERLINE). |
 | [measurement_unit](./measurement_unit/) | Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../aspose.words/measurementunits/#CENTIMETERS) |

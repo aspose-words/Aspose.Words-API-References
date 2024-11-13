@@ -51,23 +51,6 @@ def __init__(self, load_format: aspose.words.LoadFormat, password: str, base_uri
 
 ## Examples
 
-Shows how to support conditional comments while loading an HTML document.
-
-```python
-load_options = aw.loading.HtmlLoadOptions()
-# If the value is True, then we take VML code into account while parsing the loaded document.
-load_options.support_vml = support_vml
-# This document contains a JPEG image within "<!--[if gte vml 1]>" tags,
-# and a different PNG image within "<![if !vml]>" tags.
-# If we set the "support_vml" flag to "True", then Aspose.Words will load the JPEG.
-# If we set this flag to "False", then Aspose.Words will only load the PNG.
-doc = aw.Document(MY_DIR + 'VML conditional.htm', load_options)
-if support_vml:
-    self.assertEqual(aw.drawing.ImageType.JPEG, doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape().image_data.image_type)
-else:
-    self.assertEqual(aw.drawing.ImageType.PNG, doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape().image_data.image_type)
-```
-
 Shows how to encrypt an Html document, and then open it using a password.
 
 ```python
@@ -94,14 +77,14 @@ Shows how to specify a base URI when opening an html document.
 # Suppose we want to load an .html document that contains an image linked by a relative URI
 # while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
 # We can provide a base URI using an HtmlLoadOptions object.
-load_options = aw.loading.HtmlLoadOptions(aw.LoadFormat.HTML, '', IMAGE_DIR)
+load_options = aw.loading.HtmlLoadOptions(load_format=aw.LoadFormat.HTML, password='', base_uri=IMAGE_DIR)
 self.assertEqual(aw.LoadFormat.HTML, load_options.load_format)
-doc = aw.Document(MY_DIR + 'Missing image.html', load_options)
+doc = aw.Document(file_name=MY_DIR + 'Missing image.html', load_options=load_options)
 # While the image was broken in the input .html, our custom base URI helped us repair the link.
 image_shape = doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
 self.assertTrue(image_shape.is_image)
 # This output document will display the image that was missing.
-doc.save(ARTIFACTS_DIR + 'HtmlLoadOptions.base_uri.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlLoadOptions.BaseUri.docx')
 ```
 
 ## See Also

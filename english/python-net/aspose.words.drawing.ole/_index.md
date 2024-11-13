@@ -3,13 +3,13 @@ title: aspose.words.drawing.ole module
 linktitle: aspose.words.drawing.ole module
 articleTitle: aspose.words.drawing.ole module
 second_title: Aspose.Words for Python
-description: "Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents."
+description: "The Aspose.Words.Drawing.Ole namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.drawing.ole/
 ---
 
-Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents.
+The **Aspose.Words.Drawing.Ole** namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents.
 
 
 

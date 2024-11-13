@@ -64,22 +64,22 @@ Shows to insert a KEYWORDS field.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Add some keywords, also referred to as "tags" in File Explorer.
 doc.built_in_document_properties.keywords = 'Keyword1, Keyword2'
 # The KEYWORDS field displays the value of this property.
-field = builder.insert_field(aw.fields.FieldType.FIELD_KEYWORD, True).as_field_keywords()
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_KEYWORD, update_field=True).as_field_keywords()
 field.update()
 self.assertEqual(' KEYWORDS ', field.get_field_code())
 self.assertEqual('Keyword1, Keyword2', field.result)
-# Setting a value for the field's "text" property,
+# Setting a value for the field's Text property,
 # and then updating the field will also overwrite the corresponding built-in property with the new value.
 field.text = 'OverridingKeyword'
 field.update()
 self.assertEqual(' KEYWORDS  OverridingKeyword', field.get_field_code())
 self.assertEqual('OverridingKeyword', field.result)
 self.assertEqual('OverridingKeyword', doc.built_in_document_properties.keywords)
-doc.save(ARTIFACTS_DIR + 'Field.field_keywords.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.KEYWORDS.docx')
 ```
 
 ### See Also

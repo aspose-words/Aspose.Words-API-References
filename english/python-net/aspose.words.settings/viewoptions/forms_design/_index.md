@@ -38,14 +38,13 @@ Shows how to enable/disable forms design mode.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
-# Set the "forms_design" property to "False" to keep forms design mode disabled.
-# Set the "forms_design" property to "True" to enable forms design mode.
+# Set the "FormsDesign" property to "false" to keep forms design mode disabled.
+# Set the "FormsDesign" property to "true" to enable forms design mode.
 doc.view_options.forms_design = use_forms_design
-doc.save(ARTIFACTS_DIR + 'ViewOptions.forms_design.xml')
-with open(ARTIFACTS_DIR + 'ViewOptions.forms_design.xml') as file:
-    self.assertEqual(use_forms_design, '<w:formsDesign />' in file.read())
+doc.save(file_name=ARTIFACTS_DIR + 'ViewOptions.FormsDesign.xml')
+self.assertEqual(use_forms_design, '<w:formsDesign />' in system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'ViewOptions.FormsDesign.xml'))
 ```
 
 ### See Also

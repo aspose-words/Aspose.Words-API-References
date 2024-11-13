@@ -40,16 +40,16 @@ Shows how to set a custom zoom type, which older versions of Microsoft Word will
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
-# Set the "zoom_type" property to "ZoomType.PAGE_WIDTH" to get Microsoft Word
+# Set the "ZoomType" property to "ZoomType.PageWidth" to get Microsoft Word
 # to automatically zoom the document to fit the width of the page.
-# Set the "zoom_type" property to "ZoomType.FULL_PAGE" to get Microsoft Word
+# Set the "ZoomType" property to "ZoomType.FullPage" to get Microsoft Word
 # to automatically zoom the document to make the entire first page visible.
-# Set the "zoom_type" property to "ZoomType.TEXT_FIT" to get Microsoft Word
+# Set the "ZoomType" property to "ZoomType.TextFit" to get Microsoft Word
 # to automatically zoom the document to fit the inner text margins of the first page.
 doc.view_options.zoom_type = zoom_type
-doc.save(ARTIFACTS_DIR + 'ViewOptions.set_zoom_type.doc')
+doc.save(file_name=ARTIFACTS_DIR + 'ViewOptions.SetZoomType.doc')
 ```
 
 ### See Also

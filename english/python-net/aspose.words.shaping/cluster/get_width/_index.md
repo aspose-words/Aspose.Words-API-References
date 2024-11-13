@@ -3,16 +3,13 @@ title: Cluster.get_width method
 linktitle: get_width method
 articleTitle: get_width method
 second_title: Aspose.Words for Python
-description: "Cluster.get_width method. Returns width of the cluster."
+description: "Cluster.get_width method. "
 type: docs
 weight: 70
 url: /python-net/aspose.words.shaping/cluster/get_width/
 ---
 
 ## get_width(em, font_size) {#int_float}
-
-Returns width of the cluster.
-
 
 ```python
 def get_width(self, em: int, font_size: float):

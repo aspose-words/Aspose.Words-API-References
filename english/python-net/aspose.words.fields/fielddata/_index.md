@@ -56,8 +56,8 @@ Shows how to insert a DATA field into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-field = builder.insert_field(aw.fields.FieldType.FIELD_DATA, True).as_field_data()
+builder = aw.DocumentBuilder(doc=doc)
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_DATA, update_field=True).as_field_data()
 self.assertEqual(' DATA ', field.get_field_code())
 ```
 

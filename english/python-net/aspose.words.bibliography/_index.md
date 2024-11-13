@@ -5,7 +5,7 @@ articleTitle: aspose.words.bibliography module
 second_title: Aspose.Words for Python
 description: "The Aspose.Words.Bibliography namespace provides classes that allow to access  a list of bibliography sources available in a document."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.bibliography/
 ---
 

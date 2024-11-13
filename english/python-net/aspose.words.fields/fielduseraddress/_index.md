@@ -68,8 +68,8 @@ user_information.address = '123 Main Street'
 doc.field_options.current_user = user_information
 # Create a USERADDRESS field to display the current user's address,
 # taken from the UserInformation object we created above.
-builder = aw.DocumentBuilder(doc)
-field_user_address = builder.insert_field(aw.fields.FieldType.FIELD_USER_ADDRESS, True).as_field_user_address()
+builder = aw.DocumentBuilder(doc=doc)
+field_user_address = builder.insert_field(field_type=aw.fields.FieldType.FIELD_USER_ADDRESS, update_field=True).as_field_user_address()
 self.assertEqual(' USERADDRESS ', field_user_address.get_field_code())
 self.assertEqual('123 Main Street', field_user_address.result)
 # We can set this property to get our field to override the value currently stored in the UserInformation object.
@@ -80,7 +80,7 @@ self.assertEqual('456 North Road', field_user_address.result)
 # This does not affect the value in the UserInformation object.
 self.assertEqual('123 Main Street', doc.field_options.current_user.address)
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.field_user_address.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.USERADDRESS.docx')
 ```
 
 ### See Also

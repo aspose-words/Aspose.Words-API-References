@@ -62,7 +62,7 @@ Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fie
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # The BIDIOUTLINE field numbers paragraphs like the AUTONUM/LISTNUM fields,
 # but is only visible when a right-to-left editing language is enabled, such as Hebrew or Arabic.
 # The following field will display ".1", the RTL equivalent of list number "1.".

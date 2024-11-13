@@ -5,7 +5,7 @@ articleTitle: use_core_fonts property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.use_core_fonts property. Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts."
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/
 ---
 
@@ -54,23 +54,19 @@ Shows how enable/disable PDF Type 1 font substitution.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Arial'
 builder.writeln('Hello world!')
 builder.font.name = 'Courier New'
 builder.writeln('The quick brown fox jumps over the lazy dog.')
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-# Set the "use_core_fonts" property to "True" to replace some fonts,
+# Set the "UseCoreFonts" property to "true" to replace some fonts,
 # including the two fonts in our document, with their PDF Type 1 equivalents.
-# Set the "use_core_fonts" property to "False" to not apply PDF Type 1 fonts.
+# Set the "UseCoreFonts" property to "false" to not apply PDF Type 1 fonts.
 options.use_core_fonts = use_core_fonts
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.embed_core_fonts.pdf', options)
-if use_core_fonts:
-    self.assertGreater(3000, os.path.getsize(ARTIFACTS_DIR + 'PdfSaveOptions.embed_core_fonts.pdf'))
-else:
-    self.assertLess(30000, os.path.getsize(ARTIFACTS_DIR + 'PdfSaveOptions.embed_core_fonts.pdf'))
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.EmbedCoreFonts.pdf', save_options=options)
 ```
 
 ### See Also

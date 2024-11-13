@@ -18,7 +18,7 @@ Defines an interface for external merger plugin that can merge Pdf documents.
 
 | Name | Description |
 | --- | --- |
-|[ merge(output_stream, input_streams)](./merge/#bytesio_bytesiolist) | Merges the given input PDF documents into a single output PDF document using specified input and output streams. |
+|[ merge(output_stream, input_streams, load_options)](./merge/#bytesio_bytesiolist_loadoptionslist) | Merges the given input PDF documents into a single output PDF document using specified input and output streams. |
 
 ### See Also
 

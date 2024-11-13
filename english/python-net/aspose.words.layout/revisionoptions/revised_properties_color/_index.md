@@ -5,7 +5,7 @@ articleTitle: revised_properties_color property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.revised_properties_color property. Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT_CHANGE](../../../aspose.words/revisiontype/#FORMAT_CHANGE) Default value is [RevisionColor.NO_HIGHLIGHT](../../revisioncolor/#NO_HIGHLIGHT)."
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.words.layout/revisionoptions/revised_properties_color/
 ---
 

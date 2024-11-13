@@ -31,17 +31,17 @@ Shows how to populate a TOC field with entries using SEQ fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A TOC field can create an entry in its table of contents for each SEQ field found in the document.
 # Each entry contains the paragraph that includes the SEQ field and the page's number that the field appears on.
-field_toc = builder.insert_field(aw.fields.FieldType.FIELD_TOC, True).as_field_toc()
+field_toc = builder.insert_field(field_type=aw.fields.FieldType.FIELD_TOC, update_field=True).as_field_toc()
 # SEQ fields display a count that increments at each SEQ field.
 # These fields also maintain separate counts for each unique named sequence
-# identified by the SEQ field's "sequence_identifier" property.
-# Use the "table_of_figures_label" property to name a main sequence for the TOC.
-# Now, this TOC will only create entries out of SEQ fields with their "sequence_identifier" set to "MySequence".
+# identified by the SEQ field's "SequenceIdentifier" property.
+# Use the "TableOfFiguresLabel" property to name a main sequence for the TOC.
+# Now, this TOC will only create entries out of SEQ fields with their "SequenceIdentifier" set to "MySequence".
 field_toc.table_of_figures_label = 'MySequence'
-# We can name another SEQ field sequence in the "prefixed_sequence_identifier" property.
+# We can name another SEQ field sequence in the "PrefixedSequenceIdentifier" property.
 # SEQ fields from this prefix sequence will not create TOC entries.
 # Every TOC entry created from a main sequence SEQ field will now also display the count that
 # the prefix sequence is currently on at the primary sequence SEQ field that made the entry.
@@ -56,8 +56,8 @@ builder.insert_break(aw.BreakType.PAGE_BREAK)
 # 1 -  Inserting a SEQ field that belongs to the TOC's prefix sequence:
 # This field will increment the SEQ sequence count for the "PrefixSequence" by 1.
 # Since this field does not belong to the main sequence identified
-# by the "table_of_figures_label" property of the TOC, it will not appear as an entry.
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+# by the "TableOfFiguresLabel" property of the TOC, it will not appear as an entry.
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 field_seq.sequence_identifier = 'PrefixSequence'
 builder.insert_paragraph()
 self.assertEqual(' SEQ  PrefixSequence', field_seq.get_field_code())
@@ -65,39 +65,39 @@ self.assertEqual(' SEQ  PrefixSequence', field_seq.get_field_code())
 # This SEQ field will create an entry in the TOC.
 # The TOC entry will contain the paragraph that the SEQ field is in and the number of the page that it appears on.
 # This entry will also display the count that the prefix sequence is currently at,
-# separated from the page number by the value in the TOC's "seqence_separator" property.
+# separated from the page number by the value in the TOC's SeqenceSeparator property.
 # The "PrefixSequence" count is at 1, this main sequence SEQ field is on page 2,
 # and the separator is ">", so entry will display "1>2".
 builder.write('First TOC entry, MySequence #')
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 field_seq.sequence_identifier = 'MySequence'
 self.assertEqual(' SEQ  MySequence', field_seq.get_field_code())
 # Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 # The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
 # so the TOC entry will display "2>3" at its page count.
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 field_seq.sequence_identifier = 'PrefixSequence'
 builder.insert_paragraph()
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 builder.write('Second TOC entry, MySequence #')
 field_seq.sequence_identifier = 'MySequence'
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.toc_seq_prefix.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.TOC.SEQ.docx')
 ```
 
 Shows create numbering using SEQ fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # SEQ fields display a count that increments at each SEQ field.
 # These fields also maintain separate counts for each unique named sequence
-# identified by the SEQ field's "sequence_identifier" property.
+# identified by the SEQ field's "SequenceIdentifier" property.
 # Insert a SEQ field that will display the current count value of "MySequence",
-# after using the "reset_number" property to set it to 100.
+# after using the "ResetNumber" property to set it to 100.
 builder.write('#')
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 field_seq.sequence_identifier = 'MySequence'
 field_seq.reset_number = '100'
 field_seq.update()
@@ -105,7 +105,7 @@ self.assertEqual(' SEQ  MySequence \\r 100', field_seq.get_field_code())
 self.assertEqual('100', field_seq.result)
 # Display the next number in this sequence with another SEQ field.
 builder.write(', #')
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 field_seq.sequence_identifier = 'MySequence'
 field_seq.update()
 self.assertEqual('101', field_seq.result)
@@ -116,7 +116,7 @@ builder.writeln('This level 1 heading will reset MySequence to 1')
 builder.paragraph_format.style = doc.styles.get_by_name('Normal')
 # Insert another SEQ field from the same sequence and configure it to reset the count at every heading with 1.
 builder.write('\n#')
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 field_seq.sequence_identifier = 'MySequence'
 field_seq.reset_heading_level = '1'
 field_seq.update()
@@ -125,14 +125,14 @@ self.assertEqual(' SEQ  MySequence \\s 1', field_seq.get_field_code())
 self.assertEqual('1', field_seq.result)
 # Move to the next number of this sequence.
 builder.write(', #')
-field_seq = builder.insert_field(aw.fields.FieldType.FIELD_SEQUENCE, True).as_field_seq()
+field_seq = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SEQUENCE, update_field=True).as_field_seq()
 field_seq.sequence_identifier = 'MySequence'
 field_seq.insert_next_number = True
 field_seq.update()
 self.assertEqual(' SEQ  MySequence \\n', field_seq.get_field_code())
 self.assertEqual('2', field_seq.result)
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'Field.toc_seq_numbering.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Field.SEQ.ResetNumbering.docx')
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: Forms2OleControl.caption property
 linktitle: caption property
 articleTitle: caption property
 second_title: Aspose.Words for Python
-description: "Forms2OleControl.caption property. Gets Caption property of control"
+description: "Forms2OleControl.caption property. Gets or sets a Caption property of the control"
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/caption/
@@ -11,12 +11,17 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrol/caption/
 
 ## Forms2OleControl.caption property
 
-Gets Caption property of control. Default value is an empty string.
+Gets or sets a Caption property of the control.
+Default value is an empty string.
 
 
 ```python
 @property
 def caption(self) -> str:
+    ...
+
+@caption.setter
+def caption(self, value: str):
     ...
 
 ```
@@ -40,6 +45,16 @@ if ole_control.is_forms2_ole_control:
     self.assertEqual('', check_box.group_name)
     # Note, that you can't set GroupName for a Frame.
     check_box.group_name = 'Aspose group name'
+```
+
+Shows how to set caption for ActiveX control.
+
+```python
+builder = aw.DocumentBuilder()
+button1 = aw.drawing.ole.CommandButtonControl()
+button1.caption = 'Button caption'
+shape = builder.insert_forms_2_ole_control(button1)
+self.assertEqual('Button caption', shape.ole_format.ole_control.as_forms2_ole_control().caption)
 ```
 
 ### See Also

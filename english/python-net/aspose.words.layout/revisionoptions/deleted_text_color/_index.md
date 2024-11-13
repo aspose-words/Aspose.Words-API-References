@@ -5,7 +5,7 @@ articleTitle: deleted_text_color property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.deleted_text_color property. Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../../aspose.words/revisiontype/#DELETION)"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.layout/revisionoptions/deleted_text_color/
 ---
 

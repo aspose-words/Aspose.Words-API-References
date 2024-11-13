@@ -48,8 +48,8 @@ The default value is ``True``.
 Shows how to display of the metafile according to the size on page.
 
 ```python
-doc = aw.Document(MY_DIR + 'WMF with text.docx')
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+doc = aw.Document(file_name=MY_DIR + 'WMF with text.docx')
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 save_options = aw.saving.PdfSaveOptions()
 # Set the "EmulateRenderingToSizeOnPage" property to "true"
@@ -58,7 +58,7 @@ save_options = aw.saving.PdfSaveOptions()
 # to emulate metafile rendering to its default size in pixels.
 save_options.metafile_rendering_options.emulate_rendering_to_size_on_page = render_to_size
 save_options.metafile_rendering_options.emulate_rendering_to_size_on_page_resolution = 50
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf', save_options=save_options)
 ```
 
 ### See Also

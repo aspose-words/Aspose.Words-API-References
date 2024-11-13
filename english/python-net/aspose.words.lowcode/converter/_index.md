@@ -24,7 +24,7 @@ The convert functionality supports over 35+ different file formats.
 
 The [Converter.convert_to_images()](./convert_to_images/#str_str) group of methods are designed to transform documents into images,
 with each page being converted into a separate image file. These methods also convert PDF documents directly to fixed-page formats
-without loading them into the document model (using our pdf2word plugin), which enhances both performance and accuracy.
+without loading them into the document model, which enhances both performance and accuracy.
 
 With [ImageSaveOptions.page_set](../../aspose.words.saving/imagesaveoptions/page_set/), you can specify a particular set of pages to convert into images.
 
@@ -38,15 +38,19 @@ With [ImageSaveOptions.page_set](../../aspose.words.saving/imagesaveoptions/page
 |[ convert(input_file, output_file)](./convert/#str_str) | Converts the given input document into the output document using specified input output file names and its extensions. |
 |[ convert(input_file, output_file, save_format)](./convert/#str_str_saveformat) | Converts the given input document into the output document using specified input output file names and the final document format. |
 |[ convert(input_file, output_file, save_options)](./convert/#str_str_saveoptions) | Converts the given input document into the output document using specified input output file names and save options. |
+|[ convert(input_file, load_options, output_file, save_options)](./convert/#str_loadoptions_str_saveoptions) | Converts the given input document into the output document using specified input output file names its load/save options. |
 |[ convert(input_stream, output_stream, save_format)](./convert/#bytesio_bytesio_saveformat) | Converts the given input document into a single output document using specified input and output streams. |
 |[ convert(input_stream, output_stream, save_options)](./convert/#bytesio_bytesio_saveoptions) | Converts the given input document into a single output document using specified input and output streams. |
+|[ convert(input_stream, load_options, output_stream, save_options)](./convert/#bytesio_loadoptions_bytesio_saveoptions) | Converts the given input document into a single output document using specified input and output streams. |
 |[ convert_to_images(input_file, output_file)](./convert_to_images/#str_str) | Converts the input file pages to images. |
 |[ convert_to_images(input_file, output_file, save_format)](./convert_to_images/#str_str_saveformat) | Converts the input file pages to images. |
 |[ convert_to_images(input_file, output_file, save_options)](./convert_to_images/#str_str_imagesaveoptions) | Converts the input file pages to images. |
+|[ convert_to_images(input_file, load_options, output_file, save_options)](./convert_to_images/#str_loadoptions_str_imagesaveoptions) | Converts the input file pages to images. |
 |[ convert_to_images(input_file, save_format)](./convert_to_images/#str_saveformat) | Converts the input file pages to images. |
 |[ convert_to_images(input_file, save_options)](./convert_to_images/#str_imagesaveoptions) | Converts the input file pages to images. |
 |[ convert_to_images(input_stream, save_format)](./convert_to_images/#bytesio_saveformat) | Converts the input stream pages to images. |
 |[ convert_to_images(input_stream, save_options)](./convert_to_images/#bytesio_imagesaveoptions) | Converts the input stream pages to images. |
+|[ convert_to_images(input_stream, load_options, save_options)](./convert_to_images/#bytesio_loadoptions_imagesaveoptions) | Converts the input stream pages to images. |
 |[ convert_to_images(doc, save_format)](./convert_to_images/#document_saveformat) | Converts the document pages to images. |
 |[ convert_to_images(doc, save_options)](./convert_to_images/#document_imagesaveoptions) | Converts the document pages to images. |
 

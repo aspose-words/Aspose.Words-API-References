@@ -58,6 +58,31 @@ Retrieves the specified text.
 
 ### Examples
 
+Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# The BIDIOUTLINE field numbers paragraphs like the AUTONUM/LISTNUM fields,
+# but is only visible when a right-to-left editing language is enabled, such as Hebrew or Arabic.
+# The following field will display ".1", the RTL equivalent of list number "1.".
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_BIDI_OUTLINE, update_field=True).as_field_bidi_outline()
+builder.writeln('שלום')
+self.assertEqual(' BIDIOUTLINE ', field.get_field_code())
+# Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
+builder.insert_field(field_type=aw.fields.FieldType.FIELD_BIDI_OUTLINE, update_field=True)
+builder.writeln('שלום')
+builder.insert_field(field_type=aw.fields.FieldType.FIELD_BIDI_OUTLINE, update_field=True)
+builder.writeln('שלום')
+# Set the horizontal text alignment for every paragraph in the document to RTL.
+for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
+    para = para.as_paragraph()
+    para.paragraph_format.bidi = True
+# If we enable a right-to-left editing language in Microsoft Word, our fields will display numbers.
+# Otherwise, they will display "###".
+doc.save(file_name=ARTIFACTS_DIR + 'Field.BIDIOUTLINE.docx')
+```
+
 Shows how some older Microsoft Word fields such as SHAPE and EMBED are handled during loading.
 
 ```python
@@ -84,31 +109,6 @@ self.assertEqual(aw.drawing.ShapeType.CAN, shape.shape_type)
 # The third Shape is what was the EMBED field that contained the external spreadsheet.
 shape = shapes[2].as_shape()
 self.assertEqual(aw.drawing.ShapeType.OLE_OBJECT, shape.shape_type)
-```
-
-Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-# The BIDIOUTLINE field numbers paragraphs like the AUTONUM/LISTNUM fields,
-# but is only visible when a right-to-left editing language is enabled, such as Hebrew or Arabic.
-# The following field will display ".1", the RTL equivalent of list number "1.".
-field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_BIDI_OUTLINE, update_field=True).as_field_bidi_outline()
-builder.writeln('שלום')
-self.assertEqual(' BIDIOUTLINE ', field.get_field_code())
-# Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
-builder.insert_field(field_type=aw.fields.FieldType.FIELD_BIDI_OUTLINE, update_field=True)
-builder.writeln('שלום')
-builder.insert_field(field_type=aw.fields.FieldType.FIELD_BIDI_OUTLINE, update_field=True)
-builder.writeln('שלום')
-# Set the horizontal text alignment for every paragraph in the document to RTL.
-for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
-    para = para.as_paragraph()
-    para.paragraph_format.bidi = True
-# If we enable a right-to-left editing language in Microsoft Word, our fields will display numbers.
-# Otherwise, they will display "###".
-doc.save(file_name=ARTIFACTS_DIR + 'Field.BIDIOUTLINE.docx')
 ```
 
 ### See Also

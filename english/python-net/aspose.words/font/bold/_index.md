@@ -31,7 +31,7 @@ Shows how to insert formatted text using DocumentBuilder.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Specify font formatting, then add text.
 font = builder.font
 font.size = 16

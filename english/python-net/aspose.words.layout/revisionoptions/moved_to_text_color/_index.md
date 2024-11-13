@@ -5,7 +5,7 @@ articleTitle: moved_to_text_color property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.moved_to_text_color property. Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../../aspose.words/revisiontype/#MOVING)"
 type: docs
-weight: 90
+weight: 110
 url: /python-net/aspose.words.layout/revisionoptions/moved_to_text_color/
 ---
 
