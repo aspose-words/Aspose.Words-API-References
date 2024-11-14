@@ -56,6 +56,23 @@ def convert_to_images(self, input_file: str, output_file: str, save_options: asp
 | output_file | str | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
 | save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Image save options. |
 
+## convert_to_images(input_file, load_options, output_file, save_options) {#str_loadoptions_str_imagesaveoptions}
+
+Converts the input file pages to images.
+
+
+```python
+def convert_to_images(self, input_file: str, load_options: aspose.words.loading.LoadOptions, output_file: str, save_options: aspose.words.saving.ImageSaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file | str | The input file name. |
+| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) | The input document load options. |
+| output_file | str | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
+| save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Image save options. |
+
 ## convert_to_images(input_file, save_format) {#str_saveformat}
 
 Converts the input file pages to images.
@@ -129,6 +146,27 @@ def convert_to_images(self, input_stream: io.BytesIO, save_options: aspose.words
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input_stream | io.BytesIO | The input stream. |
+| save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Image save options. |
+
+### Returns
+
+Returns array of image streams. The streams should be disposed by the enduser.
+
+
+## convert_to_images(input_stream, load_options, save_options) {#bytesio_loadoptions_imagesaveoptions}
+
+Converts the input stream pages to images.
+
+
+```python
+def convert_to_images(self, input_stream: io.BytesIO, load_options: aspose.words.loading.LoadOptions, save_options: aspose.words.saving.ImageSaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input stream. |
+| load_options | [LoadOptions](../../../aspose.words.loading/loadoptions/) | The input document load options. |
 | save_options | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Image save options. |
 
 ### Returns

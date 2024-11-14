@@ -44,23 +44,22 @@ Shows how to get drop-down combo box form fields to blend in with paragraph text
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Use a document builder to insert a combo box with the value "Two" selected.
 builder.insert_combo_box('MyComboBox', ['One', 'Two', 'Three'], 1)
-# The "export_drop_down_form_field_as_text" flag of this SaveOptions object allows us to
+# The "ExportDropDownFormFieldAsText" flag of this SaveOptions object allows us to
 # control how saving the document to HTML treats drop-down combo boxes.
-# Setting it to "True" will convert each combo box into simple text
+# Setting it to "true" will convert each combo box into simple text
 # that displays the combo box's currently selected value, effectively freezing it.
-# Setting it to "False" will preserve the functionality of the combo box using <select> and <option> tags.
+# Setting it to "false" will preserve the functionality of the combo box using <select> and <option> tags.
 options = aw.saving.HtmlSaveOptions()
 options.export_drop_down_form_field_as_text = export_drop_down_form_field_as_text
-doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.drop_down_form_field.html', options)
-with open(ARTIFACTS_DIR + 'HtmlSaveOptions.drop_down_form_field.html', 'rt', encoding='utf-8') as file:
-    out_doc_contents = file.read()
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.DropDownFormField.html', save_options=options)
+out_doc_contents = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'HtmlSaveOptions.DropDownFormField.html')
 if export_drop_down_form_field_as_text:
-    self.assertIn('<span>Two</span>', out_doc_contents)
+    self.assertTrue('<span>Two</span>' in out_doc_contents)
 else:
-    self.assertIn('<select name="MyComboBox">' + '<option>One</option>' + '<option selected="selected">Two</option>' + '<option>Three</option>' + '</select>', out_doc_contents)
+    self.assertTrue('<select name="MyComboBox">' + '<option>One</option>' + '<option selected="selected">Two</option>' + '<option>Three</option>' + '</select>' in out_doc_contents)
 ```
 
 ### See Also

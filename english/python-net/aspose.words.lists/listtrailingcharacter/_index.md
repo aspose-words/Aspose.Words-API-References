@@ -34,10 +34,10 @@ Shows how to apply custom list formatting to paragraphs when using DocumentBuild
 doc = aw.Document()
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
-# We can begin and end a list by using a document builder's "list_format" property.
+# We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
 # Create a list from a Microsoft Word template, and customize the first two of its list levels.
-list = doc.lists.add(aw.lists.ListTemplate.NUMBER_DEFAULT)
+list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
 list_level = list.list_levels[0]
 list_level.font.color = aspose.pydrawing.Color.red
 list_level.font.size = 24
@@ -58,7 +58,7 @@ list_level.number_format = '\uf0af'
 list_level.trailing_character = aw.lists.ListTrailingCharacter.SPACE
 list_level.number_position = 144
 # Create paragraphs and apply both list levels of our custom list formatting to them.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.list_format.list = list
 builder.writeln('The quick brown fox...')
 builder.writeln('The quick brown fox...')
@@ -68,7 +68,7 @@ builder.writeln('jumped over the lazy dog.')
 builder.list_format.list_outdent()
 builder.writeln('The quick brown fox...')
 builder.list_format.remove_numbers()
-builder.document.save(ARTIFACTS_DIR + 'Lists.create_custom_list.docx')
+builder.document.save(file_name=ARTIFACTS_DIR + 'Lists.CreateCustomList.docx')
 ```
 
 ### See Also

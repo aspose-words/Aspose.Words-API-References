@@ -119,26 +119,32 @@ doc.save(file_name=ARTIFACTS_DIR + 'Table.CreateTable.docx')
 Shows how to iterate through all tables in the document and print the contents of each cell.
 
 ```python
-doc = aw.Document(MY_DIR + 'Tables.docx')
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
 tables = doc.first_section.body.tables
-self.assertEqual(2, len(tables.to_array()))
-for i in range(tables.count):
-    print('Start of Table', i)
+self.assertEqual(2, len(list(tables)))
+i = 0
+while i < tables.count:
+    print(f'Start of Table {i}')
     rows = tables[i].rows
-    # We can use the "to_array" method on a row collection to clone it into an array.
-    self.assertSequenceEqual(list(rows), rows.to_array())
-    #Assert.are_not_same(rows, rows.to_array())
-    for j in range(rows.count):
-        print('\tStart of Row', j)
+    # We can use the "ToArray" method on a row collection to clone it into an array.
+    self.assertSequenceEqual(list(rows), list(rows))
+    self.assertNotEqual(rows, list(rows))
+    j = 0
+    while j < rows.count:
+        print(f'\tStart of Row {j}')
         cells = rows[j].cells
-        # We can use the "to_array" method on a cell collection to clone it into an array.
-        self.assertSequenceEqual(list(cells), cells.to_array())
-        #Assert.are_not_same(cells, cells.to_array())
-        for k in range(cells.count):
-            cell_text = cells[k].to_string(aw.SaveFormat.TEXT).strip()
+        # We can use the "ToArray" method on a cell collection to clone it into an array.
+        self.assertSequenceEqual(list(cells), list(cells))
+        self.assertNotEqual(cells, list(cells))
+        k = 0
+        while k < cells.count:
+            cell_text = cells[k].to_string(save_format=aw.SaveFormat.TEXT).strip()
             print(f'\t\tContents of Cell:{k} = "{cell_text}"')
+            k += 1
         print(f'\tEnd of Row {j}')
+        j += 1
     print(f'End of Table {i}\n')
+    i += 1
 ```
 
 Shows how to build a nested table without using a document builder.

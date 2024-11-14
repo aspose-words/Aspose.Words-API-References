@@ -40,15 +40,15 @@ This property is used when the document is exported to image formats:
 Shows how to improve the quality of a rendered document with SaveOptions.
 
 ```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
-builder = aw.DocumentBuilder(doc)
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.size = 60
 builder.writeln('Some text.')
 options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-doc.save(ARTIFACTS_DIR + 'Document.image_save_options.default.jpg', options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.ImageSaveOptions.Default.jpg', save_options=options)
 options.use_anti_aliasing = True
 options.use_high_quality_rendering = True
-doc.save(ARTIFACTS_DIR + 'Document.image_save_options.high_quality.jpg', options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.ImageSaveOptions.HighQuality.jpg', save_options=options)
 ```
 
 ### See Also

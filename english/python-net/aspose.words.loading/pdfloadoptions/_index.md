@@ -49,6 +49,23 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [use_system_lcid](../loadoptions/use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [warning_callback](../loadoptions/warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
+### Examples
+
+Shows how to skip images during loading PDF files.
+
+```python
+options = aw.loading.PdfLoadOptions()
+options.skip_pdf_images = is_skip_pdf_images
+options.page_index = 0
+options.page_count = 1
+doc = aw.Document(file_name=MY_DIR + 'Images.pdf', load_options=options)
+shape_collection = doc.get_child_nodes(aw.NodeType.SHAPE, True)
+if is_skip_pdf_images:
+    self.assertEqual(shape_collection.count, 0)
+else:
+    self.assertNotEqual(shape_collection.count, 0)
+```
+
 ### See Also
 
 * module [aspose.words.loading](../)

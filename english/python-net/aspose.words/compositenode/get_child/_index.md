@@ -48,7 +48,7 @@ Shows how to apply the properties of a table's style directly to the table's ele
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Hello world!')
@@ -62,7 +62,7 @@ table_style.borders.line_style = aw.LineStyle.DOT_DASH
 table.style = table_style
 # This method concerns table style properties such as the ones we set above.
 doc.expand_table_styles_to_direct_formatting()
-doc.save(ARTIFACTS_DIR + 'Document.table_style_to_direct_formatting.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.TableStyleToDirectFormatting.docx')
 ```
 
 Shows how to traverse through a composite node's collection of child nodes.

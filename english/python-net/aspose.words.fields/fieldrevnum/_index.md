@@ -63,10 +63,10 @@ Shows how to work with REVNUM fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Current revision #')
 # Insert a REVNUM field, which displays the document's current revision number property.
-field = builder.insert_field(aw.fields.FieldType.FIELD_REVISION_NUM, True).as_field_rev_num()
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_REVISION_NUM, update_field=True).as_field_rev_num()
 self.assertEqual(' REVNUM ', field.get_field_code())
 self.assertEqual('1', field.result)
 self.assertEqual(1, doc.built_in_document_properties.revision_number)

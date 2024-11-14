@@ -61,30 +61,22 @@ Shows how to disable the scaling of images to their parent shape dimensions when
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a shape which contains an image, and then make that shape considerably smaller than the image.
-image = drawing.Image.from_file(IMAGE_DIR + 'Transparent background logo.png')
-self.assertEqual(400, image.size.width)
-self.assertEqual(400, image.size.height)
-image_shape = builder.insert_image(image)
+image_shape = builder.insert_image(file_name=IMAGE_DIR + 'Transparent background logo.png')
 image_shape.width = 50
 image_shape.height = 50
 # Saving a document that contains shapes with images to HTML will create an image file in the local file system
 # for each such shape. The output HTML document will use <image> tags to link to and display these images.
 # When we save the document to HTML, we can pass a SaveOptions object to determine
 # whether to scale all images that are inside shapes to the sizes of their shapes.
-# Setting the "scale_image_to_shape_size" flag to "True" will shrink every image
+# Setting the "ScaleImageToShapeSize" flag to "true" will shrink every image
 # to the size of the shape that contains it, so that no saved images will be larger than the document requires them to be.
-# Setting the "scale_image_to_shape_size" flag to "False" will preserve these images' original sizes,
+# Setting the "ScaleImageToShapeSize" flag to "false" will preserve these images' original sizes,
 # which will take up more space in exchange for preserving image quality.
 options = aw.saving.HtmlSaveOptions()
 options.scale_image_to_shape_size = scale_image_to_shape_size
-doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.scale_image_to_shape_size.html', options)
-file_size = os.path.getsize(ARTIFACTS_DIR + 'HtmlSaveOptions.scale_image_to_shape_size.001.png')
-if scale_image_to_shape_size:
-    self.assertGreater(10000, file_size)
-else:
-    self.assertLess(30000, file_size)
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.ScaleImageToShapeSize.html', save_options=options)
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: inserted_text_color property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.inserted_text_color property. Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../../aspose.words/revisiontype/#INSERTION)"
 type: docs
-weight: 40
+weight: 60
 url: /python-net/aspose.words.layout/revisionoptions/inserted_text_color/
 ---
 

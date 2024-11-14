@@ -83,35 +83,39 @@ Shows how to work with list levels.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 self.assertFalse(builder.list_format.is_list_item)
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
-# We can begin and end a list by using a document builder's "list_format" property.
+# We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
 # Below are two types of lists that we can create using a document builder.
 # 1 -  A numbered list:
 # Numbered lists create a logical order for their paragraphs by numbering each item.
-builder.list_format.list = doc.lists.add(aw.lists.ListTemplate.NUMBER_DEFAULT)
+builder.list_format.list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
 self.assertTrue(builder.list_format.is_list_item)
-# By setting the "list_level_number" property, we can increase the list level
+# By setting the "ListLevelNumber" property, we can increase the list level
 # to begin a self-contained sub-list at the current list item.
 # The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
 # Deeper list levels use letters and lowercase Roman numerals.
-for i in range(9):
+i = 0
+while i < 9:
     builder.list_format.list_level_number = i
-    builder.writeln(f'Level {i}')
+    builder.writeln('Level ' + str(i))
+    i += 1
 # 2 -  A bulleted list:
 # This list will apply an indent and a bullet symbol ("•") before each paragraph.
 # Deeper levels of this list will use different symbols, such as "■" and "○".
-builder.list_format.list = doc.lists.add(aw.lists.ListTemplate.BULLET_DEFAULT)
-for i in range(9):
+builder.list_format.list = doc.lists.add(list_template=aw.lists.ListTemplate.BULLET_DEFAULT)
+i = 0
+while i < 9:
     builder.list_format.list_level_number = i
-    builder.writeln(f'Level {i}')
+    builder.writeln('Level ' + str(i))
+    i += 1
 # We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
 builder.list_format.list = None
 self.assertFalse(builder.list_format.is_list_item)
-doc.save(ARTIFACTS_DIR + 'Lists.specify_list_level.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Lists.SpecifyListLevel.docx')
 ```
 
 Shows how to restart numbering in a list by copying a list.
@@ -120,14 +124,14 @@ Shows how to restart numbering in a list by copying a list.
 doc = aw.Document()
 # A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 # We can create nested lists by increasing the indent level.
-# We can begin and end a list by using a document builder's "list_format" property.
+# We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
 # Create a list from a Microsoft Word template, and customize its first list level.
-list1 = doc.lists.add(aw.lists.ListTemplate.NUMBER_ARABIC_PARENTHESIS)
+list1 = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_ARABIC_PARENTHESIS)
 list1.list_levels[0].font.color = aspose.pydrawing.Color.red
 list1.list_levels[0].alignment = aw.lists.ListLevelAlignment.RIGHT
 # Apply our list to some paragraphs.
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('List 1 starts below:')
 builder.list_format.list = list1
 builder.writeln('Item 1')
@@ -144,7 +148,7 @@ builder.list_format.list = list2
 builder.writeln('Item 1')
 builder.writeln('Item 2')
 builder.list_format.remove_numbers()
-doc.save(ARTIFACTS_DIR + 'Lists.restart_numbering_using_list_copy.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Lists.RestartNumberingUsingListCopy.docx')
 ```
 
 Shows how to create a document with a sample of all the lists from another document.

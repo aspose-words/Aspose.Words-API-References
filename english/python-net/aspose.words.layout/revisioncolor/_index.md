@@ -37,8 +37,15 @@ Allows to specify color of document revisions.
 | VIOLET | Represents 633277 color. |
 | WHITE | Represents ffffff color. |
 | YELLOW | Represents fad272 color. |
+| LIGHT_PINK | Represents fce6f4 color. |
+| LIGHT_BLUE | Represents e1f2fa color. |
+| LIGHT_YELLOW | Represents fef4de color. |
+| LIGHT_PURPLE | Represents eadfef color. |
+| LIGHT_ORANGE | Represents fce3d0 color. |
+| LIGHT_GREEN | Represents e9f8ce color. |
+| GRAY | Represents efeded color. |
 | NO_HIGHLIGHT | No color is used to highlight revision changes. |
-| BY_AUTHOR | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
+| BY_AUTHOR | Revisions of each author receive their own color for highlighting from a predefined set of hi-contrast colors. |
 
 ### Examples
 

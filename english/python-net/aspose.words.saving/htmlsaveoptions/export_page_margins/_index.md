@@ -40,9 +40,9 @@ Shows how to show out-of-bounds objects in output HTML documents.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Use a builder to insert a shape with no wrapping.
-shape = builder.insert_shape(aw.drawing.ShapeType.CUBE, 200, 200)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.CUBE, width=200, height=200)
 shape.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.PAGE
 shape.relative_vertical_position = aw.drawing.RelativeVerticalPosition.PAGE
 shape.wrap_type = aw.drawing.WrapType.NONE
@@ -51,20 +51,19 @@ shape.wrap_type = aw.drawing.WrapType.NONE
 shape.left = -150
 # When saving the document to HTML, we can pass a SaveOptions object
 # to decide whether to adjust the page to display out-of-bounds objects fully.
-# If we set the "export_page_margins" flag to "True", the shape will be fully visible in the output HTML.
-# If we set the "export_page_margins" flag to "False",
+# If we set the "ExportPageMargins" flag to "true", the shape will be fully visible in the output HTML.
+# If we set the "ExportPageMargins" flag to "false",
 # our document will display the shape truncated as we would see it in Microsoft Word.
 options = aw.saving.HtmlSaveOptions()
 options.export_page_margins = export_page_margins
-doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.export_page_margins.html', options)
-with open(ARTIFACTS_DIR + 'HtmlSaveOptions.export_page_margins.html', 'rt', encoding='utf-8') as file:
-    out_doc_contents = file.read()
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.ExportPageMargins.html', save_options=options)
+out_doc_contents = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'HtmlSaveOptions.ExportPageMargins.html')
 if export_page_margins:
-    self.assertIn('<style type="text/css">div.Section1 { margin:70.85pt }</style>', out_doc_contents)
-    self.assertIn('<div class="Section1"><p style="margin-top:0pt; margin-left:150pt; margin-bottom:0pt">', out_doc_contents)
+    self.assertTrue('<style type="text/css">div.Section_1 { margin:70.85pt }</style>' in out_doc_contents)
+    self.assertTrue('<div class="Section_1"><p style="margin-top:0pt; margin-left:150pt; margin-bottom:0pt">' in out_doc_contents)
 else:
-    self.assertNotIn('style type="text/css">', out_doc_contents)
-    self.assertIn('<div><p style="margin-top:0pt; margin-left:220.85pt; margin-bottom:0pt">', out_doc_contents)
+    self.assertFalse('style type="text/css">' in out_doc_contents)
+    self.assertTrue('<div><p style="margin-top:0pt; margin-left:220.85pt; margin-bottom:0pt">' in out_doc_contents)
 ```
 
 ### See Also

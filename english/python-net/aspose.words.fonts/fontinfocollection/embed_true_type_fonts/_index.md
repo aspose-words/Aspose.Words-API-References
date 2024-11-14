@@ -42,16 +42,12 @@ This option works for DOC, DOCX and RTF formats only.
 Shows how to save a document with embedded TrueType fonts.
 
 ```python
-doc = aw.Document(MY_DIR + 'Document.docx')
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
 font_infos = doc.font_infos
 font_infos.embed_true_type_fonts = embed_all_fonts
 font_infos.embed_system_fonts = embed_all_fonts
 font_infos.save_subset_fonts = embed_all_fonts
-doc.save(ARTIFACTS_DIR + 'Font.font_info_collection.docx')
-if embed_all_fonts:
-    self.assertLess(25000, os.path.getsize(ARTIFACTS_DIR + 'Font.font_info_collection.docx'))
-else:
-    self.assertGreater(15000, os.path.getsize(ARTIFACTS_DIR + 'Font.font_info_collection.docx'))
+doc.save(file_name=ARTIFACTS_DIR + 'Font.FontInfoCollection.docx')
 ```
 
 ### See Also

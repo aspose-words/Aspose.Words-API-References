@@ -44,21 +44,21 @@ Shows how to lock or unlock a shape's paragraph anchor.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 builder.write('Our shape will have an anchor attached to this paragraph.')
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 200, 160)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=200, height=160)
 shape.wrap_type = aw.drawing.WrapType.NONE
 builder.insert_break(aw.BreakType.PARAGRAPH_BREAK)
 builder.writeln('Hello again!')
-# Set the "anchor_locked" property to "True" to prevent the shape's anchor
+# Set the "AnchorLocked" property to "true" to prevent the shape's anchor
 # from moving when moving the shape in Microsoft Word.
-# Set the "anchor_locked" property to "False" to allow any movement of the shape
+# Set the "AnchorLocked" property to "false" to allow any movement of the shape
 # to also move its anchor to any other paragraph that the shape ends up close to.
 shape.anchor_locked = anchor_locked
 # If the shape does not have a visible anchor symbol to its left,
 # we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
-doc.save(ARTIFACTS_DIR + 'Shape.anchor_locked.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.AnchorLocked.docx')
 ```
 
 ### See Also

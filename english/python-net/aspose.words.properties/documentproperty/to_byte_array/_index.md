@@ -32,19 +32,17 @@ Shows how to add a thumbnail to a document that we save as an Epub.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
-# If we save a document, whose "thumbnail" property contains image data that we added, as an Epub,
+# If we save a document, whose "Thumbnail" property contains image data that we added, as an Epub,
 # a reader that opens that document may display the image before the first page.
 properties = doc.built_in_document_properties
-with open(IMAGE_DIR + 'Logo.jpg', 'rb') as file:
-    thumbnail_bytes = file.read()
+thumbnail_bytes = system_helper.io.File.read_all_bytes(IMAGE_DIR + 'Logo.jpg')
 properties.thumbnail = thumbnail_bytes
-doc.save(ARTIFACTS_DIR + 'DocumentProperties.thumbnail.epub')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentProperties.Thumbnail.epub')
 # We can extract a document's thumbnail image and save it to the local file system.
 thumbnail = doc.built_in_document_properties.get_by_name('Thumbnail')
-with open(ARTIFACTS_DIR + 'DocumentProperties.thumbnail.gif', 'wb') as file:
-    file.write(thumbnail.to_byte_array())
+system_helper.io.File.write_all_bytes(ARTIFACTS_DIR + 'DocumentProperties.Thumbnail.gif', thumbnail.to_byte_array())
 ```
 
 ### See Also

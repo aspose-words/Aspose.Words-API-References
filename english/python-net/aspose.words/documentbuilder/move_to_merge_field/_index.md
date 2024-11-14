@@ -84,20 +84,20 @@ Shows how to insert fields, and move the document builder's cursor to them.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.insert_field('MERGEFIELD MyMergeField1 \\* MERGEFORMAT')
-builder.insert_field('MERGEFIELD MyMergeField2 \\* MERGEFORMAT')
+builder = aw.DocumentBuilder(doc=doc)
+builder.insert_field(field_code='MERGEFIELD MyMergeField1 \\* MERGEFORMAT')
+builder.insert_field(field_code='MERGEFIELD MyMergeField2 \\* MERGEFORMAT')
 # Move the cursor to the first MERGEFIELD.
-builder.move_to_merge_field('MyMergeField1', True, False)
+builder.move_to_merge_field(field_name='MyMergeField1', is_after=True, is_delete_field=False)
 # Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
 self.assertEqual(doc.range.fields[1].start, builder.current_node)
 self.assertEqual(doc.range.fields[0].end, builder.current_node.previous_sibling)
 # If we wish to edit the field's field code or contents using the builder,
 # its cursor would need to be inside a field.
-# To place it inside a field, we would need to call the document builder's "move_to" method
+# To place it inside a field, we would need to call the document builder's MoveTo method
 # and pass the field's start or separator node as an argument.
 builder.write(' Text between our merge fields. ')
-doc.save(ARTIFACTS_DIR + 'DocumentBuilder.merge_fields.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.MergeFields.docx')
 ```
 
 ## See Also

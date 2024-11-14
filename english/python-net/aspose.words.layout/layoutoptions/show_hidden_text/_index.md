@@ -38,13 +38,13 @@ Shows how to hide text in a rendered output document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert hidden text, then specify whether we wish to omit it from a rendered document.
 builder.writeln('This text is not hidden.')
 builder.font.hidden = True
 builder.writeln('This text is hidden.')
 doc.layout_options.show_hidden_text = show_hidden_text
-doc.save(ARTIFACTS_DIR + 'Document.layout_options_hidden_text.pdf')
+doc.save(file_name=ARTIFACTS_DIR + 'Document.LayoutOptionsHiddenText.pdf')
 ```
 
 ### See Also

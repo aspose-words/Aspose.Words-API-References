@@ -28,7 +28,7 @@ Shows how to work with a document builder's current story.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # A Story is a type of node that has child Paragraph nodes, such as a Body.
 self.assertEqual(builder.current_story, doc.first_section.body)
 self.assertEqual(builder.current_story, builder.current_paragraph.parent_node)

@@ -38,7 +38,7 @@ Shows how to insert a horizontal rule shape, and customize its formatting.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 shape = builder.insert_horizontal_rule()
 horizontal_rule_format = shape.horizontal_rule_format
 horizontal_rule_format.alignment = aw.drawing.HorizontalRuleAlignment.CENTER

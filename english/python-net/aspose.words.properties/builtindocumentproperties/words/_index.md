@@ -5,7 +5,7 @@ articleTitle: words property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.words property. Represents an estimate of the number of words in the document."
 type: docs
-weight: 330
+weight: 360
 url: /python-net/aspose.words.properties/builtindocumentproperties/words/
 ---
 

@@ -60,7 +60,7 @@ Shows how to enable or disable even page headers/footers.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two types of header/footers.
 # 1 -  The "Primary" header/footer, which appears on every page in the section.
 # We can override the primary header/footer by a first and an even page header/footer.
@@ -79,14 +79,14 @@ builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.writeln('Page 2.')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.writeln('Page 3.')
-# Each section has a "page_setup" object that specifies page appearance-related properties
+# Each section has a "PageSetup" object that specifies page appearance-related properties
 # such as orientation, size, and borders.
-# Set the "odd_and_even_pages_header_Footer" property to "True"
+# Set the "OddAndEvenPagesHeaderFooter" property to "true"
 # to display the even page header/footer on even pages.
-# Set the "odd_and_even_pages_header_Footer" property to "False"
+# Set the "OddAndEvenPagesHeaderFooter" property to "false"
 # to display the primary header/footer on even pages.
 builder.page_setup.odd_and_even_pages_header_footer = odd_and_even_pages_header_footer
-doc.save(ARTIFACTS_DIR + 'PageSetup.odd_and_even_pages_header_footer.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.OddAndEvenPagesHeaderFooter.docx')
 ```
 
 ### See Also

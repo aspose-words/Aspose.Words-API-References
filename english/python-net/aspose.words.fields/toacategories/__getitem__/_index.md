@@ -29,7 +29,7 @@ Shows how to specify a set of categories for TOA fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # TOA fields can filter their entries by categories defined in this collection.
 toa_categories = aw.fields.ToaCategories()
 doc.field_options.toa_categories = toa_categories
@@ -46,19 +46,19 @@ self.assertEqual('Statutes', aw.fields.ToaCategories.default_categories[2])
 #  With this switch, a TOA field will only pick up entries from TA fields that
 # also have a "\c" switch with a matching category index. Each TOA field will also display
 # the name of the category that its "\c" switch points to.
-builder.insert_field('TOA \\c 1 \\h', None)
-builder.insert_field('TOA \\c 2 \\h', None)
+builder.insert_field(field_code='TOA \\c 1 \\h', field_value=None)
+builder.insert_field(field_code='TOA \\c 2 \\h', field_value=None)
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 # Insert TOA entries across 2 categories. Our first TOA field will receive one entry,
 # from the second TA field whose "\c" switch also points to the first category.
 # The second TOA field will have two entries from the other two TA fields.
-builder.insert_field('TA \\c 2 \\l "entry 1"')
+builder.insert_field(field_code='TA \\c 2 \\l "entry 1"')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.insert_field('TA \\c 1 \\l "entry 2"')
+builder.insert_field(field_code='TA \\c 1 \\l "entry 2"')
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.insert_field('TA \\c 2 \\l "entry 3"')
+builder.insert_field(field_code='TA \\c 2 \\l "entry 3"')
 doc.update_fields()
-doc.save(ARTIFACTS_DIR + 'FieldOptions.table_of_authority_categories.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'FieldOptions.TOA.Categories.docx')
 ```
 
 ### See Also

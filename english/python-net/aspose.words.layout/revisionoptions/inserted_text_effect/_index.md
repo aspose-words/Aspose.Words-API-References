@@ -5,7 +5,7 @@ articleTitle: inserted_text_effect property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.inserted_text_effect property. Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../../aspose.words/revisiontype/#INSERTION)"
 type: docs
-weight: 50
+weight: 70
 url: /python-net/aspose.words.layout/revisionoptions/inserted_text_effect/
 ---
 

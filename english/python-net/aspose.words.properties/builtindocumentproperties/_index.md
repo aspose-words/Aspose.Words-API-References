@@ -57,6 +57,7 @@ The properties in the collection are sorted alphabetically by name.
 | [created_time](./created_time/) | Gets or sets date of the document creation in UTC. |
 | [heading_pairs](./heading_pairs/) | Specifies document headings and their names. |
 | [hyperlink_base](./hyperlink_base/) | Specifies the base string used for evaluating relative hyperlinks in this document. |
+| [hyperlinks_changed](./hyperlinks_changed/) | Indicates whether hyperlinks in a document were changed. |
 | [keywords](./keywords/) | Gets or sets the document keywords. |
 | [last_printed](./last_printed/) | Gets or sets the date when the document was last printed in UTC. |
 | [last_saved_by](./last_saved_by/) | Gets or sets the name of the last author. |
@@ -68,7 +69,9 @@ The properties in the collection are sorted alphabetically by name.
 | [pages](./pages/) | Represents an estimate of the number of pages in the document. |
 | [paragraphs](./paragraphs/) | Represents an estimate of the number of paragraphs in the document. |
 | [revision_number](./revision_number/) | Gets or sets the document revision number. |
+| [scale_crop](./scale_crop/) | Indicates whether document thumbnail is cropped or scaled to fit the display. |
 | [security](./security/) | Specifies the security level of a document as a numeric value. |
+| [shared_document](./shared_document/) | Indicates whether the document is a shared document. |
 | [subject](./subject/) | Gets or sets the subject of the document. |
 | [template](./template/) | Gets or sets the informational name of the document template. |
 | [thumbnail](./thumbnail/) | Gets or sets the thumbnail of the document. |

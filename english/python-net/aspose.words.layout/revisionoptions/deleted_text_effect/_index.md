@@ -5,7 +5,7 @@ articleTitle: deleted_text_effect property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.deleted_text_effect property. Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../../aspose.words/revisiontype/#DELETION)"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.layout/revisionoptions/deleted_text_effect/
 ---
 

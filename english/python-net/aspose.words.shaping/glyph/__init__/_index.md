@@ -3,16 +3,13 @@ title: Glyph constructor
 linktitle: Glyph constructor
 articleTitle: Glyph constructor
 second_title: Aspose.Words for Python
-description: "Glyph constructor. Initializes new instance of this class."
+description: "Glyph constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.shaping/glyph/__init__/
 ---
 
 ## Glyph(glyph_index, advance, advance_offset, ascender_offset) {#int_int_int_int}
-
-Initializes new instance of this class.
-
 
 ```python
 def __init__(self, glyph_index: int, advance: int, advance_offset: int, ascender_offset: int):
@@ -21,10 +18,10 @@ def __init__(self, glyph_index: int, advance: int, advance_offset: int, ascender
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| glyph_index | int | Glyph index. |
-| advance | int | Advance metric of the glyph. |
-| advance_offset | int | Horizontal (x) offset. |
-| ascender_offset | int | Vertical (y) offset. |
+| glyph_index | int |  |
+| advance | int |  |
+| advance_offset | int |  |
+| ascender_offset | int |  |
 
 ### See Also
 

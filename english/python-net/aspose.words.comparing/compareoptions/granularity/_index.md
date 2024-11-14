@@ -37,16 +37,16 @@ Shows to specify a granularity while comparing documents.
 
 ```python
 doc_a = aw.Document()
-builder_a = aw.DocumentBuilder(doc_a)
+builder_a = aw.DocumentBuilder(doc=doc_a)
 builder_a.writeln('Alpha Lorem ipsum dolor sit amet, consectetur adipiscing elit')
 doc_b = aw.Document()
-builder_b = aw.DocumentBuilder(doc_b)
+builder_b = aw.DocumentBuilder(doc=doc_b)
 builder_b.writeln('Lorems ipsum dolor sit amet consectetur - "adipiscing" elit')
 # Specify whether changes are tracking
-# by character ('Granularity.CHAR_LEVEL'), or by word ('Granularity.WORD_LEVEL').
+# by character ('Granularity.CharLevel'), or by word ('Granularity.WordLevel').
 compare_options = aw.comparing.CompareOptions()
 compare_options.granularity = granularity
-doc_a.compare(doc_b, 'author', datetime.datetime.now(), compare_options)
+doc_a.compare(document=doc_b, author='author', date_time=datetime.datetime.now(), options=compare_options)
 # The first document's collection of revision groups contains all the differences between documents.
 groups = doc_a.revisions.groups
 self.assertEqual(5, groups.count)

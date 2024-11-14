@@ -60,20 +60,19 @@ Shows how to compare documents.
 
 ```python
 doc_original = aw.Document()
-builder = aw.DocumentBuilder(doc_original)
+builder = aw.DocumentBuilder(doc=doc_original)
 builder.writeln('This is the original document.')
 doc_edited = aw.Document()
-builder = aw.DocumentBuilder(doc_edited)
+builder = aw.DocumentBuilder(doc=doc_edited)
 builder.writeln('This is the edited document.')
 # Comparing documents with revisions will throw an exception.
 if doc_original.revisions.count == 0 and doc_edited.revisions.count == 0:
-    doc_original.compare(doc_edited, 'authorName', datetime.datetime.now())
+    doc_original.compare(document=doc_edited, author='authorName', date_time=datetime.datetime.now())
 # After the comparison, the original document will gain a new revision
 # for every element that is different in the edited document.
-self.assertEqual(2, doc_original.revisions.count)  # ExSkip
-for revision in doc_original.revisions:
-    print(f'Revision type: {revision.revision_type}, on a node of type "{revision.parent_node.node_type}"')
-    print(f'\tChanged text: "{revision.parent_node.get_text()}"')
+for r in doc_original.revisions:
+    print(f'Revision type: {r.revision_type}, on a node of type "{r.parent_node.node_type}"')
+    print(f'\tChanged text: "{r.parent_node.get_text()}"')
 # Accepting these revisions will transform the original document into the edited document.
 doc_original.revisions.accept_all()
 self.assertEqual(doc_original.get_text(), doc_edited.get_text())
@@ -84,10 +83,10 @@ Shows how to filter specific types of document elements when making a comparison
 ```python
 # Create the original document and populate it with various kinds of elements.
 doc_original = aw.Document()
-builder = aw.DocumentBuilder(doc_original)
+builder = aw.DocumentBuilder(doc=doc_original)
 # Paragraph text referenced with an endnote:
 builder.writeln('Hello world! This is the first paragraph.')
-builder.insert_footnote(aw.notes.FootnoteType.ENDNOTE, 'Original endnote text.')
+builder.insert_footnote(footnote_type=aw.notes.FootnoteType.ENDNOTE, footnote_text='Original endnote text.')
 # Table:
 builder.start_table()
 builder.insert_cell()
@@ -96,14 +95,14 @@ builder.insert_cell()
 builder.write('Original cell 2 text')
 builder.end_table()
 # Textbox:
-text_box = builder.insert_shape(aw.drawing.ShapeType.TEXT_BOX, 150, 20)
+text_box = builder.insert_shape(shape_type=aw.drawing.ShapeType.TEXT_BOX, width=150, height=20)
 builder.move_to(text_box.first_paragraph)
 builder.write('Original textbox contents')
 # DATE field:
 builder.move_to(doc_original.first_section.body.append_paragraph(''))
-builder.insert_field(' DATE ')
+builder.insert_field(field_code=' DATE ')
 # Comment:
-new_comment = aw.Comment(doc_original, 'John Doe', 'J.D.', datetime.datetime.now())
+new_comment = aw.Comment(doc=doc_original, author='John Doe', initial='J.D.', date_time=datetime.datetime.now())
 new_comment.set_text('Original comment.')
 builder.current_paragraph.append_child(new_comment)
 # Header:
@@ -119,7 +118,7 @@ doc_edited.get_child(aw.NodeType.TABLE, 0, True).as_table().first_row.cells[1].f
 doc_edited.get_child(aw.NodeType.SHAPE, 0, True).as_shape().first_paragraph.runs[0].text = 'Edited textbox contents'
 doc_edited.range.fields[0].as_field_date().use_lunar_calendar = True
 doc_edited.get_child(aw.NodeType.COMMENT, 0, True).as_comment().first_paragraph.runs[0].text = 'Edited comment.'
-doc_edited.first_section.headers_footers.header_primary.first_paragraph.runs[0].text = 'Edited header contents.'
+doc_edited.first_section.headers_footers.get_by_header_footer_type(aw.HeaderFooterType.HEADER_PRIMARY).first_paragraph.runs[0].text = 'Edited header contents.'
 # Comparing documents creates a revision for every edit in the edited document.
 # A CompareOptions object has a series of flags that can suppress revisions
 # on each respective type of element, effectively ignoring their change.
@@ -133,8 +132,8 @@ compare_options.ignore_footnotes = False
 compare_options.ignore_textboxes = False
 compare_options.ignore_headers_and_footers = False
 compare_options.target = aw.comparing.ComparisonTargetType.NEW
-doc_original.compare(doc_edited, 'John Doe', datetime.datetime.now(), compare_options)
-doc_original.save(ARTIFACTS_DIR + 'Document.compare_options.docx')
+doc_original.compare(document=doc_edited, author='John Doe', date_time=datetime.datetime.now(), options=compare_options)
+doc_original.save(file_name=ARTIFACTS_DIR + 'Document.CompareOptions.docx')
 ```
 
 ## See Also

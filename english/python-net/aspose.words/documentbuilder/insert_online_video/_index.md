@@ -167,24 +167,24 @@ Shows how to insert an online video into a document using a URL.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.insert_online_video('https://youtu.be/t_1LYZ102RA', 360, 270)
+builder = aw.DocumentBuilder(doc=doc)
+builder.insert_online_video(video_url='https://youtu.be/g1N9ke8Prmk', width=360, height=270)
 # We can watch the video from Microsoft Word by clicking on the shape.
-doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_video_with_url.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertVideoWithUrl.docx')
 ```
 
 Shows how to insert an online video into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 video_url = 'https://vimeo.com/52477838'
 # Insert a shape that plays a video from the web when clicked in Microsoft Word.
 # This rectangular shape will contain an image based on the first frame of the linked video
 # and a "play button" visual prompt. The video has an aspect ratio of 16:9.
 # We will set the shape's size to that ratio, so the image does not appear stretched.
-builder.insert_online_video(video_url, aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, 0, aw.drawing.RelativeVerticalPosition.TOP_MARGIN, 0, 320, 180, aw.drawing.WrapType.SQUARE)
-doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_online_video.docx')
+builder.insert_online_video(video_url=video_url, horz_pos=aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, left=0, vert_pos=aw.drawing.RelativeVerticalPosition.TOP_MARGIN, top=0, width=320, height=180, wrap_type=aw.drawing.WrapType.SQUARE)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertOnlineVideo.docx')
 ```
 
 Shows how to insert an online video into a document with a custom thumbnail.

@@ -5,7 +5,7 @@ articleTitle: subject property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.subject property. Gets or sets the subject of the document."
 type: docs
-weight: 260
+weight: 290
 url: /python-net/aspose.words.properties/builtindocumentproperties/subject/
 ---
 

@@ -40,18 +40,18 @@ Shows how to set the order of text columns in a section.
 doc = aw.Document()
 page_setup = doc.sections[0].page_setup
 page_setup.text_columns.set_count(3)
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Column 1.')
 builder.insert_break(aw.BreakType.COLUMN_BREAK)
 builder.write('Column 2.')
 builder.insert_break(aw.BreakType.COLUMN_BREAK)
 builder.write('Column 3.')
-# Set the "bidi" property to "True" to arrange the columns starting from the page's right side.
+# Set the "Bidi" property to "true" to arrange the columns starting from the page's right side.
 # The order of the columns will match the direction of the right-to-left text.
-# Set the "bidi" property to "False" to arrange the columns starting from the page's left side.
+# Set the "Bidi" property to "false" to arrange the columns starting from the page's left side.
 # The order of the columns will match the direction of the left-to-right text.
 page_setup.bidi = reverse_columns
-doc.save(ARTIFACTS_DIR + 'PageSetup.bidi.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.Bidi.docx')
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.title property. Gets or sets the title of the document."
 type: docs
-weight: 290
+weight: 320
 url: /python-net/aspose.words.properties/builtindocumentproperties/title/
 ---
 

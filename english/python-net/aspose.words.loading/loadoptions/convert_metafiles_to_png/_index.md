@@ -43,18 +43,18 @@ Shows how to convert WMF/EMF to PNG during loading document.
 ```python
 doc = aw.Document()
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
-shape.image_data.set_image(IMAGE_DIR + 'Windows MetaFile.wmf')
+shape.image_data.set_image(file_name=IMAGE_DIR + 'Windows MetaFile.wmf')
 shape.width = 100
 shape.height = 100
 doc.first_section.body.first_paragraph.append_child(shape)
-doc.save(ARTIFACTS_DIR + 'Image.convert_metafiles_to_png.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Image.CreateImageDirectly.docx')
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-self.verify_image_in_shape(1600, 1600, aw.drawing.ImageType.WMF, shape)
+test_util.TestUtil.verify_image_in_shape(1600, 1600, aw.drawing.ImageType.WMF, shape)
 load_options = aw.loading.LoadOptions()
 load_options.convert_metafiles_to_png = True
-doc = aw.Document(ARTIFACTS_DIR + 'Image.convert_metafiles_to_png.docx', load_options)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'Image.CreateImageDirectly.docx', load_options=load_options)
 shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
-self.verify_image_in_shape(1666, 1666, aw.drawing.ImageType.PNG, shape)
+test_util.TestUtil.verify_image_in_shape(1666, 1666, aw.drawing.ImageType.PNG, shape)
 ```
 
 ### See Also

@@ -65,6 +65,24 @@ def merge(self, output_file: str, input_files: List[str], save_options: aspose.w
 | save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 | merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
 
+## merge(output_file, input_files, load_options, save_options, merge_format_mode) {#str_strlist_loadoptionslist_saveoptions_mergeformatmode}
+
+Merges the given input documents into a single output document using specified input output file names and save options.
+
+
+```python
+def merge(self, output_file: str, input_files: List[str], load_options: List[aspose.words.loading.LoadOptions], save_options: aspose.words.saving.SaveOptions, merge_format_mode: aspose.words.lowcode.MergeFormatMode):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output_file | str | The output file name. |
+| input_files | List[str] | The input file names. |
+| load_options | List[[LoadOptions](../../../aspose.words.loading/loadoptions/)] | Load options for the input files. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
+
 ## merge(input_files, merge_format_mode) {#strlist_mergeformatmode}
 
 Merges the given input documents into a single document and returns [Document](../../../aspose.words/document/) instance of the final document.
@@ -79,6 +97,23 @@ def merge(self, input_files: List[str], merge_format_mode: aspose.words.lowcode.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input_files | List[str] | The input file names. |
+| merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
+
+## merge(input_files, load_options, merge_format_mode) {#strlist_loadoptionslist_mergeformatmode}
+
+Merges the given input documents into a single document and returns [Document](../../../aspose.words/document/) instance of the final document.
+
+
+
+```python
+def merge(self, input_files: List[str], load_options: List[aspose.words.loading.LoadOptions], merge_format_mode: aspose.words.lowcode.MergeFormatMode):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_files | List[str] | The input file names. |
+| load_options | List[[LoadOptions](../../../aspose.words.loading/loadoptions/)] | Load options for the input files. |
 | merge_format_mode | [MergeFormatMode](../../mergeformatmode/) | Specifies how to merge formatting that clashes. |
 
 ## Examples

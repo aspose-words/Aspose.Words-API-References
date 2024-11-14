@@ -75,13 +75,13 @@ If the style in destination document is different from the source then it is imp
 Shows how to insert a document into another document.
 
 ```python
-doc = aw.Document(MY_DIR + 'Document.docx')
-builder = aw.DocumentBuilder(doc)
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+builder = aw.DocumentBuilder(doc=doc)
 builder.move_to_document_end()
 builder.insert_break(aw.BreakType.PAGE_BREAK)
-doc_to_insert = aw.Document(MY_DIR + 'Formatted elements.docx')
-builder.insert_document(doc_to_insert, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
-builder.document.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_document.docx')
+doc_to_insert = aw.Document(file_name=MY_DIR + 'Formatted elements.docx')
+builder.insert_document(src_doc=doc_to_insert, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
+builder.document.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertDocument.docx')
 ```
 
 ### See Also

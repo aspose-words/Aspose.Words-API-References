@@ -62,6 +62,41 @@ for node in tags:
     self.assertEqual('Quote', sdt.style_name)
 ```
 
+Shows how to fill a table with data from in an XML part.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+xml_part = doc.custom_xml_parts.add(id='Books', xml='<books>' + '<book>' + '<title>Everyday Italian</title>' + '<author>Giada De Laurentiis</author>' + '</book>' + '<book>' + '<title>The C Programming Language</title>' + '<author>Brian W. Kernighan, Dennis M. Ritchie</author>' + '</book>' + '<book>' + '<title>Learning XML</title>' + '<author>Erik T. Ray</author>' + '</book>' + '</books>')
+# Create headers for data from the XML content.
+table = builder.start_table()
+builder.insert_cell()
+builder.write('Title')
+builder.insert_cell()
+builder.write('Author')
+builder.end_row()
+builder.end_table()
+# Create a table with a repeating section inside.
+repeating_section_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.REPEATING_SECTION, aw.markup.MarkupLevel.ROW)
+repeating_section_sdt.xml_mapping.set_mapping(xml_part, '/books[1]/book', '')
+table.append_child(repeating_section_sdt)
+# Add repeating section item inside the repeating section and mark it as a row.
+# This table will have a row for each element that we can find in the XML document
+# using the "/books[1]/book" XPath, of which there are three.
+repeating_section_item_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.REPEATING_SECTION_ITEM, aw.markup.MarkupLevel.ROW)
+repeating_section_sdt.append_child(repeating_section_item_sdt)
+row = aw.tables.Row(doc)
+repeating_section_item_sdt.append_child(row)
+# Map XML data with created table cells for the title and author of each book.
+title_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.PLAIN_TEXT, aw.markup.MarkupLevel.CELL)
+title_sdt.xml_mapping.set_mapping(xml_part, '/books[1]/book[1]/title[1]', '')
+row.append_child(title_sdt)
+author_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.PLAIN_TEXT, aw.markup.MarkupLevel.CELL)
+author_sdt.xml_mapping.set_mapping(xml_part, '/books[1]/book[1]/author[1]', '')
+row.append_child(author_sdt)
+doc.save(file_name=ARTIFACTS_DIR + 'StructuredDocumentTag.RepeatingSectionItem.docx')
+```
+
 Shows how to create group structured document tag at the Row level.
 
 ```python
@@ -104,41 +139,6 @@ builder.insert_field(field_code='CITATION Ath22 \\l 1033 ', field_value='(John L
 while sdt.next_sibling != None:
     sdt.append_child(sdt.next_sibling)
 doc.save(file_name=ARTIFACTS_DIR + 'StructuredDocumentTag.Citation.docx')
-```
-
-Shows how to fill a table with data from in an XML part.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-xml_part = doc.custom_xml_parts.add('Books', '<books>' + '<book>' + '<title>Everyday Italian</title>' + '<author>Giada De Laurentiis</author>' + '</book>' + '<book>' + '<title>The C Programming Language</title>' + '<author>Brian W. Kernighan, Dennis M. Ritchie</author>' + '</book>' + '<book>' + '<title>Learning XML</title>' + '<author>Erik T. Ray</author>' + '</book>' + '</books>')
-# Create headers for data from the XML content.
-table = builder.start_table()
-builder.insert_cell()
-builder.write('Title')
-builder.insert_cell()
-builder.write('Author')
-builder.end_row()
-builder.end_table()
-# Create a table with a repeating section inside.
-repeating_section_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.REPEATING_SECTION, aw.markup.MarkupLevel.ROW)
-repeating_section_sdt.xml_mapping.set_mapping(xml_part, '/books[1]/book', '')
-table.append_child(repeating_section_sdt)
-# Add repeating section item inside the repeating section and mark it as a row.
-# This table will have a row for each element that we can find in the XML document
-# using the "/books[1]/book" XPath, of which there are three.
-repeating_section_item_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.REPEATING_SECTION_ITEM, aw.markup.MarkupLevel.ROW)
-repeating_section_sdt.append_child(repeating_section_item_sdt)
-row = aw.tables.Row(doc)
-repeating_section_item_sdt.append_child(row)
-# Map XML data with created table cells for the title and author of each book.
-title_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.PLAIN_TEXT, aw.markup.MarkupLevel.CELL)
-title_sdt.xml_mapping.set_mapping(xml_part, '/books[1]/book[1]/title[1]', '')
-row.append_child(title_sdt)
-author_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.PLAIN_TEXT, aw.markup.MarkupLevel.CELL)
-author_sdt.xml_mapping.set_mapping(xml_part, '/books[1]/book[1]/author[1]', '')
-row.append_child(author_sdt)
-doc.save(ARTIFACTS_DIR + 'StructuredDocumentTag.fill_table_using_repeating_section_item.docx')
 ```
 
 ### See Also

@@ -55,12 +55,12 @@ Shows how to configure a list to restart numbering at each section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-doc.lists.add(aw.lists.ListTemplate.NUMBER_DEFAULT)
+builder = aw.DocumentBuilder(doc=doc)
+doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
 list = doc.lists[0]
 list.is_restart_at_each_section = restart_list_at_each_section
-# The "is_restart_at_each_section" property will only be applicable when
-# the document's OOXML compliance level is to a standard that is newer than "OoxmlComplianceCore.ECMA376".
+# The "IsRestartAtEachSection" property will only be applicable when
+# the document's OOXML compliance level is to a standard that is newer than "OoxmlComplianceCore.Ecma376".
 options = aw.saving.OoxmlSaveOptions()
 options.compliance = aw.saving.OoxmlCompliance.ISO29500_2008_TRANSITIONAL
 builder.list_format.list = list
@@ -69,8 +69,8 @@ builder.writeln('List item 2')
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 builder.writeln('List item 3')
 builder.writeln('List item 4')
-doc.save(ARTIFACTS_DIR + 'OoxmlSaveOptions.restarting_document_list.docx', options)
-doc = aw.Document(ARTIFACTS_DIR + 'OoxmlSaveOptions.restarting_document_list.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.RestartingDocumentList.docx', save_options=options)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.RestartingDocumentList.docx')
 self.assertEqual(restart_list_at_each_section, doc.lists[0].is_restart_at_each_section)
 ```
 
@@ -78,18 +78,18 @@ Shows how to insert DML shapes into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Below are two wrapping types that shapes may have.
 # 1 -  Floating:
-builder.insert_shape(aw.drawing.ShapeType.TOP_CORNERS_ROUNDED, aw.drawing.RelativeHorizontalPosition.PAGE, 100, aw.drawing.RelativeVerticalPosition.PAGE, 100, 50, 50, aw.drawing.WrapType.NONE)
+builder.insert_shape(shape_type=aw.drawing.ShapeType.TOP_CORNERS_ROUNDED, horz_pos=aw.drawing.RelativeHorizontalPosition.PAGE, left=100, vert_pos=aw.drawing.RelativeVerticalPosition.PAGE, top=100, width=50, height=50, wrap_type=aw.drawing.WrapType.NONE)
 # 2 -  Inline:
-builder.insert_shape(aw.drawing.ShapeType.DIAGONAL_CORNERS_ROUNDED, 50, 50)
+builder.insert_shape(shape_type=aw.drawing.ShapeType.DIAGONAL_CORNERS_ROUNDED, width=50, height=50)
 # If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 # TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
 # then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
 save_options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
 save_options.compliance = aw.saving.OoxmlCompliance.ISO29500_2008_TRANSITIONAL
-doc.save(ARTIFACTS_DIR + 'Shape.shape_insertion.docx', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.ShapeInsertion.docx', save_options=save_options)
 ```
 
 ### See Also

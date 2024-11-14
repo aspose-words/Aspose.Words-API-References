@@ -24,7 +24,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 | Name | Description |
 | --- | --- |
 | [back_color](./back_color/) | Gets or sets a background color of the control. The default value depends on a type of the control. |
-| [caption](./caption/) | Gets Caption property of control. Default value is an empty string. |
+| [caption](./caption/) | Gets or sets a Caption property of the control. Default value is an empty string. |
 | [child_nodes](./child_nodes/) | Gets collection of immediate child controls. |
 | [enabled](./enabled/) | Returns ``True`` if control is in enabled state. |
 | [fore_color](./fore_color/) | Gets or sets a foreground color of the control. The default value depends on a type of the control. |

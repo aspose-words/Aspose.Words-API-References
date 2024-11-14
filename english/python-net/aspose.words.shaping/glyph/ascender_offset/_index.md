@@ -3,24 +3,13 @@ title: Glyph.ascender_offset property
 linktitle: ascender_offset property
 articleTitle: ascender_offset property
 second_title: Aspose.Words for Python
-description: "Glyph.ascender_offset property. Vertical (y) offset relative to glyph position"
+description: "Glyph.ascender_offset property. "
 type: docs
 weight: 40
 url: /python-net/aspose.words.shaping/glyph/ascender_offset/
 ---
 
 ## Glyph.ascender_offset property
-
-Vertical (y) offset relative to glyph position.
-Mostly used to attach marks (like diacritics) to base characters.
-
-
-```python
-@property
-def ascender_offset(self) -> int:
-    ...
-
-```
 
 ### See Also
 

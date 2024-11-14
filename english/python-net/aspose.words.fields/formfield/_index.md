@@ -118,13 +118,13 @@ doc.save(file_name=ARTIFACTS_DIR + 'FormFields.Create.html')
 Shows how to formatting the entire FormField, including the field value.
 
 ```python
-doc = aw.Document(MY_DIR + 'Form fields.docx')
+doc = aw.Document(file_name=MY_DIR + 'Form fields.docx')
 form_field = doc.range.form_fields[0]
 form_field.font.bold = True
 form_field.font.size = 24
 form_field.font.color = aspose.pydrawing.Color.red
 form_field.result = 'Aspose.FormField'
-doc = DocumentHelper.save_open(doc)
+doc = document_helper.DocumentHelper.save_open(doc)
 form_field_run = doc.first_section.body.first_paragraph.runs[1]
 self.assertEqual('Aspose.FormField', form_field_run.text)
 self.assertEqual(True, form_field_run.font.bold)

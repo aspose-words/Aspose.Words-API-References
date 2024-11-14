@@ -70,6 +70,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [preserve_form_fields](./preserve_form_fields/) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is ``False``. |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [render_choice_form_field_border](./render_choice_form_field_border/) | Specifies whether to render PDF choice form field border. |
 | [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.PDF](../../aspose.words/saveformat/#PDF). |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [text_compression](./text_compression/) | Specifies compression type to be used for all textual content in the document. |
@@ -138,32 +139,34 @@ Shows how to apply text compression when saving a document to PDF.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-for i in range(100):
+builder = aw.DocumentBuilder(doc=doc)
+i = 0
+while i < 100:
     builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' + 'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+    i += 1
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-# Set the "text_compression" property to "PdfTextCompression.NONE" to not apply any
+# Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
 # compression to text when we save the document to PDF.
-# Set the "text_compression" property to "PdfTextCompression.FLATE" to apply ZIP compression
+# Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
 # to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
 options.text_compression = pdf_text_compression
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.text_compression.pdf', options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.TextCompression.pdf', save_options=options)
 ```
 
 Shows how to change image color with saving options property.
 
 ```python
-doc = aw.Document(MY_DIR + 'Images.docx')
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
-# Set the "color_mode" property to "GRAYSCALE" to render all images from the document in black and white.
+# Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
 # The size of the output document may be larger with this setting.
-# Set the "color_mode" property to "NORMAL" to render all images in color.
+# Set the "ColorMode" property to "Normal" to render all images in color.
 pdf_save_options = aw.saving.PdfSaveOptions()
 pdf_save_options.color_mode = color_mode
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.color_rendering.pdf', pdf_save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ColorRendering.pdf', save_options=pdf_save_options)
 ```
 
 ### See Also

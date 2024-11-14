@@ -32,6 +32,20 @@ list by its identifier.
 
 ### Examples
 
+Shows how to verify owner document properties of lists.
+
+```python
+doc = aw.Document()
+lists = doc.lists
+self.assertEqual(doc, lists.document)
+list = lists.add(list_template=aw.lists.ListTemplate.BULLET_DEFAULT)
+self.assertEqual(doc, list.document)
+print('Current list count: ' + str(lists.count))
+print('Is the first document list: ' + str(lists[0].equals(list=list)))
+print('ListId: ' + str(list.list_id))
+print('List is the same by ListId: ' + str(lists.get_list_by_list_id(1).equals(list=list)))
+```
+
 Shows how to output all paragraphs in a document that are list items.
 
 ```python
@@ -53,20 +67,6 @@ for para in paras:
     if para.list_format.is_list_item:
         print(f'This paragraph belongs to list ID# {para.list_format.list.list_id}, number style "{para.list_format.list_level.number_style}"')
         print(f'\t"{para.get_text().strip()}"')
-```
-
-Shows how to verify owner document properties of lists.
-
-```python
-doc = aw.Document()
-lists = doc.lists
-self.assertEqual(doc, lists.document)
-list = lists.add(aw.lists.ListTemplate.BULLET_DEFAULT)
-self.assertEqual(doc, list.document)
-print('Current list count:', lists.count)
-print('Is the first document list:', lists[0] is list)
-print('List id:', list.list_id)
-print('List is the same by list_id:', lists.get_list_by_list_id(1) is list)
 ```
 
 ### See Also

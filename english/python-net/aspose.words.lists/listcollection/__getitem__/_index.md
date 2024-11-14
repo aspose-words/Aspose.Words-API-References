@@ -25,6 +25,20 @@ def __getitem__(self, index: int):
 
 ### Examples
 
+Shows how to verify owner document properties of lists.
+
+```python
+doc = aw.Document()
+lists = doc.lists
+self.assertEqual(doc, lists.document)
+list = lists.add(list_template=aw.lists.ListTemplate.BULLET_DEFAULT)
+self.assertEqual(doc, list.document)
+print('Current list count: ' + str(lists.count))
+print('Is the first document list: ' + str(lists[0].equals(list=list)))
+print('ListId: ' + str(list.list_id))
+print('List is the same by ListId: ' + str(lists.get_list_by_list_id(1).equals(list=list)))
+```
+
 Shows how to apply list formatting of an existing list to a collection of paragraphs.
 
 ```python
@@ -41,20 +55,6 @@ for paragraph in paras:
     paragraph.list_format.list = list
     paragraph.list_format.list_level_number = 2
 self.assertEqual(3, len([p for p in paras if p.list_format.is_list_item]))
-```
-
-Shows how to verify owner document properties of lists.
-
-```python
-doc = aw.Document()
-lists = doc.lists
-self.assertEqual(doc, lists.document)
-list = lists.add(aw.lists.ListTemplate.BULLET_DEFAULT)
-self.assertEqual(doc, list.document)
-print('Current list count:', lists.count)
-print('Is the first document list:', lists[0] is list)
-print('List id:', list.list_id)
-print('List is the same by list_id:', lists.get_list_by_list_id(1) is list)
 ```
 
 ### See Also

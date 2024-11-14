@@ -40,8 +40,8 @@ Shows how to create nested editable ranges.
 
 ```python
 doc = aw.Document()
-doc.protect(aw.ProtectionType.READ_ONLY, 'MyPassword')
-builder = aw.DocumentBuilder(doc)
+doc.protect(type=aw.ProtectionType.READ_ONLY, password='MyPassword')
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln("Hello world! Since we have set the document's protection level to read-only, " + 'we cannot edit this paragraph without the password.')
 # Create two nested editable ranges.
 outer_editable_range_start = builder.start_editable_range()
@@ -59,7 +59,7 @@ builder.writeln('This paragraph is outside any editable ranges, and cannot be ed
 # the combined group of users excluded by both groups are prevented from editing it.
 outer_editable_range_start.editable_range.editor_group = aw.EditorType.EVERYONE
 inner_editable_range_start.editable_range.editor_group = aw.EditorType.CONTRIBUTORS
-doc.save(ARTIFACTS_DIR + 'EditableRange.nested.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'EditableRange.Nested.docx')
 ```
 
 ### See Also

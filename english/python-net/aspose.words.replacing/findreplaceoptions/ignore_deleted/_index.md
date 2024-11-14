@@ -38,7 +38,7 @@ builder.writeln('Hello world!')
 builder.writeln('Hello again!')
 # Start tracking revisions and remove the second paragraph, which will create a delete revision.
 # That paragraph will persist in the document until we accept the delete revision.
-doc.start_track_revisions('John Doe', datetime.now())
+doc.start_track_revisions('John Doe', datetime.datetime.now())
 doc.first_section.body.paragraphs[1].remove()
 doc.stop_track_revisions()
 self.assertTrue(doc.first_section.body.paragraphs[1].is_delete_revision)
