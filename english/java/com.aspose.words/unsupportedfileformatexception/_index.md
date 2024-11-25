@@ -4,7 +4,7 @@ linktitle: UnsupportedFileFormatException
 second_title: Aspose.Words for Java
 description: Thrown during document load when the document format is not recognized or not supported by Aspose.Words in Java.
 type: docs
-weight: 652
+weight: 658
 url: /java/com.aspose.words/unsupportedfileformatexception/
 ---
 

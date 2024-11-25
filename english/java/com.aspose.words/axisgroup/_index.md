@@ -4,7 +4,7 @@ linktitle: AxisGroup
 second_title: Aspose.Words for Java
 description: Represents a type of a chart axis group in Java.
 type: docs
-weight: 24
+weight: 26
 url: /java/com.aspose.words/axisgroup/
 ---
 

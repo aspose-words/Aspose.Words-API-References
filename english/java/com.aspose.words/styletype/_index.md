@@ -4,7 +4,7 @@ linktitle: StyleType
 second_title: Aspose.Words for Java
 description: Represents type of the style in Java.
 type: docs
-weight: 600
+weight: 604
 url: /java/com.aspose.words/styletype/
 ---
 

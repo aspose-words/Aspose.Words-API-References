@@ -4,7 +4,7 @@ linktitle: BuildingBlock
 second_title: Aspose.Words for Java
 description: Represents a glossary document entry such as a Building Block AutoText or an AutoCorrect entry in Java.
 type: docs
-weight: 49
+weight: 51
 url: /java/com.aspose.words/buildingblock/
 ---
 

@@ -35,6 +35,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Adjustment](../com.aspose.words/adjustment/) | Represents adjustment values that are applied to the specified shape. |
 | [AdjustmentCollection](../com.aspose.words/adjustmentcollection/) | Represents a read-only collection of [Adjustment](../com.aspose.words/adjustment/) adjust values that are applied to the specified shape. |
 | [AdvancedCompareOptions](../com.aspose.words/advancedcompareoptions/) | Allows to set advanced compare options. |
+| [AiModel](../com.aspose.words/aimodel/) | Represents information about a Generative Language Model. |
+| [AiModelType](../com.aspose.words/aimodeltype/) | Represents the types of [AiModel](../com.aspose.words/aimodel/) that can be integrated into the document processing workflow. |
 | [ArrowLength](../com.aspose.words/arrowlength/) | Length of the arrow at the end of a line. |
 | [ArrowType](../com.aspose.words/arrowtype/) | Specifies the type of an arrow at a line end. |
 | [ArrowWidth](../com.aspose.words/arrowwidth/) | Width of the arrow at the end of a line. |
@@ -367,6 +369,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [GlossaryDocument](../com.aspose.words/glossarydocument/) | Represents the root element for a glossary document within a Word document. |
 | [GlowFormat](../com.aspose.words/glowformat/) | Represents the glow formatting for an object. |
 | [Glyph](../com.aspose.words/glyph/) | Represents a glyph |
+| [GoogleAiModel](../com.aspose.words/googleaimodel/) | An abstract class representing the integration with Google\\u2019s AI models within the Aspose.Words. |
 | [GradientStop](../com.aspose.words/gradientstop/) | Represents one gradient stop. |
 | [GradientStopCollection](../com.aspose.words/gradientstopcollection/) | Contains a collection of [GradientStop](../com.aspose.words/gradientstop/) objects. |
 | [GradientStyle](../com.aspose.words/gradientstyle/) | Specifies the style for a gradient fill. |
@@ -499,6 +502,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [OlePackage](../com.aspose.words/olepackage/) | Allows to access OLE Package properties. |
 | [OoxmlCompliance](../com.aspose.words/ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the DOCX format. |
 | [OoxmlSaveOptions](../com.aspose.words/ooxmlsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#DOCX](../com.aspose.words/saveformat/\#DOCX), [SaveFormat.\#DOCM](../com.aspose.words/saveformat/\#DOCM), [SaveFormat.\#DOTX](../com.aspose.words/saveformat/\#DOTX), [SaveFormat.\#DOTM](../com.aspose.words/saveformat/\#DOTM) or [SaveFormat.\#FLAT\_OPC](../com.aspose.words/saveformat/\#FLAT-OPC) format. |
+| [OpenAiModel](../com.aspose.words/openaimodel/) | An abstract class representing the integration with OpenAI's large language models within the Aspose.Words. |
 | [OptionButtonControl](../com.aspose.words/optionbuttoncontrol/) | The OptionButton control enables a single choice in a limited set of mutually exclusive choices. |
 | [Orientation](../com.aspose.words/orientation/) | Specifies page orientation. |
 | [OutlineLevel](../com.aspose.words/outlinelevel/) | Specifies the outline level of a paragraph in the document. |
@@ -623,6 +627,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [StyleIdentifier](../com.aspose.words/styleidentifier/) | Locale independent style identifier. |
 | [StyleType](../com.aspose.words/styletype/) | Represents type of the style. |
 | [SubDocument](../com.aspose.words/subdocument/) | Represents a **SubDocument** \- which is a reference to an externally stored document. |
+| [SummarizeOptions](../com.aspose.words/summarizeoptions/) | Allows to specify various options for summarizing document content. |
+| [SummaryLength](../com.aspose.words/summarylength/) | Enumerates possible lengths of summary. |
 | [SvgSaveOptions](../com.aspose.words/svgsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#SVG](../com.aspose.words/saveformat/\#SVG) format. |
 | [SvgTextOutputMode](../com.aspose.words/svgtextoutputmode/) | Allows to specify how text inside a document should be rendered when saving in SVG format. |
 | [SystemFontSource](../com.aspose.words/systemfontsource/) | Represents all TrueType fonts installed to the system. |
@@ -727,6 +733,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 
 | Interface | Description |
 | --- | --- |
+| [IAiModelText](../com.aspose.words/iaimodeltext/) | The common interface for AI models designed to generate a variety of text-based content. |
 | [IBarcodeGenerator](../com.aspose.words/ibarcodegenerator/) | Public interface for barcode custom generator. |
 | [IBibliographyStylesProvider](../com.aspose.words/ibibliographystylesprovider/) | Implement this interface to provide bibliography style for the [FieldBibliography](../com.aspose.words/fieldbibliography/) and [FieldCitation](../com.aspose.words/fieldcitation/) fields when they're updated. |
 | [IChartDataPoint](../com.aspose.words/ichartdatapoint/) | Contains properties of a single data point on the chart. |

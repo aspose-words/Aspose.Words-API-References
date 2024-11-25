@@ -4,7 +4,7 @@ linktitle: SectionCollection
 second_title: Aspose.Words for Java
 description: A collection of Section objects in the document in Java.
 type: docs
-weight: 567
+weight: 571
 url: /java/com.aspose.words/sectioncollection/
 ---
 

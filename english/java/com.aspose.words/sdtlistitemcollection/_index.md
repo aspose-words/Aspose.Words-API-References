@@ -4,7 +4,7 @@ linktitle: SdtListItemCollection
 second_title: Aspose.Words for Java
 description: Provides access to SdtListItem elements of a structured document tag in Java.
 type: docs
-weight: 564
+weight: 568
 url: /java/com.aspose.words/sdtlistitemcollection/
 ---
 

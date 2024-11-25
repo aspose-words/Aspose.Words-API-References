@@ -4,7 +4,7 @@ linktitle: IDocumentMergerPlugin
 second_title: Aspose.Words for Java
 description: Defines an interface for external merger plugin that can merge Pdf documents in Java.
 type: docs
-weight: 708
+weight: 715
 url: /java/com.aspose.words/idocumentmergerplugin/
 ---
 ```
@@ -16,10 +16,10 @@ Defines an interface for external merger plugin that can merge Pdf documents.
 
 | Method | Description |
 | --- | --- |
-| [merge(OutputStream outputStream, InputStream[] inputStreams)](#merge-java.io.OutputStream-java.io.InputStream...) |  |
-### merge(OutputStream outputStream, InputStream[] inputStreams) {#merge-java.io.OutputStream-java.io.InputStream...}
+| [merge(OutputStream outputStream, InputStream[] inputStreams, LoadOptions[] loadOptions)](#merge-java.io.OutputStream-java.io.InputStream---com.aspose.words.LoadOptions) |  |
+### merge(OutputStream outputStream, InputStream[] inputStreams, LoadOptions[] loadOptions) {#merge-java.io.OutputStream-java.io.InputStream---com.aspose.words.LoadOptions}
 ```
-public abstract void merge(OutputStream outputStream, InputStream[] inputStreams)
+public abstract void merge(OutputStream outputStream, InputStream[] inputStreams, LoadOptions[] loadOptions)
 ```
 
 
@@ -30,4 +30,5 @@ public abstract void merge(OutputStream outputStream, InputStream[] inputStreams
 | --- | --- | --- |
 | outputStream | java.io.OutputStream |  |
 | inputStreams | java.io.InputStream[] |  |
+| loadOptions | [LoadOptions\[\]](../../com.aspose.words/loadoptions/) |  |
 

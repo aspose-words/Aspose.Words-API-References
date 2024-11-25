@@ -4,7 +4,7 @@ linktitle: GlowFormat
 second_title: Aspose.Words for Java
 description: Represents the glow formatting for an object in Java.
 type: docs
-weight: 344
+weight: 346
 url: /java/com.aspose.words/glowformat/
 ---
 

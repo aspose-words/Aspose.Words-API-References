@@ -4,7 +4,7 @@ linktitle: Forms2OleControl
 second_title: Aspose.Words for Java
 description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
-weight: 335
+weight: 337
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
@@ -54,7 +54,7 @@ Shows how to verify the properties of an ActiveX control.
 | Method | Description |
 | --- | --- |
 | [getBackColor()](#getBackColor) | Gets a background color of the control. |
-| [getCaption()](#getCaption) | Gets Caption property of control. |
+| [getCaption()](#getCaption) | Gets a Caption property of the control. |
 | [getChildNodes()](#getChildNodes) | Gets collection of immediate child controls. |
 | [getClsidInternal()](#getClsidInternal) |  |
 | [getEnabled()](#getEnabled) | Returns  true  if control is in enabled state. |
@@ -72,6 +72,7 @@ Shows how to verify the properties of an ActiveX control.
 | [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
 | [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
 | [setBackColor(Color value)](#setBackColor-java.awt.Color) | Sets a background color of the control. |
+| [setCaption(String value)](#setCaption-java.lang.String) | Sets a Caption property of the control. |
 | [setForeColor(Color value)](#setForeColor-java.awt.Color) | Sets a foreground color of the control. |
 | [setGroupName(String value)](#setGroupName-java.lang.String) | Sets a string that specifies a group of mutually exclusive controls. |
 | [setHeight(double value)](#setHeight-double) | Sets a height of the control in points. |
@@ -117,9 +118,21 @@ public String getCaption()
 ```
 
 
-Gets Caption property of control. Default value is an empty string.
+Gets a Caption property of the control. Default value is an empty string.
 
  **Examples:** 
+
+Shows how to set caption for ActiveX control.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
+ Shape shape = builder.insertForms2OleControl(button1);
+ Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ 
+```
 
 Shows how to verify the properties of an ActiveX control.
 
@@ -144,7 +157,7 @@ Shows how to verify the properties of an ActiveX control.
 ```
 
 **Returns:**
-java.lang.String - Caption property of control.
+java.lang.String - A Caption property of the control.
 ### getChildNodes() {#getChildNodes}
 ```
 public Forms2OleControlCollection getChildNodes()
@@ -562,6 +575,55 @@ Shows how to set properties for ActiveX control.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | A background color of the control. |
+
+### setCaption(String value) {#setCaption-java.lang.String}
+```
+public void setCaption(String value)
+```
+
+
+Sets a Caption property of the control. Default value is an empty string.
+
+ **Examples:** 
+
+Shows how to set caption for ActiveX control.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
+ Shape shape = builder.insertForms2OleControl(button1);
+ Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ 
+```
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "First");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A Caption property of the control. |
 
 ### setForeColor(Color value) {#setForeColor-java.awt.Color}
 ```

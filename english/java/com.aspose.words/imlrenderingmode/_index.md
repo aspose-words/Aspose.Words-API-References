@@ -4,7 +4,7 @@ linktitle: ImlRenderingMode
 second_title: Aspose.Words for Java
 description: Specifies how ink InkML objects are rendered to fixed page formats in Java.
 type: docs
-weight: 383
+weight: 386
 url: /java/com.aspose.words/imlrenderingmode/
 ---
 

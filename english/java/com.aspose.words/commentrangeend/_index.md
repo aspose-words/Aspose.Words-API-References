@@ -4,7 +4,7 @@ linktitle: CommentRangeEnd
 second_title: Aspose.Words for Java
 description: Denotes the end of a region of text that has a comment associated with it in Java.
 type: docs
-weight: 104
+weight: 106
 url: /java/com.aspose.words/commentrangeend/
 ---
 
@@ -1346,7 +1346,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (181722,6)
+Returns  true  if this node can contain other nodes. (182297,6)
 
  **Examples:** 
 

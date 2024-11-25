@@ -4,7 +4,7 @@ linktitle: ChartMarker
 second_title: Aspose.Words for Java
 description: Represents a chart data marker in Java.
 type: docs
-weight: 77
+weight: 79
 url: /java/com.aspose.words/chartmarker/
 ---
 

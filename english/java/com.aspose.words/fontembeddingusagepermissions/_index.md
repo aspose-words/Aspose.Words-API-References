@@ -4,7 +4,7 @@ linktitle: FontEmbeddingUsagePermissions
 second_title: Aspose.Words for Java
 description: Represents the font embedding usage permissions in Java.
 type: docs
-weight: 310
+weight: 312
 url: /java/com.aspose.words/fontembeddingusagepermissions/
 ---
 

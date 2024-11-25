@@ -4,7 +4,7 @@ linktitle: Chart
 second_title: Aspose.Words for Java
 description: Provides access to the chart shape properties in Java.
 type: docs
-weight: 63
+weight: 65
 url: /java/com.aspose.words/chart/
 ---
 

@@ -4,7 +4,7 @@ linktitle: AxisScaleType
 second_title: Aspose.Words for Java
 description: Specifies the possible scale types for an axis in Java.
 type: docs
-weight: 25
+weight: 27
 url: /java/com.aspose.words/axisscaletype/
 ---
 

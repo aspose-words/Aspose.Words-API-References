@@ -4,7 +4,7 @@ linktitle: ChartShapeType
 second_title: Aspose.Words for Java
 description: Specifies the shape type of chart elements in Java.
 type: docs
-weight: 85
+weight: 87
 url: /java/com.aspose.words/chartshapetype/
 ---
 

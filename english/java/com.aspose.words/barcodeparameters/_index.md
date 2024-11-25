@@ -4,7 +4,7 @@ linktitle: BarcodeParameters
 second_title: Aspose.Words for Java
 description: Container class for barcode parameters to pass-through to BarcodeGenerator in Java.
 type: docs
-weight: 31
+weight: 33
 url: /java/com.aspose.words/barcodeparameters/
 ---
 

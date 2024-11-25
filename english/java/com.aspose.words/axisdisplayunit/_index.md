@@ -4,7 +4,7 @@ linktitle: AxisDisplayUnit
 second_title: Aspose.Words for Java
 description: Provides access to the scaling options of the display units for the value axis in Java.
 type: docs
-weight: 23
+weight: 25
 url: /java/com.aspose.words/axisdisplayunit/
 ---
 
