@@ -4,7 +4,7 @@ linktitle: AxisTimeUnit
 second_title: Aspose.Words for Java
 description: Specifies the unit of time for axes in Java.
 type: docs
-weight: 30
+weight: 32
 url: /java/com.aspose.words/axistimeunit/
 ---
 

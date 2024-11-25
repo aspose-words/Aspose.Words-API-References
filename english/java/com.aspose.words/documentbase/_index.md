@@ -4,7 +4,7 @@ linktitle: DocumentBase
 second_title: Aspose.Words for Java
 description: Provides the abstract base class for a main document and a glossary document of a Word document in Java.
 type: docs
-weight: 151
+weight: 153
 url: /java/com.aspose.words/documentbase/
 ---
 

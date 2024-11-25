@@ -4,7 +4,7 @@ linktitle: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for Java
 description: Specifies a digital hash algorithm used by a digital signature in Java.
 type: docs
-weight: 502
+weight: 506
 url: /java/com.aspose.words/pdfdigitalsignaturehashalgorithm/
 ---
 

@@ -4,7 +4,7 @@ linktitle: PageSavingArgs
 second_title: Aspose.Words for Java
 description: Provides data for the IPageSavingCallback.pageSavingcom.aspose.words.PageSavingArgs event in Java.
 type: docs
-weight: 488
+weight: 492
 url: /java/com.aspose.words/pagesavingargs/
 ---
 

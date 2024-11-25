@@ -4,7 +4,7 @@ linktitle: MarkdownLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.MARKDOWN document into a Document object in Java.
 type: docs
-weight: 431
+weight: 434
 url: /java/com.aspose.words/markdownloadoptions/
 ---
 

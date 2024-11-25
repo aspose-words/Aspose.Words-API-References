@@ -4,7 +4,7 @@ linktitle: BorderCollection
 second_title: Aspose.Words for Java
 description: A collection of Border objects in Java.
 type: docs
-weight: 44
+weight: 46
 url: /java/com.aspose.words/bordercollection/
 ---
 

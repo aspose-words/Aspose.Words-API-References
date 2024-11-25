@@ -4,7 +4,7 @@ linktitle: Bibliography
 second_title: Aspose.Words for Java
 description: Represents the list of bibliography sources available in the document in Java.
 type: docs
-weight: 35
+weight: 37
 url: /java/com.aspose.words/bibliography/
 ---
 

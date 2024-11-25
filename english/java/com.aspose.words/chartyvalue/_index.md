@@ -4,7 +4,7 @@ linktitle: ChartYValue
 second_title: Aspose.Words for Java
 description: Represents an Y value for a chart series in Java.
 type: docs
-weight: 91
+weight: 93
 url: /java/com.aspose.words/chartyvalue/
 ---
 

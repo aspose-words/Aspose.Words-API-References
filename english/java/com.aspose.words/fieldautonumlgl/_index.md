@@ -4,7 +4,7 @@ linktitle: FieldAutoNumLgl
 second_title: Aspose.Words for Java
 description: Implements the AUTONUMLGL field in Java.
 type: docs
-weight: 190
+weight: 192
 url: /java/com.aspose.words/fieldautonumlgl/
 ---
 

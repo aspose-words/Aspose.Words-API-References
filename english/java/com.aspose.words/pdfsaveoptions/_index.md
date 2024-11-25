@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PDF format in Java.
 type: docs
-weight: 512
+weight: 516
 url: /java/com.aspose.words/pdfsaveoptions/
 ---
 
@@ -197,6 +197,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getPreserveFormFields()](#getPreserveFormFields) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
+| [getRenderChoiceFormFieldBorder()](#getRenderChoiceFormFieldBorder) | Specifies whether to render PDF choice form field border. |
 | [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [getTextCompression()](#getTextCompression) | Specifies compression type to be used for all textual content in the document. |
@@ -252,6 +253,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [setPreserveFormFields(boolean value)](#setPreserveFormFields-boolean) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
+| [setRenderChoiceFormFieldBorder(boolean value)](#setRenderChoiceFormFieldBorder-boolean) | Specifies whether to render PDF choice form field border. |
 | [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [setTextCompression(int value)](#setTextCompression-int) | Specifies compression type to be used for all textual content in the document. |
@@ -2654,6 +2656,38 @@ Shows how to manage a document while saving to docx.
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
+### getRenderChoiceFormFieldBorder() {#getRenderChoiceFormFieldBorder}
+```
+public boolean getRenderChoiceFormFieldBorder()
+```
+
+
+Specifies whether to render PDF choice form field border.
+
+ **Remarks:** 
+
+PDF choice form fields are used for export of SDT Combo Box Content Control, SDT Drop-Down List Content Control and legacy Drop-Down Form Field when [getPreserveFormFields()](../../com.aspose.words/pdfsaveoptions/\#getPreserveFormFields) / [setPreserveFormFields(boolean)](../../com.aspose.words/pdfsaveoptions/\#setPreserveFormFields-boolean) option is enabled.
+
+The default value is  true .
+
+ **Examples:** 
+
+Shows how to render PDF choice form field border.
+
+```
+
+ Document doc = new Document(getMyDir() + "Legacy drop-down.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setPreserveFormFields(true);
+ saveOptions.setRenderChoiceFormFieldBorder(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.RenderChoiceFormFieldBorder.pdf", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSaveFormat() {#getSaveFormat}
 ```
 public int getSaveFormat()
@@ -5443,6 +5477,41 @@ Shows how to manage a document while saving to docx.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value. |
+
+### setRenderChoiceFormFieldBorder(boolean value) {#setRenderChoiceFormFieldBorder-boolean}
+```
+public void setRenderChoiceFormFieldBorder(boolean value)
+```
+
+
+Specifies whether to render PDF choice form field border.
+
+ **Remarks:** 
+
+PDF choice form fields are used for export of SDT Combo Box Content Control, SDT Drop-Down List Content Control and legacy Drop-Down Form Field when [getPreserveFormFields()](../../com.aspose.words/pdfsaveoptions/\#getPreserveFormFields) / [setPreserveFormFields(boolean)](../../com.aspose.words/pdfsaveoptions/\#setPreserveFormFields-boolean) option is enabled.
+
+The default value is  true .
+
+ **Examples:** 
+
+Shows how to render PDF choice form field border.
+
+```
+
+ Document doc = new Document(getMyDir() + "Legacy drop-down.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setPreserveFormFields(true);
+ saveOptions.setRenderChoiceFormFieldBorder(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.RenderChoiceFormFieldBorder.pdf", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSaveFormat(int value) {#setSaveFormat-int}
 ```

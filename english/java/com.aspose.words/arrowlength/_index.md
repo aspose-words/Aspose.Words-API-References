@@ -4,7 +4,7 @@ linktitle: ArrowLength
 second_title: Aspose.Words for Java
 description: Length of the arrow at the end of a line in Java.
 type: docs
-weight: 14
+weight: 16
 url: /java/com.aspose.words/arrowlength/
 ---
 

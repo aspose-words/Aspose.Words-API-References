@@ -4,7 +4,7 @@ linktitle: BuiltInDocumentProperties
 second_title: Aspose.Words for Java
 description: A collection of built-in document properties in Java.
 type: docs
-weight: 54
+weight: 56
 url: /java/com.aspose.words/builtindocumentproperties/
 ---
 
@@ -49,6 +49,7 @@ The properties in the collection are sorted alphabetically by name.
 | [getCreatedTime()](#getCreatedTime) | Gets date of the document creation in UTC. |
 | [getHeadingPairs()](#getHeadingPairs) | Specifies document headings and their names. |
 | [getHyperlinkBase()](#getHyperlinkBase) | Specifies the base string used for evaluating relative hyperlinks in this document. |
+| [getHyperlinksChanged()](#getHyperlinksChanged) | Indicates whether hyperlinks in a document were changed. |
 | [getKeywords()](#getKeywords) | Gets the document keywords. |
 | [getLastPrinted()](#getLastPrinted) | Gets the date when the document was last printed in UTC. |
 | [getLastSavedBy()](#getLastSavedBy) | Gets the name of the last author. |
@@ -60,7 +61,9 @@ The properties in the collection are sorted alphabetically by name.
 | [getPages()](#getPages) | Represents an estimate of the number of pages in the document. |
 | [getParagraphs()](#getParagraphs) | Represents an estimate of the number of paragraphs in the document. |
 | [getRevisionNumber()](#getRevisionNumber) | Gets the document revision number. |
+| [getScaleCrop()](#getScaleCrop) | Indicates whether document thumbnail is cropped or scaled to fit the display. |
 | [getSecurity()](#getSecurity) | Specifies the security level of a document as a numeric value. |
+| [getSharedDocument()](#getSharedDocument) | Indicates whether the document is a shared document. |
 | [getSubject()](#getSubject) | Gets the subject of the document. |
 | [getTemplate()](#getTemplate) | Gets the informational name of the document template. |
 | [getThumbnail()](#getThumbnail) | Gets or sets the thumbnail of the document. |
@@ -1317,6 +1320,33 @@ Shows how to store the base part of a hyperlink in the document's properties.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
+### getHyperlinksChanged() {#getHyperlinksChanged}
+```
+public boolean getHyperlinksChanged()
+```
+
+
+Indicates whether hyperlinks in a document were changed.
+
+ **Remarks:** 
+
+Aspose.Words does not update this property.
+
+ **Examples:** 
+
+Shows how to get extended properties.
+
+```
+
+ Document doc = new Document(getMyDir() + "Extended properties.docx");
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getScaleCrop());
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getSharedDocument());
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getHyperlinksChanged());
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getKeywords() {#getKeywords}
 ```
 public String getKeywords()
@@ -2256,6 +2286,33 @@ Shows how to work with document properties in the "Origin" category.
 
 **Returns:**
 int - The document revision number.
+### getScaleCrop() {#getScaleCrop}
+```
+public boolean getScaleCrop()
+```
+
+
+Indicates whether document thumbnail is cropped or scaled to fit the display.
+
+ **Remarks:** 
+
+Aspose.Words does not update this property.
+
+ **Examples:** 
+
+Shows how to get extended properties.
+
+```
+
+ Document doc = new Document(getMyDir() + "Extended properties.docx");
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getScaleCrop());
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getSharedDocument());
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getHyperlinksChanged());
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSecurity() {#getSecurity}
 ```
 public int getSecurity()
@@ -2318,6 +2375,33 @@ Shows how to use document properties to display the security level of a document
 
 **Returns:**
 int - The corresponding  int  value. The returned value is a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity/) constants.
+### getSharedDocument() {#getSharedDocument}
+```
+public boolean getSharedDocument()
+```
+
+
+Indicates whether the document is a shared document.
+
+ **Remarks:** 
+
+Aspose.Words does not update this property.
+
+ **Examples:** 
+
+Shows how to get extended properties.
+
+```
+
+ Document doc = new Document(getMyDir() + "Extended properties.docx");
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getScaleCrop());
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getSharedDocument());
+ Assert.assertTrue(doc.getBuiltInDocumentProperties().getHyperlinksChanged());
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSubject() {#getSubject}
 ```
 public String getSubject()

@@ -4,7 +4,7 @@ linktitle: RevisionOptions
 second_title: Aspose.Words for Java
 description: Allows to control how document revisions are handled during layout process in Java.
 type: docs
-weight: 545
+weight: 549
 url: /java/com.aspose.words/revisionoptions/
 ---
 
@@ -53,8 +53,10 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | Method | Description |
 | --- | --- |
 | [getCommentColor()](#getCommentColor) | Allows to specify the color to be used for comments. |
+| [getDeleteCellColor()](#getDeleteCellColor) | Allows to specify the color to be used for deleted cells [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
 | [getDeletedTextColor()](#getDeletedTextColor) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
 | [getDeletedTextEffect()](#getDeletedTextEffect) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
+| [getInsertCellColor()](#getInsertCellColor) | Allows to specify the color to be used for inserted cells [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [getInsertedTextColor()](#getInsertedTextColor) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [getInsertedTextEffect()](#getInsertedTextEffect) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [getMeasurementUnit()](#getMeasurementUnit) | Allows to specify the measurement units for revision comments. |
@@ -72,8 +74,10 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | [getShowRevisionBars()](#getShowRevisionBars) | Allows to specify whether revision bars should be rendered near lines containing revised content. |
 | [getShowRevisionMarks()](#getShowRevisionMarks) | Allow to specify whether revision text should be marked with special formatting markup. |
 | [setCommentColor(int value)](#setCommentColor-int) | Allows to specify the color to be used for comments. |
+| [setDeleteCellColor(int value)](#setDeleteCellColor-int) | Allows to specify the color to be used for deleted cells [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
 | [setDeletedTextColor(int value)](#setDeletedTextColor-int) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
 | [setDeletedTextEffect(int value)](#setDeletedTextEffect-int) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
+| [setInsertCellColor(int value)](#setInsertCellColor-int) | Allows to specify the color to be used for inserted cells [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [setInsertedTextColor(int value)](#setInsertedTextColor-int) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [setInsertedTextEffect(int value)](#setInsertedTextEffect-int) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [setMeasurementUnit(int value)](#setMeasurementUnit-int) | Allows to specify the measurement units for revision comments. |
@@ -149,6 +153,31 @@ Shows how to modify the appearance of revisions.
 
  // These features are only applicable to formats such as .pdf or .jpg.
  doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
+### getDeleteCellColor() {#getDeleteCellColor}
+```
+public int getDeleteCellColor()
+```
+
+
+Allows to specify the color to be used for deleted cells [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). Default value is [RevisionColor.PINK](../../com.aspose.words/revisioncolor/\#PINK).
+
+ **Examples:** 
+
+Shows how to work with insert/delete cell revision color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Cell revisions.docx");
+
+ doc.getLayoutOptions().getRevisionOptions().setInsertCellColor(RevisionColor.BLUE);
+ doc.getLayoutOptions().getRevisionOptions().setDeleteCellColor(RevisionColor.DARK_RED);
+
+ doc.save(getArtifactsDir() + "Revision.RevisionCellColor.pdf");
  
 ```
 
@@ -274,6 +303,31 @@ Shows how to modify the appearance of revisions.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
+### getInsertCellColor() {#getInsertCellColor}
+```
+public int getInsertCellColor()
+```
+
+
+Allows to specify the color to be used for inserted cells [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionColor.BLUE](../../com.aspose.words/revisioncolor/\#BLUE).
+
+ **Examples:** 
+
+Shows how to work with insert/delete cell revision color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Cell revisions.docx");
+
+ doc.getLayoutOptions().getRevisionOptions().setInsertCellColor(RevisionColor.BLUE);
+ doc.getLayoutOptions().getRevisionOptions().setDeleteCellColor(RevisionColor.DARK_RED);
+
+ doc.save(getArtifactsDir() + "Revision.RevisionCellColor.pdf");
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getInsertedTextColor() {#getInsertedTextColor}
 ```
 public int getInsertedTextColor()
@@ -1040,6 +1094,34 @@ Shows how to modify the appearance of revisions.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
+### setDeleteCellColor(int value) {#setDeleteCellColor-int}
+```
+public void setDeleteCellColor(int value)
+```
+
+
+Allows to specify the color to be used for deleted cells [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). Default value is [RevisionColor.PINK](../../com.aspose.words/revisioncolor/\#PINK).
+
+ **Examples:** 
+
+Shows how to work with insert/delete cell revision color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Cell revisions.docx");
+
+ doc.getLayoutOptions().getRevisionOptions().setInsertCellColor(RevisionColor.BLUE);
+ doc.getLayoutOptions().getRevisionOptions().setDeleteCellColor(RevisionColor.DARK_RED);
+
+ doc.save(getArtifactsDir() + "Revision.RevisionCellColor.pdf");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
+
 ### setDeletedTextColor(int value) {#setDeletedTextColor-int}
 ```
 public void setDeletedTextColor(int value)
@@ -1165,6 +1247,34 @@ Shows how to modify the appearance of revisions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants. |
+
+### setInsertCellColor(int value) {#setInsertCellColor-int}
+```
+public void setInsertCellColor(int value)
+```
+
+
+Allows to specify the color to be used for inserted cells [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionColor.BLUE](../../com.aspose.words/revisioncolor/\#BLUE).
+
+ **Examples:** 
+
+Shows how to work with insert/delete cell revision color.
+
+```
+
+ Document doc = new Document(getMyDir() + "Cell revisions.docx");
+
+ doc.getLayoutOptions().getRevisionOptions().setInsertCellColor(RevisionColor.BLUE);
+ doc.getLayoutOptions().getRevisionOptions().setDeleteCellColor(RevisionColor.DARK_RED);
+
+ doc.save(getArtifactsDir() + "Revision.RevisionCellColor.pdf");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setInsertedTextColor(int value) {#setInsertedTextColor-int}
 ```

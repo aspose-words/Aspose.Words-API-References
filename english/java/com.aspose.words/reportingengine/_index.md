@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 535
+weight: 539
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -32,13 +32,11 @@ To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] docume
 | [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object) | Populates the specified template document with data from the specified source making it a ready report. |
 | [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String) | Populates the specified template document with data from the specified source making it a ready report. |
 | [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String) | Populates the specified template document with data from the specified sources making it a ready report. |
-| [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getKnownTypes()](#getKnownTypes) | Gets an unordered set (i.e. |
 | [getMissingMemberMessage()](#getMissingMemberMessage) | Gets a string value printed instead of a template expression that represents a plain reference to a missing member of an object. |
 | [getOptions()](#getOptions) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. |
 | [getRestrictedTypes()](#getRestrictedTypes) | Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 | [getUseReflectionOptimization()](#getUseReflectionOptimization) | Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
-| [hashCode()](#hashCode) |  |
 | [setMissingMemberMessage(String value)](#setMissingMemberMessage-java.lang.String) | Sets a string value printed instead of a template expression that represents a plain reference to a missing member of an object. |
 | [setOptions(int value)](#setOptions-int) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. |
 | [setRestrictedTypes(Class[] types)](#setRestrictedTypes-java.lang.Class...) | Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
@@ -246,21 +244,6 @@ Shows how to keep inserted numbering as is.
 
 **Returns:**
 boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine/\#getOptions) / [setOptions(int)](../../com.aspose.words/reportingengine/\#setOptions-int) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions/\#INLINE-ERROR-MESSAGES) option.
-### equals(Object obj) {#equals-java.lang.Object}
-```
-public boolean equals(Object obj)
-```
-
-
-Determines whether the specified object is equal in value to the current object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getKnownTypes() {#getKnownTypes}
 ```
 public KnownTypeSet getKnownTypes()
@@ -377,16 +360,6 @@ There are some scenarios where it is preferrable to disable this optimization. F
 
 **Returns:**
 boolean - A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not.
-### hashCode() {#hashCode}
-```
-public int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### setMissingMemberMessage(String value) {#setMissingMemberMessage-java.lang.String}
 ```
 public void setMissingMemberMessage(String value)

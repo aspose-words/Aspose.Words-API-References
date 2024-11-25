@@ -4,7 +4,7 @@ linktitle: IDocumentConverterPlugin
 second_title: Aspose.Words for Java
 description: Defines an interface for external converter plugin in Java.
 type: docs
-weight: 706
+weight: 713
 url: /java/com.aspose.words/idocumentconverterplugin/
 ---
 ```
@@ -16,11 +16,11 @@ Defines an interface for external converter plugin.
 
 | Method | Description |
 | --- | --- |
-| [convert(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions)](#convert-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
-| [convertToImages(InputStream inputStream, SaveOptions saveOptions)](#convertToImages-java.io.InputStream-com.aspose.words.SaveOptions) | Converts pages from document from input stream to array of images. |
-### convert(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions) {#convert-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions}
+| [convert(InputStream inputStream, LoadOptions loadOptions, OutputStream outputStream, SaveOptions saveOptions)](#convert-java.io.InputStream-com.aspose.words.LoadOptions-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
+| [convertToImages(InputStream inputStream, LoadOptions loadOptions, SaveOptions saveOptions)](#convertToImages-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.SaveOptions) | Converts pages from document from input stream to array of images. |
+### convert(InputStream inputStream, LoadOptions loadOptions, OutputStream outputStream, SaveOptions saveOptions) {#convert-java.io.InputStream-com.aspose.words.LoadOptions-java.io.OutputStream-com.aspose.words.SaveOptions}
 ```
-public abstract void convert(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions)
+public abstract void convert(InputStream inputStream, LoadOptions loadOptions, OutputStream outputStream, SaveOptions saveOptions)
 ```
 
 
@@ -30,12 +30,13 @@ public abstract void convert(InputStream inputStream, OutputStream outputStream,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | inputStream | java.io.InputStream |  |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions/) |  |
 | outputStream | java.io.OutputStream |  |
 | saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
 
-### convertToImages(InputStream inputStream, SaveOptions saveOptions) {#convertToImages-java.io.InputStream-com.aspose.words.SaveOptions}
+### convertToImages(InputStream inputStream, LoadOptions loadOptions, SaveOptions saveOptions) {#convertToImages-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.SaveOptions}
 ```
-public abstract InputStream[] convertToImages(InputStream inputStream, SaveOptions saveOptions)
+public abstract InputStream[] convertToImages(InputStream inputStream, LoadOptions loadOptions, SaveOptions saveOptions)
 ```
 
 
@@ -45,6 +46,7 @@ Converts pages from document from input stream to array of images.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | inputStream | java.io.InputStream | The input stream. |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions/) | The document load options. |
 | saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
 
 **Returns:**
