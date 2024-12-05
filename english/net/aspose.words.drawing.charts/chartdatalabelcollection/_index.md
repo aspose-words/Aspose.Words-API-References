@@ -5,7 +5,7 @@ articleTitle: ChartDataLabelCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection class. Represents a collection of ChartDataLabel in C#.
 type: docs
-weight: 910
+weight: 920
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
@@ -28,6 +28,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Returns [`ChartDataLabel`](../chartdatalabel/) for the specified index. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Gets an [`ChartNumberFormat`](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [Orientation](../../aspose.words.drawing.charts/chartdatalabelcollection/orientation/) { get; set; } | Gets or sets the text orientation of the data labels of the entire series. |
+| [Position](../../aspose.words.drawing.charts/chartdatalabelcollection/position/) { get; set; } | Gets or sets the position of the data labels. |
 | [Rotation](../../aspose.words.drawing.charts/chartdatalabelcollection/rotation/) { get; set; } | Gets or sets the rotation of the data labels of the entire series in degrees. |
 | [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
 | [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is `false`. |

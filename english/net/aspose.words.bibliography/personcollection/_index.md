@@ -5,7 +5,7 @@ articleTitle: PersonCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Bibliography.PersonCollection class. Represents a list of persons who are bibliography source contributors in C#.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words.bibliography/personcollection/
 ---
 ## PersonCollection class

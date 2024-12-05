@@ -5,7 +5,7 @@ articleTitle: WebExtension
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WebExtensions.WebExtension class. Represents a web extension object in C#.
 type: docs
-weight: 7250
+weight: 7390
 url: /net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class

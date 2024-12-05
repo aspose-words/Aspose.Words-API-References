@@ -5,7 +5,7 @@ articleTitle: FieldPrivate
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldPrivate class. Implements the PRIVATE field in C#.
 type: docs
-weight: 2650
+weight: 2680
 url: /net/aspose.words.fields/fieldprivate/
 ---
 ## FieldPrivate class

@@ -5,7 +5,7 @@ articleTitle: ClearFormat
 second_title: Aspose.Words for .NET
 description: ChartDataLabelCollection ClearFormat method. Clears format of all ChartDataLabel in this collection in C#.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 ---
 ## ChartDataLabelCollection.ClearFormat method

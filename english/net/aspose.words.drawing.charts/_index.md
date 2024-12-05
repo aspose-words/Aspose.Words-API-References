@@ -62,6 +62,8 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [AxisTickMark](./axistickmark/) | Specifies the possible positions for tick marks. |
 | [AxisTimeUnit](./axistimeunit/) | Specifies the unit of time for axes. |
 | [ChartAxisType](./chartaxistype/) | Specifies type of chart axis. |
+| [ChartDataLabelLocationMode](./chartdatalabellocationmode/) | Specifies how the values ​​that specify the location of a data label - the [`Left`](../aspose.words.drawing.charts/chartdatalabel/left/) and [`Top`](../aspose.words.drawing.charts/chartdatalabel/top/) properties - are interpreted. |
+| [ChartDataLabelPosition](./chartdatalabelposition/) | Specifies the position for a chart data label. |
 | [ChartSeriesType](./chartseriestype/) | Specifies a type of a chart series. |
 | [ChartShapeType](./chartshapetype/) | Specifies the shape type of chart elements. |
 | [ChartType](./charttype/) | Specifies type of a chart. |

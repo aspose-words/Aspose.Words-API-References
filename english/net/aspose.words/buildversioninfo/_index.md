@@ -5,7 +5,7 @@ articleTitle: BuildVersionInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.BuildVersionInfo class. Provides information about the current product name and version in C#.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.words/buildversioninfo/
 ---
 ## BuildVersionInfo class

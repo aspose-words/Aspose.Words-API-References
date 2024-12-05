@@ -5,7 +5,7 @@ articleTitle: SummaryLength
 second_title: Aspose.Words for .NET
 description: Aspose.Words.AI.SummaryLength enum. Enumerates possible lengths of summary in C#.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.ai/summarylength/
 ---
 ## SummaryLength enumeration

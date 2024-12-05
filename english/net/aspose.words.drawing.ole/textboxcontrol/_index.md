@@ -5,7 +5,7 @@ articleTitle: TextBoxControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.TextBoxControl class. The TextBox control displays text from an organized set of data or user input in C#.
 type: docs
-weight: 1460
+weight: 1490
 url: /net/aspose.words.drawing.ole/textboxcontrol/
 ---
 ## TextBoxControl class

@@ -3,12 +3,14 @@ title: VariationAxisCoordinate.Coordinate
 linktitle: Coordinate
 articleTitle: Coordinate
 second_title: Aspose.Words for .NET
-description: VariationAxisCoordinate Coordinate property.  in C#.
+description: VariationAxisCoordinate Coordinate property. Coordinate in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.shaping/variationaxiscoordinate/coordinate/
 ---
 ## VariationAxisCoordinate.Coordinate property
+
+Coordinate.
 
 ```csharp
 public float Coordinate { get; set; }
