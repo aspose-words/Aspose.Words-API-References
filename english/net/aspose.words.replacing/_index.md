@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Replacing
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Replacing namespace provides classes to manipulate with find/replace operations over the document tree in C#.
 type: docs
-weight: 230
+weight: 260
 url: /net/aspose.words.replacing/
 ---
 The **Aspose.Words.Replacing** namespace provides classes to manipulate with find/replace operations over the document tree.
@@ -27,3 +27,4 @@ The **Aspose.Words.Replacing** namespace provides classes to manipulate with fin
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Specifies direction for replace operations. |
 | [ReplaceAction](./replaceaction/) | Allows the user to specify what happens to the current match during a replace operation. |
+| [ReplacementFormat](./replacementformat/) | Specifies the replacement format. |

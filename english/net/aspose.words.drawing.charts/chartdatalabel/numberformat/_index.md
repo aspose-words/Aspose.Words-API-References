@@ -5,7 +5,7 @@ articleTitle: NumberFormat
 second_title: Aspose.Words for .NET
 description: ChartDataLabel NumberFormat property. Returns number format of the parent element in C#.
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.words.drawing.charts/chartdatalabel/numberformat/
 ---
 ## ChartDataLabel.NumberFormat property

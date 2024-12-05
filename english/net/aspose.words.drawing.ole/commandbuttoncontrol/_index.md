@@ -5,7 +5,7 @@ articleTitle: CommandButtonControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.CommandButtonControl class. The CommandButton control runs a macro that performs an action when a user clicks it in C#.
 type: docs
-weight: 1390
+weight: 1420
 url: /net/aspose.words.drawing.ole/commandbuttoncontrol/
 ---
 ## CommandButtonControl class

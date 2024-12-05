@@ -5,7 +5,7 @@ articleTitle: Body
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Body class. Represents a container for the main text of a section in C#.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words/body/
 ---
 ## Body class

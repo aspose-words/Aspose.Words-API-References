@@ -5,7 +5,7 @@ articleTitle: FindReplaceOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Replacing.FindReplaceOptions class. Specifies options for find/replace operations in C#.
 type: docs
-weight: 5050
+weight: 5180
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -44,6 +44,7 @@ public class FindReplaceOptions
 | [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } | Gets or sets a boolean value indicating either to ignore content of [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/). The default value is `false`. |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [ReplacementFormat](../../aspose.words.replacing/findreplaceoptions/replacementformat/) { get; set; } | Specifies format of the replacement. Default is Text. |
 | [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | The user-defined method which is called before every replace occurrence. |
 | [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is `false`. |

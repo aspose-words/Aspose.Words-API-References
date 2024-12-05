@@ -5,7 +5,7 @@ articleTitle: PageLayoutEvent
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.PageLayoutEvent enum. A code of event raised during page layout model build and rendering in C#.
 type: docs
-weight: 3750
+weight: 3780
 url: /net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration

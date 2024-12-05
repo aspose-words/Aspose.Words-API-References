@@ -5,7 +5,7 @@ articleTitle: ChartDataLabel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartDataLabel class. Represents data label on a chart point or trendline in C#.
 type: docs
-weight: 900
+weight: 910
 url: /net/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class
@@ -27,8 +27,11 @@ public class ChartDataLabel
 | [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
 | [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Gets/sets a flag indicating whether this label is hidden. The default value is `false`. |
 | [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Returns `true` if this data label has something to display. |
+| [Left](../../aspose.words.drawing.charts/chartdatalabel/left/) { get; set; } | Gets or sets the distance of the data label in points from the left edge of the chart or from the position specified by its [`Position`](./position/) property, depending on the value of the [`LeftMode`](./leftmode/) property. |
+| [LeftMode](../../aspose.words.drawing.charts/chartdatalabel/leftmode/) { get; set; } | Gets or sets the interpretation mode of the [`Left`](./left/) property value: whether it sets the location of the data label from the left edge of the chart of from the position specified by its [`Position`](./position/) property. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Returns number format of the parent element. |
 | [Orientation](../../aspose.words.drawing.charts/chartdatalabel/orientation/) { get; set; } | Gets or sets the orientation of the label text. |
+| [Position](../../aspose.words.drawing.charts/chartdatalabel/position/) { get; set; } | Gets or sets the position of the data label. |
 | [Rotation](../../aspose.words.drawing.charts/chartdatalabel/rotation/) { get; set; } | Gets or sets the rotation of the label in degrees. |
 | [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
 | [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is `false`. |
@@ -39,6 +42,8 @@ public class ChartDataLabel
 | [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is `false`. |
 | [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. `true` to show the series name; `false` to hide. By default `false`. |
 | [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Allows to specify if values are to be displayed in the data labels. Default value is `false`. |
+| [Top](../../aspose.words.drawing.charts/chartdatalabel/top/) { get; set; } | Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its [`Position`](./position/) property, depending on the value of the [`TopMode`](./topmode/) property. |
+| [TopMode](../../aspose.words.drawing.charts/chartdatalabel/topmode/) { get; set; } | Gets or sets the interpretation mode of the [`Top`](./top/) property value: whether it sets the location of the data label from the top edge of the chart of from the position specified by its [`Position`](./position/) property. |
 
 ## Methods
 

@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Shaping
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Shaping namespace contains classes to provide support for OpenType features using external text shaping engines in C#.
 type: docs
-weight: 270
+weight: 300
 url: /net/aspose.words.shaping/
 ---
 The **Aspose.Words.Shaping** namespace contains classes to provide support for OpenType features using external text shaping engines.
@@ -14,22 +14,22 @@ The **Aspose.Words.Shaping** namespace contains classes to provide support for O
 
 | Class | Description |
 | --- | --- |
-| [BasicTextShaperCache](./basictextshapercache/) |  |
-| [Cluster](./cluster/) |  |
-| [Glyph](./glyph/) |  |
-| [VariationAxisCoordinate](./variationaxiscoordinate/) |  |
+| [BasicTextShaperCache](./basictextshapercache/) | Implements basic cache for [`ITextShaper`](../aspose.words.shaping/itextshaper/) instances. This class is thread-safe. |
+| [Cluster](./cluster/) | Encapsulates code points and glyphs composing a grapheme. |
+| [Glyph](./glyph/) | Represents a glyph |
+| [VariationAxisCoordinate](./variationaxiscoordinate/) | Represents an axis coordinate. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [ITextShaper](./itextshaper/) |  |
-| [ITextShaperFactory](./itextshaperfactory/) |  |
+| [ITextShaper](./itextshaper/) | Provides methods for text shaping. |
+| [ITextShaperFactory](./itextshaperfactory/) | An interface of a factory for constructing [`ITextShaper`](../aspose.words.shaping/itextshaper/) implementations. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [Direction](./direction/) |  |
-| [FontFeature](./fontfeature/) |  |
-| [ScriptShapingLevel](./scriptshapinglevel/) |  |
-| [UnicodeScript](./unicodescript/) |  |
-| [VariationAxis](./variationaxis/) |  |
+| [Direction](./direction/) | Text direction. |
+| [FontFeature](./fontfeature/) | Features provide information about how glyphs are used in a font to render a script. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
+| [ScriptShapingLevel](./scriptshapinglevel/) | Describes shaping levels required by a script. |
+| [UnicodeScript](./unicodescript/) | Unicode Character Database property: Script (sc). |
+| [VariationAxis](./variationaxis/) | Represents OpenType Design-Variation Axis Tag. https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg |

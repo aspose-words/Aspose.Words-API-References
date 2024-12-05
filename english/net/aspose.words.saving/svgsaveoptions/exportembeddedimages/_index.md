@@ -3,14 +3,14 @@ title: SvgSaveOptions.ExportEmbeddedImages
 linktitle: ExportEmbeddedImages
 articleTitle: ExportEmbeddedImages
 second_title: Aspose.Words for .NET
-description: SvgSaveOptions ExportEmbeddedImages property. Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file in C#.
+description: SvgSaveOptions ExportEmbeddedImages property. Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
 ---
 ## SvgSaveOptions.ExportEmbeddedImages property
 
-Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file.
+Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }

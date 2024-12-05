@@ -5,7 +5,7 @@ articleTitle: MailMergeRegionInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.MailMergeRegionInfo class. Contains information about a mail merge region in C#.
 type: docs
-weight: 4260
+weight: 4390
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class

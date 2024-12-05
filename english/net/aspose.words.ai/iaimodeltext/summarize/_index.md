@@ -13,12 +13,12 @@ url: /net/aspose.words.ai/iaimodeltext/summarize/
 Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
 
 ```csharp
-public Document Summarize(Document doc, SummarizeOptions options = null)
+public Document Summarize(Document sourceDocument, SummarizeOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | Document | The document to be summarized. |
+| sourceDocument | Document | The document to be summarized. |
 | options | SummarizeOptions | Optional settings to control the summary length and other parameters. |
 
 ### Return Value
@@ -59,12 +59,12 @@ multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected AI model for processing each document in the array.
 
 ```csharp
-public Document Summarize(Document[] docs, SummarizeOptions options = null)
+public Document Summarize(Document[] sourceDocuments, SummarizeOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| docs | Document[] | An array of documents to be summarized. |
+| sourceDocuments | Document[] | An array of documents to be summarized. |
 | options | SummarizeOptions | Optional settings to control the summary length and other parameters |
 
 ### Return Value
