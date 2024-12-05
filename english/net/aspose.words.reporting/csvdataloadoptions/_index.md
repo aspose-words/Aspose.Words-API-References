@@ -5,7 +5,7 @@ articleTitle: CsvDataLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.CsvDataLoadOptions class. Represents options for parsing CSV data in C#.
 type: docs
-weight: 5090
+weight: 5230
 url: /net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class

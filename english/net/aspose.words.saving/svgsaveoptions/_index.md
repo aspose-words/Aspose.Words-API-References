@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the Svg format in C#.
 type: docs
-weight: 6060
+weight: 6200
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class
@@ -35,7 +35,7 @@ public class SvgSaveOptions : FixedPageSaveOptions
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Gets or sets a value determining how 3D effects are rendered. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML shapes are rendered. |
-| [ExportEmbeddedImages](../../aspose.words.saving/svgsaveoptions/exportembeddedimages/) { get; set; } | Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file. |
+| [ExportEmbeddedImages](../../aspose.words.saving/svgsaveoptions/exportembeddedimages/) { get; set; } | Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`. |
 | [FitToViewPort](../../aspose.words.saving/svgsaveoptions/fittoviewport/) { get; set; } | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to `true` width and height of output SVG are set to 100%. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |

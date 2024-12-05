@@ -28,4 +28,5 @@ The **Aspose.Words.AI** namespace enables seamless integration with large langua
 | Enumeration | Description |
 | --- | --- |
 | [AiModelType](./aimodeltype/) | Represents the types of [`AiModel`](../aspose.words.ai/aimodel/) that can be integrated into the document processing workflow. |
+| [Language](./language/) | Specifies the language into which the text will be translated using AI. . |
 | [SummaryLength](./summarylength/) | Enumerates possible lengths of summary. |

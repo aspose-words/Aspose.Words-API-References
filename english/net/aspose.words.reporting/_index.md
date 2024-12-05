@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Reporting
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Reporting namespace contains classes of the Aspose.Words new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax in C#.
 type: docs
-weight: 240
+weight: 270
 url: /net/aspose.words.reporting/
 ---
 The **Aspose.Words.Reporting** namespace contains classes of the Aspose.Words' new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax.

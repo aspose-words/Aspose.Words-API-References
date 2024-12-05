@@ -5,7 +5,7 @@ articleTitle: TableSubstitutionRule
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.TableSubstitutionRule class. Table font substitution rule in C#.
 type: docs
-weight: 3430
+weight: 3460
 url: /net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class

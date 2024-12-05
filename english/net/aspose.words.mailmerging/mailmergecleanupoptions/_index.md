@@ -5,7 +5,7 @@ articleTitle: MailMergeCleanupOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.MailMergeCleanupOptions enum. Specifies options that determine what items are removed during mail merge in C#.
 type: docs
-weight: 4250
+weight: 4380
 url: /net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
@@ -28,8 +28,34 @@ public enum MailMergeCleanupOptions
 | RemoveContainingFields | `8` | Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed. |
 | RemoveStaticFields | `10` | Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like FieldListNum, FieldSymbol, etc.) are not considered to be static. |
 | RemoveEmptyTableRows | `20` | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
+| RemoveEmptyTables | `40` | Specifies whether to remove from the document tables that contain mail merge regions that were removed using either the RemoveUnusedRegions or the RemoveEmptyTableRows option. |
 
 ## Examples
+
+Shows how to remove whole empty table during mail merge.
+
+```csharp
+DataTable tableCustomers = new DataTable("A");
+tableCustomers.Columns.Add("CustomerID");
+tableCustomers.Columns.Add("CustomerName");
+tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
+tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
+
+DataSet ds = new DataSet();
+ds.Tables.Add(tableCustomers);
+
+Document doc = new Document(MyDir + "Mail merge tables.docx");
+Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+
+doc.MailMerge.MergeDuplicateRegions = false;
+doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTables | MailMergeCleanupOptions.RemoveUnusedRegions;
+doc.MailMerge.ExecuteWithRegions(ds.Tables["A"]);
+
+doc.Save(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+
+doc = new Document(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+Assert.AreEqual(1, doc.GetChildNodes(NodeType.Table, true).Count);
+```
 
 Shows how to remove empty paragraphs that a mail merge may create from the merge output document.
 

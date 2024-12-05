@@ -5,7 +5,7 @@ articleTitle: FieldMergeField
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldMergeField class. Implements the MERGEFIELD field in C#.
 type: docs
-weight: 2500
+weight: 2530
 url: /net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class

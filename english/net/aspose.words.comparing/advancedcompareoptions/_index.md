@@ -5,7 +5,7 @@ articleTitle: AdvancedCompareOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Comparing.AdvancedCompareOptions class. Allows to set advanced compare options in C#.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.words.comparing/advancedcompareoptions/
 ---
 ## AdvancedCompareOptions class
