@@ -3,14 +3,14 @@ title: ReportBuilder.BuildReport
 linktitle: BuildReport
 articleTitle: BuildReport
 second_title: Aspose.Words for .NET
-description: ReportBuilder BuildReport method. Populates the specified template document with data from the specified source making it a ready report in C#.
+description: ReportBuilder BuildReport method. Populates the template document with data from the specified source generating a completed report in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/reportbuilder/buildreport/
 ---
 ## BuildReport(*string, string, object*) {#buildreport_12}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object data)
@@ -56,7 +56,7 @@ public class AsposeData
 
 ## BuildReport(*string, string, object, [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_13}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object data, 
@@ -105,7 +105,7 @@ public class AsposeData
 
 ## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object*) {#buildreport_6}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with specified output format.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -154,7 +154,7 @@ public class AsposeData
 
 ## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_7}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -205,7 +205,7 @@ public class AsposeData
 
 ## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object*) {#buildreport}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report from input and output streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -248,7 +248,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Reporting engine template -
 
 ## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_1}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options, from input and output streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -293,7 +293,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Reporting engine template -
 
 ## BuildReport(*string, string, object, string*) {#buildreport_14}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with a named data source reference.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object data, 
@@ -349,7 +349,7 @@ public class MessageTestClass
 
 ## BuildReport(*string, string, object, string, [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_15}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object data, 
@@ -407,7 +407,7 @@ public class MessageTestClass
 
 ## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string*) {#buildreport_8}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with specified output format and a named data source reference.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -465,7 +465,7 @@ public class MessageTestClass
 
 ## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_9}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -525,7 +525,7 @@ public class MessageTestClass
 
 ## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, string*) {#buildreport_2}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with a named data source reference.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -572,7 +572,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Report building.docx", File
 
 ## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_3}
 
-Populates the specified template document with data from the specified source making it a ready report.
+Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -621,7 +621,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Report building.docx", File
 
 ## BuildReport(*string, string, object[], string[]*) {#buildreport_16}
 
-Populates the specified template document with data from the specified sources making it a ready report.
+Populates the template document with data from multiple sources, generating a completed report from the specified input and output file names. This overload automatically determines the save format based on the output file extension.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object[] data, 
@@ -677,7 +677,7 @@ public class MessageTestClass
 
 ## BuildReport(*string, string, object[], string[], [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_17}
 
-Populates the specified template document with data from the specified sources making it a ready report.
+Populates the template document with data from multiple sources, generating a completed report with additional options. This overload automatically determines the save format based on the output file extension.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object[] data, 
@@ -703,7 +703,7 @@ public static void BuildReport(string inputFileName, string outputFileName, obje
 
 ## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[]*) {#buildreport_10}
 
-Populates the specified template document with data from the specified sources making it a ready report.
+Populates the template document with data from multiple sources, generating a completed report with a specified output format. This overload automatically determines the save format based on the output file extension.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -729,7 +729,7 @@ public static void BuildReport(string inputFileName, string outputFileName, Save
 
 ## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_11}
 
-Populates the specified template document with data from the specified sources making it a ready report.
+Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -757,7 +757,7 @@ public static void BuildReport(string inputFileName, string outputFileName, Save
 
 ## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object[], string[]*) {#buildreport_4}
 
-Populates the specified template document with data from the specified sources making it a ready report.
+Populates the template document with data from multiple sources, generating a completed report from the specified input and output file streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -804,7 +804,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Report building.docx", File
 
 ## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../../aspose.words.lowcode.reporting/reportbuilderoptions/)*) {#buildreport_5}
 
-Populates the specified template document with data from the specified sources making it a ready report.
+Populates the template document with data from multiple sources, generating a completed report with specified output format and additional options from the specified input and output file streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 

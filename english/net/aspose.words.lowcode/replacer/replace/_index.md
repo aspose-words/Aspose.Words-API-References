@@ -3,14 +3,14 @@ title: Replacer.Replace
 linktitle: Replace
 articleTitle: Replace
 second_title: Aspose.Words for .NET
-description: Replacer Replace method. Replaces all occurrences of a specified character string pattern with a replacement string in C#.
+description: Replacer Replace method. Replaces all occurrences of a specified character string pattern with a replacement string in the input file in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/replacer/replace/
 ---
 ## Replace(*string, string, string, string*) {#replace_8}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, string pattern, 
@@ -53,7 +53,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, 
 
 ## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string*) {#replace_4}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -98,7 +98,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, 
 
 ## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_5}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -145,7 +145,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, 
 
 ## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, string*) {#replace}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format.
 
 ```csharp
 public static int Replace(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -194,7 +194,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
 
 ## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -245,7 +245,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
 
 ## Replace(*string, string, Regex, string*) {#replace_9}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, Regex pattern, 
@@ -288,7 +288,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 
 ## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string*) {#replace_6}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -333,7 +333,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 
 ## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_7}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -380,7 +380,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 
 ## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Regex, string*) {#replace_2}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression.
 
 ```csharp
 public static int Replace(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -429,7 +429,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Replace regex.docx", FileMo
 
 ## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 

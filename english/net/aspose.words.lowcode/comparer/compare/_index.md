@@ -3,14 +3,14 @@ title: Comparer.Compare
 linktitle: Compare
 articleTitle: Compare
 second_title: Aspose.Words for .NET
-description: Comparer Compare method. Compares the document with another document producing changes as number of edit and format revisions in C#.
+description: Comparer Compare method. Compares two documents and saves the differences to the specified output file producing changes as a number of edit and format revisions in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/comparer/compare/
 ---
 ## Compare(*string, string, string, string, DateTime*) {#compare_4}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents and saves the differences to the specified output file, producing changes as a number of edit and format revisions.
 
 ```csharp
 public static void Compare(string v1, string v2, string outputFileName, string author, 
@@ -50,7 +50,7 @@ Comparer.Compare(firstDoc, secondDoc, ArtifactsDir + "LowCode.CompareDocuments.4
 
 ## Compare(*string, string, string, [SaveFormat](../../../aspose.words/saveformat/), string, DateTime*) {#compare_2}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents and saves the differences to the specified output file in the provided save format, producing changes as a number of edit and format revisions.
 
 ```csharp
 public static void Compare(string v1, string v2, string outputFileName, SaveFormat saveFormat, 
@@ -92,7 +92,7 @@ Comparer.Compare(firstDoc, secondDoc, ArtifactsDir + "LowCode.CompareDocuments.4
 
 ## Compare(*string, string, string, string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_5}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents with additional options and saves the differences to the specified output file, producing changes as a number of edit and format revisions.
 
 ```csharp
 public static void Compare(string v1, string v2, string outputFileName, string author, 
@@ -134,7 +134,7 @@ Comparer.Compare(firstDoc, secondDoc, ArtifactsDir + "LowCode.CompareDocuments.4
 
 ## Compare(*string, string, string, [SaveFormat](../../../aspose.words/saveformat/), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_3}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, producing changes as a number of edit and format revisions.
 
 ```csharp
 public static void Compare(string v1, string v2, string outputFileName, SaveFormat saveFormat, 
@@ -178,7 +178,7 @@ Comparer.Compare(firstDoc, secondDoc, ArtifactsDir + "LowCode.CompareDocuments.4
 
 ## Compare(*Stream, Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, DateTime*) {#compare}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents loaded from streams and saves the differences to the provided output stream in the specified save format, producing changes as a number of edit and format revisions.
 
 ```csharp
 public static void Compare(Stream v1, Stream v2, Stream outputStream, SaveFormat saveFormat, 
@@ -224,7 +224,7 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Table column bookmarks
 
 ## Compare(*Stream, Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, producing changes as a number of edit and format revisions.
 
 ```csharp
 public static void Compare(Stream v1, Stream v2, Stream outputStream, SaveFormat saveFormat, 
