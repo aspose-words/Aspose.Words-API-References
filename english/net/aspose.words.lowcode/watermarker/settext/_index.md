@@ -3,14 +3,14 @@ title: Watermarker.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words for .NET
-description: Watermarker SetText method. Adds Text watermark into the document in C#.
+description: Watermarker SetText method. Adds a text watermark into the document in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.lowcode/watermarker/settext/
 ---
 ## SetText(*string, string, string*) {#settext_4}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document.
 
 ```csharp
 public static void SetText(string inputFileName, string outputFileName, string watermarkText)
@@ -46,7 +46,7 @@ Watermarker.SetText(doc, ArtifactsDir + "LowCode.WatermarkText.4.docx", SaveForm
 
 ## SetText(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string*) {#settext_2}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document with specified save format.
 
 ```csharp
 public static void SetText(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -85,7 +85,7 @@ Watermarker.SetText(doc, ArtifactsDir + "LowCode.WatermarkText.4.docx", SaveForm
 
 ## SetText(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string*) {#settext}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document from streams.
 
 ```csharp
 public static void SetText(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -127,7 +127,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Op
 
 ## SetText(*string, string, string, [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)*) {#settext_5}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document with options.
 
 ```csharp
 public static void SetText(string inputFileName, string outputFileName, string watermarkText, 
@@ -166,7 +166,7 @@ Watermarker.SetText(doc, ArtifactsDir + "LowCode.WatermarkText.4.docx", SaveForm
 
 ## SetText(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)*) {#settext_3}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document with options and specified save format.
 
 ```csharp
 public static void SetText(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -207,7 +207,7 @@ Watermarker.SetText(doc, ArtifactsDir + "LowCode.WatermarkText.4.docx", SaveForm
 
 ## SetText(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)*) {#settext_1}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document from streams with options.
 
 ```csharp
 public static void SetText(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 

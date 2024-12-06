@@ -3,14 +3,14 @@ title: Watermarker.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words for .NET
-description: Watermarker SetImage method. Adds Image watermark into the document in C#.
+description: Watermarker SetImage method. Adds an image watermark into the document in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/watermarker/setimage/
 ---
 ## SetImage(*string, string, string*) {#setimage_4}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document.
 
 ```csharp
 public static void SetImage(string inputFileName, string outputFileName, 
@@ -47,7 +47,7 @@ Watermarker.SetImage(doc, ArtifactsDir + "LowCode.SetWatermarkText.4.docx", Save
 
 ## SetImage(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string*) {#setimage_2}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with specified save format.
 
 ```csharp
 public static void SetImage(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -86,7 +86,7 @@ Watermarker.SetImage(doc, ArtifactsDir + "LowCode.SetWatermarkText.4.docx", Save
 
 ## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Image*) {#setimage}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document from streams.
 
 ```csharp
 public static void SetImage(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
@@ -125,7 +125,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Op
 
 ## SetImage(*string, string, string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_5}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with options.
 
 ```csharp
 public static void SetImage(string inputFileName, string outputFileName, 
@@ -164,7 +164,7 @@ Watermarker.SetImage(doc, ArtifactsDir + "LowCode.SetWatermarkText.4.docx", Save
 
 ## SetImage(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_3}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with options and specified save format.
 
 ```csharp
 public static void SetImage(string inputFileName, string outputFileName, SaveFormat saveFormat, 
@@ -205,7 +205,7 @@ Watermarker.SetImage(doc, ArtifactsDir + "LowCode.SetWatermarkText.4.docx", Save
 
 ## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Image, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_1}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document from streams with options.
 
 ```csharp
 public static void SetImage(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 

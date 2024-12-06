@@ -20,18 +20,18 @@ public static class Watermarker
 
 | Name | Description |
 | --- | --- |
-| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_4)(*string, string, string*) | Adds Image watermark into the document. |
-| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), Image*) | Adds Image watermark into the document. |
-| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_2)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string*) | Adds Image watermark into the document. |
-| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_5)(*string, string, string, [ImageWatermarkOptions](../../aspose.words/imagewatermarkoptions/)*) | Adds Image watermark into the document. |
-| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), Image, [ImageWatermarkOptions](../../aspose.words/imagewatermarkoptions/)*) | Adds Image watermark into the document. |
-| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_3)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string, [ImageWatermarkOptions](../../aspose.words/imagewatermarkoptions/)*) | Adds Image watermark into the document. |
-| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_4)(*string, string, string*) | Adds Text watermark into the document. |
-| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), string*) | Adds Text watermark into the document. |
-| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_2)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string*) | Adds Text watermark into the document. |
-| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_5)(*string, string, string, [TextWatermarkOptions](../../aspose.words/textwatermarkoptions/)*) | Adds Text watermark into the document. |
-| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), string, [TextWatermarkOptions](../../aspose.words/textwatermarkoptions/)*) | Adds Text watermark into the document. |
-| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_3)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string, [TextWatermarkOptions](../../aspose.words/textwatermarkoptions/)*) | Adds Text watermark into the document. |
+| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_4)(*string, string, string*) | Adds an image watermark into the document. |
+| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), Image*) | Adds an image watermark into the document from streams. |
+| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_2)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string*) | Adds an image watermark into the document with specified save format. |
+| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_5)(*string, string, string, [ImageWatermarkOptions](../../aspose.words/imagewatermarkoptions/)*) | Adds an image watermark into the document with options. |
+| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), Image, [ImageWatermarkOptions](../../aspose.words/imagewatermarkoptions/)*) | Adds an image watermark into the document from streams with options. |
+| static [SetImage](../../aspose.words.lowcode/watermarker/setimage/#setimage_3)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string, [ImageWatermarkOptions](../../aspose.words/imagewatermarkoptions/)*) | Adds an image watermark into the document with options and specified save format. |
+| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_4)(*string, string, string*) | Adds a text watermark into the document. |
+| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), string*) | Adds a text watermark into the document from streams. |
+| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_2)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string*) | Adds a text watermark into the document with specified save format. |
+| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_5)(*string, string, string, [TextWatermarkOptions](../../aspose.words/textwatermarkoptions/)*) | Adds a text watermark into the document with options. |
+| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), string, [TextWatermarkOptions](../../aspose.words/textwatermarkoptions/)*) | Adds a text watermark into the document from streams with options. |
+| static [SetText](../../aspose.words.lowcode/watermarker/settext/#settext_3)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string, [TextWatermarkOptions](../../aspose.words/textwatermarkoptions/)*) | Adds a text watermark into the document with options and specified save format. |
 
 ### See Also
 
