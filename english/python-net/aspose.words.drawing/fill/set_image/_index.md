@@ -57,20 +57,19 @@ Shows how to set shape fill type as image.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # There are several ways of setting image.
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 80, 80)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=80, height=80)
 # 1 -  Using a local system filename:
-shape.fill.set_image(IMAGE_DIR + 'Logo.jpg')
-doc.save(ARTIFACTS_DIR + 'Shape.fill_image.file_name.docx')
+shape.fill.set_image(file_name=IMAGE_DIR + 'Logo.jpg')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.FillImage.FileName.docx')
 # 2 -  Load a file into a byte array:
-with open(IMAGE_DIR + 'Logo.jpg', 'rb') as stream:
-    shape.fill.set_image(stream.read())
-doc.save(ARTIFACTS_DIR + 'Shape.fill_image.byte_array.docx')
+shape.fill.set_image(image_bytes=system_helper.io.File.read_all_bytes(IMAGE_DIR + 'Logo.jpg'))
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.FillImage.ByteArray.docx')
 # 3 -  From a stream:
-with open(IMAGE_DIR + 'Logo.jpg', 'rb') as stream:
-    shape.fill.set_image(stream)
-doc.save(ARTIFACTS_DIR + 'Shape.fill_image.stream.docx')
+with system_helper.io.FileStream(IMAGE_DIR + 'Logo.jpg', system_helper.io.FileMode.OPEN) as stream:
+    shape.fill.set_image(stream=stream)
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.FillImage.Stream.docx')
 ```
 
 ## See Also

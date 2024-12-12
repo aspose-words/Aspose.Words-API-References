@@ -5,7 +5,7 @@ articleTitle: Converter class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Converter class. Represents a group of methods intended to convert a variety of different types of documents using a single line of code."
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.lowcode/converter/
 ---
 

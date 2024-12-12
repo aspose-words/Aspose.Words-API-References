@@ -11,6 +11,10 @@ url: /python-net/aspose.words.shaping/cluster/get_string/
 
 ## get_string(clusters) {#clusterlist}
 
+Creates string using codepoints from the specified clusters.
+
+
+
 ```python
 def get_string(self, clusters: List[aspose.words.shaping.Cluster]):
     ...
@@ -21,6 +25,10 @@ def get_string(self, clusters: List[aspose.words.shaping.Cluster]):
 | clusters | List[[Cluster](../)] |  |
 
 ## get_string() {#default}
+
+Creates string using codepoints from this cluster.
+
+
 
 ```python
 def get_string(self):

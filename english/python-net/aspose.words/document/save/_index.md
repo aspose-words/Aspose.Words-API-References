@@ -270,6 +270,16 @@ options.outline_options.expanded_outline_levels = 2
 doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ExpandedOutlineLevels.pdf', save_options=options)
 ```
 
+Shows how to save a document to a stream.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+with io.BytesIO() as dst_stream:
+    doc.save(stream=dst_stream, save_format=aw.SaveFormat.DOCX)
+    # Verify that the stream contains the document.
+    self.assertEqual('Hello World!\r\rHello Word!\r\r\rHello World!', aw.Document(stream=dst_stream).get_text().strip())
+```
+
 Shows how to save a document to an image via stream, and then read the image from that stream.
 
 ```python
@@ -287,16 +297,6 @@ with io.BytesIO() as stream:
         self.assertEqual(aspose.pydrawing.imaging.ImageFormat.bmp, image.raw_format)
         self.assertEqual(816, image.width)
         self.assertEqual(1056, image.height)
-```
-
-Shows how to save a document to a stream.
-
-```python
-doc = aw.Document(MY_DIR + 'Document.docx')
-with io.BytesIO() as dst_stream:
-    doc.save(dst_stream, aw.SaveFormat.DOCX)
-    # Verify that the stream contains the document.
-    self.assertEqual('Hello World!\r\rHello Word!\r\r\rHello World!', aw.Document(dst_stream).get_text().strip())
 ```
 
 Shows how to convert only some of the pages in a document to PDF.

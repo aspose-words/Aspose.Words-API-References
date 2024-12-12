@@ -26,14 +26,14 @@ def suggested_file_name(self) -> str:
 Shows how to get an OLE object's suggested file name.
 
 ```python
-doc = aw.Document(MY_DIR + 'OLE shape.rtf')
+doc = aw.Document(file_name=MY_DIR + 'OLE shape.rtf')
 ole_shape = doc.first_section.body.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
 # OLE objects can provide a suggested filename and extension,
 # which we can use when saving the object's contents into a file in the local file system.
 suggested_file_name = ole_shape.ole_format.suggested_file_name
 self.assertEqual('CSV.csv', suggested_file_name)
-with open(ARTIFACTS_DIR + suggested_file_name, 'wb') as file_stream:
-    ole_shape.ole_format.save(file_stream)
+with system_helper.io.FileStream(ARTIFACTS_DIR + suggested_file_name, system_helper.io.FileMode.CREATE) as file_stream:
+    ole_shape.ole_format.save(stream=file_stream)
 ```
 
 ### See Also

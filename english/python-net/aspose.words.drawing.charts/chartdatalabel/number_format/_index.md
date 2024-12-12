@@ -5,7 +5,7 @@ articleTitle: number_format property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.number_format property. Returns number format of the parent element."
 type: docs
-weight: 60
+weight: 80
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/number_format/
 ---
 

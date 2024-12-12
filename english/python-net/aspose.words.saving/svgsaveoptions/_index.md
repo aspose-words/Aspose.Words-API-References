@@ -34,7 +34,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [dml_3d_effects_rendering_mode](../saveoptions/dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_effects_rendering_mode](../saveoptions/dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [export_embedded_images](./export_embedded_images/) | Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file. |
+| [export_embedded_images](./export_embedded_images/) | Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file. |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [fit_to_view_port](./fit_to_view_port/) | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to ``True`` width and height of output SVG are set to 100%. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |

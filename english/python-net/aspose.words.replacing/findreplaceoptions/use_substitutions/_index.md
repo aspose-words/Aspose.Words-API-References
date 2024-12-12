@@ -5,7 +5,7 @@ articleTitle: use_substitutions property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.use_substitutions property. Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns"
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.replacing/findreplaceoptions/use_substitutions/
 ---
 

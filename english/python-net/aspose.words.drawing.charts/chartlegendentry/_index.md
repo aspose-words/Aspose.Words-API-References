@@ -5,7 +5,7 @@ articleTitle: ChartLegendEntry class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartLegendEntry class. Represents a chart legend entry"
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.words.drawing.charts/chartlegendentry/
 ---
 

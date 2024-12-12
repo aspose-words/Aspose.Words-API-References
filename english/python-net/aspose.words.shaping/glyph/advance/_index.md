@@ -3,13 +3,27 @@ title: Glyph.advance property
 linktitle: advance property
 articleTitle: advance property
 second_title: Aspose.Words for Python
-description: "Glyph.advance property. "
+description: "Glyph.advance property. Advance width indicating placement for the subsequent glyph."
 type: docs
 weight: 20
 url: /python-net/aspose.words.shaping/glyph/advance/
 ---
 
 ## Glyph.advance property
+
+Advance width indicating placement for the subsequent glyph.
+
+
+```python
+@property
+def advance(self) -> int:
+    ...
+
+@advance.setter
+def advance(self, value: int):
+    ...
+
+```
 
 ### See Also
 
