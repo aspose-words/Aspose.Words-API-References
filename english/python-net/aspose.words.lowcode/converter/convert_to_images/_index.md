@@ -237,6 +237,16 @@ streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=MY_DI
 streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=MY_DIR + 'Big document.docx'), save_options=image_save_options)
 ```
 
+Shows how to convert document to images from stream.
+
+```python
+with system_helper.io.FileStream(MY_DIR + 'Big document.docx', system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as stream_in:
+    streams = aw.lowcode.Converter.convert_to_images(input_stream=stream_in, save_format=aw.SaveFormat.JPEG)
+    image_save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
+    image_save_options.page_set = aw.saving.PageSet(page=1)
+    streams = aw.lowcode.Converter.convert_to_images(input_stream=stream_in, save_options=image_save_options)
+```
+
 ## See Also
 
 * module [aspose.words.lowcode](../../)

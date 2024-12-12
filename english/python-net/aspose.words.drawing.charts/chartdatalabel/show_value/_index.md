@@ -5,7 +5,7 @@ articleTitle: show_value property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.show_value property. Allows to specify if values are to be displayed in the data labels"
 type: docs
-weight: 170
+weight: 200
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_value/
 ---
 

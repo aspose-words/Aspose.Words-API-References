@@ -27,22 +27,22 @@ Shows how to sign documents with X.509 certificates.
 
 ```python
 # Verify that a document is not signed.
-self.assertFalse(aw.FileFormatUtil.detect_file_format(MY_DIR + 'Document.docx').has_digital_signature)
+self.assertFalse(aw.FileFormatUtil.detect_file_format(file_name=MY_DIR + 'Document.docx').has_digital_signature)
 # Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
-certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'morzal.pfx', 'aw', None)
+certificate_holder = aw.digitalsignatures.CertificateHolder.create(file_name=MY_DIR + 'morzal.pfx', password='aw', alias=None)
 # There are two ways of saving a signed copy of a document to the local file system:
 # 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
 sign_options = aw.digitalsignatures.SignOptions()
-sign_options.sign_time = datetime.utcnow()
-aw.digitalsignatures.DigitalSignatureUtil.sign(MY_DIR + 'Document.docx', ARTIFACTS_DIR + 'Document.digital_signature.docx', certificate_holder, sign_options)
-self.assertTrue(aw.FileFormatUtil.detect_file_format(ARTIFACTS_DIR + 'Document.digital_signature.docx').has_digital_signature)
+sign_options.sign_time = datetime.datetime.now()
+aw.digitalsignatures.DigitalSignatureUtil.sign(src_file_name=MY_DIR + 'Document.docx', dst_file_name=ARTIFACTS_DIR + 'Document.DigitalSignature.docx', cert_holder=certificate_holder, sign_options=sign_options)
+self.assertTrue(aw.FileFormatUtil.detect_file_format(file_name=ARTIFACTS_DIR + 'Document.DigitalSignature.docx').has_digital_signature)
 # 2 - Take a document from a stream and save a signed copy to another stream.
-with open(MY_DIR + 'Document.docx', 'rb') as in_doc:
-    with open(ARTIFACTS_DIR + 'Document.digital_signature.docx', 'wb') as out_doc:
-        aw.digitalsignatures.DigitalSignatureUtil.sign(in_doc, out_doc, certificate_holder)
-self.assertTrue(aw.FileFormatUtil.detect_file_format(ARTIFACTS_DIR + 'Document.digital_signature.docx').has_digital_signature)
+with system_helper.io.FileStream(MY_DIR + 'Document.docx', system_helper.io.FileMode.OPEN) as in_doc:
+    with system_helper.io.FileStream(ARTIFACTS_DIR + 'Document.DigitalSignature.docx', system_helper.io.FileMode.CREATE) as out_doc:
+        aw.digitalsignatures.DigitalSignatureUtil.sign(src_stream=in_doc, dst_stream=out_doc, cert_holder=certificate_holder)
+self.assertTrue(aw.FileFormatUtil.detect_file_format(file_name=ARTIFACTS_DIR + 'Document.DigitalSignature.docx').has_digital_signature)
 # Please verify that all of the document's digital signatures are valid and check their details.
-signed_doc = aw.Document(ARTIFACTS_DIR + 'Document.digital_signature.docx')
+signed_doc = aw.Document(file_name=ARTIFACTS_DIR + 'Document.DigitalSignature.docx')
 digital_signature_collection = signed_doc.digital_signatures
 self.assertTrue(digital_signature_collection.is_valid)
 self.assertEqual(1, digital_signature_collection.count)

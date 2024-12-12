@@ -45,7 +45,7 @@ should be called in order for the changed options to be applied to the layout.
 | [revision_options](./revision_options/) | Gets revision options. |
 | [show_hidden_text](./show_hidden_text/) | Gets or sets indication of whether hidden text in the document is rendered. Default is ``False``. |
 | [show_paragraph_marks](./show_paragraph_marks/) | Gets or sets indication of whether paragraph marks are rendered. Default is ``False``. |
-| [text_shaper_factory](./text_shaper_factory/) | Gets or sets Aspose.Words.Shaping.ITextShaperFactory implementation used for Advanced Typography rendering features. |
+| [text_shaper_factory](./text_shaper_factory/) | Gets or sets [ITextShaperFactory](../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
 
 ### Examples
 

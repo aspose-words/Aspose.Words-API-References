@@ -77,6 +77,15 @@ license = aw.License()
 license.set_license(LICENSE_PATH)
 ```
 
+Shows how to initialize a license for Aspose.Words from a stream.
+
+```python
+# Set the license for our Aspose.Words product by passing a stream for a valid license file in our local file system.
+with system_helper.io.File.open_read(LICENSE_PATH) as my_stream:
+    license = aw.License()
+    license.set_license(stream=my_stream)
+```
+
 ## See Also
 
 * module [aspose.words](../../)

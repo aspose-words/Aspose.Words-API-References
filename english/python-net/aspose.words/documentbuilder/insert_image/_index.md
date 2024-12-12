@@ -376,29 +376,29 @@ Shows how to insert an image from a stream into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-with open(IMAGE_DIR + 'Logo.jpg', 'rb') as stream:
+builder = aw.DocumentBuilder(doc=doc)
+with system_helper.io.File.open_read(IMAGE_DIR + 'Logo.jpg') as stream:
     # Below are three ways of inserting an image from a stream.
     # 1 -  Inline shape with a default size based on the image's original dimensions:
-    builder.insert_image(stream)
+    builder.insert_image(stream=stream)
     builder.insert_break(aw.BreakType.PAGE_BREAK)
     # 2 -  Inline shape with custom dimensions:
-    builder.insert_image(stream, aw.ConvertUtil.pixel_to_point(250), aw.ConvertUtil.pixel_to_point(144))
+    builder.insert_image(stream=stream, width=aw.ConvertUtil.pixel_to_point(pixels=250), height=aw.ConvertUtil.pixel_to_point(pixels=144))
     builder.insert_break(aw.BreakType.PAGE_BREAK)
     # 3 -  Floating shape with custom dimensions:
-    builder.insert_image(stream, aw.drawing.RelativeHorizontalPosition.MARGIN, 100, aw.drawing.RelativeVerticalPosition.MARGIN, 100, 200, 100, aw.drawing.WrapType.SQUARE)
-doc.save(ARTIFACTS_DIR + 'DocumentBuilderImages.insert_image_from_stream.docx')
+    builder.insert_image(stream=stream, horz_pos=aw.drawing.RelativeHorizontalPosition.MARGIN, left=100, vert_pos=aw.drawing.RelativeVerticalPosition.MARGIN, top=100, width=200, height=100, wrap_type=aw.drawing.WrapType.SQUARE)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilderImages.InsertImageFromStream.docx')
 ```
 
 Shows how to insert a shape with an image from a stream into a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-with open(IMAGE_DIR + 'Logo.jpg', 'rb') as stream:
+builder = aw.DocumentBuilder(doc=doc)
+with system_helper.io.File.open_read(IMAGE_DIR + 'Logo.jpg') as stream:
     builder.write('Image from stream: ')
-    builder.insert_image(stream)
-doc.save(ARTIFACTS_DIR + 'Image.from_stream.docx')
+    builder.insert_image(stream=stream)
+doc.save(file_name=ARTIFACTS_DIR + 'Image.FromStream.docx')
 ```
 
 Shows how to insert an image from a byte array into a document.

@@ -40,6 +40,22 @@ only the default [Document](../document/) constructor is available.
 |[ open(file_name)](./open/#str) | Allows a COM application to load a [Document](../document/) from a file. |
 |[ open(stream)](./open/#bytesio) | Allows a COM application to load [Document](../document/) from a stream. |
 
+### Examples
+
+Shows how to open documents using the ComHelper class.
+
+```python
+# The ComHelper class allows us to load documents from within COM clients.
+com_helper = aw.ComHelper()
+# 1 -  Using a local system filename:
+doc = com_helper.open(file_name=MY_DIR + 'Document.docx')
+self.assertEqual('Hello World!\r\rHello Word!\r\r\rHello World!', doc.get_text().strip())
+# 2 -  From a stream:
+with system_helper.io.FileStream(MY_DIR + 'Document.docx', system_helper.io.FileMode.OPEN) as stream:
+    doc = com_helper.open(stream=stream)
+    self.assertEqual('Hello World!\r\rHello Word!\r\r\rHello World!', doc.get_text().strip())
+```
+
 ### See Also
 
 * module [aspose.words](../)

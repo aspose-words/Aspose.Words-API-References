@@ -5,7 +5,7 @@ articleTitle: aspose.words.shaping module
 second_title: Aspose.Words for Python
 description: "The aspose.words.shaping module contains classes to provide support for OpenType features using external text shaping engines."
 type: docs
-weight: 270
+weight: 300
 url: /python-net/aspose.words.shaping/
 ---
 
@@ -18,20 +18,20 @@ support for OpenType features using external text shaping engines.
 
 | Class | Description |
 | --- | --- |
-| [BasicTextShaperCache](./basictextshapercache/) |  |
-| [Cluster](./cluster/) |  |
-| [Glyph](./glyph/) |  |
-| [ITextShaper](./itextshaper/) |  |
-| [ITextShaperFactory](./itextshaperfactory/) |  |
-| [VariationAxisCoordinate](./variationaxiscoordinate/) |  |
+| [BasicTextShaperCache](./basictextshapercache/) | Implements basic cache for [ITextShaper](./itextshaper/) instances. This class is thread-safe. |
+| [Cluster](./cluster/) | Encapsulates code points and glyphs composing a grapheme. |
+| [Glyph](./glyph/) | Represents a glyph |
+| [ITextShaper](./itextshaper/) | Provides methods for text shaping. |
+| [ITextShaperFactory](./itextshaperfactory/) | An interface of a factory for constructing [ITextShaper](./itextshaper/) implementations. |
+| [VariationAxisCoordinate](./variationaxiscoordinate/) | Represents an axis coordinate. |
 
 ## Enumerations
 
 | Enumeration | Description |
 | --- | --- |
-| [Direction](./direction/) |  |
-| [FontFeature](./fontfeature/) |  |
-| [ScriptShapingLevel](./scriptshapinglevel/) |  |
-| [UnicodeScript](./unicodescript/) |  |
-| [VariationAxis](./variationaxis/) |  |
+| [Direction](./direction/) | Text direction. |
+| [FontFeature](./fontfeature/) | Features provide information about how glyphs are used in a font to render a script. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
+| [ScriptShapingLevel](./scriptshapinglevel/) | Describes shaping levels required by a script. |
+| [UnicodeScript](./unicodescript/) | Unicode Character Database property: Script (sc). |
+| [VariationAxis](./variationaxis/) | Represents OpenType Design-Variation Axis Tag. https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg |
 

@@ -5,7 +5,7 @@ articleTitle: smart_paragraph_break_replacement property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.smart_paragraph_break_replacement property. Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.replacing/findreplaceoptions/smart_paragraph_break_replacement/
 ---
 

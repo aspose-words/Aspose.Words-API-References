@@ -42,6 +42,7 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/python
 | [ignore_structured_document_tags](./ignore_structured_document_tags/) | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). The default value is ``False``. |
 | [legacy_mode](./legacy_mode/) | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [match_case](./match_case/) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [replacement_format](./replacement_format/) | Specifies format of the replacement. Default is [ReplacementFormat.TEXT](../replacementformat/#TEXT). |
 | [replacing_callback](./replacing_callback/) | The user-defined method which is called before every replace occurrence. |
 | [smart_paragraph_break_replacement](./smart_paragraph_break_replacement/) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
 | [use_legacy_order](./use_legacy_order/) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is ``False``. |

@@ -300,7 +300,7 @@ save_options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
 save_options.compliance = aw.saving.OoxmlCompliance.ISO29500_2008_TRANSITIONAL
 doc.save(file_name=ARTIFACTS_DIR + 'Shape.ShapeTypes.docx', save_options=save_options)
 doc = aw.Document(file_name=ARTIFACTS_DIR + 'Shape.ShapeTypes.docx')
-shapes = [x.as_shape() for x in list(doc.get_child_nodes(aw.NodeType.SHAPE, True)) if isinstance(x.as_shape(), aw.drawing.Shape)]
+shapes = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))
 for shape in shapes:
     print(shape.shape_type)
 ```
