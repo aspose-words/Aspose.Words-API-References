@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::XlsxSaveOptions::set_SectionMode method
 linktitle: set_SectionMode
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use set_SectionMode method of Aspose::Words::Saving::XlsxSaveOptions class in C++.'
+description: 'Aspose::Words::Saving::XlsxSaveOptions::set_SectionMode method. Sets the way how sections are handled when saving to the output XLSX document. The default value is MultipleWorksheets in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.saving/xlsxsaveoptions/set_sectionmode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/xlsxsaveoptions/set_sectionmode/
 ## XlsxSaveOptions::set_SectionMode method
 
 
-
+Sets the way how sections are handled when saving to the output XLSX document. The default value is [MultipleWorksheets](../../xlsxsectionmode/).
 
 ```cpp
 void Aspose::Words::Saving::XlsxSaveOptions::set_SectionMode(Aspose::Words::Saving::XlsxSectionMode value)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Layout::RevisionOptions::set_RevisionBarsPosition method
 linktitle: set_RevisionBarsPosition
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Layout::RevisionOptions::set_RevisionBarsPosition method. Sets rendering position of revision bars. Default value is Outside in C++.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_RevisionBarsPosition method. Setter for Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition in C++.'
 type: docs
 weight: 36000
 url: /cpp/aspose.words.layout/revisionoptions/set_revisionbarsposition/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.layout/revisionoptions/set_revisionbarsposition/
 ## RevisionOptions::set_RevisionBarsPosition method
 
 
-Sets rendering position of revision bars. Default value is [Outside](../../../aspose.words.drawing/horizontalalignment/).
+Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition](../get_revisionbarsposition/).
 
 ```cpp
 void Aspose::Words::Layout::RevisionOptions::set_RevisionBarsPosition(Aspose::Words::Drawing::HorizontalAlignment value)

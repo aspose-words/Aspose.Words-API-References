@@ -25,7 +25,7 @@ Aspose::Words::Comment::Comment(const System::SharedPtr<Aspose::Words::DocumentB
 
 When [Comment](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Comment](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the paragraph where you want the comment inserted.
+To append [Comment](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the paragraph where you want the comment inserted.
 
 After creating a comment, don't forget to set its [Author](../get_author/), [Initial](../get_initial/) and [DateTime](../get_datetime/) properties.
 

@@ -20,7 +20,7 @@ class RevisionCollection : public System::Collections::Generic::IEnumerable<Syst
 
 | Method | Description |
 | --- | --- |
-| [Accept](./accept/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\>\&) |  |
+| [Accept](./accept/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\>\&) | Accepts revisions that match specified criteria. |
 | [AcceptAll](./acceptall/)() | Accepts all revisions in this collection. |
 | [get_Count](./get_count/)() | Returns the number of revisions in the collection. |
 | [get_Groups](./get_groups/)() | Collection of revision groups. |
@@ -28,7 +28,7 @@ class RevisionCollection : public System::Collections::Generic::IEnumerable<Syst
 | [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a [Revision](../revision/) at the specified index. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Reject](./reject/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\>\&) |  |
+| [Reject](./reject/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\>\&) | Rejects revisions that match specified criteria. |
 | [RejectAll](./rejectall/)() | Rejects all revisions in this collection. |
 | static [Type](./type/)() |  |
 ## Remarks

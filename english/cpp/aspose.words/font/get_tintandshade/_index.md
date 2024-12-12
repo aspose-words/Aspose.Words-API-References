@@ -19,9 +19,9 @@ double Aspose::Words::Font::get_TintAndShade()
 ## Remarks
 
 
-The allowed values are in range from -1 (darkest) to 1 (lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in a [ArgumentOutOfRangeException](../).
+The allowed values are in range from -1 (darkest) to 1 (lightest) for this property.
 
-Setting this property for [Font](../) object with non-theme colors results in a [InvalidOperationException](../).
+Zero (0) is neutral.
 
 ## Examples
 

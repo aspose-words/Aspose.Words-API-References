@@ -30,19 +30,19 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [get_Font](./get_font/)() | Gets the character formatting of the style. |
 | [get_IsHeading](./get_isheading/)() | True when the style is one of the built-in Heading styles. |
 | [get_IsQuickStyle](./get_isquickstyle/)() const | Specifies whether this style is shown in the Quick [Style](./) gallery inside MS Word UI. |
-| [get_LinkedStyleName](./get_linkedstylename/)() | Gets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
+| [get_LinkedStyleName](./get_linkedstylename/)() | Gets/sets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
 | [get_List](./get_list/)() | Gets the list that defines formatting of this list style. |
 | [get_ListFormat](./get_listformat/)() | Provides access to the list formatting properties of a paragraph style. |
-| [get_Locked](./get_locked/)() const |  |
+| [get_Locked](./get_locked/)() const | Specifies whether this style is locked. |
 | [get_Name](./get_name/)() const | Gets or sets the name of the style. |
 | [get_NextParagraphStyleName](./get_nextparagraphstylename/)() | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [get_ParagraphFormat](./get_paragraphformat/)() | Gets the paragraph formatting of the style. |
-| [get_Priority](./get_priority/)() const |  |
-| [get_SemiHidden](./get_semihidden/)() const |  |
+| [get_Priority](./get_priority/)() const | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
+| [get_SemiHidden](./get_semihidden/)() const | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
 | [get_StyleIdentifier](./get_styleidentifier/)() const | Gets the locale independent style identifier for a built-in style. |
 | [get_Styles](./get_styles/)() const | Gets the collection of styles this style belongs to. |
 | [get_Type](./get_type/)() const | Gets the style type (paragraph or character). |
-| [get_UnhideWhenUsed](./get_unhidewhenused/)() const |  |
+| [get_UnhideWhenUsed](./get_unhidewhenused/)() const | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)() | Removes the specified style from the document. |
@@ -50,12 +50,12 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [set_BaseStyleName](./set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](./get_basestylename/). |
 | [set_IsQuickStyle](./set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](./get_isquickstyle/). |
 | [set_LinkedStyleName](./set_linkedstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_LinkedStyleName](./get_linkedstylename/). |
-| [set_Locked](./set_locked/)(bool) |  |
+| [set_Locked](./set_locked/)(bool) | Specifies whether this style is locked. |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |
 | [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |
-| [set_Priority](./set_priority/)(int32_t) |  |
-| [set_SemiHidden](./set_semihidden/)(bool) |  |
-| [set_UnhideWhenUsed](./set_unhidewhenused/)(bool) |  |
+| [set_Priority](./set_priority/)(int32_t) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
+| [set_SemiHidden](./set_semihidden/)(bool) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
+| [set_UnhideWhenUsed](./set_unhidewhenused/)(bool) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
 | static [Type](./type/)() |  |
 
 ## Examples

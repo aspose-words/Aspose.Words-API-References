@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::XlsxSectionMode enum
 linktitle: XlsxSectionMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::XlsxSectionMode enum. XlsxSectionMode enumeration in C++.'
+description: 'Aspose::Words::Saving::XlsxSectionMode enum. Specifies how sections are handled when saving a document in the XLSX format in C++.'
 type: docs
 weight: 87000
 url: /cpp/aspose.words.saving/xlsxsectionmode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/xlsxsectionmode/
 ## XlsxSectionMode enum
 
 
-XlsxSectionMode enumeration.
+Specifies how sections are handled when saving a document in the XLSX format.
 
 ```cpp
 enum class XlsxSectionMode
@@ -20,8 +20,8 @@ enum class XlsxSectionMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| MultipleWorksheets | 0 |  |
-| SingleWorksheet | 1 |  |
+| MultipleWorksheets | 0 | Specifies that a separate worksheet is created for each section of a document. |
+| SingleWorksheet | 1 | Specifies that all sections of a document are saved on one worksheet. |
 
 ## See Also
 

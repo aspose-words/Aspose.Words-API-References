@@ -19,7 +19,7 @@ System::SharedPtr<System::Security::Cryptography::X509Certificates::X509Certific
 
 ### ReturnValue
 
-**X509Certificate2** instance
+**X509Certificate2****X509Certificate2** instance
 
 ## Examples
 

@@ -25,7 +25,7 @@ Aspose::Words::Markup::SmartTag::SmartTag(const System::SharedPtr<Aspose::Words:
 
 When you create a new node, you need to specify a document to which the node belongs. A node cannot exist without a document because it depends on the document-wide structures such as lists and styles. Although a node always belongs to a document, a node might or might not be a part of the document tree.
 
-When a node is created, it belongs to a document, but is not yet part of the document tree and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**. To insert a node into the document, use the [InsertAfter()](../) or [InsertBefore()](../) methods on the parent node.
+When a node is created, it belongs to a document, but is not yet part of the document tree and [ParentNode](../../../aspose.words/node/get_parentnode/) is null. To insert a node into the document, use the [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) methods on the parent node.
 
 ## Examples
 

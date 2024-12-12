@@ -21,11 +21,13 @@ class BubbleSizeCollection : public System::Collections::Generic::IEnumerable<do
 | Method | Description |
 | --- | --- |
 | [get_Count](./get_count/)() | Gets the number of items in this collection. |
+| [get_FormatCode](./get_formatcode/)() | Gets or sets the format code applied to the bubble sizes. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets the bubble size value at the specified index. |
 | [idx_set](./idx_set/)(int32_t, double) | Gets or sets the bubble size value at the specified index. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_FormatCode](./set_formatcode/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::BubbleSizeCollection::get_FormatCode](./get_formatcode/). |
 | static [Type](./type/)() |  |
 ## Remarks
 

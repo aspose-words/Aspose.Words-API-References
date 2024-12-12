@@ -2,7 +2,7 @@
 title: Aspose::Words::Section::AcceptEnd method
 linktitle: AcceptEnd
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use AcceptEnd method of Aspose::Words::Section class in C++.'
+description: 'Aspose::Words::Section::AcceptEnd method. When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor in C++.'
 type: docs
 weight: 3334
 url: /cpp/aspose.words/section/acceptend/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/section/acceptend/
 ## Section::AcceptEnd method
 
 
-
+When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.
 
 ```cpp
 Aspose::Words::VisitorAction Aspose::Words::Section::AcceptEnd(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override

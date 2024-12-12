@@ -20,10 +20,10 @@ class FindReplaceOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [FindReplaceOptions](./findreplaceoptions/)() |  |
-| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection) |  |
-| [FindReplaceOptions](./findreplaceoptions/)(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) |  |
-| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) |  |
+| [FindReplaceOptions](./findreplaceoptions/)() | Initializes a new instance of the [FindReplaceOptions](./) class with default settings. |
+| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection) | Initializes a new instance of the [FindReplaceOptions](./) class with the specified direction. |
+| [FindReplaceOptions](./findreplaceoptions/)(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) | Initializes a new instance of the [FindReplaceOptions](./) class with the specified replacing callback. |
+| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) | Initializes a new instance of the [FindReplaceOptions](./) class with the specified direction and replacing callback. |
 | [get_ApplyFont](./get_applyfont/)() const | Text formatting applied to new content. |
 | [get_ApplyParagraphFormat](./get_applyparagraphformat/)() const | [Paragraph](../../aspose.words/paragraph/) formatting applied to new content. |
 | [get_Direction](./get_direction/)() const | Selects direction for replace. Default value is [Forward](../findreplacedirection/). |

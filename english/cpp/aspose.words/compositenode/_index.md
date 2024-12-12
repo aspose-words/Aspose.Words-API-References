@@ -23,8 +23,8 @@ class CompositeNode : public Aspose::Words::Node,
 | Method | Description |
 | --- | --- |
 | virtual [Accept](../node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
-| virtual [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) |  |
-| virtual [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) |  |
+| virtual [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
+| virtual [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 | [AppendChild](./appendchild/)(T) |  |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [get_Count](./get_count/)() | Gets the number of immediate children of this node. |

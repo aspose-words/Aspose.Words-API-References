@@ -22,7 +22,7 @@ class OleFormat : public System::Object
 | --- | --- |
 | [get_AutoUpdate](./get_autoupdate/)() | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
 | [get_Clsid](./get_clsid/)() | Gets the CLSID of the OLE object. |
-| [get_IconCaption](./get_iconcaption/)() | Gets icon caption of OLE object. In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string. |
+| [get_IconCaption](./get_iconcaption/)() | Gets icon caption of OLE object. In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty string. |
 | [get_IsLink](./get_islink/)() | Returns **true** if the OLE object is linked (when [SourceFullName](./get_sourcefullname/) is specified). |
 | [get_IsLocked](./get_islocked/)() | Specifies whether the link to the OLE object is locked from updates. |
 | [get_OleControl](./get_olecontrol/)() | Gets [OleControl](./get_olecontrol/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |

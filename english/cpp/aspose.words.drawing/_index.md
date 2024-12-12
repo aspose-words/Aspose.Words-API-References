@@ -14,7 +14,10 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 
 | Class | Description |
 | --- | --- |
+| [Adjustment](./adjustment/) | Represents adjustment values that are applied to the specified shape. |
+| [AdjustmentCollection](./adjustmentcollection/) | Represents a read-only collection of [Adjustment](./adjustment/) adjust values that are applied to the specified shape. |
 | [Fill](./fill/) | Represents fill formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article. |
+| [GlowFormat](./glowformat/) | Represents the glow formatting for an object. |
 | [GradientStop](./gradientstop/) | Represents one gradient stop. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article. |
 | [GradientStopCollection](./gradientstopcollection/) | Contains a collection of [GradientStop](./gradientstop/) objects. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article. |
 | [GroupShape](./groupshape/) | Represents a group of shapes in a document. To learn more, visit the [How to Add Group Shape into a Word Document](https://docs.aspose.com/words/cpp/how-to-add-group-shape-into-a-word-document/) documentation article. |
@@ -23,10 +26,12 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [ImageSize](./imagesize/) | Contains information about image size and resolution. To learn more, visit the [Working with Images](https://docs.aspose.com/words/cpp/working-with-images/) documentation article. |
 | [OleFormat](./oleformat/) | Provides access to the data of an OLE object or ActiveX control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/cpp/working-with-ole-objects/) documentation article. |
 | [OlePackage](./olepackage/) | Allows to access OLE Package properties. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/cpp/working-with-ole-objects/) documentation article. |
+| [ReflectionFormat](./reflectionformat/) | Represents the reflection formatting for an object. |
 | [ShadowFormat](./shadowformat/) | Represents shadow formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article. |
 | [Shape](./shape/) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article. |
 | [ShapeBase](./shapebase/) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article. |
 | [SignatureLine](./signatureline/) | Provides access to signature line properties. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article. |
+| [SoftEdgeFormat](./softedgeformat/) | Represents the soft edge formatting for an object. |
 | [Stroke](./stroke/) | Defines a stroke for a shape. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article. |
 | [TextBox](./textbox/) | Defines attributes that specify how a text is displayed inside a shape. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article. |
 | [TextPath](./textpath/) | Defines the text and formatting of the text path (of a WordArt object). To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article. |
@@ -57,7 +62,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [ShadowType](./shadowtype/) | Specifies the type of a shape shadow. |
 | [ShapeLineStyle](./shapelinestyle/) | Specifies the compound line style of a [Shape](./shape/). |
 | [ShapeMarkupLanguage](./shapemarkuplanguage/) | Specifies [Markup](../aspose.words.markup/) language used for the shape. |
-| [ShapeTextOrientation](./shapetextorientation/) | ShapeTextOrientation enumeration. |
+| [ShapeTextOrientation](./shapetextorientation/) | Specifies orientation of text in shapes. |
 | [ShapeType](./shapetype/) | Specifies the type of shape in a Microsoft Word document. |
 | [TextBoxAnchor](./textboxanchor/) | Specifies values used for shape text vertical alignment. |
 | [TextBoxWrapMode](./textboxwrapmode/) | Specifies how text wraps inside a shape. |

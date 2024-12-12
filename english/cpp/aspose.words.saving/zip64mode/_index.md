@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::Zip64Mode enum
 linktitle: Zip64Mode
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::Zip64Mode enum. Zip64Mode enumeration in C++.'
+description: 'Aspose::Words::Saving::Zip64Mode enum. Specifies when to use ZIP64 format extensions for OOXML files in C++.'
 type: docs
 weight: 88000
 url: /cpp/aspose.words.saving/zip64mode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/zip64mode/
 ## Zip64Mode enum
 
 
-Zip64Mode enumeration.
+Specifies when to use ZIP64 format extensions for OOXML files.
 
 ```cpp
 enum class Zip64Mode
@@ -20,9 +20,10 @@ enum class Zip64Mode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Never | 0 |  |
-| IfNecessary | 1 |  |
-| Always | 2 |  |
+| Never | 0 | Do not use ZIP64 format extensions. |
+| IfNecessary | 1 | If necessary use ZIP64 format extensions. |
+| Always | 2 | Always use ZIP64 format extensions. |
+
 
 ## See Also
 

@@ -20,8 +20,8 @@ enum class HtmlControlType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FormField | 0 |  |
-| StructuredDocumentTag | 1 |  |
+| FormField | 0 | A form field. |
+| StructuredDocumentTag | 1 | A structured document tag. |
 
 ## See Also
 

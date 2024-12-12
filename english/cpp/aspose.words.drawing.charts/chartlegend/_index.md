@@ -21,11 +21,11 @@ class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 
 | Method | Description |
 | --- | --- |
-| [get_Font](./get_font/)() |  |
-| [get_Format](./get_format/)() |  |
+| [get_Font](./get_font/)() | Provides access to the default font formatting of legend entries. To override the font formatting for a specific legend entry, use the[Font](../chartlegendentry/get_font/) property. |
+| [get_Format](./get_format/)() | Provides access to fill and line formatting of the legend. |
 | [get_LegendEntries](./get_legendentries/)() const | Returns a collection of legend entries for all series and trendlines of the parent chart. |
 | [get_Overlay](./get_overlay/)() const | Determines whether other chart elements shall be allowed to overlap legend. Default value is **false**. |
-| [get_Position](./get_position/)() | Specifies the position of the legend on a chart. Default value is [Right](../legendposition/). |
+| [get_Position](./get_position/)() | Specifies the position of the legend on a chart. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Overlay](./set_overlay/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay](./get_overlay/). |
