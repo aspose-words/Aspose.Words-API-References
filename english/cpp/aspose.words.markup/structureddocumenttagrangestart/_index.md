@@ -25,7 +25,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AppendChild](./appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the stdContent range. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [get_Appearance](./get_appearance/)() override |  |
+| [get_Appearance](./get_appearance/)() override | Gets the appearance of the structured document tag. |
 | [get_Color](./get_color/)() override | Gets or sets the color of the structured document tag. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
@@ -41,7 +41,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [get_NodeType](./get_nodetype/)() const override | Returns [StructuredDocumentTagRangeStart](../../aspose.words/nodetype/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_Placeholder](./get_placeholder/)() override | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [XmlMapping](./get_xmlmapping/) element or the [IsShowingPlaceholderText](./get_isshowingplaceholdertext/) element is **true**. |
-| [get_PlaceholderName](./get_placeholdername/)() override | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) with this name [Name](../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../aspose.words/document/get_glossarydocument/) otherwise [InvalidOperationException](../) will occur. |
+| [get_PlaceholderName](./get_placeholdername/)() override | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
@@ -50,7 +50,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [get_Tag](./get_tag/)() const override | Specifies a tag associated with the current structured document tag node. Can not be **null**. |
 | [get_Title](./get_title/)() const override | Specifies the friendly name associated with this structured document tag. Can not be **null**. |
 | [get_WordOpenXML](./get_wordopenxml/)() override | Gets a string that represents the XML contained within the node in the [FlatOpc](../../aspose.words/saveformat/) format. |
-| [get_WordOpenXMLMinimal](./get_wordopenxmlminimal/)() |  |
+| [get_WordOpenXMLMinimal](./get_wordopenxmlminimal/)() | Gets a string that represents the XML contained within the node in the [FlatOpc](../../aspose.words/saveformat/) format. Unlike the [WordOpenXML](./get_wordopenxml/) property, this method generates a stripped-down document that excludes any non-content-related parts. |
 | [get_XmlMapping](./get_xmlmapping/)() override | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
@@ -66,7 +66,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](./removeallchildren/)() | Removes all the nodes between this range start node and the range end node. |
 | [RemoveSelfOnly](./removeselfonly/)() override | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
-| [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) override |  |
+| [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) override | Sets the appearance of the structured document tag. |
 | [set_Color](./set_color/)(System::Drawing::Color) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Color](./get_color/). |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
 | [set_IsShowingPlaceholderText](./set_isshowingplaceholdertext/)(bool) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText](./get_isshowingplaceholdertext/). |

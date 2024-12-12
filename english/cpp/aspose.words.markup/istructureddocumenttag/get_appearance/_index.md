@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::IStructuredDocumentTag::get_Appearance method
 linktitle: get_Appearance
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use get_Appearance method of Aspose::Words::Markup::IStructuredDocumentTag class in C++.'
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_Appearance method. Gets the appearance of the structured document tag in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_appearance/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/get_appearance/
 ## IStructuredDocumentTag::get_Appearance method
 
 
-
+Gets the appearance of the structured document tag.
 
 ```cpp
 virtual Aspose::Words::Markup::SdtAppearance Aspose::Words::Markup::IStructuredDocumentTag::get_Appearance()=0

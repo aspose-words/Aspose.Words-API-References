@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartFormat::SetDefaultFill method
 linktitle: SetDefaultFill
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use SetDefaultFill method of Aspose::Words::Drawing::Charts::ChartFormat class in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartFormat::SetDefaultFill method. Resets the fill of the chart element to have the default value in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.drawing.charts/chartformat/setdefaultfill/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/chartformat/setdefaultfill/
 ## ChartFormat::SetDefaultFill method
 
 
-
+Resets the fill of the chart element to have the default value.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartFormat::SetDefaultFill()

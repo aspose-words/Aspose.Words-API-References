@@ -27,6 +27,10 @@ System::SharedPtr<Aspose::Words::Comment> Aspose::Words::Comment::AddReply(const
 ### ReturnValue
 
 The created [Comment](../) node for the reply.
+## Remarks
+
+
+Due to the existing MS Office limitations only 1 level of replies is allowed in the document.
 
 ## Examples
 

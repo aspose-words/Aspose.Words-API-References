@@ -32,12 +32,12 @@ enum class StoryType
 | PrimaryFooter | 9 | Contains text of the primary footer. When footer is different for odd and even pages, contains text of the odd pages footer. Represented by [HeaderFooter](../headerfooter/). |
 | FirstPageHeader | 10 | Contains text of the first page header, represented by [HeaderFooter](../headerfooter/). |
 | FirstPageFooter | 11 | Contains text of the first page footer, represented by [HeaderFooter](../headerfooter/). |
-| FootnoteSeparator | 12 | Contains the text of the footnote separator, represented by [FootnoteSeparator](../). |
-| FootnoteContinuationSeparator | 13 | Contains the text of the footnote continuation separator, represented by [FootnoteSeparator](../). |
-| FootnoteContinuationNotice | 14 | Contains the text of the footnote continuation notice separator, represented by [FootnoteSeparator](../). |
-| EndnoteSeparator | 15 | Contains the text of the endnote separator, represented by [FootnoteSeparator](../). |
-| EndnoteContinuationSeparator | 16 | Contains the text of the endnote continuation separator, represented by [FootnoteSeparator](../). |
-| EndnoteContinuationNotice | 17 | Contains the text of the endnote continuation notice separator, represented by [FootnoteSeparator](../). |
+| FootnoteSeparator | 12 | Contains the text of the footnote separator. |
+| FootnoteContinuationSeparator | 13 | Contains the text of the footnote continuation separator. |
+| FootnoteContinuationNotice | 14 | Contains the text of the footnote continuation notice separator. |
+| EndnoteSeparator | 15 | Contains the text of the endnote separator. |
+| EndnoteContinuationSeparator | 16 | Contains the text of the endnote continuation separator. |
+| EndnoteContinuationNotice | 17 | Contains the text of the endnote continuation notice separator. |
 
 
 ## Examples

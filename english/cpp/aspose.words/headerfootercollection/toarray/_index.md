@@ -2,7 +2,7 @@
 title: Aspose::Words::HeaderFooterCollection::ToArray method
 linktitle: ToArray
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::HeaderFooterCollection::ToArray method. Copies all HeaderFoorters from the collection to a new array of HeaderFoorters in C++.'
+description: 'Aspose::Words::HeaderFooterCollection::ToArray method. Copies all HeaderFooters from the collection to a new array of HeaderFooters in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words/headerfootercollection/toarray/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/headerfootercollection/toarray/
 ## HeaderFooterCollection::ToArray method
 
 
-Copies all **HeaderFoorter**s from the collection to a new array of **HeaderFoorter**s.
+Copies all **HeaderFooter**s from the collection to a new array of **HeaderFooter**s.
 
 ```cpp
 System::ArrayPtr<System::SharedPtr<Aspose::Words::HeaderFooter>> Aspose::Words::HeaderFooterCollection::ToArray()
@@ -19,7 +19,7 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::HeaderFooter>> Aspose::Words::
 
 ### ReturnValue
 
-An array of **HeaderFoorter**s.
+An array of **HeaderFooter**s.
 
 ## Examples
 

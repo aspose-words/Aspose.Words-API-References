@@ -26,7 +26,7 @@ class ChartSeries : public Aspose::Words::Drawing::Charts::IChartDataPoint,
 | [Add](./add/)(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\>\&, double) | Adds the specified X value, Y value and bubble size to the chart series. |
 | [Clear](./clear/)() | Removes all data values from the chart series. Format of all individual data points and data labels is cleared. |
 | [ClearValues](./clearvalues/)() | Removes all data values from the chart series with preserving the format of the data points and data labels. |
-| [CopyFormatFrom](./copyformatfrom/)(int32_t) |  |
+| [CopyFormatFrom](./copyformatfrom/)(int32_t) | Copies default data point format from the data point with the specified index. |
 | [get_Bubble3D](./get_bubble3d/)() override | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [get_BubbleSizes](./get_bubblesizes/)() | Gets a collection of bubble sizes for this chart series. |
 | [get_DataLabels](./get_datalabels/)() | Specifies the settings for the data labels for the entire series. |

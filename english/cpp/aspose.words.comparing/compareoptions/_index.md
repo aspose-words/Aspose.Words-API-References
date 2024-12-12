@@ -2,7 +2,7 @@
 title: Aspose::Words::Comparing::CompareOptions class
 linktitle: CompareOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Comparing::CompareOptions class. Allows to choose advanced options for document comparison operation. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Comparing::CompareOptions class. Allows to choose additional options for document comparison operation. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.comparing/compareoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.comparing/compareoptions/
 ## CompareOptions class
 
 
-Allows to choose advanced options for document comparison operation. To learn more, visit the [Compare Documents](https://docs.aspose.com/words/cpp/compare-documents/) documentation article.
+Allows to choose additional options for document comparison operation. To learn more, visit the [Compare Documents](https://docs.aspose.com/words/cpp/compare-documents/) documentation article.
 
 ```cpp
 class CompareOptions : public System::Object
@@ -21,22 +21,22 @@ class CompareOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CompareOptions](./compareoptions/)() |  |
-| [get_AdvancedOptions](./get_advancedoptions/)() const |  |
-| [get_CompareMoves](./get_comparemoves/)() const | Specifies whether to compare differences in [MoveRevision](../) between the two documents. By default move revisions are not produced. |
-| [get_Granularity](./get_granularity/)() const | Specifies whether changes are tracked by character or by word. Default value is [WordLevel](../granularity/). |
-| [get_IgnoreCaseChanges](./get_ignorecasechanges/)() const | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
-| [get_IgnoreComments](./get_ignorecomments/)() const | Specifies whether to compare differences in comments. By default comments are not ignored. |
-| [get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/)() | Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**. |
-| [get_IgnoreFields](./get_ignorefields/)() const | Specifies whether to compare differences in fields. By default fields are not ignored. |
-| [get_IgnoreFootnotes](./get_ignorefootnotes/)() const | Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored. |
-| [get_IgnoreFormatting](./get_ignoreformatting/)() const | True indicates that formatting is ignored. By default document formatting is not ignored. |
-| [get_IgnoreHeadersAndFooters](./get_ignoreheadersandfooters/)() const | True indicates that headers and footers content is ignored. By default headers and footers are not ignored. |
-| [get_IgnoreTables](./get_ignoretables/)() const | Specifies whether to compare the differences in data contained in tables. By default tables are not ignored. |
-| [get_IgnoreTextboxes](./get_ignoretextboxes/)() const | Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored. |
+| [get_AdvancedOptions](./get_advancedoptions/)() const | Specifies advanced compare options that might help to produce more precise comparison output. |
+| [get_CompareMoves](./get_comparemoves/)() const | Specifies whether to compare differences between the two documents. |
+| [get_Granularity](./get_granularity/)() const | Specifies whether changes are tracked by character or by word. |
+| [get_IgnoreCaseChanges](./get_ignorecasechanges/)() const | True indicates that documents comparison is case insensitive. |
+| [get_IgnoreComments](./get_ignorecomments/)() const | Specifies whether to compare differences in comments. |
+| [get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/)() | Specifies whether to ignore difference in DrawingML unique Id. |
+| [get_IgnoreFields](./get_ignorefields/)() const | Specifies whether to compare differences in fields. |
+| [get_IgnoreFootnotes](./get_ignorefootnotes/)() const | Specifies whether to compare differences in footnotes and endnotes. |
+| [get_IgnoreFormatting](./get_ignoreformatting/)() const | True indicates that formatting is ignored. |
+| [get_IgnoreHeadersAndFooters](./get_ignoreheadersandfooters/)() const | True indicates that headers and footers content is ignored. |
+| [get_IgnoreTables](./get_ignoretables/)() const | Specifies whether to compare the differences in data contained in tables. |
+| [get_IgnoreTextboxes](./get_ignoretextboxes/)() const | Specifies whether to compare differences in the data contained within text boxes. |
 | [get_Target](./get_target/)() const | Specifies which document shall be used as a target during comparison. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_CompareMoves](./set_comparemoves/)(bool) | Specifies whether to compare differences in [MoveRevision](../) between the two documents. By default move revisions are not produced. |
+| [set_CompareMoves](./set_comparemoves/)(bool) | Specifies whether to compare differences between the two documents. |
 | [set_Granularity](./set_granularity/)(Aspose::Words::Comparing::Granularity) | Setter for [Aspose::Words::Comparing::CompareOptions::get_Granularity](./get_granularity/). |
 | [set_IgnoreCaseChanges](./set_ignorecasechanges/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreCaseChanges](./get_ignorecasechanges/). |
 | [set_IgnoreComments](./set_ignorecomments/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreComments](./get_ignorecomments/). |

@@ -22,13 +22,13 @@ class Section : public Aspose::Words::CompositeNode,
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 | [AppendChild](../compositenode/appendchild/)(T) |  |
 | [AppendContent](./appendcontent/)(const System::SharedPtr\<Aspose::Words::Section\>\&) | Inserts a copy of content of the source section at the end of this section. |
 | [ClearContent](./clearcontent/)() | Clears the section. |
 | [ClearHeadersFooters](./clearheadersfooters/)() | Clears the headers and footers of this section. |
-| [ClearHeadersFooters](./clearheadersfooters/)(bool) |  |
+| [ClearHeadersFooters](./clearheadersfooters/)(bool) | Clears the headers and footers of this section. |
 | [Clone](./clone/)() | Creates a duplicate of this section. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [DeleteHeaderFooterShapes](./deleteheaderfootershapes/)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |

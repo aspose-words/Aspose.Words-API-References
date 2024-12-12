@@ -25,9 +25,9 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | --- | --- |
 | [DeleteRow](./deleterow/)(int32_t, int32_t) | Deletes a row from a table. |
 | [DocumentBuilder](./documentbuilder/)() | Initializes a new instance of this class. |
-| [DocumentBuilder](./documentbuilder/)(const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) |  |
+| [DocumentBuilder](./documentbuilder/)(const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) | Initializes a new instance of this class. |
 | [DocumentBuilder](./documentbuilder/)(const System::SharedPtr\<Aspose::Words::Document\>\&) | Initializes a new instance of this class. |
-| [DocumentBuilder](./documentbuilder/)(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) |  |
+| [DocumentBuilder](./documentbuilder/)(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) | Initializes a new instance of this class. |
 | [EndBookmark](./endbookmark/)(const System::String\&) | Marks the current position in the document as a bookmark end. |
 | [EndColumnBookmark](./endcolumnbookmark/)(const System::String\&) | Marks the current position in the document as a column bookmark end. The position must be in a table cell. |
 | [EndEditableRange](./endeditablerange/)() | Marks the current position in the document as an editable range end. |
@@ -62,15 +62,15 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [InsertComboBox](./insertcombobox/)(const System::String\&, const System::ArrayPtr\<System::String\>\&, int32_t) | Inserts a combobox form field at the current position. |
 | [InsertDocument](./insertdocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) | Inserts a document at the cursor position. |
 | [InsertDocument](./insertdocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) | Inserts a document at the cursor position. |
-| [InsertDocumentInline](./insertdocumentinline/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) |  |
+| [InsertDocumentInline](./insertdocumentinline/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) | Inserts a document inline at the cursor position. |
 | [InsertField](./insertfield/)(Aspose::Words::Fields::FieldType, bool) | Inserts a Word field into a document and optionally updates the field result. |
 | [InsertField](./insertfield/)(const System::String\&) | Inserts a Word field into a document and updates the field result. |
 | [InsertField](./insertfield/)(const System::String\&, const System::String\&) | Inserts a Word field into a document without updating the field result. |
 | [InsertFootnote](./insertfootnote/)(Aspose::Words::Notes::FootnoteType, const System::String\&) | Inserts a footnote or endnote into the document. |
 | [InsertFootnote](./insertfootnote/)(Aspose::Words::Notes::FootnoteType, const System::String\&, const System::String\&) | Inserts a footnote or endnote into the document. |
-| [InsertForms2OleControl](./insertforms2olecontrol/)(const System::SharedPtr\<Aspose::Words::Drawing::Ole::Forms2OleControl\>\&) |  |
-| [InsertGroupShape](./insertgroupshape/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\>\&) |  |
-| [InsertGroupShape](./insertgroupshape/)(double, double, double, double, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\>\&) |  |
+| [InsertForms2OleControl](./insertforms2olecontrol/)(const System::SharedPtr\<Aspose::Words::Drawing::Ole::Forms2OleControl\>\&) | Inserts [Forms2OleControl](../) object into current position. |
+| [InsertGroupShape](./insertgroupshape/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\>\&) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
+| [InsertGroupShape](./insertgroupshape/)(double, double, double, double, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\>\&) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 | [InsertHorizontalRule](./inserthorizontalrule/)() | Inserts a horizontal rule shape into the document. |
 | [InsertHtml](./inserthtml/)(const System::String\&) | Inserts an HTML string into the document. |
 | [InsertHtml](./inserthtml/)(const System::String\&, bool) | Inserts an HTML string into the document. |
@@ -111,7 +111,7 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [InsertShape](./insertshape/)(Aspose::Words::Drawing::ShapeType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts free-floating shape with specified position, size and text wrap type. |
 | [InsertSignatureLine](./insertsignatureline/)(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&) | Inserts a signature line at the current position. |
 | [InsertSignatureLine](./insertsignatureline/)(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, Aspose::Words::Drawing::WrapType) | Inserts a signature line at the specified position. |
-| [InsertStructuredDocumentTag](./insertstructureddocumenttag/)(Aspose::Words::Markup::SdtType) |  |
+| [InsertStructuredDocumentTag](./insertstructureddocumenttag/)(Aspose::Words::Markup::SdtType) | Inserts a [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) into the document. |
 | [InsertStyleSeparator](./insertstyleseparator/)() | Inserts style separator into the document. |
 | [InsertTableOfContents](./inserttableofcontents/)(const System::String\&) | Inserts a TOC (table of contents) field into the document. |
 | [InsertTextInput](./inserttextinput/)(const System::String\&, Aspose::Words::Fields::TextFormFieldType, const System::String\&, const System::String\&, int32_t) | Inserts a text form field at the current position. |

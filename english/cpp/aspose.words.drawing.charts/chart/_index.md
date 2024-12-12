@@ -21,14 +21,14 @@ class Chart : public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
 | Method | Description |
 | --- | --- |
 | [get_Axes](./get_axes/)() | Gets a collection of all axes of this chart. |
-| [get_AxisX](./get_axisx/)() | Provides access to properties of the X axis of the chart. |
-| [get_AxisY](./get_axisy/)() | Provides access to properties of the Y axis of the chart. |
+| [get_AxisX](./get_axisx/)() | Provides access to properties of the primary X axis of the chart. |
+| [get_AxisY](./get_axisy/)() | Provides access to properties of the primary Y axis of the chart. |
 | [get_AxisZ](./get_axisz/)() | Provides access to properties of the Z axis of the chart. |
-| [get_DataTable](./get_datatable/)() |  |
-| [get_Format](./get_format/)() |  |
+| [get_DataTable](./get_datatable/)() | Provides access to properties of a data table of this chart. The data table can be shown using the [Show](../chartdatatable/get_show/) property. |
+| [get_Format](./get_format/)() | Provides access to fill and line formatting of the chart. |
 | [get_Legend](./get_legend/)() | Provides access to the chart legend properties. |
 | [get_Series](./get_series/)() | Provides access to series collection. |
-| [get_SeriesGroups](./get_seriesgroups/)() |  |
+| [get_SeriesGroups](./get_seriesgroups/)() | Provides access to a series group collection of this chart. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [get_Title](./get_title/)() | Provides access to the chart title properties. |
 | [GetType](./gettype/)() const override |  |

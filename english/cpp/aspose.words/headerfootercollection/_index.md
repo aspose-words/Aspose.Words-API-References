@@ -35,7 +35,7 @@ class HeaderFooterCollection : public Aspose::Words::NodeCollection
 | [LinkToPrevious](./linktoprevious/)(Aspose::Words::HeaderFooterType, bool) | Links or unlinks the specified header or footer to the corresponding header or footer in the previous section. |
 | [Remove](../nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
 | [RemoveAt](../nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
-| [ToArray](./toarray/)() | Copies all **HeaderFoorter**s from the collection to a new array of **HeaderFoorter**s. |
+| [ToArray](./toarray/)() | Copies all **HeaderFooter**s from the collection to a new array of **HeaderFooter**s. |
 | static [Type](./type/)() |  |
 ## Remarks
 

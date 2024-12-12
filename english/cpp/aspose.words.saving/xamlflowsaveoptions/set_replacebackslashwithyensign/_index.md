@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::XamlFlowSaveOptions::set_ReplaceBackslashWithYenSign method
 linktitle: set_ReplaceBackslashWithYenSign
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use set_ReplaceBackslashWithYenSign method of Aspose::Words::Saving::XamlFlowSaveOptions class in C++.'
+description: 'Aspose::Words::Saving::XamlFlowSaveOptions::set_ReplaceBackslashWithYenSign method. Specifies whether backslash characters should be replaced with yen signs. Default value is false in C++.'
 type: docs
 weight: 11500
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/set_replacebackslashwithyensign/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/xamlflowsaveoptions/set_replacebackslashwithyensig
 ## XamlFlowSaveOptions::set_ReplaceBackslashWithYenSign method
 
 
-
+Specifies whether backslash characters should be replaced with yen signs. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Saving::XamlFlowSaveOptions::set_ReplaceBackslashWithYenSign(bool value)

@@ -22,7 +22,7 @@ class FontInfo : public System::Object
 | --- | --- |
 | [get_AltName](./get_altname/)() const | Gets or sets the alternate name for the font. |
 | [get_Charset](./get_charset/)() | Gets or sets the character set for the font. |
-| [get_EmbeddingLicensingRights](./get_embeddinglicensingrights/)() |  |
+| [get_EmbeddingLicensingRights](./get_embeddinglicensingrights/)() | Gets the embedded font licensing rights. |
 | [get_Family](./get_family/)() const | Gets or sets the font family this font belongs to. |
 | [get_IsTrueType](./get_istruetype/)() const | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is **true**. |
 | [get_Name](./get_name/)() const | Gets the name of the font. |

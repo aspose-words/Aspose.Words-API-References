@@ -21,8 +21,8 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the [GroupShape](./). |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the [GroupShape](./). |
 | [AdjustWithEffects](../shapebase/adjustwitheffects/)(System::Drawing::RectangleF) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
@@ -49,11 +49,11 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FlipOrientation](../shapebase/get_fliporientation/)() | Switches the orientation of a shape. |
 | [get_Font](../shapebase/get_font/)() | Provides access to the font formatting of this object. |
-| [get_Glow](../shapebase/get_glow/)() |  |
+| [get_Glow](../shapebase/get_glow/)() | Gets glow formatting for the shape. |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_Height](../shapebase/get_height/)() | Gets or sets the height of the containing block of the shape. |
 | [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
-| [get_Hidden](../shapebase/get_hidden/)() |  |
+| [get_Hidden](../shapebase/get_hidden/)() | Gets a boolean value indicating whether the shape is visible. |
 | [get_HorizontalAlignment](../shapebase/get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
 | [get_HRef](../shapebase/get_href/)() | Gets or sets the full hyperlink address for a shape. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
@@ -83,7 +83,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
-| [get_Reflection](../shapebase/get_reflection/)() |  |
+| [get_Reflection](../shapebase/get_reflection/)() | Gets reflection formatting for the shape. |
 | [get_RelativeHorizontalPosition](../shapebase/get_relativehorizontalposition/)() | Specifies relative to what the shape is positioned horizontally. |
 | [get_RelativeHorizontalSize](../shapebase/get_relativehorizontalsize/)() | Gets or sets the value of shape's relative size in horizontal direction. |
 | [get_RelativeVerticalPosition](../shapebase/get_relativeverticalposition/)() | Specifies relative to what the shape is positioned vertically. |
@@ -94,7 +94,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_ShadowFormat](../shapebase/get_shadowformat/)() | Gets shadow formatting for the shape. |
 | [get_ShapeType](../shapebase/get_shapetype/)() | Gets the shape type. |
 | [get_SizeInPoints](../shapebase/get_sizeinpoints/)() | Gets the size of the shape in points. |
-| [get_SoftEdge](../shapebase/get_softedge/)() |  |
+| [get_SoftEdge](../shapebase/get_softedge/)() | Gets soft edge formatting for the shape. |
 | [get_Target](../shapebase/get_target/)() | Gets or sets the target frame for the shape hyperlink. |
 | [get_Title](../shapebase/get_title/)() | Gets or sets the title (caption) of the current shape object. |
 | [get_Top](../shapebase/get_top/)() | Gets or sets the position of the top edge of the containing block of the shape. |
@@ -146,7 +146,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [set_FlipOrientation](../shapebase/set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](../shapebase/get_fliporientation/). |
 | [set_Height](../shapebase/set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](../shapebase/get_height/). |
 | [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
-| [set_Hidden](../shapebase/set_hidden/)(bool) |  |
+| [set_Hidden](../shapebase/set_hidden/)(bool) | Sets a boolean value indicating whether the shape is visible. |
 | [set_HorizontalAlignment](../shapebase/set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](../shapebase/get_horizontalalignment/). |
 | [set_HRef](../shapebase/set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../shapebase/get_href/). |
 | [set_IsDecorative](../shapebase/set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](../shapebase/get_isdecorative/). |

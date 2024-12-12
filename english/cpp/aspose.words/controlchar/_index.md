@@ -45,7 +45,7 @@ class ControlChar
 | static constexpr [FieldStartChar](./fieldstartchar/) | Start of MS Word field character: (char)19. |
 | static constexpr [LineBreakChar](./linebreakchar/) | Line break character: (char)11 or "\v". |
 | static constexpr [LineFeedChar](./linefeedchar/) | Line feed character: (char)10 or "\n". |
-| static constexpr [NonBreakingHyphenChar](./nonbreakinghyphenchar/) | Nonbreaking Hyphen in Microsoft Word is (char)30. |
+| static constexpr [NonBreakingHyphenChar](./nonbreakinghyphenchar/) | Non-breaking Hyphen in Microsoft Word is (char)30. |
 | static constexpr [NonBreakingSpaceChar](./nonbreakingspacechar/) | Non-breaking space character: (char)160. |
 | static constexpr [OptionalHyphenChar](./optionalhyphenchar/) | Optional Hyphen in Microsoft Word is (char)31. |
 | static constexpr [PageBreakChar](./pagebreakchar/) | Page break character: (char)12 or "\f". |

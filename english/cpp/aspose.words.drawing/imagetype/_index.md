@@ -29,8 +29,8 @@ enum class ImageType
 | Png | 6 | Portable Network Graphics. |
 | Bmp | 7 | Windows Bitmap. |
 | Eps | 8 | Encapsulated PostScript. |
-| WebP | 9 |  |
-| Gif | 10 |  |
+| WebP | 9 | WebP. |
+| Gif | 10 | GIF. |
 
 
 ## Examples

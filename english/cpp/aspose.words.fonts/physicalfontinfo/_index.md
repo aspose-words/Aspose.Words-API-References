@@ -20,7 +20,7 @@ class PhysicalFontInfo : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_EmbeddingLicensingRights](./get_embeddinglicensingrights/)() const |  |
+| [get_EmbeddingLicensingRights](./get_embeddinglicensingrights/)() const | Embedding licensing rights for the font. |
 | [get_FilePath](./get_filepath/)() const | Path to the font file if any. |
 | [get_FontFamilyName](./get_fontfamilyname/)() const | Family name of the font. |
 | [get_FullFontName](./get_fullfontname/)() const | Full name of the font. |

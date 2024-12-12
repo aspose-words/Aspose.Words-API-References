@@ -25,7 +25,7 @@ Aspose::Words::BuildingBlocks::BuildingBlock::BuildingBlock(const System::Shared
 
 When [BuildingBlock](../) is created, it belongs to the specified glossary document, but is not yet part of the glossary document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append [BuildingBlock](../) to a [GlossaryDocument](../../glossarydocument/) use [AppendChild()](../).
+To append [BuildingBlock](../) to a [GlossaryDocument](../../glossarydocument/) use [AppendChild``1()](../).
 
 ## Examples
 

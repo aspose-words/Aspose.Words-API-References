@@ -21,11 +21,13 @@ class ChartYValueCollection : public System::Collections::Generic::IEnumerable<S
 | Method | Description |
 | --- | --- |
 | [get_Count](./get_count/)() | Gets the number of items in this collection. |
+| [get_FormatCode](./get_formatcode/)() | Gets or sets the format code applied to the Y values. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets the Y value at the specified index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\>\&) | Gets or sets the Y value at the specified index. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_FormatCode](./set_formatcode/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartYValueCollection::get_FormatCode](./get_formatcode/). |
 | static [Type](./type/)() |  |
 ## Remarks
 

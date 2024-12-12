@@ -25,7 +25,7 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 | vertPos | Aspose::Words::Drawing::RelativeVerticalPosition | Specifies where the vertical distance to the shape is measured from. |
 | top | double | Distance in points from the origin to the top side of the shape. |
 | width | double | The width of the shape in points. |
-| height | double | The width of the shape in points. |
+| height | double | The height of the shape in points. |
 | wrapType | Aspose::Words::Drawing::WrapType | Specifies how to wrap text around the shape. |
 
 ### ReturnValue

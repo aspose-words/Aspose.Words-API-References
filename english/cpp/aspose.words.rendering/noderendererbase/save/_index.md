@@ -54,11 +54,17 @@ for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape,
 ## NodeRendererBase::Save(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) method
 
 
-
+Renders the shape into an SVG image and saves into a stream.
 
 ```cpp
 void Aspose::Words::Rendering::NodeRendererBase::Save(const System::SharedPtr<System::IO::Stream> &stream, System::SharedPtr<Aspose::Words::Saving::SvgSaveOptions> saveOptions)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to save the SVG image of the shape. |
+| saveOptions | System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be **null**. If this is **null**, the image will be saved with the default options. |
 
 ## See Also
 
@@ -110,11 +116,17 @@ math->GetMathRenderer()->Save(ArtifactsDir + u"Shape.RenderOfficeMath.png", save
 ## NodeRendererBase::Save(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) method
 
 
-
+Renders the shape into an SVG image and saves into a file.
 
 ```cpp
 void Aspose::Words::Rendering::NodeRendererBase::Save(const System::String &fileName, System::SharedPtr<Aspose::Words::Saving::SvgSaveOptions> saveOptions)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | const System::String\& | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
+| saveOptions | System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be **null**. |
 
 ## See Also
 

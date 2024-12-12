@@ -29,8 +29,8 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_Crosses](./get_crosses/)() | Specifies how this axis crosses the perpendicular axis. |
 | [get_CrossesAt](./get_crossesat/)() | Specifies where on the perpendicular axis the axis crosses. |
 | [get_DisplayUnit](./get_displayunit/)() | Specifies the scaling value of the display units for the value axis. |
-| [get_Document](./get_document/)() | Returns the [Document](../../aspose.words/document/) the title holder belongs. |
-| [get_Format](./get_format/)() |  |
+| [get_Document](./get_document/)() | Returns the document containing the parent chart. |
+| [get_Format](./get_format/)() | Provides access to line formatting of the axis and fill of the tick labels. |
 | [get_HasMajorGridlines](./get_hasmajorgridlines/)() | Gets a flag indicating whether the axis has major gridlines. |
 | [get_HasMinorGridlines](./get_hasminorgridlines/)() | Gets a flag indicating whether the axis has minor gridlines. |
 | [get_Hidden](./get_hidden/)() | Gets or sets a flag indicating whether this axis is hidden or not. |
@@ -45,9 +45,9 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_NumberFormat](./get_numberformat/)() | Returns a [ChartNumberFormat](../chartnumberformat/) object that allows defining number formats for the axis. |
 | [get_ReverseOrder](./get_reverseorder/)() | Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min. |
 | [get_Scaling](./get_scaling/)() | Provides access to the scaling options of the axis. |
-| [get_TickLabels](./get_ticklabels/)() |  |
+| [get_TickLabels](./get_ticklabels/)() | Provides access to the properties of the axis tick mark labels. |
 | [get_TickMarkSpacing](./get_tickmarkspacing/)() | Gets or sets the interval, at which tick marks are drawn. |
-| [get_Title](./get_title/)() |  |
+| [get_Title](./get_title/)() | Provides access to the axis title properties. |
 | [get_Type](./get_type/)() const | Returns type of the axis. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |

@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions constructor
 linktitle: ImageSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions constructor. Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps or Svg format in C++.'
+description: 'Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions constructor. Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Jpeg, Emf, Eps, WebP or Svg format in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.saving/imagesaveoptions/imagesaveoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ## ImageSaveOptions::ImageSaveOptions constructor
 
 
-Initializes a new instance of this class that can be used to save rendered images in the [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/), [Emf](../../../aspose.words/saveformat/), [Eps](../../../aspose.words/saveformat/) or [Svg](../../../aspose.words/saveformat/) format.
+Initializes a new instance of this class that can be used to save rendered images in the [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/), [Emf](../../../aspose.words/saveformat/), [Eps](../../../aspose.words/saveformat/), [WebP](../) or [Svg](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -19,7 +19,7 @@ Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions(Aspose::Words::SaveFor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/), [Emf](../../../aspose.words/saveformat/), [Eps](../../../aspose.words/saveformat/) or [Svg](../../../aspose.words/saveformat/) format. |
+| saveFormat | Aspose::Words::SaveFormat | Can be [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/), [Emf](../../../aspose.words/saveformat/), [Eps](../../../aspose.words/saveformat/)[WebP](../) or [Svg](../../../aspose.words/saveformat/) format. |
 
 ## Examples
 

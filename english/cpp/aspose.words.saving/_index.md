@@ -16,6 +16,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | --- | --- |
 | [BookmarksOutlineLevelCollection](./bookmarksoutlinelevelcollection/) | A collection of individual bookmarks outline level. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article. |
 | [CssSavingArgs](./csssavingargs/) | Provides data for the [CssSaving()](./icsssavingcallback/csssaving/) event. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article. |
+| [DigitalSignatureDetails](./digitalsignaturedetails/) | Contains details for signing a document with a digital signature. |
 | [DocSaveOptions](./docsaveoptions/) | Can be used to specify additional options when saving a document into the [Doc](../aspose.words/saveformat/) or [Dot](../aspose.words/saveformat/) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article. |
 | [DocumentPartSavingArgs](./documentpartsavingargs/) | Provides data for the [DocumentPartSaving()](./idocumentpartsavingcallback/documentpartsaving/) callback. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article. |
 | [DocumentSavingArgs](./documentsavingargs/) | An argument passed into [Notify()](./idocumentsavingcallback/notify/). To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article. |
@@ -89,8 +90,8 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageColorMode](./imagecolormode/) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images of document pages. |
 | [ImlRenderingMode](./imlrenderingmode/) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
-| [MarkdownExportAsHtml](./markdownexportashtml/) | MarkdownExportAsHtml enumeration. |
-| [MarkdownLinkExportMode](./markdownlinkexportmode/) | The mode of exporting links to a target document. |
+| [MarkdownExportAsHtml](./markdownexportashtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. |
+| [MarkdownLinkExportMode](./markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](./markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
@@ -102,7 +103,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [PdfFontEmbeddingMode](./pdffontembeddingmode/) | Specifies how Aspose.Words should embed fonts. |
 | [PdfImageColorSpaceExportMode](./pdfimagecolorspaceexportmode/) | Specifies how the color space will be selected for the images in PDF document. |
 | [PdfImageCompression](./pdfimagecompression/) | Specifies the type of compression applied to images in the PDF file. |
-| [PdfPageLayout](./pdfpagelayout/) | PdfPageLayout enumeration. |
+| [PdfPageLayout](./pdfpagelayout/) | Specifies the page layout to be used when the document is opened in a PDF reader. |
 | [PdfPageMode](./pdfpagemode/) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
 | [PdfPermissions](./pdfpermissions/) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
 | [PdfTextCompression](./pdftextcompression/) | Specifies a type of compression applied to all content in the PDF file except images. |
@@ -111,6 +112,6 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [TableContentAlignment](./tablecontentalignment/) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving page images into a TIFF file. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Specifies the way headers and footers are exported to plain text format. |
-| [XlsxDateTimeParsingMode](./xlsxdatetimeparsingmode/) | XlsxDateTimeParsingMode enumeration. |
-| [XlsxSectionMode](./xlsxsectionmode/) | XlsxSectionMode enumeration. |
-| [Zip64Mode](./zip64mode/) | Zip64Mode enumeration. |
+| [XlsxDateTimeParsingMode](./xlsxdatetimeparsingmode/) | Specifies how document text is parsed to identify date and time values. |
+| [XlsxSectionMode](./xlsxsectionmode/) | Specifies how sections are handled when saving a document in the XLSX format. |
+| [Zip64Mode](./zip64mode/) | Specifies when to use ZIP64 format extensions for OOXML files. |

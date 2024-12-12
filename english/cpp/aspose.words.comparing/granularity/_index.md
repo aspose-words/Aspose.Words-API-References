@@ -20,8 +20,8 @@ enum class Granularity
 
 | Name | Value | Description |
 | --- | --- | --- |
-| CharLevel | 0 |  |
-| WordLevel | 1 |  |
+| CharLevel | 0 | Specifies changes at the character level. |
+| WordLevel | 1 | Specifies changes at the word level. |
 
 
 ## Examples

@@ -25,7 +25,7 @@ Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &do
 
 When [Run](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Run](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the paragraph where you want the run inserted.
+To append [Run](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the paragraph where you want the run inserted.
 
 ## Examples
 
@@ -100,7 +100,7 @@ Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &do
 
 When [Run](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Run](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the paragraph where you want the run inserted.
+To append [Run](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the paragraph where you want the run inserted.
 
 ## Examples
 

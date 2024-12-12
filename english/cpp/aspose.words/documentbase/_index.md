@@ -21,8 +21,8 @@ class DocumentBase : public Aspose::Words::CompositeNode
 | Method | Description |
 | --- | --- |
 | virtual [Accept](../node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
-| virtual [AcceptEnd](../compositenode/acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) |  |
-| virtual [AcceptStart](../compositenode/acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) |  |
+| virtual [AcceptEnd](../compositenode/acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
+| virtual [AcceptStart](../compositenode/acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 | [AppendChild](../compositenode/appendchild/)(T) |  |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [get_BackgroundShape](./get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be **null**. |
@@ -31,7 +31,7 @@ class DocumentBase : public Aspose::Words::CompositeNode
 | [get_Document](./get_document/)() const override | Gets this instance. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FontInfos](./get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
-| [get_FootnoteSeparators](./get_footnoteseparators/)() const |  |
+| [get_FootnoteSeparators](./get_footnoteseparators/)() const | Provides access to the footnote/endnote separators defined in the document. |
 | [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |

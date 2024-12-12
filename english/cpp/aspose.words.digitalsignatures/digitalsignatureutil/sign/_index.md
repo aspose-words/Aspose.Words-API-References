@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign method
 linktitle: Sign
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign method. Signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. Document should be either Doc or Docx.Output will be written to the start of stream and stream size will be updated with content length in C++.'
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign method. Signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. Supported formats are: Doc, Dot, Docx, Dotx, Docm, Odt, Ott.Output will be written to the start of stream and stream size will be updated with content length in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/sign/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination stream. [Document](../../../aspose.words/document/) should be either [Doc](../../../aspose.words/loadformat/) or [Docx](../../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.**
+Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination stream. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.**
 
 ```cpp
 static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::SharedPtr<System::IO::Stream> &srcStream, const System::SharedPtr<System::IO::Stream> &dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder)
@@ -75,7 +75,7 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_S
 ## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination stream. [Document](../../../aspose.words/document/) should be either [Doc](../../../aspose.words/loadformat/) or [Docx](../../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.**
+Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination stream. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.**
 
 ```cpp
 static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::SharedPtr<System::IO::Stream> &srcStream, const System::SharedPtr<System::IO::Stream> &dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> &signOptions)
@@ -125,7 +125,7 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 ## DigitalSignatureUtil::Sign(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination file. [Document](../../../aspose.words/document/) should be either [Doc](../../../aspose.words/loadformat/) or [Docx](../../../aspose.words/loadformat/).
+Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination file. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
 
 ```cpp
 static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::String &srcFileName, const System::String &dstFileName, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder)
@@ -190,7 +190,7 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_S
 ## DigitalSignatureUtil::Sign(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination file. [Document](../../../aspose.words/document/) should be either [Doc](../../../aspose.words/loadformat/) or [Docx](../../../aspose.words/loadformat/).
+Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination file. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
 
 ```cpp
 static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::String &srcFileName, const System::String &dstFileName, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> &signOptions)

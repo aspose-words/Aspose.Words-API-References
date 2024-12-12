@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::MarkdownLinkExportMode enum
 linktitle: MarkdownLinkExportMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::MarkdownLinkExportMode enum. The mode of exporting links to a target document in C++.'
+description: 'Aspose::Words::Saving::MarkdownLinkExportMode enum. Specifies how links are exported into Markdown in C++.'
 type: docs
 weight: 67000
 url: /cpp/aspose.words.saving/markdownlinkexportmode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/markdownlinkexportmode/
 ## MarkdownLinkExportMode enum
 
 
-The mode of exporting links to a target document.
+Specifies how links are exported into Markdown.
 
 ```cpp
 enum class MarkdownLinkExportMode
@@ -20,9 +20,9 @@ enum class MarkdownLinkExportMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | 0 | A link is exported as a reference block if it has roundtrip information or is mentioned more than once in a document. In all other cases a link is exported as an inline block. |
-| Inline | 1 | Links are exported as inline blocks. |
-| Reference | 2 | Links are exported as reference blocks. |
+| Auto | 0 | Automatically detect export mode for each link. |
+| Inline | 1 | Export all links as inline blocks. |
+| Reference | 2 | Export all links as reference blocks. |
 
 ## See Also
 

@@ -25,7 +25,7 @@ Aspose::Words::Body::Body(const System::SharedPtr<Aspose::Words::DocumentBase> &
 
 When [Body](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Body](../) to a [Section](../../section/) use [AppendChild](../), [InsertAfter](../) or [InsertBefore](../) methods.
+To append [Body](../) to a [Section](../../section/) use [AppendChild](../)[InsertAfter](../) or [InsertBefore](../) methods.
 
 ## Examples
 
