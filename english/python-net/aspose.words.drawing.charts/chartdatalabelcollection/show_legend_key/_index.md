@@ -5,7 +5,7 @@ articleTitle: show_legend_key property
 second_title: Aspose.Words for Python
 description: "ChartDataLabelCollection.show_legend_key property. Allows to specify whether legend key is to be displayed for the data labels of the entire series"
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_legend_key/
 ---
 

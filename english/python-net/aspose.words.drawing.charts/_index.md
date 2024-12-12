@@ -66,6 +66,8 @@ The chart supported are Word 2007 (or higher) DrawingML Charts.
 | [AxisTickMark](./axistickmark/) | Specifies the possible positions for tick marks. |
 | [AxisTimeUnit](./axistimeunit/) | Specifies the unit of time for axes. |
 | [ChartAxisType](./chartaxistype/) | Specifies type of chart axis. |
+| [ChartDataLabelLocationMode](./chartdatalabellocationmode/) | Specifies how the values ​​that specify the location of a data label - the [ChartDataLabel.left](./chartdatalabel/left/) and [ChartDataLabel.top](./chartdatalabel/top/) properties - are interpreted. |
+| [ChartDataLabelPosition](./chartdatalabelposition/) | Specifies the position for a chart data label. |
 | [ChartSeriesType](./chartseriestype/) | Specifies a type of a chart series. |
 | [ChartShapeType](./chartshapetype/) | Specifies the shape type of chart elements. |
 | [ChartType](./charttype/) | Specifies type of a chart. |

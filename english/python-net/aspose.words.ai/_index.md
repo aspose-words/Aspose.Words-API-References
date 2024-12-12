@@ -34,5 +34,6 @@ This functionality extends the power of document automation, facilitating effici
 | Enumeration | Description |
 | --- | --- |
 | [AiModelType](./aimodeltype/) | Represents the types of [AiModel](./aimodel/) that can be integrated into the document processing workflow. |
+| [Language](./language/) | Specifies the language into which the text will be translated using AI. . |
 | [SummaryLength](./summarylength/) | Enumerates possible lengths of summary. |
 

@@ -134,6 +134,18 @@ save_options.password = 'Aspose.Words'
 aw.lowcode.Converter.convert(input_file=MY_DIR + 'Document.doc', output_file=ARTIFACTS_DIR + 'LowCode.Convert.docx', save_options=save_options)
 ```
 
+Shows how to convert documents with a single line of code (Stream).
+
+```python
+with system_helper.io.FileStream(MY_DIR + 'Big document.docx', system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as stream_in:
+    with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.ConvertStream.SaveFormat.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
+        aw.lowcode.Converter.convert(input_stream=stream_in, output_stream=stream_out, save_format=aw.SaveFormat.DOCX)
+    save_options = aw.saving.OoxmlSaveOptions()
+    save_options.password = 'Aspose.Words'
+    with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.ConvertStream.SaveOptions.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
+        aw.lowcode.Converter.convert(input_stream=stream_in, output_stream=stream_out, save_options=save_options)
+```
+
 ## See Also
 
 * module [aspose.words.lowcode](../../)

@@ -3,7 +3,7 @@ title: LayoutOptions.text_shaper_factory property
 linktitle: text_shaper_factory property
 articleTitle: text_shaper_factory property
 second_title: Aspose.Words for Python
-description: "LayoutOptions.text_shaper_factory property. Gets or sets Aspose.Words.Shaping.ITextShaperFactory implementation used for Advanced Typography rendering features."
+description: "LayoutOptions.text_shaper_factory property. Gets or sets [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features."
 type: docs
 weight: 100
 url: /python-net/aspose.words.layout/layoutoptions/text_shaper_factory/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.layout/layoutoptions/text_shaper_factory/
 
 ## LayoutOptions.text_shaper_factory property
 
-Gets or sets Aspose.Words.Shaping.ITextShaperFactory implementation used for Advanced Typography rendering features.
+Gets or sets [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features.
 
 
 

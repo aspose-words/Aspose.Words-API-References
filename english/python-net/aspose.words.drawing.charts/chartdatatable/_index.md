@@ -5,7 +5,7 @@ articleTitle: ChartDataTable class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartDataTable class. Allows to specify properties of a chart data table."
 type: docs
-weight: 230
+weight: 250
 url: /python-net/aspose.words.drawing.charts/chartdatatable/
 ---
 

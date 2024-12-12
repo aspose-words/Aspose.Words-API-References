@@ -5,7 +5,7 @@ articleTitle: ReplacingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.replacing.ReplacingArgs class. Provides data for a custom replace operation"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.replacing/replacingargs/
 ---
 

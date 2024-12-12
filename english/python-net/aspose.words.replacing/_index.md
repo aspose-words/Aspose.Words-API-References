@@ -5,7 +5,7 @@ articleTitle: aspose.words.replacing module
 second_title: Aspose.Words for Python
 description: "The aspose.words.replacing module provides classes to manipulate with find/replace operations over the document tree."
 type: docs
-weight: 230
+weight: 260
 url: /python-net/aspose.words.replacing/
 ---
 
@@ -30,4 +30,5 @@ with find/replace operations over the document tree.
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Specifies direction for replace operations. |
 | [ReplaceAction](./replaceaction/) | Allows the user to specify what happens to the current match during a replace operation. |
+| [ReplacementFormat](./replacementformat/) | Specifies the replacement format. |
 

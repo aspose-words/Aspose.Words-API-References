@@ -5,7 +5,7 @@ articleTitle: separator property
 second_title: Aspose.Words for Python
 description: "ChartDataLabelCollection.separator property. Gets or sets string separator used for the data labels of the entire series"
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 ---
 
