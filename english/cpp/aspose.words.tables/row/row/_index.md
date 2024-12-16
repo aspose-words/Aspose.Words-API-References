@@ -25,7 +25,7 @@ Aspose::Words::Tables::Row::Row(const System::SharedPtr<Aspose::Words::DocumentB
 
 When [Row](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append [Row](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the table where you want the row inserted.
+To append [Row](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the table where you want the row inserted.
 
 ## Examples
 

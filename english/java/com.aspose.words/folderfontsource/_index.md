@@ -4,7 +4,7 @@ linktitle: FolderFontSource
 second_title: Aspose.Words for Java
 description: Represents the folder that contains TrueType font files in Java.
 type: docs
-weight: 308
+weight: 311
 url: /java/com.aspose.words/folderfontsource/
 ---
 

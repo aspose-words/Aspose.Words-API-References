@@ -20,9 +20,9 @@ enum class JustificationMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Expand | 0 |  |
-| Compress | 1 |  |
-| CompressKana | 2 |  |
+| Expand | 0 | Do not compress character spacing. |
+| Compress | 1 | Compress character spacing. |
+| CompressKana | 2 | Compress, using rules of the kana syllabaries, Hiragana and Katakana. |
 
 ## See Also
 

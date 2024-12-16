@@ -4,7 +4,7 @@ linktitle: ToaCategories
 second_title: Aspose.Words for Java
 description: Represents a table of authorities categories in Java.
 type: docs
-weight: 648
+weight: 661
 url: /java/com.aspose.words/toacategories/
 ---
 

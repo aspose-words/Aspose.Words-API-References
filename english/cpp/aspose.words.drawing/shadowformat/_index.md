@@ -21,7 +21,7 @@ class ShadowFormat : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clear](./clear/)() | Clears shadow format. |
-| [get_Color](./get_color/)() |  |
+| [get_Color](./get_color/)() | Gets a **Color** object that represents the color for the shadow. The default value is **Black**. |
 | [get_Type](./get_type/)() | Gets the specified [ShadowType](../shadowtype/) for [ShadowFormat](./). |
 | [get_Visible](./get_visible/)() | Returns **true** if the formatting applied to this instance is visible. |
 | [GetType](./gettype/)() const override |  |

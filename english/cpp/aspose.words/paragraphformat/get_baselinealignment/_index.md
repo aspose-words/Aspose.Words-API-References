@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphFormat::get_BaselineAlignment method
 linktitle: get_BaselineAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use get_BaselineAlignment method of Aspose::Words::ParagraphFormat class in C++.'
+description: 'Aspose::Words::ParagraphFormat::get_BaselineAlignment method. Gets fonts vertical position on a line in C++.'
 type: docs
 weight: 5500
 url: /cpp/aspose.words/paragraphformat/get_baselinealignment/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/paragraphformat/get_baselinealignment/
 ## ParagraphFormat::get_BaselineAlignment method
 
 
-
+Gets fonts vertical position on a line.
 
 ```cpp
 Aspose::Words::BaselineAlignment Aspose::Words::ParagraphFormat::get_BaselineAlignment()

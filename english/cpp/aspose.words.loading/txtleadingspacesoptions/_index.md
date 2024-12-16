@@ -20,9 +20,9 @@ enum class TxtLeadingSpacesOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ConvertToIndent | 0 |  |
-| Trim | 1 |  |
-| Preserve | 2 |  |
+| ConvertToIndent | 0 | Leading spaces are removed and converted to left indent. |
+| Trim | 1 | Leading spaces are trimmed. |
+| Preserve | 2 | Leading spaces are preserved. |
 
 
 ## Examples

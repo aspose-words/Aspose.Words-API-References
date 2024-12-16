@@ -4,7 +4,7 @@ linktitle: DocSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.DOC or SaveFormat.DOT format in Java.
 type: docs
-weight: 151
+weight: 154
 url: /java/com.aspose.words/docsaveoptions/
 ---
 

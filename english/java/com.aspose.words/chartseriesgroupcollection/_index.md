@@ -4,7 +4,7 @@ linktitle: ChartSeriesGroupCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of ChartSeriesGroup objects in Java.
 type: docs
-weight: 85
+weight: 87
 url: /java/com.aspose.words/chartseriesgroupcollection/
 ---
 

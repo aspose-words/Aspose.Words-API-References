@@ -20,8 +20,8 @@ enum class TxtTrailingSpacesOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Trim | 0 |  |
-| Preserve | 1 |  |
+| Trim | 0 | Trailing spaces are trimmed. |
+| Preserve | 1 | Trailing spaces are preserved. |
 
 
 ## Examples

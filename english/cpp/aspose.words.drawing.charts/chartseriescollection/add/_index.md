@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add method
 linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use Add method of Aspose::Words::Drawing::Charts::ChartSeriesCollection class in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add method. Adds new ChartSeries to this collection. Use this method to add series to Histogram charts in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/add/
@@ -10,11 +10,16 @@ url: /cpp/aspose.words.drawing.charts/chartseriescollection/add/
 ## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&) method
 
 
-
+Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to Histogram charts.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<double> &xValues)
 ```
+
+
+### ReturnValue
+
+Recently added [ChartSeries](../../chartseries/) object.
 
 ## See Also
 
@@ -312,11 +317,16 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 ## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartMultilevelValue\>\>\&, const System::ArrayPtr\<double\>\&) method
 
 
-
+Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series that have multi-level data categories.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMultilevelValue>> &categories, const System::ArrayPtr<double> &values)
 ```
+
+
+### ReturnValue
+
+Recently added [ChartSeries](../../chartseries/) object.
 
 ## See Also
 

@@ -31,7 +31,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_Compliance](./get_compliance/)() | Specifies the PDF standards compliance level for output documents. |
 | [get_CreateNoteHyperlinks](./get_createnotehyperlinks/)() const | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is **false**. |
 | [get_CustomPropertiesExport](./get_custompropertiesexport/)() const | Gets or sets a value determining the way [CustomDocumentProperties](../../aspose.words/document/get_customdocumentproperties/) are exported to PDF file. |
-| [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const |  |
+| [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is **empty string**. |
 | [get_DigitalSignatureDetails](./get_digitalsignaturedetails/)() const | Gets or sets the details for signing the output PDF document. |
 | [get_DisplayDocTitle](./get_displaydoctitle/)() const | A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary. |
@@ -60,14 +60,15 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_OpenHyperlinksInNewWindow](./get_openhyperlinksinnewwindow/)() const | Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
 | virtual [get_OptimizeOutput](../fixedpagesaveoptions/get_optimizeoutput/)() | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to **true**. Default is **false**. |
 | [get_OutlineOptions](./get_outlineoptions/)() const | Allows to specify outline options. |
-| [get_PageLayout](./get_pagelayout/)() const |  |
-| [get_PageMode](./get_pagemode/)() const | Specifies how the PDF document should be displayed when opened in the PDF reader. |
+| [get_PageLayout](./get_pagelayout/)() const | Specifies the page layout to be used when the document is opened in a PDF reader. |
+| [get_PageMode](./get_pagemode/)() const | Specifies how the PDF document should be displayed when opened in a PDF reader. |
 | [get_PageSavingCallback](../fixedpagesaveoptions/get_pagesavingcallback/)() const | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [get_PageSet](../fixedpagesaveoptions/get_pageset/)() const | Gets or sets the pages to render. Default is all the pages in the document. |
 | [get_PreblendImages](./get_preblendimages/)() const | Gets or sets a value determining whether or not to preblend transparent images with black background color. |
 | [get_PreserveFormFields](./get_preserveformfields/)() const | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is **false**. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
+| [get_RenderChoiceFormFieldBorder](./get_renderchoiceformfieldborder/)() const | Specifies whether to render PDF choice form field border. |
 | [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Pdf](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_TextCompression](./get_textcompression/)() const | Specifies compression type to be used for all textual content in the document. |
@@ -79,7 +80,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_UseBookFoldPrintingSettings](./get_usebookfoldprintingsettings/)() const | Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [MultiplePages](../../aspose.words/pagesetup/get_multiplepages/). |
 | [get_UseCoreFonts](./get_usecorefonts/)() const | Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
-| [get_UseSdtTagAsFormFieldName](./get_usesdttagasformfieldname/)() const |  |
+| [get_UseSdtTagAsFormFieldName](./get_usesdttagasformfieldname/)() const | Specifies whether to use SDT control Tag or Id property as a name of form field in PDF. |
 | [get_ZoomBehavior](./get_zoombehavior/)() const | Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [get_ZoomFactor](./get_zoomfactor/)() const | Gets or sets a value determining zoom factor (in percentages) for a document. |
 | [GetType](./gettype/)() const override |  |
@@ -92,7 +93,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_Compliance](./set_compliance/)(Aspose::Words::Saving::PdfCompliance) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_Compliance](./get_compliance/). |
 | [set_CreateNoteHyperlinks](./set_createnotehyperlinks/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_CreateNoteHyperlinks](./get_createnotehyperlinks/). |
 | [set_CustomPropertiesExport](./set_custompropertiesexport/)(Aspose::Words::Saving::PdfCustomPropertiesExport) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_CustomPropertiesExport](./get_custompropertiesexport/). |
-| [set_CustomTimeZoneInfo](../saveoptions/set_customtimezoneinfo/)(const System::SharedPtr\<System::TimeZoneInfo\>\&) |  |
+| [set_CustomTimeZoneInfo](../saveoptions/set_customtimezoneinfo/)(const System::SharedPtr\<System::TimeZoneInfo\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/). |
 | [set_DefaultTemplate](../saveoptions/set_defaulttemplate/)(const System::String\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_DefaultTemplate](../saveoptions/get_defaulttemplate/). |
 | [set_DigitalSignatureDetails](./set_digitalsignaturedetails/)(const System::SharedPtr\<Aspose::Words::Saving::PdfDigitalSignatureDetails\>\&) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_DigitalSignatureDetails](./get_digitalsignaturedetails/). |
 | [set_DisplayDocTitle](./set_displaydoctitle/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_DisplayDocTitle](./get_displaydoctitle/). |
@@ -119,7 +120,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_NumeralFormat](../fixedpagesaveoptions/set_numeralformat/)(Aspose::Words::Saving::NumeralFormat) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_NumeralFormat](../fixedpagesaveoptions/get_numeralformat/). |
 | [set_OpenHyperlinksInNewWindow](./set_openhyperlinksinnewwindow/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow](./get_openhyperlinksinnewwindow/). |
 | virtual [set_OptimizeOutput](../fixedpagesaveoptions/set_optimizeoutput/)(bool) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_OptimizeOutput](../fixedpagesaveoptions/get_optimizeoutput/). |
-| [set_PageLayout](./set_pagelayout/)(Aspose::Words::Saving::PdfPageLayout) |  |
+| [set_PageLayout](./set_pagelayout/)(Aspose::Words::Saving::PdfPageLayout) | Specifies the page layout to be used when the document is opened in a PDF reader. |
 | [set_PageMode](./set_pagemode/)(Aspose::Words::Saving::PdfPageMode) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_PageMode](./get_pagemode/). |
 | [set_PageSavingCallback](../fixedpagesaveoptions/set_pagesavingcallback/)(const System::SharedPtr\<Aspose::Words::Saving::IPageSavingCallback\>\&) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_PageSavingCallback](../fixedpagesaveoptions/get_pagesavingcallback/). |
 | [set_PageSet](../fixedpagesaveoptions/set_pageset/)(const System::SharedPtr\<Aspose::Words::Saving::PageSet\>\&) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_PageSet](../fixedpagesaveoptions/get_pageset/). |
@@ -127,6 +128,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_PreserveFormFields](./set_preserveformfields/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields](./get_preserveformfields/). |
 | [set_PrettyFormat](../saveoptions/set_prettyformat/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_PrettyFormat](../saveoptions/get_prettyformat/). |
 | [set_ProgressCallback](../saveoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Saving::IDocumentSavingCallback\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_ProgressCallback](../saveoptions/get_progresscallback/). |
+| [set_RenderChoiceFormFieldBorder](./set_renderchoiceformfieldborder/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_RenderChoiceFormFieldBorder](./get_renderchoiceformfieldborder/). |
 | [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_SaveFormat](./get_saveformat/). |
 | [set_TempFolder](../saveoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_TempFolder](../saveoptions/get_tempfolder/). |
 | [set_TextCompression](./set_textcompression/)(Aspose::Words::Saving::PdfTextCompression) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_TextCompression](./get_textcompression/). |
@@ -138,7 +140,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_UseBookFoldPrintingSettings](./set_usebookfoldprintingsettings/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_UseBookFoldPrintingSettings](./get_usebookfoldprintingsettings/). |
 | [set_UseCoreFonts](./set_usecorefonts/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_UseCoreFonts](./get_usecorefonts/). |
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
-| [set_UseSdtTagAsFormFieldName](./set_usesdttagasformfieldname/)(bool) |  |
+| [set_UseSdtTagAsFormFieldName](./set_usesdttagasformfieldname/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_UseSdtTagAsFormFieldName](./get_usesdttagasformfieldname/). |
 | [set_ZoomBehavior](./set_zoombehavior/)(Aspose::Words::Saving::PdfZoomBehavior) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ZoomBehavior](./get_zoombehavior/). |
 | [set_ZoomFactor](./set_zoomfactor/)(int32_t) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ZoomFactor](./get_zoomfactor/). |
 | static [Type](./type/)() |  |

@@ -25,8 +25,8 @@ class SignOptions : public System::Object
 | [get_ProviderId](./get_providerid/)() const | Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**. |
 | [get_SignatureLineId](./get_signaturelineid/)() const | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [get_SignatureLineImage](./get_signaturelineimage/)() const | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is **null**. |
-| [get_SignTime](./get_signtime/)() const | The date of signing. Default value is **current time** (**Now**). |
-| [get_XmlDsigLevel](./get_xmldsiglevel/)() const |  |
+| [get_SignTime](./get_signtime/)() const | The date of signing. Default value is **current time** (**Now**) |
+| [get_XmlDsigLevel](./get_xmldsiglevel/)() const | Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDSig](../xmldsiglevel/). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Comments](./set_comments/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_Comments](./get_comments/). |
@@ -35,7 +35,7 @@ class SignOptions : public System::Object
 | [set_SignatureLineId](./set_signaturelineid/)(System::Guid) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineId](./get_signaturelineid/). |
 | [set_SignatureLineImage](./set_signaturelineimage/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImage](./get_signaturelineimage/). |
 | [set_SignTime](./set_signtime/)(System::DateTime) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignTime](./get_signtime/). |
-| [set_XmlDsigLevel](./set_xmldsiglevel/)(Aspose::Words::DigitalSignatures::XmlDsigLevel) |  |
+| [set_XmlDsigLevel](./set_xmldsiglevel/)(Aspose::Words::DigitalSignatures::XmlDsigLevel) | Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDSig](../xmldsiglevel/). |
 | [SignOptions](./signoptions/)() |  |
 | static [Type](./type/)() |  |
 ## See Also

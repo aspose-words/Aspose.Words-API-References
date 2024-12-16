@@ -26,7 +26,7 @@ Aspose::Words::HeaderFooter::HeaderFooter(const System::SharedPtr<Aspose::Words:
 
 When [HeaderFooter](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [HeaderFooter](../) to a [Section](../../section/) use [InsertAfter()](../), [InsertBefore()](../), or [HeadersFooters](../../section/get_headersfooters/) property and methods [Add()](../), [Insert()](../).
+To append [HeaderFooter](../) to a [Section](../../section/) use [InsertAfter1()</see>, <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../), or [HeadersFooters](../../section/get_headersfooters/) property and methods [Add()](../), [Insert()](../).
 
 ## Examples
 

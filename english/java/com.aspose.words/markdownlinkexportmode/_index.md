@@ -4,7 +4,7 @@ linktitle: MarkdownLinkExportMode
 second_title: Aspose.Words for Java
 description: Specifies how links are exported into Markdown in Java.
 type: docs
-weight: 432
+weight: 438
 url: /java/com.aspose.words/markdownlinkexportmode/
 ---
 

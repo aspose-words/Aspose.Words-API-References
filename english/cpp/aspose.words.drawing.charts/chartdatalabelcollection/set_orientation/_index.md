@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_Orientation method
 linktitle: set_Orientation
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use set_Orientation method of Aspose::Words::Drawing::Charts::ChartDataLabelCollection class in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_Orientation method. Sets the text orientation of the data labels of the entire series in C++.'
 type: docs
 weight: 18334
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/set_orientation/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/set_orientation/
 ## ChartDataLabelCollection::set_Orientation method
 
 
-
+Sets the text orientation of the data labels of the entire series.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_Orientation(Aspose::Words::Drawing::ShapeTextOrientation value)

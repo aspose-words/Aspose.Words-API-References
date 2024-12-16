@@ -4,7 +4,7 @@ linktitle: SvgSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.SVG format in Java.
 type: docs
-weight: 608
+weight: 621
 url: /java/com.aspose.words/svgsaveoptions/
 ---
 
@@ -72,7 +72,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
 | [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
-| [getExportEmbeddedImages()](#getExportEmbeddedImages) | Specified whether images should be embedded into SVG document as base64. |
+| [getExportEmbeddedImages()](#getExportEmbeddedImages) | Specifies whether images should be embedded into the SVG document as base64. |
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [getFitToViewPort()](#getFitToViewPort) | Specifies if the output SVG should fill the available viewport area (browser window or container). |
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
@@ -105,7 +105,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
-| [setExportEmbeddedImages(boolean value)](#setExportEmbeddedImages-boolean) | Specified whether images should be embedded into SVG document as base64. |
+| [setExportEmbeddedImages(boolean value)](#setExportEmbeddedImages-boolean) | Specifies whether images should be embedded into the SVG document as base64. |
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [setFitToViewPort(boolean value)](#setFitToViewPort-boolean) | Specifies if the output SVG should fill the available viewport area (browser window or container). |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
@@ -458,7 +458,7 @@ public boolean getExportEmbeddedImages()
 ```
 
 
-Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file.
+Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file.
 
  **Examples:** 
 
@@ -2118,7 +2118,7 @@ public void setExportEmbeddedImages(boolean value)
 ```
 
 
-Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file.
+Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file.
 
  **Examples:** 
 

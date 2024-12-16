@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_Appearance method
 linktitle: set_Appearance
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use set_Appearance method of Aspose::Words::Markup::StructuredDocumentTagRangeStart class in C++.'
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_Appearance method. Sets the appearance of the structured document tag in C++.'
 type: docs
 weight: 27500
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/set_appearance/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/set_appearance/
 ## StructuredDocumentTagRangeStart::set_Appearance method
 
 
-
+Sets the appearance of the structured document tag.
 
 ```cpp
 void Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_Appearance(Aspose::Words::Markup::SdtAppearance value) override

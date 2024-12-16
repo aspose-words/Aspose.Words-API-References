@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Shape::AcceptStart method
 linktitle: AcceptStart
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use AcceptStart method of Aspose::Words::Drawing::Shape class in C++.'
+description: 'Aspose::Words::Drawing::Shape::AcceptStart method. Accepts a visitor for visiting the start of the shape in C++.'
 type: docs
 weight: 3667
 url: /cpp/aspose.words.drawing/shape/acceptstart/
@@ -10,11 +10,20 @@ url: /cpp/aspose.words.drawing/shape/acceptstart/
 ## Shape::AcceptStart method
 
 
-
+Accepts a visitor for visiting the start of the shape.
 
 ```cpp
 Aspose::Words::VisitorAction Aspose::Words::Drawing::Shape::AcceptStart(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | System::SharedPtr\<Aspose::Words::DocumentVisitor\> | The document visitor. |
+
+### ReturnValue
+
+The action to be taken by the visitor.
 
 ## See Also
 

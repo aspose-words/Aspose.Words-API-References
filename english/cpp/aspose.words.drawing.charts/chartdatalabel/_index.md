@@ -29,8 +29,8 @@ class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberForma
 | [get_IsHidden](./get_ishidden/)() | Gets/sets a flag indicating whether this label is hidden. The default value is **false**. |
 | [get_IsVisible](./get_isvisible/)() | Returns **true** if this data label has something to display. |
 | [get_NumberFormat](./get_numberformat/)() | Returns number format of the parent element. |
-| [get_Orientation](./get_orientation/)() |  |
-| [get_Rotation](./get_rotation/)() |  |
+| [get_Orientation](./get_orientation/)() | Gets the orientation of the label text. |
+| [get_Rotation](./get_rotation/)() | Gets or sets the rotation of the label in degrees. |
 | [get_Separator](./get_separator/)() | Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
 | [get_ShowBubbleSize](./get_showbubblesize/)() | Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is **false**. |
 | [get_ShowCategoryName](./get_showcategoryname/)() | Allows to specify if category name is to be displayed for the data labels on a chart. Default value is **false**. |
@@ -43,8 +43,8 @@ class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberForma
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_IsHidden](./set_ishidden/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsHidden](./get_ishidden/). |
-| [set_Orientation](./set_orientation/)(Aspose::Words::Drawing::ShapeTextOrientation) |  |
-| [set_Rotation](./set_rotation/)(int32_t) |  |
+| [set_Orientation](./set_orientation/)(Aspose::Words::Drawing::ShapeTextOrientation) | Sets the orientation of the label text. |
+| [set_Rotation](./set_rotation/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Rotation](./get_rotation/). |
 | [set_Separator](./set_separator/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Separator](./get_separator/). |
 | [set_ShowBubbleSize](./set_showbubblesize/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowBubbleSize](./get_showbubblesize/). |
 | [set_ShowCategoryName](./set_showcategoryname/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowCategoryName](./get_showcategoryname/). |

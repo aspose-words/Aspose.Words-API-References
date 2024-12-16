@@ -2,7 +2,7 @@
 title: Aspose::Words::Tables::Table::AcceptEnd method
 linktitle: AcceptEnd
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use AcceptEnd method of Aspose::Words::Tables::Table class in C++.'
+description: 'Aspose::Words::Tables::Table::AcceptEnd method. Accepts a visitor for visiting the end of the table in C++.'
 type: docs
 weight: 3334
 url: /cpp/aspose.words.tables/table/acceptend/
@@ -10,11 +10,20 @@ url: /cpp/aspose.words.tables/table/acceptend/
 ## Table::AcceptEnd method
 
 
-
+Accepts a visitor for visiting the end of the table.
 
 ```cpp
 Aspose::Words::VisitorAction Aspose::Words::Tables::Table::AcceptEnd(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | System::SharedPtr\<Aspose::Words::DocumentVisitor\> | The document visitor. |
+
+### ReturnValue
+
+The action to be taken by the visitor.
 
 ## See Also
 

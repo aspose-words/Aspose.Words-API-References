@@ -4,7 +4,7 @@ linktitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.HTML_FIXED format in Java.
 type: docs
-weight: 367
+weight: 370
 url: /java/com.aspose.words/htmlfixedsaveoptions/
 ---
 

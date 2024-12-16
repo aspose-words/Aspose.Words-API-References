@@ -24,7 +24,7 @@ class ListLevel : public Aspose::Words::IRunAttrSource
 | [DeletePictureBullet](./deletepicturebullet/)() | Deletes picture bullet for the current list level. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::ListLevel\>\&) | Compares with the specified [ListLevel](./). |
 | [get_Alignment](./get_alignment/)() const | Gets or sets the justification of the actual number of the list item. |
-| [get_CustomNumberStyleFormat](./get_customnumberstyleformat/)() | Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
+| [get_CustomNumberStyleFormat](./get_customnumberstyleformat/)() | Gets or sets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
 | [get_Font](./get_font/)() | Specifies character formatting used for the list label. |
 | [get_ImageData](./get_imagedata/)() | Returns image data of the picture bullet shape for the current list level. |
 | [get_IsLegal](./get_islegal/)() const | True if the level turns all inherited numbers to Arabic, false if it preserves their number style. |

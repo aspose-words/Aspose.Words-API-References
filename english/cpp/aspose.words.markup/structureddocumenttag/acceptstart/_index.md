@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::StructuredDocumentTag::AcceptStart method
 linktitle: AcceptStart
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use AcceptStart method of Aspose::Words::Markup::StructuredDocumentTag class in C++.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::AcceptStart method. Accepts a visitor for visiting the start of the StructuredDocumentTag in C++.'
 type: docs
 weight: 3667
 url: /cpp/aspose.words.markup/structureddocumenttag/acceptstart/
@@ -10,11 +10,20 @@ url: /cpp/aspose.words.markup/structureddocumenttag/acceptstart/
 ## StructuredDocumentTag::AcceptStart method
 
 
-
+Accepts a visitor for visiting the start of the [StructuredDocumentTag](../).
 
 ```cpp
 Aspose::Words::VisitorAction Aspose::Words::Markup::StructuredDocumentTag::AcceptStart(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | System::SharedPtr\<Aspose::Words::DocumentVisitor\> | The document visitor. |
+
+### ReturnValue
+
+The action to be taken by the visitor.
 
 ## See Also
 

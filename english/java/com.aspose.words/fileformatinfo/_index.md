@@ -4,7 +4,7 @@ linktitle: FileFormatInfo
 second_title: Aspose.Words for Java
 description: Contains data returned by FileFormatUtil document format detection methods in Java.
 type: docs
-weight: 299
+weight: 302
 url: /java/com.aspose.words/fileformatinfo/
 ---
 
@@ -115,7 +115,7 @@ Gets the detected document format.
 
  **Remarks:** 
 
-When an OOXML document is encrypted, it is not possible to ascertained whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
+When an OOXML document is encrypted, it is not possible to ascertain whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
 
  **Examples:** 
 

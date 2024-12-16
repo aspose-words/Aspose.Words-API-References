@@ -2,7 +2,7 @@
 title: Aspose::Words::BuildingBlocks::BuildingBlock::AcceptStart method
 linktitle: AcceptStart
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use AcceptStart method of Aspose::Words::BuildingBlocks::BuildingBlock class in C++.'
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock::AcceptStart method. Accepts a visitor for visiting the start of the BuildingBlock in C++.'
 type: docs
 weight: 3667
 url: /cpp/aspose.words.buildingblocks/buildingblock/acceptstart/
@@ -10,11 +10,20 @@ url: /cpp/aspose.words.buildingblocks/buildingblock/acceptstart/
 ## BuildingBlock::AcceptStart method
 
 
-
+Accepts a visitor for visiting the start of the [BuildingBlock](../).
 
 ```cpp
 Aspose::Words::VisitorAction Aspose::Words::BuildingBlocks::BuildingBlock::AcceptStart(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | System::SharedPtr\<Aspose::Words::DocumentVisitor\> | The document visitor. |
+
+### ReturnValue
+
+The action to be taken by the visitor.
 
 ## See Also
 

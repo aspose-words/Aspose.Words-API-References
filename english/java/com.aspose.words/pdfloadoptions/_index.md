@@ -4,7 +4,7 @@ linktitle: PdfLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading Pdf document into a Document object in Java.
 type: docs
-weight: 512
+weight: 518
 url: /java/com.aspose.words/pdfloadoptions/
 ---
 

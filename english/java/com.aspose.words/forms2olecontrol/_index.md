@@ -4,7 +4,7 @@ linktitle: Forms2OleControl
 second_title: Aspose.Words for Java
 description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
-weight: 337
+weight: 340
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 

@@ -2,7 +2,7 @@
 title: Aspose::Words::Style::get_Locked method
 linktitle: get_Locked
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use get_Locked method of Aspose::Words::Style class in C++.'
+description: 'Aspose::Words::Style::get_Locked method. Specifies whether this style is locked in C++.'
 type: docs
 weight: 13500
 url: /cpp/aspose.words/style/get_locked/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/style/get_locked/
 ## Style::get_Locked method
 
 
-
+Specifies whether this style is locked.
 
 ```cpp
 bool Aspose::Words::Style::get_Locked() const

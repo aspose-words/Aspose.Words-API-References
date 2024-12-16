@@ -4,7 +4,7 @@ linktitle: LayoutEnumerator
 second_title: Aspose.Words for Java
 description: Enumerates page layout entities of a document in Java.
 type: docs
-weight: 402
+weight: 406
 url: /java/com.aspose.words/layoutenumerator/
 ---
 

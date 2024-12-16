@@ -4,7 +4,7 @@ linktitle: ColorPrintMode
 second_title: Aspose.Words for Java
 description: Specifies how non-colored pages are printed if the device supports color printing in Java.
 type: docs
-weight: 101
+weight: 103
 url: /java/com.aspose.words/colorprintmode/
 ---
 

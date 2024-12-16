@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::AxisGroup enum
 linktitle: AxisGroup
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::AxisGroup enum. AxisGroup enumeration in C++.'
+description: 'Aspose::Words::Drawing::Charts::AxisGroup enum. Represents a type of a chart axis group in C++.'
 type: docs
 weight: 22500
 url: /cpp/aspose.words.drawing.charts/axisgroup/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/axisgroup/
 ## AxisGroup enum
 
 
-AxisGroup enumeration.
+Represents a type of a chart axis group.
 
 ```cpp
 enum class AxisGroup
@@ -20,8 +20,8 @@ enum class AxisGroup
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Primary | 0 |  |
-| Secondary | 1 |  |
+| Primary | 0 | Specifies the primary axis group. |
+| Secondary | 1 | Specifies the secondary axis group. |
 
 ## See Also
 

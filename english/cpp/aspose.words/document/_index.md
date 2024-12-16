@@ -24,8 +24,8 @@ class Document : public Aspose::Words::DocumentBase,
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AcceptAllRevisions](./acceptallrevisions/)() | Accepts all tracked changes in the document. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the document. |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the document. |
 | [AppendChild](../compositenode/appendchild/)(T) |  |
 | [AppendDocument](./appenddocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) | Appends the specified document to the end of this document. |
 | [AppendDocument](./appenddocument/)(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) | Appends the specified document to the end of this document. |
@@ -50,7 +50,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_AttachedTemplate](./get_attachedtemplate/)() | Gets or sets the full path of the template attached to the document. |
 | [get_AutomaticallyUpdateStyles](./get_automaticallyupdatestyles/)() | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
 | [get_BackgroundShape](../documentbase/get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be **null**. |
-| [get_Bibliography](./get_bibliography/)() |  |
+| [get_Bibliography](./get_bibliography/)() | Gets the [Bibliography](./get_bibliography/) object that represents the list of sources available in the document. |
 | [get_BuiltInDocumentProperties](./get_builtindocumentproperties/)() const | Returns a collection that represents all the built-in document properties of the document. |
 | [get_CompatibilityOptions](./get_compatibilityoptions/)() | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
 | [get_Compliance](./get_compliance/)() | Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents. |
@@ -68,7 +68,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_FontInfos](../documentbase/get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
 | [get_FontSettings](./get_fontsettings/)() const | Gets or sets document font settings. |
 | [get_FootnoteOptions](./get_footnoteoptions/)() | Provides options that control numbering and positioning of footnotes in this document. |
-| [get_FootnoteSeparators](../documentbase/get_footnoteseparators/)() const |  |
+| [get_FootnoteSeparators](../documentbase/get_footnoteseparators/)() const | Provides access to the footnote/endnote separators defined in the document. |
 | [get_Frameset](./get_frameset/)() const | Returns a [Frameset](./get_frameset/) instance if this document represents a frames page. |
 | [get_GlossaryDocument](./get_glossarydocument/)() const | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
 | [get_GrammarChecked](./get_grammarchecked/)() | Returns **true** if the document has been checked for grammar. |
@@ -98,7 +98,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../node/get_prevnode/)() const |  |
 | [get_ProtectionType](./get_protectiontype/)() | Gets the currently active document protection type. |
-| [get_PunctuationKerning](./get_punctuationkerning/)() |  |
+| [get_PunctuationKerning](./get_punctuationkerning/)() | Specifies whether kerning applies to both Latin text and punctuation. |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_RemovePersonalInformation](./get_removepersonalinformation/)() | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/)() const | Allows to control how external resources are loaded. |
@@ -144,13 +144,13 @@ class Document : public Aspose::Words::DocumentBase,
 | [Protect](./protect/)(Aspose::Words::ProtectionType) | Protects the document from changes without changing the existing password or assigns a random password. |
 | [Protect](./protect/)(Aspose::Words::ProtectionType, const System::String\&) | Protects the document from changes and optionally sets a protection password. |
 | [RemoveAllChildren](../compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveBlankPages](./removeblankpages/)() |  |
+| [RemoveBlankPages](./removeblankpages/)() | Removes blank pages from the document. |
 | [RemoveChild](../compositenode/removechild/)(T) |  |
 | [RemoveExternalSchemaReferences](./removeexternalschemareferences/)() | Removes external XML schema references from this document. |
 | [RemoveMacros](./removemacros/)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [RemoveSmartTags](../compositenode/removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
-| [RenderToScale](./rendertoscale/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float) | Renders a document page into a object to a specified scale. |
-| [RenderToSize](./rendertosize/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float, float) | Renders a document page into a object to a specified size. |
+| [RenderToScale](./rendertoscale/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float) | Renders a document page into a **Graphics** object to a specified scale. |
+| [RenderToSize](./rendertosize/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float, float) | Renders a document page into a **Graphics** object to a specified size. |
 | [Save](./save/)(const System::String\&) | Saves the document to a file. Automatically determines the save format from the extension. |
 | [Save](./save/)(const System::String\&, Aspose::Words::SaveFormat) | Saves the document to a file in the specified format. |
 | [Save](./save/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Saves the document to a file using the specified save options. |
@@ -177,7 +177,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_PackageCustomParts](./set_packagecustomparts/)(const System::SharedPtr\<Aspose::Words::Markup::CustomPartCollection\>\&) | Setter for [Aspose::Words::Document::get_PackageCustomParts](./get_packagecustomparts/). |
 | [set_PageColor](../documentbase/set_pagecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::DocumentBase::get_PageColor](../documentbase/get_pagecolor/). |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_PunctuationKerning](./set_punctuationkerning/)(bool) |  |
+| [set_PunctuationKerning](./set_punctuationkerning/)(bool) | Specifies whether kerning applies to both Latin text and punctuation. |
 | [set_RemovePersonalInformation](./set_removepersonalinformation/)(bool) | Setter for [Aspose::Words::Document::get_RemovePersonalInformation](./get_removepersonalinformation/). |
 | [set_ResourceLoadingCallback](../documentbase/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/). |
 | [set_RevisionsView](./set_revisionsview/)(Aspose::Words::RevisionsView) | Setter for [Aspose::Words::Document::get_RevisionsView](./get_revisionsview/). |
@@ -199,7 +199,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [UnlinkFields](./unlinkfields/)() | Unlinks fields in the whole document. |
 | [Unprotect](./unprotect/)() | Removes protection from the document regardless of the password. |
 | [Unprotect](./unprotect/)(const System::String\&) | Removes protection from the document if a correct password is specified. |
-| [UpdateActualReferenceMarks](./updateactualreferencemarks/)() |  |
+| [UpdateActualReferenceMarks](./updateactualreferencemarks/)() | Updates the [ActualReferenceMark](../../aspose.words.notes/footnote/get_actualreferencemark/) property of all footnotes and endnotes in the document. |
 | [UpdateFields](./updatefields/)() | Updates the values of fields in the whole document. |
 | [UpdateListLabels](./updatelistlabels/)() | Updates list labels for all list items in the document. |
 | [UpdatePageLayout](./updatepagelayout/)() | Rebuilds the page layout of the document. |
@@ -229,7 +229,7 @@ The [Document](./) is a root node of a tree that contains all other nodes of the
 
 * The nodes of the document can be accessed via typed collections, for example [Sections](./get_sections/), [ParagraphCollection](../paragraphcollection/) etc.
 * The nodes of the document can be selected by their node type using [GetChildNodes()](../compositenode/getchildnodes/) or using an XPath query with [SelectNodes()](../) or [SelectSingleNode()](../).
-* Content nodes can be added or removed from anywhere in the document using [InsertBefore()](../), [InsertAfter()](../), [RemoveChild()](../) and other methods provided by the base class [CompositeNode](../compositenode/).
+* Content nodes can be added or removed from anywhere in the document using [InsertBefore1()</see>, <see cref="Aspose::Words::CompositeNode::InsertAfter</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertAfter1()](../), [RemoveChild``1()](../) and other methods provided by the base class [CompositeNode](../compositenode/).
 * The formatting attributes of each node can be changed via the properties of that node.
 
 

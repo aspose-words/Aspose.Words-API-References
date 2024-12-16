@@ -20,12 +20,12 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 
 | Method | Description |
 | --- | --- |
-| [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override |  |
+| [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [get_AutoNumberingDetection](./get_autonumberingdetection/)() const | Gets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is **true**. |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
-| [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile ([Wmf](../) or [Emf](../)) images to [Png](../) image format. |
+| [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile([Wmf](../) or [Emf](../)) images to [Png](../) image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office [Math](../../aspose.words.math/) objects. |
-| [get_DetectHyperlinks](./get_detecthyperlinks/)() const |  |
+| [get_DetectHyperlinks](./get_detecthyperlinks/)() const | Specifies either to detect hyperlinks in text. The default value is **false**. |
 | [get_DetectNumberingWithWhitespaces](./get_detectnumberingwithwhitespaces/)() const | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is **true**. |
 | [get_DocumentDirection](./get_documentdirection/)() const | Gets or sets a document direction. The default value is [LeftToRight](../documentdirection/). |
 | [get_Encoding](../loadoptions/get_encoding/)() const | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be **null**. Default is **null**. |
@@ -42,7 +42,7 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [get_TempFolder](../loadoptions/get_tempfolder/)() const | Allows to use temporary files when reading document. By default this property is **null** and no temporary files are used. |
 | [get_TrailingSpacesOptions](./get_trailingspacesoptions/)() const | Gets or sets preferred option of a trailing space handling. Default value is [Trim](../txttrailingspacesoptions/). |
 | [get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/)() const | Specifies whether to update the fields with the **dirty** attribute. |
-| [get_UseSystemLcid](../loadoptions/get_usesystemlcid/)() const |  |
+| [get_UseSystemLcid](../loadoptions/get_usesystemlcid/)() const | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
 | [get_WarningCallback](../loadoptions/get_warningcallback/)() const | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
@@ -53,7 +53,7 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_BaseUri](../loadoptions/set_baseuri/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_BaseUri](../loadoptions/get_baseuri/). |
 | [set_ConvertMetafilesToPng](../loadoptions/set_convertmetafilestopng/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/). |
 | [set_ConvertShapeToOfficeMath](../loadoptions/set_convertshapetoofficemath/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/). |
-| [set_DetectHyperlinks](./set_detecthyperlinks/)(bool) |  |
+| [set_DetectHyperlinks](./set_detecthyperlinks/)(bool) | Specifies either to detect hyperlinks in text. The default value is **false**. |
 | [set_DetectNumberingWithWhitespaces](./set_detectnumberingwithwhitespaces/)(bool) | Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces](./get_detectnumberingwithwhitespaces/). |
 | [set_DocumentDirection](./set_documentdirection/)(Aspose::Words::Loading::DocumentDirection) | Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DocumentDirection](./get_documentdirection/). |
 | [set_Encoding](../loadoptions/set_encoding/)(const System::SharedPtr\<System::Text::Encoding\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_Encoding](../loadoptions/get_encoding/). |
@@ -69,7 +69,7 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
 | [set_TrailingSpacesOptions](./set_trailingspacesoptions/)(Aspose::Words::Loading::TxtTrailingSpacesOptions) | Setter for [Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions](./get_trailingspacesoptions/). |
 | [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
-| [set_UseSystemLcid](../loadoptions/set_usesystemlcid/)(bool) |  |
+| [set_UseSystemLcid](../loadoptions/set_usesystemlcid/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UseSystemLcid](../loadoptions/get_usesystemlcid/). |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
 | [TxtLoadOptions](./txtloadoptions/)() | Initializes a new instance of this class with default values. |
 | static [Type](./type/)() |  |

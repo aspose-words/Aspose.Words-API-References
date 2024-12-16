@@ -4,7 +4,7 @@ linktitle: LoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options such as password or base URI when loading a document into a Document object in Java.
 type: docs
-weight: 420
+weight: 424
 url: /java/com.aspose.words/loadoptions/
 ---
 

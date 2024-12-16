@@ -30,8 +30,8 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | Method | Description |
 | --- | --- |
 | virtual [Accept](../../aspose.words/node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
-| virtual [AcceptEnd](../../aspose.words/compositenode/acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) |  |
-| virtual [AcceptStart](../../aspose.words/compositenode/acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) |  |
+| virtual [AcceptEnd](../../aspose.words/compositenode/acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
+| virtual [AcceptStart](../../aspose.words/compositenode/acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 | [AdjustWithEffects](./adjustwitheffects/)(System::Drawing::RectangleF) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
@@ -58,11 +58,11 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FlipOrientation](./get_fliporientation/)() | Switches the orientation of a shape. |
 | [get_Font](./get_font/)() | Provides access to the font formatting of this object. |
-| [get_Glow](./get_glow/)() |  |
+| [get_Glow](./get_glow/)() | Gets glow formatting for the shape. |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_Height](./get_height/)() | Gets or sets the height of the containing block of the shape. |
 | [get_HeightRelative](./get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
-| [get_Hidden](./get_hidden/)() |  |
+| [get_Hidden](./get_hidden/)() | Gets a boolean value indicating whether the shape is visible. |
 | [get_HorizontalAlignment](./get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
 | [get_HRef](./get_href/)() | Gets or sets the full hyperlink address for a shape. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
@@ -92,7 +92,7 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
-| [get_Reflection](./get_reflection/)() |  |
+| [get_Reflection](./get_reflection/)() | Gets reflection formatting for the shape. |
 | [get_RelativeHorizontalPosition](./get_relativehorizontalposition/)() | Specifies relative to what the shape is positioned horizontally. |
 | [get_RelativeHorizontalSize](./get_relativehorizontalsize/)() | Gets or sets the value of shape's relative size in horizontal direction. |
 | [get_RelativeVerticalPosition](./get_relativeverticalposition/)() | Specifies relative to what the shape is positioned vertically. |
@@ -103,7 +103,7 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_ShadowFormat](./get_shadowformat/)() | Gets shadow formatting for the shape. |
 | [get_ShapeType](./get_shapetype/)() | Gets the shape type. |
 | [get_SizeInPoints](./get_sizeinpoints/)() | Gets the size of the shape in points. |
-| [get_SoftEdge](./get_softedge/)() |  |
+| [get_SoftEdge](./get_softedge/)() | Gets soft edge formatting for the shape. |
 | [get_Target](./get_target/)() | Gets or sets the target frame for the shape hyperlink. |
 | [get_Title](./get_title/)() | Gets or sets the title (caption) of the current shape object. |
 | [get_Top](./get_top/)() | Gets or sets the position of the top edge of the containing block of the shape. |
@@ -154,7 +154,7 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [set_FlipOrientation](./set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](./get_fliporientation/). |
 | [set_Height](./set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](./get_height/). |
 | [set_HeightRelative](./set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
-| [set_Hidden](./set_hidden/)(bool) |  |
+| [set_Hidden](./set_hidden/)(bool) | Sets a boolean value indicating whether the shape is visible. |
 | [set_HorizontalAlignment](./set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](./get_horizontalalignment/). |
 | [set_HRef](./set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](./get_href/). |
 | [set_IsDecorative](./set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](./get_isdecorative/). |

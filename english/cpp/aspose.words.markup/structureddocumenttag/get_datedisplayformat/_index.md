@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat method
 linktitle: get_DateDisplayFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat method. String that represents the format in which dates are displayed. Can not be null in C++.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat method. String that represents the format in which dates are displayed in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_datedisplayformat/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.markup/structureddocumenttag/get_datedisplayformat/
 ## StructuredDocumentTag::get_DateDisplayFormat method
 
 
-String that represents the format in which dates are displayed. Can not be **null**.
+String that represents the format in which dates are displayed.
 
 ```cpp
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat()
@@ -18,6 +18,10 @@ System::String Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayForm
 
 ## Remarks
 
+
+Can not be **null**.
+
+The dates for English (U.S.) is "mm/dd/yyyy"
 
 Accessing this property will only work for [Date](../../sdttype/) SDT type.
 

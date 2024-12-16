@@ -19,6 +19,10 @@ Aspose::Words::Document::Document()
 ## Remarks
 
 
+A blank document is retrieved from resources, and by default, the resulting document looks more like created by [Word2007](../../../aspose.words.settings/mswordversion/). This blank document contains a default fonts table, minimal default styles, and latent styles.
+
+[OptimizeFor()](../../../aspose.words.settings/compatibilityoptions/optimizefor/) method can be used to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
+
 The document paper size is Letter by default. If you want to change page setup, use [PageSetup](../../section/get_pagesetup/).
 
 After creation, you can use [DocumentBuilder](../../documentbuilder/) to add document content easily.

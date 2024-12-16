@@ -4,7 +4,7 @@ linktitle: IAiModelText
 second_title: Aspose.Words for Java
 description: The common interface for AI models designed to generate a variety of text-based content in Java.
 type: docs
-weight: 707
+weight: 721
 url: /java/com.aspose.words/iaimodeltext/
 ---
 ```
@@ -24,12 +24,16 @@ Shows how to summarize text using OpenAI and Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI or Google generative language models.
- IAiModelText model = (IAiModelText)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ IAiModelText model = (IAiModelText) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
 
- Document oneDocumentSummary = model.summarize(firstDoc, new SummarizeOptions(); { oneDocumentSummary.setSummaryLength(SummaryLength.SHORT); });
+ SummarizeOptions options = new SummarizeOptions();
+ options.setSummaryLength(SummaryLength.SHORT);
+ Document oneDocumentSummary = model.summarize(firstDoc, options);
  oneDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 
- Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions(); { multiDocumentSummary.setSummaryLength(SummaryLength.LONG); });
+ options = new SummarizeOptions();
+ options.setSummaryLength(SummaryLength.LONG);
+ Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, options);
  multiDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.Multi.docx");
  
 ```
@@ -37,11 +41,12 @@ Shows how to summarize text using OpenAI and Google models.
 
 | Method | Description |
 | --- | --- |
-| [summarize(Document doc, SummarizeOptions options)](#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions) | Generates a summary of the specified document, with options to adjust the length of the summary. |
-| [summarize(Document[] docs, SummarizeOptions options)](#summarize-com.aspose.words.Document---com.aspose.words.SummarizeOptions) | Generates summaries for an array of documents, with options to control the summary length and other settings. |
-### summarize(Document doc, SummarizeOptions options) {#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions}
+| [summarize(Document sourceDocument, SummarizeOptions options)](#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions) | Generates a summary of the specified document, with options to adjust the length of the summary. |
+| [summarize(Document[] sourceDocuments, SummarizeOptions options)](#summarize-com.aspose.words.Document---com.aspose.words.SummarizeOptions) | Generates summaries for an array of documents, with options to control the summary length and other settings. |
+| [translate(Document sourceDocument, int targetLanguage)](#translate-com.aspose.words.Document-int) |  |
+### summarize(Document sourceDocument, SummarizeOptions options) {#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions}
 ```
-public abstract Document summarize(Document doc, SummarizeOptions options)
+public abstract Document summarize(Document sourceDocument, SummarizeOptions options)
 ```
 
 
@@ -58,12 +63,16 @@ Shows how to summarize text using OpenAI and Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI or Google generative language models.
- IAiModelText model = (IAiModelText)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ IAiModelText model = (IAiModelText) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
 
- Document oneDocumentSummary = model.summarize(firstDoc, new SummarizeOptions(); { oneDocumentSummary.setSummaryLength(SummaryLength.SHORT); });
+ SummarizeOptions options = new SummarizeOptions();
+ options.setSummaryLength(SummaryLength.SHORT);
+ Document oneDocumentSummary = model.summarize(firstDoc, options);
  oneDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 
- Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions(); { multiDocumentSummary.setSummaryLength(SummaryLength.LONG); });
+ options = new SummarizeOptions();
+ options.setSummaryLength(SummaryLength.LONG);
+ Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, options);
  multiDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.Multi.docx");
  
 ```
@@ -71,14 +80,14 @@ Shows how to summarize text using OpenAI and Google models.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document/) | The document to be summarized. |
+| sourceDocument | [Document](../../com.aspose.words/document/) | The document to be summarized. |
 | options | [SummarizeOptions](../../com.aspose.words/summarizeoptions/) | Optional settings to control the summary length and other parameters. |
 
 **Returns:**
 [Document](../../com.aspose.words/document/) - A summarized version of the document's content.
-### summarize(Document[] docs, SummarizeOptions options) {#summarize-com.aspose.words.Document---com.aspose.words.SummarizeOptions}
+### summarize(Document[] sourceDocuments, SummarizeOptions options) {#summarize-com.aspose.words.Document---com.aspose.words.SummarizeOptions}
 ```
-public abstract Document summarize(Document[] docs, SummarizeOptions options)
+public abstract Document summarize(Document[] sourceDocuments, SummarizeOptions options)
 ```
 
 
@@ -95,12 +104,16 @@ Shows how to summarize text using OpenAI and Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI or Google generative language models.
- IAiModelText model = (IAiModelText)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ IAiModelText model = (IAiModelText) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
 
- Document oneDocumentSummary = model.summarize(firstDoc, new SummarizeOptions(); { oneDocumentSummary.setSummaryLength(SummaryLength.SHORT); });
+ SummarizeOptions options = new SummarizeOptions();
+ options.setSummaryLength(SummaryLength.SHORT);
+ Document oneDocumentSummary = model.summarize(firstDoc, options);
  oneDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 
- Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions(); { multiDocumentSummary.setSummaryLength(SummaryLength.LONG); });
+ options = new SummarizeOptions();
+ options.setSummaryLength(SummaryLength.LONG);
+ Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, options);
  multiDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.Multi.docx");
  
 ```
@@ -108,8 +121,24 @@ Shows how to summarize text using OpenAI and Google models.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| docs | [Document\[\]](../../com.aspose.words/document/) | An array of documents to be summarized. |
+| sourceDocuments | [Document\[\]](../../com.aspose.words/document/) | An array of documents to be summarized. |
 | options | [SummarizeOptions](../../com.aspose.words/summarizeoptions/) | Optional settings to control the summary length and other parameters |
 
 **Returns:**
 [Document](../../com.aspose.words/document/) - A summarized version of the document's content.
+### translate(Document sourceDocument, int targetLanguage) {#translate-com.aspose.words.Document-int}
+```
+public abstract Document translate(Document sourceDocument, int targetLanguage)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceDocument | [Document](../../com.aspose.words/document/) |  |
+| targetLanguage | int |  |
+
+**Returns:**
+[Document](../../com.aspose.words/document/)

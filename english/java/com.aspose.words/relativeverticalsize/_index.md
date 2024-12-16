@@ -4,7 +4,7 @@ linktitle: RelativeVerticalSize
 second_title: Aspose.Words for Java
 description: Specifies relatively to what the height of a shape or a text frame is calculated vertically in Java.
 type: docs
-weight: 535
+weight: 541
 url: /java/com.aspose.words/relativeverticalsize/
 ---
 

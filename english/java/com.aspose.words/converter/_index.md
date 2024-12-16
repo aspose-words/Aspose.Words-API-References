@@ -4,7 +4,7 @@ linktitle: Converter
 second_title: Aspose.Words for Java
 description: Represents a group of methods intended to convert a variety of different types of documents using a single line of code in Java.
 type: docs
-weight: 125
+weight: 128
 url: /java/com.aspose.words/converter/
 ---
 
@@ -36,16 +36,16 @@ With [ImageSaveOptions.getPageSet()](../../com.aspose.words/imagesaveoptions/\#g
 | [convert(String inputFile, String outputFile)](#convert-java.lang.String-java.lang.String) | Converts the given input document into the output document using specified input output file names and its extensions. |
 | [convert(String inputFile, String outputFile, SaveOptions saveOptions)](#convert-java.lang.String-java.lang.String-com.aspose.words.SaveOptions) | Converts the given input document into the output document using specified input output file names and save options. |
 | [convert(String inputFile, String outputFile, int saveFormat)](#convert-java.lang.String-java.lang.String-int) |  |
-| [convertToImages(Document doc, ImageSaveOptions saveOptions)](#convertToImages-com.aspose.words.Document-com.aspose.words.ImageSaveOptions) | Converts the document pages to images. |
+| [convertToImages(Document doc, ImageSaveOptions saveOptions)](#convertToImages-com.aspose.words.Document-com.aspose.words.ImageSaveOptions) | Converts the pages of the specified document to images using the specified save options and returns an array of streams containing the images. |
 | [convertToImages(Document doc, int saveFormat)](#convertToImages-com.aspose.words.Document-int) |  |
-| [convertToImages(InputStream inputStream, ImageSaveOptions saveOptions)](#convertToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions) | Converts the input stream pages to images. |
-| [convertToImages(InputStream inputStream, LoadOptions loadOptions, ImageSaveOptions saveOptions)](#convertToImages-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.ImageSaveOptions) | Converts the input stream pages to images. |
+| [convertToImages(InputStream inputStream, ImageSaveOptions saveOptions)](#convertToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions) | Converts the pages of the specified input stream to images using the specified save options and returns an array of streams containing the images. |
+| [convertToImages(InputStream inputStream, LoadOptions loadOptions, ImageSaveOptions saveOptions)](#convertToImages-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.ImageSaveOptions) | Converts the pages of the specified input stream to images using the provided load and save options, and returns an array of streams containing the images. |
 | [convertToImages(InputStream inputStream, int saveFormat)](#convertToImages-java.io.InputStream-int) |  |
-| [convertToImages(String inputFile, ImageSaveOptions saveOptions)](#convertToImages-java.lang.String-com.aspose.words.ImageSaveOptions) | Converts the input file pages to images. |
-| [convertToImages(String inputFile, LoadOptions loadOptions, String outputFile, ImageSaveOptions saveOptions)](#convertToImages-java.lang.String-com.aspose.words.LoadOptions-java.lang.String-com.aspose.words.ImageSaveOptions) | Converts the input file pages to images. |
+| [convertToImages(String inputFile, ImageSaveOptions saveOptions)](#convertToImages-java.lang.String-com.aspose.words.ImageSaveOptions) | Converts the pages of the specified input file to images using the specified save options and returns an array of streams containing the images. |
+| [convertToImages(String inputFile, LoadOptions loadOptions, String outputFile, ImageSaveOptions saveOptions)](#convertToImages-java.lang.String-com.aspose.words.LoadOptions-java.lang.String-com.aspose.words.ImageSaveOptions) | Converts the pages of the specified input file to image files using the provided load and save options. |
 | [convertToImages(String inputFile, int saveFormat)](#convertToImages-java.lang.String-int) |  |
-| [convertToImages(String inputFile, String outputFile)](#convertToImages-java.lang.String-java.lang.String) | Converts the input file pages to images. |
-| [convertToImages(String inputFile, String outputFile, ImageSaveOptions saveOptions)](#convertToImages-java.lang.String-java.lang.String-com.aspose.words.ImageSaveOptions) | Converts the input file pages to images. |
+| [convertToImages(String inputFile, String outputFile)](#convertToImages-java.lang.String-java.lang.String) | Converts the pages of the specified input file to image files. |
+| [convertToImages(String inputFile, String outputFile, ImageSaveOptions saveOptions)](#convertToImages-java.lang.String-java.lang.String-com.aspose.words.ImageSaveOptions) | Converts the pages of the specified input file to image files using the specified save options. |
 | [convertToImages(String inputFile, String outputFile, int saveFormat)](#convertToImages-java.lang.String-java.lang.String-int) |  |
 ### convert(InputStream inputStream, LoadOptions loadOptions, OutputStream outputStream, SaveOptions saveOptions) {#convert-java.io.InputStream-com.aspose.words.LoadOptions-java.io.OutputStream-com.aspose.words.SaveOptions}
 ```
@@ -189,7 +189,7 @@ public static InputStream[] convertToImages(Document doc, ImageSaveOptions saveO
 ```
 
 
-Converts the document pages to images.
+Converts the pages of the specified document to images using the specified save options and returns an array of streams containing the images.
 
  **Examples:** 
 
@@ -239,7 +239,7 @@ public static InputStream[] convertToImages(InputStream inputStream, ImageSaveOp
 ```
 
 
-Converts the input stream pages to images.
+Converts the pages of the specified input stream to images using the specified save options and returns an array of streams containing the images.
 
  **Examples:** 
 
@@ -272,7 +272,7 @@ public static InputStream[] convertToImages(InputStream inputStream, LoadOptions
 ```
 
 
-Converts the input stream pages to images.
+Converts the pages of the specified input stream to images using the provided load and save options, and returns an array of streams containing the images.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,7 +305,7 @@ public static InputStream[] convertToImages(String inputFile, ImageSaveOptions s
 ```
 
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to images using the specified save options and returns an array of streams containing the images.
 
  **Examples:** 
 
@@ -339,7 +339,7 @@ public static void convertToImages(String inputFile, LoadOptions loadOptions, St
 ```
 
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to image files using the provided load and save options.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -371,7 +371,7 @@ public static void convertToImages(String inputFile, String outputFile)
 ```
 
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to image files.
 
  **Examples:** 
 
@@ -401,7 +401,7 @@ public static void convertToImages(String inputFile, String outputFile, ImageSav
 ```
 
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to image files using the specified save options.
 
  **Examples:** 
 

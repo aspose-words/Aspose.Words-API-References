@@ -21,8 +21,8 @@ class GlossaryDocument : public Aspose::Words::DocumentBase
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the Glossary document. |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the Glossary document. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [get_BackgroundShape](../../aspose.words/documentbase/get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be **null**. |
@@ -33,7 +33,7 @@ class GlossaryDocument : public Aspose::Words::DocumentBase
 | [get_FirstBuildingBlock](./get_firstbuildingblock/)() | Gets the first building block in the glossary document. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FontInfos](../../aspose.words/documentbase/get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
-| [get_FootnoteSeparators](../../aspose.words/documentbase/get_footnoteseparators/)() const |  |
+| [get_FootnoteSeparators](../../aspose.words/documentbase/get_footnoteseparators/)() const | Provides access to the footnote/endnote separators defined in the document. |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastBuildingBlock](./get_lastbuildingblock/)() | Gets the last building block in the glossary document. |

@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::MarkdownSaveOptions::get_ExportAsHtml method
 linktitle: get_ExportAsHtml
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use get_ExportAsHtml method of Aspose::Words::Saving::MarkdownSaveOptions class in C++.'
+description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ExportAsHtml method. Allows to specify the elements to be exported to Markdown as raw HTML. Default value is None in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/
 ## MarkdownSaveOptions::get_ExportAsHtml method
 
 
-
+Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [None](../../markdownexportashtml/).
 
 ```cpp
 Aspose::Words::Saving::MarkdownExportAsHtml Aspose::Words::Saving::MarkdownSaveOptions::get_ExportAsHtml() const

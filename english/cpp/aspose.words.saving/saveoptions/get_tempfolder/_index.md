@@ -21,7 +21,7 @@ System::String Aspose::Words::Saving::SaveOptions::get_TempFolder() const
 
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw [OutOfMemoryException](../). Specifying a temporary folder using [TempFolder](./) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+Specifying a temporary folder using [TempFolder](./) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 
 The folder must exist and be writable, otherwise an exception will be thrown.
 

@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::FontSourceType enum
 linktitle: FontSourceType
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::FontSourceType enum. Specifies the type of a font source in C++.'
+description: 'Aspose::Words::Fonts::FontSourceType enum. Specifies the type of font source in C++.'
 type: docs
 weight: 23000
 url: /cpp/aspose.words.fonts/fontsourcetype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fonts/fontsourcetype/
 ## FontSourceType enum
 
 
-Specifies the type of a font source.
+Specifies the type of font source.
 
 ```cpp
 enum class FontSourceType

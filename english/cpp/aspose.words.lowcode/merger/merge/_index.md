@@ -2,7 +2,7 @@
 title: Aspose::Words::LowCode::Merger::Merge method
 linktitle: Merge
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use Merge method of Aspose::Words::LowCode::Merger class in C++.'
+description: 'Aspose::Words::LowCode::Merger::Merge method. Merges the given input documents into a single document and returns Document instance of the final document in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.lowcode/merger/merge/
@@ -10,11 +10,17 @@ url: /cpp/aspose.words.lowcode/merger/merge/
 ## Merger::Merge(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\>\&, Aspose::Words::LowCode::MergeFormatMode) method
 
 
-
+Merges the given input documents into a single document and returns [Document](../../../aspose.words/document/) instance of the final document.
 
 ```cpp
 static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger::Merge(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Document>> &inputDocuments, Aspose::Words::LowCode::MergeFormatMode mergeFormatMode)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputDocuments | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\>\& | The input documents. |
+| mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 
 ## See Also
 
@@ -45,6 +51,30 @@ static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
+## Merger::Merge(const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\&, Aspose::Words::LowCode::MergeFormatMode) method
+
+
+Merges the given input documents into a single document and returns [Document](../../../aspose.words/document/) instance of the final document.
+
+```cpp
+static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger::Merge(const System::ArrayPtr<System::SharedPtr<System::IO::Stream>> &inputStreams, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Loading::LoadOptions>> &loadOptions, Aspose::Words::LowCode::MergeFormatMode mergeFormatMode)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStreams | const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\& | The input streams. |
+| loadOptions | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\& | Load options for the input files. |
+| mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
+* Class [Merger](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
 ## Merger::Merge(const System::ArrayPtr\<System::String\>\&, Aspose::Words::LowCode::MergeFormatMode) method
 
 
@@ -63,6 +93,30 @@ static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger
 ## See Also
 
 * Class [Document](../../../aspose.words/document/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
+* Class [Merger](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Merger::Merge(const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\&, Aspose::Words::LowCode::MergeFormatMode) method
+
+
+Merges the given input documents into a single document and returns [Document](../../../aspose.words/document/) instance of the final document.
+
+```cpp
+static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger::Merge(const System::ArrayPtr<System::String> &inputFiles, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Loading::LoadOptions>> &loadOptions, Aspose::Words::LowCode::MergeFormatMode mergeFormatMode)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFiles | const System::ArrayPtr\<System::String\>\& | The input file names. |
+| loadOptions | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\& | Load options for the input files. |
+| mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
@@ -86,6 +140,32 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::SharedPtr<System
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [Merger](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Merger::Merge(const System::SharedPtr\<System::IO::Stream\>\&, const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, Aspose::Words::LowCode::MergeFormatMode) method
+
+
+Merges the given input documents into a single output document using specified input output streams and save options.
+
+```cpp
+static void Aspose::Words::LowCode::Merger::Merge(const System::SharedPtr<System::IO::Stream> &outputStream, const System::ArrayPtr<System::SharedPtr<System::IO::Stream>> &inputStreams, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Loading::LoadOptions>> &loadOptions, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, Aspose::Words::LowCode::MergeFormatMode mergeFormatMode)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
+| inputStreams | const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\& | The input streams. |
+| loadOptions | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\& | Load options for the input files. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -157,6 +237,32 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::String &outputFi
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
+* Class [Merger](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Merger::Merge(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, Aspose::Words::LowCode::MergeFormatMode) method
+
+
+Merges the given input documents into a single output document using specified input output file names and save options.
+
+```cpp
+static void Aspose::Words::LowCode::Merger::Merge(const System::String &outputFile, const System::ArrayPtr<System::String> &inputFiles, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Loading::LoadOptions>> &loadOptions, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, Aspose::Words::LowCode::MergeFormatMode mergeFormatMode)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputFile | const System::String\& | The output file name. |
+| inputFiles | const System::ArrayPtr\<System::String\>\& | The input file names. |
+| loadOptions | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\& | Load options for the input files. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)

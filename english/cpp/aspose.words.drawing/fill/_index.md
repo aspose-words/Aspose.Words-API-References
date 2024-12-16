@@ -23,7 +23,7 @@ class Fill : public System::Object
 | [get_BackColor](./get_backcolor/)() | Gets a Color object that represents the background color for the fill. |
 | [get_BackThemeColor](./get_backthemecolor/)() | Gets a ThemeColor object that represents the background color for the fill. |
 | [get_BackTintAndShade](./get_backtintandshade/)() | Gets or sets a double value that lightens or darkens the background color. |
-| [get_BaseForeColor](./get_baseforecolor/)() |  |
+| [get_BaseForeColor](./get_baseforecolor/)() | Gets a Color object that represents the base foreground color for the fill without any modifiers. |
 | [get_Color](./get_color/)() |  |
 | [get_FillType](./get_filltype/)() | Gets a fill type. |
 | [get_ForeColor](./get_forecolor/)() | Gets or sets a Color object that represents the foreground color for the fill. |

@@ -33,7 +33,7 @@ The formatting is resolved as follows:
 
 1. Built-in styles are matched using their locale independent style identifier. User defined styles are matched using case-sensitive style name.
 1. If a matching style is not found in the destination document, the style (and all styles referenced by it) are copied into the destination document and the imported nodes are updated to reference the new style.
-1. If a matching style already exists in the destination document, what happens depends on the **importFormatMode** parameter passed to [Document.ImportNode](../) as described below.
+1. If a matching style already exists in the destination document, what happens depends on the **importFormatMode** parameter passed to [ImportNode()](../) as described below.
 
 
 

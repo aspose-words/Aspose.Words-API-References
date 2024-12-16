@@ -22,7 +22,7 @@ class VbaProject : public System::Object
 | --- | --- |
 | [Clone](./clone/)() | Performs a copy of the [VbaProject](./). |
 | [get_CodePage](./get_codepage/)() const | Gets or sets the VBA project’s code page. |
-| [get_IsProtected](./get_isprotected/)() |  |
+| [get_IsProtected](./get_isprotected/)() | Shows whether the [VbaProject](./) is password protected. |
 | [get_IsSigned](./get_issigned/)() | Shows whether the [VbaProject](./) is signed or not. |
 | [get_Modules](./get_modules/)() | Returns collection of VBA project modules. |
 | [get_Name](./get_name/)() const | Gets or sets VBA project name. |

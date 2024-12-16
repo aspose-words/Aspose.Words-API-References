@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::XmlDsigLevel enum
 linktitle: XmlDsigLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::XmlDsigLevel enum. XmlDsigLevel enumeration in C++.'
+description: 'Aspose::Words::DigitalSignatures::XmlDsigLevel enum. Specifies the level of a digital signature based on XML-DSig standard in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.digitalsignatures/xmldsiglevel/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.digitalsignatures/xmldsiglevel/
 ## XmlDsigLevel enum
 
 
-XmlDsigLevel enumeration.
+Specifies the level of a digital signature based on XML-DSig standard.
 
 ```cpp
 enum class XmlDsigLevel
@@ -20,8 +20,8 @@ enum class XmlDsigLevel
 
 | Name | Value | Description |
 | --- | --- | --- |
-| XmlDSig | 0 |  |
-| XAdEsEpes | 1 |  |
+| XmlDSig | 0 | Specifies XML-DSig signature level. |
+| XAdEsEpes | 1 | Specifies XAdES-EPES signature level. |
 
 ## See Also
 

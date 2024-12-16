@@ -93,6 +93,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartAxisType](../com.aspose.words/chartaxistype/) | Specifies type of chart axis. |
 | [ChartDataLabel](../com.aspose.words/chartdatalabel/) | Represents data label on a chart point or trendline. |
 | [ChartDataLabelCollection](../com.aspose.words/chartdatalabelcollection/) | Represents a collection of [ChartDataLabel](../com.aspose.words/chartdatalabel/). |
+| [ChartDataLabelLocationMode](../com.aspose.words/chartdatalabellocationmode/) | Specifies how the values \\u200b\\u200bthat specify the location of a data label - the [ChartDataLabel.\#getLeft()](../com.aspose.words/chartdatalabel/\#getLeft) / [ChartDataLabel.\#setLeft(double)](../com.aspose.words/chartdatalabel/\#setLeft-double) and [ChartDataLabel.\#getTop()](../com.aspose.words/chartdatalabel/\#getTop) / [ChartDataLabel.\#setTop(double)](../com.aspose.words/chartdatalabel/\#setTop-double) properties - are interpreted. |
+| [ChartDataLabelPosition](../com.aspose.words/chartdatalabelposition/) | Specifies the position for a chart data label. |
 | [ChartDataPoint](../com.aspose.words/chartdatapoint/) | Allows to specify formatting of a single data point on the chart. |
 | [ChartDataPointCollection](../com.aspose.words/chartdatapointcollection/) | Represents collection of a [ChartDataPoint](../com.aspose.words/chartdatapoint/). |
 | [ChartDataTable](../com.aspose.words/chartdatatable/) | Allows to specify properties of a chart data table. |
@@ -130,6 +132,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [CommentRangeEnd](../com.aspose.words/commentrangeend/) | Denotes the end of a region of text that has a comment associated with it. |
 | [CommentRangeStart](../com.aspose.words/commentrangestart/) | Denotes the start of a region of text that has a comment associated with it. |
 | [CompareOptions](../com.aspose.words/compareoptions/) | Allows to choose additional options for document comparison operation. |
+| [Comparer](../com.aspose.words/comparer/) | Provides methods intended to compare documents. |
 | [ComparisonEvaluationResult](../com.aspose.words/comparisonevaluationresult/) | The comparison evaluation result. |
 | [ComparisonExpression](../com.aspose.words/comparisonexpression/) | The comparison expression. |
 | [ComparisonTargetType](../com.aspose.words/comparisontargettype/) | Allows to specify base document which will be used during comparison. |
@@ -420,6 +423,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [JsonSimpleValueParseMode](../com.aspose.words/jsonsimplevalueparsemode/) | Specifies a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
 | [JustificationMode](../com.aspose.words/justificationmode/) | Specifies the character spacing adjustment for a document. |
 | [KnownTypeSet](../com.aspose.words/knowntypeset/) | Represents an unordered set (i.e. |
+| [Language](../com.aspose.words/language/) | Specifies the language into which the text will be translated using AI.. |
 | [LanguagePreferences](../com.aspose.words/languagepreferences/) | Allows to set up language preferences. |
 | [LayoutCollector](../com.aspose.words/layoutcollector/) | This class allows to compute page numbers of document nodes. |
 | [LayoutEntityType](../com.aspose.words/layoutentitytype/) | Types of the layout entities. |
@@ -448,8 +452,10 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMergeDataType](../com.aspose.words/mailmergedatatype/) | Specifies the type of an external mail merge data source. |
 | [MailMergeDestination](../com.aspose.words/mailmergedestination/) | Specifies the possible results which may be generated when a mail merge is carried out on a document. |
 | [MailMergeMainDocumentType](../com.aspose.words/mailmergemaindocumenttype/) | Specifies the possible types for a mail merge source document. |
+| [MailMergeOptions](../com.aspose.words/mailmergeoptions/) | Represents options for the mail merge functionality. |
 | [MailMergeRegionInfo](../com.aspose.words/mailmergeregioninfo/) | Contains information about a mail merge region. |
 | [MailMergeSettings](../com.aspose.words/mailmergesettings/) | Specifies all of the mail merge information for a document. |
+| [MailMerger](../com.aspose.words/mailmerger/) | Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations. |
 | [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
 | [Margins](../com.aspose.words/margins/) | Specifies preset margins. |
 | [MarkdownExportAsHtml](../com.aspose.words/markdownexportashtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. |
@@ -558,8 +564,12 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [RelativeVerticalPosition](../com.aspose.words/relativeverticalposition/) | Specifies to what the vertical position of a shape or text frame is relative. |
 | [RelativeVerticalSize](../com.aspose.words/relativeverticalsize/) | Specifies relatively to what the height of a shape or a text frame is calculated vertically. |
 | [ReplaceAction](../com.aspose.words/replaceaction/) | Allows the user to specify what happens to the current match during a replace operation. |
+| [ReplacementFormat](../com.aspose.words/replacementformat/) | Specifies the replacement format. |
+| [Replacer](../com.aspose.words/replacer/) | Provides methods intended to find and replace text in the document. |
 | [ReplacingArgs](../com.aspose.words/replacingargs/) | Provides data for a custom replace operation. |
 | [ReportBuildOptions](../com.aspose.words/reportbuildoptions/) | Specifies options controlling behavior of [ReportingEngine](../com.aspose.words/reportingengine/) while building a report. |
+| [ReportBuilder](../com.aspose.words/reportbuilder/) | Provides methods intended to fill template with data using LINQ Reporting Engine. |
+| [ReportBuilderOptions](../com.aspose.words/reportbuilderoptions/) | Represents options for the LINQ Reporting Engine functionality. |
 | [ReportingEngine](../com.aspose.words/reportingengine/) | Provides routines to populate template documents with data and a set of settings to control these routines. |
 | [ResourceLoadingAction](../com.aspose.words/resourceloadingaction/) | Specifies the mode of resource loading. |
 | [ResourceLoadingArgs](../com.aspose.words/resourceloadingargs/) | Provides data for the [IResourceLoadingCallback.\#resourceLoading(com.aspose.words.ResourceLoadingArgs)](../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) method. |
@@ -614,6 +624,9 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Source](../com.aspose.words/source/) | Represents an individual source, such as a book, journal article, or interview. |
 | [SourceType](../com.aspose.words/sourcetype/) | Represents bibliography source types. |
 | [SpecialChar](../com.aspose.words/specialchar/) | Base class for special characters in the document. |
+| [SplitCriteria](../com.aspose.words/splitcriteria/) | Specifies how the document is split into parts. |
+| [SplitOptions](../com.aspose.words/splitoptions/) | Specifies options how the document is split into parts. |
+| [Splitter](../com.aspose.words/splitter/) | Provides methods intended to split the documents into parts using different criteria. |
 | [Story](../com.aspose.words/story/) | Base class for elements that contain block-level nodes [Paragraph](../com.aspose.words/paragraph/) and [Table](../com.aspose.words/table/). |
 | [StoryType](../com.aspose.words/storytype/) | Text of a Word document is stored in stories. |
 | [StreamFontSource](../com.aspose.words/streamfontsource/) | Base class for user-defined stream font source. |
@@ -702,6 +715,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Watermark](../com.aspose.words/watermark/) | Represents class to work with document watermark. |
 | [WatermarkLayout](../com.aspose.words/watermarklayout/) | Defines layout of the watermark relative to the watermark center. |
 | [WatermarkType](../com.aspose.words/watermarktype/) | Specifies the watermark type. |
+| [Watermarker](../com.aspose.words/watermarker/) | Provides methods intended to insert watermarks into the documents. |
 | [WebExtension](../com.aspose.words/webextension/) | Represents a web extension object. |
 | [WebExtensionBinding](../com.aspose.words/webextensionbinding/) | Specifies a binding relationship between a web extension and the data in the document. |
 | [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection/) | Specifies a list of web extension bindings. |

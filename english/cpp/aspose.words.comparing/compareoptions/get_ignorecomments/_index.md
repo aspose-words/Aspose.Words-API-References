@@ -2,7 +2,7 @@
 title: Aspose::Words::Comparing::CompareOptions::get_IgnoreComments method
 linktitle: get_IgnoreComments
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreComments method. Specifies whether to compare differences in comments. By default comments are not ignored in C++.'
+description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreComments method. Specifies whether to compare differences in comments in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.comparing/compareoptions/get_ignorecomments/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignorecomments/
 ## CompareOptions::get_IgnoreComments method
 
 
-Specifies whether to compare differences in comments. By default comments are not ignored.
+Specifies whether to compare differences in comments.
 
 ```cpp
 bool Aspose::Words::Comparing::CompareOptions::get_IgnoreComments() const

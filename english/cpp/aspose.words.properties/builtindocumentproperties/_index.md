@@ -29,12 +29,13 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [get_CharactersWithSpaces](./get_characterswithspaces/)() | Represents an estimate of the number of characters (including spaces) in the document. |
 | [get_Comments](./get_comments/)() | Gets or sets the document comments. |
 | [get_Company](./get_company/)() | Gets or sets the company property. |
-| [get_ContentStatus](./get_contentstatus/)() | Gets or sets the [ContentStatus](../) of the document. |
-| [get_ContentType](./get_contenttype/)() | Gets or sets the [ContentType](../) of the document. |
+| [get_ContentStatus](./get_contentstatus/)() | Gets or sets the content status of the document. |
+| [get_ContentType](./get_contenttype/)() | Gets or sets the content type of the document. |
 | [get_Count](../documentpropertycollection/get_count/)() | Gets number of items in the collection. |
 | [get_CreatedTime](./get_createdtime/)() | Gets or sets date of the document creation in UTC. |
 | [get_HeadingPairs](./get_headingpairs/)() | Specifies document headings and their names. |
 | [get_HyperlinkBase](./get_hyperlinkbase/)() | Specifies the base string used for evaluating relative hyperlinks in this document. |
+| [get_HyperlinksChanged](./get_hyperlinkschanged/)() | Indicates whether hyperlinks in a document were changed. |
 | [get_Keywords](./get_keywords/)() | Gets or sets the document keywords. |
 | [get_LastPrinted](./get_lastprinted/)() | Gets or sets the date when the document was last printed in UTC. |
 | [get_LastSavedBy](./get_lastsavedby/)() | Gets or sets the name of the last author. |
@@ -46,7 +47,9 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [get_Pages](./get_pages/)() | Represents an estimate of the number of pages in the document. |
 | [get_Paragraphs](./get_paragraphs/)() | Represents an estimate of the number of paragraphs in the document. |
 | [get_RevisionNumber](./get_revisionnumber/)() | Gets or sets the document revision number. |
+| [get_ScaleCrop](./get_scalecrop/)() | Indicates whether document thumbnail is cropped or scaled to fit the display. |
 | [get_Security](./get_security/)() | Specifies the security level of a document as a numeric value. |
+| [get_SharedDocument](./get_shareddocument/)() | Indicates whether the document is a shared document. |
 | [get_Subject](./get_subject/)() | Gets or sets the subject of the document. |
 | [get_Template](./get_template/)() | Gets or sets the informational name of the document template. |
 | [get_Thumbnail](./get_thumbnail/)() | Gets or sets the thumbnail of the document. |

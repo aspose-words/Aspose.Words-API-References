@@ -4,7 +4,7 @@ linktitle: ShapeBase
 second_title: Aspose.Words for Java
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 578
+weight: 588
 url: /java/com.aspose.words/shapebase/
 ---
 

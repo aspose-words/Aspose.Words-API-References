@@ -139,22 +139,29 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertToc.docx");
 ## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) constructor
 
 
-
+Initializes a new instance of this class.
 
 ```cpp
 Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::Document> &doc, const System::SharedPtr<Aspose::Words::DocumentBuilderOptions> &options)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | const System::SharedPtr\<Aspose::Words::Document\>\& | The [Document](../../document/) object to attach to. |
+| options | const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\& | Additional options for the document building process. |
+
 ## See Also
 
 * Class [Document](../../document/)
+* Class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) constructor
 
 
-
+Initializes a new instance of this class.
 
 ```cpp
 Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::DocumentBuilderOptions> &options)
@@ -162,6 +169,7 @@ Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::
 
 ## See Also
 
+* Class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

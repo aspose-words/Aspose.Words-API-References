@@ -40,7 +40,7 @@ class PdfDigitalSignatureDetails : public System::Object
 ## Remarks
 
 
-At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
+At the moment digitally signing PDF documents is only available on .NET 3.5 or higher.
 
 To digitally sign a PDF document when it is created by Aspose.Words, set the [DigitalSignatureDetails](../pdfsaveoptions/get_digitalsignaturedetails/) property to a valid [PdfDigitalSignatureDetails](./) object and then save the document in the PDF format passing the [PdfSaveOptions](../pdfsaveoptions/) as a parameter into the [Save()](../) method.
 

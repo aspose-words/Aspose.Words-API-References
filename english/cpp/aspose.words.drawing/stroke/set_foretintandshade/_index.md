@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Stroke::set_ForeTintAndShade method
 linktitle: set_ForeTintAndShade
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use set_ForeTintAndShade method of Aspose::Words::Drawing::Stroke class in C++.'
+description: 'Aspose::Words::Drawing::Stroke::set_ForeTintAndShade method. Setter for Aspose::Words::Drawing::Stroke::get_ForeTintAndShade in C++.'
 type: docs
 weight: 32667
 url: /cpp/aspose.words.drawing/stroke/set_foretintandshade/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/stroke/set_foretintandshade/
 ## Stroke::set_ForeTintAndShade method
 
 
-
+Setter for [Aspose::Words::Drawing::Stroke::get_ForeTintAndShade](../get_foretintandshade/).
 
 ```cpp
 void Aspose::Words::Drawing::Stroke::set_ForeTintAndShade(double value)

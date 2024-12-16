@@ -25,7 +25,7 @@ Aspose::Words::Section::Section(const System::SharedPtr<Aspose::Words::DocumentB
 
 When the section is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To include [Section](../) into a document use [InsertAfter()](../) and [InsertBefore()](../) methods of the [Document](../../document/) OR [Add()](../) and [Insert()](../) methods of the [Sections](../../document/get_sections/) property.
+To include [Section](../) into a document use [InsertAfter1()</see> and <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) methods of the [Document](../../document/) OR [Add()](../) and [Insert()](../) methods of the [Sections](../../document/get_sections/) property.
 
 ## Examples
 

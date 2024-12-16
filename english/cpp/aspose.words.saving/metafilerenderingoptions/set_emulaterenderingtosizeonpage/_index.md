@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRenderingToSizeOnPage method
 linktitle: set_EmulateRenderingToSizeOnPage
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use set_EmulateRenderingToSizeOnPage method of Aspose::Words::Saving::MetafileRenderingOptions class in C++.'
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRenderingToSizeOnPage method. Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage in C++.'
 type: docs
 weight: 12334
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_emulaterenderingtosizeonpage/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/set_emulaterenderingtosiz
 ## MetafileRenderingOptions::set_EmulateRenderingToSizeOnPage method
 
 
-
+Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage](../get_emulaterenderingtosizeonpage/).
 
 ```cpp
 void Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRenderingToSizeOnPage(bool value)

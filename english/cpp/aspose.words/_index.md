@@ -36,6 +36,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [Document](./document/) | Represents a Word document. To learn more, visit the [Working with Document](https://docs.aspose.com/words/cpp/working-with-document/) documentation article. |
 | [DocumentBase](./documentbase/) | Provides the abstract base class for a main document and a glossary document of a Word document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [DocumentBuilder](./documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/cpp/document-builder-overview/) documentation article. |
+| [DocumentBuilderOptions](./documentbuilderoptions/) | Allows to specify additional options for the document building process. |
 | [DocumentVisitor](./documentvisitor/) | Base class for custom document visitors. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [EditableRange](./editablerange/) | Represents a single editable range. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [EditableRangeEnd](./editablerangeend/) | Represents an end of an editable range in a Word document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
@@ -99,12 +100,13 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
 | [INodeChangingCallback](./inodechangingcallback/) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |
+| [IRevisionCriteria](./irevisioncriteria/) | Implement this interface if you want to control when certain [Revision](./revision/) should be accepted/rejected or not by the [Accept()](../)/[Reject()](../) methods. |
 | [IWarningCallback](./iwarningcallback/) | Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving. |
 ## Enums
 
 | Enum | Description |
 | --- | --- |
-| [BaselineAlignment](./baselinealignment/) | BaselineAlignment enumeration. |
+| [BaselineAlignment](./baselinealignment/) | Specifies fonts vertical position on a line. |
 | [BorderType](./bordertype/) | Specifies sides of a border. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article. |
 | [BreakType](./breaktype/) | Specifies type of a break inside a document. |
 | [CalendarType](./calendartype/) | Specifies the type of a calendar. |

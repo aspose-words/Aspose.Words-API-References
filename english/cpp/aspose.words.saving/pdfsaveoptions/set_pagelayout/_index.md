@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::PdfSaveOptions::set_PageLayout method
 linktitle: set_PageLayout
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use set_PageLayout method of Aspose::Words::Saving::PdfSaveOptions class in C++.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_PageLayout method. Specifies the page layout to be used when the document is opened in a PDF reader in C++.'
 type: docs
 weight: 57500
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_pagelayout/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/set_pagelayout/
 ## PdfSaveOptions::set_PageLayout method
 
 
-
+Specifies the page layout to be used when the document is opened in a PDF reader.
 
 ```cpp
 void Aspose::Words::Saving::PdfSaveOptions::set_PageLayout(Aspose::Words::Saving::PdfPageLayout value)

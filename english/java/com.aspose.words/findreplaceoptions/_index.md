@@ -4,7 +4,7 @@ linktitle: FindReplaceOptions
 second_title: Aspose.Words for Java
 description: Specifies options for find/replace operations in Java.
 type: docs
-weight: 304
+weight: 307
 url: /java/com.aspose.words/findreplaceoptions/
 ---
 
@@ -94,6 +94,7 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [getLegacyMode()](#getLegacyMode) | Gets a boolean value indicating that old find/replace algorithm is used. |
 | [getMatchCase()](#getMatchCase) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [getReplacementFormat()](#getReplacementFormat) | Specifies format of the replacement. |
 | [getReplacingCallback()](#getReplacingCallback) | The user-defined method which is called before every replace occurrence. |
 | [getSmartParagraphBreakReplacement()](#getSmartParagraphBreakReplacement) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
 | [getUseLegacyOrder()](#getUseLegacyOrder) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
@@ -109,6 +110,7 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [setLegacyMode(boolean value)](#setLegacyMode-boolean) | Sets a boolean value indicating that old find/replace algorithm is used. |
 | [setMatchCase(boolean value)](#setMatchCase-boolean) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [setReplacementFormat(int value)](#setReplacementFormat-int) | Specifies format of the replacement. |
 | [setReplacingCallback(IReplacingCallback value)](#setReplacingCallback-com.aspose.words.IReplacingCallback) | The user-defined method which is called before every replace occurrence. |
 | [setSmartParagraphBreakReplacement(boolean value)](#setSmartParagraphBreakReplacement-boolean) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
 | [setUseLegacyOrder(boolean value)](#setUseLegacyOrder-boolean) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
@@ -824,6 +826,20 @@ Shows how to toggle case sensitivity when performing a find-and-replace operatio
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getReplacementFormat() {#getReplacementFormat}
+```
+public int getReplacementFormat()
+```
+
+
+Specifies format of the replacement. Default is [ReplacementFormat.TEXT](../../com.aspose.words/replacementformat/\#TEXT).
+
+ **Remarks:** 
+
+Has effect only when using in [Replacer](../../com.aspose.words/replacer/)
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ReplacementFormat](../../com.aspose.words/replacementformat/) constants.
 ### getReplacingCallback() {#getReplacingCallback}
 ```
 public IReplacingCallback getReplacingCallback()
@@ -1619,6 +1635,23 @@ Shows how to toggle case sensitivity when performing a find-and-replace operatio
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setReplacementFormat(int value) {#setReplacementFormat-int}
+```
+public void setReplacementFormat(int value)
+```
+
+
+Specifies format of the replacement. Default is [ReplacementFormat.TEXT](../../com.aspose.words/replacementformat/\#TEXT).
+
+ **Remarks:** 
+
+Has effect only when using in [Replacer](../../com.aspose.words/replacer/)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [ReplacementFormat](../../com.aspose.words/replacementformat/) constants. |
 
 ### setReplacingCallback(IReplacingCallback value) {#setReplacingCallback-com.aspose.words.IReplacingCallback}
 ```

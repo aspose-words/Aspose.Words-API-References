@@ -23,8 +23,8 @@ class Comment : public Aspose::Words::InlineStory,
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override |  |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the comment. |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the comment. |
 | [AddReply](./addreply/)(const System::String\&, const System::String\&, System::DateTime, const System::String\&) | Adds a reply to this comment. |
 | [AppendChild](../compositenode/appendchild/)(T) |  |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
@@ -36,14 +36,14 @@ class Comment : public Aspose::Words::InlineStory,
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_DateTime](./get_datetime/)() const | Gets the date and time that the comment was made. |
-| [get_DateTimeUtc](./get_datetimeutc/)() |  |
+| [get_DateTimeUtc](./get_datetimeutc/)() | Gets the UTC date and time that the comment was made. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_Done](./get_done/)() const | Gets or sets flag indicating that the comment has been marked done. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FirstParagraph](../inlinestory/get_firstparagraph/)() override | Gets the first paragraph in the story. |
 | [get_Font](../inlinestory/get_font/)() | Provides access to the font formatting of the anchor character of this object. |
 | [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
-| [get_Id](./get_id/)() const | Gets the comment identifier. |
+| [get_Id](./get_id/)() const | Gets or sets the comment identifier. |
 | [get_Initial](./get_initial/)() const | Returns or sets the initials of the user associated with a specific comment. |
 | [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsDeleteRevision](../inlinestory/get_isdeleterevision/)() | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
@@ -56,7 +56,7 @@ class Comment : public Aspose::Words::InlineStory,
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Comment](../nodetype/). |
 | [get_Paragraphs](../inlinestory/get_paragraphs/)() override | Gets a collection of paragraphs that are immediate children of the story. |
-| [get_ParentId](./get_parentid/)() const |  |
+| [get_ParentId](./get_parentid/)() const | Gets the parent comment ID. A value of **%-1** means the comment has no parent. |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../inlinestory/get_parentparagraph/)() | Retrieves the parent [Paragraph](../paragraph/) of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
@@ -96,7 +96,7 @@ class Comment : public Aspose::Words::InlineStory,
 | [set_Id](./set_id/)(int32_t) | Setter for [Aspose::Words::Comment::get_Id](./get_id/). |
 | [set_Initial](./set_initial/)(const System::String\&) | Setter for [Aspose::Words::Comment::get_Initial](./get_initial/). |
 | [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_ParentId](./set_parentid/)(int32_t) |  |
+| [set_ParentId](./set_parentid/)(int32_t) | Sets the parent comment ID. A value of **%-1** means the comment has no parent. |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
