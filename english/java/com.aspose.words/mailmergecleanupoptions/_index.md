@@ -4,7 +4,7 @@ linktitle: MailMergeCleanupOptions
 second_title: Aspose.Words for Java
 description: Specifies options that determine what items are removed during mail merge in Java.
 type: docs
-weight: 423
+weight: 427
 url: /java/com.aspose.words/mailmergecleanupoptions/
 ---
 
@@ -41,6 +41,33 @@ Shows how to instruct the mail merge engine to remove any containing fields from
  doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
  
 ```
+
+Shows how to remove whole empty table during mail merge.
+
+```
+
+ DataTable tableCustomers = new DataTable("A");
+ tableCustomers.getColumns().add("CustomerID");
+ tableCustomers.getColumns().add("CustomerName");
+ tableCustomers.getRows().add(new Object[] { 1, "John Doe" });
+ tableCustomers.getRows().add(new Object[] { 2, "Jane Doe" });
+
+ DataSet ds = new DataSet();
+ ds.getTables().add(tableCustomers);
+
+ Document doc = new Document(getMyDir() + "Mail merge tables.docx");
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ doc.getMailMerge().setMergeDuplicateRegions(false);
+ doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLES | MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
+ doc.getMailMerge().executeWithRegions(ds.getTables().get("A"));
+
+ doc.save(getArtifactsDir() + "MailMerge.RemoveEmptyTables.docx");
+
+ doc = new Document(getArtifactsDir() + "MailMerge.RemoveEmptyTables.docx");
+ Assert.assertEquals(1, doc.getChildNodes(NodeType.TABLE, true).getCount());
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -48,6 +75,7 @@ Shows how to instruct the mail merge engine to remove any containing fields from
 | [NONE](#NONE) | Specifies a default value. |
 | [REMOVE_CONTAINING_FIELDS](#REMOVE-CONTAINING-FIELDS) | Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed. |
 | [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. |
+| [REMOVE_EMPTY_TABLES](#REMOVE-EMPTY-TABLES) | Specifies whether to remove from the document tables that contain mail merge regions that were removed using either the [REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-UNUSED-REGIONS) or the [REMOVE\_EMPTY\_TABLE\_ROWS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-EMPTY-TABLE-ROWS) option. |
 | [REMOVE_EMPTY_TABLE_ROWS](#REMOVE-EMPTY-TABLE-ROWS) | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
 | [REMOVE_STATIC_FIELDS](#REMOVE-STATIC-FIELDS) | Specifies whether static fields should be removed from the document. |
 | [REMOVE_UNUSED_FIELDS](#REMOVE-UNUSED-FIELDS) | Specifies whether unused merge fields should be removed from the document. |
@@ -87,6 +115,18 @@ public static int REMOVE_EMPTY_PARAGRAPHS
 
 
 Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. When this option is set, paragraphs which contain region start and end merge fields which are otherwise empty are also removed.
+
+### REMOVE_EMPTY_TABLES {#REMOVE-EMPTY-TABLES}
+```
+public static int REMOVE_EMPTY_TABLES
+```
+
+
+Specifies whether to remove from the document tables that contain mail merge regions that were removed using either the [REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-UNUSED-REGIONS) or the [REMOVE\_EMPTY\_TABLE\_ROWS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-EMPTY-TABLE-ROWS) option.
+
+ **Remarks:** 
+
+This option applies only to mail merge with regions.
 
 ### REMOVE_EMPTY_TABLE_ROWS {#REMOVE-EMPTY-TABLE-ROWS}
 ```

@@ -4,7 +4,7 @@ linktitle: FieldIncludePicture
 second_title: Aspose.Words for Java
 description: Implements the INCLUDEPICTURE field in Java.
 type: docs
-weight: 237
+weight: 240
 url: /java/com.aspose.words/fieldincludepicture/
 ---
 

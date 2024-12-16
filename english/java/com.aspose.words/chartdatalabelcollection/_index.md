@@ -104,6 +104,7 @@ Shows how to apply labels to data points in a line chart.
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the data labels. |
 | [getNumberFormat()](#getNumberFormat) | Gets an [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [getOrientation()](#getOrientation) | Gets the text orientation of the data labels of the entire series. |
+| [getPosition()](#getPosition) | Gets the position of the data labels. |
 | [getRotation()](#getRotation) | Gets the rotation of the data labels of the entire series in degrees. |
 | [getSeparator()](#getSeparator) | Gets string separator used for the data labels of the entire series. |
 | [getShapeType()](#getShapeType) |  |
@@ -121,6 +122,7 @@ Shows how to apply labels to data points in a line chart.
 | [iterator()](#iterator) | Returns an enumerator object. |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setOrientation(int value)](#setOrientation-int) | Sets the text orientation of the data labels of the entire series. |
+| [setPosition(int value)](#setPosition-int) | Sets the position of the data labels. |
 | [setRotation(int value)](#setRotation-int) | Sets the rotation of the data labels of the entire series in degrees. |
 | [setSeparator(String value)](#setSeparator-java.lang.String) | Sets string separator used for the data labels of the entire series. |
 | [setShapeType(int value)](#setShapeType-int) |  |
@@ -565,6 +567,68 @@ Shows how to change orientation and rotation for data labels.
 
 **Returns:**
 int - The text orientation of the data labels of the entire series. The returned value is one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants.
+### getPosition() {#getPosition}
+```
+public int getPosition()
+```
+
+
+Gets the position of the data labels.
+
+ **Remarks:** 
+
+The position can be set for data labels of the following chart series types:
+
+\- [ChartSeriesType.BAR](../../com.aspose.words/chartseriestype/\#BAR), [ChartSeriesType.COLUMN](../../com.aspose.words/chartseriestype/\#COLUMN), [ChartSeriesType.HISTOGRAM](../../com.aspose.words/chartseriestype/\#HISTOGRAM), [ChartSeriesType.PARETO](../../com.aspose.words/chartseriestype/\#PARETO), [ChartSeriesType.WATERFALL](../../com.aspose.words/chartseriestype/\#WATERFALL); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.INSIDE\_BASE](../../com.aspose.words/chartdatalabelposition/\#INSIDE-BASE), [ChartDataLabelPosition.INSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#INSIDE-END) and [ChartDataLabelPosition.OUTSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#OUTSIDE-END);
+
+\- [ChartSeriesType.BAR\_STACKED](../../com.aspose.words/chartseriestype/\#BAR-STACKED), [ChartSeriesType.BAR\_PERCENT\_STACKED](../../com.aspose.words/chartseriestype/\#BAR-PERCENT-STACKED), [ChartSeriesType.COLUMN\_STACKED](../../com.aspose.words/chartseriestype/\#COLUMN-STACKED), [ChartSeriesType.COLUMN\_PERCENT\_STACKED](../../com.aspose.words/chartseriestype/\#COLUMN-PERCENT-STACKED); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.INSIDE\_BASE](../../com.aspose.words/chartdatalabelposition/\#INSIDE-BASE) and [ChartDataLabelPosition.INSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#INSIDE-END);
+
+\- [ChartSeriesType.BUBBLE](../../com.aspose.words/chartseriestype/\#BUBBLE), [ChartSeriesType.BUBBLE\_3\_D](../../com.aspose.words/chartseriestype/\#BUBBLE-3-D), [ChartSeriesType.LINE](../../com.aspose.words/chartseriestype/\#LINE), [ChartSeriesType.LINE\_STACKED](../../com.aspose.words/chartseriestype/\#LINE-STACKED), [ChartSeriesType.LINE\_PERCENT\_STACKED](../../com.aspose.words/chartseriestype/\#LINE-PERCENT-STACKED), [ChartSeriesType.SCATTER](../../com.aspose.words/chartseriestype/\#SCATTER), [ChartSeriesType.STOCK](../../com.aspose.words/chartseriestype/\#STOCK); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.LEFT](../../com.aspose.words/chartdatalabelposition/\#LEFT), [ChartDataLabelPosition.RIGHT](../../com.aspose.words/chartdatalabelposition/\#RIGHT), [ChartDataLabelPosition.ABOVE](../../com.aspose.words/chartdatalabelposition/\#ABOVE) and [ChartDataLabelPosition.BELOW](../../com.aspose.words/chartdatalabelposition/\#BELOW);
+
+\- [ChartSeriesType.PIE](../../com.aspose.words/chartseriestype/\#PIE), [ChartSeriesType.PIE\_3\_D](../../com.aspose.words/chartseriestype/\#PIE-3-D), [ChartSeriesType.PIE\_OF\_BAR](../../com.aspose.words/chartseriestype/\#PIE-OF-BAR), [ChartSeriesType.PIE\_OF\_PIE](../../com.aspose.words/chartseriestype/\#PIE-OF-PIE); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.INSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#INSIDE-END), [ChartDataLabelPosition.OUTSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#OUTSIDE-END) and [ChartDataLabelPosition.BEST\_FIT](../../com.aspose.words/chartdatalabelposition/\#BEST-FIT);
+
+\- [ChartSeriesType.BOX\_AND\_WHISKER](../../com.aspose.words/chartseriestype/\#BOX-AND-WHISKER); allowed values: [ChartDataLabelPosition.LEFT](../../com.aspose.words/chartdatalabelposition/\#LEFT), [ChartDataLabelPosition.RIGHT](../../com.aspose.words/chartdatalabelposition/\#RIGHT), [ChartDataLabelPosition.ABOVE](../../com.aspose.words/chartdatalabelposition/\#ABOVE) and [ChartDataLabelPosition.BELOW](../../com.aspose.words/chartdatalabelposition/\#BELOW).
+
+ **Examples:** 
+
+Shows how to set the position of the data label.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert column chart.
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+ ChartSeriesCollection seriesColl = chart.getSeries();
+
+ // Delete default generated series.
+ seriesColl.clear();
+
+ // Add series.
+ ChartSeries series = seriesColl.add(
+         "Series 1",
+         new String[] { "Category 1", "Category 2", "Category 3" },
+         new double[] { 4.0, 5.0, 6.0 });
+
+ // Show data labels and set font color.
+ series.hasDataLabels(true);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+ dataLabels.setShowValue(true);
+ dataLabels.getFont().setColor(Color.WHITE);
+
+ // Set data label position.
+ dataLabels.setPosition(ChartDataLabelPosition.INSIDE_BASE);
+ dataLabels.get(0).setPosition(ChartDataLabelPosition.OUTSIDE_END);
+ dataLabels.get(0).getFont().setColor(Color.RED);
+
+ doc.save(getArtifactsDir() + "Charts.LabelPosition.docx");
+ 
+```
+
+**Returns:**
+int - The position of the data labels. The returned value is one of [ChartDataLabelPosition](../../com.aspose.words/chartdatalabelposition/) constants.
 ### getRotation() {#getRotation}
 ```
 public int getRotation()
@@ -1207,6 +1271,71 @@ Shows how to change orientation and rotation for data labels.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The text orientation of the data labels of the entire series. The value must be one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants. |
+
+### setPosition(int value) {#setPosition-int}
+```
+public void setPosition(int value)
+```
+
+
+Sets the position of the data labels.
+
+ **Remarks:** 
+
+The position can be set for data labels of the following chart series types:
+
+\- [ChartSeriesType.BAR](../../com.aspose.words/chartseriestype/\#BAR), [ChartSeriesType.COLUMN](../../com.aspose.words/chartseriestype/\#COLUMN), [ChartSeriesType.HISTOGRAM](../../com.aspose.words/chartseriestype/\#HISTOGRAM), [ChartSeriesType.PARETO](../../com.aspose.words/chartseriestype/\#PARETO), [ChartSeriesType.WATERFALL](../../com.aspose.words/chartseriestype/\#WATERFALL); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.INSIDE\_BASE](../../com.aspose.words/chartdatalabelposition/\#INSIDE-BASE), [ChartDataLabelPosition.INSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#INSIDE-END) and [ChartDataLabelPosition.OUTSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#OUTSIDE-END);
+
+\- [ChartSeriesType.BAR\_STACKED](../../com.aspose.words/chartseriestype/\#BAR-STACKED), [ChartSeriesType.BAR\_PERCENT\_STACKED](../../com.aspose.words/chartseriestype/\#BAR-PERCENT-STACKED), [ChartSeriesType.COLUMN\_STACKED](../../com.aspose.words/chartseriestype/\#COLUMN-STACKED), [ChartSeriesType.COLUMN\_PERCENT\_STACKED](../../com.aspose.words/chartseriestype/\#COLUMN-PERCENT-STACKED); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.INSIDE\_BASE](../../com.aspose.words/chartdatalabelposition/\#INSIDE-BASE) and [ChartDataLabelPosition.INSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#INSIDE-END);
+
+\- [ChartSeriesType.BUBBLE](../../com.aspose.words/chartseriestype/\#BUBBLE), [ChartSeriesType.BUBBLE\_3\_D](../../com.aspose.words/chartseriestype/\#BUBBLE-3-D), [ChartSeriesType.LINE](../../com.aspose.words/chartseriestype/\#LINE), [ChartSeriesType.LINE\_STACKED](../../com.aspose.words/chartseriestype/\#LINE-STACKED), [ChartSeriesType.LINE\_PERCENT\_STACKED](../../com.aspose.words/chartseriestype/\#LINE-PERCENT-STACKED), [ChartSeriesType.SCATTER](../../com.aspose.words/chartseriestype/\#SCATTER), [ChartSeriesType.STOCK](../../com.aspose.words/chartseriestype/\#STOCK); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.LEFT](../../com.aspose.words/chartdatalabelposition/\#LEFT), [ChartDataLabelPosition.RIGHT](../../com.aspose.words/chartdatalabelposition/\#RIGHT), [ChartDataLabelPosition.ABOVE](../../com.aspose.words/chartdatalabelposition/\#ABOVE) and [ChartDataLabelPosition.BELOW](../../com.aspose.words/chartdatalabelposition/\#BELOW);
+
+\- [ChartSeriesType.PIE](../../com.aspose.words/chartseriestype/\#PIE), [ChartSeriesType.PIE\_3\_D](../../com.aspose.words/chartseriestype/\#PIE-3-D), [ChartSeriesType.PIE\_OF\_BAR](../../com.aspose.words/chartseriestype/\#PIE-OF-BAR), [ChartSeriesType.PIE\_OF\_PIE](../../com.aspose.words/chartseriestype/\#PIE-OF-PIE); allowed values: [ChartDataLabelPosition.CENTER](../../com.aspose.words/chartdatalabelposition/\#CENTER), [ChartDataLabelPosition.INSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#INSIDE-END), [ChartDataLabelPosition.OUTSIDE\_END](../../com.aspose.words/chartdatalabelposition/\#OUTSIDE-END) and [ChartDataLabelPosition.BEST\_FIT](../../com.aspose.words/chartdatalabelposition/\#BEST-FIT);
+
+\- [ChartSeriesType.BOX\_AND\_WHISKER](../../com.aspose.words/chartseriestype/\#BOX-AND-WHISKER); allowed values: [ChartDataLabelPosition.LEFT](../../com.aspose.words/chartdatalabelposition/\#LEFT), [ChartDataLabelPosition.RIGHT](../../com.aspose.words/chartdatalabelposition/\#RIGHT), [ChartDataLabelPosition.ABOVE](../../com.aspose.words/chartdatalabelposition/\#ABOVE) and [ChartDataLabelPosition.BELOW](../../com.aspose.words/chartdatalabelposition/\#BELOW).
+
+ **Examples:** 
+
+Shows how to set the position of the data label.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert column chart.
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+ ChartSeriesCollection seriesColl = chart.getSeries();
+
+ // Delete default generated series.
+ seriesColl.clear();
+
+ // Add series.
+ ChartSeries series = seriesColl.add(
+         "Series 1",
+         new String[] { "Category 1", "Category 2", "Category 3" },
+         new double[] { 4.0, 5.0, 6.0 });
+
+ // Show data labels and set font color.
+ series.hasDataLabels(true);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+ dataLabels.setShowValue(true);
+ dataLabels.getFont().setColor(Color.WHITE);
+
+ // Set data label position.
+ dataLabels.setPosition(ChartDataLabelPosition.INSIDE_BASE);
+ dataLabels.get(0).setPosition(ChartDataLabelPosition.OUTSIDE_END);
+ dataLabels.get(0).getFont().setColor(Color.RED);
+
+ doc.save(getArtifactsDir() + "Charts.LabelPosition.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The position of the data labels. The value must be one of [ChartDataLabelPosition](../../com.aspose.words/chartdatalabelposition/) constants. |
 
 ### setRotation(int value) {#setRotation-int}
 ```

@@ -4,7 +4,7 @@ linktitle: WarningType
 second_title: Aspose.Words for Java
 description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving in Java.
 type: docs
-weight: 677
+weight: 690
 url: /java/com.aspose.words/warningtype/
 ---
 

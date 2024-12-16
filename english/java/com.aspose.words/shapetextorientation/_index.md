@@ -4,7 +4,7 @@ linktitle: ShapeTextOrientation
 second_title: Aspose.Words for Java
 description: Specifies orientation of text in shapes in Java.
 type: docs
-weight: 582
+weight: 592
 url: /java/com.aspose.words/shapetextorientation/
 ---
 

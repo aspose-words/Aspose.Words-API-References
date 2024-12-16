@@ -4,7 +4,7 @@ linktitle: FootnoteSeparatorCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to TAspose.Words.Notes.FootnoteSeparator nodes of a document in Java.
 type: docs
-weight: 332
+weight: 335
 url: /java/com.aspose.words/footnoteseparatorcollection/
 ---
 

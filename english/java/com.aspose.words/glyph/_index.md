@@ -4,7 +4,7 @@ linktitle: Glyph
 second_title: Aspose.Words for Java
 description: Represents a glyph in Java.
 type: docs
-weight: 347
+weight: 350
 url: /java/com.aspose.words/glyph/
 ---
 

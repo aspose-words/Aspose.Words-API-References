@@ -4,7 +4,7 @@ linktitle: XmlDsigLevel
 second_title: Aspose.Words for Java
 description: Specifies the level of a digital signature based on XML-DSig standard in Java.
 type: docs
-weight: 702
+weight: 716
 url: /java/com.aspose.words/xmldsiglevel/
 ---
 

@@ -4,7 +4,7 @@ linktitle: TxtSaveOptionsBase
 second_title: Aspose.Words for Java
 description: The base class for specifying additional options when saving a document into a text based formats in Java.
 type: docs
-weight: 654
+weight: 667
 url: /java/com.aspose.words/txtsaveoptionsbase/
 ---
 

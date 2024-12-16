@@ -4,7 +4,7 @@ linktitle: XamlFixedSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XAML_FIXED format in Java.
 type: docs
-weight: 695
+weight: 709
 url: /java/com.aspose.words/xamlfixedsaveoptions/
 ---
 

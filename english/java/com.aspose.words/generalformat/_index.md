@@ -4,7 +4,7 @@ linktitle: GeneralFormat
 second_title: Aspose.Words for Java
 description: Specifies a general format that is applied to a numeric text or any field result in Java.
 type: docs
-weight: 343
+weight: 346
 url: /java/com.aspose.words/generalformat/
 ---
 
