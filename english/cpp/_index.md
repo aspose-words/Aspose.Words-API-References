@@ -29,6 +29,8 @@ is_root: true
 | [Aspose::Words::Lists](./aspose.words.lists/) | The **Aspose.Words.Lists** namespace contains classes for working with bulleted and numbered lists defined in a document. |
 | [Aspose::Words::Loading](./aspose.words.loading/) | The **Aspose.Words.Loading** namespace provides classes and enumerations that allow to specify additional options when loading documents. |
 | [Aspose::Words::LowCode](./aspose.words.lowcode/) | The **Aspose.Words.LowCode** contains classes and methods to handle complex general operations in a low code way. |
+| [Aspose::Words::LowCode::MailMerging](./aspose.words.lowcode.mailmerging/) |  |
+| [Aspose::Words::LowCode::Splitting](./aspose.words.lowcode.splitting/) |  |
 | [Aspose::Words::MailMerging](./aspose.words.mailmerging/) | The **Aspose.Words.MailMerging** namespace contains classes of the "original" mail merge reporting engine. |
 | [Aspose::Words::Markup](./aspose.words.markup/) | The **Aspose.Words.Markup** namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls). |
 | [Aspose::Words::Math](./aspose.words.math/) | The **Aspose.Words.Math** namespace contains classes that represent Office [Math](./aspose.words.math/) elements. |
