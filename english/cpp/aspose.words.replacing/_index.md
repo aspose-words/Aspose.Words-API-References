@@ -27,3 +27,4 @@ The **Aspose.Words.Replacing** namespace provides classes to manipulate with fin
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Specifies direction for replace operations. |
 | [ReplaceAction](./replaceaction/) | Allows the user to specify what happens to the current match during a replace operation. |
+| [ReplacementFormat](./replacementformat/) | Specifies the replacement format. |

@@ -37,6 +37,7 @@ class FindReplaceOptions : public System::Object
 | [get_IgnoreStructuredDocumentTags](./get_ignorestructureddocumenttags/)() const | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). The default value is **false**. |
 | [get_LegacyMode](./get_legacymode/)() const | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [get_MatchCase](./get_matchcase/)() const | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [get_ReplacementFormat](./get_replacementformat/)() const | Specifies format of the replacement. Default is [Text](../replacementformat/). |
 | [get_ReplacingCallback](./get_replacingcallback/)() const | The user-defined method which is called before every replace occurrence. |
 | [get_SmartParagraphBreakReplacement](./get_smartparagraphbreakreplacement/)() const | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. The default value is **false**. |
 | [get_UseLegacyOrder](./get_uselegacyorder/)() const | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is **false**. |
@@ -54,6 +55,7 @@ class FindReplaceOptions : public System::Object
 | [set_IgnoreStructuredDocumentTags](./set_ignorestructureddocumenttags/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreStructuredDocumentTags](./get_ignorestructureddocumenttags/). |
 | [set_LegacyMode](./set_legacymode/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_LegacyMode](./get_legacymode/). |
 | [set_MatchCase](./set_matchcase/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase](./get_matchcase/). |
+| [set_ReplacementFormat](./set_replacementformat/)(Aspose::Words::Replacing::ReplacementFormat) | Specifies format of the replacement. Default is [Text](../replacementformat/). |
 | [set_ReplacingCallback](./set_replacingcallback/)(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_ReplacingCallback](./get_replacingcallback/). |
 | [set_SmartParagraphBreakReplacement](./set_smartparagraphbreakreplacement/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement](./get_smartparagraphbreakreplacement/). |
 | [set_UseLegacyOrder](./set_uselegacyorder/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_UseLegacyOrder](./get_uselegacyorder/). |

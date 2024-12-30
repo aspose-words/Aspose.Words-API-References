@@ -30,7 +30,7 @@ class SvgSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_Dml3DEffectsRenderingMode](../saveoptions/get_dml3deffectsrenderingmode/)() const | Gets a value determining how 3D effects are rendered. |
 | virtual [get_DmlEffectsRenderingMode](../saveoptions/get_dmleffectsrenderingmode/)() | Gets or sets a value determining how DrawingML effects are rendered. |
 | [get_DmlRenderingMode](../saveoptions/get_dmlrenderingmode/)() const | Gets or sets a value determining how DrawingML shapes are rendered. |
-| [get_ExportEmbeddedImages](./get_exportembeddedimages/)() const | Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file. |
+| [get_ExportEmbeddedImages](./get_exportembeddedimages/)() const | Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file. |
 | [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_FitToViewPort](./get_fittoviewport/)() const | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to **true** width and height of output SVG are set to 100%. The default value is **false**. |
 | [get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |

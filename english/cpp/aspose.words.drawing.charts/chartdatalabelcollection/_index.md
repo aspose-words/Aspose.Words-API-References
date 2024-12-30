@@ -28,6 +28,7 @@ class ChartDataLabelCollection : public System::Collections::Generic::IEnumerabl
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the data labels. |
 | [get_NumberFormat](./get_numberformat/)() | Gets an [ChartNumberFormat](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [get_Orientation](./get_orientation/)() | Gets the text orientation of the data labels of the entire series. |
+| [get_Position](./get_position/)() | Gets or sets the position of the data labels. |
 | [get_Rotation](./get_rotation/)() | Gets or sets the rotation of the data labels of the entire series in degrees. |
 | [get_Separator](./get_separator/)() | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
 | [get_ShowBubbleSize](./get_showbubblesize/)() | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is **false**. |
@@ -43,6 +44,7 @@ class ChartDataLabelCollection : public System::Collections::Generic::IEnumerabl
 | [idx_get](./idx_get/)(int32_t) | Returns [ChartDataLabel](../chartdatalabel/) for the specified index. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Orientation](./set_orientation/)(Aspose::Words::Drawing::ShapeTextOrientation) | Sets the text orientation of the data labels of the entire series. |
+| [set_Position](./set_position/)(Aspose::Words::Drawing::Charts::ChartDataLabelPosition) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Position](./get_position/). |
 | [set_Rotation](./set_rotation/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Rotation](./get_rotation/). |
 | [set_Separator](./set_separator/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Separator](./get_separator/). |
 | [set_ShowBubbleSize](./set_showbubblesize/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowBubbleSize](./get_showbubblesize/). |

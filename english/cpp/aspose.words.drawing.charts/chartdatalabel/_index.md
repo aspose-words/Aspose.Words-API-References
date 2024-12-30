@@ -28,8 +28,11 @@ class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberForma
 | [get_Index](./get_index/)() | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
 | [get_IsHidden](./get_ishidden/)() | Gets/sets a flag indicating whether this label is hidden. The default value is **false**. |
 | [get_IsVisible](./get_isvisible/)() | Returns **true** if this data label has something to display. |
+| [get_Left](./get_left/)() | Gets or sets the distance of the data label in points from the left edge of the chart or from the position specified by its [Position](./get_position/) property, depending on the value of the [LeftMode](./get_leftmode/) property. |
+| [get_LeftMode](./get_leftmode/)() | Gets the interpretation mode of the [Left](./get_left/) property value: whether it sets the location of the data label from the left edge of the chart of from the position specified by its [Position](./get_position/) property. |
 | [get_NumberFormat](./get_numberformat/)() | Returns number format of the parent element. |
 | [get_Orientation](./get_orientation/)() | Gets the orientation of the label text. |
+| [get_Position](./get_position/)() | Gets or sets the position of the data label. |
 | [get_Rotation](./get_rotation/)() | Gets or sets the rotation of the label in degrees. |
 | [get_Separator](./get_separator/)() | Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
 | [get_ShowBubbleSize](./get_showbubblesize/)() | Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is **false**. |
@@ -40,10 +43,15 @@ class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberForma
 | [get_ShowPercentage](./get_showpercentage/)() | Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is **false**. |
 | [get_ShowSeriesName](./get_showseriesname/)() | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. **true** to show the series name; **false** to hide. By default **false**. |
 | [get_ShowValue](./get_showvalue/)() | Allows to specify if values are to be displayed in the data labels. Default value is **false**. |
+| [get_Top](./get_top/)() | Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its [Position](./get_position/) property, depending on the value of the [TopMode](./get_topmode/) property. |
+| [get_TopMode](./get_topmode/)() | Gets the interpretation mode of the [Top](./get_top/) property value: whether it sets the location of the data label from the top edge of the chart of from the position specified by its [Position](./get_position/) property. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_IsHidden](./set_ishidden/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsHidden](./get_ishidden/). |
+| [set_Left](./set_left/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Left](./get_left/). |
+| [set_LeftMode](./set_leftmode/)(Aspose::Words::Drawing::Charts::ChartDataLabelLocationMode) | Sets the interpretation mode of the [Left](./get_left/) property value: whether it sets the location of the data label from the left edge of the chart of from the position specified by its [Position](./get_position/) property. |
 | [set_Orientation](./set_orientation/)(Aspose::Words::Drawing::ShapeTextOrientation) | Sets the orientation of the label text. |
+| [set_Position](./set_position/)(Aspose::Words::Drawing::Charts::ChartDataLabelPosition) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Position](./get_position/). |
 | [set_Rotation](./set_rotation/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Rotation](./get_rotation/). |
 | [set_Separator](./set_separator/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Separator](./get_separator/). |
 | [set_ShowBubbleSize](./set_showbubblesize/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowBubbleSize](./get_showbubblesize/). |
@@ -54,6 +62,8 @@ class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberForma
 | [set_ShowPercentage](./set_showpercentage/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowPercentage](./get_showpercentage/). |
 | [set_ShowSeriesName](./set_showseriesname/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowSeriesName](./get_showseriesname/). |
 | [set_ShowValue](./set_showvalue/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowValue](./get_showvalue/). |
+| [set_Top](./set_top/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Top](./get_top/). |
+| [set_TopMode](./set_topmode/)(Aspose::Words::Drawing::Charts::ChartDataLabelLocationMode) | Sets the interpretation mode of the [Top](./get_top/) property value: whether it sets the location of the data label from the top edge of the chart of from the position specified by its [Position](./get_position/) property. |
 | static [Type](./type/)() |  |
 
 ## Examples
