@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparator
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Notes.FootnoteSeparator class. Represents a container for the footnote/endnote separator and continuation content of a document in C#.
 type: docs
-weight: 4830
+weight: 4840
 url: /net/aspose.words.notes/footnoteseparator/
 ---
 ## FootnoteSeparator class
@@ -77,6 +77,18 @@ public class FootnoteSeparator : Story
 `FootnoteSeparator` can contain [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
 There can only be one `FootnoteSeparator` of each [`FootnoteSeparatorType`](../footnoteseparatortype/) in a document.
+
+## Examples
+
+Shows how to manage footnote separator format.
+
+```csharp
+Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
+
+FootnoteSeparator footnoteSeparator = doc.FootnoteSeparators[FootnoteSeparatorType.FootnoteSeparator];
+// Align footnote separator.
+footnoteSeparator.FirstParagraph.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+```
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: BuildingBlock
 second_title: Aspose.Words for .NET
 description: Aspose.Words.BuildingBlocks.BuildingBlock class. Represents a glossary document entry such as a Building Block AutoText or an AutoCorrect entry in C#.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.words.buildingblocks/buildingblock/
 ---
 ## BuildingBlock class

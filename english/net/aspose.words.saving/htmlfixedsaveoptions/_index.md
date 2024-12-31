@@ -5,7 +5,7 @@ articleTitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.HtmlFixedSaveOptions class. Can be used to specify additional options when saving a document into the HtmlFixed format in C#.
 type: docs
-weight: 5660
+weight: 5670
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class
@@ -44,6 +44,7 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 | [ExportFormFields](../../aspose.words.saving/htmlfixedsaveoptions/exportformfields/) { get; set; } | Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`. |
 | [FontFormat](../../aspose.words.saving/htmlfixedsaveoptions/fontformat/) { get; set; } | Gets or sets [`ExportFontFormat`](../exportfontformat/) used for font exporting. Default value is Woff. |
+| [IdPrefix](../../aspose.words.saving/htmlfixedsaveoptions/idprefix/) { get; set; } | Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [JpegQuality](../../aspose.words.saving/fixedpagesaveoptions/jpegquality/) { get; set; } | Gets or sets a value determining the quality of the JPEG images inside Html document. |
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |
@@ -56,6 +57,7 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 | [PageSet](../../aspose.words.saving/fixedpagesaveoptions/pageset/) { get; set; } | Gets or sets the pages to render. Default is all the pages in the document. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
+| [RemoveJavaScriptFromLinks](../../aspose.words.saving/htmlfixedsaveoptions/removejavascriptfromlinks/) { get; set; } | Specifies whether JavaScript will be removed from links. Default is `false`. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)". |
 | [ResourceSavingCallback](../../aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/) { get; set; } | Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format. |
 | [ResourcesFolder](../../aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/) { get; set; } | Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is `null`. |
 | [ResourcesFolderAlias](../../aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/) { get; set; } | Specifies the name of the folder used to construct image URIs written into an Html document. Default is `null`. |

@@ -16,6 +16,34 @@ Gets or sets a string that represents the name of the active style to use for a 
 public string BibliographyStyle { get; set; }
 ```
 
+## Examples
+
+Shows how to override built-in styles or provide custom one.
+
+```csharp
+public void ChangeBibliographyStyles()
+{
+    Document doc = new Document(MyDir + "Bibliography.docx");
+
+    // If the document already has a style you can change it with the following code:
+    // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
+
+    doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
+    doc.UpdateFields();
+
+    doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+
+}
+
+public class BibliographyStylesProvider : IBibliographyStylesProvider
+{
+    Stream IBibliographyStylesProvider.GetStyle(string styleFileName)
+    {
+        return File.OpenRead(MyDir + "Bibliography custom style.xsl");
+    }
+}
+```
+
 ### See Also
 
 * class [Bibliography](../)

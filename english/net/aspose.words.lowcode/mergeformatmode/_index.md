@@ -5,7 +5,7 @@ articleTitle: MergeFormatMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.MergeFormatMode enum. Specifies how formatting is merged when combining multiple documents in C#.
 type: docs
-weight: 4210
+weight: 4220
 url: /net/aspose.words.lowcode/mergeformatmode/
 ---
 ## MergeFormatMode enumeration
@@ -30,15 +30,25 @@ Shows how to merge documents into a single output document.
 
 ```csharp
 //There is a several ways to merge documents:
-Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SimpleMerge.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" });
+string inputDoc1 = MyDir + "Big document.docx";
+string inputDoc2 = MyDir + "Tables.docx";
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.1.docx", new[] { inputDoc1, inputDoc2 });
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
-Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveOptions.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, saveOptions, MergeFormatMode.KeepSourceFormatting);
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.2.docx", new[] { inputDoc1, inputDoc2 }, saveOptions, MergeFormatMode.KeepSourceFormatting);
 
-Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveFormat.pdf", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, SaveFormat.Pdf, MergeFormatMode.KeepSourceLayout);
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.3.pdf", new[] { inputDoc1, inputDoc2 }, SaveFormat.Pdf, MergeFormatMode.KeepSourceLayout);
 
-Document doc = Merger.Merge(new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, MergeFormatMode.MergeFormatting);
-doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
+LoadOptions firstLoadOptions = new LoadOptions() { IgnoreOleData = true };
+LoadOptions secondLoadOptions = new LoadOptions() { IgnoreOleData = false };
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.4.docx", new[] { inputDoc1, inputDoc2 }, new[] { firstLoadOptions, secondLoadOptions }, saveOptions, MergeFormatMode.KeepSourceFormatting);
+
+Document doc = Merger.Merge(new[] { inputDoc1, inputDoc2 }, MergeFormatMode.MergeFormatting);
+doc.Save(ArtifactsDir + "LowCode.MergeDocument.5.docx");
+
+doc = Merger.Merge(new[] { inputDoc1, inputDoc2 }, new[] { firstLoadOptions, secondLoadOptions }, MergeFormatMode.MergeFormatting);
+doc.Save(ArtifactsDir + "LowCode.MergeDocument.6.docx");
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: MailMerger
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.MailMerger class. Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations in C#.
 type: docs
-weight: 4190
+weight: 4210
 url: /net/aspose.words.lowcode/mailmerger/
 ---
 ## MailMerger class
@@ -27,24 +27,24 @@ public static class MailMerger
 | static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_9)(*string, string, [SaveFormat](../../aspose.words/saveformat/), DataRow*) | Performs mail merge from a DataRow into the document. |
 | static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_10)(*string, string, [SaveFormat](../../aspose.words/saveformat/), DataTable*) | Performs mail merge from a DataRow into the document. |
 | static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_14)(*string, string, string[], object[]*) | Performs a mail merge operation for a single record. |
-| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataRow*) | Performs a mail merge operation for a single record. |
-| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) | Performs a mail merge operation for a single record. |
+| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataRow*) | Performs a mail merge operation for a single record. |
+| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataTable*) | Performs a mail merge operation for a single record. |
 | static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_5)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), string[], object[]*) | Performs a mail merge operation for a single record. |
-| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_6)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataRow*) | Performs mail merge from a DataRow into the document. |
-| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_7)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) | Performs mail merge from a DataRow into the document. |
+| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_6)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataRow*) | Performs mail merge from a DataRow into the document. |
+| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_7)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataTable*) | Performs mail merge from a DataRow into the document. |
 | static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_11)(*string, string, [SaveFormat](../../aspose.words/saveformat/), string[], object[]*) | Performs a mail merge operation for a single record. |
-| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_2)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), string[], object[]*) | Performs a mail merge operation for a single record. |
-| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_8)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), string[], object[]*) | Performs a mail merge operation for a single record. |
+| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_2)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), string[], object[]*) | Performs a mail merge operation for a single record. |
+| static [Execute](../../aspose.words.lowcode/mailmerger/execute/#execute_8)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), string[], object[]*) | Performs a mail merge operation for a single record. |
 | static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_8)(*string, string, DataSet*) | Performs mail merge from a DataSet into a document with mail merge regions. |
 | static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_9)(*string, string, DataTable*) | Performs mail merge from a DataTable into the document with mail merge regions. |
 | static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_2)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), DataSet*) | Performs mail merge from a DataTable into the document with mail merge regions. |
 | static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_3)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), DataTable*) | Performs mail merge from a DataTable into the document with mail merge regions. |
 | static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_6)(*string, string, [SaveFormat](../../aspose.words/saveformat/), DataSet*) | Performs mail merge from a DataTable into the document with mail merge regions. |
 | static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_7)(*string, string, [SaveFormat](../../aspose.words/saveformat/), DataTable*) | Performs mail merge from a DataTable into the document with mail merge regions. |
-| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataSet*) | Performs a mail merge operation for a single record. |
-| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) | Performs a mail merge operation for a single record. |
-| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_4)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataSet*) | Performs mail merge from a DataTable into the document with mail merge regions. |
-| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_5)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) | Performs mail merge from a DataTable into the document with mail merge regions. |
+| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataSet*) | Performs a mail merge operation for a single record. |
+| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataTable*) | Performs a mail merge operation for a single record. |
+| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_4)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataSet*) | Performs mail merge from a DataTable into the document with mail merge regions. |
+| static [ExecuteWithRegions](../../aspose.words.lowcode/mailmerger/executewithregions/#executewithregions_5)(*string, string, [SaveFormat](../../aspose.words/saveformat/), [MailMergeOptions](../mailmergeoptions/), DataTable*) | Performs mail merge from a DataTable into the document with mail merge regions. |
 
 ### See Also
 

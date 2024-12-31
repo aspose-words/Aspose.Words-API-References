@@ -5,7 +5,7 @@ articleTitle: AxisGroup
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.AxisGroup enum. Represents a type of a chart axis group in C#.
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.words.drawing.charts/axisgroup/
 ---
 ## AxisGroup enumeration
@@ -51,6 +51,8 @@ newSeriesGroup.AxisX.Hidden = true;
 // Define title of the secondary Y axis.
 newSeriesGroup.AxisY.Title.Show = true;
 newSeriesGroup.AxisY.Title.Text = "Secondary Y axis";
+
+Assert.AreEqual(ChartSeriesType.Line, newSeriesGroup.SeriesType);
 
 // Add a series to the new series group.
 ChartSeries series3 =

@@ -5,7 +5,7 @@ articleTitle: ImageFieldMergingArgs
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.ImageFieldMergingArgs class. Provides data for the ImageFieldMerging event in C#.
 type: docs
-weight: 4360
+weight: 4370
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
@@ -147,6 +147,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

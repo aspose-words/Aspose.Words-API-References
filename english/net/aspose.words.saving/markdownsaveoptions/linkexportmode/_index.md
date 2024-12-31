@@ -5,7 +5,7 @@ articleTitle: LinkExportMode
 second_title: Aspose.Words for .NET
 description: MarkdownSaveOptions LinkExportMode property. Specifies how links will be written to the output file. Default value is Auto in C#.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.saving/markdownsaveoptions/linkexportmode/
 ---
 ## MarkdownSaveOptions.LinkExportMode property

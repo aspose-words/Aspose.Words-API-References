@@ -5,7 +5,7 @@ articleTitle: FieldMergeField
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldMergeField class. Implements the MERGEFIELD field in C#.
 type: docs
-weight: 2530
+weight: 2540
 url: /net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class
@@ -81,6 +81,7 @@ fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
 // Insert another MERGEFIELD for a different column in the data source.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);

@@ -65,6 +65,7 @@ axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabels.Spacing);
+Assert.AreEqual(doc, axis.DisplayUnit.Document);
 
 // Set the tick labels to display their value in millions.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;

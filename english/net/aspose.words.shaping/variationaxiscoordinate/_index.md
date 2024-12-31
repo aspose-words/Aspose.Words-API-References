@@ -5,7 +5,7 @@ articleTitle: VariationAxisCoordinate
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Shaping.VariationAxisCoordinate class. Represents an axis coordinate in C#.
 type: docs
-weight: 6730
+weight: 6750
 url: /net/aspose.words.shaping/variationaxiscoordinate/
 ---
 ## VariationAxisCoordinate class

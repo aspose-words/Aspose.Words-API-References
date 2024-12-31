@@ -5,7 +5,7 @@ articleTitle: SourceType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Bibliography.SourceType enum. Represents bibliography source types in C#.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.bibliography/sourcetype/
 ---
 ## SourceType enumeration
@@ -48,6 +48,7 @@ Document document = new Document(MyDir + "Bibliography sources.docx");
 Bibliography bibliography = document.Bibliography;
 Assert.AreEqual(12, bibliography.Sources.Count);
 
+// Get default data from bibliography sources.
 Source source = bibliography.Sources.FirstOrDefault();
 Assert.AreEqual("Book 0 (No LCID)", source.Title);
 Assert.AreEqual(SourceType.Book, source.SourceType);
@@ -67,6 +68,7 @@ Assert.IsNull(source.Day);
 Assert.IsNull(source.DayAccessed);
 Assert.IsNull(source.Department);
 Assert.IsNull(source.Distributor);
+Assert.IsNull(source.Doi);
 Assert.IsNull(source.Edition);
 Assert.IsNull(source.Guid);
 Assert.IsNull(source.Institution);
@@ -100,6 +102,9 @@ Assert.IsNull(source.Version);
 Assert.IsNull(source.Volume);
 Assert.IsNull(source.Year);
 Assert.IsNull(source.YearAccessed);
+
+// Also, you can create a new source.
+Source newSource = new Source("New source", SourceType.Misc);
 
 ContributorCollection contributors = source.Contributors;
 Assert.IsNull(contributors.Artist);

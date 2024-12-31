@@ -50,6 +50,8 @@ xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
 xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
 
+Assert.AreEqual(doc, xAxis.Document);
+
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
 yAxis.Crosses = AxisCrosses.Maximum;

@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionSettings
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontSubstitutionSettings class. Specifies font substitution mechanism settings in C#.
 type: docs
-weight: 3410
+weight: 3420
 url: /net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class
@@ -89,6 +89,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: ChartNumberFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartNumberFormat class. Represents number formatting of the parent element in C#.
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class

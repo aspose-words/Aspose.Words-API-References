@@ -20,6 +20,18 @@ public FootnoteSeparator this[FootnoteSeparatorType separatorType] { get; }
 
 Returns `null` if the footnote/endnote separator of the specified type is not found.
 
+## Examples
+
+Shows how to manage footnote separator format.
+
+```csharp
+Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
+
+FootnoteSeparator footnoteSeparator = doc.FootnoteSeparators[FootnoteSeparatorType.FootnoteSeparator];
+// Align footnote separator.
+footnoteSeparator.FirstParagraph.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+```
+
 ### See Also
 
 * class [FootnoteSeparator](../../footnoteseparator/)

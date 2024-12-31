@@ -5,7 +5,7 @@ articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words for .NET
 description: HtmlFixedSaveOptions ResourcesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an Html document. Default is null in C#.
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolderAlias property

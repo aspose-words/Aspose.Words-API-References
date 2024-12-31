@@ -5,7 +5,7 @@ articleTitle: AxisBuiltInUnit
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit enum. Specifies the display units for an axis in C#.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.words.drawing.charts/axisbuiltinunit/
 ---
 ## AxisBuiltInUnit enumeration
@@ -78,6 +78,7 @@ axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabels.Spacing);
+Assert.AreEqual(doc, axis.DisplayUnit.Document);
 
 // Set the tick labels to display their value in millions.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;

@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the Svg format in C#.
 type: docs
-weight: 6200
+weight: 6220
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class
@@ -38,6 +38,7 @@ public class SvgSaveOptions : FixedPageSaveOptions
 | [ExportEmbeddedImages](../../aspose.words.saving/svgsaveoptions/exportembeddedimages/) { get; set; } | Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`. |
 | [FitToViewPort](../../aspose.words.saving/svgsaveoptions/fittoviewport/) { get; set; } | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to `true` width and height of output SVG are set to 100%. |
+| [IdPrefix](../../aspose.words.saving/svgsaveoptions/idprefix/) { get; set; } | Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [JpegQuality](../../aspose.words.saving/fixedpagesaveoptions/jpegquality/) { get; set; } | Gets or sets a value determining the quality of the JPEG images inside Html document. |
 | [MaxImageResolution](../../aspose.words.saving/svgsaveoptions/maximageresolution/) { get; set; } | Gets or sets a value in pixels per inch that limits resolution of exported raster images. Default value is zero. |
@@ -49,6 +50,7 @@ public class SvgSaveOptions : FixedPageSaveOptions
 | [PageSet](../../aspose.words.saving/fixedpagesaveoptions/pageset/) { get; set; } | Gets or sets the pages to render. Default is all the pages in the document. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
+| [RemoveJavaScriptFromLinks](../../aspose.words.saving/svgsaveoptions/removejavascriptfromlinks/) { get; set; } | Specifies whether JavaScript will be removed from links. Default is `false`. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)". |
 | [ResourceSavingCallback](../../aspose.words.saving/svgsaveoptions/resourcesavingcallback/) { get; set; } | Allows to control how resources (images) are saved when a document is exported to SVG format. |
 | [ResourcesFolder](../../aspose.words.saving/svgsaveoptions/resourcesfolder/) { get; set; } | Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is `null`. |
 | [ResourcesFolderAlias](../../aspose.words.saving/svgsaveoptions/resourcesfolderalias/) { get; set; } | Specifies the name of the folder used to construct image URIs written into an SVG document. Default is `null`. |

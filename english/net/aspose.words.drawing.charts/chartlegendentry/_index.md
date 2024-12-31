@@ -5,7 +5,7 @@ articleTitle: ChartLegendEntry
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartLegendEntry class. Represents a chart legend entry in C#.
 type: docs
-weight: 1000
+weight: 1010
 url: /net/aspose.words.drawing.charts/chartlegendentry/
 ---
 ## ChartLegendEntry class
@@ -45,6 +45,8 @@ chartLegend.Font.Size = 14;
 // Change font for specific legend entry.
 chartLegend.LegendEntries[1].Font.Italic = true;
 chartLegend.LegendEntries[1].Font.Size = 12;
+// Get legend entry for chart series.
+ChartLegendEntry legendEntry = chart.Series[0].LegendEntry;
 
 doc.Save(ArtifactsDir + "Charts.LegendFont.docx");
 ```

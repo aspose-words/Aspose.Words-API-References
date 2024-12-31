@@ -5,7 +5,7 @@ articleTitle: Corporate
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Bibliography.Corporate class. Represents a corporate an organization bibliography source contributor in C#.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.bibliography/corporate/
 ---
 ## Corporate class

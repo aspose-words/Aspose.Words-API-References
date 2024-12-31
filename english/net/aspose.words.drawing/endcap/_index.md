@@ -5,7 +5,7 @@ articleTitle: EndCap
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.EndCap enum. Specifies line cap style in C#.
 type: docs
-weight: 1230
+weight: 1240
 url: /net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration

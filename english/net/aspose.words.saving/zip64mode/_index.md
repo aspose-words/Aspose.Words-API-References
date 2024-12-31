@@ -5,7 +5,7 @@ articleTitle: Zip64Mode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.Zip64Mode enum. Specifies when to use ZIP64 format extensions for OOXML files in C#.
 type: docs
-weight: 6350
+weight: 6370
 url: /net/aspose.words.saving/zip64mode/
 ---
 ## Zip64Mode enumeration

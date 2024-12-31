@@ -5,7 +5,7 @@ articleTitle: ChartDataPointCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartDataPointCollection class. Represents collection of a ChartDataPoint in C#.
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
@@ -68,8 +68,11 @@ public void ChartDataPoint()
         }
     }
 
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
     // For a cleaner looking graph, we can clear format individually.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    dataPoint.ClearFormat();
 
     // We can also strip an entire series of data points at once.
     chart.Series[2].DataPoints.ClearFormat();
