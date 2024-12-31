@@ -1,0 +1,37 @@
+---
+title: MarkdownSaveOptions.OfficeMathExportMode
+linktitle: OfficeMathExportMode
+articleTitle: OfficeMathExportMode
+second_title: Aspose.Words for .NET
+description: MarkdownSaveOptions OfficeMathExportMode property. Specifies how OfficeMath will be written to the output file. Default value is Text in C#.
+type: docs
+weight: 110
+url: /net/aspose.words.saving/markdownsaveoptions/officemathexportmode/
+---
+## MarkdownSaveOptions.OfficeMathExportMode property
+
+Specifies how OfficeMath will be written to the output file. Default value is Text.
+
+```csharp
+public MarkdownOfficeMathExportMode OfficeMathExportMode { get; set; }
+```
+
+## Examples
+
+Shows how OfficeMath will be written to the document.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.OfficeMathExportMode = MarkdownOfficeMathExportMode.Image;
+
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
+```
+
+### See Also
+
+* enum [MarkdownOfficeMathExportMode](../../markdownofficemathexportmode/)
+* class [MarkdownSaveOptions](../)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
+* assembly [Aspose.Words](../../../)

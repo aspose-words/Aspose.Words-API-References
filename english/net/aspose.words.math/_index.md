@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Math
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Math namespace contains classes that represent Office Math elements in C#.
 type: docs
-weight: 220
+weight: 190
 url: /net/aspose.words.math/
 ---
 The **Aspose.Words.Math** namespace contains classes that represent Office Math elements.

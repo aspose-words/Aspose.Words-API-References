@@ -5,7 +5,7 @@ articleTitle: MergeFieldImageDimensionUnit
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.MergeFieldImageDimensionUnit enum. Specifies an unit of an image dimension i.e. the width or the height used across a mail merge process in C#.
 type: docs
-weight: 3140
+weight: 3150
 url: /net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
@@ -82,6 +82,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

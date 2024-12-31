@@ -5,7 +5,7 @@ articleTitle: Underline
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Underline enum. Indicates type of the underline applied to a font in C#.
 type: docs
-weight: 7160
+weight: 7180
 url: /net/aspose.words/underline/
 ---
 ## Underline enumeration

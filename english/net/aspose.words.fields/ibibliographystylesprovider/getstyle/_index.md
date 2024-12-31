@@ -37,6 +37,9 @@ public void ChangeBibliographyStyles()
 {
     Document doc = new Document(MyDir + "Bibliography.docx");
 
+    // If the document already has a style you can change it with the following code:
+    // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
+
     doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
     doc.UpdateFields();
 

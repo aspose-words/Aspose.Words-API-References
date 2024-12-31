@@ -5,7 +5,7 @@ articleTitle: Replacer
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.Replacer class. Provides methods intended to find and replace text in the document in C#.
 type: docs
-weight: 4230
+weight: 4240
 url: /net/aspose.words.lowcode/replacer/
 ---
 ## Replacer class

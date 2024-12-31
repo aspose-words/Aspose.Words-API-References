@@ -5,7 +5,7 @@ articleTitle: ResourceSavingCallback
 second_title: Aspose.Words for .NET
 description: HtmlFixedSaveOptions ResourceSavingCallback property. Allows to control how resources images fonts and css are saved when a document is exported to fixed page Html format in C#.
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 ---
 ## HtmlFixedSaveOptions.ResourceSavingCallback property

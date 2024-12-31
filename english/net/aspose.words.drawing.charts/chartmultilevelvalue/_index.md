@@ -5,7 +5,7 @@ articleTitle: ChartMultilevelValue
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartMultilevelValue class. Represents a value for charts that display multilevel data in C#.
 type: docs
-weight: 1030
+weight: 1040
 url: /net/aspose.words.drawing.charts/chartmultilevelvalue/
 ---
 ## ChartMultilevelValue class

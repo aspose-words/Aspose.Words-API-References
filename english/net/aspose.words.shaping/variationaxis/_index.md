@@ -5,7 +5,7 @@ articleTitle: VariationAxis
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Shaping.VariationAxis enum. Represents OpenType DesignVariation Axis Tag. https//learn.microsoft.com/enus/typography/opentype/spec/dvaraxisreg in C#.
 type: docs
-weight: 6720
+weight: 6740
 url: /net/aspose.words.shaping/variationaxis/
 ---
 ## VariationAxis enumeration

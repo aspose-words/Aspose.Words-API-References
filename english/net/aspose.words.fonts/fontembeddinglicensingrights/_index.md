@@ -5,7 +5,7 @@ articleTitle: FontEmbeddingLicensingRights
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontEmbeddingLicensingRights class. Represents embedding licensing rights for the font in C#.
 type: docs
-weight: 3280
+weight: 3290
 url: /net/aspose.words.fonts/fontembeddinglicensingrights/
 ---
 ## FontEmbeddingLicensingRights class
@@ -27,6 +27,26 @@ public class FontEmbeddingLicensingRights
 ## Remarks
 
 To learn more, visit the [OpenType specification section](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fstype) on Microsoft Typography portal.
+
+## Examples
+
+Shows how to get license rights information for embedded fonts (FontInfo).
+
+```csharp
+Document doc = new Document(MyDir + "Embedded font rights.docx");
+
+// Get the list of document fonts.
+FontInfoCollection fontInfos = doc.FontInfos;
+foreach (FontInfo fontInfo in fontInfos) 
+{
+    if (fontInfo.EmbeddingLicensingRights != null)
+    {
+        Console.WriteLine(fontInfo.EmbeddingLicensingRights.EmbeddingUsagePermissions);
+        Console.WriteLine(fontInfo.EmbeddingLicensingRights.BitmapEmbeddingOnly);
+        Console.WriteLine(fontInfo.EmbeddingLicensingRights.NoSubsetting);
+    }
+}
+```
 
 ### See Also
 

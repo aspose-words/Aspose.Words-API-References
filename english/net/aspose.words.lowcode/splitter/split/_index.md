@@ -8,7 +8,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.lowcode/splitter/split/
 ---
-## Split(*string, string, [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/)*) {#split_1}
+## Split(*string, string, [SplitOptions](../../splitoptions/)*) {#split_1}
 
 Splits a document into multiple parts based on the specified split options and saves the resulting parts to files. The output file format is determined by the extension of the output file name.
 
@@ -35,14 +35,14 @@ Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.2.docx", SaveFormat.Do
 
 ### See Also
 
-* class [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/)
+* class [SplitOptions](../../splitoptions/)
 * class [Splitter](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
 
-## Split(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/)*) {#split_2}
+## Split(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [SplitOptions](../../splitoptions/)*) {#split_2}
 
 Splits a document into multiple parts based on the specified split options and saves the resulting parts to files in the specified save format.
 
@@ -72,14 +72,14 @@ Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.2.docx", SaveFormat.Do
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/)
+* class [SplitOptions](../../splitoptions/)
 * class [Splitter](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
 
-## Split(*Stream, [SaveFormat](../../../aspose.words/saveformat/), [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/)*) {#split}
+## Split(*Stream, [SaveFormat](../../../aspose.words/saveformat/), [SplitOptions](../../splitoptions/)*) {#split}
 
 Splits a document from an input stream into multiple parts based on the specified split options and returns the resulting parts as an array of streams in the specified save format.
 
@@ -107,7 +107,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMod
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/)
+* class [SplitOptions](../../splitoptions/)
 * class [Splitter](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)

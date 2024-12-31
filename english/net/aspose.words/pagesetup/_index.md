@@ -5,7 +5,7 @@ articleTitle: PageSetup
 second_title: Aspose.Words for .NET
 description: Aspose.Words.PageSetup class. Represents the page setup properties of a section in C#.
 type: docs
-weight: 4920
+weight: 4930
 url: /net/aspose.words/pagesetup/
 ---
 ## PageSetup class

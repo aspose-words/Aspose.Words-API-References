@@ -59,6 +59,36 @@ public DocumentBuilder(DocumentBuilderOptions options)
 
 Creates a new [`DocumentBuilder`](../) object and attaches it to a new [`Document`](../../document/) object. Additional document building options can be specified.
 
+## Examples
+
+Shows how to ignore table formatting for content after.
+
+```csharp
+Document doc = new Document();
+DocumentBuilderOptions builderOptions = new DocumentBuilderOptions();
+builderOptions.ContextTableFormatting = true;
+DocumentBuilder builder = new DocumentBuilder(doc, builderOptions);
+
+// Adds content before the table.
+// Default font size is 12.
+builder.Writeln("Font size 12 here.");
+builder.StartTable();
+builder.InsertCell();
+// Changes the font size inside the table.
+builder.Font.Size = 5;
+builder.Write("Font size 5 here");
+builder.InsertCell();
+builder.Write("Font size 5 here");
+builder.EndRow();
+builder.EndTable();
+
+// If ContextTableFormatting is true, then table formatting isn't applied to the content after.
+// If ContextTableFormatting is false, then table formatting is applied to the content after.
+builder.Writeln("Font size 12 here.");
+
+doc.Save(ArtifactsDir + "Table.ContextTableFormatting.docx");
+```
+
 ### See Also
 
 * class [DocumentBuilderOptions](../../documentbuilderoptions/)
@@ -186,6 +216,36 @@ public DocumentBuilder(Document doc, DocumentBuilderOptions options)
 ## Remarks
 
 Creates a new [`DocumentBuilder`](../) object, attaches to the specified [`Document`](../../document/) object. The cursor is positioned at the beginning of the document.
+
+## Examples
+
+Shows how to ignore table formatting for content after.
+
+```csharp
+Document doc = new Document();
+DocumentBuilderOptions builderOptions = new DocumentBuilderOptions();
+builderOptions.ContextTableFormatting = true;
+DocumentBuilder builder = new DocumentBuilder(doc, builderOptions);
+
+// Adds content before the table.
+// Default font size is 12.
+builder.Writeln("Font size 12 here.");
+builder.StartTable();
+builder.InsertCell();
+// Changes the font size inside the table.
+builder.Font.Size = 5;
+builder.Write("Font size 5 here");
+builder.InsertCell();
+builder.Write("Font size 5 here");
+builder.EndRow();
+builder.EndTable();
+
+// If ContextTableFormatting is true, then table formatting isn't applied to the content after.
+// If ContextTableFormatting is false, then table formatting is applied to the content after.
+builder.Writeln("Font size 12 here.");
+
+doc.Save(ArtifactsDir + "Table.ContextTableFormatting.docx");
+```
 
 ### See Also
 

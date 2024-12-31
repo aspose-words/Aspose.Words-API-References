@@ -5,7 +5,7 @@ articleTitle: Summarize
 second_title: Aspose.Words for .NET
 description: IAiModelText Summarize method. Generates a summary of the specified document with options to adjust the length of the summary. This operation leverages the connected AI model for content processing in C#.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.ai/iaimodeltext/summarize/
 ---
 ## Summarize(*[Document](../../../aspose.words/document/), [SummarizeOptions](../../summarizeoptions/)*) {#summarize}
@@ -35,7 +35,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
@@ -81,7 +81,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");

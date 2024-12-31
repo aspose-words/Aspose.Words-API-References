@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 CommandButtonControl button1 = new CommandButtonControl() { Caption = "Button caption" };
 Shape shape = builder.InsertForms2OleControl(button1);
-Assert.AreEqual("Button caption", ((Forms2OleControl)shape.OleFormat.OleControl).Caption);
+Assert.AreEqual("Button caption", button1.Caption);
 ```
 
 Shows how to verify the properties of an ActiveX control.

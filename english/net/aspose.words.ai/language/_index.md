@@ -5,7 +5,7 @@ articleTitle: Language
 second_title: Aspose.Words for .NET
 description: Aspose.Words.AI.Language enum. Specifies the language into which the text will be translated using AI.  in C#.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.ai/language/
 ---
 ## Language enumeration
@@ -324,6 +324,21 @@ public enum Language
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 | Zulu | `1077` |  |
+
+## Examples
+
+Shows how to translate text using Google models.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+// Use Google generative language models.
+IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
+
+Document translatedDoc = model.Translate(doc, Language.Arabic);
+translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
+```
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: ComparisonTargetType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Comparing.ComparisonTargetType enum. Allows to specify base document which will be used during comparison. Default value is Current in C#.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
@@ -83,16 +83,19 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
 // Comparing documents creates a revision for every edit in the edited document.
 // A CompareOptions object has a series of flags that can suppress revisions
 // on each respective type of element, effectively ignoring their change.
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
+CompareOptions compareOptions = new CompareOptions
+{
+    CompareMoves = false,
+    IgnoreFormatting = false,
+    IgnoreCaseChanges = false,
+    IgnoreComments = false,
+    IgnoreTables = false,
+    IgnoreFields = false,
+    IgnoreFootnotes = false,
+    IgnoreTextboxes = false,
+    IgnoreHeadersAndFooters = false,
+    Target = ComparisonTargetType.New
+};
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
 docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");

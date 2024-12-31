@@ -96,7 +96,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 
 ---
 
-## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) {#executewithregions_5}
+## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#executewithregions_5}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -136,7 +136,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -191,7 +191,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## ExecuteWithRegions(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) {#executewithregions_1}
+## ExecuteWithRegions(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#executewithregions_1}
 
 Performs a mail merge operation for a single record.
 
@@ -234,7 +234,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -352,7 +352,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 
 ---
 
-## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataSet*) {#executewithregions_4}
+## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataSet*) {#executewithregions_4}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -404,7 +404,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -471,7 +471,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## ExecuteWithRegions(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataSet*) {#executewithregions}
+## ExecuteWithRegions(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataSet*) {#executewithregions}
 
 Performs a mail merge operation for a single record.
 
@@ -526,7 +526,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)

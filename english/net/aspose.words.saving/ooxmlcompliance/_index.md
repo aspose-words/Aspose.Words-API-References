@@ -5,7 +5,7 @@ articleTitle: OoxmlCompliance
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.OoxmlCompliance enum. Allows to specify which OOXML specification will be used when saving in the DOCX format in C#.
 type: docs
-weight: 5930
+weight: 5950
 url: /net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration

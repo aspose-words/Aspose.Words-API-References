@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Notes
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Notes namespace provides classes to work with Microsoft Word endnotes and footnotes in C#.
 type: docs
-weight: 230
+weight: 200
 url: /net/aspose.words.notes/
 ---
 The **Aspose.Words.Notes** namespace provides classes to work with Microsoft Word endnotes and footnotes.

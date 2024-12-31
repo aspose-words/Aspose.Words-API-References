@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 CommandButtonControl button1 = new CommandButtonControl();
 Shape shape = builder.InsertForms2OleControl(button1);
-Assert.AreEqual(Forms2OleControlType.CommandButton, ((Forms2OleControl)shape.OleFormat.OleControl).Type);
+Assert.AreEqual(Forms2OleControlType.CommandButton, button1.Type);
 ```
 
 ### See Also

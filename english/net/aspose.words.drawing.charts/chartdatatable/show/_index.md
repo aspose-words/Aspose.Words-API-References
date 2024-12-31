@@ -44,6 +44,7 @@ dataTable.Show = true;
 dataTable.HasLegendKeys = false;
 dataTable.HasHorizontalBorder = false;
 dataTable.HasVerticalBorder = false;
+dataTable.HasOutlineBorder = false;
 
 dataTable.Font.Italic = true;
 dataTable.Format.Stroke.Weight = 1;

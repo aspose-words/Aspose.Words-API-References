@@ -5,7 +5,7 @@ articleTitle: Document
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Document class. Represents a Word document in C#.
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.words/document/
 ---
 ## Document class

@@ -24,6 +24,18 @@ List of page numbers has been considered as blank and removed.
 
 The resulting document will not contain pages considered to be blank while other content, including numbering, headers/footers and overall layout should remain unchanged. Page is considered to be blank when body of the page have no visible content, for example, empty table having no borders will be considered as invisible and therefore page will be detected as blank.
 
+## Examples
+
+Shows how to remove blank pages from the document.
+
+```csharp
+Document doc = new Document(MyDir + "Blank pages.docx");
+Assert.AreEqual(2, doc.PageCount);
+doc.RemoveBlankPages();
+doc.UpdatePageLayout();
+Assert.AreEqual(1, doc.PageCount);
+```
+
 ### See Also
 
 * class [Document](../)

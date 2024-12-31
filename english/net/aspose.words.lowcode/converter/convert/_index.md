@@ -26,12 +26,17 @@ public static void Convert(string inputFile, string outputFile)
 Shows how to convert documents with a single line of code.
 
 ```csharp
-Converter.Convert(MyDir + "Document.docx", ArtifactsDir + "LowCode.Convert.pdf");
+string doc = MyDir + "Document.docx";
 
-Converter.Convert(MyDir + "Document.docx", ArtifactsDir + "LowCode.Convert.rtf", SaveFormat.Rtf);
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.pdf");
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveFormat.rtf", SaveFormat.Rtf);
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
-Converter.Convert(MyDir + "Document.doc", ArtifactsDir + "LowCode.Convert.docx", saveOptions);
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+Converter.Convert(doc, loadOptions, ArtifactsDir + "LowCode.Convert.LoadOptions.docx", saveOptions);
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveOptions.docx", saveOptions);
 ```
 
 ### See Also
@@ -61,12 +66,17 @@ public static void Convert(string inputFile, string outputFile, SaveFormat saveF
 Shows how to convert documents with a single line of code.
 
 ```csharp
-Converter.Convert(MyDir + "Document.docx", ArtifactsDir + "LowCode.Convert.pdf");
+string doc = MyDir + "Document.docx";
 
-Converter.Convert(MyDir + "Document.docx", ArtifactsDir + "LowCode.Convert.rtf", SaveFormat.Rtf);
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.pdf");
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveFormat.rtf", SaveFormat.Rtf);
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
-Converter.Convert(MyDir + "Document.doc", ArtifactsDir + "LowCode.Convert.docx", saveOptions);
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+Converter.Convert(doc, loadOptions, ArtifactsDir + "LowCode.Convert.LoadOptions.docx", saveOptions);
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveOptions.docx", saveOptions);
 ```
 
 ### See Also
@@ -97,12 +107,17 @@ public static void Convert(string inputFile, string outputFile, SaveOptions save
 Shows how to convert documents with a single line of code.
 
 ```csharp
-Converter.Convert(MyDir + "Document.docx", ArtifactsDir + "LowCode.Convert.pdf");
+string doc = MyDir + "Document.docx";
 
-Converter.Convert(MyDir + "Document.docx", ArtifactsDir + "LowCode.Convert.rtf", SaveFormat.Rtf);
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.pdf");
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveFormat.rtf", SaveFormat.Rtf);
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
-Converter.Convert(MyDir + "Document.doc", ArtifactsDir + "LowCode.Convert.docx", saveOptions);
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+Converter.Convert(doc, loadOptions, ArtifactsDir + "LowCode.Convert.LoadOptions.docx", saveOptions);
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveOptions.docx", saveOptions);
 ```
 
 ### See Also
@@ -129,6 +144,24 @@ public static void Convert(string inputFile, LoadOptions loadOptions, string out
 | loadOptions | LoadOptions | The input document load options. |
 | outputFile | String | The output file name. |
 | saveOptions | SaveOptions | The save options. |
+
+## Examples
+
+Shows how to convert documents with a single line of code.
+
+```csharp
+string doc = MyDir + "Document.docx";
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.pdf");
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveFormat.rtf", SaveFormat.Rtf);
+
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+Converter.Convert(doc, loadOptions, ArtifactsDir + "LowCode.Convert.LoadOptions.docx", saveOptions);
+
+Converter.Convert(doc, ArtifactsDir + "LowCode.Convert.SaveOptions.docx", saveOptions);
+```
 
 ### See Also
 
@@ -161,11 +194,15 @@ Shows how to convert documents with a single line of code (Stream).
 ```csharp
 using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
 {
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.SaveFormat.docx", FileMode.Create, FileAccess.ReadWrite))
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.1.docx", FileMode.Create, FileAccess.ReadWrite))
         Converter.Convert(streamIn, streamOut, SaveFormat.Docx);
 
     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.SaveOptions.docx", FileMode.Create, FileAccess.ReadWrite))
+    LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
+        Converter.Convert(streamIn, loadOptions, streamOut, saveOptions);
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.3.docx", FileMode.Create, FileAccess.ReadWrite))
         Converter.Convert(streamIn, streamOut, saveOptions);
 }
 ```
@@ -200,11 +237,15 @@ Shows how to convert documents with a single line of code (Stream).
 ```csharp
 using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
 {
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.SaveFormat.docx", FileMode.Create, FileAccess.ReadWrite))
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.1.docx", FileMode.Create, FileAccess.ReadWrite))
         Converter.Convert(streamIn, streamOut, SaveFormat.Docx);
 
     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.SaveOptions.docx", FileMode.Create, FileAccess.ReadWrite))
+    LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
+        Converter.Convert(streamIn, loadOptions, streamOut, saveOptions);
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.3.docx", FileMode.Create, FileAccess.ReadWrite))
         Converter.Convert(streamIn, streamOut, saveOptions);
 }
 ```
@@ -233,6 +274,26 @@ public static void Convert(Stream inputStream, LoadOptions loadOptions, Stream o
 | loadOptions | LoadOptions | The input document load options. |
 | outputStream | Stream | The output stream. |
 | saveOptions | SaveOptions | The save options. |
+
+## Examples
+
+Shows how to convert documents with a single line of code (Stream).
+
+```csharp
+using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.1.docx", FileMode.Create, FileAccess.ReadWrite))
+        Converter.Convert(streamIn, streamOut, SaveFormat.Docx);
+
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
+    LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
+        Converter.Convert(streamIn, loadOptions, streamOut, saveOptions);
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertStream.3.docx", FileMode.Create, FileAccess.ReadWrite))
+        Converter.Convert(streamIn, streamOut, saveOptions);
+}
+```
 
 ### See Also
 

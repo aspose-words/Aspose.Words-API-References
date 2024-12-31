@@ -5,7 +5,7 @@ articleTitle: FieldFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldFormat class. Provides typed access to fields numeric date and time and general formatting in C#.
 type: docs
-weight: 2320
+weight: 2330
 url: /net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
