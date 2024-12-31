@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.MailMerging
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.MailMerging namespace contains classes of the original mail merge reporting engine in C#.
 type: docs
-weight: 200
+weight: 170
 url: /net/aspose.words.mailmerging/
 ---
 The **Aspose.Words.MailMerging** namespace contains classes of the "original" mail merge reporting engine.

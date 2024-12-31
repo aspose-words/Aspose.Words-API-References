@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparatorCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Notes.FootnoteSeparatorCollection class. Provides typed access to FootnoteSeparator nodes of a document in C#.
 type: docs
-weight: 4840
+weight: 4850
 url: /net/aspose.words.notes/footnoteseparatorcollection/
 ---
 ## FootnoteSeparatorCollection class
@@ -33,6 +33,18 @@ public class FootnoteSeparatorCollection : IEnumerable<FootnoteSeparator>
 | Name | Description |
 | --- | --- |
 | [GetEnumerator](../../aspose.words.notes/footnoteseparatorcollection/getenumerator/)() |  |
+
+## Examples
+
+Shows how to manage footnote separator format.
+
+```csharp
+Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
+
+FootnoteSeparator footnoteSeparator = doc.FootnoteSeparators[FootnoteSeparatorType.FootnoteSeparator];
+// Align footnote separator.
+footnoteSeparator.FirstParagraph.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+```
 
 ### See Also
 

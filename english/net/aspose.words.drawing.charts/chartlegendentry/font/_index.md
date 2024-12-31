@@ -30,6 +30,8 @@ chartLegend.Font.Size = 14;
 // Change font for specific legend entry.
 chartLegend.LegendEntries[1].Font.Italic = true;
 chartLegend.LegendEntries[1].Font.Size = 12;
+// Get legend entry for chart series.
+ChartLegendEntry legendEntry = chart.Series[0].LegendEntry;
 
 doc.Save(ArtifactsDir + "Charts.LegendFont.docx");
 ```

@@ -5,7 +5,7 @@ articleTitle: IChartDataPoint
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.IChartDataPoint interface. Contains properties of a single data point on the chart in C#.
 type: docs
-weight: 1190
+weight: 1200
 url: /net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -59,8 +59,11 @@ public void ChartDataPoint()
         }
     }
 
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
     // For a cleaner looking graph, we can clear format individually.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    dataPoint.ClearFormat();
 
     // We can also strip an entire series of data points at once.
     chart.Series[2].DataPoints.ClearFormat();

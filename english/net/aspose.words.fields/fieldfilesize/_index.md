@@ -5,7 +5,7 @@ articleTitle: FieldFileSize
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldFileSize class. Implements the FILESIZE field in C#.
 type: docs
-weight: 2260
+weight: 2270
 url: /net/aspose.words.fields/fieldfilesize/
 ---
 ## FieldFileSize class

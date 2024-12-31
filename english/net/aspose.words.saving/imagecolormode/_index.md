@@ -5,7 +5,7 @@ articleTitle: ImageColorMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.ImageColorMode enum. Specifies the color mode for the generated images of document pages in C#.
 type: docs
-weight: 5790
+weight: 5800
 url: /net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration

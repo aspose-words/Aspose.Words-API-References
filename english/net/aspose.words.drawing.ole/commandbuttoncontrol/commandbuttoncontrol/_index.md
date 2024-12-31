@@ -16,6 +16,18 @@ Initializes a new instance of [`CommandButtonControl`](../) class.
 public CommandButtonControl()
 ```
 
+## Examples
+
+Shows how to insert ActiveX control.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+CommandButtonControl button1 = new CommandButtonControl();
+Shape shape = builder.InsertForms2OleControl(button1);
+Assert.AreEqual(Forms2OleControlType.CommandButton, button1.Type);
+```
+
 ### See Also
 
 * class [CommandButtonControl](../)

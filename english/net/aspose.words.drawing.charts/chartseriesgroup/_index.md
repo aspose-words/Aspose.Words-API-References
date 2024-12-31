@@ -5,7 +5,7 @@ articleTitle: ChartSeriesGroup
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartSeriesGroup class. Represents properties of a chart series group that is the properties of chart series of the same type associated with the same axes in C#.
 type: docs
-weight: 1070
+weight: 1080
 url: /net/aspose.words.drawing.charts/chartseriesgroup/
 ---
 ## ChartSeriesGroup class
@@ -68,6 +68,8 @@ newSeriesGroup.AxisX.Hidden = true;
 // Define title of the secondary Y axis.
 newSeriesGroup.AxisY.Title.Show = true;
 newSeriesGroup.AxisY.Title.Text = "Secondary Y axis";
+
+Assert.AreEqual(ChartSeriesType.Line, newSeriesGroup.SeriesType);
 
 // Add a series to the new series group.
 ChartSeries series3 =

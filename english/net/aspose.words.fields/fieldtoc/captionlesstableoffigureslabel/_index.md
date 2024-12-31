@@ -16,6 +16,20 @@ Gets or sets the name of the sequence identifier used when building a table of f
 public string CaptionlessTableOfFiguresLabel { get; set; }
 ```
 
+## Examples
+
+Shows how to set the name of the sequence identifier.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
+fieldToc.CaptionlessTableOfFiguresLabel = "Test";
+
+Assert.AreEqual(" TOC  \\a Test", fieldToc.GetFieldCode());
+```
+
 ### See Also
 
 * class [FieldToc](../)

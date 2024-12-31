@@ -5,7 +5,7 @@ articleTitle: ContentDisposition
 second_title: Aspose.Words for .NET
 description: Aspose.Words.ContentDisposition enum. Enumerates different ways of presenting the document at the client browser in C#.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration

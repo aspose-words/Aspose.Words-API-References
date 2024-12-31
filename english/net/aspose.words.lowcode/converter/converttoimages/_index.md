@@ -26,13 +26,18 @@ public static void ConvertToImages(string inputFile, string outputFile)
 Shows how to convert document to images.
 
 ```csharp
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png");
+string doc = MyDir + "Big document.docx";
 
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.jpeg", SaveFormat.Jpeg);
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.1.png");
 
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.2.jpeg", SaveFormat.Jpeg);
+
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = false };
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PageSet = new PageSet(1);
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png", imageSaveOptions);
+Converter.ConvertToImages(doc, loadOptions, ArtifactsDir + "LowCode.ConvertToImages.3.png", imageSaveOptions);
+
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.4.png", imageSaveOptions);
 ```
 
 ### See Also
@@ -62,13 +67,18 @@ public static void ConvertToImages(string inputFile, string outputFile, SaveForm
 Shows how to convert document to images.
 
 ```csharp
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png");
+string doc = MyDir + "Big document.docx";
 
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.jpeg", SaveFormat.Jpeg);
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.1.png");
 
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.2.jpeg", SaveFormat.Jpeg);
+
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = false };
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PageSet = new PageSet(1);
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png", imageSaveOptions);
+Converter.ConvertToImages(doc, loadOptions, ArtifactsDir + "LowCode.ConvertToImages.3.png", imageSaveOptions);
+
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.4.png", imageSaveOptions);
 ```
 
 ### See Also
@@ -100,13 +110,18 @@ public static void ConvertToImages(string inputFile, string outputFile,
 Shows how to convert document to images.
 
 ```csharp
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png");
+string doc = MyDir + "Big document.docx";
 
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.jpeg", SaveFormat.Jpeg);
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.1.png");
 
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.2.jpeg", SaveFormat.Jpeg);
+
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = false };
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PageSet = new PageSet(1);
-Converter.ConvertToImages(MyDir + "Big document.docx", ArtifactsDir + "LowCode.ConvertToImages.png", imageSaveOptions);
+Converter.ConvertToImages(doc, loadOptions, ArtifactsDir + "LowCode.ConvertToImages.3.png", imageSaveOptions);
+
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.4.png", imageSaveOptions);
 ```
 
 ### See Also
@@ -133,6 +148,25 @@ public static void ConvertToImages(string inputFile, LoadOptions loadOptions, st
 | loadOptions | LoadOptions | The input document load options. |
 | outputFile | String | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
 | saveOptions | ImageSaveOptions | Image save options. |
+
+## Examples
+
+Shows how to convert document to images.
+
+```csharp
+string doc = MyDir + "Big document.docx";
+
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.1.png");
+
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.2.jpeg", SaveFormat.Jpeg);
+
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = false };
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PageSet = new PageSet(1);
+Converter.ConvertToImages(doc, loadOptions, ArtifactsDir + "LowCode.ConvertToImages.3.png", imageSaveOptions);
+
+Converter.ConvertToImages(doc, ArtifactsDir + "LowCode.ConvertToImages.4.png", imageSaveOptions);
+```
 
 ### See Also
 
@@ -166,15 +200,17 @@ Returns array of image streams. The streams should be disposed by the enduser.
 Shows how to convert document to images stream.
 
 ```csharp
-Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+string doc = MyDir + "Big document.docx";
+
+Stream[] streams = Converter.ConvertToImages(doc, SaveFormat.Png);
 
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PageSet = new PageSet(1);
-streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+streams = Converter.ConvertToImages(doc, imageSaveOptions);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+streams = Converter.ConvertToImages(new Document(doc), SaveFormat.Png);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+streams = Converter.ConvertToImages(new Document(doc), imageSaveOptions);
 ```
 
 ### See Also
@@ -208,15 +244,17 @@ Returns array of image streams. The streams should be disposed by the enduser.
 Shows how to convert document to images stream.
 
 ```csharp
-Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+string doc = MyDir + "Big document.docx";
+
+Stream[] streams = Converter.ConvertToImages(doc, SaveFormat.Png);
 
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PageSet = new PageSet(1);
-streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+streams = Converter.ConvertToImages(doc, imageSaveOptions);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+streams = Converter.ConvertToImages(new Document(doc), SaveFormat.Png);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+streams = Converter.ConvertToImages(new Document(doc), imageSaveOptions);
 ```
 
 ### See Also
@@ -257,6 +295,9 @@ using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMod
     ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
     imageSaveOptions.PageSet = new PageSet(1);
     streams = Converter.ConvertToImages(streamIn, imageSaveOptions);
+
+    LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = false };
+    Converter.ConvertToImages(streamIn, loadOptions, imageSaveOptions);
 }
 ```
 
@@ -298,6 +339,9 @@ using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMod
     ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
     imageSaveOptions.PageSet = new PageSet(1);
     streams = Converter.ConvertToImages(streamIn, imageSaveOptions);
+
+    LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = false };
+    Converter.ConvertToImages(streamIn, loadOptions, imageSaveOptions);
 }
 ```
 
@@ -328,6 +372,24 @@ public static Stream[] ConvertToImages(Stream inputStream, LoadOptions loadOptio
 ### Return Value
 
 Returns array of image streams. The streams should be disposed by the enduser.
+
+## Examples
+
+Shows how to convert document to images from stream.
+
+```csharp
+using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    Stream[] streams = Converter.ConvertToImages(streamIn, SaveFormat.Jpeg);
+
+    ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+    imageSaveOptions.PageSet = new PageSet(1);
+    streams = Converter.ConvertToImages(streamIn, imageSaveOptions);
+
+    LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = false };
+    Converter.ConvertToImages(streamIn, loadOptions, imageSaveOptions);
+}
+```
 
 ### See Also
 
@@ -361,15 +423,17 @@ Returns array of image streams. The streams should be disposed by the enduser.
 Shows how to convert document to images stream.
 
 ```csharp
-Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+string doc = MyDir + "Big document.docx";
+
+Stream[] streams = Converter.ConvertToImages(doc, SaveFormat.Png);
 
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PageSet = new PageSet(1);
-streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+streams = Converter.ConvertToImages(doc, imageSaveOptions);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+streams = Converter.ConvertToImages(new Document(doc), SaveFormat.Png);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+streams = Converter.ConvertToImages(new Document(doc), imageSaveOptions);
 ```
 
 ### See Also
@@ -404,15 +468,17 @@ Returns array of image streams. The streams should be disposed by the enduser.
 Shows how to convert document to images stream.
 
 ```csharp
-Stream[] streams = Converter.ConvertToImages(MyDir + "Big document.docx", SaveFormat.Png);
+string doc = MyDir + "Big document.docx";
+
+Stream[] streams = Converter.ConvertToImages(doc, SaveFormat.Png);
 
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PageSet = new PageSet(1);
-streams = Converter.ConvertToImages(MyDir + "Big document.docx", imageSaveOptions);
+streams = Converter.ConvertToImages(doc, imageSaveOptions);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), SaveFormat.Png);
+streams = Converter.ConvertToImages(new Document(doc), SaveFormat.Png);
 
-streams = Converter.ConvertToImages(new Document(MyDir + "Big document.docx"), imageSaveOptions);
+streams = Converter.ConvertToImages(new Document(doc), imageSaveOptions);
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: Comparer
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.Comparer class. Provides methods intended to compare documents in C#.
 type: docs
-weight: 4170
+weight: 4180
 url: /net/aspose.words.lowcode/comparer/
 ---
 ## Comparer class

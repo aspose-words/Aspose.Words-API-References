@@ -5,7 +5,7 @@ articleTitle: Run
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Run class. Represents a run of characters with the same font formatting in C#.
 type: docs
-weight: 5390
+weight: 5400
 url: /net/aspose.words/run/
 ---
 ## Run class

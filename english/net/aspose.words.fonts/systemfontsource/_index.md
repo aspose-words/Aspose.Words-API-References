@@ -5,7 +5,7 @@ articleTitle: SystemFontSource
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.SystemFontSource class. Represents all TrueType fonts installed to the system in C#.
 type: docs
-weight: 3450
+weight: 3460
 url: /net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
@@ -91,6 +91,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### See Also

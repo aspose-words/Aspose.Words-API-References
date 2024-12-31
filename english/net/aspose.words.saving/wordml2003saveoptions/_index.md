@@ -5,7 +5,7 @@ articleTitle: WordML2003SaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.WordML2003SaveOptions class. Can be used to specify additional options when saving a document into the WordML format in C#.
 type: docs
-weight: 6280
+weight: 6300
 url: /net/aspose.words.saving/wordml2003saveoptions/
 ---
 ## WordML2003SaveOptions class

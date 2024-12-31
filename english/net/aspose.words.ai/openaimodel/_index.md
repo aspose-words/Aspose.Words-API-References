@@ -5,7 +5,7 @@ articleTitle: OpenAiModel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.AI.OpenAiModel class. An abstract class representing the integration with OpenAIs large language models within the Aspose.Words in C#.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.ai/openaimodel/
 ---
 ## OpenAiModel class
@@ -34,7 +34,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");

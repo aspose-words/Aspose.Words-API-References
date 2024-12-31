@@ -5,7 +5,7 @@ articleTitle: ChartMarker
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartMarker class. Represents a chart data marker in C#.
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
@@ -60,8 +60,11 @@ public void ChartDataPoint()
         }
     }
 
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
     // For a cleaner looking graph, we can clear format individually.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    dataPoint.ClearFormat();
 
     // We can also strip an entire series of data points at once.
     chart.Series[2].DataPoints.ClearFormat();

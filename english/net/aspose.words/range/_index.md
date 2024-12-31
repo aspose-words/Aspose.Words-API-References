@@ -5,7 +5,7 @@ articleTitle: Range
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Range class. Represents a contiguous area in a document in C#.
 type: docs
-weight: 5080
+weight: 5090
 url: /net/aspose.words/range/
 ---
 ## Range class
@@ -15,7 +15,7 @@ Represents a contiguous area in a document.
 To learn more, visit the [Working with Ranges](https://docs.aspose.com/words/net/working-with-ranges/) documentation article.
 
 ```csharp
-public class Range
+public class Range : IEnumerable<Node>
 ```
 
 ## Properties
@@ -34,6 +34,7 @@ public class Range
 | Name | Description |
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | Deletes all characters of the range. |
+| [GetEnumerator](../../aspose.words/range/getenumerator/)() |  |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) of [`FieldStart`](../../aspose.words.fields/fieldstart/), [`FieldSeparator`](../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
 | [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 | [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | Replaces all occurrences of a specified character string pattern with a replacement string. |
@@ -66,5 +67,6 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 ### See Also
 
+* class [Node](../node/)
 * namespace [Aspose.Words](../../aspose.words/)
 * assembly [Aspose.Words](../../)

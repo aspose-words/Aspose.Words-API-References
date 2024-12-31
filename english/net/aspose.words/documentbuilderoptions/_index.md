@@ -5,7 +5,7 @@ articleTitle: DocumentBuilderOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.DocumentBuilderOptions class. Allows to specify additional options for the document building process in C#.
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.words/documentbuilderoptions/
 ---
 ## DocumentBuilderOptions class

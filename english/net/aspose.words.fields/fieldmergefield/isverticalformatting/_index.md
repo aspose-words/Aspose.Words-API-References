@@ -43,6 +43,7 @@ fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
 // Insert another MERGEFIELD for a different column in the data source.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);

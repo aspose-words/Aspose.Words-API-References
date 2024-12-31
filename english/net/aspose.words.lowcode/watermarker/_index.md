@@ -5,7 +5,7 @@ articleTitle: Watermarker
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.Watermarker class. Provides methods intended to insert watermarks into the documents in C#.
 type: docs
-weight: 4290
+weight: 4300
 url: /net/aspose.words.lowcode/watermarker/
 ---
 ## Watermarker class

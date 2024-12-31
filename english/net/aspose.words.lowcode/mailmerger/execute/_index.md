@@ -90,7 +90,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Do
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), string[], object[]*) {#execute_8}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_8}
 
 Performs a mail merge operation for a single record.
 
@@ -127,7 +127,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Do
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -179,7 +179,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), string[], object[]*) {#execute_2}
+## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_2}
 
 Performs a mail merge operation for a single record.
 
@@ -219,7 +219,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -313,7 +313,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFo
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataRow*) {#execute_6}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_6}
 
 Performs mail merge from a DataRow into the document.
 
@@ -353,7 +353,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFo
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -408,7 +408,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataRow*) {#execute}
+## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute}
 
 Performs a mail merge operation for a single record.
 
@@ -451,7 +451,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -545,7 +545,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", Save
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) {#execute_7}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_7}
 
 Performs mail merge from a DataRow into the document.
 
@@ -585,7 +585,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", Save
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -640,7 +640,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/), DataTable*) {#execute_1}
+## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_1}
 
 Performs a mail merge operation for a single record.
 
@@ -683,7 +683,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)

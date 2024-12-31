@@ -16,6 +16,18 @@ Gets type of Forms 2.0 control.
 public override Forms2OleControlType Type { get; }
 ```
 
+## Examples
+
+Shows how to insert ActiveX control.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+CommandButtonControl button1 = new CommandButtonControl();
+Shape shape = builder.InsertForms2OleControl(button1);
+Assert.AreEqual(Forms2OleControlType.CommandButton, button1.Type);
+```
+
 ### See Also
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)

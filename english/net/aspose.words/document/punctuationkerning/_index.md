@@ -16,6 +16,15 @@ Specifies whether kerning applies to both Latin text and punctuation.
 public bool PunctuationKerning { get; set; }
 ```
 
+## Examples
+
+Shows how to work with kerning applies to both Latin text and punctuation.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+Assert.True(doc.PunctuationKerning);
+```
+
 ### See Also
 
 * class [Document](../)

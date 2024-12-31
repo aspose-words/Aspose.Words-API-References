@@ -5,7 +5,7 @@ articleTitle: AxisDisplayUnit
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.AxisDisplayUnit class. Provides access to the scaling options of the display units for the value axis in C#.
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 ## AxisDisplayUnit class
@@ -77,6 +77,7 @@ axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabels.Spacing);
+Assert.AreEqual(doc, axis.DisplayUnit.Document);
 
 // Set the tick labels to display their value in millions.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;

@@ -5,7 +5,7 @@ articleTitle: MarkerSymbol
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.MarkerSymbol enum. Specifies marker symbol style in C#.
 type: docs
-weight: 1210
+weight: 1220
 url: /net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
@@ -67,8 +67,11 @@ public void ChartDataPoint()
         }
     }
 
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
     // For a cleaner looking graph, we can clear format individually.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    dataPoint.ClearFormat();
 
     // We can also strip an entire series of data points at once.
     chart.Series[2].DataPoints.ClearFormat();

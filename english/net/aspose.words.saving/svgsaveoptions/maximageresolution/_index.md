@@ -5,7 +5,7 @@ articleTitle: MaxImageResolution
 second_title: Aspose.Words for .NET
 description: SvgSaveOptions MaxImageResolution property. Gets or sets a value in pixels per inch that limits resolution of exported raster images. Default value is zero in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.saving/svgsaveoptions/maximageresolution/
 ---
 ## SvgSaveOptions.MaxImageResolution property

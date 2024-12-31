@@ -5,7 +5,7 @@ articleTitle: ChartAxis
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartAxis class. Represents the axis options of the chart in C#.
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class
@@ -82,6 +82,8 @@ xAxis.TickLabels.Offset = 50;
 xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
 xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
