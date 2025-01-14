@@ -5,7 +5,7 @@ articleTitle: aspose.words.saving module
 second_title: Aspose.Words for Python
 description: "The aspose.words.saving module provides classes and enumerations that allow to specify additional options for saving or converting documents."
 type: docs
-weight: 280
+weight: 250
 url: /python-net/aspose.words.saving/
 ---
 
@@ -96,6 +96,7 @@ allow to specify additional options for saving or converting documents.
 | [MarkdownExportAsHtml](./markdownexportashtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [MarkdownLinkExportMode](./markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](./markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
+| [MarkdownOfficeMathExportMode](./markdownofficemathexportmode/) | Specifies how Aspose.Words exports OfficeMath to Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
 | [OdtSaveMeasureUnit](./odtsavemeasureunit/) | Specified units of measure to apply to measurable document content such as shape, widths and other during saving. |

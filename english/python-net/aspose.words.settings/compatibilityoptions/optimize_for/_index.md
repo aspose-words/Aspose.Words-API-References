@@ -14,7 +14,7 @@ url: /python-net/aspose.words.settings/compatibilityoptions/optimize_for/
 Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word.
 
 Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading.
-(Note that you may also need to set the [OoxmlSaveOptions.compliance](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) property to 
+(Note that you may also need to set the [OoxmlSaveOptions.compliance](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) property to
 [OoxmlCompliance.ISO29500_2008_TRANSITIONAL](../../../aspose.words.saving/ooxmlcompliance/#ISO29500_2008_TRANSITIONAL) or higher.)
 
 

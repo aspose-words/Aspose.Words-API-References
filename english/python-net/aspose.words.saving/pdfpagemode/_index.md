@@ -5,7 +5,7 @@ articleTitle: PdfPageMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfPageMode enumeration. Specifies how the PDF document should be displayed when opened in the PDF reader."
 type: docs
-weight: 680
+weight: 690
 url: /python-net/aspose.words.saving/pdfpagemode/
 ---
 

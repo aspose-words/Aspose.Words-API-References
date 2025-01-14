@@ -5,7 +5,7 @@ articleTitle: MergeFormatMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.MergeFormatMode enumeration. Specifies how formatting is merged when combining multiple documents."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.lowcode/mergeformatmode/
 ---
 

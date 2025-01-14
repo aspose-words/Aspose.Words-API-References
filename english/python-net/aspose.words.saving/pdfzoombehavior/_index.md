@@ -5,7 +5,7 @@ articleTitle: PdfZoomBehavior enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfZoomBehavior enumeration. Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer."
 type: docs
-weight: 720
+weight: 730
 url: /python-net/aspose.words.saving/pdfzoombehavior/
 ---
 

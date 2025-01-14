@@ -5,7 +5,7 @@ articleTitle: resources_folder property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.resources_folder property. Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format"
 type: docs
-weight: 140
+weight: 160
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/resources_folder/
 ---
 

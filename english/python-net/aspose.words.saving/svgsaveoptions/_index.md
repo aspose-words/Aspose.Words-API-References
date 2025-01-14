@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.SVG](../../aspose.words/saveformat/#SVG) format"
 type: docs
-weight: 780
+weight: 790
 url: /python-net/aspose.words.saving/svgsaveoptions/
 ---
 
@@ -37,6 +37,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [export_embedded_images](./export_embedded_images/) | Specifies whether images should be embedded into the SVG document as base64. Be aware that activating this option can lead to a significant increase in the size of the output SVG file. |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [fit_to_view_port](./fit_to_view_port/) | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to ``True`` width and height of output SVG are set to 100%. |
+| [id_prefix](./id_prefix/) | Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [jpeg_quality](../fixedpagesaveoptions/jpeg_quality/) | Gets or sets a value determining the quality of the JPEG images inside Html document.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [max_image_resolution](./max_image_resolution/) | Gets or sets a value in pixels per inch that limits resolution of exported raster images. Default value is zero. |
@@ -48,6 +49,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [page_set](../fixedpagesaveoptions/page_set/) | Gets or sets the pages to render. Default is all the pages in the document.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [remove_java_script_from_links](./remove_java_script_from_links/) | Specifies whether JavaScript will be removed from links. Default is ``False``. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)". |
 | [resource_saving_callback](./resource_saving_callback/) | Allows to control how resources (images) are saved when a document is exported to SVG format. |
 | [resources_folder](./resources_folder/) | Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is ``None``. |
 | [resources_folder_alias](./resources_folder_alias/) | Specifies the name of the folder used to construct image URIs written into an SVG document. Default is ``None``. |

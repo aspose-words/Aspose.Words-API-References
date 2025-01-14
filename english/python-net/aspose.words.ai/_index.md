@@ -24,6 +24,7 @@ This functionality extends the power of document automation, facilitating effici
 | Class | Description |
 | --- | --- |
 | [AiModel](./aimodel/) | Represents information about a Generative Language Model. |
+| [CheckGrammarOptions](./checkgrammaroptions/) | Allows to specify various options while checking grammar of a document using AI. |
 | [GoogleAiModel](./googleaimodel/) | An abstract class representing the integration with Google’s AI models within the Aspose.Words. |
 | [IAiModelText](./iaimodeltext/) | The common interface for AI models designed to generate a variety of text-based content. |
 | [OpenAiModel](./openaimodel/) | An abstract class representing the integration with OpenAI's large language models within the Aspose.Words. |

@@ -57,6 +57,7 @@ x_axis.tick_labels.offset = 50
 x_axis.tick_labels.position = aw.drawing.charts.AxisTickLabelPosition.LOW
 x_axis.tick_labels.is_auto_spacing = False
 x_axis.tick_mark_spacing = 1
+self.assertEqual(doc, x_axis.document)
 y_axis = chart.axis_y
 y_axis.category_type = aw.drawing.charts.AxisCategoryType.AUTOMATIC
 y_axis.crosses = aw.drawing.charts.AxisCrosses.MAXIMUM

@@ -11,7 +11,7 @@ url: /python-net/aspose.words.lowcode/watermarker/set_image/
 
 ## set_image(input_file_name, output_file_name, watermark_image_file_name) {#str_str_str}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document.
 
 
 ```python
@@ -27,7 +27,7 @@ def set_image(self, input_file_name: str, output_file_name: str, watermark_image
 
 ## set_image(input_file_name, output_file_name, save_format, watermark_image_file_name) {#str_str_saveformat_str}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with specified save format.
 
 
 ```python
@@ -44,7 +44,7 @@ def set_image(self, input_file_name: str, output_file_name: str, save_format: as
 
 ## set_image(input_file_name, output_file_name, watermark_image_file_name, options) {#str_str_str_imagewatermarkoptions}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with options.
 
 
 ```python
@@ -61,7 +61,7 @@ def set_image(self, input_file_name: str, output_file_name: str, watermark_image
 
 ## set_image(input_file_name, output_file_name, save_format, watermark_image_file_name, options) {#str_str_saveformat_str_imagewatermarkoptions}
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with options and specified save format.
 
 
 ```python

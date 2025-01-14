@@ -5,7 +5,7 @@ articleTitle: page_margins property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.page_margins property. Specifies the margins around pages in an HTML document"
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/page_margins/
 ---
 

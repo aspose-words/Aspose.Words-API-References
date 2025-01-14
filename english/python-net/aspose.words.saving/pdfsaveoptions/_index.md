@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../aspose.words/saveformat/#PDF) format"
 type: docs
-weight: 700
+weight: 710
 url: /python-net/aspose.words.saving/pdfsaveoptions/
 ---
 

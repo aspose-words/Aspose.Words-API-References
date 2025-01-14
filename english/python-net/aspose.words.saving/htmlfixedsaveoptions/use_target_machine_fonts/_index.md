@@ -5,7 +5,7 @@ articleTitle: use_target_machine_fonts property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.use_target_machine_fonts property. Flag indicates whether fonts from target machine must be used to display the document"
 type: docs
-weight: 190
+weight: 210
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/use_target_machine_fonts/
 ---
 

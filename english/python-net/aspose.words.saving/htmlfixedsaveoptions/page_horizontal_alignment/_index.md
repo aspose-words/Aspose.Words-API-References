@@ -5,7 +5,7 @@ articleTitle: page_horizontal_alignment property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.page_horizontal_alignment property. Specifies the horizontal alignment of pages in an HTML document"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/page_horizontal_alignment/
 ---
 

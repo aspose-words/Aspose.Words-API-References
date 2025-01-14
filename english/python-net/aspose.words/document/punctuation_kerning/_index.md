@@ -25,6 +25,15 @@ def punctuation_kerning(self, value: bool):
 
 ```
 
+### Examples
+
+Shows how to work with kerning applies to both Latin text and punctuation.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+self.assertTrue(doc.punctuation_kerning)
+```
+
 ### See Also
 
 * module [aspose.words](../../)
