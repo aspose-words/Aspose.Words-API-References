@@ -5,7 +5,7 @@ articleTitle: MailMerger class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.MailMerger class. Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.lowcode/mailmerger/
 ---
 

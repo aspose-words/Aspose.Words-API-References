@@ -26,6 +26,17 @@ Provides typed access to [FootnoteSeparator](../footnoteseparator/) nodes of a d
 | --- | --- |
 |[ get_by_footnote_separator_type(separator_type)](./get_by_footnote_separator_type/#footnoteseparatortype) | Retrieves a [FootnoteSeparator](../footnoteseparator/) of the specified type. |
 
+### Examples
+
+Shows how to manage footnote separator format.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Footnotes and endnotes.docx')
+footnote_separator = doc.footnote_separators.get_by_footnote_separator_type(aw.notes.FootnoteSeparatorType.FOOTNOTE_SEPARATOR)
+# Align footnote separator.
+footnote_separator.first_paragraph.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
+```
+
 ### See Also
 
 * module [aspose.words.notes](../)

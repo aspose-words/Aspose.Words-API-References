@@ -11,7 +11,8 @@ url: /python-net/aspose.words.lowcode/comparer/compare/
 
 ## compare(v1, v2, output_file_name, author, date_time) {#str_str_str_str_datetime}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents and saves the differences to the specified output file, 
+producing changes as a number of edit and format revisions.
 
 
 ```python
@@ -29,7 +30,8 @@ def compare(self, v1: str, v2: str, output_file_name: str, author: str, date_tim
 
 ## compare(v1, v2, output_file_name, save_format, author, date_time) {#str_str_str_saveformat_str_datetime}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents and saves the differences to the specified output file in the provided save format, 
+producing changes as a number of edit and format revisions.
 
 
 ```python
@@ -48,7 +50,8 @@ def compare(self, v1: str, v2: str, output_file_name: str, save_format: aspose.w
 
 ## compare(v1, v2, output_file_name, author, date_time, compare_options) {#str_str_str_str_datetime_compareoptions}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents with additional options and saves the differences to the specified output file, 
+producing changes as a number of edit and format revisions.
 
 
 ```python
@@ -67,7 +70,8 @@ def compare(self, v1: str, v2: str, output_file_name: str, author: str, date_tim
 
 ## compare(v1, v2, output_file_name, save_format, author, date_time, compare_options) {#str_str_str_saveformat_str_datetime_compareoptions}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, 
+producing changes as a number of edit and format revisions.
 
 
 ```python
@@ -87,7 +91,8 @@ def compare(self, v1: str, v2: str, output_file_name: str, save_format: aspose.w
 
 ## compare(v1, v2, output_stream, save_format, author, date_time) {#bytesio_bytesio_bytesio_saveformat_str_datetime}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents loaded from streams and saves the differences to the provided output stream in the specified save format, 
+producing changes as a number of edit and format revisions.
 
 
 ```python
@@ -106,7 +111,8 @@ def compare(self, v1: io.BytesIO, v2: io.BytesIO, output_stream: io.BytesIO, sav
 
 ## compare(v1, v2, output_stream, save_format, author, date_time, compare_options) {#bytesio_bytesio_bytesio_saveformat_str_datetime_compareoptions}
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, 
+producing changes as a number of edit and format revisions.
 
 
 ```python

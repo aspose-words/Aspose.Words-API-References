@@ -80,6 +80,17 @@ There can only be one [FootnoteSeparator](./) of each [FootnoteSeparatorType](..
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 
+### Examples
+
+Shows how to manage footnote separator format.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Footnotes and endnotes.docx')
+footnote_separator = doc.footnote_separators.get_by_footnote_separator_type(aw.notes.FootnoteSeparatorType.FOOTNOTE_SEPARATOR)
+# Align footnote separator.
+footnote_separator.first_paragraph.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
+```
+
 ### See Also
 
 * module [aspose.words.notes](../)

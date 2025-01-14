@@ -5,7 +5,7 @@ articleTitle: PdfCustomPropertiesExport enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfCustomPropertiesExport enumeration. Specifies the way [Document.custom_document_properties](../../aspose.words/document/custom_document_properties/) are exported to PDF file."
 type: docs
-weight: 590
+weight: 600
 url: /python-net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 

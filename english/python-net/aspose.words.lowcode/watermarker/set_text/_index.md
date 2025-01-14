@@ -11,7 +11,7 @@ url: /python-net/aspose.words.lowcode/watermarker/set_text/
 
 ## set_text(input_file_name, output_file_name, watermark_text) {#str_str_str}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document.
 
 
 ```python
@@ -27,7 +27,7 @@ def set_text(self, input_file_name: str, output_file_name: str, watermark_text: 
 
 ## set_text(input_file_name, output_file_name, save_format, watermark_text) {#str_str_saveformat_str}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document with specified save format.
 
 
 ```python
@@ -44,7 +44,7 @@ def set_text(self, input_file_name: str, output_file_name: str, save_format: asp
 
 ## set_text(input_stream, output_stream, save_format, watermark_text) {#bytesio_bytesio_saveformat_str}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document from streams.
 
 
 ```python
@@ -61,7 +61,7 @@ def set_text(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_for
 
 ## set_text(input_file_name, output_file_name, watermark_text, options) {#str_str_str_textwatermarkoptions}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document with options.
 
 
 ```python
@@ -78,7 +78,7 @@ def set_text(self, input_file_name: str, output_file_name: str, watermark_text: 
 
 ## set_text(input_file_name, output_file_name, save_format, watermark_text, options) {#str_str_saveformat_str_textwatermarkoptions}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document with options and specified save format.
 
 
 ```python
@@ -96,7 +96,7 @@ def set_text(self, input_file_name: str, output_file_name: str, save_format: asp
 
 ## set_text(input_stream, output_stream, save_format, watermark_text, options) {#bytesio_bytesio_saveformat_str_textwatermarkoptions}
 
-Adds Text watermark into the document.
+Adds a text watermark into the document from streams with options.
 
 
 ```python

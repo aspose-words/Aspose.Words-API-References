@@ -34,6 +34,8 @@ chart_legend.font.size = 14
 # Change font for specific legend entry.
 chart_legend.legend_entries[1].font.italic = True
 chart_legend.legend_entries[1].font.size = 12
+# Get legend entry for chart series.
+legend_entry = chart.series[0].legend_entry
 doc.save(file_name=ARTIFACTS_DIR + 'Charts.LegendFont.docx')
 ```
 

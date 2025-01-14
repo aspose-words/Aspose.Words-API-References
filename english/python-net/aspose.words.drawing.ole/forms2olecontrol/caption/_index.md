@@ -54,7 +54,7 @@ builder = aw.DocumentBuilder()
 button1 = aw.drawing.ole.CommandButtonControl()
 button1.caption = 'Button caption'
 shape = builder.insert_forms_2_ole_control(button1)
-self.assertEqual('Button caption', shape.ole_format.ole_control.as_forms2_ole_control().caption)
+self.assertEqual('Button caption', button1.caption)
 ```
 
 ### See Also

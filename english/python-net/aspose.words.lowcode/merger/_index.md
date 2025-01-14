@@ -5,7 +5,7 @@ articleTitle: Merger class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Merger class. Represents a group of methods intended to merge a variety of different types of documents into a single output document."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.lowcode/merger/
 ---
 
@@ -35,9 +35,10 @@ The merging functionality supports over 35 different file formats.
 |[ merge(input_files, merge_format_mode)](./merge/#strlist_mergeformatmode) | Merges the given input documents into a single document and returns [Document](../../aspose.words/document/) instance of the final document. |
 |[ merge(input_files, load_options, merge_format_mode)](./merge/#strlist_loadoptionslist_mergeformatmode) | Merges the given input documents into a single document and returns [Document](../../aspose.words/document/) instance of the final document. |
 |[ merge_docs(input_documents, merge_format_mode)](./merge_docs/#documentlist_mergeformatmode) | Merges the given input documents into a single document and returns [Document](../../aspose.words/document/) instance of the final document. |
+|[ merge_stream(input_streams, merge_format_mode)](./merge_stream/#bytesiolist_mergeformatmode) | Merges the given input documents into a single document and returns [Document](../../aspose.words/document/) instance of the final document. |
 |[ merge_stream(output_stream, input_streams, save_format)](./merge_stream/#bytesio_bytesiolist_saveformat) | Merges the given input documents into a single output document using specified input output streams and the final document format. |
 |[ merge_stream(output_stream, input_streams, save_options, merge_format_mode)](./merge_stream/#bytesio_bytesiolist_saveoptions_mergeformatmode) | Merges the given input documents into a single output document using specified input output streams and save options. |
-|[ merge_stream(input_streams, merge_format_mode)](./merge_stream/#bytesiolist_mergeformatmode) | Merges the given input documents into a single document and returns [Document](../../aspose.words/document/) instance of the final document. |
+|[ merge_stream(output_stream, input_streams, load_options, save_options, merge_format_mode)](./merge_stream/#bytesio_bytesiolist_loadoptionslist_saveoptions_mergeformatmode) | Merges the given input documents into a single output document using specified input output streams and save options. |
 
 ### See Also
 

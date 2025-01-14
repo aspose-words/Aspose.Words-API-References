@@ -11,7 +11,7 @@ url: /python-net/aspose.words.lowcode/replacer/replace/
 
 ## replace(input_file_name, output_file_name, pattern, replacement) {#str_str_str_str}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file.
 
 
 ```python
@@ -33,7 +33,7 @@ The number of replacements made.
 
 ## replace(input_file_name, output_file_name, save_format, pattern, replacement) {#str_str_saveformat_str_str}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format.
 
 
 ```python
@@ -56,7 +56,7 @@ The number of replacements made.
 
 ## replace(input_file_name, output_file_name, save_format, pattern, replacement, options) {#str_str_saveformat_str_str_findreplaceoptions}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
 
 ```python
@@ -80,7 +80,7 @@ The number of replacements made.
 
 ## replace(input_stream, output_stream, save_format, pattern, replacement) {#bytesio_bytesio_saveformat_str_str}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format.
 
 
 ```python
@@ -103,7 +103,7 @@ The number of replacements made.
 
 ## replace(input_stream, output_stream, save_format, pattern, replacement, options) {#bytesio_bytesio_saveformat_str_str_findreplaceoptions}
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
 
 
 ```python

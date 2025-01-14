@@ -16,7 +16,7 @@ the resulting parts to files. The output file format is determined by the extens
 
 
 ```python
-def split(self, input_file_name: str, output_file_name: str, options: aspose.words.lowcode.splitting.SplitOptions):
+def split(self, input_file_name: str, output_file_name: str, options: aspose.words.lowcode.SplitOptions):
     ...
 ```
 
@@ -24,7 +24,7 @@ def split(self, input_file_name: str, output_file_name: str, options: aspose.wor
 | --- | --- | --- |
 | input_file_name | str | The input file name. |
 | output_file_name | str | The output file name used to generate file name for document parts using rule "outputFile_partIndex.extension" |
-| options | [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/) | Document split options. |
+| options | [SplitOptions](../../splitoptions/) | Document split options. |
 
 ## split(input_file_name, output_file_name, save_format, options) {#str_str_saveformat_splitoptions}
 
@@ -33,7 +33,7 @@ the resulting parts to files in the specified save format.
 
 
 ```python
-def split(self, input_file_name: str, output_file_name: str, save_format: aspose.words.SaveFormat, options: aspose.words.lowcode.splitting.SplitOptions):
+def split(self, input_file_name: str, output_file_name: str, save_format: aspose.words.SaveFormat, options: aspose.words.lowcode.SplitOptions):
     ...
 ```
 
@@ -42,7 +42,7 @@ def split(self, input_file_name: str, output_file_name: str, save_format: aspose
 | input_file_name | str | The input file name. |
 | output_file_name | str | The output file name used to generate file name for document parts using rule "outputFile_partIndex.extension" |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
-| options | [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/) | Document split options. |
+| options | [SplitOptions](../../splitoptions/) | Document split options. |
 
 ## split(input_stream, save_format, options) {#bytesio_saveformat_splitoptions}
 
@@ -51,7 +51,7 @@ returns the resulting parts as an array of streams in the specified save format.
 
 
 ```python
-def split(self, input_stream: io.BytesIO, save_format: aspose.words.SaveFormat, options: aspose.words.lowcode.splitting.SplitOptions):
+def split(self, input_stream: io.BytesIO, save_format: aspose.words.SaveFormat, options: aspose.words.lowcode.SplitOptions):
     ...
 ```
 
@@ -59,7 +59,7 @@ def split(self, input_stream: io.BytesIO, save_format: aspose.words.SaveFormat, 
 | --- | --- | --- |
 | input_stream | io.BytesIO | The input stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
-| options | [SplitOptions](../../../aspose.words.lowcode.splitting/splitoptions/) | Document split options. |
+| options | [SplitOptions](../../splitoptions/) | Document split options. |
 
 ## Examples
 
@@ -67,8 +67,8 @@ Shows how to split document by pages.
 
 ```python
 doc = MY_DIR + 'Big document.docx'
-options = aw.lowcode.splitting.SplitOptions()
-options.split_criteria = aw.lowcode.splitting.SplitCriteria.PAGE
+options = aw.lowcode.SplitOptions()
+options.split_criteria = aw.lowcode.SplitCriteria.PAGE
 aw.lowcode.Splitter.split(input_file_name=doc, output_file_name=ARTIFACTS_DIR + 'LowCode.SplitDocument.1.docx', options=options)
 aw.lowcode.Splitter.split(input_file_name=doc, output_file_name=ARTIFACTS_DIR + 'LowCode.SplitDocument.2.docx', save_format=aw.SaveFormat.DOCX, options=options)
 ```
@@ -77,8 +77,8 @@ Shows how to split document from the stream by pages.
 
 ```python
 with system_helper.io.FileStream(MY_DIR + 'Big document.docx', system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as stream_in:
-    options = aw.lowcode.splitting.SplitOptions()
-    options.split_criteria = aw.lowcode.splitting.SplitCriteria.PAGE
+    options = aw.lowcode.SplitOptions()
+    options.split_criteria = aw.lowcode.SplitCriteria.PAGE
     stream = aw.lowcode.Splitter.split(input_stream=stream_in, save_format=aw.SaveFormat.DOCX, options=options)
 ```
 

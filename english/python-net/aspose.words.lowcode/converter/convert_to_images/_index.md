@@ -11,7 +11,7 @@ url: /python-net/aspose.words.lowcode/converter/convert_to_images/
 
 ## convert_to_images(input_file, output_file) {#str_str}
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to image files.
 
 
 ```python
@@ -26,7 +26,7 @@ def convert_to_images(self, input_file: str, output_file: str):
 
 ## convert_to_images(input_file, output_file, save_format) {#str_str_saveformat}
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to image files in the specified format.
 
 
 ```python
@@ -42,7 +42,7 @@ def convert_to_images(self, input_file: str, output_file: str, save_format: aspo
 
 ## convert_to_images(input_file, output_file, save_options) {#str_str_imagesaveoptions}
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to image files using the specified save options.
 
 
 ```python
@@ -58,7 +58,7 @@ def convert_to_images(self, input_file: str, output_file: str, save_options: asp
 
 ## convert_to_images(input_file, load_options, output_file, save_options) {#str_loadoptions_str_imagesaveoptions}
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to image files using the provided load and save options.
 
 
 ```python
@@ -75,7 +75,7 @@ def convert_to_images(self, input_file: str, load_options: aspose.words.loading.
 
 ## convert_to_images(input_file, save_format) {#str_saveformat}
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to images in the specified format and returns an array of streams containing the images.
 
 
 ```python
@@ -95,7 +95,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(input_file, save_options) {#str_imagesaveoptions}
 
-Converts the input file pages to images.
+Converts the pages of the specified input file to images using the specified save options and returns an array of streams containing the images.
 
 
 ```python
@@ -115,7 +115,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(input_stream, save_format) {#bytesio_saveformat}
 
-Converts the input stream pages to images.
+Converts the pages of the specified input stream to images in the specified format and returns an array of streams containing the images.
 
 
 ```python
@@ -135,7 +135,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(input_stream, save_options) {#bytesio_imagesaveoptions}
 
-Converts the input stream pages to images.
+Converts the pages of the specified input stream to images using the specified save options and returns an array of streams containing the images.
 
 
 ```python
@@ -155,7 +155,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(input_stream, load_options, save_options) {#bytesio_loadoptions_imagesaveoptions}
 
-Converts the input stream pages to images.
+Converts the pages of the specified input stream to images using the provided load and save options, and returns an array of streams containing the images.
 
 
 ```python
@@ -176,7 +176,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(doc, save_format) {#document_saveformat}
 
-Converts the document pages to images.
+Converts the pages of the specified document to images in the specified format and returns an array of streams containing the images.
 
 
 ```python
@@ -196,7 +196,7 @@ Returns array of image streams. The streams should be disposed by the enduser.
 
 ## convert_to_images(doc, save_options) {#document_imagesaveoptions}
 
-Converts the document pages to images.
+Converts the pages of the specified document to images using the specified save options and returns an array of streams containing the images.
 
 
 ```python
@@ -219,22 +219,27 @@ Returns array of image streams. The streams should be disposed by the enduser.
 Shows how to convert document to images.
 
 ```python
-aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.png')
-aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.jpeg', save_format=aw.SaveFormat.JPEG)
+doc = MY_DIR + 'Big document.docx'
+aw.lowcode.Converter.convert_to_images(input_file=doc, output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.1.png')
+aw.lowcode.Converter.convert_to_images(input_file=doc, output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.2.jpeg', save_format=aw.SaveFormat.JPEG)
+load_options = aw.loading.LoadOptions()
+load_options.ignore_ole_data = False
 image_save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
 image_save_options.page_set = aw.saving.PageSet(page=1)
-aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.png', save_options=image_save_options)
+aw.lowcode.Converter.convert_to_images(input_file=doc, load_options=load_options, output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.3.png', save_options=image_save_options)
+aw.lowcode.Converter.convert_to_images(input_file=doc, output_file=ARTIFACTS_DIR + 'LowCode.ConvertToImages.4.png', save_options=image_save_options)
 ```
 
 Shows how to convert document to images stream.
 
 ```python
-streams = aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', save_format=aw.SaveFormat.PNG)
+doc = MY_DIR + 'Big document.docx'
+streams = aw.lowcode.Converter.convert_to_images(input_file=doc, save_format=aw.SaveFormat.PNG)
 image_save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
 image_save_options.page_set = aw.saving.PageSet(page=1)
-streams = aw.lowcode.Converter.convert_to_images(input_file=MY_DIR + 'Big document.docx', save_options=image_save_options)
-streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=MY_DIR + 'Big document.docx'), save_format=aw.SaveFormat.PNG)
-streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=MY_DIR + 'Big document.docx'), save_options=image_save_options)
+streams = aw.lowcode.Converter.convert_to_images(input_file=doc, save_options=image_save_options)
+streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=doc), save_format=aw.SaveFormat.PNG)
+streams = aw.lowcode.Converter.convert_to_images(doc=aw.Document(file_name=doc), save_options=image_save_options)
 ```
 
 Shows how to convert document to images from stream.
@@ -245,6 +250,9 @@ with system_helper.io.FileStream(MY_DIR + 'Big document.docx', system_helper.io.
     image_save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
     image_save_options.page_set = aw.saving.PageSet(page=1)
     streams = aw.lowcode.Converter.convert_to_images(input_stream=stream_in, save_options=image_save_options)
+    load_options = aw.loading.LoadOptions()
+    load_options.ignore_ole_data = False
+    aw.lowcode.Converter.convert_to_images(input_stream=stream_in, load_options=load_options, save_options=image_save_options)
 ```
 
 ## See Also
