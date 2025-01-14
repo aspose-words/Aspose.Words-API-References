@@ -50,7 +50,7 @@ Performs a mail merge operation for a single record.
 
 
 ```python
-def execute(self, input_file_name: str, output_file_name: str, save_format: aspose.words.SaveFormat, mail_merge_options: aspose.words.lowcode.mailmerging.MailMergeOptions, field_names: List[str], field_values: List[object]):
+def execute(self, input_file_name: str, output_file_name: str, save_format: aspose.words.SaveFormat, mail_merge_options: aspose.words.lowcode.MailMergeOptions, field_names: List[str], field_values: List[object]):
     ...
 ```
 
@@ -59,7 +59,7 @@ def execute(self, input_file_name: str, output_file_name: str, save_format: aspo
 | input_file_name | str | The input file name. |
 | output_file_name | str | The output file name. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
-| mail_merge_options | [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/) | Mail merge options. |
+| mail_merge_options | [MailMergeOptions](../../mailmergeoptions/) | Mail merge options. |
 | field_names | List[str] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | field_values | List[object] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
@@ -87,7 +87,7 @@ Performs a mail merge operation for a single record.
 
 
 ```python
-def execute(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_format: aspose.words.SaveFormat, mail_merge_options: aspose.words.lowcode.mailmerging.MailMergeOptions, field_names: List[str], field_values: List[object]):
+def execute(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_format: aspose.words.SaveFormat, mail_merge_options: aspose.words.lowcode.MailMergeOptions, field_names: List[str], field_values: List[object]):
     ...
 ```
 
@@ -96,7 +96,7 @@ def execute(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_form
 | input_stream | io.BytesIO | The input file stream. |
 | output_stream | io.BytesIO | The output file stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
-| mail_merge_options | [MailMergeOptions](../../../aspose.words.lowcode.mailmerging/mailmergeoptions/) | Mail merge options. |
+| mail_merge_options | [MailMergeOptions](../../mailmergeoptions/) | Mail merge options. |
 | field_names | List[str] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | field_values | List[object] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
@@ -111,7 +111,7 @@ field_names = ['FirstName', 'Location', 'SpecialCharsInName()']
 field_values = ['James Bond', 'London', 'Classified']
 aw.lowcode.MailMerger.execute(input_file_name=doc, output_file_name=ARTIFACTS_DIR + 'LowCode.MailMerge.1.docx', field_names=field_names, field_values=field_values)
 aw.lowcode.MailMerger.execute(input_file_name=doc, output_file_name=ARTIFACTS_DIR + 'LowCode.MailMerge.2.docx', save_format=aw.SaveFormat.DOCX, field_names=field_names, field_values=field_values)
-mail_merge_options = aw.lowcode.mailmerging.MailMergeOptions()
+mail_merge_options = aw.lowcode.MailMergeOptions()
 mail_merge_options.trim_whitespaces = True
 aw.lowcode.MailMerger.execute(input_file_name=doc, output_file_name=ARTIFACTS_DIR + 'LowCode.MailMerge.3.docx', save_format=aw.SaveFormat.DOCX, mail_merge_options=mail_merge_options, field_names=field_names, field_values=field_values)
 ```
@@ -126,7 +126,7 @@ with system_helper.io.FileStream(MY_DIR + 'Mail merge.doc', system_helper.io.Fil
     with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.MailMergeStream.1.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
         aw.lowcode.MailMerger.execute(input_stream=stream_in, output_stream=stream_out, save_format=aw.SaveFormat.DOCX, field_names=field_names, field_values=field_values)
     with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.MailMergeStream.2.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
-        mail_merge_options = aw.lowcode.mailmerging.MailMergeOptions()
+        mail_merge_options = aw.lowcode.MailMergeOptions()
         mail_merge_options.trim_whitespaces = True
         aw.lowcode.MailMerger.execute(input_stream=stream_in, output_stream=stream_out, save_format=aw.SaveFormat.DOCX, mail_merge_options=mail_merge_options, field_names=field_names, field_values=field_values)
 ```

@@ -127,22 +127,30 @@ def convert(self, input_stream: io.BytesIO, load_options: aspose.words.loading.L
 Shows how to convert documents with a single line of code.
 
 ```python
-aw.lowcode.Converter.convert(input_file=MY_DIR + 'Document.docx', output_file=ARTIFACTS_DIR + 'LowCode.Convert.pdf')
-aw.lowcode.Converter.convert(input_file=MY_DIR + 'Document.docx', output_file=ARTIFACTS_DIR + 'LowCode.Convert.rtf', save_format=aw.SaveFormat.RTF)
+doc = MY_DIR + 'Document.docx'
+aw.lowcode.Converter.convert(input_file=doc, output_file=ARTIFACTS_DIR + 'LowCode.Convert.pdf')
+aw.lowcode.Converter.convert(input_file=doc, output_file=ARTIFACTS_DIR + 'LowCode.Convert.SaveFormat.rtf', save_format=aw.SaveFormat.RTF)
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.password = 'Aspose.Words'
-aw.lowcode.Converter.convert(input_file=MY_DIR + 'Document.doc', output_file=ARTIFACTS_DIR + 'LowCode.Convert.docx', save_options=save_options)
+load_options = aw.loading.LoadOptions()
+load_options.ignore_ole_data = True
+aw.lowcode.Converter.convert(input_file=doc, load_options=load_options, output_file=ARTIFACTS_DIR + 'LowCode.Convert.LoadOptions.docx', save_options=save_options)
+aw.lowcode.Converter.convert(input_file=doc, output_file=ARTIFACTS_DIR + 'LowCode.Convert.SaveOptions.docx', save_options=save_options)
 ```
 
 Shows how to convert documents with a single line of code (Stream).
 
 ```python
 with system_helper.io.FileStream(MY_DIR + 'Big document.docx', system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as stream_in:
-    with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.ConvertStream.SaveFormat.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
+    with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.ConvertStream.1.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
         aw.lowcode.Converter.convert(input_stream=stream_in, output_stream=stream_out, save_format=aw.SaveFormat.DOCX)
     save_options = aw.saving.OoxmlSaveOptions()
     save_options.password = 'Aspose.Words'
-    with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.ConvertStream.SaveOptions.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
+    load_options = aw.loading.LoadOptions()
+    load_options.ignore_ole_data = True
+    with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.ConvertStream.2.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
+        aw.lowcode.Converter.convert(input_stream=stream_in, load_options=load_options, output_stream=stream_out, save_options=save_options)
+    with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.ConvertStream.3.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
         aw.lowcode.Converter.convert(input_stream=stream_in, output_stream=stream_out, save_options=save_options)
 ```
 

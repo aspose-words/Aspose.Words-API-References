@@ -5,7 +5,7 @@ articleTitle: PdfPermissions enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfPermissions enumeration. Specifies the operations that are allowed to a user on an encrypted PDF document."
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.words.saving/pdfpermissions/
 ---
 

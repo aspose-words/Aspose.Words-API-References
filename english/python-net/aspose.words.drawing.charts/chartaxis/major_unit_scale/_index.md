@@ -66,6 +66,7 @@ axis.scaling.minimum = aw.drawing.charts.AxisBound(value=-10)
 axis.scaling.maximum = aw.drawing.charts.AxisBound(value=30)
 axis.tick_labels.alignment = aw.ParagraphAlignment.RIGHT
 self.assertEqual(1, axis.tick_labels.spacing)
+self.assertEqual(doc, axis.display_unit.document)
 # Set the tick labels to display their value in millions.
 axis.display_unit.unit = aw.drawing.charts.AxisBuiltInUnit.MILLIONS
 # We can set a more specific value by which tick labels will display their values.

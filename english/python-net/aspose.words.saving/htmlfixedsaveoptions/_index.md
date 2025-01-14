@@ -43,6 +43,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [export_form_fields](./export_form_fields/) | Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [font_format](./font_format/) | Gets or sets [ExportFontFormat](../exportfontformat/) used for font exporting. Default value is [ExportFontFormat.WOFF](../exportfontformat/#WOFF). |
+| [id_prefix](./id_prefix/) | Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [jpeg_quality](../fixedpagesaveoptions/jpeg_quality/) | Gets or sets a value determining the quality of the JPEG images inside Html document.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -55,6 +56,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [page_set](../fixedpagesaveoptions/page_set/) | Gets or sets the pages to render. Default is all the pages in the document.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [remove_java_script_from_links](./remove_java_script_from_links/) | Specifies whether JavaScript will be removed from links. Default is ``False``. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)". |
 | [resource_saving_callback](./resource_saving_callback/) | Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format. |
 | [resources_folder](./resources_folder/) | Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is ``None``. |
 | [resources_folder_alias](./resources_folder_alias/) | Specifies the name of the folder used to construct image URIs written into an Html document. Default is ``None``. |

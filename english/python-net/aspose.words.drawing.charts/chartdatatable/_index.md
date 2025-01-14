@@ -46,6 +46,7 @@ data_table.show = True
 data_table.has_legend_keys = False
 data_table.has_horizontal_border = False
 data_table.has_vertical_border = False
+data_table.has_outline_border = False
 data_table.font.italic = True
 data_table.format.stroke.weight = 1
 data_table.format.stroke.dash_style = aw.drawing.DashStyle.SHORT_DOT

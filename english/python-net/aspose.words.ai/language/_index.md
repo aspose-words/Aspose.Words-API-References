@@ -5,7 +5,7 @@ articleTitle: Language enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.Language enumeration. Specifies the language into which the text will be translated using AI"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.ai/language/
 ---
 

@@ -122,13 +122,22 @@ Shows how to merge documents into a single output document.
 
 ```python
 #There is a several ways to merge documents:
-aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.SimpleMerge.docx', input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'])
+input_doc1 = MY_DIR + 'Big document.docx'
+input_doc2 = MY_DIR + 'Tables.docx'
+aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.1.docx', input_files=[input_doc1, input_doc2])
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.password = 'Aspose.Words'
-aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.SaveOptions.docx', input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'], save_options=save_options, merge_format_mode=aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING)
-aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.SaveFormat.pdf', input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'], save_format=aw.SaveFormat.PDF, merge_format_mode=aw.lowcode.MergeFormatMode.KEEP_SOURCE_LAYOUT)
-doc = aw.lowcode.Merger.merge(input_files=[MY_DIR + 'Big document.docx', MY_DIR + 'Tables.docx'], merge_format_mode=aw.lowcode.MergeFormatMode.MERGE_FORMATTING)
-doc.save(file_name=ARTIFACTS_DIR + 'LowCode.MergeDocument.DocumentInstance.docx')
+aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.2.docx', input_files=[input_doc1, input_doc2], save_options=save_options, merge_format_mode=aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING)
+aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.3.pdf', input_files=[input_doc1, input_doc2], save_format=aw.SaveFormat.PDF, merge_format_mode=aw.lowcode.MergeFormatMode.KEEP_SOURCE_LAYOUT)
+first_load_options = aw.loading.LoadOptions()
+first_load_options.ignore_ole_data = True
+second_load_options = aw.loading.LoadOptions()
+second_load_options.ignore_ole_data = False
+aw.lowcode.Merger.merge(output_file=ARTIFACTS_DIR + 'LowCode.MergeDocument.4.docx', input_files=[input_doc1, input_doc2], load_options=[first_load_options, second_load_options], save_options=save_options, merge_format_mode=aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING)
+doc = aw.lowcode.Merger.merge(input_files=[input_doc1, input_doc2], merge_format_mode=aw.lowcode.MergeFormatMode.MERGE_FORMATTING)
+doc.save(file_name=ARTIFACTS_DIR + 'LowCode.MergeDocument.5.docx')
+doc = aw.lowcode.Merger.merge(input_files=[input_doc1, input_doc2], load_options=[first_load_options, second_load_options], merge_format_mode=aw.lowcode.MergeFormatMode.MERGE_FORMATTING)
+doc.save(file_name=ARTIFACTS_DIR + 'LowCode.MergeDocument.6.docx')
 ```
 
 ## See Also

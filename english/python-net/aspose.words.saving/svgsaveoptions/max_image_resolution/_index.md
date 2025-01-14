@@ -5,7 +5,7 @@ articleTitle: max_image_resolution property
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions.max_image_resolution property. Gets or sets a value in pixels per inch that limits resolution of exported raster images"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.saving/svgsaveoptions/max_image_resolution/
 ---
 

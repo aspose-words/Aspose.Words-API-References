@@ -5,7 +5,7 @@ articleTitle: PsSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PsSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.PS](../../aspose.words/saveformat/#PS) format"
 type: docs
-weight: 730
+weight: 740
 url: /python-net/aspose.words.saving/pssaveoptions/
 ---
 

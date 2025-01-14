@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptionsBase class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.TxtSaveOptionsBase class. The base class for specifying additional options when saving a document into a text based formats"
 type: docs
-weight: 850
+weight: 860
 url: /python-net/aspose.words.saving/txtsaveoptionsbase/
 ---
 

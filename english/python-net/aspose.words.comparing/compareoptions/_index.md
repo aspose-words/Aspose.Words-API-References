@@ -87,6 +87,7 @@ doc_edited.first_section.headers_footers.get_by_header_footer_type(aw.HeaderFoot
 # A CompareOptions object has a series of flags that can suppress revisions
 # on each respective type of element, effectively ignoring their change.
 compare_options = aw.comparing.CompareOptions()
+compare_options.compare_moves = False
 compare_options.ignore_formatting = False
 compare_options.ignore_case_changes = False
 compare_options.ignore_comments = False

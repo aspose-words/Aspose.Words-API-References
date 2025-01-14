@@ -33,6 +33,18 @@ empty table having no borders will be considered as invisible and therefore page
 List of page numbers has been considered as blank and removed.
 
 
+### Examples
+
+Shows how to remove blank pages from the document.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Blank pages.docx')
+self.assertEqual(2, doc.page_count)
+doc.remove_blank_pages()
+doc.update_page_layout()
+self.assertEqual(1, doc.page_count)
+```
+
 ### See Also
 
 * module [aspose.words](../../)

@@ -21,6 +21,17 @@ def type(self) -> aspose.words.drawing.ole.Forms2OleControlType:
 
 ```
 
+### Examples
+
+Shows how to insert ActiveX control.
+
+```python
+builder = aw.DocumentBuilder()
+button1 = aw.drawing.ole.CommandButtonControl()
+shape = builder.insert_forms_2_ole_control(button1)
+self.assertEqual(aw.drawing.ole.Forms2OleControlType.COMMAND_BUTTON, button1.type)
+```
+
 ### See Also
 
 * module [aspose.words.drawing.ole](../../)

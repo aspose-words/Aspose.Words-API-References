@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format"
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.saving/markdownsaveoptions/
 ---
 
@@ -40,6 +40,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [export_images_as_base64](./export_images_as_base64/) | Specifies whether images are saved in Base64 format to the output file. Default value is ``False``. |
 | [export_underline_formatting](./export_underline_formatting/) | Gets or sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is ``False``. |
 | [force_page_breaks](../txtsaveoptionsbase/force_page_breaks/) | Allows to specify whether the page breaks should be preserved during export.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
+| [image_resolution](./image_resolution/) | Specifies the output resolution for images when exporting to Markdown. Default is ``96 dpi``. |
 | [image_saving_callback](./image_saving_callback/) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format. |
 | [images_folder](./images_folder/) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format. Default is an empty string. |
 | [images_folder_alias](./images_folder_alias/) | Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string. |
@@ -47,6 +48,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [link_export_mode](./link_export_mode/) | Specifies how links will be written to the output file. Default value is [MarkdownLinkExportMode.AUTO](../markdownlinkexportmode/#AUTO). |
 | [list_export_mode](./list_export_mode/) | Specifies how list items will be written to the output file. Default value is [MarkdownListExportMode.MARKDOWN_SYNTAX](../markdownlistexportmode/#MARKDOWN_SYNTAX). |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [office_math_export_mode](./office_math_export_mode/) | Specifies how OfficeMath will be written to the output file. Default value is [MarkdownOfficeMathExportMode.TEXT](../markdownofficemathexportmode/#TEXT). |
 | [paragraph_break](../txtsaveoptionsbase/paragraph_break/) | Specifies the string to use as a paragraph break when exporting in text formats.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |

@@ -38,7 +38,7 @@ Shows how to insert ActiveX control.
 builder = aw.DocumentBuilder()
 button1 = aw.drawing.ole.CommandButtonControl()
 shape = builder.insert_forms_2_ole_control(button1)
-self.assertEqual(aw.drawing.ole.Forms2OleControlType.COMMAND_BUTTON, shape.ole_format.ole_control.as_forms2_ole_control().type)
+self.assertEqual(aw.drawing.ole.Forms2OleControlType.COMMAND_BUTTON, button1.type)
 ```
 
 ### See Also

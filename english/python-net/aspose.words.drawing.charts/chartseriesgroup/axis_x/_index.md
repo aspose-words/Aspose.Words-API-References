@@ -45,6 +45,7 @@ new_series_group.axis_x.hidden = True
 # Define title of the secondary Y axis.
 new_series_group.axis_y.title.show = True
 new_series_group.axis_y.title.text = 'Secondary Y axis'
+self.assertEqual(aw.drawing.charts.ChartSeriesType.LINE, new_series_group.series_type)
 # Add a series to the new series group.
 series3 = new_series_group.series.add(series_name='Series of secondary series group', categories=categories, values=[13, 11, 16])
 series3.format.stroke.weight = 3.5
