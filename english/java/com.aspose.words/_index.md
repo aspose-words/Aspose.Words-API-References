@@ -120,6 +120,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartYValueCollection](../com.aspose.words/chartyvaluecollection/) | Represents a collection of Y values for a chart series. |
 | [ChartYValueType](../com.aspose.words/chartyvaluetype/) | Allows to specify type of an Y value of a chart series. |
 | [CheckBoxControl](../com.aspose.words/checkboxcontrol/) | The CheckBox control toggles a value. |
+| [CheckGrammarOptions](../com.aspose.words/checkgrammaroptions/) | Allows to specify various options while checking grammar of a document using AI. |
 | [ChmLoadOptions](../com.aspose.words/chmloadoptions/) | Allows to specify additional options when loading CHM document into a [Document](../com.aspose.words/document/) object. |
 | [CleanupOptions](../com.aspose.words/cleanupoptions/) | Allows to specify options for document cleaning. |
 | [Cluster](../com.aspose.words/cluster/) | Encapsulates code points and glyphs composing a grapheme. |
@@ -462,6 +463,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MarkdownLinkExportMode](../com.aspose.words/markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](../com.aspose.words/markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MarkdownLoadOptions](../com.aspose.words/markdownloadoptions/) | Allows to specify additional options when loading [LoadFormat.\#MARKDOWN](../com.aspose.words/loadformat/\#MARKDOWN) document into a [Document](../com.aspose.words/document/) object. |
+| [MarkdownOfficeMathExportMode](../com.aspose.words/markdownofficemathexportmode/) | Specifies how Aspose.Words exports OfficeMath to Markdown. |
 | [MarkdownSaveOptions](../com.aspose.words/markdownsaveoptions/) | Class to specify additional options when saving a document into the [SaveFormat.\#MARKDOWN](../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [MarkerSymbol](../com.aspose.words/markersymbol/) | Specifies marker symbol style. |
 | [MarkupLevel](../com.aspose.words/markuplevel/) | Specifies the level in the document tree where a particular [StructuredDocumentTag](../com.aspose.words/structureddocumenttag/) can occur. |

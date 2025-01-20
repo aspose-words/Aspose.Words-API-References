@@ -62,6 +62,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);

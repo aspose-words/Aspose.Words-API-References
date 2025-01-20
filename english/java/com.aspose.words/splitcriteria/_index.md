@@ -4,7 +4,7 @@ linktitle: SplitCriteria
 second_title: Aspose.Words for Java
 description: Specifies how the document is split into parts in Java.
 type: docs
-weight: 603
+weight: 605
 url: /java/com.aspose.words/splitcriteria/
 ---
 
@@ -15,6 +15,21 @@ public class SplitCriteria
 ```
 
 Specifies how the document is split into parts.
+
+ **Examples:** 
+
+Shows how to split document by pages.
+
+```
+
+ String doc = getMyDir() + "Big document.docx";
+
+ SplitOptions options = new SplitOptions();
+ options.setSplitCriteria(SplitCriteria.PAGE);
+ Splitter.split(doc, getArtifactsDir() + "LowCode.SplitDocument.1.docx", options);
+ Splitter.split(doc, getArtifactsDir() + "LowCode.SplitDocument.2.docx", SaveFormat.DOCX, options);
+ 
+```
 ## Fields
 
 | Field | Description |

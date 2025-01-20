@@ -4,7 +4,7 @@ linktitle: CustomDocumentProperties
 second_title: Aspose.Words for Java
 description: A collection of custom document properties in Java.
 type: docs
-weight: 135
+weight: 136
 url: /java/com.aspose.words/customdocumentproperties/
 ---
 

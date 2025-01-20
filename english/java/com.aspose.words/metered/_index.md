@@ -4,7 +4,7 @@ linktitle: Metered
 second_title: Aspose.Words for Java
 description: Provides methods to set metered key in Java.
 type: docs
-weight: 453
+weight: 455
 url: /java/com.aspose.words/metered/
 ---
 
@@ -35,6 +35,8 @@ Shows how to activate a Metered license and track credit/consumption.
  Metered metered = new Metered();
  metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
  System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
  System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -82,6 +84,8 @@ Shows how to activate a Metered license and track credit/consumption.
  Metered metered = new Metered();
  metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
  System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
  System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -116,6 +120,8 @@ Shows how to activate a Metered license and track credit/consumption.
  Metered metered = new Metered();
  metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
  System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
  System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -152,6 +158,8 @@ Shows how to activate a Metered license and track credit/consumption.
  Metered metered = new Metered();
  metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
  System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
  System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -178,6 +186,34 @@ public String getProductName()
 
 Returns Product name
 
+ **Examples:** 
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
+
 **Returns:**
 java.lang.String - Product name
 ### isMeteredLicensed() {#isMeteredLicensed}
@@ -187,6 +223,34 @@ public static boolean isMeteredLicensed()
 
 
 Check whether metered is licensed
+
+ **Examples:** 
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
 
 **Returns:**
 boolean - True or false
@@ -208,6 +272,8 @@ Shows how to activate a Metered license and track credit/consumption.
  Metered metered = new Metered();
  metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
  System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
  System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 

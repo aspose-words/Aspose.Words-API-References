@@ -4,7 +4,7 @@ linktitle: Converter
 second_title: Aspose.Words for Java
 description: Represents a group of methods intended to convert a variety of different types of documents using a single line of code in Java.
 type: docs
-weight: 128
+weight: 129
 url: /java/com.aspose.words/converter/
 ---
 
@@ -101,6 +101,32 @@ public static void convert(String inputFile, LoadOptions loadOptions, String out
 
 Converts the given input document into the output document using specified input output file names its load/save options.
 
+ **Examples:** 
+
+Shows how to convert documents with a single line of code.
+
+```
+
+ String doc = getMyDir() + "Document.docx";
+
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.pdf");
+
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.SaveFormat.rtf", SaveFormat.RTF);
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(true);
+ }
+ Converter.convert(doc, loadOptions, getArtifactsDir() + "LowCode.Convert.LoadOptions.docx", saveOptions);
+
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.SaveOptions.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -123,12 +149,23 @@ Shows how to convert documents with a single line of code.
 
 ```
 
- Converter.convert(getMyDir() + "Document.docx", getArtifactsDir() + "LowCode.Convert.pdf");
+ String doc = getMyDir() + "Document.docx";
 
- Converter.convert(getMyDir() + "Document.docx", getArtifactsDir() + "LowCode.Convert.rtf", SaveFormat.RTF);
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.pdf");
 
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setPassword("Aspose.Words"); }
- Converter.convert(getMyDir() + "Document.doc", getArtifactsDir() + "LowCode.Convert.docx", saveOptions);
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.SaveFormat.rtf", SaveFormat.RTF);
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(true);
+ }
+ Converter.convert(doc, loadOptions, getArtifactsDir() + "LowCode.Convert.LoadOptions.docx", saveOptions);
+
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.SaveOptions.docx", saveOptions);
  
 ```
 
@@ -152,12 +189,23 @@ Shows how to convert documents with a single line of code.
 
 ```
 
- Converter.convert(getMyDir() + "Document.docx", getArtifactsDir() + "LowCode.Convert.pdf");
+ String doc = getMyDir() + "Document.docx";
 
- Converter.convert(getMyDir() + "Document.docx", getArtifactsDir() + "LowCode.Convert.rtf", SaveFormat.RTF);
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.pdf");
 
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setPassword("Aspose.Words"); }
- Converter.convert(getMyDir() + "Document.doc", getArtifactsDir() + "LowCode.Convert.docx", saveOptions);
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.SaveFormat.rtf", SaveFormat.RTF);
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(true);
+ }
+ Converter.convert(doc, loadOptions, getArtifactsDir() + "LowCode.Convert.LoadOptions.docx", saveOptions);
+
+ Converter.convert(doc, getArtifactsDir() + "LowCode.Convert.SaveOptions.docx", saveOptions);
  
 ```
 
@@ -197,15 +245,17 @@ Shows how to convert document to images stream.
 
 ```
 
- InputStream[] streams = Converter.convertToImages(getMyDir() + "Big document.docx", SaveFormat.PNG);
+ String doc = getMyDir() + "Big document.docx";
+
+ InputStream[] streams = Converter.convertToImages(doc, SaveFormat.PNG);
 
  ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
  imageSaveOptions.setPageSet(new PageSet(1));
- streams = Converter.convertToImages(getMyDir() + "Big document.docx", imageSaveOptions);
+ streams = Converter.convertToImages(doc, imageSaveOptions);
 
- streams = Converter.convertToImages(new Document(getMyDir() + "Big document.docx"), SaveFormat.PNG);
+ streams = Converter.convertToImages(new Document(doc), SaveFormat.PNG);
 
- streams = Converter.convertToImages(new Document(getMyDir() + "Big document.docx"), imageSaveOptions);
+ streams = Converter.convertToImages(new Document(doc), imageSaveOptions);
  
 ```
 
@@ -247,13 +297,18 @@ Shows how to convert document to images from stream.
 
 ```
 
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Big document.docx"))
- {
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Big document.docx")) {
      InputStream[] streams = Converter.convertToImages(streamIn, SaveFormat.JPEG);
 
      ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
      imageSaveOptions.setPageSet(new PageSet(1));
      streams = Converter.convertToImages(streamIn, imageSaveOptions);
+
+     LoadOptions loadOptions = new LoadOptions();
+     {
+         loadOptions.setIgnoreOleData(false);
+     }
+     Converter.convertToImages(streamIn, loadOptions, imageSaveOptions);
  }
  
 ```
@@ -273,6 +328,28 @@ public static InputStream[] convertToImages(InputStream inputStream, LoadOptions
 
 
 Converts the pages of the specified input stream to images using the provided load and save options, and returns an array of streams containing the images.
+
+ **Examples:** 
+
+Shows how to convert document to images from stream.
+
+```
+
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Big document.docx")) {
+     InputStream[] streams = Converter.convertToImages(streamIn, SaveFormat.JPEG);
+
+     ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+     imageSaveOptions.setPageSet(new PageSet(1));
+     streams = Converter.convertToImages(streamIn, imageSaveOptions);
+
+     LoadOptions loadOptions = new LoadOptions();
+     {
+         loadOptions.setIgnoreOleData(false);
+     }
+     Converter.convertToImages(streamIn, loadOptions, imageSaveOptions);
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -313,15 +390,17 @@ Shows how to convert document to images stream.
 
 ```
 
- InputStream[] streams = Converter.convertToImages(getMyDir() + "Big document.docx", SaveFormat.PNG);
+ String doc = getMyDir() + "Big document.docx";
+
+ InputStream[] streams = Converter.convertToImages(doc, SaveFormat.PNG);
 
  ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
  imageSaveOptions.setPageSet(new PageSet(1));
- streams = Converter.convertToImages(getMyDir() + "Big document.docx", imageSaveOptions);
+ streams = Converter.convertToImages(doc, imageSaveOptions);
 
- streams = Converter.convertToImages(new Document(getMyDir() + "Big document.docx"), SaveFormat.PNG);
+ streams = Converter.convertToImages(new Document(doc), SaveFormat.PNG);
 
- streams = Converter.convertToImages(new Document(getMyDir() + "Big document.docx"), imageSaveOptions);
+ streams = Converter.convertToImages(new Document(doc), imageSaveOptions);
  
 ```
 
@@ -340,6 +419,30 @@ public static void convertToImages(String inputFile, LoadOptions loadOptions, St
 
 
 Converts the pages of the specified input file to image files using the provided load and save options.
+
+ **Examples:** 
+
+Shows how to convert document to images.
+
+```
+
+ String doc = getMyDir() + "Big document.docx";
+
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.1.png");
+
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.2.jpeg", SaveFormat.JPEG);
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(false);
+ }
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setPageSet(new PageSet(1));
+ Converter.convertToImages(doc, loadOptions, getArtifactsDir() + "LowCode.ConvertToImages.3.png", imageSaveOptions);
+
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.4.png", imageSaveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -379,13 +482,21 @@ Shows how to convert document to images.
 
 ```
 
- Converter.convertToImages(getMyDir() + "Big document.docx", getArtifactsDir() + "LowCode.ConvertToImages.png");
+ String doc = getMyDir() + "Big document.docx";
 
- Converter.convertToImages(getMyDir() + "Big document.docx", getArtifactsDir() + "LowCode.ConvertToImages.jpeg", SaveFormat.JPEG);
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.1.png");
 
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.2.jpeg", SaveFormat.JPEG);
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(false);
+ }
  ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
  imageSaveOptions.setPageSet(new PageSet(1));
- Converter.convertToImages(getMyDir() + "Big document.docx", getArtifactsDir() + "LowCode.ConvertToImages.png", imageSaveOptions);
+ Converter.convertToImages(doc, loadOptions, getArtifactsDir() + "LowCode.ConvertToImages.3.png", imageSaveOptions);
+
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.4.png", imageSaveOptions);
  
 ```
 
@@ -409,13 +520,21 @@ Shows how to convert document to images.
 
 ```
 
- Converter.convertToImages(getMyDir() + "Big document.docx", getArtifactsDir() + "LowCode.ConvertToImages.png");
+ String doc = getMyDir() + "Big document.docx";
 
- Converter.convertToImages(getMyDir() + "Big document.docx", getArtifactsDir() + "LowCode.ConvertToImages.jpeg", SaveFormat.JPEG);
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.1.png");
 
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.2.jpeg", SaveFormat.JPEG);
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(false);
+ }
  ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
  imageSaveOptions.setPageSet(new PageSet(1));
- Converter.convertToImages(getMyDir() + "Big document.docx", getArtifactsDir() + "LowCode.ConvertToImages.png", imageSaveOptions);
+ Converter.convertToImages(doc, loadOptions, getArtifactsDir() + "LowCode.ConvertToImages.3.png", imageSaveOptions);
+
+ Converter.convertToImages(doc, getArtifactsDir() + "LowCode.ConvertToImages.4.png", imageSaveOptions);
  
 ```
 

@@ -4,7 +4,7 @@ linktitle: PersonCollection
 second_title: Aspose.Words for Java
 description: Represents a list of persons who are bibliography source contributors in Java.
 type: docs
-weight: 526
+weight: 528
 url: /java/com.aspose.words/personcollection/
 ---
 
@@ -30,8 +30,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -49,6 +50,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -82,6 +84,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -140,6 +145,35 @@ public PersonCollection()
 
 Initialize a new instance of the [PersonCollection](../../com.aspose.words/personcollection/) class.
 
+ **Examples:** 
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
 ### PersonCollection(Iterable persons) {#PersonCollection-java.lang.Iterable}
 ```
 public PersonCollection(Iterable persons)
@@ -161,6 +195,35 @@ public PersonCollection(Person[] persons)
 
 Initialize a new instance of the [PersonCollection](../../com.aspose.words/personcollection/) class.
 
+ **Examples:** 
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -173,6 +236,35 @@ public void add(Person person)
 
 
 Adds a [Person](../../com.aspose.words/person/) to the collection.
+
+ **Examples:** 
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -187,6 +279,35 @@ public void clear()
 
 Removes all items from the collection.
 
+ **Examples:** 
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
 ### contains(Person person) {#contains-com.aspose.words.Person}
 ```
 public boolean contains(Person person)
@@ -194,6 +315,35 @@ public boolean contains(Person person)
 
 
 Determines whether the collection contains a specific person.
+
+ **Examples:** 
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,8 +371,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -240,6 +391,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -273,6 +425,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -330,8 +485,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -349,6 +505,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -382,6 +539,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -433,6 +593,35 @@ public boolean remove(Person person)
 
 Removes the person from the collection.
 
+ **Examples:** 
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -447,6 +636,35 @@ public void removeAt(int index)
 
 
 Removes the person at the specified index.
+
+ **Examples:** 
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -472,8 +690,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -491,6 +710,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -524,6 +744,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());

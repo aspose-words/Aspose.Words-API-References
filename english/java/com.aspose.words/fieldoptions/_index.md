@@ -4,7 +4,7 @@ linktitle: FieldOptions
 second_title: Aspose.Words for Java
 description: Represents options to control field handling in a document in Java.
 type: docs
-weight: 263
+weight: 264
 url: /java/com.aspose.words/fieldoptions/
 ---
 
@@ -174,6 +174,9 @@ Shows how to override built-in styles or provide custom one.
  public void changeBibliographyStyles() throws Exception
  {
      Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     // If the document already has a style you can change it with the following code:
+     // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
 
      doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
      doc.updateFields();
@@ -1618,6 +1621,9 @@ Shows how to override built-in styles or provide custom one.
  public void changeBibliographyStyles() throws Exception
  {
      Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     // If the document already has a style you can change it with the following code:
+     // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
 
      doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
      doc.updateFields();

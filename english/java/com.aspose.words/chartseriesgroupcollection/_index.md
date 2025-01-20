@@ -53,6 +53,8 @@ Shows how to work with the secondary axis of chart.
  newSeriesGroup.getAxisY().getTitle().setShow(true);
  newSeriesGroup.getAxisY().getTitle().setText("Secondary Y axis");
 
+ Assert.assertEquals(ChartSeriesType.LINE, newSeriesGroup.getSeriesType());
+
  // Add a series to the new series group.
  ChartSeries series3 =
          newSeriesGroup.getSeries().add("Series of secondary series group", categories, new double[] { 13.0, 11.0, 16.0 });

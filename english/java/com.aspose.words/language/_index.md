@@ -4,7 +4,7 @@ linktitle: Language
 second_title: Aspose.Words for Java
 description: Specifies the language into which the text will be translated using AI. in Java.
 type: docs
-weight: 402
+weight: 403
 url: /java/com.aspose.words/language/
 ---
 
@@ -14,7 +14,26 @@ java.lang.Object
 public class Language
 ```
 
-Specifies the language into which the text will be translated using AI.. **M:Aspose.Words.AI.IAiModelText.Translate(Aspose.Words.Document,Aspose.Words.AI.Language)**
+Specifies the language into which the text will be translated using AI..
+
+ **Examples:** 
+
+Shows how to translate text using Google models.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ String apiKey = System.getenv("API_KEY");
+ // Use Google generative language models.
+ IAiModelText model = (IAiModelText)AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
+
+ Document translatedDoc = model.translate(doc, Language.ARABIC);
+ translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
+ 
+```
+
+**M:Aspose.Words.AI.IAiModelText.Translate(Aspose.Words.Document,Aspose.Words.AI.Language)**
 ## Fields
 
 | Field | Description |

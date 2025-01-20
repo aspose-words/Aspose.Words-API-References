@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 157
+weight: 158
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -347,6 +347,38 @@ Initializes a new instance of this class.
 
 Creates a new [DocumentBuilder](../../com.aspose.words/documentbuilder/) object and attaches it to a new [Document](../../com.aspose.words/document/) object. Additional document building options can be specified.
 
+ **Examples:** 
+
+Shows how to ignore table formatting for content after.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilderOptions builderOptions = new DocumentBuilderOptions();
+ builderOptions.setContextTableFormatting(true);
+ DocumentBuilder builder = new DocumentBuilder(doc, builderOptions);
+
+ // Adds content before the table.
+ // Default font size is 12.
+ builder.writeln("Font size 12 here.");
+ builder.startTable();
+ builder.insertCell();
+ // Changes the font size inside the table.
+ builder.getFont().setSize(5.0);
+ builder.write("Font size 5 here");
+ builder.insertCell();
+ builder.write("Font size 5 here");
+ builder.endRow();
+ builder.endTable();
+
+ // If ContextTableFormatting is true, then table formatting isn't applied to the content after.
+ // If ContextTableFormatting is false, then table formatting is applied to the content after.
+ builder.writeln("Font size 12 here.");
+
+ doc.save(getArtifactsDir() + "Table.ContextTableFormatting.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -461,6 +493,38 @@ Initializes a new instance of this class.
  **Remarks:** 
 
 Creates a new [DocumentBuilder](../../com.aspose.words/documentbuilder/) object, attaches to the specified [Document](../../com.aspose.words/document/) object. The cursor is positioned at the beginning of the document.
+
+ **Examples:** 
+
+Shows how to ignore table formatting for content after.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilderOptions builderOptions = new DocumentBuilderOptions();
+ builderOptions.setContextTableFormatting(true);
+ DocumentBuilder builder = new DocumentBuilder(doc, builderOptions);
+
+ // Adds content before the table.
+ // Default font size is 12.
+ builder.writeln("Font size 12 here.");
+ builder.startTable();
+ builder.insertCell();
+ // Changes the font size inside the table.
+ builder.getFont().setSize(5.0);
+ builder.write("Font size 5 here");
+ builder.insertCell();
+ builder.write("Font size 5 here");
+ builder.endRow();
+ builder.endTable();
+
+ // If ContextTableFormatting is true, then table formatting isn't applied to the content after.
+ // If ContextTableFormatting is false, then table formatting is applied to the content after.
+ builder.writeln("Font size 12 here.");
+
+ doc.save(getArtifactsDir() + "Table.ContextTableFormatting.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2957,7 +3021,7 @@ Shows how to insert ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl();
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals(Forms2OleControlType.COMMAND_BUTTON, ((Forms2OleControl)shape.getOleFormat().getOleControl()).getType());
+ Assert.assertEquals(Forms2OleControlType.COMMAND_BUTTON, button1.getType());
  
 ```
 

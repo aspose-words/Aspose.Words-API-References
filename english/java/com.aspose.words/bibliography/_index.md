@@ -27,8 +27,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -46,6 +47,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -79,6 +81,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -124,6 +129,35 @@ public String getBibliographyStyle()
 
 Gets a string that represents the name of the active style to use for a bibliography.
 
+ **Examples:** 
+
+Shows how to override built-in styles or provide custom one.
+
+```
+
+ public void changeBibliographyStyles() throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     // If the document already has a style you can change it with the following code:
+     // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
+
+     doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
+     doc.updateFields();
+
+     doc.save(getArtifactsDir() + "Field.ChangeBibliographyStyles.docx");
+ }
+
+ public static class BibliographyStylesProvider implements IBibliographyStylesProvider
+ {
+     public FileInputStream getStyle(String styleFileName) throws Exception
+     {
+         return new FileInputStream(getMyDir() + "Bibliography custom style.xsl");
+     }
+ }
+ 
+```
+
 **Returns:**
 java.lang.String - A string that represents the name of the active style to use for a bibliography.
 ### getSources() {#getSources}
@@ -145,8 +179,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -164,6 +199,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -197,6 +233,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -237,6 +276,35 @@ public void setBibliographyStyle(String value)
 
 
 Sets a string that represents the name of the active style to use for a bibliography.
+
+ **Examples:** 
+
+Shows how to override built-in styles or provide custom one.
+
+```
+
+ public void changeBibliographyStyles() throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     // If the document already has a style you can change it with the following code:
+     // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
+
+     doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
+     doc.updateFields();
+
+     doc.save(getArtifactsDir() + "Field.ChangeBibliographyStyles.docx");
+ }
+
+ public static class BibliographyStylesProvider implements IBibliographyStylesProvider
+ {
+     public FileInputStream getStyle(String styleFileName) throws Exception
+     {
+         return new FileInputStream(getMyDir() + "Bibliography custom style.xsl");
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: WarningInfo
 second_title: Aspose.Words for Java
 description: Contains information about a warning that Aspose.Words issued during document loading or saving in Java.
 type: docs
-weight: 687
+weight: 689
 url: /java/com.aspose.words/warninginfo/
 ---
 

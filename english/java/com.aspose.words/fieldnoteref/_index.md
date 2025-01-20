@@ -4,7 +4,7 @@ linktitle: FieldNoteRef
 second_title: Aspose.Words for Java
 description: Implements the NOTEREF field in Java.
 type: docs
-weight: 258
+weight: 259
 url: /java/com.aspose.words/fieldnoteref/
 ---
 

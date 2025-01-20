@@ -56,8 +56,11 @@ Shows how to work with data points on a line chart.
          Assert.assertFalse(enumerator.next().getInvertIfNegative());
      }
 
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
      // For a cleaner looking graph, we can clear format individually.
-     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+     dataPoint.clearFormat();
 
      // We can also strip an entire series of data points at once.
      chart.getSeries().get(2).getDataPoints().clearFormat();
@@ -109,6 +112,64 @@ public void clearFormat()
 
 Clears format of this data point. The properties are set to the default values defined in the parent series.
 
+ **Examples:** 
+
+Shows how to work with data points on a line chart.
+
+```
+
+ public void chartDataPoint() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape shape = builder.insertChart(ChartType.LINE, 500.0, 350.0);
+     Chart chart = shape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Emphasize the chart's data points by making them appear as diamond shapes.
+     for (ChartSeries series : chart.getSeries())
+         applyDataPoints(series, 4, MarkerSymbol.DIAMOND, 15);
+
+     // Smooth out the line that represents the first data series.
+     chart.getSeries().get(0).setSmooth(true);
+
+     // Verify that data points for the first series will not invert their colors if the value is negative.
+     Iterator enumerator = chart.getSeries().get(0).getDataPoints().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertFalse(enumerator.next().getInvertIfNegative());
+     }
+
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
+     // For a cleaner looking graph, we can clear format individually.
+     dataPoint.clearFormat();
+
+     // We can also strip an entire series of data points at once.
+     chart.getSeries().get(2).getDataPoints().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.ChartDataPoint.docx");
+ }
+
+ /// 
+ /// Applies a number of data points to a series.
+ /// 
+ private static void applyDataPoints(ChartSeries series, int dataPointsCount, int markerSymbol, int dataPointSize) {
+     for (int i = 0; i < dataPointsCount; i++) {
+         ChartDataPoint point = series.getDataPoints().get(i);
+         point.getMarker().setSymbol(markerSymbol);
+         point.getMarker().setSize(dataPointSize);
+
+         Assert.assertEquals(point.getIndex(), i);
+     }
+ }
+ 
+```
+
 ### getBubble3D() {#getBubble3D}
 ```
 public boolean getBubble3D()
@@ -126,6 +187,35 @@ public int getExplosion()
 
 
 Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
+
+ **Examples:** 
+
+Shows how to move the slices of a pie chart away from the center.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.PIE, 500.0, 350.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(1, chart.getSeries().getCount());
+ Assert.assertEquals("Sales", chart.getSeries().get(0).getName());
+
+ // "Slices" of a pie chart may be moved away from the center by a distance via the respective data point's Explosion attribute.
+ // Add a data point to the first portion of the pie chart and move it away from the center by 10 points.
+ // Aspose.Words create data points automatically if them does not exist.
+ ChartDataPoint dataPoint = chart.getSeries().get(0).getDataPoints().get(0);
+ dataPoint.setExplosion(10);
+
+ // Displace the second portion by a greater distance.
+ dataPoint = chart.getSeries().get(0).getDataPoints().get(1);
+ dataPoint.setExplosion(40);
+
+ doc.save(getArtifactsDir() + "Charts.PieChartExplosion.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -165,6 +255,62 @@ Shows how to set individual formatting for categories of a column chart.
  dataPoints.get(3).getFormat().getFill().setForeColor(Color.BLUE);
 
  doc.save(getArtifactsDir() + "Charts.DataPointsFormatting.docx");
+ 
+```
+
+Shows how to work with data points on a line chart.
+
+```
+
+ public void chartDataPoint() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape shape = builder.insertChart(ChartType.LINE, 500.0, 350.0);
+     Chart chart = shape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Emphasize the chart's data points by making them appear as diamond shapes.
+     for (ChartSeries series : chart.getSeries())
+         applyDataPoints(series, 4, MarkerSymbol.DIAMOND, 15);
+
+     // Smooth out the line that represents the first data series.
+     chart.getSeries().get(0).setSmooth(true);
+
+     // Verify that data points for the first series will not invert their colors if the value is negative.
+     Iterator enumerator = chart.getSeries().get(0).getDataPoints().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertFalse(enumerator.next().getInvertIfNegative());
+     }
+
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
+     // For a cleaner looking graph, we can clear format individually.
+     dataPoint.clearFormat();
+
+     // We can also strip an entire series of data points at once.
+     chart.getSeries().get(2).getDataPoints().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.ChartDataPoint.docx");
+ }
+
+ /// 
+ /// Applies a number of data points to a series.
+ /// 
+ private static void applyDataPoints(ChartSeries series, int dataPointsCount, int markerSymbol, int dataPointSize) {
+     for (int i = 0; i < dataPointsCount; i++) {
+         ChartDataPoint point = series.getDataPoints().get(i);
+         point.getMarker().setSymbol(markerSymbol);
+         point.getMarker().setSize(dataPointSize);
+
+         Assert.assertEquals(point.getIndex(), i);
+     }
+ }
  
 ```
 
@@ -209,8 +355,11 @@ Shows how to work with data points on a line chart.
          Assert.assertFalse(enumerator.next().getInvertIfNegative());
      }
 
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
      // For a cleaner looking graph, we can clear format individually.
-     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+     dataPoint.clearFormat();
 
      // We can also strip an entire series of data points at once.
      chart.getSeries().get(2).getDataPoints().clearFormat();
@@ -243,6 +392,64 @@ public boolean getInvertIfNegative()
 
 Specifies whether the parent element shall inverts its colors if the value is negative.
 
+ **Examples:** 
+
+Shows how to work with data points on a line chart.
+
+```
+
+ public void chartDataPoint() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape shape = builder.insertChart(ChartType.LINE, 500.0, 350.0);
+     Chart chart = shape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Emphasize the chart's data points by making them appear as diamond shapes.
+     for (ChartSeries series : chart.getSeries())
+         applyDataPoints(series, 4, MarkerSymbol.DIAMOND, 15);
+
+     // Smooth out the line that represents the first data series.
+     chart.getSeries().get(0).setSmooth(true);
+
+     // Verify that data points for the first series will not invert their colors if the value is negative.
+     Iterator enumerator = chart.getSeries().get(0).getDataPoints().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertFalse(enumerator.next().getInvertIfNegative());
+     }
+
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
+     // For a cleaner looking graph, we can clear format individually.
+     dataPoint.clearFormat();
+
+     // We can also strip an entire series of data points at once.
+     chart.getSeries().get(2).getDataPoints().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.ChartDataPoint.docx");
+ }
+
+ /// 
+ /// Applies a number of data points to a series.
+ /// 
+ private static void applyDataPoints(ChartSeries series, int dataPointsCount, int markerSymbol, int dataPointSize) {
+     for (int i = 0; i < dataPointsCount; i++) {
+         ChartDataPoint point = series.getDataPoints().get(i);
+         point.getMarker().setSymbol(markerSymbol);
+         point.getMarker().setSize(dataPointSize);
+
+         Assert.assertEquals(point.getIndex(), i);
+     }
+ }
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getMarker() {#getMarker}
@@ -252,6 +459,43 @@ public ChartMarker getMarker()
 
 
 Specifies chart data marker.
+
+ **Examples:** 
+
+Show how to set marker formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.SCATTER, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+ ChartSeries series = chart.getSeries().add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.9 },
+         new double[] { 2.7, 3.2, 0.8, 1.7 });
+
+ // Set marker formatting.
+ series.getMarker().setSize(40);
+ series.getMarker().setSymbol(MarkerSymbol.SQUARE);
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+ dataPoints.get(0).getMarker().getFormat().getFill().presetTextured(PresetTexture.DENIM);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setBackColor(Color.RED);
+ dataPoints.get(1).getMarker().getFormat().getFill().presetTextured(PresetTexture.WATER_DROPLETS);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setVisible(false);
+ dataPoints.get(2).getMarker().getFormat().getFill().presetTextured(PresetTexture.GREEN_MARBLE);
+ dataPoints.get(2).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getFill().presetTextured(PresetTexture.OAK);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setTransparency(0.5);
+
+ doc.save(getArtifactsDir() + "Charts.MarkerFormatting.docx");
+ 
+```
 
 **Returns:**
 [ChartMarker](../../com.aspose.words/chartmarker/) - The corresponding [ChartMarker](../../com.aspose.words/chartmarker/) value.
@@ -314,6 +558,35 @@ public void setExplosion(int value)
 
 Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
 
+ **Examples:** 
+
+Shows how to move the slices of a pie chart away from the center.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.PIE, 500.0, 350.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(1, chart.getSeries().getCount());
+ Assert.assertEquals("Sales", chart.getSeries().get(0).getName());
+
+ // "Slices" of a pie chart may be moved away from the center by a distance via the respective data point's Explosion attribute.
+ // Add a data point to the first portion of the pie chart and move it away from the center by 10 points.
+ // Aspose.Words create data points automatically if them does not exist.
+ ChartDataPoint dataPoint = chart.getSeries().get(0).getDataPoints().get(0);
+ dataPoint.setExplosion(10);
+
+ // Displace the second portion by a greater distance.
+ dataPoint = chart.getSeries().get(0).getDataPoints().get(1);
+ dataPoint.setExplosion(40);
+
+ doc.save(getArtifactsDir() + "Charts.PieChartExplosion.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -326,6 +599,64 @@ public void setInvertIfNegative(boolean value)
 
 
 Specifies whether the parent element shall inverts its colors if the value is negative.
+
+ **Examples:** 
+
+Shows how to work with data points on a line chart.
+
+```
+
+ public void chartDataPoint() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape shape = builder.insertChart(ChartType.LINE, 500.0, 350.0);
+     Chart chart = shape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Emphasize the chart's data points by making them appear as diamond shapes.
+     for (ChartSeries series : chart.getSeries())
+         applyDataPoints(series, 4, MarkerSymbol.DIAMOND, 15);
+
+     // Smooth out the line that represents the first data series.
+     chart.getSeries().get(0).setSmooth(true);
+
+     // Verify that data points for the first series will not invert their colors if the value is negative.
+     Iterator enumerator = chart.getSeries().get(0).getDataPoints().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertFalse(enumerator.next().getInvertIfNegative());
+     }
+
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
+     // For a cleaner looking graph, we can clear format individually.
+     dataPoint.clearFormat();
+
+     // We can also strip an entire series of data points at once.
+     chart.getSeries().get(2).getDataPoints().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.ChartDataPoint.docx");
+ }
+
+ /// 
+ /// Applies a number of data points to a series.
+ /// 
+ private static void applyDataPoints(ChartSeries series, int dataPointsCount, int markerSymbol, int dataPointSize) {
+     for (int i = 0; i < dataPointsCount; i++) {
+         ChartDataPoint point = series.getDataPoints().get(i);
+         point.getMarker().setSymbol(markerSymbol);
+         point.getMarker().setSize(dataPointSize);
+
+         Assert.assertEquals(point.getIndex(), i);
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

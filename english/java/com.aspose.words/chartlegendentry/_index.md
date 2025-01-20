@@ -42,6 +42,8 @@ Shows how to work with a legend font.
  // Change font for specific legend entry.
  chartLegend.getLegendEntries().get(1).getFont().setItalic(true);
  chartLegend.getLegendEntries().get(1).getFont().setSize(12.0);
+ // Get legend entry for chart series.
+ ChartLegendEntry legendEntry = chart.getSeries().get(0).getLegendEntry();
 
  doc.save(getArtifactsDir() + "Charts.LegendFont.docx");
  
@@ -107,6 +109,8 @@ Shows how to work with a legend font.
  // Change font for specific legend entry.
  chartLegend.getLegendEntries().get(1).getFont().setItalic(true);
  chartLegend.getLegendEntries().get(1).getFont().setSize(12.0);
+ // Get legend entry for chart series.
+ ChartLegendEntry legendEntry = chart.getSeries().get(0).getLegendEntry();
 
  doc.save(getArtifactsDir() + "Charts.LegendFont.docx");
  

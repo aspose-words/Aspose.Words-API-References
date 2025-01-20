@@ -44,6 +44,7 @@ Shows how to show data table with chart series data.
  dataTable.hasLegendKeys(false);
  dataTable.hasHorizontalBorder(false);
  dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
 
  dataTable.getFont().setItalic(true);
  dataTable.getFormat().getStroke().setWeight(1.0);
@@ -110,6 +111,42 @@ public Font getFont()
 
 Provides access to font formatting of the data table.
 
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
+
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getFormat() {#getFormat}
@@ -119,6 +156,42 @@ public ChartFormat getFormat()
 
 
 Provides access to fill of text background and border formatting of the data table.
+
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
 
 **Returns:**
 [ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
@@ -185,6 +258,7 @@ Shows how to show data table with chart series data.
  dataTable.hasLegendKeys(false);
  dataTable.hasHorizontalBorder(false);
  dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
 
  dataTable.getFont().setItalic(true);
  dataTable.getFormat().getStroke().setWeight(1.0);
@@ -205,6 +279,42 @@ public boolean hasHorizontalBorder()
 
 Gets a flag indicating whether a horizontal border of the data table is displayed. The default value is  true .
 
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
+
 **Returns:**
 boolean - A flag indicating whether a horizontal border of the data table is displayed.
 ### hasHorizontalBorder(boolean value) {#hasHorizontalBorder-boolean}
@@ -214,6 +324,42 @@ public void hasHorizontalBorder(boolean value)
 
 
 Sets a flag indicating whether a horizontal border of the data table is displayed. The default value is  true .
+
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,6 +374,42 @@ public boolean hasLegendKeys()
 
 Gets a flag indicating whether legend keys are displayed in the data table. The default value is  true .
 
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
+
 **Returns:**
 boolean - A flag indicating whether legend keys are displayed in the data table.
 ### hasLegendKeys(boolean value) {#hasLegendKeys-boolean}
@@ -237,6 +419,42 @@ public void hasLegendKeys(boolean value)
 
 
 Sets a flag indicating whether legend keys are displayed in the data table. The default value is  true .
+
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,6 +469,42 @@ public boolean hasOutlineBorder()
 
 Gets a flag indicating whether an outline border, that is, a border around series and category names, is displayed. The default value is  true .
 
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
+
 **Returns:**
 boolean - A flag indicating whether an outline border, that is, a border around series and category names, is displayed.
 ### hasOutlineBorder(boolean value) {#hasOutlineBorder-boolean}
@@ -260,6 +514,42 @@ public void hasOutlineBorder(boolean value)
 
 
 Sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed. The default value is  true .
+
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -274,6 +564,42 @@ public boolean hasVerticalBorder()
 
 Gets a flag indicating whether a vertical border of the data table is displayed. The default value is  true .
 
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
+
 **Returns:**
 boolean - A flag indicating whether a vertical border of the data table is displayed.
 ### hasVerticalBorder(boolean value) {#hasVerticalBorder-boolean}
@@ -283,6 +609,42 @@ public void hasVerticalBorder(boolean value)
 
 
 Sets a flag indicating whether a vertical border of the data table is displayed. The default value is  true .
+
+ **Examples:** 
+
+Shows how to show data table with chart series data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,6 +729,7 @@ Shows how to show data table with chart series data.
  dataTable.hasLegendKeys(false);
  dataTable.hasHorizontalBorder(false);
  dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
 
  dataTable.getFont().setItalic(true);
  dataTable.getFormat().getStroke().setWeight(1.0);

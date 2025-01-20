@@ -4,7 +4,7 @@ linktitle: SplitOptions
 second_title: Aspose.Words for Java
 description: Specifies options how the document is split into parts in Java.
 type: docs
-weight: 604
+weight: 606
 url: /java/com.aspose.words/splitoptions/
 ---
 
@@ -31,6 +31,21 @@ public int getSplitCriteria()
 
 Specifies the criteria for splitting the document into parts.
 
+ **Examples:** 
+
+Shows how to split document by pages.
+
+```
+
+ String doc = getMyDir() + "Big document.docx";
+
+ SplitOptions options = new SplitOptions();
+ options.setSplitCriteria(SplitCriteria.PAGE);
+ Splitter.split(doc, getArtifactsDir() + "LowCode.SplitDocument.1.docx", options);
+ Splitter.split(doc, getArtifactsDir() + "LowCode.SplitDocument.2.docx", SaveFormat.DOCX, options);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SplitCriteria](../../com.aspose.words/splitcriteria/) constants.
 ### getSplitStyle() {#getSplitStyle}
@@ -50,6 +65,21 @@ public void setSplitCriteria(int value)
 
 
 Specifies the criteria for splitting the document into parts.
+
+ **Examples:** 
+
+Shows how to split document by pages.
+
+```
+
+ String doc = getMyDir() + "Big document.docx";
+
+ SplitOptions options = new SplitOptions();
+ options.setSplitCriteria(SplitCriteria.PAGE);
+ Splitter.split(doc, getArtifactsDir() + "LowCode.SplitDocument.1.docx", options);
+ Splitter.split(doc, getArtifactsDir() + "LowCode.SplitDocument.2.docx", SaveFormat.DOCX, options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

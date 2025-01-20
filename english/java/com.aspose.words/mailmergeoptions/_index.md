@@ -4,7 +4,7 @@ linktitle: MailMergeOptions
 second_title: Aspose.Words for Java
 description: Represents options for the mail merge functionality in Java.
 type: docs
-weight: 431
+weight: 432
 url: /java/com.aspose.words/mailmergeoptions/
 ---
 
@@ -15,6 +15,26 @@ public class MailMergeOptions
 ```
 
 Represents options for the mail merge functionality.
+
+ **Examples:** 
+
+Shows how to do mail merge operation for a single record.
+
+```
+
+ // There is a several ways to do mail merge operation:
+ String doc = getMyDir() + "Mail merge.doc";
+
+ String[] fieldNames = new String[]{"FirstName", "Location", "SpecialCharsInName()"};
+ String[] fieldValues = new String[]{"James Bond", "London", "Classified"};
+
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.2.docx", SaveFormat.DOCX, fieldNames, fieldValues);
+ MailMergeOptions options = new MailMergeOptions();
+ options.setTrimWhitespaces(true);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, options, fieldNames, fieldValues);
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -194,6 +214,26 @@ Gets a value indicating whether trailing and leading whitespaces are trimmed fro
  **Remarks:** 
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to do mail merge operation for a single record.
+
+```
+
+ // There is a several ways to do mail merge operation:
+ String doc = getMyDir() + "Mail merge.doc";
+
+ String[] fieldNames = new String[]{"FirstName", "Location", "SpecialCharsInName()"};
+ String[] fieldValues = new String[]{"James Bond", "London", "Classified"};
+
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.2.docx", SaveFormat.DOCX, fieldNames, fieldValues);
+ MailMergeOptions options = new MailMergeOptions();
+ options.setTrimWhitespaces(true);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, options, fieldNames, fieldValues);
+ 
+```
 
 **Returns:**
 boolean - A value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
@@ -412,6 +452,26 @@ Sets a value indicating whether trailing and leading whitespaces are trimmed fro
  **Remarks:** 
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to do mail merge operation for a single record.
+
+```
+
+ // There is a several ways to do mail merge operation:
+ String doc = getMyDir() + "Mail merge.doc";
+
+ String[] fieldNames = new String[]{"FirstName", "Location", "SpecialCharsInName()"};
+ String[] fieldValues = new String[]{"James Bond", "London", "Classified"};
+
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.2.docx", SaveFormat.DOCX, fieldNames, fieldValues);
+ MailMergeOptions options = new MailMergeOptions();
+ options.setTrimWhitespaces(true);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, options, fieldNames, fieldValues);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 441
+weight: 443
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -99,6 +99,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [getExportImagesAsBase64()](#getExportImagesAsBase64) | Specifies whether images are saved in Base64 format to the output file. |
 | [getExportUnderlineFormatting()](#getExportUnderlineFormatting) | Gets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". |
 | [getForcePageBreaks()](#getForcePageBreaks) | Allows to specify whether the page breaks should be preserved during export. |
+| [getImageResolution()](#getImageResolution) | Specifies the output resolution for images when exporting to Markdown. |
 | [getImageSavingCallback()](#getImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getImagesFolder()](#getImagesFolder) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getImagesFolderAlias()](#getImagesFolderAlias) | Specifies the name of the folder used to construct image URIs written into a document. |
@@ -106,6 +107,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [getLinkExportMode()](#getLinkExportMode) | Specifies how links will be written to the output file. |
 | [getListExportMode()](#getListExportMode) | Specifies how list items will be written to the output file. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
+| [getOfficeMathExportMode()](#getOfficeMathExportMode) | Specifies how OfficeMath will be written to the output file. |
 | [getParagraphBreak()](#getParagraphBreak) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
@@ -130,6 +132,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean) | Specifies whether images are saved in Base64 format to the output file. |
 | [setExportUnderlineFormatting(boolean value)](#setExportUnderlineFormatting-boolean) | Sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". |
 | [setForcePageBreaks(boolean value)](#setForcePageBreaks-boolean) | Allows to specify whether the page breaks should be preserved during export. |
+| [setImageResolution(int value)](#setImageResolution-int) | Specifies the output resolution for images when exporting to Markdown. |
 | [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setImagesFolder(String value)](#setImagesFolder-java.lang.String) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setImagesFolderAlias(String value)](#setImagesFolderAlias-java.lang.String) | Specifies the name of the folder used to construct image URIs written into a document. |
@@ -137,6 +140,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [setLinkExportMode(int value)](#setLinkExportMode-int) | Specifies how links will be written to the output file. |
 | [setListExportMode(int value)](#setListExportMode-int) | Specifies how list items will be written to the output file. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
+| [setOfficeMathExportMode(int value)](#setOfficeMathExportMode-int) | Specifies how OfficeMath will be written to the output file. |
 | [setParagraphBreak(String value)](#setParagraphBreak-java.lang.String) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
@@ -746,6 +750,31 @@ Shows how to specify whether to preserve page breaks when exporting a document t
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getImageResolution() {#getImageResolution}
+```
+public int getImageResolution()
+```
+
+
+Specifies the output resolution for images when exporting to Markdown. Default is  96 dpi .
+
+ **Examples:** 
+
+Shows how to set the output resolution for images.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setImageResolution(300);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ImageResolution.md", saveOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value.
 ### getImageSavingCallback() {#getImageSavingCallback}
 ```
 public IImageSavingCallback getImageSavingCallback()
@@ -1039,6 +1068,31 @@ Shows an option to optimize memory consumption when rendering large documents to
 
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
+### getOfficeMathExportMode() {#getOfficeMathExportMode}
+```
+public int getOfficeMathExportMode()
+```
+
+
+Specifies how OfficeMath will be written to the output file. Default value is [MarkdownOfficeMathExportMode.TEXT](../../com.aspose.words/markdownofficemathexportmode/\#TEXT).
+
+ **Examples:** 
+
+Shows how OfficeMath will be written to the document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.IMAGE);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MarkdownOfficeMathExportMode](../../com.aspose.words/markdownofficemathexportmode/) constants.
 ### getParagraphBreak() {#getParagraphBreak}
 ```
 public String getParagraphBreak()
@@ -2264,6 +2318,34 @@ Shows how to specify whether to preserve page breaks when exporting a document t
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
+### setImageResolution(int value) {#setImageResolution-int}
+```
+public void setImageResolution(int value)
+```
+
+
+Specifies the output resolution for images when exporting to Markdown. Default is  96 dpi .
+
+ **Examples:** 
+
+Shows how to set the output resolution for images.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setImageResolution(300);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ImageResolution.md", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. |
+
 ### setImageSavingCallback(IImageSavingCallback value) {#setImageSavingCallback-com.aspose.words.IImageSavingCallback}
 ```
 public void setImageSavingCallback(IImageSavingCallback value)
@@ -2577,6 +2659,34 @@ Shows an option to optimize memory consumption when rendering large documents to
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Value determining if memory optimization should be performed before saving the document. |
+
+### setOfficeMathExportMode(int value) {#setOfficeMathExportMode-int}
+```
+public void setOfficeMathExportMode(int value)
+```
+
+
+Specifies how OfficeMath will be written to the output file. Default value is [MarkdownOfficeMathExportMode.TEXT](../../com.aspose.words/markdownofficemathexportmode/\#TEXT).
+
+ **Examples:** 
+
+Shows how OfficeMath will be written to the document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.IMAGE);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [MarkdownOfficeMathExportMode](../../com.aspose.words/markdownofficemathexportmode/) constants. |
 
 ### setParagraphBreak(String value) {#setParagraphBreak-java.lang.String}
 ```

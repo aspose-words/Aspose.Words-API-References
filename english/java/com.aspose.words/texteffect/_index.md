@@ -4,7 +4,7 @@ linktitle: TextEffect
 second_title: Aspose.Words for Java
 description: Animation effect for text runs in Java.
 type: docs
-weight: 645
+weight: 647
 url: /java/com.aspose.words/texteffect/
 ---
 

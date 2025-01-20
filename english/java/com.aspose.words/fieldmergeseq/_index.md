@@ -4,7 +4,7 @@ linktitle: FieldMergeSeq
 second_title: Aspose.Words for Java
 description: Implements the MERGESEQ field in Java.
 type: docs
-weight: 253
+weight: 254
 url: /java/com.aspose.words/fieldmergeseq/
 ---
 

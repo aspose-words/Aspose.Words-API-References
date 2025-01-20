@@ -4,7 +4,7 @@ linktitle: OptionButtonControl
 second_title: Aspose.Words for Java
 description: The OptionButton control enables a single choice in a limited set of mutually exclusive choices in Java.
 type: docs
-weight: 488
+weight: 490
 url: /java/com.aspose.words/optionbuttoncontrol/
 ---
 
@@ -117,7 +117,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 
@@ -621,7 +621,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 

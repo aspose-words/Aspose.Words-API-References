@@ -4,7 +4,7 @@ linktitle: MappedDataFieldCollection
 second_title: Aspose.Words for Java
 description: Allows to automatically map between names of fields in your data source and names of mail merge fields in the document in Java.
 type: docs
-weight: 435
+weight: 436
 url: /java/com.aspose.words/mappeddatafieldcollection/
 ---
 

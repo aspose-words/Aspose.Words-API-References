@@ -56,6 +56,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -299,6 +301,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -369,6 +373,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -525,6 +531,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -546,6 +553,63 @@ public DocumentBase getDocument()
 
 Returns the document containing the parent chart.
 
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
+
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - The document containing the parent chart.
 ### getFormat() {#getFormat}
@@ -559,6 +623,63 @@ Provides access to line formatting of the axis and fill of the tick labels.
  **Remarks:** 
 
 Fill of chart tick marks can be changed only for pre Word 2016 charts. Word 2016 charts do not support this.
+
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
 
 **Returns:**
 [ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
@@ -647,6 +768,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -717,6 +840,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -798,6 +923,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -869,6 +995,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -924,6 +1051,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -995,6 +1124,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -1076,6 +1207,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -1147,6 +1279,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -1263,6 +1396,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -1368,6 +1503,63 @@ public AxisTickLabels getTickLabels()
 
 Provides access to the properties of the axis tick mark labels.
 
+ **Examples:** 
+
+Shows how to insert a chart and modify the appearance of its axes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
+
 **Returns:**
 [AxisTickLabels](../../com.aspose.words/axisticklabels/) - The corresponding [AxisTickLabels](../../com.aspose.words/axisticklabels/) value.
 ### getTickMarkSpacing() {#getTickMarkSpacing}
@@ -1419,6 +1611,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -1448,6 +1642,39 @@ public ChartAxisTitle getTitle()
 
 
 Provides access to the axis title properties.
+
+ **Examples:** 
+
+Shows how to set chart axis title.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+
+ Chart chart = shape.getChart();
+ ChartSeriesCollection seriesColl = chart.getSeries();
+ // Delete default generated series.
+ seriesColl.clear();
+
+ seriesColl.add("AW Series 1", new String[] { "AW Category 1", "AW Category 2" }, new double[] { 1.0, 2.0 });
+
+ // Set axis title.
+ ChartAxisTitle chartAxisXTitle = chart.getAxisX().getTitle();
+ chartAxisXTitle.setText("Categories");
+ chartAxisXTitle.setShow(true);
+ ChartAxisTitle chartAxisYTitle = chart.getAxisY().getTitle();
+ chartAxisYTitle.setText("Values");
+ chartAxisYTitle.setShow(true);
+ chartAxisYTitle.setOverlay(true);
+ chartAxisYTitle.getFont().setSize(12.0);
+ chartAxisYTitle.getFont().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.ChartAxisTitle.docx");
+ 
+```
 
 **Returns:**
 [ChartAxisTitle](../../com.aspose.words/chartaxistitle/) - The corresponding [ChartAxisTitle](../../com.aspose.words/chartaxistitle/) value.
@@ -2046,6 +2273,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -2119,6 +2348,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -2281,6 +2512,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -2354,6 +2587,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -2438,6 +2673,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -2512,6 +2748,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -2570,6 +2807,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -2644,6 +2883,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -2728,6 +2969,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -2802,6 +3044,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
  axis.getTickLabels().setAlignment(ParagraphAlignment.RIGHT);
 
  Assert.assertEquals(1, axis.getTickLabels().getSpacing());
+ Assert.assertEquals(doc, axis.getDisplayUnit().getDocument());
 
  // Set the tick labels to display their value in millions.
  axis.getDisplayUnit().setUnit(AxisBuiltInUnit.MILLIONS);
@@ -2864,6 +3107,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -2951,6 +3196,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
