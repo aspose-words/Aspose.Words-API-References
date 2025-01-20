@@ -4,7 +4,7 @@ linktitle: MorphDataControl
 second_title: Aspose.Words for Java
 description: The MorphDataControl structure is an aggregate of six controls CheckBox ComboBox ListBox OptionButton TextBox and ToggleButton in Java.
 type: docs
-weight: 454
+weight: 456
 url: /java/com.aspose.words/morphdatacontrol/
 ---
 
@@ -90,7 +90,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 
@@ -554,7 +554,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 

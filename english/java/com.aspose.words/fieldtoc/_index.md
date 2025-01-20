@@ -4,7 +4,7 @@ linktitle: FieldToc
 second_title: Aspose.Words for Java
 description: Implements the TOC field in Java.
 type: docs
-weight: 291
+weight: 292
 url: /java/com.aspose.words/fieldtoc/
 ---
 
@@ -336,6 +336,22 @@ public String getCaptionlessTableOfFiguresLabel()
 
 
 Gets the name of the sequence identifier used when building a table of figures that does not include caption's label and number.
+
+ **Examples:** 
+
+Shows how to set the name of the sequence identifier.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ FieldToc fieldToc = (FieldToc)builder.insertField(FieldType.FIELD_TOC, true);
+ fieldToc.setCaptionlessTableOfFiguresLabel("Test");
+
+ Assert.assertEquals(" TOC  \\a Test", fieldToc.getFieldCode());
+ 
+```
 
 **Returns:**
 java.lang.String - The name of the sequence identifier used when building a table of figures that does not include caption's label and number.
@@ -2581,6 +2597,22 @@ public void setCaptionlessTableOfFiguresLabel(String value)
 
 
 Sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number.
+
+ **Examples:** 
+
+Shows how to set the name of the sequence identifier.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ FieldToc fieldToc = (FieldToc)builder.insertField(FieldType.FIELD_TOC, true);
+ fieldToc.setCaptionlessTableOfFiguresLabel("Test");
+
+ Assert.assertEquals(" TOC  \\a Test", fieldToc.getFieldCode());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

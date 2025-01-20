@@ -4,7 +4,7 @@ linktitle: MergeFieldImageDimensionUnit
 second_title: Aspose.Words for Java
 description: Specifies an unit of an image dimension i.e in Java.
 type: docs
-weight: 448
+weight: 450
 url: /java/com.aspose.words/mergefieldimagedimensionunit/
 ---
 
@@ -71,6 +71,7 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
          Assert.assertEquals(mUnit, args.getImageWidth().getUnit());
          Assert.assertEquals(mImageHeight, args.getImageHeight().getValue());
          Assert.assertEquals(mUnit, args.getImageHeight().getUnit());
+         Assert.assertNull(args.getShape());
      }
 
      private final double mImageWidth;

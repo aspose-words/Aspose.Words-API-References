@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 613
+weight: 615
 url: /java/com.aspose.words/structureddocumenttagrangestart/
 ---
 
@@ -1325,7 +1325,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (185388,6)
+Returns  true  if this node can contain other nodes. (189260,6)
 
  **Examples:** 
 

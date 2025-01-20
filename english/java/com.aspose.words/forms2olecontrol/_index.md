@@ -4,7 +4,7 @@ linktitle: Forms2OleControl
 second_title: Aspose.Words for Java
 description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
-weight: 340
+weight: 341
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
@@ -130,7 +130,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 
@@ -594,7 +594,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 

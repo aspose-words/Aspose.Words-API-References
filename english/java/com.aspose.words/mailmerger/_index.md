@@ -4,7 +4,7 @@ linktitle: MailMerger
 second_title: Aspose.Words for Java
 description: Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations in Java.
 type: docs
-weight: 434
+weight: 435
 url: /java/com.aspose.words/mailmerger/
 ---
 
@@ -167,7 +167,7 @@ Shows how to do mail merge operation from a DataRow.
  dataTable.getColumns().add("Location");
  dataTable.getColumns().add("SpecialCharsInName()");
 
- dataTable.getRows().add(new String[] { "James Bond", "London", "Classified" });
+ dataTable.getRows().add(new String[]{"James Bond", "London", "Classified"});
  DataRow dataRow = dataTable.getRows().get(0);
 
  MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMergeDataRow.1.docx", dataRow);
@@ -342,8 +342,8 @@ Shows how to do mail merge operation for a single record.
  // There is a several ways to do mail merge operation:
  String doc = getMyDir() + "Mail merge.doc";
 
- String[] fieldNames = new String[] { "FirstName", "Location", "SpecialCharsInName()" };
- String[] fieldValues = new String[] { "James Bond", "London", "Classified" };
+ String[] fieldNames = new String[]{"FirstName", "Location", "SpecialCharsInName()"};
+ String[] fieldValues = new String[]{"James Bond", "London", "Classified"};
 
  MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
  MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.2.docx", SaveFormat.DOCX, fieldNames, fieldValues);
@@ -447,16 +447,16 @@ Shows how to do mail merge with regions operation from a DataSet.
  DataTable tableCustomers = new DataTable("Customers");
  tableCustomers.getColumns().add("CustomerID");
  tableCustomers.getColumns().add("CustomerName");
- tableCustomers.getRows().add(new Object[] { 1, "John Doe" });
- tableCustomers.getRows().add(new Object[] { 2, "Jane Doe" });
+ tableCustomers.getRows().add(new Object[]{1, "John Doe"});
+ tableCustomers.getRows().add(new Object[]{2, "Jane Doe"});
 
  DataTable tableOrders = new DataTable("Orders");
  tableOrders.getColumns().add("CustomerID");
  tableOrders.getColumns().add("ItemName");
  tableOrders.getColumns().add("Quantity");
- tableOrders.getRows().add(new Object[] { 1, "Hawaiian", 2 });
- tableOrders.getRows().add(new Object[] { 2, "Pepperoni", 1 });
- tableOrders.getRows().add(new Object[] { 2, "Chicago", 1 });
+ tableOrders.getRows().add(new Object[]{1, "Hawaiian", 2});
+ tableOrders.getRows().add(new Object[]{2, "Pepperoni", 1});
+ tableOrders.getRows().add(new Object[]{2, "Chicago", 1});
 
  DataSet dataSet = new DataSet();
  dataSet.getTables().add(tableCustomers);
@@ -498,9 +498,9 @@ Shows how to do mail merge with regions operation from a DataTable.
  DataTable dataTable = new DataTable("MyTable");
  dataTable.getColumns().add("FirstName");
  dataTable.getColumns().add("LastName");
- dataTable.getRows().add(new Object[] { "John", "Doe" });
- dataTable.getRows().add(new Object[] { "", "" });
- dataTable.getRows().add(new Object[] { "Jane", "Doe" });
+ dataTable.getRows().add(new Object[]{"John", "Doe"});
+ dataTable.getRows().add(new Object[]{"", ""});
+ dataTable.getRows().add(new Object[]{"Jane", "Doe"});
 
  MailMerger.executeWithRegions(doc, getArtifactsDir() + "LowCode.MailMergeWithRegionsDataTable.1.docx", dataTable);
  MailMerger.executeWithRegions(doc, getArtifactsDir() + "LowCode.MailMergeWithRegionsDataTable.2.docx", SaveFormat.DOCX, dataTable);

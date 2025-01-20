@@ -4,7 +4,7 @@ linktitle: IAiModelText
 second_title: Aspose.Words for Java
 description: The common interface for AI models designed to generate a variety of text-based content in Java.
 type: docs
-weight: 721
+weight: 723
 url: /java/com.aspose.words/iaimodeltext/
 ---
 ```
@@ -24,7 +24,7 @@ Shows how to summarize text using OpenAI and Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI or Google generative language models.
- IAiModelText model = (IAiModelText) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ IAiModelText model = ((OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey)).withOrganization("Organization").withProject("Project");
 
  SummarizeOptions options = new SummarizeOptions();
  options.setSummaryLength(SummaryLength.SHORT);
@@ -41,9 +41,26 @@ Shows how to summarize text using OpenAI and Google models.
 
 | Method | Description |
 | --- | --- |
+| [checkGrammar(Document sourceDocument, CheckGrammarOptions options)](#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) | Checks grammar of the provided document. |
 | [summarize(Document sourceDocument, SummarizeOptions options)](#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions) | Generates a summary of the specified document, with options to adjust the length of the summary. |
 | [summarize(Document[] sourceDocuments, SummarizeOptions options)](#summarize-com.aspose.words.Document---com.aspose.words.SummarizeOptions) | Generates summaries for an array of documents, with options to control the summary length and other settings. |
 | [translate(Document sourceDocument, int targetLanguage)](#translate-com.aspose.words.Document-int) |  |
+### checkGrammar(Document sourceDocument, CheckGrammarOptions options) {#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions}
+```
+public abstract Document checkGrammar(Document sourceDocument, CheckGrammarOptions options)
+```
+
+
+Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceDocument | [Document](../../com.aspose.words/document/) | The document being checked for grammar. |
+| options | [CheckGrammarOptions](../../com.aspose.words/checkgrammaroptions/) | Optional settings to control how grammar will be checked. |
+
+**Returns:**
+[Document](../../com.aspose.words/document/) - A new [Document](../../com.aspose.words/document/) with checked grammar.
 ### summarize(Document sourceDocument, SummarizeOptions options) {#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions}
 ```
 public abstract Document summarize(Document sourceDocument, SummarizeOptions options)
@@ -63,7 +80,7 @@ Shows how to summarize text using OpenAI and Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI or Google generative language models.
- IAiModelText model = (IAiModelText) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ IAiModelText model = ((OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey)).withOrganization("Organization").withProject("Project");
 
  SummarizeOptions options = new SummarizeOptions();
  options.setSummaryLength(SummaryLength.SHORT);
@@ -104,7 +121,7 @@ Shows how to summarize text using OpenAI and Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI or Google generative language models.
- IAiModelText model = (IAiModelText) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ IAiModelText model = ((OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey)).withOrganization("Organization").withProject("Project");
 
  SummarizeOptions options = new SummarizeOptions();
  options.setSummaryLength(SummaryLength.SHORT);

@@ -4,7 +4,7 @@ linktitle: CommandButtonControl
 second_title: Aspose.Words for Java
 description: The CommandButton control runs a macro that performs an action when a user clicks it in Java.
 type: docs
-weight: 104
+weight: 105
 url: /java/com.aspose.words/commandbuttoncontrol/
 ---
 
@@ -26,7 +26,7 @@ Shows how to insert ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl();
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals(Forms2OleControlType.COMMAND_BUTTON, ((Forms2OleControl)shape.getOleFormat().getOleControl()).getType());
+ Assert.assertEquals(Forms2OleControlType.COMMAND_BUTTON, button1.getType());
  
 ```
 ## Constructors
@@ -71,6 +71,20 @@ public CommandButtonControl()
 
 
 Initializes a new instance of [CommandButtonControl](../../com.aspose.words/commandbuttoncontrol/) class.
+
+ **Examples:** 
+
+Shows how to insert ActiveX control.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ CommandButtonControl button1 = new CommandButtonControl();
+ Shape shape = builder.insertForms2OleControl(button1);
+ Assert.assertEquals(Forms2OleControlType.COMMAND_BUTTON, button1.getType());
+ 
+```
 
 ### getBackColor() {#getBackColor}
 ```
@@ -117,7 +131,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 
@@ -392,6 +406,20 @@ public int getType()
 
 Gets type of Forms 2.0 control.
 
+ **Examples:** 
+
+Shows how to insert ActiveX control.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ CommandButtonControl button1 = new CommandButtonControl();
+ Shape shape = builder.insertForms2OleControl(button1);
+ Assert.assertEquals(Forms2OleControlType.COMMAND_BUTTON, button1.getType());
+ 
+```
+
 **Returns:**
 int - Type of Forms 2.0 control. The returned value is one of [Forms2OleControlType](../../com.aspose.words/forms2olecontroltype/) constants.
 ### getValue() {#getValue}
@@ -557,7 +585,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 

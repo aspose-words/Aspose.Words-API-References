@@ -4,7 +4,7 @@ linktitle: SystemFontSource
 second_title: Aspose.Words for Java
 description: Represents all TrueType fonts installed to the system in Java.
 type: docs
-weight: 623
+weight: 625
 url: /java/com.aspose.words/systemfontsource/
 ---
 
@@ -61,6 +61,7 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
  
 ```
 
@@ -135,6 +136,7 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
  
 ```
 
@@ -189,6 +191,7 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
  
 ```
 
@@ -334,6 +337,7 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
  
 ```
 
@@ -390,6 +394,7 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
  
 ```
 

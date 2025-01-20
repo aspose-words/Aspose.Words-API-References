@@ -4,7 +4,7 @@ linktitle: ContributorCollection
 second_title: Aspose.Words for Java
 description: Represents bibliography source contributors in Java.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.words/contributorcollection/
 ---
 
@@ -30,8 +30,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -49,6 +50,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -82,6 +84,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -168,8 +173,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -187,6 +193,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -220,6 +227,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -272,8 +282,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -291,6 +302,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -324,6 +336,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -376,8 +391,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -395,6 +411,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -428,6 +445,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -480,8 +500,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -499,6 +520,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -532,6 +554,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -584,8 +609,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -603,6 +629,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -636,6 +663,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -688,8 +718,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -707,6 +738,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -740,6 +772,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -792,8 +827,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -811,6 +847,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -844,6 +881,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -896,8 +936,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -915,6 +956,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -948,6 +990,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1000,8 +1045,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1019,6 +1065,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1052,6 +1099,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1104,8 +1154,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1123,6 +1174,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1156,6 +1208,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1208,8 +1263,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1227,6 +1283,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1260,6 +1317,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1312,8 +1372,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1331,6 +1392,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1364,6 +1426,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1416,8 +1481,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1435,6 +1501,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1468,6 +1535,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1520,8 +1590,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1539,6 +1610,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1572,6 +1644,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1624,8 +1699,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1643,6 +1719,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1676,6 +1753,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1728,8 +1808,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1747,6 +1828,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1780,6 +1862,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1842,8 +1927,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1861,6 +1947,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -1894,6 +1981,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -1949,8 +2039,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -1968,6 +2059,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2001,6 +2093,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2056,8 +2151,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2075,6 +2171,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2108,6 +2205,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2163,8 +2263,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2182,6 +2283,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2215,6 +2317,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2270,8 +2375,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2289,6 +2395,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2322,6 +2429,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2377,8 +2487,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2396,6 +2507,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2429,6 +2541,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2484,8 +2599,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2503,6 +2619,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2536,6 +2653,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2591,8 +2711,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2610,6 +2731,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2643,6 +2765,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2698,8 +2823,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2717,6 +2843,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2750,6 +2877,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2805,8 +2935,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2824,6 +2955,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2857,6 +2989,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -2912,8 +3047,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2931,6 +3067,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2964,6 +3101,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -3019,8 +3159,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -3038,6 +3179,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -3071,6 +3213,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -3126,8 +3271,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -3145,6 +3291,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -3178,6 +3325,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -3233,8 +3383,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -3252,6 +3403,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -3285,6 +3437,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -3340,8 +3495,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -3359,6 +3515,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -3392,6 +3549,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -3447,8 +3607,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -3466,6 +3627,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -3499,6 +3661,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());

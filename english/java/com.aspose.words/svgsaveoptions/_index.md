@@ -4,7 +4,7 @@ linktitle: SvgSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.SVG format in Java.
 type: docs
-weight: 621
+weight: 623
 url: /java/com.aspose.words/svgsaveoptions/
 ---
 
@@ -75,6 +75,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [getExportEmbeddedImages()](#getExportEmbeddedImages) | Specifies whether images should be embedded into the SVG document as base64. |
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [getFitToViewPort()](#getFitToViewPort) | Specifies if the output SVG should fill the available viewport area (browser window or container). |
+| [getIdPrefix()](#getIdPrefix) | Specifies a prefix that is prepended to all generated element IDs in the output document. |
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
 | [getJpegQuality()](#getJpegQuality) | Gets a value determining the quality of the JPEG images inside Html document. |
 | [getMaxImageResolution()](#getMaxImageResolution) | Gets a value in pixels per inch that limits resolution of exported raster images. |
@@ -86,6 +87,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [getPageSet()](#getPageSet) | Gets the pages to render. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
+| [getRemoveJavaScriptFromLinks()](#getRemoveJavaScriptFromLinks) | Specifies whether JavaScript will be removed from links. |
 | [getResourceSavingCallback()](#getResourceSavingCallback) | Allows to control how resources (images) are saved when a document is exported to SVG format. |
 | [getResourcesFolder()](#getResourcesFolder) | Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. |
 | [getResourcesFolderAlias()](#getResourcesFolderAlias) | Specifies the name of the folder used to construct image URIs written into an SVG document. |
@@ -108,6 +110,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [setExportEmbeddedImages(boolean value)](#setExportEmbeddedImages-boolean) | Specifies whether images should be embedded into the SVG document as base64. |
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [setFitToViewPort(boolean value)](#setFitToViewPort-boolean) | Specifies if the output SVG should fill the available viewport area (browser window or container). |
+| [setIdPrefix(String value)](#setIdPrefix-java.lang.String) | Specifies a prefix that is prepended to all generated element IDs in the output document. |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
 | [setJpegQuality(int value)](#setJpegQuality-int) | Sets a value determining the quality of the JPEG images inside Html document. |
 | [setMaxImageResolution(int value)](#setMaxImageResolution-int) | Sets a value in pixels per inch that limits resolution of exported raster images. |
@@ -119,6 +122,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet) | Sets the pages to render. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
+| [setRemoveJavaScriptFromLinks(boolean value)](#setRemoveJavaScriptFromLinks-boolean) | Specifies whether JavaScript will be removed from links. |
 | [setResourceSavingCallback(IResourceSavingCallback value)](#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback) | Allows to control how resources (images) are saved when a document is exported to SVG format. |
 | [setResourcesFolder(String value)](#setResourcesFolder-java.lang.String) | Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. |
 | [setResourcesFolderAlias(String value)](#setResourcesFolderAlias-java.lang.String) | Specifies the name of the folder used to construct image URIs written into an SVG document. |
@@ -558,6 +562,16 @@ Shows how to mimic the properties of images when converting a .docx document to 
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getIdPrefix() {#getIdPrefix}
+```
+public String getIdPrefix()
+```
+
+
+Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getImlRenderingMode() {#getImlRenderingMode}
 ```
 public int getImlRenderingMode()
@@ -1332,6 +1346,31 @@ Shows how to manage a document while saving to docx.
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
+### getRemoveJavaScriptFromLinks() {#getRemoveJavaScriptFromLinks}
+```
+public boolean getRemoveJavaScriptFromLinks()
+```
+
+
+Specifies whether JavaScript will be removed from links. Default is  false . If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
+
+ **Examples:** 
+
+Shows how to remove JavaScript from the links (svg).
+
+```
+
+ Document doc = new Document(getMyDir() + "JavaScript in HREF.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setRemoveJavaScriptFromLinks(true);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.RemoveJavaScriptFromLinksSvg.html", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getResourceSavingCallback() {#getResourceSavingCallback}
 ```
 public IResourceSavingCallback getResourceSavingCallback()
@@ -2227,6 +2266,19 @@ Shows how to mimic the properties of images when converting a .docx document to 
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
+### setIdPrefix(String value) {#setIdPrefix-java.lang.String}
+```
+public void setIdPrefix(String value)
+```
+
+
+Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
 ### setImlRenderingMode(int value) {#setImlRenderingMode-int}
 ```
 public void setImlRenderingMode(int value)
@@ -3033,6 +3085,34 @@ Shows how to manage a document while saving to docx.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value. |
+
+### setRemoveJavaScriptFromLinks(boolean value) {#setRemoveJavaScriptFromLinks-boolean}
+```
+public void setRemoveJavaScriptFromLinks(boolean value)
+```
+
+
+Specifies whether JavaScript will be removed from links. Default is  false . If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
+
+ **Examples:** 
+
+Shows how to remove JavaScript from the links (svg).
+
+```
+
+ Document doc = new Document(getMyDir() + "JavaScript in HREF.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setRemoveJavaScriptFromLinks(true);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.RemoveJavaScriptFromLinksSvg.html", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setResourceSavingCallback(IResourceSavingCallback value) {#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback}
 ```

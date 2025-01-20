@@ -4,7 +4,7 @@ linktitle: IBibliographyStylesProvider
 second_title: Aspose.Words for Java
 description: Implement this interface to provide bibliography style for the FieldBibliography and FieldCitation fields when theyre updated in Java.
 type: docs
-weight: 723
+weight: 725
 url: /java/com.aspose.words/ibibliographystylesprovider/
 ---
 ```
@@ -22,6 +22,9 @@ Shows how to override built-in styles or provide custom one.
  public void changeBibliographyStyles() throws Exception
  {
      Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     // If the document already has a style you can change it with the following code:
+     // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
 
      doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
      doc.updateFields();
@@ -64,6 +67,9 @@ Shows how to override built-in styles or provide custom one.
  public void changeBibliographyStyles() throws Exception
  {
      Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     // If the document already has a style you can change it with the following code:
+     // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
 
      doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
      doc.updateFields();

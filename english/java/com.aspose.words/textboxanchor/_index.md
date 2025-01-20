@@ -4,7 +4,7 @@ linktitle: TextBoxAnchor
 second_title: Aspose.Words for Java
 description: Specifies values used for shape text vertical alignment in Java.
 type: docs
-weight: 639
+weight: 641
 url: /java/com.aspose.words/textboxanchor/
 ---
 

@@ -4,7 +4,7 @@ linktitle: SummaryLength
 second_title: Aspose.Words for Java
 description: Enumerates possible lengths of summary in Java.
 type: docs
-weight: 620
+weight: 622
 url: /java/com.aspose.words/summarylength/
 ---
 
@@ -27,7 +27,7 @@ Shows how to summarize text using OpenAI and Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI or Google generative language models.
- IAiModelText model = (IAiModelText) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ IAiModelText model = ((OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey)).withOrganization("Organization").withProject("Project");
 
  SummarizeOptions options = new SummarizeOptions();
  options.setSummaryLength(SummaryLength.SHORT);

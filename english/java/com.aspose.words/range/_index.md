@@ -4,14 +4,17 @@ linktitle: Range
 second_title: Aspose.Words for Java
 description: Represents a contiguous area in a document in Java.
 type: docs
-weight: 536
+weight: 538
 url: /java/com.aspose.words/range/
 ---
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class Range
+public class Range implements Iterable
 ```
 
 Represents a contiguous area in a document.
@@ -54,6 +57,7 @@ Shows how to get the text contents of all the nodes that a range covers.
 | [getRevisions()](#getRevisions) | Gets a collection of revisions (tracked changes) that exist in this range. |
 | [getStructuredDocumentTags()](#getStructuredDocumentTags) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range/\#getStructuredDocumentTags) collection that represents all structured document tags in the range. |
 | [getText()](#getText) | Gets the text of the range. |
+| [iterator()](#iterator) |  |
 | [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
 | [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [replace(String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
@@ -499,6 +503,16 @@ Shows how to get the text contents of all the nodes that a range covers.
 
 **Returns:**
 java.lang.String - The text of the range.
+### iterator() {#iterator}
+```
+public Iterator iterator()
+```
+
+
+
+
+**Returns:**
+java.util.Iterator
 ### normalizeFieldTypes() {#normalizeFieldTypes}
 ```
 public void normalizeFieldTypes()

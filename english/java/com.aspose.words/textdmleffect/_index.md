@@ -4,7 +4,7 @@ linktitle: TextDmlEffect
 second_title: Aspose.Words for Java
 description: Dml text effect for text runs in Java.
 type: docs
-weight: 644
+weight: 646
 url: /java/com.aspose.words/textdmleffect/
 ---
 

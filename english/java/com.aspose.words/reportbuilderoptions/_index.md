@@ -4,7 +4,7 @@ linktitle: ReportBuilderOptions
 second_title: Aspose.Words for Java
 description: Represents options for the LINQ Reporting Engine functionality in Java.
 type: docs
-weight: 548
+weight: 550
 url: /java/com.aspose.words/reportbuilderoptions/
 ---
 
@@ -15,6 +15,50 @@ public class ReportBuilderOptions
 ```
 
 Represents options for the LINQ Reporting Engine functionality.
+
+ **Examples:** 
+
+Shows how to populate document with data.
+
+```
+
+ public void buildReportData() throws Exception {
+     // There is a several ways to populate document with data:
+     String doc = getMyDir() + "Reporting engine template - If greedy (Java).docx";
+
+     AsposeData obj = new AsposeData();
+     {
+         obj.setList(new ArrayList<>());
+         {
+             obj.getList().add("abc");
+         }
+     }
+
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.1.docx", obj);
+     ReportBuilderOptions options = new ReportBuilderOptions();
+     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.2.docx", obj, options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.3.docx", SaveFormat.DOCX, obj);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.4.docx", SaveFormat.DOCX, obj, options);
+ }
+
+ public static class AsposeData {
+     public ArrayList getList() {
+         return mList;
+     }
+
+     ;
+
+     public void setList(ArrayList value) {
+         mList = value;
+     }
+
+     ;
+
+     private ArrayList mList;
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -73,6 +117,50 @@ public int getOptions()
 
 Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report.
 
+ **Examples:** 
+
+Shows how to populate document with data.
+
+```
+
+ public void buildReportData() throws Exception {
+     // There is a several ways to populate document with data:
+     String doc = getMyDir() + "Reporting engine template - If greedy (Java).docx";
+
+     AsposeData obj = new AsposeData();
+     {
+         obj.setList(new ArrayList<>());
+         {
+             obj.getList().add("abc");
+         }
+     }
+
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.1.docx", obj);
+     ReportBuilderOptions options = new ReportBuilderOptions();
+     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.2.docx", obj, options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.3.docx", SaveFormat.DOCX, obj);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.4.docx", SaveFormat.DOCX, obj, options);
+ }
+
+ public static class AsposeData {
+     public ArrayList getList() {
+         return mList;
+     }
+
+     ;
+
+     public void setList(ArrayList value) {
+         mList = value;
+     }
+
+     ;
+
+     private ArrayList mList;
+ }
+ 
+```
+
 **Returns:**
 int - A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. The returned value is a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions/) constants.
 ### setMissingMemberMessage(String value) {#setMissingMemberMessage-java.lang.String}
@@ -103,6 +191,50 @@ public void setOptions(int value)
 
 
 Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report.
+
+ **Examples:** 
+
+Shows how to populate document with data.
+
+```
+
+ public void buildReportData() throws Exception {
+     // There is a several ways to populate document with data:
+     String doc = getMyDir() + "Reporting engine template - If greedy (Java).docx";
+
+     AsposeData obj = new AsposeData();
+     {
+         obj.setList(new ArrayList<>());
+         {
+             obj.getList().add("abc");
+         }
+     }
+
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.1.docx", obj);
+     ReportBuilderOptions options = new ReportBuilderOptions();
+     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.2.docx", obj, options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.3.docx", SaveFormat.DOCX, obj);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.4.docx", SaveFormat.DOCX, obj, options);
+ }
+
+ public static class AsposeData {
+     public ArrayList getList() {
+         return mList;
+     }
+
+     ;
+
+     public void setList(ArrayList value) {
+         mList = value;
+     }
+
+     ;
+
+     private ArrayList mList;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: ShapeLineStyle
 second_title: Aspose.Words for Java
 description: Specifies the compound line style of a Shape in Java.
 type: docs
-weight: 589
+weight: 591
 url: /java/com.aspose.words/shapelinestyle/
 ---
 

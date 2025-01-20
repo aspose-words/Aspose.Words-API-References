@@ -4,7 +4,7 @@ linktitle: Watermark
 second_title: Aspose.Words for Java
 description: Represents class to work with document watermark in Java.
 type: docs
-weight: 691
+weight: 693
 url: /java/com.aspose.words/watermark/
 ---
 

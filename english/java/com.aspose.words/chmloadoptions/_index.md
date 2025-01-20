@@ -4,7 +4,7 @@ linktitle: ChmLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading CHM document into a Document object in Java.
 type: docs
-weight: 99
+weight: 100
 url: /java/com.aspose.words/chmloadoptions/
 ---
 

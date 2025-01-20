@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 155
+weight: 156
 url: /java/com.aspose.words/document/
 ---
 
@@ -2042,8 +2042,9 @@ Shows how to get bibliography sources available in the document.
  Bibliography bibliography = document.getBibliography();
  Assert.assertEquals(12, bibliography.getSources().size());
 
+ // Get default data from bibliography sources.
  Collection sources = bibliography.getSources();
- Source source = (Source)bibliography.getSources().toArray()[0];
+ Source source = (Source)sources.toArray()[0];
  Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
  Assert.assertEquals(SourceType.BOOK, source.getSourceType());
  Assert.assertNull(source.getAbbreviatedCaseNumber());
@@ -2061,6 +2062,7 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getDayAccessed());
  Assert.assertNull(source.getDepartment());
  Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
  Assert.assertNull(source.getEdition());
  Assert.assertNull(source.getGuid());
  Assert.assertNull(source.getInstitution());
@@ -2094,6 +2096,9 @@ Shows how to get bibliography sources available in the document.
  Assert.assertNull(source.getVolume());
  Assert.assertNull(source.getYear());
  Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
 
  ContributorCollection contributors = source.getContributors();
  Assert.assertNull(contributors.getArtist());
@@ -4608,6 +4613,17 @@ public boolean getPunctuationKerning()
 
 Specifies whether kerning applies to both Latin text and punctuation.
 
+ **Examples:** 
+
+Shows how to work with kerning applies to both Latin text and punctuation.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+ Assert.assertTrue(doc.getPunctuationKerning());
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getRange() {#getRange}
@@ -6886,6 +6902,20 @@ Removes blank pages from the document.
 
 The resulting document will not contain pages considered to be blank while other content, including numbering, headers/footers and overall layout should remain unchanged. Page is considered to be blank when body of the page have no visible content, for example, empty table having no borders will be considered as invisible and therefore page will be detected as blank.
 
+ **Examples:** 
+
+Shows how to remove blank pages from the document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Blank pages.docx");
+ Assert.assertEquals(2, doc.getPageCount());
+ doc.removeBlankPages();
+ doc.updatePageLayout();
+ Assert.assertEquals(1, doc.getPageCount());
+ 
+```
+
 **Returns:**
 java.util.ArrayList - List of page numbers has been considered as blank and removed.
 ### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node}
@@ -8412,6 +8442,17 @@ public void setPunctuationKerning(boolean value)
 
 
 Specifies whether kerning applies to both Latin text and punctuation.
+
+ **Examples:** 
+
+Shows how to work with kerning applies to both Latin text and punctuation.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+ Assert.assertTrue(doc.getPunctuationKerning());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

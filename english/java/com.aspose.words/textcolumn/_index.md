@@ -4,7 +4,7 @@ linktitle: TextColumn
 second_title: Aspose.Words for Java
 description: Represents a single text column in Java.
 type: docs
-weight: 642
+weight: 644
 url: /java/com.aspose.words/textcolumn/
 ---
 

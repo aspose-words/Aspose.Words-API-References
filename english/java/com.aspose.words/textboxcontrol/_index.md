@@ -4,7 +4,7 @@ linktitle: TextBoxControl
 second_title: Aspose.Words for Java
 description: The TextBox control displays text from an organized set of data or user input in Java.
 type: docs
-weight: 640
+weight: 642
 url: /java/com.aspose.words/textboxcontrol/
 ---
 
@@ -109,7 +109,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 
@@ -593,7 +593,7 @@ Shows how to set caption for ActiveX control.
 
  CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
  Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", ((Forms2OleControl)shape.getOleFormat().getOleControl()).getCaption());
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 

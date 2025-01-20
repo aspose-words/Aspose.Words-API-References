@@ -51,6 +51,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);

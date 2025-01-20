@@ -52,8 +52,11 @@ Shows how to work with data points on a line chart.
          Assert.assertFalse(enumerator.next().getInvertIfNegative());
      }
 
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
      // For a cleaner looking graph, we can clear format individually.
-     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+     dataPoint.clearFormat();
 
      // We can also strip an entire series of data points at once.
      chart.getSeries().get(2).getDataPoints().clearFormat();
@@ -188,8 +191,11 @@ Shows how to work with data points on a line chart.
          Assert.assertFalse(enumerator.next().getInvertIfNegative());
      }
 
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
      // For a cleaner looking graph, we can clear format individually.
-     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+     dataPoint.clearFormat();
 
      // We can also strip an entire series of data points at once.
      chart.getSeries().get(2).getDataPoints().clearFormat();
@@ -253,8 +259,11 @@ Shows how to work with data points on a line chart.
          Assert.assertFalse(enumerator.next().getInvertIfNegative());
      }
 
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
      // For a cleaner looking graph, we can clear format individually.
-     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+     dataPoint.clearFormat();
 
      // We can also strip an entire series of data points at once.
      chart.getSeries().get(2).getDataPoints().clearFormat();
@@ -359,8 +368,11 @@ Shows how to work with data points on a line chart.
          Assert.assertFalse(enumerator.next().getInvertIfNegative());
      }
 
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
      // For a cleaner looking graph, we can clear format individually.
-     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+     dataPoint.clearFormat();
 
      // We can also strip an entire series of data points at once.
      chart.getSeries().get(2).getDataPoints().clearFormat();
@@ -427,8 +439,11 @@ Shows how to work with data points on a line chart.
          Assert.assertFalse(enumerator.next().getInvertIfNegative());
      }
 
+     ChartDataPoint dataPoint = chart.getSeries().get(1).getDataPoints().get(2);
+     dataPoint.getFormat().getFill().setColor(Color.RED);
+
      // For a cleaner looking graph, we can clear format individually.
-     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+     dataPoint.clearFormat();
 
      // We can also strip an entire series of data points at once.
      chart.getSeries().get(2).getDataPoints().clearFormat();

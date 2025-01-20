@@ -79,7 +79,7 @@ Shows how to populate chart series with data.
 ```
 
  Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
  Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
  Chart chart = shape.getChart();
@@ -89,15 +89,15 @@ Shows how to populate chart series with data.
  series1.clearValues();
 
  // Populate the series with data.
- series1.add(ChartXValue.fromDouble(3.0), ChartYValue.fromDouble(10.0));
+ series1.add(ChartXValue.fromDouble(3.0), ChartYValue.fromDouble(10.0), 10.0);
  series1.add(ChartXValue.fromDouble(5.0), ChartYValue.fromDouble(5.0));
  series1.add(ChartXValue.fromDouble(7.0), ChartYValue.fromDouble(11.0));
- series1.add(ChartXValue.fromDouble(9.0), ChartYValue.fromDouble(17.0));
+ series1.add(ChartXValue.fromDouble(9.0));
 
  ChartSeries series2 = chart.getSeries().get(1);
 
  // Clear X and Y values of the second series.
- series2.clearValues();
+ series2.clear();
 
  // Populate the series with data.
  series2.add(ChartXValue.fromDouble(2.0), ChartYValue.fromDouble(4.0));

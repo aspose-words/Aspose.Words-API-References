@@ -4,7 +4,7 @@ linktitle: FieldMergeField
 second_title: Aspose.Words for Java
 description: Implements the MERGEFIELD field in Java.
 type: docs
-weight: 251
+weight: 252
 url: /java/com.aspose.words/fieldmergefield/
 ---
 
@@ -50,6 +50,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -368,6 +369,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -419,6 +421,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -831,6 +834,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -882,6 +886,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -904,6 +909,48 @@ public int getType()
 
 
 Gets the Microsoft Word field type.
+
+ **Examples:** 
+
+Shows how to use MERGEFIELD fields to perform a mail merge.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a data table to be used as a mail merge data source.
+ DataTable table = new DataTable("Employees");
+ table.getColumns().add("Courtesy Title");
+ table.getColumns().add("First Name");
+ table.getColumns().add("Last Name");
+ table.getRows().add("Mr.", "John", "Doe");
+ table.getRows().add("Mrs.", "Jane", "Cardholder");
+
+ // Insert a MERGEFIELD with a FieldName property set to the name of a column in the data source.
+ FieldMergeField fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
+ fieldMergeField.setFieldName("Courtesy Title");
+ fieldMergeField.isMapped(true);
+ fieldMergeField.isVerticalFormatting(false);
+
+ // We can apply text before and after the value that this field accepts when the merge takes place.
+ fieldMergeField.setTextBefore("Dear ");
+ fieldMergeField.setTextAfter(" ");
+
+ Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
+
+ // Insert another MERGEFIELD for a different column in the data source.
+ fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
+ fieldMergeField.setFieldName("Last Name");
+ fieldMergeField.setTextAfter(":");
+
+ doc.updateFields();
+ doc.getMailMerge().execute(table);
+
+ Assert.assertEquals("Dear Mr. Doe:\fDear Mrs. Cardholder:", doc.getText().trim());
+ 
+```
 
 **Returns:**
 int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
@@ -1151,6 +1198,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -1202,6 +1250,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -1256,6 +1305,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -1307,6 +1357,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -1474,6 +1525,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -1597,6 +1649,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);
@@ -1651,6 +1704,7 @@ Shows how to use MERGEFIELD fields to perform a mail merge.
  fieldMergeField.setTextAfter(" ");
 
  Assert.assertEquals(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_MERGE_FIELD, fieldMergeField.getType());
 
  // Insert another MERGEFIELD for a different column in the data source.
  fieldMergeField = (FieldMergeField) builder.insertField(FieldType.FIELD_MERGE_FIELD, true);

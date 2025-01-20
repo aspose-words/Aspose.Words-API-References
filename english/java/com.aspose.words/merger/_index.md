@@ -4,7 +4,7 @@ linktitle: Merger
 second_title: Aspose.Words for Java
 description: Represents a group of methods intended to merge a variety of different types of documents into a single output document in Java.
 type: docs
-weight: 450
+weight: 452
 url: /java/com.aspose.words/merger/
 ---
 
@@ -29,16 +29,35 @@ Shows how to merge documents into a single output document.
 ```
 
  //There is a several ways to merge documents:
- Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SimpleMerge.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" });
+ String inputDoc1 = getMyDir() + "Big document.docx";
+ String inputDoc2 = getMyDir() + "Tables.docx";
 
- OoxmlSaveOptions ooxmlSaveOptions = new OoxmlSaveOptions();
- ooxmlSaveOptions.setPassword("Aspose.Words");
- Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveOptions.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, ooxmlSaveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.1.docx", new String[]{inputDoc1, inputDoc2});
 
- Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveFormat.pdf", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, SaveFormat.PDF, MergeFormatMode.KEEP_SOURCE_LAYOUT);
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.2.docx", new String[]{inputDoc1, inputDoc2}, saveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
 
- Document doc = Merger.merge(new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, MergeFormatMode.MERGE_FORMATTING);
- doc.save(getArtifactsDir() + "LowCode.MergeDocument.DocumentInstance.docx");
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.3.pdf", new String[]{inputDoc1, inputDoc2}, SaveFormat.PDF, MergeFormatMode.KEEP_SOURCE_LAYOUT);
+
+ LoadOptions firstLoadOptions = new LoadOptions();
+ {
+     firstLoadOptions.setIgnoreOleData(true);
+ }
+ LoadOptions secondLoadOptions = new LoadOptions();
+ {
+     secondLoadOptions.setIgnoreOleData(false);
+ }
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.4.docx", new String[]{inputDoc1, inputDoc2}, new LoadOptions[]{firstLoadOptions, secondLoadOptions},
+         saveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
+
+ Document doc = Merger.merge(new String[]{inputDoc1, inputDoc2}, MergeFormatMode.MERGE_FORMATTING);
+ doc.save(getArtifactsDir() + "LowCode.MergeDocument.5.docx");
+
+ doc = Merger.merge(new String[]{inputDoc1, inputDoc2}, new LoadOptions[]{firstLoadOptions, secondLoadOptions}, MergeFormatMode.MERGE_FORMATTING);
+ doc.save(getArtifactsDir() + "LowCode.MergeDocument.6.docx");
  
 ```
 ## Methods
@@ -173,16 +192,35 @@ Shows how to merge documents into a single output document.
 ```
 
  //There is a several ways to merge documents:
- Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SimpleMerge.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" });
+ String inputDoc1 = getMyDir() + "Big document.docx";
+ String inputDoc2 = getMyDir() + "Tables.docx";
 
- OoxmlSaveOptions ooxmlSaveOptions = new OoxmlSaveOptions();
- ooxmlSaveOptions.setPassword("Aspose.Words");
- Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveOptions.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, ooxmlSaveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.1.docx", new String[]{inputDoc1, inputDoc2});
 
- Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveFormat.pdf", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, SaveFormat.PDF, MergeFormatMode.KEEP_SOURCE_LAYOUT);
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.2.docx", new String[]{inputDoc1, inputDoc2}, saveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
 
- Document doc = Merger.merge(new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, MergeFormatMode.MERGE_FORMATTING);
- doc.save(getArtifactsDir() + "LowCode.MergeDocument.DocumentInstance.docx");
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.3.pdf", new String[]{inputDoc1, inputDoc2}, SaveFormat.PDF, MergeFormatMode.KEEP_SOURCE_LAYOUT);
+
+ LoadOptions firstLoadOptions = new LoadOptions();
+ {
+     firstLoadOptions.setIgnoreOleData(true);
+ }
+ LoadOptions secondLoadOptions = new LoadOptions();
+ {
+     secondLoadOptions.setIgnoreOleData(false);
+ }
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.4.docx", new String[]{inputDoc1, inputDoc2}, new LoadOptions[]{firstLoadOptions, secondLoadOptions},
+         saveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
+
+ Document doc = Merger.merge(new String[]{inputDoc1, inputDoc2}, MergeFormatMode.MERGE_FORMATTING);
+ doc.save(getArtifactsDir() + "LowCode.MergeDocument.5.docx");
+
+ doc = Merger.merge(new String[]{inputDoc1, inputDoc2}, new LoadOptions[]{firstLoadOptions, secondLoadOptions}, MergeFormatMode.MERGE_FORMATTING);
+ doc.save(getArtifactsDir() + "LowCode.MergeDocument.6.docx");
  
 ```
 

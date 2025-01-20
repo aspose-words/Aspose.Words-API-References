@@ -146,6 +146,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -210,6 +212,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
 
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
@@ -276,6 +280,8 @@ Shows how to insert a chart and modify the appearance of its axes.
  xAxis.getTickLabels().isAutoSpacing(false);
  xAxis.setTickMarkSpacing(1);
 
+ Assert.assertEquals(doc, xAxis.getDocument());
+
  ChartAxis yAxis = chart.getAxisY();
  yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
  yAxis.setCrosses(AxisCrosses.MAXIMUM);
@@ -331,6 +337,7 @@ Shows how to show data table with chart series data.
  dataTable.hasLegendKeys(false);
  dataTable.hasHorizontalBorder(false);
  dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
 
  dataTable.getFont().setItalic(true);
  dataTable.getFormat().getStroke().setWeight(1.0);

@@ -4,7 +4,7 @@ linktitle: ShapeRenderer
 second_title: Aspose.Words for Java
 description: Provides methods to render an individual Shape or GroupShape to a raster or vector image or to a Graphics object in Java.
 type: docs
-weight: 591
+weight: 593
 url: /java/com.aspose.words/shaperenderer/
 ---
 

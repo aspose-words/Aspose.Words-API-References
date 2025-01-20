@@ -4,7 +4,7 @@ linktitle: GlossaryDocument
 second_title: Aspose.Words for Java
 description: Represents the root element for a glossary document within a Word document in Java.
 type: docs
-weight: 348
+weight: 349
 url: /java/com.aspose.words/glossarydocument/
 ---
 

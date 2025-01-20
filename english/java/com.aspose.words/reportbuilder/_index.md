@@ -4,7 +4,7 @@ linktitle: ReportBuilder
 second_title: Aspose.Words for Java
 description: Provides methods intended to fill template with data using LINQ Reporting Engine in Java.
 type: docs
-weight: 547
+weight: 549
 url: /java/com.aspose.words/reportbuilder/
 ---
 
@@ -277,9 +277,18 @@ Shows how to populate document with data.
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.4.docx", SaveFormat.DOCX, obj, options);
  }
 
- public static class AsposeData
- {
-     public ArrayList getList() { return mList; }; public void setList(ArrayList value) { mList = value; };
+ public static class AsposeData {
+     public ArrayList getList() {
+         return mList;
+     }
+
+     ;
+
+     public void setList(ArrayList value) {
+         mList = value;
+     }
+
+     ;
 
      private ArrayList mList;
  }
@@ -327,9 +336,18 @@ Shows how to populate document with data.
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportWithObject.4.docx", SaveFormat.DOCX, obj, options);
  }
 
- public static class AsposeData
- {
-     public ArrayList getList() { return mList; }; public void setList(ArrayList value) { mList = value; };
+ public static class AsposeData {
+     public ArrayList getList() {
+         return mList;
+     }
+
+     ;
+
+     public void setList(ArrayList value) {
+         mList = value;
+     }
+
+     ;
 
      private ArrayList mList;
  }
@@ -358,33 +376,55 @@ Shows how to populate document with data sources.
 
 ```
 
- public void buildReportDataSource() throws Exception
- {
+ public void buildReportDataSource() throws Exception {
      // There is a several ways to populate document with data sources:
      String doc = getMyDir() + "Report building.docx";
 
      MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
 
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.1.docx", sender, "s");
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.2.docx", new Object[] { sender }, new String[] { "s" });
      ReportBuilderOptions options = new ReportBuilderOptions();
      options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.1.docx", sender, "s");
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.2.docx", new Object[]{sender}, new String[]{"s"});
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.3.docx", sender, "s", options);
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.4.docx", SaveFormat.DOCX, sender, "s");
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.5.docx", SaveFormat.DOCX, sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.5.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.6.docx", SaveFormat.DOCX, sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.7.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"}, options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.8.docx", new Object[]{sender}, new String[]{"s"}, options);
  }
 
- public static class MessageTestClass
- {
-     public String getName() { return mName; }; public void setName(String value) { mName = value; };
+ public static class MessageTestClass {
+     public String getName() {
+         return mName;
+     }
+
+     ;
+
+     public void setName(String value) {
+         mName = value;
+     }
+
+     ;
 
      private String mName;
-     public String getMessage() { return mMessage; }; public void setMessage(String value) { mMessage = value; };
+
+     public String getMessage() {
+         return mMessage;
+     }
+
+     ;
+
+     public void setMessage(String value) {
+         mMessage = value;
+     }
+
+     ;
 
      private String mMessage;
 
-     public MessageTestClass(String name, String message)
-     {
+     public MessageTestClass(String name, String message) {
          setName(name);
          setMessage(message);
      }
@@ -414,33 +454,55 @@ Shows how to populate document with data sources.
 
 ```
 
- public void buildReportDataSource() throws Exception
- {
+ public void buildReportDataSource() throws Exception {
      // There is a several ways to populate document with data sources:
      String doc = getMyDir() + "Report building.docx";
 
      MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
 
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.1.docx", sender, "s");
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.2.docx", new Object[] { sender }, new String[] { "s" });
      ReportBuilderOptions options = new ReportBuilderOptions();
      options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.1.docx", sender, "s");
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.2.docx", new Object[]{sender}, new String[]{"s"});
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.3.docx", sender, "s", options);
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.4.docx", SaveFormat.DOCX, sender, "s");
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.5.docx", SaveFormat.DOCX, sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.5.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.6.docx", SaveFormat.DOCX, sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.7.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"}, options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.8.docx", new Object[]{sender}, new String[]{"s"}, options);
  }
 
- public static class MessageTestClass
- {
-     public String getName() { return mName; }; public void setName(String value) { mName = value; };
+ public static class MessageTestClass {
+     public String getName() {
+         return mName;
+     }
+
+     ;
+
+     public void setName(String value) {
+         mName = value;
+     }
+
+     ;
 
      private String mName;
-     public String getMessage() { return mMessage; }; public void setMessage(String value) { mMessage = value; };
+
+     public String getMessage() {
+         return mMessage;
+     }
+
+     ;
+
+     public void setMessage(String value) {
+         mMessage = value;
+     }
+
+     ;
 
      private String mMessage;
 
-     public MessageTestClass(String name, String message)
-     {
+     public MessageTestClass(String name, String message) {
          setName(name);
          setMessage(message);
      }
@@ -471,33 +533,55 @@ Shows how to populate document with data sources.
 
 ```
 
- public void buildReportDataSource() throws Exception
- {
+ public void buildReportDataSource() throws Exception {
      // There is a several ways to populate document with data sources:
      String doc = getMyDir() + "Report building.docx";
 
      MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
 
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.1.docx", sender, "s");
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.2.docx", new Object[] { sender }, new String[] { "s" });
      ReportBuilderOptions options = new ReportBuilderOptions();
      options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.1.docx", sender, "s");
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.2.docx", new Object[]{sender}, new String[]{"s"});
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.3.docx", sender, "s", options);
      ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.4.docx", SaveFormat.DOCX, sender, "s");
-     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.5.docx", SaveFormat.DOCX, sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.5.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.6.docx", SaveFormat.DOCX, sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.7.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"}, options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.8.docx", new Object[]{sender}, new String[]{"s"}, options);
  }
 
- public static class MessageTestClass
- {
-     public String getName() { return mName; }; public void setName(String value) { mName = value; };
+ public static class MessageTestClass {
+     public String getName() {
+         return mName;
+     }
+
+     ;
+
+     public void setName(String value) {
+         mName = value;
+     }
+
+     ;
 
      private String mName;
-     public String getMessage() { return mMessage; }; public void setMessage(String value) { mMessage = value; };
+
+     public String getMessage() {
+         return mMessage;
+     }
+
+     ;
+
+     public void setMessage(String value) {
+         mMessage = value;
+     }
+
+     ;
 
      private String mMessage;
 
-     public MessageTestClass(String name, String message)
-     {
+     public MessageTestClass(String name, String message) {
          setName(name);
          setMessage(message);
      }
@@ -520,6 +604,68 @@ public static void buildReport(String inputFileName, String outputFileName, Obje
 
 
 Populates the template document with data from multiple sources, generating a completed report with additional options. This overload automatically determines the save format based on the output file extension.
+
+ **Examples:** 
+
+Shows how to populate document with data sources.
+
+```
+
+ public void buildReportDataSource() throws Exception {
+     // There is a several ways to populate document with data sources:
+     String doc = getMyDir() + "Report building.docx";
+
+     MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
+
+     ReportBuilderOptions options = new ReportBuilderOptions();
+     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.1.docx", sender, "s");
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.2.docx", new Object[]{sender}, new String[]{"s"});
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.3.docx", sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.4.docx", SaveFormat.DOCX, sender, "s");
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.5.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.6.docx", SaveFormat.DOCX, sender, "s", options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.7.docx", SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"}, options);
+     ReportBuilder.buildReport(doc, getArtifactsDir() + "LowCode.BuildReportDataSource.8.docx", new Object[]{sender}, new String[]{"s"}, options);
+ }
+
+ public static class MessageTestClass {
+     public String getName() {
+         return mName;
+     }
+
+     ;
+
+     public void setName(String value) {
+         mName = value;
+     }
+
+     ;
+
+     private String mName;
+
+     public String getMessage() {
+         return mMessage;
+     }
+
+     ;
+
+     public void setMessage(String value) {
+         mMessage = value;
+     }
+
+     ;
+
+     private String mMessage;
+
+     public MessageTestClass(String name, String message) {
+         setName(name);
+         setMessage(message);
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
