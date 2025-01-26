@@ -2,7 +2,7 @@
 title: Aspose::Words::LowCode::Watermarker::SetImage method
 linktitle: SetImage
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::LowCode::Watermarker::SetImage method. Adds Image watermark into the document in C++.'
+description: 'Aspose::Words::LowCode::Watermarker::SetImage method. Adds an image watermark into the document from streams in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.lowcode/watermarker/setimage/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/watermarker/setimage/
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
-Adds Image watermark into the document.
+Adds an image watermark into the document from streams.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Drawing::Image> &watermarkImage)
@@ -33,7 +33,7 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPt
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-Adds Image watermark into the document.
+Adds an image watermark into the document from streams with options.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Drawing::Image> &watermarkImage, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
@@ -58,7 +58,7 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPt
 ## Watermarker::SetImage(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&) method
 
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with specified save format.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &inputFileName, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::String &watermarkImageFileName)
@@ -81,7 +81,7 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &
 ## Watermarker::SetImage(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with options and specified save format.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &inputFileName, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::String &watermarkImageFileName, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
@@ -106,7 +106,7 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &
 ## Watermarker::SetImage(const System::String\&, const System::String\&, const System::String\&) method
 
 
-Adds Image watermark into the document.
+Adds an image watermark into the document.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &inputFileName, const System::String &outputFileName, const System::String &watermarkImageFileName)
@@ -127,7 +127,7 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &
 ## Watermarker::SetImage(const System::String\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-Adds Image watermark into the document.
+Adds an image watermark into the document with options.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &inputFileName, const System::String &outputFileName, const System::String &watermarkImageFileName, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)

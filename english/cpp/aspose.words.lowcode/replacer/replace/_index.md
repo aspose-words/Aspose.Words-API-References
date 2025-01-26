@@ -2,7 +2,7 @@
 title: Aspose::Words::LowCode::Replacer::Replace method
 linktitle: Replace
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::LowCode::Replacer::Replace method. Replaces all occurrences of a specified character string pattern with a replacement string in C++.'
+description: 'Aspose::Words::LowCode::Replacer::Replace method. Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.lowcode/replacer/replace/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/replacer/replace/
 ## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement)
@@ -38,7 +38,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
@@ -68,7 +68,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::String &pattern, const System::String &replacement)
@@ -96,7 +96,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::String &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
@@ -126,7 +126,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement)
@@ -154,7 +154,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
@@ -184,7 +184,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::String &pattern, const System::String &replacement)
@@ -212,7 +212,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::String &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
@@ -242,7 +242,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::String\&, const System::String\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement)
@@ -268,7 +268,7 @@ The number of replacements made.
 ## Replacer::Replace(const System::String\&, const System::String\&, const System::String\&, const System::String\&) method
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, const System::String &pattern, const System::String &replacement)

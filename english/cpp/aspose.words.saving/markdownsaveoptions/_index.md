@@ -35,6 +35,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [get_ExportImagesAsBase64](./get_exportimagesasbase64/)() const | Specifies whether images are saved in Base64 format to the output file. Default value is **false**. |
 | [get_ExportUnderlineFormatting](./get_exportunderlineformatting/)() const | Gets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is **false**. |
 | [get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/)() const | Allows to specify whether the page breaks should be preserved during export. The default value is **false**. |
+| [get_ImageResolution](./get_imageresolution/)() const | Specifies the output resolution for images when exporting to Markdown. Default is **%96 dpi**. |
 | [get_ImageSavingCallback](./get_imagesavingcallback/)() const | Allows to control how images are saved when a document is saved to [Markdown](../../aspose.words/saveformat/) format. |
 | [get_ImagesFolder](./get_imagesfolder/)() const | Specifies the physical folder where images are saved when exporting a document to the [Markdown](../../aspose.words/saveformat/) format. Default is an empty string. |
 | [get_ImagesFolderAlias](./get_imagesfolderalias/)() const | Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string. |
@@ -42,6 +43,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [get_LinkExportMode](./get_linkexportmode/)() const | Specifies how links will be written to the output file. Default value is [Auto](../markdownlinkexportmode/). |
 | [get_ListExportMode](./get_listexportmode/)() const | Specifies how list items will be written to the output file. Default value is [MarkdownSyntax](../markdownlistexportmode/). |
 | [get_MemoryOptimization](../saveoptions/get_memoryoptimization/)() const | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
+| [get_OfficeMathExportMode](./get_officemathexportmode/)() const | Specifies how OfficeMath will be written to the output file. Default value is [Text](../markdownofficemathexportmode/). |
 | [get_ParagraphBreak](../txtsaveoptionsbase/get_paragraphbreak/)() const | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
@@ -70,6 +72,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [set_ExportImagesAsBase64](./set_exportimagesasbase64/)(bool) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ExportImagesAsBase64](./get_exportimagesasbase64/). |
 | [set_ExportUnderlineFormatting](./set_exportunderlineformatting/)(bool) | Sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is **false**. |
 | [set_ForcePageBreaks](../txtsaveoptionsbase/set_forcepagebreaks/)(bool) | Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/). |
+| [set_ImageResolution](./set_imageresolution/)(int32_t) | Specifies the output resolution for images when exporting to Markdown. Default is **%96 dpi**. |
 | [set_ImageSavingCallback](./set_imagesavingcallback/)(const System::SharedPtr\<Aspose::Words::Saving::IImageSavingCallback\>\&) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ImageSavingCallback](./get_imagesavingcallback/). |
 | [set_ImagesFolder](./set_imagesfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolder](./get_imagesfolder/). |
 | [set_ImagesFolderAlias](./set_imagesfolderalias/)(const System::String\&) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolderAlias](./get_imagesfolderalias/). |
@@ -77,6 +80,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [set_LinkExportMode](./set_linkexportmode/)(Aspose::Words::Saving::MarkdownLinkExportMode) | Specifies how links will be written to the output file. Default value is [Auto](../markdownlinkexportmode/). |
 | [set_ListExportMode](./set_listexportmode/)(Aspose::Words::Saving::MarkdownListExportMode) | Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ListExportMode](./get_listexportmode/). |
 | [set_MemoryOptimization](../saveoptions/set_memoryoptimization/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_MemoryOptimization](../saveoptions/get_memoryoptimization/). |
+| [set_OfficeMathExportMode](./set_officemathexportmode/)(Aspose::Words::Saving::MarkdownOfficeMathExportMode) | Specifies how OfficeMath will be written to the output file. Default value is [Text](../markdownofficemathexportmode/). |
 | [set_ParagraphBreak](../txtsaveoptionsbase/set_paragraphbreak/)(const System::String\&) | Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_ParagraphBreak](../txtsaveoptionsbase/get_paragraphbreak/). |
 | [set_PrettyFormat](../saveoptions/set_prettyformat/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_PrettyFormat](../saveoptions/get_prettyformat/). |
 | [set_ProgressCallback](../saveoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Saving::IDocumentSavingCallback\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_ProgressCallback](../saveoptions/get_progresscallback/). |
