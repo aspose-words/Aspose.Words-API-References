@@ -15,8 +15,10 @@ The **Aspose.Words.LowCode** contains classes and methods to handle complex gene
 | Class | Description |
 | --- | --- |
 | [Comparer](./comparer/) | Provides methods intended to compare documents. |
+| [MailMergeOptions](./mailmergeoptions/) | Represents options for the mail merge functionality. |
 | [Merger](./merger/) | Represents a group of methods intended to merge a variety of different types of documents into a single output document. |
 | [Replacer](./replacer/) | Provides methods intended to find and replace text in the document. |
+| [SplitOptions](./splitoptions/) | Specifies options how the document is split into parts. |
 | [Splitter](./splitter/) | Provides methods intended to split the documents into parts using different criteria. |
 | [Watermarker](./watermarker/) | Provides methods intended to insert watermarks into the documents. |
 ## Enums
@@ -24,3 +26,4 @@ The **Aspose.Words.LowCode** contains classes and methods to handle complex gene
 | Enum | Description |
 | --- | --- |
 | [MergeFormatMode](./mergeformatmode/) | Specifies how formatting is merged when combining multiple documents. |
+| [SplitCriteria](./splitcriteria/) | Specifies how the document is split into parts. |
