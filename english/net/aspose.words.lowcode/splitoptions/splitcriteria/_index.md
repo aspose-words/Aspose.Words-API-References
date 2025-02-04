@@ -23,8 +23,10 @@ Shows how to split document by pages.
 ```csharp
 string doc = MyDir + "Big document.docx";
 
-Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.1.docx", new SplitOptions() { SplitCriteria = SplitCriteria.Page });
-Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.2.docx", SaveFormat.Docx, new SplitOptions() { SplitCriteria = SplitCriteria.Page });
+SplitOptions options = new SplitOptions();
+options.SplitCriteria = SplitCriteria.Page;
+Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.1.docx", options);
+Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.2.docx", SaveFormat.Docx, options);
 ```
 
 ### See Also

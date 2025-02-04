@@ -5,7 +5,7 @@ articleTitle: ThemeFont
 second_title: Aspose.Words for .NET
 description: Font ThemeFont property. Gets or sets the theme font in the applied font scheme that is associated with this Font object in C#.
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property

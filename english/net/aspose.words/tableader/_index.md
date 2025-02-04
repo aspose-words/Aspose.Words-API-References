@@ -5,7 +5,7 @@ articleTitle: TabLeader
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TabLeader enum. Specifies the type of the leader line displayed under the tab character in C#.
 type: docs
-weight: 6860
+weight: 6880
 url: /net/aspose.words/tableader/
 ---
 ## TabLeader enumeration

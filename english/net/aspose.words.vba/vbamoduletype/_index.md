@@ -5,7 +5,7 @@ articleTitle: VbaModuleType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Vba.VbaModuleType enum. Specifies the type of a model in a VBA project in C#.
 type: docs
-weight: 7240
+weight: 7260
 url: /net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration

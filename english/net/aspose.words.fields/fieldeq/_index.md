@@ -5,7 +5,7 @@ articleTitle: FieldEQ
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldEQ class. Implements the EQ field in C#.
 type: docs
-weight: 2220
+weight: 2230
 url: /net/aspose.words.fields/fieldeq/
 ---
 ## FieldEQ class

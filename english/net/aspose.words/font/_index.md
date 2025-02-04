@@ -5,7 +5,7 @@ articleTitle: Font
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Font class. Contains font attributes font name font size color and so on for an object in C#.
 type: docs
-weight: 3220
+weight: 3230
 url: /net/aspose.words/font/
 ---
 ## Font class
@@ -50,6 +50,7 @@ public class Font
 | [NameFarEast](../../aspose.words/font/namefareast/) { get; set; } | Returns or sets an East Asian font name. |
 | [NameOther](../../aspose.words/font/nameother/) { get; set; } | Returns or sets the font used for characters with character codes from 128 through 255. |
 | [NoProofing](../../aspose.words/font/noproofing/) { get; set; } | True when the formatted characters are not to be spell checked. |
+| [NumberSpacing](../../aspose.words/font/numberspacing/) { get; set; } | Gets or sets the spacing type of the numeral being displayed. |
 | [Outline](../../aspose.words/font/outline/) { get; set; } | True if the font is formatted as outline. |
 | [Position](../../aspose.words/font/position/) { get; set; } | Gets or sets the position of text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it. |
 | [Scaling](../../aspose.words/font/scaling/) { get; set; } | Gets or sets character width scaling in percent. |

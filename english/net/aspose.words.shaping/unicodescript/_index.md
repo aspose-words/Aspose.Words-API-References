@@ -5,7 +5,7 @@ articleTitle: UnicodeScript
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Shaping.UnicodeScript enum. Unicode Character Database property Script sc in C#.
 type: docs
-weight: 6730
+weight: 6750
 url: /net/aspose.words.shaping/unicodescript/
 ---
 ## UnicodeScript enumeration

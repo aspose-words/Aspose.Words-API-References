@@ -5,7 +5,7 @@ articleTitle: SplitCriteria
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.SplitCriteria enum. Specifies how the document is split into parts in C#.
 type: docs
-weight: 4270
+weight: 4280
 url: /net/aspose.words.lowcode/splitcriteria/
 ---
 ## SplitCriteria enumeration
@@ -31,8 +31,10 @@ Shows how to split document by pages.
 ```csharp
 string doc = MyDir + "Big document.docx";
 
-Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.1.docx", new SplitOptions() { SplitCriteria = SplitCriteria.Page });
-Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.2.docx", SaveFormat.Docx, new SplitOptions() { SplitCriteria = SplitCriteria.Page });
+SplitOptions options = new SplitOptions();
+options.SplitCriteria = SplitCriteria.Page;
+Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.1.docx", options);
+Splitter.Split(doc, ArtifactsDir + "LowCode.SplitDocument.2.docx", SaveFormat.Docx, options);
 ```
 
 ### See Also

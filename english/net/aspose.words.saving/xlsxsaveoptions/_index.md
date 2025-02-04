@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the Xlsx format in C#.
 type: docs
-weight: 6340
+weight: 6360
 url: /net/aspose.words.saving/xlsxsaveoptions/
 ---
 ## XlsxSaveOptions class

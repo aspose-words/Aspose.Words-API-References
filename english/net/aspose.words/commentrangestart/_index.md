@@ -5,7 +5,7 @@ articleTitle: CommentRangeStart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.CommentRangeStart class. Denotes the start of a region of text that has a comment associated with it in C#.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
@@ -99,7 +99,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
     // Iterate over all top-level comments. Unlike reply-type comments, top-level comments have no ancestor.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
         // First, visit the start of the comment range.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;

@@ -5,7 +5,7 @@ articleTitle: TaskPaneDockState
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WebExtensions.TaskPaneDockState enum. Enumerates available locations of task pane object in C#.
 type: docs
-weight: 7400
+weight: 7420
 url: /net/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enumeration
@@ -65,19 +65,22 @@ doc.WebExtensionTaskPanes.Clear();
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
-myScriptTaskPane = doc.WebExtensionTaskPanes[0];
 
+myScriptTaskPane = doc.WebExtensionTaskPanes[0];
 Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
 Assert.True(myScriptTaskPane.IsVisible);
 Assert.AreEqual(300.0d, myScriptTaskPane.Width);
 Assert.True(myScriptTaskPane.IsLocked);
 Assert.AreEqual(1, myScriptTaskPane.Row);
+
 webExtension = myScriptTaskPane.WebExtension;
+Assert.AreEqual(string.Empty, webExtension.Id);
 
 Assert.AreEqual("WA104380646", webExtension.Reference.Id);
 Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
 Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
 Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
+Assert.AreEqual(0, webExtension.AlternateReferences.Count);
 
 Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
 Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);

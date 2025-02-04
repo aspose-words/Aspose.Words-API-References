@@ -5,7 +5,7 @@ articleTitle: ListCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Lists.ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document in C#.
 type: docs
-weight: 3890
+weight: 3900
 url: /net/aspose.words.lists/listcollection/
 ---
 ## ListCollection class
@@ -33,6 +33,7 @@ public class ListCollection : IEnumerable<List>
 | [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
 | [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 | [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
+| [AddSingleLevelList](../../aspose.words.lists/listcollection/addsinglelevellist/)(*[ListTemplate](../listtemplate/)*) | Creates a new single level list based on the predefined template and adds it to the list collection in the document. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Gets the enumerator object that will enumerate lists in the document. |
 | [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Gets a list by a list identifier. |
 

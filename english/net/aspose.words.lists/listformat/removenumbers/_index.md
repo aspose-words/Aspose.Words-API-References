@@ -35,12 +35,12 @@ builder.Writeln("Numbered list item 3");
 builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
 foreach (Paragraph paragraph in paras)
     paragraph.ListFormat.RemoveNumbers();
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
 Shows how to create bulleted and numbered lists.

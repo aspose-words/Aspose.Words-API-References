@@ -5,7 +5,7 @@ articleTitle: SummaryLength
 second_title: Aspose.Words for .NET
 description: Aspose.Words.AI.SummaryLength enum. Enumerates possible lengths of summary in C#.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.ai/summarylength/
 ---
 ## SummaryLength enumeration
@@ -38,10 +38,14 @@ string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
 IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
-Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
+SummarizeOptions options = new SummarizeOptions();
+
+options.SummaryLength = SummaryLength.Short;
+Document oneDocumentSummary = model.Summarize(firstDoc, options);
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 
-Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions() { SummaryLength = SummaryLength.Long });
+options.SummaryLength = SummaryLength.Long;
+Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, options);
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 

@@ -5,7 +5,7 @@ articleTitle: ContributorCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Bibliography.ContributorCollection class. Represents bibliography source contributors in C#.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.bibliography/contributorcollection/
 ---
 ## ContributorCollection class

@@ -5,7 +5,7 @@ articleTitle: StyleName
 second_title: Aspose.Words for .NET
 description: Font StyleName property. Gets or sets the name of the character style applied to this formatting in C#.
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property

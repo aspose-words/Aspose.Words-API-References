@@ -8,7 +8,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lowcode/mailmerger/execute/
 ---
-## Execute(*string, string, string[], object[]*) {#execute_14}
+## Execute(*string, string, string[], object[]*) {#execute_20}
 
 Performs a mail merge operation for a single record.
 
@@ -37,7 +37,9 @@ string[] fieldValues = new string[] { "James Bond", "London", "Classified" };
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.2.docx", SaveFormat.Docx, fieldNames, fieldValues);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, fieldNames, fieldValues);
+MailMergeOptions mailMergeOptions = new MailMergeOptions();
+mailMergeOptions.TrimWhitespaces = true;
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
 ```
 
 ### See Also
@@ -48,7 +50,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Do
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string[], object[]*) {#execute_11}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string[], object[]*) {#execute_14}
 
 Performs a mail merge operation for a single record.
 
@@ -78,7 +80,9 @@ string[] fieldValues = new string[] { "James Bond", "London", "Classified" };
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.2.docx", SaveFormat.Docx, fieldNames, fieldValues);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, fieldNames, fieldValues);
+MailMergeOptions mailMergeOptions = new MailMergeOptions();
+mailMergeOptions.TrimWhitespaces = true;
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
 ```
 
 ### See Also
@@ -90,7 +94,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Do
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_8}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_11}
 
 Performs a mail merge operation for a single record.
 
@@ -121,12 +125,42 @@ string[] fieldValues = new string[] { "James Bond", "London", "Classified" };
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.2.docx", SaveFormat.Docx, fieldNames, fieldValues);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, fieldNames, fieldValues);
+MailMergeOptions mailMergeOptions = new MailMergeOptions();
+mailMergeOptions.TrimWhitespaces = true;
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
 ```
 
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_17}
+
+Performs a mail merge operation for a single record.
+
+```csharp
+public static void Execute(string inputFileName, string outputFileName, SaveOptions saveOptions, 
+    MailMergeOptions mailMergeOptions, string[] fieldNames, object[] fieldValues)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -166,7 +200,11 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, fieldNames, fieldValues);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, fieldNames, fieldValues);
+    {
+        MailMergeOptions mailMergeOptions = new MailMergeOptions();
+        mailMergeOptions.TrimWhitespaces = true;
+        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
+    }
 }
 ```
 
@@ -212,7 +250,11 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, fieldNames, fieldValues);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, fieldNames, fieldValues);
+    {
+        MailMergeOptions mailMergeOptions = new MailMergeOptions();
+        mailMergeOptions.TrimWhitespaces = true;
+        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
+    }
 }
 ```
 
@@ -226,7 +268,35 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*string, string, DataRow*) {#execute_12}
+## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_8}
+
+Performs a mail merge operation for a single record.
+
+```csharp
+public static void Execute(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    MailMergeOptions mailMergeOptions, string[] fieldNames, object[] fieldValues)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Execute(*string, string, DataRow*) {#execute_18}
 
 Performs mail merge from a DataRow into the document.
 
@@ -268,7 +338,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFo
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataRow*) {#execute_9}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataRow*) {#execute_12}
 
 Performs mail merge from a DataRow into the document.
 
@@ -313,7 +383,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFo
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_6}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_9}
 
 Performs mail merge from a DataRow into the document.
 
@@ -353,6 +423,33 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFo
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_15}
+
+Performs mail merge from a DataRow into the document.
+
+```csharp
+public static void Execute(string inputFileName, string outputFileName, SaveOptions saveOptions, 
+    MailMergeOptions mailMergeOptions, DataRow dataRow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -458,7 +555,34 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*string, string, DataTable*) {#execute_13}
+## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_6}
+
+Performs a mail merge operation for a single record.
+
+```csharp
+public static void Execute(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    MailMergeOptions mailMergeOptions, DataRow dataRow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Execute(*string, string, DataTable*) {#execute_19}
 
 Performs mail merge from a DataTable into the document.
 
@@ -500,7 +624,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", Save
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataTable*) {#execute_10}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataTable*) {#execute_13}
 
 Performs mail merge from a DataRow into the document.
 
@@ -545,7 +669,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", Save
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_7}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_10}
 
 Performs mail merge from a DataRow into the document.
 
@@ -585,6 +709,33 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", Save
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_16}
+
+Performs mail merge from a DataRow into the document.
+
+```csharp
+public static void Execute(string inputFileName, string outputFileName, SaveOptions saveOptions, 
+    MailMergeOptions mailMergeOptions, DataTable dataTable)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -683,6 +834,33 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_7}
+
+Performs a mail merge operation for a single record.
+
+```csharp
+public static void Execute(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    MailMergeOptions mailMergeOptions, DataTable dataTable)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
