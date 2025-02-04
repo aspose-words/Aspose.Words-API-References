@@ -5,7 +5,7 @@ articleTitle: UnderlineColor
 second_title: Aspose.Words for .NET
 description: Font UnderlineColor property. Gets or sets the color of the underline applied to the font in C#.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.words/font/underlinecolor/
 ---
 ## Font.UnderlineColor property

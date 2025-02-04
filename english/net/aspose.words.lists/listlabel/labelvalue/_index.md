@@ -32,7 +32,7 @@ NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
 // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
 // which start at three and ends at six.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 

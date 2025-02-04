@@ -5,7 +5,7 @@ articleTitle: SplitOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.SplitOptions class. Specifies options how the document is split into parts in C#.
 type: docs
-weight: 4280
+weight: 4290
 url: /net/aspose.words.lowcode/splitoptions/
 ---
 ## SplitOptions class

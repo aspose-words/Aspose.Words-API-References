@@ -5,7 +5,7 @@ articleTitle: SnapToGrid
 second_title: Aspose.Words for .NET
 description: Font SnapToGrid property. Specifies whether the current font should use the document grid characters per line settings when laying out in C#.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.words/font/snaptogrid/
 ---
 ## Font.SnapToGrid property

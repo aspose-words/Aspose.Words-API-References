@@ -5,7 +5,7 @@ articleTitle: Shadow
 second_title: Aspose.Words for .NET
 description: Font Shadow property. True if the font is formatted as shadowed in C#.
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property

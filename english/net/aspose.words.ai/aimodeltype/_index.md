@@ -27,6 +27,11 @@ public enum AiModelType
 | Gemini15Flash | `4` | Gemini 1.5 Flash generative model type. |
 | Gemini15Flash8B | `5` | Gemini 1.5 Flash-8B generative model type. |
 | Gemini15Pro | `6` | Gemini 1.5 Pro generative model type. |
+| Claude35Sonnet | `7` | Claude 3.5 Sonnet generative model type. |
+| Claude35Haiku | `8` | Claude 3.5 Haiku generative model type. |
+| Claude3Opus | `9` | Claude 3 Opus generative model type. |
+| Claude3Sonnet | `10` | Claude 3 Sonnet generative model type. |
+| Claude3Haiku | `11` | Claude 3 Haiku generative model type. |
 
 ## Remarks
 
@@ -44,10 +49,14 @@ string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
 IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
-Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
+SummarizeOptions options = new SummarizeOptions();
+
+options.SummaryLength = SummaryLength.Short;
+Document oneDocumentSummary = model.Summarize(firstDoc, options);
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 
-Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions() { SummaryLength = SummaryLength.Long });
+options.SummaryLength = SummaryLength.Long;
+Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, options);
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 

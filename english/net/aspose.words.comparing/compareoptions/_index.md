@@ -5,7 +5,7 @@ articleTitle: CompareOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Comparing.CompareOptions class. Allows to choose additional options for document comparison operation in C#.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
@@ -112,7 +112,7 @@ CompareOptions compareOptions = new CompareOptions
 };
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### See Also

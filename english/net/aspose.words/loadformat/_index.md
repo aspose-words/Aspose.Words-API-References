@@ -5,7 +5,7 @@ articleTitle: LoadFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LoadFormat enum. Indicates the format of the document that is to be loaded in C#.
 type: docs
-weight: 3970
+weight: 3980
 url: /net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
@@ -21,6 +21,7 @@ public enum LoadFormat
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | `0` | Instructs Aspose.Words to recognize the format automatically. |
+| MsWorks | `8` | Microsoft Works 8 Document. |
 | Doc | `10` | Microsoft Word 95 or Word 97 - 2003 Document. |
 | Dot | `11` | Microsoft Word 95 or Word 97 - 2003 Template. |
 | DocPreWord60 | `12` | The document is in pre-Word 95 format. Aspose.Words does not currently support loading such documents. |

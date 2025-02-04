@@ -13,7 +13,7 @@ url: /cpp/aspose.words/range/
 Represents a contiguous area in a document. To learn more, visit the [Working with Ranges](https://docs.aspose.com/words/cpp/working-with-ranges/) documentation article.
 
 ```cpp
-class Range : public System::Object
+class Range : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>
 ```
 
 ## Methods
@@ -27,6 +27,7 @@ class Range : public System::Object
 | [get_Revisions](./get_revisions/)() | Gets a collection of revisions (tracked changes) that exist in this range. |
 | [get_StructuredDocumentTags](./get_structureddocumenttags/)() | Returns a [StructuredDocumentTags](./get_structureddocumenttags/) collection that represents all structured document tags in the range. |
 | [get_Text](./get_text/)() | Gets the text of the range. |
+| [GetEnumerator](./getenumerator/)() override |  |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NormalizeFieldTypes](./normalizefieldtypes/)() | Changes field type values [FieldType](../../aspose.words.fields/fieldchar/get_fieldtype/) of [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes. |

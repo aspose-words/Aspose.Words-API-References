@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparatorType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Notes.FootnoteSeparatorType enum. Specifies the type of the footnote/endnote separator in C#.
 type: docs
-weight: 4860
+weight: 4870
 url: /net/aspose.words.notes/footnoteseparatortype/
 ---
 ## FootnoteSeparatorType enumeration

@@ -5,7 +5,7 @@ articleTitle: TextEffect
 second_title: Aspose.Words for .NET
 description: Font TextEffect property. Gets or sets the font animation effect in C#.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property

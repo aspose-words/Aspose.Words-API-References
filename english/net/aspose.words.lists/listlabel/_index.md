@@ -5,7 +5,7 @@ articleTitle: ListLabel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Lists.ListLabel class. Defines properties specific to a list label in C#.
 type: docs
-weight: 3910
+weight: 3920
 url: /net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
@@ -38,7 +38,7 @@ NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
 // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
 // which start at three and ends at six.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 

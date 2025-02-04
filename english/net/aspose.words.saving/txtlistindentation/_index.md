@@ -5,7 +5,7 @@ articleTitle: TxtListIndentation
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.TxtListIndentation class. Specifies how list levels are indented when document is exporting to Text format in C#.
 type: docs
-weight: 6270
+weight: 6290
 url: /net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class

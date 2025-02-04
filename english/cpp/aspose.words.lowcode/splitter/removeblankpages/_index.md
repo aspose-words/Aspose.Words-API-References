@@ -2,7 +2,7 @@
 title: Aspose::Words::LowCode::Splitter::RemoveBlankPages method
 linktitle: RemoveBlankPages
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::LowCode::Splitter::RemoveBlankPages method. Removes empty pages from the document and saves the output in the specified format in C++.'
+description: 'Aspose::Words::LowCode::Splitter::RemoveBlankPages method. Removes blank pages from a document provided in an input stream and saves the updated document to an output stream in the specified save format. Returns a list of page numbers that were removed in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.lowcode/splitter/removeblankpages/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/splitter/removeblankpages/
 ## Splitter::RemoveBlankPages(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat) method
 
 
-Removes empty pages from the document and saves the output in the specified format.
+Removes blank pages from a document provided in an input stream and saves the updated document to an output stream in the specified save format. Returns a list of page numbers that were removed.
 
 ```cpp
 static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Words::LowCode::Splitter::RemoveBlankPages(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat)
@@ -36,7 +36,7 @@ List of page numbers has been considered as blank and removed.
 ## Splitter::RemoveBlankPages(const System::String\&, const System::String\&) method
 
 
-Removes empty pages from the document and saves the output.
+Removes empty pages from the document and saves the output. Returns a list of page numbers that were removed.
 
 ```cpp
 static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Words::LowCode::Splitter::RemoveBlankPages(const System::String &inputFileName, const System::String &outputFileName)
@@ -60,7 +60,7 @@ List of page numbers has been considered as blank and removed.
 ## Splitter::RemoveBlankPages(const System::String\&, const System::String\&, Aspose::Words::SaveFormat) method
 
 
-Removes empty pages from the document and saves the output in the specified format.
+Removes empty pages from the document and saves the output in the specified format. Returns a list of page numbers that were removed.
 
 ```cpp
 static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Words::LowCode::Splitter::RemoveBlankPages(const System::String &inputFileName, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat)

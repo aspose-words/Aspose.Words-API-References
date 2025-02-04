@@ -2,7 +2,7 @@
 title: Aspose::Words::LowCode::Comparer::Compare method
 linktitle: Compare
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::LowCode::Comparer::Compare method. Compares the document with another document producing changes as number of edit and format revisions in C++.'
+description: 'Aspose::Words::LowCode::Comparer::Compare method. Compares two documents loaded from streams and saves the differences to the provided output stream in the specified save format, producing changes as a number of edit and format revisions in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.lowcode/comparer/compare/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/comparer/compare/
 ## Comparer::Compare(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::String\&, System::DateTime) method
 
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents loaded from streams and saves the differences to the provided output stream in the specified save format, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::SharedPtr<System::IO::Stream> &v1, const System::SharedPtr<System::IO::Stream> &v2, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::String &author, System::DateTime dateTime)
@@ -35,7 +35,7 @@ static void Aspose::Words::LowCode::Comparer::Compare(const System::SharedPtr<Sy
 ## Comparer::Compare(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::SharedPtr<System::IO::Stream> &v1, const System::SharedPtr<System::IO::Stream> &v2, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::String &author, System::DateTime dateTime, const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> &compareOptions)
@@ -62,7 +62,7 @@ static void Aspose::Words::LowCode::Comparer::Compare(const System::SharedPtr<Sy
 ## Comparer::Compare(const System::String\&, const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&, System::DateTime) method
 
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents and saves the differences to the specified output file in the provided save format, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, const System::String &v2, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::String &author, System::DateTime dateTime)
@@ -87,7 +87,7 @@ static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, 
 ## Comparer::Compare(const System::String\&, const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, const System::String &v2, const System::String &outputFileName, Aspose::Words::SaveFormat saveFormat, const System::String &author, System::DateTime dateTime, const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> &compareOptions)
@@ -114,7 +114,7 @@ static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, 
 ## Comparer::Compare(const System::String\&, const System::String\&, const System::String\&, const System::String\&, System::DateTime) method
 
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents and saves the differences to the specified output file, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, const System::String &v2, const System::String &outputFileName, const System::String &author, System::DateTime dateTime)
@@ -137,7 +137,7 @@ static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, 
 ## Comparer::Compare(const System::String\&, const System::String\&, const System::String\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
-Compares the document with another document producing changes as number of edit and format revisions.
+Compares two documents with additional options and saves the differences to the specified output file, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, const System::String &v2, const System::String &outputFileName, const System::String &author, System::DateTime dateTime, const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> &compareOptions)

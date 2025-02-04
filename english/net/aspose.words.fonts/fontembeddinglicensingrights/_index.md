@@ -5,7 +5,7 @@ articleTitle: FontEmbeddingLicensingRights
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontEmbeddingLicensingRights class. Represents embedding licensing rights for the font in C#.
 type: docs
-weight: 3290
+weight: 3300
 url: /net/aspose.words.fonts/fontembeddinglicensingrights/
 ---
 ## FontEmbeddingLicensingRights class

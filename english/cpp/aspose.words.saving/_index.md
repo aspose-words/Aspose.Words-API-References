@@ -93,6 +93,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [MarkdownExportAsHtml](./markdownexportashtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [MarkdownLinkExportMode](./markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](./markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
+| [MarkdownOfficeMathExportMode](./markdownofficemathexportmode/) | Specifies how Aspose.Words exports OfficeMath to Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
 | [OdtSaveMeasureUnit](./odtsavemeasureunit/) | Specified units of measure to apply to measurable document content such as shape, widths and other during saving. |
