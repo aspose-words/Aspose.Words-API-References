@@ -5,7 +5,7 @@ articleTitle: ComparisonTargetType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Comparing.ComparisonTargetType enum. Allows to specify base document which will be used during comparison. Default value is Current in C#.
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
@@ -98,7 +98,7 @@ CompareOptions compareOptions = new CompareOptions
 };
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### See Also

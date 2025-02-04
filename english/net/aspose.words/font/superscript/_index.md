@@ -5,7 +5,7 @@ articleTitle: Superscript
 second_title: Aspose.Words for .NET
 description: Font Superscript property. True if the font is formatted as superscript in C#.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.words/font/superscript/
 ---
 ## Font.Superscript property

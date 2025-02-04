@@ -5,7 +5,7 @@ articleTitle: MappedDataFieldCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.MappedDataFieldCollection class. Allows to automatically map between names of fields in your data source and names of mail merge fields in the document in C#.
 type: docs
-weight: 4410
+weight: 4420
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class

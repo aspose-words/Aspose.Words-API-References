@@ -193,7 +193,7 @@ public static Stream[] ConvertToImages(string inputFile, SaveFormat saveFormat)
 
 ### Return Value
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 ## Examples
 
@@ -237,7 +237,7 @@ public static Stream[] ConvertToImages(string inputFile, ImageSaveOptions saveOp
 
 ### Return Value
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 ## Examples
 
@@ -281,7 +281,7 @@ public static Stream[] ConvertToImages(Stream inputStream, SaveFormat saveFormat
 
 ### Return Value
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 ## Examples
 
@@ -325,7 +325,7 @@ public static Stream[] ConvertToImages(Stream inputStream, ImageSaveOptions save
 
 ### Return Value
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 ## Examples
 
@@ -371,7 +371,7 @@ public static Stream[] ConvertToImages(Stream inputStream, LoadOptions loadOptio
 
 ### Return Value
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 ## Examples
 
@@ -416,7 +416,7 @@ public static Stream[] ConvertToImages(Document doc, SaveFormat saveFormat)
 
 ### Return Value
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 ## Examples
 
@@ -461,7 +461,7 @@ public static Stream[] ConvertToImages(Document doc, ImageSaveOptions saveOption
 
 ### Return Value
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 ## Examples
 

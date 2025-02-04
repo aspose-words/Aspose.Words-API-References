@@ -8,7 +8,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lowcode/reportbuilder/buildreport/
 ---
-## BuildReport(*string, string, object*) {#buildreport_12}
+## BuildReport(*string, string, object*) {#buildreport_18}
 
 Populates the template document with data from the specified source, generating a completed report.
 
@@ -54,7 +54,7 @@ public class AsposeData
 
 ---
 
-## BuildReport(*string, string, object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_13}
+## BuildReport(*string, string, object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_19}
 
 Populates the template document with data from the specified source, generating a completed report with additional options.
 
@@ -103,7 +103,7 @@ public class AsposeData
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object*) {#buildreport_6}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object*) {#buildreport_9}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format.
 
@@ -152,7 +152,7 @@ public class AsposeData
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_7}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_10}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
 
@@ -196,6 +196,33 @@ public class AsposeData
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilderOptions](../../reportbuilderoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_15}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, object data, ReportBuilderOptions reportBuilderOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+| reportBuilderOptions | ReportBuilderOptions | Additional report build options. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [ReportBuilderOptions](../../reportbuilderoptions/)
 * class [ReportBuilder](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -299,7 +326,34 @@ using (FileStream streamIn = new FileStream(MyDir + "Reporting engine template -
 
 ---
 
-## BuildReport(*string, string, object, string*) {#buildreport_14}
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_6}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options, from input and output streams.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    object data, ReportBuilderOptions reportBuilderOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+| reportBuilderOptions | ReportBuilderOptions | Additional report build options. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilderOptions](../../reportbuilderoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, object, string*) {#buildreport_20}
 
 Populates the template document with data from the specified source, generating a completed report with a named data source reference.
 
@@ -358,7 +412,7 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_15}
+## BuildReport(*string, string, object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_21}
 
 Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
 
@@ -419,7 +473,7 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string*) {#buildreport_8}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string*) {#buildreport_11}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format and a named data source reference.
 
@@ -480,7 +534,7 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_9}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_12}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
 
@@ -536,6 +590,35 @@ public class MessageTestClass
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilderOptions](../../reportbuilderoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_16}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, object data, string dataSourceName, 
+    ReportBuilderOptions reportBuilderOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+| dataSourceName | String | A name to reference the data source object in the template. |
+| reportBuilderOptions | ReportBuilderOptions | Additional report build options. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [ReportBuilderOptions](../../reportbuilderoptions/)
 * class [ReportBuilder](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -639,7 +722,35 @@ using (FileStream streamIn = new FileStream(MyDir + "Report building.docx", File
 
 ---
 
-## BuildReport(*string, string, object[], string[]*) {#buildreport_16}
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_7}
+
+Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    object data, string dataSourceName, ReportBuilderOptions reportBuilderOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+| dataSourceName | String | A name to reference the data source object in the template. |
+| reportBuilderOptions | ReportBuilderOptions | Additional report build options. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilderOptions](../../reportbuilderoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, object[], string[]*) {#buildreport_22}
 
 Populates the template document with data from multiple sources, generating a completed report from the specified input and output file names. This overload automatically determines the save format based on the output file extension.
 
@@ -698,7 +809,7 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_17}
+## BuildReport(*string, string, object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_23}
 
 Populates the template document with data from multiple sources, generating a completed report with additional options. This overload automatically determines the save format based on the output file extension.
 
@@ -759,7 +870,7 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[]*) {#buildreport_10}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[]*) {#buildreport_13}
 
 Populates the template document with data from multiple sources, generating a completed report with a specified output format. This overload automatically determines the save format based on the output file extension.
 
@@ -820,7 +931,7 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_11}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_14}
 
 Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
 
@@ -876,6 +987,35 @@ public class MessageTestClass
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilderOptions](../../reportbuilderoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_17}
+
+Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, object[] data, string[] dataSourceNames, 
+    ReportBuilderOptions reportBuilderOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+| reportBuilderOptions | ReportBuilderOptions | Additional report build options. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [ReportBuilderOptions](../../reportbuilderoptions/)
 * class [ReportBuilder](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -973,6 +1113,34 @@ using (FileStream streamIn = new FileStream(MyDir + "Reporting engine template -
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilderOptions](../../reportbuilderoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_8}
+
+Populates the template document with data from multiple sources, generating a completed report with specified output format and additional options from the specified input and output file streams.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+| reportBuilderOptions | ReportBuilderOptions | Additional report build options. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [ReportBuilderOptions](../../reportbuilderoptions/)
 * class [ReportBuilder](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)

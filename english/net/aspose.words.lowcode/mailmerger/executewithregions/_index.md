@@ -8,7 +8,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lowcode/mailmerger/executewithregions/
 ---
-## ExecuteWithRegions(*string, string, DataTable*) {#executewithregions_9}
+## ExecuteWithRegions(*string, string, DataTable*) {#executewithregions_13}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -51,7 +51,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 
 ---
 
-## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataTable*) {#executewithregions_7}
+## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataTable*) {#executewithregions_9}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -96,7 +96,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 
 ---
 
-## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#executewithregions_5}
+## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#executewithregions_7}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -136,6 +136,33 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ExecuteWithRegions(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#executewithregions_11}
+
+Performs mail merge from a DataTable into the document with mail merge regions.
+
+```csharp
+public static void ExecuteWithRegions(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, MailMergeOptions mailMergeOptions, DataTable dataTable)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -241,7 +268,34 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## ExecuteWithRegions(*string, string, DataSet*) {#executewithregions_8}
+## ExecuteWithRegions(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#executewithregions_5}
+
+Performs a mail merge operation for a single record.
+
+```csharp
+public static void ExecuteWithRegions(Stream inputStream, Stream outputStream, 
+    SaveOptions saveOptions, MailMergeOptions mailMergeOptions, DataTable dataTable)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ExecuteWithRegions(*string, string, DataSet*) {#executewithregions_12}
 
 Performs mail merge from a DataSet into a document with mail merge regions.
 
@@ -295,7 +349,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 
 ---
 
-## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataSet*) {#executewithregions_6}
+## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataSet*) {#executewithregions_8}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -352,7 +406,7 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 
 ---
 
-## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataSet*) {#executewithregions_4}
+## ExecuteWithRegions(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataSet*) {#executewithregions_6}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -404,6 +458,33 @@ MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsD
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ExecuteWithRegions(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataSet*) {#executewithregions_10}
+
+Performs mail merge from a DataTable into the document with mail merge regions.
+
+```csharp
+public static void ExecuteWithRegions(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, MailMergeOptions mailMergeOptions, DataSet dataSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataSet | DataSet | DataSet that contains data to be inserted into mail merge fields. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -526,6 +607,33 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ExecuteWithRegions(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataSet*) {#executewithregions_4}
+
+Performs a mail merge operation for a single record.
+
+```csharp
+public static void ExecuteWithRegions(Stream inputStream, Stream outputStream, 
+    SaveOptions saveOptions, MailMergeOptions mailMergeOptions, DataSet dataSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+| dataSet | DataSet | DataSet that contains data to be inserted into mail merge fields. |
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [MailMergeOptions](../../mailmergeoptions/)
 * class [MailMerger](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)

@@ -5,7 +5,7 @@ articleTitle: ThemeColor
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Themes.ThemeColor enum. Specifies the theme colors for document themes in C#.
 type: docs
-weight: 7140
+weight: 7160
 url: /net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration

@@ -5,7 +5,7 @@ articleTitle: ShapeTextOrientation
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ShapeTextOrientation enum. Specifies orientation of text in shapes in C#.
 type: docs
-weight: 1660
+weight: 1670
 url: /net/aspose.words.drawing/shapetextorientation/
 ---
 ## ShapeTextOrientation enumeration

@@ -5,7 +5,7 @@ articleTitle: DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.DmlEffectsRenderingMode enum. Specifies how DrawingML effects are rendered to fixed page formats in C#.
 type: docs
-weight: 5500
+weight: 5520
 url: /net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enumeration

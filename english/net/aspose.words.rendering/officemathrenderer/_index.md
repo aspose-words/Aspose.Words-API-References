@@ -5,7 +5,7 @@ articleTitle: OfficeMathRenderer
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Rendering.OfficeMathRenderer class. Provides methods to render an individual OfficeMath to a raster or vector image or to a Graphics object in C#.
 type: docs
-weight: 5130
+weight: 5150
 url: /net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class

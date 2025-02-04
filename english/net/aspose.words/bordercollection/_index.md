@@ -5,7 +5,7 @@ articleTitle: BorderCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.BorderCollection class. A collection of Border objects in C#.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.words/bordercollection/
 ---
 ## BorderCollection class

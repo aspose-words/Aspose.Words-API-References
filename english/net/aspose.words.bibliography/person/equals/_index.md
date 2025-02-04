@@ -8,24 +8,10 @@ type: docs
 weight: 50
 url: /net/aspose.words.bibliography/person/equals/
 ---
-## Equals(*object*) {#equals_1}
+## Person.Equals method
 
 ```csharp
 public override bool Equals(object obj)
-```
-
-### See Also
-
-* class [Person](../)
-* namespace [Aspose.Words.Bibliography](../../../aspose.words.bibliography/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Equals(*[Person](../)*) {#equals}
-
-```csharp
-public bool Equals(Person other)
 ```
 
 ### See Also

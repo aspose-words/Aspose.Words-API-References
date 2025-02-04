@@ -5,7 +5,7 @@ articleTitle: AxisTickLabels
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.AxisTickLabels class. Represents properties of axis tick mark labels in C#.
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.words.drawing.charts/axisticklabels/
 ---
 ## AxisTickLabels class

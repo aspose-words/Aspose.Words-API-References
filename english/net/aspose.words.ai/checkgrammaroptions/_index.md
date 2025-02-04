@@ -5,7 +5,7 @@ articleTitle: CheckGrammarOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.AI.CheckGrammarOptions class. Allows to specify various options while checking grammar of a document using AI in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.ai/checkgrammaroptions/
 ---
 ## CheckGrammarOptions class
@@ -39,13 +39,13 @@ Document doc = new Document(MyDir + "Big document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+IAiModelText model = (OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 
 CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
 grammarOptions.ImproveStylistics = true;
 
 Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
+proofedDoc.Save(ArtifactsDir + "AI.AiGrammar.docx");
 ```
 
 ### See Also

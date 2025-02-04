@@ -5,7 +5,7 @@ articleTitle: Person
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Bibliography.Person class. Represents individual a person bibliography source contributor in C#.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.bibliography/person/
 ---
 ## Person class
@@ -34,8 +34,7 @@ public sealed class Person
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.words.bibliography/person/equals/#equals_1)(*object*) |  |
-| [Equals](../../aspose.words.bibliography/person/equals/#equals)(*Person*) |  |
+| override [Equals](../../aspose.words.bibliography/person/equals/)(*object*) |  |
 | override [GetHashCode](../../aspose.words.bibliography/person/gethashcode/)() |  |
 
 ## Examples

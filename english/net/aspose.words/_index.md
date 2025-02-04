@@ -135,6 +135,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [NodeChangingAction](./nodechangingaction/) | Specifies the type of node change. |
 | [NodeType](./nodetype/) | Specifies the type of a Word document node. |
 | [NumberStyle](./numberstyle/) | Specifies the number style for a list, footnotes and endnotes, page numbers. |
+| [NumSpacing](./numspacing/) | Specifies possible values in which numeral spacing can be displayed. |
 | [Orientation](./orientation/) | Specifies page orientation. |
 | [OutlineLevel](./outlinelevel/) | Specifies the outline level of a paragraph in the document. |
 | [PageBorderAppliesTo](./pageborderappliesto/) | Specifies which pages the page border is printed on. |

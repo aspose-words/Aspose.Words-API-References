@@ -5,7 +5,7 @@ articleTitle: GetListByListId
 second_title: Aspose.Words for .NET
 description: ListCollection GetListByListId method. Gets a list by a list identifier in C#.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method

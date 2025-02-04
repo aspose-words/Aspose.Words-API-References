@@ -73,7 +73,7 @@ Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 // We can accept/reject these revisions programmatically
 // by calling methods such as Document.AcceptAllRevisions, or each revision's Accept method.
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### See Also
@@ -149,7 +149,7 @@ Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 // We can accept/reject these revisions programmatically
 // by calling methods such as Document.AcceptAllRevisions, or each revision's Accept method.
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### See Also

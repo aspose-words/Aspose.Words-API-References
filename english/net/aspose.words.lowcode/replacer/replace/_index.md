@@ -8,7 +8,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lowcode/replacer/replace/
 ---
-## Replace(*string, string, string, string*) {#replace_8}
+## Replace(*string, string, string, string*) {#replace_12}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file.
 
@@ -38,9 +38,11 @@ string doc = MyDir + "Footer.docx";
 string pattern = "(C)2006 Aspose Pty Ltd.";
 string replacement = "Copyright (C) 2024 by Aspose Pty Ltd.";
 
+FindReplaceOptions options = new FindReplaceOptions();
+options.FindWholeWordsOnly = false;
 Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.1.docx", pattern, replacement);
 Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.2.docx", SaveFormat.Docx, pattern, replacement);
-Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, pattern, replacement, options);
 ```
 
 ### See Also
@@ -51,7 +53,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, 
 
 ---
 
-## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string*) {#replace_4}
+## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string*) {#replace_6}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format.
 
@@ -82,9 +84,11 @@ string doc = MyDir + "Footer.docx";
 string pattern = "(C)2006 Aspose Pty Ltd.";
 string replacement = "Copyright (C) 2024 by Aspose Pty Ltd.";
 
+FindReplaceOptions options = new FindReplaceOptions();
+options.FindWholeWordsOnly = false;
 Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.1.docx", pattern, replacement);
 Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.2.docx", SaveFormat.Docx, pattern, replacement);
-Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, pattern, replacement, options);
 ```
 
 ### See Also
@@ -96,7 +100,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, 
 
 ---
 
-## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_5}
+## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_7}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
@@ -128,14 +132,48 @@ string doc = MyDir + "Footer.docx";
 string pattern = "(C)2006 Aspose Pty Ltd.";
 string replacement = "Copyright (C) 2024 by Aspose Pty Ltd.";
 
+FindReplaceOptions options = new FindReplaceOptions();
+options.FindWholeWordsOnly = false;
 Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.1.docx", pattern, replacement);
 Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.2.docx", SaveFormat.Docx, pattern, replacement);
-Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, pattern, replacement, options);
 ```
 
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_10}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
+
+```csharp
+public static int Replace(string inputFileName, string outputFileName, SaveOptions saveOptions, 
+    string pattern, string replacement, FindReplaceOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The save options. |
+| pattern | String | A string to be replaced. |
+| replacement | String | A string to replace all occurrences of pattern. |
+| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Return Value
+
+The number of replacements made.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Replacer](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -179,7 +217,11 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
         Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ReplaceStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+    {
+        FindReplaceOptions options = new FindReplaceOptions();
+        options.FindWholeWordsOnly = false;
+        Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement, options);
+    }
 }
 ```
 
@@ -229,7 +271,11 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
         Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ReplaceStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+    {
+        FindReplaceOptions options = new FindReplaceOptions();
+        options.FindWholeWordsOnly = false;
+        Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement, options);
+    }
 }
 ```
 
@@ -243,7 +289,39 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
 
 ---
 
-## Replace(*string, string, Regex, string*) {#replace_9}
+## Replace(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_4}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
+
+```csharp
+public static int Replace(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    string pattern, string replacement, FindReplaceOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveOptions | SaveOptions | The save options. |
+| pattern | String | A string to be replaced. |
+| replacement | String | A string to replace all occurrences of pattern. |
+| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Return Value
+
+The number of replacements made.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*string, string, Regex, string*) {#replace_13}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression.
 
@@ -286,7 +364,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 
 ---
 
-## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string*) {#replace_6}
+## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string*) {#replace_8}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format.
 
@@ -331,7 +409,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 
 ---
 
-## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_7}
+## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_9}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options.
 
@@ -371,6 +449,38 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_11}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options.
+
+```csharp
+public static int Replace(string inputFileName, string outputFileName, SaveOptions saveOptions, 
+    Regex pattern, string replacement, FindReplaceOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The save options. |
+| pattern | Regex | A regular expression pattern used to find matches. |
+| replacement | String | A string to replace all occurrences of pattern. |
+| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Return Value
+
+The number of replacements made.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Replacer](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
@@ -471,6 +581,38 @@ using (FileStream streamIn = new FileStream(MyDir + "Replace regex.docx", FileMo
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_5}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options.
+
+```csharp
+public static int Replace(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    Regex pattern, string replacement, FindReplaceOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveOptions | SaveOptions | The save options. |
+| pattern | Regex | A regular expression pattern used to find matches. |
+| replacement | String | A string to replace all occurrences of pattern. |
+| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Return Value
+
+The number of replacements made.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Replacer](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)

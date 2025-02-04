@@ -85,7 +85,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
     // Iterate over all top-level comments. Unlike reply-type comments, top-level comments have no ancestor.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
         // First, visit the start of the comment range.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;

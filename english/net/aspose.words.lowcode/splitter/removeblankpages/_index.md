@@ -8,7 +8,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lowcode/splitter/removeblankpages/
 ---
-## RemoveBlankPages(*string, string*) {#removeblankpages_1}
+## RemoveBlankPages(*string, string*) {#removeblankpages_2}
 
 Removes empty pages from the document and saves the output. Returns a list of page numbers that were removed.
 
@@ -45,7 +45,7 @@ Splitter.RemoveBlankPages(doc, ArtifactsDir + "LowCode.RemoveBlankPages.2.docx",
 
 ---
 
-## RemoveBlankPages(*string, string, [SaveFormat](../../../aspose.words/saveformat/)*) {#removeblankpages_2}
+## RemoveBlankPages(*string, string, [SaveFormat](../../../aspose.words/saveformat/)*) {#removeblankpages_3}
 
 Removes empty pages from the document and saves the output in the specified format. Returns a list of page numbers that were removed.
 
@@ -79,6 +79,34 @@ Splitter.RemoveBlankPages(doc, ArtifactsDir + "LowCode.RemoveBlankPages.2.docx",
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [Splitter](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## RemoveBlankPages(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#removeblankpages_4}
+
+Removes empty pages from the document and saves the output in the specified format. Returns a list of page numbers that were removed.
+
+```csharp
+public static List<int> RemoveBlankPages(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The save options. |
+
+### Return Value
+
+List of page numbers has been considered as blank and removed.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Splitter](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
@@ -119,6 +147,34 @@ using (FileStream streamIn = new FileStream(MyDir + "Blank pages.docx", FileMode
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [Splitter](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## RemoveBlankPages(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#removeblankpages_1}
+
+Removes blank pages from a document provided in an input stream and saves the updated document to an output stream in the specified save format. Returns a list of page numbers that were removed.
+
+```csharp
+public static List<int> RemoveBlankPages(Stream inputStream, Stream outputStream, 
+    SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveOptions | SaveOptions | The save options. |
+
+### Return Value
+
+List of page numbers has been considered as blank and removed.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Splitter](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
