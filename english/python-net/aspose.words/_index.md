@@ -167,6 +167,7 @@ The main classes in this module are:
 | [MeasurementUnits](./measurementunits/) | Specifies the unit of measurement. |
 | [NodeChangingAction](./nodechangingaction/) | Specifies the type of node change. |
 | [NodeType](./nodetype/) | Specifies the type of a Word document node. |
+| [NumSpacing](./numspacing/) | Specifies possible values in which numeral spacing can be displayed. |
 | [NumberStyle](./numberstyle/) | Specifies the number style for a list, footnotes and endnotes, page numbers. |
 | [Orientation](./orientation/) | Specifies page orientation. |
 | [OutlineLevel](./outlinelevel/) | Specifies the outline level of a paragraph in the document. |

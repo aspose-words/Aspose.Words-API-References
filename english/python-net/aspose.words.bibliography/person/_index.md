@@ -27,12 +27,6 @@ Represents individual (a person) bibliography source contributor.
 | [last](./last/) | Gets or sets the last name of a person. |
 | [middle](./middle/) | Gets or sets the middle name of a person. |
 
-### Methods
-
-| Name | Description |
-| --- | --- |
-|[ equals(other)](./equals/#person) |  |
-
 ### Examples
 
 Shows how to get bibliography sources available in the document.

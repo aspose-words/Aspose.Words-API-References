@@ -144,17 +144,17 @@ Shows how to create a list by applying a new list format to a collection of para
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Paragraph 1')
 builder.writeln('Paragraph 2')
 builder.write('Paragraph 3')
-paras = [node.as_paragraph() for node in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)]
-self.assertEqual(0, len([p for p in paras if p.list_format.is_list_item]))
-list = doc.lists.add(aw.lists.ListTemplate.NUMBER_UPPERCASE_LETTER_DOT)
-for paragraph in paras:
-    paragraph.list_format.list = list
+paras = doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)
+self.assertEqual(0, len(list(filter(lambda n: n.as_paragraph().list_format.is_list_item, paras))))
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_UPPERCASE_LETTER_DOT)
+for paragraph in filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_paragraph(), b), list(paras))):
+    paragraph.list_format.list = doc_list
     paragraph.list_format.list_level_number = 1
-self.assertEqual(3, len([p for p in paras if p.list_format.is_list_item]))
+self.assertEqual(3, len(list(filter(lambda n: n.as_paragraph().list_format.is_list_item, paras))))
 ```
 
 Shows how to create a list style and use it in a document.

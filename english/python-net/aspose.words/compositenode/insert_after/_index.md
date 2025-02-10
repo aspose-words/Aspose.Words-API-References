@@ -86,14 +86,14 @@ self.assertEqual(3, paragraph.get_child_nodes(aw.NodeType.ANY, True).count)
 Shows how to replace all textbox shapes with image shapes.
 
 ```python
-doc = aw.Document(MY_DIR + 'Textboxes in drawing canvas.docx')
-shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
-self.assertEqual(3, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.TEXT_BOX]))
-self.assertEqual(1, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.IMAGE]))
+doc = aw.Document(file_name=MY_DIR + 'Textboxes in drawing canvas.docx')
+shapes = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))
+self.assertEqual(3, len(list(filter(lambda s: s.shape_type == aw.drawing.ShapeType.TEXT_BOX, shapes))))
+self.assertEqual(1, len(list(filter(lambda s: s.shape_type == aw.drawing.ShapeType.IMAGE, shapes))))
 for shape in shapes:
     if shape.shape_type == aw.drawing.ShapeType.TEXT_BOX:
         replacement_shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
-        replacement_shape.image_data.set_image(IMAGE_DIR + 'Logo.jpg')
+        replacement_shape.image_data.set_image(file_name=IMAGE_DIR + 'Logo.jpg')
         replacement_shape.left = shape.left
         replacement_shape.top = shape.top
         replacement_shape.width = shape.width
@@ -106,10 +106,10 @@ for shape in shapes:
         replacement_shape.wrap_side = shape.wrap_side
         shape.parent_node.insert_after(replacement_shape, shape)
         shape.remove()
-shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
-self.assertEqual(0, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.TEXT_BOX]))
-self.assertEqual(4, len([shape for shape in shapes if shape.shape_type == aw.drawing.ShapeType.IMAGE]))
-doc.save(ARTIFACTS_DIR + 'Shape.replace_textboxes_with_images.docx')
+shapes = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))
+self.assertEqual(0, len(list(filter(lambda s: s.shape_type == aw.drawing.ShapeType.TEXT_BOX, shapes))))
+self.assertEqual(4, len(list(filter(lambda s: s.shape_type == aw.drawing.ShapeType.IMAGE, shapes))))
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.ReplaceTextboxesWithImages.docx')
 ```
 
 ### See Also

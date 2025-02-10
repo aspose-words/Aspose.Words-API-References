@@ -33,17 +33,17 @@ Previous node in pre-order order. Null if reached the *rootNode*.
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
 
 ```python
-doc = aw.Document(MY_DIR + 'Images.docx')
-self.assertEqual(9, len([node for node in doc.get_child_nodes(aw.NodeType.SHAPE, True) if node.as_shape().has_image]))
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
+self.assertEqual(9, len(list(filter(lambda s: s.has_image, list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))))))
 cur_node = doc
-while cur_node is not None:
+while cur_node != None:
     next_node = cur_node.next_pre_order(doc)
-    if cur_node.previous_pre_order(doc) is not None and next_node is not None:
+    if cur_node.previous_pre_order(doc) != None and next_node != None:
         self.assertEqual(cur_node, next_node.previous_pre_order(doc))
     if cur_node.node_type == aw.NodeType.SHAPE and cur_node.as_shape().has_image:
         cur_node.remove()
     cur_node = next_node
-self.assertEqual(0, len([node for node in doc.get_child_nodes(aw.NodeType.SHAPE, True) if node.as_shape().has_image]))
+self.assertEqual(0, len(list(filter(lambda s: s.has_image, list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))))))
 ```
 
 ### See Also

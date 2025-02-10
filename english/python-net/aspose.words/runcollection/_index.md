@@ -5,7 +5,7 @@ articleTitle: RunCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.RunCollection class. Provides typed access to a collection of [Run](../run/) nodes"
 type: docs
-weight: 1030
+weight: 1040
 url: /python-net/aspose.words/runcollection/
 ---
 

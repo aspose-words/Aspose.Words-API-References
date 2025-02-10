@@ -61,23 +61,22 @@ Shows how to number paragraphs using AUTONUMOUT fields.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # AUTONUMOUT fields display a number that increments at each AUTONUMOUT field.
 # Unlike AUTONUM fields, AUTONUMOUT fields use the outline numbering scheme,
 # which we can define in Microsoft Word via Format -> Bullets & Numbering -> "Outline Numbered".
 # This allows us to automatically number items like a numbered list.
 # LISTNUM fields are a newer alternative to AUTONUMOUT fields.
 # This field will display "1.".
-builder.insert_field(aw.fields.FieldType.FIELD_AUTO_NUM_OUTLINE, True)
+builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTO_NUM_OUTLINE, update_field=True)
 builder.writeln('\tParagraph 1.')
 # This field will display "2.".
-builder.insert_field(aw.fields.FieldType.FIELD_AUTO_NUM_OUTLINE, True)
+builder.insert_field(field_type=aw.fields.FieldType.FIELD_AUTO_NUM_OUTLINE, update_field=True)
 builder.writeln('\tParagraph 2.')
-for field in doc.range.fields:
-    if field.type == aw.fields.FieldType.FIELD_AUTO_NUM_OUTLINE:
-        field = field.as_field_auto_num_out()
-        self.assertEqual(' AUTONUMOUT ', field.get_field_code())
-doc.save(ARTIFACTS_DIR + 'Field.field_auto_num_out.docx')
+for field in list(filter(lambda f: f.type == aw.fields.FieldType.FIELD_AUTO_NUM_OUTLINE, list(doc.range.fields))):
+    field = field.as_field_auto_num_out()
+    self.assertEqual(' AUTONUMOUT ', field.get_field_code())
+doc.save(file_name=ARTIFACTS_DIR + 'Field.AUTONUMOUT.docx')
 ```
 
 ### See Also

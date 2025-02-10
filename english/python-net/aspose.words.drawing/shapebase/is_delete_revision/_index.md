@@ -31,17 +31,17 @@ self.assertFalse(doc.track_revisions)
 # Insert an inline shape without tracking revisions, which will make this shape not a revision of any kind.
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.CUBE)
 shape.wrap_type = aw.drawing.WrapType.INLINE
-shape.width = 100.0
-shape.height = 100.0
+shape.width = 100
+shape.height = 100
 doc.first_section.body.first_paragraph.append_child(shape)
 # Start tracking revisions and then insert another shape, which will be a revision.
-doc.start_track_revisions('John Doe')
+doc.start_track_revisions(author='John Doe')
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.SUN)
 shape.wrap_type = aw.drawing.WrapType.INLINE
-shape.width = 100.0
-shape.height = 100.0
+shape.width = 100
+shape.height = 100
 doc.first_section.body.first_paragraph.append_child(shape)
-shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
+shapes = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))
 self.assertEqual(2, len(shapes))
 shapes[0].remove()
 # Since we removed that shape while we were tracking changes,

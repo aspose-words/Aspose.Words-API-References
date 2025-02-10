@@ -5,7 +5,7 @@ articleTitle: as_open_ai_model method
 second_title: Aspose.Words for Python
 description: "AiModel.as_open_ai_model method. Cast AiModel to [OpenAiModel](../../openaimodel/)."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.ai/aimodel/as_open_ai_model/
 ---
 

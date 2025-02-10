@@ -5,7 +5,7 @@ articleTitle: style_identifier property
 second_title: Aspose.Words for Python
 description: "Font.style_identifier property. Gets or sets the locale independent style identifier of the character style applied to this formatting."
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words/font/style_identifier/
 ---
 

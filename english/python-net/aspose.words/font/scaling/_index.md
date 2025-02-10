@@ -5,7 +5,7 @@ articleTitle: scaling property
 second_title: Aspose.Words for Python
 description: "Font.scaling property. Gets or sets character width scaling in percent."
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.words/font/scaling/
 ---
 

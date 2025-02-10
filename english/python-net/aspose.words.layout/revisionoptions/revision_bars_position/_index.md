@@ -50,7 +50,7 @@ builder.writeln('This is not a revision.')
 doc.layout_options.revision_options.inserted_text_color = aw.layout.RevisionColor.BRIGHT_GREEN
 doc.layout_options.revision_options.show_revision_bars = False
 doc.layout_options.revision_options.revision_bars_position = aw.drawing.HorizontalAlignment.RIGHT
-doc.save(file_name=ARTIFACTS_DIR + 'Document.LayoutOptionsRevisions.pdf')
+doc.save(file_name=ARTIFACTS_DIR + 'Revision.LayoutOptionsRevisions.pdf')
 ```
 
 ### See Also

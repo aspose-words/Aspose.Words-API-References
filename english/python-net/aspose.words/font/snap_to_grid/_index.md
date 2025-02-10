@@ -5,7 +5,7 @@ articleTitle: snap_to_grid property
 second_title: Aspose.Words for Python
 description: "Font.snap_to_grid property. Specifies whether the current font should use the document grid characters per line settings when laying out."
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.words/font/snap_to_grid/
 ---
 

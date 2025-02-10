@@ -58,10 +58,10 @@ Shows how to use the hard drive instead of memory when loading a document.
 options = aw.loading.LoadOptions()
 options.temp_folder = ARTIFACTS_DIR + 'TempFiles'
 # The specified temporary folder must exist in the local file system before the load operation.
-os.makedirs(options.temp_folder, exist_ok=True)
-doc = aw.Document(MY_DIR + 'Document.docx', options)
+system_helper.io.Directory.create_directory(options.temp_folder)
+doc = aw.Document(file_name=MY_DIR + 'Document.docx', load_options=options)
 # The folder will persist with no residual contents from the load operation.
-self.assertListEqual([], os.listdir(options.temp_folder))
+self.assertEqual(0, len(system_helper.io.Directory.get_files(options.temp_folder)))
 ```
 
 ### See Also

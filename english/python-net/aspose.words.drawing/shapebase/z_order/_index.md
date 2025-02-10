@@ -49,28 +49,28 @@ Shows how to manipulate the order of shapes.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert three different colored rectangles that partially overlap each other.
 # When we insert a shape that overlaps another shape, Aspose.Words places the newer shape on top of the old one.
 # The light green rectangle will overlap the light blue rectangle and partially obscure it,
 # and the light blue rectangle will obscure the orange rectangle.
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, 100, aw.drawing.RelativeVerticalPosition.TOP_MARGIN, 100, 200, 200, aw.drawing.WrapType.NONE)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, horz_pos=aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, left=100, vert_pos=aw.drawing.RelativeVerticalPosition.TOP_MARGIN, top=100, width=200, height=200, wrap_type=aw.drawing.WrapType.NONE)
 shape.fill_color = aspose.pydrawing.Color.orange
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, 150, aw.drawing.RelativeVerticalPosition.TOP_MARGIN, 150, 200, 200, aw.drawing.WrapType.NONE)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, horz_pos=aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, left=150, vert_pos=aw.drawing.RelativeVerticalPosition.TOP_MARGIN, top=150, width=200, height=200, wrap_type=aw.drawing.WrapType.NONE)
 shape.fill_color = aspose.pydrawing.Color.light_blue
-shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, 200, aw.drawing.RelativeVerticalPosition.TOP_MARGIN, 200, 200, 200, aw.drawing.WrapType.NONE)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, horz_pos=aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, left=200, vert_pos=aw.drawing.RelativeVerticalPosition.TOP_MARGIN, top=200, width=200, height=200, wrap_type=aw.drawing.WrapType.NONE)
 shape.fill_color = aspose.pydrawing.Color.light_green
-shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
-# The "z_order" property of a shape determines its stacking priority among other overlapping shapes.
-# If two overlapping shapes have different "z_order" values,
+shapes = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))
+# The "ZOrder" property of a shape determines its stacking priority among other overlapping shapes.
+# If two overlapping shapes have different "ZOrder" values,
 # Microsoft Word will place the shape with a higher value over the shape with the lower value.
-# Set the "z_order" values of our shapes to place the first orange rectangle over the second light blue one
+# Set the "ZOrder" values of our shapes to place the first orange rectangle over the second light blue one
 # and the second light blue rectangle over the third light green rectangle.
 # This will reverse their original stacking order.
 shapes[0].z_order = 3
 shapes[1].z_order = 2
 shapes[2].z_order = 1
-doc.save(ARTIFACTS_DIR + 'Shape.z_order.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.ZOrder.docx')
 ```
 
 ### See Also

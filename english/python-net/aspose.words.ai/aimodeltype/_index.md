@@ -29,6 +29,11 @@ such as summarization, translation, and content generation.
 | GEMINI_15_FLASH | Gemini 1.5 Flash generative model type. |
 | GEMINI_15_FLASH_8B | Gemini 1.5 Flash-8B generative model type. |
 | GEMINI_15_PRO | Gemini 1.5 Pro generative model type. |
+| CLAUDE_35_SONNET | Claude 3.5 Sonnet generative model type. |
+| CLAUDE_35_HAIKU | Claude 3.5 Haiku generative model type. |
+| CLAUDE_3_OPUS | Claude 3 Opus generative model type. |
+| CLAUDE_3_SONNET | Claude 3 Sonnet generative model type. |
+| CLAUDE_3_HAIKU | Claude 3 Haiku generative model type. |
 
 ### Examples
 

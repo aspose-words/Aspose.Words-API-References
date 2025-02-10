@@ -42,6 +42,23 @@ def set_image(self, input_file_name: str, output_file_name: str, save_format: as
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
 | watermark_image_file_name | str | Image that is displayed as a watermark. |
 
+## set_image(input_file_name, output_file_name, save_options, watermark_image_file_name) {#str_str_saveoptions_str}
+
+Adds an image watermark into the document with specified save format.
+
+
+```python
+def set_image(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, watermark_image_file_name: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| watermark_image_file_name | str | Image that is displayed as a watermark. |
+
 ## set_image(input_file_name, output_file_name, watermark_image_file_name, options) {#str_str_str_imagewatermarkoptions}
 
 Adds an image watermark into the document with options.
@@ -74,6 +91,24 @@ def set_image(self, input_file_name: str, output_file_name: str, save_format: as
 | input_file_name | str | The input file name. |
 | output_file_name | str | The output file name. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+| watermark_image_file_name | str | Image that is displayed as a watermark. |
+| options | [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/) | Defines additional options for the image watermark. |
+
+## set_image(input_file_name, output_file_name, save_options, watermark_image_file_name, options) {#str_str_saveoptions_str_imagewatermarkoptions}
+
+Adds an image watermark into the document with options and specified save format.
+
+
+```python
+def set_image(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, watermark_image_file_name: str, options: aspose.words.ImageWatermarkOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 | watermark_image_file_name | str | Image that is displayed as a watermark. |
 | options | [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/) | Defines additional options for the image watermark. |
 

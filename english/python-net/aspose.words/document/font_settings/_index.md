@@ -41,7 +41,7 @@ Shows how set font substitution rules.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Arial'
 builder.writeln('Hello world!')
 builder.font.name = 'Amethysta'
@@ -49,9 +49,9 @@ builder.writeln('The quick brown fox jumps over the lazy dog.')
 font_sources = aw.fonts.FontSettings.default_instance.get_fonts_sources()
 # The default font sources contain the first font that the document uses.
 self.assertEqual(1, len(font_sources))
-self.assertTrue(any((f for f in font_sources[0].get_available_fonts() if f.full_font_name == 'Arial')))
+self.assertTrue(any([f.full_font_name == 'Arial' for f in font_sources[0].get_available_fonts()]))
 # The second font, "Amethysta", is unavailable.
-self.assertFalse(any((f for f in font_sources[0].get_available_fonts() if f.full_font_name == 'Amethysta')))
+self.assertFalse(any([f.full_font_name == 'Amethysta' for f in font_sources[0].get_available_fonts()]))
 # We can configure a font substitution table which determines
 # which fonts Aspose.Words will use as substitutes for unavailable fonts.
 # Set two substitution fonts for "Amethysta": "Arvo", and "Courier New".
@@ -59,11 +59,11 @@ self.assertFalse(any((f for f in font_sources[0].get_available_fonts() if f.full
 doc.font_settings = aw.fonts.FontSettings()
 doc.font_settings.substitution_settings.table_substitution.set_substitutes('Amethysta', ['Arvo', 'Courier New'])
 # "Amethysta" is unavailable, and the substitution rule states that the first font to use as a substitute is "Arvo".
-self.assertFalse(any((f for f in font_sources[0].get_available_fonts() if f.full_font_name == 'Arvo')))
+self.assertFalse(any([f.full_font_name == 'Arvo' for f in font_sources[0].get_available_fonts()]))
 # "Arvo" is also unavailable, but "Courier New" is.
-self.assertTrue(any((f for f in font_sources[0].get_available_fonts() if f.full_font_name == 'Courier New')))
+self.assertTrue(any([f.full_font_name == 'Courier New' for f in font_sources[0].get_available_fonts()]))
 # The output document will display the text that uses the "Amethysta" font formatted with "Courier New".
-doc.save(ARTIFACTS_DIR + 'FontSettings.table_substitution.pdf')
+doc.save(file_name=ARTIFACTS_DIR + 'FontSettings.TableSubstitution.pdf')
 ```
 
 ### See Also

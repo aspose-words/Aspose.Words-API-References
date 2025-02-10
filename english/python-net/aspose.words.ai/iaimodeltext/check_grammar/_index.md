@@ -42,7 +42,7 @@ model = aw.ai.AiModel.create(aw.ai.AiModelType.GPT_4O_MINI).with_api_key(api_key
 grammar_options = aw.ai.CheckGrammarOptions()
 grammar_options.improve_stylistics = True
 proofed_doc = model.check_grammar(doc, grammar_options)
-proofed_doc.save(file_name='AI.AiGrammar.docx')
+proofed_doc.save(file_name=ARTIFACTS_DIR + 'AI.AiGrammar.docx')
 ```
 
 ### See Also

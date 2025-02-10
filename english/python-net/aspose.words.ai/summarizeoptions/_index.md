@@ -5,7 +5,7 @@ articleTitle: SummarizeOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.SummarizeOptions class. Allows to specify various options for summarizing document content."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.ai/summarizeoptions/
 ---
 

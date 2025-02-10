@@ -89,6 +89,27 @@ def compare(self, v1: str, v2: str, output_file_name: str, save_format: aspose.w
 | date_time | datetime.datetime | The date and time to use for revisions. |
 | compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
 
+## compare(v1, v2, output_file_name, save_options, author, date_time, compare_options) {#str_str_str_saveoptions_str_datetime_compareoptions}
+
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: str, v2: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, author: str, date_time: datetime.datetime, compare_options: aspose.words.comparing.CompareOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | str | The original document. |
+| v2 | str | The modified document. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+| compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
+
 ## compare(v1, v2, output_stream, save_format, author, date_time) {#bytesio_bytesio_bytesio_saveformat_str_datetime}
 
 Compares two documents loaded from streams and saves the differences to the provided output stream in the specified save format, 
@@ -126,6 +147,27 @@ def compare(self, v1: io.BytesIO, v2: io.BytesIO, output_stream: io.BytesIO, sav
 | v2 | io.BytesIO | The modified document. |
 | output_stream | io.BytesIO | The output stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+| compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
+
+## compare(v1, v2, output_stream, save_options, author, date_time, compare_options) {#bytesio_bytesio_bytesio_saveoptions_str_datetime_compareoptions}
+
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: io.BytesIO, v2: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, author: str, date_time: datetime.datetime, compare_options: aspose.words.comparing.CompareOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | io.BytesIO | The original document. |
+| v2 | io.BytesIO | The modified document. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
 | author | str | Initials of the author to use for revisions. |
 | date_time | datetime.datetime | The date and time to use for revisions. |
 | compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |

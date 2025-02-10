@@ -5,7 +5,7 @@ articleTitle: RevisionGroupCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.RevisionGroupCollection class. A collection of [RevisionGroup](../revisiongroup/) objects that represent revision groups in the document"
 type: docs
-weight: 990
+weight: 1000
 url: /python-net/aspose.words/revisiongroupcollection/
 ---
 

@@ -19,6 +19,7 @@ Indicates the format of the document that is to be loaded.
 | Name | Description |
 | --- | --- |
 | AUTO | Instructs Aspose.Words to recognize the format automatically. |
+| MS_WORKS | Microsoft Works 8 Document. |
 | DOC | Microsoft Word 95 or Word 97 - 2003 Document. |
 | DOT | Microsoft Word 95 or Word 97 - 2003 Template. |
 | DOC_PRE_WORD60 | The document is in pre-Word 95 format. Aspose.Words does not currently support loading such documents. |

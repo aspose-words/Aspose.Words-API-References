@@ -90,7 +90,7 @@ def convert_to_images(self, input_file: str, save_format: aspose.words.SaveForma
 
 ### Returns
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 
 ## convert_to_images(input_file, save_options) {#str_imagesaveoptions}
@@ -110,7 +110,7 @@ def convert_to_images(self, input_file: str, save_options: aspose.words.saving.I
 
 ### Returns
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 
 ## convert_to_images(input_stream, save_format) {#bytesio_saveformat}
@@ -130,7 +130,7 @@ def convert_to_images(self, input_stream: io.BytesIO, save_format: aspose.words.
 
 ### Returns
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 
 ## convert_to_images(input_stream, save_options) {#bytesio_imagesaveoptions}
@@ -150,7 +150,7 @@ def convert_to_images(self, input_stream: io.BytesIO, save_options: aspose.words
 
 ### Returns
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 
 ## convert_to_images(input_stream, load_options, save_options) {#bytesio_loadoptions_imagesaveoptions}
@@ -171,7 +171,7 @@ def convert_to_images(self, input_stream: io.BytesIO, load_options: aspose.words
 
 ### Returns
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 
 ## convert_to_images(doc, save_format) {#document_saveformat}
@@ -191,7 +191,7 @@ def convert_to_images(self, doc: aspose.words.Document, save_format: aspose.word
 
 ### Returns
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 
 ## convert_to_images(doc, save_options) {#document_imagesaveoptions}
@@ -211,7 +211,7 @@ def convert_to_images(self, doc: aspose.words.Document, save_options: aspose.wor
 
 ### Returns
 
-Returns array of image streams. The streams should be disposed by the enduser.
+Returns array of image streams. The streams should be disposed by the end user.
 
 
 ## Examples
