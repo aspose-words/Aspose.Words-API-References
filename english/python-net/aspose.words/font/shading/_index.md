@@ -5,7 +5,7 @@ articleTitle: shading property
 second_title: Aspose.Words for Python
 description: "Font.shading property. Returns a [Shading](../../shading/) object that refers to the shading formatting for the font."
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.words/font/shading/
 ---
 

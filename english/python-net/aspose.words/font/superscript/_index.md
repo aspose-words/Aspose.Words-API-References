@@ -5,7 +5,7 @@ articleTitle: superscript property
 second_title: Aspose.Words for Python
 description: "Font.superscript property. True if the font is formatted as superscript."
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words/font/superscript/
 ---
 

@@ -25,6 +25,19 @@ Returns ``None`` if field code is empty or invalid, otherwise an [OfficeMath](..
 
 
 
+### Examples
+
+Shows how to replace the EQ field with Office Math.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Field sample - EQ.docx')
+field_eq = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_field_eq(), b), list(doc.range.fields))))[0]
+office_math = field_eq.as_office_math()
+field_eq.start.parent_node.insert_before(office_math, field_eq.start)
+field_eq.remove()
+doc.save(file_name=ARTIFACTS_DIR + 'Field.EQAsOfficeMath.docx')
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

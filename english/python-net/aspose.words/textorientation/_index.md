@@ -5,7 +5,7 @@ articleTitle: TextOrientation enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextOrientation enumeration. Specifies orientation of text on a page, in a table cell or a text frame."
 type: docs
-weight: 1280
+weight: 1290
 url: /python-net/aspose.words/textorientation/
 ---
 

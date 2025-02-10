@@ -43,6 +43,22 @@ System.Security.Cryptography.X509Certificates.X509Certificate2 as parameters.
 
 ### Examples
 
+Shows how to digitally sign documents.
+
+```python
+# Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+certificate_holder = aw.digitalsignatures.CertificateHolder.create(file_name=MY_DIR + 'morzal.pfx', password='aw')
+# Create a comment and date which will be applied with our new digital signature.
+sign_options = aw.digitalsignatures.SignOptions()
+sign_options.comments = 'My comment'
+sign_options.sign_time = datetime.datetime.now()
+# Take an unsigned document from the local file system via a file stream,
+# then create a signed copy of it determined by the filename of the output file stream.
+with system_helper.io.FileStream(MY_DIR + 'Document.docx', system_helper.io.FileMode.OPEN) as stream_in:
+    with system_helper.io.FileStream(ARTIFACTS_DIR + 'DigitalSignatureUtil.SignDocument.docx', system_helper.io.FileMode.OPEN_OR_CREATE) as stream_out:
+        aw.digitalsignatures.DigitalSignatureUtil.sign(src_stream=stream_in, dst_stream=stream_out, cert_holder=certificate_holder, sign_options=sign_options)
+```
+
 Shows how to sign encrypted document file.
 
 ```python
@@ -57,22 +73,6 @@ sign_options.decryption_password = 'docPassword'
 input_file_name = MY_DIR + 'Encrypted.docx'
 output_file_name = ARTIFACTS_DIR + 'DigitalSignatureUtil.DecryptionPassword.docx'
 aw.digitalsignatures.DigitalSignatureUtil.sign(src_file_name=input_file_name, dst_file_name=output_file_name, cert_holder=certificate_holder, sign_options=sign_options)
-```
-
-Shows how to digitally sign documents.
-
-```python
-# Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
-certificate_holder = aw.digitalsignatures.CertificateHolder.create(MY_DIR + 'morzal.pfx', 'aw')
-# Create a comment and date which will be applied with our new digital signature.
-sign_options = aw.digitalsignatures.SignOptions()
-sign_options.comments = 'My comment'
-sign_options.sign_time = datetime.datetime.now()
-# Take an unsigned document from the local file system via a file stream,
-# then create a signed copy of it determined by the filename of the output file stream.
-with open(MY_DIR + 'Document.docx', 'rb') as stream_in:
-    with open(ARTIFACTS_DIR + 'DigitalSignatureUtil.sign_document.docx', 'wb') as stream_out:
-        aw.digitalsignatures.DigitalSignatureUtil.sign(stream_in, stream_out, certificate_holder, sign_options)
 ```
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.

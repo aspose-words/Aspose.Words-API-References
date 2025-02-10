@@ -78,6 +78,30 @@ def replace(self, input_file_name: str, output_file_name: str, save_format: aspo
 The number of replacements made.
 
 
+## replace(input_file_name, output_file_name, save_options, pattern, replacement, options) {#str_str_saveoptions_str_str_findreplaceoptions}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
+
+
+```python
+def replace(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, pattern: str, replacement: str, options: aspose.words.replacing.FindReplaceOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| pattern | str | A string to be replaced. |
+| replacement | str | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Returns
+
+The number of replacements made.
+
+
 ## replace(input_stream, output_stream, save_format, pattern, replacement) {#bytesio_bytesio_saveformat_str_str}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format.
@@ -116,6 +140,30 @@ def replace(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_form
 | input_stream | io.BytesIO | The input stream. |
 | output_stream | io.BytesIO | The output stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+| pattern | str | A string to be replaced. |
+| replacement | str | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Returns
+
+The number of replacements made.
+
+
+## replace(input_stream, output_stream, save_options, pattern, replacement, options) {#bytesio_bytesio_saveoptions_str_str_findreplaceoptions}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
+
+
+```python
+def replace(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, pattern: str, replacement: str, options: aspose.words.replacing.FindReplaceOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input stream. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 | pattern | str | A string to be replaced. |
 | replacement | str | A string to replace all occurrences of pattern. |
 | options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |

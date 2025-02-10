@@ -5,7 +5,7 @@ articleTitle: theme_font_far_east property
 second_title: Aspose.Words for Python
 description: "Font.theme_font_far_east property. Gets or sets the East Asian theme font in the applied font scheme that is associated with this [Font](../) object."
 type: docs
-weight: 500
+weight: 510
 url: /python-net/aspose.words/font/theme_font_far_east/
 ---
 

@@ -46,14 +46,13 @@ for shape in shapes:
 Shows how to delete all shapes with images from a document.
 
 ```python
-doc = aw.Document(MY_DIR + 'Images.docx')
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
 shapes = doc.get_child_nodes(aw.NodeType.SHAPE, True)
-self.assertEqual(9, len([node for node in shapes if node.as_shape().has_image]))
-for node in shapes:
-    shape = node.as_shape()
+self.assertEqual(9, len(list(filter(lambda s: s.has_image, list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(shapes))))))))
+for shape in filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(shapes))):
     if shape.has_image:
         shape.remove()
-self.assertEqual(0, len([node for node in shapes if node.as_shape().has_image]))
+self.assertEqual(0, len(list(filter(lambda s: s.has_image, list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(shapes))))))))
 ```
 
 ### See Also

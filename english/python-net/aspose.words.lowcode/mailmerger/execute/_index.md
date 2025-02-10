@@ -63,6 +63,25 @@ def execute(self, input_file_name: str, output_file_name: str, save_format: aspo
 | field_names | List[str] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | field_values | List[object] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
+## execute(input_file_name, output_file_name, save_options, mail_merge_options, field_names, field_values) {#str_str_saveoptions_mailmergeoptions_strlist_objectlist}
+
+Performs a mail merge operation for a single record.
+
+
+```python
+def execute(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, mail_merge_options: aspose.words.lowcode.MailMergeOptions, field_names: List[str], field_values: List[object]):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
+| mail_merge_options | [MailMergeOptions](../../mailmergeoptions/) | Mail merge options. |
+| field_names | List[str] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| field_values | List[object] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
 ## execute(input_stream, output_stream, save_format, field_names, field_values) {#bytesio_bytesio_saveformat_strlist_objectlist}
 
 Performs a mail merge operation for a single record.
@@ -96,6 +115,25 @@ def execute(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_form
 | input_stream | io.BytesIO | The input file stream. |
 | output_stream | io.BytesIO | The output file stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
+| mail_merge_options | [MailMergeOptions](../../mailmergeoptions/) | Mail merge options. |
+| field_names | List[str] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| field_values | List[object] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
+## execute(input_stream, output_stream, save_options, mail_merge_options, field_names, field_values) {#bytesio_bytesio_saveoptions_mailmergeoptions_strlist_objectlist}
+
+Performs a mail merge operation for a single record.
+
+
+```python
+def execute(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, mail_merge_options: aspose.words.lowcode.MailMergeOptions, field_names: List[str], field_values: List[object]):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input file stream. |
+| output_stream | io.BytesIO | The output file stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
 | mail_merge_options | [MailMergeOptions](../../mailmergeoptions/) | Mail merge options. |
 | field_names | List[str] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | field_values | List[object] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |

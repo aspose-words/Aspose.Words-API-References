@@ -44,6 +44,24 @@ def split(self, input_file_name: str, output_file_name: str, save_format: aspose
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
 | options | [SplitOptions](../../splitoptions/) | Document split options. |
 
+## split(input_file_name, output_file_name, save_options, options) {#str_str_saveoptions_splitoptions}
+
+Splits a document into multiple parts based on the specified split options and saves 
+the resulting parts to files in the specified save format.
+
+
+```python
+def split(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, options: aspose.words.lowcode.SplitOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name used to generate file name for document parts using rule "outputFile_partIndex.extension" |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| options | [SplitOptions](../../splitoptions/) | Document split options. |
+
 ## split(input_stream, save_format, options) {#bytesio_saveformat_splitoptions}
 
 Splits a document from an input stream into multiple parts based on the specified split options and 
@@ -59,6 +77,23 @@ def split(self, input_stream: io.BytesIO, save_format: aspose.words.SaveFormat, 
 | --- | --- | --- |
 | input_stream | io.BytesIO | The input stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+| options | [SplitOptions](../../splitoptions/) | Document split options. |
+
+## split(input_stream, save_options, options) {#bytesio_saveoptions_splitoptions}
+
+Splits a document from an input stream into multiple parts based on the specified split options and 
+returns the resulting parts as an array of streams in the specified save format.
+
+
+```python
+def split(self, input_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, options: aspose.words.lowcode.SplitOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 | options | [SplitOptions](../../splitoptions/) | Document split options. |
 
 ## Examples

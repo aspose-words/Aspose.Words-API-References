@@ -5,7 +5,7 @@ articleTitle: WarningInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving"
 type: docs
-weight: 1350
+weight: 1360
 url: /python-net/aspose.words/warninginfo/
 ---
 

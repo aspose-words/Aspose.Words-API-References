@@ -5,7 +5,7 @@ articleTitle: Watermark class
 second_title: Aspose.Words for Python
 description: "aspose.words.Watermark class. Represents class to work with document watermark"
 type: docs
-weight: 1390
+weight: 1400
 url: /python-net/aspose.words/watermark/
 ---
 

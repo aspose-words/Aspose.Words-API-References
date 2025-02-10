@@ -27,8 +27,8 @@ def has_smart_art(self) -> bool:
 Shows how to count the number of shapes in a document with SmartArt objects.
 
 ```python
-doc = aw.Document(MY_DIR + 'SmartArt.docx')
-number_of_smart_art_shapes = len([node for node in doc.get_child_nodes(aw.NodeType.SHAPE, True) if node.as_shape().has_smart_art])
+doc = aw.Document(file_name=MY_DIR + 'SmartArt.docx')
+number_of_smart_art_shapes = len(list(filter(lambda shape: shape.has_smart_art, list(map(lambda x: x.as_shape(), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))))
 self.assertEqual(2, number_of_smart_art_shapes)
 ```
 

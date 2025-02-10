@@ -5,7 +5,7 @@ articleTitle: ParagraphCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.ParagraphCollection class. Provides typed access to a collection of [Paragraph](../paragraph/) nodes"
 type: docs
-weight: 900
+weight: 910
 url: /python-net/aspose.words/paragraphcollection/
 ---
 
@@ -49,11 +49,11 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 Shows how to check whether a paragraph is a move revision.
 
 ```python
-doc = aw.Document(MY_DIR + 'Revisions.docx')
+doc = aw.Document(file_name=MY_DIR + 'Revisions.docx')
 # This document contains "Move" revisions, which appear when we highlight text with the cursor,
 # and then drag it to move it to another location
 # while tracking revisions in Microsoft Word via "Review" -> "Track changes".
-self.assertEqual(6, len([r for r in doc.revisions if r.revision_type == aw.RevisionType.MOVING]))
+self.assertEqual(6, len(list(filter(lambda r: r.revision_type == aw.RevisionType.MOVING, doc.revisions))))
 paragraphs = doc.first_section.body.paragraphs
 # Move revisions consist of pairs of "Move from", and "Move to" revisions.
 # These revisions are potential changes to the document that we can either accept or reject.

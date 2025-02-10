@@ -25,6 +25,24 @@ def __getitem__(self, index: int):
 
 ### Examples
 
+Shows how to apply list formatting of an existing list to a collection of paragraphs.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.writeln('Paragraph 1')
+builder.writeln('Paragraph 2')
+builder.write('Paragraph 3')
+paras = doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)
+self.assertEqual(0, len(list(filter(lambda n: n.as_paragraph().list_format.is_list_item, paras))))
+doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
+doc_list = doc.lists[0]
+for paragraph in filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_paragraph(), b), list(paras))):
+    paragraph.list_format.list = doc_list
+    paragraph.list_format.list_level_number = 2
+self.assertEqual(3, len(list(filter(lambda n: n.as_paragraph().list_format.is_list_item, paras))))
+```
+
 Shows how to verify owner document properties of lists.
 
 ```python
@@ -37,24 +55,6 @@ print('Current list count: ' + str(lists.count))
 print('Is the first document list: ' + str(lists[0].equals(list=list)))
 print('ListId: ' + str(list.list_id))
 print('List is the same by ListId: ' + str(lists.get_list_by_list_id(1).equals(list=list)))
-```
-
-Shows how to apply list formatting of an existing list to a collection of paragraphs.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.writeln('Paragraph 1')
-builder.writeln('Paragraph 2')
-builder.write('Paragraph 3')
-paras = [node.as_paragraph() for node in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)]
-self.assertEqual(0, len([p for p in paras if p.list_format.is_list_item]))
-doc.lists.add(aw.lists.ListTemplate.NUMBER_DEFAULT)
-list = doc.lists[0]
-for paragraph in paras:
-    paragraph.list_format.list = list
-    paragraph.list_format.list_level_number = 2
-self.assertEqual(3, len([p for p in paras if p.list_format.is_list_item]))
 ```
 
 ### See Also

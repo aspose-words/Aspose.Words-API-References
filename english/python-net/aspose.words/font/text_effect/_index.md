@@ -5,7 +5,7 @@ articleTitle: text_effect property
 second_title: Aspose.Words for Python
 description: "Font.text_effect property. Gets or sets the font animation effect."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words/font/text_effect/
 ---
 

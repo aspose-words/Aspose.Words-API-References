@@ -50,6 +50,27 @@ def remove_blank_pages(self, input_file_name: str, output_file_name: str, save_f
 List of page numbers has been considered as blank and removed.
 
 
+## remove_blank_pages(input_file_name, output_file_name, save_options) {#str_str_saveoptions}
+
+Removes empty pages from the document and saves the output in the specified format. Returns a list of page numbers that were removed.
+
+
+```python
+def remove_blank_pages(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+
+### Returns
+
+List of page numbers has been considered as blank and removed.
+
+
 ## remove_blank_pages(input_stream, output_stream, save_format) {#bytesio_bytesio_saveformat}
 
 Removes blank pages from a document provided in an input stream and saves the updated document 
@@ -66,6 +87,28 @@ def remove_blank_pages(self, input_stream: io.BytesIO, output_stream: io.BytesIO
 | input_stream | io.BytesIO | The input stream. |
 | output_stream | io.BytesIO | The output stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+
+### Returns
+
+List of page numbers has been considered as blank and removed.
+
+
+## remove_blank_pages(input_stream, output_stream, save_options) {#bytesio_bytesio_saveoptions}
+
+Removes blank pages from a document provided in an input stream and saves the updated document 
+to an output stream in the specified save format. Returns a list of page numbers that were removed.
+
+
+```python
+def remove_blank_pages(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input stream. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 
 ### Returns
 

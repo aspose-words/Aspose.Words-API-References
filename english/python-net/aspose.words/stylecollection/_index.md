@@ -5,7 +5,7 @@ articleTitle: StyleCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.StyleCollection class. A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document"
 type: docs
-weight: 1150
+weight: 1160
 url: /python-net/aspose.words/stylecollection/
 ---
 

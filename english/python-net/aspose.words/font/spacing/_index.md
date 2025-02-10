@@ -5,7 +5,7 @@ articleTitle: spacing property
 second_title: Aspose.Words for Python
 description: "Font.spacing property. Returns or sets the spacing (in points) between characters ."
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.words/font/spacing/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: IAiModelText class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.IAiModelText class. The common interface for AI models designed to generate a variety of text-based content."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.ai/iaimodeltext/
 ---
 

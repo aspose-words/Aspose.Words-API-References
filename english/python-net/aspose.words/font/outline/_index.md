@@ -5,7 +5,7 @@ articleTitle: outline property
 second_title: Aspose.Words for Python
 description: "Font.outline property. True if the font is formatted as outline."
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.words/font/outline/
 ---
 

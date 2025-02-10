@@ -18,6 +18,7 @@ Represents information about a Generative Language Model.
 
 | Name | Description |
 | --- | --- |
+|[ as_anthropic_ai_model()](./as_anthropic_ai_model/#default) | Cast AiModel to [AnthropicAiModel](../anthropicaimodel/). |
 |[ as_google_ai_model()](./as_google_ai_model/#default) | Cast AiModel to [GoogleAiModel](../googleaimodel/). |
 |[ as_open_ai_model()](./as_open_ai_model/#default) | Cast AiModel to [OpenAiModel](../openaimodel/). |
 |[ create(model_type)](./create/#aimodeltype) | Creates a new instance of [AiModel](./) class. |

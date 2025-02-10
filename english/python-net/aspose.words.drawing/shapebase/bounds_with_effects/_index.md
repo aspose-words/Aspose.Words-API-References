@@ -27,8 +27,8 @@ def bounds_with_effects(self) -> aspose.pydrawing.RectangleF:
 Shows how to check how a shape's bounds are affected by shape effects.
 
 ```python
-doc = aw.Document(MY_DIR + 'Shape shadow effect.docx')
-shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
+doc = aw.Document(file_name=MY_DIR + 'Shape shadow effect.docx')
+shapes = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))
 self.assertEqual(2, len(shapes))
 # The two shapes are identical in terms of dimensions and shape type.
 self.assertEqual(shapes[0].width, shapes[1].width)
@@ -38,13 +38,13 @@ self.assertEqual(shapes[0].shape_type, shapes[1].shape_type)
 # These effects make the size of the second shape's silhouette bigger than that of the first.
 # Even though the rectangle's size shows up when we click on these shapes in Microsoft Word,
 # the visible outer bounds of the second shape are affected by the shadow and outline and thus are bigger.
-# We can use the "adjust_with_effects" method to see the true size of the shape.
-self.assertEqual(0.0, shapes[0].stroke_weight)
-self.assertEqual(20.0, shapes[1].stroke_weight)
+# We can use the "AdjustWithEffects" method to see the true size of the shape.
+self.assertEqual(0, shapes[0].stroke_weight)
+self.assertEqual(20, shapes[1].stroke_weight)
 self.assertFalse(shapes[0].shadow_enabled)
 self.assertTrue(shapes[1].shadow_enabled)
 shape = shapes[0]
-# Create a aspose.pydrawing.RectangleF object, representing a rectangle,
+# Create a RectangleF object, representing a rectangle,
 # which we could potentially use as the coordinates and bounds for a shape.
 rectangle_f = aspose.pydrawing.RectangleF(200, 200, 1000, 1000)
 # Run this method to get the size of the rectangle adjusted for all our shape effects.

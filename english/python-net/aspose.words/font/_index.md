@@ -58,6 +58,7 @@ You do not create instances of the [Font](./) class directly. You just use
 | [name_far_east](./name_far_east/) | Returns or sets an East Asian font name. |
 | [name_other](./name_other/) | Returns or sets the font used for characters with character codes from 128 through 255. |
 | [no_proofing](./no_proofing/) | True when the formatted characters are not to be spell checked. |
+| [number_spacing](./number_spacing/) | Gets or sets the spacing type of the numeral being displayed. |
 | [outline](./outline/) | True if the font is formatted as outline. |
 | [position](./position/) | Gets or sets the position of text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it. |
 | [scaling](./scaling/) | Gets or sets character width scaling in percent. |

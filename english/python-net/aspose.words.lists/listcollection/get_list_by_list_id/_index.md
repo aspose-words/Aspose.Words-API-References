@@ -5,7 +5,7 @@ articleTitle: get_list_by_list_id method
 second_title: Aspose.Words for Python
 description: "ListCollection.get_list_by_list_id method. Gets a list by a list identifier."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.lists/listcollection/get_list_by_list_id/
 ---
 

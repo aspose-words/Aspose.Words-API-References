@@ -23,6 +23,20 @@ def headers_footers(self) -> aspose.words.HeaderFooterCollection:
 
 ### Examples
 
+Shows how to replace text in a document's footer.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Footer.docx')
+headers_footers = doc.first_section.headers_footers
+footer = headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
+options = aw.replacing.FindReplaceOptions()
+options.match_case = False
+options.find_whole_words_only = False
+current_year = datetime.datetime.now().year
+footer.range.replace(pattern='(C) 2006 Aspose Pty Ltd.', replacement=f'Copyright (C) {current_year} by Aspose Pty Ltd.', options=options)
+doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.ReplaceText.docx')
+```
+
 Shows how to delete all footers from a document.
 
 ```python
@@ -45,20 +59,6 @@ for section in doc:
         footer.remove()
     self.assertEqual(0, len([node for node in section.headers_footers if not node.as_header_footer().is_header]))
 doc.save(ARTIFACTS_DIR + 'HeaderFooter.remove_footers.docx')
-```
-
-Shows how to replace text in a document's footer.
-
-```python
-doc = aw.Document(MY_DIR + 'Footer.docx')
-headers_footers = doc.first_section.headers_footers
-footer = headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
-options = aw.replacing.FindReplaceOptions()
-options.match_case = False
-options.find_whole_words_only = False
-current_year = date.today().year
-footer.range.replace('(C) 2006 Aspose Pty Ltd.', f'Copyright (C) {current_year} by Aspose Pty Ltd.', options)
-doc.save(ARTIFACTS_DIR + 'HeaderFooter.replace_text.docx')
 ```
 
 ### See Also

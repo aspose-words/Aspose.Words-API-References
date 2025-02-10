@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "Font.clear_formatting method. Resets to default font formatting."
 type: docs
-weight: 550
+weight: 560
 url: /python-net/aspose.words/font/clear_formatting/
 ---
 

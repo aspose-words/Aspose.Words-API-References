@@ -34,6 +34,28 @@ The default value is 'Times New Roman'.
 
 ### Examples
 
+Shows how to specify a default font.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.font.name = 'Arial'
+builder.writeln('Hello world!')
+builder.font.name = 'Arvo'
+builder.writeln('The quick brown fox jumps over the lazy dog.')
+font_sources = aw.fonts.FontSettings.default_instance.get_fonts_sources()
+# The font sources that the document uses contain the font "Arial", but not "Arvo".
+self.assertEqual(1, len(font_sources))
+self.assertTrue(any([f.full_font_name == 'Arial' for f in font_sources[0].get_available_fonts()]))
+self.assertFalse(any([f.full_font_name == 'Arvo' for f in font_sources[0].get_available_fonts()]))
+# Set the "DefaultFontName" property to "Courier New" to,
+# while rendering the document, apply that font in all cases when another font is not available.
+aw.fonts.FontSettings.default_instance.substitution_settings.default_font_substitution.default_font_name = 'Courier New'
+self.assertTrue(any([f.full_font_name == 'Courier New' for f in font_sources[0].get_available_fonts()]))
+# Aspose.Words will now use the default font in place of any missing fonts during any rendering calls.
+doc.save(file_name=ARTIFACTS_DIR + 'FontSettings.DefaultFontName.pdf')
+```
+
 Shows how to set the default font substitution rule.
 
 ```python
@@ -53,28 +75,6 @@ builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Missing Font'
 builder.writeln('Line written in a missing font, which will be substituted with Courier New.')
 doc.save(file_name=ARTIFACTS_DIR + 'FontSettings.DefaultFontSubstitutionRule.pdf')
-```
-
-Shows how to specify a default font.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.font.name = 'Arial'
-builder.writeln('Hello world!')
-builder.font.name = 'Arvo'
-builder.writeln('The quick brown fox jumps over the lazy dog.')
-font_sources = aw.fonts.FontSettings.default_instance.get_fonts_sources()
-# The font sources that the document uses contain the font "Arial", but not "Arvo".
-self.assertEqual(1, font_sources.length)
-self.assertTrue(any((f for f in font_sources[0].get_available_fonts() if f.full_font_name == 'Arial')))
-self.assertFalse(any((f for f in font_sources[0].get_available_fonts() if f.full_font_name == 'Arvo')))
-# Set the "default_font_name" property to "Courier New" to,
-# while rendering the document, apply that font in all cases when another font is not available.
-aw.fonts.FontSettings.default_instance.substitution_settings.default_font_substitution.default_font_name = 'Courier New'
-self.assertTrue(any((f for f in font_sources[0].get_available_fonts() if f.full_font_name == 'Courier New')))
-# Aspose.Words will now use the default font in place of any missing fonts during any rendering calls.
-doc.save(ARTIFACTS_DIR + 'FontSettings.default_font_name.pdf')
 ```
 
 ### See Also

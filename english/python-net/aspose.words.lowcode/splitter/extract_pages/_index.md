@@ -46,6 +46,25 @@ def extract_pages(self, input_file_name: str, output_file_name: str, save_format
 | start_page_index | int | The zero-based index of the first page to extract. |
 | page_count | int | Number of pages to be extracted. |
 
+## extract_pages(input_file_name, output_file_name, save_options, start_page_index, page_count) {#str_str_saveoptions_int_int}
+
+Extracts a specified range of pages from a document file and saves the extracted pages 
+to a new file using the specified save format.
+
+
+```python
+def extract_pages(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, start_page_index: int, page_count: int):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| start_page_index | int | The zero-based index of the first page to extract. |
+| page_count | int | Number of pages to be extracted. |
+
 ## extract_pages(input_stream, output_stream, save_format, start_page_index, page_count) {#bytesio_bytesio_saveformat_int_int}
 
 Extracts a specified range of pages from a document stream and saves the extracted pages 
@@ -62,6 +81,25 @@ def extract_pages(self, input_stream: io.BytesIO, output_stream: io.BytesIO, sav
 | input_stream | io.BytesIO | The input stream. |
 | output_stream | io.BytesIO | The output stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+| start_page_index | int | The zero-based index of the first page to extract. |
+| page_count | int | Number of pages to be extracted. |
+
+## extract_pages(input_stream, output_stream, save_options, start_page_index, page_count) {#bytesio_bytesio_saveoptions_int_int}
+
+Extracts a specified range of pages from a document stream and saves the extracted pages 
+to an output stream using the specified save format.
+
+
+```python
+def extract_pages(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, start_page_index: int, page_count: int):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input stream. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 | start_page_index | int | The zero-based index of the first page to extract. |
 | page_count | int | Number of pages to be extracted. |
 

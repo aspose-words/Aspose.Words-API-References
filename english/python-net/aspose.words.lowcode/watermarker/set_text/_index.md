@@ -42,6 +42,23 @@ def set_text(self, input_file_name: str, output_file_name: str, save_format: asp
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
 | watermark_text | str | Text that is displayed as a watermark. |
 
+## set_text(input_file_name, output_file_name, save_options, watermark_text) {#str_str_saveoptions_str}
+
+Adds a text watermark into the document with specified save format.
+
+
+```python
+def set_text(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, watermark_text: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| watermark_text | str | Text that is displayed as a watermark. |
+
 ## set_text(input_stream, output_stream, save_format, watermark_text) {#bytesio_bytesio_saveformat_str}
 
 Adds a text watermark into the document from streams.
@@ -57,6 +74,23 @@ def set_text(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_for
 | input_stream | io.BytesIO | The input stream. |
 | output_stream | io.BytesIO | The output stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+| watermark_text | str | Text that is displayed as a watermark. |
+
+## set_text(input_stream, output_stream, save_options, watermark_text) {#bytesio_bytesio_saveoptions_str}
+
+Adds a text watermark into the document from streams.
+
+
+```python
+def set_text(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, watermark_text: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input stream. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 | watermark_text | str | Text that is displayed as a watermark. |
 
 ## set_text(input_file_name, output_file_name, watermark_text, options) {#str_str_str_textwatermarkoptions}
@@ -94,6 +128,24 @@ def set_text(self, input_file_name: str, output_file_name: str, save_format: asp
 | watermark_text | str | Text that is displayed as a watermark. |
 | options | [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/) | Defines additional options for the text watermark. |
 
+## set_text(input_file_name, output_file_name, save_options, watermark_text, options) {#str_str_saveoptions_str_textwatermarkoptions}
+
+Adds a text watermark into the document with options and specified save format.
+
+
+```python
+def set_text(self, input_file_name: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, watermark_text: str, options: aspose.words.TextWatermarkOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_file_name | str | The input file name. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
+| watermark_text | str | Text that is displayed as a watermark. |
+| options | [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/) | Defines additional options for the text watermark. |
+
 ## set_text(input_stream, output_stream, save_format, watermark_text, options) {#bytesio_bytesio_saveformat_str_textwatermarkoptions}
 
 Adds a text watermark into the document from streams with options.
@@ -109,6 +161,24 @@ def set_text(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_for
 | input_stream | io.BytesIO | The input stream. |
 | output_stream | io.BytesIO | The output stream. |
 | save_format | [SaveFormat](../../../aspose.words/saveformat/) | The save format. |
+| watermark_text | str | Text that is displayed as a watermark. |
+| options | [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/) | Defines additional options for the text watermark. |
+
+## set_text(input_stream, output_stream, save_options, watermark_text, options) {#bytesio_bytesio_saveoptions_str_textwatermarkoptions}
+
+Adds a text watermark into the document from streams with options.
+
+
+```python
+def set_text(self, input_stream: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, watermark_text: str, options: aspose.words.TextWatermarkOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input_stream | io.BytesIO | The input stream. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 | watermark_text | str | Text that is displayed as a watermark. |
 | options | [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/) | Defines additional options for the text watermark. |
 

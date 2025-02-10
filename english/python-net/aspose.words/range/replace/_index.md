@@ -139,15 +139,15 @@ self.assertEqual('Every paragraph that ends with a full stop like this one will 
 Shows how to replace text in a document's footer.
 
 ```python
-doc = aw.Document(MY_DIR + 'Footer.docx')
+doc = aw.Document(file_name=MY_DIR + 'Footer.docx')
 headers_footers = doc.first_section.headers_footers
 footer = headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
 options = aw.replacing.FindReplaceOptions()
 options.match_case = False
 options.find_whole_words_only = False
-current_year = date.today().year
-footer.range.replace('(C) 2006 Aspose Pty Ltd.', f'Copyright (C) {current_year} by Aspose Pty Ltd.', options)
-doc.save(ARTIFACTS_DIR + 'HeaderFooter.replace_text.docx')
+current_year = datetime.datetime.now().year
+footer.range.replace(pattern='(C) 2006 Aspose Pty Ltd.', replacement=f'Copyright (C) {current_year} by Aspose Pty Ltd.', options=options)
+doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.ReplaceText.docx')
 ```
 
 Shows how to toggle case sensitivity when performing a find-and-replace operation.

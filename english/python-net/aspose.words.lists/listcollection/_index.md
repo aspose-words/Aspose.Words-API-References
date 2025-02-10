@@ -75,6 +75,7 @@ This is similar to Microsoft Word where user does not have explicit control over
 |[ add(list_template)](./add/#listtemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
 |[ add(list_style)](./add/#style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 |[ add_copy(src_list)](./add_copy/#list) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
+|[ add_single_level_list(list_template)](./add_single_level_list/#listtemplate) | Creates a new single level list based on the predefined template and adds it to the list collection in the document. |
 |[ get_list_by_list_id(list_id)](./get_list_by_list_id/#int) | Gets a list by a list identifier. |
 
 ### Examples
