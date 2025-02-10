@@ -56,15 +56,16 @@ Shows how to specifies the name of the folder used to construct image URIs.
 ```python
 builder = aw.DocumentBuilder()
 builder.writeln('Some image below:')
-builder.insert_image(IMAGE_DIR + 'Logo.jpg')
-saveOptions = aw.saving.MarkdownSaveOptions()
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+images_folder = os.path.join(ARTIFACTS_DIR, 'ImagesDir')
+save_options = aw.saving.MarkdownSaveOptions()
 # Use the "ImagesFolder" property to assign a folder in the local file system into which
 # Aspose.Words will save all the document's linked images.
-saveOptions.images_folder = ARTIFACTS_DIR + 'ImagesDir/'
+save_options.images_folder = images_folder
 # Use the "ImagesFolderAlias" property to use this folder
 # when constructing image URIs instead of the images folder's name.
-saveOptions.images_folder_alias = 'http://example.com/images'
-builder.document.save(ARTIFACTS_DIR + 'MarkdownSaveOptions.ImagesFolder.md', saveOptions)
+save_options.images_folder_alias = 'http://example.com/images'
+builder.document.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.ImagesFolder.md', save_options=save_options)
 ```
 
 ### See Also

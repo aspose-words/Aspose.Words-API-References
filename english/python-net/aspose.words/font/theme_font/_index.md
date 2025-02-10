@@ -5,7 +5,7 @@ articleTitle: theme_font property
 second_title: Aspose.Words for Python
 description: "Font.theme_font property. Gets or sets the theme font in the applied font scheme that is associated with this [Font](../) object."
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.words/font/theme_font/
 ---
 

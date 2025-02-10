@@ -104,6 +104,21 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 
 ### Examples
 
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+images_dir = os.path.join(ARTIFACTS_DIR, 'SaveHtmlWithOptions')
+if system_helper.io.Directory.exists(images_dir):
+    system_helper.io.Directory.delete(images_dir, True)
+system_helper.io.Directory.create_directory(images_dir)
+# Set an option to export form fields as plain text instead of HTML input elements.
+options = aw.saving.HtmlSaveOptions(aw.SaveFormat.HTML)
+options.export_text_input_form_field_as_text = True
+options.images_folder = images_dir
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.SaveHtmlWithOptions.html', save_options=options)
+```
+
 Shows how to use a specific encoding when saving a document to .epub.
 
 ```python
@@ -120,21 +135,6 @@ save_options.document_split_criteria = aw.saving.DocumentSplitCriteria.HEADING_P
 # Specify that we want to export document properties.
 save_options.export_document_properties = True
 doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.doc2_epub_save_options.epub', save_options)
-```
-
-Shows how to specify the folder for storing linked images after saving to .html.
-
-```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
-images_dir = os.path.join(ARTIFACTS_DIR, 'SaveHtmlWithOptions')
-if os.path.exists(images_dir):
-    shutil.rmtree(images_dir)
-os.makedirs(images_dir)
-# Set an option to export form fields as plain text instead of HTML input elements.
-options = aw.saving.HtmlSaveOptions(aw.SaveFormat.HTML)
-options.export_text_input_form_field_as_text = True
-options.images_folder = images_dir
-doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.image_folder.html', options)
 ```
 
 ### See Also

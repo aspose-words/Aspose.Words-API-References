@@ -5,7 +5,7 @@ articleTitle: WatermarkLayout enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.WatermarkLayout enumeration. Defines layout of the watermark relative to the watermark center."
 type: docs
-weight: 1400
+weight: 1410
 url: /python-net/aspose.words/watermarklayout/
 ---
 

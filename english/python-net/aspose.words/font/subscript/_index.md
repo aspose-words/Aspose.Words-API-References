@@ -5,7 +5,7 @@ articleTitle: subscript property
 second_title: Aspose.Words for Python
 description: "Font.subscript property. True if the font is formatted as subscript."
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words/font/subscript/
 ---
 

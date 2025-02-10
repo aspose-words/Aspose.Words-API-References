@@ -60,11 +60,11 @@ dst_doc.write('Before ')
 dst_doc.insert_node(aw.BookmarkStart(dst_doc.document, 'src_place'))
 dst_doc.insert_node(aw.BookmarkEnd(dst_doc.document, 'src_place'))
 dst_doc.write(' after')
-self.assertEqual('Before  after', dst_doc.document.get_text().strip())
+self.assertEqual('Before  after', dst_doc.document.get_text().rstrip())
 # Insert source document into destination inline.
-dst_doc.move_to_bookmark('src_place')
+dst_doc.move_to_bookmark(bookmark_name='src_place')
 dst_doc.insert_document_inline(src_doc.document, aw.ImportFormatMode.USE_DESTINATION_STYLES, aw.ImportFormatOptions())
-self.assertEqual('Before [src content] after', dst_doc.document.get_text().strip())
+self.assertEqual('Before [src content] after', dst_doc.document.get_text().rstrip())
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: underline_color property
 second_title: Aspose.Words for Python
 description: "Font.underline_color property. Gets or sets the color of the underline applied to the font."
 type: docs
-weight: 540
+weight: 550
 url: /python-net/aspose.words/font/underline_color/
 ---
 

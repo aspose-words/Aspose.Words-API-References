@@ -30,10 +30,10 @@ Shows how to identify move revision shapes.
 # A move revision is when we move an element in the document body by cut-and-pasting it in Microsoft Word while
 # tracking changes. If we involve an inline shape in such a text movement, that shape will also be a revision.
 # Copying-and-pasting or moving floating shapes do not create move revisions.
-doc = aw.Document(MY_DIR + 'Revision shape.docx')
+doc = aw.Document(file_name=MY_DIR + 'Revision shape.docx')
 # Move revisions consist of pairs of "Move from", and "Move to" revisions. We moved in this document in one shape,
 # but until we accept or reject the move revision, there will be two instances of that shape.
-shapes = [node.as_shape() for node in doc.get_child_nodes(aw.NodeType.SHAPE, True)]
+shapes = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_shape(), b), list(doc.get_child_nodes(aw.NodeType.SHAPE, True)))))
 self.assertEqual(2, len(shapes))
 # This is the "Move to" revision, which is the shape at its arrival destination.
 # If we accept the revision, this "Move to" revision shape will disappear,

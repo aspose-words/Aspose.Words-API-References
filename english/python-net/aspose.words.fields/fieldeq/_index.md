@@ -53,6 +53,17 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 ### Examples
 
+Shows how to replace the EQ field with Office Math.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Field sample - EQ.docx')
+field_eq = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_field_eq(), b), list(doc.range.fields))))[0]
+office_math = field_eq.as_office_math()
+field_eq.start.parent_node.insert_before(office_math, field_eq.start)
+field_eq.remove()
+doc.save(file_name=ARTIFACTS_DIR + 'Field.EQAsOfficeMath.docx')
+```
+
 Shows how to use the EQ field to display a variety of mathematical equations.
 
 ```python
@@ -107,22 +118,6 @@ def insert_field_eq(builder: aw.DocumentBuilder, args: str) -> aw.fields.FieldEQ
     builder.move_to(field.start.parent_node)
     builder.insert_paragraph()
     return field
-```
-
-Shows how to replace the EQ field with Office Math.
-
-```python
-doc = aw.Document(MY_DIR + 'Field sample - EQ.docx')
-import aspose.words.fields as awf
-field_eq = None
-for field in doc.range.fields:
-    if field.type == awf.FieldType.FIELD_EQUATION:
-        field_eq = field.as_field_eq()
-        break
-officeMath = field_eq.as_office_math()
-field_eq.start.parent_node.insert_before(officeMath, field_eq.start)
-field_eq.remove()
-doc.save(ARTIFACTS_DIR + 'Field.EQAsOfficeMath.docx')
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: OpenAiModel class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.OpenAiModel class. An abstract class representing the integration with OpenAI's large language models within the Aspose.Words."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.ai/openaimodel/
 ---
 

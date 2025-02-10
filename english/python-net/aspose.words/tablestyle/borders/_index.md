@@ -27,7 +27,7 @@ Shows how to create custom style settings for the table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Name')
@@ -52,9 +52,9 @@ table_style.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER
 table.style = table_style
 # Setting the style properties of a table may affect the properties of the table itself.
 self.assertTrue(table.bidi)
-self.assertEqual(5.0, table.cell_spacing)
+self.assertEqual(5, table.cell_spacing)
 self.assertEqual('MyTableStyle1', table.style_name)
-doc.save(ARTIFACTS_DIR + 'Table.table_style_creation.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Table.TableStyleCreation.docx')
 ```
 
 ### See Also

@@ -33,18 +33,18 @@ Use this method to transforms table cells horizontally merged by width to cells 
 
 ### Examples
 
-Shows how to convert cells horizontally merged by width to cells merged by CellFormat.horizontal_merge.
+Shows how to convert cells horizontally merged by width to cells merged by CellFormat.HorizontalMerge.
 
 ```python
-doc = aw.Document(MY_DIR + 'Table with merged cells.docx')
+doc = aw.Document(file_name=MY_DIR + 'Table with merged cells.docx')
 # Microsoft Word does not write merge flags anymore, defining merged cells by width instead.
 # Aspose.Words by default define only 5 cells in a row, and none of them have the horizontal merge flag,
 # even though there were 7 cells in the row before the horizontal merging took place.
 table = doc.first_section.body.tables[0]
 row = table.rows[0]
 self.assertEqual(5, row.cells.count)
-self.assertTrue(all((c.as_cell().cell_format.horizontal_merge == aw.tables.CellMerge.NONE for c in row.cells)))
-# Use the "convert_to_horizontally_merged_cells" method to convert cells horizontally merged
+self.assertTrue(all([c.as_cell().cell_format.horizontal_merge == aw.tables.CellMerge.NONE for c in row.cells]))
+# Use the "ConvertToHorizontallyMergedCells" method to convert cells horizontally merged
 # by its width to the cell horizontally merged by flags.
 # Now, we have 7 cells, and some of them have horizontal merge values.
 table.convert_to_horizontally_merged_cells()

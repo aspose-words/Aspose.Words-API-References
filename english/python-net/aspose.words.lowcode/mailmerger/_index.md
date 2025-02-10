@@ -21,8 +21,10 @@ Provides methods intended to fill template with data using simple mail merge and
 |[ execute(input_file_name, output_file_name, field_names, field_values)](./execute/#str_str_strlist_objectlist) | Performs a mail merge operation for a single record. |
 |[ execute(input_file_name, output_file_name, save_format, field_names, field_values)](./execute/#str_str_saveformat_strlist_objectlist) | Performs a mail merge operation for a single record. |
 |[ execute(input_file_name, output_file_name, save_format, mail_merge_options, field_names, field_values)](./execute/#str_str_saveformat_mailmergeoptions_strlist_objectlist) | Performs a mail merge operation for a single record. |
+|[ execute(input_file_name, output_file_name, save_options, mail_merge_options, field_names, field_values)](./execute/#str_str_saveoptions_mailmergeoptions_strlist_objectlist) | Performs a mail merge operation for a single record. |
 |[ execute(input_stream, output_stream, save_format, field_names, field_values)](./execute/#bytesio_bytesio_saveformat_strlist_objectlist) | Performs a mail merge operation for a single record. |
 |[ execute(input_stream, output_stream, save_format, mail_merge_options, field_names, field_values)](./execute/#bytesio_bytesio_saveformat_mailmergeoptions_strlist_objectlist) | Performs a mail merge operation for a single record. |
+|[ execute(input_stream, output_stream, save_options, mail_merge_options, field_names, field_values)](./execute/#bytesio_bytesio_saveoptions_mailmergeoptions_strlist_objectlist) | Performs a mail merge operation for a single record. |
 
 ### See Also
 

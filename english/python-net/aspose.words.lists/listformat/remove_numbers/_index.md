@@ -95,17 +95,18 @@ Shows how to remove list formatting from all paragraphs in the main text of a se
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.list_format.apply_number_default()
 builder.writeln('Numbered list item 1')
 builder.writeln('Numbered list item 2')
 builder.writeln('Numbered list item 3')
 builder.list_format.remove_numbers()
-paras = [node.as_paragraph() for node in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)]
-self.assertEqual(3, len([p for p in paras if p.list_format.is_list_item]))
+paras = doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)
+self.assertEqual(3, len(list(filter(lambda n: n.as_paragraph().list_format.is_list_item, paras))))
 for paragraph in paras:
+    paragraph = paragraph.as_paragraph()
     paragraph.list_format.remove_numbers()
-self.assertEqual(0, len([p for p in paras if p.list_format.is_list_item]))
+self.assertEqual(0, len(list(filter(lambda n: n.as_paragraph().list_format.is_list_item, paras))))
 ```
 
 ### See Also

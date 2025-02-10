@@ -5,7 +5,7 @@ articleTitle: GoogleAiModel class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.GoogleAiModel class. An abstract class representing the integration with Google’s AI models within the Aspose.Words."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.ai/googleaimodel/
 ---
 

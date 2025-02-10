@@ -98,7 +98,7 @@ compare_options.ignore_textboxes = False
 compare_options.ignore_headers_and_footers = False
 compare_options.target = aw.comparing.ComparisonTargetType.NEW
 doc_original.compare(document=doc_edited, author='John Doe', date_time=datetime.datetime.now(), options=compare_options)
-doc_original.save(file_name=ARTIFACTS_DIR + 'Document.CompareOptions.docx')
+doc_original.save(file_name=ARTIFACTS_DIR + 'Revision.CompareOptions.docx')
 ```
 
 ### See Also

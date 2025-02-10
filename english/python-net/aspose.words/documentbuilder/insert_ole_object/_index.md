@@ -82,24 +82,25 @@ Shows how to use document builder to embed OLE objects in a document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 # Insert a Microsoft Excel spreadsheet from the local file system
 # into the document while keeping its default appearance.
-with open(MY_DIR + 'Spreadsheet.xlsx', 'rb') as spreadsheet_stream:
+with system_helper.io.File.open(MY_DIR + 'Spreadsheet.xlsx', system_helper.io.FileMode.OPEN) as spreadsheet_stream:
     builder.writeln('Spreadsheet Ole object:')
-    # If 'presentation' is omitted and 'as_icon' is set, this overloaded method selects
+    # If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
     # the icon according to 'progId' and uses the predefined icon caption.
-    builder.insert_ole_object(spreadsheet_stream, 'OleObject.xlsx', False, None)
+    builder.insert_ole_object(stream=spreadsheet_stream, prog_id='OleObject.xlsx', as_icon=False, presentation=None)
 # Insert a Microsoft Powerpoint presentation as an OLE object.
 # This time, it will have an image downloaded from the web for an icon.
-with open(MY_DIR + 'Presentation.pptx', 'rb') as powerpoint_stream:
-    with open(IMAGE_DIR + 'Logo.jpg', 'rb') as image_stream:
+with system_helper.io.File.open(MY_DIR + 'Presentation.pptx', system_helper.io.FileMode.OPEN) as powerpoint_stream:
+    img_bytes = system_helper.io.File.read_all_bytes(IMAGE_DIR + 'Logo.jpg')
+    with io.BytesIO(img_bytes) as image_stream:
         builder.insert_paragraph()
         builder.writeln('Powerpoint Ole object:')
-        builder.insert_ole_object(powerpoint_stream, 'OleObject.pptx', True, image_stream)
+        builder.insert_ole_object(stream=powerpoint_stream, prog_id='OleObject.pptx', as_icon=True, presentation=image_stream)
 # Double-click these objects in Microsoft Word to open
 # the linked files using their respective applications.
-doc.save(ARTIFACTS_DIR + 'DocumentBuilder.insert_ole_objects.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertOleObjects.docx')
 ```
 
 Shows how to insert an OLE object into a document.

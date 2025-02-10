@@ -5,7 +5,7 @@ articleTitle: Shading class
 second_title: Aspose.Words for Python
 description: "aspose.words.Shading class. Contains shading attributes for an object"
 type: docs
-weight: 1090
+weight: 1100
 url: /python-net/aspose.words/shading/
 ---
 

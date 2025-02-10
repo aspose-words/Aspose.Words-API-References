@@ -5,7 +5,7 @@ articleTitle: size_bi property
 second_title: Aspose.Words for Python
 description: "Font.size_bi property. Gets or sets the font size in points used in a right-to-left document."
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.words/font/size_bi/
 ---
 

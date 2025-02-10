@@ -51,29 +51,29 @@ dst_doc = aw.Document()
 dst_doc.first_section.body.append_paragraph('Destination document text. ')
 # Append the source document to the destination document while preserving its formatting,
 # then save the source document to the local file system.
-dst_doc.append_document(src_doc, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
-dst_doc.save(ARTIFACTS_DIR + 'Document.append_document.docx')
+dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
+dst_doc.save(file_name=ARTIFACTS_DIR + 'Document.AppendDocument.docx')
 ```
 
 Shows how to append all the documents in a folder to the end of a template document.
 
 ```python
 dst_doc = aw.Document()
-builder = aw.DocumentBuilder(dst_doc)
+builder = aw.DocumentBuilder(doc=dst_doc)
 builder.paragraph_format.style_identifier = aw.StyleIdentifier.HEADING1
 builder.writeln('Template Document')
 builder.paragraph_format.style_identifier = aw.StyleIdentifier.NORMAL
 builder.writeln('Some content here')
 # Append all unencrypted documents with the .doc extension
 # from our local file system directory to the base document.
-doc_files = glob.glob(MY_DIR + '*.doc')
+doc_files = list(filter(lambda item: item.endswith('.doc'), list(system_helper.io.Directory.get_files(MY_DIR, '*.doc'))))
 for file_name in doc_files:
-    info = aw.FileFormatUtil.detect_file_format(file_name)
+    info = aw.FileFormatUtil.detect_file_format(file_name=file_name)
     if info.is_encrypted:
         continue
-    src_doc = aw.Document(file_name)
-    dst_doc.append_document(src_doc, aw.ImportFormatMode.USE_DESTINATION_STYLES)
-dst_doc.save(ARTIFACTS_DIR + 'Document.append_all_documents_in_folder.doc')
+    src_doc = aw.Document(file_name=file_name)
+    dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.USE_DESTINATION_STYLES)
+dst_doc.save(file_name=ARTIFACTS_DIR + 'Document.AppendAllDocumentsInFolder.doc')
 ```
 
 Shows how to manage list style clashes while appending a document.
