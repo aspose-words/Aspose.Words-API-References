@@ -4,7 +4,7 @@ linktitle: Table
 second_title: Aspose.Words for Java
 description: Represents a table in a Word document in Java.
 type: docs
-weight: 630
+weight: 633
 url: /java/com.aspose.words/table/
 ---
 
@@ -198,7 +198,6 @@ Shows how to build a formatted 2x2 table.
 | [clearBorders()](#clearBorders) | Removes all table and cell borders on this table. |
 | [clearShading()](#clearShading) | Removes all shading on the table. |
 | [convertToHorizontallyMergedCells()](#convertToHorizontallyMergedCells) | Converts cells horizontally merged by width to cells merged by [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat/\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat/\#setHorizontalMerge-int). |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [ensureMinimum()](#ensureMinimum) | If the table has no rows, creates and appends one [Row](../../com.aspose.words/row/). |
 | [getAbsoluteHorizontalDistance()](#getAbsoluteHorizontalDistance) | Gets absolute horizontal floating table position specified by the table properties, in points. |
@@ -1233,14 +1232,6 @@ Shows how to convert cells horizontally merged by width to cells merged by CellF
  Assert.assertEquals(CellMerge.NONE, row.getCells().get(6).getCellFormat().getHorizontalMerge());
  
 ```
-
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
 
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```

@@ -4,7 +4,7 @@ linktitle: FieldMergingArgsBase
 second_title: Aspose.Words for Java
 description: Base class for FieldMergingArgs and ImageFieldMergingArgs in Java.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.words/fieldmergingargsbase/
 ---
 

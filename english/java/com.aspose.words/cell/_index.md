@@ -4,7 +4,7 @@ linktitle: Cell
 second_title: Aspose.Words for Java
 description: Represents a table cell in Java.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.words/cell/
 ---
 
@@ -152,7 +152,6 @@ Shows how to build a nested table without using a document builder.
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the cell. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [clearCellAttrs()](#clearCellAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [ensureMinimum()](#ensureMinimum) | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [fetchCellAttr(int key)](#fetchCellAttr-int) |  |
@@ -840,14 +839,6 @@ Shows how to construct an Aspose.Words document by hand.
 ### clearCellAttrs() {#clearCellAttrs}
 ```
 public void clearCellAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

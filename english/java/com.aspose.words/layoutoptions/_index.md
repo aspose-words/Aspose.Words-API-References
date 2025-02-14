@@ -4,7 +4,7 @@ linktitle: LayoutOptions
 second_title: Aspose.Words for Java
 description: Holds the options that allow controlling the document layout process in Java.
 type: docs
-weight: 409
+weight: 410
 url: /java/com.aspose.words/layoutoptions/
 ---
 
@@ -82,7 +82,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 
@@ -374,7 +374,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 

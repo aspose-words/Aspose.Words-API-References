@@ -4,7 +4,7 @@ linktitle: DocumentReaderPluginLoadException
 second_title: Aspose.Words for Java
 description: Thrown during document load when the plugin required for reading the document format cannot be loaded in Java.
 type: docs
-weight: 165
+weight: 166
 url: /java/com.aspose.words/documentreaderpluginloadexception/
 ---
 

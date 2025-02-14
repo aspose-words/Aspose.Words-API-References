@@ -4,7 +4,7 @@ linktitle: Converter
 second_title: Aspose.Words for Java
 description: Represents a group of methods intended to convert a variety of different types of documents using a single line of code in Java.
 type: docs
-weight: 129
+weight: 130
 url: /java/com.aspose.words/converter/
 ---
 
@@ -266,7 +266,7 @@ Shows how to convert document to images stream.
 | saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Image save options. |
 
 **Returns:**
-java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the enduser.
+java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the end user.
 ### convertToImages(Document doc, int saveFormat) {#convertToImages-com.aspose.words.Document-int}
 ```
 public static InputStream[] convertToImages(Document doc, int saveFormat)
@@ -320,7 +320,7 @@ Shows how to convert document to images from stream.
 | saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Image save options. |
 
 **Returns:**
-java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the enduser.
+java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the end user.
 ### convertToImages(InputStream inputStream, LoadOptions loadOptions, ImageSaveOptions saveOptions) {#convertToImages-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.ImageSaveOptions}
 ```
 public static InputStream[] convertToImages(InputStream inputStream, LoadOptions loadOptions, ImageSaveOptions saveOptions)
@@ -359,7 +359,7 @@ Shows how to convert document to images from stream.
 | saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Image save options. |
 
 **Returns:**
-java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the enduser.
+java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the end user.
 ### convertToImages(InputStream inputStream, int saveFormat) {#convertToImages-java.io.InputStream-int}
 ```
 public static InputStream[] convertToImages(InputStream inputStream, int saveFormat)
@@ -411,7 +411,7 @@ Shows how to convert document to images stream.
 | saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Image save options. |
 
 **Returns:**
-java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the enduser.
+java.io.InputStream[] - Returns array of image streams. The streams should be disposed by the end user.
 ### convertToImages(String inputFile, LoadOptions loadOptions, String outputFile, ImageSaveOptions saveOptions) {#convertToImages-java.lang.String-com.aspose.words.LoadOptions-java.lang.String-com.aspose.words.ImageSaveOptions}
 ```
 public static void convertToImages(String inputFile, LoadOptions loadOptions, String outputFile, ImageSaveOptions saveOptions)

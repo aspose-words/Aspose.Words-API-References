@@ -4,7 +4,7 @@ linktitle: ChartLegendEntryCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of chart legend entries in Java.
 type: docs
-weight: 80
+weight: 81
 url: /java/com.aspose.words/chartlegendentrycollection/
 ---
 

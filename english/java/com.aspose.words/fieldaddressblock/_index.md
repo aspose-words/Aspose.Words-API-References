@@ -4,7 +4,7 @@ linktitle: FieldAddressBlock
 second_title: Aspose.Words for Java
 description: Implements the ADDRESSBLOCK field in Java.
 type: docs
-weight: 190
+weight: 191
 url: /java/com.aspose.words/fieldaddressblock/
 ---
 

@@ -4,7 +4,7 @@ linktitle: CheckGrammarOptions
 second_title: Aspose.Words for Java
 description: Allows to specify various options while checking grammar of a document using AI in Java.
 type: docs
-weight: 99
+weight: 100
 url: /java/com.aspose.words/checkgrammaroptions/
 ---
 
@@ -15,6 +15,26 @@ public class CheckGrammarOptions
 ```
 
 Allows to specify various options while checking grammar of a document using AI.
+
+ **Examples:** 
+
+Shows how to check the grammar of a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ String apiKey = System.getenv("API_KEY");
+ // Use OpenAI generative language models.
+ IAiModelText model = (OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+
+ CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
+ grammarOptions.setImproveStylistics(true);
+
+ Document proofedDoc = model.checkGrammar(doc, grammarOptions);
+ proofedDoc.save(getArtifactsDir() + "AI.AiGrammar.docx");
+ 
+```
 ## Methods
 
 | Method | Description |

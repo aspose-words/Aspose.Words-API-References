@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for Java
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 589
+weight: 592
 url: /java/com.aspose.words/shape/
 ---
 
@@ -133,7 +133,6 @@ Shows how to delete all shapes from a document.
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [canHaveImage()](#canHaveImage) | Returns  true  if the shape type allows the shape to have an image. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
 | [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int) |  |
@@ -1025,14 +1024,6 @@ boolean -  true  if the shape type allows the shape to have an image.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

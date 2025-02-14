@@ -4,7 +4,7 @@ linktitle: DocumentBuilderOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options for the document building process in Java.
 type: docs
-weight: 159
+weight: 160
 url: /java/com.aspose.words/documentbuilderoptions/
 ---
 

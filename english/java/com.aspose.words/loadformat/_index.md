@@ -4,7 +4,7 @@ linktitle: LoadFormat
 second_title: Aspose.Words for Java
 description: Indicates the format of the document that is to be loaded in Java.
 type: docs
-weight: 424
+weight: 426
 url: /java/com.aspose.words/loadformat/
 ---
 
@@ -125,6 +125,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
 | [MARKDOWN](#MARKDOWN) | Markdown text document. |
 | [MHTML](#MHTML) | MHTML (Web archive) format. |
 | [MOBI](#MOBI) | MOBI format. |
+| [MS_WORKS](#MS-WORKS) | Microsoft Works 8 Document. |
 | [ODT](#ODT) | ODF Text Document. |
 | [OTT](#OTT) | ODF Text Document Template. |
 | [PDF](#PDF) | Pdf document. |
@@ -293,6 +294,14 @@ public static int MOBI
 
 
 MOBI format. Used by MobiPocket reader and Amazon Kindle readers.
+
+### MS_WORKS {#MS-WORKS}
+```
+public static int MS_WORKS
+```
+
+
+Microsoft Works 8 Document.
 
 ### ODT {#ODT}
 ```

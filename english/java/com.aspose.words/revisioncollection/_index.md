@@ -4,7 +4,7 @@ linktitle: RevisionCollection
 second_title: Aspose.Words for Java
 description: A collection of Revision objects that represent revisions in the document in Java.
 type: docs
-weight: 557
+weight: 560
 url: /java/com.aspose.words/revisioncollection/
 ---
 

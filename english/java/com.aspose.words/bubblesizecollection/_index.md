@@ -4,7 +4,7 @@ linktitle: BubbleSizeCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of bubble sizes for a chart series in Java.
 type: docs
-weight: 49
+weight: 50
 url: /java/com.aspose.words/bubblesizecollection/
 ---
 

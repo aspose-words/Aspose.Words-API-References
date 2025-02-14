@@ -4,7 +4,7 @@ linktitle: CommentRangeEnd
 second_title: Aspose.Words for Java
 description: Denotes the end of a region of text that has a comment associated with it in Java.
 type: docs
-weight: 109
+weight: 110
 url: /java/com.aspose.words/commentrangeend/
 ---
 
@@ -185,7 +185,6 @@ Shows how print the contents of all comments and their comment ranges using a do
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -553,14 +552,6 @@ Shows how print the contents of all comments and their comment ranges using a do
 
 **Returns:**
 boolean -  false  if the visitor requested the enumeration to stop.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -1346,7 +1337,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (189260,6)
+Returns  true  if this node can contain other nodes. (190965,6)
 
  **Examples:** 
 

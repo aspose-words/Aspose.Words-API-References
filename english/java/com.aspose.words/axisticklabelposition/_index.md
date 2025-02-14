@@ -4,7 +4,7 @@ linktitle: AxisTickLabelPosition
 second_title: Aspose.Words for Java
 description: Specifies the possible positions for tick labels in Java.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.aspose.words/axisticklabelposition/
 ---
 

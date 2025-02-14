@@ -4,7 +4,7 @@ linktitle: Comparer
 second_title: Aspose.Words for Java
 description: Provides methods intended to compare documents in Java.
 type: docs
-weight: 112
+weight: 113
 url: /java/com.aspose.words/comparer/
 ---
 
@@ -19,12 +19,33 @@ Provides methods intended to compare documents.
 
 | Method | Description |
 | --- | --- |
+| [compare(InputStream v1, InputStream v2, OutputStream outputStream, SaveOptions saveOptions, String author, Date dateTime, CompareOptions compareOptions)](#compare-java.io.InputStream-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) |  |
 | [compare(InputStream v1, InputStream v2, OutputStream outputStream, int saveFormat, String author, Date dateTime)](#compare-java.io.InputStream-java.io.InputStream-java.io.OutputStream-int-java.lang.String-java.util.Date) |  |
 | [compare(InputStream v1, InputStream v2, OutputStream outputStream, int saveFormat, String author, Date dateTime, CompareOptions compareOptions)](#compare-java.io.InputStream-java.io.InputStream-java.io.OutputStream-int-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) |  |
+| [compare(String v1, String v2, String outputFileName, SaveOptions saveOptions, String author, Date dateTime, CompareOptions compareOptions)](#compare-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) | Compares two documents with additional options and saves the differences to the specified output file in the provided save format, producing changes as a number of edit and format revisions. |
 | [compare(String v1, String v2, String outputFileName, int saveFormat, String author, Date dateTime)](#compare-java.lang.String-java.lang.String-java.lang.String-int-java.lang.String-java.util.Date) |  |
 | [compare(String v1, String v2, String outputFileName, int saveFormat, String author, Date dateTime, CompareOptions compareOptions)](#compare-java.lang.String-java.lang.String-java.lang.String-int-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) |  |
 | [compare(String v1, String v2, String outputFileName, String author, Date dateTime)](#compare-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.util.Date) | Compares two documents and saves the differences to the specified output file, producing changes as a number of edit and format revisions. |
 | [compare(String v1, String v2, String outputFileName, String author, Date dateTime, CompareOptions compareOptions)](#compare-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) | Compares two documents with additional options and saves the differences to the specified output file, producing changes as a number of edit and format revisions. |
+### compare(InputStream v1, InputStream v2, OutputStream outputStream, SaveOptions saveOptions, String author, Date dateTime, CompareOptions compareOptions) {#compare-java.io.InputStream-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-java.lang.String-java.util.Date-com.aspose.words.CompareOptions}
+```
+public static void compare(InputStream v1, InputStream v2, OutputStream outputStream, SaveOptions saveOptions, String author, Date dateTime, CompareOptions compareOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | java.io.InputStream |  |
+| v2 | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| author | java.lang.String |  |
+| dateTime | java.util.Date |  |
+| compareOptions | [CompareOptions](../../com.aspose.words/compareoptions/) |  |
+
 ### compare(InputStream v1, InputStream v2, OutputStream outputStream, int saveFormat, String author, Date dateTime) {#compare-java.io.InputStream-java.io.InputStream-java.io.OutputStream-int-java.lang.String-java.util.Date}
 ```
 public static void compare(InputStream v1, InputStream v2, OutputStream outputStream, int saveFormat, String author, Date dateTime)
@@ -61,6 +82,25 @@ public static void compare(InputStream v1, InputStream v2, OutputStream outputSt
 | author | java.lang.String |  |
 | dateTime | java.util.Date |  |
 | compareOptions | [CompareOptions](../../com.aspose.words/compareoptions/) |  |
+
+### compare(String v1, String v2, String outputFileName, SaveOptions saveOptions, String author, Date dateTime, CompareOptions compareOptions) {#compare-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-java.util.Date-com.aspose.words.CompareOptions}
+```
+public static void compare(String v1, String v2, String outputFileName, SaveOptions saveOptions, String author, Date dateTime, CompareOptions compareOptions)
+```
+
+
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, producing changes as a number of edit and format revisions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | java.lang.String | The original document. |
+| v2 | java.lang.String | The modified document. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| author | java.lang.String | Initials of the author to use for revisions. |
+| dateTime | java.util.Date | The date and time to use for revisions. |
+| compareOptions | [CompareOptions](../../com.aspose.words/compareoptions/) | Document comparison options. |
 
 ### compare(String v1, String v2, String outputFileName, int saveFormat, String author, Date dateTime) {#compare-java.lang.String-java.lang.String-java.lang.String-int-java.lang.String-java.util.Date}
 ```

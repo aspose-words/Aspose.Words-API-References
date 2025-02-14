@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 615
+weight: 618
 url: /java/com.aspose.words/structureddocumenttagrangestart/
 ---
 
@@ -70,7 +70,6 @@ Shows how to get the properties of multi-section structured document tags.
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the stdContent range. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -172,14 +171,6 @@ Adds the specified node to the end of the stdContent range.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node added.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -1325,7 +1316,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (189260,6)
+Returns  true  if this node can contain other nodes. (190965,6)
 
  **Examples:** 
 

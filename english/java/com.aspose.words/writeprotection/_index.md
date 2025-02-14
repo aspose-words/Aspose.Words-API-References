@@ -4,7 +4,7 @@ linktitle: WriteProtection
 second_title: Aspose.Words for Java
 description: Specifies write protection settings for a document in Java.
 type: docs
-weight: 709
+weight: 712
 url: /java/com.aspose.words/writeprotection/
 ---
 

@@ -4,7 +4,7 @@ linktitle: ListCollection
 second_title: Aspose.Words for Java
 description: Stores and manages formatting of bulleted and numbered lists used in a document in Java.
 type: docs
-weight: 416
+weight: 417
 url: /java/com.aspose.words/listcollection/
 ---
 
@@ -172,6 +172,7 @@ Shows how to work with list levels.
 | [add(Style listStyle)](#add-com.aspose.words.Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 | [add(int listTemplate)](#add-int) |  |
 | [addCopy(List srcList)](#addCopy-com.aspose.words.List) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
+| [addSingleLevelList(int listTemplate)](#addSingleLevelList-int) |  |
 | [get(int index)](#get-int) | Gets a list by index. |
 | [getCount()](#getCount) | Gets the count of numbered and bulleted lists in the document. |
 | [getDocument()](#getDocument) | Gets the owner document. |
@@ -365,6 +366,21 @@ Shows how to restart numbering in a list by copying a list.
 
 **Returns:**
 [List](../../com.aspose.words/list/) - The newly created list.
+### addSingleLevelList(int listTemplate) {#addSingleLevelList-int}
+```
+public List addSingleLevelList(int listTemplate)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| listTemplate | int |  |
+
+**Returns:**
+[List](../../com.aspose.words/list/)
 ### get(int index) {#get-int}
 ```
 public List get(int index)

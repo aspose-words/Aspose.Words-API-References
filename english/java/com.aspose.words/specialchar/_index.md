@@ -4,7 +4,7 @@ linktitle: SpecialChar
 second_title: Aspose.Words for Java
 description: Base class for special characters in the document in Java.
 type: docs
-weight: 604
+weight: 607
 url: /java/com.aspose.words/specialchar/
 ---
 
@@ -213,7 +213,6 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -452,14 +451,6 @@ boolean -  false  if the visitor requested the enumeration to stop.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 
@@ -1353,7 +1344,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (189260,6)
+Returns  true  if this node can contain other nodes. (190965,6)
 
  **Examples:** 
 

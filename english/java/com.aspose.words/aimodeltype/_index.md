@@ -48,6 +48,11 @@ Shows how to summarize text using OpenAI and Google models.
 
 | Field | Description |
 | --- | --- |
+| [CLAUDE_35_HAIKU](#CLAUDE-35-HAIKU) | Claude 3.5 Haiku generative model type. |
+| [CLAUDE_35_SONNET](#CLAUDE-35-SONNET) | Claude 3.5 Sonnet generative model type. |
+| [CLAUDE_3_HAIKU](#CLAUDE-3-HAIKU) | Claude 3 Haiku generative model type. |
+| [CLAUDE_3_OPUS](#CLAUDE-3-OPUS) | Claude 3 Opus generative model type. |
+| [CLAUDE_3_SONNET](#CLAUDE-3-SONNET) | Claude 3 Sonnet generative model type. |
 | [GEMINI_15_FLASH](#GEMINI-15-FLASH) | Gemini 1.5 Flash generative model type. |
 | [GEMINI_15_FLASH_8_B](#GEMINI-15-FLASH-8-B) | Gemini 1.5 Flash-8B generative model type. |
 | [GEMINI_15_PRO](#GEMINI-15-PRO) | Gemini 1.5 Pro generative model type. |
@@ -64,6 +69,46 @@ Shows how to summarize text using OpenAI and Google models.
 | [getName(int aiModelType)](#getName-int) |  |
 | [getValues()](#getValues) |  |
 | [toString(int aiModelType)](#toString-int) |  |
+### CLAUDE_35_HAIKU {#CLAUDE-35-HAIKU}
+```
+public static int CLAUDE_35_HAIKU
+```
+
+
+Claude 3.5 Haiku generative model type.
+
+### CLAUDE_35_SONNET {#CLAUDE-35-SONNET}
+```
+public static int CLAUDE_35_SONNET
+```
+
+
+Claude 3.5 Sonnet generative model type.
+
+### CLAUDE_3_HAIKU {#CLAUDE-3-HAIKU}
+```
+public static int CLAUDE_3_HAIKU
+```
+
+
+Claude 3 Haiku generative model type.
+
+### CLAUDE_3_OPUS {#CLAUDE-3-OPUS}
+```
+public static int CLAUDE_3_OPUS
+```
+
+
+Claude 3 Opus generative model type.
+
+### CLAUDE_3_SONNET {#CLAUDE-3-SONNET}
+```
+public static int CLAUDE_3_SONNET
+```
+
+
+Claude 3 Sonnet generative model type.
+
 ### GEMINI_15_FLASH {#GEMINI-15-FLASH}
 ```
 public static int GEMINI_15_FLASH

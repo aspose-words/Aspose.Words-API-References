@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Represents a structured document tag SDT or content control in a document in Java.
 type: docs
-weight: 612
+weight: 615
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 
@@ -85,7 +85,6 @@ Shows how to work with styles for content control elements.
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [clear()](#clear) | Clears contents of this structured document tag and displays a placeholder if it is defined. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -644,14 +643,6 @@ Shows how to delete contents of structured document tag elements.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

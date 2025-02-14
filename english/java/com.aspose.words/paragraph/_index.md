@@ -4,7 +4,7 @@ linktitle: Paragraph
 second_title: Aspose.Words for Java
 description: Represents a paragraph of text in Java.
 type: docs
-weight: 505
+weight: 508
 url: /java/com.aspose.words/paragraph/
 ---
 
@@ -99,7 +99,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [appendField(String fieldCode, String fieldValue)](#appendField-java.lang.String-java.lang.String) | Appends a field to this paragraph. |
 | [clearParaAttrs()](#clearParaAttrs) |  |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
@@ -1027,14 +1026,6 @@ public void clearRunAttrs()
 
 
 
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -1785,7 +1776,7 @@ Gets a [getListLabel()](../../com.aspose.words/paragraph/\#getListLabel) object 
 Shows how to extract the list labels of all paragraphs that are list items.
 
 ```
-
+{@code
  Document doc = new Document(getMyDir() + "Rendering.docx");
  doc.updateListLabels();
  int listParaCount = 1;
@@ -1810,9 +1801,7 @@ Shows how to extract the list labels of all paragraphs that are list items.
          // Combine them together to include the list label with the text in the output.
          System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
      }
-
  }
- 
 ```
 
 **Returns:**

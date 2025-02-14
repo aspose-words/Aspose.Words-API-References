@@ -4,7 +4,7 @@ linktitle: ShapeMarkupLanguage
 second_title: Aspose.Words for Java
 description: Specifies Markup language used for the shape in Java.
 type: docs
-weight: 592
+weight: 595
 url: /java/com.aspose.words/shapemarkuplanguage/
 ---
 

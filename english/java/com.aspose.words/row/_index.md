@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Words for Java
 description: Represents a table row in Java.
 type: docs
-weight: 565
+weight: 568
 url: /java/com.aspose.words/row/
 ---
 
@@ -152,7 +152,6 @@ Shows how to build a nested table without using a document builder.
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the row. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [clearRowAttrs()](#clearRowAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [ensureMinimum()](#ensureMinimum) | If the [Row](../../com.aspose.words/row/) has no cells, creates and appends one [Cell](../../com.aspose.words/cell/). |
 | [fetchInheritedRowAttr(int key)](#fetchInheritedRowAttr-int) |  |
@@ -840,14 +839,6 @@ Shows how to construct an Aspose.Words document by hand.
 ### clearRowAttrs() {#clearRowAttrs}
 ```
 public void clearRowAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

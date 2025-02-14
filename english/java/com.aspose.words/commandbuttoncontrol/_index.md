@@ -4,7 +4,7 @@ linktitle: CommandButtonControl
 second_title: Aspose.Words for Java
 description: The CommandButton control runs a macro that performs an action when a user clicks it in Java.
 type: docs
-weight: 105
+weight: 106
 url: /java/com.aspose.words/commandbuttoncontrol/
 ---
 

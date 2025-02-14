@@ -4,7 +4,7 @@ linktitle: CheckBoxControl
 second_title: Aspose.Words for Java
 description: The CheckBox control toggles a value in Java.
 type: docs
-weight: 98
+weight: 99
 url: /java/com.aspose.words/checkboxcontrol/
 ---
 

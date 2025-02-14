@@ -4,7 +4,7 @@ linktitle: ChartAxisType
 second_title: Aspose.Words for Java
 description: Specifies type of chart axis in Java.
 type: docs
-weight: 69
+weight: 70
 url: /java/com.aspose.words/chartaxistype/
 ---
 

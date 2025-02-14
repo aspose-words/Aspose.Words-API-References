@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 156
+weight: 157
 url: /java/com.aspose.words/document/
 ---
 
@@ -115,7 +115,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [compare(Document document, String author, Date dateTime, CompareOptions options)](#compare-com.aspose.words.Document-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../com.aspose.words/revision/). |
 | [copyStylesFromTemplate(Document template)](#copyStylesFromTemplate-com.aspose.words.Document) | Copies styles from the specified template to a document. |
 | [copyStylesFromTemplate(String template)](#copyStylesFromTemplate-java.lang.String) | Copies styles from the specified template to a document. |
-| [dd()](#dd) |  |
 | [deepClone()](#deepClone) | Performs a deep copy of the [Document](../../com.aspose.words/document/). |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [ensureMinimum()](#ensureMinimum) | If the document contains no sections, creates one section with one paragraph. |
@@ -1380,6 +1379,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1391,7 +1391,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1549,14 +1549,6 @@ Shows how to copy styles from one document to another.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | template | java.lang.String |  |
-
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
 
 ### deepClone() {#deepClone}
 ```
@@ -3453,6 +3445,7 @@ Shows how to access frames on-page.
  // Document contains several frames with links to other documents.
  Document doc = new Document(getMyDir() + "Frameset.docx");
 
+ Assert.assertEquals(3, doc.getFrameset().getChildFramesets().getCount());
  // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
  Assert.assertEquals("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
          doc.getFrameset().getChildFramesets().get(0).getChildFramesets().get(0).getFrameDefaultUrl());
@@ -3853,7 +3846,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 
@@ -5765,6 +5758,33 @@ Shows how to add a web extension to a document.
  doc.getWebExtensionTaskPanes().clear();
 
  Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
  
 ```
 
@@ -9630,7 +9650,7 @@ Also, this method is sometimes implicitly called when updating fields in the doc
 Shows how to extract the list labels of all paragraphs that are list items.
 
 ```
-
+{@code
  Document doc = new Document(getMyDir() + "Rendering.docx");
  doc.updateListLabels();
  int listParaCount = 1;
@@ -9655,9 +9675,7 @@ Shows how to extract the list labels of all paragraphs that are list items.
          // Combine them together to include the list label with the text in the output.
          System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
      }
-
  }
- 
 ```
 
 ### updatePageLayout() {#updatePageLayout}

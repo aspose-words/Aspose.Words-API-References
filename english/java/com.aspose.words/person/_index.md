@@ -4,7 +4,7 @@ linktitle: Person
 second_title: Aspose.Words for Java
 description: Represents individual a person bibliography source contributor in Java.
 type: docs
-weight: 527
+weight: 530
 url: /java/com.aspose.words/person/
 ---
 
@@ -123,7 +123,6 @@ Shows how to get bibliography sources available in the document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Person other)](#equals-com.aspose.words.Person) |  |
 | [equals(Object obj)](#equals-java.lang.Object) |  |
 | [getFirst()](#getFirst) | Gets the first name of a person. |
 | [getLast()](#getLast) | Gets the last name of a person. |
@@ -273,21 +272,6 @@ Shows how to get bibliography sources available in the document.
 | first | java.lang.String | The last name. |
 | middle | java.lang.String | The last name. |
 
-### equals(Person other) {#equals-com.aspose.words.Person}
-```
-public boolean equals(Person other)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| other | [Person](../../com.aspose.words/person/) |  |
-
-**Returns:**
-boolean
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)

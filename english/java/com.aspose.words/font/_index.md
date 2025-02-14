@@ -4,7 +4,7 @@ linktitle: Font
 second_title: Aspose.Words for Java
 description: Contains font attributes font name font size color and so on for an object in Java.
 type: docs
-weight: 313
+weight: 314
 url: /java/com.aspose.words/font/
 ---
 
@@ -141,6 +141,7 @@ Shows how to create and use a paragraph style with list formatting.
 | [getNameFarEast()](#getNameFarEast) | Gets an East Asian font name. |
 | [getNameOther()](#getNameOther) | Gets the font used for characters with character codes from 128 through 255. |
 | [getNoProofing()](#getNoProofing) | True when the formatted characters are not to be spell checked. |
+| [getNumberSpacing()](#getNumberSpacing) | Gets the spacing type of the numeral being displayed. |
 | [getOldOn()](#getOldOn) |  |
 | [getOldOpacity()](#getOldOpacity) |  |
 | [getOutline()](#getOutline) | True if the font is formatted as outline. |
@@ -213,6 +214,7 @@ Shows how to create and use a paragraph style with list formatting.
 | [setNameFarEast(String value)](#setNameFarEast-java.lang.String) | Sets an East Asian font name. |
 | [setNameOther(String value)](#setNameOther-java.lang.String) | Sets the font used for characters with character codes from 128 through 255. |
 | [setNoProofing(boolean value)](#setNoProofing-boolean) | True when the formatted characters are not to be spell checked. |
+| [setNumberSpacing(int value)](#setNumberSpacing-int) | Sets the spacing type of the numeral being displayed. |
 | [setOldOn(boolean value)](#setOldOn-boolean) |  |
 | [setOldOpacity(double value)](#setOldOpacity-double) |  |
 | [setOutline(boolean value)](#setOutline-boolean) | True if the font is formatted as outline. |
@@ -1754,6 +1756,39 @@ Shows how to prevent text from being spell checked by Microsoft Word.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getNumberSpacing() {#getNumberSpacing}
+```
+public int getNumberSpacing()
+```
+
+
+Gets the spacing type of the numeral being displayed.
+
+ **Examples:** 
+
+Shows how to set the spacing type of the numeral.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // This effect is only supported in newer versions of MS Word.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2019);
+
+ builder.write("1 ");
+ builder.write("This is an example");
+
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ if (run.getFont().getNumberSpacing() == NumSpacing.DEFAULT)
+     run.getFont().setNumberSpacing(NumSpacing.PROPORTIONAL);
+
+ doc.save(getArtifactsDir() + "Fonts.NumberSpacing.docx");
+ 
+```
+
+**Returns:**
+int - The spacing type of the numeral being displayed. The returned value is one of [NumSpacing](../../com.aspose.words/numspacing/) constants.
 ### getOldOn() {#getOldOn}
 ```
 public boolean getOldOn()
@@ -4579,6 +4614,42 @@ Shows how to prevent text from being spell checked by Microsoft Word.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setNumberSpacing(int value) {#setNumberSpacing-int}
+```
+public void setNumberSpacing(int value)
+```
+
+
+Sets the spacing type of the numeral being displayed.
+
+ **Examples:** 
+
+Shows how to set the spacing type of the numeral.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // This effect is only supported in newer versions of MS Word.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2019);
+
+ builder.write("1 ");
+ builder.write("This is an example");
+
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ if (run.getFont().getNumberSpacing() == NumSpacing.DEFAULT)
+     run.getFont().setNumberSpacing(NumSpacing.PROPORTIONAL);
+
+ doc.save(getArtifactsDir() + "Fonts.NumberSpacing.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The spacing type of the numeral being displayed. The value must be one of [NumSpacing](../../com.aspose.words/numspacing/) constants. |
 
 ### setOldOn(boolean value) {#setOldOn-boolean}
 ```

@@ -4,7 +4,7 @@ linktitle: SmartTag
 second_title: Aspose.Words for Java
 description: This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph in Java.
 type: docs
-weight: 600
+weight: 603
 url: /java/com.aspose.words/smarttag/
 ---
 
@@ -134,7 +134,6 @@ Shows how to create smart tags.
 | [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the SmartTag. |
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the SmartTag. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -694,14 +693,6 @@ Shows how to construct an Aspose.Words document by hand.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node added.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)

@@ -4,7 +4,7 @@ linktitle: ChartSeriesCollection
 second_title: Aspose.Words for Java
 description: Represents collection of a ChartSeries in Java.
 type: docs
-weight: 85
+weight: 86
 url: /java/com.aspose.words/chartseriescollection/
 ---
 
@@ -175,7 +175,7 @@ Shows how to create treemap chart.
                          new ChartMultilevelValue("Latin America", "Brazil"),
                          new ChartMultilevelValue("Latin America", "Mexico"),
                          new ChartMultilevelValue("Latin America", "Other"),
-                         new ChartMultilevelValue("Northern America", "United States"),
+                         new ChartMultilevelValue("Northern America", "United States", "Other"),
                          new ChartMultilevelValue("Northern America", "Other"),
                          new ChartMultilevelValue("Oceania")
                  },

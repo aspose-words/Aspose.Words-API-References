@@ -4,7 +4,7 @@ linktitle: OfficeMath
 second_title: Aspose.Words for Java
 description: Represents an Office Math object such as function equation matrix or alike in Java.
 type: docs
-weight: 480
+weight: 483
 url: /java/com.aspose.words/officemath/
 ---
 
@@ -59,7 +59,6 @@ Shows how to set office math display formatting.
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the office math. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -501,14 +500,6 @@ Shows how to construct an Aspose.Words document by hand.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

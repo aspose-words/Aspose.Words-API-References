@@ -4,7 +4,7 @@ linktitle: EditableRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of an editable range in a Word document in Java.
 type: docs
-weight: 175
+weight: 176
 url: /java/com.aspose.words/editablerangestart/
 ---
 
@@ -139,7 +139,6 @@ Shows how to limit the editing rights of editable ranges to a specific group/use
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -294,14 +293,6 @@ Shows how to limit the editing rights of editable ranges to a specific group/use
 
 **Returns:**
 boolean -  false  if the visitor requested the enumeration to stop.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -1045,7 +1036,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (189260,6)
+Returns  true  if this node can contain other nodes. (190965,6)
 
  **Examples:** 
 

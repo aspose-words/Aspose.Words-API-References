@@ -4,7 +4,7 @@ linktitle: GroupShape
 second_title: Aspose.Words for Java
 description: Represents a group of shapes in a document in Java.
 type: docs
-weight: 359
+weight: 360
 url: /java/com.aspose.words/groupshape/
 ---
 
@@ -119,7 +119,6 @@ Shows how to create a group of shapes, and print its contents using a document v
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [canHaveImage()](#canHaveImage) | Returns  true  if the shape type allows the shape to have an image. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
 | [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int) |  |
@@ -915,14 +914,6 @@ boolean -  true  if the shape type allows the shape to have an image.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

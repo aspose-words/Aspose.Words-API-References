@@ -4,7 +4,7 @@ linktitle: CellVerticalAlignment
 second_title: Aspose.Words for Java
 description: Specifies vertical justification of text inside a table cell in Java.
 type: docs
-weight: 62
+weight: 63
 url: /java/com.aspose.words/cellverticalalignment/
 ---
 

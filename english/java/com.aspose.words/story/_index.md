@@ -4,7 +4,7 @@ linktitle: Story
 second_title: Aspose.Words for Java
 description: Base class for elements that contain block-level nodes Paragraph and Table in Java.
 type: docs
-weight: 608
+weight: 611
 url: /java/com.aspose.words/story/
 ---
 
@@ -61,7 +61,6 @@ Shows how to remove all shapes from a node.
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [appendParagraph(String text)](#appendParagraph-java.lang.String) | A shortcut method that creates a [Paragraph](../../com.aspose.words/paragraph/) object with optional text and appends it to the end of this object. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [deleteShapes()](#deleteShapes) | Deletes all shapes from the text of this story. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -814,14 +813,6 @@ Shows how to create a header and a footer.
 
 **Returns:**
 [Paragraph](../../com.aspose.words/paragraph/) - The newly created and appended paragraph.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
