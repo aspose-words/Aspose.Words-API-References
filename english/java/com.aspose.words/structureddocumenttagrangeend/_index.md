@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for Java
 description: Represents an end of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 614
+weight: 617
 url: /java/com.aspose.words/structureddocumenttagrangeend/
 ---
 
@@ -66,7 +66,6 @@ Shows how to get the properties of multi-section structured document tags.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -165,14 +164,6 @@ For more info see the Visitor design pattern.
 
 **Returns:**
 boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -773,7 +764,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (189260,6)
+Returns  true  if this node can contain other nodes. (190965,6)
 
  **Examples:** 
 

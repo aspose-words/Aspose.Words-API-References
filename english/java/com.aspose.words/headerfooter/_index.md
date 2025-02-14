@@ -4,7 +4,7 @@ linktitle: HeaderFooter
 second_title: Aspose.Words for Java
 description: Represents a container for the header or footer text of a section in Java.
 type: docs
-weight: 360
+weight: 361
 url: /java/com.aspose.words/headerfooter/
 ---
 
@@ -134,7 +134,6 @@ Shows how to create a header and a footer.
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the header. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [appendParagraph(String text)](#appendParagraph-java.lang.String) | A shortcut method that creates a [Paragraph](../../com.aspose.words/paragraph/) object with optional text and appends it to the end of this object. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [deleteShapes()](#deleteShapes) | Deletes all shapes from the text of this story. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -631,14 +630,6 @@ Shows how to create a header and a footer.
 
 **Returns:**
 [Paragraph](../../com.aspose.words/paragraph/) - The newly created and appended paragraph.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)

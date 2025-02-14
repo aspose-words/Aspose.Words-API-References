@@ -4,7 +4,7 @@ linktitle: Margins
 second_title: Aspose.Words for Java
 description: Specifies preset margins in Java.
 type: docs
-weight: 437
+weight: 439
 url: /java/com.aspose.words/margins/
 ---
 

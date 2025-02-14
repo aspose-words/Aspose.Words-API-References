@@ -4,7 +4,7 @@ linktitle: Frameset
 second_title: Aspose.Words for Java
 description: Represents a frames page or a single frame on a frames page in Java.
 type: docs
-weight: 345
+weight: 346
 url: /java/com.aspose.words/frameset/
 ---
 
@@ -31,6 +31,7 @@ Shows how to access frames on-page.
  // Document contains several frames with links to other documents.
  Document doc = new Document(getMyDir() + "Frameset.docx");
 
+ Assert.assertEquals(3, doc.getFrameset().getChildFramesets().getCount());
  // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
  Assert.assertEquals("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
          doc.getFrameset().getChildFramesets().get(0).getChildFramesets().get(0).getFrameDefaultUrl());
@@ -73,6 +74,7 @@ Shows how to access frames on-page.
  // Document contains several frames with links to other documents.
  Document doc = new Document(getMyDir() + "Frameset.docx");
 
+ Assert.assertEquals(3, doc.getFrameset().getChildFramesets().getCount());
  // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
  Assert.assertEquals("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
          doc.getFrameset().getChildFramesets().get(0).getChildFramesets().get(0).getFrameDefaultUrl());
@@ -106,6 +108,7 @@ Shows how to access frames on-page.
  // Document contains several frames with links to other documents.
  Document doc = new Document(getMyDir() + "Frameset.docx");
 
+ Assert.assertEquals(3, doc.getFrameset().getChildFramesets().getCount());
  // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
  Assert.assertEquals("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
          doc.getFrameset().getChildFramesets().get(0).getChildFramesets().get(0).getFrameDefaultUrl());
@@ -139,6 +142,7 @@ Shows how to access frames on-page.
  // Document contains several frames with links to other documents.
  Document doc = new Document(getMyDir() + "Frameset.docx");
 
+ Assert.assertEquals(3, doc.getFrameset().getChildFramesets().getCount());
  // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
  Assert.assertEquals("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
          doc.getFrameset().getChildFramesets().get(0).getChildFramesets().get(0).getFrameDefaultUrl());
@@ -172,6 +176,7 @@ Shows how to access frames on-page.
  // Document contains several frames with links to other documents.
  Document doc = new Document(getMyDir() + "Frameset.docx");
 
+ Assert.assertEquals(3, doc.getFrameset().getChildFramesets().getCount());
  // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
  Assert.assertEquals("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
          doc.getFrameset().getChildFramesets().get(0).getChildFramesets().get(0).getFrameDefaultUrl());
@@ -208,6 +213,7 @@ Shows how to access frames on-page.
  // Document contains several frames with links to other documents.
  Document doc = new Document(getMyDir() + "Frameset.docx");
 
+ Assert.assertEquals(3, doc.getFrameset().getChildFramesets().getCount());
  // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
  Assert.assertEquals("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
          doc.getFrameset().getChildFramesets().get(0).getChildFramesets().get(0).getFrameDefaultUrl());

@@ -4,7 +4,7 @@ linktitle: ChartDataLabel
 second_title: Aspose.Words for Java
 description: Represents data label on a chart point or trendline in Java.
 type: docs
-weight: 70
+weight: 71
 url: /java/com.aspose.words/chartdatalabel/
 ---
 
@@ -544,7 +544,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -559,7 +563,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);
@@ -652,7 +662,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -667,7 +681,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);
@@ -1746,7 +1766,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -1761,7 +1785,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);
@@ -1854,7 +1884,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -1869,7 +1903,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);
@@ -2257,7 +2297,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -2272,7 +2316,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);
@@ -2368,7 +2418,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -2383,7 +2437,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);
@@ -3404,7 +3464,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -3419,7 +3483,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);
@@ -3515,7 +3585,11 @@ Shows how to place data labels of doughnut chart outside doughnut.
      ChartDataLabel dataLabel = dataLabels.get(i);
 
      double value = series.getYValues().get(i).getDoubleValue();
-     double labelWidth = (value < 10) ? ONE_CHAR_LABEL_WIDTH : TWO_CHAR_LABEL_WIDTH;
+     double labelWidth;
+     if (value < 10)
+         labelWidth = ONE_CHAR_LABEL_WIDTH;
+     else
+         labelWidth = TWO_CHAR_LABEL_WIDTH;
      double labelSegmentAngle = value / totalValue * 2.0 * Math.PI;
      double labelAngle = labelSegmentAngle / 2.0 + totalAngle;
      double labelCenterX = LABEL_CIRCLE_RADIUS * Math.cos(labelAngle) + DOUGHNUT_CENTER_X;
@@ -3530,7 +3604,13 @@ Shows how to place data labels of doughnut chart outside doughnut.
      {
          // Move right on the top, left on the bottom.
          boolean isOnTop = (totalAngle < 0) || (totalAngle >= Math.PI);
-         labelLeft = previousLabel.getLeft() + labelWidth * (isOnTop ? 1 : -1) + LABEL_MARGIN;
+         int factor;
+         if (isOnTop)
+             factor = 1;
+         else
+             factor = -1;
+
+         labelLeft = previousLabel.getLeft() + labelWidth * factor + LABEL_MARGIN;
      }
 
      dataLabel.setLeft(labelLeft);

@@ -4,7 +4,7 @@ linktitle: ComparisonTargetType
 second_title: Aspose.Words for Java
 description: Allows to specify base document which will be used during comparison in Java.
 type: docs
-weight: 115
+weight: 116
 url: /java/com.aspose.words/comparisontargettype/
 ---
 
@@ -77,6 +77,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -88,7 +89,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 ## Fields

@@ -4,7 +4,7 @@ linktitle: CustomXmlPartCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of Custom XML Parts in Java.
 type: docs
-weight: 140
+weight: 141
 url: /java/com.aspose.words/customxmlpartcollection/
 ---
 

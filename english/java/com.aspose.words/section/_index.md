@@ -4,7 +4,7 @@ linktitle: Section
 second_title: Aspose.Words for Java
 description: Represents a single section in a document in Java.
 type: docs
-weight: 582
+weight: 585
 url: /java/com.aspose.words/section/
 ---
 
@@ -101,7 +101,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [clearHeadersFooters()](#clearHeadersFooters) | Clears the headers and footers of this section. |
 | [clearHeadersFooters(boolean preserveWatermarks)](#clearHeadersFooters-boolean) | Clears the headers and footers of this section. |
 | [clearSectionAttrs()](#clearSectionAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone()](#deepClone) | Creates a duplicate of this section. |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [deleteHeaderFooterShapes()](#deleteHeaderFooterShapes) | Deletes all shapes (drawing objects) from the headers and footers of this section. |
@@ -1070,14 +1069,6 @@ Shows how to clear the contents of header and footer with or without a watermark
 ### clearSectionAttrs() {#clearSectionAttrs}
 ```
 public void clearSectionAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

@@ -4,7 +4,7 @@ linktitle: MailMergeCleanupOptions
 second_title: Aspose.Words for Java
 description: Specifies options that determine what items are removed during mail merge in Java.
 type: docs
-weight: 428
+weight: 430
 url: /java/com.aspose.words/mailmergecleanupoptions/
 ---
 

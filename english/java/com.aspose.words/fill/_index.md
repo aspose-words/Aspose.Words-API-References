@@ -4,7 +4,7 @@ linktitle: Fill
 second_title: Aspose.Words for Java
 description: Represents fill formatting for an object in Java.
 type: docs
-weight: 305
+weight: 306
 url: /java/com.aspose.words/fill/
 ---
 
@@ -856,6 +856,12 @@ Shows how to fill and tiling the texture inside the shape.
  OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
 
  doc.save(getArtifactsDir() + "Shape.TextureFill.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "Shape.TextureFill.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals(TextureAlignment.TOP_RIGHT, shape.getFill().getTextureAlignment());
+ Assert.assertEquals(PresetTexture.CANVAS, shape.getFill().getPresetTexture());
  
 ```
 
@@ -899,6 +905,12 @@ Shows how to fill and tiling the texture inside the shape.
  OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
 
  doc.save(getArtifactsDir() + "Shape.TextureFill.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "Shape.TextureFill.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals(TextureAlignment.TOP_RIGHT, shape.getFill().getTextureAlignment());
+ Assert.assertEquals(PresetTexture.CANVAS, shape.getFill().getPresetTexture());
  
 ```
 
@@ -1631,6 +1643,12 @@ Shows how to fill and tiling the texture inside the shape.
  OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
 
  doc.save(getArtifactsDir() + "Shape.TextureFill.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "Shape.TextureFill.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals(TextureAlignment.TOP_RIGHT, shape.getFill().getTextureAlignment());
+ Assert.assertEquals(PresetTexture.CANVAS, shape.getFill().getPresetTexture());
  
 ```
 

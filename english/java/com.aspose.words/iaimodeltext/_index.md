@@ -4,7 +4,7 @@ linktitle: IAiModelText
 second_title: Aspose.Words for Java
 description: The common interface for AI models designed to generate a variety of text-based content in Java.
 type: docs
-weight: 723
+weight: 726
 url: /java/com.aspose.words/iaimodeltext/
 ---
 ```
@@ -52,6 +52,26 @@ public abstract Document checkGrammar(Document sourceDocument, CheckGrammarOptio
 
 
 Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.
+
+ **Examples:** 
+
+Shows how to check the grammar of a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ String apiKey = System.getenv("API_KEY");
+ // Use OpenAI generative language models.
+ IAiModelText model = (OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+
+ CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
+ grammarOptions.setImproveStylistics(true);
+
+ Document proofedDoc = model.checkGrammar(doc, grammarOptions);
+ proofedDoc.save(getArtifactsDir() + "AI.AiGrammar.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

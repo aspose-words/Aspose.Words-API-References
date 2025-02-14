@@ -4,7 +4,7 @@ linktitle: FieldNumPages
 second_title: Aspose.Words for Java
 description: Implements the NUMPAGES field in Java.
 type: docs
-weight: 261
+weight: 262
 url: /java/com.aspose.words/fieldnumpages/
 ---
 

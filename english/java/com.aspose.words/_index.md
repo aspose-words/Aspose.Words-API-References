@@ -37,6 +37,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [AdvancedCompareOptions](../com.aspose.words/advancedcompareoptions/) | Allows to set advanced compare options. |
 | [AiModel](../com.aspose.words/aimodel/) | Represents information about a Generative Language Model. |
 | [AiModelType](../com.aspose.words/aimodeltype/) | Represents the types of [AiModel](../com.aspose.words/aimodel/) that can be integrated into the document processing workflow. |
+| [AnthropicAiModel](../com.aspose.words/anthropicaimodel/) | An abstract class representing the integration with Anthropic\\u2019s AI models within the Aspose.Words. |
 | [ArrowLength](../com.aspose.words/arrowlength/) | Length of the arrow at the end of a line. |
 | [ArrowType](../com.aspose.words/arrowtype/) | Specifies the type of an arrow at a line end. |
 | [ArrowWidth](../com.aspose.words/arrowwidth/) | Width of the arrow at the end of a line. |
@@ -445,6 +446,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ListLevelCollection](../com.aspose.words/listlevelcollection/) | A collection of list formatting for each level in a list. |
 | [ListTemplate](../com.aspose.words/listtemplate/) | Specifies one of the predefined list formats available in Microsoft Word. |
 | [ListTrailingCharacter](../com.aspose.words/listtrailingcharacter/) | Specifies the character that separates the list label from the text of the paragraph. |
+| [ListType](../com.aspose.words/listtype/) |  |
 | [LoadFormat](../com.aspose.words/loadformat/) | Indicates the format of the document that is to be loaded. |
 | [LoadOptions](../com.aspose.words/loadoptions/) | Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../com.aspose.words/document/) object. |
 | [MailMerge](../com.aspose.words/mailmerge/) | Represents the mail merge functionality. |
@@ -490,6 +492,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [NodeList](../com.aspose.words/nodelist/) | Represents a collection of nodes matching an XPath query executed using the [CompositeNode.\#selectNodes(java.lang.String)](../com.aspose.words/compositenode/\#selectNodes-java.lang.String) method. |
 | [NodeRendererBase](../com.aspose.words/noderendererbase/) | Base class for [ShapeRenderer](../com.aspose.words/shaperenderer/) and [OfficeMathRenderer](../com.aspose.words/officemathrenderer/). |
 | [NodeType](../com.aspose.words/nodetype/) | Specifies the type of a Word document node. |
+| [NumSpacing](../com.aspose.words/numspacing/) | Specifies possible values in which numeral spacing can be displayed. |
 | [NumberStyle](../com.aspose.words/numberstyle/) | Specifies the number style for a list, footnotes and endnotes, page numbers. |
 | [NumeralFormat](../com.aspose.words/numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
 | [Odso](../com.aspose.words/odso/) | Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. |

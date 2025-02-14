@@ -4,7 +4,7 @@ linktitle: Splitter
 second_title: Aspose.Words for Java
 description: Provides methods intended to split the documents into parts using different criteria in Java.
 type: docs
-weight: 607
+weight: 610
 url: /java/com.aspose.words/splitter/
 ---
 
@@ -19,15 +19,38 @@ Provides methods intended to split the documents into parts using different crit
 
 | Method | Description |
 | --- | --- |
+| [extractPages(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, int startPageIndex, int pageCount)](#extractPages-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-int-int) |  |
 | [extractPages(InputStream inputStream, OutputStream outputStream, int saveFormat, int startPageIndex, int pageCount)](#extractPages-java.io.InputStream-java.io.OutputStream-int-int-int) |  |
+| [extractPages(String inputFileName, String outputFileName, SaveOptions saveOptions, int startPageIndex, int pageCount)](#extractPages-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-int-int) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file using the specified save format. |
 | [extractPages(String inputFileName, String outputFileName, int startPageIndex, int pageCount)](#extractPages-java.lang.String-java.lang.String-int-int) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file. |
 | [extractPages(String inputFileName, String outputFileName, int saveFormat, int startPageIndex, int pageCount)](#extractPages-java.lang.String-java.lang.String-int-int-int) |  |
+| [removeBlankPages(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions)](#removeBlankPages-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [removeBlankPages(InputStream inputStream, OutputStream outputStream, int saveFormat)](#removeBlankPages-java.io.InputStream-java.io.OutputStream-int) |  |
 | [removeBlankPages(String inputFileName, String outputFileName)](#removeBlankPages-java.lang.String-java.lang.String) | Removes empty pages from the document and saves the output. |
+| [removeBlankPages(String inputFileName, String outputFileName, SaveOptions saveOptions)](#removeBlankPages-java.lang.String-java.lang.String-com.aspose.words.SaveOptions) | Removes empty pages from the document and saves the output in the specified format. |
 | [removeBlankPages(String inputFileName, String outputFileName, int saveFormat)](#removeBlankPages-java.lang.String-java.lang.String-int) |  |
+| [split(InputStream inputStream, SaveOptions saveOptions, SplitOptions options)](#split-java.io.InputStream-com.aspose.words.SaveOptions-com.aspose.words.SplitOptions) | Splits a document from an input stream into multiple parts based on the specified split options and returns the resulting parts as an array of streams in the specified save format. |
 | [split(InputStream inputStream, int saveFormat, SplitOptions options)](#split-java.io.InputStream-int-com.aspose.words.SplitOptions) |  |
+| [split(String inputFileName, String outputFileName, SaveOptions saveOptions, SplitOptions options)](#split-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.SplitOptions) | Splits a document into multiple parts based on the specified split options and saves the resulting parts to files in the specified save format. |
 | [split(String inputFileName, String outputFileName, SplitOptions options)](#split-java.lang.String-java.lang.String-com.aspose.words.SplitOptions) | Splits a document into multiple parts based on the specified split options and saves the resulting parts to files. |
 | [split(String inputFileName, String outputFileName, int saveFormat, SplitOptions options)](#split-java.lang.String-java.lang.String-int-com.aspose.words.SplitOptions) |  |
+### extractPages(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, int startPageIndex, int pageCount) {#extractPages-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-int-int}
+```
+public static void extractPages(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, int startPageIndex, int pageCount)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| startPageIndex | int |  |
+| pageCount | int |  |
+
 ### extractPages(InputStream inputStream, OutputStream outputStream, int saveFormat, int startPageIndex, int pageCount) {#extractPages-java.io.InputStream-java.io.OutputStream-int-int-int}
 ```
 public static void extractPages(InputStream inputStream, OutputStream outputStream, int saveFormat, int startPageIndex, int pageCount)
@@ -44,6 +67,23 @@ public static void extractPages(InputStream inputStream, OutputStream outputStre
 | saveFormat | int |  |
 | startPageIndex | int |  |
 | pageCount | int |  |
+
+### extractPages(String inputFileName, String outputFileName, SaveOptions saveOptions, int startPageIndex, int pageCount) {#extractPages-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-int-int}
+```
+public static void extractPages(String inputFileName, String outputFileName, SaveOptions saveOptions, int startPageIndex, int pageCount)
+```
+
+
+Extracts a specified range of pages from a document file and saves the extracted pages to a new file using the specified save format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
+| startPageIndex | int | The zero-based index of the first page to extract. |
+| pageCount | int | Number of pages to be extracted. |
 
 ### extractPages(String inputFileName, String outputFileName, int startPageIndex, int pageCount) {#extractPages-java.lang.String-java.lang.String-int-int}
 ```
@@ -92,6 +132,23 @@ public static void extractPages(String inputFileName, String outputFileName, int
 | startPageIndex | int |  |
 | pageCount | int |  |
 
+### removeBlankPages(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions) {#removeBlankPages-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions}
+```
+public static ArrayList removeBlankPages(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+
+**Returns:**
+java.util.ArrayList
 ### removeBlankPages(InputStream inputStream, OutputStream outputStream, int saveFormat) {#removeBlankPages-java.io.InputStream-java.io.OutputStream-int}
 ```
 public static ArrayList removeBlankPages(InputStream inputStream, OutputStream outputStream, int saveFormat)
@@ -139,6 +196,23 @@ Shows how to remove empty pages from the document.
 
 **Returns:**
 java.util.ArrayList - List of page numbers has been considered as blank and removed.
+### removeBlankPages(String inputFileName, String outputFileName, SaveOptions saveOptions) {#removeBlankPages-java.lang.String-java.lang.String-com.aspose.words.SaveOptions}
+```
+public static ArrayList removeBlankPages(String inputFileName, String outputFileName, SaveOptions saveOptions)
+```
+
+
+Removes empty pages from the document and saves the output in the specified format. Returns a list of page numbers that were removed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
+
+**Returns:**
+java.util.ArrayList - List of page numbers has been considered as blank and removed.
 ### removeBlankPages(String inputFileName, String outputFileName, int saveFormat) {#removeBlankPages-java.lang.String-java.lang.String-int}
 ```
 public static ArrayList removeBlankPages(String inputFileName, String outputFileName, int saveFormat)
@@ -156,6 +230,23 @@ public static ArrayList removeBlankPages(String inputFileName, String outputFile
 
 **Returns:**
 java.util.ArrayList
+### split(InputStream inputStream, SaveOptions saveOptions, SplitOptions options) {#split-java.io.InputStream-com.aspose.words.SaveOptions-com.aspose.words.SplitOptions}
+```
+public static InputStream[] split(InputStream inputStream, SaveOptions saveOptions, SplitOptions options)
+```
+
+
+Splits a document from an input stream into multiple parts based on the specified split options and returns the resulting parts as an array of streams in the specified save format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream | The input stream. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
+| options | [SplitOptions](../../com.aspose.words/splitoptions/) | Document split options. |
+
+**Returns:**
+java.io.InputStream[]
 ### split(InputStream inputStream, int saveFormat, SplitOptions options) {#split-java.io.InputStream-int-com.aspose.words.SplitOptions}
 ```
 public static InputStream[] split(InputStream inputStream, int saveFormat, SplitOptions options)
@@ -173,6 +264,22 @@ public static InputStream[] split(InputStream inputStream, int saveFormat, Split
 
 **Returns:**
 java.io.InputStream[]
+### split(String inputFileName, String outputFileName, SaveOptions saveOptions, SplitOptions options) {#split-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.SplitOptions}
+```
+public static void split(String inputFileName, String outputFileName, SaveOptions saveOptions, SplitOptions options)
+```
+
+
+Splits a document into multiple parts based on the specified split options and saves the resulting parts to files in the specified save format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name used to generate file name for document parts using rule "outputFile\_partIndex.extension" |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
+| options | [SplitOptions](../../com.aspose.words/splitoptions/) | Document split options. |
+
 ### split(String inputFileName, String outputFileName, SplitOptions options) {#split-java.lang.String-java.lang.String-com.aspose.words.SplitOptions}
 ```
 public static void split(String inputFileName, String outputFileName, SplitOptions options)

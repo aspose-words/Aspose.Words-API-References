@@ -4,7 +4,7 @@ linktitle: Node
 second_title: Aspose.Words for Java
 description: Base class for all nodes of a Word document in Java.
 type: docs
-weight: 461
+weight: 463
 url: /java/com.aspose.words/node/
 ---
 
@@ -135,7 +135,6 @@ Shows how to traverse through a composite node's collection of child nodes.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -356,14 +355,6 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
 
 **Returns:**
 boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -999,7 +990,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (189260,6)
+Returns  true  if this node can contain other nodes. (190965,6)
 
  **Examples:** 
 

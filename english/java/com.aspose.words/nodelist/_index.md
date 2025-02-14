@@ -4,7 +4,7 @@ linktitle: NodeList
 second_title: Aspose.Words for Java
 description: Represents a collection of nodes matching an XPath query executed using the CompositeNode.selectNodesjava.lang.String method in Java.
 type: docs
-weight: 466
+weight: 468
 url: /java/com.aspose.words/nodelist/
 ---
 

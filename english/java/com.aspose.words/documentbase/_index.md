@@ -4,7 +4,7 @@ linktitle: DocumentBase
 second_title: Aspose.Words for Java
 description: Provides the abstract base class for a main document and a glossary document of a Word document in Java.
 type: docs
-weight: 157
+weight: 158
 url: /java/com.aspose.words/documentbase/
 ---
 
@@ -51,7 +51,6 @@ Shows how to initialize the subclasses of DocumentBase.
 | [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -757,14 +756,6 @@ Shows how to construct an Aspose.Words document by hand.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node added.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)

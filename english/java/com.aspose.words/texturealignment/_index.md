@@ -4,7 +4,7 @@ linktitle: TextureAlignment
 second_title: Aspose.Words for Java
 description: Specifies the alignment for the tiling of the texture fill in Java.
 type: docs
-weight: 654
+weight: 657
 url: /java/com.aspose.words/texturealignment/
 ---
 
@@ -36,6 +36,12 @@ Shows how to fill and tiling the texture inside the shape.
  OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
 
  doc.save(getArtifactsDir() + "Shape.TextureFill.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "Shape.TextureFill.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals(TextureAlignment.TOP_RIGHT, shape.getFill().getTextureAlignment());
+ Assert.assertEquals(PresetTexture.CANVAS, shape.getFill().getPresetTexture());
  
 ```
 ## Fields

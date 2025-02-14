@@ -4,7 +4,7 @@ linktitle: Border
 second_title: Aspose.Words for Java
 description: Represents a border of an object in Java.
 type: docs
-weight: 45
+weight: 46
 url: /java/com.aspose.words/border/
 ---
 

@@ -4,7 +4,7 @@ linktitle: Chart
 second_title: Aspose.Words for Java
 description: Provides access to the chart shape properties in Java.
 type: docs
-weight: 65
+weight: 66
 url: /java/com.aspose.words/chart/
 ---
 
@@ -595,9 +595,6 @@ Shows how to get/set the full name of the external xls/xlsx document if the char
 
  String sourceFullName = shape.getChart().getSourceFullName();
  Assert.assertTrue(sourceFullName.contains("Examples\\Data\\Spreadsheet.xlsx"));
-
- sourceFullName = "D:\\Documents\\ChartData.xlsx";
- Assert.assertTrue(sourceFullName.equals("D:\\Documents\\ChartData.xlsx"));
  
 ```
 
@@ -703,9 +700,6 @@ Shows how to get/set the full name of the external xls/xlsx document if the char
 
  String sourceFullName = shape.getChart().getSourceFullName();
  Assert.assertTrue(sourceFullName.contains("Examples\\Data\\Spreadsheet.xlsx"));
-
- sourceFullName = "D:\\Documents\\ChartData.xlsx";
- Assert.assertTrue(sourceFullName.equals("D:\\Documents\\ChartData.xlsx"));
  
 ```
 

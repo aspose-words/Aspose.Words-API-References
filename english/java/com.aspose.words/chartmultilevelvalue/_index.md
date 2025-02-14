@@ -4,7 +4,7 @@ linktitle: ChartMultilevelValue
 second_title: Aspose.Words for Java
 description: Represents a value for charts that display multilevel data in Java.
 type: docs
-weight: 82
+weight: 83
 url: /java/com.aspose.words/chartmultilevelvalue/
 ---
 
@@ -56,7 +56,7 @@ Shows how to create treemap chart.
                          new ChartMultilevelValue("Latin America", "Brazil"),
                          new ChartMultilevelValue("Latin America", "Mexico"),
                          new ChartMultilevelValue("Latin America", "Other"),
-                         new ChartMultilevelValue("Northern America", "United States"),
+                         new ChartMultilevelValue("Northern America", "United States", "Other"),
                          new ChartMultilevelValue("Northern America", "Other"),
                          new ChartMultilevelValue("Oceania")
                  },
@@ -145,7 +145,7 @@ Shows how to create treemap chart.
                          new ChartMultilevelValue("Latin America", "Brazil"),
                          new ChartMultilevelValue("Latin America", "Mexico"),
                          new ChartMultilevelValue("Latin America", "Other"),
-                         new ChartMultilevelValue("Northern America", "United States"),
+                         new ChartMultilevelValue("Northern America", "United States", "Other"),
                          new ChartMultilevelValue("Northern America", "Other"),
                          new ChartMultilevelValue("Oceania")
                  },
@@ -226,7 +226,7 @@ Shows how to create treemap chart.
                          new ChartMultilevelValue("Latin America", "Brazil"),
                          new ChartMultilevelValue("Latin America", "Mexico"),
                          new ChartMultilevelValue("Latin America", "Other"),
-                         new ChartMultilevelValue("Northern America", "United States"),
+                         new ChartMultilevelValue("Northern America", "United States", "Other"),
                          new ChartMultilevelValue("Northern America", "Other"),
                          new ChartMultilevelValue("Oceania")
                  },
@@ -306,7 +306,7 @@ Shows how to create treemap chart.
                          new ChartMultilevelValue("Latin America", "Brazil"),
                          new ChartMultilevelValue("Latin America", "Mexico"),
                          new ChartMultilevelValue("Latin America", "Other"),
-                         new ChartMultilevelValue("Northern America", "United States"),
+                         new ChartMultilevelValue("Northern America", "United States", "Other"),
                          new ChartMultilevelValue("Northern America", "Other"),
                          new ChartMultilevelValue("Oceania")
                  },

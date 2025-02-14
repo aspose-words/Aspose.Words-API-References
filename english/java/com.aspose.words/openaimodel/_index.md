@@ -4,7 +4,7 @@ linktitle: OpenAiModel
 second_title: Aspose.Words for Java
 description: An abstract class representing the integration with OpenAIs large language models within the Aspose.Words in Java.
 type: docs
-weight: 489
+weight: 492
 url: /java/com.aspose.words/openaimodel/
 ---
 
@@ -73,6 +73,26 @@ public Document checkGrammar(Document doc, CheckGrammarOptions options)
 
 
 Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.
+
+ **Examples:** 
+
+Shows how to check the grammar of a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ String apiKey = System.getenv("API_KEY");
+ // Use OpenAI generative language models.
+ IAiModelText model = (OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+
+ CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
+ grammarOptions.setImproveStylistics(true);
+
+ Document proofedDoc = model.checkGrammar(doc, grammarOptions);
+ proofedDoc.save(getArtifactsDir() + "AI.AiGrammar.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

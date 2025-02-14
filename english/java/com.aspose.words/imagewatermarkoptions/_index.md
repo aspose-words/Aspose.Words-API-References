@@ -4,7 +4,7 @@ linktitle: ImageWatermarkOptions
 second_title: Aspose.Words for Java
 description: Contains options that can be specified when adding a watermark with image in Java.
 type: docs
-weight: 389
+weight: 390
 url: /java/com.aspose.words/imagewatermarkoptions/
 ---
 
@@ -32,7 +32,12 @@ Shows how to create a watermark from an image in the local file system.
  imageWatermarkOptions.setScale(5.0);
  imageWatermarkOptions.isWashout(false);
 
+ // We have a different options to insert image:
  doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")));
+
+ doc.getWatermark().setImage(getImageDir() + "Logo.jpg", imageWatermarkOptions);
 
  doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
  
@@ -80,7 +85,12 @@ Shows how to create a watermark from an image in the local file system.
  imageWatermarkOptions.setScale(5.0);
  imageWatermarkOptions.isWashout(false);
 
+ // We have a different options to insert image:
  doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")));
+
+ doc.getWatermark().setImage(getImageDir() + "Logo.jpg", imageWatermarkOptions);
 
  doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
  
@@ -110,7 +120,12 @@ Shows how to create a watermark from an image in the local file system.
  imageWatermarkOptions.setScale(5.0);
  imageWatermarkOptions.isWashout(false);
 
+ // We have a different options to insert image:
  doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")));
+
+ doc.getWatermark().setImage(getImageDir() + "Logo.jpg", imageWatermarkOptions);
 
  doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
  

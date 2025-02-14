@@ -4,7 +4,7 @@ linktitle: GlossaryDocument
 second_title: Aspose.Words for Java
 description: Represents the root element for a glossary document within a Word document in Java.
 type: docs
-weight: 349
+weight: 350
 url: /java/com.aspose.words/glossarydocument/
 ---
 
@@ -144,7 +144,6 @@ Shows ways of accessing building blocks in a glossary document.
 | [acceptEnd(DocumentVisitor visitor)](#acceptEnd-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the end of the Glossary document. |
 | [acceptStart(DocumentVisitor visitor)](#acceptStart-com.aspose.words.DocumentVisitor) | Accepts a visitor for visiting the start of the Glossary document. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -647,14 +646,6 @@ Shows how to construct an Aspose.Words document by hand.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node added.
-### dd() {#dd}
-```
-public void dd()
-```
-
-
-
-
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)

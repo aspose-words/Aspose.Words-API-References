@@ -4,7 +4,7 @@ linktitle: ShapeBase
 second_title: Aspose.Words for Java
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 590
+weight: 593
 url: /java/com.aspose.words/shapebase/
 ---
 
@@ -69,7 +69,6 @@ Shows how to insert a floating image to the center of a page.
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [canHaveImage()](#canHaveImage) | Returns  true  if the shape type allows the shape to have an image. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
 | [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int) |  |
@@ -1065,14 +1064,6 @@ boolean -  true  if the shape type allows the shape to have an image.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 

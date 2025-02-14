@@ -4,7 +4,7 @@ linktitle: ListLabel
 second_title: Aspose.Words for Java
 description: Defines properties specific to a list label in Java.
 type: docs
-weight: 418
+weight: 419
 url: /java/com.aspose.words/listlabel/
 ---
 
@@ -23,7 +23,7 @@ To learn more, visit the [ Working with Lists ][Working with Lists] documentatio
 Shows how to extract the list labels of all paragraphs that are list items.
 
 ```
-
+{@code
  Document doc = new Document(getMyDir() + "Rendering.docx");
  doc.updateListLabels();
  int listParaCount = 1;
@@ -48,9 +48,7 @@ Shows how to extract the list labels of all paragraphs that are list items.
          // Combine them together to include the list label with the text in the output.
          System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
      }
-
  }
- 
 ```
 
 
@@ -145,7 +143,7 @@ Gets a string representation of list label.
 Shows how to extract the list labels of all paragraphs that are list items.
 
 ```
-
+{@code
  Document doc = new Document(getMyDir() + "Rendering.docx");
  doc.updateListLabels();
  int listParaCount = 1;
@@ -170,9 +168,7 @@ Shows how to extract the list labels of all paragraphs that are list items.
          // Combine them together to include the list label with the text in the output.
          System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
      }
-
  }
- 
 ```
 
 **Returns:**
@@ -194,7 +190,7 @@ Use the [Document.updateListLabels()](../../com.aspose.words/document/\#updateLi
 Shows how to extract the list labels of all paragraphs that are list items.
 
 ```
-
+{@code
  Document doc = new Document(getMyDir() + "Rendering.docx");
  doc.updateListLabels();
  int listParaCount = 1;
@@ -219,9 +215,7 @@ Shows how to extract the list labels of all paragraphs that are list items.
          // Combine them together to include the list label with the text in the output.
          System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
      }
-
  }
- 
 ```
 
 **Returns:**

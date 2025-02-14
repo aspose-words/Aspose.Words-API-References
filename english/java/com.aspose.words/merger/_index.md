@@ -4,7 +4,7 @@ linktitle: Merger
 second_title: Aspose.Words for Java
 description: Represents a group of methods intended to merge a variety of different types of documents into a single output document in Java.
 type: docs
-weight: 452
+weight: 454
 url: /java/com.aspose.words/merger/
 ---
 

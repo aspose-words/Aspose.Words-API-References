@@ -4,7 +4,7 @@ linktitle: CompareOptions
 second_title: Aspose.Words for Java
 description: Allows to choose additional options for document comparison operation in Java.
 type: docs
-weight: 111
+weight: 112
 url: /java/com.aspose.words/compareoptions/
 ---
 
@@ -75,6 +75,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -86,7 +87,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -233,6 +234,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -244,7 +246,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -360,6 +362,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -371,7 +374,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -446,6 +449,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -457,7 +461,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -566,6 +570,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -577,7 +582,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -652,6 +657,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -663,7 +669,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -738,6 +744,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -749,7 +756,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -824,6 +831,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -835,7 +843,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -910,6 +918,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -921,7 +930,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -996,6 +1005,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1007,7 +1017,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1078,6 +1088,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1089,7 +1100,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1164,6 +1175,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1175,7 +1187,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1297,6 +1309,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1308,7 +1321,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1386,6 +1399,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1397,7 +1411,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1512,6 +1526,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1523,7 +1538,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1601,6 +1616,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1612,7 +1628,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1690,6 +1706,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1701,7 +1718,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1779,6 +1796,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1790,7 +1808,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1868,6 +1886,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1879,7 +1898,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -1957,6 +1976,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -1968,7 +1988,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 
@@ -2042,6 +2062,7 @@ Shows how to filter specific types of document elements when making a comparison
  // A CompareOptions object has a series of flags that can suppress revisions
  // on each respective type of element, effectively ignoring their change.
  CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setCompareMoves(false);
  compareOptions.setIgnoreFormatting(false);
  compareOptions.setIgnoreCaseChanges(false);
  compareOptions.setIgnoreComments(false);
@@ -2053,7 +2074,7 @@ Shows how to filter specific types of document elements when making a comparison
  compareOptions.setTarget(ComparisonTargetType.NEW);
 
  docOriginal.compare(docEdited, "John Doe", new Date(), compareOptions);
- docOriginal.save(getArtifactsDir() + "Document.CompareOptions.docx");
+ docOriginal.save(getArtifactsDir() + "Revision.CompareOptions.docx");
  
 ```
 

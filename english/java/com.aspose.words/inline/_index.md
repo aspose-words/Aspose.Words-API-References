@@ -4,7 +4,7 @@ linktitle: Inline
 second_title: Aspose.Words for Java
 description: Base class for inline-level nodes that can have character formatting associated with them but cannot have child nodes of their own in Java.
 type: docs
-weight: 394
+weight: 395
 url: /java/com.aspose.words/inline/
 ---
 
@@ -90,7 +90,6 @@ Shows how to determine the revision type of an inline node.
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
@@ -335,14 +334,6 @@ boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.a
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
-```
-
-
-
-
-### dd() {#dd}
-```
-public void dd()
 ```
 
 
@@ -1173,7 +1164,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (189260,6)
+Returns  true  if this node can contain other nodes. (190965,6)
 
  **Examples:** 
 

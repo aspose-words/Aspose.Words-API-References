@@ -4,7 +4,7 @@ linktitle: AxisScaling
 second_title: Aspose.Words for Java
 description: Represents the scaling options of the axis in Java.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.aspose.words/axisscaling/
 ---
 

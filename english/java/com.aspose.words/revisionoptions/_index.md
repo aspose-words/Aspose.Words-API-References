@@ -4,7 +4,7 @@ linktitle: RevisionOptions
 second_title: Aspose.Words for Java
 description: Allows to control how document revisions are handled during layout process in Java.
 type: docs
-weight: 561
+weight: 564
 url: /java/com.aspose.words/revisionoptions/
 ---
 
@@ -42,7 +42,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 
@@ -357,7 +357,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 
@@ -961,7 +961,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 
@@ -1305,7 +1305,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 
@@ -1951,7 +1951,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
  doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
  doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
 
- doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
  
 ```
 

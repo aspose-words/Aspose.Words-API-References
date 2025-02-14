@@ -4,7 +4,7 @@ linktitle: FieldXE
 second_title: Aspose.Words for Java
 description: Implements the XE field in Java.
 type: docs
-weight: 300
+weight: 301
 url: /java/com.aspose.words/fieldxe/
 ---
 

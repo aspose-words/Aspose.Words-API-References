@@ -4,7 +4,7 @@ linktitle: MailMerger
 second_title: Aspose.Words for Java
 description: Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations in Java.
 type: docs
-weight: 435
+weight: 437
 url: /java/com.aspose.words/mailmerger/
 ---
 
@@ -19,12 +19,18 @@ Provides methods intended to fill template with data using simple mail merge and
 
 | Method | Description |
 | --- | --- |
+| [execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow)](#execute-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataRow) |  |
+| [execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)](#execute-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable) |  |
+| [execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, String[] fieldNames, Object[] fieldValues)](#execute-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-java.lang.String---java.lang.Object) |  |
 | [execute(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow)](#execute-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataRow) |  |
 | [execute(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)](#execute-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [execute(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, String[] fieldNames, Object[] fieldValues)](#execute-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.MailMergeOptions-java.lang.String---java.lang.Object) |  |
 | [execute(InputStream inputStream, OutputStream outputStream, int saveFormat, System.Data.DataRow dataRow)](#execute-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.net.System.Data.DataRow) |  |
 | [execute(InputStream inputStream, OutputStream outputStream, int saveFormat, System.Data.DataTable dataTable)](#execute-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.net.System.Data.DataTable) |  |
 | [execute(InputStream inputStream, OutputStream outputStream, int saveFormat, String[] fieldNames, Object[] fieldValues)](#execute-java.io.InputStream-java.io.OutputStream-int-java.lang.String---java.lang.Object) |  |
+| [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataRow) | Performs mail merge from a DataRow into the document. |
+| [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable) | Performs mail merge from a DataRow into the document. |
+| [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, String[] fieldNames, Object[] fieldValues)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-java.lang.String---java.lang.Object) | Performs a mail merge operation for a single record. |
 | [execute(String inputFileName, String outputFileName, System.Data.DataRow dataRow)](#execute-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataRow) | Performs mail merge from a DataRow into the document. |
 | [execute(String inputFileName, String outputFileName, System.Data.DataTable dataTable)](#execute-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataTable) | Performs mail merge from a DataTable into the document. |
 | [execute(String inputFileName, String outputFileName, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow)](#execute-java.lang.String-java.lang.String-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataRow) |  |
@@ -34,16 +40,72 @@ Provides methods intended to fill template with data using simple mail merge and
 | [execute(String inputFileName, String outputFileName, int saveFormat, System.Data.DataTable dataTable)](#execute-java.lang.String-java.lang.String-int-com.aspose.words.net.System.Data.DataTable) |  |
 | [execute(String inputFileName, String outputFileName, int saveFormat, String[] fieldNames, Object[] fieldValues)](#execute-java.lang.String-java.lang.String-int-java.lang.String---java.lang.Object) |  |
 | [execute(String inputFileName, String outputFileName, String[] fieldNames, Object[] fieldValues)](#execute-java.lang.String-java.lang.String-java.lang.String---java.lang.Object) | Performs a mail merge operation for a single record. |
+| [executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataSet) |  |
+| [executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [executeWithRegions(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataSet) |  |
 | [executeWithRegions(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [executeWithRegions(InputStream inputStream, OutputStream outputStream, int saveFormat, System.Data.DataSet dataSet)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.net.System.Data.DataSet) |  |
 | [executeWithRegions(InputStream inputStream, OutputStream outputStream, int saveFormat, System.Data.DataTable dataTable)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.net.System.Data.DataTable) |  |
+| [executeWithRegions(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet)](#executeWithRegions-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataSet) | Performs mail merge from a DataTable into the document with mail merge regions. |
+| [executeWithRegions(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)](#executeWithRegions-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |
 | [executeWithRegions(String inputFileName, String outputFileName, System.Data.DataSet dataSet)](#executeWithRegions-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataSet) | Performs mail merge from a DataSet into a document with mail merge regions. |
 | [executeWithRegions(String inputFileName, String outputFileName, System.Data.DataTable dataTable)](#executeWithRegions-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |
 | [executeWithRegions(String inputFileName, String outputFileName, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet)](#executeWithRegions-java.lang.String-java.lang.String-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataSet) |  |
 | [executeWithRegions(String inputFileName, String outputFileName, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)](#executeWithRegions-java.lang.String-java.lang.String-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [executeWithRegions(String inputFileName, String outputFileName, int saveFormat, System.Data.DataSet dataSet)](#executeWithRegions-java.lang.String-java.lang.String-int-com.aspose.words.net.System.Data.DataSet) |  |
 | [executeWithRegions(String inputFileName, String outputFileName, int saveFormat, System.Data.DataTable dataTable)](#executeWithRegions-java.lang.String-java.lang.String-int-com.aspose.words.net.System.Data.DataTable) |  |
+### execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow) {#execute-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataRow}
+```
+public static void execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) |  |
+| dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow/) |  |
+
+### execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable) {#execute-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable}
+```
+public static void execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) |  |
+| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable/) |  |
+
+### execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, String[] fieldNames, Object[] fieldValues) {#execute-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-java.lang.String---java.lang.Object}
+```
+public static void execute(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, String[] fieldNames, Object[] fieldValues)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) |  |
+| fieldNames | java.lang.String[] |  |
+| fieldValues | java.lang.Object[] |  |
+
 ### execute(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow) {#execute-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataRow}
 ```
 public static void execute(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow)
@@ -144,6 +206,58 @@ public static void execute(InputStream inputStream, OutputStream outputStream, i
 | saveFormat | int |  |
 | fieldNames | java.lang.String[] |  |
 | fieldValues | java.lang.Object[] |  |
+
+### execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow) {#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataRow}
+```
+public static void execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataRow dataRow)
+```
+
+
+Performs mail merge from a DataRow into the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) | Mail merge options. |
+| dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow/) | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable) {#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable}
+```
+public static void execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)
+```
+
+
+Performs mail merge from a DataRow into the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) | Mail merge options. |
+| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+### execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, String[] fieldNames, Object[] fieldValues) {#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-java.lang.String---java.lang.Object}
+```
+public static void execute(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, String[] fieldNames, Object[] fieldValues)
+```
+
+
+Performs a mail merge operation for a single record.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) | Mail merge options. |
+| fieldNames | java.lang.String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | java.lang.Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
 ### execute(String inputFileName, String outputFileName, System.Data.DataRow dataRow) {#execute-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataRow}
 ```
@@ -361,6 +475,40 @@ Shows how to do mail merge operation for a single record.
 | fieldNames | java.lang.String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | fieldValues | java.lang.Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
+### executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet) {#executeWithRegions-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataSet}
+```
+public static void executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) |  |
+| dataSet | [DataSet](../../com.aspose.words.net.system.data/dataset/) |  |
+
+### executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable) {#executeWithRegions-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable}
+```
+public static void executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) |  |
+| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable/) |  |
+
 ### executeWithRegions(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet) {#executeWithRegions-java.io.InputStream-java.io.OutputStream-int-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataSet}
 ```
 public static void executeWithRegions(InputStream inputStream, OutputStream outputStream, int saveFormat, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet)
@@ -426,6 +574,40 @@ public static void executeWithRegions(InputStream inputStream, OutputStream outp
 | outputStream | java.io.OutputStream |  |
 | saveFormat | int |  |
 | dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable/) |  |
+
+### executeWithRegions(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet) {#executeWithRegions-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataSet}
+```
+public static void executeWithRegions(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataSet dataSet)
+```
+
+
+Performs mail merge from a DataTable into the document with mail merge regions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) | Mail merge options. |
+| dataSet | [DataSet](../../com.aspose.words.net.system.data/dataset/) | DataSet that contains data to be inserted into mail merge fields. |
+
+### executeWithRegions(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable) {#executeWithRegions-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.MailMergeOptions-com.aspose.words.net.System.Data.DataTable}
+```
+public static void executeWithRegions(String inputFileName, String outputFileName, SaveOptions saveOptions, MailMergeOptions mailMergeOptions, System.Data.DataTable dataTable)
+```
+
+
+Performs mail merge from a DataTable into the document with mail merge regions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| mailMergeOptions | [MailMergeOptions](../../com.aspose.words/mailmergeoptions/) | Mail merge options. |
+| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 
 ### executeWithRegions(String inputFileName, String outputFileName, System.Data.DataSet dataSet) {#executeWithRegions-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataSet}
 ```
