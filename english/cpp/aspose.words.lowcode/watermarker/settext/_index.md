@@ -55,6 +55,37 @@ static void Aspose::Words::LowCode::Watermarker::SetText(const System::SharedPtr
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
+## Watermarker::SetText(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&) method
+
+
+
+
+```cpp
+static void Aspose::Words::LowCode::Watermarker::SetText(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &watermarkText)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [Watermarker](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Watermarker::SetText(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) method
+
+
+
+
+```cpp
+static void Aspose::Words::LowCode::Watermarker::SetText(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &watermarkText, const System::SharedPtr<Aspose::Words::TextWatermarkOptions> &options)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)
+* Class [Watermarker](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
 ## Watermarker::SetText(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&) method
 
 
@@ -99,6 +130,37 @@ static void Aspose::Words::LowCode::Watermarker::SetText(const System::String &i
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)
+* Class [Watermarker](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Watermarker::SetText(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&) method
+
+
+
+
+```cpp
+static void Aspose::Words::LowCode::Watermarker::SetText(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &watermarkText)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [Watermarker](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Watermarker::SetText(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) method
+
+
+
+
+```cpp
+static void Aspose::Words::LowCode::Watermarker::SetText(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &watermarkText, const System::SharedPtr<Aspose::Words::TextWatermarkOptions> &options)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)

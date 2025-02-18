@@ -33,6 +33,21 @@ List of page numbers has been considered as blank and removed.
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
+## Splitter::RemoveBlankPages(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
+
+
+
+
+```cpp
+static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Words::LowCode::Splitter::RemoveBlankPages(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [Splitter](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
 ## Splitter::RemoveBlankPages(const System::String\&, const System::String\&) method
 
 
@@ -80,6 +95,21 @@ List of page numbers has been considered as blank and removed.
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [Splitter](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Splitter::RemoveBlankPages(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
+
+
+
+
+```cpp
+static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Words::LowCode::Splitter::RemoveBlankPages(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
