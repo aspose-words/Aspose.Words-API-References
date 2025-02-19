@@ -21,7 +21,6 @@ class Person : public System::Object
 | Method | Description |
 | --- | --- |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override |  |
-| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Bibliography::Person\>\&) |  |
 | [get_First](./get_first/)() const | Gets the first name of a person. |
 | [get_Last](./get_last/)() const | Gets the last name of a person. |
 | [get_Middle](./get_middle/)() const | Gets the middle name of a person. |

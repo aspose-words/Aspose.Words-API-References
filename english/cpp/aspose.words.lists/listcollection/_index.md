@@ -23,6 +23,7 @@ class ListCollection : public System::Collections::Generic::IEnumerable<System::
 | [Add](./add/)(Aspose::Words::Lists::ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
 | [Add](./add/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 | [AddCopy](./addcopy/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
+| [AddSingleLevelList](./addsinglelevellist/)(Aspose::Words::Lists::ListTemplate) |  |
 | [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |

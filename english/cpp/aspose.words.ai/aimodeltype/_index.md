@@ -27,6 +27,11 @@ enum class AiModelType
 | Gemini15Flash | 4 | Gemini 1.5 Flash generative model type. |
 | Gemini15Flash8B | 5 | Gemini 1.5 Flash-8B generative model type. |
 | Gemini15Pro | 6 | Gemini 1.5 Pro generative model type. |
+| Claude35Sonnet | 7 |  |
+| Claude35Haiku | 8 |  |
+| Claude3Opus | 9 |  |
+| Claude3Sonnet | 10 |  |
+| Claude3Haiku | 11 |  |
 
 ## See Also
 
