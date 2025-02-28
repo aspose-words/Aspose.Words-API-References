@@ -3,7 +3,7 @@ title: ListType Enum
 linktitle: ListType
 articleTitle: ListType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Lists.ListType enum. Specifies the list type.
+description: Aspose.Words.Lists.ListType Enum – Define and control list formatting in documents. Supports bullets, numbering, and outline lists for structured content.
 type: docs
 weight: 3980
 url: /net/aspose.words.lists/listtype/
