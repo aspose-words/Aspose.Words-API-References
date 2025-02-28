@@ -3,7 +3,7 @@ title: EditableRange.EditorGroup
 linktitle: EditorGroup
 articleTitle: EditorGroup
 second_title: Aspose.Words for .NET
-description: EditableRange EditorGroup property. Returns or sets an alias or editing group which shall be used to determine if the current user shall be allowed to edit this editable range in C#.
+description: Manage user permissions effortlessly with the EditableRange EditorGroup property, allowing control over editing access for enhanced collaboration.
 type: docs
 weight: 30
 url: /net/aspose.words/editablerange/editorgroup/

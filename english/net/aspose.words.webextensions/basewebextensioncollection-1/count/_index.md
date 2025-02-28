@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: BaseWebExtensionCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the BaseWebExtensionCollection Count property to easily retrieve the total number of elements, enhancing your web development efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/count/

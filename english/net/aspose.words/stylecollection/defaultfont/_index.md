@@ -3,7 +3,7 @@ title: StyleCollection.DefaultFont
 linktitle: DefaultFont
 articleTitle: DefaultFont
 second_title: Aspose.Words for .NET
-description: StyleCollection DefaultFont property. Gets document default text formatting in C#.
+description: Discover the StyleCollection DefaultFont property for seamless document text formatting. Enhance your documents with consistent, professional style.
 type: docs
 weight: 20
 url: /net/aspose.words/stylecollection/defaultfont/

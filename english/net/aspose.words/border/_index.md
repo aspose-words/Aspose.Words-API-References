@@ -3,7 +3,7 @@ title: Border Class
 linktitle: Border
 articleTitle: Border
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Border class. Represents a border of an object in C#.
+description: Discover the Aspose.Words.Border class, your go-to solution for customizing object borders in documents. Enhance your projects with precision and style!
 type: docs
 weight: 270
 url: /net/aspose.words/border/

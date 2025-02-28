@@ -3,7 +3,7 @@ title: DocumentBuilder.EndBookmark
 linktitle: EndBookmark
 articleTitle: EndBookmark
 second_title: Aspose.Words for .NET
-description: DocumentBuilder EndBookmark method. Marks the current position in the document as a bookmark end in C#.
+description: Effortlessly mark the end of a bookmark in your document with DocumentBuilder's EndBookmark method, enhancing your document organization and navigation.
 type: docs
 weight: 210
 url: /net/aspose.words/documentbuilder/endbookmark/

@@ -3,7 +3,7 @@ title: GeneralFormatCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words for .NET
-description: GeneralFormatCollection RemoveAt method. Removes a general format occurrence at the specified index in C#.
+description: Effortlessly remove a specific occurrence from GeneralFormatCollection using the RemoveAt method. Streamline your data management today!
 type: docs
 weight: 60
 url: /net/aspose.words.fields/generalformatcollection/removeat/

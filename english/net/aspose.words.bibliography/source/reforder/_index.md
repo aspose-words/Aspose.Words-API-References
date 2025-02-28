@@ -3,7 +3,7 @@ title: Source.RefOrder
 linktitle: RefOrder
 articleTitle: RefOrder
 second_title: Aspose.Words for .NET
-description: Source RefOrder property. Gets or sets the reference order of a source in C#.
+description: Manage your source reference order effortlessly with RefOrder. Optimize your data organization for improved efficiency and clarity.
 type: docs
 weight: 380
 url: /net/aspose.words.bibliography/source/reforder/

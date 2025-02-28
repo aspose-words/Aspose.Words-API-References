@@ -3,7 +3,7 @@ title: ListLevel.NumberPosition
 linktitle: NumberPosition
 articleTitle: NumberPosition
 second_title: Aspose.Words for .NET
-description: ListLevel NumberPosition property. Returns or sets the position in points of the number or bullet for the list level in C#.
+description: Discover the ListLevel NumberPosition property to easily adjust bullet or number positioning in points for enhanced list formatting and clarity.
 type: docs
 weight: 80
 url: /net/aspose.words.lists/listlevel/numberposition/

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHorizontalRule
 linktitle: InsertHorizontalRule
 articleTitle: InsertHorizontalRule
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertHorizontalRule method. Inserts a horizontal rule shape into the document in C#.
+description: Enhance your documents with the DocumentBuilder InsertHorizontalRule method, effortlessly adding stylish horizontal lines for better organization and visual appeal.
 type: docs
 weight: 370
 url: /net/aspose.words/documentbuilder/inserthorizontalrule/

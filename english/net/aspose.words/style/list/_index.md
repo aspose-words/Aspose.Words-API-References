@@ -3,7 +3,7 @@ title: Style.List
 linktitle: List
 articleTitle: List
 second_title: Aspose.Words for .NET
-description: Style List property. Gets the list that defines formatting of this list style in C#.
+description: Discover how to style your lists effectively! Learn to define unique formatting for list styles to enhance your content's visual appeal.
 type: docs
 weight: 100
 url: /net/aspose.words/style/list/

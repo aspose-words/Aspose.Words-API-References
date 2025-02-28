@@ -3,7 +3,7 @@ title: BookmarkStart.Bookmark
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words for .NET
-description: BookmarkStart Bookmark property. Gets the facade object that encapsulates this bookmark start and end in C#.
+description: Discover BookmarkStart's unique property to access the facade object, simplifying your bookmark management with seamless start and end encapsulation.
 type: docs
 weight: 20
 url: /net/aspose.words/bookmarkstart/bookmark/

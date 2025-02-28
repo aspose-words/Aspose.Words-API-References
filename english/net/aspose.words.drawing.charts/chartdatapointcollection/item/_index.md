@@ -3,7 +3,7 @@ title: ChartDataPointCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: ChartDataPointCollection Item property. Returns ChartDataPoint for the specified index in C#.
+description: Access ChartDataPoint for any index with the ChartDataPointCollection Item property. Enhance your data visualization with ease and precision!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/item/

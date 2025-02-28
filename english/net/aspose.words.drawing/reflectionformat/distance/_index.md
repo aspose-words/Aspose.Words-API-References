@@ -3,7 +3,7 @@ title: ReflectionFormat.Distance
 linktitle: Distance
 articleTitle: Distance
 second_title: Aspose.Words for .NET
-description: ReflectionFormat Distance property. Gets or sets a double value that specifies the amount of separation of the reflected image from the object in points. The default value is 0.0 in C#.
+description: Discover the ReflectionFormat Distance property: easily adjust the separation of your reflected image in points for stunning visual effects. Default is 0.0.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/reflectionformat/distance/

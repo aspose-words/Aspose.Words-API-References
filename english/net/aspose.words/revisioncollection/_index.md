@@ -3,9 +3,9 @@ title: RevisionCollection Class
 linktitle: RevisionCollection
 articleTitle: RevisionCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.RevisionCollection class. A collection of Revision objects that represent revisions in the document in C#.
+description: Discover the Aspose.Words.RevisionCollection class—efficiently manage document revisions with a powerful collection of Revision objects for seamless editing.
 type: docs
-weight: 5370
+weight: 5380
 url: /net/aspose.words/revisioncollection/
 ---
 ## RevisionCollection class

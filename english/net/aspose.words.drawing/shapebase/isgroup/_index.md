@@ -3,7 +3,7 @@ title: ShapeBase.IsGroup
 linktitle: IsGroup
 articleTitle: IsGroup
 second_title: Aspose.Words for .NET
-description: ShapeBase IsGroup property. Returns true if this is a group shape in C#.
+description: Discover ShapeBase IsGroup: Easily identify if a shape is a group. Enhance your design workflow with this essential property for better organization.
 type: docs
 weight: 280
 url: /net/aspose.words.drawing/shapebase/isgroup/

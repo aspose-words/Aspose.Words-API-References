@@ -3,7 +3,7 @@ title: IFieldResultFormatter Interface
 linktitle: IFieldResultFormatter
 articleTitle: IFieldResultFormatter
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IFieldResultFormatter interface. Implement this interface if you want to control how the field result is formatted in C#.
+description: Discover the Aspose.Words.Fields.IFieldResultFormatter interface to customize and enhance field result formatting for your documents effortlessly.
 type: docs
 weight: 3100
 url: /net/aspose.words.fields/ifieldresultformatter/

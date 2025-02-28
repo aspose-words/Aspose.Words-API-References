@@ -3,7 +3,7 @@ title: PrinterSettingsContainer.PaperSources
 linktitle: PaperSources
 articleTitle: PaperSources
 second_title: Aspose.Words for .NET
-description: PrinterSettingsContainer PaperSources property. See PaperSources in C#.
+description: Discover the PrinterSettingsContainer's PaperSources property for seamless printing. Optimize your print settings for better results and efficiency!
 type: docs
 weight: 40
 url: /net/aspose.words.rendering/printersettingscontainer/papersources/

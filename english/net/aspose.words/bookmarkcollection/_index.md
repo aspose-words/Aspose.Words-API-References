@@ -3,7 +3,7 @@ title: BookmarkCollection Class
 linktitle: BookmarkCollection
 articleTitle: BookmarkCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.BookmarkCollection class. A collection of Bookmark objects that represent the bookmarks in the specified range in C#.
+description: Discover the Aspose.Words.BookmarkCollection class, a powerful tool for managing bookmarks in your documents, enhancing organization and navigation.
 type: docs
 weight: 240
 url: /net/aspose.words/bookmarkcollection/

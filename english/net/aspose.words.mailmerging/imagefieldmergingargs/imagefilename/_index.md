@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.ImageFileName
 linktitle: ImageFileName
 articleTitle: ImageFileName
 second_title: Aspose.Words for .NET
-description: ImageFieldMergingArgs ImageFileName property. Sets the file name of the image that the mail merge engine must insert into the document in C#.
+description: Set the ImageFileName in ImageFieldMergingArgs to effortlessly insert images into your documents during mail merges. Enhance your workflow today!
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/

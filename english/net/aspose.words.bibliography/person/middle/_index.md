@@ -3,7 +3,7 @@ title: Person.Middle
 linktitle: Middle
 articleTitle: Middle
 second_title: Aspose.Words for .NET
-description: Person Middle property. Gets or sets the middle name of a person in C#.
+description: Discover how to easily manage a person's middle name with our user-friendly property. Simplify data handling and enhance your applications today!
 type: docs
 weight: 40
 url: /net/aspose.words.bibliography/person/middle/

@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Placeholder
 linktitle: Placeholder
 articleTitle: Placeholder
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Placeholder property. Gets the BuildingBlock containing placeholder text which should be displayed when this structured document tag run contents are empty the associated mapped XML element is empty as specified via the XmlMapping element or the IsShowingPlaceholderText element is true in C#.
+description: Discover the StructuredDocumentTagRangeStart Placeholder property, which displays essential placeholder text for empty content, enhancing your document's clarity and usability.
 type: docs
 weight: 110
 url: /net/aspose.words.markup/structureddocumenttagrangestart/placeholder/

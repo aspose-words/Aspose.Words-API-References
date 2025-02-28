@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFootnoteStart
 linktitle: VisitFootnoteStart
 articleTitle: VisitFootnoteStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitFootnoteStart method. Called when enumeration of a footnote or endnote text has started in C#.
+description: Discover the DocumentVisitor VisitFootnoteStart method, essential for managing footnotes and endnotes efficiently in your document processing.
 type: docs
 weight: 220
 url: /net/aspose.words/documentvisitor/visitfootnotestart/

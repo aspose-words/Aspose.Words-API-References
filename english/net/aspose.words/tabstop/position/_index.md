@@ -3,7 +3,7 @@ title: TabStop.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words for .NET
-description: TabStop Position property. Gets the position of the tab stop in points in C#.
+description: Discover the TabStop Position property to easily find tab stop locations in points, enhancing your layout precision and design efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words/tabstop/position/

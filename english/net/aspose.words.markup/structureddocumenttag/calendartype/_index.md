@@ -3,7 +3,7 @@ title: StructuredDocumentTag.CalendarType
 linktitle: CalendarType
 articleTitle: CalendarType
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag CalendarType property. Specifies the type of calendar for this SDT. Default is Default in C#.
+description: Discover the StructuredDocumentTag CalendarType property to customize your SDT calendar type. Enhance your documents with tailored calendar options!
 type: docs
 weight: 50
 url: /net/aspose.words.markup/structureddocumenttag/calendartype/

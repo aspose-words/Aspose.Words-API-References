@@ -3,7 +3,7 @@ title: ImageSaveOptions.PaperColor
 linktitle: PaperColor
 articleTitle: PaperColor
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions PaperColor property. Gets or sets the background paper color for the generated images in C#.
+description: Discover the ImageSaveOptions PaperColor property to easily customize background colors for your generated images, enhancing visual appeal and uniqueness.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/imagesaveoptions/papercolor/

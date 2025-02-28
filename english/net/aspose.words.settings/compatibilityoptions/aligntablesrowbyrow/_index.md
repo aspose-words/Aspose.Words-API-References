@@ -3,7 +3,7 @@ title: CompatibilityOptions.AlignTablesRowByRow
 linktitle: AlignTablesRowByRow
 articleTitle: AlignTablesRowByRow
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions AlignTablesRowByRow property. Align Table Rows Independently in C#.
+description: Discover the AlignTablesRowByRow property for CompatibilityOptions. Independently align table rows for enhanced layout control and improved design flexibility.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/

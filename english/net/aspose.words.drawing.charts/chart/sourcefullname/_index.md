@@ -3,7 +3,7 @@ title: Chart.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words for .NET
-description: Chart SourceFullName property. Gets the path and name of an xls/xlsx file this chart is linked to in C#.
+description: Discover the Chart SourceFullName property to easily access the path and name of linked XLS/XLSX files for enhanced data visualization.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing.charts/chart/sourcefullname/

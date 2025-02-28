@@ -3,7 +3,7 @@ title: DocumentBuilder.EndTable
 linktitle: EndTable
 articleTitle: EndTable
 second_title: Aspose.Words for .NET
-description: DocumentBuilder EndTable method. Ends a table in the document in C#.
+description: Effortlessly conclude your document tables with DocumentBuilder's EndTable method, ensuring seamless formatting and professional presentation.
 type: docs
 weight: 250
 url: /net/aspose.words/documentbuilder/endtable/

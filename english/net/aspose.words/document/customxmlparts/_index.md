@@ -3,7 +3,7 @@ title: Document.CustomXmlParts
 linktitle: CustomXmlParts
 articleTitle: CustomXmlParts
 second_title: Aspose.Words for .NET
-description: Document CustomXmlParts property. Gets or sets the collection of Custom XML Data Storage Parts in C#.
+description: Explore the Document CustomXmlParts property to manage Custom XML Data Storage Parts efficiently. Enhance your document's functionality today!
 type: docs
 weight: 90
 url: /net/aspose.words/document/customxmlparts/

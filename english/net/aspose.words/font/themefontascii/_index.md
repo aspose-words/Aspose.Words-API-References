@@ -3,7 +3,7 @@ title: Font.ThemeFontAscii
 linktitle: ThemeFontAscii
 articleTitle: ThemeFontAscii
 second_title: Aspose.Words for .NET
-description: Font ThemeFontAscii property. Gets or sets the theme font used for Latin text characters with character codes from 0 zero through 127 in the applied font scheme that is associated with this Font object in C#.
+description: Discover the Font ThemeFontAscii property to easily customize theme fonts for Latin text (codes 0-127) in your design, enhancing visual appeal.
 type: docs
 weight: 490
 url: /net/aspose.words/font/themefontascii/

@@ -3,7 +3,7 @@ title: PdfLoadOptions.SkipPdfImages
 linktitle: SkipPdfImages
 articleTitle: SkipPdfImages
 second_title: Aspose.Words for .NET
-description: PdfLoadOptions SkipPdfImages property. Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is false in C#.
+description: Discover PdfLoadOptions' SkipPdfImages property to control image loading in PDFs. Enhance performance by skipping images for faster document processing.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/pdfloadoptions/skippdfimages/

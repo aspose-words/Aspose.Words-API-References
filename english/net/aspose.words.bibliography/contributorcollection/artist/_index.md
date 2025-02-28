@@ -3,7 +3,7 @@ title: ContributorCollection.Artist
 linktitle: Artist
 articleTitle: Artist
 second_title: Aspose.Words for .NET
-description: ContributorCollection Artist property. Gets or sets the artist of a source in C#.
+description: Discover the ContributorCollection Artist property to easily manage and customize source artists for enhanced organization and creativity in your projects.
 type: docs
 weight: 10
 url: /net/aspose.words.bibliography/contributorcollection/artist/

@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart
 linktitle: StructuredDocumentTagRangeStart
 articleTitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart constructor. Initializes a new instance of the Structured document tag range start class in C#.
+description: Create a new StructuredDocumentTagRangeStart instance effortlessly. Enhance your document management with this powerful constructor for structured tags.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/

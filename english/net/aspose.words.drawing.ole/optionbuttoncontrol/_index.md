@@ -3,7 +3,7 @@ title: OptionButtonControl Class
 linktitle: OptionButtonControl
 articleTitle: OptionButtonControl
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Ole.OptionButtonControl class. The OptionButton control enables a single choice in a limited set of mutually exclusive choices in C#.
+description: Discover the Aspose.Words.Drawing.Ole.OptionButtonControl class, perfect for creating exclusive choice options in your applications. Enhance user experience today!
 type: docs
 weight: 1500
 url: /net/aspose.words.drawing.ole/optionbuttoncontrol/

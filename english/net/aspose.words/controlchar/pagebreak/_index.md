@@ -3,7 +3,7 @@ title: ControlChar.PageBreak
 linktitle: PageBreak
 articleTitle: PageBreak
 second_title: Aspose.Words for .NET
-description: ControlChar PageBreak field. Page break character x000c or f. Note it has the same value as SectionBreak in C#.
+description: Discover the ControlChar PageBreak field: manage page breaks efficiently with the x000c character. Simplify your document formatting today!
 type: docs
 weight: 200
 url: /net/aspose.words/controlchar/pagebreak/

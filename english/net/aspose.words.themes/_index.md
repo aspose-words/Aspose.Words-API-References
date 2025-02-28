@@ -3,7 +3,7 @@ title: Aspose.Words.Themes
 linktitle: Aspose.Words.Themes
 articleTitle: Aspose.Words.Themes
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Themes namespace provides classes that allow to access theme information in Microsoft Word documents in C#.
+description: Access and manage Microsoft Word document themes effortlessly with Aspose.Words.Themes. Enhance your documents with vibrant, customizable styles today!
 type: docs
 weight: 290
 url: /net/aspose.words.themes/

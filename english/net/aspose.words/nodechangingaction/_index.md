@@ -3,9 +3,9 @@ title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
 second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeChangingAction enum. Specifies the type of node change in C#.
+description: Discover the Aspose.Words.NodeChangingAction enum to efficiently manage node changes in your documents. Enhance your document processing capabilities today!
 type: docs
-weight: 4730
+weight: 4740
 url: /net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration

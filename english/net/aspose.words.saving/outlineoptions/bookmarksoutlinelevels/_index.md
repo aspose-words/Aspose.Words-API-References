@@ -3,7 +3,7 @@ title: OutlineOptions.BookmarksOutlineLevels
 linktitle: BookmarksOutlineLevels
 articleTitle: BookmarksOutlineLevels
 second_title: Aspose.Words for .NET
-description: OutlineOptions BookmarksOutlineLevels property. Allows to specify individual bookmarks outline level in C#.
+description: Discover the BookmarksOutlineLevels property in OutlineOptions to customize your bookmarks' hierarchy for enhanced navigation and user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/

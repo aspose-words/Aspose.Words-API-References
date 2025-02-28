@@ -3,7 +3,7 @@ title: TableStyle.ColumnStripe
 linktitle: ColumnStripe
 articleTitle: ColumnStripe
 second_title: Aspose.Words for .NET
-description: TableStyle ColumnStripe property. Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding in C#.
+description: Discover the TableStyle ColumnStripe property to easily customize odd/even column banding for a polished, professional look in your tables.
 type: docs
 weight: 70
 url: /net/aspose.words/tablestyle/columnstripe/

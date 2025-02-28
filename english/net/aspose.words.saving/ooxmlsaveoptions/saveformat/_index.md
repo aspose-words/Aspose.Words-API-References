@@ -3,7 +3,7 @@ title: OoxmlSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
-description: OoxmlSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can be Docx Docm Dotx Dotm or FlatOpc in C#.
+description: Discover OoxmlSaveOptions' SaveFormat property to easily choose document formats like Docx, Docm, Dotx, Dotm, or FlatOpc for seamless saving.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/ooxmlsaveoptions/saveformat/

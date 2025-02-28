@@ -3,7 +3,7 @@ title: ControlChar.LineFeed
 linktitle: LineFeed
 articleTitle: LineFeed
 second_title: Aspose.Words for .NET
-description: ControlChar LineFeed field. Line feed character x000a or n. Same as Lf in C#.
+description: Discover the ControlChar LineFeed field: understand the line feed character (x000a) for seamless text formatting and improved data handling.
 type: docs
 weight: 140
 url: /net/aspose.words/controlchar/linefeed/

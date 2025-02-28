@@ -3,7 +3,7 @@ title: ICssSavingCallback.CssSaving
 linktitle: CssSaving
 articleTitle: CssSaving
 second_title: Aspose.Words for .NET
-description: ICssSavingCallback CssSaving method. Called when Aspose.Words saves an CSS Cascading Style Sheet in C#.
+description: Discover the ICssSavingCallback CssSaving method in Aspose.Words, enhancing your CSS management for better web design efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/icsssavingcallback/csssaving/

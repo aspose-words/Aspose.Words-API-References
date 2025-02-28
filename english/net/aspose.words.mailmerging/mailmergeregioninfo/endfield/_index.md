@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.EndField
 linktitle: EndField
 articleTitle: EndField
 second_title: Aspose.Words for .NET
-description: MailMergeRegionInfo EndField property. Returns an end field for the region in C#.
+description: Discover the MailMergeRegionInfo EndField property, which efficiently returns the end field for your data regions, enhancing your document automation.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/endfield/

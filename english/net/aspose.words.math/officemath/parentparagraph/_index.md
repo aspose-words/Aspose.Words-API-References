@@ -3,7 +3,7 @@ title: OfficeMath.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words for .NET
-description: OfficeMath ParentParagraph property. Retrieves the parent Paragraph of this node in C#.
+description: Discover the OfficeMath ParentParagraph property to easily access the parent Paragraph of any node, enhancing your document formatting and structure.
 type: docs
 weight: 50
 url: /net/aspose.words.math/officemath/parentparagraph/

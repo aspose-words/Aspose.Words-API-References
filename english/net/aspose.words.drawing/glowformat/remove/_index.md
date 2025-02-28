@@ -3,7 +3,7 @@ title: GlowFormat.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words for .NET
-description: GlowFormat Remove method. Removes GlowFormat from the parent object in C#.
+description: Effortlessly remove GlowFormat from your parent object with our efficient GlowFormat Remove method. Enhance your design workflow today!
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/glowformat/remove/

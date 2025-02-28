@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportRoundtripInformation
 linktitle: ExportRoundtripInformation
 articleTitle: ExportRoundtripInformation
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportRoundtripInformation property. Specifies whether to write the roundtrip information when saving to HTML MHTML or EPUB. Default value is true for HTML and false for MHTML and EPUB in C#.
+description: Discover HtmlSaveOptions' ExportRoundtripInformation property to control roundtrip data in HTML, MHTML, and EPUB formats. Optimize your exports today!
 type: docs
 weight: 240
 url: /net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/

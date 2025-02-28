@@ -3,7 +3,7 @@ title: FieldPageRef Class
 linktitle: FieldPageRef
 articleTitle: FieldPageRef
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldPageRef class. Implements the PAGEREF field in C#.
+description: Discover the Aspose.Words.Fields.FieldPageRef class for seamless PAGEREF field implementation, enhancing document navigation and efficiency.
 type: docs
 weight: 2670
 url: /net/aspose.words.fields/fieldpageref/

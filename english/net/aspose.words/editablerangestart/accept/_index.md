@@ -3,7 +3,7 @@ title: EditableRangeStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: EditableRangeStart Accept method. Accepts a visitor in C#.
+description: Discover the EditableRangeStart Accept method to efficiently manage visitor interactions and enhance user experience on your site.
 type: docs
 weight: 40
 url: /net/aspose.words/editablerangestart/accept/

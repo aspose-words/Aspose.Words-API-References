@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepWithNext
 linktitle: KeepWithNext
 articleTitle: KeepWithNext
 second_title: Aspose.Words for .NET
-description: ParagraphFormat KeepWithNext property. True if the paragraph is to remains on the same page as the paragraph that follows it in C#.
+description: Discover how the ParagraphFormat KeepWithNext property ensures your paragraphs stay together, enhancing document flow and readability for a polished look.
 type: docs
 weight: 170
 url: /net/aspose.words/paragraphformat/keepwithnext/

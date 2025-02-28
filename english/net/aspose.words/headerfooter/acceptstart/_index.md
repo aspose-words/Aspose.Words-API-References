@@ -3,7 +3,7 @@ title: HeaderFooter.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: HeaderFooter AcceptStart method. Accepts a visitor for visiting the start of the header in C#.
+description: Discover the HeaderFooter AcceptStart method, designed to seamlessly welcome visitors at the header's start, enhancing user experience and engagement.
 type: docs
 weight: 90
 url: /net/aspose.words/headerfooter/acceptstart/

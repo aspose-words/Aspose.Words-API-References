@@ -3,7 +3,7 @@ title: LayoutCollector.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: LayoutCollector Document property. Gets or sets the document this collector instance is attached to in C#.
+description: Discover LayoutCollector's Document property to easily manage and customize document attachments for enhanced workflow efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.layout/layoutcollector/document/

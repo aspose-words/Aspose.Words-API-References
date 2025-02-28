@@ -3,7 +3,7 @@ title: OfficeMathRenderer
 linktitle: OfficeMathRenderer
 articleTitle: OfficeMathRenderer
 second_title: Aspose.Words for .NET
-description: OfficeMathRenderer constructor. Initializes a new instance of this class in C#.
+description: Create dynamic math displays effortlessly with the OfficeMathRenderer constructor. Enhance your documents with seamless mathematical rendering!
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/officemathrenderer/officemathrenderer/

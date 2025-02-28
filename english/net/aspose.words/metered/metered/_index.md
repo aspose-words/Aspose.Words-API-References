@@ -3,7 +3,7 @@ title: Metered
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words for .NET
-description: Metered constructor. Initializes a new instance of this class in C#.
+description: Discover our metered constructor for efficient instance initialization. Streamline your coding process with optimized performance and enhanced functionality.
 type: docs
 weight: 10
 url: /net/aspose.words/metered/metered/

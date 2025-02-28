@@ -3,7 +3,7 @@ title: ChartDataTable.HasHorizontalBorder
 linktitle: HasHorizontalBorder
 articleTitle: HasHorizontalBorder
 second_title: Aspose.Words for .NET
-description: ChartDataTable HasHorizontalBorder property. Gets or sets a flag indicating whether a horizontal border of the data table is displayed. The default value is true in C#.
+description: Discover the ChartDataTable HasHorizontalBorder property to easily customize your data table's appearance. Control horizontal borders for enhanced visual clarity!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatatable/hashorizontalborder/

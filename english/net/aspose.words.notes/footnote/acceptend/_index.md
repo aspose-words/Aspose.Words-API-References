@@ -3,7 +3,7 @@ title: Footnote.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: Footnote AcceptEnd method. Accepts a visitor for visiting the end of the footnote in C#.
+description: Discover the Footnote AcceptEnd method, designed to enhance user experience by seamlessly managing footnote visits. Improve navigation today!
 type: docs
 weight: 90
 url: /net/aspose.words.notes/footnote/acceptend/

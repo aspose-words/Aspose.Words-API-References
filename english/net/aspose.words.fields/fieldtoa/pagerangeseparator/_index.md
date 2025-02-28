@@ -3,7 +3,7 @@ title: FieldToa.PageRangeSeparator
 linktitle: PageRangeSeparator
 articleTitle: PageRangeSeparator
 second_title: Aspose.Words for .NET
-description: FieldToa PageRangeSeparator property. Gets or sets the character sequence that is used to separate the start and end of a page range in C#.
+description: Discover the PageRangeSeparator property of FieldToa. Easily customize the character sequence for seamless page range separation. Optimize your document management!
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldtoa/pagerangeseparator/

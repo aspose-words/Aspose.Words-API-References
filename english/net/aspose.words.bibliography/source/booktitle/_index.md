@@ -3,7 +3,7 @@ title: Source.BookTitle
 linktitle: BookTitle
 articleTitle: BookTitle
 second_title: Aspose.Words for .NET
-description: Source BookTitle property. Gets or sets the book title of a source in C#.
+description: Discover the BookTitle property to easily manage and customize your book titles. Enhance your source management with this essential feature!
 type: docs
 weight: 40
 url: /net/aspose.words.bibliography/source/booktitle/

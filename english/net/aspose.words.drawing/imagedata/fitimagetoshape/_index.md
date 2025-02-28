@@ -3,7 +3,7 @@ title: ImageData.FitImageToShape
 linktitle: FitImageToShape
 articleTitle: FitImageToShape
 second_title: Aspose.Words for .NET
-description: ImageData FitImageToShape method. Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame in C#.
+description: Optimize your images with the FitImageToShape method, ensuring perfect aspect ratio alignment within Shape frames for stunning visual presentations.
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/imagedata/fitimagetoshape/

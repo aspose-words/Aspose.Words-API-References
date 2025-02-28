@@ -3,7 +3,7 @@ title: CompatibilityOptions.DoNotVertAlignCellWithSp
 linktitle: DoNotVertAlignCellWithSp
 articleTitle: DoNotVertAlignCellWithSp
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions DoNotVertAlignCellWithSp property. Dont Vertically Align Cells Containing Floating Objects in C#.
+description: Discover the CompatibilityOptions DoNotVertAlignCellWithSp property to prevent vertical alignment of cells with floating objects for cleaner layouts.
 type: docs
 weight: 230
 url: /net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/

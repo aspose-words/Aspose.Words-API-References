@@ -3,7 +3,7 @@ title: Source.Distributor
 linktitle: Distributor
 articleTitle: Distributor
 second_title: Aspose.Words for .NET
-description: Source Distributor property. Gets or sets the distributor of a source in C#.
+description: Discover the Source Distributor property to easily manage and customize your source's distributor settings for optimal performance.
 type: docs
 weight: 180
 url: /net/aspose.words.bibliography/source/distributor/

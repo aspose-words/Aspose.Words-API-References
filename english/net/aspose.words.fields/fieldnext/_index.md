@@ -3,7 +3,7 @@ title: FieldNext Class
 linktitle: FieldNext
 articleTitle: FieldNext
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldNext class. Implements the NEXT field in C#.
+description: Discover the Aspose.Words.Fields.FieldNext class to efficiently manage NEXT fields in your documents. Enhance your document automation today!
 type: docs
 weight: 2580
 url: /net/aspose.words.fields/fieldnext/

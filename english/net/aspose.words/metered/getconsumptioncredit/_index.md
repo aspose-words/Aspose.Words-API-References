@@ -3,7 +3,7 @@ title: Metered.GetConsumptionCredit
 linktitle: GetConsumptionCredit
 articleTitle: GetConsumptionCredit
 second_title: Aspose.Words for .NET
-description: Metered GetConsumptionCredit method. Gets consumption credit in C#.
+description: Unlock savings with the Metered GetConsumptionCredit method—efficiently retrieve your consumption credits for smarter energy management.
 type: docs
 weight: 40
 url: /net/aspose.words/metered/getconsumptioncredit/

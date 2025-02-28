@@ -3,7 +3,7 @@ title: Source.Broadcaster
 linktitle: Broadcaster
 articleTitle: Broadcaster
 second_title: Aspose.Words for .NET
-description: Source Broadcaster property. Gets or sets the broadcaster of a source in C#.
+description: Discover the Source Broadcaster property: easily manage your source's broadcaster for enhanced streaming control and performance. Optimize your media experience!
 type: docs
 weight: 50
 url: /net/aspose.words.bibliography/source/broadcaster/

@@ -3,7 +3,7 @@ title: NodeImporter
 linktitle: NodeImporter
 articleTitle: NodeImporter
 second_title: Aspose.Words for .NET
-description: NodeImporter constructor. Initializes a new instance of the NodeImporter class in C#.
+description: Discover the NodeImporter constructor: effortlessly create new NodeImporter instances to streamline your data management and enhance project efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words/nodeimporter/nodeimporter/

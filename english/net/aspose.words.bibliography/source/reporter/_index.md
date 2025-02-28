@@ -3,7 +3,7 @@ title: Source.Reporter
 linktitle: Reporter
 articleTitle: Reporter
 second_title: Aspose.Words for .NET
-description: Source Reporter property. Gets or sets the reporter of a source in C#.
+description: Manage your Source Reporter property effortlessly. Easily get or set the reporter for any source and enhance your data management efficiency.
 type: docs
 weight: 390
 url: /net/aspose.words.bibliography/source/reporter/

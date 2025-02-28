@@ -3,7 +3,7 @@ title: IBibliographyStylesProvider.GetStyle
 linktitle: GetStyle
 articleTitle: GetStyle
 second_title: Aspose.Words for .NET
-description: IBibliographyStylesProvider GetStyle method. Returns bibliography style in C#.
+description: Discover the IBibliographyStylesProvider GetStyle method to effortlessly retrieve and customize your bibliography styles for enhanced academic writing.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/ibibliographystylesprovider/getstyle/

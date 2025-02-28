@@ -3,7 +3,7 @@ title: CompatibilityOptions.DoNotExpandShiftReturn
 linktitle: DoNotExpandShiftReturn
 articleTitle: DoNotExpandShiftReturn
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions DoNotExpandShiftReturn property. Dont Justify Lines Ending in Soft Line Break in C#.
+description: Discover the CompatibilityOptions DoNotExpandShiftReturn property to prevent unwanted line justification. Optimize your text formatting effortlessly!
 type: docs
 weight: 150
 url: /net/aspose.words.settings/compatibilityoptions/donotexpandshiftreturn/

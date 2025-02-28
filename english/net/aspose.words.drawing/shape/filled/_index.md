@@ -3,7 +3,7 @@ title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
 second_title: Aspose.Words for .NET
-description: Shape Filled property. Determines whether the closed path of the shape will be filled in C#.
+description: Control shape aesthetics with the Shape Filled property, deciding if your closed paths are filled for enhanced design flexibility and visual appeal.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/shape/filled/

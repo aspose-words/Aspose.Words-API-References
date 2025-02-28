@@ -3,7 +3,7 @@ title: Table.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words for .NET
-description: Table Bidi property. Gets or sets whether this is a righttoleft table in C#.
+description: Discover Table Bidi properties for seamless right-to-left table formatting. Enhance your web design with easy customization options!
 type: docs
 weight: 80
 url: /net/aspose.words.tables/table/bidi/

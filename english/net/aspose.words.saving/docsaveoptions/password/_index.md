@@ -3,7 +3,7 @@ title: DocSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words for .NET
-description: DocSaveOptions Password property. Gets/sets a password to encrypt document using RC4 encryption method in C#.
+description: Secure your documents with DocSaveOptions! Easily set or retrieve a password for RC4 encryption to protect your sensitive information.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/docsaveoptions/password/

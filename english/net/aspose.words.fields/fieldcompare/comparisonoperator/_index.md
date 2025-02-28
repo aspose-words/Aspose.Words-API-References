@@ -3,7 +3,7 @@ title: FieldCompare.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words for .NET
-description: FieldCompare ComparisonOperator property. Gets or sets the comparison operator in C#.
+description: Discover the FieldCompare ComparisonOperator property—easily manage your comparison operators for enhanced data analysis and efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcompare/comparisonoperator/

@@ -3,7 +3,7 @@ title: TextColumnCollection.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words for .NET
-description: TextColumnCollection Spacing property. When columns are evenly spaced gets or sets the amount of space between each column in points in C#.
+description: Discover the TextColumnCollection Spacing property: effortlessly manage column spacing in points for a polished, professional layout. Enhance your design today!
 type: docs
 weight: 50
 url: /net/aspose.words/textcolumncollection/spacing/

@@ -3,7 +3,7 @@ title: DigitalSignature.SignatureType
 linktitle: SignatureType
 articleTitle: SignatureType
 second_title: Aspose.Words for .NET
-description: DigitalSignature SignatureType property. Gets the type of the digital signature in C#.
+description: Discover the DigitalSignature SignatureType property to easily identify your digital signature type and enhance your document security today!
 type: docs
 weight: 50
 url: /net/aspose.words.digitalsignatures/digitalsignature/signaturetype/

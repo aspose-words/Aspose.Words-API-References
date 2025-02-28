@@ -3,7 +3,7 @@ title: DigitalSignatureDetails.CertificateHolder
 linktitle: CertificateHolder
 articleTitle: CertificateHolder
 second_title: Aspose.Words for .NET
-description: DigitalSignatureDetails CertificateHolder property. Gets or sets a CertificateHolder object that contains the certificate used to sign a document in C#.
+description: Discover the DigitalSignatureDetails CertificateHolder property to manage your document's signing certificate effortlessly. Enhance security and streamline processes!
 type: docs
 weight: 20
 url: /net/aspose.words.saving/digitalsignaturedetails/certificateholder/

@@ -3,7 +3,7 @@ title: CompatibilityOptions.UICompat97To2003
 linktitle: UICompat97To2003
 articleTitle: UICompat97To2003
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions UICompat97To2003 property. True to disable UI functionality which is not compatible with Word972003. Default value is false in C#.
+description: Optimize your UI with the CompatibilityOptions UICompat97To2003 setting. Disable non-compatible features for seamless Word 97-2003 use. Enhance performance today!
 type: docs
 weight: 570
 url: /net/aspose.words.settings/compatibilityoptions/uicompat97to2003/

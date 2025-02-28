@@ -3,7 +3,7 @@ title: TextBoxControl.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: TextBoxControl Text property. Gets or sets a text of the control in C#.
+description: Manage the TextBoxControl's text easily—get or set its content for seamless user interaction and enhanced functionality in your application.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/textboxcontrol/text/

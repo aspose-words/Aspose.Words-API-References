@@ -3,7 +3,7 @@ title: LayoutEnumerator.MoveParent
 linktitle: MoveParent
 articleTitle: MoveParent
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator MoveParent method. Moves to the parent entity in C#.
+description: Discover the LayoutEnumerator MoveParent method to effortlessly navigate to parent entities, enhancing your data management efficiency.
 type: docs
 weight: 140
 url: /net/aspose.words.layout/layoutenumerator/moveparent/

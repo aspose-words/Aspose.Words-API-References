@@ -3,7 +3,7 @@ title: SplitOptions
 linktitle: SplitOptions
 articleTitle: SplitOptions
 second_title: Aspose.Words for .NET
-description: SplitOptions constructor. The default constructor in C#.
+description: Discover the SplitOptions constructor: the default option for seamless integration and enhanced performance in your applications. Optimize your coding today!
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/splitoptions/splitoptions/

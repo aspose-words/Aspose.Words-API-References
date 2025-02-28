@@ -3,9 +3,9 @@ title: NumeralFormat Enum
 linktitle: NumeralFormat
 articleTitle: NumeralFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.NumeralFormat enum. Indicates the symbol set that is used to represent numbers while rendering to fixed page formats in C#.
+description: Discover Aspose.Words.Saving.NumeralFormat enum for optimal number representation in fixed page formats. Enhance your document rendering today!
 type: docs
-weight: 5940
+weight: 5950
 url: /net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration

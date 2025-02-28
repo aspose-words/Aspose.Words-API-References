@@ -3,7 +3,7 @@ title: Font.Subscript
 linktitle: Subscript
 articleTitle: Subscript
 second_title: Aspose.Words for .NET
-description: Font Subscript property. True if the font is formatted as subscript in C#.
+description: Discover the Font Subscript property: Easily format text as subscript for enhanced readability and style in your documents. Boost your design today!
 type: docs
 weight: 440
 url: /net/aspose.words/font/subscript/

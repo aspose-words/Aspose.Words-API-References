@@ -3,7 +3,7 @@ title: Fill.Opacity
 linktitle: Opacity
 articleTitle: Opacity
 second_title: Aspose.Words for .NET
-description: Fill Opacity property. Gets or sets the degree of opacity of the specified fill as a value between 0.0 clear and 1.0 opaque in C#.
+description: Control your design's transparency with the Fill Opacity property, adjusting clarity from fully clear to completely opaque for stunning visuals.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/fill/opacity/

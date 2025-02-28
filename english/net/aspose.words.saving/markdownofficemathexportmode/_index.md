@@ -3,9 +3,9 @@ title: MarkdownOfficeMathExportMode Enum
 linktitle: MarkdownOfficeMathExportMode
 articleTitle: MarkdownOfficeMathExportMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.MarkdownOfficeMathExportMode enum. Specifies how Aspose.Words exports OfficeMath to Markdown in C#.
+description: Discover how Aspose.Words.Saving.MarkdownOfficeMathExportMode enhances OfficeMath export to Markdown, ensuring accurate and efficient document conversion.
 type: docs
-weight: 5900
+weight: 5910
 url: /net/aspose.words.saving/markdownofficemathexportmode/
 ---
 ## MarkdownOfficeMathExportMode enumeration

@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.RemoveAllChildren
 linktitle: RemoveAllChildren
 articleTitle: RemoveAllChildren
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart RemoveAllChildren method. Removes all the nodes between this range start node and the range end node in C#.
+description: Efficiently use the RemoveAllChildren method to clear nodes between StructuredDocumentTagRangeStart and end, enhancing document management.
 type: docs
 weight: 240
 url: /net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/

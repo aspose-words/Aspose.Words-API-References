@@ -3,7 +3,7 @@ title: OdtSaveOptions
 linktitle: OdtSaveOptions
 articleTitle: OdtSaveOptions
 second_title: Aspose.Words for .NET
-description: OdtSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Odt format in C#.
+description: Discover the OdtSaveOptions constructor to effortlessly save documents in ODT format. Streamline your workflow with this powerful tool!
 type: docs
 weight: 10
 url: /net/aspose.words.saving/odtsaveoptions/odtsaveoptions/

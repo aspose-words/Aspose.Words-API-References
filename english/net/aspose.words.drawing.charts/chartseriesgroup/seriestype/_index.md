@@ -3,7 +3,7 @@ title: ChartSeriesGroup.SeriesType
 linktitle: SeriesType
 articleTitle: SeriesType
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroup SeriesType property. Gets the type of chart series included in this group in C#.
+description: Discover the ChartSeriesGroup SeriesType property to easily identify chart series types in your data visualizations for enhanced analysis and insights.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartseriesgroup/seriestype/

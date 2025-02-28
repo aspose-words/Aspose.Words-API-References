@@ -3,7 +3,7 @@ title: SignatureLineOptions.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words for .NET
-description: SignatureLineOptions AllowComments property. Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is false in C#.
+description: Enable signer comments in the Sign dialog with the SignatureLineOptions AllowComments property. Enhance collaboration and feedback effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words/signaturelineoptions/allowcomments/

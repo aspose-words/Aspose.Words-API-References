@@ -3,7 +3,7 @@ title: PersonCollection
 linktitle: PersonCollection
 articleTitle: PersonCollection
 second_title: Aspose.Words for .NET
-description: PersonCollection constructor. Initialize a new instance of the PersonCollection class in C#.
+description: Create and manage a dynamic collection of individuals with the PersonCollection class. Simplify your data handling and enhance your applications today!
 type: docs
 weight: 10
 url: /net/aspose.words.bibliography/personcollection/personcollection/

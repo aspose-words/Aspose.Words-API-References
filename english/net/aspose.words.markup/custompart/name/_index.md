@@ -3,7 +3,7 @@ title: CustomPart.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: CustomPart Name property. Gets or sets this parts absolute name within the OOXML package or the target URL in C#.
+description: Discover how to manage CustomPart names in OOXML packages. Easily set or retrieve absolute names for seamless integration and enhanced functionality.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/custompart/name/

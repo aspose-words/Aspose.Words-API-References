@@ -3,7 +3,7 @@ title: Table
 linktitle: Table
 articleTitle: Table
 second_title: Aspose.Words for .NET
-description: Table constructor. Initializes a new instance of the Table class in C#.
+description: Create custom tables effortlessly with our intuitive Table Constructor. Build, customize, and optimize your data display in minutes!
 type: docs
 weight: 10
 url: /net/aspose.words.tables/table/table/

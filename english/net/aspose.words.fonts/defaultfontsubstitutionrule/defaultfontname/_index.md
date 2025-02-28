@@ -3,7 +3,7 @@ title: DefaultFontSubstitutionRule.DefaultFontName
 linktitle: DefaultFontName
 articleTitle: DefaultFontName
 second_title: Aspose.Words for .NET
-description: DefaultFontSubstitutionRule DefaultFontName property. Gets or sets the default font name in C#.
+description: Discover how to easily manage the DefaultFontSubstitutionRule and customize your default font name for enhanced design flexibility.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/

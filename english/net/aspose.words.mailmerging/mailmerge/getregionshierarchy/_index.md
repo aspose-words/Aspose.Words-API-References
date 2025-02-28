@@ -3,7 +3,7 @@ title: MailMerge.GetRegionsHierarchy
 linktitle: GetRegionsHierarchy
 articleTitle: GetRegionsHierarchy
 second_title: Aspose.Words for .NET
-description: MailMerge GetRegionsHierarchy method. Returns a full hierarchy of regions with fields available in the document in C#.
+description: Discover the MailMerge GetRegionsHierarchy method to effortlessly retrieve a complete region hierarchy with accessible document fields for streamlined workflows.
 type: docs
 weight: 250
 url: /net/aspose.words.mailmerging/mailmerge/getregionshierarchy/

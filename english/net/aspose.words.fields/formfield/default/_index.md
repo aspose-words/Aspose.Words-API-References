@@ -3,7 +3,7 @@ title: FormField.Default
 linktitle: Default
 articleTitle: Default
 second_title: Aspose.Words for .NET
-description: FormField Default property. Gets or sets the default value of the check box form field. Default value for this property is false in C#.
+description: Discover how to customize the FormField Default property to set your checkbox's default value. Enhance user experience with easy value adjustments!
 type: docs
 weight: 40
 url: /net/aspose.words.fields/formfield/default/

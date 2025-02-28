@@ -3,7 +3,7 @@ title: FieldDde.InsertAsHtml
 linktitle: InsertAsHtml
 articleTitle: InsertAsHtml
 second_title: Aspose.Words for .NET
-description: FieldDde InsertAsHtml property. Gets or sets whether to insert the linked object as HTML format text in C#.
+description: Control HTML insertion with FieldDde's InsertAsHtml property. Easily manage linked objects for seamless text integration and enhanced formatting.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fielddde/insertashtml/

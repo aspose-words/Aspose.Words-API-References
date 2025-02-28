@@ -3,7 +3,7 @@ title: ControlChar.TabChar
 linktitle: TabChar
 articleTitle: TabChar
 second_title: Aspose.Words for .NET
-description: ControlChar TabChar field. Tab character char9 or t in C#.
+description: Master TabChar fields with ControlChar for seamless data management. Unlock efficiency with the versatile tab character (char9 or t) today!
 type: docs
 weight: 280
 url: /net/aspose.words/controlchar/tabchar/

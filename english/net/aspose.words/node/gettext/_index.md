@@ -3,7 +3,7 @@ title: Node.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words for .NET
-description: Node GetText method. Gets the text of this node and of all its children in C#.
+description: Discover the Node GetText method to effortlessly retrieve text from a node and its child elements, enhancing your data management and development efficiency.
 type: docs
 weight: 120
 url: /net/aspose.words/node/gettext/

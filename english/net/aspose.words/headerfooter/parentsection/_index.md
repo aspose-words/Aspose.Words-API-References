@@ -3,7 +3,7 @@ title: HeaderFooter.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words for .NET
-description: HeaderFooter ParentSection property. Gets the parent section of this story in C#.
+description: Discover the HeaderFooter ParentSection property to easily access the parent section of your story, enhancing your document's structure and organization.
 type: docs
 weight: 60
 url: /net/aspose.words/headerfooter/parentsection/

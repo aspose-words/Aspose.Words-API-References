@@ -3,7 +3,7 @@ title: GoogleAiModel Class
 linktitle: GoogleAiModel
 articleTitle: GoogleAiModel
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.GoogleAiModel class. An abstract class representing the integration with Googles AI models within the Aspose.Words in C#.
+description: Unlock the power of Aspose.Words.AI.GoogleAiModel class to seamlessly integrate Google AI models, enhancing your document processing capabilities effortlessly.
 type: docs
 weight: 60
 url: /net/aspose.words.ai/googleaimodel/

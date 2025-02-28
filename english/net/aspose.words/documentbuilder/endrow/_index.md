@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 linktitle: EndRow
 articleTitle: EndRow
 second_title: Aspose.Words for .NET
-description: DocumentBuilder EndRow method. Ends a table row in the document in C#.
+description: Effortlessly end table rows in your documents with DocumentBuilder's EndRow method. Streamline your formatting and enhance document clarity!
 type: docs
 weight: 240
 url: /net/aspose.words/documentbuilder/endrow/

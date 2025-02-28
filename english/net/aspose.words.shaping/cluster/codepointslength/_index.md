@@ -3,7 +3,7 @@ title: Cluster.CodepointsLength
 linktitle: CodepointsLength
 articleTitle: CodepointsLength
 second_title: Aspose.Words for .NET
-description: Cluster CodepointsLength property. Gets total number of codepoints in the Cluster in C#.
+description: Discover the Cluster CodepointsLength property to efficiently calculate the total number of codepoints in your data clusters. Boost performance today!
 type: docs
 weight: 30
 url: /net/aspose.words.shaping/cluster/codepointslength/

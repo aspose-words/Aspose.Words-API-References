@@ -3,7 +3,7 @@ title: FieldRef.InsertParagraphNumberInRelativeContext
 linktitle: InsertParagraphNumberInRelativeContext
 articleTitle: InsertParagraphNumberInRelativeContext
 second_title: Aspose.Words for .NET
-description: FieldRef InsertParagraphNumberInRelativeContext property. Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context in C#.
+description: Manage paragraph numbering effortlessly with the FieldRef InsertParagraphNumberInRelativeContext property. Enhance document organization and clarity.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/

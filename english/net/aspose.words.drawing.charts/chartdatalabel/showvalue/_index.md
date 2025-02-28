@@ -3,7 +3,7 @@ title: ChartDataLabel.ShowValue
 linktitle: ShowValue
 articleTitle: ShowValue
 second_title: Aspose.Words for .NET
-description: ChartDataLabel ShowValue property. Allows to specify if values are to be displayed in the data labels. Default value is false in C#.
+description: Discover the ChartDataLabel ShowValue property to enhance your data visualization. Control value display in labels for clearer insights. Default: false.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing.charts/chartdatalabel/showvalue/

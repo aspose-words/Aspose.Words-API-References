@@ -3,7 +3,7 @@ title: ChartSeries.InvertIfNegative
 linktitle: InvertIfNegative
 articleTitle: InvertIfNegative
 second_title: Aspose.Words for .NET
-description: ChartSeries InvertIfNegative property. Specifies whether the parent element shall inverts its colors if the value is negative in C#.
+description: Discover the ChartSeries InvertIfNegative property: Easily customize color inversions for negative values, enhancing your data visualization experience.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartseries/invertifnegative/

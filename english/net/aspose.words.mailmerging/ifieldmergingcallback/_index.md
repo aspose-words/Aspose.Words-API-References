@@ -3,9 +3,9 @@ title: IFieldMergingCallback Interface
 linktitle: IFieldMergingCallback
 articleTitle: IFieldMergingCallback
 second_title: Aspose.Words for .NET
-description: Aspose.Words.MailMerging.IFieldMergingCallback interface. Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation in C#.
+description: Master mail merge with Aspose.Words! Implement the IFieldMergingCallback interface to customize data insertion in merge fields for seamless document creation.
 type: docs
-weight: 4340
+weight: 4350
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface

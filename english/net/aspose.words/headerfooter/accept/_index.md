@@ -3,7 +3,7 @@ title: HeaderFooter.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: HeaderFooter Accept method. Accepts a visitor in C#.
+description: Discover the HeaderFooter Accept method to enhance visitor engagement and streamline interactions on your website effortlessly.
 type: docs
 weight: 70
 url: /net/aspose.words/headerfooter/accept/

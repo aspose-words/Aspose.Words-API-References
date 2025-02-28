@@ -3,7 +3,7 @@ title: ParagraphFormat.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words for .NET
-description: ParagraphFormat LeftIndent property. Gets or sets the value in points that represents the left indent for paragraph in C#.
+description: Adjust the left indent for your paragraphs effortlessly with the ParagraphFormat LeftIndent property. Customize your text layout for better readability!
 type: docs
 weight: 180
 url: /net/aspose.words/paragraphformat/leftindent/

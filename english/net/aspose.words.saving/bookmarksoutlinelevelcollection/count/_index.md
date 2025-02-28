@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: BookmarksOutlineLevelCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the BookmarksOutlineLevelCollection Count property to easily access the total number of elements in your collection for efficient data management.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/count/

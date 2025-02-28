@@ -3,7 +3,7 @@ title: Contributor Class
 linktitle: Contributor
 articleTitle: Contributor
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Bibliography.Contributor class. Represents a bibliography source contributor. Can be either an corporate an organization or a list of persons in C#.
+description: Discover the Aspose.Words.Bibliography.Contributor class, your go-to solution for managing bibliography contributors, including organizations and individuals.
 type: docs
 weight: 150
 url: /net/aspose.words.bibliography/contributor/

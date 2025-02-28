@@ -3,7 +3,7 @@ title: Footnote.ReferenceMark
 linktitle: ReferenceMark
 articleTitle: ReferenceMark
 second_title: Aspose.Words for .NET
-description: Footnote ReferenceMark property. Gets/sets custom reference mark to be used for this footnote. Default value is empty string Empty meaning autonumbered footnotes are used in C#.
+description: Customize your footnotes with the ReferenceMark property. Easily set unique markers for clarity and organization in your documents. Enhance readability today!
 type: docs
 weight: 60
 url: /net/aspose.words.notes/footnote/referencemark/

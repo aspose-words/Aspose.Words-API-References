@@ -3,7 +3,7 @@ title: Fill.ForeTintAndShade
 linktitle: ForeTintAndShade
 articleTitle: ForeTintAndShade
 second_title: Aspose.Words for .NET
-description: Fill ForeTintAndShade property. Gets or sets a double value that lightens or darkens the foreground color in C#.
+description: Adjust the ForeTintAndShade property to easily lighten or darken your foreground color, enhancing your design with precision and creativity.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/fill/foretintandshade/

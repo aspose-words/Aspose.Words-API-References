@@ -3,7 +3,7 @@ title: FontEmbeddingLicensingRights.BitmapEmbeddingOnly
 linktitle: BitmapEmbeddingOnly
 articleTitle: BitmapEmbeddingOnly
 second_title: Aspose.Words for .NET
-description: FontEmbeddingLicensingRights BitmapEmbeddingOnly property. Indicates the Bitmap embedding only restriction in C#.
+description: Discover the FontEmbeddingLicensingRights BitmapEmbeddingOnly property, which ensures exclusive Bitmap embedding restrictions for enhanced design control.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontembeddinglicensingrights/bitmapembeddingonly/

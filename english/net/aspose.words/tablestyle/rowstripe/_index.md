@@ -3,7 +3,7 @@ title: TableStyle.RowStripe
 linktitle: RowStripe
 articleTitle: RowStripe
 second_title: Aspose.Words for .NET
-description: TableStyle RowStripe property. Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding in C#.
+description: Discover the TableStyle RowStripe property to easily customize odd/even row banding for enhanced table readability and visual appeal.
 type: docs
 weight: 120
 url: /net/aspose.words/tablestyle/rowstripe/

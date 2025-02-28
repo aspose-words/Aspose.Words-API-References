@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeEnd
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeEnd constructor. Initializes a new instance of the Structured document tag range end class in C#.
+description: Discover the StructuredDocumentTagRangeEnd constructor—efficiently initialize document tag ranges for enhanced content management and seamless integration.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/

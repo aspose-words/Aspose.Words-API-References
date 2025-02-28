@@ -3,7 +3,7 @@ title: StructuredDocumentTag.WordOpenXMLMinimal
 linktitle: WordOpenXMLMinimal
 articleTitle: WordOpenXMLMinimal
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag WordOpenXMLMinimal property. Gets a string that represents the XML contained within the node in the FlatOpc format. Unlike the WordOpenXML property this method generates a strippeddown document that excludes any noncontentrelated parts in C#.
+description: Discover the StructuredDocumentTag WordOpenXMLMinimal property, which provides a clean XML string in FlatOpc format, excluding non-content elements for streamlined document processing.
 type: docs
 weight: 310
 url: /net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/

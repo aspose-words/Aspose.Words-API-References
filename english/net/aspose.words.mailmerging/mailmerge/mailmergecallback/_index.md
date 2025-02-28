@@ -3,7 +3,7 @@ title: MailMerge.MailMergeCallback
 linktitle: MailMergeCallback
 articleTitle: MailMergeCallback
 second_title: Aspose.Words for .NET
-description: MailMerge MailMergeCallback property. Allows to handle particular events during mail merge in C#.
+description: Optimize your mail merge with the MailMergeCallback property. Effortlessly manage events for seamless document automation and enhanced efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mailmerge/mailmergecallback/

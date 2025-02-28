@@ -3,7 +3,7 @@ title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words for .NET
-description: DocumentBase Styles property. Returns a collection of styles defined in the document in C#.
+description: Explore the DocumentBase Styles property to access a rich collection of customizable styles, enhancing your document's visual appeal and consistency.
 type: docs
 weight: 90
 url: /net/aspose.words/documentbase/styles/

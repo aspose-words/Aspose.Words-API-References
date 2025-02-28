@@ -3,7 +3,7 @@ title: ResourceSavingArgs.ResourceFileUri
 linktitle: ResourceFileUri
 articleTitle: ResourceFileUri
 second_title: Aspose.Words for .NET
-description: ResourceSavingArgs ResourceFileUri property. Gets or sets the uniform resource identifier URI used to reference the resource file from the document in C#.
+description: Discover the ResourceSavingArgs ResourceFileUri property to easily manage and reference resource files in your documents. Enhance efficiency today!
 type: docs
 weight: 40
 url: /net/aspose.words.saving/resourcesavingargs/resourcefileuri/

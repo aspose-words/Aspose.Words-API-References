@@ -3,9 +3,9 @@ title: HtmlVersion Enum
 linktitle: HtmlVersion
 articleTitle: HtmlVersion
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.HtmlVersion enum. Indicates the version of HTML is used when saving the document to Html and Mhtml formats in C#.
+description: Discover the Aspose.Words.Saving.HtmlVersion enum to optimize document saving in HTML and MHTML formats, enhancing compatibility and performance.
 type: docs
-weight: 5730
+weight: 5740
 url: /net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
@@ -44,11 +44,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options)
 
 // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
+string newLine = Environment.NewLine;
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
-        "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
+        $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));

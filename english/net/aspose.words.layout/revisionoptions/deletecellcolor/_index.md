@@ -3,7 +3,7 @@ title: RevisionOptions.DeleteCellColor
 linktitle: DeleteCellColor
 articleTitle: DeleteCellColor
 second_title: Aspose.Words for .NET
-description: RevisionOptions DeleteCellColor property. Allows to specify the color to be used for deleted cells Deletion. Default value is Pink in C#.
+description: Customize your spreadsheet with the RevisionOptions DeleteCellColor property. Easily set a unique color for deleted cells, enhancing clarity and organization.
 type: docs
 weight: 20
 url: /net/aspose.words.layout/revisionoptions/deletecellcolor/

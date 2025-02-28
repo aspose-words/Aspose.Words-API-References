@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words for .NET
-description: XamlFlowSaveOptions ImagesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string in C#.
+description: Discover XamlFlowSaveOptions' ImagesFolderAlias property to customize image URI paths in XAML documents. Enhance your projects with ease!
 type: docs
 weight: 40
 url: /net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/

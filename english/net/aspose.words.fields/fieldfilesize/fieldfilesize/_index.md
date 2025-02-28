@@ -3,7 +3,7 @@ title: FieldFileSize
 linktitle: FieldFileSize
 articleTitle: FieldFileSize
 second_title: Aspose.Words for .NET
-description: FieldFileSize constructor. The default constructor in C#.
+description: Discover the FieldFileSize constructor – your go-to solution for efficient file size management. Simplify your coding with our default constructor today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldfilesize/fieldfilesize/

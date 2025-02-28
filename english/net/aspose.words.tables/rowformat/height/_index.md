@@ -3,7 +3,7 @@ title: RowFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words for .NET
-description: RowFormat Height property. Gets or sets the height of the table row in points in C#.
+description: Discover the RowFormat Height property to easily adjust table row height in points, enhancing your document's layout and readability.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/rowformat/height/

@@ -3,7 +3,7 @@ title: ShapeBase.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words for .NET
-description: ShapeBase Left property. Gets or sets the position of the left edge of the containing block of the shape in C#.
+description: Discover the ShapeBase Left property to easily adjust your shape's left edge position within its container. Enhance your design precision today!
 type: docs
 weight: 390
 url: /net/aspose.words.drawing/shapebase/left/

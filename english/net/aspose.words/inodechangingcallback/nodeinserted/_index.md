@@ -3,7 +3,7 @@ title: INodeChangingCallback.NodeInserted
 linktitle: NodeInserted
 articleTitle: NodeInserted
 second_title: Aspose.Words for .NET
-description: INodeChangingCallback NodeInserted method. Called when a node belonging to this document has been inserted into another node in C#.
+description: Discover the INodeChangingCallback NodeInserted method—triggered when a document node is added to another, enhancing your coding efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words/inodechangingcallback/nodeinserted/

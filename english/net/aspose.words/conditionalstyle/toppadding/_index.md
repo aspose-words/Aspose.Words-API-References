@@ -3,7 +3,7 @@ title: ConditionalStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words for .NET
-description: ConditionalStyle TopPadding property. Gets or sets the amount of space in points to add above the contents of table cells in C#.
+description: Discover the ConditionalStyle TopPadding property to easily adjust space above table cell contents, enhancing layout and readability for better design.
 type: docs
 weight: 80
 url: /net/aspose.words/conditionalstyle/toppadding/

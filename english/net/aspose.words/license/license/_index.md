@@ -3,7 +3,7 @@ title: License
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words for .NET
-description: License constructor. Initializes a new instance of this class in C#.
+description: Effortlessly create and manage licenses with our constructor class. Simplify your licensing process and enhance efficiency today!
 type: docs
 weight: 10
 url: /net/aspose.words/license/license/

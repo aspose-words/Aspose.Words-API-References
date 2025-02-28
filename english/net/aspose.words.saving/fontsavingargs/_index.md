@@ -3,9 +3,9 @@ title: FontSavingArgs Class
 linktitle: FontSavingArgs
 articleTitle: FontSavingArgs
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.FontSavingArgs class. Provides data for the FontSaving event in C#.
+description: Discover Aspose.Words.Saving.FontSavingArgs class—enhance document processing with detailed FontSaving event data for superior customization and control.
 type: docs
-weight: 5640
+weight: 5650
 url: /net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class

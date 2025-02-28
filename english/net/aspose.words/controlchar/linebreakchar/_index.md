@@ -3,7 +3,7 @@ title: ControlChar.LineBreakChar
 linktitle: LineBreakChar
 articleTitle: LineBreakChar
 second_title: Aspose.Words for .NET
-description: ControlChar LineBreakChar field. Line break character char11 or v in C#.
+description: Discover the ControlChar LineBreakChar field: easily manage line breaks with char11 or v for smoother text formatting and enhanced readability.
 type: docs
 weight: 130
 url: /net/aspose.words/controlchar/linebreakchar/

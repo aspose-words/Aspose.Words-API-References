@@ -3,7 +3,7 @@ title: FieldAutoTextList.ListStyle
 linktitle: ListStyle
 articleTitle: ListStyle
 second_title: Aspose.Words for .NET
-description: FieldAutoTextList ListStyle property. Gets or sets the name of the style on which the list to contain entries is based in C#.
+description: Discover the FieldAutoTextList ListStyle property to customize your entry lists effortlessly. Enhance your content with tailored styles today!
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldautotextlist/liststyle/

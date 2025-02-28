@@ -3,7 +3,7 @@ title: AxisTickLabels.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: AxisTickLabels Font property. Provides access to font formatting of the tick labels in C#.
+description: Enhance your charts with the AxisTickLabels Font property, allowing customizable font formatting for clearer, more impactful tick labels.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisticklabels/font/

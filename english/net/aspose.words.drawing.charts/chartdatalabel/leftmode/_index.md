@@ -3,7 +3,7 @@ title: ChartDataLabel.LeftMode
 linktitle: LeftMode
 articleTitle: LeftMode
 second_title: Aspose.Words for .NET
-description: ChartDataLabel LeftMode property. Gets or sets the interpretation mode of the Left property value whether it sets the location of the data label from the left edge of the chart of from the position specified by its Position property in C#.
+description: Discover the ChartDataLabel LeftMode property to customize data label positioning in your charts. Enhance clarity and presentation with precision control.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartdatalabel/leftmode/

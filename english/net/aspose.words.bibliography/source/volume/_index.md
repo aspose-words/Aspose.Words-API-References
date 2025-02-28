@@ -3,7 +3,7 @@ title: Source.Volume
 linktitle: Volume
 articleTitle: Volume
 second_title: Aspose.Words for .NET
-description: Source Volume property. Gets or sets the volume of a source in C#.
+description: Adjust the Source Volume easily to enhance your audio experience. Control sound levels for optimal clarity and enjoyment in your projects.
 type: docs
 weight: 520
 url: /net/aspose.words.bibliography/source/volume/

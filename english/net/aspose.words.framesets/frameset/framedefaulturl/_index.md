@@ -3,7 +3,7 @@ title: Frameset.FrameDefaultUrl
 linktitle: FrameDefaultUrl
 articleTitle: FrameDefaultUrl
 second_title: Aspose.Words for .NET
-description: Frameset FrameDefaultUrl property. Gets or sets the web page URL or document file name to display in this frame in C#.
+description: Discover the Frameset FrameDefaultUrl property to easily set web page URLs or document files for seamless frame displays. Enhance your web experience!
 type: docs
 weight: 30
 url: /net/aspose.words.framesets/frameset/framedefaulturl/

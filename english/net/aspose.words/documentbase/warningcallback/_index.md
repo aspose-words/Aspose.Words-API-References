@@ -3,7 +3,7 @@ title: DocumentBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words for .NET
-description: DocumentBase WarningCallback property. Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss in C#.
+description: Discover the DocumentBase WarningCallback property, vital for ensuring data integrity during document processing by detecting potential formatting issues.
 type: docs
 weight: 100
 url: /net/aspose.words/documentbase/warningcallback/

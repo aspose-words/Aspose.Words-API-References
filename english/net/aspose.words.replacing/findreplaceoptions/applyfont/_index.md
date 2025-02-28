@@ -3,7 +3,7 @@ title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions ApplyFont property. Text formatting applied to new content in C#.
+description: Discover the ApplyFont property in FindReplaceOptions for seamless text formatting. Enhance your content with tailored styles effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words.replacing/findreplaceoptions/applyfont/

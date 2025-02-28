@@ -3,7 +3,7 @@ title: Stroke.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words for .NET
-description: Stroke Fill property. Gets fill formatting for the Stroke in C#.
+description: Discover the Stroke Fill property for enhanced fill formatting in your designs. Elevate your projects with precise stroke customization today!
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/stroke/fill/

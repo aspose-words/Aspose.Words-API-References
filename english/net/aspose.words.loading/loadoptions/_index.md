@@ -3,9 +3,9 @@ title: LoadOptions Class
 linktitle: LoadOptions
 articleTitle: LoadOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.LoadOptions class. Allows to specify additional options such as password or base URI when loading a document into a Document object in C#.
+description: Discover Aspose.Words.LoadOptions for enhanced document loading. Set passwords and base URIs effortlessly for seamless integration and security.
 type: docs
-weight: 4090
+weight: 4100
 url: /net/aspose.words.loading/loadoptions/
 ---
 ## LoadOptions class

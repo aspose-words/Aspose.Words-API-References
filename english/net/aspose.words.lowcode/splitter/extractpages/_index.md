@@ -3,7 +3,7 @@ title: Splitter.ExtractPages
 linktitle: ExtractPages
 articleTitle: ExtractPages
 second_title: Aspose.Words for .NET
-description: Splitter ExtractPages method. Extracts a specified range of pages from a document file and saves the extracted pages to a new file. The output file format is determined by the extension of the output file name in C#.
+description: Effortlessly extract specific pages from any document with our Splitter ExtractPages method. Save them in your desired format for easy access!
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/splitter/extractpages/

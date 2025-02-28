@@ -3,7 +3,7 @@ title: Source.Contributors
 linktitle: Contributors
 articleTitle: Contributors
 second_title: Aspose.Words for .NET
-description: Source Contributors property. Gets contributors list author editor writer etc of a source in C#.
+description: Discover a comprehensive list of contributors—authors, editors, and writers—for your source. Enhance your research with valuable insights!
 type: docs
 weight: 120
 url: /net/aspose.words.bibliography/source/contributors/

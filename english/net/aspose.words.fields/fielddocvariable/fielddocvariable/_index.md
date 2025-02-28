@@ -3,7 +3,7 @@ title: FieldDocVariable
 linktitle: FieldDocVariable
 articleTitle: FieldDocVariable
 second_title: Aspose.Words for .NET
-description: FieldDocVariable constructor. The default constructor in C#.
+description: Discover the FieldDocVariable constructor—your go-to default solution for efficient data handling and seamless integration in your projects.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fielddocvariable/fielddocvariable/

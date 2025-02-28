@@ -3,7 +3,7 @@ title: ChartSeriesGroup.AxisY
 linktitle: AxisY
 articleTitle: AxisY
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroup AxisY property. Provides access to properties of the Y axis of this series group in C#.
+description: Discover the ChartSeriesGroup AxisY property to easily access and customize Y-axis features for enhanced data visualization in your charts.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriesgroup/axisy/

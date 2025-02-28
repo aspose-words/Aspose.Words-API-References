@@ -3,7 +3,7 @@ title: Source.RecordingNumber
 linktitle: RecordingNumber
 articleTitle: RecordingNumber
 second_title: Aspose.Words for .NET
-description: Source RecordingNumber property. Gets or sets the recording number of a source in C#.
+description: Manage your recordings effortlessly with the Source RecordingNumber property—quickly retrieve or update source recording numbers for seamless audio management.
 type: docs
 weight: 370
 url: /net/aspose.words.bibliography/source/recordingnumber/

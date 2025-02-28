@@ -3,7 +3,7 @@ title: Source.ConferenceName
 linktitle: ConferenceName
 articleTitle: ConferenceName
 second_title: Aspose.Words for .NET
-description: Source ConferenceName property. Gets or sets the conference or proceedings name of a source in C#.
+description: Discover how to manage conference names effortlessly with Source ConferenceName. Simplify your research and enhance your citation accuracy today!
 type: docs
 weight: 110
 url: /net/aspose.words.bibliography/source/conferencename/

@@ -3,7 +3,7 @@ title: ContributorCollection.Director
 linktitle: Director
 articleTitle: Director
 second_title: Aspose.Words for .NET
-description: ContributorCollection Director property. Gets or sets the director of a source in C#.
+description: Manage your ContributorCollection effortlessly. Easily set or update the director for each source, enhancing organization and efficiency.
 type: docs
 weight: 80
 url: /net/aspose.words.bibliography/contributorcollection/director/

@@ -3,7 +3,7 @@ title: FieldAdvance.LeftOffset
 linktitle: LeftOffset
 articleTitle: LeftOffset
 second_title: Aspose.Words for .NET
-description: FieldAdvance LeftOffset property. Gets or sets the number of points by which the text that follows the field should be moved left in C#.
+description: Discover the FieldAdvance LeftOffset property to easily adjust text alignment by setting points for precise left movement. Enhance your document layout!
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldadvance/leftoffset/

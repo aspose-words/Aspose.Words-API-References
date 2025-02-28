@@ -3,7 +3,7 @@ title: ImageData.ChromaKey
 linktitle: ChromaKey
 articleTitle: ChromaKey
 second_title: Aspose.Words for .NET
-description: ImageData ChromaKey property. Defines the color value of the image that will be treated as transparent in C#.
+description: Discover the ImageData ChromaKey property: set transparent colors for your images and enhance visual effects effortlessly. Unlock creative possibilities!
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/imagedata/chromakey/

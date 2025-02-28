@@ -3,7 +3,7 @@ title: ShapeBase.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words for .NET
-description: ShapeBase ShapeType property. Gets the shape type in C#.
+description: Discover the ShapeBase ShapeType property to easily access and define your shape types, enhancing your design capabilities and project efficiency.
 type: docs
 weight: 530
 url: /net/aspose.words.drawing/shapebase/shapetype/

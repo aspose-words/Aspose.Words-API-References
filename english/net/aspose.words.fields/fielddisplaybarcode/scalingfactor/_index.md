@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words for .NET
-description: FieldDisplayBarcode ScalingFactor property. Gets or sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are 10 1000 in C#.
+description: Discover the FieldDisplayBarcode ScalingFactor property to easily adjust symbol size in whole percentages from 10% to 1000%. Optimize your barcode displays!
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fielddisplaybarcode/scalingfactor/

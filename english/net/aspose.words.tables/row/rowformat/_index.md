@@ -3,7 +3,7 @@ title: Row.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words for .NET
-description: Row RowFormat property. Provides access to the formatting properties of the row in C#.
+description: Discover the Row RowFormat property for easy access to customizable row formatting options, enhancing your data presentation effortlessly.
 type: docs
 weight: 110
 url: /net/aspose.words.tables/row/rowformat/

@@ -3,7 +3,7 @@ title: JsonDataLoadOptions.SimpleValueParseMode
 linktitle: SimpleValueParseMode
 articleTitle: SimpleValueParseMode
 second_title: Aspose.Words for .NET
-description: JsonDataLoadOptions SimpleValueParseMode property. Gets or sets a mode for parsing JSON simple values null boolean number integer and string while loading JSON. Such a mode does not affect parsing of datetime values. The default is Loose in C#.
+description: Discover how the SimpleValueParseMode property in JsonDataLoadOptions enhances JSON parsing for nulls, booleans, numbers, and strings. Optimize your data loading today!
 type: docs
 weight: 50
 url: /net/aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/

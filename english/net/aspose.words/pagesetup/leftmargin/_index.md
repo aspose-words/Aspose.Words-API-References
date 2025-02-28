@@ -3,7 +3,7 @@ title: PageSetup.LeftMargin
 linktitle: LeftMargin
 articleTitle: LeftMargin
 second_title: Aspose.Words for .NET
-description: PageSetup LeftMargin property. Returns or sets the distance in points between the left edge of the page and the left boundary of the body text in C#.
+description: Discover the PageSetup LeftMargin property to easily adjust the left margin in points, enhancing your document's layout and readability.
 type: docs
 weight: 200
 url: /net/aspose.words/pagesetup/leftmargin/

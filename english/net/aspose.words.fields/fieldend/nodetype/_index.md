@@ -3,7 +3,7 @@ title: FieldEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: FieldEnd NodeType property. Returns FieldEnd in C#.
+description: Discover the FieldEnd NodeType property, delivering efficient FieldEnd results for streamlined data management and enhanced performance.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldend/nodetype/

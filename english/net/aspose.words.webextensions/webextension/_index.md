@@ -3,9 +3,9 @@ title: WebExtension Class
 linktitle: WebExtension
 articleTitle: WebExtension
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtension class. Represents a web extension object in C#.
+description: Discover the Aspose.Words.WebExtensions.WebExtension class, your go-to solution for creating dynamic web extensions in documents. Enhance functionality effortlessly!
 type: docs
-weight: 7430
+weight: 7440
 url: /net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class

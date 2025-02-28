@@ -3,7 +3,7 @@ title: Chart.AxisY
 linktitle: AxisY
 articleTitle: AxisY
 second_title: Aspose.Words for .NET
-description: Chart AxisY property. Provides access to properties of the primary Y axis of the chart in C#.
+description: Explore the Chart AxisY property to easily access and customize your chart's primary Y axis for enhanced data visualization and insights.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chart/axisy/

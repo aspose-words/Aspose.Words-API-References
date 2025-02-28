@@ -3,9 +3,9 @@ title: RowCollection Class
 linktitle: RowCollection
 articleTitle: RowCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.RowCollection class. Provides typed access to a collection of Row nodes in C#.
+description: Explore Aspose.Words.Tables.RowCollection for efficient access to Row nodes. Enhance document processing with our powerful, typed collection features.
 type: docs
-weight: 7010
+weight: 7020
 url: /net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class

@@ -3,7 +3,7 @@ title: LayoutCollector
 linktitle: LayoutCollector
 articleTitle: LayoutCollector
 second_title: Aspose.Words for .NET
-description: LayoutCollector constructor. Initializes an instance of this class in C#.
+description: Discover the LayoutCollector constructor for seamless instance initialization. Enhance your development efficiency with this powerful tool!
 type: docs
 weight: 10
 url: /net/aspose.words.layout/layoutcollector/layoutcollector/

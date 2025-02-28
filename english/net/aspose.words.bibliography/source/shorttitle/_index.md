@@ -3,7 +3,7 @@ title: Source.ShortTitle
 linktitle: ShortTitle
 articleTitle: ShortTitle
 second_title: Aspose.Words for .NET
-description: Source ShortTitle property. Gets or sets the short title of a source in C#.
+description: Manage your source's short title effortlessly. Easily get or set the ShortTitle property for streamlined organization and improved clarity.
 type: docs
 weight: 400
 url: /net/aspose.words.bibliography/source/shorttitle/

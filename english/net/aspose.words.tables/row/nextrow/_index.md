@@ -3,7 +3,7 @@ title: Row.NextRow
 linktitle: NextRow
 articleTitle: NextRow
 second_title: Aspose.Words for .NET
-description: Row NextRow property. Gets the next Row node in C#.
+description: Discover the NextRow property to effortlessly access the following Row node, enhancing your data navigation and management experience.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/row/nextrow/

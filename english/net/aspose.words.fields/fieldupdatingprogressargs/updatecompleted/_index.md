@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdateCompleted
 linktitle: UpdateCompleted
 articleTitle: UpdateCompleted
 second_title: Aspose.Words for .NET
-description: FieldUpdatingProgressArgs UpdateCompleted property. Gets a value indicating whether field updating is completed in C#.
+description: Discover the FieldUpdatingProgressArgs UpdateCompleted property, which efficiently indicates if field updates are finished, enhancing your data management process.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/

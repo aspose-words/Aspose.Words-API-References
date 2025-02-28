@@ -3,7 +3,7 @@ title: List.IsRestartAtEachSection
 linktitle: IsRestartAtEachSection
 articleTitle: IsRestartAtEachSection
 second_title: Aspose.Words for .NET
-description: List IsRestartAtEachSection property. Specifies whether list should be restarted at each section. Default value is false in C#.
+description: Discover the IsRestartAtEachSection property to control list numbering in sections. Enhance document organization with this easy-to-use feature!
 type: docs
 weight: 50
 url: /net/aspose.words.lists/list/isrestartateachsection/

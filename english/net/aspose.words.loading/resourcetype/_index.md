@@ -3,9 +3,9 @@ title: ResourceType Enum
 linktitle: ResourceType
 articleTitle: ResourceType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.ResourceType enum. Type of loaded resource in C#.
+description: Explore the Aspose.Words.ResourceType enum for efficient resource management. Enhance your document processing with versatile loading options.
 type: docs
-weight: 4140
+weight: 4150
 url: /net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration

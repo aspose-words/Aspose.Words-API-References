@@ -3,7 +3,7 @@ title: Table.AllowCellSpacing
 linktitle: AllowCellSpacing
 articleTitle: AllowCellSpacing
 second_title: Aspose.Words for .NET
-description: Table AllowCellSpacing property. Gets or sets the Allow spacing between cells option in C#.
+description: Discover the Table AllowCellSpacing property to easily manage cell spacing in your layouts. Enhance your design with customizable options!
 type: docs
 weight: 60
 url: /net/aspose.words.tables/table/allowcellspacing/

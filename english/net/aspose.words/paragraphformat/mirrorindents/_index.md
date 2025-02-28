@@ -3,7 +3,7 @@ title: ParagraphFormat.MirrorIndents
 linktitle: MirrorIndents
 articleTitle: MirrorIndents
 second_title: Aspose.Words for .NET
-description: ParagraphFormat MirrorIndents property. Gets or sets a flag indicating whether the left and right indents are of the same width in C#.
+description: Discover how the ParagraphFormat MirrorIndents property enhances your document formatting by ensuring consistent left and right indents for a polished look.
 type: docs
 weight: 240
 url: /net/aspose.words/paragraphformat/mirrorindents/

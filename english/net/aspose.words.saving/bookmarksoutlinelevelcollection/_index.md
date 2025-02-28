@@ -3,9 +3,9 @@ title: BookmarksOutlineLevelCollection Class
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection class. A collection of individual bookmarks outline level in C#.
+description: Discover the Aspose.Words.Saving.BookmarksOutlineLevelCollection class—a powerful tool for managing bookmarks and enhancing document navigation effortlessly.
 type: docs
-weight: 5450
+weight: 5460
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class

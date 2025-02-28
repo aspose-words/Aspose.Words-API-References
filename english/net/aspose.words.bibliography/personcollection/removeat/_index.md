@@ -3,7 +3,7 @@ title: PersonCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words for .NET
-description: PersonCollection RemoveAt method. Removes the person at the specified index in C#.
+description: Effortlessly use the PersonCollection RemoveAt method to delete a person by index, streamlining your data management with ease and precision.
 type: docs
 weight: 80
 url: /net/aspose.words.bibliography/personcollection/removeat/

@@ -3,7 +3,7 @@ title: FieldMergeBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words for .NET
-description: FieldMergeBarcode SymbolHeight property. Gets or sets the height of the symbol. The units are in TWIPS 1/1440 inch in C#.
+description: Adjust the FieldMergeBarcode SymbolHeight property to customize your barcode's height in TWIPS. Enhance your data presentation with precision!
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldmergebarcode/symbolheight/

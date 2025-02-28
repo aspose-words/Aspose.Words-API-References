@@ -3,7 +3,7 @@ title: Document.UpdatePageLayout
 linktitle: UpdatePageLayout
 articleTitle: UpdatePageLayout
 second_title: Aspose.Words for .NET
-description: Document UpdatePageLayout method. Rebuilds the page layout of the document in C#.
+description: Revamp your document's structure with the UpdatePageLayout method, ensuring a polished and organized layout for enhanced readability and presentation.
 type: docs
 weight: 830
 url: /net/aspose.words/document/updatepagelayout/

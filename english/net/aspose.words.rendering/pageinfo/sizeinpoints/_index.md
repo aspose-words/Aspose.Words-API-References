@@ -3,7 +3,7 @@ title: PageInfo.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
 second_title: Aspose.Words for .NET
-description: PageInfo SizeInPoints property. Gets the page size in points in C#.
+description: Discover the PageInfo SizeInPoints property to easily access your page size in points for precise layout control and enhanced design efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.rendering/pageinfo/sizeinpoints/

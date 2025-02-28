@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.GetByTag
 linktitle: GetByTag
 articleTitle: GetByTag
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagCollection GetByTag method. Returns the first structured document tag encountered in the collection with the specified tag in C#.
+description: Discover the GetByTag method in StructuredDocumentTagCollection. Efficiently retrieve the first structured document tag with your desired tag for seamless document management.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/structureddocumenttagcollection/getbytag/

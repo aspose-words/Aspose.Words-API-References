@@ -3,7 +3,7 @@ title: FieldFillIn.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
 second_title: Aspose.Words for .NET
-description: FieldFillIn DefaultResponse property. Gets or sets default user response initial value contained in the prompt window in C#.
+description: Discover the FieldFillIn DefaultResponse property to easily set and customize default user responses in prompt windows for enhanced user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldfillin/defaultresponse/

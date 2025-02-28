@@ -3,7 +3,7 @@ title: TableStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words for .NET
-description: TableStyle TopPadding property. Gets or sets the amount of space in points to add above the contents of table cells in C#.
+description: Discover the TableStyle TopPadding property to easily adjust spacing above table cell contents, enhancing your table's readability and design.
 type: docs
 weight: 140
 url: /net/aspose.words/tablestyle/toppadding/

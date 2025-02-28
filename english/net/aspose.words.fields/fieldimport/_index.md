@@ -3,7 +3,7 @@ title: FieldImport Class
 linktitle: FieldImport
 articleTitle: FieldImport
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldImport class. Implements the IMPORT field in C#.
+description: Discover the Aspose.Words.Fields.FieldImport class, designed to streamline document processing with efficient IMPORT field implementation for enhanced productivity.
 type: docs
 weight: 2420
 url: /net/aspose.words.fields/fieldimport/

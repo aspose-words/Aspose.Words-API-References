@@ -3,7 +3,7 @@ title: TxtLoadOptions.AutoNumberingDetection
 linktitle: AutoNumberingDetection
 articleTitle: AutoNumberingDetection
 second_title: Aspose.Words for .NET
-description: TxtLoadOptions AutoNumberingDetection property. Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is true in C#.
+description: Discover TxtLoadOptions' AutoNumberingDetection property. Easily enable or disable automatic numbering for seamless document loading. Default is true.
 type: docs
 weight: 20
 url: /net/aspose.words.loading/txtloadoptions/autonumberingdetection/

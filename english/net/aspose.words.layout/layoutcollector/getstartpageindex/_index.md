@@ -3,7 +3,7 @@ title: LayoutCollector.GetStartPageIndex
 linktitle: GetStartPageIndex
 articleTitle: GetStartPageIndex
 second_title: Aspose.Words for .NET
-description: LayoutCollector GetStartPageIndex method. Gets 1based index of the page where node begins. Returns 0 if node cannot be mapped to a page in C#.
+description: Discover the LayoutCollector GetStartPageIndex method to easily find the 1-based index of a node's starting page. Simplify your mapping process today!
 type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutcollector/getstartpageindex/

@@ -3,7 +3,7 @@ title: FormField.DropDownSelectedIndex
 linktitle: DropDownSelectedIndex
 articleTitle: DropDownSelectedIndex
 second_title: Aspose.Words for .NET
-description: FormField DropDownSelectedIndex property. Gets or sets the index specifying the currently selected item in a dropdown form field in C#.
+description: Discover the FormField DropDownSelectedIndex property to easily manage dropdown selections, enhancing user experience and form functionality.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/formfield/dropdownselectedindex/

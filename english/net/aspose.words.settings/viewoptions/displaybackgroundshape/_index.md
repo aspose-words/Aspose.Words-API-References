@@ -3,7 +3,7 @@ title: ViewOptions.DisplayBackgroundShape
 linktitle: DisplayBackgroundShape
 articleTitle: DisplayBackgroundShape
 second_title: Aspose.Words for .NET
-description: ViewOptions DisplayBackgroundShape property. Controls display of the background shape in print layout view in C#.
+description: Discover the DisplayBackgroundShape property in ViewOptions to enhance your print layout with customizable background shapes for a polished look.
 type: docs
 weight: 10
 url: /net/aspose.words.settings/viewoptions/displaybackgroundshape/

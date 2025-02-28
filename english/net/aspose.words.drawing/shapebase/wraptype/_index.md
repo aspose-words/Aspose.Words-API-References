@@ -3,7 +3,7 @@ title: ShapeBase.WrapType
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words for .NET
-description: ShapeBase WrapType property. Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape in C#.
+description: Discover the ShapeBase WrapType property: control inline or floating shapes and customize text wrapping for enhanced layout flexibility.
 type: docs
 weight: 640
 url: /net/aspose.words.drawing/shapebase/wraptype/

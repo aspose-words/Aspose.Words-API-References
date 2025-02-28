@@ -3,7 +3,7 @@ title: TextColumnCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: TextColumnCollection Item property. Returns a text column at the specified index in C#.
+description: Access a specific text column by index with the TextColumnCollection Item property. Simplify data management and enhance your coding efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words/textcolumncollection/item/

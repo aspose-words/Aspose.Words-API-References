@@ -3,7 +3,7 @@ title: SignOptions.SignTime
 linktitle: SignTime
 articleTitle: SignTime
 second_title: Aspose.Words for .NET
-description: SignOptions SignTime property. The date of signing. Default value is current time Now in C#.
+description: Discover SignOptions SignTime for effortless signing. Easily set the signing date with the default to the current time. Streamline your document process!
 type: docs
 weight: 70
 url: /net/aspose.words.digitalsignatures/signoptions/signtime/

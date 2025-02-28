@@ -3,7 +3,7 @@ title: Shape.HasChart
 linktitle: HasChart
 articleTitle: HasChart
 second_title: Aspose.Words for .NET
-description: Shape HasChart property. Returns true if this Shape has a Chart in C#.
+description: Discover if your Shape features a Chart with the HasChart property. Enhance your data visualization effortlessly!
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/shape/haschart/

@@ -3,9 +3,9 @@ title: PreferredWidthType Enum
 linktitle: PreferredWidthType
 articleTitle: PreferredWidthType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.PreferredWidthType enum. Specifies the unit of measurement for the preferred width of a table or cell in C#.
+description: Discover Aspose.Words.Tables.PreferredWidthType enum: Easily define table and cell width measurements for precise document formatting.
 type: docs
-weight: 6990
+weight: 7000
 url: /net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration

@@ -3,7 +3,7 @@ title: Document.Bibliography
 linktitle: Bibliography
 articleTitle: Bibliography
 second_title: Aspose.Words for .NET
-description: Document Bibliography property. Gets the Bibliography object that represents the list of sources available in the document in C#.
+description: Access the Document Bibliography property to retrieve a comprehensive list of sources, enhancing your research and citation accuracy.
 type: docs
 weight: 40
 url: /net/aspose.words/document/bibliography/

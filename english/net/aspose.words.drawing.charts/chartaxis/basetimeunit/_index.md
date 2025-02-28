@@ -3,7 +3,7 @@ title: ChartAxis.BaseTimeUnit
 linktitle: BaseTimeUnit
 articleTitle: BaseTimeUnit
 second_title: Aspose.Words for .NET
-description: ChartAxis BaseTimeUnit property. Returns or sets the smallest time unit that is represented on the time category axis in C#.
+description: Discover the ChartAxis BaseTimeUnit property to easily define the smallest time unit on your time category axis for enhanced data visualization.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartaxis/basetimeunit/

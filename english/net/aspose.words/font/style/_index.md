@@ -3,7 +3,7 @@ title: Font.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words for .NET
-description: Font Style property. Gets or sets the character style applied to this formatting in C#.
+description: Discover how to use the Font Style property to customize character styles in your formatting for enhanced text appeal and readability.
 type: docs
 weight: 410
 url: /net/aspose.words/font/style/

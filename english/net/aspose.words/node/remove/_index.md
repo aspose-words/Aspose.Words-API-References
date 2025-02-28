@@ -3,7 +3,7 @@ title: Node.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words for .NET
-description: Node Remove method. Removes itself from the parent in C#.
+description: Discover the Node Remove method to effortlessly detach nodes from their parent, enhancing your code's efficiency and structure.
 type: docs
 weight: 150
 url: /net/aspose.words/node/remove/

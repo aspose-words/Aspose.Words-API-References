@@ -3,7 +3,7 @@ title: FieldLink.IsLinked
 linktitle: IsLinked
 articleTitle: IsLinked
 second_title: Aspose.Words for .NET
-description: FieldLink IsLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document in C#.
+description: Optimize your documents with FieldLink IsLinked property to reduce file size by excluding graphics data. Enhance efficiency and save storage space!
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldlink/islinked/

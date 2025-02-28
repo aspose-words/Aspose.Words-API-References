@@ -3,7 +3,7 @@ title: Odso.RecipientDatas
 linktitle: RecipientDatas
 articleTitle: RecipientDatas
 second_title: Aspose.Words for .NET
-description: Odso RecipientDatas property. Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null in C#.
+description: Manage your mail merge effortlessly with Odso RecipientDatas. Control inclusion/exclusion of records with a reliable, always-available collection.
 type: docs
 weight: 70
 url: /net/aspose.words.settings/odso/recipientdatas/

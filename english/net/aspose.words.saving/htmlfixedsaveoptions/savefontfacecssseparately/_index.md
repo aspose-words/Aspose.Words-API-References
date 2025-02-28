@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 linktitle: SaveFontFaceCssSeparately
 articleTitle: SaveFontFaceCssSeparately
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions SaveFontFaceCssSeparately property. Flag indicates whether fontface CSS rules should be placed into a separate file fontFaces.css when a document is being saved with external stylesheet that is when ExportEmbeddedCss is false. Default value is false all CSS rules are written into single file styles.css in C#.
+description: Discover how the SaveFontFaceCssSeparately property optimizes your document's CSS management by saving font-face rules in a separate file for cleaner exports.
 type: docs
 weight: 180
 url: /net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/

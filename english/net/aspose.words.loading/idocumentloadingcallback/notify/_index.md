@@ -3,7 +3,7 @@ title: IDocumentLoadingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words for .NET
-description: IDocumentLoadingCallback Notify method. This is called to notify of document loading progress in C#.
+description: Track document loading progress effortlessly with the IDocumentLoadingCallback Notify method. Enhance user experience with real-time updates!
 type: docs
 weight: 10
 url: /net/aspose.words.loading/idocumentloadingcallback/notify/

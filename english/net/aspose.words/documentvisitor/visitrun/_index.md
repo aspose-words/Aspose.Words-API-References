@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitRun
 linktitle: VisitRun
 articleTitle: VisitRun
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitRun method. Called when a run of text in the is encountered in C#.
+description: Explore the DocumentVisitor VisitRun method for efficient text handling in your applications. Enhance your coding with this essential tool!
 type: docs
 weight: 360
 url: /net/aspose.words/documentvisitor/visitrun/

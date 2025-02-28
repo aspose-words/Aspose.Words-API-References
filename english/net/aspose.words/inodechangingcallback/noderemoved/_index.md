@@ -3,7 +3,7 @@ title: INodeChangingCallback.NodeRemoved
 linktitle: NodeRemoved
 articleTitle: NodeRemoved
 second_title: Aspose.Words for .NET
-description: INodeChangingCallback NodeRemoved method. Called when a node belonging to this document has been removed from its parent in C#.
+description: Discover the INodeChangingCallback NodeRemoved method—triggered when a document node is removed, enhancing your coding efficiency and document management.
 type: docs
 weight: 30
 url: /net/aspose.words/inodechangingcallback/noderemoved/

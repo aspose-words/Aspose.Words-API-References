@@ -3,7 +3,7 @@ title: Source.AlbumTitle
 linktitle: AlbumTitle
 articleTitle: AlbumTitle
 second_title: Aspose.Words for .NET
-description: Source AlbumTitle property. Gets or sets the album title of a source in C#.
+description: Manage your source's album title effortlessly with the AlbumTitle property. Easily get or set titles for better organization and accessibility.
 type: docs
 weight: 30
 url: /net/aspose.words.bibliography/source/albumtitle/

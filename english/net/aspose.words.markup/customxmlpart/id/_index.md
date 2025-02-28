@@ -3,7 +3,7 @@ title: CustomXmlPart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: CustomXmlPart Id property. Gets or sets the string that identifies this custom XML part within an OOXML document in C#.
+description: Discover how to manage the CustomXmlPart Id property to easily identify and customize XML parts in your OOXML documents for enhanced document management.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlpart/id/

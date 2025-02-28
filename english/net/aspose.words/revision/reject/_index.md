@@ -3,7 +3,7 @@ title: Revision.Reject
 linktitle: Reject
 articleTitle: Reject
 second_title: Aspose.Words for .NET
-description: Revision Reject method. Reject this revision in C#.
+description: Master the Revision Reject method to streamline your workflow and enhance productivity. Say goodbye to unnecessary changes today!
 type: docs
 weight: 80
 url: /net/aspose.words/revision/reject/

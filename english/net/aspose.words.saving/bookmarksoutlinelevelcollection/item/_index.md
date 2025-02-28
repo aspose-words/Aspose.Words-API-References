@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: BookmarksOutlineLevelCollection Item property. Gets or a sets a bookmark outline level by the bookmark name in C#.
+description: Manage your bookmarks effortlessly with the BookmarksOutlineLevelCollection. Set and retrieve outline levels by bookmark name for seamless organization.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/item/

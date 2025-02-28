@@ -3,7 +3,7 @@ title: ComparisonExpression.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words for .NET
-description: ComparisonExpression RightExpression property. Gets the right expression in C#.
+description: Discover the RightExpression property of ComparisonExpression. Easily retrieve the right expression for enhanced data analysis and improved performance.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/comparisonexpression/rightexpression/

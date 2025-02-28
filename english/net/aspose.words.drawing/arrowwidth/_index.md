@@ -3,7 +3,7 @@ title: ArrowWidth Enum
 linktitle: ArrowWidth
 articleTitle: ArrowWidth
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.ArrowWidth enum. Width of the arrow at the end of a line in C#.
+description: Discover the Aspose.Words.Drawing.ArrowWidth enum to customize arrow end widths for enhanced document visuals and precision in your projects.
 type: docs
 weight: 740
 url: /net/aspose.words.drawing/arrowwidth/

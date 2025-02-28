@@ -3,7 +3,7 @@ title: Bibliography.Sources
 linktitle: Sources
 articleTitle: Sources
 second_title: Aspose.Words for .NET
-description: Bibliography Sources property. Gets a collection that represents all the sources contained in a bibliography in C#.
+description: Discover a comprehensive collection of bibliography sources, perfect for enhancing research and ensuring accurate citations in your projects.
 type: docs
 weight: 20
 url: /net/aspose.words.bibliography/bibliography/sources/

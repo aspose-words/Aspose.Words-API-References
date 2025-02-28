@@ -3,9 +3,9 @@ title: StyleType Enum
 linktitle: StyleType
 articleTitle: StyleType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.StyleType enum. Represents type of the style in C#.
+description: Discover Aspose.Words.StyleType enum for efficient style management in documents. Enhance your formatting with versatile style types for optimal results!
 type: docs
-weight: 6850
+weight: 6860
 url: /net/aspose.words/styletype/
 ---
 ## StyleType enumeration

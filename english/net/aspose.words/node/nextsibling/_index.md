@@ -3,7 +3,7 @@ title: Node.NextSibling
 linktitle: NextSibling
 articleTitle: NextSibling
 second_title: Aspose.Words for .NET
-description: Node NextSibling property. Gets the node immediately following this node in C#.
+description: Discover the Node NextSibling property to easily access the next node in your DOM. Enhance your JavaScript skills and streamline your coding today!
 type: docs
 weight: 40
 url: /net/aspose.words/node/nextsibling/

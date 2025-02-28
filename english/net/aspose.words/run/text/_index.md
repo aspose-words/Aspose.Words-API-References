@@ -3,7 +3,7 @@ title: Run.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: Run Text property. Gets or sets the text of the run in C#.
+description: Manage your run text effortlessly! Easily get or set run text properties for seamless document editing and enhanced content control.
 type: docs
 weight: 50
 url: /net/aspose.words/run/text/

@@ -3,7 +3,7 @@ title: AiModelType Enum
 linktitle: AiModelType
 articleTitle: AiModelType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.AiModelType enum. Represents the types of AiModel that can be integrated into the document processing workflow in C#.
+description: Discover Aspose.Words.AI.AiModelType enum for seamless integration of AI models in document processing, enhancing efficiency and productivity.
 type: docs
 weight: 30
 url: /net/aspose.words.ai/aimodeltype/

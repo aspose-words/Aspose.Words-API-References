@@ -3,7 +3,7 @@ title: SaveOutputParameters.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words for .NET
-description: SaveOutputParameters ContentType property. Returns the ContentType string Internet Media Type that identifies the type of the saved document in C#.
+description: Discover the SaveOutputParameters ContentType property, which provides the Internet Media Type for your saved documents, ensuring accurate file identification.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/saveoutputparameters/contenttype/

@@ -3,7 +3,7 @@ title: Source.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words for .NET
-description: Source Title property. Gets or sets the title of a source in C#.
+description: Discover the Source Title property: easily manage and customize your source titles for enhanced organization and clarity in your projects.
 type: docs
 weight: 480
 url: /net/aspose.words.bibliography/source/title/

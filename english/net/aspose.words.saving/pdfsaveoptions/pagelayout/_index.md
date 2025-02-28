@@ -3,7 +3,7 @@ title: PdfSaveOptions.PageLayout
 linktitle: PageLayout
 articleTitle: PageLayout
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions PageLayout property. Specifies the page layout to be used when the document is opened in a PDF reader in C#.
+description: Discover the PdfSaveOptions PageLayout property to customize your PDF’s layout for optimal viewing in any reader. Enhance your document's presentation!
 type: docs
 weight: 250
 url: /net/aspose.words.saving/pdfsaveoptions/pagelayout/

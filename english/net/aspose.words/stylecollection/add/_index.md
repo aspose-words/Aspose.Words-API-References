@@ -3,7 +3,7 @@ title: StyleCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: StyleCollection Add method. Creates a new user defined style and adds it the collection in C#.
+description: Discover the StyleCollection Add method to effortlessly create and add custom user-defined styles to your collection, enhancing your design flexibility.
 type: docs
 weight: 60
 url: /net/aspose.words/stylecollection/add/

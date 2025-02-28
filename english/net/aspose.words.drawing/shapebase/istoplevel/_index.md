@@ -3,7 +3,7 @@ title: ShapeBase.IsTopLevel
 linktitle: IsTopLevel
 articleTitle: IsTopLevel
 second_title: Aspose.Words for .NET
-description: ShapeBase IsTopLevel property. Returns true if this shape is not a child of a group shape in C#.
+description: Discover ShapeBase IsTopLevel: Quickly verify if a shape stands alone, enhancing your design workflow with efficient group management.
 type: docs
 weight: 370
 url: /net/aspose.words.drawing/shapebase/istoplevel/

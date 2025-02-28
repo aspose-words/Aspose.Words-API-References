@@ -3,7 +3,7 @@ title: MergeFieldImageDimension.Unit
 linktitle: Unit
 articleTitle: Unit
 second_title: Aspose.Words for .NET
-description: MergeFieldImageDimension Unit property. The unit in C#.
+description: Discover the MergeFieldImageDimension Unit property for precise image scaling. Enhance your design with accurate dimensions and improved visual appeal.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/mergefieldimagedimension/unit/

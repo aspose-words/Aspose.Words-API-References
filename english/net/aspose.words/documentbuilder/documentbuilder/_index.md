@@ -3,7 +3,7 @@ title: DocumentBuilder
 linktitle: DocumentBuilder
 articleTitle: DocumentBuilder
 second_title: Aspose.Words for .NET
-description: DocumentBuilder constructor. Initializes a new instance of this class in C#.
+description: Create powerful documents effortlessly with DocumentBuilder. Initialize a new instance and streamline your document management today!
 type: docs
 weight: 10
 url: /net/aspose.words/documentbuilder/documentbuilder/

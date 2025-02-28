@@ -3,7 +3,7 @@ title: ListLevel.StartAt
 linktitle: StartAt
 articleTitle: StartAt
 second_title: Aspose.Words for .NET
-description: ListLevel StartAt property. Returns or sets the starting number for this list level in C#.
+description: Discover the ListLevel StartAt property to easily customize your list's starting number, enhancing organization and clarity in your documents.
 type: docs
 weight: 110
 url: /net/aspose.words.lists/listlevel/startat/

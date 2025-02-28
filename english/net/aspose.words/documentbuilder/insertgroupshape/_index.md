@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertGroupShape
 linktitle: InsertGroupShape
 articleTitle: InsertGroupShape
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertGroupShape method. Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position in C#.
+description: Effortlessly group shapes with DocumentBuilder's InsertGroupShape method. Create organized designs by inserting new GroupShape nodes seamlessly.
 type: docs
 weight: 360
 url: /net/aspose.words/documentbuilder/insertgroupshape/

@@ -3,7 +3,7 @@ title: FontInfo.GetEmbeddedFontAsOpenType
 linktitle: GetEmbeddedFontAsOpenType
 articleTitle: GetEmbeddedFontAsOpenType
 second_title: Aspose.Words for .NET
-description: FontInfo GetEmbeddedFontAsOpenType method. Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType in C#.
+description: Discover how the FontInfo GetEmbeddedFontAsOpenType method retrieves embedded fonts in OpenType format, enhancing your design flexibility and quality.
 type: docs
 weight: 100
 url: /net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/

@@ -3,7 +3,7 @@ title: ListLevel Class
 linktitle: ListLevel
 articleTitle: ListLevel
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Lists.ListLevel class. Defines formatting for a list level in C#.
+description: Discover the Aspose.Words.Lists.ListLevel class for advanced list formatting. Enhance your document's structure with powerful, customizable options.
 type: docs
 weight: 3930
 url: /net/aspose.words.lists/listlevel/

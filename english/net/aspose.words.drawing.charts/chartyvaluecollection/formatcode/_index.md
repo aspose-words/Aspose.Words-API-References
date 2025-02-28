@@ -3,7 +3,7 @@ title: ChartYValueCollection.FormatCode
 linktitle: FormatCode
 articleTitle: FormatCode
 second_title: Aspose.Words for .NET
-description: ChartYValueCollection FormatCode property. Gets or sets the format code applied to the Y values in C#.
+description: Discover the ChartYValueCollection FormatCode property to easily customize Y value formatting. Enhance your data visualization with precision!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartyvaluecollection/formatcode/

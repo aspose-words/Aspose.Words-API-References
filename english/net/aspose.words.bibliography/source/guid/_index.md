@@ -3,7 +3,7 @@ title: Source.Guid
 linktitle: Guid
 articleTitle: Guid
 second_title: Aspose.Words for .NET
-description: Source Guid property. Gets or sets the guid of a source in C#.
+description: Manage your Source Guid property effortlessly. Easily get or set the GUID for streamlined data handling and enhanced organization.
 type: docs
 weight: 210
 url: /net/aspose.words.bibliography/source/guid/

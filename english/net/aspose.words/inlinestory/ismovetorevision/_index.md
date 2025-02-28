@@ -3,7 +3,7 @@ title: InlineStory.IsMoveToRevision
 linktitle: IsMoveToRevision
 articleTitle: IsMoveToRevision
 second_title: Aspose.Words for .NET
-description: InlineStory IsMoveToRevision property. Returns true if this object was moved inserted in Microsoft Word while change tracking was enabled in C#.
+description: Discover InlineStory's IsMoveToRevision property: easily track changes in Microsoft Word with true/false status for seamless document editing.
 type: docs
 weight: 60
 url: /net/aspose.words/inlinestory/ismovetorevision/

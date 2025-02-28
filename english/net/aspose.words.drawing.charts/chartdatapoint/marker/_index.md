@@ -3,7 +3,7 @@ title: ChartDataPoint.Marker
 linktitle: Marker
 articleTitle: Marker
 second_title: Aspose.Words for .NET
-description: ChartDataPoint Marker property. Specifies chart data marker in C#.
+description: Discover the ChartDataPoint Marker property to enhance your charts with customizable data markers for clearer insights and impactful visualizations.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartdatapoint/marker/

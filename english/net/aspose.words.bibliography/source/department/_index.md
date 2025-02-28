@@ -3,7 +3,7 @@ title: Source.Department
 linktitle: Department
 articleTitle: Department
 second_title: Aspose.Words for .NET
-description: Source Department property. Gets or sets the department of a source in C#.
+description: Manage your source department effortlessly. Easily get or set department details for improved organization and efficiency. Discover seamless integration today!
 type: docs
 weight: 170
 url: /net/aspose.words.bibliography/source/department/

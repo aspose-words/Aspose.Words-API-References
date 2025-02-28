@@ -3,7 +3,7 @@ title: GlowFormat.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words for .NET
-description: GlowFormat Color property. Gets or sets a Color object that represents the color for a glow effect. The default value is Black in C#.
+description: Discover the GlowFormat Color property to customize your glow effects. Easily set vibrant colors for stunning visual impact. Default is Black.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/glowformat/color/

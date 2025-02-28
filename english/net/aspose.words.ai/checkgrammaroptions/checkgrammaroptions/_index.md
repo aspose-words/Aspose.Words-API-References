@@ -3,7 +3,7 @@ title: CheckGrammarOptions
 linktitle: CheckGrammarOptions
 articleTitle: CheckGrammarOptions
 second_title: Aspose.Words for .NET
-description: CheckGrammarOptions constructor. The default constructor in C#.
+description: Explore the CheckGrammarOptions constructor for seamless grammar checks. Unlock default settings for enhanced writing accuracy and efficiency!
 type: docs
 weight: 10
 url: /net/aspose.words.ai/checkgrammaroptions/checkgrammaroptions/

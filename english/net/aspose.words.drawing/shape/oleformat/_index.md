@@ -3,7 +3,7 @@ title: Shape.OleFormat
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words for .NET
-description: Shape OleFormat property. Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control returns null in C#.
+description: Access and manage the OleFormat property of shapes effortlessly. Retrieve OLE data for enhanced functionality, with null return for non-OLE objects.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/shape/oleformat/

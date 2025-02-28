@@ -3,7 +3,7 @@ title: Forms2OleControl.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words for .NET
-description: Forms2OleControl Height property. Gets or sets a height of the control in points in C#.
+description: Adjust the Forms2OleControl's height property effortlessly in points for optimal display and functionality. Enhance your UI with precise control dimensions!
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.ole/forms2olecontrol/height/

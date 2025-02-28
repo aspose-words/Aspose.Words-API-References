@@ -3,7 +3,7 @@ title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
 second_title: Aspose.Words for .NET
-description: FontInfo Charset property. Gets or sets the character set for the font in C#.
+description: Discover the FontInfo Charset property to easily manage and customize your font's character set for enhanced design flexibility and readability.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontinfo/charset/

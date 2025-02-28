@@ -3,7 +3,7 @@ title: Body.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET
-description: Body EnsureMinimum method. If the last child is not a paragraph creates and appends one empty paragraph in C#.
+description: Optimize your content with the Body EnsureMinimum method. Automatically add an empty paragraph if the last child isn't a paragraph for better formatting.
 type: docs
 weight: 70
 url: /net/aspose.words/body/ensureminimum/

@@ -3,7 +3,7 @@ title: TaskPane.WebExtension
 linktitle: WebExtension
 articleTitle: WebExtension
 second_title: Aspose.Words for .NET
-description: TaskPane WebExtension property. Represents an web extension object in C#.
+description: Discover the TaskPane WebExtension property—your key to enhancing web extension functionality and user experience. Unlock new possibilities today!
 type: docs
 weight: 60
 url: /net/aspose.words.webextensions/taskpane/webextension/

@@ -3,7 +3,7 @@ title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection class. Represents collection of Forms2OleControl objects in C#.
+description: Discover the Aspose.Words.Drawing.Ole.Forms2OleControlCollection class, your solution for managing Forms2OleControl objects efficiently in document processing.
 type: docs
 weight: 1460
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/

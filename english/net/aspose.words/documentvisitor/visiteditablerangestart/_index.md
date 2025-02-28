@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitEditableRangeStart
 linktitle: VisitEditableRangeStart
 articleTitle: VisitEditableRangeStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitEditableRangeStart method. Called when a start of an editable range is encountered in the document in C#.
+description: Discover the DocumentVisitor VisitEditableRangeStart method, triggered at the start of editable ranges for seamless document editing and enhanced user experience.
 type: docs
 weight: 170
 url: /net/aspose.words/documentvisitor/visiteditablerangestart/

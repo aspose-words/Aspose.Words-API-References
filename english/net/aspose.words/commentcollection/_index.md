@@ -3,7 +3,7 @@ title: CommentCollection Class
 linktitle: CommentCollection
 articleTitle: CommentCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.CommentCollection class. Provides typed access to a collection of Comment nodes in C#.
+description: Discover the Aspose.Words.CommentCollection class for easy access to Comment nodes, enhancing document editing and collaboration in your projects.
 type: docs
 weight: 430
 url: /net/aspose.words/commentcollection/

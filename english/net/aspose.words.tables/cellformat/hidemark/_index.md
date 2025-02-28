@@ -3,7 +3,7 @@ title: CellFormat.HideMark
 linktitle: HideMark
 articleTitle: HideMark
 second_title: Aspose.Words for .NET
-description: CellFormat HideMark property. Returns or sets visibility of cell mark in C#.
+description: Control cell visibility with the CellFormat HideMark property. Easily manage cell marks for enhanced spreadsheet clarity and organization.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/cellformat/hidemark/

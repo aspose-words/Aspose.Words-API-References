@@ -3,7 +3,7 @@ title: FieldRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words for .NET
-description: FieldRef InsertHyperlink property. Gets or sets whether to create a hyperlink to the bookmarked paragraph in C#.
+description: Discover the FieldRef InsertHyperlink property: easily create hyperlinks to bookmarked paragraphs, enhancing navigation and user experience in your documents.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldref/inserthyperlink/

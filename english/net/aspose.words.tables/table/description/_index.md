@@ -3,7 +3,7 @@ title: Table.Description
 linktitle: Description
 articleTitle: Description
 second_title: Aspose.Words for .NET
-description: Table Description property. Gets or sets description of this table. It provides an alternative text representation of the information contained in the table in C#.
+description: Enhance your tables with descriptive properties for better accessibility. Easily set and retrieve alternative text for improved user experience.
 type: docs
 weight: 110
 url: /net/aspose.words.tables/table/description/

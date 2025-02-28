@@ -3,7 +3,7 @@ title: UserInformation.DefaultUser
 linktitle: DefaultUser
 articleTitle: DefaultUser
 second_title: Aspose.Words for .NET
-description: UserInformation DefaultUser property. Default user information in C#.
+description: Discover the DefaultUser property for seamless user information management. Enhance your app's efficiency with our easy-to-use features!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/userinformation/defaultuser/

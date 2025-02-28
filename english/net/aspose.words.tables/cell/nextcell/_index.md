@@ -3,7 +3,7 @@ title: Cell.NextCell
 linktitle: NextCell
 articleTitle: NextCell
 second_title: Aspose.Words for .NET
-description: Cell NextCell property. Gets the next Cell node in C#.
+description: Discover the NextCell property to easily access the next Cell node, enhancing your data management and streamlining your workflow.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/cell/nextcell/

@@ -3,9 +3,9 @@ title: CompatibilityOptions Class
 linktitle: CompatibilityOptions
 articleTitle: CompatibilityOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.CompatibilityOptions class. Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word in C#.
+description: Discover Aspose.Words.Settings.CompatibilityOptions for seamless integration of user preferences from Microsoft Word's Compatibility tab. Enhance your document experience!
 type: docs
-weight: 6450
+weight: 6460
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class

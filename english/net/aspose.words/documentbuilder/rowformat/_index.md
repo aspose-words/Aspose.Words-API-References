@@ -3,7 +3,7 @@ title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words for .NET
-description: DocumentBuilder RowFormat property. Returns an object that represents current table row formatting properties in C#.
+description: Explore the DocumentBuilder RowFormat property to easily access and customize table row formatting for enhanced document design and presentation.
 type: docs
 weight: 180
 url: /net/aspose.words/documentbuilder/rowformat/

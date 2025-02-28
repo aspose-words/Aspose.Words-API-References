@@ -3,7 +3,7 @@ title: FieldDatabase.FormatAttributes
 linktitle: FormatAttributes
 articleTitle: FormatAttributes
 second_title: Aspose.Words for .NET
-description: FieldDatabase FormatAttributes property. Gets or sets which attributes of the format are to be applied to the table in C#.
+description: Discover the FieldDatabase FormatAttributes property to easily customize table attributes, enhancing your data management and presentation.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fielddatabase/formatattributes/

@@ -3,7 +3,7 @@ title: FieldCreateDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words for .NET
-description: FieldCreateDate UseUmAlQuraCalendar property. Gets or sets whether to use the UmalQura calendar in C#.
+description: Manage date formats effortlessly with the FieldCreateDate UseUmAlQuraCalendar property. Switch to the UmalQura calendar for precise date handling.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldcreatedate/useumalquracalendar/

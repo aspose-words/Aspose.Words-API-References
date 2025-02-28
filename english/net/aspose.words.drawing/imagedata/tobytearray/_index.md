@@ -3,7 +3,7 @@ title: ImageData.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words for .NET
-description: ImageData ToByteArray method. Returns image bytes for any image regardless whether the image is stored or linked in C#.
+description: Convert any image to byte array effortlessly with the ImageData ToByteArray method. Access image bytes from stored or linked sources easily!
 type: docs
 weight: 220
 url: /net/aspose.words.drawing/imagedata/tobytearray/

@@ -3,7 +3,7 @@ title: MappedDataFieldCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: MappedDataFieldCollection Add method. Adds a new field mapping in C#.
+description: Discover how to use the MappedDataFieldCollection Add method to effortlessly create new field mappings and enhance your data management efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/add/

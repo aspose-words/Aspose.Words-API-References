@@ -3,7 +3,7 @@ title: ChartSeriesGroup.SecondSectionSize
 linktitle: SecondSectionSize
 articleTitle: SecondSectionSize
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroup SecondSectionSize property. Gets or sets the size of the pie chart secondary section as a percentage in C#.
+description: Discover how to adjust the SecondSectionSize property in ChartSeriesGroup to customize your pie chart's secondary section size effectively.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartseriesgroup/secondsectionsize/

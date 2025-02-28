@@ -3,7 +3,7 @@ title: ParagraphFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words for .NET
-description: ParagraphFormat ClearFormatting method. Resets to default paragraph formatting in C#.
+description: Reset your paragraph formatting effortlessly with the ClearFormatting method, ensuring a polished and professional look for your documents.
 type: docs
 weight: 430
 url: /net/aspose.words/paragraphformat/clearformatting/

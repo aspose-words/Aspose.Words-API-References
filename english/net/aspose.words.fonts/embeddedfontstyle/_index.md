@@ -3,7 +3,7 @@ title: EmbeddedFontStyle Enum
 linktitle: EmbeddedFontStyle
 articleTitle: EmbeddedFontStyle
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.EmbeddedFontStyle enum. Specifies the style of an embedded font inside a FontInfo object in C#.
+description: Discover the Aspose.Words EmbeddedFontStyle enum to easily manage embedded font styles in FontInfo objects, enhancing your document formatting capabilities.
 type: docs
 weight: 3260
 url: /net/aspose.words.fonts/embeddedfontstyle/

@@ -3,7 +3,7 @@ title: SpecialChar.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: SpecialChar NodeType property. Returns SpecialChar in C#.
+description: Discover the SpecialChar NodeType property that efficiently returns unique special characters, enhancing your data management and user experience.
 type: docs
 weight: 10
 url: /net/aspose.words/specialchar/nodetype/

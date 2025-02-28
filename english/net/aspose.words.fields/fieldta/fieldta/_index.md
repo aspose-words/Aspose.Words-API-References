@@ -3,7 +3,7 @@ title: FieldTA
 linktitle: FieldTA
 articleTitle: FieldTA
 second_title: Aspose.Words for .NET
-description: FieldTA constructor. The default constructor in C#.
+description: Discover FieldTA's powerful constructor for seamless integration. Build custom solutions effortlessly and enhance your project's efficiency today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldta/fieldta/

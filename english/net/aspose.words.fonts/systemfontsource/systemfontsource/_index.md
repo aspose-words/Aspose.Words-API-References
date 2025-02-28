@@ -3,7 +3,7 @@ title: SystemFontSource
 linktitle: SystemFontSource
 articleTitle: SystemFontSource
 second_title: Aspose.Words for .NET
-description: SystemFontSource constructor. Ctor in C#.
+description: Discover the SystemFontSource constructor for efficient font management. Enhance your web design with optimized typography solutions today!
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/systemfontsource/systemfontsource/

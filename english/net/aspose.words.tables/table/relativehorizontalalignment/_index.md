@@ -3,7 +3,7 @@ title: Table.RelativeHorizontalAlignment
 linktitle: RelativeHorizontalAlignment
 articleTitle: RelativeHorizontalAlignment
 second_title: Aspose.Words for .NET
-description: Table RelativeHorizontalAlignment property. Gets or sets floating table relative horizontal alignment in C#.
+description: Discover the Table RelativeHorizontalAlignment property to easily adjust your table's horizontal alignment for enhanced layout control and visual appeal.
 type: docs
 weight: 230
 url: /net/aspose.words.tables/table/relativehorizontalalignment/

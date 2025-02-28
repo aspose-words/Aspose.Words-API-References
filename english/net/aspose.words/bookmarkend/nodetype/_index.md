@@ -3,7 +3,7 @@ title: BookmarkEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: BookmarkEnd NodeType property. Returns BookmarkEnd in C#.
+description: Discover the BookmarkEnd NodeType property to efficiently retrieve BookmarkEnd in your projects. Enhance your coding with this essential feature!
 type: docs
 weight: 30
 url: /net/aspose.words/bookmarkend/nodetype/

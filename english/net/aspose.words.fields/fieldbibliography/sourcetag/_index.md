@@ -3,7 +3,7 @@ title: FieldBibliography.SourceTag
 linktitle: SourceTag
 articleTitle: SourceTag
 second_title: Aspose.Words for .NET
-description: FieldBibliography SourceTag property. Gets or sets a value so that only the sources with matching Tag element value are displayed in the bibliography in C#.
+description: Manage your bibliography effortlessly with the SourceTag property—filter sources by matching tags for a tailored, organized reference list.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbibliography/sourcetag/

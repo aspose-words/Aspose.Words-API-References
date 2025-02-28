@@ -3,7 +3,7 @@ title: FontInfo Class
 linktitle: FontInfo
 articleTitle: FontInfo
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontInfo class. Specifies information about a font used in the document in C#.
+description: Discover the Aspose.Words.Fonts.FontInfo class, your key to detailed font insights for documents, enhancing text quality and visual appeal.
 type: docs
 weight: 3340
 url: /net/aspose.words.fonts/fontinfo/

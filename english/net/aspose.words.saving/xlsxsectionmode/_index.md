@@ -3,9 +3,9 @@ title: XlsxSectionMode Enum
 linktitle: XlsxSectionMode
 articleTitle: XlsxSectionMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.XlsxSectionMode enum. Specifies how sections are handled when saving a document in the XLSX format in C#.
+description: Discover how the Aspose.Words XlsxSectionMode enum optimizes document saving in XLSX format, enhancing your workflow and document management.
 type: docs
-weight: 6370
+weight: 6380
 url: /net/aspose.words.saving/xlsxsectionmode/
 ---
 ## XlsxSectionMode enumeration

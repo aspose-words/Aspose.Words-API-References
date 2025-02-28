@@ -3,7 +3,7 @@ title: Section.HeadersFooters
 linktitle: HeadersFooters
 articleTitle: HeadersFooters
 second_title: Aspose.Words for .NET
-description: Section HeadersFooters property. Provides access to the headers and footers nodes of the section in C#.
+description: Access and manage section headers and footers effortlessly with our intuitive property feature. Enhance document organization and presentation today!
 type: docs
 weight: 30
 url: /net/aspose.words/section/headersfooters/

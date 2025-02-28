@@ -3,7 +3,7 @@ title: FieldToc.PrefixedSequenceIdentifier
 linktitle: PrefixedSequenceIdentifier
 articleTitle: PrefixedSequenceIdentifier
 second_title: Aspose.Words for .NET
-description: FieldToc PrefixedSequenceIdentifier property. Gets or sets the identifier of a sequence for which a prefix should be added to the entrys page number in C#.
+description: Discover the FieldToc PrefixedSequenceIdentifier property—efficiently manage sequence identifiers and enhance your entry's page number with unique prefixes.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/

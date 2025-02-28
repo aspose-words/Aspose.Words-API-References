@@ -3,7 +3,7 @@ title: FieldSkipIf.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words for .NET
-description: FieldSkipIf ComparisonOperator property. Gets or sets the comparison operator in C#.
+description: Discover the FieldSkipIf ComparisonOperator property: easily manage and customize your comparison operators for enhanced data handling.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldskipif/comparisonoperator/

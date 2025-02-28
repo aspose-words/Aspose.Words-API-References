@@ -3,7 +3,7 @@ title: FieldSeq.ResetHeadingLevel
 linktitle: ResetHeadingLevel
 articleTitle: ResetHeadingLevel
 second_title: Aspose.Words for .NET
-description: FieldSeq ResetHeadingLevel property. Gets or sets an integer number representing a heading level to reset the sequence number to. Returns 1 if the number is absent in C#.
+description: Discover the FieldSeq ResetHeadingLevel property: easily manage heading levels by resetting sequence numbers. Simplify your document formatting today!
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldseq/resetheadinglevel/

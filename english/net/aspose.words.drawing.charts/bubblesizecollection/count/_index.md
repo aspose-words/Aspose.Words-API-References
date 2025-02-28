@@ -3,7 +3,7 @@ title: BubbleSizeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: BubbleSizeCollection Count property. Gets the number of items in this collection in C#.
+description: Discover the BubbleSizeCollection Count property to easily track the number of items in your collection. Enhance your data management today!
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/bubblesizecollection/count/

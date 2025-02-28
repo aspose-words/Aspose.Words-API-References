@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertForms2OleControl
 linktitle: InsertForms2OleControl
 articleTitle: InsertForms2OleControl
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertForms2OleControl method. Inserts Forms2OleControl object into current position in C#.
+description: Effortlessly integrate Forms2OleControl with DocumentBuilder's InsertForms2OleControl method. Enhance your document functionality today!
 type: docs
 weight: 350
 url: /net/aspose.words/documentbuilder/insertforms2olecontrol/

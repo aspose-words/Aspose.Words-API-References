@@ -3,7 +3,7 @@ title: Stroke.BackThemeColor
 linktitle: BackThemeColor
 articleTitle: BackThemeColor
 second_title: Aspose.Words for .NET
-description: Stroke BackThemeColor property. Gets or sets a ThemeColor object that represents the stroke background color in C#.
+description: Customize your design with the Stroke BackThemeColor property. Easily set a ThemeColor for your stroke background to enhance visual appeal.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/stroke/backthemecolor/

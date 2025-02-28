@@ -3,7 +3,7 @@ title: Person.Last
 linktitle: Last
 articleTitle: Last
 second_title: Aspose.Words for .NET
-description: Person Last property. Gets or sets the last name of a person in C#.
+description: Manage personal data effortlessly with Person Last property. Easily get or set a person's last name for streamlined data handling.
 type: docs
 weight: 30
 url: /net/aspose.words.bibliography/person/last/

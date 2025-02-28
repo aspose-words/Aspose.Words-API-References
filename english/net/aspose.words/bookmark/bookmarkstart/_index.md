@@ -3,7 +3,7 @@ title: Bookmark.BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words for .NET
-description: Bookmark BookmarkStart property. Gets the node that represents the start of the bookmark in C#.
+description: Discover the BookmarkStart property to easily access the node marking your bookmark's start, enhancing navigation and efficiency in your project.
 type: docs
 weight: 20
 url: /net/aspose.words/bookmark/bookmarkstart/

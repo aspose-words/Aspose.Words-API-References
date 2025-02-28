@@ -3,7 +3,7 @@ title: FieldToc
 linktitle: FieldToc
 articleTitle: FieldToc
 second_title: Aspose.Words for .NET
-description: FieldToc constructor. The default constructor in C#.
+description: Discover FieldToc's powerful constructor for seamless data integration. Simplify your projects with our intuitive tools and enhance your workflow today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldtoc/fieldtoc/

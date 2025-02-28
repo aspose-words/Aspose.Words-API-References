@@ -3,7 +3,7 @@ title: Watermarker.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words for .NET
-description: Watermarker SetImage method. Adds an image watermark into the document in C#.
+description: Enhance your documents with the Watermarker SetImage method. Effortlessly add custom image watermarks for a professional touch.
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/watermarker/setimage/

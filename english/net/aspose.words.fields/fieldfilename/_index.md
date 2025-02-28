@@ -3,7 +3,7 @@ title: FieldFileName Class
 linktitle: FieldFileName
 articleTitle: FieldFileName
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldFileName class. Implements the FILENAME field in C#.
+description: Discover the Aspose.Words.Fields.FieldFileName class, designed to simplify FILENAME field implementation for seamless document automation.
 type: docs
 weight: 2270
 url: /net/aspose.words.fields/fieldfilename/

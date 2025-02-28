@@ -3,9 +3,9 @@ title: SvgTextOutputMode Enum
 linktitle: SvgTextOutputMode
 articleTitle: SvgTextOutputMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.SvgTextOutputMode enum. Allows to specify how text inside a document should be rendered when saving in SVG format in C#.
+description: Discover Aspose.Words.Saving.SvgTextOutputMode enum to customize text rendering in SVG format, enhancing document presentation and visual appeal.
 type: docs
-weight: 6250
+weight: 6260
 url: /net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration

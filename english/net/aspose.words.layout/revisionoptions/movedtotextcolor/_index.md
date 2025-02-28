@@ -3,7 +3,7 @@ title: RevisionOptions.MovedToTextColor
 linktitle: MovedToTextColor
 articleTitle: MovedToTextColor
 second_title: Aspose.Words for .NET
-description: RevisionOptions MovedToTextColor property. Allows to specify the color to be used for areas where content was moved to Moving. Default value is ByAuthor in C#.
+description: Customize your content with RevisionOptions' MovedToTextColor property. Easily highlight moved areas with your chosen color for better visibility.
 type: docs
 weight: 110
 url: /net/aspose.words.layout/revisionoptions/movedtotextcolor/

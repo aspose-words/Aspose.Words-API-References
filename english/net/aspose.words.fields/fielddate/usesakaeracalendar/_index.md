@@ -3,7 +3,7 @@ title: FieldDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words for .NET
-description: FieldDate UseSakaEraCalendar property. Gets or sets whether to use the Saka Era calendar in C#.
+description: Discover how FieldDate enhances your projects with Saka Era calendar support. Easily set or adjust your date formats for seamless integration.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fielddate/usesakaeracalendar/

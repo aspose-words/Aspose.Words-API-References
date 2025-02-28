@@ -3,7 +3,7 @@ title: FieldGreetingLine.AlternateText
 linktitle: AlternateText
 articleTitle: AlternateText
 second_title: Aspose.Words for .NET
-description: FieldGreetingLine AlternateText property. Gets or sets the text to include in the field if the name is blank in C#.
+description: Discover how to use the FieldGreetingLine AlternateText property to enhance user experience by displaying custom text when names are missing.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldgreetingline/alternatetext/

@@ -3,7 +3,7 @@ title: ChartDataLabel.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words for .NET
-description: ChartDataLabel ShowBubbleSize property. Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is false in C#.
+description: Discover how the ShowBubbleSize property enhances your Bubble charts by displaying data label sizes. Optimize your visual data representation today!
 type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/

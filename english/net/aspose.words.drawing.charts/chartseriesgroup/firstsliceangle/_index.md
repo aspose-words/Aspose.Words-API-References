@@ -3,7 +3,7 @@ title: ChartSeriesGroup.FirstSliceAngle
 linktitle: FirstSliceAngle
 articleTitle: FirstSliceAngle
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroup FirstSliceAngle property. Gets or sets the angle in degrees of the first slice of the parent pie chart in C#.
+description: Discover the ChartSeriesGroup FirstSliceAngle property to customize your pie chart's first slice angle in degrees for enhanced data visualization.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartseriesgroup/firstsliceangle/

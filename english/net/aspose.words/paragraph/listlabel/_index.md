@@ -3,7 +3,7 @@ title: Paragraph.ListLabel
 linktitle: ListLabel
 articleTitle: ListLabel
 second_title: Aspose.Words for .NET
-description: Paragraph ListLabel property. Gets a ListLabel object that provides access to list numbering value and formatting for this paragraph in C#.
+description: Access and format list numbering with the Paragraph ListLabel property. Enhance your document's organization and clarity effortlessly!
 type: docs
 weight: 160
 url: /net/aspose.words/paragraph/listlabel/

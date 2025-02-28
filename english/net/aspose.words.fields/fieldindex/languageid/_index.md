@@ -3,7 +3,7 @@ title: FieldIndex.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
 second_title: Aspose.Words for .NET
-description: FieldIndex LanguageId property. Gets or sets the language ID used to generate the index in C#.
+description: Discover the FieldIndex LanguageId property to easily manage language IDs for optimized indexing. Enhance your search capabilities today!
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldindex/languageid/

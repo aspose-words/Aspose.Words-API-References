@@ -3,7 +3,7 @@ title: HeaderFooterCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: HeaderFooterCollection Item property. Retrieves a HeaderFooter at the given index in C#.
+description: Access HeaderFooters effortlessly with the Item property. Retrieve specific headers or footers by index for streamlined document management.
 type: docs
 weight: 10
 url: /net/aspose.words/headerfootercollection/item/

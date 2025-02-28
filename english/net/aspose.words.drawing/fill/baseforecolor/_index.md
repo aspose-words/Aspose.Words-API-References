@@ -3,7 +3,7 @@ title: Fill.BaseForeColor
 linktitle: BaseForeColor
 articleTitle: BaseForeColor
 second_title: Aspose.Words for .NET
-description: Fill BaseForeColor property. Gets a Color object that represents the base foreground color for the fill without any modifiers in C#.
+description: Discover the BaseForeColor property to access a Color object representing the true foreground color for your fill, enhancing your design's clarity and appeal.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/fill/baseforecolor/

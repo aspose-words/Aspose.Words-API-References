@@ -3,7 +3,7 @@ title: FieldDatabase.InsertOnceOnMailMerge
 linktitle: InsertOnceOnMailMerge
 articleTitle: InsertOnceOnMailMerge
 second_title: Aspose.Words for .NET
-description: FieldDatabase InsertOnceOnMailMerge property. Gets or sets whether to insert data at the beginning of a merge in C#.
+description: Discover how the InsertOnceOnMailMerge property in FieldDatabase enhances your data merging by allowing seamless insertion at the start of merges.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fielddatabase/insertonceonmailmerge/

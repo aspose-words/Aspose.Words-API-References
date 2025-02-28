@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitSpecialChar
 linktitle: VisitSpecialChar
 articleTitle: VisitSpecialChar
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitSpecialChar method. Called when a SpecialChar node is encountered in the document in C#.
+description: Discover how the DocumentVisitor VisitSpecialChar method enhances your document processing by efficiently handling SpecialChar nodes for better performance.
 type: docs
 weight: 430
 url: /net/aspose.words/documentvisitor/visitspecialchar/

@@ -3,7 +3,7 @@ title: ListCollection.AddSingleLevelList
 linktitle: AddSingleLevelList
 articleTitle: AddSingleLevelList
 second_title: Aspose.Words for .NET
-description: ListCollection AddSingleLevelList method. Creates a new single level list based on the predefined template and adds it to the list collection in the document in C#.
+description: Effortlessly create and add a single-level list to your document with the ListCollection AddSingleLevelList method, enhancing organization and clarity.
 type: docs
 weight: 60
 url: /net/aspose.words.lists/listcollection/addsinglelevellist/

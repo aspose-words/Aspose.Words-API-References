@@ -3,7 +3,7 @@ title: ContributorCollection.Interviewer
 linktitle: Interviewer
 articleTitle: Interviewer
 second_title: Aspose.Words for .NET
-description: ContributorCollection Interviewer property. Gets or sets the interviewer of a source in C#.
+description: Discover the ContributorCollection Interviewer property: easily manage and customize the interviewer details for your sources. Enhance your data management today!
 type: docs
 weight: 110
 url: /net/aspose.words.bibliography/contributorcollection/interviewer/

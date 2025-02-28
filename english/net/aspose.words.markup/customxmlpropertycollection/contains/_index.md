@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words for .NET
-description: CustomXmlPropertyCollection Contains method. Determines whether the collection contains a property with the given name in C#.
+description: Discover if CustomXmlPropertyCollection holds a property by name. Efficiently manage your XML data with our reliable methods for seamless integration.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlpropertycollection/contains/

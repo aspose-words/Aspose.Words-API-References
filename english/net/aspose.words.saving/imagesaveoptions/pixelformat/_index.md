@@ -3,7 +3,7 @@ title: ImageSaveOptions.PixelFormat
 linktitle: PixelFormat
 articleTitle: PixelFormat
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions PixelFormat property. Gets or sets the pixel format for the generated images in C#.
+description: Discover the ImageSaveOptions PixelFormat property to easily customize the pixel format of your generated images for optimal quality and performance.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/imagesaveoptions/pixelformat/

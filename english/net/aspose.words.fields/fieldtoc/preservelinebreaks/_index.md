@@ -3,7 +3,7 @@ title: FieldToc.PreserveLineBreaks
 linktitle: PreserveLineBreaks
 articleTitle: PreserveLineBreaks
 second_title: Aspose.Words for .NET
-description: FieldToc PreserveLineBreaks property. Gets or sets whether to preserve newline characters within table entries in C#.
+description: Discover how the FieldToc PreserveLineBreaks property enhances table entries by preserving newline characters for improved readability and formatting.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldtoc/preservelinebreaks/

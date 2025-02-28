@@ -3,7 +3,7 @@ title: Font.NameBi
 linktitle: NameBi
 articleTitle: NameBi
 second_title: Aspose.Words for .NET
-description: Font NameBi property. Returns or sets the name of the font in a righttoleft language document in C#.
+description: Discover how to easily set and customize font names for right-to-left language documents, enhancing readability and design. Optimize your text today!
 type: docs
 weight: 250
 url: /net/aspose.words/font/namebi/

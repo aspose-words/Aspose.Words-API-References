@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFieldSeparator
 linktitle: VisitFieldSeparator
 articleTitle: VisitFieldSeparator
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitFieldSeparator method. Called when a field separator is encountered in the document in C#.
+description: Discover the VisitFieldSeparator method in DocumentVisitor. Efficiently handle field separators in your documents for streamlined processing.
 type: docs
 weight: 190
 url: /net/aspose.words/documentvisitor/visitfieldseparator/

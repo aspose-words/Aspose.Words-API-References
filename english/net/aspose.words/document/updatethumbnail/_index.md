@@ -3,7 +3,7 @@ title: Document.UpdateThumbnail
 linktitle: UpdateThumbnail
 articleTitle: UpdateThumbnail
 second_title: Aspose.Words for .NET
-description: Document UpdateThumbnail method. Updates Thumbnail of the document according to the specified options in C#.
+description: Effortlessly update your document's thumbnail with our customizable options. Enhance your visuals and improve document presentation today!
 type: docs
 weight: 840
 url: /net/aspose.words/document/updatethumbnail/

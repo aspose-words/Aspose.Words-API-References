@@ -3,7 +3,7 @@ title: ChartXValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: ChartXValueCollection Count property. Gets the number of items in this collection in C#.
+description: Discover the ChartXValueCollection Count property to easily retrieve the total number of items in your data collection for efficient analysis.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartxvaluecollection/count/

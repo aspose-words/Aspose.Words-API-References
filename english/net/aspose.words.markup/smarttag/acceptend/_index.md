@@ -3,7 +3,7 @@ title: SmartTag.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: SmartTag AcceptEnd method. Accepts a visitor for visiting the end of the SmartTag in C#.
+description: Discover how the SmartTag AcceptEnd method enhances visitor engagement by seamlessly managing end-of-visit experiences. Boost your site's interaction today!
 type: docs
 weight: 70
 url: /net/aspose.words.markup/smarttag/acceptend/

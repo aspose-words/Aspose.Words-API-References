@@ -3,7 +3,7 @@ title: Row.ParentTable
 linktitle: ParentTable
 articleTitle: ParentTable
 second_title: Aspose.Words for .NET
-description: Row ParentTable property. Returns the immediate parent table of the row in C#.
+description: Discover the Row ParentTable property to easily access the immediate parent table of any row, enhancing your data management and analysis.
 type: docs
 weight: 90
 url: /net/aspose.words.tables/row/parenttable/

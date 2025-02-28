@@ -3,7 +3,7 @@ title: EndnoteOptions.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words for .NET
-description: EndnoteOptions Position property. Specifies the endnotes position in C#.
+description: Discover how the EndnoteOptions Position property enhances your document's layout by specifying the ideal placement for endnotes. Optimize your writing today!
 type: docs
 weight: 20
 url: /net/aspose.words.notes/endnoteoptions/position/

@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: CustomXmlSchemaCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the CustomXmlSchemaCollection Count property to easily retrieve the total number of elements in your XML schema collection. Optimize your data management!
 type: docs
 weight: 10
 url: /net/aspose.words.markup/customxmlschemacollection/count/

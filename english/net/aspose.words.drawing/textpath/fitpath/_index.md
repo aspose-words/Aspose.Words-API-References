@@ -3,7 +3,7 @@ title: TextPath.FitPath
 linktitle: FitPath
 articleTitle: FitPath
 second_title: Aspose.Words for .NET
-description: TextPath FitPath property. Defines whether the text fits the path of a shape in C#.
+description: Discover how TextPath FitPath enhances your design by ensuring text seamlessly follows any shape, creating stunning visual effects.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/textpath/fitpath/

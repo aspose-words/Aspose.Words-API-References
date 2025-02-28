@@ -3,7 +3,7 @@ title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: ImageSavingArgs Document property. Gets the document object that is currently being saved in C#.
+description: Discover the ImageSavingArgs Document property to access the current document being saved, enhancing your workflow efficiency and saving time.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/imagesavingargs/document/

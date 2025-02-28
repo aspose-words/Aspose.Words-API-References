@@ -3,7 +3,7 @@ title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words for .NET
-description: Font StrikeThrough property. True if the font is formatted as strikethrough text in C#.
+description: Discover the Font StrikeThrough property: Easily format text with strikethrough for clear visual emphasis in your designs. Enhance readability today!
 type: docs
 weight: 400
 url: /net/aspose.words/font/strikethrough/

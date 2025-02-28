@@ -3,7 +3,7 @@ title: WarningInfo.WarningType
 linktitle: WarningType
 articleTitle: WarningType
 second_title: Aspose.Words for .NET
-description: WarningInfo WarningType property. Returns the type of the warning in C#.
+description: Discover the WarningInfo WarningType property that reveals essential warning types, enhancing your error handling and improving application reliability.
 type: docs
 weight: 30
 url: /net/aspose.words/warninginfo/warningtype/

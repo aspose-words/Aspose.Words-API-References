@@ -3,7 +3,7 @@ title: ControlChar.NonBreakingSpaceChar
 linktitle: NonBreakingSpaceChar
 articleTitle: NonBreakingSpaceChar
 second_title: Aspose.Words for .NET
-description: ControlChar NonBreakingSpaceChar field. Nonbreaking space character char160 in C#.
+description: Discover ControlChar NonBreakingSpaceChar for seamless text formatting. Enhance your documents with non-breaking space character char160 for improved readability.
 type: docs
 weight: 180
 url: /net/aspose.words/controlchar/nonbreakingspacechar/

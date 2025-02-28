@@ -3,7 +3,7 @@ title: FontEmbeddingLicensingRights.EmbeddingUsagePermissions
 linktitle: EmbeddingUsagePermissions
 articleTitle: EmbeddingUsagePermissions
 second_title: Aspose.Words for .NET
-description: FontEmbeddingLicensingRights EmbeddingUsagePermissions property. Usage permissions in C#.
+description: Unlock creative potential with Font Embedding Licensing Rights. Explore usage permissions for seamless font integration in your projects.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontembeddinglicensingrights/embeddingusagepermissions/

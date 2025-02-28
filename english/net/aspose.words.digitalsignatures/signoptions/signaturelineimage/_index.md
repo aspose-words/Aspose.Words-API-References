@@ -3,7 +3,7 @@ title: SignOptions.SignatureLineImage
 linktitle: SignatureLineImage
 articleTitle: SignatureLineImage
 second_title: Aspose.Words for .NET
-description: SignOptions SignatureLineImage property. The image that will be shown in associated SignatureLine. Default value is null in C#.
+description: Discover the SignOptions SignatureLineImage property to enhance your digital signatures with custom images. Elevate your brand's professionalism today!
 type: docs
 weight: 60
 url: /net/aspose.words.digitalsignatures/signoptions/signaturelineimage/

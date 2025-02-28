@@ -3,7 +3,7 @@ title: ControlChar.ParagraphBreakChar
 linktitle: ParagraphBreakChar
 articleTitle: ParagraphBreakChar
 second_title: Aspose.Words for .NET
-description: ControlChar ParagraphBreakChar field. End of paragraph character char13 or r in C#.
+description: Discover the ControlChar ParagraphBreakChar field: streamline your text formatting with the essential end-of-paragraph character for efficient document editing.
 type: docs
 weight: 230
 url: /net/aspose.words/controlchar/paragraphbreakchar/

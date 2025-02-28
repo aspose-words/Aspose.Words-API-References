@@ -3,7 +3,7 @@ title: ComparisonEvaluationResult.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words for .NET
-description: ComparisonEvaluationResult Result property. Gets the comparison evaluation result in C#.
+description: Discover the ComparisonEvaluationResult property to easily access and analyze evaluation results, enhancing your data insights and decision-making.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/comparisonevaluationresult/result/

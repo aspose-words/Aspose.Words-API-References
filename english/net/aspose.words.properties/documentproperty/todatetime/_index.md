@@ -3,7 +3,7 @@ title: DocumentProperty.ToDateTime
 linktitle: ToDateTime
 articleTitle: ToDateTime
 second_title: Aspose.Words for .NET
-description: DocumentProperty ToDateTime method. Returns the property value as DateTime in UTC in C#.
+description: Convert DocumentProperty to UTC DateTime effortlessly. Access accurate timestamps and enhance your data management with our reliable method.
 type: docs
 weight: 80
 url: /net/aspose.words.properties/documentproperty/todatetime/

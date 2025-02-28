@@ -3,7 +3,7 @@ title: MailMergeSettings.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words for .NET
-description: MailMergeSettings Clone method. Returns a deep clone of this object in C#.
+description: Discover the MailMergeSettings Clone method: effortlessly create a deep copy of your settings for seamless document automation and enhanced efficiency.
 type: docs
 weight: 190
 url: /net/aspose.words.settings/mailmergesettings/clone/

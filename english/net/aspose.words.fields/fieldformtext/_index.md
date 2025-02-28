@@ -3,7 +3,7 @@ title: FieldFormText Class
 linktitle: FieldFormText
 articleTitle: FieldFormText
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldFormText class. Implements the FORMTEXT field in C#.
+description: Discover Aspose.Words.Fields.FieldFormText class for seamless FORMTEXT field implementation. Enhance document automation with powerful features today!
 type: docs
 weight: 2330
 url: /net/aspose.words.fields/fieldformtext/

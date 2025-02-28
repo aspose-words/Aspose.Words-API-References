@@ -3,7 +3,7 @@ title: FormFieldCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: FormFieldCollection GetEnumerator method. Returns an enumerator object in C#.
+description: Discover the FormFieldCollection GetEnumerator method, which provides an efficient way to iterate through form fields, enhancing your data management experience.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/formfieldcollection/getenumerator/

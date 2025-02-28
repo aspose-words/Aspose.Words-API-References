@@ -3,7 +3,7 @@ title: ContributorCollection.Inventor
 linktitle: Inventor
 articleTitle: Inventor
 second_title: Aspose.Words for .NET
-description: ContributorCollection Inventor property. Gets or sets the inventor of a source in C#.
+description: Discover the ContributorCollection Inventor property to easily manage and identify the inventor of your sources, enhancing your project's organization.
 type: docs
 weight: 120
 url: /net/aspose.words.bibliography/contributorcollection/inventor/

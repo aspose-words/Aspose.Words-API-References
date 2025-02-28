@@ -3,7 +3,7 @@ title: ControlChar.NonBreakingSpace
 linktitle: NonBreakingSpace
 articleTitle: NonBreakingSpace
 second_title: Aspose.Words for .NET
-description: ControlChar NonBreakingSpace field. Nonbreaking space character x00a0 in C#.
+description: Discover ControlChar's NonBreakingSpace field for seamless formatting. Enhance your text with the x00a0 character for improved readability!
 type: docs
 weight: 170
 url: /net/aspose.words/controlchar/nonbreakingspace/

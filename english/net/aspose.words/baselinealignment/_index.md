@@ -3,7 +3,7 @@ title: BaselineAlignment Enum
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words for .NET
-description: Aspose.Words.BaselineAlignment enum. Specifies fonts vertical position on a line in C#.
+description: Discover Aspose.Words.BaselineAlignment enum for precise font positioning. Enhance your document formatting with optimal vertical alignment options.
 type: docs
 weight: 130
 url: /net/aspose.words/baselinealignment/

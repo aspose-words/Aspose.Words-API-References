@@ -3,7 +3,7 @@ title: XmlMapping.StoreItemId
 linktitle: StoreItemId
 articleTitle: StoreItemId
 second_title: Aspose.Words for .NET
-description: XmlMapping StoreItemId property. Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the XPath expression in C#.
+description: Discover the XmlMapping StoreItemId property for custom XML data identifiers. Enhance XPath evaluation with our unique solutions for efficient data management.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/xmlmapping/storeitemid/

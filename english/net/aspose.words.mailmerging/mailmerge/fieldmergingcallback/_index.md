@@ -3,7 +3,7 @@ title: MailMerge.FieldMergingCallback
 linktitle: FieldMergingCallback
 articleTitle: FieldMergingCallback
 second_title: Aspose.Words for .NET
-description: MailMerge FieldMergingCallback property. Occurs during mail merge when a mail merge field is encountered in the document in C#.
+description: Discover the MailMerge FieldMergingCallback property, enhancing your mail merge experience by efficiently handling document fields for seamless integration.
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/

@@ -3,7 +3,7 @@ title: ChartTitle.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: ChartTitle Font property. Provides access to the font formatting of the chart title in C#.
+description: Customize your chart title with the ChartTitle Font property for enhanced font formatting. Elevate your data presentation effortlessly!
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/charttitle/font/

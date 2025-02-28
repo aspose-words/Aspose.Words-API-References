@@ -3,7 +3,7 @@ title: Chart.Series
 linktitle: Series
 articleTitle: Series
 second_title: Aspose.Words for .NET
-description: Chart Series property. Provides access to series collection in C#.
+description: Discover the Chart Series property for exclusive access to a unique collection of series. Elevate your data visualization experience today!
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chart/series/

@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: Discover the DocumentPropertyCollection GetEnumerator method. Easily iterate through all collection items with this efficient enumerator for seamless data access.
 type: docs
 weight: 50
 url: /net/aspose.words.properties/documentpropertycollection/getenumerator/

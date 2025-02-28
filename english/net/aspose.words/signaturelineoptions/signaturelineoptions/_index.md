@@ -3,7 +3,7 @@ title: SignatureLineOptions
 linktitle: SignatureLineOptions
 articleTitle: SignatureLineOptions
 second_title: Aspose.Words for .NET
-description: SignatureLineOptions constructor. The default constructor in C#.
+description: Discover the SignatureLineOptions constructor for seamless integration. Unlock default settings for enhanced customization in your projects.
 type: docs
 weight: 10
 url: /net/aspose.words/signaturelineoptions/signaturelineoptions/

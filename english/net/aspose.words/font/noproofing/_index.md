@@ -3,7 +3,7 @@ title: Font.NoProofing
 linktitle: NoProofing
 articleTitle: NoProofing
 second_title: Aspose.Words for .NET
-description: Font NoProofing property. True when the formatted characters are not to be spell checked in C#.
+description: Discover Font NoProofing: Prevent spell check on formatted text for cleaner designs. Enhance your documents with precision and professionalism!
 type: docs
 weight: 280
 url: /net/aspose.words/font/noproofing/

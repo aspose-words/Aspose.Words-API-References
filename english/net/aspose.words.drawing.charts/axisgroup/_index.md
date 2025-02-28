@@ -3,7 +3,7 @@ title: AxisGroup Enum
 linktitle: AxisGroup
 articleTitle: AxisGroup
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.AxisGroup enum. Represents a type of a chart axis group in C#.
+description: Discover the Aspose.Words.Drawing.Charts.AxisGroup enum, your key to managing chart axis groups effectively for enhanced data visualization.
 type: docs
 weight: 800
 url: /net/aspose.words.drawing.charts/axisgroup/

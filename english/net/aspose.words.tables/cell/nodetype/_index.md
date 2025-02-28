@@ -3,7 +3,7 @@ title: Cell.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Cell NodeType property. Returns Cell in C#.
+description: Discover the Cell NodeType property that efficiently returns Cell data. Enhance your coding with our comprehensive guide and unlock its full potential!
 type: docs
 weight: 80
 url: /net/aspose.words.tables/cell/nodetype/

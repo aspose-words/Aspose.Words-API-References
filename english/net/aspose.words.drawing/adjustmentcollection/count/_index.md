@@ -3,7 +3,7 @@ title: AdjustmentCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: AdjustmentCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the AdjustmentCollection Count property to easily retrieve the total number of elements, enhancing your data management efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/adjustmentcollection/count/

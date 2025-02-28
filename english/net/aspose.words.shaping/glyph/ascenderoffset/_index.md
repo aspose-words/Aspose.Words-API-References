@@ -3,7 +3,7 @@ title: Glyph.AscenderOffset
 linktitle: AscenderOffset
 articleTitle: AscenderOffset
 second_title: Aspose.Words for .NET
-description: Glyph AscenderOffset property. Vertical y offset relative to glyph position. Mostly used to attach marks like diacritics to base characters in C#.
+description: Discover the Glyph AscenderOffset property for precise vertical positioning of diacritics on characters. Enhance your typography with expert accuracy!
 type: docs
 weight: 40
 url: /net/aspose.words.shaping/glyph/ascenderoffset/

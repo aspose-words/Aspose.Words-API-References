@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Item property. Returns a DocumentProperty object by the name of the property in C#.
+description: Access DocumentProperty objects effortlessly with the BuiltInDocumentProperties Item property. Streamline your document management today!
 type: docs
 weight: 140
 url: /net/aspose.words.properties/builtindocumentproperties/item/

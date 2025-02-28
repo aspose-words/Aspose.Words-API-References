@@ -3,9 +3,9 @@ title: Metered Class
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Metered class. Provides methods to set metered key in C#.
+description: Unlock the power of Aspose.Words.Metered class! Easily manage your metered key with efficient methods for seamless document processing.
 type: docs
-weight: 4710
+weight: 4720
 url: /net/aspose.words/metered/
 ---
 ## Metered class

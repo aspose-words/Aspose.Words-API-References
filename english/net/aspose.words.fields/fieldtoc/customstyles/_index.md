@@ -3,7 +3,7 @@ title: FieldToc.CustomStyles
 linktitle: CustomStyles
 articleTitle: CustomStyles
 second_title: Aspose.Words for .NET
-description: FieldToc CustomStyles property. Gets or sets a list of styles other than the builtin heading styles to include in the table of contents in C#.
+description: Customize your table of contents with FieldToc's CustomStyles property. Easily add unique styles beyond built-in headings for enhanced presentation.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldtoc/customstyles/

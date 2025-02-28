@@ -3,7 +3,7 @@ title: FieldDde.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words for .NET
-description: FieldDde SourceFullName property. Gets or sets the name and location of the source file in C#.
+description: Discover the FieldDde SourceFullName property to easily manage your source file's name and location. Streamline your data handling today!
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fielddde/sourcefullname/

@@ -3,7 +3,7 @@ title: CompatibilityOptions.DoNotAutofitConstrainedTables
 linktitle: DoNotAutofitConstrainedTables
 articleTitle: DoNotAutofitConstrainedTables
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions DoNotAutofitConstrainedTables property. Do Not AutoFit Tables To Fit Next To Wrapped Objects in C#.
+description: Optimize your tables with the CompatibilityOptions DoNotAutofitConstrainedTables property. Ensure perfect alignment next to wrapped objects effortlessly.
 type: docs
 weight: 120
 url: /net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/

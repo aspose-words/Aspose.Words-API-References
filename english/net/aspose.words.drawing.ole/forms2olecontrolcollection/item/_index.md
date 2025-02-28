@@ -3,7 +3,7 @@ title: Forms2OleControlCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: Forms2OleControlCollection Item property. Gets Forms2OleControl object at a specified index in C#.
+description: Access the Forms2OleControl object effortlessly with the Item property. Simplify your control management by retrieving items at any index seamlessly.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/item/

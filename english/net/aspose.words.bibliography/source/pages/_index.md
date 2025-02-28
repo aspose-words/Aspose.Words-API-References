@@ -3,7 +3,7 @@ title: Source.Pages
 linktitle: Pages
 articleTitle: Pages
 second_title: Aspose.Words for .NET
-description: Source Pages property. Gets or sets the pages of a source in C#.
+description: Manage Source Pages effortlessly. Easily retrieve or set source page details to enhance your content organization and workflow efficiency.
 type: docs
 weight: 310
 url: /net/aspose.words.bibliography/source/pages/

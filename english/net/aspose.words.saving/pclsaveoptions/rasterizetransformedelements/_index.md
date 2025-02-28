@@ -3,7 +3,7 @@ title: PclSaveOptions.RasterizeTransformedElements
 linktitle: RasterizeTransformedElements
 articleTitle: RasterizeTransformedElements
 second_title: Aspose.Words for .NET
-description: PclSaveOptions RasterizeTransformedElements property. Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document. Default is true in C#.
+description: Control rasterization of complex elements in PCL documents with PclSaveOptions. Easily manage image quality and file size for optimal results.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/

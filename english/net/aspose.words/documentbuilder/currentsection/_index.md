@@ -3,7 +3,7 @@ title: DocumentBuilder.CurrentSection
 linktitle: CurrentSection
 articleTitle: CurrentSection
 second_title: Aspose.Words for .NET
-description: DocumentBuilder CurrentSection property. Gets the section that is currently selected in this DocumentBuilder in C#.
+description: Discover the DocumentBuilder CurrentSection property to easily access and manage the selected section in your document, enhancing your editing experience.
 type: docs
 weight: 60
 url: /net/aspose.words/documentbuilder/currentsection/

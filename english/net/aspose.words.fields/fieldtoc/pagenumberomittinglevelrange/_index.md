@@ -3,7 +3,7 @@ title: FieldToc.PageNumberOmittingLevelRange
 linktitle: PageNumberOmittingLevelRange
 articleTitle: PageNumberOmittingLevelRange
 second_title: Aspose.Words for .NET
-description: FieldToc PageNumberOmittingLevelRange property. Gets or sets a range of levels of the table of contents entries from which to omits page numbers in C#.
+description: Discover the FieldToc PageNumberOmittingLevelRange property to customize your table of contents by omitting page numbers for specific entry levels.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/

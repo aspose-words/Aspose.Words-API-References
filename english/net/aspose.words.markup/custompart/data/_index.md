@@ -3,7 +3,7 @@ title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
 second_title: Aspose.Words for .NET
-description: CustomPart Data property. Contains the data of this custom part in C#.
+description: Explore CustomPart Data: Access detailed information about your custom parts for enhanced precision and efficiency in your projects.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/custompart/data/

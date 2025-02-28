@@ -3,7 +3,7 @@ title: AxisDisplayUnit.Unit
 linktitle: Unit
 articleTitle: Unit
 second_title: Aspose.Words for .NET
-description: AxisDisplayUnit Unit property. Gets or sets the scaling value of the display units as one of the predefined values in C#.
+description: Discover the AxisDisplayUnit property to easily customize display unit scaling with predefined values for enhanced data visualization.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisdisplayunit/unit/

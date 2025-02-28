@@ -3,7 +3,7 @@ title: EditableRange.SingleUser
 linktitle: SingleUser
 articleTitle: SingleUser
 second_title: Aspose.Words for .NET
-description: EditableRange SingleUser property. Returns or sets the single user for editable range in C#.
+description: Discover the EditableRange SingleUser property to efficiently manage editable ranges, ensuring seamless collaboration and user-specific access control.
 type: docs
 weight: 50
 url: /net/aspose.words/editablerange/singleuser/

@@ -3,7 +3,7 @@ title: MarkdownLoadOptions.ImportUnderlineFormatting
 linktitle: ImportUnderlineFormatting
 articleTitle: ImportUnderlineFormatting
 second_title: Aspose.Words for .NET
-description: MarkdownLoadOptions ImportUnderlineFormatting property. Gets or sets a boolean value indicating either to recognize a sequence of two plus characters  as underline text formatting. The default value is false in C#.
+description: Discover the MarkdownLoadOptions ImportUnderlineFormatting property. Control underline text formatting with a simple boolean setting. Enhance your Markdown experience!
 type: docs
 weight: 20
 url: /net/aspose.words.loading/markdownloadoptions/importunderlineformatting/

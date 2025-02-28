@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocumentInline
 linktitle: InsertDocumentInline
 articleTitle: InsertDocumentInline
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertDocumentInline method. Inserts a document inline at the cursor position in C#.
+description: Effortlessly insert documents inline with the DocumentBuilder InsertDocumentInline method, enhancing your workflow and document editing experience.
 type: docs
 weight: 320
 url: /net/aspose.words/documentbuilder/insertdocumentinline/

@@ -3,7 +3,7 @@ title: FootnoteSeparatorCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: FootnoteSeparatorCollection GetEnumerator method.  in C#.
+description: Discover the FootnoteSeparatorCollection GetEnumerator method to enhance your coding efficiency and streamline your data handling in applications.
 type: docs
 weight: 30
 url: /net/aspose.words.notes/footnoteseparatorcollection/getenumerator/

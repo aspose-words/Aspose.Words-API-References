@@ -3,7 +3,7 @@ title: Border.IsVisible
 linktitle: IsVisible
 articleTitle: IsVisible
 second_title: Aspose.Words for .NET
-description: Border IsVisible property. Returns true if the LineStyle is not None in C#.
+description: Discover how the Border IsVisible property enhances your design by returning true when LineStyle is applied. Optimize your UI with this key feature!
 type: docs
 weight: 30
 url: /net/aspose.words/border/isvisible/

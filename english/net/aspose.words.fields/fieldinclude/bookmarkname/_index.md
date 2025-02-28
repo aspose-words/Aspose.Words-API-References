@@ -3,7 +3,7 @@ title: FieldInclude.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words for .NET
-description: FieldInclude BookmarkName property. Gets or sets the name of the bookmark in the document to include in C#.
+description: Discover how to use the FieldInclude BookmarkName property to easily manage bookmarks in your documents for enhanced organization and efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldinclude/bookmarkname/

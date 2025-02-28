@@ -3,7 +3,7 @@ title: ShapeBase.BoundsInPoints
 linktitle: BoundsInPoints
 articleTitle: BoundsInPoints
 second_title: Aspose.Words for .NET
-description: ShapeBase BoundsInPoints property. Gets the location and size of the containing block of the shape in points relative to the anchor of the topmost shape in C#.
+description: Discover the ShapeBase BoundsInPoints property to easily access a shape's size and location in points, enhancing your design precision and layout control.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/shapebase/boundsinpoints/

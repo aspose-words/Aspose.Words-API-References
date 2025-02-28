@@ -3,7 +3,7 @@ title: ParagraphFormat.WordWrap
 linktitle: WordWrap
 articleTitle: WordWrap
 second_title: Aspose.Words for .NET
-description: ParagraphFormat WordWrap property. If this property is false Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words in C#.
+description: Discover how the ParagraphFormat WordWrap property affects text wrapping in Word. Learn to control Latin text flow for improved document readability.
 type: docs
 weight: 420
 url: /net/aspose.words/paragraphformat/wordwrap/

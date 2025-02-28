@@ -3,7 +3,7 @@ title: ControlChar.NonBreakingHyphenChar
 linktitle: NonBreakingHyphenChar
 articleTitle: NonBreakingHyphenChar
 second_title: Aspose.Words for .NET
-description: ControlChar NonBreakingHyphenChar field. Nonbreaking Hyphen in Microsoft Word is char30 in C#.
+description: Discover the NonBreaking HyphenChar in Microsoft Word. Enhance your documents with seamless text flow using char30 for professional results.
 type: docs
 weight: 160
 url: /net/aspose.words/controlchar/nonbreakinghyphenchar/

@@ -3,7 +3,7 @@ title: CommentRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: CommentRangeStart Id property. Specifies the identifier of the comment to which this region is linked in C#.
+description: Discover the CommentRangeStart Id property, linking comments seamlessly. Enhance your data organization with this essential identifier for better clarity.
 type: docs
 weight: 20
 url: /net/aspose.words/commentrangestart/id/

@@ -3,7 +3,7 @@ title: AdvancedCompareOptions.IgnoreDmlUniqueId
 linktitle: IgnoreDmlUniqueId
 articleTitle: IgnoreDmlUniqueId
 second_title: Aspose.Words for .NET
-description: AdvancedCompareOptions IgnoreDmlUniqueId property. Specifies whether to ignore difference in DrawingML unique Id in C#.
+description: Discover the AdvancedCompareOptions IgnoreDmlUniqueId property to enhance your DrawingML processing by efficiently managing unique IDs. Optimize your workflow!
 type: docs
 weight: 20
 url: /net/aspose.words.comparing/advancedcompareoptions/ignoredmluniqueid/

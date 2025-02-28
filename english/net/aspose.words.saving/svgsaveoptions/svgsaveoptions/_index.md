@@ -3,7 +3,7 @@ title: SvgSaveOptions
 linktitle: SvgSaveOptions
 articleTitle: SvgSaveOptions
 second_title: Aspose.Words for .NET
-description: SvgSaveOptions constructor. The default constructor in C#.
+description: Discover the SvgSaveOptions constructor for seamless SVG file management. Unlock default settings for efficient graphic exports and enhanced workflow.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/svgsaveoptions/svgsaveoptions/

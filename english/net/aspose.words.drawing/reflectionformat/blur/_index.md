@@ -3,7 +3,7 @@ title: ReflectionFormat.Blur
 linktitle: Blur
 articleTitle: Blur
 second_title: Aspose.Words for .NET
-description: ReflectionFormat Blur property. Gets or sets a double value that specifies the degree of blur effect applied to the reflection effect in points. The default value is 0.0 in C#.
+description: Adjust the ReflectionFormat Blur property to control the blur effect of reflections in your design. Enhance visuals with precision—default is 0.0.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/reflectionformat/blur/

@@ -3,7 +3,7 @@ title: FieldPrintDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words for .NET
-description: FieldPrintDate UseSakaEraCalendar property. Gets or sets whether to use the Saka Era calendar in C#.
+description: Manage your dates effortlessly with FieldPrintDate's Saka Era Calendar feature. Easily toggle for seamless integration and enhanced user experience.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldprintdate/usesakaeracalendar/

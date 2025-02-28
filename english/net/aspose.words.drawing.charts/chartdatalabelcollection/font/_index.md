@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection Font property. Provides access to the font formatting of the data labels of the entire series in C#.
+description: Access and customize the font formatting of your entire series' data labels with the ChartDataLabelCollection Font property for enhanced data visualization.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/font/

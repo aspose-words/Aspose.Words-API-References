@@ -3,7 +3,7 @@ title: FieldImport.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
 second_title: Aspose.Words for .NET
-description: FieldImport GraphicFilter property. Gets or sets the name of the filter for the format of the graphic that is to be inserted in C#.
+description: Discover the FieldImport GraphicFilter property to easily set or retrieve graphic format filters, enhancing your content insertion process.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldimport/graphicfilter/

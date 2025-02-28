@@ -3,7 +3,7 @@ title: Node.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words for .NET
-description: Node Clone method. Creates a duplicate of the node in C#.
+description: Effortlessly duplicate nodes with the Node Clone method. Enhance your development process and streamline project efficiency today!
 type: docs
 weight: 100
 url: /net/aspose.words/node/clone/

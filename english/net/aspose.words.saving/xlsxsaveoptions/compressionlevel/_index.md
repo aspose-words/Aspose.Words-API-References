@@ -3,7 +3,7 @@ title: XlsxSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words for .NET
-description: XlsxSaveOptions CompressionLevel property. Specifies the compression level used to save document. The default value is Normal in C#.
+description: Discover the XlsxSaveOptions CompressionLevel property to optimize document saving with customizable compression settings for efficient file management.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/xlsxsaveoptions/compressionlevel/

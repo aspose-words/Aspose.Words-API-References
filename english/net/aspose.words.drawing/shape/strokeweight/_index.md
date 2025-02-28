@@ -3,7 +3,7 @@ title: Shape.StrokeWeight
 linktitle: StrokeWeight
 articleTitle: StrokeWeight
 second_title: Aspose.Words for .NET
-description: Shape StrokeWeight property. Defines the brush thickness that strokes the path of a shape in points in C#.
+description: Adjust the StrokeWeight property to customize brush thickness for shapes, enhancing your designs with precise line control and professional quality.
 type: docs
 weight: 220
 url: /net/aspose.words.drawing/shape/strokeweight/

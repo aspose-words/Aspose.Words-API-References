@@ -3,7 +3,7 @@ title: Fill.Pattern
 linktitle: Pattern
 articleTitle: Pattern
 second_title: Aspose.Words for .NET
-description: Fill Pattern property. Gets a PatternType for the fill in C#.
+description: Discover the Fill Pattern property to easily access and customize PatternType for your designs. Enhance your projects with unique fill options!
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/fill/pattern/

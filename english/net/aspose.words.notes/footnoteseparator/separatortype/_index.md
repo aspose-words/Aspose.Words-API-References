@@ -3,7 +3,7 @@ title: FootnoteSeparator.SeparatorType
 linktitle: SeparatorType
 articleTitle: SeparatorType
 second_title: Aspose.Words for .NET
-description: FootnoteSeparator SeparatorType property.  in C#.
+description: Discover the FootnoteSeparator SeparatorType property for enhanced document formatting. Optimize your text layout effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words.notes/footnoteseparator/separatortype/

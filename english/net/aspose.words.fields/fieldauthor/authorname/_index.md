@@ -3,7 +3,7 @@ title: FieldAuthor.AuthorName
 linktitle: AuthorName
 articleTitle: AuthorName
 second_title: Aspose.Words for .NET
-description: FieldAuthor AuthorName property. Gets or sets the document authors name in C#.
+description: Manage document authors effortlessly with FieldAuthor AuthorName. Easily get or set author names to enhance your content's credibility and organization.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldauthor/authorname/

@@ -3,7 +3,7 @@ title: BuildingBlock.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: BuildingBlock Type property. Specifies the building block type in C#.
+description: Discover the BuildingBlock Type property, essential for defining building block types in your projects. Enhance your design with clarity and precision!
 type: docs
 weight: 120
 url: /net/aspose.words.buildingblocks/buildingblock/type/

@@ -3,7 +3,7 @@ title: ViewOptions.DoNotDisplayPageBoundaries
 linktitle: DoNotDisplayPageBoundaries
 articleTitle: DoNotDisplayPageBoundaries
 second_title: Aspose.Words for .NET
-description: ViewOptions DoNotDisplayPageBoundaries property. Turns off display of the space between the top of the text and the top edge of the page in C#.
+description: Discover how the ViewOptions DoNotDisplayPageBoundaries property enhances your layout by eliminating top margin space for a cleaner, more professional look.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/

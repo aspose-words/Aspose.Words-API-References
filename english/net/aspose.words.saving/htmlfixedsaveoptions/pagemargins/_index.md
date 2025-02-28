@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.PageMargins
 linktitle: PageMargins
 articleTitle: PageMargins
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions PageMargins property. Specifies the margins around pages in an HTML document. The margins value is measured in points and should be equal to or greater than 0. Default value is 10 points in C#.
+description: Discover the HtmlFixedSaveOptions PageMargins property to customize your HTML document's margins. Set values in points for precise layout control.
 type: docs
 weight: 130
 url: /net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/

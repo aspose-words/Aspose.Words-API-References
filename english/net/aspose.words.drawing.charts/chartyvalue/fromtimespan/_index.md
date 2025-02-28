@@ -3,7 +3,7 @@ title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words for .NET
-description: ChartYValue FromTimeSpan method. Creates a ChartYValue instance of the Time type in C#.
+description: Discover the ChartYValue FromTimeSpan method to effortlessly create Time type instances for your charts. Boost your data visualization today!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartyvalue/fromtimespan/

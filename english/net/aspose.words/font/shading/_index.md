@@ -3,7 +3,7 @@ title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words for .NET
-description: Font Shading property. Returns a Shading object that refers to the shading formatting for the font in C#.
+description: Discover the Font Shading property, which provides a Shading object for customizable font formatting, enhancing your text's visual appeal.
 type: docs
 weight: 330
 url: /net/aspose.words/font/shading/

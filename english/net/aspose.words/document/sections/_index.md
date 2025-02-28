@@ -3,7 +3,7 @@ title: Document.Sections
 linktitle: Sections
 articleTitle: Sections
 second_title: Aspose.Words for .NET
-description: Document Sections property. Returns a collection that represents all sections in the document in C#.
+description: Explore the Document Sections property to access a complete collection of all document sections, enhancing your content organization and navigation.
 type: docs
 weight: 390
 url: /net/aspose.words/document/sections/

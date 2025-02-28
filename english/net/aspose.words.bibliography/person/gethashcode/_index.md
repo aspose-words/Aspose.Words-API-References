@@ -3,7 +3,7 @@ title: Person.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words for .NET
-description: Person GetHashCode method.  in C#.
+description: Discover the Person GetHashCode method to enhance object comparisons and improve your C# coding efficiency. Unlock better performance today!
 type: docs
 weight: 60
 url: /net/aspose.words.bibliography/person/gethashcode/

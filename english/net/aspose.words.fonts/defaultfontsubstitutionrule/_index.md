@@ -3,7 +3,7 @@ title: DefaultFontSubstitutionRule Class
 linktitle: DefaultFontSubstitutionRule
 articleTitle: DefaultFontSubstitutionRule
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule class. Default font substitution rule in C#.
+description: Discover the Aspose.Words.Fonts.DefaultFontSubstitutionRule class for seamless font management and enhanced document formatting. Optimize your workflow today!
 type: docs
 weight: 3240
 url: /net/aspose.words.fonts/defaultfontsubstitutionrule/

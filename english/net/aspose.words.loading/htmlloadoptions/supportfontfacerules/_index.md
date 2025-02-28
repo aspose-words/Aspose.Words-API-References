@@ -3,7 +3,7 @@ title: HtmlLoadOptions.SupportFontFaceRules
 linktitle: SupportFontFaceRules
 articleTitle: SupportFontFaceRules
 second_title: Aspose.Words for .NET
-description: HtmlLoadOptions SupportFontFaceRules property. Gets or sets a value indicating whether to support fontface rules and whether to load declared fonts. Default value is false in C#.
+description: Discover HtmlLoadOptions SupportFontFaceRules: control font loading with ease. Enhance your web design by enabling custom fonts for a polished look.
 type: docs
 weight: 60
 url: /net/aspose.words.loading/htmlloadoptions/supportfontfacerules/

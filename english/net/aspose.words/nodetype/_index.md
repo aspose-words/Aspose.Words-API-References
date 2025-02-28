@@ -3,9 +3,9 @@ title: NodeType Enum
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeType enum. Specifies the type of a Word document node in C#.
+description: Discover the Aspose.Words.NodeType enum to easily identify and manage different Word document node types for seamless document processing.
 type: docs
-weight: 4780
+weight: 4790
 url: /net/aspose.words/nodetype/
 ---
 ## NodeType enumeration

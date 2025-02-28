@@ -3,7 +3,7 @@ title: Style.SemiHidden
 linktitle: SemiHidden
 articleTitle: SemiHidden
 second_title: Aspose.Words for .NET
-description: Style SemiHidden property. Gets/sets whether the style hides from the Styles gallery and from the Styles task pane in C#.
+description: Discover how the SemiHidden property controls style visibility in the Styles gallery and task pane, enhancing your design workflow and efficiency.
 type: docs
 weight: 170
 url: /net/aspose.words/style/semihidden/

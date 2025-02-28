@@ -3,7 +3,7 @@ title: WebExtensionReference.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: WebExtensionReference Id property. Identifier associated with the web extension within a catalog provider in C#.
+description: Discover the WebExtensionReference Id property—your unique identifier for web extensions in catalog providers. Enhance your extension's visibility today!
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextensionreference/id/

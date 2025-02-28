@@ -3,9 +3,9 @@ title: TableStyle Class
 linktitle: TableStyle
 articleTitle: TableStyle
 second_title: Aspose.Words for .NET
-description: Aspose.Words.TableStyle class. Represents a table style in C#.
+description: Discover the Aspose.Words.TableStyle class for creating and customizing stunning table styles in your documents. Enhance your formatting effortlessly!
 type: docs
-weight: 6910
+weight: 6920
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class

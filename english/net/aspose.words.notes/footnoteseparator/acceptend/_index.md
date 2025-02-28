@@ -3,7 +3,7 @@ title: FootnoteSeparator.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: FootnoteSeparator AcceptEnd method.  in C#.
+description: Discover the FootnoteSeparator AcceptEnd method for seamless document formatting. Enhance your writing with efficient footnote management today!
 type: docs
 weight: 40
 url: /net/aspose.words.notes/footnoteseparator/acceptend/

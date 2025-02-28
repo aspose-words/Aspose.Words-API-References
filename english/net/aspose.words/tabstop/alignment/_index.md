@@ -3,7 +3,7 @@ title: TabStop.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words for .NET
-description: TabStop Alignment property. Gets or sets the alignment of text at this tab stop in C#.
+description: Discover the TabStop Alignment property to easily customize text alignment at tab stops, enhancing your document's layout and readability.
 type: docs
 weight: 20
 url: /net/aspose.words/tabstop/alignment/

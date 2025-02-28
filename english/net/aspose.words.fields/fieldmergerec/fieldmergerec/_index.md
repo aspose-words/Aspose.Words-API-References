@@ -3,7 +3,7 @@ title: FieldMergeRec
 linktitle: FieldMergeRec
 articleTitle: FieldMergeRec
 second_title: Aspose.Words for .NET
-description: FieldMergeRec constructor. The default constructor in C#.
+description: Discover the FieldMergeRec constructor—your essential tool for seamless data merging. Unlock efficiency with our default constructor today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldmergerec/fieldmergerec/

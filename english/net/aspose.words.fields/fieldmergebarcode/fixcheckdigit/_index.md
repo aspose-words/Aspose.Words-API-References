@@ -3,7 +3,7 @@ title: FieldMergeBarcode.FixCheckDigit
 linktitle: FixCheckDigit
 articleTitle: FixCheckDigit
 second_title: Aspose.Words for .NET
-description: FieldMergeBarcode FixCheckDigit property. Gets or sets whether to fix the check digit if its invalid in C#.
+description: Optimize your FieldMergeBarcode with the FixCheckDigit property to ensure accurate check digit validation and enhance data integrity effortlessly.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/

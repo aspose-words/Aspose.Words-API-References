@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs Class
 linktitle: FieldUpdatingProgressArgs
 articleTitle: FieldUpdatingProgressArgs
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldUpdatingProgressArgs class. Provides data for the field updating progress event in C#.
+description: Discover the Aspose.Words.Fields.FieldUpdatingProgressArgs class, which enhances your document automation by providing real-time updates on field progress.
 type: docs
 weight: 2970
 url: /net/aspose.words.fields/fieldupdatingprogressargs/

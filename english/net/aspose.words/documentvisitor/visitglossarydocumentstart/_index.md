@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitGlossaryDocumentStart
 linktitle: VisitGlossaryDocumentStart
 articleTitle: VisitGlossaryDocumentStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitGlossaryDocumentStart method. Called when enumeration of a glossary document has started in C#.
+description: Discover the VisitGlossaryDocumentStart method in DocumentVisitor. Efficiently manage glossary document enumeration with ease and precision.
 type: docs
 weight: 250
 url: /net/aspose.words/documentvisitor/visitglossarydocumentstart/

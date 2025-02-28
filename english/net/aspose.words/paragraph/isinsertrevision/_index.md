@@ -3,7 +3,7 @@ title: Paragraph.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words for .NET
-description: Paragraph IsInsertRevision property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled in C#.
+description: Discover the Paragraph IsInsertRevision property in Word. Learn how it identifies inserted text during change tracking for efficient document management.
 type: docs
 weight: 110
 url: /net/aspose.words/paragraph/isinsertrevision/

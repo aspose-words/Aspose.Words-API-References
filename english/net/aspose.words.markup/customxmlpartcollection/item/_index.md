@@ -3,7 +3,7 @@ title: CustomXmlPartCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: CustomXmlPartCollection Item property. Gets or sets an item at the specified index in C#.
+description: Discover how to manage CustomXmlPartCollection items efficiently. Access or modify specific items by index for enhanced XML data handling.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpartcollection/item/

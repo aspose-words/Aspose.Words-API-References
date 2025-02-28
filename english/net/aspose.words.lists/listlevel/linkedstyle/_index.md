@@ -3,7 +3,7 @@ title: ListLevel.LinkedStyle
 linktitle: LinkedStyle
 articleTitle: LinkedStyle
 second_title: Aspose.Words for .NET
-description: ListLevel LinkedStyle property. Gets or sets the paragraph style that is linked to this list level in C#.
+description: Discover the ListLevel LinkedStyle property to easily manage and customize paragraph styles for your lists, enhancing your document's formatting and readability.
 type: docs
 weight: 60
 url: /net/aspose.words.lists/listlevel/linkedstyle/

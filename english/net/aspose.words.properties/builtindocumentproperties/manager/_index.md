@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.Manager
 linktitle: Manager
 articleTitle: Manager
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Manager property. Gets or sets the manager property in C#.
+description: Effortlessly manage BuiltInDocumentProperties with our intuitive tool. Easily get or set properties to enhance your document handling experience.
 type: docs
 weight: 210
 url: /net/aspose.words.properties/builtindocumentproperties/manager/

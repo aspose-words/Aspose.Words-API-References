@@ -3,7 +3,7 @@ title: FileFontSource.CacheKey
 linktitle: CacheKey
 articleTitle: CacheKey
 second_title: Aspose.Words for .NET
-description: FileFontSource CacheKey property. The key of this source in the cache in C#.
+description: Discover the FileFontSource CacheKey property, your key to efficient font management and optimized caching for enhanced performance.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/filefontsource/cachekey/

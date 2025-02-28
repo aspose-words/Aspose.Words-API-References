@@ -3,7 +3,7 @@ title: Stroke.BaseForeColor
 linktitle: BaseForeColor
 articleTitle: BaseForeColor
 second_title: Aspose.Words for .NET
-description: Stroke BaseForeColor property. Gets the base foreground color of the stroke without any modifiers in C#.
+description: Discover the Stroke BaseForeColor property to easily access the unmodified base foreground color of your stroke for precise design control.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/stroke/baseforecolor/

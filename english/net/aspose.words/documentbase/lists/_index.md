@@ -3,7 +3,7 @@ title: DocumentBase.Lists
 linktitle: Lists
 articleTitle: Lists
 second_title: Aspose.Words for .NET
-description: DocumentBase Lists property. Provides access to the list formatting used in the document in C#.
+description: Discover DocumentBase Lists for efficient property management. Access customizable list formatting to enhance your document's presentation and clarity.
 type: docs
 weight: 50
 url: /net/aspose.words/documentbase/lists/

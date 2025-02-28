@@ -3,7 +3,7 @@ title: ListLabel.LabelValue
 linktitle: LabelValue
 articleTitle: LabelValue
 second_title: Aspose.Words for .NET
-description: ListLabel LabelValue property. Gets a numeric value for this label in C#.
+description: Discover the ListLabel LabelValue property to easily retrieve numeric values for labels, enhancing your data management and reporting efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listlabel/labelvalue/

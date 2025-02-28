@@ -3,7 +3,7 @@ title: FormField.SetTextInputValue
 linktitle: SetTextInputValue
 articleTitle: SetTextInputValue
 second_title: Aspose.Words for .NET
-description: FormField SetTextInputValue method. Applies the text format specified in TextInputFormat and stores the value in Result in C#.
+description: Discover how the FormField SetTextInputValue method enhances text formatting and efficiently stores results, streamlining your data input process.
 type: docs
 weight: 250
 url: /net/aspose.words.fields/formfield/settextinputvalue/

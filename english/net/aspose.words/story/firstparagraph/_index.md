@@ -3,7 +3,7 @@ title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words for .NET
-description: Story FirstParagraph property. Gets the first paragraph in the story in C#.
+description: Discover the Story FirstParagraph property to easily extract the first paragraph of any story, enhancing your content and user engagement.
 type: docs
 weight: 10
 url: /net/aspose.words/story/firstparagraph/

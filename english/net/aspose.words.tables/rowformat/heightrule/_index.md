@@ -3,7 +3,7 @@ title: RowFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words for .NET
-description: RowFormat HeightRule property. Gets or sets the rule for determining the height of the table row in C#.
+description: Discover the RowFormat HeightRule property to easily customize table row heights for optimal layout and design in your applications.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/rowformat/heightrule/

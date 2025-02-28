@@ -3,7 +3,7 @@ title: MailMergeSettings.MailSubject
 linktitle: MailSubject
 articleTitle: MailSubject
 second_title: Aspose.Words for .NET
-description: MailMergeSettings MailSubject property. Specifies the text which shall appear in the subject line of the emails or faxes produced during mail merge. The default value is an empty string in C#.
+description: Customize your MailMerge with the MailSubject property to create engaging email or fax subject lines. Enhance communication with personalized content.
 type: docs
 weight: 130
 url: /net/aspose.words.settings/mailmergesettings/mailsubject/

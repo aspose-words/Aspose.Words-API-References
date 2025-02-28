@@ -3,7 +3,7 @@ title: IFieldUpdateCultureProvider Interface
 linktitle: IFieldUpdateCultureProvider
 articleTitle: IFieldUpdateCultureProvider
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider interface. When implemented provides a CultureInfo object that should be used during the update of a particular field in C#.
+description: Discover the Aspose.Words.Fields.IFieldUpdateCultureProvider interface. Enhance field updates with a customizable CultureInfo object for precise localization.
 type: docs
 weight: 3110
 url: /net/aspose.words.fields/ifieldupdatecultureprovider/

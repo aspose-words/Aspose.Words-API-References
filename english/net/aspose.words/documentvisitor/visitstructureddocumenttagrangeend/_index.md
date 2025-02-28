@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitStructuredDocumentTagRangeEnd
 linktitle: VisitStructuredDocumentTagRangeEnd
 articleTitle: VisitStructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitStructuredDocumentTagRangeEnd method. Called when a StructuredDocumentTagRangeEnd is encountered in C#.
+description: Discover the DocumentVisitor VisitStructuredDocumentTagRangeEnd method, essential for handling Structured Document Tags effectively in your applications.
 type: docs
 weight: 450
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/

@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.CharactersWithSpaces
 linktitle: CharactersWithSpaces
 articleTitle: CharactersWithSpaces
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties CharactersWithSpaces property. Represents an estimate of the number of characters including spaces in the document in C#.
+description: Discover the BuiltInDocumentProperties CharactersWithSpaces property, which estimates character count, including spaces, for efficient document management.
 type: docs
 weight: 50
 url: /net/aspose.words.properties/builtindocumentproperties/characterswithspaces/

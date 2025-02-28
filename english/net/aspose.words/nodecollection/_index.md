@@ -3,9 +3,9 @@ title: NodeCollection Class
 linktitle: NodeCollection
 articleTitle: NodeCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeCollection class. Represents a collection of nodes of a specific type in C#.
+description: Discover the Aspose.Words.NodeCollection class, your go-to solution for managing diverse node types efficiently in document processing. Enhance your workflow today!
 type: docs
-weight: 4750
+weight: 4760
 url: /net/aspose.words/nodecollection/
 ---
 ## NodeCollection class

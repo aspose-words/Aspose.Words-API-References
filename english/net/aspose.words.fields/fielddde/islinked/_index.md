@@ -3,7 +3,7 @@ title: FieldDde.IsLinked
 linktitle: IsLinked
 articleTitle: IsLinked
 second_title: Aspose.Words for .NET
-description: FieldDde IsLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document in C#.
+description: Optimize your documents with FieldDde IsLinked property. Control file size by excluding graphics, ensuring efficient storage and faster access.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fielddde/islinked/

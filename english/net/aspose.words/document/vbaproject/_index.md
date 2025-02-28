@@ -3,7 +3,7 @@ title: Document.VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words for .NET
-description: Document VbaProject property. Gets or sets a VbaProject in C#.
+description: Discover how to manage VbaProject properties effectively. Learn to get or set VbaProject for enhanced automation and streamlined workflows.
 type: docs
 weight: 470
 url: /net/aspose.words/document/vbaproject/

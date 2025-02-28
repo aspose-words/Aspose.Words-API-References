@@ -3,7 +3,7 @@ title: ToaCategories.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: ToaCategories Item property. Gets or sets the category heading by category number in C#.
+description: Manage your ToaCategories items effortlessly. Easily set and retrieve category headings by number for streamlined organization and efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/toacategories/item/

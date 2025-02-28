@@ -3,9 +3,9 @@ title: TiffCompression Enum
 linktitle: TiffCompression
 articleTitle: TiffCompression
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.TiffCompression enum. Specifies what type of compression to apply when saving page images into a TIFF file in C#.
+description: Discover the Aspose.Words.TiffCompression enum for optimal TIFF file saving. Choose the best compression type for high-quality page images effortlessly.
 type: docs
-weight: 6270
+weight: 6280
 url: /net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration

@@ -3,7 +3,7 @@ title: PageInfo.PaperSize
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: Aspose.Words for .NET
-description: PageInfo PaperSize property. Gets the paper size as enumeration in C#.
+description: Discover the PageInfo PaperSize property to easily retrieve paper sizes as an enumeration. Enhance your printing capabilities today!
 type: docs
 weight: 40
 url: /net/aspose.words.rendering/pageinfo/papersize/

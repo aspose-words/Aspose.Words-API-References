@@ -3,7 +3,7 @@ title: Run.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words for .NET
-description: Run GetText method. Gets the text of the run in C#.
+description: Effortlessly retrieve text using the GetText method. Simplify your coding with this essential tool for efficient text management.
 type: docs
 weight: 70
 url: /net/aspose.words/run/gettext/

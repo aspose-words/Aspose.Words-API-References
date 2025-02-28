@@ -3,9 +3,9 @@ title: FieldMergingArgs Class
 linktitle: FieldMergingArgs
 articleTitle: FieldMergingArgs
 second_title: Aspose.Words for .NET
-description: Aspose.Words.MailMerging.FieldMergingArgs class. Provides data for the MergeField event in C#.
+description: Discover the Aspose.Words.MailMerging.FieldMergingArgs class for seamless data handling in MergeField events, enhancing your document processing experience.
 type: docs
-weight: 4320
+weight: 4330
 url: /net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class

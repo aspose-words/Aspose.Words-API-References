@@ -3,7 +3,7 @@ title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words for .NET
-description: CellFormat Shading property. Returns a Shading object that refers to the shading formatting for the cell in C#.
+description: Discover the CellFormat Shading property to enhance your spreadsheet's visual appeal with customizable shading options for cells.
 type: docs
 weight: 100
 url: /net/aspose.words.tables/cellformat/shading/

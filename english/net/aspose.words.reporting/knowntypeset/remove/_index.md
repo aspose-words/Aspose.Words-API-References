@@ -3,7 +3,7 @@ title: KnownTypeSet.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words for .NET
-description: KnownTypeSet Remove method. Removes the specified Type object from the set in C#.
+description: Effortlessly remove specific Type objects from your KnownTypeSet with our efficient Remove method. Simplify your data management today!
 type: docs
 weight: 50
 url: /net/aspose.words.reporting/knowntypeset/remove/

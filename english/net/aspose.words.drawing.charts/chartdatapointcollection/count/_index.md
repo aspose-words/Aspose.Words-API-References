@@ -3,7 +3,7 @@ title: ChartDataPointCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: ChartDataPointCollection Count property. Returns the number of ChartDataPoint in this collection in C#.
+description: Discover the Count property of ChartDataPointCollection, which efficiently returns the total number of ChartDataPoints, enhancing your data visualization.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/count/

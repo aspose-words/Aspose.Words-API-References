@@ -3,7 +3,7 @@ title: NodeChangingArgs.OldParent
 linktitle: OldParent
 articleTitle: OldParent
 second_title: Aspose.Words for .NET
-description: NodeChangingArgs OldParent property. Gets the nodes parent before the operation began in C#.
+description: Discover the NodeChangingArgs OldParent property, which retrieves the parent node prior to changes, ensuring seamless operations and enhanced data management.
 type: docs
 weight: 40
 url: /net/aspose.words/nodechangingargs/oldparent/

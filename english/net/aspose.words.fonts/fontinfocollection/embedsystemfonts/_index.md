@@ -3,7 +3,7 @@ title: FontInfoCollection.EmbedSystemFonts
 linktitle: EmbedSystemFonts
 articleTitle: EmbedSystemFonts
 second_title: Aspose.Words for .NET
-description: FontInfoCollection EmbedSystemFonts property. Specifies whether or not to embed System fonts into the document. Default value for this property is false in C#.
+description: Discover how the FontInfoCollection EmbedSystemFonts property enhances your documents by embedding system fonts. Learn its default value and benefits!
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontinfocollection/embedsystemfonts/

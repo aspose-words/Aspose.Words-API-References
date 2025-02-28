@@ -3,7 +3,7 @@ title: Font Class
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Font class. Contains font attributes font name font size color and so on for an object in C#.
+description: Discover the Aspose.Words.Font class, featuring essential font attributes like name, size, and color to enhance your document formatting and design.
 type: docs
 weight: 3230
 url: /net/aspose.words/font/

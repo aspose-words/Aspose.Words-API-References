@@ -3,9 +3,9 @@ title: JsonSimpleValueParseMode Enum
 linktitle: JsonSimpleValueParseMode
 articleTitle: JsonSimpleValueParseMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode enum. Specifies a mode for parsing JSON simple values null boolean number integer and string while loading JSON. Such a mode does not affect parsing of datetime values in C#.
+description: Discover the Aspose.Words.Reporting.JsonSimpleValueParseMode enum for efficient JSON parsing. Easily handle nulls, booleans, numbers, and strings seamlessly!
 type: docs
-weight: 5300
+weight: 5310
 url: /net/aspose.words.reporting/jsonsimplevalueparsemode/
 ---
 ## JsonSimpleValueParseMode enumeration

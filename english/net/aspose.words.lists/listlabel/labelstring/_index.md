@@ -3,7 +3,7 @@ title: ListLabel.LabelString
 linktitle: LabelString
 articleTitle: LabelString
 second_title: Aspose.Words for .NET
-description: ListLabel LabelString property. Gets a string representation of list label in C#.
+description: Discover the ListLabel LabelString property for easy string representation of list labels, enhancing your data presentation and organization effortlessly.
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listlabel/labelstring/

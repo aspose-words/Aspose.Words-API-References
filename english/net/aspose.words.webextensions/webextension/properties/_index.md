@@ -3,7 +3,7 @@ title: WebExtension.Properties
 linktitle: Properties
 articleTitle: Properties
 second_title: Aspose.Words for .NET
-description: WebExtension Properties property. Represents a set of web extension custom properties in C#.
+description: Discover WebExtension Properties: a powerful set of customizable features for enhancing your web extensions. Unlock unique functionality today!
 type: docs
 weight: 50
 url: /net/aspose.words.webextensions/webextension/properties/

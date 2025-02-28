@@ -3,7 +3,7 @@ title: TaskPane.IsVisible
 linktitle: IsVisible
 articleTitle: IsVisible
 second_title: Aspose.Words for .NET
-description: TaskPane IsVisible property. Specifies whether the task pane shows as visible by default when the document opens in C#.
+description: Discover how the TaskPane IsVisible property controls default visibility, enhancing user experience and streamlining document interactions.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/taskpane/isvisible/

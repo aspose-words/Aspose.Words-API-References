@@ -3,7 +3,7 @@ title: IAiModelText Interface
 linktitle: IAiModelText
 articleTitle: IAiModelText
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.IAiModelText interface. The common interface for AI models designed to generate a variety of textbased content in C#.
+description: Unlock creative potential with Aspose.Words.AI.IAiModelText, the versatile interface for AI models that generate diverse, high-quality text content effortlessly.
 type: docs
 weight: 70
 url: /net/aspose.words.ai/iaimodeltext/

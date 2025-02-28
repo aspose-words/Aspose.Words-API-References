@@ -3,7 +3,7 @@ title: FieldOptions.CustomTocStyleSeparator
 linktitle: CustomTocStyleSeparator
 articleTitle: CustomTocStyleSeparator
 second_title: Aspose.Words for .NET
-description: FieldOptions CustomTocStyleSeparator property. Gets or sets custom style separator for the t switch in FieldToc field in C#.
+description: Discover the FieldOptions CustomTocStyleSeparator property to easily customize your FieldToc field's style separator for enhanced document navigation.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldoptions/customtocstyleseparator/

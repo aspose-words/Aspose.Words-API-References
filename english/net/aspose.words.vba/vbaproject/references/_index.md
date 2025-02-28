@@ -3,7 +3,7 @@ title: VbaProject.References
 linktitle: References
 articleTitle: References
 second_title: Aspose.Words for .NET
-description: VbaProject References property. Gets a collection of VBA project references in C#.
+description: Explore the VBA Project References property to efficiently manage your VBA project references and enhance your coding capabilities. Unlock your programming potential!
 type: docs
 weight: 70
 url: /net/aspose.words.vba/vbaproject/references/

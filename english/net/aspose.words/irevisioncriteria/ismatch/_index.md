@@ -3,7 +3,7 @@ title: IRevisionCriteria.IsMatch
 linktitle: IsMatch
 articleTitle: IsMatch
 second_title: Aspose.Words for .NET
-description: IRevisionCriteria IsMatch method. Checks whether or not specified revision matches criteria in C#.
+description: Discover how the IRevisionCriteria IsMatch method effectively verifies if a specific revision aligns with your criteria for optimal results.
 type: docs
 weight: 10
 url: /net/aspose.words/irevisioncriteria/ismatch/

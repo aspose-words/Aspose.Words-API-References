@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.XmlMapping
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart XmlMapping property. Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document in C#.
+description: Discover how the StructuredDocumentTagRangeStart XmlMapping property connects your document's tag range to custom XML data, enhancing document integration.
 type: docs
 weight: 190
 url: /net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/

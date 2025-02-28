@@ -3,7 +3,7 @@ title: Font.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words for .NET
-description: Font StyleIdentifier property. Gets or sets the locale independent style identifier of the character style applied to this formatting in C#.
+description: Discover the Font StyleIdentifier property to easily manage character styles in your formatting. Enhance your design with locale-independent solutions!
 type: docs
 weight: 420
 url: /net/aspose.words/font/styleidentifier/

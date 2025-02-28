@@ -3,7 +3,7 @@ title: ShapeBase.Reflection
 linktitle: Reflection
 articleTitle: Reflection
 second_title: Aspose.Words for .NET
-description: ShapeBase Reflection property. Gets reflection formatting for the shape in C#.
+description: Discover the ShapeBase Reflection property to enhance your designs with customizable reflection formatting for stunning visual effects.
 type: docs
 weight: 440
 url: /net/aspose.words.drawing/shapebase/reflection/

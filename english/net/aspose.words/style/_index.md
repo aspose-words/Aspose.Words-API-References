@@ -3,9 +3,9 @@ title: Style Class
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Style class. Represents a single builtin or userdefined style in C#.
+description: Discover Aspose.Words.Style class for managing custom and built-in styles effortlessly. Enhance your document formatting with ease and precision.
 type: docs
-weight: 6820
+weight: 6830
 url: /net/aspose.words/style/
 ---
 ## Style class

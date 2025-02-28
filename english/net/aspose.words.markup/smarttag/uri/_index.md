@@ -3,7 +3,7 @@ title: SmartTag.Uri
 linktitle: Uri
 articleTitle: Uri
 second_title: Aspose.Words for .NET
-description: SmartTag Uri property. Specifies the namespace URI of the smart tag in C#.
+description: Discover the SmartTag Uri property—define your smart tag's namespace URI for enhanced functionality and seamless integration in your applications.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/smarttag/uri/

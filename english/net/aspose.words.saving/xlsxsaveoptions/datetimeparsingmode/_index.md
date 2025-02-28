@@ -3,7 +3,7 @@ title: XlsxSaveOptions.DateTimeParsingMode
 linktitle: DateTimeParsingMode
 articleTitle: DateTimeParsingMode
 second_title: Aspose.Words for .NET
-description: XlsxSaveOptions DateTimeParsingMode property. Gets or sets the mode that specifies how document text is parsed to identify date and time values. The default value is UseCurrentLocale in C#.
+description: Discover XlsxSaveOptions' DateTimeParsingMode property to customize how your document parses dates and times, ensuring accurate data interpretation.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/xlsxsaveoptions/datetimeparsingmode/

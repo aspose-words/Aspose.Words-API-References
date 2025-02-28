@@ -3,7 +3,7 @@ title: Table.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: Table AcceptStart method. Accepts a visitor for visiting the start of the table in C#.
+description: Discover the Table AcceptStart method to seamlessly welcome visitors at the table's start, enhancing user experience and engagement.
 type: docs
 weight: 370
 url: /net/aspose.words.tables/table/acceptstart/

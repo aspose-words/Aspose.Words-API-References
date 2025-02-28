@@ -3,9 +3,9 @@ title: WebExtensionBindingType Enum
 linktitle: WebExtensionBindingType
 articleTitle: WebExtensionBindingType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionBindingType enum. Enumerates available types of binding between a web extension and the data in the document in C#.
+description: Discover the Aspose.Words WebExtensionBindingType enum, which defines binding types for seamless integration of web extensions with your document data.
 type: docs
-weight: 7460
+weight: 7470
 url: /net/aspose.words.webextensions/webextensionbindingtype/
 ---
 ## WebExtensionBindingType enumeration

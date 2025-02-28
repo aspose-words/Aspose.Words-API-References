@@ -3,7 +3,7 @@ title: Aspose.Words.Fonts
 linktitle: Aspose.Words.Fonts
 articleTitle: Aspose.Words.Fonts
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Fonts namespace provides classes and enumerations to access information about fonts used in a document in C#.
+description: Explore the Aspose.Words.Fonts namespace to easily access detailed font information in your documents, enhancing your text formatting and design.
 type: docs
 weight: 110
 url: /net/aspose.words.fonts/

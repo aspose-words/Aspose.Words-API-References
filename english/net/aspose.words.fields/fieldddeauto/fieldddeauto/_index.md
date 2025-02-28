@@ -3,7 +3,7 @@ title: FieldDdeAuto
 linktitle: FieldDdeAuto
 articleTitle: FieldDdeAuto
 second_title: Aspose.Words for .NET
-description: FieldDdeAuto constructor. The default constructor in C#.
+description: Discover FieldDdeAuto's default constructor for seamless integration and optimized performance. Enhance your coding efficiency today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldddeauto/fieldddeauto/

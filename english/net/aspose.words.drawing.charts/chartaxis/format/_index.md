@@ -3,7 +3,7 @@ title: ChartAxis.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartAxis Format property. Provides access to line formatting of the axis and fill of the tick labels in C#.
+description: Discover the ChartAxis Format property for easy line formatting and customizable tick label fills, enhancing your data visualization experience.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartaxis/format/

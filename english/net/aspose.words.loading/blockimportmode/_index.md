@@ -3,9 +3,9 @@ title: BlockImportMode Enum
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.BlockImportMode enum. Specifies how properties of blocklevel elements are imported from HTMLbased documents in C#.
+description: Discover how the Aspose.Words.BlockImportMode enum enhances HTML document integration by optimizing block-level element property imports for seamless workflows.
 type: docs
-weight: 3990
+weight: 4000
 url: /net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ResourceFolderAlias
 linktitle: ResourceFolderAlias
 articleTitle: ResourceFolderAlias
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ResourceFolderAlias property. Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string in C#.
+description: Optimize your HTML documents with the HtmlSaveOptions ResourceFolderAlias property, defining folder names for efficient URI construction of resources.
 type: docs
 weight: 440
 url: /net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/

@@ -3,7 +3,7 @@ title: ShapeBase.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: ShapeBase Name property. Gets or sets the optional shape name in C#.
+description: Discover the ShapeBase Name property to easily manage optional shape names, enhancing your design flexibility and project organization.
 type: docs
 weight: 420
 url: /net/aspose.words.drawing/shapebase/name/

@@ -3,7 +3,7 @@ title: RevisionGroup.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words for .NET
-description: RevisionGroup Author property. Gets the author of this revision group in C#.
+description: Discover the RevisionGroup Author property to easily identify the author of each revision group, enhancing your document management efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words/revisiongroup/author/

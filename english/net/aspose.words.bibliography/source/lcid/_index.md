@@ -3,7 +3,7 @@ title: Source.Lcid
 linktitle: Lcid
 articleTitle: Lcid
 second_title: Aspose.Words for .NET
-description: Source Lcid property. Gets or sets the locale ID of a source in C#.
+description: Manage Lcid property effortlessly. Get or set the locale ID of your source for seamless localization and improved user experience.
 type: docs
 weight: 260
 url: /net/aspose.words.bibliography/source/lcid/

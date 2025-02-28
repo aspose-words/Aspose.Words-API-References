@@ -3,7 +3,7 @@ title: ChartFormat.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words for .NET
-description: ChartFormat ShapeType property. Gets or sets the shape type of the parent chart element in C#.
+description: Discover how to use the ChartFormat ShapeType property to customize your chart elements effectively. Enhance your data visualization today!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartformat/shapetype/

@@ -3,7 +3,7 @@ title: OutlineOptions.CreateOutlinesForHeadingsInTables
 linktitle: CreateOutlinesForHeadingsInTables
 articleTitle: CreateOutlinesForHeadingsInTables
 second_title: Aspose.Words for .NET
-description: OutlineOptions CreateOutlinesForHeadingsInTables property. Specifies whether or not to create outlines for headings paragraphs formatted with the Heading styles inside tables in C#.
+description: Discover how the CreateOutlinesForHeadingsInTables property enhances table organization by enabling outlines for heading styles, improving document clarity.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/

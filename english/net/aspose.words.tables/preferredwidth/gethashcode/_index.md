@@ -3,7 +3,7 @@ title: PreferredWidth.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words for .NET
-description: PreferredWidth GetHashCode method. Serves as a hash function for this type in C#.
+description: Discover the PreferredWidth GetHashCode method—an essential hash function for efficient data handling and unique value generation in your applications.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/preferredwidth/gethashcode/

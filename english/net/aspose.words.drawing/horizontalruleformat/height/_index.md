@@ -3,7 +3,7 @@ title: HorizontalRuleFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words for .NET
-description: HorizontalRuleFormat Height property. Gets or sets the height of the horizontal rule in C#.
+description: Adjust the height of your Horizontal Rule with ease. Explore the Height property for customizable design in your web projects. Enhance your layout today!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/horizontalruleformat/height/

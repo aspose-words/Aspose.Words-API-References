@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: FieldMergingArgsBase Document property. Returns the Document object for which the mail merge is performed in C#.
+description: Discover the FieldMergingArgsBase Document property, which provides the Document object for seamless mail merge operations. Enhance your workflow today!
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/document/

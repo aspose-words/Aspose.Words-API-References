@@ -3,7 +3,7 @@ title: BreakType Enum
 linktitle: BreakType
 articleTitle: BreakType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.BreakType enum. Specifies type of a break inside a document in C#.
+description: Discover the Aspose.Words.BreakType enum to enhance your document formatting with precise break types for improved readability and layout control.
 type: docs
 weight: 300
 url: /net/aspose.words/breaktype/

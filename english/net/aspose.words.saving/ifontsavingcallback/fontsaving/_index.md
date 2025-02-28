@@ -3,7 +3,7 @@ title: IFontSavingCallback.FontSaving
 linktitle: FontSaving
 articleTitle: FontSaving
 second_title: Aspose.Words for .NET
-description: IFontSavingCallback FontSaving method. Called when Aspose.Words is about to save a font resource in C#.
+description: Discover the iFontSavingCallback method in Aspose.Words, designed to optimize font resource saving for enhanced document performance.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/ifontsavingcallback/fontsaving/

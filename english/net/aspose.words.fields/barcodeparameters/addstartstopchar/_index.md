@@ -3,7 +3,7 @@ title: BarcodeParameters.AddStartStopChar
 linktitle: AddStartStopChar
 articleTitle: AddStartStopChar
 second_title: Aspose.Words for .NET
-description: BarcodeParameters AddStartStopChar property. Whether to add Start/Stop characters for barcode types NW7 and CODE39 in C#.
+description: Enhance your barcode functionality with the AddStartStopChar property for NW7 and CODE39 types. Optimize scanning accuracy and efficiency!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/barcodeparameters/addstartstopchar/

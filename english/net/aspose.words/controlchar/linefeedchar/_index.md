@@ -3,7 +3,7 @@ title: ControlChar.LineFeedChar
 linktitle: LineFeedChar
 articleTitle: LineFeedChar
 second_title: Aspose.Words for .NET
-description: ControlChar LineFeedChar field. Line feed character char10 or n in C#.
+description: Discover the ControlChar LineFeedChar field—optimize your text processing with the essential line feed character (char10 or n) for seamless data handling.
 type: docs
 weight: 150
 url: /net/aspose.words/controlchar/linefeedchar/

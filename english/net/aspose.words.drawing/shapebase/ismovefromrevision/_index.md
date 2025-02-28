@@ -3,7 +3,7 @@ title: ShapeBase.IsMoveFromRevision
 linktitle: IsMoveFromRevision
 articleTitle: IsMoveFromRevision
 second_title: Aspose.Words for .NET
-description: ShapeBase IsMoveFromRevision property. Returns true if this object was moved deleted in Microsoft Word while change tracking was enabled in C#.
+description: Discover the ShapeBase IsMoveFromRevision property in Microsoft Word. Easily track changes and identify moved or deleted objects with precision.
 type: docs
 weight: 340
 url: /net/aspose.words.drawing/shapebase/ismovefromrevision/

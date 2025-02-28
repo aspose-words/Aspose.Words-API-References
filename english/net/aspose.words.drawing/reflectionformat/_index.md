@@ -3,7 +3,7 @@ title: ReflectionFormat Class
 linktitle: ReflectionFormat
 articleTitle: ReflectionFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.ReflectionFormat class. Represents the reflection formatting for an object in C#.
+description: Discover Aspose.Words.Drawing.ReflectionFormat class for advanced object reflection formatting. Enhance your document design with seamless integration!
 type: docs
 weight: 1560
 url: /net/aspose.words.drawing/reflectionformat/

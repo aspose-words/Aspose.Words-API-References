@@ -3,7 +3,7 @@ title: ChartDataTable.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: ChartDataTable Font property. Provides access to font formatting of the data table in C#.
+description: Discover the ChartDataTable Font property to enhance your data table's appearance with customizable font formatting for better readability and impact.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatatable/font/

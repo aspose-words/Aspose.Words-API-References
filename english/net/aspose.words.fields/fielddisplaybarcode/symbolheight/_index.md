@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words for .NET
-description: FieldDisplayBarcode SymbolHeight property. Gets or sets the height of the symbol. The units are in TWIPS 1/1440 inch in C#.
+description: Adjust the SymbolHeight property of FieldDisplayBarcode to customize barcode height in TWIPS. Enhance your barcode display with precision!
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fielddisplaybarcode/symbolheight/

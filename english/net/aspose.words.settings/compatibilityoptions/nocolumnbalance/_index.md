@@ -3,7 +3,7 @@ title: CompatibilityOptions.NoColumnBalance
 linktitle: NoColumnBalance
 articleTitle: NoColumnBalance
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions NoColumnBalance property. Do Not Balance Text Columns within a Section in C#.
+description: Discover the NoColumnBalance property in CompatibilityOptions. Control your text layout effortlessly by preventing column balancing in sections!
 type: docs
 weight: 330
 url: /net/aspose.words.settings/compatibilityoptions/nocolumnbalance/

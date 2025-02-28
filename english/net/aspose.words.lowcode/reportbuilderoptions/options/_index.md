@@ -3,7 +3,7 @@ title: ReportBuilderOptions.Options
 linktitle: Options
 articleTitle: Options
 second_title: Aspose.Words for .NET
-description: ReportBuilderOptions Options property. Gets or sets a set of flags controlling behavior of this ReportingEngine instance while building a report in C#.
+description: Discover the ReportBuilderOptions property to customize your ReportingEngine's behavior, enhancing report creation with flexible control and improved functionality.
 type: docs
 weight: 40
 url: /net/aspose.words.lowcode/reportbuilderoptions/options/

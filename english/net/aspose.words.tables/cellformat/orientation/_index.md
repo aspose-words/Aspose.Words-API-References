@@ -3,7 +3,7 @@ title: CellFormat.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words for .NET
-description: CellFormat Orientation property. Returns or sets the orientation of text in a table cell in C#.
+description: Discover how to use the CellFormat Orientation property to adjust text direction in table cells, enhancing readability and design in your documents.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/cellformat/orientation/

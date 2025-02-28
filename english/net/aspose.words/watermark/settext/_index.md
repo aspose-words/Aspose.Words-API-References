@@ -3,7 +3,7 @@ title: Watermark.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words for .NET
-description: Watermark SetText method. Adds Text watermark into the document in C#.
+description: Enhance your documents with our Watermark SetText method. Easily add customizable text watermarks for a professional touch!
 type: docs
 weight: 40
 url: /net/aspose.words/watermark/settext/

@@ -3,7 +3,7 @@ title: TxtSaveOptions.SimplifyListLabels
 linktitle: SimplifyListLabels
 articleTitle: SimplifyListLabels
 second_title: Aspose.Words for .NET
-description: TxtSaveOptions SimplifyListLabels property. Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text in C#.
+description: Discover how TxtSaveOptions' SimplifyListLabels feature enhances clarity by streamlining complex list labels for improved text representation.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -51,18 +51,20 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions)
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt");
 
+string newLine = Environment.NewLine;
+
 if (simplifyListLabels)
-    Assert.AreEqual("* Item 1\r\n" +
-                    "  > Item 2\r\n" +
-                    "    + Item 3\r\n" +
-                    "      - Item 4\r\n" +
-                    "        o Item 5\r\n", docText);
+    Assert.AreEqual($"* Item 1{newLine}" +
+                    $"  > Item 2{newLine}" +
+                    $"    + Item 3{newLine}" +
+                    $"      - Item 4{newLine}" +
+                    $"        o Item 5{newLine}", docText);
 else
-    Assert.AreEqual("· Item 1\r\n" +
-                    "o Item 2\r\n" +
-                    "§ Item 3\r\n" +
-                    "· Item 4\r\n" +
-                    "o Item 5\r\n", docText);
+    Assert.AreEqual($"· Item 1{newLine}" +
+                    $"o Item 2{newLine}" +
+                    $"§ Item 3{newLine}" +
+                    $"· Item 4{newLine}" +
+                    $"o Item 5{newLine}", docText);
 ```
 
 ### See Also

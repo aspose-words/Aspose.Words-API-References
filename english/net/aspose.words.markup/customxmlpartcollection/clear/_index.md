@@ -3,7 +3,7 @@ title: CustomXmlPartCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: CustomXmlPartCollection Clear method. Removes all elements from the collection in C#.
+description: Effortlessly clear your CustomXmlPartCollection with our Clear method, removing all elements for optimal data management. Simplify your workflow today!
 type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlpartcollection/clear/

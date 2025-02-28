@@ -3,7 +3,7 @@ title: Document.HasMacros
 linktitle: HasMacros
 articleTitle: HasMacros
 second_title: Aspose.Words for .NET
-description: Document HasMacros property. Returns true if the document has a VBA project macros in C#.
+description: Discover if your document contains VBA project macros with the HasMacros property. Enhance automation and efficiency in your workflows today!
 type: docs
 weight: 200
 url: /net/aspose.words/document/hasmacros/

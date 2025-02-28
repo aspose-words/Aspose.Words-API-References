@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails.CertificateHolder
 linktitle: CertificateHolder
 articleTitle: CertificateHolder
 second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureDetails CertificateHolder property. Returns the certificate holder object that contains the certificate was used to sign the document in C#.
+description: Discover the PdfDigitalSignatureDetails CertificateHolder property. Access the certificate holder object for enhanced document signing security.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/certificateholder/

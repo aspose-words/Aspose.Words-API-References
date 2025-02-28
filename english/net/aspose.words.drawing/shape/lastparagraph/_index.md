@@ -3,7 +3,7 @@ title: Shape.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words for .NET
-description: Shape LastParagraph property. Gets the last paragraph in the shape in C#.
+description: Access the LastParagraph property to easily retrieve the final paragraph in your shape, enhancing your document's layout and readability.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/shape/lastparagraph/

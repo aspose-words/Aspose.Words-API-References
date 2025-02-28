@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitStructuredDocumentTagRangeStart
 linktitle: VisitStructuredDocumentTagRangeStart
 articleTitle: VisitStructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitStructuredDocumentTagRangeStart method. Called when a StructuredDocumentTagRangeStart is encountered in C#.
+description: Discover the DocumentVisitor VisitStructuredDocumentTagRangeStart method, essential for handling Structured Document Tags efficiently in your applications.
 type: docs
 weight: 460
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/

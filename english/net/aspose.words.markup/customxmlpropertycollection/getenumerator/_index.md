@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: CustomXmlPropertyCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: Discover the CustomXmlPropertyCollection GetEnumerator method to easily iterate through collection items, enhancing your data management efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/customxmlpropertycollection/getenumerator/

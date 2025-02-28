@@ -3,7 +3,7 @@ title: UserInformation.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: UserInformation Name property. Gets or sets the users name in C#.
+description: Effortlessly manage user profiles with the UserInformation Name property. Easily retrieve or update user names for enhanced personalization.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/userinformation/name/

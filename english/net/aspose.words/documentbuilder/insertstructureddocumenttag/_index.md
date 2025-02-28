@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertStructuredDocumentTag
 linktitle: InsertStructuredDocumentTag
 articleTitle: InsertStructuredDocumentTag
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertStructuredDocumentTag method. Inserts a StructuredDocumentTag into the document in C#.
+description: Effortlessly enhance your documents with the DocumentBuilder InsertStructuredDocumentTag method. Easily add structured document tags for better organization!
 type: docs
 weight: 480
 url: /net/aspose.words/documentbuilder/insertstructureddocumenttag/

@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection Item property. Returns a DocumentProperty object by the name of the property in C#.
+description: Access DocumentProperty objects effortlessly with our DocumentPropertyCollection Item. Retrieve properties by name for seamless document management.
 type: docs
 weight: 20
 url: /net/aspose.words.properties/documentpropertycollection/item/

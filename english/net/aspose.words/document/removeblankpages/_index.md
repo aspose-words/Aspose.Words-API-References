@@ -3,7 +3,7 @@ title: Document.RemoveBlankPages
 linktitle: RemoveBlankPages
 articleTitle: RemoveBlankPages
 second_title: Aspose.Words for .NET
-description: Document RemoveBlankPages method. Removes blank pages from the document in C#.
+description: Effortlessly enhance your documents with the RemoveBlankPages method, eliminating unwanted blank pages for a polished, professional finish.
 type: docs
 weight: 700
 url: /net/aspose.words/document/removeblankpages/

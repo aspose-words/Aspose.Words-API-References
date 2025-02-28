@@ -3,7 +3,7 @@ title: BuildingBlockGallery Enum
 linktitle: BuildingBlockGallery
 articleTitle: BuildingBlockGallery
 second_title: Aspose.Words for .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery enum. Specifies the predefined gallery into which a building block is classified in C#.
+description: Discover Aspose.Words BuildingBlockGallery enum, your guide to predefined galleries for efficient document management and organization. Enhance your workflow today!
 type: docs
 weight: 350
 url: /net/aspose.words.buildingblocks/buildingblockgallery/

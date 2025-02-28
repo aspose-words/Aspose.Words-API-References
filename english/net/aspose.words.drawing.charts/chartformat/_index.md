@@ -3,7 +3,7 @@ title: ChartFormat Class
 linktitle: ChartFormat
 articleTitle: ChartFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartFormat class. Represents the formatting of a chart element in C#.
+description: Discover the Aspose.Words.ChartFormat class for advanced chart element styling. Enhance your documents with professional, customizable chart designs.
 type: docs
 weight: 1000
 url: /net/aspose.words.drawing.charts/chartformat/

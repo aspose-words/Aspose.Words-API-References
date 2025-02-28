@@ -3,7 +3,7 @@ title: IFieldUpdatingProgressCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words for .NET
-description: IFieldUpdatingProgressCallback Notify method. A user defined method that is called when updating progress is changed in C#.
+description: Enhance your app's performance with the IFieldUpdatingProgressCallback Notify method, designed to efficiently track and respond to progress updates.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatingprogresscallback/notify/

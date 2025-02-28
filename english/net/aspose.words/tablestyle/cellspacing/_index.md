@@ -3,7 +3,7 @@ title: TableStyle.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
 second_title: Aspose.Words for .NET
-description: TableStyle CellSpacing property. Gets or sets the amount of space in points between the cells in C#.
+description: Discover the TableStyle CellSpacing property to easily adjust cell spacing in points, enhancing your table's appearance and readability.
 type: docs
 weight: 60
 url: /net/aspose.words/tablestyle/cellspacing/

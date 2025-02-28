@@ -3,7 +3,7 @@ title: TextBoxControl.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: TextBoxControl Type property. Gets type of Forms 2.0 control in C#.
+description: Discover the TextBoxControl Type property for Forms 2.0, enabling seamless control customization and enhancing user experience in your applications.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/textboxcontrol/type/

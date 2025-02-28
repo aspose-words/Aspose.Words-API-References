@@ -3,7 +3,7 @@ title: Fill.Solid
 linktitle: Solid
 articleTitle: Solid
 second_title: Aspose.Words for .NET
-description: Fill Solid method. Sets the fill to a uniform color in C#.
+description: Discover the Fill Solid method for achieving a consistent color fill, enhancing your design's visual appeal and uniformity effortlessly.
 type: docs
 weight: 260
 url: /net/aspose.words.drawing/fill/solid/

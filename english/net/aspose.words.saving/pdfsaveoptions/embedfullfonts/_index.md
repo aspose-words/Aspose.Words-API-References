@@ -3,7 +3,7 @@ title: PdfSaveOptions.EmbedFullFonts
 linktitle: EmbedFullFonts
 articleTitle: EmbedFullFonts
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions EmbedFullFonts property. Controls how fonts are embedded into the resulting PDF documents in C#.
+description: Discover how the PdfSaveOptions EmbedFullFonts feature enhances your PDF documents by ensuring complete font embedding for perfect formatting.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/pdfsaveoptions/embedfullfonts/

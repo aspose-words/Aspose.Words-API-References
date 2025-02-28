@@ -3,7 +3,7 @@ title: TextPath.FontFamily
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words for .NET
-description: TextPath FontFamily property. Defines the family of the textpath font in C#.
+description: Discover the TextPath FontFamily property to effortlessly define and customize your text paths for stunning typography in web design.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/textpath/fontfamily/

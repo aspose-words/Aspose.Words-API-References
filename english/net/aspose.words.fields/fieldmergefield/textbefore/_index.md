@@ -3,7 +3,7 @@ title: FieldMergeField.TextBefore
 linktitle: TextBefore
 articleTitle: TextBefore
 second_title: Aspose.Words for .NET
-description: FieldMergeField TextBefore property. Gets or sets the text to be inserted before the field if the field is not blank in C#.
+description: Discover the FieldMergeField TextBefore property to easily customize text insertion before fields, enhancing your document's clarity and professionalism.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldmergefield/textbefore/

@@ -3,7 +3,7 @@ title: Table.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Table NodeType property. Returns Table in C#.
+description: Discover the Table NodeType property that efficiently returns table data, enhancing your data management and organization for seamless integration.
 type: docs
 weight: 210
 url: /net/aspose.words.tables/table/nodetype/

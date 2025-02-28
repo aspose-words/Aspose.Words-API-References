@@ -3,7 +3,7 @@ title: StructuredDocumentTag.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag AcceptStart method. Accepts a visitor for visiting the start of the StructuredDocumentTag in C#.
+description: Discover the StructuredDocumentTag AcceptStart method to enhance your document management. Streamline visitor interactions for optimal performance!
 type: docs
 weight: 350
 url: /net/aspose.words.markup/structureddocumenttag/acceptstart/

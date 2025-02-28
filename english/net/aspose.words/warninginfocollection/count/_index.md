@@ -3,7 +3,7 @@ title: WarningInfoCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: WarningInfoCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the WarningInfoCollection Count property to easily access the total number of elements in your collection for efficient data management.
 type: docs
 weight: 20
 url: /net/aspose.words/warninginfocollection/count/

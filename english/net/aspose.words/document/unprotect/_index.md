@@ -3,7 +3,7 @@ title: Document.Unprotect
 linktitle: Unprotect
 articleTitle: Unprotect
 second_title: Aspose.Words for .NET
-description: Document Unprotect method. Removes protection from the document regardless of the password in C#.
+description: Effortlessly unlock your documents with our Document Unprotect method, removing any password protection for easy access and editing.
 type: docs
 weight: 790
 url: /net/aspose.words/document/unprotect/

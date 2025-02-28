@@ -3,7 +3,7 @@ title: SdtListItemCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: SdtListItemCollection Add method. Adds an item to this collection in C#.
+description: Discover how to enhance your collection with the SdtListItemCollection Add method. Effortlessly add items and streamline your data management today!
 type: docs
 weight: 40
 url: /net/aspose.words.markup/sdtlistitemcollection/add/

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportDocumentProperties
 linktitle: ExportDocumentProperties
 articleTitle: ExportDocumentProperties
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportDocumentProperties property. Specifies whether to export builtin and custom document properties to HTML MHTML or EPUB. Default value is false in C#.
+description: Discover how HtmlSaveOptions' ExportDocumentProperties enhances your HTML, MHTML, or EPUB exports by including essential built-in and custom document properties.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/

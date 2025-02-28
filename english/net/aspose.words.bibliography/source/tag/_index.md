@@ -3,7 +3,7 @@ title: Source.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words for .NET
-description: Source Tag property. Gets or sets the identifying tag name of a source in C#.
+description: Manage your Source Tag property effortlessly. Easily get or set the unique tag name for your source, enhancing organization and efficiency.
 type: docs
 weight: 450
 url: /net/aspose.words.bibliography/source/tag/

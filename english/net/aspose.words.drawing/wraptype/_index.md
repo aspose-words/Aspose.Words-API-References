@@ -3,7 +3,7 @@ title: WrapType Enum
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.WrapType enum. Specifies how text is wrapped around a shape or picture in C#.
+description: Discover how the Aspose.Words.Drawing.WrapType enum enhances text wrapping around shapes and images for professional document formatting.
 type: docs
 weight: 1800
 url: /net/aspose.words.drawing/wraptype/

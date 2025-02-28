@@ -3,9 +3,9 @@ title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
 second_title: Aspose.Words for .NET
-description: Aspose.Words.TextureIndex enum. Specifies shading texture in C#.
+description: Discover Aspose.Words.TextureIndex enum for advanced shading textures. Enhance your document design with customizable, high-quality textures.
 type: docs
-weight: 7140
+weight: 7150
 url: /net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration

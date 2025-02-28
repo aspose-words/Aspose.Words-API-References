@@ -3,7 +3,7 @@ title: AiModel Class
 linktitle: AiModel
 articleTitle: AiModel
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.AiModel class. Represents information about a Generative Language Model in C#.
+description: Discover the Aspose.Words.AI.AiModel class, your key to leveraging advanced Generative Language Models for enhanced text generation and automation.
 type: docs
 weight: 20
 url: /net/aspose.words.ai/aimodel/

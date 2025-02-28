@@ -3,7 +3,7 @@ title: ShapeBase.ShadowFormat
 linktitle: ShadowFormat
 articleTitle: ShadowFormat
 second_title: Aspose.Words for .NET
-description: ShapeBase ShadowFormat property. Gets shadow formatting for the shape in C#.
+description: Discover the ShapeBase ShadowFormat property to enhance your designs with customizable shadow effects for shapes. Elevate your visual appeal today!
 type: docs
 weight: 520
 url: /net/aspose.words.drawing/shapebase/shadowformat/

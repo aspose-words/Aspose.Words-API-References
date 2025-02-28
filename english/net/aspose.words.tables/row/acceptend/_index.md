@@ -3,7 +3,7 @@ title: Row.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: Row AcceptEnd method. Accepts a visitor for visiting the end of the row in C#.
+description: Discover the Row AcceptEnd method to enhance your visitor experience by seamlessly guiding them to the end of a row. Boost engagement today!
 type: docs
 weight: 130
 url: /net/aspose.words.tables/row/acceptend/

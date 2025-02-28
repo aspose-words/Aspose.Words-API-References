@@ -3,7 +3,7 @@ title: Revision.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
 second_title: Aspose.Words for .NET
-description: Revision RevisionType property. Gets the type of this revision in C#.
+description: Discover the RevisionType property to easily access and understand the type of each revision, enhancing your workflow and project management efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words/revision/revisiontype/

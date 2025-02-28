@@ -3,7 +3,7 @@ title: CustomXmlPart.Data
 linktitle: Data
 articleTitle: Data
 second_title: Aspose.Words for .NET
-description: CustomXmlPart Data property. Gets or sets the XML content of this Custom XML Data Storage Part in C#.
+description: Access and manage your Custom XML Data Storage easily with the CustomXmlPart Data property. Get or set XML content effortlessly for streamlined workflows.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlpart/data/

@@ -3,7 +3,7 @@ title: LanguagePreferences.AddEditingLanguages
 linktitle: AddEditingLanguages
 articleTitle: AddEditingLanguages
 second_title: Aspose.Words for .NET
-description: LanguagePreferences AddEditingLanguages method. Adds additional editing languages in C#.
+description: Enhance your editing experience with LanguagePreferences' AddEditingLanguages method. Easily add multiple languages for seamless content creation.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/languagepreferences/addeditinglanguages/

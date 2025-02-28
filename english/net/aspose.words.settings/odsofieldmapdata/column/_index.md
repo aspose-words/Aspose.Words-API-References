@@ -3,7 +3,7 @@ title: OdsoFieldMapData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words for .NET
-description: OdsoFieldMapData Column property. Specifies the zerobased index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0 in C#.
+description: Discover how to use the OdsoFieldMapData Column property to map external data sources to MERGEFIELD fields effortlessly. Optimize your data integration today!
 type: docs
 weight: 20
 url: /net/aspose.words.settings/odsofieldmapdata/column/

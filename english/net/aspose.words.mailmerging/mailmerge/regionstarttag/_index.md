@@ -3,7 +3,7 @@ title: MailMerge.RegionStartTag
 linktitle: RegionStartTag
 articleTitle: RegionStartTag
 second_title: Aspose.Words for .NET
-description: MailMerge RegionStartTag property. Gets or sets a mail merge region start tag in C#.
+description: Discover the MailMerge RegionStartTag property to easily define and customize mail merge regions, enhancing your document automation process.
 type: docs
 weight: 100
 url: /net/aspose.words.mailmerging/mailmerge/regionstarttag/

@@ -3,7 +3,7 @@ title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
 second_title: Aspose.Words for .NET
-description: LoadOptions ProgressCallback property. Called during loading a document and accepts data about loading progress in C#.
+description: Discover the LoadOptions ProgressCallback property to track document loading progress efficiently. Enhance your app's performance and user experience!
 type: docs
 weight: 130
 url: /net/aspose.words.loading/loadoptions/progresscallback/

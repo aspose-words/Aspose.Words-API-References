@@ -3,7 +3,7 @@ title: IRevisionCriteria Interface
 linktitle: IRevisionCriteria
 articleTitle: IRevisionCriteria
 second_title: Aspose.Words for .NET
-description: Aspose.Words.IRevisionCriteria interface. Implement this interface if you want to control when certain Revision should be accepted/rejected or not by the Accept/Reject methods in C#.
+description: Control document revisions effortlessly with Aspose.Words.IRevisionCriteria. Customize acceptance and rejection of changes for precise document management.
 type: docs
 weight: 3630
 url: /net/aspose.words/irevisioncriteria/

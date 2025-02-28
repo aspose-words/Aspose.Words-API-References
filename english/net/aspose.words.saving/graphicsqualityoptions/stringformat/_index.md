@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.StringFormat
 linktitle: StringFormat
 articleTitle: StringFormat
 second_title: Aspose.Words for .NET
-description: GraphicsQualityOptions StringFormat property. Gets or sets text layout information such as alignment orientation and tab stops display manipulations such as ellipsis insertion and national digit substitution and OpenType features in C#.
+description: Discover the GraphicsQualityOptions StringFormat property for enhanced text layout control, including alignment, ellipsis, and OpenType features for better display.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/graphicsqualityoptions/stringformat/

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: MailMergeRegionInfo Name property. Returns the name of region in C#.
+description: Discover the MailMergeRegionInfo Name property, which efficiently retrieves the name of a specified region for seamless document automation.
 type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/name/

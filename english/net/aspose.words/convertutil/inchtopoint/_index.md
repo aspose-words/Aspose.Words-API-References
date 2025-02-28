@@ -3,7 +3,7 @@ title: ConvertUtil.InchToPoint
 linktitle: InchToPoint
 articleTitle: InchToPoint
 second_title: Aspose.Words for .NET
-description: ConvertUtil InchToPoint method. Converts inches to points in C#.
+description: Effortlessly convert inches to points with ConvertUtil's InchToPoint method. Enhance your precision in design and measurement today!
 type: docs
 weight: 10
 url: /net/aspose.words/convertutil/inchtopoint/

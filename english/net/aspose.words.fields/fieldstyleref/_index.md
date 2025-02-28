@@ -3,7 +3,7 @@ title: FieldStyleRef Class
 linktitle: FieldStyleRef
 articleTitle: FieldStyleRef
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldStyleRef class. Implements the STYLEREF field in C#.
+description: Discover the Aspose.Words.Fields.FieldStyleRef class, designed to enhance document styling with the STYLEREF field for seamless formatting solutions.
 type: docs
 weight: 2840
 url: /net/aspose.words.fields/fieldstyleref/

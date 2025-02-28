@@ -3,7 +3,7 @@ title: FieldOptions.ResultFormatter
 linktitle: ResultFormatter
 articleTitle: ResultFormatter
 second_title: Aspose.Words for .NET
-description: FieldOptions ResultFormatter property. Allows to control how the field result is formatted in C#.
+description: Discover how the ResultFormatter property in FieldOptions enhances your data presentation by customizing field result formats for clarity and impact.
 type: docs
 weight: 180
 url: /net/aspose.words.fields/fieldoptions/resultformatter/

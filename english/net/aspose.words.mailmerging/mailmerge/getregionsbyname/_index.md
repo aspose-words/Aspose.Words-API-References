@@ -3,7 +3,7 @@ title: MailMerge.GetRegionsByName
 linktitle: GetRegionsByName
 articleTitle: GetRegionsByName
 second_title: Aspose.Words for .NET
-description: MailMerge GetRegionsByName method. Returns a collection of mail merge regions with the specified name in C#.
+description: Discover the MailMerge GetRegionsByName method to effortlessly retrieve a collection of mail merge regions by name, enhancing your document automation.
 type: docs
 weight: 240
 url: /net/aspose.words.mailmerging/mailmerge/getregionsbyname/

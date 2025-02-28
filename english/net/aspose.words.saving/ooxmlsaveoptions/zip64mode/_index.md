@@ -3,7 +3,7 @@ title: OoxmlSaveOptions.Zip64Mode
 linktitle: Zip64Mode
 articleTitle: Zip64Mode
 second_title: Aspose.Words for .NET
-description: OoxmlSaveOptions Zip64Mode property. Specifies whether or not to use ZIP64 format extensions for the output document. The default value is Never in C#.
+description: Discover the OoxmlSaveOptions Zip64Mode property to enhance your document's output with ZIP64 format. Optimize large files effortlessly!
 type: docs
 weight: 80
 url: /net/aspose.words.saving/ooxmlsaveoptions/zip64mode/

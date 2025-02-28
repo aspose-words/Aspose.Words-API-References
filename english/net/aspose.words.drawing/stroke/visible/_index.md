@@ -3,7 +3,7 @@ title: Stroke.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words for .NET
-description: Stroke Visible property. Gets or sets a flag indicating whether the stroke is visible in C#.
+description: Control stroke visibility with our easy-to-use property. Enhance your design by toggling stroke visibility for better visual impact!
 type: docs
 weight: 250
 url: /net/aspose.words.drawing/stroke/visible/

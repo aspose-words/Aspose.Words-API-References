@@ -3,7 +3,7 @@ title: CssSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: CssSavingArgs Document property. Gets the document object that is currently being saved in C#.
+description: Discover the CssSavingArgs Document property to access the current document being saved, enhancing your workflow efficiency and document management.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/csssavingargs/document/

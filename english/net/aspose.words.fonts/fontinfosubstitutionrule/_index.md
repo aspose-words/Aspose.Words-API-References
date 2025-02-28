@@ -3,7 +3,7 @@ title: FontInfoSubstitutionRule Class
 linktitle: FontInfoSubstitutionRule
 articleTitle: FontInfoSubstitutionRule
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule class. Font info substitution rule in C#.
+description: Discover the Aspose.Words.Fonts.FontInfoSubstitutionRule class to optimize font management in your documents with seamless substitution capabilities.
 type: docs
 weight: 3360
 url: /net/aspose.words.fonts/fontinfosubstitutionrule/

@@ -3,7 +3,7 @@ title: DocumentBuilder.IsAtEndOfParagraph
 linktitle: IsAtEndOfParagraph
 articleTitle: IsAtEndOfParagraph
 second_title: Aspose.Words for .NET
-description: DocumentBuilder IsAtEndOfParagraph property. Returns true if the cursor is at the end of the current paragraph in C#.
+description: Discover DocumentBuilder's IsAtEndOfParagraph property, which efficiently checks if the cursor is positioned at the end of a paragraph for seamless document editing.
 type: docs
 weight: 110
 url: /net/aspose.words/documentbuilder/isatendofparagraph/

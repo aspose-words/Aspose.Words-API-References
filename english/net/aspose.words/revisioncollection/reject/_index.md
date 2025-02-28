@@ -3,7 +3,7 @@ title: RevisionCollection.Reject
 linktitle: Reject
 articleTitle: Reject
 second_title: Aspose.Words for .NET
-description: RevisionCollection Reject method. Rejects revisions that match specified criteria in C#.
+description: Discover the RevisionCollection Reject method to efficiently filter out unwanted revisions based on your criteria for streamlined project management.
 type: docs
 weight: 70
 url: /net/aspose.words/revisioncollection/reject/

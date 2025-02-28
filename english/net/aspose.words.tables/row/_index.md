@@ -3,9 +3,9 @@ title: Row Class
 linktitle: Row
 articleTitle: Row
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.Row class. Represents a table row in C#.
+description: Discover the Aspose.Words.Tables.Row class for seamless table row management in your documents. Enhance your document processing with powerful features!
 type: docs
-weight: 7000
+weight: 7010
 url: /net/aspose.words.tables/row/
 ---
 ## Row class

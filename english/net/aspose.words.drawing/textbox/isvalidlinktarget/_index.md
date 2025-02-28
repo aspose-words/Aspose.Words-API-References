@@ -3,7 +3,7 @@ title: TextBox.IsValidLinkTarget
 linktitle: IsValidLinkTarget
 articleTitle: IsValidLinkTarget
 second_title: Aspose.Words for .NET
-description: TextBox IsValidLinkTarget method. Determines whether this TextBox can be linked to the target TextBox in C#.
+description: Discover if your TextBox can link to a target with the IsValidLinkTarget method. Enhance your UI functionality effortlessly!
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/textbox/isvalidlinktarget/

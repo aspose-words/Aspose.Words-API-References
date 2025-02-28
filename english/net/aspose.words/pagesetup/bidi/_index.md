@@ -3,7 +3,7 @@ title: PageSetup.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words for .NET
-description: PageSetup Bidi property. Specifies that this section contains bidirectional complex scripts text in C#.
+description: Discover the PageSetup Bidi property for seamless bidirectional text formatting. Enhance your documents with complex script support for better readability!
 type: docs
 weight: 10
 url: /net/aspose.words/pagesetup/bidi/

@@ -3,7 +3,7 @@ title: Font.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words for .NET
-description: Font Fill property. Gets fill formatting for the Font in C#.
+description: Discover the Font Fill property to enhance your text's appearance with customizable fill formatting for a polished, professional look.
 type: docs
 weight: 130
 url: /net/aspose.words/font/fill/

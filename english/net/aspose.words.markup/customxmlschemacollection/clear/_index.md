@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: CustomXmlSchemaCollection Clear method. Removes all elements from the collection in C#.
+description: Effortlessly clear your CustomXmlSchemaCollection with the Clear method, removing all elements for optimal management and organization.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlschemacollection/clear/

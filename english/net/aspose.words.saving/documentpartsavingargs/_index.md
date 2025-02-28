@@ -3,9 +3,9 @@ title: DocumentPartSavingArgs Class
 linktitle: DocumentPartSavingArgs
 articleTitle: DocumentPartSavingArgs
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.DocumentPartSavingArgs class. Provides data for the DocumentPartSaving callback in C#.
+description: Discover the Aspose.Words.Saving.DocumentPartSavingArgs class, essential for enhancing document processing with customizable saving options and efficient callbacks.
 type: docs
-weight: 5550
+weight: 5560
 url: /net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class

@@ -3,7 +3,7 @@ title: ImportFormatOptions.SmartStyleBehavior
 linktitle: SmartStyleBehavior
 articleTitle: SmartStyleBehavior
 second_title: Aspose.Words for .NET
-description: ImportFormatOptions SmartStyleBehavior property. Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is false in C#.
+description: Discover how the ImportFormatOptions SmartStyleBehavior property optimizes style imports with equal names in documents. Customize your import process effortlessly!
 type: docs
 weight: 80
 url: /net/aspose.words/importformatoptions/smartstylebehavior/

@@ -3,7 +3,7 @@ title: FieldMergeBarcode.PosCodeStyle
 linktitle: PosCodeStyle
 articleTitle: PosCodeStyle
 second_title: Aspose.Words for .NET
-description: FieldMergeBarcode PosCodeStyle property. Gets or sets the style of a Point of Sale barcode barcode types UPCAUPCEEAN13EAN8. The valid values case insensitive are STDSUP2SUP5CASE in C#.
+description: Discover the FieldMergeBarcode PosCodeStyle property for customizable Point of Sale barcodes. Support for UPCA, EAN13, and more with flexible styling options!
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldmergebarcode/poscodestyle/

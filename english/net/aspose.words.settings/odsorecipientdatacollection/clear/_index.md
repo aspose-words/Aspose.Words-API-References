@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: OdsoRecipientDataCollection Clear method. Removes all elements from this collection in C#.
+description: Effortlessly clear all elements from the OdsoRecipientDataCollection with our efficient method. Simplify data management today!
 type: docs
 weight: 50
 url: /net/aspose.words.settings/odsorecipientdatacollection/clear/

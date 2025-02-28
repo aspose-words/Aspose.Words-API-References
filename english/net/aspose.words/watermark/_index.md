@@ -3,9 +3,9 @@ title: Watermark Class
 linktitle: Watermark
 articleTitle: Watermark
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Watermark class. Represents class to work with document watermark in C#.
+description: Discover the Aspose.Words.Watermark class to easily add and customize watermarks in your documents, enhancing professionalism and branding.
 type: docs
-weight: 7360
+weight: 7370
 url: /net/aspose.words/watermark/
 ---
 ## Watermark class

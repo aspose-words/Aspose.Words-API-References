@@ -3,7 +3,7 @@ title: FieldIndex.PageNumberListSeparator
 linktitle: PageNumberListSeparator
 articleTitle: PageNumberListSeparator
 second_title: Aspose.Words for .NET
-description: FieldIndex PageNumberListSeparator property. Gets or sets the character sequence that is used to separate two page numbers in a page number list in C#.
+description: Discover the FieldIndex PageNumberListSeparator property to customize page number formatting effortlessly. Enhance your document's readability today!
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldindex/pagenumberlistseparator/

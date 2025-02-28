@@ -3,7 +3,7 @@ title: ContributorCollection.BookAuthor
 linktitle: BookAuthor
 articleTitle: BookAuthor
 second_title: Aspose.Words for .NET
-description: ContributorCollection BookAuthor property. Gets or sets the book author of a source in C#.
+description: Discover the ContributorCollection BookAuthor property: easily manage and customize book authors for your sources, enhancing your content's organization.
 type: docs
 weight: 30
 url: /net/aspose.words.bibliography/contributorcollection/bookauthor/

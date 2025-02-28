@@ -3,7 +3,7 @@ title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator Item property. Gets a named property of the entity in C#.
+description: Discover the LayoutEnumerator Item property to access named entity properties easily, enhancing your data management and workflow efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.layout/layoutenumerator/item/

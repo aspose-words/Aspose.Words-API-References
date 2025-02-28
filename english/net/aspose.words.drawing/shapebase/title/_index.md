@@ -3,7 +3,7 @@ title: ShapeBase.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words for .NET
-description: ShapeBase Title property. Gets or sets the title caption of the current shape object in C#.
+description: Manage your ShapeBase title property effortlessly. Set or retrieve the title caption for any shape object to enhance your design's clarity and appeal.
 type: docs
 weight: 570
 url: /net/aspose.words.drawing/shapebase/title/

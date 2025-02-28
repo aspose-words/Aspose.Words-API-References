@@ -3,9 +3,9 @@ title: CellMerge Enum
 linktitle: CellMerge
 articleTitle: CellMerge
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.CellMerge enum. Specifies how a cell in a table is merged with other cells in C#.
+description: Discover the Aspose.Words.Tables.CellMerge enum for efficient table cell merging. Enhance your document layouts with seamless integration and flexibility.
 type: docs
-weight: 6960
+weight: 6970
 url: /net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration

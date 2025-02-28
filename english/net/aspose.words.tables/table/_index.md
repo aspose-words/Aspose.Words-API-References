@@ -3,9 +3,9 @@ title: Table Class
 linktitle: Table
 articleTitle: Table
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.Table class. Represents a table in a Word document in C#.
+description: Discover the Aspose.Words.Tables.Table class to easily create and manage tables in Word documents, enhancing your document's layout and functionality.
 type: docs
-weight: 7030
+weight: 7040
 url: /net/aspose.words.tables/table/
 ---
 ## Table class

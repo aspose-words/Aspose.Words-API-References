@@ -3,7 +3,7 @@ title: LayoutOptions.RevisionOptions
 linktitle: RevisionOptions
 articleTitle: RevisionOptions
 second_title: Aspose.Words for .NET
-description: LayoutOptions RevisionOptions property. Gets revision options in C#.
+description: Explore the LayoutOptions RevisionOptions property to easily access and customize revision settings for enhanced document control and flexibility.
 type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutoptions/revisionoptions/

@@ -3,7 +3,7 @@ title: ListLevelCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: ListLevelCollection Item property. Gets a list level by index in C#.
+description: Access list levels effortlessly with the ListLevelCollection Item property. Retrieve any level by index for seamless document formatting.
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listlevelcollection/item/

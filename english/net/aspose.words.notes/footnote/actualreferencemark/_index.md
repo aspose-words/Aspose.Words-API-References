@@ -3,7 +3,7 @@ title: Footnote.ActualReferenceMark
 linktitle: ActualReferenceMark
 articleTitle: ActualReferenceMark
 second_title: Aspose.Words for .NET
-description: Footnote ActualReferenceMark property. Gets the actual text of the reference mark displayed in the document for this footnote in C#.
+description: Discover the Footnote ActualReferenceMark property to access the precise text of reference marks in your documents, enhancing clarity and organization.
 type: docs
 weight: 20
 url: /net/aspose.words.notes/footnote/actualreferencemark/

@@ -3,9 +3,9 @@ title: PdfPageLayout Enum
 linktitle: PdfPageLayout
 articleTitle: PdfPageLayout
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfPageLayout enum. Specifies the page layout to be used when the document is opened in a PDF reader in C#.
+description: Discover Aspose.Words.Saving.PdfPageLayout enum for optimal PDF viewing. Customize page layouts for enhanced readability in any PDF reader.
 type: docs
-weight: 6130
+weight: 6140
 url: /net/aspose.words.saving/pdfpagelayout/
 ---
 ## PdfPageLayout enumeration

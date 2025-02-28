@@ -3,7 +3,7 @@ title: FieldIndex.NumberOfColumns
 linktitle: NumberOfColumns
 articleTitle: NumberOfColumns
 second_title: Aspose.Words for .NET
-description: FieldIndex NumberOfColumns property. Gets or sets the number of columns per page used when building the index in C#.
+description: Discover the FieldIndex NumberOfColumns property to easily customize your index layout with optimal column settings for enhanced readability and performance.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldindex/numberofcolumns/

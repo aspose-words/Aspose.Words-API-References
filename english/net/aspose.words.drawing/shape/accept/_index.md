@@ -3,7 +3,7 @@ title: Shape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: Shape Accept method. Accepts a visitor in C#.
+description: Discover the Shape Accept method, designed to enhance visitor engagement and streamline your acceptance process for better results.
 type: docs
 weight: 250
 url: /net/aspose.words.drawing/shape/accept/

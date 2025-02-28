@@ -3,7 +3,7 @@ title: ChartMultilevelValue
 linktitle: ChartMultilevelValue
 articleTitle: ChartMultilevelValue
 second_title: Aspose.Words for .NET
-description: ChartMultilevelValue constructor. Initializes a new instance of this class that represents a threelevel value in C#.
+description: Discover the ChartMultilevelValue constructor, designed to create a powerful three-level value instance for enhanced data visualization and analysis.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartmultilevelvalue/chartmultilevelvalue/

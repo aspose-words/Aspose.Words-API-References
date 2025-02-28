@@ -3,7 +3,7 @@ title: OoxmlSaveOptions.DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
-description: OoxmlSaveOptions DigitalSignatureDetails property. Gets or sets DigitalSignatureDetails object used to sign a document in C#.
+description: Explore OoxmlSaveOptions' DigitalSignatureDetails property to efficiently manage digital signatures for secure document signing and enhanced compliance.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/ooxmlsaveoptions/digitalsignaturedetails/

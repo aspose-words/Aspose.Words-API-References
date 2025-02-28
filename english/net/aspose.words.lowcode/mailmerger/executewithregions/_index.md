@@ -3,7 +3,7 @@ title: MailMerger.ExecuteWithRegions
 linktitle: ExecuteWithRegions
 articleTitle: ExecuteWithRegions
 second_title: Aspose.Words for .NET
-description: MailMerger ExecuteWithRegions method. Performs mail merge from a DataTable into the document with mail merge regions in C#.
+description: Streamline your document creation with MailMerger's ExecuteWithRegions method. Effortlessly merge DataTables into documents using customizable regions.
 type: docs
 weight: 20
 url: /net/aspose.words.lowcode/mailmerger/executewithregions/

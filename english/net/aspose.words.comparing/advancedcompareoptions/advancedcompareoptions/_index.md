@@ -3,7 +3,7 @@ title: AdvancedCompareOptions
 linktitle: AdvancedCompareOptions
 articleTitle: AdvancedCompareOptions
 second_title: Aspose.Words for .NET
-description: AdvancedCompareOptions constructor. The default constructor in C#.
+description: Discover the AdvancedCompareOptions constructor—your go-to solution for customizable comparison settings. Optimize your code with ease!
 type: docs
 weight: 10
 url: /net/aspose.words.comparing/advancedcompareoptions/advancedcompareoptions/

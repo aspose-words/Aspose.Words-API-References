@@ -3,7 +3,7 @@ title: Cluster.Glyphs
 linktitle: Glyphs
 articleTitle: Glyphs
 second_title: Aspose.Words for .NET
-description: Cluster Glyphs property. Gets glyphs of the cluster in C#.
+description: Discover Cluster Glyphs: Efficiently retrieve and manage glyphs from your clusters for enhanced design and performance. Unlock your project's potential!
 type: docs
 weight: 40
 url: /net/aspose.words.shaping/cluster/glyphs/

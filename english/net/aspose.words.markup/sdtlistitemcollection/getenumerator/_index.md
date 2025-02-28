@@ -3,7 +3,7 @@ title: SdtListItemCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: SdtListItemCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: Discover the SdtListItemCollection GetEnumerator method to efficiently iterate through collection items, enhancing your coding efficiency and productivity.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/sdtlistitemcollection/getenumerator/

@@ -3,7 +3,7 @@ title: ReportingEngine.SetRestrictedTypes
 linktitle: SetRestrictedTypes
 articleTitle: SetRestrictedTypes
 second_title: Aspose.Words for .NET
-description: ReportingEngine SetRestrictedTypes method. Specifies types which members as well as which derived types members should be inaccessible by the engine through template syntax in C#.
+description: Discover how the SetRestrictedTypes method in ReportingEngine enhances security by limiting member access in template syntax for optimized data reporting.
 type: docs
 weight: 80
 url: /net/aspose.words.reporting/reportingengine/setrestrictedtypes/

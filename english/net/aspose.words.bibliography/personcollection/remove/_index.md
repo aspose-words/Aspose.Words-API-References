@@ -3,7 +3,7 @@ title: PersonCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words for .NET
-description: PersonCollection Remove method. Removes the person from the collection in C#.
+description: Effortlessly remove a person from your collection with the PersonCollection Remove method. Streamline your data management today!
 type: docs
 weight: 70
 url: /net/aspose.words.bibliography/personcollection/remove/

@@ -3,7 +3,7 @@ title: ResourceSavingArgs.KeepResourceStreamOpen
 linktitle: KeepResourceStreamOpen
 articleTitle: KeepResourceStreamOpen
 second_title: Aspose.Words for .NET
-description: ResourceSavingArgs KeepResourceStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a resource in C#.
+description: Discover how the KeepResourceStreamOpen property in ResourceSavingArgs enhances Aspose.Words by managing stream efficiency during resource saving.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/

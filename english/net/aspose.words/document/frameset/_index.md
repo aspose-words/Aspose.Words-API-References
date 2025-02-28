@@ -3,7 +3,7 @@ title: Document.Frameset
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words for .NET
-description: Document Frameset property. Returns a Frameset instance if this document represents a frames page in C#.
+description: Discover the Frameset property for documents. Get a Frameset instance for seamless integration of framed pages. Enhance your web experience today!
 type: docs
 weight: 170
 url: /net/aspose.words/document/frameset/

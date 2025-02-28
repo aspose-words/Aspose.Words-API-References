@@ -3,7 +3,7 @@ title: FontSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words for .NET
-description: FontSavingArgs IsExportNeeded property. Allows to specify whether the current font will be exported as a font resource. Default is true in C#.
+description: Discover the FontSavingArgs IsExportNeeded property to control font resource exports. Maximize efficiency with customizable settings for your projects!
 type: docs
 weight: 60
 url: /net/aspose.words.saving/fontsavingargs/isexportneeded/

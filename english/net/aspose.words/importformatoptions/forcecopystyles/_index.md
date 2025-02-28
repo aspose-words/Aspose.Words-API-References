@@ -3,7 +3,7 @@ title: ImportFormatOptions.ForceCopyStyles
 linktitle: ForceCopyStyles
 articleTitle: ForceCopyStyles
 second_title: Aspose.Words for .NET
-description: ImportFormatOptions ForceCopyStyles property. Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is false in C#.
+description: Discover the ImportFormatOptions ForceCopyStyles property: control style copying in KeepSourceFormatting mode with ease. Default is false for optimal results.
 type: docs
 weight: 30
 url: /net/aspose.words/importformatoptions/forcecopystyles/

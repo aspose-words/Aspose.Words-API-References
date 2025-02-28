@@ -3,7 +3,7 @@ title: ConditionalStyle.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: ConditionalStyle Type property. Gets table area to which this conditional style relates in C#.
+description: Discover the ConditionalStyle Type property that defines the related table area, enhancing your design flexibility and style management.
 type: docs
 weight: 90
 url: /net/aspose.words/conditionalstyle/type/

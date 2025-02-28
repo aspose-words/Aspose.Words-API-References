@@ -3,7 +3,7 @@ title: PageSet.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: PageSet GetEnumerator method.  in C#.
+description: Discover the PageSet GetEnumerator method to efficiently iterate through collections. Enhance your coding skills and optimize performance today!
 type: docs
 weight: 50
 url: /net/aspose.words.saving/pageset/getenumerator/

@@ -3,7 +3,7 @@ title: SmartTag.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: SmartTag NodeType property. Returns SmartTag in C#.
+description: Discover the SmartTag NodeType property that enhances your content with dynamic tagging features. Unlock seamless integration and boost user engagement!
 type: docs
 weight: 30
 url: /net/aspose.words.markup/smarttag/nodetype/

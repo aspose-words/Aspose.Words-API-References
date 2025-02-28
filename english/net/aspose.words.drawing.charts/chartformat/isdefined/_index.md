@@ -3,7 +3,7 @@ title: ChartFormat.IsDefined
 linktitle: IsDefined
 articleTitle: IsDefined
 second_title: Aspose.Words for .NET
-description: ChartFormat IsDefined property. Gets a flag indicating whether any format is defined in C#.
+description: Discover if a format is defined with the ChartFormat IsDefined property. Unlock seamless formatting control for your charts today!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartformat/isdefined/

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 linktitle: InsertDocument
 articleTitle: InsertDocument
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertDocument method. Inserts a document at the cursor position in C#.
+description: Effortlessly insert documents at any cursor position with DocumentBuilder's InsertDocument method. Streamline your workflow and enhance productivity!
 type: docs
 weight: 310
 url: /net/aspose.words/documentbuilder/insertdocument/

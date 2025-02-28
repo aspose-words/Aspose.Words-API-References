@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitSectionEnd
 linktitle: VisitSectionEnd
 articleTitle: VisitSectionEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitSectionEnd method. Called when enumeration of a section has ended in C#.
+description: Discover the DocumentVisitor VisitSectionEnd method, crucial for managing section enumeration in your applications. Enhance your coding efficiency today!
 type: docs
 weight: 370
 url: /net/aspose.words/documentvisitor/visitsectionend/

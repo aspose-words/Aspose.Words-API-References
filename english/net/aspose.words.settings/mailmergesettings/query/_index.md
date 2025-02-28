@@ -3,7 +3,7 @@ title: MailMergeSettings.Query
 linktitle: Query
 articleTitle: Query
 second_title: Aspose.Words for .NET
-description: MailMergeSettings Query property. Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. The default value is an empty string in C#.
+description: Discover how to leverage the MailMergeSettings Query property to efficiently import records from external data sources for seamless mail merge operations.
 type: docs
 weight: 160
 url: /net/aspose.words.settings/mailmergesettings/query/

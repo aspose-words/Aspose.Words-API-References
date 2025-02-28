@@ -3,7 +3,7 @@ title: Font.AllCaps
 linktitle: AllCaps
 articleTitle: AllCaps
 second_title: Aspose.Words for .NET
-description: Font AllCaps property. True if the font is formatted as all capital letters in C#.
+description: Discover the Font AllCaps property: Easily format text in all capital letters for enhanced readability and impactful design in your projects.
 type: docs
 weight: 10
 url: /net/aspose.words/font/allcaps/

@@ -3,7 +3,7 @@ title: Footnote.IsAuto
 linktitle: IsAuto
 articleTitle: IsAuto
 second_title: Aspose.Words for .NET
-description: Footnote IsAuto property. Holds a value that specifies whether this is a autonumbered footnote or footnote with user defined custom reference mark in C#.
+description: Discover the IsAuto property for footnotes, enabling seamless autonumbering or custom reference marks for enhanced document clarity and organization.
 type: docs
 weight: 40
 url: /net/aspose.words.notes/footnote/isauto/

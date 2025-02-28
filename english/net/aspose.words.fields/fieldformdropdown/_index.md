@@ -3,7 +3,7 @@ title: FieldFormDropDown Class
 linktitle: FieldFormDropDown
 articleTitle: FieldFormDropDown
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldFormDropDown class. Implements the FORMDROPDOWN field in C#.
+description: Discover the Aspose.Words.Fields.FieldFormDropDown class, designed to enhance document interactivity with dynamic dropdown fields for seamless user experiences.
 type: docs
 weight: 2320
 url: /net/aspose.words.fields/fieldformdropdown/

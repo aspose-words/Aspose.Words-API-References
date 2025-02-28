@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreFootnotes
 linktitle: IgnoreFootnotes
 articleTitle: IgnoreFootnotes
 second_title: Aspose.Words for .NET
-description: CompareOptions IgnoreFootnotes property. Specifies whether to compare differences in footnotes and endnotes in C#.
+description: Discover how the IgnoreFootnotes property in CompareOptions enhances document comparison by excluding footnotes and endnotes for clearer results.
 type: docs
 weight: 80
 url: /net/aspose.words.comparing/compareoptions/ignorefootnotes/

@@ -3,7 +3,7 @@ title: BookmarkEnd
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: Aspose.Words for .NET
-description: BookmarkEnd constructor. Initializes a new instance of the BookmarkEnd class in C#.
+description: Create a new BookmarkEnd instance effortlessly. Enhance your project with this essential tool for managing bookmarks efficiently.
 type: docs
 weight: 10
 url: /net/aspose.words/bookmarkend/bookmarkend/

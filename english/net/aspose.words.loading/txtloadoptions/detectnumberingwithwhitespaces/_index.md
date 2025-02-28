@@ -3,7 +3,7 @@ title: TxtLoadOptions.DetectNumberingWithWhitespaces
 linktitle: DetectNumberingWithWhitespaces
 articleTitle: DetectNumberingWithWhitespaces
 second_title: Aspose.Words for .NET
-description: TxtLoadOptions DetectNumberingWithWhitespaces property. Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true in C#.
+description: Optimize your document imports with TxtLoadOptions' DetectNumberingWithWhitespaces feature, ensuring accurate recognition of numbered lists from plain text.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/

@@ -3,7 +3,7 @@ title: BorderCollection.Right
 linktitle: Right
 articleTitle: Right
 second_title: Aspose.Words for .NET
-description: BorderCollection Right property. Gets the right border in C#.
+description: Discover BorderCollection Right property for precise border control in your designs. Enhance your layouts with the perfect border every time!
 type: docs
 weight: 100
 url: /net/aspose.words/bordercollection/right/

@@ -3,7 +3,7 @@ title: Row.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: Row AcceptStart method. Accepts a visitor for visiting the start of the row in C#.
+description: Discover the Row AcceptStart method: seamlessly accept visitors at the row's start for enhanced user experience and efficient navigation.
 type: docs
 weight: 140
 url: /net/aspose.words.tables/row/acceptstart/

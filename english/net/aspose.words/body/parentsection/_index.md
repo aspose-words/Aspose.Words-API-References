@@ -3,7 +3,7 @@ title: Body.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words for .NET
-description: Body ParentSection property. Gets the parent section of this story in C#.
+description: Discover the Body ParentSection property to easily access a story's parent section and enhance your content management efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words/body/parentsection/

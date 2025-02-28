@@ -3,7 +3,7 @@ title: ChartDataPoint Class
 linktitle: ChartDataPoint
 articleTitle: ChartDataPoint
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPoint class. Allows to specify formatting of a single data point on the chart in C#.
+description: Discover the Aspose.Words.Drawing.Charts.ChartDataPoint class to easily format individual chart data points, enhancing your data visualization with precision.
 type: docs
 weight: 970
 url: /net/aspose.words.drawing.charts/chartdatapoint/

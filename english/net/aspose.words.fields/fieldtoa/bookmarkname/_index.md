@@ -3,7 +3,7 @@ title: FieldToa.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words for .NET
-description: FieldToa BookmarkName property. Gets or sets the name of the bookmark that marks the portion of the document used to build the table in C#.
+description: Discover the FieldToa BookmarkName property to easily manage bookmarks in your documents, enhancing table creation and improving document navigation.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldtoa/bookmarkname/

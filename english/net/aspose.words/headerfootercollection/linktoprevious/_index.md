@@ -3,7 +3,7 @@ title: HeaderFooterCollection.LinkToPrevious
 linktitle: LinkToPrevious
 articleTitle: LinkToPrevious
 second_title: Aspose.Words for .NET
-description: HeaderFooterCollection LinkToPrevious method. Links or unlinks all headers and footers to the corresponding headers and footers in the previous section in C#.
+description: Discover the LinkToPrevious method in HeaderFooterCollection to easily connect or disconnect headers and footers across your document sections for seamless formatting.
 type: docs
 weight: 20
 url: /net/aspose.words/headerfootercollection/linktoprevious/

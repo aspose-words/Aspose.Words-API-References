@@ -3,7 +3,7 @@ title: ImportFormatOptions.AdjustSentenceAndWordSpacing
 linktitle: AdjustSentenceAndWordSpacing
 articleTitle: AdjustSentenceAndWordSpacing
 second_title: Aspose.Words for .NET
-description: ImportFormatOptions AdjustSentenceAndWordSpacing property. Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is false in C#.
+description: Discover the ImportFormatOptions AdjustSentenceAndWordSpacing property. Easily control automatic sentence and word spacing for improved text clarity.
 type: docs
 weight: 20
 url: /net/aspose.words/importformatoptions/adjustsentenceandwordspacing/

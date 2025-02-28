@@ -3,7 +3,7 @@ title: ReportBuilder.BuildReport
 linktitle: BuildReport
 articleTitle: BuildReport
 second_title: Aspose.Words for .NET
-description: ReportBuilder BuildReport method. Populates the template document with data from the specified source generating a completed report in C#.
+description: Effortlessly create customized reports with ReportBuilder's BuildReport method, filling your template with data for professional results every time.
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/reportbuilder/buildreport/

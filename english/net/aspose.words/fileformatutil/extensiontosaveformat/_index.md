@@ -3,7 +3,7 @@ title: FileFormatUtil.ExtensionToSaveFormat
 linktitle: ExtensionToSaveFormat
 articleTitle: ExtensionToSaveFormat
 second_title: Aspose.Words for .NET
-description: FileFormatUtil ExtensionToSaveFormat method. Converts a file name extension into a SaveFormat value in C#.
+description: Effortlessly convert file name extensions to SaveFormat values with the FileFormatUtil ExtensionToSaveFormat method. Simplify your file management today!
 type: docs
 weight: 40
 url: /net/aspose.words/fileformatutil/extensiontosaveformat/

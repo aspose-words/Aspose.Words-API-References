@@ -3,7 +3,7 @@ title: Cell.CellFormat
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words for .NET
-description: Cell CellFormat property. Provides access to the formatting properties of the cell in C#.
+description: Discover the Cell CellFormat property to easily access and customize cell formatting options for enhanced data presentation in your applications.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/cell/cellformat/

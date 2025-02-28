@@ -3,7 +3,7 @@ title: Hyphenation.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words for .NET
-description: Hyphenation WarningCallback property. Called during a load hyphenation patterns when an issue is detected that might result in formatting fidelity loss in C#.
+description: Discover the Hyphenation WarningCallback property, ensuring optimal formatting by detecting issues in hyphenation patterns during loading. Maximize text fidelity!
 type: docs
 weight: 20
 url: /net/aspose.words/hyphenation/warningcallback/

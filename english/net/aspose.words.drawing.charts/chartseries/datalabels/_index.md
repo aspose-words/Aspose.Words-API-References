@@ -3,7 +3,7 @@ title: ChartSeries.DataLabels
 linktitle: DataLabels
 articleTitle: DataLabels
 second_title: Aspose.Words for .NET
-description: ChartSeries DataLabels property. Specifies the settings for the data labels for the entire series in C#.
+description: Discover the ChartSeries DataLabels property to customize data label settings for your entire series. Enhance your data visualization today!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseries/datalabels/

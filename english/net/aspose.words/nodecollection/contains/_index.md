@@ -3,7 +3,7 @@ title: NodeCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words for .NET
-description: NodeCollection Contains method. Determines whether a node is in the collection in C#.
+description: Discover how the NodeCollection Contains method efficiently checks if a node exists in your collection, enhancing your data management capabilities.
 type: docs
 weight: 50
 url: /net/aspose.words/nodecollection/contains/

@@ -3,7 +3,7 @@ title: FieldOptions.IsBidiTextSupportedOnUpdate
 linktitle: IsBidiTextSupportedOnUpdate
 articleTitle: IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words for .NET
-description: FieldOptions IsBidiTextSupportedOnUpdate property. Gets or sets the value indicating whether bidirectional text is fully supported during field update or not in C#.
+description: Discover if bidirectional text support is enabled in FieldOptions. Easily manage text updates for enhanced multilingual functionality.
 type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/

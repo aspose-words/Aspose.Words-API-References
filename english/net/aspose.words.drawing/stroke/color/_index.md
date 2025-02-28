@@ -3,7 +3,7 @@ title: Stroke.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words for .NET
-description: Stroke Color property. Defines the color of a stroke in C#.
+description: Discover the Stroke Color property to customize your designs. Enhance visuals with precise stroke colors for stunning graphic results!
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/stroke/color/

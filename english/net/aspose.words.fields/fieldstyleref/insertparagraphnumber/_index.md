@@ -3,7 +3,7 @@ title: FieldStyleRef.InsertParagraphNumber
 linktitle: InsertParagraphNumber
 articleTitle: InsertParagraphNumber
 second_title: Aspose.Words for .NET
-description: FieldStyleRef InsertParagraphNumber property. Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document in C#.
+description: Discover the FieldStyleRef InsertParagraphNumber property to easily manage paragraph numbering in your documents, ensuring accurate references and enhanced formatting.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldstyleref/insertparagraphnumber/

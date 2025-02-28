@@ -3,7 +3,7 @@ title: TextPath.On
 linktitle: On
 articleTitle: On
 second_title: Aspose.Words for .NET
-description: TextPath On property. Defines whether the text is displayed in C#.
+description: Discover how TextPath enhances property text display, ensuring clarity and engagement in your designs. Optimize your visuals today!
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/textpath/on/

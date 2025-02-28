@@ -3,7 +3,7 @@ title: FontSavingArgs.FontStream
 linktitle: FontStream
 articleTitle: FontStream
 second_title: Aspose.Words for .NET
-description: FontSavingArgs FontStream property. Allows to specify the stream where the font will be saved to in C#.
+description: Discover the FontSavingArgs FontStream property, enabling seamless font storage and management for enhanced application performance and user experience.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/fontsavingargs/fontstream/

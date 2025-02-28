@@ -3,7 +3,7 @@ title: ImageData.IsLink
 linktitle: IsLink
 articleTitle: IsLink
 second_title: Aspose.Words for .NET
-description: ImageData IsLink property. Returns true if the image is linked to the shape when SourceFullName is specified in C#.
+description: Discover how the ImageData IsLink property enhances your design by linking images to shapes seamlessly when SourceFullName is set. Boost your creativity!
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/imagedata/islink/

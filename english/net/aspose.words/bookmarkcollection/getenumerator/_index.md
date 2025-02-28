@@ -3,7 +3,7 @@ title: BookmarkCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: BookmarkCollection GetEnumerator method. Returns an enumerator object in C#.
+description: Discover the BookmarkCollection GetEnumerator method. Efficiently retrieve enumerator objects for seamless data handling and enhanced performance.
 type: docs
 weight: 40
 url: /net/aspose.words/bookmarkcollection/getenumerator/

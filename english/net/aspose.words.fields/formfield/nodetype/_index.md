@@ -3,7 +3,7 @@ title: FormField.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: FormField NodeType property. Returns FormField in C#.
+description: Discover the FormField NodeType property that efficiently returns FormField data, enhancing your development experience with seamless integration.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/formfield/nodetype/

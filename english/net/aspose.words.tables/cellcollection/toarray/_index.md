@@ -3,7 +3,7 @@ title: CellCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words for .NET
-description: CellCollection ToArray method. Copies all cells from the collection to a new array of cells in C#.
+description: Effortlessly convert your CellCollection to a new array with the ToArray method, streamlining data management and enhancing performance.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/cellcollection/toarray/

@@ -3,7 +3,7 @@ title: Stroke.ForeTintAndShade
 linktitle: ForeTintAndShade
 articleTitle: ForeTintAndShade
 second_title: Aspose.Words for .NET
-description: Stroke ForeTintAndShade property. Gets or sets a double value that lightens or darkens the stroke foreground color in C#.
+description: Adjust the Stroke ForeTintAndShade property to effortlessly lighten or darken your stroke's foreground color for enhanced visual impact.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/stroke/foretintandshade/

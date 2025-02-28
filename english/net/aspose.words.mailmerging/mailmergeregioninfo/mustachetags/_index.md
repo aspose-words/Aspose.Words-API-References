@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.MustacheTags
 linktitle: MustacheTags
 articleTitle: MustacheTags
 second_title: Aspose.Words for .NET
-description: MailMergeRegionInfo MustacheTags property. Returns a list of child mustache tags in C#.
+description: Discover the MailMergeRegionInfo MustacheTags property, which efficiently returns a comprehensive list of child mustache tags for seamless data integration.
 type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/mustachetags/

@@ -3,7 +3,7 @@ title: PageRange
 linktitle: PageRange
 articleTitle: PageRange
 second_title: Aspose.Words for .NET
-description: PageRange constructor. Creates a new page range object in C#.
+description: Create customized page ranges effortlessly with our PageRange constructor. Enhance your document management with precision and flexibility.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/pagerange/pagerange/

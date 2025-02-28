@@ -3,7 +3,7 @@ title: Shape.FillColor
 linktitle: FillColor
 articleTitle: FillColor
 second_title: Aspose.Words for .NET
-description: Shape FillColor property. Defines the brush color that fills the closed path of the shape in C#.
+description: Discover the Shape FillColor property to customize your designs with vibrant brush colors that enhance your shapes and elevate your projects.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/shape/fillcolor/

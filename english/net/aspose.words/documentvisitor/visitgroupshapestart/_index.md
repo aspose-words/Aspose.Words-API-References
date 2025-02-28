@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitGroupShapeStart
 linktitle: VisitGroupShapeStart
 articleTitle: VisitGroupShapeStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitGroupShapeStart method. Called when enumeration of a group shape has started in C#.
+description: Discover the DocumentVisitor VisitGroupShapeStart method, essential for efficient group shape enumeration in your applications. Enhance your coding workflow today!
 type: docs
 weight: 270
 url: /net/aspose.words/documentvisitor/visitgroupshapestart/

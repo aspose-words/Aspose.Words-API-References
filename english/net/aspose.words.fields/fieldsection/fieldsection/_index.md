@@ -3,7 +3,7 @@ title: FieldSection
 linktitle: FieldSection
 articleTitle: FieldSection
 second_title: Aspose.Words for .NET
-description: FieldSection constructor. The default constructor in C#.
+description: Discover the FieldSection constructor—your go-to solution for seamless integration. Unlock default functionalities for efficient development!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldsection/fieldsection/

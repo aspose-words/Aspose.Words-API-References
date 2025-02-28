@@ -3,7 +3,7 @@ title: Source.DayAccessed
 linktitle: DayAccessed
 articleTitle: DayAccessed
 second_title: Aspose.Words for .NET
-description: Source DayAccessed property. Gets or sets the day accessed of a source in C#.
+description: Manage your source's access date effortlessly with Source DayAccessed. Easily track and update when your source was accessed for better organization.
 type: docs
 weight: 160
 url: /net/aspose.words.bibliography/source/dayaccessed/

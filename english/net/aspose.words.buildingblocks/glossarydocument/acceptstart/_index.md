@@ -3,7 +3,7 @@ title: GlossaryDocument.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: GlossaryDocument AcceptStart method. Accepts a visitor for visiting the start of the Glossary document in C#.
+description: Discover the GlossaryDocument AcceptStart method to seamlessly welcome visitors and enhance their experience from the beginning of your glossary.
 type: docs
 weight: 80
 url: /net/aspose.words.buildingblocks/glossarydocument/acceptstart/

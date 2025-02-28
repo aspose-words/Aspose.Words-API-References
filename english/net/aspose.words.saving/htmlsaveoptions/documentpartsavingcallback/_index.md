@@ -3,7 +3,7 @@ title: HtmlSaveOptions.DocumentPartSavingCallback
 linktitle: DocumentPartSavingCallback
 articleTitle: DocumentPartSavingCallback
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions DocumentPartSavingCallback property. Allows to control how document parts are saved when a document is saved to HTML or EPUB in C#.
+description: Control document part saving with HtmlSaveOptions' DocumentPartSavingCallback. Optimize your HTML or EPUB exports for seamless user experience.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/

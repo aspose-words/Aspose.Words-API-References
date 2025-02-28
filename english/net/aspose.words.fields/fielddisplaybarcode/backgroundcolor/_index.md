@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.BackgroundColor
 linktitle: BackgroundColor
 articleTitle: BackgroundColor
 second_title: Aspose.Words for .NET
-description: FieldDisplayBarcode BackgroundColor property. Gets or sets the background color of the barcode symbol. Valid values are in the range 0 0xFFFFFF in C#.
+description: Customize your barcode's appearance with the FieldDisplayBarcode BackgroundColor property. Set vibrant colors for enhanced visibility and branding.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/

@@ -3,7 +3,7 @@ title: FieldSymbol.IsUnicode
 linktitle: IsUnicode
 articleTitle: IsUnicode
 second_title: Aspose.Words for .NET
-description: FieldSymbol IsUnicode property. Gets or sets whether the character code is interpreted as the value of a Unicode character in C#.
+description: Discover the FieldSymbol IsUnicode property to easily manage character codes as Unicode values, enhancing your coding efficiency and accuracy.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldsymbol/isunicode/

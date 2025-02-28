@@ -3,7 +3,7 @@ title: EndnoteOptions.NumberStyle
 linktitle: NumberStyle
 articleTitle: NumberStyle
 second_title: Aspose.Words for .NET
-description: EndnoteOptions NumberStyle property. Specifies the number format for automatically numbered endnotes in C#.
+description: Discover the EndnoteOptions NumberStyle property to customize your endnotes' number format effortlessly. Enhance your document's professionalism today!
 type: docs
 weight: 10
 url: /net/aspose.words.notes/endnoteoptions/numberstyle/

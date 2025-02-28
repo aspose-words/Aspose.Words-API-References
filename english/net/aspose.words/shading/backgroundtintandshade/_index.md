@@ -3,7 +3,7 @@ title: Shading.BackgroundTintAndShade
 linktitle: BackgroundTintAndShade
 articleTitle: BackgroundTintAndShade
 second_title: Aspose.Words for .NET
-description: Shading BackgroundTintAndShade property. Gets or sets a double value that lightens or darkens a background theme color in C#.
+description: Adjust your background theme color effortlessly with the BackgroundTintAndShade property. Lighten or darken colors for a perfect design touch!
 type: docs
 weight: 30
 url: /net/aspose.words/shading/backgroundtintandshade/

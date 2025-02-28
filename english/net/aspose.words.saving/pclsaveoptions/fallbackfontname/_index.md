@@ -3,7 +3,7 @@ title: PclSaveOptions.FallbackFontName
 linktitle: FallbackFontName
 articleTitle: FallbackFontName
 second_title: Aspose.Words for .NET
-description: PclSaveOptions FallbackFontName property. Name of the font that will be used if no expected font is found in printer and builtin fonts collections in C#.
+description: Discover the PclSaveOptions FallbackFontName property: ensures seamless printing with a default font when your desired font isn't available.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pclsaveoptions/fallbackfontname/

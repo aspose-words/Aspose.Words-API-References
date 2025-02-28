@@ -3,7 +3,7 @@ title: EditableRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: EditableRangeStart Id property. Specifies the identifier of the editable range in C#.
+description: Discover the EditableRangeStart Id property to easily identify and manage your editable ranges in applications for enhanced functionality and user control.
 type: docs
 weight: 20
 url: /net/aspose.words/editablerangestart/id/

@@ -3,7 +3,7 @@ title: ContributorCollection.Producer
 linktitle: Producer
 articleTitle: Producer
 second_title: Aspose.Words for .NET
-description: ContributorCollection Producer property. Gets or sets the producer of a source in C#.
+description: Manage your media with ContributorCollection's Producer property—easily set or retrieve the source's producer for streamlined content organization.
 type: docs
 weight: 140
 url: /net/aspose.words.bibliography/contributorcollection/producer/

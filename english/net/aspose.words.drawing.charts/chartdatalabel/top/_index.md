@@ -3,7 +3,7 @@ title: ChartDataLabel.Top
 linktitle: Top
 articleTitle: Top
 second_title: Aspose.Words for .NET
-description: ChartDataLabel Top property. Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its Position property depending on the value of the TopMode property in C#.
+description: Adjust the ChartDataLabel Top property to control data label positioning for enhanced chart clarity. Optimize your visual data representation effortlessly!
 type: docs
 weight: 210
 url: /net/aspose.words.drawing.charts/chartdatalabel/top/
