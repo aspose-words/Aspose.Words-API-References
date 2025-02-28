@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreInserted
 linktitle: IgnoreInserted
 articleTitle: IgnoreInserted
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions IgnoreInserted property. Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is false in C#.
+description: Discover the FindReplaceOptions IgnoreInserted property: control text handling in insert revisions with this simple boolean setting. Default is false.
 type: docs
 weight: 100
 url: /net/aspose.words.replacing/findreplaceoptions/ignoreinserted/

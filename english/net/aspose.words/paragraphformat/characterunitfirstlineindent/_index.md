@@ -3,7 +3,7 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
 second_title: Aspose.Words for .NET
-description: ParagraphFormat CharacterUnitFirstLineIndent property. Gets or sets the value in characters for the firstline or hanging indent in C#.
+description: Discover the ParagraphFormat CharacterUnitFirstLineIndent property to easily customize your document's first line or hanging indent for a polished look.
 type: docs
 weight: 70
 url: /net/aspose.words/paragraphformat/characterunitfirstlineindent/

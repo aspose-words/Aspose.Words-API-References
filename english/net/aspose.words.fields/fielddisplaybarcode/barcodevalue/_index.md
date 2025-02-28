@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.BarcodeValue
 linktitle: BarcodeValue
 articleTitle: BarcodeValue
 second_title: Aspose.Words for .NET
-description: FieldDisplayBarcode BarcodeValue property. Gets or sets the barcode value in C#.
+description: Discover the FieldDisplayBarcode's BarcodeValue property to easily manage and customize barcode values for enhanced data accuracy and efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fielddisplaybarcode/barcodevalue/

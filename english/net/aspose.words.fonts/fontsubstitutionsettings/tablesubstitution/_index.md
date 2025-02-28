@@ -3,7 +3,7 @@ title: FontSubstitutionSettings.TableSubstitution
 linktitle: TableSubstitution
 articleTitle: TableSubstitution
 second_title: Aspose.Words for .NET
-description: FontSubstitutionSettings TableSubstitution property. Settings related to table substitution rule in C#.
+description: Explore FontSubstitutionSettings for optimal table substitution rules. Enhance your design with effective settings for seamless font management.
 type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/

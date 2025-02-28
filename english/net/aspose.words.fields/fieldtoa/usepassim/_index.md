@@ -3,7 +3,7 @@ title: FieldToa.UsePassim
 linktitle: UsePassim
 articleTitle: UsePassim
 second_title: Aspose.Words for .NET
-description: FieldToa UsePassim property. Gets or sets whether to replace five or more different page references to the same authority with passim which is used to indicate that a word or passage occurs frequently in the work cited in C#.
+description: Optimize your citations with FieldToa UsePassim. Easily manage multiple references to the same authority, enhancing clarity and accuracy in your work.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldtoa/usepassim/

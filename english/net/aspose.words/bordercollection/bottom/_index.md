@@ -3,7 +3,7 @@ title: BorderCollection.Bottom
 linktitle: Bottom
 articleTitle: Bottom
 second_title: Aspose.Words for .NET
-description: BorderCollection Bottom property. Gets the bottom border in C#.
+description: Discover the BorderCollection Bottom property to easily access and customize your bottom border for enhanced design flexibility and style.
 type: docs
 weight: 10
 url: /net/aspose.words/bordercollection/bottom/

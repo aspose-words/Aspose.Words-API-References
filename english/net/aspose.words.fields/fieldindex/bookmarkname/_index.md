@@ -3,7 +3,7 @@ title: FieldIndex.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words for .NET
-description: FieldIndex BookmarkName property. Gets or sets the name of the bookmark that marks the portion of the document used to build the index in C#.
+description: Discover the FieldIndex BookmarkName property to easily manage bookmarks that enhance document indexing. Boost your efficiency with seamless navigation!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldindex/bookmarkname/

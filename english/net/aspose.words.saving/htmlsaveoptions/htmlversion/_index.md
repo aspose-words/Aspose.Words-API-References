@@ -3,7 +3,7 @@ title: HtmlSaveOptions.HtmlVersion
 linktitle: HtmlVersion
 articleTitle: HtmlVersion
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions HtmlVersion property. Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is Xhtml in C#.
+description: Discover the HtmlSaveOptions HtmlVersion property to easily choose your HTML standard when saving documents to HTML or MHTML. Optimize your output effortlessly!
 type: docs
 weight: 330
 url: /net/aspose.words.saving/htmlsaveoptions/htmlversion/
@@ -37,11 +37,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options)
 
 // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
+string newLine = Environment.NewLine;
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
-        "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
+        $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));

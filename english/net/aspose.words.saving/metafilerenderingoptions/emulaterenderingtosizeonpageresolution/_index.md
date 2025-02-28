@@ -3,7 +3,7 @@ title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
 linktitle: EmulateRenderingToSizeOnPageResolution
 articleTitle: EmulateRenderingToSizeOnPageResolution
 second_title: Aspose.Words for .NET
-description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution property. Gets or sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page in C#.
+description: Discover the MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution property. Control metafile rendering resolution for optimal page display.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/

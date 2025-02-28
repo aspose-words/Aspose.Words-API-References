@@ -3,7 +3,7 @@ title: OdsoRecipientData.UniqueTag
 linktitle: UniqueTag
 articleTitle: UniqueTag
 second_title: Aspose.Words for .NET
-description: OdsoRecipientData UniqueTag property. Specifies the contents of a given record in the column containing unique data. The default value is null in C#.
+description: Discover the OdsoRecipientData UniqueTag property, defining unique record contents. Optimize your data management with this essential feature.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/odsorecipientdata/uniquetag/

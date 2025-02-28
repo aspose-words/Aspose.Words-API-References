@@ -3,7 +3,7 @@ title: NodeRendererBase.GetOpaqueBoundsInPixels
 linktitle: GetOpaqueBoundsInPixels
 articleTitle: GetOpaqueBoundsInPixels
 second_title: Aspose.Words for .NET
-description: NodeRendererBase GetOpaqueBoundsInPixels method. Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution in C#.
+description: Discover how the NodeRendererBase GetOpaqueBoundsInPixels method efficiently calculates shape bounds in pixels, optimizing for zoom and resolution.
 type: docs
 weight: 50
 url: /net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/

@@ -3,7 +3,7 @@ title: DocumentBuilder.CurrentParagraph
 linktitle: CurrentParagraph
 articleTitle: CurrentParagraph
 second_title: Aspose.Words for .NET
-description: DocumentBuilder CurrentParagraph property. Gets the paragraph that is currently selected in this DocumentBuilder in C#.
+description: Access the selected paragraph in DocumentBuilder easily with the CurrentParagraph property. Streamline your document editing process today!
 type: docs
 weight: 50
 url: /net/aspose.words/documentbuilder/currentparagraph/

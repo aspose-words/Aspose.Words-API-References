@@ -3,7 +3,7 @@ title: Table.DistanceRight
 linktitle: DistanceRight
 articleTitle: DistanceRight
 second_title: Aspose.Words for .NET
-description: Table DistanceRight property. Gets or sets distance between table right and the surrounding text in points in C#.
+description: Adjust the Table DistanceRight property to control spacing between your table and surrounding text in points, enhancing layout and readability.
 type: docs
 weight: 140
 url: /net/aspose.words.tables/table/distanceright/

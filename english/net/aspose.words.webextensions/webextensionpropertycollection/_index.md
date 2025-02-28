@@ -3,9 +3,9 @@ title: WebExtensionPropertyCollection Class
 linktitle: WebExtensionPropertyCollection
 articleTitle: WebExtensionPropertyCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection class. Specifies a set of web extension custom properties in C#.
+description: Discover Aspose.Words.WebExtensions.WebExtensionPropertyCollection for managing custom web extension properties efficiently. Enhance your document automation today!
 type: docs
-weight: 7480
+weight: 7490
 url: /net/aspose.words.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class

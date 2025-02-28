@@ -3,7 +3,7 @@ title: VariableCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words for .NET
-description: VariableCollection Remove method. Removes a document variable with the specified name from the collection in C#.
+description: Effortlessly remove document variables using the VariableCollection Remove method. Streamline your data management with this efficient solution.
 type: docs
 weight: 80
 url: /net/aspose.words/variablecollection/remove/

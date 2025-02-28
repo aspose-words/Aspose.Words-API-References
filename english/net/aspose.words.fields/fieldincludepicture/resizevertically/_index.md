@@ -3,7 +3,7 @@ title: FieldIncludePicture.ResizeVertically
 linktitle: ResizeVertically
 articleTitle: ResizeVertically
 second_title: Aspose.Words for .NET
-description: FieldIncludePicture ResizeVertically property. Gets or sets whether to resize the picture vertically from the source in C#.
+description: Discover how the ResizeVertically property of FieldIncludePicture enhances image management by allowing vertical resizing for optimal display.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldincludepicture/resizevertically/

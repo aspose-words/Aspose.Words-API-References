@@ -3,7 +3,7 @@ title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: ListCollection Document property. Gets the owner document in C#.
+description: Discover the ListCollection Document property to easily access the owner document and streamline your data management. Unlock efficiency today!
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listcollection/document/

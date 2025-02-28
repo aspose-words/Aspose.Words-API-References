@@ -3,7 +3,7 @@ title: OptionButtonControl.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: OptionButtonControl Type property. Gets type of Forms 2.0 control in C#.
+description: Discover the OptionButtonControl Type property for Forms 2.0. Learn how to enhance your forms with this essential control type feature.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/optionbuttoncontrol/type/

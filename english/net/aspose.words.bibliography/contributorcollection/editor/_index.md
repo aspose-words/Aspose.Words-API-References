@@ -3,7 +3,7 @@ title: ContributorCollection.Editor
 linktitle: Editor
 articleTitle: Editor
 second_title: Aspose.Words for .NET
-description: ContributorCollection Editor property. Gets or sets the editor of a source in C#.
+description: Manage your ContributorCollection with ease! Set or get the editor for sources to enhance your workflow and streamline content management.
 type: docs
 weight: 90
 url: /net/aspose.words.bibliography/contributorcollection/editor/

@@ -3,7 +3,7 @@ title: TxtSaveOptions.PreserveTableLayout
 linktitle: PreserveTableLayout
 articleTitle: PreserveTableLayout
 second_title: Aspose.Words for .NET
-description: TxtSaveOptions PreserveTableLayout property. Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false in C#.
+description: Discover TxtSaveOptions' PreserveTableLayout feature, ensuring your tables retain their layout when saving as plain text. Enhance your document's readability!
 type: docs
 weight: 50
 url: /net/aspose.words.saving/txtsaveoptions/preservetablelayout/

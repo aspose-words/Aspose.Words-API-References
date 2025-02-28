@@ -3,7 +3,7 @@ title: FieldTA.LongCitation
 linktitle: LongCitation
 articleTitle: LongCitation
 second_title: Aspose.Words for .NET
-description: FieldTA LongCitation property. Gets or sets the long citation for the entry in C#.
+description: Manage your FieldTA LongCitation property effortlessly. Easily get or set long citations for entries, enhancing your data organization and accessibility.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldta/longcitation/

@@ -3,7 +3,7 @@ title: Paragraph.ParagraphBreakFont
 linktitle: ParagraphBreakFont
 articleTitle: ParagraphBreakFont
 second_title: Aspose.Words for .NET
-description: Paragraph ParagraphBreakFont property. Provides access to the font formatting of the paragraph break character in C#.
+description: Discover the ParagraphBreakFont property for seamless font formatting of paragraph breaks, enhancing your text's appearance and readability.
 type: docs
 weight: 180
 url: /net/aspose.words/paragraph/paragraphbreakfont/

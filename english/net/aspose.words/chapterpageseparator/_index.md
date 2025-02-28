@@ -3,7 +3,7 @@ title: ChapterPageSeparator Enum
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
 second_title: Aspose.Words for .NET
-description: Aspose.Words.ChapterPageSeparator enum. Defines the separator character that appears between the chapter and page number in C#.
+description: Discover the Aspose.Words.ChapterPageSeparator enum to customize chapter and page number separators for enhanced document formatting and clarity.
 type: docs
 weight: 390
 url: /net/aspose.words/chapterpageseparator/

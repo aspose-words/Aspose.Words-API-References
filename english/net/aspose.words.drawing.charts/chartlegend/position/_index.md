@@ -3,7 +3,7 @@ title: ChartLegend.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words for .NET
-description: ChartLegend Position property. Specifies the position of the legend on a chart in C#.
+description: Discover the ChartLegend Position property to easily customize your chart's legend placement for enhanced clarity and visual appeal.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartlegend/position/

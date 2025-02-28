@@ -3,7 +3,7 @@ title: FieldToa.SequenceName
 linktitle: SequenceName
 articleTitle: SequenceName
 second_title: Aspose.Words for .NET
-description: FieldToa SequenceName property. Gets or sets the name of a sequence whose number is included with the page number in C#.
+description: Discover the FieldToa SequenceName property to easily manage sequence names and enhance page numbering in your applications. Optimize your workflow today!
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldtoa/sequencename/

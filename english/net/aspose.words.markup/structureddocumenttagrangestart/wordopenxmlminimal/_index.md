@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.WordOpenXMLMinimal
 linktitle: WordOpenXMLMinimal
 articleTitle: WordOpenXMLMinimal
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart WordOpenXMLMinimal property. Gets a string that represents the XML contained within the node in the FlatOpc format. Unlike the WordOpenXML property this method generates a strippeddown document that excludes any noncontentrelated parts in C#.
+description: Discover the StructuredDocumentTagRangeStart property in WordOpenXMLMinimal. Access a streamlined XML string in FlatOpc format, focusing solely on content.
 type: docs
 weight: 180
 url: /net/aspose.words.markup/structureddocumenttagrangestart/wordopenxmlminimal/

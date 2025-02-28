@@ -3,7 +3,7 @@ title: AxisTickLabels.Offset
 linktitle: Offset
 articleTitle: Offset
 second_title: Aspose.Words for .NET
-description: AxisTickLabels Offset property. Gets or sets the distance of the tick labels from the axis in C#.
+description: Adjust AxisTickLabels Offset to customize tick label distance from the axis for enhanced clarity and visual appeal in your data visualizations.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisticklabels/offset/

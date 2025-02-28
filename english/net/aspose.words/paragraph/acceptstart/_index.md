@@ -3,7 +3,7 @@ title: Paragraph.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: Paragraph AcceptStart method. Accepts a visitor for visiting the start of the documents paragraph in C#.
+description: Discover the Paragraph AcceptStart method to seamlessly welcome visitors at the beginning of your document's paragraphs for enhanced engagement.
 type: docs
 weight: 250
 url: /net/aspose.words/paragraph/acceptstart/

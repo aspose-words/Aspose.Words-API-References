@@ -3,7 +3,7 @@ title: Fill.FillType
 linktitle: FillType
 articleTitle: FillType
 second_title: Aspose.Words for .NET
-description: Fill FillType property. Gets a fill type in C#.
+description: Discover how to effectively set the FillType property and enhance your design with customizable fill options for better visual impact.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/fill/filltype/

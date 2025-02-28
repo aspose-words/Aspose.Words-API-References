@@ -3,7 +3,7 @@ title: NodeImporter.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
 second_title: Aspose.Words for .NET
-description: NodeImporter ImportNode method. Imports a node from one document into another in C#.
+description: Effortlessly transfer nodes between documents with NodeImporter's ImportNode method. Enhance your workflow and streamline data integration today!
 type: docs
 weight: 20
 url: /net/aspose.words/nodeimporter/importnode/

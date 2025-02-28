@@ -3,7 +3,7 @@ title: PageSet.All
 linktitle: All
 articleTitle: All
 second_title: Aspose.Words for .NET
-description: PageSet All property. Gets a set with all the pages of the document in their original order in C#.
+description: Access all document pages in their original order with PageSet All property. Streamline your workflow and enhance document management effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pageset/all/

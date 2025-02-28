@@ -3,7 +3,7 @@ title: Forms2OleControl.BackColor
 linktitle: BackColor
 articleTitle: BackColor
 second_title: Aspose.Words for .NET
-description: Forms2OleControl BackColor property. Gets or sets a background color of the control. The default value depends on a type of the control in C#.
+description: Discover the Forms2OleControl BackColor property to customize your control's background color. Enhance your UI with flexible color options today!
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/forms2olecontrol/backcolor/

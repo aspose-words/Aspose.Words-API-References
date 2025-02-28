@@ -3,7 +3,7 @@ title: Border.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words for .NET
-description: Border Color property. Gets or sets the border color in C#.
+description: Customize your designs effortlessly with the Border Color property, allowing you to set and modify border colors for a stunning visual impact.
 type: docs
 weight: 10
 url: /net/aspose.words/border/color/

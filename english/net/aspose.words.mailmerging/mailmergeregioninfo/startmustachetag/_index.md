@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
 second_title: Aspose.Words for .NET
-description: MailMergeRegionInfo StartMustacheTag property. Returns a start mustache tag for the region in C#.
+description: Discover the MailMergeRegionInfo StartMustacheTag property, which provides an essential start tag for seamless document regions in your projects.
 type: docs
 weight: 100
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/

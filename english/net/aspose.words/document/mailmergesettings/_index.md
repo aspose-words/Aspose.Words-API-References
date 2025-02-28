@@ -3,7 +3,7 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words for .NET
-description: Document MailMergeSettings property. Gets or sets the object that contains all of the mail merge information for a document in C#.
+description: Discover how to use the MailMergeSettings property to manage all your document's mail merge data efficiently and enhance your workflow.
 type: docs
 weight: 280
 url: /net/aspose.words/document/mailmergesettings/

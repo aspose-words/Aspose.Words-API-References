@@ -3,7 +3,7 @@ title: ChartAxis.AxisBetweenCategories
 linktitle: AxisBetweenCategories
 articleTitle: AxisBetweenCategories
 second_title: Aspose.Words for .NET
-description: ChartAxis AxisBetweenCategories property. Gets or sets a flag indicating whether the value axis crosses the category axis between categories in C#.
+description: Discover the ChartAxis AxisBetweenCategories property—control value axis positioning for enhanced category visualization in your charts. Optimize your data presentation!
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/

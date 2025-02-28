@@ -3,9 +3,9 @@ title: Cell Class
 linktitle: Cell
 articleTitle: Cell
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.Cell class. Represents a table cell in C#.
+description: Discover the Aspose.Words.Tables.Cell class—your solution for efficient table cell management in document processing. Enhance your workflow today!
 type: docs
-weight: 6930
+weight: 6940
 url: /net/aspose.words.tables/cell/
 ---
 ## Cell class

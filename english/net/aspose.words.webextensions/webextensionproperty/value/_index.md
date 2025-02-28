@@ -3,7 +3,7 @@ title: WebExtensionProperty.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words for .NET
-description: WebExtensionProperty Value property. Specifies a custom property value in C#.
+description: Discover the WebExtensionProperty Value feature, allowing you to define custom property values for enhanced functionality and flexibility in your web applications.
 type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextensionproperty/value/

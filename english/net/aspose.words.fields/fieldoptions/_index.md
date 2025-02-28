@@ -3,7 +3,7 @@ title: FieldOptions Class
 linktitle: FieldOptions
 articleTitle: FieldOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldOptions class. Represents options to control field handling in a document in C#.
+description: Discover the Aspose.Words.Fields.FieldOptions class to optimize field handling in documents, enhancing your workflow and document management efficiency.
 type: docs
 weight: 2650
 url: /net/aspose.words.fields/fieldoptions/

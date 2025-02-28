@@ -3,7 +3,7 @@ title: Stroke.ForeThemeColor
 linktitle: ForeThemeColor
 articleTitle: ForeThemeColor
 second_title: Aspose.Words for .NET
-description: Stroke ForeThemeColor property. Gets or sets a ThemeColor object that represents the stroke foreground color in C#.
+description: Manage your stroke's foreground color effortlessly with the Stroke ForeThemeColor property. Customize your designs with vibrant theme colors!
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/stroke/forethemecolor/

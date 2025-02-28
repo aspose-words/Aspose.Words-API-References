@@ -3,7 +3,7 @@ title: Bookmark Class
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Bookmark class. Represents a single bookmark in C#.
+description: Discover the Aspose.Words.Bookmark class, your solution for managing bookmarks efficiently in documents. Enhance your document editing experience today!
 type: docs
 weight: 230
 url: /net/aspose.words/bookmark/

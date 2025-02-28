@@ -3,7 +3,7 @@ title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag DateDisplayFormat property. String that represents the format in which dates are displayed in C#.
+description: Discover the StructuredDocumentTag DateDisplayFormat property to customize date display formats effortlessly. Enhance your document's clarity and appeal!
 type: docs
 weight: 90
 url: /net/aspose.words.markup/structureddocumenttag/datedisplayformat/

@@ -3,7 +3,7 @@ title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
 second_title: Aspose.Words for .NET
-description: ChartLegendEntry IsHidden property. Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is false in C#.
+description: Discover the ChartLegendEntry IsHidden property: control chart legend visibility effortlessly. Enhance your data presentation with this simple toggle feature!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartlegendentry/ishidden/

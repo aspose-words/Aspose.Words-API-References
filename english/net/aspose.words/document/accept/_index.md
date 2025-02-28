@@ -3,7 +3,7 @@ title: Document.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: Document Accept method. Accepts a visitor in C#.
+description: Streamline your visitor management with our Document Accept method. Enhance security and efficiency for a seamless experience.
 type: docs
 weight: 530
 url: /net/aspose.words/document/accept/

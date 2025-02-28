@@ -3,7 +3,7 @@ title: ControlChar.OptionalHyphenChar
 linktitle: OptionalHyphenChar
 articleTitle: OptionalHyphenChar
 second_title: Aspose.Words for .NET
-description: ControlChar OptionalHyphenChar field. Optional Hyphen in Microsoft Word is char31 in C#.
+description: Discover how to use the Optional Hyphen in Microsoft Word (char31) to enhance your document formatting and improve readability. Learn more now!
 type: docs
 weight: 190
 url: /net/aspose.words/controlchar/optionalhyphenchar/

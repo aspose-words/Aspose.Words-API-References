@@ -3,7 +3,7 @@ title: Run.PhoneticGuide
 linktitle: PhoneticGuide
 articleTitle: PhoneticGuide
 second_title: Aspose.Words for .NET
-description: Run PhoneticGuide property. Gets a PhoneticGuide object in C#.
+description: Unlock seamless pronunciation with PhoneticGuide. Enhance your language skills and communication by accessing personalized phonetic insights.
 type: docs
 weight: 40
 url: /net/aspose.words/run/phoneticguide/

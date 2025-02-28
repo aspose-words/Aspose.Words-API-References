@@ -3,7 +3,7 @@ title: PresetTexture Enum
 linktitle: PresetTexture
 articleTitle: PresetTexture
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.PresetTexture enum. Specifies texture to be used to fill a shape in C#.
+description: Discover the Aspose.Words.Drawing.PresetTexture enum to enhance your shapes with customizable textures for stunning document designs.
 type: docs
 weight: 1550
 url: /net/aspose.words.drawing/presettexture/

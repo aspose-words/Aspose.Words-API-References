@@ -3,7 +3,7 @@ title: StructuredDocumentTag.ContentsFont
 linktitle: ContentsFont
 articleTitle: ContentsFont
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag ContentsFont property. Font formatting that will be applied to text entered into SDT in C#.
+description: Discover the StructuredDocumentTag ContentsFont property for seamless text formatting in SDT. Enhance your documents with customizable font options!
 type: docs
 weight: 80
 url: /net/aspose.words.markup/structureddocumenttag/contentsfont/

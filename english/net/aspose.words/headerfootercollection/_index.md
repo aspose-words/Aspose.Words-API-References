@@ -3,7 +3,7 @@ title: HeaderFooterCollection Class
 linktitle: HeaderFooterCollection
 articleTitle: HeaderFooterCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.HeaderFooterCollection class. Provides typed access to HeaderFooter nodes of a Section in C#.
+description: Discover Aspose.Words.HeaderFooterCollection for easy, typed access to Section HeaderFooter nodes, streamlining document management and enhancing your workflow.
 type: docs
 weight: 3530
 url: /net/aspose.words/headerfootercollection/

@@ -3,7 +3,7 @@ title: Table.DistanceLeft
 linktitle: DistanceLeft
 articleTitle: DistanceLeft
 second_title: Aspose.Words for .NET
-description: Table DistanceLeft property. Gets or sets distance between table left and the surrounding text in points in C#.
+description: Adjust the Table DistanceLeft property to control spacing between your table and surrounding text. Enhance readability and layout in your documents!
 type: docs
 weight: 130
 url: /net/aspose.words.tables/table/distanceleft/

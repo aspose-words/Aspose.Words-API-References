@@ -3,7 +3,7 @@ title: BubbleSizeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: BubbleSizeCollection Item property. Gets or sets the bubble size value at the specified index in C#.
+description: Discover the BubbleSizeCollection Item property to easily manage bubble sizes at specific indices, enhancing your data visualization with precision.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/bubblesizecollection/item/

@@ -3,7 +3,7 @@ title: LoadOptions.UpdateDirtyFields
 linktitle: UpdateDirtyFields
 articleTitle: UpdateDirtyFields
 second_title: Aspose.Words for .NET
-description: LoadOptions UpdateDirtyFields property. Specifies whether to update the fields with the dirty attribute in C#.
+description: Discover how the LoadOptions UpdateDirtyFields property enhances data integrity by selectively updating fields marked as dirty for optimal performance.
 type: docs
 weight: 160
 url: /net/aspose.words.loading/loadoptions/updatedirtyfields/

@@ -3,7 +3,7 @@ title: Source.ThesisType
 linktitle: ThesisType
 articleTitle: ThesisType
 second_title: Aspose.Words for .NET
-description: Source ThesisType property. Gets or sets the thesis type of a source in C#.
+description: Discover how to manage thesis types with ThesisType property. Easily get or set source thesis types for streamlined research management.
 type: docs
 weight: 470
 url: /net/aspose.words.bibliography/source/thesistype/

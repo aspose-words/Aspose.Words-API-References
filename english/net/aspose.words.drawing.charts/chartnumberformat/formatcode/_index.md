@@ -3,7 +3,7 @@ title: ChartNumberFormat.FormatCode
 linktitle: FormatCode
 articleTitle: FormatCode
 second_title: Aspose.Words for .NET
-description: ChartNumberFormat FormatCode property. Gets or sets the format code applied to a data label in C#.
+description: Discover how to use the ChartNumberFormat FormatCode property to customize data label formats for clearer insights and enhanced data presentation.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartnumberformat/formatcode/

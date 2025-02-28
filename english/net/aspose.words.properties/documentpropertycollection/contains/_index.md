@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection Contains method. Returns true if a property with the specified name exists in the collection in C#.
+description: Discover if a property exists in DocumentPropertyCollection with our efficient Contains method. Simplify your data management today!
 type: docs
 weight: 40
 url: /net/aspose.words.properties/documentpropertycollection/contains/

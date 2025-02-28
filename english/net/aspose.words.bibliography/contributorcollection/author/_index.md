@@ -3,7 +3,7 @@ title: ContributorCollection.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words for .NET
-description: ContributorCollection Author property. Gets or sets the author of a source in C#.
+description: Manage your ContributorCollection with ease. Effortlessly set or retrieve the author for any source to enhance your content organization.
 type: docs
 weight: 20
 url: /net/aspose.words.bibliography/contributorcollection/author/

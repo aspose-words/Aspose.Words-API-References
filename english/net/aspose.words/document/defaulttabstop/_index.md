@@ -3,7 +3,7 @@ title: Document.DefaultTabStop
 linktitle: DefaultTabStop
 articleTitle: DefaultTabStop
 second_title: Aspose.Words for .NET
-description: Document DefaultTabStop property. Gets or sets the interval in points between the default tab stops in C#.
+description: Discover how to customize the DefaultTabStop property to set precise tab intervals in points, enhancing your document formatting and layout.
 type: docs
 weight: 100
 url: /net/aspose.words/document/defaulttabstop/

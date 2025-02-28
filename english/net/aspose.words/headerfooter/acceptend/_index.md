@@ -3,7 +3,7 @@ title: HeaderFooter.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: HeaderFooter AcceptEnd method. Accepts a visitor for visiting the end of the header in C#.
+description: Enhance your website's user experience with the HeaderFooter AcceptEnd method, designed to seamlessly manage visitor interactions at the header's conclusion.
 type: docs
 weight: 80
 url: /net/aspose.words/headerfooter/acceptend/

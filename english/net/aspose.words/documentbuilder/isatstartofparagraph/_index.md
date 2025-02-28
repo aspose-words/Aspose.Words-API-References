@@ -3,7 +3,7 @@ title: DocumentBuilder.IsAtStartOfParagraph
 linktitle: IsAtStartOfParagraph
 articleTitle: IsAtStartOfParagraph
 second_title: Aspose.Words for .NET
-description: DocumentBuilder IsAtStartOfParagraph property. Returns true if the cursor is at the beginning of the current paragraph no text before the cursor in C#.
+description: Discover DocumentBuilder's IsAtStartOfParagraph property: Easily check if your cursor is at the paragraph's start for efficient text editing.
 type: docs
 weight: 130
 url: /net/aspose.words/documentbuilder/isatstartofparagraph/

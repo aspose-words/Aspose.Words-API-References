@@ -3,7 +3,7 @@ title: ImageSize.WidthPoints
 linktitle: WidthPoints
 articleTitle: WidthPoints
 second_title: Aspose.Words for .NET
-description: ImageSize WidthPoints property. Gets the width of the image in points. 1 point is 1/72 inch in C#.
+description: Discover the ImageSize WidthPoints property to easily obtain image width in points—perfect for precise measurements in design projects!
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/imagesize/widthpoints/

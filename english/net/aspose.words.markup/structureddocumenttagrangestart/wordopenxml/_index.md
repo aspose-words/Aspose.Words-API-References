@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart WordOpenXML property. Gets a string that represents the XML contained within the node in the FlatOpc format in C#.
+description: Discover the StructuredDocumentTagRangeStart property in WordOpenXML. Access XML data in FlatOpc format for enhanced document management and customization.
 type: docs
 weight: 170
 url: /net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/

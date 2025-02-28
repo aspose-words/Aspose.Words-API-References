@@ -3,7 +3,7 @@ title: ImageSavingArgs.CurrentShape
 linktitle: CurrentShape
 articleTitle: CurrentShape
 second_title: Aspose.Words for .NET
-description: ImageSavingArgs CurrentShape property. Gets the ShapeBase object corresponding to the shape or group shape that is about to be saved in C#.
+description: Discover the ImageSavingArgs CurrentShape property to access the ShapeBase object for efficient shape and group shape saving in your projects.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/imagesavingargs/currentshape/

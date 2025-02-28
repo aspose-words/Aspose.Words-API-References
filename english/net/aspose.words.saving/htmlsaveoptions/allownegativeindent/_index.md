@@ -3,7 +3,7 @@ title: HtmlSaveOptions.AllowNegativeIndent
 linktitle: AllowNegativeIndent
 articleTitle: AllowNegativeIndent
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions AllowNegativeIndent property. Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML MHTML or EPUB. Default value is false in C#.
+description: Discover the HtmlSaveOptions AllowNegativeIndent property to control paragraph indents when saving to HTML, MHTML, or EPUB. Optimize your document formatting today!
 type: docs
 weight: 20
 url: /net/aspose.words.saving/htmlsaveoptions/allownegativeindent/

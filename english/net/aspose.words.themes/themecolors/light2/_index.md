@@ -3,7 +3,7 @@ title: ThemeColors.Light2
 linktitle: Light2
 articleTitle: Light2
 second_title: Aspose.Words for .NET
-description: ThemeColors Light2 property. Specifies color Light 2 in C#.
+description: Discover the ThemeColors Light2 property for customizing your design with vibrant Light 2 colors. Enhance your project's visual appeal effortlessly!
 type: docs
 weight: 120
 url: /net/aspose.words.themes/themecolors/light2/

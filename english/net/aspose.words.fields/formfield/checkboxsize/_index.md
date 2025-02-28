@@ -3,7 +3,7 @@ title: FormField.CheckBoxSize
 linktitle: CheckBoxSize
 articleTitle: CheckBoxSize
 second_title: Aspose.Words for .NET
-description: FormField CheckBoxSize property. Gets or sets the size of the checkbox in points. Has effect only when IsCheckBoxExactSize is true in C#.
+description: Discover the FormField CheckBoxSize property to customize checkbox dimensions in points, enhancing your forms when IsCheckBoxExactSize is enabled.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/formfield/checkboxsize/

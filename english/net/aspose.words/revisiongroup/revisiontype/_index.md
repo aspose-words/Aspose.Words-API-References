@@ -3,7 +3,7 @@ title: RevisionGroup.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
 second_title: Aspose.Words for .NET
-description: RevisionGroup RevisionType property. Gets the type of revisions included in this group in C#.
+description: Discover the RevisionGroup RevisionType property to easily identify and manage the types of revisions in your project. Streamline your workflow today!
 type: docs
 weight: 20
 url: /net/aspose.words/revisiongroup/revisiontype/

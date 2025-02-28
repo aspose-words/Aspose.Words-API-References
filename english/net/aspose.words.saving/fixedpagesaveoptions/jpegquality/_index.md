@@ -3,7 +3,7 @@ title: FixedPageSaveOptions.JpegQuality
 linktitle: JpegQuality
 articleTitle: JpegQuality
 second_title: Aspose.Words for .NET
-description: FixedPageSaveOptions JpegQuality property. Gets or sets a value determining the quality of the JPEG images inside Html document in C#.
+description: Optimize JPEG quality in your HTML documents with FixedPageSaveOptions. Easily adjust the JpegQuality property for stunning image clarity.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/fixedpagesaveoptions/jpegquality/

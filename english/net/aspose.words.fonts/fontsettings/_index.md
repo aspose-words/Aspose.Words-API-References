@@ -3,7 +3,7 @@ title: FontSettings Class
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontSettings class. Specifies font settings for a document in C#.
+description: Discover the Aspose.Words.Fonts.FontSettings class to effortlessly customize document font settings for enhanced readability and professional presentation.
 type: docs
 weight: 3390
 url: /net/aspose.words.fonts/fontsettings/

@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: OdsoRecipientDataCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: Discover the OdsoRecipientDataCollection GetEnumerator method—efficiently iterate through collection items with ease and enhance your data handling capabilities.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/odsorecipientdatacollection/getenumerator/

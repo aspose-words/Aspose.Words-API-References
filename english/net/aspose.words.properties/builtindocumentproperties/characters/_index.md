@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.Characters
 linktitle: Characters
 articleTitle: Characters
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Characters property. Represents an estimate of the number of characters in the document in C#.
+description: Discover the BuiltInDocumentProperties Characters property, providing an accurate character count estimate to enhance document management and efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.properties/builtindocumentproperties/characters/

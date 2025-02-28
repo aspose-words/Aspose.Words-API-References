@@ -3,7 +3,7 @@ title: StructuredDocumentTag.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag StyleName property. Gets or sets the name of the style applied to the structured document tag in C#.
+description: Discover the StyleName property of StructuredDocumentTag. Easily manage and customize styles for your documents to enhance organization and clarity.
 type: docs
 weight: 270
 url: /net/aspose.words.markup/structureddocumenttag/stylename/

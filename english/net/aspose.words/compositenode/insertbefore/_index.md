@@ -3,7 +3,7 @@ title: CompositeNode.InsertBefore
 linktitle: InsertBefore
 articleTitle: InsertBefore
 second_title: Aspose.Words for .NET
-description: CompositeNode InsertBefore method. Inserts the specified node immediately before the specified reference node in C#.
+description: Discover how to use the CompositeNode InsertBefore method to seamlessly insert nodes before reference nodes, enhancing your data structure management.
 type: docs
 weight: 160
 url: /net/aspose.words/compositenode/insertbefore/

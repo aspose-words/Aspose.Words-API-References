@@ -3,7 +3,7 @@ title: FieldTA.IsItalic
 linktitle: IsItalic
 articleTitle: IsItalic
 second_title: Aspose.Words for .NET
-description: FieldTA IsItalic property. Gets or sets whether to apply italic formatting to the page number for the entry in C#.
+description: Discover how to easily format page numbers with FieldTA's IsItalic property, enhancing your documents with stylish italic text for better readability.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldta/isitalic/

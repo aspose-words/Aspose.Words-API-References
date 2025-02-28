@@ -3,7 +3,7 @@ title: DocumentBuilder.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: DocumentBuilder Document property. Gets or sets the Document object that this object is attached to in C#.
+description: Manage Document properties effortlessly with DocumentBuilder. Easily get or set your Document object for streamlined document management.
 type: docs
 weight: 90
 url: /net/aspose.words/documentbuilder/document/

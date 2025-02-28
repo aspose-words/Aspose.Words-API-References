@@ -3,9 +3,9 @@ title: MailMerger Class
 linktitle: MailMerger
 articleTitle: MailMerger
 second_title: Aspose.Words for .NET
-description: Aspose.Words.LowCode.MailMerger class. Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations in C#.
+description: Discover Aspose.Words.LowCode.MailMerger: Effortlessly fill templates with data using simple and advanced mail merge techniques for seamless document automation.
 type: docs
-weight: 4220
+weight: 4230
 url: /net/aspose.words.lowcode/mailmerger/
 ---
 ## MailMerger class

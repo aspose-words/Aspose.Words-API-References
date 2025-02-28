@@ -3,7 +3,7 @@ title: FieldListNum
 linktitle: FieldListNum
 articleTitle: FieldListNum
 second_title: Aspose.Words for .NET
-description: FieldListNum constructor. The default constructor in C#.
+description: Discover the FieldListNum constructor—your go-to solution for efficient list management in programming. Simplify your code with our default constructor!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldlistnum/fieldlistnum/

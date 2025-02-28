@@ -3,7 +3,7 @@ title: IComparisonExpressionEvaluator Interface
 linktitle: IComparisonExpressionEvaluator
 articleTitle: IComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IComparisonExpressionEvaluator interface. When implemented allows to override default comparison expressions evaluation for the FieldIf and FieldCompare fields in C#.
+description: Enhance your document processing with Aspose.Words.Fields.IComparisonExpressionEvaluator. Customize comparison evaluations for FieldIf and FieldCompare fields effortlessly!
 type: docs
 weight: 3080
 url: /net/aspose.words.fields/icomparisonexpressionevaluator/

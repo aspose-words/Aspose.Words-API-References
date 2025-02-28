@@ -3,7 +3,7 @@ title: OleFormat.SuggestedFileName
 linktitle: SuggestedFileName
 articleTitle: SuggestedFileName
 second_title: Aspose.Words for .NET
-description: OleFormat SuggestedFileName property. Gets the file name suggested for the current embedded object if you want to save it into a file in C#.
+description: Discover the OleFormat SuggestedFileName property to easily retrieve the recommended file name for saving your embedded objects seamlessly.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/oleformat/suggestedfilename/

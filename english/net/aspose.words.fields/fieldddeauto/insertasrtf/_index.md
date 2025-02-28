@@ -3,7 +3,7 @@ title: FieldDdeAuto.InsertAsRtf
 linktitle: InsertAsRtf
 articleTitle: InsertAsRtf
 second_title: Aspose.Words for .NET
-description: FieldDdeAuto InsertAsRtf property. Gets or sets whether to insert the linked object in richtext format RTF in C#.
+description: Discover the FieldDdeAuto InsertAsRtf property: easily manage linked objects in rich text format (RTF) for enhanced document integration and versatility.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldddeauto/insertasrtf/

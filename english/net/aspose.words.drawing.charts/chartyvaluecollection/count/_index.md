@@ -3,7 +3,7 @@ title: ChartYValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: ChartYValueCollection Count property. Gets the number of items in this collection in C#.
+description: Discover the ChartYValueCollection Count property to easily access the total number of items in your data collection for enhanced data management.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartyvaluecollection/count/

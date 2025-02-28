@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words for .NET
-description: MarkdownSaveOptions ImageSavingCallback property. Allows to control how images are saved when a document is saved to Markdown format in C#.
+description: Control image saving in Markdown with MarkdownSaveOptions' ImageSavingCallback. Enhance document formatting and streamline your workflow effortlessly!
 type: docs
 weight: 60
 url: /net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/

@@ -3,9 +3,9 @@ title: PropertyType Enum
 linktitle: PropertyType
 articleTitle: PropertyType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Properties.PropertyType enum. Specifies data type of a document property in C#.
+description: Discover Aspose.Words.PropertyType enum to easily define document property data types for enhanced document management and customization.
 type: docs
-weight: 5090
+weight: 5100
 url: /net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration

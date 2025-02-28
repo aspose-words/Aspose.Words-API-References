@@ -3,7 +3,7 @@ title: Row
 linktitle: Row
 articleTitle: Row
 second_title: Aspose.Words for .NET
-description: Row constructor. Initializes a new instance of the Row class in C#.
+description: Create dynamic Row instances easily with our Row constructor. Simplify your data management and enhance your coding efficiency today!
 type: docs
 weight: 10
 url: /net/aspose.words.tables/row/row/

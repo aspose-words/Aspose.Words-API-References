@@ -3,7 +3,7 @@ title: ToaCategories.DefaultCategories
 linktitle: DefaultCategories
 articleTitle: DefaultCategories
 second_title: Aspose.Words for .NET
-description: ToaCategories DefaultCategories property. Gets the default table of authorities categories in C#.
+description: Discover the ToaCategories DefaultCategories property for easy access to essential table of authorities categories. Streamline your document management today!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/toacategories/defaultcategories/

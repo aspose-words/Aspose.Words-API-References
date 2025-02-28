@@ -3,7 +3,7 @@ title: Source.NumberVolumes
 linktitle: NumberVolumes
 articleTitle: NumberVolumes
 second_title: Aspose.Words for .NET
-description: Source NumberVolumes property. Gets or sets the number of volumes of a source in C#.
+description: Manage Source NumberVolumes easily. Adjust the volume count for optimal source management and enhance your data organization effortlessly.
 type: docs
 weight: 300
 url: /net/aspose.words.bibliography/source/numbervolumes/

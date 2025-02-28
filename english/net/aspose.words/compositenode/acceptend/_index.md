@@ -3,7 +3,7 @@ title: CompositeNode.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: CompositeNode AcceptEnd method. When implemented in a derived class calls the VisitXXXEnd method of the specified document visitor in C#.
+description: Discover how to enhance document processing with CompositeNode's AcceptEnd method. Streamline your visitor pattern implementation for optimal performance.
 type: docs
 weight: 60
 url: /net/aspose.words/compositenode/acceptend/

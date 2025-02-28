@@ -3,7 +3,7 @@ title: AiModel.WithApiKey
 linktitle: WithApiKey
 articleTitle: WithApiKey
 second_title: Aspose.Words for .NET
-description: AiModel WithApiKey method. Sets a specified API key to the model in C#.
+description: Unlock the power of AiModel with the WithApiKey method. Effortlessly set your API key for enhanced functionality and seamless integration.
 type: docs
 weight: 20
 url: /net/aspose.words.ai/aimodel/withapikey/

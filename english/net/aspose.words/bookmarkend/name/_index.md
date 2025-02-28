@@ -3,7 +3,7 @@ title: BookmarkEnd.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: BookmarkEnd Name property. Gets or sets the bookmark name in C#.
+description: Discover the BookmarkEnd Name property to easily manage and customize bookmark names in your documents for better organization and efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words/bookmarkend/name/

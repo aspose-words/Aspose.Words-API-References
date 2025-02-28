@@ -3,7 +3,7 @@ title: FieldEQ.AsOfficeMath
 linktitle: AsOfficeMath
 articleTitle: AsOfficeMath
 second_title: Aspose.Words for .NET
-description: FieldEQ AsOfficeMath method. Returns Office Math object corresponded to the EQ field in C#.
+description: Transform EQ fields with FieldEQ's AsOfficeMath method, effortlessly converting them into Office Math objects for seamless document integration.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldeq/asofficemath/

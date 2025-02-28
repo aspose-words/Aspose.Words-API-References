@@ -3,7 +3,7 @@ title: SignatureLineOptions.SignerTitle
 linktitle: SignerTitle
 articleTitle: SignerTitle
 second_title: Aspose.Words for .NET
-description: SignatureLineOptions SignerTitle property. Gets or sets suggested signers title. Default value for this property is empty string Empty in C#.
+description: Discover the SignatureLineOptions SignerTitle property to customize suggested signer titles easily. Enhance your document's professionalism effortlessly!
 type: docs
 weight: 80
 url: /net/aspose.words/signaturelineoptions/signertitle/

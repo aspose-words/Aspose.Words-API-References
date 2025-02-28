@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.Subject
 linktitle: Subject
 articleTitle: Subject
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Subject property. Gets or sets the subject of the document in C#.
+description: Discover how to efficiently manage the BuiltInDocumentProperties Subject property to easily set or retrieve your document's subject for better organization.
 type: docs
 weight: 290
 url: /net/aspose.words.properties/builtindocumentproperties/subject/

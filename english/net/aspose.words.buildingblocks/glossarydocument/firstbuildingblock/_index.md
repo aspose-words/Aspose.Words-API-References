@@ -3,7 +3,7 @@ title: GlossaryDocument.FirstBuildingBlock
 linktitle: FirstBuildingBlock
 articleTitle: FirstBuildingBlock
 second_title: Aspose.Words for .NET
-description: GlossaryDocument FirstBuildingBlock property. Gets the first building block in the glossary document in C#.
+description: Discover the FirstBuildingBlock property in GlossaryDocument. Easily access the initial building block for streamlined document management.
 type: docs
 weight: 30
 url: /net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/

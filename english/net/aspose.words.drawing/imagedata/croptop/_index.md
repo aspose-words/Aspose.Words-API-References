@@ -3,7 +3,7 @@ title: ImageData.CropTop
 linktitle: CropTop
 articleTitle: CropTop
 second_title: Aspose.Words for .NET
-description: ImageData CropTop property. Defines the fraction of picture removal from the top side in C#.
+description: Optimize your images with ImageData CropTop, controlling picture removal from the top for perfect framing and enhanced visual appeal.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/imagedata/croptop/

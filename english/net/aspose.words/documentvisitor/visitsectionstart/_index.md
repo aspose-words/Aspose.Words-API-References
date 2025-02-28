@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitSectionStart
 linktitle: VisitSectionStart
 articleTitle: VisitSectionStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitSectionStart method. Called when enumeration of a section has started in C#.
+description: Discover the DocumentVisitor VisitSectionStart method, essential for tracking section enumeration. Enhance your coding efficiency with this powerful tool!
 type: docs
 weight: 380
 url: /net/aspose.words/documentvisitor/visitsectionstart/

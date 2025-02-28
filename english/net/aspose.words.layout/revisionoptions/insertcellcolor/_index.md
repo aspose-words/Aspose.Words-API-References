@@ -3,7 +3,7 @@ title: RevisionOptions.InsertCellColor
 linktitle: InsertCellColor
 articleTitle: InsertCellColor
 second_title: Aspose.Words for .NET
-description: RevisionOptions InsertCellColor property. Allows to specify the color to be used for inserted cells Insertion. Default value is Blue in C#.
+description: Customize your spreadsheet with the InsertCellColor property in RevisionOptions. Choose your preferred color for inserted cells—default is blue!
 type: docs
 weight: 50
 url: /net/aspose.words.layout/revisionoptions/insertcellcolor/

@@ -3,7 +3,7 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words for .NET
-description: ShapeRenderer constructor. Initializes a new instance of this class in C#.
+description: Discover the ShapeRenderer constructor to easily create and customize shapes in your projects, enhancing visual appeal and functionality.
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/shaperenderer/shaperenderer/

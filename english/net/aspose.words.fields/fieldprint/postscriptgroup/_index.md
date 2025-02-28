@@ -3,7 +3,7 @@ title: FieldPrint.PostScriptGroup
 linktitle: PostScriptGroup
 articleTitle: PostScriptGroup
 second_title: Aspose.Words for .NET
-description: FieldPrint PostScriptGroup property. Gets or sets the drawing rectangle that the PostScript instructions operate on in C#.
+description: Discover the FieldPrint PostScriptGroup property to easily manage your drawing rectangle for efficient PostScript instruction handling.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldprint/postscriptgroup/

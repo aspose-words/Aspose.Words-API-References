@@ -3,7 +3,7 @@ title: DocumentBuilderOptions.ContextTableFormatting
 linktitle: ContextTableFormatting
 articleTitle: ContextTableFormatting
 second_title: Aspose.Words for .NET
-description: DocumentBuilderOptions ContextTableFormatting property. True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is true in C#.
+description: Discover the ContextTableFormatting property in DocumentBuilderOptions. Ensure table formatting remains independent, enhancing your document's clarity and style.
 type: docs
 weight: 20
 url: /net/aspose.words/documentbuilderoptions/contexttableformatting/

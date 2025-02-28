@@ -3,7 +3,7 @@ title: ChartSeries.BubbleSizes
 linktitle: BubbleSizes
 articleTitle: BubbleSizes
 second_title: Aspose.Words for .NET
-description: ChartSeries BubbleSizes property. Gets a collection of bubble sizes for this chart series in C#.
+description: Discover the ChartSeries BubbleSizes property to access customizable bubble sizes, enhancing your data visualization and charting experience.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartseries/bubblesizes/

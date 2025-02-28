@@ -3,7 +3,7 @@ title: KnownTypeSet.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: KnownTypeSet Count property. Gets the count of items in the set in C#.
+description: Discover the KnownTypeSet Count property to easily retrieve the total number of items in your set, enhancing your data management efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/knowntypeset/count/

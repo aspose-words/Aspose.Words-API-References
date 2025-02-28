@@ -3,7 +3,7 @@ title: ShapeBase.Bottom
 linktitle: Bottom
 articleTitle: Bottom
 second_title: Aspose.Words for .NET
-description: ShapeBase Bottom property. Gets the position of the bottom edge of the containing block of the shape in C#.
+description: Discover the ShapeBase Bottom property to easily access the bottom edge position of your shape's containing block for precise design control.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/shapebase/bottom/

@@ -3,7 +3,7 @@ title: FieldCitation.SuppressAuthor
 linktitle: SuppressAuthor
 articleTitle: SuppressAuthor
 second_title: Aspose.Words for .NET
-description: FieldCitation SuppressAuthor property. Gets or sets whether the author information is suppressed from the citation in C#.
+description: Control author visibility with the FieldCitation SuppressAuthor property. Easily manage citation details for enhanced clarity and professionalism.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldcitation/suppressauthor/

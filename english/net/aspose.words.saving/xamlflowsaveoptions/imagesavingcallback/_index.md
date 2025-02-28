@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words for .NET
-description: XamlFlowSaveOptions ImageSavingCallback property. Allows to control how images are saved when a document is saved to XAML in C#.
+description: Discover XamlFlow's ImageSavingCallback property to effortlessly manage image saving options when exporting documents to XAML. Optimize your workflow today!
 type: docs
 weight: 20
 url: /net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/

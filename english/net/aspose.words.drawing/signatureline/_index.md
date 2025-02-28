@@ -3,7 +3,7 @@ title: SignatureLine Class
 linktitle: SignatureLine
 articleTitle: SignatureLine
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.SignatureLine class. Provides access to signature line properties in C#.
+description: Discover the Aspose.Words.Drawing.SignatureLine class to easily manage and customize signature line properties for enhanced document security.
 type: docs
 weight: 1690
 url: /net/aspose.words.drawing/signatureline/

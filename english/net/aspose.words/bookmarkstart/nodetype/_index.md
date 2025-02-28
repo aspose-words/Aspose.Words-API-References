@@ -3,7 +3,7 @@ title: BookmarkStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: BookmarkStart NodeType property. Returns BookmarkStart in C#.
+description: Discover the BookmarkStart NodeType property, which efficiently returns the BookmarkStart. Enhance your coding with this essential feature!
 type: docs
 weight: 40
 url: /net/aspose.words/bookmarkstart/nodetype/

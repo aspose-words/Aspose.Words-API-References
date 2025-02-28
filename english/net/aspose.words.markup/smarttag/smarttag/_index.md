@@ -3,7 +3,7 @@ title: SmartTag
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words for .NET
-description: SmartTag constructor. Initializes a new instance of the SmartTag class in C#.
+description: Create dynamic SmartTags effortlessly with our constructor. Enhance your projects with customizable features and seamless integration for optimal performance.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/smarttag/smarttag/

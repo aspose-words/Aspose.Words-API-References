@@ -3,7 +3,7 @@ title: BuildingBlock.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: BuildingBlock Name property. Gets or sets the name of this building block in C#.
+description: Discover the BuildingBlock Name property: easily manage and customize your building blocks with a simple name assignment for enhanced organization.
 type: docs
 weight: 90
 url: /net/aspose.words.buildingblocks/buildingblock/name/

@@ -3,7 +3,7 @@ title: FileFormatUtil.ContentTypeToSaveFormat
 linktitle: ContentTypeToSaveFormat
 articleTitle: ContentTypeToSaveFormat
 second_title: Aspose.Words for .NET
-description: FileFormatUtil ContentTypeToSaveFormat method. Converts IANA content type into a save format enumerated value in C#.
+description: Convert IANA content types to save format values effortlessly with the FileFormatUtil ContentTypeToSaveFormat method. Streamline your file handling today!
 type: docs
 weight: 20
 url: /net/aspose.words/fileformatutil/contenttypetosaveformat/

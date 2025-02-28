@@ -3,7 +3,7 @@ title: DigitalSignature.SubjectName
 linktitle: SubjectName
 articleTitle: SubjectName
 second_title: Aspose.Words for .NET
-description: DigitalSignature SubjectName property. Returns the subject distinguished name of the certificate that was used to sign the document in C#.
+description: Discover the DigitalSignature SubjectName property, which reveals the certificate's subject distinguished name, enhancing document authenticity and security.
 type: docs
 weight: 80
 url: /net/aspose.words.digitalsignatures/digitalsignature/subjectname/

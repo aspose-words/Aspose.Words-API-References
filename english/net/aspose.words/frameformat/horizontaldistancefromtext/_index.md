@@ -3,7 +3,7 @@ title: FrameFormat.HorizontalDistanceFromText
 linktitle: HorizontalDistanceFromText
 articleTitle: HorizontalDistanceFromText
 second_title: Aspose.Words for .NET
-description: FrameFormat HorizontalDistanceFromText property. Gets horizontal distance between a frame and the surrounding text in points in C#.
+description: Discover the FrameFormat HorizontalDistanceFromText property to measure the space between frames and text in points, enhancing your document layout.
 type: docs
 weight: 40
 url: /net/aspose.words/frameformat/horizontaldistancefromtext/

@@ -3,7 +3,7 @@ title: WebExtension.AlternateReferences
 linktitle: AlternateReferences
 articleTitle: AlternateReferences
 second_title: Aspose.Words for .NET
-description: WebExtension AlternateReferences property. Specifies alternate references to a web extension in C#.
+description: Discover the WebExtension AlternateReferences property to enhance your web extension with versatile reference options for improved functionality.
 type: docs
 weight: 10
 url: /net/aspose.words.webextensions/webextension/alternatereferences/

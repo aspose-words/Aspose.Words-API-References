@@ -3,7 +3,7 @@ title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words for .NET
-description: DocumentBuilder Underline property. Gets/sets underline type for the current font in C#.
+description: Discover DocumentBuilder's Underline property to easily customize font styles. Enhance your documents with versatile underline options for a professional look.
 type: docs
 weight: 190
 url: /net/aspose.words/documentbuilder/underline/

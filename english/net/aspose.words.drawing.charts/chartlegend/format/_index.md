@@ -3,7 +3,7 @@ title: ChartLegend.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartLegend Format property. Provides access to fill and line formatting of the legend in C#.
+description: Discover the ChartLegend Format property for easy customization of legend fill and line styles, enhancing your data visualization experience.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartlegend/format/

@@ -3,7 +3,7 @@ title: Style.UnhideWhenUsed
 linktitle: UnhideWhenUsed
 articleTitle: UnhideWhenUsed
 second_title: Aspose.Words for .NET
-description: Style UnhideWhenUsed property. Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery in C#.
+description: Discover how to manage the UnhideWhenUsed property for styles. Control visibility in the Styles gallery and task pane to enhance your document's design.
 type: docs
 weight: 210
 url: /net/aspose.words/style/unhidewhenused/

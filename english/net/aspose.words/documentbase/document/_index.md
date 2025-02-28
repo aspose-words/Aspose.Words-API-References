@@ -3,7 +3,7 @@ title: DocumentBase.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: DocumentBase Document property. Gets this instance in C#.
+description: Explore DocumentBase properties to efficiently manage your documents. Unlock seamless access and enhance your workflow today!
 type: docs
 weight: 20
 url: /net/aspose.words/documentbase/document/

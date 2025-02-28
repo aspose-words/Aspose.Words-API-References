@@ -3,7 +3,7 @@ title: Document.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
 second_title: Aspose.Words for .NET
-description: Document UpdateFields method. Updates the values of fields in the whole document in C#.
+description: Revamp your document with the UpdateFields method—efficiently refresh all field values for enhanced accuracy and seamless editing.
 type: docs
 weight: 810
 url: /net/aspose.words/document/updatefields/

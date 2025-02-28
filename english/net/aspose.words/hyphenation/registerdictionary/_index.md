@@ -3,7 +3,7 @@ title: Hyphenation.RegisterDictionary
 linktitle: RegisterDictionary
 articleTitle: RegisterDictionary
 second_title: Aspose.Words for .NET
-description: Hyphenation RegisterDictionary method. Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format in C#.
+description: Effortlessly enhance text processing with the Hyphenation RegisterDictionary method. Load language-specific hyphenation dictionaries seamlessly for optimal results.
 type: docs
 weight: 40
 url: /net/aspose.words/hyphenation/registerdictionary/

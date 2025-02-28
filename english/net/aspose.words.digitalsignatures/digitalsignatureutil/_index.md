@@ -3,7 +3,7 @@ title: DigitalSignatureUtil Class
 linktitle: DigitalSignatureUtil
 articleTitle: DigitalSignatureUtil
 second_title: Aspose.Words for .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil class. Provides methods for signing document in C#.
+description: Discover Aspose.Words.DigitalSignatures.DigitalSignatureUtil class to easily sign documents with secure digital signatures. Enhance document integrity today!
 type: docs
 weight: 610
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/

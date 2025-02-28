@@ -3,7 +3,7 @@ title: Shading.ForegroundPatternThemeColor
 linktitle: ForegroundPatternThemeColor
 articleTitle: ForegroundPatternThemeColor
 second_title: Aspose.Words for .NET
-description: Shading ForegroundPatternThemeColor property. Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this Shading object in C#.
+description: Discover how to customize the Shading ForegroundPatternThemeColor property to enhance your design's color scheme and elevate your visual appeal.
 type: docs
 weight: 50
 url: /net/aspose.words/shading/foregroundpatternthemecolor/

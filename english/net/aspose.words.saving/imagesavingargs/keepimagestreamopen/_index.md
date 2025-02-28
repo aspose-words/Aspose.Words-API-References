@@ -3,7 +3,7 @@ title: ImageSavingArgs.KeepImageStreamOpen
 linktitle: KeepImageStreamOpen
 articleTitle: KeepImageStreamOpen
 second_title: Aspose.Words for .NET
-description: ImageSavingArgs KeepImageStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving an image in C#.
+description: Discover the KeepImageStreamOpen property in ImageSavingArgs for Aspose.Words. Control stream behavior for efficient image saving and enhanced performance.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/imagesavingargs/keepimagestreamopen/

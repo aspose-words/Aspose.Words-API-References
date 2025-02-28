@@ -3,9 +3,9 @@ title: CustomPartCollection Class
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.CustomPartCollection class. Represents a collection of CustomPart objects in C#.
+description: Explore the Aspose.Words.Markup.CustomPartCollection class for managing CustomPart objects efficiently. Enhance your document processing capabilities today!
 type: docs
-weight: 4460
+weight: 4470
 url: /net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class

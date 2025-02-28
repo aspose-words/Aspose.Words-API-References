@@ -3,7 +3,7 @@ title: FormFieldCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: FormFieldCollection Item property. Returns a form field at the specified index in C#.
+description: Access specific form fields easily with the FormFieldCollection Item property. Streamline your data handling and enhance form management.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/formfieldcollection/item/

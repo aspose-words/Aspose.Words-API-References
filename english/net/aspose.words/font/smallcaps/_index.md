@@ -3,7 +3,7 @@ title: Font.SmallCaps
 linktitle: SmallCaps
 articleTitle: SmallCaps
 second_title: Aspose.Words for .NET
-description: Font SmallCaps property. True if the font is formatted as small capital letters in C#.
+description: Discover the Font SmallCaps property: Easily format text in small capital letters for enhanced readability and a stylish look in your designs.
 type: docs
 weight: 370
 url: /net/aspose.words/font/smallcaps/

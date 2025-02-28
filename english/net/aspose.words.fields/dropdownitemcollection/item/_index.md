@@ -3,7 +3,7 @@ title: DropDownItemCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: DropDownItemCollection Item property. Gets or sets the element at the specified index in C#.
+description: Access and manage elements effortlessly with the DropDownItemCollection Item property. Set or retrieve items by index for seamless data handling.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/dropdownitemcollection/item/

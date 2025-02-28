@@ -3,9 +3,9 @@ title: SaveOutputParameters Class
 linktitle: SaveOutputParameters
 articleTitle: SaveOutputParameters
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.SaveOutputParameters class. This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object in C#.
+description: Discover the Aspose.Words.Saving.SaveOutputParameters class, which provides essential details post-document save, enhancing your document management experience.
 type: docs
-weight: 6230
+weight: 6240
 url: /net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class

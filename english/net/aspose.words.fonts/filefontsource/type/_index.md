@@ -3,7 +3,7 @@ title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: FileFontSource Type property. Returns the type of the font source in C#.
+description: Discover the FileFontSource Type property to easily identify font source types, enhancing your design projects with precise typography solutions.
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/filefontsource/type/

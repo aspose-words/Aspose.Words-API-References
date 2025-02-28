@@ -3,7 +3,7 @@ title: Document.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
 second_title: Aspose.Words for .NET
-description: Document FootnoteOptions property. Provides options that control numbering and positioning of footnotes in this document in C#.
+description: Explore the Document FootnoteOptions property to customize footnote numbering and positioning, enhancing your document's clarity and professionalism.
 type: docs
 weight: 160
 url: /net/aspose.words/document/footnoteoptions/

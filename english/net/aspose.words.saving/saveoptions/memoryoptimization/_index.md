@@ -3,7 +3,7 @@ title: SaveOptions.MemoryOptimization
 linktitle: MemoryOptimization
 articleTitle: MemoryOptimization
 second_title: Aspose.Words for .NET
-description: SaveOptions MemoryOptimization property. Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is false in C#.
+description: Enhance document performance with the SaveOptions MemoryOptimization property. Control memory usage before saving, boosting efficiency and speed.
 type: docs
 weight: 100
 url: /net/aspose.words.saving/saveoptions/memoryoptimization/

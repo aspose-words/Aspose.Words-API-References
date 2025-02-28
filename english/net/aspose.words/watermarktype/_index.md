@@ -3,9 +3,9 @@ title: WatermarkType Enum
 linktitle: WatermarkType
 articleTitle: WatermarkType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WatermarkType enum. Specifies the watermark type in C#.
+description: Discover the Aspose.Words.WatermarkType enum for easy watermark customization in documents. Enhance your projects with versatile watermark options!
 type: docs
-weight: 7380
+weight: 7390
 url: /net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration

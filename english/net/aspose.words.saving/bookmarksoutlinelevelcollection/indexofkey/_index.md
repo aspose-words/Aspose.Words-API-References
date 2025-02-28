@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.IndexOfKey
 linktitle: IndexOfKey
 articleTitle: IndexOfKey
 second_title: Aspose.Words for .NET
-description: BookmarksOutlineLevelCollection IndexOfKey method. Returns the zerobased index of the specified bookmark in the collection in C#.
+description: Discover the BookmarksOutlineLevelCollection IndexOfKey method, which efficiently retrieves the zero-based index of a specified bookmark in your collection.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/

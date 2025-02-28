@@ -3,7 +3,7 @@ title: LayoutEnumerator.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator Text property. Gets text of the current span entity. Throws for other entity types in C#.
+description: Discover the LayoutEnumerator Text property to easily retrieve the text of the current span entity. Simplify your data handling with this powerful feature!
 type: docs
 weight: 80
 url: /net/aspose.words.layout/layoutenumerator/text/

@@ -3,7 +3,7 @@ title: PdfSaveOptions.DmlEffectsRenderingMode
 linktitle: DmlEffectsRenderingMode
 articleTitle: DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions DmlEffectsRenderingMode property. Gets or sets a value determining how DrawingML effects are rendered in C#.
+description: Discover the PdfSaveOptions DmlEffectsRenderingMode property to control the rendering of DrawingML effects for enhanced PDF output quality.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/

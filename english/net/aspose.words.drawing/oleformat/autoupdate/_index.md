@@ -3,7 +3,7 @@ title: OleFormat.AutoUpdate
 linktitle: AutoUpdate
 articleTitle: AutoUpdate
 second_title: Aspose.Words for .NET
-description: OleFormat AutoUpdate property. Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word in C#.
+description: Discover the OleFormat AutoUpdate property in Microsoft Word, ensuring your OLE object links stay current and enhance document accuracy effortlessly.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/oleformat/autoupdate/

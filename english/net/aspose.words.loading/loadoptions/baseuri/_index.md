@@ -3,7 +3,7 @@ title: LoadOptions.BaseUri
 linktitle: BaseUri
 articleTitle: BaseUri
 second_title: Aspose.Words for .NET
-description: LoadOptions BaseUri property. Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null in C#.
+description: Discover the LoadOptions BaseUri property to easily convert relative URIs to absolute ones in your documents. Enhance your URI management today!
 type: docs
 weight: 20
 url: /net/aspose.words.loading/loadoptions/baseuri/

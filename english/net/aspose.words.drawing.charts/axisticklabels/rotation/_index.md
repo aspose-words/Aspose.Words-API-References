@@ -3,7 +3,7 @@ title: AxisTickLabels.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words for .NET
-description: AxisTickLabels Rotation property. Gets or sets the rotation of the tick labels in degrees in C#.
+description: Adjust AxisTickLabels rotation for optimal readability. Customize tick label angles in degrees to enhance your chart's clarity and visual appeal.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/axisticklabels/rotation/

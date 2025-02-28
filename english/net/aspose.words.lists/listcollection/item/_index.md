@@ -3,7 +3,7 @@ title: ListCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: ListCollection Item property. Gets a list by index in C#.
+description: Access ListCollection items effortlessly by index. Simplify your data management and enhance your coding efficiency with this powerful property!
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listcollection/item/
@@ -50,11 +50,11 @@ NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
 doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+List docList = doc.Lists[0];
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 2;
 }
 

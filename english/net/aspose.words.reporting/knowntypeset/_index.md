@@ -3,9 +3,9 @@ title: KnownTypeSet Class
 linktitle: KnownTypeSet
 articleTitle: KnownTypeSet
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Reporting.KnownTypeSet class. Represents an unordered set i.e. a collection of unique items containing Type objects which fully or partially qualified names can be used within report templates to invoke the corresponding types static members perform type casts etc in C#.
+description: Discover Aspose.Words.Reporting.KnownTypeSet: a unique collection of Type objects for efficient report templates, enabling seamless type casting and access to static members.
 type: docs
-weight: 5310
+weight: 5320
 url: /net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class

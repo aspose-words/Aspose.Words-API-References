@@ -3,7 +3,7 @@ title: PdfEncryptionDetails.UserPassword
 linktitle: UserPassword
 articleTitle: UserPassword
 second_title: Aspose.Words for .NET
-description: PdfEncryptionDetails UserPassword property. Specifies the user password required for opening the encrypted PDF document in C#.
+description: Discover how the UserPassword property enhances PDF security by requiring a password for access, ensuring your documents stay protected and confidential.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfencryptiondetails/userpassword/

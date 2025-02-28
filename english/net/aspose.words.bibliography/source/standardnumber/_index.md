@@ -3,7 +3,7 @@ title: Source.StandardNumber
 linktitle: StandardNumber
 articleTitle: StandardNumber
 second_title: Aspose.Words for .NET
-description: Source StandardNumber property. Gets or sets the standard number of a source in C#.
+description: Manage the Source StandardNumber property effortlessly. Easily get or set the standard number for seamless data integration and accuracy.
 type: docs
 weight: 420
 url: /net/aspose.words.bibliography/source/standardnumber/

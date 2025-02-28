@@ -3,7 +3,7 @@ title: ChartAxis.MinorUnitIsAuto
 linktitle: MinorUnitIsAuto
 articleTitle: MinorUnitIsAuto
 second_title: Aspose.Words for .NET
-description: ChartAxis MinorUnitIsAuto property. Gets or sets a flag indicating whether default distance between minor tick marks shall be used in C#.
+description: Discover how the ChartAxis MinorUnitIsAuto property optimizes your chart's tick marks for clearer data visualization. Enhance your graphs effortlessly!
 type: docs
 weight: 180
 url: /net/aspose.words.drawing.charts/chartaxis/minorunitisauto/

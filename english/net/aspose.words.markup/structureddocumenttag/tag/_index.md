@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag Tag property. Specifies a tag associated with the current SDT node. Can not be null in C#.
+description: Discover the StructuredDocumentTag property that defines essential tags for SDT nodes, ensuring efficient document management and organization.
 type: docs
 weight: 280
 url: /net/aspose.words.markup/structureddocumenttag/tag/

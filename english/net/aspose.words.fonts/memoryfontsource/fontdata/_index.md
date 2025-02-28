@@ -3,7 +3,7 @@ title: MemoryFontSource.FontData
 linktitle: FontData
 articleTitle: FontData
 second_title: Aspose.Words for .NET
-description: MemoryFontSource FontData property. Binary font data in C#.
+description: Discover MemoryFontSource's FontData property for seamless binary font integration. Enhance your projects with efficient font management solutions.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/memoryfontsource/fontdata/

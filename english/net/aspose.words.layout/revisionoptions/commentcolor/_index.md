@@ -3,7 +3,7 @@ title: RevisionOptions.CommentColor
 linktitle: CommentColor
 articleTitle: CommentColor
 second_title: Aspose.Words for .NET
-description: RevisionOptions CommentColor property. Allows to specify the color to be used for comments. Default value is Red in C#.
+description: Customize your comments with RevisionOptions' CommentColor property. Easily set your preferred color—default is red—for enhanced visibility!
 type: docs
 weight: 10
 url: /net/aspose.words.layout/revisionoptions/commentcolor/

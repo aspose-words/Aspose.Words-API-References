@@ -3,7 +3,7 @@ title: PlainTextDocument
 linktitle: PlainTextDocument
 articleTitle: PlainTextDocument
 second_title: Aspose.Words for .NET
-description: PlainTextDocument constructor. Creates a plain text document from a file. Automatically detects the file format in C#.
+description: Effortlessly create plain text documents with our PlainTextDocument constructor. Enjoy automatic file format detection for seamless integration!
 type: docs
 weight: 10
 url: /net/aspose.words/plaintextdocument/plaintextdocument/

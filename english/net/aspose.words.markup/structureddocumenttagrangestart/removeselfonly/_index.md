@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 linktitle: RemoveSelfOnly
 articleTitle: RemoveSelfOnly
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart RemoveSelfOnly method. Removes this range start and appropriate range end nodes of the structured document tag but keeps its content inside the document tree in C#.
+description: Effortlessly remove Structured Document Tag range starts while preserving content. Optimize your document structure with the RemoveSelfOnly method today!
 type: docs
 weight: 250
 url: /net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/

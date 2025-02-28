@@ -3,7 +3,7 @@ title: Paragraph.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Paragraph NodeType property. Returns Paragraph in C#.
+description: Discover the Paragraph NodeType property that efficiently returns Paragraph data, enhancing your content structure for better performance and SEO.
 type: docs
 weight: 170
 url: /net/aspose.words/paragraph/nodetype/

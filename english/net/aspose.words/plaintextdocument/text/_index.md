@@ -3,7 +3,7 @@ title: PlainTextDocument.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: PlainTextDocument Text property. Gets textual content of the document concatenated as a string in C#.
+description: Access the PlainTextDocument's text property to retrieve the document's content as a single string, enhancing your data handling and analysis.
 type: docs
 weight: 40
 url: /net/aspose.words/plaintextdocument/text/

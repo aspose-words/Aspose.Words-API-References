@@ -3,9 +3,9 @@ title: StyleCollection Class
 linktitle: StyleCollection
 articleTitle: StyleCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.StyleCollection class. A collection of Style objects that represent both the builtin and userdefined styles in a document in C#.
+description: Discover the Aspose.Words.StyleCollection class, featuring a rich array of built-in and custom style objects to enhance your document's formatting and design.
 type: docs
-weight: 6830
+weight: 6840
 url: /net/aspose.words/stylecollection/
 ---
 ## StyleCollection class

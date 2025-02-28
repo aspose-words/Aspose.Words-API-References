@@ -3,7 +3,7 @@ title: FieldSkipIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words for .NET
-description: FieldSkipIf RightExpression property. Gets or sets the right part of the comparison expression in C#.
+description: Discover the FieldSkipIf RightExpression property: easily manage comparison expressions for enhanced data control and streamlined operations.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldskipif/rightexpression/

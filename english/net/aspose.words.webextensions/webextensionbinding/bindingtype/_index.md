@@ -3,7 +3,7 @@ title: WebExtensionBinding.BindingType
 linktitle: BindingType
 articleTitle: BindingType
 second_title: Aspose.Words for .NET
-description: WebExtensionBinding BindingType property. Specifies the binding type in C#.
+description: Discover the WebExtensionBinding BindingType property, which defines binding types for seamless integration and enhanced web functionality.
 type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextensionbinding/bindingtype/

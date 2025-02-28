@@ -3,7 +3,7 @@ title: FieldHyperlink.IsImageMap
 linktitle: IsImageMap
 articleTitle: IsImageMap
 second_title: Aspose.Words for .NET
-description: FieldHyperlink IsImageMap property. Gets or sets whether to append coordinates to the hyperlink for a serverside image map in C#.
+description: Discover how the FieldHyperlink IsImageMap property enhances your server-side image maps by appending coordinates to hyperlinks for improved functionality.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldhyperlink/isimagemap/

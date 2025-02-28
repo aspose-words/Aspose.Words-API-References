@@ -3,7 +3,7 @@ title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words for .NET
-description: Cell LastParagraph property. Gets the last paragraph among the immediate children in C#.
+description: Discover the Cell LastParagraph property: Easily access the final paragraph from immediate child elements for efficient content management.
 type: docs
 weight: 60
 url: /net/aspose.words.tables/cell/lastparagraph/

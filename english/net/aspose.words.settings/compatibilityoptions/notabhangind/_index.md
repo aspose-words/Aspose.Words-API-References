@@ -3,7 +3,7 @@ title: CompatibilityOptions.NoTabHangInd
 linktitle: NoTabHangInd
 articleTitle: NoTabHangInd
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions NoTabHangInd property. Do Not Create Custom Tab Stop for Hanging Indent in C#.
+description: Discover the CompatibilityOptions NoTabHangInd property to streamline your formatting. Avoid custom tab stops for seamless hanging indents!
 type: docs
 weight: 370
 url: /net/aspose.words.settings/compatibilityoptions/notabhangind/

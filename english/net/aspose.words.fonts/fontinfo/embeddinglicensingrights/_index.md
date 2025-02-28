@@ -3,7 +3,7 @@ title: FontInfo.EmbeddingLicensingRights
 linktitle: EmbeddingLicensingRights
 articleTitle: EmbeddingLicensingRights
 second_title: Aspose.Words for .NET
-description: FontInfo EmbeddingLicensingRights property. Gets the embedded font licensing rights in C#.
+description: Discover the FontInfo EmbeddingLicensingRights property to easily access and manage your embedded font licensing rights for seamless design integration.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontinfo/embeddinglicensingrights/

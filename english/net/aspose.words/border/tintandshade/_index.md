@@ -3,7 +3,7 @@ title: Border.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words for .NET
-description: Border TintAndShade property. Gets or sets a double value that lightens or darkens a color in C#.
+description: Discover Border TintAndShade: effortlessly adjust color brightness with a simple double value for stunning design enhancements. Perfect for your creative projects!
 type: docs
 weight: 80
 url: /net/aspose.words/border/tintandshade/

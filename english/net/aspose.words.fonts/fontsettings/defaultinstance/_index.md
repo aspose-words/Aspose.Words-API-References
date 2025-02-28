@@ -3,7 +3,7 @@ title: FontSettings.DefaultInstance
 linktitle: DefaultInstance
 articleTitle: DefaultInstance
 second_title: Aspose.Words for .NET
-description: FontSettings DefaultInstance property. Static default font settings in C#.
+description: Discover the FontSettings DefaultInstance property for streamlined static font management. Optimize your design with customizable default settings!
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontsettings/defaultinstance/

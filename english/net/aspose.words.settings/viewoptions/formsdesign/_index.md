@@ -3,7 +3,7 @@ title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
 second_title: Aspose.Words for .NET
-description: ViewOptions FormsDesign property. Specifies whether the document is in forms design mode in C#.
+description: Discover how ViewOptions FormsDesign enhances your document experience by toggling forms design mode for seamless editing and customization.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/viewoptions/formsdesign/

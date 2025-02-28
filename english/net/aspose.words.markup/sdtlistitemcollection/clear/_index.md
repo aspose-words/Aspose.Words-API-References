@@ -3,7 +3,7 @@ title: SdtListItemCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: SdtListItemCollection Clear method. Clears all items from this collection in C#.
+description: Effortlessly clear all items from your SdtListItemCollection with the Clear method. Streamline your data management for optimal performance!
 type: docs
 weight: 50
 url: /net/aspose.words.markup/sdtlistitemcollection/clear/

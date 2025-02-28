@@ -3,7 +3,7 @@ title: Fill.GradientStyle
 linktitle: GradientStyle
 articleTitle: GradientStyle
 second_title: Aspose.Words for .NET
-description: Fill GradientStyle property. Gets the gradient style GradientStyle for the fill in C#.
+description: Discover how to enhance your designs with the GradientStyle property for stunning fill effects. Elevate your projects with vibrant gradients!
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/fill/gradientstyle/

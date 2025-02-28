@@ -3,7 +3,7 @@ title: CheckGrammarOptions.PreserveFormatting
 linktitle: PreserveFormatting
 articleTitle: PreserveFormatting
 second_title: Aspose.Words for .NET
-description: CheckGrammarOptions PreserveFormatting property. Allows to specify either CheckGrammar will try to preserve layout and formatting of the original document or not. Default value is true in C#.
+description: Discover the CheckGrammarOptions PreserveFormatting feature that maintains your document's layout. Ensure accurate grammar checks without losing formatting!
 type: docs
 weight: 40
 url: /net/aspose.words.ai/checkgrammaroptions/preserveformatting/

@@ -3,7 +3,7 @@ title: FindReplaceOptions.LegacyMode
 linktitle: LegacyMode
 articleTitle: LegacyMode
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions LegacyMode property. Gets or sets a boolean value indicating that old find/replace algorithm is used in C#.
+description: Discover the FindReplaceOptions LegacyMode property to easily toggle the classic find/replace algorithm for enhanced functionality and seamless user experience.
 type: docs
 weight: 130
 url: /net/aspose.words.replacing/findreplaceoptions/legacymode/

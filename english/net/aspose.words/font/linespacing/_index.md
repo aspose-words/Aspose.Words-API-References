@@ -3,7 +3,7 @@ title: Font.LineSpacing
 linktitle: LineSpacing
 articleTitle: LineSpacing
 second_title: Aspose.Words for .NET
-description: Font LineSpacing property. Returns line spacing of this font in points in C#.
+description: Discover the Font LineSpacing property, which provides the precise line spacing in points, enhancing your text's readability and design.
 type: docs
 weight: 190
 url: /net/aspose.words/font/linespacing/

@@ -3,7 +3,7 @@ title: FieldLink.InsertAsPicture
 linktitle: InsertAsPicture
 articleTitle: InsertAsPicture
 second_title: Aspose.Words for .NET
-description: FieldLink InsertAsPicture property. Gets or sets whether to insert the linked object as a picture in C#.
+description: Discover how the FieldLink InsertAsPicture property enhances your documents by allowing linked objects to be seamlessly inserted as images.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldlink/insertaspicture/

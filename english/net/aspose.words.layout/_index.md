@@ -3,7 +3,7 @@ title: Aspose.Words.Layout
 linktitle: Aspose.Words.Layout
 articleTitle: Aspose.Words.Layout
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Layout namespace provides classes that allow to access information such as on what page and where on a page particular document elements are positioned when the document is formatted into pages in C#.
+description: Explore Aspose.Words.Layout for precise document formatting insights. Access page locations and element positioning to enhance your document's layout.
 type: docs
 weight: 130
 url: /net/aspose.words.layout/

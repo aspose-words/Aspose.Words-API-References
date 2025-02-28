@@ -3,7 +3,7 @@ title: BorderType Enum
 linktitle: BorderType
 articleTitle: BorderType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.BorderType enum. Specifies sides of a border in C#.
+description: Discover Aspose.Words.BorderType enum for customizable border options. Enhance your documents with precise border control and style!
 type: docs
 weight: 290
 url: /net/aspose.words/bordertype/

@@ -3,7 +3,7 @@ title: TextPath.Trim
 linktitle: Trim
 articleTitle: Trim
 second_title: Aspose.Words for .NET
-description: TextPath Trim property. Determines whether extra space is removed above and below the text in C#.
+description: Discover the TextPath Trim property to enhance your design by removing unwanted space above and below text for a cleaner, more polished look.
 type: docs
 weight: 180
 url: /net/aspose.words.drawing/textpath/trim/

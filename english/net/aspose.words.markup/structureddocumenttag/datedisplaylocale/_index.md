@@ -3,7 +3,7 @@ title: StructuredDocumentTag.DateDisplayLocale
 linktitle: DateDisplayLocale
 articleTitle: DateDisplayLocale
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag DateDisplayLocale property. Allows to set/get the language format for the date displayed in this SDT in C#.
+description: Customize date formats with the StructuredDocumentTag DateDisplayLocale property. Enhance user experience by setting preferred language formats effortlessly.
 type: docs
 weight: 100
 url: /net/aspose.words.markup/structureddocumenttag/datedisplaylocale/

@@ -3,7 +3,7 @@ title: Stroke.On
 linktitle: On
 articleTitle: On
 second_title: Aspose.Words for .NET
-description: Stroke On property. Defines whether the path will be stroked in C#.
+description: Control path styling with Stroke On property. Enhance your designs by defining how paths are stroked for a polished, professional look.
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/stroke/on/

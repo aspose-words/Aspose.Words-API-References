@@ -3,7 +3,7 @@ title: Corporate
 linktitle: Corporate
 articleTitle: Corporate
 second_title: Aspose.Words for .NET
-description: Corporate constructor. Initialize a new instance of the Corporate class in C#.
+description: Transform your projects with our Corporate Constructor. Easily initialize and manage corporate instances for seamless business solutions.
 type: docs
 weight: 10
 url: /net/aspose.words.bibliography/corporate/corporate/

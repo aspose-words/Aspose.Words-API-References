@@ -3,7 +3,7 @@ title: FindReplaceOptions.FindWholeWordsOnly
 linktitle: FindWholeWordsOnly
 articleTitle: FindWholeWordsOnly
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions FindWholeWordsOnly property. True indicates the oldValue must be a standalone word in C#.
+description: Discover how the FindWholeWordsOnly property enhances your search with accurate results, ensuring oldValue matches only as a standalone word.
 type: docs
 weight: 50
 url: /net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/

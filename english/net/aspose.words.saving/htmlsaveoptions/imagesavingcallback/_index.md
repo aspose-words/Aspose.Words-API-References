@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ImageSavingCallback property. Allows to control how images are saved when a document is saved to HTML MHTML or EPUB in C#.
+description: Control image saving with HtmlSaveOptions' ImageSavingCallback. Optimize document exports to HTML, MHTML, or EPUB for seamless user experience.
 type: docs
 weight: 350
 url: /net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/

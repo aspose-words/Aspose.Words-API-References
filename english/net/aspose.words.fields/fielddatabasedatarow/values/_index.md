@@ -3,7 +3,7 @@ title: FieldDatabaseDataRow.Values
 linktitle: Values
 articleTitle: Values
 second_title: Aspose.Words for .NET
-description: FieldDatabaseDataRow Values property. Gets values that belong to this row in C#.
+description: Discover the FieldDatabaseDataRow Values property to easily access and manage data values for each row, enhancing your data handling efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddatabasedatarow/values/

@@ -3,7 +3,7 @@ title: ParagraphFormat.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words for .NET
-description: ParagraphFormat StyleIdentifier property. Gets or sets the locale independent style identifier of the paragraph style applied to this formatting in C#.
+description: Discover the ParagraphFormat StyleIdentifier property to easily manage and customize paragraph styles, enhancing your document's formatting and readability.
 type: docs
 weight: 360
 url: /net/aspose.words/paragraphformat/styleidentifier/

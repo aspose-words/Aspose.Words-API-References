@@ -3,7 +3,7 @@ title: FontSettings.SaveSearchCache
 linktitle: SaveSearchCache
 articleTitle: SaveSearchCache
 second_title: Aspose.Words for .NET
-description: FontSettings SaveSearchCache method. Saves the font search cache to the stream in C#.
+description: Discover how the FontSettings SaveSearchCache method efficiently saves your font search cache to a stream, enhancing performance and user experience.
 type: docs
 weight: 70
 url: /net/aspose.words.fonts/fontsettings/savesearchcache/

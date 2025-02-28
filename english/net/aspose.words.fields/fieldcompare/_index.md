@@ -3,7 +3,7 @@ title: FieldCompare Class
 linktitle: FieldCompare
 articleTitle: FieldCompare
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldCompare class. Implements the COMPARE field in C#.
+description: Discover the Aspose.Words.Fields.FieldCompare class for effortless document comparison. Enhance your workflow with powerful, accurate field functionalities.
 type: docs
 weight: 2110
 url: /net/aspose.words.fields/fieldcompare/

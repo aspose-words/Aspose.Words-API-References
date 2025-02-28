@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: OdsoFieldMapDataCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the OdsoFieldMapDataCollection Count property to efficiently retrieve the total number of elements in your collection. Optimize your data management today!
 type: docs
 weight: 20
 url: /net/aspose.words.settings/odsofieldmapdatacollection/count/

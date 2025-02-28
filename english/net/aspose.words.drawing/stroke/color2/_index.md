@@ -3,7 +3,7 @@ title: Stroke.Color2
 linktitle: Color2
 articleTitle: Color2
 second_title: Aspose.Words for .NET
-description: Stroke Color2 property. Defines a second color for a stroke in C#.
+description: Discover the Stroke Color2 property—enhance your designs with a customizable second stroke color for vibrant, eye-catching visuals.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/stroke/color2/

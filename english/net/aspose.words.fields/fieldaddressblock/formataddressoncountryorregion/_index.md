@@ -3,7 +3,7 @@ title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 linktitle: FormatAddressOnCountryOrRegion
 articleTitle: FormatAddressOnCountryOrRegion
 second_title: Aspose.Words for .NET
-description: FieldAddressBlock FormatAddressOnCountryOrRegion property. Gets or sets whether to format the address according to the country/region of the recipient as defined by POSTCODE Universal Postal Union 2006 in C#.
+description: Optimize address formatting with the FieldAddressBlock FormatAddressOnCountryOrRegion property, ensuring compliance with global postal standards for accurate delivery.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/

@@ -3,7 +3,7 @@ title: CompatibilityOptions.MWSmallCaps
 linktitle: MWSmallCaps
 articleTitle: MWSmallCaps
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions MWSmallCaps property. Emulate Word 5.x for the Macintosh Small Caps Formatting in C#.
+description: Discover the CompatibilityOptions MWSmallCaps property to effortlessly emulate Word 5.x Small Caps formatting on your Macintosh. Enhance your documents today!
 type: docs
 weight: 320
 url: /net/aspose.words.settings/compatibilityoptions/mwsmallcaps/

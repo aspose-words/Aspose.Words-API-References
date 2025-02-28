@@ -3,7 +3,7 @@ title: Metered.GetConsumptionQuantity
 linktitle: GetConsumptionQuantity
 articleTitle: GetConsumptionQuantity
 second_title: Aspose.Words for .NET
-description: Metered GetConsumptionQuantity method. Gets consumption file size in C#.
+description: Discover the Metered GetConsumptionQuantity method to efficiently retrieve file size data and optimize your resource management. Enhance your data insights!
 type: docs
 weight: 50
 url: /net/aspose.words/metered/getconsumptionquantity/

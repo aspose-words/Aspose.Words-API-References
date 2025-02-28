@@ -3,7 +3,7 @@ title: SubDocument.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: SubDocument NodeType property. Returns SubDocument in C#.
+description: Discover the SubDocument NodeType property that efficiently returns SubDocument data, enhancing your document management and processing capabilities.
 type: docs
 weight: 10
 url: /net/aspose.words/subdocument/nodetype/

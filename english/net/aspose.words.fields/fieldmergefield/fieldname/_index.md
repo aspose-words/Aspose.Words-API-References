@@ -3,7 +3,7 @@ title: FieldMergeField.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words for .NET
-description: FieldMergeField FieldName property. Gets or sets the name of a data field in C#.
+description: Discover the FieldMergeField FieldName property to easily manage and customize your data fields for enhanced data integration and efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldmergefield/fieldname/

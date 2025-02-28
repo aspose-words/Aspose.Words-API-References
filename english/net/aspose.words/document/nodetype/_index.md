@@ -3,7 +3,7 @@ title: Document.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Document NodeType property. Returns Document in C#.
+description: Explore the Document NodeType property to unlock essential document details and enhance your data management. Discover its benefits today!
 type: docs
 weight: 290
 url: /net/aspose.words/document/nodetype/

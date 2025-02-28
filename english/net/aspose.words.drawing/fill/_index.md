@@ -3,7 +3,7 @@ title: Fill Class
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Fill class. Represents fill formatting for an object in C#.
+description: Explore the Aspose.Words.Drawing.Fill class for advanced fill formatting options, enhancing your document design and visual appeal effortlessly.
 type: docs
 weight: 1260
 url: /net/aspose.words.drawing/fill/

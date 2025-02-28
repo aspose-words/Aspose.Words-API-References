@@ -3,7 +3,7 @@ title: FieldSeq
 linktitle: FieldSeq
 articleTitle: FieldSeq
 second_title: Aspose.Words for .NET
-description: FieldSeq constructor. The default constructor in C#.
+description: Discover the FieldSeq constructor—your go-to solution for efficient sequence management. Unlock seamless integration and enhanced performance today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldseq/fieldseq/

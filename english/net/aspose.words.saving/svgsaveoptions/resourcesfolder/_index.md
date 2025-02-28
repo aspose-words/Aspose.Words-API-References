@@ -3,7 +3,7 @@ title: SvgSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
 second_title: Aspose.Words for .NET
-description: SvgSaveOptions ResourcesFolder property. Specifies the physical folder where resources images are saved when exporting a document to Svg format. Default is null in C#.
+description: Discover how to set the ResourcesFolder in SvgSaveOptions for efficient image storage when exporting documents to SVG format. Optimize your workflow today!
 type: docs
 weight: 80
 url: /net/aspose.words.saving/svgsaveoptions/resourcesfolder/

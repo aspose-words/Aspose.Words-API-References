@@ -3,7 +3,7 @@ title: UserInformation.Initials
 linktitle: Initials
 articleTitle: Initials
 second_title: Aspose.Words for .NET
-description: UserInformation Initials property. Gets or sets the users initials in C#.
+description: Discover how to use the UserInformation Initials property to easily manage and customize user initials for enhanced personalization and user experience.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/userinformation/initials/

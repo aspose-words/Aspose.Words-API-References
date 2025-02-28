@@ -3,7 +3,7 @@ title: Font.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words for .NET
-description: Font Position property. Gets or sets the position of text in points relative to the base line. A positive number raises the text and a negative number lowers it in C#.
+description: Discover the Font Position property: easily adjust text alignment in points for precise control over your typography. Elevate your design with flexible positioning!
 type: docs
 weight: 310
 url: /net/aspose.words/font/position/

@@ -3,7 +3,7 @@ title: Frameset Class
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Framesets.Frameset class. Represents a frames page or a single frame on a frames page in C#.
+description: Discover the Aspose.Words.Framesets.Frameset class for seamless frame management in documents. Enhance your web pages with efficient frame integration!
 type: docs
 weight: 3500
 url: /net/aspose.words.framesets/frameset/

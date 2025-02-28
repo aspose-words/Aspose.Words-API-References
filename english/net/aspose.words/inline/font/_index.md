@@ -3,7 +3,7 @@ title: Inline.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: Inline Font property. Provides access to the font formatting of this object in C#.
+description: Discover the Inline Font property for seamless font formatting control. Enhance your design with easy access to customizable text styles and effects.
 type: docs
 weight: 10
 url: /net/aspose.words/inline/font/

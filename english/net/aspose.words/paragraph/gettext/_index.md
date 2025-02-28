@@ -3,7 +3,7 @@ title: Paragraph.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words for .NET
-description: Paragraph GetText method. Gets the text of this paragraph including the end of paragraph character in C#.
+description: Discover the Paragraph GetText method to effortlessly retrieve text, including paragraph endings, enhancing your text processing efficiency.
 type: docs
 weight: 280
 url: /net/aspose.words/paragraph/gettext/

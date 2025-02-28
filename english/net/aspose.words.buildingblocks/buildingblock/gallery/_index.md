@@ -3,7 +3,7 @@ title: BuildingBlock.Gallery
 linktitle: Gallery
 articleTitle: Gallery
 second_title: Aspose.Words for .NET
-description: BuildingBlock Gallery property. Specifies the firstlevel categorization for the building block for the purposes of classification or user interface sorting in C#.
+description: Discover BuildingBlock Gallery's unique property for efficient categorization and seamless user interface sorting. Enhance your organization today!
 type: docs
 weight: 60
 url: /net/aspose.words.buildingblocks/buildingblock/gallery/

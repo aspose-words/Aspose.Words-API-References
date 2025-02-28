@@ -3,7 +3,7 @@ title: FieldStyleRef.SuppressNonDelimiters
 linktitle: SuppressNonDelimiters
 articleTitle: SuppressNonDelimiters
 second_title: Aspose.Words for .NET
-description: FieldStyleRef SuppressNonDelimiters property. Gets or sets whether to suppress nondelimiter characters in C#.
+description: Control nondelimiter characters with the FieldStyleRef SuppressNonDelimiters property. Enhance data clarity and presentation in your applications.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldstyleref/suppressnondelimiters/

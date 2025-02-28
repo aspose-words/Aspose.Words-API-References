@@ -3,7 +3,7 @@ title: OleFormat.IconCaption
 linktitle: IconCaption
 articleTitle: IconCaption
 second_title: Aspose.Words for .NET
-description: OleFormat IconCaption property. Gets icon caption of OLE object in C#.
+description: Discover the OleFormat IconCaption property to easily retrieve and customize OLE object icon captions for enhanced document presentation.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/oleformat/iconcaption/

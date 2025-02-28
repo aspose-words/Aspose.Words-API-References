@@ -3,7 +3,7 @@ title: ChartAxis.TickLabels
 linktitle: TickLabels
 articleTitle: TickLabels
 second_title: Aspose.Words for .NET
-description: ChartAxis TickLabels property. Provides access to the properties of the axis tick mark labels in C#.
+description: Discover the ChartAxis TickLabels property to customize your axis tick mark labels for enhanced data visualization and clarity in your charts.
 type: docs
 weight: 230
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabels/

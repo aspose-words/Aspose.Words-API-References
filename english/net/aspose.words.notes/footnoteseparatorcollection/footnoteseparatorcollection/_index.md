@@ -3,7 +3,7 @@ title: FootnoteSeparatorCollection
 linktitle: FootnoteSeparatorCollection
 articleTitle: FootnoteSeparatorCollection
 second_title: Aspose.Words for .NET
-description: FootnoteSeparatorCollection constructor. The default constructor in C#.
+description: Discover the FootnoteSeparatorCollection constructor for seamless integration. Optimize your project with this essential tool for enhanced functionality.
 type: docs
 weight: 10
 url: /net/aspose.words.notes/footnoteseparatorcollection/footnoteseparatorcollection/

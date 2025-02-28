@@ -3,7 +3,7 @@ title: DocumentProperty.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: DocumentProperty Name property. Returns the name of the property in C#.
+description: Discover the DocumentProperty Name feature that effortlessly retrieves property names, enhancing your document management and workflow efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.properties/documentproperty/name/

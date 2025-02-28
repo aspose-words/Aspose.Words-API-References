@@ -3,7 +3,7 @@ title: AxisCategoryType Enum
 linktitle: AxisCategoryType
 articleTitle: AxisCategoryType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType enum. Specifies type of a category axis in C#.
+description: Discover the Aspose.Words.Drawing.Charts.AxisCategoryType enum, defining category axis types for enhanced data visualization in your projects.
 type: docs
 weight: 770
 url: /net/aspose.words.drawing.charts/axiscategorytype/

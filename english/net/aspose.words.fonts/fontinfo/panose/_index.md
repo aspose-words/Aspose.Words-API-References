@@ -3,7 +3,7 @@ title: FontInfo.Panose
 linktitle: Panose
 articleTitle: Panose
 second_title: Aspose.Words for .NET
-description: FontInfo Panose property. Gets or sets the PANOSE typeface classification number in C#.
+description: Discover the FontInfo PANOSE property: easily get or set the typeface classification number for enhanced font management and design precision.
 type: docs
 weight: 70
 url: /net/aspose.words.fonts/fontinfo/panose/

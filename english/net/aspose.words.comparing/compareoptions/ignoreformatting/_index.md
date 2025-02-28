@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreFormatting
 linktitle: IgnoreFormatting
 articleTitle: IgnoreFormatting
 second_title: Aspose.Words for .NET
-description: CompareOptions IgnoreFormatting property. True indicates that formatting is ignored in C#.
+description: Discover how the CompareOptions IgnoreFormatting property enhances text processing by ignoring formatting for more efficient data comparison.
 type: docs
 weight: 90
 url: /net/aspose.words.comparing/compareoptions/ignoreformatting/

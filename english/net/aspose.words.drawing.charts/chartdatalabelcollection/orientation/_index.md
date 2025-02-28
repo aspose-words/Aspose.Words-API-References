@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection Orientation property. Gets or sets the text orientation of the data labels of the entire series in C#.
+description: Discover the ChartDataLabelCollection Orientation property to easily customize text orientation for your data labels, enhancing your chart's clarity and impact.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/orientation/

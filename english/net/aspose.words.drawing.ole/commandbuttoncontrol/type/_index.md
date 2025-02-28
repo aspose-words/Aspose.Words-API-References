@@ -3,7 +3,7 @@ title: CommandButtonControl.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: CommandButtonControl Type property. Gets type of Forms 2.0 control in C#.
+description: Discover the CommandButtonControl Type property to easily access Forms 2.0 control types, enhancing your application's functionality and user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/commandbuttoncontrol/type/

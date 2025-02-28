@@ -3,7 +3,7 @@ title: FieldPageRef.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words for .NET
-description: FieldPageRef BookmarkName property. Gets or sets the name of the bookmark in C#.
+description: Discover the FieldPageRef BookmarkName property: easily manage and customize your bookmarks with this intuitive get/set feature for enhanced efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldpageref/bookmarkname/

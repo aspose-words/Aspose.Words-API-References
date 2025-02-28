@@ -3,7 +3,7 @@ title: CustomXmlPartCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: CustomXmlPartCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the CustomXmlPartCollection Count property to easily retrieve the total number of elements in your XML collection for enhanced data management.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlpartcollection/count/

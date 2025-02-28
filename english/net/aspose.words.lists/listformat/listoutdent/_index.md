@@ -3,7 +3,7 @@ title: ListFormat.ListOutdent
 linktitle: ListOutdent
 articleTitle: ListOutdent
 second_title: Aspose.Words for .NET
-description: ListFormat ListOutdent method. Decreases the list level of the current paragraph by one level in C#.
+description: Discover how the ListFormat ListOutdent method can simplify your document's structure by reducing the current paragraph's list level effortlessly.
 type: docs
 weight: 80
 url: /net/aspose.words.lists/listformat/listoutdent/

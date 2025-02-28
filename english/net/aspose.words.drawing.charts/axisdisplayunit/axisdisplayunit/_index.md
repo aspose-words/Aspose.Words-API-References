@@ -3,7 +3,7 @@ title: AxisDisplayUnit
 linktitle: AxisDisplayUnit
 articleTitle: AxisDisplayUnit
 second_title: Aspose.Words for .NET
-description: AxisDisplayUnit constructor. The default constructor in C#.
+description: Discover the AxisDisplayUnit constructor for seamless integration and enhanced functionality in your projects. Unlock powerful features today!
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/axisdisplayunit/axisdisplayunit/

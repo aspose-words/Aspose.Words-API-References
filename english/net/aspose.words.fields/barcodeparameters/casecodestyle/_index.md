@@ -3,7 +3,7 @@ title: BarcodeParameters.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words for .NET
-description: BarcodeParameters CaseCodeStyle property. Style of a Case Code for barcode type ITF14. The valid values are STDEXTADD in C#.
+description: Discover the CaseCodeStyle property for ITF14 barcodes. Explore valid options like STDEXTADD to enhance your barcode design and functionality.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/barcodeparameters/casecodestyle/

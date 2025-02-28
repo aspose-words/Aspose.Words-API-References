@@ -3,7 +3,7 @@ title: ParagraphFormat.SuppressLineNumbers
 linktitle: SuppressLineNumbers
 articleTitle: SuppressLineNumbers
 second_title: Aspose.Words for .NET
-description: ParagraphFormat SuppressLineNumbers property. Specifies whether the current paragraphs lines should be exempted from line numbering which is applied in the parent section in C#.
+description: Discover how the ParagraphFormat SuppressLineNumbers property lets you customize line numbering for paragraphs, enhancing document clarity and organization.
 type: docs
 weight: 390
 url: /net/aspose.words/paragraphformat/suppresslinenumbers/

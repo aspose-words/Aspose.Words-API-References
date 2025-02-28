@@ -3,7 +3,7 @@ title: MarkerSymbol Enum
 linktitle: MarkerSymbol
 articleTitle: MarkerSymbol
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.MarkerSymbol enum. Specifies marker symbol style in C#.
+description: Explore the Aspose.Words.Drawing.Charts.MarkerSymbol enum for customizable marker styles that enhance your chart visuals and improve data presentation.
 type: docs
 weight: 1230
 url: /net/aspose.words.drawing.charts/markersymbol/

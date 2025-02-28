@@ -3,7 +3,7 @@ title: OleFormat.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words for .NET
-description: OleFormat IsLocked property. Specifies whether the link to the OLE object is locked from updates in C#.
+description: Discover the OleFormat IsLocked property: control OLE object links and enhance data integrity by preventing unwanted updates. Learn more now!
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/oleformat/islocked/

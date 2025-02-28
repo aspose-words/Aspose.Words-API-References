@@ -3,7 +3,7 @@ title: FieldPageRef
 linktitle: FieldPageRef
 articleTitle: FieldPageRef
 second_title: Aspose.Words for .NET
-description: FieldPageRef constructor. The default constructor in C#.
+description: Discover the FieldPageRef constructor—your go-to solution for efficient field referencing in coding. Simplify your development process today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldpageref/fieldpageref/

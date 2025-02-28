@@ -3,7 +3,7 @@ title: BarcodeParameters.BarcodeType
 linktitle: BarcodeType
 articleTitle: BarcodeType
 second_title: Aspose.Words for .NET
-description: BarcodeParameters BarcodeType property. Bar code type in C#.
+description: Explore the BarcodeParameters BarcodeType property for enhanced bar code management. Discover its unique features and benefits for your projects!
 type: docs
 weight: 40
 url: /net/aspose.words.fields/barcodeparameters/barcodetype/

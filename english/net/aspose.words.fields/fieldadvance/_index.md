@@ -3,7 +3,7 @@ title: FieldAdvance Class
 linktitle: FieldAdvance
 articleTitle: FieldAdvance
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldAdvance class. Implements the ADVANCE field in C#.
+description: Discover the Aspose.Words.Fields.FieldAdvance class for seamless ADVANCE field implementation, enhancing your document processing capabilities effortlessly.
 type: docs
 weight: 1940
 url: /net/aspose.words.fields/fieldadvance/

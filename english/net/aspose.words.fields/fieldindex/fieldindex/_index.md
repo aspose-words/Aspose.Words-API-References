@@ -3,7 +3,7 @@ title: FieldIndex
 linktitle: FieldIndex
 articleTitle: FieldIndex
 second_title: Aspose.Words for .NET
-description: FieldIndex constructor. The default constructor in C#.
+description: Discover the FieldIndex constructor: the essential default constructor for efficient data indexing. Streamline your coding with this powerful tool!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldindex/fieldindex/

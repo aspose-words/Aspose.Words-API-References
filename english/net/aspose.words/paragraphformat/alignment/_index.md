@@ -3,7 +3,7 @@ title: ParagraphFormat.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words for .NET
-description: ParagraphFormat Alignment property. Gets or sets text alignment for the paragraph in C#.
+description: Discover the ParagraphFormat Alignment property to easily customize text alignment for your paragraphs, enhancing readability and presentation.
 type: docs
 weight: 30
 url: /net/aspose.words/paragraphformat/alignment/

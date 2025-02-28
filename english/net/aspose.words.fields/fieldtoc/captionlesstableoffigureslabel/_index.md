@@ -3,7 +3,7 @@ title: FieldToc.CaptionlessTableOfFiguresLabel
 linktitle: CaptionlessTableOfFiguresLabel
 articleTitle: CaptionlessTableOfFiguresLabel
 second_title: Aspose.Words for .NET
-description: FieldToc CaptionlessTableOfFiguresLabel property. Gets or sets the name of the sequence identifier used when building a table of figures that does not include captions label and number in C#.
+description: Discover the FieldToc CaptionlessTableOfFiguresLabel property to customize your table of figures. Easily manage sequence identifiers without captions!
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/

@@ -3,7 +3,7 @@ title: Table.RelativeVerticalAlignment
 linktitle: RelativeVerticalAlignment
 articleTitle: RelativeVerticalAlignment
 second_title: Aspose.Words for .NET
-description: Table RelativeVerticalAlignment property. Gets or sets floating table relative vertical alignment in C#.
+description: Discover the Table RelativeVerticalAlignment property to easily manage vertical alignment for floating tables, enhancing your layout's precision and design.
 type: docs
 weight: 240
 url: /net/aspose.words.tables/table/relativeverticalalignment/

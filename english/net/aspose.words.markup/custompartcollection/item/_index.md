@@ -3,7 +3,7 @@ title: CustomPartCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: CustomPartCollection Item property. Gets or sets an item at the specified index in C#.
+description: Effortlessly manage your CustomPartCollection with our item property. Quickly get or set items at any index for seamless customization and efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/custompartcollection/item/

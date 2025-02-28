@@ -3,7 +3,7 @@ title: ParagraphFormat.LinesToDrop
 linktitle: LinesToDrop
 articleTitle: LinesToDrop
 second_title: Aspose.Words for .NET
-description: ParagraphFormat LinesToDrop property. Gets or sets the number of lines of the paragraph text used to calculate the drop cap height in C#.
+description: Discover how the ParagraphFormat LinesToDrop property enhances drop cap height in your documents. Optimize your text layout for stunning visuals!
 type: docs
 weight: 210
 url: /net/aspose.words/paragraphformat/linestodrop/

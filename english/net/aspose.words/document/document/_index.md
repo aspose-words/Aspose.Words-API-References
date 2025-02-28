@@ -3,7 +3,7 @@ title: Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: Document constructor. Creates a blank Word document in C#.
+description: Effortlessly create blank Word documents with our user-friendly document constructor. Streamline your writing process today!
 type: docs
 weight: 10
 url: /net/aspose.words/document/document/

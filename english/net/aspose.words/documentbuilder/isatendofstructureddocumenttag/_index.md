@@ -3,7 +3,7 @@ title: DocumentBuilder.IsAtEndOfStructuredDocumentTag
 linktitle: IsAtEndOfStructuredDocumentTag
 articleTitle: IsAtEndOfStructuredDocumentTag
 second_title: Aspose.Words for .NET
-description: DocumentBuilder IsAtEndOfStructuredDocumentTag property. Returns true if the cursor is at the end of a structured document tag in C#.
+description: Discover DocumentBuilder's IsAtEndOfStructuredDocumentTag property—check if your cursor is positioned at the end of a structured document tag for efficient editing!
 type: docs
 weight: 120
 url: /net/aspose.words/documentbuilder/isatendofstructureddocumenttag/

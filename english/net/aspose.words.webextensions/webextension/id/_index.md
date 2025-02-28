@@ -3,7 +3,7 @@ title: WebExtension.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: WebExtension Id property. Uniquely identifies the web extension instance in the current document in C#.
+description: Discover the WebExtension Id property, your key to uniquely identifying web extension instances in documents for enhanced functionality and seamless integration.
 type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextension/id/

@@ -3,7 +3,7 @@ title: Section.Body
 linktitle: Body
 articleTitle: Body
 second_title: Aspose.Words for .NET
-description: Section Body property. Returns the Body child node of the section in C#.
+description: Discover the Section Body property that retrieves the Body child node, enhancing your web development with streamlined content management.
 type: docs
 weight: 20
 url: /net/aspose.words/section/body/

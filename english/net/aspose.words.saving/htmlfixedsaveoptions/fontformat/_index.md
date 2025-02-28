@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.FontFormat
 linktitle: FontFormat
 articleTitle: FontFormat
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions FontFormat property. Gets or sets ExportFontFormat used for font exporting. Default value is Woff in C#.
+description: Discover the HtmlFixedSaveOptions FontFormat property to customize font exporting. Easily set and optimize your default format to Woff for better performance.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/htmlfixedsaveoptions/fontformat/

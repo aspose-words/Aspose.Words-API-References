@@ -3,7 +3,7 @@ title: ChartAxisTitle.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartAxisTitle Format property. Provides access to fill and line formatting of the axis title in C#.
+description: Discover the ChartAxisTitle Format property for easy customization of axis title fill and line styles, enhancing your data visualization.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartaxistitle/format/

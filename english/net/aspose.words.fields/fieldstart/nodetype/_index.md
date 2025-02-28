@@ -3,7 +3,7 @@ title: FieldStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: FieldStart NodeType property. Returns FieldStart in C#.
+description: Discover the FieldStart NodeType property that enhances your data management by efficiently returning FieldStart for optimal performance.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldstart/nodetype/

@@ -3,7 +3,7 @@ title: IFieldMergingCallback.ImageFieldMerging
 linktitle: ImageFieldMerging
 articleTitle: ImageFieldMerging
 second_title: Aspose.Words for .NET
-description: IFieldMergingCallback ImageFieldMerging method. Called when the Aspose.Words mail merge engine is about to insert an image into a merge field in C#.
+description: Discover the ImageFieldMerging method in IFieldMergingCallback, designed for seamless image insertion in Aspose.Words mail merge. Enhance your document automation!
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/

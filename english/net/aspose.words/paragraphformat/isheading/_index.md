@@ -3,7 +3,7 @@ title: ParagraphFormat.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
 second_title: Aspose.Words for .NET
-description: ParagraphFormat IsHeading property. True when the paragraph style is one of the builtin Heading styles in C#.
+description: Discover how the IsHeading property enhances your document formatting by identifying built-in Heading styles for better organization and clarity.
 type: docs
 weight: 140
 url: /net/aspose.words/paragraphformat/isheading/

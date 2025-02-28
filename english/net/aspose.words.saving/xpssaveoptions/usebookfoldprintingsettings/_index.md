@@ -3,7 +3,7 @@ title: XpsSaveOptions.UseBookFoldPrintingSettings
 linktitle: UseBookFoldPrintingSettings
 articleTitle: UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET
-description: XpsSaveOptions UseBookFoldPrintingSettings property. Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout if it is specified via MultiplePages in C#.
+description: Optimize your document layout with the XpsSaveOptions UseBookFoldPrintingSettings property, enabling seamless booklet printing for enhanced presentation.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/

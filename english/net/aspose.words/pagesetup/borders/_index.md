@@ -3,7 +3,7 @@ title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words for .NET
-description: PageSetup Borders property. Gets a collection of the page borders in C#.
+description: Discover the PageSetup Borders property to easily access and customize your page borders for a polished, professional look in your documents.
 type: docs
 weight: 50
 url: /net/aspose.words/pagesetup/borders/

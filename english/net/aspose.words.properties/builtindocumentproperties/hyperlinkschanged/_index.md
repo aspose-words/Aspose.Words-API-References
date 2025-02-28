@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.HyperlinksChanged
 linktitle: HyperlinksChanged
 articleTitle: HyperlinksChanged
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties HyperlinksChanged property. Indicates whether hyperlinks in a document were changed in C#.
+description: Discover the BuiltInDocumentProperties HyperlinksChanged property, which tracks changes to hyperlinks in your documents for enhanced editing control.
 type: docs
 weight: 130
 url: /net/aspose.words.properties/builtindocumentproperties/hyperlinkschanged/

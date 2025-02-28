@@ -3,7 +3,7 @@ title: FieldChar.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
 second_title: Aspose.Words for .NET
-description: FieldChar IsDirty property. Gets or sets whether the current result of the field is no longer correct stale due to other modifications made to the document in C#.
+description: Discover how the FieldChar IsDirty property helps maintain document accuracy by tracking changes, ensuring your fields always reflect the latest updates.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldchar/isdirty/

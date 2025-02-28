@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: OdsoRecipientDataCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the OdsoRecipientDataCollection Count property to easily retrieve the total number of elements, enhancing your data management efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/odsorecipientdatacollection/count/

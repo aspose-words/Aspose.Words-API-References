@@ -3,7 +3,7 @@ title: OfficeMath.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: OfficeMath AcceptEnd method. Accepts a visitor for visiting the end of the office math in C#.
+description: Discover OfficeMath's AcceptEnd method—seamlessly manage visitor access and enhance your office math experience. Boost efficiency today!
 type: docs
 weight: 70
 url: /net/aspose.words.math/officemath/acceptend/

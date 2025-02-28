@@ -3,7 +3,7 @@ title: DocumentProperty.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words for .NET
-description: DocumentProperty ToString method. Returns the property value as a string formatted according to the current locale in C#.
+description: Discover the DocumentProperty ToString method, which formats property values as strings based on locale, enhancing data presentation and user experience.
 type: docs
 weight: 110
 url: /net/aspose.words.properties/documentproperty/tostring/

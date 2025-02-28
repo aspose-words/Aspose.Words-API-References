@@ -3,7 +3,7 @@ title: Odso.FieldMapDatas
 linktitle: FieldMapDatas
 articleTitle: FieldMapDatas
 second_title: Aspose.Words for .NET
-description: Odso FieldMapDatas property. Gets or sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null in C#.
+description: Discover Odso FieldMapDatas: effortlessly map external data columns to predefined merge fields, ensuring seamless document integration and enhanced data accuracy.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/odso/fieldmapdatas/

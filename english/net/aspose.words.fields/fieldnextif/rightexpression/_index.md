@@ -3,7 +3,7 @@ title: FieldNextIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words for .NET
-description: FieldNextIf RightExpression property. Gets or sets the right part of the comparison expression in C#.
+description: Discover the FieldNextIf RightExpression property to easily manage and customize the right side of your comparison expressions for enhanced data handling.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldnextif/rightexpression/

@@ -3,7 +3,7 @@ title: Comparer.Compare
 linktitle: Compare
 articleTitle: Compare
 second_title: Aspose.Words for .NET
-description: Comparer Compare method. Compares two documents and saves the differences to the specified output file producing changes as a number of edit and format revisions in C#.
+description: Effortlessly compare two documents with our Compare method. Save differences and track edits and format revisions in a single output file.
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/comparer/compare/

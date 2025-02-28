@@ -3,7 +3,7 @@ title: CsvDataLoadOptions.HasHeaders
 linktitle: HasHeaders
 articleTitle: HasHeaders
 second_title: Aspose.Words for .NET
-description: CsvDataLoadOptions HasHeaders property. Gets or sets a value indicating whether the first record of CSV data contains column names in C#.
+description: Discover CsvDataLoadOptions' HasHeaders property to easily manage CSV imports by specifying if the first record includes column names for seamless data integration.
 type: docs
 weight: 40
 url: /net/aspose.words.reporting/csvdataloadoptions/hasheaders/

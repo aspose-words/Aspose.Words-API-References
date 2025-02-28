@@ -3,7 +3,7 @@ title: CompatibilityOptions.SwapBordersFacingPgs
 linktitle: SwapBordersFacingPgs
 articleTitle: SwapBordersFacingPgs
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions SwapBordersFacingPgs property. Swap Paragraph Borders on Odd Numbered Pages in C#.
+description: Enhance your document's layout with the CompatibilityOptions SwapBordersFacingPgs property. Easily swap paragraph borders on odd pages for a polished look!
 type: docs
 weight: 530
 url: /net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/

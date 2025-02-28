@@ -3,9 +3,9 @@ title: Range Class
 linktitle: Range
 articleTitle: Range
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Range class. Represents a contiguous area in a document in C#.
+description: Discover the Aspose.Words.Range class, your key to managing document sections effortlessly. Enhance your document processing with seamless control and flexibility.
 type: docs
-weight: 5110
+weight: 5120
 url: /net/aspose.words/range/
 ---
 ## Range class

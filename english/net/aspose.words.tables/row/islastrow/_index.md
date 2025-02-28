@@ -3,7 +3,7 @@ title: Row.IsLastRow
 linktitle: IsLastRow
 articleTitle: IsLastRow
 second_title: Aspose.Words for .NET
-description: Row IsLastRow property. True if this is the last row in a table false otherwise in C#.
+description: Discover the Row IsLastRow property: Easily identify if a row is the last in a table for streamlined data management and enhanced programming efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/row/islastrow/

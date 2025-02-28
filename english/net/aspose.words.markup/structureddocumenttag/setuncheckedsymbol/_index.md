@@ -3,7 +3,7 @@ title: StructuredDocumentTag.SetUncheckedSymbol
 linktitle: SetUncheckedSymbol
 articleTitle: SetUncheckedSymbol
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag SetUncheckedSymbol method. Sets the symbol used to represent the unchecked state of a check box content control in C#.
+description: Discover how the SetUncheckedSymbol method enhances your StructuredDocumentTag by customizing checkbox visuals for better user experience.
 type: docs
 weight: 390
 url: /net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/

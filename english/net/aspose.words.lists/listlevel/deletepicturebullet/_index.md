@@ -3,7 +3,7 @@ title: ListLevel.DeletePictureBullet
 linktitle: DeletePictureBullet
 articleTitle: DeletePictureBullet
 second_title: Aspose.Words for .NET
-description: ListLevel DeletePictureBullet method. Deletes picture bullet for the current list level in C#.
+description: Effortlessly remove picture bullets from your current list level with the ListLevel DeletePictureBullet method. Simplify your document formatting today!
 type: docs
 weight: 160
 url: /net/aspose.words.lists/listlevel/deletepicturebullet/

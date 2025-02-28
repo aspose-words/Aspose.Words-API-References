@@ -3,7 +3,7 @@ title: Odso.UdlConnectString
 linktitle: UdlConnectString
 articleTitle: UdlConnectString
 second_title: Aspose.Words for .NET
-description: Odso UdlConnectString property. Specifies the Universal Data Link UDL connection string used to connect to an external data source. The default value is an empty string in C#.
+description: Discover the Odso UdlConnectString property for seamless connections to external data sources using UDL. Unlock data integration with ease and efficiency!
 type: docs
 weight: 90
 url: /net/aspose.words.settings/odso/udlconnectstring/

@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection Item property. Returns ChartDataLabel for the specified index in C#.
+description: Access specific ChartDataLabel easily with the Item property in ChartDataLabelCollection. Enhance your data visualization today!
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/item/

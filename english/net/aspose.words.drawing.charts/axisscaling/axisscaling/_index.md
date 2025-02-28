@@ -3,7 +3,7 @@ title: AxisScaling
 linktitle: AxisScaling
 articleTitle: AxisScaling
 second_title: Aspose.Words for .NET
-description: AxisScaling constructor. The default constructor in C#.
+description: Discover the AxisScaling constructor—your go-to solution for seamless scaling in applications. Enhance performance with our efficient default constructor!
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/axisscaling/axisscaling/

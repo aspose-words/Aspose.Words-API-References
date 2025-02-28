@@ -3,7 +3,7 @@ title: OleFormat.OlePackage
 linktitle: OlePackage
 articleTitle: OlePackage
 second_title: Aspose.Words for .NET
-description: OleFormat OlePackage property. Provide access to OlePackage if OLE object is an OLE Package. Returns null otherwise in C#.
+description: Access OlePackage properties for OLE objects effortlessly. Get seamless integration with OLE Packages and enhance your data handling capabilities.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/oleformat/olepackage/

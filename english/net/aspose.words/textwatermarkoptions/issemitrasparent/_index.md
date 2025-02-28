@@ -3,7 +3,7 @@ title: TextWatermarkOptions.IsSemitrasparent
 linktitle: IsSemitrasparent
 articleTitle: IsSemitrasparent
 second_title: Aspose.Words for .NET
-description: TextWatermarkOptions IsSemitrasparent property. Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is true in C#.
+description: Discover the TextWatermarkOptions IsSemitransparent property—control watermark opacity easily. Enhance your designs with customizable transparency settings!
 type: docs
 weight: 50
 url: /net/aspose.words/textwatermarkoptions/issemitrasparent/

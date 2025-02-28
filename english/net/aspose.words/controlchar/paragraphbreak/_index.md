@@ -3,7 +3,7 @@ title: ControlChar.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: Aspose.Words for .NET
-description: ControlChar ParagraphBreak field. End of paragraph character x000d or r. Same as Cr in C#.
+description: Discover the ControlChar ParagraphBreak field: Easily manage paragraph breaks with the x000d character for seamless text formatting and improved readability.
 type: docs
 weight: 220
 url: /net/aspose.words/controlchar/paragraphbreak/

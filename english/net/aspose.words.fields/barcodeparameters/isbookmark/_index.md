@@ -3,7 +3,7 @@ title: BarcodeParameters.IsBookmark
 linktitle: IsBookmark
 articleTitle: IsBookmark
 second_title: Aspose.Words for .NET
-description: BarcodeParameters IsBookmark property. Whether PostalAddress is the name of a bookmark in C#.
+description: Discover the BarcodeParameters IsBookmark property! Learn how the PostalAddress can enhance your document management with efficient bookmarking solutions.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/barcodeparameters/isbookmark/

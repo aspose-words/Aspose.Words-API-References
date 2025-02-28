@@ -3,7 +3,7 @@ title: AxisScaling.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: AxisScaling Type property. Gets or sets scaling type of the axis in C#.
+description: Discover the AxisScaling Type property to easily customize your axis scaling. Enhance your data visualization with flexible settings for optimal clarity.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/axisscaling/type/

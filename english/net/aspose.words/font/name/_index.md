@@ -3,7 +3,7 @@ title: Font.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: Font Name property. Gets or sets the name of the font in C#.
+description: Discover the Font Name property to easily customize and set your font styles, enhancing your design's appeal and readability.
 type: docs
 weight: 230
 url: /net/aspose.words/font/name/

@@ -3,7 +3,7 @@ title: BookmarkEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: BookmarkEnd Accept method. Accepts a visitor in C#.
+description: Discover the BookmarkEnd Accept method to enhance visitor engagement and streamline your website's user experience. Boost your site's performance today!
 type: docs
 weight: 40
 url: /net/aspose.words/bookmarkend/accept/

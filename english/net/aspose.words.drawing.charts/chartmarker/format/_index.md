@@ -3,7 +3,7 @@ title: ChartMarker.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartMarker Format property. Provides access to fill and line formatting of this marker in C#.
+description: Discover the ChartMarker Format property for easy access to customizable fill and line styles, enhancing your data visualization with unique markers.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartmarker/format/

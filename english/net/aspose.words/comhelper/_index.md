@@ -3,7 +3,7 @@ title: ComHelper Class
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words for .NET
-description: Aspose.Words.ComHelper class. Provides methods for COM clients to load a document into Aspose.Words in C#.
+description: Unlock seamless document integration with Aspose.Words.ComHelper. Effortlessly load and manage documents for COM clients with powerful features.
 type: docs
 weight: 410
 url: /net/aspose.words/comhelper/

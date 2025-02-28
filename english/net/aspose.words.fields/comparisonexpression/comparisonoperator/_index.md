@@ -3,7 +3,7 @@ title: ComparisonExpression.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words for .NET
-description: ComparisonExpression ComparisonOperator property. Gets the comparison operator in C#.
+description: Explore the ComparisonExpression ComparisonOperator property to understand its comparison operator and enhance your coding efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonexpression/comparisonoperator/

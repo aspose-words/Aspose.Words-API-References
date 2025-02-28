@@ -3,7 +3,7 @@ title: Range.Bookmarks
 linktitle: Bookmarks
 articleTitle: Bookmarks
 second_title: Aspose.Words for .NET
-description: Range Bookmarks property. Returns a Bookmarks collection that represents all bookmarks in the range in C#.
+description: Discover the Range Bookmarks property to access a comprehensive collection of bookmarks, enhancing your document navigation and organization effortlessly.
 type: docs
 weight: 10
 url: /net/aspose.words/range/bookmarks/

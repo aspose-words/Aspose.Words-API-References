@@ -3,7 +3,7 @@ title: Source.PatentNumber
 linktitle: PatentNumber
 articleTitle: PatentNumber
 second_title: Aspose.Words for .NET
-description: Source PatentNumber property. Gets or sets the patent number of a source in C#.
+description: Effortlessly manage your patent data with the Source PatentNumber property. Easily retrieve or update patent numbers for streamlined source tracking.
 type: docs
 weight: 320
 url: /net/aspose.words.bibliography/source/patentnumber/

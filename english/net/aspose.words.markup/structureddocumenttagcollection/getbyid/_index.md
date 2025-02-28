@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagCollection GetById method. Returns the structured document tag by identifier in C#.
+description: Retrieve structured document tags effortlessly with the GetById method. Access your data quickly and enhance document management efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttagcollection/getbyid/

@@ -3,7 +3,7 @@ title: CompatibilityOptions.SuppressSpacingAtTopOfPage
 linktitle: SuppressSpacingAtTopOfPage
 articleTitle: SuppressSpacingAtTopOfPage
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions SuppressSpacingAtTopOfPage property. Ignore Minimum Line Height for First Line on Page in C#.
+description: Optimize your layout with the CompatibilityOptions SuppressSpacingAtTopOfPage property. Control line height for a seamless first line display.
 type: docs
 weight: 490
 url: /net/aspose.words.settings/compatibilityoptions/suppressspacingattopofpage/

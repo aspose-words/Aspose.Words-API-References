@@ -3,9 +3,9 @@ title: SdtListItemCollection Class
 linktitle: SdtListItemCollection
 articleTitle: SdtListItemCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.SdtListItemCollection class. Provides access to SdtListItem elements of a structured document tag in C#.
+description: Explore the Aspose.Words.Markup.SdtListItemCollection class for seamless access to SdtListItem elements, enhancing structured document management effortlessly.
 type: docs
-weight: 4580
+weight: 4590
 url: /net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class

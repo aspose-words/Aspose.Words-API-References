@@ -3,7 +3,7 @@ title: FontInfoCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words for .NET
-description: FontInfoCollection Contains method. Determines whether the collection contains a font with the given name in C#.
+description: Discover if FontInfoCollection includes a specific font by name. Easily manage and access your font collection with this essential method.
 type: docs
 weight: 60
 url: /net/aspose.words.fonts/fontinfocollection/contains/

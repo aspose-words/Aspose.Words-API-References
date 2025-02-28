@@ -3,7 +3,7 @@ title: Font.Kerning
 linktitle: Kerning
 articleTitle: Kerning
 second_title: Aspose.Words for .NET
-description: Font Kerning property. Gets or sets the font size at which kerning starts in C#.
+description: Discover the Font Kerning property: control when kerning begins for optimal text clarity and design. Enhance your typography with precision!
 type: docs
 weight: 180
 url: /net/aspose.words/font/kerning/

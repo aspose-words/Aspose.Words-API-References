@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words for .NET
-description: MarkdownSaveOptions ImagesFolderAlias property. Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string in C#.
+description: Discover the MarkdownSaveOptions ImagesFolderAlias property to easily manage image URIs in your documents. Streamline your workflow with this essential feature!
 type: docs
 weight: 80
 url: /net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/

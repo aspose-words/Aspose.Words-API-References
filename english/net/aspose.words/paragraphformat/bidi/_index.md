@@ -3,7 +3,7 @@ title: ParagraphFormat.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words for .NET
-description: ParagraphFormat Bidi property. Gets or sets whether this is a righttoleft paragraph in C#.
+description: Discover the ParagraphFormat Bidi property to easily control right-to-left text formatting for enhanced readability and improved document layout.
 type: docs
 weight: 50
 url: /net/aspose.words/paragraphformat/bidi/

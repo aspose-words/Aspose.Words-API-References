@@ -3,7 +3,7 @@ title: VariableCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: VariableCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all variable in the collection in C#.
+description: Explore the VariableCollection GetEnumerator method to easily iterate through all variables in your collection, enhancing data management and access.
 type: docs
 weight: 60
 url: /net/aspose.words/variablecollection/getenumerator/

@@ -3,7 +3,7 @@ title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: NodeCollection Count property. Gets the number of nodes in the collection in C#.
+description: Discover the NodeCollection Count property to easily access the total number of nodes in your collection, enhancing data management and efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words/nodecollection/count/

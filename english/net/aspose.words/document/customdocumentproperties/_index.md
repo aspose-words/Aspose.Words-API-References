@@ -3,7 +3,7 @@ title: Document.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words for .NET
-description: Document CustomDocumentProperties property. Returns a collection that represents all the custom document properties of the document in C#.
+description: Explore the CustomDocumentProperties property to access and manage all custom document properties efficiently, enhancing your document's functionality.
 type: docs
 weight: 80
 url: /net/aspose.words/document/customdocumentproperties/

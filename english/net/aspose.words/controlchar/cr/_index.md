@@ -3,7 +3,7 @@ title: ControlChar.Cr
 linktitle: Cr
 articleTitle: Cr
 second_title: Aspose.Words for .NET
-description: ControlChar Cr field. Carriage return character x000d or r. Same as ParagraphBreak in C#.
+description: Discover ControlChar Cr: the carriage return character (x000d or r) that enhances text formatting. Simplify your coding with our unique solutions!
 type: docs
 weight: 50
 url: /net/aspose.words/controlchar/cr/

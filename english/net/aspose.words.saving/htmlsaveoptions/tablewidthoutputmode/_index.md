@@ -3,7 +3,7 @@ title: HtmlSaveOptions.TableWidthOutputMode
 linktitle: TableWidthOutputMode
 articleTitle: TableWidthOutputMode
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions TableWidthOutputMode property. Controls how table row and cell widths are exported to HTML MHTML or EPUB. Default value is All in C#.
+description: Optimize your HTML exports with the HtmlSaveOptions TableWidthOutputMode. Control table row and cell widths for seamless MHTML and EPUB formatting.
 type: docs
 weight: 470
 url: /net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/

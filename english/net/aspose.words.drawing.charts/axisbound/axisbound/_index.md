@@ -3,7 +3,7 @@ title: AxisBound
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words for .NET
-description: AxisBound constructor. Creates a new instance indicating that axis bound should be determined automatically by a wordprocessing application in C#.
+description: Create dynamic axis bounds effortlessly with AxisBound constructor, allowing your word processing app to auto-determine optimal layouts for enhanced user experience.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/axisbound/axisbound/

@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.FieldValue
 linktitle: FieldValue
 articleTitle: FieldValue
 second_title: Aspose.Words for .NET
-description: FieldMergingArgsBase FieldValue property. Gets or sets the value of the field from the data source in C#.
+description: Discover the FieldValue property of FieldMergingArgsBase. Easily access and modify field values from your data source for enhanced data management.
 type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/

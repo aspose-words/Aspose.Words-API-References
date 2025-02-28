@@ -3,7 +3,7 @@ title: CompatibilityOptions.SpaceForUL
 linktitle: SpaceForUL
 articleTitle: SpaceForUL
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions SpaceForUL property. Add Additional Space Below Baseline For Underlined East Asian Text in C#.
+description: Enhance your East Asian text with CompatibilityOptions SpaceForUL, adding extra space below the baseline for improved readability and style.
 type: docs
 weight: 440
 url: /net/aspose.words.settings/compatibilityoptions/spaceforul/

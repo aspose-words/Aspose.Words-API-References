@@ -3,7 +3,7 @@ title: FieldFormText
 linktitle: FieldFormText
 articleTitle: FieldFormText
 second_title: Aspose.Words for .NET
-description: FieldFormText constructor. The default constructor in C#.
+description: Discover the FieldFormText constructor—your go-to solution for seamless text management in forms. Simplify your development process today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldformtext/fieldformtext/

@@ -3,7 +3,7 @@ title: ShapeBase.AspectRatioLocked
 linktitle: AspectRatioLocked
 articleTitle: AspectRatioLocked
 second_title: Aspose.Words for .NET
-description: ShapeBase AspectRatioLocked property. Specifies whether the shapes aspect ratio is locked in C#.
+description: Discover the ShapeBase AspectRatioLocked property to effortlessly maintain your shapes' aspect ratio for perfect designs. Enhance your projects today!
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/shapebase/aspectratiolocked/

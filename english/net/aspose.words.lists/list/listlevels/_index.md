@@ -3,7 +3,7 @@ title: List.ListLevels
 linktitle: ListLevels
 articleTitle: ListLevels
 second_title: Aspose.Words for .NET
-description: List ListLevels property. Gets the collection of list levels for this list in C#.
+description: Discover the ListLevels property to access and manage your list levels effortlessly, enhancing organization and clarity in your documents.
 type: docs
 weight: 70
 url: /net/aspose.words.lists/list/listlevels/

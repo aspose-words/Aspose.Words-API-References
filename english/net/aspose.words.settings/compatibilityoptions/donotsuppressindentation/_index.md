@@ -3,7 +3,7 @@ title: CompatibilityOptions.DoNotSuppressIndentation
 linktitle: DoNotSuppressIndentation
 articleTitle: DoNotSuppressIndentation
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions DoNotSuppressIndentation property. Do Not Ignore Floating Objects When Calculating Paragraph Indentation in C#.
+description: Optimize your document layout with the CompatibilityOptions DoNotSuppressIndentation property. Enhance paragraph indentation without ignoring floating objects.
 type: docs
 weight: 180
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/

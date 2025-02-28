@@ -3,7 +3,7 @@ title: VbaProject.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words for .NET
-description: VbaProject Clone method. Performs a copy of the VbaProject in C#.
+description: Effortlessly duplicate your VbaProject with the Clone method. Enhance your workflow and streamline project management today!
 type: docs
 weight: 80
 url: /net/aspose.words.vba/vbaproject/clone/

@@ -3,7 +3,7 @@ title: CheckGrammarOptions Class
 linktitle: CheckGrammarOptions
 articleTitle: CheckGrammarOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.CheckGrammarOptions class. Allows to specify various options while checking grammar of a document using AI in C#.
+description: Optimize your documents with Aspose.Words.AI.CheckGrammarOptions. Discover customizable AI grammar checks for flawless writing and enhanced clarity.
 type: docs
 weight: 50
 url: /net/aspose.words.ai/checkgrammaroptions/

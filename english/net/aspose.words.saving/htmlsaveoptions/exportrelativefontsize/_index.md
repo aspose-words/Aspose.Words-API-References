@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportRelativeFontSize
 linktitle: ExportRelativeFontSize
 articleTitle: ExportRelativeFontSize
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportRelativeFontSize property. Specifies whether font sizes should be output in relative units when saving to HTML MHTML or EPUB. Default is false in C#.
+description: Discover the HtmlSaveOptions ExportRelativeFontSize property to customize font sizes in HTML, MHTML, or EPUB formats. Enhance readability with ease!
 type: docs
 weight: 230
 url: /net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/

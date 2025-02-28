@@ -3,7 +3,7 @@ title: PersonCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: PersonCollection Count property. Gets the number of persons contained in the collection in C#.
+description: Discover the PersonCollection Count property to easily retrieve the total number of individuals in your collection for efficient data management.
 type: docs
 weight: 20
 url: /net/aspose.words.bibliography/personcollection/count/

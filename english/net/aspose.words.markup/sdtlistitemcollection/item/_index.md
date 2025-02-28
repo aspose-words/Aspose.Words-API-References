@@ -3,7 +3,7 @@ title: SdtListItemCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: SdtListItemCollection Item property. Returns a SdtListItem object given its zerobased index in the collection in C#.
+description: Access SdtListItem objects effortlessly with the SdtListItemCollection Item property. Retrieve items using their zero-based index for seamless data management.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/sdtlistitemcollection/item/

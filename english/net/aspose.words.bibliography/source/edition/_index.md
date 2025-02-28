@@ -3,7 +3,7 @@ title: Source.Edition
 linktitle: Edition
 articleTitle: Edition
 second_title: Aspose.Words for .NET
-description: Source Edition property. Gets or sets the editor of a source in C#.
+description: Manage your Source Edition property effortlessly. Easily set or change the editor for seamless content control and enhanced collaboration.
 type: docs
 weight: 200
 url: /net/aspose.words.bibliography/source/edition/

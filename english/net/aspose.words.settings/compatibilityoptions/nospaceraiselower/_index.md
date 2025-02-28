@@ -3,7 +3,7 @@ title: CompatibilityOptions.NoSpaceRaiseLower
 linktitle: NoSpaceRaiseLower
 articleTitle: NoSpaceRaiseLower
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions NoSpaceRaiseLower property. Do Not Increase Line Height for Raised/Lowered Text in C#.
+description: Discover the CompatibilityOptions NoSpaceRaiseLower property to maintain line height for raised or lowered text, ensuring a polished and professional look.
 type: docs
 weight: 360
 url: /net/aspose.words.settings/compatibilityoptions/nospaceraiselower/

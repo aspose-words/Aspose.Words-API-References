@@ -3,7 +3,7 @@ title: Shading.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words for .NET
-description: Shading ClearFormatting method. Removes shading from the object in C#.
+description: Effortlessly remove shading from your objects with our ClearFormatting method. Enhance your designs for a polished, professional look!
 type: docs
 weight: 80
 url: /net/aspose.words/shading/clearformatting/

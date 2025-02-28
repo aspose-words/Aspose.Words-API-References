@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageCompression
 linktitle: ImageCompression
 articleTitle: ImageCompression
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions ImageCompression property. Specifies compression type to be used for all images in the document in C#.
+description: Optimize your PDF with PdfSaveOptions' ImageCompression property, allowing you to choose the best compression type for vibrant, high-quality images.
 type: docs
 weight: 200
 url: /net/aspose.words.saving/pdfsaveoptions/imagecompression/

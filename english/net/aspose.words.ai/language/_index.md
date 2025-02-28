@@ -3,7 +3,7 @@ title: Language Enum
 linktitle: Language
 articleTitle: Language
 second_title: Aspose.Words for .NET
-description: Aspose.Words.AI.Language enum. Specifies the language into which the text will be translated using AI.  in C#.
+description: Discover Aspose.Words.AI.Language enum for seamless AI-driven text translation. Enhance your documents with accurate, multilingual support today!
 type: docs
 weight: 80
 url: /net/aspose.words.ai/language/

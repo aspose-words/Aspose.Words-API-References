@@ -3,7 +3,7 @@ title: TableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: TableCollection Item property. Retrieves a Table at the given index in C#.
+description: Access TableCollection items effortlessly by retrieving tables at specific indexes. Simplify your data management with our intuitive property feature!
 type: docs
 weight: 10
 url: /net/aspose.words.tables/tablecollection/item/

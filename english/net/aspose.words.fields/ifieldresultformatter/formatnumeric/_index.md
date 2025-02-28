@@ -3,7 +3,7 @@ title: IFieldResultFormatter.FormatNumeric
 linktitle: FormatNumeric
 articleTitle: FormatNumeric
 second_title: Aspose.Words for .NET
-description: IFieldResultFormatter FormatNumeric method. Called when Aspose.Words applies a numeric format switch i.e.   in C#.
+description: Discover the iFieldResultFormatter FormatNumeric method for Aspose.Words. Enhance your document formatting with powerful numeric switch capabilities!
 type: docs
 weight: 30
 url: /net/aspose.words.fields/ifieldresultformatter/formatnumeric/

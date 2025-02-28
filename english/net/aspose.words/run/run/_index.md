@@ -3,7 +3,7 @@ title: Run
 linktitle: Run
 articleTitle: Run
 second_title: Aspose.Words for .NET
-description: Run constructor. Initializes a new instance of the Run class in C#.
+description: Create and customize your Run class instance effortlessly. Unlock powerful features for streamlined performance and enhanced functionality.
 type: docs
 weight: 10
 url: /net/aspose.words/run/run/

@@ -3,7 +3,7 @@ title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
 second_title: Aspose.Words for .NET
-description: HyphenationOptions HyphenateCaps property. Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is true in C#.
+description: Discover the HyphenateCaps property in HyphenationOptions. Control hyphenation for all-caps words easily—default is set to true. Optimize your text today!
 type: docs
 weight: 40
 url: /net/aspose.words.settings/hyphenationoptions/hyphenatecaps/

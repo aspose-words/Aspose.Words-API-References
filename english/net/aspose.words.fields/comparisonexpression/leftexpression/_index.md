@@ -3,7 +3,7 @@ title: ComparisonExpression.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words for .NET
-description: ComparisonExpression LeftExpression property. Gets the left expression in C#.
+description: Discover the LeftExpression property of ComparisonExpression. Easily access and utilize the left expression for enhanced data manipulation and analysis.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonexpression/leftexpression/

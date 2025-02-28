@@ -3,7 +3,7 @@ title: ImageData.ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words for .NET
-description: ImageData ImageSize property. Gets the information about image size and resolution in C#.
+description: Discover the ImageData ImageSize property to easily access essential details about image dimensions and resolution for enhanced visual quality.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/imagedata/imagesize/

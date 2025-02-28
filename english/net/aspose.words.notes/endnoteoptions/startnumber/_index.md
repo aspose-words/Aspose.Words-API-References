@@ -3,7 +3,7 @@ title: EndnoteOptions.StartNumber
 linktitle: StartNumber
 articleTitle: StartNumber
 second_title: Aspose.Words for .NET
-description: EndnoteOptions StartNumber property. Specifies the starting number or character for the first automatically numbered endnotes in C#.
+description: Discover how the EndnoteOptions StartNumber property enhances your document by customizing the first numbered endnotes for clarity and organization.
 type: docs
 weight: 40
 url: /net/aspose.words.notes/endnoteoptions/startnumber/

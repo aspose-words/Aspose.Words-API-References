@@ -3,7 +3,7 @@ title: ChartSeries.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: ChartSeries Add method. Adds the specified X value to the chart series. If the series supports Y values and bubble sizes they will be empty for the X value in C#.
+description: Discover the ChartSeries Add method to easily integrate X values into your charts. Enhance data visualization with support for Y values and bubble sizes.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing.charts/chartseries/add/

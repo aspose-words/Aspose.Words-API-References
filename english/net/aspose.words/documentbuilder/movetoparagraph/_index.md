@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToParagraph
 linktitle: MoveToParagraph
 articleTitle: MoveToParagraph
 second_title: Aspose.Words for .NET
-description: DocumentBuilder MoveToParagraph method. Moves the cursor to a paragraph in the current section in C#.
+description: Effortlessly navigate your document with the DocumentBuilder MoveToParagraph method, enabling quick cursor movement to any paragraph in your section.
 type: docs
 weight: 600
 url: /net/aspose.words/documentbuilder/movetoparagraph/

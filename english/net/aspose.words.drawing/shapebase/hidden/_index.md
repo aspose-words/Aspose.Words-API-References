@@ -3,7 +3,7 @@ title: ShapeBase.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words for .NET
-description: ShapeBase Hidden property. Gets or sets a boolean value indicating whether the shape is visible in C#.
+description: Control shape visibility with ShapeBase's hidden property. Easily toggle between visible and hidden for enhanced design flexibility.
 type: docs
 weight: 230
 url: /net/aspose.words.drawing/shapebase/hidden/

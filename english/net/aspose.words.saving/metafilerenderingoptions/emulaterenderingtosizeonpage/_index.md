@@ -3,7 +3,7 @@ title: MetafileRenderingOptions.EmulateRenderingToSizeOnPage
 linktitle: EmulateRenderingToSizeOnPage
 articleTitle: EmulateRenderingToSizeOnPage
 second_title: Aspose.Words for .NET
-description: MetafileRenderingOptions EmulateRenderingToSizeOnPage property. Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size in C#.
+description: Discover how the EmulateRenderingToSizeOnPage property enhances metafile rendering, ensuring accurate display sizes for optimal visual results.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/

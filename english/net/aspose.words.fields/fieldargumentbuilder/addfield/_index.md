@@ -3,7 +3,7 @@ title: FieldArgumentBuilder.AddField
 linktitle: AddField
 articleTitle: AddField
 second_title: Aspose.Words for .NET
-description: FieldArgumentBuilder AddField method. Adds a field represented by a FieldBuilder to the argument in C#.
+description: Enhance your coding efficiency with the FieldArgumentBuilder's AddField method. Seamlessly integrate FieldBuilder for robust argument construction.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldargumentbuilder/addfield/

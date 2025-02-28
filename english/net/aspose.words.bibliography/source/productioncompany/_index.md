@@ -3,7 +3,7 @@ title: Source.ProductionCompany
 linktitle: ProductionCompany
 articleTitle: ProductionCompany
 second_title: Aspose.Words for .NET
-description: Source ProductionCompany property. Gets or sets the production company of a source in C#.
+description: Manage your production company effortlessly with Source ProductionCompany. Easily set or update your source's production details for seamless collaboration.
 type: docs
 weight: 340
 url: /net/aspose.words.bibliography/source/productioncompany/

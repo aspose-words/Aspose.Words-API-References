@@ -3,7 +3,7 @@ title: FieldAdvance.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
 second_title: Aspose.Words for .NET
-description: FieldAdvance VerticalPosition property. Gets or sets the number of points by which the text that follows the field should be moved vertically from the top edge of the page in C#.
+description: Discover the FieldAdvance VerticalPosition property to easily adjust text positioning on your page, enhancing layout control and readability.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldadvance/verticalposition/

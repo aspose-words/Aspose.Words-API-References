@@ -3,7 +3,7 @@ title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words for .NET
-description: FileFontSource constructor. Ctor in C#.
+description: Discover the FileFontSource constructor for seamless font integration in your projects. Enhance your design with easy-to-use coding solutions!
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/filefontsource/filefontsource/

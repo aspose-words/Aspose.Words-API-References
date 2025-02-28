@@ -3,7 +3,7 @@ title: ParagraphFormat.IsListItem
 linktitle: IsListItem
 articleTitle: IsListItem
 second_title: Aspose.Words for .NET
-description: ParagraphFormat IsListItem property. True when the paragraph is an item in a bulleted or numbered list in C#.
+description: Discover how the ParagraphFormat IsListItem property enhances your document formatting by identifying bulleted or numbered list items effortlessly.
 type: docs
 weight: 150
 url: /net/aspose.words/paragraphformat/islistitem/

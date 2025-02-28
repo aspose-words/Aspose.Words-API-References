@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.ExportAsHtml
 linktitle: ExportAsHtml
 articleTitle: ExportAsHtml
 second_title: Aspose.Words for .NET
-description: MarkdownSaveOptions ExportAsHtml property. Allows to specify the elements to be exported to Markdown as raw HTML. Default value is None in C#.
+description: Discover how the MarkdownSaveOptions ExportAsHtml property lets you customize HTML elements for seamless Markdown export. Maximize your content's versatility!
 type: docs
 weight: 20
 url: /net/aspose.words.saving/markdownsaveoptions/exportashtml/

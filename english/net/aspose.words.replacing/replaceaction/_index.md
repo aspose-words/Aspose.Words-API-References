@@ -3,9 +3,9 @@ title: ReplaceAction Enum
 linktitle: ReplaceAction
 articleTitle: ReplaceAction
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Replacing.ReplaceAction enum. Allows the user to specify what happens to the current match during a replace operation in C#.
+description: Discover the Aspose.Words.ReplaceAction enum to control match outcomes in your replace operations, enhancing document editing efficiency and precision.
 type: docs
-weight: 5230
+weight: 5240
 url: /net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration

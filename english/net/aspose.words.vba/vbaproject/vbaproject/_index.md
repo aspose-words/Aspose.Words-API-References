@@ -3,7 +3,7 @@ title: VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words for .NET
-description: VbaProject constructor. Creates a blank VbaProject in C#.
+description: Create a new VbaProject effortlessly with our constructor tool. Start your programming journey with a blank project and unleash your creativity!
 type: docs
 weight: 10
 url: /net/aspose.words.vba/vbaproject/vbaproject/

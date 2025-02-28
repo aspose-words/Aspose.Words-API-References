@@ -3,7 +3,7 @@ title: FieldSymbol.IsAnsi
 linktitle: IsAnsi
 articleTitle: IsAnsi
 second_title: Aspose.Words for .NET
-description: FieldSymbol IsAnsi property. Gets or sets whether the character code is interpreted as the value of an ANSI character in C#.
+description: Discover the FieldSymbol IsAnsi property: easily manage ANSI character codes for enhanced data handling and improved coding efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldsymbol/isansi/

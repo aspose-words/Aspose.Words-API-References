@@ -3,7 +3,7 @@ title: Border.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words for .NET
-description: Border Shadow property. Gets or sets a value indicating whether the border has a shadow in C#.
+description: Discover the Border Shadow property to enhance your design! Control shadow effects for borders and elevate your UI with stunning visuals.
 type: docs
 weight: 60
 url: /net/aspose.words/border/shadow/

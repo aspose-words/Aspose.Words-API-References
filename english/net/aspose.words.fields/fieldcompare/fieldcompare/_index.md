@@ -3,7 +3,7 @@ title: FieldCompare
 linktitle: FieldCompare
 articleTitle: FieldCompare
 second_title: Aspose.Words for .NET
-description: FieldCompare constructor. The default constructor in C#.
+description: Discover the FieldCompare default constructor for seamless data comparison. Enhance your coding efficiency with our powerful, user-friendly tool!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldcompare/fieldcompare/

@@ -3,7 +3,7 @@ title: HorizontalRuleFormat.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words for .NET
-description: HorizontalRuleFormat Alignment property. Gets or sets the alignment of the horizontal rule in C#.
+description: Discover the HorizontalRuleFormat Alignment property to easily customize the alignment of horizontal rules for enhanced design flexibility.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/horizontalruleformat/alignment/

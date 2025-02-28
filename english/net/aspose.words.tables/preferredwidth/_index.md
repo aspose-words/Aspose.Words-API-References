@@ -3,9 +3,9 @@ title: PreferredWidth Class
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.PreferredWidth class. Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell in C#.
+description: Discover the Aspose.Words.Tables.PreferredWidth class, your solution for defining optimal table and cell widths with precision and flexibility. Enhance your document layouts today!
 type: docs
-weight: 6980
+weight: 6990
 url: /net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class

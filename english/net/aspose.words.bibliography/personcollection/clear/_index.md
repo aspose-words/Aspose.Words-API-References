@@ -3,7 +3,7 @@ title: PersonCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: PersonCollection Clear method. Removes all items from the collection in C#.
+description: Effortlessly clear your PersonCollection with our Clear method, instantly removing all items for a fresh start. Simplify your data management today!
 type: docs
 weight: 50
 url: /net/aspose.words.bibliography/personcollection/clear/

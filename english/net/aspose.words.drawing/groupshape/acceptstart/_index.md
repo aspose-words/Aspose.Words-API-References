@@ -3,7 +3,7 @@ title: GroupShape.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: GroupShape AcceptStart method. Accepts a visitor for visiting the start of the GroupShape in C#.
+description: Discover the GroupShape AcceptStart method to seamlessly welcome visitors and enhance their experience from the very start of your application.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/groupshape/acceptstart/

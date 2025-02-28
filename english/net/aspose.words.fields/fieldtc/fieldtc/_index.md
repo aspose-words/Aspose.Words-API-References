@@ -3,7 +3,7 @@ title: FieldTC
 linktitle: FieldTC
 articleTitle: FieldTC
 second_title: Aspose.Words for .NET
-description: FieldTC constructor. The default constructor in C#.
+description: Discover the FieldTC constructor—your go-to solution for seamless integration and efficient project management. Unlock powerful features today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldtc/fieldtc/

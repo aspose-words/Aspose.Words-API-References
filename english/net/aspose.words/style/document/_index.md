@@ -3,7 +3,7 @@ title: Style.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: Style Document property. Gets the owner document in C#.
+description: Discover the Style Document property to easily access and manage your owner document for enhanced organization and efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words/style/document/

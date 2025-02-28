@@ -3,7 +3,7 @@ title: ImageSaveOptions.ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions ImageSize property. Gets or sets the size of a generated image in pixels in C#.
+description: Discover the ImageSize property of ImageSaveOptions to easily manage and customize image dimensions in pixels for optimal results.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/imagesaveoptions/imagesize/

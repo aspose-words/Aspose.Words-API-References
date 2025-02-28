@@ -3,7 +3,7 @@ title: Paragraph.IsInCell
 linktitle: IsInCell
 articleTitle: IsInCell
 second_title: Aspose.Words for .NET
-description: Paragraph IsInCell property. True if this paragraph is an immediate child of Cell false otherwise in C#.
+description: Discover the Paragraph IsInCell property: Easily determine if a paragraph is a direct child of a Cell, enhancing your document structure and formatting.
 type: docs
 weight: 100
 url: /net/aspose.words/paragraph/isincell/

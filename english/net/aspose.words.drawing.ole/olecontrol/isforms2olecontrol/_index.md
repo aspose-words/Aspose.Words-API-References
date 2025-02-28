@@ -3,7 +3,7 @@ title: OleControl.IsForms2OleControl
 linktitle: IsForms2OleControl
 articleTitle: IsForms2OleControl
 second_title: Aspose.Words for .NET
-description: OleControl IsForms2OleControl property. Returns true if the control is a Forms2OleControl in C#.
+description: Discover OleControl's IsForms2OleControl property, which identifies if your control is a Forms2OleControl, enhancing your development efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/

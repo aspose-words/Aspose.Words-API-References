@@ -3,7 +3,7 @@ title: ListFormat.List
 linktitle: List
 articleTitle: List
 second_title: Aspose.Words for .NET
-description: ListFormat List property. Gets or sets the list this paragraph is a member of in C#.
+description: Manage your document's structure with ListFormat. Easily get or set the list for any paragraph, enhancing organization and readability.
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listformat/list/

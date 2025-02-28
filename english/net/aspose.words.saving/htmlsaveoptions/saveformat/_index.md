@@ -3,7 +3,7 @@ title: HtmlSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can be Html Mhtml Epub Azw3 or Mobi in C#.
+description: Discover the HtmlSaveOptions SaveFormat property to easily save documents in Html, Mhtml, Epub, Azw3, or Mobi formats for versatile accessibility.
 type: docs
 weight: 450
 url: /net/aspose.words.saving/htmlsaveoptions/saveformat/

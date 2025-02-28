@@ -3,7 +3,7 @@ title: IDocumentMergerPlugin.Merge
 linktitle: Merge
 articleTitle: Merge
 second_title: Aspose.Words for .NET
-description: IDocumentMergerPlugin Merge method. Merges the given input PDF documents into a single output PDF document using specified input and output streams in C#.
+description: Effortlessly merge multiple PDF documents into one with the IDocumentMergerPlugin. Enjoy seamless integration and streamlined output for your projects.
 type: docs
 weight: 10
 url: /net/aspose.words/idocumentmergerplugin/merge/

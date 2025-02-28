@@ -3,7 +3,7 @@ title: GlowFormat Class
 linktitle: GlowFormat
 articleTitle: GlowFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.GlowFormat class. Represents the glow formatting for an object in C#.
+description: Explore Aspose.Words.Drawing.GlowFormat class to enhance your documents with stunning glow effects. Elevate your design with unique formatting options!
 type: docs
 weight: 1290
 url: /net/aspose.words.drawing/glowformat/

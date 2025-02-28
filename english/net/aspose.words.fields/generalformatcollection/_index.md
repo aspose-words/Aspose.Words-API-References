@@ -3,7 +3,7 @@ title: GeneralFormatCollection Class
 linktitle: GeneralFormatCollection
 articleTitle: GeneralFormatCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.GeneralFormatCollection class. Represents a typed collection of general formats in C#.
+description: Discover the Aspose.Words.Fields.GeneralFormatCollection class—a powerful, typed collection for managing general formats effortlessly in your documents.
 type: docs
 weight: 3050
 url: /net/aspose.words.fields/generalformatcollection/

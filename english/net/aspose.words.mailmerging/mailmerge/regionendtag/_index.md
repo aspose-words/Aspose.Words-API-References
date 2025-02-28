@@ -3,7 +3,7 @@ title: MailMerge.RegionEndTag
 linktitle: RegionEndTag
 articleTitle: RegionEndTag
 second_title: Aspose.Words for .NET
-description: MailMerge RegionEndTag property. Gets or sets a mail merge region end tag in C#.
+description: Discover the MailMerge RegionEndTag property to efficiently manage your mail merge regions. Simplify document automation with seamless tag integration.
 type: docs
 weight: 90
 url: /net/aspose.words.mailmerging/mailmerge/regionendtag/

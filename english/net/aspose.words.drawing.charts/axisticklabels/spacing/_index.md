@@ -3,7 +3,7 @@ title: AxisTickLabels.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words for .NET
-description: AxisTickLabels Spacing property. Gets or sets the interval at which the tick labels are drawn in C#.
+description: Control AxisTickLabels spacing effortlessly! Set intervals for tick labels to enhance your data visualization and improve chart clarity.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/axisticklabels/spacing/

@@ -3,7 +3,7 @@ title: Cell.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: Cell AcceptEnd method. Accepts a visitor for visiting the end of the cell in C#.
+description: Discover the Cell AcceptEnd method to seamlessly manage visitor access at cell endpoints, enhancing user experience and optimizing flow.
 type: docs
 weight: 140
 url: /net/aspose.words.tables/cell/acceptend/

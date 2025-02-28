@@ -3,7 +3,7 @@ title: TxtLoadOptions.DetectHyperlinks
 linktitle: DetectHyperlinks
 articleTitle: DetectHyperlinks
 second_title: Aspose.Words for .NET
-description: TxtLoadOptions DetectHyperlinks property. Specifies either to detect hyperlinks in text. The default value is false in C#.
+description: Discover how TxtLoadOptions' DetectHyperlinks property enhances text processing by detecting hyperlinks, improving data accuracy. Default is false.
 type: docs
 weight: 30
 url: /net/aspose.words.loading/txtloadoptions/detecthyperlinks/

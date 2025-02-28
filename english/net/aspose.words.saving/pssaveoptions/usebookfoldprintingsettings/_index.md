@@ -3,7 +3,7 @@ title: PsSaveOptions.UseBookFoldPrintingSettings
 linktitle: UseBookFoldPrintingSettings
 articleTitle: UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET
-description: PsSaveOptions UseBookFoldPrintingSettings property. Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout if it is specified via MultiplePages in C#.
+description: Discover the PsSaveOptions UseBookFoldPrintingSettings property to easily save documents in a booklet layout for enhanced printing efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/

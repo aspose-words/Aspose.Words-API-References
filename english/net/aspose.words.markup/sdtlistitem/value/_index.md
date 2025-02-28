@@ -3,7 +3,7 @@ title: SdtListItem.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words for .NET
-description: SdtListItem Value property. Gets the value of this list item in C#.
+description: Discover the SdtListItem Value property to easily access and manage list item values for enhanced data handling in your applications.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/sdtlistitem/value/

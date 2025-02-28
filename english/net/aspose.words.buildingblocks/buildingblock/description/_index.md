@@ -3,7 +3,7 @@ title: BuildingBlock.Description
 linktitle: Description
 articleTitle: Description
 second_title: Aspose.Words for .NET
-description: BuildingBlock Description property. Gets or sets the description associated with this building block in C#.
+description: Manage your BuildingBlock description effortlessly. Easily set or update descriptions for enhanced organization and clarity in your projects.
 type: docs
 weight: 40
 url: /net/aspose.words.buildingblocks/buildingblock/description/

@@ -3,7 +3,7 @@ title: ChartLegendEntry.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: ChartLegendEntry Font property. Provides access to the font formatting of this legend entry in C#.
+description: Discover the ChartLegendEntry Font property for easy access to customizable font formatting, enhancing your legend entries for better visual appeal.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartlegendentry/font/

@@ -3,7 +3,7 @@ title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
 second_title: Aspose.Words for .NET
-description: Node PreviousSibling property. Gets the node immediately preceding this node in C#.
+description: Discover the Node PreviousSibling property to easily access the node that comes before your current node, enhancing your DOM manipulation skills.
 type: docs
 weight: 70
 url: /net/aspose.words/node/previoussibling/

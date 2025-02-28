@@ -3,7 +3,7 @@ title: PdfSaveOptions.PreserveFormFields
 linktitle: PreserveFormFields
 articleTitle: PreserveFormFields
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions PreserveFormFields property. Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false in C#.
+description: Discover how PdfSaveOptions' PreserveFormFields property retains Microsoft Word form fields in PDFs or converts them to text. Enhance your document quality!
 type: docs
 weight: 280
 url: /net/aspose.words.saving/pdfsaveoptions/preserveformfields/

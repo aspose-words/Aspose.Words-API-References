@@ -3,7 +3,7 @@ title: AiModel.Create
 linktitle: Create
 articleTitle: Create
 second_title: Aspose.Words for .NET
-description: AiModel Create method. Creates a new instance of AiModel class in C#.
+description: Discover the AiModel Create method to effortlessly generate new AiModel class instances, enhancing your AI development with streamlined efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/aimodel/create/

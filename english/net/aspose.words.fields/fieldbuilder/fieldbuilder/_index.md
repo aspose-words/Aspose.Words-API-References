@@ -3,7 +3,7 @@ title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
 second_title: Aspose.Words for .NET
-description: FieldBuilder constructor. Initializes an instance of the FieldBuilder class in C#.
+description: Discover FieldBuilder: the powerful tool for effortlessly creating and managing fields in your projects. Streamline your workflow today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldbuilder/fieldbuilder/

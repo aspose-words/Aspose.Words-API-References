@@ -3,7 +3,7 @@ title: AxisBuiltInUnit Enum
 linktitle: AxisBuiltInUnit
 articleTitle: AxisBuiltInUnit
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit enum. Specifies the display units for an axis in C#.
+description: Discover the Aspose.Words.Drawing.Charts.AxisBuiltInUnit enum for customizable axis display units, enhancing your chart's clarity and effectiveness.
 type: docs
 weight: 760
 url: /net/aspose.words.drawing.charts/axisbuiltinunit/

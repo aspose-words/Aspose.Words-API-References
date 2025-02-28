@@ -3,7 +3,7 @@ title: EditableRangeEnd.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: EditableRangeEnd Id property. Specifies the identifier of the editable range in C#.
+description: Discover the EditableRangeEnd Id property to easily identify and manage your editable ranges, enhancing your document's interactivity and control.
 type: docs
 weight: 20
 url: /net/aspose.words/editablerangeend/id/

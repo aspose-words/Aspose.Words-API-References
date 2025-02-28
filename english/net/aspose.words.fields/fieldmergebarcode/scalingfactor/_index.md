@@ -3,7 +3,7 @@ title: FieldMergeBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words for .NET
-description: FieldMergeBarcode ScalingFactor property. Gets or sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are 10 1000 in C#.
+description: Discover the FieldMergeBarcode ScalingFactor property to easily adjust your barcode size in whole percentage points (10-1000) for optimal visibility.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldmergebarcode/scalingfactor/

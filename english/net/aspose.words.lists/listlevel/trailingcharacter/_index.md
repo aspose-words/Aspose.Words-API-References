@@ -3,7 +3,7 @@ title: ListLevel.TrailingCharacter
 linktitle: TrailingCharacter
 articleTitle: TrailingCharacter
 second_title: Aspose.Words for .NET
-description: ListLevel TrailingCharacter property. Returns or sets the character inserted after the number for the list level in C#.
+description: Discover the ListLevel TrailingCharacter property to customize your list formatting by setting or retrieving the character after each list number.
 type: docs
 weight: 140
 url: /net/aspose.words.lists/listlevel/trailingcharacter/

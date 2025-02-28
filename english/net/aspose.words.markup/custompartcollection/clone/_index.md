@@ -3,7 +3,7 @@ title: CustomPartCollection.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words for .NET
-description: CustomPartCollection Clone method. Makes a deep copy of this collection and its items in C#.
+description: Effortlessly clone your CustomPartCollection with our deep copy method, ensuring all items are preserved for seamless data management.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/custompartcollection/clone/

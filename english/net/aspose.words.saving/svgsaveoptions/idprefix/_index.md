@@ -3,7 +3,7 @@ title: SvgSaveOptions.IdPrefix
 linktitle: IdPrefix
 articleTitle: IdPrefix
 second_title: Aspose.Words for .NET
-description: SvgSaveOptions IdPrefix property. Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended in C#.
+description: Discover the SvgSaveOptions IdPrefix property, which customizes element IDs in your output document for better organization and clarity. Enhance your SVG files today!
 type: docs
 weight: 40
 url: /net/aspose.words.saving/svgsaveoptions/idprefix/

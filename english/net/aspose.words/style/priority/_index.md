@@ -3,7 +3,7 @@ title: Style.Priority
 linktitle: Priority
 articleTitle: Priority
 second_title: Aspose.Words for .NET
-description: Style Priority property. Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane in C#.
+description: Discover how to manage Style Priority settings to optimize style sorting in your task pane. Enhance your workflow with efficient style organization!
 type: docs
 weight: 160
 url: /net/aspose.words/style/priority/

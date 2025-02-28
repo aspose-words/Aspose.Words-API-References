@@ -3,7 +3,7 @@ title: XamlFixedSaveOptions.ResourcesFolderAlias
 linktitle: ResourcesFolderAlias
 articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words for .NET
-description: XamlFixedSaveOptions ResourcesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document. Default is null in C#.
+description: Discover how the ResourcesFolderAlias property in XamlFixedSaveOptions enhances image URI management in Xaml documents. Optimize your fixed page layouts today!
 type: docs
 weight: 40
 url: /net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolderalias/

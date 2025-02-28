@@ -3,7 +3,7 @@ title: GradientStop.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words for .NET
-description: GradientStop Transparency property. Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0 in C#.
+description: Discover the GradientStop Transparency property to easily adjust gradient fill transparency from 0% to 100%. Enhance your designs with precise control!
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/gradientstop/transparency/

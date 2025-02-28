@@ -3,7 +3,7 @@ title: WebExtensionProperty.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: WebExtensionProperty Name property. Specifies a custom property name in C#.
+description: Discover how to use the WebExtensionProperty Name to create custom property names that enhance your web extensions and improve functionality.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextensionproperty/name/

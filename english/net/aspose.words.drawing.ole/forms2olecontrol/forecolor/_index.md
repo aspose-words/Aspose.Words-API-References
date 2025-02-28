@@ -3,7 +3,7 @@ title: Forms2OleControl.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
 second_title: Aspose.Words for .NET
-description: Forms2OleControl ForeColor property. Gets or sets a foreground color of the control. The default value depends on a type of the control in C#.
+description: Discover the Forms2OleControl ForeColor property to customize your control's foreground color easily. Enhance your UI with tailored color options today!
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.ole/forms2olecontrol/forecolor/

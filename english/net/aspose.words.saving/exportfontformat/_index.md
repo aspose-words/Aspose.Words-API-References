@@ -3,9 +3,9 @@ title: ExportFontFormat Enum
 linktitle: ExportFontFormat
 articleTitle: ExportFontFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.ExportFontFormat enum. Indicates the format that is used to export fonts while rendering to HTML fixed format in C#.
+description: Discover Aspose.Words.Saving.ExportFontFormat enum for optimal font export when rendering to HTML fixed format. Enhance your document's visual quality!
 type: docs
-weight: 5600
+weight: 5610
 url: /net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration

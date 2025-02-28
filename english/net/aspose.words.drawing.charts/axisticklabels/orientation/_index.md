@@ -3,7 +3,7 @@ title: AxisTickLabels.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words for .NET
-description: AxisTickLabels Orientation property. Gets or sets the orientation of the tick label text in C#.
+description: Customize your AxisTickLabels orientation for optimal readability. Easily adjust tick label text direction to enhance your data visualization!
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/axisticklabels/orientation/

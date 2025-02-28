@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: OdsoFieldMapDataCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: Discover the OdsoFieldMapDataCollection's GetEnumerator method to effortlessly iterate through all collection items. Enhance your data handling today!
 type: docs
 weight: 60
 url: /net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/

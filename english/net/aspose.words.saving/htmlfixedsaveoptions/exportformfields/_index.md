@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.ExportFormFields
 linktitle: ExportFormFields
 articleTitle: ExportFormFields
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions ExportFormFields property. Gets or sets indication of whether form fields are exported as interactive items as input tag rather than converted to text or graphics in C#.
+description: Discover how the HtmlFixedSaveOptions ExportFormFields property enhances your document exports by keeping form fields interactive, improving user experience.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/

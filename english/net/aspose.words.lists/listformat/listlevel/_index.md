@@ -3,7 +3,7 @@ title: ListFormat.ListLevel
 linktitle: ListLevel
 articleTitle: ListLevel
 second_title: Aspose.Words for .NET
-description: ListFormat ListLevel property. Returns the list level formatting plus any formatting overrides applied to the current paragraph in C#.
+description: Discover the ListFormat ListLevel property to enhance your document's structure with customizable list formatting and paragraph overrides for better clarity.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listformat/listlevel/

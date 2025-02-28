@@ -3,7 +3,7 @@ title: ChartAxis.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words for .NET
-description: ChartAxis Title property. Provides access to the axis title properties in C#.
+description: Discover the ChartAxis Title property for easy access and customization of axis titles, enhancing your data visualization and presentation.
 type: docs
 weight: 250
 url: /net/aspose.words.drawing.charts/chartaxis/title/

@@ -3,7 +3,7 @@ title: LoadOptions.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words for .NET
-description: LoadOptions FontSettings property. Allows to specify document font settings in C#.
+description: Customize your document's font settings with LoadOptions FontSettings for enhanced readability and style. Optimize your documents effortlessly!
 type: docs
 weight: 60
 url: /net/aspose.words.loading/loadoptions/fontsettings/

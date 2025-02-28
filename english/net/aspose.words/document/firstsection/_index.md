@@ -3,7 +3,7 @@ title: Document.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
 second_title: Aspose.Words for .NET
-description: Document FirstSection property. Gets the first section in the document in C#.
+description: Retrieve the first section of your document effortlessly. Enhance your workflow with our Document FirstSection property for streamlined organization.
 type: docs
 weight: 140
 url: /net/aspose.words/document/firstsection/

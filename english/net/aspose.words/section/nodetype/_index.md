@@ -3,7 +3,7 @@ title: Section.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Section NodeType property. Returns Section in C#.
+description: Discover the Section NodeType property that efficiently returns Section data, enhancing your site's structure and performance. Unlock seamless navigation today!
 type: docs
 weight: 40
 url: /net/aspose.words/section/nodetype/

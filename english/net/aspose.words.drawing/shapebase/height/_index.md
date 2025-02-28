@@ -3,7 +3,7 @@ title: ShapeBase.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words for .NET
-description: ShapeBase Height property. Gets or sets the height of the containing block of the shape in C#.
+description: Discover the ShapeBase Height property to easily adjust your shape's container height, enhancing design flexibility and precision in your projects.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing/shapebase/height/

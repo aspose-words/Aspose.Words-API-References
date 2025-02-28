@@ -3,7 +3,7 @@ title: GeneralFormatCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: GeneralFormatCollection GetEnumerator method. Returns an enumerator object in C#.
+description: Discover the GeneralFormatCollection GetEnumerator method to easily access and iterate through your data collection with efficiency and precision.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/generalformatcollection/getenumerator/

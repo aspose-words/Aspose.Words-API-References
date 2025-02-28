@@ -3,7 +3,7 @@ title: IFieldUserPromptRespondent Interface
 linktitle: IFieldUserPromptRespondent
 articleTitle: IFieldUserPromptRespondent
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IFieldUserPromptRespondent interface. Represents the respondent to user prompts during field update in C#.
+description: Discover the Aspose.Words.Fields.IFieldUserPromptRespondent interface, designed to enhance user interaction and streamline field updates seamlessly.
 type: docs
 weight: 3140
 url: /net/aspose.words.fields/ifielduserpromptrespondent/

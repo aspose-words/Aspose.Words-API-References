@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails.HashAlgorithm
 linktitle: HashAlgorithm
 articleTitle: HashAlgorithm
 second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureDetails HashAlgorithm property. Gets or sets the hash algorithm in C#.
+description: Discover the PdfDigitalSignatureDetails HashAlgorithm property—efficiently manage and customize your hash algorithms for enhanced digital security.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/

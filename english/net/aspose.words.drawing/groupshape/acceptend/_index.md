@@ -3,7 +3,7 @@ title: GroupShape.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: GroupShape AcceptEnd method. Accepts a visitor for visiting the end of the GroupShape in C#.
+description: Discover the GroupShape AcceptEnd method: seamlessly manage visitor interactions and enhance your application’s user experience with this powerful feature.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/groupshape/acceptend/

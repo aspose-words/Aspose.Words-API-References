@@ -3,7 +3,7 @@ title: GlossaryDocument.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: GlossaryDocument Accept method. Accepts a visitor in C#.
+description: Discover the GlossaryDocument Accept method that enhances user experience by efficiently managing visitor interactions. Learn more now!
 type: docs
 weight: 60
 url: /net/aspose.words.buildingblocks/glossarydocument/accept/

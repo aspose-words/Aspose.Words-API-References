@@ -3,7 +3,7 @@ title: BookmarkStart.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: BookmarkStart Name property. Gets or sets the bookmark name in C#.
+description: Discover the BookmarkStart Name property to easily manage and customize your bookmarks. Enhance your navigation with this essential feature!
 type: docs
 weight: 30
 url: /net/aspose.words/bookmarkstart/name/

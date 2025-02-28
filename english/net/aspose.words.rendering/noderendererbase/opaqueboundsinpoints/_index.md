@@ -3,7 +3,7 @@ title: NodeRendererBase.OpaqueBoundsInPoints
 linktitle: OpaqueBoundsInPoints
 articleTitle: OpaqueBoundsInPoints
 second_title: Aspose.Words for .NET
-description: NodeRendererBase OpaqueBoundsInPoints property. Gets the opaque bounds of the shape in points in C#.
+description: Discover the NodeRendererBase OpaqueBoundsInPoints property to easily access shape boundaries in points, enhancing your design precision and efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/

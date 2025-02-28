@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontsFolderAlias
 linktitle: FontsFolderAlias
 articleTitle: FontsFolderAlias
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions FontsFolderAlias property. Specifies the name of the folder used to construct font URIs written into an HTML document. Default is an empty string in C#.
+description: Discover the HtmlSaveOptions FontsFolderAlias property to customize font URIs in your HTML documents. Enhance your web design with ease!
 type: docs
 weight: 320
 url: /net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/

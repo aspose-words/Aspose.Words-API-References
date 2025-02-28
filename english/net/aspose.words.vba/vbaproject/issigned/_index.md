@@ -3,7 +3,7 @@ title: VbaProject.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words for .NET
-description: VbaProject IsSigned property. Shows whether the VbaProject is signed or not in C#.
+description: Discover the VbaProject IsSigned property to easily verify project signatures and enhance your code security. Ensure your VBA projects are trusted!
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbaproject/issigned/

@@ -3,7 +3,7 @@ title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
 second_title: Aspose.Words for .NET
-description: GroupShape constructor. Creates a new group shape in C#.
+description: Design stunning group shapes effortlessly with GroupShape constructor. Enhance your projects with customizable, user-friendly tools for unique creations.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/groupshape/groupshape/

@@ -3,7 +3,7 @@ title: CleanupOptions.DuplicateStyle
 linktitle: DuplicateStyle
 articleTitle: DuplicateStyle
 second_title: Aspose.Words for .NET
-description: CleanupOptions DuplicateStyle property. Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is false in C#.
+description: Optimize your documents with CleanupOptions DuplicateStyle property—easily remove duplicate styles for cleaner, more efficient formatting. Default is false.
 type: docs
 weight: 20
 url: /net/aspose.words/cleanupoptions/duplicatestyle/

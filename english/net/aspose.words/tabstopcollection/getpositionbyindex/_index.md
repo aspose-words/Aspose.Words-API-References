@@ -3,7 +3,7 @@ title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
 second_title: Aspose.Words for .NET
-description: TabStopCollection GetPositionByIndex method. Gets the position in points of the tab stop at the specified index in C#.
+description: Discover the TabStopCollection GetPositionByIndex method to easily find tab stop positions in points by index. Optimize your layout effortlessly!
 type: docs
 weight: 100
 url: /net/aspose.words/tabstopcollection/getpositionbyindex/

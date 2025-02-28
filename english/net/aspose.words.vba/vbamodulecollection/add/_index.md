@@ -3,7 +3,7 @@ title: VbaModuleCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: VbaModuleCollection Add method. Adds a module to the collection in C#.
+description: Effortlessly enhance your VBA projects with the VbaModuleCollection Add method, allowing seamless addition of modules for improved functionality.
 type: docs
 weight: 30
 url: /net/aspose.words.vba/vbamodulecollection/add/

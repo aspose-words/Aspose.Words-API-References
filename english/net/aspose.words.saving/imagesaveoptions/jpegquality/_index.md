@@ -3,7 +3,7 @@ title: ImageSaveOptions.JpegQuality
 linktitle: JpegQuality
 articleTitle: JpegQuality
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions JpegQuality property. Gets or sets a value determining the quality of the generated JPEG images in C#.
+description: Adjust the JpegQuality property in ImageSaveOptions to optimize JPEG image quality for stunning visuals and improved performance. Perfect for developers!
 type: docs
 weight: 80
 url: /net/aspose.words.saving/imagesaveoptions/jpegquality/

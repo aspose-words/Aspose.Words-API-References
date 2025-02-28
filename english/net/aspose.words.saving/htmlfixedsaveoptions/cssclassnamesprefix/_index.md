@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.CssClassNamesPrefix
 linktitle: CssClassNamesPrefix
 articleTitle: CssClassNamesPrefix
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions CssClassNamesPrefix property. Specifies prefix which is added to all class names in style.css file. Default value is aw in C#.
+description: Discover how the HtmlFixedSaveOptions CssClassNamesPrefix property enhances your styling by adding a customizable prefix to all class names in your style.css.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/

@@ -3,7 +3,7 @@ title: AxisBound.ValueAsDate
 linktitle: ValueAsDate
 articleTitle: ValueAsDate
 second_title: Aspose.Words for .NET
-description: AxisBound ValueAsDate property. Returns value of axis bound represented as datetime in C#.
+description: Discover the AxisBound ValueAsDate property, which efficiently returns axis-bound values as datetime for enhanced data visualization and analysis.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisbound/valueasdate/

@@ -3,7 +3,7 @@ title: CustomPart.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words for .NET
-description: CustomPart ContentType property. Specifies the content type of this custom part in C#.
+description: Discover how the CustomPart ContentType property defines your custom part's content type, enhancing functionality and user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/custompart/contenttype/

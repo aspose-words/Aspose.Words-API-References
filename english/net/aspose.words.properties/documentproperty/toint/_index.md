@@ -3,7 +3,7 @@ title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
 second_title: Aspose.Words for .NET
-description: DocumentProperty ToInt method. Returns the property value as integer in C#.
+description: Convert DocumentProperty values to integers effortlessly with the ToInt method. Unlock seamless data handling for your applications!
 type: docs
 weight: 100
 url: /net/aspose.words.properties/documentproperty/toint/

@@ -3,7 +3,7 @@ title: Chart.Axes
 linktitle: Axes
 articleTitle: Axes
 second_title: Aspose.Words for .NET
-description: Chart Axes property. Gets a collection of all axes of this chart in C#.
+description: Discover the Chart Axes property to access all chart axes effortlessly. Enhance your data visualization with comprehensive axis management.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chart/axes/

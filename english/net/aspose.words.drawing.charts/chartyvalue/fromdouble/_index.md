@@ -3,7 +3,7 @@ title: ChartYValue.FromDouble
 linktitle: FromDouble
 articleTitle: FromDouble
 second_title: Aspose.Words for .NET
-description: ChartYValue FromDouble method. Creates a ChartYValue instance of the Double type in C#.
+description: Discover the ChartYValue FromDouble method to effortlessly create Double type ChartYValue instances for enhanced data visualization.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartyvalue/fromdouble/

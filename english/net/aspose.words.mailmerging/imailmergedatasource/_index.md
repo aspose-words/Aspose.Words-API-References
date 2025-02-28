@@ -3,9 +3,9 @@ title: IMailMergeDataSource Interface
 linktitle: IMailMergeDataSource
 articleTitle: IMailMergeDataSource
 second_title: Aspose.Words for .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource interface. Implement this interface to allow mail merge from a custom data source such as a list of objects. Masterdetail data is also supported in C#.
+description: Unlock powerful mail merging with Aspose.Words.MailMerging.IMailMergeDataSource. Effortlessly connect custom data sources for seamless document automation.
 type: docs
-weight: 4360
+weight: 4370
 url: /net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface

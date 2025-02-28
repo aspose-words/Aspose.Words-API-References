@@ -3,7 +3,7 @@ title: SdtListItem
 linktitle: SdtListItem
 articleTitle: SdtListItem
 second_title: Aspose.Words for .NET
-description: SdtListItem constructor. Initializes a new instance of this class in C#.
+description: Discover the SdtListItem constructor: effortlessly create new instances of this powerful class for enhanced data management and functionality.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/sdtlistitem/sdtlistitem/

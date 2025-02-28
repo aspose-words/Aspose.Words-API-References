@@ -3,7 +3,7 @@ title: Comment.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: Comment AcceptEnd method. Accepts a visitor for visiting the end of the comment in C#.
+description: Learn how the AcceptEnd method enhances user experience by efficiently managing comment visits. Boost engagement with seamless visitor acceptance!
 type: docs
 weight: 140
 url: /net/aspose.words/comment/acceptend/

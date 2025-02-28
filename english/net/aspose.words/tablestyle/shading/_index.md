@@ -3,7 +3,7 @@ title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words for .NET
-description: TableStyle Shading property. Gets a Shading object that refers to the shading formatting for table cells in C#.
+description: Discover the TableStyle Shading property to enhance your table cells with customizable shading formatting for a polished, professional look.
 type: docs
 weight: 130
 url: /net/aspose.words/tablestyle/shading/

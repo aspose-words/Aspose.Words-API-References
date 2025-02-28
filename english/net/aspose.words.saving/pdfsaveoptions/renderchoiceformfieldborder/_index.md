@@ -3,7 +3,7 @@ title: PdfSaveOptions.RenderChoiceFormFieldBorder
 linktitle: RenderChoiceFormFieldBorder
 articleTitle: RenderChoiceFormFieldBorder
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions RenderChoiceFormFieldBorder property. Specifies whether to render PDF choice form field border in C#.
+description: Discover how the PdfSaveOptions RenderChoiceFormFieldBorder property enhances PDF form design by controlling choice field borders for better user experience.
 type: docs
 weight: 290
 url: /net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/

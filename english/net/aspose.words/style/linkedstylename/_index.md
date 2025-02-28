@@ -3,7 +3,7 @@ title: Style.LinkedStyleName
 linktitle: LinkedStyleName
 articleTitle: LinkedStyleName
 second_title: Aspose.Words for .NET
-description: Style LinkedStyleName property. Gets/sets the name of the Style linked to this one. Returns empty string if no styles are linked in C#.
+description: Discover how to style the LinkedStyleName property, easily manage linked styles, and enhance your design workflow with seamless integration.
 type: docs
 weight: 90
 url: /net/aspose.words/style/linkedstylename/

@@ -3,7 +3,7 @@ title: FieldIncludeText Class
 linktitle: FieldIncludeText
 articleTitle: FieldIncludeText
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldIncludeText class. Implements the INCLUDETEXT field in C#.
+description: Discover the Aspose.Words.Fields.FieldIncludeText class for seamless document integration. Enhance your workflow with efficient INCLUDETEXT field implementation.
 type: docs
 weight: 2450
 url: /net/aspose.words.fields/fieldincludetext/

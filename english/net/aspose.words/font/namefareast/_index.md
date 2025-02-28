@@ -3,7 +3,7 @@ title: Font.NameFarEast
 linktitle: NameFarEast
 articleTitle: NameFarEast
 second_title: Aspose.Words for .NET
-description: Font NameFarEast property. Returns or sets an East Asian font name in C#.
+description: Discover the Font NameFarEast property to easily customize and set East Asian font names for enhanced typography in your projects.
 type: docs
 weight: 260
 url: /net/aspose.words/font/namefareast/

@@ -3,7 +3,7 @@ title: IAiModelText.Translate
 linktitle: Translate
 articleTitle: Translate
 second_title: Aspose.Words for .NET
-description: IAiModelText Translate method. Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating in C#.
+description: Effortlessly translate documents with our IAiModelText Translate method. Harness AI for accurate, fast translations in your desired language.
 type: docs
 weight: 30
 url: /net/aspose.words.ai/iaimodeltext/translate/

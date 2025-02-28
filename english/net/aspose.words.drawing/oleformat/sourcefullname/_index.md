@@ -3,7 +3,7 @@ title: OleFormat.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words for .NET
-description: OleFormat SourceFullName property. Gets or sets the path and name of the source file for the linked OLE object in C#.
+description: Discover the OleFormat SourceFullName property: easily manage the path and name of your linked OLE object's source file for seamless integration.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/oleformat/sourcefullname/

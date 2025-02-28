@@ -3,7 +3,7 @@ title: PageSetup.HeadingLevelForChapter
 linktitle: HeadingLevelForChapter
 articleTitle: HeadingLevelForChapter
 second_title: Aspose.Words for .NET
-description: PageSetup HeadingLevelForChapter property. Gets or sets the heading level style that is applied to the chapter titles in the document in C#.
+description: Discover the PageSetup HeadingLevelForChapter property to easily customize chapter title styles in your document for enhanced readability and professionalism.
 type: docs
 weight: 180
 url: /net/aspose.words/pagesetup/headinglevelforchapter/

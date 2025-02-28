@@ -3,7 +3,7 @@ title: ReportBuilderOptions
 linktitle: ReportBuilderOptions
 articleTitle: ReportBuilderOptions
 second_title: Aspose.Words for .NET
-description: ReportBuilderOptions constructor. The default constructor in C#.
+description: Discover the ReportBuilderOptions constructor for seamless report generation. Unlock default settings to enhance your data reporting experience!
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/reportbuilderoptions/reportbuilderoptions/

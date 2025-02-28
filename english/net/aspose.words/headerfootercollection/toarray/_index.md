@@ -3,7 +3,7 @@ title: HeaderFooterCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words for .NET
-description: HeaderFooterCollection ToArray method. Copies all HeaderFooters from the collection to a new array of HeaderFooters in C#.
+description: Effortlessly convert your HeaderFooter collection into a new array with the ToArray method. Streamline your data management today!
 type: docs
 weight: 30
 url: /net/aspose.words/headerfootercollection/toarray/

@@ -3,7 +3,7 @@ title: PrinterSettingsContainer.PaperSizes
 linktitle: PaperSizes
 articleTitle: PaperSizes
 second_title: Aspose.Words for .NET
-description: PrinterSettingsContainer PaperSizes property. See PaperSizes in C#.
+description: Discover the PrinterSettingsContainer's PaperSizes property for easy customization of print layouts. Optimize your printing experience today!
 type: docs
 weight: 30
 url: /net/aspose.words.rendering/printersettingscontainer/papersizes/

@@ -3,7 +3,7 @@ title: Chart.DataTable
 linktitle: DataTable
 articleTitle: DataTable
 second_title: Aspose.Words for .NET
-description: Chart DataTable property. Provides access to properties of a data table of this chart. The data table can be shown using the Show property in C#.
+description: Access and customize your chart's DataTable properties effortlessly. Enhance data visualization with the Show property for clear insights.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chart/datatable/

@@ -3,7 +3,7 @@ title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
 second_title: Aspose.Words for .NET
-description: FieldInfo NewValue property. Gets or sets an optional value that updates the property in C#.
+description: Discover the FieldInfo NewValue property: easily manage optional values to enhance your data updates and streamline your coding experience.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldinfo/newvalue/

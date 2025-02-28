@@ -3,7 +3,7 @@ title: TextBox.InternalMarginBottom
 linktitle: InternalMarginBottom
 articleTitle: InternalMarginBottom
 second_title: Aspose.Words for .NET
-description: TextBox InternalMarginBottom property. Specifies the inner bottom margin in points for a shape in C#.
+description: Discover the TextBox InternalMarginBottom property to customize your shape's inner bottom margin in points for enhanced design precision.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/textbox/internalmarginbottom/

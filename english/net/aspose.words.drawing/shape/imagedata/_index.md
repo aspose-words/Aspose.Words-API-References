@@ -3,7 +3,7 @@ title: Shape.ImageData
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words for .NET
-description: Shape ImageData property. Provides access to the image of the shape. Returns null if the shape cannot have an image in C#.
+description: Access and manage shape images effortlessly with the Shape ImageData property. Get instant results or null if not applicable. Enhance your design workflow!
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/shape/imagedata/

@@ -3,7 +3,7 @@ title: ControlChar.Cell
 linktitle: Cell
 articleTitle: Cell
 second_title: Aspose.Words for .NET
-description: ControlChar Cell field. End of a table cell or end of a table row character x0007 or a in C#.
+description: Discover ControlChar Cell field: the key to defining table cell and row endings with character x0007. Enhance your data organization effortlessly!
 type: docs
 weight: 10
 url: /net/aspose.words/controlchar/cell/

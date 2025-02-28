@@ -3,7 +3,7 @@ title: KnownTypeSet.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: KnownTypeSet GetEnumerator method. Returns An IEnumerator object to iterate over items of the set in C#.
+description: Discover the KnownTypeSet GetEnumerator method to easily iterate over set items with an efficient IEnumerator object. Enhance your coding experience today!
 type: docs
 weight: 40
 url: /net/aspose.words.reporting/knowntypeset/getenumerator/

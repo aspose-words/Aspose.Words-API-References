@@ -3,7 +3,7 @@ title: DocumentBase.PageColor
 linktitle: PageColor
 articleTitle: PageColor
 second_title: Aspose.Words for .NET
-description: DocumentBase PageColor property. Gets or sets the page color of the document. This property is a simpler version of BackgroundShape in C#.
+description: Discover the DocumentBase PageColor property to easily customize your document's page color. Simplify design with this user-friendly feature!
 type: docs
 weight: 70
 url: /net/aspose.words/documentbase/pagecolor/

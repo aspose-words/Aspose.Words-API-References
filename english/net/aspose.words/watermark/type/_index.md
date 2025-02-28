@@ -3,7 +3,7 @@ title: Watermark.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: Watermark Type property. Gets the watermark type in C#.
+description: Discover the Watermark Type property to enhance your design with customizable watermarks for branding and protection. Elevate your visuals today!
 type: docs
 weight: 10
 url: /net/aspose.words/watermark/type/

@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.OddRowBanding
 linktitle: OddRowBanding
 articleTitle: OddRowBanding
 second_title: Aspose.Words for .NET
-description: ConditionalStyleCollection OddRowBanding property. Gets the odd row banding style in C#.
+description: Discover the ConditionalStyleCollection OddRowBanding property to enhance your table's design with stylish odd row banding for better readability.
 type: docs
 weight: 120
 url: /net/aspose.words/conditionalstylecollection/oddrowbanding/

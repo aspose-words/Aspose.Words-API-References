@@ -3,7 +3,7 @@ title: BuildVersionInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words for .NET
-description: BuildVersionInfo Version property. Gets the product version in C#.
+description: Discover the BuildVersionInfo Version property to easily access and manage your product version for enhanced software performance and reliability.
 type: docs
 weight: 20
 url: /net/aspose.words/buildversioninfo/version/

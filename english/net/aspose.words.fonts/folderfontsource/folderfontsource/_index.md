@@ -3,7 +3,7 @@ title: FolderFontSource
 linktitle: FolderFontSource
 articleTitle: FolderFontSource
 second_title: Aspose.Words for .NET
-description: FolderFontSource constructor. Ctor in C#.
+description: Discover the FolderFontSource constructor for seamless font management. Enhance your web projects with efficient font sourcing today!
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/folderfontsource/folderfontsource/

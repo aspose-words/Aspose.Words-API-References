@@ -3,7 +3,7 @@ title: FieldBibliography.FilterLanguageId
 linktitle: FilterLanguageId
 articleTitle: FilterLanguageId
 second_title: Aspose.Words for .NET
-description: FieldBibliography FilterLanguageId property. Gets or sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language in C#.
+description: Discover how the FieldBibliography FilterLanguageId property enhances your bibliographic data management by filtering sources by language for precise results.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldbibliography/filterlanguageid/

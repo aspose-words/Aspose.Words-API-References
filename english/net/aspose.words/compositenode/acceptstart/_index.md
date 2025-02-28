@@ -3,7 +3,7 @@ title: CompositeNode.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: CompositeNode AcceptStart method. When implemented in a derived class calls the VisitXXXStart method of the specified document visitor in C#.
+description: Discover how the CompositeNode AcceptStart method enhances document processing by invoking the VisitXXXStart method for seamless visitor integration.
 type: docs
 weight: 70
 url: /net/aspose.words/compositenode/acceptstart/

@@ -3,7 +3,7 @@ title: PageSetup.EndnoteOptions
 linktitle: EndnoteOptions
 articleTitle: EndnoteOptions
 second_title: Aspose.Words for .NET
-description: PageSetup EndnoteOptions property. Provides options that control numbering and positioning of endnotes in this section in C#.
+description: Discover the PageSetup EndnoteOptions property to easily customize endnote numbering and positioning for enhanced document formatting and clarity.
 type: docs
 weight: 120
 url: /net/aspose.words/pagesetup/endnoteoptions/

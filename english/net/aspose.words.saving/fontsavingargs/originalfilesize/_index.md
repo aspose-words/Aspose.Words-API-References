@@ -3,7 +3,7 @@ title: FontSavingArgs.OriginalFileSize
 linktitle: OriginalFileSize
 articleTitle: OriginalFileSize
 second_title: Aspose.Words for .NET
-description: FontSavingArgs OriginalFileSize property. Gets the original font file size in C#.
+description: Discover the FontSavingArgs OriginalFileSize property to efficiently retrieve the original font file size, enhancing your font management experience.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/fontsavingargs/originalfilesize/

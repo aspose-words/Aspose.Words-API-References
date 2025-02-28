@@ -3,7 +3,7 @@ title: Table.DistanceBottom
 linktitle: DistanceBottom
 articleTitle: DistanceBottom
 second_title: Aspose.Words for .NET
-description: Table DistanceBottom property. Gets or sets distance between table bottom and the surrounding text in points in C#.
+description: Adjust the Table DistanceBottom property to control spacing between your table's bottom and surrounding text, enhancing layout and readability.
 type: docs
 weight: 120
 url: /net/aspose.words.tables/table/distancebottom/

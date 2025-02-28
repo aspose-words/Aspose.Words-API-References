@@ -3,7 +3,7 @@ title: ChartDataPoint.InvertIfNegative
 linktitle: InvertIfNegative
 articleTitle: InvertIfNegative
 second_title: Aspose.Words for .NET
-description: ChartDataPoint InvertIfNegative property. Specifies whether the parent element shall inverts its colors if the value is negative in C#.
+description: Discover how the ChartDataPoint InvertIfNegative property enhances data visualization by inverting colors for negative values, improving clarity and impact.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartdatapoint/invertifnegative/

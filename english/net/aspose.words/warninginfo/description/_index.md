@@ -3,7 +3,7 @@ title: WarningInfo.Description
 linktitle: Description
 articleTitle: Description
 second_title: Aspose.Words for .NET
-description: WarningInfo Description property. Returns the description of the warning in C#.
+description: Discover detailed insights with the WarningInfo Description property, providing essential information about warnings for enhanced decision-making.
 type: docs
 weight: 10
 url: /net/aspose.words/warninginfo/description/

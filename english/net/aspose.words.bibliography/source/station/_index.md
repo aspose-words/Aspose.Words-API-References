@@ -3,7 +3,7 @@ title: Source.Station
 linktitle: Station
 articleTitle: Station
 second_title: Aspose.Words for .NET
-description: Source Station property. Gets or sets the station of a source in C#.
+description: Manage your Source Station property effortlessly. Easily set or retrieve your source station for seamless data integration and enhanced efficiency.
 type: docs
 weight: 440
 url: /net/aspose.words.bibliography/source/station/

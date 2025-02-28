@@ -3,9 +3,9 @@ title: WebExtensionReferenceCollection Class
 linktitle: WebExtensionReferenceCollection
 articleTitle: WebExtensionReferenceCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection class. Specifies a list of web extension references in C#.
+description: Discover the Aspose.Words.WebExtensionReferenceCollection class, your go-to solution for managing web extension references efficiently and seamlessly.
 type: docs
-weight: 7500
+weight: 7510
 url: /net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class

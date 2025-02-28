@@ -3,7 +3,7 @@ title: Font.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words for .NET
-description: Font Italic property. True if the font is formatted as italic in C#.
+description: Discover the Font Italic property! Easily format text in italics to enhance readability and style in your designs. Boost your typography today!
 type: docs
 weight: 160
 url: /net/aspose.words/font/italic/

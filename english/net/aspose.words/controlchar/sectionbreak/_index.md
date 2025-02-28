@@ -3,7 +3,7 @@ title: ControlChar.SectionBreak
 linktitle: SectionBreak
 articleTitle: SectionBreak
 second_title: Aspose.Words for .NET
-description: ControlChar SectionBreak field. End of section character x000c or f. Note it has the same value as PageBreak in C#.
+description: Discover the ControlChar SectionBreak field: efficiently manage document sections with the x000c character, enhancing formatting and readability.
 type: docs
 weight: 240
 url: /net/aspose.words/controlchar/sectionbreak/

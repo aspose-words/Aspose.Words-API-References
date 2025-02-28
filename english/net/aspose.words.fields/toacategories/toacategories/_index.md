@@ -3,7 +3,7 @@ title: ToaCategories
 linktitle: ToaCategories
 articleTitle: ToaCategories
 second_title: Aspose.Words for .NET
-description: ToaCategories constructor. The default constructor in C#.
+description: Discover the ToaCategories constructor—your go-to solution for efficient category management with seamless integration and customizable features.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/toacategories/toacategories/

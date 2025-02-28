@@ -3,7 +3,7 @@ title: Table.HorizontalAnchor
 linktitle: HorizontalAnchor
 articleTitle: HorizontalAnchor
 second_title: Aspose.Words for .NET
-description: Table HorizontalAnchor property. Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column in C#.
+description: Discover the Table HorizontalAnchor property to optimize floating table positioning. Easily customize horizontal alignment for enhanced layout control.
 type: docs
 weight: 170
 url: /net/aspose.words.tables/table/horizontalanchor/

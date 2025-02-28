@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreTextboxes
 linktitle: IgnoreTextboxes
 articleTitle: IgnoreTextboxes
 second_title: Aspose.Words for .NET
-description: CompareOptions IgnoreTextboxes property. Specifies whether to compare differences in the data contained within text boxes in C#.
+description: Discover how the CompareOptions IgnoreTextboxes property enhances data comparison by excluding text box differences for more accurate results.
 type: docs
 weight: 120
 url: /net/aspose.words.comparing/compareoptions/ignoretextboxes/

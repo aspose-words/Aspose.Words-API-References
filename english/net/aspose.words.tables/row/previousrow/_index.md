@@ -3,7 +3,7 @@ title: Row.PreviousRow
 linktitle: PreviousRow
 articleTitle: PreviousRow
 second_title: Aspose.Words for .NET
-description: Row PreviousRow property. Gets the previous Row node in C#.
+description: Access the PreviousRow property to easily retrieve the prior Row node, enhancing your data navigation and streamlining your coding workflow.
 type: docs
 weight: 100
 url: /net/aspose.words.tables/row/previousrow/

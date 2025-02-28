@@ -3,7 +3,7 @@ title: Source.YearAccessed
 linktitle: YearAccessed
 articleTitle: YearAccessed
 second_title: Aspose.Words for .NET
-description: Source YearAccessed property. Gets or sets the year accessed of a source in C#.
+description: Manage your Source YearAccessed property easily. Get or set the accessed year for accurate citations and streamlined research management.
 type: docs
 weight: 540
 url: /net/aspose.words.bibliography/source/yearaccessed/

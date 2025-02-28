@@ -3,7 +3,7 @@ title: FieldToa.UseHeading
 linktitle: UseHeading
 articleTitle: UseHeading
 second_title: Aspose.Words for .NET
-description: FieldToa UseHeading property. Gets or sets whether to include the category heading for the entries in a table of authorities in C#.
+description: Discover how the FieldToa UseHeading property enhances your table of authorities by adding category headings for better organization and clarity.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldtoa/useheading/

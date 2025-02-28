@@ -3,7 +3,7 @@ title: Forms2OleControl.Caption
 linktitle: Caption
 articleTitle: Caption
 second_title: Aspose.Words for .NET
-description: Forms2OleControl Caption property. Gets or sets a Caption property of the control. Default value is an empty string in C#.
+description: Discover the Forms2OleControl Caption property to easily customize your control's title. Enhance user experience with this simple, effective feature.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrol/caption/

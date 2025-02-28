@@ -3,7 +3,7 @@ title: VbaModule.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: VbaModule Type property. Specifies whether the module is a procedural module document module class module or designer module in C#.
+description: Discover the VbaModule Type property: define your modules as procedural, document, class, or designer for enhanced functionality and organization.
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbamodule/type/

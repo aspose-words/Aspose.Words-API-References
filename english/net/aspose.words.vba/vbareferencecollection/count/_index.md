@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: VbaReferenceCollection Count property. Returns the number of VBA references in the collection in C#.
+description: Discover the VBA Reference Collection Count property to easily retrieve and manage the total number of VBA references for efficient coding.
 type: docs
 weight: 10
 url: /net/aspose.words.vba/vbareferencecollection/count/

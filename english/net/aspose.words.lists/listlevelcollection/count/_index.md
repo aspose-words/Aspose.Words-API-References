@@ -3,7 +3,7 @@ title: ListLevelCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: ListLevelCollection Count property. Gets the number of levels in this list in C#.
+description: Discover the ListLevelCollection Count property to easily access the total number of levels in your list, enhancing data management and organization.
 type: docs
 weight: 10
 url: /net/aspose.words.lists/listlevelcollection/count/

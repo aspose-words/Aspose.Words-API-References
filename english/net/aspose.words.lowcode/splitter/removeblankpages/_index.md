@@ -3,7 +3,7 @@ title: Splitter.RemoveBlankPages
 linktitle: RemoveBlankPages
 articleTitle: RemoveBlankPages
 second_title: Aspose.Words for .NET
-description: Splitter RemoveBlankPages method. Removes empty pages from the document and saves the output. Returns a list of page numbers that were removed in C#.
+description: Effortlessly eliminate empty pages from your documents with the Splitter RemoveBlankPages method. Save time and enhance your workflow today!
 type: docs
 weight: 20
 url: /net/aspose.words.lowcode/splitter/removeblankpages/

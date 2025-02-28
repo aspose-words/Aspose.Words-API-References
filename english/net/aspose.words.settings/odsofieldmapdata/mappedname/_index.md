@@ -3,7 +3,7 @@ title: OdsoFieldMapData.MappedName
 linktitle: MappedName
 articleTitle: MappedName
 second_title: Aspose.Words for .NET
-description: OdsoFieldMapData MappedName property. Specifies the predefined merge field name which shall be mapped to the column number specified by the Column property within this field mapping. The default value is an empty string in C#.
+description: Discover the OdsoFieldMapData MappedName property, which links merge field names to specified columns, enhancing data mapping efficiency and accuracy.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/odsofieldmapdata/mappedname/

@@ -3,7 +3,7 @@ title: TableStyle.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 articleTitle: AllowBreakAcrossPages
 second_title: Aspose.Words for .NET
-description: TableStyle AllowBreakAcrossPages property. Gets or sets a flag indicating whether text in a table row is allowed to split across a page break in C#.
+description: Discover the TableStyle AllowBreakAcrossPages property: control text flow in tables and enhance your document's readability across pages.
 type: docs
 weight: 20
 url: /net/aspose.words/tablestyle/allowbreakacrosspages/

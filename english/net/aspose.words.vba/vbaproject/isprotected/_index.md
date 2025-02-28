@@ -3,7 +3,7 @@ title: VbaProject.IsProtected
 linktitle: IsProtected
 articleTitle: IsProtected
 second_title: Aspose.Words for .NET
-description: VbaProject IsProtected property. Shows whether the VbaProject is password protected in C#.
+description: Discover if your VbaProject is password protected with the IsProtected property. Ensure your code's security and streamline project management effectively!
 type: docs
 weight: 30
 url: /net/aspose.words.vba/vbaproject/isprotected/

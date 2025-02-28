@@ -3,7 +3,7 @@ title: Comment.DateTime
 linktitle: DateTime
 articleTitle: DateTime
 second_title: Aspose.Words for .NET
-description: Comment DateTime property. Gets the date and time that the comment was made in C#.
+description: Discover the Comment DateTime property, which captures the exact date and time a comment is posted, enhancing your content management experience.
 type: docs
 weight: 40
 url: /net/aspose.words/comment/datetime/

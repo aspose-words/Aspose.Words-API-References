@@ -3,7 +3,7 @@ title: DropDownItemCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words for .NET
-description: DropDownItemCollection Contains method. Determines whether the collection contains the specified value in C#.
+description: Discover if a DropDownItemCollection includes your specified value with our efficient Contains method. Enhance your data management effortlessly!
 type: docs
 weight: 50
 url: /net/aspose.words.fields/dropdownitemcollection/contains/

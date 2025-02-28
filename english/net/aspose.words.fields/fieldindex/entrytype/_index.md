@@ -3,7 +3,7 @@ title: FieldIndex.EntryType
 linktitle: EntryType
 articleTitle: EntryType
 second_title: Aspose.Words for .NET
-description: FieldIndex EntryType property. Gets or sets an index entry type used to build the index in C#.
+description: Discover the FieldIndex EntryType property to efficiently manage index entry types for optimized indexing and enhanced search performance.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldindex/entrytype/

@@ -3,7 +3,7 @@ title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
 linktitle: DefaultPageSettingsPaperSource
 articleTitle: DefaultPageSettingsPaperSource
 second_title: Aspose.Words for .NET
-description: PrinterSettingsContainer DefaultPageSettingsPaperSource property. See PaperSource of DefaultPageSettings in C#.
+description: Discover the DefaultPageSettingsPaperSource property for PrinterSettingsContainer. Optimize your printing with customizable paper source options!
 type: docs
 weight: 20
 url: /net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/

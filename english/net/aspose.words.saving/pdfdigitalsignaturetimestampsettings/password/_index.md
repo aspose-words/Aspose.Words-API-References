@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureTimestampSettings Password property. Timestamp server password in C#.
+description: Secure your PDF documents with the PdfDigitalSignatureTimestampSettings. Easily manage timestamp server passwords for enhanced protection and compliance.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/

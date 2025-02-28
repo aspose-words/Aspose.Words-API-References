@@ -3,7 +3,7 @@ title: PageSetup.RestartPageNumbering
 linktitle: RestartPageNumbering
 articleTitle: RestartPageNumbering
 second_title: Aspose.Words for .NET
-description: PageSetup RestartPageNumbering property. True if page numbering restarts at the beginning of the section in C#.
+description: Discover how the RestartPageNumbering property enhances document formatting by allowing section-specific page numbering. Optimize your layout effortlessly!
 type: docs
 weight: 360
 url: /net/aspose.words/pagesetup/restartpagenumbering/

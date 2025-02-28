@@ -3,7 +3,7 @@ title: FieldQuote.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: FieldQuote Text property. Gets or sets the text to retrieve in C#.
+description: FieldQuote Text property: Easily retrieve or set text for enhanced data management. Streamline your workflow with this powerful feature!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldquote/text/

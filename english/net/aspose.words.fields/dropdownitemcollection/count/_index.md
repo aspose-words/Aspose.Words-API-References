@@ -3,7 +3,7 @@ title: DropDownItemCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: DropDownItemCollection Count property. Gets the number of elements contained in the collection in C#.
+description: Discover the DropDownItemCollection Count property, which efficiently retrieves the total number of items in your collection for streamlined data management.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/dropdownitemcollection/count/

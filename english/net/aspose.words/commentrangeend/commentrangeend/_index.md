@@ -3,7 +3,7 @@ title: CommentRangeEnd
 linktitle: CommentRangeEnd
 articleTitle: CommentRangeEnd
 second_title: Aspose.Words for .NET
-description: CommentRangeEnd constructor. Initializes a new instance of this class in C#.
+description: Discover the CommentRangeEnd constructor: effortlessly create new instances of this class for seamless code integration and enhanced functionality.
 type: docs
 weight: 10
 url: /net/aspose.words/commentrangeend/commentrangeend/

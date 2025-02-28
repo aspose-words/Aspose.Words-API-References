@@ -3,9 +3,9 @@ title: WebExtensionStoreType Enum
 linktitle: WebExtensionStoreType
 articleTitle: WebExtensionStoreType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionStoreType enum. Enumerates available types of a web extension store in C#.
+description: Discover the Aspose.Words.WebExtensionStoreType enum, featuring diverse web extension store types for seamless integration and enhanced functionality.
 type: docs
-weight: 7510
+weight: 7520
 url: /net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration

@@ -3,7 +3,7 @@ title: Comment
 linktitle: Comment
 articleTitle: Comment
 second_title: Aspose.Words for .NET
-description: Comment constructor. Initializes a new instance of the Comment class in C#.
+description: Create engaging comments effortlessly with our Comment constructor. Initialize a new Comment class instance and enhance user interaction seamlessly!
 type: docs
 weight: 10
 url: /net/aspose.words/comment/comment/

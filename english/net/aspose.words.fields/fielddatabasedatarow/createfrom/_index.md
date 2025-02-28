@@ -3,7 +3,7 @@ title: FieldDatabaseDataRow.CreateFrom
 linktitle: CreateFrom
 articleTitle: CreateFrom
 second_title: Aspose.Words for .NET
-description: FieldDatabaseDataRow CreateFrom method. Initializes a new instance of the FieldDatabaseDataRow class from the DataRow instance in C#.
+description: Effortlessly create a FieldDatabaseDataRow instance from a DataRow with the CreateFrom method, simplifying data management and enhancing efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabasedatarow/createfrom/

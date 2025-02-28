@@ -3,7 +3,7 @@ title: PersonCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: PersonCollection Add method. Adds a Person to the collection in C#.
+description: Effortlessly add a Person to your collection with the PersonCollection Add method. Streamline data management and enhance your project’s efficiency!
 type: docs
 weight: 40
 url: /net/aspose.words.bibliography/personcollection/add/

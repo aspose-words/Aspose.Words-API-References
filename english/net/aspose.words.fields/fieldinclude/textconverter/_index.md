@@ -3,7 +3,7 @@ title: FieldInclude.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words for .NET
-description: FieldInclude TextConverter property. Gets or sets the name of the text converter for the format of the included file in C#.
+description: Discover the FieldInclude TextConverter property—easily manage file format conversions with customizable text converter names for enhanced workflow efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldinclude/textconverter/

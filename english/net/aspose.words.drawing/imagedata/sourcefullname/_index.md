@@ -3,7 +3,7 @@ title: ImageData.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words for .NET
-description: ImageData SourceFullName property. Gets or sets the path and name of the source file for the linked image in C#.
+description: Discover the ImageData SourceFullName property to easily manage linked image paths and filenames, enhancing your image handling efficiency.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/imagedata/sourcefullname/

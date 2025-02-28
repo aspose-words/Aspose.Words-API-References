@@ -3,9 +3,9 @@ title: VisitorAction Enum
 linktitle: VisitorAction
 articleTitle: VisitorAction
 second_title: Aspose.Words for .NET
-description: Aspose.Words.VisitorAction enum. Allows the visitor to control the enumeration of nodes in C#.
+description: Explore Aspose.Words.VisitorAction enum to effortlessly manage node enumeration, enhancing your document processing efficiency and control.
 type: docs
-weight: 7310
+weight: 7320
 url: /net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration

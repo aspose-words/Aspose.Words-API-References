@@ -3,7 +3,7 @@ title: BuildingBlock.Category
 linktitle: Category
 articleTitle: Category
 second_title: Aspose.Words for .NET
-description: BuildingBlock Category property. Specifies the secondlevel categorization for the building block in C#.
+description: Discover our BuildingBlock Category properties for enhanced second-level categorization, streamlining your projects and boosting organization efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words.buildingblocks/buildingblock/category/

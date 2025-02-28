@@ -3,7 +3,7 @@ title: ChartAxis.CrossesAt
 linktitle: CrossesAt
 articleTitle: CrossesAt
 second_title: Aspose.Words for .NET
-description: ChartAxis CrossesAt property. Specifies where on the perpendicular axis the axis crosses in C#.
+description: Discover the ChartAxis CrossesAt property to easily define intersection points on your chart's perpendicular axis for enhanced data visualization.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartaxis/crossesat/

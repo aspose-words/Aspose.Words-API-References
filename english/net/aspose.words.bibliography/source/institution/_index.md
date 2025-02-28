@@ -3,7 +3,7 @@ title: Source.Institution
 linktitle: Institution
 articleTitle: Institution
 second_title: Aspose.Words for .NET
-description: Source Institution property. Gets or sets the institution of a source in C#.
+description: Manage your source institution properties effortlessly. Easily set or update institution details for streamlined data organization and improved accessibility.
 type: docs
 weight: 220
 url: /net/aspose.words.bibliography/source/institution/

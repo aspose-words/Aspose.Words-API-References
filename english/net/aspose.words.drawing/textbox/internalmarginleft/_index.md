@@ -3,7 +3,7 @@ title: TextBox.InternalMarginLeft
 linktitle: InternalMarginLeft
 articleTitle: InternalMarginLeft
 second_title: Aspose.Words for .NET
-description: TextBox InternalMarginLeft property. Specifies the inner left margin in points for a shape in C#.
+description: Discover the TextBox InternalMarginLeft property to customize your shape's inner left margin in points for enhanced design flexibility.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/textbox/internalmarginleft/

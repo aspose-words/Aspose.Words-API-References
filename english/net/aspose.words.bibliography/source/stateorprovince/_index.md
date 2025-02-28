@@ -3,7 +3,7 @@ title: Source.StateOrProvince
 linktitle: StateOrProvince
 articleTitle: StateOrProvince
 second_title: Aspose.Words for .NET
-description: Source StateOrProvince property. Gets or sets the state or province of a source in C#.
+description: Discover how to manage StateOrProvince properties effortlessly. Easily get or set the state or province for any source with our user-friendly guide!
 type: docs
 weight: 430
 url: /net/aspose.words.bibliography/source/stateorprovince/

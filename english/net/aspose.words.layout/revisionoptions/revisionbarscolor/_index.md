@@ -3,7 +3,7 @@ title: RevisionOptions.RevisionBarsColor
 linktitle: RevisionBarsColor
 articleTitle: RevisionBarsColor
 second_title: Aspose.Words for .NET
-description: RevisionOptions RevisionBarsColor property. Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is Red in C#.
+description: Customize your document's RevisionBarsColor to highlight revised lines with ease. Default is Red, but choose any color for clearer insights!
 type: docs
 weight: 150
 url: /net/aspose.words.layout/revisionoptions/revisionbarscolor/

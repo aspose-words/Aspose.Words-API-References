@@ -3,7 +3,7 @@ title: LayoutEntityType Enum
 linktitle: LayoutEntityType
 articleTitle: LayoutEntityType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.LayoutEntityType enum. Types of the layout entities in C#.
+description: Discover Aspose.Words.Layout.LayoutEntityType enum, featuring diverse layout entity types for enhanced document formatting and seamless integration.
 type: docs
 weight: 3760
 url: /net/aspose.words.layout/layoutentitytype/

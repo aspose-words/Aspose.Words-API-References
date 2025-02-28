@@ -3,7 +3,7 @@ title: ReflectionFormat.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words for .NET
-description: ReflectionFormat Size property. Gets or sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object. The default value is 0.0 in C#.
+description: Discover the ReflectionFormat Size property: control reflection size (0.0-1.0) for stunning visual effects in your designs. Enhance your project's aesthetics!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/reflectionformat/size/

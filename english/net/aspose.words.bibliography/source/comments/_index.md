@@ -3,7 +3,7 @@ title: Source.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words for .NET
-description: Source Comments property. Gets or sets the comments of a source in C#.
+description: Manage Source Comments easily—get or set comments for any source to enhance your content's clarity and engagement. Optimize your workflow today!
 type: docs
 weight: 100
 url: /net/aspose.words.bibliography/source/comments/

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.OfficeMathOutputMode
 linktitle: OfficeMathOutputMode
 articleTitle: OfficeMathOutputMode
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions OfficeMathOutputMode property. Controls how OfficeMath objects are exported to HTML MHTML or EPUB. Default value is Image in C#.
+description: Discover HtmlSaveOptions' OfficeMathOutputMode for optimal HTML, MHTML, or EPUB exports. Customize OfficeMath object output with ease!
 type: docs
 weight: 400
 url: /net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/

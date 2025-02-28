@@ -3,7 +3,7 @@ title: Fill.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words for .NET
-description: Fill ImageBytes property. Gets the raw bytes of the fill texture or pattern in C#.
+description: Access the raw bytes of your fill texture or pattern with the ImageBytes property for seamless design integration and enhanced visual quality.
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/fill/imagebytes/

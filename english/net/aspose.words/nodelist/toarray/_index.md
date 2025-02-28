@@ -3,7 +3,7 @@ title: NodeList.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words for .NET
-description: NodeList ToArray method. Copies all nodes from the collection to a new array of nodes in C#.
+description: Effortlessly convert NodeList to an array with the ToArray method, simplifying node manipulation and enhancing your web development workflow.
 type: docs
 weight: 40
 url: /net/aspose.words/nodelist/toarray/

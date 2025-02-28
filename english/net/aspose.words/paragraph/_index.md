@@ -3,9 +3,9 @@ title: Paragraph Class
 linktitle: Paragraph
 articleTitle: Paragraph
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Paragraph class. Represents a paragraph of text in C#.
+description: Discover the Aspose.Words.Paragraph class to effortlessly manage and format text paragraphs, enhancing your document processing capabilities.
 type: docs
-weight: 4980
+weight: 4990
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class

@@ -3,7 +3,7 @@ title: PageSet.Even
 linktitle: Even
 articleTitle: Even
 second_title: Aspose.Words for .NET
-description: PageSet Even property. Gets a set with all the even pages of the document in their original order in C#.
+description: Retrieve a set of all even pages from your document in their original order with PageSet Even. Streamline your workflow and enhance document management!
 type: docs
 weight: 30
 url: /net/aspose.words.saving/pageset/even/

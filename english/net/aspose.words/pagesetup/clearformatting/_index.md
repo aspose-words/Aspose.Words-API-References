@@ -3,7 +3,7 @@ title: PageSetup.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words for .NET
-description: PageSetup ClearFormatting method. Resets page setup to default paper size margins and orientation in C#.
+description: Reset your document's page setup effortlessly with the ClearFormatting method. Restore default margins, paper size, and orientation for a polished look.
 type: docs
 weight: 460
 url: /net/aspose.words/pagesetup/clearformatting/

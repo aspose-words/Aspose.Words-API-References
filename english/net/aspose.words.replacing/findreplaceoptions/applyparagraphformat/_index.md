@@ -3,7 +3,7 @@ title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions ApplyParagraphFormat property. Paragraph formatting applied to new content in C#.
+description: Discover the ApplyParagraphFormat property in FindReplaceOptions for seamless paragraph formatting in your documents. Enhance your content effortlessly!
 type: docs
 weight: 30
 url: /net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/

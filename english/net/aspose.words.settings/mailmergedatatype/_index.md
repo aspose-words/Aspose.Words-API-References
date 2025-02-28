@@ -3,9 +3,9 @@ title: MailMergeDataType Enum
 linktitle: MailMergeDataType
 articleTitle: MailMergeDataType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.MailMergeDataType enum. Specifies the type of an external mail merge data source in C#.
+description: Discover the Aspose.Words.MailMergeDataType enum for seamless integration of external data sources in your document automation projects.
 type: docs
-weight: 6490
+weight: 6500
 url: /net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration

@@ -3,7 +3,7 @@ title: PageSetup.PageNumberStyle
 linktitle: PageNumberStyle
 articleTitle: PageNumberStyle
 second_title: Aspose.Words for .NET
-description: PageSetup PageNumberStyle property. Gets or sets the page number format in C#.
+description: Discover the PageSetup PageNumberStyle property to easily customize your page number format for enhanced document presentation and clarity.
 type: docs
 weight: 320
 url: /net/aspose.words/pagesetup/pagenumberstyle/

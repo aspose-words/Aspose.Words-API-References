@@ -3,7 +3,7 @@ title: PageInfo.GetSizeInPixels
 linktitle: GetSizeInPixels
 articleTitle: GetSizeInPixels
 second_title: Aspose.Words for .NET
-description: PageInfo GetSizeInPixels method. Calculates the page size in pixels for a specified zoom factor and resolution in C#.
+description: Discover the PageInfo GetSizeInPixels method to accurately calculate your page size in pixels based on zoom factor and resolution for optimal display.
 type: docs
 weight: 90
 url: /net/aspose.words.rendering/pageinfo/getsizeinpixels/

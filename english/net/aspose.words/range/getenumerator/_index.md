@@ -3,7 +3,7 @@ title: Range.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: Range GetEnumerator method.  in C#.
+description: Discover the Range GetEnumerator method to enhance your coding efficiency. Unlock seamless iteration in your projects today!
 type: docs
 weight: 80
 url: /net/aspose.words/range/getenumerator/

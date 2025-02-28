@@ -3,7 +3,7 @@ title: PlainTextDocument.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET
-description: PlainTextDocument BuiltInDocumentProperties property. Gets BuiltInDocumentProperties of the document in C#.
+description: Discover the PlainTextDocument BuiltInDocumentProperties property to easily access and manage essential document metadata for enhanced document organization.
 type: docs
 weight: 20
 url: /net/aspose.words/plaintextdocument/builtindocumentproperties/

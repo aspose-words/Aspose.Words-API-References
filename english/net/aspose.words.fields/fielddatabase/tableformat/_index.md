@@ -3,7 +3,7 @@ title: FieldDatabase.TableFormat
 linktitle: TableFormat
 articleTitle: TableFormat
 second_title: Aspose.Words for .NET
-description: FieldDatabase TableFormat property. Gets or sets the format that is to be applied to the result of the database query in C#.
+description: Discover the FieldDatabase TableFormat property to easily customize your database query results with flexible formatting options for enhanced data presentation.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fielddatabase/tableformat/

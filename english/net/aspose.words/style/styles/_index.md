@@ -3,7 +3,7 @@ title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words for .NET
-description: Style Styles property. Gets the collection of styles this style belongs to in C#.
+description: Discover the Style Styles property to access a curated collection of styles, enhancing your design with unique, cohesive aesthetics.
 type: docs
 weight: 190
 url: /net/aspose.words/style/styles/

@@ -3,7 +3,7 @@ title: IDocumentConverterPlugin Interface
 linktitle: IDocumentConverterPlugin
 articleTitle: IDocumentConverterPlugin
 second_title: Aspose.Words for .NET
-description: Aspose.Words.IDocumentConverterPlugin interface. Defines an interface for external converter plugin in C#.
+description: Discover the Aspose.Words.IDocumentConverterPlugin interface—your solution for seamless external document conversion. Enhance your workflow today!
 type: docs
 weight: 3580
 url: /net/aspose.words/idocumentconverterplugin/

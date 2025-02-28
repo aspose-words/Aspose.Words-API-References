@@ -3,7 +3,7 @@ title: CompatibilityOptions.PrintBodyTextBeforeHeader
 linktitle: PrintBodyTextBeforeHeader
 articleTitle: PrintBodyTextBeforeHeader
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions PrintBodyTextBeforeHeader property. Print Body Text before Header/Footer Contents in C#.
+description: Discover the PrintBodyTextBeforeHeader property for CompatibilityOptions. Enhance your documents by printing body text before headers and footers!
 type: docs
 weight: 390
 url: /net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/

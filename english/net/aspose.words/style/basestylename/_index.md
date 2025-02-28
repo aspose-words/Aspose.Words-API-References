@@ -3,7 +3,7 @@ title: Style.BaseStyleName
 linktitle: BaseStyleName
 articleTitle: BaseStyleName
 second_title: Aspose.Words for .NET
-description: Style BaseStyleName property. Gets/sets the name of the style this style is based on in C#.
+description: Discover how to customize the BaseStyleName property to enhance your design. Easily get or set the style name for improved visual appeal!
 type: docs
 weight: 30
 url: /net/aspose.words/style/basestylename/

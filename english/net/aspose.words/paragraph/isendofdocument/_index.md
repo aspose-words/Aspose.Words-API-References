@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfDocument
 linktitle: IsEndOfDocument
 articleTitle: IsEndOfDocument
 second_title: Aspose.Words for .NET
-description: Paragraph IsEndOfDocument property. True if this paragraph is the last paragraph in the last section of the document in C#.
+description: Discover the IsEndOfDocument property for paragraphs. Learn how to identify the last paragraph in your document's final section for effective formatting.
 type: docs
 weight: 60
 url: /net/aspose.words/paragraph/isendofdocument/

@@ -3,7 +3,7 @@ title: Comment.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Comment NodeType property. Returns Comment in C#.
+description: Discover the Comment NodeType property that efficiently returns comments, enhancing your content management experience with seamless integration.
 type: docs
 weight: 90
 url: /net/aspose.words/comment/nodetype/

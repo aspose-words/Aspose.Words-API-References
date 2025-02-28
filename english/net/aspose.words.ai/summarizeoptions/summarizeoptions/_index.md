@@ -3,7 +3,7 @@ title: SummarizeOptions
 linktitle: SummarizeOptions
 articleTitle: SummarizeOptions
 second_title: Aspose.Words for .NET
-description: SummarizeOptions constructor. Initializes a new instances of SummarizeOptions class in C#.
+description: Discover the SummarizeOptions constructor for creating customized instances of the SummarizeOptions class, enhancing your coding efficiency and flexibility.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/summarizeoptions/summarizeoptions/

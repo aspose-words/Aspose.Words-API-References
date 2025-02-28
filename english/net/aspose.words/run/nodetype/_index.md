@@ -3,7 +3,7 @@ title: Run.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Run NodeType property. Returns Run in C#.
+description: Execute NodeType property to efficiently return Run results. Unlock seamless performance and enhance your application's functionality today!
 type: docs
 weight: 30
 url: /net/aspose.words/run/nodetype/

@@ -3,7 +3,7 @@ title: FieldLink.InsertAsRtf
 linktitle: InsertAsRtf
 articleTitle: InsertAsRtf
 second_title: Aspose.Words for .NET
-description: FieldLink InsertAsRtf property. Gets or sets whether to insert the linked object in richtext format RTF in C#.
+description: Discover the FieldLink InsertAsRtf property to easily manage linked objects in rich text format (RTF) for enhanced document integration and flexibility.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldlink/insertasrtf/

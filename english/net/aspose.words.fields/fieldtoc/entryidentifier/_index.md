@@ -3,7 +3,7 @@ title: FieldToc.EntryIdentifier
 linktitle: EntryIdentifier
 articleTitle: EntryIdentifier
 second_title: Aspose.Words for .NET
-description: FieldToc EntryIdentifier property. Gets or sets a string that should match type identifiers of TC fields being included in C#.
+description: Discover how the FieldToc EntryIdentifier property streamlines TC field management by easily matching type identifiers for efficient data organization.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtoc/entryidentifier/

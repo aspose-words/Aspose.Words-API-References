@@ -3,7 +3,7 @@ title: DocumentPartSavingArgs.DocumentPartStream
 linktitle: DocumentPartStream
 articleTitle: DocumentPartStream
 second_title: Aspose.Words for .NET
-description: DocumentPartSavingArgs DocumentPartStream property. Allows to specify the stream where the document part will be saved to in C#.
+description: Discover how the DocumentPartStream property in DocumentPartSavingArgs lets you easily specify where to save your document parts for seamless management.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/documentpartsavingargs/documentpartstream/

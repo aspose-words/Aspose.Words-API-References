@@ -3,7 +3,7 @@ title: ChartFormat.Stroke
 linktitle: Stroke
 articleTitle: Stroke
 second_title: Aspose.Words for .NET
-description: ChartFormat Stroke property. Gets line formatting for the parent chart element in C#.
+description: Discover the ChartFormat Stroke property to enhance line styling in your charts, ensuring professional and visually appealing presentations.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartformat/stroke/

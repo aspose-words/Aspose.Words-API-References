@@ -3,7 +3,7 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words for .NET
-description: HyphenationOptions AutoHyphenation property. Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is false in C#.
+description: Control automatic hyphenation with the HyphenationOptions property. Easily enhance your document's readability by toggling this feature on or off.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/hyphenationoptions/autohyphenation/

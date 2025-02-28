@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection Clear method. Removes all properties from the collection in C#.
+description: Effortlessly clear all properties from your DocumentPropertyCollection with our Clear method. Streamline your data management today!
 type: docs
 weight: 30
 url: /net/aspose.words.properties/documentpropertycollection/clear/

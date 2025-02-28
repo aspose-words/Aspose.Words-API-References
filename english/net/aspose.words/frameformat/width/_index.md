@@ -3,7 +3,7 @@ title: FrameFormat.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words for .NET
-description: FrameFormat Width property. Gets the width of the specified frame in points in C#.
+description: Discover the FrameFormat Width property to easily retrieve the frame's width in points, enhancing your design precision and efficiency.
 type: docs
 weight: 120
 url: /net/aspose.words/frameformat/width/

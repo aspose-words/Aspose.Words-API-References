@@ -3,7 +3,7 @@ title: LayoutEnumerator.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator Document property. Gets document this instance enumerates in C#.
+description: Discover the LayoutEnumerator Document property for efficient document enumeration. Enhance your workflow with this powerful feature!
 type: docs
 weight: 30
 url: /net/aspose.words.layout/layoutenumerator/document/

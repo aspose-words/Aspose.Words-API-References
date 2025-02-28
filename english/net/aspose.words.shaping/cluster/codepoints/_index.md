@@ -3,7 +3,7 @@ title: Cluster.Codepoints
 linktitle: Codepoints
 articleTitle: Codepoints
 second_title: Aspose.Words for .NET
-description: Cluster Codepoints property. Gets codepoints of the cluster in C#.
+description: Discover the Cluster Codepoints property to efficiently retrieve cluster codepoints and enhance your data management capabilities.
 type: docs
 weight: 20
 url: /net/aspose.words.shaping/cluster/codepoints/

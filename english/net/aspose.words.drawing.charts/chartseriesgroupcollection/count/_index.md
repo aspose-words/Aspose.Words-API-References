@@ -3,7 +3,7 @@ title: ChartSeriesGroupCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroupCollection Count property. Returns the number of series groups in this collection in C#.
+description: Discover the Count property of ChartSeriesGroupCollection, which reveals the total number of series groups for enhanced data visualization.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartseriesgroupcollection/count/

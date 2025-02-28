@@ -3,7 +3,7 @@ title: TableCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words for .NET
-description: TableCollection ToArray method. Copies all tables from the collection to a new array of tables in C#.
+description: Effortlessly convert your TableCollection to an array with the ToArray method, simplifying data management and enhancing your application's performance.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/tablecollection/toarray/

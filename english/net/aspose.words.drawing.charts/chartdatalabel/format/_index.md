@@ -3,7 +3,7 @@ title: ChartDataLabel.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartDataLabel Format property. Provides access to fill and line formatting of the data label in C#.
+description: Discover the ChartDataLabel Format property for easy access to customizable fill and line formatting, enhancing your data visualization effortlessly.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatalabel/format/

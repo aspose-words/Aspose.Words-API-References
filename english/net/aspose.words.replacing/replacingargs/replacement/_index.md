@@ -3,7 +3,7 @@ title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
 second_title: Aspose.Words for .NET
-description: ReplacingArgs Replacement property. Gets or sets the replacement string in C#.
+description: Discover the ReplacingArgs Replacement property to easily manage and customize your replacement strings for enhanced coding efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.replacing/replacingargs/replacement/

@@ -3,9 +3,9 @@ title: ReportBuilder Class
 linktitle: ReportBuilder
 articleTitle: ReportBuilder
 second_title: Aspose.Words for .NET
-description: Aspose.Words.LowCode.ReportBuilder class. Provides methods intended to fill template with data using LINQ Reporting Engine in C#.
+description: Effortlessly create dynamic reports with Aspose.Words LowCode ReportBuilder. Utilize LINQ Reporting Engine to fill templates with data seamlessly.
 type: docs
-weight: 4260
+weight: 4270
 url: /net/aspose.words.lowcode/reportbuilder/
 ---
 ## ReportBuilder class

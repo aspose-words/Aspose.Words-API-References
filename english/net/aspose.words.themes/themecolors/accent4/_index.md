@@ -3,7 +3,7 @@ title: ThemeColors.Accent4
 linktitle: Accent4
 articleTitle: Accent4
 second_title: Aspose.Words for .NET
-description: ThemeColors Accent4 property. Specifies color Accent 4 in C#.
+description: Discover the ThemeColors Accent4 property to customize your designs with vibrant Accent 4 color. Enhance your projects with unique visual appeal!
 type: docs
 weight: 40
 url: /net/aspose.words.themes/themecolors/accent4/

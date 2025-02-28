@@ -3,7 +3,7 @@ title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
 second_title: Aspose.Words for .NET
-description: IChartDataPoint Explosion property. Specifies the amount the data point shall be moved from the center of the pie. Can be negative negative means that property is not set and no explosion should be applied. Applies only to Pie charts in C#.
+description: Discover the IChartDataPoint Explosion property for Pie charts. Control data point positioning with precision—enhance your visual data storytelling today!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/ichartdatapoint/explosion/

@@ -3,7 +3,7 @@ title: Adjustment.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: Adjustment Name property. Gets the name of the adjustment in C#.
+description: Discover the Adjustment Name property to easily access and manage your adjustments for improved efficiency and streamlined workflows.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/adjustment/name/

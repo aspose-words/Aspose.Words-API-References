@@ -3,7 +3,7 @@ title: Merger.Merge
 linktitle: Merge
 articleTitle: Merge
 second_title: Aspose.Words for .NET
-description: Merger Merge method. Merges the given input documents into a single output document using specified input and output file names in C#.
+description: Effortlessly combine multiple documents into one with our Merger Merge method. Streamline your workflow with customizable file options today!
 type: docs
 weight: 10
 url: /net/aspose.words.lowcode/merger/merge/

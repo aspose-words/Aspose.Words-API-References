@@ -3,7 +3,7 @@ title: MailMerge.Execute
 linktitle: Execute
 articleTitle: Execute
 second_title: Aspose.Words for .NET
-description: MailMerge Execute method. Performs a mail merge from a custom data source in C#.
+description: Streamline your mailing process with the MailMerge Execute method, effortlessly merging data from custom sources for personalized communication.
 type: docs
 weight: 180
 url: /net/aspose.words.mailmerging/mailmerge/execute/

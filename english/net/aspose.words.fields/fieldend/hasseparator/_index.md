@@ -3,7 +3,7 @@ title: FieldEnd.HasSeparator
 linktitle: HasSeparator
 articleTitle: HasSeparator
 second_title: Aspose.Words for .NET
-description: FieldEnd HasSeparator property. Returns true if this field has a separator in C#.
+description: Discover the FieldEnd HasSeparator property: easily check if your field includes a separator for enhanced data organization and clarity.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldend/hasseparator/

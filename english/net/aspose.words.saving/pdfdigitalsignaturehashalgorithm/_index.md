@@ -3,9 +3,9 @@ title: PdfDigitalSignatureHashAlgorithm Enum
 linktitle: PdfDigitalSignatureHashAlgorithm
 articleTitle: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm enum. Specifies a digital hash algorithm used by a digital signature in C#.
+description: Explore the Aspose.Words PdfDigitalSignatureHashAlgorithm enum, defining digital hash algorithms for secure digital signatures in your documents.
 type: docs
-weight: 6070
+weight: 6080
 url: /net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration

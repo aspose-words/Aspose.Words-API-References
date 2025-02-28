@@ -3,7 +3,7 @@ title: Node.ParentNode
 linktitle: ParentNode
 articleTitle: ParentNode
 second_title: Aspose.Words for .NET
-description: Node ParentNode property. Gets the immediate parent of this node in C#.
+description: Discover the Node ParentNode property to easily access the immediate parent of any node, enhancing your web development efficiency and code clarity.
 type: docs
 weight: 60
 url: /net/aspose.words/node/parentnode/

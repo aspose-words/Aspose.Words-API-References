@@ -3,7 +3,7 @@ title: FieldDde.SourceItem
 linktitle: SourceItem
 articleTitle: SourceItem
 second_title: Aspose.Words for .NET
-description: FieldDde SourceItem property. Gets or sets the portion of the source file thats being linked in C#.
+description: Discover the FieldDde SourceItem property to easily manage linked source file portions. Enhance your data integration with seamless functionality.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fielddde/sourceitem/

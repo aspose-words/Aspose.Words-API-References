@@ -3,7 +3,7 @@ title: TextBox.InternalMarginRight
 linktitle: InternalMarginRight
 articleTitle: InternalMarginRight
 second_title: Aspose.Words for .NET
-description: TextBox InternalMarginRight property. Specifies the inner right margin in points for a shape in C#.
+description: Discover the TextBox InternalMarginRight property to customize your shapes with precise right margins in points for enhanced design flexibility.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/textbox/internalmarginright/

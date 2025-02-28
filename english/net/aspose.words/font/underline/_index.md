@@ -3,7 +3,7 @@ title: Font.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words for .NET
-description: Font Underline property. Gets or sets the type of underline applied to the font in C#.
+description: Discover the Font Underline property to customize text styles. Easily set and modify underline types for enhanced typography in your designs.
 type: docs
 weight: 540
 url: /net/aspose.words/font/underline/

@@ -3,7 +3,7 @@ title: OleFormat.SuggestedExtension
 linktitle: SuggestedExtension
 articleTitle: SuggestedExtension
 second_title: Aspose.Words for .NET
-description: OleFormat SuggestedExtension property. Gets the file extension suggested for the current embedded object if you want to save it into a file in C#.
+description: Discover the OleFormat SuggestedExtension property to easily obtain the ideal file extension for saving your embedded objects efficiently.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/oleformat/suggestedextension/

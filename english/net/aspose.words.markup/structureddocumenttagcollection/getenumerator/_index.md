@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagCollection GetEnumerator method. Returns an enumerator object in C#.
+description: Discover the StructuredDocumentTagCollection GetEnumerator method for easy access to enumerator objects, enhancing your document management efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/structureddocumenttagcollection/getenumerator/

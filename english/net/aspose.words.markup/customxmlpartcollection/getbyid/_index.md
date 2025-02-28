@@ -3,7 +3,7 @@ title: CustomXmlPartCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words for .NET
-description: CustomXmlPartCollection GetById method. Finds and returns a custom XML part by its identifier in C#.
+description: Discover the CustomXmlPartCollection GetById method to effortlessly retrieve custom XML parts by their unique identifiers for enhanced data management.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlpartcollection/getbyid/

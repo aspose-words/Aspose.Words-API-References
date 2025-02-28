@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback.FieldUpdated
 linktitle: FieldUpdated
 articleTitle: FieldUpdated
 second_title: Aspose.Words for .NET
-description: IFieldUpdatingCallback FieldUpdated method. A user defined method that is called just after a field is updated in C#.
+description: Discover the IFieldUpdatingCallback FieldUpdated method—your solution for seamless field updates in applications. Enhance performance with custom callbacks!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/

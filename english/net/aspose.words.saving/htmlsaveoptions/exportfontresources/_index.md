@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportFontResources
 linktitle: ExportFontResources
 articleTitle: ExportFontResources
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportFontResources property. Specifies whether font resources should be exported to HTML MHTML or EPUB. Default is false in C#.
+description: Discover the HtmlSaveOptions ExportFontResources property to control font resource export for HTML, MHTML, or EPUB. Maximize your document's visual appeal!
 type: docs
 weight: 140
 url: /net/aspose.words.saving/htmlsaveoptions/exportfontresources/

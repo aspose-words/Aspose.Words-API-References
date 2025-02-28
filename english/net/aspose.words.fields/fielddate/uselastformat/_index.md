@@ -3,7 +3,7 @@ title: FieldDate.UseLastFormat
 linktitle: UseLastFormat
 articleTitle: UseLastFormat
 second_title: Aspose.Words for .NET
-description: FieldDate UseLastFormat property. Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field in C#.
+description: Discover how the FieldDate UseLastFormat property enhances your workflow by retaining the last used date format for seamless integration in your applications.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddate/uselastformat/

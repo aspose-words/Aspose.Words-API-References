@@ -3,7 +3,7 @@ title: ListLevel.TabPosition
 linktitle: TabPosition
 articleTitle: TabPosition
 second_title: Aspose.Words for .NET
-description: ListLevel TabPosition property. Returns or sets the tab position in points for the list level in C#.
+description: Discover the ListLevel TabPosition property to easily adjust tab positions in points for your list levels, enhancing your document's formatting.
 type: docs
 weight: 120
 url: /net/aspose.words.lists/listlevel/tabposition/

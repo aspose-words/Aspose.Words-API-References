@@ -3,7 +3,7 @@ title: CompatibilityOptions.UseWord2010TableStyleRules
 linktitle: UseWord2010TableStyleRules
 articleTitle: UseWord2010TableStyleRules
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions UseWord2010TableStyleRules property. Specifies to use Word2010 table style rules in C#.
+description: Discover how the CompatibilityOptions UseWord2010TableStyleRules property enhances your document formatting with advanced Word 2010 table styles.
 type: docs
 weight: 670
 url: /net/aspose.words.settings/compatibilityoptions/useword2010tablestylerules/

@@ -3,7 +3,7 @@ title: DownsampleOptions.ResolutionThreshold
 linktitle: ResolutionThreshold
 articleTitle: ResolutionThreshold
 second_title: Aspose.Words for .NET
-description: DownsampleOptions ResolutionThreshold property. Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled in C#.
+description: Optimize your images with the DownsampleOptions ResolutionThreshold property. Control downsampling based on resolution for better performance and quality.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/downsampleoptions/resolutionthreshold/

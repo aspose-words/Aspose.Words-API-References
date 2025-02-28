@@ -3,7 +3,7 @@ title: CleanupOptions.UnusedLists
 linktitle: UnusedLists
 articleTitle: UnusedLists
 second_title: Aspose.Words for .NET
-description: CleanupOptions UnusedLists property. Specifies whether unused list and list definitions should be removed from document. Default value is true in C#.
+description: Optimize your documents with CleanupOptions' UnusedLists property. Easily remove unused lists and definitions for a cleaner, more efficient workspace.
 type: docs
 weight: 40
 url: /net/aspose.words/cleanupoptions/unusedlists/

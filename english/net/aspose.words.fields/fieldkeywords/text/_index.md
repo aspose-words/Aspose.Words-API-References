@@ -3,7 +3,7 @@ title: FieldKeywords.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: FieldKeywords Text property. Gets or sets the text of the keywords in C#.
+description: Manage your FieldKeywords with ease! Access and customize keyword text for optimal SEO performance and enhanced visibility.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldkeywords/text/

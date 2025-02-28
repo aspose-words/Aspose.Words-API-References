@@ -3,7 +3,7 @@ title: PhysicalFontInfo.EmbeddingLicensingRights
 linktitle: EmbeddingLicensingRights
 articleTitle: EmbeddingLicensingRights
 second_title: Aspose.Words for .NET
-description: PhysicalFontInfo EmbeddingLicensingRights property. Embedding licensing rights for the font in C#.
+description: Discover the PhysicalFontInfo EmbeddingLicensingRights property—unlock essential font embedding rights for seamless design integration.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/

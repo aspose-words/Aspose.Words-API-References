@@ -3,7 +3,7 @@ title: VariationAxisCoordinate
 linktitle: VariationAxisCoordinate
 articleTitle: VariationAxisCoordinate
 second_title: Aspose.Words for .NET
-description: VariationAxisCoordinate constructor. The default constructor in C#.
+description: Discover the VariationAxisCoordinate constructor—your go-to for efficient data handling and customization in your projects. Unlock its full potential today!
 type: docs
 weight: 10
 url: /net/aspose.words.shaping/variationaxiscoordinate/variationaxiscoordinate/

@@ -3,7 +3,7 @@ title: CompatibilityOptions.AutoSpaceLikeWord95
 linktitle: AutoSpaceLikeWord95
 articleTitle: AutoSpaceLikeWord95
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions AutoSpaceLikeWord95 property. Emulate Word 95 FullWidth Character Spacing in C#.
+description: Optimize your documents with CompatibilityOptions AutoSpaceLikeWord95 for precise FullWidth character spacing, enhancing readability and style.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/compatibilityoptions/autospacelikeword95/

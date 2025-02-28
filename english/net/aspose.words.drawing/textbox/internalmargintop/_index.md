@@ -3,7 +3,7 @@ title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
 second_title: Aspose.Words for .NET
-description: TextBox InternalMarginTop property. Specifies the inner top margin in points for a shape in C#.
+description: Discover the TextBox InternalMarginTop property—control your shape's top margin in points for precise layout and enhanced design flexibility.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/textbox/internalmargintop/

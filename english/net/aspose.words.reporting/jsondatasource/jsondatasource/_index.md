@@ -3,7 +3,7 @@ title: JsonDataSource
 linktitle: JsonDataSource
 articleTitle: JsonDataSource
 second_title: Aspose.Words for .NET
-description: JsonDataSource constructor. Creates a new data source with data from a JSON file using default options for parsing JSON data in C#.
+description: Create a powerful data source effortlessly with the JsonDataSource constructor, enabling seamless integration of JSON files and optimized data parsing.
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/jsondatasource/jsondatasource/

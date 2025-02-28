@@ -3,7 +3,7 @@ title: SourceType Enum
 linktitle: SourceType
 articleTitle: SourceType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Bibliography.SourceType enum. Represents bibliography source types in C#.
+description: Discover Aspose.Words.Bibliography.SourceType enum for diverse bibliography source types. Enhance your document management with powerful features!
 type: docs
 weight: 210
 url: /net/aspose.words.bibliography/sourcetype/

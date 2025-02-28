@@ -3,7 +3,7 @@ title: Story.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words for .NET
-description: Story StoryType property. Gets the type of this story in C#.
+description: Discover the StoryType property to easily identify and categorize your stories, enhancing organization and improving your storytelling experience.
 type: docs
 weight: 40
 url: /net/aspose.words/story/storytype/

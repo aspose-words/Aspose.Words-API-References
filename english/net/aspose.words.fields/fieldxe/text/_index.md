@@ -3,7 +3,7 @@ title: FieldXE.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: FieldXE Text property. Gets or sets the text of the entry in C#.
+description: Manage your FieldXE text property effortlessly. Easily get or set entry text for seamless data handling and enhanced user experience.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldxe/text/

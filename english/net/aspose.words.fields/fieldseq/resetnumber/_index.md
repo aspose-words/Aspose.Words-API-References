@@ -3,7 +3,7 @@ title: FieldSeq.ResetNumber
 linktitle: ResetNumber
 articleTitle: ResetNumber
 second_title: Aspose.Words for .NET
-description: FieldSeq ResetNumber property. Gets or sets an integer number to reset the sequence number to. Returns 1 if the number is absent in C#.
+description: Manage your FieldSeq ResetNumber property effortlessly! Set or retrieve an integer to control sequence numbers, ensuring accurate data handling.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldseq/resetnumber/

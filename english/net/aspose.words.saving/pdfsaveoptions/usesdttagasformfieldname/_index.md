@@ -3,7 +3,7 @@ title: PdfSaveOptions.UseSdtTagAsFormFieldName
 linktitle: UseSdtTagAsFormFieldName
 articleTitle: UseSdtTagAsFormFieldName
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions UseSdtTagAsFormFieldName property. Specifies whether to use SDT control Tag or Id property as a name of form field in PDF in C#.
+description: Discover how the PdfSaveOptions UseSdtTagAsFormFieldName property enhances PDF forms by using SDT control tags for better organization and clarity.
 type: docs
 weight: 340
 url: /net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/

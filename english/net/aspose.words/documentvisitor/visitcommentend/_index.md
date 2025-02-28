@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCommentEnd
 linktitle: VisitCommentEnd
 articleTitle: VisitCommentEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitCommentEnd method. Called when enumeration of a comment text has ended in C#.
+description: Explore the DocumentVisitor VisitCommentEnd method, designed to enhance comment text enumeration in your projects for seamless document processing.
 type: docs
 weight: 100
 url: /net/aspose.words/documentvisitor/visitcommentend/

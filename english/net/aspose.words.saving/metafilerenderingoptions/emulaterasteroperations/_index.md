@@ -3,7 +3,7 @@ title: MetafileRenderingOptions.EmulateRasterOperations
 linktitle: EmulateRasterOperations
 articleTitle: EmulateRasterOperations
 second_title: Aspose.Words for .NET
-description: MetafileRenderingOptions EmulateRasterOperations property. Gets or sets a value determining whether or not the raster operations should be emulated in C#.
+description: Discover the MetafileRenderingOptions EmulateRasterOperations property to control raster operation emulation, enhancing your rendering capabilities effectively.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/

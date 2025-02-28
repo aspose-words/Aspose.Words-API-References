@@ -3,7 +3,7 @@ title: HtmlSaveOptions.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions Encoding property. Specifies the encoding to use when exporting to HTML MHTML or EPUB. Default value is new UTF8Encodingfalse UTF8 without BOM in C#.
+description: Discover HtmlSaveOptions Encoding for seamless HTML, MHTML, and EPUB exports. Easily customize encoding with UTF-8 for optimal compatibility and performance.
 type: docs
 weight: 100
 url: /net/aspose.words.saving/htmlsaveoptions/encoding/

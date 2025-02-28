@@ -3,9 +3,9 @@ title: ReplacementFormat Enum
 linktitle: ReplacementFormat
 articleTitle: ReplacementFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Replacing.ReplacementFormat enum. Specifies the replacement format in C#.
+description: Discover the Aspose.Words.Replacing.ReplacementFormat enum for flexible document formatting options. Enhance your text replacements with ease!
 type: docs
-weight: 5240
+weight: 5250
 url: /net/aspose.words.replacing/replacementformat/
 ---
 ## ReplacementFormat enumeration

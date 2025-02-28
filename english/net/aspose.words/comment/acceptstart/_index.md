@@ -3,7 +3,7 @@ title: Comment.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: Comment AcceptStart method. Accepts a visitor for visiting the start of the comment in C#.
+description: Discover the AcceptStart method to seamlessly welcome visitors at the beginning of comments, enhancing user engagement and interaction.
 type: docs
 weight: 150
 url: /net/aspose.words/comment/acceptstart/

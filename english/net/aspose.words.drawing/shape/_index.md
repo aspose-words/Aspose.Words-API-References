@@ -3,7 +3,7 @@ title: Shape Class
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Shape class. Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in C#.
+description: Discover the Aspose.Words.Drawing.Shape class for creating versatile drawing objects like AutoShapes, text boxes, and images effortlessly in your projects.
 type: docs
 weight: 1630
 url: /net/aspose.words.drawing/shape/

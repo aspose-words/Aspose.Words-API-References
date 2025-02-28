@@ -3,7 +3,7 @@ title: SpecialChar.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words for .NET
-description: SpecialChar GetText method. Gets the special character that this node represents in C#.
+description: Discover the SpecialChar GetText method to easily retrieve special characters for enhanced text processing in your applications. Unlock its potential today!
 type: docs
 weight: 30
 url: /net/aspose.words/specialchar/gettext/

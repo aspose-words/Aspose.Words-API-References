@@ -3,7 +3,7 @@ title: FieldDde.InsertAsPicture
 linktitle: InsertAsPicture
 articleTitle: InsertAsPicture
 second_title: Aspose.Words for .NET
-description: FieldDde InsertAsPicture property. Gets or sets whether to insert the linked object as a picture in C#.
+description: Discover how the FieldDde InsertAsPicture property enhances document linking by allowing seamless integration of objects as images. Optimize your workflow today!
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fielddde/insertaspicture/

@@ -3,7 +3,7 @@ title: SectionCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: SectionCollection Item property. Retrieves a section at the given index in C#.
+description: Access specific sections effortlessly with the SectionCollection Item property. Retrieve any section by index for streamlined data management.
 type: docs
 weight: 10
 url: /net/aspose.words/sectioncollection/item/

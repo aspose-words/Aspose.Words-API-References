@@ -3,9 +3,9 @@ title: FootnotePosition Enum
 linktitle: FootnotePosition
 articleTitle: FootnotePosition
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Notes.FootnotePosition enum. Defines the footnote position in C#.
+description: Discover the Aspose.Words.Notes.FootnotePosition enum for customizable footnote placement, enhancing document formatting and readability.
 type: docs
-weight: 4840
+weight: 4850
 url: /net/aspose.words.notes/footnoteposition/
 ---
 ## FootnotePosition enumeration

@@ -3,7 +3,7 @@ title: Document.LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words for .NET
-description: Document LayoutOptions property. Gets a LayoutOptions object that represents options to control the layout process of this document in C#.
+description: Explore the Document LayoutOptions property to control your document's layout effectively. Unlock flexible design options for optimal presentation.
 type: docs
 weight: 260
 url: /net/aspose.words/document/layoutoptions/

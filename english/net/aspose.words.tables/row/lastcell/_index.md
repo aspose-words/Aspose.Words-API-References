@@ -3,7 +3,7 @@ title: Row.LastCell
 linktitle: LastCell
 articleTitle: LastCell
 second_title: Aspose.Words for .NET
-description: Row LastCell property. Returns the last Cell in the row in C#.
+description: Discover the Row LastCell property to easily access the last cell in a row, enhancing your data management and analysis efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.tables/row/lastcell/

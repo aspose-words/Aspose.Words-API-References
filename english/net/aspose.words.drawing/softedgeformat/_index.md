@@ -3,7 +3,7 @@ title: SoftEdgeFormat Class
 linktitle: SoftEdgeFormat
 articleTitle: SoftEdgeFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.SoftEdgeFormat class. Represents the soft edge formatting for an object in C#.
+description: Discover Aspose.Words.Drawing.SoftEdgeFormat class to enhance your documents with stunning soft edge effects for a professional look.
 type: docs
 weight: 1700
 url: /net/aspose.words.drawing/softedgeformat/

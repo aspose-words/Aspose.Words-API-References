@@ -3,7 +3,7 @@ title: Comment.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: Comment Accept method. Accepts a visitor in C#.
+description: Discover the Comment Accept method to enhance visitor engagement and create meaningful interactions on your site. Boost your online community today!
 type: docs
 weight: 130
 url: /net/aspose.words/comment/accept/

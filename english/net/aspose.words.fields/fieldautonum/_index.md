@@ -3,7 +3,7 @@ title: FieldAutoNum Class
 linktitle: FieldAutoNum
 articleTitle: FieldAutoNum
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldAutoNum class. Implements the AUTONUM field in C#.
+description: Explore the Aspose.Words.Fields.FieldAutoNum class for seamless AUTONUM field implementation, enhancing document automation and efficiency.
 type: docs
 weight: 1980
 url: /net/aspose.words.fields/fieldautonum/

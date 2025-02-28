@@ -3,7 +3,7 @@ title: LayoutCollector.GetEndPageIndex
 linktitle: GetEndPageIndex
 articleTitle: GetEndPageIndex
 second_title: Aspose.Words for .NET
-description: LayoutCollector GetEndPageIndex method. Gets 1based index of the page where node ends. Returns 0 if node cannot be mapped to a page in C#.
+description: Discover LayoutCollector's GetEndPageIndex method to easily find the 1-based index of a node's ending page. Simplify your page mapping today!
 type: docs
 weight: 40
 url: /net/aspose.words.layout/layoutcollector/getendpageindex/

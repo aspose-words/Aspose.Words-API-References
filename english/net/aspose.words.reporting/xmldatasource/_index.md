@@ -3,9 +3,9 @@ title: XmlDataSource Class
 linktitle: XmlDataSource
 articleTitle: XmlDataSource
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Reporting.XmlDataSource class. Provides access to data of an XML file or stream to be used within a report in C#.
+description: Unlock powerful reporting with Aspose.Words.XmlDataSource. Easily access XML data for seamless integration into your reports and enhance data visualization.
 type: docs
-weight: 5350
+weight: 5360
 url: /net/aspose.words.reporting/xmldatasource/
 ---
 ## XmlDataSource class

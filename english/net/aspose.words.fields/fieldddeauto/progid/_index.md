@@ -3,7 +3,7 @@ title: FieldDdeAuto.ProgId
 linktitle: ProgId
 articleTitle: ProgId
 second_title: Aspose.Words for .NET
-description: FieldDdeAuto ProgId property. Gets or sets the application type of the link information in C#.
+description: Discover the FieldDdeAuto ProgId property to easily manage application types for link information. Enhance your programming efficiency today!
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldddeauto/progid/

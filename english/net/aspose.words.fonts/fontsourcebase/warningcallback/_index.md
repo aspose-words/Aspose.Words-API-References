@@ -3,7 +3,7 @@ title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words for .NET
-description: FontSourceBase WarningCallback property. Called during processing of font source when an issue is detected that might result in formatting fidelity loss in C#.
+description: Discover the FontSourceBase WarningCallback property, essential for ensuring formatting fidelity by detecting issues during font source processing.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontsourcebase/warningcallback/

@@ -3,7 +3,7 @@ title: ChartSeries.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartSeries Format property. Provides access to fill and line formatting of the series in C#.
+description: Discover the ChartSeries Format property for effortless access to customizable fill and line styles, enhancing your data visualization experience.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartseries/format/

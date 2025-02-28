@@ -3,7 +3,7 @@ title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words for .NET
-description: Field Separator property. Gets the node that represents the field separator. Can be null in C#.
+description: Discover the Field Separator property to easily access the node representing the field separator, enhancing data management efficiency. Learn more!
 type: docs
 weight: 80
 url: /net/aspose.words.fields/field/separator/

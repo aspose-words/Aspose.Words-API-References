@@ -3,7 +3,7 @@ title: Source.ChapterNumber
 linktitle: ChapterNumber
 articleTitle: ChapterNumber
 second_title: Aspose.Words for .NET
-description: Source ChapterNumber property. Gets or sets the chapter number of a source in C#.
+description: Manage your source's chapter number effortlessly with the ChapterNumber property—simple to use and essential for organized referencing.
 type: docs
 weight: 80
 url: /net/aspose.words.bibliography/source/chapternumber/

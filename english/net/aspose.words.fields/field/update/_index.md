@@ -3,7 +3,7 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words for .NET
-description: Field Update method. Performs the field update. Throws if the field is being updated already in C#.
+description: Efficiently update fields with our Field Update method. Prevents conflicts by ensuring fields aren't already in use. Streamline your data management today!
 type: docs
 weight: 140
 url: /net/aspose.words.fields/field/update/

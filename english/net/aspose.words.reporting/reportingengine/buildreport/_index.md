@@ -3,7 +3,7 @@ title: ReportingEngine.BuildReport
 linktitle: BuildReport
 articleTitle: BuildReport
 second_title: Aspose.Words for .NET
-description: ReportingEngine BuildReport method. Populates the specified template document with data from the specified source making it a ready report in C#.
+description: Effortlessly generate ready-to-use reports with ReportingEngine's BuildReport method, seamlessly populating templates with data from your chosen source.
 type: docs
 weight: 50
 url: /net/aspose.words.reporting/reportingengine/buildreport/

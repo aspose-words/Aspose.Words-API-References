@@ -3,7 +3,7 @@ title: LayoutEnumerator.MovePreviousLogical
 linktitle: MovePreviousLogical
 articleTitle: MovePreviousLogical
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator MovePreviousLogical method. Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page in C#.
+description: Discover the LayoutEnumerator MovePreviousLogical method to efficiently navigate sibling entities and handle paragraph lines across pages seamlessly.
 type: docs
 weight: 160
 url: /net/aspose.words.layout/layoutenumerator/movepreviouslogical/

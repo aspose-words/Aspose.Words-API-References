@@ -3,7 +3,7 @@ title: WarningInfo.Source
 linktitle: Source
 articleTitle: Source
 second_title: Aspose.Words for .NET
-description: WarningInfo Source property. Returns the source of the warning in C#.
+description: Discover the WarningInfo Source property that reveals the origin of warnings, enhancing your application's reliability and user experience.
 type: docs
 weight: 20
 url: /net/aspose.words/warninginfo/source/

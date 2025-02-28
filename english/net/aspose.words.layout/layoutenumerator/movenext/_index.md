@@ -3,7 +3,7 @@ title: LayoutEnumerator.MoveNext
 linktitle: MoveNext
 articleTitle: MoveNext
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator MoveNext method. Moves to the next sibling entity in visual order. When iterating lines of a paragraph broken across pages this method will not move to the next page but rather move to the next entity on the same page in C#.
+description: Discover the LayoutEnumerator MoveNext method to navigate sibling entities visually. Efficiently iterate through paragraph lines without crossing pages.
 type: docs
 weight: 120
 url: /net/aspose.words.layout/layoutenumerator/movenext/

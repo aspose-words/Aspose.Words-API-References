@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
 second_title: Aspose.Words for .NET
-description: MustacheTag ReferenceOffset property. Gets the zerobased starting position of the tag from the start of the ReferenceRun in C#.
+description: Discover the MustacheTag ReferenceOffset property, which reveals the zero-based starting position of tags in your ReferenceRun for precise data management.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mustachetag/referenceoffset/

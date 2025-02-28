@@ -3,7 +3,7 @@ title: Odso.ColumnDelimiter
 linktitle: ColumnDelimiter
 articleTitle: ColumnDelimiter
 second_title: Aspose.Words for .NET
-description: Odso ColumnDelimiter property. Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined in C#.
+description: Discover the Odso ColumnDelimiter property to easily define column separators in external data sources. Enhance data organization with customizable delimiters!
 type: docs
 weight: 20
 url: /net/aspose.words.settings/odso/columndelimiter/

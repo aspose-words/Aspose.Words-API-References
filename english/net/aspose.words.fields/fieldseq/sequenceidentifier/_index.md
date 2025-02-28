@@ -3,7 +3,7 @@ title: FieldSeq.SequenceIdentifier
 linktitle: SequenceIdentifier
 articleTitle: SequenceIdentifier
 second_title: Aspose.Words for .NET
-description: FieldSeq SequenceIdentifier property. Gets or sets the name assigned to the series of items that are to be numbered in C#.
+description: Discover the FieldSeq SequenceIdentifier property to effortlessly manage and customize item series names for efficient numbering and organization.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldseq/sequenceidentifier/

@@ -3,7 +3,7 @@ title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words for .NET
-description: HeaderFooter HeaderFooterType property. Gets the type of this header/footer in C#.
+description: Discover the HeaderFooterType property to easily access and manage your document's header and footer types for enhanced formatting control.
 type: docs
 weight: 20
 url: /net/aspose.words/headerfooter/headerfootertype/

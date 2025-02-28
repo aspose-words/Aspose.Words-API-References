@@ -3,7 +3,7 @@ title: Source Class
 linktitle: Source
 articleTitle: Source
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Bibliography.Source class. Represents an individual source such as a book journal article or interview in C#.
+description: Discover the Aspose.Words.Bibliography.Source class, your go-to solution for managing individual sources like books, journal articles, and interviews effortlessly.
 type: docs
 weight: 200
 url: /net/aspose.words.bibliography/source/

@@ -3,7 +3,7 @@ title: FieldBarcode
 linktitle: FieldBarcode
 articleTitle: FieldBarcode
 second_title: Aspose.Words for .NET
-description: FieldBarcode constructor. The default constructor in C#.
+description: Discover the FieldBarcode constructor—your go-to solution for seamless barcode generation. Unlock efficiency with our intuitive default constructor!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldbarcode/fieldbarcode/

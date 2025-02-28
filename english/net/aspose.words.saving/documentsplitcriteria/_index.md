@@ -3,9 +3,9 @@ title: DocumentSplitCriteria Enum
 linktitle: DocumentSplitCriteria
 articleTitle: DocumentSplitCriteria
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.DocumentSplitCriteria enum. Specifies how the document is split into parts when saving to Html Epub or Azw3 format in C#.
+description: Discover how Aspose.Words.Saving.DocumentSplitCriteria enhances document splitting for optimal Html, Epub, and Azw3 formats. Streamline your saving process!
 type: docs
-weight: 5570
+weight: 5580
 url: /net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration

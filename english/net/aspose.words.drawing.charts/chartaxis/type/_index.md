@@ -3,7 +3,7 @@ title: ChartAxis.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: ChartAxis Type property. Returns type of the axis in C#.
+description: Discover the ChartAxis Type property to easily identify axis types and enhance your data visualization for clearer insights and better analysis.
 type: docs
 weight: 260
 url: /net/aspose.words.drawing.charts/chartaxis/type/

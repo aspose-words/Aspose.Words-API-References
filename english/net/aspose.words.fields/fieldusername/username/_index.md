@@ -3,7 +3,7 @@ title: FieldUserName.UserName
 linktitle: UserName
 articleTitle: UserName
 second_title: Aspose.Words for .NET
-description: FieldUserName UserName property. Gest or sets the current users name in C#.
+description: Manage the current user's name effortlessly with the FieldUserName property. Enhance user experience and personalize interactions seamlessly.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldusername/username/

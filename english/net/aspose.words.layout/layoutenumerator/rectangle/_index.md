@@ -3,7 +3,7 @@ title: LayoutEnumerator.Rectangle
 linktitle: Rectangle
 articleTitle: Rectangle
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator Rectangle property. Returns the bounding rectangle of the current entity relative to the page top left corner in points in C#.
+description: Discover the LayoutEnumerator Rectangle property: Get precise bounding rectangles of entities relative to the page's top left corner in points.
 type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutenumerator/rectangle/

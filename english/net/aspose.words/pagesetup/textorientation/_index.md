@@ -3,7 +3,7 @@ title: PageSetup.TextOrientation
 linktitle: TextOrientation
 articleTitle: TextOrientation
 second_title: Aspose.Words for .NET
-description: PageSetup TextOrientation property. Allows to specify TextOrientation for the whole page. Default value is Horizontal in C#.
+description: Discover the PageSetup TextOrientation property to easily set page text direction. Customize your layout with options beyond the default Horizontal.
 type: docs
 weight: 430
 url: /net/aspose.words/pagesetup/textorientation/

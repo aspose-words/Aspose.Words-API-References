@@ -3,7 +3,7 @@ title: MailMergeSettings.CheckErrors
 linktitle: CheckErrors
 articleTitle: CheckErrors
 second_title: Aspose.Words for .NET
-description: MailMergeSettings CheckErrors property. Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is Default in C#.
+description: Discover the MailMergeSettings CheckErrors property in Microsoft Word for effective error reporting during mail merges. Optimize your workflow today!
 type: docs
 weight: 40
 url: /net/aspose.words.settings/mailmergesettings/checkerrors/

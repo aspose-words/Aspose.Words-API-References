@@ -3,7 +3,7 @@ title: ComHelper
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words for .NET
-description: ComHelper constructor. Initializes a new instance of this class in C#.
+description: Discover ComHelper: the powerful constructor that effortlessly initializes new class instances, enhancing your programming efficiency and productivity.
 type: docs
 weight: 10
 url: /net/aspose.words/comhelper/comhelper/

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 linktitle: ExportOriginalUrlForLinkedImages
 articleTitle: ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportOriginalUrlForLinkedImages property. Specifies whether original URL should be used as the URL of the linked images. Default value is false in C#.
+description: Discover HtmlSaveOptions' ExportOriginalUrlForLinkedImages feature, allowing you to use original URLs for linked images. Enhance your document's integrity!
 type: docs
 weight: 200
 url: /net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/

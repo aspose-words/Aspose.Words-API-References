@@ -3,7 +3,7 @@ title: FieldComments Class
 linktitle: FieldComments
 articleTitle: FieldComments
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldComments class. Implements the COMMENTS field in C#.
+description: Discover the Aspose.Words.Fields.FieldComments class to efficiently implement and manage COMMENTS fields in your documents. Enhance your document processing today!
 type: docs
 weight: 2100
 url: /net/aspose.words.fields/fieldcomments/

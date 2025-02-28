@@ -3,7 +3,7 @@ title: TaskPane.Row
 linktitle: Row
 articleTitle: Row
 second_title: Aspose.Words for .NET
-description: TaskPane Row property. Specifies the index enumerating from the outside to the inside of this task pane among other persisted task panes docked in the same default location in C#.
+description: Discover the TaskPane Row property: easily manage task pane indexing for streamlined organization and enhanced productivity in your applications.
 type: docs
 weight: 50
 url: /net/aspose.words.webextensions/taskpane/row/

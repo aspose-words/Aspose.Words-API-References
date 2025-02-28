@@ -3,7 +3,7 @@ title: ChartAxis.HasMinorGridlines
 linktitle: HasMinorGridlines
 articleTitle: HasMinorGridlines
 second_title: Aspose.Words for .NET
-description: ChartAxis HasMinorGridlines property. Gets or sets a flag indicating whether the axis has minor gridlines in C#.
+description: Discover the ChartAxis HasMinorGridlines property to easily control minor gridlines on your charts, enhancing data readability and visualization.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/

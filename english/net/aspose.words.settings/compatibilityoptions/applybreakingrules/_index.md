@@ -3,7 +3,7 @@ title: CompatibilityOptions.ApplyBreakingRules
 linktitle: ApplyBreakingRules
 articleTitle: ApplyBreakingRules
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions ApplyBreakingRules property. Use Legacy Ethiopic and Amharic Line Breaking Rules in C#.
+description: Optimize text layout with CompatibilityOptions ApplyBreakingRules. Enhance readability using Legacy Ethiopic and Amharic line breaking rules.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/compatibilityoptions/applybreakingrules/

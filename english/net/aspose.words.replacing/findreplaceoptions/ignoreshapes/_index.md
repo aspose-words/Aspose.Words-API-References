@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreShapes
 linktitle: IgnoreShapes
 articleTitle: IgnoreShapes
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions IgnoreShapes property. Gets or sets a boolean value indicating either to ignore shapes within a text in C#.
+description: Discover the IgnoreShapes property of FindReplaceOptions. Control shape inclusion in text processing with this essential boolean setting for improved accuracy.
 type: docs
 weight: 110
 url: /net/aspose.words.replacing/findreplaceoptions/ignoreshapes/

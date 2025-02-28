@@ -3,9 +3,9 @@ title: PdfPermissions Enum
 linktitle: PdfPermissions
 articleTitle: PdfPermissions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfPermissions enum. Specifies the operations that are allowed to a user on an encrypted PDF document in C#.
+description: Discover Aspose.Words.PdfPermissions enum for controlling user access on encrypted PDFs. Enhance security and manage document operations effectively.
 type: docs
-weight: 6150
+weight: 6160
 url: /net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration

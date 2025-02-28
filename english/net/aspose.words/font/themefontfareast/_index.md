@@ -3,7 +3,7 @@ title: Font.ThemeFontFarEast
 linktitle: ThemeFontFarEast
 articleTitle: ThemeFontFarEast
 second_title: Aspose.Words for .NET
-description: Font ThemeFontFarEast property. Gets or sets the East Asian theme font in the applied font scheme that is associated with this Font object in C#.
+description: Discover how to customize East Asian theme fonts in your designs with Font ThemeFontFarEast. Enhance your projects with unique, tailored typography!
 type: docs
 weight: 510
 url: /net/aspose.words/font/themefontfareast/

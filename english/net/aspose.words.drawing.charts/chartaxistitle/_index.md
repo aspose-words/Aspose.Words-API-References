@@ -3,7 +3,7 @@ title: ChartAxisTitle Class
 linktitle: ChartAxisTitle
 articleTitle: ChartAxisTitle
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle class. Provides access to the axis title properties in C#.
+description: Explore the Aspose.Words.ChartAxisTitle class to easily manage axis title properties and enhance your document's visual impact.
 type: docs
 weight: 910
 url: /net/aspose.words.drawing.charts/chartaxistitle/

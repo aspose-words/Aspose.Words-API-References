@@ -3,7 +3,7 @@ title: CompatibilityOptions.NoLeading
 linktitle: NoLeading
 articleTitle: NoLeading
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions NoLeading property. Do Not Add Leading Between Lines of Text in C#.
+description: Discover the NoLeading property in CompatibilityOptions to eliminate unwanted spacing between text lines for a cleaner, more professional look.
 type: docs
 weight: 350
 url: /net/aspose.words.settings/compatibilityoptions/noleading/

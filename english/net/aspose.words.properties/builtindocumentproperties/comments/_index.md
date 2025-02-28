@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Comments property. Gets or sets the document comments in C#.
+description: Manage your document comments effortlessly with BuiltInDocumentProperties. Easily get or set comments for enhanced collaboration and clarity.
 type: docs
 weight: 60
 url: /net/aspose.words.properties/builtindocumentproperties/comments/

@@ -3,7 +3,7 @@ title: Aspose.Words.Settings
 linktitle: Aspose.Words.Settings
 articleTitle: Aspose.Words.Settings
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Settings namespace contains classes and enums that are used when specifying various settings and options stored in a document. These are mail merge write protection compatibility and other settings in C#.
+description: Discover the Aspose.Words.Settings namespace for powerful document customization. Manage mail merge, write protection, and more for optimal document control.
 type: docs
 weight: 260
 url: /net/aspose.words.settings/

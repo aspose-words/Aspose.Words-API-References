@@ -3,7 +3,7 @@ title: FieldBibliography.FormatLanguageId
 linktitle: FormatLanguageId
 articleTitle: FormatLanguageId
 second_title: Aspose.Words for .NET
-description: FieldBibliography FormatLanguageId property. Gets or sets the language ID that is used to format the bibliographic sources in the document in C#.
+description: Discover how the FieldBibliography FormatLanguageId property enhances your document's bibliographic sources with customizable language settings for improved clarity.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldbibliography/formatlanguageid/

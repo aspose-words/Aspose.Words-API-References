@@ -3,7 +3,7 @@ title: BorderCollection.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words for .NET
-description: BorderCollection Equals method. Compares collections of borders in C#.
+description: Discover the BorderCollection Equals method to efficiently compare border collections and enhance your coding productivity. Optimize your projects today!
 type: docs
 weight: 150
 url: /net/aspose.words/bordercollection/equals/
