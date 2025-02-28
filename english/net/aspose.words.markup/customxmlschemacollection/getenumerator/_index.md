@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: CustomXmlSchemaCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: Discover the CustomXmlSchemaCollection GetEnumerator method to easily iterate through all collection items. Enhance your XML data management today!
 type: docs
 weight: 60
 url: /net/aspose.words.markup/customxmlschemacollection/getenumerator/

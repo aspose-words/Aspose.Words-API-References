@@ -3,7 +3,7 @@ title: OdtSaveOptions.DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
-description: OdtSaveOptions DigitalSignatureDetails property. Gets or sets DigitalSignatureDetails object used to sign a document in C#.
+description: Explore OdtSaveOptions' DigitalSignatureDetails property to easily manage digital signatures for secure document signing and enhanced authenticity.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/odtsaveoptions/digitalsignaturedetails/

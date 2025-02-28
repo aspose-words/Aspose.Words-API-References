@@ -3,7 +3,7 @@ title: OpenAiModel.WithOrganization
 linktitle: WithOrganization
 articleTitle: WithOrganization
 second_title: Aspose.Words for .NET
-description: OpenAiModel WithOrganization method. Sets a specified Organization to the model in C#.
+description: Discover how the OpenAiModel WithOrganization method enhances your AI experience by easily setting your organization for optimized performance.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/openaimodel/withorganization/

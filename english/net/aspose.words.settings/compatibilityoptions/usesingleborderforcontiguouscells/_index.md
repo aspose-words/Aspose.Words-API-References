@@ -3,7 +3,7 @@ title: CompatibilityOptions.UseSingleBorderforContiguousCells
 linktitle: UseSingleBorderforContiguousCells
 articleTitle: UseSingleBorderforContiguousCells
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions UseSingleBorderforContiguousCells property. Use Simplified Rules For Table Border Conflicts in C#.
+description: Optimize your table design with the UseSingleBorderForContiguousCells property. Simplify border conflicts and enhance visual appeal effortlessly!
 type: docs
 weight: 650
 url: /net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/

@@ -3,7 +3,7 @@ title: ComparisonEvaluationResult.ErrorMessage
 linktitle: ErrorMessage
 articleTitle: ErrorMessage
 second_title: Aspose.Words for .NET
-description: ComparisonEvaluationResult ErrorMessage property. Gets the failed comparison evaluation results error message in C#.
+description: Discover the ComparisonEvaluationResult ErrorMessage property, which provides clear insights into failed evaluation results. Enhance your debugging process today!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonevaluationresult/errormessage/

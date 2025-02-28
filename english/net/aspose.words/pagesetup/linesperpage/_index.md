@@ -3,7 +3,7 @@ title: PageSetup.LinesPerPage
 linktitle: LinesPerPage
 articleTitle: LinesPerPage
 second_title: Aspose.Words for .NET
-description: PageSetup LinesPerPage property. Gets or sets the number of lines per page in the document grid in C#.
+description: Control your document layout with the PageSetup LinesPerPage property. Easily adjust lines per page for optimal readability and organization.
 type: docs
 weight: 240
 url: /net/aspose.words/pagesetup/linesperpage/

@@ -3,7 +3,7 @@ title: CompatibilityOptions.SuppressSpBfAfterPgBrk
 linktitle: SuppressSpBfAfterPgBrk
 articleTitle: SuppressSpBfAfterPgBrk
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions SuppressSpBfAfterPgBrk property. Do Not Use Space Before On First Line After a Page Break in C#.
+description: Optimize your document layout with CompatibilityOptions SuppressSpBfAfterPgBrk. Eliminate unwanted spaces after page breaks for cleaner formatting.
 type: docs
 weight: 500
 url: /net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/

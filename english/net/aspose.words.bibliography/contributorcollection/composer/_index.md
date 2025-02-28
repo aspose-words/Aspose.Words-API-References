@@ -3,7 +3,7 @@ title: ContributorCollection.Composer
 linktitle: Composer
 articleTitle: Composer
 second_title: Aspose.Words for .NET
-description: ContributorCollection Composer property. Gets or sets the composer of a source in C#.
+description: Discover the ContributorCollection Composer property to easily manage and customize source composers for enhanced data organization and efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.bibliography/contributorcollection/composer/

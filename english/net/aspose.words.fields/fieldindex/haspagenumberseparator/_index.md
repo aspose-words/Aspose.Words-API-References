@@ -3,7 +3,7 @@ title: FieldIndex.HasPageNumberSeparator
 linktitle: HasPageNumberSeparator
 articleTitle: HasPageNumberSeparator
 second_title: Aspose.Words for .NET
-description: FieldIndex HasPageNumberSeparator property. Gets a value indicating whether a page number separator is overridden through the fields code in C#.
+description: Discover the FieldIndex HasPageNumberSeparator property, which reveals if a page number separator is customized via field code for enhanced document formatting.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldindex/haspagenumberseparator/

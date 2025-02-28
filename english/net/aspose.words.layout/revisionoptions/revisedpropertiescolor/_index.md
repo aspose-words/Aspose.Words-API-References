@@ -3,7 +3,7 @@ title: RevisionOptions.RevisedPropertiesColor
 linktitle: RevisedPropertiesColor
 articleTitle: RevisedPropertiesColor
 second_title: Aspose.Words for .NET
-description: RevisionOptions RevisedPropertiesColor property. Allows to specify the color to be used for content with changes of formatting properties FormatChange Default value is NoHighlight in C#.
+description: Customize your content with RevisionOptions' RevisedPropertiesColor. Easily highlight formatting changes and enhance readability with this user-friendly feature.
 type: docs
 weight: 130
 url: /net/aspose.words.layout/revisionoptions/revisedpropertiescolor/

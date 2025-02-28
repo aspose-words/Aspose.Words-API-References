@@ -3,7 +3,7 @@ title: CompatibilityOptions.UseAltKinsokuLineBreakRules
 linktitle: UseAltKinsokuLineBreakRules
 articleTitle: UseAltKinsokuLineBreakRules
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions UseAltKinsokuLineBreakRules property. Use Alternate Set of East Asian Line Breaking Rules in C#.
+description: Enhance your text formatting with CompatibilityOptions' UseAltKinsokuLineBreakRules for improved East Asian line breaking. Optimize readability today!
 type: docs
 weight: 600
 url: /net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/

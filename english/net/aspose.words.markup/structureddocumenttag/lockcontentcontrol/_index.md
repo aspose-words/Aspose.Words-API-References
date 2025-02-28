@@ -3,7 +3,7 @@ title: StructuredDocumentTag.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag LockContentControl property. When set to true this property will prohibit a user from deleting this SDT in C#.
+description: Discover how the StructuredDocumentTag LockContentControl property enhances document security by preventing users from deleting essential content. Learn more!
 type: docs
 weight: 190
 url: /net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/

@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: BookmarksOutlineLevelCollection Add method. Adds a bookmark to the collection in C#.
+description: Discover how to enhance your project with the BookmarksOutlineLevelCollection Add method, effortlessly adding bookmarks to your collection for better organization.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/add/

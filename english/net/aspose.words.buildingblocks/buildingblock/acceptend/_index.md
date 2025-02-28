@@ -3,7 +3,7 @@ title: BuildingBlock.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: BuildingBlock AcceptEnd method. Accepts a visitor for visiting the end of the BuildingBlock in C#.
+description: Discover the BuildingBlock AcceptEnd method—seamlessly manage visitor access and enhance their experience at the end of your BuildingBlock.
 type: docs
 weight: 140
 url: /net/aspose.words.buildingblocks/buildingblock/acceptend/

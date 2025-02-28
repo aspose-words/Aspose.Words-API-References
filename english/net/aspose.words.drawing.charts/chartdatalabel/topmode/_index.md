@@ -3,7 +3,7 @@ title: ChartDataLabel.TopMode
 linktitle: TopMode
 articleTitle: TopMode
 second_title: Aspose.Words for .NET
-description: ChartDataLabel TopMode property. Gets or sets the interpretation mode of the Top property value whether it sets the location of the data label from the top edge of the chart of from the position specified by its Position property in C#.
+description: Discover the ChartDataLabel TopMode property to customize data label positioning on your charts. Enhance clarity and precision in your visual data presentations!
 type: docs
 weight: 220
 url: /net/aspose.words.drawing.charts/chartdatalabel/topmode/

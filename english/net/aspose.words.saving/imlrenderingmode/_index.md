@@ -3,9 +3,9 @@ title: ImlRenderingMode Enum
 linktitle: ImlRenderingMode
 articleTitle: ImlRenderingMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.ImlRenderingMode enum. Specifies how ink InkML objects are rendered to fixed page formats in C#.
+description: Discover the Aspose.Words ImlRenderingMode enum for optimal InkML rendering. Enhance your document output with precise ink object visualization!
 type: docs
-weight: 5860
+weight: 5870
 url: /net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration

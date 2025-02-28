@@ -3,7 +3,7 @@ title: Paragraph.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
 second_title: Aspose.Words for .NET
-description: Paragraph ListFormat property. Provides access to the list formatting properties of the paragraph in C#.
+description: Discover the Paragraph ListFormat property to easily access and customize your paragraph's list formatting, enhancing your document's presentation.
 type: docs
 weight: 150
 url: /net/aspose.words/paragraph/listformat/

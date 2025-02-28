@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitBookmarkEnd
 linktitle: VisitBookmarkEnd
 articleTitle: VisitBookmarkEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitBookmarkEnd method. Called when an end of a bookmark is encountered in the document in C#.
+description: Discover the DocumentVisitor VisitBookmarkEnd method, which enhances document navigation by efficiently handling bookmark endings for seamless user experience.
 type: docs
 weight: 40
 url: /net/aspose.words/documentvisitor/visitbookmarkend/

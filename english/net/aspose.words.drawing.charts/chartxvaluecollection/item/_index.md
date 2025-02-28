@@ -3,7 +3,7 @@ title: ChartXValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: ChartXValueCollection Item property. Gets or sets the X value at the specified index in C#.
+description: Discover the ChartXValueCollection Item property to easily access or modify X values at any index, enhancing your data visualization experience.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartxvaluecollection/item/

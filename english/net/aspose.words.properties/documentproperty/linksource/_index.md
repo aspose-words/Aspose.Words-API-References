@@ -3,7 +3,7 @@ title: DocumentProperty.LinkSource
 linktitle: LinkSource
 articleTitle: LinkSource
 second_title: Aspose.Words for .NET
-description: DocumentProperty LinkSource property. Gets the source of a linked custom document property in C#.
+description: Discover the LinkSource property for DocumentProperty: effortlessly access the source of your linked custom document properties for enhanced document management.
 type: docs
 weight: 20
 url: /net/aspose.words.properties/documentproperty/linksource/

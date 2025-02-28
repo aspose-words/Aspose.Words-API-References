@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: CustomXmlPropertyCollection Clear method. Removes all elements from the collection in C#.
+description: Effortlessly clear your CustomXmlPropertyCollection with the Clear method, removing all elements for streamlined data management.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlpropertycollection/clear/

@@ -3,7 +3,7 @@ title: ControlChar.CellChar
 linktitle: CellChar
 articleTitle: CellChar
 second_title: Aspose.Words for .NET
-description: ControlChar CellChar field. End of a table cell or end of a table row character char7 or a in C#.
+description: Discover the ControlChar CellChar field for seamless table management. Enhance your data organization with efficient end-of-cell and row characters.
 type: docs
 weight: 20
 url: /net/aspose.words/controlchar/cellchar/

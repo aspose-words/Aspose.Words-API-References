@@ -3,7 +3,7 @@ title: SmartTag.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: SmartTag Accept method. Accepts a visitor in C#.
+description: Enhance user engagement with SmartTag's Accept method, designed to seamlessly welcome visitors and boost your website's interaction.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/smarttag/accept/

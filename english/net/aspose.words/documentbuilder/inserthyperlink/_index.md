@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertHyperlink method. Inserts a hyperlink into the document in C#.
+description: Enhance your documents with DocumentBuilder's InsertHyperlink method, effortlessly adding clickable links for improved navigation and user engagement.
 type: docs
 weight: 390
 url: /net/aspose.words/documentbuilder/inserthyperlink/

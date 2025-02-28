@@ -3,7 +3,7 @@ title: Table.FirstRow
 linktitle: FirstRow
 articleTitle: FirstRow
 second_title: Aspose.Words for .NET
-description: Table FirstRow property. Returns the first Row node in the table in C#.
+description: Discover the FirstRow property of tables: effortlessly access the first row node for streamlined data management and enhanced table functionality.
 type: docs
 weight: 160
 url: /net/aspose.words.tables/table/firstrow/

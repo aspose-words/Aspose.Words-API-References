@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertBreak
 linktitle: InsertBreak
 articleTitle: InsertBreak
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertBreak method. Inserts a break of the specified type into the document in C#.
+description: Enhance your documents effortlessly with the DocumentBuilder InsertBreak method, allowing you to seamlessly add custom breaks for improved formatting.
 type: docs
 weight: 260
 url: /net/aspose.words/documentbuilder/insertbreak/

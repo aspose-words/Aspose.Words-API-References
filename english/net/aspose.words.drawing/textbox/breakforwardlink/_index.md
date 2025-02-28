@@ -3,7 +3,7 @@ title: TextBox.BreakForwardLink
 linktitle: BreakForwardLink
 articleTitle: BreakForwardLink
 second_title: Aspose.Words for .NET
-description: TextBox BreakForwardLink method. Breaks the link to the next TextBox in C#.
+description: Discover the TextBox BreakForwardLink method to seamlessly unlink your TextBoxes, enhancing user experience and form navigation. Optimize your UI today!
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/textbox/breakforwardlink/

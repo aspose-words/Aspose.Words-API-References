@@ -3,7 +3,7 @@ title: NodeList.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: NodeList Count property. Gets the number of nodes in the list in C#.
+description: Discover the NodeList Count property to easily retrieve the total number of nodes in your list, enhancing your web development efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words/nodelist/count/

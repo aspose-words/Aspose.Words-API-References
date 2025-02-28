@@ -3,7 +3,7 @@ title: CommentRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: CommentRangeEnd Accept method. Accepts a visitor in C#.
+description: Discover the CommentRangeEnd Accept method to seamlessly engage visitors and enhance user interaction on your platform. Boost engagement today!
 type: docs
 weight: 40
 url: /net/aspose.words/commentrangeend/accept/

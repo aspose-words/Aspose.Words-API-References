@@ -3,7 +3,7 @@ title: LayoutFlow Enum
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.LayoutFlow enum. Determines the flow of the text layout in a textbox in C#.
+description: Discover Aspose.Words.Drawing.LayoutFlow enum to control text layout in textboxes, enhancing your document design and readability effortlessly.
 type: docs
 weight: 1420
 url: /net/aspose.words.drawing/layoutflow/

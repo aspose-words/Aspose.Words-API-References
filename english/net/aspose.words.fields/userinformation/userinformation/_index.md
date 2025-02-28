@@ -3,7 +3,7 @@ title: UserInformation
 linktitle: UserInformation
 articleTitle: UserInformation
 second_title: Aspose.Words for .NET
-description: UserInformation constructor. The default constructor in C#.
+description: Discover the UserInformation constructor—your essential tool for creating user profiles effortlessly with default settings for seamless integration.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/userinformation/userinformation/

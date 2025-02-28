@@ -3,7 +3,7 @@ title: ContributorCollection.Compiler
 linktitle: Compiler
 articleTitle: Compiler
 second_title: Aspose.Words for .NET
-description: ContributorCollection Compiler property. Gets or sets the compiler of a source in C#.
+description: Discover the ContributorCollection Compiler property to efficiently manage source compilers. Enhance your coding experience with easy access and control!
 type: docs
 weight: 40
 url: /net/aspose.words.bibliography/contributorcollection/compiler/

@@ -3,7 +3,7 @@ title: Source.Publisher
 linktitle: Publisher
 articleTitle: Publisher
 second_title: Aspose.Words for .NET
-description: Source Publisher property. Gets or sets the publisher of a source in C#.
+description: Manage your Source Publisher properties effortlessly. Easily set or retrieve the publisher details for streamlined source management.
 type: docs
 weight: 360
 url: /net/aspose.words.bibliography/source/publisher/

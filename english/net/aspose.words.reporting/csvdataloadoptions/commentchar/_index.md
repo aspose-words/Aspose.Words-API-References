@@ -3,7 +3,7 @@ title: CsvDataLoadOptions.CommentChar
 linktitle: CommentChar
 articleTitle: CommentChar
 second_title: Aspose.Words for .NET
-description: CsvDataLoadOptions CommentChar property. Gets or sets the character that is used to comment lines of CSV data in C#.
+description: Discover how to customize the CommentChar property in CsvDataLoadOptions to enhance your CSV data handling. Optimize your data loading today!
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/csvdataloadoptions/commentchar/

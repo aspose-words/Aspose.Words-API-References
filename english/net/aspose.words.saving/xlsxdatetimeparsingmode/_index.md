@@ -3,9 +3,9 @@ title: XlsxDateTimeParsingMode Enum
 linktitle: XlsxDateTimeParsingMode
 articleTitle: XlsxDateTimeParsingMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.XlsxDateTimeParsingMode enum. Specifies how document text is parsed to identify date and time values in C#.
+description: Discover Aspose.Words' XlsxDateTimeParsingMode enum for efficient document text parsing. Easily identify date and time values in your files!
 type: docs
-weight: 6350
+weight: 6360
 url: /net/aspose.words.saving/xlsxdatetimeparsingmode/
 ---
 ## XlsxDateTimeParsingMode enumeration

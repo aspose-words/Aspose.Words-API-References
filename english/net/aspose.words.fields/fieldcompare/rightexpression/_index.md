@@ -3,7 +3,7 @@ title: FieldCompare.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words for .NET
-description: FieldCompare RightExpression property. Gets or sets the right part of the comparison expression in C#.
+description: Discover FieldCompare's RightExpression property to easily manage and customize the right side of your comparison expressions for optimal performance.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldcompare/rightexpression/

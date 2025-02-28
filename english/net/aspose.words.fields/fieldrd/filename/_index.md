@@ -3,7 +3,7 @@ title: FieldRD.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words for .NET
-description: FieldRD FileName property. Gets or sets the name of the file to include when generating a table of contents table of authorities or index in C#.
+description: Discover how the FieldRD FileName property simplifies file management by easily setting names for generating your table of contents and indexes.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldrd/filename/

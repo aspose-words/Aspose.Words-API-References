@@ -3,7 +3,7 @@ title: RevisionCollection.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: RevisionCollection Accept method. Accepts revisions that match specified criteria in C#.
+description: Discover the RevisionCollection Accept method to easily manage and filter revisions based on your criteria for streamlined project updates.
 type: docs
 weight: 40
 url: /net/aspose.words/revisioncollection/accept/

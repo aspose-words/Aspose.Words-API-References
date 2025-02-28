@@ -3,9 +3,9 @@ title: ICssSavingCallback Interface
 linktitle: ICssSavingCallback
 articleTitle: ICssSavingCallback
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.ICssSavingCallback interface. Implement this interface if you want to control how Aspose.Words saves CSS Cascading Style Sheet when saving a document to HTML in C#.
+description: Control CSS saving in Aspose.Words with the ICssSavingCallback interface. Customize your HTML document output for enhanced styling and flexibility.
 type: docs
-weight: 5740
+weight: 5750
 url: /net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface

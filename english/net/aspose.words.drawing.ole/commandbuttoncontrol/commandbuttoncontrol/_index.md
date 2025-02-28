@@ -3,7 +3,7 @@ title: CommandButtonControl
 linktitle: CommandButtonControl
 articleTitle: CommandButtonControl
 second_title: Aspose.Words for .NET
-description: CommandButtonControl constructor. Initializes a new instance of CommandButtonControl class in C#.
+description: Discover the CommandButtonControl constructor. Effortlessly create and customize buttons for your applications with this powerful class instance.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/commandbuttoncontrol/commandbuttoncontrol/

@@ -3,7 +3,7 @@ title: ReplacingArgs.GroupName
 linktitle: GroupName
 articleTitle: GroupName
 second_title: Aspose.Words for .NET
-description: ReplacingArgs GroupName property. Identifies by name a captured group in the Match that is to be replaced with the Replacement string in C#.
+description: Discover how to effectively use the GroupName property to replace captured groups in your matches with custom strings. Enhance your string manipulation skills!
 type: docs
 weight: 20
 url: /net/aspose.words.replacing/replacingargs/groupname/

@@ -3,7 +3,7 @@ title: Source.PeriodicalTitle
 linktitle: PeriodicalTitle
 articleTitle: PeriodicalTitle
 second_title: Aspose.Words for .NET
-description: Source PeriodicalTitle property. Gets or sets the periodical title of a source in C#.
+description: Manage your source's periodical title effortlessly. Easily get or set titles for enhanced organization and accurate referencing.
 type: docs
 weight: 330
 url: /net/aspose.words.bibliography/source/periodicaltitle/

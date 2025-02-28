@@ -3,7 +3,7 @@ title: BuildingBlock.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
 second_title: Aspose.Words for .NET
-description: BuildingBlock FirstSection property. Gets the first section in the building block in C#.
+description: Discover BuildingBlock FirstSection: Effortlessly access the first section of your building block for streamlined organization and enhanced efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.buildingblocks/buildingblock/firstsection/

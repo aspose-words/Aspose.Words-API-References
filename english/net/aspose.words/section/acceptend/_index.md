@@ -3,7 +3,7 @@ title: Section.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: Section AcceptEnd method.  in C#.
+description: Discover the powerful AcceptEnd method in our guide. Enhance your skills and streamline your workflow with expert insights and practical tips!
 type: docs
 weight: 80
 url: /net/aspose.words/section/acceptend/

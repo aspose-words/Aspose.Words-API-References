@@ -3,7 +3,7 @@ title: ParagraphFormat.RightIndent
 linktitle: RightIndent
 articleTitle: RightIndent
 second_title: Aspose.Words for .NET
-description: ParagraphFormat RightIndent property. Gets or sets the value in points that represents the right indent for paragraph in C#.
+description: Discover how to easily adjust the right indent of your paragraphs with the ParagraphFormat RightIndent property. Enhance your document formatting today!
 type: docs
 weight: 280
 url: /net/aspose.words/paragraphformat/rightindent/

@@ -3,7 +3,7 @@ title: Font.NameAscii
 linktitle: NameAscii
 articleTitle: NameAscii
 second_title: Aspose.Words for .NET
-description: Font NameAscii property. Returns or sets the font used for Latin text characters with character codes from 0 zero through 127 in C#.
+description: Discover the Font NameAscii property to customize Latin text fonts, enhancing your design with character codes 0-127 for improved readability.
 type: docs
 weight: 240
 url: /net/aspose.words/font/nameascii/

@@ -3,7 +3,7 @@ title: CertificateHolder.Certificate
 linktitle: Certificate
 articleTitle: Certificate
 second_title: Aspose.Words for .NET
-description: CertificateHolder Certificate property. Returns the instance of X509Certificate2 which holds private public keys and certificate chain in C#.
+description: Access the X509Certificate2 instance with private keys and certificate chain. Simplify your security management with our CertificateHolder property.
 type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/certificateholder/certificate/

@@ -3,7 +3,7 @@ title: FieldIncludeText.LockFields
 linktitle: LockFields
 articleTitle: LockFields
 second_title: Aspose.Words for .NET
-description: FieldIncludeText LockFields property. Gets or sets whether to prevent fields in the included document from being updated in C#.
+description: Control document updates with the FieldIncludeText LockFields property. Easily prevent changes to included fields for enhanced document integrity.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldincludetext/lockfields/

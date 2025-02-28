@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreTables
 linktitle: IgnoreTables
 articleTitle: IgnoreTables
 second_title: Aspose.Words for .NET
-description: CompareOptions IgnoreTables property. Specifies whether to compare the differences in data contained in tables in C#.
+description: Discover how the CompareOptions IgnoreTables property enhances data analysis by controlling table data comparison for accurate insights.
 type: docs
 weight: 110
 url: /net/aspose.words.comparing/compareoptions/ignoretables/

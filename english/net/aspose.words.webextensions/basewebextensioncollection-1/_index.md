@@ -3,9 +3,9 @@ title: BaseWebExtensionCollectionT Class
 linktitle: BaseWebExtensionCollectionT
 articleTitle: BaseWebExtensionCollectionT
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T class. Base class for TaskPaneCollection WebExtensionBindingCollection WebExtensionPropertyCollection and WebExtensionReferenceCollection collections in C#.
+description: Discover the Aspose.Words.WebExtensions.BaseWebExtensionCollection1T class, your essential tool for managing TaskPane and WebExtension collections efficiently.
 type: docs
-weight: 7390
+weight: 7400
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class

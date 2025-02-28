@@ -3,7 +3,7 @@ title: Inline.IsDeleteRevision
 linktitle: IsDeleteRevision
 articleTitle: IsDeleteRevision
 second_title: Aspose.Words for .NET
-description: Inline IsDeleteRevision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled in C#.
+description: Discover the Inline IsDeleteRevision property in Microsoft Word, which indicates if an object was deleted during change tracking. Enhance your document management!
 type: docs
 weight: 20
 url: /net/aspose.words/inline/isdeleterevision/

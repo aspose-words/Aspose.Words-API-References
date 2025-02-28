@@ -3,7 +3,7 @@ title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
 second_title: Aspose.Words for .NET
-description: Cell PreviousCell property. Gets the previous Cell node in C#.
+description: Access the previous Cell node effortlessly with the Cell PreviousCell property. Enhance your data navigation and streamline your coding process.
 type: docs
 weight: 110
 url: /net/aspose.words.tables/cell/previouscell/

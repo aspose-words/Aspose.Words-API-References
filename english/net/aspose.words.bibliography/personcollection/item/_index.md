@@ -3,7 +3,7 @@ title: PersonCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: PersonCollection Item property. Gets or sets a person at the specified index in C#.
+description: Access or modify a specific person in PersonCollection by index. Simplify data management with this essential property for efficient coding!
 type: docs
 weight: 30
 url: /net/aspose.words.bibliography/personcollection/item/

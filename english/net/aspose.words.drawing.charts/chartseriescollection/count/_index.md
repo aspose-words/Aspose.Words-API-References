@@ -3,7 +3,7 @@ title: ChartSeriesCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: ChartSeriesCollection Count property. Returns the number of ChartSeries in this collection in C#.
+description: Discover the ChartSeriesCollection Count property, which provides the total number of ChartSeries in your collection for enhanced data visualization.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartseriescollection/count/

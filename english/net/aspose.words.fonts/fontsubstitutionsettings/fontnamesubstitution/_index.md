@@ -3,7 +3,7 @@ title: FontSubstitutionSettings.FontNameSubstitution
 linktitle: FontNameSubstitution
 articleTitle: FontNameSubstitution
 second_title: Aspose.Words for .NET
-description: FontSubstitutionSettings FontNameSubstitution property. Settings related to font name substitution rule in C#.
+description: Optimize your typography with FontSubstitutionSettings. Discover how to customize font name rules for enhanced design flexibility and user experience.
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/

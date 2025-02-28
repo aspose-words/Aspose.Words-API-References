@@ -3,9 +3,9 @@ title: ThemeFont Enum
 linktitle: ThemeFont
 articleTitle: ThemeFont
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Themes.ThemeFont enum. Specifies the types of theme font names for document themes in C#.
+description: Discover Aspose.Words ThemeFont enum to easily manage document theme fonts and enhance your documents' visual appeal with tailored styles.
 type: docs
-weight: 7180
+weight: 7190
 url: /net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration

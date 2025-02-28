@@ -3,7 +3,7 @@ title: Source.Year
 linktitle: Year
 articleTitle: Year
 second_title: Aspose.Words for .NET
-description: Source Year property. Gets or sets the year of a source in C#.
+description: Manage your Source Year property effortlessly. Easily get or set the year of a source for streamlined data organization and enhanced accuracy.
 type: docs
 weight: 530
 url: /net/aspose.words.bibliography/source/year/

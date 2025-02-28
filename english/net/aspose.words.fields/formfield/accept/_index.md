@@ -3,7 +3,7 @@ title: FormField.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: FormField Accept method. Accepts a visitor in C#.
+description: Discover the FormField Accept method that enhances user experience by seamlessly accepting visitor inputs. Boost engagement effortlessly!
 type: docs
 weight: 230
 url: /net/aspose.words.fields/formfield/accept/

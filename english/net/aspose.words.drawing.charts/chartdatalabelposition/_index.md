@@ -3,7 +3,7 @@ title: ChartDataLabelPosition Enum
 linktitle: ChartDataLabelPosition
 articleTitle: ChartDataLabelPosition
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabelPosition enum. Specifies the position for a chart data label in C#.
+description: Discover the Aspose.Words.ChartDataLabelPosition enum to easily customize your chart data labels for enhanced clarity and presentation.
 type: docs
 weight: 960
 url: /net/aspose.words.drawing.charts/chartdatalabelposition/

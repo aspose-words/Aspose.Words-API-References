@@ -3,7 +3,7 @@ title: FieldDde.InsertAsText
 linktitle: InsertAsText
 articleTitle: InsertAsText
 second_title: Aspose.Words for .NET
-description: FieldDde InsertAsText property. Gets or sets whether to insert the linked object in textonly format in C#.
+description: Discover how the FieldDde InsertAsText property enhances your documents by allowing linked objects to be inserted in text-only format for better compatibility.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fielddde/insertastext/

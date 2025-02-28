@@ -3,7 +3,7 @@ title: FieldCitation.SourceTag
 linktitle: SourceTag
 articleTitle: SourceTag
 second_title: Aspose.Words for .NET
-description: FieldCitation SourceTag property. Gets or sets a value that matches the Tag elements value of the source to insert in C#.
+description: Discover the FieldCitation SourceTag property: easily manage and customize Tag elements for seamless data insertion and enhanced source accuracy.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldcitation/sourcetag/

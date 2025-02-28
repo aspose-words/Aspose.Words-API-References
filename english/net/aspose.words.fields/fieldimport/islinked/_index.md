@@ -3,7 +3,7 @@ title: FieldImport.IsLinked
 linktitle: IsLinked
 articleTitle: IsLinked
 second_title: Aspose.Words for .NET
-description: FieldImport IsLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document in C#.
+description: Optimize your documents with FieldImport's IsLinked property to reduce file size by excluding graphics data. Enhance efficiency and performance today!
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldimport/islinked/

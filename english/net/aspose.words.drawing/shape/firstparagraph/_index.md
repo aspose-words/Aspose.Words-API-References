@@ -3,7 +3,7 @@ title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words for .NET
-description: Shape FirstParagraph property. Gets the first paragraph in the shape in C#.
+description: Retrieve the first paragraph of a shape effortlessly. Enhance your document's layout with our easy-to-use Shape FirstParagraph feature.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/shape/firstparagraph/

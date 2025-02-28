@@ -3,7 +3,7 @@ title: FieldSaveDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words for .NET
-description: FieldSaveDate UseLunarCalendar property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C#.
+description: FieldSaveDate's UseLunarCalendar property allows you to easily switch between Hijri and Hebrew lunar calendars for seamless date management.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsavedate/uselunarcalendar/

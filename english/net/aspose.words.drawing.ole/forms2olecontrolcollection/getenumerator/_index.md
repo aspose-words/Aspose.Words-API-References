@@ -3,7 +3,7 @@ title: Forms2OleControlCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: Forms2OleControlCollection GetEnumerator method. Gets enumerator in C#.
+description: Discover the Forms2OleControlCollection GetEnumerator method to easily retrieve enumerators for efficient data handling in your applications.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/

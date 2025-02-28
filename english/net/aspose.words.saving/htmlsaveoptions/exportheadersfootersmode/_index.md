@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportHeadersFootersMode property. Specifies how headers and footers are output to HTML MHTML or EPUB. Default value is PerSection for HTML/MHTML and None for EPUB in C#.
+description: Discover how the HtmlSaveOptions ExportHeadersFootersMode property optimizes header and footer output for HTML, MHTML, and EPUB formats. Maximize your document's presentation!
 type: docs
 weight: 160
 url: /net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/

@@ -3,9 +3,9 @@ title: VbaProject Class
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Vba.VbaProject class. Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules in C#.
+description: Unlock the power of Aspose.Words.Vba.VbaProject class to effortlessly manage VBA project info and modules within your documents. Enhance your automation today!
 type: docs
-weight: 7270
+weight: 7280
 url: /net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class

@@ -3,7 +3,7 @@ title: CompatibilityOptions.DoNotLeaveBackslashAlone
 linktitle: DoNotLeaveBackslashAlone
 articleTitle: DoNotLeaveBackslashAlone
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions DoNotLeaveBackslashAlone property. Convert Backslash To Yen Sign When Entered in C#.
+description: Transform backslashes into yen signs effortlessly with CompatibilityOptions' DoNotLeaveBackslashAlone feature. Enhance your data input today!
 type: docs
 weight: 160
 url: /net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/

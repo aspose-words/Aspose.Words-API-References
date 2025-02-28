@@ -3,7 +3,7 @@ title: Section
 linktitle: Section
 articleTitle: Section
 second_title: Aspose.Words for .NET
-description: Section constructor. Initializes a new instance of the Section class in C#.
+description: Create dynamic web sections effortlessly with our Section Constructor. Easily initialize and customize your Section class for optimal site performance.
 type: docs
 weight: 10
 url: /net/aspose.words/section/section/

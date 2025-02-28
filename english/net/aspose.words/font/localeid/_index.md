@@ -3,7 +3,7 @@ title: Font.LocaleId
 linktitle: LocaleId
 articleTitle: LocaleId
 second_title: Aspose.Words for .NET
-description: Font LocaleId property. Gets or sets the locale identifier language of the formatted characters in C#.
+description: Discover how the Font LocaleId property enhances your text formatting by managing locale identifiers for diverse character languages. Improve your coding today!
 type: docs
 weight: 200
 url: /net/aspose.words/font/localeid/

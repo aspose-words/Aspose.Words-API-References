@@ -3,7 +3,7 @@ title: SaveOptions.PrettyFormat
 linktitle: PrettyFormat
 articleTitle: PrettyFormat
 second_title: Aspose.Words for .NET
-description: SaveOptions PrettyFormat property. When true pretty formats output where applicable. Default value is false in C#.
+description: Enhance your output with SaveOptions' PrettyFormat property. Activate for cleaner, well-structured results. Default is false. Discover the difference!
 type: docs
 weight: 110
 url: /net/aspose.words.saving/saveoptions/prettyformat/
@@ -35,27 +35,28 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
 // Enabling pretty format makes the raw html code more readable by adding tab stop and new line characters.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
+string newLine = Environment.NewLine;
 
 if (usePrettyFormat)
     Assert.AreEqual(
-        "<html>\r\n" +
-                    "\t<head>\r\n" +
-                        "\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n" +
-                        "\t\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />\r\n" +
-                        $"\t\t<meta name=\"generator\" content=\"{BuildVersionInfo.Product} {BuildVersionInfo.Version}\" />\r\n" +
-                        "\t\t<title>\r\n" +
-                        "\t\t</title>\r\n" +
-                    "\t</head>\r\n" +
-                    "\t<body style=\"font-family:'Times New Roman'; font-size:12pt\">\r\n" +
-                        "\t\t<div>\r\n" +
-                            "\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">\r\n" +
-                                "\t\t\t\t<span>Hello world!</span>\r\n" +
-                            "\t\t\t</p>\r\n" +
-                            "\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">\r\n" +
-                                "\t\t\t\t<span style=\"-aw-import:ignore\">&#xa0;</span>\r\n" +
-                            "\t\t\t</p>\r\n" +
-                        "\t\t</div>\r\n" +
-                    "\t</body>\r\n</html>", 
+        $"<html>{newLine}" +
+                    $"\t<head>{newLine}" +
+                        $"\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />{newLine}" +
+                        $"\t\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />{newLine}" +
+                        $"\t\t<meta name=\"generator\" content=\"{BuildVersionInfo.Product} {BuildVersionInfo.Version}\" />{newLine}" +
+                        $"\t\t<title>{newLine}" +
+                        $"\t\t</title>{newLine}" +
+                    $"\t</head>{newLine}" +
+                    $"\t<body style=\"font-family:'Times New Roman'; font-size:12pt\">{newLine}" +
+                        $"\t\t<div>{newLine}" +
+                            $"\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">{newLine}" +
+                                $"\t\t\t\t<span>Hello world!</span>{newLine}" +
+                            $"\t\t\t</p>{newLine}" +
+                            $"\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">{newLine}" +
+                                $"\t\t\t\t<span style=\"-aw-import:ignore\">&#xa0;</span>{newLine}" +
+                            $"\t\t\t</p>{newLine}" +
+                        $"\t\t</div>{newLine}" +
+                    $"\t</body>{newLine}</html>", 
         html);
 else
     Assert.AreEqual(

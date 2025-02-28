@@ -3,7 +3,7 @@ title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
 second_title: Aspose.Words for .NET
-description: MailMergeSettings ConnectString property. Specifies the connection string used to connect to an external data source. The default value is an empty string in C#.
+description: Discover how the MailMergeSettings ConnectString property links to external data sources. Easily customize your connection for seamless data integration!
 type: docs
 weight: 50
 url: /net/aspose.words.settings/mailmergesettings/connectstring/

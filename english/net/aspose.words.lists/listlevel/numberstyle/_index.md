@@ -3,7 +3,7 @@ title: ListLevel.NumberStyle
 linktitle: NumberStyle
 articleTitle: NumberStyle
 second_title: Aspose.Words for .NET
-description: ListLevel NumberStyle property. Returns or sets the number style for this list level in C#.
+description: Discover the ListLevel NumberStyle property to easily customize and set number styles for your lists, enhancing organization and clarity.
 type: docs
 weight: 90
 url: /net/aspose.words.lists/listlevel/numberstyle/

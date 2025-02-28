@@ -3,7 +3,7 @@ title: Source.Issue
 linktitle: Issue
 articleTitle: Issue
 second_title: Aspose.Words for .NET
-description: Source Issue property. Gets or sets the issue of a source in C#.
+description: Manage your source issues effortlessly. Easily get or set source properties to streamline your workflow and enhance productivity.
 type: docs
 weight: 240
 url: /net/aspose.words.bibliography/source/issue/

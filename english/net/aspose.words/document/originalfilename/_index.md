@@ -3,7 +3,7 @@ title: Document.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words for .NET
-description: Document OriginalFileName property. Gets the original file name of the document in C#.
+description: Retrieve the original file name of your document effortlessly with the Document OriginalFileName property. Enhance your workflow and organization today!
 type: docs
 weight: 300
 url: /net/aspose.words/document/originalfilename/

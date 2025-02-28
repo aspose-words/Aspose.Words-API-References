@@ -3,7 +3,7 @@ title: TextPath.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: TextPath Text property. Defines the text of the text path in C#.
+description: Explore TextPath's Text property to effortlessly define and customize your text paths for stunning visual effects in your designs.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/textpath/text/

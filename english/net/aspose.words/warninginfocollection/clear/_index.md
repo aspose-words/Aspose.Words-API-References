@@ -3,7 +3,7 @@ title: WarningInfoCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: WarningInfoCollection Clear method. Removes all elements from the collection in C#.
+description: Effortlessly clear your WarningInfoCollection with this method, removing all elements for streamlined data management and improved performance.
 type: docs
 weight: 40
 url: /net/aspose.words/warninginfocollection/clear/

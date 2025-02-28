@@ -3,7 +3,7 @@ title: FieldToc Class
 linktitle: FieldToc
 articleTitle: FieldToc
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldToc class. Implements the TOC field in C#.
+description: Discover the Aspose.Words.Fields.FieldToc class for seamless Table of Contents creation in documents. Enhance your workflow with powerful features!
 type: docs
 weight: 2930
 url: /net/aspose.words.fields/fieldtoc/

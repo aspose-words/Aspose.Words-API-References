@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 linktitle: HtmlSaveOptions
 articleTitle: HtmlSaveOptions
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Html format in C#.
+description: Discover the HtmlSaveOptions constructor to effortlessly create and save documents in HTML format, ensuring optimal formatting and easy sharing.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/

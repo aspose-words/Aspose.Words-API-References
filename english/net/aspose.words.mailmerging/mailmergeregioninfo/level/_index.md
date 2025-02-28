@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Level
 linktitle: Level
 articleTitle: Level
 second_title: Aspose.Words for .NET
-description: MailMergeRegionInfo Level property. Returns the nesting level for the region in C#.
+description: Discover the MailMergeRegionInfo Level property that reveals the nesting level of your regions, enhancing your document automation and efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/level/

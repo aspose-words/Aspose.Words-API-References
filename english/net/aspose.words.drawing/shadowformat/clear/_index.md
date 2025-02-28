@@ -3,7 +3,7 @@ title: ShadowFormat.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: ShadowFormat Clear method. Clears shadow format in C#.
+description: Effortlessly reset your shadow format with the ShadowFormat Clear method. Enhance your design with a clean slate today!
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/shadowformat/clear/

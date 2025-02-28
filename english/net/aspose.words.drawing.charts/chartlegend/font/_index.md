@@ -3,7 +3,7 @@ title: ChartLegend.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: ChartLegend Font property. Provides access to the default font formatting of legend entries. To override the font formatting for a specific legend entry use theFont property in C#.
+description: Customize your ChartLegend font settings effortlessly! Access default formatting and easily override specific legend entries for a polished look.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartlegend/font/

@@ -3,7 +3,7 @@ title: Source.JournalName
 linktitle: JournalName
 articleTitle: JournalName
 second_title: Aspose.Words for .NET
-description: Source JournalName property. Gets or sets the journal name of a source in C#.
+description: Discover how to easily manage the journal name of your source with JournalName property. Simplify your research and enhance your citations today!
 type: docs
 weight: 250
 url: /net/aspose.words.bibliography/source/journalname/

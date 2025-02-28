@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be HtmlFixed in C#.
+description: Discover the HtmlFixedSaveOptions SaveFormat property to ensure your documents are saved in the exclusive HtmlFixed format for optimal quality.
 type: docs
 weight: 190
 url: /net/aspose.words.saving/htmlfixedsaveoptions/saveformat/

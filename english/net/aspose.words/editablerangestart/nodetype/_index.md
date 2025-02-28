@@ -3,7 +3,7 @@ title: EditableRangeStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: EditableRangeStart NodeType property. Returns EditableRangeStart in C#.
+description: Discover the EditableRangeStart NodeType property—enhance your document editing with seamless range management and improved user experience!
 type: docs
 weight: 30
 url: /net/aspose.words/editablerangestart/nodetype/

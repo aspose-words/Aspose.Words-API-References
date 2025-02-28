@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 linktitle: ExportTextInputFormFieldAsText
 articleTitle: ExportTextInputFormFieldAsText
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportTextInputFormFieldAsText property. Controls how text input form fields are saved to HTML or MHTML. Default value is false in C#.
+description: Discover how the HtmlSaveOptions ExportTextInputFormFieldAsText property optimizes text input form fields for seamless HTML or MHTML saving. Enhance your export process!
 type: docs
 weight: 260
 url: /net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/

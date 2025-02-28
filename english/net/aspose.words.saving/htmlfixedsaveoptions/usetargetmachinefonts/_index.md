@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.UseTargetMachineFonts
 linktitle: UseTargetMachineFonts
 articleTitle: UseTargetMachineFonts
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions UseTargetMachineFonts property. Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to true FontFormat and ExportEmbeddedFonts properties do not have effect also ResourceSavingCallback is not fired for fonts. Default is false in C#.
+description: Discover how the UseTargetMachineFonts property in HtmlFixedSaveOptions enhances document display by utilizing target machine fonts. Optimize your font management today!
 type: docs
 weight: 210
 url: /net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/

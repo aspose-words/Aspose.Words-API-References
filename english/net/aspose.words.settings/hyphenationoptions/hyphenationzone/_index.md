@@ -3,7 +3,7 @@ title: HyphenationOptions.HyphenationZone
 linktitle: HyphenationZone
 articleTitle: HyphenationZone
 second_title: Aspose.Words for .NET
-description: HyphenationOptions HyphenationZone property. Gets or sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 0.25 inch in C#.
+description: Optimize text layout with the HyphenationZone property. Control hyphenation distance from the right margin for cleaner, professional documents.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/hyphenationoptions/hyphenationzone/

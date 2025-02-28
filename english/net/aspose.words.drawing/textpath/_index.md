@@ -3,7 +3,7 @@ title: TextPath Class
 linktitle: TextPath
 articleTitle: TextPath
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.TextPath class. Defines the text and formatting of the text path of a WordArt object in C#.
+description: Discover the Aspose.Words.Drawing.TextPath class for creating stunning WordArt. Easily define text and formatting to enhance your documents.
 type: docs
 weight: 1750
 url: /net/aspose.words.drawing/textpath/

@@ -3,7 +3,7 @@ title: GlossaryDocument.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: GlossaryDocument AcceptEnd method. Accepts a visitor for visiting the end of the Glossary document in C#.
+description: Discover the GlossaryDocument AcceptEnd method, which efficiently manages visitor access to the end of your glossary. Enhance user experience today!
 type: docs
 weight: 70
 url: /net/aspose.words.buildingblocks/glossarydocument/acceptend/

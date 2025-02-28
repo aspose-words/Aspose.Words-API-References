@@ -3,7 +3,7 @@ title: Font.ThemeFontOther
 linktitle: ThemeFontOther
 articleTitle: ThemeFontOther
 second_title: Aspose.Words for .NET
-description: Font ThemeFontOther property. Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object in C#.
+description: Discover how to customize the theme font for characters 128-255 in your font scheme, enhancing your design with unique typography options.
 type: docs
 weight: 520
 url: /net/aspose.words/font/themefontother/

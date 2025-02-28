@@ -3,7 +3,7 @@ title: Document.AppendDocument
 linktitle: AppendDocument
 articleTitle: AppendDocument
 second_title: Aspose.Words for .NET
-description: Document AppendDocument method. Appends the specified document to the end of this document in C#.
+description: Effortlessly append documents with our Document Append method. Enhance your workflow by seamlessly integrating content into your existing files.
 type: docs
 weight: 570
 url: /net/aspose.words/document/appenddocument/

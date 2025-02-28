@@ -3,7 +3,7 @@ title: MappedDataFieldCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: MappedDataFieldCollection Item property. Gets or sets the name of the field in the data source associated with the specified mail merge field in C#.
+description: Discover the MappedDataFieldCollection Item property to easily manage field names in your data source for seamless mail merge integration.
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/item/

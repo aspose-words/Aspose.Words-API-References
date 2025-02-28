@@ -3,7 +3,7 @@ title: XmlDsigLevel Enum
 linktitle: XmlDsigLevel
 articleTitle: XmlDsigLevel
 second_title: Aspose.Words for .NET
-description: Aspose.Words.DigitalSignatures.XmlDsigLevel enum. Specifies the level of a digital signature based on XMLDSig standard in C#.
+description: Explore Aspose.Words.DigitalSignatures.XmlDsigLevel enum to enhance your digital signatures with XMLDSig standards for secure and reliable document integrity.
 type: docs
 weight: 630
 url: /net/aspose.words.digitalsignatures/xmldsiglevel/

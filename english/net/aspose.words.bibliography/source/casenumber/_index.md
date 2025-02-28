@@ -3,7 +3,7 @@ title: Source.CaseNumber
 linktitle: CaseNumber
 articleTitle: CaseNumber
 second_title: Aspose.Words for .NET
-description: Source CaseNumber property. Gets or sets the case number of a source in C#.
+description: Manage your source's case number effortlessly with the Source CaseNumber property. Simplify tracking and enhance organization for better results.
 type: docs
 weight: 70
 url: /net/aspose.words.bibliography/source/casenumber/

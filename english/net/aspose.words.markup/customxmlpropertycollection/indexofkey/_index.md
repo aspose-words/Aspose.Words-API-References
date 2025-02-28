@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.IndexOfKey
 linktitle: IndexOfKey
 articleTitle: IndexOfKey
 second_title: Aspose.Words for .NET
-description: CustomXmlPropertyCollection IndexOfKey method. Returns the zerobased index of the specified property in the collection in C#.
+description: Discover the CustomXmlPropertyCollection IndexOfKey method to easily find the zero-based index of any property in your collection. Enhance your coding efficiency!
 type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlpropertycollection/indexofkey/

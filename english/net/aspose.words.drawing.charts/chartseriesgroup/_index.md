@@ -3,7 +3,7 @@ title: ChartSeriesGroup Class
 linktitle: ChartSeriesGroup
 articleTitle: ChartSeriesGroup
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartSeriesGroup class. Represents properties of a chart series group that is the properties of chart series of the same type associated with the same axes in C#.
+description: Discover the Aspose.Words.Drawing.Charts.ChartSeriesGroup class, which simplifies managing chart series properties for enhanced data visualization and analysis.
 type: docs
 weight: 1090
 url: /net/aspose.words.drawing.charts/chartseriesgroup/

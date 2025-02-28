@@ -3,7 +3,7 @@ title: ChartDataTable.HasOutlineBorder
 linktitle: HasOutlineBorder
 articleTitle: HasOutlineBorder
 second_title: Aspose.Words for .NET
-description: ChartDataTable HasOutlineBorder property. Gets or sets a flag indicating whether an outline border that is a border around series and category names is displayed. The default value is true in C#.
+description: Discover the ChartDataTable HasOutlineBorder property: control the display of outline borders around series and category names for enhanced data clarity.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartdatatable/hasoutlineborder/

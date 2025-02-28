@@ -3,7 +3,7 @@ title: StyleCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: StyleCollection Item property. Gets a style by name or alias in C#.
+description: Discover StyleCollection's powerful Item property to effortlessly retrieve styles by name or alias, enhancing your design experience with ease!
 type: docs
 weight: 50
 url: /net/aspose.words/stylecollection/item/

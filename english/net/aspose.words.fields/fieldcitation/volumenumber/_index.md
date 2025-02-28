@@ -3,7 +3,7 @@ title: FieldCitation.VolumeNumber
 linktitle: VolumeNumber
 articleTitle: VolumeNumber
 second_title: Aspose.Words for .NET
-description: FieldCitation VolumeNumber property. Gets or sets a volume number associated with the citation in C#.
+description: Manage your citations effortlessly with the FieldCitation VolumeNumber property, allowing you to easily set or retrieve associated volume numbers.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldcitation/volumenumber/

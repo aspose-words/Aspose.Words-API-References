@@ -3,7 +3,7 @@ title: BorderCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: BorderCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all borders in the collection in C#.
+description: Discover the BorderCollection GetEnumerator method to easily iterate through all borders, enhancing your coding efficiency and collection management.
 type: docs
 weight: 160
 url: /net/aspose.words/bordercollection/getenumerator/

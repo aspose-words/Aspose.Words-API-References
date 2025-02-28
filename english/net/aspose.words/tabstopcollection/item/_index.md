@@ -3,7 +3,7 @@ title: TabStopCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: TabStopCollection Item property. Gets a tab stop at the given index in C#.
+description: Access tab stops with ease using the TabStopCollection Item property. Retrieve specific stops by index for efficient UI navigation.
 type: docs
 weight: 20
 url: /net/aspose.words/tabstopcollection/item/

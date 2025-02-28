@@ -3,7 +3,7 @@ title: FieldToc.EntryLevelRange
 linktitle: EntryLevelRange
 articleTitle: EntryLevelRange
 second_title: Aspose.Words for .NET
-description: FieldToc EntryLevelRange property. Gets or sets a range of levels of the table of contents entries to be included in C#.
+description: Discover the FieldToc EntryLevelRange property to easily customize your table of contents levels for enhanced navigation and user experience.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldtoc/entrylevelrange/

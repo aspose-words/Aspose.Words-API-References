@@ -3,9 +3,9 @@ title: ViewType Enum
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.ViewType enum. Possible values for the view mode in Microsoft Word in C#.
+description: Discover Aspose.Words.Settings.ViewType enum for Microsoft Word. Unlock flexible view modes to enhance document presentation and user experience.
 type: docs
-weight: 6630
+weight: 6640
 url: /net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration

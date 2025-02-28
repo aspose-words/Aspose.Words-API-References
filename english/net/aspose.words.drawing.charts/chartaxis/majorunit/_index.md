@@ -3,7 +3,7 @@ title: ChartAxis.MajorUnit
 linktitle: MajorUnit
 articleTitle: MajorUnit
 second_title: Aspose.Words for .NET
-description: ChartAxis MajorUnit property. Returns or sets the distance between major tick marks in C#.
+description: Discover the ChartAxis MajorUnit property to easily adjust major tick mark spacing, enhancing your data visualization and chart clarity.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartaxis/majorunit/

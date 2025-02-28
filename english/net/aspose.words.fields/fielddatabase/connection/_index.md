@@ -3,7 +3,7 @@ title: FieldDatabase.Connection
 linktitle: Connection
 articleTitle: Connection
 second_title: Aspose.Words for .NET
-description: FieldDatabase Connection property. Gets or sets a connection to the data in C#.
+description: Manage your data effortlessly with the FieldDatabase Connection property. Easily get or set connections for seamless data integration.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabase/connection/

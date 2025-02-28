@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: OdsoFieldMapDataCollection Add method. Adds an object to the end of this collection in C#.
+description: Effortlessly enhance your data management with the OdsoFieldMapDataCollection Add method, designed to seamlessly add objects to your collection.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsofieldmapdatacollection/add/

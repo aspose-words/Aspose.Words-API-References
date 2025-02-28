@@ -3,7 +3,7 @@ title: TextColumnCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: TextColumnCollection Count property. Gets the number of columns in the section of a document in C#.
+description: Discover the TextColumnCollection Count property to easily access the number of columns in your document's section for enhanced layout control.
 type: docs
 weight: 10
 url: /net/aspose.words/textcolumncollection/count/

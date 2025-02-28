@@ -3,7 +3,7 @@ title: BubbleSizeCollection.FormatCode
 linktitle: FormatCode
 articleTitle: FormatCode
 second_title: Aspose.Words for .NET
-description: BubbleSizeCollection FormatCode property. Gets or sets the format code applied to the bubble sizes in C#.
+description: Discover the BubbleSizeCollection FormatCode property to customize bubble sizes effortlessly. Enhance your data visualization with tailored formatting options.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/bubblesizecollection/formatcode/

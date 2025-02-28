@@ -3,7 +3,7 @@ title: Source.AbbreviatedCaseNumber
 linktitle: AbbreviatedCaseNumber
 articleTitle: AbbreviatedCaseNumber
 second_title: Aspose.Words for .NET
-description: Source AbbreviatedCaseNumber property. Gets or sets the abbreviated case number of a source in C#.
+description: Effortlessly manage your source's abbreviated case number with our user-friendly tool. Simplify your case tracking today!
 type: docs
 weight: 20
 url: /net/aspose.words.bibliography/source/abbreviatedcasenumber/

@@ -3,9 +3,9 @@ title: TxtSaveOptions Class
 linktitle: TxtSaveOptions
 articleTitle: TxtSaveOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the Text format in C#.
+description: Discover Aspose.Words.TxtSaveOptions for enhanced document saving. Customize your text format with powerful options for optimal results.
 type: docs
-weight: 6300
+weight: 6310
 url: /net/aspose.words.saving/txtsaveoptions/
 ---
 ## TxtSaveOptions class

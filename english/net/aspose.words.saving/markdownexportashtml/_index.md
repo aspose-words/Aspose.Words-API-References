@@ -3,9 +3,9 @@ title: MarkdownExportAsHtml Enum
 linktitle: MarkdownExportAsHtml
 articleTitle: MarkdownExportAsHtml
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.MarkdownExportAsHtml enum. Allows to specify the elements to be exported to Markdown as raw HTML in C#.
+description: Discover Aspose.Words.Saving.MarkdownExportAsHtml enum to effortlessly convert Markdown elements to raw HTML, enhancing your document export options.
 type: docs
-weight: 5870
+weight: 5880
 url: /net/aspose.words.saving/markdownexportashtml/
 ---
 ## MarkdownExportAsHtml enumeration

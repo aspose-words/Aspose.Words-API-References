@@ -3,7 +3,7 @@ title: CommentRangeStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: CommentRangeStart Accept method. Accepts a visitor in C#.
+description: Discover the CommentRangeStart Accept method to enhance visitor engagement and streamline interactions on your site. Boost user experience today!
 type: docs
 weight: 40
 url: /net/aspose.words/commentrangestart/accept/

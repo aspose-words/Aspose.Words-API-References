@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words for .NET
-description: ConditionalStyleCollection LastRow property. Gets the last row style in C#.
+description: Discover the LastRow property of ConditionalStyleCollection to easily customize the last row's style for enhanced visual appeal in your application.
 type: docs
 weight: 100
 url: /net/aspose.words/conditionalstylecollection/lastrow/

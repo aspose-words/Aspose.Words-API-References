@@ -3,7 +3,7 @@ title: FieldLastSavedBy
 linktitle: FieldLastSavedBy
 articleTitle: FieldLastSavedBy
 second_title: Aspose.Words for .NET
-description: FieldLastSavedBy constructor. The default constructor in C#.
+description: Discover the FieldLastSavedBy constructor—your go-to solution for efficient data tracking and management in your application. Simplify your coding today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldlastsavedby/fieldlastsavedby/

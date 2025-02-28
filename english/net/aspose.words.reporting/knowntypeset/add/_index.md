@@ -3,7 +3,7 @@ title: KnownTypeSet.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: KnownTypeSet Add method. Adds the specified Type object to the set in C#.
+description: Discover the KnownTypeSet Add method to effortlessly include Type objects in your set, enhancing your data management and functionality.
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/knowntypeset/add/

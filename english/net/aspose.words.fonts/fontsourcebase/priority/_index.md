@@ -3,7 +3,7 @@ title: FontSourceBase.Priority
 linktitle: Priority
 articleTitle: Priority
 second_title: Aspose.Words for .NET
-description: FontSourceBase Priority property. Returns the font source priority in C#.
+description: Discover the FontSourceBase Priority property to optimize your font sourcing. Enhance performance and improve user experience effortlessly!
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontsourcebase/priority/

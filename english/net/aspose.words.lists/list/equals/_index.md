@@ -3,7 +3,7 @@ title: List.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words for .NET
-description: List Equals method. Compares with the specified list in C#.
+description: Discover how the List Equals method efficiently compares lists for accuracy. Enhance your coding skills with this essential programming technique!
 type: docs
 weight: 100
 url: /net/aspose.words.lists/list/equals/

@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.Image
 linktitle: Image
 articleTitle: Image
 second_title: Aspose.Words for .NET
-description: ImageFieldMergingArgs Image property. Specifies the image that the mail merge engine must insert into the document in C#.
+description: Discover how to use ImageFieldMergingArgs to seamlessly insert images into your documents for a polished mail merge experience.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/image/

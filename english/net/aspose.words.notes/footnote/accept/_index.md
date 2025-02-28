@@ -3,7 +3,7 @@ title: Footnote.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: Footnote Accept method. Accepts a visitor in C#.
+description: Discover the Footnote Accept method to enhance visitor engagement and optimize your website's user experience. Boost conversions today!
 type: docs
 weight: 80
 url: /net/aspose.words.notes/footnote/accept/

@@ -3,9 +3,9 @@ title: MailMergeCleanupOptions Enum
 linktitle: MailMergeCleanupOptions
 articleTitle: MailMergeCleanupOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions enum. Specifies options that determine what items are removed during mail merge in C#.
+description: Discover Aspose.Words.MailMergeCleanupOptions enum to efficiently manage mail merge cleanup. Optimize your documents by controlling item removal seamlessly.
 type: docs
-weight: 4400
+weight: 4410
 url: /net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration

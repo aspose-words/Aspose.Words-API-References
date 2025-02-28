@@ -3,7 +3,7 @@ title: ParagraphFormat.LineUnitAfter
 linktitle: LineUnitAfter
 articleTitle: LineUnitAfter
 second_title: Aspose.Words for .NET
-description: ParagraphFormat LineUnitAfter property. Gets or sets the amount of spacing in gridlines after the paragraphs in C#.
+description: Discover the ParagraphFormat LineUnitAfter property—control spacing in gridlines for enhanced paragraph layout and improved document readability.
 type: docs
 weight: 220
 url: /net/aspose.words/paragraphformat/lineunitafter/

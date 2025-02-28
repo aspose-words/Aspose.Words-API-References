@@ -3,7 +3,7 @@ title: Comment.Ancestor
 linktitle: Ancestor
 articleTitle: Ancestor
 second_title: Aspose.Words for .NET
-description: Comment Ancestor property. Returns the parent Comment object. Returns null for toplevel comments in C#.
+description: Retrieve the parent Comment object with our Ancestor property. Perfect for navigating comment threads and enhancing user engagement.
 type: docs
 weight: 20
 url: /net/aspose.words/comment/ancestor/

@@ -3,7 +3,7 @@ title: ContributorCollection.Conductor
 linktitle: Conductor
 articleTitle: Conductor
 second_title: Aspose.Words for .NET
-description: ContributorCollection Conductor property. Gets or sets the conductor of a source in C#.
+description: Discover the ContributorCollection Conductor property: easily manage and customize the source conductor for enhanced data organization and control.
 type: docs
 weight: 60
 url: /net/aspose.words.bibliography/contributorcollection/conductor/

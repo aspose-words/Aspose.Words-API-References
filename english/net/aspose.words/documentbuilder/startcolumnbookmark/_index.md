@@ -3,7 +3,7 @@ title: DocumentBuilder.StartColumnBookmark
 linktitle: StartColumnBookmark
 articleTitle: StartColumnBookmark
 second_title: Aspose.Words for .NET
-description: DocumentBuilder StartColumnBookmark method. Marks the current position in the document as a column bookmark start. The position must be in a table cell in C#.
+description: Use DocumentBuilder's StartColumnBookmark method to easily mark table cell positions as column bookmarks, enhancing document navigation and organization.
 type: docs
 weight: 660
 url: /net/aspose.words/documentbuilder/startcolumnbookmark/

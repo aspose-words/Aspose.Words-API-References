@@ -3,7 +3,7 @@ title: IFieldResultFormatter.FormatDateTime
 linktitle: FormatDateTime
 articleTitle: FormatDateTime
 second_title: Aspose.Words for .NET
-description: IFieldResultFormatter FormatDateTime method. Called when Aspose.Words applies a date/time format switch i.e.  dd.MM.yyyy in C#.
+description: Discover the iFieldResultFormatter FormatDateTime method for Aspose.Words. Effortlessly format dates with ease using the dd.MM.yyyy switch!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/ifieldresultformatter/formatdatetime/

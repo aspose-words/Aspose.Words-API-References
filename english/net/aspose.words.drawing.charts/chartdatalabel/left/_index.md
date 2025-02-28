@@ -3,7 +3,7 @@ title: ChartDataLabel.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words for .NET
-description: ChartDataLabel Left property. Gets or sets the distance of the data label in points from the left edge of the chart or from the position specified by its Position property depending on the value of the LeftMode property in C#.
+description: Adjust the ChartDataLabel Left property to control data label positioning on your chart. Enhance clarity and presentation with precise distance settings.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartdatalabel/left/

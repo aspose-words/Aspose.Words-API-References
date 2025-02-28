@@ -3,7 +3,7 @@ title: CustomPart.IsExternal
 linktitle: IsExternal
 articleTitle: IsExternal
 second_title: Aspose.Words for .NET
-description: CustomPart IsExternal property. False if this custom part is stored inside the OOXML package. True if this custom part is an external target in C#.
+description: Discover the CustomPart IsExternal property: learn how it defines internal vs. external custom parts in OOXML packages for streamlined data management.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/custompart/isexternal/

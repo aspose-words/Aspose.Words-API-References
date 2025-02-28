@@ -3,7 +3,7 @@ title: ListLevel.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words for .NET
-description: ListLevel Alignment property. Gets or sets the justification of the actual number of the list item in C#.
+description: Discover the ListLevel Alignment property to easily customize list item justification. Enhance your document's clarity and visual appeal today!
 type: docs
 weight: 10
 url: /net/aspose.words.lists/listlevel/alignment/

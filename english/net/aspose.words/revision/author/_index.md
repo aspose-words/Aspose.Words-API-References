@@ -3,7 +3,7 @@ title: Revision.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words for .NET
-description: Revision Author property. Gets or sets the author of this revision. Can not be empty string or null in C#.
+description: Manage your Revision Author effortlessly. Easily set or update the author details for each revision—ensuring clarity and accountability in your documents.
 type: docs
 weight: 10
 url: /net/aspose.words/revision/author/

@@ -3,7 +3,7 @@ title: CommentCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: CommentCollection Item property. Retrieves a Comment at the given index in C#.
+description: Access specific comments effortlessly with the CommentCollection Item property. Retrieve comments by index for streamlined content management.
 type: docs
 weight: 10
 url: /net/aspose.words/commentcollection/item/

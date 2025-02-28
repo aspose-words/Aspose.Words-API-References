@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: CustomXmlSchemaCollection Item property. Gets or sets the element at the specified index in C#.
+description: Discover how to manage CustomXmlSchemaCollection items effortlessly. Learn to get or set elements by index for streamlined XML data handling.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlschemacollection/item/

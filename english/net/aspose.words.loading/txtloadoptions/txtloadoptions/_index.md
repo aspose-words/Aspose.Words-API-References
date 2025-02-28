@@ -3,7 +3,7 @@ title: TxtLoadOptions
 linktitle: TxtLoadOptions
 articleTitle: TxtLoadOptions
 second_title: Aspose.Words for .NET
-description: TxtLoadOptions constructor. Initializes a new instance of this class with default values in C#.
+description: Discover the TxtLoadOptions constructor! Easily initialize with default values and streamline your data loading process for enhanced performance.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/txtloadoptions/txtloadoptions/

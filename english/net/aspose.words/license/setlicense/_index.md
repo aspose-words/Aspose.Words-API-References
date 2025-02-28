@@ -3,7 +3,7 @@ title: License.SetLicense
 linktitle: SetLicense
 articleTitle: SetLicense
 second_title: Aspose.Words for .NET
-description: License SetLicense method. Licenses the component in C#.
+description: Effortlessly license your components with our SetLicense method. Unlock full functionality and enhance your project's potential today!
 type: docs
 weight: 20
 url: /net/aspose.words/license/setlicense/

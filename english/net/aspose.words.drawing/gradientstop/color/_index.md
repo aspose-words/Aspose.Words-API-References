@@ -3,7 +3,7 @@ title: GradientStop.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words for .NET
-description: GradientStop Color property. Gets or sets a value representing the color of the gradient stop in C#.
+description: Discover the GradientStop Color property to easily set and customize gradient stop colors for stunning visual effects in your designs.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/gradientstop/color/

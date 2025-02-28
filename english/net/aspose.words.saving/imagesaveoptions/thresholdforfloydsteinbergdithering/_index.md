@@ -3,7 +3,7 @@ title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 linktitle: ThresholdForFloydSteinbergDithering
 articleTitle: ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions ThresholdForFloydSteinbergDithering property. Gets or sets the threshold that determines the value of the binarization error in the FloydSteinberg method. when ImageBinarizationMethod is FloydSteinbergDithering in C#.
+description: Optimize your images with the ImageSaveOptions Threshold for Floyd-Steinberg Dithering. Control binarization error for stunning results in image processing.
 type: docs
 weight: 160
 url: /net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/

@@ -3,7 +3,7 @@ title: TextPath.Kerning
 linktitle: Kerning
 articleTitle: Kerning
 second_title: Aspose.Words for .NET
-description: TextPath Kerning property. Determines whether kerning is turned on in C#.
+description: Discover the TextPath Kerning property to enhance typography by controlling kerning settings for improved text readability and design quality.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/textpath/kerning/

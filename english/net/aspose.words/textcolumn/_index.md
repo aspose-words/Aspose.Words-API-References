@@ -3,9 +3,9 @@ title: TextColumn Class
 linktitle: TextColumn
 articleTitle: TextColumn
 second_title: Aspose.Words for .NET
-description: Aspose.Words.TextColumn class. Represents a single text column. TextColumn is a member of the TextColumnCollection collection. The TextColumn collection includes all the columns in a section of a document in C#.
+description: Discover the Aspose.Words.TextColumn class for managing text columns in your documents. Easily access and customize each column in your text section.
 type: docs
-weight: 7080
+weight: 7090
 url: /net/aspose.words/textcolumn/
 ---
 ## TextColumn class

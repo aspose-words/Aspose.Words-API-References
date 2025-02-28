@@ -3,7 +3,7 @@ title: ImageData.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words for .NET
-description: ImageData ImageBytes property. Gets or sets the raw bytes of the image stored in the shape in C#.
+description: Discover the ImageData ImageBytes property to easily manage and manipulate raw image bytes within your shapes for enhanced visual content.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/imagedata/imagebytes/

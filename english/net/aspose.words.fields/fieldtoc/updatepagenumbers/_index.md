@@ -3,7 +3,7 @@ title: FieldToc.UpdatePageNumbers
 linktitle: UpdatePageNumbers
 articleTitle: UpdatePageNumbers
 second_title: Aspose.Words for .NET
-description: FieldToc UpdatePageNumbers method. Updates the page numbers for items in this table of contents in C#.
+description: Effortlessly update your table of contents with FieldToc's UpdatePageNumbers method, ensuring accurate navigation and enhanced document usability.
 type: docs
 weight: 180
 url: /net/aspose.words.fields/fieldtoc/updatepagenumbers/

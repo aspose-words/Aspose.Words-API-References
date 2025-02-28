@@ -3,7 +3,7 @@ title: Story.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words for .NET
-description: Story LastParagraph property. Gets the last paragraph in the story in C#.
+description: Access the last paragraph of your story effortlessly with the Story LastParagraph property, enhancing your narrative management and editing experience.
 type: docs
 weight: 20
 url: /net/aspose.words/story/lastparagraph/

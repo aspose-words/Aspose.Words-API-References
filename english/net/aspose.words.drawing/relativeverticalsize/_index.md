@@ -3,7 +3,7 @@ title: RelativeVerticalSize Enum
 linktitle: RelativeVerticalSize
 articleTitle: RelativeVerticalSize
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.RelativeVerticalSize enum. Specifies relatively to what the height of a shape or a text frame is calculated vertically in C#.
+description: Discover the Aspose.Words.Drawing.RelativeVerticalSize enum, which defines vertical height calculations for shapes and text frames, enhancing document layout precision.
 type: docs
 weight: 1600
 url: /net/aspose.words.drawing/relativeverticalsize/

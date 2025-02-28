@@ -3,7 +3,7 @@ title: MergeFieldImageDimension
 linktitle: MergeFieldImageDimension
 articleTitle: MergeFieldImageDimension
 second_title: Aspose.Words for .NET
-description: MergeFieldImageDimension constructor. Creates an image dimension instance with the given value in points in C#.
+description: Create precise image dimensions in points with the MergeFieldImageDimension constructor. Enhance your design with accurate sizing for better results.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/

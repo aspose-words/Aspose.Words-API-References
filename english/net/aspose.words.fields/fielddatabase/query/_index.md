@@ -3,7 +3,7 @@ title: FieldDatabase.Query
 linktitle: Query
 articleTitle: Query
 second_title: Aspose.Words for .NET
-description: FieldDatabase Query property. Gets or sets a set of SQL instructions that query the database in C#.
+description: Effortlessly manage your database with FieldDatabase Query. Easily set and retrieve SQL instructions for efficient data querying.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fielddatabase/query/

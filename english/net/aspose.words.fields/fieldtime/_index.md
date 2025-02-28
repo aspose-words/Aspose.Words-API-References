@@ -3,7 +3,7 @@ title: FieldTime Class
 linktitle: FieldTime
 articleTitle: FieldTime
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldTime class. Implements the TIME field in C#.
+description: Discover the Aspose.Words.Fields.FieldTime class for seamless TIME field implementation. Enhance your document automation with powerful features!
 type: docs
 weight: 2900
 url: /net/aspose.words.fields/fieldtime/

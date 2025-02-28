@@ -3,7 +3,7 @@ title: TabStopCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: TabStopCollection Add method. Adds or replaces a tab stop in the collection in C#.
+description: Discover how the TabStopCollection Add method efficiently adds or updates tab stops, enhancing your document's layout and formatting.
 type: docs
 weight: 30
 url: /net/aspose.words/tabstopcollection/add/

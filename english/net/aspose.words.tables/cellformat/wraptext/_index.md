@@ -3,7 +3,7 @@ title: CellFormat.WrapText
 linktitle: WrapText
 articleTitle: WrapText
 second_title: Aspose.Words for .NET
-description: CellFormat WrapText property. If true wrap text for the cell in C#.
+description: Discover the CellFormat WrapText property to enhance your spreadsheet's readability by automatically wrapping text in cells for a cleaner look.
 type: docs
 weight: 150
 url: /net/aspose.words.tables/cellformat/wraptext/

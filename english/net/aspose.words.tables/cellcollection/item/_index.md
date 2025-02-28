@@ -3,7 +3,7 @@ title: CellCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: CellCollection Item property. Retrieves a Cell at the given index in C#.
+description: Access specific Cells effortlessly with the CellCollection Item property. Retrieve any Cell by index for streamlined data management and enhanced performance.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/cellcollection/item/

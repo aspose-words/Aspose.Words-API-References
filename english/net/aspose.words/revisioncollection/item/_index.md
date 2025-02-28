@@ -3,7 +3,7 @@ title: RevisionCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: RevisionCollection Item property. Returns a Revision at the specified index in C#.
+description: Access specific revisions effortlessly with the RevisionCollection Item property. Quickly retrieve revisions by index for streamlined data management.
 type: docs
 weight: 30
 url: /net/aspose.words/revisioncollection/item/

@@ -3,7 +3,7 @@ title: OfficeMath.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: OfficeMath NodeType property. Returns OfficeMath in C#.
+description: Discover the OfficeMath NodeType property that efficiently returns OfficeMath elements, enhancing your document's mathematical capabilities.
 type: docs
 weight: 40
 url: /net/aspose.words.math/officemath/nodetype/

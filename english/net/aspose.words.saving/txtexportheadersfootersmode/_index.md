@@ -3,9 +3,9 @@ title: TxtExportHeadersFootersMode Enum
 linktitle: TxtExportHeadersFootersMode
 articleTitle: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode enum. Specifies the way headers and footers are exported to plain text format in C#.
+description: Discover how Aspose.Words' TxtExportHeadersFootersMode enum enhances plain text exports by customizing header and footer handling for optimal results.
 type: docs
-weight: 6280
+weight: 6290
 url: /net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration
@@ -66,28 +66,29 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt");
 
+string newLine = Environment.NewLine;
 switch (txtExportHeadersFootersMode)
 {
     case TxtExportHeadersFootersMode.AllAtEnd:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Even header\r\n\r\n" +
-                        "Primary header\r\n\r\n" +
-                        "Even footer\r\n\r\n" +
-                        "Primary footer\r\n\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Even header{newLine}{newLine}" +
+                        $"Primary header{newLine}{newLine}" +
+                        $"Even footer{newLine}{newLine}" +
+                        $"Primary footer{newLine}{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.PrimaryOnly:
-        Assert.AreEqual("Primary header\r\n" +
-                        "Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Primary footer\r\n", docText);
+        Assert.AreEqual($"Primary header{newLine}" +
+                        $"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Primary footer{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.None:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}", docText);
         break;
 }
 ```

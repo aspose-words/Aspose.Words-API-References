@@ -3,7 +3,7 @@ title: ShapeBase.TopRelative
 linktitle: TopRelative
 articleTitle: TopRelative
 second_title: Aspose.Words for .NET
-description: ShapeBase TopRelative property. Gets or sets the value that represents shapes relative top position in percent in C#.
+description: Discover the ShapeBase TopRelative property to easily manage shape positioning. Adjust your design with precise top percentage values for optimal layout.
 type: docs
 weight: 590
 url: /net/aspose.words.drawing/shapebase/toprelative/

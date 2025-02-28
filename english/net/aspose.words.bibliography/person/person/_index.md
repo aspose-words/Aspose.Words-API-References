@@ -3,7 +3,7 @@ title: Person
 linktitle: Person
 articleTitle: Person
 second_title: Aspose.Words for .NET
-description: Person constructor. Initialize a new instance of the Person class in C#.
+description: Create a new Person instance effortlessly with our user-friendly constructor. Simplify your coding and enhance your projects today!
 type: docs
 weight: 10
 url: /net/aspose.words.bibliography/person/person/

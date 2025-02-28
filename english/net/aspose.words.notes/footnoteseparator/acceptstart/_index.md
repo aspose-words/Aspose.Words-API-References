@@ -3,7 +3,7 @@ title: FootnoteSeparator.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: FootnoteSeparator AcceptStart method.  in C#.
+description: Discover the FootnoteSeparator AcceptStart method for seamless document formatting. Enhance your workflow and improve readability effortlessly!
 type: docs
 weight: 50
 url: /net/aspose.words.notes/footnoteseparator/acceptstart/

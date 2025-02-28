@@ -31,6 +31,21 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::SharedP
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
+## Splitter::ExtractPages(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, int32_t, int32_t) method
+
+
+
+
+```cpp
+static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, int32_t startPageIndex, int32_t pageCount)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [Splitter](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
 ## Splitter::ExtractPages(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, int32_t, int32_t) method
 
 
@@ -52,6 +67,21 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::String 
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [Splitter](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Splitter::ExtractPages(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, int32_t, int32_t) method
+
+
+
+
+```cpp
+static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, int32_t startPageIndex, int32_t pageCount)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

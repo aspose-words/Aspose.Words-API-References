@@ -3,7 +3,7 @@ title: Source.SourceType
 linktitle: SourceType
 articleTitle: SourceType
 second_title: Aspose.Words for .NET
-description: Source SourceType property. Gets or sets the source type of a source in C#.
+description: Discover the SourceType property to easily manage your data sources. Effortlessly get or set source types for enhanced data organization.
 type: docs
 weight: 410
 url: /net/aspose.words.bibliography/source/sourcetype/

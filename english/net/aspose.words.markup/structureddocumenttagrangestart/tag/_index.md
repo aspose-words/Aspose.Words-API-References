@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Tag property. Specifies a tag associated with the current structured document tag node. Can not be null in C#.
+description: Discover the StructuredDocumentTagRangeStart property for enhanced document tagging. Easily associate tags with nodes to streamline your workflow!
 type: docs
 weight: 150
 url: /net/aspose.words.markup/structureddocumenttagrangestart/tag/

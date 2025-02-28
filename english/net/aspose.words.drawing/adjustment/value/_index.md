@@ -3,7 +3,7 @@ title: Adjustment.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words for .NET
-description: Adjustment Value property. Gets or sets the raw value of the adjustment in C#.
+description: Discover the Adjustment Value property: easily get or set raw adjustment values to enhance your data management and streamline your processes.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/adjustment/value/

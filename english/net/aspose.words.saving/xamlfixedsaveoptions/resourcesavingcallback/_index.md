@@ -3,7 +3,7 @@ title: XamlFixedSaveOptions.ResourceSavingCallback
 linktitle: ResourceSavingCallback
 articleTitle: ResourceSavingCallback
 second_title: Aspose.Words for .NET
-description: XamlFixedSaveOptions ResourceSavingCallback property. Allows to control how resources images and fonts are saved when a document is exported to fixed page Xaml format in C#.
+description: Optimize your document exports with the XamlFixedSaveOptions ResourceSavingCallback. Control image and font saving for enhanced XAML format efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/

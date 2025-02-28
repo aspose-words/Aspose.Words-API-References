@@ -3,7 +3,7 @@ title: FieldOptions.FieldDatabaseProvider
 linktitle: FieldDatabaseProvider
 articleTitle: FieldDatabaseProvider
 second_title: Aspose.Words for .NET
-description: FieldOptions FieldDatabaseProvider property. Gets or sets a provider that returns a query result for the FieldDatabase field in C#.
+description: Discover the FieldOptions FieldDatabaseProvider property: easily manage and retrieve query results for enhanced data handling in your applications.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldoptions/fielddatabaseprovider/

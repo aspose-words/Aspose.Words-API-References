@@ -3,7 +3,7 @@ title: DocumentBase.FootnoteSeparators
 linktitle: FootnoteSeparators
 articleTitle: FootnoteSeparators
 second_title: Aspose.Words for .NET
-description: DocumentBase FootnoteSeparators property. Provides access to the footnote/endnote separators defined in the document in C#.
+description: Access and customize footnote and endnote separators in your document with DocumentBase's FootnoteSeparators property for enhanced formatting control.
 type: docs
 weight: 40
 url: /net/aspose.words/documentbase/footnoteseparators/

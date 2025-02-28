@@ -3,7 +3,7 @@ title: GeneralFormatCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: GeneralFormatCollection Item property. Gets a general format at the specified index in C#.
+description: Access the GeneralFormatCollection Item property to retrieve customizable formats easily at any index, enhancing your data presentation effortlessly.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/generalformatcollection/item/

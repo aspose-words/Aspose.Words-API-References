@@ -3,7 +3,7 @@ title: FieldDatabase.InsertHeadings
 linktitle: InsertHeadings
 articleTitle: InsertHeadings
 second_title: Aspose.Words for .NET
-description: FieldDatabase InsertHeadings property. Gets or sets whether to insert the field names from the database as column headings in the resulting table in C#.
+description: Manage your database efficiently with the FieldDatabase InsertHeadings property. Easily customize column headings for clearer data presentation.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fielddatabase/insertheadings/

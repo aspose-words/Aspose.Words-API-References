@@ -3,7 +3,7 @@ title: ChartSeriesGroup.AxisX
 linktitle: AxisX
 articleTitle: AxisX
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroup AxisX property. Provides access to properties of the X axis of this series group in C#.
+description: Discover the ChartSeriesGroup AxisX property for easy access to X-axis features, enhancing your data visualization and analysis experience.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartseriesgroup/axisx/

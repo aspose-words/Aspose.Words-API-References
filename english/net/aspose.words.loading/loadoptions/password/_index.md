@@ -3,7 +3,7 @@ title: LoadOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words for .NET
-description: LoadOptions Password property. Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null in C#.
+description: Manage your encrypted documents effortlessly with LoadOptions Password property. Securely set or retrieve your password for seamless access.
 type: docs
 weight: 110
 url: /net/aspose.words.loading/loadoptions/password/

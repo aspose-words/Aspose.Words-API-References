@@ -3,7 +3,7 @@ title: StructuredDocumentTag.EndCharacterFont
 linktitle: EndCharacterFont
 articleTitle: EndCharacterFont
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag EndCharacterFont property. Font formatting that will be applied to the last character of text entered into SDT in C#.
+description: Discover the EndCharacterFont property of StructuredDocumentTags for enhanced text formatting. Elevate your document's last character with custom fonts!
 type: docs
 weight: 120
 url: /net/aspose.words.markup/structureddocumenttag/endcharacterfont/

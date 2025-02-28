@@ -3,7 +3,7 @@ title: Fill.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words for .NET
-description: Fill Visible property. Gets or sets value that is true if the formatting applied to this instance is visible in C#.
+description: Control visibility with the Fill Visible property. Easily manage formatting to enhance your design and ensure clarity in your application.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing/fill/visible/

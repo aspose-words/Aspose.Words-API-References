@@ -3,7 +3,7 @@ title: ConvertUtil.PixelToNewDpi
 linktitle: PixelToNewDpi
 articleTitle: PixelToNewDpi
 second_title: Aspose.Words for .NET
-description: ConvertUtil PixelToNewDpi method. Converts pixels from one resolution to another in C#.
+description: Transform pixel resolutions effortlessly with ConvertUtil's PixelToNewDpi method. Achieve optimal image quality and precision for your projects.
 type: docs
 weight: 30
 url: /net/aspose.words/convertutil/pixeltonewdpi/

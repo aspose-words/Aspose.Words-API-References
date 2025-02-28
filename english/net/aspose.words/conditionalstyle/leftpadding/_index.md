@@ -3,7 +3,7 @@ title: ConditionalStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words for .NET
-description: ConditionalStyle LeftPadding property. Gets or sets the amount of space in points to add to the left of the contents of table cells in C#.
+description: Discover the ConditionalStyle LeftPadding property to easily adjust left spacing in table cells. Enhance your layouts with precise control!
 type: docs
 weight: 40
 url: /net/aspose.words/conditionalstyle/leftpadding/

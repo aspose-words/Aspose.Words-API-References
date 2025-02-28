@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Appearance
 linktitle: Appearance
 articleTitle: Appearance
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag Appearance property. Gets/sets the appearance of a structured document tag in C#.
+description: Discover the StructuredDocumentTag Appearance property to easily customize and enhance the visual style of your structured document tags.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttag/appearance/

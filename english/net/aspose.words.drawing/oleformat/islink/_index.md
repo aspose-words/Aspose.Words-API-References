@@ -3,7 +3,7 @@ title: OleFormat.IsLink
 linktitle: IsLink
 articleTitle: IsLink
 second_title: Aspose.Words for .NET
-description: OleFormat IsLink property. Returns true if the OLE object is linked when SourceFullName is specified in C#.
+description: Discover OleFormat IsLink property: Easily check if your OLE object is linked with SourceFullName for seamless data integration and management.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/oleformat/islink/

@@ -3,7 +3,7 @@ title: IAiModelText.CheckGrammar
 linktitle: CheckGrammar
 articleTitle: CheckGrammar
 second_title: Aspose.Words for .NET
-description: IAiModelText CheckGrammar method. Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document in C#.
+description: Enhance your writing with IAiModelText's CheckGrammar method. Effortlessly improve document accuracy using advanced AI grammar checking.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/iaimodeltext/checkgrammar/

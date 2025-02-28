@@ -3,7 +3,7 @@ title: ParagraphFormat.OutlineLevel
 linktitle: OutlineLevel
 articleTitle: OutlineLevel
 second_title: Aspose.Words for .NET
-description: ParagraphFormat OutlineLevel property. Specifies the outline level of the paragraph in the document in C#.
+description: Discover the ParagraphFormat OutlineLevel property to easily define paragraph hierarchy in your documents, enhancing organization and readability.
 type: docs
 weight: 260
 url: /net/aspose.words/paragraphformat/outlinelevel/

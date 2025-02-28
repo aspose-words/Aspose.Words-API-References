@@ -3,7 +3,7 @@ title: GroupShape Class
 linktitle: GroupShape
 articleTitle: GroupShape
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.GroupShape class. Represents a group of shapes in a document in C#.
+description: Discover the Aspose.Words.Drawing.GroupShape class to easily manage and manipulate grouped shapes in your documents for enhanced visual appeal.
 type: docs
 weight: 1340
 url: /net/aspose.words.drawing/groupshape/

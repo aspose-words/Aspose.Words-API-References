@@ -3,7 +3,7 @@ title: FieldAutoTextList Class
 linktitle: FieldAutoTextList
 articleTitle: FieldAutoTextList
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldAutoTextList class. Implements the AUTOTEXTLIST field in C#.
+description: Discover the Aspose.Words.Fields.FieldAutoTextList class, designed to streamline document automation with efficient AUTOTEXTLIST field implementation.
 type: docs
 weight: 2020
 url: /net/aspose.words.fields/fieldautotextlist/

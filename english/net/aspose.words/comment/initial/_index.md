@@ -3,7 +3,7 @@ title: Comment.Initial
 linktitle: Initial
 articleTitle: Initial
 second_title: Aspose.Words for .NET
-description: Comment Initial property. Returns or sets the initials of the user associated with a specific comment in C#.
+description: Discover how to manage user initials in comments effortlessly. Enhance engagement and personalize interactions with our easy-to-use property feature.
 type: docs
 weight: 80
 url: /net/aspose.words/comment/initial/

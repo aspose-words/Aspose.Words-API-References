@@ -3,7 +3,7 @@ title: Forms2OleControl.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words for .NET
-description: Forms2OleControl Width property. Gets or sets a width of the control in points in C#.
+description: Discover how to easily adjust the Width property of Forms2OleControl for precise control sizing in points. Enhance your UI design effortlessly!
 type: docs
 weight: 100
 url: /net/aspose.words.drawing.ole/forms2olecontrol/width/

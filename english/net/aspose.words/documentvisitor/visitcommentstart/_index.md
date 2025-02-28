@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCommentStart
 linktitle: VisitCommentStart
 articleTitle: VisitCommentStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitCommentStart method. Called when enumeration of a comment text has started in C#.
+description: Discover the DocumentVisitor VisitCommentStart method—your key to efficiently managing comment text enumeration in your projects.
 type: docs
 weight: 130
 url: /net/aspose.words/documentvisitor/visitcommentstart/

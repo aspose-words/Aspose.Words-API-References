@@ -3,7 +3,7 @@ title: OfficeMath.Justification
 linktitle: Justification
 articleTitle: Justification
 second_title: Aspose.Words for .NET
-description: OfficeMath Justification property. Gets/sets Office Math justification in C#.
+description: Discover the OfficeMath Justification property to easily customize and set your Office Math alignment. Enhance your document's presentation effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words.math/officemath/justification/

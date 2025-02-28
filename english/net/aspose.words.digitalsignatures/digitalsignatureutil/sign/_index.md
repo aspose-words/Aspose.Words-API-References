@@ -3,7 +3,7 @@ title: DigitalSignatureUtil.Sign
 linktitle: Sign
 articleTitle: Sign
 second_title: Aspose.Words for .NET
-description: DigitalSignatureUtil Sign method. Signs source document using given CertificateHolder and SignOptions with digital signature and writes signed document to destination stream in C#.
+description: Effortlessly sign your documents with DigitalSignatureUtil's Sign method. Securely apply digital signatures using CertificateHolder and SignOptions.
 type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/sign/

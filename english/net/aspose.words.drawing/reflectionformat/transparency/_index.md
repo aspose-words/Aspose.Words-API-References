@@ -3,7 +3,7 @@ title: ReflectionFormat.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words for .NET
-description: ReflectionFormat Transparency property. Gets or sets a double value between 0.0 opaque and 1.0 clear representing the degree of transparency for the reflection effect. The default value is 0.0 in C#.
+description: Adjust the ReflectionFormat Transparency from 0.0 (opaque) to 1.0 (clear) for customizable reflection effects. Enhance your designs with precision!
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/reflectionformat/transparency/

@@ -3,7 +3,7 @@ title: MailMergeSettings.MainDocumentType
 linktitle: MainDocumentType
 articleTitle: MainDocumentType
 second_title: Aspose.Words for .NET
-description: MailMergeSettings MainDocumentType property. Specifies the mailmerge main document type. The default value is Default in C#.
+description: Discover how the MailMergeSettings MainDocumentType property defines your mail merge documents. Unlock seamless document creation with optimal settings!
 type: docs
 weight: 140
 url: /net/aspose.words.settings/mailmergesettings/maindocumenttype/

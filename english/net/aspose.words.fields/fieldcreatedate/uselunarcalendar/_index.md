@@ -3,7 +3,7 @@ title: FieldCreateDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words for .NET
-description: FieldCreateDate UseLunarCalendar property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C#.
+description: Manage date formats effortlessly with the FieldCreateDate UseLunarCalendar property. Choose between Hijri and Hebrew Lunar calendars for precise scheduling.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcreatedate/uselunarcalendar/

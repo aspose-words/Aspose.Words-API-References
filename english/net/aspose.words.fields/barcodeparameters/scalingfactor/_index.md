@@ -3,7 +3,7 @@ title: BarcodeParameters.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words for .NET
-description: BarcodeParameters ScalingFactor property. Scaling factor for the symbol. The value is in whole percentage points and the valid values are 10 1000 in C#.
+description: Discover the BarcodeParameters ScalingFactor property, which allows precise symbol scaling in whole percentage points (10-1000) for optimal barcode performance.
 type: docs
 weight: 160
 url: /net/aspose.words.fields/barcodeparameters/scalingfactor/

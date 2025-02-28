@@ -3,7 +3,7 @@ title: TextPath.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words for .NET
-description: TextPath Spacing property. Defines the amount of spacing for text. 1 means 100 in C#.
+description: Discover TextPath Spacing: Control text spacing effortlessly. Optimize readability with precise adjustments—1 equals 100 for perfect alignment!
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/textpath/spacing/

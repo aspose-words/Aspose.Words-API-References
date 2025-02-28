@@ -3,7 +3,7 @@ title: DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
-description: DigitalSignatureDetails constructor. Initializes a new instance of DigitalSignatureDetails class in C#.
+description: Discover the DigitalSignatureDetails constructor to easily initialize digital signature instances, enhancing your application's security and efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/digitalsignaturedetails/digitalsignaturedetails/

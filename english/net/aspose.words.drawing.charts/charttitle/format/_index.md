@@ -3,7 +3,7 @@ title: ChartTitle.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartTitle Format property. Provides access to fill and line formatting of the chart title in C#.
+description: Explore the ChartTitle Format property for enhanced fill and line styling, giving your charts a professional and polished look.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/charttitle/format/

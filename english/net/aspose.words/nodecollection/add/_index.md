@@ -3,7 +3,7 @@ title: NodeCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: NodeCollection Add method. Adds a node to the end of the collection in C#.
+description: Discover the NodeCollection Add method to effortlessly append nodes to your collection, enhancing your data management with ease and efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words/nodecollection/add/

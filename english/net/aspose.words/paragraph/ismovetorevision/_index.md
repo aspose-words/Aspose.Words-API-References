@@ -3,7 +3,7 @@ title: Paragraph.IsMoveToRevision
 linktitle: IsMoveToRevision
 articleTitle: IsMoveToRevision
 second_title: Aspose.Words for .NET
-description: Paragraph IsMoveToRevision property. Returns true if this object was moved inserted in Microsoft Word while change tracking was enabled in C#.
+description: Discover the IsMoveToRevision property in Microsoft Word! Learn how it tracks changes and enhances your document editing experience.
 type: docs
 weight: 140
 url: /net/aspose.words/paragraph/ismovetorevision/

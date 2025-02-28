@@ -3,7 +3,7 @@ title: LayoutEnumerator.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator PageIndex property. Gets the 1based index of a page which contains the current entity in C#.
+description: Discover the LayoutEnumerator PageIndex property: Easily retrieve the 1-based index of the page containing your current entity for seamless navigation.
 type: docs
 weight: 60
 url: /net/aspose.words.layout/layoutenumerator/pageindex/

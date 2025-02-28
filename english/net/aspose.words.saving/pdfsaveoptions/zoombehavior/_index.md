@@ -3,7 +3,7 @@ title: PdfSaveOptions.ZoomBehavior
 linktitle: ZoomBehavior
 articleTitle: ZoomBehavior
 second_title: Aspose.Words for .NET
-description: PdfSaveOptions ZoomBehavior property. Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer in C#.
+description: Discover PdfSaveOptions ZoomBehavior: control zoom settings for optimal viewing in PDF viewers. Enhance user experience with tailored document display!
 type: docs
 weight: 350
 url: /net/aspose.words.saving/pdfsaveoptions/zoombehavior/

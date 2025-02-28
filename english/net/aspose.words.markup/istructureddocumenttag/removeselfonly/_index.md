@@ -3,7 +3,7 @@ title: IStructuredDocumentTag.RemoveSelfOnly
 linktitle: RemoveSelfOnly
 articleTitle: RemoveSelfOnly
 second_title: Aspose.Words for .NET
-description: IStructuredDocumentTag RemoveSelfOnly method. Removes just this SDT node itself but keeps the content of it inside the document tree in C#.
+description: Discover the IStructuredDocumentTag RemoveSelfOnly method to effortlessly remove an SDT node while preserving its content in your document tree.
 type: docs
 weight: 180
 url: /net/aspose.words.markup/istructureddocumenttag/removeselfonly/

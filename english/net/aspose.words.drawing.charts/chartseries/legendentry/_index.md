@@ -3,7 +3,7 @@ title: ChartSeries.LegendEntry
 linktitle: LegendEntry
 articleTitle: LegendEntry
 second_title: Aspose.Words for .NET
-description: ChartSeries LegendEntry property. Gets a legend entry for this chart series in C#.
+description: Discover the ChartSeries LegendEntry property to easily access and customize legend entries for your charts, enhancing your data visualization.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartseries/legendentry/

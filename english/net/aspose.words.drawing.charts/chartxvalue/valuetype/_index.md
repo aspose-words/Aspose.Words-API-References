@@ -3,7 +3,7 @@ title: ChartXValue.ValueType
 linktitle: ValueType
 articleTitle: ValueType
 second_title: Aspose.Words for .NET
-description: ChartXValue ValueType property. Gets the type of the X value stored in the object in C#.
+description: Discover the ChartXValue ValueType property to easily access and utilize the X value type in your data visualization projects.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartxvalue/valuetype/

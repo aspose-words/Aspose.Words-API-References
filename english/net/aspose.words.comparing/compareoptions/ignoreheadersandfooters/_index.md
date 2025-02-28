@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreHeadersAndFooters
 linktitle: IgnoreHeadersAndFooters
 articleTitle: IgnoreHeadersAndFooters
 second_title: Aspose.Words for .NET
-description: CompareOptions IgnoreHeadersAndFooters property. True indicates that headers and footers content is ignored in C#.
+description: Discover how the CompareOptions IgnoreHeadersAndFooters property enhances document processing by ignoring headers and footers for cleaner data analysis.
 type: docs
 weight: 100
 url: /net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/

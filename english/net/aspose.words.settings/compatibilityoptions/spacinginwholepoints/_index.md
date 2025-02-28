@@ -3,7 +3,7 @@ title: CompatibilityOptions.SpacingInWholePoints
 linktitle: SpacingInWholePoints
 articleTitle: SpacingInWholePoints
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions SpacingInWholePoints property. Only Expand/Condense Text By Whole Points in C#.
+description: Discover the CompatibilityOptions SpacingInWholePoints property to effortlessly adjust text spacing by whole points for enhanced readability and design.
 type: docs
 weight: 450
 url: /net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/

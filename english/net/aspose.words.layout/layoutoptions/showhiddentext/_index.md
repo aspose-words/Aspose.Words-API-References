@@ -3,7 +3,7 @@ title: LayoutOptions.ShowHiddenText
 linktitle: ShowHiddenText
 articleTitle: ShowHiddenText
 second_title: Aspose.Words for .NET
-description: LayoutOptions ShowHiddenText property. Gets or sets indication of whether hidden text in the document is rendered. Default is false in C#.
+description: Discover the LayoutOptions ShowHiddenText property: easily control the rendering of hidden text in your documents. Optimize your content visibility today!
 type: docs
 weight: 80
 url: /net/aspose.words.layout/layoutoptions/showhiddentext/

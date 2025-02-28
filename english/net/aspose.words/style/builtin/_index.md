@@ -3,7 +3,7 @@ title: Style.BuiltIn
 linktitle: BuiltIn
 articleTitle: BuiltIn
 second_title: Aspose.Words for .NET
-description: Style BuiltIn property. True if this style is one of the builtin styles in MS Word in C#.
+description: Discover if a style is a built-in option in MS Word. Enhance your document design with our comprehensive guide to Word's built-in styles!
 type: docs
 weight: 40
 url: /net/aspose.words/style/builtin/

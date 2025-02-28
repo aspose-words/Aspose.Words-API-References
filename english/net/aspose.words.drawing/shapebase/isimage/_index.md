@@ -3,7 +3,7 @@ title: ShapeBase.IsImage
 linktitle: IsImage
 articleTitle: IsImage
 second_title: Aspose.Words for .NET
-description: ShapeBase IsImage property. Returns true if this shape is an image shape in C#.
+description: Discover if a shape is an image with ShapeBase's IsImage property. Easily identify image shapes for enhanced design flexibility and functionality.
 type: docs
 weight: 300
 url: /net/aspose.words.drawing/shapebase/isimage/

@@ -3,7 +3,7 @@ title: Aspose.Words.Fields
 linktitle: Aspose.Words.Fields
 articleTitle: Aspose.Words.Fields
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Fields namespace contains classes that represent Microsoft Word fields in a document in C#.
+description: Discover the Aspose.Words.Fields namespace, featuring powerful classes to seamlessly manage Microsoft Word fields in your documents for enhanced editing and automation.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/

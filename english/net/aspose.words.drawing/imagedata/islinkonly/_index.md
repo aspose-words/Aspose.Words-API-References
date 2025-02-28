@@ -3,7 +3,7 @@ title: ImageData.IsLinkOnly
 linktitle: IsLinkOnly
 articleTitle: IsLinkOnly
 second_title: Aspose.Words for .NET
-description: ImageData IsLinkOnly property. Returns true if the image is linked and not stored in the document in C#.
+description: Discover the ImageData IsLinkOnly property: it indicates if an image is externally linked, enhancing document efficiency and storage management.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/imagedata/islinkonly/

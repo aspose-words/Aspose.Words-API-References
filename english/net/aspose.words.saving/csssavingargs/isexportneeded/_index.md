@@ -3,7 +3,7 @@ title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words for .NET
-description: CssSavingArgs IsExportNeeded property. Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is true. When this property is false the CSS information will not be saved to a CSS file and will not be embedded to HTML document in C#.
+description: Control CSS export with CssSavingArgs IsExportNeeded property. Choose to embed or save CSS to file for optimized HTML documents. Default: true.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/csssavingargs/isexportneeded/

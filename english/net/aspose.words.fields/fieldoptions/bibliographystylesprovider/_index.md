@@ -3,7 +3,7 @@ title: FieldOptions.BibliographyStylesProvider
 linktitle: BibliographyStylesProvider
 articleTitle: BibliographyStylesProvider
 second_title: Aspose.Words for .NET
-description: FieldOptions BibliographyStylesProvider property. Gets or sets a provider that returns a bibliography style for the FieldBibliography and FieldCitation fields in C#.
+description: Discover the FieldOptions BibliographyStylesProvider property for customizable bibliography styles, enhancing your FieldBibliography and FieldCitation fields.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldoptions/bibliographystylesprovider/

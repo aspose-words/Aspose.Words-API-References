@@ -3,7 +3,7 @@ title: DownsampleOptions.Resolution
 linktitle: Resolution
 articleTitle: Resolution
 second_title: Aspose.Words for .NET
-description: DownsampleOptions Resolution property. Specifies the resolution in pixels per inch which the images should be downsampled to in C#.
+description: Optimize image quality with the DownsampleOptions Resolution property, defining the ideal pixels per inch for superior downsampling results.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/downsampleoptions/resolution/

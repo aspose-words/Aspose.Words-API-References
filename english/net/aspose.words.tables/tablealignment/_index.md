@@ -3,9 +3,9 @@ title: TableAlignment Enum
 linktitle: TableAlignment
 articleTitle: TableAlignment
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.TableAlignment enum. Specifies alignment for an inline table in C#.
+description: Discover Aspose.Words.Tables.TableAlignment enum for optimal inline table alignment. Enhance your document formatting with precision and ease.
 type: docs
-weight: 7040
+weight: 7050
 url: /net/aspose.words.tables/tablealignment/
 ---
 ## TableAlignment enumeration

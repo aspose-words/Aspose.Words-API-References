@@ -3,7 +3,7 @@ title: RevisionGroup.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: RevisionGroup Text property. Returns inserted/deleted/moved text or description of format change in C#.
+description: Explore the RevisionGroup Text property to access inserted, deleted, or moved text, enhancing your document's formatting insights and editing efficiency.
 type: docs
 weight: 30
 url: /net/aspose.words/revisiongroup/text/

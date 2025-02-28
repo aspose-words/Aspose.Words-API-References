@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection Separator property. Gets or sets string separator used for the data labels of the entire series. The default is a comma except for pie charts showing only category name and percentage when a line break shall be used instead in C#.
+description: Discover the Separator property of ChartDataLabelCollection. Customize data label separators for enhanced clarity in your charts, from commas to line breaks.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/separator/

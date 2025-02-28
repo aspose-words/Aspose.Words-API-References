@@ -3,9 +3,9 @@ title: XpsSaveOptions Class
 linktitle: XpsSaveOptions
 articleTitle: XpsSaveOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.XpsSaveOptions class. Can be used to specify additional options when saving a document into the Xps format in C#.
+description: Discover Aspose.Words.Saving.XpsSaveOptions for enhanced document saving in XPS format. Customize settings for optimal output and quality.
 type: docs
-weight: 6380
+weight: 6390
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class

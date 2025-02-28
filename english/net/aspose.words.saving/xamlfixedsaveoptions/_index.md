@@ -3,9 +3,9 @@ title: XamlFixedSaveOptions Class
 linktitle: XamlFixedSaveOptions
 articleTitle: XamlFixedSaveOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.XamlFixedSaveOptions class. Can be used to specify additional options when saving a document into the XamlFixed format in C#.
+description: Discover Aspose.Words.Saving.XamlFixedSaveOptions for enhanced document saving in XamlFixed format. Unlock advanced features for superior results!
 type: docs
-weight: 6330
+weight: 6340
 url: /net/aspose.words.saving/xamlfixedsaveoptions/
 ---
 ## XamlFixedSaveOptions class

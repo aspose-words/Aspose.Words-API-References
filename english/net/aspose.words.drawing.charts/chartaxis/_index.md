@@ -3,7 +3,7 @@ title: ChartAxis Class
 linktitle: ChartAxis
 articleTitle: ChartAxis
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartAxis class. Represents the axis options of the chart in C#.
+description: Discover the Aspose.Words.Drawing.Charts.ChartAxis class for customizable chart axis options. Enhance your data visualization effortlessly!
 type: docs
 weight: 890
 url: /net/aspose.words.drawing.charts/chartaxis/

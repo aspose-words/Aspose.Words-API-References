@@ -3,7 +3,7 @@ title: Bookmark.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: Bookmark Name property. Gets or sets the name of the bookmark in C#.
+description: Manage your bookmarks effortlessly with Bookmark Name. Easily set or update your bookmark names for better organization and quick access.
 type: docs
 weight: 60
 url: /net/aspose.words/bookmark/name/

@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.ScaleCrop
 linktitle: ScaleCrop
 articleTitle: ScaleCrop
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties ScaleCrop property. Indicates whether document thumbnail is cropped or scaled to fit the display in C#.
+description: Discover the ScaleCrop property in BuiltInDocumentProperties, which controls thumbnail display—ensuring optimal viewing with cropped or scaled images.
 type: docs
 weight: 260
 url: /net/aspose.words.properties/builtindocumentproperties/scalecrop/

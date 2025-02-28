@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
 second_title: Aspose.Words for .NET
-description: MustacheTag ReferenceRun property. Gets the run that contains the beginning of the tag in C#.
+description: Discover MustacheTag ReferenceRun: Access the run that marks the start of your tag for seamless data management and enhanced performance.
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/mustachetag/referencerun/

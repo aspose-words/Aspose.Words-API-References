@@ -3,7 +3,7 @@ title: PageInfo.Colored
 linktitle: Colored
 articleTitle: Colored
 second_title: Aspose.Words for .NET
-description: PageInfo Colored property. Returns true if the page contains colored content in C#.
+description: Discover if your page features vibrant colored content with the PageInfo Colored property. Enhance user engagement and improve visual appeal!
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/pageinfo/colored/

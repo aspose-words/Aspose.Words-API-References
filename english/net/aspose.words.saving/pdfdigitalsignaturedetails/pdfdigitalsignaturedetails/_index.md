@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails
 linktitle: PdfDigitalSignatureDetails
 articleTitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureDetails constructor. Initializes an instance of this class in C#.
+description: Discover the PdfDigitalSignatureDetails constructor, designed to efficiently initialize digital signature instances for secure document management.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/

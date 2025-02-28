@@ -3,7 +3,7 @@ title: OpenAiModel.WithProject
 linktitle: WithProject
 articleTitle: WithProject
 second_title: Aspose.Words for .NET
-description: OpenAiModel WithProject method. Sets a specified Project to the model in C#.
+description: Enhance your AI capabilities with the OpenAiModel's WithProject method—easily assign projects to optimize performance and streamline your workflow.
 type: docs
 weight: 20
 url: /net/aspose.words.ai/openaimodel/withproject/

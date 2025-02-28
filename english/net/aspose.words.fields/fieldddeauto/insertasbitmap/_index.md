@@ -3,7 +3,7 @@ title: FieldDdeAuto.InsertAsBitmap
 linktitle: InsertAsBitmap
 articleTitle: InsertAsBitmap
 second_title: Aspose.Words for .NET
-description: FieldDdeAuto InsertAsBitmap property. Gets or sets whether to insert the linked object as a bitmap in C#.
+description: Discover how the FieldDdeAuto InsertAsBitmap property enhances your linked objects by allowing bitmap insertion. Optimize your documents effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldddeauto/insertasbitmap/

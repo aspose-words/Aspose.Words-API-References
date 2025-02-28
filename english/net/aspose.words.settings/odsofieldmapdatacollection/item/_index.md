@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: OdsoFieldMapDataCollection Item property. Gets or sets an item in this collection in C#.
+description: Discover OdsoFieldMapDataCollection's Item property to easily manage and customize your data collection. Enhance your data handling today!
 type: docs
 weight: 30
 url: /net/aspose.words.settings/odsofieldmapdatacollection/item/

@@ -3,7 +3,7 @@ title: GroupShape.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: GroupShape NodeType property. Returns GroupShape in C#.
+description: Discover the GroupShape NodeType property that efficiently returns GroupShape, enhancing your design flexibility and functionality in projects.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/groupshape/nodetype/

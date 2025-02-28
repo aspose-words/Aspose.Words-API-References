@@ -3,7 +3,7 @@ title: StructuredDocumentTag.BuildingBlockCategory
 linktitle: BuildingBlockCategory
 articleTitle: BuildingBlockCategory
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag BuildingBlockCategory property. Specifies category of building block for this SDT node. Can not be null in C#.
+description: Discover the StructuredDocumentTag BuildingBlockCategory property, essential for defining building block categories in SDT nodes. Enhance your document structure!
 type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttag/buildingblockcategory/

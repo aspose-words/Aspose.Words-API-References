@@ -3,7 +3,7 @@ title: IMailMergeDataSource.MoveNext
 linktitle: MoveNext
 articleTitle: MoveNext
 second_title: Aspose.Words for .NET
-description: IMailMergeDataSource MoveNext method. Advances to the next record in the data source in C#.
+description: Discover how the IMailMergeDataSource MoveNext method seamlessly advances to the next record, enhancing your data management efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/imailmergedatasource/movenext/

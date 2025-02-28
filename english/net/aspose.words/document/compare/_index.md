@@ -3,7 +3,7 @@ title: Document.Compare
 linktitle: Compare
 articleTitle: Compare
 second_title: Aspose.Words for .NET
-description: Document Compare method. Compares this document with another document producing changes as number of edit and format revisions Revision in C#.
+description: Effortlessly compare documents with our Document Compare tool. Identify edits and format changes quickly for streamlined revisions and enhanced collaboration.
 type: docs
 weight: 600
 url: /net/aspose.words/document/compare/

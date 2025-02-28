@@ -3,7 +3,7 @@ title: ControlChar.LineBreak
 linktitle: LineBreak
 articleTitle: LineBreak
 second_title: Aspose.Words for .NET
-description: ControlChar LineBreak field. Line break character x000b or v in C#.
+description: Discover the ControlChar LineBreak field for seamless text formatting with the x000b or v character. Enhance your content's readability today!
 type: docs
 weight: 120
 url: /net/aspose.words/controlchar/linebreak/

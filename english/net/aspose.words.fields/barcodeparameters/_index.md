@@ -3,7 +3,7 @@ title: BarcodeParameters Class
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.BarcodeParameters class. Container class for barcode parameters to passthrough to BarcodeGenerator in C#.
+description: Discover the Aspose.Words.Fields.BarcodeParameters class—your essential tool for seamless barcode generation and customization in document processing.
 type: docs
 weight: 1870
 url: /net/aspose.words.fields/barcodeparameters/

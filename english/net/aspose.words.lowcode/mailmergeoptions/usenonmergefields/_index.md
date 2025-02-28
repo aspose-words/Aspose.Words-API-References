@@ -3,7 +3,7 @@ title: MailMergeOptions.UseNonMergeFields
 linktitle: UseNonMergeFields
 articleTitle: UseNonMergeFields
 second_title: Aspose.Words for .NET
-description: MailMergeOptions UseNonMergeFields property. When true specifies that in addition to MERGEFIELD fields mail merge is performed into some other types of fields and also into fieldName tags in C#.
+description: Unlock advanced mail merge capabilities with the UseNonMergeFields property. Seamlessly integrate MERGEFIELD and other field types for enhanced document customization.
 type: docs
 weight: 130
 url: /net/aspose.words.lowcode/mailmergeoptions/usenonmergefields/

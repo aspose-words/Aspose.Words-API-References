@@ -3,7 +3,7 @@ title: LayoutEnumerator.MovePrevious
 linktitle: MovePrevious
 articleTitle: MovePrevious
 second_title: Aspose.Words for .NET
-description: LayoutEnumerator MovePrevious method. Moves to the previous sibling entity in C#.
+description: Discover how the LayoutEnumerator MovePrevious method efficiently navigates to the previous sibling entity, enhancing your coding workflow.
 type: docs
 weight: 150
 url: /net/aspose.words.layout/layoutenumerator/moveprevious/

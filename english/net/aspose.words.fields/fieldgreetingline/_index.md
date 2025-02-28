@@ -3,7 +3,7 @@ title: FieldGreetingLine Class
 linktitle: FieldGreetingLine
 articleTitle: FieldGreetingLine
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldGreetingLine class. Implements the GREETINGLINE field in C#.
+description: Discover the Aspose.Words.Fields.FieldGreetingLine class, designed to effortlessly implement GREETINGLINE fields for enhanced document personalization.
 type: docs
 weight: 2380
 url: /net/aspose.words.fields/fieldgreetingline/

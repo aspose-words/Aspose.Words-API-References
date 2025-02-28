@@ -3,7 +3,7 @@ title: DigitalSignatureDetails.SignOptions
 linktitle: SignOptions
 articleTitle: SignOptions
 second_title: Aspose.Words for .NET
-description: DigitalSignatureDetails SignOptions property. Gets or sets a SignOptions object used to sign a document in C#.
+description: Discover how the DigitalSignatureDetails SignOptions property enhances document security by easily managing signing options for seamless digital signatures.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/digitalsignaturedetails/signoptions/

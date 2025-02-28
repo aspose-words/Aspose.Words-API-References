@@ -3,7 +3,7 @@ title: ChartDataLabel.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words for .NET
-description: ChartDataLabel Rotation property. Gets or sets the rotation of the label in degrees in C#.
+description: Discover the ChartDataLabel Rotation property to easily customize label angles in your charts. Enhance data visualization with precise control!
 type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartdatalabel/rotation/

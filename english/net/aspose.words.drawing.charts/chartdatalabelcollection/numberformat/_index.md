@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
 second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection NumberFormat property. Gets an ChartNumberFormat instance allowing to set number format for the data labels of the entire series in C#.
+description: Discover the ChartDataLabelCollection NumberFormat property to easily customize data label formats for your entire series, enhancing clarity and presentation.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/

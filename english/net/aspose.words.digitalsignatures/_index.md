@@ -3,7 +3,7 @@ title: Aspose.Words.DigitalSignatures
 linktitle: Aspose.Words.DigitalSignatures
 articleTitle: Aspose.Words.DigitalSignatures
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.DigitalSignatures namespace provides classes to sign documents and verify signatures in C#.
+description: Discover the Aspose.Words.DigitalSignatures namespace for easy document signing and signature verification, ensuring security and authenticity in your workflows.
 type: docs
 weight: 60
 url: /net/aspose.words.digitalsignatures/

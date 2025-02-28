@@ -3,9 +3,9 @@ title: NodeImporter Class
 linktitle: NodeImporter
 articleTitle: NodeImporter
 second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeImporter class. Allows to efficiently perform repeated import of nodes from one document to another in C#.
+description: Effortlessly transfer document nodes with Aspose.Words.NodeImporter. Streamline your workflow and enhance document management efficiency today!
 type: docs
-weight: 4760
+weight: 4770
 url: /net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class

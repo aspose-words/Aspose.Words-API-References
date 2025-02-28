@@ -3,7 +3,7 @@ title: CustomXmlProperty.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words for .NET
-description: CustomXmlProperty Value property. Gets or sets the value of the custom XML attribute or smart tag property in C#.
+description: Discover the CustomXmlProperty Value feature to easily manage custom XML attributes and smart tag properties for enhanced data control.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlproperty/value/

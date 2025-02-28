@@ -3,7 +3,7 @@ title: AxisScaling Class
 linktitle: AxisScaling
 articleTitle: AxisScaling
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.AxisScaling class. Represents the scaling options of the axis in C#.
+description: Discover the Aspose.Words.Drawing.Charts.AxisScaling class for customizable axis scaling options, enhancing your chart presentations effortlessly.
 type: docs
 weight: 820
 url: /net/aspose.words.drawing.charts/axisscaling/

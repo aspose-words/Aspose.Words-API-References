@@ -3,7 +3,7 @@ title: ContributorCollection.Translator
 linktitle: Translator
 articleTitle: Translator
 second_title: Aspose.Words for .NET
-description: ContributorCollection Translator property. Gets or sets the translator of a source in C#.
+description: Discover the ContributorCollection Translator property: easily manage and customize source translators to enhance your content's accessibility and engagement.
 type: docs
 weight: 150
 url: /net/aspose.words.bibliography/contributorcollection/translator/

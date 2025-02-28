@@ -3,7 +3,7 @@ title: ImageData.Contrast
 linktitle: Contrast
 articleTitle: Contrast
 second_title: Aspose.Words for .NET
-description: ImageData Contrast property. Gets or sets the contrast for the specified picture. The value for this property must be a number from 0.0 the least contrast to 1.0 the greatest contrast in C#.
+description: Adjust image contrast easily with the ImageData Contrast property. Set values from 0.0 (low) to 1.0 (high) for optimal picture clarity and quality.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/imagedata/contrast/

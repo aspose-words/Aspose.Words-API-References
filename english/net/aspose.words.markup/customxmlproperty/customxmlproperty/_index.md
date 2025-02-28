@@ -3,7 +3,7 @@ title: CustomXmlProperty
 linktitle: CustomXmlProperty
 articleTitle: CustomXmlProperty
 second_title: Aspose.Words for .NET
-description: CustomXmlProperty constructor. Initializes a new instance of this class in C#.
+description: Discover the CustomXmlProperty constructor: Easily create and initialize new instances for seamless XML property management in your projects.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/customxmlproperty/customxmlproperty/

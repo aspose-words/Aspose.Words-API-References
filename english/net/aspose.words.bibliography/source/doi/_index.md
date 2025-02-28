@@ -3,7 +3,7 @@ title: Source.Doi
 linktitle: Doi
 articleTitle: Doi
 second_title: Aspose.Words for .NET
-description: Source Doi property. Gets or sets the digital object identifier in C#.
+description: Discover how to efficiently manage Doi properties for seamless digital object identifier handling. Enhance your research visibility today!
 type: docs
 weight: 190
 url: /net/aspose.words.bibliography/source/doi/

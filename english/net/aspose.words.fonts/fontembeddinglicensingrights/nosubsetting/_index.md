@@ -3,7 +3,7 @@ title: FontEmbeddingLicensingRights.NoSubsetting
 linktitle: NoSubsetting
 articleTitle: NoSubsetting
 second_title: Aspose.Words for .NET
-description: FontEmbeddingLicensingRights NoSubsetting property. Indicates the No subsetting restriction in C#.
+description: Discover the Font Embedding Licensing Rights with No Subsetting. Ensure compliance and protect your fonts while enhancing your design projects.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontembeddinglicensingrights/nosubsetting/

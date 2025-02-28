@@ -3,7 +3,7 @@ title: CheckBoxControl Class
 linktitle: CheckBoxControl
 articleTitle: CheckBoxControl
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Ole.CheckBoxControl class. The CheckBox control toggles a value in C#.
+description: Discover the Aspose.Words.Drawing.Ole.CheckBoxControl class to easily toggle checkbox values and enhance your document automation with seamless integration.
 type: docs
 weight: 1430
 url: /net/aspose.words.drawing.ole/checkboxcontrol/

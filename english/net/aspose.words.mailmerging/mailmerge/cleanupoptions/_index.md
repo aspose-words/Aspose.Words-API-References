@@ -3,7 +3,7 @@ title: MailMerge.CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words for .NET
-description: MailMerge CleanupOptions property. Gets or sets a set of flags that specify what items should be removed during mail merge in C#.
+description: Optimize your mail merge with the CleanupOptions property—easily manage which items to remove for a seamless, efficient process.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mailmerge/cleanupoptions/

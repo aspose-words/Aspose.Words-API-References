@@ -3,7 +3,7 @@ title: StyleCollection.DefaultParagraphFormat
 linktitle: DefaultParagraphFormat
 articleTitle: DefaultParagraphFormat
 second_title: Aspose.Words for .NET
-description: StyleCollection DefaultParagraphFormat property. Gets document default paragraph formatting in C#.
+description: Discover the StyleCollection DefaultParagraphFormat property to easily access and customize your document's default paragraph formatting for enhanced readability.
 type: docs
 weight: 30
 url: /net/aspose.words/stylecollection/defaultparagraphformat/

@@ -3,7 +3,7 @@ title: CommentRangeStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: CommentRangeStart NodeType property. Returns CommentRangeStart in C#.
+description: Discover the CommentRangeStart NodeType property, which efficiently retrieves the starting point of comments for enhanced data management.
 type: docs
 weight: 30
 url: /net/aspose.words/commentrangestart/nodetype/

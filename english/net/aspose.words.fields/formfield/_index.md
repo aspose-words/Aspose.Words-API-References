@@ -3,7 +3,7 @@ title: FormField Class
 linktitle: FormField
 articleTitle: FormField
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FormField class. Represents a single form field in C#.
+description: Discover the Aspose.Words.Fields.FormField class to easily create and manage customizable form fields in your documents for enhanced user interaction.
 type: docs
 weight: 3020
 url: /net/aspose.words.fields/formfield/

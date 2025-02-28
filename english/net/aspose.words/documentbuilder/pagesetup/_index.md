@@ -3,7 +3,7 @@ title: DocumentBuilder.PageSetup
 linktitle: PageSetup
 articleTitle: PageSetup
 second_title: Aspose.Words for .NET
-description: DocumentBuilder PageSetup property. Returns an object that represents current page setup and section properties in C#.
+description: Explore the DocumentBuilder PageSetup property to access current page and section settings, enhancing your document formatting and layout efficiency.
 type: docs
 weight: 160
 url: /net/aspose.words/documentbuilder/pagesetup/

@@ -3,7 +3,7 @@ title: ChartDataTable.HasLegendKeys
 linktitle: HasLegendKeys
 articleTitle: HasLegendKeys
 second_title: Aspose.Words for .NET
-description: ChartDataTable HasLegendKeys property. Gets or sets a flag indicating whether legend keys are displayed in the data table. The default value is true in C#.
+description: Discover the ChartDataTable HasLegendKeys property to easily control legend key visibility in your data table. Enhance clarity with customizable settings!
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartdatatable/haslegendkeys/

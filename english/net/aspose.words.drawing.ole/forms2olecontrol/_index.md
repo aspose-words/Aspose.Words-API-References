@@ -3,7 +3,7 @@ title: Forms2OleControl Class
 linktitle: Forms2OleControl
 articleTitle: Forms2OleControl
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControl class. Represents Microsoft Forms 2.0 OLE control in C#.
+description: Discover the Aspose.Words.Drawing.Ole.Forms2OleControl class, your solution for integrating Microsoft Forms 2.0 OLE controls seamlessly into your applications.
 type: docs
 weight: 1450
 url: /net/aspose.words.drawing.ole/forms2olecontrol/

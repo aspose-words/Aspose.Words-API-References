@@ -3,7 +3,7 @@ title: FieldPrintDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words for .NET
-description: FieldPrintDate UseLunarCalendar property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C#.
+description: Manage dates effortlessly with the FieldPrintDate UseLunarCalendar property. Easily toggle between Hijri and Hebrew Lunar calendars for seamless integration.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldprintdate/uselunarcalendar/

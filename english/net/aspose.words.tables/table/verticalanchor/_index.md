@@ -3,7 +3,7 @@ title: Table.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words for .NET
-description: Table VerticalAnchor property. Gets the base object from which the vertical positioning of floating table should be calculated. Default value is Margin in C#.
+description: Discover the Table VerticalAnchor property to optimize floating table positioning. Learn how to enhance layout control with its default Margin value.
 type: docs
 weight: 340
 url: /net/aspose.words.tables/table/verticalanchor/

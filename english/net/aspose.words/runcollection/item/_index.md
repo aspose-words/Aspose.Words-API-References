@@ -3,7 +3,7 @@ title: RunCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: RunCollection Item property. Retrieves a Run at the given index in C#.
+description: Access specific RunCollection items effortlessly. Retrieve any Run by index for streamlined data management and enhanced performance.
 type: docs
 weight: 10
 url: /net/aspose.words/runcollection/item/

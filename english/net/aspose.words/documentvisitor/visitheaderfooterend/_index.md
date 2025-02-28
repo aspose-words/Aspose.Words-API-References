@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitHeaderFooterEnd
 linktitle: VisitHeaderFooterEnd
 articleTitle: VisitHeaderFooterEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitHeaderFooterEnd method. Called when enumeration of a header or footer in a section has ended in C#.
+description: Discover the DocumentVisitor VisitHeaderFooterEnd method, essential for efficiently managing header and footer enumeration in your documents.
 type: docs
 weight: 280
 url: /net/aspose.words/documentvisitor/visitheaderfooterend/

@@ -3,7 +3,7 @@ title: FieldMergeBarcode.ForegroundColor
 linktitle: ForegroundColor
 articleTitle: ForegroundColor
 second_title: Aspose.Words for .NET
-description: FieldMergeBarcode ForegroundColor property. Gets or sets the foreground color of the barcode symbol. Valid values are in the range 0 0xFFFFFF in C#.
+description: Discover the FieldMergeBarcode ForegroundColor property to customize your barcode's appearance. Easily set colors with values from 0 to 0xFFFFFF!
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldmergebarcode/foregroundcolor/

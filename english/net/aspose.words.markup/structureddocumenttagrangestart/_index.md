@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart Class
 linktitle: StructuredDocumentTagRangeStart
 articleTitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.StructuredDocumentTagRangeStart class. Represents a start of ranged structured document tag which accepts multisections content. See also StructuredDocumentTagRangeEnd in C#.
+description: Discover the Aspose.Words.Markup.StructuredDocumentTagRangeStart class, enabling seamless multi-section content management in structured documents.
 type: docs
-weight: 4640
+weight: 4650
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class

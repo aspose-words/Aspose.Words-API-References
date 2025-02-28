@@ -3,7 +3,7 @@ title: Document.EndnoteOptions
 linktitle: EndnoteOptions
 articleTitle: EndnoteOptions
 second_title: Aspose.Words for .NET
-description: Document EndnoteOptions property. Provides options that control numbering and positioning of endnotes in this document in C#.
+description: Explore the EndnoteOptions property to customize endnote numbering and positioning, enhancing your document's clarity and professionalism.
 type: docs
 weight: 120
 url: /net/aspose.words/document/endnoteoptions/

@@ -3,7 +3,7 @@ title: CompositeNode.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words for .NET
-description: CompositeNode GetText method. Gets the text of this node and of all its children in C#.
+description: Discover the CompositeNode GetText method to efficiently retrieve text from nodes and their children, enhancing your data processing capabilities.
 type: docs
 weight: 130
 url: /net/aspose.words/compositenode/gettext/

@@ -3,7 +3,7 @@ title: PageSetup.ChapterPageSeparator
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
 second_title: Aspose.Words for .NET
-description: PageSetup ChapterPageSeparator property. Gets or sets the separator character that appears between the chapter number and the page number in C#.
+description: Discover the ChapterPageSeparator property in PageSetup. Easily customize the separator character between chapter and page numbers for a polished look.
 type: docs
 weight: 90
 url: /net/aspose.words/pagesetup/chapterpageseparator/

@@ -3,7 +3,7 @@ title: FontInfoCollection.EmbedTrueTypeFonts
 linktitle: EmbedTrueTypeFonts
 articleTitle: EmbedTrueTypeFonts
 second_title: Aspose.Words for .NET
-description: FontInfoCollection EmbedTrueTypeFonts property. Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is false in C#.
+description: Learn how the EmbedTrueTypeFonts property in FontInfoCollection enhances document quality by allowing TrueType font embedding. Default is false.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/

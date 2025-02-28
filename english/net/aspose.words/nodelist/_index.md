@@ -3,9 +3,9 @@ title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
 second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeList class. Represents a collection of nodes matching an XPath query executed using the SelectNodes method in C#.
+description: Explore the Aspose.Words.NodeList class, your go-to solution for efficiently managing XPath query results and enhancing document processing capabilities.
 type: docs
-weight: 4770
+weight: 4780
 url: /net/aspose.words/nodelist/
 ---
 ## NodeList class

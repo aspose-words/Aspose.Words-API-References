@@ -3,7 +3,7 @@ title: DocumentBuilder.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words for .NET
-description: DocumentBuilder Italic property. True if the font is formatted as italic in C#.
+description: Discover the DocumentBuilder Italic property: Easily format your text in italic for enhanced readability and style in your documents.
 type: docs
 weight: 140
 url: /net/aspose.words/documentbuilder/italic/

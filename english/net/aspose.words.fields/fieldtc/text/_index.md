@@ -3,7 +3,7 @@ title: FieldTC.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: FieldTC Text property. Gets or sets the text of the entry in C#.
+description: Manage your FieldTC Text property effortlessly. Easily get or set entry text for seamless data handling and enhanced user experience.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldtc/text/

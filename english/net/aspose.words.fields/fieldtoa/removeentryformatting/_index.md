@@ -3,7 +3,7 @@ title: FieldToa.RemoveEntryFormatting
 linktitle: RemoveEntryFormatting
 articleTitle: RemoveEntryFormatting
 second_title: Aspose.Words for .NET
-description: FieldToa RemoveEntryFormatting property. Gets or sets whether to remove the formatting of the entry text in the document from the entry in the table of authorities in C#.
+description: Control entry text formatting in your document with FieldToa's RemoveEntryFormatting property. Enhance your table of authorities effortlessly!
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldtoa/removeentryformatting/

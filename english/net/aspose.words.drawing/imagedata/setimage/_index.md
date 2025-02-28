@@ -3,7 +3,7 @@ title: ImageData.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words for .NET
-description: ImageData SetImage method. Sets the image that the shape displays in C#.
+description: Discover how to use the SetImage method in ImageData to enhance your shapes with customized images. Elevate your design effortlessly!
 type: docs
 weight: 210
 url: /net/aspose.words.drawing/imagedata/setimage/

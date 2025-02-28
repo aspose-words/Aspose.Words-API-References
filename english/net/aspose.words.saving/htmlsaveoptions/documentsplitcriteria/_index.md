@@ -3,7 +3,7 @@ title: HtmlSaveOptions.DocumentSplitCriteria
 linktitle: DocumentSplitCriteria
 articleTitle: DocumentSplitCriteria
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions DocumentSplitCriteria property. Specifies how the document should be split when saving to Html Epub or Azw3 format. Default is None for HTML and HeadingParagraph for EPUB and AZW3 in C#.
+description: Discover the HtmlSaveOptions DocumentSplitCriteria property to optimize document saving in HTML, EPUB, and AZW3 formats. Enhance your formatting control today!
 type: docs
 weight: 80
 url: /net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/

@@ -3,7 +3,7 @@ title: Source.Month
 linktitle: Month
 articleTitle: Month
 second_title: Aspose.Words for .NET
-description: Source Month property. Gets or sets the month of a source in C#.
+description: Manage your Source Month property effortlessly. Easily get or set the month for any source, enhancing your data organization and efficiency.
 type: docs
 weight: 280
 url: /net/aspose.words.bibliography/source/month/

@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitGroupShapeEnd
 linktitle: VisitGroupShapeEnd
 articleTitle: VisitGroupShapeEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitGroupShapeEnd method. Called when enumeration of a group shape has ended in C#.
+description: Discover the DocumentVisitor VisitGroupShapeEnd method, which efficiently signals the end of group shape enumeration for seamless document processing.
 type: docs
 weight: 260
 url: /net/aspose.words/documentvisitor/visitgroupshapeend/

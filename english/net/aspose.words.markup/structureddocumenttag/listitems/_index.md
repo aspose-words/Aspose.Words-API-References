@@ -3,7 +3,7 @@ title: StructuredDocumentTag.ListItems
 linktitle: ListItems
 articleTitle: ListItems
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag ListItems property. Gets SdtListItemCollection associated with this SDT in C#.
+description: Discover the StructuredDocumentTag ListItems property, providing easy access to the SdtListItemCollection for enhanced document management and organization.
 type: docs
 weight: 180
 url: /net/aspose.words.markup/structureddocumenttag/listitems/

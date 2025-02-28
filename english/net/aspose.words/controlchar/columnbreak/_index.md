@@ -3,7 +3,7 @@ title: ControlChar.ColumnBreak
 linktitle: ColumnBreak
 articleTitle: ColumnBreak
 second_title: Aspose.Words for .NET
-description: ControlChar ColumnBreak field. End of column character x000e in C#.
+description: Discover the ControlChar ColumnBreak field: streamline your document layout with the x000e end-of-column character for enhanced formatting control.
 type: docs
 weight: 30
 url: /net/aspose.words/controlchar/columnbreak/

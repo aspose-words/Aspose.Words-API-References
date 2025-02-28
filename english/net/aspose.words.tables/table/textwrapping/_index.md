@@ -3,7 +3,7 @@ title: Table.TextWrapping
 linktitle: TextWrapping
 articleTitle: TextWrapping
 second_title: Aspose.Words for .NET
-description: Table TextWrapping property. Gets or sets TextWrapping for table in C#.
+description: Discover the Table TextWrapping property to easily manage text flow in your tables. Enhance readability and design with flexible text options!
 type: docs
 weight: 310
 url: /net/aspose.words.tables/table/textwrapping/

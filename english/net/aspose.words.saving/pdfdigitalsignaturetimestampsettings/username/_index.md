@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings.UserName
 linktitle: UserName
 articleTitle: UserName
 second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureTimestampSettings UserName property. Timestamp server user name in C#.
+description: Discover the PdfDigitalSignatureTimestampSettings UserName property for secure timestamping. Enhance your document integrity with reliable server authentication.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/

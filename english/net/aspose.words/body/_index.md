@@ -3,7 +3,7 @@ title: Body Class
 linktitle: Body
 articleTitle: Body
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Body class. Represents a container for the main text of a section in C#.
+description: Discover the Aspose.Words.Body class, your essential tool for managing section text effortlessly and enhancing document processing efficiency.
 type: docs
 weight: 220
 url: /net/aspose.words/body/

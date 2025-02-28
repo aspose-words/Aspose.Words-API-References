@@ -3,7 +3,7 @@ title: Comment.Done
 linktitle: Done
 articleTitle: Done
 second_title: Aspose.Words for .NET
-description: Comment Done property. Gets or sets flag indicating that the comment has been marked done in C#.
+description: Mark comments as complete with the Done property. Easily manage your tasks and improve workflow efficiency with this simple flag feature.
 type: docs
 weight: 60
 url: /net/aspose.words/comment/done/

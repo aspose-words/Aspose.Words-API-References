@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.Keywords
 linktitle: Keywords
 articleTitle: Keywords
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Keywords property. Gets or sets the document keywords in C#.
+description: Enhance your documents with BuiltInDocumentProperties. Easily manage keywords to improve searchability and organization for better productivity.
 type: docs
 weight: 150
 url: /net/aspose.words.properties/builtindocumentproperties/keywords/

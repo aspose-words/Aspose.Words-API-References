@@ -3,7 +3,7 @@ title: CompatibilityOptions.DoNotSnapToGridInCell
 linktitle: DoNotSnapToGridInCell
 articleTitle: DoNotSnapToGridInCell
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions DoNotSnapToGridInCell property. Do Not Snap to Document Grid in Table Cells with Objects in C#.
+description: Discover how to disable the 'Do Not Snap to Grid' feature in table cells, enhancing your document layout and object placement for better design control.
 type: docs
 weight: 170
 url: /net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/

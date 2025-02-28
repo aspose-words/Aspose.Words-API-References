@@ -3,7 +3,7 @@ title: Frameset.ChildFramesets
 linktitle: ChildFramesets
 articleTitle: ChildFramesets
 second_title: Aspose.Words for .NET
-description: Frameset ChildFramesets property. Gets the collection of child frames and frames pages in C#.
+description: Discover the Frameset ChildFramesets property to easily access and manage collections of child frames and pages for enhanced web design.
 type: docs
 weight: 20
 url: /net/aspose.words.framesets/frameset/childframesets/

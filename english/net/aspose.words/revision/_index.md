@@ -3,9 +3,9 @@ title: Revision Class
 linktitle: Revision
 articleTitle: Revision
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Revision class. Represents a revision tracked change in a document node or style. Use RevisionType to check the type of this revision in C#.
+description: Explore the Aspose.Words.Revision class to manage tracked changes in documents. Easily identify revision types for seamless document editing.
 type: docs
-weight: 5360
+weight: 5370
 url: /net/aspose.words/revision/
 ---
 ## Revision class

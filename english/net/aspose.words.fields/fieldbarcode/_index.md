@@ -3,7 +3,7 @@ title: FieldBarcode Class
 linktitle: FieldBarcode
 articleTitle: FieldBarcode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldBarcode class. Implements the BARCODE field in C#.
+description: Discover the Aspose.Words.Fields.FieldBarcode class for easy barcode generation in documents. Enhance your workflow with seamless integration and powerful features.
 type: docs
 weight: 2030
 url: /net/aspose.words.fields/fieldbarcode/

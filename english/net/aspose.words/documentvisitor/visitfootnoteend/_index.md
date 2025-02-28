@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFootnoteEnd
 linktitle: VisitFootnoteEnd
 articleTitle: VisitFootnoteEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitFootnoteEnd method. Called when enumeration of a footnote or endnote text has ended in C#.
+description: Discover the DocumentVisitor VisitFootnoteEnd method, essential for efficiently handling footnote and endnote text enumeration in your applications.
 type: docs
 weight: 210
 url: /net/aspose.words/documentvisitor/visitfootnoteend/

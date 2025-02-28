@@ -3,7 +3,7 @@ title: Document Class
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Document class. Represents a Word document in C#.
+description: Discover the Aspose.Words.Document class for seamless Word document manipulation. Enhance your projects with powerful features and easy integration.
 type: docs
 weight: 640
 url: /net/aspose.words/document/

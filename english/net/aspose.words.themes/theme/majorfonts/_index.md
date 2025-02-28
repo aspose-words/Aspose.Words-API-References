@@ -3,7 +3,7 @@ title: Theme.MajorFonts
 linktitle: MajorFonts
 articleTitle: MajorFonts
 second_title: Aspose.Words for .NET
-description: Theme MajorFonts property. Allows to specify the set of major fonts for different languages in C#.
+description: Customize your site’s typography with MajorFonts. Easily set diverse fonts for multiple languages to enhance readability and user experience.
 type: docs
 weight: 30
 url: /net/aspose.words.themes/theme/majorfonts/

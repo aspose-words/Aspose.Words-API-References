@@ -3,7 +3,7 @@ title: Table.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words for .NET
-description: Table LastRow property. Returns the last Row node in the table in C#.
+description: Discover the Table LastRow property to easily access the final Row node in your table, enhancing data management and efficiency.
 type: docs
 weight: 180
 url: /net/aspose.words.tables/table/lastrow/

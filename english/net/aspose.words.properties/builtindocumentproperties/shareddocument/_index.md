@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.SharedDocument
 linktitle: SharedDocument
 articleTitle: SharedDocument
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties SharedDocument property. Indicates whether the document is a shared document in C#.
+description: Discover the BuiltInDocumentProperties SharedDocument feature that reveals if your document is shared, enhancing collaboration and accessibility.
 type: docs
 weight: 280
 url: /net/aspose.words.properties/builtindocumentproperties/shareddocument/

@@ -3,7 +3,7 @@ title: Aspose.Words.Drawing.Charts
 linktitle: Aspose.Words.Drawing.Charts
 articleTitle: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Drawing.Charts namespace provides classes that allow to access charts in Microsoft Word documents in C#.
+description: Access and manipulate Microsoft Word charts effortlessly with Aspose.Words.Drawing.Charts. Enhance your documents with powerful charting features today!
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/

@@ -3,7 +3,7 @@ title: FieldLink.AutoUpdate
 linktitle: AutoUpdate
 articleTitle: AutoUpdate
 second_title: Aspose.Words for .NET
-description: FieldLink AutoUpdate property. Gets or sets whether to update this field automatically in C#.
+description: Streamline your workflow with FieldLink AutoUpdate. Effortlessly manage automatic field updates for enhanced efficiency and accuracy.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldlink/autoupdate/

@@ -3,7 +3,7 @@ title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words for .NET
-description: NodeCollection IndexOf method. Returns the zerobased index of the specified node in C#.
+description: Discover the NodeCollection IndexOf method to efficiently find the zero-based index of any specified node in your collections.
 type: docs
 weight: 70
 url: /net/aspose.words/nodecollection/indexof/

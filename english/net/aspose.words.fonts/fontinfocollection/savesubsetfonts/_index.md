@@ -3,7 +3,7 @@ title: FontInfoCollection.SaveSubsetFonts
 linktitle: SaveSubsetFonts
 articleTitle: SaveSubsetFonts
 second_title: Aspose.Words for .NET
-description: FontInfoCollection SaveSubsetFonts property. Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is false in C#.
+description: Discover the FontInfoCollection SaveSubsetFonts property: control embedded TrueType font subsets in your documents for optimized file size and performance.
 type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontinfocollection/savesubsetfonts/

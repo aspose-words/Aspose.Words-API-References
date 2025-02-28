@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.OriginalUri
 linktitle: OriginalUri
 articleTitle: OriginalUri
 second_title: Aspose.Words for .NET
-description: ResourceLoadingArgs OriginalUri property. Original URI of the resource as specified in imported document in C#.
+description: Discover the ResourceLoadingArgs OriginalUri property—access the original URI of resources from imported documents for streamlined data management.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/resourceloadingargs/originaluri/

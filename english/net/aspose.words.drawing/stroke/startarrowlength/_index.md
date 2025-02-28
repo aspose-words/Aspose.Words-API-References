@@ -3,7 +3,7 @@ title: Stroke.StartArrowLength
 linktitle: StartArrowLength
 articleTitle: StartArrowLength
 second_title: Aspose.Words for .NET
-description: Stroke StartArrowLength property. Defines the arrowhead length for the start of a stroke in C#.
+description: Discover the Stroke StartArrowLength property to customize your design's arrowhead length, enhancing visual appeal and precision in your projects.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing/stroke/startarrowlength/

@@ -3,7 +3,7 @@ title: Source.MonthAccessed
 linktitle: MonthAccessed
 articleTitle: MonthAccessed
 second_title: Aspose.Words for .NET
-description: Source MonthAccessed property. Gets or sets the month accessed of a source in C#.
+description: Manage your source's access month effortlessly. Easily set or retrieve the month accessed for optimal data tracking and organization.
 type: docs
 weight: 290
 url: /net/aspose.words.bibliography/source/monthaccessed/

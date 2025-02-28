@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Appearance
 linktitle: Appearance
 articleTitle: Appearance
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Appearance property. Gets or sets the appearance of the structured document tag in C#.
+description: Discover how to customize the appearance of StructuredDocumentTagRangeStart for enhanced document formatting and improved readability.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttagrangestart/appearance/

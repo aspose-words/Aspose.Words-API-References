@@ -3,7 +3,7 @@ title: Chart.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: Chart Format property. Provides access to fill and line formatting of the chart in C#.
+description: Unlock advanced chart formatting with our tool! Easily customize fill and line styles for stunning, professional visuals that enhance your data presentation.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chart/format/

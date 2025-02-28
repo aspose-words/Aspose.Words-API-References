@@ -3,7 +3,7 @@ title: IPageSavingCallback.PageSaving
 linktitle: PageSaving
 articleTitle: PageSaving
 second_title: Aspose.Words for .NET
-description: IPageSavingCallback PageSaving method. Called when Aspose.Words saves a separate page to fixed page formats in C#.
+description: Discover the iPageSavingCallback method in Aspose.Words, designed to optimize page saving to fixed formats. Enhance your document management today!
 type: docs
 weight: 10
 url: /net/aspose.words.saving/ipagesavingcallback/pagesaving/

@@ -3,7 +3,7 @@ title: FieldSymbol.FontSize
 linktitle: FontSize
 articleTitle: FontSize
 second_title: Aspose.Words for .NET
-description: FieldSymbol FontSize property. Gets or sets the size in points of the font of the character retrieved by the field in C#.
+description: Discover the FieldSymbol FontSize property: easily adjust the font size in points for enhanced character display in your applications. Optimize readability now!
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldsymbol/fontsize/

@@ -3,7 +3,7 @@ title: CompositeNode.PrependChild
 linktitle: PrependChild
 articleTitle: PrependChild
 second_title: Aspose.Words for .NET
-description: CompositeNode PrependChild method. Adds the specified node to the beginning of the list of child nodes for this node in C#.
+description: Discover how the CompositeNode PrependChild method enhances your data structure by efficiently adding nodes to the start of your child node list.
 type: docs
 weight: 170
 url: /net/aspose.words/compositenode/prependchild/

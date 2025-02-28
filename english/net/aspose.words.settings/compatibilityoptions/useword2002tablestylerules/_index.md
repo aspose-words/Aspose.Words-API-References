@@ -3,7 +3,7 @@ title: CompatibilityOptions.UseWord2002TableStyleRules
 linktitle: UseWord2002TableStyleRules
 articleTitle: UseWord2002TableStyleRules
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions UseWord2002TableStyleRules property. Emulate Word 2002 Table Style Rules in C#.
+description: Discover how to use CompatibilityOptions to emulate Word 2002 Table Style Rules for enhanced document formatting and seamless compatibility.
 type: docs
 weight: 660
 url: /net/aspose.words.settings/compatibilityoptions/useword2002tablestylerules/

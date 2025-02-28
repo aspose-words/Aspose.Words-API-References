@@ -3,7 +3,7 @@ title: WebExtensionProperty
 linktitle: WebExtensionProperty
 articleTitle: WebExtensionProperty
 second_title: Aspose.Words for .NET
-description: WebExtensionProperty constructor. Creates web extension custom property with specified name and value in C#.
+description: Create custom web extension properties effortlessly with the WebExtensionProperty constructor. Enhance your projects with tailored name-value pairs!
 type: docs
 weight: 10
 url: /net/aspose.words.webextensions/webextensionproperty/webextensionproperty/

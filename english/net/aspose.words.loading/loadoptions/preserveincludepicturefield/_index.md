@@ -3,7 +3,7 @@ title: LoadOptions.PreserveIncludePictureField
 linktitle: PreserveIncludePictureField
 articleTitle: PreserveIncludePictureField
 second_title: Aspose.Words for .NET
-description: LoadOptions PreserveIncludePictureField property. Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false in C#.
+description: Control the INCLUDEPICTURE field in Microsoft Word formats with LoadOptions PreserveIncludePictureField. Easily manage document formatting for optimal results.
 type: docs
 weight: 120
 url: /net/aspose.words.loading/loadoptions/preserveincludepicturefield/

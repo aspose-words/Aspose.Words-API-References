@@ -3,7 +3,7 @@ title: Revision.ParentNode
 linktitle: ParentNode
 articleTitle: ParentNode
 second_title: Aspose.Words for .NET
-description: Revision ParentNode property. Gets the immediate parent node owner of this revision. This property will work for any revision type other than StyleDefinitionChange in C#.
+description: Discover the Revision ParentNode property, which identifies the direct parent node of any revision type—except StyleDefinitionChange. Enhance your coding efficiency!
 type: docs
 weight: 40
 url: /net/aspose.words/revision/parentnode/

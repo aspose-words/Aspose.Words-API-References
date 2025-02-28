@@ -3,7 +3,7 @@ title: Aspose.Words.Drawing.Ole
 linktitle: Aspose.Words.Drawing.Ole
 articleTitle: Aspose.Words.Drawing.Ole
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Drawing.Ole namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents in C#.
+description: Explore the Aspose.Words.Drawing.Ole namespace for seamless integration of OLE/ActiveX controls in Microsoft Word, enhancing document interactivity and functionality.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.ole/

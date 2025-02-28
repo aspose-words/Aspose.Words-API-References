@@ -3,7 +3,7 @@ title: SubDocument.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: SubDocument Accept method. Accepts a visitor in C#.
+description: Discover the SubDocument Accept method to enhance visitor engagement and streamline interactions on your platform. Boost your user experience today!
 type: docs
 weight: 20
 url: /net/aspose.words/subdocument/accept/

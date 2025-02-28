@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitParagraphStart
 linktitle: VisitParagraphStart
 articleTitle: VisitParagraphStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitParagraphStart method. Called when enumeration of a paragraph has started in C#.
+description: Discover the DocumentVisitor VisitParagraphStart method, essential for efficiently managing paragraph enumeration in your applications. Enhance your coding skills!
 type: docs
 weight: 330
 url: /net/aspose.words/documentvisitor/visitparagraphstart/

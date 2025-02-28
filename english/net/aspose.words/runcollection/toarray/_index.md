@@ -3,7 +3,7 @@ title: RunCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words for .NET
-description: RunCollection ToArray method. Copies all runs from the collection to a new array of runs in C#.
+description: Effortlessly convert your RunCollection to an array with the ToArray method, ensuring seamless data management and enhanced performance.
 type: docs
 weight: 20
 url: /net/aspose.words/runcollection/toarray/

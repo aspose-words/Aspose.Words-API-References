@@ -3,7 +3,7 @@ title: Theme.Colors
 linktitle: Colors
 articleTitle: Colors
 second_title: Aspose.Words for .NET
-description: Theme Colors property. Allows to specify the set of theme colors for the document in C#.
+description: Customize your document's appearance with the Theme Colors property, enabling a unique set of vibrant colors for a stunning look.
 type: docs
 weight: 20
 url: /net/aspose.words.themes/theme/colors/

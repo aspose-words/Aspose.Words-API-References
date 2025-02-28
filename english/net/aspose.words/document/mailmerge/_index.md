@@ -3,7 +3,7 @@ title: Document.MailMerge
 linktitle: MailMerge
 articleTitle: MailMerge
 second_title: Aspose.Words for .NET
-description: Document MailMerge property. Returns a MailMerge object that represents the mail merge functionality for the document in C#.
+description: Unlock seamless document automation with the MailMerge object, enhancing your workflow by simplifying mail merge tasks effortlessly.
 type: docs
 weight: 270
 url: /net/aspose.words/document/mailmerge/

@@ -3,7 +3,7 @@ title: PhysicalFontInfo.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words for .NET
-description: PhysicalFontInfo FilePath property. Path to the font file if any in C#.
+description: Discover the PhysicalFontInfo FilePath property: easily locate your font files for seamless design integration and enhanced typography in your projects.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/physicalfontinfo/filepath/

@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection IndexOf method. Gets the index of a property by name in C#.
+description: Discover the DocumentPropertyCollection IndexOf method to efficiently find the index of a property by its name. Enhance your coding productivity today!
 type: docs
 weight: 60
 url: /net/aspose.words.properties/documentpropertycollection/indexof/

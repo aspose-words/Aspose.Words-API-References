@@ -3,7 +3,7 @@ title: GlowFormat.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words for .NET
-description: GlowFormat Transparency property. Gets or sets the degree of transparency for the glow effect as a value between 0.0 opaque and 1.0 clear. The default value is 0.0 in C#.
+description: Discover GlowFormat's Transparency property: easily adjust glow effects from opaque to clear (0.0 to 1.0) for stunning visual impact. Default: 0.0.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/glowformat/transparency/

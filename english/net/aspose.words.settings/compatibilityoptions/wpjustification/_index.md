@@ -3,7 +3,7 @@ title: CompatibilityOptions.WPJustification
 linktitle: WPJustification
 articleTitle: WPJustification
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions WPJustification property. Emulate WordPerfect 6.x Paragraph Justification in C#.
+description: Enhance your document formatting with CompatibilityOptions WPJustification. Perfectly emulate WordPerfect 6.x paragraph justification for polished results.
 type: docs
 weight: 690
 url: /net/aspose.words.settings/compatibilityoptions/wpjustification/

@@ -3,7 +3,7 @@ title: FieldSeparator.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: FieldSeparator NodeType property. Returns FieldSeparator in C#.
+description: Discover the FieldSeparator NodeType property that efficiently returns FieldSeparator, enhancing your data management and optimizing performance.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldseparator/nodetype/

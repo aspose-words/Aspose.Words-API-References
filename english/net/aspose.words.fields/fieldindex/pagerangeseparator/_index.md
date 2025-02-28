@@ -3,7 +3,7 @@ title: FieldIndex.PageRangeSeparator
 linktitle: PageRangeSeparator
 articleTitle: PageRangeSeparator
 second_title: Aspose.Words for .NET
-description: FieldIndex PageRangeSeparator property. Gets or sets the character sequence that is used to separate the start and end of a page range in C#.
+description: Discover the PageRangeSeparator property in FieldIndex. Easily customize the character sequence for seamless page range formatting and enhance your document's clarity.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldindex/pagerangeseparator/

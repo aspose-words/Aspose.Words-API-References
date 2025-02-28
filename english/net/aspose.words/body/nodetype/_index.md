@@ -3,7 +3,7 @@ title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: Body NodeType property. Returns Body in C#.
+description: Discover the Body NodeType property that efficiently returns the body content, enhancing your web development experience and streamlining your projects.
 type: docs
 weight: 20
 url: /net/aspose.words/body/nodetype/

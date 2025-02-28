@@ -3,9 +3,9 @@ title: WarningSource Enum
 linktitle: WarningSource
 articleTitle: WarningSource
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WarningSource enum. Specifies the module that produces a warning during document loading or saving in C#.
+description: Discover the Aspose.Words.WarningSource enum, identifying warning sources during document loading and saving for enhanced document management.
 type: docs
-weight: 7340
+weight: 7350
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration

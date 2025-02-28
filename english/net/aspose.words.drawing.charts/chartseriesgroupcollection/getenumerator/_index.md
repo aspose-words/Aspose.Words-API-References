@@ -3,7 +3,7 @@ title: ChartSeriesGroupCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroupCollection GetEnumerator method. Returns an enumerator object in C#.
+description: Discover the ChartSeriesGroupCollection GetEnumerator method—efficiently retrieve enumerator objects for streamlined data management and analysis.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartseriesgroupcollection/getenumerator/

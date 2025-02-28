@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings.ServerUrl
 linktitle: ServerUrl
 articleTitle: ServerUrl
 second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureTimestampSettings ServerUrl property. Timestamp server URL in C#.
+description: Discover the PdfDigitalSignatureTimestampSettings ServerUrl property for secure timestamping. Ensure document integrity with reliable timestamp server URLs.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/

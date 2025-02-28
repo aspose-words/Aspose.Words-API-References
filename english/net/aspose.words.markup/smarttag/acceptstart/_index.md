@@ -3,7 +3,7 @@ title: SmartTag.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: SmartTag AcceptStart method. Accepts a visitor for visiting the start of the SmartTag in C#.
+description: Discover the SmartTag AcceptStart method—seamlessly welcome visitors to your SmartTag experience and enhance user engagement today!
 type: docs
 weight: 80
 url: /net/aspose.words.markup/smarttag/acceptstart/

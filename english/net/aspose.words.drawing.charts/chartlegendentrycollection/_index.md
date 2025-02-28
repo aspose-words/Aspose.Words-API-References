@@ -3,7 +3,7 @@ title: ChartLegendEntryCollection Class
 linktitle: ChartLegendEntryCollection
 articleTitle: ChartLegendEntryCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection class. Represents a collection of chart legend entries in C#.
+description: Explore Aspose.Words.ChartLegendEntryCollection to efficiently manage chart legend entries and enhance your document visuals with ease.
 type: docs
 weight: 1030
 url: /net/aspose.words.drawing.charts/chartlegendentrycollection/

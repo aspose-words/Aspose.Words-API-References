@@ -3,7 +3,7 @@ title: Source.Url
 linktitle: Url
 articleTitle: Url
 second_title: Aspose.Words for .NET
-description: Source Url property. Gets or sets the url of a source in C#.
+description: Manage your Source URL effortlessly. Set or retrieve URLs with ease, enhancing your data management and streamlining your workflow.
 type: docs
 weight: 500
 url: /net/aspose.words.bibliography/source/url/

@@ -3,7 +3,7 @@ title: WarningInfoCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: WarningInfoCollection Item property. Gets an item at the specified index in C#.
+description: Access specific WarningInfoCollection items effortlessly by index. Streamline your data management with our intuitive property feature!
 type: docs
 weight: 30
 url: /net/aspose.words/warninginfocollection/item/

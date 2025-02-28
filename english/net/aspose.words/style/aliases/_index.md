@@ -3,7 +3,7 @@ title: Style.Aliases
 linktitle: Aliases
 articleTitle: Aliases
 second_title: Aspose.Words for .NET
-description: Style Aliases property. Gets all aliases of this style. If style has no aliases then empty array of string is returned in C#.
+description: Discover all style aliases effortlessly with the Style Aliases property. If none exist, receive an empty string array. Simplify your style management!
 type: docs
 weight: 10
 url: /net/aspose.words/style/aliases/

@@ -3,7 +3,7 @@ title: Source.Day
 linktitle: Day
 articleTitle: Day
 second_title: Aspose.Words for .NET
-description: Source Day property. Gets or sets the day of a source in C#.
+description: Manage your source dates effortlessly with Source Day. Easily set or retrieve source days to streamline your workflow and enhance productivity.
 type: docs
 weight: 150
 url: /net/aspose.words.bibliography/source/day/

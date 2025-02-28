@@ -3,7 +3,7 @@ title: ViewOptions.ViewType
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words for .NET
-description: ViewOptions ViewType property. Controls the view mode in Microsoft Word in C#.
+description: Discover the ViewOptions ViewType property to easily customize your Microsoft Word view mode for enhanced productivity and a tailored editing experience.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/viewoptions/viewtype/

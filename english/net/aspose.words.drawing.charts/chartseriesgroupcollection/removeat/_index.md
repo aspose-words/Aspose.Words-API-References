@@ -3,7 +3,7 @@ title: ChartSeriesGroupCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroupCollection RemoveAt method. Removes a series group at the specified index. All child series will be removed from the chart in C#.
+description: Effortlessly remove a series group with the ChartSeriesGroupCollection RemoveAt method. Simplify your chart management by eliminating unwanted data.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartseriesgroupcollection/removeat/

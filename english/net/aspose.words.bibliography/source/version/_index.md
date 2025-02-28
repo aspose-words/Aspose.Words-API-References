@@ -3,7 +3,7 @@ title: Source.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words for .NET
-description: Source Version property. Gets or sets the version of a source in C#.
+description: Manage your source version effortlessly. Set or retrieve the version with ease for enhanced control and efficiency in your projects.
 type: docs
 weight: 510
 url: /net/aspose.words.bibliography/source/version/

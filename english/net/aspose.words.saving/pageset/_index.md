@@ -3,9 +3,9 @@ title: PageSet Class
 linktitle: PageSet
 articleTitle: PageSet
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PageSet class. Describes a random set of pages in C#.
+description: Discover the Aspose.Words.Saving.PageSet class for efficient document management. Easily define random page sets and enhance your workflow today!
 type: docs
-weight: 6020
+weight: 6030
 url: /net/aspose.words.saving/pageset/
 ---
 ## PageSet class

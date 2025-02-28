@@ -3,7 +3,7 @@ title: OptionButtonControl.Selected
 linktitle: Selected
 articleTitle: Selected
 second_title: Aspose.Words for .NET
-description: OptionButtonControl Selected property. Gets or sets a boolean value indicating either this OptionButtonControl is selected or not in C#.
+description: Manage your OptionButtonControl with ease! Set or get its selected state with a simple boolean value for seamless user interaction.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/optionbuttoncontrol/selected/

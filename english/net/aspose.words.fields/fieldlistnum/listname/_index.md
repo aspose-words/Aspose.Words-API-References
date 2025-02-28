@@ -3,7 +3,7 @@ title: FieldListNum.ListName
 linktitle: ListName
 articleTitle: ListName
 second_title: Aspose.Words for .NET
-description: FieldListNum ListName property. Gets or sets the name of the abstract numbering definition used for the numbering in C#.
+description: Discover the FieldListNum ListName property to easily manage abstract numbering definitions for improved document organization and clarity.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldlistnum/listname/

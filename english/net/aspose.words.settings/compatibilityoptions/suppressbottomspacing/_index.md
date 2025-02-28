@@ -3,7 +3,7 @@ title: CompatibilityOptions.SuppressBottomSpacing
 linktitle: SuppressBottomSpacing
 articleTitle: SuppressBottomSpacing
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions SuppressBottomSpacing property. Ignore Exact Line Height for Last Line on Page in C#.
+description: Optimize your layout with CompatibilityOptions' SuppressBottomSpacing property, ensuring perfect line height on the last page for a polished look.
 type: docs
 weight: 480
 url: /net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/

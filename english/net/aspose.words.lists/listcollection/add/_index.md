@@ -3,7 +3,7 @@ title: ListCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: ListCollection Add method. Creates a new list based on a predefined template and adds it to the collection of lists in the document in C#.
+description: Discover how the ListCollection Add method creates custom lists from templates, enhancing your document's organization and efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.lists/listcollection/add/
@@ -46,11 +46,11 @@ NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
 Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
-List list = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
+List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 1;
 }
 

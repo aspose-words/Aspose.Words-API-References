@@ -3,7 +3,7 @@ title: PrinterSettingsContainer
 linktitle: PrinterSettingsContainer
 articleTitle: PrinterSettingsContainer
 second_title: Aspose.Words for .NET
-description: PrinterSettingsContainer constructor. Creates a container for PrinterSettings in C#.
+description: Discover the PrinterSettingsContainer constructor: efficiently create and manage your printer settings with ease. Optimize your printing experience today!
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/

@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
 second_title: Aspose.Words for .NET
-description: Paragraph IsEndOfSection property. True if this paragraph is the last paragraph in the Body main text story of a Section false otherwise in C#.
+description: Discover the Paragraph IsEndOfSection property: identify if a paragraph is the last in a section's main text for enhanced document structure and clarity.
 type: docs
 weight: 80
 url: /net/aspose.words/paragraph/isendofsection/

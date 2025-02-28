@@ -3,7 +3,7 @@ title: RtfLoadOptions.RecognizeUtf8Text
 linktitle: RecognizeUtf8Text
 articleTitle: RecognizeUtf8Text
 second_title: Aspose.Words for .NET
-description: RtfLoadOptions RecognizeUtf8Text property. When set to true will try to detect UTF8 characters they will be preserved during import in C#.
+description: Discover how the RtfLoadOptions RecognizeUtf8Text property preserves UTF-8 characters during import, ensuring accurate text representation and seamless integration.
 type: docs
 weight: 20
 url: /net/aspose.words.loading/rtfloadoptions/recognizeutf8text/

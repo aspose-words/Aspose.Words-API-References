@@ -3,7 +3,7 @@ title: EditableRangeStart.EditableRange
 linktitle: EditableRange
 articleTitle: EditableRange
 second_title: Aspose.Words for .NET
-description: EditableRangeStart EditableRange property. Gets the facade object that encapsulates this editable range start and end in C#.
+description: Discover the EditableRangeStart property, your key to managing editable ranges effortlessly. Access and control your content with ease!
 type: docs
 weight: 10
 url: /net/aspose.words/editablerangestart/editablerange/

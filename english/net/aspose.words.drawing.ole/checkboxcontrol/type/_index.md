@@ -3,7 +3,7 @@ title: CheckBoxControl.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: CheckBoxControl Type property. Gets type of Forms 2.0 control in C#.
+description: Discover the CheckBoxControl Type property for Forms 2.0, unlocking versatile control options to enhance your application’s functionality.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/checkboxcontrol/type/

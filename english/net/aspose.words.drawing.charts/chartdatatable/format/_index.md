@@ -3,7 +3,7 @@ title: ChartDataTable.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: ChartDataTable Format property. Provides access to fill of text background and border formatting of the data table in C#.
+description: Discover the ChartDataTable Format property for enhanced text background and border styling, elevating your data visualization experience.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatatable/format/

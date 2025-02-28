@@ -3,7 +3,7 @@ title: FieldMergeField.TextAfter
 linktitle: TextAfter
 articleTitle: TextAfter
 second_title: Aspose.Words for .NET
-description: FieldMergeField TextAfter property. Gets or sets the text to be inserted after the field if the field is not blank in C#.
+description: Discover the FieldMergeField TextAfter property to easily customize your field output with dynamic text, enhancing document clarity and engagement.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldmergefield/textafter/

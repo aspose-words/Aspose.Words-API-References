@@ -3,7 +3,7 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: Aspose.Words for .NET
-description: CompositeNode RemoveChild method. Removes the specified child node in C#.
+description: Effortlessly manage your CompositeNode with the RemoveChild method, designed to streamline node removal for enhanced performance and efficiency.
 type: docs
 weight: 190
 url: /net/aspose.words/compositenode/removechild/

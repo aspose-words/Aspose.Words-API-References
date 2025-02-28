@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitHeaderFooterStart
 linktitle: VisitHeaderFooterStart
 articleTitle: VisitHeaderFooterStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitHeaderFooterStart method. Called when enumeration of a header or footer in a section has started in C#.
+description: Discover the DocumentVisitor VisitHeaderFooterStart method, essential for tracking header and footer enumeration in sections. Enhance your document management!
 type: docs
 weight: 290
 url: /net/aspose.words/documentvisitor/visitheaderfooterstart/

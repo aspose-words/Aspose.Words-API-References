@@ -3,7 +3,7 @@ title: Fill.PresetTexture
 linktitle: PresetTexture
 articleTitle: PresetTexture
 second_title: Aspose.Words for .NET
-description: Fill PresetTexture property. Gets a PresetTexture for the fill in C#.
+description: Discover how to set the PresetTexture property effortlessly and enhance your designs with stunning fill options. Unlock your creative potential today!
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/fill/presettexture/

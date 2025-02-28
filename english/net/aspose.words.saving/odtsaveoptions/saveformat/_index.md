@@ -3,7 +3,7 @@ title: OdtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
-description: OdtSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can be Odt or Ott in C#.
+description: Discover how the OdtSaveOptions SaveFormat property lets you easily save documents in Odt or Ott formats, ensuring compatibility and flexibility.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/odtsaveoptions/saveformat/

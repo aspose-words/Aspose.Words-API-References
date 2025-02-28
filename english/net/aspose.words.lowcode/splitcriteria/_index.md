@@ -3,9 +3,9 @@ title: SplitCriteria Enum
 linktitle: SplitCriteria
 articleTitle: SplitCriteria
 second_title: Aspose.Words for .NET
-description: Aspose.Words.LowCode.SplitCriteria enum. Specifies how the document is split into parts in C#.
+description: Discover Aspose.Words.LowCode.SplitCriteria enum for efficient document splitting. Optimize your workflow with versatile options for seamless part management.
 type: docs
-weight: 4280
+weight: 4290
 url: /net/aspose.words.lowcode/splitcriteria/
 ---
 ## SplitCriteria enumeration

@@ -3,7 +3,7 @@ title: PageSetup.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words for .NET
-description: PageSetup VerticalAlignment property. Returns or sets the vertical alignment of text on each page in a document or section in C#.
+description: Discover how the PageSetup VerticalAlignment property enhances document layout by adjusting text alignment for improved readability and presentation.
 type: docs
 weight: 450
 url: /net/aspose.words/pagesetup/verticalalignment/

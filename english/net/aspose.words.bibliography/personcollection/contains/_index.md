@@ -3,7 +3,7 @@ title: PersonCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words for .NET
-description: PersonCollection Contains method. Determines whether the collection contains a specific person in C#.
+description: Discover if a PersonCollection includes a specific individual with our efficient Contains method. Simplify your data management today!
 type: docs
 weight: 60
 url: /net/aspose.words.bibliography/personcollection/contains/

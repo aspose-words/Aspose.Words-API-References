@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: Aspose.Words for .NET
-description: TxtSaveOptionsBase ParagraphBreak property. Specifies the string to use as a paragraph break when exporting in text formats in C#.
+description: Discover TxtSaveOptionsBase's ParagraphBreak property, allowing custom paragraph breaks for seamless text format exports. Enhance your document's readability!
 type: docs
 weight: 40
 url: /net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/

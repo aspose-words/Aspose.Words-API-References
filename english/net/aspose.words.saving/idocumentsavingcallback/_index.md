@@ -3,9 +3,9 @@ title: IDocumentSavingCallback Interface
 linktitle: IDocumentSavingCallback
 articleTitle: IDocumentSavingCallback
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.IDocumentSavingCallback interface. Implement this interface if you want to have your own custom method called during saving a document in C#.
+description: Implement the Aspose.Words.Saving.IDocumentSavingCallback interface to create custom save methods for documents, enhancing your document management solutions.
 type: docs
-weight: 5760
+weight: 5770
 url: /net/aspose.words.saving/idocumentsavingcallback/
 ---
 ## IDocumentSavingCallback interface

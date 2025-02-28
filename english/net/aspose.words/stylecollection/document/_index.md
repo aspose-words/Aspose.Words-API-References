@@ -3,7 +3,7 @@ title: StyleCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: StyleCollection Document property. Gets the owner document in C#.
+description: Access the owner document effortlessly with StyleCollection. Discover seamless document management and enhance your workflow today!
 type: docs
 weight: 40
 url: /net/aspose.words/stylecollection/document/

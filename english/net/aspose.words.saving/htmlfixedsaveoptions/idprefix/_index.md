@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.IdPrefix
 linktitle: IdPrefix
 articleTitle: IdPrefix
 second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions IdPrefix property. Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended in C#.
+description: Discover the HtmlFixedSaveOptions IdPrefix property to customize element IDs in your documents. Enhance organization with tailored prefixes for better output!
 type: docs
 weight: 100
 url: /net/aspose.words.saving/htmlfixedsaveoptions/idprefix/

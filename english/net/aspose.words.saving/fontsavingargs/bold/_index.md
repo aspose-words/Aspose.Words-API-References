@@ -3,7 +3,7 @@ title: FontSavingArgs.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words for .NET
-description: FontSavingArgs Bold property. Indicates whether the current font is bold in C#.
+description: Discover the FontSavingArgs Bold property to easily determine if your font is bold. Enhance your typography for better readability and design.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/fontsavingargs/bold/

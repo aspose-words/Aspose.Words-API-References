@@ -3,7 +3,7 @@ title: Chart.AxisZ
 linktitle: AxisZ
 articleTitle: AxisZ
 second_title: Aspose.Words for .NET
-description: Chart AxisZ property. Provides access to properties of the Z axis of the chart in C#.
+description: Explore the Chart AxisZ property to unlock Z-axis customization options, enhancing your data visualization for clearer insights and impactful presentations.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chart/axisz/

@@ -3,7 +3,7 @@ title: DocumentLoadingArgs.EstimatedProgress
 linktitle: EstimatedProgress
 articleTitle: EstimatedProgress
 second_title: Aspose.Words for .NET
-description: DocumentLoadingArgs EstimatedProgress property. Overall estimated percentage progress in C#.
+description: Track progress effortlessly with DocumentLoadingArgs' EstimatedProgress property, providing real-time percentage updates for enhanced efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/documentloadingargs/estimatedprogress/

@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: OdsoRecipientDataCollection Item property. Gets or sets an item in this collection in C#.
+description: Effortlessly manage your OdsoRecipientDataCollection with our Item property. Easily retrieve or update items for seamless data handling.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/odsorecipientdatacollection/item/

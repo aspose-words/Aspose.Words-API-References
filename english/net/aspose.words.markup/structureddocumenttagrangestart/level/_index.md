@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Level
 linktitle: Level
 articleTitle: Level
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Level property. Gets the level at which this structured document tag range start occurs in the document tree in C#.
+description: Discover the StructuredDocumentTagRangeStart Level property to easily identify its position in the document tree, enhancing your document management efficiency.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/structureddocumenttagrangestart/level/

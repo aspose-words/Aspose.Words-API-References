@@ -3,7 +3,7 @@ title: StructuredDocumentTag.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag AcceptEnd method. Accepts a visitor for visiting the end of the StructuredDocumentTag in C#.
+description: Discover the StructuredDocumentTag AcceptEnd method—efficiently manage visitor interactions at the end of your structured documents for seamless processing.
 type: docs
 weight: 340
 url: /net/aspose.words.markup/structureddocumenttag/acceptend/

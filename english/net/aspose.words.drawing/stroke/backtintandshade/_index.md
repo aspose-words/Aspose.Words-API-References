@@ -3,7 +3,7 @@ title: Stroke.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
 second_title: Aspose.Words for .NET
-description: Stroke BackTintAndShade property. Gets or sets a double value that lightens or darkens the stroke background color in C#.
+description: Adjust your stroke background color effortlessly with Stroke BackTintAndShade. Control lightness and darkness for a perfect design finish.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/stroke/backtintandshade/

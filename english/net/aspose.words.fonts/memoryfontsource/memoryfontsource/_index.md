@@ -3,7 +3,7 @@ title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words for .NET
-description: MemoryFontSource constructor. Ctor in C#.
+description: Discover MemoryFontSource: a powerful constructor for seamless font management in your projects. Enhance your design with ease and efficiency!
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/memoryfontsource/memoryfontsource/

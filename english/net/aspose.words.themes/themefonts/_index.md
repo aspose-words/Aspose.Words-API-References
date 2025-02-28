@@ -3,9 +3,9 @@ title: ThemeFonts Class
 linktitle: ThemeFonts
 articleTitle: ThemeFonts
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Themes.ThemeFonts class. Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages Latin EastAsian and ComplexScript in C#.
+description: Discover the Aspose.Words ThemeFonts class, a powerful tool for managing multilingual font schemes, enhancing your document's style and readability.
 type: docs
-weight: 7190
+weight: 7200
 url: /net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class

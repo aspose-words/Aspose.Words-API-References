@@ -3,7 +3,7 @@ title: Frameset
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words for .NET
-description: Frameset constructor. The default constructor in C#.
+description: Create stunning frames effortlessly with our versatile frameset constructor. Enjoy seamless customization and elevate your web design today!
 type: docs
 weight: 10
 url: /net/aspose.words.framesets/frameset/frameset/

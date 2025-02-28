@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.OddColumnBanding
 linktitle: OddColumnBanding
 articleTitle: OddColumnBanding
 second_title: Aspose.Words for .NET
-description: ConditionalStyleCollection OddColumnBanding property. Gets the odd column banding style in C#.
+description: Discover the OddColumnBanding property in ConditionalStyleCollection for enhanced table styling. Elevate your design with unique column banding styles!
 type: docs
 weight: 110
 url: /net/aspose.words/conditionalstylecollection/oddcolumnbanding/

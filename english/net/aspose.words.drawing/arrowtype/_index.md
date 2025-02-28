@@ -3,7 +3,7 @@ title: ArrowType Enum
 linktitle: ArrowType
 articleTitle: ArrowType
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.ArrowType enum. Specifies the type of an arrow at a line end in C#.
+description: Discover Aspose.Words.Drawing.ArrowType enum to customize arrow styles for line ends, enhancing your document's visual appeal and precision.
 type: docs
 weight: 730
 url: /net/aspose.words.drawing/arrowtype/

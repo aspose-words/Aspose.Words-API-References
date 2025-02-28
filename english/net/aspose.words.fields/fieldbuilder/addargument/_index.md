@@ -3,7 +3,7 @@ title: FieldBuilder.AddArgument
 linktitle: AddArgument
 articleTitle: AddArgument
 second_title: Aspose.Words for .NET
-description: FieldBuilder AddArgument method. Adds a fields argument in C#.
+description: Enhance your coding with FieldBuilder's AddArgument method, designed to effortlessly add field arguments for streamlined development.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldbuilder/addargument/

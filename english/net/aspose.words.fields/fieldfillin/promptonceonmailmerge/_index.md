@@ -3,7 +3,7 @@ title: FieldFillIn.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
 articleTitle: PromptOnceOnMailMerge
 second_title: Aspose.Words for .NET
-description: FieldFillIn PromptOnceOnMailMerge property. Gets or sets whether the user response should be recieved once per a mail merge operation in C#.
+description: Optimize your mail merge with the PromptOnceOnMailMerge property. Control user responses for efficient data collection in your documents.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldfillin/promptonceonmailmerge/

@@ -3,7 +3,7 @@ title: ShapeBase.IsInline
 linktitle: IsInline
 articleTitle: IsInline
 second_title: Aspose.Words for .NET
-description: ShapeBase IsInline property. A quick way to determine if this shape is positioned inline with text in C#.
+description: Discover the ShapeBase IsInline property to easily check if your shape aligns with text, enhancing your design and improving layout efficiency.
 type: docs
 weight: 310
 url: /net/aspose.words.drawing/shapebase/isinline/

@@ -3,7 +3,7 @@ title: ListLevel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words for .NET
-description: ListLevel Font property. Specifies character formatting used for the list label in C#.
+description: Discover the ListLevel Font property to enhance your list labels with customizable character formatting for a polished, professional look.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listlevel/font/

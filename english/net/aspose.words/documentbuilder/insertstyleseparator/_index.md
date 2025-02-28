@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertStyleSeparator
 linktitle: InsertStyleSeparator
 articleTitle: InsertStyleSeparator
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertStyleSeparator method. Inserts style separator into the document in C#.
+description: Enhance your documents with the DocumentBuilder InsertStyleSeparator method, effortlessly adding style separators for improved formatting and organization.
 type: docs
 weight: 490
 url: /net/aspose.words/documentbuilder/insertstyleseparator/

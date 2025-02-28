@@ -3,9 +3,9 @@ title: WebExtensionBinding Class
 linktitle: WebExtensionBinding
 articleTitle: WebExtensionBinding
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionBinding class. Specifies a binding relationship between a web extension and the data in the document in C#.
+description: Discover the Aspose.Words.WebExtensionBinding class for seamless integration of web extensions with your document data. Enhance functionality effortlessly!
 type: docs
-weight: 7440
+weight: 7450
 url: /net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class

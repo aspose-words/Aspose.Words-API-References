@@ -3,7 +3,7 @@ title: ChartSeriesGroup.BubbleScale
 linktitle: BubbleScale
 articleTitle: BubbleScale
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroup BubbleScale property. Gets or sets the size of the bubbles as a percentage of their default size in C#.
+description: Discover the ChartSeriesGroup BubbleScale property to customize bubble sizes in your charts, enhancing data visualization and user engagement.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartseriesgroup/bubblescale/

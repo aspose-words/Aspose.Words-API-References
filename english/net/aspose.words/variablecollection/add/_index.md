@@ -3,7 +3,7 @@ title: VariableCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: VariableCollection Add method. Adds a document variable to the collection in C#.
+description: Discover how to efficiently add document variables to your VariableCollection with our easy-to-follow guide. Boost your data management today!
 type: docs
 weight: 30
 url: /net/aspose.words/variablecollection/add/

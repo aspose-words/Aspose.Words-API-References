@@ -3,7 +3,7 @@ title: Document.GetPageInfo
 linktitle: GetPageInfo
 articleTitle: GetPageInfo
 second_title: Aspose.Words for .NET
-description: Document GetPageInfo method. Gets the page size orientation and other information about a page that might be useful for printing or rendering in C#.
+description: Discover the GetPageInfo method to retrieve essential page size, orientation, and rendering details for optimized printing and enhanced document management.
 type: docs
 weight: 650
 url: /net/aspose.words/document/getpageinfo/

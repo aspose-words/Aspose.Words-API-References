@@ -3,7 +3,7 @@ title: RevisionOptions.MovedToTextEffect
 linktitle: MovedToTextEffect
 articleTitle: MovedToTextEffect
 second_title: Aspose.Words for .NET
-description: RevisionOptions MovedToTextEffect property. Allows to specify the effect to be applied to the areas where content was moved to Moving. Default value is DoubleUnderline in C#.
+description: Discover the RevisionOptions MovedToTextEffect property, which customizes text effects for moved content. Enhance clarity with the default DoubleUnderline style!
 type: docs
 weight: 120
 url: /net/aspose.words.layout/revisionoptions/movedtotexteffect/

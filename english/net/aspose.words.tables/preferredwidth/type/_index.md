@@ -3,7 +3,7 @@ title: PreferredWidth.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: PreferredWidth Type property. Gets the unit of measure used for this preferred width value in C#.
+description: Discover the PreferredWidth Type property, which defines the measurement unit for preferred width values, enhancing your design precision and flexibility.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/preferredwidth/type/

@@ -3,7 +3,7 @@ title: ContributorCollection.Interviewee
 linktitle: Interviewee
 articleTitle: Interviewee
 second_title: Aspose.Words for .NET
-description: ContributorCollection Interviewee property. Gets or sets the interviewee of a source in C#.
+description: Discover the ContributorCollection Interviewee property to efficiently manage and customize interviewee details for your sources. Enhance your data organization!
 type: docs
 weight: 100
 url: /net/aspose.words.bibliography/contributorcollection/interviewee/

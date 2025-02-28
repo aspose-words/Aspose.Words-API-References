@@ -3,7 +3,7 @@ title: ChartTitle Class
 linktitle: ChartTitle
 articleTitle: ChartTitle
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartTitle class. Provides access to the chart title properties in C#.
+description: Discover the Aspose.Words.Drawing.Charts.ChartTitle class to easily manage and customize your chart titles for enhanced data visualization.
 type: docs
 weight: 1130
 url: /net/aspose.words.drawing.charts/charttitle/

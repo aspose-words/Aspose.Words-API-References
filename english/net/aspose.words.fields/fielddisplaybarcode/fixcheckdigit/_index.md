@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.FixCheckDigit
 linktitle: FixCheckDigit
 articleTitle: FixCheckDigit
 second_title: Aspose.Words for .NET
-description: FieldDisplayBarcode FixCheckDigit property. Gets or sets whether to fix the check digit if its invalid in C#.
+description: Optimize your FieldDisplayBarcode with the FixCheckDigit property. Easily manage invalid check digits for enhanced accuracy and reliability.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/

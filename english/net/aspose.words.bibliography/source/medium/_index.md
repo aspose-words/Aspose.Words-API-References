@@ -3,7 +3,7 @@ title: Source.Medium
 linktitle: Medium
 articleTitle: Medium
 second_title: Aspose.Words for .NET
-description: Source Medium property. Gets or sets the medium of a source in C#.
+description: Manage your source's medium effortlessly with our intuitive tool. Enhance your data organization and streamline your workflow today!
 type: docs
 weight: 270
 url: /net/aspose.words.bibliography/source/medium/

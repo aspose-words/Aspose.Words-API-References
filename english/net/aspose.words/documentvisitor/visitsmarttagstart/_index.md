@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitSmartTagStart
 linktitle: VisitSmartTagStart
 articleTitle: VisitSmartTagStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitSmartTagStart method. Called when enumeration of a smart tag has started in C#.
+description: Discover the DocumentVisitor VisitSmartTagStart method, your key to efficiently managing smart tag enumeration and enhancing document processing.
 type: docs
 weight: 420
 url: /net/aspose.words/documentvisitor/visitsmarttagstart/

@@ -3,7 +3,7 @@ title: DigitalSignature.IssuerName
 linktitle: IssuerName
 articleTitle: IssuerName
 second_title: Aspose.Words for .NET
-description: DigitalSignature IssuerName property. Returns the subject distinguished name of the certificate isuuer in C#.
+description: Discover the DigitalSignature IssuerName property, providing the issuer's distinguished name for enhanced security and trust in your digital certificates.
 type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignature/issuername/

@@ -3,9 +3,9 @@ title: ParagraphFormat Class
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
 second_title: Aspose.Words for .NET
-description: Aspose.Words.ParagraphFormat class. Represents all the formatting for a paragraph in C#.
+description: Discover the Aspose.Words.ParagraphFormat class for comprehensive paragraph formatting options. Enhance your document styling effortlessly!
 type: docs
-weight: 5010
+weight: 5020
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class

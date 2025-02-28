@@ -3,7 +3,7 @@ title: FootnoteSeparatorCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: FootnoteSeparatorCollection Item property. Retrieves a FootnoteSeparator of the specified type in C#.
+description: Access the FootnoteSeparatorCollection Item property to easily retrieve customized FootnoteSeparators by type, enhancing your document formatting.
 type: docs
 weight: 20
 url: /net/aspose.words.notes/footnoteseparatorcollection/item/

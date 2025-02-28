@@ -3,7 +3,7 @@ title: BarcodeParameters.ForegroundColor
 linktitle: ForegroundColor
 articleTitle: ForegroundColor
 second_title: Aspose.Words for .NET
-description: BarcodeParameters ForegroundColor property. Bar code foreground color 0x000000  0xFFFFFF in C#.
+description: Discover the BarcodeParameters ForegroundColor property for customizable barcode colors from 0x000000 to 0xFFFFFF. Enhance your barcode design today!
 type: docs
 weight: 110
 url: /net/aspose.words.fields/barcodeparameters/foregroundcolor/

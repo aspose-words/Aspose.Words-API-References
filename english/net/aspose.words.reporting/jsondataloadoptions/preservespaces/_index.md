@@ -3,7 +3,7 @@ title: JsonDataLoadOptions.PreserveSpaces
 linktitle: PreserveSpaces
 articleTitle: PreserveSpaces
 second_title: Aspose.Words for .NET
-description: JsonDataLoadOptions PreserveSpaces property. Gets or sets a flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data in C#.
+description: Discover how the JsonDataLoadOptions PreserveSpaces property enhances JSON data handling by preserving leading and trailing spaces for accurate string values.
 type: docs
 weight: 40
 url: /net/aspose.words.reporting/jsondataloadoptions/preservespaces/

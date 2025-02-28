@@ -3,7 +3,7 @@ title: NodeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: NodeCollection Item property. Retrieves a node at the given index in C#.
+description: Access any node effortlessly with the NodeCollection Item property. Quickly retrieve nodes by index for seamless data management and enhanced performance.
 type: docs
 weight: 20
 url: /net/aspose.words/nodecollection/item/

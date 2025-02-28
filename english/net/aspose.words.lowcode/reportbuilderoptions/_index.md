@@ -3,9 +3,9 @@ title: ReportBuilderOptions Class
 linktitle: ReportBuilderOptions
 articleTitle: ReportBuilderOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.LowCode.ReportBuilderOptions class. Represents options for the LINQ Reporting Engine functionality in C#.
+description: Discover the Aspose.Words LowCode ReportBuilderOptions class, designed to enhance your LINQ Reporting Engine experience with customizable options for seamless document generation.
 type: docs
-weight: 4270
+weight: 4280
 url: /net/aspose.words.lowcode/reportbuilderoptions/
 ---
 ## ReportBuilderOptions class

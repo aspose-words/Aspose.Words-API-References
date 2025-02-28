@@ -123,6 +123,38 @@ The number of replacements made.
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
+## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
+
+
+
+
+```cpp
+static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* Class [Replacer](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
+
+
+
+
+```cpp
+static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* Class [Replacer](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
 ## Replacer::Replace(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) method
 
 
@@ -235,6 +267,38 @@ The number of replacements made.
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* Class [Replacer](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Replacer::Replace(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
+
+
+
+
+```cpp
+static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* Class [Replacer](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
+## Replacer::Replace(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
+
+
+
+
+```cpp
+static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
+```
+
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)

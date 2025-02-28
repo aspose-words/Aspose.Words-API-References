@@ -3,7 +3,7 @@ title: DropDownItemCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: DropDownItemCollection Clear method. Removes all elements from the collection in C#.
+description: Efficiently clear all elements from the DropDownItemCollection with our Clear method. Streamline your data management effortlessly!
 type: docs
 weight: 40
 url: /net/aspose.words.fields/dropdownitemcollection/clear/

@@ -3,7 +3,7 @@ title: BookmarkCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: BookmarkCollection Count property. Returns the number of bookmarks in the collection in C#.
+description: Discover the BookmarkCollection Count property, which efficiently returns the total number of bookmarks, enhancing your data management capabilities.
 type: docs
 weight: 10
 url: /net/aspose.words/bookmarkcollection/count/

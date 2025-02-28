@@ -3,7 +3,7 @@ title: FieldXE Class
 linktitle: FieldXE
 articleTitle: FieldXE
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldXE class. Implements the XE field in C#.
+description: Discover the Aspose.Words.Fields.FieldXE class, your solution for efficiently implementing XE fields in document processing. Enhance your workflow today!
 type: docs
 weight: 3010
 url: /net/aspose.words.fields/fieldxe/

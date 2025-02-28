@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words for .NET
-description: CustomXmlSchemaCollection IndexOf method. Returns the zerobased index of the specified value in the collection in C#.
+description: Discover the CustomXmlSchemaCollection IndexOf method, which efficiently finds the zero-based index of any specified value in your XML collection.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlschemacollection/indexof/

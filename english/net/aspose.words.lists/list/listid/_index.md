@@ -3,7 +3,7 @@ title: List.ListId
 linktitle: ListId
 articleTitle: ListId
 second_title: Aspose.Words for .NET
-description: List ListId property. Gets the unique identifier of the list in C#.
+description: Discover the unique ListId property to easily access and manage your lists. Streamline your workflow with this essential identifier.
 type: docs
 weight: 60
 url: /net/aspose.words.lists/list/listid/

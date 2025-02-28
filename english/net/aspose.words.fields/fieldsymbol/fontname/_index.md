@@ -3,7 +3,7 @@ title: FieldSymbol.FontName
 linktitle: FontName
 articleTitle: FontName
 second_title: Aspose.Words for .NET
-description: FieldSymbol FontName property. Gets or sets the name of the font of the character retrieved by the field in C#.
+description: Discover how to use the FieldSymbol FontName property to easily manage and customize font names for your characters in programming.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldsymbol/fontname/

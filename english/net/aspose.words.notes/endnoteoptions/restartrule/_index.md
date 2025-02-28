@@ -3,7 +3,7 @@ title: EndnoteOptions.RestartRule
 linktitle: RestartRule
 articleTitle: RestartRule
 second_title: Aspose.Words for .NET
-description: EndnoteOptions RestartRule property. Determines when automatic numbering restarts in C#.
+description: Discover how the EndnoteOptions RestartRule property enhances your document by controlling automatic numbering for a polished, professional look.
 type: docs
 weight: 30
 url: /net/aspose.words.notes/endnoteoptions/restartrule/

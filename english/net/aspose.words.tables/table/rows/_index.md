@@ -3,7 +3,7 @@ title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words for .NET
-description: Table Rows property. Provides typed access to the rows of the table in C#.
+description: Access table rows effortlessly with our typed property, ensuring seamless data management and enhanced organization for your projects.
 type: docs
 weight: 260
 url: /net/aspose.words.tables/table/rows/

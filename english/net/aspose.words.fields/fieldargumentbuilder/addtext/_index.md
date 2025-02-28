@@ -3,7 +3,7 @@ title: FieldArgumentBuilder.AddText
 linktitle: AddText
 articleTitle: AddText
 second_title: Aspose.Words for .NET
-description: FieldArgumentBuilder AddText method. Adds a plain text to the argument in C#.
+description: Enhance your arguments with the FieldArgumentBuilder AddText method. Effortlessly add plain text for improved clarity and functionality.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldargumentbuilder/addtext/

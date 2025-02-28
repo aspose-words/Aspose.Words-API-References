@@ -3,9 +3,9 @@ title: VariableCollection Class
 linktitle: VariableCollection
 articleTitle: VariableCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.VariableCollection class. A collection of document variables in C#.
+description: Discover Aspose.Words.VariableCollection: efficiently manage and customize document variables for enhanced document automation and flexibility.
 type: docs
-weight: 7220
+weight: 7230
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class

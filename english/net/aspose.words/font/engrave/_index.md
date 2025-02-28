@@ -3,7 +3,7 @@ title: Font.Engrave
 linktitle: Engrave
 articleTitle: Engrave
 second_title: Aspose.Words for .NET
-description: Font Engrave property. True if the font is formatted as engraved in C#.
+description: Discover the Font Engrave property: Easily format fonts for an elegant engraved look, enhancing your design's sophistication and appeal.
 type: docs
 weight: 120
 url: /net/aspose.words/font/engrave/

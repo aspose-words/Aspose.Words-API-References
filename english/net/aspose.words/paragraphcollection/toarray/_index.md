@@ -3,7 +3,7 @@ title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words for .NET
-description: ParagraphCollection ToArray method. Copies all paragraphs from the collection to a new array of paragraphs in C#.
+description: Effortlessly convert your ParagraphCollection to an array with the ToArray method, streamlining data management and enhancing your document processing.
 type: docs
 weight: 20
 url: /net/aspose.words/paragraphcollection/toarray/

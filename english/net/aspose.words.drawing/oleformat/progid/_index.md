@@ -3,7 +3,7 @@ title: OleFormat.ProgId
 linktitle: ProgId
 articleTitle: ProgId
 second_title: Aspose.Words for .NET
-description: OleFormat ProgId property. Gets or sets the ProgID of the OLE object in C#.
+description: Discover the OleFormat ProgId property to easily manage and customize OLE object ProgIDs for enhanced functionality and seamless integration.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/oleformat/progid/

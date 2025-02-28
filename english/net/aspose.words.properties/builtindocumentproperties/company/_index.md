@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.Company
 linktitle: Company
 articleTitle: Company
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Company property. Gets or sets the company property in C#.
+description: Manage your BuiltInDocumentProperties effortlessly. Easily get or set company properties to enhance document organization and streamline workflows.
 type: docs
 weight: 70
 url: /net/aspose.words.properties/builtindocumentproperties/company/

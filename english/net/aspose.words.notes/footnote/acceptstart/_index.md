@@ -3,7 +3,7 @@ title: Footnote.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: Footnote AcceptStart method. Accepts a visitor for visiting the start of the footnote in C#.
+description: Discover the Footnote AcceptStart method, designed to enhance visitor engagement by seamlessly guiding users to the footnote's beginning.
 type: docs
 weight: 100
 url: /net/aspose.words.notes/footnote/acceptstart/

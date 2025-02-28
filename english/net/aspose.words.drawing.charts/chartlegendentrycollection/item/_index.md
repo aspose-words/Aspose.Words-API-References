@@ -3,7 +3,7 @@ title: ChartLegendEntryCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: ChartLegendEntryCollection Item property. Returns ChartLegendEntry for the specified index in C#.
+description: Access the ChartLegendEntry for any index with the ChartLegendEntryCollection Item property. Enhance your data visualization effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartlegendentrycollection/item/

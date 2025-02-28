@@ -3,7 +3,7 @@ title: CompatibilityOptions.BalanceSingleByteDoubleByteWidth
 linktitle: BalanceSingleByteDoubleByteWidth
 articleTitle: BalanceSingleByteDoubleByteWidth
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions BalanceSingleByteDoubleByteWidth property. Balance Single Byte and Double Byte Characters in C#.
+description: Optimize text display with the BalanceSingleByteDoubleByteWidth property for seamless integration of single and double byte characters.
 type: docs
 weight: 70
 url: /net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/

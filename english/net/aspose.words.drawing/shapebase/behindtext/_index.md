@@ -3,7 +3,7 @@ title: ShapeBase.BehindText
 linktitle: BehindText
 articleTitle: BehindText
 second_title: Aspose.Words for .NET
-description: ShapeBase BehindText property. Specifies whether the shape is below or above text in C#.
+description: Discover the ShapeBase BehindText property to control shape layering in your designs, enhancing text visibility and layout precision effortlessly.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/shapebase/behindtext/

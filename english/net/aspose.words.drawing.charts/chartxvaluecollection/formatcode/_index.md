@@ -3,7 +3,7 @@ title: ChartXValueCollection.FormatCode
 linktitle: FormatCode
 articleTitle: FormatCode
 second_title: Aspose.Words for .NET
-description: ChartXValueCollection FormatCode property. Gets or sets the format code applied to the X values in C#.
+description: Discover the ChartXValueCollection FormatCode property: easily customize X value formats for enhanced data visualization and clarity in your charts.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartxvaluecollection/formatcode/

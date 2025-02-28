@@ -3,7 +3,7 @@ title: CommentRangeEnd Class
 linktitle: CommentRangeEnd
 articleTitle: CommentRangeEnd
 second_title: Aspose.Words for .NET
-description: Aspose.Words.CommentRangeEnd class. Denotes the end of a region of text that has a comment associated with it in C#.
+description: Discover the Aspose.Words.CommentRangeEnd class, marking the end of comment-associated text regions. Enhance document management with precise commenting!
 type: docs
 weight: 440
 url: /net/aspose.words/commentrangeend/

@@ -3,7 +3,7 @@ title: DocumentBase Class
 linktitle: DocumentBase
 articleTitle: DocumentBase
 second_title: Aspose.Words for .NET
-description: Aspose.Words.DocumentBase class. Provides the abstract base class for a main document and a glossary document of a Word document in C#.
+description: Discover the Aspose.Words.DocumentBase class, the essential foundation for creating and managing Word documents and glossaries with ease and efficiency.
 type: docs
 weight: 650
 url: /net/aspose.words/documentbase/

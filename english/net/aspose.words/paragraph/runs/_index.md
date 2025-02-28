@@ -3,7 +3,7 @@ title: Paragraph.Runs
 linktitle: Runs
 articleTitle: Runs
 second_title: Aspose.Words for .NET
-description: Paragraph Runs property. Provides access to the typed collection of pieces of text inside the paragraph in C#.
+description: Discover the Paragraph Runs property for easy access to formatted text collections within paragraphs, enhancing your document's structure and readability.
 type: docs
 weight: 220
 url: /net/aspose.words/paragraph/runs/

@@ -3,7 +3,7 @@ title: Hyphenation.IsDictionaryRegistered
 linktitle: IsDictionaryRegistered
 articleTitle: IsDictionaryRegistered
 second_title: Aspose.Words for .NET
-description: Hyphenation IsDictionaryRegistered method. Returns false if for the specified language there is no dictionary registered or if registered is Null dictionary true otherwise in C#.
+description: Discover the Hyphenation IsDictionaryRegistered method: checks if a dictionary is registered for your language, ensuring accurate hyphenation in your applications.
 type: docs
 weight: 30
 url: /net/aspose.words/hyphenation/isdictionaryregistered/

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.MetafileFormat
 linktitle: MetafileFormat
 articleTitle: MetafileFormat
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions MetafileFormat property. Specifies in what format metafiles are saved when exporting to HTML MHTML or EPUB. Default value is Png meaning that metafiles are rendered to raster PNG images in C#.
+description: Discover the HtmlSaveOptions MetafileFormat property for exporting to HTML, MHTML, or EPUB. Save metafiles as high-quality PNG images by default!
 type: docs
 weight: 380
 url: /net/aspose.words.saving/htmlsaveoptions/metafileformat/

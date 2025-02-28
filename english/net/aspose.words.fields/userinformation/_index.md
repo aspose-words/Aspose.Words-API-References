@@ -3,7 +3,7 @@ title: UserInformation Class
 linktitle: UserInformation
 articleTitle: UserInformation
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.UserInformation class. Specifies information about the user in C#.
+description: Discover the Aspose.Words.Fields.UserInformation class to manage user details effectively and enhance document processing in your applications.
 type: docs
 weight: 3190
 url: /net/aspose.words.fields/userinformation/

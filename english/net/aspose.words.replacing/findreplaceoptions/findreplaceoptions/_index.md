@@ -3,7 +3,7 @@ title: FindReplaceOptions
 linktitle: FindReplaceOptions
 articleTitle: FindReplaceOptions
 second_title: Aspose.Words for .NET
-description: FindReplaceOptions constructor. Initializes a new instance of the FindReplaceOptions class with default settings in C#.
+description: Discover the FindReplaceOptions constructor to easily initialize a new instance with default settings, enhancing your search and replace functionality.
 type: docs
 weight: 10
 url: /net/aspose.words.replacing/findreplaceoptions/findreplaceoptions/

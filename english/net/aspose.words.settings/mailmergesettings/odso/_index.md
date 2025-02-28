@@ -3,7 +3,7 @@ title: MailMergeSettings.Odso
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words for .NET
-description: MailMergeSettings Odso property. Gets or sets the object that specifies the Office Data Source Object ODSO settings in C#.
+description: Discover how to easily manage MailMergeSettings with ODSO properties. Streamline your document automation and enhance your workflow efficiency today!
 type: docs
 weight: 150
 url: /net/aspose.words.settings/mailmergesettings/odso/

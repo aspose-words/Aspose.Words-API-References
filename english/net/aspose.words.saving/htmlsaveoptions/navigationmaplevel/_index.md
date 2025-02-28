@@ -3,7 +3,7 @@ title: HtmlSaveOptions.NavigationMapLevel
 linktitle: NavigationMapLevel
 articleTitle: NavigationMapLevel
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions NavigationMapLevel property. Specifies the maximum level of headings populated to the navigation map when exporting to EPUB MOBI or AZW3 formats. Default value is 3 in C#.
+description: Discover HtmlSaveOptions' NavigationMapLevel property, controlling heading levels in EPUB, MOBI, and AZW3 exports. Maximize your content's visibility!
 type: docs
 weight: 390
 url: /net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/

@@ -3,7 +3,7 @@ title: FieldToa Class
 linktitle: FieldToa
 articleTitle: FieldToa
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldToa class. Implements the TOA field in C#.
+description: Discover the Aspose.Words.Fields.FieldToa class for seamless TOA field implementation. Enhance your document processing with powerful features today!
 type: docs
 weight: 2920
 url: /net/aspose.words.fields/fieldtoa/

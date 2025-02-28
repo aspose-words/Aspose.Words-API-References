@@ -3,7 +3,7 @@ title: WebExtensionReference.Store
 linktitle: Store
 articleTitle: Store
 second_title: Aspose.Words for .NET
-description: WebExtensionReference Store property. Specifies the instance of the marketplace where the web extension is stored in C#.
+description: Discover the WebExtensionReference Store property—your gateway to accessing and managing web extensions in the marketplace efficiently.
 type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextensionreference/store/

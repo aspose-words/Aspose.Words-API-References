@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 linktitle: InsertHtml
 articleTitle: InsertHtml
 second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertHtml method. Inserts an HTML string into the document in C#.
+description: Effortlessly enhance your documents with the DocumentBuilder InsertHtml method—seamlessly insert HTML strings for dynamic content integration.
 type: docs
 weight: 380
 url: /net/aspose.words/documentbuilder/inserthtml/

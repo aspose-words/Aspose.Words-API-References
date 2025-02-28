@@ -3,7 +3,7 @@ title: GlossaryDocument.BuildingBlocks
 linktitle: BuildingBlocks
 articleTitle: BuildingBlocks
 second_title: Aspose.Words for .NET
-description: GlossaryDocument BuildingBlocks property. Returns a typed collection that represents all building blocks in the glossary document in C#.
+description: Discover the BuildingBlocks property in GlossaryDocument, offering a typed collection of all glossary entries for enhanced organization and easy access.
 type: docs
 weight: 20
 url: /net/aspose.words.buildingblocks/glossarydocument/buildingblocks/

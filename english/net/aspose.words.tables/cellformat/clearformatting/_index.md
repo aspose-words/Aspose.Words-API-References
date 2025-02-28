@@ -3,7 +3,7 @@ title: CellFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words for .NET
-description: CellFormat ClearFormatting method. Resets to default cell formatting. Does not change the width of the cell in C#.
+description: Discover the CellFormat ClearFormatting method to effortlessly reset cell styles to default without altering cell width. Enhance your spreadsheet efficiency!
 type: docs
 weight: 160
 url: /net/aspose.words.tables/cellformat/clearformatting/

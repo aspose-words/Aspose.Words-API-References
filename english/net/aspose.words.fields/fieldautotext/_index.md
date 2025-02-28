@@ -3,7 +3,7 @@ title: FieldAutoText Class
 linktitle: FieldAutoText
 articleTitle: FieldAutoText
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldAutoText class. Implements the AUTOTEXT field in C#.
+description: Discover the Aspose.Words.Fields.FieldAutoText class to effortlessly manage AUTOTEXT fields, enhancing document automation and efficiency.
 type: docs
 weight: 2010
 url: /net/aspose.words.fields/fieldautotext/

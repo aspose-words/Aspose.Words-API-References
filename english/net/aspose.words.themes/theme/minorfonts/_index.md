@@ -3,7 +3,7 @@ title: Theme.MinorFonts
 linktitle: MinorFonts
 articleTitle: MinorFonts
 second_title: Aspose.Words for .NET
-description: Theme MinorFonts property. Allows to specify the set of minor fonts for different languages in C#.
+description: Customize your site's typography with MinorFonts. Easily set unique fonts for various languages to enhance user experience and engagement.
 type: docs
 weight: 40
 url: /net/aspose.words.themes/theme/minorfonts/

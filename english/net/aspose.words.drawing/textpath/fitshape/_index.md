@@ -3,7 +3,7 @@ title: TextPath.FitShape
 linktitle: FitShape
 articleTitle: FitShape
 second_title: Aspose.Words for .NET
-description: TextPath FitShape property. Defines whether the text fits bounding box of a shape in C#.
+description: Discover how the TextPath FitShape property ensures your text perfectly fits within a shape's bounding box for enhanced design flexibility.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/textpath/fitshape/

@@ -3,7 +3,7 @@ title: Font.NumberSpacing
 linktitle: NumberSpacing
 articleTitle: NumberSpacing
 second_title: Aspose.Words for .NET
-description: Font NumberSpacing property. Gets or sets the spacing type of the numeral being displayed in C#.
+description: Discover the Font NumberSpacing property to customize numeral spacing for enhanced readability and design. Optimize your typography today!
 type: docs
 weight: 290
 url: /net/aspose.words/font/numberspacing/

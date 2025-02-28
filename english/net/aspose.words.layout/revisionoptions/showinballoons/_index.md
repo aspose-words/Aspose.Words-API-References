@@ -3,7 +3,7 @@ title: RevisionOptions.ShowInBalloons
 linktitle: ShowInBalloons
 articleTitle: ShowInBalloons
 second_title: Aspose.Words for .NET
-description: RevisionOptions ShowInBalloons property. Allows to specify whether the revisions are rendered in the balloons. Default value is None in C#.
+description: Discover the RevisionOptions ShowInBalloons property! Control revision visibility in balloons for enhanced document clarity. Default is None.
 type: docs
 weight: 180
 url: /net/aspose.words.layout/revisionoptions/showinballoons/

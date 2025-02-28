@@ -3,7 +3,7 @@ title: Font.Emboss
 linktitle: Emboss
 articleTitle: Emboss
 second_title: Aspose.Words for .NET
-description: Font Emboss property. True if the font is formatted as embossed in C#.
+description: Discover the Font Emboss property, which enhances your text with a stylish embossed effect for eye-catching designs. Elevate your typography today!
 type: docs
 weight: 100
 url: /net/aspose.words/font/emboss/

@@ -3,7 +3,7 @@ title: ShapeBase.Glow
 linktitle: Glow
 articleTitle: Glow
 second_title: Aspose.Words for .NET
-description: ShapeBase Glow property. Gets glow formatting for the shape in C#.
+description: Enhance your designs with ShapeBase Glow! Achieve stunning glow effects for your shapes and elevate your visual projects effortlessly.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/shapebase/glow/

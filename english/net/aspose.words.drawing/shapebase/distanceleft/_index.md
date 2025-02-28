@@ -3,7 +3,7 @@ title: ShapeBase.DistanceLeft
 linktitle: DistanceLeft
 articleTitle: DistanceLeft
 second_title: Aspose.Words for .NET
-description: ShapeBase DistanceLeft property. Returns or sets the distance in points between the document text and the left edge of the shape in C#.
+description: Discover the ShapeBase DistanceLeft property to easily adjust the distance in points between your document text and the left edge of shapes for enhanced layout control.
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/shapebase/distanceleft/

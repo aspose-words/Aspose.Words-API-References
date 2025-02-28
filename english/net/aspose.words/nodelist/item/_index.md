@@ -3,7 +3,7 @@ title: NodeList.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: NodeList Item property. Retrieves a node at the given index in C#.
+description: Access specific nodes effortlessly with the NodeList Item property. Retrieve nodes by index for streamlined data manipulation and efficient coding.
 type: docs
 weight: 20
 url: /net/aspose.words/nodelist/item/

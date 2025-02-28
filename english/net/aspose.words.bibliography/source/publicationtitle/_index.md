@@ -3,7 +3,7 @@ title: Source.PublicationTitle
 linktitle: PublicationTitle
 articleTitle: PublicationTitle
 second_title: Aspose.Words for .NET
-description: Source PublicationTitle property. Gets or sets the publication title of a source in C#.
+description: Manage your source's publication title effortlessly. Easily get or set the title for enhanced organization and clarity in your research.
 type: docs
 weight: 350
 url: /net/aspose.words.bibliography/source/publicationtitle/

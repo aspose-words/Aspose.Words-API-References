@@ -3,7 +3,7 @@ title: ChartDataTable.HasVerticalBorder
 linktitle: HasVerticalBorder
 articleTitle: HasVerticalBorder
 second_title: Aspose.Words for .NET
-description: ChartDataTable HasVerticalBorder property. Gets or sets a flag indicating whether a vertical border of the data table is displayed. The default value is true in C#.
+description: Discover the ChartDataTable HasVerticalBorder property to control vertical border visibility in your data tables. Enhance your data presentation effortlessly!
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartdatatable/hasverticalborder/

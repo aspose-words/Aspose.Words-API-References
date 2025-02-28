@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ResolveFontNames
 linktitle: ResolveFontNames
 articleTitle: ResolveFontNames
 second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ResolveFontNames property. Specifies whether font family names used in the document are resolved and substituted according to FontSettings when being written into HTMLbased formats in C#.
+description: Discover how the HtmlSaveOptions ResolveFontNames property enhances document formatting by ensuring accurate font substitutions in HTML outputs.
 type: docs
 weight: 420
 url: /net/aspose.words.saving/htmlsaveoptions/resolvefontnames/

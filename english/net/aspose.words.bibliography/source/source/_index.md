@@ -3,7 +3,7 @@ title: Source
 linktitle: Source
 articleTitle: Source
 second_title: Aspose.Words for .NET
-description: Source constructor. Initialize a new instance of the Source class in C#.
+description: Effortlessly create a new Source class instance with our constructor. Simplify your coding process and enhance your project's efficiency today!
 type: docs
 weight: 10
 url: /net/aspose.words.bibliography/source/source/

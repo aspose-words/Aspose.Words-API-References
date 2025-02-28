@@ -3,7 +3,7 @@ title: ComparisonEvaluationResult
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET
-description: ComparisonEvaluationResult constructor. Creates a comparison evaluation result in C#.
+description: Discover the ComparisonEvaluationResult constructor to efficiently generate and analyze comparison evaluation outcomes for better decision-making.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/

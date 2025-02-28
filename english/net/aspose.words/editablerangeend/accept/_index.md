@@ -3,7 +3,7 @@ title: EditableRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: EditableRangeEnd Accept method. Accepts a visitor in C#.
+description: Discover the EditableRangeEnd Accept method to seamlessly manage visitor interactions and enhance your web application's functionality.
 type: docs
 weight: 40
 url: /net/aspose.words/editablerangeend/accept/

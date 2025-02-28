@@ -3,7 +3,7 @@ title: Inline.IsMoveFromRevision
 linktitle: IsMoveFromRevision
 articleTitle: IsMoveFromRevision
 second_title: Aspose.Words for .NET
-description: Inline IsMoveFromRevision property. Returns true if this object was moved deleted in Microsoft Word while change tracking was enabled in C#.
+description: Discover the Inline IsMoveFromRevision property in Microsoft Word. Learn how it tracks deleted objects for efficient document management and editing.
 type: docs
 weight: 50
 url: /net/aspose.words/inline/ismovefromrevision/

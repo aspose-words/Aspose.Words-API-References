@@ -3,7 +3,7 @@ title: FieldPrintDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words for .NET
-description: FieldPrintDate UseUmAlQuraCalendar property. Gets or sets whether to use the UmalQura calendar in C#.
+description: Manage your dates effortlessly with FieldPrintDate's UseUmAlQuraCalendar feature. Easily toggle the UmalQura calendar for seamless date handling.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldprintdate/useumalquracalendar/

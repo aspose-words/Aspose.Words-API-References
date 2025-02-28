@@ -3,7 +3,7 @@ title: SplitOptions.SplitCriteria
 linktitle: SplitCriteria
 articleTitle: SplitCriteria
 second_title: Aspose.Words for .NET
-description: SplitOptions SplitCriteria property. Specifies the criteria for splitting the document into parts in C#.
+description: Discover how the SplitOptions SplitCriteria property enhances document management by efficiently dividing your content into manageable sections.
 type: docs
 weight: 20
 url: /net/aspose.words.lowcode/splitoptions/splitcriteria/

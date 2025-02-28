@@ -3,7 +3,7 @@ title: Font.EmphasisMark
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
 second_title: Aspose.Words for .NET
-description: Font EmphasisMark property. Gets or sets the emphasis mark applied to this formatting in C#.
+description: Discover how to use the Font Emphasis Mark property to enhance your text formatting. Learn to set and customize emphasis marks for better readability.
 type: docs
 weight: 110
 url: /net/aspose.words/font/emphasismark/

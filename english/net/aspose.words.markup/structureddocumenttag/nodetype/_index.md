@@ -3,7 +3,7 @@ title: StructuredDocumentTag.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag NodeType property. Returns StructuredDocumentTag in C#.
+description: Explore the StructuredDocumentTag NodeType property for efficient document management. Unlock seamless access to structured data in your projects.
 type: docs
 weight: 220
 url: /net/aspose.words.markup/structureddocumenttag/nodetype/

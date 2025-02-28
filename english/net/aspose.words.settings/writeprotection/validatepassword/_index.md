@@ -3,7 +3,7 @@ title: WriteProtection.ValidatePassword
 linktitle: ValidatePassword
 articleTitle: ValidatePassword
 second_title: Aspose.Words for .NET
-description: WriteProtection ValidatePassword method. Returns true if the specified password is the same as the writeprotection password the document was protected with. If document is not writeprotected with password then returns false in C#.
+description: Secure your documents with the WriteProtection ValidatePassword method. Easily verify if the password matches the document's protection for enhanced security.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/writeprotection/validatepassword/

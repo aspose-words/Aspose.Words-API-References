@@ -3,7 +3,7 @@ title: VariableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: VariableCollection Item property. Gets or a sets a document variable by the caseinsensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string in C#.
+description: Manage document variables effortlessly with VariableCollection Item. Set or retrieve case-insensitive names easily—no null values allowed, ensuring data integrity.
 type: docs
 weight: 20
 url: /net/aspose.words/variablecollection/item/

@@ -3,7 +3,7 @@ title: FieldStyleRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words for .NET
-description: FieldStyleRef InsertRelativePosition property. Gets or sets whether to insert the relative position of the referenced paragraph in C#.
+description: Discover how the InsertRelativePosition property of FieldStyleRef can enhance your document formatting by managing paragraph references effectively.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldstyleref/insertrelativeposition/

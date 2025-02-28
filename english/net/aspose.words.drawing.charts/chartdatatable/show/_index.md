@@ -3,7 +3,7 @@ title: ChartDataTable.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words for .NET
-description: ChartDataTable Show property. Gets or sets a flag indicating whether the data table will be shown for the chart. Default value is false in C#.
+description: Control your chart's visibility with the ChartDataTable Show property. Easily toggle data table display for enhanced data insights. Default: false.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartdatatable/show/

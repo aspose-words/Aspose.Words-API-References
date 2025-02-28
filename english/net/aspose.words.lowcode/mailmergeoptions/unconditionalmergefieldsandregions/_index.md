@@ -3,7 +3,7 @@ title: MailMergeOptions.UnconditionalMergeFieldsAndRegions
 linktitle: UnconditionalMergeFieldsAndRegions
 articleTitle: UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words for .NET
-description: MailMergeOptions UnconditionalMergeFieldsAndRegions property. Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF fields condition in C#.
+description: Discover MailMergeOptions' UnconditionalMergeFieldsAndRegions property, enabling seamless merging of fields and regions, enhancing document customization.
 type: docs
 weight: 120
 url: /net/aspose.words.lowcode/mailmergeoptions/unconditionalmergefieldsandregions/

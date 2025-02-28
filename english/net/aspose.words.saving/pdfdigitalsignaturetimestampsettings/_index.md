@@ -3,9 +3,9 @@ title: PdfDigitalSignatureTimestampSettings Class
 linktitle: PdfDigitalSignatureTimestampSettings
 articleTitle: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings class. Contains settings of the digital signature timestamp in C#.
+description: Discover Aspose.Words.PdfDigitalSignatureTimestampSettings for seamless digital signature timestamp management. Enhance your PDF security effortlessly!
 type: docs
-weight: 6080
+weight: 6090
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class

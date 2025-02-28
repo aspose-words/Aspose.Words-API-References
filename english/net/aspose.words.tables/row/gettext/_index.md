@@ -3,7 +3,7 @@ title: Row.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words for .NET
-description: Row GetText method. Gets the text of all cells in this row including the end of row character in C#.
+description: Discover the Row GetText method to effortlessly retrieve text from all cells in a row, including the end-of-row character for seamless data management.
 type: docs
 weight: 160
 url: /net/aspose.words.tables/row/gettext/

@@ -3,7 +3,7 @@ title: ListFormat.ListLevelNumber
 linktitle: ListLevelNumber
 articleTitle: ListLevelNumber
 second_title: Aspose.Words for .NET
-description: ListFormat ListLevelNumber property. Gets or sets the list level number 0 to 8 for the paragraph in C#.
+description: Discover the ListFormat ListLevelNumber property: easily manage paragraph list levels from 0 to 8 for enhanced document organization and clarity.
 type: docs
 weight: 40
 url: /net/aspose.words.lists/listformat/listlevelnumber/

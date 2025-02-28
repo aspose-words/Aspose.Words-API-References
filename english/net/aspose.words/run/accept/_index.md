@@ -3,7 +3,7 @@ title: Run.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: Run Accept method. Accepts a visitor in C#.
+description: Utilize the Accept method to seamlessly welcome visitors, enhancing user experience and boosting engagement on your website.
 type: docs
 weight: 60
 url: /net/aspose.words/run/accept/

@@ -3,7 +3,7 @@ title: IMailMergeDataSource.GetChildDataSource
 linktitle: GetChildDataSource
 articleTitle: GetChildDataSource
 second_title: Aspose.Words for .NET
-description: IMailMergeDataSource GetChildDataSource method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region in C#.
+description: Discover how the IMailMergeDataSource GetChildDataSource method enhances Aspose.Words mail merge by managing nested regions seamlessly.
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/

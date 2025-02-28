@@ -3,7 +3,7 @@ title: Comment.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words for .NET
-description: Comment StoryType property. Returns Comments in C#.
+description: Discover the StoryType property to effortlessly retrieve comments and enhance your content engagement. Unlock valuable insights today!
 type: docs
 weight: 120
 url: /net/aspose.words/comment/storytype/

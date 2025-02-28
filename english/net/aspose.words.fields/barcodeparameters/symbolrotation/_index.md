@@ -3,7 +3,7 @@ title: BarcodeParameters.SymbolRotation
 linktitle: SymbolRotation
 articleTitle: SymbolRotation
 second_title: Aspose.Words for .NET
-description: BarcodeParameters SymbolRotation property. Rotation of the barcode symbol. Valid values are 0 3 in C#.
+description: Discover the BarcodeParameters SymbolRotation property for optimal barcode symbol rotation. Choose from valid values 0 and 3 for precise scanning.
 type: docs
 weight: 180
 url: /net/aspose.words.fields/barcodeparameters/symbolrotation/

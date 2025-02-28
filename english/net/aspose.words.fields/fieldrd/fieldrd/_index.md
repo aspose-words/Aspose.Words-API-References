@@ -3,7 +3,7 @@ title: FieldRD
 linktitle: FieldRD
 articleTitle: FieldRD
 second_title: Aspose.Words for .NET
-description: FieldRD constructor. The default constructor in C#.
+description: Discover FieldRD's powerful constructor, designed for seamless integration and enhanced functionality. Elevate your projects with our default constructor today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldrd/fieldrd/

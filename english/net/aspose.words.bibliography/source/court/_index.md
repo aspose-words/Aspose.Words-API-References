@@ -3,7 +3,7 @@ title: Source.Court
 linktitle: Court
 articleTitle: Court
 second_title: Aspose.Words for .NET
-description: Source Court property. Gets or sets the court of a source in C#.
+description: Discover Source Court property solutions. Easily manage and set your court sources for streamlined legal processes and enhanced efficiency.
 type: docs
 weight: 140
 url: /net/aspose.words.bibliography/source/court/

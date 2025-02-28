@@ -3,7 +3,7 @@ title: SignOptions.XmlDsigLevel
 linktitle: XmlDsigLevel
 articleTitle: XmlDsigLevel
 second_title: Aspose.Words for .NET
-description: SignOptions XmlDsigLevel property. Specifies the level of a digital signature based on XMLDSig standard. The default value is XmlDSig in C#.
+description: Discover the XmlDsigLevel property in SignOptions, defining digital signature strength per XMLDSig standards. Ensure secure and reliable signatures!
 type: docs
 weight: 80
 url: /net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/

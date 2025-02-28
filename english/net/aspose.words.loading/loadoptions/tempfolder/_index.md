@@ -3,7 +3,7 @@ title: LoadOptions.TempFolder
 linktitle: TempFolder
 articleTitle: TempFolder
 second_title: Aspose.Words for .NET
-description: LoadOptions TempFolder property. Allows to use temporary files when reading document. By default this property is null and no temporary files are used in C#.
+description: Optimize document reading with LoadOptions' TempFolder property. Easily manage temporary files for efficient processing and enhanced performance.
 type: docs
 weight: 150
 url: /net/aspose.words.loading/loadoptions/tempfolder/

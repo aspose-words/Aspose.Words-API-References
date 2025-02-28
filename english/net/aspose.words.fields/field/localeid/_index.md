@@ -3,7 +3,7 @@ title: Field.LocaleId
 linktitle: LocaleId
 articleTitle: LocaleId
 second_title: Aspose.Words for .NET
-description: Field LocaleId property. Gets or sets the LCID of the field in C#.
+description: Manage your field's LocaleId property effortlessly. Get or set the LCID for enhanced localization and user experience in your applications.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/field/localeid/

@@ -3,7 +3,7 @@ title: TabStopCollection.RemoveByIndex
 linktitle: RemoveByIndex
 articleTitle: RemoveByIndex
 second_title: Aspose.Words for .NET
-description: TabStopCollection RemoveByIndex method. Removes a tab stop at the specified index from the collection in C#.
+description: Effortlessly manage your tab stops with the RemoveByIndex method. Quickly remove any tab stop from your collection for streamlined design.
 type: docs
 weight: 110
 url: /net/aspose.words/tabstopcollection/removebyindex/

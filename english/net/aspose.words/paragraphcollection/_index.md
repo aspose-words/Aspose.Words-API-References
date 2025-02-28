@@ -3,9 +3,9 @@ title: ParagraphCollection Class
 linktitle: ParagraphCollection
 articleTitle: ParagraphCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.ParagraphCollection class. Provides typed access to a collection of Paragraph nodes in C#.
+description: Discover Aspose.Words.ParagraphCollection for seamless access to structured Paragraph nodes, enhancing document manipulation and efficiency in your projects.
 type: docs
-weight: 5000
+weight: 5010
 url: /net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class

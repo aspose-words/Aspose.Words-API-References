@@ -3,7 +3,7 @@ title: ConvertUtil.MillimeterToPoint
 linktitle: MillimeterToPoint
 articleTitle: MillimeterToPoint
 second_title: Aspose.Words for .NET
-description: ConvertUtil MillimeterToPoint method. Converts millimeters to points in C#.
+description: Effortlessly convert millimeters to points with ConvertUtil's MillimeterToPoint method. Simplify your design calculations today!
 type: docs
 weight: 20
 url: /net/aspose.words/convertutil/millimetertopoint/

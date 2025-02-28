@@ -3,7 +3,7 @@ title: Aspose.Words.Lists
 linktitle: Aspose.Words.Lists
 articleTitle: Aspose.Words.Lists
 second_title: Aspose.Words for .NET
-description: The Aspose.Words.Lists namespace contains classes for working with bulleted and numbered lists defined in a document in C#.
+description: Discover the Aspose.Words.Lists namespace for easy management of bulleted and numbered lists in your documents, enhancing organization and clarity.
 type: docs
 weight: 140
 url: /net/aspose.words.lists/
@@ -27,3 +27,4 @@ The **Aspose.Words.Lists** namespace contains classes for working with bulleted 
 | [ListLevelAlignment](./listlevelalignment/) | Specifies alignment for the list number or bullet. |
 | [ListTemplate](./listtemplate/) | Specifies one of the predefined list formats available in Microsoft Word. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Specifies the character that separates the list label from the text of the paragraph. |
+| [ListType](./listtype/) | Specifies the list type. |

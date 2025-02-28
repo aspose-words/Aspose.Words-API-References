@@ -3,7 +3,7 @@ title: HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words for .NET
-description: HyphenationOptions constructor. The default constructor in C#.
+description: Discover the HyphenationOptions constructor—your go-to solution for efficient text hyphenation with customizable settings for optimal results.
 type: docs
 weight: 10
 url: /net/aspose.words.settings/hyphenationoptions/hyphenationoptions/

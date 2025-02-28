@@ -3,7 +3,7 @@ title: Glyph.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words for .NET
-description: Glyph Clone method. Returns a clone of this instance in C#.
+description: Discover the Glyph Clone method to effortlessly create a duplicate of your instance. Enhance your coding efficiency with this powerful tool!
 type: docs
 weight: 60
 url: /net/aspose.words.shaping/glyph/clone/

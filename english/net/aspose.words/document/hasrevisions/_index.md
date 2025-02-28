@@ -3,7 +3,7 @@ title: Document.HasRevisions
 linktitle: HasRevisions
 articleTitle: HasRevisions
 second_title: Aspose.Words for .NET
-description: Document HasRevisions property. Returns true if the document has any tracked changes in C#.
+description: Discover if your document has tracked changes with the HasRevisions property. Easily manage edits and enhance your workflow efficiency.
 type: docs
 weight: 210
 url: /net/aspose.words/document/hasrevisions/

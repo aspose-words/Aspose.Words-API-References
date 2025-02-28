@@ -3,9 +3,9 @@ title: PageSetup Class
 linktitle: PageSetup
 articleTitle: PageSetup
 second_title: Aspose.Words for .NET
-description: Aspose.Words.PageSetup class. Represents the page setup properties of a section in C#.
+description: Discover the Aspose.Words.PageSetup class for seamless page setup customization in your document sections. Optimize layout and enhance readability today!
 type: docs
-weight: 4950
+weight: 4960
 url: /net/aspose.words/pagesetup/
 ---
 ## PageSetup class

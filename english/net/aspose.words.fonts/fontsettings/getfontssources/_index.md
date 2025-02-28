@@ -3,7 +3,7 @@ title: FontSettings.GetFontsSources
 linktitle: GetFontsSources
 articleTitle: GetFontsSources
 second_title: Aspose.Words for .NET
-description: FontSettings GetFontsSources method. Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts in C#.
+description: Discover the FontSettings GetFontsSources method to easily access the array of sources for TrueType fonts in Aspose.Words. Optimize your font management today!
 type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontsettings/getfontssources/

@@ -3,9 +3,9 @@ title: TaskPaneCollection Class
 linktitle: TaskPaneCollection
 articleTitle: TaskPaneCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.TaskPaneCollection class. Specifies a list of persisted task pane objects in C#.
+description: Discover the Aspose.Words.WebExtensions.TaskPaneCollection class, your solution for managing persistent task pane objects efficiently. Enhance your web applications today!
 type: docs
-weight: 7410
+weight: 7420
 url: /net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class

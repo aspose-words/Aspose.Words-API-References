@@ -3,7 +3,7 @@ title: Field.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words for .NET
-description: Field Format property. Gets a FieldFormat object that provides typed access to fields formatting in C#.
+description: Discover the Field Format property for seamless access to FieldFormat objects, enhancing your fields' formatting with precision and ease.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/field/format/

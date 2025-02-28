@@ -3,7 +3,7 @@ title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 articleTitle: AutomaticallyUpdate
 second_title: Aspose.Words for .NET
-description: Style AutomaticallyUpdate property. Specifies whether this style is automatically redefined based on the appropriate value in C#.
+description: Discover how the AutomaticallyUpdate property enhances your styles by automatically redefining them for optimal value and performance in your projects.
 type: docs
 weight: 20
 url: /net/aspose.words/style/automaticallyupdate/

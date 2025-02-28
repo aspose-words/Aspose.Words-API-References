@@ -3,7 +3,7 @@ title: ChartSeries.YValues
 linktitle: YValues
 articleTitle: YValues
 second_title: Aspose.Words for .NET
-description: ChartSeries YValues property. Gets a collection of Y values for this chart series in C#.
+description: Discover the ChartSeries YValues property to access a powerful collection of Y values, enhancing your data visualization and analysis capabilities.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing.charts/chartseries/yvalues/

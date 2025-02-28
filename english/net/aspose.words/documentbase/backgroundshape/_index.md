@@ -3,7 +3,7 @@ title: DocumentBase.BackgroundShape
 linktitle: BackgroundShape
 articleTitle: BackgroundShape
 second_title: Aspose.Words for .NET
-description: DocumentBase BackgroundShape property. Gets or sets the background shape of the document. Can be null in C#.
+description: Discover the DocumentBase BackgroundShape property: easily customize your document's background shape for enhanced visual appeal. Maximize your design potential!
 type: docs
 weight: 10
 url: /net/aspose.words/documentbase/backgroundshape/

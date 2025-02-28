@@ -3,7 +3,7 @@ title: Field.GetFieldCode
 linktitle: GetFieldCode
 articleTitle: GetFieldCode
 second_title: Aspose.Words for .NET
-description: Field GetFieldCode method. Returns text between field start and field separator or field end if there is no separator. Both field code and field result of child fields are included in C#.
+description: Discover the GetFieldCode method: effortlessly retrieve text between field start and separator, including child field codes and results. Enhance your coding efficiency!
 type: docs
 weight: 110
 url: /net/aspose.words.fields/field/getfieldcode/

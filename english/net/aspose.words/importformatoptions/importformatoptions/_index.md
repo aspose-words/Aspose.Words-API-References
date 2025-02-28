@@ -3,7 +3,7 @@ title: ImportFormatOptions
 linktitle: ImportFormatOptions
 articleTitle: ImportFormatOptions
 second_title: Aspose.Words for .NET
-description: ImportFormatOptions constructor. The default constructor in C#.
+description: Discover the ImportFormatOptions constructor for seamless integration. Unlock powerful features with our default constructor to enhance your coding efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words/importformatoptions/importformatoptions/

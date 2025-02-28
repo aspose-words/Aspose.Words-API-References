@@ -3,7 +3,7 @@ title: RtfSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
-description: RtfSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be Rtf in C#.
+description: Discover the RtfSaveOptions SaveFormat property to effortlessly save your documents in RTF format, ensuring compatibility and easy sharing.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/rtfsaveoptions/saveformat/

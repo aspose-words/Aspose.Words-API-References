@@ -3,7 +3,7 @@ title: Table.AllowAutoFit
 linktitle: AllowAutoFit
 articleTitle: AllowAutoFit
 second_title: Aspose.Words for .NET
-description: Table AllowAutoFit property. Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents in C#.
+description: Discover the Table AllowAutoFit property to effortlessly resize Microsoft Word and Aspose.Words table cells, enhancing your document's readability and presentation.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/table/allowautofit/

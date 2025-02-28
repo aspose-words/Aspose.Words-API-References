@@ -3,7 +3,7 @@ title: XmlDataSource
 linktitle: XmlDataSource
 articleTitle: XmlDataSource
 second_title: Aspose.Words for .NET
-description: XmlDataSource constructor. Creates a new data source with data from an XML file using default options for XML data loading in C#.
+description: Create a powerful data source effortlessly with the XmlDataSource constructor, loading XML data using optimized default options for seamless integration.
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/xmldatasource/xmldatasource/

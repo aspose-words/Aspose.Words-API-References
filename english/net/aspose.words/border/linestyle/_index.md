@@ -3,7 +3,7 @@ title: Border.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words for .NET
-description: Border LineStyle property. Gets or sets the border style in C#.
+description: Customize your design with the Border LineStyle property, allowing you to easily get or set unique border styles for enhanced visual appeal.
 type: docs
 weight: 40
 url: /net/aspose.words/border/linestyle/

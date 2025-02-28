@@ -3,7 +3,7 @@ title: FieldCitation.AnotherSourceTag
 linktitle: AnotherSourceTag
 articleTitle: AnotherSourceTag
 second_title: Aspose.Words for .NET
-description: FieldCitation AnotherSourceTag property. Gets or sets a value that matches the Tag elements value of another source to be included in the citation in C#.
+description: Discover how the FieldCitation AnotherSourceTag property enhances your citations by linking values from multiple sources for accurate referencing.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcitation/anothersourcetag/

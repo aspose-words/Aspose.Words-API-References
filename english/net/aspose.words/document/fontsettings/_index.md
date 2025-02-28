@@ -3,7 +3,7 @@ title: Document.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words for .NET
-description: Document FontSettings property. Gets or sets document font settings in C#.
+description: Discover how to customize document font settings effortlessly. Enhance your documents with tailored font options for improved readability and style.
 type: docs
 weight: 150
 url: /net/aspose.words/document/fontsettings/

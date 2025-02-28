@@ -3,7 +3,7 @@ title: ConditionalStyle.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words for .NET
-description: ConditionalStyle ClearFormatting method. Clears formatting of this conditional style in C#.
+description: Effortlessly clear formatting with the ConditionalStyle ClearFormatting method. Simplify your design process and enhance document clarity today!
 type: docs
 weight: 100
 url: /net/aspose.words/conditionalstyle/clearformatting/

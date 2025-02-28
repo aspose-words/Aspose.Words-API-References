@@ -3,7 +3,7 @@ title: FieldLink.InsertAsText
 linktitle: InsertAsText
 articleTitle: InsertAsText
 second_title: Aspose.Words for .NET
-description: FieldLink InsertAsText property. Gets or sets whether to insert the linked object in textonly format in C#.
+description: Discover the FieldLink InsertAsText property to easily manage linked objects in text-only format, enhancing your document's clarity and efficiency.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldlink/insertastext/

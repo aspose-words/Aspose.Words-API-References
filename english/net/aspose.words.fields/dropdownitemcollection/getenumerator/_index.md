@@ -3,7 +3,7 @@ title: DropDownItemCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
-description: DropDownItemCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: Discover the DropDownItemCollection GetEnumerator method to effortlessly iterate through collection items. Enhance your coding efficiency today!
 type: docs
 weight: 60
 url: /net/aspose.words.fields/dropdownitemcollection/getenumerator/

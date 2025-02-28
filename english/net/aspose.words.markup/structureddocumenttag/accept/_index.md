@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag Accept method. Accepts a visitor in C#.
+description: Discover the StructuredDocumentTag Accept method—seamlessly integrate visitor interactions for enhanced document functionality and user engagement.
 type: docs
 weight: 330
 url: /net/aspose.words.markup/structureddocumenttag/accept/

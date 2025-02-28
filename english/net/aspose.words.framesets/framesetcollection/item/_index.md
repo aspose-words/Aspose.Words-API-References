@@ -3,7 +3,7 @@ title: FramesetCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: FramesetCollection Item property. Gets a frame or frames page at the specified index in C#.
+description: Access specific frames with FramesetCollection. Easily retrieve frame pages by index for efficient web navigation and enhanced user experience.
 type: docs
 weight: 30
 url: /net/aspose.words.framesets/framesetcollection/item/

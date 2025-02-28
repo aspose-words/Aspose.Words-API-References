@@ -3,7 +3,7 @@ title: ThemeColors.Dark1
 linktitle: Dark1
 articleTitle: Dark1
 second_title: Aspose.Words for .NET
-description: ThemeColors Dark1 property. Specifies color Dark 1 in C#.
+description: Discover ThemeColors Dark1 for a striking color palette. Enhance your designs with this versatile Dark 1 shade for a modern aesthetic.
 type: docs
 weight: 70
 url: /net/aspose.words.themes/themecolors/dark1/

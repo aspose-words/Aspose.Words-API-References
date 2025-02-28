@@ -3,9 +3,9 @@ title: EndnotePosition Enum
 linktitle: EndnotePosition
 articleTitle: EndnotePosition
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Notes.EndnotePosition enum. Defines the endnote position in C#.
+description: Discover the Aspose.Words EndnotePosition enum for precise control over endnote placement in documents, enhancing your text formatting capabilities.
 type: docs
-weight: 4800
+weight: 4810
 url: /net/aspose.words.notes/endnoteposition/
 ---
 ## EndnotePosition enumeration

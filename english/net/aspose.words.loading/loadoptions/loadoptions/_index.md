@@ -3,7 +3,7 @@ title: LoadOptions
 linktitle: LoadOptions
 articleTitle: LoadOptions
 second_title: Aspose.Words for .NET
-description: LoadOptions constructor. Initializes a new instance of this class with default values in C#.
+description: Discover the LoadOptions constructor, designed to effortlessly initialize a new instance with default values for optimal performance and efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/loadoptions/loadoptions/

@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: PageLayoutCallbackArgs Document property. Gets document in C#.
+description: Discover the PageLayoutCallbackArgs Document property to efficiently access and manage your document data. Enhance your workflow today!
 type: docs
 weight: 10
 url: /net/aspose.words.layout/pagelayoutcallbackargs/document/

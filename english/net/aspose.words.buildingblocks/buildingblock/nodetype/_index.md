@@ -3,7 +3,7 @@ title: BuildingBlock.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words for .NET
-description: BuildingBlock NodeType property. Returns the BuildingBlock value in C#.
+description: Discover the BuildingBlock NodeType property that efficiently retrieves BuildingBlock values, enhancing your development experience with seamless integration.
 type: docs
 weight: 100
 url: /net/aspose.words.buildingblocks/buildingblock/nodetype/

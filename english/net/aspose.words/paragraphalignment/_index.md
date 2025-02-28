@@ -3,9 +3,9 @@ title: ParagraphAlignment Enum
 linktitle: ParagraphAlignment
 articleTitle: ParagraphAlignment
 second_title: Aspose.Words for .NET
-description: Aspose.Words.ParagraphAlignment enum. Specifies text alignment in a paragraph in C#.
+description: Discover Aspose.Words.ParagraphAlignment enum for precise text alignment in your documents. Enhance readability and formatting with ease!
 type: docs
-weight: 4990
+weight: 5000
 url: /net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration

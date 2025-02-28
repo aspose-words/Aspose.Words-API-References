@@ -3,7 +3,7 @@ title: ListLevel.ImageData
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words for .NET
-description: ListLevel ImageData property. Returns image data of the picture bullet shape for the current list level in C#.
+description: Discover the ListLevel ImageData property to access and enhance image data for picture bullet shapes at your current list level. Boost your design today!
 type: docs
 weight: 40
 url: /net/aspose.words.lists/listlevel/imagedata/

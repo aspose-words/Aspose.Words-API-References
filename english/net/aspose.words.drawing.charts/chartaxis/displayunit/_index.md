@@ -3,7 +3,7 @@ title: ChartAxis.DisplayUnit
 linktitle: DisplayUnit
 articleTitle: DisplayUnit
 second_title: Aspose.Words for .NET
-description: ChartAxis DisplayUnit property. Specifies the scaling value of the display units for the value axis in C#.
+description: Discover how the ChartAxis DisplayUnit property enhances your data visualization by optimizing value axis scaling for clearer insights.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartaxis/displayunit/

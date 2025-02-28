@@ -3,7 +3,7 @@ title: ImageData.ImageType
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words for .NET
-description: ImageData ImageType property. Gets the type of the image in C#.
+description: Discover the ImageData ImageType property to easily identify image types and enhance your image handling capabilities. Boost your development efficiency today!
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/imagedata/imagetype/

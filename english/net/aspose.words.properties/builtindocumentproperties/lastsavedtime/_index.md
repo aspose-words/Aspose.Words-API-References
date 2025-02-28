@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.LastSavedTime
 linktitle: LastSavedTime
 articleTitle: LastSavedTime
 second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties LastSavedTime property. Gets or sets the time of the last save in UTC in C#.
+description: Discover the BuiltInDocumentProperties LastSavedTime property to easily track your document's last save time in UTC. Enhance your document management today!
 type: docs
 weight: 180
 url: /net/aspose.words.properties/builtindocumentproperties/lastsavedtime/

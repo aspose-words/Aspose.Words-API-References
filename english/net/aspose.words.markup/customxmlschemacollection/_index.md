@@ -3,9 +3,9 @@ title: CustomXmlSchemaCollection Class
 linktitle: CustomXmlSchemaCollection
 articleTitle: CustomXmlSchemaCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.CustomXmlSchemaCollection class. A collection of strings that represent XML schemas that are associated with a custom XML part in C#.
+description: Explore the Aspose.Words.Markup.CustomXmlSchemaCollection class for managing XML schemas linked to custom XML parts, enhancing document flexibility and control.
 type: docs
-weight: 4510
+weight: 4520
 url: /net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class

@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words for .NET
-description: PdfEncryptionDetails constructor. Initializes an instance of this class in C#.
+description: Discover the PdfEncryptionDetails constructor to easily initialize secure PDF encryption instances. Enhance your document protection with our powerful tool!
 type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/

@@ -3,7 +3,7 @@ title: WebExtension.IsFrozen
 linktitle: IsFrozen
 articleTitle: IsFrozen
 second_title: Aspose.Words for .NET
-description: WebExtension IsFrozen property. Specifies whether the user can interact with the web extension or not in C#.
+description: Discover the WebExtension IsFrozen property, which controls user interaction with your web extension. Enhance usability and optimize user experience today!
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextension/isfrozen/

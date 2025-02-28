@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.BottomRightCell
 linktitle: BottomRightCell
 articleTitle: BottomRightCell
 second_title: Aspose.Words for .NET
-description: ConditionalStyleCollection BottomRightCell property. Gets the bottom right cell style in C#.
+description: Discover the BottomRightCell property in ConditionalStyleCollection. Enhance your design with customizable cell styles for better visual impact!
 type: docs
 weight: 20
 url: /net/aspose.words/conditionalstylecollection/bottomrightcell/

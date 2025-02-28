@@ -3,7 +3,7 @@ title: ImageData.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words for .NET
-description: ImageData HasImage property. Returns true if the shape has image bytes or links an image in C#.
+description: Discover the ImageData HasImage property: Quickly check if a shape contains image bytes or links, enhancing your design workflow effortlessly.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/imagedata/hasimage/

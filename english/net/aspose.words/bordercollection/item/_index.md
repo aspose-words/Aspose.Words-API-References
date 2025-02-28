@@ -3,7 +3,7 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: BorderCollection Item property. Retrieves a Border object by border type in C#.
+description: Discover the BorderCollection Item property to easily access Border objects by type. Streamline your design with efficient border management!
 type: docs
 weight: 60
 url: /net/aspose.words/bordercollection/item/

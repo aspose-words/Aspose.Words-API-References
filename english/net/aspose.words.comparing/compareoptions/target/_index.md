@@ -3,7 +3,7 @@ title: CompareOptions.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words for .NET
-description: CompareOptions Target property. Specifies which document shall be used as a target during comparison in C#.
+description: Discover how to set the Target property in CompareOptions for effective document comparison. Streamline your process with precise targeting today!
 type: docs
 weight: 130
 url: /net/aspose.words.comparing/compareoptions/target/

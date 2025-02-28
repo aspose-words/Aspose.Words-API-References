@@ -3,7 +3,7 @@ title: XmlMapping.Delete
 linktitle: Delete
 articleTitle: Delete
 second_title: Aspose.Words for .NET
-description: XmlMapping Delete method. Deletes mapping of the parent structured document to XML data in C#.
+description: Effortlessly remove XML data mappings with the XmlMapping Delete method. Streamline your structured documents for improved efficiency and organization.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/xmlmapping/delete/

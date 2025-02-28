@@ -3,7 +3,7 @@ title: ThemeColors.Light1
 linktitle: Light1
 articleTitle: Light1
 second_title: Aspose.Words for .NET
-description: ThemeColors Light1 property. Specifies color Light 1 in C#.
+description: Discover ThemeColors Light1: Enhance your design with vibrant Light 1 color for a fresh, modern look. Perfect for any creative project!
 type: docs
 weight: 110
 url: /net/aspose.words.themes/themecolors/light1/

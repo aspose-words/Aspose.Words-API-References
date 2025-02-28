@@ -3,9 +3,9 @@ title: TableCollection Class
 linktitle: TableCollection
 articleTitle: TableCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.TableCollection class. Provides typed access to a collection of Table nodes in C#.
+description: Discover the Aspose.Words.Tables.TableCollection class for easy, typed access to Table nodes, enhancing document processing efficiency and flexibility.
 type: docs
-weight: 7050
+weight: 7060
 url: /net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class

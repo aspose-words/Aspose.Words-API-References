@@ -3,7 +3,7 @@ title: RtfSaveOptions.ExportImagesForOldReaders
 linktitle: ExportImagesForOldReaders
 articleTitle: ExportImagesForOldReaders
 second_title: Aspose.Words for .NET
-description: RtfSaveOptions ExportImagesForOldReaders property. Specifies whether the keywords for old readers are written to RTF or not. This can significantly affect the size of the RTF document. Default value is true in C#.
+description: Optimize your RTF documents with the ExportImagesForOldReaders property. Control keyword inclusion for legacy readers, impacting file size and performance.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/

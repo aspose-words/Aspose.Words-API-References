@@ -3,7 +3,7 @@ title: RevisionOptions.DeletedTextEffect
 linktitle: DeletedTextEffect
 articleTitle: DeletedTextEffect
 second_title: Aspose.Words for .NET
-description: RevisionOptions DeletedTextEffect property. Allows to specify the effect to be applied to the deleted content Deletion. Default value is StrikeThrough in C#.
+description: Discover the DeletedTextEffect property in RevisionOptions. Customize how deleted content appears with effects like StrikeThrough for enhanced clarity.
 type: docs
 weight: 40
 url: /net/aspose.words.layout/revisionoptions/deletedtexteffect/

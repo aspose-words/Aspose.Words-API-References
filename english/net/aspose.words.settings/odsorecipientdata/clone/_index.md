@@ -3,7 +3,7 @@ title: OdsoRecipientData.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words for .NET
-description: OdsoRecipientData Clone method. Returns a deep clone of this object in C#.
+description: Effortlessly create a deep clone of your OdsoRecipientData object with our Clone method. Enhance your data management with ease and efficiency!
 type: docs
 weight: 60
 url: /net/aspose.words.settings/odsorecipientdata/clone/

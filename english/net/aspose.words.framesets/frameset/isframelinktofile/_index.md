@@ -3,7 +3,7 @@ title: Frameset.IsFrameLinkToFile
 linktitle: IsFrameLinkToFile
 articleTitle: IsFrameLinkToFile
 second_title: Aspose.Words for .NET
-description: Frameset IsFrameLinkToFile property. Gets or sets a value indicating whether the web page or document file name specified in the FrameDefaultUrl property is an external resource the frame is linked with in C#.
+description: Discover how the Frameset IsFrameLinkToFile property enhances your web design by linking external resources seamlessly. Optimize your frames for better performance!
 type: docs
 weight: 40
 url: /net/aspose.words.framesets/frameset/isframelinktofile/

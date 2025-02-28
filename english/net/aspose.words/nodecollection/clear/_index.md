@@ -3,7 +3,7 @@ title: NodeCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: NodeCollection Clear method. Removes all nodes from this collection and from the document in C#.
+description: Effortlessly clear your NodeCollection with our Clear method, removing all nodes from both the collection and the document for optimal performance.
 type: docs
 weight: 40
 url: /net/aspose.words/nodecollection/clear/

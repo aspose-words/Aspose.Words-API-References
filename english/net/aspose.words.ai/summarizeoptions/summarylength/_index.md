@@ -3,7 +3,7 @@ title: SummarizeOptions.SummaryLength
 linktitle: SummaryLength
 articleTitle: SummaryLength
 second_title: Aspose.Words for .NET
-description: SummarizeOptions SummaryLength property. Allows to specify summary length. Default value is Medium in C#.
+description: Control your summary length with the SummarizeOptions SummaryLength property. Customize your content for clarity and impact. Default is Medium.
 type: docs
 weight: 20
 url: /net/aspose.words.ai/summarizeoptions/summarylength/

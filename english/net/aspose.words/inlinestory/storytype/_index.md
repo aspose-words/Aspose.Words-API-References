@@ -3,7 +3,7 @@ title: InlineStory.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words for .NET
-description: InlineStory StoryType property. Returns the type of the story in C#.
+description: Discover the InlineStory StoryType property, which reveals the unique type of your story. Enhance your storytelling with precise categorization!
 type: docs
 weight: 100
 url: /net/aspose.words/inlinestory/storytype/

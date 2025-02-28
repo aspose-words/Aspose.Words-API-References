@@ -3,9 +3,9 @@ title: NumSpacing Enum
 linktitle: NumSpacing
 articleTitle: NumSpacing
 second_title: Aspose.Words for .NET
-description: Aspose.Words.NumSpacing enum. Specifies possible values in which numeral spacing can be displayed in C#.
+description: Discover Aspose.Words.NumSpacing enum to customize numeral spacing for enhanced document formatting. Elevate your text presentation today!
 type: docs
-weight: 4890
+weight: 4900
 url: /net/aspose.words/numspacing/
 ---
 ## NumSpacing enumeration

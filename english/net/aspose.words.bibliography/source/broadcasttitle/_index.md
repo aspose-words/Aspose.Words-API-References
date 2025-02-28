@@ -3,7 +3,7 @@ title: Source.BroadcastTitle
 linktitle: BroadcastTitle
 articleTitle: BroadcastTitle
 second_title: Aspose.Words for .NET
-description: Source BroadcastTitle property. Gets or sets the broadcast title of a source in C#.
+description: Effortlessly manage your source's broadcast title with our user-friendly BroadcastTitle property. Enhance your content's visibility and engagement today!
 type: docs
 weight: 60
 url: /net/aspose.words.bibliography/source/broadcasttitle/

@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag Color property. Gets or sets the color of the structured document tag in C#.
+description: Discover how to easily manage the Color property of StructuredDocumentTags. Enhance your documents with customizable color settings for better organization!
 type: docs
 weight: 70
 url: /net/aspose.words.markup/structureddocumenttag/color/

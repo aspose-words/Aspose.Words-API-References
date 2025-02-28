@@ -3,7 +3,7 @@ title: Fill.GradientStops
 linktitle: GradientStops
 articleTitle: GradientStops
 second_title: Aspose.Words for .NET
-description: Fill GradientStops property. Gets a collection of GradientStop objects for the fill in C#.
+description: Discover how to enhance your designs with the GradientStops property, featuring a collection of GradientStop objects for stunning fill effects.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/fill/gradientstops/

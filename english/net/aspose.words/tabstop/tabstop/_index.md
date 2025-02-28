@@ -3,7 +3,7 @@ title: TabStop
 linktitle: TabStop
 articleTitle: TabStop
 second_title: Aspose.Words for .NET
-description: TabStop constructor. Initializes a new instance of this class in C#.
+description: Discover TabStop constructor: effortlessly create and customize instances for enhanced functionality in your projects. Boost your coding efficiency today!
 type: docs
 weight: 10
 url: /net/aspose.words/tabstop/tabstop/

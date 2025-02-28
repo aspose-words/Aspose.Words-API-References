@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitBuildingBlockEnd
 linktitle: VisitBuildingBlockEnd
 articleTitle: VisitBuildingBlockEnd
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitBuildingBlockEnd method. Called when enumeration of a building block has ended in C#.
+description: Explore the DocumentVisitor VisitBuildingBlockEnd method, triggered at the end of building block enumeration for efficient document processing.
 type: docs
 weight: 60
 url: /net/aspose.words/documentvisitor/visitbuildingblockend/

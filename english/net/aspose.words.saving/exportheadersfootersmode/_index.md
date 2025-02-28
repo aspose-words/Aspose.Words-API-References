@@ -3,9 +3,9 @@ title: ExportHeadersFootersMode Enum
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.ExportHeadersFootersMode enum. Specifies how headers and footers are exported to HTML MHTML or EPUB in C#.
+description: Discover the Aspose.Words ExportHeadersFootersMode enum for seamless HTML, MHTML, or EPUB header and footer exports. Optimize your document conversion today!
 type: docs
-weight: 5610
+weight: 5620
 url: /net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration

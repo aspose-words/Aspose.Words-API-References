@@ -3,9 +3,9 @@ title: CustomXmlPart Class
 linktitle: CustomXmlPart
 articleTitle: CustomXmlPart
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.CustomXmlPart class. Represents a Custom XML Data Storage Part custom XML data within a package in C#.
+description: Discover Aspose.Words.Markup.CustomXmlPart class for efficient management of custom XML data storage within packages. Enhance your document processing today!
 type: docs
-weight: 4470
+weight: 4480
 url: /net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class

@@ -3,7 +3,7 @@ title: BookmarkStart Class
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words for .NET
-description: Aspose.Words.BookmarkStart class. Represents a start of a bookmark in a Word document in C#.
+description: Discover the Aspose.Words.BookmarkStart class, essential for managing bookmarks in Word documents. Enhance your document editing experience today!
 type: docs
 weight: 260
 url: /net/aspose.words/bookmarkstart/

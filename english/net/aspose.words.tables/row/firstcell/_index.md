@@ -3,7 +3,7 @@ title: Row.FirstCell
 linktitle: FirstCell
 articleTitle: FirstCell
 second_title: Aspose.Words for .NET
-description: Row FirstCell property. Returns the first Cell in the row in C#.
+description: Discover the Row FirstCell property: effortlessly access the first cell in a row for streamlined data management and enhanced productivity.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/row/firstcell/

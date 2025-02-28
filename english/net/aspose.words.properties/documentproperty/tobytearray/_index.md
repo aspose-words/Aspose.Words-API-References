@@ -3,7 +3,7 @@ title: DocumentProperty.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words for .NET
-description: DocumentProperty ToByteArray method. Returns the property value as byte array in C#.
+description: Convert DocumentProperty to a byte array effortlessly with the ToByteArray method. Streamline data handling and enhance your coding efficiency!
 type: docs
 weight: 70
 url: /net/aspose.words.properties/documentproperty/tobytearray/

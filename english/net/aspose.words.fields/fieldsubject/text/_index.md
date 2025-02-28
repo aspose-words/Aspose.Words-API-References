@@ -3,7 +3,7 @@ title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words for .NET
-description: FieldSubject Text property. Gets or sets the text of the subject in C#.
+description: Manage the FieldSubject Text property effortlessly—get or set your subject text for seamless data handling and enhanced user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsubject/text/

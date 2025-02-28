@@ -3,7 +3,7 @@ title: Source.CountryOrRegion
 linktitle: CountryOrRegion
 articleTitle: CountryOrRegion
 second_title: Aspose.Words for .NET
-description: Source CountryOrRegion property. Gets or sets the country or region of a source in C#.
+description: Manage source locations effortlessly with the CountryOrRegion property. Easily get or set your source's country or region for streamlined data handling.
 type: docs
 weight: 130
 url: /net/aspose.words.bibliography/source/countryorregion/

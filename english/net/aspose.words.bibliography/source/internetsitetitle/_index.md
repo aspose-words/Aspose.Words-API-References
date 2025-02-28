@@ -3,7 +3,7 @@ title: Source.InternetSiteTitle
 linktitle: InternetSiteTitle
 articleTitle: InternetSiteTitle
 second_title: Aspose.Words for .NET
-description: Source InternetSiteTitle property. Gets or sets the internet site title of a source in C#.
+description: Manage your Source InternetSiteTitle effortlessly. Easily update or retrieve your website's title for enhanced online visibility and branding.
 type: docs
 weight: 230
 url: /net/aspose.words.bibliography/source/internetsitetitle/

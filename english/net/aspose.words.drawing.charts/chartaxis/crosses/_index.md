@@ -3,7 +3,7 @@ title: ChartAxis.Crosses
 linktitle: Crosses
 articleTitle: Crosses
 second_title: Aspose.Words for .NET
-description: ChartAxis Crosses property. Specifies how this axis crosses the perpendicular axis in C#.
+description: Discover how ChartAxis enhances data visualization by defining axis intersections for clearer insights and more impactful presentations.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartaxis/crosses/

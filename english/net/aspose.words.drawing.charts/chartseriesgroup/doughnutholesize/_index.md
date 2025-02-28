@@ -3,7 +3,7 @@ title: ChartSeriesGroup.DoughnutHoleSize
 linktitle: DoughnutHoleSize
 articleTitle: DoughnutHoleSize
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroup DoughnutHoleSize property. Gets or sets the hole size of the parent doughnut chart as a percentage in C#.
+description: Discover the ChartSeriesGroup DoughnutHoleSize property to easily customize your doughnut chart's hole size percentage for enhanced data visualization.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartseriesgroup/doughnutholesize/

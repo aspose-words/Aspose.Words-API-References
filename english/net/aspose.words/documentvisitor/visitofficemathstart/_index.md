@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitOfficeMathStart
 linktitle: VisitOfficeMathStart
 articleTitle: VisitOfficeMathStart
 second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitOfficeMathStart method. Called when enumeration of a Office Math object has started in C#.
+description: Discover the DocumentVisitor VisitOfficeMathStart method, essential for initiating Office Math object enumeration. Enhance your coding efficiency today!
 type: docs
 weight: 310
 url: /net/aspose.words/documentvisitor/visitofficemathstart/

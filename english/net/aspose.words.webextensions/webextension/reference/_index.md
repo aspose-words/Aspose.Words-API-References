@@ -3,7 +3,7 @@ title: WebExtension.Reference
 linktitle: Reference
 articleTitle: Reference
 second_title: Aspose.Words for .NET
-description: WebExtension Reference property. Specifies the primary reference to an web extension in C#.
+description: Discover the WebExtension Reference property, your key to defining primary links for web extensions. Enhance functionality and streamline development!
 type: docs
 weight: 60
 url: /net/aspose.words.webextensions/webextension/reference/

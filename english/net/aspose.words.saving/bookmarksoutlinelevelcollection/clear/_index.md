@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words for .NET
-description: BookmarksOutlineLevelCollection Clear method. Removes all elements from the collection in C#.
+description: Effortlessly clear all elements from your BookmarksOutlineLevelCollection with our Clear method, optimizing your data management for enhanced efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/

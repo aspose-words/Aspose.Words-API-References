@@ -3,7 +3,7 @@ title: FieldMergeField.IsVerticalFormatting
 linktitle: IsVerticalFormatting
 articleTitle: IsVerticalFormatting
 second_title: Aspose.Words for .NET
-description: FieldMergeField IsVerticalFormatting property. Gets or sets whether to enable character conversion for vertical formatting in C#.
+description: Discover how the FieldMergeField IsVerticalFormatting property enhances text display by enabling character conversion for vertical formatting. Optimize your formatting today!
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldmergefield/isverticalformatting/

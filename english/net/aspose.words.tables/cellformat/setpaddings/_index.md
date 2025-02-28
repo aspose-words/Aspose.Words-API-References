@@ -3,7 +3,7 @@ title: CellFormat.SetPaddings
 linktitle: SetPaddings
 articleTitle: SetPaddings
 second_title: Aspose.Words for .NET
-description: CellFormat SetPaddings method. Sets the amount of space in points to add to the left/top/right/bottom of the contents of cell in C#.
+description: Discover the CellFormat SetPaddings method to customize cell spacing in points, enhancing your layout for improved readability and design.
 type: docs
 weight: 170
 url: /net/aspose.words.tables/cellformat/setpaddings/

@@ -3,7 +3,7 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words for .NET
-description: Story Tables property. Gets a collection of tables that are immediate children of the story in C#.
+description: Discover Story Tables: a curated collection of tables directly linked to your story, enhancing organization and engagement effortlessly.
 type: docs
 weight: 50
 url: /net/aspose.words/story/tables/

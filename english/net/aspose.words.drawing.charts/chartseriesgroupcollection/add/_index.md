@@ -3,7 +3,7 @@ title: ChartSeriesGroupCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words for .NET
-description: ChartSeriesGroupCollection Add method. Adds a new series group of the specified series type to this collection in C#.
+description: Discover the ChartSeriesGroupCollection Add method to effortlessly add new series groups, enhancing your data visualization capabilities.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriesgroupcollection/add/

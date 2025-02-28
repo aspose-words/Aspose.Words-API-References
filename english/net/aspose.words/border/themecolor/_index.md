@@ -3,7 +3,7 @@ title: Border.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words for .NET
-description: Border ThemeColor property. Gets or sets the theme color in the applied color scheme that is associated with this Border object in C#.
+description: Discover how to use the Border ThemeColor property to customize your color scheme and enhance your design with vibrant, tailored themes.
 type: docs
 weight: 70
 url: /net/aspose.words/border/themecolor/

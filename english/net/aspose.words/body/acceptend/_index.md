@@ -3,7 +3,7 @@ title: Body.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: Body AcceptEnd method. Accepts a visitor for visiting the end of the documents body in C#.
+description: Enhance your web experience with the Body AcceptEnd method, designed to seamlessly accept visitors at the document's end for improved navigation.
 type: docs
 weight: 50
 url: /net/aspose.words/body/acceptend/

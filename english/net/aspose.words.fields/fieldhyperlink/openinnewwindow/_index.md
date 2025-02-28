@@ -3,7 +3,7 @@ title: FieldHyperlink.OpenInNewWindow
 linktitle: OpenInNewWindow
 articleTitle: OpenInNewWindow
 second_title: Aspose.Words for .NET
-description: FieldHyperlink OpenInNewWindow property. Gets or sets whether to open the destination site in a new web browser window in C#.
+description: Discover the FieldHyperlink OpenInNewWindow property: easily control whether links open in a new browser window for enhanced user experience.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldhyperlink/openinnewwindow/

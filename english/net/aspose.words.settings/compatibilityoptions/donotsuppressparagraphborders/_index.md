@@ -3,7 +3,7 @@ title: CompatibilityOptions.DoNotSuppressParagraphBorders
 linktitle: DoNotSuppressParagraphBorders
 articleTitle: DoNotSuppressParagraphBorders
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions DoNotSuppressParagraphBorders property. Do Not Suppress Paragraph Borders Next To Frames in C#.
+description: Discover the CompatibilityOptions DoNotSuppressParagraphBorders property to enhance your document layout by managing paragraph borders next to frames effectively.
 type: docs
 weight: 190
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/

@@ -3,7 +3,7 @@ title: OdtSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words for .NET
-description: OdtSaveOptions Password property. Gets or sets a password to encrypt document in C#.
+description: Secure your documents with OdtSaveOptions Password property. Easily set or retrieve a password for robust encryption and enhanced data protection.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/odtsaveoptions/password/

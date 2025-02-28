@@ -3,9 +3,9 @@ title: Theme Class
 linktitle: Theme
 articleTitle: Theme
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Themes.Theme class. Represents document Theme and provides access to main theme parts including MajorFonts MinorFonts and Colors in C#.
+description: Explore the Aspose.Words.Theme class to enhance your documents with customizable themes, including MajorFonts, MinorFonts, and vibrant Colors.
 type: docs
-weight: 7150
+weight: 7160
 url: /net/aspose.words.themes/theme/
 ---
 ## Theme class

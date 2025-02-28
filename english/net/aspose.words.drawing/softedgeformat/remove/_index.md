@@ -3,7 +3,7 @@ title: SoftEdgeFormat.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words for .NET
-description: SoftEdgeFormat Remove method. Removes SoftEdgeFormat from the parent object in C#.
+description: Effortlessly remove SoftEdgeFormat from your parent object with the SoftEdgeFormat Remove method. Streamline your design for optimal results!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/softedgeformat/remove/

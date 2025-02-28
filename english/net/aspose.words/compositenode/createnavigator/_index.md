@@ -3,7 +3,7 @@ title: CompositeNode.CreateNavigator
 linktitle: CreateNavigator
 articleTitle: CreateNavigator
 second_title: Aspose.Words for .NET
-description: CompositeNode CreateNavigator method. Creates navigator which can be used to traverse and read nodes in C#.
+description: Discover the CompositeNode CreateNavigator method to effortlessly traverse and read nodes, enhancing your data navigation experience.
 type: docs
 weight: 90
 url: /net/aspose.words/compositenode/createnavigator/

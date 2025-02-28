@@ -3,7 +3,7 @@ title: FieldPageRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words for .NET
-description: FieldPageRef InsertRelativePosition property. Gets or sets whether to insert a relative position of the bookmarked paragraph in C#.
+description: Discover how the InsertRelativePosition property of FieldPageRef enhances document navigation by managing bookmarked paragraph positions effectively.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldpageref/insertrelativeposition/

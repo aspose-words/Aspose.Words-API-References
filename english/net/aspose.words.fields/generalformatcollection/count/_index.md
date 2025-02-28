@@ -3,7 +3,7 @@ title: GeneralFormatCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: GeneralFormatCollection Count property. Gets the total number of the items in the collection in C#.
+description: Discover the GeneralFormatCollection Count property to easily access the total item count in your collection, enhancing data management efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/generalformatcollection/count/

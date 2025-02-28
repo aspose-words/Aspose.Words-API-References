@@ -3,7 +3,7 @@ title: SoftEdgeFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words for .NET
-description: SoftEdgeFormat Radius property. Gets or sets a double value that represents the length of the radius for a soft edge effect in points pt. The default value is 0.0 in C#.
+description: Discover the SoftEdgeFormat Radius property to easily adjust soft edge effects. Control radius length with precision for stunning visual results.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/softedgeformat/radius/

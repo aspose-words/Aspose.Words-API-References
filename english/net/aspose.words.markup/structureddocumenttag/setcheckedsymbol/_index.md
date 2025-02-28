@@ -3,7 +3,7 @@ title: StructuredDocumentTag.SetCheckedSymbol
 linktitle: SetCheckedSymbol
 articleTitle: SetCheckedSymbol
 second_title: Aspose.Words for .NET
-description: StructuredDocumentTag SetCheckedSymbol method. Sets the symbol used to represent the checked state of a check box content control in C#.
+description: Discover how to use the SetCheckedSymbol method in StructuredDocumentTag to customize checkbox visuals and enhance user experience.
 type: docs
 weight: 380
 url: /net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/

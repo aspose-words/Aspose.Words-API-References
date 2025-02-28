@@ -3,9 +3,9 @@ title: CellVerticalAlignment Enum
 linktitle: CellVerticalAlignment
 articleTitle: CellVerticalAlignment
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.CellVerticalAlignment enum. Specifies vertical justification of text inside a table cell in C#.
+description: Discover Aspose.Words.Tables.CellVerticalAlignment enum for optimal text alignment in table cells. Enhance your document layout effortlessly!
 type: docs
-weight: 6970
+weight: 6980
 url: /net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration

@@ -3,7 +3,7 @@ title: Splitter.Split
 linktitle: Split
 articleTitle: Split
 second_title: Aspose.Words for .NET
-description: Splitter Split method. Splits a document into multiple parts based on the specified split options and saves the resulting parts to files. The output file format is determined by the extension of the output file name in C#.
+description: Effortlessly split documents into multiple sections with our flexible Splitter Split method. Save in your preferred format for easy file management!
 type: docs
 weight: 30
 url: /net/aspose.words.lowcode/splitter/split/

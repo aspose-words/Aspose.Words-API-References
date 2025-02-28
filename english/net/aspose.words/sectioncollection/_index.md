@@ -3,9 +3,9 @@ title: SectionCollection Class
 linktitle: SectionCollection
 articleTitle: SectionCollection
 second_title: Aspose.Words for .NET
-description: Aspose.Words.SectionCollection class. A collection of Section objects in the document in C#.
+description: Discover the Aspose.Words.SectionCollection class—your go-to solution for managing document sections efficiently with powerful features and flexibility.
 type: docs
-weight: 6410
+weight: 6420
 url: /net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class

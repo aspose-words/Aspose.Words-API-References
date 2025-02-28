@@ -3,7 +3,7 @@ title: FieldBarcode.IsBookmark
 linktitle: IsBookmark
 articleTitle: IsBookmark
 second_title: Aspose.Words for .NET
-description: FieldBarcode IsBookmark property. Gets or sets whether PostalAddress is the name of a bookmark in C#.
+description: Discover how the FieldBarcode IsBookmark property enhances your PostalAddress functionality, allowing seamless bookmark management for improved data organization.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldbarcode/isbookmark/

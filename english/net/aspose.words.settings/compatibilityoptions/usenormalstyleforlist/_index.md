@@ -3,7 +3,7 @@ title: CompatibilityOptions.UseNormalStyleForList
 linktitle: UseNormalStyleForList
 articleTitle: UseNormalStyleForList
 second_title: Aspose.Words for .NET
-description: CompatibilityOptions UseNormalStyleForList property. Do Not Automatically Apply List Paragraph Style To Bulleted/Numbered Text in C#.
+description: Optimize your document formatting with CompatibilityOptions. Control list styles effortlessly, ensuring your bulleted and numbered text looks perfect every time!
 type: docs
 weight: 630
 url: /net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
