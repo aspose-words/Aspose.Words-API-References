@@ -3,7 +3,7 @@ title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words for .NET
-description: Discover the FieldAutoTextList ScreenTip property: easily customize your ScreenTip text for enhanced user experience and clarity in your application.
+description: Discover the FieldAutoTextList ScreenTip property, easily customize your ScreenTip text for enhanced user experience and clarity in your application.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldautotextlist/screentip/

@@ -3,7 +3,7 @@ title: FormField.IsCheckBoxExactSize
 linktitle: IsCheckBoxExactSize
 articleTitle: IsCheckBoxExactSize
 second_title: Aspose.Words for .NET
-description: Discover the FormField IsCheckBoxExactSize property: easily control textbox sizing with a simple boolean setting for optimal customization.
+description: Discover the FormField IsCheckBoxExactSize property, easily control textbox sizing with a simple boolean setting for optimal customization.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/formfield/ischeckboxexactsize/

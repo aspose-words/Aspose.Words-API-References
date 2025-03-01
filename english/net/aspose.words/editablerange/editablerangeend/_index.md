@@ -3,7 +3,7 @@ title: EditableRange.EditableRangeEnd
 linktitle: EditableRangeEnd
 articleTitle: EditableRangeEnd
 second_title: Aspose.Words for .NET
-description: Discover the EditableRangeEnd property: easily access the node marking the end of your editable range for seamless content management.
+description: Discover the EditableRangeEnd property, easily access the node marking the end of your editable range for seamless content management.
 type: docs
 weight: 10
 url: /net/aspose.words/editablerange/editablerangeend/

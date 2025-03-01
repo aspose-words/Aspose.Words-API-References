@@ -3,7 +3,7 @@ title: Font.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words for .NET
-description: Discover the Font Hidden property: Easily identify if your text is formatted as hidden. Enhance your document's clarity and presentation today!
+description: Discover the Font Hidden property. Easily identify if your text is formatted as hidden. Enhance your document's clarity and presentation today!
 type: docs
 weight: 140
 url: /net/aspose.words/font/hidden/

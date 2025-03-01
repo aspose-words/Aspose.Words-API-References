@@ -3,7 +3,7 @@ title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
 articleTitle: HeadingFormat
 second_title: Aspose.Words for .NET
-description: Discover the RowFormat HeadingFormat property: ensure your table headings repeat on every page for clarity and improved readability in multi-page documents.
+description: Discover the RowFormat HeadingFormat property, ensure your table headings repeat on every page for clarity and improved readability in multi-page documents.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/rowformat/headingformat/

@@ -3,7 +3,7 @@ title: Forms2OleControl.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words for .NET
-description: Discover the Forms2OleControl Value property, reflecting control states. Easily manage option button values: 1 for checked, 0 for unchecked. Simplify your coding!
+description: Discover the Forms2OleControl Value property, reflecting control states. Easily manage option button values, 1 for checked, 0 for unchecked. Simplify your coding!
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.ole/forms2olecontrol/value/

@@ -3,7 +3,7 @@ title: BorderCollection.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words for .NET
-description: Discover the BorderCollection Left property: effortlessly access and customize the left border for enhanced design flexibility and visual appeal.
+description: Discover the BorderCollection Left property, effortlessly access and customize the left border for enhanced design flexibility and visual appeal.
 type: docs
 weight: 70
 url: /net/aspose.words/bordercollection/left/

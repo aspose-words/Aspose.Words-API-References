@@ -3,7 +3,7 @@ title: FontInfo.AltName
 linktitle: AltName
 articleTitle: AltName
 second_title: Aspose.Words for .NET
-description: Discover the FontInfo AltName property: easily manage alternate font names to enhance typography and improve your design projects.
+description: Discover the FontInfo AltName property, easily manage alternate font names to enhance typography and improve your design projects.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontinfo/altname/

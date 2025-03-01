@@ -3,7 +3,7 @@ title: WriteProtection.IsWriteProtected
 linktitle: IsWriteProtected
 articleTitle: IsWriteProtected
 second_title: Aspose.Words for .NET
-description: Discover the WriteProtection IsWriteProtected property: easily check if a write protection password is active for enhanced security and data integrity.
+description: Discover the WriteProtection IsWriteProtected property, easily check if a write protection password is active for enhanced security and data integrity.
 type: docs
 weight: 10
 url: /net/aspose.words.settings/writeprotection/iswriteprotected/

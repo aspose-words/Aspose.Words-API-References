@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ReplaceBackslashWithYenSign
 linktitle: ReplaceBackslashWithYenSign
 articleTitle: ReplaceBackslashWithYenSign
 second_title: Aspose.Words for .NET
-description: Discover how the HtmlSaveOptions ReplaceBackslashWithYenSign property enhances your HTML output by converting backslashes to yen signs. Default: false.
+description: Discover how the HtmlSaveOptions ReplaceBackslashWithYenSign property enhances your HTML output by converting backslashes to yen signs. Default, false.
 type: docs
 weight: 410
 url: /net/aspose.words.saving/htmlsaveoptions/replacebackslashwithyensign/

@@ -3,7 +3,7 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words for .NET
-description: Discover the TableStyle BottomPadding property: customize your table cell spacing for enhanced layout and readability. Optimize your design effortlessly!
+description: Discover the TableStyle BottomPadding property, customize your table cell spacing for enhanced layout and readability. Optimize your design effortlessly!
 type: docs
 weight: 50
 url: /net/aspose.words/tablestyle/bottompadding/

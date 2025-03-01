@@ -3,7 +3,7 @@ title: SmartTag.Properties
 linktitle: Properties
 articleTitle: Properties
 second_title: Aspose.Words for .NET
-description: Discover SmartTag Properties: a unique collection of innovative smart tag solutions designed to enhance your property management and streamline operations.
+description: Discover SmartTag Properties, a unique collection of innovative smart tag solutions designed to enhance your property management and streamline operations.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/smarttag/properties/

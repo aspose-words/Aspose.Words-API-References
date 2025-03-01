@@ -3,7 +3,7 @@ title: Bookmark.IsColumn
 linktitle: IsColumn
 articleTitle: IsColumn
 second_title: Aspose.Words for .NET
-description: Discover the IsColumn property: Easily identify if a bookmark represents a table column, enhancing your document navigation and organization.
+description: Discover the IsColumn property. Easily identify if a bookmark represents a table column, enhancing your document navigation and organization.
 type: docs
 weight: 40
 url: /net/aspose.words/bookmark/iscolumn/

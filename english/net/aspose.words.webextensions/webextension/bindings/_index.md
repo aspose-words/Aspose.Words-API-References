@@ -3,7 +3,7 @@ title: WebExtension.Bindings
 linktitle: Bindings
 articleTitle: Bindings
 second_title: Aspose.Words for .NET
-description: Discover WebExtension Bindings: streamline your development with customizable web extension connections for enhanced functionality and user experience.
+description: Discover WebExtension Bindings, streamline your development with customizable web extension connections for enhanced functionality and user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextension/bindings/

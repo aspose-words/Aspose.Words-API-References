@@ -3,7 +3,7 @@ title: Bookmark.LastColumn
 linktitle: LastColumn
 articleTitle: LastColumn
 second_title: Aspose.Words for .NET
-description: Discover the LastColumn property: easily access the zero-based index of the last column in your table's bookmark range for efficient data management.
+description: Discover the LastColumn property, easily access the zero-based index of the last column in your table's bookmark range for efficient data management.
 type: docs
 weight: 50
 url: /net/aspose.words/bookmark/lastcolumn/

@@ -3,7 +3,7 @@ title: List.IsListStyleReference
 linktitle: IsListStyleReference
 articleTitle: IsListStyleReference
 second_title: Aspose.Words for .NET
-description: Discover the IsListStyleReference property: it indicates if a list references a specific style, enhancing your document's formatting and organization.
+description: Discover the IsListStyleReference property, it indicates if a list references a specific style, enhancing your document's formatting and organization.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/list/isliststylereference/

@@ -3,7 +3,7 @@ title: ShapeBase.Top
 linktitle: Top
 articleTitle: Top
 second_title: Aspose.Words for .NET
-description: Discover ShapeBase Top property: Easily control the top edge position of your shape's container for precise layout and design flexibility.
+description: Discover ShapeBase Top property, Easily control the top edge position of your shape's container for precise layout and design flexibility.
 type: docs
 weight: 580
 url: /net/aspose.words.drawing/shapebase/top/

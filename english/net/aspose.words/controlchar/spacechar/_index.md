@@ -3,7 +3,7 @@ title: ControlChar.SpaceChar
 linktitle: SpaceChar
 articleTitle: SpaceChar
 second_title: Aspose.Words for .NET
-description: Explore ControlChar SpaceChar field: Unlock the power of char32 for seamless data management and enhanced character control in your applications.
+description: Explore ControlChar SpaceChar field. Unlock the power of char32 for seamless data management and enhanced character control in your applications.
 type: docs
 weight: 260
 url: /net/aspose.words/controlchar/spacechar/

@@ -3,7 +3,7 @@ title: FieldTC.TypeIdentifier
 linktitle: TypeIdentifier
 articleTitle: TypeIdentifier
 second_title: Aspose.Words for .NET
-description: Discover the FieldTC TypeIdentifier property: Easily manage field type identifiers with this versatile feature, enhancing your data organization and efficiency.
+description: Discover the FieldTC TypeIdentifier property, Easily manage field type identifiers with this versatile feature, enhancing your data organization and efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtc/typeidentifier/

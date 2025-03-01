@@ -3,7 +3,7 @@ title: FieldNoteRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words for .NET
-description: Discover the FieldNoteRef InsertHyperlink property: easily manage hyperlink insertion for bookmarked paragraphs to enhance your document’s interactivity.
+description: Discover the FieldNoteRef InsertHyperlink property, easily manage hyperlink insertion for bookmarked paragraphs to enhance your document’s interactivity.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldnoteref/inserthyperlink/

@@ -3,7 +3,7 @@ title: DropDownItemCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words for .NET
-description: Discover the DropDownItemCollection IndexOf method: efficiently find the zero-based index of any value in your collection for streamlined data management.
+description: Discover the DropDownItemCollection IndexOf method, efficiently find the zero-based index of any value in your collection for streamlined data management.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/dropdownitemcollection/indexof/

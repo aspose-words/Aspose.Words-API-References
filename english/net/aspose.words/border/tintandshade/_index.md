@@ -3,7 +3,7 @@ title: Border.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words for .NET
-description: Discover Border TintAndShade: effortlessly adjust color brightness with a simple double value for stunning design enhancements. Perfect for your creative projects!
+description: Discover Border TintAndShade, effortlessly adjust color brightness with a simple double value for stunning design enhancements. Perfect for your creative projects!
 type: docs
 weight: 80
 url: /net/aspose.words/border/tintandshade/

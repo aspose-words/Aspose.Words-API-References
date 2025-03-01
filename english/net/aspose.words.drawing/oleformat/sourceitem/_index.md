@@ -3,7 +3,7 @@ title: OleFormat.SourceItem
 linktitle: SourceItem
 articleTitle: SourceItem
 second_title: Aspose.Words for .NET
-description: Discover the OleFormat SourceItem property: easily identify and manage linked portions of your source file with this essential string functionality.
+description: Discover the OleFormat SourceItem property, easily identify and manage linked portions of your source file with this essential string functionality.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/oleformat/sourceitem/

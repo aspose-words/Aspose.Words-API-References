@@ -3,7 +3,7 @@ title: Font.Outline
 linktitle: Outline
 articleTitle: Outline
 second_title: Aspose.Words for .NET
-description: Discover the Font Outline property: Easily format fonts as outlines for a unique design touch. Enhance your typography with this simple feature!
+description: Discover the Font Outline property. Easily format fonts as outlines for a unique design touch. Enhance your typography with this simple feature!
 type: docs
 weight: 300
 url: /net/aspose.words/font/outline/

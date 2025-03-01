@@ -3,7 +3,7 @@ title: IStructuredDocumentTag.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words for .NET
-description: Discover the IStructuredDocumentTag WordOpenXML property: access XML strings in FlatOpc format for enhanced document management and integration.
+description: Discover the IStructuredDocumentTag WordOpenXML property, access XML strings in FlatOpc format for enhanced document management and integration.
 type: docs
 weight: 150
 url: /net/aspose.words.markup/istructureddocumenttag/wordopenxml/

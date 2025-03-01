@@ -3,7 +3,7 @@ title: StructuredDocumentTag.LockContents
 linktitle: LockContents
 articleTitle: LockContents
 second_title: Aspose.Words for .NET
-description: Discover the StructuredDocumentTag LockContents property: set to true, it prevents users from editing SDT content, ensuring document integrity and security.
+description: Discover the StructuredDocumentTag LockContents property, set to true, it prevents users from editing SDT content, ensuring document integrity and security.
 type: docs
 weight: 200
 url: /net/aspose.words.markup/structureddocumenttag/lockcontents/

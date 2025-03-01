@@ -3,7 +3,7 @@ title: ImageData.CropRight
 linktitle: CropRight
 articleTitle: CropRight
 second_title: Aspose.Words for .NET
-description: Discover the ImageData CropRight property: control picture cropping from the right side for precise image editing and enhanced visual appeal.
+description: Discover the ImageData CropRight property, control picture cropping from the right side for precise image editing and enhanced visual appeal.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/imagedata/cropright/

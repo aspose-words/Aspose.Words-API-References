@@ -3,7 +3,7 @@ title: ShapeBase.DistanceBottom
 linktitle: DistanceBottom
 articleTitle: DistanceBottom
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase DistanceBottom property: easily set and adjust the gap in points between your document text and the shape's bottom edge for optimal layout.
+description: Discover the ShapeBase DistanceBottom property, easily set and adjust the gap in points between your document text and the shape's bottom edge for optimal layout.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/shapebase/distancebottom/

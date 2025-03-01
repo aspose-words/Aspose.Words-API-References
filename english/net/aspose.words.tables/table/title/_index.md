@@ -3,7 +3,7 @@ title: Table.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words for .NET
-description: Discover the Table Title property: easily set or modify your table's title for improved accessibility and enhanced data representation.
+description: Discover the Table Title property, easily set or modify your table's title for improved accessibility and enhanced data representation.
 type: docs
 weight: 320
 url: /net/aspose.words.tables/table/title/

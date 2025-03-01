@@ -3,7 +3,7 @@ title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
 second_title: Aspose.Words for .NET
-description: Discover the HasSameTemplate method: easily check if two lists share the same template, ensuring consistency and efficiency in your data management.
+description: Discover the HasSameTemplate method, easily check if two lists share the same template, ensuring consistency and efficiency in your data management.
 type: docs
 weight: 120
 url: /net/aspose.words.lists/list/hassametemplate/

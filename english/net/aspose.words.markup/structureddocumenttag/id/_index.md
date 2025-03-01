@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: Discover the StructuredDocumentTag Id property: a unique, readonly numerical identifier for efficient SDT management and enhanced document organization.
+description: Discover the StructuredDocumentTag Id property, a unique, readonly numerical identifier for efficient SDT management and enhanced document organization.
 type: docs
 weight: 140
 url: /net/aspose.words.markup/structureddocumenttag/id/

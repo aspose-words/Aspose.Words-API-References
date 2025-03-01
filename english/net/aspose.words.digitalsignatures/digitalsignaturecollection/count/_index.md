@@ -3,7 +3,7 @@ title: DigitalSignatureCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: Discover the DigitalSignatureCollection Count property: efficiently retrieve the total number of elements, enhancing your digital signature management.
+description: Discover the DigitalSignatureCollection Count property, efficiently retrieve the total number of elements, enhancing your digital signature management.
 type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/count/

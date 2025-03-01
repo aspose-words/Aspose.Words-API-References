@@ -3,7 +3,7 @@ title: Cell.IsFirstCell
 linktitle: IsFirstCell
 articleTitle: IsFirstCell
 second_title: Aspose.Words for .NET
-description: Discover the Cell IsFirstCell property: identify the first cell in a row easily, enhancing your data organization and management efficiency.
+description: Discover the Cell IsFirstCell property, identify the first cell in a row easily, enhancing your data organization and management efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/cell/isfirstcell/

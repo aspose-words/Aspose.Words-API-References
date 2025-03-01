@@ -3,7 +3,7 @@ title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words for .NET
-description: Discover the OdsoRecipientData Column property: easily identify unique data columns for records, enhancing data management. Default value is 0.
+description: Discover the OdsoRecipientData Column property, easily identify unique data columns for records, enhancing data management. Default value is 0.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/odsorecipientdata/column/

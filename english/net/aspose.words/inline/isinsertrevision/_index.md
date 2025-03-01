@@ -3,7 +3,7 @@ title: Inline.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words for .NET
-description: Discover the Inline IsInsertRevision property: Easily check if an object was added in Word with change tracking active. Enhance your document management!
+description: Discover the Inline IsInsertRevision property, Easily check if an object was added in Word with change tracking active. Enhance your document management!
 type: docs
 weight: 40
 url: /net/aspose.words/inline/isinsertrevision/

@@ -3,7 +3,7 @@ title: FontInfoCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: Discover the FontInfoCollection Count property: effortlessly retrieve the total number of elements in your collection for seamless data management.
+description: Discover the FontInfoCollection Count property, effortlessly retrieve the total number of elements in your collection for seamless data management.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontinfocollection/count/

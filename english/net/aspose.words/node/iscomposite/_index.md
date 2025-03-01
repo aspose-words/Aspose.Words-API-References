@@ -3,7 +3,7 @@ title: Node.IsComposite
 linktitle: IsComposite
 articleTitle: IsComposite
 second_title: Aspose.Words for .NET
-description: Discover the Node IsComposite property: Easily identify if a node can hold other nodes, enhancing your data structure management and flexibility.
+description: Discover the Node IsComposite property, Easily identify if a node can hold other nodes, enhancing your data structure management and flexibility.
 type: docs
 weight: 30
 url: /net/aspose.words/node/iscomposite/

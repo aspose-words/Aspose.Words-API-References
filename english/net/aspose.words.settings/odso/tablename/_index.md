@@ -3,7 +3,7 @@ title: Odso.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words for .NET
-description: Discover the Odso TableName property: effortlessly connect to specific data sets in external sources, enhancing data integration with ease.
+description: Discover the Odso TableName property, effortlessly connect to specific data sets in external sources, enhancing data integration with ease.
 type: docs
 weight: 80
 url: /net/aspose.words.settings/odso/tablename/

@@ -3,7 +3,7 @@ title: BuildingBlock
 linktitle: BuildingBlock
 articleTitle: BuildingBlock
 second_title: Aspose.Words for .NET
-description: Discover BuildingBlock constructor: effortlessly create new instances with ease. Unlock powerful features for seamless development and enhanced performance!
+description: Discover BuildingBlock constructor, effortlessly create new instances with ease. Unlock powerful features for seamless development and enhanced performance!
 type: docs
 weight: 10
 url: /net/aspose.words.buildingblocks/buildingblock/buildingblock/

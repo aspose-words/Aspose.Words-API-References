@@ -3,7 +3,7 @@ title: ContributorCollection.Writer
 linktitle: Writer
 articleTitle: Writer
 second_title: Aspose.Words for .NET
-description: Discover the ContributorCollection Writer property: easily access and manage the source writer for enhanced content organization and efficiency.
+description: Discover the ContributorCollection Writer property, easily access and manage the source writer for enhanced content organization and efficiency.
 type: docs
 weight: 160
 url: /net/aspose.words.bibliography/contributorcollection/writer/

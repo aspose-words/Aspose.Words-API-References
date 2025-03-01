@@ -3,7 +3,7 @@ title: TextColumnCollection.EvenlySpaced
 linktitle: EvenlySpaced
 articleTitle: EvenlySpaced
 second_title: Aspose.Words for .NET
-description: Discover the EvenlySpaced property of TextColumnCollection: ensures equal-width text columns for a clean, organized layout. Enhance your design effortlessly!
+description: Discover the EvenlySpaced property of TextColumnCollection, ensures equal-width text columns for a clean, organized layout. Enhance your design effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words/textcolumncollection/evenlyspaced/

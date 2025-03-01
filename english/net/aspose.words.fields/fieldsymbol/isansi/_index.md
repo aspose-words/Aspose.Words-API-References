@@ -3,7 +3,7 @@ title: FieldSymbol.IsAnsi
 linktitle: IsAnsi
 articleTitle: IsAnsi
 second_title: Aspose.Words for .NET
-description: Discover the FieldSymbol IsAnsi property: easily manage ANSI character codes for enhanced data handling and improved coding efficiency.
+description: Discover the FieldSymbol IsAnsi property, easily manage ANSI character codes for enhanced data handling and improved coding efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldsymbol/isansi/

@@ -3,7 +3,7 @@ title: FormFieldCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: Discover the FormFieldCollection Count property: easily access the total number of form fields, enhancing your data management and user experience.
+description: Discover the FormFieldCollection Count property, easily access the total number of form fields, enhancing your data management and user experience.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/formfieldcollection/count/

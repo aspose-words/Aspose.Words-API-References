@@ -3,7 +3,7 @@ title: Table.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words for .NET
-description: Discover the Table TopPadding property: easily adjust space in points above cell contents for enhanced layout control and improved readability.
+description: Discover the Table TopPadding property, easily adjust space in points above cell contents for enhanced layout control and improved readability.
 type: docs
 weight: 330
 url: /net/aspose.words.tables/table/toppadding/

@@ -3,7 +3,7 @@ title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: Discover the FontSourceBase Type property: easily retrieve font source types to enhance your web design and optimize user experience.
+description: Discover the FontSourceBase Type property, easily retrieve font source types to enhance your web design and optimize user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontsourcebase/type/

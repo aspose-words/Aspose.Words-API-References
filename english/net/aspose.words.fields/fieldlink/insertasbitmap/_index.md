@@ -3,7 +3,7 @@ title: FieldLink.InsertAsBitmap
 linktitle: InsertAsBitmap
 articleTitle: InsertAsBitmap
 second_title: Aspose.Words for .NET
-description: Discover the FieldLink InsertAsBitmap property: easily manage linked objects by inserting them as high-quality bitmaps for enhanced visual clarity.
+description: Discover the FieldLink InsertAsBitmap property, easily manage linked objects by inserting them as high-quality bitmaps for enhanced visual clarity.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldlink/insertasbitmap/

@@ -3,7 +3,7 @@ title: Font.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words for .NET
-description: Discover the Font Bidi property: control right-to-left text characteristics for enhanced readability and user experience in your web designs.
+description: Discover the Font Bidi property, control right-to-left text characteristics for enhanced readability and user experience in your web designs.
 type: docs
 weight: 30
 url: /net/aspose.words/font/bidi/

@@ -3,7 +3,7 @@ title: Odso.FieldMapDatas
 linktitle: FieldMapDatas
 articleTitle: FieldMapDatas
 second_title: Aspose.Words for .NET
-description: Discover Odso FieldMapDatas: effortlessly map external data columns to predefined merge fields, ensuring seamless document integration and enhanced data accuracy.
+description: Discover Odso FieldMapDatas, effortlessly map external data columns to predefined merge fields, ensuring seamless document integration and enhanced data accuracy.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/odso/fieldmapdatas/

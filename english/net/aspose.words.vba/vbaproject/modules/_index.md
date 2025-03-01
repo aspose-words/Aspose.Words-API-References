@@ -3,7 +3,7 @@ title: VbaProject.Modules
 linktitle: Modules
 articleTitle: Modules
 second_title: Aspose.Words for .NET
-description: Discover the VbaProject Modules property: effortlessly access and manage your VBA project modules for enhanced automation and efficiency.
+description: Discover the VbaProject Modules property, effortlessly access and manage your VBA project modules for enhanced automation and efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.vba/vbaproject/modules/

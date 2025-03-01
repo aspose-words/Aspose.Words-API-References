@@ -3,7 +3,7 @@ title: TxtSaveOptions.MaxCharactersPerLine
 linktitle: MaxCharactersPerLine
 articleTitle: MaxCharactersPerLine
 second_title: Aspose.Words for .NET
-description: Discover TxtSaveOptions MaxCharactersPerLine: easily set character limits per line for better text formatting. Default is 0 for unlimited characters.
+description: Discover TxtSaveOptions MaxCharactersPerLine, easily set character limits per line for better text formatting. Default is 0 for unlimited characters.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/txtsaveoptions/maxcharactersperline/

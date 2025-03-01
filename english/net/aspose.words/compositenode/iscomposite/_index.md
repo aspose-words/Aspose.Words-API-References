@@ -3,7 +3,7 @@ title: CompositeNode.IsComposite
 linktitle: IsComposite
 articleTitle: IsComposite
 second_title: Aspose.Words for .NET
-description: Discover the CompositeNode IsComposite property: Easily check if a node supports child nodes for enhanced data structure management.
+description: Discover the CompositeNode IsComposite property. Easily check if a node supports child nodes for enhanced data structure management.
 type: docs
 weight: 40
 url: /net/aspose.words/compositenode/iscomposite/

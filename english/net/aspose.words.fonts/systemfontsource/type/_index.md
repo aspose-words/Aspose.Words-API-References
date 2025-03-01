@@ -3,7 +3,7 @@ title: SystemFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: Discover the SystemFontSource Type property: easily access and identify font source types to enhance your web design and user experience.
+description: Discover the SystemFontSource Type property, easily access and identify font source types to enhance your web design and user experience.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/systemfontsource/type/

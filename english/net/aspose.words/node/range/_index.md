@@ -3,7 +3,7 @@ title: Node.Range
 linktitle: Range
 articleTitle: Range
 second_title: Aspose.Words for .NET
-description: Discover the Node Range property: effortlessly access a Range object that defines the document segment within your node for enhanced content management.
+description: Discover the Node Range property, effortlessly access a Range object that defines the document segment within your node for enhanced content management.
 type: docs
 weight: 80
 url: /net/aspose.words/node/range/

@@ -3,7 +3,7 @@ title: ReflectionFormat.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words for .NET
-description: Discover the ReflectionFormat Size property: control reflection size (0.0-1.0) for stunning visual effects in your designs. Enhance your project's aesthetics!
+description: Discover the ReflectionFormat Size property, control reflection size (0.0-1.0) for stunning visual effects in your designs. Enhance your project's aesthetics!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/reflectionformat/size/

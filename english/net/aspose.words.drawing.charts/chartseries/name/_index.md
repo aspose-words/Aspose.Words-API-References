@@ -3,7 +3,7 @@ title: ChartSeries.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: Discover the ChartSeries Name property: easily manage series names, auto-generate with indices, and enhance data visualization effortlessly.
+description: Discover the ChartSeries Name property, easily manage series names, auto-generate with indices, and enhance data visualization effortlessly.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartseries/name/

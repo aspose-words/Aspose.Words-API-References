@@ -3,7 +3,7 @@ title: ControlChar.SectionBreakChar
 linktitle: SectionBreakChar
 articleTitle: SectionBreakChar
 second_title: Aspose.Words for .NET
-description: Discover the ControlChar SectionBreakChar field: optimize your document formatting with the essential end-of-section character for seamless text flow.
+description: Discover the ControlChar SectionBreakChar field, optimize your document formatting with the essential end-of-section character for seamless text flow.
 type: docs
 weight: 250
 url: /net/aspose.words/controlchar/sectionbreakchar/

@@ -3,7 +3,7 @@ title: TextPath.SmallCaps
 linktitle: SmallCaps
 articleTitle: SmallCaps
 second_title: Aspose.Words for .NET
-description: Discover the TextPath SmallCaps property: easily format fonts to small capital letters for enhanced readability and stylish text design.
+description: Discover the TextPath SmallCaps property, easily format fonts to small capital letters for enhanced readability and stylish text design.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/textpath/smallcaps/

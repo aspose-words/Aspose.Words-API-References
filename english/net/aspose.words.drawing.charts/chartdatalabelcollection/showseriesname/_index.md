@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
 second_title: Aspose.Words for .NET
-description: Discover the ChartDataLabelCollection ShowSeriesName property: easily control series name visibility in your data labels. Enhance your charts today!
+description: Discover the ChartDataLabelCollection ShowSeriesName property, easily control series name visibility in your data labels. Enhance your charts today!
 type: docs
 weight: 160
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/

@@ -3,7 +3,7 @@ title: FieldDatabase.FirstRecord
 linktitle: FirstRecord
 articleTitle: FirstRecord
 second_title: Aspose.Words for .NET
-description: Discover the FirstRecord property in FieldDatabase: easily manage your initial data record number for seamless data insertion and enhanced efficiency.
+description: Discover the FirstRecord property in FieldDatabase, easily manage your initial data record number for seamless data insertion and enhanced efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fielddatabase/firstrecord/

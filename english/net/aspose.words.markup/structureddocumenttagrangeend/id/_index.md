@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeEnd.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: Discover the StructuredDocumentTagRangeEnd Id property: a unique, readonly identifier for seamless document tagging. Enhance your document management today!
+description: Discover the StructuredDocumentTagRangeEnd Id property, a unique, readonly identifier for seamless document tagging. Enhance your document management today!
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttagrangeend/id/

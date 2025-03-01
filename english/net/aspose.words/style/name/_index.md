@@ -3,7 +3,7 @@ title: Style.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: Discover the Style Name property: easily manage and customize your styles for enhanced design flexibility and user experience.
+description: Discover the Style Name property, easily manage and customize your styles for enhanced design flexibility and user experience.
 type: docs
 weight: 130
 url: /net/aspose.words/style/name/

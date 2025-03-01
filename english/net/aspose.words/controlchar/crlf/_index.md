@@ -3,7 +3,7 @@ title: ControlChar.CrLf
 linktitle: CrLf
 articleTitle: CrLf
 second_title: Aspose.Words for .NET
-description: Discover ControlChar CrLf: the key to efficient text formatting. Learn how carriage return and line feed enhance paragraph breaks in text files.
+description: Discover ControlChar CrLf, the key to efficient text formatting. Learn how carriage return and line feed enhance paragraph breaks in text files.
 type: docs
 weight: 60
 url: /net/aspose.words/controlchar/crlf/

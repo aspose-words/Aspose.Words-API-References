@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET
-description: Discover how the TxtSaveOptionsBase ExportHeadersFootersMode property optimizes header and footer export in text formats. Default: PrimaryOnly.
+description: Discover how the TxtSaveOptionsBase ExportHeadersFootersMode property optimizes header and footer export in text formats. Default, PrimaryOnly.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/

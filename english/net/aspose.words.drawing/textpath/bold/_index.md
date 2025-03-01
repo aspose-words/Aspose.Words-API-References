@@ -3,7 +3,7 @@ title: TextPath.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words for .NET
-description: Discover the TextPath Bold property: Easily format your text in bold for enhanced readability and visual impact in your designs.
+description: Discover the TextPath Bold property, Easily format your text in bold for enhanced readability and visual impact in your designs.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/textpath/bold/

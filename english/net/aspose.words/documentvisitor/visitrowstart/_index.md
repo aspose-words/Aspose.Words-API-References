@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitRowStart
 linktitle: VisitRowStart
 articleTitle: VisitRowStart
 second_title: Aspose.Words for .NET
-description: Discover the DocumentVisitor VisitRowStart method: Enhance your table row enumeration with efficient, streamlined processing for optimized performance.
+description: Discover the DocumentVisitor VisitRowStart method. Enhance your table row enumeration with efficient, streamlined processing for optimized performance.
 type: docs
 weight: 350
 url: /net/aspose.words/documentvisitor/visitrowstart/

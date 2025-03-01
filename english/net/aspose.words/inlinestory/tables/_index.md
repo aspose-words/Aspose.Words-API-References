@@ -3,7 +3,7 @@ title: InlineStory.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words for .NET
-description: Discover InlineStory Tables: Access a collection of story tables that enhance your data organization and storytelling capabilities. Explore now!
+description: Discover InlineStory Tables, Access a collection of story tables that enhance your data organization and storytelling capabilities. Explore now!
 type: docs
 weight: 110
 url: /net/aspose.words/inlinestory/tables/

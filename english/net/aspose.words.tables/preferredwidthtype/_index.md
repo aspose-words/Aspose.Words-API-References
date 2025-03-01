@@ -3,7 +3,7 @@ title: PreferredWidthType Enum
 linktitle: PreferredWidthType
 articleTitle: PreferredWidthType
 second_title: Aspose.Words for .NET
-description: Discover Aspose.Words.Tables.PreferredWidthType enum: Easily define table and cell width measurements for precise document formatting.
+description: Discover Aspose.Words.Tables.PreferredWidthType enum, Easily define table and cell width measurements for precise document formatting.
 type: docs
 weight: 7000
 url: /net/aspose.words.tables/preferredwidthtype/

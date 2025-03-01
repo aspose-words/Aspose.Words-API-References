@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words for .NET
-description: Discover the FieldMergingArgsBase TableName property: easily access the data table name for your merge operations, or know when it's unavailable.
+description: Discover the FieldMergingArgsBase TableName property, easily access the data table name for your merge operations, or know when it's unavailable.
 type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/tablename/

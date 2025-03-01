@@ -3,7 +3,7 @@ title: FieldCitation.Prefix
 linktitle: Prefix
 articleTitle: Prefix
 second_title: Aspose.Words for .NET
-description: Discover the FieldCitation Prefix property: easily customize citations with a unique prefix for enhanced clarity and organization in your documents.
+description: Discover the FieldCitation Prefix property, easily customize citations with a unique prefix for enhanced clarity and organization in your documents.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldcitation/prefix/

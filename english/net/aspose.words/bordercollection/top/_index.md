@@ -3,7 +3,7 @@ title: BorderCollection.Top
 linktitle: Top
 articleTitle: Top
 second_title: Aspose.Words for .NET
-description: Discover BorderCollection: the ultimate property for stunning top borders that elevate your design. Enhance your projects with our unique offerings!
+description: Discover BorderCollection, the ultimate property for stunning top borders that elevate your design. Enhance your projects with our unique offerings!
 type: docs
 weight: 120
 url: /net/aspose.words/bordercollection/top/

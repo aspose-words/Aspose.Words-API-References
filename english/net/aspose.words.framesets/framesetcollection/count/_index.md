@@ -3,7 +3,7 @@ title: FramesetCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: Discover the FramesetCollection Count property: easily access the total number of frames in your collection for efficient web management.
+description: Discover the FramesetCollection Count property, easily access the total number of frames in your collection for efficient web management.
 type: docs
 weight: 20
 url: /net/aspose.words.framesets/framesetcollection/count/

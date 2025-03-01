@@ -3,7 +3,7 @@ title: FieldHyperlink.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words for .NET
-description: Discover the FieldHyperlink Target property: easily configure link redirection for enhanced user navigation and seamless web experiences.
+description: Discover the FieldHyperlink Target property, easily configure link redirection for enhanced user navigation and seamless web experiences.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldhyperlink/target/

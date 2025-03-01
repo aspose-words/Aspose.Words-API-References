@@ -3,7 +3,7 @@ title: OdsoFieldMapData.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: Discover the OdsoFieldMapData Type property: easily check if your mail merge field links to an external data source column. Optimize your data integration!
+description: Discover the OdsoFieldMapData Type property, easily check if your mail merge field links to an external data source column. Optimize your data integration!
 type: docs
 weight: 50
 url: /net/aspose.words.settings/odsofieldmapdata/type/

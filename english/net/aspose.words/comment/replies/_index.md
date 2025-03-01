@@ -3,7 +3,7 @@ title: Comment.Replies
 linktitle: Replies
 articleTitle: Replies
 second_title: Aspose.Words for .NET
-description: Discover Comment Replies: Access a collection of Comment objects that are direct responses to your specified comment, enhancing user engagement and interaction.
+description: Discover Comment Replies. Access a collection of Comment objects that are direct responses to your specified comment, enhancing user engagement and interaction.
 type: docs
 weight: 110
 url: /net/aspose.words/comment/replies/

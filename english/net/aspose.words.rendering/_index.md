@@ -3,7 +3,7 @@ title: Aspose.Words.Rendering
 linktitle: Aspose.Words.Rendering
 articleTitle: Aspose.Words.Rendering
 second_title: Aspose.Words for .NET
-description: Discover Aspose.Words.Rendering: customize document printing and rendering effortlessly with powerful classes for enhanced output quality.
+description: Discover Aspose.Words.Rendering, customize document printing and rendering effortlessly with powerful classes for enhanced output quality.
 type: docs
 weight: 220
 url: /net/aspose.words.rendering/
