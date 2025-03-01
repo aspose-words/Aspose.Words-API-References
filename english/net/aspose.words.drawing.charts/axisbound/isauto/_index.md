@@ -3,7 +3,7 @@ title: AxisBound.IsAuto
 linktitle: IsAuto
 articleTitle: IsAuto
 second_title: Aspose.Words for .NET
-description: Discover AxisBound IsAuto, Automatically determine axis bounds for enhanced data visualization and streamlined analysis. Optimize your charts effortlessly!
+description: Discover AxisBound IsAuto. Automatically determine axis bounds for enhanced data visualization and streamlined analysis. Optimize your charts effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisbound/isauto/

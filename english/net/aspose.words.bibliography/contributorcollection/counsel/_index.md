@@ -3,7 +3,7 @@ title: ContributorCollection.Counsel
 linktitle: Counsel
 articleTitle: Counsel
 second_title: Aspose.Words for .NET
-description: Discover ContributorCollection Counsel, Easily manage and access source counsel for enhanced property insights and streamlined decision-making.
+description: Discover ContributorCollection Counsel. Easily manage and access source counsel for enhanced property insights and streamlined decision-making.
 type: docs
 weight: 70
 url: /net/aspose.words.bibliography/contributorcollection/counsel/

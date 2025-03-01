@@ -3,7 +3,7 @@ title: AxisBound.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words for .NET
-description: Discover AxisBound Value, Effortlessly retrieve numeric axis bounds for precise data visualization and enhanced analytical insights.
+description: Discover AxisBound Value. Effortlessly retrieve numeric axis bounds for precise data visualization and enhanced analytical insights.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisbound/value/

@@ -3,7 +3,7 @@ title: TextPath.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words for .NET
-description: Discover the TextPath Italic property, Easily check if your font is styled in italic for enhanced text design and readability. Boost your typography today!
+description: Discover the TextPath Italic property. Easily check if your font is styled in italic for enhanced text design and readability. Boost your typography today!
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/textpath/italic/

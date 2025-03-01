@@ -3,7 +3,7 @@ title: Source.City
 linktitle: City
 articleTitle: City
 second_title: Aspose.Words for .NET
-description: Discover Source City property management, Easily set or retrieve your source city's information for seamless operations and enhanced efficiency.
+description: Discover Source City property management. Easily set or retrieve your source city's information for seamless operations and enhanced efficiency.
 type: docs
 weight: 90
 url: /net/aspose.words.bibliography/source/city/

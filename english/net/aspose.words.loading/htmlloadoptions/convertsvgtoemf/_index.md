@@ -3,7 +3,7 @@ title: HtmlLoadOptions.ConvertSvgToEmf
 linktitle: ConvertSvgToEmf
 articleTitle: ConvertSvgToEmf
 second_title: Aspose.Words for .NET
-description: Discover HtmlLoadOptions' ConvertSvgToEmf property, Easily control SVG to EMF conversion for optimal image quality. Default is false; keep SVGs intact!
+description: Discover HtmlLoadOptions' ConvertSvgToEmf property. Easily control SVG to EMF conversion for optimal image quality. Default is false; keep SVGs intact!
 type: docs
 weight: 30
 url: /net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
