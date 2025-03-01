@@ -3,7 +3,7 @@ title: PdfSaveOptions.PreblendImages
 linktitle: PreblendImages
 articleTitle: PreblendImages
 second_title: Aspose.Words for .NET
-description: Discover PdfSaveOptions' PreblendImages property, Easily control transparent image blending for enhanced document quality and visual appeal.
+description: Discover PdfSaveOptions' PreblendImages property. Easily control transparent image blending for enhanced document quality and visual appeal.
 type: docs
 weight: 270
 url: /net/aspose.words.saving/pdfsaveoptions/preblendimages/

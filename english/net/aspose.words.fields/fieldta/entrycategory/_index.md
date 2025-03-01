@@ -3,7 +3,7 @@ title: FieldTA.EntryCategory
 linktitle: EntryCategory
 articleTitle: EntryCategory
 second_title: Aspose.Words for .NET
-description: Discover the FieldTA EntryCategory property, Easily manage your integral entry categories with this powerful tool for seamless organization and efficiency.
+description: Discover the FieldTA EntryCategory property. Easily manage your integral entry categories with this powerful tool for seamless organization and efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldta/entrycategory/

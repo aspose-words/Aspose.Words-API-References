@@ -3,7 +3,7 @@ title: ParagraphFormat.SpaceBeforeAuto
 linktitle: SpaceBeforeAuto
 articleTitle: SpaceBeforeAuto
 second_title: Aspose.Words for .NET
-description: Discover the ParagraphFormat SpaceBeforeAuto property, Automatically adjust paragraph spacing for a polished, professional look in your documents.
+description: Discover the ParagraphFormat SpaceBeforeAuto property. Automatically adjust paragraph spacing for a polished, professional look in your documents.
 type: docs
 weight: 340
 url: /net/aspose.words/paragraphformat/spacebeforeauto/

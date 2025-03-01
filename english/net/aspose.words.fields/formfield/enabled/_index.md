@@ -3,7 +3,7 @@ title: FormField.Enabled
 linktitle: Enabled
 articleTitle: Enabled
 second_title: Aspose.Words for .NET
-description: Discover the FormField Enabled property, Easily check if a form field is active for seamless user interactions and enhanced web functionality.
+description: Discover the FormField Enabled property. Easily check if a form field is active for seamless user interactions and enhanced web functionality.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/formfield/enabled/

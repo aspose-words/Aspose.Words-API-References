@@ -3,7 +3,7 @@ title: Story.Paragraphs
 linktitle: Paragraphs
 articleTitle: Paragraphs
 second_title: Aspose.Words for .NET
-description: Discover Story Paragraphs, Access a curated collection of paragraphs directly from your story, enhancing your narrative with rich, engaging content.
+description: Discover Story Paragraphs. Access a curated collection of paragraphs directly from your story, enhancing your narrative with rich, engaging content.
 type: docs
 weight: 30
 url: /net/aspose.words/story/paragraphs/

@@ -3,7 +3,7 @@ title: TextColumnCollection.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words for .NET
-description: Discover the TextColumnCollection Width property, Easily manage evenly spaced columns for optimal layout and design in your projects.
+description: Discover the TextColumnCollection Width property. Easily manage evenly spaced columns for optimal layout and design in your projects.
 type: docs
 weight: 60
 url: /net/aspose.words/textcolumncollection/width/
