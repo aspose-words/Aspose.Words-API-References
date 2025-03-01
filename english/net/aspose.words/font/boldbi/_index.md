@@ -3,7 +3,7 @@ title: Font.BoldBi
 linktitle: BoldBi
 articleTitle: BoldBi
 second_title: Aspose.Words for .NET
-description: Discover the BoldBi property: ensures right-to-left text is displayed in bold, enhancing readability and user experience for diverse languages.
+description: Discover the BoldBi property, ensures right-to-left text is displayed in bold, enhancing readability and user experience for diverse languages.
 type: docs
 weight: 50
 url: /net/aspose.words/font/boldbi/

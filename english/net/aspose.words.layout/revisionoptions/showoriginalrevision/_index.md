@@ -3,7 +3,7 @@ title: RevisionOptions.ShowOriginalRevision
 linktitle: ShowOriginalRevision
 articleTitle: ShowOriginalRevision
 second_title: Aspose.Words for .NET
-description: Control your document revisions with the ShowOriginalRevision property. Easily toggle between original and revised text for clearer insights. Default: false.
+description: Control your document revisions with the ShowOriginalRevision property. Easily toggle between original and revised text for clearer insights. Default, false.
 type: docs
 weight: 190
 url: /net/aspose.words.layout/revisionoptions/showoriginalrevision/

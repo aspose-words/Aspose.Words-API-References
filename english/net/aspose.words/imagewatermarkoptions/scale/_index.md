@@ -3,7 +3,7 @@ title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
 second_title: Aspose.Words for .NET
-description: Discover the ImageWatermarkOptions Scale property to easily adjust image scaling for optimal watermarking. Default value: 0 auto for seamless integration.
+description: Discover the ImageWatermarkOptions Scale property to easily adjust image scaling for optimal watermarking. Default value, 0 auto for seamless integration.
 type: docs
 weight: 30
 url: /net/aspose.words/imagewatermarkoptions/scale/

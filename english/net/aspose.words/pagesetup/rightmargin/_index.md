@@ -3,7 +3,7 @@ title: PageSetup.RightMargin
 linktitle: RightMargin
 articleTitle: RightMargin
 second_title: Aspose.Words for .NET
-description: Discover the PageSetup RightMargin property: easily adjust the right margin in points for optimal text layout and enhanced document presentation.
+description: Discover the PageSetup RightMargin property, easily adjust the right margin in points for optimal text layout and enhanced document presentation.
 type: docs
 weight: 370
 url: /net/aspose.words/pagesetup/rightmargin/

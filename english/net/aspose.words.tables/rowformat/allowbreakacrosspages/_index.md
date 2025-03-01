@@ -3,7 +3,7 @@ title: RowFormat.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 articleTitle: AllowBreakAcrossPages
 second_title: Aspose.Words for .NET
-description: Discover the RowFormat AllowBreakAcrossPages property: enable seamless text flow in table rows across page breaks for enhanced readability and presentation.
+description: Discover the RowFormat AllowBreakAcrossPages property, enable seamless text flow in table rows across page breaks for enhanced readability and presentation.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/rowformat/allowbreakacrosspages/

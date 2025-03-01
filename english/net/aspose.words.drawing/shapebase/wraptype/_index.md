@@ -3,7 +3,7 @@ title: ShapeBase.WrapType
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase WrapType property: control inline or floating shapes and customize text wrapping for enhanced layout flexibility.
+description: Discover the ShapeBase WrapType property, control inline or floating shapes and customize text wrapping for enhanced layout flexibility.
 type: docs
 weight: 640
 url: /net/aspose.words.drawing/shapebase/wraptype/

@@ -3,7 +3,7 @@ title: FieldCitation.SourceTag
 linktitle: SourceTag
 articleTitle: SourceTag
 second_title: Aspose.Words for .NET
-description: Discover the FieldCitation SourceTag property: easily manage and customize Tag elements for seamless data insertion and enhanced source accuracy.
+description: Discover the FieldCitation SourceTag property, easily manage and customize Tag elements for seamless data insertion and enhanced source accuracy.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldcitation/sourcetag/

@@ -3,7 +3,7 @@ title: AxisDisplayUnit.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: Discover the AxisDisplayUnit property: easily access the document linked to your parent chart for seamless data management and enhanced visualization.
+description: Discover the AxisDisplayUnit property, easily access the document linked to your parent chart for seamless data management and enhanced visualization.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisdisplayunit/document/

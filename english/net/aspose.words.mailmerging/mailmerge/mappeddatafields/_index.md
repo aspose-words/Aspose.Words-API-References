@@ -3,7 +3,7 @@ title: MailMerge.MappedDataFields
 linktitle: MappedDataFields
 articleTitle: MappedDataFields
 second_title: Aspose.Words for .NET
-description: Discover the MailMerge MappedDataFields property: access a powerful collection of mapped data fields to enhance your mail merge operations effortlessly.
+description: Discover the MailMerge MappedDataFields property, access a powerful collection of mapped data fields to enhance your mail merge operations effortlessly.
 type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/mailmerge/mappeddatafields/

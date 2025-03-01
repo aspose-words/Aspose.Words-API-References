@@ -3,7 +3,7 @@ title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
 second_title: Aspose.Words for .NET
-description: Enhance your documents with the SaveOptions ExportGeneratorName property. Embed Aspose.Words name and version for better traceability. Default: true.
+description: Enhance your documents with the SaveOptions ExportGeneratorName property. Embed Aspose.Words name and version for better traceability. Default, true.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/saveoptions/exportgeneratorname/

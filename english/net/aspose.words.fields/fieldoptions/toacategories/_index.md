@@ -3,7 +3,7 @@ title: FieldOptions.ToaCategories
 linktitle: ToaCategories
 articleTitle: ToaCategories
 second_title: Aspose.Words for .NET
-description: Discover FieldOptions ToaCategories: Easily manage and customize your table of authorities categories for enhanced organization and efficiency.
+description: Discover FieldOptions ToaCategories, Easily manage and customize your table of authorities categories for enhanced organization and efficiency.
 type: docs
 weight: 200
 url: /net/aspose.words.fields/fieldoptions/toacategories/

@@ -3,7 +3,7 @@ title: BookmarkCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: Discover the BookmarkCollection Item property: effortlessly retrieve bookmarks by index for streamlined navigation and enhanced user experience.
+description: Discover the BookmarkCollection Item property, effortlessly retrieve bookmarks by index for streamlined navigation and enhanced user experience.
 type: docs
 weight: 20
 url: /net/aspose.words/bookmarkcollection/item/

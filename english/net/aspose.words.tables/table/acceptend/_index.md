@@ -3,7 +3,7 @@ title: Table.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
-description: Discover the Table AcceptEnd method: seamlessly integrate visitors at the table's end for enhanced user experience and efficient data handling.
+description: Discover the Table AcceptEnd method, seamlessly integrate visitors at the table's end for enhanced user experience and efficient data handling.
 type: docs
 weight: 360
 url: /net/aspose.words.tables/table/acceptend/

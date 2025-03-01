@@ -3,7 +3,7 @@ title: TextBox.Previous
 linktitle: Previous
 articleTitle: Previous
 second_title: Aspose.Words for .NET
-description: Discover the TextBox Previous property: effortlessly access the prior TextBox in your shape sequence for streamlined design and enhanced workflow.
+description: Discover the TextBox Previous property, effortlessly access the prior TextBox in your shape sequence for streamlined design and enhanced workflow.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/textbox/previous/

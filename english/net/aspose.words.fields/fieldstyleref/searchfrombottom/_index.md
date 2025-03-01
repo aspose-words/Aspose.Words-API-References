@@ -3,7 +3,7 @@ title: FieldStyleRef.SearchFromBottom
 linktitle: SearchFromBottom
 articleTitle: SearchFromBottom
 second_title: Aspose.Words for .NET
-description: Discover the FieldStyleRef SearchFromBottom property: control search direction on your page for enhanced user experience and efficiency.
+description: Discover the FieldStyleRef SearchFromBottom property, control search direction on your page for enhanced user experience and efficiency.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldstyleref/searchfrombottom/

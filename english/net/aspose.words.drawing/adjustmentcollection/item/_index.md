@@ -3,7 +3,7 @@ title: AdjustmentCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words for .NET
-description: Discover the AdjustmentCollection Item property: effortlessly retrieve adjustments by index for seamless data management and enhanced performance.
+description: Discover the AdjustmentCollection Item property, effortlessly retrieve adjustments by index for seamless data management and enhanced performance.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/adjustmentcollection/item/

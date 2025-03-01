@@ -3,7 +3,7 @@ title: ShapeBase.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase ScreenTip property: enhance user experience by customizing tooltip text that appears on mouse hover over shapes.
+description: Discover the ShapeBase ScreenTip property, enhance user experience by customizing tooltip text that appears on mouse hover over shapes.
 type: docs
 weight: 510
 url: /net/aspose.words.drawing/shapebase/screentip/

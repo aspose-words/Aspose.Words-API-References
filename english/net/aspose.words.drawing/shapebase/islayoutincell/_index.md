@@ -3,7 +3,7 @@ title: ShapeBase.IsLayoutInCell
 linktitle: IsLayoutInCell
 articleTitle: IsLayoutInCell
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase IsLayoutInCell property: control shape placement in tables for enhanced design flexibility and improved layout management.
+description: Discover the ShapeBase IsLayoutInCell property, control shape placement in tables for enhanced design flexibility and improved layout management.
 type: docs
 weight: 330
 url: /net/aspose.words.drawing/shapebase/islayoutincell/

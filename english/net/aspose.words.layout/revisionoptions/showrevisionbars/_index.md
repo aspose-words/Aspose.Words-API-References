@@ -3,7 +3,7 @@ title: RevisionOptions.ShowRevisionBars
 linktitle: ShowRevisionBars
 articleTitle: ShowRevisionBars
 second_title: Aspose.Words for .NET
-description: Discover how the ShowRevisionBars property in RevisionOptions enhances document clarity by displaying revision bars for edited content. Default: true.
+description: Discover how the ShowRevisionBars property in RevisionOptions enhances document clarity by displaying revision bars for edited content. Default, true.
 type: docs
 weight: 200
 url: /net/aspose.words.layout/revisionoptions/showrevisionbars/

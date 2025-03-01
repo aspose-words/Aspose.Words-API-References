@@ -3,7 +3,7 @@ title: DigitalSignature.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words for .NET
-description: Explore the DigitalSignature ToString method: easily retrieve a user-friendly string representation of your digital signature object for seamless integration.
+description: Explore the DigitalSignature ToString method, easily retrieve a user-friendly string representation of your digital signature object for seamless integration.
 type: docs
 weight: 90
 url: /net/aspose.words.digitalsignatures/digitalsignature/tostring/

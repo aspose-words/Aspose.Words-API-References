@@ -3,7 +3,7 @@ title: FieldRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words for .NET
-description: Discover the FieldRef InsertRelativePosition property: easily manage paragraph positioning for enhanced document formatting and improved readability.
+description: Discover the FieldRef InsertRelativePosition property, easily manage paragraph positioning for enhanced document formatting and improved readability.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldref/insertrelativeposition/

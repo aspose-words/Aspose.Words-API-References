@@ -3,7 +3,7 @@ title: LayoutCollector.GetEntity
 linktitle: GetEntity
 articleTitle: GetEntity
 second_title: Aspose.Words for .NET
-description: Discover the LayoutCollector GetEntity method: effortlessly retrieve the LayoutEnumerator's position for seamless document navigation and enhanced productivity.
+description: Discover the LayoutCollector GetEntity method, effortlessly retrieve the LayoutEnumerator's position for seamless document navigation and enhanced productivity.
 type: docs
 weight: 50
 url: /net/aspose.words.layout/layoutcollector/getentity/

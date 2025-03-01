@@ -3,7 +3,7 @@ title: Font.LocaleIdBi
 linktitle: LocaleIdBi
 articleTitle: LocaleIdBi
 second_title: Aspose.Words for .NET
-description: Discover the Font LocaleIdBi property: easily manage locale identifiers for formatted right-to-left characters, enhancing your multilingual applications.
+description: Discover the Font LocaleIdBi property, easily manage locale identifiers for formatted right-to-left characters, enhancing your multilingual applications.
 type: docs
 weight: 210
 url: /net/aspose.words/font/localeidbi/

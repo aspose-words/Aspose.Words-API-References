@@ -3,7 +3,7 @@ title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
 second_title: Aspose.Words for .NET
-description: Discover the ChartLegendEntry IsHidden property: control chart legend visibility effortlessly. Enhance your data presentation with this simple toggle feature!
+description: Discover the ChartLegendEntry IsHidden property, control chart legend visibility effortlessly. Enhance your data presentation with this simple toggle feature!
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartlegendentry/ishidden/

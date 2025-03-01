@@ -3,7 +3,7 @@ title: SubDocument Class
 linktitle: SubDocument
 articleTitle: SubDocument
 second_title: Aspose.Words for .NET
-description: Discover Aspose.Words.SubDocument class: efficiently manage and reference external documents for seamless integration and enhanced document processing.
+description: Discover Aspose.Words.SubDocument class, efficiently manage and reference external documents for seamless integration and enhanced document processing.
 type: docs
 weight: 6870
 url: /net/aspose.words/subdocument/

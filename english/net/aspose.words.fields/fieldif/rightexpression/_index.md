@@ -3,7 +3,7 @@ title: FieldIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words for .NET
-description: Discover the FieldIf RightExpression property: easily manage the right segment of your comparison expressions for enhanced data accuracy and efficiency.
+description: Discover the FieldIf RightExpression property, easily manage the right segment of your comparison expressions for enhanced data accuracy and efficiency.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldif/rightexpression/

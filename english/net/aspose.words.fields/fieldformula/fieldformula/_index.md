@@ -3,7 +3,7 @@ title: FieldFormula
 linktitle: FieldFormula
 articleTitle: FieldFormula
 second_title: Aspose.Words for .NET
-description: Discover the FieldFormula constructor: your go-to solution for creating robust formulas effortlessly. Unlock powerful features with our default constructor!
+description: Discover the FieldFormula constructor, your go-to solution for creating robust formulas effortlessly. Unlock powerful features with our default constructor!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldformula/fieldformula/

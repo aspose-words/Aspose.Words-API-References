@@ -3,7 +3,7 @@ title: FormField.HelpText
 linktitle: HelpText
 articleTitle: HelpText
 second_title: Aspose.Words for .NET
-description: Discover the FormField HelpText property: enhance user experience with informative messages displayed when F1 is pressed on focused fields.
+description: Discover the FormField HelpText property, enhance user experience with informative messages displayed when F1 is pressed on focused fields.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/formfield/helptext/

@@ -3,7 +3,7 @@ title: OleFormat.OleIcon
 linktitle: OleIcon
 articleTitle: OleIcon
 second_title: Aspose.Words for .NET
-description: Discover the OleFormat OleIcon property: control OLE object display as icons or content for enhanced user experience and seamless integration in your applications.
+description: Discover the OleFormat OleIcon property, control OLE object display as icons or content for enhanced user experience and seamless integration in your applications.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/oleformat/oleicon/

@@ -3,7 +3,7 @@ title: ControlChar.Cr
 linktitle: Cr
 articleTitle: Cr
 second_title: Aspose.Words for .NET
-description: Discover ControlChar Cr: the carriage return character (x000d or r) that enhances text formatting. Simplify your coding with our unique solutions!
+description: Discover ControlChar Cr, the carriage return character (x000d or r) that enhances text formatting. Simplify your coding with our unique solutions!
 type: docs
 weight: 50
 url: /net/aspose.words/controlchar/cr/

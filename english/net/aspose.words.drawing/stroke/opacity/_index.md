@@ -3,7 +3,7 @@ title: Stroke.Opacity
 linktitle: Opacity
 articleTitle: Opacity
 second_title: Aspose.Words for .NET
-description: Discover the Stroke Opacity property: control stroke transparency from 0 to 1 for stunning visual effects in your designs. Enhance your creativity today!
+description: Discover the Stroke Opacity property, control stroke transparency from 0 to 1 for stunning visual effects in your designs. Enhance your creativity today!
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/stroke/opacity/

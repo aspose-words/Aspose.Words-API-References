@@ -3,7 +3,7 @@ title: RevisionGroupCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words for .NET
-description: Discover the Count property of RevisionGroupCollection: Easily retrieve the total number of revision groups, enhancing your data management efficiency.
+description: Discover the Count property of RevisionGroupCollection, Easily retrieve the total number of revision groups, enhancing your data management efficiency.
 type: docs
 weight: 10
 url: /net/aspose.words/revisiongroupcollection/count/

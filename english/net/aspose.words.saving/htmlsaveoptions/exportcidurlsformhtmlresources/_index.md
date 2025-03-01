@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
 linktitle: ExportCidUrlsForMhtmlResources
 articleTitle: ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words for .NET
-description: Discover how HtmlSaveOptions' ExportCidUrlsForMhtmlResources enhances MHTML documents by enabling CID URLs for images, fonts, and CSS. Default: false.
+description: Discover how HtmlSaveOptions' ExportCidUrlsForMhtmlResources enhances MHTML documents by enabling CID URLs for images, fonts, and CSS. Default, false.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/

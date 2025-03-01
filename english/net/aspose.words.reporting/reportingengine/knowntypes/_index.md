@@ -3,7 +3,7 @@ title: ReportingEngine.KnownTypes
 linktitle: KnownTypes
 articleTitle: KnownTypes
 second_title: Aspose.Words for .NET
-description: Discover the ReportingEngine KnownTypes property: a unique collection of Type objects for seamless report template integration and efficient type casting.
+description: Discover the ReportingEngine KnownTypes property, a unique collection of Type objects for seamless report template integration and efficient type casting.
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/reportingengine/knowntypes/

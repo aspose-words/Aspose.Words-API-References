@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ReplaceBackslashWithYenSign
 linktitle: ReplaceBackslashWithYenSign
 articleTitle: ReplaceBackslashWithYenSign
 second_title: Aspose.Words for .NET
-description: Discover how XamlFlowSaveOptions' ReplaceBackslashWithYenSign property enhances your data formatting by converting backslashes to yen signs. Default: false.
+description: Discover how XamlFlowSaveOptions' ReplaceBackslashWithYenSign property enhances your data formatting by converting backslashes to yen signs. Default, false.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/xamlflowsaveoptions/replacebackslashwithyensign/

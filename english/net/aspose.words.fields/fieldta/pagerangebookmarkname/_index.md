@@ -3,7 +3,7 @@ title: FieldTA.PageRangeBookmarkName
 linktitle: PageRangeBookmarkName
 articleTitle: PageRangeBookmarkName
 second_title: Aspose.Words for .NET
-description: Discover the FieldTA PageRangeBookmarkName property: easily manage bookmarks for page ranges and enhance your document navigation with this powerful feature.
+description: Discover the FieldTA PageRangeBookmarkName property, easily manage bookmarks for page ranges and enhance your document navigation with this powerful feature.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldta/pagerangebookmarkname/

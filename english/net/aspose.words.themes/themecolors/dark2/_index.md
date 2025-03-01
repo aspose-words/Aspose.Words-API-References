@@ -3,7 +3,7 @@ title: ThemeColors.Dark2
 linktitle: Dark2
 articleTitle: Dark2
 second_title: Aspose.Words for .NET
-description: Discover ThemeColors Dark2: Enhance your design with a rich Dark 2 color for stunning visuals and a captivating user experience.
+description: Discover ThemeColors Dark2, Enhance your design with a rich Dark 2 color for stunning visuals and a captivating user experience.
 type: docs
 weight: 80
 url: /net/aspose.words.themes/themecolors/dark2/

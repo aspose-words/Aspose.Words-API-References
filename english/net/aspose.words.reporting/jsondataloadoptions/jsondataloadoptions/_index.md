@@ -3,7 +3,7 @@ title: JsonDataLoadOptions
 linktitle: JsonDataLoadOptions
 articleTitle: JsonDataLoadOptions
 second_title: Aspose.Words for .NET
-description: Discover the JsonDataLoadOptions constructor: effortlessly initialize your data loading with customizable default settings for optimal performance.
+description: Discover the JsonDataLoadOptions constructor, effortlessly initialize your data loading with customizable default settings for optimal performance.
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/jsondataloadoptions/jsondataloadoptions/

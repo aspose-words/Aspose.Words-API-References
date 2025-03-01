@@ -3,7 +3,7 @@ title: CheckBoxControl.Checked
 linktitle: Checked
 articleTitle: Checked
 second_title: Aspose.Words for .NET
-description: Discover the CheckBoxControl Checked property: easily manage checkbox states with a simple boolean value. Default is false for optimal control.
+description: Discover the CheckBoxControl Checked property, easily manage checkbox states with a simple boolean value. Default is false for optimal control.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/checkboxcontrol/checked/

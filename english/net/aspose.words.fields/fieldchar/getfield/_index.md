@@ -3,7 +3,7 @@ title: FieldChar.GetField
 linktitle: GetField
 articleTitle: GetField
 second_title: Aspose.Words for .NET
-description: Discover the GetField method in FieldChar: effortlessly retrieve fields for optimal data management and enhanced performance in your applications.
+description: Discover the GetField method in FieldChar, effortlessly retrieve fields for optimal data management and enhanced performance in your applications.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldchar/getfield/

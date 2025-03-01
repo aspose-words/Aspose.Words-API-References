@@ -3,7 +3,7 @@ title: FieldChar.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words for .NET
-description: Discover the FieldChar IsLocked property: control field recalculation with ease. Enhance your document's accuracy and efficiency today!
+description: Discover the FieldChar IsLocked property, control field recalculation with ease. Enhance your document's accuracy and efficiency today!
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldchar/islocked/

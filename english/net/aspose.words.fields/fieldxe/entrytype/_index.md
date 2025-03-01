@@ -3,7 +3,7 @@ title: FieldXE.EntryType
 linktitle: EntryType
 articleTitle: EntryType
 second_title: Aspose.Words for .NET
-description: Discover the FieldXE EntryType property: easily manage and customize index entry types for enhanced data organization and retrieval efficiency.
+description: Discover the FieldXE EntryType property, easily manage and customize index entry types for enhanced data organization and retrieval efficiency.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldxe/entrytype/

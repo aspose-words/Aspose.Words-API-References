@@ -3,7 +3,7 @@ title: ShapeBase.DistanceRight
 linktitle: DistanceRight
 articleTitle: DistanceRight
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase DistanceRight property: easily adjust the spacing in points between your document text and a shape's right edge for enhanced layout control.
+description: Discover the ShapeBase DistanceRight property, easily adjust the spacing in points between your document text and a shape's right edge for enhanced layout control.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/shapebase/distanceright/

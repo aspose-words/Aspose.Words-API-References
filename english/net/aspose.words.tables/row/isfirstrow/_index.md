@@ -3,7 +3,7 @@ title: Row.IsFirstRow
 linktitle: IsFirstRow
 articleTitle: IsFirstRow
 second_title: Aspose.Words for .NET
-description: Discover the Row IsFirstRow property: identify the first row in a table easily. Enhance your data organization with this essential feature!
+description: Discover the Row IsFirstRow property, identify the first row in a table easily. Enhance your data organization with this essential feature!
 type: docs
 weight: 40
 url: /net/aspose.words.tables/row/isfirstrow/

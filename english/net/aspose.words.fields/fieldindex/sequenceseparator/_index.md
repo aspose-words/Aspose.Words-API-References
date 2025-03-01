@@ -3,7 +3,7 @@ title: FieldIndex.SequenceSeparator
 linktitle: SequenceSeparator
 articleTitle: SequenceSeparator
 second_title: Aspose.Words for .NET
-description: Discover the FieldIndex SequenceSeparator property: easily manage character sequences for separating sequence and page numbers in your applications.
+description: Discover the FieldIndex SequenceSeparator property, easily manage character sequences for separating sequence and page numbers in your applications.
 type: docs
 weight: 160
 url: /net/aspose.words.fields/fieldindex/sequenceseparator/

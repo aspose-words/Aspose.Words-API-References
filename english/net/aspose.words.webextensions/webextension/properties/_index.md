@@ -3,7 +3,7 @@ title: WebExtension.Properties
 linktitle: Properties
 articleTitle: Properties
 second_title: Aspose.Words for .NET
-description: Discover WebExtension Properties: a powerful set of customizable features for enhancing your web extensions. Unlock unique functionality today!
+description: Discover WebExtension Properties, a powerful set of customizable features for enhancing your web extensions. Unlock unique functionality today!
 type: docs
 weight: 50
 url: /net/aspose.words.webextensions/webextension/properties/

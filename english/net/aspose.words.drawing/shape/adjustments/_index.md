@@ -3,7 +3,7 @@ title: Shape.Adjustments
 linktitle: Adjustments
 articleTitle: Adjustments
 second_title: Aspose.Words for .NET
-description: Discover Shape Adjustments: Access raw values for precise shape modifications. Easily enhance designs with tailored adjustments for optimal results.
+description: Discover Shape Adjustments, Access raw values for precise shape modifications. Easily enhance designs with tailored adjustments for optimal results.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/shape/adjustments/

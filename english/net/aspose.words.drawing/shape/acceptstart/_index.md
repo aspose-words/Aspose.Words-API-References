@@ -3,7 +3,7 @@ title: Shape.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: Discover the Shape AcceptStart method: seamlessly guide visitors to the beginning of your design, enhancing engagement and user experience.
+description: Discover the Shape AcceptStart method, seamlessly guide visitors to the beginning of your design, enhancing engagement and user experience.
 type: docs
 weight: 270
 url: /net/aspose.words.drawing/shape/acceptstart/

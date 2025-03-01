@@ -3,7 +3,7 @@ title: HtmlLoadOptions.WebRequestTimeout
 linktitle: WebRequestTimeout
 articleTitle: WebRequestTimeout
 second_title: Aspose.Words for .NET
-description: Discover HtmlLoadOptions' WebRequestTimeout property, allowing you to customize timeout settings for optimal web performance. Default: 100 seconds.
+description: Discover HtmlLoadOptions' WebRequestTimeout property, allowing you to customize timeout settings for optimal web performance. Default, 100 seconds.
 type: docs
 weight: 80
 url: /net/aspose.words.loading/htmlloadoptions/webrequesttimeout/

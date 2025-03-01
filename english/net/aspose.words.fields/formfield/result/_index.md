@@ -3,7 +3,7 @@ title: FormField.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words for .NET
-description: Discover the FormField Result property: easily manage and customize the string output of your form fields for enhanced user experience.
+description: Discover the FormField Result property, easily manage and customize the string output of your form fields for enhanced user experience.
 type: docs
 weight: 170
 url: /net/aspose.words.fields/formfield/result/

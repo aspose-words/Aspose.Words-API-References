@@ -3,7 +3,7 @@ title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
 second_title: Aspose.Words for .NET
-description: Discover FieldBuilder: the powerful tool for effortlessly creating and managing fields in your projects. Streamline your workflow today!
+description: Discover FieldBuilder, the powerful tool for effortlessly creating and managing fields in your projects. Streamline your workflow today!
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldbuilder/fieldbuilder/

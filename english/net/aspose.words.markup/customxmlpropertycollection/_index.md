@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection Class
 linktitle: CustomXmlPropertyCollection
 articleTitle: CustomXmlPropertyCollection
 second_title: Aspose.Words for .NET
-description: Discover Aspose.Words.Markup.CustomXmlPropertyCollection: a powerful tool for managing custom XML attributes and smart tag properties efficiently.
+description: Discover Aspose.Words.Markup.CustomXmlPropertyCollection, a powerful tool for managing custom XML attributes and smart tag properties efficiently.
 type: docs
 weight: 4510
 url: /net/aspose.words.markup/customxmlpropertycollection/

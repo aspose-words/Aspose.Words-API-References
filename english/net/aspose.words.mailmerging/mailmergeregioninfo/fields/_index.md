@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Fields
 linktitle: Fields
 articleTitle: Fields
 second_title: Aspose.Words for .NET
-description: Discover the MailMergeRegionInfo Fields property: easily access and manage child fields for efficient document automation and enhanced productivity.
+description: Discover the MailMergeRegionInfo Fields property, easily access and manage child fields for efficient document automation and enhanced productivity.
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/fields/

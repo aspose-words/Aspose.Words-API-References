@@ -3,7 +3,7 @@ title: LayoutEnumerator.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words for .NET
-description: Discover the LayoutEnumerator Type property: easily access the current entity's type for streamlined data handling and enhanced application performance.
+description: Discover the LayoutEnumerator Type property, easily access the current entity's type for streamlined data handling and enhanced application performance.
 type: docs
 weight: 90
 url: /net/aspose.words.layout/layoutenumerator/type/

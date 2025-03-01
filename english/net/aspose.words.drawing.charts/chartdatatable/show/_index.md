@@ -3,7 +3,7 @@ title: ChartDataTable.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words for .NET
-description: Control your chart's visibility with the ChartDataTable Show property. Easily toggle data table display for enhanced data insights. Default: false.
+description: Control your chart's visibility with the ChartDataTable Show property. Easily toggle data table display for enhanced data insights. Default, false.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartdatatable/show/

@@ -3,7 +3,7 @@ title: Story.AppendParagraph
 linktitle: AppendParagraph
 articleTitle: AppendParagraph
 second_title: Aspose.Words for .NET
-description: Discover the Story AppendParagraph method: effortlessly create and append a Paragraph object with customizable text for seamless document enhancement.
+description: Discover the Story AppendParagraph method, effortlessly create and append a Paragraph object with customizable text for seamless document enhancement.
 type: docs
 weight: 60
 url: /net/aspose.words/story/appendparagraph/

@@ -3,7 +3,7 @@ title: CellFormat.FitText
 linktitle: FitText
 articleTitle: FitText
 second_title: Aspose.Words for .NET
-description: Discover the CellFormat FitText property: easily compress text to fit your cell's width, enhancing readability and presentation in your spreadsheets.
+description: Discover the CellFormat FitText property, easily compress text to fit your cell's width, enhancing readability and presentation in your spreadsheets.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/cellformat/fittext/

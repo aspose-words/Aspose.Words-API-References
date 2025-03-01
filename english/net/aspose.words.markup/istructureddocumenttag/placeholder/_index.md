@@ -3,7 +3,7 @@ title: IStructuredDocumentTag.Placeholder
 linktitle: Placeholder
 articleTitle: Placeholder
 second_title: Aspose.Words for .NET
-description: Discover the IStructuredDocumentTag Placeholder property: Easily manage placeholder text for empty SDT content and enhance your document's usability.
+description: Discover the IStructuredDocumentTag Placeholder property, Easily manage placeholder text for empty SDT content and enhance your document's usability.
 type: docs
 weight: 100
 url: /net/aspose.words.markup/istructureddocumenttag/placeholder/

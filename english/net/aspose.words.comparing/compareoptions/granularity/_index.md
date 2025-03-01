@@ -3,7 +3,7 @@ title: CompareOptions.Granularity
 linktitle: Granularity
 articleTitle: Granularity
 second_title: Aspose.Words for .NET
-description: Discover the CompareOptions Granularity property: track changes by character or word for precise text editing. Enhance your document control today!
+description: Discover the CompareOptions Granularity property, track changes by character or word for precise text editing. Enhance your document control today!
 type: docs
 weight: 40
 url: /net/aspose.words.comparing/compareoptions/granularity/

@@ -3,7 +3,7 @@ title: FieldAdvance.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
 second_title: Aspose.Words for .NET
-description: Discover the FieldAdvance HorizontalPosition property: easily adjust text positioning for precise layout control in your documents. Enhance your formatting today!
+description: Discover the FieldAdvance HorizontalPosition property, easily adjust text positioning for precise layout control in your documents. Enhance your formatting today!
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldadvance/horizontalposition/

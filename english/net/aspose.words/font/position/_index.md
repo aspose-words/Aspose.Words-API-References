@@ -3,7 +3,7 @@ title: Font.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words for .NET
-description: Discover the Font Position property: easily adjust text alignment in points for precise control over your typography. Elevate your design with flexible positioning!
+description: Discover the Font Position property, easily adjust text alignment in points for precise control over your typography. Elevate your design with flexible positioning!
 type: docs
 weight: 310
 url: /net/aspose.words/font/position/

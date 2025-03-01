@@ -3,7 +3,7 @@ title: Comment.ParentId
 linktitle: ParentId
 articleTitle: ParentId
 second_title: Aspose.Words for .NET
-description: Discover the ParentId property: Easily manage comment threads by accessing or setting parent comment IDs. Simplify your commenting system today!
+description: Discover the ParentId property. Easily manage comment threads by accessing or setting parent comment IDs. Simplify your commenting system today!
 type: docs
 weight: 100
 url: /net/aspose.words/comment/parentid/

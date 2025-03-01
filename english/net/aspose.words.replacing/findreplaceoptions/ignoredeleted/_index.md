@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreDeleted
 linktitle: IgnoreDeleted
 articleTitle: IgnoreDeleted
 second_title: Aspose.Words for .NET
-description: Discover the FindReplaceOptions IgnoreDeleted property: control text visibility in deleted revisions with an easy boolean toggle. Enhance your editing experience!
+description: Discover the FindReplaceOptions IgnoreDeleted property, control text visibility in deleted revisions with an easy boolean toggle. Enhance your editing experience!
 type: docs
 weight: 60
 url: /net/aspose.words.replacing/findreplaceoptions/ignoredeleted/

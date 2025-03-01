@@ -3,7 +3,7 @@ title: FieldIf.TrueText
 linktitle: TrueText
 articleTitle: TrueText
 second_title: Aspose.Words for .NET
-description: Discover the FieldIf TrueText property: easily manage displayed text for true comparison expressions, enhancing user experience and data clarity.
+description: Discover the FieldIf TrueText property, easily manage displayed text for true comparison expressions, enhancing user experience and data clarity.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldif/truetext/

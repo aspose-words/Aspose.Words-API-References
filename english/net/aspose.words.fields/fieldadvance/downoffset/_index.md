@@ -3,7 +3,7 @@ title: FieldAdvance.DownOffset
 linktitle: DownOffset
 articleTitle: DownOffset
 second_title: Aspose.Words for .NET
-description: Discover the FieldAdvance DownOffset property: easily adjust text positioning with precise control over vertical spacing for enhanced document formatting.
+description: Discover the FieldAdvance DownOffset property, easily adjust text positioning with precise control over vertical spacing for enhanced document formatting.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldadvance/downoffset/
