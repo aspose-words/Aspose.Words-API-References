@@ -5,7 +5,7 @@ articleTitle: CssStyleSheetType
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.CssStyleSheetType enhances HTML export by optimizing CSS styles for better web presentation and performance.
 type: docs
-weight: 5500
+weight: 5490
 url: /net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration

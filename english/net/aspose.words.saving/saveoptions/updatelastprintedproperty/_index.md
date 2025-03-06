@@ -5,7 +5,7 @@ articleTitle: UpdateLastPrintedProperty
 second_title: Aspose.Words for .NET
 description: Optimize document management with SaveOptions UpdateLastPrintedProperty. Control LastPrinted updates for efficient saving and enhanced workflow.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property

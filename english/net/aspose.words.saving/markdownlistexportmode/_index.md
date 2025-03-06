@@ -5,7 +5,7 @@ articleTitle: MarkdownListExportMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words' MarkdownListExportMode enum enhances list export to Markdown, ensuring precise formatting and seamless integration for your documents.
 type: docs
-weight: 5900
+weight: 5890
 url: /net/aspose.words.saving/markdownlistexportmode/
 ---
 ## MarkdownListExportMode enumeration

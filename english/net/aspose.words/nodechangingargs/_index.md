@@ -5,7 +5,7 @@ articleTitle: NodeChangingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.NodeChangingArgs class, designed to enhance your document processing with seamless INodeChangingCallback integration. Boost your workflow today!
 type: docs
-weight: 4750
+weight: 4740
 url: /net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class

@@ -5,7 +5,7 @@ articleTitle: PclSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PclSaveOptions to enhance your document saving with customizable features for PCL format. Optimize your workflow today!
 type: docs
-weight: 6040
+weight: 6030
 url: /net/aspose.words.saving/pclsaveoptions/
 ---
 ## PclSaveOptions class
@@ -50,6 +50,7 @@ public class PclSaveOptions : FixedPageSaveOptions
 | [RasterizeTransformedElements](../../aspose.words.saving/pclsaveoptions/rasterizetransformedelements/) { get; set; } | Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document. Default is `true`. |
 | override [SaveFormat](../../aspose.words.saving/pclsaveoptions/saveformat/) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Pcl. |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used. |
+| [UpdateAmbiguousTextFont](../../aspose.words.saving/saveoptions/updateambiguoustextfont/) { get; set; } | Determines whether the font attributes will be changed according to the character code being used. |
 | [UpdateCreatedTimeProperty](../../aspose.words.saving/saveoptions/updatecreatedtimeproperty/) { get; set; } | Gets or sets a value determining whether the [`CreatedTime`](../../aspose.words.properties/builtindocumentproperties/createdtime/) property is updated before saving. Default value is `false`; |
 | [UpdateFields](../../aspose.words.saving/saveoptions/updatefields/) { get; set; } | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is `true`. |
 | [UpdateLastPrintedProperty](../../aspose.words.saving/saveoptions/updatelastprintedproperty/) { get; set; } | Gets or sets a value determining whether the [`LastPrinted`](../../aspose.words.properties/builtindocumentproperties/lastprinted/) property is updated before saving. |

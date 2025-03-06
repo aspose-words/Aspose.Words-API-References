@@ -5,7 +5,7 @@ articleTitle: Range
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Range class, your key to managing document sections effortlessly. Enhance your document processing with seamless control and flexibility.
 type: docs
-weight: 5120
+weight: 5110
 url: /net/aspose.words/range/
 ---
 ## Range class

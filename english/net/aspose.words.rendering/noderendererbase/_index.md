@@ -5,7 +5,7 @@ articleTitle: NodeRendererBase
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Rendering.NodeRendererBase class—your foundation for efficient Shape and OfficeMath rendering in document processing.
 type: docs
-weight: 5150
+weight: 5140
 url: /net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class

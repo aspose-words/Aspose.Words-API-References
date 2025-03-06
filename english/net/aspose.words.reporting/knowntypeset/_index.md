@@ -5,7 +5,7 @@ articleTitle: KnownTypeSet
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Reporting.KnownTypeSet, a unique collection of Type objects for efficient report templates, enabling seamless type casting and access to static members.
 type: docs
-weight: 5320
+weight: 5310
 url: /net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class
