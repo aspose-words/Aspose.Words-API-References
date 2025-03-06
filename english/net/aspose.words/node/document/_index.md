@@ -3,7 +3,7 @@ title: Node.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: Discover the Node Document property: effortlessly access the document linked to your node for seamless data management and enhanced productivity.
+description: Discover the Node Document property, effortlessly access the document linked to your node for seamless data management and enhanced productivity.
 type: docs
 weight: 20
 url: /net/aspose.words/node/document/

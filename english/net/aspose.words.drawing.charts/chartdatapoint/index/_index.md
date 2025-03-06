@@ -3,7 +3,7 @@ title: ChartDataPoint.Index
 linktitle: Index
 articleTitle: Index
 second_title: Aspose.Words for .NET
-description: Discover the ChartDataPoint Index property: easily customize data point formatting for enhanced data visualization and insights in your charts.
+description: Discover the ChartDataPoint Index property, easily customize data point formatting for enhanced data visualization and insights in your charts.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartdatapoint/index/

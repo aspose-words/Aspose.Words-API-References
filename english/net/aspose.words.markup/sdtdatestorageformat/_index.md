@@ -5,7 +5,7 @@ articleTitle: SdtDateStorageFormat
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Markup.SdtDateStorageFormat enhances date handling in SDTs, ensuring seamless XML data integration in your documents.
 type: docs
-weight: 4570
+weight: 4560
 url: /net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration

@@ -3,7 +3,7 @@ title: GlowFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words for .NET
-description: Discover the GlowFormat Radius property to customize your glow effects. Adjust the radius in points for stunning visual enhancements. Default: 0.0.
+description: Discover the GlowFormat Radius property to customize your glow effects. Adjust the radius in points for stunning visual enhancements. Default, 0.0.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/glowformat/radius/

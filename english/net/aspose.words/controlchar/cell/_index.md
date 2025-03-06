@@ -3,7 +3,7 @@ title: ControlChar.Cell
 linktitle: Cell
 articleTitle: Cell
 second_title: Aspose.Words for .NET
-description: Discover ControlChar Cell field: the key to defining table cell and row endings with character x0007. Enhance your data organization effortlessly!
+description: Discover ControlChar Cell field, the key to defining table cell and row endings with character x0007. Enhance your data organization effortlessly!
 type: docs
 weight: 10
 url: /net/aspose.words/controlchar/cell/

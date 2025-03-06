@@ -3,7 +3,7 @@ title: Font.NoProofing
 linktitle: NoProofing
 articleTitle: NoProofing
 second_title: Aspose.Words for .NET
-description: Discover Font NoProofing: Prevent spell check on formatted text for cleaner designs. Enhance your documents with precision and professionalism!
+description: Discover Font NoProofing. Prevent spell check on formatted text for cleaner designs. Enhance your documents with precision and professionalism!
 type: docs
 weight: 280
 url: /net/aspose.words/font/noproofing/

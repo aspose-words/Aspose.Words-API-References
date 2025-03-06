@@ -3,7 +3,7 @@ title: ChartAxis.MajorUnitIsAuto
 linktitle: MajorUnitIsAuto
 articleTitle: MajorUnitIsAuto
 second_title: Aspose.Words for .NET
-description: Discover the ChartAxis MajorUnitIsAuto property: easily control major tick mark spacing for enhanced chart clarity and precision in your data visualizations.
+description: Discover the ChartAxis MajorUnitIsAuto property, easily control major tick mark spacing for enhanced chart clarity and precision in your data visualizations.
 type: docs
 weight: 140
 url: /net/aspose.words.drawing.charts/chartaxis/majorunitisauto/

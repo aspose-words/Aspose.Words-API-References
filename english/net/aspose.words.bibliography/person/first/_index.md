@@ -3,7 +3,7 @@ title: Person.First
 linktitle: First
 articleTitle: First
 second_title: Aspose.Words for .NET
-description: Discover Person First property: effortlessly manage and customize the first name of individuals for personalized experiences and enhanced data accuracy.
+description: Discover Person First property, effortlessly manage and customize the first name of individuals for personalized experiences and enhanced data accuracy.
 type: docs
 weight: 20
 url: /net/aspose.words.bibliography/person/first/

@@ -3,7 +3,7 @@ title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
 second_title: Aspose.Words for .NET
-description: Explore CustomPart Data: Access detailed information about your custom parts for enhanced precision and efficiency in your projects.
+description: Explore CustomPart Data. Access detailed information about your custom parts for enhanced precision and efficiency in your projects.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/custompart/data/

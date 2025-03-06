@@ -3,9 +3,9 @@ title: FootnoteType Enum
 linktitle: FootnoteType
 articleTitle: FootnoteType
 second_title: Aspose.Words for .NET
-description: Discover Aspose.Words.FootnoteType enum: Easily distinguish between footnotes and endnotes for enhanced document formatting and clarity.
+description: Discover Aspose.Words.FootnoteType enum. Easily distinguish between footnotes and endnotes for enhanced document formatting and clarity.
 type: docs
-weight: 4890
+weight: 4880
 url: /net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration

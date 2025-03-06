@@ -3,7 +3,7 @@ title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words for .NET
-description: Control CSS export with CssSavingArgs IsExportNeeded property. Choose to embed or save CSS to file for optimized HTML documents. Default: true.
+description: Control CSS export with CssSavingArgs IsExportNeeded property. Choose to embed or save CSS to file for optimized HTML documents. Default, true.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/csssavingargs/isexportneeded/

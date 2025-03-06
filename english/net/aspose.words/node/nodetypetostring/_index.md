@@ -3,7 +3,7 @@ title: Node.NodeTypeToString
 linktitle: NodeTypeToString
 articleTitle: NodeTypeToString
 second_title: Aspose.Words for .NET
-description: Discover the Node NodeTypeToString method: effortlessly convert node type enums into user-friendly strings for seamless coding and improved readability.
+description: Discover the Node NodeTypeToString method, effortlessly convert node type enums into user-friendly strings for seamless coding and improved readability.
 type: docs
 weight: 170
 url: /net/aspose.words/node/nodetypetostring/

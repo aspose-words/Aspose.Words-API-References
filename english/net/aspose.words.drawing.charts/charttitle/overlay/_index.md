@@ -3,7 +3,7 @@ title: ChartTitle.Overlay
 linktitle: Overlay
 articleTitle: Overlay
 second_title: Aspose.Words for .NET
-description: Discover the ChartTitle Overlay property: control element overlap for clearer visuals. Enhance your charts effortlessly with this simple setting!
+description: Discover the ChartTitle Overlay property, control element overlap for clearer visuals. Enhance your charts effortlessly with this simple setting!
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/charttitle/overlay/

@@ -3,7 +3,7 @@ title: ControlChar.SectionBreak
 linktitle: SectionBreak
 articleTitle: SectionBreak
 second_title: Aspose.Words for .NET
-description: Discover the ControlChar SectionBreak field: efficiently manage document sections with the x000c character, enhancing formatting and readability.
+description: Discover the ControlChar SectionBreak field, efficiently manage document sections with the x000c character, enhancing formatting and readability.
 type: docs
 weight: 240
 url: /net/aspose.words/controlchar/sectionbreak/

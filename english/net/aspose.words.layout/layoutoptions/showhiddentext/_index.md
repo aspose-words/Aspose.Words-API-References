@@ -3,7 +3,7 @@ title: LayoutOptions.ShowHiddenText
 linktitle: ShowHiddenText
 articleTitle: ShowHiddenText
 second_title: Aspose.Words for .NET
-description: Discover the LayoutOptions ShowHiddenText property: easily control the rendering of hidden text in your documents. Optimize your content visibility today!
+description: Discover the LayoutOptions ShowHiddenText property, easily control the rendering of hidden text in your documents. Optimize your content visibility today!
 type: docs
 weight: 80
 url: /net/aspose.words.layout/layoutoptions/showhiddentext/

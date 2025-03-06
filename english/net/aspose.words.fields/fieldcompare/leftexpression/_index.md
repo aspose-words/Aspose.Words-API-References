@@ -3,7 +3,7 @@ title: FieldCompare.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words for .NET
-description: Discover the FieldCompare LeftExpression property: easily access or modify the left side of your comparison expressions for enhanced data analysis.
+description: Discover the FieldCompare LeftExpression property, easily access or modify the left side of your comparison expressions for enhanced data analysis.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldcompare/leftexpression/

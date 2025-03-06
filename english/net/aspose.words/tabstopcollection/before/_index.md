@@ -3,7 +3,7 @@ title: TabStopCollection.Before
 linktitle: Before
 articleTitle: Before
 second_title: Aspose.Words for .NET
-description: Discover the TabStopCollection Before method: efficiently retrieve the nearest left tab stop for seamless navigation in your application.
+description: Discover the TabStopCollection Before method, efficiently retrieve the nearest left tab stop for seamless navigation in your application.
 type: docs
 weight: 50
 url: /net/aspose.words/tabstopcollection/before/

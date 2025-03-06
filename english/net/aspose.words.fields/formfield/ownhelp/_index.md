@@ -3,7 +3,7 @@ title: FormField.OwnHelp
 linktitle: OwnHelp
 articleTitle: OwnHelp
 second_title: Aspose.Words for .NET
-description: Discover the FormField OwnHelp property: Enhance user experience by customizing help messages when users press F1 on focused form fields.
+description: Discover the FormField OwnHelp property. Easily user experience by customizing help messages when users press F1 on focused form fields.
 type: docs
 weight: 150
 url: /net/aspose.words.fields/formfield/ownhelp/

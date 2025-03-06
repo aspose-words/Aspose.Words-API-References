@@ -3,7 +3,7 @@ title: Revision.Group
 linktitle: Group
 articleTitle: Group
 second_title: Aspose.Words for .NET
-description: Discover the Revision Group property: effortlessly retrieve revision groups or get null if no group exists. Simplify your data management today!
+description: Discover the Revision Group property, effortlessly retrieve revision groups or get null if no group exists. Simplify your data management today!
 type: docs
 weight: 30
 url: /net/aspose.words/revision/group/

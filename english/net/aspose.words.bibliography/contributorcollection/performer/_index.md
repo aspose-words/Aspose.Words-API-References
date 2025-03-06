@@ -3,7 +3,7 @@ title: ContributorCollection.Performer
 linktitle: Performer
 articleTitle: Performer
 second_title: Aspose.Words for .NET
-description: Discover the ContributorCollection Performer property: easily manage and customize source performers for enhanced data organization and retrieval.
+description: Discover the ContributorCollection Performer property, easily manage and customize source performers for enhanced data organization and retrieval.
 type: docs
 weight: 130
 url: /net/aspose.words.bibliography/contributorcollection/performer/

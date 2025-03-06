@@ -3,7 +3,7 @@ title: DocumentBuilder.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words for .NET
-description: Discover the DocumentBuilder Bold property: Easily format fonts as bold to enhance text visibility and impact in your documents. Boost your design today!
+description: Discover the DocumentBuilder Bold property. Easily format fonts as bold to enhance text visibility and impact in your documents. Boost your design today!
 type: docs
 weight: 20
 url: /net/aspose.words/documentbuilder/bold/

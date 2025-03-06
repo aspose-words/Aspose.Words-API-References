@@ -3,7 +3,7 @@ title: Font.AutoColor
 linktitle: AutoColor
 articleTitle: AutoColor
 second_title: Aspose.Words for .NET
-description: Discover the Font AutoColor property: get the current text color (black or white) for auto color adjustments. Optimize your design effortlessly!
+description: Discover the Font AutoColor property, get the current text color (black or white) for auto color adjustments. Optimize your design effortlessly!
 type: docs
 weight: 20
 url: /net/aspose.words/font/autocolor/

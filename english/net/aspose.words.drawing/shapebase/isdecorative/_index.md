@@ -3,7 +3,7 @@ title: ShapeBase.IsDecorative
 linktitle: IsDecorative
 articleTitle: IsDecorative
 second_title: Aspose.Words for .NET
-description: Discover ShapeBase: Easily manage decorative properties in your documents. Enhance visual appeal by setting flags for unique shape designs.
+description: Discover ShapeBase. Easily manage decorative properties in your documents. Enhance visual appeal by setting flags for unique shape designs.
 type: docs
 weight: 260
 url: /net/aspose.words.drawing/shapebase/isdecorative/

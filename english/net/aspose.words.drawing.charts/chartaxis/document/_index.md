@@ -3,7 +3,7 @@ title: ChartAxis.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words for .NET
-description: Discover ChartAxis Document property: access the parent chart's document effortlessly for enhanced data visualization and analysis.
+description: Discover ChartAxis Document property, access the parent chart's document effortlessly for enhanced data visualization and analysis.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartaxis/document/

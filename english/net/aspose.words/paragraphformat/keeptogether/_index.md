@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
 second_title: Aspose.Words for .NET
-description: Discover the ParagraphFormat KeepTogether property: ensure all lines stay together on one page for improved document readability and professional presentation.
+description: Discover the ParagraphFormat KeepTogether property, ensure all lines stay together on one page for improved document readability and professional presentation.
 type: docs
 weight: 160
 url: /net/aspose.words/paragraphformat/keeptogether/

@@ -3,7 +3,7 @@ title: DigitalSignature.SignTime
 linktitle: SignTime
 articleTitle: SignTime
 second_title: Aspose.Words for .NET
-description: Discover DigitalSignature SignTime: Track the exact time your documents are signed for enhanced security and efficient record-keeping.
+description: Discover DigitalSignature SignTime. Track the exact time your documents are signed for enhanced security and efficient record-keeping.
 type: docs
 weight: 70
 url: /net/aspose.words.digitalsignatures/digitalsignature/signtime/

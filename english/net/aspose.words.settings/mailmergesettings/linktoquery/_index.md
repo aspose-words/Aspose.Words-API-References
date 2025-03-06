@@ -3,7 +3,7 @@ title: MailMergeSettings.LinkToQuery
 linktitle: LinkToQuery
 articleTitle: LinkToQuery
 second_title: Aspose.Words for .NET
-description: Discover the MailMergeSettings LinkToQuery property: learn how it controls query execution in Word documents and its default setting for optimal performance.
+description: Discover the MailMergeSettings LinkToQuery property, learn how it controls query execution in Word documents and its default setting for optimal performance.
 type: docs
 weight: 110
 url: /net/aspose.words.settings/mailmergesettings/linktoquery/

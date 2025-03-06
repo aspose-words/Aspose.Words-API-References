@@ -3,7 +3,7 @@ title: Comment.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words for .NET
-description: Discover the SetText method: a user-friendly tool that simplifies adding comments, enhancing your workflow and boosting productivity effortlessly.
+description: Discover the SetText method, a user-friendly tool that simplifies adding comments, enhancing your workflow and boosting productivity effortlessly.
 type: docs
 weight: 190
 url: /net/aspose.words/comment/settext/

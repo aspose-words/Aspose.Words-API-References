@@ -3,7 +3,7 @@ title: PdfLoadOptions.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words for .NET
-description: Discover PdfLoadOptions PageIndex: Easily set the starting page index for PDF reading with this flexible property. Optimize your PDF handling today!
+description: Discover PdfLoadOptions PageIndex. Easily set the starting page index for PDF reading with this flexible property. Optimize your PDF handling today!
 type: docs
 weight: 30
 url: /net/aspose.words.loading/pdfloadoptions/pageindex/

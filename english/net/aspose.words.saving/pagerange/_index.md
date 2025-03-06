@@ -5,7 +5,7 @@ articleTitle: PageRange
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.PageRange class for defining continuous page ranges easily. Enhance your document processing with precision and efficiency.
 type: docs
-weight: 6010
+weight: 6000
 url: /net/aspose.words.saving/pagerange/
 ---
 ## PageRange class

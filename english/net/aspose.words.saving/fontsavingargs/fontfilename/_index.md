@@ -3,7 +3,7 @@ title: FontSavingArgs.FontFileName
 linktitle: FontFileName
 articleTitle: FontFileName
 second_title: Aspose.Words for .NET
-description: Discover the FontSavingArgs FontFileName property: easily manage font file names and enhance your design workflow with seamless saving capabilities.
+description: Discover the FontSavingArgs FontFileName property, easily manage font file names and enhance your design workflow with seamless saving capabilities.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/fontsavingargs/fontfilename/

@@ -3,7 +3,7 @@ title: FieldToc.EntrySeparator
 linktitle: EntrySeparator
 articleTitle: EntrySeparator
 second_title: Aspose.Words for .NET
-description: Discover the FieldToc EntrySeparator property: customize character sequences to enhance entry-page navigation and improve document organization.
+description: Discover the FieldToc EntrySeparator property, customize character sequences to enhance entry-page navigation and improve document organization.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldtoc/entryseparator/

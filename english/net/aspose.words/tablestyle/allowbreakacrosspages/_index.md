@@ -3,7 +3,7 @@ title: TableStyle.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 articleTitle: AllowBreakAcrossPages
 second_title: Aspose.Words for .NET
-description: Discover the TableStyle AllowBreakAcrossPages property: control text flow in tables and enhance your document's readability across pages.
+description: Discover the TableStyle AllowBreakAcrossPages property, control text flow in tables and enhance your document's readability across pages.
 type: docs
 weight: 20
 url: /net/aspose.words/tablestyle/allowbreakacrosspages/

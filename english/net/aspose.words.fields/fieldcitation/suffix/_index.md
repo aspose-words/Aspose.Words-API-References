@@ -3,7 +3,7 @@ title: FieldCitation.Suffix
 linktitle: Suffix
 articleTitle: Suffix
 second_title: Aspose.Words for .NET
-description: Discover the FieldCitation Suffix property: easily manage citation suffixes to enhance your data accuracy and streamline your referencing process.
+description: Discover the FieldCitation Suffix property, easily manage citation suffixes to enhance your data accuracy and streamline your referencing process.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldcitation/suffix/

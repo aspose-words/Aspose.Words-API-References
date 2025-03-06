@@ -3,7 +3,7 @@ title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
 second_title: Aspose.Words for .NET
-description: Discover the ReplacingArgs MatchOffset property: easily find the zero-based starting position of matches in your nodes for efficient data handling.
+description: Discover the ReplacingArgs MatchOffset property, easily find the zero-based starting position of matches in your nodes for efficient data handling.
 type: docs
 weight: 50
 url: /net/aspose.words.replacing/replacingargs/matchoffset/

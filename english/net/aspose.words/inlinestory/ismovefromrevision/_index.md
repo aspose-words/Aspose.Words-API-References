@@ -3,7 +3,7 @@ title: InlineStory.IsMoveFromRevision
 linktitle: IsMoveFromRevision
 articleTitle: IsMoveFromRevision
 second_title: Aspose.Words for .NET
-description: Discover InlineStory's IsMoveFromRevision property: Easily track moved or deleted content in Microsoft Word with change tracking enabled for seamless editing.
+description: Discover InlineStory's IsMoveFromRevision property. Easily track moved or deleted content in Microsoft Word with change tracking enabled for seamless editing.
 type: docs
 weight: 50
 url: /net/aspose.words/inlinestory/ismovefromrevision/

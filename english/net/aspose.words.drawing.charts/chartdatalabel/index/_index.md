@@ -3,7 +3,7 @@ title: ChartDataLabel.Index
 linktitle: Index
 articleTitle: Index
 second_title: Aspose.Words for .NET
-description: Discover the ChartDataLabel Index property: define element hierarchy and optimize data visualization. Default value is 0 for easy integration.
+description: Discover the ChartDataLabel Index property, define element hierarchy and optimize data visualization. Default value is 0 for easy integration.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatalabel/index/

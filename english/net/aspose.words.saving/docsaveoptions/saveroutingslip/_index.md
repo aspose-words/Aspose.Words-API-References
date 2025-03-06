@@ -3,7 +3,7 @@ title: DocSaveOptions.SaveRoutingSlip
 linktitle: SaveRoutingSlip
 articleTitle: SaveRoutingSlip
 second_title: Aspose.Words for .NET
-description: Discover the DocSaveOptions SaveRoutingSlip property: Control RoutingSlip data saving for your documents. Enhance output customization easily!
+description: Discover the DocSaveOptions SaveRoutingSlip property. Control RoutingSlip data saving for your documents. Enhance output customization easily!
 type: docs
 weight: 70
 url: /net/aspose.words.saving/docsaveoptions/saveroutingslip/

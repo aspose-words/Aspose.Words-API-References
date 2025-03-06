@@ -3,7 +3,7 @@ title: Cell.IsLastCell
 linktitle: IsLastCell
 articleTitle: IsLastCell
 second_title: Aspose.Words for .NET
-description: Discover the Cell IsLastCell property: Easily determine if a cell is the last in a row, enhancing your data management and optimization strategies.
+description: Discover the Cell IsLastCell property. Easily determine if a cell is the last in a row, enhancing your data management and optimization strategies.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/cell/islastcell/

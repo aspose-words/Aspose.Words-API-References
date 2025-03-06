@@ -3,7 +3,7 @@ title: ChartSeries.InvertIfNegative
 linktitle: InvertIfNegative
 articleTitle: InvertIfNegative
 second_title: Aspose.Words for .NET
-description: Discover the ChartSeries InvertIfNegative property: Easily customize color inversions for negative values, enhancing your data visualization experience.
+description: Discover the ChartSeries InvertIfNegative property. Easily customize color inversions for negative values, enhancing your data visualization experience.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartseries/invertifnegative/

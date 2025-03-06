@@ -3,7 +3,7 @@ title: FieldDdeAuto.InsertAsUnicode
 linktitle: InsertAsUnicode
 articleTitle: InsertAsUnicode
 second_title: Aspose.Words for .NET
-description: Discover the FieldDdeAuto InsertAsUnicode property: easily manage linked objects with Unicode text for enhanced data integration and efficiency.
+description: Discover the FieldDdeAuto InsertAsUnicode property, easily manage linked objects with Unicode text for enhanced data integration and efficiency.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldddeauto/insertasunicode/

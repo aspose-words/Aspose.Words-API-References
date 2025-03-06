@@ -3,7 +3,7 @@ title: FieldTC.EntryLevel
 linktitle: EntryLevel
 articleTitle: EntryLevel
 second_title: Aspose.Words for .NET
-description: Discover FieldTC EntryLevel property: effortlessly manage and customize your entry levels for enhanced efficiency and streamlined workflows.
+description: Discover FieldTC EntryLevel property, effortlessly manage and customize your entry levels for enhanced efficiency and streamlined workflows.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldtc/entrylevel/

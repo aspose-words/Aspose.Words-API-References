@@ -5,7 +5,7 @@ articleTitle: ImageBinarizationMethod
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ImageBinarizationMethod enum for effective image binarization. Optimize your document processing with advanced techniques.
 type: docs
-weight: 5820
+weight: 5810
 url: /net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration

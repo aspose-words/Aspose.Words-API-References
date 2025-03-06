@@ -3,7 +3,7 @@ title: Cell.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words for .NET
-description: Discover Cell Tables: Easily access a collection of tables directly within your cell for streamlined organization and enhanced data management.
+description: Discover Cell Tables. Easily access a collection of tables directly within your cell for streamlined organization and enhanced data management.
 type: docs
 weight: 120
 url: /net/aspose.words.tables/cell/tables/

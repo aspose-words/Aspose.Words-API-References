@@ -3,7 +3,7 @@ title: FieldIndex.PageNumberSeparator
 linktitle: PageNumberSeparator
 articleTitle: PageNumberSeparator
 second_title: Aspose.Words for .NET
-description: Discover the FieldIndex PageNumberSeparator property: easily customize the character that separates index entries from page numbers for enhanced clarity.
+description: Discover the FieldIndex PageNumberSeparator property, easily customize the character that separates index entries from page numbers for enhanced clarity.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldindex/pagenumberseparator/

@@ -3,7 +3,7 @@ title: FieldGoToButton.Location
 linktitle: Location
 articleTitle: Location
 second_title: Aspose.Words for .NET
-description: Discover the FieldGoToButton Location property: easily set bookmarks, page numbers, or items for seamless navigation and enhanced user experience.
+description: Discover the FieldGoToButton Location property, easily set bookmarks, page numbers, or items for seamless navigation and enhanced user experience.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldgotobutton/location/

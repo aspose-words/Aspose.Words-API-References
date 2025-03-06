@@ -3,7 +3,7 @@ title: Table.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words for .NET
-description: Discover the Table LeftPadding property: easily adjust cell content spacing in points for enhanced layout control and improved design flexibility.
+description: Discover the Table LeftPadding property, easily adjust cell content spacing in points for enhanced layout control and improved design flexibility.
 type: docs
 weight: 200
 url: /net/aspose.words.tables/table/leftpadding/

@@ -3,7 +3,7 @@ title: ChartSeriesGroup.AxisGroup
 linktitle: AxisGroup
 articleTitle: AxisGroup
 second_title: Aspose.Words for .NET
-description: Discover the ChartSeriesGroup AxisGroup property: easily manage your series group’s axis for enhanced data visualization and analysis.
+description: Discover the ChartSeriesGroup AxisGroup property, easily manage your series group’s axis for enhanced data visualization and analysis.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartseriesgroup/axisgroup/

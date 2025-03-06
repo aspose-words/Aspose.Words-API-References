@@ -3,7 +3,7 @@ title: ControlChar.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: Aspose.Words for .NET
-description: Discover the ControlChar ParagraphBreak field: Easily manage paragraph breaks with the x000d character for seamless text formatting and improved readability.
+description: Discover the ControlChar ParagraphBreak field. Easily manage paragraph breaks with the x000d character for seamless text formatting and improved readability.
 type: docs
 weight: 220
 url: /net/aspose.words/controlchar/paragraphbreak/

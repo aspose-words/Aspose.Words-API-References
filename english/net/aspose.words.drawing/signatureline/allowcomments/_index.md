@@ -3,7 +3,7 @@ title: SignatureLine.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words for .NET
-description: Discover the SignatureLine AllowComments property: enable signers to add comments in the Sign dialog for enhanced feedback. Default is false.
+description: Discover the SignatureLine AllowComments property, enable signers to add comments in the Sign dialog for enhanced feedback. Default is false.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/signatureline/allowcomments/

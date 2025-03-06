@@ -3,7 +3,7 @@ title: LayoutOptions.KeepOriginalFontMetrics
 linktitle: KeepOriginalFontMetrics
 articleTitle: KeepOriginalFontMetrics
 second_title: Aspose.Words for .NET
-description: Discover the LayoutOptions KeepOriginalFontMetrics property: control font metrics during substitution for consistent design. Default setting is true.
+description: Discover the LayoutOptions KeepOriginalFontMetrics property, control font metrics during substitution for consistent design. Default setting is true.
 type: docs
 weight: 60
 url: /net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/

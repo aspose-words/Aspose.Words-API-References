@@ -3,9 +3,9 @@ title: MailMerger Class
 linktitle: MailMerger
 articleTitle: MailMerger
 second_title: Aspose.Words for .NET
-description: Discover Aspose.Words.LowCode.MailMerger: Effortlessly fill templates with data using simple and advanced mail merge techniques for seamless document automation.
+description: Discover Aspose.Words.LowCode.MailMerger. Effortlessly fill templates with data using simple and advanced mail merge techniques for seamless document automation.
 type: docs
-weight: 4230
+weight: 4220
 url: /net/aspose.words.lowcode/mailmerger/
 ---
 ## MailMerger class

@@ -3,7 +3,7 @@ title: Bookmark.BookmarkEnd
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: Aspose.Words for .NET
-description: Discover the BookmarkEnd property: easily access the node marking the end of your bookmark for efficient document navigation and management.
+description: Discover the BookmarkEnd property, easily access the node marking the end of your bookmark for efficient document navigation and management.
 type: docs
 weight: 10
 url: /net/aspose.words/bookmark/bookmarkend/

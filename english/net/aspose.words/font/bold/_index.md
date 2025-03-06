@@ -3,7 +3,7 @@ title: Font.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words for .NET
-description: Discover the Font Bold property: easily identify if your text is bolded, enhancing readability and style for your web design projects.
+description: Discover the Font Bold property, easily identify if your text is bolded, enhancing readability and style for your web design projects.
 type: docs
 weight: 40
 url: /net/aspose.words/font/bold/

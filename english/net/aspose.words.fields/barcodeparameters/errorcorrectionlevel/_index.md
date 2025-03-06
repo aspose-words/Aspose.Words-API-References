@@ -3,7 +3,7 @@ title: BarcodeParameters.ErrorCorrectionLevel
 linktitle: ErrorCorrectionLevel
 articleTitle: ErrorCorrectionLevel
 second_title: Aspose.Words for .NET
-description: Discover the ErrorCorrectionLevel property for QR Codes. Enhance your barcodes with optimal error correction options: values 0 and 3 for reliability.
+description: Discover the ErrorCorrectionLevel property for QR Codes. Enhance your barcodes with optimal error correction options, values 0 and 3 for reliability.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/

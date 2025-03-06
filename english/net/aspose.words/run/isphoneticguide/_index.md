@@ -3,7 +3,7 @@ title: Run.IsPhoneticGuide
 linktitle: IsPhoneticGuide
 articleTitle: IsPhoneticGuide
 second_title: Aspose.Words for .NET
-description: Discover IsPhoneticGuide: a powerful tool that determines if a run serves as a phonetic guide, enhancing your text's clarity and readability.
+description: Discover IsPhoneticGuide, a powerful tool that determines if a run serves as a phonetic guide, enhancing your text's clarity and readability.
 type: docs
 weight: 20
 url: /net/aspose.words/run/isphoneticguide/

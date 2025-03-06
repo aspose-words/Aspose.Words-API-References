@@ -3,7 +3,7 @@ title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words for .NET
-description: Discover the Paragraph FrameFormat property: easily access and customize frame formatting properties for enhanced document presentation.
+description: Discover the Paragraph FrameFormat property, easily access and customize frame formatting properties for enhanced document presentation.
 type: docs
 weight: 30
 url: /net/aspose.words/paragraph/frameformat/

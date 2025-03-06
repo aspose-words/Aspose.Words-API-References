@@ -3,7 +3,7 @@ title: ShapeBase.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase Width property: Easily adjust the width of your shape's containing block for enhanced design flexibility and precision.
+description: Discover the ShapeBase Width property. Easily adjust the width of your shape's containing block for enhanced design flexibility and precision.
 type: docs
 weight: 610
 url: /net/aspose.words.drawing/shapebase/width/

@@ -3,7 +3,7 @@ title: FontInfo.Pitch
 linktitle: Pitch
 articleTitle: Pitch
 second_title: Aspose.Words for .NET
-description: Discover the FontInfo Pitch property: Learn how it defines fixed pitch vs. proportional spacing, enhancing your typography for better design clarity.
+description: Discover the FontInfo Pitch property. Learn how it defines fixed pitch vs. proportional spacing, enhancing your typography for better design clarity.
 type: docs
 weight: 80
 url: /net/aspose.words.fonts/fontinfo/pitch/

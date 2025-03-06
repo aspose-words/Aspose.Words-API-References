@@ -3,7 +3,7 @@ title: ShapeBase.IsHorizontalRule
 linktitle: IsHorizontalRule
 articleTitle: IsHorizontalRule
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase IsHorizontalRule property: easily identify horizontal rules in your designs for improved layout and styling efficiency.
+description: Discover the ShapeBase IsHorizontalRule property, easily identify horizontal rules in your designs for improved layout and styling efficiency.
 type: docs
 weight: 290
 url: /net/aspose.words.drawing/shapebase/ishorizontalrule/

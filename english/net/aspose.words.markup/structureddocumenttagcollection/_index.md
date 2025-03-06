@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTagCollection
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Markup.StructuredDocumentTagCollection class for efficient management of structured document tags, enhancing your document processing capabilities.
 type: docs
-weight: 4630
+weight: 4620
 url: /net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class

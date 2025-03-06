@@ -3,7 +3,7 @@ title: Bibliography.BibliographyStyle
 linktitle: BibliographyStyle
 articleTitle: BibliographyStyle
 second_title: Aspose.Words for .NET
-description: Discover the BibliographyStyle property: easily manage and customize your bibliography's active style for enhanced organization and presentation.
+description: Discover the BibliographyStyle property easily manage and customize your bibliography's active style for enhanced organization and presentation.
 type: docs
 weight: 10
 url: /net/aspose.words.bibliography/bibliography/bibliographystyle/

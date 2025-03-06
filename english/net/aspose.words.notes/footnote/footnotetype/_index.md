@@ -3,7 +3,7 @@ title: Footnote.FootnoteType
 linktitle: FootnoteType
 articleTitle: FootnoteType
 second_title: Aspose.Words for .NET
-description: Discover the FootnoteType property: easily identify footnotes or endnotes in your documents for enhanced clarity and organization.
+description: Discover the FootnoteType property, easily identify footnotes or endnotes in your documents for enhanced clarity and organization.
 type: docs
 weight: 30
 url: /net/aspose.words.notes/footnote/footnotetype/

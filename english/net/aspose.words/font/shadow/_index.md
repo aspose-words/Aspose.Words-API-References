@@ -3,7 +3,7 @@ title: Font.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words for .NET
-description: Discover the Font Shadow property: enhance your text with stylish shadow effects for a striking visual appeal in your designs.
+description: Discover the Font Shadow property, enhance your text with stylish shadow effects for a striking visual appeal in your designs.
 type: docs
 weight: 340
 url: /net/aspose.words/font/shadow/

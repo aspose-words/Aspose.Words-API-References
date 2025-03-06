@@ -3,7 +3,7 @@ title: DocumentBase.BackgroundShape
 linktitle: BackgroundShape
 articleTitle: BackgroundShape
 second_title: Aspose.Words for .NET
-description: Discover the DocumentBase BackgroundShape property: easily customize your document's background shape for enhanced visual appeal. Maximize your design potential!
+description: Discover the DocumentBase BackgroundShape property, easily customize your document's background shape for enhanced visual appeal. Maximize your design potential!
 type: docs
 weight: 10
 url: /net/aspose.words/documentbase/backgroundshape/

@@ -3,7 +3,7 @@ title: BuildingBlock.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words for .NET
-description: Discover the BuildingBlock AcceptStart method: seamlessly welcome visitors and enhance their experience from the moment they arrive.
+description: Discover the BuildingBlock AcceptStart method, seamlessly welcome visitors and enhance their experience from the moment they arrive.
 type: docs
 weight: 150
 url: /net/aspose.words.buildingblocks/buildingblock/acceptstart/

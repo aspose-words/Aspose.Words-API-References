@@ -3,7 +3,7 @@ title: FieldAdvance.RightOffset
 linktitle: RightOffset
 articleTitle: RightOffset
 second_title: Aspose.Words for .NET
-description: Discover the FieldAdvance RightOffset property: easily adjust text positioning with precise point control for enhanced document formatting and clarity.
+description: Discover the FieldAdvance RightOffset property, easily adjust text positioning with precise point control for enhanced document formatting and clarity.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldadvance/rightoffset/

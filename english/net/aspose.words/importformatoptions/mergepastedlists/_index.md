@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words for .NET
-description: Control list merging with the ImportFormatOptions MergePastedLists property. Easily manage pasted lists to enhance document formatting. Default: false.
+description: Control list merging with the ImportFormatOptions MergePastedLists property. Easily manage pasted lists to enhance document formatting. Default, false.
 type: docs
 weight: 70
 url: /net/aspose.words/importformatoptions/mergepastedlists/

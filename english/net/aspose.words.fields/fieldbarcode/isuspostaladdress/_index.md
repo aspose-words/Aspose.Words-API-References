@@ -3,7 +3,7 @@ title: FieldBarcode.IsUSPostalAddress
 linktitle: IsUSPostalAddress
 articleTitle: IsUSPostalAddress
 second_title: Aspose.Words for .NET
-description: Discover the FieldBarcode IsUSPostalAddress property: Easily manage U.S. postal address validation for accurate data handling and enhanced efficiency.
+description: Discover the FieldBarcode IsUSPostalAddress property. Easily manage U.S. postal address validation for accurate data handling and enhanced efficiency.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbarcode/isuspostaladdress/

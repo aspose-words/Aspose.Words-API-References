@@ -3,7 +3,7 @@ title: RevisionOptions.InsertedTextEffect
 linktitle: InsertedTextEffect
 articleTitle: InsertedTextEffect
 second_title: Aspose.Words for .NET
-description: Discover the RevisionOptions InsertedTextEffect property to customize your content with unique effects. Default: Underline. Enhance your text's impact!
+description: Discover the RevisionOptions InsertedTextEffect property to customize your content with unique effects. Default, Underline. Enhance your text's impact!
 type: docs
 weight: 70
 url: /net/aspose.words.layout/revisionoptions/insertedtexteffect/

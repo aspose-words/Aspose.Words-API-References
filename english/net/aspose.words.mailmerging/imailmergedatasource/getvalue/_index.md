@@ -3,7 +3,7 @@ title: IMailMergeDataSource.GetValue
 linktitle: GetValue
 articleTitle: GetValue
 second_title: Aspose.Words for .NET
-description: Discover the IMailMergeDataSource GetValue method: effortlessly retrieve field values or get false if not found. Streamline your data management today!
+description: Discover the IMailMergeDataSource GetValue method, effortlessly retrieve field values or get false if not found. Streamline your data management today!
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/imailmergedatasource/getvalue/

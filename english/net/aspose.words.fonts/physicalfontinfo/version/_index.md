@@ -3,7 +3,7 @@ title: PhysicalFontInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words for .NET
-description: Discover the PhysicalFontInfo Version property: easily access the font's version string for enhanced design consistency and improved typography.
+description: Discover the PhysicalFontInfo Version property, easily access the font's version string for enhanced design consistency and improved typography.
 type: docs
 weight: 50
 url: /net/aspose.words.fonts/physicalfontinfo/version/

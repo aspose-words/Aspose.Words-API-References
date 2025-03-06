@@ -3,7 +3,7 @@ title: ReportingEngine.MissingMemberMessage
 linktitle: MissingMemberMessage
 articleTitle: MissingMemberMessage
 second_title: Aspose.Words for .NET
-description: Discover the ReportingEngine MissingMemberMessage property: customize messages for missing object members with ease. Enhance user experience effortlessly!
+description: Discover the ReportingEngine MissingMemberMessage property, customize messages for missing object members with ease. Enhance user experience effortlessly!
 type: docs
 weight: 30
 url: /net/aspose.words.reporting/reportingengine/missingmembermessage/

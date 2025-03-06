@@ -5,7 +5,7 @@ articleTitle: NodeCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.NodeCollection class, your go-to solution for managing diverse node types efficiently in document processing. Enhance your workflow today!
 type: docs
-weight: 4760
+weight: 4750
 url: /net/aspose.words/nodecollection/
 ---
 ## NodeCollection class

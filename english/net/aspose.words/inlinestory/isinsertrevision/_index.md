@@ -3,7 +3,7 @@ title: InlineStory.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words for .NET
-description: Discover InlineStory's IsInsertRevision property: Easily identify inserted objects in Word with change tracking enabled. Enhance your document management today!
+description: Discover InlineStory's IsInsertRevision property. Easily identify inserted objects in Word with change tracking enabled. Enhance your document management today!
 type: docs
 weight: 40
 url: /net/aspose.words/inlinestory/isinsertrevision/

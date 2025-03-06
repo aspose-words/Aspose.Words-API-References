@@ -5,7 +5,7 @@ articleTitle: Splitter
 second_title: Aspose.Words for .NET
 description: Effortlessly split documents with Aspose.Words.LowCode.Splitter class. Utilize versatile methods for precise document management and enhanced workflow efficiency.
 type: docs
-weight: 4310
+weight: 4300
 url: /net/aspose.words.lowcode/splitter/
 ---
 ## Splitter class

@@ -3,7 +3,7 @@ title: Font.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words for .NET
-description: Discover the Font StyleName property: easily manage character styles for enhanced text formatting and design flexibility in your projects.
+description: Discover the Font StyleName property, easily manage character styles for enhanced text formatting and design flexibility in your projects.
 type: docs
 weight: 430
 url: /net/aspose.words/font/stylename/

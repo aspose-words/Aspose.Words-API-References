@@ -3,7 +3,7 @@ title: Font.ItalicBi
 linktitle: ItalicBi
 articleTitle: ItalicBi
 second_title: Aspose.Words for .NET
-description: Discover the ItalicBi property for fonts: enhance right-to-left text formatting with italic styles for improved readability and design appeal.
+description: Discover the ItalicBi property for fonts, enhance right-to-left text formatting with italic styles for improved readability and design appeal.
 type: docs
 weight: 170
 url: /net/aspose.words/font/italicbi/

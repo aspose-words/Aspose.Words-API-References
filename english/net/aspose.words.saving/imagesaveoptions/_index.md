@@ -3,9 +3,9 @@ title: ImageSaveOptions Class
 linktitle: ImageSaveOptions
 articleTitle: ImageSaveOptions
 second_title: Aspose.Words for .NET
-description: Discover Aspose.Words.Saving.ImageSaveOptions: Enhance your document rendering with customizable options for high-quality image output.
+description: Discover Aspose.Words.Saving.ImageSaveOptions. Easily your document rendering with customizable options for high-quality image output.
 type: docs
-weight: 5850
+weight: 5840
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -61,6 +61,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [ThresholdForFloydSteinbergDithering](../../aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/) { get; set; } | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [`ImageBinarizationMethod`](../imagebinarizationmethod/) is FloydSteinbergDithering. |
 | [TiffBinarizationMethod](../../aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/) { get; set; } | Gets or sets method used while converting images to 1 bpp format when [`SaveFormat`](./saveformat/) is Tiff and [`TiffCompression`](./tiffcompression/) is equal to Ccitt3 or Ccitt4. |
 | [TiffCompression](../../aspose.words.saving/imagesaveoptions/tiffcompression/) { get; set; } | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
+| [UpdateAmbiguousTextFont](../../aspose.words.saving/saveoptions/updateambiguoustextfont/) { get; set; } | Determines whether the font attributes will be changed according to the character code being used. |
 | [UpdateCreatedTimeProperty](../../aspose.words.saving/saveoptions/updatecreatedtimeproperty/) { get; set; } | Gets or sets a value determining whether the [`CreatedTime`](../../aspose.words.properties/builtindocumentproperties/createdtime/) property is updated before saving. Default value is `false`; |
 | [UpdateFields](../../aspose.words.saving/saveoptions/updatefields/) { get; set; } | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is `true`. |
 | [UpdateLastPrintedProperty](../../aspose.words.saving/saveoptions/updatelastprintedproperty/) { get; set; } | Gets or sets a value determining whether the [`LastPrinted`](../../aspose.words.properties/builtindocumentproperties/lastprinted/) property is updated before saving. |

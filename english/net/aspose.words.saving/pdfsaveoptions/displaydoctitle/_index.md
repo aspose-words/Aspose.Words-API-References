@@ -5,7 +5,7 @@ articleTitle: DisplayDocTitle
 second_title: Aspose.Words for .NET
 description: Discover how the PdfSaveOptions DisplayDocTitle property enhances your PDF experience by showing document titles in the Windows title bar for easy identification.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 ---
 ## PdfSaveOptions.DisplayDocTitle property

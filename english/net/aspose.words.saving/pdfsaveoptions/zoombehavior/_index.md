@@ -3,7 +3,7 @@ title: PdfSaveOptions.ZoomBehavior
 linktitle: ZoomBehavior
 articleTitle: ZoomBehavior
 second_title: Aspose.Words for .NET
-description: Discover PdfSaveOptions ZoomBehavior: control zoom settings for optimal viewing in PDF viewers. Enhance user experience with tailored document display!
+description: Discover PdfSaveOptions ZoomBehavior, control zoom settings for optimal viewing in PDF viewers. Enhance user experience with tailored document display!
 type: docs
 weight: 350
 url: /net/aspose.words.saving/pdfsaveoptions/zoombehavior/

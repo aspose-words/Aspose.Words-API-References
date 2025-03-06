@@ -3,7 +3,7 @@ title: Source.Theater
 linktitle: Theater
 articleTitle: Theater
 second_title: Aspose.Words for .NET
-description: Discover Source Theater property: effortlessly manage and customize your theater settings for an enhanced entertainment experience. Unlock your creative potential!
+description: Discover Source Theater property, effortlessly manage and customize your theater settings for an enhanced entertainment experience. Unlock your creative potential!
 type: docs
 weight: 460
 url: /net/aspose.words.bibliography/source/theater/

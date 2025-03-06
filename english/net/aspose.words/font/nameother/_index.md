@@ -3,7 +3,7 @@ title: Font.NameOther
 linktitle: NameOther
 articleTitle: NameOther
 second_title: Aspose.Words for .NET
-description: Discover Font NameOther: Easily customize fonts for character codes 128-255, enhancing your text's style and readability. Elevate your design today!
+description: Discover Font NameOther. Easily customize fonts for character codes 128-255, enhancing your text's style and readability. Elevate your design today!
 type: docs
 weight: 270
 url: /net/aspose.words/font/nameother/

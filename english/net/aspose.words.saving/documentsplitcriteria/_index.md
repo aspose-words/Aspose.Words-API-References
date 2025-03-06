@@ -5,7 +5,7 @@ articleTitle: DocumentSplitCriteria
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.DocumentSplitCriteria enhances document splitting for optimal Html, Epub, and Azw3 formats. Streamline your saving process!
 type: docs
-weight: 5580
+weight: 5570
 url: /net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration

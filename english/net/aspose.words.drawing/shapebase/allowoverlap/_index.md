@@ -3,7 +3,7 @@ title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words for .NET
-description: Discover the ShapeBase AllowOverlap property: control shape interactions by enabling or disabling overlap with other shapes for enhanced design flexibility.
+description: Discover the ShapeBase AllowOverlap property, control shape interactions by enabling or disabling overlap with other shapes for enhanced design flexibility.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/shapebase/allowoverlap/

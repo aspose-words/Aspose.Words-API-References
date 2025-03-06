@@ -3,7 +3,7 @@ title: InlineStory.Paragraphs
 linktitle: Paragraphs
 articleTitle: Paragraphs
 second_title: Aspose.Words for .NET
-description: Discover the InlineStory Paragraphs property: access a unique collection of story paragraphs for enhanced content organization and readability.
+description: Discover the InlineStory Paragraphs property, access a unique collection of story paragraphs for enhanced content organization and readability.
 type: docs
 weight: 80
 url: /net/aspose.words/inlinestory/paragraphs/

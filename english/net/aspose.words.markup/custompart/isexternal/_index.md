@@ -3,7 +3,7 @@ title: CustomPart.IsExternal
 linktitle: IsExternal
 articleTitle: IsExternal
 second_title: Aspose.Words for .NET
-description: Discover the CustomPart IsExternal property: learn how it defines internal vs. external custom parts in OOXML packages for streamlined data management.
+description: Discover the CustomPart IsExternal property, learn how it defines internal vs. external custom parts in OOXML packages for streamlined data management.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/custompart/isexternal/

@@ -3,7 +3,7 @@ title: Range.Revisions
 linktitle: Revisions
 articleTitle: Revisions
 second_title: Aspose.Words for .NET
-description: Discover Range Revisions: Track and manage property changes effortlessly with our comprehensive collection of revisions for enhanced project clarity.
+description: Discover Range Revisions. Track and manage property changes effortlessly with our comprehensive collection of revisions for enhanced project clarity.
 type: docs
 weight: 40
 url: /net/aspose.words/range/revisions/

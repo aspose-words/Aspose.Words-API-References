@@ -3,7 +3,7 @@ title: FieldAsk.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
 second_title: Aspose.Words for .NET
-description: Discover the FieldAsk DefaultResponse property: Easily manage initial user responses in prompt windows to enhance user interaction and streamline workflows.
+description: Discover the FieldAsk DefaultResponse property. Easily manage initial user responses in prompt windows to enhance user interaction and streamline workflows.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldask/defaultresponse/

@@ -3,7 +3,7 @@ title: OdsoFieldMapData.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words for .NET
-description: Discover the OdsoFieldMapData Name property: easily link external data columns with customizable indexing. Simplify data management effortlessly!
+description: Discover the OdsoFieldMapData Name property, easily link external data columns with customizable indexing. Simplify data management effortlessly!
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsofieldmapdata/name/

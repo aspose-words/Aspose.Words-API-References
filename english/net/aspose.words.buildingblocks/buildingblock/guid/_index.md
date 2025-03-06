@@ -3,7 +3,7 @@ title: BuildingBlock.Guid
 linktitle: Guid
 articleTitle: Guid
 second_title: Aspose.Words for .NET
-description: Discover BuildingBlock GUID property: Easily manage a unique 128-bit identifier for your building blocks, ensuring seamless organization and identification.
+description: Discover BuildingBlock GUID property. Easily manage a unique 128-bit identifier for your building blocks, ensuring seamless organization and identification.
 type: docs
 weight: 70
 url: /net/aspose.words.buildingblocks/buildingblock/guid/

@@ -3,7 +3,7 @@ title: Range.ToDocument
 linktitle: ToDocument
 articleTitle: ToDocument
 second_title: Aspose.Words for .NET
-description: Discover the Range ToDocument method: effortlessly create a complete document from your selected range, enhancing your workflow and productivity.
+description: Discover the Range ToDocument method, effortlessly create a complete document from your selected range, enhancing your workflow and productivity.
 type: docs
 weight: 110
 url: /net/aspose.words/range/todocument/
