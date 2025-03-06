@@ -5,7 +5,7 @@ articleTitle: Merger
 second_title: Aspose.Words for .NET
 description: Effortlessly merge diverse document types into one with Aspose.Words.LowCode.Merger class. Streamline your workflow and enhance productivity today!
 type: docs
-weight: 4250
+weight: 4240
 url: /net/aspose.words.lowcode/merger/
 ---
 ## Merger class

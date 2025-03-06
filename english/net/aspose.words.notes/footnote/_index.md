@@ -5,7 +5,7 @@ articleTitle: Footnote
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Notes.Footnote class, your essential tool for managing footnotes and endnotes with ease and precision in your documents.
 type: docs
-weight: 4820
+weight: 4810
 url: /net/aspose.words.notes/footnote/
 ---
 ## Footnote class

@@ -5,7 +5,7 @@ articleTitle: OutlineLevel
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.OutlineLevel enum to easily manage paragraph outline levels in your documents for enhanced organization and clarity.
 type: docs
-weight: 4930
+weight: 4920
 url: /net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration

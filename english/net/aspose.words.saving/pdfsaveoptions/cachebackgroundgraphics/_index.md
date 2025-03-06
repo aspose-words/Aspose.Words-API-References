@@ -5,7 +5,7 @@ articleTitle: CacheBackgroundGraphics
 second_title: Aspose.Words for .NET
 description: Discover the PdfSaveOptions CacheBackgroundGraphics property to optimize document graphics caching, enhancing your PDF creation and performance.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 ---
 ## PdfSaveOptions.CacheBackgroundGraphics property

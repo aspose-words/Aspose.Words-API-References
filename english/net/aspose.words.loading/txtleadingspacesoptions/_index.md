@@ -5,7 +5,7 @@ articleTitle: TxtLeadingSpacesOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words TxtLeadingSpacesOptions enum for efficient leading space handling when importing text files. Optimize your document processing today!
 type: docs
-weight: 4170
+weight: 4160
 url: /net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration

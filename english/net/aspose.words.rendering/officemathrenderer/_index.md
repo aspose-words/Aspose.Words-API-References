@@ -5,7 +5,7 @@ articleTitle: OfficeMathRenderer
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Rendering.OfficeMathRenderer class to effortlessly convert OfficeMath into stunning raster or vector images for your projects.
 type: docs
-weight: 5160
+weight: 5150
 url: /net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class

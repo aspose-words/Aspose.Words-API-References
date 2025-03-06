@@ -5,7 +5,7 @@ articleTitle: UpdateLastSavedTimeProperty
 second_title: Aspose.Words for .NET
 description: Optimize your SaveOptions with the UpdateLastSavedTimeProperty. Control LastSavedTime updates for efficient data management and enhanced performance.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property

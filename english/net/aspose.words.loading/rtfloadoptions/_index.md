@@ -5,7 +5,7 @@ articleTitle: RtfLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.RtfLoadOptions to enhance RTF document loading with customizable settings for seamless integration into your projects.
 type: docs
-weight: 4160
+weight: 4150
 url: /net/aspose.words.loading/rtfloadoptions/
 ---
 ## RtfLoadOptions class

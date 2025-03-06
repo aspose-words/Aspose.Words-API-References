@@ -5,7 +5,7 @@ articleTitle: CustomPart
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.CustomPart class for flexible content management. Create unique, non-standard parts beyond ISO/IEC 29500 with ease!
 type: docs
-weight: 4460
+weight: 4450
 url: /net/aspose.words.markup/custompart/
 ---
 ## CustomPart class

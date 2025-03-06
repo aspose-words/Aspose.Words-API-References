@@ -5,7 +5,7 @@ articleTitle: CustomPropertiesExport
 second_title: Aspose.Words for .NET
 description: Discover how the PdfSaveOptions CustomPropertiesExport property enhances your PDF exports by controlling CustomDocumentProperties for optimal results.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property

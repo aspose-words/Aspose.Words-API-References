@@ -5,7 +5,7 @@ articleTitle: ReplacementFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Replacing.ReplacementFormat enum for flexible document formatting options. Enhance your text replacements with ease!
 type: docs
-weight: 5250
+weight: 5240
 url: /net/aspose.words.replacing/replacementformat/
 ---
 ## ReplacementFormat enumeration

@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Discover PdfSaveOptions DigitalSignatureDetails to easily manage PDF signing details, ensuring secure and efficient document output.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 ---
 ## PdfSaveOptions.DigitalSignatureDetails property

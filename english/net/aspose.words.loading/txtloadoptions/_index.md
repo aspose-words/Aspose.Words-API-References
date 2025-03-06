@@ -5,7 +5,7 @@ articleTitle: TxtLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TxtLoadOptions for enhanced text document loading. Customize your Document object with flexible options for optimal performance.
 type: docs
-weight: 4180
+weight: 4170
 url: /net/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class

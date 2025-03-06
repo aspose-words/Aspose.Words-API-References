@@ -5,7 +5,7 @@ articleTitle: XmlMapping
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.XmlMapping class to seamlessly link structured document tags with XML elements, enhancing your document's data integration.
 type: docs
-weight: 4660
+weight: 4650
 url: /net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class

@@ -5,7 +5,7 @@ articleTitle: CreateNoteHyperlinks
 second_title: Aspose.Words for .NET
 description: Enhance your PDFs with PdfSaveOptions' CreateNoteHyperlinks. Convert footnotes and endnotes into clickable links for easy navigation. Default, false.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 ---
 ## PdfSaveOptions.CreateNoteHyperlinks property

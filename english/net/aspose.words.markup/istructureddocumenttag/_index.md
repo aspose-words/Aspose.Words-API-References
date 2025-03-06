@@ -5,7 +5,7 @@ articleTitle: IStructuredDocumentTag
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Markup.IStructuredDocumentTag interface for efficient management of Structured Document Tags and enhance your document processing today!
 type: docs
-weight: 4530
+weight: 4520
 url: /net/aspose.words.markup/istructureddocumenttag/
 ---
 ## IStructuredDocumentTag interface
