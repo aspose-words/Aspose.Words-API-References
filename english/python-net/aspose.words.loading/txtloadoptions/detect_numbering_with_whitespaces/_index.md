@@ -45,24 +45,24 @@ Shows how to detect lists when loading plaintext documents.
 # Create a plaintext document in a string with four separate parts that we may interpret as lists,
 # with different delimiters. Upon loading the plaintext document into a "Document" object,
 # Aspose.Words will always detect the first three lists and will add a "List" object
-# for each to the document's "lists" property.
-text_doc = textwrap.dedent('\n                Full stop delimiters:\n                1. First list item 1\n                2. First list item 2\n                3. First list item 3\n\n                Right bracket delimiters:\n                1) Second list item 1\n                2) Second list item 2\n                3) Second list item 3\n\n                Bullet delimiters:\n                • Third list item 1\n                • Third list item 2\n                • Third list item 3\n\n                Whitespace delimiters:\n                1 Fourth list item 1\n                2 Fourth list item 2\n                3 Fourth list item 3').lstrip()
+# for each to the document's "Lists" property.
+text_doc = 'Full stop delimiters:\n' + '1. First list item 1\n' + '2. First list item 2\n' + '3. First list item 3\n\n' + 'Right bracket delimiters:\n' + '1) Second list item 1\n' + '2) Second list item 2\n' + '3) Second list item 3\n\n' + 'Bullet delimiters:\n' + '• Third list item 1\n' + '• Third list item 2\n' + '• Third list item 3\n\n' + 'Whitespace delimiters:\n' + '1 Fourth list item 1\n' + '2 Fourth list item 2\n' + '3 Fourth list item 3'
 # Create a "TxtLoadOptions" object, which we can pass to a document's constructor
 # to modify how we load a plaintext document.
 load_options = aw.loading.TxtLoadOptions()
-# Set the "detect_numbering_with_whitespaces" property to "True" to detect numbered items
+# Set the "DetectNumberingWithWhitespaces" property to "true" to detect numbered items
 # with whitespace delimiters, such as the fourth list in our document, as lists.
 # This may also falsely detect paragraphs that begin with numbers as lists.
-# Set the "detect_numbering_with_whitespaces" property to "False"
+# Set the "DetectNumberingWithWhitespaces" property to "false"
 # to not create lists from numbered items with whitespace delimiters.
 load_options.detect_numbering_with_whitespaces = detect_numbering_with_whitespaces
-doc = aw.Document(io.BytesIO(text_doc.encode('utf-8')), load_options)
+doc = aw.Document(stream=io.BytesIO(system_helper.text.Encoding.get_bytes(text_doc, system_helper.text.Encoding.utf_8())), load_options=load_options)
 if detect_numbering_with_whitespaces:
     self.assertEqual(4, doc.lists.count)
-    self.assertTrue(any(('Fourth list' in p.get_text() and p.as_paragraph().is_list_item for p in doc.first_section.body.paragraphs)))
+    self.assertTrue(any(['Fourth list' in p.get_text() and p.as_paragraph().is_list_item for p in doc.first_section.body.paragraphs]))
 else:
     self.assertEqual(3, doc.lists.count)
-    self.assertFalse(any(('Fourth list' in p.get_text() and p.as_paragraph().is_list_item for p in doc.first_section.body.paragraphs)))
+    self.assertFalse(any(['Fourth list' in p.get_text() and p.as_paragraph().is_list_item for p in doc.first_section.body.paragraphs]))
 ```
 
 ### See Also

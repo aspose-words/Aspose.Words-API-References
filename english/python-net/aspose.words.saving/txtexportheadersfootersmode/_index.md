@@ -5,7 +5,7 @@ articleTitle: TxtExportHeadersFootersMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.TxtExportHeadersFootersMode enumeration. Specifies the way headers and footers are exported to plain text format."
 type: docs
-weight: 830
+weight: 840
 url: /python-net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 
@@ -57,13 +57,14 @@ save_options = aw.saving.TxtSaveOptions()
 save_options.export_headers_footers_mode = txt_export_headers_footers_mode
 doc.save(file_name=ARTIFACTS_DIR + 'TxtSaveOptions.ExportHeadersFooters.txt', save_options=save_options)
 doc_text = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'TxtSaveOptions.ExportHeadersFooters.txt')
+new_line = system_helper.environment.Environment.new_line()
 switch_condition = txt_export_headers_footers_mode
 if switch_condition == aw.saving.TxtExportHeadersFootersMode.ALL_AT_END:
-    self.assertEqual('Page 1\r\n' + 'Page 2\r\n' + 'Page 3\r\n' + 'Even header\r\n\r\n' + 'Primary header\r\n\r\n' + 'Even footer\r\n\r\n' + 'Primary footer\r\n\r\n', doc_text)
+    self.assertEqual(f'Page 1{new_line}' + f'Page 2{new_line}' + f'Page 3{new_line}' + f'Even header{new_line}{new_line}' + f'Primary header{new_line}{new_line}' + f'Even footer{new_line}{new_line}' + f'Primary footer{new_line}{new_line}', doc_text)
 elif switch_condition == aw.saving.TxtExportHeadersFootersMode.PRIMARY_ONLY:
-    self.assertEqual('Primary header\r\n' + 'Page 1\r\n' + 'Page 2\r\n' + 'Page 3\r\n' + 'Primary footer\r\n', doc_text)
+    self.assertEqual(f'Primary header{new_line}' + f'Page 1{new_line}' + f'Page 2{new_line}' + f'Page 3{new_line}' + f'Primary footer{new_line}', doc_text)
 elif switch_condition == aw.saving.TxtExportHeadersFootersMode.NONE:
-    self.assertEqual('Page 1\r\n' + 'Page 2\r\n' + 'Page 3\r\n', doc_text)
+    self.assertEqual(f'Page 1{new_line}' + f'Page 2{new_line}' + f'Page 3{new_line}', doc_text)
 ```
 
 ### See Also

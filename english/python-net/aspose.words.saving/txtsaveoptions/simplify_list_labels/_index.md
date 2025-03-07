@@ -58,10 +58,11 @@ txt_save_options = aw.saving.TxtSaveOptions()
 txt_save_options.simplify_list_labels = simplify_list_labels
 doc.save(file_name=ARTIFACTS_DIR + 'TxtSaveOptions.SimplifyListLabels.txt', save_options=txt_save_options)
 doc_text = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'TxtSaveOptions.SimplifyListLabels.txt')
+new_line = system_helper.environment.Environment.new_line()
 if simplify_list_labels:
-    self.assertEqual('* Item 1\r\n' + '  > Item 2\r\n' + '    + Item 3\r\n' + '      - Item 4\r\n' + '        o Item 5\r\n', doc_text)
+    self.assertEqual(f'* Item 1{new_line}' + f'  > Item 2{new_line}' + f'    + Item 3{new_line}' + f'      - Item 4{new_line}' + f'        o Item 5{new_line}', doc_text)
 else:
-    self.assertEqual('· Item 1\r\n' + 'o Item 2\r\n' + '§ Item 3\r\n' + '· Item 4\r\n' + 'o Item 5\r\n', doc_text)
+    self.assertEqual(f'· Item 1{new_line}' + f'o Item 2{new_line}' + f'§ Item 3{new_line}' + f'· Item 4{new_line}' + f'o Item 5{new_line}', doc_text)
 ```
 
 ### See Also

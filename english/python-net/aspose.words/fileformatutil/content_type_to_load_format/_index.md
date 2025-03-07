@@ -34,17 +34,14 @@ def content_type_to_load_format(self, content_type: str):
 Shows how to find the corresponding Aspose load/save format from each media type string.
 
 ```python
-# The content_type_to_save_format/content_type_to_load_format methods only accept official IANA media type names, also known as MIME types.
-# All valid media types are listed here: https://www.iana.org/assignments/media-types/media-types.xhtml.
+# The ContentTypeToSaveFormat/ContentTypeToLoadFormat methods only accept official IANA media type names, also known as MIME types.
+# All valid media types are listed here: https:#www.iana.org/assignments/media-types/media-types.xhtml.
 # Trying to associate a SaveFormat with a partial media type string will not work.
-with self.assertRaises(Exception):
-    aw.FileFormatUtil.content_type_to_save_format('jpeg')
+self.assertRaises(Exception, lambda: aw.FileFormatUtil.content_type_to_save_format('jpeg'))
 # If Aspose.Words does not have a corresponding save/load format for a content type, an exception will also be thrown.
-with self.assertRaises(Exception):
-    aw.FileFormatUtil.content_type_to_save_format('application/zip')
+self.assertRaises(Exception, lambda: aw.FileFormatUtil.content_type_to_save_format('application/zip'))
 # Files of the types listed below can be saved, but not loaded using Aspose.Words.
-with self.assertRaises(Exception):
-    aw.FileFormatUtil.content_type_to_load_format('image/jpeg')
+self.assertRaises(Exception, lambda: aw.FileFormatUtil.content_type_to_load_format('image/jpeg'))
 self.assertEqual(aw.SaveFormat.JPEG, aw.FileFormatUtil.content_type_to_save_format('image/jpeg'))
 self.assertEqual(aw.SaveFormat.PNG, aw.FileFormatUtil.content_type_to_save_format('image/png'))
 self.assertEqual(aw.SaveFormat.TIFF, aw.FileFormatUtil.content_type_to_save_format('image/tiff'))

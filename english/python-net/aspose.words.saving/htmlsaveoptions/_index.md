@@ -88,6 +88,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [scale_image_to_shape_size](./scale_image_to_shape_size/) | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is ``True``. |
 | [table_width_output_mode](./table_width_output_mode/) | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.ALL](../htmlelementsizeoutputmode/#ALL). |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [update_ambiguous_text_font](../saveoptions/update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -104,6 +105,24 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 
 ### Examples
 
+Shows how to use a specific encoding when saving a document to .epub.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+# Use a SaveOptions object to specify the encoding for a document that we will save.
+save_options = aw.saving.HtmlSaveOptions()
+save_options.save_format = aw.SaveFormat.EPUB
+save_options.encoding = system_helper.text.Encoding.utf_8()
+# By default, an output .epub document will have all its contents in one HTML part.
+# A split criterion allows us to segment the document into several HTML parts.
+# We will set the criteria to split the document into heading paragraphs.
+# This is useful for readers who cannot read HTML files more significant than a specific size.
+save_options.document_split_criteria = aw.saving.DocumentSplitCriteria.HEADING_PARAGRAPH
+# Specify that we want to export document properties.
+save_options.export_document_properties = True
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.Doc2EpubSaveOptions.epub', save_options=save_options)
+```
+
 Shows how to specify the folder for storing linked images after saving to .html.
 
 ```python
@@ -117,24 +136,6 @@ options = aw.saving.HtmlSaveOptions(aw.SaveFormat.HTML)
 options.export_text_input_form_field_as_text = True
 options.images_folder = images_dir
 doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.SaveHtmlWithOptions.html', save_options=options)
-```
-
-Shows how to use a specific encoding when saving a document to .epub.
-
-```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
-# Use a SaveOptions object to specify the encoding for a document that we will save.
-save_options = aw.saving.HtmlSaveOptions()
-save_options.save_format = aw.SaveFormat.EPUB
-save_options.encoding = 'utf-8'
-# By default, an output .epub document will have all its contents in one HTML part.
-# A split criterion allows us to segment the document into several HTML parts.
-# We will set the criteria to split the document into heading paragraphs.
-# This is useful for readers who cannot read HTML files more significant than a specific size.
-save_options.document_split_criteria = aw.saving.DocumentSplitCriteria.HEADING_PARAGRAPH
-# Specify that we want to export document properties.
-save_options.export_document_properties = True
-doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.doc2_epub_save_options.epub', save_options)
 ```
 
 ### See Also

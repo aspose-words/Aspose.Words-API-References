@@ -297,6 +297,7 @@ builder.insert_shape(shape_type=aw.drawing.ShapeType.CLOUD, horz_pos=aw.drawing.
 builder.insert_shape(shape_type=aw.drawing.ShapeType.MATH_PLUS, horz_pos=aw.drawing.RelativeHorizontalPosition.RIGHT_MARGIN, left=0, vert_pos=aw.drawing.RelativeVerticalPosition.PAGE, top=0, width=0, height=0, wrap_type=aw.drawing.WrapType.NONE)
 # To correct identify shape types you need to work with shapes as DML.
 save_options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
+# "Strict" or "Transitional" compliance allows to save shape as DML.
 save_options.compliance = aw.saving.OoxmlCompliance.ISO29500_2008_TRANSITIONAL
 doc.save(file_name=ARTIFACTS_DIR + 'Shape.ShapeTypes.docx', save_options=save_options)
 doc = aw.Document(file_name=ARTIFACTS_DIR + 'Shape.ShapeTypes.docx')
