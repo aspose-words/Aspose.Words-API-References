@@ -58,6 +58,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [threshold_for_floyd_steinberg_dithering](./threshold_for_floyd_steinberg_dithering/) | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is [ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING](../imagebinarizationmethod/#FLOYD_STEINBERG_DITHERING). |
 | [tiff_binarization_method](./tiff_binarization_method/) | Gets or sets method used while converting images to 1 bpp format when [ImageSaveOptions.save_format](./save_format/) is [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF) and [ImageSaveOptions.tiff_compression](./tiff_compression/) is equal to [TiffCompression.CCITT3](../tiffcompression/#CCITT3) or [TiffCompression.CCITT4](../tiffcompression/#CCITT4). |
 | [tiff_compression](./tiff_compression/) | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
+| [update_ambiguous_text_font](../saveoptions/update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -77,6 +78,28 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 
 ### Examples
 
+Renders a page of a Word document into an image with transparent or colored background.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.font.name = 'Times New Roman'
+builder.font.size = 24
+builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+# Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+# to modify the way in which that method renders the document into an image.
+img_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
+# Set the "PaperColor" property to a transparent color to apply a transparent
+# background to the document while rendering it to an image.
+img_options.paper_color = aspose.pydrawing.Color.transparent
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.PaperColor.Transparent.png', save_options=img_options)
+# Set the "PaperColor" property to an opaque color to apply that color
+# as the background of the document as we render it to an image.
+img_options.paper_color = aspose.pydrawing.Color.light_coral
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.PaperColor.LightCoral.png', save_options=img_options)
+```
+
 Shows how to configure compression while saving a document as a JPEG.
 
 ```python
@@ -94,28 +117,6 @@ doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.JpegQuality.HighCompression
 # This will improve the quality of the image at the cost of an increased file size.
 image_options.jpeg_quality = 100
 doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.JpegQuality.HighQuality.jpg', save_options=image_options)
-```
-
-Renders a page of a Word document into an image with transparent or colored background.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.font.name = 'Times New Roman'
-builder.font.size = 24
-builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
-builder.insert_image(IMAGE_DIR + 'Logo.jpg')
-# Create an "ImageSaveOptions" object which we can pass to the document's "save" method
-# to modify the way in which that method renders the document into an image.
-img_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-# Set the "paper_color" property to a transparent color to apply a transparent
-# background to the document while rendering it to an image.
-img_options.paper_color = drawing.Color.transparent
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.paper_color.transparent.png', img_options)
-# Set the "paper_color" property to an opaque color to apply that color
-# as the background of the document as we render it to an image.
-img_options.paper_color = drawing.Color.light_coral
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.paper_color.light_coral.png', img_options)
 ```
 
 Shows how to specify a resolution while rendering a document to PNG.

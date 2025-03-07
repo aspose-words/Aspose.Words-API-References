@@ -5,7 +5,7 @@ articleTitle: open_hyperlinks_in_new_window property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.open_hyperlinks_in_new_window property. Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser."
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.words.saving/pdfsaveoptions/open_hyperlinks_in_new_window/
 ---
 

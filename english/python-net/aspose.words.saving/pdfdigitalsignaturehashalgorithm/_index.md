@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureHashAlgorithm enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfDigitalSignatureHashAlgorithm enumeration. Specifies a digital hash algorithm used by a digital signature."
 type: docs
-weight: 620
+weight: 630
 url: /python-net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 

@@ -83,24 +83,24 @@ doc = aw.Document()
 para = doc.first_section.body.first_paragraph
 # Below are three ways of inserting a field into a paragraph.
 # 1 -  Insert an AUTHOR field into a paragraph after one of the paragraph's child nodes:
-run = aw.Run(doc)
+run = aw.Run(doc=doc)
 run.text = 'This run was written by '
 para.append_child(run)
 doc.built_in_document_properties.get_by_name('Author').value = 'John Doe'
-para.insert_field(aw.fields.FieldType.FIELD_AUTHOR, True, run, True)
+para.insert_field(field_type=aw.fields.FieldType.FIELD_AUTHOR, update_field=True, ref_node=run, is_after=True)
 # 2 -  Insert a QUOTE field after one of the paragraph's child nodes:
-run = aw.Run(doc)
+run = aw.Run(doc=doc)
 run.text = '.'
 para.append_child(run)
-field = para.insert_field(' QUOTE " Real value" ', run, True)
+field = para.insert_field(field_code=' QUOTE " Real value" ', ref_node=run, is_after=True)
 # 3 -  Insert a QUOTE field before one of the paragraph's child nodes,
 # and get it to display a placeholder value:
-para.insert_field(' QUOTE " Real value."', ' Placeholder value.', field.start, False)
+para.insert_field(field_code=' QUOTE " Real value."', field_value=' Placeholder value.', ref_node=field.start, is_after=False)
 self.assertEqual(' Placeholder value.', doc.range.fields[1].result)
 # This field will display its placeholder value until we update it.
 doc.update_fields()
 self.assertEqual(' Real value.', doc.range.fields[1].result)
-doc.save(ARTIFACTS_DIR + 'Paragraph.insert_field.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Paragraph.InsertField.docx')
 ```
 
 ## See Also

@@ -42,22 +42,22 @@ Renders a page of a Word document into an image with transparent or colored back
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Times New Roman'
 builder.font.size = 24
 builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
-builder.insert_image(IMAGE_DIR + 'Logo.jpg')
-# Create an "ImageSaveOptions" object which we can pass to the document's "save" method
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+# Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 # to modify the way in which that method renders the document into an image.
 img_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-# Set the "paper_color" property to a transparent color to apply a transparent
+# Set the "PaperColor" property to a transparent color to apply a transparent
 # background to the document while rendering it to an image.
-img_options.paper_color = drawing.Color.transparent
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.paper_color.transparent.png', img_options)
-# Set the "paper_color" property to an opaque color to apply that color
+img_options.paper_color = aspose.pydrawing.Color.transparent
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.PaperColor.Transparent.png', save_options=img_options)
+# Set the "PaperColor" property to an opaque color to apply that color
 # as the background of the document as we render it to an image.
-img_options.paper_color = drawing.Color.light_coral
-doc.save(ARTIFACTS_DIR + 'ImageSaveOptions.paper_color.light_coral.png', img_options)
+img_options.paper_color = aspose.pydrawing.Color.light_coral
+doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.PaperColor.LightCoral.png', save_options=img_options)
 ```
 
 ### See Also

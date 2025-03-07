@@ -38,8 +38,7 @@ Shows how to convert a save format to its corresponding load format.
 self.assertEqual(aw.LoadFormat.HTML, aw.FileFormatUtil.save_format_to_load_format(aw.SaveFormat.HTML))
 # Some file types can have documents saved to, but not loaded from using Aspose.Words.
 # If we attempt to convert a save format of such a type to a load format, an exception will be thrown.
-with self.assertRaises(Exception):
-    aw.FileFormatUtil.save_format_to_load_format(aw.SaveFormat.JPEG)
+self.assertRaises(Exception, lambda: aw.FileFormatUtil.save_format_to_load_format(aw.SaveFormat.JPEG))
 ```
 
 ### See Also

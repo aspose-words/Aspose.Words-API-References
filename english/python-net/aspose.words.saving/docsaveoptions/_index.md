@@ -55,6 +55,7 @@ other options added, such as an encryption password or digital signature setting
 | [save_picture_bullet](./save_picture_bullet/) | When ``False``, PictureBullet data is not saved to output document. Default value is ``True``. |
 | [save_routing_slip](./save_routing_slip/) | When ``False``, RoutingSlip data is not saved to output document. Default value is ``True``. |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [update_ambiguous_text_font](../saveoptions/update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -75,21 +76,21 @@ Shows how to set save options for older Microsoft Word formats.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.write('Hello world!')
 options = aw.saving.DocSaveOptions(aw.SaveFormat.DOC)
 # Set a password which will protect the loading of the document by Microsoft Word or Aspose.Words.
 # Note that this does not encrypt the contents of the document in any way.
 options.password = 'MyPassword'
-# If the document contains a routing slip, we can preserve it while saving by setting this flag to True.
+# If the document contains a routing slip, we can preserve it while saving by setting this flag to true.
 options.save_routing_slip = True
-doc.save(ARTIFACTS_DIR + 'DocSaveOptions.save_as_doc.doc', options)
+doc.save(file_name=ARTIFACTS_DIR + 'DocSaveOptions.SaveAsDoc.doc', save_options=options)
 # To be able to load the document,
 # we will need to apply the password we specified in the DocSaveOptions object in a LoadOptions object.
 with self.assertRaises(Exception):
-    doc = aw.Document(ARTIFACTS_DIR + 'DocSaveOptions.save_as_doc.doc')
-load_options = aw.loading.LoadOptions('MyPassword')
-doc = aw.Document(ARTIFACTS_DIR + 'DocSaveOptions.save_as_doc.doc', load_options)
+    doc = aw.Document(file_name=ARTIFACTS_DIR + 'DocSaveOptions.SaveAsDoc.doc')
+load_options = aw.loading.LoadOptions(password='MyPassword')
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'DocSaveOptions.SaveAsDoc.doc', load_options=load_options)
 self.assertEqual('Hello world!', doc.get_text().strip())
 ```
 

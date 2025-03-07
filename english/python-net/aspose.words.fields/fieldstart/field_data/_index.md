@@ -26,9 +26,9 @@ def field_data(self) -> bytes:
 Shows how to get data associated with the field.
 
 ```python
-doc = aw.Document(MY_DIR + 'Field sample - Field with data.docx')
+doc = aw.Document(file_name=MY_DIR + 'Field sample - Field with data.docx')
 field = doc.range.fields[2]
-print(field.start.field_data)
+print(system_helper.text.Encoding.get_string(field.start.field_data, system_helper.text.Encoding.utf_8()))
 ```
 
 ### See Also

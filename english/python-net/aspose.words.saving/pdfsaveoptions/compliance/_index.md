@@ -5,7 +5,7 @@ articleTitle: compliance property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.compliance property. Specifies the PDF standards compliance level for output documents."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.saving/pdfsaveoptions/compliance/
 ---
 

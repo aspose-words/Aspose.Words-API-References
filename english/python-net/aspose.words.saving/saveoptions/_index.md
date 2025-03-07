@@ -5,7 +5,7 @@ articleTitle: SaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.SaveOptions class. This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format"
 type: docs
-weight: 770
+weight: 780
 url: /python-net/aspose.words.saving/saveoptions/
 ---
 
@@ -41,6 +41,7 @@ or string [Document.save()](../../aspose.words/document/save/#str_saveoptions) o
 | [progress_callback](./progress_callback/) | Called during saving a document and accepts data about saving progress. |
 | [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. |
 | [temp_folder](./temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used. |
+| [update_ambiguous_text_font](./update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used. |
 | [update_created_time_property](./update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``; |
 | [update_fields](./update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``. |
 | [update_last_printed_property](./update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving. |
@@ -60,11 +61,11 @@ or string [Document.save()](../../aspose.words/document/save/#str_saveoptions) o
 Shows how to use a specific encoding when saving a document to .epub.
 
 ```python
-doc = aw.Document(MY_DIR + 'Rendering.docx')
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
 # Use a SaveOptions object to specify the encoding for a document that we will save.
 save_options = aw.saving.HtmlSaveOptions()
 save_options.save_format = aw.SaveFormat.EPUB
-save_options.encoding = 'utf-8'
+save_options.encoding = system_helper.text.Encoding.utf_8()
 # By default, an output .epub document will have all its contents in one HTML part.
 # A split criterion allows us to segment the document into several HTML parts.
 # We will set the criteria to split the document into heading paragraphs.
@@ -72,7 +73,7 @@ save_options.encoding = 'utf-8'
 save_options.document_split_criteria = aw.saving.DocumentSplitCriteria.HEADING_PARAGRAPH
 # Specify that we want to export document properties.
 save_options.export_document_properties = True
-doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.doc2_epub_save_options.epub', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.Doc2EpubSaveOptions.epub', save_options=save_options)
 ```
 
 ### See Also

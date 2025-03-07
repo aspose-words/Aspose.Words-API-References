@@ -5,7 +5,7 @@ articleTitle: downsample_options property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.downsample_options property. Allows to specify downsample options."
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.saving/pdfsaveoptions/downsample_options/
 ---
 

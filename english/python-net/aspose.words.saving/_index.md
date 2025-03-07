@@ -101,6 +101,7 @@ allow to specify additional options for saving or converting documents.
 | [NumeralFormat](./numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
 | [OdtSaveMeasureUnit](./odtsavemeasureunit/) | Specified units of measure to apply to measurable document content such as shape, widths and other during saving. |
 | [OoxmlCompliance](./ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the DOCX format. |
+| [PdfAttachmentsEmbeddingMode](./pdfattachmentsembeddingmode/) | Specifies how attachments are embedded to PDF document. |
 | [PdfCompliance](./pdfcompliance/) | Specifies the PDF standards compliance level. |
 | [PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specifies the way [Document.custom_document_properties](../aspose.words/document/custom_document_properties/) are exported to PDF file. |
 | [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | Specifies a digital hash algorithm used by a digital signature. |

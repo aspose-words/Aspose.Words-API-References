@@ -45,25 +45,25 @@ Shows how to remove all borders from a table.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 table = builder.start_table()
 builder.insert_cell()
 builder.write('Hello world!')
 builder.end_table()
 # Modify the color and thickness of the top border.
-top_border = table.first_row.row_format.borders.top
+top_border = table.first_row.row_format.borders.get_by_border_type(aw.BorderType.TOP)
 table.set_border(aw.BorderType.TOP, aw.LineStyle.DOUBLE, 1.5, aspose.pydrawing.Color.red, True)
 self.assertEqual(1.5, top_border.line_width)
 self.assertEqual(aspose.pydrawing.Color.red.to_argb(), top_border.color.to_argb())
 self.assertEqual(aw.LineStyle.DOUBLE, top_border.line_style)
 # Clear the borders of all cells in the table, and then save the document.
 table.clear_borders()
-doc.save(ARTIFACTS_DIR + 'Table.borders.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'Table.ClearBorders.docx')
 # Verify the values of the table's properties after re-opening the document.
-doc = aw.Document(ARTIFACTS_DIR + 'Table.borders.docx')
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'Table.ClearBorders.docx')
 table = doc.first_section.body.tables[0]
-top_border = table.first_row.row_format.borders.top
-self.assertEqual(0.0, top_border.line_width)
+top_border = table.first_row.row_format.borders.get_by_border_type(aw.BorderType.TOP)
+self.assertEqual(0, top_border.line_width)
 self.assertEqual(aspose.pydrawing.Color.empty().to_argb(), top_border.color.to_argb())
 self.assertEqual(aw.LineStyle.NONE, top_border.line_style)
 ```

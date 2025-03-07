@@ -222,17 +222,18 @@ pdf_doc.save(ARTIFACTS_DIR + 'PDF2Word.convert_pdf_to_docx.docx')
 Shows how to load an encrypted Microsoft Word document.
 
 ```python
+doc = None
 # Aspose.Words throw an exception if we try to open an encrypted document without its password.
 with self.assertRaises(Exception):
-    doc = aw.Document(MY_DIR + 'Encrypted.docx')
+    doc = aw.Document(file_name=MY_DIR + 'Encrypted.docx')
 # When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
-options = aw.loading.LoadOptions('docPassword')
+options = aw.loading.LoadOptions(password='docPassword')
 # There are two ways of loading an encrypted document with a LoadOptions object.
 # 1 -  Load the document from the local file system by filename:
-doc = aw.Document(MY_DIR + 'Encrypted.docx', options)
+doc = aw.Document(file_name=MY_DIR + 'Encrypted.docx', load_options=options)
 # 2 -  Load the document from a stream:
-with open(MY_DIR + 'Encrypted.docx', 'rb') as stream:
-    doc = aw.Document(stream, options)
+with system_helper.io.File.open_read(MY_DIR + 'Encrypted.docx') as stream:
+    doc = aw.Document(stream=stream, load_options=options)
 ```
 
 Shows how to load a document using a stream.
