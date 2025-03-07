@@ -41,11 +41,11 @@ and helps to produce documents that look closer to what is seen in browsers.
 Shows how to ignore \<noscript\> HTML elements.
 
 ```python
-html = '\n                    <html>\n                      <head>\n                        <title>NOSCRIPT</title>\n                          <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">\n                          <script type=""text/javascript"">\n                            alert(""Hello, world!"")\n                          </script>\n                      </head>\n                    <body>\n                      <noscript><p>Your browser does not support JavaScript!</p></noscript>\n                    </body>\n                    </html>'
+html = '\n                <html>\n                  <head>\n                    <title>NOSCRIPT</title>\n                      <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">\n                      <script type=""text/javascript"">\n                        alert(""Hello, world!"");\n                      </script>\n                  </head>\n                <body>\n                  <noscript><p>Your browser does not support JavaScript!</p></noscript>\n                </body>\n                </html>'
 html_load_options = aw.loading.HtmlLoadOptions()
 html_load_options.ignore_noscript_elements = ignore_noscript_elements
-doc = aw.Document(io.BytesIO(html.encode('utf-8')), html_load_options)
-doc.save(ARTIFACTS_DIR + 'HtmlLoadOptions.ignore_noscript_elements.pdf')
+doc = aw.Document(stream=io.BytesIO(system_helper.text.Encoding.get_bytes(html, system_helper.text.Encoding.utf_8())), load_options=html_load_options)
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlLoadOptions.IgnoreNoscriptElements.pdf')
 ```
 
 ### See Also

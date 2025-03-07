@@ -52,10 +52,10 @@ shape_rectangle = aw.drawing.Shape(doc, aw.drawing.ShapeType.RECTANGLE)
 # 1 -  A flat color:
 shape_rectangle.fill_color = aspose.pydrawing.Color.light_blue
 doc.background_shape = shape_rectangle
-doc.save(ARTIFACTS_DIR + 'DocumentBase.background_shape.flat_color.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBase.BackgroundShape.FlatColor.docx')
 # 2 -  An image:
 shape_rectangle = aw.drawing.Shape(doc, aw.drawing.ShapeType.RECTANGLE)
-shape_rectangle.image_data.set_image(IMAGE_DIR + 'Transparent background logo.png')
+shape_rectangle.image_data.set_image(file_name=IMAGE_DIR + 'Transparent background logo.png')
 # Adjust the image's appearance to make it more suitable as a watermark.
 shape_rectangle.image_data.contrast = 0.2
 shape_rectangle.image_data.brightness = 0.7
@@ -65,7 +65,7 @@ save_options = aw.saving.PdfSaveOptions()
 save_options.cache_background_graphics = False
 # Microsoft Word does not support shapes with images as backgrounds,
 # but we can still see these backgrounds in other save formats such as .pdf.
-doc.save(ARTIFACTS_DIR + 'DocumentBase.background_shape.image.pdf', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBase.BackgroundShape.Image.pdf', save_options=save_options)
 ```
 
 ### See Also

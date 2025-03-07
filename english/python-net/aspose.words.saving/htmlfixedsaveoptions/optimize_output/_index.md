@@ -44,7 +44,7 @@ doc.save(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html', s
 if optimize_output:
     self.assertAlmostEqual(61860, os.path.getsize(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html'), delta=200)
 else:
-    self.assertAlmostEqual(191770, os.path.getsize(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html'), delta=200)
+    self.assertAlmostEqual(191000, os.path.getsize(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html'), delta=200)
 ```
 
 ### See Also

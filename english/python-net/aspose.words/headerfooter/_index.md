@@ -125,6 +125,32 @@ self.assertEqual(footer.parent_section, header.parent_section)
 doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.Create.docx')
 ```
 
+Shows how to delete all footers from a document.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Header and footer types.docx')
+# Iterate through each section and remove footers of every kind.
+for section in filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_section(), b), list(doc))):
+    # There are three kinds of footer and header types.
+    # 1 -  The "First" header/footer, which only appears on the first page of a section.
+    footer = section.headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_FIRST)
+    cond_expression = footer
+    if cond_expression != None:
+        cond_expression.remove()
+    # 2 -  The "Primary" header/footer, which appears on odd pages.
+    footer = section.headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
+    cond_expression2 = footer
+    if cond_expression2 != None:
+        cond_expression2.remove()
+    # 3 -  The "Even" header/footer, which appears on even pages.
+    footer = section.headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_EVEN)
+    cond_expression3 = footer
+    if cond_expression3 != None:
+        cond_expression3.remove()
+    self.assertEqual(0, len(list(filter(lambda hf: not hf.as_header_footer().is_header, section.headers_footers))))
+doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.RemoveFooters.docx')
+```
+
 Shows how to replace text in a document's footer.
 
 ```python
@@ -137,30 +163,6 @@ options.find_whole_words_only = False
 current_year = datetime.datetime.now().year
 footer.range.replace(pattern='(C) 2006 Aspose Pty Ltd.', replacement=f'Copyright (C) {current_year} by Aspose Pty Ltd.', options=options)
 doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.ReplaceText.docx')
-```
-
-Shows how to delete all footers from a document.
-
-```python
-doc = aw.Document(MY_DIR + 'Header and footer types.docx')
-# Iterate through each section and remove footers of every kind.
-for section in doc:
-    section = section.as_section()
-    # There are three kinds of footer and header types.
-    # 1 -  The "First" header/footer, which only appears on the first page of a section.
-    footer = section.headers_footers[aw.HeaderFooterType.FOOTER_FIRST]
-    if footer is not None:
-        footer.remove()
-    # 2 -  The "Primary" header/footer, which appears on odd pages.
-    footer = section.headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY]
-    if footer is not None:
-        footer.remove()
-    # 3 -  The "Even" header/footer, which appears on even pages.
-    footer = section.headers_footers[aw.HeaderFooterType.FOOTER_EVEN]
-    if footer is not None:
-        footer.remove()
-    self.assertEqual(0, len([node for node in section.headers_footers if not node.as_header_footer().is_header]))
-doc.save(ARTIFACTS_DIR + 'HeaderFooter.remove_footers.docx')
 ```
 
 ### See Also

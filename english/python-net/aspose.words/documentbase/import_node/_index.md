@@ -99,20 +99,19 @@ Shows how to import a node from one document to another.
 ```python
 src_doc = aw.Document()
 dst_doc = aw.Document()
-src_doc.first_section.body.first_paragraph.append_child(aw.Run(src_doc, 'Source document first paragraph text.'))
-dst_doc.first_section.body.first_paragraph.append_child(aw.Run(dst_doc, 'Destination document first paragraph text.'))
+src_doc.first_section.body.first_paragraph.append_child(aw.Run(doc=src_doc, text='Source document first paragraph text.'))
+dst_doc.first_section.body.first_paragraph.append_child(aw.Run(doc=dst_doc, text='Destination document first paragraph text.'))
 # Every node has a parent document, which is the document that contains the node.
 # Inserting a node into a document that the node does not belong to will throw an exception.
 self.assertNotEqual(dst_doc, src_doc.first_section.document)
-with self.assertRaises(Exception):
-    dst_doc.append_child(src_doc.first_section)
-# Use the "import_node" method to create a copy of a node, which will have the document
+self.assertRaises(Exception, lambda: dst_doc.append_child(src_doc.first_section))
+# Use the ImportNode method to create a copy of a node, which will have the document
 # that called the ImportNode method set as its new owner document.
-imported_section = dst_doc.import_node(src_doc.first_section, True).as_section()
+imported_section = dst_doc.import_node(src_node=src_doc.first_section, is_import_children=True).as_section()
 self.assertEqual(dst_doc, imported_section.document)
 # We can now insert the node into the document.
 dst_doc.append_child(imported_section)
-self.assertEqual('Destination document first paragraph text.\r\nSource document first paragraph text.\r\n', dst_doc.to_string(aw.SaveFormat.TEXT))
+self.assertEqual('Destination document first paragraph text.\r\nSource document first paragraph text.\r\n', dst_doc.to_string(save_format=aw.SaveFormat.TEXT))
 ```
 
 Shows how to import node from source document to destination document with specific options.

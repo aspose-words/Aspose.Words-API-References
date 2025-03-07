@@ -5,7 +5,7 @@ articleTitle: RtfSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.RtfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.RTF](../../aspose.words/saveformat/#RTF) format"
 type: docs
-weight: 760
+weight: 770
 url: /python-net/aspose.words.saving/rtfsaveoptions/
 ---
 
@@ -43,6 +43,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.RTF](../../aspose.words/saveformat/#RTF). |
 | [save_images_as_wmf](./save_images_as_wmf/) | When ``True`` all images will be saved as WMF. |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [update_ambiguous_text_font](../saveoptions/update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |

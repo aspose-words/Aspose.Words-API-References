@@ -5,7 +5,7 @@ articleTitle: font_embedding_mode property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.font_embedding_mode property. Specifies the font embedding mode."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/
 ---
 

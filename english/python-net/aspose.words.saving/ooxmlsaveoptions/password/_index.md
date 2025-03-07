@@ -38,17 +38,17 @@ Shows how to create a password encrypted Office Open XML document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello world!')
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.password = 'MyPassword'
-doc.save(ARTIFACTS_DIR + 'OoxmlSaveOptions.password.docx', save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.Password.docx', save_options=save_options)
 # We will not be able to open this document with Microsoft Word or
 # Aspose.Words without providing the correct password.
 with self.assertRaises(Exception):
-    doc = aw.Document(ARTIFACTS_DIR + 'OoxmlSaveOptions.password.docx')
+    doc = aw.Document(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.Password.docx')
 # Open the encrypted document by passing the correct password in a LoadOptions object.
-doc = aw.Document(ARTIFACTS_DIR + 'OoxmlSaveOptions.password.docx', aw.loading.LoadOptions('MyPassword'))
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.Password.docx', load_options=aw.loading.LoadOptions(password='MyPassword'))
 self.assertEqual('Hello world!', doc.get_text().strip())
 ```
 

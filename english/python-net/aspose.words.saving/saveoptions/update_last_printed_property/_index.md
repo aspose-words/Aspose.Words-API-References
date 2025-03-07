@@ -5,7 +5,7 @@ articleTitle: update_last_printed_property property
 second_title: Aspose.Words for Python
 description: "SaveOptions.update_last_printed_property property. Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving."
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.saving/saveoptions/update_last_printed_property/
 ---
 

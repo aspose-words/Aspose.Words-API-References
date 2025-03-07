@@ -46,6 +46,9 @@ doc = aw.Document(file_name=MY_DIR + 'Text positioning operators.docx')
 # to modify how that method converts the document to .PDF.
 save_options = aw.saving.PdfSaveOptions()
 save_options.text_compression = aw.saving.PdfTextCompression.NONE
+# Set the "AdditionalTextPositioning" property to "true" to attempt to fix incorrect
+# element positioning in the output PDF, should there be any, at the cost of increased file size.
+# Set the "AdditionalTextPositioning" property to "false" to render the document as usual.
 save_options.additional_text_positioning = apply_additional_text_positioning
 doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.AdditionalTextPositioning.pdf', save_options=save_options)
 ```

@@ -5,7 +5,7 @@ articleTitle: custom_properties_export property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.custom_properties_export property. Gets or sets a value determining the way [Document.custom_document_properties](../../../aspose.words/document/custom_document_properties/) are exported to PDF file."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.saving/pdfsaveoptions/custom_properties_export/
 ---
 

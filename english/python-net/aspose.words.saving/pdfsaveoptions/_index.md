@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../aspose.words/saveformat/#PDF) format"
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.words.saving/pdfsaveoptions/
 ---
 
@@ -30,6 +30,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | --- | --- |
 | [additional_text_positioning](./additional_text_positioning/) | A flag specifying whether to write additional text positioning operators or not. |
 | [allow_embedding_post_script_fonts](../saveoptions/allow_embedding_post_script_fonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [attachments_embedding_mode](./attachments_embedding_mode/) | Gets or sets a value determining how attachments are embedded to the PDF document. |
 | [cache_background_graphics](./cache_background_graphics/) | Gets or sets a value determining whether or not to cache graphics placed in document's background. |
 | [color_mode](../fixedpagesaveoptions/color_mode/) | Gets or sets a value determining how colors are rendered.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [compliance](./compliance/) | Specifies the PDF standards compliance level for output documents. |
@@ -74,6 +75,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.PDF](../../aspose.words/saveformat/#PDF). |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [text_compression](./text_compression/) | Specifies compression type to be used for all textual content in the document. |
+| [update_ambiguous_text_font](../saveoptions/update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
