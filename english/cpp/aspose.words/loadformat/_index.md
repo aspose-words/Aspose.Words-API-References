@@ -21,7 +21,7 @@ enum class LoadFormat
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | 0 | Instructs Aspose.Words to recognize the format automatically. |
-| MsWorks | 8 |  |
+| MsWorks | 8 | Microsoft Works 8 [Document](../document/). |
 | Doc | 10 | Microsoft Word 95 or Word 97 - 2003 [Document](../document/). |
 | Dot | 11 | Microsoft Word 95 or Word 97 - 2003 Template. |
 | DocPreWord60 | 12 | The document is in pre-Word 95 format. Aspose.Words does not currently support loading such documents. |

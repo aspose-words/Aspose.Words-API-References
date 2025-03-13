@@ -51,7 +51,7 @@ class Font : public Aspose::Words::IBorderAttrSource,
 | [get_NameFarEast](./get_namefareast/)() | Returns or sets an East Asian font name. |
 | [get_NameOther](./get_nameother/)() | Returns or sets the font used for characters with character codes from 128 through 255. |
 | [get_NoProofing](./get_noproofing/)() | True when the formatted characters are not to be spell checked. |
-| [get_NumberSpacing](./get_numberspacing/)() |  |
+| [get_NumberSpacing](./get_numberspacing/)() | Gets the spacing type of the numeral being displayed. |
 | [get_Outline](./get_outline/)() | True if the font is formatted as outline. |
 | [get_Position](./get_position/)() | Gets or sets the position of text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it. |
 | [get_Scaling](./get_scaling/)() | Gets or sets character width scaling in percent. |
@@ -105,7 +105,7 @@ class Font : public Aspose::Words::IBorderAttrSource,
 | [set_NameFarEast](./set_namefareast/)(const System::String\&) | Setter for [Aspose::Words::Font::get_NameFarEast](./get_namefareast/). |
 | [set_NameOther](./set_nameother/)(const System::String\&) | Setter for [Aspose::Words::Font::get_NameOther](./get_nameother/). |
 | [set_NoProofing](./set_noproofing/)(bool) | Setter for [Aspose::Words::Font::get_NoProofing](./get_noproofing/). |
-| [set_NumberSpacing](./set_numberspacing/)(Aspose::Words::NumSpacing) |  |
+| [set_NumberSpacing](./set_numberspacing/)(Aspose::Words::NumSpacing) | Sets the spacing type of the numeral being displayed. |
 | [set_Outline](./set_outline/)(bool) | Setter for [Aspose::Words::Font::get_Outline](./get_outline/). |
 | [set_Position](./set_position/)(double) | Setter for [Aspose::Words::Font::get_Position](./get_position/). |
 | [set_Scaling](./set_scaling/)(int32_t) | Setter for [Aspose::Words::Font::get_Scaling](./get_scaling/). |
