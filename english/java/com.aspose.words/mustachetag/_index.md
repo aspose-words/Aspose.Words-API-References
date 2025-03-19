@@ -4,7 +4,7 @@ linktitle: MustacheTag
 second_title: Aspose.Words for Java
 description: Represents mustache tag in Java.
 type: docs
-weight: 461
+weight: 460
 url: /java/com.aspose.words/mustachetag/
 ---
 

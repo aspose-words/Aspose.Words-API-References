@@ -95,6 +95,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [getShowPageBorder()](#getShowPageBorder) | Controls whether a border is added to the outline of the page. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [getTextOutputMode()](#getTextOutputMode) | Gets a value determining how text should be rendered in SVG. |
+| [getUpdateAmbiguousTextFont()](#getUpdateAmbiguousTextFont) | Determines whether the font attributes will be changed according to the character code being used. |
 | [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -130,6 +131,7 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [setShowPageBorder(boolean value)](#setShowPageBorder-boolean) | Controls whether a border is added to the outline of the page. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [setTextOutputMode(int value)](#setTextOutputMode-int) | Sets a value determining how text should be rendered in SVG. |
+| [setUpdateAmbiguousTextFont(boolean value)](#setUpdateAmbiguousTextFont-boolean) | Determines whether the font attributes will be changed according to the character code being used. |
 | [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -856,7 +858,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
      Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
-     Assert.assertEquals(191770.0,
+     Assert.assertEquals(191000.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  
 ```
@@ -1657,6 +1659,38 @@ Shows how to mimic the properties of images when converting a .docx document to 
 
 **Returns:**
 int - A value determining how text should be rendered in SVG. The returned value is one of [SvgTextOutputMode](../../com.aspose.words/svgtextoutputmode/) constants.
+### getUpdateAmbiguousTextFont() {#getUpdateAmbiguousTextFont}
+```
+public boolean getUpdateAmbiguousTextFont()
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty}
 ```
 public boolean getUpdateCreatedTimeProperty()
@@ -2581,7 +2615,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
      Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
-     Assert.assertEquals(191770.0,
+     Assert.assertEquals(191000.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  
 ```
@@ -3420,6 +3454,41 @@ Shows how to mimic the properties of images when converting a .docx document to 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining how text should be rendered in SVG. The value must be one of [SvgTextOutputMode](../../com.aspose.words/svgtextoutputmode/) constants. |
+
+### setUpdateAmbiguousTextFont(boolean value) {#setUpdateAmbiguousTextFont-boolean}
+```
+public void setUpdateAmbiguousTextFont(boolean value)
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean}
 ```

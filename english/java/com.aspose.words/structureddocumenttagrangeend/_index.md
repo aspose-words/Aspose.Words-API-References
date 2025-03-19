@@ -764,7 +764,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (190965,6)
+Returns  true  if this node can contain other nodes. (191046,6)
 
  **Examples:** 
 

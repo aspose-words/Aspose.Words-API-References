@@ -4,7 +4,7 @@ linktitle: PageSet
 second_title: Aspose.Words for Java
 description: Describes a random set of pages in Java.
 type: docs
-weight: 504
+weight: 503
 url: /java/com.aspose.words/pageset/
 ---
 

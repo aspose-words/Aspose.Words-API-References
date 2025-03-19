@@ -157,6 +157,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getAdditionalTextPositioning()](#getAdditionalTextPositioning) | A flag specifying whether to write additional text positioning operators or not. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [getAttachmentsEmbeddingMode()](#getAttachmentsEmbeddingMode) | Gets a value determining how attachments are embedded to the PDF document. |
 | [getCacheBackgroundGraphics()](#getCacheBackgroundGraphics) | Gets a value determining whether or not to cache graphics placed in document's background. |
 | [getColorMode()](#getColorMode) | Gets a value determining how colors are rendered. |
 | [getCompliance()](#getCompliance) | Specifies the PDF standards compliance level for output documents. |
@@ -201,6 +202,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [getTextCompression()](#getTextCompression) | Specifies compression type to be used for all textual content in the document. |
+| [getUpdateAmbiguousTextFont()](#getUpdateAmbiguousTextFont) | Determines whether the font attributes will be changed according to the character code being used. |
 | [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -214,6 +216,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getZoomFactor()](#getZoomFactor) | Gets a value determining zoom factor (in percentages) for a document. |
 | [setAdditionalTextPositioning(boolean value)](#setAdditionalTextPositioning-boolean) | A flag specifying whether to write additional text positioning operators or not. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [setAttachmentsEmbeddingMode(int value)](#setAttachmentsEmbeddingMode-int) | Sets a value determining how attachments are embedded to the PDF document. |
 | [setCacheBackgroundGraphics(boolean value)](#setCacheBackgroundGraphics-boolean) | Sets a value determining whether or not to cache graphics placed in document's background. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
 | [setCompliance(int value)](#setCompliance-int) | Specifies the PDF standards compliance level for output documents. |
@@ -257,6 +260,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
 | [setTextCompression(int value)](#setTextCompression-int) | Specifies compression type to be used for all textual content in the document. |
+| [setUpdateAmbiguousTextFont(boolean value)](#setUpdateAmbiguousTextFont-boolean) | Determines whether the font attributes will be changed according to the character code being used. |
 | [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -517,6 +521,40 @@ Shows how to save the document with PostScript font.
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
+### getAttachmentsEmbeddingMode() {#getAttachmentsEmbeddingMode}
+```
+public int getAttachmentsEmbeddingMode()
+```
+
+
+Gets a value determining how attachments are embedded to the PDF document.
+
+ **Remarks:** 
+
+Default value is [PdfAttachmentsEmbeddingMode.NONE](../../com.aspose.words/pdfattachmentsembeddingmode/\#NONE) and attachments are not embedded.
+
+PDF/A-1, PDF/A-2 and regular PDF/A-4 (not PDF/A-4f) standards do not allow embedded files. [PdfAttachmentsEmbeddingMode.NONE](../../com.aspose.words/pdfattachmentsembeddingmode/\#NONE) value will be used automatically.
+
+ **Examples:** 
+
+Shows how to set a value determining how attachments are embedded to the PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertOleObject(getMyDir() + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setAttachmentsEmbeddingMode(PdfAttachmentsEmbeddingMode.ANNOTATIONS);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.AttachmentsEmbeddingMode.pdf", saveOptions);
+ 
+```
+
+**Returns:**
+int - A value determining how attachments are embedded to the PDF document. The returned value is one of [PdfAttachmentsEmbeddingMode](../../com.aspose.words/pdfattachmentsembeddingmode/) constants.
 ### getCacheBackgroundGraphics() {#getCacheBackgroundGraphics}
 ```
 public boolean getCacheBackgroundGraphics()
@@ -1034,27 +1072,9 @@ Default value is  false  and attachments are not embedded.
 
 When the value is  true  attachments are embedded to the PDF document.
 
-Embedding attachments is not supported when saving to PDF/A and PDF/UA compliance.  false  value will be used automatically.
+PDF/A-1, PDF/A-2 and PDF/A-4 (not level F) standards do not allow embedded files.  false  value will be used automatically.
 
 Embedding attachments is not supported when encryption is enabled.  false  value will be used automatically.
-
- **Examples:** 
-
-Shows how to add embed attachments to the PDF document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.insertOleObject(getMyDir() + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
-
- PdfSaveOptions options = new PdfSaveOptions();
- options.setEmbedAttachments(true);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
- 
-```
 
 **Returns:**
 boolean - A value determining whether or not to embed attachments to the PDF document.
@@ -1867,7 +1887,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
      Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
-     Assert.assertEquals(191770.0,
+     Assert.assertEquals(191000.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  
 ```
@@ -2792,6 +2812,38 @@ Shows how to apply text compression when saving a document to PDF.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfTextCompression](../../com.aspose.words/pdftextcompression/) constants.
+### getUpdateAmbiguousTextFont() {#getUpdateAmbiguousTextFont}
+```
+public boolean getUpdateAmbiguousTextFont()
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty}
 ```
 public boolean getUpdateCreatedTimeProperty()
@@ -3324,6 +3376,43 @@ Shows how to save the document with PostScript font.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+
+### setAttachmentsEmbeddingMode(int value) {#setAttachmentsEmbeddingMode-int}
+```
+public void setAttachmentsEmbeddingMode(int value)
+```
+
+
+Sets a value determining how attachments are embedded to the PDF document.
+
+ **Remarks:** 
+
+Default value is [PdfAttachmentsEmbeddingMode.NONE](../../com.aspose.words/pdfattachmentsembeddingmode/\#NONE) and attachments are not embedded.
+
+PDF/A-1, PDF/A-2 and regular PDF/A-4 (not PDF/A-4f) standards do not allow embedded files. [PdfAttachmentsEmbeddingMode.NONE](../../com.aspose.words/pdfattachmentsembeddingmode/\#NONE) value will be used automatically.
+
+ **Examples:** 
+
+Shows how to set a value determining how attachments are embedded to the PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertOleObject(getMyDir() + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setAttachmentsEmbeddingMode(PdfAttachmentsEmbeddingMode.ANNOTATIONS);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.AttachmentsEmbeddingMode.pdf", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | A value determining how attachments are embedded to the PDF document. The value must be one of [PdfAttachmentsEmbeddingMode](../../com.aspose.words/pdfattachmentsembeddingmode/) constants. |
 
 ### setCacheBackgroundGraphics(boolean value) {#setCacheBackgroundGraphics-boolean}
 ```
@@ -3878,27 +3967,9 @@ Default value is  false  and attachments are not embedded.
 
 When the value is  true  attachments are embedded to the PDF document.
 
-Embedding attachments is not supported when saving to PDF/A and PDF/UA compliance.  false  value will be used automatically.
+PDF/A-1, PDF/A-2 and PDF/A-4 (not level F) standards do not allow embedded files.  false  value will be used automatically.
 
 Embedding attachments is not supported when encryption is enabled.  false  value will be used automatically.
-
- **Examples:** 
-
-Shows how to add embed attachments to the PDF document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.insertOleObject(getMyDir() + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
-
- PdfSaveOptions options = new PdfSaveOptions();
- options.setEmbedAttachments(true);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -4765,7 +4836,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
      Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
-     Assert.assertEquals(191770.0,
+     Assert.assertEquals(191000.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  
 ```
@@ -5625,6 +5696,41 @@ Shows how to apply text compression when saving a document to PDF.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [PdfTextCompression](../../com.aspose.words/pdftextcompression/) constants. |
+
+### setUpdateAmbiguousTextFont(boolean value) {#setUpdateAmbiguousTextFont-boolean}
+```
+public void setUpdateAmbiguousTextFont(boolean value)
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean}
 ```
