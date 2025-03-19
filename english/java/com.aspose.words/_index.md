@@ -446,7 +446,6 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ListLevelCollection](../com.aspose.words/listlevelcollection/) | A collection of list formatting for each level in a list. |
 | [ListTemplate](../com.aspose.words/listtemplate/) | Specifies one of the predefined list formats available in Microsoft Word. |
 | [ListTrailingCharacter](../com.aspose.words/listtrailingcharacter/) | Specifies the character that separates the list label from the text of the paragraph. |
-| [ListType](../com.aspose.words/listtype/) |  |
 | [LoadFormat](../com.aspose.words/loadformat/) | Indicates the format of the document that is to be loaded. |
 | [LoadOptions](../com.aspose.words/loadoptions/) | Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../com.aspose.words/document/) object. |
 | [MailMerge](../com.aspose.words/mailmerge/) | Represents the mail merge functionality. |
@@ -535,6 +534,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ParagraphFormat](../com.aspose.words/paragraphformat/) | Represents all the formatting for a paragraph. |
 | [PatternType](../com.aspose.words/patterntype/) | Specifies the fill pattern to be used to fill a shape. |
 | [PclSaveOptions](../com.aspose.words/pclsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PCL](../com.aspose.words/saveformat/\#PCL) format. |
+| [PdfAttachmentsEmbeddingMode](../com.aspose.words/pdfattachmentsembeddingmode/) | Specifies how attachments are embedded to PDF document. |
 | [PdfCompliance](../com.aspose.words/pdfcompliance/) | Specifies the PDF standards compliance level. |
 | [PdfCustomPropertiesExport](../com.aspose.words/pdfcustompropertiesexport/) | Specifies the way [Document.\#getCustomDocumentProperties()](../com.aspose.words/document/\#getCustomDocumentProperties) are exported to PDF file. |
 | [PdfDigitalSignatureDetails](../com.aspose.words/pdfdigitalsignaturedetails/) | Contains details for signing a PDF document with a digital signature. |

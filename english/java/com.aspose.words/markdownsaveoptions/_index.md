@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 445
+weight: 444
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -114,6 +114,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
 | [getTableContentAlignment()](#getTableContentAlignment) | Gets a value that specifies how to align contents in tables when exporting into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
+| [getUpdateAmbiguousTextFont()](#getUpdateAmbiguousTextFont) | Determines whether the font attributes will be changed according to the character code being used. |
 | [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -147,6 +148,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
 | [setTableContentAlignment(int value)](#setTableContentAlignment-int) | Sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
+| [setUpdateAmbiguousTextFont(boolean value)](#setUpdateAmbiguousTextFont-boolean) | Determines whether the font attributes will be changed according to the character code being used. |
 | [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -1578,6 +1580,38 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
+### getUpdateAmbiguousTextFont() {#getUpdateAmbiguousTextFont}
+```
+public boolean getUpdateAmbiguousTextFont()
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty}
 ```
 public boolean getUpdateCreatedTimeProperty()
@@ -3190,6 +3224,41 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
+
+### setUpdateAmbiguousTextFont(boolean value) {#setUpdateAmbiguousTextFont-boolean}
+```
+public void setUpdateAmbiguousTextFont(boolean value)
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean}
 ```

@@ -4,7 +4,7 @@ linktitle: Paragraph
 second_title: Aspose.Words for Java
 description: Represents a paragraph of text in Java.
 type: docs
-weight: 508
+weight: 507
 url: /java/com.aspose.words/paragraph/
 ---
 

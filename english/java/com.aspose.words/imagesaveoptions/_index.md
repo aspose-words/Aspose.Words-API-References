@@ -157,6 +157,7 @@ Shows how to configure compression while saving a document as a JPEG.
 | [getThresholdForFloydSteinbergDithering()](#getThresholdForFloydSteinbergDithering) | Gets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. |
 | [getTiffBinarizationMethod()](#getTiffBinarizationMethod) | Gets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions/\#getSaveFormat) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions/\#setSaveFormat-int) is [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF) and [getTiffCompression()](../../com.aspose.words/imagesaveoptions/\#getTiffCompression) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions/\#setTiffCompression-int) is equal to [TiffCompression.CCITT\_3](../../com.aspose.words/tiffcompression/\#CCITT-3) or [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression/\#CCITT-4). |
 | [getTiffCompression()](#getTiffCompression) | Gets the type of compression to apply when saving generated images to the TIFF format. |
+| [getUpdateAmbiguousTextFont()](#getUpdateAmbiguousTextFont) | Determines whether the font attributes will be changed according to the character code being used. |
 | [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -197,6 +198,7 @@ Shows how to configure compression while saving a document as a JPEG.
 | [setThresholdForFloydSteinbergDithering(byte value)](#setThresholdForFloydSteinbergDithering-byte) | Sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. |
 | [setTiffBinarizationMethod(int value)](#setTiffBinarizationMethod-int) | Sets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions/\#getSaveFormat) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions/\#setSaveFormat-int) is [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF) and [getTiffCompression()](../../com.aspose.words/imagesaveoptions/\#getTiffCompression) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions/\#setTiffCompression-int) is equal to [TiffCompression.CCITT\_3](../../com.aspose.words/tiffcompression/\#CCITT-3) or [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression/\#CCITT-4). |
 | [setTiffCompression(int value)](#setTiffCompression-int) | Sets the type of compression to apply when saving generated images to the TIFF format. |
+| [setUpdateAmbiguousTextFont(boolean value)](#setUpdateAmbiguousTextFont-boolean) | Determines whether the font attributes will be changed according to the character code being used. |
 | [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
@@ -1132,7 +1134,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
      Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
-     Assert.assertEquals(191770.0,
+     Assert.assertEquals(191000.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  
 ```
@@ -1993,6 +1995,38 @@ Shows how to select the compression scheme to apply to a document that we conver
 
 **Returns:**
 int - The type of compression to apply when saving generated images to the TIFF format. The returned value is one of [TiffCompression](../../com.aspose.words/tiffcompression/) constants.
+### getUpdateAmbiguousTextFont() {#getUpdateAmbiguousTextFont}
+```
+public boolean getUpdateAmbiguousTextFont()
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty}
 ```
 public boolean getUpdateCreatedTimeProperty()
@@ -3198,7 +3232,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
      Assert.assertEquals(61889.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
-     Assert.assertEquals(191770.0,
+     Assert.assertEquals(191000.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  
 ```
@@ -4143,6 +4177,41 @@ Shows how to select the compression scheme to apply to a document that we conver
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The type of compression to apply when saving generated images to the TIFF format. The value must be one of [TiffCompression](../../com.aspose.words/tiffcompression/) constants. |
+
+### setUpdateAmbiguousTextFont(boolean value) {#setUpdateAmbiguousTextFont-boolean}
+```
+public void setUpdateAmbiguousTextFont(boolean value)
+```
+
+
+Determines whether the font attributes will be changed according to the character code being used.
+
+ **Examples:** 
+
+Shows how to update the font to match the character code being used.
+
+```
+
+ Document doc = new Document(getMyDir() + "Special symbol.docx");
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Arial
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateAmbiguousTextFont(true);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+ run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ System.out.println(run.getText()); // \u0e3f
+ System.out.println(run.getFont().getName()); // Angsana New
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean}
 ```
