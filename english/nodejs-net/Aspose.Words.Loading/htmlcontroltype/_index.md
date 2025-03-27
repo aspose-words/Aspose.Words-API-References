@@ -1,0 +1,27 @@
+﻿---
+title: HtmlControlType enumeration
+linktitle: HtmlControlType enumeration
+articleTitle: HtmlControlType enumeration
+second_title: Aspose.Words for NodeJs
+description: "Aspose.Words.Loading.HtmlControlType enumeration. Type of document nodes that represent <input> and <select> elements imported from HTML."
+type: docs
+weight: 60
+url: /nodejs-net/Aspose.Words.Loading/htmlcontroltype/
+---
+
+## HtmlControlType enumeration
+
+Type of document nodes that represent \<input\> and \<select\> elements imported from HTML.
+
+
+### Members
+
+| Name | Description |
+| --- | --- |
+| FormField | A form field. |
+| StructuredDocumentTag | A structured document tag |
+
+### See Also
+
+* module [Aspose.Words.Loading](../)
+

@@ -1,0 +1,22 @@
+﻿---
+title: Field.asFieldLastSavedBy method
+linktitle: asFieldLastSavedBy method
+articleTitle: asFieldLastSavedBy method
+second_title: Aspose.Words for NodeJs
+description: "Field.asFieldLastSavedBy method. "
+type: docs
+weight: 600
+url: /nodejs-net/Aspose.Words/field/asFieldLastSavedBy/
+---
+
+## asFieldLastSavedBy() {#default}
+
+```js
+asFieldLastSavedBy()
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Field](../)
+

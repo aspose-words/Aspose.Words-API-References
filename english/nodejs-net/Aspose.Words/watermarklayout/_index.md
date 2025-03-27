@@ -1,0 +1,27 @@
+﻿---
+title: WatermarkLayout enumeration
+linktitle: WatermarkLayout enumeration
+articleTitle: WatermarkLayout enumeration
+second_title: Aspose.Words for NodeJs
+description: "Aspose.Words.WatermarkLayout enumeration. Defines layout of the watermark relative to the watermark center."
+type: docs
+weight: 1520
+url: /nodejs-net/Aspose.Words/watermarklayout/
+---
+
+## WatermarkLayout enumeration
+
+Defines layout of the watermark relative to the watermark center.
+
+
+### Members
+
+| Name | Description |
+| --- | --- |
+| Horizontal | Horizontal watermark layout. Corresponds to 0 degrees of rotation. |
+| Diagonal | Diagonal watermark layout. Corresponds to 315 degrees of rotation. |
+
+### See Also
+
+* module [Aspose.Words](../)
+

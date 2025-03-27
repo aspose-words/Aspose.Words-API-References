@@ -1,0 +1,27 @@
+﻿---
+title: LayoutOptions.showParagraphMarks property
+linktitle: showParagraphMarks property
+articleTitle: showParagraphMarks property
+second_title: Aspose.Words for NodeJs
+description: "LayoutOptions.showParagraphMarks property. Gets or sets indication of whether paragraph marks are rendered"
+type: docs
+weight: 90
+url: /nodejs-net/Aspose.Words.Layout/layoutoptions/showParagraphMarks/
+---
+
+## LayoutOptions.showParagraphMarks property
+
+Gets or sets indication of whether paragraph marks are rendered.
+Default is ``False``.
+
+
+
+```js
+get showParagraphMarks(): boolean
+```
+
+### See Also
+
+* module [Aspose.Words.Layout](../../)
+* class [LayoutOptions](../)
+

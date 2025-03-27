@@ -1,0 +1,30 @@
+﻿---
+title: TableSubstitutionRule.setSubstitutes method
+linktitle: setSubstitutes method
+articleTitle: setSubstitutes method
+second_title: Aspose.Words for NodeJs
+description: "TableSubstitutionRule.setSubstitutes method. Override substitute font names for given original font name."
+type: docs
+weight: 80
+url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/setSubstitutes/
+---
+
+## setSubstitutes(originalFontName, substituteFontNames) {#string_string[]}
+
+Override substitute font names for given original font name.
+
+
+```js
+setSubstitutes(originalFontName: stringsubstituteFontNames: string[])
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| originalFontName | string | Original font name. |
+| substituteFontNames | string[] | List of alternative font names. |
+
+### See Also
+
+* module [Aspose.Words.Fonts](../../)
+* class [TableSubstitutionRule](../)
+

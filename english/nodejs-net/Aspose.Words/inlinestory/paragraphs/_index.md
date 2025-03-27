@@ -1,0 +1,89 @@
+﻿---
+title: InlineStory.paragraphs property
+linktitle: paragraphs property
+articleTitle: paragraphs property
+second_title: Aspose.Words for NodeJs
+description: "InlineStory.paragraphs property. Gets a collection of paragraphs that are immediate children of the story."
+type: docs
+weight: 80
+url: /nodejs-net/Aspose.Words/inlinestory/paragraphs/
+---
+
+## InlineStory.paragraphs property
+
+Gets a collection of paragraphs that are immediate children of the story.
+
+
+```js
+get paragraphs(): Aspose.Words.ParagraphCollection
+```
+
+### Examples
+
+Shows how to insert and customize footnotes.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Add text, and reference it with a footnote. This footnote will place a small superscript reference
+// mark after the text that it references and create an entry below the main body text at the bottom of the page.
+// This entry will contain the footnote's reference mark and the reference text,
+// which we will pass to the document builder's "InsertFootnote" method.
+builder.write("Main body text.");
+let footnote = builder.insertFootnote(aw.Notes.FootnoteType.Footnote, "Footnote text.");
+
+// If this property is set to "true", then our footnote's reference mark
+// will be its index among all the section's footnotes.
+// This is the first footnote, so the reference mark will be "1".
+expect(footnote.isAuto).toEqual(true);
+
+// We can move the document builder inside the footnote to edit its reference text. 
+builder.moveTo(footnote.firstParagraph);
+builder.write(" More text added by a DocumentBuilder.");
+builder.moveToDocumentEnd();
+
+expect(footnote.getText().trim()).toEqual("\u0002 Footnote text. More text added by a DocumentBuilder.");
+
+builder.write(" More main body text.");
+footnote = builder.insertFootnote(aw.Notes.FootnoteType.Footnote, "Footnote text.");
+
+// We can set a custom reference mark which the footnote will use instead of its index number.
+footnote.referenceMark = "RefMark";
+
+expect(footnote.isAuto).toEqual(false);
+
+// A bookmark with the "IsAuto" flag set to true will still show its real index
+// even if previous bookmarks display custom reference marks, so this bookmark's reference mark will be a "3".
+builder.write(" More main body text.");
+footnote = builder.insertFootnote(aw.Notes.FootnoteType.Footnote, "Footnote text.");
+
+expect(footnote.isAuto).toEqual(true);
+
+doc.save(base.artifactsDir + "InlineStory.AddFootnote.docx");
+```
+
+Shows how to add a comment to a paragraph.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.write("Hello world!");
+
+var today = new Date(2024, 11, 26);
+var comment = new aw.Comment(doc, "John Doe", "JD", today);
+builder.currentParagraph.appendChild(comment);
+builder.moveTo(comment.appendChild(new aw.Paragraph(doc)));
+builder.write("Comment text.");
+
+expect(comment.dateTime).toEqual(today);
+
+// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
+doc.save(base.artifactsDir + "InlineStory.AddComment.docx");
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [InlineStory](../)
+

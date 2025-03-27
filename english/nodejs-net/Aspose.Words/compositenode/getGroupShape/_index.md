@@ -1,0 +1,27 @@
+﻿---
+title: CompositeNode.getGroupShape method
+linktitle: getGroupShape method
+articleTitle: getGroupShape method
+second_title: Aspose.Words for NodeJs
+description: "CompositeNode.getGroupShape method. "
+type: docs
+weight: 150
+url: /nodejs-net/Aspose.Words/compositenode/getGroupShape/
+---
+
+## getGroupShape(index, isDeep) {#number_boolean}
+
+```js
+getGroupShape(index: numberisDeep: boolean)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number |  |
+| isDeep | boolean |  |
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [CompositeNode](../)
+

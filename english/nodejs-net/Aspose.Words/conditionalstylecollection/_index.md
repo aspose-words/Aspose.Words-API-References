@@ -1,0 +1,118 @@
+﻿---
+title: ConditionalStyleCollection class
+linktitle: ConditionalStyleCollection class
+articleTitle: ConditionalStyleCollection class
+second_title: Aspose.Words for NodeJs
+description: "Aspose.Words.ConditionalStyleCollection class. Represents a collection of [ConditionalStyle](../conditionalstyle/) objects"
+type: docs
+weight: 250
+url: /nodejs-net/Aspose.Words/conditionalstylecollection/
+---
+
+## ConditionalStyleCollection class
+
+Represents a collection of [ConditionalStyle](../conditionalstyle/) objects.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nodejs-net/working-with-tables/) documentation article.
+
+
+
+
+### Remarks
+
+It is not possible to add or remove items from this collection. It contains permanent set of items: one item for
+each value of the [ConditionalStyleType](../conditionalstyletype/) enumeration type.
+
+
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [bottomLeftCell](./bottomLeftCell/) | Gets the bottom left cell style. |
+| [bottomRightCell](./bottomRightCell/) | Gets the bottom right cell style. |
+| [count](./count/) | Gets the number of conditional styles in the collection. |
+| [evenColumnBanding](./evenColumnBanding/) | Gets the even column banding style. |
+| [evenRowBanding](./evenRowBanding/) | Gets the even row banding style. |
+| [firstColumn](./firstColumn/) | Gets the first column style. |
+| [firstRow](./firstRow/) | Gets the first row style. |
+| [lastColumn](./lastColumn/) | Gets the last column style. |
+| [lastRow](./lastRow/) | Gets the last row style. |
+| [oddColumnBanding](./oddColumnBanding/) | Gets the odd column banding style. |
+| [oddRowBanding](./oddRowBanding/) | Gets the odd row banding style. |
+| [this[]](./this[]/) |  |
+| [this[]](./this[]/) |  |
+| [topLeftCell](./topLeftCell/) | Gets the top left cell style. |
+| [topRightCell](./topRightCell/) | Gets the top right cell style. |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ clearFormatting()](./clearFormatting/#default) | Clears all conditional styles of the table style. |
+
+### Examples
+
+Shows how to work with certain area styles of a table.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let table = builder.startTable();
+builder.insertCell();
+builder.write("Cell 1");
+builder.insertCell();
+builder.write("Cell 2");
+builder.endRow();
+builder.insertCell();
+builder.write("Cell 3");
+builder.insertCell();
+builder.write("Cell 4");
+builder.endTable();
+
+// Create a custom table style.
+let tableStyle = doc.styles.add(aw.StyleType.Table, "MyTableStyle1").asTableStyle();
+
+// Conditional styles are formatting changes that affect only some of the table's cells
+// based on a predicate, such as the cells being in the last row.
+// Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+// 1 -  By style type:
+tableStyle.conditionalStyles.at(aw.ConditionalStyleType.FirstRow).shading.backgroundPatternColor = "#F0F8FF";
+
+// 2 -  By index:
+tableStyle.conditionalStyles.at(0).borders.color = "#000000";
+tableStyle.conditionalStyles.at(0).borders.lineStyle = aw.LineStyle.DotDash;
+expect(tableStyle.conditionalStyles.at(0).type).toEqual(aw.ConditionalStyleType.FirstRow);
+
+// 3 -  As a property:
+tableStyle.conditionalStyles.firstRow.paragraphFormat.alignment = aw.ParagraphAlignment.Center;
+
+// Apply padding and text formatting to conditional styles.
+tableStyle.conditionalStyles.lastRow.bottomPadding = 10;
+tableStyle.conditionalStyles.lastRow.leftPadding = 10;
+tableStyle.conditionalStyles.lastRow.rightPadding = 10;
+tableStyle.conditionalStyles.lastRow.topPadding = 10;
+tableStyle.conditionalStyles.lastColumn.font.bold = true;
+
+// List all possible style conditions.
+for (var currentStyle of tableStyle.conditionalStyles)
+{
+    if (currentStyle != null) console.log(currentStyle.type);
+}
+
+// Apply the custom style, which contains all conditional styles, to the table.
+table.style = tableStyle;
+
+// Our style applies some conditional styles by default.
+expect(table.styleOptions).toEqual(aw.Tables.TableStyleOptions.FirstRow | aw.Tables.TableStyleOptions.FirstColumn | aw.Tables.TableStyleOptions.RowBands);
+
+// We will need to enable all other styles ourselves via the "StyleOptions" property.
+table.styleOptions = table.styleOptions | aw.Tables.TableStyleOptions.LastRow | aw.Tables.TableStyleOptions.LastColumn;
+
+doc.save(base.artifactsDir + "Table.conditionalStyles.docx");
+```
+
+### See Also
+
+* module [Aspose.Words](../)
+

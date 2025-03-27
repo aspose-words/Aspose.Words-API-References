@@ -1,0 +1,74 @@
+﻿---
+title: ImageSaveOptions.saveFormat property
+linktitle: saveFormat property
+articleTitle: saveFormat property
+second_title: Aspose.Words for NodeJs
+description: "ImageSaveOptions.saveFormat property. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used"
+type: docs
+weight: 110
+url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/saveFormat/
+---
+
+## ImageSaveOptions.saveFormat property
+
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used.
+Can be a raster
+[SaveFormat.Tiff](../../../Aspose.Words/saveformat/#Tiff), [SaveFormat.Png](../../../Aspose.Words/saveformat/#Png), [SaveFormat.Bmp](../../../Aspose.Words/saveformat/#Bmp),
+[SaveFormat.Jpeg](../../../Aspose.Words/saveformat/#Jpeg) or vector [SaveFormat.Emf](../../../Aspose.Words/saveformat/#Emf), [SaveFormat.Eps](../../../Aspose.Words/saveformat/#Eps),
+[SaveFormat.WebP](../../../Aspose.Words/saveformat/#WebP), [SaveFormat.Svg](../../../Aspose.Words/saveformat/#Svg).
+
+
+
+```js
+get saveFormat(): Aspose.Words.SaveFormat
+```
+
+### Remarks
+
+The number of other options depends on the selected format.
+
+Also, it is possible to save to SVG both via [ImageSaveOptions](../) and via [SvgSaveOptions](../../svgsaveoptions/).
+
+
+
+
+### Examples
+
+Shows how to edit the image while Aspose.words converts a document to one.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.paragraphFormat.style = doc.styles.at("Heading 1");
+builder.writeln("Hello world!");
+builder.insertImage(base.imageDir + "Logo.jpg");
+
+// When we save the document as an image, we can pass a SaveOptions object to
+// edit the image while the saving operation renders it.
+let options = new aw.Saving.ImageSaveOptions(aw.SaveFormat.Png)
+{
+  // We can adjust these properties to change the image's brightness and contrast.
+  // Both are on a 0-1 scale and are at 0.5 by default.
+  ImageBrightness = 0.3f,
+  ImageContrast = 0.7f,
+
+  // We can adjust horizontal and vertical resolution with these properties.
+  // This will affect the dimensions of the image.
+  // The default value for these properties is 96.0, for a resolution of 96dpi.
+  HorizontalResolution = 72f,
+  VerticalResolution = 72f,
+
+  // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+  // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+  Scale = 96f / 72f
+};
+
+doc.save(base.artifactsDir + "ImageSaveOptions.EditImage.png", options);
+```
+
+### See Also
+
+* module [Aspose.Words.Saving](../../)
+* class [ImageSaveOptions](../)
+

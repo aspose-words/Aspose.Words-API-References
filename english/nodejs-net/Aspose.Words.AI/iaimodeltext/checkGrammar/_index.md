@@ -1,0 +1,36 @@
+﻿---
+title: IAiModelText.checkGrammar method
+linktitle: checkGrammar method
+articleTitle: checkGrammar method
+second_title: Aspose.Words for NodeJs
+description: "IAiModelText.checkGrammar method. Checks grammar of the provided document"
+type: docs
+weight: 10
+url: /nodejs-net/Aspose.Words.AI/iaimodeltext/checkGrammar/
+---
+
+## checkGrammar(sourceDocument, options) {#document_checkgrammaroptions}
+
+Checks grammar of the provided document.
+This operation leverages the connected AI model for checking grammar of document.
+
+
+```js
+checkGrammar(sourceDocument: Aspose.Words.Documentoptions: Aspose.Words.AI.CheckGrammarOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceDocument | [Document](../../../Aspose.Words/document/) | The document being checked for grammar. |
+| options | [CheckGrammarOptions](../../checkgrammaroptions/) | Optional settings to control how grammar will be checked. |
+
+### Returns
+
+A new [Document](../../../Aspose.Words/document/) with checked grammar.
+
+
+### See Also
+
+* module [Aspose.Words.AI](../../)
+* class [IAiModelText](../)
+

@@ -1,0 +1,25 @@
+﻿---
+title: Document.watermark property
+linktitle: watermark property
+articleTitle: watermark property
+second_title: Aspose.Words for NodeJs
+description: "Document.watermark property. Provides access to the document watermark."
+type: docs
+weight: 480
+url: /nodejs-net/Aspose.Words/document/watermark/
+---
+
+## Document.watermark property
+
+Provides access to the document watermark.
+
+
+```js
+get watermark(): Aspose.Words.Watermark
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Document](../)
+
