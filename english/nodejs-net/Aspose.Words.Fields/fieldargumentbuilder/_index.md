@@ -20,7 +20,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldArgumentBuilder()](./FieldArgumentBuilder/#default) | Initializes an instance of the [FieldArgumentBuilder](./) class. |
+| [FieldArgumentBuilder()](./constructor/#default) | Initializes an instance of the [FieldArgumentBuilder](./) class. |
 
 ### Methods
 

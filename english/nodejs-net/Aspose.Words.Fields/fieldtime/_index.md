@@ -27,7 +27,7 @@ Inserts the current date and time.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldTime()](./FieldTime/#default) | The default constructor. |
+| [FieldTime()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

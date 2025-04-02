@@ -22,9 +22,9 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [HtmlLoadOptions()](./HtmlLoadOptions/#default) | Initializes a new instance of this class with default values. |
-| [HtmlLoadOptions(password)](./HtmlLoadOptions/#string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [HtmlLoadOptions(loadFormat, password, baseUri)](./HtmlLoadOptions/#loadformat_string_string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+| [HtmlLoadOptions()](./constructor/#default) | Initializes a new instance of this class with default values. |
+| [HtmlLoadOptions(password)](./constructor/#string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [HtmlLoadOptions(loadFormat, password, baseUri)](./constructor/#loadformat_string_string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 
 ### Properties
 

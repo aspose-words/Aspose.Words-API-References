@@ -25,7 +25,7 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OdsoRecipientDataCollection()](./OdsoRecipientDataCollection/#default) | The default constructor. |
+| [OdsoRecipientDataCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -64,33 +64,6 @@ If you specify a name for the form field, then a bookmark is automatically creat
 The form field node that was just inserted.
 
 
-## Examples
-
-Shows how to insert checkboxes into the document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert checkboxes of varying sizes and default checked statuses.
-builder.write("Unchecked check box of a default size: ");
-builder.insertCheckBox('', false, false, 0);
-builder.insertParagraph();
-
-builder.write("Large checked check box: ");
-builder.insertCheckBox("CheckBox_Default", true, true, 50);
-builder.insertParagraph();
-
-// Form fields have a name length limit of 20 characters.
-builder.write("Very large checked check box: ");
-builder.insertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
-
-expect(doc.range.formFields.at(2).name).toEqual("CheckBox_OnlyChecked");
-
-// We can interact with these check boxes in Microsoft Word by double clicking them.
-doc.save(base.artifactsDir + "DocumentBuilder.insertCheckBox.docx");
-```
-
 ## See Also
 
 * module [Aspose.Words](../../)

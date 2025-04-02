@@ -20,7 +20,7 @@ To learn more, visit the [Handling Windows Metafiles](https://docs.aspose.com/wo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [MetafileRenderingOptions()](./MetafileRenderingOptions/#default) | The default constructor. |
+| [MetafileRenderingOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

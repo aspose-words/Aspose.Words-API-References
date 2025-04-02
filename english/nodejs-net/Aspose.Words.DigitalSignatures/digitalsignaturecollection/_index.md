@@ -26,7 +26,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [DigitalSignatureCollection()](./DigitalSignatureCollection/#default) | The default constructor. |
+| [DigitalSignatureCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

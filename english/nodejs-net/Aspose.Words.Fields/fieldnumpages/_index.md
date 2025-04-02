@@ -29,7 +29,7 @@ built-in document properties.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldNumPages()](./FieldNumPages/#default) | The default constructor. |
+| [FieldNumPages()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

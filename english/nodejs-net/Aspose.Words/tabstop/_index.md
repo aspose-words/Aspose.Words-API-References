@@ -34,8 +34,8 @@ For more information see [TabStopCollection](../tabstopcollection/).
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [TabStop(position)](./TabStop/#number) | Initializes a new instance of this class. |
-| [TabStop(position, alignment, leader)](./TabStop/#number_tabalignment_tableader) | Initializes a new instance of this class. |
+| [TabStop(position)](./constructor/#number) | Initializes a new instance of this class. |
+| [TabStop(position, alignment, leader)](./constructor/#number_tabalignment_tableader) | Initializes a new instance of this class. |
 
 ### Properties
 

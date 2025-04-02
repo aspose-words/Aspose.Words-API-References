@@ -27,8 +27,8 @@ you should assign a negative value to the [MergeFieldImageDimension.value](./val
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [MergeFieldImageDimension(value)](./MergeFieldImageDimension/#number) | Creates an image dimension instance with the given value in points. |
-| [MergeFieldImageDimension(value, unit)](./MergeFieldImageDimension/#number_mergefieldimagedimensionunit) | Creates an image dimension instance with the given value and the given unit. |
+| [MergeFieldImageDimension(value)](./constructor/#number) | Creates an image dimension instance with the given value in points. |
+| [MergeFieldImageDimension(value, unit)](./constructor/#number_mergefieldimagedimensionunit) | Creates an image dimension instance with the given value and the given unit. |
 
 ### Properties
 

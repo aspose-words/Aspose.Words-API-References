@@ -27,7 +27,7 @@ a single frame.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Frameset()](./Frameset/#default) | The default constructor. |
+| [Frameset()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

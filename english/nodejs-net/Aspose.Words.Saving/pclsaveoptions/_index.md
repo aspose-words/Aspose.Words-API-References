@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PclSaveOptions()](./PclSaveOptions/#default) | The default constructor. |
+| [PclSaveOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

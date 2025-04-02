@@ -28,7 +28,7 @@ moved to the specified location.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldGoToButton()](./FieldGoToButton/#default) | The default constructor. |
+| [FieldGoToButton()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

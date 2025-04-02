@@ -20,7 +20,7 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PageSavingArgs()](./PageSavingArgs/#default) | The default constructor. |
+| [PageSavingArgs()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

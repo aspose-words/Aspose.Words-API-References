@@ -27,7 +27,7 @@ Inserts a glossary entry.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldGlossary()](./FieldGlossary/#default) | The default constructor. |
+| [FieldGlossary()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

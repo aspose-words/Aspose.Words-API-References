@@ -20,7 +20,7 @@ Allows to specify additional options when loading [LoadFormat.Markdown](../../As
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [MarkdownLoadOptions()](./MarkdownLoadOptions/#default) | Initializes a new instance of [MarkdownLoadOptions](./) class. |
+| [MarkdownLoadOptions()](./constructor/#default) | Initializes a new instance of [MarkdownLoadOptions](./) class. |
 
 ### Properties
 

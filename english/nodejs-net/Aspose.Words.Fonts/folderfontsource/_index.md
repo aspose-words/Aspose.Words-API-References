@@ -22,8 +22,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FolderFontSource(folderPath, scanSubfolders)](./FolderFontSource/#string_boolean) | Ctor. |
-| [FolderFontSource(folderPath, scanSubfolders, priority)](./FolderFontSource/#string_boolean_number) | Ctor. |
+| [FolderFontSource(folderPath, scanSubfolders)](./constructor/#string_boolean) | Ctor. |
+| [FolderFontSource(folderPath, scanSubfolders, priority)](./constructor/#string_boolean_number) | Ctor. |
 
 ### Properties
 

@@ -20,7 +20,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [SignatureLineOptions()](./SignatureLineOptions/#default) | The default constructor. |
+| [SignatureLineOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

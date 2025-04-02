@@ -20,7 +20,7 @@ To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [WebExtensionProperty(name, value)](./WebExtensionProperty/#string_string) | Creates web extension custom property with specified name and value. |
+| [WebExtensionProperty(name, value)](./constructor/#string_string) | Creates web extension custom property with specified name and value. |
 
 ### Properties
 

@@ -17,7 +17,7 @@ Allows to specify various options while checking grammar of a document using AI.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CheckGrammarOptions()](./CheckGrammarOptions/#default) | The default constructor. |
+| [CheckGrammarOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

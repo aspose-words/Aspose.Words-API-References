@@ -27,7 +27,7 @@ Inserts the mark of the footnote or endnote that is marked by the specified book
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldNoteRef()](./FieldNoteRef/#default) | The default constructor. |
+| [FieldNoteRef()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

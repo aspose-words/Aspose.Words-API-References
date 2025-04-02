@@ -54,10 +54,10 @@ you navigate to a different place in the document to reflect formatting properti
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [DocumentBuilder()](./DocumentBuilder/#default) | Initializes a new instance of this class. |
-| [DocumentBuilder(options)](./DocumentBuilder/#documentbuilderoptions) | Initializes a new instance of this class. |
-| [DocumentBuilder(doc)](./DocumentBuilder/#document) | Initializes a new instance of this class. |
-| [DocumentBuilder(doc, options)](./DocumentBuilder/#document_documentbuilderoptions) | Initializes a new instance of this class. |
+| [DocumentBuilder()](./constructor/#default) | Initializes a new instance of this class. |
+| [DocumentBuilder(options)](./constructor/#documentbuilderoptions) | Initializes a new instance of this class. |
+| [DocumentBuilder(doc)](./constructor/#document) | Initializes a new instance of this class. |
+| [DocumentBuilder(doc, options)](./constructor/#document_documentbuilderoptions) | Initializes a new instance of this class. |
 
 ### Properties
 

@@ -50,7 +50,7 @@ using the Aspose.Words.MailMerging.MailMerge object.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [MailMergeSettings()](./MailMergeSettings/#default) | The default constructor. |
+| [MailMergeSettings()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

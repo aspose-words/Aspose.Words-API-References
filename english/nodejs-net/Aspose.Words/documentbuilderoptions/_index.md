@@ -17,7 +17,7 @@ Allows to specify additional options for the document building process.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [DocumentBuilderOptions()](./DocumentBuilderOptions/#default) | The default constructor. |
+| [DocumentBuilderOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

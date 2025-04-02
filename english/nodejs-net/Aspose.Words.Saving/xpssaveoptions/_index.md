@@ -22,8 +22,8 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [XpsSaveOptions()](./XpsSaveOptions/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Xps](../../Aspose.Words/saveformat/#Xps) format. |
-| [XpsSaveOptions(saveFormat)](./XpsSaveOptions/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Xps](../../Aspose.Words/saveformat/#Xps) or [SaveFormat.OpenXps](../../Aspose.Words/saveformat/#OpenXps) format. |
+| [XpsSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Xps](../../Aspose.Words/saveformat/#Xps) format. |
+| [XpsSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Xps](../../Aspose.Words/saveformat/#Xps) or [SaveFormat.OpenXps](../../Aspose.Words/saveformat/#OpenXps) format. |
 
 ### Properties
 

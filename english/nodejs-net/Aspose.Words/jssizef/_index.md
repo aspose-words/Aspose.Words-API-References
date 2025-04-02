@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words/jssizef/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [JSSizeF(width, height)](./JSSizeF/#number_number) |  |
+| [JSSizeF(width, height)](./constructor/#number_number) |  |
 
 ### Properties
 

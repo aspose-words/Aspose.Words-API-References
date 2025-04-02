@@ -20,7 +20,7 @@ To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [TextWatermarkOptions()](./TextWatermarkOptions/#default) | The default constructor. |
+| [TextWatermarkOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

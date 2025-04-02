@@ -33,7 +33,7 @@ to the same [Comment.id](../comment/id/) value.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CommentRangeStart(doc, id)](./CommentRangeStart/#documentbase_number) | Initializes a new instance of this class. |
+| [CommentRangeStart(doc, id)](./constructor/#documentbase_number) | Initializes a new instance of this class. |
 
 ### Properties
 

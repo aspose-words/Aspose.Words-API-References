@@ -20,8 +20,8 @@ To learn more, visit the [Working with Images](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ImageSize(widthPixels, heightPixels)](./ImageSize/#number_number) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
-| [ImageSize(widthPixels, heightPixels, horizontalResolution, verticalResolution)](./ImageSize/#number_number_number_number) | Initializes width, height and resolution to the given values. |
+| [ImageSize(widthPixels, heightPixels)](./constructor/#number_number) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
+| [ImageSize(widthPixels, heightPixels, horizontalResolution, verticalResolution)](./constructor/#number_number_number_number) | Initializes width, height and resolution to the given values. |
 
 ### Properties
 

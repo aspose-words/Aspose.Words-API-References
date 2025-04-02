@@ -20,7 +20,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Forms2OleControlCollection()](./Forms2OleControlCollection/#default) | The default constructor. |
+| [Forms2OleControlCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

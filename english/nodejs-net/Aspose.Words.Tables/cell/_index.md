@@ -33,7 +33,7 @@ A minimal valid cell needs to have at least one [Paragraph](../../Aspose.Words/p
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Cell(doc)](./Cell/#documentbase) | Initializes a new instance of the [Cell](./) class. |
+| [Cell(doc)](./constructor/#documentbase) | Initializes a new instance of the [Cell](./) class. |
 
 ### Properties
 

@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [SvgSaveOptions()](./SvgSaveOptions/#default) | The default constructor. |
+| [SvgSaveOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

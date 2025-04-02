@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words/jsrectangle/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [JSRectangle(x, y, width, height)](./JSRectangle/#number_number_number_number) |  |
+| [JSRectangle(x, y, width, height)](./constructor/#number_number_number_number) |  |
 
 ### Properties
 

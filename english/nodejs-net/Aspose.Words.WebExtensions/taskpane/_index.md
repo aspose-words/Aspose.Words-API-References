@@ -20,7 +20,7 @@ To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [TaskPane()](./TaskPane/#default) | The default constructor. |
+| [TaskPane()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

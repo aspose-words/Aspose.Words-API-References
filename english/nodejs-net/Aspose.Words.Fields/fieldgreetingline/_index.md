@@ -27,7 +27,7 @@ Inserts a mail merge greeting line.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldGreetingLine()](./FieldGreetingLine/#default) | The default constructor. |
+| [FieldGreetingLine()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

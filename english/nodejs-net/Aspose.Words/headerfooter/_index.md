@@ -39,7 +39,7 @@ considered linked to previous in Microsoft Word.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [HeaderFooter(doc, headerFooterType)](./HeaderFooter/#documentbase_headerfootertype) | Creates a new header or footer of the specified type. |
+| [HeaderFooter(doc, headerFooterType)](./constructor/#documentbase_headerfootertype) | Creates a new header or footer of the specified type. |
 
 ### Properties
 

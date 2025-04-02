@@ -27,7 +27,7 @@ Inserts an automatic number in legal format.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldAutoNumLgl()](./FieldAutoNumLgl/#default) | The default constructor. |
+| [FieldAutoNumLgl()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

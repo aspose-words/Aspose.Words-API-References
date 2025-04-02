@@ -28,7 +28,7 @@ of the paragraph numbering.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldBidiOutline()](./FieldBidiOutline/#default) | The default constructor. |
+| [FieldBidiOutline()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

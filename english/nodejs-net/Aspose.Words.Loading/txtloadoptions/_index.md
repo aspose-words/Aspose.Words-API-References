@@ -22,7 +22,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [TxtLoadOptions()](./TxtLoadOptions/#default) | Initializes a new instance of this class with default values. |
+| [TxtLoadOptions()](./constructor/#default) | Initializes a new instance of this class with default values. |
 
 ### Properties
 

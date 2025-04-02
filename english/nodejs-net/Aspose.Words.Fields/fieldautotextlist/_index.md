@@ -27,7 +27,7 @@ Creates a shortcut menu based on AutoText entries in the active template.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldAutoTextList()](./FieldAutoTextList/#default) | The default constructor. |
+| [FieldAutoTextList()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

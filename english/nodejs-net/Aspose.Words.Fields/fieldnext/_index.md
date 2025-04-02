@@ -28,7 +28,7 @@ new merged document.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldNext()](./FieldNext/#default) | The default constructor. |
+| [FieldNext()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

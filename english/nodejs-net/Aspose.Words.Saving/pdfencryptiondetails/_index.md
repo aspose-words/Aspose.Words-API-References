@@ -20,8 +20,8 @@ To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PdfEncryptionDetails(userPassword, ownerPassword)](./PdfEncryptionDetails/#string_string) | Initializes an instance of this class. |
-| [PdfEncryptionDetails(userPassword, ownerPassword, permissions)](./PdfEncryptionDetails/#string_string_pdfpermissions) | Initializes an instance of this class. |
+| [PdfEncryptionDetails(userPassword, ownerPassword)](./constructor/#string_string) | Initializes an instance of this class. |
+| [PdfEncryptionDetails(userPassword, ownerPassword, permissions)](./constructor/#string_string_pdfpermissions) | Initializes an instance of this class. |
 
 ### Properties
 

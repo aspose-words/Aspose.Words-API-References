@@ -37,7 +37,7 @@ are always available via the [MailMergeSettings.odso](../mailmergesettings/odso/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Odso()](./Odso/#default) | The default constructor. |
+| [Odso()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

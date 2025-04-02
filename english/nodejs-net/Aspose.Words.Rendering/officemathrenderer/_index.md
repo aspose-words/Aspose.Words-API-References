@@ -23,7 +23,7 @@ To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OfficeMathRenderer(math)](./OfficeMathRenderer/#officemath) | Initializes a new instance of this class. |
+| [OfficeMathRenderer(math)](./constructor/#officemath) | Initializes a new instance of this class. |
 
 ### Methods
 

@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [MarkdownSaveOptions()](./MarkdownSaveOptions/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format. |
+| [MarkdownSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format. |
 
 ### Properties
 

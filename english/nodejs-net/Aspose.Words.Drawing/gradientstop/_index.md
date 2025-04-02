@@ -20,8 +20,8 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [GradientStop(color, position)](./GradientStop/#string_number) | Initializes a new instance of the [GradientStop](./) class. |
-| [GradientStop(color, position, transparency)](./GradientStop/#string_number_number) | Initializes a new instance of the [GradientStop](./) class. |
+| [GradientStop(color, position)](./constructor/#string_number) | Initializes a new instance of the [GradientStop](./) class. |
+| [GradientStop(color, position, transparency)](./constructor/#string_number_number) | Initializes a new instance of the [GradientStop](./) class. |
 
 ### Properties
 

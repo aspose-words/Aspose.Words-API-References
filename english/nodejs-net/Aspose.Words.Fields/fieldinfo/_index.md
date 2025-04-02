@@ -27,7 +27,7 @@ Inserts information about a document property.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldInfo()](./FieldInfo/#default) | The default constructor. |
+| [FieldInfo()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

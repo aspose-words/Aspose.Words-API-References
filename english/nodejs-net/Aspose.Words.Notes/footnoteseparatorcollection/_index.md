@@ -18,7 +18,7 @@ Provides typed access to [FootnoteSeparator](../footnoteseparator/) nodes of a d
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FootnoteSeparatorCollection()](./FootnoteSeparatorCollection/#default) | The default constructor. |
+| [FootnoteSeparatorCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

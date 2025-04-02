@@ -22,7 +22,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PdfLoadOptions()](./PdfLoadOptions/#default) | The default constructor. |
+| [PdfLoadOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

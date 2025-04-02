@@ -49,7 +49,7 @@ the [StructuredDocumentTag.xmlMapping](./xmlMapping/) property.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTag(doc, type, level)](./StructuredDocumentTag/#documentbase_sdttype_markuplevel) | Initializes a new instance of the **Structured document tag** class. |
+| [StructuredDocumentTag(doc, type, level)](./constructor/#documentbase_sdttype_markuplevel) | Initializes a new instance of the **Structured document tag** class. |
 
 ### Properties
 

@@ -20,8 +20,8 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [SdtListItem(displayText, value)](./SdtListItem/#string_string) | Initializes a new instance of this class. |
-| [SdtListItem(value)](./SdtListItem/#string) | Initializes a new instance of this class. |
+| [SdtListItem(displayText, value)](./constructor/#string_string) | Initializes a new instance of this class. |
+| [SdtListItem(value)](./constructor/#string) | Initializes a new instance of this class. |
 
 ### Properties
 

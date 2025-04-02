@@ -27,7 +27,7 @@ Inserts a barcode.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldDisplayBarcode()](./FieldDisplayBarcode/#default) | The default constructor. |
+| [FieldDisplayBarcode()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

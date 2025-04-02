@@ -29,6 +29,25 @@ There are 52 fonts that are to be built in any printer according to Pcl specific
 However manufactures can add some other fonts to their devices.
 
 
+### Examples
+
+Shows how to get a printer to substitute all instances of a specific font with a different font.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.font.name = "Courier";
+builder.write("Hello world!");
+
+let saveOptions = new aw.Saving.PclSaveOptions();
+saveOptions.addPrinterFont("Courier New", "Courier");
+
+// When printing this document, the printer will use the "Courier New" font
+// to access places where our document used the "Courier" font.
+doc.save(base.artifactsDir + "PclSaveOptions.addPrinterFont.pcl", saveOptions);
+```
+
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

@@ -28,7 +28,7 @@ allows to create and extract Custom XML Data via the [Document.customXmlParts](.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CustomXmlPart()](./CustomXmlPart/#default) | The default constructor. |
+| [CustomXmlPart()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

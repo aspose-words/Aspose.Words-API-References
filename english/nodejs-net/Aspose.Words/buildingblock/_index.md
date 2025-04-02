@@ -37,7 +37,7 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [BuildingBlock(glossaryDoc)](./BuildingBlock/#glossarydocument) | Initializes a new instance of this class. |
+| [BuildingBlock(glossaryDoc)](./constructor/#glossarydocument) | Initializes a new instance of this class. |
 
 ### Properties
 

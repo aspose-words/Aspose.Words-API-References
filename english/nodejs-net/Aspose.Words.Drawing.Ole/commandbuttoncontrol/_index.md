@@ -19,7 +19,7 @@ The CommandButton control runs a macro that performs an action when a user click
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CommandButtonControl()](./CommandButtonControl/#default) | Initializes a new instance of [CommandButtonControl](./) class. |
+| [CommandButtonControl()](./constructor/#default) | Initializes a new instance of [CommandButtonControl](./) class. |
 
 ### Properties
 

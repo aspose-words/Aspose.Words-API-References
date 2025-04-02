@@ -24,8 +24,8 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OoxmlSaveOptions()](./OoxmlSaveOptions/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Docx](../../Aspose.Words/saveformat/#Docx) format. |
-| [OoxmlSaveOptions(saveFormat)](./OoxmlSaveOptions/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Docx](../../Aspose.Words/saveformat/#Docx), [SaveFormat.Docm](../../Aspose.Words/saveformat/#Docm), [SaveFormat.Dotx](../../Aspose.Words/saveformat/#Dotx), [SaveFormat.Dotm](../../Aspose.Words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../Aspose.Words/saveformat/#FlatOpc) format. |
+| [OoxmlSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Docx](../../Aspose.Words/saveformat/#Docx) format. |
+| [OoxmlSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Docx](../../Aspose.Words/saveformat/#Docx), [SaveFormat.Docm](../../Aspose.Words/saveformat/#Docm), [SaveFormat.Dotx](../../Aspose.Words/saveformat/#Dotx), [SaveFormat.Dotm](../../Aspose.Words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../Aspose.Words/saveformat/#FlatOpc) format. |
 
 ### Properties
 

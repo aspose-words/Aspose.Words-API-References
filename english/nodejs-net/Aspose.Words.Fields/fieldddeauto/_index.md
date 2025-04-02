@@ -28,7 +28,7 @@ and is updated automatically.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldDdeAuto()](./FieldDdeAuto/#default) | The default constructor. |
+| [FieldDdeAuto()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -27,7 +27,7 @@ Inserts an AutoText entry.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldAutoText()](./FieldAutoText/#default) | The default constructor. |
+| [FieldAutoText()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

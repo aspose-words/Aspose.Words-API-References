@@ -32,26 +32,6 @@ getFieldCode(includeChildFieldCodes: boolean)
 | --- | --- | --- |
 | includeChildFieldCodes | boolean | ``True`` if child field codes should be included. |
 
-## Examples
-
-Shows how to get a field's field code.
-
-```js
-// Open a document which contains a MERGEFIELD inside an IF field.
-let doc = new aw.Document(base.myDir + "Nested fields.docx");
-let fieldIf = doc.range.fields.at(0).asFieldIf();
-
-// There are two ways of getting a field's field code:
-// 1 -  Omit its inner fields:
-expect(fieldIf.getFieldCode(false)).toEqual(" IF  > 0 \" (surplus of ) \" \"\" ");
-
-// 2 -  Include its inner fields:
-expect(fieldIf.getFieldCode(true)).toEqual(` IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" `);
-
-// By default, the GetFieldCode method displays inner fields.
-expect(fieldIf.getFieldCode(true)).toEqual(fieldIf.getFieldCode());
-```
-
 ## See Also
 
 * module [Aspose.Words](../../)

@@ -20,7 +20,7 @@ To learn more, visit the [Working with Styles and Themes](https://docs.aspose.co
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Theme()](./Theme/#default) | The default constructor. |
+| [Theme()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

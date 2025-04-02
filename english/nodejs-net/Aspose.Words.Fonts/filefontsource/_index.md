@@ -22,9 +22,9 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FileFontSource(filePath)](./FileFontSource/#string) | Ctor. |
-| [FileFontSource(filePath, priority)](./FileFontSource/#string_number) | Ctor. |
-| [FileFontSource(filePath, priority, cacheKey)](./FileFontSource/#string_number_string) | Ctor. |
+| [FileFontSource(filePath)](./constructor/#string) | Ctor. |
+| [FileFontSource(filePath, priority)](./constructor/#string_number) | Ctor. |
+| [FileFontSource(filePath, priority, cacheKey)](./constructor/#string_number_string) | Ctor. |
 
 ### Properties
 

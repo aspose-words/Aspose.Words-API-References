@@ -27,7 +27,7 @@ Inserts the results of a database query into a WordprocessingML table.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldDatabase()](./FieldDatabase/#default) | The default constructor. |
+| [FieldDatabase()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

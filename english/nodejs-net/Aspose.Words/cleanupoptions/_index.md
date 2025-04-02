@@ -20,7 +20,7 @@ To learn more, visit the [Clean Up a Document](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CleanupOptions()](./CleanupOptions/#default) | The default constructor. |
+| [CleanupOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

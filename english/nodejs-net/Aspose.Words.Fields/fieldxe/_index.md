@@ -27,7 +27,7 @@ Defines the text and page number for an index entry, which is used by an INDEX f
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldXE()](./FieldXE/#default) | The default constructor. |
+| [FieldXE()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

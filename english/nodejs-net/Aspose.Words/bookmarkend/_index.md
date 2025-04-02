@@ -36,7 +36,7 @@ as a single object.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [BookmarkEnd(doc, name)](./BookmarkEnd/#documentbase_string) | Initializes a new instance of the [BookmarkEnd](./) class. |
+| [BookmarkEnd(doc, name)](./constructor/#documentbase_string) | Initializes a new instance of the [BookmarkEnd](./) class. |
 
 ### Properties
 

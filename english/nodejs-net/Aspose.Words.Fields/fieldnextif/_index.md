@@ -32,7 +32,7 @@ If the comparison is false, the next data record is merged into a new merge docu
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldNextIf()](./FieldNextIf/#default) | The default constructor. |
+| [FieldNextIf()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

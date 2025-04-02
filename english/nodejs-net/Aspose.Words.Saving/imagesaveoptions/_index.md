@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions(saveFormat)](./ImageSaveOptions/#saveformat) | Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.Tiff](../../Aspose.Words/saveformat/#Tiff), [SaveFormat.Png](../../Aspose.Words/saveformat/#Png), [SaveFormat.Bmp](../../Aspose.Words/saveformat/#Bmp), [SaveFormat.Jpeg](../../Aspose.Words/saveformat/#Jpeg), [SaveFormat.Emf](../../Aspose.Words/saveformat/#Emf), [SaveFormat.Eps](../../Aspose.Words/saveformat/#Eps), [SaveFormat.WebP](../../Aspose.Words/saveformat/#WebP) or [SaveFormat.Svg](../../Aspose.Words/saveformat/#Svg) format. |
+| [ImageSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.Tiff](../../Aspose.Words/saveformat/#Tiff), [SaveFormat.Png](../../Aspose.Words/saveformat/#Png), [SaveFormat.Bmp](../../Aspose.Words/saveformat/#Bmp), [SaveFormat.Jpeg](../../Aspose.Words/saveformat/#Jpeg), [SaveFormat.Emf](../../Aspose.Words/saveformat/#Emf), [SaveFormat.Eps](../../Aspose.Words/saveformat/#Eps), [SaveFormat.WebP](../../Aspose.Words/saveformat/#WebP) or [SaveFormat.Svg](../../Aspose.Words/saveformat/#Svg) format. |
 
 ### Properties
 

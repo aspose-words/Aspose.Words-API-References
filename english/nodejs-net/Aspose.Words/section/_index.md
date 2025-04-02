@@ -44,7 +44,7 @@ and section properties use [Section.appendContent()](./appendContent/#section) a
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Section(doc)](./Section/#documentbase) | Initializes a new instance of the Section class. |
+| [Section(doc)](./constructor/#documentbase) | Initializes a new instance of the Section class. |
 
 ### Properties
 

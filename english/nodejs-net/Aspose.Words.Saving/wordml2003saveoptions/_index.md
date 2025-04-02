@@ -29,7 +29,7 @@ At the moment provides only the [WordML2003SaveOptions.saveFormat](./saveFormat/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [WordML2003SaveOptions()](./WordML2003SaveOptions/#default) | The default constructor. |
+| [WordML2003SaveOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

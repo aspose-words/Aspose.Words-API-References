@@ -27,7 +27,7 @@ Inserts all or part of the text and graphics contained in another document.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldIncludeText()](./FieldIncludeText/#default) | The default constructor. |
+| [FieldIncludeText()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

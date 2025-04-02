@@ -28,7 +28,7 @@ their heading levels, and specified styles, and inserts that table at this place
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldToc()](./FieldToc/#default) | The default constructor. |
+| [FieldToc()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

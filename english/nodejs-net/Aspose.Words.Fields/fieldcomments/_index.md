@@ -29,7 +29,7 @@ of the built-in document properties.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldComments()](./FieldComments/#default) | The default constructor. |
+| [FieldComments()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

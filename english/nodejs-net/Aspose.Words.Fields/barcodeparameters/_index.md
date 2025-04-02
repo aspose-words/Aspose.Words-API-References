@@ -27,7 +27,7 @@ See the exact list at https://msdn.microsoft.com/en-us/library/hh745901(v=office
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [BarcodeParameters()](./BarcodeParameters/#default) | The default constructor. |
+| [BarcodeParameters()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

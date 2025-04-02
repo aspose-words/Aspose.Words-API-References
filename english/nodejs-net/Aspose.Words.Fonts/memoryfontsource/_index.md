@@ -22,9 +22,9 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [MemoryFontSource(fontData)](./MemoryFontSource/#number[]) | Ctor. |
-| [MemoryFontSource(fontData, priority)](./MemoryFontSource/#number[]_number) | Ctor. |
-| [MemoryFontSource(fontData, priority, cacheKey)](./MemoryFontSource/#number[]_number_string) | Ctor. |
+| [MemoryFontSource(fontData)](./constructor/#number[]) | Ctor. |
+| [MemoryFontSource(fontData, priority)](./constructor/#number[]_number) | Ctor. |
+| [MemoryFontSource(fontData, priority, cacheKey)](./constructor/#number[]_number_string) | Ctor. |
 
 ### Properties
 

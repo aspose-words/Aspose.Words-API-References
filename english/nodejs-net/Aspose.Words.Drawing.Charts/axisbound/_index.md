@@ -29,9 +29,9 @@ The instances of this class are immutable.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [AxisBound()](./AxisBound/#default) | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
-| [AxisBound(value)](./AxisBound/#number) | Creates an axis bound represented as a number. |
-| [AxisBound(datetime)](./AxisBound/#date) | Creates an axis bound represented as datetime value. |
+| [AxisBound()](./constructor/#default) | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
+| [AxisBound(value)](./constructor/#number) | Creates an axis bound represented as a number. |
+| [AxisBound(datetime)](./constructor/#date) | Creates an axis bound represented as datetime value. |
 
 ### Properties
 

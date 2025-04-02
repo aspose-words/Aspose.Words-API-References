@@ -27,7 +27,7 @@ Retrieves the current user's initials.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldUserInitials()](./FieldUserInitials/#default) | The default constructor. |
+| [FieldUserInitials()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

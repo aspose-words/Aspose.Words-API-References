@@ -69,11 +69,11 @@ In Microsoft Word, a valid document needs to have at least one section.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Document()](./Document/#default) | Creates a blank Word document. |
-| [Document(fileName)](./Document/#string) | Opens an existing document from a file. Automatically detects the file format. |
-| [Document(fileName, loadOptions)](./Document/#string_loadoptions) | Opens an existing document from a file. Allows to specify additional options such as an encryption password. |
-| [Document(stream)](./Document/#buffer) | Opens an existing document from a stream. Automatically detects the file format. |
-| [Document(stream, loadOptions)](./Document/#buffer_loadoptions) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
+| [Document()](./constructor/#default) | Creates a blank Word document. |
+| [Document(fileName)](./constructor/#string) | Opens an existing document from a file. Automatically detects the file format. |
+| [Document(fileName, loadOptions)](./constructor/#string_loadoptions) | Opens an existing document from a file. Allows to specify additional options such as an encryption password. |
+| [Document(stream)](./constructor/#buffer) | Opens an existing document from a stream. Automatically detects the file format. |
+| [Document(stream, loadOptions)](./constructor/#buffer_loadoptions) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
 
 ### Properties
 

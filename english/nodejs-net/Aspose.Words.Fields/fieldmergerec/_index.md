@@ -28,7 +28,7 @@ how to skip records in Aspose.Words mail merge.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldMergeRec()](./FieldMergeRec/#default) | The default constructor. |
+| [FieldMergeRec()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

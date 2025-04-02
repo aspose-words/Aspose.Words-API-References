@@ -33,7 +33,7 @@ The [Footnote](./) class is used to represent both footnotes and endnotes in a W
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Footnote(doc, footnoteType)](./Footnote/#documentbase_footnotetype) | Initializes an instance of the [Footnote](./) class. |
+| [Footnote(doc, footnoteType)](./constructor/#documentbase_footnotetype) | Initializes an instance of the [Footnote](./) class. |
 
 ### Properties
 

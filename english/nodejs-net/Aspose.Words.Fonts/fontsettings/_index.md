@@ -37,7 +37,7 @@ in different parts of the document.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FontSettings()](./FontSettings/#default) | The default constructor. |
+| [FontSettings()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

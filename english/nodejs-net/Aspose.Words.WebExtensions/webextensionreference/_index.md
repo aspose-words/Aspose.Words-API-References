@@ -21,7 +21,7 @@ To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [WebExtensionReference()](./WebExtensionReference/#default) | The default constructor. |
+| [WebExtensionReference()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

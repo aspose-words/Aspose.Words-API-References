@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words/jspointf/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [JSPointF(x, y)](./JSPointF/#number_number) |  |
+| [JSPointF(x, y)](./constructor/#number_number) |  |
 
 ### Properties
 

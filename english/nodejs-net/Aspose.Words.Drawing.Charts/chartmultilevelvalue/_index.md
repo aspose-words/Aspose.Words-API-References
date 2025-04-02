@@ -17,9 +17,9 @@ Represents a value for charts that display multilevel data.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ChartMultilevelValue(level1, level2, level3)](./ChartMultilevelValue/#string_string_string) | Initializes a new instance of this class that represents a three-level value. |
-| [ChartMultilevelValue(level1, level2)](./ChartMultilevelValue/#string_string) | Initializes a new instance of this class that represents a two-level value. |
-| [ChartMultilevelValue(level1)](./ChartMultilevelValue/#string) | Initializes a new instance of this class that represents a single-level value. |
+| [ChartMultilevelValue(level1, level2, level3)](./constructor/#string_string_string) | Initializes a new instance of this class that represents a three-level value. |
+| [ChartMultilevelValue(level1, level2)](./constructor/#string_string) | Initializes a new instance of this class that represents a two-level value. |
+| [ChartMultilevelValue(level1)](./constructor/#string) | Initializes a new instance of this class that represents a single-level value. |
 
 ### Properties
 

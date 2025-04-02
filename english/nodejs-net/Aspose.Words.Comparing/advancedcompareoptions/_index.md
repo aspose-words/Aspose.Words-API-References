@@ -22,7 +22,7 @@ These options have no equivalence in Microsoft Word and might help to produce mo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [AdvancedCompareOptions()](./AdvancedCompareOptions/#default) | The default constructor. |
+| [AdvancedCompareOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

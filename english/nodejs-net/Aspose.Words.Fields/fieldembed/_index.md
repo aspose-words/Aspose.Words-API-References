@@ -22,7 +22,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldEmbed()](./FieldEmbed/#default) | The default constructor. |
+| [FieldEmbed()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

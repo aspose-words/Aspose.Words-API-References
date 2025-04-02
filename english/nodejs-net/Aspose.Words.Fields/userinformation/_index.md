@@ -20,7 +20,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [UserInformation()](./UserInformation/#default) | The default constructor. |
+| [UserInformation()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

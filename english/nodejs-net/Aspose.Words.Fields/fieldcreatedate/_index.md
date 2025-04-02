@@ -27,7 +27,7 @@ Retrieves the date and time at which the document was created. By default, the G
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldCreateDate()](./FieldCreateDate/#default) | The default constructor. |
+| [FieldCreateDate()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

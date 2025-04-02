@@ -25,7 +25,7 @@ Implements 'Set the Office Language Preferences' dialog in Word.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [LanguagePreferences()](./LanguagePreferences/#default) | The default constructor. |
+| [LanguagePreferences()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

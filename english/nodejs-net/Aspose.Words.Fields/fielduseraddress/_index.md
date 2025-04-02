@@ -27,7 +27,7 @@ Retrieves the current user's postal address.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldUserAddress()](./FieldUserAddress/#default) | The default constructor. |
+| [FieldUserAddress()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

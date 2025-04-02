@@ -27,7 +27,7 @@ Defines the text and page number for a table of authorities entry, which is used
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldTA()](./FieldTA/#default) | The default constructor. |
+| [FieldTA()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

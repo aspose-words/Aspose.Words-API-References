@@ -22,8 +22,8 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [SystemFontSource()](./SystemFontSource/#default) | Ctor. |
-| [SystemFontSource(priority)](./SystemFontSource/#number) | Ctor. |
+| [SystemFontSource()](./constructor/#default) | Ctor. |
+| [SystemFontSource(priority)](./constructor/#number) | Ctor. |
 
 ### Properties
 

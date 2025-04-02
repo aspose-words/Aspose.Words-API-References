@@ -31,8 +31,8 @@ Aspose.Words creates a PKCS#7 signature over the whole PDF document and uses the
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PdfDigitalSignatureDetails()](./PdfDigitalSignatureDetails/#default) | Initializes an instance of this class. |
-| [PdfDigitalSignatureDetails(certificateHolder, reason, location, signatureDate)](./PdfDigitalSignatureDetails/#certificateholder_string_string_date) | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails()](./constructor/#default) | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails(certificateHolder, reason, location, signatureDate)](./constructor/#certificateholder_string_string_date) | Initializes an instance of this class. |
 
 ### Properties
 

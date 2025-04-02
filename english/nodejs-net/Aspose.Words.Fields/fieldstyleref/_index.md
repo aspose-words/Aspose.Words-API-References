@@ -28,7 +28,7 @@ the specified style.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldStyleRef()](./FieldStyleRef/#default) | The default constructor. |
+| [FieldStyleRef()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -31,8 +31,8 @@ other options added, such as an encryption password or digital signature setting
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [DocSaveOptions()](./DocSaveOptions/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Doc](../../Aspose.Words/saveformat/#Doc) format. |
-| [DocSaveOptions(saveFormat)](./DocSaveOptions/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Doc](../../Aspose.Words/saveformat/#Doc) or [SaveFormat.Dot](../../Aspose.Words/saveformat/#Dot) format. |
+| [DocSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Doc](../../Aspose.Words/saveformat/#Doc) format. |
+| [DocSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Doc](../../Aspose.Words/saveformat/#Doc) or [SaveFormat.Dot](../../Aspose.Words/saveformat/#Dot) format. |
 
 ### Properties
 

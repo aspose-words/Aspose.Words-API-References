@@ -24,7 +24,7 @@ To learn more, visit the [Specify
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [XlsxSaveOptions()](./XlsxSaveOptions/#default) | The default constructor. |
+| [XlsxSaveOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

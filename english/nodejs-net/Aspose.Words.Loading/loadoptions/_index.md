@@ -21,9 +21,9 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [LoadOptions()](./LoadOptions/#default) | Initializes a new instance of this class with default values. |
-| [LoadOptions(password)](./LoadOptions/#string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [LoadOptions(loadFormat, password, baseUri)](./LoadOptions/#loadformat_string_string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+| [LoadOptions()](./constructor/#default) | Initializes a new instance of this class with default values. |
+| [LoadOptions(password)](./constructor/#string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [LoadOptions(loadFormat, password, baseUri)](./constructor/#loadformat_string_string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 
 ### Properties
 

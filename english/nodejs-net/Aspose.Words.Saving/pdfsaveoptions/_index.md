@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PdfSaveOptions()](./PdfSaveOptions/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Pdf](../../Aspose.Words/saveformat/#Pdf) format. |
+| [PdfSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Pdf](../../Aspose.Words/saveformat/#Pdf) format. |
 
 ### Properties
 

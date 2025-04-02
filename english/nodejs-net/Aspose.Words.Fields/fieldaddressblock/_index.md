@@ -29,7 +29,7 @@ appropriate for a postal mailing address, in the order required by the destinati
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldAddressBlock()](./FieldAddressBlock/#default) | The default constructor. |
+| [FieldAddressBlock()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

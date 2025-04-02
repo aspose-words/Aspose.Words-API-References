@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [HtmlFixedSaveOptions()](./HtmlFixedSaveOptions/#default) | The default constructor. |
+| [HtmlFixedSaveOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

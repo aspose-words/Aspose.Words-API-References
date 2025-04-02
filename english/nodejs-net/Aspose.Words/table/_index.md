@@ -34,7 +34,7 @@ A minimal valid table needs to have at least one [Row](../../Aspose.Words.Tables
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Table(doc)](./Table/#documentbase) | Initializes a new instance of the [Table](./) class. |
+| [Table(doc)](./constructor/#documentbase) | Initializes a new instance of the [Table](./) class. |
 
 ### Properties
 

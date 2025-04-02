@@ -20,7 +20,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [AxisScaling()](./AxisScaling/#default) | The default constructor. |
+| [AxisScaling()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

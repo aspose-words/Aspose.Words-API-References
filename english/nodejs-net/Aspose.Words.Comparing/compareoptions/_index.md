@@ -20,7 +20,7 @@ To learn more, visit the [Compare Documents](https://docs.aspose.com/words/nodej
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CompareOptions()](./CompareOptions/#default) | The default constructor. |
+| [CompareOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -45,7 +45,7 @@ The complete list of child nodes that can occur inside a smart tag consists of
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [SmartTag(doc)](./SmartTag/#documentbase) | Initializes a new instance of the [SmartTag](./) class. |
+| [SmartTag(doc)](./constructor/#documentbase) | Initializes a new instance of the [SmartTag](./) class. |
 
 ### Properties
 

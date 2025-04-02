@@ -27,7 +27,7 @@ Inserts a check box style form field.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldFormCheckBox()](./FieldFormCheckBox/#default) | The default constructor. |
+| [FieldFormCheckBox()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

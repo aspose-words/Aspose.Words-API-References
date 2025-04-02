@@ -26,18 +26,6 @@ This method does not remove the content of the smart tags.
 
 ### Examples
 
-Removes all smart tags from descendant nodes of a composite node.
-
-```js
-let doc = new aw.Document(base.myDir + "Smart tags.doc");
-
-expect(doc.getChildNodes(aw.NodeType.SmartTag, true).count).toEqual(8);
-
-doc.removeSmartTags();
-
-expect(doc.getChildNodes(aw.NodeType.SmartTag, true).count).toEqual(0);
-```
-
 Shows how to create smart tags.
 
 ```js
@@ -132,6 +120,18 @@ private class SmartTagPrinter : DocumentVisitor
     return aw.VisitorAction.Continue;
   }
 }
+```
+
+Removes all smart tags from descendant nodes of a composite node.
+
+```js
+let doc = new aw.Document(base.myDir + "Smart tags.doc");
+
+expect(doc.getChildNodes(aw.NodeType.SmartTag, true).count).toEqual(8);
+
+doc.removeSmartTags();
+
+expect(doc.getChildNodes(aw.NodeType.SmartTag, true).count).toEqual(0);
 ```
 
 ### See Also

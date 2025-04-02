@@ -20,7 +20,7 @@ To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OdsoFieldMapDataCollection()](./OdsoFieldMapDataCollection/#default) | The default constructor. |
+| [OdsoFieldMapDataCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -24,7 +24,7 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [LayoutEnumerator(document)](./LayoutEnumerator/#document) | Initializes new instance of this class. |
+| [LayoutEnumerator(document)](./constructor/#document) | Initializes new instance of this class. |
 
 ### Properties
 

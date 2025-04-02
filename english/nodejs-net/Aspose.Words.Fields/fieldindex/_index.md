@@ -27,7 +27,7 @@ Builds an index using the index entries specified by XE fields, and inserts that
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldIndex()](./FieldIndex/#default) | The default constructor. |
+| [FieldIndex()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

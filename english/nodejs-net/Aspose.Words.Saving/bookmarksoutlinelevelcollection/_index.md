@@ -30,7 +30,7 @@ Specify 1 and Word bookmark will be displayed in the document outline at level 1
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [BookmarksOutlineLevelCollection()](./BookmarksOutlineLevelCollection/#default) | The default constructor. |
+| [BookmarksOutlineLevelCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

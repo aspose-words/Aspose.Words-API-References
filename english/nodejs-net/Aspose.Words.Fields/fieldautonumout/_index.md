@@ -27,7 +27,7 @@ Inserts an automatic number in outline format.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldAutoNumOut()](./FieldAutoNumOut/#default) | The default constructor. |
+| [FieldAutoNumOut()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

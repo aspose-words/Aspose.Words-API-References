@@ -32,7 +32,7 @@ A field in the following format will be used as a mail merge source: { IF 0 = 0 
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldIf()](./FieldIf/#default) | The default constructor. |
+| [FieldIf()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

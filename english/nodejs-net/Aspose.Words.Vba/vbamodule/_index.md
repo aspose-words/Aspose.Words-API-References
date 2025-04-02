@@ -20,7 +20,7 @@ To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [VbaModule()](./VbaModule/#default) | Creates an empty module. |
+| [VbaModule()](./constructor/#default) | Creates an empty module. |
 
 ### Properties
 

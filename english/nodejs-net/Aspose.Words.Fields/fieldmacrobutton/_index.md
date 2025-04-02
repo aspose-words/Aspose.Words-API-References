@@ -31,7 +31,7 @@ In Aspose.Words this field can also act as a merge field.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldMacroButton()](./FieldMacroButton/#default) | The default constructor. |
+| [FieldMacroButton()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -27,7 +27,7 @@ When selected, causes control to jump to the location such as a bookmark or a UR
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldHyperlink()](./FieldHyperlink/#default) | The default constructor. |
+| [FieldHyperlink()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

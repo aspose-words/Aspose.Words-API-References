@@ -27,7 +27,7 @@ Inserts the contents of the document's Bibliography part in a bibliographic styl
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldBibliography()](./FieldBibliography/#default) | The default constructor. |
+| [FieldBibliography()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

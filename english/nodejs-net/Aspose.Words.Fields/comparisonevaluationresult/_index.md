@@ -20,8 +20,8 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ComparisonEvaluationResult(result)](./ComparisonEvaluationResult/#boolean) | Creates a comparison evaluation result. |
-| [ComparisonEvaluationResult(errorMessage)](./ComparisonEvaluationResult/#string) | Creates a failed comparison evaluation result with the corresponding error message. |
+| [ComparisonEvaluationResult(result)](./constructor/#boolean) | Creates a comparison evaluation result. |
+| [ComparisonEvaluationResult(errorMessage)](./constructor/#string) | Creates a failed comparison evaluation result with the corresponding error message. |
 
 ### Properties
 

@@ -33,7 +33,7 @@ A minimal valid row needs to have at least one [Cell](../cell/).
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Row(doc)](./Row/#documentbase) | Initializes a new instance of the [Row](./) class. |
+| [Row(doc)](./constructor/#documentbase) | Initializes a new instance of the [Row](./) class. |
 
 ### Properties
 

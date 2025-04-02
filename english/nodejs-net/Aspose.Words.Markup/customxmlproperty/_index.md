@@ -27,7 +27,7 @@ Used as an item of a [CustomXmlPropertyCollection](../customxmlpropertycollectio
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CustomXmlProperty(name, uri, value)](./CustomXmlProperty/#string_string_string) | Initializes a new instance of this class. |
+| [CustomXmlProperty(name, uri, value)](./constructor/#string_string_string) | Initializes a new instance of this class. |
 
 ### Properties
 

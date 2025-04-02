@@ -27,7 +27,7 @@ Inserts an automatic number.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldAutoNum()](./FieldAutoNum/#default) | The default constructor. |
+| [FieldAutoNum()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

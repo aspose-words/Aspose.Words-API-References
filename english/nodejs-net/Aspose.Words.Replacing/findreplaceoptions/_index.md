@@ -20,10 +20,10 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/nodejs
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FindReplaceOptions()](./FindReplaceOptions/#default) | Initializes a new instance of the FindReplaceOptions class with default settings. |
-| [FindReplaceOptions(direction)](./FindReplaceOptions/#findreplacedirection) | Initializes a new instance of the FindReplaceOptions class with the specified direction. |
-| [FindReplaceOptions(replacingCallback)](./FindReplaceOptions/#ireplacingcallback) | Initializes a new instance of the FindReplaceOptions class with the specified replacing callback. |
-| [FindReplaceOptions(direction, replacingCallback)](./FindReplaceOptions/#findreplacedirection_ireplacingcallback) | Initializes a new instance of the FindReplaceOptions class with the specified direction and replacing callback. |
+| [FindReplaceOptions()](./constructor/#default) | Initializes a new instance of the FindReplaceOptions class with default settings. |
+| [FindReplaceOptions(direction)](./constructor/#findreplacedirection) | Initializes a new instance of the FindReplaceOptions class with the specified direction. |
+| [FindReplaceOptions(replacingCallback)](./constructor/#ireplacingcallback) | Initializes a new instance of the FindReplaceOptions class with the specified replacing callback. |
+| [FindReplaceOptions(direction, replacingCallback)](./constructor/#findreplacedirection_ireplacingcallback) | Initializes a new instance of the FindReplaceOptions class with the specified direction and replacing callback. |
 
 ### Properties
 

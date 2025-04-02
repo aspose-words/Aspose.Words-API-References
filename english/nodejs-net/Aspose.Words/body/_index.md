@@ -34,7 +34,7 @@ A minimal valid [Body](./) needs to contain at least one [Paragraph](../paragrap
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Body(doc)](./Body/#documentbase) | Initializes a new instance of the [Body](./) class. |
+| [Body(doc)](./constructor/#documentbase) | Initializes a new instance of the [Body](./) class. |
 
 ### Properties
 

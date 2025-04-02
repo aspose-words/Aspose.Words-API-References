@@ -36,7 +36,7 @@ to avoid unnecessary collection of more layout mappings.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [LayoutCollector(doc)](./LayoutCollector/#document) | Initializes an instance of this class. |
+| [LayoutCollector(doc)](./constructor/#document) | Initializes an instance of this class. |
 
 ### Properties
 

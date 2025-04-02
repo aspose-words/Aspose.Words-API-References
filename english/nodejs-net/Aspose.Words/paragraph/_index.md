@@ -51,7 +51,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Paragraph(doc)](./Paragraph/#documentbase) | Initializes a new instance of the [Paragraph](./) class. |
+| [Paragraph(doc)](./constructor/#documentbase) | Initializes a new instance of the [Paragraph](./) class. |
 
 ### Properties
 

@@ -20,7 +20,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldDatabaseDataTable(columnNames)](./FieldDatabaseDataTable/#string[]) | Initializes a new instance of the [FieldDatabaseDataTable](./) class. |
+| [FieldDatabaseDataTable(columnNames)](./constructor/#string[]) | Initializes a new instance of the [FieldDatabaseDataTable](./) class. |
 
 ### Properties
 

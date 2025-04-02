@@ -20,10 +20,10 @@ To learn more, visit the [Working with Text Document](https://docs.aspose.com/wo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PlainTextDocument(fileName)](./PlainTextDocument/#string) | Creates a plain text document from a file. Automatically detects the file format. |
-| [PlainTextDocument(fileName, loadOptions)](./PlainTextDocument/#string_loadoptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
-| [PlainTextDocument(stream)](./PlainTextDocument/#buffer) | Creates a plain text document from a stream. Automatically detects the file format. |
-| [PlainTextDocument(stream, loadOptions)](./PlainTextDocument/#buffer_loadoptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument(fileName)](./constructor/#string) | Creates a plain text document from a file. Automatically detects the file format. |
+| [PlainTextDocument(fileName, loadOptions)](./constructor/#string_loadoptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument(stream)](./constructor/#buffer) | Creates a plain text document from a stream. Automatically detects the file format. |
+| [PlainTextDocument(stream, loadOptions)](./constructor/#buffer_loadoptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
 
 ### Properties
 

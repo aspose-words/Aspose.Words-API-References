@@ -20,9 +20,9 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PdfDigitalSignatureTimestampSettings()](./PdfDigitalSignatureTimestampSettings/#default) | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings(serverUrl, userName, password)](./PdfDigitalSignatureTimestampSettings/#string_string_string) | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings(serverUrl, userName, password, timeout)](./PdfDigitalSignatureTimestampSettings/#string_string_string_unknown) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings()](./constructor/#default) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings(serverUrl, userName, password)](./constructor/#string_string_string) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings(serverUrl, userName, password, timeout)](./constructor/#string_string_string_unknown) | Initializes an instance of this class. |
 
 ### Properties
 

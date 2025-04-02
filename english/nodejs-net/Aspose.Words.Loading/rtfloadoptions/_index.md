@@ -22,7 +22,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [RtfLoadOptions()](./RtfLoadOptions/#default) | Initializes a new instance of this class with default values. |
+| [RtfLoadOptions()](./constructor/#default) | Initializes a new instance of this class with default values. |
 
 ### Properties
 

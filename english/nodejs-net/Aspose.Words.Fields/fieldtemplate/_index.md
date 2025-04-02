@@ -27,7 +27,7 @@ Retrieves the file name of the template used by the current document.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldTemplate()](./FieldTemplate/#default) | The default constructor. |
+| [FieldTemplate()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

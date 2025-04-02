@@ -27,7 +27,7 @@ Retrieves the character whose code point value is specified in decimal or hexade
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldSymbol()](./FieldSymbol/#default) | The default constructor. |
+| [FieldSymbol()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

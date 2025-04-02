@@ -17,7 +17,7 @@ Represents individual (a person) bibliography source contributor.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Person(last, first, middle)](./Person/#string_string_string) | Initialize a new instance of the [Person](./) class. |
+| [Person(last, first, middle)](./constructor/#string_string_string) | Initialize a new instance of the [Person](./) class. |
 
 ### Properties
 

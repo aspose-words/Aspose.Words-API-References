@@ -27,7 +27,7 @@ Retrieves the specified text.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldQuote()](./FieldQuote/#default) | The default constructor. |
+| [FieldQuote()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

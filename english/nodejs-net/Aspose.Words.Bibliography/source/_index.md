@@ -17,7 +17,7 @@ Represents an individual source, such as a book, journal article, or interview.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Source(tag, sourceType)](./Source/#string_sourcetype) | Initialize a new instance of the [Source](./) class. |
+| [Source(tag, sourceType)](./constructor/#string_sourcetype) | Initialize a new instance of the [Source](./) class. |
 
 ### Properties
 

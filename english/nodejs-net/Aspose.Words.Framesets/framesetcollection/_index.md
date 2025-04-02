@@ -20,7 +20,7 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FramesetCollection()](./FramesetCollection/#default) | The default constructor. |
+| [FramesetCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

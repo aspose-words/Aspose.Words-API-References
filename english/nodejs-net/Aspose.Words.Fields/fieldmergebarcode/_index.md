@@ -27,7 +27,7 @@ Mail merge a barcode.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldMergeBarcode()](./FieldMergeBarcode/#default) | The default constructor. |
+| [FieldMergeBarcode()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

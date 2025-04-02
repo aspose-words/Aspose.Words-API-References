@@ -27,7 +27,7 @@ Retrieves the date and time on which the document was last printed. By default, 
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldPrintDate()](./FieldPrintDate/#default) | The default constructor. |
+| [FieldPrintDate()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -20,7 +20,7 @@ To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/wo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [License()](./License/#default) | Initializes a new instance of this class. |
+| [License()](./constructor/#default) | Initializes a new instance of this class. |
 
 ### Methods
 

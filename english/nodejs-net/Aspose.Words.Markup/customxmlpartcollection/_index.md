@@ -28,7 +28,7 @@ stored in a document via the [Document.customXmlParts](../../Aspose.Words/docume
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CustomXmlPartCollection()](./CustomXmlPartCollection/#default) | The default constructor. |
+| [CustomXmlPartCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

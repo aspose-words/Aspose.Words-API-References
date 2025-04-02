@@ -20,7 +20,7 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PageRange(from, to)](./PageRange/#number_number) | Creates a new page range object. |
+| [PageRange(from, to)](./constructor/#number_number) | Creates a new page range object. |
 
 ### See Also
 

@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words/jsimage/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [JSImage(fileName)](./JSImage/#string) |  |
+| [JSImage(fileName)](./constructor/#string) |  |
 
 ### See Also
 

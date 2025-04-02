@@ -31,7 +31,7 @@ If the comparison is false, the current merge document is continued.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldSkipIf()](./FieldSkipIf/#default) | The default constructor. |
+| [FieldSkipIf()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

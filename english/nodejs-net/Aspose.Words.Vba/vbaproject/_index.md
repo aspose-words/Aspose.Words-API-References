@@ -21,7 +21,7 @@ To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [VbaProject()](./VbaProject/#default) | Creates a blank [VbaProject](./). |
+| [VbaProject()](./constructor/#default) | Creates a blank [VbaProject](./). |
 
 ### Properties
 

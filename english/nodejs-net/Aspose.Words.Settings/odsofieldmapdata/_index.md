@@ -29,7 +29,7 @@ allows to map one column in the external data source to a single predefined merg
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OdsoFieldMapData()](./OdsoFieldMapData/#default) | The default constructor. |
+| [OdsoFieldMapData()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

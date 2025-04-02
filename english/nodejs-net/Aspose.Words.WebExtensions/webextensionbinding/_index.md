@@ -20,7 +20,7 @@ To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [WebExtensionBinding(id, bindingType, appRef)](./WebExtensionBinding/#string_webextensionbindingtype_string) | Creates web extension binding with specified parameters. |
+| [WebExtensionBinding(id, bindingType, appRef)](./constructor/#string_webextensionbindingtype_string) | Creates web extension binding with specified parameters. |
 
 ### Properties
 

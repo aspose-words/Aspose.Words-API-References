@@ -22,7 +22,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ChmLoadOptions()](./ChmLoadOptions/#default) | Initializes a new instance of this class with default values. |
+| [ChmLoadOptions()](./constructor/#default) | Initializes a new instance of this class with default values. |
 
 ### Properties
 

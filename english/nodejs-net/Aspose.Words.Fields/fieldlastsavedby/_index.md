@@ -29,7 +29,7 @@ property of the built-in document properties.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldLastSavedBy()](./FieldLastSavedBy/#default) | The default constructor. |
+| [FieldLastSavedBy()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

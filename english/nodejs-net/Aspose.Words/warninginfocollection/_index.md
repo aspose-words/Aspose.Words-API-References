@@ -29,7 +29,7 @@ to the Aspose.Words.Loading.LoadOptions.WarningCallback or [DocumentBase.warning
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [WarningInfoCollection()](./WarningInfoCollection/#default) | The default constructor. |
+| [WarningInfoCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

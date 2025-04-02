@@ -28,7 +28,7 @@ related to the OOXML package via the [Document.packageCustomParts](../../Aspose.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CustomPartCollection()](./CustomPartCollection/#default) | The default constructor. |
+| [CustomPartCollection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -57,8 +57,8 @@ destination documents.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [NodeImporter(srcDoc, dstDoc, importFormatMode)](./NodeImporter/#documentbase_documentbase_importformatmode) | Initializes a new instance of the [NodeImporter](./) class. |
-| [NodeImporter(srcDoc, dstDoc, importFormatMode, importFormatOptions)](./NodeImporter/#documentbase_documentbase_importformatmode_importformatoptions) | Initializes a new instance of the [NodeImporter](./) class. |
+| [NodeImporter(srcDoc, dstDoc, importFormatMode)](./constructor/#documentbase_documentbase_importformatmode) | Initializes a new instance of the [NodeImporter](./) class. |
+| [NodeImporter(srcDoc, dstDoc, importFormatMode, importFormatOptions)](./constructor/#documentbase_documentbase_importformatmode_importformatoptions) | Initializes a new instance of the [NodeImporter](./) class. |
 
 ### Methods
 

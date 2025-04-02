@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words/jspoint/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [JSPoint(x, y)](./JSPoint/#number_number) |  |
+| [JSPoint(x, y)](./constructor/#number_number) |  |
 
 ### Properties
 

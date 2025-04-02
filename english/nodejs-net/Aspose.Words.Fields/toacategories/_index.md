@@ -20,7 +20,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nod
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ToaCategories()](./ToaCategories/#default) | The default constructor. |
+| [ToaCategories()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -31,7 +31,7 @@ only the default [Document](../document/) constructor is available.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ComHelper()](./ComHelper/#default) | Initializes a new instance of this class. |
+| [ComHelper()](./constructor/#default) | Initializes a new instance of this class. |
 
 ### Methods
 

@@ -31,7 +31,7 @@ should be called in order for the changed options to be applied to the layout.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [LayoutOptions()](./LayoutOptions/#default) | The default constructor. |
+| [LayoutOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

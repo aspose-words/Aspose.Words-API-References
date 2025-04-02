@@ -20,7 +20,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ImportFormatOptions()](./ImportFormatOptions/#default) | The default constructor. |
+| [ImportFormatOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

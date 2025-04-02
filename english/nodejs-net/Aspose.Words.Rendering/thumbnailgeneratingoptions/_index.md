@@ -24,7 +24,7 @@ User can call method [Document.updateThumbnail()](../../Aspose.Words/document/up
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ThumbnailGeneratingOptions()](./ThumbnailGeneratingOptions/#default) | The default constructor. |
+| [ThumbnailGeneratingOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

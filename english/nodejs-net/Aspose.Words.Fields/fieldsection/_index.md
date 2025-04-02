@@ -27,7 +27,7 @@ Retrieves the number of the current section.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldSection()](./FieldSection/#default) | The default constructor. |
+| [FieldSection()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -20,7 +20,7 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/nodejs-
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OutlineOptions()](./OutlineOptions/#default) | The default constructor. |
+| [OutlineOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

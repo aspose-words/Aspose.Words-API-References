@@ -20,7 +20,7 @@ To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/word
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [HyphenationOptions()](./HyphenationOptions/#default) | The default constructor. |
+| [HyphenationOptions()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

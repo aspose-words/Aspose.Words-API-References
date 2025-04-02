@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words/jssize/
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [JSSize(width, height)](./JSSize/#number_number) |  |
+| [JSSize(width, height)](./constructor/#number_number) |  |
 
 ### Properties
 

@@ -27,7 +27,7 @@ Retrieves the indicated document information.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldDocProperty()](./FieldDocProperty/#default) | The default constructor. |
+| [FieldDocProperty()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

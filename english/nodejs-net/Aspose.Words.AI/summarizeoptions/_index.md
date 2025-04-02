@@ -17,7 +17,7 @@ Allows to specify various options for summarizing document content.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [SummarizeOptions()](./SummarizeOptions/#default) | Initializes a new instances of [SummarizeOptions](./) class. |
+| [SummarizeOptions()](./constructor/#default) | Initializes a new instances of [SummarizeOptions](./) class. |
 
 ### Properties
 

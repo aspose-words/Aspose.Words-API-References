@@ -41,8 +41,8 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Comment(doc)](./Comment/#documentbase) | Initializes a new instance of the [Comment](./) class. |
-| [Comment(doc, author, initial, dateTime)](./Comment/#documentbase_string_string_date) | Initializes a new instance of the [Comment](./) class. |
+| [Comment(doc)](./constructor/#documentbase) | Initializes a new instance of the [Comment](./) class. |
+| [Comment(doc, author, initial, dateTime)](./constructor/#documentbase_string_string_date) | Initializes a new instance of the [Comment](./) class. |
 
 ### Properties
 
@@ -165,25 +165,6 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 
 ### Examples
 
-Shows how to add a comment to a paragraph.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-builder.write("Hello world!");
-
-var today = new Date(2024, 11, 26);
-var comment = new aw.Comment(doc, "John Doe", "JD", today);
-builder.currentParagraph.appendChild(comment);
-builder.moveTo(comment.appendChild(new aw.Paragraph(doc)));
-builder.write("Comment text.");
-
-expect(comment.dateTime).toEqual(today);
-
-// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
-doc.save(base.artifactsDir + "InlineStory.AddComment.docx");
-```
-
 Shows how to add a comment to a document, and then reply to it.
 
 ```js
@@ -211,6 +192,25 @@ expect(comment.ancestor).toBe(null);
 expect(comment.replies.at(0).ancestor).toEqual(comment);
 
 doc.save(base.artifactsDir + "Comment.AddCommentWithReply.docx");
+```
+
+Shows how to add a comment to a paragraph.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.write("Hello world!");
+
+var today = new Date(2024, 11, 26);
+var comment = new aw.Comment(doc, "John Doe", "JD", today);
+builder.currentParagraph.appendChild(comment);
+builder.moveTo(comment.appendChild(new aw.Paragraph(doc)));
+builder.write("Comment text.");
+
+expect(comment.dateTime).toEqual(today);
+
+// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
+doc.save(base.artifactsDir + "InlineStory.AddComment.docx");
 ```
 
 ### See Also

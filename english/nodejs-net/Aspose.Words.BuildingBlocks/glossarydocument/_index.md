@@ -40,7 +40,7 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [GlossaryDocument()](./GlossaryDocument/#default) | The default constructor. |
+| [GlossaryDocument()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

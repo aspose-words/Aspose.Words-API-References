@@ -29,7 +29,7 @@ for that record shall be stored in the [OdsoRecipientData.uniqueTag](./uniqueTag
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OdsoRecipientData()](./OdsoRecipientData/#default) | The default constructor. |
+| [OdsoRecipientData()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -34,7 +34,7 @@ Aspose.Words.Drawing.ShapeBase.CoordOrigin properties.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [GroupShape(doc)](./GroupShape/#documentbase) | Creates a new group shape. |
+| [GroupShape(doc)](./constructor/#documentbase) | Creates a new group shape. |
 
 ### Properties
 

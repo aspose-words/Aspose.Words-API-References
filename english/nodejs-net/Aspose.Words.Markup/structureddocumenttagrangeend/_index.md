@@ -29,7 +29,7 @@ Can be immediate child of [Body](../../Aspose.Words/body/) node **only**.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd(doc, id)](./StructuredDocumentTagRangeEnd/#documentbase_number) | Initializes a new instance of the **Structured document tag range end** class. |
+| [StructuredDocumentTagRangeEnd(doc, id)](./constructor/#documentbase_number) | Initializes a new instance of the **Structured document tag range end** class. |
 
 ### Properties
 

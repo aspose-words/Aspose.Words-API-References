@@ -29,7 +29,7 @@ built-in document properties.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldNumChars()](./FieldNumChars/#default) | The default constructor. |
+| [FieldNumChars()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -27,7 +27,7 @@ Inserts a postal barcode in a machine-readable form of address used by the U.S. 
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldBarcode()](./FieldBarcode/#default) | The default constructor. |
+| [FieldBarcode()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

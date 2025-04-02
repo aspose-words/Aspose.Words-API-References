@@ -20,9 +20,9 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PageSet(page)](./PageSet/#number) | Creates an one-page set based on exact page index. |
-| [PageSet(pages)](./PageSet/#number[]) | Creates a page set based on exact page indices. |
-| [PageSet(ranges)](./PageSet/#pagerange[]) | Creates a page set based on ranges. |
+| [PageSet(page)](./constructor/#number) | Creates an one-page set based on exact page index. |
+| [PageSet(pages)](./constructor/#number[]) | Creates a page set based on exact page indices. |
+| [PageSet(ranges)](./constructor/#pagerange[]) | Creates a page set based on ranges. |
 
 ### Properties
 

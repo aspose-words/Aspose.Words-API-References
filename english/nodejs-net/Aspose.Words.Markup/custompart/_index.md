@@ -39,7 +39,7 @@ to access Custom XML Data.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [CustomPart()](./CustomPart/#default) | The default constructor. |
+| [CustomPart()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -27,7 +27,7 @@ Retrieves the current user's name.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldUserName()](./FieldUserName/#default) | The default constructor. |
+| [FieldUserName()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

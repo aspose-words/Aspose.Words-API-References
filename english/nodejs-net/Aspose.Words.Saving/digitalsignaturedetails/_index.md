@@ -17,7 +17,7 @@ Contains details for signing a document with a digital signature.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [DigitalSignatureDetails(certificateHolder, signOptions)](./DigitalSignatureDetails/#certificateholder_signoptions) | Initializes a new instance of [DigitalSignatureDetails](./) class. |
+| [DigitalSignatureDetails(certificateHolder, signOptions)](./constructor/#certificateholder_signoptions) | Initializes a new instance of [DigitalSignatureDetails](./) class. |
 
 ### Properties
 

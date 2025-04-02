@@ -27,7 +27,7 @@ Retrieves the total editing time, in minutes, since the document was created.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [FieldEditTime()](./FieldEditTime/#default) | The default constructor. |
+| [FieldEditTime()](./constructor/#default) | The default constructor. |
 
 ### Properties
 

@@ -31,9 +31,9 @@ other options added, such as an encryption password or digital signature setting
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OdtSaveOptions()](./OdtSaveOptions/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) format. |
-| [OdtSaveOptions(password)](./OdtSaveOptions/#string) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) format encrypted with a password. |
-| [OdtSaveOptions(saveFormat)](./OdtSaveOptions/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) or [SaveFormat.Ott](../../Aspose.Words/saveformat/#Ott) format. |
+| [OdtSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) format. |
+| [OdtSaveOptions(password)](./constructor/#string) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) format encrypted with a password. |
+| [OdtSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) or [SaveFormat.Ott](../../Aspose.Words/saveformat/#Ott) format. |
 
 ### Properties
 

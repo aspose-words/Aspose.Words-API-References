@@ -19,7 +19,7 @@ Represents a corporate (an organization) bibliography source contributor.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Corporate(name)](./Corporate/#string) | Initialize a new instance of the [Corporate](./) class. |
+| [Corporate(name)](./constructor/#string) | Initialize a new instance of the [Corporate](./) class. |
 
 ### Properties
 
