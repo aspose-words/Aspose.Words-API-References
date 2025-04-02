@@ -126,11 +126,25 @@ The number of replacements made.
 ## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
+| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| pattern | const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\& | A regular expression pattern used to find matches. |
+| replacement | const System::String\& | A string to replace all occurrences of pattern. |
+| options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### ReturnValue
+
+The number of replacements made.
 
 ## See Also
 
@@ -142,11 +156,25 @@ static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr
 ## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
+| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| pattern | const System::String\& | A string to be replaced. |
+| replacement | const System::String\& | A string to replace all occurrences of pattern. |
+| options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### ReturnValue
+
+The number of replacements made.
 
 ## See Also
 
@@ -274,11 +302,25 @@ The number of replacements made.
 ## Replacer::Replace(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | const System::String\& | The input file name. |
+| outputFileName | const System::String\& | The output file name. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| pattern | const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\& | A regular expression pattern used to find matches. |
+| replacement | const System::String\& | A string to replace all occurrences of pattern. |
+| options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### ReturnValue
+
+The number of replacements made.
 
 ## See Also
 
@@ -290,11 +332,25 @@ static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &i
 ## Replacer::Replace(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
-
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
 ```cpp
 static int32_t Aspose::Words::LowCode::Replacer::Replace(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &pattern, const System::String &replacement, const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | const System::String\& | The input file name. |
+| outputFileName | const System::String\& | The output file name. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| pattern | const System::String\& | A string to be replaced. |
+| replacement | const System::String\& | A string to replace all occurrences of pattern. |
+| options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### ReturnValue
+
+The number of replacements made.
 
 ## See Also
 
