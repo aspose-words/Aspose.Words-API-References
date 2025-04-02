@@ -1,0 +1,26 @@
+﻿---
+title: Node.asFieldEnd method
+linktitle: asFieldEnd method
+articleTitle: asFieldEnd method
+second_title: Aspose.Words for NodeJs
+description: "Node.asFieldEnd method. Cast node to [FieldEnd](../../../Aspose.Words.Fields/fieldend/)."
+type: docs
+weight: 220
+url: /nodejs-net/Aspose.Words/node/asFieldEnd/
+---
+
+## asFieldEnd() {#default}
+
+Cast node to [FieldEnd](../../../Aspose.Words.Fields/fieldend/).
+
+
+
+```js
+asFieldEnd()
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Node](../)
+

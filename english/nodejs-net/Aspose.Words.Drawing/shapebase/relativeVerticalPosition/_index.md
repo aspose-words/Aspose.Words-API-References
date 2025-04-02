@@ -1,0 +1,54 @@
+﻿---
+title: ShapeBase.relativeVerticalPosition property
+linktitle: relativeVerticalPosition property
+articleTitle: relativeVerticalPosition property
+second_title: Aspose.Words for NodeJs
+description: "ShapeBase.relativeVerticalPosition property. Specifies relative to what the shape is positioned vertically."
+type: docs
+weight: 420
+url: /nodejs-net/Aspose.Words.Drawing/shapebase/relativeVerticalPosition/
+---
+
+## ShapeBase.relativeVerticalPosition property
+
+Specifies relative to what the shape is positioned vertically.
+
+
+```js
+get relativeVerticalPosition(): Aspose.Words.Drawing.RelativeVerticalPosition
+```
+
+### Remarks
+
+The default value is [RelativeVerticalPosition.Paragraph](../../relativeverticalposition/#Paragraph).
+
+Has effect only for top level floating shapes.
+
+
+
+
+### Examples
+
+Shows how to insert a floating image to the center of a page.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+let shape = builder.insertImage(base.imageDir + "Logo.jpg");
+shape.wrapType = aw.Drawing.WrapType.None;
+shape.behindText = true;
+shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
+shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
+shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
+shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
+
+doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
+
+### See Also
+
+* module [Aspose.Words.Drawing](../../)
+* class [ShapeBase](../)
+

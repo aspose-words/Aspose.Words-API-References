@@ -1,0 +1,22 @@
+﻿---
+title: Field.asFieldRevNum method
+linktitle: asFieldRevNum method
+articleTitle: asFieldRevNum method
+second_title: Aspose.Words for NodeJs
+description: "Field.asFieldRevNum method. "
+type: docs
+weight: 830
+url: /nodejs-net/Aspose.Words/field/asFieldRevNum/
+---
+
+## asFieldRevNum() {#default}
+
+```js
+asFieldRevNum()
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Field](../)
+

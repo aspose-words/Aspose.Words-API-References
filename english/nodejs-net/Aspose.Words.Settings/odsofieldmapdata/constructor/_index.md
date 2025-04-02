@@ -1,0 +1,22 @@
+﻿---
+title: OdsoFieldMapData constructor
+linktitle: OdsoFieldMapData constructor
+articleTitle: OdsoFieldMapData constructor
+second_title: Aspose.Words for NodeJs
+description: "OdsoFieldMapData constructor. "
+type: docs
+weight: 10
+url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdata/constructor/
+---
+
+## OdsoFieldMapData() {#default}
+
+```js
+OdsoFieldMapData()
+```
+
+### See Also
+
+* module [Aspose.Words.Settings](../../)
+* class [OdsoFieldMapData](../)
+

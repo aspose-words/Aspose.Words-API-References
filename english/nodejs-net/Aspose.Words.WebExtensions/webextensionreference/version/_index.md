@@ -1,0 +1,25 @@
+﻿---
+title: WebExtensionReference.version property
+linktitle: version property
+articleTitle: version property
+second_title: Aspose.Words for NodeJs
+description: "WebExtensionReference.version property. Specifies the version of the web extension."
+type: docs
+weight: 50
+url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreference/version/
+---
+
+## WebExtensionReference.version property
+
+Specifies the version of the web extension.
+
+
+```js
+get version(): string
+```
+
+### See Also
+
+* module [Aspose.Words.WebExtensions](../../)
+* class [WebExtensionReference](../)
+

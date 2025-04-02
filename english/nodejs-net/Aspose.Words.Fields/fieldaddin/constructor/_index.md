@@ -1,0 +1,22 @@
+﻿---
+title: FieldAddIn constructor
+linktitle: FieldAddIn constructor
+articleTitle: FieldAddIn constructor
+second_title: Aspose.Words for NodeJs
+description: "FieldAddIn constructor. "
+type: docs
+weight: 10
+url: /nodejs-net/Aspose.Words.Fields/fieldaddin/constructor/
+---
+
+## FieldAddIn() {#default}
+
+```js
+FieldAddIn()
+```
+
+### See Also
+
+* module [Aspose.Words.Fields](../../)
+* class [FieldAddIn](../)
+

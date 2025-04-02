@@ -1,0 +1,27 @@
+﻿---
+title: CompositeNode.getSdtRangeEnd method
+linktitle: getSdtRangeEnd method
+articleTitle: getSdtRangeEnd method
+second_title: Aspose.Words for NodeJs
+description: "CompositeNode.getSdtRangeEnd method. "
+type: docs
+weight: 200
+url: /nodejs-net/Aspose.Words/compositenode/getSdtRangeEnd/
+---
+
+## getSdtRangeEnd(index, isDeep) {#number_boolean}
+
+```js
+getSdtRangeEnd(index: numberisDeep: boolean)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number |  |
+| isDeep | boolean |  |
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [CompositeNode](../)
+

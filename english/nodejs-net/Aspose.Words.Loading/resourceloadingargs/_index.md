@@ -1,0 +1,35 @@
+﻿---
+title: ResourceLoadingArgs class
+linktitle: ResourceLoadingArgs class
+articleTitle: ResourceLoadingArgs class
+second_title: Aspose.Words for NodeJs
+description: "Aspose.Words.Loading.ResourceLoadingArgs class. Provides data for the [IResourceLoadingCallback.resourceLoading()](../iresourceloadingcallback/resourceLoading/#resourceloadingargs) method."
+type: docs
+weight: 150
+url: /nodejs-net/Aspose.Words.Loading/resourceloadingargs/
+---
+
+## ResourceLoadingArgs class
+
+Provides data for the [IResourceLoadingCallback.resourceLoading()](../iresourceloadingcallback/resourceLoading/#resourceloadingargs) method.
+
+
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [originalUri](./originalUri/) | Original URI of the resource as specified in imported document. |
+| [resourceType](./resourceType/) | Type of resource. |
+| [uri](./uri/) | URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading()](../iresourceloadingcallback/resourceLoading/#resourceloadingargs) returns [ResourceLoadingAction.Default](../resourceloadingaction/#Default). |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ setData(data)](./setData/#number[]) | Sets user provided data of the resource which is used if [IResourceLoadingCallback.resourceLoading()](../iresourceloadingcallback/resourceLoading/#resourceloadingargs) returns [ResourceLoadingAction.UserProvided](../resourceloadingaction/#UserProvided). |
+
+### See Also
+
+* module [Aspose.Words.Loading](../)
+

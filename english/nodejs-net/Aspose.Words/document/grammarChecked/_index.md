@@ -1,0 +1,32 @@
+﻿---
+title: Document.grammarChecked property
+linktitle: grammarChecked property
+articleTitle: grammarChecked property
+second_title: Aspose.Words for NodeJs
+description: "Document.grammarChecked property. Returns ``True`` if the document has been checked for grammar."
+type: docs
+weight: 190
+url: /nodejs-net/Aspose.Words/document/grammarChecked/
+---
+
+## Document.grammarChecked property
+
+Returns ``True`` if the document has been checked for grammar.
+
+
+
+```js
+get grammarChecked(): boolean
+```
+
+### Remarks
+
+To recheck the grammar in the document, set this property to ``False``.
+
+
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Document](../)
+

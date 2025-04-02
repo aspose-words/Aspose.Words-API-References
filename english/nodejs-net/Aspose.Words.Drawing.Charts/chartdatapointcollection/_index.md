@@ -1,0 +1,78 @@
+﻿---
+title: ChartDataPointCollection class
+linktitle: ChartDataPointCollection class
+articleTitle: ChartDataPointCollection class
+second_title: Aspose.Words for NodeJs
+description: "Aspose.Words.Drawing.Charts.ChartDataPointCollection class. Represents collection of a [ChartDataPoint](../chartdatapoint/)"
+type: docs
+weight: 230
+url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapointcollection/
+---
+
+## ChartDataPointCollection class
+
+Represents collection of a [ChartDataPoint](../chartdatapoint/).
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nodejs-net/working-with-charts/) documentation article.
+
+
+
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [count](./count/) | Returns the number of [ChartDataPoint](../chartdatapoint/) in this collection. |
+| [this[]](./this[]/) |  |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ clearFormat()](./clearFormat/#default) | Clears format of all [ChartDataPoint](../chartdatapoint/) in this collection. |
+|[ copyFormat(sourceIndex, destinationIndex)](./copyFormat/#number_number) | Copies format from the source data point to the destination data point. |
+|[ hasDefaultFormat(dataPointIndex)](./hasDefaultFormat/#number) | Gets a flag indicating whether the data point at the specified index has default format. |
+
+### Examples
+
+Shows how to work with data points on a line chart.
+
+```js
+test('ChartDataPoint', () => {
+  let doc = new aw.Document();
+  let builder = new aw.DocumentBuilder(doc);
+
+  let shape = builder.insertChart(aw.Drawing.Charts.ChartType.Line, 500, 350);
+  let chart = shape.chart;
+
+  expect(chart.series.count).toEqual(3);
+  expect(chart.series.at(0).name).toEqual("Series 1");
+  expect(chart.series.at(1).name).toEqual("Series 2");
+  expect(chart.series.at(2).name).toEqual("Series 3");
+
+  // Emphasize the chart's data points by making them appear as diamond shapes.
+  for (let series of chart.series)
+    applyDataPoints(series, 4, aw.Drawing.Charts.MarkerSymbol.Diamond, 15);
+
+  // Smooth out the line that represents the first data series.
+  chart.series.at(0).smooth = true;
+
+  // Verify that data points for the first series will not invert their colors if the value is negative.
+  for (let p of chart.series.at(0).dataPoints)
+  {
+    expect(p.invertIfNegative).toEqual(false);
+  }
+
+  // For a cleaner looking graph, we can clear format individually.
+  chart.series.at(1).dataPoints.at(2).clearFormat();
+
+  // We can also strip an entire series of data points at once.
+  chart.series.at(2).dataPoints.clearFormat();
+
+  doc.save(base.artifactsDir + "Charts.ChartDataPoint.docx");
+});
+```
+
+### See Also
+
+* module [Aspose.Words.Drawing.Charts](../)
+

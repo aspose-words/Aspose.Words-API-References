@@ -1,0 +1,29 @@
+﻿---
+title: LanguagePreferences.addEditingLanguages method
+linktitle: addEditingLanguages method
+articleTitle: addEditingLanguages method
+second_title: Aspose.Words for NodeJs
+description: "LanguagePreferences.addEditingLanguages method. Adds additional editing languages."
+type: docs
+weight: 40
+url: /nodejs-net/Aspose.Words.Loading/languagepreferences/addEditingLanguages/
+---
+
+## addEditingLanguages(languages) {#editinglanguage[]}
+
+Adds additional editing languages.
+
+
+```js
+addEditingLanguages(languages: Aspose.Words.Loading.EditingLanguage[])
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| languages | [EditingLanguage](../../editinglanguage/)[] |  |
+
+### See Also
+
+* module [Aspose.Words.Loading](../../)
+* class [LanguagePreferences](../)
+

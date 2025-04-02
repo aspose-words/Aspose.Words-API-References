@@ -1,0 +1,22 @@
+﻿---
+title: Field.asFieldIf method
+linktitle: asFieldIf method
+articleTitle: asFieldIf method
+second_title: Aspose.Words for NodeJs
+description: "Field.asFieldIf method. "
+type: docs
+weight: 520
+url: /nodejs-net/Aspose.Words/field/asFieldIf/
+---
+
+## asFieldIf() {#default}
+
+```js
+asFieldIf()
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Field](../)
+

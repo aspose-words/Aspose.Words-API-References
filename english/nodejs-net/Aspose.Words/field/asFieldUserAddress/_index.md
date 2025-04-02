@@ -1,0 +1,22 @@
+﻿---
+title: Field.asFieldUserAddress method
+linktitle: asFieldUserAddress method
+articleTitle: asFieldUserAddress method
+second_title: Aspose.Words for NodeJs
+description: "Field.asFieldUserAddress method. "
+type: docs
+weight: 1020
+url: /nodejs-net/Aspose.Words/field/asFieldUserAddress/
+---
+
+## asFieldUserAddress() {#default}
+
+```js
+asFieldUserAddress()
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Field](../)
+
