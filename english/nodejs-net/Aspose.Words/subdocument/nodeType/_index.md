@@ -1,0 +1,26 @@
+﻿---
+title: SubDocument.nodeType property
+linktitle: nodeType property
+articleTitle: nodeType property
+second_title: Aspose.Words for NodeJs
+description: "SubDocument.nodeType property. Returns [NodeType.SubDocument](../../nodetype/#SubDocument)."
+type: docs
+weight: 10
+url: /nodejs-net/Aspose.Words/subdocument/nodeType/
+---
+
+## SubDocument.nodeType property
+
+Returns [NodeType.SubDocument](../../nodetype/#SubDocument).
+
+
+
+```js
+get nodeType(): Aspose.Words.NodeType
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [SubDocument](../)
+

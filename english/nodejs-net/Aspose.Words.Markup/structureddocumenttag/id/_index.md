@@ -1,0 +1,105 @@
+﻿---
+title: StructuredDocumentTag.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for NodeJs
+description: "StructuredDocumentTag.id property. Specifies a unique read-only persistent numerical Id for this SDT."
+type: docs
+weight: 140
+url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/id/
+---
+
+## StructuredDocumentTag.id property
+
+Specifies a unique read-only persistent numerical Id for this **SDT**.
+
+
+
+
+```js
+get id(): number
+```
+
+### Remarks
+
+Id attribute shall follow these rules:
+
+* The document shall retain SDT ids only if the whole document is cloned [Document.clone()](../../../Aspose.Words/document/clone/#default).
+  
+* During [DocumentBase.importNode()](../../../Aspose.Words/documentbase/importNode/#node_boolean)
+  Id shall be retained if import does not cause conflicts with other SDT Ids in
+  the target document.
+  
+* If multiple SDT nodes specify the same decimal number value for the Id attribute,
+  then the first SDT in the document shall maintain this original Id,
+  and all subsequent SDT nodes shall have new identifiers assigned to them when the document is loaded.
+  
+* During standalone SDT Aspose.Words.Markup.StructuredDocumentTag.Clone(System.Boolean,Aspose.Words.INodeCloningListener) operation new unique ID will be generated for the cloned SDT node.
+  
+* If Id is not specified in the source document, then the SDT node shall have a new unique identifier assigned
+  to it when the document is loaded.
+  
+
+
+
+
+
+### Examples
+
+Shows how to create a structured document tag in a plain text box and modify its appearance.
+
+```js
+let doc = new aw.Document();
+
+// Create a structured document tag that will contain plain text.
+let tag = new aw.Markup.StructuredDocumentTag(doc, aw.Markup.SdtType.PlainText, aw.Markup.MarkupLevel.Inline);
+
+// Set the title and color of the frame that appears when you mouse over the structured document tag in Microsoft Word.
+tag.title = "My plain text";
+tag.color = "#FF00FF";
+
+// Set a tag for this structured document tag, which is obtainable
+// as an XML element named "tag", with the string below in its "@val" attribute.
+tag.tag = "MyPlainTextSDT";
+
+// Every structured document tag has a random unique ID.
+expect(tag.id > 0).toEqual(true);
+
+// Set the font for the text inside the structured document tag.
+tag.contentsFont.name = "Arial";
+
+// Set the font for the text at the end of the structured document tag.
+// Any text that we type in the document body after moving out of the tag with arrow keys will use this font.
+tag.endCharacterFont.name = "Arial Black";
+
+// By default, this is false and pressing enter while inside a structured document tag does nothing.
+// When set to true, our structured document tag can have multiple lines.
+
+// Set the "Multiline" property to "false" to only allow the contents
+// of this structured document tag to span a single line.
+// Set the "Multiline" property to "true" to allow the tag to contain multiple lines of content.
+tag.multiline = true;
+
+// Set the "Appearance" property to "SdtAppearance.Tags" to show tags around content.
+// By default structured document tag shows as BoundingBox. 
+tag.appearance = aw.Markup.SdtAppearance.Tags;
+
+let builder = new aw.DocumentBuilder(doc);
+builder.insertNode(tag);
+
+// Insert a clone of our structured document tag in a new paragraph.
+let tagClone = tag.clone(true).asStructuredDocumentTag();
+builder.insertParagraph();
+builder.insertNode(tagClone);
+
+// Use the "RemoveSelfOnly" method to remove a structured document tag, while keeping its contents in the document.
+tagClone.removeSelfOnly();
+
+doc.save(base.artifactsDir + "StructuredDocumentTag.plainText.docx");
+```
+
+### See Also
+
+* module [Aspose.Words.Markup](../../)
+* class [StructuredDocumentTag](../)
+

@@ -1,0 +1,18 @@
+﻿---
+title: ChartAxisCollection.this[] property
+linktitle: this[] property
+articleTitle: this[] property
+second_title: Aspose.Words for NodeJs
+description: "ChartAxisCollection.this[] property. "
+type: docs
+weight: 20
+url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxiscollection/this[]/
+---
+
+## ChartAxisCollection.this[] property
+
+### See Also
+
+* module [Aspose.Words.Drawing.Charts](../../)
+* class [ChartAxisCollection](../)
+

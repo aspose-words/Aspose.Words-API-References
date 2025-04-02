@@ -1,0 +1,25 @@
+﻿---
+title: Watermark.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for NodeJs
+description: "Watermark.remove method. Removes the watermark."
+type: docs
+weight: 20
+url: /nodejs-net/Aspose.Words/watermark/remove/
+---
+
+## remove() {#default}
+
+Removes the watermark.
+
+
+```js
+remove()
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [Watermark](../)
+

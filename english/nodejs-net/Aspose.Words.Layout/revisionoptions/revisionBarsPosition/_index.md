@@ -1,0 +1,33 @@
+﻿---
+title: RevisionOptions.revisionBarsPosition property
+linktitle: revisionBarsPosition property
+articleTitle: revisionBarsPosition property
+second_title: Aspose.Words for NodeJs
+description: "RevisionOptions.revisionBarsPosition property. Gets or sets rendering position of revision bars"
+type: docs
+weight: 160
+url: /nodejs-net/Aspose.Words.Layout/revisionoptions/revisionBarsPosition/
+---
+
+## RevisionOptions.revisionBarsPosition property
+
+Gets or sets rendering position of revision bars.
+Default value is [HorizontalAlignment.Outside](../../../Aspose.Words.Drawing/horizontalalignment/#Outside).
+
+
+
+```js
+get revisionBarsPosition(): Aspose.Words.Drawing.HorizontalAlignment
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Values of [HorizontalAlignment.Center](../../../Aspose.Words.Drawing/horizontalalignment/#Center) and [HorizontalAlignment.Inside](../../../Aspose.Words.Drawing/horizontalalignment/#Inside)  are not allowed. |
+
+### See Also
+
+* module [Aspose.Words.Layout](../../)
+* class [RevisionOptions](../)
+
