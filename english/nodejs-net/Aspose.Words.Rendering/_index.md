@@ -3,13 +3,13 @@ title: Aspose.Words.Rendering module
 linktitle: Aspose.Words.Rendering module
 articleTitle: Aspose.Words.Rendering module
 second_title: Aspose.Words for NodeJs
-description: "The aspose.words.rendering module provides classes that allow to customize printing or rendering of documents."
+description: "The Aspose.Words.Rendering module provides classes that allow to customize printing or rendering of documents."
 type: docs
 weight: 200
 url: /nodejs-net/Aspose.Words.Rendering/
 ---
 
-The **aspose.words.rendering** module provides classes that allow to
+The **Aspose.Words.Rendering** module provides classes that allow to
 customize printing or rendering of documents.
 
 

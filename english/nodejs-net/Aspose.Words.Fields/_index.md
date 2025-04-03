@@ -3,13 +3,13 @@ title: Aspose.Words.Fields module
 linktitle: Aspose.Words.Fields module
 articleTitle: Aspose.Words.Fields module
 second_title: Aspose.Words for NodeJs
-description: "The aspose.words.fields module contains classes that represent Microsoft Word fields in a document."
+description: "The Aspose.Words.Fields module contains classes that represent Microsoft Word fields in a document."
 type: docs
 weight: 100
 url: /nodejs-net/Aspose.Words.Fields/
 ---
 
-The **aspose.words.fields** module contains classes that
+The **Aspose.Words.Fields** module contains classes that
 represent Microsoft Word fields in a document.
 
 

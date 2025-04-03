@@ -3,13 +3,13 @@ title: Aspose.Words.Saving module
 linktitle: Aspose.Words.Saving module
 articleTitle: Aspose.Words.Saving module
 second_title: Aspose.Words for NodeJs
-description: "The aspose.words.saving module provides classes and enumerations that allow to specify additional options for saving or converting documents."
+description: "The Aspose.Words.Saving module provides classes and enumerations that allow to specify additional options for saving or converting documents."
 type: docs
 weight: 220
 url: /nodejs-net/Aspose.Words.Saving/
 ---
 
-The **aspose.words.saving** module provides classes and enumerations that
+The **Aspose.Words.Saving** module provides classes and enumerations that
 allow to specify additional options for saving or converting documents.
 
 

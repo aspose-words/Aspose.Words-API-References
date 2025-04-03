@@ -3,13 +3,13 @@ title: Aspose.Words.Themes module
 linktitle: Aspose.Words.Themes module
 articleTitle: Aspose.Words.Themes module
 second_title: Aspose.Words for NodeJs
-description: "The aspose.words.themes module provides classes that allow to access theme information in Microsoft Word documents."
+description: "The Aspose.Words.Themes module provides classes that allow to access theme information in Microsoft Word documents."
 type: docs
 weight: 250
 url: /nodejs-net/Aspose.Words.Themes/
 ---
 
-The **aspose.words.themes** module provides classes that allow to access theme information in Microsoft Word documents.
+The **Aspose.Words.Themes** module provides classes that allow to access theme information in Microsoft Word documents.
 
 
 A document theme can specify fonts and colors to be used in a document. Themes are supported in Word 2007 and higher.
