@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.signatureLine property. Gets [SignatureLine](../../signatureline/) object if the shape is a signature line"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing/shape/signatureLine/
+url: /nodejs-net/aspose.words.drawing/shape/signatureLine/
 ---
 
 ## Shape.signatureLine property

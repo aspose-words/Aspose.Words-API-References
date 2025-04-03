@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagCollection.getByTitle method. Returns the first structured document tag encountered in the collection with the specified title."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagcollection/getByTitle/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagcollection/getByTitle/
 ---
 
 ## getByTitle(title) {#string}

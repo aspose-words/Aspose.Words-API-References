@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BarcodeParameters.fixCheckDigit property. Whether to fix the check digit if it’s invalid."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/fixCheckDigit/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/fixCheckDigit/
 ---
 
 ## BarcodeParameters.fixCheckDigit property

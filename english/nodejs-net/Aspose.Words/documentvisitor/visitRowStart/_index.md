@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitRowStart method. Called when enumeration of a table row has started."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/documentvisitor/visitRowStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitRowStart/
 ---
 
 ## visitRowStart(row) {#row}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.useAnsiKerningPairs property. Use ANSI Kerning Pairs from Fonts."
 type: docs
 weight: 610
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/useAnsiKerningPairs/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/useAnsiKerningPairs/
 ---
 
 ## CompatibilityOptions.useAnsiKerningPairs property

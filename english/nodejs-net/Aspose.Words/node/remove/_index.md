@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.remove method. Removes itself from the parent."
 type: docs
 weight: 500
-url: /nodejs-net/Aspose.Words/node/remove/
+url: /nodejs-net/aspose.words/node/remove/
 ---
 
 ## remove() {#default}
@@ -19,22 +19,6 @@ remove()
 ```
 
 ### Examples
-
-Shows how to delete all shapes with images from a document.
-
-```js
-let doc = new aw.Document(base.myDir + "Images.docx");
-let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-
-expect(shapes.filter(s => s.hasImage).length).toEqual(9);
-
-for (let shape of shapes)
-  if (shape.hasImage) 
-    shape.remove();
-
-shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-expect(shapes.filter(s => s.hasImage).length).toEqual(0);
-```
 
 Shows how to remove all child nodes of a specific type from a composite node.
 
@@ -59,6 +43,22 @@ while (curNode != null)
 }
 
 expect(doc.getChildNodes(aw.NodeType.Table, true).count).toEqual(0);
+```
+
+Shows how to delete all shapes with images from a document.
+
+```js
+let doc = new aw.Document(base.myDir + "Images.docx");
+let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+
+expect(shapes.filter(s => s.hasImage).length).toEqual(9);
+
+for (let shape of shapes)
+  if (shape.hasImage) 
+    shape.remove();
+
+shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+expect(shapes.filter(s => s.hasImage).length).toEqual(0);
 ```
 
 ### See Also

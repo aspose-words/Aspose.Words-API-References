@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.foreTintAndShade property. Gets or sets a double value that lightens or darkens the stroke foreground color."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing/stroke/foreTintAndShade/
+url: /nodejs-net/aspose.words.drawing/stroke/foreTintAndShade/
 ---
 
 ## Stroke.foreTintAndShade property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.localeIdFarEast property. Gets or sets the locale identifier (language) of the formatted Asian characters."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words/font/localeIdFarEast/
+url: /nodejs-net/aspose.words/font/localeIdFarEast/
 ---
 
 ## Font.localeIdFarEast property

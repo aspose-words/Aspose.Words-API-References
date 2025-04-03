@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SignOptions.signatureLineId property. Signature line identifier"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.DigitalSignatures/signoptions/signatureLineId/
+url: /nodejs-net/aspose.words.digitalsignatures/signoptions/signatureLineId/
 ---
 
 ## SignOptions.signatureLineId property

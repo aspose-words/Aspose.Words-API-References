@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkStart constructor. Initializes a new instance of the [BookmarkStart](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/bookmarkstart/constructor/
+url: /nodejs-net/aspose.words/bookmarkstart/constructor/
 ---
 
 ## BookmarkStart(doc, name) {#documentbase_string}

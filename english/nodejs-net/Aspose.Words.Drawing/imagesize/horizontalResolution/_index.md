@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSize.horizontalResolution property. Gets the horizontal resolution in DPI."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/imagesize/horizontalResolution/
+url: /nodejs-net/aspose.words.drawing/imagesize/horizontalResolution/
 ---
 
 ## ImageSize.horizontalResolution property

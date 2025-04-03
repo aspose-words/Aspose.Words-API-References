@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.localToParent method. "
 type: docs
 weight: 620
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/localToParent/
+url: /nodejs-net/aspose.words.drawing/shapebase/localToParent/
 ---
 
 ## localToParent(value) {#jspointf}

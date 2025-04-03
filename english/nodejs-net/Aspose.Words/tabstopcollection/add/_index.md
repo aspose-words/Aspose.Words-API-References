@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TabStopCollection.add method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/tabstopcollection/add/
+url: /nodejs-net/aspose.words/tabstopcollection/add/
 ---
 
 ## add(tabStop) {#tabstop}

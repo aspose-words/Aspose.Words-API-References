@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMergeField.type property. Gets the Microsoft Word field type."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldmergefield/type/
+url: /nodejs-net/aspose.words.fields/fieldmergefield/type/
 ---
 
 ## FieldMergeField.type property

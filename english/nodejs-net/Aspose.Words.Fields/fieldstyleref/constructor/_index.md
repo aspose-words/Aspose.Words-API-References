@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldStyleRef constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldstyleref/constructor/
+url: /nodejs-net/aspose.words.fields/fieldstyleref/constructor/
 ---
 
 ## FieldStyleRef() {#default}

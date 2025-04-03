@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RtfSaveOptions.exportCompactSize property. Allows to make output RTF documents smaller in size, but if they contain  RTL (right-to-left) text, it will not be displayed correctly."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/exportCompactSize/
+url: /nodejs-net/aspose.words.saving/rtfsaveoptions/exportCompactSize/
 ---
 
 ## RtfSaveOptions.exportCompactSize property

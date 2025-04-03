@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Footnote.acceptStart method. Accepts a visitor for visiting the start of the footnote."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Notes/footnote/acceptStart/
+url: /nodejs-net/aspose.words.notes/footnote/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

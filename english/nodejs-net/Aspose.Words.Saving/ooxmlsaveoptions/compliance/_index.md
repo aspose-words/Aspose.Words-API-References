@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OoxmlSaveOptions.compliance property. Specifies the OOXML version for the output document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/ooxmlsaveoptions/compliance/
+url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/compliance/
 ---
 
 ## OoxmlSaveOptions.compliance property

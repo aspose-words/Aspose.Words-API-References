@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Ole.CommandButtonControl class. The CommandButton control runs a macro that performs an action when a user clicks it."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Ole/commandbuttoncontrol/
+url: /nodejs-net/aspose.words.drawing.ole/commandbuttoncontrol/
 ---
 
 ## CommandButtonControl class

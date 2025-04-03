@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportFontsAsBase64 property. Specifies whether fonts resources should be embedded to HTML in Base64 encoding"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportFontsAsBase64/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportFontsAsBase64/
 ---
 
 ## HtmlSaveOptions.exportFontsAsBase64 property

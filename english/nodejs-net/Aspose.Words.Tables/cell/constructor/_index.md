@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell constructor. Initializes a new instance of the [Cell](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Tables/cell/constructor/
+url: /nodejs-net/aspose.words.tables/cell/constructor/
 ---
 
 ## Cell(doc) {#documentbase}

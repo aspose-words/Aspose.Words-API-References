@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Comment class. Represents a container for text of a comment"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/comment/
+url: /nodejs-net/aspose.words/comment/
 ---
 
 ## Comment class
@@ -165,6 +165,25 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 
 ### Examples
 
+Shows how to add a comment to a paragraph.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.write("Hello world!");
+
+var today = new Date(2024, 11, 26);
+var comment = new aw.Comment(doc, "John Doe", "JD", today);
+builder.currentParagraph.appendChild(comment);
+builder.moveTo(comment.appendChild(new aw.Paragraph(doc)));
+builder.write("Comment text.");
+
+expect(comment.dateTime).toEqual(today);
+
+// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
+doc.save(base.artifactsDir + "InlineStory.AddComment.docx");
+```
+
 Shows how to add a comment to a document, and then reply to it.
 
 ```js
@@ -192,25 +211,6 @@ expect(comment.ancestor).toBe(null);
 expect(comment.replies.at(0).ancestor).toEqual(comment);
 
 doc.save(base.artifactsDir + "Comment.AddCommentWithReply.docx");
-```
-
-Shows how to add a comment to a paragraph.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-builder.write("Hello world!");
-
-var today = new Date(2024, 11, 26);
-var comment = new aw.Comment(doc, "John Doe", "JD", today);
-builder.currentParagraph.appendChild(comment);
-builder.moveTo(comment.appendChild(new aw.Paragraph(doc)));
-builder.write("Comment text.");
-
-expect(comment.dateTime).toEqual(today);
-
-// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
-doc.save(base.artifactsDir + "InlineStory.AddComment.docx");
 ```
 
 ### See Also

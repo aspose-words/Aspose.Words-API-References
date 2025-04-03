@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/saveFormat/
 ---
 
 ## HtmlSaveOptions.saveFormat property

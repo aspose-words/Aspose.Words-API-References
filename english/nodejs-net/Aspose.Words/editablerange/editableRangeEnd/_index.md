@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EditableRange.editableRangeEnd property. Gets the node that represents the end of the editable range."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/editablerange/editableRangeEnd/
+url: /nodejs-net/aspose.words/editablerange/editableRangeEnd/
 ---
 
 ## EditableRange.editableRangeEnd property

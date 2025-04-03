@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.CertificateHolder.create method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.DigitalSignatures/certificateholder/create/
+url: /nodejs-net/aspose.words.digitalsignatures/certificateholder/create/
 ---
 
 ## create(certBytes, password) {#number[]_unknown}

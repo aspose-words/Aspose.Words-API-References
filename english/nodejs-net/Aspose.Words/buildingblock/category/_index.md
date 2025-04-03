@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.category property. Specifies the second-level categorization for the building block."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/buildingblock/category/
+url: /nodejs-net/aspose.words/buildingblock/category/
 ---
 
 ## BuildingBlock.category property

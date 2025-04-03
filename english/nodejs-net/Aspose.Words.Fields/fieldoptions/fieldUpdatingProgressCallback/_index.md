@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.fieldUpdatingProgressCallback property. Gets or sets [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/) implementation."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/fieldUpdatingProgressCallback/
+url: /nodejs-net/aspose.words.fields/fieldoptions/fieldUpdatingProgressCallback/
 ---
 
 ## FieldOptions.fieldUpdatingProgressCallback property

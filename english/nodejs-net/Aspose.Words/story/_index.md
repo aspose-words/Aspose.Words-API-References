@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Story class. Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../table/)"
 type: docs
 weight: 1230
-url: /nodejs-net/Aspose.Words/story/
+url: /nodejs-net/aspose.words/story/
 ---
 
 ## Story class

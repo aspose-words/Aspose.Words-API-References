@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSavingArgs.italic property. Indicates whether the current font is italic."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/fontsavingargs/italic/
+url: /nodejs-net/aspose.words.saving/fontsavingargs/italic/
 ---
 
 ## FontSavingArgs.italic property

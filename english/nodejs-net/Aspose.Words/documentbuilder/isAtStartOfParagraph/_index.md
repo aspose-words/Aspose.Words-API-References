@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.isAtStartOfParagraph property. Returns ``true`` if the cursor is at the beginning of the current paragraph (no text before the cursor)."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/documentbuilder/isAtStartOfParagraph/
+url: /nodejs-net/aspose.words/documentbuilder/isAtStartOfParagraph/
 ---
 
 ## DocumentBuilder.isAtStartOfParagraph property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataPoint.index property. Index of the data point this object applies formatting to."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapoint/index/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapoint/index/
 ---
 
 ## ChartDataPoint.index property

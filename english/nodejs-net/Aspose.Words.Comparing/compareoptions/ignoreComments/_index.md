@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompareOptions.ignoreComments property. Specifies whether to compare differences in comments."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/ignoreComments/
+url: /nodejs-net/aspose.words.comparing/compareoptions/ignoreComments/
 ---
 
 ## CompareOptions.ignoreComments property

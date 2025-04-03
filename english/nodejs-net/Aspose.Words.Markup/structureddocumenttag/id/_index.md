@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.id property. Specifies a unique read-only persistent numerical Id for this SDT."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/id/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/id/
 ---
 
 ## StructuredDocumentTag.id property

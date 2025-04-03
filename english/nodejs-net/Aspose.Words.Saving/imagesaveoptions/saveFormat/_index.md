@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSaveOptions.saveFormat property. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/saveFormat/
 ---
 
 ## ImageSaveOptions.saveFormat property

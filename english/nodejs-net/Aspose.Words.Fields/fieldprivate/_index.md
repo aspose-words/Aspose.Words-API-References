@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldPrivate class. Implements the PRIVATE field"
 type: docs
 weight: 830
-url: /nodejs-net/Aspose.Words.Fields/fieldprivate/
+url: /nodejs-net/aspose.words.fields/fieldprivate/
 ---
 
 ## FieldPrivate class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XmlMapping.setMapping method. Sets a mapping between the parent structured document tag and an XML node of a custom XML data part."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/xmlmapping/setMapping/
+url: /nodejs-net/aspose.words.markup/xmlmapping/setMapping/
 ---
 
 ## setMapping(customXmlPart, xPath, prefixMapping) {#customxmlpart_string_string}

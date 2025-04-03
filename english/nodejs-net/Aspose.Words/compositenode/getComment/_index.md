@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getComment method. "
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/compositenode/getComment/
+url: /nodejs-net/aspose.words/compositenode/getComment/
 ---
 
 ## getComment(index, isDeep) {#number_boolean}

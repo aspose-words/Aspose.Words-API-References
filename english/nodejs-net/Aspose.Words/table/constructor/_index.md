@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table constructor. Initializes a new instance of the [Table](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/table/constructor/
+url: /nodejs-net/aspose.words/table/constructor/
 ---
 
 ## Table(doc) {#documentbase}

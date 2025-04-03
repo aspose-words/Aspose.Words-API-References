@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.SdtListItemCollection class. Provides access to [SdtListItem](../sdtlistitem/) elements of a structured document tag"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitemcollection/
+url: /nodejs-net/aspose.words.markup/sdtlistitemcollection/
 ---
 
 ## SdtListItemCollection class

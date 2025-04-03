@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldTC constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldtc/constructor/
+url: /nodejs-net/aspose.words.fields/fieldtc/constructor/
 ---
 
 ## FieldTC() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.wordOpenXMLMinimal property. Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc) format."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/wordOpenXMLMinimal/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/wordOpenXMLMinimal/
 ---
 
 ## StructuredDocumentTag.wordOpenXMLMinimal property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XmlMapping.storeItemId property. Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [XmlMapping.xpath](../xpath/) expression."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/xmlmapping/storeItemId/
+url: /nodejs-net/aspose.words.markup/xmlmapping/storeItemId/
 ---
 
 ## XmlMapping.storeItemId property

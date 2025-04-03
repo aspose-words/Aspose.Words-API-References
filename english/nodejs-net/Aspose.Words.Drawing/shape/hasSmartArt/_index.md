@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.hasSmartArt property. Returns ``true`` if this [Shape](../) has a SmartArt object."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/shape/hasSmartArt/
+url: /nodejs-net/aspose.words.drawing/shape/hasSmartArt/
 ---
 
 ## Shape.hasSmartArt property

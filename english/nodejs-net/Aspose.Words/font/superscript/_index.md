@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.superscript property. True if the font is formatted as superscript."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/font/superscript/
+url: /nodejs-net/aspose.words/font/superscript/
 ---
 
 ## Font.superscript property

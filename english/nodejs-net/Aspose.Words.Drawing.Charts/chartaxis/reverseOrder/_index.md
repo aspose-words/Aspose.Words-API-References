@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.reverseOrder property. Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/reverseOrder/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/reverseOrder/
 ---
 
 ## ChartAxis.reverseOrder property

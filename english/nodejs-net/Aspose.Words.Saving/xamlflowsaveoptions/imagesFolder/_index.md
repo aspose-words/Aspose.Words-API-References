@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XamlFlowSaveOptions.imagesFolder property. Specifies the physical folder where images are saved when exporting a document to XAML format"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/imagesFolder/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/imagesFolder/
 ---
 
 ## XamlFlowSaveOptions.imagesFolder property

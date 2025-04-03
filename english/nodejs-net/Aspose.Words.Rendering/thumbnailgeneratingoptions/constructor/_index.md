@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ThumbnailGeneratingOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Rendering/thumbnailgeneratingoptions/constructor/
+url: /nodejs-net/aspose.words.rendering/thumbnailgeneratingoptions/constructor/
 ---
 
 ## ThumbnailGeneratingOptions() {#default}

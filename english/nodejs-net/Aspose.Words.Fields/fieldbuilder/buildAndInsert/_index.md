@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldBuilder.buildAndInsert method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldbuilder/buildAndInsert/
+url: /nodejs-net/aspose.words.fields/fieldbuilder/buildAndInsert/
 ---
 
 ## buildAndInsert(refNode) {#inline}

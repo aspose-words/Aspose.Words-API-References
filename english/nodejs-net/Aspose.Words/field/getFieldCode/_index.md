@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.Field.getFieldCode method"
 type: docs
 weight: 1060
-url: /nodejs-net/Aspose.Words/field/getFieldCode/
+url: /nodejs-net/aspose.words/field/getFieldCode/
 ---
 
 ## getFieldCode() {#default}

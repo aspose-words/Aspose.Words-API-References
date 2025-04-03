@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CommentRangeEnd.accept method. Accepts a visitor."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/commentrangeend/accept/
+url: /nodejs-net/aspose.words/commentrangeend/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

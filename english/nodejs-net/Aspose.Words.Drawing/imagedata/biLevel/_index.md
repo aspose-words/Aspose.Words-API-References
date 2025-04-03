@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.biLevel property. Determines whether an image will be displayed in black and white."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/biLevel/
+url: /nodejs-net/aspose.words.drawing/imagedata/biLevel/
 ---
 
 ## ImageData.biLevel property

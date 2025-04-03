@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getRun method. "
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/compositenode/getRun/
+url: /nodejs-net/aspose.words/compositenode/getRun/
 ---
 
 ## getRun(index, isDeep) {#number_boolean}

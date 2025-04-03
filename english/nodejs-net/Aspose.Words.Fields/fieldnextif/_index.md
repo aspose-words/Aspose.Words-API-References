@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldNextIf class. Implements the NEXTIF field"
 type: docs
 weight: 720
-url: /nodejs-net/Aspose.Words.Fields/fieldnextif/
+url: /nodejs-net/aspose.words.fields/fieldnextif/
 ---
 
 ## FieldNextIf class

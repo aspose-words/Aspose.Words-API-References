@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.bibliography property. Gets the [Document.bibliography](./) object that represents the list of sources available in the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/document/bibliography/
+url: /nodejs-net/aspose.words/document/bibliography/
 ---
 
 ## Document.bibliography property

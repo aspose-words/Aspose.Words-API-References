@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSeq constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldseq/constructor/
+url: /nodejs-net/aspose.words.fields/fieldseq/constructor/
 ---
 
 ## FieldSeq() {#default}

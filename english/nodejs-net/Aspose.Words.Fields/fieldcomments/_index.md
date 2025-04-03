@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldComments class. Implements the COMMENTS field"
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Fields/fieldcomments/
+url: /nodejs-net/aspose.words.fields/fieldcomments/
 ---
 
 ## FieldComments class

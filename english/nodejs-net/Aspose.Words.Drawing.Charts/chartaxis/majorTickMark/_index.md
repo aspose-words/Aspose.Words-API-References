@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.majorTickMark property. Returns or sets the major tick marks."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/majorTickMark/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/majorTickMark/
 ---
 
 ## ChartAxis.majorTickMark property

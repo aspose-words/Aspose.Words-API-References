@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturetimestampsettings/constructor/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/constructor/
 ---
 
 ## PdfDigitalSignatureTimestampSettings() {#default}

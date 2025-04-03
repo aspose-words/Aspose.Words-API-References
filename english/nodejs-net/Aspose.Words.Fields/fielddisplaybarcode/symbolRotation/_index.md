@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDisplayBarcode.symbolRotation property. Gets or sets the rotation of the barcode symbol"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Fields/fielddisplaybarcode/symbolRotation/
+url: /nodejs-net/aspose.words.fields/fielddisplaybarcode/symbolRotation/
 ---
 
 ## FieldDisplayBarcode.symbolRotation property

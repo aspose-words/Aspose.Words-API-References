@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.list property. Gets the list that defines formatting of this list style."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/style/list/
+url: /nodejs-net/aspose.words/style/list/
 ---
 
 ## Style.list property

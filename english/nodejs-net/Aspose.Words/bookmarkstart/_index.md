@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.BookmarkStart class. Represents a start of a bookmark in a Word document"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/bookmarkstart/
+url: /nodejs-net/aspose.words/bookmarkstart/
 ---
 
 ## BookmarkStart class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Layout/layoutoptions/constructor/
+url: /nodejs-net/aspose.words.layout/layoutoptions/constructor/
 ---
 
 ## LayoutOptions() {#default}

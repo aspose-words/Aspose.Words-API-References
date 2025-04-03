@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldDocVariable class. Implements DOCVARIABLE field"
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words.Fields/fielddocvariable/
+url: /nodejs-net/aspose.words.fields/fielddocvariable/
 ---
 
 ## FieldDocVariable class

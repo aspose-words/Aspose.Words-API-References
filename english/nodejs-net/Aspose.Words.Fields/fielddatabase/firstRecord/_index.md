@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDatabase.firstRecord property. Gets or sets the integral record number of the first data record to insert."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fielddatabase/firstRecord/
+url: /nodejs-net/aspose.words.fields/fielddatabase/firstRecord/
 ---
 
 ## FieldDatabase.firstRecord property

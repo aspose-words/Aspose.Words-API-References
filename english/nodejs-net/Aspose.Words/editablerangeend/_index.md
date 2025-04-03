@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.EditableRangeEnd class. Represents an end of an editable range in a Word document"
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words/editablerangeend/
+url: /nodejs-net/aspose.words/editablerangeend/
 ---
 
 ## EditableRangeEnd class

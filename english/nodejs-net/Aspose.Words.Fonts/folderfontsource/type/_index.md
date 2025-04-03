@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FolderFontSource.type property. Returns the type of the font source."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/folderfontsource/type/
+url: /nodejs-net/aspose.words.fonts/folderfontsource/type/
 ---
 
 ## FolderFontSource.type property

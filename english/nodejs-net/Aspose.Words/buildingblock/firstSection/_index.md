@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.firstSection property. Gets the first section in the building block."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/buildingblock/firstSection/
+url: /nodejs-net/aspose.words/buildingblock/firstSection/
 ---
 
 ## BuildingBlock.firstSection property

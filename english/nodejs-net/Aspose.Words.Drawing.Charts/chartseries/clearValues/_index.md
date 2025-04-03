@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeries.clearValues method. Removes all data values from the chart series with preserving the format of the data points and data labels."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/clearValues/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/clearValues/
 ---
 
 ## clearValues() {#default}

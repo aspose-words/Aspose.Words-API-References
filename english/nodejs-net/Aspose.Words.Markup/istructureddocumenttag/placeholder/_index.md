@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IStructuredDocumentTag.placeholder property. Gets the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,  the associated mapped XML element is empty as specified via the [IStructuredDocumentTag.xmlMapping](../xmlMapping/) element or the [IStructuredDocumentTag.isShowingPlaceholderText](../isShowingPlaceholderText/) element is true."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/placeholder/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/placeholder/
 ---
 
 ## IStructuredDocumentTag.placeholder property

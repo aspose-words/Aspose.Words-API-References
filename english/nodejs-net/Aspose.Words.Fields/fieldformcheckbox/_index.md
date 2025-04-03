@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldFormCheckBox class. Implements the FORMCHECKBOX field"
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words.Fields/fieldformcheckbox/
+url: /nodejs-net/aspose.words.fields/fieldformcheckbox/
 ---
 
 ## FieldFormCheckBox class

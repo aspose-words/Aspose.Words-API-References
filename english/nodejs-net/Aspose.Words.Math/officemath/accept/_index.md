@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OfficeMath.accept method. Accepts a visitor."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Math/officemath/accept/
+url: /nodejs-net/aspose.words.math/officemath/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

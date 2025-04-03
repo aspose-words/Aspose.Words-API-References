@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldData class. Implements the DATA field"
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Fields/fielddata/
+url: /nodejs-net/aspose.words.fields/fielddata/
 ---
 
 ## FieldData class

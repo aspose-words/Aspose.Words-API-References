@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.alignTablesRowByRow property. Align Table Rows Independently."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/alignTablesRowByRow/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/alignTablesRowByRow/
 ---
 
 ## CompatibilityOptions.alignTablesRowByRow property

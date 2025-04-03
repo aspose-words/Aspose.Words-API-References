@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldStart.nodeType property. Returns [NodeType.FieldStart](../../../aspose.words/nodetype/#FieldStart)."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldstart/nodeType/
+url: /nodejs-net/aspose.words.fields/fieldstart/nodeType/
 ---
 
 ## FieldStart.nodeType property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkEnd constructor. Initializes a new instance of the [BookmarkEnd](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/bookmarkend/constructor/
+url: /nodejs-net/aspose.words/bookmarkend/constructor/
 ---
 
 ## BookmarkEnd(doc, name) {#documentbase_string}

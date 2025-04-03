@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Footnote.accept method. Accepts a visitor."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Notes/footnote/accept/
+url: /nodejs-net/aspose.words.notes/footnote/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

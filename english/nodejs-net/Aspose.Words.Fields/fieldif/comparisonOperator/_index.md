@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIf.comparisonOperator property. Gets or sets the comparison operator."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldif/comparisonOperator/
+url: /nodejs-net/aspose.words.fields/fieldif/comparisonOperator/
 ---
 
 ## FieldIf.comparisonOperator property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.moveToSection method. Moves the cursor to the beginning of the body in a specified section."
 type: docs
 weight: 610
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToSection/
+url: /nodejs-net/aspose.words/documentbuilder/moveToSection/
 ---
 
 ## moveToSection(sectionIndex) {#number}

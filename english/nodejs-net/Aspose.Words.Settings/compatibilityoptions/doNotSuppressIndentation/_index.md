@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.doNotSuppressIndentation property. Do Not Ignore Floating Objects When Calculating Paragraph Indentation."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotSuppressIndentation/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotSuppressIndentation/
 ---
 
 ## CompatibilityOptions.doNotSuppressIndentation property

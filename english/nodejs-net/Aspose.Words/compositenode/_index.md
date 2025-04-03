@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.CompositeNode class. Base class for nodes that can contain other nodes"
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/compositenode/
+url: /nodejs-net/aspose.words/compositenode/
 ---
 
 ## CompositeNode class

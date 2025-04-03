@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Range.text property. Gets the text of the range."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/range/text/
+url: /nodejs-net/aspose.words/range/text/
 ---
 
 ## Range.text property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMergeField.fieldNameNoPrefix property. Returns just the name of the data field"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldmergefield/fieldNameNoPrefix/
+url: /nodejs-net/aspose.words.fields/fieldmergefield/fieldNameNoPrefix/
 ---
 
 ## FieldMergeField.fieldNameNoPrefix property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionBindingCollection.add method. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbindingcollection/add/
+url: /nodejs-net/aspose.words.webextensions/webextensionbindingcollection/add/
 ---
 
 ## add(item) {#webextensionbinding}

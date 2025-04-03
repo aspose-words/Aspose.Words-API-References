@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.PhoneticGuide class. Represents Phonetic Guide."
 type: docs
 weight: 1030
-url: /nodejs-net/Aspose.Words/phoneticguide/
+url: /nodejs-net/aspose.words/phoneticguide/
 ---
 
 ## PhoneticGuide class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldPrivate constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldprivate/constructor/
+url: /nodejs-net/aspose.words.fields/fieldprivate/constructor/
 ---
 
 ## FieldPrivate() {#default}

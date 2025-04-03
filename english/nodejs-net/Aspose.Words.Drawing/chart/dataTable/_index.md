@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.dataTable property. Provides access to properties of a data table of this chart"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/chart/dataTable/
+url: /nodejs-net/aspose.words.drawing/chart/dataTable/
 ---
 
 ## Chart.dataTable property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IFieldUserPromptRespondent.respond method. When implemented, returns a response from the user on prompting"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/ifielduserpromptrespondent/respond/
+url: /nodejs-net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 
 ## respond(promptText, defaultResponse) {#string_string}

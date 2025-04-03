@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldFormDropDown class. Implements the FORMDROPDOWN field"
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words.Fields/fieldformdropdown/
+url: /nodejs-net/aspose.words.fields/fieldformdropdown/
 ---
 
 ## FieldFormDropDown class

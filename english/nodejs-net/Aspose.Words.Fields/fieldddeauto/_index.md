@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldDdeAuto class. Implements the DDEAUTO field"
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words.Fields/fieldddeauto/
+url: /nodejs-net/aspose.words.fields/fieldddeauto/
 ---
 
 ## FieldDdeAuto class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartXValue.doubleValue property. Gets the stored numeric value."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvalue/doubleValue/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/doubleValue/
 ---
 
 ## ChartXValue.doubleValue property

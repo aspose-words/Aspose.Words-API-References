@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.MeasurementUnits enumeration. Specifies the unit of measurement."
 type: docs
 weight: 820
-url: /nodejs-net/Aspose.Words/measurementunits/
+url: /nodejs-net/aspose.words/measurementunits/
 ---
 
 ## MeasurementUnits enumeration

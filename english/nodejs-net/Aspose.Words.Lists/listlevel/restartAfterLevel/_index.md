@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.restartAfterLevel property. Sets or returns the list level that must appear before the specified list level restarts numbering."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Lists/listlevel/restartAfterLevel/
+url: /nodejs-net/aspose.words.lists/listlevel/restartAfterLevel/
 ---
 
 ## ListLevel.restartAfterLevel property

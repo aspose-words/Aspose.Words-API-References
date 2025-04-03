@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SdtListItemCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitemcollection/this[]/
+url: /nodejs-net/aspose.words.markup/sdtlistitemcollection/this[]/
 ---
 
 ## SdtListItemCollection.this[] property

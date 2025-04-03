@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldAsk method. "
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/field/asFieldAsk/
+url: /nodejs-net/aspose.words/field/asFieldAsk/
 ---
 
 ## asFieldAsk() {#default}

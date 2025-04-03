@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.panose property. Gets or sets the PANOSE typeface classification number."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/panose/
+url: /nodejs-net/aspose.words.fonts/fontinfo/panose/
 ---
 
 ## FontInfo.panose property

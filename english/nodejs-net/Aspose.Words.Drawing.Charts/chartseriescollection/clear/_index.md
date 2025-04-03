@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeriesCollection.clear method. Removes all [ChartSeries](../../chartseries/) from this collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriescollection/clear/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
 
 ## clear() {#default}

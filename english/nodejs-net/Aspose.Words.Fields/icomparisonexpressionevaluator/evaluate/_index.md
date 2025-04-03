@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IComparisonExpressionEvaluator.evaluate method. Evaluates comparison expression."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/icomparisonexpressionevaluator/evaluate/
+url: /nodejs-net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 ---
 
 ## evaluate(field, expression) {#field_comparisonexpression}

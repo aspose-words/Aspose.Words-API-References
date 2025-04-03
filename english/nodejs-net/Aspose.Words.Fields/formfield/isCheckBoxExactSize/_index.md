@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.isCheckBoxExactSize property. Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Fields/formfield/isCheckBoxExactSize/
+url: /nodejs-net/aspose.words.fields/formfield/isCheckBoxExactSize/
 ---
 
 ## FormField.isCheckBoxExactSize property

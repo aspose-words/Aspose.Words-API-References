@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.CompatibilityOptions class. Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/
 ---
 
 ## CompatibilityOptions class

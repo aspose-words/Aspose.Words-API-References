@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.locked property. Specifies whether this style is locked."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/style/locked/
+url: /nodejs-net/aspose.words/style/locked/
 ---
 
 ## Style.locked property

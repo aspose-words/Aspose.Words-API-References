@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutCollector.document property. Gets or sets the document this collector instance is attached to."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Layout/layoutcollector/document/
+url: /nodejs-net/aspose.words.layout/layoutcollector/document/
 ---
 
 ## LayoutCollector.document property

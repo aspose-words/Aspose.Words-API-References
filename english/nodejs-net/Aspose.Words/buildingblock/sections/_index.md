@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.sections property. Returns a collection that represents all sections in the building block."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/buildingblock/sections/
+url: /nodejs-net/aspose.words/buildingblock/sections/
 ---
 
 ## BuildingBlock.sections property

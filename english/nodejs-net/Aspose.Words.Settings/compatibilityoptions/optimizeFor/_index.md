@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.optimizeFor method. Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word."
 type: docs
 weight: 720
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/optimizeFor/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/optimizeFor/
 ---
 
 ## optimizeFor(version) {#mswordversion}

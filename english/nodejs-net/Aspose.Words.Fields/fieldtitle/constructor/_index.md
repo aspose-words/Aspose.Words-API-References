@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldTitle constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldtitle/constructor/
+url: /nodejs-net/aspose.words.fields/fieldtitle/constructor/
 ---
 
 ## FieldTitle() {#default}

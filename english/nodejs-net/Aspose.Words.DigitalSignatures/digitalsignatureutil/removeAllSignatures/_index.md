@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureUtil.removeAllSignatures method"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignatureutil/removeAllSignatures/
+url: /nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/removeAllSignatures/
 ---
 
 ## removeAllSignatures(srcStream, dstStream) {#buffer_unknown}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Footnote constructor. Initializes an instance of the [Footnote](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Notes/footnote/constructor/
+url: /nodejs-net/aspose.words.notes/footnote/constructor/
 ---
 
 ## Footnote(doc, footnoteType) {#documentbase_footnotetype}

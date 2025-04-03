@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.textEffect property. Gets or sets the font animation effect."
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words/font/textEffect/
+url: /nodejs-net/aspose.words/font/textEffect/
 ---
 
 ## Font.textEffect property

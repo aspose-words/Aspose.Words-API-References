@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionReferenceCollection.remove method. "
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreferencecollection/remove/
+url: /nodejs-net/aspose.words.webextensions/webextensionreferencecollection/remove/
 ---
 
 ## remove(index) {#number}

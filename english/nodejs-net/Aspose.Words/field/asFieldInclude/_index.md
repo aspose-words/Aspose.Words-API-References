@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldInclude method. "
 type: docs
 weight: 540
-url: /nodejs-net/Aspose.Words/field/asFieldInclude/
+url: /nodejs-net/aspose.words/field/asFieldInclude/
 ---
 
 ## asFieldInclude() {#default}

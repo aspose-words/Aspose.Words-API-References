@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.sourceType property. Gets or sets the source type of a source."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words.Bibliography/source/sourceType/
+url: /nodejs-net/aspose.words.bibliography/source/sourceType/
 ---
 
 ## Source.sourceType property

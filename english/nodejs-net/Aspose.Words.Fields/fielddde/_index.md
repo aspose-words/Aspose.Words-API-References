@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldDde class. Implements the DDE field"
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words.Fields/fielddde/
+url: /nodejs-net/aspose.words.fields/fielddde/
 ---
 
 ## FieldDde class

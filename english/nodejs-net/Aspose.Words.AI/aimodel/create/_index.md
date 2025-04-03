@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AiModel.create method. Creates a new instance of [AiModel](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.AI/aimodel/create/
+url: /nodejs-net/aspose.words.ai/aimodel/create/
 ---
 
 ## create(modelType) {#aimodeltype}

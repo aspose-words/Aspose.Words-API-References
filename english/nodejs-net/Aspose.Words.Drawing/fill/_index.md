@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Fill class. Represents fill formatting for an object"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/fill/
+url: /nodejs-net/aspose.words.drawing/fill/
 ---
 
 ## Fill class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ShadowFormat class. Represents shadow formatting for an object"
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words.Drawing/shadowformat/
+url: /nodejs-net/aspose.words.drawing/shadowformat/
 ---
 
 ## ShadowFormat class

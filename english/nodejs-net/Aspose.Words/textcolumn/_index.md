@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TextColumn class. Represents a single text column"
 type: docs
 weight: 1360
-url: /nodejs-net/Aspose.Words/textcolumn/
+url: /nodejs-net/aspose.words/textcolumn/
 ---
 
 ## TextColumn class

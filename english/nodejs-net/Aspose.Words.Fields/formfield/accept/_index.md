@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.accept method. Accepts a visitor."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Fields/formfield/accept/
+url: /nodejs-net/aspose.words.fields/formfield/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

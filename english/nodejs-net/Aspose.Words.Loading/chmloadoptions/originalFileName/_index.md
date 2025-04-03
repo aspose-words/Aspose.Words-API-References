@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChmLoadOptions.originalFileName property. The name of the CHM file"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Loading/chmloadoptions/originalFileName/
+url: /nodejs-net/aspose.words.loading/chmloadoptions/originalFileName/
 ---
 
 ## ChmLoadOptions.originalFileName property

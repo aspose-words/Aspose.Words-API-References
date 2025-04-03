@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Shape class. Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture"
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words.Drawing/shape/
+url: /nodejs-net/aspose.words.drawing/shape/
 ---
 
 ## Shape class

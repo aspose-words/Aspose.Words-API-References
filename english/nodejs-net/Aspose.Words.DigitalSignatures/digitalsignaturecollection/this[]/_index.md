@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DigitalSignatureCollection.this[] property. "
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignaturecollection/this[]/
+url: /nodejs-net/aspose.words.digitalsignatures/digitalsignaturecollection/this[]/
 ---
 
 ## DigitalSignatureCollection.this[] property

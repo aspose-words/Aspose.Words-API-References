@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.imageType property. Gets the type of the image."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/imageType/
+url: /nodejs-net/aspose.words.drawing/imagedata/imageType/
 ---
 
 ## ImageData.imageType property

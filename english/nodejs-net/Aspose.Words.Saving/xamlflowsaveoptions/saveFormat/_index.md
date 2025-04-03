@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XamlFlowSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/saveFormat/
 ---
 
 ## XamlFlowSaveOptions.saveFormat property

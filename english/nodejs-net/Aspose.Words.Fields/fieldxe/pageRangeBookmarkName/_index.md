@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldXE.pageRangeBookmarkName property. Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldxe/pageRangeBookmarkName/
+url: /nodejs-net/aspose.words.fields/fieldxe/pageRangeBookmarkName/
 ---
 
 ## FieldXE.pageRangeBookmarkName property

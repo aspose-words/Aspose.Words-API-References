@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldToa class. Implements the TOA field"
 type: docs
 weight: 1050
-url: /nodejs-net/Aspose.Words.Fields/fieldtoa/
+url: /nodejs-net/aspose.words.fields/fieldtoa/
 ---
 
 ## FieldToa class

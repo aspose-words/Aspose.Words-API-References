@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.footnoteOptions property. Provides options that control numbering and positioning of footnotes in this section."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/pagesetup/footnoteOptions/
+url: /nodejs-net/aspose.words/pagesetup/footnoteOptions/
 ---
 
 ## PageSetup.footnoteOptions property

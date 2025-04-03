@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.subscript property. True if the font is formatted as subscript."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words/font/subscript/
+url: /nodejs-net/aspose.words/font/subscript/
 ---
 
 ## Font.subscript property

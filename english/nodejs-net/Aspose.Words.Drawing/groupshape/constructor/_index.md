@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GroupShape constructor. Creates a new group shape."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/groupshape/constructor/
+url: /nodejs-net/aspose.words.drawing/groupshape/constructor/
 ---
 
 ## GroupShape(doc) {#documentbase}

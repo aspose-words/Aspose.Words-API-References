@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Tables.TableCollection class. Provides typed access to a collection of [Table](../../aspose.words/table/) nodes"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Tables/tablecollection/
+url: /nodejs-net/aspose.words.tables/tablecollection/
 ---
 
 ## TableCollection class

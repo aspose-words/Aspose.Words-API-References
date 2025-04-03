@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.imageData property. Returns image data of the picture bullet shape for the current list level."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Lists/listlevel/imageData/
+url: /nodejs-net/aspose.words.lists/listlevel/imageData/
 ---
 
 ## ListLevel.imageData property

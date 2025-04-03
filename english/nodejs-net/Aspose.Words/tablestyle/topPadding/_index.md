@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableStyle.topPadding property. Gets or sets the amount of space (in points) to add above the contents of table cells."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/tablestyle/topPadding/
+url: /nodejs-net/aspose.words/tablestyle/topPadding/
 ---
 
 ## TableStyle.topPadding property

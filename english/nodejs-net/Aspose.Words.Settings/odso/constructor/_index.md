@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Odso constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/odso/constructor/
+url: /nodejs-net/aspose.words.settings/odso/constructor/
 ---
 
 ## Odso() {#default}

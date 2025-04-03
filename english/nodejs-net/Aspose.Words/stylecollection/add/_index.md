@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StyleCollection.add method. Creates a new user defined style and adds it the collection."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/stylecollection/add/
+url: /nodejs-net/aspose.words/stylecollection/add/
 ---
 
 ## add(type, name) {#styletype_string}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.allowNegativeIndent property. Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/allowNegativeIndent/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/allowNegativeIndent/
 ---
 
 ## HtmlSaveOptions.allowNegativeIndent property

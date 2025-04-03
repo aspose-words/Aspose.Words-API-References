@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.spellingChecked property. Returns ``true`` if the document has been checked for spelling."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/document/spellingChecked/
+url: /nodejs-net/aspose.words/document/spellingChecked/
 ---
 
 ## Document.spellingChecked property

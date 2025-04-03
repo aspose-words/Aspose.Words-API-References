@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IStructuredDocumentTag.level property. Gets the level at which this SDT occurs in the document tree."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/level/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/level/
 ---
 
 ## IStructuredDocumentTag.level property

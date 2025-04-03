@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.resourceFolderAlias property. Specifies the name of the folder used to construct URIs of all resources written into an HTML document"
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/resourceFolderAlias/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/resourceFolderAlias/
 ---
 
 ## HtmlSaveOptions.resourceFolderAlias property

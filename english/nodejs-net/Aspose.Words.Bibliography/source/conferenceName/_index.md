@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.conferenceName property. Gets or sets the conference or proceedings name of a source."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Bibliography/source/conferenceName/
+url: /nodejs-net/aspose.words.bibliography/source/conferenceName/
 ---
 
 ## Source.conferenceName property

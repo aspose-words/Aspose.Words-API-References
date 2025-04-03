@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableStyle.allowBreakAcrossPages property. Gets or sets a flag indicating whether text in a table row is allowed to split across a page break."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/tablestyle/allowBreakAcrossPages/
+url: /nodejs-net/aspose.words/tablestyle/allowBreakAcrossPages/
 ---
 
 ## TableStyle.allowBreakAcrossPages property

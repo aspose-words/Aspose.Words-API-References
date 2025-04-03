@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.AI.CheckGrammarOptions class. Allows to specify various options while checking grammar of a document using AI."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/
+url: /nodejs-net/aspose.words.ai/checkgrammaroptions/
 ---
 
 ## CheckGrammarOptions class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asSmartTag method. Cast node to [SmartTag](../../../aspose.words.markup/smarttag/)."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/node/asSmartTag/
+url: /nodejs-net/aspose.words/node/asSmartTag/
 ---
 
 ## asSmartTag() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPart.dataChecksum property. Specifies a cyclic redundancy check (CRC) checksum of the [CustomXmlPart.data](../data/) content."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/customxmlpart/dataChecksum/
+url: /nodejs-net/aspose.words.markup/customxmlpart/dataChecksum/
 ---
 
 ## CustomXmlPart.dataChecksum property

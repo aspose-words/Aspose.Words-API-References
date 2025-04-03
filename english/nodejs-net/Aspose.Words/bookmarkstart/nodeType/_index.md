@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkStart.nodeType property. Returns [NodeType.BookmarkStart](../../nodetype/#BookmarkStart)."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/bookmarkstart/nodeType/
+url: /nodejs-net/aspose.words/bookmarkstart/nodeType/
 ---
 
 ## BookmarkStart.nodeType property

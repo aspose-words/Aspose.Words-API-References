@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.RevisionColor enumeration. Allows to specify color of document revisions."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Layout/revisioncolor/
+url: /nodejs-net/aspose.words.layout/revisioncolor/
 ---
 
 ## RevisionColor enumeration

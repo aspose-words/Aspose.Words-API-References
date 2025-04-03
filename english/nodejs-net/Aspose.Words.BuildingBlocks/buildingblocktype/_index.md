@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.BuildingBlocks.BuildingBlockType enumeration. Specifies a building block type"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.BuildingBlocks/buildingblocktype/
+url: /nodejs-net/aspose.words.buildingblocks/buildingblocktype/
 ---
 
 ## BuildingBlockType enumeration

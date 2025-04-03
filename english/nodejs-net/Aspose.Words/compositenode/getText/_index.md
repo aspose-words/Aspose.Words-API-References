@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getText method. Gets the text of this node and of all its children."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/compositenode/getText/
+url: /nodejs-net/aspose.words/compositenode/getText/
 ---
 
 ## getText() {#default}
@@ -26,18 +26,6 @@ The returned string includes all control and special characters as described in 
 
 
 ### Examples
-
-Shows the difference between calling the GetText and ToString methods on a node.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-builder.insertField("MERGEFIELD Field");
-// GetText will retrieve the visible text as well as field codes and special characters.
-expect(doc.getText().trim()).toEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015");
-// ToString will give us the document's appearance if saved to a passed save format.
-expect(doc.toString(aw.SaveFormat.Text).trim()).toEqual("«Field»");
-```
 
 Shows how to output all paragraphs in a document that are list items.
 
@@ -65,6 +53,18 @@ for (let node of nodes.filter(p => p.asParagraph().listFormat.isListItem))
   console.log(`This paragraph belongs to list ID# ${para.listFormat.list.listId}, number style \"${para.listFormat.listLevel.numberStyle}\"`);
   console.log(`\t\"${para.getText().trim()}\"`);
 }
+```
+
+Shows the difference between calling the GetText and ToString methods on a node.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.insertField("MERGEFIELD Field");
+// GetText will retrieve the visible text as well as field codes and special characters.
+expect(doc.getText().trim()).toEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015");
+// ToString will give us the document's appearance if saved to a passed save format.
+expect(doc.toString(aw.SaveFormat.Text).trim()).toEqual("«Field»");
 ```
 
 ### See Also

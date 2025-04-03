@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.openHyperlinksInNewWindow property. Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/openHyperlinksInNewWindow/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/openHyperlinksInNewWindow/
 ---
 
 ## PdfSaveOptions.openHyperlinksInNewWindow property

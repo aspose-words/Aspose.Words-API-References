@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TaskPane.webExtension property. Represents an web extension object."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpane/webExtension/
+url: /nodejs-net/aspose.words.webextensions/taskpane/webExtension/
 ---
 
 ## TaskPane.webExtension property

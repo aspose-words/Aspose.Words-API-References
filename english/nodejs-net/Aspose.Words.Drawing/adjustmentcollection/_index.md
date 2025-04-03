@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.AdjustmentCollection class. Represents a read-only collection of [Adjustment](../adjustment/) adjust values that are applied to the specified shape."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/adjustmentcollection/
+url: /nodejs-net/aspose.words.drawing/adjustmentcollection/
 ---
 
 ## AdjustmentCollection class

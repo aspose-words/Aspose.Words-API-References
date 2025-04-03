@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.PlainTextDocument constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/plaintextdocument/constructor/
+url: /nodejs-net/aspose.words/plaintextdocument/constructor/
 ---
 
 ## PlainTextDocument(fileName) {#string}

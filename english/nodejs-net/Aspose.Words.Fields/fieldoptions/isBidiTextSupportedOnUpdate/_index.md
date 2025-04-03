@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.isBidiTextSupportedOnUpdate property. Gets or sets the value indicating whether bidirectional text is fully supported during field update or not."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/isBidiTextSupportedOnUpdate/
+url: /nodejs-net/aspose.words.fields/fieldoptions/isBidiTextSupportedOnUpdate/
 ---
 
 ## FieldOptions.isBidiTextSupportedOnUpdate property

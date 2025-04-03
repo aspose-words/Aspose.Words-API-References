@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.updateActualReferenceMarks method. Updates the [Footnote.actualReferenceMark](../../../aspose.words.notes/footnote/actualReferenceMark/) property of all footnotes and endnotes in the document."
 type: docs
 weight: 750
-url: /nodejs-net/Aspose.Words/document/updateActualReferenceMarks/
+url: /nodejs-net/aspose.words/document/updateActualReferenceMarks/
 ---
 
 ## updateActualReferenceMarks() {#default}

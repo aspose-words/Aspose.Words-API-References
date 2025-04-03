@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.XmlMapping class. Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Markup/xmlmapping/
+url: /nodejs-net/aspose.words.markup/xmlmapping/
 ---
 
 ## XmlMapping class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asSection method. Cast node to [Section](../../section/)."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/node/asSection/
+url: /nodejs-net/aspose.words/node/asSection/
 ---
 
 ## asSection() {#default}

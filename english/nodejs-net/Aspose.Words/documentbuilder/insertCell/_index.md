@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertCell method. Inserts a table cell into the document."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/documentbuilder/insertCell/
+url: /nodejs-net/aspose.words/documentbuilder/insertCell/
 ---
 
 ## insertCell() {#default}

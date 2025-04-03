@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SignatureLineOptions.email property. Gets or sets suggested signer's e-mail address"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/signaturelineoptions/email/
+url: /nodejs-net/aspose.words/signaturelineoptions/email/
 ---
 
 ## SignatureLineOptions.email property

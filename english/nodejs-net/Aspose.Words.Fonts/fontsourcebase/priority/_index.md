@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSourceBase.priority property. Returns the font source priority."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/fontsourcebase/priority/
+url: /nodejs-net/aspose.words.fonts/fontsourcebase/priority/
 ---
 
 ## FontSourceBase.priority property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.statusText property. Returns or sets the text that's displayed in the status bar when a form field has the focus."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Fields/formfield/statusText/
+url: /nodejs-net/aspose.words.fields/formfield/statusText/
 ---
 
 ## FormField.statusText property

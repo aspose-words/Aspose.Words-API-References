@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldIfComparisonResult enumeration. Specifies the result of the IF field condition evaluation."
 type: docs
 weight: 540
-url: /nodejs-net/Aspose.Words.Fields/fieldifcomparisonresult/
+url: /nodejs-net/aspose.words.fields/fieldifcomparisonresult/
 ---
 
 ## FieldIfComparisonResult enumeration

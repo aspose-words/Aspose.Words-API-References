@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.TableContentAlignment enumeration. Allows to specify the alignment of the content of the table to be used when exporting into Markdown format."
 type: docs
 weight: 820
-url: /nodejs-net/Aspose.Words.Saving/tablecontentalignment/
+url: /nodejs-net/aspose.words.saving/tablecontentalignment/
 ---
 
 ## TableContentAlignment enumeration

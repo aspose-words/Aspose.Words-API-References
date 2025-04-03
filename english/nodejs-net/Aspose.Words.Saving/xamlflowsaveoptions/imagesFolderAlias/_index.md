@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XamlFlowSaveOptions.imagesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an XAML document"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/imagesFolderAlias/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/imagesFolderAlias/
 ---
 
 ## XamlFlowSaveOptions.imagesFolderAlias property

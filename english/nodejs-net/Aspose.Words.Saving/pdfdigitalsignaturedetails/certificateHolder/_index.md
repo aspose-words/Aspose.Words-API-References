@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfDigitalSignatureDetails.certificateHolder property. Returns the certificate holder object that contains the certificate was used to sign the document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/certificateHolder/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/certificateHolder/
 ---
 
 ## PdfDigitalSignatureDetails.certificateHolder property

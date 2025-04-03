@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Theme constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/theme/constructor/
+url: /nodejs-net/aspose.words/theme/constructor/
 ---
 
 ## Theme() {#default}

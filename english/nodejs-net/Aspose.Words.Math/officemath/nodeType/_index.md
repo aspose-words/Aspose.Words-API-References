@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OfficeMath.nodeType property. Returns [NodeType.OfficeMath](../../../aspose.words/nodetype/#OfficeMath)."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Math/officemath/nodeType/
+url: /nodejs-net/aspose.words.math/officemath/nodeType/
 ---
 
 ## OfficeMath.nodeType property

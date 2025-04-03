@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertStructuredDocumentTag method. Inserts a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) into the document."
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words/documentbuilder/insertStructuredDocumentTag/
+url: /nodejs-net/aspose.words/documentbuilder/insertStructuredDocumentTag/
 ---
 
 ## insertStructuredDocumentTag(type) {#sdttype}

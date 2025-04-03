@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.movedToTextEffect property. Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.Moving](../../../aspose.words/revisiontype/#Moving)"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/movedToTextEffect/
+url: /nodejs-net/aspose.words.layout/revisionoptions/movedToTextEffect/
 ---
 
 ## RevisionOptions.movedToTextEffect property

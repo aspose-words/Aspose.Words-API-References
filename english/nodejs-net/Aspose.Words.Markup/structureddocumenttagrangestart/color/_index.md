@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.color property. Gets or sets the color of the structured document tag."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/color/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
 
 ## StructuredDocumentTagRangeStart.color property

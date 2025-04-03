@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DropDownItemCollection.removeAt method. Removes a value at the specified index."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/removeAt/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

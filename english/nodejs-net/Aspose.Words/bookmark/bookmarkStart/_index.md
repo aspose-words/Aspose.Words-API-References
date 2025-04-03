@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Bookmark.bookmarkStart property. Gets the node that represents the start of the bookmark."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/bookmark/bookmarkStart/
+url: /nodejs-net/aspose.words/bookmark/bookmarkStart/
 ---
 
 ## Bookmark.bookmarkStart property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.measurementUnit property. Allows to specify the measurement units for revision comments"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/measurementUnit/
+url: /nodejs-net/aspose.words.layout/revisionoptions/measurementUnit/
 ---
 
 ## RevisionOptions.measurementUnit property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.fontSettings property. Allows to specify document font settings."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/fontSettings/
+url: /nodejs-net/aspose.words.loading/loadoptions/fontSettings/
 ---
 
 ## LoadOptions.fontSettings property

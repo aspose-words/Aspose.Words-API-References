@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.replies property. Returns a collection of [Comment](../) objects that are immediate children of the specified comment."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/comment/replies/
+url: /nodejs-net/aspose.words/comment/replies/
 ---
 
 ## Comment.replies property

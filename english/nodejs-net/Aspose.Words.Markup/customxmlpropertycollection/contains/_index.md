@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPropertyCollection.contains method. Determines whether the collection contains a property with the given name."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/customxmlpropertycollection/contains/
+url: /nodejs-net/aspose.words.markup/customxmlpropertycollection/contains/
 ---
 
 ## contains(name) {#string}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOptions.updateFields property. Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/updateFields/
+url: /nodejs-net/aspose.words.saving/saveoptions/updateFields/
 ---
 
 ## SaveOptions.updateFields property

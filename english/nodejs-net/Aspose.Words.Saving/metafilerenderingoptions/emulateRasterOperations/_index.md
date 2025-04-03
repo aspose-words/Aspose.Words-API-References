@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MetafileRenderingOptions.emulateRasterOperations property. Gets or sets a value determining whether or not the raster operations should be emulated."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/metafilerenderingoptions/emulateRasterOperations/
+url: /nodejs-net/aspose.words.saving/metafilerenderingoptions/emulateRasterOperations/
 ---
 
 ## MetafileRenderingOptions.emulateRasterOperations property

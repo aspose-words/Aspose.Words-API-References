@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.chart property. Provides access to the chart properties if this shape has a [Chart](../../chart/)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/shape/chart/
+url: /nodejs-net/aspose.words.drawing/shape/chart/
 ---
 
 ## Shape.chart property

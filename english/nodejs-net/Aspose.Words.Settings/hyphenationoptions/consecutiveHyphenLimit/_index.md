@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HyphenationOptions.consecutiveHyphenLimit property. Gets or sets the maximum number of consecutive lines that can end with hyphens"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/hyphenationoptions/consecutiveHyphenLimit/
+url: /nodejs-net/aspose.words.settings/hyphenationoptions/consecutiveHyphenLimit/
 ---
 
 ## HyphenationOptions.consecutiveHyphenLimit property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.endRow method. Ends a table row in the document."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/documentbuilder/endRow/
+url: /nodejs-net/aspose.words/documentbuilder/endRow/
 ---
 
 ## endRow() {#default}
@@ -34,40 +34,6 @@ The row node that was just finished.
 
 
 ### Examples
-
-Shows how to merge table cells vertically.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert a cell into the first column of the first row.
-// This cell will be the first in a range of vertically merged cells.
-builder.insertCell();
-builder.cellFormat.verticalMerge = aw.Tables.CellMerge.First;
-builder.write("Text in merged cells.");
-
-// Insert a cell into the second column of the first row, then end the row.
-// Also, configure the builder to disable vertical merging in created cells.
-builder.insertCell();
-builder.cellFormat.verticalMerge = aw.Tables.CellMerge.None;
-builder.write("Text in unmerged cell.");
-builder.endRow();
-
-// Insert a cell into the first column of the second row. 
-// Instead of adding text contents, we will merge this cell with the first cell that we added directly above.
-builder.insertCell();
-builder.cellFormat.verticalMerge = aw.Tables.CellMerge.Previous;
-
-// Insert another independent cell in the second column of the second row.
-builder.insertCell();
-builder.cellFormat.verticalMerge = aw.Tables.CellMerge.None;
-builder.write("Text in unmerged cell.");
-builder.endRow();
-builder.endTable();
-
-doc.save(base.artifactsDir + "CellFormat.verticalMerge.docx");
-```
 
 Shows how to build a table with custom borders.
 
@@ -169,6 +135,40 @@ expect(table.rows.at(1).cells.at(0).cellFormat.orientation).toEqual(aw.TextOrien
 expect(table.rows.at(1).cells.at(1).cellFormat.orientation).toEqual(aw.TextOrientation.Downward);
 
 doc.save(base.artifactsDir + "DocumentBuilder.BuildTable.docx");
+```
+
+Shows how to merge table cells vertically.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert a cell into the first column of the first row.
+// This cell will be the first in a range of vertically merged cells.
+builder.insertCell();
+builder.cellFormat.verticalMerge = aw.Tables.CellMerge.First;
+builder.write("Text in merged cells.");
+
+// Insert a cell into the second column of the first row, then end the row.
+// Also, configure the builder to disable vertical merging in created cells.
+builder.insertCell();
+builder.cellFormat.verticalMerge = aw.Tables.CellMerge.None;
+builder.write("Text in unmerged cell.");
+builder.endRow();
+
+// Insert a cell into the first column of the second row. 
+// Instead of adding text contents, we will merge this cell with the first cell that we added directly above.
+builder.insertCell();
+builder.cellFormat.verticalMerge = aw.Tables.CellMerge.Previous;
+
+// Insert another independent cell in the second column of the second row.
+builder.insertCell();
+builder.cellFormat.verticalMerge = aw.Tables.CellMerge.None;
+builder.write("Text in unmerged cell.");
+builder.endRow();
+builder.endTable();
+
+doc.save(base.artifactsDir + "CellFormat.verticalMerge.docx");
 ```
 
 ### See Also

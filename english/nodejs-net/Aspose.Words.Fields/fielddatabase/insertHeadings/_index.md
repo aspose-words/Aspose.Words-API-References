@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDatabase.insertHeadings property. Gets or sets whether to insert the field names from the database as column headings in the resulting table."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fielddatabase/insertHeadings/
+url: /nodejs-net/aspose.words.fields/fielddatabase/insertHeadings/
 ---
 
 ## FieldDatabase.insertHeadings property

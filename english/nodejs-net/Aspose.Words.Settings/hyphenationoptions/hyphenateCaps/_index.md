@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HyphenationOptions.hyphenateCaps property. Gets or sets value determining whether words written in all capital letters are hyphenated"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/hyphenationoptions/hyphenateCaps/
+url: /nodejs-net/aspose.words.settings/hyphenationoptions/hyphenateCaps/
 ---
 
 ## HyphenationOptions.hyphenateCaps property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConditionalStyleCollection.firstColumn property. Gets the first column style."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/firstColumn/
+url: /nodejs-net/aspose.words/conditionalstylecollection/firstColumn/
 ---
 
 ## ConditionalStyleCollection.firstColumn property

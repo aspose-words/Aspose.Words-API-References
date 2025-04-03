@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.lastSavedBy property. Gets or sets the name of the last author."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/lastSavedBy/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/lastSavedBy/
 ---
 
 ## BuiltInDocumentProperties.lastSavedBy property

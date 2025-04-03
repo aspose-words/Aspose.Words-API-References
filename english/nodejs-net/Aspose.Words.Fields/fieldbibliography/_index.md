@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldBibliography class. Implements the BIBLIOGRAPHY field"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Fields/fieldbibliography/
+url: /nodejs-net/aspose.words.fields/fieldbibliography/
 ---
 
 ## FieldBibliography class

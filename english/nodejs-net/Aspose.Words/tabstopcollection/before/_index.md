@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TabStopCollection.before method. Gets a first tab stop to the left of the specified position."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/tabstopcollection/before/
+url: /nodejs-net/aspose.words/tabstopcollection/before/
 ---
 
 ## before(position) {#number}

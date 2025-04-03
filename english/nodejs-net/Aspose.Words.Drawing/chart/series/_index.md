@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.series property. Provides access to series collection."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing/chart/series/
+url: /nodejs-net/aspose.words.drawing/chart/series/
 ---
 
 ## Chart.series property

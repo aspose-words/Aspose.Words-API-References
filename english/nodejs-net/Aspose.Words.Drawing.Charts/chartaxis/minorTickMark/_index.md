@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.minorTickMark property. Returns or sets the minor tick marks for the axis."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/minorTickMark/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/minorTickMark/
 ---
 
 ## ChartAxis.minorTickMark property

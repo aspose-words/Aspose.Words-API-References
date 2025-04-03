@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.title property. Provides access to the chart title properties."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing/chart/title/
+url: /nodejs-net/aspose.words.drawing/chart/title/
 ---
 
 ## Chart.title property

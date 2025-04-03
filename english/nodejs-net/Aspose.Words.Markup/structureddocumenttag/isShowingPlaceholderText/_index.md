@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.isShowingPlaceholderText property. Specifies whether the content of this SDT shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT)."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/isShowingPlaceholderText/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/isShowingPlaceholderText/
 ---
 
 ## StructuredDocumentTag.isShowingPlaceholderText property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.PageBorderDistanceFrom enumeration. Specifies the positioning of the page border relative to the page margin."
 type: docs
 weight: 950
-url: /nodejs-net/Aspose.Words/pageborderdistancefrom/
+url: /nodejs-net/aspose.words/pageborderdistancefrom/
 ---
 
 ## PageBorderDistanceFrom enumeration

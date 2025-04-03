@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.canHaveImage property. Returns ``true`` if the shape type allows the shape to have an image."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/canHaveImage/
+url: /nodejs-net/aspose.words.drawing/shapebase/canHaveImage/
 ---
 
 ## ShapeBase.canHaveImage property

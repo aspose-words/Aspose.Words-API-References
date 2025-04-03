@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitGlossaryDocumentEnd method. Called when enumeration of a glossary document has ended."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/documentvisitor/visitGlossaryDocumentEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitGlossaryDocumentEnd/
 ---
 
 ## visitGlossaryDocumentEnd(glossary) {#glossarydocument}

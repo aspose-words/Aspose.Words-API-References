@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "List.isMultiLevel property. Returns ``true`` when the list contains 9 levels; ``false`` when 1 level."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/list/isMultiLevel/
+url: /nodejs-net/aspose.words/list/isMultiLevel/
 ---
 
 ## List.isMultiLevel property

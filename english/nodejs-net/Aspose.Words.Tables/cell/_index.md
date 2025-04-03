@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Tables.Cell class. Represents a table cell"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Tables/cell/
+url: /nodejs-net/aspose.words.tables/cell/
 ---
 
 ## Cell class

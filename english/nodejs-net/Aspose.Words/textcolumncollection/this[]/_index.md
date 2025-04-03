@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextColumnCollection.this[] property. "
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/textcolumncollection/this[]/
+url: /nodejs-net/aspose.words/textcolumncollection/this[]/
 ---
 
 ## TextColumnCollection.this[] property

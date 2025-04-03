@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ArrowWidth enumeration. Width of the arrow at the end of a line."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/arrowwidth/
+url: /nodejs-net/aspose.words.drawing/arrowwidth/
 ---
 
 ## ArrowWidth enumeration

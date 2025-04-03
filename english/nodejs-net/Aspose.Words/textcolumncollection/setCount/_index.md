@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextColumnCollection.setCount method. Arranges text into the specified number of text columns."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/textcolumncollection/setCount/
+url: /nodejs-net/aspose.words/textcolumncollection/setCount/
 ---
 
 ## setCount(newCount) {#number}

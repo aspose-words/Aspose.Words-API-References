@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.EndCap enumeration. Specifies line cap style."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing/endcap/
+url: /nodejs-net/aspose.words.drawing/endcap/
 ---
 
 ## EndCap enumeration

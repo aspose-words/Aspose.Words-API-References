@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitShapeEnd method. Called when enumeration of a shape has ended."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/documentvisitor/visitShapeEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitShapeEnd/
 ---
 
 ## visitShapeEnd(shape) {#shape}

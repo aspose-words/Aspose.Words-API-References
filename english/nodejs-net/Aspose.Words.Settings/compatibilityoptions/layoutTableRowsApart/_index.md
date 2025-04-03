@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.layoutTableRowsApart property. Allow Table Rows to Wrap Inline Objects Independently."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/layoutTableRowsApart/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/layoutTableRowsApart/
 ---
 
 ## CompatibilityOptions.layoutTableRowsApart property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.convertShapeToOfficeMath property. Gets or sets whether to convert shapes with EquationXML to Office Math objects."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/convertShapeToOfficeMath/
+url: /nodejs-net/aspose.words.loading/loadoptions/convertShapeToOfficeMath/
 ---
 
 ## LoadOptions.convertShapeToOfficeMath property

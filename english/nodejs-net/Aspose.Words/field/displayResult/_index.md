@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.displayResult property. Gets the text that represents the displayed field result."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/field/displayResult/
+url: /nodejs-net/aspose.words/field/displayResult/
 ---
 
 ## Field.displayResult property

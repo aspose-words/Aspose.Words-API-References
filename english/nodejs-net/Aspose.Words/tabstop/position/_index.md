@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TabStop.position property. Gets the position of the tab stop in points."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/tabstop/position/
+url: /nodejs-net/aspose.words/tabstop/position/
 ---
 
 ## TabStop.position property

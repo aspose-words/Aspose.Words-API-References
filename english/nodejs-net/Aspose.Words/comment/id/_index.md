@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.id property. Gets or sets the comment identifier."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/comment/id/
+url: /nodejs-net/aspose.words/comment/id/
 ---
 
 ## Comment.id property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "List.listLevels property. Gets the collection of list levels for this list."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/list/listLevels/
+url: /nodejs-net/aspose.words/list/listLevels/
 ---
 
 ## List.listLevels property

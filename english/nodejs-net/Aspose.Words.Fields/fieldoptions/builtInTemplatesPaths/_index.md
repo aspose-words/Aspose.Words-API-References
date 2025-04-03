@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.builtInTemplatesPaths property. Gets or sets paths of MS Word built-in templates."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/builtInTemplatesPaths/
+url: /nodejs-net/aspose.words.fields/fieldoptions/builtInTemplatesPaths/
 ---
 
 ## FieldOptions.builtInTemplatesPaths property

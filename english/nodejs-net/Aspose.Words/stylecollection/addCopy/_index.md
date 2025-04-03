@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StyleCollection.addCopy method. Copies a style into this collection."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/stylecollection/addCopy/
+url: /nodejs-net/aspose.words/stylecollection/addCopy/
 ---
 
 ## addCopy(style) {#style}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.WebExtensions.WebExtensionBindingType enumeration. Enumerates available types of binding between a web extension and the data in the document."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbindingtype/
+url: /nodejs-net/aspose.words.webextensions/webextensionbindingtype/
 ---
 
 ## WebExtensionBindingType enumeration

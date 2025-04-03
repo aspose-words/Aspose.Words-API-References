@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.cropBottom property. Defines the fraction of picture removal from the bottom side."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/cropBottom/
+url: /nodejs-net/aspose.words.drawing/imagedata/cropBottom/
 ---
 
 ## ImageData.cropBottom property

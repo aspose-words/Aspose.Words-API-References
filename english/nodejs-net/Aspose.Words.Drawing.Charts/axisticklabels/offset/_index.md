@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisTickLabels.offset property. Gets or sets the distance of the tick labels from the axis."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabels/offset/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabels/offset/
 ---
 
 ## AxisTickLabels.offset property

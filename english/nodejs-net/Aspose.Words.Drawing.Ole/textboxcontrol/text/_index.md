@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextBoxControl.text property. Gets or sets a text of the control."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Ole/textboxcontrol/text/
+url: /nodejs-net/aspose.words.drawing.ole/textboxcontrol/text/
 ---
 
 ## TextBoxControl.text property

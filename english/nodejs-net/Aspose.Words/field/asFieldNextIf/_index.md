@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldNextIf method. "
 type: docs
 weight: 690
-url: /nodejs-net/Aspose.Words/field/asFieldNextIf/
+url: /nodejs-net/aspose.words/field/asFieldNextIf/
 ---
 
 ## asFieldNextIf() {#default}

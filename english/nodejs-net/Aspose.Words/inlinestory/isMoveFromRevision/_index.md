@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "InlineStory.isMoveFromRevision property. Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/inlinestory/isMoveFromRevision/
+url: /nodejs-net/aspose.words/inlinestory/isMoveFromRevision/
 ---
 
 ## InlineStory.isMoveFromRevision property

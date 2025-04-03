@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.encoding property. Specifies the encoding to use when exporting to HTML, MHTML or EPUB"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/encoding/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
 
 ## HtmlSaveOptions.encoding property

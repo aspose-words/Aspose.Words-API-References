@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.ComparisonEvaluationResult class. The comparison evaluation result"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/comparisonevaluationresult/
+url: /nodejs-net/aspose.words.fields/comparisonevaluationresult/
 ---
 
 ## ComparisonEvaluationResult class

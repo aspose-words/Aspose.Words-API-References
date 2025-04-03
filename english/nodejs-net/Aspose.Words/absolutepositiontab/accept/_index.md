@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AbsolutePositionTab.accept method. Accepts a visitor."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/absolutepositiontab/accept/
+url: /nodejs-net/aspose.words/absolutepositiontab/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

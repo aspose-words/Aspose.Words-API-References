@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.WebExtensions.WebExtensionPropertyCollection class. Specifies a set of web extension custom properties"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionpropertycollection/
+url: /nodejs-net/aspose.words.webextensions/webextensionpropertycollection/
 ---
 
 ## WebExtensionPropertyCollection class

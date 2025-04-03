@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldEQ class. Implements the EQ field"
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Fields/fieldeq/
+url: /nodejs-net/aspose.words.fields/fieldeq/
 ---
 
 ## FieldEQ class

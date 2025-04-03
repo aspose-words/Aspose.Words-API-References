@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSavingArgs.currentShape property. Gets the [ShapeBase](../../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/imagesavingargs/currentShape/
+url: /nodejs-net/aspose.words.saving/imagesavingargs/currentShape/
 ---
 
 ## ImageSavingArgs.currentShape property

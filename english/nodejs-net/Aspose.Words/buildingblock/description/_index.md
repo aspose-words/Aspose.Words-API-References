@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.description property. Gets or sets the description associated with this building block."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/buildingblock/description/
+url: /nodejs-net/aspose.words/buildingblock/description/
 ---
 
 ## BuildingBlock.description property

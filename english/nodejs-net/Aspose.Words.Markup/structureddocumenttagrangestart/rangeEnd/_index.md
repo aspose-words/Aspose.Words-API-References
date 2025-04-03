@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.rangeEnd property. Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/rangeEnd/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/rangeEnd/
 ---
 
 ## StructuredDocumentTagRangeStart.rangeEnd property

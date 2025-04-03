@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Notes.FootnoteType enumeration. Specifies whether this is a footnote or an endnote."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Notes/footnotetype/
+url: /nodejs-net/aspose.words.notes/footnotetype/
 ---
 
 ## FootnoteType enumeration

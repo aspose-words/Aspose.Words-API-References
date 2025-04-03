@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.useInvariantCultureNumberFormat property. Gets or sets the value indicating that number format is parsed using invariant culture or not"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/useInvariantCultureNumberFormat/
+url: /nodejs-net/aspose.words.fields/fieldoptions/useInvariantCultureNumberFormat/
 ---
 
 ## FieldOptions.useInvariantCultureNumberFormat property

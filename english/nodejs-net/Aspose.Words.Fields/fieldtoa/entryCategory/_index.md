@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToa.entryCategory property. Gets or sets the integral category for entries included in the table."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldtoa/entryCategory/
+url: /nodejs-net/aspose.words.fields/fieldtoa/entryCategory/
 ---
 
 ## FieldToa.entryCategory property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XmlMapping.prefixMappings property. Returns XML namespace prefix mappings to evaluate the [XmlMapping.xpath](../xpath/)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/xmlmapping/prefixMappings/
+url: /nodejs-net/aspose.words.markup/xmlmapping/prefixMappings/
 ---
 
 ## XmlMapping.prefixMappings property

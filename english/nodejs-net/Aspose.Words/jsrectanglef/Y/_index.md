@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSRectangleF.Y property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/jsrectanglef/Y/
+url: /nodejs-net/aspose.words/jsrectanglef/Y/
 ---
 
 ## JSRectangleF.Y property

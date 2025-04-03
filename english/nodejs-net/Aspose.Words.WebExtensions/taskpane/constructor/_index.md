@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TaskPane constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpane/constructor/
+url: /nodejs-net/aspose.words.webextensions/taskpane/constructor/
 ---
 
 ## TaskPane() {#default}

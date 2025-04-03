@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertHorizontalRule method. Inserts a horizontal rule shape into the document."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/documentbuilder/insertHorizontalRule/
+url: /nodejs-net/aspose.words/documentbuilder/insertHorizontalRule/
 ---
 
 ## insertHorizontalRule() {#default}

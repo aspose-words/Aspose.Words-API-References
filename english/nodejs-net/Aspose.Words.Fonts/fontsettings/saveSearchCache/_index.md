@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSettings.saveSearchCache method. Saves the font search cache to the stream."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/saveSearchCache/
+url: /nodejs-net/aspose.words.fonts/fontsettings/saveSearchCache/
 ---
 
 ## saveSearchCache(outputStream) {#buffer}

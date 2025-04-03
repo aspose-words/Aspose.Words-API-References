@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Footnote.storyType property. Returns [StoryType.Footnotes](../../../aspose.words/storytype/#Footnotes) or [StoryType.Endnotes](../../../aspose.words/storytype/#Endnotes)."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Notes/footnote/storyType/
+url: /nodejs-net/aspose.words.notes/footnote/storyType/
 ---
 
 ## Footnote.storyType property

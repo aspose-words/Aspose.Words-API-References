@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Chart class. Provides access to the chart shape properties"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/chart/
+url: /nodejs-net/aspose.words.drawing/chart/
 ---
 
 ## Chart class

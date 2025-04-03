@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionCollection.acceptAll method. Accepts all revisions in this collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/revisioncollection/acceptAll/
+url: /nodejs-net/aspose.words/revisioncollection/acceptAll/
 ---
 
 ## acceptAll() {#default}

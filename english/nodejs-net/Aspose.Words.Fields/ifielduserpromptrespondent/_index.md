@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.IFieldUserPromptRespondent class. Represents the respondent to user prompts during field update."
 type: docs
 weight: 1260
-url: /nodejs-net/Aspose.Words.Fields/ifielduserpromptrespondent/
+url: /nodejs-net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 
 ## IFieldUserPromptRespondent class

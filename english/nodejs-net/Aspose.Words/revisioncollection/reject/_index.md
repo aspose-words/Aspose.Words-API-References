@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionCollection.reject method. Rejects revisions that match specified criteria."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/revisioncollection/reject/
+url: /nodejs-net/aspose.words/revisioncollection/reject/
 ---
 
 ## reject(criteria) {#irevisioncriteria}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIncludeText.xpath property. Gets or sets XPath for the desired portion of the XML file."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fieldincludetext/xpath/
+url: /nodejs-net/aspose.words.fields/fieldincludetext/xpath/
 ---
 
 ## FieldIncludeText.xpath property

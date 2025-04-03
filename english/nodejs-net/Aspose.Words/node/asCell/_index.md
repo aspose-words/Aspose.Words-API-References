@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asCell method. Cast node to [Cell](../../../aspose.words.tables/cell/)."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/node/asCell/
+url: /nodejs-net/aspose.words/node/asCell/
 ---
 
 ## asCell() {#default}

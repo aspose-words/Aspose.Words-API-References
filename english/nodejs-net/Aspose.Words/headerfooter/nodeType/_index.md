@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooter.nodeType property. Returns [NodeType.HeaderFooter](../../nodetype/#HeaderFooter)."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/headerfooter/nodeType/
+url: /nodejs-net/aspose.words/headerfooter/nodeType/
 ---
 
 ## HeaderFooter.nodeType property

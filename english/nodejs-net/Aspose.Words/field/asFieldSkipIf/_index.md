@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldSkipIf method. "
 type: docs
 weight: 900
-url: /nodejs-net/Aspose.Words/field/asFieldSkipIf/
+url: /nodejs-net/aspose.words/field/asFieldSkipIf/
 ---
 
 ## asFieldSkipIf() {#default}

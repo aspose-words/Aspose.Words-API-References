@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Contributor.asCorporate method. Casts contributor to [Corporate](../../corporate/), otherwise returns null."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Bibliography/contributor/asCorporate/
+url: /nodejs-net/aspose.words.bibliography/contributor/asCorporate/
 ---
 
 ## asCorporate() {#default}

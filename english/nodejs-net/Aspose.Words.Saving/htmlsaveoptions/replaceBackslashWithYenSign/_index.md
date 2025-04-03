@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.replaceBackslashWithYenSign property. Specifies whether backslash characters should be replaced with yen signs"
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/replaceBackslashWithYenSign/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/replaceBackslashWithYenSign/
 ---
 
 ## HtmlSaveOptions.replaceBackslashWithYenSign property

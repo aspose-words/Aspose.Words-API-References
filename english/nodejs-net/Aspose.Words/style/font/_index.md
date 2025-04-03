@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.font property. Gets the character formatting of the style."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/style/font/
+url: /nodejs-net/aspose.words/style/font/
 ---
 
 ## Style.font property

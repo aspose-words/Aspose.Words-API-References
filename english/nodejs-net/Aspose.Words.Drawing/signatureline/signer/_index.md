@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SignatureLine.signer property. Gets or sets suggested signer of the signature line"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/signatureline/signer/
+url: /nodejs-net/aspose.words.drawing/signatureline/signer/
 ---
 
 ## SignatureLine.signer property

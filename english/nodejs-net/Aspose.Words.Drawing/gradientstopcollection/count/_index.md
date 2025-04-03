@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GradientStopCollection.count property. Gets an integer value indicating the number of items in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/gradientstopcollection/count/
+url: /nodejs-net/aspose.words.drawing/gradientstopcollection/count/
 ---
 
 ## GradientStopCollection.count property

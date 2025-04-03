@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextColumnCollection.lineBetween property. When ``true``, adds a vertical line between columns."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/textcolumncollection/lineBetween/
+url: /nodejs-net/aspose.words/textcolumncollection/lineBetween/
 ---
 
 ## TextColumnCollection.lineBetween property

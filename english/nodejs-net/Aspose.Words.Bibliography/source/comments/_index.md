@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.comments property. Gets or sets the comments of a source."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Bibliography/source/comments/
+url: /nodejs-net/aspose.words.bibliography/source/comments/
 ---
 
 ## Source.comments property

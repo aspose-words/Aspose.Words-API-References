@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MetafileRenderingOptions.useGdiRasterOperationsEmulation property. Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Saving/metafilerenderingoptions/useGdiRasterOperationsEmulation/
+url: /nodejs-net/aspose.words.saving/metafilerenderingoptions/useGdiRasterOperationsEmulation/
 ---
 
 ## MetafileRenderingOptions.useGdiRasterOperationsEmulation property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartMultilevelValue class. Represents a value for charts that display multilevel data."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartmultilevelvalue/
+url: /nodejs-net/aspose.words.drawing.charts/chartmultilevelvalue/
 ---
 
 ## ChartMultilevelValue class

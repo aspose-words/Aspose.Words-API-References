@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.deletedTextEffect property. Allows to specify the effect to be applied to the deleted content [RevisionType.Deletion](../../../aspose.words/revisiontype/#Deletion)"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/deletedTextEffect/
+url: /nodejs-net/aspose.words.layout/revisionoptions/deletedTextEffect/
 ---
 
 ## RevisionOptions.deletedTextEffect property

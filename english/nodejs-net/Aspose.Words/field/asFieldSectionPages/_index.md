@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldSectionPages method. "
 type: docs
 weight: 860
-url: /nodejs-net/Aspose.Words/field/asFieldSectionPages/
+url: /nodejs-net/aspose.words/field/asFieldSectionPages/
 ---
 
 ## asFieldSectionPages() {#default}

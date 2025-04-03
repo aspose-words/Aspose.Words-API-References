@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitFieldStart method. Called when a field starts in the document."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/documentvisitor/visitFieldStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitFieldStart/
 ---
 
 ## visitFieldStart(fieldStart) {#fieldstart}

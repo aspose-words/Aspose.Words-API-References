@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentProperty.isLinkToContent property. Shows whether this property is linked to content or not."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/isLinkToContent/
+url: /nodejs-net/aspose.words.properties/documentproperty/isLinkToContent/
 ---
 
 ## DocumentProperty.isLinkToContent property

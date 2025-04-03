@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.doNotUseEastAsianBreakRules property. Do Not Compress Compressible Characters When Using Document Grid."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotUseEastAsianBreakRules/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotUseEastAsianBreakRules/
 ---
 
 ## CompatibilityOptions.doNotUseEastAsianBreakRules property

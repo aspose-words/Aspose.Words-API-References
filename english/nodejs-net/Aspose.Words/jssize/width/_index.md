@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSSize.width property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/jssize/width/
+url: /nodejs-net/aspose.words/jssize/width/
 ---
 
 ## JSSize.width property

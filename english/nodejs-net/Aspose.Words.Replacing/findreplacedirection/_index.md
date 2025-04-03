@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Replacing.FindReplaceDirection enumeration. Specifies direction for replace operations."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Replacing/findreplacedirection/
+url: /nodejs-net/aspose.words.replacing/findreplacedirection/
 ---
 
 ## FindReplaceDirection enumeration

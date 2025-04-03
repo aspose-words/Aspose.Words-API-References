@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.CustomXmlSchemaCollection class. A collection of strings that represent XML schemas that are associated with a custom XML part"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/customxmlschemacollection/
+url: /nodejs-net/aspose.words.markup/customxmlschemacollection/
 ---
 
 ## CustomXmlSchemaCollection class

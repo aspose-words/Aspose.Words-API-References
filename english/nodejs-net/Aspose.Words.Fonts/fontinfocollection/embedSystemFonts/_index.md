@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfoCollection.embedSystemFonts property. Specifies whether or not to embed System fonts into the document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontinfocollection/embedSystemFonts/
+url: /nodejs-net/aspose.words.fonts/fontinfocollection/embedSystemFonts/
 ---
 
 ## FontInfoCollection.embedSystemFonts property

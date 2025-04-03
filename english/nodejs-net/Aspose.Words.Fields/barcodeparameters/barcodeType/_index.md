@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BarcodeParameters.barcodeType property. Bar code type."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/barcodeType/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/barcodeType/
 ---
 
 ## BarcodeParameters.barcodeType property

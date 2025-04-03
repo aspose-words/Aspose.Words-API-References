@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisDisplayUnit.document property. Returns the document containing the parent chart."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisdisplayunit/document/
+url: /nodejs-net/aspose.words.drawing.charts/axisdisplayunit/document/
 ---
 
 ## AxisDisplayUnit.document property

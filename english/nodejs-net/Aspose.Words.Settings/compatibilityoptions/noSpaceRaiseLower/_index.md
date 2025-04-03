@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.noSpaceRaiseLower property. Do Not Increase Line Height for Raised/Lowered Text."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/noSpaceRaiseLower/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/noSpaceRaiseLower/
 ---
 
 ## CompatibilityOptions.noSpaceRaiseLower property

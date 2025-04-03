@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.type property. Returns the form field type."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Fields/formfield/type/
+url: /nodejs-net/aspose.words.fields/formfield/type/
 ---
 
 ## FormField.type property

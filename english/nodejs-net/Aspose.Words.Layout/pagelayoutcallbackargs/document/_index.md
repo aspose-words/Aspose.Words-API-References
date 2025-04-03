@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageLayoutCallbackArgs.document property. Gets document."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Layout/pagelayoutcallbackargs/document/
+url: /nodejs-net/aspose.words.layout/pagelayoutcallbackargs/document/
 ---
 
 ## PageLayoutCallbackArgs.document property

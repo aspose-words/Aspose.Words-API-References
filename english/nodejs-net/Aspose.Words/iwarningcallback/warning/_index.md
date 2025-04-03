@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IWarningCallback.warning method. Aspose.Words invokes this method when it encounters some issue during document loading  or saving that might result in loss of formatting or data fidelity."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/iwarningcallback/warning/
+url: /nodejs-net/aspose.words/iwarningcallback/warning/
 ---
 
 ## warning(info) {#warninginfo}

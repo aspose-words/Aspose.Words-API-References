@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentProperty.name property. Returns the name of the property."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/name/
+url: /nodejs-net/aspose.words.properties/documentproperty/name/
 ---
 
 ## DocumentProperty.name property

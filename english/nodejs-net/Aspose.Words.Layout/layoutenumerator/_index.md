@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.LayoutEnumerator class. Enumerates page layout entities of a document."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/
 ---
 
 ## LayoutEnumerator class

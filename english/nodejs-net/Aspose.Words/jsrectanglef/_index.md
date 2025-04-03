@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.JSRectangleF class. "
 type: docs
 weight: 710
-url: /nodejs-net/Aspose.Words/jsrectanglef/
+url: /nodejs-net/aspose.words/jsrectanglef/
 ---
 
 ## JSRectangleF class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.downsampleOptions property. Allows to specify downsample options."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/downsampleOptions/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/downsampleOptions/
 ---
 
 ## PdfSaveOptions.downsampleOptions property

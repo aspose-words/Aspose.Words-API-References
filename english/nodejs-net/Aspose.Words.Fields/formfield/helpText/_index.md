@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.helpText property. Returns or sets the text that's displayed in a message box when the form field has the focus and the user presses F1."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/formfield/helpText/
+url: /nodejs-net/aspose.words.fields/formfield/helpText/
 ---
 
 ## FormField.helpText property

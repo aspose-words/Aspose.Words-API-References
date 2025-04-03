@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeRenderer constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Rendering/shaperenderer/constructor/
+url: /nodejs-net/aspose.words.rendering/shaperenderer/constructor/
 ---
 
 ## ShapeRenderer(shape) {#shapebase}

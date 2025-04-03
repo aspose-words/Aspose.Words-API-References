@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldHyperlink.openInNewWindow property. Gets or sets whether to open the destination site in a new web browser window."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldhyperlink/openInNewWindow/
+url: /nodejs-net/aspose.words.fields/fieldhyperlink/openInNewWindow/
 ---
 
 ## FieldHyperlink.openInNewWindow property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartSeriesCollection.add method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriescollection/add/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 
 ## add(seriesName, categories, values) {#string_string[]_number[]}

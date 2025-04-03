@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Node class. Base class for all nodes of a Word document"
 type: docs
 weight: 830
-url: /nodejs-net/Aspose.Words/node/
+url: /nodejs-net/aspose.words/node/
 ---
 
 ## Node class

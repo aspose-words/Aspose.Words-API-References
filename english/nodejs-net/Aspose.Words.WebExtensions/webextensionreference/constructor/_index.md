@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionReference constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreference/constructor/
+url: /nodejs-net/aspose.words.webextensions/webextensionreference/constructor/
 ---
 
 ## WebExtensionReference() {#default}

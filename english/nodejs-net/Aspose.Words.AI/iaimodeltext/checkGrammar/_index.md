@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IAiModelText.checkGrammar method. Checks grammar of the provided document"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.AI/iaimodeltext/checkGrammar/
+url: /nodejs-net/aspose.words.ai/iaimodeltext/checkGrammar/
 ---
 
 ## checkGrammar(sourceDocument, options) {#document_checkgrammaroptions}

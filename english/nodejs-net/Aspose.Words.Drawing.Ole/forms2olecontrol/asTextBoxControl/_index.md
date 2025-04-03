@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Forms2OleControl.asTextBoxControl method. Casts Forms2OleControl to [TextBoxControl](../../textboxcontrol/), otherwise returns null."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/asTextBoxControl/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/asTextBoxControl/
 ---
 
 ## asTextBoxControl() {#default}

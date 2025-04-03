@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.FixedPageSaveOptions class. Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc)"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/
+url: /nodejs-net/aspose.words.saving/fixedpagesaveoptions/
 ---
 
 ## FixedPageSaveOptions class

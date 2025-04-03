@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldHyperlink.address property. Gets or sets a location where this hyperlink jumps."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldhyperlink/address/
+url: /nodejs-net/aspose.words.fields/fieldhyperlink/address/
 ---
 
 ## FieldHyperlink.address property

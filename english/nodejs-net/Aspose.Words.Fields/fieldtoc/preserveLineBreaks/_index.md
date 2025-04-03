@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.preserveLineBreaks property. Gets or sets whether to preserve newline characters within table entries."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/preserveLineBreaks/
+url: /nodejs-net/aspose.words.fields/fieldtoc/preserveLineBreaks/
 ---
 
 ## FieldToc.preserveLineBreaks property

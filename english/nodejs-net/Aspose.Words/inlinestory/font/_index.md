@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "InlineStory.font property. Provides access to the font formatting of the anchor character of this object."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/inlinestory/font/
+url: /nodejs-net/aspose.words/inlinestory/font/
 ---
 
 ## InlineStory.font property

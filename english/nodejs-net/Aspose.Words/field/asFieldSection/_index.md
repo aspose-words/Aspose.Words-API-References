@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldSection method. "
 type: docs
 weight: 850
-url: /nodejs-net/Aspose.Words/field/asFieldSection/
+url: /nodejs-net/aspose.words/field/asFieldSection/
 ---
 
 ## asFieldSection() {#default}

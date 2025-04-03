@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.fieldUpdateCultureSource property. Specifies what culture to use to format the field result."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/fieldUpdateCultureSource/
+url: /nodejs-net/aspose.words.fields/fieldoptions/fieldUpdateCultureSource/
 ---
 
 ## FieldOptions.fieldUpdateCultureSource property

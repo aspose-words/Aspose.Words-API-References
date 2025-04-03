@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Inline.isFormatRevision property. Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/inline/isFormatRevision/
+url: /nodejs-net/aspose.words/inline/isFormatRevision/
 ---
 
 ## Inline.isFormatRevision property

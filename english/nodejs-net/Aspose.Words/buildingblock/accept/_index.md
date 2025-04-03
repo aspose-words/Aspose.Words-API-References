@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.accept method. Accepts a visitor."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/buildingblock/accept/
+url: /nodejs-net/aspose.words/buildingblock/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

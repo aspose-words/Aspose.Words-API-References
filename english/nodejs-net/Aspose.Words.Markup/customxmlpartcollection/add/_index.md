@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.CustomXmlPartCollection.add method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/customxmlpartcollection/add/
+url: /nodejs-net/aspose.words.markup/customxmlpartcollection/add/
 ---
 
 ## add(part) {#customxmlpart}

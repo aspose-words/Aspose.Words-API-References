@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ReflectionFormat.transparency property. Gets or sets a double value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency for the reflection effect"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/reflectionformat/transparency/
+url: /nodejs-net/aspose.words.drawing/reflectionformat/transparency/
 ---
 
 ## ReflectionFormat.transparency property

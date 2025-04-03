@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.EmbeddedFontFormat enumeration. Specifies format of particular embedded font inside [FontInfo](../fontinfo/) object."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/embeddedfontformat/
+url: /nodejs-net/aspose.words.fonts/embeddedfontformat/
 ---
 
 ## EmbeddedFontFormat enumeration

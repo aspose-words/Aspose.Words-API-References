@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.pageMode property. Specifies how the PDF document should be displayed when opened in a PDF reader."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/pageMode/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/pageMode/
 ---
 
 ## PdfSaveOptions.pageMode property

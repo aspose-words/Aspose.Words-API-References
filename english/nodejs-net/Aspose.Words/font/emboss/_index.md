@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.emboss property. True if the font is formatted as embossed."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/font/emboss/
+url: /nodejs-net/aspose.words/font/emboss/
 ---
 
 ## Font.emboss property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Forms2OleControl.backColor property. Gets or sets a background color of the control"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/backColor/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/backColor/
 ---
 
 ## Forms2OleControl.backColor property

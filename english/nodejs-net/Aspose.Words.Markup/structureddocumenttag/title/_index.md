@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.title property. Specifies the friendly name associated with this SDT"
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/title/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/title/
 ---
 
 ## StructuredDocumentTag.title property

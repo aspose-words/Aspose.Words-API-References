@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.spaceBeforeAuto property. True if the amount of spacing before the paragraph is set automatically."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/paragraphformat/spaceBeforeAuto/
+url: /nodejs-net/aspose.words/paragraphformat/spaceBeforeAuto/
 ---
 
 ## ParagraphFormat.spaceBeforeAuto property

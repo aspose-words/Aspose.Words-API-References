@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator constructor. Initializes new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/constructor/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/constructor/
 ---
 
 ## LayoutEnumerator(document) {#document}

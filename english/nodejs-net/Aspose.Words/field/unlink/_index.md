@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.unlink method. Performs the field unlink."
 type: docs
 weight: 1080
-url: /nodejs-net/Aspose.Words/field/unlink/
+url: /nodejs-net/aspose.words/field/unlink/
 ---
 
 ## unlink() {#default}

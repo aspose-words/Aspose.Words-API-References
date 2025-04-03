@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SvgSaveOptions.fitToViewPort property. Specifies if the output SVG should fill the available viewport area (browser window or container)"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/fitToViewPort/
+url: /nodejs-net/aspose.words.saving/svgsaveoptions/fitToViewPort/
 ---
 
 ## SvgSaveOptions.fitToViewPort property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldMergeBarcode method. "
 type: docs
 weight: 640
-url: /nodejs-net/Aspose.Words/field/asFieldMergeBarcode/
+url: /nodejs-net/aspose.words/field/asFieldMergeBarcode/
 ---
 
 ## asFieldMergeBarcode() {#default}

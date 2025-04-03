@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.journalName property. Gets or sets the journal name of a source."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Bibliography/source/journalName/
+url: /nodejs-net/aspose.words.bibliography/source/journalName/
 ---
 
 ## Source.journalName property

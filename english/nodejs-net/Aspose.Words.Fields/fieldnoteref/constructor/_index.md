@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldNoteRef constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldnoteref/constructor/
+url: /nodejs-net/aspose.words.fields/fieldnoteref/constructor/
 ---
 
 ## FieldNoteRef() {#default}

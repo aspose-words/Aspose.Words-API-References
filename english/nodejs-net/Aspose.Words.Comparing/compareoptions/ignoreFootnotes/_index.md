@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompareOptions.ignoreFootnotes property. Specifies whether to compare differences in footnotes and endnotes."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/ignoreFootnotes/
+url: /nodejs-net/aspose.words.comparing/compareoptions/ignoreFootnotes/
 ---
 
 ## CompareOptions.ignoreFootnotes property

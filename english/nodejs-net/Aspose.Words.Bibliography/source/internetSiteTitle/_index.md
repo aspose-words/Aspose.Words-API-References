@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.internetSiteTitle property. Gets or sets the internet site title of a source."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Bibliography/source/internetSiteTitle/
+url: /nodejs-net/aspose.words.bibliography/source/internetSiteTitle/
 ---
 
 ## Source.internetSiteTitle property

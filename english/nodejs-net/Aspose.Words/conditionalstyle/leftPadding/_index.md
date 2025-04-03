@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConditionalStyle.leftPadding property. Gets or sets the amount of space (in points) to add to the left of the contents of table cells."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/conditionalstyle/leftPadding/
+url: /nodejs-net/aspose.words/conditionalstyle/leftPadding/
 ---
 
 ## ConditionalStyle.leftPadding property

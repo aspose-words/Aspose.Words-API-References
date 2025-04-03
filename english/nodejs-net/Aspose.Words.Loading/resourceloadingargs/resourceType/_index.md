@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ResourceLoadingArgs.resourceType property. Type of resource."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Loading/resourceloadingargs/resourceType/
+url: /nodejs-net/aspose.words.loading/resourceloadingargs/resourceType/
 ---
 
 ## ResourceLoadingArgs.resourceType property

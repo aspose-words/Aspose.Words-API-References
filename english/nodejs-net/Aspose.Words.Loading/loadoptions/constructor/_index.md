@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.LoadOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/constructor/
+url: /nodejs-net/aspose.words.loading/loadoptions/constructor/
 ---
 
 ## LoadOptions() {#default}

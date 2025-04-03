@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldSymbol method. "
 type: docs
 weight: 930
-url: /nodejs-net/Aspose.Words/field/asFieldSymbol/
+url: /nodejs-net/aspose.words/field/asFieldSymbol/
 ---
 
 ## asFieldSymbol() {#default}

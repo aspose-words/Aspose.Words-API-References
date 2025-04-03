@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "NodeList.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/nodelist/this[]/
+url: /nodejs-net/aspose.words/nodelist/this[]/
 ---
 
 ## NodeList.this[] property

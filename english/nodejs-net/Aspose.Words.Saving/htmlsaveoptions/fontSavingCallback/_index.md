@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.fontSavingCallback property. Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/fontSavingCallback/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/fontSavingCallback/
 ---
 
 ## HtmlSaveOptions.fontSavingCallback property

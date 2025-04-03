@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.fullDate property. Specifies the full date and time last entered into this SDT."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/fullDate/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/fullDate/
 ---
 
 ## StructuredDocumentTag.fullDate property

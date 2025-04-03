@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.fileName property. Gets or sets the file name of the document."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/fileName/
+url: /nodejs-net/aspose.words.fields/fieldoptions/fileName/
 ---
 
 ## FieldOptions.fileName property

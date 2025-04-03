@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CheckGrammarOptions.preserveFormatting property. Allows to specify either [IAiModelText.checkGrammar()](../../iaimodeltext/checkGrammar/#document_checkgrammaroptions) will try to preserve layout and formatting of the original document, or not"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/preserveFormatting/
+url: /nodejs-net/aspose.words.ai/checkgrammaroptions/preserveFormatting/
 ---
 
 ## CheckGrammarOptions.preserveFormatting property

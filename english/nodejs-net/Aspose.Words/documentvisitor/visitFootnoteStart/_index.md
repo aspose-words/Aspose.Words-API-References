@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitFootnoteStart method. Called when enumeration of a footnote or endnote text has started."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words/documentvisitor/visitFootnoteStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitFootnoteStart/
 ---
 
 ## visitFootnoteStart(footnote) {#footnote}

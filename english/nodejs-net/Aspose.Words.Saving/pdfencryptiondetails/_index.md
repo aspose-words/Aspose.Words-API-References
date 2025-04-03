@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfEncryptionDetails class. Contains details for encrypting and access permissions for a PDF document"
 type: docs
 weight: 650
-url: /nodejs-net/Aspose.Words.Saving/pdfencryptiondetails/
+url: /nodejs-net/aspose.words.saving/pdfencryptiondetails/
 ---
 
 ## PdfEncryptionDetails class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Comment constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/comment/constructor/
+url: /nodejs-net/aspose.words/comment/constructor/
 ---
 
 ## Comment(doc) {#documentbase}

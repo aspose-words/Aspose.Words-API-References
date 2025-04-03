@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.InlineStory class. Base class for inline-level nodes that can contain paragraphs and tables"
 type: docs
 weight: 650
-url: /nodejs-net/Aspose.Words/inlinestory/
+url: /nodejs-net/aspose.words/inlinestory/
 ---
 
 ## InlineStory class

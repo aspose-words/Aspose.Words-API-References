@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.legend property. Provides access to the chart legend properties."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/chart/legend/
+url: /nodejs-net/aspose.words.drawing/chart/legend/
 ---
 
 ## Chart.legend property

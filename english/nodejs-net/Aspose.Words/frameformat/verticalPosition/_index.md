@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FrameFormat.verticalPosition property. Gets vertical distance between the edge of the frame and the item specified by the [FrameFormat.relativeVerticalPosition](../relativeVerticalPosition/) property."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/frameformat/verticalPosition/
+url: /nodejs-net/aspose.words/frameformat/verticalPosition/
 ---
 
 ## FrameFormat.verticalPosition property

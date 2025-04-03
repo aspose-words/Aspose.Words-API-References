@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CellFormat.setPaddings method. Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Tables/cellformat/setPaddings/
+url: /nodejs-net/aspose.words.tables/cellformat/setPaddings/
 ---
 
 ## setPaddings(leftPadding, topPadding, rightPadding, bottomPadding) {#number_number_number_number}

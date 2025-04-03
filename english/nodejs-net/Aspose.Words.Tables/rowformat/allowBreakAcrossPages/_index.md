@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RowFormat.allowBreakAcrossPages property. True if the text in a table row is allowed to split across a page break."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Tables/rowformat/allowBreakAcrossPages/
+url: /nodejs-net/aspose.words.tables/rowformat/allowBreakAcrossPages/
 ---
 
 ## RowFormat.allowBreakAcrossPages property

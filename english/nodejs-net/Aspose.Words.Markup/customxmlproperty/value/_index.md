@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlProperty.value property. Gets or sets the value of the custom XML attribute or smart tag property."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/customxmlproperty/value/
+url: /nodejs-net/aspose.words.markup/customxmlproperty/value/
 ---
 
 ## CustomXmlProperty.value property

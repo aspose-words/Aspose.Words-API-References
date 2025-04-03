@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldFileName.includeFullPath property. Gets or sets whether to include the full file path name."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldfilename/includeFullPath/
+url: /nodejs-net/aspose.words.fields/fieldfilename/includeFullPath/
 ---
 
 ## FieldFileName.includeFullPath property

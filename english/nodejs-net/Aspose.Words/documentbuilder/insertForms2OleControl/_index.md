@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertForms2OleControl method. Inserts [Forms2OleControl](../../../aspose.words.drawing.ole/forms2olecontrol/) object into current position."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/documentbuilder/insertForms2OleControl/
+url: /nodejs-net/aspose.words/documentbuilder/insertForms2OleControl/
 ---
 
 ## insertForms2OleControl(forms2OleControl) {#forms2olecontrol}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldStart.accept method. Accepts a visitor."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldstart/accept/
+url: /nodejs-net/aspose.words.fields/fieldstart/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

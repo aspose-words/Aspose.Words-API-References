@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/buildingblock/constructor/
+url: /nodejs-net/aspose.words/buildingblock/constructor/
 ---
 
 ## BuildingBlock(glossaryDoc) {#glossarydocument}

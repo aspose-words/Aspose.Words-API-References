@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.SaveOptions.createSaveOptions method"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/createSaveOptions/
+url: /nodejs-net/aspose.words.saving/saveoptions/createSaveOptions/
 ---
 
 ## createSaveOptions(saveFormat) {#saveformat}

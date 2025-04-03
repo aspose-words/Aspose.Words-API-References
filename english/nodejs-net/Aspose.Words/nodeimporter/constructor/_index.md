@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.NodeImporter constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/nodeimporter/constructor/
+url: /nodejs-net/aspose.words/nodeimporter/constructor/
 ---
 
 ## NodeImporter(srcDoc, dstDoc, importFormatMode) {#documentbase_documentbase_importformatmode}

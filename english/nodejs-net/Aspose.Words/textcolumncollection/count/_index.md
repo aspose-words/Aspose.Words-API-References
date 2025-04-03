@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextColumnCollection.count property. Gets the number of columns in the section of a document."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/textcolumncollection/count/
+url: /nodejs-net/aspose.words/textcolumncollection/count/
 ---
 
 ## TextColumnCollection.count property

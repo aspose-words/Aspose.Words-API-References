@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.moveNext method. Moves to the next sibling entity in visual order."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/moveNext/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/moveNext/
 ---
 
 ## moveNext() {#default}

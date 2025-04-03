@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocSaveOptions.savePictureBullet property. When ``false``, PictureBullet data is not saved to output document"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/docsaveoptions/savePictureBullet/
+url: /nodejs-net/aspose.words.saving/docsaveoptions/savePictureBullet/
 ---
 
 ## DocSaveOptions.savePictureBullet property

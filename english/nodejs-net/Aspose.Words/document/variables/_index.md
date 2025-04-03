@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.variables property. Returns the collection of variables added to a document or template."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words/document/variables/
+url: /nodejs-net/aspose.words/document/variables/
 ---
 
 ## Document.variables property

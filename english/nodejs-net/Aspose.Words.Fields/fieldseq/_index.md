@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldSeq class. Implements the SEQ field"
 type: docs
 weight: 920
-url: /nodejs-net/Aspose.Words.Fields/fieldseq/
+url: /nodejs-net/aspose.words.fields/fieldseq/
 ---
 
 ## FieldSeq class

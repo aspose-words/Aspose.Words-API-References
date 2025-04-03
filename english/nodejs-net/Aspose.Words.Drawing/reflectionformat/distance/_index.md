@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ReflectionFormat.distance property. Gets or sets a double value that specifies the amount of separation of the reflected image from the object in points"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/reflectionformat/distance/
+url: /nodejs-net/aspose.words.drawing/reflectionformat/distance/
 ---
 
 ## ReflectionFormat.distance property

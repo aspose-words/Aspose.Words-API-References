@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeriesGroupCollection.removeAt method. Removes a series group at the specified index"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroupcollection/removeAt/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroupcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitRowEnd method. Called when enumeration of a table row has ended."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/documentvisitor/visitRowEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitRowEnd/
 ---
 
 ## visitRowEnd(row) {#row}

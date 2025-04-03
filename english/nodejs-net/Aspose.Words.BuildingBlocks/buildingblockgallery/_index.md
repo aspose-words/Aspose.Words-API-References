@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.BuildingBlocks.BuildingBlockGallery enumeration. Specifies the predefined gallery into which a building block is classified."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.BuildingBlocks/buildingblockgallery/
+url: /nodejs-net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 
 ## BuildingBlockGallery enumeration

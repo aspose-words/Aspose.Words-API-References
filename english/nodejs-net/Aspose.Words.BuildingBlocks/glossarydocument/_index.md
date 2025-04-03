@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.BuildingBlocks.GlossaryDocument class. Represents the root element for a glossary document within a Word document"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/
+url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/
 ---
 
 ## GlossaryDocument class

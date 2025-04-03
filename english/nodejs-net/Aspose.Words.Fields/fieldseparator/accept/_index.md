@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSeparator.accept method. Accepts a visitor."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldseparator/accept/
+url: /nodejs-net/aspose.words.fields/fieldseparator/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

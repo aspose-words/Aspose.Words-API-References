@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.scaleImageToShapeSize property. Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB"
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/scaleImageToShapeSize/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/scaleImageToShapeSize/
 ---
 
 ## HtmlSaveOptions.scaleImageToShapeSize property

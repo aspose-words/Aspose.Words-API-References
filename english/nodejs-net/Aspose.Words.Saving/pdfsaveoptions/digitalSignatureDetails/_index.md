@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.digitalSignatureDetails property. Gets or sets the details for signing the output PDF document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/digitalSignatureDetails/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/digitalSignatureDetails/
 ---
 
 ## PdfSaveOptions.digitalSignatureDetails property

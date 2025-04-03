@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.updateListLabels method. Updates list labels for all list items in the document."
 type: docs
 weight: 770
-url: /nodejs-net/Aspose.Words/document/updateListLabels/
+url: /nodejs-net/aspose.words/document/updateListLabels/
 ---
 
 ## updateListLabels() {#default}

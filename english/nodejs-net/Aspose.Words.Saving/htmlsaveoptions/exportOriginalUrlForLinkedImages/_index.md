@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportOriginalUrlForLinkedImages property. Specifies whether original URL should be used as the URL of the linked images"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportOriginalUrlForLinkedImages/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportOriginalUrlForLinkedImages/
 ---
 
 ## HtmlSaveOptions.exportOriginalUrlForLinkedImages property

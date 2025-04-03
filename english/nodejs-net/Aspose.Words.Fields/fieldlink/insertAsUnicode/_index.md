@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldLink.insertAsUnicode property. Gets or sets whether to insert the linked object as Unicode text."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fieldlink/insertAsUnicode/
+url: /nodejs-net/aspose.words.fields/fieldlink/insertAsUnicode/
 ---
 
 ## FieldLink.insertAsUnicode property

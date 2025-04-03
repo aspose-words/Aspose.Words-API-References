@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GlowFormat.color property. Gets or sets a aspose.pydrawing.Color object that represents the color for a glow effect"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/glowformat/color/
+url: /nodejs-net/aspose.words.drawing/glowformat/color/
 ---
 
 ## GlowFormat.color property

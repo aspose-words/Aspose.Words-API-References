@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Footnote.acceptEnd method. Accepts a visitor for visiting the end of the footnote."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Notes/footnote/acceptEnd/
+url: /nodejs-net/aspose.words.notes/footnote/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

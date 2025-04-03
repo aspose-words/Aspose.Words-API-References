@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TabStop class. Represents a single custom tab stop"
 type: docs
 weight: 1320
-url: /nodejs-net/Aspose.Words/tabstop/
+url: /nodejs-net/aspose.words/tabstop/
 ---
 
 ## TabStop class

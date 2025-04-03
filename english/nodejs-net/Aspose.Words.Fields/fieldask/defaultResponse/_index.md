@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAsk.defaultResponse property. Gets or sets default user response (initial value contained in the prompt window)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldask/defaultResponse/
+url: /nodejs-net/aspose.words.fields/fieldask/defaultResponse/
 ---
 
 ## FieldAsk.defaultResponse property

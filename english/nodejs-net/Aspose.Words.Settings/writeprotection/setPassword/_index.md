@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WriteProtection.setPassword method. Sets the write protection password for the document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/writeprotection/setPassword/
+url: /nodejs-net/aspose.words.settings/writeprotection/setPassword/
 ---
 
 ## setPassword(password) {#string}

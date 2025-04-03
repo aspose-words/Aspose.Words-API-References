@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkEnd.accept method. Accepts a visitor."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/bookmarkend/accept/
+url: /nodejs-net/aspose.words/bookmarkend/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.issue property. Gets or sets the issue of a source."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Bibliography/source/issue/
+url: /nodejs-net/aspose.words.bibliography/source/issue/
 ---
 
 ## Source.issue property

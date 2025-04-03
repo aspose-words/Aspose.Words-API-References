@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.spaceBefore property. Gets or sets the amount of spacing (in points) before the paragraph."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/paragraphformat/spaceBefore/
+url: /nodejs-net/aspose.words/paragraphformat/spaceBefore/
 ---
 
 ## ParagraphFormat.spaceBefore property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FrameFormat.height property. Gets the height of the specified frame."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/frameformat/height/
+url: /nodejs-net/aspose.words/frameformat/height/
 ---
 
 ## FrameFormat.height property

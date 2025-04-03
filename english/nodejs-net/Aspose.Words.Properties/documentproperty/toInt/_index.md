@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentProperty.toInt method. Returns the property value as integer."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/toInt/
+url: /nodejs-net/aspose.words.properties/documentproperty/toInt/
 ---
 
 ## toInt() {#default}

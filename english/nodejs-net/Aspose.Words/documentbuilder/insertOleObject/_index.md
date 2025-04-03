@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertOleObject method"
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/documentbuilder/insertOleObject/
+url: /nodejs-net/aspose.words/documentbuilder/insertOleObject/
 ---
 
 ## insertOleObject(stream, progId, asIcon, presentation) {#buffer_string_boolean_buffer}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.nextCell property. Gets the next [Cell](../) node."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Tables/cell/nextCell/
+url: /nodejs-net/aspose.words.tables/cell/nextCell/
 ---
 
 ## Cell.nextCell property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.moveToParagraph method. Moves the cursor to a paragraph in the current section."
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToParagraph/
+url: /nodejs-net/aspose.words/documentbuilder/moveToParagraph/
 ---
 
 ## moveToParagraph(paragraphIndex, characterIndex) {#number_number}

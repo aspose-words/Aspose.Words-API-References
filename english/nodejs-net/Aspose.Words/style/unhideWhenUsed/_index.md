@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.unhideWhenUsed property. Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/style/unhideWhenUsed/
+url: /nodejs-net/aspose.words/style/unhideWhenUsed/
 ---
 
 ## Style.unhideWhenUsed property

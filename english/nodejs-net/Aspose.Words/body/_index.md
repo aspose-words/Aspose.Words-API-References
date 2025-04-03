@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Body class. Represents a container for the main text of a section"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/body/
+url: /nodejs-net/aspose.words/body/
 ---
 
 ## Body class

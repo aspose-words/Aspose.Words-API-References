@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldTemplate class. Implements the TEMPLATE field"
 type: docs
 weight: 1020
-url: /nodejs-net/Aspose.Words.Fields/fieldtemplate/
+url: /nodejs-net/aspose.words.fields/fieldtemplate/
 ---
 
 ## FieldTemplate class

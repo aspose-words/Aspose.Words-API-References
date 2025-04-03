@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdtSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/odtsaveoptions/saveFormat/
 ---
 
 ## OdtSaveOptions.saveFormat property

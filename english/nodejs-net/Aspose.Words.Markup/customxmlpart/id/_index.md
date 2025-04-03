@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPart.id property. Gets or sets the string that identifies this custom XML part within an OOXML document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/customxmlpart/id/
+url: /nodejs-net/aspose.words.markup/customxmlpart/id/
 ---
 
 ## CustomXmlPart.id property

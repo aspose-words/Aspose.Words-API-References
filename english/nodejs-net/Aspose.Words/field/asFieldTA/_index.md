@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldTA method. "
 type: docs
 weight: 940
-url: /nodejs-net/Aspose.Words/field/asFieldTA/
+url: /nodejs-net/aspose.words/field/asFieldTA/
 ---
 
 ## asFieldTA() {#default}

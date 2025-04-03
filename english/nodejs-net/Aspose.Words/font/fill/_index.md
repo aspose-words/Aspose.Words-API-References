@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.fill property. Gets fill formatting for the [Font](../)."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/font/fill/
+url: /nodejs-net/aspose.words/font/fill/
 ---
 
 ## Font.fill property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartLegendEntry class. Represents a chart legend entry"
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegendentry/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegendentry/
 ---
 
 ## ChartLegendEntry class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldChar.fieldType property. Returns the type of the field."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldchar/fieldType/
+url: /nodejs-net/aspose.words.fields/fieldchar/fieldType/
 ---
 
 ## FieldChar.fieldType property

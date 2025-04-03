@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.CertificateHolder class. Represents a holder of X509Certificate2 instance"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.DigitalSignatures/certificateholder/
+url: /nodejs-net/aspose.words.digitalsignatures/certificateholder/
 ---
 
 ## CertificateHolder class

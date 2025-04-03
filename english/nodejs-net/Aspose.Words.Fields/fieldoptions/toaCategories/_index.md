@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.toaCategories property. Gets or sets the table of authorities categories."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/toaCategories/
+url: /nodejs-net/aspose.words.fields/fieldoptions/toaCategories/
 ---
 
 ## FieldOptions.toaCategories property

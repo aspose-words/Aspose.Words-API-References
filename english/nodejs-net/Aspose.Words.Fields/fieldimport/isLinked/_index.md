@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldImport.isLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldimport/isLinked/
+url: /nodejs-net/aspose.words.fields/fieldimport/isLinked/
 ---
 
 ## FieldImport.isLinked property

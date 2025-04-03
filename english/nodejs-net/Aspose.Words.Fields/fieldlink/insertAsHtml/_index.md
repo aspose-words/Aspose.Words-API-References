@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldLink.insertAsHtml property. Gets or sets whether to insert the linked object as HTML format text."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldlink/insertAsHtml/
+url: /nodejs-net/aspose.words.fields/fieldlink/insertAsHtml/
 ---
 
 ## FieldLink.insertAsHtml property

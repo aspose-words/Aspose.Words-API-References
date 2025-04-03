@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.FrameFormat class. Represents frame related formatting for a paragraph."
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words/frameformat/
+url: /nodejs-net/aspose.words/frameformat/
 ---
 
 ## FrameFormat class

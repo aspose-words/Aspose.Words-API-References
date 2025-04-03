@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxisCollection.count property. Gets the number of axes in this collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxiscollection/count/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxiscollection/count/
 ---
 
 ## ChartAxisCollection.count property

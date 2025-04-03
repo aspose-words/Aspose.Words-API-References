@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OleControl.asTextBoxControl method. "
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Ole/olecontrol/asTextBoxControl/
+url: /nodejs-net/aspose.words.drawing.ole/olecontrol/asTextBoxControl/
 ---
 
 ## asTextBoxControl() {#default}

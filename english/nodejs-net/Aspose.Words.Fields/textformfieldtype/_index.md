@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.TextFormFieldType enumeration. Specifies the type of a text form field."
 type: docs
 weight: 1290
-url: /nodejs-net/Aspose.Words.Fields/textformfieldtype/
+url: /nodejs-net/aspose.words.fields/textformfieldtype/
 ---
 
 ## TextFormFieldType enumeration

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GlowFormat.radius property. Gets or sets a double value that represents the length of the radius for a glow effect in points (pt)"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/glowformat/radius/
+url: /nodejs-net/aspose.words.drawing/glowformat/radius/
 ---
 
 ## GlowFormat.radius property

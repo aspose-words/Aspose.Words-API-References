@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitOfficeMathStart method. Called when enumeration of a Office Math object has started."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/documentvisitor/visitOfficeMathStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitOfficeMathStart/
 ---
 
 ## visitOfficeMathStart(officeMath) {#officemath}

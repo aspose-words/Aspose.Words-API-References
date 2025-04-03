@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartXValue.valueType property. Gets the type of the X value stored in the object."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvalue/valueType/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/valueType/
 ---
 
 ## ChartXValue.valueType property

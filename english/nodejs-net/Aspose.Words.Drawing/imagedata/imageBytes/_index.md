@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.imageBytes property. Gets or sets the raw bytes of the image stored in the shape."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/imageBytes/
+url: /nodejs-net/aspose.words.drawing/imagedata/imageBytes/
 ---
 
 ## ImageData.imageBytes property

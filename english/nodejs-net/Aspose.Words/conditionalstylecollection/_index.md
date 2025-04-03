@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ConditionalStyleCollection class. Represents a collection of [ConditionalStyle](../conditionalstyle/) objects"
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/
+url: /nodejs-net/aspose.words/conditionalstylecollection/
 ---
 
 ## ConditionalStyleCollection class

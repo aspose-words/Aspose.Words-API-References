@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.dataType property. Specifies the type of the mail-merge data source and the method of data access"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/dataType/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/dataType/
 ---
 
 ## MailMergeSettings.dataType property

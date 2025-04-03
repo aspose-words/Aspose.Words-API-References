@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GroupShape.accept method. Accepts a visitor."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/groupshape/accept/
+url: /nodejs-net/aspose.words.drawing/groupshape/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

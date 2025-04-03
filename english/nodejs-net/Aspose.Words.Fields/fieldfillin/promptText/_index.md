@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldFillIn.promptText property. Gets or sets the prompt text (the title of the prompt window)."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldfillin/promptText/
+url: /nodejs-net/aspose.words.fields/fieldfillin/promptText/
 ---
 
 ## FieldFillIn.promptText property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldTime method. "
 type: docs
 weight: 970
-url: /nodejs-net/Aspose.Words/field/asFieldTime/
+url: /nodejs-net/aspose.words/field/asFieldTime/
 ---
 
 ## asFieldTime() {#default}

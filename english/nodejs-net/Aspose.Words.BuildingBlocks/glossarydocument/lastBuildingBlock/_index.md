@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GlossaryDocument.lastBuildingBlock property. Gets the last building block in the glossary document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/lastBuildingBlock/
+url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/lastBuildingBlock/
 ---
 
 ## GlossaryDocument.lastBuildingBlock property

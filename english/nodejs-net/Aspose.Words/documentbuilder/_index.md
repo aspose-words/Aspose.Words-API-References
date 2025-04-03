@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder class. Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/documentbuilder/
+url: /nodejs-net/aspose.words/documentbuilder/
 ---
 
 ## DocumentBuilder class

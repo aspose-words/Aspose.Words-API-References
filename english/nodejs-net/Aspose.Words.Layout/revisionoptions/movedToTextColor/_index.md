@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.movedToTextColor property. Allows to specify the color to be used for areas where content was moved to [RevisionType.Moving](../../../aspose.words/revisiontype/#Moving)"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/movedToTextColor/
+url: /nodejs-net/aspose.words.layout/revisionoptions/movedToTextColor/
 ---
 
 ## RevisionOptions.movedToTextColor property

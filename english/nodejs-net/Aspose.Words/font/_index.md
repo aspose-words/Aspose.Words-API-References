@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Font class. Contains font attributes (font name, font size, color, and so on) for an object"
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/font/
+url: /nodejs-net/aspose.words/font/
 ---
 
 ## Font class
@@ -95,21 +95,6 @@ You do not create instances of the [Font](./) class directly. You just use
 
 ### Examples
 
-Shows how to format a run of text using its font property.
-
-```js
-let doc = new aw.Document();
-let run = new aw.Run(doc, "Hello world!");
-
-let font = run.font;
-font.name = "Courier New";
-font.size = 36;
-font.highlightColor = "#FFFF00";
-
-doc.firstSection.body.firstParagraph.appendChild(run);
-doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
-```
-
 Shows how to insert a string surrounded by a border into a document.
 
 ```js
@@ -150,6 +135,21 @@ builder.paragraphFormat.style = doc.styles.at("Normal");
 builder.writeln("Hello World: Normal.");
 
 builder.document.save(base.artifactsDir + "Styles.ParagraphStyleBulletedList.docx");
+```
+
+Shows how to format a run of text using its font property.
+
+```js
+let doc = new aw.Document();
+let run = new aw.Run(doc, "Hello world!");
+
+let font = run.font;
+font.name = "Courier New";
+font.size = 36;
+font.highlightColor = "#FFFF00";
+
+doc.firstSection.body.firstParagraph.appendChild(run);
+doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also

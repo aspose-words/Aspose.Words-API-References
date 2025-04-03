@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldAutoNumOut class. Implements the AUTONUMOUT field"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Fields/fieldautonumout/
+url: /nodejs-net/aspose.words.fields/fieldautonumout/
 ---
 
 ## FieldAutoNumOut class

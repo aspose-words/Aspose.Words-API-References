@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.getText method. Gets the text of this node and of all its children."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/node/getText/
+url: /nodejs-net/aspose.words/node/getText/
 ---
 
 ## getText() {#default}
@@ -26,6 +26,28 @@ The returned string includes all control and special characters as described in 
 
 
 ### Examples
+
+Shows how to use control characters.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert paragraphs with text with DocumentBuilder.
+builder.writeln("Hello world!");
+builder.writeln("Hello again!");
+
+// Converting the document to text form reveals that control characters
+// represent some of the document's structural elements, such as page breaks.
+expect(doc.getText()).toEqual(`Hello world!${aw.ControlChar.cr}` +
+                        `Hello again!${aw.ControlChar.cr}` +
+                        aw.ControlChar.pageBreak);
+
+// When converting a document to string form,
+// we can omit some of the control characters with the Trim method.
+expect(doc.getText().trim()).toEqual(`Hello world!${aw.ControlChar.cr}` +
+                        "Hello again!");
+```
 
 Shows how to construct an Aspose.words document by hand.
 
@@ -70,28 +92,6 @@ para.appendChild(run);
 expect(doc.getText().trim()).toEqual("Hello World!");
 
 doc.save(base.artifactsDir + "Section.CreateManually.docx");
-```
-
-Shows how to use control characters.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert paragraphs with text with DocumentBuilder.
-builder.writeln("Hello world!");
-builder.writeln("Hello again!");
-
-// Converting the document to text form reveals that control characters
-// represent some of the document's structural elements, such as page breaks.
-expect(doc.getText()).toEqual(`Hello world!${aw.ControlChar.cr}` +
-                        `Hello again!${aw.ControlChar.cr}` +
-                        aw.ControlChar.pageBreak);
-
-// When converting a document to string form,
-// we can omit some of the control characters with the Trim method.
-expect(doc.getText().trim()).toEqual(`Hello world!${aw.ControlChar.cr}` +
-                        "Hello again!");
 ```
 
 ### See Also

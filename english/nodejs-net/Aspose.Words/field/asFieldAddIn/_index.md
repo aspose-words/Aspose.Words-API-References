@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldAddIn method. "
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/field/asFieldAddIn/
+url: /nodejs-net/aspose.words/field/asFieldAddIn/
 ---
 
 ## asFieldAddIn() {#default}

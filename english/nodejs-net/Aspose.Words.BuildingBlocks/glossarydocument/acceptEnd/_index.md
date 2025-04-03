@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GlossaryDocument.acceptEnd method. Accepts a visitor for visiting the end of the Glossary document."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/acceptEnd/
+url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

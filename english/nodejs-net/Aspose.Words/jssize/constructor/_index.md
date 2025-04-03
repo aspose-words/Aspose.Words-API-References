@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSSize constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/jssize/constructor/
+url: /nodejs-net/aspose.words/jssize/constructor/
 ---
 
 ## JSSize(width, height) {#number_number}

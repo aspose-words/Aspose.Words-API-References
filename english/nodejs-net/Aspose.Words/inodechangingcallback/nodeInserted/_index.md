@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "INodeChangingCallback.nodeInserted method. Called when a node belonging to this document has been inserted into another node."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/inodechangingcallback/nodeInserted/
+url: /nodejs-net/aspose.words/inodechangingcallback/nodeInserted/
 ---
 
 ## nodeInserted(args) {#nodechangingargs}

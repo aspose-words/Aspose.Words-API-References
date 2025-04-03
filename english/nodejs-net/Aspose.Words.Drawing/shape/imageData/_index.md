@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.imageData property. Provides access to the image of the shape"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing/shape/imageData/
+url: /nodejs-net/aspose.words.drawing/shape/imageData/
 ---
 
 ## Shape.imageData property

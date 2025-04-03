@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldChar.getField method. Returns a field for the field char."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldchar/getField/
+url: /nodejs-net/aspose.words.fields/fieldchar/getField/
 ---
 
 ## getField() {#default}

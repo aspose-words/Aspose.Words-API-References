@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XlsxSaveOptions.sectionMode property. Gets or sets the way how sections are handled when saving to the output XLSX document"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/xlsxsaveoptions/sectionMode/
+url: /nodejs-net/aspose.words.saving/xlsxsaveoptions/sectionMode/
 ---
 
 ## XlsxSaveOptions.sectionMode property

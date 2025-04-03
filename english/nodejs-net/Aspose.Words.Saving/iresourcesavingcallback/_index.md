@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.IResourceSavingCallback class. Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when  saving a document to fixed page HTML or SVG."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words.Saving/iresourcesavingcallback/
+url: /nodejs-net/aspose.words.saving/iresourcesavingcallback/
 ---
 
 ## IResourceSavingCallback class

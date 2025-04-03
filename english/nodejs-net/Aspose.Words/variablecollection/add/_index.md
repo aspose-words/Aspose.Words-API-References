@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VariableCollection.add method. Adds a document variable to the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/variablecollection/add/
+url: /nodejs-net/aspose.words/variablecollection/add/
 ---
 
 ## add(name, value) {#string_string}

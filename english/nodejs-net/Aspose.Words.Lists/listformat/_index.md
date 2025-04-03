@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Lists.ListFormat class. Allows to control what list formatting is applied to a paragraph"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Lists/listformat/
+url: /nodejs-net/aspose.words.lists/listformat/
 ---
 
 ## ListFormat class

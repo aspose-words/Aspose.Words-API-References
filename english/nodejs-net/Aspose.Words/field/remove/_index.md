@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.remove method. Removes the field from the document"
 type: docs
 weight: 1070
-url: /nodejs-net/Aspose.Words/field/remove/
+url: /nodejs-net/aspose.words/field/remove/
 ---
 
 ## remove() {#default}

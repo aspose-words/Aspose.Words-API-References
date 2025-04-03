@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSubstitutionSettings.fontConfigSubstitution property. Settings related to font config substitution rule."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontsubstitutionsettings/fontConfigSubstitution/
+url: /nodejs-net/aspose.words.fonts/fontsubstitutionsettings/fontConfigSubstitution/
 ---
 
 ## FontSubstitutionSettings.fontConfigSubstitution property

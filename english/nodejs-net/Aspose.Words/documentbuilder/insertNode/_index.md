@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertNode method. Inserts a node before the cursor."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/documentbuilder/insertNode/
+url: /nodejs-net/aspose.words/documentbuilder/insertNode/
 ---
 
 ## insertNode(node) {#node}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertChart method"
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/documentbuilder/insertChart/
+url: /nodejs-net/aspose.words/documentbuilder/insertChart/
 ---
 
 ## insertChart(chartType, width, height) {#charttype_number_number}

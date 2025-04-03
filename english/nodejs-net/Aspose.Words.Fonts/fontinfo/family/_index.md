@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.family property. Gets or sets the font family this font belongs to."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/family/
+url: /nodejs-net/aspose.words.fonts/fontinfo/family/
 ---
 
 ## FontInfo.family property

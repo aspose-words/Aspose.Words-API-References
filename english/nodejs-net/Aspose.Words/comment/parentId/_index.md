@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.parentId property. Gets or sets the parent comment ID"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/comment/parentId/
+url: /nodejs-net/aspose.words/comment/parentId/
 ---
 
 ## Comment.parentId property

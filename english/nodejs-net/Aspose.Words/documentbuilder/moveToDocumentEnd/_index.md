@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.moveToDocumentEnd method. Moves the cursor to the end of the document."
 type: docs
 weight: 550
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToDocumentEnd/
+url: /nodejs-net/aspose.words/documentbuilder/moveToDocumentEnd/
 ---
 
 ## moveToDocumentEnd() {#default}

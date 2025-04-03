@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.isTrueType property. Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/isTrueType/
+url: /nodejs-net/aspose.words.fonts/fontinfo/isTrueType/
 ---
 
 ## FontInfo.isTrueType property

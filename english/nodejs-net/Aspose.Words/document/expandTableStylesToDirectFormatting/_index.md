@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.expandTableStylesToDirectFormatting method. Converts formatting specified in table styles into direct formatting on tables in the document."
 type: docs
 weight: 610
-url: /nodejs-net/Aspose.Words/document/expandTableStylesToDirectFormatting/
+url: /nodejs-net/aspose.words/document/expandTableStylesToDirectFormatting/
 ---
 
 ## expandTableStylesToDirectFormatting() {#default}

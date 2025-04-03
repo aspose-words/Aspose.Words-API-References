@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Xlsx](../../aspose.words/saveformat/#Xlsx) format"
 type: docs
 weight: 920
-url: /nodejs-net/Aspose.Words.Saving/xlsxsaveoptions/
+url: /nodejs-net/aspose.words.saving/xlsxsaveoptions/
 ---
 
 ## XlsxSaveOptions class

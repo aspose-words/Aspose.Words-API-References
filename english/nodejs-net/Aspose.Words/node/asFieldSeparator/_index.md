@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asFieldSeparator method. Cast node to [FieldSeparator](../../../aspose.words.fields/fieldseparator/)."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/node/asFieldSeparator/
+url: /nodejs-net/aspose.words/node/asFieldSeparator/
 ---
 
 ## asFieldSeparator() {#default}

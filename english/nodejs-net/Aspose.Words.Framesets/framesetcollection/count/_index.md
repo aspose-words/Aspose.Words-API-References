@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FramesetCollection.count property. Gets the number of frames or frames pages contained in the collection."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Framesets/framesetcollection/count/
+url: /nodejs-net/aspose.words.framesets/framesetcollection/count/
 ---
 
 ## FramesetCollection.count property

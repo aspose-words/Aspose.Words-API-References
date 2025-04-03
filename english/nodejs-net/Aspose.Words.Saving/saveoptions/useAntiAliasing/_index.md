@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOptions.useAntiAliasing property. Gets or sets a value determining whether or not to use anti-aliasing for rendering."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/useAntiAliasing/
+url: /nodejs-net/aspose.words.saving/saveoptions/useAntiAliasing/
 ---
 
 ## SaveOptions.useAntiAliasing property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.italic property. True if the font is formatted as italic."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/documentbuilder/italic/
+url: /nodejs-net/aspose.words/documentbuilder/italic/
 ---
 
 ## DocumentBuilder.italic property

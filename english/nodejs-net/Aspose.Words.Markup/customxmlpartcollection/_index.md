@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.CustomXmlPartCollection class. Represents a collection of Custom XML Parts"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/customxmlpartcollection/
+url: /nodejs-net/aspose.words.markup/customxmlpartcollection/
 ---
 
 ## CustomXmlPartCollection class

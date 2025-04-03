@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FootnoteOptions.columns property. Specifies the number of columns with which the footnotes area is formatted."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Notes/footnoteoptions/columns/
+url: /nodejs-net/aspose.words.notes/footnoteoptions/columns/
 ---
 
 ## FootnoteOptions.columns property

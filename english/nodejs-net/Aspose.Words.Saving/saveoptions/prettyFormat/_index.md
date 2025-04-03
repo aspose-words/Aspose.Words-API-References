@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOptions.prettyFormat property. When ``true``, pretty formats output where applicable"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/prettyFormat/
+url: /nodejs-net/aspose.words.saving/saveoptions/prettyFormat/
 ---
 
 ## SaveOptions.prettyFormat property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.CustomPartCollection class. Represents a collection of [CustomPart](../custompart/) objects"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/custompartcollection/
+url: /nodejs-net/aspose.words.markup/custompartcollection/
 ---
 
 ## CustomPartCollection class

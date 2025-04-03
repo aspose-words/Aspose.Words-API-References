@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertField method"
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/documentbuilder/insertField/
+url: /nodejs-net/aspose.words/documentbuilder/insertField/
 ---
 
 ## insertField(fieldType, updateField) {#fieldtype_boolean}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Body constructor. Initializes a new instance of the [Body](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/body/constructor/
+url: /nodejs-net/aspose.words/body/constructor/
 ---
 
 ## Body(doc) {#documentbase}

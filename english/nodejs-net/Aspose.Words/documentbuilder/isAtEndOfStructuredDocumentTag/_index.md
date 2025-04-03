@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.isAtEndOfStructuredDocumentTag property. Returns true if the cursor is at the end of a structured document tag."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/documentbuilder/isAtEndOfStructuredDocumentTag/
+url: /nodejs-net/aspose.words/documentbuilder/isAtEndOfStructuredDocumentTag/
 ---
 
 ## DocumentBuilder.isAtEndOfStructuredDocumentTag property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSettings.fallbackSettings property. Settings related to font fallback mechanism."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/fallbackSettings/
+url: /nodejs-net/aspose.words.fonts/fontsettings/fallbackSettings/
 ---
 
 ## FontSettings.fallbackSettings property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDdeAuto.insertAsHtml property. Gets or sets whether to insert the linked object as HTML format text."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldddeauto/insertAsHtml/
+url: /nodejs-net/aspose.words.fields/fieldddeauto/insertAsHtml/
 ---
 
 ## FieldDdeAuto.insertAsHtml property

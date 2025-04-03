@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartNumberFormat.formatCode property. Gets or sets the format code applied to a data label."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartnumberformat/formatCode/
+url: /nodejs-net/aspose.words.drawing.charts/chartnumberformat/formatCode/
 ---
 
 ## ChartNumberFormat.formatCode property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDde constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fielddde/constructor/
+url: /nodejs-net/aspose.words.fields/fielddde/constructor/
 ---
 
 ## FieldDde() {#default}

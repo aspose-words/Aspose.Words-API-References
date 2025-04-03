@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.revisionsView property. Gets or sets a value indicating whether to work with the original or revised version of a document."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/document/revisionsView/
+url: /nodejs-net/aspose.words/document/revisionsView/
 ---
 
 ## Document.revisionsView property

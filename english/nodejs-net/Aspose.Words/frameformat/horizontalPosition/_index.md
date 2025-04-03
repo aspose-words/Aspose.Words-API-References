@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FrameFormat.horizontalPosition property. Gets horizontal distance between the edge of the frame and the item specified by the [FrameFormat.relativeHorizontalPosition](../relativeHorizontalPosition/) property."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/frameformat/horizontalPosition/
+url: /nodejs-net/aspose.words/frameformat/horizontalPosition/
 ---
 
 ## FrameFormat.horizontalPosition property

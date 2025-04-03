@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.watermark property. Provides access to the document watermark."
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words/document/watermark/
+url: /nodejs-net/aspose.words/document/watermark/
 ---
 
 ## Document.watermark property

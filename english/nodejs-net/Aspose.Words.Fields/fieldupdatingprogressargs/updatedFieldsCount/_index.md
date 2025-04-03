@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldUpdatingProgressArgs.updatedFieldsCount property. Gets the number of updated fields."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldupdatingprogressargs/updatedFieldsCount/
+url: /nodejs-net/aspose.words.fields/fieldupdatingprogressargs/updatedFieldsCount/
 ---
 
 ## FieldUpdatingProgressArgs.updatedFieldsCount property

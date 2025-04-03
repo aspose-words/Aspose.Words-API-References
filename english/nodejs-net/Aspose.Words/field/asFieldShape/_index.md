@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldShape method. "
 type: docs
 weight: 890
-url: /nodejs-net/Aspose.Words/field/asFieldShape/
+url: /nodejs-net/aspose.words/field/asFieldShape/
 ---
 
 ## asFieldShape() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldRef.insertRelativePosition property. Gets or sets whether to insert the relative position of the referenced paragraph."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldref/insertRelativePosition/
+url: /nodejs-net/aspose.words.fields/fieldref/insertRelativePosition/
 ---
 
 ## FieldRef.insertRelativePosition property

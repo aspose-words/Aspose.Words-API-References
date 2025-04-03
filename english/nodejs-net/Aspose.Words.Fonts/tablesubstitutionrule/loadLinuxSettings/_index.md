@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableSubstitutionRule.loadLinuxSettings method. Loads predefined table substitution settings for Linux platform."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/loadLinuxSettings/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/loadLinuxSettings/
 ---
 
 ## loadLinuxSettings() {#default}

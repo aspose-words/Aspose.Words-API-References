@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAdvance.verticalPosition property. Gets or sets the number of points by which the text that follows the field should be moved vertically from the top edge of the page."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldadvance/verticalPosition/
+url: /nodejs-net/aspose.words.fields/fieldadvance/verticalPosition/
 ---
 
 ## FieldAdvance.verticalPosition property

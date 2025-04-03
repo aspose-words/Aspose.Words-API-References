@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OpenAiModel.withProject method. Sets a specified Project to the model."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.AI/openaimodel/withProject/
+url: /nodejs-net/aspose.words.ai/openaimodel/withProject/
 ---
 
 ## withProject(projectId) {#string}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.title property. Gets or sets title of this table"
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words/table/title/
+url: /nodejs-net/aspose.words/table/title/
 ---
 
 ## Table.title property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "List.style property. Gets the list style that this list references or defines."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/list/style/
+url: /nodejs-net/aspose.words/list/style/
 ---
 
 ## List.style property

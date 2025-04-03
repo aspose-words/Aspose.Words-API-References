@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.createPictureBullet method. Creates picture bullet shape for the current list level."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Lists/listlevel/createPictureBullet/
+url: /nodejs-net/aspose.words.lists/listlevel/createPictureBullet/
 ---
 
 ## createPictureBullet() {#default}

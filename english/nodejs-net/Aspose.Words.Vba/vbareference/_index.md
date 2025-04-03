@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Vba.VbaReference class. Implements a reference to an Automation type library or VBA project"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Vba/vbareference/
+url: /nodejs-net/aspose.words.vba/vbareference/
 ---
 
 ## VbaReference class

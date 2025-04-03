@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.characterUnitFirstLineIndent property. Gets or sets the value (in characters) for the first-line or hanging indent"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/paragraphformat/characterUnitFirstLineIndent/
+url: /nodejs-net/aspose.words/paragraphformat/characterUnitFirstLineIndent/
 ---
 
 ## ParagraphFormat.characterUnitFirstLineIndent property

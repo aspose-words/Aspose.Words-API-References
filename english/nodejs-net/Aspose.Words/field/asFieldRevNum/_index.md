@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldRevNum method. "
 type: docs
 weight: 830
-url: /nodejs-net/Aspose.Words/field/asFieldRevNum/
+url: /nodejs-net/aspose.words/field/asFieldRevNum/
 ---
 
 ## asFieldRevNum() {#default}

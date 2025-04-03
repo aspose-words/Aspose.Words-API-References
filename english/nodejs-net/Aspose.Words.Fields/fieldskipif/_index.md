@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldSkipIf class. Implements the SKIPIF field"
 type: docs
 weight: 950
-url: /nodejs-net/Aspose.Words.Fields/fieldskipif/
+url: /nodejs-net/aspose.words.fields/fieldskipif/
 ---
 
 ## FieldSkipIf class

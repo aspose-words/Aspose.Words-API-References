@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.parentNode property. Gets the immediate parent of this node."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/node/parentNode/
+url: /nodejs-net/aspose.words/node/parentNode/
 ---
 
 ## Node.parentNode property

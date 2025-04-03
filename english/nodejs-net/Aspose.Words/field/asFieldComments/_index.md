@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldComments method. "
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/field/asFieldComments/
+url: /nodejs-net/aspose.words/field/asFieldComments/
 ---
 
 ## asFieldComments() {#default}

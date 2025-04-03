@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOptions.allowEmbeddingPostScriptFonts property. Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/allowEmbeddingPostScriptFonts/
+url: /nodejs-net/aspose.words.saving/saveoptions/allowEmbeddingPostScriptFonts/
 ---
 
 ## SaveOptions.allowEmbeddingPostScriptFonts property

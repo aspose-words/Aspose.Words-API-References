@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.SaveFormat enumeration. Indicates the format in which the document is saved."
 type: docs
 weight: 1150
-url: /nodejs-net/Aspose.Words/saveformat/
+url: /nodejs-net/aspose.words/saveformat/
 ---
 
 ## SaveFormat enumeration

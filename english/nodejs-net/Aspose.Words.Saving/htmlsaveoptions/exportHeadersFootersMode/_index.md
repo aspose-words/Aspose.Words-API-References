@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportHeadersFootersMode property. Specifies how headers and footers are output to HTML, MHTML or EPUB"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportHeadersFootersMode/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportHeadersFootersMode/
 ---
 
 ## HtmlSaveOptions.exportHeadersFootersMode property

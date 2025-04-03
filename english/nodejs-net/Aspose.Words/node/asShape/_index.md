@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asShape method. Cast node to [Shape](../../../aspose.words.drawing/shape/)."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/node/asShape/
+url: /nodejs-net/aspose.words/node/asShape/
 ---
 
 ## asShape() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LanguagePreferences.addEditingLanguage method. Adds additional editing language."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Loading/languagepreferences/addEditingLanguage/
+url: /nodejs-net/aspose.words.loading/languagepreferences/addEditingLanguage/
 ---
 
 ## addEditingLanguage(language) {#editinglanguage}

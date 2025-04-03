@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.spacing property. Returns or sets the spacing (in points) between characters ."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/font/spacing/
+url: /nodejs-net/aspose.words/font/spacing/
 ---
 
 ## Font.spacing property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Tables.CellVerticalAlignment enumeration. Specifies vertical justification of text inside a table cell."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Tables/cellverticalalignment/
+url: /nodejs-net/aspose.words.tables/cellverticalalignment/
 ---
 
 ## CellVerticalAlignment enumeration

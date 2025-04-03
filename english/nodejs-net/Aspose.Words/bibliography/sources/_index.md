@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Bibliography.sources property. Gets a collection that represents all the sources contained in a bibliography."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/bibliography/sources/
+url: /nodejs-net/aspose.words/bibliography/sources/
 ---
 
 ## Bibliography.sources property

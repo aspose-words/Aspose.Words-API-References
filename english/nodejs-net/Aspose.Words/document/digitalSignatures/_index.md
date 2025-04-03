@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.digitalSignatures property. Gets the collection of digital signatures for this document and their validation results."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/document/digitalSignatures/
+url: /nodejs-net/aspose.words/document/digitalSignatures/
 ---
 
 ## Document.digitalSignatures property

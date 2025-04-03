@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdsoFieldMapDataCollection.clear method. Removes all elements from this collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdatacollection/clear/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdatacollection/clear/
 ---
 
 ## clear() {#default}

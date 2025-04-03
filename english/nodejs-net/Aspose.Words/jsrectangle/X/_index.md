@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSRectangle.X property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/jsrectangle/X/
+url: /nodejs-net/aspose.words/jsrectangle/X/
 ---
 
 ## JSRectangle.X property

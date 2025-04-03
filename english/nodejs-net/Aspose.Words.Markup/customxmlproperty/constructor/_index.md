@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlProperty constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/customxmlproperty/constructor/
+url: /nodejs-net/aspose.words.markup/customxmlproperty/constructor/
 ---
 
 ## CustomXmlProperty(name, uri, value) {#string_string_string}

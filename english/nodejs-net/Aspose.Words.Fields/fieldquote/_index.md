@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldQuote class. Implements the QUOTE field"
 type: docs
 weight: 840
-url: /nodejs-net/Aspose.Words.Fields/fieldquote/
+url: /nodejs-net/aspose.words.fields/fieldquote/
 ---
 
 ## FieldQuote class

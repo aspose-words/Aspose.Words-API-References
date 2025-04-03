@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FormField class. Represents a single form field"
 type: docs
 weight: 1150
-url: /nodejs-net/Aspose.Words.Fields/formfield/
+url: /nodejs-net/aspose.words.fields/formfield/
 ---
 
 ## FormField class

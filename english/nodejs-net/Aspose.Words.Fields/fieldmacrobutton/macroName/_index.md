@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMacroButton.macroName property. Gets or sets the name of the macro or command to run."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldmacrobutton/macroName/
+url: /nodejs-net/aspose.words.fields/fieldmacrobutton/macroName/
 ---
 
 ## FieldMacroButton.macroName property

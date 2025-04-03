@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldTA constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldta/constructor/
+url: /nodejs-net/aspose.words.fields/fieldta/constructor/
 ---
 
 ## FieldTA() {#default}

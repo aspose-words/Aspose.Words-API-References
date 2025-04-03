@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldToc class. Implements the TOC field"
 type: docs
 weight: 1060
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/
+url: /nodejs-net/aspose.words.fields/fieldtoc/
 ---
 
 ## FieldToc class

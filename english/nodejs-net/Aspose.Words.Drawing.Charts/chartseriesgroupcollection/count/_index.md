@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeriesGroupCollection.count property. Returns the number of series groups in this collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroupcollection/count/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroupcollection/count/
 ---
 
 ## ChartSeriesGroupCollection.count property

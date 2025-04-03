@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Lists.List.compareTo method"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/list/compareTo/
+url: /nodejs-net/aspose.words/list/compareTo/
 ---
 
 ## compareTo(obj) {#object}

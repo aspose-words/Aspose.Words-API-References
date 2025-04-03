@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.charactersPerLine property. Gets or sets the number of characters per line in the document grid."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/pagesetup/charactersPerLine/
+url: /nodejs-net/aspose.words/pagesetup/charactersPerLine/
 ---
 
 ## PageSetup.charactersPerLine property

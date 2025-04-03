@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.MemoryFontSource constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/memoryfontsource/constructor/
+url: /nodejs-net/aspose.words.fonts/memoryfontsource/constructor/
 ---
 
 ## MemoryFontSource(fontData) {#number[]}

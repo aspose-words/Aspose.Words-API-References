@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.result property. Gets or sets a string that represents the result of this form field."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Fields/formfield/result/
+url: /nodejs-net/aspose.words.fields/formfield/result/
 ---
 
 ## FormField.result property

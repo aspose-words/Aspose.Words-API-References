@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Lists.ListCollection.add method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Lists/listcollection/add/
+url: /nodejs-net/aspose.words.lists/listcollection/add/
 ---
 
 ## add(listTemplate) {#listtemplate}

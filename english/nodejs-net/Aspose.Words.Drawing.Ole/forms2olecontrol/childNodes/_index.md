@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Forms2OleControl.childNodes property. Gets collection of immediate child controls."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/childNodes/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/childNodes/
 ---
 
 ## Forms2OleControl.childNodes property

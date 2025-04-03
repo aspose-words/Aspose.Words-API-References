@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldLink.sourceFullName property. Gets or sets the name and location of the source file."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Fields/fieldlink/sourceFullName/
+url: /nodejs-net/aspose.words.fields/fieldlink/sourceFullName/
 ---
 
 ## FieldLink.sourceFullName property

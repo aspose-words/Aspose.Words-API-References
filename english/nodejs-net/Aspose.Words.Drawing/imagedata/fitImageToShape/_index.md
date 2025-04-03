@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.fitImageToShape method. Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/fitImageToShape/
+url: /nodejs-net/aspose.words.drawing/imagedata/fitImageToShape/
 ---
 
 ## fitImageToShape() {#default}

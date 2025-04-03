@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DigitalSignature.comments property. Gets the signing purpose comment."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/digitalsignature/comments/
+url: /nodejs-net/aspose.words/digitalsignature/comments/
 ---
 
 ## DigitalSignature.comments property

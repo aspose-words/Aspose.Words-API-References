@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.TableSubstitutionRule.load method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/load/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
 
 ## load(fileName) {#string}

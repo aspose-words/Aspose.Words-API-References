@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.loadFormat property. Specifies the format of the document to be loaded"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/loadFormat/
+url: /nodejs-net/aspose.words.loading/loadoptions/loadFormat/
 ---
 
 ## LoadOptions.loadFormat property

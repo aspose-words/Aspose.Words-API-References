@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldAutoNum class. Implements the AUTONUM field"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Fields/fieldautonum/
+url: /nodejs-net/aspose.words.fields/fieldautonum/
 ---
 
 ## FieldAutoNum class

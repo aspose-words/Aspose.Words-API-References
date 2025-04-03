@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IDocumentMergerPlugin.merge method. Merges the given input PDF documents into a single output PDF document using specified input and output streams."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/idocumentmergerplugin/merge/
+url: /nodejs-net/aspose.words/idocumentmergerplugin/merge/
 ---
 
 ## merge(outputStream, inputStreams, loadOptions) {#buffer_buffer[]_loadoptions[]}

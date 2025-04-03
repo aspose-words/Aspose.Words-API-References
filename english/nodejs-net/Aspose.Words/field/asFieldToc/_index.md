@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldToc method. "
 type: docs
 weight: 1000
-url: /nodejs-net/Aspose.Words/field/asFieldToc/
+url: /nodejs-net/aspose.words/field/asFieldToc/
 ---
 
 ## asFieldToc() {#default}

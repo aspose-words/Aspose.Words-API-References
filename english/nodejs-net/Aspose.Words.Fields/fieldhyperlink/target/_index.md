@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldHyperlink.target property. Gets or sets the target to which the link should be redirected."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldhyperlink/target/
+url: /nodejs-net/aspose.words.fields/fieldhyperlink/target/
 ---
 
 ## FieldHyperlink.target property

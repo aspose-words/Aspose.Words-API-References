@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.underlineColor property. Gets or sets the color of the underline applied to the font."
 type: docs
 weight: 550
-url: /nodejs-net/Aspose.Words/font/underlineColor/
+url: /nodejs-net/aspose.words/font/underlineColor/
 ---
 
 ## Font.underlineColor property

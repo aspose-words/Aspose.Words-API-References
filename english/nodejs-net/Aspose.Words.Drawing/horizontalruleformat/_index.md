@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.HorizontalRuleFormat class. Represents horizontal rule formatting"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Drawing/horizontalruleformat/
+url: /nodejs-net/aspose.words.drawing/horizontalruleformat/
 ---
 
 ## HorizontalRuleFormat class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableStyle.conditionalStyles property. Collection of conditional styles that may be defined for this table style."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/tablestyle/conditionalStyles/
+url: /nodejs-net/aspose.words/tablestyle/conditionalStyles/
 ---
 
 ## TableStyle.conditionalStyles property

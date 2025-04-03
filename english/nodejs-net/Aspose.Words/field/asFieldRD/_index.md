@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldRD method. "
 type: docs
 weight: 810
-url: /nodejs-net/Aspose.Words/field/asFieldRD/
+url: /nodejs-net/aspose.words/field/asFieldRD/
 ---
 
 ## asFieldRD() {#default}

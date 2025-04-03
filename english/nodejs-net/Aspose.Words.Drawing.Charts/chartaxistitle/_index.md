@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartAxisTitle class. Provides access to the axis title properties"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxistitle/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxistitle/
 ---
 
 ## ChartAxisTitle class

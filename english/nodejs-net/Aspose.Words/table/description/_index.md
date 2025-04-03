@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.description property. Gets or sets description of this table"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/table/description/
+url: /nodejs-net/aspose.words/table/description/
 ---
 
 ## Table.description property

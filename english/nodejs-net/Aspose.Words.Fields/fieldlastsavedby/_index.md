@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldLastSavedBy class. Implements the LASTSAVEDBY field"
 type: docs
 weight: 630
-url: /nodejs-net/Aspose.Words.Fields/fieldlastsavedby/
+url: /nodejs-net/aspose.words.fields/fieldlastsavedby/
 ---
 
 ## FieldLastSavedBy class

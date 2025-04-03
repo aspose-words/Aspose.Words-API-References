@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.adjustWithEffects method. "
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/adjustWithEffects/
+url: /nodejs-net/aspose.words.drawing/shapebase/adjustWithEffects/
 ---
 
 ## adjustWithEffects(source) {#jsrectanglef}

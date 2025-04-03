@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitCellStart method. Called when enumeration of a table cell has started."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/documentvisitor/visitCellStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitCellStart/
 ---
 
 ## visitCellStart(cell) {#cell}

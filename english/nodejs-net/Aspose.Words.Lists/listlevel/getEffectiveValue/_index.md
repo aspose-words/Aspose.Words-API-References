@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.getEffectiveValue method. Reports the string representation of the [ListLevel](../) object for the specified index of the list item"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Lists/listlevel/getEffectiveValue/
+url: /nodejs-net/aspose.words.lists/listlevel/getEffectiveValue/
 ---
 
 ## getEffectiveValue(index, numberStyle, customNumberStyleFormat) {#number_numberstyle_string}

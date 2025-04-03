@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldKeywords class. Implements the KEYWORDS field"
 type: docs
 weight: 620
-url: /nodejs-net/Aspose.Words.Fields/fieldkeywords/
+url: /nodejs-net/aspose.words.fields/fieldkeywords/
 ---
 
 ## FieldKeywords class

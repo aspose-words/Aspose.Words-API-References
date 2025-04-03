@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.transparentMetafiles property. Specifies not to blank the area behind metafile pictures."
 type: docs
 weight: 550
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/transparentMetafiles/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/transparentMetafiles/
 ---
 
 ## CompatibilityOptions.transparentMetafiles property

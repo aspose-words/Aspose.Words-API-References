@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TxtSaveOptions.preserveTableLayout property. Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/txtsaveoptions/preserveTableLayout/
+url: /nodejs-net/aspose.words.saving/txtsaveoptions/preserveTableLayout/
 ---
 
 ## TxtSaveOptions.preserveTableLayout property

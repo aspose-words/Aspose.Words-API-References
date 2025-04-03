@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "The Aspose.Words.Settings module contains classes and enums that are used when specifying various settings and options stored in a document"
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Settings/
+url: /nodejs-net/aspose.words.settings/
 ---
 
 The **Aspose.Words.Settings** module contains classes and enums

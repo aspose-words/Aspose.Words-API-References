@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.moveToField method. Moves the cursor to a field in the document."
 type: docs
 weight: 570
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToField/
+url: /nodejs-net/aspose.words/documentbuilder/moveToField/
 ---
 
 ## moveToField(field, isAfter) {#field_boolean}

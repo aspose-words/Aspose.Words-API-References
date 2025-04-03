@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OfficeMathRenderer constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Rendering/officemathrenderer/constructor/
+url: /nodejs-net/aspose.words.rendering/officemathrenderer/constructor/
 ---
 
 ## OfficeMathRenderer(math) {#officemath}

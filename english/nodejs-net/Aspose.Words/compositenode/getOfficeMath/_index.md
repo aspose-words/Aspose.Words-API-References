@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getOfficeMath method. "
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/compositenode/getOfficeMath/
+url: /nodejs-net/aspose.words/compositenode/getOfficeMath/
 ---
 
 ## getOfficeMath(index, isDeep) {#number_boolean}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.WebExtensions.TaskPane class. Represents an add-in task pane object"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpane/
+url: /nodejs-net/aspose.words.webextensions/taskpane/
 ---
 
 ## TaskPane class

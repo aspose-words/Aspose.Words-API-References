@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldHyperlink class. Implements the HYPERLINK field To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article."
 type: docs
 weight: 520
-url: /nodejs-net/Aspose.Words.Fields/fieldhyperlink/
+url: /nodejs-net/aspose.words.fields/fieldhyperlink/
 ---
 
 ## FieldHyperlink class

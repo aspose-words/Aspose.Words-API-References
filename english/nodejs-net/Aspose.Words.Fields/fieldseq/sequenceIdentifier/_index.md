@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSeq.sequenceIdentifier property. Gets or sets the name assigned to the series of items that are to be numbered."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldseq/sequenceIdentifier/
+url: /nodejs-net/aspose.words.fields/fieldseq/sequenceIdentifier/
 ---
 
 ## FieldSeq.sequenceIdentifier property

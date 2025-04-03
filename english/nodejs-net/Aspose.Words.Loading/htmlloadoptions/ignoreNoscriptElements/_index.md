@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlLoadOptions.ignoreNoscriptElements property. Gets or sets a value indicating whether to ignore <noscript> HTML elements"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Loading/htmlloadoptions/ignoreNoscriptElements/
+url: /nodejs-net/aspose.words.loading/htmlloadoptions/ignoreNoscriptElements/
 ---
 
 ## HtmlLoadOptions.ignoreNoscriptElements property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FileFormatInfo.hasMacros property. Returns ``true`` if this document contains a VBA macros."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/fileformatinfo/hasMacros/
+url: /nodejs-net/aspose.words/fileformatinfo/hasMacros/
 ---
 
 ## FileFormatInfo.hasMacros property

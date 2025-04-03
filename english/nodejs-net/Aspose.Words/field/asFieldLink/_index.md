@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldLink method. "
 type: docs
 weight: 610
-url: /nodejs-net/Aspose.Words/field/asFieldLink/
+url: /nodejs-net/aspose.words/field/asFieldLink/
 ---
 
 ## asFieldLink() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BarcodeParameters.errorCorrectionLevel property. Error correction level of QR Code"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/errorCorrectionLevel/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/errorCorrectionLevel/
 ---
 
 ## BarcodeParameters.errorCorrectionLevel property

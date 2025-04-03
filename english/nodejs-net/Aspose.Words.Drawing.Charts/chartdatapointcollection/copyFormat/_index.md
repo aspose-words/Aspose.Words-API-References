@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataPointCollection.copyFormat method. Copies format from the source data point to the destination data point."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapointcollection/copyFormat/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapointcollection/copyFormat/
 ---
 
 ## copyFormat(sourceIndex, destinationIndex) {#number_number}

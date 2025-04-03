@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitBuildingBlockStart method. Called when enumeration of a building block has started."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/documentvisitor/visitBuildingBlockStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitBuildingBlockStart/
 ---
 
 ## visitBuildingBlockStart(block) {#buildingblock}

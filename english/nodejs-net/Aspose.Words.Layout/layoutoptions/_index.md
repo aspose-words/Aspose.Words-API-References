@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.LayoutOptions class. Holds the options that allow controlling the document layout process"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Layout/layoutoptions/
+url: /nodejs-net/aspose.words.layout/layoutoptions/
 ---
 
 ## LayoutOptions class

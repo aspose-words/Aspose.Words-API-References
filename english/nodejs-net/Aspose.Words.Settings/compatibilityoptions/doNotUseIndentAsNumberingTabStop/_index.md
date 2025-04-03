@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.doNotUseIndentAsNumberingTabStop property. Ignore Hanging Indent When Creating Tab Stop After Numbering."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotUseIndentAsNumberingTabStop/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotUseIndentAsNumberingTabStop/
 ---
 
 ## CompatibilityOptions.doNotUseIndentAsNumberingTabStop property

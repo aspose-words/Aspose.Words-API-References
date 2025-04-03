@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.showGrammaticalErrors property. Specifies whether to display grammar errors in this document."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/document/showGrammaticalErrors/
+url: /nodejs-net/aspose.words/document/showGrammaticalErrors/
 ---
 
 ## Document.showGrammaticalErrors property

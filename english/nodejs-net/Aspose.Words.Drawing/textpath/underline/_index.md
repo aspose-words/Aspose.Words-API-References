@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.underline property. True if the font is underlined."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Drawing/textpath/underline/
+url: /nodejs-net/aspose.words.drawing/textpath/underline/
 ---
 
 ## TextPath.underline property

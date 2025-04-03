@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeriesGroup.doughnutHoleSize property. Gets or sets the hole size of the parent doughnut chart as a percentage."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroup/doughnutHoleSize/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/doughnutHoleSize/
 ---
 
 ## ChartSeriesGroup.doughnutHoleSize property

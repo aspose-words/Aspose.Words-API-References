@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldMergeBarcode class. Implements the MERGEBARCODE field"
 type: docs
 weight: 670
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/
 ---
 
 ## FieldMergeBarcode class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeriesGroup.firstSliceAngle property. Gets or sets the angle, in degrees, of the first slice of the parent pie chart."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroup/firstSliceAngle/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/firstSliceAngle/
 ---
 
 ## ChartSeriesGroup.firstSliceAngle property

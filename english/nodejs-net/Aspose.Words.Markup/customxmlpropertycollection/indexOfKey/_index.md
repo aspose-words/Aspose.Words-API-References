@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPropertyCollection.indexOfKey method. Returns the zero-based index of the specified property in the collection."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/customxmlpropertycollection/indexOfKey/
+url: /nodejs-net/aspose.words.markup/customxmlpropertycollection/indexOfKey/
 ---
 
 ## indexOfKey(name) {#string}

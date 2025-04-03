@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Inline.isInsertRevision property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/inline/isInsertRevision/
+url: /nodejs-net/aspose.words/inline/isInsertRevision/
 ---
 
 ## Inline.isInsertRevision property

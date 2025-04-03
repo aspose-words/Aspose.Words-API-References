@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitBuildingBlockEnd method. Called when enumeration of a building block has ended."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/documentvisitor/visitBuildingBlockEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitBuildingBlockEnd/
 ---
 
 ## visitBuildingBlockEnd(block) {#buildingblock}

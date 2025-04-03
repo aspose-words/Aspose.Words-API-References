@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.type property. Gets the Microsoft Word field type."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/field/type/
+url: /nodejs-net/aspose.words/field/type/
 ---
 
 ## Field.type property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.WarningSource enumeration. Specifies the module that produces a warning during document loading or saving."
 type: docs
 weight: 1490
-url: /nodejs-net/Aspose.Words/warningsource/
+url: /nodejs-net/aspose.words/warningsource/
 ---
 
 ## WarningSource enumeration

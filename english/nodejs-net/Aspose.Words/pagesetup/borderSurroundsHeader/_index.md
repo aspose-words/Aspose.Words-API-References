@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.borderSurroundsHeader property. Specifies whether the page border includes or excludes the header."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/pagesetup/borderSurroundsHeader/
+url: /nodejs-net/aspose.words/pagesetup/borderSurroundsHeader/
 ---
 
 ## PageSetup.borderSurroundsHeader property

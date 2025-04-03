@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Body.nodeType property. Returns [NodeType.Body](../../nodetype/#Body)."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/body/nodeType/
+url: /nodejs-net/aspose.words/body/nodeType/
 ---
 
 ## Body.nodeType property

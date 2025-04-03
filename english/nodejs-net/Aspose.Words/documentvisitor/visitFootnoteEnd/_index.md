@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitFootnoteEnd method. Called when enumeration of a footnote or endnote text has ended."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/documentvisitor/visitFootnoteEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitFootnoteEnd/
 ---
 
 ## visitFootnoteEnd(footnote) {#footnote}

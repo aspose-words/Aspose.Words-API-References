@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.layoutOptions property. Gets a [LayoutOptions](../../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/document/layoutOptions/
+url: /nodejs-net/aspose.words/document/layoutOptions/
 ---
 
 ## Document.layoutOptions property

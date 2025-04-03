@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOptions.updateCreatedTimeProperty property. Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/updateCreatedTimeProperty/
+url: /nodejs-net/aspose.words.saving/saveoptions/updateCreatedTimeProperty/
 ---
 
 ## SaveOptions.updateCreatedTimeProperty property

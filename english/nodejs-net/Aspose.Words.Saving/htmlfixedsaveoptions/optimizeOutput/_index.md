@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlFixedSaveOptions.optimizeOutput property. Flag indicates whether it is required to optimize output"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/optimizeOutput/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/optimizeOutput/
 ---
 
 ## HtmlFixedSaveOptions.optimizeOutput property

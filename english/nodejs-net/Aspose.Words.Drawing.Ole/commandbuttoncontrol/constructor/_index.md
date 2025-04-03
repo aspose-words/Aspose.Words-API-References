@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CommandButtonControl constructor. Initializes a new instance of [CommandButtonControl](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Ole/commandbuttoncontrol/constructor/
+url: /nodejs-net/aspose.words.drawing.ole/commandbuttoncontrol/constructor/
 ---
 
 ## CommandButtonControl() {#default}

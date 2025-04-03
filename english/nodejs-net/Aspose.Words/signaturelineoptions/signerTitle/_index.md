@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SignatureLineOptions.signerTitle property. Gets or sets suggested signer's title"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/signaturelineoptions/signerTitle/
+url: /nodejs-net/aspose.words/signaturelineoptions/signerTitle/
 ---
 
 ## SignatureLineOptions.signerTitle property

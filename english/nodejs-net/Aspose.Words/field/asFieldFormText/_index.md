@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldFormText method. "
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words/field/asFieldFormText/
+url: /nodejs-net/aspose.words/field/asFieldFormText/
 ---
 
 ## asFieldFormText() {#default}

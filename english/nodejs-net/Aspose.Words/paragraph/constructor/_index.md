@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph constructor. Initializes a new instance of the [Paragraph](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/paragraph/constructor/
+url: /nodejs-net/aspose.words/paragraph/constructor/
 ---
 
 ## Paragraph(doc) {#documentbase}

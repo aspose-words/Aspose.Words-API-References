@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.automaticallyUpdateStyles property. Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/document/automaticallyUpdateStyles/
+url: /nodejs-net/aspose.words/document/automaticallyUpdateStyles/
 ---
 
 ## Document.automaticallyUpdateStyles property

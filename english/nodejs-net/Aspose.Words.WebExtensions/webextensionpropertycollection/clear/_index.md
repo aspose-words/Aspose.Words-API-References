@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionPropertyCollection.clear method. "
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionpropertycollection/clear/
+url: /nodejs-net/aspose.words.webextensions/webextensionpropertycollection/clear/
 ---
 
 ## clear() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldRD constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldrd/constructor/
+url: /nodejs-net/aspose.words.fields/fieldrd/constructor/
 ---
 
 ## FieldRD() {#default}

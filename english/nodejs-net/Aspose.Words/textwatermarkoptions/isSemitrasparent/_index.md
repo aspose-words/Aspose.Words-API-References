@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextWatermarkOptions.isSemitrasparent property. Gets or sets a boolean value which is responsible for opacity of the watermark"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/textwatermarkoptions/isSemitrasparent/
+url: /nodejs-net/aspose.words/textwatermarkoptions/isSemitrasparent/
 ---
 
 ## TextWatermarkOptions.isSemitrasparent property

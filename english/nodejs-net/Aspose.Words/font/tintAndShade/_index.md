@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.tintAndShade property. Gets or sets a double value that lightens or darkens a color."
 type: docs
 weight: 530
-url: /nodejs-net/Aspose.Words/font/tintAndShade/
+url: /nodejs-net/aspose.words/font/tintAndShade/
 ---
 
 ## Font.tintAndShade property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.documentSplitHeadingLevel property. Specifies the maximum level of headings at which to split the document"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/documentSplitHeadingLevel/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/documentSplitHeadingLevel/
 ---
 
 ## HtmlSaveOptions.documentSplitHeadingLevel property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SpecialChar.accept method. Accepts a visitor."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/specialchar/accept/
+url: /nodejs-net/aspose.words/specialchar/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

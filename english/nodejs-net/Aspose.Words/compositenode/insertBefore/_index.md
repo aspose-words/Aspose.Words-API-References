@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.insertBefore method. Inserts the specified node immediately before the specified reference node."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/compositenode/insertBefore/
+url: /nodejs-net/aspose.words/compositenode/insertBefore/
 ---
 
 ## insertBefore(newChild, refChild) {#node_node}

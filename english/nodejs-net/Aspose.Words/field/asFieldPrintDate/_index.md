@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldPrintDate method. "
 type: docs
 weight: 780
-url: /nodejs-net/Aspose.Words/field/asFieldPrintDate/
+url: /nodejs-net/aspose.words/field/asFieldPrintDate/
 ---
 
 ## asFieldPrintDate() {#default}

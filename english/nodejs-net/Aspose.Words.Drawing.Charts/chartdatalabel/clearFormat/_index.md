@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.clearFormat method. Clears format of this data label"
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/clearFormat/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/clearFormat/
 ---
 
 ## clearFormat() {#default}

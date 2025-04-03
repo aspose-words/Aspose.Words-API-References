@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PclSaveOptions.rasterizeTransformedElements property. Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/pclsaveoptions/rasterizeTransformedElements/
+url: /nodejs-net/aspose.words.saving/pclsaveoptions/rasterizeTransformedElements/
 ---
 
 ## PclSaveOptions.rasterizeTransformedElements property

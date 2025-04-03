@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartSeries.add method"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/add/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/add/
 ---
 
 ## add(xValue) {#chartxvalue}

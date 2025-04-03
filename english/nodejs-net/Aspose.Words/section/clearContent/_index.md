@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Section.clearContent method. Clears the section."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/section/clearContent/
+url: /nodejs-net/aspose.words/section/clearContent/
 ---
 
 ## clearContent() {#default}

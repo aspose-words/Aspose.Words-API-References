@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkCollection.removeAt method. Removes a bookmark at the specified index."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/bookmarkcollection/removeAt/
+url: /nodejs-net/aspose.words/bookmarkcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

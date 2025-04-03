@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.relativeVerticalAlignment property. Gets or sets floating table relative vertical alignment."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/table/relativeVerticalAlignment/
+url: /nodejs-net/aspose.words/table/relativeVerticalAlignment/
 ---
 
 ## Table.relativeVerticalAlignment property

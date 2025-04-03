@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.CssSavingArgs class. Provides data for the [ICssSavingCallback.cssSaving()](../icsssavingcallback/cssSaving/#csssavingargs) event"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/csssavingargs/
+url: /nodejs-net/aspose.words.saving/csssavingargs/
 ---
 
 ## CssSavingArgs class

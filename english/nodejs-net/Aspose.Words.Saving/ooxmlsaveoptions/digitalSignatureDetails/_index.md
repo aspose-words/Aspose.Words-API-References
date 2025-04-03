@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OoxmlSaveOptions.digitalSignatureDetails property. Gets or sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object used to sign a document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/ooxmlsaveoptions/digitalSignatureDetails/
+url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/digitalSignatureDetails/
 ---
 
 ## OoxmlSaveOptions.digitalSignatureDetails property

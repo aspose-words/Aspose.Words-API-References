@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.nodeType property. Returns the [NodeType.BuildingBlock](../../nodetype/#BuildingBlock) value."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/buildingblock/nodeType/
+url: /nodejs-net/aspose.words/buildingblock/nodeType/
 ---
 
 ## BuildingBlock.nodeType property

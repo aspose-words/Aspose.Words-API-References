@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarksOutlineLevelCollection.clear method. Removes all elements from the collection."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/clear/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
 ---
 
 ## clear() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConditionalStyleCollection.topRightCell property. Gets the top right cell style."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/topRightCell/
+url: /nodejs-net/aspose.words/conditionalstylecollection/topRightCell/
 ---
 
 ## ConditionalStyleCollection.topRightCell property

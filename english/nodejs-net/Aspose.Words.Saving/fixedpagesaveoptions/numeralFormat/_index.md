@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FixedPageSaveOptions.numeralFormat property. Gets or sets [NumeralFormat](../../numeralformat/) used for rendering of numerals"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/numeralFormat/
+url: /nodejs-net/aspose.words.saving/fixedpagesaveoptions/numeralFormat/
 ---
 
 ## FixedPageSaveOptions.numeralFormat property

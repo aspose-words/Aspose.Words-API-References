@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontSourceType enumeration. Specifies the type of font source."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Fonts/fontsourcetype/
+url: /nodejs-net/aspose.words.fonts/fontsourcetype/
 ---
 
 ## FontSourceType enumeration

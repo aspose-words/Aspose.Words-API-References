@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BorderCollection.clearFormatting method. Removes all borders of an object."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/bordercollection/clearFormatting/
+url: /nodejs-net/aspose.words/bordercollection/clearFormatting/
 ---
 
 ## clearFormatting() {#default}

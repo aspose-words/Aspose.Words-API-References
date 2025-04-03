@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPartCollection.getById method. Finds and returns a custom XML part by its identifier."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/customxmlpartcollection/getById/
+url: /nodejs-net/aspose.words.markup/customxmlpartcollection/getById/
 ---
 
 ## getById(id) {#string}

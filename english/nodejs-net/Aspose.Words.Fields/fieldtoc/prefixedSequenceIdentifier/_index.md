@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.prefixedSequenceIdentifier property. Gets or sets the identifier of a sequence for which a prefix should be added to the entry's page number."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/prefixedSequenceIdentifier/
+url: /nodejs-net/aspose.words.fields/fieldtoc/prefixedSequenceIdentifier/
 ---
 
 ## FieldToc.prefixedSequenceIdentifier property

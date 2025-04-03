@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DigitalSignatureDetails constructor. Initializes a new instance of [DigitalSignatureDetails](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/digitalsignaturedetails/constructor/
+url: /nodejs-net/aspose.words.saving/digitalsignaturedetails/constructor/
 ---
 
 ## DigitalSignatureDetails(certificateHolder, signOptions) {#certificateholder_signoptions}

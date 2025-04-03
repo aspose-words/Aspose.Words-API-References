@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VariableCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/variablecollection/this[]/
+url: /nodejs-net/aspose.words/variablecollection/this[]/
 ---
 
 ## VariableCollection.this[] property

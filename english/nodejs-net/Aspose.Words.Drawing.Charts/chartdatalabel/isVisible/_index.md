@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.isVisible property. Returns ``true`` if this data label has something to display."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/isVisible/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/isVisible/
 ---
 
 ## ChartDataLabel.isVisible property

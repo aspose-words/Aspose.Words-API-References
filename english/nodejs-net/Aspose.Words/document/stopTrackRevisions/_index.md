@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.stopTrackRevisions method. Stops automatic marking of document changes as revisions."
 type: docs
 weight: 720
-url: /nodejs-net/Aspose.Words/document/stopTrackRevisions/
+url: /nodejs-net/aspose.words/document/stopTrackRevisions/
 ---
 
 ## stopTrackRevisions() {#default}

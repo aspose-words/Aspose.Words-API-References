@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FindReplaceOptions.ignoreFieldCodes property. Gets or sets a boolean value indicating either to ignore text inside field codes"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreFieldCodes/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/ignoreFieldCodes/
 ---
 
 ## FindReplaceOptions.ignoreFieldCodes property

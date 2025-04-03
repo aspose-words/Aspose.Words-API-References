@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportPageSetup property. Specifies whether page setup is exported to HTML, MHTML or EPUB"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportPageSetup/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportPageSetup/
 ---
 
 ## HtmlSaveOptions.exportPageSetup property

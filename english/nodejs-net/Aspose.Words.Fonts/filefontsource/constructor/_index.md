@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FileFontSource constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/filefontsource/constructor/
+url: /nodejs-net/aspose.words.fonts/filefontsource/constructor/
 ---
 
 ## FileFontSource(filePath) {#string}

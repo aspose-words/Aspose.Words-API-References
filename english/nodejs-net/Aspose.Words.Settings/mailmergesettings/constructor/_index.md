@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/constructor/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/constructor/
 ---
 
 ## MailMergeSettings() {#default}

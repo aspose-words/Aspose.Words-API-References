@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Tables.PreferredWidthType enumeration. Specifies the unit of measurement for the preferred width of a table or cell."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Tables/preferredwidthtype/
+url: /nodejs-net/aspose.words.tables/preferredwidthtype/
 ---
 
 ## PreferredWidthType enumeration

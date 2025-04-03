@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlFixedSaveOptions.pageHorizontalAlignment property. Specifies the horizontal alignment of pages in an HTML document"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/pageHorizontalAlignment/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/pageHorizontalAlignment/
 ---
 
 ## HtmlFixedSaveOptions.pageHorizontalAlignment property

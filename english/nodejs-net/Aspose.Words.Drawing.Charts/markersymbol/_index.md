@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.MarkerSymbol enumeration. Specifies marker symbol style."
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words.Drawing.Charts/markersymbol/
+url: /nodejs-net/aspose.words.drawing.charts/markersymbol/
 ---
 
 ## MarkerSymbol enumeration

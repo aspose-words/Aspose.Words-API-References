@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.OdsoFieldMapDataCollection class. A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdatacollection/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 
 ## OdsoFieldMapDataCollection class

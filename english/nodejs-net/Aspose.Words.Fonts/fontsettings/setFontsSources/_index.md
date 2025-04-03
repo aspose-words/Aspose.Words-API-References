@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontSettings.setFontsSources method"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/setFontsSources/
+url: /nodejs-net/aspose.words.fonts/fontsettings/setFontsSources/
 ---
 
 ## setFontsSources(sources) {#fontsourcebase[]}

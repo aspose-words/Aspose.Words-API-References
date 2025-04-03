@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.AI.GoogleAiModel class. An abstract class representing the integration with Google’s AI models within the Aspose.Words."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.AI/googleaimodel/
+url: /nodejs-net/aspose.words.ai/googleaimodel/
 ---
 
 ## GoogleAiModel class

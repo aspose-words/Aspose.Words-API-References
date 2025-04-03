@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.strikeThrough property. True if the font is formatted as strikethrough text."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing/textpath/strikeThrough/
+url: /nodejs-net/aspose.words.drawing/textpath/strikeThrough/
 ---
 
 ## TextPath.strikeThrough property

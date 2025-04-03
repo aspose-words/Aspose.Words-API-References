@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.OoxmlSaveOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/ooxmlsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/constructor/
 ---
 
 ## OoxmlSaveOptions() {#default}

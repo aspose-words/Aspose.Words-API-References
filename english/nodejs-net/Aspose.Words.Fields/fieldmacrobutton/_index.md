@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldMacroButton class. Implements the MACROBUTTON field"
 type: docs
 weight: 660
-url: /nodejs-net/Aspose.Words.Fields/fieldmacrobutton/
+url: /nodejs-net/aspose.words.fields/fieldmacrobutton/
 ---
 
 ## FieldMacroButton class

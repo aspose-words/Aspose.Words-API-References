@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Watermark.setImage method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/watermark/setImage/
+url: /nodejs-net/aspose.words/watermark/setImage/
 ---
 
 ## setImage(image) {#jsimage}

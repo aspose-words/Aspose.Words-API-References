@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.currentNode property. Gets the node that is currently selected in this DocumentBuilder."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/documentbuilder/currentNode/
+url: /nodejs-net/aspose.words/documentbuilder/currentNode/
 ---
 
 ## DocumentBuilder.currentNode property

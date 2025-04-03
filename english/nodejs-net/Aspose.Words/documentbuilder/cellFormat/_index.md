@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.cellFormat property. Returns an object that represents current table cell formatting properties."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/documentbuilder/cellFormat/
+url: /nodejs-net/aspose.words/documentbuilder/cellFormat/
 ---
 
 ## DocumentBuilder.cellFormat property

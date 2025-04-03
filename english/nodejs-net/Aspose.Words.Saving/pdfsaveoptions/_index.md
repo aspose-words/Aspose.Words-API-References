@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Pdf](../../aspose.words/saveformat/#Pdf) format"
 type: docs
 weight: 720
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/
 ---
 
 ## PdfSaveOptions class

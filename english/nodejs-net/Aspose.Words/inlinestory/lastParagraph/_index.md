@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "InlineStory.lastParagraph property. Gets the last paragraph in the story."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/inlinestory/lastParagraph/
+url: /nodejs-net/aspose.words/inlinestory/lastParagraph/
 ---
 
 ## InlineStory.lastParagraph property

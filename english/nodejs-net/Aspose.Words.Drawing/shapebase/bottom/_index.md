@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.bottom property. Gets the position of the bottom edge of the containing block of the shape."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/bottom/
+url: /nodejs-net/aspose.words.drawing/shapebase/bottom/
 ---
 
 ## ShapeBase.bottom property

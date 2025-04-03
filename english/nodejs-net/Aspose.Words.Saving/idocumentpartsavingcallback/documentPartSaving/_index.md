@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IDocumentPartSavingCallback.documentPartSaving method. Called when Aspose.Words is about to save a document part."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/idocumentpartsavingcallback/documentPartSaving/
+url: /nodejs-net/aspose.words.saving/idocumentpartsavingcallback/documentPartSaving/
 ---
 
 ## documentPartSaving(args) {#documentpartsavingargs}

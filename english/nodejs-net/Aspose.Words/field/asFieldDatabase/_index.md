@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldDatabase method. "
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/field/asFieldDatabase/
+url: /nodejs-net/aspose.words/field/asFieldDatabase/
 ---
 
 ## asFieldDatabase() {#default}

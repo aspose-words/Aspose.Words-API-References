@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldPrint class. Implements the PRINT field"
 type: docs
 weight: 810
-url: /nodejs-net/Aspose.Words.Fields/fieldprint/
+url: /nodejs-net/aspose.words.fields/fieldprint/
 ---
 
 ## FieldPrint class

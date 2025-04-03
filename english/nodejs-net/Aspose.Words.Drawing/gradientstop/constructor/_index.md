@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.GradientStop constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/gradientstop/constructor/
+url: /nodejs-net/aspose.words.drawing/gradientstop/constructor/
 ---
 
 ## GradientStop(color, position) {#string_number}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMergeSeq constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldmergeseq/constructor/
+url: /nodejs-net/aspose.words.fields/fieldmergeseq/constructor/
 ---
 
 ## FieldMergeSeq() {#default}

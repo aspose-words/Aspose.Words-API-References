@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.progressCallback property. Called during loading a document and accepts data about loading progress."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/progressCallback/
+url: /nodejs-net/aspose.words.loading/loadoptions/progressCallback/
 ---
 
 ## LoadOptions.progressCallback property

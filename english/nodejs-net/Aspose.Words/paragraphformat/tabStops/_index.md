@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.tabStops property. Gets the collection of custom tab stops defined for this object."
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words/paragraphformat/tabStops/
+url: /nodejs-net/aspose.words/paragraphformat/tabStops/
 ---
 
 ## ParagraphFormat.tabStops property

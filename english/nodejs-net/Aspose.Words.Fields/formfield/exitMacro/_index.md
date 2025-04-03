@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.exitMacro property. Returns or sets an exit macro name for the form field."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/formfield/exitMacro/
+url: /nodejs-net/aspose.words.fields/formfield/exitMacro/
 ---
 
 ## FormField.exitMacro property

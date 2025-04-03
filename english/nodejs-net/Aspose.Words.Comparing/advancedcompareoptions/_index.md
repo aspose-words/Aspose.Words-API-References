@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Comparing.AdvancedCompareOptions class. Allows to set advanced compare options."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Comparing/advancedcompareoptions/
+url: /nodejs-net/aspose.words.comparing/advancedcompareoptions/
 ---
 
 ## AdvancedCompareOptions class

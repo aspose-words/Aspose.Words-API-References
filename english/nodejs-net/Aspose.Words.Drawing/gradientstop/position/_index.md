@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GradientStop.position property. Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/gradientstop/position/
+url: /nodejs-net/aspose.words.drawing/gradientstop/position/
 ---
 
 ## GradientStop.position property

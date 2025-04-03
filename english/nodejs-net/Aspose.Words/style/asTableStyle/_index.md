@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.asTableStyle method. "
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words/style/asTableStyle/
+url: /nodejs-net/aspose.words/style/asTableStyle/
 ---
 
 ## asTableStyle() {#default}

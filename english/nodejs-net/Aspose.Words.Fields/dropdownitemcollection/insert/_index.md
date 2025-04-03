@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DropDownItemCollection.insert method. Inserts a string into the collection at the specified index."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/insert/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/insert/
 ---
 
 ## insert(index, value) {#number_string}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontConfigSubstitutionRule.resetCache method. Resets the cache of fontconfig calling results."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/fontconfigsubstitutionrule/resetCache/
+url: /nodejs-net/aspose.words.fonts/fontconfigsubstitutionrule/resetCache/
 ---
 
 ## resetCache() {#default}

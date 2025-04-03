@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConditionalStyleCollection.lastColumn property. Gets the last column style."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/lastColumn/
+url: /nodejs-net/aspose.words/conditionalstylecollection/lastColumn/
 ---
 
 ## ConditionalStyleCollection.lastColumn property

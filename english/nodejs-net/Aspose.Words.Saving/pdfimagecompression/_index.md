@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfImageCompression enumeration. Specifies the type of compression applied to images in the PDF file."
 type: docs
 weight: 680
-url: /nodejs-net/Aspose.Words.Saving/pdfimagecompression/
+url: /nodejs-net/aspose.words.saving/pdfimagecompression/
 ---
 
 ## PdfImageCompression enumeration

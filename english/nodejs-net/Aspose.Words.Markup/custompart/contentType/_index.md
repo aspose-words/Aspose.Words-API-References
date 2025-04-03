@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomPart.contentType property. Specifies the content type of this custom part."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/custompart/contentType/
+url: /nodejs-net/aspose.words.markup/custompart/contentType/
 ---
 
 ## CustomPart.contentType property

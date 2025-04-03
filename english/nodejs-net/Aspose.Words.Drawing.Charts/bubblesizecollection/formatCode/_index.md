@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BubbleSizeCollection.formatCode property. Gets or sets the format code applied to the bubble sizes."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/bubblesizecollection/formatCode/
+url: /nodejs-net/aspose.words.drawing.charts/bubblesizecollection/formatCode/
 ---
 
 ## BubbleSizeCollection.formatCode property

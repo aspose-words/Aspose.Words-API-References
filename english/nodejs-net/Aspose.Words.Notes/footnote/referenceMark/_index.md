@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Footnote.referenceMark property. Gets/sets custom reference mark to be used for this footnote"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Notes/footnote/referenceMark/
+url: /nodejs-net/aspose.words.notes/footnote/referenceMark/
 ---
 
 ## Footnote.referenceMark property

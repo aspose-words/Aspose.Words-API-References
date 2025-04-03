@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarksOutlineLevelCollection.indexOfKey method. Returns the zero-based index of the specified bookmark in the collection."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/indexOfKey/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/indexOfKey/
 ---
 
 ## indexOfKey(name) {#string}

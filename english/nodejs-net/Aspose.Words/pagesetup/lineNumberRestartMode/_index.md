@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.lineNumberRestartMode property. Gets or sets the way line numbering runs  that is, whether it starts over at the beginning of a new page or section or runs continuously."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/pagesetup/lineNumberRestartMode/
+url: /nodejs-net/aspose.words/pagesetup/lineNumberRestartMode/
 ---
 
 ## PageSetup.lineNumberRestartMode property

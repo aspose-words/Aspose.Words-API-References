@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OleFormat.iconCaption property. Gets icon caption of OLE object"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/iconCaption/
+url: /nodejs-net/aspose.words.drawing/oleformat/iconCaption/
 ---
 
 ## OleFormat.iconCaption property

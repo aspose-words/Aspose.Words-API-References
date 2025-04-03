@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.SignatureLineOptions class. Allows to specify options for signature line being inserted"
 type: docs
 weight: 1210
-url: /nodejs-net/Aspose.Words/signaturelineoptions/
+url: /nodejs-net/aspose.words/signaturelineoptions/
 ---
 
 ## SignatureLineOptions class

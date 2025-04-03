@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XamlFlowSaveOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/constructor/
 ---
 
 ## XamlFlowSaveOptions() {#default}

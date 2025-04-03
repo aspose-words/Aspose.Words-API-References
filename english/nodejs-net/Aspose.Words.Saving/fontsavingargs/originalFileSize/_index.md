@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSavingArgs.originalFileSize property. Gets the original font file size."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/fontsavingargs/originalFileSize/
+url: /nodejs-net/aspose.words.saving/fontsavingargs/originalFileSize/
 ---
 
 ## FontSavingArgs.originalFileSize property

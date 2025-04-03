@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ContentDisposition enumeration. Enumerates different ways of presenting the document at the client browser."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/contentdisposition/
+url: /nodejs-net/aspose.words/contentdisposition/
 ---
 
 ## ContentDisposition enumeration

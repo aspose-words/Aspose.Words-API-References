@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.clone method. Creates a duplicate of the node."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words/node/clone/
+url: /nodejs-net/aspose.words/node/clone/
 ---
 
 ## clone(isCloneChildren) {#boolean}

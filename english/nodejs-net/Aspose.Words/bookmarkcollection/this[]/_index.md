@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/bookmarkcollection/this[]/
+url: /nodejs-net/aspose.words/bookmarkcollection/this[]/
 ---
 
 ## BookmarkCollection.this[] property

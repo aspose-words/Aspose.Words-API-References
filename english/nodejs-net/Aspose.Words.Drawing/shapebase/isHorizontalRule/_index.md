@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.isHorizontalRule property. Returns ``true`` if this shape is a horizontal rule."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/isHorizontalRule/
+url: /nodejs-net/aspose.words.drawing/shapebase/isHorizontalRule/
 ---
 
 ## ShapeBase.isHorizontalRule property

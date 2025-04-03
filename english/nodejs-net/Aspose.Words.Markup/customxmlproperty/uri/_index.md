@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlProperty.uri property. Gets or sets the namespace URI of the custom XML attribute or smart tag property."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/customxmlproperty/uri/
+url: /nodejs-net/aspose.words.markup/customxmlproperty/uri/
 ---
 
 ## CustomXmlProperty.uri property

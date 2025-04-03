@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WarningInfoCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/warninginfocollection/this[]/
+url: /nodejs-net/aspose.words/warninginfocollection/this[]/
 ---
 
 ## WarningInfoCollection.this[] property

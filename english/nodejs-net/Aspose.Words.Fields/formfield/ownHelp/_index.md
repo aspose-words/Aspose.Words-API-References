@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.ownHelp property. Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Fields/formfield/ownHelp/
+url: /nodejs-net/aspose.words.fields/formfield/ownHelp/
 ---
 
 ## FormField.ownHelp property

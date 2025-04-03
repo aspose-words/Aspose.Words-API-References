@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ImageData class. Defines an image for a shape"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/
+url: /nodejs-net/aspose.words.drawing/imagedata/
 ---
 
 ## ImageData class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SdtListItemCollection.clear method. Clears all items from this collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitemcollection/clear/
+url: /nodejs-net/aspose.words.markup/sdtlistitemcollection/clear/
 ---
 
 ## clear() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.HtmlSaveOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/constructor/
 ---
 
 ## HtmlSaveOptions() {#default}

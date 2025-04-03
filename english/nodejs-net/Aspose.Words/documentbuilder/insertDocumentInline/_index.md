@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertDocumentInline method. Inserts a document inline at the cursor position."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words/documentbuilder/insertDocumentInline/
+url: /nodejs-net/aspose.words/documentbuilder/insertDocumentInline/
 ---
 
 ## insertDocumentInline(srcDoc, importFormatMode, importFormatOptions) {#document_importformatmode_importformatoptions}

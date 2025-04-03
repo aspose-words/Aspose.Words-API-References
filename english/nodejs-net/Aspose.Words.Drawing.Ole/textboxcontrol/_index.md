@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Ole.TextBoxControl class. The TextBox control displays text from an organized set of data or user input."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing.Ole/textboxcontrol/
+url: /nodejs-net/aspose.words.drawing.ole/textboxcontrol/
 ---
 
 ## TextBoxControl class

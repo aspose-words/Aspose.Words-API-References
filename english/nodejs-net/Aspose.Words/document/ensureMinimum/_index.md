@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.ensureMinimum method. If the document contains no sections, creates one section with one paragraph."
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words/document/ensureMinimum/
+url: /nodejs-net/aspose.words/document/ensureMinimum/
 ---
 
 ## ensureMinimum() {#default}

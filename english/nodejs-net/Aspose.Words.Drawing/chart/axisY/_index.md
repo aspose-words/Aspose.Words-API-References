@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.axisY property. Provides access to properties of the primary Y axis of the chart."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/chart/axisY/
+url: /nodejs-net/aspose.words.drawing/chart/axisY/
 ---
 
 ## Chart.axisY property

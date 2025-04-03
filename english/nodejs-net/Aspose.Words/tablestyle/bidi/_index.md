@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableStyle.bidi property. Gets or sets whether this is a style for a right-to-left table."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/tablestyle/bidi/
+url: /nodejs-net/aspose.words/tablestyle/bidi/
 ---
 
 ## TableStyle.bidi property

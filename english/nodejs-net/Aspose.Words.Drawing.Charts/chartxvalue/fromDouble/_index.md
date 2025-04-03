@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartXValue.fromDouble method. Creates a [ChartXValue](../) instance of the [ChartXValueType.Double](../../chartxvaluetype/#Double) type."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvalue/fromDouble/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/fromDouble/
 ---
 
 ## fromDouble(value) {#number}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartTitle.overlay property. Determines whether other chart elements shall be allowed to overlap title"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/charttitle/overlay/
+url: /nodejs-net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 
 ## ChartTitle.overlay property

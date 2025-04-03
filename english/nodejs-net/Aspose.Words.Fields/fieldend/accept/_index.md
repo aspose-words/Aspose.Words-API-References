@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldEnd.accept method. Accepts a visitor."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldend/accept/
+url: /nodejs-net/aspose.words.fields/fieldend/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

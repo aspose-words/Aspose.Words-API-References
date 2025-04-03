@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Rendering.PageInfo class. Represents information about a particular document page"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Rendering/pageinfo/
+url: /nodejs-net/aspose.words.rendering/pageinfo/
 ---
 
 ## PageInfo class

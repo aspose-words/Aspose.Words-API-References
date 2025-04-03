@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSavingArgs.pageIndex property. Current page index."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/pagesavingargs/pageIndex/
+url: /nodejs-net/aspose.words.saving/pagesavingargs/pageIndex/
 ---
 
 ## PageSavingArgs.pageIndex property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FramesetCollection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Framesets/framesetcollection/constructor/
+url: /nodejs-net/aspose.words.framesets/framesetcollection/constructor/
 ---
 
 ## FramesetCollection() {#default}

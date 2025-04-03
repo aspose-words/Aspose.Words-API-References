@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.HyphenationOptions class. Allows to configure document hyphenation options"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/hyphenationoptions/
+url: /nodejs-net/aspose.words.settings/hyphenationoptions/
 ---
 
 ## HyphenationOptions class

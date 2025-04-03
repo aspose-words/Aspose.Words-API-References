@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Watermark.setText method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/watermark/setText/
+url: /nodejs-net/aspose.words/watermark/setText/
 ---
 
 ## setText(text) {#string}

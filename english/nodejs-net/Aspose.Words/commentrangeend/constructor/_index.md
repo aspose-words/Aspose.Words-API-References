@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CommentRangeEnd constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/commentrangeend/constructor/
+url: /nodejs-net/aspose.words/commentrangeend/constructor/
 ---
 
 ## CommentRangeEnd(doc, id) {#documentbase_number}

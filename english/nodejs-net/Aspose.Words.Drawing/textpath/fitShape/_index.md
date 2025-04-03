@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.fitShape property. Defines whether the text fits bounding box of a shape."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/textpath/fitShape/
+url: /nodejs-net/aspose.words.drawing/textpath/fitShape/
 ---
 
 ## TextPath.fitShape property

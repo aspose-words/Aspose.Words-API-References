@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.grammarChecked property. Returns ``true`` if the document has been checked for grammar."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/document/grammarChecked/
+url: /nodejs-net/aspose.words/document/grammarChecked/
 ---
 
 ## Document.grammarChecked property

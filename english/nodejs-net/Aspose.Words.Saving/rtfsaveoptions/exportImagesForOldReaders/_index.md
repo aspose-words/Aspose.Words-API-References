@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RtfSaveOptions.exportImagesForOldReaders property. Specifies whether the keywords for old readers are written to RTF or not"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/exportImagesForOldReaders/
+url: /nodejs-net/aspose.words.saving/rtfsaveoptions/exportImagesForOldReaders/
 ---
 
 ## RtfSaveOptions.exportImagesForOldReaders property

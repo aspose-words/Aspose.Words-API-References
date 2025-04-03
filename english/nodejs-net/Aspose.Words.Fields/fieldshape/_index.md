@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldShape class. Implements the SHAPE field"
 type: docs
 weight: 940
-url: /nodejs-net/Aspose.Words.Fields/fieldshape/
+url: /nodejs-net/aspose.words.fields/fieldshape/
 ---
 
 ## FieldShape class

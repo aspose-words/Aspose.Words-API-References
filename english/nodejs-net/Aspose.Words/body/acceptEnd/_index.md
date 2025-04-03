@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Body.acceptEnd method. Accepts a visitor for visiting the end of the document's body."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/body/acceptEnd/
+url: /nodejs-net/aspose.words/body/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FrameFormat.horizontalDistanceFromText property. Gets horizontal distance between a frame and the surrounding text, in points."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/frameformat/horizontalDistanceFromText/
+url: /nodejs-net/aspose.words/frameformat/horizontalDistanceFromText/
 ---
 
 ## FrameFormat.horizontalDistanceFromText property

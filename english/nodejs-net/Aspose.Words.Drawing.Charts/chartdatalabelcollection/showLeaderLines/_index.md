@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabelCollection.showLeaderLines property. Allows to specify whether data label leader lines need be shown for the data labels of the entire series"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/showLeaderLines/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showLeaderLines/
 ---
 
 ## ChartDataLabelCollection.showLeaderLines property

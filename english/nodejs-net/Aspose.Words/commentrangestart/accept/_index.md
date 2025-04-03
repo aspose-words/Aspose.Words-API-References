@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CommentRangeStart.accept method. Accepts a visitor."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/commentrangestart/accept/
+url: /nodejs-net/aspose.words/commentrangestart/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IFieldResultFormatter.formatNumeric method. Called when Aspose.Words applies a numeric format switch, i.e"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/ifieldresultformatter/formatNumeric/
+url: /nodejs-net/aspose.words.fields/ifieldresultformatter/formatNumeric/
 ---
 
 ## formatNumeric(value, format) {#number_string}

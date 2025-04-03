@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.text property. Gets text of the current span entity"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/text/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/text/
 ---
 
 ## LayoutEnumerator.text property

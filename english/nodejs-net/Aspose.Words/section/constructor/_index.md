@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Section constructor. Initializes a new instance of the Section class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/section/constructor/
+url: /nodejs-net/aspose.words/section/constructor/
 ---
 
 ## Section(doc) {#documentbase}

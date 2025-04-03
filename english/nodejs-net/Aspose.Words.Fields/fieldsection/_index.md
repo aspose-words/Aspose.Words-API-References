@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldSection class. Implements the SECTION field"
 type: docs
 weight: 890
-url: /nodejs-net/Aspose.Words.Fields/fieldsection/
+url: /nodejs-net/aspose.words.fields/fieldsection/
 ---
 
 ## FieldSection class

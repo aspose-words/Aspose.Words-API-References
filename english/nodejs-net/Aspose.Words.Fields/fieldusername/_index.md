@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldUserName class. Implements the USERNAME field"
 type: docs
 weight: 1130
-url: /nodejs-net/Aspose.Words.Fields/fieldusername/
+url: /nodejs-net/aspose.words.fields/fieldusername/
 ---
 
 ## FieldUserName class

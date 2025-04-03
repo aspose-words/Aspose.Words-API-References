@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BarcodeParameters constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/constructor/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/constructor/
 ---
 
 ## BarcodeParameters() {#default}

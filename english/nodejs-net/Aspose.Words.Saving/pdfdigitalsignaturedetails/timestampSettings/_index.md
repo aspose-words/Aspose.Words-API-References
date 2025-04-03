@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfDigitalSignatureDetails.timestampSettings property. Gets or sets the digital signature timestamp settings."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/timestampSettings/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/timestampSettings/
 ---
 
 ## PdfDigitalSignatureDetails.timestampSettings property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Document.cleanup method"
 type: docs
 weight: 560
-url: /nodejs-net/Aspose.Words/document/cleanup/
+url: /nodejs-net/aspose.words/document/cleanup/
 ---
 
 ## cleanup() {#default}

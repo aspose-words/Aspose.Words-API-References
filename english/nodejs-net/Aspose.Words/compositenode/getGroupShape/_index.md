@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getGroupShape method. "
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/compositenode/getGroupShape/
+url: /nodejs-net/aspose.words/compositenode/getGroupShape/
 ---
 
 ## getGroupShape(index, isDeep) {#number_boolean}

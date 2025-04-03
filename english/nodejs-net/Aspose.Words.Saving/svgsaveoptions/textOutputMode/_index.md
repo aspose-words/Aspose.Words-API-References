@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SvgSaveOptions.textOutputMode property. Gets or sets a value determining how text should be rendered in SVG."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/textOutputMode/
+url: /nodejs-net/aspose.words.saving/svgsaveoptions/textOutputMode/
 ---
 
 ## SvgSaveOptions.textOutputMode property

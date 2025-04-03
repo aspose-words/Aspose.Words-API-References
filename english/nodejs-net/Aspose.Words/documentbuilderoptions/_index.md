@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilderOptions class. Allows to specify additional options for the document building process."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/documentbuilderoptions/
+url: /nodejs-net/aspose.words/documentbuilderoptions/
 ---
 
 ## DocumentBuilderOptions class

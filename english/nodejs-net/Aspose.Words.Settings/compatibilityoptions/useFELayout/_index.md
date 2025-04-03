@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.useFELayout property. Do Not Bypass East Asian/Complex Script Layout Code."
 type: docs
 weight: 620
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/useFELayout/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/useFELayout/
 ---
 
 ## CompatibilityOptions.useFELayout property

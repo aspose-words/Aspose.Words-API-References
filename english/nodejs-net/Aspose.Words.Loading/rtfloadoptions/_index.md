@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.RtfLoadOptions class. Allows to specify additional options when loading [LoadFormat.Rtf](../../aspose.words/loadformat/#Rtf) document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Loading/rtfloadoptions/
+url: /nodejs-net/aspose.words.loading/rtfloadoptions/
 ---
 
 ## RtfLoadOptions class

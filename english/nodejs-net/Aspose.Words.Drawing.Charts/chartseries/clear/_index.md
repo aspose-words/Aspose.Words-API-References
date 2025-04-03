@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeries.clear method. Removes all data values from the chart series"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/clear/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/clear/
 ---
 
 ## clear() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldFormText class. Implements the FORMTEXT field"
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Fields/fieldformtext/
+url: /nodejs-net/aspose.words.fields/fieldformtext/
 ---
 
 ## FieldFormText class

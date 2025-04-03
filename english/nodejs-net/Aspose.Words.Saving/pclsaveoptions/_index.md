@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PclSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Pcl](../../aspose.words/saveformat/#Pcl) format"
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words.Saving/pclsaveoptions/
+url: /nodejs-net/aspose.words.saving/pclsaveoptions/
 ---
 
 ## PclSaveOptions class

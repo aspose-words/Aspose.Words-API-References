@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisTickLabels.orientation property. Gets or sets the orientation of the tick label text."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabels/orientation/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabels/orientation/
 ---
 
 ## AxisTickLabels.orientation property

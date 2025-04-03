@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BorderCollection.bottom property. Gets the bottom border."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/bordercollection/bottom/
+url: /nodejs-net/aspose.words/bordercollection/bottom/
 ---
 
 ## BorderCollection.bottom property

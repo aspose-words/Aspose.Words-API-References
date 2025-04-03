@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfDigitalSignatureDetails constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/constructor/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/constructor/
 ---
 
 ## PdfDigitalSignatureDetails() {#default}

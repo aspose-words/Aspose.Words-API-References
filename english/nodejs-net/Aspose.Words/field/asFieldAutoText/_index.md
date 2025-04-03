@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldAutoText method. "
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/field/asFieldAutoText/
+url: /nodejs-net/aspose.words/field/asFieldAutoText/
 ---
 
 ## asFieldAutoText() {#default}

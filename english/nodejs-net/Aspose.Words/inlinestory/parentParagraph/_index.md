@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "InlineStory.parentParagraph property. Retrieves the parent [Paragraph](../../paragraph/) of this node."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/inlinestory/parentParagraph/
+url: /nodejs-net/aspose.words/inlinestory/parentParagraph/
 ---
 
 ## InlineStory.parentParagraph property

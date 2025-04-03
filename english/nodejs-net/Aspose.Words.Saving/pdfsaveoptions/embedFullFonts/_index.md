@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.embedFullFonts property. Controls how fonts are embedded into the resulting PDF documents."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/embedFullFonts/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/embedFullFonts/
 ---
 
 ## PdfSaveOptions.embedFullFonts property

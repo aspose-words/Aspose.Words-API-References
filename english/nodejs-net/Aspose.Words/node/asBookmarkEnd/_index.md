@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asBookmarkEnd method. Cast node to [BookmarkEnd](../../bookmarkend/)."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/node/asBookmarkEnd/
+url: /nodejs-net/aspose.words/node/asBookmarkEnd/
 ---
 
 ## asBookmarkEnd() {#default}

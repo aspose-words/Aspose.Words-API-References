@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldXE method. "
 type: docs
 weight: 1050
-url: /nodejs-net/Aspose.Words/field/asFieldXE/
+url: /nodejs-net/aspose.words/field/asFieldXE/
 ---
 
 ## asFieldXE() {#default}

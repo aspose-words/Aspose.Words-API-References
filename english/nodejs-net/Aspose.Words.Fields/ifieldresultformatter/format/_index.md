@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.IFieldResultFormatter.format method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/ifieldresultformatter/format/
+url: /nodejs-net/aspose.words.fields/ifieldresultformatter/format/
 ---
 
 ## format(value, format) {#string_generalformat}

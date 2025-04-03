@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OleControl.asCheckBoxControl method. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Ole/olecontrol/asCheckBoxControl/
+url: /nodejs-net/aspose.words.drawing.ole/olecontrol/asCheckBoxControl/
 ---
 
 ## asCheckBoxControl() {#default}

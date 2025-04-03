@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.TxtSaveOptionsBase class. The base class for specifying additional options when saving a document into a text based formats"
 type: docs
 weight: 870
-url: /nodejs-net/Aspose.Words.Saving/txtsaveoptionsbase/
+url: /nodejs-net/aspose.words.saving/txtsaveoptionsbase/
 ---
 
 ## TxtSaveOptionsBase class

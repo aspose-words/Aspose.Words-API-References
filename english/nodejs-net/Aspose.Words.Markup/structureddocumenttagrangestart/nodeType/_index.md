@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.nodeType property. Returns [NodeType.StructuredDocumentTagRangeStart](../../../aspose.words/nodetype/#StructuredDocumentTagRangeStart)."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/nodeType/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/nodeType/
 ---
 
 ## StructuredDocumentTagRangeStart.nodeType property

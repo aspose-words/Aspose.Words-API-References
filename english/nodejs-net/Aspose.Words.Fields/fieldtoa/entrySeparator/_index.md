@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToa.entrySeparator property. Gets or sets the character sequence that is used to separate a table of authorities entry and its page number."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldtoa/entrySeparator/
+url: /nodejs-net/aspose.words.fields/fieldtoa/entrySeparator/
 ---
 
 ## FieldToa.entrySeparator property

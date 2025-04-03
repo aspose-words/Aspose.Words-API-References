@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldArgumentBuilder class. Builds a complex field argument consisting of fields, nodes, and plain text"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldargumentbuilder/
+url: /nodejs-net/aspose.words.fields/fieldargumentbuilder/
 ---
 
 ## FieldArgumentBuilder class

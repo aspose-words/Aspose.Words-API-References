@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.topMode property. Gets or sets the interpretation mode of the [ChartDataLabel.top](../top/) property value: whether it sets the location of the data label from the top edge of the chart of from the position specified by its [ChartDataLabel.position](../position/) property."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/topMode/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/topMode/
 ---
 
 ## ChartDataLabel.topMode property

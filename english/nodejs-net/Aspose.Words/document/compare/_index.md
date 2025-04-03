@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Document.compare method"
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words/document/compare/
+url: /nodejs-net/aspose.words/document/compare/
 ---
 
 ## compare(document, author, dateTime) {#document_string_date}

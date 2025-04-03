@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSRectangle.contains method. "
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/jsrectangle/contains/
+url: /nodejs-net/aspose.words/jsrectangle/contains/
 ---
 
 ## contains(pt) {#jspoint}

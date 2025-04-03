@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.reporter property. Gets or sets the reporter of a source."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words.Bibliography/source/reporter/
+url: /nodejs-net/aspose.words.bibliography/source/reporter/
 ---
 
 ## Source.reporter property

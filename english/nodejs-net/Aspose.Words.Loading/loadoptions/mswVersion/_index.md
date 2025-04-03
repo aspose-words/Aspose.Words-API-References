@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.mswVersion property. Allows to specify that the document loading process should match a specific MS Word version"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/mswVersion/
+url: /nodejs-net/aspose.words.loading/loadoptions/mswVersion/
 ---
 
 ## LoadOptions.mswVersion property

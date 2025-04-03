@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ComparisonExpression.rightExpression property. Gets the right expression."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/comparisonexpression/rightExpression/
+url: /nodejs-net/aspose.words.fields/comparisonexpression/rightExpression/
 ---
 
 ## ComparisonExpression.rightExpression property

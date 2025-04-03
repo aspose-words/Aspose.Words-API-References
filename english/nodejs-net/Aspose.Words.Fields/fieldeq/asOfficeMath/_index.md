@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldEQ.asOfficeMath method. Returns Office Math object corresponded to the EQ field."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldeq/asOfficeMath/
+url: /nodejs-net/aspose.words.fields/fieldeq/asOfficeMath/
 ---
 
 ## asOfficeMath() {#default}

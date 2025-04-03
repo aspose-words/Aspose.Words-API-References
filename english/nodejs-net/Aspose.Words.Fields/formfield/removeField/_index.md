@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.removeField method. Removes the complete form field, not just the form field special character."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Fields/formfield/removeField/
+url: /nodejs-net/aspose.words.fields/formfield/removeField/
 ---
 
 ## removeField() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldCollection class. A collection of [Field](../../aspose.words/field/) objects that represents the fields in the specified range"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Fields/fieldcollection/
+url: /nodejs-net/aspose.words.fields/fieldcollection/
 ---
 
 ## FieldCollection class

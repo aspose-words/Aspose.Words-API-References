@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Section.appendContent method. Inserts a copy of content of the source section at the end of this section."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/section/appendContent/
+url: /nodejs-net/aspose.words/section/appendContent/
 ---
 
 ## appendContent(sourceSection) {#section}

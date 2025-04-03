@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertSignatureLine method"
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words/documentbuilder/insertSignatureLine/
+url: /nodejs-net/aspose.words/documentbuilder/insertSignatureLine/
 ---
 
 ## insertSignatureLine(signatureLineOptions) {#signaturelineoptions}

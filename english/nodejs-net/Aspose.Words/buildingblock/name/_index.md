@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.name property. Gets or sets the name of this building block."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/buildingblock/name/
+url: /nodejs-net/aspose.words/buildingblock/name/
 ---
 
 ## BuildingBlock.name property

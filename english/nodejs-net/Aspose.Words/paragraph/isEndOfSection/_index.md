@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.isEndOfSection property. True if this paragraph is the last paragraph in the [Body](../../body/) (main text story) of a [Section](../../section/); false otherwise."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/paragraph/isEndOfSection/
+url: /nodejs-net/aspose.words/paragraph/isEndOfSection/
 ---
 
 ## Paragraph.isEndOfSection property

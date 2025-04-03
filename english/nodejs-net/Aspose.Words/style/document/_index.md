@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.document property. Gets the owner document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/style/document/
+url: /nodejs-net/aspose.words/style/document/
 ---
 
 ## Style.document property

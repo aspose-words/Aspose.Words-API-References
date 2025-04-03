@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldComments constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldcomments/constructor/
+url: /nodejs-net/aspose.words.fields/fieldcomments/constructor/
 ---
 
 ## FieldComments() {#default}

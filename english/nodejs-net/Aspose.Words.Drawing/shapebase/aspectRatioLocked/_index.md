@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.aspectRatioLocked property. Specifies whether the shape's aspect ratio is locked."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/aspectRatioLocked/
+url: /nodejs-net/aspose.words.drawing/shapebase/aspectRatioLocked/
 ---
 
 ## ShapeBase.aspectRatioLocked property

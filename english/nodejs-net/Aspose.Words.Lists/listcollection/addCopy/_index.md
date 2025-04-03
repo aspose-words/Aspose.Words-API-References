@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListCollection.addCopy method. Creates a new list by copying the specified list and adding it to the collection of lists in the document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Lists/listcollection/addCopy/
+url: /nodejs-net/aspose.words.lists/listcollection/addCopy/
 ---
 
 ## addCopy(srcList) {#list}

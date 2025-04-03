@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitCellEnd method. Called when enumeration of a table cell has ended."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/documentvisitor/visitCellEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitCellEnd/
 ---
 
 ## visitCellEnd(cell) {#cell}

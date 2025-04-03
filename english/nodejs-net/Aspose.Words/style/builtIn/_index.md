@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.builtIn property. True if this style is one of the built-in styles in MS Word."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/style/builtIn/
+url: /nodejs-net/aspose.words/style/builtIn/
 ---
 
 ## Style.builtIn property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ConditionalStyleType enumeration. Represents possible table areas to which conditional formatting may be defined in a table style."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/conditionalstyletype/
+url: /nodejs-net/aspose.words/conditionalstyletype/
 ---
 
 ## ConditionalStyleType enumeration

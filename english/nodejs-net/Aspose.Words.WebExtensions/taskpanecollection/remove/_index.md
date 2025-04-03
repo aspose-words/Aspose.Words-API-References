@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TaskPaneCollection.remove method. "
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpanecollection/remove/
+url: /nodejs-net/aspose.words.webextensions/taskpanecollection/remove/
 ---
 
 ## remove(index) {#number}

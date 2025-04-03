@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.usePrinterMetrics property. Use Printer Metrics To Display Documents."
 type: docs
 weight: 640
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/usePrinterMetrics/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/usePrinterMetrics/
 ---
 
 ## CompatibilityOptions.usePrinterMetrics property

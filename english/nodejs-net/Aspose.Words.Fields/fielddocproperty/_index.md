@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldDocProperty class. Implements the DOCPROPERTY field"
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words.Fields/fielddocproperty/
+url: /nodejs-net/aspose.words.fields/fielddocproperty/
 ---
 
 ## FieldDocProperty class

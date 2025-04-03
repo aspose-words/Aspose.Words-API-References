@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.separator property. Gets the node that represents the field separator"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/field/separator/
+url: /nodejs-net/aspose.words/field/separator/
 ---
 
 ## Field.separator property

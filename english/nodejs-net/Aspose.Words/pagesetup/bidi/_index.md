@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.bidi property. Specifies that this section contains bidirectional (complex scripts) text."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/pagesetup/bidi/
+url: /nodejs-net/aspose.words/pagesetup/bidi/
 ---
 
 ## PageSetup.bidi property

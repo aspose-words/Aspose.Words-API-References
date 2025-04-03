@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.linesToDrop property. Gets or sets the number of lines of the paragraph text used to calculate the drop cap height."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/paragraphformat/linesToDrop/
+url: /nodejs-net/aspose.words/paragraphformat/linesToDrop/
 ---
 
 ## ParagraphFormat.linesToDrop property

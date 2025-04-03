@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldSet class. Implements the SET field"
 type: docs
 weight: 930
-url: /nodejs-net/Aspose.Words.Fields/fieldset/
+url: /nodejs-net/aspose.words.fields/fieldset/
 ---
 
 ## FieldSet class

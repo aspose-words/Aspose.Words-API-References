@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Replacing.IReplacingCallback class. Implement this interface if you want to have your own custom method called during a find and replace operation."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Replacing/ireplacingcallback/
+url: /nodejs-net/aspose.words.replacing/ireplacingcallback/
 ---
 
 ## IReplacingCallback class

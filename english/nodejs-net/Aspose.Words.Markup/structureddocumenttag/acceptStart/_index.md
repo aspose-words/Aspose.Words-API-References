@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.acceptStart method. Accepts a visitor for visiting the start of the StructuredDocumentTag."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/acceptStart/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

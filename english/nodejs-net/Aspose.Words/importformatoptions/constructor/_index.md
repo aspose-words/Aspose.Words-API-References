@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImportFormatOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/importformatoptions/constructor/
+url: /nodejs-net/aspose.words/importformatoptions/constructor/
 ---
 
 ## ImportFormatOptions() {#default}

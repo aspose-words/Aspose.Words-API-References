@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldUserAddress class. Implements the USERADDRESS field"
 type: docs
 weight: 1110
-url: /nodejs-net/Aspose.Words.Fields/fielduseraddress/
+url: /nodejs-net/aspose.words.fields/fielduseraddress/
 ---
 
 ## FieldUserAddress class

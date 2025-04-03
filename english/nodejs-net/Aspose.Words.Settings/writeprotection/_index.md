@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.WriteProtection class. Specifies write protection settings for a document"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Settings/writeprotection/
+url: /nodejs-net/aspose.words.settings/writeprotection/
 ---
 
 ## WriteProtection class

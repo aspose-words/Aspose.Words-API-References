@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.on property. Defines whether the text is displayed."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/textpath/on/
+url: /nodejs-net/aspose.words.drawing/textpath/on/
 ---
 
 ## TextPath.on property

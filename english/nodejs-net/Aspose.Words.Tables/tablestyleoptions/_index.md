@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Tables.TableStyleOptions enumeration. Specifies how table style is applied to a table."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Tables/tablestyleoptions/
+url: /nodejs-net/aspose.words.tables/tablestyleoptions/
 ---
 
 ## TableStyleOptions enumeration

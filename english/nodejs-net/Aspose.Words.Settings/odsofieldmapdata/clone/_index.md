@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdsoFieldMapData.clone method. Returns a deep clone of this object."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdata/clone/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdata/clone/
 ---
 
 ## clone() {#default}

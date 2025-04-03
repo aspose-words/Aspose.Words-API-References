@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.hasImage property. Returns ``true`` if the shape has image bytes or links an image."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/shape/hasImage/
+url: /nodejs-net/aspose.words.drawing/shape/hasImage/
 ---
 
 ## Shape.hasImage property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.doNotExpandShiftReturn property. Don't Justify Lines Ending in Soft Line Break."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotExpandShiftReturn/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotExpandShiftReturn/
 ---
 
 ## CompatibilityOptions.doNotExpandShiftReturn property

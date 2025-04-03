@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape constructor. Creates a new shape object."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/shape/constructor/
+url: /nodejs-net/aspose.words.drawing/shape/constructor/
 ---
 
 ## Shape(doc, shapeType) {#documentbase_shapetype}

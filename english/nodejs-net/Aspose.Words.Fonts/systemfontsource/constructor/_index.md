@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.SystemFontSource constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/systemfontsource/constructor/
+url: /nodejs-net/aspose.words.fonts/systemfontsource/constructor/
 ---
 
 ## SystemFontSource() {#default}

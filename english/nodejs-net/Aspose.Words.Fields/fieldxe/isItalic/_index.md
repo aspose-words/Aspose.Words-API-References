@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldXE.isItalic property. Gets or sets whether to apply italic formatting to the entry's page number."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldxe/isItalic/
+url: /nodejs-net/aspose.words.fields/fieldxe/isItalic/
 ---
 
 ## FieldXE.isItalic property

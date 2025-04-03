@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format"
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/
+url: /nodejs-net/aspose.words.saving/markdownsaveoptions/
 ---
 
 ## MarkdownSaveOptions class

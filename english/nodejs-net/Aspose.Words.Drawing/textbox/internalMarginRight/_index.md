@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextBox.internalMarginRight property. Specifies the inner right margin in points for a shape."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/textbox/internalMarginRight/
+url: /nodejs-net/aspose.words.drawing/textbox/internalMarginRight/
 ---
 
 ## TextBox.internalMarginRight property

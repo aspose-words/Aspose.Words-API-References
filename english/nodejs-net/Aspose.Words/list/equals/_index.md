@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "List.equals method. Compares with the specified list."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/list/equals/
+url: /nodejs-net/aspose.words/list/equals/
 ---
 
 ## equals(list) {#list}

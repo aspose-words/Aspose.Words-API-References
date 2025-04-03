@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.noTabHangInd property. Do Not Create Custom Tab Stop for Hanging Indent."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/noTabHangInd/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/noTabHangInd/
 ---
 
 ## CompatibilityOptions.noTabHangInd property

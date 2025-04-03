@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asRow method. Cast node to [Row](../../../aspose.words.tables/row/)."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words/node/asRow/
+url: /nodejs-net/aspose.words/node/asRow/
 ---
 
 ## asRow() {#default}

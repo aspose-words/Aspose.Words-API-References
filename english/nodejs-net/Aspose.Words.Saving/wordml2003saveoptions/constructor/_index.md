@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WordML2003SaveOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/wordml2003saveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/wordml2003saveoptions/constructor/
 ---
 
 ## WordML2003SaveOptions() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.title property. Specifies the friendly name associated with this structured document tag"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/title/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 
 ## StructuredDocumentTagRangeStart.title property

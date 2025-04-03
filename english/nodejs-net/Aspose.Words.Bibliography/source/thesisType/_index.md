@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.thesisType property. Gets or sets the thesis type of a source."
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words.Bibliography/source/thesisType/
+url: /nodejs-net/aspose.words.bibliography/source/thesisType/
 ---
 
 ## Source.thesisType property

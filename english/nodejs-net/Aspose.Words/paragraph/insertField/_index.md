@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Paragraph.insertField method"
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words/paragraph/insertField/
+url: /nodejs-net/aspose.words/paragraph/insertField/
 ---
 
 ## insertField(fieldType, updateField, refNode, isAfter) {#fieldtype_boolean_node_boolean}

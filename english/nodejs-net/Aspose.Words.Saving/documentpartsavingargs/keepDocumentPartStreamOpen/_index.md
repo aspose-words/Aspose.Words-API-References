@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentPartSavingArgs.keepDocumentPartStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a document part."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/documentpartsavingargs/keepDocumentPartStreamOpen/
+url: /nodejs-net/aspose.words.saving/documentpartsavingargs/keepDocumentPartStreamOpen/
 ---
 
 ## DocumentPartSavingArgs.keepDocumentPartStreamOpen property

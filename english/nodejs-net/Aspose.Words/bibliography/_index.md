@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Bibliography class. Represents the list of bibliography sources available in the document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/bibliography/
+url: /nodejs-net/aspose.words/bibliography/
 ---
 
 ## Bibliography class

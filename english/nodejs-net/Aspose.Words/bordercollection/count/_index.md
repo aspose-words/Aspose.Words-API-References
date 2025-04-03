@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BorderCollection.count property. Gets the number of borders in the collection."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/bordercollection/count/
+url: /nodejs-net/aspose.words/bordercollection/count/
 ---
 
 ## BorderCollection.count property

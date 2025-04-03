@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSeparator.nodeType property. Returns [NodeType.FieldSeparator](../../../aspose.words/nodetype/#FieldSeparator)."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldseparator/nodeType/
+url: /nodejs-net/aspose.words.fields/fieldseparator/nodeType/
 ---
 
 ## FieldSeparator.nodeType property

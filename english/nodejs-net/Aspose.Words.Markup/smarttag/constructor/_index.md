@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SmartTag constructor. Initializes a new instance of the [SmartTag](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/smarttag/constructor/
+url: /nodejs-net/aspose.words.markup/smarttag/constructor/
 ---
 
 ## SmartTag(doc) {#documentbase}

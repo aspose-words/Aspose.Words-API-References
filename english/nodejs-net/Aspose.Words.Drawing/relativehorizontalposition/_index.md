@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.RelativeHorizontalPosition enumeration. Specifies to what the horizontal position of a shape or text frame is relative."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words.Drawing/relativehorizontalposition/
+url: /nodejs-net/aspose.words.drawing/relativehorizontalposition/
 ---
 
 ## RelativeHorizontalPosition enumeration

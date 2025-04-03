@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListCollection.getListByListId method. Gets a list by a list identifier."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Lists/listcollection/getListByListId/
+url: /nodejs-net/aspose.words.lists/listcollection/getListByListId/
 ---
 
 ## getListByListId(listId) {#number}

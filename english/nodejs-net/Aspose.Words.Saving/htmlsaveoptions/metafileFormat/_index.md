@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.metafileFormat property. Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB"
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/metafileFormat/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/metafileFormat/
 ---
 
 ## HtmlSaveOptions.metafileFormat property

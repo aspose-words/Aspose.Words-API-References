@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignature class. Represents a digital signature on a document and the result of its verification"
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/digitalsignature/
+url: /nodejs-net/aspose.words/digitalsignature/
 ---
 
 ## DigitalSignature class

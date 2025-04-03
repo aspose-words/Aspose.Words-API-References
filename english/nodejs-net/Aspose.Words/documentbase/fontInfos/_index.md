@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBase.fontInfos property. Provides access to properties of fonts used in this document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/documentbase/fontInfos/
+url: /nodejs-net/aspose.words/documentbase/fontInfos/
 ---
 
 ## DocumentBase.fontInfos property

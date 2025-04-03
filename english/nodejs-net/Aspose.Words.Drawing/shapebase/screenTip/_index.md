@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.screenTip property. Defines the text displayed when the mouse pointer moves over the shape."
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/screenTip/
+url: /nodejs-net/aspose.words.drawing/shapebase/screenTip/
 ---
 
 ## ShapeBase.screenTip property

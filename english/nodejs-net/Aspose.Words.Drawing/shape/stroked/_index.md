@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.stroked property. Defines whether the path will be stroked."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/shape/stroked/
+url: /nodejs-net/aspose.words.drawing/shape/stroked/
 ---
 
 ## Shape.stroked property

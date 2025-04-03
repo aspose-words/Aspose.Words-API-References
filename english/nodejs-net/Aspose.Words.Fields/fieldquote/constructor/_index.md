@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldQuote constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldquote/constructor/
+url: /nodejs-net/aspose.words.fields/fieldquote/constructor/
 ---
 
 ## FieldQuote() {#default}

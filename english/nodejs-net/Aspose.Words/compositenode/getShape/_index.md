@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getShape method. "
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words/compositenode/getShape/
+url: /nodejs-net/aspose.words/compositenode/getShape/
 ---
 
 ## getShape(index, isDeep) {#number_boolean}

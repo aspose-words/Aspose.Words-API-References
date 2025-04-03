@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.snapToGrid property. Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/paragraphformat/snapToGrid/
+url: /nodejs-net/aspose.words/paragraphformat/snapToGrid/
 ---
 
 ## ParagraphFormat.snapToGrid property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.monthAccessed property. Gets or sets the month accessed of a source."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words.Bibliography/source/monthAccessed/
+url: /nodejs-net/aspose.words.bibliography/source/monthAccessed/
 ---
 
 ## Source.monthAccessed property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.MarkdownLoadOptions class. Allows to specify additional options when loading [LoadFormat.Markdown](../../aspose.words/loadformat/#Markdown) document into a [Document](../../aspose.words/document/) object."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Loading/markdownloadoptions/
+url: /nodejs-net/aspose.words.loading/markdownloadoptions/
 ---
 
 ## MarkdownLoadOptions class

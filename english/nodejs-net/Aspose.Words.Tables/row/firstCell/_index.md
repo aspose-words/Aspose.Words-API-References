@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Row.firstCell property. Returns the first [Cell](../../cell/) in the row."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Tables/row/firstCell/
+url: /nodejs-net/aspose.words.tables/row/firstCell/
 ---
 
 ## Row.firstCell property

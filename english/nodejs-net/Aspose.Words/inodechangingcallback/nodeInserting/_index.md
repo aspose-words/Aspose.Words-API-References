@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "INodeChangingCallback.nodeInserting method. Called just before a node belonging to this document is about to be inserted into another node."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/inodechangingcallback/nodeInserting/
+url: /nodejs-net/aspose.words/inodechangingcallback/nodeInserting/
 ---
 
 ## nodeInserting(args) {#nodechangingargs}

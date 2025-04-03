@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.distributor property. Gets or sets the distributor of a source."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Bibliography/source/distributor/
+url: /nodejs-net/aspose.words.bibliography/source/distributor/
 ---
 
 ## Source.distributor property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.CustomPart class. Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/custompart/
+url: /nodejs-net/aspose.words.markup/custompart/
 ---
 
 ## CustomPart class

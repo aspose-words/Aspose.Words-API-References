@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxisTitle.text property. Gets or sets the text of the axis title"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxistitle/text/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 
 ## ChartAxisTitle.text property

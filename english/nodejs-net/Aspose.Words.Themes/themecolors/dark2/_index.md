@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ThemeColors.dark2 property. Specifies color Dark 2."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Themes/themecolors/dark2/
+url: /nodejs-net/aspose.words.themes/themecolors/dark2/
 ---
 
 ## ThemeColors.dark2 property

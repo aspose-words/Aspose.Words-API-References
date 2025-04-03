@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeEnd constructor. Initializes a new instance of the Structured document tag range end class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangeend/constructor/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangeend/constructor/
 ---
 
 ## StructuredDocumentTagRangeEnd(doc, id) {#documentbase_number}

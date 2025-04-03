@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Orientation enumeration. Specifies page orientation."
 type: docs
 weight: 920
-url: /nodejs-net/Aspose.Words/orientation/
+url: /nodejs-net/aspose.words/orientation/
 ---
 
 ## Orientation enumeration

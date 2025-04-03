@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertImage method"
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words/documentbuilder/insertImage/
+url: /nodejs-net/aspose.words/documentbuilder/insertImage/
 ---
 
 ## insertImage(image) {#jsimage}

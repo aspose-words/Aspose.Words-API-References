@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldNumPages class. Implements the NUMPAGES field"
 type: docs
 weight: 750
-url: /nodejs-net/Aspose.Words.Fields/fieldnumpages/
+url: /nodejs-net/aspose.words.fields/fieldnumpages/
 ---
 
 ## FieldNumPages class

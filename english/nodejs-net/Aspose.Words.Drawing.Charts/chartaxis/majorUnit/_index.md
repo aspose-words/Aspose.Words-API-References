@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.majorUnit property. Returns or sets the distance between major tick marks."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/majorUnit/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/majorUnit/
 ---
 
 ## ChartAxis.majorUnit property

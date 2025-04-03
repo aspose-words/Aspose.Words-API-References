@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPart.data property. Gets or sets the XML content of this Custom XML Data Storage Part."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/customxmlpart/data/
+url: /nodejs-net/aspose.words.markup/customxmlpart/data/
 ---
 
 ## CustomXmlPart.data property

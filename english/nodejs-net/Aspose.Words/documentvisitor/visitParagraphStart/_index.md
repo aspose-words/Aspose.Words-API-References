@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitParagraphStart method. Called when enumeration of a paragraph has started."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/documentvisitor/visitParagraphStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitParagraphStart/
 ---
 
 ## visitParagraphStart(paragraph) {#paragraph}

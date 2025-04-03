@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "The Aspose.Words.Vba module provides classes to work with VBA projects."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Vba/
+url: /nodejs-net/aspose.words.vba/
 ---
 
 The **Aspose.Words.Vba** module provides classes to work with VBA projects.

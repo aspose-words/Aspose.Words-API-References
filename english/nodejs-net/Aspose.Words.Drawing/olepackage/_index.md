@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.OlePackage class. Allows to access OLE Package properties"
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.Drawing/olepackage/
+url: /nodejs-net/aspose.words.drawing/olepackage/
 ---
 
 ## OlePackage class

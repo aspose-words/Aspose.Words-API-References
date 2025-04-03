@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.multiplePages property. For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/pagesetup/multiplePages/
+url: /nodejs-net/aspose.words/pagesetup/multiplePages/
 ---
 
 ## PageSetup.multiplePages property

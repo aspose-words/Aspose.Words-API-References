@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XpsSaveOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/xpssaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/xpssaveoptions/constructor/
 ---
 
 ## XpsSaveOptions() {#default}

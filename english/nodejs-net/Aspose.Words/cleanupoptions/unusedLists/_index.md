@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CleanupOptions.unusedLists property. Specifies whether unused list and list definitions should be removed from document"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/cleanupoptions/unusedLists/
+url: /nodejs-net/aspose.words/cleanupoptions/unusedLists/
 ---
 
 ## CleanupOptions.unusedLists property

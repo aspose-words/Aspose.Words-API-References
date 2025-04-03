@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Body.parentSection property. Gets the parent section of this story."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/body/parentSection/
+url: /nodejs-net/aspose.words/body/parentSection/
 ---
 
 ## Body.parentSection property

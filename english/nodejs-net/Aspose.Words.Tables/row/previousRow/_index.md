@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Row.previousRow property. Gets the previous [Row](../) node."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Tables/row/previousRow/
+url: /nodejs-net/aspose.words.tables/row/previousRow/
 ---
 
 ## Row.previousRow property

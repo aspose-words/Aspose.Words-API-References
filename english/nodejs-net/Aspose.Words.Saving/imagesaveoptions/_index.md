@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images"
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class

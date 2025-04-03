@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooter constructor. Creates a new header or footer of the specified type."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/headerfooter/constructor/
+url: /nodejs-net/aspose.words/headerfooter/constructor/
 ---
 
 ## HeaderFooter(doc, headerFooterType) {#documentbase_headerfootertype}

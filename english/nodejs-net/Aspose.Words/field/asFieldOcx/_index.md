@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldOcx method. "
 type: docs
 weight: 740
-url: /nodejs-net/Aspose.Words/field/asFieldOcx/
+url: /nodejs-net/aspose.words/field/asFieldOcx/
 ---
 
 ## asFieldOcx() {#default}

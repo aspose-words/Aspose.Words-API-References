@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldSeq method. "
 type: docs
 weight: 870
-url: /nodejs-net/Aspose.Words/field/asFieldSeq/
+url: /nodejs-net/aspose.words/field/asFieldSeq/
 ---
 
 ## asFieldSeq() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.security property. Specifies the security level of a document as a numeric value."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/security/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/security/
 ---
 
 ## BuiltInDocumentProperties.security property

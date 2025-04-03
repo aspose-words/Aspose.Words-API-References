@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.count property. Gets the number of immediate children of this node."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/compositenode/count/
+url: /nodejs-net/aspose.words/compositenode/count/
 ---
 
 ## CompositeNode.count property

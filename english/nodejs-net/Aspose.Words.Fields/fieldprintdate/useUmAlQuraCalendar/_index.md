@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldPrintDate.useUmAlQuraCalendar property. Gets or sets whether to use the Um-al-Qura calendar."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldprintdate/useUmAlQuraCalendar/
+url: /nodejs-net/aspose.words.fields/fieldprintdate/useUmAlQuraCalendar/
 ---
 
 ## FieldPrintDate.useUmAlQuraCalendar property

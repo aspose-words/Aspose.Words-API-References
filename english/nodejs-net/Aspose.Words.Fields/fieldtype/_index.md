@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldType enumeration. Specifies Microsoft Word field types."
 type: docs
 weight: 1070
-url: /nodejs-net/Aspose.Words.Fields/fieldtype/
+url: /nodejs-net/aspose.words.fields/fieldtype/
 ---
 
 ## FieldType enumeration

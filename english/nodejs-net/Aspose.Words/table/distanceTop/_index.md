@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.distanceTop property. Gets or sets distance between table top and the surrounding text, in points."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/table/distanceTop/
+url: /nodejs-net/aspose.words/table/distanceTop/
 ---
 
 ## Table.distanceTop property

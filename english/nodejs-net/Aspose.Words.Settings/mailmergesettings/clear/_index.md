@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.clear method. Clears the mail merge settings in such a way that when the document is saved,  no mail merge settings will be saved and it will become a normal document."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/clear/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/clear/
 ---
 
 ## clear() {#default}

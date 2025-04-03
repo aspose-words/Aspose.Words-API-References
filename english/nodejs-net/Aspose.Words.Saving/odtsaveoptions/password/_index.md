@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdtSaveOptions.password property. Gets or sets a password to encrypt document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/password/
+url: /nodejs-net/aspose.words.saving/odtsaveoptions/password/
 ---
 
 ## OdtSaveOptions.password property

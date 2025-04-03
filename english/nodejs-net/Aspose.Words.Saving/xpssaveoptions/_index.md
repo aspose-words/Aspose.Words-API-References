@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XpsSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Xps](../../aspose.words/saveformat/#Xps) format"
 type: docs
 weight: 940
-url: /nodejs-net/Aspose.Words.Saving/xpssaveoptions/
+url: /nodejs-net/aspose.words.saving/xpssaveoptions/
 ---
 
 ## XpsSaveOptions class

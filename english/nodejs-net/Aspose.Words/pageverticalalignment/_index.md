@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.PageVerticalAlignment enumeration. Specifies vertical justification of text on each page."
 type: docs
 weight: 970
-url: /nodejs-net/Aspose.Words/pageverticalalignment/
+url: /nodejs-net/aspose.words/pageverticalalignment/
 ---
 
 ## PageVerticalAlignment enumeration

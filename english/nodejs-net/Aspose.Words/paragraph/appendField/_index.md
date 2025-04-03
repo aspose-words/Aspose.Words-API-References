@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Paragraph.appendField method"
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/paragraph/appendField/
+url: /nodejs-net/aspose.words/paragraph/appendField/
 ---
 
 ## appendField(fieldType, updateField) {#fieldtype_boolean}

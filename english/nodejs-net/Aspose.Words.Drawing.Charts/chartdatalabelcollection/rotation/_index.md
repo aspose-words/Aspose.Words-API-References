@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabelCollection.rotation property. Gets or sets the rotation of the data labels of the entire series in degrees."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/rotation/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/rotation/
 ---
 
 ## ChartDataLabelCollection.rotation property

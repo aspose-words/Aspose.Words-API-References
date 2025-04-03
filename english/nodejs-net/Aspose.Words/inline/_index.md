@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Inline class. Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own"
 type: docs
 weight: 640
-url: /nodejs-net/Aspose.Words/inline/
+url: /nodejs-net/aspose.words/inline/
 ---
 
 ## Inline class

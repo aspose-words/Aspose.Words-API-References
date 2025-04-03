@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VariableCollection.contains method. Determines whether the collection contains a document variable with the given name."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/variablecollection/contains/
+url: /nodejs-net/aspose.words/variablecollection/contains/
 ---
 
 ## contains(name) {#string}

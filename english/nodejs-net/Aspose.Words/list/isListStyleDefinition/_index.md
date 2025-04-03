@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "List.isListStyleDefinition property. Returns ``true`` if this list is a definition of a list style."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/list/isListStyleDefinition/
+url: /nodejs-net/aspose.words/list/isListStyleDefinition/
 ---
 
 ## List.isListStyleDefinition property

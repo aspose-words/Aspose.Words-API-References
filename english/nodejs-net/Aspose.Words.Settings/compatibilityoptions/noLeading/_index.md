@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.noLeading property. Do Not Add Leading Between Lines of Text."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/noLeading/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/noLeading/
 ---
 
 ## CompatibilityOptions.noLeading property

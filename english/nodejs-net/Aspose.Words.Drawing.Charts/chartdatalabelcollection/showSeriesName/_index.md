@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabelCollection.showSeriesName property. Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/showSeriesName/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showSeriesName/
 ---
 
 ## ChartDataLabelCollection.showSeriesName property

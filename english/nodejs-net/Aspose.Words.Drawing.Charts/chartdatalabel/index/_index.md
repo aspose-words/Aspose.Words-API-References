@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.index property. Specifies the index of the containing element"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/index/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 
 ## ChartDataLabel.index property

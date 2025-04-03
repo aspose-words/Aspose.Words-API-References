@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MarkdownSaveOptions.imagesFolderAlias property. Specifies the name of the folder used to construct image URIs written into a document"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/imagesFolderAlias/
+url: /nodejs-net/aspose.words.saving/markdownsaveoptions/imagesFolderAlias/
 ---
 
 ## MarkdownSaveOptions.imagesFolderAlias property

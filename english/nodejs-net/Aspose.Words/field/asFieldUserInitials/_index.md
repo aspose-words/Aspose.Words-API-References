@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldUserInitials method. "
 type: docs
 weight: 1030
-url: /nodejs-net/Aspose.Words/field/asFieldUserInitials/
+url: /nodejs-net/aspose.words/field/asFieldUserInitials/
 ---
 
 ## asFieldUserInitials() {#default}

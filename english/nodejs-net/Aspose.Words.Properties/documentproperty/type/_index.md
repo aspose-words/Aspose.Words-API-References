@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentProperty.type property. Gets the data type of the property."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/type/
+url: /nodejs-net/aspose.words.properties/documentproperty/type/
 ---
 
 ## DocumentProperty.type property

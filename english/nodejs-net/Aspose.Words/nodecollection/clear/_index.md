@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "NodeCollection.clear method. Removes all nodes from this collection and from the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/nodecollection/clear/
+url: /nodejs-net/aspose.words/nodecollection/clear/
 ---
 
 ## clear() {#default}

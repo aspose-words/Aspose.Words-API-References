@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormFieldCollection.remove method. Removes a form field with the specified name."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/formfieldcollection/remove/
+url: /nodejs-net/aspose.words.fields/formfieldcollection/remove/
 ---
 
 ## remove(formField) {#string}

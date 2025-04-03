@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldNext class. Implements the NEXT field"
 type: docs
 weight: 710
-url: /nodejs-net/Aspose.Words.Fields/fieldnext/
+url: /nodejs-net/aspose.words.fields/fieldnext/
 ---
 
 ## FieldNext class

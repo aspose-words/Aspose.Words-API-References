@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.EmphasisMark enumeration. Specifies possible types of emphasis mark."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/emphasismark/
+url: /nodejs-net/aspose.words/emphasismark/
 ---
 
 ## EmphasisMark enumeration

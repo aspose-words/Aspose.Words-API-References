@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Replacing.FindReplaceOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/constructor/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/constructor/
 ---
 
 ## FindReplaceOptions() {#default}

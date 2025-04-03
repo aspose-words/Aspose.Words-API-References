@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asGlossaryDocument method. Cast node to [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/node/asGlossaryDocument/
+url: /nodejs-net/aspose.words/node/asGlossaryDocument/
 ---
 
 ## asGlossaryDocument() {#default}

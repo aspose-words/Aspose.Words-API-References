@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.isEndOfHeaderFooter property. True if this paragraph is the last paragraph in the [HeaderFooter](../../headerfooter/) (main text story) of a [Section](../../section/); false otherwise."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/paragraph/isEndOfHeaderFooter/
+url: /nodejs-net/aspose.words/paragraph/isEndOfHeaderFooter/
 ---
 
 ## Paragraph.isEndOfHeaderFooter property

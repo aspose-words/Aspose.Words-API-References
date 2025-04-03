@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Bookmark.isColumn property. Returns ``true`` if this bookmark is a table column bookmark."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/bookmark/isColumn/
+url: /nodejs-net/aspose.words/bookmark/isColumn/
 ---
 
 ## Bookmark.isColumn property

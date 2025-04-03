@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BarcodeParameters.posCodeStyle property. Style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8)"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/posCodeStyle/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/posCodeStyle/
 ---
 
 ## BarcodeParameters.posCodeStyle property

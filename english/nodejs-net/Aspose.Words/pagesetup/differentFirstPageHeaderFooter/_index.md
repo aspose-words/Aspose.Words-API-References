@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.differentFirstPageHeaderFooter property. True if a different header or footer is used on the first page."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/pagesetup/differentFirstPageHeaderFooter/
+url: /nodejs-net/aspose.words/pagesetup/differentFirstPageHeaderFooter/
 ---
 
 ## PageSetup.differentFirstPageHeaderFooter property
@@ -19,34 +19,6 @@ get differentFirstPageHeaderFooter(): boolean
 ```
 
 ### Examples
-
-Shows how to create headers and footers in a document using DocumentBuilder.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Specify that we want different headers and footers for first, even and odd pages.
-builder.pageSetup.differentFirstPageHeaderFooter = true;
-builder.pageSetup.oddAndEvenPagesHeaderFooter = true;
-
-// Create the headers, then add three pages to the document to display each header type.
-builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderFirst);
-builder.write("Header for the first page");
-builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderEven);
-builder.write("Header for even pages");
-builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderPrimary);
-builder.write("Header for all other pages");
-
-builder.moveToSection(0);
-builder.writeln("Page1");
-builder.insertBreak(aw.BreakType.PageBreak);
-builder.writeln("Page2");
-builder.insertBreak(aw.BreakType.PageBreak);
-builder.writeln("Page3");
-
-doc.save(base.artifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
-```
 
 Shows how to track the order in which a text replacement operation traverses nodes.
 
@@ -128,6 +100,34 @@ builder.writeln("Page 3.");
 builder.pageSetup.differentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
 doc.save(base.artifactsDir + "PageSetup.differentFirstPageHeaderFooter.docx");
+```
+
+Shows how to create headers and footers in a document using DocumentBuilder.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Specify that we want different headers and footers for first, even and odd pages.
+builder.pageSetup.differentFirstPageHeaderFooter = true;
+builder.pageSetup.oddAndEvenPagesHeaderFooter = true;
+
+// Create the headers, then add three pages to the document to display each header type.
+builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderFirst);
+builder.write("Header for the first page");
+builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderEven);
+builder.write("Header for even pages");
+builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderPrimary);
+builder.write("Header for all other pages");
+
+builder.moveToSection(0);
+builder.writeln("Page1");
+builder.insertBreak(aw.BreakType.PageBreak);
+builder.writeln("Page2");
+builder.insertBreak(aw.BreakType.PageBreak);
+builder.writeln("Page3");
+
+doc.save(base.artifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
 ### See Also

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.styleOptions property. Gets or sets bit flags that specify how a table style is applied to this table."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/table/styleOptions/
+url: /nodejs-net/aspose.words/table/styleOptions/
 ---
 
 ## Table.styleOptions property

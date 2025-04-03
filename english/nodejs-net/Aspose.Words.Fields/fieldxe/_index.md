@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldXE class. Implements the XE field"
 type: docs
 weight: 1140
-url: /nodejs-net/Aspose.Words.Fields/fieldxe/
+url: /nodejs-net/aspose.words.fields/fieldxe/
 ---
 
 ## FieldXE class

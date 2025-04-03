@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldBidiOutline class. Implements the BIDIOUTLINE field"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Fields/fieldbidioutline/
+url: /nodejs-net/aspose.words.fields/fieldbidioutline/
 ---
 
 ## FieldBidiOutline class

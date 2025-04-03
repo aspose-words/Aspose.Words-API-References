@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldCreateDate class. Implements the CREATEDATE field"
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Fields/fieldcreatedate/
+url: /nodejs-net/aspose.words.fields/fieldcreatedate/
 ---
 
 ## FieldCreateDate class

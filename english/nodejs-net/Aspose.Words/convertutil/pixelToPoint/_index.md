@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ConvertUtil.pixelToPoint method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/convertutil/pixelToPoint/
+url: /nodejs-net/aspose.words/convertutil/pixelToPoint/
 ---
 
 ## pixelToPoint(pixels) {#number}

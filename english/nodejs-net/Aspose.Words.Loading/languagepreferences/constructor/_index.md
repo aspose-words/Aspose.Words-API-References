@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LanguagePreferences constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/languagepreferences/constructor/
+url: /nodejs-net/aspose.words.loading/languagepreferences/constructor/
 ---
 
 ## LanguagePreferences() {#default}

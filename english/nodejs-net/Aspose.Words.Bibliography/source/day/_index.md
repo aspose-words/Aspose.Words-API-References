@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.day property. Gets or sets the day of a source."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Bibliography/source/day/
+url: /nodejs-net/aspose.words.bibliography/source/day/
 ---
 
 ## Source.day property

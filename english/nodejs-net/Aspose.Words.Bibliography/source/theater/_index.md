@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.theater property. Gets or sets the theater of a source."
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Bibliography/source/theater/
+url: /nodejs-net/aspose.words.bibliography/source/theater/
 ---
 
 ## Source.theater property

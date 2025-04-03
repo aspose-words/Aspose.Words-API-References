@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "The aspose.words.loading module provides classes and enumerations that allow to specify additional options when loading documents."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Loading/
+url: /nodejs-net/aspose.words.loading/
 ---
 
 The **aspose.words.loading** module provides classes and enumerations that

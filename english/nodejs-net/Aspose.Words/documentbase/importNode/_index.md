@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBase.importNode method"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/documentbase/importNode/
+url: /nodejs-net/aspose.words/documentbase/importNode/
 ---
 
 ## importNode(srcNode, isImportChildren) {#node_boolean}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "The Aspose.Words.Themes module provides classes that allow to access theme information in Microsoft Word documents."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Themes/
+url: /nodejs-net/aspose.words.themes/
 ---
 
 The **Aspose.Words.Themes** module provides classes that allow to access theme information in Microsoft Word documents.

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FindReplaceOptions.ignoreFields property. Gets or sets a boolean value indicating either to ignore text inside fields"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreFields/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/ignoreFields/
 ---
 
 ## FindReplaceOptions.ignoreFields property

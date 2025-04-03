@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldTC class. Implements the TC field"
 type: docs
 weight: 1010
-url: /nodejs-net/Aspose.Words.Fields/fieldtc/
+url: /nodejs-net/aspose.words.fields/fieldtc/
 ---
 
 ## FieldTC class

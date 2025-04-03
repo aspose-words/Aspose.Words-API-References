@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.adjustLineHeightInTable property. Add Document Grid Line Pitch To Lines in Table Cells."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/adjustLineHeightInTable/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/adjustLineHeightInTable/
 ---
 
 ## CompatibilityOptions.adjustLineHeightInTable property

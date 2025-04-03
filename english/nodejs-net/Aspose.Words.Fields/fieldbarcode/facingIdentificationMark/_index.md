@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldBarcode.facingIdentificationMark property. Gets or sets the type of a Facing Identification Mark (FIM) to insert."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldbarcode/facingIdentificationMark/
+url: /nodejs-net/aspose.words.fields/fieldbarcode/facingIdentificationMark/
 ---
 
 ## FieldBarcode.facingIdentificationMark property

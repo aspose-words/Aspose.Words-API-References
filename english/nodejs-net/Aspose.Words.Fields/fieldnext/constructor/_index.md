@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldNext constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldnext/constructor/
+url: /nodejs-net/aspose.words.fields/fieldnext/constructor/
 ---
 
 ## FieldNext() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.allCaps property. True if the font is formatted as all capital letters."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/font/allCaps/
+url: /nodejs-net/aspose.words/font/allCaps/
 ---
 
 ## Font.allCaps property

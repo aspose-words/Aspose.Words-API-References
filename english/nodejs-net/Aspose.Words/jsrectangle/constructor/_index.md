@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSRectangle constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/jsrectangle/constructor/
+url: /nodejs-net/aspose.words/jsrectangle/constructor/
 ---
 
 ## JSRectangle(x, y, width, height) {#number_number_number_number}

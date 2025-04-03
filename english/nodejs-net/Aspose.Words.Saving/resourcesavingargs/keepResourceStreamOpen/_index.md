@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ResourceSavingArgs.keepResourceStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a resource."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/resourcesavingargs/keepResourceStreamOpen/
+url: /nodejs-net/aspose.words.saving/resourcesavingargs/keepResourceStreamOpen/
 ---
 
 ## ResourceSavingArgs.keepResourceStreamOpen property

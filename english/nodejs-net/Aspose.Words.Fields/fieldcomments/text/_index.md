@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldComments.text property. Gets or sets the text of the comments."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldcomments/text/
+url: /nodejs-net/aspose.words.fields/fieldcomments/text/
 ---
 
 ## FieldComments.text property

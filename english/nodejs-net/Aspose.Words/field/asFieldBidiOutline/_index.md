@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldBidiOutline method. "
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/field/asFieldBidiOutline/
+url: /nodejs-net/aspose.words/field/asFieldBidiOutline/
 ---
 
 ## asFieldBidiOutline() {#default}

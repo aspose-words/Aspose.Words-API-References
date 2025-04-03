@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.leftMode property. Gets or sets the interpretation mode of the [ChartDataLabel.left](../left/) property value: whether it sets the location of the data label from the left edge of the chart of from the position specified by its [ChartDataLabel.position](../position/) property."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/leftMode/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/leftMode/
 ---
 
 ## ChartDataLabel.leftMode property

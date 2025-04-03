@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentProperty.linkSource property. Gets the source of a linked custom document property."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/linkSource/
+url: /nodejs-net/aspose.words.properties/documentproperty/linkSource/
 ---
 
 ## DocumentProperty.linkSource property

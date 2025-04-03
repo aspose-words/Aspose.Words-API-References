@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Lists.ListLevel class. Defines formatting for a list level"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Lists/listlevel/
+url: /nodejs-net/aspose.words.lists/listlevel/
 ---
 
 ## ListLevel class

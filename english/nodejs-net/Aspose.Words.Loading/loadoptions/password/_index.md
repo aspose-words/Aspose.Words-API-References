@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.password property. Gets or sets the password for opening an encrypted document"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/password/
+url: /nodejs-net/aspose.words.loading/loadoptions/password/
 ---
 
 ## LoadOptions.password property

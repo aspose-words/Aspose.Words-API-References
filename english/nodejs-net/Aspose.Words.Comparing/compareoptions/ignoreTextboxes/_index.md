@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompareOptions.ignoreTextboxes property. Specifies whether to compare differences in the data contained within text boxes."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/ignoreTextboxes/
+url: /nodejs-net/aspose.words.comparing/compareoptions/ignoreTextboxes/
 ---
 
 ## CompareOptions.ignoreTextboxes property

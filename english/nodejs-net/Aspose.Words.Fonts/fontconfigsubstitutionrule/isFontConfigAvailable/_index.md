@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontConfigSubstitutionRule.isFontConfigAvailable method. Check if fontconfig utility is available or not."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontconfigsubstitutionrule/isFontConfigAvailable/
+url: /nodejs-net/aspose.words.fonts/fontconfigsubstitutionrule/isFontConfigAvailable/
 ---
 
 ## isFontConfigAvailable() {#default}

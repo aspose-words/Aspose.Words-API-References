@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartYValueCollection.count property. Gets the number of items in this collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartyvaluecollection/count/
+url: /nodejs-net/aspose.words.drawing.charts/chartyvaluecollection/count/
 ---
 
 ## ChartYValueCollection.count property

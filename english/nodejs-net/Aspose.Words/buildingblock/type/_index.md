@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlock.type property. Specifies the building block type."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/buildingblock/type/
+url: /nodejs-net/aspose.words/buildingblock/type/
 ---
 
 ## BuildingBlock.type property

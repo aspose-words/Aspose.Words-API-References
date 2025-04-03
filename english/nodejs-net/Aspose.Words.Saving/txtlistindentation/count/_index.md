@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TxtListIndentation.count property. Gets or sets how many [TxtListIndentation.character](../character/) to use as indentation per one list level"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/txtlistindentation/count/
+url: /nodejs-net/aspose.words.saving/txtlistindentation/count/
 ---
 
 ## TxtListIndentation.count property

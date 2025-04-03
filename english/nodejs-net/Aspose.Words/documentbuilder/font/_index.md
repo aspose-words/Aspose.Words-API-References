@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.font property. Returns an object that represents current font formatting properties."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/documentbuilder/font/
+url: /nodejs-net/aspose.words/documentbuilder/font/
 ---
 
 ## DocumentBuilder.font property
@@ -28,6 +28,21 @@ Specify font formatting before inserting text.
 
 
 ### Examples
+
+Shows how to insert a string surrounded by a border into a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.font.border.color = "#008000";
+builder.font.border.lineWidth = 2.5;
+builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
+
+builder.write("Text surrounded by green border.");
+
+doc.save(base.artifactsDir + "Border.FontBorder.docx");
+```
 
 Shows how to create a formatted table using DocumentBuilder.
 
@@ -85,21 +100,6 @@ builder.endRow();
 builder.endTable();
 
 doc.save(base.artifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
-```
-
-Shows how to insert a string surrounded by a border into a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.font.border.color = "#008000";
-builder.font.border.lineWidth = 2.5;
-builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
-
-builder.write("Text surrounded by green border.");
-
-doc.save(base.artifactsDir + "Border.FontBorder.docx");
 ```
 
 ### See Also

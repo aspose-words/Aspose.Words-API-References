@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Math.OfficeMath class. Represents an Office Math object such as function, equation, matrix or alike"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Math/officemath/
+url: /nodejs-net/aspose.words.math/officemath/
 ---
 
 ## OfficeMath class

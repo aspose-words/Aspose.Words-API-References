@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.acceptEnd method. Accepts a visitor for visiting the end of the table."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/table/acceptEnd/
+url: /nodejs-net/aspose.words/table/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

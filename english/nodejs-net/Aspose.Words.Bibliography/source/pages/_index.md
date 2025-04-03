@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.pages property. Gets or sets the pages of a source."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words.Bibliography/source/pages/
+url: /nodejs-net/aspose.words.bibliography/source/pages/
 ---
 
 ## Source.pages property

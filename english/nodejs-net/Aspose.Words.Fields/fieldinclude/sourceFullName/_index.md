@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldInclude.sourceFullName property. Gets or sets the location of the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldinclude/sourceFullName/
+url: /nodejs-net/aspose.words.fields/fieldinclude/sourceFullName/
 ---
 
 ## FieldInclude.sourceFullName property

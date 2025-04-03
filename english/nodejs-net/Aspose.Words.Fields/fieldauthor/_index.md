@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldAuthor class. Implements the AUTHOR field"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/fieldauthor/
+url: /nodejs-net/aspose.words.fields/fieldauthor/
 ---
 
 ## FieldAuthor class

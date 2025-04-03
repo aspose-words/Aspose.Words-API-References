@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GeneralFormatCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/generalformatcollection/this[]/
+url: /nodejs-net/aspose.words.fields/generalformatcollection/this[]/
 ---
 
 ## GeneralFormatCollection.this[] property

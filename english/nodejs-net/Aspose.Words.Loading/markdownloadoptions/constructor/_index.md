@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MarkdownLoadOptions constructor. Initializes a new instance of [MarkdownLoadOptions](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/markdownloadoptions/constructor/
+url: /nodejs-net/aspose.words.loading/markdownloadoptions/constructor/
 ---
 
 ## MarkdownLoadOptions() {#default}

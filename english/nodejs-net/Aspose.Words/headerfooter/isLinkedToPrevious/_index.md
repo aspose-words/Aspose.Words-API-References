@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooter.isLinkedToPrevious property. True if this header or footer is linked to the corresponding header or footer in the previous section."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/headerfooter/isLinkedToPrevious/
+url: /nodejs-net/aspose.words/headerfooter/isLinkedToPrevious/
 ---
 
 ## HeaderFooter.isLinkedToPrevious property

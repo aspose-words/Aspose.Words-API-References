@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getFootnote method. "
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/compositenode/getFootnote/
+url: /nodejs-net/aspose.words/compositenode/getFootnote/
 ---
 
 ## getFootnote(index, isDeep) {#number_boolean}

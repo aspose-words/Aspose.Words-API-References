@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSavingArgs.keepPageStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a document page."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/pagesavingargs/keepPageStreamOpen/
+url: /nodejs-net/aspose.words.saving/pagesavingargs/keepPageStreamOpen/
 ---
 
 ## PageSavingArgs.keepPageStreamOpen property

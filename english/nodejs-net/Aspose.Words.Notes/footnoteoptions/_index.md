@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Notes.FootnoteOptions class. Represents the footnote numbering options for a document or section"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Notes/footnoteoptions/
+url: /nodejs-net/aspose.words.notes/footnoteoptions/
 ---
 
 ## FootnoteOptions class

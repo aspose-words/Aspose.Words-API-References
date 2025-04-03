@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.borderAlwaysInFront property. Specifies where the page border is positioned relative to intersecting texts and objects."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/pagesetup/borderAlwaysInFront/
+url: /nodejs-net/aspose.words/pagesetup/borderAlwaysInFront/
 ---
 
 ## PageSetup.borderAlwaysInFront property

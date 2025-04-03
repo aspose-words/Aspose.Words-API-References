@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GroupShape.acceptEnd method. Accepts a visitor for visiting the end of the GroupShape."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/groupshape/acceptEnd/
+url: /nodejs-net/aspose.words.drawing/groupshape/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

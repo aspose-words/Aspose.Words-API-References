@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeEnd.nodeType property. Returns [NodeType.StructuredDocumentTagRangeEnd](../../../aspose.words/nodetype/#StructuredDocumentTagRangeEnd)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangeend/nodeType/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangeend/nodeType/
 ---
 
 ## StructuredDocumentTagRangeEnd.nodeType property

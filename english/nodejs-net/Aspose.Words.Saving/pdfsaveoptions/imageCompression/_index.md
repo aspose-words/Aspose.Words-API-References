@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.imageCompression property. Specifies compression type to be used for all images in the document."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/imageCompression/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/imageCompression/
 ---
 
 ## PdfSaveOptions.imageCompression property

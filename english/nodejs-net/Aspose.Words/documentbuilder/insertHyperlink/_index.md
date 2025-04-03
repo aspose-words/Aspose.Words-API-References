@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertHyperlink method. Inserts a hyperlink into the document."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/documentbuilder/insertHyperlink/
+url: /nodejs-net/aspose.words/documentbuilder/insertHyperlink/
 ---
 
 ## insertHyperlink(displayText, urlOrBookmark, isBookmark) {#string_string_boolean}

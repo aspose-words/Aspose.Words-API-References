@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldAutoNumLgl class. Implements the AUTONUMLGL field"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Fields/fieldautonumlgl/
+url: /nodejs-net/aspose.words.fields/fieldautonumlgl/
 ---
 
 ## FieldAutoNumLgl class

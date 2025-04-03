@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.PageLayoutEvent enumeration. A code of event raised during page layout model build and rendering."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Layout/pagelayoutevent/
+url: /nodejs-net/aspose.words.layout/pagelayoutevent/
 ---
 
 ## PageLayoutEvent enumeration

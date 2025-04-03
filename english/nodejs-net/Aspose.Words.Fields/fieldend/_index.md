@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldEnd class. Represents an end of a Word field in a document"
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words.Fields/fieldend/
+url: /nodejs-net/aspose.words.fields/fieldend/
 ---
 
 ## FieldEnd class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableSubstitutionRule.addSubstitutes method. Adds substitute font names for given original font name."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/addSubstitutes/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/addSubstitutes/
 ---
 
 ## addSubstitutes(originalFontName, substituteFontNames) {#string_string[]}

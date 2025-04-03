@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPart.clone method. Makes a deep enough copy of the object"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/customxmlpart/clone/
+url: /nodejs-net/aspose.words.markup/customxmlpart/clone/
 ---
 
 ## clone() {#default}

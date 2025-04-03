@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.isLocked property. Gets or sets whether the field is locked (should not recalculate its result)."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/field/isLocked/
+url: /nodejs-net/aspose.words/field/isLocked/
 ---
 
 ## Field.isLocked property

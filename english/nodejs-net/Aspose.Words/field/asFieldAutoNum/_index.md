@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldAutoNum method. "
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/field/asFieldAutoNum/
+url: /nodejs-net/aspose.words/field/asFieldAutoNum/
 ---
 
 ## asFieldAutoNum() {#default}

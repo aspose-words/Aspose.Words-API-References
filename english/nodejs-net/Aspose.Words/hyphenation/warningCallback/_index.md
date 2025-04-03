@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Hyphenation.warningCallback property. Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/hyphenation/warningCallback/
+url: /nodejs-net/aspose.words/hyphenation/warningCallback/
 ---
 
 ## Hyphenation.warningCallback property

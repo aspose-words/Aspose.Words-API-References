@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.acceptStart method. Accepts a visitor for visiting the start of the shape."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.Drawing/shape/acceptStart/
+url: /nodejs-net/aspose.words.drawing/shape/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

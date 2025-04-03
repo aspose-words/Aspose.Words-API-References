@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartMarker.format property. Provides access to fill and line formatting of this marker."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartmarker/format/
+url: /nodejs-net/aspose.words.drawing.charts/chartmarker/format/
 ---
 
 ## ChartMarker.format property

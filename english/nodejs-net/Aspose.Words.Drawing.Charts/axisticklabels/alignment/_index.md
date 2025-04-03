@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisTickLabels.alignment property. Gets or sets text alignment of the axis tick labels."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabels/alignment/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabels/alignment/
 ---
 
 ## AxisTickLabels.alignment property

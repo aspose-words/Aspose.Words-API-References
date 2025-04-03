@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HorizontalRuleFormat.noShade property. Indicates the presence of 3D shading for the horizontal rule"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/horizontalruleformat/noShade/
+url: /nodejs-net/aspose.words.drawing/horizontalruleformat/noShade/
 ---
 
 ## HorizontalRuleFormat.noShade property

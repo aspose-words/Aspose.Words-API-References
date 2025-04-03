@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asFormField method. Cast node to [FormField](../../../aspose.words.fields/formfield/)."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/node/asFormField/
+url: /nodejs-net/aspose.words/node/asFormField/
 ---
 
 ## asFormField() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertFootnote method"
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/documentbuilder/insertFootnote/
+url: /nodejs-net/aspose.words/documentbuilder/insertFootnote/
 ---
 
 ## insertFootnote(footnoteType, footnoteText) {#footnotetype_string}

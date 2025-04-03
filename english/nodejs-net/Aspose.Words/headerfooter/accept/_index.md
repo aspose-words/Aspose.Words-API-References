@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooter.accept method. Accepts a visitor."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/headerfooter/accept/
+url: /nodejs-net/aspose.words/headerfooter/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

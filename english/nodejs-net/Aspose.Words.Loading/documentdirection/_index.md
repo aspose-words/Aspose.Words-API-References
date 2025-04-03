@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.DocumentDirection enumeration. Allows to specify the direction to flow the text in a document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Loading/documentdirection/
+url: /nodejs-net/aspose.words.loading/documentdirection/
 ---
 
 ## DocumentDirection enumeration

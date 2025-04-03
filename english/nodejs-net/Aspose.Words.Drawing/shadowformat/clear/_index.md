@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShadowFormat.clear method. Clears shadow format."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/shadowformat/clear/
+url: /nodejs-net/aspose.words.drawing/shadowformat/clear/
 ---
 
 ## clear() {#default}

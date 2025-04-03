@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Revision.group property. Gets the revision group"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/revision/group/
+url: /nodejs-net/aspose.words/revision/group/
 ---
 
 ## Revision.group property

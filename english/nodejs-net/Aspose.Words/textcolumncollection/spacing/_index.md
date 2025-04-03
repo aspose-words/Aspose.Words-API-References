@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextColumnCollection.spacing property. When columns are evenly spaced, gets or sets the amount of space between each column in points."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/textcolumncollection/spacing/
+url: /nodejs-net/aspose.words/textcolumncollection/spacing/
 ---
 
 ## TextColumnCollection.spacing property

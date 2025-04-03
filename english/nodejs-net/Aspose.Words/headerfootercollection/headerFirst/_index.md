@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooterCollection.headerFirst property. Retrieves a header for the first page of the section."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/headerfootercollection/headerFirst/
+url: /nodejs-net/aspose.words/headerfootercollection/headerFirst/
 ---
 
 ## HeaderFooterCollection.headerFirst property

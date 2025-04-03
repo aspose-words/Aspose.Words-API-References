@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.axisZ property. Provides access to properties of the Z axis of the chart."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/chart/axisZ/
+url: /nodejs-net/aspose.words.drawing/chart/axisZ/
 ---
 
 ## Chart.axisZ property

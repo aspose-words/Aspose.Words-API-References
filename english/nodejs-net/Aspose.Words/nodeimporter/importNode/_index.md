@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "NodeImporter.importNode method. Imports a node from one document into another."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/nodeimporter/importNode/
+url: /nodejs-net/aspose.words/nodeimporter/importNode/
 ---
 
 ## importNode(srcNode, isImportChildren) {#node_boolean}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FileFormatUtil.contentTypeToLoadFormat method. Converts IANA content type into a load format enumerated value."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/fileformatutil/contentTypeToLoadFormat/
+url: /nodejs-net/aspose.words/fileformatutil/contentTypeToLoadFormat/
 ---
 
 ## contentTypeToLoadFormat(contentType) {#string}

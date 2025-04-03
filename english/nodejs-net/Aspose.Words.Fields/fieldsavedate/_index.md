@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldSaveDate class. Implements the SAVEDATE field"
 type: docs
 weight: 880
-url: /nodejs-net/Aspose.Words.Fields/fieldsavedate/
+url: /nodejs-net/aspose.words.fields/fieldsavedate/
 ---
 
 ## FieldSaveDate class

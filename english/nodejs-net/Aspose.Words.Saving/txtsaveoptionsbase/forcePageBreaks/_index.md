@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TxtSaveOptionsBase.forcePageBreaks property. Allows to specify whether the page breaks should be preserved during export."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/txtsaveoptionsbase/forcePageBreaks/
+url: /nodejs-net/aspose.words.saving/txtsaveoptionsbase/forcePageBreaks/
 ---
 
 ## TxtSaveOptionsBase.forcePageBreaks property

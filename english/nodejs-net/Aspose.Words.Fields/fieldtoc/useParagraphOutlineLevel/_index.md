@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.useParagraphOutlineLevel property. Gets or sets whether to use the applied paragraph outline level."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/useParagraphOutlineLevel/
+url: /nodejs-net/aspose.words.fields/fieldtoc/useParagraphOutlineLevel/
 ---
 
 ## FieldToc.useParagraphOutlineLevel property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomPart.name property. Gets or sets this part's absolute name within the OOXML package or the target URL."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Markup/custompart/name/
+url: /nodejs-net/aspose.words.markup/custompart/name/
 ---
 
 ## CustomPart.name property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.charactersWithSpaces property. Represents an estimate of the number of characters (including spaces) in the document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/charactersWithSpaces/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/charactersWithSpaces/
 ---
 
 ## BuiltInDocumentProperties.charactersWithSpaces property

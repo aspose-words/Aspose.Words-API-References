@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.sameLetterHeights property. Determines whether all letters will be the same height regardless of initial case."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/textpath/sameLetterHeights/
+url: /nodejs-net/aspose.words.drawing/textpath/sameLetterHeights/
 ---
 
 ## TextPath.sameLetterHeights property

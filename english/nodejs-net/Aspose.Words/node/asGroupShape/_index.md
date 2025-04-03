@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asGroupShape method. Cast node to [GroupShape](../../../aspose.words.drawing/groupshape/)."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/node/asGroupShape/
+url: /nodejs-net/aspose.words/node/asGroupShape/
 ---
 
 ## asGroupShape() {#default}

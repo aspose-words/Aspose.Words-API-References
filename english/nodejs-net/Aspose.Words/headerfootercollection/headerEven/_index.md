@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooterCollection.headerEven property. Retrieves a header for even numbered pages."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/headerfootercollection/headerEven/
+url: /nodejs-net/aspose.words/headerfootercollection/headerEven/
 ---
 
 ## HeaderFooterCollection.headerEven property

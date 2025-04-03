@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XamlFlowSaveOptions class. Can be used to specify additional options when saving a document into the  [SaveFormat.XamlFlow](../../aspose.words/saveformat/#XamlFlow) or [SaveFormat.XamlFlowPack](../../aspose.words/saveformat/#XamlFlowPack) format"
 type: docs
 weight: 900
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/
 ---
 
 ## XamlFlowSaveOptions class

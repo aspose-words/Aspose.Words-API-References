@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Row constructor. Initializes a new instance of the [Row](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Tables/row/constructor/
+url: /nodejs-net/aspose.words.tables/row/constructor/
 ---
 
 ## Row(doc) {#documentbase}

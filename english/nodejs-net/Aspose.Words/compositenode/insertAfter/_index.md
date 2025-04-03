@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.insertAfter method. Inserts the specified node immediately after the specified reference node."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/compositenode/insertAfter/
+url: /nodejs-net/aspose.words/compositenode/insertAfter/
 ---
 
 ## insertAfter(newChild, refChild) {#node_node}

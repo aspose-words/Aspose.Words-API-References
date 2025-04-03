@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.isHidden property. Gets/sets a flag indicating whether this label is hidden"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/isHidden/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/isHidden/
 ---
 
 ## ChartDataLabel.isHidden property

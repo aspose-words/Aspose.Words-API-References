@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldDisplayBarcode method. "
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/field/asFieldDisplayBarcode/
+url: /nodejs-net/aspose.words/field/asFieldDisplayBarcode/
 ---
 
 ## asFieldDisplayBarcode() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Odso.dataSource property. Specifies the location of the external data source to be connected to a document to perform the mail merge"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/odso/dataSource/
+url: /nodejs-net/aspose.words.settings/odso/dataSource/
 ---
 
 ## Odso.dataSource property

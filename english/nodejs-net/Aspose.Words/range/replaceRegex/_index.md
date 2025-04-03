@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Range.replaceRegex method"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/range/replaceRegex/
+url: /nodejs-net/aspose.words/range/replaceRegex/
 ---
 
 ## replaceRegex(pattern, replacement) {#string_string}

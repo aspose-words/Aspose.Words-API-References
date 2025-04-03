@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.justificationMode property. Gets or sets the character spacing adjustment of a document."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/document/justificationMode/
+url: /nodejs-net/aspose.words/document/justificationMode/
 ---
 
 ## Document.justificationMode property

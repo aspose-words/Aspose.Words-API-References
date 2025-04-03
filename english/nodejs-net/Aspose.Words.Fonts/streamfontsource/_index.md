@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.StreamFontSource class. Base class for user-defined stream font source"
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Fonts/streamfontsource/
+url: /nodejs-net/aspose.words.fonts/streamfontsource/
 ---
 
 ## StreamFontSource class

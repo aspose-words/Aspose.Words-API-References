@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDisplayBarcode.barcodeValue property. Gets or sets the barcode value."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fielddisplaybarcode/barcodeValue/
+url: /nodejs-net/aspose.words.fields/fielddisplaybarcode/barcodeValue/
 ---
 
 ## FieldDisplayBarcode.barcodeValue property

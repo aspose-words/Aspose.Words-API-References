@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlLoadOptions.supportFontFaceRules property. Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Loading/htmlloadoptions/supportFontFaceRules/
+url: /nodejs-net/aspose.words.loading/htmlloadoptions/supportFontFaceRules/
 ---
 
 ## HtmlLoadOptions.supportFontFaceRules property

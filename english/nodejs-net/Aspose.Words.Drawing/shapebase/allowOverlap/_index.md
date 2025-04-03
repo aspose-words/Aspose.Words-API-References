@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.allowOverlap property. Gets or sets a value that specifies whether this shape can overlap other shapes."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/allowOverlap/
+url: /nodejs-net/aspose.words.drawing/shapebase/allowOverlap/
 ---
 
 ## ShapeBase.allowOverlap property

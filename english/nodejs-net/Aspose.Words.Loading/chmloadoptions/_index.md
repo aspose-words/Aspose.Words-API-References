@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.ChmLoadOptions class. Allows to specify additional options when loading CHM document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Loading/chmloadoptions/
+url: /nodejs-net/aspose.words.loading/chmloadoptions/
 ---
 
 ## ChmLoadOptions class

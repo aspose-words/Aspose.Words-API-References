@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.AxisTickLabelPosition enumeration. Specifies the possible positions for tick labels."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabelposition/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabelposition/
 ---
 
 ## AxisTickLabelPosition enumeration

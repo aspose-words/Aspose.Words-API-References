@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportFontResources property. Specifies whether font resources should be exported to HTML, MHTML or EPUB"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportFontResources/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportFontResources/
 ---
 
 ## HtmlSaveOptions.exportFontResources property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IStructuredDocumentTag.appearance property. Gets or sets the appearance of the structured document tag."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/appearance/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/appearance/
 ---
 
 ## IStructuredDocumentTag.appearance property

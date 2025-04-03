@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.WebExtensions.WebExtensionBinding class. Specifies a binding relationship between a web extension and the data in the document"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbinding/
+url: /nodejs-net/aspose.words.webextensions/webextensionbinding/
 ---
 
 ## WebExtensionBinding class

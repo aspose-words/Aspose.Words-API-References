@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.linkedStyle property. Gets or sets the paragraph style that is linked to this list level."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Lists/listlevel/linkedStyle/
+url: /nodejs-net/aspose.words.lists/listlevel/linkedStyle/
 ---
 
 ## ListLevel.linkedStyle property

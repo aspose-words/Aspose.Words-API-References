@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionPropertyCollection.add method. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionpropertycollection/add/
+url: /nodejs-net/aspose.words.webextensions/webextensionpropertycollection/add/
 ---
 
 ## add(item) {#webextensionproperty}

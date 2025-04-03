@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfDigitalSignatureTimestampSettings.userName property. Timestamp server user name."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturetimestampsettings/userName/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/userName/
 ---
 
 ## PdfDigitalSignatureTimestampSettings.userName property

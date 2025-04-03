@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.FileFormatUtil.detectFileFormat method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/fileformatutil/detectFileFormat/
+url: /nodejs-net/aspose.words/fileformatutil/detectFileFormat/
 ---
 
 ## detectFileFormat(fileName) {#string}

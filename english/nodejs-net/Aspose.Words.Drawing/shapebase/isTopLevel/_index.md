@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.isTopLevel property. Returns ``true`` if this shape is not a child of a group shape."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/isTopLevel/
+url: /nodejs-net/aspose.words.drawing/shapebase/isTopLevel/
 ---
 
 ## ShapeBase.isTopLevel property

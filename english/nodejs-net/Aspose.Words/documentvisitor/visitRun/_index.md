@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitRun method. Called when a run of text in the is encountered."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/documentvisitor/visitRun/
+url: /nodejs-net/aspose.words/documentvisitor/visitRun/
 ---
 
 ## visitRun(run) {#run}

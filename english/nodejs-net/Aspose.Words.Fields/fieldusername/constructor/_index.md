@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldUserName constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldusername/constructor/
+url: /nodejs-net/aspose.words.fields/fieldusername/constructor/
 ---
 
 ## FieldUserName() {#default}

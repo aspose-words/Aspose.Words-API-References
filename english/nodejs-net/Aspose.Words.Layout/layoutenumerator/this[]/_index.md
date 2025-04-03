@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.this[] property. "
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/this[]/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/this[]/
 ---
 
 ## LayoutEnumerator.this[] property

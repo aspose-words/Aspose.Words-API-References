@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IDocumentReaderPlugin.read method. Reads the data from the specified stream into the [Document](../../document/) instance."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/idocumentreaderplugin/read/
+url: /nodejs-net/aspose.words/idocumentreaderplugin/read/
 ---
 
 ## read(src, loadOptions, document) {#buffer_loadoptions_document}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.isFirstCell property. True if this is the first cell inside a row; false otherwise."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Tables/cell/isFirstCell/
+url: /nodejs-net/aspose.words.tables/cell/isFirstCell/
 ---
 
 ## Cell.isFirstCell property

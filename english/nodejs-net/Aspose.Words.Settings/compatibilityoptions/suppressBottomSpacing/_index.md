@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.suppressBottomSpacing property. Ignore Exact Line Height for Last Line on Page."
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/suppressBottomSpacing/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/suppressBottomSpacing/
 ---
 
 ## CompatibilityOptions.suppressBottomSpacing property

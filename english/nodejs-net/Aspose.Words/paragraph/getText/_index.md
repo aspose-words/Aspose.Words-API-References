@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.getText method. Gets the text of this paragraph including the end of paragraph character."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/paragraph/getText/
+url: /nodejs-net/aspose.words/paragraph/getText/
 ---
 
 ## getText() {#default}

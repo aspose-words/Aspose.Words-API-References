@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfDigitalSignatureDetails class. Contains details for signing a PDF document with a digital signature."
 type: docs
 weight: 620
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 
 ## PdfDigitalSignatureDetails class

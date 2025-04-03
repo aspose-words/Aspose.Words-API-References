@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FileFormatUtil.loadFormatToExtension method. Converts a load format enumerated value into a file extension"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/fileformatutil/loadFormatToExtension/
+url: /nodejs-net/aspose.words/fileformatutil/loadFormatToExtension/
 ---
 
 ## loadFormatToExtension(loadFormat) {#loadformat}

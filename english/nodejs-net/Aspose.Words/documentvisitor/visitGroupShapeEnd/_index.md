@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitGroupShapeEnd method. Called when enumeration of a group shape has ended."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/documentvisitor/visitGroupShapeEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitGroupShapeEnd/
 ---
 
 ## visitGroupShapeEnd(groupShape) {#groupshape}

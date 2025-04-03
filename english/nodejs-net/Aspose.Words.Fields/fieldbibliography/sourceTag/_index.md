@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldBibliography.sourceTag property. Gets or sets a value so that only the sources with matching Tag element value are displayed in the bibliography."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldbibliography/sourceTag/
+url: /nodejs-net/aspose.words.fields/fieldbibliography/sourceTag/
 ---
 
 ## FieldBibliography.sourceTag property

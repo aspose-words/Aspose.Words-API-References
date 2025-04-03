@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartDataLabelPosition enumeration. Specifies the position for a chart data label."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelposition/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelposition/
 ---
 
 ## ChartDataLabelPosition enumeration

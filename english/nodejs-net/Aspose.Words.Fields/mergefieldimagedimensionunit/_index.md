@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.MergeFieldImageDimensionUnit enumeration. Specifies an unit of an image dimension (i.e"
 type: docs
 weight: 1280
-url: /nodejs-net/Aspose.Words.Fields/mergefieldimagedimensionunit/
+url: /nodejs-net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 
 ## MergeFieldImageDimensionUnit enumeration

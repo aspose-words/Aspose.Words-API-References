@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OleFormat.isLink property. Returns ``true`` if the OLE object is linked (when [OleFormat.sourceFullName](../sourceFullName/) is specified)."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/isLink/
+url: /nodejs-net/aspose.words.drawing/oleformat/isLink/
 ---
 
 ## OleFormat.isLink property

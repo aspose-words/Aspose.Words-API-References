@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "License constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/license/constructor/
+url: /nodejs-net/aspose.words/license/constructor/
 ---
 
 ## License() {#default}

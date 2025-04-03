@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.LoadOptions class. Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/
+url: /nodejs-net/aspose.words.loading/loadoptions/
 ---
 
 ## LoadOptions class

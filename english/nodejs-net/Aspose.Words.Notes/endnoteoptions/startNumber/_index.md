@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EndnoteOptions.startNumber property. Specifies the starting number or character for the first automatically numbered endnotes."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Notes/endnoteoptions/startNumber/
+url: /nodejs-net/aspose.words.notes/endnoteoptions/startNumber/
 ---
 
 ## EndnoteOptions.startNumber property

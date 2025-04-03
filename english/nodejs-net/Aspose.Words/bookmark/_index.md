@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Bookmark class. Represents a single bookmark"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/bookmark/
+url: /nodejs-net/aspose.words/bookmark/
 ---
 
 ## Bookmark class

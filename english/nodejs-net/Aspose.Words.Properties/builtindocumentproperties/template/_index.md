@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.template property. Gets or sets the informational name of the document template."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/template/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/template/
 ---
 
 ## BuiltInDocumentProperties.template property

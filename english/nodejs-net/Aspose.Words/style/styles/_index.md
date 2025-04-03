@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.styles property. Gets the collection of styles this style belongs to."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/style/styles/
+url: /nodejs-net/aspose.words/style/styles/
 ---
 
 ## Style.styles property

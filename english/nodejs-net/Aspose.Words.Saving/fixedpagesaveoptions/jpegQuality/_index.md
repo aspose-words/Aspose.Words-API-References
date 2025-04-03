@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FixedPageSaveOptions.jpegQuality property. Gets or sets a value determining the quality of the JPEG images inside Html document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/jpegQuality/
+url: /nodejs-net/aspose.words.saving/fixedpagesaveoptions/jpegQuality/
 ---
 
 ## FixedPageSaveOptions.jpegQuality property

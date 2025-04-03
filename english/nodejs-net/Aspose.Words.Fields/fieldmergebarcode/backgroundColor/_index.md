@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMergeBarcode.backgroundColor property. Gets or sets the background color of the barcode symbol"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/backgroundColor/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/backgroundColor/
 ---
 
 ## FieldMergeBarcode.backgroundColor property

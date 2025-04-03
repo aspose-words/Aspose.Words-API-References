@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Corporate constructor. Initialize a new instance of the [Corporate](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Bibliography/corporate/constructor/
+url: /nodejs-net/aspose.words.bibliography/corporate/constructor/
 ---
 
 ## Corporate(name) {#string}

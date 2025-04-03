@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Forms2OleControl.enabled property. Returns ``true`` if control is in enabled state."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/enabled/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 ---
 
 ## Forms2OleControl.enabled property

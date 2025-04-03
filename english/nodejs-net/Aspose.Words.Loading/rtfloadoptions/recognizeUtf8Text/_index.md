@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RtfLoadOptions.recognizeUtf8Text property. When set to ``true``,  will try to detect UTF8 characters,  they will be preserved during import."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Loading/rtfloadoptions/recognizeUtf8Text/
+url: /nodejs-net/aspose.words.loading/rtfloadoptions/recognizeUtf8Text/
 ---
 
 ## RtfLoadOptions.recognizeUtf8Text property

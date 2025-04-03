@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldGlossary class. Implements the GLOSSARY field"
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words.Fields/fieldglossary/
+url: /nodejs-net/aspose.words.fields/fieldglossary/
 ---
 
 ## FieldGlossary class

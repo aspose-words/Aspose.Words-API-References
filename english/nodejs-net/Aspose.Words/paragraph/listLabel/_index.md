@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.listLabel property. Gets a [Paragraph.listLabel](./) object that provides access to list numbering value and formatting for this paragraph."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/paragraph/listLabel/
+url: /nodejs-net/aspose.words/paragraph/listLabel/
 ---
 
 ## Paragraph.listLabel property

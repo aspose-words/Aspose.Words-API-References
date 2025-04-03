@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IDocumentConverterPlugin.convert method. Converts document using specified input output streams and save options."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/idocumentconverterplugin/convert/
+url: /nodejs-net/aspose.words/idocumentconverterplugin/convert/
 ---
 
 ## convert(inputStream, loadOptions, outputStream, saveOptions) {#buffer_loadoptions_buffer_saveoptions}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.absoluteVerticalDistance property. Gets or sets absolute vertical floating table position specified by the table properties, in points"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/table/absoluteVerticalDistance/
+url: /nodejs-net/aspose.words/table/absoluteVerticalDistance/
 ---
 
 ## Table.absoluteVerticalDistance property

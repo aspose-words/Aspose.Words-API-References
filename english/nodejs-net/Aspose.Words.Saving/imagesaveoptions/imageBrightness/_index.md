@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSaveOptions.imageBrightness property. Gets or sets the brightness for the generated images."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/imageBrightness/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/imageBrightness/
 ---
 
 ## ImageSaveOptions.imageBrightness property

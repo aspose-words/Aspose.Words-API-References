@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSRectangleF constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/jsrectanglef/constructor/
+url: /nodejs-net/aspose.words/jsrectanglef/constructor/
 ---
 
 ## JSRectangleF(x, y, width, height) {#number_number_number_number}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdsoFieldMapDataCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdatacollection/this[]/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdatacollection/this[]/
 ---
 
 ## OdsoFieldMapDataCollection.this[] property

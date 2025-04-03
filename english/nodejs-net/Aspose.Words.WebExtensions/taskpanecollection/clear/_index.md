@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TaskPaneCollection.clear method. "
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpanecollection/clear/
+url: /nodejs-net/aspose.words.webextensions/taskpanecollection/clear/
 ---
 
 ## clear() {#default}

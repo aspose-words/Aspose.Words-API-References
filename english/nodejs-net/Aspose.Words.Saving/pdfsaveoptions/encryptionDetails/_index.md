@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.encryptionDetails property. Gets or sets the details for encrypting the output PDF document."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/encryptionDetails/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/encryptionDetails/
 ---
 
 ## PdfSaveOptions.encryptionDetails property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitStructuredDocumentTagEnd method. Called when enumeration of a structured document tag has ended."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words/documentvisitor/visitStructuredDocumentTagEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitStructuredDocumentTagEnd/
 ---
 
 ## visitStructuredDocumentTagEnd(sdt) {#structureddocumenttag}

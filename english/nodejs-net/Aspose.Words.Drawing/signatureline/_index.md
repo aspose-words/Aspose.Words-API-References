@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.SignatureLine class. Provides access to signature line properties"
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words.Drawing/signatureline/
+url: /nodejs-net/aspose.words.drawing/signatureline/
 ---
 
 ## SignatureLine class

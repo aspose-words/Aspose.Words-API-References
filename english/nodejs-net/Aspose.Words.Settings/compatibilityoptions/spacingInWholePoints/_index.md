@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.spacingInWholePoints property. Only Expand/Condense Text By Whole Points."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/spacingInWholePoints/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/spacingInWholePoints/
 ---
 
 ## CompatibilityOptions.spacingInWholePoints property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Framesets.FramesetCollection class. Represents a collection of instances of the [Frameset](../../aspose.words/frameset/) class"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Framesets/framesetcollection/
+url: /nodejs-net/aspose.words.framesets/framesetcollection/
 ---
 
 ## FramesetCollection class

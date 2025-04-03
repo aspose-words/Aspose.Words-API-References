@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSaveOptions.useGdiEmfRenderer property. Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/useGdiEmfRenderer/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/useGdiEmfRenderer/
 ---
 
 ## ImageSaveOptions.useGdiEmfRenderer property

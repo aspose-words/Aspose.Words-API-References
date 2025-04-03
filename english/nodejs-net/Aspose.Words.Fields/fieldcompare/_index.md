@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldCompare class. Implements the COMPARE field"
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Fields/fieldcompare/
+url: /nodejs-net/aspose.words.fields/fieldcompare/
 ---
 
 ## FieldCompare class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.ensureMinimum method. If the table has no rows, creates and appends one [Row](../../../aspose.words.tables/row/)."
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/table/ensureMinimum/
+url: /nodejs-net/aspose.words/table/ensureMinimum/
 ---
 
 ## ensureMinimum() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Document.protect method"
 type: docs
 weight: 660
-url: /nodejs-net/Aspose.Words/document/protect/
+url: /nodejs-net/aspose.words/document/protect/
 ---
 
 ## protect(type) {#protectiontype}

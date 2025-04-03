@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.documentSplitCriteria property. Specifies how the document should be split when saving to [SaveFormat.Html](../../../aspose.words/saveformat/#Html), [SaveFormat.Epub](../../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) format"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/documentSplitCriteria/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/documentSplitCriteria/
 ---
 
 ## HtmlSaveOptions.documentSplitCriteria property

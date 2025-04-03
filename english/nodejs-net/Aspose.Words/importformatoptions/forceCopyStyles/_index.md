@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImportFormatOptions.forceCopyStyles property. Gets or sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KeepSourceFormatting](../../importformatmode/#KeepSourceFormatting) mode"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/importformatoptions/forceCopyStyles/
+url: /nodejs-net/aspose.words/importformatoptions/forceCopyStyles/
 ---
 
 ## ImportFormatOptions.forceCopyStyles property

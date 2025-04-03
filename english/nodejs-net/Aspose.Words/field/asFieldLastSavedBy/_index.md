@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldLastSavedBy method. "
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words/field/asFieldLastSavedBy/
+url: /nodejs-net/aspose.words/field/asFieldLastSavedBy/
 ---
 
 ## asFieldLastSavedBy() {#default}

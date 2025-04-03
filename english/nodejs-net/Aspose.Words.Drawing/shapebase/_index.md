@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ShapeBase class. Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture"
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/
+url: /nodejs-net/aspose.words.drawing/shapebase/
 ---
 
 ## ShapeBase class

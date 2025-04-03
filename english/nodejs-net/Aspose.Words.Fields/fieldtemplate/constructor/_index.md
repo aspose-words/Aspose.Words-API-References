@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldTemplate constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldtemplate/constructor/
+url: /nodejs-net/aspose.words.fields/fieldtemplate/constructor/
 ---
 
 ## FieldTemplate() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GlossaryDocument.accept method. Accepts a visitor."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/accept/
+url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.removeMacros method. Removes all macros (the VBA project) as well as toolbars and command customizations from the document."
 type: docs
 weight: 690
-url: /nodejs-net/Aspose.Words/document/removeMacros/
+url: /nodejs-net/aspose.words/document/removeMacros/
 ---
 
 ## removeMacros() {#default}

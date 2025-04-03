@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCollection.clear method. Removes all fields of this collection from the document and from this collection itself."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldcollection/clear/
+url: /nodejs-net/aspose.words.fields/fieldcollection/clear/
 ---
 
 ## clear() {#default}

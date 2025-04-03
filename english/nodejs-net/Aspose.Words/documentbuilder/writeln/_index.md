@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.writeln method"
 type: docs
 weight: 700
-url: /nodejs-net/Aspose.Words/documentbuilder/writeln/
+url: /nodejs-net/aspose.words/documentbuilder/writeln/
 ---
 
 ## writeln(text) {#string}

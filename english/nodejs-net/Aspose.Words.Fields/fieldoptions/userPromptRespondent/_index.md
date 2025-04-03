@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.userPromptRespondent property. Gets or sets the respondent to user prompts during field update."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/userPromptRespondent/
+url: /nodejs-net/aspose.words.fields/fieldoptions/userPromptRespondent/
 ---
 
 ## FieldOptions.userPromptRespondent property

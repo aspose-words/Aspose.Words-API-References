@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDdeAuto.insertAsBitmap property. Gets or sets whether to insert the linked object as a bitmap."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldddeauto/insertAsBitmap/
+url: /nodejs-net/aspose.words.fields/fieldddeauto/insertAsBitmap/
 ---
 
 ## FieldDdeAuto.insertAsBitmap property

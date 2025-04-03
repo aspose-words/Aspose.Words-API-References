@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldOptions class. Represents options to control field handling in a document"
 type: docs
 weight: 780
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/
+url: /nodejs-net/aspose.words.fields/fieldoptions/
 ---
 
 ## FieldOptions class

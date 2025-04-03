@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "The Aspose.Words.Markup module contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls)."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Markup/
+url: /nodejs-net/aspose.words.markup/
 ---
 
 The **Aspose.Words.Markup** module contains classes that

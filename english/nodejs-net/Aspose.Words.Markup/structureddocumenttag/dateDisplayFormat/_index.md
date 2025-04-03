@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.dateDisplayFormat property. String that represents the format in which dates are displayed."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/dateDisplayFormat/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/dateDisplayFormat/
 ---
 
 ## StructuredDocumentTag.dateDisplayFormat property

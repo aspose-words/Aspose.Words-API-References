@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.AI.AiModel class. Represents information about a Generative Language Model."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.AI/aimodel/
+url: /nodejs-net/aspose.words.ai/aimodel/
 ---
 
 ## AiModel class

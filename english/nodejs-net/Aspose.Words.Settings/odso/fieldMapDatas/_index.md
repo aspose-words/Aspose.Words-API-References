@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Odso.fieldMapDatas property. Gets or sets a collection of objects that specify how columns from the external data source  are mapped to the predefined merge field names in the document"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Settings/odso/fieldMapDatas/
+url: /nodejs-net/aspose.words.settings/odso/fieldMapDatas/
 ---
 
 ## Odso.fieldMapDatas property

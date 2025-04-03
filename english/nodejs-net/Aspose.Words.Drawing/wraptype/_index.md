@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.WrapType enumeration. Specifies how text is wrapped around a shape or picture."
 type: docs
 weight: 540
-url: /nodejs-net/Aspose.Words.Drawing/wraptype/
+url: /nodejs-net/aspose.words.drawing/wraptype/
 ---
 
 ## WrapType enumeration

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIncludeText.namespaceMappings property. Gets or sets the namespace mappings for XPath queries."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldincludetext/namespaceMappings/
+url: /nodejs-net/aspose.words.fields/fieldincludetext/namespaceMappings/
 ---
 
 ## FieldIncludeText.namespaceMappings property

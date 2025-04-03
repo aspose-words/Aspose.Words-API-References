@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldEmbed method. "
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/field/asFieldEmbed/
+url: /nodejs-net/aspose.words/field/asFieldEmbed/
 ---
 
 ## asFieldEmbed() {#default}

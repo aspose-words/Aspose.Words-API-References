@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.RtfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Rtf](../../aspose.words/saveformat/#Rtf) format"
 type: docs
 weight: 770
-url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/
+url: /nodejs-net/aspose.words.saving/rtfsaveoptions/
 ---
 
 ## RtfSaveOptions class

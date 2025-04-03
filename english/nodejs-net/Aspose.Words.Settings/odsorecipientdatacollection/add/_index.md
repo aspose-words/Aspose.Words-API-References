@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdsoRecipientDataCollection.add method. Adds an object to the end of this collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/odsorecipientdatacollection/add/
+url: /nodejs-net/aspose.words.settings/odsorecipientdatacollection/add/
 ---
 
 ## add(value) {#odsorecipientdata}

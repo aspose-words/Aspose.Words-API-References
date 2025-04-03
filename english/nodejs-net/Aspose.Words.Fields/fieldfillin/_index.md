@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldFillIn class. Implements the FILLIN field"
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words.Fields/fieldfillin/
+url: /nodejs-net/aspose.words.fields/fieldfillin/
 ---
 
 ## FieldFillIn class

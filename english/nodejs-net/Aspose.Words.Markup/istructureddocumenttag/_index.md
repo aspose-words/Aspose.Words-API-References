@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.IStructuredDocumentTag class. Interface to define a common data for [StructuredDocumentTag](../structureddocumenttag/) and [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/)."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/
 ---
 
 ## IStructuredDocumentTag class

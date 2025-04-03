@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.TextPath class. Defines the text and formatting of the text path (of a WordArt object)"
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words.Drawing/textpath/
+url: /nodejs-net/aspose.words.drawing/textpath/
 ---
 
 ## TextPath class

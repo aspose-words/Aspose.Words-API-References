@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asEditableRangeEnd method. Cast node to [EditableRangeEnd](../../editablerangeend/)."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/node/asEditableRangeEnd/
+url: /nodejs-net/aspose.words/node/asEditableRangeEnd/
 ---
 
 ## asEditableRangeEnd() {#default}

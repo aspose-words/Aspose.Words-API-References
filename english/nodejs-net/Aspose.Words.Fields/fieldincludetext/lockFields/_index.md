@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIncludeText.lockFields property. Gets or sets whether to prevent fields in the included document from being updated."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldincludetext/lockFields/
+url: /nodejs-net/aspose.words.fields/fieldincludetext/lockFields/
 ---
 
 ## FieldIncludeText.lockFields property

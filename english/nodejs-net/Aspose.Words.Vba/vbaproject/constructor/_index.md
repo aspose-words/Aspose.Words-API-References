@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VbaProject constructor. Creates a blank [VbaProject](../)."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Vba/vbaproject/constructor/
+url: /nodejs-net/aspose.words.vba/vbaproject/constructor/
 ---
 
 ## VbaProject() {#default}

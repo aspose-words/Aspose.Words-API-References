@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.imagesFolder property. Specifies the physical folder where images are saved when exporting a document to HTML format"
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/imagesFolder/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/imagesFolder/
 ---
 
 ## HtmlSaveOptions.imagesFolder property

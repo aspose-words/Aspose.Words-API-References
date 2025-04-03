@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataPoint.marker property. Specifies chart data marker."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapoint/marker/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapoint/marker/
 ---
 
 ## ChartDataPoint.marker property

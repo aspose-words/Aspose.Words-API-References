@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitOfficeMathEnd method. Called when enumeration of a Office Math object has ended."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/documentvisitor/visitOfficeMathEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitOfficeMathEnd/
 ---
 
 ## visitOfficeMathEnd(officeMath) {#officemath}

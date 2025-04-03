@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.OdsoFieldMapData class. Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdata/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdata/
 ---
 
 ## OdsoFieldMapData class

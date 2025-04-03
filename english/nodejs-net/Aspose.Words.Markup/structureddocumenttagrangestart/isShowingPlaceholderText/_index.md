@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.isShowingPlaceholderText property. Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag)."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/isShowingPlaceholderText/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/isShowingPlaceholderText/
 ---
 
 ## StructuredDocumentTagRangeStart.isShowingPlaceholderText property

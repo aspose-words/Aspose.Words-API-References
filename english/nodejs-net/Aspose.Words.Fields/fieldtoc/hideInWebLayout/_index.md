@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.hideInWebLayout property. Gets or sets whether to hide tab leader and page numbers in Web layout view."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/hideInWebLayout/
+url: /nodejs-net/aspose.words.fields/fieldtoc/hideInWebLayout/
 ---
 
 ## FieldToc.hideInWebLayout property

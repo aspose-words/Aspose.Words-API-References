@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getSdtRangeEnd method. "
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/compositenode/getSdtRangeEnd/
+url: /nodejs-net/aspose.words/compositenode/getSdtRangeEnd/
 ---
 
 ## getSdtRangeEnd(index, isDeep) {#number_boolean}

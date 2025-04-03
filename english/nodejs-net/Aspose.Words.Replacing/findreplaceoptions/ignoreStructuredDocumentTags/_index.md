@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FindReplaceOptions.ignoreStructuredDocumentTags property. Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreStructuredDocumentTags/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/ignoreStructuredDocumentTags/
 ---
 
 ## FindReplaceOptions.ignoreStructuredDocumentTags property

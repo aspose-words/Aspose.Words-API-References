@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.popFont method. Retrieves character formatting previously saved on the stack."
 type: docs
 weight: 630
-url: /nodejs-net/Aspose.Words/documentbuilder/popFont/
+url: /nodejs-net/aspose.words/documentbuilder/popFont/
 ---
 
 ## popFont() {#default}

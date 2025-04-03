@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldFormula class. Implements the = (formula) field"
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words.Fields/fieldformula/
+url: /nodejs-net/aspose.words.fields/fieldformula/
 ---
 
 ## FieldFormula class

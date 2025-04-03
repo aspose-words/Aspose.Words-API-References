@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Notes.Footnote class. Represents a container for text of a footnote or endnote"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Notes/footnote/
+url: /nodejs-net/aspose.words.notes/footnote/
 ---
 
 ## Footnote class

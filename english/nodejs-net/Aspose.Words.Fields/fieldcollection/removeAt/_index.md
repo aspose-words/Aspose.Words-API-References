@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCollection.removeAt method. Removes a field at the specified index from this collection and from the document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldcollection/removeAt/
+url: /nodejs-net/aspose.words.fields/fieldcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

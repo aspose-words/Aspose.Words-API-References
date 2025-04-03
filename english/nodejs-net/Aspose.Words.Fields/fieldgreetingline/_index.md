@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldGreetingLine class. Implements the GREETINGLINE field"
 type: docs
 weight: 510
-url: /nodejs-net/Aspose.Words.Fields/fieldgreetingline/
+url: /nodejs-net/aspose.words.fields/fieldgreetingline/
 ---
 
 ## FieldGreetingLine class

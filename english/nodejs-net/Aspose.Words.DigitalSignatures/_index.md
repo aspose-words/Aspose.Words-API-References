@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "The Aspose.Words.DigitalSignatures module provides classes to sign documents and verify signatures."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.DigitalSignatures/
+url: /nodejs-net/aspose.words.digitalsignatures/
 ---
 
 The **Aspose.Words.DigitalSignatures** module provides classes to sign documents and verify signatures.

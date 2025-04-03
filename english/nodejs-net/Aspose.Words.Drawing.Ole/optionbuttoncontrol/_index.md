@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Ole.OptionButtonControl class. The OptionButton control enables a single choice in a limited set of mutually exclusive choices."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing.Ole/optionbuttoncontrol/
+url: /nodejs-net/aspose.words.drawing.ole/optionbuttoncontrol/
 ---
 
 ## OptionButtonControl class

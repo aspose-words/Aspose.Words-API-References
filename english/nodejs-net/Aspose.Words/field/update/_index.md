@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.Field.update method"
 type: docs
 weight: 1090
-url: /nodejs-net/Aspose.Words/field/update/
+url: /nodejs-net/aspose.words/field/update/
 ---
 
 ## update() {#default}

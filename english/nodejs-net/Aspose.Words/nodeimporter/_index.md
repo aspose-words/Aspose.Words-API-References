@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.NodeImporter class. Allows to efficiently perform repeated import of nodes from one document to another"
 type: docs
 weight: 870
-url: /nodejs-net/Aspose.Words/nodeimporter/
+url: /nodejs-net/aspose.words/nodeimporter/
 ---
 
 ## NodeImporter class

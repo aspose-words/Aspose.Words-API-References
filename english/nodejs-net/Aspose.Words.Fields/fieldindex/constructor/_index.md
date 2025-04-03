@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIndex constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldindex/constructor/
+url: /nodejs-net/aspose.words.fields/fieldindex/constructor/
 ---
 
 ## FieldIndex() {#default}

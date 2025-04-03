@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlSchemaCollection.add method. Adds an item to the collection."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/customxmlschemacollection/add/
+url: /nodejs-net/aspose.words.markup/customxmlschemacollection/add/
 ---
 
 ## add(value) {#string}

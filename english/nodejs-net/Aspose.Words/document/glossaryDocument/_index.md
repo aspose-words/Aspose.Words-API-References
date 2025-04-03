@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.glossaryDocument property. Gets or sets the glossary document within this document or template"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/document/glossaryDocument/
+url: /nodejs-net/aspose.words/document/glossaryDocument/
 ---
 
 ## Document.glossaryDocument property

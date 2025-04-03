@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TabStopCollection.after method. Gets a first tab stop to the right of the specified position."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/tabstopcollection/after/
+url: /nodejs-net/aspose.words/tabstopcollection/after/
 ---
 
 ## after(position) {#number}

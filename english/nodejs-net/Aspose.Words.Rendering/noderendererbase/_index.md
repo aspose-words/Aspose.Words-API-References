@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Rendering.NodeRendererBase class. Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/)"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Rendering/noderendererbase/
+url: /nodejs-net/aspose.words.rendering/noderendererbase/
 ---
 
 ## NodeRendererBase class

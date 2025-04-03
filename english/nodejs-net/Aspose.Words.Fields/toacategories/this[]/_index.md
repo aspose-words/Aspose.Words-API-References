@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ToaCategories.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/toacategories/this[]/
+url: /nodejs-net/aspose.words.fields/toacategories/this[]/
 ---
 
 ## ToaCategories.this[] property

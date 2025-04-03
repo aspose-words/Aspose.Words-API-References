@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ViewOptions.doNotDisplayPageBoundaries property. Turns off display of the space between the top of the text and the top edge of the page."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/viewoptions/doNotDisplayPageBoundaries/
+url: /nodejs-net/aspose.words.settings/viewoptions/doNotDisplayPageBoundaries/
 ---
 
 ## ViewOptions.doNotDisplayPageBoundaries property

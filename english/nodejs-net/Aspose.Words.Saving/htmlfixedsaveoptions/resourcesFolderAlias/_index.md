@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlFixedSaveOptions.resourcesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an Html document"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/resourcesFolderAlias/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/resourcesFolderAlias/
 ---
 
 ## HtmlFixedSaveOptions.resourcesFolderAlias property

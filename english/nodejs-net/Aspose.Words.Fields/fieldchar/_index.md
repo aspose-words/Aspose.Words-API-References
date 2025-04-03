@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldChar class. Base class for nodes that represent field characters in a document"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Fields/fieldchar/
+url: /nodejs-net/aspose.words.fields/fieldchar/
 ---
 
 ## FieldChar class

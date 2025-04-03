@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CellFormat.leftPadding property. Returns or sets the amount of space (in points) to add to the left of the contents of cell."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Tables/cellformat/leftPadding/
+url: /nodejs-net/aspose.words.tables/cellformat/leftPadding/
 ---
 
 ## CellFormat.leftPadding property

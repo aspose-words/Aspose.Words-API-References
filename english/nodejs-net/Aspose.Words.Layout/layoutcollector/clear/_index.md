@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutCollector.clear method. Clears all collected layout data"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Layout/layoutcollector/clear/
+url: /nodejs-net/aspose.words.layout/layoutcollector/clear/
 ---
 
 ## clear() {#default}

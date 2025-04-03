@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Section.pageSetup property. Returns an object that represents page setup and section properties."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/section/pageSetup/
+url: /nodejs-net/aspose.words/section/pageSetup/
 ---
 
 ## Section.pageSetup property
@@ -19,6 +19,25 @@ get pageSetup(): Aspose.Words.PageSetup
 ```
 
 ### Examples
+
+Shows how to create a wide blue band border at the top of the first page.
+
+```js
+let doc = new aw.Document();
+
+let pageSetup = doc.sections.at(0).pageSetup;
+pageSetup.borderAlwaysInFront = false;
+pageSetup.borderDistanceFrom = aw.PageBorderDistanceFrom.PageEdge;
+pageSetup.borderAppliesTo = aw.PageBorderAppliesTo.FirstPage;
+
+let border = pageSetup.borders.at(aw.BorderType.Top);
+border.lineStyle = aw.LineStyle.Single;
+border.lineWidth = 30;
+border.color = "#0000FF";
+border.distanceFromText = 0;
+
+doc.save(base.artifactsDir + "PageSetup.PageBorderProperties.docx");
+```
 
 Shows how to construct an Aspose.words document by hand.
 
@@ -63,25 +82,6 @@ para.appendChild(run);
 expect(doc.getText().trim()).toEqual("Hello World!");
 
 doc.save(base.artifactsDir + "Section.CreateManually.docx");
-```
-
-Shows how to create a wide blue band border at the top of the first page.
-
-```js
-let doc = new aw.Document();
-
-let pageSetup = doc.sections.at(0).pageSetup;
-pageSetup.borderAlwaysInFront = false;
-pageSetup.borderDistanceFrom = aw.PageBorderDistanceFrom.PageEdge;
-pageSetup.borderAppliesTo = aw.PageBorderAppliesTo.FirstPage;
-
-let border = pageSetup.borders.at(aw.BorderType.Top);
-border.lineStyle = aw.LineStyle.Single;
-border.lineWidth = 30;
-border.color = "#0000FF";
-border.distanceFromText = 0;
-
-doc.save(base.artifactsDir + "PageSetup.PageBorderProperties.docx");
 ```
 
 ### See Also

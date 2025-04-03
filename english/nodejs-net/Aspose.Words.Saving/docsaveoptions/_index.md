@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.DocSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Doc](../../aspose.words/saveformat/#Doc) or [SaveFormat.Dot](../../aspose.words/saveformat/#Dot) format"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/docsaveoptions/
+url: /nodejs-net/aspose.words.saving/docsaveoptions/
 ---
 
 ## DocSaveOptions class

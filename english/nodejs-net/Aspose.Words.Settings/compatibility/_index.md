@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.Compatibility enumeration. Specifies names of compatibility options."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/compatibility/
+url: /nodejs-net/aspose.words.settings/compatibility/
 ---
 
 ## Compatibility enumeration

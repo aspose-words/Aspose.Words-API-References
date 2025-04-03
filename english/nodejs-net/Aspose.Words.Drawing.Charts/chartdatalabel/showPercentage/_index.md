@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.showPercentage property. Allows to specify if percentage value is to be displayed for the data labels on a chart"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/showPercentage/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/showPercentage/
 ---
 
 ## ChartDataLabel.showPercentage property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ImageSize constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/imagesize/constructor/
+url: /nodejs-net/aspose.words.drawing/imagesize/constructor/
 ---
 
 ## ImageSize(widthPixels, heightPixels) {#number_number}

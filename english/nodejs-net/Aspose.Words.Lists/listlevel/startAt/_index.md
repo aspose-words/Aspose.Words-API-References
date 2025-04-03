@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.startAt property. Returns or sets the starting number for this list level."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Lists/listlevel/startAt/
+url: /nodejs-net/aspose.words.lists/listlevel/startAt/
 ---
 
 ## ListLevel.startAt property

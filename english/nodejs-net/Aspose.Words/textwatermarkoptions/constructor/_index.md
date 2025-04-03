@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextWatermarkOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/textwatermarkoptions/constructor/
+url: /nodejs-net/aspose.words/textwatermarkoptions/constructor/
 ---
 
 ## TextWatermarkOptions() {#default}

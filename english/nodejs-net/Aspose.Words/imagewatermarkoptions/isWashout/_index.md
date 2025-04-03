@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageWatermarkOptions.isWashout property. Gets or sets a boolean value which is responsible for washout effect of the watermark"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/imagewatermarkoptions/isWashout/
+url: /nodejs-net/aspose.words/imagewatermarkoptions/isWashout/
 ---
 
 ## ImageWatermarkOptions.isWashout property

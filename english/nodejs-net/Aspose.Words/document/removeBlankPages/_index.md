@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.removeBlankPages method. Removes blank pages from the document."
 type: docs
 weight: 670
-url: /nodejs-net/Aspose.Words/document/removeBlankPages/
+url: /nodejs-net/aspose.words/document/removeBlankPages/
 ---
 
 ## removeBlankPages() {#default}

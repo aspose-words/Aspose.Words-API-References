@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PlainTextDocument.builtInDocumentProperties property. Gets [PlainTextDocument.builtInDocumentProperties](./) of the document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/plaintextdocument/builtInDocumentProperties/
+url: /nodejs-net/aspose.words/plaintextdocument/builtInDocumentProperties/
 ---
 
 ## PlainTextDocument.builtInDocumentProperties property

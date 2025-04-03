@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.lockContentControl property. When set to ``true``, this property will prohibit a user from deleting this structured document tag."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/lockContentControl/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/lockContentControl/
 ---
 
 ## StructuredDocumentTagRangeStart.lockContentControl property

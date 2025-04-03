@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ThumbnailGeneratingOptions.generateFromFirstPage property. Specifies whether to generate thumbnail from first page of the document or first image."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Rendering/thumbnailgeneratingoptions/generateFromFirstPage/
+url: /nodejs-net/aspose.words.rendering/thumbnailgeneratingoptions/generateFromFirstPage/
 ---
 
 ## ThumbnailGeneratingOptions.generateFromFirstPage property

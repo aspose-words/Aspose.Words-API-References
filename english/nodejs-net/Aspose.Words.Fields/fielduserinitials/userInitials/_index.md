@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldUserInitials.userInitials property. Gets or sets the current user's initials."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fielduserinitials/userInitials/
+url: /nodejs-net/aspose.words.fields/fielduserinitials/userInitials/
 ---
 
 ## FieldUserInitials.userInitials property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.spacing property. Defines the amount of spacing for text"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Drawing/textpath/spacing/
+url: /nodejs-net/aspose.words.drawing/textpath/spacing/
 ---
 
 ## TextPath.spacing property

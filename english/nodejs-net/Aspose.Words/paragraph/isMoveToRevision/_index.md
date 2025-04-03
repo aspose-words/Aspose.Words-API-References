@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.isMoveToRevision property. Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/paragraph/isMoveToRevision/
+url: /nodejs-net/aspose.words/paragraph/isMoveToRevision/
 ---
 
 ## Paragraph.isMoveToRevision property

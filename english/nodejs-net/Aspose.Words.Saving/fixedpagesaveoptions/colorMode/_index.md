@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FixedPageSaveOptions.colorMode property. Gets or sets a value determining how colors are rendered."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/colorMode/
+url: /nodejs-net/aspose.words.saving/fixedpagesaveoptions/colorMode/
 ---
 
 ## FixedPageSaveOptions.colorMode property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.referenceEquals method. "
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words/node/referenceEquals/
+url: /nodejs-net/aspose.words/node/referenceEquals/
 ---
 
 ## referenceEquals(other) {#node}

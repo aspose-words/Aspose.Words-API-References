@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldBarcode constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldbarcode/constructor/
+url: /nodejs-net/aspose.words.fields/fieldbarcode/constructor/
 ---
 
 ## FieldBarcode() {#default}

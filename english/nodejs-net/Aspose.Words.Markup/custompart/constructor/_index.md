@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomPart constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/custompart/constructor/
+url: /nodejs-net/aspose.words.markup/custompart/constructor/
 ---
 
 ## CustomPart() {#default}

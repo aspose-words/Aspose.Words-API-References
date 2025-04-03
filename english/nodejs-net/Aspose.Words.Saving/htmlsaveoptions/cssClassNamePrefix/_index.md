@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.cssClassNamePrefix property. Specifies a prefix which is added to all CSS class names"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/cssClassNamePrefix/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/cssClassNamePrefix/
 ---
 
 ## HtmlSaveOptions.cssClassNamePrefix property

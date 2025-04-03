@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertDocument method"
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/documentbuilder/insertDocument/
+url: /nodejs-net/aspose.words/documentbuilder/insertDocument/
 ---
 
 ## insertDocument(srcDoc, importFormatMode) {#document_importformatmode}

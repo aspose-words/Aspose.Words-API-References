@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DigitalSignature.signatureType property. Gets the type of the digital signature."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/digitalsignature/signatureType/
+url: /nodejs-net/aspose.words/digitalsignature/signatureType/
 ---
 
 ## DigitalSignature.signatureType property

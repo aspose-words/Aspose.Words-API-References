@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SoftEdgeFormat.remove method. Removes [SoftEdgeFormat](../) from the parent object."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/softedgeformat/remove/
+url: /nodejs-net/aspose.words.drawing/softedgeformat/remove/
 ---
 
 ## remove() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XlsxDateTimeParsingMode enumeration. Specifies how document text is parsed to identify date and time values."
 type: docs
 weight: 910
-url: /nodejs-net/Aspose.Words.Saving/xlsxdatetimeparsingmode/
+url: /nodejs-net/aspose.words.saving/xlsxdatetimeparsingmode/
 ---
 
 ## XlsxDateTimeParsingMode enumeration

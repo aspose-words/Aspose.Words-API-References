@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Fill.oneColorGradient method"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/fill/oneColorGradient/
+url: /nodejs-net/aspose.words.drawing/fill/oneColorGradient/
 ---
 
 ## oneColorGradient(style, variant, degree) {#gradientstyle_gradientvariant_number}

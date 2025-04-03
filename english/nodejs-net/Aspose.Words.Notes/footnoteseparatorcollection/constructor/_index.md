@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FootnoteSeparatorCollection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Notes/footnoteseparatorcollection/constructor/
+url: /nodejs-net/aspose.words.notes/footnoteseparatorcollection/constructor/
 ---
 
 ## FootnoteSeparatorCollection() {#default}

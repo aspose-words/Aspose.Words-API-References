@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSaveOptions.horizontalResolution property. Gets or sets the horizontal resolution for the generated images, in dots per inch."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/horizontalResolution/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/horizontalResolution/
 ---
 
 ## ImageSaveOptions.horizontalResolution property

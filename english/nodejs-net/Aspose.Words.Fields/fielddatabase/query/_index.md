@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDatabase.query property. Gets or sets a set of SQL instructions that query the database."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fielddatabase/query/
+url: /nodejs-net/aspose.words.fields/fielddatabase/query/
 ---
 
 ## FieldDatabase.query property

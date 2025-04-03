@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShadowFormat.visible property. Returns ``true`` if the formatting applied to this instance is visible."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/shadowformat/visible/
+url: /nodejs-net/aspose.words.drawing/shadowformat/visible/
 ---
 
 ## ShadowFormat.visible property

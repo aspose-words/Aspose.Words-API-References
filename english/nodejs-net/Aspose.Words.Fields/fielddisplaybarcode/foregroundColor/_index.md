@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDisplayBarcode.foregroundColor property. Gets or sets the foreground color of the barcode symbol"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/fielddisplaybarcode/foregroundColor/
+url: /nodejs-net/aspose.words.fields/fielddisplaybarcode/foregroundColor/
 ---
 
 ## FieldDisplayBarcode.foregroundColor property

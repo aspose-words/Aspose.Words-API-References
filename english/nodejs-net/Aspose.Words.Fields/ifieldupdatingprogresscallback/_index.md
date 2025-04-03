@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.IFieldUpdatingProgressCallback class. Implement this interface if you want to track field updating progress."
 type: docs
 weight: 1250
-url: /nodejs-net/Aspose.Words.Fields/ifieldupdatingprogresscallback/
+url: /nodejs-net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 
 ## IFieldUpdatingProgressCallback class

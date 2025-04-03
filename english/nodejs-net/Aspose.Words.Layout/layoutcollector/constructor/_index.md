@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutCollector constructor. Initializes an instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Layout/layoutcollector/constructor/
+url: /nodejs-net/aspose.words.layout/layoutcollector/constructor/
 ---
 
 ## LayoutCollector(doc) {#document}

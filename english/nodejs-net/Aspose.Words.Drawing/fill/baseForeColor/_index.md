@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Fill.baseForeColor property. Gets a Color object that represents the base foreground color for the fill without any modifiers."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/fill/baseForeColor/
+url: /nodejs-net/aspose.words.drawing/fill/baseForeColor/
 ---
 
 ## Fill.baseForeColor property

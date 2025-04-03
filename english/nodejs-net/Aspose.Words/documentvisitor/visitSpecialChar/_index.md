@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitSpecialChar method. Called when a [SpecialChar](../../specialchar/) node is encountered in the document."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words/documentvisitor/visitSpecialChar/
+url: /nodejs-net/aspose.words/documentvisitor/visitSpecialChar/
 ---
 
 ## visitSpecialChar(specialChar) {#specialchar}

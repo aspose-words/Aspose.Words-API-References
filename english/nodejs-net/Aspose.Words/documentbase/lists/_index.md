@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBase.lists property. Provides access to the list formatting used in the document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/documentbase/lists/
+url: /nodejs-net/aspose.words/documentbase/lists/
 ---
 
 ## DocumentBase.lists property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FileFormatInfo.encoding property. Gets the detected encoding if applicable to the current document format"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/fileformatinfo/encoding/
+url: /nodejs-net/aspose.words/fileformatinfo/encoding/
 ---
 
 ## FileFormatInfo.encoding property

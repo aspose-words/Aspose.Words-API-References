@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Ole.MorphDataControl class. The MorphDataControl structure is an aggregate of six controls: CheckBox, ComboBox, ListBox, OptionButton, TextBox, and ToggleButton."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Ole/morphdatacontrol/
+url: /nodejs-net/aspose.words.drawing.ole/morphdatacontrol/
 ---
 
 ## MorphDataControl class

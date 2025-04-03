@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportLanguageInformation property. Specifies whether language information is exported to HTML, MHTML or EPUB"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportLanguageInformation/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportLanguageInformation/
 ---
 
 ## HtmlSaveOptions.exportLanguageInformation property

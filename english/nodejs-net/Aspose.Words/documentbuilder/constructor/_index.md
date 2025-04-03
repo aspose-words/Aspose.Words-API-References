@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/documentbuilder/constructor/
+url: /nodejs-net/aspose.words/documentbuilder/constructor/
 ---
 
 ## DocumentBuilder() {#default}

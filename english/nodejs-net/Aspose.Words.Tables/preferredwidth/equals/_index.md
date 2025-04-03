@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PreferredWidth.equals method. Determines whether the specified [PreferredWidth](../) is equal in value to the current [PreferredWidth](../)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Tables/preferredwidth/equals/
+url: /nodejs-net/aspose.words.tables/preferredwidth/equals/
 ---
 
 ## equals(other) {#preferredwidth}

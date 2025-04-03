@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.hasChart property. Returns ``true`` if this [Shape](../) has a [Chart](../../chart/)."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing/shape/hasChart/
+url: /nodejs-net/aspose.words.drawing/shape/hasChart/
 ---
 
 ## Shape.hasChart property

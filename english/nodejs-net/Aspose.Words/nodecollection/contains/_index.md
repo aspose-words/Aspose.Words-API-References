@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "NodeCollection.contains method. Determines whether a node is in the collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/nodecollection/contains/
+url: /nodejs-net/aspose.words/nodecollection/contains/
 ---
 
 ## contains(node) {#node}

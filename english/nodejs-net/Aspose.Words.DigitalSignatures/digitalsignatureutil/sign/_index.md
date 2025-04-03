@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureUtil.sign method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignatureutil/sign/
+url: /nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 
 ## sign(srcStream, dstStream, certHolder, signOptions) {#buffer_buffer_certificateholder_signoptions}

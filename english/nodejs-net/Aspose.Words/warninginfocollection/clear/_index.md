@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WarningInfoCollection.clear method. Removes all elements from the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/warninginfocollection/clear/
+url: /nodejs-net/aspose.words/warninginfocollection/clear/
 ---
 
 ## clear() {#default}

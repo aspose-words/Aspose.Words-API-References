@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldNumPages constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldnumpages/constructor/
+url: /nodejs-net/aspose.words.fields/fieldnumpages/constructor/
 ---
 
 ## FieldNumPages() {#default}

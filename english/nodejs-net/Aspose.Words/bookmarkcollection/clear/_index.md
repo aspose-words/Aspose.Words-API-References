@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkCollection.clear method. Removes all bookmarks from this collection and from the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/bookmarkcollection/clear/
+url: /nodejs-net/aspose.words/bookmarkcollection/clear/
 ---
 
 ## clear() {#default}

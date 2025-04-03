@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GeneralFormatCollection.add method. Adds a general format to the collection."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/generalformatcollection/add/
+url: /nodejs-net/aspose.words.fields/generalformatcollection/add/
 ---
 
 ## add(item) {#generalformat}

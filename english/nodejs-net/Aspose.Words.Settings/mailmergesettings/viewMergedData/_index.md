@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.viewMergedData property. Specifies that Microsoft Word shall display the data from the specified external data source where merge fields  have been inserted (e.g"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/viewMergedData/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/viewMergedData/
 ---
 
 ## MailMergeSettings.viewMergedData property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.ensureMinimum method. If the last child is not a paragraph, creates and appends one empty paragraph."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Tables/cell/ensureMinimum/
+url: /nodejs-net/aspose.words.tables/cell/ensureMinimum/
 ---
 
 ## ensureMinimum() {#default}

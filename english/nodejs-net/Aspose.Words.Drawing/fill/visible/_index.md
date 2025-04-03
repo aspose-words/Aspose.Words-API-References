@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Fill.visible property. Gets or sets value that is ``true`` if the formatting applied to this instance, is visible."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing/fill/visible/
+url: /nodejs-net/aspose.words.drawing/fill/visible/
 ---
 
 ## Fill.visible property

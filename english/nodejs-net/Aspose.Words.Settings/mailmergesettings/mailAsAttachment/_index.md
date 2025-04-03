@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.mailAsAttachment property. Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather  than the body of the actual e-mail"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/mailAsAttachment/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/mailAsAttachment/
 ---
 
 ## MailMergeSettings.mailAsAttachment property

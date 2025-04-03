@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.OdsoRecipientDataCollection class. A typed collection of [OdsoRecipientData](../odsorecipientdata/) To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/nodejs-net/mail-merge-and-reporting/) documentation article."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Settings/odsorecipientdatacollection/
+url: /nodejs-net/aspose.words.settings/odsorecipientdatacollection/
 ---
 
 ## OdsoRecipientDataCollection class

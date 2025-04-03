@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GroupShape.acceptStart method. Accepts a visitor for visiting the start of the GroupShape."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/groupshape/acceptStart/
+url: /nodejs-net/aspose.words.drawing/groupshape/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

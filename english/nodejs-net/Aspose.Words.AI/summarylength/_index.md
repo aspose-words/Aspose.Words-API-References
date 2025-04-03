@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.AI.SummaryLength enumeration. Enumerates possible lengths of summary."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.AI/summarylength/
+url: /nodejs-net/aspose.words.ai/summarylength/
 ---
 
 ## SummaryLength enumeration

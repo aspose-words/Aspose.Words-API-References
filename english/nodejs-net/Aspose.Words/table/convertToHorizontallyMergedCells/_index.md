@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.convertToHorizontallyMergedCells method. Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../../aspose.words.tables/cellformat/horizontalMerge/)."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/table/convertToHorizontallyMergedCells/
+url: /nodejs-net/aspose.words/table/convertToHorizontallyMergedCells/
 ---
 
 ## convertToHorizontallyMergedCells() {#default}

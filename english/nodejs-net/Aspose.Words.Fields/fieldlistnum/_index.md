@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldListNum class. Implements the LISTNUM field"
 type: docs
 weight: 650
-url: /nodejs-net/Aspose.Words.Fields/fieldlistnum/
+url: /nodejs-net/aspose.words.fields/fieldlistnum/
 ---
 
 ## FieldListNum class

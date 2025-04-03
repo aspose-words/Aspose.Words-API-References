@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.disableOpenTypeFontFormattingFeatures property. Specifies to disable OpenType font formatting features."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/disableOpenTypeFontFormattingFeatures/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/disableOpenTypeFontFormattingFeatures/
 ---
 
 ## CompatibilityOptions.disableOpenTypeFontFormattingFeatures property

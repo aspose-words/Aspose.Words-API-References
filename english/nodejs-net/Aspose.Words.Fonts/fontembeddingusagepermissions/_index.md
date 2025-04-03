@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontEmbeddingUsagePermissions enumeration. Represents the font embedding usage permissions."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fonts/fontembeddingusagepermissions/
+url: /nodejs-net/aspose.words.fonts/fontembeddingusagepermissions/
 ---
 
 ## FontEmbeddingUsagePermissions enumeration

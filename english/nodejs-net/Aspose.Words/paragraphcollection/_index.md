@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ParagraphCollection class. Provides typed access to a collection of [Paragraph](../paragraph/) nodes"
 type: docs
 weight: 1010
-url: /nodejs-net/Aspose.Words/paragraphcollection/
+url: /nodejs-net/aspose.words/paragraphcollection/
 ---
 
 ## ParagraphCollection class

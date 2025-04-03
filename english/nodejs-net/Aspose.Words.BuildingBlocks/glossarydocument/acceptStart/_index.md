@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GlossaryDocument.acceptStart method. Accepts a visitor for visiting the start of the Glossary document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/acceptStart/
+url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

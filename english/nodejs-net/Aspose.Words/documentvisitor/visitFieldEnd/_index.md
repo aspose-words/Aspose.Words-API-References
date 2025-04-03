@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitFieldEnd method. Called when a field ends in the document."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/documentvisitor/visitFieldEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitFieldEnd/
 ---
 
 ## visitFieldEnd(fieldEnd) {#fieldend}

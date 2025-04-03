@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.insertedTextColor property. Allows to specify the color to be used for inserted content [RevisionType.Insertion](../../../aspose.words/revisiontype/#Insertion)"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/insertedTextColor/
+url: /nodejs-net/aspose.words.layout/revisionoptions/insertedTextColor/
 ---
 
 ## RevisionOptions.insertedTextColor property

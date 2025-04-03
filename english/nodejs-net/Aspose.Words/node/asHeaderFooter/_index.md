@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asHeaderFooter method. Cast node to [HeaderFooter](../../headerfooter/)."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words/node/asHeaderFooter/
+url: /nodejs-net/aspose.words/node/asHeaderFooter/
 ---
 
 ## asHeaderFooter() {#default}

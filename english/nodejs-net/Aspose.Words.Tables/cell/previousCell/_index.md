@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.previousCell property. Gets the previous [Cell](../) node."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Tables/cell/previousCell/
+url: /nodejs-net/aspose.words.tables/cell/previousCell/
 ---
 
 ## Cell.previousCell property

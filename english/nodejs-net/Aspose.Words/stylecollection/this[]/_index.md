@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StyleCollection.this[] property. "
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/stylecollection/this[]/
+url: /nodejs-net/aspose.words/stylecollection/this[]/
 ---
 
 ## StyleCollection.this[] property

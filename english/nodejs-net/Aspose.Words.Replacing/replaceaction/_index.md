@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Replacing.ReplaceAction enumeration. Allows the user to specify what happens to the current match during a replace operation."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Replacing/replaceaction/
+url: /nodejs-net/aspose.words.replacing/replaceaction/
 ---
 
 ## ReplaceAction enumeration

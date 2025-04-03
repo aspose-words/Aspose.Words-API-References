@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBase.nodeChangingCallback property. Called when a node is inserted or removed in the document."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/documentbase/nodeChangingCallback/
+url: /nodejs-net/aspose.words/documentbase/nodeChangingCallback/
 ---
 
 ## DocumentBase.nodeChangingCallback property

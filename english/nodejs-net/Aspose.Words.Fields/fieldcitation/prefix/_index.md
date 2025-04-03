@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCitation.prefix property. Gets or sets a prefix that is prepended to the citation."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldcitation/prefix/
+url: /nodejs-net/aspose.words.fields/fieldcitation/prefix/
 ---
 
 ## FieldCitation.prefix property

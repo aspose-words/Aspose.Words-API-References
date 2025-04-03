@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Properties.CustomDocumentProperties.add method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Properties/customdocumentproperties/add/
+url: /nodejs-net/aspose.words.properties/customdocumentproperties/add/
 ---
 
 ## add(name, value) {#string_string}

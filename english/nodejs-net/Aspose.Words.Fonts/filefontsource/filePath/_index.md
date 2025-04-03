@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FileFontSource.filePath property. Path to the font file."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/filefontsource/filePath/
+url: /nodejs-net/aspose.words.fonts/filefontsource/filePath/
 ---
 
 ## FileFontSource.filePath property

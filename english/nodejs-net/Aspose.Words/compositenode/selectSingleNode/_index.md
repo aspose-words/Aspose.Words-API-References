@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.selectSingleNode method. Selects the first [Node](../../node/) that matches the XPath expression."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/compositenode/selectSingleNode/
+url: /nodejs-net/aspose.words/compositenode/selectSingleNode/
 ---
 
 ## selectSingleNode(xpath) {#string}

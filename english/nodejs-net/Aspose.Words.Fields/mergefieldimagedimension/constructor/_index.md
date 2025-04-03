@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.MergeFieldImageDimension constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/mergefieldimagedimension/constructor/
+url: /nodejs-net/aspose.words.fields/mergefieldimagedimension/constructor/
 ---
 
 ## MergeFieldImageDimension(value) {#number}

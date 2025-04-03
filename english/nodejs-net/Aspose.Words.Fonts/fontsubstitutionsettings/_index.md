@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontSubstitutionSettings class. Specifies font substitution mechanism settings"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Fonts/fontsubstitutionsettings/
+url: /nodejs-net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 
 ## FontSubstitutionSettings class

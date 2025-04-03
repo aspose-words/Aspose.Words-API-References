@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.acceptEnd method. Accepts a visitor for visiting the end of the shape."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Drawing/shape/acceptEnd/
+url: /nodejs-net/aspose.words.drawing/shape/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

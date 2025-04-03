@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asFieldStart method. Cast node to [FieldStart](../../../aspose.words.fields/fieldstart/)."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/node/asFieldStart/
+url: /nodejs-net/aspose.words/node/asFieldStart/
 ---
 
 ## asFieldStart() {#default}

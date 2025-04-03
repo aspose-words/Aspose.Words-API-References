@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertOnlineVideo method"
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words/documentbuilder/insertOnlineVideo/
+url: /nodejs-net/aspose.words/documentbuilder/insertOnlineVideo/
 ---
 
 ## insertOnlineVideo(videoUrl, width, height) {#string_number_number}

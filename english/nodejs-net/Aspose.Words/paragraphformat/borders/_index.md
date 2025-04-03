@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.borders property. Gets collection of borders of the paragraph."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/paragraphformat/borders/
+url: /nodejs-net/aspose.words/paragraphformat/borders/
 ---
 
 ## ParagraphFormat.borders property

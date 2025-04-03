@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.cachedColBalance property. Use Cached Paragraph Information for Column Balancing."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/cachedColBalance/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/cachedColBalance/
 ---
 
 ## CompatibilityOptions.cachedColBalance property

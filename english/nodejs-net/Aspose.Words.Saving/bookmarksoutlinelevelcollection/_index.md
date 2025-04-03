@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.BookmarksOutlineLevelCollection class. A collection of individual bookmarks outline level"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 
 ## BookmarksOutlineLevelCollection class

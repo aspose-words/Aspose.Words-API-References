@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.leftMargin property. Returns or sets the distance (in points) between the left edge of the page and the left boundary of the body text."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/pagesetup/leftMargin/
+url: /nodejs-net/aspose.words/pagesetup/leftMargin/
 ---
 
 ## PageSetup.leftMargin property

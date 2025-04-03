@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.lastRow property. Returns the last [Row](../../../aspose.words.tables/row/) node in the table."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/table/lastRow/
+url: /nodejs-net/aspose.words/table/lastRow/
 ---
 
 ## Table.lastRow property

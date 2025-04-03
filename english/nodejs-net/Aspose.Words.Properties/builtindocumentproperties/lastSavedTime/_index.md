@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.lastSavedTime property. Gets or sets the time of the last save in UTC."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/lastSavedTime/
 ---
 
 ## BuiltInDocumentProperties.lastSavedTime property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionBinding.bindingType property. Specifies the binding type."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbinding/bindingType/
+url: /nodejs-net/aspose.words.webextensions/webextensionbinding/bindingType/
 ---
 
 ## WebExtensionBinding.bindingType property

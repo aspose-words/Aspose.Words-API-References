@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Rendering.NodeRendererBase.save method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Rendering/noderendererbase/save/
+url: /nodejs-net/aspose.words.rendering/noderendererbase/save/
 ---
 
 ## save(fileName, saveOptions) {#string_imagesaveoptions}

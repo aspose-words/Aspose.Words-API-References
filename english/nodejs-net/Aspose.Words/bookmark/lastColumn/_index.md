@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Bookmark.lastColumn property. Gets the zero-based index of the last column of the table column range associated with the bookmark."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/bookmark/lastColumn/
+url: /nodejs-net/aspose.words/bookmark/lastColumn/
 ---
 
 ## Bookmark.lastColumn property

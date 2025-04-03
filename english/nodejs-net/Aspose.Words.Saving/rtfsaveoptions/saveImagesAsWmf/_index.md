@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RtfSaveOptions.saveImagesAsWmf property. When ``true`` all images will be saved as WMF."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/saveImagesAsWmf/
+url: /nodejs-net/aspose.words.saving/rtfsaveoptions/saveImagesAsWmf/
 ---
 
 ## RtfSaveOptions.saveImagesAsWmf property

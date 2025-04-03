@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "UserInformation.name property. Gets or sets the user's name."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/userinformation/name/
+url: /nodejs-net/aspose.words.fields/userinformation/name/
 ---
 
 ## UserInformation.name property

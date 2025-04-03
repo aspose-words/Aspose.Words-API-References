@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagCollection.removeAt method. Removes a structured document tag at the specified index."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagcollection/removeAt/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

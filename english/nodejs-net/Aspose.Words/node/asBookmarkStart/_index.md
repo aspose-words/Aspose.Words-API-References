@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asBookmarkStart method. Cast node to [BookmarkStart](../../bookmarkstart/)."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/node/asBookmarkStart/
+url: /nodejs-net/aspose.words/node/asBookmarkStart/
 ---
 
 ## asBookmarkStart() {#default}

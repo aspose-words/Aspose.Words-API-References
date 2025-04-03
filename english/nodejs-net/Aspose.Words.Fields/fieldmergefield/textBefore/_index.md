@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMergeField.textBefore property. Gets or sets the text to be inserted before the field if the field is not blank."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldmergefield/textBefore/
+url: /nodejs-net/aspose.words.fields/fieldmergefield/textBefore/
 ---
 
 ## FieldMergeField.textBefore property

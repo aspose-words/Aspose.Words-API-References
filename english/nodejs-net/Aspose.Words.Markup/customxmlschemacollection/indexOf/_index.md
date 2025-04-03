@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlSchemaCollection.indexOf method. Returns the zero-based index of the specified value in the collection."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/customxmlschemacollection/indexOf/
+url: /nodejs-net/aspose.words.markup/customxmlschemacollection/indexOf/
 ---
 
 ## indexOf(value) {#string}

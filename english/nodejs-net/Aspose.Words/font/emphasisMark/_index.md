@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.emphasisMark property. Gets or sets the emphasis mark applied to this formatting."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/font/emphasisMark/
+url: /nodejs-net/aspose.words/font/emphasisMark/
 ---
 
 ## Font.emphasisMark property

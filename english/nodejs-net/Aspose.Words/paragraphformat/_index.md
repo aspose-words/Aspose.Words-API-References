@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ParagraphFormat class. Represents all the formatting for a paragraph"
 type: docs
 weight: 1020
-url: /nodejs-net/Aspose.Words/paragraphformat/
+url: /nodejs-net/aspose.words/paragraphformat/
 ---
 
 ## ParagraphFormat class

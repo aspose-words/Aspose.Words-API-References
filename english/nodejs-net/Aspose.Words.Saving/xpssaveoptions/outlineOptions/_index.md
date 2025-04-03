@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XpsSaveOptions.outlineOptions property. Allows to specify outline options."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/xpssaveoptions/outlineOptions/
+url: /nodejs-net/aspose.words.saving/xpssaveoptions/outlineOptions/
 ---
 
 ## XpsSaveOptions.outlineOptions property

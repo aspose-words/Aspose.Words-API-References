@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.acceptEnd method. Accepts a visitor for visiting the end of the StructuredDocumentTag."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/acceptEnd/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

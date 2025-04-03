@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.showBreaksInFrames property. Display Page/Column Breaks Present in Frames."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/showBreaksInFrames/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/showBreaksInFrames/
 ---
 
 ## CompatibilityOptions.showBreaksInFrames property

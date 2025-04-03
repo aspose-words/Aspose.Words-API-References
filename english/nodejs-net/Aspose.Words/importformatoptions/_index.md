@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ImportFormatOptions class. Allows to specify various import options to format output"
 type: docs
 weight: 630
-url: /nodejs-net/Aspose.Words/importformatoptions/
+url: /nodejs-net/aspose.words/importformatoptions/
 ---
 
 ## ImportFormatOptions class

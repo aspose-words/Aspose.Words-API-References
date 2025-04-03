@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AdjustmentCollection.count property. Gets the number of elements contained in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/adjustmentcollection/count/
+url: /nodejs-net/aspose.words.drawing/adjustmentcollection/count/
 ---
 
 ## AdjustmentCollection.count property

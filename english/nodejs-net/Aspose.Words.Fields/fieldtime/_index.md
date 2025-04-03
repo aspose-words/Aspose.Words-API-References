@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldTime class. Implements the TIME field"
 type: docs
 weight: 1030
-url: /nodejs-net/Aspose.Words.Fields/fieldtime/
+url: /nodejs-net/aspose.words.fields/fieldtime/
 ---
 
 ## FieldTime class

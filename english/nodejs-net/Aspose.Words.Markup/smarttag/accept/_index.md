@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SmartTag.accept method. Accepts a visitor."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/smarttag/accept/
+url: /nodejs-net/aspose.words.markup/smarttag/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.updatePageLayout method. Rebuilds the page layout of the document."
 type: docs
 weight: 780
-url: /nodejs-net/Aspose.Words/document/updatePageLayout/
+url: /nodejs-net/aspose.words/document/updatePageLayout/
 ---
 
 ## updatePageLayout() {#default}

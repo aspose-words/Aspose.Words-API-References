@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormFieldCollection.removeAt method. Removes a form field at the specified index."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/formfieldcollection/removeAt/
+url: /nodejs-net/aspose.words.fields/formfieldcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

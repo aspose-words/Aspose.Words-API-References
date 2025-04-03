@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SystemFontSource.getSystemFontFolders method. Returns system font folders or empty array if folders are not accessible."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/systemfontsource/getSystemFontFolders/
+url: /nodejs-net/aspose.words.fonts/systemfontsource/getSystemFontFolders/
 ---
 
 ## getSystemFontFolders() {#default}

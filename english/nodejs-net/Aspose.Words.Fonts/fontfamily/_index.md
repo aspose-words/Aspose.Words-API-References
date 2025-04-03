@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontFamily enumeration. Represents the font family."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fonts/fontfamily/
+url: /nodejs-net/aspose.words.fonts/fontfamily/
 ---
 
 ## FontFamily enumeration

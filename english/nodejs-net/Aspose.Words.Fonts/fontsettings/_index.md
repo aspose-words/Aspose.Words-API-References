@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontSettings class. Specifies font settings for a document"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/
+url: /nodejs-net/aspose.words.fonts/fontsettings/
 ---
 
 ## FontSettings class

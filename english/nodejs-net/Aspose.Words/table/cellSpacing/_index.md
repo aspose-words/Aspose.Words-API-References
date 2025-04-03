@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.cellSpacing property. Gets or sets the amount of space (in points) between the cells."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/table/cellSpacing/
+url: /nodejs-net/aspose.words/table/cellSpacing/
 ---
 
 ## Table.cellSpacing property

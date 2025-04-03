@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.placeholderName property. Gets or sets Name of the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/placeholderName/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/placeholderName/
 ---
 
 ## StructuredDocumentTag.placeholderName property

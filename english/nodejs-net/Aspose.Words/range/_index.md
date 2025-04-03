@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Range class. Represents a contiguous area in a document"
 type: docs
 weight: 1060
-url: /nodejs-net/Aspose.Words/range/
+url: /nodejs-net/aspose.words/range/
 ---
 
 ## Range class

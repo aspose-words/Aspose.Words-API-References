@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FixedPageSaveOptions.pageSavingCallback property. Allows to control how separate pages are saved when a document is exported to fixed page format."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/pageSavingCallback/
+url: /nodejs-net/aspose.words.saving/fixedpagesaveoptions/pageSavingCallback/
 ---
 
 ## FixedPageSaveOptions.pageSavingCallback property

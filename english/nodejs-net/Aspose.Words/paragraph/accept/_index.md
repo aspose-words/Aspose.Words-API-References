@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.accept method. Accepts a visitor."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/paragraph/accept/
+url: /nodejs-net/aspose.words/paragraph/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

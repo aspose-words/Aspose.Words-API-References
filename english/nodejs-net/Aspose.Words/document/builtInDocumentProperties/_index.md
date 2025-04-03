@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.builtInDocumentProperties property. Returns a collection that represents all the built-in document properties of the document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/document/builtInDocumentProperties/
+url: /nodejs-net/aspose.words/document/builtInDocumentProperties/
 ---
 
 ## Document.builtInDocumentProperties property

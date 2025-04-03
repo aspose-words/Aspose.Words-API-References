@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomDocumentProperties.addLinkToContent method. Creates a new linked to content custom document property."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Properties/customdocumentproperties/addLinkToContent/
+url: /nodejs-net/aspose.words.properties/customdocumentproperties/addLinkToContent/
 ---
 
 ## addLinkToContent(name, linkSource) {#string_string}

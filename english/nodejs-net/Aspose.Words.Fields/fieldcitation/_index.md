@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldCitation class. Implements the CITATION field"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Fields/fieldcitation/
+url: /nodejs-net/aspose.words.fields/fieldcitation/
 ---
 
 ## FieldCitation class

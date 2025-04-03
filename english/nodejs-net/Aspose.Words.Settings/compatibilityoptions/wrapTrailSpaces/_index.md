@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.wrapTrailSpaces property. Line Wrap Trailing Spaces."
 type: docs
 weight: 710
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/wrapTrailSpaces/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/wrapTrailSpaces/
 ---
 
 ## CompatibilityOptions.wrapTrailSpaces property

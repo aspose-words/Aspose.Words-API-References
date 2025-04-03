@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.LineNumberRestartMode enumeration. Determines when automatic line numbering restarts."
 type: docs
 weight: 750
-url: /nodejs-net/Aspose.Words/linenumberrestartmode/
+url: /nodejs-net/aspose.words/linenumberrestartmode/
 ---
 
 ## LineNumberRestartMode enumeration

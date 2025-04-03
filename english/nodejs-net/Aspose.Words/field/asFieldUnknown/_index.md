@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldUnknown method. "
 type: docs
 weight: 1010
-url: /nodejs-net/Aspose.Words/field/asFieldUnknown/
+url: /nodejs-net/aspose.words/field/asFieldUnknown/
 ---
 
 ## asFieldUnknown() {#default}
