@@ -80,17 +80,17 @@ These are links to some useful resources:
 - [Aspose.Words for Python via .NET API Reference](/words/python-net/)
 - [Aspose.Words for Python via .NET API Tutorials](/tutorials/words/python-net/)
 
-## Aspose.Words for Node.js via .NET
+## Aspose.Words for NodeJS via .NET
 
 {{% alert color="primary" %}}
 
-![Aspose.Words for Node.js via .NET Product Logo](home_7.png)
+![Aspose.Words for NodeJS via .NET Product Logo](home_7.png)
 
-The Aspose.Words for Node.js API Reference  is a comprehensive documentation resource for Node.js developers. With the help of this powerful API, developers can programmatically create, modify, and manipulate Word documents, offering a wide range of features for document generation, formatting, and transformation. Whether the task at hand involves automating document workflows, extracting data, or performing complex document manipulations, the Aspose.Words for Node.js API Reference provides detailed documentation and code samples to effectively utilize the API's extensive functionality.
+The Aspose.Words for NodeJS API Reference  is a comprehensive documentation resource for NodeJS developers. With the help of this powerful API, developers can programmatically create, modify, and manipulate Word documents, offering a wide range of features for document generation, formatting, and transformation. Whether the task at hand involves automating document workflows, extracting data, or performing complex document manipulations, the Aspose.Words for NodeJS API Reference provides detailed documentation and code samples to effectively utilize the API's extensive functionality.
 
-By utilizing the Aspose.Words for Node.js API Reference, developers can seamlessly integrate document processing capabilities into their Node.js applications. The API offers intuitive methods and properties that facilitate working with various document elements, including paragraphs, tables, images, and more. From manipulating content and formatting to handling complex layouts and executing mail merge operations, the API provides a rich set of features, allowing for precise control over Word documents. By referencing the API documentation, developers can unlock the full potential of Aspose.Words for Node.js, streamlining their document processing tasks and delivering high-quality, professional documents efficiently and effectively.
+By utilizing the Aspose.Words for NodeJS API Reference, developers can seamlessly integrate document processing capabilities into their NodeJS applications. The API offers intuitive methods and properties that facilitate working with various document elements, including paragraphs, tables, images, and more. From manipulating content and formatting to handling complex layouts and executing mail merge operations, the API provides a rich set of features, allowing for precise control over Word documents. By referencing the API documentation, developers can unlock the full potential of Aspose.Words for NodeJS, streamlining their document processing tasks and delivering high-quality, professional documents efficiently and effectively.
 
 {{% /alert %}}
 
 These are links to some useful resources:
-- [Aspose.Words for Node.js via .NET API Reference](/words/nodejs-net/)
+- [Aspose.Words for NodeJS via .NET API Reference](/words/nodejs-net/)
